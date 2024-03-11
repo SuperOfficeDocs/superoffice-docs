@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 92,
-      "ColumnId": 982,
-      "FieldDefault": "harum",
-      "FieldHeight": 462,
-      "FieldLabel": "dolore",
-      "FieldLeft": 377,
-      "FieldTop": 934,
+      "UDefFieldId": 671,
+      "ColumnId": 932,
+      "FieldDefault": "possimus",
+      "FieldHeight": 830,
+      "FieldLabel": "voluptas",
+      "FieldLeft": 889,
+      "FieldTop": 92,
       "FieldType": "Checkbox",
-      "FieldWidth": 686,
-      "FormatMask": "vero",
+      "FieldWidth": 131,
+      "FormatMask": "hic",
       "HideLabel": false,
-      "IsIndexed": false,
-      "LabelHeight": 327,
-      "LabelLeft": 842,
-      "LabelTop": 803,
-      "LabelWidth": 981,
-      "LastVersionId": 82,
-      "ListTableId": 55,
-      "IsMandatory": false,
+      "IsIndexed": true,
+      "LabelHeight": 40,
+      "LabelLeft": 368,
+      "LabelTop": 886,
+      "LabelWidth": 25,
+      "LastVersionId": 672,
+      "ListTableId": 591,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 933,
-      "ProgId": "deleniti",
+      "Page1LineNo": 94,
+      "ProgId": "voluptas",
       "IsReadOnly": false,
-      "ShortLabel": "voluptates",
-      "TabOrder": 737,
-      "TextLength": 463,
-      "Tooltip": "est",
-      "UdefIdentity": 367,
-      "UDListDefinitionId": 724,
+      "ShortLabel": "pariatur",
+      "TabOrder": 624,
+      "TextLength": 489,
+      "Tooltip": "quos",
+      "UdefIdentity": 98,
+      "UDListDefinitionId": 840,
       "Justification": "Center",
-      "Version": 646,
-      "TemplateVariableName": "Rowe, Maggio and Gulgowski",
+      "Version": 685,
+      "TemplateVariableName": "Quigley, Ebert and Corwin",
       "HasBeenPublished": true,
-      "MdoListName": "Gibson, Metz and Bode"
+      "MdoListName": "Williamson, Braun and Predovic"
     }
   ]
 }

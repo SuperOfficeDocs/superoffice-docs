@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "Name": "Walsh LLC",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 634,
-  "IsCustomList": true,
+  "Id": 616,
+  "Name": "Balistreri Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 78,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cum",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "quos",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Keebler, Spinka and Quitzon",
-  "Tooltip": "alias",
-  "Deleted": false,
-  "Rank": 141,
+  "Id": 429,
+  "Name": "Hintz LLC",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 965,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "odit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 327
     }
   }
 }

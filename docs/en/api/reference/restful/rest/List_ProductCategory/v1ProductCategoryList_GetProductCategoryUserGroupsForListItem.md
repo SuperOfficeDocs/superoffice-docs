@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Heller LLC",
-    "ToolTip": "Temporibus autem.",
+    "Id": 140,
+    "Name": "Hagenes, Hansen and Fisher",
+    "ToolTip": "Accusantium adipisci sed ut.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "ratione",
-    "ColorBlock": 432,
-    "IconHint": "et",
+    "Rank": 56,
+    "Type": "atque",
+    "ColorBlock": 26,
+    "IconHint": "beatae",
     "Selected": true,
-    "LastChanged": "2009-02-22T10:30:33.1005836+01:00",
+    "LastChanged": "2017-02-12T14:23:56.1970747+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Stokes, Murazik and Feil",
-        "ToolTip": "Reprehenderit nostrum quae consequatur fugit et necessitatibus porro.",
-        "Deleted": false,
-        "Rank": 714,
-        "Type": "aut",
-        "ColorBlock": 326,
-        "IconHint": "sit",
+        "Id": 366,
+        "Name": "VonRueden Group",
+        "ToolTip": "Doloremque iure.",
+        "Deleted": true,
+        "Rank": 304,
+        "Type": "mollitia",
+        "ColorBlock": 954,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2001-11-17T10:30:33.1005836+01:00",
+        "LastChanged": "1998-11-20T14:23:56.1970747+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nihil",
+        "ExtraInfo": "corporis",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Ari Altenwerth",
+        "FullName": "Fausto Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 33
+            "FieldType": "System.Int32",
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Teagan Pouros",
+    "ExtraInfo": "totam",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Darien Kamron Koss DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldLength": 874
       }
     }
   }

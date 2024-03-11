@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 302,
-  "Name": "Schmeler, Haley and Schneider",
-  "Tooltip": "quaerat",
+  "RoleId": 900,
+  "Name": "Douglas, Goyette and Koepp",
+  "Tooltip": "enim",
   "RoleType": "Anonymous",
-  "Deleted": 738,
-  "Rank": 907,
-  "Created": "2009-02-24T10:30:24.9985809+01:00",
-  "UseCategories": 676,
+  "Deleted": 702,
+  "Rank": 302,
+  "Created": "2010-03-16T14:23:47.8473753+01:00",
+  "UseCategories": 168,
   "CreatedBy": null,
-  "Updated": "2014-05-02T10:30:24.9985809+02:00",
+  "Updated": "2012-02-22T14:23:47.8473753+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldLength": 941
     }
   }
 }

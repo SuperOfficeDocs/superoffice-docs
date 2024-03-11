@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 224,
-  "Section": "et",
-  "Key": "et",
-  "Name": "Hahn-Emmerich",
+  "PrefDescId": 620,
+  "Section": "adipisci",
+  "Key": "sed",
+  "Name": "Collier-Daniel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly reciprocal standardization",
+  "Description": "Reactive disintermediate benchmark",
   "IsBuiltin": false,
-  "TableName": "Bauch, Rau and Kuhlman",
-  "UserDefinedListId": 278,
-  "Rank": 976,
-  "SubGroup": "cupiditate",
-  "MinLevel": 438,
-  "MaxValue": 13,
-  "MinValue": 882,
-  "RequiredLicense": "eligendi",
+  "TableName": "Huels-Hagenes",
+  "UserDefinedListId": 674,
+  "Rank": 524,
+  "SubGroup": "dolor",
+  "MinLevel": 915,
+  "MaxValue": 482,
+  "MinValue": 111,
+  "RequiredLicense": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   }
 }

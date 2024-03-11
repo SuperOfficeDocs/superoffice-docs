@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 754,
-  "CurrencyId": 857
+  "QuoteConnectionId": 88,
+  "CurrencyId": 849
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 274,
-    "ERPPriceListKey": "aut",
-    "QuoteConnectionId": 943,
-    "Name": "Sawayn Inc and Sons",
-    "Description": "Up-sized hybrid flexibility",
-    "Currency": "recusandae",
-    "CurrencyName": "Fritsch, Barton and Mills",
-    "ValidFrom": "2017-10-26T10:30:24.4346264+02:00",
-    "ValidTo": "2002-05-15T10:30:24.4346264+02:00",
+    "PriceListId": 316,
+    "ERPPriceListKey": "doloribus",
+    "QuoteConnectionId": 565,
+    "Name": "Doyle Inc and Sons",
+    "Description": "Organic solution-oriented collaboration",
+    "Currency": "nobis",
+    "CurrencyName": "Shields Inc and Sons",
+    "ValidFrom": "2022-05-12T14:23:47.2536317+02:00",
+    "ValidTo": "2020-06-08T14:23:47.2536317+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

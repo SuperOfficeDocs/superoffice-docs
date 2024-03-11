@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "Name": "Bartell Inc and Sons",
-  "Tooltip": "eos",
+  "Id": 537,
+  "Name": "Gerhold, Hegmann and Wolf",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "UdListDefinitionId": 114,
-  "Rank": 195,
+  "UdListDefinitionId": 315,
+  "Rank": 313,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 11
     }
   }
 }

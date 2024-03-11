@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Jan 2017 10:30:32 G1T
+Last-Modified: Fri, 03 Apr 2020 14:23:55 G4T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Wed, 11 Jan 2017 10:30:32 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "animi",
+  "SaleText": "consequuntur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Wed, 11 Jan 2017 10:30:32 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-08-22T10:30:32.4343852+02:00",
-  "Amount": 24138.068,
-  "SaleId": 98,
-  "Earning": 8565.222,
-  "EarningPercent": 394.884,
-  "Heading": "ut",
-  "Number": "981506",
-  "Probability": 203,
-  "CreatedDate": "2005-02-05T10:30:32.4343852+01:00",
-  "UpdatedDate": "2017-01-11T10:30:32.4343852+01:00",
+  "Saledate": "2002-04-09T14:23:55.447083+02:00",
+  "Amount": 1776.9779999999998,
+  "SaleId": 129,
+  "Earning": 6854.058,
+  "EarningPercent": 601.728,
+  "Heading": "praesentium",
+  "Number": "882801",
+  "Probability": 787,
+  "CreatedDate": "2020-12-21T14:23:55.447083+01:00",
+  "UpdatedDate": "2020-04-03T14:23:55.447083+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 396,
+  "ActiveLinks": 983,
   "Links": [
     {
-      "EntityName": "Gutkowski, Shanahan and Smitham",
-      "Id": 392,
-      "Description": "User-centric systematic ability",
-      "ExtraInfo": "sapiente",
-      "LinkId": 141,
+      "EntityName": "Howe, Hansen and Mueller",
+      "Id": 423,
+      "Description": "Devolved attitude-oriented middleware",
+      "ExtraInfo": "quibusdam",
+      "LinkId": 189,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 23
+          "FieldLength": 583
         }
       }
     }
   ],
-  "NextDueDate": "2021-06-10T10:30:32.4343852+02:00",
-  "Postit": "ullam",
+  "NextDueDate": "2015-04-18T14:23:55.447083+02:00",
+  "Postit": "suscipit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-04-26T10:30:32.4343852+02:00",
+  "ReopenDate": "2024-01-26T14:23:55.447083+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lubowitz, Cole and Spinka",
-      "Comment": "ratione",
-      "StakeholderRoleId": 583,
-      "CountryId": 226,
-      "PersonId": 993,
-      "EmailDescription": "lambert.mosciski@mraz.ca",
-      "EmailId": 166,
-      "EmailAddress": "hal.shields@gislason.biz",
-      "PhoneId": 320,
-      "ContactName": "Schaefer Inc and Sons",
-      "ContactId": 416,
-      "SaleId": 106,
-      "Mrmrs": "rerum",
-      "Firstname": "Bernadette",
-      "MiddleName": "Brown, Hintz and Ryan",
-      "Lastname": "Russel",
-      "SaleStakeholderId": 384,
-      "Rank": 262,
-      "Phone": "876.115.3671 x407",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 351
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 56,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Josefa Krajcik DVM"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "pariatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "facilis"
-  },
-  "PublishEventDate": "1999-08-28T10:30:32.4343852+02:00",
-  "PublishTo": "1999-08-07T10:30:32.4343852+02:00",
-  "PublishFrom": "2013-05-31T10:30:32.4343852+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 716,
-      "Visibility": "All",
-      "DisplayValue": "magni",
+      "StakeholderRoleName": "Schinner Inc and Sons",
+      "Comment": "optio",
+      "StakeholderRoleId": 586,
+      "CountryId": 805,
+      "PersonId": 642,
+      "EmailDescription": "gregory.mueller@farrell.com",
+      "EmailId": 413,
+      "EmailAddress": "olin_graham@krajcik.ca",
+      "PhoneId": 298,
+      "ContactName": "Reinger-Moore",
+      "ContactId": 214,
+      "SaleId": 579,
+      "Mrmrs": "maxime",
+      "Firstname": "Kathleen",
+      "MiddleName": "Wehner Inc and Sons",
+      "Lastname": "Maggio",
+      "SaleStakeholderId": 786,
+      "Rank": 551,
+      "Phone": "513-614-4615",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldLength": 446
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 978,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "iste",
+    "ExtraFields2": "voluptates"
+  },
+  "CustomFields": {
+    "CustomFields1": "culpa",
+    "CustomFields2": "voluptatem"
+  },
+  "PublishEventDate": "2023-12-30T14:23:55.447083+01:00",
+  "PublishTo": "2015-04-16T14:23:55.447083+02:00",
+  "PublishFrom": "2005-04-01T14:23:55.447083+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 526,
+      "Visibility": "All",
+      "DisplayValue": "in",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     },
     {
-      "VisibleId": 716,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldLength": 528
         }
       }
     }
@@ -260,13 +260,13 @@ Last-Modified: Wed, 11 Jan 2017 10:30:32 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

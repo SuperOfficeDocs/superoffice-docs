@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 449,
-  "ConnectorName": "Jast Inc and Sons"
+  "ConnectionId": 198,
+  "ConnectorName": "Jewess-Jaskolski"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "commodi",
-    "Rank": 170,
-    "DisplayName": "Kautzer-Hirthe",
-    "DisplayDescription": "Cross-platform logistical process improvement",
+    "FieldKey": "voluptas",
+    "Rank": 763,
+    "DisplayName": "Aufderhar Group",
+    "DisplayDescription": "Streamlined homogeneous attitude",
     "FieldType": "Checkbox",
-    "ListName": "Brekke, Romaguera and Casper",
-    "DefaultValue": "perspiciatis",
-    "MaxLength": 729,
+    "ListName": "Pouros Group",
+    "DefaultValue": "fugiat",
+    "MaxLength": 766,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 744
       }
     }
   }

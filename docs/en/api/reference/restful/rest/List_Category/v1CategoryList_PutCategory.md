@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Kohler Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 520,
-  "Rank": 133
+  "Id": 477,
+  "Name": "Schultz-Zulauf",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 216,
+  "Rank": 59
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 429,
-  "Name": "Ortiz, Rogahn and O'Reilly",
-  "Tooltip": "non",
+  "Id": 17,
+  "Name": "Quitzon, Ryan and Kiehn",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 60,
-  "Rank": 462,
+  "UdListDefinitionId": 519,
+  "Rank": 824,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 156
     }
   }
 }

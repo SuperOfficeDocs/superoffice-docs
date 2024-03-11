@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 296,
-  "StartTime": "2019-04-06T10:30:23.5769016+02:00",
-  "EndTime": "2013-12-27T10:30:23.5769016+01:00",
-  "Count": 740,
-  "DocumentTemplateId": 28
+  "ContactId": 652,
+  "StartTime": "2020-04-25T14:23:46.2824577+02:00",
+  "EndTime": "2003-09-26T14:23:46.2824577+02:00",
+  "Count": 629,
+  "DocumentTemplateId": 432
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 815,
-    "Attention": "qui",
-    "Header": "explicabo",
-    "Name": "Jerde LLC",
-    "OurRef": "illum",
-    "YourRef": "et",
-    "Description": "Seamless motivating adapter",
-    "DocumentTemplate": "recusandae",
+    "DocumentId": 329,
+    "Attention": "eaque",
+    "Header": "ipsum",
+    "Name": "Jacobi Group",
+    "OurRef": "reprehenderit",
+    "YourRef": "nesciunt",
+    "Description": "Switchable transitional frame",
+    "DocumentTemplate": "ut",
     "IsPublished": false,
-    "PersonId": 951,
-    "PersonFullName": "Selmer Rutherford",
-    "AssociateFullName": "Aditya Sawayn",
-    "ContactId": 307,
-    "ContactName": "Pollich LLC",
-    "ProjectId": 883,
-    "ProjectName": "Gutmann Group",
-    "AssociateId": 431,
-    "Snum": 448,
-    "SaleId": 464,
-    "SaleName": "Bogisich-Roberts",
+    "PersonId": 220,
+    "PersonFullName": "Prof. Willy Derick Nikolaus",
+    "AssociateFullName": "Ezekiel Hayley White I",
+    "ContactId": 284,
+    "ContactName": "Jenkins-Leuschke",
+    "ProjectId": 264,
+    "ProjectName": "Mraz Group",
+    "AssociateId": 264,
+    "Snum": 471,
+    "SaleId": 8,
+    "SaleName": "Nienow LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 865
       }
     }
   }

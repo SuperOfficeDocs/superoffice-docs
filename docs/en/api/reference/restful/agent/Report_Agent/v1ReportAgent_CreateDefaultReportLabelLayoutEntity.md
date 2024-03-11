@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 912,
-  "Name": "Greenfelder-Graham",
-  "Description": "Sharable tangible portal",
+  "ReportLabelLayoutId": 25,
+  "Name": "Green, Grant and Schuppe",
+  "Description": "Multi-lateral needs-based hierarchy",
   "Orientation": "Landscape",
-  "PaperWidth": 430,
-  "PaperHeight": 276,
-  "LeftMargin": 938,
-  "RightMargin": 790,
-  "TopMargin": 455,
-  "BottomMargin": 320,
-  "CountColumns": 75,
-  "CountRows": 71,
+  "PaperWidth": 643,
+  "PaperHeight": 3,
+  "LeftMargin": 70,
+  "RightMargin": 473,
+  "TopMargin": 896,
+  "BottomMargin": 224,
+  "CountColumns": 76,
+  "CountRows": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   }
 }

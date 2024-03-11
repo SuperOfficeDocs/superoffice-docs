@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sunt
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ratione
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Nov 2001 10:30:32 G11T
+Last-Modified: Mon, 29 Dec 2014 14:23:55 G12T
 
 {
-  "Key": "ut",
-  "Value": "id",
-  "RecordId": 908,
-  "CreatedDate": "2012-05-07T10:30:32.0886795+02:00",
-  "UpdatedDate": "2001-11-17T10:30:32.0886795+01:00",
-  "UpdatedBy": "tempore",
-  "CreatedBy": "possimus",
-  "TableName": "Dickens, Kovacek and Beatty",
+  "Key": "enim",
+  "Value": "voluptatum",
+  "RecordId": 833,
+  "CreatedDate": "1996-12-31T14:23:55.195897+01:00",
+  "UpdatedDate": "2014-12-29T14:23:55.195897+01:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "amet",
+  "TableName": "Hyatt Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 30
     }
   }
 }

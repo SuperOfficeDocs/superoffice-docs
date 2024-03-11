@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "eos"
+  "FileContent": "ut"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 59,
-      "NumberOfLicensesFree": 153,
-      "NumberOfLicensesAdded": 686,
-      "NumberOfLicensesNewTotal": 456,
-      "NumberOfLicensesNewFree": 797,
-      "NumberOfLicensesTotal": 728
+      "NumberOfLicensesInUse": 973,
+      "NumberOfLicensesFree": 30,
+      "NumberOfLicensesAdded": 148,
+      "NumberOfLicensesNewTotal": 567,
+      "NumberOfLicensesNewFree": 637,
+      "NumberOfLicensesTotal": 679
     }
   ],
-  "AccumulatedNextCheckDate": "2015-10-13T10:30:23.9428584+02:00"
+  "AccumulatedNextCheckDate": "2014-11-02T14:23:46.7837295+01:00"
 }
 ```

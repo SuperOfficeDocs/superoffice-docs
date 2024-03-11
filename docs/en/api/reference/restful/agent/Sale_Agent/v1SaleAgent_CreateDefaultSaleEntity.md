@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "praesentium",
+  "SaleText": "nihil",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-05-13T10:30:24.4971306+02:00",
-  "Amount": 2529.138,
-  "SaleId": 464,
-  "Earning": 2920.888,
-  "EarningPercent": 827.376,
-  "Heading": "est",
-  "Number": "1832111",
-  "Probability": 459,
-  "CreatedDate": "2003-10-02T10:30:24.4971306+02:00",
-  "UpdatedDate": "2008-05-31T10:30:24.4971306+02:00",
+  "Saledate": "2014-12-17T14:23:47.3161332+01:00",
+  "Amount": 8652.974,
+  "SaleId": 340,
+  "Earning": 7587.414,
+  "EarningPercent": 17164.917999999998,
+  "Heading": "nisi",
+  "Number": "1415803",
+  "Probability": 462,
+  "CreatedDate": "2000-10-13T14:23:47.3161332+02:00",
+  "UpdatedDate": "2023-09-20T14:23:47.3161332+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 537,
+  "ActiveLinks": 888,
   "Links": [
     {
-      "EntityName": "Weber Inc and Sons",
-      "Id": 1002,
-      "Description": "Optimized tertiary matrix",
-      "ExtraInfo": "voluptas",
-      "LinkId": 299,
+      "EntityName": "Koelpin LLC",
+      "Id": 819,
+      "Description": "Secured neutral migration",
+      "ExtraInfo": "qui",
+      "LinkId": 920,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 977
         }
       }
     }
   ],
-  "NextDueDate": "2016-11-27T10:30:24.4971306+01:00",
-  "Postit": "recusandae",
+  "NextDueDate": "2010-01-26T14:23:47.3161332+01:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-01-24T10:30:24.4971306+01:00",
+  "ReopenDate": "2014-02-26T14:23:47.3161332+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kertzmann, Padberg and Robel",
-      "Comment": "quia",
-      "StakeholderRoleId": 272,
-      "CountryId": 462,
-      "PersonId": 565,
-      "EmailDescription": "jose@littletromp.com",
-      "EmailId": 510,
-      "EmailAddress": "felicity.streich@cole.co.uk",
-      "PhoneId": 742,
-      "ContactName": "Crooks-Schuppe",
-      "ContactId": 22,
-      "SaleId": 385,
-      "Mrmrs": "adipisci",
-      "Firstname": "Elinor",
-      "MiddleName": "Thiel LLC",
-      "Lastname": "Metz",
-      "SaleStakeholderId": 678,
-      "Rank": 889,
-      "Phone": "178-241-9910 x03299",
+      "StakeholderRoleName": "Crona, Weimann and Abshire",
+      "Comment": "temporibus",
+      "StakeholderRoleId": 372,
+      "CountryId": 786,
+      "PersonId": 555,
+      "EmailDescription": "jayde@white.us",
+      "EmailId": 7,
+      "EmailAddress": "jess@ornstamm.com",
+      "PhoneId": 605,
+      "ContactName": "Kemmer-Fay",
+      "ContactId": 275,
+      "SaleId": 180,
+      "Mrmrs": "ut",
+      "Firstname": "Genesis",
+      "MiddleName": "Jast, Gaylord and Rempel",
+      "Lastname": "Sauer",
+      "SaleStakeholderId": 654,
+      "Rank": 588,
+      "Phone": "182.999.3359 x94963",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 943
+          "FieldLength": 373
         }
       }
     }
   ],
-  "ActiveErpLinks": 915,
+  "ActiveErpLinks": 894,
   "UserDefinedFields": {
-    "SuperOffice:1": "Darrick Brekke",
-    "SuperOffice:2": "1121580329"
+    "SuperOffice:1": "Tito VonRueden",
+    "SuperOffice:2": "735983218"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "sint",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2014-12-09T10:30:24.4971306+01:00",
-  "PublishTo": "2023-12-06T10:30:24.4971306+01:00",
-  "PublishFrom": "2014-06-28T10:30:24.4971306+02:00",
+  "PublishEventDate": "1997-01-23T14:23:47.3161332+01:00",
+  "PublishTo": "1998-11-06T14:23:47.3161332+01:00",
+  "PublishFrom": "2017-10-02T14:23:47.3161332+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 9,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldType": "System.Int32",
+          "FieldLength": 831
         }
       }
     },
     {
-      "VisibleId": 9,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldType": "System.Int32",
+          "FieldLength": 831
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 378
     }
   }
 }

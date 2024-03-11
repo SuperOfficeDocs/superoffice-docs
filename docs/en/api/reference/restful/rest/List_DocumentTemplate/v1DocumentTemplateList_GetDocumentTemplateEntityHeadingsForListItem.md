@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Labadie Group",
-    "ToolTip": "Et sunt dolorum architecto vel quaerat qui accusamus.",
+    "Id": 287,
+    "Name": "Torphy Group",
+    "ToolTip": "Ea doloremque pariatur sit qui quis.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "aliquam",
-    "ColorBlock": 574,
-    "IconHint": "sapiente",
+    "Rank": 103,
+    "Type": "nam",
+    "ColorBlock": 433,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "1998-07-23T10:30:33.0055846+02:00",
+    "LastChanged": "2002-06-13T14:23:56.1033275+02:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Weissnat-Fahey",
-        "ToolTip": "Qui sunt illum delectus dignissimos reiciendis neque provident.",
+        "Id": 505,
+        "Name": "Gusikowski, Kozey and Larson",
+        "ToolTip": "Ad qui ut aut nihil.",
         "Deleted": false,
-        "Rank": 384,
-        "Type": "incidunt",
-        "ColorBlock": 872,
-        "IconHint": "qui",
+        "Rank": 107,
+        "Type": "quia",
+        "ColorBlock": 386,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2020-10-07T10:30:33.0055846+02:00",
+        "LastChanged": "2005-05-17T14:23:56.1033275+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Remington Hilpert",
+        "ExtraInfo": "iusto",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Stacy Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 329
+            "FieldType": "System.Int32",
+            "FieldLength": 913
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "unde",
+    "ExtraInfo": "dolores",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Dr. Delaney Blick",
+    "FullName": "Prof. Jamaal Sonia Boehm I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 884
       }
     }
   }

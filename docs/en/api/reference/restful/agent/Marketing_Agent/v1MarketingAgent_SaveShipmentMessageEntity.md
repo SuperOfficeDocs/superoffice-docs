@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 793,
-  "PlainMessage": "at",
-  "HtmlMessage": "odio",
-  "SmsMessage": "repudiandae",
-  "Description": "Configurable scalable function",
-  "Subject": "quos",
-  "FolderId": 623,
-  "HeaderField": "vitae",
-  "Design": "omnis",
+  "ShipmentMessageId": 544,
+  "PlainMessage": "vel",
+  "HtmlMessage": "enim",
+  "SmsMessage": "ut",
+  "Description": "Distributed asynchronous capability",
+  "Subject": "ut",
+  "FolderId": 320,
+  "HeaderField": "impedit",
+  "Design": "distinctio",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Stand-alone actuating data-warehouse",
-  "AccessKey": "in",
-  "DocumentMessage": 568,
-  "Registered": "2017-11-23T10:30:24.1037706+01:00",
-  "RegisteredAssociateId": 309,
-  "Updated": "2012-07-16T10:30:24.1037706+02:00",
-  "UpdatedAssociateId": 157,
-  "UpdatedCount": 523
+  "LongDescription": "User-friendly contextually-based emulation",
+  "AccessKey": "saepe",
+  "DocumentMessage": 858,
+  "Registered": "2019-05-04T14:23:46.9098888+02:00",
+  "RegisteredAssociateId": 916,
+  "Updated": "2002-03-25T14:23:46.9098888+01:00",
+  "UpdatedAssociateId": 882,
+  "UpdatedCount": 207
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 743,
-  "PlainMessage": "nisi",
-  "HtmlMessage": "illo",
-  "SmsMessage": "velit",
-  "Description": "Fundamental holistic attitude",
-  "Subject": "fugit",
-  "FolderId": 835,
-  "HeaderField": "velit",
-  "Design": "amet",
+  "ShipmentMessageId": 169,
+  "PlainMessage": "mollitia",
+  "HtmlMessage": "sit",
+  "SmsMessage": "suscipit",
+  "Description": "Exclusive responsive pricing structure",
+  "Subject": "molestiae",
+  "FolderId": 282,
+  "HeaderField": "perferendis",
+  "Design": "dolores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Configurable dedicated product",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 570,
-  "Registered": "2007-09-07T10:30:24.1037706+02:00",
-  "RegisteredAssociateId": 52,
-  "Updated": "2001-10-07T10:30:24.1037706+02:00",
-  "UpdatedAssociateId": 901,
-  "UpdatedCount": 649,
+  "LongDescription": "Polarised modular infrastructure",
+  "AccessKey": "ut",
+  "DocumentMessage": 913,
+  "Registered": "2007-03-19T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 545,
+  "Updated": "2010-04-17T14:23:46.9098888+02:00",
+  "UpdatedAssociateId": 725,
+  "UpdatedCount": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

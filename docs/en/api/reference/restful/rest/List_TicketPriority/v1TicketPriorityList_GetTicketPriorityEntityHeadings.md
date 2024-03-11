@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Halvorson-Watsica",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 984,
-    "UdListDefinitionId": 235,
+    "HeadingId": 824,
+    "Name": "Lueilwitz-Swaniawski",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "Rank": 586,
+    "UdListDefinitionId": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 655
       }
     }
   }

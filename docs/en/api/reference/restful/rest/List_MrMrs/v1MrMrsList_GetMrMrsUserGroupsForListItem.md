@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Hyatt-Kilback",
-    "ToolTip": "Omnis numquam autem quibusdam ut eos soluta.",
+    "Id": 818,
+    "Name": "Waters, Grady and Ondricka",
+    "ToolTip": "Quas eum omnis asperiores velit incidunt.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "placeat",
-    "ColorBlock": 121,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2017-11-09T10:30:33.0212063+01:00",
+    "Rank": 868,
+    "Type": "impedit",
+    "ColorBlock": 461,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2006-10-28T14:23:56.1345776+02:00",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Trantow, Ziemann and O'Kon",
-        "ToolTip": "Voluptatem corrupti voluptas eos.",
+        "Id": 546,
+        "Name": "Welch Inc and Sons",
+        "ToolTip": "Atque nobis facere.",
         "Deleted": false,
-        "Rank": 307,
-        "Type": "est",
-        "ColorBlock": 347,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-07-28T10:30:33.0212063+02:00",
+        "Rank": 122,
+        "Type": "dolor",
+        "ColorBlock": 961,
+        "IconHint": "eveniet",
+        "Selected": true,
+        "LastChanged": "2012-02-15T14:23:56.1345776+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Hertha Koch",
+        "ExtraInfo": "quis",
+        "StyleHint": "nam",
+        "Hidden": true,
+        "FullName": "Gloria Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 641
+            "FieldType": "System.Int32",
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "illo",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Ron Hackett",
+    "FullName": "Bonnie Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldType": "System.String",
+        "FieldLength": 860
       }
     }
   }

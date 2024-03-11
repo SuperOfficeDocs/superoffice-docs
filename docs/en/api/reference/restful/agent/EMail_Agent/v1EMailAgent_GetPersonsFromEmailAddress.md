@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "devin@huel.name"
+  "EmailAddress": "hosea_orn@robertsswaniawski.uk"
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "magni",
-    "PersonId": 146,
-    "Mrmrs": "sapiente",
-    "Firstname": "Irving",
-    "Lastname": "Botsford",
-    "MiddleName": "Denesik Inc and Sons",
-    "Title": "rerum",
-    "Description": "Universal encompassing approach",
-    "Email": "wilmer_howe@bergstrom.ca",
-    "FullName": "Mavis Morissette",
-    "DirectPhone": "219.232.6062 x7095",
-    "FormalName": "Marvin, Harber and Goyette",
-    "CountryId": 85,
-    "ContactId": 42,
-    "ContactName": "Reichel-Herzog",
-    "Retired": 853,
-    "Rank": 178,
-    "ActiveInterests": 691,
+    "Position": "et",
+    "PersonId": 877,
+    "Mrmrs": "quidem",
+    "Firstname": "Hoyt",
+    "Lastname": "Schulist",
+    "MiddleName": "Purdy, Blanda and Cummings",
+    "Title": "ut",
+    "Description": "Quality-focused zero defect frame",
+    "Email": "tyra@stokes.us",
+    "FullName": "Bernhard Abernathy",
+    "DirectPhone": "123-128-1511 x990",
+    "FormalName": "Herzog Group",
+    "CountryId": 696,
+    "ContactId": 788,
+    "ContactName": "Streich Inc and Sons",
+    "Retired": 230,
+    "Rank": 902,
+    "ActiveInterests": 872,
     "ContactDepartment": "",
-    "ContactCountryId": 780,
-    "ContactOrgNr": "1109315",
-    "FaxPhone": "165.924.0185 x1021",
-    "MobilePhone": "(384)862-7466 x55506",
-    "ContactPhone": "(420)717-2034",
-    "AssociateName": "Jerde Inc and Sons",
-    "AssociateId": 348,
+    "ContactCountryId": 324,
+    "ContactOrgNr": "741866",
+    "FaxPhone": "1-610-944-1752",
+    "MobilePhone": "1-199-313-3480",
+    "ContactPhone": "1-645-679-9304 x1940",
+    "AssociateName": "Feeney LLC",
+    "AssociateId": 958,
     "UsePersonAddress": false,
-    "ContactFax": "necessitatibus",
-    "Kanafname": "dignissimos",
-    "Kanalname": "aliquid",
-    "Post1": "totam",
-    "Post2": "ut",
-    "Post3": "sed",
-    "EmailName": "bert.feeney@russel.us",
-    "ContactFullName": "Prof. Samanta Ignatius Anderson",
-    "ActiveErpLinks": 617,
-    "TicketPriorityId": 409,
-    "SupportLanguageId": 80,
-    "SupportAssociateId": 113,
+    "ContactFax": "maxime",
+    "Kanafname": "enim",
+    "Kanalname": "cupiditate",
+    "Post1": "aut",
+    "Post2": "repellendus",
+    "Post3": "temporibus",
+    "EmailName": "branson@pouros.com",
+    "ContactFullName": "Prof. Sarina Raina Fahey DVM",
+    "ActiveErpLinks": 874,
+    "TicketPriorityId": 542,
+    "SupportLanguageId": 341,
+    "SupportAssociateId": 646,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

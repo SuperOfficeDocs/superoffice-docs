@@ -94,16 +94,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 867,
-  "Name": "Kerluke, Swift and Kilback",
+  "ScreenChooserId": 213,
+  "Name": "Toy LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "odio",
-  "Source": "repellendus",
-  "Registered": "2014-06-06T10:30:32.6543487+02:00",
-  "RegisteredAssociateId": 106,
-  "Updated": "1998-11-07T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 525
+  "UniqueIdentifier": "qui",
+  "Source": "reiciendis",
+  "Registered": "2011-11-30T14:23:55.7595795+01:00",
+  "RegisteredAssociateId": 818,
+  "Updated": "2014-08-14T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 935
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 777,
-  "Name": "Littel, Runolfsson and Gottlieb",
+  "ScreenChooserId": 696,
+  "Name": "Jenkins, Gerlach and Stroman",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "ut",
-  "Registered": "2007-02-24T10:30:32.6543487+01:00",
-  "RegisteredAssociateId": 362,
-  "Updated": "2019-04-05T10:30:32.6543487+02:00",
-  "UpdatedAssociateId": 359,
+  "UniqueIdentifier": "nihil",
+  "Source": "atque",
+  "Registered": "2022-11-30T14:23:55.7595795+01:00",
+  "RegisteredAssociateId": 882,
+  "Updated": "2011-09-21T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 61,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldLength": 487
     }
   }
 }

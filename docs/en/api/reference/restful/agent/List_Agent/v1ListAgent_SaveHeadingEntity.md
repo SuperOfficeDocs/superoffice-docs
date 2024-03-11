@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 142,
-  "Name": "Schimmel LLC",
-  "Tooltip": "doloremque",
+  "HeadingId": 389,
+  "Name": "Hayes-Hodkiewicz",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 446,
-  "UdListDefinitionId": 983
+  "Rank": 193,
+  "UdListDefinitionId": 734
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 972,
-  "Name": "Koss, Friesen and Homenick",
-  "Tooltip": "a",
+  "HeadingId": 957,
+  "Name": "Lemke Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 397,
-  "UdListDefinitionId": 809,
+  "Rank": 606,
+  "UdListDefinitionId": 417,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 546
     }
   }
 }

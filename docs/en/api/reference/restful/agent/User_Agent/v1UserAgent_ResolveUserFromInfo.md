@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 667,
-  "PersonName": "Rosenbaum-Rowe",
+  "ContactId": 477,
+  "PersonName": "Lowe, Maggio and Emard",
   "PhoneNumbers": [
-    "1666257",
-    "1183077"
+    "1578852",
+    "1546202"
   ],
   "Emails": [
-    "agustin_vonrueden@bernhard.biz",
-    "dale@maggio.name"
+    "trevor_ortiz@gulgowski.name",
+    "arden@heidenreich.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 537
     }
   }
 }

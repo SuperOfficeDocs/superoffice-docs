@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wiegand Group",
+  "TableName": "Haag Inc and Sons",
   "RecordIds": [
-    975,
-    757
+    357,
+    6
   ],
-  "AssociateId": 993,
-  "ExtraInfo": "ipsum"
+  "AssociateId": 73,
+  "ExtraInfo": "odio"
 }
 ```
 

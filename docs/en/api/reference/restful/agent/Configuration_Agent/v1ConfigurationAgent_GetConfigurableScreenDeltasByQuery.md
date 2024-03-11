@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 609,
-    "Name": "Stokes, Casper and Hickle",
-    "Description": "Ameliorated contextually-based array",
-    "DeltaJson": "voluptatem",
+    "ConfigurableScreenDeltaId": 142,
+    "Name": "Ziemann, Thiel and Larkin",
+    "Description": "Stand-alone background array",
+    "DeltaJson": "quod",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "beatae",
-    "UpdatedDate": "2022-02-12T10:30:23.2574424+01:00",
-    "CreatedDate": "2022-05-14T10:30:23.2574424+02:00",
+    "RecipeId": "quas",
+    "UpdatedDate": "2009-05-02T14:23:46.0637094+02:00",
+    "CreatedDate": "2016-02-08T14:23:46.0637094+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      889,
-      440
+      680,
+      828
     ],
-    "AppliesToKey": "iste",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldLength": 460
       }
     }
   }

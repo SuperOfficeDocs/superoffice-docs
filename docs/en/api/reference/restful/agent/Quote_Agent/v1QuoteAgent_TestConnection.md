@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Fadel Group",
+  "ConnectorName": "Nikolaus, Schuppe and Morissette",
   "ConnectionData": {
-    "ConnectionData1": "corporis",
-    "ConnectionData2": "adipisci"
+    "ConnectionData1": "consequatur",
+    "ConnectionData2": "amet"
   }
 }
 ```
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "eaque",
-  "ErrorCode": "quos",
+  "IsOk": true,
+  "UserExplanation": "placeat",
+  "TechExplanation": "enim",
+  "ErrorCode": "maiores",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 901
     }
   }
 }

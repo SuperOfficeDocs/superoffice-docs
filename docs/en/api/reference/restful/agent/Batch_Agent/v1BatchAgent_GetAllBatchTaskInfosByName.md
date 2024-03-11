@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Abbott Group"
+  "TaskName": "Hermann-Emard"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Mertz-Fahey",
-    "AssociateId": 394,
-    "DetailsTable": 715,
-    "DetailsRecord": 35,
+    "Id": 763,
+    "Name": "Ullrich, Bode and Swaniawski",
+    "AssociateId": 680,
+    "DetailsTable": 811,
+    "DetailsRecord": 30,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "ea"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "2006-11-29T10:30:23.0982933+01:00",
-    "Created": "2011-03-12T10:30:23.0982933+01:00",
-    "StartCount": 848,
-    "DatabaseSerialNumber": "1155788",
-    "Context": "non",
-    "Result": "dolore",
+    "LastStarted": "2009-08-14T14:23:45.8762101+02:00",
+    "Created": "2002-06-03T14:23:45.8762101+02:00",
+    "StartCount": 559,
+    "DatabaseSerialNumber": "414776",
+    "Context": "quia",
+    "Result": "rerum",
     "State": "All",
-    "Description": "Quality-focused heuristic synergy",
-    "Response": "et",
-    "Request": "nemo",
-    "ProgressDescription": "Cross-group scalable functionalities",
-    "ProgressPercent": 806,
-    "FileName": "Gorczany-Block",
+    "Description": "Visionary even-keeled leverage",
+    "Response": "quisquam",
+    "Request": "voluptatum",
+    "ProgressDescription": "Persevering real-time throughput",
+    "ProgressPercent": 331,
+    "FileName": "Beatty-Reynolds",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 60
       }
     }
   }

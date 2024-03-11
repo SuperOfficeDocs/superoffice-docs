@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 195,
-    "Name": "Von, Hirthe and Wilderman",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 293
+    "HeadingId": 349,
+    "Name": "Hoeger LLC",
+    "Tooltip": "ipsum",
+    "Deleted": false,
+    "Rank": 362,
+    "UdListDefinitionId": 45
   },
   {
-    "HeadingId": 195,
-    "Name": "Von, Hirthe and Wilderman",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "Rank": 267,
-    "UdListDefinitionId": 293
+    "HeadingId": 349,
+    "Name": "Hoeger LLC",
+    "Tooltip": "ipsum",
+    "Deleted": false,
+    "Rank": 362,
+    "UdListDefinitionId": 45
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 506,
-    "Name": "Lesch-Baumbach",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 725,
-    "UdListDefinitionId": 669,
+    "HeadingId": 421,
+    "Name": "Auer Group",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 951,
+    "UdListDefinitionId": 988,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 260
       }
     }
   }

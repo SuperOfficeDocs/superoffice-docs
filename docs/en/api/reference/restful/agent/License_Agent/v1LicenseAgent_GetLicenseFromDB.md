@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Murphy Inc and Sons"
+  "OwnerName": "Schinner Inc and Sons"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "extend virtual functionalities",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 781,
-      "NumberOfLicensesFree": 472,
-      "NumberOfLicensesAdded": 115,
-      "NumberOfLicensesNewTotal": 577,
-      "NumberOfLicensesNewFree": 858,
-      "NumberOfLicensesTotal": 351
+      "NumberOfLicensesInUse": 751,
+      "NumberOfLicensesFree": 761,
+      "NumberOfLicensesAdded": 395,
+      "NumberOfLicensesNewTotal": 403,
+      "NumberOfLicensesNewFree": 383,
+      "NumberOfLicensesTotal": 669
     }
   ],
-  "AccumulatedNextCheckDate": "2020-06-27T10:30:23.9272181+02:00"
+  "AccumulatedNextCheckDate": "2017-11-05T14:23:46.7681044+01:00"
 }
 ```

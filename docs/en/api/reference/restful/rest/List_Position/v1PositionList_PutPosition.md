@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Tremblay, Emmerich and Ferry",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "UdListDefinitionId": 406,
-  "Rank": 714
+  "Id": 677,
+  "Name": "Baumbach Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 261,
+  "Rank": 989
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "UdListDefinitionId": 999,
-  "Rank": 855,
+  "Id": 453,
+  "Name": "Purdy, Glover and Yundt",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "UdListDefinitionId": 376,
+  "Rank": 667,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 61,
-  "Name": "Schultz Group",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 931,
-  "UdListDefinitionId": 673
+  "HeadingId": 604,
+  "Name": "Ziemann-Sipes",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 451,
+  "UdListDefinitionId": 448
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 893,
-  "Name": "Watsica LLC",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 341,
-  "UdListDefinitionId": 554,
+  "HeadingId": 823,
+  "Name": "Morar, Leuschke and Mitchell",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "Rank": 298,
+  "UdListDefinitionId": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

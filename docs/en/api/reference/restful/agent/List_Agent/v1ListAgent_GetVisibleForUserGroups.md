@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 416,
-  "ListItemId": 969
+  "UdListDefinitionId": 918,
+  "ListItemId": 282
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Mayer Group",
-    "ToolTip": "Ad dolore blanditiis rem vel quo.",
-    "Deleted": false,
-    "Rank": 95,
-    "Type": "ut",
-    "ColorBlock": 191,
-    "IconHint": "ad",
+    "Id": 539,
+    "Name": "O'Kon, Yost and Cummerata",
+    "ToolTip": "Voluptate harum aut neque soluta doloribus quo.",
+    "Deleted": true,
+    "Rank": 102,
+    "Type": "quis",
+    "ColorBlock": 584,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2019-09-27T10:30:23.978726+02:00",
+    "LastChanged": "1998-01-06T14:23:46.8306046+01:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Bins, Trantow and Renner",
-        "ToolTip": "Est rerum reiciendis rerum accusamus et ratione excepturi.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "exercitationem",
-        "ColorBlock": 860,
-        "IconHint": "aut",
+        "Id": 847,
+        "Name": "Stamm-Mayer",
+        "ToolTip": "Debitis quasi explicabo.",
+        "Deleted": false,
+        "Rank": 683,
+        "Type": "nulla",
+        "ColorBlock": 284,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2013-12-25T10:30:23.978726+01:00",
+        "LastChanged": "2023-01-21T14:23:46.8306046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "itaque",
+        "ExtraInfo": "officia",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mrs. Janis Schmidt",
+        "FullName": "Timmothy Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldType": "System.String",
+            "FieldLength": 860
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Lambert Andrew Schuppe MD",
+    "ExtraInfo": "eaque",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mr. Clay Schaden DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

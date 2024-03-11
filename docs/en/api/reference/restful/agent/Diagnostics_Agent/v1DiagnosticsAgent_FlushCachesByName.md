@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Emard Inc and Sons",
-    "Ziemann, Grant and Cummerata"
+    "Quitzon, Bradtke and Medhurst",
+    "Wuckert-Jacobi"
   ]
 }
 ```

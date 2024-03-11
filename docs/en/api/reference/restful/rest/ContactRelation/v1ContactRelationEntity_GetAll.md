@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=nostrum
-GET /api/v1/Relation?$top=838
-GET /api/v1/Relation?$skip=30
+GET /api/v1/Relation?$entities=atque
+GET /api/v1/Relation?$top=79
+GET /api/v1/Relation?$skip=763
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=fugit
+GET /api/v1/Relation?$context=est
 GET /api/v1/Relation?$format=JSON
-GET /api/v1/Relation?$jsonSafe=True
+GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "earum",
   "value": [
     {
-      "PrimaryKey": 5416,
+      "PrimaryKey": 5467,
       "EntityName": "sale",
-      "saleId": 5416,
-      "contactId": 5342,
-      "name": "Bayer Inc and Sons"
+      "saleId": 5467,
+      "contactId": 867,
+      "name": "Moen, Weber and Kautzer"
     },
     {
-      "PrimaryKey": 328,
+      "PrimaryKey": 885,
       "EntityName": "sale",
-      "saleId": 328,
-      "contactId": 4382,
-      "name": "Friesen, O'Reilly and Bosco"
+      "saleId": 885,
+      "contactId": 7943,
+      "name": "Waters-Hand"
     }
   ]
 }

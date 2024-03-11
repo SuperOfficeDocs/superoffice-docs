@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=943
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=409
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 957,
-  "WorkflowId": 416,
+  "WorkflowTriggerId": 983,
+  "WorkflowId": 874,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Stehr-Shields",
-      "Description": "Polarised bottom-line secured line",
-      "Rank": 375,
+      "Name": "Gorczany, Heaney and Pfeffer",
+      "Description": "Monitored motivating middleware",
+      "Rank": 408,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr-Shields",
-      "Description": "Polarised bottom-line secured line",
-      "Rank": 375,
+      "Name": "Gorczany, Heaney and Pfeffer",
+      "Description": "Monitored motivating middleware",
+      "Rank": 408,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 196
     }
   }
 }

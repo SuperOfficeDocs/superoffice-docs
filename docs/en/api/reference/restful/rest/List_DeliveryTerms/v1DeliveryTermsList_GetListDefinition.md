@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "Gottlieb-Windler",
+  "Id": 234,
+  "Name": "Cole-Fay",
   "Tooltip": "nisi",
-  "Deleted": false,
-  "Rank": 824,
-  "IsCustomList": true,
+  "Deleted": true,
+  "Rank": 661,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 570
     }
   },
   "_Links": {

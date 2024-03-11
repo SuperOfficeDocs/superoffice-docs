@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 673,
-  "InstanceLayout": "occaecati",
-  "InstanceName": "Lynch Inc and Sons",
-  "CreatedDate": "2009-12-28T10:30:23.0670435+01:00",
-  "UpdatedDate": "2010-06-08T10:30:23.0670435+02:00",
+  "AudienceLayoutId": 23,
+  "InstanceLayout": "natus",
+  "InstanceName": "Metz-Ziemann",
+  "CreatedDate": "2010-04-09T14:23:45.8605856+02:00",
+  "UpdatedDate": "2010-07-18T14:23:45.8605856+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 233,
-  "InstanceLayout": "minima",
-  "InstanceName": "Wilderman-VonRueden",
-  "CreatedDate": "2000-02-24T10:30:23.0826686+01:00",
-  "UpdatedDate": "2021-12-09T10:30:23.0826686+01:00",
+  "AudienceLayoutId": 590,
+  "InstanceLayout": "autem",
+  "InstanceName": "Koss Group",
+  "CreatedDate": "2015-01-01T14:23:45.8605856+01:00",
+  "UpdatedDate": "1997-11-22T14:23:45.8605856+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 429
     }
   }
 }

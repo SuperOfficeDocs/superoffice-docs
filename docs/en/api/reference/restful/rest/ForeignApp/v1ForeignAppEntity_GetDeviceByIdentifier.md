@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Oct 2003 10:30:32 G10T
+Last-Modified: Tue, 05 Nov 2013 14:23:55 G11T
 
 {
-  "ForeignDeviceId": 710,
-  "Name": "Kunze-Kuhlman",
-  "CreatedDate": "2005-01-23T10:30:32.0730519+01:00",
-  "UpdatedDate": "2003-10-05T10:30:32.0730519+02:00",
-  "AssociateFullName": "Cielo Brianne Gerhold II",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "assumenda",
-  "DeviceIdentifier": "earum",
-  "ForeignAppId": 93,
+  "ForeignDeviceId": 550,
+  "Name": "Frami Inc and Sons",
+  "CreatedDate": "2019-03-07T14:23:55.1802705+01:00",
+  "UpdatedDate": "2013-11-05T14:23:55.1802705+01:00",
+  "AssociateFullName": "Zita Kreiger",
+  "CreatedBy": "repellat",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 984,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

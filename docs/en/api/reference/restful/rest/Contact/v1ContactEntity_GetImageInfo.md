@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 17 Sep 2023 10:30:31 G9T
+Last-Modified: Thu, 14 May 2020 14:23:54 G5T
 
 {
-  "BlobId": 997,
-  "BlobSize": 165,
-  "Description": "Reduced contextually-based architecture",
-  "ExtraInfo": "quam",
+  "BlobId": 586,
+  "BlobSize": 811,
+  "Description": "Implemented 3rd generation process improvement",
+  "ExtraInfo": "consequuntur",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "modi",
-  "OriginalSize": 635,
-  "CreatedDate": "2018-08-08T10:30:31.8386823+02:00",
-  "UpdatedDate": "2023-09-17T10:30:31.8386823+02:00",
+  "MimeType": "praesentium",
+  "OriginalSize": 408,
+  "CreatedDate": "2000-08-19T14:23:54.9290273+02:00",
+  "UpdatedDate": "2020-05-14T14:23:54.9290273+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "recusandae",
+  "ConceptualType": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 187
     }
   }
 }

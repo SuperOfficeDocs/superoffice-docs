@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 17,
-  "PlainMessage": "autem",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "dolorem",
-  "Description": "Multi-layered systematic knowledge base",
-  "Subject": "dolore",
-  "FolderId": 458,
-  "HeaderField": "reprehenderit",
-  "Design": "animi",
+  "ShipmentMessageId": 445,
+  "PlainMessage": "qui",
+  "HtmlMessage": "laborum",
+  "SmsMessage": "suscipit",
+  "Description": "Re-contextualized uniform encryption",
+  "Subject": "vero",
+  "FolderId": 574,
+  "HeaderField": "quia",
+  "Design": "dolorum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Optimized object-oriented projection",
-  "AccessKey": "neque",
-  "DocumentMessage": 945,
-  "Registered": "2006-11-04T10:30:32.5125031+01:00",
-  "RegisteredAssociateId": 904,
-  "Updated": "2005-07-16T10:30:32.5125031+02:00",
-  "UpdatedAssociateId": 347,
-  "UpdatedCount": 419
+  "LongDescription": "Fully-configurable contextually-based functionalities",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 859,
+  "Registered": "2019-04-13T14:23:55.5252104+02:00",
+  "RegisteredAssociateId": 944,
+  "Updated": "2016-03-22T14:23:55.5252104+01:00",
+  "UpdatedAssociateId": 549,
+  "UpdatedCount": 251
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 333,
-  "PlainMessage": "quis",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "autem",
-  "Description": "Stand-alone fault-tolerant function",
-  "Subject": "quis",
-  "FolderId": 810,
-  "HeaderField": "est",
-  "Design": "et",
+  "ShipmentMessageId": 669,
+  "PlainMessage": "officiis",
+  "HtmlMessage": "nihil",
+  "SmsMessage": "et",
+  "Description": "Business-focused coherent customer loyalty",
+  "Subject": "suscipit",
+  "FolderId": 659,
+  "HeaderField": "sapiente",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Focused foreground throughput",
-  "AccessKey": "cumque",
-  "DocumentMessage": 607,
-  "Registered": "2010-07-06T10:30:32.5125031+02:00",
-  "RegisteredAssociateId": 997,
-  "Updated": "2004-06-06T10:30:32.5125031+02:00",
-  "UpdatedAssociateId": 261,
-  "UpdatedCount": 443,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Stand-alone mobile task-force",
+  "AccessKey": "laudantium",
+  "DocumentMessage": 41,
+  "Registered": "1998-09-14T14:23:55.5252104+02:00",
+  "RegisteredAssociateId": 445,
+  "Updated": "2000-01-13T14:23:55.5252104+01:00",
+  "UpdatedAssociateId": 733,
+  "UpdatedCount": 323,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

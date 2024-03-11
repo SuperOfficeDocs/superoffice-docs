@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 1002,
-  "Name": "Gislason-Gleichner",
-  "Tooltip": "pariatur",
+  "HeadingId": 696,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 485,
-  "UdListDefinitionId": 120
+  "Rank": 445,
+  "UdListDefinitionId": 826
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 233,
-  "Name": "Hoeger, Armstrong and Kohler",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 472,
-  "UdListDefinitionId": 363,
+  "HeadingId": 524,
+  "Name": "Herzog-Halvorson",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 914,
+  "UdListDefinitionId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

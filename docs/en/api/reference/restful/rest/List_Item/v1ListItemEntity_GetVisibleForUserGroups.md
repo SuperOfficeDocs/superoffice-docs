@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Goodwin, Rippin and Simonis",
-    "ToolTip": "Distinctio dolorum blanditiis et nam asperiores non architecto.",
-    "Deleted": false,
-    "Rank": 234,
-    "Type": "ea",
-    "ColorBlock": 398,
-    "IconHint": "ullam",
+    "Id": 171,
+    "Name": "Keeling-Lowe",
+    "ToolTip": "Mollitia aliquid est tempora laboriosam ut consequatur.",
+    "Deleted": true,
+    "Rank": 682,
+    "Type": "rerum",
+    "ColorBlock": 283,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2023-08-30T10:30:32.8269372+02:00",
+    "LastChanged": "2019-02-24T14:23:55.9314526+01:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Kertzmann Inc and Sons",
-        "ToolTip": "Porro ipsam qui nam fugiat.",
-        "Deleted": true,
-        "Rank": 366,
-        "Type": "accusamus",
-        "ColorBlock": 635,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2003-08-04T10:30:32.8269372+02:00",
+        "Id": 153,
+        "Name": "Shields LLC",
+        "ToolTip": "Delectus asperiores impedit.",
+        "Deleted": false,
+        "Rank": 656,
+        "Type": "ullam",
+        "ColorBlock": 657,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2018-10-02T14:23:55.9314526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Torrey Kunze",
+        "ExtraInfo": "natus",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Mylene Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 620
+            "FieldType": "System.Int32",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "impedit",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Denis Vandervort",
+    "FullName": "Hillard Connie Langosh IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 967
       }
     }
   }

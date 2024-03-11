@@ -204,6 +204,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/contact/contactAssociate/userName|string|User name: User name| x |
 |appointmentInstance/contact/contactAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/contact/contactAssociate/locationAddress|string|Location: Location| x |
 |appointmentInstance/contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |appointmentInstance/contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -228,11 +229,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
-|appointmentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
@@ -332,11 +333,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |appointmentInstance/person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |appointmentInstance/person/email/emailAddress|string|E-mail| x |
-|appointmentInstance/person/email/emailDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/email/emailDescription|string|Description| x |
 |appointmentInstance/person/email/emailId|int|ID| x |
 |appointmentInstance/person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |appointmentInstance/person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
@@ -433,14 +434,15 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/person/personAssociate/userName|string|User name: User name| x |
 |appointmentInstance/person/personAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/person/personAssociate/locationAddress|string|Location: Location| x |
 |appointmentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointmentInstance/person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointmentInstance/person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -467,6 +469,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/person/correspondingAssociate/userName|string|User name: User name| x |
 |appointmentInstance/person/correspondingAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/person/correspondingAssociate/locationAddress|string|Location: Location| x |
 |appointmentInstance/person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |appointmentInstance/person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |appointmentInstance/person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -538,13 +541,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointmentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointmentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|appointmentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointmentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |appointmentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |appointmentInstance/project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
@@ -552,6 +555,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/project/projectAssociate/userName|string|User name: User name| x |
 |appointmentInstance/project/projectAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/project/projectAssociate/locationAddress|string|Location: Location| x |
 |appointmentInstance/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |appointmentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |appointmentInstance/project/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -641,14 +645,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointmentInstance/sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointmentInstance/sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|appointmentInstance/sale/associate/firstName|string|First name: Displays the contact's first name| x |
-|appointmentInstance/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
-|appointmentInstance/sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|appointmentInstance/sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|appointmentInstance/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
+|appointmentInstance/sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|appointmentInstance/sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointmentInstance/sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointmentInstance/sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |appointmentInstance/sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -675,6 +679,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/sale/associate/userName|string|User name: User name| x |
 |appointmentInstance/sale/associate/personEmail|string|E-mail| x |
+|appointmentInstance/sale/associate/locationAddress|string|Location: Location| x |
 |appointmentInstance/sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |appointmentInstance/sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |appointmentInstance/sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -713,6 +718,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/associate/userName|string|User name: User name| x |
 |appointmentInstance/associate/personEmail|string|E-mail| x |
+|appointmentInstance/associate/locationAddress|string|Location: Location| x |
 |appointmentInstance/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointmentInstance/appointment/title|positiveString|Title| x |
 |appointmentInstance/appointment/titleHtml| *None* |!!Title Html| x |
@@ -723,7 +729,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/registeredBy,appointmentInstance/person/isProjectMember,appointmentInstance/person/personExtra/y_rental/x_end,appointmentInstance/associate/personEmail
+GET /api/v1/archive/SaleGuideAppointment?$select=instanceItemText,appointmentInstance/appointmentPublish/publishedBy,appointmentInstance/contact/contactExtra/x_contact_float,appointmentInstance/contact/contactExtra/x_contact_date,appointmentInstance/contact/contactExtra/x_contact_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=275
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=689
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nostrum",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-02-19T10:30:24.5283735+01:00",
-  "Amount": 5754.0239999999994,
-  "SaleId": 97,
-  "Earning": 22066.494,
-  "EarningPercent": 3792.14,
-  "Heading": "harum",
-  "Number": "1001572",
-  "Probability": 49,
-  "CreatedDate": "2003-04-17T10:30:24.5283735+02:00",
-  "UpdatedDate": "2000-01-02T10:30:24.5283735+01:00",
+  "Saledate": "2012-02-17T14:23:47.3473816+01:00",
+  "Amount": 10285.788,
+  "SaleId": 792,
+  "Earning": 4174.488,
+  "EarningPercent": 26983.739999999998,
+  "Heading": "a",
+  "Number": "1761565",
+  "Probability": 237,
+  "CreatedDate": "2018-01-21T14:23:47.3473816+01:00",
+  "UpdatedDate": "2000-08-05T14:23:47.3473816+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 545,
+  "ActiveLinks": 627,
   "Links": [
     {
-      "EntityName": "Kutch Inc and Sons",
-      "Id": 786,
-      "Description": "Decentralized client-driven secured line",
-      "ExtraInfo": "nisi",
-      "LinkId": 738,
+      "EntityName": "Greenfelder Group",
+      "Id": 891,
+      "Description": "Public-key scalable migration",
+      "ExtraInfo": "omnis",
+      "LinkId": 814,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 802
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
   ],
-  "NextDueDate": "1996-11-10T10:30:24.5283735+01:00",
-  "Postit": "aut",
+  "NextDueDate": "2014-06-06T14:23:47.3473816+02:00",
+  "Postit": "officia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-12-10T10:30:24.5283735+01:00",
+  "ReopenDate": "2016-06-11T14:23:47.3473816+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hessel Inc and Sons",
-      "Comment": "eum",
-      "StakeholderRoleId": 558,
-      "CountryId": 792,
-      "PersonId": 273,
-      "EmailDescription": "leopold_price@abernathy.co.uk",
-      "EmailId": 859,
-      "EmailAddress": "darby@corkery.uk",
-      "PhoneId": 614,
-      "ContactName": "Homenick-Stiedemann",
-      "ContactId": 371,
-      "SaleId": 542,
-      "Mrmrs": "quae",
-      "Firstname": "Vincenzo",
-      "MiddleName": "Trantow Inc and Sons",
-      "Lastname": "Cruickshank",
-      "SaleStakeholderId": 654,
-      "Rank": 556,
-      "Phone": "176-438-5747",
+      "StakeholderRoleName": "Gerhold Group",
+      "Comment": "autem",
+      "StakeholderRoleId": 667,
+      "CountryId": 934,
+      "PersonId": 219,
+      "EmailDescription": "ottilie@ankundinghomenick.biz",
+      "EmailId": 442,
+      "EmailAddress": "jan_rice@gerhold.name",
+      "PhoneId": 499,
+      "ContactName": "Nicolas-Steuber",
+      "ContactId": 794,
+      "SaleId": 33,
+      "Mrmrs": "totam",
+      "Firstname": "Lorna",
+      "MiddleName": "Thiel, Hermann and Veum",
+      "Lastname": "Kiehn",
+      "SaleStakeholderId": 822,
+      "Rank": 460,
+      "Phone": "586.814.4134 x962",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldLength": 452
         }
       }
     }
   ],
-  "ActiveErpLinks": 33,
+  "ActiveErpLinks": 223,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ford Reilly",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Macy Quigley",
+    "SuperOffice:2": "Sherwood Reichel"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "et"
+    "CustomFields1": "non",
+    "CustomFields2": "voluptates"
   },
-  "PublishEventDate": "2007-07-14T10:30:24.5283735+02:00",
-  "PublishTo": "2016-03-31T10:30:24.5283735+02:00",
-  "PublishFrom": "1998-01-25T10:30:24.5283735+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-07-24T14:23:47.3473816+02:00",
+  "PublishTo": "2017-06-20T14:23:47.3473816+02:00",
+  "PublishFrom": "1999-10-09T14:23:47.3473816+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 688,
+      "VisibleId": 987,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     },
     {
-      "VisibleId": 688,
+      "VisibleId": 987,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 593
     }
   }
 }

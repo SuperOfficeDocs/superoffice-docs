@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 45,
-  "WorkflowStepId": 823,
-  "WorkflowId": 190,
-  "Rank": 642,
+  "WorkflowWaitForActionId": 994,
+  "WorkflowStepId": 169,
+  "WorkflowId": 935,
+  "Rank": 837,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Kihn-Sanford",
-      "Description": "Customizable homogeneous success",
-      "Rank": 445,
+      "Name": "Berge LLC",
+      "Description": "Right-sized transitional ability",
+      "Rank": 976,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kihn-Sanford",
-      "Description": "Customizable homogeneous success",
-      "Rank": 445,
+      "Name": "Berge LLC",
+      "Description": "Right-sized transitional ability",
+      "Rank": 976,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 848
     }
   }
 }

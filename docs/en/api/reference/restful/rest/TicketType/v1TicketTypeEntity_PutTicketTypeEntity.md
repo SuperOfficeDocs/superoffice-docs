@@ -101,28 +101,28 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 668,
-  "Name": "Beahan-Pollich",
-  "Rank": 693,
-  "Tooltip": "rem",
-  "Icon": "vel",
-  "DefaultTicketStatus": 60,
+  "TicketTypeId": 578,
+  "Name": "Lowe-Douglas",
+  "Rank": 956,
+  "Tooltip": "voluptatibus",
+  "Icon": "blanditiis",
+  "DefaultTicketStatus": 137,
   "TicketStatuses": [
-    146,
-    76
+    656,
+    783
   ],
-  "DefaultTicketPriority": 632,
+  "DefaultTicketPriority": 956,
   "TicketPriorities": [
-    677,
-    182
+    805,
+    558
   ],
-  "ReplyTemplate": 634,
-  "IsExternalVisible": true,
-  "IsDefault": false
+  "ReplyTemplate": 168,
+  "IsExternalVisible": false,
+  "IsDefault": true
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 468,
-  "Name": "Treutel-Rogahn",
-  "Rank": 944,
-  "Tooltip": "est",
-  "Icon": "alias",
-  "DefaultTicketStatus": 735,
+  "TicketTypeId": 717,
+  "Name": "Marvin-Balistreri",
+  "Rank": 707,
+  "Tooltip": "ullam",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 703,
   "TicketStatuses": [
-    68,
-    518
+    971,
+    673
   ],
-  "DefaultTicketPriority": 211,
+  "DefaultTicketPriority": 582,
   "TicketPriorities": [
-    112,
-    453
+    843,
+    378
   ],
-  "ReplyTemplate": 669,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 75,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 771
     }
   },
   "_Links": {

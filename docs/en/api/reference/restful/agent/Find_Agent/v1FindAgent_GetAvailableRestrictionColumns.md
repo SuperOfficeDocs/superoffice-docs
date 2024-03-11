@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ducimus",
-  "ProviderName": "Wilderman Inc and Sons"
+  "StorageType": "dicta",
+  "ProviderName": "Murphy, Deckow and Little"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "reprehenderit",
-  "ut"
+  "dolorem",
+  "quidem"
 ]
 ```

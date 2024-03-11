@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 972,
-  "NumSentences": 199,
-  "Summary": "eligendi",
-  "IsoLangCode": "iusto"
+  "TicketId": 689,
+  "NumSentences": 564,
+  "Summary": "et",
+  "IsoLangCode": "perferendis"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2002-11-14T10:30:22.5161441+01:00",
-  "UserPrompt": "sequi",
-  "UserDisplayText": "sunt",
-  "BotResponse": "et",
+  "Timestamp": "2009-06-14T14:23:45.3125879+02:00",
+  "UserPrompt": "id",
+  "UserDisplayText": "architecto",
+  "BotResponse": "sapiente",
   "BotActions": {
-    "BotActions1": "voluptas",
-    "BotActions2": "rerum"
+    "BotActions1": "magni",
+    "BotActions2": "incidunt"
   },
   "Attachments": [
-    "enim",
-    "molestiae"
+    "repellat",
+    "cum"
   ]
 }
 ```

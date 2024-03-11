@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 171,
-  "Section": "tenetur",
-  "Key": "autem",
-  "Name": "Von Inc and Sons",
+  "PrefDescId": 430,
+  "Section": "eius",
+  "Key": "vel",
+  "Name": "Gottlieb Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative empowering emulation",
-  "IsBuiltin": false,
-  "TableName": "Shanahan, McGlynn and Littel",
-  "UserDefinedListId": 453,
-  "Rank": 272,
-  "SubGroup": "consequatur",
-  "MinLevel": 734,
-  "MaxValue": 595,
-  "MinValue": 613,
-  "RequiredLicense": "dolorem",
+  "Description": "Enterprise-wide needs-based matrix",
+  "IsBuiltin": true,
+  "TableName": "Lindgren Inc and Sons",
+  "UserDefinedListId": 523,
+  "Rank": 679,
+  "SubGroup": "magni",
+  "MinLevel": 153,
+  "MaxValue": 870,
+  "MinValue": 898,
+  "RequiredLicense": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 277
     }
   }
 }

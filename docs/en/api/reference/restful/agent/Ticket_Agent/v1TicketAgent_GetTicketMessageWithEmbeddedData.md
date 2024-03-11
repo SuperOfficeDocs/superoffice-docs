@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
+  "Id": 305,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 511,
+  "EjMessageId": 633,
   "Ticket": null,
-  "CreatedAt": "2009-06-13T10:30:24.9360824+02:00",
+  "CreatedAt": "1999-11-16T14:23:47.7848748+01:00",
   "CreatedBy": null,
-  "Author": "soluta",
+  "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorum",
-  "TimeSpent": 463,
-  "Body": "nulla",
-  "HtmlBody": "occaecati",
-  "EmailHeader": "amanda_walsh@mullergerhold.biz",
-  "DebugInfo": "qui",
-  "MailSorter": "tempore",
+  "MessageId": "nobis",
+  "TimeSpent": 189,
+  "Body": "laboriosam",
+  "HtmlBody": "molestias",
+  "EmailHeader": "reynold_mann@bauch.info",
+  "DebugInfo": "et",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "veniam",
+  "SearchTitle": "saepe",
   "MessageHeaders": [
     {
-      "Id": 48,
-      "Name": "Jerde Group",
-      "Value": "temporibus",
+      "Id": 979,
+      "Name": "Abernathy Inc and Sons",
+      "Value": "placeat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 135
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
   ],
   "Important": false,
-  "Language": "illo",
-  "Sentiment": 97,
-  "SentimentConfidence": 492,
+  "Language": "consectetur",
+  "Sentiment": 136,
+  "SentimentConfidence": 61,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 362,
-      "Name": "Gislason-Gleason",
-      "ContentType": "et",
-      "AttSize": 276,
+      "AttachmentId": 928,
+      "Name": "Bogan-Eichmann",
+      "ContentType": "iure",
+      "AttSize": 180,
       "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "magnam",
+      "ContentId": "reprehenderit",
+      "AuthKey": "neque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "quidem",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 725
     }
   }
 }

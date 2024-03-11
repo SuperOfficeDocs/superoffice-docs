@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 10 Jan 2000 10:30:32 G1T
+Last-Modified: Sun, 01 Jul 2007 14:23:55 G7T
 
 {
-  "Key": "sint",
-  "Value": "magnam",
-  "RecordId": 234,
-  "CreatedDate": "2009-07-29T10:30:32.0730519+02:00",
-  "UpdatedDate": "2000-01-10T10:30:32.0730519+01:00",
-  "UpdatedBy": "aliquid",
-  "CreatedBy": "praesentium",
-  "TableName": "Kilback Inc and Sons",
+  "Key": "velit",
+  "Value": "quo",
+  "RecordId": 236,
+  "CreatedDate": "2006-04-25T14:23:55.195897+02:00",
+  "UpdatedDate": "2007-07-01T14:23:55.195897+02:00",
+  "UpdatedBy": "dolorum",
+  "CreatedBy": "dignissimos",
+  "TableName": "Lemke-Maggio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 26
     }
   }
 }

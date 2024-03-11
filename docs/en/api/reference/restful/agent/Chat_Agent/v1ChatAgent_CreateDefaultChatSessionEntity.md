@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 323,
-  "TopicId": 787,
+  "ChatSessionId": 413,
+  "TopicId": 258,
   "User": null,
   "Person": null,
-  "CustomerAlias": "incidunt",
-  "CustomerHost": "et",
-  "CustomerName": "Keebler-Blick",
-  "CustomerEmail": "celestino@schambergerstoltenberg.co.uk",
-  "CustomerPhone": "(608)755-4486 x6601",
+  "CustomerAlias": "id",
+  "CustomerHost": "laborum",
+  "CustomerName": "O'Reilly, Miller and Trantow",
+  "CustomerEmail": "garth@gislason.biz",
+  "CustomerPhone": "(334)145-6446 x13154",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schowalter Group",
+  "CustomerCompanyName": "Leuschke-Schuster",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "et",
-  "WhenRequested": "2009-01-20T10:30:23.129545+01:00",
-  "WhenStarted": "2021-10-17T10:30:23.129545+02:00",
-  "WhenEnded": "2009-09-20T10:30:23.129545+02:00",
-  "WhenIdle": "2007-09-18T10:30:23.129545+02:00",
-  "WhenFetched": "2009-08-07T10:30:23.129545+02:00",
-  "SessionKey": "impedit",
-  "InitialQueuePos": 916,
-  "AlertLevel": 62,
-  "Rank": 555,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "quidem",
+  "WhenRequested": "2019-10-10T14:23:45.9074599+02:00",
+  "WhenStarted": "2020-05-26T14:23:45.9074599+02:00",
+  "WhenEnded": "1997-11-17T14:23:45.9074599+01:00",
+  "WhenIdle": "1999-08-30T14:23:45.9074599+02:00",
+  "WhenFetched": "2018-01-18T14:23:45.9074599+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 171,
+  "AlertLevel": 974,
+  "Rank": 273,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 171,
+  "ChatbotIsActive": true,
+  "Rating": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 253
     }
   }
 }

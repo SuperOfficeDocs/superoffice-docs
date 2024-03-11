@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 969,
-  "ParentId": 949,
-  "Name": "Spencer, Sauer and Hane",
-  "Fullname": "vel",
-  "CategoryMaster": 332,
+  "TicketCategoryId": 821,
+  "ParentId": 152,
+  "Name": "Abshire-Toy",
+  "Fullname": "ut",
+  "CategoryMaster": 610,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Douglas, Adams and Smitham",
+  "ExternalName": "Hyatt-Dietrich",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 926,
-  "ReplyTemplate": 661,
-  "NotificationEmail": "earline.schinner@ratke.biz",
+  "AssignmentLag": 65,
+  "ReplyTemplate": 846,
+  "NotificationEmail": "shanel@naderberge.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 251,
+  "EffectiveReplyTemplateId": 722,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 492
     }
   }
 }

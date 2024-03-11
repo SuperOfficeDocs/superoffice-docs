@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Block-Littel",
-    "ToolTip": "Eos ab eos nihil.",
+    "Id": 153,
+    "Name": "Conroy-Heathcote",
+    "ToolTip": "Ut fugiat repellat quos sint ut.",
     "Deleted": true,
-    "Rank": 308,
-    "Type": "sapiente",
-    "ColorBlock": 169,
-    "IconHint": "unde",
+    "Rank": 153,
+    "Type": "doloremque",
+    "ColorBlock": 908,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2012-07-28T10:30:33.131835+02:00",
+    "LastChanged": "1997-10-17T14:23:56.228325+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Osinski, Wuckert and Hoppe",
-        "ToolTip": "Fuga ad praesentium quis.",
+        "Id": 940,
+        "Name": "Pollich-Stanton",
+        "ToolTip": "Officiis sit et nulla ipsa placeat et minus.",
         "Deleted": true,
-        "Rank": 41,
-        "Type": "odio",
-        "ColorBlock": 327,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2019-05-10T10:30:33.131835+02:00",
+        "Rank": 765,
+        "Type": "quibusdam",
+        "ColorBlock": 832,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2004-05-06T14:23:56.228325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
+        "ExtraInfo": "est",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Napoleon Cruickshank",
+        "FullName": "Ms. Bridgette Ruthe Murazik MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldLength": 762
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "sed",
+    "StyleHint": "a",
     "Hidden": true,
-    "FullName": "Mr. Sonia Ryan",
+    "FullName": "Nicola Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 823
       }
     }
   }

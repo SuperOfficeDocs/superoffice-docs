@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 108,
-      "PrefDescId": 559,
-      "PrefValue": "praesentium",
-      "PrefShowValue": "nostrum",
-      "Description": "Robust solution-oriented groupware",
+      "PrefDescLineId": 232,
+      "PrefDescId": 90,
+      "PrefValue": "autem",
+      "PrefShowValue": "sequi",
+      "Description": "Balanced real-time installation",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 108,
-      "PrefDescId": 559,
-      "PrefValue": "praesentium",
-      "PrefShowValue": "nostrum",
-      "Description": "Robust solution-oriented groupware",
+      "PrefDescLineId": 232,
+      "PrefDescId": 90,
+      "PrefValue": "autem",
+      "PrefShowValue": "sequi",
+      "Description": "Balanced real-time installation",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 925,
-    "PrefDescId": 236,
-    "PrefValue": "vitae",
-    "PrefShowValue": "consequatur",
-    "Description": "Multi-lateral intangible algorithm",
+    "PrefDescLineId": 922,
+    "PrefDescId": 879,
+    "PrefValue": "eveniet",
+    "PrefShowValue": "culpa",
+    "Description": "Balanced bandwidth-monitored circuit",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 36
       }
     }
   }

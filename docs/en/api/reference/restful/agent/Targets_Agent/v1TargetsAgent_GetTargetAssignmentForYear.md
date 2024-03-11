@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 668,
+  "TargetYear": 935,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 92
+  "Id": 831
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 675,
+  "TargetAssignmentInfoId": 860,
   "Values": [
-    465,
-    496
+    781,
+    968
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 959,
-  "DimensionListItemDisplayName": "Kunde-Pollich",
+  "DimensionListItem": 237,
+  "DimensionListItemDisplayName": "Marquardt, Romaguera and Ledner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Pfannerstill, Gerlach and Bernhard",
-    "ToolTip": "Sit ipsa sed et iure eos.",
-    "Deleted": true,
-    "Rank": 569,
-    "Type": "nostrum",
-    "ColorBlock": 541,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2001-09-05T10:30:33.1474583+02:00",
+    "Id": 100,
+    "Name": "Bechtelar Group",
+    "ToolTip": "Dolores cum voluptatibus eos quia et amet.",
+    "Deleted": false,
+    "Rank": 820,
+    "Type": "voluptate",
+    "ColorBlock": 311,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2002-09-09T14:23:56.2439493+02:00",
     "ChildItems": [
       {
-        "Id": 192,
-        "Name": "Pacocha-Weber",
-        "ToolTip": "Voluptates a rerum tenetur itaque sed sunt autem.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "quaerat",
-        "ColorBlock": 919,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "1999-06-03T10:30:33.1474583+02:00",
+        "Id": 975,
+        "Name": "Botsford-Funk",
+        "ToolTip": "Ut sunt voluptas.",
+        "Deleted": true,
+        "Rank": 692,
+        "Type": "aut",
+        "ColorBlock": 165,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2014-02-25T14:23:56.2439493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Delfina Mauricio Conroy V"
+        "ExtraInfo": "aut",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Erling Dare"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "rerum",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Emelie Devyn Brown III"
+    "FullName": "Merl Heathcote Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Glover, Lockman and Kunde",
-    "ToolTip": "Nihil officiis consectetur nobis.",
-    "Deleted": true,
-    "Rank": 410,
-    "Type": "quia",
-    "ColorBlock": 640,
-    "IconHint": "et",
+    "Id": 295,
+    "Name": "Wyman, Kuvalis and Quitzon",
+    "ToolTip": "Numquam aut quae necessitatibus enim.",
+    "Deleted": false,
+    "Rank": 723,
+    "Type": "est",
+    "ColorBlock": 150,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2012-11-05T10:30:33.1474583+01:00",
+    "LastChanged": "2009-07-19T14:23:56.2439493+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Walter Inc and Sons",
-        "ToolTip": "Quam et hic et.",
+        "Id": 839,
+        "Name": "Ortiz, Yundt and Greenholt",
+        "ToolTip": "Voluptatem explicabo.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "porro",
-        "ColorBlock": 639,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2011-07-19T10:30:33.1474583+02:00",
+        "Rank": 7,
+        "Type": "est",
+        "ColorBlock": 20,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2011-10-11T14:23:56.2439493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "sed",
+        "ExtraInfo": "nam",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mrs. Edgar Jessy Nienow",
+        "FullName": "Damion Kristian Kertzmann Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 886
+            "FieldLength": 508
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Ruthie Gerlach MD",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Marcellus Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

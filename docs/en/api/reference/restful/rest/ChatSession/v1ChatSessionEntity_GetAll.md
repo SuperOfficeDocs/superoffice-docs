@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=neque
-GET /api/v1/ChatSession?$top=218
-GET /api/v1/ChatSession?$skip=713
+GET /api/v1/ChatSession?$entities=officiis
+GET /api/v1/ChatSession?$top=298
+GET /api/v1/ChatSession?$skip=791
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=ullam
+GET /api/v1/ChatSession?$context=quas
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=False
+GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aliquam",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 3105,
+      "PrimaryKey": 9640,
       "EntityName": "sale",
-      "saleId": 3105,
-      "contactId": 1517,
-      "name": "Koss Inc and Sons"
+      "saleId": 9640,
+      "contactId": 9463,
+      "name": "Schneider, Zulauf and Windler"
     },
     {
-      "PrimaryKey": 6164,
+      "PrimaryKey": 3311,
       "EntityName": "sale",
-      "saleId": 6164,
-      "contactId": 2466,
-      "name": "Collins, Kilback and Hammes"
+      "saleId": 3311,
+      "contactId": 3035,
+      "name": "Barrows, Quigley and Stehr"
     }
   ]
 }

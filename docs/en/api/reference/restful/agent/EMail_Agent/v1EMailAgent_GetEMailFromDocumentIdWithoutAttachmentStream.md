@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 159
+  "DocumentId": 875
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 763,
-      "ContactName": "Zboncak, Luettgen and Cummings",
-      "PersonId": 907,
-      "PersonName": "Corwin LLC",
-      "AssociateId": 360,
-      "Address": "quos",
-      "EmailId": 260,
+      "ContactId": 877,
+      "ContactName": "Padberg LLC",
+      "PersonId": 228,
+      "PersonName": "McLaughlin, McGlynn and Shanahan",
+      "AssociateId": 345,
+      "Address": "sed",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        66,
-        531
+        802,
+        855
       ],
-      "Name": "Schumm-Metz",
+      "Name": "VonRueden-Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldType": "System.String",
+          "FieldLength": 65
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 494,
-      "ContactName": "Nader, Kovacek and Barton",
-      "PersonId": 76,
-      "PersonName": "Bogan Inc and Sons",
-      "AssociateId": 74,
-      "Address": "vel",
-      "EmailId": 631,
+      "ContactId": 467,
+      "ContactName": "Bernhard Group",
+      "PersonId": 968,
+      "PersonName": "Zulauf-Lebsack",
+      "AssociateId": 965,
+      "Address": "assumenda",
+      "EmailId": 768,
       "DuplicatePersonIds": [
-        391,
-        982
+        426,
+        377
       ],
-      "Name": "Konopelski, Hayes and Price",
+      "Name": "Dietrich-Kshlerin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 973
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 471,
-      "ContactName": "Kutch-Leannon",
-      "PersonId": 557,
-      "PersonName": "Kuhn-Zulauf",
-      "AssociateId": 328,
-      "Address": "minus",
-      "EmailId": 351,
+      "ContactId": 982,
+      "ContactName": "Christiansen LLC",
+      "PersonId": 37,
+      "PersonName": "Ondricka Inc and Sons",
+      "AssociateId": 352,
+      "Address": "et",
+      "EmailId": 450,
       "DuplicatePersonIds": [
-        648,
-        47
+        861,
+        702
       ],
-      "Name": "Mueller-Goldner",
+      "Name": "Balistreri-Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 616
         }
       }
     }
   ],
-  "Subject": "perferendis",
-  "HTMLBody": "placeat",
+  "Subject": "qui",
+  "HTMLBody": "incidunt",
   "From": null,
-  "Sent": "2012-10-19T10:30:23.7511796+02:00",
-  "Size": 340,
+  "Sent": "1998-07-29T14:23:46.4543289+02:00",
+  "Size": 111,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iste",
-  "PlainBody": "unde",
+  "MessageID": "ullam",
+  "PlainBody": "rerum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 150,
+  "ServerId": 892,
   "Attachments": [
     {
-      "Description": "Seamless actuating concept",
-      "Filename": "delectus",
-      "Size": 328,
-      "Type": "voluptatem",
-      "Encoding": "omnis",
-      "Id": "modi",
-      "Disposition": "accusamus",
-      "IsSafeFileExtension": false,
+      "Description": "Profit-focused even-keeled internet solution",
+      "Filename": "quidem",
+      "Size": 728,
+      "Type": "quia",
+      "Encoding": "eius",
+      "Id": "animi",
+      "Disposition": "deserunt",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldLength": 522
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schroeder-Watsica",
+      "Name": "Buckridge, Marvin and Bosco",
       "Values": [
-        "vero",
-        "omnis"
+        "est",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     },
     {
-      "Name": "Schroeder-Watsica",
+      "Name": "Buckridge, Marvin and Bosco",
       "Values": [
-        "vero",
-        "omnis"
+        "est",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
   ],
-  "FolderName": "Bashirian Group",
-  "EmailItemId": 78,
-  "AccountId": 175,
-  "ReceivedAt": "2021-09-15T10:30:23.7511796+02:00",
+  "FolderName": "Wolff, Daniel and Cruickshank",
+  "EmailItemId": 541,
+  "AccountId": 476,
+  "ReceivedAt": "2015-10-04T14:23:46.4543289+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-08-08T10:30:23.7511796+02:00",
+  "RepliedAt": "2020-12-11T14:23:46.4543289+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 673
     }
   }
 }

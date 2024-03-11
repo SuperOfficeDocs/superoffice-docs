@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 848,
-  "Name": "Torphy-Dibbert",
-  "Tooltip": "quia",
+  "RoleId": 839,
+  "Name": "Pfeffer LLC",
+  "Tooltip": "corrupti",
   "RoleType": "Anonymous",
-  "Deleted": 497,
-  "Rank": 483,
-  "Created": "2014-08-21T10:30:32.260549+02:00",
-  "UseCategories": 862,
+  "Deleted": 474,
+  "Rank": 124,
+  "Created": "2021-12-27T14:23:55.384586+01:00",
+  "UseCategories": 471,
   "CreatedBy": null,
-  "Updated": "2000-06-04T10:30:32.260549+02:00",
+  "Updated": "2002-10-13T14:23:55.384586+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

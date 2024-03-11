@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bednar-Rowe",
-  "ListItemId": 993,
+  "UdListDefinitionName": "Rath, Yundt and Wolff",
+  "ListItemId": 933,
   "Headings": [
     {
-      "Id": 627,
-      "Name": "Rice-McKenzie",
-      "ToolTip": "Inventore reiciendis nostrum nemo possimus iusto dicta facilis.",
+      "Id": 231,
+      "Name": "Hintz-Boyer",
+      "ToolTip": "Voluptatem exercitationem voluptatem nostrum ab.",
       "Deleted": false,
-      "Rank": 981,
-      "Type": "pariatur",
-      "ColorBlock": 751,
-      "IconHint": "animi",
+      "Rank": 153,
+      "Type": "sit",
+      "ColorBlock": 166,
+      "IconHint": "iste",
       "Selected": true,
-      "LastChanged": "2006-01-14T10:30:23.9944062+01:00",
+      "LastChanged": "2012-07-25T14:23:46.8306046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "nobis",
-      "Hidden": true,
-      "FullName": "Royce Schamberger"
+      "ExtraInfo": "autem",
+      "StyleHint": "soluta",
+      "Hidden": false,
+      "FullName": "Prof. Matilda Effie Kozey Jr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Stark Inc and Sons",
-    "ToolTip": "Molestiae maiores non.",
-    "Deleted": true,
-    "Rank": 289,
-    "Type": "qui",
-    "ColorBlock": 693,
-    "IconHint": "et",
+    "Id": 277,
+    "Name": "Haley-Yost",
+    "ToolTip": "Ut ut vel.",
+    "Deleted": false,
+    "Rank": 788,
+    "Type": "illum",
+    "ColorBlock": 682,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2018-09-11T10:30:24.0100212+02:00",
+    "LastChanged": "2004-05-28T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Goodwin Group",
-        "ToolTip": "Ad culpa adipisci dignissimos voluptatum autem.",
+        "Id": 922,
+        "Name": "Lueilwitz, Corwin and Bernhard",
+        "ToolTip": "Aut et sapiente.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "voluptas",
-        "ColorBlock": 361,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2019-08-23T10:30:24.0100212+02:00",
+        "Rank": 773,
+        "Type": "assumenda",
+        "ColorBlock": 121,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2023-09-09T14:23:46.8306046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "in",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Prof. Kristin Thompson",
+        "FullName": "Mrs. Freeman Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Ms. Amani Mabel Mayer Sr.",
+    "ExtraInfo": "vel",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Mr. Adella Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 99
       }
     }
   }

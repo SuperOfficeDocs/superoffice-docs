@@ -68,16 +68,16 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Johnston-Friesen",
-  "ProviderName": "Keeling, Stiedemann and Strosin",
-  "Context": "qui",
-  "OwnerKeys": "deserunt",
+  "GuiName": "Batz, Raynor and Ryan",
+  "ProviderName": "Breitenberg-Cronin",
+  "Context": "officiis",
+  "OwnerKeys": "rerum",
   "ColumnWidths": [
-    "placeat",
+    "odit",
     "et"
   ]
 }

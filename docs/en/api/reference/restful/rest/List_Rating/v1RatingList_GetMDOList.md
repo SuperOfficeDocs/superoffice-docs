@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=et
+GET /api/v1/List/Rating/MDOItems?query=ex
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Rodriguez-Marks",
-    "ToolTip": "Illo sapiente ullam explicabo neque laboriosam.",
-    "Deleted": false,
-    "Rank": 821,
-    "Type": "necessitatibus",
+    "Id": 742,
+    "Name": "Glover-Schaefer",
+    "ToolTip": "Iusto commodi itaque et ut dolorum.",
+    "Deleted": true,
+    "Rank": 486,
+    "Type": "esse",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Lemke Inc and Sons",
-        "ToolTip": "Commodi dolore ratione in qui exercitationem beatae.",
+        "Id": 565,
+        "Name": "Kuphal, McDermott and Gerlach",
+        "ToolTip": "Exercitationem recusandae qui dolore nobis officia et.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "consequatur",
+        "Rank": 763,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 560,
-        "ExtraInfo": "dolor",
-        "StyleHint": "asperiores",
-        "FullName": "Edgar Rath PhD",
+        "IconHint": "cum",
+        "ColorBlock": 964,
+        "ExtraInfo": "ut",
+        "StyleHint": "sunt",
+        "FullName": "Pietro Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 670
+            "FieldType": "System.Int32",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "IconHint": "tempore",
-    "ColorBlock": 915,
-    "ExtraInfo": "rerum",
-    "StyleHint": "molestiae",
-    "FullName": "Mr. Donato Pearlie Effertz",
+    "IconHint": "illo",
+    "ColorBlock": 62,
+    "ExtraInfo": "omnis",
+    "StyleHint": "non",
+    "FullName": "Layla Derek Cummings Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

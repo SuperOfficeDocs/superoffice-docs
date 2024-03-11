@@ -119,25 +119,25 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wisozk LLC",
-  "Comment": "quaerat",
-  "StakeholderRoleId": 941,
-  "CountryId": 968,
-  "PersonId": 397,
-  "EmailDescription": "lewis@champlin.uk",
-  "EmailId": 225,
-  "EmailAddress": "chanel.mosciski@barrowskirlin.info",
-  "PhoneId": 174,
-  "ContactName": "O'Conner LLC",
-  "ContactId": 770,
-  "SaleId": 486,
-  "Mrmrs": "itaque",
-  "Firstname": "Jackeline",
-  "MiddleName": "Champlin-Dietrich",
-  "Lastname": "Brown",
-  "SaleStakeholderId": 898,
-  "Rank": 562,
-  "Phone": "(801)355-2510 x623"
+  "StakeholderRoleName": "Crist-Zemlak",
+  "Comment": "facilis",
+  "StakeholderRoleId": 617,
+  "CountryId": 165,
+  "PersonId": 48,
+  "EmailDescription": "jocelyn@connelly.biz",
+  "EmailId": 146,
+  "EmailAddress": "odie_bailey@kerlukegreenholt.biz",
+  "PhoneId": 323,
+  "ContactName": "Kunze, Ullrich and Cronin",
+  "ContactId": 758,
+  "SaleId": 250,
+  "Mrmrs": "distinctio",
+  "Firstname": "Braeden",
+  "MiddleName": "Ullrich, Murray and Glover",
+  "Lastname": "Jakubowski",
+  "SaleStakeholderId": 539,
+  "Rank": 244,
+  "Phone": "1-121-581-5806"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "West Group",
-  "Comment": "et",
-  "StakeholderRoleId": 175,
-  "CountryId": 617,
-  "PersonId": 498,
-  "EmailDescription": "vincenza_breitenberg@jacobson.info",
-  "EmailId": 49,
-  "EmailAddress": "branson@mccullough.com",
-  "PhoneId": 960,
-  "ContactName": "Buckridge, Sawayn and Hessel",
-  "ContactId": 829,
-  "SaleId": 990,
-  "Mrmrs": "distinctio",
-  "Firstname": "Brianne",
-  "MiddleName": "Gottlieb LLC",
-  "Lastname": "Cummerata",
-  "SaleStakeholderId": 548,
-  "Rank": 929,
-  "Phone": "426-717-2747 x781",
+  "StakeholderRoleName": "Harber Group",
+  "Comment": "culpa",
+  "StakeholderRoleId": 726,
+  "CountryId": 566,
+  "PersonId": 11,
+  "EmailDescription": "marta@price.ca",
+  "EmailId": 698,
+  "EmailAddress": "allison_hoppe@kerluke.info",
+  "PhoneId": 501,
+  "ContactName": "Prosacco Group",
+  "ContactId": 704,
+  "SaleId": 897,
+  "Mrmrs": "dolorem",
+  "Firstname": "Vernice",
+  "MiddleName": "Pacocha LLC",
+  "Lastname": "Wilkinson",
+  "SaleStakeholderId": 627,
+  "Rank": 13,
+  "Phone": "(368)124-7711",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 467
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

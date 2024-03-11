@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 886,
-  "Id": 406,
-  "HistoryName": "Thompson-Tremblay",
-  "HistoryId": 68,
-  "AssociateId": 490,
-  "Name": "Fadel, Howe and Zulauf",
-  "ItemInfo": "ipsam",
+  "Rank": 498,
+  "Id": 829,
+  "HistoryName": "Corkery Inc and Sons",
+  "HistoryId": 781,
+  "AssociateId": 686,
+  "Name": "Price, Goldner and Altenwerth",
+  "ItemInfo": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

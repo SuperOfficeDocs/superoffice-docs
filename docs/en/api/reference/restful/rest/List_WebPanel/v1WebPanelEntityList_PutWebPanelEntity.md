@@ -112,31 +112,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 224,
-  "Name": "Schulist, Schmeler and Crooks",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 34,
+  "WebPanelId": 99,
+  "Name": "Funk-Schroeder",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 679,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Moen Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Wunsch, Kub and Hahn",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsum",
-  "Icon": 370,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "exercitationem",
+  "Icon": 66,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 313,
-  "Name": "Crooks, Streich and Tillman",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 931,
+  "WebPanelId": 647,
+  "Name": "O'Kon-Pacocha",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 425,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bruen Group",
+  "WindowName": "Koelpin LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "a",
-  "Icon": 689,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "minus",
+  "Icon": 12,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 971
     }
   }
 }

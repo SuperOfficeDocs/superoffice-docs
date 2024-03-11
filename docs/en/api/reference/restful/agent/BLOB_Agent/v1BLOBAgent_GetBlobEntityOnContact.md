@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 668
+  "ContactId": 910
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 221,
-  "BlobSize": 737,
-  "Description": "Configurable intermediate methodology",
-  "ExtraInfo": "doloremque",
+  "BlobId": 984,
+  "BlobSize": 135,
+  "Description": "Universal 24/7 website",
+  "ExtraInfo": "sequi",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "accusantium",
-  "OriginalSize": 161,
-  "CreatedDate": "1998-07-12T10:30:23.1139183+02:00",
-  "UpdatedDate": "2006-08-03T10:30:23.1139183+02:00",
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 594,
+  "CreatedDate": "2017-01-11T14:23:45.8918358+01:00",
+  "UpdatedDate": "2004-03-08T14:23:45.8918358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veniam",
+  "ConceptualType": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

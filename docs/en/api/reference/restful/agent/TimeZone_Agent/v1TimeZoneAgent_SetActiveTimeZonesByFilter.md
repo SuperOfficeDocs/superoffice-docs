@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "ipsum",
-  "Active": true
+  "Filter": "odit",
+  "Active": false
 }
 ```
 

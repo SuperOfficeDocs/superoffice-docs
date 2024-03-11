@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "nemo",
-    "Type": "molestiae",
-    "Description": "Horizontal incremental Graphic Interface",
+    "DisplayType": "eius",
+    "Type": "officiis",
+    "Description": "Mandatory full-range budgetary management",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldLength": 884
       }
     }
   }

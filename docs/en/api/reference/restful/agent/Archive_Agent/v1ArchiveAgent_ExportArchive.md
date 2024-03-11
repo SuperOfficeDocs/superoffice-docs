@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jacobs-Lemke",
-  "Context": "voluptates",
+  "ProviderName": "Schumm, D'Amore and Schultz",
+  "Context": "est",
   "DesiredEntities": [
-    "magnam",
-    "quae"
+    "ducimus",
+    "quia"
   ],
   "Columns": [
-    "laudantium",
-    "repellat"
+    "numquam",
+    "eum"
   ],
   "SortOrder": [
     {
-      "Name": "Ankunding Group",
+      "Name": "Simonis, Mayert and Auer",
       "Direction": "ASC"
     },
     {
-      "Name": "Ankunding Group",
+      "Name": "Simonis, Mayert and Auer",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Wintheiser, Nienow and Berge",
-      "Operator": "quia",
+      "Name": "Klocko-O'Reilly",
+      "Operator": "qui",
       "Values": [
-        "dicta",
-        "laudantium"
+        "quia",
+        "incidunt"
       ],
       "DisplayValues": [
-        "sit",
-        "magnam"
+        "earum",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 360,
+      "InterParenthesis": 60,
       "InterOperator": "And",
-      "UniqueHash": 58
+      "UniqueHash": 76
     }
   ],
-  "ExportType": "rerum",
+  "ExportType": "ipsa",
   "SelectedRowIds": [
-    "provident",
-    "nihil"
+    "error",
+    "dolorem"
   ],
-  "EstimatedRowCount": 676
+  "EstimatedRowCount": 625
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 185,
-  "FileName": "Rath, Stracke and Boehm",
-  "Message": "doloribus",
+  "BatchTaskId": 87,
+  "FileName": "Heidenreich-Hegmann",
+  "Message": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 954
     }
   }
 }

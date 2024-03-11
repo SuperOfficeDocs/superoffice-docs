@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    962,
-    446
+    348,
+    856
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 639,
-    "Name": "Rodriguez Group",
-    "Description": "Front-line mobile policy",
+    "ProjectId": 783,
+    "Name": "Rippin LLC",
+    "Description": "Synergized client-server structure",
     "URL": "http://www.example.com/",
-    "Type": "reprehenderit",
-    "AssociateId": 508,
-    "AssociateFullName": "Jude Nienow",
-    "TypeId": 318,
-    "Updated": "2008-09-19T10:30:24.3705833+02:00",
-    "StatusId": 653,
-    "Status": "sint",
-    "TextId": 576,
-    "PublishTo": "2006-04-04T10:30:24.3705833+02:00",
-    "PublishFrom": "2004-07-11T10:30:24.3705833+02:00",
+    "Type": "et",
+    "AssociateId": 870,
+    "AssociateFullName": "Kelsi Marks",
+    "TypeId": 832,
+    "Updated": "2010-09-01T14:23:47.1911342+02:00",
+    "StatusId": 962,
+    "Status": "eligendi",
+    "TextId": 865,
+    "PublishTo": "2010-10-09T14:23:47.1911342+02:00",
+    "PublishFrom": "1999-06-15T14:23:47.1911342+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1020271",
-    "ActiveErpLinks": 73,
+    "ProjectNumber": "1813718",
+    "ActiveErpLinks": 391,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 866
       }
     }
   }

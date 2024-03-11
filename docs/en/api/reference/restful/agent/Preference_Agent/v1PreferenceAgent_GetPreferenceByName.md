@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "vel",
-  "PrefKey": "sit",
+  "PrefSection": "ad",
+  "PrefKey": "maiores",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ipsam",
+  "RawValue": "aperiam",
   "Specification": null,
-  "DisplayValue": "quia",
-  "DisplayTooltip": "voluptas",
+  "DisplayValue": "vel",
+  "DisplayTooltip": "aspernatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 63,
-  "PrefDescId": 198,
-  "TableName": "Emard, Thompson and Skiles",
-  "UserPreferenceId": 794,
+  "TargetId": 755,
+  "PrefDescId": 585,
+  "TableName": "Tillman-Schulist",
+  "UserPreferenceId": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 409
     }
   }
 }

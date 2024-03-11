@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Jewess-Beatty",
-    "ToolTip": "Voluptatum voluptatem voluptas laboriosam iste id.",
-    "Deleted": true,
-    "Rank": 868,
-    "Type": "soluta",
-    "ColorBlock": 931,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "1998-07-03T10:30:33.0212063+02:00",
+    "Id": 204,
+    "Name": "Little Inc and Sons",
+    "ToolTip": "Rem et iusto enim.",
+    "Deleted": false,
+    "Rank": 489,
+    "Type": "aut",
+    "ColorBlock": 222,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2016-05-07T14:23:56.1189508+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Huels, Grimes and Renner",
-        "ToolTip": "Animi veniam ullam.",
-        "Deleted": false,
-        "Rank": 964,
-        "Type": "quo",
-        "ColorBlock": 878,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2010-01-23T10:30:33.0212063+01:00",
+        "Id": 304,
+        "Name": "Huel-Leffler",
+        "ToolTip": "Eligendi in.",
+        "Deleted": true,
+        "Rank": 160,
+        "Type": "velit",
+        "ColorBlock": 935,
+        "IconHint": "ipsum",
+        "Selected": true,
+        "LastChanged": "2015-10-20T14:23:56.1189508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "natus",
+        "ExtraInfo": "non",
+        "StyleHint": "vero",
         "Hidden": true,
-        "FullName": "Alize Nolan",
+        "FullName": "Miss Giovanny Citlalli Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldType": "System.Int32",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Ms. Ambrose Casper DDS",
+    "ExtraInfo": "ex",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Lucio Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

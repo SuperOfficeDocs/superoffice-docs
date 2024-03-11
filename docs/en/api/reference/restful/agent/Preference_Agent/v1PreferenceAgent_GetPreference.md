@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 969
+  "Id": 888
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "repellat",
+  "RawValue": "sed",
   "Specification": null,
-  "DisplayValue": "porro",
-  "DisplayTooltip": "a",
+  "DisplayValue": "sapiente",
+  "DisplayTooltip": "inventore",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 154,
-  "PrefDescId": 224,
-  "TableName": "Schuppe Inc and Sons",
-  "UserPreferenceId": 440,
+  "TargetId": 707,
+  "PrefDescId": 941,
+  "TableName": "Gislason-Lockman",
+  "UserPreferenceId": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldLength": 683
     }
   }
 }

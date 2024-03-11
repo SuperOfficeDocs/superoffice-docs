@@ -82,9 +82,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-03-05T10:30:22.7220872+01:00",
-  "EndDate": "2003-11-15T10:30:22.7220872+01:00",
-  "AssociateId": 109
+  "StartDate": "1999-08-03T14:23:45.4219631+02:00",
+  "EndDate": "2007-03-21T14:23:45.4219631+01:00",
+  "AssociateId": 906
 }
 ```
 
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2001-05-18T10:30:22.7220872+02:00",
+    "Date": "2006-04-16T14:23:45.4219631+02:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 760
       }
     }
   },
   {
-    "Date": "2001-05-18T10:30:22.7220872+02:00",
+    "Date": "2006-04-16T14:23:45.4219631+02:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 760
       }
     }
   }

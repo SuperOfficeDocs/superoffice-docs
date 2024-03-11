@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 235,
-    "Name": "McClure-Osinski",
-    "Description": "Decentralized tangible website",
+    "ProjectId": 749,
+    "Name": "Bins LLC",
+    "Description": "Networked zero administration application",
     "URL": "http://www.example.com/",
-    "Type": "cupiditate",
-    "AssociateId": 431,
-    "AssociateFullName": "Prof. Marina Yessenia Sipes PhD",
-    "TypeId": 446,
-    "Updated": "2007-06-29T10:30:24.3705833+02:00",
-    "StatusId": 677,
-    "Status": "et",
-    "TextId": 596,
-    "PublishTo": "2004-01-05T10:30:24.3705833+01:00",
-    "PublishFrom": "2021-07-22T10:30:24.3705833+02:00",
-    "IsPublished": true,
+    "Type": "quis",
+    "AssociateId": 337,
+    "AssociateFullName": "Dariana Gleichner",
+    "TypeId": 821,
+    "Updated": "2012-12-28T14:23:47.1755092+01:00",
+    "StatusId": 495,
+    "Status": "consequatur",
+    "TextId": 287,
+    "PublishTo": "2014-07-11T14:23:47.1755092+02:00",
+    "PublishFrom": "2018-09-25T14:23:47.1755092+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1088235",
-    "ActiveErpLinks": 16,
+    "ProjectNumber": "467040",
+    "ActiveErpLinks": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

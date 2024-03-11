@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Rath Inc and Sons",
-  "AssociateId": 701,
-  "DetailsTable": 352,
-  "DetailsRecord": 788,
-  "IsSystemTask": true,
+  "Id": 778,
+  "Name": "Rodriguez, Veum and Waelchi",
+  "AssociateId": 478,
+  "DetailsTable": 319,
+  "DetailsRecord": 442,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "unde",
-    "ParameterObject2": "velit"
+    "ParameterObject1": "vitae",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2014-10-14T10:30:24.4815013+02:00",
-  "Created": "1996-12-27T10:30:24.4815013+01:00",
-  "StartCount": 348,
-  "DatabaseSerialNumber": "668894",
-  "Context": "a",
-  "Result": "vel",
+  "LastStarted": "2003-12-28T14:23:47.3005077+01:00",
+  "Created": "2023-08-28T14:23:47.3005077+02:00",
+  "StartCount": 89,
+  "DatabaseSerialNumber": "788058",
+  "Context": "natus",
+  "Result": "quam",
   "State": "All",
-  "Description": "Pre-emptive disintermediate policy",
-  "Response": "numquam",
-  "Request": "ullam",
-  "ProgressDescription": "Open-source attitude-oriented archive",
-  "ProgressPercent": 308,
-  "FileName": "Terry, Trantow and Lakin",
+  "Description": "Synchronised cohesive workforce",
+  "Response": "suscipit",
+  "Request": "quod",
+  "ProgressDescription": "Reactive non-volatile knowledge base",
+  "ProgressPercent": 140,
+  "FileName": "Hilpert Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 221
     }
   }
 }

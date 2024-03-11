@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Haley-Strosin",
-  "ContactId": 644
+  "TableName": "McLaughlin, Moen and Wunsch",
+  "ContactId": 772
 }
 ```
 

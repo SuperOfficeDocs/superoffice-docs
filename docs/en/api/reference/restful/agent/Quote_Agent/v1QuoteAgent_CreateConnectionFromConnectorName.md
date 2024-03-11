@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Nader LLC"
+  "ConnectorName": "Zemlak, Crist and Waters"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 218,
-  "ERPName": "Cole, VonRueden and Bergstrom",
-  "DisplayName": "Bernhard LLC",
-  "DisplayDescription": "Self-enabling needs-based software",
-  "Rank": 629,
-  "ConnectorName": "Wyman LLC",
-  "ErpConnectionId": 819,
-  "ExtraData": "autem",
+  "QuoteConnectionId": 86,
+  "ERPName": "Ortiz, Tromp and Hermiston",
+  "DisplayName": "Upton LLC",
+  "DisplayDescription": "Automated 24 hour artificial intelligence",
+  "Rank": 105,
+  "ConnectorName": "Runte Group",
+  "ErpConnectionId": 164,
+  "ExtraData": "rerum",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 992,
-      "ERPPriceListKey": "quibusdam",
-      "QuoteConnectionId": 706,
-      "Name": "Connelly, Little and Von",
-      "Description": "Realigned secondary conglomeration",
-      "Currency": "omnis",
-      "CurrencyName": "Wisoky Group",
-      "ValidFrom": "2020-04-06T10:30:24.4190067+02:00",
-      "ValidTo": "2009-09-25T10:30:24.4190067+02:00",
-      "IsActive": false,
+      "PriceListId": 843,
+      "ERPPriceListKey": "accusamus",
+      "QuoteConnectionId": 551,
+      "Name": "Leffler Inc and Sons",
+      "Description": "Team-oriented coherent open system",
+      "Currency": "commodi",
+      "CurrencyName": "Huels-Reinger",
+      "ValidFrom": "2014-12-12T14:23:47.2380075+01:00",
+      "ValidTo": "2012-06-03T14:23:47.2380075+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 717
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": true,
   "UserGroupAccessIds": [
-    789,
-    1002
+    430,
+    34
   ],
   "AssociateAccessIds": [
-    129,
-    282
+    459,
+    259
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

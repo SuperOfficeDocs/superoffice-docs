@@ -25,7 +25,7 @@ Deletes the ConsentPerson
 | ConsentPersonId | int32 | **Required** The id of the ConsentPerson to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=561
+POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=596
 ```
 
 

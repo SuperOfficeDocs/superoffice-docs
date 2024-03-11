@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ward, Wiza and Skiles",
-  "AdditionalInfo": "molestiae",
-  "SearchValue": "nisi"
+  "Name": "Nader, Murray and Flatley",
+  "AdditionalInfo": "itaque",
+  "SearchValue": "nemo"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "O'Connell Group",
-    "ToolTip": "Quisquam consequuntur eveniet.",
-    "Deleted": true,
-    "Rank": 848,
-    "Type": "nulla",
+    "Id": 478,
+    "Name": "Bosco LLC",
+    "ToolTip": "Harum est in nesciunt molestiae aliquam voluptatem vel.",
+    "Deleted": false,
+    "Rank": 995,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 798,
-        "Name": "Osinski, Senger and Turner",
-        "ToolTip": "Dignissimos veniam possimus inventore quia quas qui.",
+        "Id": 876,
+        "Name": "VonRueden, Armstrong and Rutherford",
+        "ToolTip": "Est sunt enim ea ut.",
         "Deleted": true,
-        "Rank": 232,
-        "Type": "quibusdam",
+        "Rank": 696,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 513,
-        "ExtraInfo": "sit",
-        "StyleHint": "culpa",
-        "FullName": "Buck Medhurst IV",
+        "IconHint": "magnam",
+        "ColorBlock": 901,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "quisquam",
+        "FullName": "Dr. Easton Kuhic DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldType": "System.String",
+            "FieldLength": 176
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 757,
+    "IconHint": "expedita",
+    "ColorBlock": 256,
     "ExtraInfo": "aut",
-    "StyleHint": "esse",
-    "FullName": "Braxton Kreiger",
+    "StyleHint": "deleniti",
+    "FullName": "Queenie Fay DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldLength": 363
       }
     }
   }

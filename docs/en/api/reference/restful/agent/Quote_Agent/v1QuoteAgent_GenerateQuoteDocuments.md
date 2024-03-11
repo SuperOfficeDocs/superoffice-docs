@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 26,
-  "EmailBodyTemplateId": 762,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 990,
+  "QuoteVersionId": 251,
+  "EmailBodyTemplateId": 389,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 531,
   "IncludeAttachments": false,
-  "RawMailSubject": "sed"
+  "RawMailSubject": "dolores"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 207,
-  "QuotedProductsId": 424,
+  "QuoteDocumentId": 142,
+  "QuotedProductsId": 513,
   "QuoteAttachmentIds": [
-    182,
-    672
+    311,
+    682
   ],
-  "MailBody": "temporibus",
-  "MailSubject": "ipsa",
-  "ToEmail": "prudence@brown.ca",
-  "ToFullName": "Buford Hilll IV",
-  "ErrorMessage": "quae",
+  "MailBody": "ab",
+  "MailSubject": "laudantium",
+  "ToEmail": "alexie@vonlittel.us",
+  "ToFullName": "Lilla Gerlach IV",
+  "ErrorMessage": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 567
     }
   }
 }

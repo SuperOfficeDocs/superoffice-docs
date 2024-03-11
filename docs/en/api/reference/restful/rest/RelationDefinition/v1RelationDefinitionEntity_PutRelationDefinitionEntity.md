@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 16,
-  "Name": "Beatty-Stokes",
-  "Tooltip": "eius",
-  "PassiveText": "molestiae",
+  "ReldefId": 456,
+  "Name": "Spinka, Swift and Blick",
+  "Tooltip": "explicabo",
+  "PassiveText": "soluta",
   "Deleted": false,
-  "Rank": 765,
+  "Rank": 724,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 37,
-  "Name": "Reynolds, Rodriguez and Rohan",
-  "Tooltip": "ut",
-  "PassiveText": "cupiditate",
-  "Deleted": true,
-  "Rank": 548,
+  "ReldefId": 595,
+  "Name": "Gleason Group",
+  "Tooltip": "sint",
+  "PassiveText": "blanditiis",
+  "Deleted": false,
+  "Rank": 888,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 762
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

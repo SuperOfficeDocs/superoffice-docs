@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Larson-Langosh",
-    "ToolTip": "Culpa aperiam sunt.",
+    "Id": 288,
+    "Name": "Powlowski, Bradtke and Kozey",
+    "ToolTip": "Omnis et et odio ea necessitatibus voluptas nesciunt.",
     "Deleted": false,
-    "Rank": 253,
-    "Type": "laborum",
-    "ColorBlock": 392,
-    "IconHint": "dolor",
+    "Rank": 440,
+    "Type": "eum",
+    "ColorBlock": 625,
+    "IconHint": "corrupti",
     "Selected": true,
-    "LastChanged": "2005-10-17T10:30:33.178709+02:00",
+    "LastChanged": "2022-12-05T14:23:56.2751981+01:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Yundt-Hoppe",
-        "ToolTip": "Qui nostrum est sint vero.",
+        "Id": 379,
+        "Name": "Shields Group",
+        "ToolTip": "Vel temporibus veritatis maxime dolores incidunt odit.",
         "Deleted": false,
-        "Rank": 542,
-        "Type": "amet",
-        "ColorBlock": 56,
-        "IconHint": "veniam",
+        "Rank": 863,
+        "Type": "minus",
+        "ColorBlock": 70,
+        "IconHint": "ad",
         "Selected": true,
-        "LastChanged": "2007-11-12T10:30:33.178709+01:00",
+        "LastChanged": "2003-12-26T14:23:56.2751981+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Amparo Schultz V",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Mrs. Sammy Bogan V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "magnam",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Reyes Lueilwitz",
+    "FullName": "Prof. Cade Hand I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 124
       }
     }
   }

@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 254,
-    "Name": "Bauch, Hayes and Bauch",
-    "Description": "Multi-tiered disintermediate knowledge user",
+    "ProjectId": 405,
+    "Name": "Bechtelar Group",
+    "Description": "Assimilated human-resource local area network",
     "URL": "http://www.example.com/",
-    "Type": "nulla",
-    "AssociateId": 369,
-    "AssociateFullName": "Prof. Madalyn Goldner V",
-    "TypeId": 277,
-    "Updated": "2002-01-05T10:30:24.3705833+01:00",
-    "StatusId": 845,
-    "Status": "qui",
-    "TextId": 310,
-    "PublishTo": "1998-06-05T10:30:24.3705833+02:00",
-    "PublishFrom": "2002-07-10T10:30:24.3705833+02:00",
+    "Type": "enim",
+    "AssociateId": 797,
+    "AssociateFullName": "Miss Chauncey Beth Gusikowski",
+    "TypeId": 632,
+    "Updated": "2004-05-10T14:23:47.1911342+02:00",
+    "StatusId": 470,
+    "Status": "est",
+    "TextId": 966,
+    "PublishTo": "2019-09-10T14:23:47.1911342+02:00",
+    "PublishFrom": "2014-07-19T14:23:47.1911342+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1469259",
-    "ActiveErpLinks": 958,
+    "ProjectNumber": "984227",
+    "ActiveErpLinks": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 900
+  "QuoteLineConfigurationId": 519
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 255,
-  "FieldName": "Monahan LLC",
-  "Label": "voluptas",
-  "Tooltip": "perferendis",
+  "QuoteLineConfigurationId": 459,
+  "FieldName": "Kshlerin Group",
+  "Label": "eos",
+  "Tooltip": "nobis",
   "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 186,
-  "RestrictEdit": true,
+  "Rank": 652,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

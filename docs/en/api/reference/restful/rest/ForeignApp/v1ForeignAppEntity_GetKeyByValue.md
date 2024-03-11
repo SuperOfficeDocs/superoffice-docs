@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=repudiandae
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Jun 2022 10:30:32 G6T
+Last-Modified: Fri, 11 Oct 2002 14:23:55 G10T
 
 {
-  "Key": "unde",
-  "Value": "numquam",
-  "RecordId": 235,
-  "CreatedDate": "2001-04-28T10:30:32.0886795+02:00",
-  "UpdatedDate": "2022-06-19T10:30:32.0886795+02:00",
-  "UpdatedBy": "tempora",
-  "CreatedBy": "dicta",
-  "TableName": "Simonis LLC",
+  "Key": "dolor",
+  "Value": "sunt",
+  "RecordId": 394,
+  "CreatedDate": "2014-11-27T14:23:55.195897+01:00",
+  "UpdatedDate": "2002-10-11T14:23:55.195897+02:00",
+  "UpdatedBy": "dolor",
+  "CreatedBy": "vitae",
+  "TableName": "Torphy, Dickinson and Armstrong",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 30
     }
   }
 }

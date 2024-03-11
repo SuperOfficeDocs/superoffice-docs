@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=312
+POST /api/v1/Agents/Document/GetDocument?documentId=807
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 574,
-  "Attention": "et",
-  "Header": "non",
-  "Name": "Heaney, Lehner and Moore",
-  "OurRef": "doloremque",
-  "YourRef": "minima",
-  "Description": "Synergized attitude-oriented application",
-  "DocumentTemplate": "recusandae",
-  "IsPublished": true,
-  "PersonId": 79,
-  "PersonFullName": "Vella Kuhlman MD",
-  "AssociateFullName": "Aglae Monserrat Buckridge MD",
-  "ContactId": 608,
-  "ContactName": "Goyette-Bailey",
-  "ProjectId": 899,
-  "ProjectName": "Brown-Turcotte",
-  "AssociateId": 379,
-  "Snum": 63,
-  "SaleId": 329,
-  "SaleName": "Lubowitz-O'Conner",
+  "DocumentId": 455,
+  "Attention": "reiciendis",
+  "Header": "dolor",
+  "Name": "Hudson-Flatley",
+  "OurRef": "repudiandae",
+  "YourRef": "corrupti",
+  "Description": "Re-engineered optimizing framework",
+  "DocumentTemplate": "tempora",
+  "IsPublished": false,
+  "PersonId": 58,
+  "PersonFullName": "Asha Candelario Stehr DVM",
+  "AssociateFullName": "Nicklaus Barton",
+  "ContactId": 863,
+  "ContactName": "Jewess-Bartoletti",
+  "ProjectId": 921,
+  "ProjectName": "Romaguera Inc and Sons",
+  "AssociateId": 305,
+  "Snum": 62,
+  "SaleId": 466,
+  "SaleName": "O'Keefe-Schulist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 855
     }
   }
 }

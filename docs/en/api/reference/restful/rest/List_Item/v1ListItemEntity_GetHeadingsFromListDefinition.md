@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 409,
-    "Name": "Stiedemann, Emard and Johnson",
-    "Tooltip": "id",
+    "HeadingId": 657,
+    "Name": "Berge Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 849,
-    "UdListDefinitionId": 101,
+    "Rank": 705,
+    "UdListDefinitionId": 629,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 591
       }
     }
   }

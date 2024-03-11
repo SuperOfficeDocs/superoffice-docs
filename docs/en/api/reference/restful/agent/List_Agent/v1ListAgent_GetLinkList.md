@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Heller Group",
-    "Id": 409,
-    "Description": "Multi-layered multi-state customer loyalty",
-    "ExtraInfo": "consequatur",
-    "LinkId": 682,
+    "EntityName": "Kassulke, Bartoletti and Maggio",
+    "Id": 912,
+    "Description": "Up-sized systemic utilisation",
+    "ExtraInfo": "occaecati",
+    "LinkId": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 388
       }
     }
   }

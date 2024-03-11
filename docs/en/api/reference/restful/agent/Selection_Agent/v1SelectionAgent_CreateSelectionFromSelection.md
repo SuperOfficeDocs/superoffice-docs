@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 624,
-  "Name": "Emard-Carroll",
+  "SelectionId": 336,
+  "Name": "Farrell Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based discrete capability",
-  "Postit": "voluptatem",
+  "Description": "Exclusive global extranet",
+  "Postit": "quae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 190,
-  "IncludePerson": 872,
-  "MemberCount": 304,
-  "Name": "Cronin-O'Connell",
-  "PostitTextId": 692,
-  "CreatedDate": "2017-05-05T10:30:24.7017104+02:00",
-  "SelectionId": 575,
-  "SoundEx": "molestiae",
-  "Source": 859,
-  "TextId": 549,
-  "UpdatedDate": "2014-06-17T10:30:24.7017104+02:00",
-  "UpdatedCount": 596,
-  "Visibility": 211,
+  "GroupIdx": 327,
+  "IncludePerson": 564,
+  "MemberCount": 525,
+  "Name": "Kuvalis, Koch and Little",
+  "PostitTextId": 618,
+  "CreatedDate": "1998-04-07T14:23:47.4255063+02:00",
+  "SelectionId": 349,
+  "SoundEx": "beatae",
+  "Source": 367,
+  "TextId": 406,
+  "UpdatedDate": "2012-12-23T14:23:47.4255063+01:00",
+  "UpdatedCount": 677,
+  "Visibility": 179,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 619,
-  "TargetTableName": "Turcotte-Baumbach",
+  "CompanyUnique": false,
+  "TargetTableNumber": 248,
+  "TargetTableName": "Cummerata Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 634,
-  "RightSelectionId": 882,
+  "LeftSelectionId": 548,
+  "RightSelectionId": 287,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ernser LLC",
-  "ShadowProviderName": "Kutch, Schultz and Dietrich",
-  "ChartKey": "modi",
-  "LastLoaded": "2015-11-03T10:30:24.7017104+01:00",
-  "LastLoadedBy": 988,
+  "MainProviderName": "Daniel, Kunde and Funk",
+  "ShadowProviderName": "Klein Group",
+  "ChartKey": "eaque",
+  "LastLoaded": "2020-07-16T14:23:47.4255063+02:00",
+  "LastLoadedBy": 450,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-06-20T10:30:24.7017104+02:00",
-  "LastMembershipChangeBy": 658,
+  "LastMembershipChange": "1998-02-27T14:23:47.4255063+01:00",
+  "LastMembershipChangeBy": 887,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Lowe, Jast and Harvey",
-  "DashboardTileDefinitionId": 943,
+  "MainHeading": "maxime",
+  "MemberTabHeading": "quo",
+  "MailingsProviderName": "Douglas, Lueilwitz and Crona",
+  "DashboardTileDefinitionId": 4,
   "VisibleFor": [
     {
-      "VisibleId": 943,
+      "VisibleId": 547,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 781
         }
       }
     },
     {
-      "VisibleId": 943,
+      "VisibleId": 547,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 781
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 268
     }
   }
 }

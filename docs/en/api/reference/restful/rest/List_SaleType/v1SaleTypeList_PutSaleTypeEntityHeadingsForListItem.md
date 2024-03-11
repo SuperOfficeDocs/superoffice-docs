@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Mann, Thiel and Schroeder",
-    "ToolTip": "Ex quisquam soluta laudantium dolores ut totam molestiae.",
-    "Deleted": true,
-    "Rank": 695,
-    "Type": "et",
-    "ColorBlock": 72,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2022-10-03T10:30:33.2412121+02:00",
+    "Id": 405,
+    "Name": "Kub-Parisian",
+    "ToolTip": "Sed quasi perspiciatis magni nihil.",
+    "Deleted": false,
+    "Rank": 569,
+    "Type": "id",
+    "ColorBlock": 190,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2005-05-30T14:23:56.3376983+02:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Boehm-Osinski",
-        "ToolTip": "Qui modi vel excepturi.",
-        "Deleted": true,
-        "Rank": 784,
-        "Type": "iusto",
-        "ColorBlock": 555,
-        "IconHint": "porro",
+        "Id": 120,
+        "Name": "Pacocha-Brown",
+        "ToolTip": "Accusamus iusto quis possimus aut.",
+        "Deleted": false,
+        "Rank": 947,
+        "Type": "consequuntur",
+        "ColorBlock": 73,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2004-11-28T10:30:33.2412121+01:00",
+        "LastChanged": "2018-04-12T14:23:56.3376983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Prof. Gerardo Alexandrea Labadie V"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Rhiannon Boyle"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Dameon Ziemann"
+    "FullName": "Elwyn Lind"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Denesik LLC",
-    "ToolTip": "Ab labore.",
+    "Id": 867,
+    "Name": "Pacocha Inc and Sons",
+    "ToolTip": "Incidunt voluptatem et culpa est cumque repudiandae sit.",
     "Deleted": false,
-    "Rank": 880,
-    "Type": "quia",
-    "ColorBlock": 915,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2017-02-16T10:30:33.2412121+01:00",
+    "Rank": 850,
+    "Type": "aspernatur",
+    "ColorBlock": 616,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2019-03-10T14:23:56.3376983+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Morissette LLC",
-        "ToolTip": "Iusto id dolore magnam.",
-        "Deleted": true,
-        "Rank": 231,
-        "Type": "magni",
-        "ColorBlock": 45,
-        "IconHint": "molestiae",
+        "Id": 279,
+        "Name": "Dibbert, Nitzsche and Aufderhar",
+        "ToolTip": "Vitae commodi quibusdam est quisquam.",
+        "Deleted": false,
+        "Rank": 424,
+        "Type": "optio",
+        "ColorBlock": 190,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2019-11-26T10:30:33.2412121+01:00",
+        "LastChanged": "2001-01-19T14:23:56.3376983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Maddison Gorczany",
+        "ExtraInfo": "cum",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Hilario Lilyan Lind Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 864
+            "FieldLength": 215
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Rodrick Hodkiewicz",
+    "ExtraInfo": "quos",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Kendall Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 855
       }
     }
   }

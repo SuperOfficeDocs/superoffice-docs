@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 291
+  "ProductId": 562
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 217,
-  "BlobSize": 335,
-  "Description": "Open-source regional synergy",
-  "ExtraInfo": "non",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 741,
-  "CreatedDate": "2023-09-12T10:30:23.1139183+02:00",
-  "UpdatedDate": "2014-08-22T10:30:23.1139183+02:00",
+  "BlobId": 762,
+  "BlobSize": 793,
+  "Description": "Object-based user-facing open system",
+  "ExtraInfo": "hic",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 712,
+  "CreatedDate": "2006-10-30T14:23:45.8918358+01:00",
+  "UpdatedDate": "2012-11-22T14:23:45.8918358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 587
     }
   }
 }

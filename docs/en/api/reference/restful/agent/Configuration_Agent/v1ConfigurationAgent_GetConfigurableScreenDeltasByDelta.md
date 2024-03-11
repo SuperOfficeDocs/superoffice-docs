@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 322,
-    "Name": "Howe LLC",
-    "Description": "Expanded zero defect application",
-    "DeltaJson": "sed",
+    "ConfigurableScreenDeltaId": 568,
+    "Name": "Stracke-Moore",
+    "Description": "Streamlined system-worthy analyzer",
+    "DeltaJson": "deserunt",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nulla",
-    "UpdatedDate": "2006-04-22T10:30:23.2574424+02:00",
-    "CreatedDate": "2018-05-04T10:30:23.2574424+02:00",
+    "RecipeId": "repellendus",
+    "UpdatedDate": "2001-01-17T14:23:46.0637094+01:00",
+    "CreatedDate": "2022-07-27T14:23:46.0637094+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      247,
-      829
+      902,
+      243
     ],
-    "AppliesToKey": "ipsum",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldLength": 423
       }
     }
   }

@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 692,
-  "PersonId": 830,
-  "AppointmentId": 644,
-  "DocumentId": 435,
-  "SaleId": 648,
-  "SelectionId": 463,
-  "ProjectId": 200,
+  "ContactId": 330,
+  "PersonId": 987,
+  "AppointmentId": 581,
+  "DocumentId": 400,
+  "SaleId": 630,
+  "SelectionId": 826,
+  "ProjectId": 769,
   "CustomTags": [
-    "delectus",
-    "ipsa"
+    "aliquid",
+    "laborum"
   ],
   "CustomValues": [
-    "velit",
-    "non"
+    "recusandae",
+    "dolorem"
   ],
-  "UiCulture": "numquam"
+  "UiCulture": "et"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 527,
+  "DocumentId": 866,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "magnam",
-  "Header": "officia",
-  "Name": "Parker-Yost",
-  "OurRef": "repellat",
-  "YourRef": "sed",
-  "CreatedDate": "2017-10-27T10:30:23.6574366+02:00",
-  "UpdatedDate": "2001-10-09T10:30:23.6574366+02:00",
-  "Description": "Intuitive modular project",
+  "Attention": "officiis",
+  "Header": "quae",
+  "Name": "Breitenberg-Maggio",
+  "OurRef": "delectus",
+  "YourRef": "consequuntur",
+  "CreatedDate": "2000-10-14T14:23:46.3762035+02:00",
+  "UpdatedDate": "2008-12-08T14:23:46.3762035+01:00",
+  "Description": "Enhanced 24 hour website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-06-30T10:30:23.6730584+02:00",
-  "ExternalRef": "quidem",
+  "Date": "2010-06-06T14:23:46.3762035+02:00",
+  "ExternalRef": "eveniet",
   "Completed": "Completed",
-  "ActiveLinks": 741,
+  "ActiveLinks": 914,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gibson-Nicolas",
-      "Id": 960,
-      "Description": "Monitored interactive customer loyalty",
-      "ExtraInfo": "sapiente",
-      "LinkId": 205,
+      "EntityName": "Heaney Inc and Sons",
+      "Id": 150,
+      "Description": "Sharable homogeneous utilisation",
+      "ExtraInfo": "non",
+      "LinkId": 650,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 747,
-  "Snum": 824,
+  "SuggestedDocumentId": 939,
+  "Snum": 223,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dean Hayes",
-    "SuperOffice:2": "1449605060"
+    "SuperOffice:1": "1486975712",
+    "SuperOffice:2": "1134680640"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "iusto"
+    "CustomFields1": "ad",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2018-08-25T10:30:23.6730584+02:00",
-  "PublishTo": "2001-09-25T10:30:23.6730584+02:00",
-  "PublishFrom": "2015-02-03T10:30:23.6730584+01:00",
+  "PublishEventDate": "2010-03-02T14:23:46.3762035+01:00",
+  "PublishTo": "2009-03-04T14:23:46.3762035+01:00",
+  "PublishFrom": "2003-08-12T14:23:46.3762035+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 917,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     },
     {
-      "VisibleId": 917,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 960
     }
   }
 }

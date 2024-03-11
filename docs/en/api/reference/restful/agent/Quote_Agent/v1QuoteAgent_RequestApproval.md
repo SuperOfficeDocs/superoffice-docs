@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 54,
-  "AssociateId": 371,
-  "Comment": "occaecati"
+  "QuoteVersionId": 340,
+  "AssociateId": 305,
+  "Comment": "officiis"
 }
 ```
 
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "error",
-  "TechExplanation": "non",
-  "ErrorCode": "qui",
+  "UserExplanation": "animi",
+  "TechExplanation": "quia",
+  "ErrorCode": "necessitatibus",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

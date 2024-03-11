@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larkin-Schuster",
-  "ForceFlatList": false,
-  "AdditionalInfo": "dolore",
+  "Name": "Rolfson-Medhurst",
+  "ForceFlatList": true,
+  "AdditionalInfo": "modi",
   "OnlyHistory": true
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Marvin-Johns",
-    "ToolTip": "Minus reprehenderit culpa voluptate.",
-    "Deleted": true,
-    "Rank": 849,
-    "Type": "eos",
+    "Id": 222,
+    "Name": "McDermott Inc and Sons",
+    "ToolTip": "Cupiditate natus.",
+    "Deleted": false,
+    "Rank": 654,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Littel, Leuschke and Jaskolski",
-        "ToolTip": "Quia sequi voluptatem.",
+        "Id": 918,
+        "Name": "Grimes Group",
+        "ToolTip": "Ut aut dignissimos iste a placeat.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "est",
+        "Rank": 108,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 861,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "ea",
-        "FullName": "Haylee Herzog",
+        "IconHint": "qui",
+        "ColorBlock": 51,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "recusandae",
+        "FullName": "Prof. Llewellyn Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 325
+            "FieldType": "System.Int32",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 701,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "soluta",
-    "FullName": "Ms. Julien Nolan",
+    "IconHint": "perferendis",
+    "ColorBlock": 781,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "libero",
+    "FullName": "Rafael Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 989
       }
     }
   }

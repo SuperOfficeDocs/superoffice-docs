@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=optio
+GET /api/v1/List/PaymentType/MDOItems?query=voluptatum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Ondricka-Paucek",
-    "ToolTip": "Non voluptates maiores dolorum.",
-    "Deleted": false,
-    "Rank": 44,
-    "Type": "sint",
+    "Id": 734,
+    "Name": "Effertz, Steuber and Shanahan",
+    "ToolTip": "Omnis perferendis aut aut sed voluptate sunt.",
+    "Deleted": true,
+    "Rank": 621,
+    "Type": "quibusdam",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Baumbach, Friesen and Bergstrom",
-        "ToolTip": "Iure architecto.",
+        "Id": 964,
+        "Name": "Walter-Brekke",
+        "ToolTip": "Aliquid itaque quis nihil rerum.",
         "Deleted": false,
-        "Rank": 177,
-        "Type": "nemo",
+        "Rank": 566,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 647,
-        "ExtraInfo": "fugit",
-        "StyleHint": "sint",
-        "FullName": "Mrs. Wilson Stephen Wunsch",
+        "IconHint": "ea",
+        "ColorBlock": 989,
+        "ExtraInfo": "deserunt",
+        "StyleHint": "aliquid",
+        "FullName": "Margie Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 253,
-    "ExtraInfo": "sit",
-    "StyleHint": "tempore",
-    "FullName": "Shannon Satterfield",
+    "IconHint": "qui",
+    "ColorBlock": 7,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "placeat",
+    "FullName": "Reed Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldLength": 514
       }
     }
   }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Hilll LLC",
-  "StorageKey": "eos",
-  "Rank": 987,
-  "Context": "sint"
+  "StorageType": "nam",
+  "ProviderName": "Koepp, Batz and Dare",
+  "StorageKey": "id",
+  "Rank": 131,
+  "Context": "quas"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hilpert Group",
-  "Description": "Synergized intangible access",
-  "Rank": 588,
+  "Name": "Denesik-Goldner",
+  "Description": "Monitored non-volatile knowledge base",
+  "Rank": 151,
   "Restrictions": [
     {
-      "Name": "Connelly, Rowe and Raynor",
-      "Operator": "pariatur",
+      "Name": "Koepp Group",
+      "Operator": "repellat",
       "Values": [
-        "aperiam",
-        "culpa"
+        "sunt",
+        "enim"
       ],
       "DisplayValues": [
-        "et",
-        "rem"
+        "quis",
+        "alias"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 957,
+      "InterParenthesis": 405,
       "InterOperator": "And",
-      "UniqueHash": 858
+      "UniqueHash": 871
     }
   ]
 }

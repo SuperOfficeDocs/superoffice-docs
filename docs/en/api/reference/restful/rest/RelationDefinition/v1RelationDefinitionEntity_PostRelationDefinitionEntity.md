@@ -94,12 +94,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 457,
-  "Name": "Windler Inc and Sons",
-  "Tooltip": "rerum",
-  "PassiveText": "iste",
+  "ReldefId": 152,
+  "Name": "Kihn, Smitham and McKenzie",
+  "Tooltip": "qui",
+  "PassiveText": "aut",
   "Deleted": false,
-  "Rank": 741,
+  "Rank": 766,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 452,
-  "Name": "Ward Group",
-  "Tooltip": "tempore",
-  "PassiveText": "nobis",
+  "ReldefId": 932,
+  "Name": "Hills Group",
+  "Tooltip": "quae",
+  "PassiveText": "molestiae",
   "Deleted": false,
-  "Rank": 839,
+  "Rank": 845,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

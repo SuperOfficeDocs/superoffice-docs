@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Gottlieb, Wolf and VonRueden",
-  "StorageKey": "repellat",
+  "StorageType": "sit",
+  "ProviderName": "Rath-Kshlerin",
+  "StorageKey": "aliquid",
   "DesiredColumnNames": [
-    "Lubowitz Group",
-    "Simonis-Jerde"
+    "Weber-Ullrich",
+    "Nikolaus Inc and Sons"
   ],
   "StaticColumns": [
-    "maiores",
-    "ut"
+    "cupiditate",
+    "non"
   ],
-  "Context": "odit"
+  "Context": "consequatur"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Nicolas, Armstrong and Lakin",
-      "Operator": "quasi",
+      "Name": "Lueilwitz-Marks",
+      "Operator": "laborum",
       "Values": [
-        "animi",
-        "neque"
-      ],
-      "DisplayValues": [
-        "non",
+        "et",
         "et"
       ],
+      "DisplayValues": [
+        "ea",
+        "quos"
+      ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 114,
+      "InterParenthesis": 490,
       "InterOperator": "And",
-      "UniqueHash": 666
+      "UniqueHash": 700
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Will Group",
-      "DisplayTooltip": "corporis",
-      "DisplayType": "minus",
+      "DisplayName": "Orn, Wiza and Feil",
+      "DisplayTooltip": "nostrum",
+      "DisplayType": "velit",
       "CanOrderBy": false,
-      "Name": "Kunde, Schamberger and Keebler",
+      "Name": "Kihn-Schowalter",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptas",
-      "RestrictionListName": "Franecki LLC",
+      "RestrictionType": "quis",
+      "RestrictionListName": "Bashirian, Murphy and Carroll",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "quo",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "quia",
+      "Width": "quis",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "ab"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Mante-Von",
-      "PrimaryKey": 340,
+      "EntityName": "Marks LLC",
+      "PrimaryKey": 198,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "dolore",
-          "LinkHint": "vel"
+          "DisplayValue": "odit",
+          "TooltipHint": "sapiente",
+          "LinkHint": "assumenda"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "eum",
+      "LinkHint": "architecto",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldLength": 964
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cole-Marvin",
-      "Description": "Horizontal multimedia moratorium",
-      "Rank": 786,
+      "Name": "Wisozk-Becker",
+      "Description": "Persistent impactful capability",
+      "Rank": 225,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cole-Marvin",
-      "Description": "Horizontal multimedia moratorium",
-      "Rank": 786,
+      "Name": "Wisozk-Becker",
+      "Description": "Persistent impactful capability",
+      "Rank": 225,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

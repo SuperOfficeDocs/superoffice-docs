@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 981,
-  "Name": "Lindgren-Hermiston",
-  "Tooltip": "ratione",
+  "ExtAppId": 991,
+  "Name": "Bernier, Schmidt and Schinner",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "Rank": 688,
-  "Filename": "fugit",
-  "Parameters": "ut",
-  "Workdir": "voluptas",
+  "Rank": 251,
+  "Filename": "consectetur",
+  "Parameters": "ipsum",
+  "Workdir": "eaque",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 108,
-  "WaitToFinish": true,
+  "ShowInStatusBar": false,
+  "Icon": 790,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptas"
+  "Path": "facere"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 946,
-  "Name": "Leuschke, Pagac and Braun",
-  "Tooltip": "qui",
+  "ExtAppId": 174,
+  "Name": "Ziemann, Ebert and Littel",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "Rank": 156,
-  "Filename": "aut",
-  "Parameters": "asperiores",
-  "Workdir": "voluptatum",
+  "Rank": 859,
+  "Filename": "modi",
+  "Parameters": "nesciunt",
+  "Workdir": "rerum",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 644,
+  "Icon": 622,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "suscipit",
+  "Path": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 829
     }
   }
 }

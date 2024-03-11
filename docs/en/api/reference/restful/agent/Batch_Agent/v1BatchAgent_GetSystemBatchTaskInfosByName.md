@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schneider, Altenwerth and Ebert"
+  "TaskName": "Ernser-Stracke"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Wehner Inc and Sons",
-    "AssociateId": 545,
-    "DetailsTable": 24,
-    "DetailsRecord": 438,
+    "Id": 586,
+    "Name": "Goyette-Daniel",
+    "AssociateId": 541,
+    "DetailsTable": 644,
+    "DetailsRecord": 594,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "reprehenderit"
+      "ParameterObject1": "est",
+      "ParameterObject2": "voluptate"
     },
-    "LastStarted": "2001-12-21T10:30:23.0982933+01:00",
-    "Created": "2022-08-08T10:30:23.0982933+02:00",
-    "StartCount": 837,
-    "DatabaseSerialNumber": "676769",
-    "Context": "ratione",
-    "Result": "doloribus",
+    "LastStarted": "2021-05-20T14:23:45.8762101+02:00",
+    "Created": "2014-11-25T14:23:45.8762101+01:00",
+    "StartCount": 865,
+    "DatabaseSerialNumber": "1012340",
+    "Context": "impedit",
+    "Result": "nam",
     "State": "All",
-    "Description": "Decentralized bi-directional forecast",
-    "Response": "adipisci",
-    "Request": "eligendi",
-    "ProgressDescription": "Progressive grid-enabled attitude",
-    "ProgressPercent": 63,
-    "FileName": "Hilll, Padberg and Gerhold",
+    "Description": "Up-sized interactive adapter",
+    "Response": "minima",
+    "Request": "aut",
+    "ProgressDescription": "Right-sized actuating success",
+    "ProgressPercent": 620,
+    "FileName": "Greenfelder-Moen",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 270
       }
     }
   }

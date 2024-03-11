@@ -60,6 +60,7 @@ The FormEntity to be saved.
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociateId | Integer | Last updated by whom |
 | UpdatedCount | Integer | Number of updates made to this record |
+| EmailFlows | Array | EmailFlows this form is used in (read-only) |
 | FolderName | String | The name of the folder for this form |
 
 ## Response:
@@ -95,6 +96,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
+| EmailFlows | array | EmailFlows this form is used in (read-only) |
 | FolderName | string | The name of the folder for this form |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -105,32 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 100,
-  "FormKey": "dignissimos",
-  "Name": "Sporer, Rutherford and Lehner",
-  "Description": "Team-oriented upward-trending structure",
-  "Config": "iure",
-  "FolderId": 806,
-  "ScriptId": 753,
-  "ResponseShipmentId": 183,
+  "FormId": 341,
+  "FormKey": "temporibus",
+  "Name": "Cassin-Stiedemann",
+  "Description": "Phased modular toolset",
+  "Config": "beatae",
+  "FolderId": 430,
+  "ScriptId": 326,
+  "ResponseShipmentId": 87,
   "Active": true,
-  "Expires": "1997-03-02T10:30:24.1037706+01:00",
-  "MaxSubmits": 400,
+  "Expires": "2007-06-03T14:23:46.9098888+02:00",
+  "MaxSubmits": 956,
   "Type": "Normal",
-  "Recipe": "rem",
-  "GroupId": 390,
+  "Recipe": "deserunt",
+  "GroupId": 885,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1999-08-25T10:30:24.1037706+02:00",
-  "RegisteredAssociateId": 291,
-  "Updated": "2014-09-16T10:30:24.1037706+02:00",
-  "UpdatedAssociateId": 818,
-  "UpdatedCount": 101,
-  "FolderName": "Weissnat Group"
+  "Registered": "2001-03-21T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 242,
+  "Updated": "2001-01-17T14:23:46.9098888+01:00",
+  "UpdatedAssociateId": 939,
+  "UpdatedCount": 918,
+  "EmailFlows": [
+    647,
+    813
+  ],
+  "FolderName": "Runolfsson LLC"
 }
 ```
 
@@ -141,34 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 330,
-  "FormKey": "facilis",
-  "Name": "Wuckert, Pouros and DuBuque",
-  "Description": "Expanded executive service-desk",
-  "Config": "magnam",
-  "FolderId": 400,
-  "ScriptId": 717,
-  "ResponseShipmentId": 971,
-  "Active": false,
-  "Expires": "2007-02-06T10:30:24.1037706+01:00",
-  "MaxSubmits": 638,
+  "FormId": 557,
+  "FormKey": "dolores",
+  "Name": "Cartwright-Sanford",
+  "Description": "Multi-lateral incremental structure",
+  "Config": "ad",
+  "FolderId": 963,
+  "ScriptId": 706,
+  "ResponseShipmentId": 63,
+  "Active": true,
+  "Expires": "2005-11-09T14:23:46.9098888+01:00",
+  "MaxSubmits": 372,
   "Type": "Normal",
-  "Recipe": "quia",
-  "GroupId": 230,
+  "Recipe": "placeat",
+  "GroupId": 903,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1997-10-17T10:30:24.1037706+02:00",
-  "RegisteredAssociateId": 528,
-  "Updated": "2019-04-23T10:30:24.1037706+02:00",
-  "UpdatedAssociateId": 636,
-  "UpdatedCount": 5,
-  "FolderName": "Kris, Gutkowski and Mann",
+  "Registered": "2019-02-04T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 308,
+  "Updated": "2006-07-01T14:23:46.9098888+02:00",
+  "UpdatedAssociateId": 646,
+  "UpdatedCount": 229,
+  "EmailFlows": [
+    549,
+    541
+  ],
+  "FolderName": "Goldner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 924
     }
   }
 }

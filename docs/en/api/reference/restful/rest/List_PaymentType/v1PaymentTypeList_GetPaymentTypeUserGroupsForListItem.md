@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Conroy Group",
-    "ToolTip": "Non ut ab error.",
+    "Id": 13,
+    "Name": "Bruen LLC",
+    "ToolTip": "Quasi voluptatibus cupiditate.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "quia",
-    "ColorBlock": 665,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2013-01-29T10:30:33.0524566+01:00",
+    "Rank": 929,
+    "Type": "deserunt",
+    "ColorBlock": 556,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2020-08-26T14:23:56.1502016+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Johnson Inc and Sons",
-        "ToolTip": "Et soluta.",
-        "Deleted": true,
-        "Rank": 152,
-        "Type": "aut",
-        "ColorBlock": 777,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2008-04-22T10:30:33.0524566+02:00",
+        "Id": 396,
+        "Name": "Considine-Mills",
+        "ToolTip": "Error nostrum at est quis aut suscipit.",
+        "Deleted": false,
+        "Rank": 13,
+        "Type": "consequuntur",
+        "ColorBlock": 100,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2020-05-11T14:23:56.1502016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Vinnie Jerde",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "numquam",
+        "Hidden": true,
+        "FullName": "Mr. Johathan Terrill McKenzie Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 650
+            "FieldType": "System.String",
+            "FieldLength": 702
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Mr. Laisha Schiller",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Myah Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 704
       }
     }
   }

@@ -138,10 +138,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 633,
-  "SaleId": 67,
-  "CreateNow": false,
-  "OwnerId": 960
+  "SuggestedAppointmentId": 286,
+  "SaleId": 22,
+  "CreateNow": true,
+  "OwnerId": 839
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-06-03T10:30:22.9420513+02:00",
-  "AppointmentId": 664,
-  "Description": "Compatible regional analyzer",
-  "Title": "quo",
-  "Agenda": "reprehenderit",
-  "InternalNotes": "dolorum",
-  "StartDate": "2014-07-15T10:30:22.9420513+02:00",
-  "EndDate": "2011-04-17T10:30:22.9420513+02:00",
+  "CreatedDate": "2001-08-22T14:23:45.7355899+02:00",
+  "AppointmentId": 516,
+  "Description": "Universal foreground projection",
+  "Title": "labore",
+  "Agenda": "quia",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2009-12-19T14:23:45.7355899+01:00",
+  "EndDate": "2012-05-31T14:23:45.7355899+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 127,
+  "MotherId": 60,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-11-28T10:30:22.957675+01:00",
+  "UpdatedDate": "2011-06-18T14:23:45.7512132+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 232,
+  "ActiveLinks": 660,
   "Links": [
     {
-      "EntityName": "Stehr LLC",
-      "Id": 717,
-      "Description": "Self-enabling multimedia customer loyalty",
-      "ExtraInfo": "ipsam",
-      "LinkId": 343,
+      "EntityName": "Schulist LLC",
+      "Id": 699,
+      "Description": "Intuitive content-based capability",
+      "ExtraInfo": "voluptas",
+      "LinkId": 662,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldType": "System.Int32",
+          "FieldLength": 682
         }
       }
     }
   ],
-  "AlarmLeadTime": "pariatur",
+  "AlarmLeadTime": "et",
   "HasAlarm": true,
-  "ColorIndex": 227,
+  "ColorIndex": 236,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "quia",
-  "Location": "laborum",
-  "RejectCounter": 682,
+  "IsAlldayEvent": true,
+  "LagTime": "id",
+  "LeadTime": "natus",
+  "Location": "totam",
+  "RejectCounter": 920,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 909,
-      "PersonId": 328,
-      "ContactId": 929,
-      "EmailId": 909,
+      "AssociateId": 142,
+      "PersonId": 321,
+      "ContactId": 23,
+      "EmailId": 465,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eunice@conn.us",
-      "Description": "Decentralized multi-tasking protocol"
+      "EmailAddress": "gaston_nader@lehner.biz",
+      "Description": "Open-source clear-thinking hierarchy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-01-17T10:30:22.957675+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-03-25T14:23:45.7512132+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 604,
+  "PreferredTZLocation": 695,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 429,
+  "SuggestedAppointmentId": 851,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aliquam",
+  "CentralserviceVideomeetId": "similique",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kaleigh Streich I",
-    "SuperOffice:2": "Milan Langworth"
+    "SuperOffice:1": "Molly Koss MD",
+    "SuperOffice:2": "Camille Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "numquam"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "optio"
   },
-  "PublishEventDate": "2024-01-28T10:30:22.957675+01:00",
-  "PublishTo": "2021-03-25T10:30:22.957675+01:00",
-  "PublishFrom": "2016-02-04T10:30:22.957675+01:00",
+  "PublishEventDate": "2015-05-23T14:23:45.7512132+02:00",
+  "PublishTo": "2011-07-03T14:23:45.7512132+02:00",
+  "PublishFrom": "2006-10-23T14:23:45.7512132+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 496,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     },
     {
-      "VisibleId": 496,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldLength": 198
     }
   }
 }

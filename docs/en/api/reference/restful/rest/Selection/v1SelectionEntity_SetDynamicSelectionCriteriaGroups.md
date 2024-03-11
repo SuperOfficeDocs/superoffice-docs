@@ -78,58 +78,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cremin, Rath and Gerhold",
-    "Description": "Adaptive radical model",
-    "Rank": 617,
+    "Name": "Thiel, Spinka and Prosacco",
+    "Description": "Cross-platform dedicated monitoring",
+    "Rank": 917,
     "Restrictions": [
       {
-        "Name": "Ruecker Inc and Sons",
-        "Operator": "reiciendis",
+        "Name": "Nader LLC",
+        "Operator": "fuga",
         "Values": [
-          "unde",
-          "est"
+          "quis",
+          "et"
         ],
         "DisplayValues": [
-          "consequatur",
-          "laborum"
+          "provident",
+          "expedita"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 3,
+        "InterParenthesis": 970,
         "InterOperator": "And",
-        "UniqueHash": 773
+        "UniqueHash": 72
       }
     ]
   },
   {
-    "Name": "Cremin, Rath and Gerhold",
-    "Description": "Adaptive radical model",
-    "Rank": 617,
+    "Name": "Thiel, Spinka and Prosacco",
+    "Description": "Cross-platform dedicated monitoring",
+    "Rank": 917,
     "Restrictions": [
       {
-        "Name": "Ruecker Inc and Sons",
-        "Operator": "reiciendis",
+        "Name": "Nader LLC",
+        "Operator": "fuga",
         "Values": [
-          "unde",
-          "est"
+          "quis",
+          "et"
         ],
         "DisplayValues": [
-          "consequatur",
-          "laborum"
+          "provident",
+          "expedita"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 3,
+        "InterParenthesis": 970,
         "InterOperator": "And",
-        "UniqueHash": 773
+        "UniqueHash": 72
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schuster, Ebert and Koch",
-    "Description": "Automated 3rd generation database",
-    "Rank": 703,
+    "Name": "Heathcote, Herzog and Runte",
+    "Description": "Stand-alone optimizing info-mediaries",
+    "Rank": 306,
     "Restrictions": [
       {
-        "Name": "Kulas-Kuhic",
-        "Operator": "sunt",
+        "Name": "Langworth, Kohler and Abshire",
+        "Operator": "sed",
         "Values": [
-          "perferendis",
-          "excepturi"
+          "fugiat",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "minus",
-          "fuga"
+          "alias",
+          "modi"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 284,
+        "InterParenthesis": 644,
         "InterOperator": "And",
-        "UniqueHash": 393
+        "UniqueHash": 995
       }
     ]
   },
   {
-    "Name": "Schuster, Ebert and Koch",
-    "Description": "Automated 3rd generation database",
-    "Rank": 703,
+    "Name": "Heathcote, Herzog and Runte",
+    "Description": "Stand-alone optimizing info-mediaries",
+    "Rank": 306,
     "Restrictions": [
       {
-        "Name": "Kulas-Kuhic",
-        "Operator": "sunt",
+        "Name": "Langworth, Kohler and Abshire",
+        "Operator": "sed",
         "Values": [
-          "perferendis",
-          "excepturi"
+          "fugiat",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "minus",
-          "fuga"
+          "alias",
+          "modi"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 284,
+        "InterParenthesis": 644,
         "InterOperator": "And",
-        "UniqueHash": 393
+        "UniqueHash": 995
       }
     ]
   }

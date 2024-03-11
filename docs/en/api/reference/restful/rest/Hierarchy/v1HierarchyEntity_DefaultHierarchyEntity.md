@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 377,
+  "HierarchyId": 684,
   "Domain": "Dashboards",
-  "Name": "Bernhard, Lesch and Hegmann",
-  "Fullname": "ut",
-  "ParentId": 780,
+  "Name": "Ullrich Group",
+  "Fullname": "magni",
+  "ParentId": 893,
   "Children": [
     {
-      "HierarchyId": 450,
+      "HierarchyId": 552,
       "Domain": "Dashboards",
-      "Name": "Cummerata-Schuster",
-      "Fullname": "tenetur",
-      "ParentId": 690,
+      "Name": "Reynolds-Kihn",
+      "Fullname": "et",
+      "ParentId": 594,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-12-12T10:30:32.0886795+01:00",
-      "RegisteredAssociateId": 409,
-      "Updated": "2013-09-24T10:30:32.0886795+02:00",
-      "UpdatedAssociateId": 220,
+      "Registered": "2007-10-25T14:23:55.195897+02:00",
+      "RegisteredAssociateId": 338,
+      "Updated": "2003-01-18T14:23:55.195897+01:00",
+      "UpdatedAssociateId": 808,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldLength": 409
         }
       }
     }
   ],
-  "Registered": "1998-03-07T10:30:32.0886795+01:00",
-  "RegisteredAssociateId": 315,
-  "Updated": "2023-05-22T10:30:32.0886795+02:00",
-  "UpdatedAssociateId": 497,
+  "Registered": "2019-01-22T14:23:55.195897+01:00",
+  "RegisteredAssociateId": 143,
+  "Updated": "2009-01-28T14:23:55.195897+01:00",
+  "UpdatedAssociateId": 838,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

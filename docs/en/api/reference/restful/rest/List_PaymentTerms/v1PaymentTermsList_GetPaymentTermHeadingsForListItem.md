@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Graham-Conroy",
-    "ToolTip": "Soluta ab autem nulla laborum.",
+    "Id": 4,
+    "Name": "Willms-Langworth",
+    "ToolTip": "In atque.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "nam",
-    "ColorBlock": 130,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2016-08-28T10:30:33.0524566+02:00",
+    "Rank": 341,
+    "Type": "iusto",
+    "ColorBlock": 328,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2020-08-27T14:23:56.1502016+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Ryan, Rohan and Rice",
-        "ToolTip": "Enim cum.",
-        "Deleted": false,
-        "Rank": 1001,
-        "Type": "et",
-        "ColorBlock": 294,
-        "IconHint": "asperiores",
+        "Id": 16,
+        "Name": "Hermiston LLC",
+        "ToolTip": "Velit non maxime qui magni et animi quisquam.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "ut",
+        "ColorBlock": 741,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2023-07-22T10:30:33.0524566+02:00",
+        "LastChanged": "2002-04-29T14:23:56.1502016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quae",
+        "ExtraInfo": "iure",
+        "StyleHint": "id",
         "Hidden": true,
-        "FullName": "Travis Howell III",
+        "FullName": "Athena Moen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 396
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "illum",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Lucius Jakubowski",
+    "FullName": "Zora Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldLength": 488
       }
     }
   }

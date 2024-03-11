@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 858,
-    "Name": "Sanford Group",
-    "Tooltip": "qui",
+    "HeadingId": 649,
+    "Name": "Stroman, D'Amore and Kunze",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 982,
+    "Rank": 530,
+    "UdListDefinitionId": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 263
       }
     }
   }

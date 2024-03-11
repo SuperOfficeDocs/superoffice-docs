@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 46,
-  "Name": "Lindgren-Weimann",
-  "Tooltip": "quia",
-  "Rank": 767,
-  "Key": "quia",
-  "Deleted": false,
+  "LegalBaseId": 745,
+  "Name": "Von Inc and Sons",
+  "Tooltip": "in",
+  "Rank": 979,
+  "Key": "blanditiis",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

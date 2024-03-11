@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 807,
-    "ColumnId": 656,
-    "FieldDefault": "iusto",
-    "FieldHeight": 158,
-    "FieldLabel": "facere",
-    "FieldLeft": 124,
-    "FieldTop": 368,
+    "UDefFieldId": 96,
+    "ColumnId": 618,
+    "FieldDefault": "provident",
+    "FieldHeight": 389,
+    "FieldLabel": "ea",
+    "FieldLeft": 883,
+    "FieldTop": 610,
     "FieldType": "Checkbox",
-    "FieldWidth": 560,
-    "FormatMask": "repudiandae",
+    "FieldWidth": 857,
+    "FormatMask": "ratione",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 734,
-    "LabelLeft": 504,
-    "LabelTop": 970,
-    "LabelWidth": 304,
-    "LastVersionId": 437,
-    "ListTableId": 801,
+    "LabelHeight": 922,
+    "LabelLeft": 931,
+    "LabelTop": 985,
+    "LabelWidth": 785,
+    "LastVersionId": 177,
+    "ListTableId": 310,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 99,
-    "ProgId": "molestiae",
+    "Page1LineNo": 486,
+    "ProgId": "dignissimos",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 534,
-    "TextLength": 686,
-    "Tooltip": "accusamus",
-    "UdefIdentity": 98,
-    "UDListDefinitionId": 272,
+    "ShortLabel": "omnis",
+    "TabOrder": 569,
+    "TextLength": 853,
+    "Tooltip": "et",
+    "UdefIdentity": 36,
+    "UDListDefinitionId": 906,
     "Justification": "Center",
-    "Version": 141,
-    "TemplateVariableName": "Robel, Koepp and Lueilwitz",
-    "HasBeenPublished": false,
-    "MdoListName": "Fahey, Hand and Christiansen",
+    "Version": 538,
+    "TemplateVariableName": "Koch Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Olson Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

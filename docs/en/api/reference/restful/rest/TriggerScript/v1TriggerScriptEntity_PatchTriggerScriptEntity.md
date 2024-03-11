@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ratione",
+    "path": "voluptates",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ratione",
+    "path": "voluptates",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 399,
-  "Name": "Toy, Goldner and DuBuque",
+  "ScreenChooserId": 20,
+  "Name": "Wunsch, O'Connell and Murray",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "molestiae",
-  "Source": "ut",
-  "Registered": "1999-07-02T10:30:32.6543487+02:00",
-  "RegisteredAssociateId": 678,
-  "Updated": "1997-01-10T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 596,
+  "Enabled": true,
+  "UniqueIdentifier": "consequatur",
+  "Source": "sit",
+  "Registered": "2022-08-17T14:23:55.7595795+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2019-02-09T14:23:55.7595795+01:00",
+  "UpdatedAssociateId": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 790
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

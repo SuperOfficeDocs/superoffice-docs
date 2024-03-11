@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 453,
+  "EjMessageId": 307,
   "Ticket": null,
-  "CreatedAt": "2013-09-21T10:30:32.6230979+02:00",
+  "CreatedAt": "2022-12-29T14:23:55.7283316+01:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "animi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "veritatis",
-  "TimeSpent": 402,
-  "Body": "similique",
-  "HtmlBody": "voluptate",
-  "EmailHeader": "rebeka_jacobs@terry.us",
-  "DebugInfo": "omnis",
-  "MailSorter": "ducimus",
+  "MessageId": "sit",
+  "TimeSpent": 611,
+  "Body": "esse",
+  "HtmlBody": "est",
+  "EmailHeader": "mabel_bode@simonis.biz",
+  "DebugInfo": "eos",
+  "MailSorter": "nemo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "saepe",
   "MessageHeaders": [
     {
-      "Id": 629,
-      "Name": "Considine-Kris",
-      "Value": "magnam",
+      "Id": 172,
+      "Name": "Hamill-Roberts",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 271
         }
       }
     }
   ],
   "Important": false,
-  "Language": "saepe",
-  "Sentiment": 771,
-  "SentimentConfidence": 259,
+  "Language": "mollitia",
+  "Sentiment": 1000,
+  "SentimentConfidence": 954,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 990,
-      "Name": "Bernier-Rice",
-      "ContentType": "eum",
-      "AttSize": 35,
+      "AttachmentId": 501,
+      "Name": "Satterfield LLC",
+      "ContentType": "quia",
+      "AttSize": 841,
       "InlineImage": true,
-      "ContentId": "dignissimos",
-      "AuthKey": "suscipit",
-      "IsSafeFileExtension": true,
+      "ContentId": "distinctio",
+      "AuthKey": "explicabo",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldLength": 253
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "temporibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 542
     }
   }
 }

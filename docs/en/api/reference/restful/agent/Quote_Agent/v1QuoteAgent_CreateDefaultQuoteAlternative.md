@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 690,
-  "ERPQuoteAlternativeKey": "repellendus",
-  "QuoteVersionId": 754,
-  "Name": "Bergnaum Group",
-  "Description": "Monitored background access",
+  "QuoteAlternativeId": 676,
+  "ERPQuoteAlternativeKey": "exercitationem",
+  "QuoteVersionId": 557,
+  "Name": "Rice Group",
+  "Description": "Secured attitude-oriented ability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6713.0279999999993,
-  "ERPDiscountAmount": 24448.334,
-  "DiscountPercent": 12103.508,
-  "DiscountAmount": 16284.264,
+  "ERPDiscountPercent": 13303.83,
+  "ERPDiscountAmount": 29121.128,
+  "DiscountPercent": 12184.992,
+  "DiscountAmount": 3792.14,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quia",
-  "VAT": 26190.838,
-  "EarningPercent": 12172.456,
-  "EarningAmount": 8170.338,
-  "SubTotal": 25824.16,
-  "TotalPrice": 16027.276,
-  "ExtraField1": "et",
-  "ExtraField2": "expedita",
-  "ExtraField3": "est",
-  "ExtraField4": "est",
-  "ExtraField5": "illo",
+  "VATInfo": "aut",
+  "VAT": 22762.242,
+  "EarningPercent": 8433.594,
+  "EarningAmount": 23389.041999999998,
+  "SubTotal": 16143.234,
+  "TotalPrice": 17017.62,
+  "ExtraField1": "quaerat",
+  "ExtraField2": "itaque",
+  "ExtraField3": "sit",
+  "ExtraField4": "libero",
+  "ExtraField5": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 441
     }
   }
 }

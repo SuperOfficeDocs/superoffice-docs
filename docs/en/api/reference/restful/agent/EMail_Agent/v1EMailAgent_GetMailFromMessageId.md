@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "beatae"
+  "MessageId": "magni"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 66,
-      "ContactName": "Schultz-Heller",
-      "PersonId": 94,
-      "PersonName": "Welch-Ryan",
-      "AssociateId": 934,
-      "Address": "sint",
-      "EmailId": 88,
+      "ContactId": 928,
+      "ContactName": "Stamm-Goyette",
+      "PersonId": 250,
+      "PersonName": "Raynor-Kozey",
+      "AssociateId": 616,
+      "Address": "consequatur",
+      "EmailId": 80,
       "DuplicatePersonIds": [
-        552,
-        77
+        44,
+        902
       ],
-      "Name": "Hirthe-Bogan",
+      "Name": "Kuhlman-Ullrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 771
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 93,
-      "ContactName": "Glover-Witting",
-      "PersonId": 567,
-      "PersonName": "Marks-Ondricka",
-      "AssociateId": 244,
-      "Address": "maiores",
-      "EmailId": 491,
+      "ContactId": 584,
+      "ContactName": "Casper-Predovic",
+      "PersonId": 390,
+      "PersonName": "Bayer, Murazik and Konopelski",
+      "AssociateId": 844,
+      "Address": "doloribus",
+      "EmailId": 626,
       "DuplicatePersonIds": [
-        420,
-        893
+        278,
+        92
       ],
-      "Name": "Johnston Group",
+      "Name": "McGlynn-Kunze",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 29
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 500,
-      "ContactName": "Denesik, Erdman and Nader",
-      "PersonId": 595,
-      "PersonName": "Quitzon-Emmerich",
-      "AssociateId": 843,
-      "Address": "molestiae",
-      "EmailId": 310,
+      "ContactId": 636,
+      "ContactName": "Metz, Jones and Quitzon",
+      "PersonId": 763,
+      "PersonName": "Armstrong-Mayert",
+      "AssociateId": 89,
+      "Address": "repellendus",
+      "EmailId": 133,
       "DuplicatePersonIds": [
-        103,
-        157
+        116,
+        579
       ],
-      "Name": "Bradtke Group",
+      "Name": "Dooley, Stehr and Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 379
         }
       }
     }
   ],
-  "Subject": "quasi",
-  "HTMLBody": "placeat",
+  "Subject": "ex",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "2021-10-24T10:30:23.7355582+02:00",
-  "Size": 52,
+  "Sent": "2023-04-04T14:23:46.4387031+02:00",
+  "Size": 948,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eligendi",
-  "PlainBody": "aliquid",
+  "MessageID": "culpa",
+  "PlainBody": "repellendus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 162,
+  "ServerId": 164,
   "Attachments": [
     {
-      "Description": "Reduced 24 hour framework",
-      "Filename": "voluptatem",
-      "Size": 918,
-      "Type": "nam",
-      "Encoding": "placeat",
-      "Id": "exercitationem",
-      "Disposition": "sint",
+      "Description": "Streamlined multi-state product",
+      "Filename": "iusto",
+      "Size": 11,
+      "Type": "at",
+      "Encoding": "voluptatibus",
+      "Id": "voluptas",
+      "Disposition": "laborum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 552
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Murray-Carroll",
+      "Name": "Doyle-Harber",
       "Values": [
-        "laborum",
-        "qui"
+        "totam",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldLength": 597
         }
       }
     },
     {
-      "Name": "Murray-Carroll",
+      "Name": "Doyle-Harber",
       "Values": [
-        "laborum",
-        "qui"
+        "totam",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldLength": 597
         }
       }
     }
   ],
-  "FolderName": "Kuhn-Graham",
-  "EmailItemId": 39,
-  "AccountId": 546,
-  "ReceivedAt": "2019-09-07T10:30:23.7355582+02:00",
+  "FolderName": "Bogisich, Spencer and Dibbert",
+  "EmailItemId": 671,
+  "AccountId": 396,
+  "ReceivedAt": "2006-05-04T14:23:46.4387031+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-25T10:30:23.7355582+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-04-12T14:23:46.4387031+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 284
     }
   }
 }

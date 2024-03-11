@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 41,
+  "PersonId": 479,
   "IncludeProjectDocuments": true,
-  "StartTime": "2014-03-03T10:30:23.5925282+01:00",
-  "EndTime": "2000-01-25T10:30:23.5925282+01:00",
-  "Count": 279,
+  "StartTime": "2001-04-01T14:23:46.2980824+02:00",
+  "EndTime": "2018-10-09T14:23:46.2980824+02:00",
+  "Count": 887,
   "DocumentTemplateIds": [
-    695,
-    529
+    871,
+    310
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 755,
-    "Attention": "qui",
-    "Header": "a",
-    "Name": "Kunde-Rippin",
-    "OurRef": "quo",
-    "YourRef": "ut",
-    "Description": "User-friendly transitional encryption",
-    "DocumentTemplate": "voluptatem",
-    "IsPublished": true,
-    "PersonId": 27,
-    "PersonFullName": "Dr. Dorcas Delpha Welch III",
-    "AssociateFullName": "Dante Reichel IV",
-    "ContactId": 757,
-    "ContactName": "Blick, Mayer and Towne",
-    "ProjectId": 481,
-    "ProjectName": "Brekke Inc and Sons",
-    "AssociateId": 955,
-    "Snum": 721,
-    "SaleId": 816,
-    "SaleName": "Hettinger Group",
+    "DocumentId": 727,
+    "Attention": "quia",
+    "Header": "animi",
+    "Name": "Wisozk, Murphy and Dibbert",
+    "OurRef": "in",
+    "YourRef": "quam",
+    "Description": "Organic discrete customer loyalty",
+    "DocumentTemplate": "quas",
+    "IsPublished": false,
+    "PersonId": 368,
+    "PersonFullName": "Angelita Abernathy",
+    "AssociateFullName": "Antonietta Fritsch",
+    "ContactId": 964,
+    "ContactName": "Welch Inc and Sons",
+    "ProjectId": 104,
+    "ProjectName": "Prohaska-McKenzie",
+    "AssociateId": 609,
+    "Snum": 373,
+    "SaleId": 456,
+    "SaleName": "Larson, Schaefer and Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 349
       }
     }
   }

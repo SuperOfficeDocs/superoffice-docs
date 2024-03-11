@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Nov 2021 10:30:32 G11T
+Last-Modified: Mon, 20 Jul 1998 14:23:55 G7T
 
 {
-  "Description": "Fully-configurable zero administration internet solution",
-  "Postit": "repellat",
+  "Description": "Decentralized executive moderator",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 791,
-  "IncludePerson": 266,
-  "MemberCount": 275,
-  "Name": "Yost, Schamberger and Quitzon",
-  "PostitTextId": 869,
-  "CreatedDate": "1997-04-26T10:30:32.4812531+02:00",
-  "SelectionId": 20,
-  "SoundEx": "omnis",
-  "Source": 619,
-  "TextId": 570,
-  "UpdatedDate": "2021-11-13T10:30:32.4812531+01:00",
-  "UpdatedCount": 839,
-  "Visibility": 272,
+  "GroupIdx": 534,
+  "IncludePerson": 422,
+  "MemberCount": 734,
+  "Name": "Senger-Welch",
+  "PostitTextId": 84,
+  "CreatedDate": "2016-01-20T14:23:55.4939585+01:00",
+  "SelectionId": 658,
+  "SoundEx": "veniam",
+  "Source": 967,
+  "TextId": 183,
+  "UpdatedDate": "1998-07-20T14:23:55.4939585+02:00",
+  "UpdatedCount": 105,
+  "Visibility": 323,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 91,
-  "TargetTableName": "Green Group",
-  "Completed": false,
-  "LeftSelectionId": 57,
-  "RightSelectionId": 860,
+  "TargetTableNumber": 787,
+  "TargetTableName": "Buckridge LLC",
+  "Completed": true,
+  "LeftSelectionId": 615,
+  "RightSelectionId": 502,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Homenick LLC",
-  "ShadowProviderName": "Hermann-Mayert",
-  "ChartKey": "omnis",
-  "LastLoaded": "2006-10-13T10:30:32.4812531+02:00",
-  "LastLoadedBy": 225,
+  "MainProviderName": "Boehm LLC",
+  "ShadowProviderName": "Auer Inc and Sons",
+  "ChartKey": "quos",
+  "LastLoaded": "2017-08-30T14:23:55.4939585+02:00",
+  "LastLoadedBy": 736,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-08-11T10:30:32.4812531+02:00",
-  "LastMembershipChangeBy": 482,
+  "LastMembershipChange": "2015-01-14T14:23:55.4939585+01:00",
+  "LastMembershipChangeBy": 675,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magnam",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Bashirian Group",
-  "DashboardTileDefinitionId": 634,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Ward, Paucek and Hartmann",
+  "DashboardTileDefinitionId": 72,
   "VisibleFor": [
     {
-      "VisibleId": 489,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 26
+          "FieldLength": 939
         }
       }
     },
     {
-      "VisibleId": 489,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 26
+          "FieldLength": 939
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Sat, 13 Nov 2021 10:30:32 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 539
     }
   }
 }

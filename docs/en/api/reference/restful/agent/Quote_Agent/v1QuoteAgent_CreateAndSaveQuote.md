@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 730,
-  "ConnectionId": 52,
-  "FirstAlternativeName": "Towne, Buckridge and McDermott"
+  "SaleId": 115,
+  "ConnectionId": 587,
+  "FirstAlternativeName": "Oberbrunner Group"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 442,
-  "SaleId": 493,
-  "QuoteConnectionId": 210,
-  "ERPQuoteKey": "perspiciatis",
-  "ERPOrderKey": "nam",
-  "ActiveQuoteVersionId": 617,
-  "AcceptedQuoteAlternativeId": 17,
-  "UseValuesFromQuote": 6,
-  "DocumentId": 704,
-  "PoNumber": "1458411",
-  "OrderComment": "dolorum",
-  "PreferredEmailCulture": "rosalia_durgan@bergnaum.uk",
+  "QuoteId": 598,
+  "SaleId": 775,
+  "QuoteConnectionId": 101,
+  "ERPQuoteKey": "quaerat",
+  "ERPOrderKey": "dolore",
+  "ActiveQuoteVersionId": 23,
+  "AcceptedQuoteAlternativeId": 397,
+  "UseValuesFromQuote": 123,
+  "DocumentId": 506,
+  "PoNumber": "1154010",
+  "OrderComment": "inventore",
+  "PreferredEmailCulture": "kelvin@batzhirthe.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 417,
-      "ERPQuoteVersionKey": "consequuntur",
-      "QuoteId": 214,
-      "Description": "Centralized upward-trending application",
-      "Number": "809328",
+      "QuoteVersionId": 914,
+      "ERPQuoteVersionKey": "iusto",
+      "QuoteId": 127,
+      "Description": "Multi-channelled leading edge definition",
+      "Number": "1179628",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 105,
-      "SentDate": "2016-06-11T10:30:24.4346264+02:00",
-      "FollowupId": 493,
-      "ExpirationDate": "2018-05-18T10:30:24.4346264+02:00",
-      "DeliveryCountryId": 839,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 597,
+      "LikelyQuoteAlternativeId": 379,
+      "SentDate": "1996-11-29T14:23:47.2536317+01:00",
+      "FollowupId": 548,
+      "ExpirationDate": "2009-05-04T14:23:47.2536317+02:00",
+      "DeliveryCountryId": 915,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 171,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "accusamus",
-      "ERPPaymentTypeKey": "accusantium",
-      "ERPDeliveryTermsKey": "non",
-      "ERPDeliveryTypeKey": "eligendi",
-      "Rank": 519,
-      "ApprovedBy": 507,
-      "ApprovedText": "neque",
-      "ApprovedRegisteredBy": 140,
-      "ApprovedRegisteredDate": "2003-03-09T10:30:24.4346264+01:00",
-      "ExtraField1": "voluptatem",
-      "ExtraField2": "ut",
-      "ExtraField3": "quibusdam",
-      "ExtraField4": "at",
-      "ExtraField5": "natus",
-      "LastRecalculated": "2000-09-30T10:30:24.4346264+02:00",
-      "Updated": "2012-07-23T10:30:24.4346264+02:00",
-      "UpdatedAssociateId": 444,
-      "Registered": "2022-01-26T10:30:24.4346264+01:00",
-      "RegisteredAssociateId": 185,
-      "RequestAssociateId": 22,
-      "RequestComment": "reprehenderit",
+      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTypeKey": "nostrum",
+      "ERPDeliveryTermsKey": "voluptatibus",
+      "ERPDeliveryTypeKey": "sed",
+      "Rank": 907,
+      "ApprovedBy": 960,
+      "ApprovedText": "quae",
+      "ApprovedRegisteredBy": 538,
+      "ApprovedRegisteredDate": "2011-04-08T14:23:47.2536317+02:00",
+      "ExtraField1": "qui",
+      "ExtraField2": "reiciendis",
+      "ExtraField3": "quae",
+      "ExtraField4": "dolores",
+      "ExtraField5": "amet",
+      "LastRecalculated": "1998-08-24T14:23:47.2536317+02:00",
+      "Updated": "2023-01-02T14:23:47.2536317+01:00",
+      "UpdatedAssociateId": 652,
+      "Registered": "2007-08-21T14:23:47.2536317+02:00",
+      "RegisteredAssociateId": 664,
+      "RequestAssociateId": 62,
+      "RequestComment": "laudantium",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldLength": 677
     }
   }
 }

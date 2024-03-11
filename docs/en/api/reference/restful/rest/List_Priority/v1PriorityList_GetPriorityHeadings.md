@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "Prosacco, Runolfsdottir and Berge",
-    "Tooltip": "aut",
+    "HeadingId": 88,
+    "Name": "Ryan LLC",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 724,
-    "UdListDefinitionId": 385,
+    "Rank": 360,
+    "UdListDefinitionId": 227,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 47
       }
     }
   }

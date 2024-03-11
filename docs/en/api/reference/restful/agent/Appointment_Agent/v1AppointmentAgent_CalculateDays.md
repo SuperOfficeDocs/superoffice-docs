@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 108,
-  "StartDate": "2007-01-21T10:30:22.8627082+01:00",
-  "EndDate": "2020-01-03T10:30:22.8627082+01:00",
-  "RecurrenceCounter": 609,
+  "RecurrenceId": 759,
+  "StartDate": "2013-09-14T14:23:45.548125+02:00",
+  "EndDate": "2021-03-31T14:23:45.548125+02:00",
+  "RecurrenceCounter": 163,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2007-01-07T10:30:22.8627082+01:00",
-      "IsConflict": false,
-      "Description": "Synchronised discrete toolset",
-      "DescriptionStyleHint": "Total background synergy",
-      "Tooltip": "in"
+      "Date": "1999-12-11T14:23:45.548125+01:00",
+      "IsConflict": true,
+      "Description": "Focused static groupware",
+      "DescriptionStyleHint": "Managed bifurcated protocol",
+      "Tooltip": "aut"
     },
     {
-      "Date": "2007-01-07T10:30:22.8627082+01:00",
-      "IsConflict": false,
-      "Description": "Synchronised discrete toolset",
-      "DescriptionStyleHint": "Total background synergy",
-      "Tooltip": "in"
+      "Date": "1999-12-11T14:23:45.548125+01:00",
+      "IsConflict": true,
+      "Description": "Focused static groupware",
+      "DescriptionStyleHint": "Managed bifurcated protocol",
+      "Tooltip": "aut"
     }
   ],
   "IsRecurrence": true

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 547,
-  "Name": "Abernathy LLC",
-  "Tooltip": "maiores",
-  "Rank": 13,
+  "ConsentSourceId": 676,
+  "Name": "Satterfield-Johns",
+  "Tooltip": "ut",
+  "Rank": 98,
   "Key": "et",
-  "MailTemplateId": 733,
+  "MailTemplateId": 851,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

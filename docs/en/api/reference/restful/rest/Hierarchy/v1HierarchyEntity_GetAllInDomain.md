@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 515,
+    "HierarchyId": 404,
     "Domain": "Dashboards",
-    "Name": "Lind Inc and Sons",
-    "Fullname": "magni",
-    "ParentId": 643,
+    "Name": "Wiza Inc and Sons",
+    "Fullname": "quidem",
+    "ParentId": 406,
     "Children": [
       {
-        "HierarchyId": 960,
+        "HierarchyId": 68,
         "Domain": "Dashboards",
-        "Name": "Conn-Goyette",
-        "Fullname": "qui",
-        "ParentId": 702,
+        "Name": "Dickinson-Nader",
+        "Fullname": "ducimus",
+        "ParentId": 63,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2020-09-23T10:30:32.0886795+02:00",
-        "RegisteredAssociateId": 788,
-        "Updated": "1999-11-08T10:30:32.0886795+01:00",
-        "UpdatedAssociateId": 178,
+        "Registered": "2009-11-29T14:23:55.195897+01:00",
+        "RegisteredAssociateId": 225,
+        "Updated": "2018-07-31T14:23:55.195897+02:00",
+        "UpdatedAssociateId": 6,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 412
           }
         }
       }
     ],
-    "Registered": "1996-10-07T10:30:32.0886795+02:00",
-    "RegisteredAssociateId": 478,
-    "Updated": "2010-10-03T10:30:32.0886795+02:00",
-    "UpdatedAssociateId": 905,
+    "Registered": "2013-09-09T14:23:55.195897+02:00",
+    "RegisteredAssociateId": 168,
+    "Updated": "2007-09-19T14:23:55.195897+02:00",
+    "UpdatedAssociateId": 861,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldLength": 864
       }
     }
   }

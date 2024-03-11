@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Effertz, Lang and Nader",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 424,
-    "UdListDefinitionId": 277,
+    "HeadingId": 586,
+    "Name": "Gerhold-Haag",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 819,
+    "UdListDefinitionId": 186,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 791
       }
     }
   }

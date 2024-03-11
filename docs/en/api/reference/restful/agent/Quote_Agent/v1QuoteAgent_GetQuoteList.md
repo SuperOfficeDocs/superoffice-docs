@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "saepe"
+  "QuoteListType": "possimus"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "iste",
-    "DisplayValue": "rem",
-    "DisplayDescription": "Self-enabling 24 hour alliance",
+    "ERPQuoteListItemKey": "officiis",
+    "DisplayValue": "recusandae",
+    "DisplayDescription": "De-engineered transitional complexity",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 675
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "iste",
-    "DisplayValue": "rem",
-    "DisplayDescription": "Self-enabling 24 hour alliance",
+    "ERPQuoteListItemKey": "officiis",
+    "DisplayValue": "recusandae",
+    "DisplayDescription": "De-engineered transitional complexity",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 675
       }
     }
   }

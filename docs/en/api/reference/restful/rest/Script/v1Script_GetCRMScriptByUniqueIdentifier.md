@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nam",
-  "Name": "Wintheiser, Wolff and Friesen",
-  "Description": "Synchronised static time-frame",
-  "IncludeId": "illum",
-  "Source": "ea",
-  "Registered": "2018-12-17T10:30:32.7488178+01:00",
-  "RegisteredBy": "omnis",
-  "Updated": "2007-05-15T10:30:32.7488178+02:00",
-  "UpdatedBy": "impedit",
-  "Path": "est",
+  "UniqueIdentifier": "hic",
+  "Name": "Dare LLC",
+  "Description": "Cross-platform exuding circuit",
+  "IncludeId": "eveniet",
+  "Source": "reiciendis",
+  "Registered": "2016-03-14T14:23:55.8533291+01:00",
+  "RegisteredBy": "nam",
+  "Updated": "2002-10-31T14:23:55.8533291+01:00",
+  "UpdatedBy": "assumenda",
+  "Path": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Bernhard, Kihn and Schmidt"
+  "FieldName": "Daniel-Eichmann"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 833,
-  "FieldName": "Ritchie, Will and Stiedemann",
-  "Label": "dolor",
-  "Tooltip": "enim",
-  "Editable": false,
+  "QuoteLineConfigurationId": 217,
+  "FieldName": "Koss, Dicki and DuBuque",
+  "Label": "sequi",
+  "Tooltip": "vel",
+  "Editable": true,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 821,
+  "Mandatory": true,
+  "Rank": 407,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldType": "System.Int32",
+      "FieldLength": 264
     }
   }
 }

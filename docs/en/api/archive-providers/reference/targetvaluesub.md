@@ -69,6 +69,7 @@ Archive of TargetValue - used by .
 |associate/otherGroups|userGroup|Other groups: Other groups|  |
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
+|associate/locationAddress|string|Location: Location| x |
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
@@ -120,11 +121,11 @@ Archive of TargetValue - used by .
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
-|contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionPostalAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -195,6 +196,7 @@ Archive of TargetValue - used by .
 |contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
+|contact/contactAssociate/locationAddress|string|Location: Location| x |
 |contact/contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contact/contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contact/contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -223,12 +225,13 @@ Archive of TargetValue - used by .
 |contact/contactSupportAssociate/isActiveText|bool|Our service contact - Active status: Is this user active, and should be able to log in?| x |
 |contact/contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 |contact/contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
-|contact/contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
-|contact/contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
+|contact/contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
+|contact/contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
 |contact/contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -326,13 +329,13 @@ Archive of TargetValue - used by .
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
-|contact/contactUdef/SuperOffice:3|int|companynumber| x |
-|contact/contactUdef/SuperOffice:4|date|companydate| x |
-|contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:3|int|companynumber| x |
+|contact/contactUdef/SuperOffice:4|date|companydate| x |
+|contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
@@ -393,7 +396,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=associate/ejStatus,contact/contactSupportAssociate/assocType,contact/streetAddress/city
+GET /api/v1/archive/TargetValueSub?$select=contact/streetAddress/zip,contact/contactExtra/x_contact_integer,contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

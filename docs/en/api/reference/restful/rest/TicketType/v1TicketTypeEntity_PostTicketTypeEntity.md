@@ -102,24 +102,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 298,
-  "Name": "Hane Inc and Sons",
-  "Rank": 496,
-  "Tooltip": "adipisci",
-  "Icon": "ab",
-  "DefaultTicketStatus": 630,
+  "TicketTypeId": 280,
+  "Name": "Bergstrom, Wunsch and Cummings",
+  "Rank": 130,
+  "Tooltip": "iusto",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 188,
   "TicketStatuses": [
-    735,
-    903
+    461,
+    594
   ],
-  "DefaultTicketPriority": 984,
+  "DefaultTicketPriority": 692,
   "TicketPriorities": [
-    529,
-    957
+    512,
+    772
   ],
-  "ReplyTemplate": 726,
-  "IsExternalVisible": true,
-  "IsDefault": true
+  "ReplyTemplate": 10,
+  "IsExternalVisible": false,
+  "IsDefault": false
 }
 ```
 
@@ -130,35 +130,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 270,
-  "Name": "Jast-Schumm",
-  "Rank": 242,
-  "Tooltip": "est",
-  "Icon": "et",
-  "DefaultTicketStatus": 579,
+  "TicketTypeId": 244,
+  "Name": "Bahringer-Orn",
+  "Rank": 177,
+  "Tooltip": "dolorem",
+  "Icon": "nihil",
+  "DefaultTicketStatus": 834,
   "TicketStatuses": [
-    389,
-    288
+    452,
+    401
   ],
-  "DefaultTicketPriority": 841,
+  "DefaultTicketPriority": 374,
   "TicketPriorities": [
-    253,
-    856
+    391,
+    519
   ],
-  "ReplyTemplate": 352,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 723,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

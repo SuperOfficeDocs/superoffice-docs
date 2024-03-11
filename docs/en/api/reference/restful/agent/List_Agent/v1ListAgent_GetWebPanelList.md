@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 570,
-    "Name": "Renner, Dickinson and Hilll",
-    "Tooltip": "voluptatem",
+    "WebPanelId": 224,
+    "Name": "Bins, Quitzon and Pollich",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 26,
+    "Rank": 71,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Jerde-Kuhlman",
+    "WindowName": "Ziemann Group",
     "Url": "http://www.example.com/",
-    "ProgId": "eos",
-    "Icon": 464,
+    "ProgId": "dolores",
+    "Icon": 865,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 156
       }
     }
   }

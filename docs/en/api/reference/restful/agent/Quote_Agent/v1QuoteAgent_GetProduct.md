@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 527,
-  "ERPProductKey": "soluta"
+  "QuoteConnectionId": 752,
+  "ERPProductKey": "aut"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 405,
-  "ERPProductKey": "porro",
-  "ERPPriceListKey": "omnis",
-  "Name": "Fahey-Lind",
-  "Description": "Multi-lateral hybrid instruction set",
-  "Code": "doloremque",
-  "PriceUnit": "error",
-  "QuantityUnit": "maiores",
+  "ProductId": 199,
+  "ERPProductKey": "enim",
+  "ERPPriceListKey": "repudiandae",
+  "Name": "Walter Inc and Sons",
+  "Description": "Centralized leading edge functionalities",
+  "Code": "et",
+  "PriceUnit": "et",
+  "QuantityUnit": "vel",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptas",
-  "DefaultSubscriptionQuantity": 23605.288,
-  "ItemNumber": "1401161",
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 29484.672,
+  "ItemNumber": "1225554",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "temporibus",
-  "ProductTypeKey": "architecto",
-  "VAT": 20076.404,
-  "VATInfo": "sint",
-  "UnitCost": 20142.218,
-  "UnitMinimumPrice": 3459.9359999999997,
-  "UnitListPrice": 14375.658,
-  "InAssortment": true,
-  "Supplier": "id",
-  "SupplierCode": "temporibus",
-  "Rights": "ut",
-  "Rule": "fugiat",
+  "ProductFamilyKey": "nam",
+  "ProductTypeKey": "hic",
+  "VAT": 14391.328,
+  "VATInfo": "velit",
+  "UnitCost": 18816.536,
+  "UnitMinimumPrice": 10364.137999999999,
+  "UnitListPrice": 11949.942,
+  "InAssortment": false,
+  "Supplier": "aut",
+  "SupplierCode": "ducimus",
+  "Rights": "laboriosam",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Batz-Hills",
-      "Value": "id",
+      "Name": "Koss Group",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     },
     {
-      "Name": "Batz-Hills",
-      "Value": "id",
+      "Name": "Koss Group",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     }
   ],
-  "RawExtraInfo": "vel",
-  "ExtraField1": "harum",
-  "ExtraField2": "cumque",
-  "ExtraField3": "rerum",
-  "ExtraField4": "delectus",
-  "ExtraField5": "illum",
-  "InStock": 18399.714,
+  "RawExtraInfo": "officiis",
+  "ExtraField1": "pariatur",
+  "ExtraField2": "sit",
+  "ExtraField3": "suscipit",
+  "ExtraField4": "facilis",
+  "ExtraField5": "sed",
+  "InStock": 10191.768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 809
     }
   }
 }

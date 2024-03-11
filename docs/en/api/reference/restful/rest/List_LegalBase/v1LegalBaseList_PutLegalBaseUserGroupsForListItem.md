@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Moore-Will",
-    "ToolTip": "Doloremque itaque corporis laborum sed suscipit sit quibusdam.",
+    "Id": 36,
+    "Name": "Schmidt LLC",
+    "ToolTip": "Nemo impedit repudiandae animi impedit adipisci maxime ipsum.",
     "Deleted": false,
-    "Rank": 501,
-    "Type": "minima",
-    "ColorBlock": 151,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2015-04-21T10:30:33.0055846+02:00",
+    "Rank": 483,
+    "Type": "repudiandae",
+    "ColorBlock": 922,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2008-09-29T14:23:56.1189508+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Willms-Rogahn",
-        "ToolTip": "Et culpa sint.",
+        "Id": 257,
+        "Name": "Gibson Group",
+        "ToolTip": "Expedita et consequatur.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "iure",
-        "ColorBlock": 908,
-        "IconHint": "est",
+        "Rank": 561,
+        "Type": "dolorem",
+        "ColorBlock": 715,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2023-09-10T10:30:33.0055846+02:00",
+        "LastChanged": "2023-03-05T14:23:56.1189508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "perspiciatis",
-        "Hidden": false,
-        "FullName": "Maximus Roberts"
+        "ExtraInfo": "aliquam",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Jarrett O'Reilly"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "aut",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Syble Fahey"
+    "FullName": "Mrs. Dortha Wiegand"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Herman-Batz",
-    "ToolTip": "Harum temporibus eos quia doloremque rerum ea.",
-    "Deleted": true,
-    "Rank": 209,
-    "Type": "enim",
-    "ColorBlock": 565,
-    "IconHint": "ut",
+    "Id": 399,
+    "Name": "Hoppe-Schuppe",
+    "ToolTip": "Ipsum sunt et necessitatibus ullam.",
+    "Deleted": false,
+    "Rank": 678,
+    "Type": "est",
+    "ColorBlock": 686,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2010-02-20T10:30:33.0212063+01:00",
+    "LastChanged": "2003-06-13T14:23:56.1189508+02:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Dare Group",
-        "ToolTip": "Accusantium fuga laudantium enim qui.",
+        "Id": 397,
+        "Name": "Kozey-Legros",
+        "ToolTip": "Cum quas.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "aliquam",
-        "ColorBlock": 574,
-        "IconHint": "provident",
+        "Rank": 391,
+        "Type": "veritatis",
+        "ColorBlock": 814,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2002-10-27T10:30:33.0212063+01:00",
+        "LastChanged": "2007-09-19T14:23:56.1189508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "ut",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Prof. Destinee Dicki II",
+        "FullName": "Maxime Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldType": "System.String",
+            "FieldLength": 84
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Miss Timmy Hartmann V",
+    "ExtraInfo": "eos",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Orval Jacobson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 974
       }
     }
   }

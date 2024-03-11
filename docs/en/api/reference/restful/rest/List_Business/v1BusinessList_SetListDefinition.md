@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 412,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "quo",
+  "Id": 655,
+  "Name": "Mertz-Yost",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 296,
+  "Rank": 838,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Mertz-Waters",
-  "Tooltip": "temporibus",
+  "Id": 231,
+  "Name": "Windler-Murazik",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "Rank": 311,
-  "IsCustomList": true,
+  "Rank": 740,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldLength": 435
     }
   }
 }

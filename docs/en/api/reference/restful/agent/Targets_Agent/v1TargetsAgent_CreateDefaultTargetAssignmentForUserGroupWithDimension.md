@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 273,
-  "TargetDimensionId": 960
+  "UserGroupId": 164,
+  "TargetDimensionId": 719
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 582,
+    "TargetAssignmentInfoId": 479,
     "Values": [
-      398,
-      431
+      317,
+      734
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 123,
-    "DimensionListItemDisplayName": "Metz-Wolff",
+    "DimensionListItem": 784,
+    "DimensionListItemDisplayName": "Durgan LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

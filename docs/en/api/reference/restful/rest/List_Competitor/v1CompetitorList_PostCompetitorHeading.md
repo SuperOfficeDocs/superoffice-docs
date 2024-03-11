@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 297,
-  "Name": "Keebler LLC",
-  "Tooltip": "consequatur",
+  "HeadingId": 347,
+  "Name": "Bode-Schaden",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 818,
-  "UdListDefinitionId": 81
+  "Rank": 54,
+  "UdListDefinitionId": 90
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Kling LLC",
-  "Tooltip": "voluptas",
+  "HeadingId": 571,
+  "Name": "Feeney-Hyatt",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 23,
-  "UdListDefinitionId": 469,
+  "Rank": 34,
+  "UdListDefinitionId": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 593
     }
   }
 }

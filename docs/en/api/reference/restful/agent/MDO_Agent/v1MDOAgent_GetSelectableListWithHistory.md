@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Windler, Hartmann and Kohler",
+  "Name": "Fisher Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "iusto",
+  "AdditionalInfo": "quas",
   "HistoryItems": [
-    313,
-    919
+    627,
+    83
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Hahn Group",
-    "ToolTip": "Autem aut.",
+    "Id": 752,
+    "Name": "Kautzer-Dickinson",
+    "ToolTip": "Est amet doloremque voluptas molestiae.",
     "Deleted": false,
-    "Rank": 882,
-    "Type": "quia",
-    "ColorBlock": 747,
-    "IconHint": "deleniti",
+    "Rank": 53,
+    "Type": "consequuntur",
+    "ColorBlock": 903,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2019-05-22T10:30:24.1193938+02:00",
+    "LastChanged": "2006-01-10T14:23:46.9255115+01:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Kunze Inc and Sons",
-        "ToolTip": "Quasi est eum et dicta voluptas saepe aut.",
+        "Id": 700,
+        "Name": "Cassin, Smitham and Gulgowski",
+        "ToolTip": "Harum hic.",
         "Deleted": false,
-        "Rank": 86,
-        "Type": "natus",
-        "ColorBlock": 734,
-        "IconHint": "voluptatem",
+        "Rank": 772,
+        "Type": "pariatur",
+        "ColorBlock": 541,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2004-07-03T10:30:24.1193938+02:00",
+        "LastChanged": "2008-02-18T14:23:46.9255115+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Mrs. Walton Marvin Hammes IV",
+        "ExtraInfo": "labore",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Prof. Velma Kristofer Barton DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Ms. Annabel Ebert",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Mrs. Cordia Della Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 664
       }
     }
   }

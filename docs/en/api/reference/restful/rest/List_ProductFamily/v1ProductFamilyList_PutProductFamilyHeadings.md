@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Wolff-Willms",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 352
+    "HeadingId": 284,
+    "Name": "Kassulke-Jast",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 732,
+    "UdListDefinitionId": 233
   },
   {
-    "HeadingId": 493,
-    "Name": "Wolff-Willms",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 352
+    "HeadingId": 284,
+    "Name": "Kassulke-Jast",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 732,
+    "UdListDefinitionId": 233
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Schneider Group",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 826,
-    "UdListDefinitionId": 882,
+    "HeadingId": 139,
+    "Name": "Watsica-Reichert",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 532,
+    "UdListDefinitionId": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldType": "System.String",
+        "FieldLength": 534
       }
     }
   }

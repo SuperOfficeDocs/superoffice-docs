@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 988,
-  "PlainMessage": "totam",
-  "HtmlMessage": "optio",
-  "SmsMessage": "vitae",
-  "Description": "Public-key user-facing strategy",
-  "Subject": "fugit",
-  "FolderId": 536,
-  "HeaderField": "aut",
-  "Design": "rem",
+  "ShipmentMessageId": 265,
+  "PlainMessage": "ullam",
+  "HtmlMessage": "dolor",
+  "SmsMessage": "occaecati",
+  "Description": "Object-based well-modulated monitoring",
+  "Subject": "totam",
+  "FolderId": 45,
+  "HeaderField": "minima",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Fully-configurable mobile pricing structure",
-  "AccessKey": "est",
-  "DocumentMessage": 235,
-  "Registered": "2004-01-20T10:30:32.5125031+01:00",
-  "RegisteredAssociateId": 216,
-  "Updated": "2011-02-12T10:30:32.5125031+01:00",
-  "UpdatedAssociateId": 950,
-  "UpdatedCount": 488,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Implemented upward-trending encryption",
+  "AccessKey": "commodi",
+  "DocumentMessage": 998,
+  "Registered": "2022-02-13T14:23:55.5252104+01:00",
+  "RegisteredAssociateId": 479,
+  "Updated": "2016-08-23T14:23:55.5252104+02:00",
+  "UpdatedAssociateId": 670,
+  "UpdatedCount": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 627
     }
   }
 }

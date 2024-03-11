@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 904,
-    "Name": "Brown LLC",
-    "Tooltip": "illo",
+    "HeadingId": 56,
+    "Name": "Pouros, McLaughlin and Kemmer",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 370,
+    "Rank": 551,
+    "UdListDefinitionId": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 277
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

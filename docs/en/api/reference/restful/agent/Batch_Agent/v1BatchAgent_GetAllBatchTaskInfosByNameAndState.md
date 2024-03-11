@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Breitenberg-Bradtke",
+  "TaskName": "Kuvalis Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Shields Inc and Sons",
-    "AssociateId": 509,
-    "DetailsTable": 582,
-    "DetailsRecord": 956,
+    "Id": 541,
+    "Name": "D'Amore, Littel and Hessel",
+    "AssociateId": 515,
+    "DetailsTable": 623,
+    "DetailsRecord": 341,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "excepturi",
-      "ParameterObject2": "autem"
+      "ParameterObject1": "tenetur",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2014-10-02T10:30:23.0982933+02:00",
-    "Created": "2000-07-21T10:30:23.0982933+02:00",
-    "StartCount": 963,
-    "DatabaseSerialNumber": "1372916",
-    "Context": "distinctio",
-    "Result": "ratione",
+    "LastStarted": "2004-10-08T14:23:45.8762101+02:00",
+    "Created": "2000-08-11T14:23:45.8762101+02:00",
+    "StartCount": 407,
+    "DatabaseSerialNumber": "794756",
+    "Context": "ut",
+    "Result": "autem",
     "State": "All",
-    "Description": "Profit-focused 3rd generation neural-net",
-    "Response": "ut",
-    "Request": "eius",
-    "ProgressDescription": "Stand-alone uniform analyzer",
-    "ProgressPercent": 293,
-    "FileName": "Jakubowski-Rodriguez",
+    "Description": "Implemented asynchronous structure",
+    "Response": "tempora",
+    "Request": "cumque",
+    "ProgressDescription": "Intuitive background forecast",
+    "ProgressPercent": 612,
+    "FileName": "Jacobson-Barrows",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

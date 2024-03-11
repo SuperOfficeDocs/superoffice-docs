@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=qui
-GET /api/v1/Script?$top=365
-GET /api/v1/Script?$skip=986
+GET /api/v1/Script?$entities=dolorem
+GET /api/v1/Script?$top=261
+GET /api/v1/Script?$skip=307
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=aperiam
+GET /api/v1/Script?$context=consectetur
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=False
+GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rem",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 2570,
+      "PrimaryKey": 6780,
       "EntityName": "sale",
-      "saleId": 2570,
-      "contactId": 4464,
-      "name": "Jaskolski, Fahey and O'Conner"
+      "saleId": 6780,
+      "contactId": 3160,
+      "name": "Von Group"
     },
     {
-      "PrimaryKey": 6280,
+      "PrimaryKey": 1996,
       "EntityName": "sale",
-      "saleId": 6280,
-      "contactId": 4515,
-      "name": "Wolff-Padberg"
+      "saleId": 1996,
+      "contactId": 413,
+      "name": "Graham Inc and Sons"
     }
   ]
 }

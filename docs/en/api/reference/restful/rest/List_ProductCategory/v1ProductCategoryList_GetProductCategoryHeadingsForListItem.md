@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Gottlieb, Skiles and Franecki",
-    "ToolTip": "Et voluptas autem iure quo eos.",
+    "Id": 632,
+    "Name": "Trantow, Thompson and Schinner",
+    "ToolTip": "Et eos est.",
     "Deleted": false,
-    "Rank": 8,
-    "Type": "nesciunt",
-    "ColorBlock": 682,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "1999-06-22T10:30:33.1005836+02:00",
+    "Rank": 922,
+    "Type": "porro",
+    "ColorBlock": 840,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2018-01-21T14:23:56.1970747+01:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Bradtke-Cartwright",
-        "ToolTip": "In sit aut distinctio quas.",
-        "Deleted": false,
-        "Rank": 462,
-        "Type": "dolore",
-        "ColorBlock": 128,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2015-01-10T10:30:33.1005836+01:00",
+        "Id": 731,
+        "Name": "Oberbrunner, Ward and Grady",
+        "ToolTip": "Illo saepe alias atque accusamus blanditiis perferendis sit.",
+        "Deleted": true,
+        "Rank": 21,
+        "Type": "voluptates",
+        "ColorBlock": 883,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2006-11-29T14:23:56.1970747+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "possimus",
+        "ExtraInfo": "natus",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Alessandro Hamill DVM",
+        "FullName": "Keshawn Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 801
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "doloribus",
-    "Hidden": true,
-    "FullName": "Darlene Kassulke",
+    "ExtraInfo": "facere",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Wava Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 429
       }
     }
   }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Bruen LLC",
-      "EntityOrParentId": 460,
+      "EntityName": "Lehner Inc and Sons",
+      "EntityOrParentId": 89,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Bruen LLC",
-      "EntityOrParentId": 460,
+      "EntityName": "Lehner Inc and Sons",
+      "EntityOrParentId": 89,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 516,
-    "Id": 511,
-    "HistoryName": "Auer, Jast and Block",
-    "HistoryId": 344,
-    "AssociateId": 499,
-    "Name": "Langosh Group",
-    "ItemInfo": "facere",
+    "Rank": 945,
+    "Id": 486,
+    "HistoryName": "DuBuque LLC",
+    "HistoryId": 5,
+    "AssociateId": 688,
+    "Name": "Skiles, Howell and Torphy",
+    "ItemInfo": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 434
       }
     }
   }

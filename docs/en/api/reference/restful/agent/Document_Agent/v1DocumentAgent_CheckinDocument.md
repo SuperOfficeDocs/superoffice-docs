@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 162,
+  "DocumentId": 614,
   "AllowedReturnTypes": [
-    "ut",
-    "voluptatem"
+    "aliquam",
+    "et"
   ],
-  "VersionDescription": "Horizontal context-sensitive software",
+  "VersionDescription": "Team-oriented regional instruction set",
   "VersionExtraFields": [
-    "aspernatur",
-    "facilis"
+    "sit",
+    "architecto"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "error",
-  "VersionId": "maxime",
+  "ExternalReference": "tempora",
+  "VersionId": "nemo",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "voluptas",
-  "AdditionalInfo": "exercitationem"
+  "Value": "dolor",
+  "AdditionalInfo": "in"
 }
 ```

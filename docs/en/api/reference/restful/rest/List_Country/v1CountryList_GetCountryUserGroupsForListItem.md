@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Halvorson-Prohaska",
-    "ToolTip": "Et sed est aut.",
+    "Id": 656,
+    "Name": "Braun-Jakubowski",
+    "ToolTip": "Qui voluptate vel at.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "aut",
-    "ColorBlock": 801,
-    "IconHint": "amet",
-    "Selected": false,
-    "LastChanged": "1998-12-11T10:30:32.9274257+01:00",
+    "Rank": 109,
+    "Type": "sit",
+    "ColorBlock": 763,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2015-09-08T14:23:56.0252035+02:00",
     "ChildItems": [
       {
-        "Id": 775,
-        "Name": "Lebsack LLC",
-        "ToolTip": "Maxime quibusdam qui suscipit aut saepe.",
-        "Deleted": true,
-        "Rank": 289,
-        "Type": "quisquam",
-        "ColorBlock": 431,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2022-07-31T10:30:32.9274257+02:00",
+        "Id": 875,
+        "Name": "Swift LLC",
+        "ToolTip": "Vel cum voluptas.",
+        "Deleted": false,
+        "Rank": 653,
+        "Type": "qui",
+        "ColorBlock": 379,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "1999-06-28T14:23:56.0252035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Johanna Gerhold Jr.",
+        "ExtraInfo": "itaque",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Prof. Jada Tod Schinner DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 233
+            "FieldLength": 744
           }
         }
       }
     ],
     "ExtraInfo": "qui",
-    "StyleHint": "reprehenderit",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Janiya Leuschke",
+    "FullName": "Mr. Mariela Gusikowski Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

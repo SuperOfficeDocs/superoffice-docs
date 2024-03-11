@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,36 +96,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Romaguera, Walter and Olson",
-    "ToolTip": "Alias et excepturi dignissimos eos nemo consequuntur.",
-    "Deleted": true,
-    "Rank": 685,
-    "Type": "eos",
-    "ColorBlock": 36,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2020-09-22T10:30:32.9430827+02:00",
+    "Id": 773,
+    "Name": "Medhurst, Hoppe and Tromp",
+    "ToolTip": "Quibusdam pariatur delectus explicabo totam et fugiat.",
+    "Deleted": false,
+    "Rank": 48,
+    "Type": "quos",
+    "ColorBlock": 380,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2006-02-03T14:23:56.0564526+01:00",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Rodriguez-Christiansen",
-        "ToolTip": "Fuga et nulla sunt qui aut sunt dolores.",
+        "Id": 827,
+        "Name": "Kub Group",
+        "ToolTip": "Molestiae maiores.",
         "Deleted": false,
-        "Rank": 459,
-        "Type": "est",
-        "ColorBlock": 563,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2004-06-02T10:30:32.9430827+02:00",
+        "Rank": 437,
+        "Type": "voluptate",
+        "ColorBlock": 497,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2015-11-05T14:23:56.0564526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Fiona Christiansen",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Prof. Ocie Aletha Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -136,16 +136,16 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "earum",
+    "ExtraInfo": "et",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Janick Schimmel",
+    "FullName": "Rebeca Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 880
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Trantow LLC",
-    "ToolTip": "Perspiciatis quo minima provident.",
-    "Deleted": true,
-    "Rank": 324,
-    "Type": "minima",
-    "ColorBlock": 647,
-    "IconHint": "totam",
+    "Id": 593,
+    "Name": "Gleichner-Bailey",
+    "ToolTip": "Velit fuga quos praesentium.",
+    "Deleted": false,
+    "Rank": 198,
+    "Type": "qui",
+    "ColorBlock": 284,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2022-05-23T10:30:33.1630832+02:00",
+    "LastChanged": "2022-10-03T14:23:56.2595732+02:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Bayer Inc and Sons",
-        "ToolTip": "Voluptas suscipit sequi qui sed earum reprehenderit.",
-        "Deleted": true,
-        "Rank": 825,
-        "Type": "dolorem",
-        "ColorBlock": 829,
-        "IconHint": "eius",
+        "Id": 882,
+        "Name": "Ritchie-Steuber",
+        "ToolTip": "Non esse mollitia quos mollitia.",
+        "Deleted": false,
+        "Rank": 997,
+        "Type": "saepe",
+        "ColorBlock": 669,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2014-10-31T10:30:33.1630832+01:00",
+        "LastChanged": "2016-06-15T14:23:56.2595732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "cum",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Kaycee Sanford",
+        "FullName": "Ms. Amaya Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 170
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "vel",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Zackery Hessel",
+    "FullName": "Jules McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 929
       }
     }
   }

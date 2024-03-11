@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 899,
-    "Value": "quia",
-    "Tooltip": "et",
-    "Probability": 709,
+    "SaleStageId": 859,
+    "Value": "magnam",
+    "Tooltip": "aut",
+    "Probability": 217,
     "Deleted": false,
-    "Rank": 81,
+    "Rank": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 105
       }
     }
   }

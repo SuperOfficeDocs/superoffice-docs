@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 131,
-    "Tooltip": "odio",
-    "CanAssign": false,
-    "Free": 602,
-    "InUse": 123,
+    "Total": 571,
+    "Tooltip": "iusto",
+    "CanAssign": true,
+    "Free": 300,
+    "InUse": 449,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 257,
-    "Name": "Dibbert Group",
-    "Description": "Seamless fresh-thinking solution",
-    "PrerequisiteModuleName": "Considine Inc and Sons",
-    "SortOrder": 985,
-    "ExtraFlags": 823,
+    "ModuleLicenseId": 28,
+    "Name": "Heidenreich-Dickens",
+    "Description": "Down-sized methodical hub",
+    "PrerequisiteModuleName": "Schiller, Franecki and Nitzsche",
+    "SortOrder": 952,
+    "ExtraFlags": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

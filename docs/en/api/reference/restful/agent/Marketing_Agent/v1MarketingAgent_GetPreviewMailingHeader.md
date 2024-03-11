@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 643
+  "ShipmentId": 538
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2010-08-15T10:30:24.1037706+02:00",
+  "StartDate": "2010-02-23T14:23:46.9255115+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 614,
-  "ShipmentDescription": "De-engineered next generation approach",
-  "FromAddress": "voluptas",
-  "Configuration": 630,
-  "PersonId": 929,
-  "PersonFullName": "Alayna Vandervort",
-  "ShipmentType": "blanditiis",
-  "MessageId": 370,
-  "MessageSubject": "quo",
-  "DocumentMessageId": 760,
-  "NumSent": 501,
-  "NumOpened": 439,
-  "NumBounced": 145,
-  "NumClicks": 66,
+  "ShipmentId": 813,
+  "ShipmentDescription": "Multi-layered optimizing artificial intelligence",
+  "FromAddress": "repellendus",
+  "Configuration": 432,
+  "PersonId": 607,
+  "PersonFullName": "Dr. Juana Hayes MD",
+  "ShipmentType": "reiciendis",
+  "MessageId": 837,
+  "MessageSubject": "et",
+  "DocumentMessageId": 874,
+  "NumSent": 672,
+  "NumOpened": 377,
+  "NumBounced": 958,
+  "NumClicks": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 584
     }
   }
 }

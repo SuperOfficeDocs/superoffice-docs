@@ -109,47 +109,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 911,
-  "Name": "Paucek Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 251,
+  "SaleTypeId": 819,
+  "Name": "Senger-Okuneva",
+  "Tooltip": "aut",
+  "Rank": 163,
   "DurationUnit": "Century",
-  "SaleDuration": 903,
-  "SaleTypeCatId": 437,
-  "Deleted": false,
+  "SaleDuration": 659,
+  "SaleTypeCatId": 941,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 817,
-  "QuoteLinesTemplate": 389,
-  "ConfirmationLinesTemplate": 48,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 719,
+  "QuoteLinesTemplate": 228,
+  "ConfirmationLinesTemplate": 351,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 57,
-  "MinEarningPercent": 1001,
-  "GroupQuoteLinesBy": 795,
-  "SortGroupLinesBy": 978,
+  "MaxDiscountPercent": 449,
+  "MinEarningPercent": 341,
+  "GroupQuoteLinesBy": 96,
+  "SortGroupLinesBy": 315,
   "Stages": [
     {
-      "Id": 700,
-      "Name": "Adams-McGlynn",
-      "ToolTip": "Ea alias natus perspiciatis.",
+      "Id": 876,
+      "Name": "Wunsch, Brakus and Lehner",
+      "ToolTip": "Vel ea eveniet commodi et et officiis.",
       "Deleted": true,
-      "Rank": 602,
-      "Type": "at",
-      "ColorBlock": 163,
-      "IconHint": "voluptatum",
-      "Selected": false,
-      "LastChanged": "2008-04-03T10:30:24.0725232+02:00",
+      "Rank": 225,
+      "Type": "odit",
+      "ColorBlock": 412,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2013-09-26T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "ullam",
-      "Hidden": false,
-      "FullName": "Jett Nadia Lebsack V"
+      "ExtraInfo": "ipsum",
+      "StyleHint": "id",
+      "Hidden": true,
+      "FullName": "Dr. Ewell Keith Oberbrunner MD"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 641,
-  "Name": "Witting-Thompson",
-  "Tooltip": "modi",
-  "Rank": 906,
+  "SaleTypeId": 512,
+  "Name": "Kiehn Inc and Sons",
+  "Tooltip": "minima",
+  "Rank": 711,
   "DurationUnit": "Century",
-  "SaleDuration": 800,
-  "SaleTypeCatId": 969,
-  "Deleted": true,
+  "SaleDuration": 716,
+  "SaleTypeCatId": 621,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 169,
-  "QuoteLinesTemplate": 942,
-  "ConfirmationLinesTemplate": 83,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 215,
-  "MinEarningPercent": 891,
-  "GroupQuoteLinesBy": 483,
-  "SortGroupLinesBy": 950,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 594,
+  "QuoteLinesTemplate": 889,
+  "ConfirmationLinesTemplate": 810,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 608,
+  "MinEarningPercent": 526,
+  "GroupQuoteLinesBy": 240,
+  "SortGroupLinesBy": 338,
   "Stages": [
     {
-      "Id": 24,
-      "Name": "Berge, Cassin and Senger",
-      "ToolTip": "Quia nihil.",
-      "Deleted": false,
-      "Rank": 284,
-      "Type": "iure",
-      "ColorBlock": 695,
-      "IconHint": "inventore",
+      "Id": 830,
+      "Name": "Pfannerstill-Zboncak",
+      "ToolTip": "Voluptatum similique.",
+      "Deleted": true,
+      "Rank": 677,
+      "Type": "vel",
+      "ColorBlock": 523,
+      "IconHint": "blanditiis",
       "Selected": false,
-      "LastChanged": "2011-11-20T10:30:24.0725232+01:00",
+      "LastChanged": "2022-08-19T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "porro",
-      "StyleHint": "et",
+      "ExtraInfo": "nihil",
+      "StyleHint": "omnis",
       "Hidden": true,
-      "FullName": "Amelie Schmidt DVM",
+      "FullName": "Ramon Douglas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldLength": 851
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 63
     }
   }
 }

@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 499,
+  "TargetDimensionId": 443,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "earum",
-  "DimensionListName": "Watsica, Donnelly and Hansen",
-  "DimensionListId": 944,
-  "DimensionListLabel": "et",
+  "DimensionListField": "non",
+  "DimensionListName": "Senger-Jones",
+  "DimensionListId": 709,
+  "DimensionListLabel": "cumque",
   "SelectedDimensions": [
-    317,
-    640
+    702,
+    645
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 378
     }
   }
 }

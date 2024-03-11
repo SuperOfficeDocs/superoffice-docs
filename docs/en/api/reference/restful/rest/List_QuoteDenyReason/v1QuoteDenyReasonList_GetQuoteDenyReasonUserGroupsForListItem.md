@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Thompson-Thiel",
-    "ToolTip": "Dolore quo excepturi ut minus.",
+    "Id": 796,
+    "Name": "Sporer-Okuneva",
+    "ToolTip": "Pariatur adipisci error fugiat dolores quis reiciendis adipisci.",
     "Deleted": false,
-    "Rank": 478,
-    "Type": "ipsa",
-    "ColorBlock": 720,
-    "IconHint": "necessitatibus",
+    "Rank": 227,
+    "Type": "est",
+    "ColorBlock": 29,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2023-01-23T10:30:33.178709+01:00",
+    "LastChanged": "1998-03-09T14:23:56.2751981+01:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Batz LLC",
-        "ToolTip": "Qui inventore sequi dolorem aut quaerat.",
+        "Id": 953,
+        "Name": "Roberts Inc and Sons",
+        "ToolTip": "Unde quibusdam.",
         "Deleted": true,
-        "Rank": 366,
-        "Type": "qui",
-        "ColorBlock": 347,
-        "IconHint": "ipsam",
-        "Selected": true,
-        "LastChanged": "2005-06-11T10:30:33.178709+02:00",
+        "Rank": 11,
+        "Type": "earum",
+        "ColorBlock": 460,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "1997-08-02T14:23:56.2751981+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "molestias",
+        "ExtraInfo": "sint",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Jovani Kohler",
+        "FullName": "Pedro Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldType": "System.String",
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Lacy Metz",
+    "ExtraInfo": "facilis",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Hilbert Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 740
       }
     }
   }

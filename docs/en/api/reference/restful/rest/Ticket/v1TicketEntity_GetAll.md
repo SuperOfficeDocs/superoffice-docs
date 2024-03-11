@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=non
-GET /api/v1/Ticket?$top=492
-GET /api/v1/Ticket?$skip=101
+GET /api/v1/Ticket?$entities=autem
+GET /api/v1/Ticket?$top=547
+GET /api/v1/Ticket?$skip=973
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=cum
+GET /api/v1/Ticket?$context=nulla
 GET /api/v1/Ticket?$format=JSON
 GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "saepe",
+  "odata.nextLink": "amet",
   "value": [
     {
-      "PrimaryKey": 6817,
+      "PrimaryKey": 9233,
       "EntityName": "sale",
-      "saleId": 6817,
-      "contactId": 5731,
-      "name": "Wisoky-Ebert"
+      "saleId": 9233,
+      "contactId": 2674,
+      "name": "Turcotte, Nitzsche and Kerluke"
     },
     {
-      "PrimaryKey": 2761,
+      "PrimaryKey": 7667,
       "EntityName": "sale",
-      "saleId": 2761,
-      "contactId": 2098,
-      "name": "Dibbert, Walker and Harber"
+      "saleId": 7667,
+      "contactId": 8227,
+      "name": "Hudson, Daniel and Dickens"
     }
   ]
 }

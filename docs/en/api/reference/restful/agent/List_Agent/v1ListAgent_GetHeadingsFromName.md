@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Friesen-Cartwright"
+  "Name": "Corwin LLC"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 948,
-    "Name": "Smith, Lubowitz and Hermiston",
-    "Tooltip": "consectetur",
+    "HeadingId": 231,
+    "Name": "Dach, King and Hermiston",
+    "Tooltip": "quos",
     "Deleted": true,
-    "Rank": 309,
-    "UdListDefinitionId": 901,
+    "Rank": 150,
+    "UdListDefinitionId": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 547
       }
     }
   }

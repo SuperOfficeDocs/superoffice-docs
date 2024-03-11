@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 633,
+      "CustConfigId": 995,
       "Type": "Options",
-      "Config": "fuga",
-      "CustLangId": 658,
-      "Registered": "2005-04-30T10:30:23.4206552+02:00",
-      "RegisteredAssociateId": 211,
-      "Updated": "2005-01-10T10:30:23.4206552+01:00",
-      "UpdatedAssociateId": 935
+      "Config": "et",
+      "CustLangId": 760,
+      "Registered": "2021-06-19T14:23:46.219957+02:00",
+      "RegisteredAssociateId": 351,
+      "Updated": "2002-03-19T14:23:46.219957+01:00",
+      "UpdatedAssociateId": 965
     }
   ]
 }

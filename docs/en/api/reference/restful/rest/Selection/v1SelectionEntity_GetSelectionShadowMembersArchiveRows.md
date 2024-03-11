@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatibus",
+  "odata.nextLink": "illo",
   "value": [
     {
-      "PrimaryKey": 5861,
+      "PrimaryKey": 443,
       "EntityName": "sale",
-      "saleId": 5861,
-      "contactId": 5630,
-      "name": "Sawayn, Nicolas and Greenholt"
+      "saleId": 443,
+      "contactId": 3180,
+      "name": "Luettgen, Keebler and Champlin"
     },
     {
-      "PrimaryKey": 2262,
+      "PrimaryKey": 8092,
       "EntityName": "sale",
-      "saleId": 2262,
-      "contactId": 2745,
-      "name": "Strosin-Hodkiewicz"
+      "saleId": 8092,
+      "contactId": 6254,
+      "name": "Runolfsson-Purdy"
     }
   ]
 }

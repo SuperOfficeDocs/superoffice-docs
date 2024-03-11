@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 101,
-    "ColumnId": 2,
-    "FieldDefault": "sapiente",
-    "FieldHeight": 394,
-    "FieldLabel": "tempore",
-    "FieldLeft": 402,
-    "FieldTop": 290,
+    "UDefFieldId": 937,
+    "ColumnId": 45,
+    "FieldDefault": "consectetur",
+    "FieldHeight": 390,
+    "FieldLabel": "veniam",
+    "FieldLeft": 867,
+    "FieldTop": 795,
     "FieldType": "Checkbox",
-    "FieldWidth": 369,
-    "FormatMask": "nisi",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 674,
-    "LabelLeft": 253,
-    "LabelTop": 24,
-    "LabelWidth": 355,
-    "LastVersionId": 52,
-    "ListTableId": 441,
+    "FieldWidth": 257,
+    "FormatMask": "voluptatem",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 119,
+    "LabelLeft": 803,
+    "LabelTop": 314,
+    "LabelWidth": 770,
+    "LastVersionId": 624,
+    "ListTableId": 86,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 378,
-    "ProgId": "nemo",
-    "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 126,
-    "TextLength": 973,
-    "Tooltip": "voluptates",
-    "UdefIdentity": 833,
-    "UDListDefinitionId": 243,
+    "Page1LineNo": 348,
+    "ProgId": "laudantium",
+    "IsReadOnly": true,
+    "ShortLabel": "sit",
+    "TabOrder": 285,
+    "TextLength": 229,
+    "Tooltip": "quo",
+    "UdefIdentity": 837,
+    "UDListDefinitionId": 33,
     "Justification": "Center",
-    "Version": 531,
-    "TemplateVariableName": "Johnston Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Torp Inc and Sons",
+    "Version": 94,
+    "TemplateVariableName": "Schulist Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Klocko Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 54
       }
     }
   }

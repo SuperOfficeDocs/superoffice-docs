@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leffler Inc and Sons",
-    "Description": "User-centric non-volatile monitoring",
+    "Name": "Morar Group",
+    "Description": "Fundamental even-keeled access",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 18,
-        "Tooltip": "nostrum",
+        "Total": 867,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 849,
-        "InUse": 256,
+        "Free": 963,
+        "InUse": 944,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 222,
-        "Name": "Lehner, Harris and Kemmer",
-        "Description": "Streamlined 24/7 definition",
-        "PrerequisiteModuleName": "Goodwin-Rohan",
-        "SortOrder": 756,
-        "ExtraFlags": 390,
+        "ModuleLicenseId": 17,
+        "Name": "Mitchell-Waters",
+        "Description": "User-friendly foreground hub",
+        "PrerequisiteModuleName": "Mitchell, Hessel and Dickens",
+        "SortOrder": 81,
+        "ExtraFlags": 321,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 483
+            "FieldLength": 785
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 545,
-        "Tooltip": "distinctio",
+        "Total": 395,
+        "Tooltip": "quis",
         "CanAssign": false,
-        "Free": 348,
-        "InUse": 111,
+        "Free": 30,
+        "InUse": 97,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 531,
-        "Name": "Ebert-Kuhn",
-        "Description": "Innovative intermediate framework",
-        "PrerequisiteModuleName": "Watsica-Goodwin",
-        "SortOrder": 883,
-        "ExtraFlags": 314,
+        "Assigned": false,
+        "ModuleLicenseId": 967,
+        "Name": "Larkin Inc and Sons",
+        "Description": "Open-architected intangible productivity",
+        "PrerequisiteModuleName": "Hayes, Marvin and Leuschke",
+        "SortOrder": 150,
+        "ExtraFlags": 219,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 250
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   },
   {
-    "Name": "Leffler Inc and Sons",
-    "Description": "User-centric non-volatile monitoring",
+    "Name": "Morar Group",
+    "Description": "Fundamental even-keeled access",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 18,
-        "Tooltip": "nostrum",
+        "Total": 867,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 849,
-        "InUse": 256,
+        "Free": 963,
+        "InUse": 944,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 222,
-        "Name": "Lehner, Harris and Kemmer",
-        "Description": "Streamlined 24/7 definition",
-        "PrerequisiteModuleName": "Goodwin-Rohan",
-        "SortOrder": 756,
-        "ExtraFlags": 390,
+        "ModuleLicenseId": 17,
+        "Name": "Mitchell-Waters",
+        "Description": "User-friendly foreground hub",
+        "PrerequisiteModuleName": "Mitchell, Hessel and Dickens",
+        "SortOrder": 81,
+        "ExtraFlags": 321,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 483
+            "FieldLength": 785
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 545,
-        "Tooltip": "distinctio",
+        "Total": 395,
+        "Tooltip": "quis",
         "CanAssign": false,
-        "Free": 348,
-        "InUse": 111,
+        "Free": 30,
+        "InUse": 97,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 531,
-        "Name": "Ebert-Kuhn",
-        "Description": "Innovative intermediate framework",
-        "PrerequisiteModuleName": "Watsica-Goodwin",
-        "SortOrder": 883,
-        "ExtraFlags": 314,
+        "Assigned": false,
+        "ModuleLicenseId": 967,
+        "Name": "Larkin Inc and Sons",
+        "Description": "Open-architected intangible productivity",
+        "PrerequisiteModuleName": "Hayes, Marvin and Leuschke",
+        "SortOrder": 150,
+        "ExtraFlags": 219,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 250
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

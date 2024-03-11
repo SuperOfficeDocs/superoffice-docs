@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=et
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=aliquid
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Kunde-Macejkovic",
-    "ToolTip": "Qui quia architecto perspiciatis repellat quo alias officia.",
-    "Deleted": true,
-    "Rank": 176,
-    "Type": "possimus",
+    "Id": 59,
+    "Name": "Bechtelar, Jewess and Denesik",
+    "ToolTip": "Repudiandae consequuntur aut consequuntur quia recusandae aut accusamus.",
+    "Deleted": false,
+    "Rank": 253,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Lemke LLC",
-        "ToolTip": "Eos eum quisquam explicabo repellendus aliquid rerum.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "dolor",
+        "Id": 680,
+        "Name": "Welch-McCullough",
+        "ToolTip": "Ratione omnis et asperiores animi qui voluptatem harum.",
+        "Deleted": true,
+        "Rank": 498,
+        "Type": "possimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 553,
-        "ExtraInfo": "aut",
-        "StyleHint": "ullam",
-        "FullName": "Fritz Cummings",
+        "IconHint": "esse",
+        "ColorBlock": 852,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sed",
+        "FullName": "Humberto Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldLength": 91
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 727,
-    "ExtraInfo": "neque",
-    "StyleHint": "accusantium",
-    "FullName": "Ms. Al Koby Howell",
+    "IconHint": "quaerat",
+    "ColorBlock": 770,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "non",
+    "FullName": "Mrs. Eulalia Dejuan Legros III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 449
       }
     }
   }

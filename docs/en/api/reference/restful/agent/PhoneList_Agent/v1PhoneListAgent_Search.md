@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "832-443-7988 x6147",
-    "PersonCellPhone": "423-751-5824",
-    "PersonPrivatePhone": "590.640.3698 x2599",
-    "PersonFaxNumber": "904726",
-    "PersonPagerNumber": "722319",
-    "PersonEmail": "gabrielle@kohlergrady.co.uk",
-    "Id": 311,
-    "Name": "Mraz Group",
-    "Tooltip": "et",
-    "UniqueId": "autem",
+    "PersonDirectPhone": "1-210-497-4126 x6930",
+    "PersonCellPhone": "967.214.9479 x483",
+    "PersonPrivatePhone": "326.862.1432 x42223",
+    "PersonFaxNumber": "636478",
+    "PersonPagerNumber": "391039",
+    "PersonEmail": "lou_mayert@daugherty.uk",
+    "Id": 509,
+    "Name": "Krajcik Inc and Sons",
+    "Tooltip": "earum",
+    "UniqueId": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldLength": 27
       }
     }
   }

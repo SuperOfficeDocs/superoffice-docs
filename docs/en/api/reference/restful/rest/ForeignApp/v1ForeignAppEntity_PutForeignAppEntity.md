@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 351,
-  "Name": "Ortiz-Gottlieb",
-  "CreatedDate": "2011-01-30T10:30:32.0730519+01:00",
-  "UpdatedDate": "2007-09-06T10:30:32.0730519+02:00",
+  "ForeignAppId": 592,
+  "Name": "Bins Group",
+  "CreatedDate": "2022-05-06T14:23:55.1802705+02:00",
+  "UpdatedDate": "1998-11-28T14:23:55.1802705+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 409,
-      "Name": "West, Dare and Block",
-      "CreatedDate": "2020-08-01T10:30:32.0730519+02:00",
-      "UpdatedDate": "2018-08-01T10:30:32.0730519+02:00",
-      "AssociateFullName": "Prof. Fredrick Schmitt",
-      "CreatedBy": "non",
-      "UpdatedBy": "architecto",
-      "DeviceIdentifier": "cumque",
-      "ForeignAppId": 831
+      "ForeignDeviceId": 959,
+      "Name": "Donnelly, Lehner and Kulas",
+      "CreatedDate": "2000-03-01T14:23:55.1802705+01:00",
+      "UpdatedDate": "2011-09-02T14:23:55.1802705+02:00",
+      "AssociateFullName": "Marianna Pauline Metz MD",
+      "CreatedBy": "quos",
+      "UpdatedBy": "eveniet",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 85
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 312,
-  "Name": "Thiel, Murray and Romaguera",
-  "CreatedDate": "2020-01-01T10:30:32.0730519+01:00",
-  "UpdatedDate": "2009-01-02T10:30:32.0730519+01:00",
+  "ForeignAppId": 542,
+  "Name": "Brakus-Champlin",
+  "CreatedDate": "1997-06-19T14:23:55.1802705+02:00",
+  "UpdatedDate": "2008-12-22T14:23:55.1802705+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 460,
-      "Name": "Reichel, McClure and Fisher",
-      "CreatedDate": "2016-07-23T10:30:32.0730519+02:00",
-      "UpdatedDate": "1997-08-13T10:30:32.0730519+02:00",
-      "AssociateFullName": "Mckayla Cora Wiegand II",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "totam",
-      "DeviceIdentifier": "odio",
-      "ForeignAppId": 189,
+      "ForeignDeviceId": 816,
+      "Name": "Christiansen Inc and Sons",
+      "CreatedDate": "2024-01-26T14:23:55.1802705+01:00",
+      "UpdatedDate": "2014-09-24T14:23:55.1802705+02:00",
+      "AssociateFullName": "Vicente Bashirian PhD",
+      "CreatedBy": "velit",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "aspernatur",
+      "ForeignAppId": 195,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldLength": 146
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 2
     }
   },
   "_Links": {

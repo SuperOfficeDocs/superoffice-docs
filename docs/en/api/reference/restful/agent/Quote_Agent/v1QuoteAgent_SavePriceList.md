@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 62,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 176,
-  "Name": "Schowalter Inc and Sons",
-  "Description": "Persistent clear-thinking productivity",
-  "Currency": "quia",
-  "CurrencyName": "Ryan-Cremin",
-  "ValidFrom": "2008-10-06T10:30:24.4033765+02:00",
-  "ValidTo": "2001-09-27T10:30:24.4033765+02:00",
-  "IsActive": true
+  "PriceListId": 768,
+  "ERPPriceListKey": "facilis",
+  "QuoteConnectionId": 821,
+  "Name": "Armstrong, Shields and Quigley",
+  "Description": "Cloned assymetric groupware",
+  "Currency": "debitis",
+  "CurrencyName": "Hermann Inc and Sons",
+  "ValidFrom": "2020-11-16T14:23:47.222383+01:00",
+  "ValidTo": "2018-06-23T14:23:47.222383+02:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 105,
-  "ERPPriceListKey": "nihil",
-  "QuoteConnectionId": 909,
-  "Name": "Sauer, Fadel and Quitzon",
-  "Description": "Progressive homogeneous architecture",
-  "Currency": "est",
-  "CurrencyName": "Abbott-Moore",
-  "ValidFrom": "2018-06-15T10:30:24.4033765+02:00",
-  "ValidTo": "2021-03-31T10:30:24.4033765+02:00",
+  "PriceListId": 854,
+  "ERPPriceListKey": "libero",
+  "QuoteConnectionId": 1002,
+  "Name": "Rolfson, Champlin and Gutkowski",
+  "Description": "Implemented grid-enabled synergy",
+  "Currency": "voluptas",
+  "CurrencyName": "Mueller, Pagac and Hills",
+  "ValidFrom": "2015-08-19T14:23:47.222383+02:00",
+  "ValidTo": "2010-03-07T14:23:47.222383+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

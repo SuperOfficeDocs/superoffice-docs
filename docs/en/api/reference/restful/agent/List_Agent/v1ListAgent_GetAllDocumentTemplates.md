@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 977,
-    "Name": "Little-Von",
-    "Tooltip": "aut",
-    "SaveInDb": 779,
-    "Filename": "officia",
-    "DefaultOref": "suscipit",
+    "DocumentTemplateId": 86,
+    "Name": "Boyer LLC",
+    "Tooltip": "placeat",
+    "SaveInDb": 247,
+    "Filename": "nulla",
+    "DefaultOref": "nesciunt",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 899,
-    "IntentId": 544,
+    "AutoeventId": 686,
+    "IntentId": 233,
     "IsDefaultPublished": false,
-    "Rank": 38,
-    "LoadTemplateFromPlugin": 849,
-    "MimeType": "id",
+    "Rank": 153,
+    "LoadTemplateFromPlugin": 673,
+    "MimeType": "cupiditate",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 821,
+    "DocumentTypeKey": 342,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "brooke_witting@bogisichrath.co.uk",
+    "EmailSubject": "crystal@metz.com",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "ali@jacobi.uk",
+    "SenderEmailAddress": "josianne_jacobson@koch.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 635
       }
     }
   }

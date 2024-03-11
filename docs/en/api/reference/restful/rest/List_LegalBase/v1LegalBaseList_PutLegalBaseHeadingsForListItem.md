@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Welch Inc and Sons",
-    "ToolTip": "Nihil rerum in id dolorum qui cum dignissimos.",
+    "Id": 63,
+    "Name": "Harber-Rippin",
+    "ToolTip": "Dolorum quae.",
     "Deleted": false,
-    "Rank": 195,
-    "Type": "non",
-    "ColorBlock": 437,
-    "IconHint": "quasi",
-    "Selected": true,
-    "LastChanged": "2004-05-14T10:30:33.0212063+02:00",
+    "Rank": 932,
+    "Type": "sit",
+    "ColorBlock": 765,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2022-09-30T14:23:56.1189508+02:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Langworth Inc and Sons",
-        "ToolTip": "Voluptas atque cumque facilis.",
+        "Id": 719,
+        "Name": "Schneider-Roberts",
+        "ToolTip": "Est totam qui.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "aut",
-        "ColorBlock": 783,
-        "IconHint": "qui",
+        "Rank": 433,
+        "Type": "nostrum",
+        "ColorBlock": 301,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1997-10-27T10:30:33.0212063+01:00",
+        "LastChanged": "2000-11-30T14:23:56.1189508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eaque",
+        "ExtraInfo": "fugit",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Marilyne Freddie Gutmann I"
+        "FullName": "Santiago Hand"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Sarai Homenick I"
+    "ExtraInfo": "quia",
+    "StyleHint": "reprehenderit",
+    "Hidden": true,
+    "FullName": "Demetris Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Rice, Hirthe and Kiehn",
-    "ToolTip": "Temporibus eius.",
+    "Id": 168,
+    "Name": "Hirthe, Bartoletti and Kuhn",
+    "ToolTip": "Dolores dolores harum ea non.",
     "Deleted": true,
-    "Rank": 27,
-    "Type": "quam",
-    "ColorBlock": 606,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2013-05-05T10:30:33.0212063+02:00",
+    "Rank": 296,
+    "Type": "et",
+    "ColorBlock": 65,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2009-01-10T14:23:56.1189508+01:00",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Morissette Inc and Sons",
-        "ToolTip": "Fugiat aut aut illo et tempora nostrum sapiente.",
-        "Deleted": true,
-        "Rank": 345,
-        "Type": "ex",
-        "ColorBlock": 545,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2000-08-17T10:30:33.0212063+02:00",
+        "Id": 809,
+        "Name": "Weber, D'Amore and Gerhold",
+        "ToolTip": "Porro at est sit consequuntur qui non.",
+        "Deleted": false,
+        "Rank": 308,
+        "Type": "nam",
+        "ColorBlock": 877,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2010-10-13T14:23:56.1189508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Dulce Sawayn",
+        "ExtraInfo": "architecto",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Demetris Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 922
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "vitae",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Fiona Eliane Emmerich II",
+    "FullName": "Waylon Bessie Jaskolski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 980
       }
     }
   }

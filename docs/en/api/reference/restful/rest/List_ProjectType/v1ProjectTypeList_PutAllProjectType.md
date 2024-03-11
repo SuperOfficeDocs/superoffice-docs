@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Daugherty, Parisian and Wilderman",
-    "Tooltip": "et",
+    "Id": 255,
+    "Name": "Deckow, Willms and Wisozk",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 124,
-    "Rank": 229
+    "UdListDefinitionId": 91,
+    "Rank": 32
   },
   {
-    "Id": 895,
-    "Name": "Daugherty, Parisian and Wilderman",
-    "Tooltip": "et",
+    "Id": 255,
+    "Name": "Deckow, Willms and Wisozk",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "UdListDefinitionId": 124,
-    "Rank": 229
+    "UdListDefinitionId": 91,
+    "Rank": 32
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Wunsch-Brown",
-    "Tooltip": "eius",
+    "Id": 837,
+    "Name": "Heller-Reichel",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 153,
-    "Rank": 880,
+    "UdListDefinitionId": 573,
+    "Rank": 11,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 103
       }
     }
   }

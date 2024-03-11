@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 812
+  "ProjectId": 297
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 122,
-  "Name": "Swaniawski LLC",
-  "Description": "Innovative didactic superstructure",
+  "ProjectId": 831,
+  "Name": "Graham-Fritsch",
+  "Description": "Up-sized composite website",
   "URL": "http://www.example.com/",
-  "Type": "adipisci",
-  "AssociateId": 831,
-  "AssociateFullName": "Prof. Martina Cummerata",
-  "TypeId": 654,
-  "Updated": "2015-08-06T10:30:24.3705833+02:00",
-  "StatusId": 202,
-  "Status": "et",
-  "TextId": 498,
-  "PublishTo": "2015-03-13T10:30:24.3705833+01:00",
-  "PublishFrom": "2002-02-09T10:30:24.3705833+01:00",
+  "Type": "quis",
+  "AssociateId": 340,
+  "AssociateFullName": "Faustino Derrick Orn DVM",
+  "TypeId": 124,
+  "Updated": "2023-05-07T14:23:47.1911342+02:00",
+  "StatusId": 480,
+  "Status": "est",
+  "TextId": 845,
+  "PublishTo": "2019-01-15T14:23:47.1911342+01:00",
+  "PublishFrom": "2002-05-10T14:23:47.1911342+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "770195",
-  "ActiveErpLinks": 495,
+  "ProjectNumber": "531132",
+  "ActiveErpLinks": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

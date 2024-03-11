@@ -25,7 +25,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Herzog Inc and Sons",
-    "Tooltip": "numquam",
+    "Id": 44,
+    "Name": "Beier-Simonis",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 691,
-    "Rank": 416,
+    "UdListDefinitionId": 487,
+    "Rank": 513,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

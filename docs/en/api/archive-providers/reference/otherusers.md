@@ -43,6 +43,7 @@ the actual functionality of the provider.
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 
 ## Sample
 

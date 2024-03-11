@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schowalter, Ortiz and Kessler",
+  "TableName": "Halvorson Inc and Sons",
   "Columns": [
-    "qui",
-    "facilis"
+    "facere",
+    "maxime"
   ],
   "Keys": [
-    "facilis",
-    "quo"
+    "enim",
+    "suscipit"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "voluptatum",
-  "Inserts": 344,
-  "Updates": 209,
-  "Deletes": 35,
+  "Success": false,
+  "Message": "tempore",
+  "Inserts": 130,
+  "Updates": 511,
+  "Deletes": 51,
   "RowStatus": [
     {
-      "PrimaryKey": 327,
+      "PrimaryKey": 583,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "quo"
+        "adipisci",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     },
     {
-      "PrimaryKey": 327,
+      "PrimaryKey": 583,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "enim",
-        "quo"
+        "adipisci",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 473
     }
   }
 }

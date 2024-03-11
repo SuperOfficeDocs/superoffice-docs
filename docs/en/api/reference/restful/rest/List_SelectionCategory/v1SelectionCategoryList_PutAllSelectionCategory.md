@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "O'Hara-Weber",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 708,
-    "Rank": 93
+    "Id": 286,
+    "Name": "Johnston, Hermann and Trantow",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 543,
+    "Rank": 566
   },
   {
-    "Id": 831,
-    "Name": "O'Hara-Weber",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 708,
-    "Rank": 93
+    "Id": 286,
+    "Name": "Johnston, Hermann and Trantow",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 543,
+    "Rank": 566
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Hahn Inc and Sons",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "UdListDefinitionId": 62,
-    "Rank": 549,
+    "Id": 320,
+    "Name": "Wolff Inc and Sons",
+    "Tooltip": "repellat",
+    "Deleted": true,
+    "UdListDefinitionId": 401,
+    "Rank": 392,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldLength": 400
       }
     }
   }

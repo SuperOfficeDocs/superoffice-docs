@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 612,
-  "BlobSize": 7,
-  "Description": "Robust zero tolerance hierarchy",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": true,
+  "BlobId": 636,
+  "BlobSize": 459,
+  "Description": "Customizable holistic array",
+  "ExtraInfo": "dolorum",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "optio",
-  "OriginalSize": 622,
-  "CreatedDate": "1999-12-11T10:30:31.8386823+01:00",
-  "UpdatedDate": "2014-11-04T10:30:31.8386823+01:00",
+  "MimeType": "et",
+  "OriginalSize": 505,
+  "CreatedDate": "2012-04-08T14:23:54.9290273+02:00",
+  "UpdatedDate": "2023-01-24T14:23:54.9290273+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque"
+  "ConceptualType": "quaerat"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 332,
-  "BlobSize": 555,
-  "Description": "Future-proofed system-worthy circuit",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 315,
+  "BlobSize": 598,
+  "Description": "Automated value-added matrices",
+  "ExtraInfo": "optio",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 463,
-  "CreatedDate": "2005-10-13T10:30:31.8543093+02:00",
-  "UpdatedDate": "2005-06-04T10:30:31.8543093+02:00",
+  "MimeType": "nihil",
+  "OriginalSize": 860,
+  "CreatedDate": "2021-06-01T14:23:54.9290273+02:00",
+  "UpdatedDate": "1999-01-20T14:23:54.9290273+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "D'Amore LLC",
-  "Tooltip": "aut",
+  "Id": 803,
+  "Name": "Gaylord, Grady and Gutkowski",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 425,
+  "Rank": 196,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 350
     }
   },
   "_Links": {

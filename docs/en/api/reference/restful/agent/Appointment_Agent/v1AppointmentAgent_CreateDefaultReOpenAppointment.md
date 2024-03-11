@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 338
+  "SaleId": 411
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-07-25T10:30:22.9733+02:00",
-  "AppointmentId": 641,
-  "Description": "Automated zero defect policy",
-  "Title": "non",
-  "Agenda": "qui",
-  "InternalNotes": "enim",
-  "StartDate": "2016-05-08T10:30:22.9733+02:00",
-  "EndDate": "2014-03-28T10:30:22.9733+01:00",
+  "CreatedDate": "2010-08-05T14:23:45.7512132+02:00",
+  "AppointmentId": 644,
+  "Description": "Operative real-time info-mediaries",
+  "Title": "est",
+  "Agenda": "at",
+  "InternalNotes": "autem",
+  "StartDate": "2012-04-08T14:23:45.7512132+02:00",
+  "EndDate": "2011-01-02T14:23:45.7512132+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 476,
+  "MotherId": 449,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-07-27T10:30:22.9733+02:00",
+  "UpdatedDate": "2012-10-09T14:23:45.7512132+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 55,
+  "ActiveLinks": 403,
   "Links": [
     {
-      "EntityName": "Corkery, Gibson and Harvey",
-      "Id": 681,
-      "Description": "Multi-tiered optimal success",
-      "ExtraInfo": "praesentium",
-      "LinkId": 157,
+      "EntityName": "Cassin Inc and Sons",
+      "Id": 629,
+      "Description": "Upgradable next generation process improvement",
+      "ExtraInfo": "qui",
+      "LinkId": 899,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 691
         }
       }
     }
   ],
-  "AlarmLeadTime": "aliquid",
+  "AlarmLeadTime": "facere",
   "HasAlarm": false,
-  "ColorIndex": 1001,
+  "ColorIndex": 133,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "doloribus",
-  "LeadTime": "ea",
-  "Location": "et",
-  "RejectCounter": 630,
+  "IsAlldayEvent": true,
+  "LagTime": "perspiciatis",
+  "LeadTime": "quae",
+  "Location": "eligendi",
+  "RejectCounter": 243,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 333,
-      "PersonId": 215,
-      "ContactId": 906,
-      "EmailId": 93,
+      "AssociateId": 733,
+      "PersonId": 663,
+      "ContactId": 109,
+      "EmailId": 423,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "erna@paucek.biz",
-      "Description": "Networked incremental flexibility"
+      "EmailAddress": "norval_hudson@murazik.ca",
+      "Description": "Enterprise-wide methodical service-desk"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-02-06T10:30:22.9733+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2002-01-28T14:23:45.7512132+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 181,
+  "PreferredTZLocation": 235,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 125,
+  "SuggestedAppointmentId": 395,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "libero",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "1280499917",
-    "SuperOffice:2": "506451696"
+    "SuperOffice:1": "Avery Block",
+    "SuperOffice:2": "1015225804"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "et"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "nam"
+    "CustomFields1": "rerum",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2012-02-14T10:30:22.9733+01:00",
-  "PublishTo": "2003-01-01T10:30:22.9733+01:00",
-  "PublishFrom": "2008-05-10T10:30:22.9733+02:00",
+  "PublishEventDate": "2021-11-28T14:23:45.7668367+01:00",
+  "PublishTo": "2017-08-22T14:23:45.7668367+02:00",
+  "PublishFrom": "1999-02-18T14:23:45.7668367+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 651,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldLength": 84
         }
       }
     },
     {
-      "VisibleId": 651,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldLength": 84
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 794
     }
   }
 }

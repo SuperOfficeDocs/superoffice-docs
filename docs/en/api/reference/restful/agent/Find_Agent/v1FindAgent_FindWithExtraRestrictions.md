@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corporis",
-  "ProviderName": "Rohan Group",
-  "StorageKey": "incidunt",
+  "StorageType": "tenetur",
+  "ProviderName": "Gerhold-Hickle",
+  "StorageKey": "voluptatibus",
   "ExtraRestrictions": [
     {
-      "Name": "Kulas LLC",
-      "Operator": "ex",
+      "Name": "Glover, Wunsch and Kuphal",
+      "Operator": "aut",
       "Values": [
-        "optio",
-        "et"
+        "cum",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "ducimus",
-        "minus"
+        "excepturi",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 582,
+      "InterParenthesis": 556,
       "InterOperator": "And",
-      "UniqueHash": 673
+      "UniqueHash": 822
     }
   ],
   "OrderBy": [
     {
-      "Name": "Hackett-Wiegand",
+      "Name": "Carter Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hackett-Wiegand",
+      "Name": "Carter Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "porro",
-    "et"
+    "voluptatem",
+    "sit"
   ],
-  "PageSize": 543,
-  "PageNumber": 715
+  "PageSize": 596,
+  "PageNumber": 968
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Haag-Flatley",
-      "DisplayTooltip": "voluptatum",
-      "DisplayType": "laudantium",
-      "CanOrderBy": true,
-      "Name": "Dooley LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Wyman-Bednar",
-      "IsVisible": true,
-      "ExtraInfo": "exercitationem",
-      "Width": "reprehenderit",
-      "IconHint": "saepe",
-      "HeadingIconHint": "vel"
+      "DisplayName": "Thompson Group",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "consectetur",
+      "CanOrderBy": false,
+      "Name": "Osinski-Tillman",
+      "CanRestrictBy": true,
+      "RestrictionType": "iste",
+      "RestrictionListName": "Lowe-Ankunding",
+      "IsVisible": false,
+      "ExtraInfo": "perferendis",
+      "Width": "sit",
+      "IconHint": "est",
+      "HeadingIconHint": "maxime"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Nitzsche-Koss",
-      "PrimaryKey": 614,
+      "EntityName": "Schroeder, Streich and Harber",
+      "PrimaryKey": 407,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "asperiores",
-          "TooltipHint": "dicta",
-          "LinkHint": "nam"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "quidem",
-      "StyleHint": "soluta",
+      "LinkHint": "ut",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 817
         }
       }
     }
   ],
-  "RowCount": 690,
+  "RowCount": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

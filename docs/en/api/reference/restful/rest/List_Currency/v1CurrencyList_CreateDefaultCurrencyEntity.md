@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 276,
-  "Name": "Wintheiser, Barton and Jewess",
-  "Tooltip": "voluptas",
-  "Rank": 205,
-  "Rate": 28572.678,
-  "Units": 3779.604,
+  "CurrencyId": 189,
+  "Name": "Greenfelder Inc and Sons",
+  "Tooltip": "soluta",
+  "Rank": 264,
+  "Rate": 24335.51,
+  "Units": 5700.746,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

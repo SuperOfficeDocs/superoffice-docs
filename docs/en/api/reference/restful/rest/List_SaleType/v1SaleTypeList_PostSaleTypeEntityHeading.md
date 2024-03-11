@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 908,
-  "Name": "Beatty-Cummerata",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 28,
-  "UdListDefinitionId": 998
+  "HeadingId": 585,
+  "Name": "Schimmel-Schinner",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 73,
+  "UdListDefinitionId": 666
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 898,
-  "Name": "Watsica, Ebert and Pollich",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 818,
-  "UdListDefinitionId": 339,
+  "HeadingId": 143,
+  "Name": "Vandervort Inc and Sons",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 569,
+  "UdListDefinitionId": 463,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 245
     }
   }
 }

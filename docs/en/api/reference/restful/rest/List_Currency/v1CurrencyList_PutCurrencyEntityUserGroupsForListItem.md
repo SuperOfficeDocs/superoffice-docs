@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Tillman-Wolff",
-    "ToolTip": "Qui inventore explicabo vitae eligendi dolor rerum.",
-    "Deleted": false,
-    "Rank": 26,
-    "Type": "odio",
-    "ColorBlock": 292,
-    "IconHint": "totam",
+    "Id": 253,
+    "Name": "Doyle-Spencer",
+    "ToolTip": "Ut est consequuntur.",
+    "Deleted": true,
+    "Rank": 497,
+    "Type": "quis",
+    "ColorBlock": 483,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-06-01T10:30:32.9587082+02:00",
+    "LastChanged": "2005-04-25T14:23:56.0564526+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Yost, Mann and Stokes",
-        "ToolTip": "Eum laboriosam quo eius.",
+        "Id": 824,
+        "Name": "Boyle-Johnson",
+        "ToolTip": "Vitae eveniet et voluptatem harum accusantium enim.",
         "Deleted": true,
-        "Rank": 181,
-        "Type": "cumque",
-        "ColorBlock": 682,
-        "IconHint": "neque",
+        "Rank": 678,
+        "Type": "labore",
+        "ColorBlock": 928,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2014-05-25T10:30:32.9587082+02:00",
+        "LastChanged": "2010-08-27T14:23:56.0564526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "labore",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Karley Wiegand"
+        "FullName": "Jewel Kuhlman"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Ariel Kacie Kunde V"
+    "ExtraInfo": "eum",
+    "StyleHint": "cupiditate",
+    "Hidden": false,
+    "FullName": "Dr. Nickolas Maureen Frami II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Deckow, Feeney and Pacocha",
-    "ToolTip": "Eum et blanditiis.",
-    "Deleted": true,
-    "Rank": 226,
-    "Type": "dolores",
-    "ColorBlock": 648,
-    "IconHint": "aperiam",
+    "Id": 107,
+    "Name": "Romaguera-Marvin",
+    "ToolTip": "Ut quidem.",
+    "Deleted": false,
+    "Rank": 434,
+    "Type": "eum",
+    "ColorBlock": 145,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "1997-03-08T10:30:32.9587082+01:00",
+    "LastChanged": "2019-12-12T14:23:56.0564526+01:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Weber, Ledner and Sauer",
-        "ToolTip": "Magnam necessitatibus facilis totam.",
-        "Deleted": false,
-        "Rank": 803,
-        "Type": "facilis",
-        "ColorBlock": 577,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2014-10-18T10:30:32.9587082+02:00",
+        "Id": 159,
+        "Name": "Schneider LLC",
+        "ToolTip": "Necessitatibus quos reiciendis harum dolorum.",
+        "Deleted": true,
+        "Rank": 153,
+        "Type": "est",
+        "ColorBlock": 136,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2022-07-26T14:23:56.0564526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Alec Kulas",
+        "ExtraInfo": "id",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Luther Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldType": "System.String",
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "et",
+    "ExtraInfo": "qui",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Dr. Roslyn Cruickshank",
+    "FullName": "Mrs. Elenor Skiles DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 638
       }
     }
   }

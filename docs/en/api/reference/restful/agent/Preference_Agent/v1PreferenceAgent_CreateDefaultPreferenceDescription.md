@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 914,
-  "Section": "velit",
-  "Key": "est",
-  "Name": "Runolfsson-Thiel",
+  "PrefDescId": 843,
+  "Section": "quis",
+  "Key": "praesentium",
+  "Name": "Reynolds, Raynor and Morar",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-lateral clear-thinking local area network",
-  "IsBuiltin": true,
-  "TableName": "Tromp Group",
-  "UserDefinedListId": 658,
-  "Rank": 880,
-  "SubGroup": "veniam",
-  "MinLevel": 943,
-  "MaxValue": 538,
-  "MinValue": 860,
-  "RequiredLicense": "dolor",
+  "Description": "Inverse intermediate complexity",
+  "IsBuiltin": false,
+  "TableName": "Witting, Murazik and Reichert",
+  "UserDefinedListId": 917,
+  "Rank": 468,
+  "SubGroup": "sit",
+  "MinLevel": 720,
+  "MaxValue": 863,
+  "MinValue": 929,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 761
     }
   }
 }

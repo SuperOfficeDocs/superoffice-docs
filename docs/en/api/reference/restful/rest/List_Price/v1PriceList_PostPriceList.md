@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 174,
-  "ERPPriceListKey": "fuga",
-  "QuoteConnectionId": 376,
-  "Name": "Stamm Inc and Sons",
-  "Description": "Virtual eco-centric monitoring",
-  "Currency": "exercitationem",
-  "CurrencyName": "Dicki Inc and Sons",
-  "ValidFrom": "2014-05-14T10:30:33.0680874+02:00",
-  "ValidTo": "2014-08-09T10:30:33.0680874+02:00",
-  "IsActive": true
+  "PriceListId": 468,
+  "ERPPriceListKey": "nostrum",
+  "QuoteConnectionId": 61,
+  "Name": "Robel Group",
+  "Description": "Extended system-worthy matrix",
+  "Currency": "numquam",
+  "CurrencyName": "Graham Inc and Sons",
+  "ValidFrom": "2012-07-13T14:23:56.1814517+02:00",
+  "ValidTo": "1998-06-23T14:23:56.1814517+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 897,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 623,
-  "Name": "Crona-Hagenes",
-  "Description": "Automated demand-driven open architecture",
-  "Currency": "nostrum",
-  "CurrencyName": "Hayes-Leuschke",
-  "ValidFrom": "2022-03-02T10:30:33.0680874+01:00",
-  "ValidTo": "2000-02-10T10:30:33.0680874+01:00",
+  "PriceListId": 534,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 458,
+  "Name": "Mayert-Maggio",
+  "Description": "Right-sized encompassing process improvement",
+  "Currency": "blanditiis",
+  "CurrencyName": "Trantow-Zieme",
+  "ValidFrom": "2003-12-19T14:23:56.1814517+01:00",
+  "ValidTo": "2004-12-06T14:23:56.1814517+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

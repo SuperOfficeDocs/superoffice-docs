@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=102
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=750
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized user-facing hardware",
-  "Postit": "nam",
+  "Description": "Synchronised fault-tolerant middleware",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 866,
-  "IncludePerson": 309,
-  "MemberCount": 45,
-  "Name": "Cummerata, Abernathy and Nitzsche",
-  "PostitTextId": 460,
-  "CreatedDate": "2021-06-16T10:30:24.5596239+02:00",
-  "SelectionId": 206,
-  "SoundEx": "cum",
-  "Source": 672,
-  "TextId": 577,
-  "UpdatedDate": "2010-10-31T10:30:24.5596239+01:00",
-  "UpdatedCount": 53,
-  "Visibility": 247,
+  "GroupIdx": 550,
+  "IncludePerson": 269,
+  "MemberCount": 995,
+  "Name": "Fritsch-Morar",
+  "PostitTextId": 30,
+  "CreatedDate": "2003-02-25T14:23:47.3942558+01:00",
+  "SelectionId": 888,
+  "SoundEx": "dolor",
+  "Source": 222,
+  "TextId": 469,
+  "UpdatedDate": "2003-10-17T14:23:47.3942558+02:00",
+  "UpdatedCount": 555,
+  "Visibility": 352,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 908,
-  "TargetTableName": "Kunze Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 771,
-  "RightSelectionId": 458,
+  "CompanyUnique": false,
+  "TargetTableNumber": 622,
+  "TargetTableName": "Ullrich Group",
+  "Completed": true,
+  "LeftSelectionId": 116,
+  "RightSelectionId": 15,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Keebler-Kreiger",
-  "ShadowProviderName": "Legros Group",
-  "ChartKey": "numquam",
-  "LastLoaded": "2015-08-22T10:30:24.5596239+02:00",
-  "LastLoadedBy": 167,
+  "MainProviderName": "Welch Inc and Sons",
+  "ShadowProviderName": "Klocko LLC",
+  "ChartKey": "rem",
+  "LastLoaded": "2012-01-10T14:23:47.3942558+01:00",
+  "LastLoadedBy": 454,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-11T10:30:24.5596239+01:00",
-  "LastMembershipChangeBy": 664,
+  "LastMembershipChange": "2021-09-05T14:23:47.3942558+02:00",
+  "LastMembershipChangeBy": 506,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Smitham, Hansen and Turner",
-  "DashboardTileDefinitionId": 792,
+  "MainHeading": "modi",
+  "MemberTabHeading": "quos",
+  "MailingsProviderName": "Littel-Lang",
+  "DashboardTileDefinitionId": 141,
   "VisibleFor": [
     {
-      "VisibleId": 374,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldLength": 432
         }
       }
     },
     {
-      "VisibleId": 374,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldLength": 432
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   }
 }

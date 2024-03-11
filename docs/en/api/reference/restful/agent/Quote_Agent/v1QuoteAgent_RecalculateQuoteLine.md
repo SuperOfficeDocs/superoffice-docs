@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "fugiat",
-    "quia"
+    "dicta",
+    "ea"
   ]
 }
 ```
@@ -143,82 +143,82 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 161,
-  "ERPQuoteLineKey": "eos",
-  "QuoteAlternativeId": 80,
-  "ERPProductKey": "ratione",
+  "QuoteLineId": 652,
+  "ERPQuoteLineKey": "rerum",
+  "QuoteAlternativeId": 163,
+  "ERPProductKey": "magnam",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 14993.055999999999,
-  "DeliveredQuantity": 526.512,
-  "Rank": 365,
-  "Name": "Hickle Inc and Sons",
-  "Description": "Multi-channelled systemic Graphic Interface",
-  "Code": "dolore",
-  "QuantityUnit": "reprehenderit",
-  "PriceUnit": "nihil",
-  "ItemNumber": "1112070",
+  "Reason": "innovate clicks-and-mortar functionalities",
+  "Quantity": 4873.37,
+  "DeliveredQuantity": 2109.182,
+  "Rank": 913,
+  "Name": "White-Toy",
+  "Description": "Programmable hybrid projection",
+  "Code": "et",
+  "QuantityUnit": "autem",
+  "PriceUnit": "sit",
+  "ItemNumber": "272737",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "ab",
-  "Supplier": "ipsum",
-  "SupplierCode": "neque",
-  "Thumbnail": "enim",
-  "VATInfo": "qui",
-  "VAT": 10972.134,
-  "UnitCost": 22661.953999999998,
-  "UnitMinimumPrice": 13830.341999999999,
-  "UnitListPrice": 12771.05,
+  "ProductFamilyKey": "sequi",
+  "ProductTypeKey": "dolores",
+  "Supplier": "ipsam",
+  "SupplierCode": "sint",
+  "Thumbnail": "distinctio",
+  "VATInfo": "at",
+  "VAT": 3839.15,
+  "UnitCost": 1184.652,
+  "UnitMinimumPrice": 1582.6699999999998,
+  "UnitListPrice": 25187.958,
   "ExtraInfo": [
     {
-      "Name": "Luettgen, Larkin and Erdman",
-      "Value": "occaecati",
+      "Name": "Feil Inc and Sons",
+      "Value": "necessitatibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 972
         }
       }
     },
     {
-      "Name": "Luettgen, Larkin and Erdman",
-      "Value": "occaecati",
+      "Name": "Feil Inc and Sons",
+      "Value": "necessitatibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 972
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
+  "RawExtraInfo": "voluptatem",
   "IsSubscription": false,
-  "SubscriptionUnit": "doloremque",
-  "SubscriptionQuantity": 28158.989999999998,
-  "SubscriptionStart": "2020-09-15T10:30:24.3877082+02:00",
-  "ERPDiscountPercent": 18199.138,
-  "ERPDiscountAmount": 6296.206,
-  "DiscountPercent": 9975.521999999999,
-  "DiscountAmount": 1733.1019999999999,
+  "SubscriptionUnit": "eos",
+  "SubscriptionQuantity": 31086.146,
+  "SubscriptionStart": "2018-04-13T14:23:47.1911342+02:00",
+  "ERPDiscountPercent": 16660.344,
+  "ERPDiscountAmount": 3228.02,
+  "DiscountPercent": 16318.738,
+  "DiscountAmount": 16544.386,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16519.314,
-  "EarningAmount": 3350.246,
-  "SubTotal": 2867.61,
-  "TotalPrice": 5584.788,
-  "Rights": "expedita",
-  "Rule": "excepturi",
-  "ExtraField1": "atque",
-  "ExtraField2": "quas",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "iusto",
-  "ExtraField5": "eaque",
+  "EarningPercent": 5540.912,
+  "EarningAmount": 16660.344,
+  "SubTotal": 12379.3,
+  "TotalPrice": 28989.5,
+  "Rights": "dolorem",
+  "Rule": "saepe",
+  "ExtraField1": "est",
+  "ExtraField2": "id",
+  "ExtraField3": "vero",
+  "ExtraField4": "vitae",
+  "ExtraField5": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

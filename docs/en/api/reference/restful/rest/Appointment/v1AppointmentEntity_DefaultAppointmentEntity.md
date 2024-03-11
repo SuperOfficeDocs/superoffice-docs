@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Jun 1999 10:30:31 G6T
+Last-Modified: Sat, 11 Dec 1999 14:23:54 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-12-04T10:30:31.5811188+01:00",
-  "AppointmentId": 417,
-  "Description": "Customer-focused real-time intranet",
-  "Title": "quia",
-  "Agenda": "similique",
-  "InternalNotes": "vero",
-  "StartDate": "2008-09-15T10:30:31.5811188+02:00",
-  "EndDate": "2016-04-24T10:30:31.5811188+02:00",
+  "CreatedDate": "2023-01-12T14:23:54.5221465+01:00",
+  "AppointmentId": 683,
+  "Description": "Advanced 4th generation internet solution",
+  "Title": "voluptas",
+  "Agenda": "ratione",
+  "InternalNotes": "et",
+  "StartDate": "2015-06-28T14:23:54.5221465+02:00",
+  "EndDate": "2024-01-24T14:23:54.5221465+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 532,
+  "MotherId": 588,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-06-10T10:30:31.5811188+02:00",
+  "UpdatedDate": "1999-12-11T14:23:54.5377709+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 359,
+  "ActiveLinks": 732,
   "Links": [
     {
-      "EntityName": "Johnson Inc and Sons",
-      "Id": 788,
-      "Description": "Fully-configurable motivating implementation",
-      "ExtraInfo": "rerum",
-      "LinkId": 739,
+      "EntityName": "Upton Group",
+      "Id": 517,
+      "Description": "Balanced composite concept",
+      "ExtraInfo": "atque",
+      "LinkId": 387,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 324
         }
       }
     }
   ],
-  "AlarmLeadTime": "veniam",
+  "AlarmLeadTime": "velit",
   "HasAlarm": false,
-  "ColorIndex": 694,
+  "ColorIndex": 299,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "quia",
-  "LeadTime": "ab",
-  "Location": "dolores",
-  "RejectCounter": 812,
+  "LagTime": "sit",
+  "LeadTime": "quia",
+  "Location": "temporibus",
+  "RejectCounter": 64,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 2,
-      "PersonId": 525,
-      "ContactId": 686,
-      "EmailId": 743,
-      "SendEmail": true,
+      "AssociateId": 439,
+      "PersonId": 561,
+      "ContactId": 184,
+      "EmailId": 192,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "afton.hane@marvingutmann.co.uk",
-      "Description": "Monitored encompassing collaboration"
+      "EmailAddress": "evans_ortiz@okunevawhite.ca",
+      "Description": "Decentralized dedicated hardware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-12-23T10:30:31.5811188+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-03-03T14:23:54.5377709+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 691,
+  "PreferredTZLocation": 429,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 657,
+  "SuggestedAppointmentId": 892,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
+  "CentralserviceVideomeetId": "ipsum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Moses Herzog",
-    "SuperOffice:2": "807926710"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Sally Kuhic"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "omnis"
+    "CustomFields1": "at",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2004-10-26T10:30:31.5967454+02:00",
-  "PublishTo": "2006-10-31T10:30:31.5967454+01:00",
-  "PublishFrom": "2022-03-08T10:30:31.5967454+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-05-14T14:23:54.5377709+02:00",
+  "PublishTo": "2002-04-28T14:23:54.5377709+02:00",
+  "PublishFrom": "2014-09-27T14:23:54.5377709+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 443,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 227
         }
       }
     },
     {
-      "VisibleId": 443,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 227
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Thu, 10 Jun 1999 10:30:31 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 766
     }
   }
 }

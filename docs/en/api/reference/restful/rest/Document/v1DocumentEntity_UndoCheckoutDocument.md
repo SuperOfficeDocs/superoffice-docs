@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "rerum",
-  "VersionId": "non",
+  "ExternalReference": "modi",
+  "VersionId": "aut",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "quisquam"
+  "Value": "fugiat",
+  "AdditionalInfo": "consequatur"
 }
 ```

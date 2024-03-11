@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Leffler, Beatty and Ullrich"
+  "TableName": "Rohan Group"
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "soluta",
-  "Inserts": 65,
-  "Updates": 921,
-  "Deletes": 583,
+  "Success": false,
+  "Message": "deleniti",
+  "Inserts": 30,
+  "Updates": 570,
+  "Deletes": 170,
   "RowStatus": [
     {
-      "PrimaryKey": 118,
+      "PrimaryKey": 984,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "nemo"
+        "facilis",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 237
         }
       }
     },
     {
-      "PrimaryKey": 118,
+      "PrimaryKey": 984,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "nemo"
+        "facilis",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 237
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 291
     }
   }
 }

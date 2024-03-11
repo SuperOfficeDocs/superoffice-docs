@@ -79,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 160,
-  "LanguageCode": "et"
+  "DashboardTileDefinitionId": 931,
+  "LanguageCode": "necessitatibus"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "autem",
-  "Html": "sed",
+  "LanguageCode": "suscipit",
+  "Html": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 300
     }
   }
 }

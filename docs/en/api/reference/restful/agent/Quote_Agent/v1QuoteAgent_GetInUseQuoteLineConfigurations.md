@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 427,
-    "FieldName": "Tillman-Lemke",
-    "Label": "ut",
-    "Tooltip": "et",
-    "Editable": true,
-    "InUse": true,
+    "QuoteLineConfigurationId": 121,
+    "FieldName": "Blanda, Zulauf and Gorczany",
+    "Label": "reiciendis",
+    "Tooltip": "nobis",
+    "Editable": false,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 651,
+    "Rank": 128,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 899
       }
     }
   }

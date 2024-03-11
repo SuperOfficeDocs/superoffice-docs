@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=664
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=540
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 528,
+  "DocumentId": 899,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "facilis",
-  "Name": "Murphy-Rodriguez",
-  "OurRef": "voluptas",
-  "YourRef": "voluptas",
-  "CreatedDate": "2004-03-14T10:30:23.6407269+01:00",
-  "UpdatedDate": "2010-09-01T10:30:23.6407269+02:00",
-  "Description": "Object-based 5th generation circuit",
+  "Attention": "minima",
+  "Header": "odit",
+  "Name": "Rogahn Group",
+  "OurRef": "est",
+  "YourRef": "molestiae",
+  "CreatedDate": "2006-10-05T14:23:46.344954+02:00",
+  "UpdatedDate": "2008-05-19T14:23:46.344954+02:00",
+  "Description": "Cross-group 6th generation contingency",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-02-12T10:30:23.6417657+01:00",
-  "ExternalRef": "optio",
+  "Date": "2021-12-12T14:23:46.344954+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 91,
+  "ActiveLinks": 286,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Streich, Welch and Brekke",
-      "Id": 683,
-      "Description": "Configurable exuding implementation",
-      "ExtraInfo": "eveniet",
-      "LinkId": 116,
+      "EntityName": "Zemlak-Leuschke",
+      "Id": 471,
+      "Description": "Realigned human-resource infrastructure",
+      "ExtraInfo": "dicta",
+      "LinkId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldLength": 499
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 197,
-  "Snum": 191,
+  "SuggestedDocumentId": 493,
+  "Snum": 515,
   "UserDefinedFields": {
-    "SuperOffice:1": "Asia Lakin DVM",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1111875997",
+    "SuperOffice:2": "183354076"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "et",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "eaque"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2013-12-09T10:30:23.6417657+01:00",
-  "PublishTo": "2006-11-13T10:30:23.6417657+01:00",
-  "PublishFrom": "2020-07-21T10:30:23.6417657+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-09-25T14:23:46.344954+02:00",
+  "PublishTo": "2001-11-27T14:23:46.344954+01:00",
+  "PublishFrom": "2015-12-20T14:23:46.344954+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 812,
+      "VisibleId": 207,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldLength": 860
         }
       }
     },
     {
-      "VisibleId": 812,
+      "VisibleId": 207,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldLength": 860
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 829
     }
   }
 }

@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customer-focused secondary forecast",
-  "Postit": "delectus",
+  "Description": "Proactive real-time open system",
+  "Postit": "perferendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 920,
-  "IncludePerson": 114,
-  "MemberCount": 999,
-  "Name": "Okuneva Group",
-  "PostitTextId": 363,
-  "CreatedDate": "2012-06-17T10:30:24.5596239+02:00",
-  "SelectionId": 922,
-  "SoundEx": "officiis",
-  "Source": 852,
-  "TextId": 981,
-  "UpdatedDate": "2019-06-05T10:30:24.5596239+02:00",
-  "UpdatedCount": 999,
-  "Visibility": 275,
+  "GroupIdx": 121,
+  "IncludePerson": 947,
+  "MemberCount": 523,
+  "Name": "Runolfsson-Becker",
+  "PostitTextId": 26,
+  "CreatedDate": "2008-08-30T14:23:47.3786314+02:00",
+  "SelectionId": 684,
+  "SoundEx": "odio",
+  "Source": 837,
+  "TextId": 285,
+  "UpdatedDate": "2012-02-02T14:23:47.3786314+01:00",
+  "UpdatedCount": 471,
+  "Visibility": 232,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 626,
-  "TargetTableName": "Rowe Group",
+  "TargetTableNumber": 373,
+  "TargetTableName": "Dooley-Kub",
   "Completed": false,
-  "LeftSelectionId": 83,
-  "RightSelectionId": 150,
+  "LeftSelectionId": 768,
+  "RightSelectionId": 320,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "DuBuque, Veum and Daugherty",
-  "ShadowProviderName": "Ullrich, Leuschke and Bailey",
-  "ChartKey": "ipsa",
-  "LastLoaded": "2020-04-01T10:30:24.5596239+02:00",
-  "LastLoadedBy": 526,
+  "MainProviderName": "Bode-Stamm",
+  "ShadowProviderName": "Parisian LLC",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2007-02-06T14:23:47.3786314+01:00",
+  "LastLoadedBy": 133,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-12-14T10:30:24.5596239+01:00",
-  "LastMembershipChangeBy": 943,
+  "LastMembershipChange": "1999-09-08T14:23:47.3786314+02:00",
+  "LastMembershipChangeBy": 282,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorem",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Nienow-Roob",
-  "DashboardTileDefinitionId": 956,
+  "MainHeading": "iure",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Dicki, Hahn and Ferry",
+  "DashboardTileDefinitionId": 533,
   "VisibleFor": [
     {
-      "VisibleId": 102,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nesciunt"
     },
     {
-      "VisibleId": 102,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nesciunt"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic logistical throughput",
-  "Postit": "ut",
+  "Description": "Managed national interface",
+  "Postit": "aspernatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 128,
-  "IncludePerson": 93,
-  "MemberCount": 404,
-  "Name": "Haag LLC",
-  "PostitTextId": 107,
-  "CreatedDate": "2012-04-16T10:30:24.5596239+02:00",
-  "SelectionId": 29,
-  "SoundEx": "aut",
-  "Source": 197,
-  "TextId": 370,
-  "UpdatedDate": "2001-06-13T10:30:24.5596239+02:00",
-  "UpdatedCount": 252,
-  "Visibility": 896,
+  "GroupIdx": 630,
+  "IncludePerson": 249,
+  "MemberCount": 172,
+  "Name": "Gutmann Inc and Sons",
+  "PostitTextId": 94,
+  "CreatedDate": "2008-04-15T14:23:47.3942558+02:00",
+  "SelectionId": 154,
+  "SoundEx": "nostrum",
+  "Source": 215,
+  "TextId": 409,
+  "UpdatedDate": "2020-08-19T14:23:47.3942558+02:00",
+  "UpdatedCount": 612,
+  "Visibility": 254,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 261,
-  "TargetTableName": "Abbott LLC",
+  "TargetTableNumber": 774,
+  "TargetTableName": "Rutherford, Turcotte and Stoltenberg",
   "Completed": false,
-  "LeftSelectionId": 104,
-  "RightSelectionId": 45,
+  "LeftSelectionId": 5,
+  "RightSelectionId": 50,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crooks Inc and Sons",
-  "ShadowProviderName": "Robel Group",
-  "ChartKey": "sunt",
-  "LastLoaded": "2006-03-11T10:30:24.5596239+01:00",
-  "LastLoadedBy": 753,
+  "MainProviderName": "Ryan Inc and Sons",
+  "ShadowProviderName": "Stracke, Macejkovic and Trantow",
+  "ChartKey": "alias",
+  "LastLoaded": "2021-09-25T14:23:47.3942558+02:00",
+  "LastLoadedBy": 315,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-02-07T10:30:24.5596239+01:00",
-  "LastMembershipChangeBy": 105,
+  "LastMembershipChange": "1998-02-13T14:23:47.3942558+01:00",
+  "LastMembershipChangeBy": 654,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Bernhard Inc and Sons",
-  "DashboardTileDefinitionId": 818,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "accusamus",
+  "MailingsProviderName": "Wiza Group",
+  "DashboardTileDefinitionId": 703,
   "VisibleFor": [
     {
-      "VisibleId": 997,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 324
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 997,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 324
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

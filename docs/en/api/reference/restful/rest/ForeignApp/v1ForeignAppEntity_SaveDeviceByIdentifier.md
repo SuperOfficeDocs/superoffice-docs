@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 642,
-  "Name": "Kuhlman, Collier and Kris",
-  "CreatedDate": "2010-10-25T10:30:32.0730519+02:00",
-  "UpdatedDate": "2015-10-29T10:30:32.0730519+01:00",
-  "AssociateFullName": "Miss Violet Wuckert III",
-  "CreatedBy": "modi",
+  "ForeignDeviceId": 985,
+  "Name": "Ondricka-Dietrich",
+  "CreatedDate": "2016-05-04T14:23:55.1802705+02:00",
+  "UpdatedDate": "2006-05-28T14:23:55.1802705+02:00",
+  "AssociateFullName": "Prof. Keegan Lamont Leuschke IV",
+  "CreatedBy": "fugiat",
   "UpdatedBy": "et",
-  "DeviceIdentifier": "vel",
-  "ForeignAppId": 541
+  "DeviceIdentifier": "beatae",
+  "ForeignAppId": 282
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 930,
-  "Name": "Rath, Klocko and Weimann",
-  "CreatedDate": "2022-05-11T10:30:32.0730519+02:00",
-  "UpdatedDate": "2008-06-10T10:30:32.0730519+02:00",
-  "AssociateFullName": "Mrs. Florencio Florian Cassin",
-  "CreatedBy": "officiis",
-  "UpdatedBy": "sunt",
-  "DeviceIdentifier": "nobis",
-  "ForeignAppId": 341,
+  "ForeignDeviceId": 222,
+  "Name": "Walter Group",
+  "CreatedDate": "2005-12-30T14:23:55.1802705+01:00",
+  "UpdatedDate": "2023-07-09T14:23:55.1802705+02:00",
+  "AssociateFullName": "Mrs. Gust Kris",
+  "CreatedBy": "sed",
+  "UpdatedBy": "porro",
+  "DeviceIdentifier": "laudantium",
+  "ForeignAppId": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 580
     }
   }
 }

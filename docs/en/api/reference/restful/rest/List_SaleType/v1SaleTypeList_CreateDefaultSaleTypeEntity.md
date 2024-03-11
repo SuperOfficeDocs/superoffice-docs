@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 307,
-  "Name": "Raynor, Jakubowski and Kutch",
-  "Tooltip": "optio",
-  "Rank": 111,
+  "SaleTypeId": 312,
+  "Name": "Donnelly-Gulgowski",
+  "Tooltip": "ipsam",
+  "Rank": 107,
   "DurationUnit": "Century",
-  "SaleDuration": 903,
-  "SaleTypeCatId": 756,
+  "SaleDuration": 853,
+  "SaleTypeCatId": 89,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 21,
-  "QuoteLinesTemplate": 210,
-  "ConfirmationLinesTemplate": 699,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 75,
+  "QuoteLinesTemplate": 228,
+  "ConfirmationLinesTemplate": 357,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 903,
-  "MinEarningPercent": 363,
-  "GroupQuoteLinesBy": 379,
-  "SortGroupLinesBy": 687,
+  "MaxDiscountPercent": 116,
+  "MinEarningPercent": 829,
+  "GroupQuoteLinesBy": 612,
+  "SortGroupLinesBy": 715,
   "Stages": [
     {
-      "Id": 889,
-      "Name": "Zieme Inc and Sons",
-      "ToolTip": "Corporis sed voluptatum neque error commodi.",
+      "Id": 55,
+      "Name": "Trantow-Barrows",
+      "ToolTip": "Iste amet.",
       "Deleted": false,
-      "Rank": 660,
-      "Type": "culpa",
-      "ColorBlock": 243,
-      "IconHint": "qui",
+      "Rank": 767,
+      "Type": "odit",
+      "ColorBlock": 588,
+      "IconHint": "consequatur",
       "Selected": false,
-      "LastChanged": "1998-06-02T10:30:33.2412121+02:00",
+      "LastChanged": "1997-09-06T14:23:56.3376983+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "laborum",
-      "Hidden": false,
-      "FullName": "Anjali Nicolas",
+      "ExtraInfo": "similique",
+      "StyleHint": "iure",
+      "Hidden": true,
+      "FullName": "Hilton Emmerich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 763
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

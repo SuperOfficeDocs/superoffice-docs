@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "corporis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "corporis",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 747,
-  "Name": "Halvorson, Kerluke and Quitzon",
-  "Config": "consequatur",
-  "Rank": 245,
-  "Client": "et",
-  "Style": "optio",
+  "DashboardThemeId": 385,
+  "Name": "Kihn, Reichel and Goodwin",
+  "Config": "provident",
+  "Rank": 286,
+  "Client": "autem",
+  "Style": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldLength": 22
     }
   },
   "_Links": {

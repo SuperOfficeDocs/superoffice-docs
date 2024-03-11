@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    163,
-    807
+    522,
+    13
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 978,
-    "ColumnId": 798,
-    "FieldDefault": "numquam",
-    "FieldHeight": 863,
-    "FieldLabel": "nostrum",
-    "FieldLeft": 753,
-    "FieldTop": 894,
+    "UDefFieldId": 776,
+    "ColumnId": 609,
+    "FieldDefault": "accusantium",
+    "FieldHeight": 981,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 648,
+    "FieldTop": 166,
     "FieldType": "Checkbox",
-    "FieldWidth": 545,
-    "FormatMask": "itaque",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 136,
-    "LabelLeft": 436,
-    "LabelTop": 268,
-    "LabelWidth": 644,
-    "LastVersionId": 651,
-    "ListTableId": 996,
-    "IsMandatory": false,
+    "FieldWidth": 915,
+    "FormatMask": "occaecati",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 849,
+    "LabelLeft": 311,
+    "LabelTop": 367,
+    "LabelWidth": 636,
+    "LastVersionId": 151,
+    "ListTableId": 582,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 881,
-    "ProgId": "nostrum",
+    "Page1LineNo": 482,
+    "ProgId": "aliquam",
     "IsReadOnly": false,
-    "ShortLabel": "vitae",
-    "TabOrder": 303,
-    "TextLength": 225,
-    "Tooltip": "et",
-    "UdefIdentity": 901,
-    "UDListDefinitionId": 907,
+    "ShortLabel": "dolorem",
+    "TabOrder": 650,
+    "TextLength": 302,
+    "Tooltip": "pariatur",
+    "UdefIdentity": 39,
+    "UDListDefinitionId": 746,
     "Justification": "Center",
-    "Version": 688,
-    "TemplateVariableName": "Kunde, Wisoky and Osinski",
-    "HasBeenPublished": true,
-    "MdoListName": "Ondricka Inc and Sons",
+    "Version": 214,
+    "TemplateVariableName": "Terry-Cassin",
+    "HasBeenPublished": false,
+    "MdoListName": "Bins Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   }

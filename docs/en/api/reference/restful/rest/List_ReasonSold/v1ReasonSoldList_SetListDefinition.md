@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Fadel LLC",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 86,
+  "Id": 420,
+  "Name": "Cole, Glover and Wehner",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 720,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Bernier Inc and Sons",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 731,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true,
+  "Id": 602,
+  "Name": "Kilback, Johnson and Fritsch",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 40,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 236
     }
   }
 }

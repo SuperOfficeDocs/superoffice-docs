@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "iusto",
+  "RawValue": "eius",
   "Specification": null,
-  "DisplayValue": "temporibus",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "voluptatem",
+  "DisplayTooltip": "repellendus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 466,
-  "PrefDescId": 88,
-  "TableName": "Hilpert Inc and Sons",
-  "UserPreferenceId": 949,
+  "TargetId": 263,
+  "PrefDescId": 807,
+  "TableName": "Grimes Group",
+  "UserPreferenceId": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 696
     }
   }
 }

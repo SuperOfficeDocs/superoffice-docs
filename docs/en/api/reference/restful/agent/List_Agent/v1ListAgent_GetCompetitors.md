@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Value": "rerum",
-    "Tooltip": "quam",
+    "Id": 664,
+    "Value": "ut",
+    "Tooltip": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   },
   {
-    "Id": 496,
-    "Value": "rerum",
-    "Tooltip": "quam",
+    "Id": 664,
+    "Value": "ut",
+    "Tooltip": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

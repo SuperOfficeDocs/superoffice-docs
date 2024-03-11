@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Kemmer-Luettgen",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 590,
-    "UdListDefinitionId": 978,
+    "HeadingId": 71,
+    "Name": "Schultz-Hagenes",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "Rank": 240,
+    "UdListDefinitionId": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 849
       }
     }
   }

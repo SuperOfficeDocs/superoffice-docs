@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 433,
-    "Name": "Leffler-Hoppe",
-    "Tooltip": "enim",
-    "Rank": 789,
-    "Key": "iste",
-    "MailTemplateId": 197,
+    "ConsentSourceId": 749,
+    "Name": "Russel, Jaskolski and Gleason",
+    "Tooltip": "voluptatem",
+    "Rank": 262,
+    "Key": "rem",
+    "MailTemplateId": 535,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 420
       }
     }
   }

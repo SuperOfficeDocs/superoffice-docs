@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 320,
-  "NumDocumentsAlreadyMigrated": 202,
+  "NumDocumentsOmitted": 792,
+  "NumDocumentsAlreadyMigrated": 216,
   "Documents": [
     {
-      "DocumentId": 25,
-      "ContactId": 790,
-      "PersonId": 793,
-      "SaleId": 92,
-      "ProjectId": 813,
-      "DocTmplId": 67,
-      "AssociateId": 48,
-      "UserGroupId": 488,
-      "VisibleForId": 46
+      "DocumentId": 795,
+      "ContactId": 362,
+      "PersonId": 760,
+      "SaleId": 629,
+      "ProjectId": 162,
+      "DocTmplId": 583,
+      "AssociateId": 671,
+      "UserGroupId": 635,
+      "VisibleForId": 472
     }
   ],
   "Associates": [
     {
-      "AssociateId": 200,
-      "EmailAddress": "titus@conroy.ca"
+      "AssociateId": 948,
+      "EmailAddress": "brittany_romaguera@feeney.info"
     },
     {
-      "AssociateId": 200,
-      "EmailAddress": "titus@conroy.ca"
+      "AssociateId": 948,
+      "EmailAddress": "brittany_romaguera@feeney.info"
     }
   ]
 }

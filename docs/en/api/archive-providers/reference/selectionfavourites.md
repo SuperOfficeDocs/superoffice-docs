@@ -78,11 +78,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/selectionfavourites?$select=lastMembershipChange,selectionAssociate/lastName
+GET /api/v1/archive/selectionfavourites?$select=visibleFor,lastMembershipChange,selectionAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -84,12 +84,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 440,
-  "Name": "Gleichner LLC",
-  "Tooltip": "officia",
-  "Rank": 637,
-  "Key": "voluptatum",
-  "Deleted": false
+  "LegalBaseId": 835,
+  "Name": "Will, Witting and O'Hara",
+  "Tooltip": "nesciunt",
+  "Rank": 521,
+  "Key": "nam",
+  "Deleted": true
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 262,
-  "Name": "Denesik-Becker",
-  "Tooltip": "exercitationem",
-  "Rank": 784,
-  "Key": "aliquid",
-  "Deleted": false,
+  "LegalBaseId": 362,
+  "Name": "Ward-Steuber",
+  "Tooltip": "quod",
+  "Rank": 382,
+  "Key": "est",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 530
     }
   }
 }

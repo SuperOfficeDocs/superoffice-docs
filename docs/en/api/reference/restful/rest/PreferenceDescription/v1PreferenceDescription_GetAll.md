@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 59,
-    "Section": "sapiente",
-    "Key": "exercitationem",
-    "Name": "Klein, Kulas and Conn",
+    "PrefDescId": 41,
+    "Section": "natus",
+    "Key": "ipsa",
+    "Name": "Gaylord, Hyatt and Lakin",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Automated neutral encoding",
-    "IsBuiltin": false,
-    "TableName": "Simonis LLC",
-    "UserDefinedListId": 623,
-    "Rank": 948,
-    "SubGroup": "earum",
-    "MinLevel": 484,
-    "MaxValue": 1002,
-    "MinValue": 52,
-    "RequiredLicense": "amet",
+    "Description": "Grass-roots client-server info-mediaries",
+    "IsBuiltin": true,
+    "TableName": "Beatty-Runte",
+    "UserDefinedListId": 438,
+    "Rank": 492,
+    "SubGroup": "iste",
+    "MinLevel": 509,
+    "MaxValue": 670,
+    "MinValue": 487,
+    "RequiredLicense": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

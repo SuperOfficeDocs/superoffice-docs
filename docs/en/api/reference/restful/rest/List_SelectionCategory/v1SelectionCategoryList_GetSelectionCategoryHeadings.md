@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 221,
-    "Name": "West, Cruickshank and Ziemann",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "Rank": 239,
-    "UdListDefinitionId": 535,
+    "HeadingId": 844,
+    "Name": "Rippin Inc and Sons",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 434,
+    "UdListDefinitionId": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 445,
+  "DocumentId": 75,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "qui",
-  "Name": "Thompson, Vandervort and Gislason",
-  "OurRef": "nobis",
-  "YourRef": "dicta",
-  "CreatedDate": "2010-10-13T10:30:23.6417657+02:00",
-  "UpdatedDate": "2003-09-06T10:30:23.6417657+02:00",
-  "Description": "Monitored bandwidth-monitored application",
+  "Attention": "ex",
+  "Header": "perspiciatis",
+  "Name": "O'Kon, Roob and Koss",
+  "OurRef": "quia",
+  "YourRef": "explicabo",
+  "CreatedDate": "2015-07-29T14:23:46.344954+02:00",
+  "UpdatedDate": "2016-03-18T14:23:46.344954+01:00",
+  "Description": "Synergized zero tolerance project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-08-17T10:30:23.6417657+02:00",
-  "ExternalRef": "recusandae",
+  "Date": "2002-07-15T14:23:46.344954+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 70,
+  "ActiveLinks": 260,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hodkiewicz-Koepp",
-      "Id": 517,
-      "Description": "Organic hybrid process improvement",
-      "ExtraInfo": "commodi",
-      "LinkId": 782,
+      "EntityName": "Koepp, Shields and Cassin",
+      "Id": 276,
+      "Description": "Upgradable incremental neural-net",
+      "ExtraInfo": "sed",
+      "LinkId": 354,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldType": "System.String",
+          "FieldLength": 44
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 350,
-  "Snum": 696,
+  "SuggestedDocumentId": 912,
+  "Snum": 555,
   "UserDefinedFields": {
-    "SuperOffice:1": "1333613764",
+    "SuperOffice:1": "Javonte Jacobi",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "earum"
+    "CustomFields1": "cum",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2011-02-12T10:30:23.6417657+01:00",
-  "PublishTo": "2019-06-30T10:30:23.6417657+02:00",
-  "PublishFrom": "2018-03-30T10:30:23.6417657+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-07-24T14:23:46.344954+02:00",
+  "PublishTo": "2015-11-09T14:23:46.344954+01:00",
+  "PublishFrom": "1999-06-30T14:23:46.344954+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 257,
+      "VisibleId": 752,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldType": "System.String",
+          "FieldLength": 36
         }
       }
     },
     {
-      "VisibleId": 257,
+      "VisibleId": 752,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldType": "System.String",
+          "FieldLength": 36
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 65,
+  "UdListDefinitionId": 858,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Carter, Stanton and Baumbach",
-    "Tooltip": "maxime",
+    "Id": 817,
+    "Name": "Green, Baumbach and Lubowitz",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 174,
-    "Rank": 130,
+    "UdListDefinitionId": 594,
+    "Rank": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

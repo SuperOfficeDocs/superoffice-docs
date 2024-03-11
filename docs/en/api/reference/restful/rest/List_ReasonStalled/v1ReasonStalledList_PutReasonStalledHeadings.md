@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 261,
-    "Name": "Nitzsche-Mertz",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 948,
-    "UdListDefinitionId": 525
+    "HeadingId": 320,
+    "Name": "Schroeder-Kub",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 177,
+    "UdListDefinitionId": 584
   },
   {
-    "HeadingId": 261,
-    "Name": "Nitzsche-Mertz",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 948,
-    "UdListDefinitionId": 525
+    "HeadingId": 320,
+    "Name": "Schroeder-Kub",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 177,
+    "UdListDefinitionId": 584
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 443,
-    "Name": "Little-Hilll",
-    "Tooltip": "molestias",
+    "HeadingId": 316,
+    "Name": "Franecki, Jacobs and Frami",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 593,
-    "UdListDefinitionId": 300,
+    "Rank": 417,
+    "UdListDefinitionId": 384,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

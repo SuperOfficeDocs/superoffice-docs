@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 839,
-  "ContactId": 258,
-  "ProjectId": 801,
-  "ContactName": "Rosenbaum Inc and Sons",
+  "ProjectmemberId": 38,
+  "ContactId": 475,
+  "ProjectId": 578,
+  "ContactName": "Luettgen, Purdy and Herman",
   "ContactDepartment": "",
-  "ProjectName": "Rice-Lubowitz",
-  "EmailId": 506,
-  "EmailAddress": "douglas@pourosschroeder.co.uk",
-  "CountryId": 761,
-  "Firstname": "Araceli",
-  "MiddleName": "West LLC",
-  "Lastname": "Nitzsche",
-  "PersonId": 414,
-  "Mrmrs": "libero",
-  "ProjectMemberTypeName": "Denesik-Cole",
-  "Phone": "794-191-0414 x711",
-  "PhoneId": 781,
-  "ProjectMemberTypeId": 1000,
-  "EmailAddressName": "dangelo_bednar@conroyemard.co.uk",
-  "Comment": "qui",
-  "FullName": "Eriberto Turcotte",
+  "ProjectName": "McGlynn, Friesen and Koch",
+  "EmailId": 102,
+  "EmailAddress": "nicholas_emard@okeefe.biz",
+  "CountryId": 787,
+  "Firstname": "Everett",
+  "MiddleName": "Marks, Lindgren and Bernhard",
+  "Lastname": "Emard",
+  "PersonId": 253,
+  "Mrmrs": "quia",
+  "ProjectMemberTypeName": "Keebler, Ullrich and Zemlak",
+  "Phone": "815-250-0066 x853",
+  "PhoneId": 996,
+  "ProjectMemberTypeId": 326,
+  "EmailAddressName": "haskell_lind@bergehuel.us",
+  "Comment": "voluptatibus",
+  "FullName": "Prof. Adeline Mann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 121
     }
   }
 }

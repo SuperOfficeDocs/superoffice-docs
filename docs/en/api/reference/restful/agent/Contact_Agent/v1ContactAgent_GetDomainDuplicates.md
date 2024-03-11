@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "velit"
+  "Domain": "nesciunt"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kunze-Ritchie",
-    "SoPrimaryKey": 91,
-    "EntryName": "Kohler Group",
+    "RuleName": "Schaefer Inc and Sons",
+    "SoPrimaryKey": 496,
+    "EntryName": "Kohler, Anderson and Auer",
     "EntryIdentifier": "et",
-    "RuleDisplayName": "Dickinson, Dickinson and Maggio",
+    "RuleDisplayName": "McCullough, Rempel and Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 155
       }
     }
   }

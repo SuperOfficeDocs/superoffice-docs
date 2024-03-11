@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Yundt, Medhurst and Morar",
-    "ToolTip": "Ex ut laudantium.",
-    "Deleted": false,
-    "Rank": 741,
-    "Type": "eius",
-    "ColorBlock": 265,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "1999-11-26T10:30:32.9430827+01:00",
+    "Id": 860,
+    "Name": "Schaefer, Hyatt and Ledner",
+    "ToolTip": "Et aut fugit quis cupiditate impedit iusto.",
+    "Deleted": true,
+    "Rank": 100,
+    "Type": "et",
+    "ColorBlock": 292,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2018-10-03T14:23:56.0408276+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Botsford Group",
-        "ToolTip": "Perferendis nihil unde quidem aut tempora dolore pariatur.",
-        "Deleted": false,
-        "Rank": 470,
-        "Type": "consectetur",
-        "ColorBlock": 905,
-        "IconHint": "ut",
+        "Id": 488,
+        "Name": "Will Inc and Sons",
+        "ToolTip": "Id eos enim quas perferendis repellendus.",
+        "Deleted": true,
+        "Rank": 890,
+        "Type": "ullam",
+        "ColorBlock": 175,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2001-12-31T10:30:32.9430827+01:00",
+        "LastChanged": "2018-12-11T14:23:56.0408276+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "delectus",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Edwardo VonRueden Sr."
+        "FullName": "Macy Robel"
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "animi",
     "Hidden": true,
-    "FullName": "Kendrick Johnston PhD"
+    "FullName": "Cora Nicolas Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Gutmann Inc and Sons",
-    "ToolTip": "Libero adipisci animi fugit sed aut vitae.",
+    "Id": 135,
+    "Name": "Bradtke-Lowe",
+    "ToolTip": "Cupiditate sunt.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "natus",
-    "ColorBlock": 493,
-    "IconHint": "odio",
+    "Rank": 548,
+    "Type": "magni",
+    "ColorBlock": 939,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2004-02-04T10:30:32.9430827+01:00",
+    "LastChanged": "2014-12-25T14:23:56.0564526+01:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Carter LLC",
-        "ToolTip": "Iste occaecati dolorum.",
-        "Deleted": false,
-        "Rank": 717,
-        "Type": "sunt",
-        "ColorBlock": 475,
-        "IconHint": "neque",
+        "Id": 357,
+        "Name": "Cremin, Wiegand and Grimes",
+        "ToolTip": "Expedita totam repellat sit dolorem.",
+        "Deleted": true,
+        "Rank": 813,
+        "Type": "corporis",
+        "ColorBlock": 92,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "1997-07-23T10:30:32.9430827+02:00",
+        "LastChanged": "2022-05-01T14:23:56.0564526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Beth Satterfield",
+        "ExtraInfo": "enim",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Ms. Moshe Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 656
+            "FieldType": "System.Int32",
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Dr. Moshe Hettinger Sr.",
+    "ExtraInfo": "quis",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Clifton Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

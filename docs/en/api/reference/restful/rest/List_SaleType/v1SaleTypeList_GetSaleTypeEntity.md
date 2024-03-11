@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 618,
-  "Name": "Feest Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 732,
+  "SaleTypeId": 988,
+  "Name": "Wiza, Rippin and Wuckert",
+  "Tooltip": "repellendus",
+  "Rank": 297,
   "DurationUnit": "Century",
-  "SaleDuration": 253,
-  "SaleTypeCatId": 425,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 565,
+  "SaleTypeCatId": 445,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 799,
-  "QuoteLinesTemplate": 135,
-  "ConfirmationLinesTemplate": 607,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 681,
-  "MinEarningPercent": 733,
-  "GroupQuoteLinesBy": 159,
-  "SortGroupLinesBy": 270,
+  "DefaultQuoteValidity": 46,
+  "QuoteLinesTemplate": 486,
+  "ConfirmationLinesTemplate": 815,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 472,
+  "MinEarningPercent": 220,
+  "GroupQuoteLinesBy": 795,
+  "SortGroupLinesBy": 621,
   "Stages": [
     {
-      "Id": 951,
-      "Name": "Schimmel Group",
-      "ToolTip": "Consequatur quam sequi voluptatem.",
-      "Deleted": true,
-      "Rank": 498,
-      "Type": "velit",
-      "ColorBlock": 58,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2015-07-31T10:30:33.2412121+02:00",
+      "Id": 22,
+      "Name": "Prosacco LLC",
+      "ToolTip": "Mollitia nemo porro.",
+      "Deleted": false,
+      "Rank": 782,
+      "Type": "tempore",
+      "ColorBlock": 223,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2000-02-24T14:23:56.3376983+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "similique",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "nostrum",
       "Hidden": false,
-      "FullName": "Annamae Hartmann",
+      "FullName": "Mrs. Kory Schaefer Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 308
     }
   }
 }

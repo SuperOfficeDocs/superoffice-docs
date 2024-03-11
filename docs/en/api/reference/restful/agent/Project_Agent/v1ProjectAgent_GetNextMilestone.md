@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 301
+  "ProjectId": 455
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 890,
-  "StartDate": "2020-11-20T10:30:24.3549569+01:00",
-  "EndDate": "2024-01-08T10:30:24.3549569+01:00",
+  "AppointmentId": 596,
+  "StartDate": "2013-04-06T14:23:47.1755092+02:00",
+  "EndDate": "2000-08-04T14:23:47.1755092+02:00",
   "Type": "BookingForChecklist",
-  "Task": "corrupti",
-  "AssociateFullName": "Kim Gleichner",
-  "ContactName": "Blick-Kunde",
-  "Description": "Self-enabling radical process improvement",
-  "PersonFullName": "Norberto Kulas",
-  "PersonId": 870,
-  "ContactId": 59,
-  "ProjectId": 418,
-  "ProjectName": "Gutkowski-Hilll",
+  "Task": "ea",
+  "AssociateFullName": "Kaia Gorczany",
+  "ContactName": "Witting, Smith and Marquardt",
+  "Description": "Integrated user-facing matrices",
+  "PersonFullName": "Letitia Gaylord",
+  "PersonId": 681,
+  "ContactId": 191,
+  "ProjectId": 831,
+  "ProjectName": "Kilback, Brown and Lesch",
   "IsPublished": false,
-  "AssociateId": 751,
-  "ColorIndex": 387,
+  "AssociateId": 82,
+  "ColorIndex": 456,
   "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 672,
-  "PriorityName": "Block-Tremblay",
+  "PriorityId": 277,
+  "PriorityName": "Corwin, O'Keefe and Osinski",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2007-11-17T10:30:24.3549569+01:00",
+  "ActiveDate": "2013-07-23T14:23:47.1755092+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-11-18T10:30:24.3549569+01:00",
-  "RecurringEndDate": "2009-12-15T10:30:24.3549569+01:00",
-  "MotherId": 116,
-  "AssignedBy": 53,
-  "AssignedByFullName": "Ms. Leta Armand Hartmann",
+  "RecurringStartDate": "2015-09-28T14:23:47.1755092+02:00",
+  "RecurringEndDate": "2016-02-24T14:23:47.1755092+01:00",
+  "MotherId": 199,
+  "AssignedBy": 998,
+  "AssignedByFullName": "Jane Lesch",
   "RejectReason": "",
-  "Location": "iure",
-  "AlarmLeadTime": "et",
-  "SaleId": 172,
-  "SaleName": "Towne LLC",
-  "AssociateName": "Bruen-Gleichner",
-  "CreatedDate": "2012-05-29T10:30:24.3549569+02:00",
-  "CreatedBy": "sint",
-  "CreatedByFullName": "Mr. Ari William Kreiger",
-  "CreatedByAssociateId": 940,
+  "Location": "possimus",
+  "AlarmLeadTime": "ad",
+  "SaleId": 188,
+  "SaleName": "Hilpert-Wehner",
+  "AssociateName": "Greenholt Inc and Sons",
+  "CreatedDate": "2010-06-18T14:23:47.1755092+02:00",
+  "CreatedBy": "et",
+  "CreatedByFullName": "Mrs. Sam Newell Towne MD",
+  "CreatedByAssociateId": 830,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 814,
-  "Title": "corrupti",
-  "Agenda": "est",
-  "InternalNotes": "et",
+  "PreferredTZLocation": 115,
+  "Title": "temporibus",
+  "Agenda": "laudantium",
+  "InternalNotes": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 969
     }
   }
 }

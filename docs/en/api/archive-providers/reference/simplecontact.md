@@ -148,6 +148,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
+|contactAssociate/locationAddress|string|Location: Location| x |
 |contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -178,6 +179,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
+|contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
 |contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
-|contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
+|contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |LastTicket|date|Date of last request|  |
-|LastCompletedTicket|date|Date of last completed request|  |
-|LastDoByTicket|date|Date of last non-completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastCompletedTicket|date|Date of last completed request|  |
+|LastDoByTicket|date|Date of last non-completed request|  |
 |SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |saintSaleStatus|listAny|With status|  |
@@ -346,7 +348,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=updatedBy,postAddress/wgs84latitude,streetAddress/addressId,contactSupportAssociate/contactCategory
+GET /api/v1/archive/SimpleContact?$select=contactAssociate/contactDepartment,saintAmountClass,selectionIdRequest
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

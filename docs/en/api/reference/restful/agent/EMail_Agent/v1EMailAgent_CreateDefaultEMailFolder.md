@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum LLC",
-  "Delimiter": "est",
-  "Flags": "officia",
-  "TotalItems": 839,
-  "UnreadItems": 777,
+  "Name": "Hammes, Osinski and Dooley",
+  "Delimiter": "asperiores",
+  "Flags": "sunt",
+  "TotalItems": 327,
+  "UnreadItems": 372,
   "Subscribed": false,
-  "EmailFolderId": 595,
+  "EmailFolderId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

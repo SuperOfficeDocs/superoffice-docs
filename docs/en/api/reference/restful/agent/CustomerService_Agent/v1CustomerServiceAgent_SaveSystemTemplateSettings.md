@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 716,
-  "CustomerCustomerReplyTemplateId": 811,
-  "CustomerPasswordTemplateId": 335,
-  "CustomerConfirmEmailTemplateId": 889,
-  "CustomerChatLogTemplateId": 964,
-  "NewLinkTemplateId": 208,
-  "HotlistNewMessageTemplateId": 669,
-  "HotlistTicketActivatedTemplateId": 39,
-  "UserTicketAlarmTemplateId": 984,
-  "HotlistTicketTakenOverTemplateId": 524,
-  "UserActiveTicketsTemplateId": 722,
-  "UserNewMessageTemplateId": 484,
-  "UserTicketActivatedTemplateId": 51,
-  "UserNewTicketTemplateId": 422,
-  "PublishKbQuestionTemplateId": 952,
-  "PublishKbAnswerTemplateId": 78,
-  "UserTicketTakenOverTemplateId": 262,
-  "PrintTicketTemplateId": 966,
-  "WeekStatTemplateId": 786,
-  "TicketAlarmHotlistTemplateId": 879,
-  "EmailAddresses": "alex.kuhlman@klockostanton.co.uk",
+  "CustomerNewCustomerTemplateId": 122,
+  "CustomerCustomerReplyTemplateId": 378,
+  "CustomerPasswordTemplateId": 983,
+  "CustomerConfirmEmailTemplateId": 53,
+  "CustomerChatLogTemplateId": 600,
+  "NewLinkTemplateId": 854,
+  "HotlistNewMessageTemplateId": 245,
+  "HotlistTicketActivatedTemplateId": 884,
+  "UserTicketAlarmTemplateId": 392,
+  "HotlistTicketTakenOverTemplateId": 64,
+  "UserActiveTicketsTemplateId": 177,
+  "UserNewMessageTemplateId": 610,
+  "UserTicketActivatedTemplateId": 828,
+  "UserNewTicketTemplateId": 793,
+  "PublishKbQuestionTemplateId": 446,
+  "PublishKbAnswerTemplateId": 728,
+  "UserTicketTakenOverTemplateId": 593,
+  "PrintTicketTemplateId": 412,
+  "WeekStatTemplateId": 820,
+  "TicketAlarmHotlistTemplateId": 994,
+  "EmailAddresses": "jacques@cartwright.biz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 448
     }
   }
 }

@@ -81,6 +81,7 @@ blah....
 |updated\_associate/otherGroups|userGroup|By - Other groups: Other groups|  |
 |updated\_associate/userName|string|By - User name: User name| x |
 |updated\_associate/personEmail|string|By - E-mail| x |
+|updated\_associate/locationAddress|string|By - Location: Location| x |
 
 ## Sample
 

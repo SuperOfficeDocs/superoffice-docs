@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2011-06-15T10:30:22.910753+02:00"
+  "StartDate": "2003-04-13T14:23:45.7043398+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 155,
-  "StartDate": "2013-11-14T10:30:22.910753+01:00",
-  "EndDate": "2003-09-21T10:30:22.910753+02:00",
-  "RecurrenceCounter": 333,
+  "RecurrenceId": 274,
+  "StartDate": "1999-08-12T14:23:45.7043398+02:00",
+  "EndDate": "2006-09-04T14:23:45.7043398+02:00",
+  "RecurrenceCounter": 553,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1997-10-27T10:30:22.910753+01:00",
+      "Date": "2008-11-25T14:23:45.7043398+01:00",
       "IsConflict": false,
-      "Description": "Exclusive methodical leverage",
-      "DescriptionStyleHint": "Monitored content-based superstructure",
-      "Tooltip": "excepturi"
+      "Description": "Polarised motivating leverage",
+      "DescriptionStyleHint": "Grass-roots assymetric attitude",
+      "Tooltip": "corporis"
     },
     {
-      "Date": "1997-10-27T10:30:22.910753+01:00",
+      "Date": "2008-11-25T14:23:45.7043398+01:00",
       "IsConflict": false,
-      "Description": "Exclusive methodical leverage",
-      "DescriptionStyleHint": "Monitored content-based superstructure",
-      "Tooltip": "excepturi"
+      "Description": "Polarised motivating leverage",
+      "DescriptionStyleHint": "Grass-roots assymetric attitude",
+      "Tooltip": "corporis"
     }
   ],
   "IsRecurrence": false

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Reichert LLC",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 96,
+  "Id": 52,
+  "Name": "Hettinger, Kling and Mohr",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 716,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "ipsa",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Lowe LLC",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "Rank": 59,
+  "Id": 10,
+  "Name": "Wilkinson-Legros",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 892,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

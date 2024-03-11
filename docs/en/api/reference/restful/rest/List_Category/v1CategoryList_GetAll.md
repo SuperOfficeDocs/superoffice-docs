@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Cronin Group",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "UdListDefinitionId": 601,
-    "Rank": 828,
+    "Id": 1002,
+    "Name": "Stehr, Kirlin and Kihn",
+    "Tooltip": "distinctio",
+    "Deleted": true,
+    "UdListDefinitionId": 885,
+    "Rank": 650,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 512
       }
     }
   }

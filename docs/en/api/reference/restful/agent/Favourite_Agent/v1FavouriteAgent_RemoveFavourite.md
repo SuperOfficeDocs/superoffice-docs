@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pouros Group",
-  "RecordId": 549,
-  "AssociateId": 421
+  "TableName": "Gerhold-Jerde",
+  "RecordId": 56,
+  "AssociateId": 644
 }
 ```
 

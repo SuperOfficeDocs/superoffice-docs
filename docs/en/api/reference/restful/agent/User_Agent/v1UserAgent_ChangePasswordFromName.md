@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Lakin Inc and Sons",
-  "OldPassword": "ut",
-  "NewPassword": "quo"
+  "AssociateName": "Rippin Inc and Sons",
+  "OldPassword": "sed",
+  "NewPassword": "velit"
 }
 ```
 

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 75,
+  "UdListDefinitionId": 342,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Padberg LLC",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 986,
-  "Rank": 116,
+  "Id": 676,
+  "Name": "Kris-Rice",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 662,
+  "Rank": 86,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 657
     }
   }
 }

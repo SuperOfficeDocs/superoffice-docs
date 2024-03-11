@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "Walsh Inc and Sons",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 247,
-    "UdListDefinitionId": 159
+    "HeadingId": 276,
+    "Name": "Casper Group",
+    "Tooltip": "cumque",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 428
   },
   {
-    "HeadingId": 373,
-    "Name": "Walsh Inc and Sons",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 247,
-    "UdListDefinitionId": 159
+    "HeadingId": 276,
+    "Name": "Casper Group",
+    "Tooltip": "cumque",
+    "Deleted": false,
+    "Rank": 740,
+    "UdListDefinitionId": 428
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 809,
-    "Name": "Mayert Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 75,
-    "UdListDefinitionId": 510,
+    "HeadingId": 958,
+    "Name": "Streich-Kassulke",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 599,
+    "UdListDefinitionId": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 201
       }
     }
   }

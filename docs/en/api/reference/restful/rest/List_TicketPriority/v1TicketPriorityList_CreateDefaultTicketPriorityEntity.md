@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 82,
-  "Name": "Balistreri-Nienow",
+  "TicketPriorityId": 126,
+  "Name": "Stamm-Weber",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 259,
+  "SortOrder": 734,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 798,
-  "MonStart": "2020-11-12T10:30:33.2897031+01:00",
-  "MonStop": "2010-05-11T10:30:33.2897031+02:00",
-  "TueStart": "2000-04-08T10:30:33.2897031+02:00",
-  "TueStop": "2012-12-31T10:30:33.2897031+01:00",
-  "WedStart": "2020-01-07T10:30:33.2897031+01:00",
-  "WedStop": "2010-12-20T10:30:33.2897031+01:00",
-  "ThuStart": "2020-10-22T10:30:33.2897031+02:00",
-  "ThuStop": "2021-02-08T10:30:33.2897031+01:00",
-  "FriStart": "2010-01-12T10:30:33.2897031+01:00",
-  "FriStop": "1998-05-28T10:30:33.2897031+02:00",
-  "SatStart": "2017-09-25T10:30:33.2897031+02:00",
-  "SatStop": "2018-09-17T10:30:33.2897031+02:00",
-  "SunStart": "2014-05-24T10:30:33.2897031+02:00",
-  "SunStop": "2022-07-22T10:30:33.2897031+02:00",
+  "Deadline": 12,
+  "MonStart": "2016-07-22T14:23:56.417076+02:00",
+  "MonStop": "2015-12-22T14:23:56.417076+01:00",
+  "TueStart": "2022-04-08T14:23:56.417076+02:00",
+  "TueStop": "2008-02-14T14:23:56.417076+01:00",
+  "WedStart": "2006-08-04T14:23:56.417076+02:00",
+  "WedStop": "2005-07-10T14:23:56.417076+02:00",
+  "ThuStart": "2006-11-11T14:23:56.417076+01:00",
+  "ThuStop": "2007-07-16T14:23:56.417076+02:00",
+  "FriStart": "2016-06-04T14:23:56.417076+02:00",
+  "FriStop": "2007-07-22T14:23:56.417076+02:00",
+  "SatStart": "2007-05-16T14:23:56.417076+02:00",
+  "SatStop": "2012-08-15T14:23:56.417076+02:00",
+  "SunStart": "2008-09-24T14:23:56.417076+02:00",
+  "SunStop": "2014-09-02T14:23:56.417076+02:00",
   "NonDates": [
-    "officiis",
-    "vel"
+    "earum",
+    "mollitia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 104,
-      "AlertLevel": 466,
-      "AlertTimeout": 150,
-      "Action": 632,
-      "DelegateTo": 327,
-      "ScriptId": 668,
-      "EmailTo": "ebba@douglascasper.com",
-      "SmsTo": "ab",
-      "ReplyTemplateIdCustomer": 524,
-      "ReplyTemplateIdUser": 26,
-      "ReplyTemplateIdCatmast": 3,
-      "ReplyTemplateIdEmail": 741,
-      "RtiCustomerSms": 881,
-      "ReplyTemplateIdUserSms": 656,
-      "ReplyTemplateIdCatmastSms": 73,
-      "ReplyTemplateIdSms": 370,
+      "TicketAlertId": 118,
+      "AlertLevel": 64,
+      "AlertTimeout": 151,
+      "Action": 689,
+      "DelegateTo": 915,
+      "ScriptId": 473,
+      "EmailTo": "paula.heaney@abbott.us",
+      "SmsTo": "dignissimos",
+      "ReplyTemplateIdCustomer": 267,
+      "ReplyTemplateIdUser": 990,
+      "ReplyTemplateIdCatmast": 974,
+      "ReplyTemplateIdEmail": 297,
+      "RtiCustomerSms": 322,
+      "ReplyTemplateIdUserSms": 649,
+      "ReplyTemplateIdCatmastSms": 329,
+      "ReplyTemplateIdSms": 163,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldLength": 118
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

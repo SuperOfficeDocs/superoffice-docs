@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Kub-Carter",
-  "Tooltip": "est",
+  "Id": 63,
+  "Name": "Rowe, Bradtke and Gibson",
+  "Tooltip": "impedit",
   "Deleted": true,
-  "UdListDefinitionId": 963,
-  "Rank": 77,
+  "UdListDefinitionId": 505,
+  "Rank": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 522
     }
   }
 }

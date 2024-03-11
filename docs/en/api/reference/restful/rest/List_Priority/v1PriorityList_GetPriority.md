@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Sipes, Powlowski and Gulgowski",
-  "Tooltip": "sunt",
+  "Id": 513,
+  "Name": "Thompson Group",
+  "Tooltip": "animi",
   "Deleted": false,
-  "UdListDefinitionId": 562,
-  "Rank": 728,
+  "UdListDefinitionId": 902,
+  "Rank": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

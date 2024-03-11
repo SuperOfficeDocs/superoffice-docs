@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 450,
-    "ParentId": 173,
-    "Name": "Boyle, Windler and Kuhic",
-    "Fullname": "autem",
-    "CategoryMaster": 140,
+    "TicketCategoryId": 140,
+    "ParentId": 411,
+    "Name": "Gorczany Inc and Sons",
+    "Fullname": "molestias",
+    "CategoryMaster": 936,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Schaefer, Bernhard and Hyatt",
+    "ExternalName": "Kozey-Donnelly",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 279,
-    "ReplyTemplate": 962,
-    "NotificationEmail": "izaiah@blickmcglynn.ca",
+    "AssignmentLag": 934,
+    "ReplyTemplate": 903,
+    "NotificationEmail": "hank_oconner@cummings.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 893,
+    "EffectiveReplyTemplateId": 993,
     "ExtraFields": {
-      "ExtraFields1": "voluptatem",
-      "ExtraFields2": "adipisci"
+      "ExtraFields1": "nihil",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "natus",
-      "CustomFields2": "esse"
+      "CustomFields1": "necessitatibus",
+      "CustomFields2": "ab"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 434
       }
     }
   }

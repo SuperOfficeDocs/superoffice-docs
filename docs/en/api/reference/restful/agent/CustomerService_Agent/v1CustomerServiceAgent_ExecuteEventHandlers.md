@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "molestias",
-    "InputValues2": "quae"
+    "InputValues1": "est",
+    "InputValues2": "repellat"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quas",
-  "Message": "velit",
-  "ShowDialog": "dolores",
+  "BlockExecution": false,
+  "NavigateTo": "neque",
+  "Message": "quibusdam",
+  "ShowDialog": "quo",
   "OutputValues": {
-    "OutputValues1": "provident",
-    "OutputValues2": "quo"
+    "OutputValues1": "quaerat",
+    "OutputValues2": "sapiente"
   },
   "StateValues": {
-    "StateValues1": "nisi",
-    "StateValues2": "omnis"
+    "StateValues1": "esse",
+    "StateValues2": "deleniti"
   },
-  "Exception": "minima",
+  "Exception": "magnam",
   "ParserValues": {
-    "ParserValues1": "quia",
-    "ParserValues2": "iusto"
+    "ParserValues1": "error",
+    "ParserValues2": "ut"
   },
   "CgiVariables": {
-    "CgiVariables1": "nulla",
-    "CgiVariables2": "ex"
+    "CgiVariables1": "dolor",
+    "CgiVariables2": "porro"
   },
-  "CgiContent": "incidunt",
+  "CgiContent": "fugiat",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "itaque"
+    "Headers1": "sit",
+    "Headers2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   }
 }

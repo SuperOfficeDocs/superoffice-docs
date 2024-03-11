@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Bednar-Pacocha",
-  "StorageKey": "dolorem",
+  "StorageType": "qui",
+  "ProviderName": "Brown-Strosin",
+  "StorageKey": "necessitatibus",
   "Restrictions": [
     {
-      "Name": "Schulist-Smitham",
-      "Operator": "ut",
+      "Name": "Keeling Group",
+      "Operator": "vitae",
       "Values": [
-        "placeat",
-        "quas"
+        "animi",
+        "tenetur"
       ],
       "DisplayValues": [
-        "aliquam",
-        "vitae"
+        "iusto",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 122,
+      "InterParenthesis": 842,
       "InterOperator": "And",
-      "UniqueHash": 34
+      "UniqueHash": 904
     }
   ]
 }

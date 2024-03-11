@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Stracke-Ankunding",
-    "ToolTip": "Sed non.",
-    "Deleted": true,
-    "Rank": 502,
-    "Type": "debitis",
-    "ColorBlock": 978,
-    "IconHint": "quam",
+    "Id": 521,
+    "Name": "Koelpin Group",
+    "ToolTip": "Consequuntur veniam illum ullam vero adipisci unde alias.",
+    "Deleted": false,
+    "Rank": 368,
+    "Type": "maiores",
+    "ColorBlock": 224,
+    "IconHint": "quaerat",
     "Selected": true,
-    "LastChanged": "2019-07-29T10:30:32.9899559+02:00",
+    "LastChanged": "1998-01-20T14:23:56.0877037+01:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Kemmer LLC",
-        "ToolTip": "Qui voluptatum atque et consequatur.",
-        "Deleted": true,
-        "Rank": 504,
-        "Type": "maxime",
-        "ColorBlock": 454,
-        "IconHint": "molestias",
+        "Id": 936,
+        "Name": "Runolfsson Group",
+        "ToolTip": "Sint et quod ut aliquam omnis libero commodi.",
+        "Deleted": false,
+        "Rank": 467,
+        "Type": "porro",
+        "ColorBlock": 163,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2010-08-17T10:30:32.9899559+02:00",
+        "LastChanged": "2010-12-04T14:23:56.0877037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "labore",
+        "ExtraInfo": "odit",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mrs. Sheila Bednar",
+        "FullName": "Prof. Jerrold Zemlak V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldType": "System.String",
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "ut",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Mr. Kaitlyn Harris",
+    "FullName": "Abner West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 998
       }
     }
   }

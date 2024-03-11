@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 344,
-  "Name": "Parisian-Nicolas",
-  "Tooltip": "ut",
-  "Rank": 283,
-  "Key": "est",
-  "MailTemplateId": 200,
-  "Deleted": false
+  "ConsentSourceId": 862,
+  "Name": "Halvorson-King",
+  "Tooltip": "dolor",
+  "Rank": 655,
+  "Key": "enim",
+  "MailTemplateId": 16,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 689,
-  "Name": "Thiel Inc and Sons",
-  "Tooltip": "possimus",
-  "Rank": 60,
-  "Key": "in",
-  "MailTemplateId": 561,
+  "ConsentSourceId": 125,
+  "Name": "Marks-Lakin",
+  "Tooltip": "numquam",
+  "Rank": 635,
+  "Key": "consequatur",
+  "MailTemplateId": 32,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

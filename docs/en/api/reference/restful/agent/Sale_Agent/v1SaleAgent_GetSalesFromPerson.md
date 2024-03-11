@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 737,
+  "PersonId": 827,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ortiz Inc and Sons",
-    "SaleDate": "2013-02-02T10:30:24.5439994+01:00",
-    "SaleId": 6,
-    "Probability": 365,
-    "Title": "quae",
-    "Amount": 15463.155999999999,
-    "Currency": "at",
-    "ProjectName": "Blanda Inc and Sons",
-    "AssociateFullName": "Citlalli Wilson Bruen DDS",
-    "Description": "Programmable intermediate algorithm",
+    "ContactName": "Corwin, Schiller and Bruen",
+    "SaleDate": "2020-12-04T14:23:47.3630051+01:00",
+    "SaleId": 820,
+    "Probability": 991,
+    "Title": "error",
+    "Amount": 19405.728,
+    "Currency": "quidem",
+    "ProjectName": "Stoltenberg, Nader and Prohaska",
+    "AssociateFullName": "Mrs. Carol Watsica V",
+    "Description": "Synergistic even-keeled ability",
     "Status": "Lost",
-    "WeightedAmount": 31252.248,
-    "ProjectId": 360,
-    "EarningPercent": 9815.688,
-    "Earning": 31020.332,
-    "ContactId": 791,
-    "AssociateId": 816,
-    "PersonId": 890,
-    "SaleTypeId": 108,
-    "SaleTypeName": "Eichmann, Wehner and Armstrong",
-    "PersonFullName": "Prof. Lucius Shanahan DVM",
+    "WeightedAmount": 2228.274,
+    "ProjectId": 530,
+    "EarningPercent": 11855.922,
+    "Earning": 16127.564,
+    "ContactId": 663,
+    "AssociateId": 608,
+    "PersonId": 977,
+    "SaleTypeId": 605,
+    "SaleTypeName": "Reichel LLC",
+    "PersonFullName": "Alvah Douglas",
     "Completed": "Completed",
-    "ActiveErpLinks": 377,
-    "NextDueDate": "2022-10-21T10:30:24.5439994+02:00",
-    "Number": "1061665",
+    "ActiveErpLinks": 253,
+    "NextDueDate": "2005-07-01T14:23:47.3630051+02:00",
+    "Number": "1675949",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 472
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 619,
-  "Name": "Nikolaus Inc and Sons",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 137,
-  "UdListDefinitionId": 170
+  "HeadingId": 567,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 569,
+  "UdListDefinitionId": 169
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 255,
-  "Name": "McGlynn Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 852,
-  "UdListDefinitionId": 744,
+  "HeadingId": 33,
+  "Name": "Price-Wolff",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 75,
+  "UdListDefinitionId": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 646,
-    "Name": "Greenfelder, Blick and Blanda",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 180,
-    "UdListDefinitionId": 674
+    "HeadingId": 409,
+    "Name": "Wyman-Wolff",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 7,
+    "UdListDefinitionId": 437
   },
   {
-    "HeadingId": 646,
-    "Name": "Greenfelder, Blick and Blanda",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 180,
-    "UdListDefinitionId": 674
+    "HeadingId": 409,
+    "Name": "Wyman-Wolff",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 7,
+    "UdListDefinitionId": 437
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 880,
-    "Name": "Goodwin Group",
-    "Tooltip": "explicabo",
+    "HeadingId": 279,
+    "Name": "Hand Group",
+    "Tooltip": "sint",
     "Deleted": true,
-    "Rank": 920,
-    "UdListDefinitionId": 865,
+    "Rank": 957,
+    "UdListDefinitionId": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 513
       }
     }
   }

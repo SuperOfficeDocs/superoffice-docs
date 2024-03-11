@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 216,
-    "Name": "Rutherford Group",
-    "Tooltip": "doloremque",
+    "HeadingId": 733,
+    "Name": "Wyman-Wisozk",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "Rank": 686,
-    "UdListDefinitionId": 549
+    "Rank": 779,
+    "UdListDefinitionId": 300
   },
   {
-    "HeadingId": 216,
-    "Name": "Rutherford Group",
-    "Tooltip": "doloremque",
+    "HeadingId": 733,
+    "Name": "Wyman-Wisozk",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "Rank": 686,
-    "UdListDefinitionId": 549
+    "Rank": 779,
+    "UdListDefinitionId": 300
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 117,
-    "Name": "Balistreri, Yundt and Jacobs",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "Rank": 691,
-    "UdListDefinitionId": 689,
+    "HeadingId": 754,
+    "Name": "Balistreri Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 50,
+    "UdListDefinitionId": 347,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

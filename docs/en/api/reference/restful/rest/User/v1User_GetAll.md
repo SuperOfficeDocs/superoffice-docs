@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=accusamus
-GET /api/v1/User?$top=542
-GET /api/v1/User?$skip=187
+GET /api/v1/User?$entities=rem
+GET /api/v1/User?$top=177
+GET /api/v1/User?$skip=20
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=fugiat
+GET /api/v1/User?$context=tenetur
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=True
 GET /api/v1/User?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "in",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 5299,
+      "PrimaryKey": 9822,
       "EntityName": "sale",
-      "saleId": 5299,
-      "contactId": 7999,
-      "name": "Gulgowski Inc and Sons"
+      "saleId": 9822,
+      "contactId": 6612,
+      "name": "Cormier, Stehr and Keeling"
     },
     {
-      "PrimaryKey": 3161,
+      "PrimaryKey": 647,
       "EntityName": "sale",
-      "saleId": 3161,
-      "contactId": 6041,
-      "name": "Grant, Ziemann and Fahey"
+      "saleId": 647,
+      "contactId": 3411,
+      "name": "Brekke-Waters"
     }
   ]
 }

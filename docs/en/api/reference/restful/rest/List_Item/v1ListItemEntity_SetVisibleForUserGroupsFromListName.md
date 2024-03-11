@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Iste sapiente in.",
-    "Deleted": true,
-    "Rank": 661,
-    "Type": "repellendus",
-    "ColorBlock": 491,
-    "IconHint": "et",
+    "Id": 46,
+    "Name": "Schumm Inc and Sons",
+    "ToolTip": "Dolor fugiat et.",
+    "Deleted": false,
+    "Rank": 730,
+    "Type": "totam",
+    "ColorBlock": 400,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2022-06-23T10:30:32.8269372+02:00",
+    "LastChanged": "2019-10-22T14:23:55.9314526+02:00",
     "ChildItems": [
       {
-        "Id": 92,
-        "Name": "Hilpert, Flatley and Torp",
-        "ToolTip": "Rerum et beatae voluptate illo blanditiis soluta.",
-        "Deleted": true,
-        "Rank": 757,
-        "Type": "error",
-        "ColorBlock": 548,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2009-09-12T10:30:32.8269372+02:00",
+        "Id": 693,
+        "Name": "Kohler, Mills and Jaskolski",
+        "ToolTip": "Occaecati sed.",
+        "Deleted": false,
+        "Rank": 603,
+        "Type": "est",
+        "ColorBlock": 501,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2014-03-06T14:23:55.9314526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "et",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Mr. Brionna Block Jr."
+        "FullName": "Miss Ethel Deon Lockman III"
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "ut",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Xavier Jimmy Murphy MD"
+    "FullName": "Amiya Bruen"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Greenfelder Group",
-    "ToolTip": "Dolorem aperiam minima sit adipisci suscipit consequuntur.",
-    "Deleted": true,
-    "Rank": 715,
-    "Type": "distinctio",
-    "ColorBlock": 448,
-    "IconHint": "nihil",
+    "Id": 342,
+    "Name": "Luettgen Group",
+    "ToolTip": "Corrupti est sit.",
+    "Deleted": false,
+    "Rank": 192,
+    "Type": "aperiam",
+    "ColorBlock": 548,
+    "IconHint": "quam",
     "Selected": true,
-    "LastChanged": "2017-03-26T10:30:32.8269372+02:00",
+    "LastChanged": "2004-09-23T14:23:55.9470782+02:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Funk-Wolff",
-        "ToolTip": "Aut ut quae aspernatur.",
+        "Id": 870,
+        "Name": "Rutherford-Donnelly",
+        "ToolTip": "Nihil placeat quaerat labore repellat ratione nam.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "quo",
-        "ColorBlock": 940,
-        "IconHint": "quibusdam",
+        "Rank": 331,
+        "Type": "impedit",
+        "ColorBlock": 850,
+        "IconHint": "animi",
         "Selected": true,
-        "LastChanged": "2007-04-25T10:30:32.8269372+02:00",
+        "LastChanged": "1997-04-09T14:23:55.9470782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "ab",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Merlin Kuphal",
+        "FullName": "Ms. Elnora Walton Pacocha I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ryleigh Ryann Purdy III",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Mr. Johathan Dee McLaughlin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 621
       }
     }
   }

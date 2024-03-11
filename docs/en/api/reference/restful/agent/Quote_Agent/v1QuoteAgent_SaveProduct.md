@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 719,
-  "ERPProductKey": "nostrum",
-  "ERPPriceListKey": "ab",
-  "Name": "Huels, Hilpert and Buckridge",
-  "Description": "Synergistic even-keeled flexibility",
-  "Code": "at",
-  "PriceUnit": "iusto",
-  "QuantityUnit": "velit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "excepturi",
-  "DefaultSubscriptionQuantity": 1438.5059999999999,
-  "ItemNumber": "1537722",
+  "ProductId": 501,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "placeat",
+  "Name": "O'Kon LLC",
+  "Description": "Team-oriented holistic algorithm",
+  "Code": "sapiente",
+  "PriceUnit": "quia",
+  "QuantityUnit": "voluptatum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "tenetur",
+  "DefaultSubscriptionQuantity": 711.418,
+  "ItemNumber": "744082",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestias",
-  "ProductTypeKey": "eligendi",
-  "VAT": 19590.634,
-  "VATInfo": "commodi",
-  "UnitCost": 25087.67,
-  "UnitMinimumPrice": 10520.838,
-  "UnitListPrice": 7712.7739999999994,
-  "InAssortment": false,
-  "Supplier": "quibusdam",
-  "SupplierCode": "occaecati",
-  "Rights": "eligendi",
-  "Rule": "alias",
+  "ProductFamilyKey": "ad",
+  "ProductTypeKey": "nobis",
+  "VAT": 31274.185999999998,
+  "VATInfo": "eligendi",
+  "UnitCost": 8543.284,
+  "UnitMinimumPrice": 10213.706,
+  "UnitListPrice": 11624.006,
+  "InAssortment": true,
+  "Supplier": "impedit",
+  "SupplierCode": "neque",
+  "Rights": "deleniti",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Volkman-O'Conner",
-      "Value": "ratione",
+      "Name": "Macejkovic Group",
+      "Value": "velit",
       "Type": "Image"
     },
     {
-      "Name": "Volkman-O'Conner",
-      "Value": "ratione",
+      "Name": "Macejkovic Group",
+      "Value": "velit",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "ullam",
-  "ExtraField1": "veniam",
-  "ExtraField2": "nostrum",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "nam",
-  "InStock": 21254.788
+  "RawExtraInfo": "id",
+  "ExtraField1": "ut",
+  "ExtraField2": "id",
+  "ExtraField3": "omnis",
+  "ExtraField4": "est",
+  "ExtraField5": "totam",
+  "InStock": 3406.658
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 637,
-  "ERPProductKey": "possimus",
-  "ERPPriceListKey": "cumque",
-  "Name": "Jacobi LLC",
-  "Description": "Sharable client-driven complexity",
-  "Code": "facere",
-  "PriceUnit": "assumenda",
-  "QuantityUnit": "quos",
+  "ProductId": 978,
+  "ERPProductKey": "rerum",
+  "ERPPriceListKey": "repudiandae",
+  "Name": "Carter, Stracke and Feest",
+  "Description": "Networked next generation hardware",
+  "Code": "ea",
+  "PriceUnit": "eaque",
+  "QuantityUnit": "sit",
   "IsSubscription": false,
-  "SubscriptionUnit": "harum",
-  "DefaultSubscriptionQuantity": 27670.086,
-  "ItemNumber": "994581",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 27767.239999999998,
+  "ItemNumber": "1445281",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fugiat",
-  "ProductTypeKey": "saepe",
-  "VAT": 12097.24,
-  "VATInfo": "quae",
-  "UnitCost": 5515.84,
-  "UnitMinimumPrice": 23342.032,
-  "UnitListPrice": 18822.804,
-  "InAssortment": true,
-  "Supplier": "praesentium",
-  "SupplierCode": "voluptas",
-  "Rights": "blanditiis",
-  "Rule": "molestiae",
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "delectus",
+  "VAT": 28519.399999999998,
+  "VATInfo": "occaecati",
+  "UnitCost": 18756.989999999998,
+  "UnitMinimumPrice": 6286.804,
+  "UnitListPrice": 3782.738,
+  "InAssortment": false,
+  "Supplier": "debitis",
+  "SupplierCode": "esse",
+  "Rights": "magni",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Bartell Group",
-      "Value": "praesentium",
+      "Name": "Thompson-Monahan",
+      "Value": "a",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 632
+          "FieldType": "System.Int32",
+          "FieldLength": 31
         }
       }
     },
     {
-      "Name": "Bartell Group",
-      "Value": "praesentium",
+      "Name": "Thompson-Monahan",
+      "Value": "a",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 632
+          "FieldType": "System.Int32",
+          "FieldLength": 31
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "nemo",
-  "ExtraField3": "alias",
-  "ExtraField4": "atque",
-  "ExtraField5": "dolorum",
-  "InStock": 8013.638,
+  "RawExtraInfo": "et",
+  "ExtraField1": "debitis",
+  "ExtraField2": "numquam",
+  "ExtraField3": "quia",
+  "ExtraField4": "neque",
+  "ExtraField5": "iste",
+  "InStock": 7543.538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 792
+  "ErpConnectionId": 833
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Heathcote-Pacocha",
+      "ErpListName": "Robel, Witting and Wolff",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Berge Inc and Sons",
-      "ErpFieldId": 48,
+      "ErpActorTypeName": "Stehr LLC",
+      "ErpFieldId": 687,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 375
         }
       }
     }
   ],
-  "ErpConnectionId": 712,
-  "ErpConnectionName": "Mosciski Group",
+  "ErpConnectionId": 881,
+  "ErpConnectionName": "Stracke-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

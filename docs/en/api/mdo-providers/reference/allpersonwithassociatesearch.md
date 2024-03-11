@@ -16,6 +16,13 @@ Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.A
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPersonWithAssociateListSearchProvider">AllPersonWithAssociateListSearchProvider</see> class.
 The name of the MDO list is 'allpersonwithassociatesearch'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Include has_email in extrainfo| includeHasEmail|False|
+
+
 
 
 

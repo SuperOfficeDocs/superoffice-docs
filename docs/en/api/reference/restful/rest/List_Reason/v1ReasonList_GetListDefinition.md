@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Wyman, White and Wintheiser",
-  "Tooltip": "magni",
+  "Id": 360,
+  "Name": "Kautzer, Parker and Hilpert",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 255,
-  "IsCustomList": true,
+  "Rank": 884,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 859
     }
   },
   "_Links": {

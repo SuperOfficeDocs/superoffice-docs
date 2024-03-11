@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 211,
-  "CapabilityName": "Gusikowski, Prohaska and Gusikowski"
+  "QuoteConnectionId": 953,
+  "CapabilityName": "Klein Group"
 }
 ```
 

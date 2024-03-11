@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Von, Howell and Schoen"
+  "LayoutName": "Harber-Mayer"
 }
 ```
 

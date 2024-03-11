@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Becker, Bernhard and Okuneva",
-  "Tooltip": "officiis",
+  "Id": 517,
+  "Name": "Wisozk Group",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 962,
-  "Rank": 993,
+  "UdListDefinitionId": 903,
+  "Rank": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

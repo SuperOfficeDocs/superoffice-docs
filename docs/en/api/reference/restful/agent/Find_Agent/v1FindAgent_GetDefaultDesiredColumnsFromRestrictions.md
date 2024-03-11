@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Connell Inc and Sons",
+  "ProviderName": "Schroeder-Schuppe",
   "Restrictions": [
     {
-      "Name": "McLaughlin LLC",
-      "Operator": "aut",
+      "Name": "Schmeler Inc and Sons",
+      "Operator": "officia",
       "Values": [
-        "voluptatem",
-        "debitis"
-      ],
-      "DisplayValues": [
-        "quae",
+        "molestiae",
         "cupiditate"
       ],
+      "DisplayValues": [
+        "aut",
+        "aliquam"
+      ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 479,
+      "InterParenthesis": 237,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 847
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gulgowski Inc and Sons",
-    "DisplayTooltip": "saepe",
-    "DisplayType": "maxime",
+    "DisplayName": "Balistreri Inc and Sons",
+    "DisplayTooltip": "labore",
+    "DisplayType": "libero",
     "CanOrderBy": false,
-    "Name": "McDermott, Feil and Nicolas",
+    "Name": "Willms-Hilll",
     "CanRestrictBy": true,
-    "RestrictionType": "sit",
-    "RestrictionListName": "Schaefer Inc and Sons",
-    "IsVisible": true,
-    "ExtraInfo": "quasi",
-    "Width": "et",
-    "IconHint": "deleniti",
-    "HeadingIconHint": "aperiam"
+    "RestrictionType": "soluta",
+    "RestrictionListName": "Reichert LLC",
+    "IsVisible": false,
+    "ExtraInfo": "quia",
+    "Width": "ab",
+    "IconHint": "quia",
+    "HeadingIconHint": "quas"
   }
 ]
 ```

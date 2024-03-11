@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schaden LLC",
-  "RecordId": 220,
-  "AssociateId": 473
+  "TableName": "Romaguera-Wyman",
+  "RecordId": 886,
+  "AssociateId": 784
 }
 ```
 

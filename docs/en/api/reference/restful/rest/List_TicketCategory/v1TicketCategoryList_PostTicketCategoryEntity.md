@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 298,
-  "ParentId": 732,
-  "Name": "Funk, Leffler and Wiza",
-  "Fullname": "voluptas",
-  "CategoryMaster": 133,
+  "TicketCategoryId": 80,
+  "ParentId": 270,
+  "Name": "Doyle-Davis",
+  "Fullname": "qui",
+  "CategoryMaster": 204,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Langworth, Klein and Hermiston",
+  "ExternalName": "Smith, Abbott and Kutch",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 602,
-  "ReplyTemplate": 485,
-  "NotificationEmail": "carol_marks@williamsonschaden.ca",
+  "AssignmentLag": 628,
+  "ReplyTemplate": 750,
+  "NotificationEmail": "madisyn_walter@strosin.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 646,
+  "EffectiveReplyTemplateId": 85,
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "magnam",
+    "CustomFields2": "illo"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 809,
-  "ParentId": 105,
-  "Name": "Beahan, Little and Terry",
-  "Fullname": "sint",
-  "CategoryMaster": 393,
+  "TicketCategoryId": 238,
+  "ParentId": 869,
+  "Name": "Hermiston, Quigley and Ruecker",
+  "Fullname": "iure",
+  "CategoryMaster": 691,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Yundt-Mraz",
+  "ExternalName": "Torp Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 256,
-  "ReplyTemplate": 684,
-  "NotificationEmail": "keagan@roob.com",
+  "AssignmentLag": 360,
+  "ReplyTemplate": 361,
+  "NotificationEmail": "wilber@borer.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 154,
+  "EffectiveReplyTemplateId": 280,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "ut"
+    "CustomFields1": "modi",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 969
     }
   }
 }

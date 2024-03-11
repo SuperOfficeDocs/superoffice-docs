@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 357,
+  "EjMessageId": 539,
   "Ticket": null,
-  "CreatedAt": "2017-12-06T10:30:24.9360824+01:00",
+  "CreatedAt": "1998-02-25T14:23:47.7848748+01:00",
   "CreatedBy": null,
-  "Author": "aliquam",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quos",
-  "TimeSpent": 254,
-  "Body": "voluptatibus",
-  "HtmlBody": "omnis",
-  "EmailHeader": "kristoffer.roberts@pacochakuhn.ca",
-  "DebugInfo": "vero",
-  "MailSorter": "est",
+  "MessageId": "modi",
+  "TimeSpent": 778,
+  "Body": "autem",
+  "HtmlBody": "sit",
+  "EmailHeader": "courtney_farrell@pfannerstill.name",
+  "DebugInfo": "itaque",
+  "MailSorter": "voluptatum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "asperiores",
   "MessageHeaders": [
     {
-      "Id": 985,
-      "Name": "Erdman, Torp and Rohan",
-      "Value": "blanditiis",
+      "Id": 790,
+      "Name": "Gottlieb Group",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldType": "System.String",
+          "FieldLength": 347
         }
       }
     }
   ],
   "Important": false,
-  "Language": "adipisci",
-  "Sentiment": 309,
-  "SentimentConfidence": 801,
+  "Language": "cumque",
+  "Sentiment": 761,
+  "SentimentConfidence": 554,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 142,
-      "Name": "Fadel LLC",
-      "ContentType": "numquam",
-      "AttSize": 50,
+      "AttachmentId": 521,
+      "Name": "Feeney, Feest and Quitzon",
+      "ContentType": "dicta",
+      "AttSize": 747,
       "InlineImage": false,
-      "ContentId": "iusto",
-      "AuthKey": "vel",
+      "ContentId": "dolor",
+      "AuthKey": "iure",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 838
+          "FieldType": "System.Int32",
+          "FieldLength": 715
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "quod"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 433
     }
   }
 }

@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 741,
-  "Name": "King, Wiza and Kemmer",
-  "Tooltip": "eos",
-  "Rank": 392,
+  "SaleTypeId": 228,
+  "Name": "Leannon Group",
+  "Tooltip": "quam",
+  "Rank": 191,
   "DurationUnit": "Century",
-  "SaleDuration": 373,
-  "SaleTypeCatId": 921,
+  "SaleDuration": 199,
+  "SaleTypeCatId": 690,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 180,
-  "QuoteLinesTemplate": 746,
-  "ConfirmationLinesTemplate": 177,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 60,
-  "MinEarningPercent": 771,
-  "GroupQuoteLinesBy": 20,
-  "SortGroupLinesBy": 340,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 462,
+  "QuoteLinesTemplate": 709,
+  "ConfirmationLinesTemplate": 985,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 58,
+  "MinEarningPercent": 344,
+  "GroupQuoteLinesBy": 51,
+  "SortGroupLinesBy": 232,
   "Stages": [
     {
-      "Id": 423,
-      "Name": "Heaney-Rice",
-      "ToolTip": "Eveniet quaerat laboriosam et quibusdam quia et velit.",
+      "Id": 960,
+      "Name": "Crona Inc and Sons",
+      "ToolTip": "Atque explicabo.",
       "Deleted": false,
-      "Rank": 320,
-      "Type": "hic",
-      "ColorBlock": 730,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "1997-02-28T10:30:33.2255818+01:00",
+      "Rank": 159,
+      "Type": "atque",
+      "ColorBlock": 748,
+      "IconHint": "delectus",
+      "Selected": true,
+      "LastChanged": "2020-01-26T14:23:56.3376983+01:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "qui",
-      "StyleHint": "deserunt",
+      "StyleHint": "ipsam",
       "Hidden": false,
-      "FullName": "Mrs. Krista Dominic Weber II"
+      "FullName": "Ms. Phoebe Kennedy Balistreri"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 898,
-  "Name": "Kohler-Morar",
-  "Tooltip": "omnis",
-  "Rank": 406,
+  "SaleTypeId": 271,
+  "Name": "Kohler, Rice and Walter",
+  "Tooltip": "nulla",
+  "Rank": 648,
   "DurationUnit": "Century",
-  "SaleDuration": 189,
-  "SaleTypeCatId": 871,
+  "SaleDuration": 913,
+  "SaleTypeCatId": 169,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 303,
-  "QuoteLinesTemplate": 881,
-  "ConfirmationLinesTemplate": 24,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 358,
+  "QuoteLinesTemplate": 995,
+  "ConfirmationLinesTemplate": 978,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 95,
-  "MinEarningPercent": 194,
-  "GroupQuoteLinesBy": 722,
-  "SortGroupLinesBy": 486,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 307,
+  "MinEarningPercent": 145,
+  "GroupQuoteLinesBy": 77,
+  "SortGroupLinesBy": 51,
   "Stages": [
     {
-      "Id": 818,
-      "Name": "Carter Inc and Sons",
-      "ToolTip": "Aut impedit repellendus voluptate occaecati laboriosam natus.",
+      "Id": 373,
+      "Name": "Marks-Simonis",
+      "ToolTip": "Quam consequatur.",
       "Deleted": false,
-      "Rank": 694,
+      "Rank": 181,
       "Type": "aut",
-      "ColorBlock": 51,
-      "IconHint": "provident",
-      "Selected": true,
-      "LastChanged": "2000-11-24T10:30:33.2255818+01:00",
+      "ColorBlock": 993,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2017-04-01T14:23:56.3376983+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eligendi",
-      "StyleHint": "deleniti",
-      "Hidden": false,
-      "FullName": "Liana Pacocha",
+      "ExtraInfo": "odio",
+      "StyleHint": "consequuntur",
+      "Hidden": true,
+      "FullName": "Dr. Levi Cormier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 746
+          "FieldLength": 810
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

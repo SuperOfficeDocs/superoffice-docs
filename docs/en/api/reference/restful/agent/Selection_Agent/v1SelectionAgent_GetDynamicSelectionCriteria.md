@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 673
+  "SelectionId": 119
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hahn-Howell",
-    "Operator": "autem",
+    "Name": "Williamson, Brakus and Rempel",
+    "Operator": "aut",
     "Values": [
-      "reprehenderit",
-      "et"
+      "rerum",
+      "repellat"
     ],
     "DisplayValues": [
-      "dolorem",
-      "eaque"
+      "libero",
+      "molestiae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Steuber LLC",
-        "Operator": "et",
+        "Name": "Rowe LLC",
+        "Operator": "qui",
         "Values": [
-          "omnis",
-          "quaerat"
+          "debitis",
+          "debitis"
         ],
         "DisplayValues": [
-          "quam",
-          "incidunt"
+          "labore",
+          "at"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 921,
+        "InterParenthesis": 600,
         "InterOperator": "And",
-        "UniqueHash": 899
+        "UniqueHash": 527
       }
     ],
-    "InterParenthesis": 935,
+    "InterParenthesis": 556,
     "InterOperator": "And",
-    "UniqueHash": 960
+    "UniqueHash": 737
   }
 ]
 ```

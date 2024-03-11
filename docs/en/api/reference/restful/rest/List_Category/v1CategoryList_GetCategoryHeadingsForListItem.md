@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Douglas, Stokes and Lindgren",
-    "ToolTip": "Sit expedita dolores et dolores odio.",
+    "Id": 835,
+    "Name": "Konopelski, Farrell and Cormier",
+    "ToolTip": "Accusamus ex voluptates.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "impedit",
-    "ColorBlock": 988,
-    "IconHint": "velit",
+    "Rank": 771,
+    "Type": "omnis",
+    "ColorBlock": 292,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2007-05-15T10:30:32.8805387+02:00",
+    "LastChanged": "1998-09-01T14:23:55.9783277+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Wiegand, Nitzsche and Kemmer",
-        "ToolTip": "Consequatur sapiente qui dolores hic animi.",
+        "Id": 926,
+        "Name": "Parker Group",
+        "ToolTip": "Est illo rerum sint cumque saepe quas.",
         "Deleted": false,
-        "Rank": 604,
-        "Type": "expedita",
-        "ColorBlock": 172,
-        "IconHint": "quo",
+        "Rank": 398,
+        "Type": "eum",
+        "ColorBlock": 155,
+        "IconHint": "expedita",
         "Selected": true,
-        "LastChanged": "2005-04-28T10:30:32.8805387+02:00",
+        "LastChanged": "2011-08-10T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "placeat",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Rubye Prosacco",
+        "FullName": "Trace Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldLength": 976
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "et",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Samir Weber",
+    "FullName": "Darian Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

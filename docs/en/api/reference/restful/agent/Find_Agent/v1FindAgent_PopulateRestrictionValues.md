@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hauck Inc and Sons",
-      "Operator": "at",
+      "Name": "McDermott-Schimmel",
+      "Operator": "vel",
       "Values": [
-        "inventore",
-        "magnam"
+        "nihil",
+        "rerum"
       ],
       "DisplayValues": [
-        "eaque",
-        "ducimus"
+        "facere",
+        "voluptatum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 22,
+      "InterParenthesis": 78,
       "InterOperator": "And",
-      "UniqueHash": 86
+      "UniqueHash": 429
     }
   ]
 }
@@ -120,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prohaska Group",
-    "Operator": "molestiae",
+    "Name": "Huel, Cole and Parisian",
+    "Operator": "soluta",
     "Values": [
-      "repellendus",
-      "qui"
+      "minima",
+      "modi"
     ],
     "DisplayValues": [
-      "illo",
-      "culpa"
+      "et",
+      "voluptatem"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Heidenreich-Olson",
-        "Operator": "ipsam",
+        "Name": "O'Keefe LLC",
+        "Operator": "optio",
         "Values": [
-          "consectetur",
-          "consequuntur"
+          "facere",
+          "esse"
         ],
         "DisplayValues": [
-          "atque",
-          "nisi"
+          "accusamus",
+          "repellat"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 448,
+        "InterParenthesis": 993,
         "InterOperator": "And",
-        "UniqueHash": 839
+        "UniqueHash": 436
       }
     ],
-    "InterParenthesis": 639,
+    "InterParenthesis": 595,
     "InterOperator": "And",
-    "UniqueHash": 57
+    "UniqueHash": 476
   }
 ]
 ```

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 69,
-  "Name": "Hahn-Mosciski",
-  "Description": "Synergized secondary hardware",
-  "WelcomeMessage": "inventore",
+  "ChatTopicId": 241,
+  "Name": "Davis-Ernser",
+  "Description": "Team-oriented cohesive parallelism",
+  "WelcomeMessage": "similique",
   "Language": null,
-  "LastAccept": "1997-06-14T10:30:31.8073876+02:00",
-  "SecondsPrAccept": 368,
-  "AlertRecipient": "totam",
+  "LastAccept": "1997-01-18T14:23:54.8815159+01:00",
+  "SecondsPrAccept": 759,
+  "AlertRecipient": "harum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "vitae",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eveniet",
-  "WarnNewChatMinutes": 628,
-  "WarnManagerNewChatMinutes": 906,
+  "CollectConsent": false,
+  "BadgeHeader": "deserunt",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "reiciendis",
+  "WarnNewChatMinutes": 191,
+  "WarnManagerNewChatMinutes": 482,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 993,
-  "WarnManagerChatMessageMinutes": 765,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 388,
-  "OfflineFormQueueLength": 188,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "nulla",
+  "WarnChatMessageMinutes": 540,
+  "WarnManagerChatMessageMinutes": 825,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 549,
+  "OfflineFormQueueLength": 622,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

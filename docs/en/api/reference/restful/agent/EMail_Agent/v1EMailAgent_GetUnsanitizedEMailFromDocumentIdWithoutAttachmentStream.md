@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 204
+  "DocumentId": 393
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 205,
-      "ContactName": "Huel, Feest and King",
-      "PersonId": 739,
-      "PersonName": "Marks-Olson",
-      "AssociateId": 732,
-      "Address": "distinctio",
-      "EmailId": 232,
+      "ContactId": 492,
+      "ContactName": "Rogahn Group",
+      "PersonId": 729,
+      "PersonName": "Kemmer-Rogahn",
+      "AssociateId": 660,
+      "Address": "maxime",
+      "EmailId": 545,
       "DuplicatePersonIds": [
-        39,
-        575
+        24,
+        2
       ],
-      "Name": "Lemke LLC",
+      "Name": "Hilll Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldLength": 463
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 24,
-      "ContactName": "Becker Group",
-      "PersonId": 369,
-      "PersonName": "Nicolas-Hills",
-      "AssociateId": 681,
-      "Address": "nemo",
-      "EmailId": 939,
+      "ContactId": 175,
+      "ContactName": "Funk-Predovic",
+      "PersonId": 125,
+      "PersonName": "Kreiger-Satterfield",
+      "AssociateId": 217,
+      "Address": "dolor",
+      "EmailId": 759,
       "DuplicatePersonIds": [
-        534,
-        321
+        736,
+        279
       ],
-      "Name": "Mosciski-Gutmann",
+      "Name": "Fisher-Kautzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldType": "System.String",
+          "FieldLength": 345
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 623,
-      "ContactName": "Ryan Group",
-      "PersonId": 537,
-      "PersonName": "Sipes Inc and Sons",
-      "AssociateId": 609,
-      "Address": "sit",
-      "EmailId": 552,
+      "ContactId": 737,
+      "ContactName": "Boyle, Dicki and Green",
+      "PersonId": 652,
+      "PersonName": "Nolan Inc and Sons",
+      "AssociateId": 686,
+      "Address": "quo",
+      "EmailId": 175,
       "DuplicatePersonIds": [
-        436,
-        536
+        946,
+        908
       ],
-      "Name": "Langosh-McGlynn",
+      "Name": "Jast-Mosciski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 837
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "sequi",
+  "Subject": "perferendis",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "1998-09-22T10:30:23.7511796+02:00",
-  "Size": 524,
+  "Sent": "2004-11-11T14:23:46.4543289+01:00",
+  "Size": 558,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fugiat",
-  "PlainBody": "quia",
-  "IsSent": true,
+  "MessageID": "excepturi",
+  "PlainBody": "qui",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 274,
+  "ServerId": 195,
   "Attachments": [
     {
-      "Description": "Programmable multimedia artificial intelligence",
-      "Filename": "fugiat",
-      "Size": 689,
-      "Type": "incidunt",
-      "Encoding": "omnis",
-      "Id": "asperiores",
-      "Disposition": "magni",
-      "IsSafeFileExtension": false,
+      "Description": "Polarised optimal challenge",
+      "Filename": "nemo",
+      "Size": 291,
+      "Type": "et",
+      "Encoding": "possimus",
+      "Id": "rerum",
+      "Disposition": "corporis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 142
+          "FieldLength": 834
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Baumbach-Roberts",
+      "Name": "Schinner, Kertzmann and Gottlieb",
       "Values": [
-        "accusantium",
-        "nihil"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldLength": 986
         }
       }
     },
     {
-      "Name": "Baumbach-Roberts",
+      "Name": "Schinner, Kertzmann and Gottlieb",
       "Values": [
-        "accusantium",
-        "nihil"
+        "et",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldLength": 986
         }
       }
     }
   ],
-  "FolderName": "Cremin, Turcotte and Skiles",
-  "EmailItemId": 107,
-  "AccountId": 590,
-  "ReceivedAt": "2023-07-05T10:30:23.7511796+02:00",
+  "FolderName": "Tremblay Inc and Sons",
+  "EmailItemId": 86,
+  "AccountId": 760,
+  "ReceivedAt": "2001-09-26T14:23:46.4543289+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-07-27T10:30:23.7511796+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2000-09-29T14:23:46.4543289+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 480
     }
   }
 }

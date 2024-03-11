@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 626,
-  "Name": "Buckridge Group",
-  "Tooltip": "sit",
+  "Id": 693,
+  "Name": "Connelly-Christiansen",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 83,
+  "UdListDefinitionId": 39,
+  "Rank": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Conroy, Kutch and Grady",
-    "ToolTip": "Aliquid est est qui voluptatem.",
+    "Id": 418,
+    "Name": "Heathcote Inc and Sons",
+    "ToolTip": "Occaecati ducimus fugiat est.",
     "Deleted": false,
-    "Rank": 143,
-    "Type": "molestiae",
-    "ColorBlock": 427,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "1999-04-23T10:30:33.2568344+02:00",
+    "Rank": 885,
+    "Type": "dolorum",
+    "ColorBlock": 624,
+    "IconHint": "iure",
+    "Selected": true,
+    "LastChanged": "2004-06-25T14:23:56.353323+02:00",
     "ChildItems": [
       {
-        "Id": 86,
-        "Name": "Harber-Denesik",
-        "ToolTip": "Nesciunt iure at nemo maxime occaecati sunt.",
-        "Deleted": false,
-        "Rank": 618,
-        "Type": "vitae",
-        "ColorBlock": 581,
-        "IconHint": "voluptate",
+        "Id": 855,
+        "Name": "Rice-Bins",
+        "ToolTip": "Aut consectetur dolor unde pariatur sapiente.",
+        "Deleted": true,
+        "Rank": 564,
+        "Type": "distinctio",
+        "ColorBlock": 628,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2019-10-22T10:30:33.2568344+02:00",
+        "LastChanged": "2018-09-15T14:23:56.353323+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "id",
+        "ExtraInfo": "error",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Maud Lakin",
+        "FullName": "Ms. Alana Ramon Farrell DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "consequuntur",
-    "Hidden": false,
-    "FullName": "Stephany Moen",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Novella Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 805
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=at
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=qui
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Kuhlman-Beahan",
-    "ToolTip": "Dolor eaque et temporibus quis quia inventore.",
-    "Deleted": true,
-    "Rank": 808,
-    "Type": "doloremque",
+    "Id": 72,
+    "Name": "Ratke-O'Kon",
+    "ToolTip": "Ad eligendi velit.",
+    "Deleted": false,
+    "Rank": 74,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Nitzsche Group",
-        "ToolTip": "Corrupti autem sapiente sint corrupti sunt illo omnis.",
+        "Id": 6,
+        "Name": "Kuvalis, Durgan and Becker",
+        "ToolTip": "Pariatur reiciendis est expedita minus iure illum.",
         "Deleted": true,
-        "Rank": 798,
-        "Type": "est",
+        "Rank": 732,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 17,
-        "ExtraInfo": "illo",
-        "StyleHint": "illo",
-        "FullName": "Osvaldo Russel Jr.",
+        "IconHint": "repellendus",
+        "ColorBlock": 397,
+        "ExtraInfo": "fuga",
+        "StyleHint": "ut",
+        "FullName": "Grayson Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldType": "System.Int32",
+            "FieldLength": 40
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 182,
-    "ExtraInfo": "a",
-    "StyleHint": "expedita",
-    "FullName": "Ashleigh Daniel",
+    "IconHint": "et",
+    "ColorBlock": 194,
+    "ExtraInfo": "autem",
+    "StyleHint": "illo",
+    "FullName": "Ms. Katelin Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

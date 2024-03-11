@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 91,
-  "TopicId": 307,
+  "ChatSessionId": 999,
+  "TopicId": 138,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "minus",
-  "CustomerName": "Dach Inc and Sons",
-  "CustomerEmail": "kendall.kling@bartoletti.info",
-  "CustomerPhone": "130.211.0800",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Waters-Wilderman",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "perspiciatis",
+  "CustomerName": "Hartmann-Gaylord",
+  "CustomerEmail": "casey@reichelfeeney.com",
+  "CustomerPhone": "882.398.6623",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Stiedemann LLC",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "quasi",
-  "WhenRequested": "2006-04-25T10:30:31.8073876+02:00",
-  "WhenStarted": "2021-05-04T10:30:31.8073876+02:00",
-  "WhenEnded": "2011-03-04T10:30:31.8073876+01:00",
-  "WhenIdle": "2023-11-28T10:30:31.8073876+01:00",
-  "WhenFetched": "2011-03-29T10:30:31.8073876+02:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 935,
-  "AlertLevel": 24,
-  "Rank": 257,
+  "FirstMessage": "qui",
+  "LastMessage": "maiores",
+  "WhenRequested": "2015-03-21T14:23:54.8658924+01:00",
+  "WhenStarted": "1999-05-20T14:23:54.8658924+02:00",
+  "WhenEnded": "2021-04-26T14:23:54.8658924+02:00",
+  "WhenIdle": "2009-03-25T14:23:54.8658924+01:00",
+  "WhenFetched": "2011-10-02T14:23:54.8658924+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 558,
+  "AlertLevel": 990,
+  "Rank": 965,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 967,
+  "ChatbotIsActive": true,
+  "Rating": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 910
     }
   }
 }

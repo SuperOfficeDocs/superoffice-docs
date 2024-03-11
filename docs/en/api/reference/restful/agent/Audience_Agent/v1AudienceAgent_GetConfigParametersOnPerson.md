@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 996
+  "PersonId": 112
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 724,
-    "Name": "Anderson, Rippin and Steuber",
-    "Value": "voluptate",
-    "CreatedDate": "2023-11-16T10:30:23.0826686+01:00",
-    "UpdatedDate": "2007-08-02T10:30:23.0826686+02:00",
-    "CreatedBy": "quo",
-    "UpdatedBy": "cupiditate",
+    "AudienceLayoutId": 492,
+    "Name": "Dach-Murazik",
+    "Value": "pariatur",
+    "CreatedDate": "2005-03-27T14:23:45.8762101+02:00",
+    "UpdatedDate": "2013-03-29T14:23:45.8762101+01:00",
+    "CreatedBy": "est",
+    "UpdatedBy": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 890
       }
     }
   }

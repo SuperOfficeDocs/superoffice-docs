@@ -85,11 +85,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "id",
-  "ProviderName": "Kuphal Inc and Sons",
-  "StorageKey": "eaque",
-  "PageSize": 217,
-  "PageNumber": 302
+  "StorageType": "et",
+  "ProviderName": "Marquardt-Cormier",
+  "StorageKey": "aut",
+  "PageSize": 954,
+  "PageNumber": 791
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hodkiewicz-Leffler",
-      "DisplayTooltip": "quae",
-      "DisplayType": "sit",
+      "DisplayName": "Feest, Robel and Rice",
+      "DisplayTooltip": "voluptatibus",
+      "DisplayType": "sunt",
       "CanOrderBy": false,
-      "Name": "Reichel LLC",
+      "Name": "Hickle, Corkery and Kris",
       "CanRestrictBy": false,
-      "RestrictionType": "delectus",
-      "RestrictionListName": "Dickinson-Batz",
-      "IsVisible": false,
-      "ExtraInfo": "voluptatum",
-      "Width": "reprehenderit",
-      "IconHint": "culpa",
-      "HeadingIconHint": "sunt"
+      "RestrictionType": "natus",
+      "RestrictionListName": "Windler, Cartwright and D'Amore",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "impedit",
+      "IconHint": "nisi",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hessel Group",
-      "PrimaryKey": 451,
+      "EntityName": "Romaguera-Brown",
+      "PrimaryKey": 851,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ducimus",
-          "TooltipHint": "nisi",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "et",
+          "TooltipHint": "earum",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "voluptatibus",
-      "StyleHint": "eos",
+      "LinkHint": "eos",
+      "StyleHint": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 827
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
   ],
-  "RowCount": 707,
+  "RowCount": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 359
     }
   }
 }

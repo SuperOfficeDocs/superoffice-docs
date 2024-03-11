@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 332,
-    "ParentId": 316,
-    "Name": "Effertz-Collins",
+    "TicketCategoryId": 608,
+    "ParentId": 512,
+    "Name": "Harber-Donnelly",
     "Fullname": "et",
-    "CategoryMaster": 682,
+    "CategoryMaster": 677,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Dibbert-Kilback",
+    "ExternalName": "Kuhic Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 897,
-    "ReplyTemplate": 644,
-    "NotificationEmail": "gust@swift.uk",
+    "AssignmentLag": 265,
+    "ReplyTemplate": 186,
+    "NotificationEmail": "raymond.rath@ondrickagraham.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 578,
+    "EffectiveReplyTemplateId": 882,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "magnam",
+      "ExtraFields2": "est"
     },
     "CustomFields": {
-      "CustomFields1": "aspernatur",
-      "CustomFields2": "dolor"
+      "CustomFields1": "ipsa",
+      "CustomFields2": "sequi"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 605
       }
     }
   }

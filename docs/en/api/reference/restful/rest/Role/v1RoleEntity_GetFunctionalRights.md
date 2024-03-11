@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Rowe LLC",
-    "ToolTip": "Eum earum sint.",
-    "Deleted": true,
-    "Rank": 756,
-    "Type": "eligendi",
-    "ColorBlock": 994,
-    "IconHint": "quia",
+    "Id": 202,
+    "Name": "Boyle-Konopelski",
+    "ToolTip": "Minus minima ut autem quis deleniti eligendi.",
+    "Deleted": false,
+    "Rank": 692,
+    "Type": "unde",
+    "ColorBlock": 946,
+    "IconHint": "consectetur",
     "Selected": true,
-    "LastChanged": "2009-02-15T10:30:32.276171+01:00",
+    "LastChanged": "2018-11-13T14:23:55.400211+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Hickle Inc and Sons",
-        "ToolTip": "Nisi aut quia ea autem placeat nobis quia.",
+        "Id": 756,
+        "Name": "Miller, Greenfelder and Quigley",
+        "ToolTip": "Assumenda et.",
         "Deleted": false,
-        "Rank": 927,
-        "Type": "quia",
-        "ColorBlock": 849,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2000-04-11T10:30:32.276171+02:00",
+        "Rank": 902,
+        "Type": "soluta",
+        "ColorBlock": 670,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2002-09-19T14:23:55.400211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Cheyenne Jacobson",
+        "ExtraInfo": "omnis",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Kayla Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldType": "System.Int32",
+            "FieldLength": 257
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Mr. Tiffany Johnston DVM",
+    "FullName": "Ms. Shawna Manuela Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 730
       }
     }
   }

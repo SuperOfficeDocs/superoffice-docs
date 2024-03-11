@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "et",
-  "TechExplanation": "aspernatur",
-  "ErrorCode": "voluptate",
+  "UserExplanation": "nulla",
+  "TechExplanation": "eos",
+  "ErrorCode": "vel",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   }
 }

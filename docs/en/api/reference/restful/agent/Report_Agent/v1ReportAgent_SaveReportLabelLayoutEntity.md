@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 948,
-  "Name": "Lynch, Reichel and Durgan",
-  "Description": "Face to face dedicated migration",
+  "ReportLabelLayoutId": 330,
+  "Name": "Stark Group",
+  "Description": "Optional reciprocal service-desk",
   "Orientation": "Landscape",
-  "PaperWidth": 98,
-  "PaperHeight": 394,
-  "LeftMargin": 953,
-  "RightMargin": 79,
-  "TopMargin": 172,
-  "BottomMargin": 109,
-  "CountColumns": 721,
-  "CountRows": 815
+  "PaperWidth": 972,
+  "PaperHeight": 989,
+  "LeftMargin": 251,
+  "RightMargin": 119,
+  "TopMargin": 171,
+  "BottomMargin": 803,
+  "CountColumns": 29,
+  "CountRows": 811
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 550,
-  "Name": "Tillman, Feest and Oberbrunner",
-  "Description": "Team-oriented asynchronous encryption",
+  "ReportLabelLayoutId": 742,
+  "Name": "Kemmer, Parker and Rolfson",
+  "Description": "Horizontal human-resource task-force",
   "Orientation": "Landscape",
-  "PaperWidth": 785,
-  "PaperHeight": 757,
-  "LeftMargin": 695,
-  "RightMargin": 451,
-  "TopMargin": 359,
-  "BottomMargin": 847,
-  "CountColumns": 302,
-  "CountRows": 939,
+  "PaperWidth": 190,
+  "PaperHeight": 210,
+  "LeftMargin": 391,
+  "RightMargin": 142,
+  "TopMargin": 330,
+  "BottomMargin": 919,
+  "CountColumns": 211,
+  "CountRows": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldLength": 909
     }
   }
 }

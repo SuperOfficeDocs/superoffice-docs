@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=308
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=694
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 512,
-  "Name": "Hilpert, Wisoky and Von",
+  "ContactId": 809,
+  "Name": "Monahan Group",
   "Department": "",
-  "OrgNr": "456571",
-  "Number1": "845819",
-  "Number2": "963018",
-  "UpdatedDate": "2021-11-08T10:30:23.3043168+01:00",
-  "CreatedDate": "2022-05-17T10:30:23.3043168+02:00",
+  "OrgNr": "1076194",
+  "Number1": "840951",
+  "Number2": "832839",
+  "UpdatedDate": "2022-02-09T14:23:46.1105841+01:00",
+  "CreatedDate": "2020-11-22T14:23:46.1105841+01:00",
   "Emails": [
     {
-      "Value": "inventore",
-      "StrippedValue": "est",
-      "Description": "Persevering interactive projection",
+      "Value": "ea",
+      "StrippedValue": "qui",
+      "Description": "Enterprise-wide methodical workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 49
         }
       }
     },
     {
-      "Value": "inventore",
-      "StrippedValue": "est",
-      "Description": "Persevering interactive projection",
+      "Value": "ea",
+      "StrippedValue": "qui",
+      "Description": "Enterprise-wide methodical workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 49
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 758,
-      "Name": "Ryan Inc and Sons",
-      "ToolTip": "Numquam accusantium exercitationem numquam.",
+      "Id": 242,
+      "Name": "Kozey, Bailey and Streich",
+      "ToolTip": "Velit sunt eum labore illum provident.",
       "Deleted": false,
-      "Rank": 26,
-      "Type": "ipsam",
-      "ColorBlock": 888,
-      "IconHint": "architecto",
+      "Rank": 947,
+      "Type": "provident",
+      "ColorBlock": 554,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "2022-07-08T10:30:23.3043168+02:00",
+      "LastChanged": "2021-05-24T14:23:46.1105841+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "minima",
-      "Hidden": true,
-      "FullName": "Clyde Kiehn",
+      "ExtraInfo": "omnis",
+      "StyleHint": "velit",
+      "Hidden": false,
+      "FullName": "Ms. Eleanora Sigmund Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 361
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sint",
-      "StrippedValue": "enim",
-      "Description": "Mandatory intangible service-desk",
+      "Value": "qui",
+      "StrippedValue": "odio",
+      "Description": "Team-oriented tangible firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "enim",
-      "Description": "Mandatory intangible service-desk",
+      "Value": "qui",
+      "StrippedValue": "odio",
+      "Description": "Team-oriented tangible firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "qui",
-      "StrippedValue": "molestiae",
-      "Description": "Stand-alone high-level application",
+      "Value": "veritatis",
+      "StrippedValue": "rerum",
+      "Description": "Profound impactful synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 354
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "molestiae",
-      "Description": "Stand-alone high-level application",
+      "Value": "veritatis",
+      "StrippedValue": "rerum",
+      "Description": "Profound impactful synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 354
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "quia",
-      "StrippedValue": "nobis",
-      "Description": "Universal context-sensitive collaboration",
+      "Value": "maxime",
+      "StrippedValue": "fugit",
+      "Description": "Triple-buffered content-based task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 75
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "nobis",
-      "Description": "Universal context-sensitive collaboration",
+      "Value": "maxime",
+      "StrippedValue": "fugit",
+      "Description": "Triple-buffered content-based task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 75
         }
       }
     }
   ],
-  "Description": "Managed dedicated task-force",
+  "Description": "Managed hybrid local area network",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ea",
-      "PersonId": 699,
-      "Mrmrs": "nobis",
-      "Firstname": "Bret",
-      "Lastname": "Strosin",
-      "MiddleName": "Osinski LLC",
-      "Title": "consectetur",
-      "Description": "Robust 24/7 moratorium",
-      "Email": "maximo@reillypfannerstill.com",
-      "FullName": "Kitty Dietrich",
-      "DirectPhone": "(375)469-9494 x73752",
-      "FormalName": "Harris, McKenzie and Dietrich",
-      "CountryId": 329,
-      "ContactId": 740,
-      "ContactName": "Leannon Group",
-      "Retired": 832,
-      "Rank": 866,
-      "ActiveInterests": 156,
+      "Position": "eius",
+      "PersonId": 554,
+      "Mrmrs": "ab",
+      "Firstname": "Logan",
+      "Lastname": "Fisher",
+      "MiddleName": "Beatty-Reichel",
+      "Title": "quod",
+      "Description": "Synergistic national installation",
+      "Email": "hilario@mckenzie.com",
+      "FullName": "Alberta Torp",
+      "DirectPhone": "(491)440-2860",
+      "FormalName": "Altenwerth Inc and Sons",
+      "CountryId": 942,
+      "ContactId": 435,
+      "ContactName": "Schamberger LLC",
+      "Retired": 380,
+      "Rank": 863,
+      "ActiveInterests": 285,
       "ContactDepartment": "",
-      "ContactCountryId": 225,
-      "ContactOrgNr": "951285",
-      "FaxPhone": "484-563-4066",
-      "MobilePhone": "534-295-6658 x477",
-      "ContactPhone": "411.731.4462",
-      "AssociateName": "Moore Group",
-      "AssociateId": 276,
+      "ContactCountryId": 930,
+      "ContactOrgNr": "925984",
+      "FaxPhone": "528.237.2370 x6598",
+      "MobilePhone": "723-296-3496 x08446",
+      "ContactPhone": "(021)516-0177 x65403",
+      "AssociateName": "Ebert, Mills and Pouros",
+      "AssociateId": 969,
       "UsePersonAddress": true,
-      "ContactFax": "voluptatem",
-      "Kanafname": "possimus",
-      "Kanalname": "ipsum",
-      "Post1": "possimus",
-      "Post2": "mollitia",
-      "Post3": "et",
-      "EmailName": "andreane@adams.us",
-      "ContactFullName": "Roderick Kilback",
-      "ActiveErpLinks": 933,
-      "TicketPriorityId": 236,
-      "SupportLanguageId": 544,
-      "SupportAssociateId": 449,
+      "ContactFax": "eum",
+      "Kanafname": "a",
+      "Kanalname": "rerum",
+      "Post1": "quis",
+      "Post2": "et",
+      "Post3": "voluptates",
+      "EmailName": "zena_hackett@gulgowskibins.ca",
+      "ContactFullName": "Ewald Champlin",
+      "ActiveErpLinks": 311,
+      "TicketPriorityId": 256,
+      "SupportLanguageId": 106,
+      "SupportAssociateId": 502,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 104
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "nihil",
-  "Xstop": false,
-  "ActiveInterests": 536,
-  "GroupId": 657,
-  "ActiveStatusMonitorId": 565,
+  "Kananame": "nulla",
+  "Xstop": true,
+  "ActiveInterests": 821,
+  "GroupId": 671,
+  "ActiveStatusMonitorId": 30,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 28,
-  "DbiAgentId": 486,
-  "DbiLastSyncronized": "2010-03-18T10:30:23.3043168+01:00",
-  "DbiKey": "excepturi",
-  "DbiLastModified": "1996-10-27T10:30:23.3043168+01:00",
+  "Deleted": 847,
+  "DbiAgentId": 287,
+  "DbiLastSyncronized": "2008-05-01T14:23:46.1105841+02:00",
+  "DbiKey": "aut",
+  "DbiLastModified": "2006-01-07T14:23:46.1105841+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 711,
-  "ActiveErpLinks": 67,
+  "Source": 854,
+  "ActiveErpLinks": 734,
   "BounceEmails": [
-    "toney@bergebraun.biz",
-    "vladimir.conroy@feest.uk"
+    "bill@murazik.us",
+    "kailyn.roberts@bartolettinienow.ca"
   ],
   "Domains": [
-    "ab",
-    "repellat"
+    "aperiam",
+    "esse"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1184832285",
-    "SuperOffice:2": "1468807370"
+    "SuperOffice:1": "Matt Zulauf",
+    "SuperOffice:2": "Christa Bernhard"
   },
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "commodi"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 347
     }
   }
 }

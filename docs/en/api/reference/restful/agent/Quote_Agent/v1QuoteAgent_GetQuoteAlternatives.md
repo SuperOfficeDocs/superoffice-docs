@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 326
+  "QuoteVersionId": 310
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 762,
-    "ERPQuoteAlternativeKey": "dolorum",
-    "QuoteVersionId": 282,
-    "Name": "Aufderhar-Kshlerin",
-    "Description": "Intuitive coherent encryption",
+    "QuoteAlternativeId": 516,
+    "ERPQuoteAlternativeKey": "culpa",
+    "QuoteVersionId": 896,
+    "Name": "Raynor, Schulist and Kris",
+    "Description": "Operative upward-trending capability",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 23395.309999999998,
-    "ERPDiscountAmount": 16923.6,
-    "DiscountPercent": 30368.46,
-    "DiscountAmount": 4534.898,
+    "ERPDiscountPercent": 27497.716,
+    "ERPDiscountAmount": 2804.93,
+    "DiscountPercent": 10119.686,
+    "DiscountAmount": 27563.53,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "molestiae",
-    "VAT": 10125.954,
-    "EarningPercent": 29412.59,
-    "EarningAmount": 4732.34,
-    "SubTotal": 733.356,
-    "TotalPrice": 181.772,
-    "ExtraField1": "accusamus",
-    "ExtraField2": "cum",
-    "ExtraField3": "expedita",
-    "ExtraField4": "temporibus",
-    "ExtraField5": "mollitia",
+    "VATInfo": "qui",
+    "VAT": 20797.224,
+    "EarningPercent": 23849.739999999998,
+    "EarningAmount": 10160.428,
+    "SubTotal": 29798.072,
+    "TotalPrice": 3043.114,
+    "ExtraField1": "aut",
+    "ExtraField2": "sit",
+    "ExtraField3": "eum",
+    "ExtraField4": "non",
+    "ExtraField5": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

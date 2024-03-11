@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Nov 1998 10:30:32 G11T
+Last-Modified: Fri, 19 Dec 2008 14:23:55 G12T
 
 [
   {
-    "ForeignDeviceId": 213,
-    "Name": "Homenick LLC",
-    "CreatedDate": "2009-09-30T10:30:32.0730519+02:00",
-    "UpdatedDate": "1998-11-23T10:30:32.0730519+01:00",
-    "AssociateFullName": "Emory Crona II",
-    "CreatedBy": "hic",
-    "UpdatedBy": "commodi",
-    "DeviceIdentifier": "quo",
-    "ForeignAppId": 609,
+    "ForeignDeviceId": 454,
+    "Name": "Homenick, Bins and Zboncak",
+    "CreatedDate": "2011-01-24T14:23:55.1802705+01:00",
+    "UpdatedDate": "2008-12-19T14:23:55.1802705+01:00",
+    "AssociateFullName": "Ms. Adele Torphy",
+    "CreatedBy": "accusantium",
+    "UpdatedBy": "ab",
+    "DeviceIdentifier": "quidem",
+    "ForeignAppId": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldType": "System.Int32",
+        "FieldLength": 531
       }
     }
   }

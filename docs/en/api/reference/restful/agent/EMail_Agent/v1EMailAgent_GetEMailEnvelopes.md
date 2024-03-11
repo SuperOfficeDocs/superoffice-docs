@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    460,
-    723
+    259,
+    22
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 675,
-    "MessageId": "soluta",
-    "Subject": "et",
+    "ServerId": 738,
+    "MessageId": "aliquid",
+    "Subject": "rem",
     "From": null,
     "To": [
       {
-        "ContactId": 679,
-        "ContactName": "Steuber LLC",
-        "PersonId": 144,
-        "PersonName": "Halvorson-Thiel",
-        "AssociateId": 248,
-        "Address": "et",
-        "EmailId": 855,
+        "ContactId": 142,
+        "ContactName": "Lindgren-Lockman",
+        "PersonId": 514,
+        "PersonName": "Morar-Jacobi",
+        "AssociateId": 987,
+        "Address": "incidunt",
+        "EmailId": 646,
         "DuplicatePersonIds": [
-          677,
-          221
+          893,
+          262
         ],
-        "Name": "Lang, Mante and Bartell",
+        "Name": "Paucek, Frami and Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 886
+            "FieldLength": 877
           }
         }
       }
     ],
-    "Sent": "2003-08-26T10:30:23.8136779+02:00",
+    "Sent": "2022-07-02T14:23:46.6743451+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 560,
+    "Size": 456,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 400
       }
     }
   }

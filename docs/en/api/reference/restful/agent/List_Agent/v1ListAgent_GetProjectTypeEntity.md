@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=239
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=818
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 699,
-  "Name": "Beahan Group",
-  "Tooltip": "velit",
-  "Rank": 492,
+  "ProjTypeId": 840,
+  "Name": "Champlin, Stehr and Nicolas",
+  "Tooltip": "sit",
+  "Rank": 163,
   "DurationUnit": "Century",
-  "ProjectDuration": 556,
-  "Deleted": true,
+  "ProjectDuration": 210,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 2,
-      "Name": "Russel LLC",
-      "ToolTip": "Consequuntur id omnis voluptate at facere aut.",
-      "Deleted": false,
-      "Rank": 59,
-      "Type": "vel",
-      "ColorBlock": 527,
-      "IconHint": "libero",
+      "Id": 808,
+      "Name": "Lubowitz Inc and Sons",
+      "ToolTip": "Quo nesciunt.",
+      "Deleted": true,
+      "Rank": 988,
+      "Type": "eius",
+      "ColorBlock": 524,
+      "IconHint": "consequatur",
       "Selected": false,
-      "LastChanged": "2023-07-07T10:30:23.9584837+02:00",
+      "LastChanged": "2003-11-13T14:23:46.7993547+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "consectetur",
+      "ExtraInfo": "iste",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Mr. Haleigh Darby Nicolas",
+      "FullName": "Etha Stroman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldLength": 960
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   }
 }

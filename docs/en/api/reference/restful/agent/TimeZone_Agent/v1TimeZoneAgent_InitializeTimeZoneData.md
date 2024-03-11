@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 49,
-    "Name": "Wisozk Group",
-    "TZLocationCode": "voluptatem",
-    "TZLocationCities": "est",
-    "IsoNumber": 502,
+    "TZLocationID": 331,
+    "Name": "Dickinson, Greenholt and Legros",
+    "TZLocationCode": "tempore",
+    "TZLocationCities": "doloribus",
+    "IsoNumber": 357,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 617,
-        "StartMonth": 17,
-        "EndDay": 441,
-        "EndMonth": 924,
-        "TZOffset": 81,
-        "StartRulePattern": "ea",
-        "EndRulePattern": "nam"
+        "StartDay": 432,
+        "StartMonth": 800,
+        "EndDay": 822,
+        "EndMonth": 938,
+        "TZOffset": 564,
+        "StartRulePattern": "est",
+        "EndRulePattern": "sunt"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 899,
-        "StartMonth": 571,
-        "EndDay": 256,
-        "EndMonth": 656,
-        "TZOffset": 230,
-        "StartRulePattern": "veniam",
-        "EndRulePattern": "quidem"
+        "StartDay": 439,
+        "StartMonth": 467,
+        "EndDay": 257,
+        "EndMonth": 85,
+        "TZOffset": 27,
+        "StartRulePattern": "labore",
+        "EndRulePattern": "accusantium"
       }
     }
   }

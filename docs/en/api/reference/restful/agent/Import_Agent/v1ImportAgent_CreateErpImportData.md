@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Durgan-Heller",
-      "Operator": "hic",
+      "Name": "Robel-Powlowski",
+      "Operator": "nam",
       "Values": [
-        "beatae",
-        "nihil"
+        "sit",
+        "fuga"
       ],
       "DisplayValues": [
-        "quidem",
-        "et"
+        "similique",
+        "in"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 851,
+      "InterParenthesis": 695,
       "InterOperator": "And",
-      "UniqueHash": 592
+      "UniqueHash": 532
     }
   ],
   "Columns": [
-    "animi",
-    "totam"
+    "voluptatem",
+    "tempora"
   ],
-  "ConnectionId": 1001,
+  "ConnectionId": 376,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "animi",
-        "sed"
+        "laudantium",
+        "est"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "facilis",
+      "ExternalKey": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 260
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Waelchi-Harvey",
-      "DisplayName": "Reichel-Hettinger",
+      "Name": "Wehner-Runolfsson",
+      "DisplayName": "Skiles, Ondricka and Rempel",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 661
+          "FieldLength": 199
         }
       }
     },
     {
-      "Name": "Waelchi-Harvey",
-      "DisplayName": "Reichel-Hettinger",
+      "Name": "Wehner-Runolfsson",
+      "DisplayName": "Skiles, Ondricka and Rempel",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 661
+          "FieldLength": 199
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

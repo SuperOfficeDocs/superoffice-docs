@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 590,
+    "TargetDimensionId": 343,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "ut",
-    "DimensionListName": "Schultz-Wehner",
-    "DimensionListId": 630,
-    "DimensionListLabel": "ipsa",
+    "DimensionListField": "itaque",
+    "DimensionListName": "Stanton-Hahn",
+    "DimensionListId": 386,
+    "DimensionListLabel": "iure",
     "SelectedDimensions": [
-      382,
-      565
+      472,
+      978
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 507
       }
     }
   }

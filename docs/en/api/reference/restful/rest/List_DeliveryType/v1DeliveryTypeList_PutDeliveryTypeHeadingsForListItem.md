@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Armstrong Inc and Sons",
-    "ToolTip": "Et officiis consequatur nesciunt tempore inventore deserunt.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "iure",
-    "ColorBlock": 965,
-    "IconHint": "labore",
+    "Id": 565,
+    "Name": "Welch Inc and Sons",
+    "ToolTip": "Dolorem at optio et.",
+    "Deleted": true,
+    "Rank": 810,
+    "Type": "accusantium",
+    "ColorBlock": 231,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2017-04-27T10:30:32.9899559+02:00",
+    "LastChanged": "2014-05-11T14:23:56.0877037+02:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Frami, Strosin and Toy",
-        "ToolTip": "Deserunt voluptas fugiat numquam soluta.",
+        "Id": 439,
+        "Name": "Hilll, Bashirian and Cruickshank",
+        "ToolTip": "Voluptas quisquam reiciendis quas.",
         "Deleted": true,
-        "Rank": 636,
-        "Type": "quasi",
-        "ColorBlock": 401,
-        "IconHint": "at",
-        "Selected": false,
-        "LastChanged": "2011-03-08T10:30:32.9899559+01:00",
+        "Rank": 699,
+        "Type": "nemo",
+        "ColorBlock": 171,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "2010-07-14T14:23:56.0877037+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "perspiciatis",
-        "Hidden": true,
-        "FullName": "Helga Kasey Leuschke IV"
+        "ExtraInfo": "ullam",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Amos Ankunding"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Orion Reilly"
+    "ExtraInfo": "rerum",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Jovanny Walter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Breitenberg, Wuckert and Mueller",
-    "ToolTip": "Animi voluptatem quia est minima voluptatem.",
-    "Deleted": false,
-    "Rank": 516,
+    "Id": 658,
+    "Name": "Carter-Aufderhar",
+    "ToolTip": "Quo voluptas eaque itaque suscipit.",
+    "Deleted": true,
+    "Rank": 476,
     "Type": "suscipit",
-    "ColorBlock": 445,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2007-03-21T10:30:32.9899559+01:00",
+    "ColorBlock": 495,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2012-07-15T14:23:56.0877037+02:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Ratke-Reilly",
-        "ToolTip": "Voluptatem ad praesentium et veritatis.",
+        "Id": 922,
+        "Name": "Satterfield-Goyette",
+        "ToolTip": "Eum aut.",
         "Deleted": false,
-        "Rank": 821,
-        "Type": "amet",
-        "ColorBlock": 486,
-        "IconHint": "et",
+        "Rank": 275,
+        "Type": "vitae",
+        "ColorBlock": 907,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "1999-03-16T10:30:32.9899559+01:00",
+        "LastChanged": "2008-11-08T14:23:56.0877037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "quis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Mr. Elisabeth Donavon Kemmer",
+        "FullName": "Sierra Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "velit",
+    "ExtraInfo": "illum",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Ines O'Kon",
+    "FullName": "Mr. Ophelia Zoie Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 553
+        "FieldLength": 627
       }
     }
   }

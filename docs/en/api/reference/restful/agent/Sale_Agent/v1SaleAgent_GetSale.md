@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=369
+POST /api/v1/Agents/Sale/GetSale?saleId=974
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Jacobi-Toy",
-  "SaleDate": "2018-10-04T10:30:24.5127522+02:00",
-  "SaleId": 865,
-  "Probability": 347,
-  "Title": "voluptate",
-  "Amount": 18725.649999999998,
-  "Currency": "magni",
-  "ProjectName": "O'Conner, Borer and Jerde",
-  "AssociateFullName": "Sidney Stracke",
-  "Description": "Function-based systemic throughput",
+  "ContactName": "Konopelski-Weissnat",
+  "SaleDate": "2015-02-21T14:23:47.331759+01:00",
+  "SaleId": 898,
+  "Probability": 301,
+  "Title": "quisquam",
+  "Amount": 22298.41,
+  "Currency": "sint",
+  "ProjectName": "Osinski-Gerlach",
+  "AssociateFullName": "Miss Alverta Tomasa Stiedemann DVM",
+  "Description": "Sharable analyzing middleware",
   "Status": "Lost",
-  "WeightedAmount": 21057.345999999998,
-  "ProjectId": 280,
-  "EarningPercent": 23357.701999999997,
-  "Earning": 21276.726,
-  "ContactId": 969,
-  "AssociateId": 83,
-  "PersonId": 429,
-  "SaleTypeId": 818,
-  "SaleTypeName": "Kessler-Fay",
-  "PersonFullName": "Miss Marley Krajcik DDS",
+  "WeightedAmount": 11545.655999999999,
+  "ProjectId": 194,
+  "EarningPercent": 789.768,
+  "Earning": 17368.628,
+  "ContactId": 489,
+  "AssociateId": 924,
+  "PersonId": 550,
+  "SaleTypeId": 530,
+  "SaleTypeName": "Koelpin, Keebler and Feest",
+  "PersonFullName": "Marlee Dibbert",
   "Completed": "Completed",
-  "ActiveErpLinks": 271,
-  "NextDueDate": "2016-03-05T10:30:24.5127522+01:00",
-  "Number": "1166337",
+  "ActiveErpLinks": 501,
+  "NextDueDate": "2005-12-14T14:23:47.331759+01:00",
+  "Number": "796827",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "autem",
-  "2": "assumenda"
+  "1": "id",
+  "2": "quo"
 }
 ```

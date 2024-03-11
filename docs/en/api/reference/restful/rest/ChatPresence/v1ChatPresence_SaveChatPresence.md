@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 99,
-    "DisplayName": "Marks, Price and Hansen",
-    "OngoingChats": 504,
+    "UserId": 7,
+    "DisplayName": "Mueller-Kuhlman",
+    "OngoingChats": 794,
     "Present": false,
     "ChatTopics": [
-      532,
-      242
+      529,
+      223
     ]
   },
   {
-    "UserId": 99,
-    "DisplayName": "Marks, Price and Hansen",
-    "OngoingChats": 504,
+    "UserId": 7,
+    "DisplayName": "Mueller-Kuhlman",
+    "OngoingChats": 794,
     "Present": false,
     "ChatTopics": [
-      532,
-      242
+      529,
+      223
     ]
   }
 ]

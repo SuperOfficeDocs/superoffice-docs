@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Langosh-Wiegand",
-    "ToolTip": "Voluptas accusantium molestiae provident deleniti nihil odio.",
+    "Id": 184,
+    "Name": "Predovic Group",
+    "ToolTip": "Numquam quibusdam in vero est.",
     "Deleted": false,
-    "Rank": 80,
-    "Type": "explicabo",
-    "ColorBlock": 663,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2023-01-04T10:30:32.8425633+01:00",
+    "Rank": 691,
+    "Type": "mollitia",
+    "ColorBlock": 293,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "1998-11-30T14:23:55.9470782+01:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Wilderman-O'Conner",
-        "ToolTip": "Accusamus exercitationem error distinctio repellendus blanditiis.",
+        "Id": 686,
+        "Name": "Corkery-Mohr",
+        "ToolTip": "Et quam.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "vitae",
-        "ColorBlock": 709,
-        "IconHint": "sunt",
+        "Rank": 890,
+        "Type": "voluptas",
+        "ColorBlock": 648,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2006-05-17T10:30:32.8425633+02:00",
+        "LastChanged": "2006-05-07T14:23:55.9470782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Prof. Brianne Gaston D'Amore DDS",
+        "ExtraInfo": "sint",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Prof. Clemens Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nobis",
-    "Hidden": true,
-    "FullName": "Prof. Green Myrtle Ullrich",
+    "ExtraInfo": "nam",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Janae Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

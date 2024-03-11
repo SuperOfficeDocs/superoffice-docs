@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=quis
-GET /api/v1/Pricelist?$top=857
-GET /api/v1/Pricelist?$skip=831
+GET /api/v1/Pricelist?$entities=dicta
+GET /api/v1/Pricelist?$top=681
+GET /api/v1/Pricelist?$skip=584
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=sit
+GET /api/v1/Pricelist?$context=doloribus
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "voluptatum",
   "value": [
     {
-      "PrimaryKey": 1614,
+      "PrimaryKey": 9515,
       "EntityName": "sale",
-      "saleId": 1614,
-      "contactId": 3821,
-      "name": "Champlin Inc and Sons"
+      "saleId": 9515,
+      "contactId": 883,
+      "name": "O'Hara, Cremin and Heaney"
     },
     {
-      "PrimaryKey": 364,
+      "PrimaryKey": 3624,
       "EntityName": "sale",
-      "saleId": 364,
-      "contactId": 1685,
-      "name": "Gusikowski, Kuvalis and Reichel"
+      "saleId": 3624,
+      "contactId": 437,
+      "name": "Sauer-Runte"
     }
   ]
 }

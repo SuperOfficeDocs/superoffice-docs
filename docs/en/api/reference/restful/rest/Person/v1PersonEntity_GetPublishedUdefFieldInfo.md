@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 98,
-  "ColumnId": 105,
-  "FieldDefault": "ut",
-  "FieldHeight": 834,
-  "FieldLabel": "rerum",
-  "FieldLeft": 638,
-  "FieldTop": 828,
+  "UDefFieldId": 857,
+  "ColumnId": 39,
+  "FieldDefault": "et",
+  "FieldHeight": 48,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 120,
+  "FieldTop": 168,
   "FieldType": "Checkbox",
-  "FieldWidth": 731,
-  "FormatMask": "tempore",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 257,
-  "LabelLeft": 997,
-  "LabelTop": 756,
-  "LabelWidth": 282,
-  "LastVersionId": 591,
-  "ListTableId": 114,
-  "IsMandatory": false,
+  "FieldWidth": 473,
+  "FormatMask": "eum",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 440,
+  "LabelLeft": 364,
+  "LabelTop": 873,
+  "LabelWidth": 206,
+  "LastVersionId": 340,
+  "ListTableId": 969,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 786,
-  "ProgId": "ex",
+  "Page1LineNo": 78,
+  "ProgId": "eaque",
   "IsReadOnly": true,
-  "ShortLabel": "odio",
-  "TabOrder": 778,
-  "TextLength": 854,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 894,
-  "UDListDefinitionId": 293,
+  "ShortLabel": "et",
+  "TabOrder": 249,
+  "TextLength": 391,
+  "Tooltip": "nobis",
+  "UdefIdentity": 973,
+  "UDListDefinitionId": 225,
   "Justification": "Center",
-  "Version": 469,
-  "TemplateVariableName": "Steuber, Heidenreich and Moore",
+  "Version": 350,
+  "TemplateVariableName": "Heathcote, Doyle and Smith",
   "HasBeenPublished": false,
-  "MdoListName": "West Inc and Sons",
+  "MdoListName": "Stamm-Labadie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 874
     }
   }
 }

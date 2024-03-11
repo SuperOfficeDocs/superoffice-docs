@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Wiza-Gutkowski",
-    "ToolTip": "Cumque officiis reprehenderit aliquam odio non.",
+    "Id": 172,
+    "Name": "Schaden-Luettgen",
+    "ToolTip": "Laboriosam non voluptatibus totam doloremque aut.",
     "Deleted": false,
-    "Rank": 6,
-    "Type": "dolore",
-    "ColorBlock": 275,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2009-11-24T10:30:33.1943329+01:00",
+    "Rank": 78,
+    "Type": "repellendus",
+    "ColorBlock": 139,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2003-10-08T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Runolfsdottir, Vandervort and Langworth",
-        "ToolTip": "Voluptas est optio pariatur.",
-        "Deleted": false,
-        "Rank": 118,
-        "Type": "qui",
-        "ColorBlock": 684,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2014-11-05T10:30:33.2099635+01:00",
+        "Id": 357,
+        "Name": "Upton Inc and Sons",
+        "ToolTip": "Et labore et.",
+        "Deleted": true,
+        "Rank": 282,
+        "Type": "libero",
+        "ColorBlock": 901,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2011-07-30T14:23:56.2908239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Gerry Dietrich",
+        "FullName": "Casey Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldLength": 399
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Mr. London Santino Ankunding",
+    "ExtraInfo": "quia",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Madison Hank Von Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 492
       }
     }
   }

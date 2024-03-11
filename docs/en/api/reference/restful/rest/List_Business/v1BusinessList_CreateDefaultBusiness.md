@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Bergnaum-Green",
-  "Tooltip": "molestiae",
+  "Id": 938,
+  "Name": "Adams-Buckridge",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 236,
-  "Rank": 337,
+  "UdListDefinitionId": 61,
+  "Rank": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

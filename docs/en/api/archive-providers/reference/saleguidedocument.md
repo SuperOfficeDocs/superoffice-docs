@@ -250,6 +250,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/person/personAssociate/userName|string|User name: User name| x |
 |documentInstance/person/personAssociate/personEmail|string|E-mail| x |
+|documentInstance/person/personAssociate/locationAddress|string|Location: Location| x |
 |documentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |documentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |documentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -280,6 +281,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/person/correspondingAssociate/userName|string|User name: User name| x |
 |documentInstance/person/correspondingAssociate/personEmail|string|E-mail| x |
+|documentInstance/person/correspondingAssociate/locationAddress|string|Location: Location| x |
 |documentInstance/person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |documentInstance/person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -331,12 +333,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |documentInstance/contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |documentInstance/contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
-|documentInstance/contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|documentInstance/contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
+|documentInstance/contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |documentInstance/contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |documentInstance/contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |documentInstance/contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
@@ -404,6 +406,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/contact/contactAssociate/userName|string|User name: User name| x |
 |documentInstance/contact/contactAssociate/personEmail|string|E-mail| x |
+|documentInstance/contact/contactAssociate/locationAddress|string|Location: Location| x |
 |documentInstance/contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |documentInstance/contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |documentInstance/contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -434,13 +437,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|documentInstance/contact/NumberOfActivities|int|Number of activities|  |
-|documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/NumberOfActivities|int|Number of activities|  |
+|documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |documentInstance/contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |documentInstance/contact/LastActivity|date|Date of last activity|  |
 |documentInstance/contact/LastCompletedActivity|date|Date of last completed activity|  |
@@ -531,20 +534,21 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/project/projectAssociate/userName|string|User name: User name| x |
 |documentInstance/project/projectAssociate/personEmail|string|E-mail| x |
+|documentInstance/project/projectAssociate/locationAddress|string|Location: Location| x |
 |documentInstance/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |documentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |documentInstance/project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |documentInstance/project/projectUdef/SuperOffice:4|date|projectdate| x |
 |documentInstance/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |documentInstance/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
-|documentInstance/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
-|documentInstance/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
-|documentInstance/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
-|documentInstance/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
+|documentInstance/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
+|documentInstance/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
+|documentInstance/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |documentInstance/project/NumberOfActivities|int|Number of activities|  |
 |documentInstance/project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -599,6 +603,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/associate/userName|string|User name: User name| x |
 |documentInstance/associate/personEmail|string|E-mail| x |
+|documentInstance/associate/locationAddress|string|Location: Location| x |
 |documentInstance/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |documentInstance/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |documentInstance/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -640,15 +645,15 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
 |documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |documentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
 |documentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |documentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |documentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
@@ -696,6 +701,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |documentInstance/sale/associate/userName|string|User name: User name| x |
 |documentInstance/sale/associate/personEmail|string|E-mail| x |
+|documentInstance/sale/associate/locationAddress|string|Location: Location| x |
 |documentInstance/sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |documentInstance/sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |documentInstance/sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -710,7 +716,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/snum,documentInstance/person/personUrl/URLDescription,documentInstance/person/personUdef/SuperOffice:2,documentInstance/contact/contactAssociate/personEmail,documentInstance/contact/contactUdef/SuperOffice:8
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/title,documentInstance/person/birthDay,documentInstance/person/personActiveErpLinks,documentInstance/person/searchPhone/description,documentInstance/person/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

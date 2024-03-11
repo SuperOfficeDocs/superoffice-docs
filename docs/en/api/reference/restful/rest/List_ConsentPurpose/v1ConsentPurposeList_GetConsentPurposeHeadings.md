@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 137,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 80,
-    "UdListDefinitionId": 897,
+    "HeadingId": 196,
+    "Name": "Schamberger LLC",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 923,
+    "UdListDefinitionId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldType": "System.String",
+        "FieldLength": 896
       }
     }
   }

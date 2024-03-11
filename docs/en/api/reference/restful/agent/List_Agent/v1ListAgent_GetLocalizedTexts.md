@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 857,
-    "ResourceId": 129,
-    "Text": "neque",
+    "LanguageId": 969,
+    "ResourceId": 344,
+    "Text": "dicta",
     "Type": "Column",
-    "LocalizedTextId": 748,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 11,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

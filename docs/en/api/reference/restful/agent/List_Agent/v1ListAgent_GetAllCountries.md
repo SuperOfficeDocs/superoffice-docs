@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 347,
-    "Name": "Conn, Kemmer and Simonis",
-    "CurrencyId": 29,
-    "EnglishName": "Dibbert-Cole",
+    "CountryId": 586,
+    "Name": "Ernser, Leannon and Anderson",
+    "CurrencyId": 231,
+    "EnglishName": "Ferry Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Fundamental mobile benchmark",
-    "OrgNrText": "966933",
-    "InterAreaPrefix": "nihil",
-    "DialInPrefix": "non",
-    "ZipPrefix": "rerum",
-    "DomainName": "Nicolas Inc and Sons",
-    "AddressLayoutId": 670,
-    "DomesticAddressLayoutId": 769,
-    "ForeignAddressLayoutId": 219,
-    "Rank": 813,
-    "Tooltip": "quia",
-    "Deleted": false,
+    "ImageDescription": "Optimized fault-tolerant migration",
+    "OrgNrText": "1255873",
+    "InterAreaPrefix": "temporibus",
+    "DialInPrefix": "unde",
+    "ZipPrefix": "et",
+    "DomainName": "Dach, Braun and Kuhic",
+    "AddressLayoutId": 647,
+    "DomesticAddressLayoutId": 491,
+    "ForeignAddressLayoutId": 674,
+    "Rank": 39,
+    "Tooltip": "eum",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

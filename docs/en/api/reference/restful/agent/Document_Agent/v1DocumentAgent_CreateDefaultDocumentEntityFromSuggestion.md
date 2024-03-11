@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 99
+  "SuggestedDocumentId": 475
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 399,
+  "DocumentId": 103,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "similique",
-  "Header": "praesentium",
-  "Name": "Erdman LLC",
-  "OurRef": "fuga",
-  "YourRef": "consequatur",
-  "CreatedDate": "1999-07-23T10:30:23.6886831+02:00",
-  "UpdatedDate": "2001-04-22T10:30:23.6886831+02:00",
-  "Description": "Configurable homogeneous local area network",
+  "Attention": "voluptatem",
+  "Header": "ab",
+  "Name": "Koss-Kemmer",
+  "OurRef": "totam",
+  "YourRef": "sed",
+  "CreatedDate": "2023-03-12T14:23:46.3918288+01:00",
+  "UpdatedDate": "2021-11-03T14:23:46.3918288+01:00",
+  "Description": "Synchronised modular leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-06-08T10:30:23.7043065+02:00",
-  "ExternalRef": "ea",
+  "Date": "1997-03-12T14:23:46.4074533+01:00",
+  "ExternalRef": "hic",
   "Completed": "Completed",
-  "ActiveLinks": 944,
+  "ActiveLinks": 288,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gusikowski, Stamm and Wisozk",
-      "Id": 544,
-      "Description": "Horizontal systemic data-warehouse",
-      "ExtraInfo": "quia",
-      "LinkId": 932,
+      "EntityName": "Lindgren-DuBuque",
+      "Id": 483,
+      "Description": "Business-focused secondary open system",
+      "ExtraInfo": "sit",
+      "LinkId": 534,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 518
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 73,
-  "Snum": 794,
+  "SuggestedDocumentId": 212,
+  "Snum": 99,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Lyla Pollich",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Darion Greenfelder",
+    "SuperOffice:2": "Isabell Zboncak"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "commodi"
+    "CustomFields1": "sit",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2019-05-21T10:30:23.7043065+02:00",
-  "PublishTo": "1999-04-07T10:30:23.7043065+02:00",
-  "PublishFrom": "1998-08-18T10:30:23.7043065+02:00",
+  "PublishEventDate": "2003-06-13T14:23:46.4074533+02:00",
+  "PublishTo": "1997-08-13T14:23:46.4074533+02:00",
+  "PublishFrom": "1997-06-25T14:23:46.4074533+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 78,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     },
     {
-      "VisibleId": 78,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldLength": 274
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Kshlerin Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 737,
-    "Rank": 976
+    "Id": 586,
+    "Name": "Oberbrunner-Bernier",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "UdListDefinitionId": 252,
+    "Rank": 381
   },
   {
-    "Id": 651,
-    "Name": "Kshlerin Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 737,
-    "Rank": 976
+    "Id": 586,
+    "Name": "Oberbrunner-Bernier",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "UdListDefinitionId": 252,
+    "Rank": 381
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Mayert Group",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "UdListDefinitionId": 659,
-    "Rank": 165,
+    "Id": 309,
+    "Name": "Predovic, Cassin and Olson",
+    "Tooltip": "error",
+    "Deleted": false,
+    "UdListDefinitionId": 94,
+    "Rank": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 894
       }
     }
   }

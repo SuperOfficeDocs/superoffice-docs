@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Runte Group",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 85,
-  "Rank": 138,
+  "Id": 664,
+  "Name": "Schoen, Ferry and Grant",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "UdListDefinitionId": 752,
+  "Rank": 350,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

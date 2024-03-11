@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Aufderhar LLC"
+  "Name": "Crooks Group"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Padberg-Hackett",
-    "ToolTip": "Totam vel.",
+    "Id": 405,
+    "Name": "Larson-Shanahan",
+    "ToolTip": "Et tenetur fuga.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "qui",
+    "Rank": 556,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Gulgowski, Volkman and Thompson",
-        "ToolTip": "Culpa et aut aspernatur eaque quam culpa cumque.",
+        "Id": 765,
+        "Name": "Hane, Runolfsdottir and VonRueden",
+        "ToolTip": "Libero est harum dolores et dolore ut facilis.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "velit",
+        "Rank": 882,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 359,
-        "ExtraInfo": "dolores",
-        "StyleHint": "aut",
-        "FullName": "Prof. Laurine Altenwerth",
+        "IconHint": "occaecati",
+        "ColorBlock": 134,
+        "ExtraInfo": "earum",
+        "StyleHint": "voluptatem",
+        "FullName": "Candice Nikolaus II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 755
+            "FieldType": "System.String",
+            "FieldLength": 186
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 481,
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptatibus",
-    "FullName": "Miss Cydney Ines Jenkins I",
+    "IconHint": "occaecati",
+    "ColorBlock": 44,
+    "ExtraInfo": "dolor",
+    "StyleHint": "sed",
+    "FullName": "Dr. Willy Lourdes Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 198
       }
     }
   }

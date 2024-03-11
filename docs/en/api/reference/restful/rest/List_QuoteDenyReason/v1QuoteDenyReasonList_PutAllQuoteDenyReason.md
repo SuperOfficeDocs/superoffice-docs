@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Nolan-Yundt",
-    "Tooltip": "qui",
+    "Id": 877,
+    "Name": "Howell-Howell",
+    "Tooltip": "magnam",
     "Deleted": true,
-    "UdListDefinitionId": 575,
-    "Rank": 807
+    "UdListDefinitionId": 962,
+    "Rank": 666
   },
   {
-    "Id": 846,
-    "Name": "Nolan-Yundt",
-    "Tooltip": "qui",
+    "Id": 877,
+    "Name": "Howell-Howell",
+    "Tooltip": "magnam",
     "Deleted": true,
-    "UdListDefinitionId": 575,
-    "Rank": 807
+    "UdListDefinitionId": 962,
+    "Rank": 666
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Romaguera-Littel",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "UdListDefinitionId": 341,
-    "Rank": 47,
+    "Id": 692,
+    "Name": "Blick Inc and Sons",
+    "Tooltip": "perspiciatis",
+    "Deleted": false,
+    "UdListDefinitionId": 491,
+    "Rank": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldLength": 863
       }
     }
   }

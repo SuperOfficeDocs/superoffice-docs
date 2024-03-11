@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 337,
-  "Name": "Schamberger-Kozey",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 523,
-  "UdListDefinitionId": 224
+  "HeadingId": 347,
+  "Name": "Gerhold Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 137,
+  "UdListDefinitionId": 97
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Larkin-King",
-  "Tooltip": "doloribus",
+  "HeadingId": 794,
+  "Name": "Hoeger LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 465,
-  "UdListDefinitionId": 546,
+  "Rank": 122,
+  "UdListDefinitionId": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldLength": 201
     }
   }
 }

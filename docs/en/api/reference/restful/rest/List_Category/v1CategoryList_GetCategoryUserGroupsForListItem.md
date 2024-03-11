@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Ziemann, Stokes and Beahan",
-    "ToolTip": "Nihil qui omnis.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "qui",
-    "ColorBlock": 626,
-    "IconHint": "non",
+    "Id": 617,
+    "Name": "Hamill, Bradtke and Torphy",
+    "ToolTip": "Ut nesciunt ut quia id beatae.",
+    "Deleted": false,
+    "Rank": 450,
+    "Type": "odit",
+    "ColorBlock": 39,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2012-01-20T10:30:32.8794964+01:00",
+    "LastChanged": "2012-11-17T14:23:55.9783277+01:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Hirthe-Marvin",
-        "ToolTip": "Voluptates corrupti iusto ab.",
+        "Id": 827,
+        "Name": "Lueilwitz, Willms and Feil",
+        "ToolTip": "Sit dolorem inventore.",
         "Deleted": true,
-        "Rank": 44,
-        "Type": "quas",
-        "ColorBlock": 661,
-        "IconHint": "quia",
+        "Rank": 263,
+        "Type": "exercitationem",
+        "ColorBlock": 680,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2011-04-05T10:30:32.8805387+02:00",
+        "LastChanged": "1998-10-22T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ipsum",
-        "StyleHint": "rerum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Isadore Strosin",
+        "FullName": "Doyle Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldType": "System.String",
+            "FieldLength": 950
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Zachary Kunde",
+    "ExtraInfo": "cum",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Miss Alicia Gardner Upton I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 383
       }
     }
   }

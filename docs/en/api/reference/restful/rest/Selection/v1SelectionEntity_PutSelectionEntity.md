@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Visionary regional service-desk",
-  "Postit": "reiciendis",
+  "Description": "Business-focused demand-driven application",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 801,
-  "IncludePerson": 178,
-  "MemberCount": 683,
-  "Name": "Marquardt, Barton and Lindgren",
-  "PostitTextId": 299,
-  "CreatedDate": "2021-05-03T10:30:32.4968779+02:00",
-  "SelectionId": 46,
-  "SoundEx": "est",
-  "Source": 664,
-  "TextId": 670,
-  "UpdatedDate": "2021-05-29T10:30:32.4968779+02:00",
-  "UpdatedCount": 775,
-  "Visibility": 661,
+  "GroupIdx": 77,
+  "IncludePerson": 661,
+  "MemberCount": 447,
+  "Name": "Thompson-Rowe",
+  "PostitTextId": 921,
+  "CreatedDate": "2022-04-02T14:23:55.4939585+02:00",
+  "SelectionId": 153,
+  "SoundEx": "sint",
+  "Source": 165,
+  "TextId": 834,
+  "UpdatedDate": "2004-04-01T14:23:55.4939585+02:00",
+  "UpdatedCount": 678,
+  "Visibility": 660,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 166,
-  "TargetTableName": "Skiles-Wunsch",
-  "Completed": false,
-  "LeftSelectionId": 307,
-  "RightSelectionId": 797,
+  "CompanyUnique": true,
+  "TargetTableNumber": 589,
+  "TargetTableName": "Greenfelder LLC",
+  "Completed": true,
+  "LeftSelectionId": 734,
+  "RightSelectionId": 244,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schowalter, Mraz and Lemke",
-  "ShadowProviderName": "Olson Inc and Sons",
-  "ChartKey": "eum",
-  "LastLoaded": "2017-03-18T10:30:32.4968779+01:00",
-  "LastLoadedBy": 663,
+  "MainProviderName": "Hermann, Stark and Dickinson",
+  "ShadowProviderName": "Wehner, Labadie and O'Connell",
+  "ChartKey": "magni",
+  "LastLoaded": "2012-07-31T14:23:55.4939585+02:00",
+  "LastLoadedBy": 370,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-04-30T10:30:32.4968779+02:00",
-  "LastMembershipChangeBy": 611,
+  "LastMembershipChange": "2014-03-07T14:23:55.4939585+01:00",
+  "LastMembershipChangeBy": 715,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "soluta",
-  "MemberTabHeading": "saepe",
-  "MailingsProviderName": "Harber Group",
-  "DashboardTileDefinitionId": 530,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "aliquam",
+  "MailingsProviderName": "Rodriguez LLC",
+  "DashboardTileDefinitionId": 480,
   "VisibleFor": [
     {
-      "VisibleId": 851,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "nam"
     },
     {
-      "VisibleId": 851,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "nam"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory static firmware",
-  "Postit": "ex",
+  "Description": "Reactive 24 hour orchestration",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 862,
-  "IncludePerson": 378,
-  "MemberCount": 459,
-  "Name": "White Group",
-  "PostitTextId": 946,
-  "CreatedDate": "2008-05-18T10:30:32.4968779+02:00",
-  "SelectionId": 822,
-  "SoundEx": "blanditiis",
-  "Source": 348,
-  "TextId": 781,
-  "UpdatedDate": "2017-02-01T10:30:32.4968779+01:00",
-  "UpdatedCount": 878,
-  "Visibility": 786,
+  "GroupIdx": 639,
+  "IncludePerson": 455,
+  "MemberCount": 46,
+  "Name": "Cummerata, Reinger and Green",
+  "PostitTextId": 589,
+  "CreatedDate": "2023-08-01T14:23:55.509584+02:00",
+  "SelectionId": 982,
+  "SoundEx": "ipsum",
+  "Source": 572,
+  "TextId": 513,
+  "UpdatedDate": "2019-12-03T14:23:55.509584+01:00",
+  "UpdatedCount": 675,
+  "Visibility": 372,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 250,
-  "TargetTableName": "Bednar Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 81,
+  "TargetTableName": "Rosenbaum, Pouros and Marquardt",
   "Completed": false,
-  "LeftSelectionId": 481,
-  "RightSelectionId": 104,
+  "LeftSelectionId": 498,
+  "RightSelectionId": 159,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer, Cremin and Rohan",
-  "ShadowProviderName": "Heaney, Cummerata and Wolff",
-  "ChartKey": "eum",
-  "LastLoaded": "2009-08-03T10:30:32.4968779+02:00",
-  "LastLoadedBy": 731,
+  "MainProviderName": "West, Predovic and Zulauf",
+  "ShadowProviderName": "Hackett, Kuhn and Bartoletti",
+  "ChartKey": "ducimus",
+  "LastLoaded": "1998-02-28T14:23:55.509584+01:00",
+  "LastLoadedBy": 272,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-12-18T10:30:32.4968779+01:00",
-  "LastMembershipChangeBy": 925,
+  "LastMembershipChange": "2017-01-16T14:23:55.509584+01:00",
+  "LastMembershipChangeBy": 40,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sequi",
-  "MemberTabHeading": "facere",
-  "MailingsProviderName": "Lind, Abernathy and Weber",
-  "DashboardTileDefinitionId": 388,
+  "MainHeading": "qui",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Tremblay, Kovacek and Simonis",
+  "DashboardTileDefinitionId": 931,
   "VisibleFor": [
     {
-      "VisibleId": 766,
+      "VisibleId": 408,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 121
         }
       }
     },
     {
-      "VisibleId": 766,
+      "VisibleId": 408,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 121
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   },
   "_Links": {

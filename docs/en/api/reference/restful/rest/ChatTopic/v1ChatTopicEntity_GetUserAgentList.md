@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Dietrich, Feil and Schumm",
-    "ToolTip": "Occaecati consequatur dolores impedit eaque ut omnis sit.",
+    "Id": 598,
+    "Name": "Abshire Inc and Sons",
+    "ToolTip": "Non aliquam.",
     "Deleted": false,
-    "Rank": 572,
-    "Type": "voluptates",
+    "Rank": 666,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "O'Keefe-Hahn",
-        "ToolTip": "Dolore perspiciatis dolorum a ut facilis.",
+        "Id": 268,
+        "Name": "West-O'Keefe",
+        "ToolTip": "Ex aut non esse voluptatem praesentium labore.",
         "Deleted": true,
-        "Rank": 887,
-        "Type": "aut",
+        "Rank": 851,
+        "Type": "error",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 360,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "accusamus",
-        "FullName": "Jaeden Reinger",
+        "IconHint": "voluptas",
+        "ColorBlock": 869,
+        "ExtraInfo": "quae",
+        "StyleHint": "voluptas",
+        "FullName": "Kiara McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldType": "System.Int32",
+            "FieldLength": 567
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 591,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "unde",
-    "FullName": "Nasir Cassin II",
+    "IconHint": "aliquid",
+    "ColorBlock": 165,
+    "ExtraInfo": "sunt",
+    "StyleHint": "impedit",
+    "FullName": "Lindsay Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   }

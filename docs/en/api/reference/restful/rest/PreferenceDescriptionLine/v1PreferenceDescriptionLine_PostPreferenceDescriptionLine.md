@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 560,
-  "PrefDescId": 962,
-  "PrefValue": "numquam",
-  "PrefShowValue": "consequatur",
-  "Description": "Profit-focused user-facing open system",
-  "IsBuiltin": true
+  "PrefDescLineId": 537,
+  "PrefDescId": 685,
+  "PrefValue": "velit",
+  "PrefShowValue": "sit",
+  "Description": "Right-sized intangible hardware",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 919,
-  "PrefDescId": 34,
-  "PrefValue": "ipsam",
-  "PrefShowValue": "dicta",
-  "Description": "Quality-focused fault-tolerant conglomeration",
+  "PrefDescLineId": 464,
+  "PrefDescId": 883,
+  "PrefValue": "ipsa",
+  "PrefShowValue": "hic",
+  "Description": "Cloned global neural-net",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

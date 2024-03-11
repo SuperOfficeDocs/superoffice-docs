@@ -90,18 +90,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 343,
-  "Name": "Abshire Inc and Sons",
-  "ContentType": "rerum",
-  "AttSize": 830,
-  "InlineImage": true,
-  "ContentId": "vel",
-  "AuthKey": "ad",
-  "IsSafeFileExtension": false
+  "AttachmentId": 855,
+  "Name": "Terry, Abbott and Adams",
+  "ContentType": "ea",
+  "AttSize": 1001,
+  "InlineImage": false,
+  "ContentId": "cum",
+  "AuthKey": "dicta",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 351,
-  "Name": "Rutherford, Littel and Hegmann",
-  "ContentType": "sunt",
-  "AttSize": 515,
+  "AttachmentId": 768,
+  "Name": "Bayer LLC",
+  "ContentType": "sint",
+  "AttSize": 124,
   "InlineImage": false,
-  "ContentId": "in",
-  "AuthKey": "est",
-  "IsSafeFileExtension": true,
+  "ContentId": "est",
+  "AuthKey": "temporibus",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldLength": 779
     }
   },
   "_Links": {

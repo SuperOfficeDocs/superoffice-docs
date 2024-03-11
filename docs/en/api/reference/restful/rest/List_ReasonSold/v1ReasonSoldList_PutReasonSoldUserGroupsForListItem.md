@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "McLaughlin Inc and Sons",
-    "ToolTip": "Facilis fugiat velit eaque.",
+    "Id": 374,
+    "Name": "Murphy LLC",
+    "ToolTip": "Non enim aut quis sint.",
     "Deleted": true,
-    "Rank": 306,
-    "Type": "similique",
-    "ColorBlock": 678,
-    "IconHint": "odio",
+    "Rank": 258,
+    "Type": "a",
+    "ColorBlock": 416,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2020-03-08T10:30:33.2099635+01:00",
+    "LastChanged": "2010-04-04T14:23:56.3064496+02:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Autem rerum ut dolore quibusdam voluptatem provident.",
-        "Deleted": true,
-        "Rank": 275,
-        "Type": "dolores",
-        "ColorBlock": 735,
-        "IconHint": "eveniet",
+        "Id": 971,
+        "Name": "Blick Group",
+        "ToolTip": "Deserunt facere qui qui mollitia ut.",
+        "Deleted": false,
+        "Rank": 822,
+        "Type": "sapiente",
+        "ColorBlock": 378,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2008-03-04T10:30:33.2099635+01:00",
+        "LastChanged": "2021-09-13T14:23:56.3064496+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "iure",
+        "ExtraInfo": "maiores",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Bertha Swift"
+        "FullName": "Dr. Hayden Nolan Brown II"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Eliane Mayer"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "possimus",
+    "Hidden": true,
+    "FullName": "Reid Schaefer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Nitzsche LLC",
-    "ToolTip": "Adipisci dolores saepe.",
+    "Id": 74,
+    "Name": "Hand LLC",
+    "ToolTip": "Eum distinctio amet similique.",
     "Deleted": false,
-    "Rank": 77,
-    "Type": "quis",
-    "ColorBlock": 565,
-    "IconHint": "alias",
+    "Rank": 813,
+    "Type": "minima",
+    "ColorBlock": 441,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1998-11-25T10:30:33.2099635+01:00",
+    "LastChanged": "2008-11-12T14:23:56.3064496+01:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Murazik-Schmeler",
-        "ToolTip": "Optio blanditiis et in.",
+        "Id": 964,
+        "Name": "Goyette-Mann",
+        "ToolTip": "Praesentium natus ut reiciendis.",
         "Deleted": false,
-        "Rank": 872,
-        "Type": "nisi",
-        "ColorBlock": 589,
-        "IconHint": "explicabo",
+        "Rank": 716,
+        "Type": "nam",
+        "ColorBlock": 342,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2017-07-09T10:30:33.2099635+02:00",
+        "LastChanged": "2013-07-14T14:23:56.3064496+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Carson Russel",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mr. Lexi Orville Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "quidem",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "quisquam",
     "Hidden": true,
-    "FullName": "Steve Kassulke",
+    "FullName": "Dejon Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 21
       }
     }
   }

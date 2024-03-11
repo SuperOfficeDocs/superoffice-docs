@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Hane Inc and Sons",
-    "ToolTip": "Ullam recusandae voluptas.",
+    "Id": 58,
+    "Name": "Stark-Weber",
+    "ToolTip": "Ut quidem iste aut qui.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "distinctio",
-    "ColorBlock": 570,
-    "IconHint": "maiores",
+    "Rank": 716,
+    "Type": "iure",
+    "ColorBlock": 703,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2016-08-17T10:30:33.131835+02:00",
+    "LastChanged": "2011-07-04T14:23:56.228325+02:00",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Emard-Orn",
-        "ToolTip": "Velit et error sunt velit nemo.",
+        "Id": 436,
+        "Name": "Zulauf, Ledner and McDermott",
+        "ToolTip": "Est sequi quia.",
         "Deleted": true,
-        "Rank": 741,
-        "Type": "quis",
-        "ColorBlock": 416,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2000-07-10T10:30:33.131835+02:00",
+        "Rank": 758,
+        "Type": "dolor",
+        "ColorBlock": 664,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1999-02-16T14:23:56.228325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "corporis",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Loyce Volkman"
+        "FullName": "Emerson Roob"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Dovie Kris"
+    "ExtraInfo": "consectetur",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Christy Macejkovic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Wilderman, Toy and Olson",
-    "ToolTip": "Optio possimus omnis sed quibusdam atque similique provident.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "veniam",
-    "ColorBlock": 39,
-    "IconHint": "suscipit",
+    "Id": 605,
+    "Name": "Daugherty, Senger and Ziemann",
+    "ToolTip": "Quia ea quia voluptatem accusamus ipsa.",
+    "Deleted": true,
+    "Rank": 465,
+    "Type": "voluptatem",
+    "ColorBlock": 149,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2021-09-20T10:30:33.131835+02:00",
+    "LastChanged": "2016-09-04T14:23:56.228325+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Rempel Inc and Sons",
-        "ToolTip": "Dolore omnis voluptatem quas ut sed.",
+        "Id": 537,
+        "Name": "Lakin Group",
+        "ToolTip": "Voluptatem sit optio quia rem tenetur labore eos.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "dolore",
-        "ColorBlock": 253,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2019-08-28T10:30:33.131835+02:00",
+        "Rank": 769,
+        "Type": "provident",
+        "ColorBlock": 875,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2023-08-29T14:23:56.228325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Otha Schmitt",
+        "FullName": "Dr. Jayda Dudley Weber DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldType": "System.String",
+            "FieldLength": 593
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Gail Stokes",
+    "FullName": "Shayna Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

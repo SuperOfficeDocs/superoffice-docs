@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "vel",
-  "SignOffText": "blanditiis",
-  "SignOnConfirmationText": "quas",
-  "SignOnText": "architecto",
-  "EventDate": "2001-03-10T10:30:24.3237103+01:00",
+  "SignOffConfirmationText": "ab",
+  "SignOffText": "rerum",
+  "SignOnConfirmationText": "ad",
+  "SignOnText": "nihil",
+  "EventDate": "2007-04-12T14:23:47.1442591+02:00",
   "Enabled": false,
-  "CreatedDate": "2006-01-30T10:30:24.3237103+01:00",
+  "CreatedDate": "2007-04-28T14:23:47.1442591+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 606,
+  "SignOffTaskId": 110,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 90,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2001-01-28T10:30:24.3237103+01:00",
+  "SignOnTaskId": 527,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2015-07-13T14:23:47.1442591+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 275,
-  "Id": 231,
-  "PublishFrom": "2019-03-07T10:30:24.3237103+01:00",
+  "ProjectId": 811,
+  "Id": 363,
+  "PublishFrom": "2015-04-05T14:23:47.1442591+02:00",
   "PublishType": "External",
-  "PublishTo": "2005-02-12T10:30:24.3237103+01:00",
+  "PublishTo": "2007-05-15T14:23:47.1442591+02:00",
   "VisibleForCategories": [
     {
-      "Id": 668,
-      "Name": "Beatty-Simonis",
-      "ToolTip": "Aut quibusdam inventore quae numquam ex praesentium.",
+      "Id": 841,
+      "Name": "Borer-Hansen",
+      "ToolTip": "Molestias corrupti magnam ipsa repellendus modi a.",
       "Deleted": true,
-      "Rank": 199,
-      "Type": "sequi",
+      "Rank": 112,
+      "Type": "quidem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 490,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "fugiat",
-      "FullName": "Margarett Oberbrunner",
+      "IconHint": "occaecati",
+      "ColorBlock": 468,
+      "ExtraInfo": "saepe",
+      "StyleHint": "ut",
+      "FullName": "Kane Crooks Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldLength": 607
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 856,
-      "Name": "Schulist-Purdy",
-      "ToolTip": "Ullam recusandae perferendis.",
-      "Deleted": true,
-      "Rank": 243,
-      "Type": "necessitatibus",
+      "Id": 402,
+      "Name": "Schowalter Inc and Sons",
+      "ToolTip": "Officia ut assumenda quia dicta adipisci voluptatem.",
+      "Deleted": false,
+      "Rank": 498,
+      "Type": "fuga",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ducimus",
-      "ColorBlock": 85,
-      "ExtraInfo": "culpa",
-      "StyleHint": "distinctio",
-      "FullName": "Miss Golden Rosa Jacobson DDS",
+      "IconHint": "sequi",
+      "ColorBlock": 911,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "voluptatem",
+      "FullName": "Ronaldo Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldLength": 534
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 864,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 993
     }
   }
 }

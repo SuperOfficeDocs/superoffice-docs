@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 827,
-  "Name": "Durgan-Green",
+  "ScreenChooserId": 185,
+  "Name": "Nolan, O'Hara and Parker",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "illo",
-  "Source": "at",
-  "Registered": "2017-02-06T10:30:32.6543487+01:00",
-  "RegisteredAssociateId": 180,
-  "Updated": "2022-03-11T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 946,
+  "UniqueIdentifier": "perferendis",
+  "Source": "voluptatem",
+  "Registered": "2015-08-10T14:23:55.7595795+02:00",
+  "RegisteredAssociateId": 812,
+  "Updated": "2018-12-13T14:23:55.7595795+01:00",
+  "UpdatedAssociateId": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

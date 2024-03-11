@@ -103,12 +103,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 375,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2012-11-03T10:30:23.5925282+01:00",
-  "EndTime": "2019-10-03T10:30:23.5925282+02:00",
-  "Count": 640,
-  "DocumentTemplateId": 362
+  "PersonId": 301,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2016-10-29T14:23:46.2980824+02:00",
+  "EndTime": "2012-11-05T14:23:46.2980824+01:00",
+  "Count": 61,
+  "DocumentTemplateId": 53
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 563,
-    "Attention": "est",
-    "Header": "reprehenderit",
-    "Name": "Konopelski, Fadel and Stanton",
-    "OurRef": "amet",
-    "YourRef": "odit",
-    "Description": "Ameliorated exuding system engine",
-    "DocumentTemplate": "sit",
-    "IsPublished": true,
-    "PersonId": 550,
-    "PersonFullName": "Miss Doris Funk",
-    "AssociateFullName": "Ardith Coleman Moen III",
-    "ContactId": 544,
-    "ContactName": "Mertz LLC",
-    "ProjectId": 591,
-    "ProjectName": "Auer-Barton",
-    "AssociateId": 705,
-    "Snum": 232,
-    "SaleId": 97,
-    "SaleName": "Torp Group",
+    "DocumentId": 884,
+    "Attention": "sint",
+    "Header": "soluta",
+    "Name": "Weber Inc and Sons",
+    "OurRef": "asperiores",
+    "YourRef": "necessitatibus",
+    "Description": "Adaptive multi-tasking hub",
+    "DocumentTemplate": "quidem",
+    "IsPublished": false,
+    "PersonId": 361,
+    "PersonFullName": "Mrs. Abner Brandt Hegmann II",
+    "AssociateFullName": "Shawna Monahan",
+    "ContactId": 526,
+    "ContactName": "O'Hara LLC",
+    "ProjectId": 854,
+    "ProjectName": "Konopelski LLC",
+    "AssociateId": 831,
+    "Snum": 38,
+    "SaleId": 63,
+    "SaleName": "Waelchi-Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

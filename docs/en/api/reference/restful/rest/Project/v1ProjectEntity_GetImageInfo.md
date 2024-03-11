@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Sep 2015 10:30:32 G9T
+Last-Modified: Thu, 28 Sep 2006 14:23:55 G9T
 
 {
-  "BlobId": 630,
-  "BlobSize": 3,
-  "Description": "User-centric real-time info-mediaries",
-  "ExtraInfo": "placeat",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "earum",
-  "OriginalSize": 264,
-  "CreatedDate": "2018-01-25T10:30:32.2449231+01:00",
-  "UpdatedDate": "2015-09-05T10:30:32.2449231+02:00",
+  "BlobId": 866,
+  "BlobSize": 774,
+  "Description": "Reverse-engineered asynchronous website",
+  "ExtraInfo": "sunt",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "esse",
+  "OriginalSize": 686,
+  "CreatedDate": "2018-11-03T14:23:55.3689602+01:00",
+  "UpdatedDate": "2006-09-28T14:23:55.3689602+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rem",
+  "ConceptualType": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 63
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Brown, Buckridge and Kozey",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "UdListDefinitionId": 593,
-  "Rank": 889
+  "Id": 878,
+  "Name": "Herman-Hartmann",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 791,
+  "Rank": 329
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Mraz, Franecki and Kub",
-  "Tooltip": "provident",
+  "Id": 560,
+  "Name": "Konopelski Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 755,
+  "UdListDefinitionId": 456,
+  "Rank": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 211
     }
   }
 }

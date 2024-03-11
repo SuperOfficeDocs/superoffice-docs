@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 197,
-    "Name": "McClure-Emmerich",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "Rank": 525,
-    "UdListDefinitionId": 110,
+    "HeadingId": 565,
+    "Name": "Halvorson, Bode and Oberbrunner",
+    "Tooltip": "amet",
+    "Deleted": true,
+    "Rank": 82,
+    "UdListDefinitionId": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldType": "System.String",
+        "FieldLength": 135
       }
     }
   }

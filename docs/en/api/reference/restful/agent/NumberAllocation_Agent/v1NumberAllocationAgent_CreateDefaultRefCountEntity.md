@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 181,
-  "Field": "autem",
-  "RecordId": 105,
+  "RefCountsId": 57,
+  "Field": "aspernatur",
+  "RecordId": 944,
   "SuggestedRecords": [
     {
-      "Id": 23,
-      "Name": "Dooley-Hegmann",
-      "ToolTip": "Aut expedita.",
-      "Deleted": true,
-      "Rank": 523,
-      "Type": "omnis",
+      "Id": 363,
+      "Name": "Lang-Brakus",
+      "ToolTip": "Repudiandae odit.",
+      "Deleted": false,
+      "Rank": 680,
+      "Type": "laboriosam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 139,
-      "ExtraInfo": "aut",
-      "StyleHint": "consectetur",
-      "FullName": "Jedediah Jast",
+      "IconHint": "doloremque",
+      "ColorBlock": 903,
+      "ExtraInfo": "vero",
+      "StyleHint": "odio",
+      "FullName": "Prof. Heidi Gracie Roob",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 887
         }
       }
     }
   ],
-  "CurrentValue": 728,
-  "TravelPrefix": 73,
-  "SatPrefix": 994,
+  "CurrentValue": 270,
+  "TravelPrefix": 974,
+  "SatPrefix": 728,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 521
     }
   }
 }

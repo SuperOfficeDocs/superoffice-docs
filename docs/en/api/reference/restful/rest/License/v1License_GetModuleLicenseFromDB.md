@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Zieme, Watsica and Bednar",
-  "ModuleName": "Kovacek Group",
-  "ModuleDescription": "Integrated uniform solution",
-  "ModuleTooltip": "est",
-  "ModuleVersion": "quos",
+  "OwnerName": "Labadie, Heathcote and Wisoky",
+  "ModuleName": "Kovacek, Huels and Medhurst",
+  "ModuleDescription": "Organic value-added frame",
+  "ModuleTooltip": "id",
+  "ModuleVersion": "eius",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 552,
-  "ExtraFlags": 236,
-  "ExtraInfo": "omnis",
-  "SortOrder": 516,
+  "NumberOfLicenses": 580,
+  "ExtraFlags": 615,
+  "ExtraInfo": "eaque",
+  "SortOrder": 204,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Ratke, Wiegand and King",
-  "Signature": "neque"
+  "PrerequisiteModuleName": "Ledner Group",
+  "Signature": "amet"
 }
 ```

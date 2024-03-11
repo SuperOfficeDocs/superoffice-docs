@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "distinctio",
-    "est"
+    "vero",
+    "maiores"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 674,
-    "ResourceId": 371,
-    "Text": "quisquam",
+    "LanguageId": 451,
+    "ResourceId": 963,
+    "Text": "sint",
     "Type": "Column",
-    "LocalizedTextId": 1001,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 115,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 211
       }
     }
   }

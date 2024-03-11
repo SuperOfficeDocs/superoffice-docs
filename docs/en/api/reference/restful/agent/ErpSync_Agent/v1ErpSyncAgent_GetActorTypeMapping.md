@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 279,
+  "ErpConnectionId": 765,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 509,
-  "IsActive": true,
+  "ErpConnectionId": 846,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 171,
-      "CrmFieldKey": "nisi",
-      "CrmDisplayName": "Rodriguez, Weimann and Wisoky",
-      "CrmDisplayTooltip": "rerum",
-      "ErpFieldKey": "commodi",
+      "ErpFieldId": 550,
+      "CrmFieldKey": "nemo",
+      "CrmDisplayName": "Murazik, Littel and Kessler",
+      "CrmDisplayTooltip": "voluptates",
+      "ErpFieldKey": "ipsum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Williamson-Medhurst",
-      "ErpDisplayTooltip": "libero",
+      "ErpDisplayName": "Oberbrunner-Jacobs",
+      "ErpDisplayTooltip": "optio",
       "SyncToCrm": true,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
-      "MissingInCRM": true,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "possimus",
+      "ListReference": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 522
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 482
     }
   }
 }

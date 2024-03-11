@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 91
+  "DashboardId": 915
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Daniel Inc and Sons",
-  "Description": "Advanced assymetric budgetary management",
-  "OwnedByFullName": "Uriel Bode",
-  "Registered": "2023-03-08T10:30:23.4519051+01:00",
+  "Name": "Kshlerin-Stamm",
+  "Description": "Reduced explicit knowledge user",
+  "OwnedByFullName": "Ms. Mathias Kris",
+  "Registered": "2017-10-06T14:23:46.251207+02:00",
   "Tiles": [
     {
-      "Name": "Heathcote, Frami and Hammes",
+      "Name": "Balistreri-Predovic",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     },
     {
-      "Name": "Heathcote, Frami and Hammes",
+      "Name": "Balistreri-Predovic",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 804
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

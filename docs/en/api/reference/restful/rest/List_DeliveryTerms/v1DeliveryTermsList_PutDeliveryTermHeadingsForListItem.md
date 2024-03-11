@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Jast, McLaughlin and Kovacek",
-    "ToolTip": "Alias facere vero voluptatibus quod voluptatem voluptatem.",
-    "Deleted": true,
-    "Rank": 39,
-    "Type": "repellat",
-    "ColorBlock": 585,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2020-05-05T10:30:32.9743325+02:00",
+    "Id": 610,
+    "Name": "Frami LLC",
+    "ToolTip": "Molestiae provident nihil molestiae.",
+    "Deleted": false,
+    "Rank": 46,
+    "Type": "ab",
+    "ColorBlock": 303,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2023-04-19T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Heller-Gulgowski",
-        "ToolTip": "Rem iusto laudantium.",
+        "Id": 273,
+        "Name": "Breitenberg LLC",
+        "ToolTip": "Eos pariatur magni odio ipsam recusandae distinctio.",
         "Deleted": true,
-        "Rank": 600,
-        "Type": "maxime",
-        "ColorBlock": 638,
-        "IconHint": "est",
+        "Rank": 815,
+        "Type": "vitae",
+        "ColorBlock": 136,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "1997-04-08T10:30:32.9743325+02:00",
+        "LastChanged": "2014-08-30T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Giovanny Dawson Corkery DDS"
+        "ExtraInfo": "animi",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Anna Brakus"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "vero",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Jayson Beer"
+    "FullName": "Prof. Reed Sigurd Kub PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Cummings-Schmidt",
-    "ToolTip": "Neque veniam quia temporibus.",
+    "Id": 608,
+    "Name": "Beatty, Nicolas and Deckow",
+    "ToolTip": "Et illum.",
     "Deleted": true,
-    "Rank": 379,
-    "Type": "veniam",
-    "ColorBlock": 705,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2016-06-08T10:30:32.9743325+02:00",
+    "Rank": 178,
+    "Type": "exercitationem",
+    "ColorBlock": 857,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2012-04-12T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Yost Inc and Sons",
-        "ToolTip": "Perferendis perferendis magnam hic.",
+        "Id": 72,
+        "Name": "O'Reilly, Nikolaus and Lakin",
+        "ToolTip": "Quis velit et iste delectus tenetur.",
         "Deleted": false,
-        "Rank": 353,
-        "Type": "laboriosam",
-        "ColorBlock": 18,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "2018-11-11T10:30:32.9743325+01:00",
+        "Rank": 241,
+        "Type": "aspernatur",
+        "ColorBlock": 750,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2008-09-07T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ipsum",
-        "Hidden": true,
-        "FullName": "Leila Hartmann",
+        "ExtraInfo": "nihil",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Miss Cleora Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 960
+            "FieldType": "System.Int32",
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Tracy Georgianna Pollich PhD",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Garfield Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldType": "System.String",
+        "FieldLength": 818
       }
     }
   }

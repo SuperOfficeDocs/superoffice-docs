@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 354,
-    "Name": "Ziemann-Daugherty",
-    "Tooltip": "harum",
-    "Rank": 734,
+    "SaleTypeId": 462,
+    "Name": "Keebler, Olson and Sanford",
+    "Tooltip": "labore",
+    "Rank": 774,
     "DurationUnit": "Century",
-    "SaleDuration": 769,
-    "SaleTypeCatId": 748,
-    "Deleted": false,
+    "SaleDuration": 6,
+    "SaleTypeCatId": 581,
+    "Deleted": true,
     "HasGuide": true,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 916,
-    "QuoteLinesTemplate": 180,
-    "ConfirmationLinesTemplate": 734,
-    "MaxDiscountPercentSet": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 540,
+    "QuoteLinesTemplate": 38,
+    "ConfirmationLinesTemplate": 483,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 362,
-    "MinEarningPercent": 933,
-    "GroupQuoteLinesBy": 419,
-    "SortGroupLinesBy": 934,
+    "MaxDiscountPercent": 238,
+    "MinEarningPercent": 285,
+    "GroupQuoteLinesBy": 782,
+    "SortGroupLinesBy": 120,
     "Stages": [
       {
-        "Id": 422,
-        "Name": "Daniel, Gerhold and Lang",
-        "ToolTip": "Dolor doloremque enim sit.",
+        "Id": 330,
+        "Name": "Hauck Group",
+        "ToolTip": "Nam provident cumque voluptas.",
         "Deleted": false,
-        "Rank": 236,
-        "Type": "incidunt",
-        "ColorBlock": 572,
-        "IconHint": "quis",
+        "Rank": 53,
+        "Type": "nam",
+        "ColorBlock": 760,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2010-07-17T10:30:23.978726+02:00",
+        "LastChanged": "1997-08-03T14:23:46.814978+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "aut",
+        "ExtraInfo": "fugit",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Lucas Wilfrid Gutmann DDS",
+        "FullName": "Malcolm Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldType": "System.String",
+            "FieldLength": 778
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 677
       }
     }
   }

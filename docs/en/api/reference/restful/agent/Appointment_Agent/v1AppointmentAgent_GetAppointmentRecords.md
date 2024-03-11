@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 851,
-  "RecurrenceRuleId": 416
+  "MotherId": 340,
+  "RecurrenceRuleId": 994
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 27,
-    "StartDate": "2012-03-15T10:30:22.7220872+01:00",
-    "EndDate": "2008-11-21T10:30:22.7220872+01:00",
+    "AppointmentId": 911,
+    "StartDate": "2015-03-14T14:23:45.4063334+01:00",
+    "EndDate": "2015-05-17T14:23:45.4063334+02:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Dr. Kurtis Bernier IV",
-    "ContactName": "Kutch, Bernhard and Kuvalis",
-    "Description": "Persevering human-resource definition",
-    "PersonFullName": "Jamey Effertz",
-    "PersonId": 817,
-    "ContactId": 827,
-    "ProjectId": 66,
-    "ProjectName": "Upton, Hahn and Labadie",
-    "IsPublished": true,
-    "AssociateId": 698,
-    "ColorIndex": 226,
+    "Task": "nemo",
+    "AssociateFullName": "Dr. Lupe Cassidy Swift DVM",
+    "ContactName": "Weimann, Konopelski and Batz",
+    "Description": "Front-line intangible open system",
+    "PersonFullName": "Anderson Lindgren",
+    "PersonId": 208,
+    "ContactId": 631,
+    "ProjectId": 834,
+    "ProjectName": "Sawayn, Hermiston and Runolfsson",
+    "IsPublished": false,
+    "AssociateId": 749,
+    "ColorIndex": 845,
     "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 391,
-    "PriorityName": "Gusikowski Group",
+    "PriorityId": 737,
+    "PriorityName": "Moore, Haag and Skiles",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-05-03T10:30:22.7220872+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2015-03-17T14:23:45.4063334+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-01-10T10:30:22.7220872+01:00",
-    "RecurringEndDate": "2008-10-09T10:30:22.7220872+02:00",
-    "MotherId": 462,
-    "AssignedBy": 534,
-    "AssignedByFullName": "Dr. Delilah Wolf",
+    "RecurringStartDate": "2018-03-27T14:23:45.4063334+02:00",
+    "RecurringEndDate": "2008-01-18T14:23:45.4063334+01:00",
+    "MotherId": 823,
+    "AssignedBy": 111,
+    "AssignedByFullName": "Korbin Paucek",
     "RejectReason": "",
-    "Location": "aperiam",
-    "AlarmLeadTime": "porro",
-    "SaleId": 632,
-    "SaleName": "Rippin-Hills",
-    "AssociateName": "Gulgowski Group",
-    "CreatedDate": "2021-10-02T10:30:22.7220872+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Hertha Konopelski",
-    "CreatedByAssociateId": 692,
+    "Location": "nam",
+    "AlarmLeadTime": "assumenda",
+    "SaleId": 813,
+    "SaleName": "Lang-Balistreri",
+    "AssociateName": "Gutmann-Harris",
+    "CreatedDate": "2017-03-30T14:23:45.4063334+02:00",
+    "CreatedBy": "libero",
+    "CreatedByFullName": "Katharina Altenwerth",
+    "CreatedByAssociateId": 525,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 848,
-    "Title": "ducimus",
-    "Agenda": "itaque",
-    "InternalNotes": "architecto",
+    "PreferredTZLocation": 5,
+    "Title": "sapiente",
+    "Agenda": "expedita",
+    "InternalNotes": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldLength": 71
       }
     }
   }

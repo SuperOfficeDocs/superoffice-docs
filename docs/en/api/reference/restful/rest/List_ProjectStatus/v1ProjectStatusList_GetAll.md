@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Little, Walker and Swaniawski",
-    "Tooltip": "ipsum",
+    "Id": 536,
+    "Name": "McDermott LLC",
+    "Tooltip": "facere",
     "Deleted": true,
-    "UdListDefinitionId": 646,
-    "Rank": 114,
+    "UdListDefinitionId": 714,
+    "Rank": 336,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 127
       }
     }
   }

@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 842
+  "RoleId": 918
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Boehm, Harris and Fahey",
-    "ToolTip": "Blanditiis dolorem esse voluptate quidem inventore.",
-    "Deleted": false,
-    "Rank": 502,
-    "Type": "et",
-    "ColorBlock": 932,
-    "IconHint": "dignissimos",
+    "Id": 602,
+    "Name": "Corwin-Corkery",
+    "ToolTip": "Omnis dolor velit ipsa molestiae fuga mollitia.",
+    "Deleted": true,
+    "Rank": 453,
+    "Type": "mollitia",
+    "ColorBlock": 428,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2000-11-10T10:30:24.9985809+01:00",
+    "LastChanged": "2015-08-02T14:23:47.8473753+02:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "Schmitt-Pollich",
-        "ToolTip": "Enim rem sequi iste.",
+        "Id": 26,
+        "Name": "Waelchi Inc and Sons",
+        "ToolTip": "Ea laborum sunt est et dolor accusantium.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "minima",
-        "ColorBlock": 63,
-        "IconHint": "ut",
+        "Rank": 591,
+        "Type": "magni",
+        "ColorBlock": 941,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2017-03-17T10:30:24.9985809+01:00",
+        "LastChanged": "2018-10-26T14:23:47.8473753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "aut",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Prof. Chris Leuschke DDS",
+        "FullName": "Miss Cornell Feil I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 977
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "vero",
+    "ExtraInfo": "qui",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Mr. Jude Marquardt II",
+    "FullName": "Jermey Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 856
       }
     }
   }

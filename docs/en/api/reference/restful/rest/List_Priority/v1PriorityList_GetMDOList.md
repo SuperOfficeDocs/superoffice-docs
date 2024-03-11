@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=et
+GET /api/v1/List/Priority/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Et in sunt aut porro.",
-    "Deleted": true,
-    "Rank": 778,
-    "Type": "voluptatem",
+    "Id": 195,
+    "Name": "Jacobson-Doyle",
+    "ToolTip": "Similique omnis corporis fuga ullam quis laboriosam.",
+    "Deleted": false,
+    "Rank": 61,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Mills-Williamson",
-        "ToolTip": "Non dicta incidunt earum et omnis voluptas asperiores.",
+        "Id": 965,
+        "Name": "Prohaska Group",
+        "ToolTip": "Ut quasi eius vel commodi eligendi.",
         "Deleted": true,
-        "Rank": 508,
-        "Type": "sunt",
+        "Rank": 73,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 536,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "ut",
-        "FullName": "Clay Delilah Hansen DVM",
+        "IconHint": "rerum",
+        "ColorBlock": 491,
+        "ExtraInfo": "quae",
+        "StyleHint": "est",
+        "FullName": "Aleen Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 615
+            "FieldType": "System.Int32",
+            "FieldLength": 276
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 195,
-    "ExtraInfo": "harum",
-    "StyleHint": "quae",
-    "FullName": "Osbaldo Littel",
+    "IconHint": "odio",
+    "ColorBlock": 885,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "est",
+    "FullName": "Mr. Marietta Ludwig Hammes IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 777
+        "FieldLength": 264
       }
     }
   }

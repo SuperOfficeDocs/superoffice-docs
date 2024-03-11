@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 795,
-  "Name": "Kuphal-Prosacco",
-  "Tooltip": "repellendus",
-  "Rank": 338,
-  "Rate": 14287.905999999999,
-  "Units": 14895.902,
+  "CurrencyId": 567,
+  "Name": "Schiller, Murphy and Grant",
+  "Tooltip": "aut",
+  "Rank": 504,
+  "Rate": 5691.344,
+  "Units": 2071.574,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

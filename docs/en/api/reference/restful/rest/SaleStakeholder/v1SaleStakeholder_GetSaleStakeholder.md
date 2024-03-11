@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harris Inc and Sons",
-  "Comment": "enim",
-  "StakeholderRoleId": 609,
-  "CountryId": 816,
-  "PersonId": 571,
-  "EmailDescription": "jonatan.bailey@crist.com",
-  "EmailId": 359,
-  "EmailAddress": "nelson.funk@schinner.uk",
-  "PhoneId": 179,
-  "ContactName": "Hammes Inc and Sons",
-  "ContactId": 695,
-  "SaleId": 502,
-  "Mrmrs": "iusto",
-  "Firstname": "Ubaldo",
-  "MiddleName": "Considine-Fay",
-  "Lastname": "Volkman",
-  "SaleStakeholderId": 521,
-  "Rank": 743,
-  "Phone": "1-295-676-2133 x50792",
+  "StakeholderRoleName": "Konopelski-Maggio",
+  "Comment": "quis",
+  "StakeholderRoleId": 79,
+  "CountryId": 745,
+  "PersonId": 977,
+  "EmailDescription": "alvina_bartoletti@balistreripfannerstill.biz",
+  "EmailId": 209,
+  "EmailAddress": "urban.cremin@will.name",
+  "PhoneId": 303,
+  "ContactName": "Harvey Group",
+  "ContactId": 712,
+  "SaleId": 521,
+  "Mrmrs": "molestias",
+  "Firstname": "Kaci",
+  "MiddleName": "Hodkiewicz, Homenick and Huels",
+  "Lastname": "Rogahn",
+  "SaleStakeholderId": 966,
+  "Rank": 118,
+  "Phone": "683.744.9079 x3705",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 500
     }
   },
   "_Links": {

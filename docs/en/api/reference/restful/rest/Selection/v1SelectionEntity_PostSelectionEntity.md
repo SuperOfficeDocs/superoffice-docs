@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased radical customer loyalty",
-  "Postit": "ipsam",
+  "Description": "Public-key actuating product",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 420,
-  "IncludePerson": 789,
-  "MemberCount": 289,
-  "Name": "Kuphal, Toy and Donnelly",
-  "PostitTextId": 836,
-  "CreatedDate": "2018-07-14T10:30:32.4812531+02:00",
-  "SelectionId": 383,
-  "SoundEx": "vel",
-  "Source": 401,
-  "TextId": 151,
-  "UpdatedDate": "1999-10-31T10:30:32.4812531+01:00",
-  "UpdatedCount": 151,
-  "Visibility": 42,
+  "GroupIdx": 986,
+  "IncludePerson": 797,
+  "MemberCount": 653,
+  "Name": "Waters, Friesen and Osinski",
+  "PostitTextId": 381,
+  "CreatedDate": "2016-01-14T14:23:55.4939585+01:00",
+  "SelectionId": 468,
+  "SoundEx": "mollitia",
+  "Source": 392,
+  "TextId": 230,
+  "UpdatedDate": "2003-08-17T14:23:55.4939585+02:00",
+  "UpdatedCount": 90,
+  "Visibility": 497,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 222,
-  "TargetTableName": "Ratke Group",
+  "TargetTableNumber": 564,
+  "TargetTableName": "Rogahn, Wyman and Ruecker",
   "Completed": false,
-  "LeftSelectionId": 268,
-  "RightSelectionId": 325,
+  "LeftSelectionId": 975,
+  "RightSelectionId": 389,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Marvin-Schaefer",
-  "ShadowProviderName": "Champlin Inc and Sons",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2004-06-07T10:30:32.4812531+02:00",
-  "LastLoadedBy": 22,
+  "MainProviderName": "Turcotte-Shields",
+  "ShadowProviderName": "Willms-Yost",
+  "ChartKey": "sint",
+  "LastLoaded": "2016-01-16T14:23:55.4939585+01:00",
+  "LastLoadedBy": 806,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-07-23T10:30:32.4812531+02:00",
-  "LastMembershipChangeBy": 920,
+  "LastMembershipChange": "2016-04-14T14:23:55.4939585+02:00",
+  "LastMembershipChangeBy": 891,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odit",
-  "MemberTabHeading": "voluptatibus",
-  "MailingsProviderName": "Kertzmann, Medhurst and Goyette",
-  "DashboardTileDefinitionId": 217,
+  "MainHeading": "labore",
+  "MemberTabHeading": "deleniti",
+  "MailingsProviderName": "Huel Inc and Sons",
+  "DashboardTileDefinitionId": 408,
   "VisibleFor": [
     {
-      "VisibleId": 340,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "similique"
+      "DisplayValue": "incidunt"
     },
     {
-      "VisibleId": 340,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "similique"
+      "DisplayValue": "incidunt"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable 4th generation paradigm",
-  "Postit": "quae",
+  "Description": "Organized static Graphic Interface",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 883,
-  "IncludePerson": 157,
-  "MemberCount": 397,
-  "Name": "Fisher Group",
-  "PostitTextId": 672,
-  "CreatedDate": "2023-09-11T10:30:32.4812531+02:00",
-  "SelectionId": 713,
-  "SoundEx": "consequuntur",
-  "Source": 475,
-  "TextId": 892,
-  "UpdatedDate": "2018-12-07T10:30:32.4812531+01:00",
-  "UpdatedCount": 927,
-  "Visibility": 987,
+  "GroupIdx": 859,
+  "IncludePerson": 101,
+  "MemberCount": 5,
+  "Name": "Klocko-Leuschke",
+  "PostitTextId": 915,
+  "CreatedDate": "2023-01-22T14:23:55.4939585+01:00",
+  "SelectionId": 425,
+  "SoundEx": "provident",
+  "Source": 792,
+  "TextId": 848,
+  "UpdatedDate": "2010-07-27T14:23:55.4939585+02:00",
+  "UpdatedCount": 449,
+  "Visibility": 807,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 130,
-  "TargetTableName": "Walsh LLC",
-  "Completed": false,
-  "LeftSelectionId": 973,
-  "RightSelectionId": 158,
+  "CompanyUnique": false,
+  "TargetTableNumber": 480,
+  "TargetTableName": "Willms, Doyle and Hoppe",
+  "Completed": true,
+  "LeftSelectionId": 560,
+  "RightSelectionId": 888,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Becker-Runolfsdottir",
-  "ShadowProviderName": "Jenkins-Reilly",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2023-08-05T10:30:32.4812531+02:00",
-  "LastLoadedBy": 591,
+  "MainProviderName": "Emmerich, Balistreri and Kunde",
+  "ShadowProviderName": "Bashirian, Kuhlman and Heathcote",
+  "ChartKey": "id",
+  "LastLoaded": "2012-09-30T14:23:55.4939585+02:00",
+  "LastLoadedBy": 167,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-21T10:30:32.4968779+01:00",
-  "LastMembershipChangeBy": 574,
+  "LastMembershipChange": "2011-12-12T14:23:55.4939585+01:00",
+  "LastMembershipChangeBy": 363,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempora",
-  "MemberTabHeading": "sapiente",
-  "MailingsProviderName": "Bechtelar Group",
-  "DashboardTileDefinitionId": 361,
+  "MainHeading": "quia",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Graham-Beahan",
+  "DashboardTileDefinitionId": 217,
   "VisibleFor": [
     {
-      "VisibleId": 685,
+      "VisibleId": 408,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 649
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     },
     {
-      "VisibleId": 685,
+      "VisibleId": 408,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 649
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
@@ -294,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 953
     }
   },
   "_Links": {

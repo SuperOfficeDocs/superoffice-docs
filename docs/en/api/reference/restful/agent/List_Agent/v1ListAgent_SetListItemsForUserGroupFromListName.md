@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wunsch-Kemmer",
-  "UsergroupId": 969,
+  "UdListDefinitionName": "Klein, Feest and Rice",
+  "UsergroupId": 70,
   "ListItemsID": [
-    132,
-    504
+    520,
+    834
   ],
   "Enable": false
 }

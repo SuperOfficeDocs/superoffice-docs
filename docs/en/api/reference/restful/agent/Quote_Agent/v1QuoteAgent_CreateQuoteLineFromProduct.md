@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 744,
+  "QuoteAlternativeId": 236,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 564,
-  "ERPQuoteLineKey": "necessitatibus",
-  "QuoteAlternativeId": 138,
-  "ERPProductKey": "quis",
+  "QuoteLineId": 774,
+  "ERPQuoteLineKey": "suscipit",
+  "QuoteAlternativeId": 984,
+  "ERPProductKey": "asperiores",
   "Status": "Error",
-  "Reason": "repurpose sexy e-markets",
-  "Quantity": 29165.004,
-  "DeliveredQuantity": 28851.604,
-  "Rank": 105,
-  "Name": "McGlynn, Quigley and Purdy",
-  "Description": "Seamless incremental emulation",
-  "Code": "consectetur",
-  "QuantityUnit": "dolores",
-  "PriceUnit": "omnis",
-  "ItemNumber": "1268147",
+  "Reason": "",
+  "Quantity": 26419.62,
+  "DeliveredQuantity": 4312.384,
+  "Rank": 310,
+  "Name": "Ullrich-Bernier",
+  "Description": "Fully-configurable local portal",
+  "Code": "consequuntur",
+  "QuantityUnit": "sunt",
+  "PriceUnit": "esse",
+  "ItemNumber": "554912",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "magnam",
-  "Supplier": "quidem",
-  "SupplierCode": "praesentium",
-  "Thumbnail": "possimus",
-  "VATInfo": "totam",
-  "VAT": 29537.95,
-  "UnitCost": 18778.928,
-  "UnitMinimumPrice": 1482.382,
-  "UnitListPrice": 3688.718,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "quaerat",
+  "Supplier": "quaerat",
+  "SupplierCode": "fugit",
+  "Thumbnail": "aut",
+  "VATInfo": "ab",
+  "VAT": 24887.094,
+  "UnitCost": 300.864,
+  "UnitMinimumPrice": 31170.764,
+  "UnitListPrice": 868.11799999999994,
   "ExtraInfo": [
     {
-      "Name": "Gibson-Zemlak",
-      "Value": "placeat",
+      "Name": "Abernathy LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 119
         }
       }
     },
     {
-      "Name": "Gibson-Zemlak",
-      "Value": "placeat",
+      "Name": "Abernathy LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 119
         }
       }
     }
   ],
-  "RawExtraInfo": "nesciunt",
-  "IsSubscription": false,
-  "SubscriptionUnit": "explicabo",
-  "SubscriptionQuantity": 11034.814,
-  "SubscriptionStart": "2013-03-08T10:30:24.4346264+01:00",
-  "ERPDiscountPercent": 16108.76,
-  "ERPDiscountAmount": 22577.336,
-  "DiscountPercent": 19129.935999999998,
-  "DiscountAmount": 7474.59,
+  "RawExtraInfo": "quas",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 3688.718,
+  "SubscriptionStart": "2006-01-21T14:23:47.2536317+01:00",
+  "ERPDiscountPercent": 14334.916,
+  "ERPDiscountAmount": 21398.951999999997,
+  "DiscountPercent": 20396.072,
+  "DiscountAmount": 26253.518,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23555.144,
-  "EarningAmount": 3359.6479999999997,
-  "SubTotal": 10414.282,
-  "TotalPrice": 18067.51,
-  "Rights": "eum",
-  "Rule": "officiis",
-  "ExtraField1": "tenetur",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "in",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "id",
+  "EarningPercent": 17769.78,
+  "EarningAmount": 14660.851999999999,
+  "SubTotal": 25993.396,
+  "TotalPrice": 23085.043999999998,
+  "Rights": "aspernatur",
+  "Rule": "non",
+  "ExtraField1": "nam",
+  "ExtraField2": "et",
+  "ExtraField3": "enim",
+  "ExtraField4": "maxime",
+  "ExtraField5": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 324
     }
   }
 }

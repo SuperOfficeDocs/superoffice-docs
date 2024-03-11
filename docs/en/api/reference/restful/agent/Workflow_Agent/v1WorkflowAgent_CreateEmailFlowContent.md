@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 414,
-  "ContentName": "Turner, Langworth and Bahringer"
+  "EmailFlowId": 621,
+  "ContentName": "Jakubowski-Herzog"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-740
+115
 ```

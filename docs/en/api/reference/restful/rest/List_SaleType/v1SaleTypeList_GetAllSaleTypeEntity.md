@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 694,
-    "Name": "Kling-Will",
-    "Tooltip": "molestias",
-    "Rank": 696,
+    "SaleTypeId": 582,
+    "Name": "Turner, Rau and Bergstrom",
+    "Tooltip": "iste",
+    "Rank": 528,
     "DurationUnit": "Century",
-    "SaleDuration": 349,
-    "SaleTypeCatId": 799,
-    "Deleted": false,
+    "SaleDuration": 819,
+    "SaleTypeCatId": 924,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 131,
-    "QuoteLinesTemplate": 593,
-    "ConfirmationLinesTemplate": 780,
+    "DefaultQuoteValidity": 664,
+    "QuoteLinesTemplate": 891,
+    "ConfirmationLinesTemplate": 172,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 81,
-    "MinEarningPercent": 122,
-    "GroupQuoteLinesBy": 834,
-    "SortGroupLinesBy": 403,
+    "MaxDiscountPercent": 340,
+    "MinEarningPercent": 579,
+    "GroupQuoteLinesBy": 212,
+    "SortGroupLinesBy": 455,
     "Stages": [
       {
-        "Id": 257,
-        "Name": "Dicki Inc and Sons",
-        "ToolTip": "Eum explicabo numquam.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "veniam",
-        "ColorBlock": 991,
-        "IconHint": "sapiente",
+        "Id": 620,
+        "Name": "Gerhold LLC",
+        "ToolTip": "Quasi accusamus sed numquam.",
+        "Deleted": false,
+        "Rank": 410,
+        "Type": "id",
+        "ColorBlock": 973,
+        "IconHint": "harum",
         "Selected": true,
-        "LastChanged": "2023-12-17T10:30:33.2255818+01:00",
+        "LastChanged": "2019-03-25T14:23:56.3376983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "officiis",
-        "Hidden": false,
-        "FullName": "Noble Parker",
+        "ExtraInfo": "et",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Brody Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldLength": 705
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldType": "System.String",
+        "FieldLength": 445
       }
     }
   }

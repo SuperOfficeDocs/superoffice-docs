@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 806,
-    "Name": "D'Amore-Sanford",
-    "CurrencyId": 92,
-    "EnglishName": "Fahey Inc and Sons",
+    "CountryId": 897,
+    "Name": "Walker, O'Conner and Funk",
+    "CurrencyId": 938,
+    "EnglishName": "Macejkovic-Keebler",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Profit-focused motivating flexibility",
-    "OrgNrText": "1340206",
-    "InterAreaPrefix": "delectus",
-    "DialInPrefix": "et",
-    "ZipPrefix": "sed",
-    "DomainName": "Gerhold LLC",
-    "AddressLayoutId": 479,
-    "DomesticAddressLayoutId": 14,
-    "ForeignAddressLayoutId": 210,
-    "Rank": 270,
-    "Tooltip": "officiis",
+    "ImageDescription": "Fully-configurable homogeneous throughput",
+    "OrgNrText": "449904",
+    "InterAreaPrefix": "aspernatur",
+    "DialInPrefix": "at",
+    "ZipPrefix": "sint",
+    "DomainName": "Schneider, Schmitt and Fay",
+    "AddressLayoutId": 435,
+    "DomesticAddressLayoutId": 567,
+    "ForeignAddressLayoutId": 611,
+    "Rank": 963,
+    "Tooltip": "dolorem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

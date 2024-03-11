@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 402,
-      "ContactName": "Gibson LLC",
-      "PersonId": 769,
-      "PersonName": "Okuneva-Sawayn",
-      "AssociateId": 26,
-      "Address": "est",
-      "EmailId": 623,
+      "ContactId": 742,
+      "ContactName": "McLaughlin-Mayer",
+      "PersonId": 350,
+      "PersonName": "Little LLC",
+      "AssociateId": 964,
+      "Address": "praesentium",
+      "EmailId": 786,
       "DuplicatePersonIds": [
-        631,
-        775
+        854,
+        141
       ],
-      "Name": "Mohr Group",
+      "Name": "O'Keefe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldType": "System.String",
+          "FieldLength": 540
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 457,
-      "ContactName": "Daniel LLC",
-      "PersonId": 164,
-      "PersonName": "Bailey, Huel and Ziemann",
-      "AssociateId": 983,
-      "Address": "laboriosam",
-      "EmailId": 52,
+      "ContactId": 99,
+      "ContactName": "Simonis, Effertz and Towne",
+      "PersonId": 64,
+      "PersonName": "Lindgren Group",
+      "AssociateId": 854,
+      "Address": "sed",
+      "EmailId": 85,
       "DuplicatePersonIds": [
-        710,
-        643
+        315,
+        696
       ],
-      "Name": "Skiles Inc and Sons",
+      "Name": "Mitchell Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 696,
-      "ContactName": "Gusikowski-Quitzon",
-      "PersonId": 764,
-      "PersonName": "Stamm, McDermott and White",
-      "AssociateId": 871,
-      "Address": "repellendus",
-      "EmailId": 301,
+      "ContactId": 727,
+      "ContactName": "Towne-Leuschke",
+      "PersonId": 585,
+      "PersonName": "Windler LLC",
+      "AssociateId": 718,
+      "Address": "molestiae",
+      "EmailId": 99,
       "DuplicatePersonIds": [
-        917,
-        371
+        569,
+        288
       ],
-      "Name": "Corwin, Kuhn and Tremblay",
+      "Name": "Spencer, Roob and Spencer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldLength": 716
         }
       }
     }
   ],
-  "Subject": "eius",
-  "HTMLBody": "velit",
+  "Subject": "tempore",
+  "HTMLBody": "reiciendis",
   "From": null,
-  "Sent": "2018-06-26T10:30:23.7511796+02:00",
-  "Size": 933,
+  "Sent": "2023-08-14T14:23:46.4543289+02:00",
+  "Size": 578,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "quidem",
+  "MessageID": "magnam",
+  "PlainBody": "neque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 445,
+  "ServerId": 214,
   "Attachments": [
     {
-      "Description": "Innovative responsive leverage",
-      "Filename": "illo",
-      "Size": 955,
-      "Type": "aperiam",
-      "Encoding": "dolore",
-      "Id": "illo",
-      "Disposition": "non",
+      "Description": "Phased empowering synergy",
+      "Filename": "voluptates",
+      "Size": 71,
+      "Type": "quasi",
+      "Encoding": "ab",
+      "Id": "labore",
+      "Disposition": "enim",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 119
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hintz-Bergstrom",
+      "Name": "Brown, Wiegand and Harber",
       "Values": [
-        "velit",
-        "qui"
+        "non",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Hintz-Bergstrom",
+      "Name": "Brown, Wiegand and Harber",
       "Values": [
-        "velit",
-        "qui"
+        "non",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     }
   ],
-  "FolderName": "Konopelski-Mueller",
-  "EmailItemId": 290,
-  "AccountId": 983,
-  "ReceivedAt": "2018-05-23T10:30:23.7511796+02:00",
+  "FolderName": "Fay Inc and Sons",
+  "EmailItemId": 698,
+  "AccountId": 641,
+  "ReceivedAt": "2017-05-06T14:23:46.4543289+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-10-19T10:30:23.7511796+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-01-05T14:23:46.4543289+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 451
+      "FieldLength": 953
     }
   }
 }

@@ -81,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Apr 2016 10:30:32 G4T
+Last-Modified: Fri, 30 Apr 2004 14:23:55 G4T
 
 {
-  "Key": "ad",
-  "Value": "ratione",
-  "RecordId": 165,
-  "CreatedDate": "2016-07-02T10:30:32.0730519+02:00",
-  "UpdatedDate": "2016-04-02T10:30:32.0730519+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "perspiciatis",
-  "TableName": "Konopelski-Willms",
+  "Key": "error",
+  "Value": "nam",
+  "RecordId": 407,
+  "CreatedDate": "2012-08-08T14:23:55.195897+02:00",
+  "UpdatedDate": "2004-04-30T14:23:55.195897+02:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "iusto",
+  "TableName": "Roob-Kertzmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   }
 }

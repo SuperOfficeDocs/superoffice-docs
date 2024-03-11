@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 871,
-    "ParentId": 443,
-    "Name": "Yost, Hoppe and Kovacek",
-    "Fullname": "earum",
-    "CategoryMaster": 764,
+    "TicketCategoryId": 621,
+    "ParentId": 815,
+    "Name": "Lakin LLC",
+    "Fullname": "ipsam",
+    "CategoryMaster": 76,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bahringer-Gerhold",
+    "ExternalName": "Bergstrom-Stracke",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 607,
-    "ReplyTemplate": 44,
-    "NotificationEmail": "stephany.frami@rowezemlak.info",
+    "AssignmentLag": 282,
+    "ReplyTemplate": 862,
+    "NotificationEmail": "sydney@hayes.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 965,
+    "EffectiveReplyTemplateId": 920,
     "ExtraFields": {
-      "ExtraFields1": "vel",
-      "ExtraFields2": "dolore"
+      "ExtraFields1": "aperiam",
+      "ExtraFields2": "nisi"
     },
     "CustomFields": {
-      "CustomFields1": "voluptates",
-      "CustomFields2": "fugit"
+      "CustomFields1": "nihil",
+      "CustomFields2": "praesentium"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 674
       }
     }
   }

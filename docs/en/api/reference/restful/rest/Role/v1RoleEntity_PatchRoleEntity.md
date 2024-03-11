@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 620,
-  "Name": "Hills, Harris and Grimes",
-  "Tooltip": "eaque",
+  "RoleId": 249,
+  "Name": "Orn LLC",
+  "Tooltip": "aperiam",
   "RoleType": "Anonymous",
-  "Deleted": 936,
-  "Rank": 339,
-  "Created": "2013-05-16T10:30:32.260549+02:00",
-  "UseCategories": 359,
+  "Deleted": 896,
+  "Rank": 905,
+  "Created": "2011-07-15T14:23:55.400211+02:00",
+  "UseCategories": 531,
   "CreatedBy": null,
-  "Updated": "2019-05-22T10:30:32.260549+02:00",
+  "Updated": "2011-05-09T14:23:55.400211+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 448
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

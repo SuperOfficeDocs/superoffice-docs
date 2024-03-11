@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    102,
-    412
+    444,
+    541
   ],
-  "StartTime": "2002-04-27T10:30:22.7220872+02:00",
-  "EndTime": "2022-01-02T10:30:22.7220872+01:00"
+  "StartTime": "2014-06-25T14:23:45.4063334+02:00",
+  "EndTime": "2015-05-30T14:23:45.4063334+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 407,
-    "StartDate": "2001-02-15T10:30:22.7220872+01:00",
-    "EndDate": "2015-06-09T10:30:22.7220872+02:00",
+    "AppointmentId": 971,
+    "StartDate": "2021-09-16T14:23:45.4063334+02:00",
+    "EndDate": "2021-01-25T14:23:45.4063334+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Prof. Alvena Paucek Sr.",
-    "ContactName": "Gerhold-Huel",
-    "Description": "Self-enabling high-level complexity",
-    "PersonFullName": "Vernie Ray Abernathy Jr.",
-    "PersonId": 744,
-    "ContactId": 400,
-    "ProjectId": 990,
-    "ProjectName": "Bayer, Stanton and Tromp",
-    "IsPublished": true,
-    "AssociateId": 785,
-    "ColorIndex": 750,
+    "Task": "culpa",
+    "AssociateFullName": "Dr. Pauline Streich",
+    "ContactName": "Brekke-Jaskolski",
+    "Description": "Focused fresh-thinking internet solution",
+    "PersonFullName": "Misty Douglas",
+    "PersonId": 850,
+    "ContactId": 614,
+    "ProjectId": 888,
+    "ProjectName": "Bergstrom, Waters and Tillman",
+    "IsPublished": false,
+    "AssociateId": 173,
+    "ColorIndex": 964,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 628,
-    "PriorityName": "Rice-Greenfelder",
+    "PriorityId": 892,
+    "PriorityName": "Marks-Hane",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-04-16T10:30:22.7220872+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2014-04-20T14:23:45.4063334+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-06-03T10:30:22.7220872+02:00",
-    "RecurringEndDate": "2014-05-06T10:30:22.7220872+02:00",
-    "MotherId": 798,
-    "AssignedBy": 67,
-    "AssignedByFullName": "Joany Price",
+    "RecurringStartDate": "2014-07-01T14:23:45.4063334+02:00",
+    "RecurringEndDate": "2017-10-08T14:23:45.4063334+02:00",
+    "MotherId": 1000,
+    "AssignedBy": 7,
+    "AssignedByFullName": "Mrs. Cole Romaguera",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "inventore",
-    "SaleId": 195,
-    "SaleName": "Bins-Quigley",
-    "AssociateName": "Vandervort-Smitham",
-    "CreatedDate": "2011-02-05T10:30:22.7220872+01:00",
-    "CreatedBy": "quibusdam",
-    "CreatedByFullName": "Fritz Hoppe",
-    "CreatedByAssociateId": 927,
+    "Location": "est",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 167,
+    "SaleName": "Daugherty-Rath",
+    "AssociateName": "O'Connell Group",
+    "CreatedDate": "2021-08-29T14:23:45.4063334+02:00",
+    "CreatedBy": "saepe",
+    "CreatedByFullName": "Genesis Ebert",
+    "CreatedByAssociateId": 747,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 791,
-    "Title": "nobis",
-    "Agenda": "culpa",
-    "InternalNotes": "minima",
+    "PreferredTZLocation": 514,
+    "Title": "ducimus",
+    "Agenda": "aliquid",
+    "InternalNotes": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 329
       }
     }
   }

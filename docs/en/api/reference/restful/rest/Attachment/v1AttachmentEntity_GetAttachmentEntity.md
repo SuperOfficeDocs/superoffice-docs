@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 181,
-  "Name": "Batz-Lubowitz",
-  "ContentType": "dignissimos",
-  "AttSize": 338,
-  "InlineImage": false,
-  "ContentId": "perspiciatis",
-  "AuthKey": "sed",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 373,
+  "Name": "Pacocha, Gislason and Reinger",
+  "ContentType": "et",
+  "AttSize": 781,
+  "InlineImage": true,
+  "ContentId": "velit",
+  "AuthKey": "consequatur",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 575
     }
   },
   "_Links": {

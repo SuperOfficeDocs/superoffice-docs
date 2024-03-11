@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 140
+  "DepartmentId": 970
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aut",
-    "PersonId": 271,
-    "Mrmrs": "earum",
-    "Firstname": "Paul",
-    "Lastname": "Prohaska",
-    "MiddleName": "Denesik, Robel and Green",
-    "Title": "ab",
-    "Description": "Up-sized dedicated parallelism",
-    "Email": "shanon@erdman.biz",
-    "FullName": "Miss Friedrich Melisa Gulgowski DVM",
-    "DirectPhone": "(000)872-1811",
-    "FormalName": "Marks, Berge and Dickinson",
-    "CountryId": 773,
-    "ContactId": 551,
-    "ContactName": "Feest, Howe and Nienow",
-    "Retired": 992,
-    "Rank": 979,
-    "ActiveInterests": 387,
+    "Position": "eos",
+    "PersonId": 411,
+    "Mrmrs": "repellat",
+    "Firstname": "Rosetta",
+    "Lastname": "Leuschke",
+    "MiddleName": "Haley Group",
+    "Title": "aliquid",
+    "Description": "Re-contextualized dynamic service-desk",
+    "Email": "magali@mccullough.biz",
+    "FullName": "Oliver Bechtelar",
+    "DirectPhone": "324.721.6414 x28370",
+    "FormalName": "Huels, Hand and Wuckert",
+    "CountryId": 393,
+    "ContactId": 279,
+    "ContactName": "Thompson, Nienow and Ortiz",
+    "Retired": 507,
+    "Rank": 148,
+    "ActiveInterests": 465,
     "ContactDepartment": "",
-    "ContactCountryId": 200,
-    "ContactOrgNr": "1330941",
-    "FaxPhone": "715-461-3160 x96005",
-    "MobilePhone": "723-845-5408",
-    "ContactPhone": "318-843-6540 x9569",
-    "AssociateName": "Brakus, Medhurst and Ziemann",
-    "AssociateId": 198,
+    "ContactCountryId": 932,
+    "ContactOrgNr": "313008",
+    "FaxPhone": "1-405-504-4507",
+    "MobilePhone": "1-951-350-7323 x0287",
+    "ContactPhone": "(863)077-7325 x8997",
+    "AssociateName": "Thiel Inc and Sons",
+    "AssociateId": 118,
     "UsePersonAddress": false,
-    "ContactFax": "doloribus",
-    "Kanafname": "earum",
-    "Kanalname": "soluta",
-    "Post1": "iusto",
-    "Post2": "distinctio",
-    "Post3": "odio",
-    "EmailName": "keyon@bradtke.info",
-    "ContactFullName": "Miss Rafaela Shanahan Sr.",
-    "ActiveErpLinks": 312,
-    "TicketPriorityId": 749,
-    "SupportLanguageId": 512,
-    "SupportAssociateId": 622,
+    "ContactFax": "harum",
+    "Kanafname": "possimus",
+    "Kanalname": "illo",
+    "Post1": "veniam",
+    "Post2": "porro",
+    "Post3": "et",
+    "EmailName": "charlie.hegmann@moen.us",
+    "ContactFullName": "Jaunita Mckenna Jast II",
+    "ActiveErpLinks": 795,
+    "TicketPriorityId": 715,
+    "SupportLanguageId": 18,
+    "SupportAssociateId": 240,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 982
       }
     }
   }

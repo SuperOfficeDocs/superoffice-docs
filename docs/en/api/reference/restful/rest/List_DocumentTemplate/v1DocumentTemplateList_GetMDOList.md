@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aperiam
+GET /api/v1/List/DocumentTemplate/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Roberts-Nienow",
-    "ToolTip": "Dolores sed aliquid provident minima et.",
+    "Id": 125,
+    "Name": "Boehm-Kertzmann",
+    "ToolTip": "Unde reiciendis quidem exercitationem.",
     "Deleted": false,
-    "Rank": 50,
-    "Type": "sed",
+    "Rank": 289,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Shanahan, Bogan and Jacobson",
-        "ToolTip": "Vel quibusdam pariatur aut est ex necessitatibus explicabo.",
+        "Id": 614,
+        "Name": "Douglas-Reichel",
+        "ToolTip": "Dolores autem voluptate delectus rerum dicta.",
         "Deleted": true,
-        "Rank": 102,
-        "Type": "autem",
+        "Rank": 199,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 654,
-        "ExtraInfo": "dolores",
-        "StyleHint": "atque",
-        "FullName": "Kristina Hermann",
+        "IconHint": "cupiditate",
+        "ColorBlock": 664,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "eligendi",
+        "FullName": "Diana Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldLength": 293
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 258,
-    "ExtraInfo": "enim",
-    "StyleHint": "nesciunt",
-    "FullName": "Dr. Mariela Yesenia Hane V",
+    "IconHint": "dolorum",
+    "ColorBlock": 178,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ullam",
+    "FullName": "Antonio Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 902
       }
     }
   }

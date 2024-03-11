@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "laudantium"
+  "ChatId": "quasi"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2022-10-28T10:30:22.5161441+02:00",
-    "UserPrompt": "voluptatem",
-    "UserDisplayText": "totam",
-    "BotResponse": "veniam",
+    "Timestamp": "2020-08-12T14:23:45.3125879+02:00",
+    "UserPrompt": "deleniti",
+    "UserDisplayText": "omnis",
+    "BotResponse": "laboriosam",
     "BotActions": {
-      "BotActions1": "molestias",
-      "BotActions2": "aut"
+      "BotActions1": "est",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "et",
-      "temporibus"
+      "sed",
+      "dolores"
     ]
   },
   {
-    "Timestamp": "2022-10-28T10:30:22.5161441+02:00",
-    "UserPrompt": "voluptatem",
-    "UserDisplayText": "totam",
-    "BotResponse": "veniam",
+    "Timestamp": "2020-08-12T14:23:45.3125879+02:00",
+    "UserPrompt": "deleniti",
+    "UserDisplayText": "omnis",
+    "BotResponse": "laboriosam",
     "BotActions": {
-      "BotActions1": "molestias",
-      "BotActions2": "aut"
+      "BotActions1": "est",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "et",
-      "temporibus"
+      "sed",
+      "dolores"
     ]
   }
 ]

@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 115,
-  "Name": "Wilderman, Watsica and Jerde",
-  "Tooltip": "sit",
-  "Rank": 355,
+  "SaleTypeId": 867,
+  "Name": "Reichert, Sawayn and VonRueden",
+  "Tooltip": "eum",
+  "Rank": 665,
   "DurationUnit": "Century",
-  "SaleDuration": 507,
-  "SaleTypeCatId": 544,
+  "SaleDuration": 375,
+  "SaleTypeCatId": 87,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 933,
-  "QuoteLinesTemplate": 305,
-  "ConfirmationLinesTemplate": 622,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 691,
+  "QuoteLinesTemplate": 819,
+  "ConfirmationLinesTemplate": 825,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 675,
-  "MinEarningPercent": 480,
-  "GroupQuoteLinesBy": 116,
-  "SortGroupLinesBy": 892,
+  "MaxDiscountPercent": 639,
+  "MinEarningPercent": 1002,
+  "GroupQuoteLinesBy": 775,
+  "SortGroupLinesBy": 780,
   "Stages": [
     {
-      "Id": 935,
-      "Name": "Greenholt-Renner",
-      "ToolTip": "Incidunt illum eius asperiores qui tempore.",
+      "Id": 34,
+      "Name": "Streich, Kilback and Yundt",
+      "ToolTip": "Dolores eum voluptas.",
       "Deleted": false,
-      "Rank": 755,
-      "Type": "aut",
-      "ColorBlock": 306,
-      "IconHint": "soluta",
-      "Selected": true,
-      "LastChanged": "2004-04-28T10:30:24.0725232+02:00",
+      "Rank": 520,
+      "Type": "quibusdam",
+      "ColorBlock": 551,
+      "IconHint": "doloribus",
+      "Selected": false,
+      "LastChanged": "2009-08-20T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "inventore",
-      "Hidden": false,
-      "FullName": "Braden Wintheiser IV",
+      "ExtraInfo": "ut",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Prof. Ella Malvina Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldType": "System.Int32",
+          "FieldLength": 683
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 25
     }
   }
 }

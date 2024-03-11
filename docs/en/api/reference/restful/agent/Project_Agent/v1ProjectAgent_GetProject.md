@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=410
+POST /api/v1/Agents/Project/GetProject?projectId=135
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 868,
-  "Name": "Rowe, Mraz and Marvin",
-  "Description": "Proactive transitional structure",
+  "ProjectId": 572,
+  "Name": "Berge-Rice",
+  "Description": "Phased heuristic project",
   "URL": "http://www.example.com/",
-  "Type": "illum",
-  "AssociateId": 78,
-  "AssociateFullName": "Julianne Crona",
-  "TypeId": 274,
-  "Updated": "2016-10-02T10:30:24.3393324+02:00",
-  "StatusId": 802,
-  "Status": "et",
-  "TextId": 252,
-  "PublishTo": "2023-01-11T10:30:24.3393324+01:00",
-  "PublishFrom": "2009-01-03T10:30:24.3393324+01:00",
+  "Type": "unde",
+  "AssociateId": 36,
+  "AssociateFullName": "Ryan Greenfelder",
+  "TypeId": 477,
+  "Updated": "1998-09-12T14:23:47.1598847+02:00",
+  "StatusId": 633,
+  "Status": "nemo",
+  "TextId": 900,
+  "PublishTo": "2016-03-04T14:23:47.1598847+01:00",
+  "PublishFrom": "2003-08-03T14:23:47.1598847+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1406519",
-  "ActiveErpLinks": 680,
+  "ProjectNumber": "180161",
+  "ActiveErpLinks": 9,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 223
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 573,
-    "Name": "Nikolaus, Stanton and O'Keefe",
-    "Tooltip": "neque",
+    "HeadingId": 514,
+    "Name": "Kozey LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 519,
-    "UdListDefinitionId": 659
+    "Rank": 183,
+    "UdListDefinitionId": 677
   },
   {
-    "HeadingId": 573,
-    "Name": "Nikolaus, Stanton and O'Keefe",
-    "Tooltip": "neque",
+    "HeadingId": 514,
+    "Name": "Kozey LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 519,
-    "UdListDefinitionId": 659
+    "Rank": 183,
+    "UdListDefinitionId": 677
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 93,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 187,
+    "Name": "Bosco Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 920,
-    "UdListDefinitionId": 615,
+    "Rank": 206,
+    "UdListDefinitionId": 286,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 355
       }
     }
   }

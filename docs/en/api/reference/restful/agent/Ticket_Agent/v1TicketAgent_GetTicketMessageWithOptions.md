@@ -103,8 +103,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 127,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 626,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 989,
+  "EjMessageId": 334,
   "Ticket": null,
-  "CreatedAt": "2002-09-10T10:30:24.9517104+02:00",
+  "CreatedAt": "2003-06-26T14:23:47.8005007+02:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "doloremque",
-  "TimeSpent": 27,
-  "Body": "veritatis",
-  "HtmlBody": "ea",
-  "EmailHeader": "annalise_renner@larson.uk",
-  "DebugInfo": "totam",
-  "MailSorter": "qui",
+  "MessageId": "eius",
+  "TimeSpent": 583,
+  "Body": "non",
+  "HtmlBody": "laudantium",
+  "EmailHeader": "justina@wardroberts.ca",
+  "DebugInfo": "atque",
+  "MailSorter": "quis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "ab",
   "MessageHeaders": [
     {
-      "Id": 476,
-      "Name": "Daugherty Inc and Sons",
-      "Value": "incidunt",
+      "Id": 674,
+      "Name": "Upton-Gaylord",
+      "Value": "delectus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldType": "System.Int32",
+          "FieldLength": 547
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 367,
-  "SentimentConfidence": 181,
+  "Important": true,
+  "Language": "fugit",
+  "Sentiment": 868,
+  "SentimentConfidence": 612,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 298,
-      "Name": "Bernier Inc and Sons",
-      "ContentType": "dolorem",
-      "AttSize": 659,
-      "InlineImage": false,
-      "ContentId": "rerum",
-      "AuthKey": "totam",
+      "AttachmentId": 401,
+      "Name": "Rempel-Lynch",
+      "ContentType": "veniam",
+      "AttSize": 206,
+      "InlineImage": true,
+      "ContentId": "facere",
+      "AuthKey": "magni",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 705
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quam"
+    "CustomFields1": "quis",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 643
     }
   }
 }

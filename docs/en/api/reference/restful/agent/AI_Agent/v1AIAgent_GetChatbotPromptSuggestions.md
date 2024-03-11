@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "veritatis",
-  "SoProtocol": "dolor",
-  "CurrentId": 295
+  "IsoLangCode": "officiis",
+  "SoProtocol": "similique",
+  "CurrentId": 805
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1997-05-24T10:30:22.5161441+02:00",
-  "UserPrompt": "repudiandae",
-  "UserDisplayText": "fugiat",
-  "BotResponse": "libero",
+  "Timestamp": "1996-12-21T14:23:45.3125879+01:00",
+  "UserPrompt": "dolorem",
+  "UserDisplayText": "vel",
+  "BotResponse": "quaerat",
   "BotActions": {
-    "BotActions1": "fugiat",
-    "BotActions2": "quia"
+    "BotActions1": "inventore",
+    "BotActions2": "sunt"
   },
   "Attachments": [
-    "nesciunt",
-    "excepturi"
+    "sint",
+    "accusantium"
   ]
 }
 ```

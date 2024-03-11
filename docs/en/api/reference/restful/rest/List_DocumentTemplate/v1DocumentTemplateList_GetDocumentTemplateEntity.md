@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 811,
-  "Name": "Bins-Auer",
-  "Tooltip": "mollitia",
-  "SaveInDb": 40,
-  "Filename": "impedit",
-  "DefaultOref": "reiciendis",
+  "DocumentTemplateId": 232,
+  "Name": "Olson, Emard and Hane",
+  "Tooltip": "eos",
+  "SaveInDb": 617,
+  "Filename": "consequatur",
+  "DefaultOref": "numquam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 605,
-  "IntentId": 4,
+  "AutoeventId": 723,
+  "IntentId": 878,
   "IsDefaultPublished": true,
-  "Rank": 376,
-  "LoadTemplateFromPlugin": 890,
-  "MimeType": "sunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 817,
+  "Rank": 487,
+  "LoadTemplateFromPlugin": 39,
+  "MimeType": "aut",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 547,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "serena@renner.name",
-  "IncludeSignature": false,
+  "EmailSubject": "nolan@nader.info",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jettie@monahan.co.uk",
+  "SenderEmailAddress": "kamille.kassulke@fritsch.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

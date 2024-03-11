@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 542
+  "ProjectId": 563
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered solution-oriented superstructure",
-  "Postit": "non",
+  "Description": "Optimized responsive orchestration",
+  "Postit": "ad",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 494,
-  "IncludePerson": 97,
-  "MemberCount": 577,
-  "Name": "Reichel-Stamm",
-  "PostitTextId": 324,
-  "CreatedDate": "2005-01-24T10:30:24.5752485+01:00",
-  "SelectionId": 816,
-  "SoundEx": "qui",
-  "Source": 597,
-  "TextId": 100,
-  "UpdatedDate": "2014-03-01T10:30:24.5752485+01:00",
-  "UpdatedCount": 38,
-  "Visibility": 584,
+  "GroupIdx": 26,
+  "IncludePerson": 590,
+  "MemberCount": 822,
+  "Name": "Pfannerstill LLC",
+  "PostitTextId": 868,
+  "CreatedDate": "2017-04-07T14:23:47.4098822+02:00",
+  "SelectionId": 263,
+  "SoundEx": "temporibus",
+  "Source": 721,
+  "TextId": 438,
+  "UpdatedDate": "2012-03-16T14:23:47.4098822+01:00",
+  "UpdatedCount": 305,
+  "Visibility": 806,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 45,
-  "TargetTableName": "Effertz, Wolf and Lehner",
-  "Completed": true,
-  "LeftSelectionId": 766,
-  "RightSelectionId": 168,
+  "TargetTableNumber": 288,
+  "TargetTableName": "Beier, Dare and Veum",
+  "Completed": false,
+  "LeftSelectionId": 411,
+  "RightSelectionId": 438,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gulgowski, Dibbert and Anderson",
-  "ShadowProviderName": "Hermiston-Pacocha",
-  "ChartKey": "consequatur",
-  "LastLoaded": "2019-04-05T10:30:24.5752485+02:00",
-  "LastLoadedBy": 781,
+  "MainProviderName": "Schumm, Beahan and Von",
+  "ShadowProviderName": "Batz-Kuhn",
+  "ChartKey": "eveniet",
+  "LastLoaded": "2018-09-22T14:23:47.4098822+02:00",
+  "LastLoadedBy": 735,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-02-10T10:30:24.5752485+01:00",
-  "LastMembershipChangeBy": 309,
+  "LastMembershipChange": "2002-06-20T14:23:47.4098822+02:00",
+  "LastMembershipChangeBy": 973,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "harum",
-  "MailingsProviderName": "Will-Cruickshank",
-  "DashboardTileDefinitionId": 990,
+  "MainHeading": "repellat",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Ruecker, Turner and Glover",
+  "DashboardTileDefinitionId": 90,
   "VisibleFor": [
     {
-      "VisibleId": 691,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 418
         }
       }
     },
     {
-      "VisibleId": 691,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 418
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

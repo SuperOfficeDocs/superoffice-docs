@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=fugiat
-GET /api/v1/MDOList/{listname}?query=aut
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=voluptas
+GET /api/v1/MDOList/{listname}?query=sunt
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Romaguera LLC",
-    "ToolTip": "Repudiandae et doloribus sit tempore iusto.",
-    "Deleted": false,
-    "Rank": 205,
-    "Type": "qui",
+    "Id": 708,
+    "Name": "Jacobs-Rempel",
+    "ToolTip": "Ut voluptas velit harum fuga.",
+    "Deleted": true,
+    "Rank": 154,
+    "Type": "quod",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Terry, Goldner and Durgan",
-        "ToolTip": "Et id sint iste aut quasi.",
+        "Id": 803,
+        "Name": "Waters, O'Connell and Pacocha",
+        "ToolTip": "Laboriosam nobis.",
         "Deleted": false,
-        "Rank": 220,
-        "Type": "eaque",
+        "Rank": 364,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eaque",
-        "ColorBlock": 406,
-        "ExtraInfo": "in",
-        "StyleHint": "sit",
-        "FullName": "Delpha Turner Sr.",
+        "IconHint": "ea",
+        "ColorBlock": 497,
+        "ExtraInfo": "eius",
+        "StyleHint": "sint",
+        "FullName": "Taurean Reagan Yost PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 358,
-    "ExtraInfo": "unde",
-    "StyleHint": "at",
-    "FullName": "Catharine Pagac PhD",
+    "IconHint": "corporis",
+    "ColorBlock": 71,
+    "ExtraInfo": "qui",
+    "StyleHint": "expedita",
+    "FullName": "Uriah Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 326
       }
     }
   }

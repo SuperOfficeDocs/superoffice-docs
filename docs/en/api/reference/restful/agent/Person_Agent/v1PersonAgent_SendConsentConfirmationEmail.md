@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 151,
-  "EmailAddress": "rickie@wisokyhilll.ca",
-  "EmailTemplateId": 899,
-  "CultureLcidId": 52,
-  "Subject": "voluptatem"
+  "PersonId": 56,
+  "EmailAddress": "mertie.moore@barrows.biz",
+  "EmailTemplateId": 659,
+  "CultureLcidId": 949,
+  "Subject": "quas"
 }
 ```
 

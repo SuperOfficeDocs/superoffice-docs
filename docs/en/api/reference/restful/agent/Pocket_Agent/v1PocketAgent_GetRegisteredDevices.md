@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 334
+  "AssociateId": 529
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Muller LLC",
-    "DeviceIdentifier": "eligendi",
-    "PocketVersion": "est",
-    "Language": "inventore",
-    "PNSHandle": "consequuntur",
+    "DeviceName": "McClure-Treutel",
+    "DeviceIdentifier": "est",
+    "PocketVersion": "inventore",
+    "Language": "consequatur",
+    "PNSHandle": "quos",
     "Platform": "Apple",
-    "OSVersion": "eaque",
-    "TimeZoneId": 6
+    "OSVersion": "ex",
+    "TimeZoneId": 977
   }
 ]
 ```

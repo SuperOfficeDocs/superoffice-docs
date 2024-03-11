@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "omnis",
-  "RecordId": 97,
-  "Fields": "et"
+  "Table": "a",
+  "RecordId": 994,
+  "Fields": "qui"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "qui",
+    "Field": "rerum",
     "FieldValue": null
   },
   {
-    "Field": "qui",
+    "Field": "rerum",
     "FieldValue": null
   }
 ]

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "O'Hara-Ankunding",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "Rank": 52,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 671,
+  "Name": "Luettgen-Walsh",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "Rank": 320,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 91
     }
   },
   "_Links": {

@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 211,
-  "ERPProductKey": "tempora",
-  "ERPPriceListKey": "ut",
-  "Name": "Emmerich, Lakin and Weber",
-  "Description": "Sharable composite solution",
-  "Code": "eum",
-  "PriceUnit": "asperiores",
-  "QuantityUnit": "sapiente",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellat",
-  "DefaultSubscriptionQuantity": 13024.904,
-  "ItemNumber": "213376",
+  "ProductId": 997,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "non",
+  "Name": "Metz, Champlin and Ebert",
+  "Description": "Public-key discrete standardization",
+  "Code": "sed",
+  "PriceUnit": "maxime",
+  "QuantityUnit": "aliquid",
+  "IsSubscription": false,
+  "SubscriptionUnit": "velit",
+  "DefaultSubscriptionQuantity": 6079.96,
+  "ItemNumber": "1359318",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "expedita",
-  "ProductTypeKey": "quisquam",
-  "VAT": 18274.354,
-  "VATInfo": "deleniti",
-  "UnitCost": 21724.888,
-  "UnitMinimumPrice": 25031.257999999998,
-  "UnitListPrice": 24630.106,
-  "InAssortment": true,
-  "Supplier": "in",
-  "SupplierCode": "culpa",
-  "Rights": "consequatur",
-  "Rule": "neque",
+  "ProductFamilyKey": "itaque",
+  "ProductTypeKey": "vel",
+  "VAT": 181.772,
+  "VATInfo": "quia",
+  "UnitCost": 4910.978,
+  "UnitMinimumPrice": 6126.9699999999993,
+  "UnitListPrice": 6832.12,
+  "InAssortment": false,
+  "Supplier": "eius",
+  "SupplierCode": "et",
+  "Rights": "numquam",
+  "Rule": "delectus",
   "ExtraInfo": [
     {
-      "Name": "Torp-Reichel",
-      "Value": "magnam",
+      "Name": "Hettinger-Spinka",
+      "Value": "qui",
       "Type": "Image"
     },
     {
-      "Name": "Torp-Reichel",
-      "Value": "magnam",
+      "Name": "Hettinger-Spinka",
+      "Value": "qui",
       "Type": "Image"
     }
   ],
   "RawExtraInfo": "sint",
-  "ExtraField1": "molestiae",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "nulla",
-  "InStock": 13407.252
+  "ExtraField1": "nam",
+  "ExtraField2": "quia",
+  "ExtraField3": "in",
+  "ExtraField4": "fuga",
+  "ExtraField5": "quibusdam",
+  "InStock": 25943.252
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 434,
-  "ERPProductKey": "facere",
-  "ERPPriceListKey": "placeat",
-  "Name": "Fahey-Bartoletti",
-  "Description": "Reduced global core",
-  "Code": "distinctio",
-  "PriceUnit": "a",
-  "QuantityUnit": "dolor",
+  "ProductId": 527,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "impedit",
+  "Name": "Rice LLC",
+  "Description": "Profit-focused optimal strategy",
+  "Code": "porro",
+  "PriceUnit": "cumque",
+  "QuantityUnit": "qui",
   "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "DefaultSubscriptionQuantity": 6656.616,
-  "ItemNumber": "957886",
+  "SubscriptionUnit": "minima",
+  "DefaultSubscriptionQuantity": 28340.762,
+  "ItemNumber": "1264061",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "cupiditate",
-  "VAT": 27315.944,
-  "VATInfo": "dolorum",
-  "UnitCost": 2864.476,
-  "UnitMinimumPrice": 15911.318,
-  "UnitListPrice": 18898.02,
-  "InAssortment": true,
-  "Supplier": "animi",
-  "SupplierCode": "necessitatibus",
-  "Rights": "modi",
-  "Rule": "itaque",
+  "ProductFamilyKey": "reiciendis",
+  "ProductTypeKey": "placeat",
+  "VAT": 1842.792,
+  "VATInfo": "consequatur",
+  "UnitCost": 27065.224,
+  "UnitMinimumPrice": 1996.358,
+  "UnitListPrice": 5302.728,
+  "InAssortment": false,
+  "Supplier": "dolorem",
+  "SupplierCode": "nostrum",
+  "Rights": "quaerat",
+  "Rule": "nam",
   "ExtraInfo": [
     {
-      "Name": "Kassulke, Schneider and Erdman",
-      "Value": "sed",
+      "Name": "Schmidt-Gerlach",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 910
         }
       }
     },
     {
-      "Name": "Kassulke, Schneider and Erdman",
-      "Value": "sed",
+      "Name": "Schmidt-Gerlach",
+      "Value": "iste",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 910
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "vel",
-  "ExtraField2": "molestias",
-  "ExtraField3": "dolores",
-  "ExtraField4": "vitae",
-  "ExtraField5": "quis",
-  "InStock": 21007.201999999997,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "ducimus",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "saepe",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "dolor",
+  "InStock": 12100.374,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   }
 }

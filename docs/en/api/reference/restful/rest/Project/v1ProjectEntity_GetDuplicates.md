@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Conroy, Jenkins and Brakus",
-    "SoPrimaryKey": 853,
-    "EntryName": "Muller Inc and Sons",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Keeling Inc and Sons",
+    "RuleName": "Crist-Effertz",
+    "SoPrimaryKey": 271,
+    "EntryName": "Walsh, Lakin and Keebler",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Schuster, Sawayn and Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

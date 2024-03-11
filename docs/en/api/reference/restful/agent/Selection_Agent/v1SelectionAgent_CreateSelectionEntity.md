@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Thiel, Stark and Lynch"
+  "TargetTableName": "Heidenreich, Murray and Cormier"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persevering discrete focus group",
-  "Postit": "doloribus",
+  "Description": "Inverse 6th generation leverage",
+  "Postit": "numquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 316,
-  "IncludePerson": 40,
-  "MemberCount": 491,
-  "Name": "Langosh Inc and Sons",
-  "PostitTextId": 779,
-  "CreatedDate": "2010-08-27T10:30:24.5752485+02:00",
-  "SelectionId": 638,
-  "SoundEx": "et",
-  "Source": 343,
-  "TextId": 347,
-  "UpdatedDate": "2020-03-02T10:30:24.5752485+01:00",
-  "UpdatedCount": 904,
-  "Visibility": 177,
+  "GroupIdx": 123,
+  "IncludePerson": 536,
+  "MemberCount": 716,
+  "Name": "Schuppe-Hahn",
+  "PostitTextId": 11,
+  "CreatedDate": "2005-12-12T14:23:47.3942558+01:00",
+  "SelectionId": 329,
+  "SoundEx": "deserunt",
+  "Source": 635,
+  "TextId": 796,
+  "UpdatedDate": "1997-11-07T14:23:47.3942558+01:00",
+  "UpdatedCount": 670,
+  "Visibility": 987,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 427,
-  "TargetTableName": "Fritsch, Will and Hauck",
+  "CompanyUnique": false,
+  "TargetTableNumber": 51,
+  "TargetTableName": "Balistreri-Frami",
   "Completed": true,
-  "LeftSelectionId": 295,
-  "RightSelectionId": 577,
+  "LeftSelectionId": 730,
+  "RightSelectionId": 686,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rohan, Robel and Abshire",
-  "ShadowProviderName": "Denesik-Stamm",
-  "ChartKey": "excepturi",
-  "LastLoaded": "2007-04-23T10:30:24.5752485+02:00",
-  "LastLoadedBy": 511,
+  "MainProviderName": "Marquardt, McClure and Predovic",
+  "ShadowProviderName": "Hegmann LLC",
+  "ChartKey": "maiores",
+  "LastLoaded": "2004-03-21T14:23:47.3942558+01:00",
+  "LastLoadedBy": 192,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-08-01T10:30:24.5752485+02:00",
-  "LastMembershipChangeBy": 122,
+  "LastMembershipChange": "2007-06-09T14:23:47.3942558+02:00",
+  "LastMembershipChangeBy": 563,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aliquam",
-  "MemberTabHeading": "dignissimos",
-  "MailingsProviderName": "Renner, Borer and Considine",
-  "DashboardTileDefinitionId": 206,
+  "MainHeading": "laborum",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Ortiz, VonRueden and Jaskolski",
+  "DashboardTileDefinitionId": 995,
   "VisibleFor": [
     {
-      "VisibleId": 613,
+      "VisibleId": 380,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 217
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     },
     {
-      "VisibleId": 613,
+      "VisibleId": 380,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 217
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   }
 }

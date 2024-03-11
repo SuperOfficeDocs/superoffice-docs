@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 807
+  "SelectionId": 341
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hauck LLC",
-    "Description": "Public-key impactful alliance",
-    "Rank": 421,
+    "Name": "Cormier Inc and Sons",
+    "Description": "Expanded web-enabled orchestration",
+    "Rank": 518,
     "Restrictions": [
       {
-        "Name": "Spinka-Connelly",
-        "Operator": "magni",
+        "Name": "Paucek-Rosenbaum",
+        "Operator": "labore",
         "Values": [
-          "tenetur",
-          "quas"
+          "ullam",
+          "eligendi"
         ],
         "DisplayValues": [
-          "alias",
-          "in"
+          "eius",
+          "perferendis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 131,
+        "InterParenthesis": 259,
         "InterOperator": "And",
-        "UniqueHash": 863
+        "UniqueHash": 96
       }
     ]
   },
   {
-    "Name": "Hauck LLC",
-    "Description": "Public-key impactful alliance",
-    "Rank": 421,
+    "Name": "Cormier Inc and Sons",
+    "Description": "Expanded web-enabled orchestration",
+    "Rank": 518,
     "Restrictions": [
       {
-        "Name": "Spinka-Connelly",
-        "Operator": "magni",
+        "Name": "Paucek-Rosenbaum",
+        "Operator": "labore",
         "Values": [
-          "tenetur",
-          "quas"
+          "ullam",
+          "eligendi"
         ],
         "DisplayValues": [
-          "alias",
-          "in"
+          "eius",
+          "perferendis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 131,
+        "InterParenthesis": 259,
         "InterOperator": "And",
-        "UniqueHash": 863
+        "UniqueHash": 96
       }
     ]
   }

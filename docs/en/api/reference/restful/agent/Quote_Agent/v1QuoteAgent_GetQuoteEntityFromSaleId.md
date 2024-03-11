@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 547
+  "SaleId": 799
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 779,
-  "SaleId": 774,
-  "QuoteConnectionId": 943,
-  "ERPQuoteKey": "consequatur",
-  "ERPOrderKey": "cumque",
-  "ActiveQuoteVersionId": 632,
-  "AcceptedQuoteAlternativeId": 124,
-  "UseValuesFromQuote": 909,
-  "DocumentId": 802,
-  "PoNumber": "1342488",
-  "OrderComment": "dolorum",
-  "PreferredEmailCulture": "maida@auer.biz",
+  "QuoteId": 863,
+  "SaleId": 231,
+  "QuoteConnectionId": 868,
+  "ERPQuoteKey": "aliquid",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 851,
+  "AcceptedQuoteAlternativeId": 465,
+  "UseValuesFromQuote": 288,
+  "DocumentId": 61,
+  "PoNumber": "427840",
+  "OrderComment": "quam",
+  "PreferredEmailCulture": "ubaldo.rippin@weimann.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 663,
-      "ERPQuoteVersionKey": "maxime",
-      "QuoteId": 667,
-      "Description": "Multi-channelled analyzing matrices",
-      "Number": "1604052",
+      "QuoteVersionId": 14,
+      "ERPQuoteVersionKey": "dignissimos",
+      "QuoteId": 478,
+      "Description": "Front-line heuristic help-desk",
+      "Number": "1108156",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "",
-      "LikelyQuoteAlternativeId": 705,
-      "SentDate": "2016-06-25T10:30:24.4346264+02:00",
-      "FollowupId": 465,
-      "ExpirationDate": "2002-08-26T10:30:24.4346264+02:00",
-      "DeliveryCountryId": 132,
+      "Reason": "transform synergistic initiatives",
+      "LikelyQuoteAlternativeId": 507,
+      "SentDate": "2006-01-20T14:23:47.2536317+01:00",
+      "FollowupId": 904,
+      "ExpirationDate": "2018-10-25T14:23:47.2536317+02:00",
+      "DeliveryCountryId": 704,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 341,
+      "InvoiceCountryId": 167,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "sed",
-      "ERPPaymentTypeKey": "natus",
-      "ERPDeliveryTermsKey": "nemo",
-      "ERPDeliveryTypeKey": "maxime",
-      "Rank": 348,
-      "ApprovedBy": 715,
-      "ApprovedText": "ut",
-      "ApprovedRegisteredBy": 384,
-      "ApprovedRegisteredDate": "2001-04-26T10:30:24.4346264+02:00",
-      "ExtraField1": "quisquam",
-      "ExtraField2": "nihil",
-      "ExtraField3": "ut",
-      "ExtraField4": "non",
-      "ExtraField5": "molestiae",
-      "LastRecalculated": "2009-06-16T10:30:24.4346264+02:00",
-      "Updated": "1997-04-30T10:30:24.4346264+02:00",
-      "UpdatedAssociateId": 315,
-      "Registered": "2013-08-16T10:30:24.4346264+02:00",
-      "RegisteredAssociateId": 498,
-      "RequestAssociateId": 684,
-      "RequestComment": "explicabo",
+      "ERPPaymentTermsKey": "eligendi",
+      "ERPPaymentTypeKey": "distinctio",
+      "ERPDeliveryTermsKey": "cum",
+      "ERPDeliveryTypeKey": "nisi",
+      "Rank": 561,
+      "ApprovedBy": 525,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 611,
+      "ApprovedRegisteredDate": "2021-04-20T14:23:47.2536317+02:00",
+      "ExtraField1": "qui",
+      "ExtraField2": "quae",
+      "ExtraField3": "iste",
+      "ExtraField4": "sed",
+      "ExtraField5": "autem",
+      "LastRecalculated": "2010-10-30T14:23:47.2536317+02:00",
+      "Updated": "2009-01-08T14:23:47.2536317+01:00",
+      "UpdatedAssociateId": 934,
+      "Registered": "2000-07-29T14:23:47.2536317+02:00",
+      "RegisteredAssociateId": 934,
+      "RequestAssociateId": 988,
+      "RequestComment": "ea",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 809
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

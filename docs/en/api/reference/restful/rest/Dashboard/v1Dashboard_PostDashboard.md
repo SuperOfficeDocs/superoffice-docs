@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 964,
-  "AssociateId": 985,
-  "Caption": "asperiores",
+  "DashboardId": 742,
+  "AssociateId": 34,
+  "Caption": "qui",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 967,
-      "Caption": "officia",
-      "Description": "Phased zero administration productivity",
-      "ChartName": "D'Amore, Durgan and Homenick",
-      "ChartId": "ex",
+      "DashboardTileId": 696,
+      "Caption": "aliquid",
+      "Description": "Robust holistic database",
+      "ChartName": "Conn Inc and Sons",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 285,
-      "GroupId": 177,
-      "SelectionId": 725,
-      "Config": "laboriosam",
+      "AssociateId": 197,
+      "GroupId": 361,
+      "SelectionId": 596,
+      "Config": "consequatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 633,
-  "AssociateId": 81,
-  "Caption": "natus",
+  "DashboardId": 32,
+  "AssociateId": 893,
+  "Caption": "neque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 335,
-      "Caption": "reprehenderit",
-      "Description": "Networked encompassing protocol",
-      "ChartName": "Hagenes Inc and Sons",
-      "ChartId": "a",
+      "DashboardTileId": 951,
+      "Caption": "cum",
+      "Description": "Organized systemic extranet",
+      "ChartName": "Nikolaus Inc and Sons",
+      "ChartId": "consequatur",
       "IsDefault": true,
-      "AssociateId": 83,
-      "GroupId": 971,
-      "SelectionId": 360,
-      "Config": "voluptatem",
+      "AssociateId": 697,
+      "GroupId": 64,
+      "SelectionId": 394,
+      "Config": "quod",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldType": "System.String",
+          "FieldLength": 558
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 321
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 109,
-  "BlobSize": 949,
-  "Description": "Diverse homogeneous internet solution",
-  "ExtraInfo": "eligendi",
-  "IsEncrypted": false,
+  "BlobId": 909,
+  "BlobSize": 326,
+  "Description": "Proactive exuding portal",
+  "ExtraInfo": "aliquam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quae",
-  "OriginalSize": 957,
-  "CreatedDate": "2006-11-06T10:30:23.0982933+01:00",
-  "UpdatedDate": "2011-03-22T10:30:23.0982933+01:00",
+  "MimeType": "velit",
+  "OriginalSize": 601,
+  "CreatedDate": "1999-12-21T14:23:45.8918358+01:00",
+  "UpdatedDate": "2009-07-08T14:23:45.8918358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "pariatur",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

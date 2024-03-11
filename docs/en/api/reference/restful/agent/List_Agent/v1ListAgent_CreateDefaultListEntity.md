@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Moen Inc and Sons",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 482,
+  "Id": 722,
+  "Name": "Denesik-DuBuque",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 351,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 169
     }
   }
 }

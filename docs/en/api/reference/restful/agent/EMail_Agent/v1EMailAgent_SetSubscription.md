@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Schiller LLC",
-      "Delimiter": "rerum",
-      "Flags": "quia",
-      "TotalItems": 273,
-      "UnreadItems": 560,
-      "Subscribed": true,
-      "EmailFolderId": 233
+      "Name": "Stark Group",
+      "Delimiter": "voluptas",
+      "Flags": "minima",
+      "TotalItems": 804,
+      "UnreadItems": 710,
+      "Subscribed": false,
+      "EmailFolderId": 952
     }
   ]
 }

@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Kub, Stehr and Rosenbaum",
-  "ResourceValues": "aspernatur",
-  "Culture": "maiores",
+  "ResourceName": "Beahan-Hills",
+  "ResourceValues": "aut",
+  "Culture": "consectetur",
   "IsActive": false
 }
 ```

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Powlowski-Goldner",
-  "Tooltip": "voluptatem",
+  "Id": 864,
+  "Name": "Adams Group",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "UdListDefinitionId": 872,
-  "Rank": 281,
+  "UdListDefinitionId": 658,
+  "Rank": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 849
     }
   }
 }

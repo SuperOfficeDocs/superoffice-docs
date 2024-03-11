@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    976,
-    990
+    882,
+    556
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 665,
-    "ContactId": 661,
-    "ProjectId": 510,
-    "ContactName": "Considine, Lakin and Mueller",
+    "ProjectmemberId": 657,
+    "ContactId": 617,
+    "ProjectId": 680,
+    "ContactName": "Stiedemann LLC",
     "ContactDepartment": "",
-    "ProjectName": "Johnston-Aufderhar",
-    "EmailId": 116,
-    "EmailAddress": "erin@effertzconroy.uk",
-    "CountryId": 304,
-    "Firstname": "Raheem",
-    "MiddleName": "Schaefer Inc and Sons",
-    "Lastname": "Boyer",
-    "PersonId": 886,
-    "Mrmrs": "nesciunt",
-    "ProjectMemberTypeName": "Trantow Inc and Sons",
-    "Phone": "048-343-0597 x4107",
-    "PhoneId": 673,
-    "ProjectMemberTypeId": 691,
-    "EmailAddressName": "elna@jacobidicki.name",
-    "Comment": "vitae",
-    "FullName": "Miss Caleigh Ana Ullrich",
+    "ProjectName": "Zemlak Inc and Sons",
+    "EmailId": 681,
+    "EmailAddress": "era@bode.biz",
+    "CountryId": 448,
+    "Firstname": "Grady",
+    "MiddleName": "Marks-Kiehn",
+    "Lastname": "Bernier",
+    "PersonId": 125,
+    "Mrmrs": "corporis",
+    "ProjectMemberTypeName": "Kunde Inc and Sons",
+    "Phone": "1-440-085-4849 x56475",
+    "PhoneId": 757,
+    "ProjectMemberTypeId": 948,
+    "EmailAddressName": "bernice@flatley.us",
+    "Comment": "ut",
+    "FullName": "Mr. Benton Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 915,
-  "Name": "Leffler, Schimmel and Turner",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 399,
+  "WebPanelId": 551,
+  "Name": "Okuneva, Kshlerin and Donnelly",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 383,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "O'Reilly-Farrell",
+  "ShowInStatusBar": true,
+  "WindowName": "Runolfsson, Daniel and O'Conner",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 817,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "architecto",
+  "Icon": 466,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 760
     }
   }
 }

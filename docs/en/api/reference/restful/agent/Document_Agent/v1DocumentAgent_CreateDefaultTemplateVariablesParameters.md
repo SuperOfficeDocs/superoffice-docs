@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "veritatis",
+  "SourceInput": "dolorum",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 654,
-  "PersonId": 271,
-  "ProjectId": 104,
-  "SelectionId": 188,
-  "AppointmentId": 553,
-  "DocumentId": 24,
-  "SaleId": 417,
-  "QuoteLineId": 474,
-  "QuoteAlternativeId": 372,
-  "ProductKey": "expedita",
+  "ContactId": 209,
+  "PersonId": 328,
+  "ProjectId": 39,
+  "SelectionId": 608,
+  "AppointmentId": 521,
+  "DocumentId": 3,
+  "SaleId": 621,
+  "QuoteLineId": 605,
+  "QuoteAlternativeId": 121,
+  "ProductKey": "saepe",
   "CustomTags": [
     [
       {}
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 204,
+  "TicketId": 466,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   }
 }

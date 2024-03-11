@@ -243,6 +243,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/contactAssociate/otherGroups| *None* |Target - Other groups: Other groups|  |
 |target/contactAssociate/userName| *None* |Target - User name: User name|  |
 |target/contactAssociate/personEmail| *None* |Target - E-mail|  |
+|target/contactAssociate/locationAddress| *None* |Target - Location: Location|  |
 |target/contactInterestIds| *None* |Target - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |target/contactUdef/SuperOffice:1| *None* |Target - companyshorttext: tooltipshorttext|  |
 |target/contactUdef/SuperOffice:2| *None* |Target - companylongtext: tooltiplongtext|  |
@@ -331,12 +332,13 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |portraitThumbnail| *None* |Person image: Person image|  |
 |otherGroups|userGroup|Other groups: Other groups|  |
-|userName|string|User name: User name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 |target/personId| *None* |Target - DB ID: Displays the database ID of a contact|  |
 |target/firstName| *None* |Target - First name: Displays the contact's first name|  |
 |target/lastName| *None* |Target - Last name: Displays the contact's last name|  |
@@ -434,12 +436,12 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/restrictionAddress/line2| *None* |Source - Search address - Address 2: Second line of the address|  |
 |source/restrictionAddress/line3| *None* |Source - Search address - Address 3: Third line of the address|  |
 |source/restrictionAddress/county| *None* |Source - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|source/restrictionAddress/city| *None* |Source - Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|source/restrictionAddress/zip| *None* |Source - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|source/restrictionAddress/city| *None* |Source - Search address - City: This criterion corresponds to the City field on the Company card.|  |
+|source/restrictionAddress/zip| *None* |Source - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |source/restrictionAddress/state| *None* |Source - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |source/restrictionAddress/wgs84latitude| *None* |Source - Search address - Latitude: Latitude|  |
 |source/restrictionAddress/wgs84longitude| *None* |Source - Search address - Longitude: Longitude|  |
@@ -477,6 +479,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/contactAssociate/otherGroups| *None* |Source - Other groups: Other groups|  |
 |source/contactAssociate/userName| *None* |Source - User name: User name|  |
 |source/contactAssociate/personEmail| *None* |Source - E-mail|  |
+|source/contactAssociate/locationAddress| *None* |Source - Location: Location|  |
 |source/contactInterestIds| *None* |Source - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |source/contactUdef/SuperOffice:1| *None* |Source - companyshorttext: tooltipshorttext|  |
 |source/contactUdef/SuperOffice:2| *None* |Source - companylongtext: tooltiplongtext|  |
@@ -541,7 +544,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/updatedByFullName,target/NumberOfNotCompletedSales,target/birthMonth
+GET /api/v1/archive/Relation?$select=source/fullNameWithContact,source/personPrivate/formattedNumber,target/postAddress/wgs84latitude,target/restrictionAddress/city,target/personNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

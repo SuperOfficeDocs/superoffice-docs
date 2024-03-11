@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 51,
-  "Name": "Runte LLC",
-  "Tooltip": "blanditiis",
-  "Rank": 464,
+  "ProjTypeId": 542,
+  "Name": "O'Connell, Mayer and Kihn",
+  "Tooltip": "accusamus",
+  "Rank": 727,
   "DurationUnit": "Century",
-  "ProjectDuration": 333,
-  "Deleted": false,
+  "ProjectDuration": 714,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 867,
-      "Name": "Schneider, Breitenberg and Goldner",
-      "ToolTip": "Et autem reiciendis.",
-      "Deleted": false,
-      "Rank": 286,
-      "Type": "dolores",
-      "ColorBlock": 226,
-      "IconHint": "et",
+      "Id": 936,
+      "Name": "Anderson-Rutherford",
+      "ToolTip": "Magni sed iste odit voluptatum facere animi est.",
+      "Deleted": true,
+      "Rank": 994,
+      "Type": "sed",
+      "ColorBlock": 11,
+      "IconHint": "iste",
       "Selected": false,
-      "LastChanged": "2010-08-27T10:30:24.0725232+02:00",
+      "LastChanged": "2007-10-22T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "assumenda",
-      "StyleHint": "magni",
-      "Hidden": true,
-      "FullName": "Jessyca Henriette Pfannerstill I",
+      "ExtraInfo": "qui",
+      "StyleHint": "vero",
+      "Hidden": false,
+      "FullName": "Bella Franecki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 740
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 208
     }
   }
 }

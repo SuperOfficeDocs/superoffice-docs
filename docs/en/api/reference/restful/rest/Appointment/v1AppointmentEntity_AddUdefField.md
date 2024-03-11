@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 714,
-  "ColumnId": 771,
-  "FieldDefault": "rerum",
-  "FieldHeight": 137,
-  "FieldLabel": "quo",
-  "FieldLeft": 264,
-  "FieldTop": 494,
+  "UDefFieldId": 333,
+  "ColumnId": 603,
+  "FieldDefault": "at",
+  "FieldHeight": 966,
+  "FieldLabel": "alias",
+  "FieldLeft": 625,
+  "FieldTop": 667,
   "FieldType": "Checkbox",
-  "FieldWidth": 334,
-  "FormatMask": "provident",
+  "FieldWidth": 510,
+  "FormatMask": "consequuntur",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 765,
-  "LabelLeft": 86,
-  "LabelTop": 859,
-  "LabelWidth": 717,
-  "LastVersionId": 818,
-  "ListTableId": 931,
+  "LabelHeight": 151,
+  "LabelLeft": 750,
+  "LabelTop": 37,
+  "LabelWidth": 346,
+  "LastVersionId": 588,
+  "ListTableId": 114,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 632,
-  "ProgId": "deserunt",
+  "Page1LineNo": 242,
+  "ProgId": "porro",
   "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 838,
-  "TextLength": 125,
-  "Tooltip": "pariatur",
-  "UdefIdentity": 680,
-  "UDListDefinitionId": 966,
+  "ShortLabel": "dolor",
+  "TabOrder": 463,
+  "TextLength": 161,
+  "Tooltip": "quasi",
+  "UdefIdentity": 829,
+  "UDListDefinitionId": 93,
   "Justification": "Center",
-  "Version": 344,
-  "TemplateVariableName": "Steuber LLC",
+  "Version": 103,
+  "TemplateVariableName": "Wilderman-Dibbert",
   "HasBeenPublished": true,
-  "MdoListName": "Block LLC",
+  "MdoListName": "Padberg, Fritsch and Nader",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

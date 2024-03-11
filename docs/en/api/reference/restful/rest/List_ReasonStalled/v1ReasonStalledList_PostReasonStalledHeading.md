@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 289,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 503,
-  "UdListDefinitionId": 708
+  "HeadingId": 518,
+  "Name": "Mueller-Cole",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 940,
+  "UdListDefinitionId": 324
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 741,
-  "Name": "Tremblay-Wolff",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "Rank": 720,
-  "UdListDefinitionId": 888,
+  "HeadingId": 823,
+  "Name": "Turner-Cruickshank",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 284,
+  "UdListDefinitionId": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 890
     }
   }
 }

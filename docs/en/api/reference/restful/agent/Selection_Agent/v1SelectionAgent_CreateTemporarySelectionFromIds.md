@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    515,
-    643
+    788,
+    579
   ],
-  "TargetTableNumber": 820
+  "TargetTableNumber": 233
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized zero tolerance array",
-  "Postit": "accusantium",
+  "Description": "Adaptive discrete encoding",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 298,
-  "IncludePerson": 457,
-  "MemberCount": 737,
-  "Name": "Lang LLC",
-  "PostitTextId": 449,
-  "CreatedDate": "2018-04-28T10:30:24.7017104+02:00",
-  "SelectionId": 712,
-  "SoundEx": "quis",
-  "Source": 105,
-  "TextId": 795,
-  "UpdatedDate": "2020-08-23T10:30:24.7017104+02:00",
-  "UpdatedCount": 256,
-  "Visibility": 499,
+  "GroupIdx": 118,
+  "IncludePerson": 979,
+  "MemberCount": 262,
+  "Name": "Friesen-Effertz",
+  "PostitTextId": 218,
+  "CreatedDate": "2023-06-15T14:23:47.4255063+02:00",
+  "SelectionId": 587,
+  "SoundEx": "soluta",
+  "Source": 608,
+  "TextId": 494,
+  "UpdatedDate": "2016-05-10T14:23:47.4255063+02:00",
+  "UpdatedCount": 854,
+  "Visibility": 922,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 118,
-  "TargetTableName": "Glover, Kunde and Wuckert",
+  "CompanyUnique": false,
+  "TargetTableNumber": 195,
+  "TargetTableName": "Kunde-Haag",
   "Completed": false,
-  "LeftSelectionId": 595,
-  "RightSelectionId": 19,
+  "LeftSelectionId": 271,
+  "RightSelectionId": 689,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kuhlman Group",
-  "ShadowProviderName": "Ritchie, Kemmer and Bosco",
-  "ChartKey": "nam",
-  "LastLoaded": "2014-12-04T10:30:24.7017104+01:00",
-  "LastLoadedBy": 442,
+  "MainProviderName": "Lueilwitz, Metz and Boyer",
+  "ShadowProviderName": "Adams-Homenick",
+  "ChartKey": "a",
+  "LastLoaded": "2005-10-14T14:23:47.4255063+02:00",
+  "LastLoadedBy": 119,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-04-10T10:30:24.7017104+02:00",
-  "LastMembershipChangeBy": 228,
+  "LastMembershipChange": "2020-11-26T14:23:47.4255063+01:00",
+  "LastMembershipChangeBy": 351,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Ryan, Rippin and Dach",
-  "DashboardTileDefinitionId": 787,
+  "MainHeading": "illum",
+  "MemberTabHeading": "nemo",
+  "MailingsProviderName": "Ledner-Herzog",
+  "DashboardTileDefinitionId": 62,
   "VisibleFor": [
     {
-      "VisibleId": 294,
+      "VisibleId": 635,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     },
     {
-      "VisibleId": 294,
+      "VisibleId": 635,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 210
     }
   }
 }

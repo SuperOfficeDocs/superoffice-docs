@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 203,
-  "Name": "Mitchell Inc and Sons",
-  "Tooltip": "ipsa",
+  "HeadingId": 671,
+  "Name": "Mayer, Hauck and Nitzsche",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 653,
-  "UdListDefinitionId": 452
+  "Rank": 643,
+  "UdListDefinitionId": 408
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 617,
-  "Name": "Abernathy Group",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 349,
-  "UdListDefinitionId": 667,
+  "HeadingId": 253,
+  "Name": "Reichel-Cummings",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "Rank": 675,
+  "UdListDefinitionId": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

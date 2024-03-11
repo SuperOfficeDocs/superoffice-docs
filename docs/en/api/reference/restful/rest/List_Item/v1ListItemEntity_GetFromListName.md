@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Hackett, West and Price",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 277,
-  "Rank": 213,
+  "Id": 905,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 285,
+  "Rank": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

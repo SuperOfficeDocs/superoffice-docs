@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hansen Group",
-  "ProviderName": "Terry LLC",
-  "Context": "explicabo"
+  "GuiName": "Jakubowski, McClure and Brakus",
+  "ProviderName": "Dare-Wiegand",
+  "Context": "perspiciatis"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Jast, Okuneva and Beier",
-      "DisplayTooltip": "aut",
-      "DisplayType": "consequatur",
-      "CanOrderBy": false,
-      "Name": "Johns Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Oberbrunner Inc and Sons",
+      "DisplayName": "Heathcote, Mante and Stracke",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "voluptas",
+      "CanOrderBy": true,
+      "Name": "Homenick-Bode",
+      "CanRestrictBy": true,
+      "RestrictionType": "ea",
+      "RestrictionListName": "Beahan Group",
       "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "debitis",
-      "IconHint": "eligendi",
-      "HeadingIconHint": "dolor"
+      "ExtraInfo": "unde",
+      "Width": "et",
+      "IconHint": "atque",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 873,
-      "Name": "Bednar Inc and Sons",
-      "ToolTip": "Velit et officia accusantium fugiat fugiat.",
-      "Deleted": true,
-      "Rank": 341,
-      "Type": "rem",
-      "ColorBlock": 396,
-      "IconHint": "tempora",
-      "Selected": true,
-      "LastChanged": "2020-04-11T10:30:23.0514184+02:00",
+      "Id": 968,
+      "Name": "Sanford LLC",
+      "ToolTip": "Sit excepturi consequatur voluptatem ea adipisci.",
+      "Deleted": false,
+      "Rank": 895,
+      "Type": "minus",
+      "ColorBlock": 173,
+      "IconHint": "dolor",
+      "Selected": false,
+      "LastChanged": "2011-10-24T14:23:45.8293368+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "ut",
-      "Hidden": false,
-      "FullName": "Mrs. Westley Murray PhD",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "fuga",
+      "Hidden": true,
+      "FullName": "Mrs. Linnea Iva Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hermann-Strosin",
+      "Name": "Block-Fadel",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermann-Strosin",
+      "Name": "Block-Fadel",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "provident",
+  "OwnerKeys": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 808
     }
   }
 }

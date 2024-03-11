@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 437,
+  "TargetDimensionId": 978,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "dolore",
-  "DimensionListName": "Stroman Group",
-  "DimensionListId": 8,
-  "DimensionListLabel": "laborum",
+  "DimensionListField": "aliquid",
+  "DimensionListName": "Jenkins, Schimmel and Sauer",
+  "DimensionListId": 918,
+  "DimensionListLabel": "quibusdam",
   "SelectedDimensions": [
-    832,
-    761
+    688,
+    133
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 261,
+  "TargetDimensionId": 136,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "saepe",
-  "DimensionListName": "Dietrich, Greenholt and Stracke",
-  "DimensionListId": 63,
-  "DimensionListLabel": "cum",
+  "DimensionListField": "vel",
+  "DimensionListName": "Gorczany, Rau and Davis",
+  "DimensionListId": 941,
+  "DimensionListLabel": "in",
   "SelectedDimensions": [
-    880,
-    109
+    524,
+    407
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

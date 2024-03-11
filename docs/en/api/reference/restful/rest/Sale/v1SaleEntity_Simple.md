@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Romaguera, O'Conner and Eichmann",
-  "SaleDate": "2006-11-17T10:30:32.4656327+01:00",
-  "SaleId": 800,
-  "Probability": 248,
-  "Title": "magnam",
-  "Amount": 11009.742,
-  "Currency": "architecto",
-  "ProjectName": "Wilderman-Herman",
-  "AssociateFullName": "Mr. Reina Ignatius Gibson PhD",
-  "Description": "Organized didactic monitoring",
+  "ContactName": "Jast, Kuhic and Kessler",
+  "SaleDate": "2006-06-27T14:23:55.4783333+02:00",
+  "SaleId": 186,
+  "Probability": 528,
+  "Title": "vel",
+  "Amount": 12614.35,
+  "Currency": "ipsam",
+  "ProjectName": "Ernser-Tremblay",
+  "AssociateFullName": "Jerald Rosenbaum",
+  "Description": "Seamless background strategy",
   "Status": "Lost",
-  "WeightedAmount": 10668.136,
-  "ProjectId": 336,
-  "EarningPercent": 16970.61,
-  "Earning": 20640.523999999998,
-  "ContactId": 867,
-  "AssociateId": 816,
-  "PersonId": 101,
-  "SaleTypeId": 415,
-  "SaleTypeName": "Wiegand-McLaughlin",
-  "PersonFullName": "Mrs. Coy Nola Marks PhD",
+  "WeightedAmount": 17685.162,
+  "ProjectId": 660,
+  "EarningPercent": 14055.99,
+  "Earning": 20139.084,
+  "ContactId": 84,
+  "AssociateId": 55,
+  "PersonId": 96,
+  "SaleTypeId": 281,
+  "SaleTypeName": "Schinner-Huels",
+  "PersonFullName": "Trace Hoppe",
   "Completed": "Completed",
-  "ActiveErpLinks": 618,
-  "NextDueDate": "2009-11-08T10:30:32.4656327+01:00",
-  "Number": "899321",
+  "ActiveErpLinks": 950,
+  "NextDueDate": "2020-11-23T14:23:55.4783333+01:00",
+  "Number": "938199",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 405
     }
   }
 }

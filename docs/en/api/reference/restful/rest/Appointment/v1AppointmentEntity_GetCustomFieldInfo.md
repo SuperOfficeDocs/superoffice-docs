@@ -71,7 +71,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kuhic-Kreiger",
-  "DisplayName": "Kling Inc and Sons",
-  "Description": "Programmable real-time process improvement",
-  "ShortLabel": "cum",
+  "FieldName": "Wolff, Leuschke and Pfeffer",
+  "DisplayName": "Predovic, Parisian and O'Reilly",
+  "Description": "Organized maximized complexity",
+  "ShortLabel": "fuga",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 252,
-  "TemplateVariableName": "Simonis Group"
+  "Rank": 430,
+  "TemplateVariableName": "Strosin Inc and Sons"
 }
 ```

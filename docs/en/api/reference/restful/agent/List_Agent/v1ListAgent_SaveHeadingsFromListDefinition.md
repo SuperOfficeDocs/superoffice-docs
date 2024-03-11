@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452,
+  "Id": 182,
   "Entities": [
     {
-      "HeadingId": 714,
-      "Name": "O'Conner Inc and Sons",
-      "Tooltip": "quibusdam",
-      "Deleted": false,
-      "Rank": 892,
-      "UdListDefinitionId": 93
+      "HeadingId": 936,
+      "Name": "Howe, Pagac and Crona",
+      "Tooltip": "et",
+      "Deleted": true,
+      "Rank": 443,
+      "UdListDefinitionId": 572
     },
     {
-      "HeadingId": 714,
-      "Name": "O'Conner Inc and Sons",
-      "Tooltip": "quibusdam",
-      "Deleted": false,
-      "Rank": 892,
-      "UdListDefinitionId": 93
+      "HeadingId": 936,
+      "Name": "Howe, Pagac and Crona",
+      "Tooltip": "et",
+      "Deleted": true,
+      "Rank": 443,
+      "UdListDefinitionId": 572
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 936,
-    "Name": "Ziemann-Stoltenberg",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "Rank": 953,
-    "UdListDefinitionId": 844,
+    "HeadingId": 746,
+    "Name": "Farrell Group",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 292,
+    "UdListDefinitionId": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 979
       }
     }
   }

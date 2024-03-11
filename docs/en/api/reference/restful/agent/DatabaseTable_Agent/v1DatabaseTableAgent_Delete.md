@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Paucek, Volkman and Stamm",
+  "TableName": "Larson Inc and Sons",
   "IDs": [
-    415,
-    358
+    762,
+    891
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "enim",
-  "Inserts": 490,
-  "Updates": 673,
-  "Deletes": 102,
+  "Message": "distinctio",
+  "Inserts": 392,
+  "Updates": 790,
+  "Deletes": 495,
   "RowStatus": [
     {
-      "PrimaryKey": 757,
+      "PrimaryKey": 422,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "cupiditate",
-        "velit"
+        "in",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     },
     {
-      "PrimaryKey": 757,
+      "PrimaryKey": 422,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "cupiditate",
-        "velit"
+        "in",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 927
     }
   }
 }

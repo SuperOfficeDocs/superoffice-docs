@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Frami-Senger",
-    "ToolTip": "Rerum voluptatem aut.",
-    "Deleted": true,
-    "Rank": 705,
-    "Type": "iste",
-    "ColorBlock": 273,
-    "IconHint": "sed",
+    "Id": 582,
+    "Name": "D'Amore LLC",
+    "ToolTip": "Pariatur labore qui.",
+    "Deleted": false,
+    "Rank": 952,
+    "Type": "voluptatum",
+    "ColorBlock": 647,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2002-11-03T10:30:33.2568344+01:00",
+    "LastChanged": "2017-01-07T14:23:56.353323+01:00",
     "ChildItems": [
       {
-        "Id": 239,
-        "Name": "Dooley, Reichel and Herzog",
-        "ToolTip": "Aut corrupti ducimus ex eum natus rerum nulla.",
+        "Id": 633,
+        "Name": "Lang Inc and Sons",
+        "ToolTip": "Et dolore at architecto molestiae unde amet.",
         "Deleted": false,
-        "Rank": 239,
-        "Type": "quo",
-        "ColorBlock": 358,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2006-07-26T10:30:33.2568344+02:00",
+        "Rank": 660,
+        "Type": "quam",
+        "ColorBlock": 287,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2004-02-08T14:23:56.353323+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Felipe O'Connell",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Cecil McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 185
+            "FieldLength": 292
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sit",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Ms. Olen Wilkinson V",
+    "FullName": "Moshe Claire Huels I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldType": "System.String",
+        "FieldLength": 537
       }
     }
   }

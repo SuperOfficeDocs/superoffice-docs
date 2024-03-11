@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 210,
-  "Name": "Stanton LLC",
-  "TZLocationCode": "et",
-  "TZLocationCities": "voluptas",
-  "IsoNumber": 430,
+  "TZLocationID": 304,
+  "Name": "Balistreri Group",
+  "TZLocationCode": "aut",
+  "TZLocationCities": "deserunt",
+  "IsoNumber": 822,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 677,
-      "StartMonth": 849,
-      "EndDay": 852,
-      "EndMonth": 994,
-      "TZOffset": 684,
-      "StartRulePattern": "sed",
-      "EndRulePattern": "repellat"
+      "StartDay": 508,
+      "StartMonth": 830,
+      "EndDay": 47,
+      "EndMonth": 422,
+      "TZOffset": 824,
+      "StartRulePattern": "voluptates",
+      "EndRulePattern": "rerum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 929,
-      "StartMonth": 54,
-      "EndDay": 315,
-      "EndMonth": 468,
-      "TZOffset": 314,
-      "StartRulePattern": "accusantium",
-      "EndRulePattern": "aut"
+      "StartDay": 419,
+      "StartMonth": 343,
+      "EndDay": 431,
+      "EndMonth": 157,
+      "TZOffset": 367,
+      "StartRulePattern": "repellat",
+      "EndRulePattern": "itaque"
     }
   }
 }

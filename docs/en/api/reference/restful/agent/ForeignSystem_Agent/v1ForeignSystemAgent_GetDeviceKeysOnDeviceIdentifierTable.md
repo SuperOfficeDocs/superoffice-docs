@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisoky-Kreiger",
-  "DeviceName": "Jaskolski LLC",
-  "DeviceIdentifier": "deserunt",
-  "TableName": "Jewess, Bednar and Adams"
+  "ApplicationName": "White LLC",
+  "DeviceName": "Deckow Inc and Sons",
+  "DeviceIdentifier": "explicabo",
+  "TableName": "Roberts Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "itaque",
-    "Value": "omnis",
-    "RecordId": 812,
-    "CreatedDate": "1997-09-03T10:30:23.9261861+02:00",
-    "UpdatedDate": "1998-12-14T10:30:23.9261861+01:00",
-    "UpdatedBy": "minus",
-    "CreatedBy": "velit",
-    "TableName": "Fay, Weissnat and Bernier",
+    "Key": "quia",
+    "Value": "porro",
+    "RecordId": 40,
+    "CreatedDate": "2004-10-11T14:23:46.7681044+02:00",
+    "UpdatedDate": "2008-01-12T14:23:46.7681044+01:00",
+    "UpdatedBy": "deleniti",
+    "CreatedBy": "vel",
+    "TableName": "Mann-Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 316
       }
     }
   }

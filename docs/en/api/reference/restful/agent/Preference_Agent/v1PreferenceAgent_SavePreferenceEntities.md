@@ -72,19 +72,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "autem",
+      "RawValue": "dolorem",
       "Specification": null,
-      "DisplayValue": "aspernatur",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "omnis",
+      "DisplayTooltip": "iusto",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 299,
-      "PrefDescId": 106,
-      "TableName": "Pfannerstill Group",
-      "UserPreferenceId": 775
+      "TargetId": 416,
+      "PrefDescId": 748,
+      "TableName": "Frami, Schaefer and Kirlin",
+      "UserPreferenceId": 23
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

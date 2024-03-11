@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Dec 2020 10:30:32 G12T
+Last-Modified: Thu, 21 Oct 1999 14:23:55 G10T
 
 {
-  "ForeignAppId": 932,
-  "Name": "Cummerata LLC",
-  "CreatedDate": "2007-07-13T10:30:32.0730519+02:00",
-  "UpdatedDate": "2020-12-19T10:30:32.0730519+01:00",
+  "ForeignAppId": 637,
+  "Name": "Hauck-Bernier",
+  "CreatedDate": "2010-02-20T14:23:55.1802705+01:00",
+  "UpdatedDate": "1999-10-21T14:23:55.1802705+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 973,
-      "Name": "Braun Group",
-      "CreatedDate": "2013-09-24T10:30:32.0730519+02:00",
-      "UpdatedDate": "2007-02-04T10:30:32.0730519+01:00",
-      "AssociateFullName": "Heather Jerde",
-      "CreatedBy": "atque",
-      "UpdatedBy": "numquam",
-      "DeviceIdentifier": "sapiente",
-      "ForeignAppId": 532,
+      "ForeignDeviceId": 989,
+      "Name": "Macejkovic Group",
+      "CreatedDate": "2007-06-18T14:23:55.1802705+02:00",
+      "UpdatedDate": "2021-02-09T14:23:55.1802705+01:00",
+      "AssociateFullName": "Mr. Bertram Ronaldo Mann",
+      "CreatedBy": "eos",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "temporibus",
+      "ForeignAppId": 386,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 841
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Sat, 19 Dec 2020 10:30:32 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 979
     }
   }
 }

@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 603,
-    "Name": "Wolff, D'Amore and Robel",
+    "TicketStatusId": 217,
+    "Name": "Cummerata Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

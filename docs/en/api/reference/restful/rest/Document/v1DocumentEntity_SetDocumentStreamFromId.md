@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 336,
+  "DocumentId": 866,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "totam",
-  "Name": "Bailey, Collins and Bernhard",
-  "OurRef": "commodi",
-  "YourRef": "est",
-  "CreatedDate": "2002-10-10T10:30:32.0261799+02:00",
-  "UpdatedDate": "2011-12-29T10:30:32.0261799+01:00",
-  "Description": "Progressive fresh-thinking info-mediaries",
+  "Attention": "nemo",
+  "Header": "quia",
+  "Name": "Stokes-Ortiz",
+  "OurRef": "et",
+  "YourRef": "ut",
+  "CreatedDate": "2004-06-04T14:23:55.1333981+02:00",
+  "UpdatedDate": "2018-05-05T14:23:55.1333981+02:00",
+  "Description": "Configurable optimizing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-10-15T10:30:32.0261799+02:00",
-  "ExternalRef": "laudantium",
+  "Date": "2019-02-14T14:23:55.1490211+01:00",
+  "ExternalRef": "explicabo",
   "Completed": "Completed",
-  "ActiveLinks": 367,
+  "ActiveLinks": 351,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leannon Inc and Sons",
-      "Id": 346,
-      "Description": "Optional web-enabled monitoring",
-      "ExtraInfo": "deleniti",
-      "LinkId": 559,
+      "EntityName": "McLaughlin Inc and Sons",
+      "Id": 710,
+      "Description": "Robust explicit implementation",
+      "ExtraInfo": "in",
+      "LinkId": 315,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldLength": 317
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 781,
-  "Snum": 641,
+  "SuggestedDocumentId": 139,
+  "Snum": 75,
   "UserDefinedFields": {
-    "SuperOffice:1": "700293625",
-    "SuperOffice:2": "Alexandrea Nader MD"
+    "SuperOffice:1": "Ms. Hallie Wunsch Sr.",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
     "CustomFields1": "aut",
-    "CustomFields2": "doloremque"
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "2001-09-01T10:30:32.0261799+02:00",
-  "PublishTo": "2019-05-08T10:30:32.0261799+02:00",
-  "PublishFrom": "2006-06-04T10:30:32.0261799+02:00",
+  "PublishEventDate": "2022-01-06T14:23:55.1490211+01:00",
+  "PublishTo": "2004-05-19T14:23:55.1490211+02:00",
+  "PublishFrom": "2017-01-08T14:23:55.1490211+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 81,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 81,
+      "VisibleId": 69,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   }
 }

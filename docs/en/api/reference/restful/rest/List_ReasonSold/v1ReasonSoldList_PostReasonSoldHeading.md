@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 715,
-  "Name": "Harris-Kunze",
-  "Tooltip": "soluta",
+  "HeadingId": 507,
+  "Name": "Hahn Group",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 525,
-  "UdListDefinitionId": 674
+  "Rank": 444,
+  "UdListDefinitionId": 273
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 660,
-  "Name": "Gottlieb Group",
-  "Tooltip": "quos",
+  "HeadingId": 4,
+  "Name": "Considine Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 953,
-  "UdListDefinitionId": 170,
+  "Rank": 779,
+  "UdListDefinitionId": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldLength": 11
     }
   }
 }

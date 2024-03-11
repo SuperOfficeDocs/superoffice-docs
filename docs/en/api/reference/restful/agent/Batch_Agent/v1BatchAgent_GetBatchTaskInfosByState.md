@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Osinski, Lowe and Krajcik",
-    "AssociateId": 444,
-    "DetailsTable": 777,
-    "DetailsRecord": 43,
-    "IsSystemTask": true,
+    "Id": 266,
+    "Name": "Kiehn-Harber",
+    "AssociateId": 12,
+    "DetailsTable": 420,
+    "DetailsRecord": 147,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "dolorum"
+      "ParameterObject1": "odit",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "2007-10-07T10:30:23.0826686+02:00",
-    "Created": "2017-08-14T10:30:23.0826686+02:00",
-    "StartCount": 830,
-    "DatabaseSerialNumber": "1458395",
-    "Context": "alias",
-    "Result": "omnis",
+    "LastStarted": "2004-09-06T14:23:45.8762101+02:00",
+    "Created": "2018-07-15T14:23:45.8762101+02:00",
+    "StartCount": 994,
+    "DatabaseSerialNumber": "1328354",
+    "Context": "aperiam",
+    "Result": "iure",
     "State": "All",
-    "Description": "Configurable bifurcated conglomeration",
-    "Response": "tempora",
-    "Request": "est",
-    "ProgressDescription": "Enhanced interactive circuit",
-    "ProgressPercent": 380,
-    "FileName": "Weissnat-Dooley",
+    "Description": "Expanded transitional interface",
+    "Response": "et",
+    "Request": "architecto",
+    "ProgressDescription": "Public-key dynamic data-warehouse",
+    "ProgressPercent": 417,
+    "FileName": "O'Keefe Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 831
       }
     }
   }

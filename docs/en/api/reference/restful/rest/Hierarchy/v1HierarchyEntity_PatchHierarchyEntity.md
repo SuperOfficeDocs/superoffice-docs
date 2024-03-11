@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magnam",
+    "path": "itaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magnam",
+    "path": "itaque",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 693,
+  "HierarchyId": 156,
   "Domain": "Dashboards",
-  "Name": "Gerlach, Lockman and Bogisich",
-  "Fullname": "aut",
-  "ParentId": 499,
+  "Name": "Beatty-Barton",
+  "Fullname": "hic",
+  "ParentId": 93,
   "Children": [
     {
-      "HierarchyId": 4,
+      "HierarchyId": 442,
       "Domain": "Dashboards",
-      "Name": "Kovacek-Conn",
-      "Fullname": "nihil",
-      "ParentId": 58,
+      "Name": "Yost-DuBuque",
+      "Fullname": "veniam",
+      "ParentId": 639,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-04-23T10:30:32.0886795+02:00",
-      "RegisteredAssociateId": 971,
-      "Updated": "2014-11-16T10:30:32.0886795+01:00",
-      "UpdatedAssociateId": 545,
+      "Registered": "2018-12-24T14:23:55.195897+01:00",
+      "RegisteredAssociateId": 260,
+      "Updated": "2014-07-15T14:23:55.195897+02:00",
+      "UpdatedAssociateId": 893,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     }
   ],
-  "Registered": "2009-08-15T10:30:32.0886795+02:00",
-  "RegisteredAssociateId": 395,
-  "Updated": "2014-01-22T10:30:32.0886795+01:00",
-  "UpdatedAssociateId": 125,
+  "Registered": "2014-12-17T14:23:55.195897+01:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2013-06-04T14:23:55.195897+02:00",
+  "UpdatedAssociateId": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

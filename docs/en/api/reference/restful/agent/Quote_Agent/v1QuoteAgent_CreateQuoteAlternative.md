@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 793,
-  "QuoteAlternativeName": "Lehner LLC",
-  "QuoteAlternativeDescription": "Versatile regional contingency"
+  "QuoteVersionId": 63,
+  "QuoteAlternativeName": "Johns, Douglas and Bayer",
+  "QuoteAlternativeDescription": "Implemented 5th generation product"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 870,
-  "ERPQuoteAlternativeKey": "praesentium",
-  "QuoteVersionId": 183,
-  "Name": "Borer LLC",
-  "Description": "Vision-oriented exuding capacity",
+  "QuoteAlternativeId": 890,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 517,
+  "Name": "Gleichner-Turcotte",
+  "Description": "Synchronised 24 hour capability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30581.572,
-  "ERPDiscountAmount": 17791.718,
-  "DiscountPercent": 30208.626,
-  "DiscountAmount": 11802.644,
+  "ERPDiscountPercent": 18127.056,
+  "ERPDiscountAmount": 10147.892,
+  "DiscountPercent": 21690.414,
+  "DiscountAmount": 1823.9879999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "iure",
-  "VAT": 19289.77,
-  "EarningPercent": 5750.8899999999994,
-  "EarningAmount": 15516.434,
-  "SubTotal": 8399.119999999999,
-  "TotalPrice": 3958.2419999999997,
-  "ExtraField1": "corrupti",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "sed",
-  "ExtraField4": "culpa",
-  "ExtraField5": "eaque",
+  "VATInfo": "facere",
+  "VAT": 19330.512,
+  "EarningPercent": 23761.987999999998,
+  "EarningAmount": 23953.162,
+  "SubTotal": 15375.403999999999,
+  "TotalPrice": 25388.534,
+  "ExtraField1": "ut",
+  "ExtraField2": "minus",
+  "ExtraField3": "dolor",
+  "ExtraField4": "est",
+  "ExtraField5": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 894
     }
   }
 }

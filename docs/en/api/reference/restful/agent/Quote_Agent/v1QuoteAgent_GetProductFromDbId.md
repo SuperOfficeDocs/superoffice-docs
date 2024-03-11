@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 757
+  "ProductId": 487
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 648,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "aut",
-  "Name": "Douglas, Walker and Emard",
-  "Description": "Multi-layered client-server website",
-  "Code": "cumque",
-  "PriceUnit": "soluta",
-  "QuantityUnit": "unde",
+  "ProductId": 202,
+  "ERPProductKey": "fuga",
+  "ERPPriceListKey": "ipsum",
+  "Name": "Mayert, Kihn and O'Connell",
+  "Description": "Sharable local throughput",
+  "Code": "maiores",
+  "PriceUnit": "qui",
+  "QuantityUnit": "saepe",
   "IsSubscription": false,
-  "SubscriptionUnit": "mollitia",
-  "DefaultSubscriptionQuantity": 9232.764,
-  "ItemNumber": "1670325",
+  "SubscriptionUnit": "quod",
+  "DefaultSubscriptionQuantity": 23113.25,
+  "ItemNumber": "1122175",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "soluta",
-  "ProductTypeKey": "at",
-  "VAT": 20471.288,
-  "VATInfo": "debitis",
-  "UnitCost": 9633.916,
-  "UnitMinimumPrice": 6807.048,
-  "UnitListPrice": 30587.84,
+  "ProductFamilyKey": "nihil",
+  "ProductTypeKey": "tenetur",
+  "VAT": 20596.648,
+  "VATInfo": "sunt",
+  "UnitCost": 30145.946,
+  "UnitMinimumPrice": 16882.858,
+  "UnitListPrice": 9013.384,
   "InAssortment": false,
-  "Supplier": "sed",
-  "SupplierCode": "eos",
-  "Rights": "provident",
-  "Rule": "similique",
+  "Supplier": "voluptas",
+  "SupplierCode": "fuga",
+  "Rights": "iusto",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Yost LLC",
-      "Value": "doloribus",
+      "Name": "Wiegand LLC",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     },
     {
-      "Name": "Yost LLC",
-      "Value": "doloribus",
+      "Name": "Wiegand LLC",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptates",
-  "ExtraField1": "nostrum",
-  "ExtraField2": "quo",
-  "ExtraField3": "veritatis",
-  "ExtraField4": "ut",
-  "ExtraField5": "impedit",
-  "InStock": 26219.043999999998,
+  "RawExtraInfo": "mollitia",
+  "ExtraField1": "unde",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "nihil",
+  "ExtraField5": "ut",
+  "InStock": 10198.036,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

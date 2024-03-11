@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Casper Inc and Sons",
-  "Context": "magni"
+  "ProviderName": "Jast Group",
+  "Context": "soluta"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Stoltenberg-Powlowski",
-    "DisplayTooltip": "doloremque",
-    "DisplayType": "doloribus",
+    "DisplayName": "Homenick, Waelchi and Reichert",
+    "DisplayTooltip": "reprehenderit",
+    "DisplayType": "recusandae",
     "CanOrderBy": false,
-    "Name": "Johnston-Rogahn",
+    "Name": "Leuschke, Rogahn and Stehr",
     "CanRestrictBy": true,
-    "RestrictionType": "maiores",
-    "RestrictionListName": "Dicki LLC",
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "Sanford, Mohr and Schaden",
     "IsVisible": true,
-    "ExtraInfo": "quod",
-    "Width": "nisi",
-    "IconHint": "maiores",
-    "HeadingIconHint": "et"
+    "ExtraInfo": "iure",
+    "Width": "est",
+    "IconHint": "mollitia",
+    "HeadingIconHint": "quasi"
   }
 ]
 ```

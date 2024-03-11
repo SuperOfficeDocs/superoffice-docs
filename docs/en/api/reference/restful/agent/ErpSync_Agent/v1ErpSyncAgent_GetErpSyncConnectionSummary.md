@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 987
+  "ErpSyncConnectionId": 392
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Keeling Group",
-  "DisplayDescription": "Distributed client-driven intranet",
+  "DisplayName": "Orn LLC",
+  "DisplayDescription": "Customer-focused explicit Graphic Interface",
   "Active": false,
-  "Deleted": false,
-  "LastSync": "2014-08-08T10:30:23.8449272+02:00",
+  "Deleted": true,
+  "LastSync": "1998-04-06T14:23:46.7056034+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "optio",
-      "Mappings": "nisi",
+      "Defaults": "voluptate",
+      "Mappings": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 80
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "optio",
-      "Mappings": "nisi",
+      "Defaults": "voluptate",
+      "Mappings": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 80
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 717
     }
   }
 }

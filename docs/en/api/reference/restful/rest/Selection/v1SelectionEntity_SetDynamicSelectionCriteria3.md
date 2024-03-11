@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emmerich, Schowalter and Reichert",
-    "Operator": "repellendus",
+    "Name": "Heaney Inc and Sons",
+    "Operator": "reprehenderit",
     "Values": [
-      "perspiciatis",
-      "rem"
+      "ullam",
+      "distinctio"
     ],
     "DisplayValues": [
-      "eligendi",
-      "ullam"
+      "quaerat",
+      "totam"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Kuphal-Schmitt",
-        "Operator": "et",
+        "Name": "Bradtke-Mraz",
+        "Operator": "voluptas",
         "Values": [
-          "qui",
-          "quaerat"
+          "voluptatum",
+          "ut"
         ],
         "DisplayValues": [
-          "dicta",
-          "molestiae"
+          "accusantium",
+          "in"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 568,
+        "InterParenthesis": 650,
         "InterOperator": "And",
-        "UniqueHash": 225
+        "UniqueHash": 837
       }
     ],
-    "InterParenthesis": 973,
+    "InterParenthesis": 764,
     "InterOperator": "And",
-    "UniqueHash": 501
+    "UniqueHash": 801
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mueller Inc and Sons",
-    "Operator": "debitis",
+    "Name": "West, Fay and Kohler",
+    "Operator": "hic",
     "Values": [
-      "labore",
-      "excepturi"
+      "aut",
+      "distinctio"
     ],
     "DisplayValues": [
-      "vitae",
-      "consectetur"
+      "commodi",
+      "eum"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Walsh-Stokes",
-        "Operator": "mollitia",
+        "Name": "Gutmann Inc and Sons",
+        "Operator": "dolorem",
         "Values": [
-          "vero",
-          "eaque"
+          "quia",
+          "aliquam"
         ],
         "DisplayValues": [
-          "quae",
-          "culpa"
+          "corrupti",
+          "praesentium"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 221,
+        "InterParenthesis": 308,
         "InterOperator": "And",
-        "UniqueHash": 344
+        "UniqueHash": 713
       }
     ],
-    "InterParenthesis": 643,
+    "InterParenthesis": 6,
     "InterOperator": "And",
-    "UniqueHash": 652
+    "UniqueHash": 773
   }
 ]
 ```

@@ -90,8 +90,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Grady Group",
-  "ModuleName": "Cruickshank Group"
+  "OwnerName": "Johnson, Kuhlman and Bergnaum",
+  "ModuleName": "Funk Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Graham Group",
-  "ModuleName": "Schowalter-D'Amore",
-  "ModuleDescription": "Open-source zero administration circuit",
-  "ModuleTooltip": "vel",
-  "ModuleVersion": "aliquam",
+  "OwnerName": "Considine-Toy",
+  "ModuleName": "Lakin-Ratke",
+  "ModuleDescription": "Robust 24 hour attitude",
+  "ModuleTooltip": "molestiae",
+  "ModuleVersion": "minima",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 94,
-  "ExtraFlags": 25,
-  "ExtraInfo": "labore",
-  "SortOrder": 336,
+  "NumberOfLicenses": 411,
+  "ExtraFlags": 475,
+  "ExtraInfo": "magni",
+  "SortOrder": 784,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Robel LLC",
-  "Signature": "dolores"
+  "PrerequisiteModuleName": "Hane-Baumbach",
+  "Signature": "ut"
 }
 ```

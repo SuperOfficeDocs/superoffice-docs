@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 30,
-  "TopicId": 92,
+  "ChatSessionId": 797,
+  "TopicId": 658,
   "User": null,
   "Person": null,
-  "CustomerAlias": "asperiores",
-  "CustomerHost": "animi",
-  "CustomerName": "Pacocha-Sipes",
-  "CustomerEmail": "genoveva@gislason.uk",
-  "CustomerPhone": "1-223-590-9758 x997",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Braun LLC",
+  "CustomerAlias": "reprehenderit",
+  "CustomerHost": "amet",
+  "CustomerName": "Fay Inc and Sons",
+  "CustomerEmail": "johnnie_effertz@dooleyankunding.com",
+  "CustomerPhone": "(339)389-9199",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Feest-Lebsack",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "in",
-  "WhenRequested": "1996-10-07T10:30:31.6968501+02:00",
-  "WhenStarted": "2014-11-02T10:30:31.6968501+01:00",
-  "WhenEnded": "1999-05-22T10:30:31.6968501+02:00",
-  "WhenIdle": "2008-12-27T10:30:31.6968501+01:00",
-  "WhenFetched": "2006-03-21T10:30:31.6968501+01:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 710,
-  "AlertLevel": 997,
-  "Rank": 373,
+  "FirstMessage": "corrupti",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2015-10-14T14:23:54.7565188+02:00",
+  "WhenStarted": "2000-07-30T14:23:54.7565188+02:00",
+  "WhenEnded": "2017-07-21T14:23:54.7565188+02:00",
+  "WhenIdle": "1999-02-11T14:23:54.7565188+01:00",
+  "WhenFetched": "2002-05-29T14:23:54.7565188+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 607,
+  "AlertLevel": 770,
+  "Rank": 723,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 761,
+  "Rating": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   }
 }

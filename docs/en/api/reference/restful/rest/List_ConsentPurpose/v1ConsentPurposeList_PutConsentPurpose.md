@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 368,
-  "Name": "West Group",
-  "ConsentText": "rerum",
-  "FormText": "rem",
-  "Key": "reiciendis",
-  "Tooltip": "architecto",
-  "Active": 609,
-  "UpdatedDate": "2017-04-25T10:30:32.9118319+02:00",
+  "ConsentPurposeId": 993,
+  "Name": "Goodwin, Witting and Larkin",
+  "ConsentText": "reiciendis",
+  "FormText": "odit",
+  "Key": "similique",
+  "Tooltip": "quae",
+  "Active": 369,
+  "UpdatedDate": "2002-09-25T14:23:55.9939519+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 622,
-  "PrivacyStatementDesc": "id",
+  "Rank": 184,
+  "PrivacyStatementDesc": "illum",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 46,
-  "Name": "Thiel, Ziemann and Stanton",
-  "ConsentText": "error",
-  "FormText": "maiores",
-  "Key": "sit",
-  "Tooltip": "error",
-  "Active": 104,
-  "UpdatedDate": "2012-12-21T10:30:32.9118319+01:00",
+  "ConsentPurposeId": 314,
+  "Name": "Kemmer Group",
+  "ConsentText": "dolores",
+  "FormText": "ullam",
+  "Key": "modi",
+  "Tooltip": "earum",
+  "Active": 874,
+  "UpdatedDate": "2009-01-16T14:23:55.9939519+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 732,
-  "PrivacyStatementDesc": "ut",
+  "Rank": 67,
+  "PrivacyStatementDesc": "sit",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

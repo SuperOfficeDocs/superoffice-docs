@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 218,
-  "Name": "Stanton, Renner and Walsh",
-  "ConsentText": "nulla",
-  "FormText": "iste",
-  "Key": "esse",
-  "Tooltip": "eum",
-  "Active": 264,
-  "UpdatedDate": "2011-06-19T10:30:32.8962093+02:00",
+  "ConsentPurposeId": 81,
+  "Name": "Bogan-Goyette",
+  "ConsentText": "autem",
+  "FormText": "consequatur",
+  "Key": "at",
+  "Tooltip": "ut",
+  "Active": 669,
+  "UpdatedDate": "2013-12-13T14:23:55.9939519+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 753,
-  "PrivacyStatementDesc": "commodi",
+  "Deleted": false,
+  "Rank": 842,
+  "PrivacyStatementDesc": "esse",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 203,
-  "Name": "Koch, Kutch and Langosh",
-  "ConsentText": "qui",
-  "FormText": "quos",
-  "Key": "dolor",
-  "Tooltip": "totam",
-  "Active": 147,
-  "UpdatedDate": "2004-02-21T10:30:32.8962093+01:00",
+  "ConsentPurposeId": 723,
+  "Name": "Cormier Group",
+  "ConsentText": "voluptatibus",
+  "FormText": "repellendus",
+  "Key": "doloremque",
+  "Tooltip": "praesentium",
+  "Active": 922,
+  "UpdatedDate": "2022-06-15T14:23:55.9939519+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 959,
-  "PrivacyStatementDesc": "sint",
+  "Rank": 457,
+  "PrivacyStatementDesc": "sed",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 477
     }
   }
 }

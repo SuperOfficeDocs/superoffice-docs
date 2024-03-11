@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestias",
+    "path": "amet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestias",
+    "path": "amet",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 966,
-  "Name": "Oberbrunner LLC",
-  "Description": "Quality-focused uniform matrix",
-  "WelcomeMessage": "delectus",
+  "ChatTopicId": 252,
+  "Name": "Ritchie, Reichert and Roberts",
+  "Description": "Balanced uniform moderator",
+  "WelcomeMessage": "magnam",
   "Language": null,
-  "LastAccept": "2017-06-17T10:30:31.823057+02:00",
-  "SecondsPrAccept": 587,
-  "AlertRecipient": "libero",
+  "LastAccept": "2006-01-30T14:23:54.8977701+01:00",
+  "SecondsPrAccept": 39,
+  "AlertRecipient": "velit",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "consequatur",
+  "CollectConsent": false,
+  "BadgeHeader": "earum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "necessitatibus",
-  "WarnNewChatMinutes": 417,
-  "WarnManagerNewChatMinutes": 94,
+  "CustomQueueText": "natus",
+  "WarnNewChatMinutes": 143,
+  "WarnManagerNewChatMinutes": 995,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 810,
-  "WarnManagerChatMessageMinutes": 950,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 623,
-  "OfflineFormQueueLength": 511,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "modi",
+  "WarnChatMessageMinutes": 797,
+  "WarnManagerChatMessageMinutes": 538,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 847,
+  "OfflineFormQueueLength": 8,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 798
     }
   },
   "_Links": {

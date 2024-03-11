@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 617,
-  "Name": "Schroeder-Beatty",
-  "TZLocationCode": "dolor",
-  "TZLocationCities": "et",
-  "IsoNumber": 984,
+  "TZLocationID": 38,
+  "Name": "Thiel-Waelchi",
+  "TZLocationCode": "odio",
+  "TZLocationCities": "dignissimos",
+  "IsoNumber": 990,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 690,
-      "StartMonth": 27,
-      "EndDay": 264,
-      "EndMonth": 517,
-      "TZOffset": 777,
-      "StartRulePattern": "aut",
-      "EndRulePattern": "non"
+      "StartDay": 263,
+      "StartMonth": 487,
+      "EndDay": 44,
+      "EndMonth": 683,
+      "TZOffset": 195,
+      "StartRulePattern": "quis",
+      "EndRulePattern": "voluptatem"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 673,
-      "StartMonth": 577,
-      "EndDay": 432,
-      "EndMonth": 755,
-      "TZOffset": 966,
-      "StartRulePattern": "dolore",
-      "EndRulePattern": "qui"
+      "StartDay": 357,
+      "StartMonth": 396,
+      "EndDay": 825,
+      "EndMonth": 459,
+      "TZOffset": 859,
+      "StartRulePattern": "repudiandae",
+      "EndRulePattern": "deserunt"
     }
   }
 }

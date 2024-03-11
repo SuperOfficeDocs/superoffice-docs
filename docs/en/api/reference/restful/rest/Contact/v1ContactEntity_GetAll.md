@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=dolor
-GET /api/v1/Contact?$top=123
-GET /api/v1/Contact?$skip=185
+GET /api/v1/Contact?$entities=repellat
+GET /api/v1/Contact?$top=155
+GET /api/v1/Contact?$skip=503
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=perspiciatis
+GET /api/v1/Contact?$context=sit
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "ullam",
   "value": [
     {
-      "PrimaryKey": 8033,
+      "PrimaryKey": 7091,
       "EntityName": "sale",
-      "saleId": 8033,
-      "contactId": 956,
-      "name": "Zieme, Murray and Kling"
+      "saleId": 7091,
+      "contactId": 2881,
+      "name": "Lynch-Homenick"
     },
     {
-      "PrimaryKey": 7788,
+      "PrimaryKey": 7325,
       "EntityName": "sale",
-      "saleId": 7788,
-      "contactId": 9910,
-      "name": "Bernier-Metz"
+      "saleId": 7325,
+      "contactId": 9540,
+      "name": "Johnston-Quigley"
     }
   ]
 }

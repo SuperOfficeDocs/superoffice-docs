@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Welch-Deckow",
-      "Operator": "consequuntur",
+      "Name": "Fritsch, Torp and Bosco",
+      "Operator": "est",
       "Values": [
-        "earum",
-        "expedita"
+        "velit",
+        "non"
       ],
       "DisplayValues": [
-        "vitae",
-        "beatae"
+        "debitis",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 240,
+      "InterParenthesis": 444,
       "InterOperator": "And",
-      "UniqueHash": 133
+      "UniqueHash": 652
     }
   ],
-  "ProviderName": "Gulgowski, Kutch and Terry",
-  "PageSize": 738,
-  "PageNumber": 554
+  "ProviderName": "Abbott-Hartmann",
+  "PageSize": 703,
+  "PageNumber": 854
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gottlieb, Kozey and Mills",
-      "DisplayTooltip": "asperiores",
-      "DisplayType": "laborum",
-      "CanOrderBy": true,
-      "Name": "Hirthe, Conroy and Konopelski",
+      "DisplayName": "Renner LLC",
+      "DisplayTooltip": "ut",
+      "DisplayType": "doloribus",
+      "CanOrderBy": false,
+      "Name": "Trantow LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "quidem",
-      "RestrictionListName": "Bergnaum-Quitzon",
+      "RestrictionType": "ipsam",
+      "RestrictionListName": "Nikolaus, Klocko and Hand",
       "IsVisible": false,
-      "ExtraInfo": "quidem",
-      "Width": "qui",
-      "IconHint": "quos",
-      "HeadingIconHint": "mollitia"
+      "ExtraInfo": "nihil",
+      "Width": "ut",
+      "IconHint": "aut",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyle LLC",
-      "PrimaryKey": 693,
+      "EntityName": "Kilback-Barrows",
+      "PrimaryKey": 397,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "est",
-          "LinkHint": "rerum"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "vitae",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "qui",
+      "LinkHint": "fugiat",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     }
   ],
-  "RowCount": 579,
+  "RowCount": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

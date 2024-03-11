@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Koss, Bernier and Stroman",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 331,
-  "Rank": 593,
+  "Id": 512,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "UdListDefinitionId": 664,
+  "Rank": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 764
     }
   }
 }

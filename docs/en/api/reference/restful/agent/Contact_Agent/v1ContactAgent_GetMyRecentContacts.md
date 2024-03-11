@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 499,
-    "Name": "Walker Inc and Sons",
-    "OrgNr": "365946",
+    "ContactId": 873,
+    "Name": "O'Connell-Mitchell",
+    "OrgNr": "1363906",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "neque",
-    "DirectPhone": "969-894-4038 x64055",
-    "AssociateId": 904,
-    "CountryId": 110,
-    "EmailAddress": "tierra@schimmel.ca",
-    "Kananame": "cupiditate",
-    "EmailAddressName": "breana@aufderhar.ca",
+    "City": "sit",
+    "DirectPhone": "(066)080-2522 x414",
+    "AssociateId": 806,
+    "CountryId": 457,
+    "EmailAddress": "floy@kuhn.info",
+    "Kananame": "ut",
+    "EmailAddressName": "margarette_mohr@kuhic.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Javon Lueilwitz",
+    "AssociateFullName": "Roscoe Stiedemann",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
     "FormattedAddress": "quisquam",
-    "FullName": "Destiny Zechariah Bechtelar DDS",
+    "FullName": "Modesta Strosin",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 310,
-    "Number1": "1454951",
-    "Number2": "490562",
+    "ActiveErpLinks": 104,
+    "Number1": "1356949",
+    "Number2": "1718648",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldLength": 56
       }
     }
   }

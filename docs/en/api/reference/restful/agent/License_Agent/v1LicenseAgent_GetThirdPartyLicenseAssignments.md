@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 611,
-  "ModuleOwner": "reiciendis"
+  "AssociateId": 469,
+  "ModuleOwner": "repellat"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 804,
-    "Tooltip": "omnis",
+    "Unrestricted": false,
+    "Total": 190,
+    "Tooltip": "temporibus",
     "CanAssign": true,
-    "Free": 544,
-    "InUse": 1001,
-    "IsHidden": true,
+    "Free": 305,
+    "InUse": 996,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 133,
-    "Name": "White-Hahn",
-    "Description": "Persevering user-facing success",
-    "PrerequisiteModuleName": "Von, Borer and Murazik",
-    "SortOrder": 949,
-    "ExtraFlags": 594,
+    "ModuleLicenseId": 503,
+    "Name": "Denesik, Roberts and Pouros",
+    "Description": "Stand-alone static capacity",
+    "PrerequisiteModuleName": "Sanford-Steuber",
+    "SortOrder": 186,
+    "ExtraFlags": 187,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 808
       }
     }
   }

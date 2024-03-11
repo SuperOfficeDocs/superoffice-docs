@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 751,
-  "Name": "Mante, Ernser and Russel",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 398,
-  "UdListDefinitionId": 132
+  "HeadingId": 191,
+  "Name": "Schaden Group",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 810,
+  "UdListDefinitionId": 859
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 650,
-  "Name": "Schmitt LLC",
-  "Tooltip": "cumque",
+  "HeadingId": 217,
+  "Name": "Emard Inc and Sons",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 122,
-  "UdListDefinitionId": 230,
+  "Rank": 155,
+  "UdListDefinitionId": 131,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

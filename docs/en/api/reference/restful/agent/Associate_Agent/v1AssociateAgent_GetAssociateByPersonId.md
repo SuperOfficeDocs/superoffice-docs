@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 530
+  "PersonId": 705
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 406,
-  "Name": "Dach Group",
-  "PersonId": 32,
-  "Rank": 843,
-  "Tooltip": "voluptatem",
+  "AssociateId": 505,
+  "Name": "Waelchi-Wiza",
+  "PersonId": 299,
+  "Rank": 814,
+  "Tooltip": "qui",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 715,
-  "FullName": "Prof. Alek Mosciski Jr.",
-  "FormalName": "Hagenes-Lowe",
-  "Deleted": true,
-  "EjUserId": 209,
-  "UserName": "Schmidt Inc and Sons",
+  "GroupIdx": 655,
+  "FullName": "Miss Lorenz Eduardo Pollich PhD",
+  "FormalName": "Bayer, O'Conner and Graham",
+  "Deleted": false,
+  "EjUserId": 900,
+  "UserName": "Corkery LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 276
     }
   }
 }

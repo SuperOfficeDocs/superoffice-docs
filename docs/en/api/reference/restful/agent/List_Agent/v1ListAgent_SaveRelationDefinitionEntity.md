@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 690,
-  "Name": "Konopelski, Huels and Kunde",
-  "Tooltip": "ab",
-  "PassiveText": "debitis",
-  "Deleted": false,
-  "Rank": 816,
+  "ReldefId": 150,
+  "Name": "Cronin, Thompson and Green",
+  "Tooltip": "eum",
+  "PassiveText": "quo",
+  "Deleted": true,
+  "Rank": 311,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 367,
-  "Name": "Larkin LLC",
-  "Tooltip": "ipsum",
-  "PassiveText": "reprehenderit",
-  "Deleted": true,
-  "Rank": 885,
+  "ReldefId": 172,
+  "Name": "Legros Group",
+  "Tooltip": "sunt",
+  "PassiveText": "voluptas",
+  "Deleted": false,
+  "Rank": 452,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 950
+      "FieldLength": 836
     }
   }
 }

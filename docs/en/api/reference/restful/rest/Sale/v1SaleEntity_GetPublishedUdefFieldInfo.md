@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 409,
-  "ColumnId": 325,
-  "FieldDefault": "et",
-  "FieldHeight": 91,
-  "FieldLabel": "soluta",
-  "FieldLeft": 655,
-  "FieldTop": 164,
+  "UDefFieldId": 736,
+  "ColumnId": 86,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 754,
+  "FieldLabel": "mollitia",
+  "FieldLeft": 754,
+  "FieldTop": 57,
   "FieldType": "Checkbox",
-  "FieldWidth": 282,
-  "FormatMask": "qui",
+  "FieldWidth": 497,
+  "FormatMask": "aspernatur",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 888,
-  "LabelLeft": 83,
-  "LabelTop": 689,
-  "LabelWidth": 758,
-  "LastVersionId": 600,
-  "ListTableId": 286,
-  "IsMandatory": true,
+  "LabelHeight": 163,
+  "LabelLeft": 173,
+  "LabelTop": 994,
+  "LabelWidth": 575,
+  "LastVersionId": 185,
+  "ListTableId": 824,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 831,
-  "ProgId": "laborum",
+  "Page1LineNo": 674,
+  "ProgId": "dolore",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 996,
-  "TextLength": 322,
-  "Tooltip": "et",
-  "UdefIdentity": 584,
-  "UDListDefinitionId": 636,
+  "ShortLabel": "est",
+  "TabOrder": 522,
+  "TextLength": 620,
+  "Tooltip": "ut",
+  "UdefIdentity": 686,
+  "UDListDefinitionId": 378,
   "Justification": "Center",
-  "Version": 296,
-  "TemplateVariableName": "Emmerich-Rodriguez",
-  "HasBeenPublished": true,
-  "MdoListName": "King LLC",
+  "Version": 673,
+  "TemplateVariableName": "Leffler LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Lang, Ebert and Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 534
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Fisher Inc and Sons",
-    "Tooltip": "consequuntur",
+    "Id": 749,
+    "Name": "Jenkins-Morar",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 199,
-    "IsCustomList": true,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "et",
+    "Rank": 310,
+    "IsCustomList": false,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "mollitia",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 783
       }
     }
   }

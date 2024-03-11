@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jaskolski LLC"
+  "OwnerName": "Heathcote, Borer and Treutel"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 286,
-      "NumberOfLicensesFree": 57,
-      "NumberOfLicensesAdded": 26,
-      "NumberOfLicensesNewTotal": 389,
-      "NumberOfLicensesNewFree": 756,
-      "NumberOfLicensesTotal": 101
+      "NumberOfLicensesInUse": 736,
+      "NumberOfLicensesFree": 239,
+      "NumberOfLicensesAdded": 475,
+      "NumberOfLicensesNewTotal": 371,
+      "NumberOfLicensesNewFree": 131,
+      "NumberOfLicensesTotal": 952
     }
   ],
-  "AccumulatedNextCheckDate": "1999-01-15T10:30:23.9272181+01:00"
+  "AccumulatedNextCheckDate": "2001-05-30T14:23:46.7681044+02:00"
 }
 ```

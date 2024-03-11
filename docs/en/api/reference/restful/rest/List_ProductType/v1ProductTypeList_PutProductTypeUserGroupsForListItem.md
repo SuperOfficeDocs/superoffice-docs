@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Reichel Inc and Sons",
-    "ToolTip": "Architecto non commodi repellendus et labore dolor.",
+    "Id": 878,
+    "Name": "Schaefer-Okuneva",
+    "ToolTip": "Ut non numquam sit.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "fugiat",
-    "ColorBlock": 159,
-    "IconHint": "necessitatibus",
+    "Rank": 254,
+    "Type": "enim",
+    "ColorBlock": 947,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-08-07T10:30:33.1162087+02:00",
+    "LastChanged": "2020-06-03T14:23:56.228325+02:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Bogisich, Crona and Kub",
-        "ToolTip": "Mollitia eum.",
+        "Id": 130,
+        "Name": "Dickinson, Hahn and Mertz",
+        "ToolTip": "Numquam voluptas maxime repellendus molestias laudantium odio.",
         "Deleted": false,
-        "Rank": 552,
-        "Type": "voluptatem",
-        "ColorBlock": 901,
-        "IconHint": "nostrum",
+        "Rank": 466,
+        "Type": "soluta",
+        "ColorBlock": 380,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2019-04-18T10:30:33.1162087+02:00",
+        "LastChanged": "2016-09-08T14:23:56.228325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "qui",
+        "ExtraInfo": "at",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Ewald Bins Jr."
+        "FullName": "Ms. Vanessa Adah Christiansen"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "porro",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Richie Stokes"
+    "FullName": "Timmy Graham"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Crooks Inc and Sons",
-    "ToolTip": "Ea maiores quo odit odit iusto.",
-    "Deleted": false,
-    "Rank": 860,
-    "Type": "distinctio",
-    "ColorBlock": 699,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "2021-12-16T10:30:33.1162087+01:00",
+    "Id": 79,
+    "Name": "Mosciski Inc and Sons",
+    "ToolTip": "Tempore dolor voluptates.",
+    "Deleted": true,
+    "Rank": 634,
+    "Type": "est",
+    "ColorBlock": 275,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2013-07-24T14:23:56.228325+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Lubowitz, Padberg and Stiedemann",
-        "ToolTip": "Est aut possimus sit aut ut.",
+        "Id": 561,
+        "Name": "Mohr Inc and Sons",
+        "ToolTip": "Aspernatur debitis.",
         "Deleted": false,
-        "Rank": 702,
-        "Type": "provident",
-        "ColorBlock": 877,
-        "IconHint": "sit",
+        "Rank": 625,
+        "Type": "adipisci",
+        "ColorBlock": 790,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2016-06-01T10:30:33.1162087+02:00",
+        "LastChanged": "2004-09-04T14:23:56.228325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "minus",
+        "ExtraInfo": "totam",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Prof. Lloyd Keagan Schaden",
+        "FullName": "Mr. Annamarie Tyrell Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldType": "System.Int32",
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Demetrius Gerhold",
+    "ExtraInfo": "ratione",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Mrs. Eulah Saige D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 250
       }
     }
   }

@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 227,
+  "DocumentId": 375,
   "AllowedReturnTypes": [
-    "cupiditate",
-    "accusantium"
+    "cum",
+    "nostrum"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "iusto",
-  "VersionId": "nemo",
-  "Success": true,
+  "ExternalReference": "delectus",
+  "VersionId": "cupiditate",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "odio",
-  "AdditionalInfo": "sit"
+  "Value": "impedit",
+  "AdditionalInfo": "asperiores"
 }
 ```

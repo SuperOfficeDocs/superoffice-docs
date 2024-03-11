@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 785,
-  "Name": "Langworth, Quigley and Roob",
+  "ScreenChooserId": 774,
+  "Name": "Collins, Luettgen and King",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "expedita",
-  "Source": "qui",
-  "Registered": "1999-01-01T10:30:32.6543487+01:00",
-  "RegisteredAssociateId": 909,
-  "Updated": "2017-11-01T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 343
+  "Enabled": true,
+  "UniqueIdentifier": "maxime",
+  "Source": "et",
+  "Registered": "2022-10-10T14:23:55.7595795+02:00",
+  "RegisteredAssociateId": 326,
+  "Updated": "2002-06-05T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 29
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 911,
-  "Name": "Goyette-Nolan",
+  "ScreenChooserId": 572,
+  "Name": "Considine, Gottlieb and Tillman",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptas",
-  "Source": "eum",
-  "Registered": "2020-03-01T10:30:32.6543487+01:00",
-  "RegisteredAssociateId": 9,
-  "Updated": "2013-01-24T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 515,
+  "UniqueIdentifier": "amet",
+  "Source": "delectus",
+  "Registered": "2017-11-10T14:23:55.7595795+01:00",
+  "RegisteredAssociateId": 518,
+  "Updated": "2019-05-31T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 989
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

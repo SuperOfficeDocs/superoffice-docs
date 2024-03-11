@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=668
+GET /api/v1/Contact/{contactId}/Summary?limit=452
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 638,
-      "TicketStatus": 51,
-      "Title": "consectetur",
-      "Registered": "1997-06-06T10:30:31.9324368+02:00",
-      "IconHint": "molestiae"
+      "TicketId": 543,
+      "TicketStatus": 728,
+      "Title": "exercitationem",
+      "Registered": "2017-02-27T14:23:55.0083878+01:00",
+      "IconHint": "ut"
     },
     {
-      "TicketId": 638,
-      "TicketStatus": 51,
-      "Title": "consectetur",
-      "Registered": "1997-06-06T10:30:31.9324368+02:00",
-      "IconHint": "molestiae"
+      "TicketId": 543,
+      "TicketStatus": 728,
+      "Title": "exercitationem",
+      "Registered": "2017-02-27T14:23:55.0083878+01:00",
+      "IconHint": "ut"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 429,
-      "DocumentId": 464,
-      "Date": "2000-03-08T10:30:31.9324368+01:00",
-      "Description": "Synchronised logistical alliance",
+      "AppointmentId": 596,
+      "DocumentId": 337,
+      "Date": "2017-09-11T14:23:55.0083878+02:00",
+      "Description": "Visionary eco-centric methodology",
       "Completed": "Completed",
-      "Registered": "2007-07-27T10:30:31.9324368+02:00"
+      "Registered": "2015-12-12T14:23:55.0083878+01:00"
     },
     {
-      "AppointmentId": 429,
-      "DocumentId": 464,
-      "Date": "2000-03-08T10:30:31.9324368+01:00",
-      "Description": "Synchronised logistical alliance",
+      "AppointmentId": 596,
+      "DocumentId": 337,
+      "Date": "2017-09-11T14:23:55.0083878+02:00",
+      "Description": "Visionary eco-centric methodology",
       "Completed": "Completed",
-      "Registered": "2007-07-27T10:30:31.9324368+02:00"
+      "Registered": "2015-12-12T14:23:55.0083878+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 442,
-      "DocumentId": 699,
-      "Date": "2021-04-15T10:30:31.9324368+02:00",
-      "Description": "Phased logistical synergy",
+      "AppointmentId": 527,
+      "DocumentId": 56,
+      "Date": "2023-10-30T14:23:55.0083878+01:00",
+      "Description": "Cross-platform holistic project",
       "Completed": "Completed",
-      "Registered": "2013-12-24T10:30:31.9324368+01:00"
+      "Registered": "2007-09-16T14:23:55.0083878+02:00"
     },
     {
-      "AppointmentId": 442,
-      "DocumentId": 699,
-      "Date": "2021-04-15T10:30:31.9324368+02:00",
-      "Description": "Phased logistical synergy",
+      "AppointmentId": 527,
+      "DocumentId": 56,
+      "Date": "2023-10-30T14:23:55.0083878+01:00",
+      "Description": "Cross-platform holistic project",
       "Completed": "Completed",
-      "Registered": "2013-12-24T10:30:31.9324368+01:00"
+      "Registered": "2007-09-16T14:23:55.0083878+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 256,
-      "SaleDate": "2021-06-10T10:30:31.9324368+02:00",
-      "Probability": 146,
-      "Heading": "odio",
-      "Amount": 25206.762,
-      "Currency": "quisquam",
-      "AmountInBaseCurrency": 1905.472,
+      "SaleId": 340,
+      "SaleDate": "2013-07-18T14:23:55.0083878+02:00",
+      "Probability": 549,
+      "Heading": "eum",
+      "Amount": 26372.61,
+      "Currency": "officia",
+      "AmountInBaseCurrency": 23627.226,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2023-12-16T10:30:31.9324368+01:00"
+      "Registered": "1998-04-24T14:23:55.0083878+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 800,
-      "Name": "Kling, Bogisich and Boyle",
-      "CompanyName": "Fay, Mitchell and Renner",
-      "FirstMessage": "quidem",
-      "LastMessage": "architecto",
-      "WhenRequested": "2018-06-05T10:30:31.9324368+02:00",
-      "WhenEnded": "2004-04-29T10:30:31.9324368+02:00"
+      "ChatSessionId": 582,
+      "Name": "Wilderman, Pacocha and Lynch",
+      "CompanyName": "Bosco, O'Kon and Bode",
+      "FirstMessage": "qui",
+      "LastMessage": "non",
+      "WhenRequested": "1997-01-22T14:23:55.0083878+01:00",
+      "WhenEnded": "2023-04-27T14:23:55.0083878+02:00"
     }
   ]
 }

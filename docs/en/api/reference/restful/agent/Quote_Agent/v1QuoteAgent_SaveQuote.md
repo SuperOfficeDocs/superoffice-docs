@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 500,
-  "SaleId": 153,
-  "QuoteConnectionId": 151,
-  "ERPQuoteKey": "non",
-  "ERPOrderKey": "ducimus",
-  "ActiveQuoteVersionId": 764,
-  "AcceptedQuoteAlternativeId": 989,
-  "UseValuesFromQuote": 425,
-  "DocumentId": 664,
-  "PoNumber": "1106094",
-  "OrderComment": "voluptate",
-  "PreferredEmailCulture": "danielle@wolff.us",
+  "QuoteId": 127,
+  "SaleId": 642,
+  "QuoteConnectionId": 67,
+  "ERPQuoteKey": "modi",
+  "ERPOrderKey": "architecto",
+  "ActiveQuoteVersionId": 324,
+  "AcceptedQuoteAlternativeId": 396,
+  "UseValuesFromQuote": 55,
+  "DocumentId": 995,
+  "PoNumber": "1230267",
+  "OrderComment": "accusantium",
+  "PreferredEmailCulture": "kade.schinner@lefflermorissette.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldLength": 356
     }
   }
 }

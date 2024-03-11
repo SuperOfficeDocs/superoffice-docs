@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=50
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=150
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 566,
-  "Name": "Blick-Abshire",
-  "ConsentText": "dignissimos",
-  "FormText": "sed",
-  "Key": "adipisci",
-  "Tooltip": "vero",
-  "Active": 365,
-  "UpdatedDate": "2018-12-02T10:30:24.1037706+01:00",
+  "ConsentPurposeId": 519,
+  "Name": "Beatty, Parisian and Gibson",
+  "ConsentText": "similique",
+  "FormText": "facilis",
+  "Key": "enim",
+  "Tooltip": "sint",
+  "Active": 362,
+  "UpdatedDate": "2004-04-06T14:23:46.9098888+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 146,
-  "PrivacyStatementDesc": "enim",
+  "Rank": 551,
+  "PrivacyStatementDesc": "quidem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldLength": 364
     }
   }
 }

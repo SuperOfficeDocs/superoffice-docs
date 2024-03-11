@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 791,
-  "Name": "Torphy-Marquardt",
-  "Tooltip": "quibusdam",
+  "ExtAppId": 461,
+  "Name": "Champlin Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 632,
-  "Filename": "pariatur",
-  "Parameters": "quae",
-  "Workdir": "eos",
+  "Rank": 889,
+  "Filename": "excepturi",
+  "Parameters": "dolorem",
+  "Workdir": "quo",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 604,
+  "Icon": 376,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "autem",
+  "Path": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldType": "System.String",
+      "FieldLength": 142
     }
   }
 }

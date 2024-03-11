@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "et",
+  "Id": 377,
+  "Name": "Will, Carroll and Rolfson",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "UdListDefinitionId": 334,
-  "Rank": 372,
+  "UdListDefinitionId": 984,
+  "Rank": 969,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 329
     }
   }
 }

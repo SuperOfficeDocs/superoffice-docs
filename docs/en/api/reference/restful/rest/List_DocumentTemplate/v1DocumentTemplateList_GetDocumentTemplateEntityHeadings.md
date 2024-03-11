@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 807,
-    "Name": "Hyatt-Schmidt",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "Rank": 770,
-    "UdListDefinitionId": 729,
+    "HeadingId": 378,
+    "Name": "Mante-Johnston",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "Rank": 320,
+    "UdListDefinitionId": 485,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 226
       }
     }
   }

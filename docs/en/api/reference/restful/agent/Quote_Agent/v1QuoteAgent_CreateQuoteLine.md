@@ -126,8 +126,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 171,
-  "ERPProductKey": "quaerat"
+  "QuoteAlternativeId": 665,
+  "ERPProductKey": "aliquid"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 216,
-  "ERPQuoteLineKey": "qui",
-  "QuoteAlternativeId": 536,
-  "ERPProductKey": "dolorem",
+  "QuoteLineId": 130,
+  "ERPQuoteLineKey": "sed",
+  "QuoteAlternativeId": 566,
+  "ERPProductKey": "mollitia",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 128.494,
-  "DeliveredQuantity": 29892.092,
-  "Rank": 418,
-  "Name": "Pagac-McDermott",
-  "Description": "Persevering stable analyzer",
-  "Code": "repudiandae",
-  "QuantityUnit": "quia",
-  "PriceUnit": "et",
-  "ItemNumber": "1055697",
+  "Quantity": 2773.5899999999997,
+  "DeliveredQuantity": 9878.368,
+  "Rank": 473,
+  "Name": "Smitham LLC",
+  "Description": "Extended modular initiative",
+  "Code": "sint",
+  "QuantityUnit": "voluptatibus",
+  "PriceUnit": "libero",
+  "ItemNumber": "1171554",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "pariatur",
-  "ProductTypeKey": "saepe",
-  "Supplier": "autem",
-  "SupplierCode": "amet",
-  "Thumbnail": "enim",
-  "VATInfo": "molestiae",
-  "VAT": 27889.466,
-  "UnitCost": 25977.726,
-  "UnitMinimumPrice": 24344.912,
-  "UnitListPrice": 16770.034,
+  "ProductFamilyKey": "nam",
+  "ProductTypeKey": "voluptate",
+  "Supplier": "dolores",
+  "SupplierCode": "beatae",
+  "Thumbnail": "placeat",
+  "VATInfo": "rerum",
+  "VAT": 16447.232,
+  "UnitCost": 26009.066,
+  "UnitMinimumPrice": 27801.714,
+  "UnitListPrice": 20443.082,
   "ExtraInfo": [
     {
-      "Name": "Ward-Ferry",
-      "Value": "molestiae",
+      "Name": "Bechtelar, Prohaska and Orn",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldType": "System.String",
+          "FieldLength": 494
         }
       }
     },
     {
-      "Name": "Ward-Ferry",
-      "Value": "molestiae",
+      "Name": "Bechtelar, Prohaska and Orn",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldType": "System.String",
+          "FieldLength": 494
         }
       }
     }
   ],
-  "RawExtraInfo": "incidunt",
+  "RawExtraInfo": "odit",
   "IsSubscription": false,
-  "SubscriptionUnit": "exercitationem",
-  "SubscriptionQuantity": 1438.5059999999999,
-  "SubscriptionStart": "2023-02-22T10:30:24.4346264+01:00",
-  "ERPDiscountPercent": 20875.574,
-  "ERPDiscountAmount": 29277.827999999998,
-  "DiscountPercent": 25648.656,
-  "DiscountAmount": 3814.078,
+  "SubscriptionUnit": "eum",
+  "SubscriptionQuantity": 21928.597999999998,
+  "SubscriptionStart": "2004-07-12T14:23:47.2536317+02:00",
+  "ERPDiscountPercent": 21113.757999999998,
+  "ERPDiscountAmount": 24072.254,
+  "DiscountPercent": 2231.408,
+  "DiscountAmount": 9107.404,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1341.3519999999999,
-  "EarningAmount": 25902.51,
-  "SubTotal": 1573.268,
-  "TotalPrice": 18080.046,
-  "Rights": "dicta",
-  "Rule": "vel",
-  "ExtraField1": "eveniet",
-  "ExtraField2": "ipsum",
-  "ExtraField3": "vel",
-  "ExtraField4": "maiores",
-  "ExtraField5": "commodi",
+  "EarningPercent": 7082.84,
+  "EarningAmount": 30528.293999999998,
+  "SubTotal": 12379.3,
+  "TotalPrice": 8395.985999999999,
+  "Rights": "enim",
+  "Rule": "enim",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "est",
+  "ExtraField3": "officia",
+  "ExtraField4": "nesciunt",
+  "ExtraField5": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   }
 }

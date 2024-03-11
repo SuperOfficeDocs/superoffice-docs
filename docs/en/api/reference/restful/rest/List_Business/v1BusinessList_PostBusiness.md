@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Heller-Stracke",
-  "Tooltip": "rerum",
+  "Id": 753,
+  "Name": "Botsford, Hermiston and Mertz",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 440,
-  "Rank": 184
+  "UdListDefinitionId": 950,
+  "Rank": 994
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Wyman Inc and Sons",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 518,
-  "Rank": 935,
+  "Id": 69,
+  "Name": "Ondricka, Kling and VonRueden",
+  "Tooltip": "necessitatibus",
+  "Deleted": false,
+  "UdListDefinitionId": 460,
+  "Rank": 606,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 424
     }
   }
 }

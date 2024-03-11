@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 902,
-  "HeadingId": 946
+  "UdListDefinitionId": 697,
+  "HeadingId": 980
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Langosh, McDermott and Bergnaum",
-    "ToolTip": "Odit et et reprehenderit vel blanditiis.",
-    "Deleted": false,
-    "Rank": 540,
-    "Type": "velit",
-    "ColorBlock": 241,
-    "IconHint": "saepe",
+    "Id": 462,
+    "Name": "Blick-Kunze",
+    "ToolTip": "Qui dolorum quam.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "sed",
+    "ColorBlock": 744,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2017-04-21T10:30:24.0100212+02:00",
+    "LastChanged": "2022-10-12T14:23:46.8462293+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Macejkovic, Tromp and Jakubowski",
-        "ToolTip": "Quia architecto sapiente distinctio iusto sit ut dolor.",
+        "Id": 1001,
+        "Name": "Macejkovic-Davis",
+        "ToolTip": "Sit maiores.",
         "Deleted": true,
-        "Rank": 452,
-        "Type": "minus",
-        "ColorBlock": 733,
-        "IconHint": "tempore",
+        "Rank": 329,
+        "Type": "iusto",
+        "ColorBlock": 474,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2019-06-15T10:30:24.0100212+02:00",
+        "LastChanged": "2005-02-27T14:23:46.8462293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "amet",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Ricky Everette Welch IV",
+        "FullName": "Ms. Faye Audie Bernier PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 719
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "rerum",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Delpha Toy",
+    "FullName": "Carter Kiehn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldType": "System.String",
+        "FieldLength": 948
       }
     }
   }

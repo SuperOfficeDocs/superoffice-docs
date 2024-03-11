@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Friesen-Waters",
-    "ToolTip": "Ea vel ad vero quos culpa.",
+    "Id": 926,
+    "Name": "Wintheiser, Thiel and Bechtelar",
+    "ToolTip": "Ipsum ut vitae hic quasi dolorum.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "illo",
-    "ColorBlock": 574,
-    "IconHint": "veritatis",
-    "Selected": true,
-    "LastChanged": "2004-02-08T10:30:33.1005836+01:00",
+    "Rank": 38,
+    "Type": "nihil",
+    "ColorBlock": 976,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2020-10-18T14:23:56.2126991+02:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Considine-Hirthe",
-        "ToolTip": "Cumque adipisci est perspiciatis eius earum nisi aperiam.",
+        "Id": 506,
+        "Name": "Schumm-Veum",
+        "ToolTip": "Tempora deleniti illo doloremque.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "fuga",
-        "ColorBlock": 27,
-        "IconHint": "sit",
+        "Rank": 187,
+        "Type": "soluta",
+        "ColorBlock": 952,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2012-08-19T10:30:33.1162087+02:00",
+        "LastChanged": "2005-06-27T14:23:56.2126991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "saepe",
+        "ExtraInfo": "et",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Merl Wisoky",
+        "FullName": "Helena Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 418
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "eum",
+    "ExtraInfo": "enim",
+    "StyleHint": "voluptates",
     "Hidden": true,
-    "FullName": "Miss Ivah Santiago Welch II",
+    "FullName": "Trevor O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldLength": 39
       }
     }
   }

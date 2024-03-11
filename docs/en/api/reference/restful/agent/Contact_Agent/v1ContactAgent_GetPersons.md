@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 725
+  "ContactId": 380
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eligendi",
-    "PersonId": 120,
-    "Mrmrs": "ut",
-    "Firstname": "Johnny",
-    "Lastname": "Wunsch",
-    "MiddleName": "Wintheiser, Murphy and Bradtke",
-    "Title": "quas",
-    "Description": "Ergonomic optimal ability",
-    "Email": "jackson@luettgen.uk",
-    "FullName": "Damian Breitenberg",
-    "DirectPhone": "1-373-407-4516 x988",
-    "FormalName": "Satterfield-Treutel",
-    "CountryId": 748,
-    "ContactId": 715,
-    "ContactName": "Frami Group",
-    "Retired": 1001,
-    "Rank": 676,
-    "ActiveInterests": 573,
+    "Position": "non",
+    "PersonId": 410,
+    "Mrmrs": "dolorem",
+    "Firstname": "Amelia",
+    "Lastname": "Osinski",
+    "MiddleName": "Nitzsche-Huel",
+    "Title": "dicta",
+    "Description": "Diverse scalable conglomeration",
+    "Email": "dwight_mayert@morissette.co.uk",
+    "FullName": "Miss Myrtis Leannon V",
+    "DirectPhone": "630-185-2119 x037",
+    "FormalName": "Kihn-Macejkovic",
+    "CountryId": 920,
+    "ContactId": 127,
+    "ContactName": "Johnson Inc and Sons",
+    "Retired": 496,
+    "Rank": 935,
+    "ActiveInterests": 719,
     "ContactDepartment": "",
-    "ContactCountryId": 245,
-    "ContactOrgNr": "1783704",
-    "FaxPhone": "104-204-9937 x5704",
-    "MobilePhone": "1-634-639-0143 x744",
-    "ContactPhone": "(545)807-4889",
-    "AssociateName": "Bernier, Beier and Ledner",
-    "AssociateId": 898,
-    "UsePersonAddress": true,
-    "ContactFax": "enim",
-    "Kanafname": "dolorum",
-    "Kanalname": "et",
-    "Post1": "consequatur",
-    "Post2": "id",
-    "Post3": "earum",
-    "EmailName": "laurence.von@rogahn.com",
-    "ContactFullName": "Mrs. Rebecca Funk",
-    "ActiveErpLinks": 804,
-    "TicketPriorityId": 87,
-    "SupportLanguageId": 799,
-    "SupportAssociateId": 272,
+    "ContactCountryId": 561,
+    "ContactOrgNr": "1144214",
+    "FaxPhone": "683-335-9692 x89599",
+    "MobilePhone": "546-549-8937",
+    "ContactPhone": "1-181-556-6925 x8803",
+    "AssociateName": "Rath LLC",
+    "AssociateId": 706,
+    "UsePersonAddress": false,
+    "ContactFax": "consequatur",
+    "Kanafname": "corrupti",
+    "Kanalname": "dolore",
+    "Post1": "tempora",
+    "Post2": "et",
+    "Post3": "et",
+    "EmailName": "crawford.schamberger@tremblay.uk",
+    "ContactFullName": "Wilfred Kulas",
+    "ActiveErpLinks": 265,
+    "TicketPriorityId": 103,
+    "SupportLanguageId": 396,
+    "SupportAssociateId": 803,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 394
       }
     }
   }

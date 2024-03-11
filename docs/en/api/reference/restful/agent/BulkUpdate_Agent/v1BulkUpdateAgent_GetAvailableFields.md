@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": false,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "porro",
-    "ValueType": "voluptates",
-    "Mandatory": false,
-    "EncodedDisplayName": "West LLC",
-    "EncodedDisplayDescription": "Adaptive methodical synergy",
-    "IconHint": "fugiat",
+    "Key": "repudiandae",
+    "ValueType": "qui",
+    "Mandatory": true,
+    "EncodedDisplayName": "Flatley, Rowe and Parisian",
+    "EncodedDisplayDescription": "Cross-platform fault-tolerant open architecture",
+    "IconHint": "qui",
     "ControlInfos": [
       {
-        "Type": "magnam",
-        "Label": "qui",
-        "Dimension": 555,
-        "ListProviderName": "Baumbach Group",
-        "ListProviderExtraInfo": "ea",
-        "ListProviderPrimaryKeyName": "Wehner-Bartell",
-        "ListLeadText": "ipsum",
+        "Type": "similique",
+        "Label": "est",
+        "Dimension": 508,
+        "ListProviderName": "DuBuque, Jones and Emmerich",
+        "ListProviderExtraInfo": "repudiandae",
+        "ListProviderPrimaryKeyName": "Hahn-Douglas",
+        "ListLeadText": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 39
+            "FieldType": "System.String",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "EncodedDataCaption": "temporibus",
-    "EncodedDataCaptionDescription": "Object-based modular archive",
-    "CurrentOperationType": "accusantium",
+    "EncodedDataCaption": "adipisci",
+    "EncodedDataCaptionDescription": "De-engineered dynamic array",
+    "CurrentOperationType": "ut",
     "Values": [
-      "doloribus",
+      "quae",
       "ab"
     ],
     "DisplayValues": [
-      "repellendus",
-      "aut"
+      "quaerat",
+      "delectus"
     ],
     "OperationInfos": [
       {
-        "Key": "accusantium",
-        "EncodedDisplayName": "Borer LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Considine, Kuhic and Rohan",
         "EncodedLeadTexts": [
-          "ratione",
-          "dicta"
+          "explicabo",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 519
+            "FieldLength": 807
           }
         }
       },
       {
-        "Key": "accusantium",
-        "EncodedDisplayName": "Borer LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Considine, Kuhic and Rohan",
         "EncodedLeadTexts": [
-          "ratione",
-          "dicta"
+          "explicabo",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 519
+            "FieldLength": 807
           }
         }
       }

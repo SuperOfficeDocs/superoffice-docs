@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Turcotte-Dietrich"
+  "OwnerName": "Luettgen, Windler and Schuppe"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "et",
+  "Message": "sunt",
   "Url": "http://www.example.com/"
 }
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Torphy, Lubowitz and Reilly",
-    "ToolTip": "Labore aspernatur aut et nihil.",
+    "Id": 497,
+    "Name": "Lang-Feil",
+    "ToolTip": "Repellendus reprehenderit quae minus fuga.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "explicabo",
-    "ColorBlock": 293,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2016-04-23T10:30:33.2724548+02:00",
+    "Rank": 146,
+    "Type": "nisi",
+    "ColorBlock": 959,
+    "IconHint": "quidem",
+    "Selected": false,
+    "LastChanged": "2012-08-22T14:23:56.3858254+02:00",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Dibbert-Heidenreich",
-        "ToolTip": "Sed architecto iusto eos tenetur.",
-        "Deleted": false,
-        "Rank": 65,
-        "Type": "quia",
-        "ColorBlock": 438,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "1996-10-20T10:30:33.2724548+02:00",
+        "Id": 853,
+        "Name": "Kiehn-Brakus",
+        "ToolTip": "Id tenetur.",
+        "Deleted": true,
+        "Rank": 202,
+        "Type": "et",
+        "ColorBlock": 491,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2001-01-01T14:23:56.3858254+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Deja Runolfsdottir",
+        "ExtraInfo": "non",
+        "StyleHint": "quaerat",
+        "Hidden": false,
+        "FullName": "Prof. Maude Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 125
+            "FieldType": "System.Int32",
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Dr. Lydia Rubye Price",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Rylan Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

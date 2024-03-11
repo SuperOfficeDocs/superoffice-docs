@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 756
+  "PrefDescId": 558
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 675,
-    "PrefDescId": 971,
-    "PrefValue": "quis",
-    "PrefShowValue": "dolor",
-    "Description": "Synergistic zero defect software",
+    "PrefDescLineId": 536,
+    "PrefDescId": 896,
+    "PrefValue": "ad",
+    "PrefShowValue": "qui",
+    "Description": "Exclusive transitional throughput",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 403
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 706,
-  "Name": "Blanda-Cartwright",
-  "Tooltip": "et",
+  "HeadingId": 893,
+  "Name": "Deckow-Cronin",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 733,
-  "UdListDefinitionId": 966
+  "Rank": 89,
+  "UdListDefinitionId": 133
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 515,
-  "Name": "Bins Inc and Sons",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 648,
-  "UdListDefinitionId": 431,
+  "HeadingId": 479,
+  "Name": "Emmerich, Schmeler and Harvey",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 768,
+  "UdListDefinitionId": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 455
     }
   }
 }

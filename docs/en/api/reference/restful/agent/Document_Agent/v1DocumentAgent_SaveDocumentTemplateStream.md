@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 765,
+  "DocumentTemplateId": 722,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "rerum",
-  "PluginId": 168
+  "LanguageCode": "sit",
+  "PluginId": 399
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hessel, Miller and Gerhold",
-  "Description": "Pre-emptive actuating strategy",
-  "ExternalReference": "numquam",
-  "MimeType": "provident",
-  "PluginId": 710
+  "Name": "Mitchell-Pollich",
+  "Description": "Reactive directional solution",
+  "ExternalReference": "repellat",
+  "MimeType": "nihil",
+  "PluginId": 488
 }
 ```

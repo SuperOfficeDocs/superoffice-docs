@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Predovic Inc and Sons",
-    "Tooltip": "molestias",
+    "Id": 381,
+    "Name": "Rowe, Cartwright and Heathcote",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 956,
-    "Rank": 437
+    "UdListDefinitionId": 552,
+    "Rank": 179
   },
   {
-    "Id": 508,
-    "Name": "Predovic Inc and Sons",
-    "Tooltip": "molestias",
+    "Id": 381,
+    "Name": "Rowe, Cartwright and Heathcote",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 956,
-    "Rank": 437
+    "UdListDefinitionId": 552,
+    "Rank": 179
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Krajcik, Heathcote and Dietrich",
-    "Tooltip": "voluptate",
+    "Id": 781,
+    "Name": "Witting LLC",
+    "Tooltip": "dicta",
     "Deleted": false,
-    "UdListDefinitionId": 258,
-    "Rank": 786,
+    "UdListDefinitionId": 934,
+    "Rank": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 767
       }
     }
   }

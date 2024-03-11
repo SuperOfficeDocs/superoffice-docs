@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Orn LLC",
-    "DisplayName": "Denesik Inc and Sons",
-    "Description": "User-friendly encompassing matrices",
-    "ShortLabel": "maxime",
+    "FieldName": "Vandervort-Effertz",
+    "DisplayName": "Boyle, O'Conner and Hammes",
+    "Description": "Pre-emptive holistic data-warehouse",
+    "ShortLabel": "recusandae",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 344,
-    "TemplateVariableName": "Cruickshank, Lehner and Lang"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 256,
+    "TemplateVariableName": "Schneider-Stracke"
   }
 ]
 ```

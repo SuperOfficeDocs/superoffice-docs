@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 294,
-  "DocumentId": 463,
+  "SelectionId": 102,
+  "DocumentId": 887,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "voluptatum",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "et",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "blanditiis",
+  "CustomMailBody": "non",
   "TaskEntity": null,
-  "AddCompanyInterest": 123,
-  "AddPersonInterest": 753,
-  "RemoveCompanyInterest": 262,
-  "RemovePersonInterest": 362,
+  "AddCompanyInterest": 333,
+  "AddPersonInterest": 633,
+  "RemoveCompanyInterest": 412,
+  "RemovePersonInterest": 775,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 485,
+  "TestOnly": false,
+  "ProjectId": 515,
   "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "quo",
-  "ExtraInfo": "reiciendis",
+  "CustomMailSubject": "quia",
+  "ExtraInfo": "eaque",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 297
     }
   }
 }

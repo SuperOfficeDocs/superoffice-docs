@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 146,
-    "Name": "Wiza, Steuber and Collier",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 933,
-    "UdListDefinitionId": 871,
+    "HeadingId": 239,
+    "Name": "Ritchie Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 371,
+    "UdListDefinitionId": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

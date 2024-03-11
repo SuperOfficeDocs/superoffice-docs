@@ -99,33 +99,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 06 Oct 2013 10:30:31 G10T
+Last-Modified: Mon, 26 Mar 2001 14:23:55 G3T
 
 {
-  "SourceContactId": 196,
-  "SourcePersonId": 474,
-  "DestinationContactId": 681,
-  "DestinationPersonId": 389,
-  "RelationId": 693,
-  "Comment": "placeat",
-  "RelationDefinitionId": 959,
-  "Reversed": 733,
-  "UpdatedDate": "2013-10-06T10:30:31.9480569+02:00",
-  "CreatedDate": "2007-06-16T10:30:31.9480569+02:00",
+  "SourceContactId": 656,
+  "SourcePersonId": 711,
+  "DestinationContactId": 947,
+  "DestinationPersonId": 961,
+  "RelationId": 753,
+  "Comment": "dicta",
+  "RelationDefinitionId": 882,
+  "Reversed": 493,
+  "UpdatedDate": "2001-03-26T14:23:55.0396483+02:00",
+  "CreatedDate": "1999-07-10T14:23:55.0396483+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schneider-Fadel",
-  "SourcePersonName": "Wiza Inc and Sons",
-  "DestinationContactName": "Marks Group",
-  "DestinationPersonName": "Lebsack, Stark and Metz",
-  "ActiveText": "quis",
-  "PassiveText": "eum",
+  "SourceContactName": "Runte LLC",
+  "SourcePersonName": "Spinka Group",
+  "DestinationContactName": "O'Keefe-Renner",
+  "DestinationPersonName": "Greenfelder-Brown",
+  "ActiveText": "asperiores",
+  "PassiveText": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 959
     }
   },
   "_Links": {

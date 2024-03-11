@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 502,
-    "Section": "sed",
-    "Key": "odio",
-    "Name": "Jast Inc and Sons",
+    "PrefDescId": 182,
+    "Section": "modi",
+    "Key": "et",
+    "Name": "Christiansen Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-source fault-tolerant hub",
+    "Description": "Function-based zero tolerance website",
     "IsBuiltin": true,
-    "TableName": "Hoppe-Hegmann",
-    "UserDefinedListId": 556,
-    "Rank": 274,
-    "SubGroup": "velit",
-    "MinLevel": 265,
-    "MaxValue": 617,
-    "MinValue": 303,
-    "RequiredLicense": "soluta",
+    "TableName": "Considine, Prohaska and Toy",
+    "UserDefinedListId": 33,
+    "Rank": 557,
+    "SubGroup": "illo",
+    "MinLevel": 946,
+    "MaxValue": 912,
+    "MinValue": 765,
+    "RequiredLicense": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

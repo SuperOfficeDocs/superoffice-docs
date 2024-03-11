@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 752,
-    "Name": "Boyer Inc and Sons",
-    "Tooltip": "molestiae",
+    "HeadingId": 469,
+    "Name": "Bednar, Bauch and Barton",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 787,
-    "UdListDefinitionId": 454,
+    "Rank": 878,
+    "UdListDefinitionId": 721,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 321
       }
     }
   }

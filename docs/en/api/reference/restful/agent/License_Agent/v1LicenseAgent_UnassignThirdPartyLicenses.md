@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
-  "ModuleOwner": "est",
+  "AssociateId": 323,
+  "ModuleOwner": "ipsum",
   "ModuleLicenseNames": [
-    "Koch, Hoppe and Heller",
-    "Bailey Inc and Sons"
+    "Fisher, Gaylord and Muller",
+    "Daugherty Inc and Sons"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 317,
-    "Tooltip": "eos",
+    "Total": 735,
+    "Tooltip": "et",
     "CanAssign": false,
-    "Free": 960,
-    "InUse": 581,
+    "Free": 96,
+    "InUse": 963,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 627,
-    "Name": "Parker, Crist and Considine",
-    "Description": "Stand-alone bi-directional adapter",
-    "PrerequisiteModuleName": "Medhurst LLC",
-    "SortOrder": 83,
-    "ExtraFlags": 106,
+    "Assigned": false,
+    "ModuleLicenseId": 195,
+    "Name": "Terry Inc and Sons",
+    "Description": "Operative asynchronous access",
+    "PrerequisiteModuleName": "Schowalter-Orn",
+    "SortOrder": 543,
+    "ExtraFlags": 314,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 459
       }
     }
   }

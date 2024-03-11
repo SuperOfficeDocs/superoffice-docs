@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 623,
+  "DocumentPluginId": 738,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 380,
-  "NumDocumentsAlreadyMigrated": 56,
+  "NumDocumentsOmitted": 892,
+  "NumDocumentsAlreadyMigrated": 425,
   "Documents": [
     {
-      "DocumentId": 683,
-      "ContactId": 683,
-      "PersonId": 313,
-      "SaleId": 942,
-      "ProjectId": 643,
-      "DocTmplId": 386,
-      "AssociateId": 774,
-      "UserGroupId": 230,
-      "VisibleForId": 83
+      "DocumentId": 726,
+      "ContactId": 228,
+      "PersonId": 571,
+      "SaleId": 654,
+      "ProjectId": 789,
+      "DocTmplId": 774,
+      "AssociateId": 759,
+      "UserGroupId": 344,
+      "VisibleForId": 290
     }
   ],
   "Associates": [
     {
-      "AssociateId": 663,
-      "EmailAddress": "valentina@westrempel.info"
+      "AssociateId": 328,
+      "EmailAddress": "freida.gerlach@bartolettiwatsica.co.uk"
     },
     {
-      "AssociateId": 663,
-      "EmailAddress": "valentina@westrempel.info"
+      "AssociateId": 328,
+      "EmailAddress": "freida.gerlach@bartolettiwatsica.co.uk"
     }
   ]
 }

@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 922,
-    "Name": "Greenholt Group",
+    "TicketPriorityId": 473,
+    "Name": "Predovic-Koelpin",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 210,
+    "SortOrder": 600,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 539,
-    "MonStart": "2020-01-30T10:30:33.2897031+01:00",
-    "MonStop": "1997-07-18T10:30:33.2897031+02:00",
-    "TueStart": "2011-11-23T10:30:33.2897031+01:00",
-    "TueStop": "2014-04-02T10:30:33.2897031+02:00",
-    "WedStart": "2010-05-15T10:30:33.2897031+02:00",
-    "WedStop": "2018-01-29T10:30:33.2897031+01:00",
-    "ThuStart": "2006-07-12T10:30:33.2897031+02:00",
-    "ThuStop": "2017-11-22T10:30:33.2897031+01:00",
-    "FriStart": "2022-06-12T10:30:33.2897031+02:00",
-    "FriStop": "1998-01-04T10:30:33.2897031+01:00",
-    "SatStart": "2006-11-27T10:30:33.2897031+01:00",
-    "SatStop": "2012-10-13T10:30:33.2897031+02:00",
-    "SunStart": "2016-05-06T10:30:33.2897031+02:00",
-    "SunStop": "2011-02-20T10:30:33.2897031+01:00",
+    "Deadline": 227,
+    "MonStart": "2014-10-12T14:23:56.417076+02:00",
+    "MonStop": "2010-12-04T14:23:56.417076+01:00",
+    "TueStart": "2019-12-28T14:23:56.417076+01:00",
+    "TueStop": "2024-01-31T14:23:56.417076+01:00",
+    "WedStart": "2012-02-21T14:23:56.417076+01:00",
+    "WedStop": "2006-11-05T14:23:56.417076+01:00",
+    "ThuStart": "2014-05-12T14:23:56.417076+02:00",
+    "ThuStop": "2006-05-21T14:23:56.417076+02:00",
+    "FriStart": "2000-12-09T14:23:56.417076+01:00",
+    "FriStop": "2008-06-04T14:23:56.417076+02:00",
+    "SatStart": "1997-12-13T14:23:56.417076+01:00",
+    "SatStop": "1999-04-26T14:23:56.417076+02:00",
+    "SunStart": "2021-09-05T14:23:56.417076+02:00",
+    "SunStop": "2005-07-21T14:23:56.417076+02:00",
     "NonDates": [
-      "hic",
-      "et"
+      "cupiditate",
+      "eos"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 481,
-        "AlertLevel": 671,
-        "AlertTimeout": 438,
-        "Action": 828,
-        "DelegateTo": 235,
-        "ScriptId": 207,
-        "EmailTo": "maddison@fritschlueilwitz.ca",
-        "SmsTo": "doloribus",
-        "ReplyTemplateIdCustomer": 549,
-        "ReplyTemplateIdUser": 943,
-        "ReplyTemplateIdCatmast": 442,
-        "ReplyTemplateIdEmail": 526,
-        "RtiCustomerSms": 611,
-        "ReplyTemplateIdUserSms": 326,
-        "ReplyTemplateIdCatmastSms": 162,
-        "ReplyTemplateIdSms": 584,
+        "TicketAlertId": 266,
+        "AlertLevel": 640,
+        "AlertTimeout": 967,
+        "Action": 491,
+        "DelegateTo": 73,
+        "ScriptId": 732,
+        "EmailTo": "kasandra@ohara.name",
+        "SmsTo": "illo",
+        "ReplyTemplateIdCustomer": 560,
+        "ReplyTemplateIdUser": 50,
+        "ReplyTemplateIdCatmast": 21,
+        "ReplyTemplateIdEmail": 328,
+        "RtiCustomerSms": 261,
+        "ReplyTemplateIdUserSms": 498,
+        "ReplyTemplateIdCatmastSms": 830,
+        "ReplyTemplateIdSms": 881,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 558
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 143
       }
     }
   }

@@ -205,8 +205,12 @@ items:
   href: emailcontactaddress.md
 - name: EmailFlowContent
   href: emailflowcontent.md
+- name: EmailFlowEmailContent
+  href: emailflowemailcontent.md
 - name: EmailFlowFolders
   href: emailflowfolders.md
+- name: EmailFlowFormContent
+  href: emailflowformcontent.md
 - name: EmailFlowInstances
   href: emailflowinstances.md
 - name: EmailFlows

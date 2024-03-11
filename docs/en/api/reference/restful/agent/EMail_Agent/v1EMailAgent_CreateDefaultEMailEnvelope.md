@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 568,
-  "MessageId": "vero",
-  "Subject": "non",
+  "ServerId": 417,
+  "MessageId": "quos",
+  "Subject": "deserunt",
   "From": null,
   "To": [
     {
-      "ContactId": 72,
-      "ContactName": "Schneider Inc and Sons",
-      "PersonId": 461,
-      "PersonName": "Paucek Group",
-      "AssociateId": 3,
-      "Address": "ea",
-      "EmailId": 813,
+      "ContactId": 345,
+      "ContactName": "Pagac Inc and Sons",
+      "PersonId": 93,
+      "PersonName": "Bednar, Corwin and Batz",
+      "AssociateId": 861,
+      "Address": "non",
+      "EmailId": 682,
       "DuplicatePersonIds": [
-        215,
-        454
+        291,
+        33
       ],
-      "Name": "Jaskolski, Cummings and Tremblay",
+      "Name": "Rodriguez Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldType": "System.Int32",
+          "FieldLength": 126
         }
       }
     }
   ],
-  "Sent": "2021-09-04T10:30:23.7824305+02:00",
+  "Sent": "2016-03-24T14:23:46.6106115+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 572,
+  "Size": 587,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

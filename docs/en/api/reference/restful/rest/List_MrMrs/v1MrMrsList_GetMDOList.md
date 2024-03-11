@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=ipsa
+GET /api/v1/List/MrMrs/MDOItems?query=vel
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Vandervort Group",
-    "ToolTip": "Sit ipsa aliquam distinctio eos aut dolorem.",
-    "Deleted": false,
-    "Rank": 790,
-    "Type": "unde",
+    "Id": 449,
+    "Name": "Wiegand-Stoltenberg",
+    "ToolTip": "Mollitia id itaque.",
+    "Deleted": true,
+    "Rank": 378,
+    "Type": "neque",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Walker-Kassulke",
-        "ToolTip": "Voluptatem consequatur at.",
+        "Id": 153,
+        "Name": "Dare-Gislason",
+        "ToolTip": "Minus illum eveniet.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "doloremque",
+        "Rank": 191,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 269,
-        "ExtraInfo": "totam",
-        "StyleHint": "nobis",
-        "FullName": "Jaylin Spinka",
+        "IconHint": "dolores",
+        "ColorBlock": 171,
+        "ExtraInfo": "quos",
+        "StyleHint": "distinctio",
+        "FullName": "Emmalee Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldType": "System.String",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 959,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "veniam",
-    "FullName": "Alysa Wyman",
+    "IconHint": "repellendus",
+    "ColorBlock": 561,
+    "ExtraInfo": "beatae",
+    "StyleHint": "laborum",
+    "FullName": "Prof. Kristopher Senger II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 854
       }
     }
   }

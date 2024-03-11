@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 457,
+  "SaleId": 540,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mills Inc and Sons",
-      "Comment": "hic",
-      "StakeholderRoleId": 838,
-      "CountryId": 849,
-      "PersonId": 803,
-      "EmailDescription": "hilda@hagenes.name",
-      "EmailId": 205,
-      "EmailAddress": "adell@block.co.uk",
-      "PhoneId": 182,
-      "ContactName": "Botsford-Hickle",
-      "ContactId": 411,
-      "SaleId": 232,
-      "Mrmrs": "tenetur",
-      "Firstname": "Anna",
-      "MiddleName": "Heathcote LLC",
-      "Lastname": "Langworth",
-      "SaleStakeholderId": 956,
-      "Rank": 32,
-      "Phone": "873.221.9872 x58865"
+      "StakeholderRoleName": "McKenzie-Gulgowski",
+      "Comment": "odio",
+      "StakeholderRoleId": 751,
+      "CountryId": 285,
+      "PersonId": 546,
+      "EmailDescription": "ronny_schimmel@dooley.us",
+      "EmailId": 513,
+      "EmailAddress": "helena@simonis.biz",
+      "PhoneId": 96,
+      "ContactName": "Friesen-Boehm",
+      "ContactId": 763,
+      "SaleId": 894,
+      "Mrmrs": "illo",
+      "Firstname": "Hunter",
+      "MiddleName": "Labadie-Skiles",
+      "Lastname": "Kohler",
+      "SaleStakeholderId": 643,
+      "Rank": 675,
+      "Phone": "(131)940-4865 x73054"
     }
   ]
 }

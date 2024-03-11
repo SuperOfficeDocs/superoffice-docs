@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 18,
-  "Name": "Rippin-Hamill",
-  "Tooltip": "beatae",
-  "SaveInDb": 432,
-  "Filename": "dolorem",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 264,
+  "Name": "Yost-Vandervort",
+  "Tooltip": "velit",
+  "SaveInDb": 293,
+  "Filename": "iusto",
+  "DefaultOref": "error",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 178,
-  "IntentId": 914,
+  "AutoeventId": 964,
+  "IntentId": 171,
   "IsDefaultPublished": false,
-  "Rank": 732,
-  "LoadTemplateFromPlugin": 786,
-  "MimeType": "sunt",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 655,
+  "Rank": 850,
+  "LoadTemplateFromPlugin": 465,
+  "MimeType": "eum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 102,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mohammed@beahanrobel.name",
+  "EmailSubject": "belle_gaylord@aufderharstreich.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dortha_mueller@walsh.co.uk",
+  "SenderEmailAddress": "zetta@schummcrooks.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 502
     }
   }
 }

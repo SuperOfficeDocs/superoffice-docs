@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 750,
-      "TabName": "Koelpin-Koch",
-      "Order": "rem",
-      "AssociateId": 542
+      "TabOrderId": 164,
+      "TabName": "Ward Inc and Sons",
+      "Order": "et",
+      "AssociateId": 66
     },
     {
-      "TabOrderId": 750,
-      "TabName": "Koelpin-Koch",
-      "Order": "rem",
-      "AssociateId": 542
+      "TabOrderId": 164,
+      "TabName": "Ward Inc and Sons",
+      "Order": "et",
+      "AssociateId": 66
     }
   ]
 }

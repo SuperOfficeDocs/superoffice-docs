@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Name": "Gislason-Mohr",
-    "ToolTip": "Reprehenderit enim in.",
-    "Deleted": true,
-    "Rank": 793,
-    "Type": "asperiores",
-    "ColorBlock": 297,
-    "IconHint": "ducimus",
+    "Id": 617,
+    "Name": "Grady-Heidenreich",
+    "ToolTip": "Magni quaerat dolorem.",
+    "Deleted": false,
+    "Rank": 636,
+    "Type": "non",
+    "ColorBlock": 89,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2017-05-26T10:30:33.0368376+02:00",
+    "LastChanged": "2012-11-04T14:23:56.1345776+01:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Feest LLC",
-        "ToolTip": "Nobis dolor qui.",
+        "Id": 853,
+        "Name": "Bruen-Schinner",
+        "ToolTip": "Sapiente aut facere ea.",
         "Deleted": false,
-        "Rank": 205,
-        "Type": "quas",
-        "ColorBlock": 562,
-        "IconHint": "officia",
+        "Rank": 956,
+        "Type": "voluptatem",
+        "ColorBlock": 130,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2001-02-27T10:30:33.0368376+01:00",
+        "LastChanged": "2003-09-26T14:23:56.1345776+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "totam",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Wilber Murazik",
+        "FullName": "Robin McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldType": "System.String",
+            "FieldLength": 646
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Hermina Jaleel Ruecker PhD",
+    "ExtraInfo": "cum",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Lenny Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 352
       }
     }
   }

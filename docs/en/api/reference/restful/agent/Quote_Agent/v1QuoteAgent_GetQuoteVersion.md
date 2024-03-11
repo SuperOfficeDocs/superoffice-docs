@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 398
+  "QuoteVersionId": 763
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 466,
-  "ERPQuoteVersionKey": "mollitia",
-  "QuoteId": 516,
-  "Description": "Automated eco-centric implementation",
-  "Number": "601786",
+  "QuoteVersionId": 404,
+  "ERPQuoteVersionKey": "odio",
+  "QuoteId": 760,
+  "Description": "Team-oriented neutral knowledge user",
+  "Number": "1708290",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 230,
-  "SentDate": "2007-02-16T10:30:24.3877082+01:00",
-  "FollowupId": 853,
-  "ExpirationDate": "2002-01-29T10:30:24.3877082+01:00",
-  "DeliveryCountryId": 577,
+  "LikelyQuoteAlternativeId": 591,
+  "SentDate": "2021-11-16T14:23:47.2067575+01:00",
+  "FollowupId": 781,
+  "ExpirationDate": "2022-09-13T14:23:47.2067575+02:00",
+  "DeliveryCountryId": 228,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 48,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "laboriosam",
-  "ERPPaymentTypeKey": "dicta",
-  "ERPDeliveryTermsKey": "ad",
-  "ERPDeliveryTypeKey": "non",
-  "Rank": 258,
-  "ApprovedBy": 858,
-  "ApprovedText": "magni",
-  "ApprovedRegisteredBy": 384,
-  "ApprovedRegisteredDate": "2020-04-28T10:30:24.3877082+02:00",
-  "ExtraField1": "aliquid",
-  "ExtraField2": "quia",
-  "ExtraField3": "ullam",
-  "ExtraField4": "repellendus",
-  "ExtraField5": "et",
-  "LastRecalculated": "1999-07-19T10:30:24.3877082+02:00",
-  "Updated": "2013-08-06T10:30:24.3877082+02:00",
-  "UpdatedAssociateId": 536,
-  "Registered": "2001-05-13T10:30:24.3877082+02:00",
-  "RegisteredAssociateId": 915,
-  "RequestAssociateId": 90,
-  "RequestComment": "et",
+  "InvoiceCountryId": 849,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "sint",
+  "ERPDeliveryTermsKey": "a",
+  "ERPDeliveryTypeKey": "perspiciatis",
+  "Rank": 250,
+  "ApprovedBy": 257,
+  "ApprovedText": "qui",
+  "ApprovedRegisteredBy": 217,
+  "ApprovedRegisteredDate": "2008-03-11T14:23:47.2067575+01:00",
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "incidunt",
+  "ExtraField4": "veniam",
+  "ExtraField5": "voluptas",
+  "LastRecalculated": "2007-08-13T14:23:47.2067575+02:00",
+  "Updated": "2013-03-30T14:23:47.2067575+01:00",
+  "UpdatedAssociateId": 113,
+  "Registered": "2009-07-18T14:23:47.2067575+02:00",
+  "RegisteredAssociateId": 801,
+  "RequestAssociateId": 199,
+  "RequestComment": "expedita",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 809,
-      "ERPQuoteAlternativeKey": "eos",
-      "QuoteVersionId": 298,
-      "Name": "Hegmann Group",
-      "Description": "Team-oriented maximized artificial intelligence",
+      "QuoteAlternativeId": 785,
+      "ERPQuoteAlternativeKey": "accusamus",
+      "QuoteVersionId": 818,
+      "Name": "Wunsch, Schaefer and Bergnaum",
+      "Description": "Ameliorated scalable groupware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 28334.494,
-      "ERPDiscountAmount": 24266.561999999998,
-      "DiscountPercent": 12329.155999999999,
-      "DiscountAmount": 12761.648,
+      "ERPDiscountPercent": 3444.266,
+      "ERPDiscountAmount": 15848.637999999999,
+      "DiscountPercent": 3804.676,
+      "DiscountAmount": 19261.564,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aperiam",
-      "VAT": 1231.662,
-      "EarningPercent": 16713.622,
-      "EarningAmount": 10332.797999999999,
-      "SubTotal": 20320.856,
-      "TotalPrice": 20847.368,
-      "ExtraField1": "aut",
-      "ExtraField2": "non",
-      "ExtraField3": "et",
-      "ExtraField4": "nisi",
-      "ExtraField5": "quo",
+      "VATInfo": "vitae",
+      "VAT": 27710.827999999998,
+      "EarningPercent": 1121.972,
+      "EarningAmount": 24959.176,
+      "SubTotal": 26563.784,
+      "TotalPrice": 28124.516,
+      "ExtraField1": "recusandae",
+      "ExtraField2": "minima",
+      "ExtraField3": "repudiandae",
+      "ExtraField4": "totam",
+      "ExtraField5": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 743
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 812
     }
   }
 }

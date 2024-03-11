@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 218,
-  "ColumnId": 288,
-  "FieldDefault": "et",
-  "FieldHeight": 399,
-  "FieldLabel": "quia",
-  "FieldLeft": 470,
-  "FieldTop": 145,
+  "UDefFieldId": 194,
+  "ColumnId": 657,
+  "FieldDefault": "molestias",
+  "FieldHeight": 931,
+  "FieldLabel": "fugit",
+  "FieldLeft": 599,
+  "FieldTop": 412,
   "FieldType": "Checkbox",
-  "FieldWidth": 539,
-  "FormatMask": "a",
+  "FieldWidth": 641,
+  "FormatMask": "recusandae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 4,
-  "LabelLeft": 246,
-  "LabelTop": 377,
-  "LabelWidth": 116,
-  "LastVersionId": 105,
-  "ListTableId": 377,
-  "IsMandatory": true,
+  "LabelHeight": 318,
+  "LabelLeft": 240,
+  "LabelTop": 840,
+  "LabelWidth": 663,
+  "LastVersionId": 230,
+  "ListTableId": 104,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 779,
-  "ProgId": "quia",
-  "IsReadOnly": true,
-  "ShortLabel": "praesentium",
-  "TabOrder": 840,
-  "TextLength": 806,
-  "Tooltip": "aut",
-  "UdefIdentity": 630,
-  "UDListDefinitionId": 206,
+  "Page1LineNo": 54,
+  "ProgId": "esse",
+  "IsReadOnly": false,
+  "ShortLabel": "provident",
+  "TabOrder": 55,
+  "TextLength": 107,
+  "Tooltip": "explicabo",
+  "UdefIdentity": 52,
+  "UDListDefinitionId": 550,
   "Justification": "Center",
-  "Version": 423,
-  "TemplateVariableName": "Jacobi LLC",
+  "Version": 889,
+  "TemplateVariableName": "Kub LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Becker, Zieme and Skiles",
+  "MdoListName": "Carter, Pouros and Cummerata",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

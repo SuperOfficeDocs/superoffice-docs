@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Nitzsche Group",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "Rank": 416,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 408,
+  "Name": "Connelly Inc and Sons",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 983,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 546
     }
   },
   "_Links": {

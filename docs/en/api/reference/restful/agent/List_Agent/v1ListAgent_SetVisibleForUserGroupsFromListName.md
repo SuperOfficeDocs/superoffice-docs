@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Simonis, Purdy and Collier",
-  "ListItemId": 319,
+  "UdListDefinitionName": "West Inc and Sons",
+  "ListItemId": 358,
   "UserGroups": [
     {
-      "Id": 346,
-      "Name": "Lindgren-Kris",
-      "ToolTip": "Ut odio.",
-      "Deleted": false,
-      "Rank": 685,
-      "Type": "minus",
-      "ColorBlock": 556,
-      "IconHint": "omnis",
-      "Selected": false,
-      "LastChanged": "2014-10-29T10:30:23.9944062+01:00",
+      "Id": 482,
+      "Name": "Zulauf, Hackett and Crona",
+      "ToolTip": "Excepturi eos magnam qui commodi provident.",
+      "Deleted": true,
+      "Rank": 697,
+      "Type": "molestias",
+      "ColorBlock": 441,
+      "IconHint": "quisquam",
+      "Selected": true,
+      "LastChanged": "2001-09-23T14:23:46.8306046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "quibusdam",
-      "Hidden": true,
-      "FullName": "Mr. Francesca Kreiger IV"
+      "ExtraInfo": "sed",
+      "StyleHint": "maiores",
+      "Hidden": false,
+      "FullName": "Orval Gerlach"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Kautzer, Kunze and Raynor",
-    "ToolTip": "Placeat nisi suscipit veniam sit ut.",
-    "Deleted": false,
-    "Rank": 802,
-    "Type": "odio",
-    "ColorBlock": 290,
-    "IconHint": "ut",
+    "Id": 210,
+    "Name": "Kutch LLC",
+    "ToolTip": "Eveniet repellat eligendi voluptatum quo.",
+    "Deleted": true,
+    "Rank": 247,
+    "Type": "quibusdam",
+    "ColorBlock": 596,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-12-12T10:30:23.9944062+01:00",
+    "LastChanged": "2020-08-13T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Daugherty Inc and Sons",
-        "ToolTip": "Ad adipisci doloribus et iste error porro eaque.",
+        "Id": 626,
+        "Name": "Collins, Ledner and Schumm",
+        "ToolTip": "Et in rerum maxime tenetur ab quis.",
         "Deleted": true,
-        "Rank": 882,
-        "Type": "similique",
-        "ColorBlock": 530,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2007-03-18T10:30:23.9944062+01:00",
+        "Rank": 77,
+        "Type": "rem",
+        "ColorBlock": 459,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2019-02-28T14:23:46.8306046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "excepturi",
-        "Hidden": true,
-        "FullName": "Phyllis Pacocha",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Ms. Kelli Shayna Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 303
+            "FieldType": "System.Int32",
+            "FieldLength": 203
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Juwan Rau",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Torey Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

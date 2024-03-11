@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 970,
-  "Name": "Reinger, Franecki and Bergstrom",
-  "CurrencyId": 393,
-  "EnglishName": "Herzog Group",
+  "CountryId": 206,
+  "Name": "Metz, Hagenes and Murphy",
+  "CurrencyId": 809,
+  "EnglishName": "Satterfield, Smith and Huel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Total clear-thinking projection",
-  "OrgNrText": "911742",
-  "InterAreaPrefix": "quia",
-  "DialInPrefix": "voluptatibus",
-  "ZipPrefix": "occaecati",
-  "DomainName": "Windler, Hilpert and Denesik",
-  "AddressLayoutId": 871,
-  "DomesticAddressLayoutId": 645,
-  "ForeignAddressLayoutId": 656,
-  "Rank": 836,
-  "Tooltip": "voluptas",
+  "ImageDescription": "Future-proofed regional model",
+  "OrgNrText": "1557439",
+  "InterAreaPrefix": "consectetur",
+  "DialInPrefix": "delectus",
+  "ZipPrefix": "impedit",
+  "DomainName": "Mosciski Group",
+  "AddressLayoutId": 778,
+  "DomesticAddressLayoutId": 29,
+  "ForeignAddressLayoutId": 857,
+  "Rank": 526,
+  "Tooltip": "recusandae",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 35,
-  "Name": "Purdy, Dietrich and Olson",
-  "CurrencyId": 299,
-  "EnglishName": "Hilpert LLC",
+  "CountryId": 224,
+  "Name": "Smitham Group",
+  "CurrencyId": 283,
+  "EnglishName": "Greenholt, Barton and Kessler",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved object-oriented website",
-  "OrgNrText": "846665",
-  "InterAreaPrefix": "error",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "et",
-  "DomainName": "Cummings-Ratke",
-  "AddressLayoutId": 6,
-  "DomesticAddressLayoutId": 479,
-  "ForeignAddressLayoutId": 253,
-  "Rank": 926,
-  "Tooltip": "est",
+  "ImageDescription": "Integrated incremental focus group",
+  "OrgNrText": "1476412",
+  "InterAreaPrefix": "necessitatibus",
+  "DialInPrefix": "culpa",
+  "ZipPrefix": "laborum",
+  "DomainName": "Wolff-Hudson",
+  "AddressLayoutId": 223,
+  "DomesticAddressLayoutId": 883,
+  "ForeignAddressLayoutId": 18,
+  "Rank": 633,
+  "Tooltip": "sunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 522
     }
   }
 }

@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 979,
-  "AssociateId": 847
+  "AppointmentId": 472,
+  "AssociateId": 461
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-12-14T10:30:22.8314616+01:00",
-  "AppointmentId": 457,
-  "Description": "Managed zero tolerance algorithm",
-  "Title": "dolores",
-  "Agenda": "quisquam",
-  "InternalNotes": "ipsum",
-  "StartDate": "2009-04-12T10:30:22.8314616+02:00",
-  "EndDate": "2008-10-30T10:30:22.8314616+01:00",
+  "CreatedDate": "2010-09-23T14:23:45.5168816+02:00",
+  "AppointmentId": 562,
+  "Description": "Profound multi-tasking challenge",
+  "Title": "assumenda",
+  "Agenda": "qui",
+  "InternalNotes": "consequatur",
+  "StartDate": "2012-08-04T14:23:45.5168816+02:00",
+  "EndDate": "2020-06-08T14:23:45.5168816+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 630,
+  "MotherId": 745,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-04-27T10:30:22.8314616+02:00",
+  "UpdatedDate": "2020-09-05T14:23:45.5168816+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 410,
+  "ActiveLinks": 411,
   "Links": [
     {
-      "EntityName": "Leuschke, Beatty and Haag",
-      "Id": 887,
-      "Description": "Synergized bottom-line service-desk",
-      "ExtraInfo": "quis",
-      "LinkId": 134,
+      "EntityName": "Hegmann LLC",
+      "Id": 658,
+      "Description": "Fundamental 5th generation Graphic Interface",
+      "ExtraInfo": "perferendis",
+      "LinkId": 286,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
-  "HasAlarm": true,
-  "ColorIndex": 859,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "molestias",
-  "LeadTime": "consectetur",
-  "Location": "qui",
-  "RejectCounter": 143,
+  "AlarmLeadTime": "hic",
+  "HasAlarm": false,
+  "ColorIndex": 340,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "quia",
+  "LeadTime": "dignissimos",
+  "Location": "vero",
+  "RejectCounter": 63,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 535,
-      "PersonId": 806,
-      "ContactId": 434,
-      "EmailId": 64,
+      "AssociateId": 2,
+      "PersonId": 885,
+      "ContactId": 772,
+      "EmailId": 34,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "llewellyn@gottliebbrekke.com",
-      "Description": "Centralized next generation knowledge base"
+      "EmailAddress": "olen_rau@framihudson.biz",
+      "Description": "Cross-group neutral structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-07-10T10:30:22.8314616+02:00",
+  "ActiveDate": "2010-01-15T14:23:45.5168816+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 673,
+  "PreferredTZLocation": 874,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 450,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 771,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "architecto",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Milan Gibson",
-    "SuperOffice:2": "2055003154"
+    "SuperOffice:1": "Gussie Klocko",
+    "SuperOffice:2": "Randi Gulgowski I"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "itaque"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2000-03-03T10:30:22.8314616+01:00",
-  "PublishTo": "2019-09-21T10:30:22.8314616+02:00",
-  "PublishFrom": "2014-08-24T10:30:22.8314616+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-04-10T14:23:45.5168816+02:00",
+  "PublishTo": "2021-06-10T14:23:45.5168816+02:00",
+  "PublishFrom": "2001-04-08T14:23:45.5168816+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 351,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 485
         }
       }
     },
     {
-      "VisibleId": 351,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 485
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 716
     }
   }
 }

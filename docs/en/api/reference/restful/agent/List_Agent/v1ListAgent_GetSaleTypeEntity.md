@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=147
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=157
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 468,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "aliquam",
-  "Rank": 663,
+  "SaleTypeId": 949,
+  "Name": "Hudson LLC",
+  "Tooltip": "nostrum",
+  "Rank": 474,
   "DurationUnit": "Century",
-  "SaleDuration": 39,
-  "SaleTypeCatId": 263,
+  "SaleDuration": 659,
+  "SaleTypeCatId": 123,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 339,
-  "QuoteLinesTemplate": 779,
-  "ConfirmationLinesTemplate": 881,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 600,
+  "QuoteLinesTemplate": 149,
+  "ConfirmationLinesTemplate": 978,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 225,
-  "MinEarningPercent": 595,
-  "GroupQuoteLinesBy": 861,
-  "SortGroupLinesBy": 26,
+  "MaxDiscountPercent": 781,
+  "MinEarningPercent": 208,
+  "GroupQuoteLinesBy": 454,
+  "SortGroupLinesBy": 302,
   "Stages": [
     {
-      "Id": 306,
-      "Name": "Gulgowski, Rath and Connelly",
-      "ToolTip": "Et aliquid neque debitis asperiores exercitationem in.",
+      "Id": 906,
+      "Name": "Heller-Predovic",
+      "ToolTip": "Amet consequatur.",
       "Deleted": false,
-      "Rank": 260,
-      "Type": "ea",
-      "ColorBlock": 737,
-      "IconHint": "explicabo",
-      "Selected": true,
-      "LastChanged": "2007-10-02T10:30:23.978726+02:00",
+      "Rank": 27,
+      "Type": "ipsum",
+      "ColorBlock": 416,
+      "IconHint": "nam",
+      "Selected": false,
+      "LastChanged": "2006-04-17T14:23:46.814978+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "cum",
-      "Hidden": false,
-      "FullName": "Fabian Emmerich",
+      "ExtraInfo": "in",
+      "StyleHint": "optio",
+      "Hidden": true,
+      "FullName": "Sandra Veum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

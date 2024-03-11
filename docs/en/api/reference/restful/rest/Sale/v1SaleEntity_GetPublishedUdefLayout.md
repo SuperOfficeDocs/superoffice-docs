@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 67,
-    "ColumnId": 7,
-    "FieldDefault": "sed",
-    "FieldHeight": 374,
-    "FieldLabel": "quos",
-    "FieldLeft": 152,
-    "FieldTop": 300,
+    "UDefFieldId": 160,
+    "ColumnId": 543,
+    "FieldDefault": "in",
+    "FieldHeight": 629,
+    "FieldLabel": "adipisci",
+    "FieldLeft": 870,
+    "FieldTop": 995,
     "FieldType": "Checkbox",
-    "FieldWidth": 21,
-    "FormatMask": "in",
+    "FieldWidth": 687,
+    "FormatMask": "ad",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 648,
-    "LabelLeft": 100,
-    "LabelTop": 709,
-    "LabelWidth": 596,
-    "LastVersionId": 457,
-    "ListTableId": 365,
+    "IsIndexed": true,
+    "LabelHeight": 220,
+    "LabelLeft": 70,
+    "LabelTop": 827,
+    "LabelWidth": 820,
+    "LastVersionId": 326,
+    "ListTableId": 178,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 623,
-    "ProgId": "eius",
+    "Page1LineNo": 622,
+    "ProgId": "est",
     "IsReadOnly": false,
-    "ShortLabel": "vel",
-    "TabOrder": 597,
-    "TextLength": 984,
-    "Tooltip": "dicta",
-    "UdefIdentity": 966,
-    "UDListDefinitionId": 538,
+    "ShortLabel": "voluptates",
+    "TabOrder": 128,
+    "TextLength": 964,
+    "Tooltip": "provident",
+    "UdefIdentity": 640,
+    "UDListDefinitionId": 218,
     "Justification": "Center",
-    "Version": 523,
-    "TemplateVariableName": "Gleason-Mertz",
-    "HasBeenPublished": true,
-    "MdoListName": "Lakin Group",
+    "Version": 321,
+    "TemplateVariableName": "Quigley Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Lesch-Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldLength": 505
       }
     }
   }

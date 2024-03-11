@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=398
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=2
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 664,
-  "WorkflowId": 765,
+  "WorkflowGoalId": 372,
+  "WorkflowId": 256,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Walsh Group",
-      "Description": "Open-architected system-worthy infrastructure",
-      "Rank": 223,
+      "Name": "Crist Group",
+      "Description": "Self-enabling object-oriented task-force",
+      "Rank": 56,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walsh Group",
-      "Description": "Open-architected system-worthy infrastructure",
-      "Rank": 223,
+      "Name": "Crist Group",
+      "Description": "Self-enabling object-oriented task-force",
+      "Rank": 56,
       "Restrictions": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

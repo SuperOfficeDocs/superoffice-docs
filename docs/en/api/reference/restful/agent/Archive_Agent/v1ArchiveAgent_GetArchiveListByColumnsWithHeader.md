@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hammes-Leffler",
+  "ProviderName": "Kub LLC",
   "Columns": [
-    "voluptatem",
-    "incidunt"
+    "recusandae",
+    "omnis"
   ],
   "SortOrder": [
     {
-      "Name": "Russel Inc and Sons",
+      "Name": "Stracke-Howe",
       "Direction": "ASC"
     },
     {
-      "Name": "Russel Inc and Sons",
+      "Name": "Stracke-Howe",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Simonis, Harvey and Kuhn",
-      "Operator": "explicabo",
+      "Name": "Greenfelder Group",
+      "Operator": "modi",
       "Values": [
-        "qui",
-        "dolor"
+        "nulla",
+        "id"
       ],
       "DisplayValues": [
-        "unde",
-        "quidem"
+        "id",
+        "sunt"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 793,
+      "InterParenthesis": 453,
       "InterOperator": "And",
-      "UniqueHash": 606
+      "UniqueHash": 105
     }
   ],
   "Entities": [
-    "hic",
-    "aperiam"
+    "possimus",
+    "dolorem"
   ],
-  "Page": 900,
-  "PageSize": 664,
-  "Options": "quis"
+  "Page": 614,
+  "PageSize": 621,
+  "Options": "sint"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 455,
+  "RowCount": 353,
   "Rows": [
     {
-      "EntityName": "Cremin, Walter and Eichmann",
-      "PrimaryKey": 248,
+      "EntityName": "Hane, Berge and Wisoky",
+      "PrimaryKey": 88,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "labore",
-          "TooltipHint": "quisquam",
-          "LinkHint": "sed"
+          "DisplayValue": "ut",
+          "TooltipHint": "et",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "quia",
+      "LinkHint": "sit",
+      "StyleHint": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 941
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 936
     }
   }
 }

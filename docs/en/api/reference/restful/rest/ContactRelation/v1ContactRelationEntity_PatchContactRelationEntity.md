@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "nisi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "nisi",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 848,
-  "SourcePersonId": 304,
-  "DestinationContactId": 839,
-  "DestinationPersonId": 369,
-  "RelationId": 795,
-  "Comment": "aliquid",
-  "RelationDefinitionId": 268,
-  "Reversed": 21,
-  "UpdatedDate": "2014-10-20T10:30:31.9636795+02:00",
-  "CreatedDate": "2011-11-10T10:30:31.9636795+01:00",
+  "SourceContactId": 411,
+  "SourcePersonId": 762,
+  "DestinationContactId": 8,
+  "DestinationPersonId": 15,
+  "RelationId": 188,
+  "Comment": "voluptatem",
+  "RelationDefinitionId": 164,
+  "Reversed": 978,
+  "UpdatedDate": "2014-03-19T14:23:55.0552747+01:00",
+  "CreatedDate": "2009-04-01T14:23:55.0552747+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Macejkovic, Cruickshank and Purdy",
-  "SourcePersonName": "Hamill, Wuckert and Collier",
-  "DestinationContactName": "Davis LLC",
-  "DestinationPersonName": "Hettinger-Yost",
-  "ActiveText": "a",
-  "PassiveText": "odio",
+  "SourceContactName": "Grant, Stracke and Greenfelder",
+  "SourcePersonName": "Kozey-Kertzmann",
+  "DestinationContactName": "Oberbrunner, Koepp and Bode",
+  "DestinationPersonName": "Wolff, Schuster and Berge",
+  "ActiveText": "recusandae",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 821
     }
   },
   "_Links": {

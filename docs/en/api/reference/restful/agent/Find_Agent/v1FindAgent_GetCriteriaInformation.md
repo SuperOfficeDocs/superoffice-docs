@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Volkman Group",
-  "StorageKey": "ut",
+  "StorageType": "quis",
+  "ProviderName": "Nitzsche Group",
+  "StorageKey": "exercitationem",
   "StaticColumns": [
-    "voluptatibus",
-    "ullam"
+    "similique",
+    "expedita"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Turner Inc and Sons",
-      "Operator": "quis",
+      "Name": "Lockman-Spencer",
+      "Operator": "accusamus",
       "Values": [
-        "veritatis",
-        "saepe"
+        "deleniti",
+        "earum"
       ],
       "DisplayValues": [
-        "quam",
-        "fuga"
+        "doloremque",
+        "eligendi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 267,
+      "InterParenthesis": 346,
       "InterOperator": "And",
-      "UniqueHash": 641
+      "UniqueHash": 144
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Jones-Strosin",
-      "DisplayTooltip": "velit",
-      "DisplayType": "rerum",
+      "DisplayName": "Casper LLC",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "corporis",
       "CanOrderBy": false,
-      "Name": "Collins Inc and Sons",
+      "Name": "Willms, Grady and O'Conner",
       "CanRestrictBy": false,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Crona, Kris and Corkery",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "quas",
-      "IconHint": "perspiciatis",
-      "HeadingIconHint": "aliquam"
+      "RestrictionType": "quo",
+      "RestrictionListName": "Corwin Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "quibusdam",
+      "Width": "quia",
+      "IconHint": "ea",
+      "HeadingIconHint": "esse"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ziemann-Weissnat",
-      "PrimaryKey": 615,
+      "EntityName": "Jaskolski-Lueilwitz",
+      "PrimaryKey": 202,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatum",
-          "TooltipHint": "ut",
-          "LinkHint": "et"
+          "DisplayValue": "est",
+          "TooltipHint": "deleniti",
+          "LinkHint": "autem"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "ipsa",
+      "LinkHint": "veniam",
+      "StyleHint": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldLength": 230
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Sawayn-Block",
-      "Description": "Optional encompassing functionalities",
-      "Rank": 556,
+      "Name": "Kulas, Walsh and Pagac",
+      "Description": "Innovative web-enabled alliance",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Sawayn-Block",
-      "Description": "Optional encompassing functionalities",
-      "Rank": 556,
+      "Name": "Kulas, Walsh and Pagac",
+      "Description": "Innovative web-enabled alliance",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldLength": 112
     }
   }
 }

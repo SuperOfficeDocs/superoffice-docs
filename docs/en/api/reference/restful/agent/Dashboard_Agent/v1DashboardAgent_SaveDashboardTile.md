@@ -93,42 +93,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 242,
-  "Caption": "assumenda",
-  "Description": "Fully-configurable analyzing archive",
-  "ChartName": "White Group",
-  "ChartId": "voluptatem",
+  "DashboardTileId": 601,
+  "Caption": "corporis",
+  "Description": "Function-based motivating conglomeration",
+  "ChartName": "Witting, Brekke and Kovacek",
+  "ChartId": "sit",
   "IsDefault": true,
-  "AssociateId": 377,
-  "GroupId": 656,
-  "SelectionId": 185,
-  "Config": "error",
+  "AssociateId": 948,
+  "GroupId": 36,
+  "SelectionId": 380,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hills, Wiza and Brekke",
-      "Description": "Extended solution-oriented projection",
+      "Name": "Hills, Kuhic and Stark",
+      "Description": "Ergonomic modular circuit",
       "Type": "Boolean",
-      "ListName": "Dooley, Kessler and Doyle",
+      "ListName": "Abbott-O'Reilly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sint",
+      "Value": "facere",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 788,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "dicta"
+      "DisplayValue": "sunt"
     },
     {
-      "VisibleId": 788,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "dicta"
+      "DisplayValue": "sunt"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 941,
-  "Caption": "voluptate",
-  "Description": "Profit-focused interactive groupware",
-  "ChartName": "Swaniawski Group",
-  "ChartId": "ratione",
+  "DashboardTileId": 75,
+  "Caption": "rerum",
+  "Description": "Reduced 5th generation moratorium",
+  "ChartName": "Zieme-Kuhic",
+  "ChartId": "rerum",
   "IsDefault": false,
-  "AssociateId": 178,
-  "GroupId": 145,
-  "SelectionId": 906,
-  "Config": "nesciunt",
+  "AssociateId": 227,
+  "GroupId": 458,
+  "SelectionId": 198,
+  "Config": "alias",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Sanford-Auer",
-      "Description": "Vision-oriented eco-centric Graphical User Interface",
+      "Name": "VonRueden, Goodwin and Brown",
+      "Description": "Persevering regional challenge",
       "Type": "Boolean",
-      "ListName": "White, Denesik and Feeney",
+      "ListName": "Rippin-Schowalter",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aliquid",
-      "DefaultDataOption": true,
+      "Value": "neque",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 958,
+      "VisibleId": 129,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 101
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 958,
+      "VisibleId": 129,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 101
+          "FieldLength": 692
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldLength": 370
     }
   }
 }

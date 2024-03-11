@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Corkery, Williamson and Gorczany",
-    "Tooltip": "animi",
+    "HeadingId": 846,
+    "Name": "Orn, Ratke and Konopelski",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 629,
-    "UdListDefinitionId": 61,
+    "Rank": 521,
+    "UdListDefinitionId": 857,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Gaylord-Toy",
-  "Tooltip": "dicta",
+  "Id": 194,
+  "Name": "Rutherford LLC",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 909,
+  "Rank": 157,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 437,
-  "Name": "Smitham-Mayert",
-  "Tooltip": "eaque",
+  "Id": 877,
+  "Name": "Lowe-Dooley",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 972,
+  "Rank": 902,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "id",
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

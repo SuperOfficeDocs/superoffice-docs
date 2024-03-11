@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 152,
-  "Name": "Beier LLC",
+  "ScreenChooserId": 104,
+  "Name": "Sporer Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ipsam",
-  "Source": "facilis",
-  "Registered": "2000-07-18T10:30:32.6543487+02:00",
-  "RegisteredAssociateId": 210,
-  "Updated": "2002-02-18T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 182
+  "Enabled": true,
+  "UniqueIdentifier": "et",
+  "Source": "impedit",
+  "Registered": "2013-02-23T14:23:55.7595795+01:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "2012-10-02T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 66
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 231,
-  "Name": "Marvin Group",
+  "ScreenChooserId": 431,
+  "Name": "Parker, Sauer and Ortiz",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "debitis",
-  "Source": "et",
-  "Registered": "1996-12-24T10:30:32.6543487+01:00",
-  "RegisteredAssociateId": 368,
-  "Updated": "2012-11-18T10:30:32.6543487+01:00",
-  "UpdatedAssociateId": 840,
+  "Enabled": false,
+  "UniqueIdentifier": "officia",
+  "Source": "quia",
+  "Registered": "2017-09-23T14:23:55.7595795+02:00",
+  "RegisteredAssociateId": 92,
+  "Updated": "2012-06-09T14:23:55.7595795+02:00",
+  "UpdatedAssociateId": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

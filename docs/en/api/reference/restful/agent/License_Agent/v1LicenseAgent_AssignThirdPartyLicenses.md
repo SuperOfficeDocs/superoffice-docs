@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 232,
-  "ModuleOwner": "eos",
+  "AssociateId": 67,
+  "ModuleOwner": "praesentium",
   "ModuleLicenseNames": [
-    "Muller Group",
-    "Jenkins-Cormier"
+    "Lesch, Stark and O'Keefe",
+    "Mante LLC"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 127,
-    "Tooltip": "sunt",
+    "Unrestricted": false,
+    "Total": 526,
+    "Tooltip": "qui",
     "CanAssign": false,
-    "Free": 787,
-    "InUse": 746,
+    "Free": 95,
+    "InUse": 72,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 238,
-    "Name": "Tremblay, Dicki and Keeling",
-    "Description": "Vision-oriented analyzing system engine",
-    "PrerequisiteModuleName": "Smith-Bayer",
-    "SortOrder": 596,
-    "ExtraFlags": 734,
+    "Assigned": true,
+    "ModuleLicenseId": 396,
+    "Name": "Conroy-Feeney",
+    "Description": "Profit-focused user-facing matrices",
+    "PrerequisiteModuleName": "Davis-Predovic",
+    "SortOrder": 462,
+    "ExtraFlags": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 377
       }
     }
   }

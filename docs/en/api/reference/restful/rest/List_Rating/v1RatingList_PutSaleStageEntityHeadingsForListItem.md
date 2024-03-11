@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Nikolaus-Barton",
-    "ToolTip": "Voluptate aut odio voluptatum.",
+    "Id": 991,
+    "Name": "Kuphal Group",
+    "ToolTip": "Tenetur est culpa eos quasi optio perferendis aliquam.",
     "Deleted": true,
-    "Rank": 997,
-    "Type": "ab",
-    "ColorBlock": 97,
-    "IconHint": "vero",
-    "Selected": false,
-    "LastChanged": "2011-09-04T10:30:33.1943329+02:00",
+    "Rank": 945,
+    "Type": "quos",
+    "ColorBlock": 536,
+    "IconHint": "doloribus",
+    "Selected": true,
+    "LastChanged": "2003-10-09T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Price, Hills and Powlowski",
-        "ToolTip": "Unde id magni sapiente eveniet.",
+        "Id": 526,
+        "Name": "Murray LLC",
+        "ToolTip": "Dolores hic vel.",
         "Deleted": false,
-        "Rank": 836,
-        "Type": "voluptas",
-        "ColorBlock": 412,
-        "IconHint": "quia",
+        "Rank": 18,
+        "Type": "dicta",
+        "ColorBlock": 116,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2004-03-26T10:30:33.1943329+01:00",
+        "LastChanged": "1997-11-03T14:23:56.2908239+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Juliet Katrine Dickinson III"
+        "ExtraInfo": "ut",
+        "StyleHint": "ad",
+        "Hidden": true,
+        "FullName": "Miss Lavon Mayert PhD"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Maxwell Goyette I"
+    "ExtraInfo": "ratione",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Mr. Nicholaus Berge"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "King, Homenick and Stanton",
-    "ToolTip": "Quia ullam.",
+    "Id": 604,
+    "Name": "Grimes-Wyman",
+    "ToolTip": "Totam quis amet non dolorem molestiae maxime.",
     "Deleted": false,
-    "Rank": 570,
-    "Type": "quia",
-    "ColorBlock": 177,
-    "IconHint": "nisi",
+    "Rank": 361,
+    "Type": "beatae",
+    "ColorBlock": 758,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2019-05-08T10:30:33.1943329+02:00",
+    "LastChanged": "2014-06-27T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Terry, Runte and Schmitt",
-        "ToolTip": "Dignissimos et consequatur.",
+        "Id": 897,
+        "Name": "Brakus-Krajcik",
+        "ToolTip": "Possimus accusamus dolor voluptates delectus totam.",
         "Deleted": true,
-        "Rank": 575,
-        "Type": "doloremque",
-        "ColorBlock": 601,
-        "IconHint": "eius",
+        "Rank": 530,
+        "Type": "sapiente",
+        "ColorBlock": 143,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2016-05-15T10:30:33.1943329+02:00",
+        "LastChanged": "2017-08-21T14:23:56.2908239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "earum",
+        "ExtraInfo": "modi",
+        "StyleHint": "suscipit",
         "Hidden": true,
-        "FullName": "Alexandro Cole",
+        "FullName": "Alfonzo Florine Ernser PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "magni",
+    "ExtraInfo": "quod",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mara Wiegand",
+    "FullName": "Mr. Xzavier Kailee Koepp V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 154
       }
     }
   }

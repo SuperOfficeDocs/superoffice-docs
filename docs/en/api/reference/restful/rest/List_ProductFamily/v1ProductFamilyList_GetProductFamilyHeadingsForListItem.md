@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Sanford, Abernathy and Jones",
-    "ToolTip": "Odio eveniet error dolorem alias.",
+    "Id": 114,
+    "Name": "Satterfield Inc and Sons",
+    "ToolTip": "Cumque quia natus eius aut sapiente rem totam.",
     "Deleted": true,
-    "Rank": 209,
-    "Type": "soluta",
-    "ColorBlock": 390,
-    "IconHint": "ipsum",
+    "Rank": 801,
+    "Type": "magni",
+    "ColorBlock": 807,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "1997-05-21T10:30:33.1162087+02:00",
+    "LastChanged": "2007-05-24T14:23:56.2126991+02:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Marks, Schimmel and Barton",
-        "ToolTip": "Vel voluptas sint nulla aperiam ut nam.",
-        "Deleted": true,
-        "Rank": 683,
-        "Type": "doloribus",
-        "ColorBlock": 183,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2014-07-31T10:30:33.1162087+02:00",
+        "Id": 715,
+        "Name": "Jaskolski, Auer and Murray",
+        "ToolTip": "Nihil iusto et.",
+        "Deleted": false,
+        "Rank": 162,
+        "Type": "consequatur",
+        "ColorBlock": 651,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "1998-04-29T14:23:56.2126991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Miss Herman Nathanial Boehm",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Prof. Emily Hudson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 86
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "molestias",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Ms. Esther Vallie Schiller III",
+    "FullName": "Prof. Kayli Bill Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 310
       }
     }
   }

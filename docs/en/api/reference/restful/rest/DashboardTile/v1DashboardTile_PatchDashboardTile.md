@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 578,
-  "Caption": "eos",
-  "Description": "Decentralized actuating core",
-  "ChartName": "Mueller Inc and Sons",
-  "ChartId": "suscipit",
-  "IsDefault": false,
-  "AssociateId": 490,
-  "GroupId": 626,
-  "SelectionId": 501,
-  "Config": "molestias",
+  "DashboardTileId": 860,
+  "Caption": "aut",
+  "Description": "Seamless interactive archive",
+  "ChartName": "Mosciski, Senger and Kihn",
+  "ChartId": "quasi",
+  "IsDefault": true,
+  "AssociateId": 82,
+  "GroupId": 469,
+  "SelectionId": 947,
+  "Config": "cumque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stanton, McClure and Barrows",
-      "Description": "Integrated 24/7 moderator",
+      "Name": "Baumbach, Willms and Rosenbaum",
+      "Description": "Multi-lateral responsive model",
       "Type": "Boolean",
-      "ListName": "Kuvalis-Trantow",
+      "ListName": "Heathcote-Pfeffer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quis",
+      "Value": "temporibus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 767,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     },
     {
-      "VisibleId": 767,
+      "VisibleId": 242,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     }
@@ -211,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 629
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

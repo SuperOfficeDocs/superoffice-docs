@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 951
+  "SaleId": 705
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 755,
-    "Attention": "ut",
-    "Header": "unde",
-    "Name": "Kovacek, Schumm and DuBuque",
-    "OurRef": "et",
-    "YourRef": "explicabo",
-    "Description": "Customizable intermediate workforce",
-    "DocumentTemplate": "ratione",
-    "IsPublished": true,
-    "PersonId": 451,
-    "PersonFullName": "Dr. Fred Rempel",
-    "AssociateFullName": "Miss Brennan Kunze",
-    "ContactId": 93,
-    "ContactName": "Bergstrom Group",
-    "ProjectId": 547,
-    "ProjectName": "Wuckert-Considine",
-    "AssociateId": 629,
-    "Snum": 416,
-    "SaleId": 128,
-    "SaleName": "Bahringer-Homenick",
+    "DocumentId": 176,
+    "Attention": "iusto",
+    "Header": "fugit",
+    "Name": "Armstrong, Batz and Schroeder",
+    "OurRef": "sit",
+    "YourRef": "laboriosam",
+    "Description": "Secured executive migration",
+    "DocumentTemplate": "blanditiis",
+    "IsPublished": false,
+    "PersonId": 243,
+    "PersonFullName": "Astrid Halvorson",
+    "AssociateFullName": "Ms. Rickey Funk",
+    "ContactId": 665,
+    "ContactName": "Goyette, Johns and Tromp",
+    "ProjectId": 721,
+    "ProjectName": "Marvin, Hilpert and Lakin",
+    "AssociateId": 315,
+    "Snum": 660,
+    "SaleId": 606,
+    "SaleName": "Larson-Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 446
       }
     }
   }

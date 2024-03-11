@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 63,
-    "Name": "Oberbrunner-Dooley",
-    "PersonId": 279,
-    "Rank": 16,
-    "Tooltip": "occaecati",
+    "AssociateId": 230,
+    "Name": "Ullrich Group",
+    "PersonId": 730,
+    "Rank": 652,
+    "Tooltip": "qui",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 808,
-    "FullName": "Name Howe",
-    "FormalName": "Blick-Hansen",
+    "GroupIdx": 358,
+    "FullName": "Brett Altenwerth",
+    "FormalName": "Kling Inc and Sons",
     "Deleted": false,
-    "EjUserId": 206,
-    "UserName": "Bode, Farrell and Mraz",
+    "EjUserId": 863,
+    "UserName": "Luettgen, Wintheiser and Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

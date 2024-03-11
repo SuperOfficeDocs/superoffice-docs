@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 43,
-  "PrefDescId": 964,
-  "PrefValue": "eius",
-  "PrefShowValue": "culpa",
-  "Description": "Reduced maximized methodology",
+  "PrefDescLineId": 636,
+  "PrefDescId": 711,
+  "PrefValue": "consequatur",
+  "PrefShowValue": "accusamus",
+  "Description": "Optimized mobile benchmark",
   "IsBuiltin": true
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 541,
-  "PrefDescId": 990,
-  "PrefValue": "at",
-  "PrefShowValue": "consequatur",
-  "Description": "Versatile needs-based open system",
-  "IsBuiltin": false,
+  "PrefDescLineId": 900,
+  "PrefDescId": 994,
+  "PrefValue": "possimus",
+  "PrefShowValue": "ratione",
+  "Description": "Horizontal needs-based adapter",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 33
     }
   },
   "_Links": {

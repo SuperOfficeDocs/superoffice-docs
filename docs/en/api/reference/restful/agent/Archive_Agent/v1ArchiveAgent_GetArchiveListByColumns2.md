@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Franecki LLC",
-  "Columns": "quis",
+  "ProviderName": "King-Champlin",
+  "Columns": "non",
   "SortOrder": "perferendis",
-  "Restrictions": "impedit",
-  "Entities": "sit",
-  "Page": 155,
-  "PageSize": 14
+  "Restrictions": "voluptate",
+  "Entities": "qui",
+  "Page": 208,
+  "PageSize": 523
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hand Inc and Sons",
-    "PrimaryKey": 787,
+    "EntityName": "Kuhlman-Jerde",
+    "PrimaryKey": 108,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "illum",
-        "TooltipHint": "ut",
-        "LinkHint": "vel"
+        "DisplayValue": "qui",
+        "TooltipHint": "quas",
+        "LinkHint": "nihil"
       }
     },
-    "LinkHint": "assumenda",
-    "StyleHint": "vitae",
+    "LinkHint": "id",
+    "StyleHint": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

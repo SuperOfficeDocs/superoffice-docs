@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 442,
-    "Name": "Pfeffer, Weissnat and Hettinger",
-    "Tooltip": "et",
+    "HeadingId": 750,
+    "Name": "Hayes-Schaefer",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 374,
-    "UdListDefinitionId": 773
+    "Rank": 620,
+    "UdListDefinitionId": 181
   },
   {
-    "HeadingId": 442,
-    "Name": "Pfeffer, Weissnat and Hettinger",
-    "Tooltip": "et",
+    "HeadingId": 750,
+    "Name": "Hayes-Schaefer",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 374,
-    "UdListDefinitionId": 773
+    "Rank": 620,
+    "UdListDefinitionId": 181
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 676,
-    "Name": "Flatley, Brekke and Dach",
-    "Tooltip": "quis",
+    "HeadingId": 398,
+    "Name": "Labadie LLC",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 236,
-    "UdListDefinitionId": 281,
+    "Rank": 577,
+    "UdListDefinitionId": 254,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 574
       }
     }
   }

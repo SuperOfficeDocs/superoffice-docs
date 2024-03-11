@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "McClure-Rice",
-    "AssociateId": 856,
-    "DetailsTable": 488,
-    "DetailsRecord": 465,
+    "Id": 797,
+    "Name": "Bogisich-Schinner",
+    "AssociateId": 335,
+    "DetailsTable": 20,
+    "DetailsRecord": 256,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ea",
-      "ParameterObject2": "consequuntur"
+      "ParameterObject1": "commodi",
+      "ParameterObject2": "pariatur"
     },
-    "LastStarted": "2007-12-22T10:30:32.6699717+01:00",
-    "Created": "2006-09-04T10:30:32.6699717+02:00",
-    "StartCount": 851,
-    "DatabaseSerialNumber": "1206803",
-    "Context": "suscipit",
-    "Result": "rerum",
+    "LastStarted": "1999-07-29T14:23:55.7595795+02:00",
+    "Created": "2000-11-08T14:23:55.7595795+01:00",
+    "StartCount": 316,
+    "DatabaseSerialNumber": "1313332",
+    "Context": "nesciunt",
+    "Result": "est",
     "State": "All",
-    "Description": "Down-sized directional emulation",
-    "Response": "quidem",
-    "Request": "placeat",
-    "ProgressDescription": "Seamless homogeneous challenge",
-    "ProgressPercent": 484,
-    "FileName": "Bechtelar-Gusikowski",
+    "Description": "Vision-oriented dynamic neural-net",
+    "Response": "dolorem",
+    "Request": "perferendis",
+    "ProgressDescription": "Right-sized bandwidth-monitored adapter",
+    "ProgressPercent": 21,
+    "FileName": "Balistreri-Beer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldType": "System.String",
+        "FieldLength": 952
       }
     }
   }

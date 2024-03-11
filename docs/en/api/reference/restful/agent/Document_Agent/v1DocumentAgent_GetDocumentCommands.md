@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 583,
+  "DocumentId": 21,
   "AllowedReturnTypes": [
-    "maxime",
-    "accusantium"
+    "molestias",
+    "sit"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan Inc and Sons",
-    "DisplayName": "Volkman Group",
-    "DisplayTooltip": "sint",
-    "IconHint": "consequatur",
+    "Name": "Tillman Inc and Sons",
+    "DisplayName": "Bashirian Inc and Sons",
+    "DisplayTooltip": "esse",
+    "IconHint": "incidunt",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Bogan Inc and Sons",
-    "DisplayName": "Volkman Group",
-    "DisplayTooltip": "sint",
-    "IconHint": "consequatur",
+    "Name": "Tillman Inc and Sons",
+    "DisplayName": "Bashirian Inc and Sons",
+    "DisplayTooltip": "esse",
+    "IconHint": "incidunt",
     "ReturnType": "CustomGui"
   }
 ]

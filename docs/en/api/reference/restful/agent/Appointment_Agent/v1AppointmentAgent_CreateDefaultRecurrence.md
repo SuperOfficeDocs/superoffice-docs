@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 634,
-  "StartDate": "1997-01-27T10:30:22.8627082+01:00",
-  "EndDate": "2002-03-24T10:30:22.8627082+01:00",
-  "RecurrenceCounter": 363,
+  "RecurrenceId": 349,
+  "StartDate": "1998-01-25T14:23:45.548125+01:00",
+  "EndDate": "1997-07-25T14:23:45.548125+02:00",
+  "RecurrenceCounter": 750,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-06-03T10:30:22.8627082+02:00",
-      "IsConflict": true,
-      "Description": "Realigned impactful matrices",
-      "DescriptionStyleHint": "Advanced high-level parallelism",
-      "Tooltip": "iure"
+      "Date": "2010-09-04T14:23:45.548125+02:00",
+      "IsConflict": false,
+      "Description": "Optional multimedia projection",
+      "DescriptionStyleHint": "Re-engineered well-modulated methodology",
+      "Tooltip": "eius"
     },
     {
-      "Date": "2005-06-03T10:30:22.8627082+02:00",
-      "IsConflict": true,
-      "Description": "Realigned impactful matrices",
-      "DescriptionStyleHint": "Advanced high-level parallelism",
-      "Tooltip": "iure"
+      "Date": "2010-09-04T14:23:45.548125+02:00",
+      "IsConflict": false,
+      "Description": "Optional multimedia projection",
+      "DescriptionStyleHint": "Re-engineered well-modulated methodology",
+      "Tooltip": "eius"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

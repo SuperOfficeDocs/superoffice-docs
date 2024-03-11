@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 22,
+  "TargetYear": 157,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 123,
-  "DimensionId": 115
+  "Id": 292,
+  "DimensionId": 657
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 445,
+  "TargetAssignmentInfoId": 701,
   "Values": [
-    365,
-    662
+    660,
+    834
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 858,
-  "DimensionListItemDisplayName": "Koch-Torp",
+  "DimensionListItem": 132,
+  "DimensionListItemDisplayName": "O'Conner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldLength": 856
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 386,
-    "Name": "Hermiston, Koepp and Emard",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 589,
-    "UdListDefinitionId": 739,
+    "HeadingId": 767,
+    "Name": "Kling-Sawayn",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 954,
+    "UdListDefinitionId": 59,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldLength": 77
       }
     }
   }

@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 531,
-  "Restrictions": "accusantium"
+  "DashboardTileId": 215,
+  "Restrictions": "et"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schaden, Dibbert and Blick",
-        "DisplayTooltip": "distinctio",
-        "DisplayType": "consectetur",
+        "DisplayName": "Kutch, Kassulke and Roberts",
+        "DisplayTooltip": "qui",
+        "DisplayType": "fugiat",
         "CanOrderBy": true,
-        "Name": "Kuvalis-Rohan",
+        "Name": "White-Ankunding",
         "CanRestrictBy": true,
-        "RestrictionType": "dolorem",
-        "RestrictionListName": "Beier, Wolf and Littel",
+        "RestrictionType": "recusandae",
+        "RestrictionListName": "Kreiger Group",
         "IsVisible": false,
-        "ExtraInfo": "officiis",
-        "Width": "dolore",
-        "IconHint": "qui",
-        "HeadingIconHint": "eos"
+        "ExtraInfo": "ad",
+        "Width": "ipsam",
+        "IconHint": "omnis",
+        "HeadingIconHint": "delectus"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schaden, Dibbert and Blick",
-        "DisplayTooltip": "distinctio",
-        "DisplayType": "consectetur",
+        "DisplayName": "Kutch, Kassulke and Roberts",
+        "DisplayTooltip": "qui",
+        "DisplayType": "fugiat",
         "CanOrderBy": true,
-        "Name": "Kuvalis-Rohan",
+        "Name": "White-Ankunding",
         "CanRestrictBy": true,
-        "RestrictionType": "dolorem",
-        "RestrictionListName": "Beier, Wolf and Littel",
+        "RestrictionType": "recusandae",
+        "RestrictionListName": "Kreiger Group",
         "IsVisible": false,
-        "ExtraInfo": "officiis",
-        "Width": "dolore",
-        "IconHint": "qui",
-        "HeadingIconHint": "eos"
+        "ExtraInfo": "ad",
+        "Width": "ipsam",
+        "IconHint": "omnis",
+        "HeadingIconHint": "delectus"
       }
     ],
     "Result": null

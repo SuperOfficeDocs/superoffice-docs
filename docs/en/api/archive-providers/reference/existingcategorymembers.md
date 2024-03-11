@@ -61,11 +61,12 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=contactId,usergroup
+GET /api/v1/archive/ExistingCategoryMembers?$select=personId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

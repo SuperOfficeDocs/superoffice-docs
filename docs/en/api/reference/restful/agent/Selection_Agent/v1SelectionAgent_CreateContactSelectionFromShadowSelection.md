@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 521,
-  "Name": "Kohler, Bergnaum and Weimann"
+  "SelectionId": 617,
+  "Name": "Sauer-Rice"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized client-driven hardware",
-  "Postit": "aut",
+  "Description": "Ameliorated logistical challenge",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 784,
-  "IncludePerson": 286,
-  "MemberCount": 607,
-  "Name": "McClure-Will",
-  "PostitTextId": 721,
-  "CreatedDate": "2007-06-27T10:30:24.7173369+02:00",
-  "SelectionId": 965,
-  "SoundEx": "natus",
-  "Source": 359,
-  "TextId": 533,
-  "UpdatedDate": "2003-01-19T10:30:24.7173369+01:00",
-  "UpdatedCount": 553,
-  "Visibility": 830,
+  "GroupIdx": 51,
+  "IncludePerson": 132,
+  "MemberCount": 394,
+  "Name": "Bartoletti, Anderson and Ledner",
+  "PostitTextId": 52,
+  "CreatedDate": "1997-03-17T14:23:47.4411323+01:00",
+  "SelectionId": 306,
+  "SoundEx": "a",
+  "Source": 98,
+  "TextId": 919,
+  "UpdatedDate": "2023-10-08T14:23:47.4411323+02:00",
+  "UpdatedCount": 41,
+  "Visibility": 640,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 658,
-  "TargetTableName": "Bruen-Wunsch",
-  "Completed": false,
-  "LeftSelectionId": 589,
-  "RightSelectionId": 577,
+  "TargetTableNumber": 360,
+  "TargetTableName": "Kirlin-Renner",
+  "Completed": true,
+  "LeftSelectionId": 645,
+  "RightSelectionId": 165,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reichert Group",
-  "ShadowProviderName": "Wolff, Schroeder and Kulas",
-  "ChartKey": "dolores",
-  "LastLoaded": "1999-11-22T10:30:24.7173369+01:00",
-  "LastLoadedBy": 513,
+  "MainProviderName": "Raynor LLC",
+  "ShadowProviderName": "Legros, Keebler and Brekke",
+  "ChartKey": "possimus",
+  "LastLoaded": "2022-06-22T14:23:47.4411323+02:00",
+  "LastLoadedBy": 961,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-01-31T10:30:24.7173369+01:00",
-  "LastMembershipChangeBy": 76,
+  "LastMembershipChange": "2007-11-06T14:23:47.4411323+01:00",
+  "LastMembershipChangeBy": 927,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "culpa",
-  "MailingsProviderName": "O'Reilly Group",
-  "DashboardTileDefinitionId": 399,
+  "MainHeading": "aperiam",
+  "MemberTabHeading": "laboriosam",
+  "MailingsProviderName": "Williamson, Altenwerth and Dickinson",
+  "DashboardTileDefinitionId": 217,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 20
     }
   }
 }

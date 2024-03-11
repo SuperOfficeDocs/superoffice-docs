@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 760,
-    "Name": "Ritchie, Lesch and Monahan",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 296
+    "HeadingId": 129,
+    "Name": "Willms, Lynch and Smith",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 272,
+    "UdListDefinitionId": 767
   },
   {
-    "HeadingId": 760,
-    "Name": "Ritchie, Lesch and Monahan",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "Rank": 58,
-    "UdListDefinitionId": 296
+    "HeadingId": 129,
+    "Name": "Willms, Lynch and Smith",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 272,
+    "UdListDefinitionId": 767
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 199,
-    "Name": "Conn, Sanford and Morar",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "Rank": 594,
-    "UdListDefinitionId": 546,
+    "HeadingId": 198,
+    "Name": "Bogisich-Quigley",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 736,
+    "UdListDefinitionId": 292,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldLength": 699
       }
     }
   }

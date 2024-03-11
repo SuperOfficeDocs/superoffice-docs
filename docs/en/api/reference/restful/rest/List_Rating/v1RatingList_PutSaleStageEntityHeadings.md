@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 715,
-    "Name": "Hartmann, Trantow and Cole",
-    "Tooltip": "eos",
+    "HeadingId": 77,
+    "Name": "Glover, Raynor and O'Hara",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 509,
-    "UdListDefinitionId": 372
+    "Rank": 168,
+    "UdListDefinitionId": 116
   },
   {
-    "HeadingId": 715,
-    "Name": "Hartmann, Trantow and Cole",
-    "Tooltip": "eos",
+    "HeadingId": 77,
+    "Name": "Glover, Raynor and O'Hara",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 509,
-    "UdListDefinitionId": 372
+    "Rank": 168,
+    "UdListDefinitionId": 116
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 302,
-    "Name": "Russel Inc and Sons",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "Rank": 839,
-    "UdListDefinitionId": 35,
+    "HeadingId": 581,
+    "Name": "Heidenreich, Leuschke and Fritsch",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 849,
+    "UdListDefinitionId": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 71
       }
     }
   }

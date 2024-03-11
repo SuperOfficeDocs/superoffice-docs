@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 102,
-  "Name": "Grady Inc and Sons",
-  "Tooltip": "sit",
-  "Rank": 715,
+  "ProjTypeId": 609,
+  "Name": "Pfeffer-Wuckert",
+  "Tooltip": "voluptatem",
+  "Rank": 231,
   "DurationUnit": "Century",
-  "ProjectDuration": 224,
+  "ProjectDuration": 420,
   "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 74,
-      "Name": "Romaguera, Corwin and Schowalter",
-      "ToolTip": "Molestiae ut eaque.",
+      "Id": 63,
+      "Name": "Stokes-Effertz",
+      "ToolTip": "Et earum est dolor.",
       "Deleted": false,
-      "Rank": 276,
-      "Type": "mollitia",
-      "ColorBlock": 122,
-      "IconHint": "perferendis",
-      "Selected": false,
-      "LastChanged": "2022-06-23T10:30:24.0725232+02:00",
+      "Rank": 183,
+      "Type": "dicta",
+      "ColorBlock": 305,
+      "IconHint": "quod",
+      "Selected": true,
+      "LastChanged": "2013-09-09T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "id",
+      "ExtraInfo": "atque",
+      "StyleHint": "minima",
       "Hidden": false,
-      "FullName": "Monique Stehr"
+      "FullName": "Prof. Eric Weimann"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 370,
-  "Name": "Cartwright-Weimann",
-  "Tooltip": "nobis",
-  "Rank": 536,
+  "ProjTypeId": 923,
+  "Name": "Schamberger Inc and Sons",
+  "Tooltip": "a",
+  "Rank": 237,
   "DurationUnit": "Century",
-  "ProjectDuration": 662,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 25,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 646,
-      "Name": "Will Group",
-      "ToolTip": "Dolores deleniti voluptas dolorem magnam omnis sit.",
-      "Deleted": false,
-      "Rank": 961,
-      "Type": "assumenda",
-      "ColorBlock": 685,
-      "IconHint": "cum",
-      "Selected": true,
-      "LastChanged": "2010-10-17T10:30:24.0725232+02:00",
+      "Id": 21,
+      "Name": "Ziemann, Zemlak and Blanda",
+      "ToolTip": "Repellendus qui provident doloribus debitis aut quam optio.",
+      "Deleted": true,
+      "Rank": 891,
+      "Type": "unde",
+      "ColorBlock": 700,
+      "IconHint": "necessitatibus",
+      "Selected": false,
+      "LastChanged": "1999-04-22T14:23:46.8942625+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "doloribus",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "odio",
       "Hidden": false,
-      "FullName": "Leon McKenzie",
+      "FullName": "Prof. Dariana Bradford Schaefer DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 984
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 209
     }
   }
 }

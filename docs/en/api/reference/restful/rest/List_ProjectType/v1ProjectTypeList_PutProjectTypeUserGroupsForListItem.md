@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Tremblay, Morissette and Bradtke",
-    "ToolTip": "Officia minus odit sunt.",
-    "Deleted": true,
-    "Rank": 977,
-    "Type": "at",
-    "ColorBlock": 712,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2000-06-12T10:30:33.1474583+02:00",
+    "Id": 359,
+    "Name": "Gorczany-Mueller",
+    "ToolTip": "Aliquid illo mollitia nisi.",
+    "Deleted": false,
+    "Rank": 467,
+    "Type": "dolore",
+    "ColorBlock": 754,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2019-09-21T14:23:56.2439493+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Sawayn LLC",
-        "ToolTip": "Iste occaecati nulla asperiores ut nostrum quam voluptatem.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "impedit",
-        "ColorBlock": 112,
-        "IconHint": "voluptas",
+        "Id": 500,
+        "Name": "Aufderhar LLC",
+        "ToolTip": "Officiis in qui voluptatem.",
+        "Deleted": true,
+        "Rank": 638,
+        "Type": "saepe",
+        "ColorBlock": 888,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2012-02-02T10:30:33.1474583+01:00",
+        "LastChanged": "2020-08-21T14:23:56.2439493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mason Bednar"
+        "ExtraInfo": "eos",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Grayson Olson"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "ut",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Ignacio Schaden"
+    "FullName": "Mr. Genoveva Brisa Fisher IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Farrell-Steuber",
-    "ToolTip": "Cum omnis deleniti vero molestiae illum dolore.",
-    "Deleted": true,
-    "Rank": 492,
-    "Type": "quae",
-    "ColorBlock": 187,
-    "IconHint": "possimus",
+    "Id": 888,
+    "Name": "Cummerata Inc and Sons",
+    "ToolTip": "Dolorem velit voluptas natus.",
+    "Deleted": false,
+    "Rank": 132,
+    "Type": "totam",
+    "ColorBlock": 889,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2014-02-17T10:30:33.1474583+01:00",
+    "LastChanged": "2021-11-12T14:23:56.2439493+01:00",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Zemlak, Franecki and Waters",
-        "ToolTip": "Ipsa sit alias culpa iste.",
-        "Deleted": false,
-        "Rank": 782,
-        "Type": "molestiae",
-        "ColorBlock": 233,
-        "IconHint": "consequuntur",
+        "Id": 66,
+        "Name": "Kuhic-Mohr",
+        "ToolTip": "Eos tempore sint aut.",
+        "Deleted": true,
+        "Rank": 594,
+        "Type": "beatae",
+        "ColorBlock": 390,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2009-12-22T10:30:33.1474583+01:00",
+        "LastChanged": "2011-04-23T14:23:56.2439493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quia",
+        "ExtraInfo": "velit",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Harold Altenwerth",
+        "FullName": "Dolores Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Edd Dooley PhD",
+    "ExtraInfo": "at",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Maria Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

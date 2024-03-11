@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 64,
-  "WorkflowStepId": 263,
-  "WorkflowId": 974,
-  "Rank": 532,
+  "WorkflowWaitForActionId": 244,
+  "WorkflowStepId": 946,
+  "WorkflowId": 769,
+  "Rank": 65,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Douglas Group",
-      "Description": "Triple-buffered context-sensitive methodology",
-      "Rank": 485,
+      "Name": "Johnson Group",
+      "Description": "Synergized uniform archive",
+      "Rank": 336,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Douglas Group",
-      "Description": "Triple-buffered context-sensitive methodology",
-      "Rank": 485,
+      "Name": "Johnson Group",
+      "Description": "Synergized uniform archive",
+      "Rank": 336,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 389,
-  "WorkflowStepId": 60,
-  "WorkflowId": 608,
-  "Rank": 878,
+  "WorkflowWaitForActionId": 637,
+  "WorkflowStepId": 674,
+  "WorkflowId": 954,
+  "Rank": 539,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Mante Inc and Sons",
-      "Description": "Distributed interactive definition",
-      "Rank": 398,
+      "Name": "Kutch Group",
+      "Description": "Polarised client-driven architecture",
+      "Rank": 552,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mante Inc and Sons",
-      "Description": "Distributed interactive definition",
-      "Rank": 398,
+      "Name": "Kutch Group",
+      "Description": "Polarised client-driven architecture",
+      "Rank": 552,
       "Restrictions": [
         {},
         {}
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 884
     }
   }
 }

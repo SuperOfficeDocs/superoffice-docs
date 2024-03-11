@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 366,
-    "Name": "Becker, Walter and Murazik",
-    "Tooltip": "quaerat",
+    "HeadingId": 782,
+    "Name": "Veum Inc and Sons",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 592,
-    "UdListDefinitionId": 780
+    "Rank": 428,
+    "UdListDefinitionId": 1000
   },
   {
-    "HeadingId": 366,
-    "Name": "Becker, Walter and Murazik",
-    "Tooltip": "quaerat",
+    "HeadingId": 782,
+    "Name": "Veum Inc and Sons",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 592,
-    "UdListDefinitionId": 780
+    "Rank": 428,
+    "UdListDefinitionId": 1000
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 4,
-    "Name": "Maggio-Herman",
-    "Tooltip": "labore",
+    "HeadingId": 392,
+    "Name": "Bailey, Stroman and Ledner",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 127,
+    "Rank": 986,
+    "UdListDefinitionId": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 366
       }
     }
   }

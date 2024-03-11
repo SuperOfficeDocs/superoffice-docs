@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=798
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=913
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 90,
-  "ERPPriceListKey": "esse",
-  "QuoteConnectionId": 182,
-  "Name": "Senger-Keebler",
-  "Description": "Diverse coherent matrices",
-  "Currency": "qui",
-  "CurrencyName": "Smitham-Bailey",
-  "ValidFrom": "2007-03-17T10:30:24.4033765+01:00",
-  "ValidTo": "2011-04-24T10:30:24.4033765+02:00",
+  "PriceListId": 401,
+  "ERPPriceListKey": "dolores",
+  "QuoteConnectionId": 612,
+  "Name": "Veum, Collins and Steuber",
+  "Description": "Decentralized object-oriented emulation",
+  "Currency": "ex",
+  "CurrencyName": "Deckow, Harris and Treutel",
+  "ValidFrom": "2022-08-15T14:23:47.222383+02:00",
+  "ValidTo": "1997-03-17T14:23:47.222383+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 205
     }
   }
 }

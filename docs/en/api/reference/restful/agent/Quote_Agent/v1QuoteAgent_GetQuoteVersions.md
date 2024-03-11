@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 609
+  "QuoteId": 77
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 390,
-    "ERPQuoteVersionKey": "ut",
-    "QuoteId": 504,
-    "Description": "Focused high-level infrastructure",
-    "Number": "874376",
+    "QuoteVersionId": 187,
+    "ERPQuoteVersionKey": "voluptatum",
+    "QuoteId": 646,
+    "Description": "Vision-oriented bifurcated methodology",
+    "Number": "1274102",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 673,
-    "SentDate": "2005-03-22T10:30:24.3877082+01:00",
-    "FollowupId": 703,
-    "ExpirationDate": "2020-09-14T10:30:24.3877082+02:00",
-    "DeliveryCountryId": 13,
+    "Reason": "embrace visionary portals",
+    "LikelyQuoteAlternativeId": 318,
+    "SentDate": "2004-05-04T14:23:47.2067575+02:00",
+    "FollowupId": 49,
+    "ExpirationDate": "2014-12-03T14:23:47.2067575+01:00",
+    "DeliveryCountryId": 672,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 796,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "cupiditate",
-    "ERPPaymentTypeKey": "quam",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "sunt",
-    "Rank": 742,
-    "ApprovedBy": 535,
-    "ApprovedText": "est",
-    "ApprovedRegisteredBy": 321,
-    "ApprovedRegisteredDate": "2007-09-13T10:30:24.3877082+02:00",
-    "ExtraField1": "eaque",
-    "ExtraField2": "magni",
-    "ExtraField3": "laborum",
-    "ExtraField4": "animi",
-    "ExtraField5": "pariatur",
-    "LastRecalculated": "2005-03-16T10:30:24.3877082+01:00",
-    "Updated": "2017-01-17T10:30:24.3877082+01:00",
-    "UpdatedAssociateId": 900,
-    "Registered": "2014-09-14T10:30:24.3877082+02:00",
-    "RegisteredAssociateId": 375,
-    "RequestAssociateId": 896,
-    "RequestComment": "in",
+    "InvoiceCountryId": 126,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "omnis",
+    "ERPPaymentTypeKey": "fugit",
+    "ERPDeliveryTermsKey": "excepturi",
+    "ERPDeliveryTypeKey": "accusantium",
+    "Rank": 628,
+    "ApprovedBy": 566,
+    "ApprovedText": "molestiae",
+    "ApprovedRegisteredBy": 390,
+    "ApprovedRegisteredDate": "2022-10-01T14:23:47.2067575+02:00",
+    "ExtraField1": "ut",
+    "ExtraField2": "officia",
+    "ExtraField3": "molestias",
+    "ExtraField4": "modi",
+    "ExtraField5": "occaecati",
+    "LastRecalculated": "1997-02-23T14:23:47.2067575+01:00",
+    "Updated": "1999-02-04T14:23:47.2067575+01:00",
+    "UpdatedAssociateId": 577,
+    "Registered": "2001-12-12T14:23:47.2067575+01:00",
+    "RegisteredAssociateId": 327,
+    "RequestAssociateId": 424,
+    "RequestComment": "numquam",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 246,
-        "ERPQuoteAlternativeKey": "debitis",
-        "QuoteVersionId": 984,
-        "Name": "Runolfsdottir-Brekke",
-        "Description": "Team-oriented real-time solution",
+        "QuoteAlternativeId": 338,
+        "ERPQuoteAlternativeKey": "voluptatem",
+        "QuoteVersionId": 764,
+        "Name": "Schultz LLC",
+        "Description": "Digitized logistical complexity",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 5205.574,
-        "ERPDiscountAmount": 16729.291999999998,
-        "DiscountPercent": 29992.379999999997,
-        "DiscountAmount": 886.922,
+        "ERPDiscountPercent": 9840.76,
+        "ERPDiscountAmount": 10859.31,
+        "DiscountPercent": 12059.632,
+        "DiscountAmount": 10821.702,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "nobis",
-        "VAT": 18330.766,
-        "EarningPercent": 8602.83,
-        "EarningAmount": 2394.3759999999997,
-        "SubTotal": 16215.315999999999,
-        "TotalPrice": 29929.7,
-        "ExtraField1": "rem",
-        "ExtraField2": "praesentium",
-        "ExtraField3": "expedita",
-        "ExtraField4": "libero",
-        "ExtraField5": "nesciunt",
+        "VATInfo": "consequatur",
+        "VAT": 27917.672,
+        "EarningPercent": 12043.962,
+        "EarningAmount": 1137.642,
+        "SubTotal": 19609.438,
+        "TotalPrice": 31126.888,
+        "ExtraField1": "ipsa",
+        "ExtraField2": "qui",
+        "ExtraField3": "perspiciatis",
+        "ExtraField4": "molestiae",
+        "ExtraField5": "animi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 543
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 230
       }
     }
   }

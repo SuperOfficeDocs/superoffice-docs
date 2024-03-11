@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Sauer Inc and Sons",
-    "ToolTip": "Saepe vero dicta blanditiis consectetur.",
+    "Id": 939,
+    "Name": "Emmerich LLC",
+    "ToolTip": "Ab expedita alias illum sunt harum veniam nobis.",
     "Deleted": false,
-    "Rank": 627,
-    "Type": "nostrum",
-    "ColorBlock": 402,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "2015-03-29T10:30:33.2568344+02:00",
+    "Rank": 769,
+    "Type": "in",
+    "ColorBlock": 666,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2000-01-19T14:23:56.3701861+01:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Baumbach, Anderson and Schmeler",
-        "ToolTip": "Dolorem veniam illum error deleniti quis quos.",
-        "Deleted": false,
-        "Rank": 552,
-        "Type": "quibusdam",
-        "ColorBlock": 181,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "2022-10-18T10:30:33.2568344+02:00",
+        "Id": 271,
+        "Name": "Macejkovic, Kuhic and Predovic",
+        "ToolTip": "Consequuntur deleniti omnis in esse.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "reiciendis",
+        "ColorBlock": 158,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2016-01-28T14:23:56.3701861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "at",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Chadrick Braun",
+        "FullName": "Ms. Freddy Edmund Rogahn II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldType": "System.String",
+            "FieldLength": 923
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Miss Weston Waters",
+    "ExtraInfo": "non",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Alba Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

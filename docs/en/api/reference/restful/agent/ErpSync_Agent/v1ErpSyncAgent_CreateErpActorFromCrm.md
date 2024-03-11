@@ -78,13 +78,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 580,
-  "CrmEntityId": 162,
+  "ConnectionId": 478,
+  "CrmEntityId": 651,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "consequatur",
-    "ErpFieldKeyValues2": "natus"
+    "ErpFieldKeyValues1": "doloremque",
+    "ErpFieldKeyValues2": "officia"
   }
 }
 ```

@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 586,
-  "Name": "Murazik, Weissnat and Keebler",
-  "Tooltip": "aut",
-  "Rank": 330,
-  "DoctmplId": 411,
-  "Header": "sed",
-  "OurRef": "aliquam",
-  "Deleted": false,
+  "SuggestedDocumentId": 548,
+  "Name": "Nikolaus, Wilderman and McLaughlin",
+  "Tooltip": "et",
+  "Rank": 882,
+  "DoctmplId": 803,
+  "Header": "et",
+  "OurRef": "voluptatum",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 654,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "eligendi",
-  "Rank": 926,
-  "DoctmplId": 638,
-  "Header": "distinctio",
-  "OurRef": "minus",
-  "Deleted": false,
+  "SuggestedDocumentId": 155,
+  "Name": "Hudson, Lang and Zboncak",
+  "Tooltip": "nihil",
+  "Rank": 61,
+  "DoctmplId": 576,
+  "Header": "ut",
+  "OurRef": "veritatis",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 438
     }
   }
 }

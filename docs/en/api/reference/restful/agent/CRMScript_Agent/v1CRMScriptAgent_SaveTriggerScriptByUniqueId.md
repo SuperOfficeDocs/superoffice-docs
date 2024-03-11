@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "molestiae",
+  "TriggerScriptUniqueId": "labore",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 936,
-  "Name": "Ritchie, Rosenbaum and Yundt",
+  "ScreenChooserId": 87,
+  "Name": "Feeney, Anderson and Hayes",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "vel",
-  "Source": "natus",
-  "Registered": "2010-09-17T10:30:23.4206552+02:00",
-  "RegisteredAssociateId": 815,
-  "Updated": "2017-12-11T10:30:23.4206552+01:00",
-  "UpdatedAssociateId": 590,
+  "Enabled": false,
+  "UniqueIdentifier": "quia",
+  "Source": "optio",
+  "Registered": "2008-11-10T14:23:46.219957+01:00",
+  "RegisteredAssociateId": 822,
+  "Updated": "1997-09-29T14:23:46.219957+02:00",
+  "UpdatedAssociateId": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 202
     }
   }
 }

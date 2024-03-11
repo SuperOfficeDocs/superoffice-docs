@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "1997-03-18T10:30:24.7329688+01:00",
+  "When": "2015-05-26T14:23:47.4567554+02:00",
   "Changes": [
     {
-      "FieldIdentifier": "possimus",
-      "ValueChangeFrom": 13178.47,
-      "ValueChangeTo": 21784.433999999997,
+      "FieldIdentifier": "accusamus",
+      "ValueChangeFrom": 5077.08,
+      "ValueChangeTo": 19537.356,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 466
         }
       }
     },
     {
-      "FieldIdentifier": "possimus",
-      "ValueChangeFrom": 13178.47,
-      "ValueChangeTo": 21784.433999999997,
+      "FieldIdentifier": "accusamus",
+      "ValueChangeFrom": 5077.08,
+      "ValueChangeTo": 19537.356,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 466
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

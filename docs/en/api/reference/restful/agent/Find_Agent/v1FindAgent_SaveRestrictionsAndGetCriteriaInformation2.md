@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dignissimos",
-  "ProviderName": "Bins, Reilly and Hegmann",
-  "StorageKey": "et",
-  "Restrictions": "sit",
-  "StaticColumns": "quia"
+  "StorageType": "et",
+  "ProviderName": "Kuvalis Group",
+  "StorageKey": "corrupti",
+  "Restrictions": "explicabo",
+  "StaticColumns": "saepe"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Deckow-Wolf",
-      "Operator": "ut",
+      "Name": "Bartell-Rutherford",
+      "Operator": "aperiam",
       "Values": [
-        "natus",
-        "corrupti"
+        "et",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "earum",
-        "nihil"
+        "dolores",
+        "cupiditate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 284,
+      "InterParenthesis": 614,
       "InterOperator": "And",
-      "UniqueHash": 499
+      "UniqueHash": 693
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Beer Inc and Sons",
-      "DisplayTooltip": "quasi",
-      "DisplayType": "quos",
-      "CanOrderBy": true,
-      "Name": "Lynch-Carroll",
+      "DisplayName": "Huels-Dibbert",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "magni",
+      "CanOrderBy": false,
+      "Name": "Wintheiser, Bogan and Borer",
       "CanRestrictBy": false,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Greenfelder, Rosenbaum and Kihn",
-      "IsVisible": true,
-      "ExtraInfo": "ea",
-      "Width": "rerum",
-      "IconHint": "magnam",
-      "HeadingIconHint": "ut"
+      "RestrictionType": "perspiciatis",
+      "RestrictionListName": "O'Reilly-Heaney",
+      "IsVisible": false,
+      "ExtraInfo": "aperiam",
+      "Width": "quod",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "ea"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Windler-Kertzmann",
-      "PrimaryKey": 996,
+      "EntityName": "Bechtelar-Raynor",
+      "PrimaryKey": 933,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "alias",
-          "LinkHint": "ipsa"
+          "DisplayValue": "qui",
+          "TooltipHint": "incidunt",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "aut",
+      "LinkHint": "architecto",
+      "StyleHint": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 260
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Murray-Nolan",
-      "Description": "Multi-lateral systemic toolset",
-      "Rank": 343,
+      "Name": "Bode, Reichert and Gislason",
+      "Description": "Front-line exuding portal",
+      "Rank": 23,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Murray-Nolan",
-      "Description": "Multi-lateral systemic toolset",
-      "Rank": 343,
+      "Name": "Bode, Reichert and Gislason",
+      "Description": "Front-line exuding portal",
+      "Rank": 23,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 105
     }
   }
 }

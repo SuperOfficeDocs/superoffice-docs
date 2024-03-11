@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Value": "suscipit",
-    "Tooltip": "deleniti",
+    "Id": 1001,
+    "Value": "odit",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldLength": 401
       }
     }
   },
   {
-    "Id": 828,
-    "Value": "suscipit",
-    "Tooltip": "deleniti",
+    "Id": 1001,
+    "Value": "odit",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldLength": 401
       }
     }
   }

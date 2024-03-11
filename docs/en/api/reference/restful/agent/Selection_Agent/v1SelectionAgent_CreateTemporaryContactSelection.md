@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust multi-state array",
-  "Postit": "dolorum",
+  "Description": "Cross-platform reciprocal concept",
+  "Postit": "debitis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 742,
-  "IncludePerson": 81,
-  "MemberCount": 50,
-  "Name": "Casper LLC",
-  "PostitTextId": 228,
-  "CreatedDate": "2009-04-11T10:30:24.5908785+02:00",
-  "SelectionId": 505,
-  "SoundEx": "quia",
-  "Source": 809,
-  "TextId": 22,
-  "UpdatedDate": "2008-08-02T10:30:24.5908785+02:00",
-  "UpdatedCount": 315,
-  "Visibility": 739,
+  "GroupIdx": 647,
+  "IncludePerson": 831,
+  "MemberCount": 397,
+  "Name": "Cruickshank LLC",
+  "PostitTextId": 673,
+  "CreatedDate": "2012-04-16T14:23:47.4098822+02:00",
+  "SelectionId": 532,
+  "SoundEx": "deserunt",
+  "Source": 888,
+  "TextId": 466,
+  "UpdatedDate": "1997-02-16T14:23:47.4098822+01:00",
+  "UpdatedCount": 808,
+  "Visibility": 944,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 973,
-  "TargetTableName": "Flatley-Hammes",
-  "Completed": true,
-  "LeftSelectionId": 177,
-  "RightSelectionId": 692,
+  "CompanyUnique": false,
+  "TargetTableNumber": 46,
+  "TargetTableName": "Ryan Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 272,
+  "RightSelectionId": 560,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reichert Inc and Sons",
-  "ShadowProviderName": "VonRueden, Hoeger and Bradtke",
-  "ChartKey": "quis",
-  "LastLoaded": "2014-01-17T10:30:24.5908785+01:00",
-  "LastLoadedBy": 224,
+  "MainProviderName": "Johnston-Schmitt",
+  "ShadowProviderName": "Hansen Inc and Sons",
+  "ChartKey": "qui",
+  "LastLoaded": "1999-12-27T14:23:47.4098822+01:00",
+  "LastLoadedBy": 99,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-09-12T10:30:24.5908785+02:00",
-  "LastMembershipChangeBy": 131,
+  "LastMembershipChange": "2023-04-16T14:23:47.4098822+02:00",
+  "LastMembershipChangeBy": 871,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iste",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Bernier LLC",
-  "DashboardTileDefinitionId": 91,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Wolf-Kuvalis",
+  "DashboardTileDefinitionId": 102,
   "VisibleFor": [
     {
-      "VisibleId": 833,
+      "VisibleId": 473,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 830
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     },
     {
-      "VisibleId": 833,
+      "VisibleId": 473,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 830
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 5
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

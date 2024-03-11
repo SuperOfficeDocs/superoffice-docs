@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "omnis",
+  "FieldLabel": "cumque",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 650,
-  "ColumnId": 342,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 609,
-  "FieldLabel": "ex",
-  "FieldLeft": 110,
-  "FieldTop": 126,
+  "UDefFieldId": 344,
+  "ColumnId": 798,
+  "FieldDefault": "mollitia",
+  "FieldHeight": 127,
+  "FieldLabel": "cupiditate",
+  "FieldLeft": 922,
+  "FieldTop": 981,
   "FieldType": "Checkbox",
-  "FieldWidth": 602,
-  "FormatMask": "expedita",
-  "HideLabel": false,
+  "FieldWidth": 202,
+  "FormatMask": "sunt",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 829,
-  "LabelLeft": 715,
-  "LabelTop": 530,
-  "LabelWidth": 499,
-  "LastVersionId": 578,
-  "ListTableId": 16,
+  "LabelHeight": 527,
+  "LabelLeft": 834,
+  "LabelTop": 786,
+  "LabelWidth": 730,
+  "LastVersionId": 612,
+  "ListTableId": 345,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 917,
-  "ProgId": "occaecati",
+  "Page1LineNo": 314,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "impedit",
-  "TabOrder": 319,
-  "TextLength": 64,
-  "Tooltip": "expedita",
-  "UdefIdentity": 799,
-  "UDListDefinitionId": 204,
+  "ShortLabel": "dolorem",
+  "TabOrder": 363,
+  "TextLength": 652,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 775,
+  "UDListDefinitionId": 927,
   "Justification": "Center",
-  "Version": 804,
-  "TemplateVariableName": "Rohan Group",
+  "Version": 407,
+  "TemplateVariableName": "Reichert LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Walker-Hilll",
+  "MdoListName": "Reynolds Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

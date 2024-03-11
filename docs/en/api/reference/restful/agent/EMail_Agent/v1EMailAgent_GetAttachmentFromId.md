@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 508,
-  "AttachmentId": "est"
+  "MailItemId": 203,
+  "AttachmentId": "rem"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral non-volatile productivity",
-  "Filename": "rerum",
-  "Size": 324,
-  "Type": "rem",
-  "Encoding": "perspiciatis",
-  "Id": "voluptatem",
-  "Disposition": "nesciunt",
+  "Description": "Up-sized bifurcated standardization",
+  "Filename": "ex",
+  "Size": 805,
+  "Type": "aut",
+  "Encoding": "odit",
+  "Id": "ipsa",
+  "Disposition": "reprehenderit",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   }
 }

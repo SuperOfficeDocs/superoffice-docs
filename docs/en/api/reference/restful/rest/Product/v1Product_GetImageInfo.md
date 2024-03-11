@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 Sep 2022 10:30:32 G9T
+Last-Modified: Sat, 14 Jul 2018 14:23:55 G7T
 
 {
-  "BlobId": 305,
-  "BlobSize": 661,
-  "Description": "Balanced secondary toolset",
-  "ExtraInfo": "similique",
-  "IsEncrypted": false,
+  "BlobId": 677,
+  "BlobSize": 332,
+  "Description": "Sharable zero defect solution",
+  "ExtraInfo": "quae",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 138,
-  "CreatedDate": "2004-07-01T10:30:32.7175195+02:00",
-  "UpdatedDate": "2022-09-23T10:30:32.7175195+02:00",
+  "MimeType": "rerum",
+  "OriginalSize": 385,
+  "CreatedDate": "2019-10-15T14:23:55.8220807+02:00",
+  "UpdatedDate": "2018-07-14T14:23:55.8220807+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo",
+  "ConceptualType": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 379
     }
   }
 }

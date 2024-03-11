@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 495,
-  "Name": "Durgan, Berge and Kuhic",
+  "ScreenChooserId": 215,
+  "Name": "McGlynn LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ducimus",
-  "Source": "amet",
-  "Registered": "2001-09-12T10:30:23.4049883+02:00",
-  "RegisteredAssociateId": 870,
-  "Updated": "2022-12-09T10:30:23.4049883+01:00",
-  "UpdatedAssociateId": 928
+  "UniqueIdentifier": "architecto",
+  "Source": "nesciunt",
+  "Registered": "2024-02-27T14:23:46.2043319+01:00",
+  "RegisteredAssociateId": 441,
+  "Updated": "2005-06-16T14:23:46.2043319+02:00",
+  "UpdatedAssociateId": 673
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 401,
-  "Name": "Mraz-Beatty",
+  "ScreenChooserId": 482,
+  "Name": "Kertzmann Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "illo",
+  "UniqueIdentifier": "provident",
   "Source": "et",
-  "Registered": "2000-12-07T10:30:23.4049883+01:00",
-  "RegisteredAssociateId": 441,
-  "Updated": "2007-05-10T10:30:23.4049883+02:00",
-  "UpdatedAssociateId": 828,
+  "Registered": "2011-06-21T14:23:46.2043319+02:00",
+  "RegisteredAssociateId": 253,
+  "Updated": "2015-01-16T14:23:46.2043319+01:00",
+  "UpdatedAssociateId": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 604
     }
   }
 }

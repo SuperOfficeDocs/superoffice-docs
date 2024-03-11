@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Wolf, VonRueden and Predovic",
+  "TaskName": "Abbott LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Sawayn, Hintz and Roberts",
-    "AssociateId": 838,
-    "DetailsTable": 436,
-    "DetailsRecord": 185,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 535,
+    "Name": "Schneider-Tillman",
+    "AssociateId": 704,
+    "DetailsTable": 100,
+    "DetailsRecord": 868,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "maxime",
-      "ParameterObject2": "doloribus"
+      "ParameterObject1": "et",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "2017-10-01T10:30:23.0982933+02:00",
-    "Created": "2015-07-05T10:30:23.0982933+02:00",
-    "StartCount": 542,
-    "DatabaseSerialNumber": "1003551",
-    "Context": "officia",
-    "Result": "in",
+    "LastStarted": "2007-10-27T14:23:45.8762101+02:00",
+    "Created": "1998-06-25T14:23:45.8762101+02:00",
+    "StartCount": 302,
+    "DatabaseSerialNumber": "1060714",
+    "Context": "earum",
+    "Result": "ducimus",
     "State": "All",
-    "Description": "Self-enabling zero defect strategy",
-    "Response": "aut",
-    "Request": "praesentium",
-    "ProgressDescription": "Re-engineered directional local area network",
-    "ProgressPercent": 610,
-    "FileName": "Kub-Koepp",
+    "Description": "Reduced actuating forecast",
+    "Response": "adipisci",
+    "Request": "perspiciatis",
+    "ProgressDescription": "Re-engineered clear-thinking database",
+    "ProgressPercent": 845,
+    "FileName": "Bergstrom, Mills and Nienow",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldLength": 39
       }
     }
   }

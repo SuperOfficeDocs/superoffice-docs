@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Sawayn-Farrell",
-  "HeadingId": 451
+  "UdListDefinitionName": "Pagac-Greenfelder",
+  "HeadingId": 846
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Yundt-Schmitt",
-    "ToolTip": "Sunt et voluptas libero molestias et odio.",
+    "Id": 53,
+    "Name": "Glover LLC",
+    "ToolTip": "Aut dolor.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "praesentium",
-    "ColorBlock": 70,
-    "IconHint": "non",
+    "Rank": 199,
+    "Type": "maxime",
+    "ColorBlock": 935,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2014-03-01T10:30:24.0100212+01:00",
+    "LastChanged": "2012-12-25T14:23:46.8462293+01:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Grant-Baumbach",
-        "ToolTip": "Tempora placeat explicabo magni dolor.",
+        "Id": 945,
+        "Name": "Tromp, Bayer and Nienow",
+        "ToolTip": "Quis adipisci commodi ut inventore.",
         "Deleted": false,
-        "Rank": 53,
-        "Type": "adipisci",
-        "ColorBlock": 241,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "2016-08-29T10:30:24.0100212+02:00",
+        "Rank": 944,
+        "Type": "deleniti",
+        "ColorBlock": 266,
+        "IconHint": "consequuntur",
+        "Selected": false,
+        "LastChanged": "2012-03-12T14:23:46.8462293+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Josefina Ledner",
+        "ExtraInfo": "et",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Carey Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "et",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Aurelia O'Connell",
+    "FullName": "Mr. Eloy Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldType": "System.Int32",
+        "FieldLength": 613
       }
     }
   }

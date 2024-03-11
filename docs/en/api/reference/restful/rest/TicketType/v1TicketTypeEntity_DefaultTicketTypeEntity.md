@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 530,
-  "Name": "Nitzsche, Koepp and Carter",
-  "Rank": 721,
-  "Tooltip": "consequatur",
-  "Icon": "incidunt",
-  "DefaultTicketStatus": 721,
+  "TicketTypeId": 690,
+  "Name": "Wyman, Beer and Altenwerth",
+  "Rank": 16,
+  "Tooltip": "dolores",
+  "Icon": "architecto",
+  "DefaultTicketStatus": 338,
   "TicketStatuses": [
-    930,
-    567
+    245,
+    855
   ],
-  "DefaultTicketPriority": 90,
+  "DefaultTicketPriority": 95,
   "TicketPriorities": [
-    551,
-    213
+    789,
+    812
   ],
-  "ReplyTemplate": 160,
+  "ReplyTemplate": 97,
   "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

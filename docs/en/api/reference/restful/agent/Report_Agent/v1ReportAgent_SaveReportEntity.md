@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 481,
+  "ReportId": 444,
   "ReportCategory": "All",
-  "Description": "Open-architected zero administration strategy",
+  "Description": "Reverse-engineered client-server matrix",
   "ReportLayout": "CalendarMonth",
-  "Name": "Klein Inc and Sons",
-  "AssociateId": 690,
-  "TemplateId": 902,
+  "Name": "Grant Inc and Sons",
+  "AssociateId": 719,
+  "TemplateId": 230,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 258,
+  "ReportId": 862,
   "ReportCategory": "All",
-  "Description": "Mandatory system-worthy capacity",
+  "Description": "Reverse-engineered context-sensitive alliance",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stark-Hessel",
-  "AssociateId": 129,
-  "TemplateId": 454,
+  "Name": "Nikolaus Inc and Sons",
+  "AssociateId": 471,
+  "TemplateId": 954,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

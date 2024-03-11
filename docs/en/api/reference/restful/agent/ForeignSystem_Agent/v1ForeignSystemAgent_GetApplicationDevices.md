@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schiller LLC"
+  "ApplicationName": "Parker Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 336,
-    "Name": "Strosin-Rolfson",
-    "CreatedDate": "2006-11-08T10:30:23.9073938+01:00",
-    "UpdatedDate": "1997-09-10T10:30:23.9073938+02:00",
-    "AssociateFullName": "Bella Ritchie",
-    "CreatedBy": "ab",
-    "UpdatedBy": "eveniet",
-    "DeviceIdentifier": "repellat",
-    "ForeignAppId": 790,
+    "ForeignDeviceId": 101,
+    "Name": "Ryan Inc and Sons",
+    "CreatedDate": "2021-11-04T14:23:46.7524806+01:00",
+    "UpdatedDate": "2003-10-03T14:23:46.7524806+02:00",
+    "AssociateFullName": "Joan Brown",
+    "CreatedBy": "consectetur",
+    "UpdatedBy": "rerum",
+    "DeviceIdentifier": "labore",
+    "ForeignAppId": 885,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

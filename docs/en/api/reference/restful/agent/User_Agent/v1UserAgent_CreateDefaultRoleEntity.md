@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 73,
-  "Name": "Gislason-Klocko",
-  "Tooltip": "architecto",
+  "RoleId": 298,
+  "Name": "DuBuque, Koss and Beahan",
+  "Tooltip": "dolor",
   "RoleType": "Anonymous",
-  "Deleted": 146,
-  "Rank": 232,
-  "Created": "2011-11-16T10:30:24.9673316+01:00",
-  "UseCategories": 500,
+  "Deleted": 147,
+  "Rank": 848,
+  "Created": "2019-02-26T14:23:47.8161253+01:00",
+  "UseCategories": 331,
   "CreatedBy": null,
-  "Updated": "2007-11-25T10:30:24.9673316+01:00",
+  "Updated": "2013-07-17T14:23:47.8161253+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

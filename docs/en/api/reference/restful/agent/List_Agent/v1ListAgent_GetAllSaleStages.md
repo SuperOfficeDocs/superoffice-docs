@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 915,
-    "Value": "laudantium",
-    "Tooltip": "voluptas",
-    "Probability": 298,
-    "Deleted": true,
-    "Rank": 80,
+    "SaleStageId": 386,
+    "Value": "ex",
+    "Tooltip": "consequatur",
+    "Probability": 160,
+    "Deleted": false,
+    "Rank": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

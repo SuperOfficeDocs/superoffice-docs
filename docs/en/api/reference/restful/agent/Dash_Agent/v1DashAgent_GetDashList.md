@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    259,
-    478
+    437,
+    757
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 804,
-    "UniqueId": "iusto",
-    "Name": "Spinka-Kub",
-    "Description": "Proactive hybrid knowledge base",
-    "AssociateId": 457,
-    "Columns": 301,
+    "DashboardId": 698,
+    "UniqueId": "rerum",
+    "Name": "Hintz-Kunde",
+    "Description": "Optional fault-tolerant time-frame",
+    "AssociateId": 776,
+    "Columns": 795,
     "Theme": null,
-    "VisibleForAll": 60,
+    "VisibleForAll": 36,
     "VisibleForAssociates": [
-      547,
-      117
+      297,
+      468
     ],
     "VisibleForGroups": [
-      504,
-      739
+      497,
+      768
     ],
-    "PinForAll": 72,
+    "PinForAll": 259,
     "PinForAssociates": [
-      800,
-      914
+      745,
+      736
     ],
     "PinForGroups": [
-      454,
-      20
+      390,
+      875
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldLength": 137
       }
     }
   }

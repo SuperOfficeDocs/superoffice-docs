@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Will LLC",
-    "Reichel-Hudson"
+    "Gutkowski, Sanford and Renner",
+    "Bogisich Group"
   ],
-  "Culture": "iusto",
-  "ActiveOnly": true
+  "Culture": "sint",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Dibbert, Abshire and Lehner",
-    "ResourceValue": "veniam",
-    "Culture": "atque",
-    "IsActive": true,
+    "ResourceName": "Murray, Oberbrunner and Sipes",
+    "ResourceValue": "ut",
+    "Culture": "consequatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   },
   {
-    "ResourceName": "Dibbert, Abshire and Lehner",
-    "ResourceValue": "veniam",
-    "Culture": "atque",
-    "IsActive": true,
+    "ResourceName": "Murray, Oberbrunner and Sipes",
+    "ResourceValue": "ut",
+    "Culture": "consequatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

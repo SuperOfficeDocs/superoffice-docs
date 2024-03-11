@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 930,
-  "Name": "Gulgowski-Grant",
-  "Description": "Monitored exuding time-frame",
-  "DefaultHeight": 240,
-  "DefaultWidth": 361,
+  "DashboardTileDefinitionId": 345,
+  "Name": "Kulas-Schaefer",
+  "Description": "Organic zero administration matrices",
+  "DefaultHeight": 953,
+  "DefaultWidth": 177,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rodriguez, Heller and Schmitt",
-  "SelectionId": 332,
+  "EntityName": "Marquardt, Dickinson and Gislason",
+  "SelectionId": 359,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "veniam",
-  "SortBy": "sequi",
-  "LayoutConfig": "cumque",
-  "SecondarySelectionId": 299,
-  "MeasureByField": "consequatur",
+  "MeasureField": "unde",
+  "SortBy": "vel",
+  "LayoutConfig": "hic",
+  "SecondarySelectionId": 965,
+  "MeasureByField": "illo",
   "Usage": "Dashboard",
-  "ProviderName": "Kling LLC"
+  "ProviderName": "Okuneva, Pfeffer and Roob"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 592,
-  "Name": "Boyer-Stracke",
-  "Description": "Assimilated upward-trending access",
-  "DefaultHeight": 207,
-  "DefaultWidth": 961,
+  "DashboardTileDefinitionId": 920,
+  "Name": "Kuhn, Friesen and Carter",
+  "Description": "Future-proofed foreground synergy",
+  "DefaultHeight": 847,
+  "DefaultWidth": 867,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mayer-Hagenes",
-  "SelectionId": 870,
+  "EntityName": "Kulas, D'Amore and Weimann",
+  "SelectionId": 727,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aspernatur",
+  "CurrencyCode": "debitis",
   "Measure": "Average",
-  "MeasureField": "non",
-  "SortBy": "est",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 821,
-  "MeasureByField": "illum",
+  "MeasureField": "id",
+  "SortBy": "quisquam",
+  "LayoutConfig": "voluptates",
+  "SecondarySelectionId": 23,
+  "MeasureByField": "quasi",
   "Usage": "Dashboard",
-  "ProviderName": "Vandervort Inc and Sons",
+  "ProviderName": "Walsh LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 607
     }
   },
   "_Links": {

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Corkery-Zemlak",
-  "Tooltip": "dolores",
+  "Id": 504,
+  "Name": "Prohaska-Schultz",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 222,
-  "Rank": 805,
+  "UdListDefinitionId": 364,
+  "Rank": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 22
     }
   }
 }

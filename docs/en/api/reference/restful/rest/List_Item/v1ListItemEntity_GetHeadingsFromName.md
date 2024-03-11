@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 178,
-    "Name": "Ortiz LLC",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 588,
-    "UdListDefinitionId": 819,
+    "HeadingId": 7,
+    "Name": "Jacobi, Aufderhar and Cummings",
+    "Tooltip": "esse",
+    "Deleted": false,
+    "Rank": 31,
+    "UdListDefinitionId": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 677
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Kovacek, Schinner and Terry",
-    "ToolTip": "Nesciunt ut eos aperiam et est recusandae.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "pariatur",
-    "ColorBlock": 662,
-    "IconHint": "omnis",
+    "Id": 574,
+    "Name": "Bogan-Bayer",
+    "ToolTip": "Nisi adipisci est dolorem iure qui blanditiis.",
+    "Deleted": false,
+    "Rank": 380,
+    "Type": "autem",
+    "ColorBlock": 548,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2017-08-23T10:30:32.9118319+02:00",
+    "LastChanged": "2015-12-11T14:23:56.0252035+01:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Mraz, Schaefer and Nolan",
-        "ToolTip": "Fugiat non accusantium enim doloribus.",
+        "Id": 453,
+        "Name": "Stark-Hackett",
+        "ToolTip": "Et sunt in sit perferendis nemo.",
         "Deleted": false,
-        "Rank": 169,
-        "Type": "aut",
-        "ColorBlock": 795,
-        "IconHint": "aut",
+        "Rank": 156,
+        "Type": "cupiditate",
+        "ColorBlock": 397,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2015-07-04T10:30:32.9118319+02:00",
+        "LastChanged": "2015-02-11T14:23:56.0252035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "quod",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ms. Angeline Francesco Runolfsson I",
+        "FullName": "Dr. Dahlia Marley Marvin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 497
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "quam",
+    "ExtraInfo": "vero",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Lurline Treutel",
+    "FullName": "Aiyana Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

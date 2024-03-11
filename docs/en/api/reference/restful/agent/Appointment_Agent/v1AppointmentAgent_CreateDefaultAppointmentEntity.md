@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-06-19T10:30:22.7533342+02:00",
-  "AppointmentId": 45,
-  "Description": "Object-based full-range hub",
-  "Title": "minus",
-  "Agenda": "non",
-  "InternalNotes": "eligendi",
-  "StartDate": "2012-08-06T10:30:22.7533342+02:00",
-  "EndDate": "1999-08-09T10:30:22.7533342+02:00",
+  "CreatedDate": "2003-12-12T14:23:45.4543322+01:00",
+  "AppointmentId": 397,
+  "Description": "Visionary methodical software",
+  "Title": "qui",
+  "Agenda": "sit",
+  "InternalNotes": "quas",
+  "StartDate": "2010-03-04T14:23:45.4543322+01:00",
+  "EndDate": "2018-04-21T14:23:45.4543322+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 542,
+  "MotherId": 373,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-11-20T10:30:22.7533342+01:00",
+  "UpdatedDate": "2022-05-19T14:23:45.4543322+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 885,
+  "ActiveLinks": 280,
   "Links": [
     {
-      "EntityName": "Lebsack, Shields and Von",
-      "Id": 406,
-      "Description": "Universal zero administration hub",
-      "ExtraInfo": "fugiat",
-      "LinkId": 981,
+      "EntityName": "Bergnaum-Koch",
+      "Id": 449,
+      "Description": "Extended system-worthy open architecture",
+      "ExtraInfo": "aut",
+      "LinkId": 569,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 159
         }
       }
     }
   ],
-  "AlarmLeadTime": "aliquid",
+  "AlarmLeadTime": "consequatur",
   "HasAlarm": false,
-  "ColorIndex": 397,
+  "ColorIndex": 829,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "atque",
-  "Location": "dolorum",
-  "RejectCounter": 378,
+  "LagTime": "consequuntur",
+  "LeadTime": "eos",
+  "Location": "sunt",
+  "RejectCounter": 15,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 648,
-      "PersonId": 767,
-      "ContactId": 317,
-      "EmailId": 294,
+      "AssociateId": 143,
+      "PersonId": 230,
+      "ContactId": 882,
+      "EmailId": 726,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "helene@abshirepaucek.co.uk",
-      "Description": "Multi-tiered executive complexity"
+      "EmailAddress": "alba@medhurstmccullough.us",
+      "Description": "Centralized modular matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-12-19T10:30:22.7533342+01:00",
+  "ActiveDate": "2011-11-04T14:23:45.4543322+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 284,
+  "PreferredTZLocation": 908,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 598,
+  "SuggestedAppointmentId": 227,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "amet",
+  "CentralserviceVideomeetId": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Althea Michale Wunsch III",
-    "SuperOffice:2": "Mrs. Reyna Sigmund Terry"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Zachary Kemmer"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "vel"
+    "CustomFields1": "enim",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2008-02-16T10:30:22.7533342+01:00",
-  "PublishTo": "2012-05-22T10:30:22.7533342+02:00",
-  "PublishFrom": "2013-10-22T10:30:22.7533342+02:00",
+  "PublishEventDate": "2023-01-01T14:23:45.4543322+01:00",
+  "PublishTo": "2012-08-29T14:23:45.4543322+02:00",
+  "PublishFrom": "2012-05-23T14:23:45.4543322+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 581,
+      "VisibleId": 167,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 914
         }
       }
     },
     {
-      "VisibleId": 581,
+      "VisibleId": 167,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 914
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 710
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Daugherty-McKenzie",
-  "Tooltip": "aut",
+  "Id": 990,
+  "Name": "O'Kon LLC",
+  "Tooltip": "minima",
   "Deleted": false,
-  "UdListDefinitionId": 192,
-  "Rank": 787
+  "UdListDefinitionId": 226,
+  "Rank": 651
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Lueilwitz LLC",
-  "Tooltip": "non",
+  "Id": 21,
+  "Name": "Huel-Yundt",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "UdListDefinitionId": 420,
-  "Rank": 295,
+  "UdListDefinitionId": 777,
+  "Rank": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 304
     }
   }
 }

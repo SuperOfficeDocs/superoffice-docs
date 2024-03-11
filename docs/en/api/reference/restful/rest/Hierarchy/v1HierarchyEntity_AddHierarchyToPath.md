@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 90,
+  "HierarchyId": 696,
   "Domain": "Dashboards",
-  "Name": "McCullough Group",
-  "Fullname": "in",
-  "ParentId": 415,
+  "Name": "Grant-Kohler",
+  "Fullname": "laudantium",
+  "ParentId": 5,
   "Children": [
     {
-      "HierarchyId": 320,
+      "HierarchyId": 153,
       "Domain": "Dashboards",
-      "Name": "Stark, Veum and Jaskolski",
-      "Fullname": "error",
-      "ParentId": 665,
+      "Name": "Thiel-Lueilwitz",
+      "Fullname": "itaque",
+      "ParentId": 676,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-10-03T10:30:32.0886795+02:00",
-      "RegisteredAssociateId": 312,
-      "Updated": "2001-09-13T10:30:32.0886795+02:00",
-      "UpdatedAssociateId": 44,
+      "Registered": "2004-11-13T14:23:55.195897+01:00",
+      "RegisteredAssociateId": 232,
+      "Updated": "2012-08-30T14:23:55.195897+02:00",
+      "UpdatedAssociateId": 810,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 22
         }
       }
     }
   ],
-  "Registered": "2016-12-21T10:30:32.0886795+01:00",
-  "RegisteredAssociateId": 786,
-  "Updated": "2000-12-02T10:30:32.0886795+01:00",
-  "UpdatedAssociateId": 538,
+  "Registered": "1998-07-23T14:23:55.195897+02:00",
+  "RegisteredAssociateId": 396,
+  "Updated": "2011-08-01T14:23:55.195897+02:00",
+  "UpdatedAssociateId": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 885
     }
   }
 }

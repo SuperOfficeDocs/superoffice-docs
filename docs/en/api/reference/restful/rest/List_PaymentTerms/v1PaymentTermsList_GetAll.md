@@ -25,7 +25,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Kovacek Inc and Sons",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 153,
-    "Rank": 564,
+    "Id": 498,
+    "Name": "Crist, Greenholt and Dach",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 894,
+    "Rank": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 246
       }
     }
   }

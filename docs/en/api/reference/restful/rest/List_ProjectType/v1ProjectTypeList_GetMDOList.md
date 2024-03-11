@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=dolor
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=quos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Veum-Cronin",
-    "ToolTip": "Et laudantium similique.",
+    "Id": 295,
+    "Name": "White LLC",
+    "ToolTip": "Velit rem commodi.",
     "Deleted": false,
-    "Rank": 101,
-    "Type": "dolor",
+    "Rank": 833,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Kovacek, Koepp and Tromp",
-        "ToolTip": "Ut quod.",
+        "Id": 946,
+        "Name": "Schumm-Cormier",
+        "ToolTip": "Omnis nostrum esse.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "quia",
+        "Rank": 895,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ratione",
-        "ColorBlock": 571,
-        "ExtraInfo": "sunt",
-        "StyleHint": "illum",
-        "FullName": "Thurman Christiansen",
+        "IconHint": "aliquam",
+        "ColorBlock": 508,
+        "ExtraInfo": "id",
+        "StyleHint": "eum",
+        "FullName": "Dulce Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 584,
-    "ExtraInfo": "beatae",
-    "StyleHint": "hic",
-    "FullName": "Carolanne Keebler",
+    "IconHint": "quis",
+    "ColorBlock": 366,
+    "ExtraInfo": "quo",
+    "StyleHint": "dolorem",
+    "FullName": "Wilfrid Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldLength": 178
       }
     }
   }

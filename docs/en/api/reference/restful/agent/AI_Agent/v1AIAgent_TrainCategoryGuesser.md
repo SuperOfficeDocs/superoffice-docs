@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 986,
-  "MaxItems": 783,
-  "MaxTextLength": 43
+  "SelectionId": 379,
+  "MaxItems": 932,
+  "MaxTextLength": 807
 }
 ```
 

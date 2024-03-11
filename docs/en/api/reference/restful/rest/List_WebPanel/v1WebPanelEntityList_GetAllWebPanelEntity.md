@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 948,
-    "Name": "Grady, Pagac and Yundt",
-    "Tooltip": "dolores",
+    "WebPanelId": 836,
+    "Name": "Hagenes Group",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 203,
+    "Rank": 693,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": true,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "O'Kon Inc and Sons",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Kuvalis LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 300,
+    "ProgId": "et",
+    "Icon": 875,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 666
       }
     }
   }

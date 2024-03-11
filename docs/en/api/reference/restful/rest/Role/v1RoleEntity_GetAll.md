@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=eveniet
-GET /api/v1/Role?$top=799
-GET /api/v1/Role?$skip=620
+GET /api/v1/Role?$entities=non
+GET /api/v1/Role?$top=845
+GET /api/v1/Role?$skip=332
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=at
+GET /api/v1/Role?$context=doloremque
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ad",
+  "odata.nextLink": "deserunt",
   "value": [
     {
-      "PrimaryKey": 2798,
+      "PrimaryKey": 880,
       "EntityName": "sale",
-      "saleId": 2798,
-      "contactId": 9176,
-      "name": "Maggio Group"
+      "saleId": 880,
+      "contactId": 2198,
+      "name": "Hermann, Lang and Hackett"
     },
     {
-      "PrimaryKey": 8420,
+      "PrimaryKey": 1387,
       "EntityName": "sale",
-      "saleId": 8420,
-      "contactId": 5100,
-      "name": "Zulauf-White"
+      "saleId": 1387,
+      "contactId": 4275,
+      "name": "Koelpin, Torphy and Kohler"
     }
   ]
 }

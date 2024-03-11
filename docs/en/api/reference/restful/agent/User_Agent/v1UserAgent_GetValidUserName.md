@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 957,
+  "AssociateId": 970,
   "Type": "AnonymousAssociate",
-  "PersonId": 954,
-  "UserName": "Willms, McGlynn and Kirlin"
+  "PersonId": 942,
+  "UserName": "Feest, Cassin and West"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Howell Group"
+"Bechtelar Inc and Sons"
 ```

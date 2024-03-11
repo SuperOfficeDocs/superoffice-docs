@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Haley-Marvin",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 540,
-  "Rank": 559,
+  "Id": 4,
+  "Name": "Lemke, Abernathy and Moore",
+  "Tooltip": "id",
+  "Deleted": false,
+  "UdListDefinitionId": 240,
+  "Rank": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   }
 }

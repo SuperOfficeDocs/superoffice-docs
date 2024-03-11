@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Bosco Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 559,
-  "Rank": 750
+  "Id": 989,
+  "Name": "Wilkinson-Lesch",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 214,
+  "Rank": 823
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Bartell Group",
-  "Tooltip": "labore",
+  "Id": 502,
+  "Name": "Lynch, Bergstrom and Purdy",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 501,
-  "Rank": 51,
+  "UdListDefinitionId": 997,
+  "Rank": 291,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 125
     }
   }
 }

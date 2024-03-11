@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Schmitt-Goldner",
-  "StorageKey": "ex",
-  "PageSize": 262,
-  "PageNumber": 987,
-  "OrderBy": "et"
+  "StorageType": "culpa",
+  "ProviderName": "Wilderman-Larson",
+  "StorageKey": "soluta",
+  "PageSize": 303,
+  "PageNumber": 228,
+  "OrderBy": "aut"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Herzog, Gutkowski and Fisher",
-      "DisplayTooltip": "culpa",
-      "DisplayType": "maiores",
-      "CanOrderBy": false,
-      "Name": "Graham, Muller and Grimes",
+      "DisplayName": "Kuphal Inc and Sons",
+      "DisplayTooltip": "ipsum",
+      "DisplayType": "officiis",
+      "CanOrderBy": true,
+      "Name": "Windler-Koepp",
       "CanRestrictBy": true,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Barrows, Stracke and Rodriguez",
-      "IsVisible": false,
-      "ExtraInfo": "ab",
-      "Width": "error",
-      "IconHint": "pariatur",
-      "HeadingIconHint": "consectetur"
+      "RestrictionType": "accusamus",
+      "RestrictionListName": "Dibbert-Halvorson",
+      "IsVisible": true,
+      "ExtraInfo": "porro",
+      "Width": "quia",
+      "IconHint": "velit",
+      "HeadingIconHint": "animi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Stehr, Carroll and Reichert",
-      "PrimaryKey": 28,
+      "EntityName": "Sanford, Cronin and Klein",
+      "PrimaryKey": 341,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "sint",
-          "LinkHint": "dolorum"
+          "DisplayValue": "maxime",
+          "TooltipHint": "in",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "nam",
-      "StyleHint": "est",
+      "LinkHint": "eligendi",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 193
+          "FieldLength": 859
         }
       }
     }
   ],
-  "RowCount": 126,
+  "RowCount": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

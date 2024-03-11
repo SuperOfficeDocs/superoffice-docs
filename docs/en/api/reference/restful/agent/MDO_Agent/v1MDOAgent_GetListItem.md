@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Carter LLC",
-  "Id": 76
+  "ListName": "Williamson, Zieme and Renner",
+  "Id": 904
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Swift-Ortiz",
-  "ToolTip": "Reiciendis fuga pariatur.",
+  "Id": 387,
+  "Name": "Stark-Purdy",
+  "ToolTip": "Quisquam vitae sint similique aperiam nostrum.",
   "Deleted": false,
-  "Rank": 756,
-  "Type": "ducimus",
+  "Rank": 185,
+  "Type": "neque",
   "ChildItems": [
     {
-      "Id": 894,
-      "Name": "Beer Inc and Sons",
-      "ToolTip": "Quia quas sequi commodi voluptatibus.",
-      "Deleted": true,
-      "Rank": 871,
-      "Type": "commodi",
+      "Id": 717,
+      "Name": "Kuhn Inc and Sons",
+      "ToolTip": "Illo qui unde illum.",
+      "Deleted": false,
+      "Rank": 217,
+      "Type": "quisquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 743,
-      "ExtraInfo": "id",
-      "StyleHint": "sequi",
-      "FullName": "Mr. Greyson Collin Weber",
+      "IconHint": "cumque",
+      "ColorBlock": 749,
+      "ExtraInfo": "velit",
+      "StyleHint": "soluta",
+      "FullName": "Talia Schaefer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 731
         }
       }
     }
   ],
-  "IconHint": "sapiente",
-  "ColorBlock": 734,
-  "ExtraInfo": "illum",
-  "StyleHint": "quia",
-  "FullName": "Orion Klocko",
+  "IconHint": "sequi",
+  "ColorBlock": 474,
+  "ExtraInfo": "iste",
+  "StyleHint": "qui",
+  "FullName": "Miss Tyrell Harris I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 571,
-  "ERPProductKey": "ex",
-  "ERPPriceListKey": "et",
-  "Name": "Moen-Bailey",
-  "Description": "Persevering neutral encoding",
-  "Code": "sunt",
-  "PriceUnit": "repudiandae",
-  "QuantityUnit": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 11103.761999999999,
-  "ItemNumber": "1057944",
+  "ProductId": 510,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Gerhold, Douglas and Balistreri",
+  "Description": "Realigned 24 hour task-force",
+  "Code": "quasi",
+  "PriceUnit": "et",
+  "QuantityUnit": "vel",
+  "IsSubscription": true,
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 12181.858,
+  "ItemNumber": "340476",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "deleniti",
-  "VAT": 30039.39,
-  "VATInfo": "possimus",
-  "UnitCost": 12946.554,
-  "UnitMinimumPrice": 27406.829999999998,
-  "UnitListPrice": 22016.35,
+  "ProductFamilyKey": "tenetur",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 6907.3359999999993,
+  "VATInfo": "vitae",
+  "UnitCost": 28068.104,
+  "UnitMinimumPrice": 14629.511999999999,
+  "UnitListPrice": 4788.7519999999995,
   "InAssortment": false,
-  "Supplier": "voluptatibus",
-  "SupplierCode": "dolor",
-  "Rights": "magni",
-  "Rule": "quas",
+  "Supplier": "et",
+  "SupplierCode": "ea",
+  "Rights": "qui",
+  "Rule": "expedita",
   "ExtraInfo": [
     {
-      "Name": "Collier, Johnson and Kulas",
-      "Value": "eos",
+      "Name": "Ryan Inc and Sons",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 1001
         }
       }
     },
     {
-      "Name": "Collier, Johnson and Kulas",
-      "Value": "eos",
+      "Name": "Ryan Inc and Sons",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 1001
         }
       }
     }
   ],
-  "RawExtraInfo": "expedita",
-  "ExtraField1": "aut",
-  "ExtraField2": "laudantium",
-  "ExtraField3": "nihil",
-  "ExtraField4": "non",
-  "ExtraField5": "quaerat",
-  "InStock": 12630.02,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "impedit",
+  "ExtraField2": "vitae",
+  "ExtraField3": "ducimus",
+  "ExtraField4": "sed",
+  "ExtraField5": "enim",
+  "InStock": 7885.1439999999993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   }
 }

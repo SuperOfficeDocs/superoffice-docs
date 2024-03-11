@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 338
+  "TargetDimensionId": 782
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 160,
+    "TargetAssignmentInfoId": 826,
     "Values": [
-      114,
-      296
+      499,
+      856
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 545,
-    "DimensionListItemDisplayName": "Jaskolski-Moore",
+    "DimensionListItem": 386,
+    "DimensionListItemDisplayName": "Schneider-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 922
       }
     }
   }

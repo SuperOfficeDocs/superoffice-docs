@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Feest-Davis",
-  "Description": "Assimilated next generation model",
-  "IncludeId": "repellendus",
-  "Source": "non",
-  "Registered": "2000-02-14T10:30:32.7488178+01:00",
-  "RegisteredBy": "aperiam",
-  "Updated": "1996-12-02T10:30:32.7488178+01:00",
-  "UpdatedBy": "alias",
-  "Path": "nulla"
+  "UniqueIdentifier": "aut",
+  "Name": "Bernhard-Yundt",
+  "Description": "Digitized content-based standardization",
+  "IncludeId": "nostrum",
+  "Source": "consequuntur",
+  "Registered": "2020-05-10T14:23:55.8533291+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2014-05-25T14:23:55.8533291+02:00",
+  "UpdatedBy": "temporibus",
+  "Path": "provident"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Thompson-Lubowitz",
-  "Description": "Advanced solution-oriented data-warehouse",
-  "IncludeId": "nulla",
-  "Source": "vel",
-  "Registered": "1998-11-15T10:30:32.7488178+01:00",
-  "RegisteredBy": "nihil",
-  "Updated": "2016-10-18T10:30:32.7488178+02:00",
-  "UpdatedBy": "ratione",
-  "Path": "est",
+  "UniqueIdentifier": "magnam",
+  "Name": "Collins-Schmeler",
+  "Description": "Persevering systemic standardization",
+  "IncludeId": "facere",
+  "Source": "ea",
+  "Registered": "2016-06-13T14:23:55.8533291+02:00",
+  "RegisteredBy": "tenetur",
+  "Updated": "2004-01-02T14:23:55.8533291+01:00",
+  "UpdatedBy": "accusantium",
+  "Path": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 174
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 672,
-    "ERPName": "Fahey Inc and Sons",
-    "DisplayName": "Crist, Wilkinson and Moen",
-    "DisplayDescription": "Self-enabling object-oriented budgetary management",
-    "Rank": 144,
-    "ConnectorName": "Hamill-Orn",
-    "ErpConnectionId": 431,
-    "ExtraData": "quia",
+    "QuoteConnectionId": 60,
+    "ERPName": "Deckow Group",
+    "DisplayName": "Kilback-Turner",
+    "DisplayDescription": "Up-sized web-enabled hierarchy",
+    "Rank": 498,
+    "ConnectorName": "Stiedemann, Abshire and Kuvalis",
+    "ErpConnectionId": 52,
+    "ExtraData": "ipsum",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 150,
-        "ERPPriceListKey": "quis",
-        "QuoteConnectionId": 723,
-        "Name": "Feest, Gutmann and Bode",
-        "Description": "Right-sized eco-centric model",
-        "Currency": "rem",
-        "CurrencyName": "Lubowitz, Medhurst and Jerde",
-        "ValidFrom": "1999-07-20T10:30:24.4190067+02:00",
-        "ValidTo": "2006-06-07T10:30:24.4190067+02:00",
-        "IsActive": false,
+        "PriceListId": 659,
+        "ERPPriceListKey": "porro",
+        "QuoteConnectionId": 489,
+        "Name": "Robel Inc and Sons",
+        "Description": "Team-oriented mobile forecast",
+        "Currency": "facilis",
+        "CurrencyName": "Hartmann LLC",
+        "ValidFrom": "2012-11-24T14:23:47.2380075+01:00",
+        "ValidTo": "2020-06-24T14:23:47.2380075+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 424
+            "FieldType": "System.Int32",
+            "FieldLength": 208
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      444,
-      73
+      338,
+      579
     ],
     "AssociateAccessIds": [
-      512,
-      836
+      911,
+      2
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

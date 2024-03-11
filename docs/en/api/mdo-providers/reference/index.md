@@ -417,6 +417,7 @@ so.envir: onsite, online
 | [ticketslevel](ticketslevel.md) |Ticket Security Level|
 | [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected|
 | [ticketstatustimecounter](ticketstatustimecounter.md) |Ticket status timer count values: None, Internall, Externally, Queue|
+| [ticketstatuswithoutpostpone](ticketstatuswithoutpostpone.md) ||
 | [ticketstatuswithpostpone](ticketstatuswithpostpone.md) ||
 | [ticketticketstatus](ticketticketstatus.md) |TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS|
 | [tickettype](tickettype.md) |TicketTypeProvider creates a flat list based on the table: TICKET_TYPE|

@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 374,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2007-01-12T10:30:22.56302+01:00",
-  "EndTime": "2016-09-30T10:30:22.56302+02:00",
-  "Count": 199,
+  "PersonId": 655,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2011-06-19T14:23:45.359461+02:00",
+  "EndTime": "2005-12-06T14:23:45.359461+01:00",
+  "Count": 866,
   "TaskIds": [
-    516,
-    686
+    923,
+    857
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 825,
-    "StartDate": "1997-09-11T10:30:22.56302+02:00",
-    "EndDate": "2018-11-14T10:30:22.56302+01:00",
+    "AppointmentId": 81,
+    "StartDate": "2000-06-15T14:23:45.359461+02:00",
+    "EndDate": "2022-12-07T14:23:45.359461+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolor",
-    "AssociateFullName": "Ervin Hyatt",
-    "ContactName": "Kuhlman-Rutherford",
-    "Description": "Robust grid-enabled analyzer",
-    "PersonFullName": "Miss Earl Vincent Feil III",
-    "PersonId": 988,
-    "ContactId": 121,
-    "ProjectId": 338,
-    "ProjectName": "Hartmann-West",
+    "Task": "nesciunt",
+    "AssociateFullName": "Hardy Will DDS",
+    "ContactName": "Ritchie, Steuber and Schamberger",
+    "Description": "Organized foreground system engine",
+    "PersonFullName": "Magali Treutel",
+    "PersonId": 827,
+    "ContactId": 963,
+    "ProjectId": 577,
+    "ProjectName": "Heller, Baumbach and Ferry",
     "IsPublished": false,
-    "AssociateId": 309,
-    "ColorIndex": 738,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 184,
+    "ColorIndex": 696,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 208,
-    "PriorityName": "Rogahn Inc and Sons",
+    "PriorityId": 69,
+    "PriorityName": "Wilkinson-Langosh",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2019-04-17T10:30:22.56302+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1996-12-20T14:23:45.359461+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-04-28T10:30:22.56302+02:00",
-    "RecurringEndDate": "2022-09-28T10:30:22.56302+02:00",
-    "MotherId": 177,
-    "AssignedBy": 982,
-    "AssignedByFullName": "Mohammed Prosacco",
-    "RejectReason": "architect integrated channels",
-    "Location": "et",
-    "AlarmLeadTime": "aut",
-    "SaleId": 421,
-    "SaleName": "Willms Inc and Sons",
-    "AssociateName": "Wolff LLC",
-    "CreatedDate": "2003-09-03T10:30:22.56302+02:00",
-    "CreatedBy": "ipsa",
-    "CreatedByFullName": "Lela Hayes",
-    "CreatedByAssociateId": 703,
+    "RecurringStartDate": "1999-08-31T14:23:45.359461+02:00",
+    "RecurringEndDate": "2019-02-01T14:23:45.359461+01:00",
+    "MotherId": 120,
+    "AssignedBy": 277,
+    "AssignedByFullName": "Miss Heath Althea Lockman",
+    "RejectReason": "",
+    "Location": "numquam",
+    "AlarmLeadTime": "odit",
+    "SaleId": 345,
+    "SaleName": "Maggio-Bernhard",
+    "AssociateName": "Heathcote-Dickinson",
+    "CreatedDate": "2011-02-16T14:23:45.359461+01:00",
+    "CreatedBy": "iure",
+    "CreatedByFullName": "Liza Gulgowski",
+    "CreatedByAssociateId": 242,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 486,
-    "Title": "consequuntur",
-    "Agenda": "omnis",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 274,
+    "Title": "quis",
+    "Agenda": "excepturi",
+    "InternalNotes": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 5
       }
     }
   }

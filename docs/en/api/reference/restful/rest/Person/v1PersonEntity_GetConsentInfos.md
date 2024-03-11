@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 949,
-    "Comment": "reiciendis",
-    "Registered": "2010-04-01T10:30:32.1668022+02:00",
-    "RegisteredAssociateId": 37,
-    "Updated": "2008-12-14T10:30:32.1668022+01:00",
-    "UpdatedAssociateId": 418,
-    "LegalBaseId": 474,
-    "LegalBaseKey": "similique",
-    "LegalBaseName": "Graham-Farrell",
-    "ConsentPurposeId": 471,
-    "ConsentPurposeKey": "autem",
-    "ConsentPurposeName": "Heathcote, Dooley and Rippin",
-    "ConsentSourceId": 143,
-    "ConsentSourceKey": "molestias",
-    "ConsentSourceName": "Murazik, Roob and Kuhic",
+    "ConsentPersonId": 493,
+    "Comment": "nostrum",
+    "Registered": "2019-04-16T14:23:55.2752123+02:00",
+    "RegisteredAssociateId": 400,
+    "Updated": "2016-05-26T14:23:55.2752123+02:00",
+    "UpdatedAssociateId": 653,
+    "LegalBaseId": 674,
+    "LegalBaseKey": "natus",
+    "LegalBaseName": "Ullrich, O'Hara and Mitchell",
+    "ConsentPurposeId": 852,
+    "ConsentPurposeKey": "voluptatibus",
+    "ConsentPurposeName": "Champlin, Bednar and Koch",
+    "ConsentSourceId": 159,
+    "ConsentSourceKey": "aut",
+    "ConsentSourceName": "Koelpin-Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 732
       }
     }
   }

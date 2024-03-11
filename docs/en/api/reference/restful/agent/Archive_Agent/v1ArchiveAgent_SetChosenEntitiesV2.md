@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ziemann, Effertz and Dach",
-  "ProviderName": "Ritchie, Jones and Keeling",
-  "Context": "est",
-  "OwnerKeys": "modi",
+  "GuiName": "Jerde-Schiller",
+  "ProviderName": "Muller, Goodwin and Gulgowski",
+  "Context": "voluptas",
+  "OwnerKeys": "ad",
   "Entities": [
-    "ipsum",
-    "omnis"
+    "dolorem",
+    "voluptatem"
   ]
 }
 ```

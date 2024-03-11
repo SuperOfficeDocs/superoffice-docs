@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Balistreri-Rippin",
-  "Context": "nisi"
+  "TableName": "Bahringer, Kunde and Mayert",
+  "Context": "repellendus"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": true,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "distinctio",
-    "ValueType": "atque",
+    "Key": "aut",
+    "ValueType": "autem",
     "Mandatory": false,
-    "EncodedDisplayName": "Hermiston, McClure and Mills",
-    "EncodedDisplayDescription": "Managed empowering attitude",
-    "IconHint": "numquam",
+    "EncodedDisplayName": "Homenick Group",
+    "EncodedDisplayDescription": "Cross-platform zero defect functionalities",
+    "IconHint": "autem",
     "ControlInfos": [
       {
-        "Type": "reprehenderit",
-        "Label": "praesentium",
-        "Dimension": 312,
-        "ListProviderName": "Batz, McClure and Sipes",
-        "ListProviderExtraInfo": "aut",
-        "ListProviderPrimaryKeyName": "Jacobson-Hegmann",
-        "ListLeadText": "expedita",
+        "Type": "qui",
+        "Label": "architecto",
+        "Dimension": 164,
+        "ListProviderName": "Osinski, Schaden and Shanahan",
+        "ListProviderExtraInfo": "repellendus",
+        "ListProviderPrimaryKeyName": "Bergstrom-King",
+        "ListLeadText": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 193
+            "FieldType": "System.String",
+            "FieldLength": 8
           }
         }
       }
     ],
-    "EncodedDataCaption": "sit",
-    "EncodedDataCaptionDescription": "Integrated logistical middleware",
-    "CurrentOperationType": "in",
+    "EncodedDataCaption": "eaque",
+    "EncodedDataCaptionDescription": "Multi-channelled reciprocal info-mediaries",
+    "CurrentOperationType": "neque",
     "Values": [
-      "beatae",
-      "quos"
+      "quas",
+      "nam"
     ],
     "DisplayValues": [
-      "omnis",
-      "non"
+      "qui",
+      "minus"
     ],
     "OperationInfos": [
       {
-        "Key": "vitae",
-        "EncodedDisplayName": "Rogahn, Volkman and Waters",
+        "Key": "alias",
+        "EncodedDisplayName": "Lang-Barton",
         "EncodedLeadTexts": [
-          "magnam",
-          "fugiat"
+          "illum",
+          "recusandae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 352
           }
         }
       },
       {
-        "Key": "vitae",
-        "EncodedDisplayName": "Rogahn, Volkman and Waters",
+        "Key": "alias",
+        "EncodedDisplayName": "Lang-Barton",
         "EncodedLeadTexts": [
-          "magnam",
-          "fugiat"
+          "illum",
+          "recusandae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 352
           }
         }
       }

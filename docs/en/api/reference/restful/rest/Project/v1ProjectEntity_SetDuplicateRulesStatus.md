@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ullrich-Weissnat",
-    "DisplayName": "Herzog LLC",
-    "DisplayTooltip": "est",
+    "Name": "Wehner LLC",
+    "DisplayName": "Abernathy LLC",
+    "DisplayTooltip": "nesciunt",
     "IsActive": false
   },
   {
-    "Name": "Ullrich-Weissnat",
-    "DisplayName": "Herzog LLC",
-    "DisplayTooltip": "est",
+    "Name": "Wehner LLC",
+    "DisplayName": "Abernathy LLC",
+    "DisplayTooltip": "nesciunt",
     "IsActive": false
   }
 ]

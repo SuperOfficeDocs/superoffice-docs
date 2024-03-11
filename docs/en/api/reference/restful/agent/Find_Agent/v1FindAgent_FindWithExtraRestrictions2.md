@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Stracke, McClure and McCullough",
-  "StorageKey": "qui",
-  "ExtraRestrictions": "exercitationem",
-  "OrderBy": "et",
-  "DesiredColumns": "occaecati",
-  "PageSize": 99,
-  "PageNumber": 828
+  "StorageType": "consequatur",
+  "ProviderName": "Bogisich LLC",
+  "StorageKey": "quae",
+  "ExtraRestrictions": "est",
+  "OrderBy": "doloribus",
+  "DesiredColumns": "dicta",
+  "PageSize": 671,
+  "PageNumber": 591
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Halvorson LLC",
-      "DisplayTooltip": "quis",
-      "DisplayType": "quia",
+      "DisplayName": "Balistreri Group",
+      "DisplayTooltip": "provident",
+      "DisplayType": "perferendis",
       "CanOrderBy": false,
-      "Name": "Larkin, Torp and Stiedemann",
-      "CanRestrictBy": true,
-      "RestrictionType": "quam",
-      "RestrictionListName": "Conn LLC",
+      "Name": "Koch-Reichert",
+      "CanRestrictBy": false,
+      "RestrictionType": "dolores",
+      "RestrictionListName": "Schuppe-Will",
       "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "quae",
-      "IconHint": "et",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "animi",
+      "Width": "animi",
+      "IconHint": "dolores",
+      "HeadingIconHint": "illo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wisoky-Herman",
-      "PrimaryKey": 376,
+      "EntityName": "Swift-Mitchell",
+      "PrimaryKey": 487,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "id",
-          "LinkHint": "qui"
+          "DisplayValue": "delectus",
+          "TooltipHint": "a",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "quia",
+      "LinkHint": "tenetur",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldLength": 147
         }
       }
     }
   ],
-  "RowCount": 827,
+  "RowCount": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 299
     }
   }
 }

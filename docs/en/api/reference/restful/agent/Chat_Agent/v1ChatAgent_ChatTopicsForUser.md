@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 455,
-    "Name": "Marks Inc and Sons",
-    "Description": "Quality-focused analyzing implementation",
-    "WelcomeMessage": "quo",
+    "ChatTopicId": 730,
+    "Name": "Kuhn LLC",
+    "Description": "Networked even-keeled extranet",
+    "WelcomeMessage": "dolorem",
     "Language": null,
-    "LastAccept": "2002-10-02T10:30:23.2261925+02:00",
-    "SecondsPrAccept": 493,
-    "AlertRecipient": "omnis",
+    "LastAccept": "1997-07-25T14:23:46.0168337+02:00",
+    "SecondsPrAccept": 231,
+    "AlertRecipient": "amet",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "et",
+    "BadgeHeader": "quis",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "alias",
-    "WarnNewChatMinutes": 632,
-    "WarnManagerNewChatMinutes": 712,
-    "TicketEnabled": false,
+    "CustomQueueText": "qui",
+    "WarnNewChatMinutes": 910,
+    "WarnManagerNewChatMinutes": 463,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 775,
-    "WarnManagerChatMessageMinutes": 346,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 937,
-    "OfflineFormQueueLength": 238,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "aliquid",
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 718,
+    "WarnManagerChatMessageMinutes": 234,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 663,
+    "OfflineFormQueueLength": 917,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldLength": 132
       }
     }
   }

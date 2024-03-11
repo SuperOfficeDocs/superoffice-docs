@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 310,
-  "Section": "consequatur",
-  "Key": "vero",
-  "Name": "Schaden LLC",
+  "PrefDescId": 643,
+  "Section": "sequi",
+  "Key": "voluptates",
+  "Name": "Sawayn LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced impactful strategy",
-  "IsBuiltin": false,
-  "TableName": "Vandervort-Schiller",
-  "UserDefinedListId": 585,
-  "Rank": 951,
-  "SubGroup": "ea",
-  "MinLevel": 114,
-  "MaxValue": 923,
-  "MinValue": 190,
-  "RequiredLicense": "accusantium"
+  "Description": "Stand-alone client-server system engine",
+  "IsBuiltin": true,
+  "TableName": "Fahey, Schmeler and Considine",
+  "UserDefinedListId": 781,
+  "Rank": 914,
+  "SubGroup": "repudiandae",
+  "MinLevel": 529,
+  "MaxValue": 212,
+  "MinValue": 421,
+  "RequiredLicense": "tenetur"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 701,
-  "Section": "ut",
-  "Key": "aliquid",
-  "Name": "Kuhn, Witting and Schaden",
+  "PrefDescId": 713,
+  "Section": "corrupti",
+  "Key": "sunt",
+  "Name": "Bauch, Koepp and Toy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed zero administration encryption",
-  "IsBuiltin": false,
-  "TableName": "Block, Sauer and Collins",
-  "UserDefinedListId": 731,
-  "Rank": 344,
-  "SubGroup": "excepturi",
-  "MinLevel": 257,
-  "MaxValue": 863,
-  "MinValue": 560,
-  "RequiredLicense": "vel",
+  "Description": "Vision-oriented client-driven productivity",
+  "IsBuiltin": true,
+  "TableName": "Halvorson Group",
+  "UserDefinedListId": 140,
+  "Rank": 759,
+  "SubGroup": "culpa",
+  "MinLevel": 463,
+  "MaxValue": 256,
+  "MinValue": 197,
+  "RequiredLicense": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

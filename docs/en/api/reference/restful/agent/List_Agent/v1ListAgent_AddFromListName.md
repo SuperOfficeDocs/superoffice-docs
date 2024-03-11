@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kutch, Lynch and Schumm",
+  "UdListDefinitionName": "Reynolds, Rau and Hilll",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Gulgowski, Considine and Hodkiewicz",
-  "Tooltip": "odit",
+  "Id": 807,
+  "Name": "Jerde, Cummings and Hoppe",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 345,
-  "Rank": 614,
+  "UdListDefinitionId": 190,
+  "Rank": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 185
     }
   }
 }

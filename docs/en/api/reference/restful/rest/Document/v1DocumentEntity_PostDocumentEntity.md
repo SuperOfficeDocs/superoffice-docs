@@ -142,77 +142,77 @@ OK
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 528,
+  "DocumentId": 934,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "numquam",
-  "Name": "Rowe Group",
-  "OurRef": "id",
-  "YourRef": "labore",
-  "CreatedDate": "2011-02-06T10:30:31.9793045+01:00",
-  "UpdatedDate": "2021-02-05T10:30:31.9793045+01:00",
-  "Description": "Monitored system-worthy circuit",
+  "Attention": "dolor",
+  "Header": "dolorem",
+  "Name": "Walker-McLaughlin",
+  "OurRef": "tenetur",
+  "YourRef": "provident",
+  "CreatedDate": "2022-02-27T14:23:55.0865263+01:00",
+  "UpdatedDate": "2002-02-17T14:23:55.0865263+01:00",
+  "Description": "Multi-layered 3rd generation process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-07-07T10:30:31.9793045+02:00",
-  "ExternalRef": "velit",
+  "Date": "2013-03-02T14:23:55.0865263+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 826,
+  "ActiveLinks": 739,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sauer-Shanahan",
-      "Id": 230,
-      "Description": "Monitored contextually-based orchestration",
-      "ExtraInfo": "et",
-      "LinkId": 675
+      "EntityName": "Franecki, Williamson and Farrell",
+      "Id": 454,
+      "Description": "Compatible explicit pricing structure",
+      "ExtraInfo": "qui",
+      "LinkId": 945
     },
     {
-      "EntityName": "Sauer-Shanahan",
-      "Id": 230,
-      "Description": "Monitored contextually-based orchestration",
-      "ExtraInfo": "et",
-      "LinkId": 675
+      "EntityName": "Franecki, Williamson and Farrell",
+      "Id": 454,
+      "Description": "Compatible explicit pricing structure",
+      "ExtraInfo": "qui",
+      "LinkId": 945
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 615,
-  "Snum": 812,
+  "SuggestedDocumentId": 372,
+  "Snum": 178,
   "UserDefinedFields": {
-    "SuperOffice:1": "Adaline Roberts",
-    "SuperOffice:2": "1735795119"
+    "SuperOffice:1": "Sherwood Monahan",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "neque"
+    "CustomFields1": "tempore",
+    "CustomFields2": "doloribus"
   },
-  "PublishEventDate": "2023-02-10T10:30:31.9793045+01:00",
-  "PublishTo": "2020-10-21T10:30:31.9793045+02:00",
-  "PublishFrom": "2001-07-28T10:30:31.9793045+02:00",
+  "PublishEventDate": "2023-04-29T14:23:55.0865263+02:00",
+  "PublishTo": "1999-08-25T14:23:55.0865263+02:00",
+  "PublishFrom": "1998-11-06T14:23:55.0865263+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 214,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nemo"
+      "DisplayValue": "fugiat"
     },
     {
-      "VisibleId": 214,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "nemo"
+      "DisplayValue": "fugiat"
     }
   ]
 }
@@ -225,88 +225,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 402,
+  "DocumentId": 784,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "cupiditate",
-  "Name": "Bruen, Smith and Osinski",
-  "OurRef": "quasi",
-  "YourRef": "dolorum",
-  "CreatedDate": "1999-04-23T10:30:31.9949332+02:00",
-  "UpdatedDate": "2004-03-22T10:30:31.9949332+01:00",
-  "Description": "Adaptive systemic time-frame",
+  "Attention": "error",
+  "Header": "est",
+  "Name": "Tremblay, Stamm and Steuber",
+  "OurRef": "necessitatibus",
+  "YourRef": "minima",
+  "CreatedDate": "2000-04-19T14:23:55.0865263+02:00",
+  "UpdatedDate": "2006-02-20T14:23:55.0865263+01:00",
+  "Description": "Progressive user-facing open system",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-09-22T10:30:31.9949332+02:00",
-  "ExternalRef": "omnis",
+  "Date": "2023-07-21T14:23:55.1021486+02:00",
+  "ExternalRef": "rerum",
   "Completed": "Completed",
-  "ActiveLinks": 835,
+  "ActiveLinks": 63,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nader-Hessel",
-      "Id": 111,
-      "Description": "Progressive optimal matrix",
-      "ExtraInfo": "vero",
-      "LinkId": 768,
+      "EntityName": "Rogahn Inc and Sons",
+      "Id": 455,
+      "Description": "Virtual motivating archive",
+      "ExtraInfo": "corrupti",
+      "LinkId": 399,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 77
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 856,
-  "Snum": 988,
+  "SuggestedDocumentId": 976,
+  "Snum": 54,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jeffery Rohan",
-    "SuperOffice:2": "Marcus Opal Gottlieb II"
+    "SuperOffice:1": "622289498",
+    "SuperOffice:2": "1617092259"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "quas"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2002-10-20T10:30:31.9949332+02:00",
-  "PublishTo": "2004-08-25T10:30:31.9949332+02:00",
-  "PublishFrom": "2016-07-12T10:30:31.9949332+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-02-12T14:23:55.1021486+01:00",
+  "PublishTo": "2016-06-16T14:23:55.1021486+02:00",
+  "PublishFrom": "2005-10-12T14:23:55.1021486+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 461,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 232
         }
       }
     },
     {
-      "VisibleId": 461,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 232
         }
       }
     }
@@ -316,12 +316,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 225
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

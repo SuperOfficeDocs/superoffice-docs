@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=laudantium
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Powlowski Group",
-    "ToolTip": "Nihil ut corporis id.",
-    "Deleted": false,
-    "Rank": 179,
-    "Type": "sunt",
+    "Id": 851,
+    "Name": "Jerde Inc and Sons",
+    "ToolTip": "Ut non non ipsum placeat.",
+    "Deleted": true,
+    "Rank": 739,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Kerluke-Price",
-        "ToolTip": "Ea omnis facere in possimus et.",
-        "Deleted": true,
-        "Rank": 383,
-        "Type": "laboriosam",
+        "Id": 570,
+        "Name": "Bartell-Altenwerth",
+        "ToolTip": "Quibusdam rem nihil.",
+        "Deleted": false,
+        "Rank": 399,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 41,
-        "ExtraInfo": "occaecati",
-        "StyleHint": "est",
-        "FullName": "Mikel Dovie Wilderman IV",
+        "IconHint": "error",
+        "ColorBlock": 60,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "aliquid",
+        "FullName": "Emory Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 100
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 221,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "et",
-    "FullName": "Mrs. Keaton Padberg Sr.",
+    "IconHint": "veniam",
+    "ColorBlock": 299,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "mollitia",
+    "FullName": "Destany Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 776
       }
     }
   }

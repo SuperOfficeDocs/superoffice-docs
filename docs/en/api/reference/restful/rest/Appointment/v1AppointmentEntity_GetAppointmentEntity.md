@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 13 Sep 2018 10:30:31 G9T
+Last-Modified: Thu, 15 Jan 2015 14:23:54 G1T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-01-15T10:30:31.6343533+01:00",
-  "AppointmentId": 723,
-  "Description": "Seamless 5th generation neural-net",
-  "Title": "placeat",
-  "Agenda": "earum",
-  "InternalNotes": "totam",
-  "StartDate": "2009-06-02T10:30:31.6343533+02:00",
-  "EndDate": "2007-01-28T10:30:31.6343533+01:00",
+  "CreatedDate": "2021-11-07T14:23:54.5690204+01:00",
+  "AppointmentId": 570,
+  "Description": "Seamless attitude-oriented flexibility",
+  "Title": "voluptates",
+  "Agenda": "error",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2010-05-20T14:23:54.5690204+02:00",
+  "EndDate": "2000-01-20T14:23:54.5690204+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 87,
+  "MotherId": 853,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-09-13T10:30:31.6343533+02:00",
+  "UpdatedDate": "2015-01-15T14:23:54.5690204+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 642,
+  "ActiveLinks": 441,
   "Links": [
     {
-      "EntityName": "Fritsch-Vandervort",
-      "Id": 623,
-      "Description": "Advanced bifurcated neural-net",
-      "ExtraInfo": "delectus",
-      "LinkId": 99,
+      "EntityName": "Tromp LLC",
+      "Id": 302,
+      "Description": "Exclusive maximized knowledge base",
+      "ExtraInfo": "aliquid",
+      "LinkId": 994,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldLength": 853
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "soluta",
   "HasAlarm": false,
-  "ColorIndex": 280,
+  "ColorIndex": 312,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "blanditiis",
-  "LeadTime": "minima",
-  "Location": "nihil",
-  "RejectCounter": 521,
+  "IsAlldayEvent": false,
+  "LagTime": "sequi",
+  "LeadTime": "tempora",
+  "Location": "qui",
+  "RejectCounter": 303,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 751,
-      "PersonId": 189,
-      "ContactId": 37,
-      "EmailId": 433,
-      "SendEmail": false,
+      "AssociateId": 102,
+      "PersonId": 856,
+      "ContactId": 179,
+      "EmailId": 438,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "delta.wolf@langoshkirlin.biz",
-      "Description": "Enhanced local infrastructure"
+      "EmailAddress": "mariah@koelpin.name",
+      "Description": "Versatile scalable groupware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-09-17T10:30:31.6343533+02:00",
+  "ActiveDate": "2012-02-02T14:23:54.5690204+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 663,
+  "PreferredTZLocation": 424,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 887,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 479,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatem",
+  "CentralserviceVideomeetId": "reprehenderit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dovie Monahan",
-    "SuperOffice:2": "Isabella Parisian Sr."
+    "SuperOffice:1": "Nash Peggie Cruickshank III",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2004-06-18T10:30:31.6343533+02:00",
-  "PublishTo": "2008-12-05T10:30:31.6343533+01:00",
-  "PublishFrom": "2015-03-09T10:30:31.6343533+01:00",
+  "PublishEventDate": "2000-01-05T14:23:54.5846475+01:00",
+  "PublishTo": "2005-07-31T14:23:54.5846475+02:00",
+  "PublishFrom": "2019-12-09T14:23:54.5846475+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 776,
+      "VisibleId": 297,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 659
         }
       }
     },
     {
-      "VisibleId": 776,
+      "VisibleId": 297,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 659
         }
       }
     }
@@ -272,7 +272,7 @@ Last-Modified: Thu, 13 Sep 2018 10:30:31 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 57
     }
   },
   "_Links": {

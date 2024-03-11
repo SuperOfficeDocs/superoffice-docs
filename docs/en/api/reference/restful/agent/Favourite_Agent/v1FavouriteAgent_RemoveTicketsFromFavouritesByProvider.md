@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howe, Feeney and Gutkowski",
+  "ProviderName": "Prosacco-DuBuque",
   "Restrictions": [
     {
-      "Name": "Borer-Cruickshank",
-      "Operator": "aut",
+      "Name": "McClure-Barrows",
+      "Operator": "earum",
       "Values": [
-        "veritatis",
-        "necessitatibus"
+        "aut",
+        "quasi"
       ],
       "DisplayValues": [
-        "sit",
-        "eius"
+        "vitae",
+        "ducimus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 422,
+      "InterParenthesis": 91,
       "InterOperator": "And",
-      "UniqueHash": 698
+      "UniqueHash": 553
     }
   ],
-  "AssociateId": 447
+  "AssociateId": 739
 }
 ```
 

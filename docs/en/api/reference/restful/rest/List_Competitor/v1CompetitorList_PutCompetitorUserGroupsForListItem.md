@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Hilpert, Cummerata and Bechtelar",
-    "ToolTip": "Reprehenderit quia porro consequatur qui debitis reprehenderit nostrum.",
+    "Id": 785,
+    "Name": "Gleason-Dietrich",
+    "ToolTip": "Voluptas autem.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "dolorem",
-    "ColorBlock": 435,
-    "IconHint": "maxime",
+    "Rank": 782,
+    "Type": "recusandae",
+    "ColorBlock": 684,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2001-07-13T10:30:32.8805387+02:00",
+    "LastChanged": "2000-10-10T14:23:55.9939519+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Waelchi-Kunde",
-        "ToolTip": "Laboriosam et id quo praesentium consequatur.",
+        "Id": 406,
+        "Name": "Anderson, Schumm and Smitham",
+        "ToolTip": "Ducimus rerum ratione sed temporibus voluptas.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "magni",
-        "ColorBlock": 154,
-        "IconHint": "nihil",
+        "Rank": 230,
+        "Type": "a",
+        "ColorBlock": 686,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2015-04-30T10:30:32.8805387+02:00",
+        "LastChanged": "2012-02-04T14:23:55.9939519+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Stephen Andre Barton IV"
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Isabel Gutmann"
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "ut",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Mr. Felicita Tina Wyman Jr."
+    "FullName": "Mr. Erick Swaniawski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Goodwin LLC",
-    "ToolTip": "Repellat aut architecto.",
+    "Id": 477,
+    "Name": "Koepp, Kuvalis and King",
+    "ToolTip": "Dolore voluptatem alias.",
     "Deleted": false,
-    "Rank": 289,
-    "Type": "iure",
-    "ColorBlock": 377,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2000-03-14T10:30:32.8962093+01:00",
+    "Rank": 434,
+    "Type": "cumque",
+    "ColorBlock": 812,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2022-08-20T14:23:55.9939519+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Metz LLC",
-        "ToolTip": "Labore voluptates quia.",
+        "Id": 9,
+        "Name": "Wiegand, Mosciski and Mayer",
+        "ToolTip": "Consequatur eos omnis dolores dolores incidunt.",
         "Deleted": true,
-        "Rank": 642,
-        "Type": "repellat",
-        "ColorBlock": 388,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2005-07-04T10:30:32.8962093+02:00",
+        "Rank": 272,
+        "Type": "eos",
+        "ColorBlock": 732,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2017-08-04T14:23:55.9939519+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Ms. London Nader I",
+        "ExtraInfo": "vitae",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Kathryn Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldType": "System.String",
+            "FieldLength": 516
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "culpa",
+    "ExtraInfo": "debitis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Adrain Lorna Kiehn IV",
+    "FullName": "Mr. Nicholas Kyle Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldType": "System.String",
+        "FieldLength": 932
       }
     }
   }

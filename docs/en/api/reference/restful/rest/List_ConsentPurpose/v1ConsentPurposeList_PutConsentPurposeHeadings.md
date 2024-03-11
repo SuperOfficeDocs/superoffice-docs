@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 663,
-    "Name": "Okuneva, Daugherty and Purdy",
-    "Tooltip": "tempore",
+    "HeadingId": 75,
+    "Name": "Huel, Murazik and Smitham",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 125
+    "Rank": 675,
+    "UdListDefinitionId": 625
   },
   {
-    "HeadingId": 663,
-    "Name": "Okuneva, Daugherty and Purdy",
-    "Tooltip": "tempore",
+    "HeadingId": 75,
+    "Name": "Huel, Murazik and Smitham",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 645,
-    "UdListDefinitionId": 125
+    "Rank": 675,
+    "UdListDefinitionId": 625
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 771,
-    "Name": "Powlowski-Larkin",
-    "Tooltip": "id",
+    "HeadingId": 674,
+    "Name": "Reynolds, McKenzie and Bernier",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 246,
-    "UdListDefinitionId": 602,
+    "Rank": 831,
+    "UdListDefinitionId": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lynch Group"
+  "ApplicationName": "Doyle LLC"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 578,
-  "Name": "Kuhlman-Mueller",
-  "CreatedDate": "2004-04-04T10:30:23.9073938+02:00",
-  "UpdatedDate": "2013-04-30T10:30:23.9073938+02:00",
+  "ForeignAppId": 497,
+  "Name": "Hessel-Lynch",
+  "CreatedDate": "2003-05-29T14:23:46.7524806+02:00",
+  "UpdatedDate": "2007-03-08T14:23:46.7524806+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 520,
-      "Name": "Graham Inc and Sons",
-      "CreatedDate": "2000-09-28T10:30:23.9073938+02:00",
-      "UpdatedDate": "1999-07-03T10:30:23.9073938+02:00",
-      "AssociateFullName": "Ephraim Frami",
-      "CreatedBy": "et",
-      "UpdatedBy": "ipsum",
-      "DeviceIdentifier": "reprehenderit",
-      "ForeignAppId": 729,
+      "ForeignDeviceId": 733,
+      "Name": "Goldner, McKenzie and Rice",
+      "CreatedDate": "2022-05-04T14:23:46.7524806+02:00",
+      "UpdatedDate": "2019-09-22T14:23:46.7524806+02:00",
+      "AssociateFullName": "Mr. Arvel Kshlerin",
+      "CreatedBy": "sit",
+      "UpdatedBy": "magnam",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 903,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 456
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

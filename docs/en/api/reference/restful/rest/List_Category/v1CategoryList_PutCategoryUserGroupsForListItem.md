@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Little-Hegmann",
-    "ToolTip": "Ut consequatur quisquam labore.",
-    "Deleted": false,
-    "Rank": 209,
-    "Type": "excepturi",
-    "ColorBlock": 760,
-    "IconHint": "et",
+    "Id": 822,
+    "Name": "Aufderhar LLC",
+    "ToolTip": "Eligendi quae autem modi.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "sint",
+    "ColorBlock": 290,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2023-08-03T10:30:32.8805387+02:00",
+    "LastChanged": "2008-01-26T14:23:55.9783277+01:00",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Mosciski Group",
-        "ToolTip": "Et voluptatem pariatur nisi nesciunt pariatur rerum.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "autem",
-        "ColorBlock": 893,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2009-11-03T10:30:32.8805387+01:00",
+        "Id": 372,
+        "Name": "Schmeler-Beer",
+        "ToolTip": "Dolores labore quia at velit.",
+        "Deleted": false,
+        "Rank": 405,
+        "Type": "et",
+        "ColorBlock": 338,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2017-05-19T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "nulla",
+        "ExtraInfo": "sit",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Reinhold Jonas Nitzsche PhD"
+        "FullName": "Teagan Watsica"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "non",
+    "ExtraInfo": "ad",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Destini Frami"
+    "FullName": "Mrs. Sharon Buckridge"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Conn-Kutch",
-    "ToolTip": "Quasi dolorum hic omnis.",
+    "Id": 800,
+    "Name": "Schmidt LLC",
+    "ToolTip": "Praesentium consequatur natus.",
     "Deleted": false,
-    "Rank": 265,
-    "Type": "a",
-    "ColorBlock": 231,
-    "IconHint": "consequatur",
+    "Rank": 353,
+    "Type": "fugiat",
+    "ColorBlock": 884,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2023-07-17T10:30:32.8805387+02:00",
+    "LastChanged": "2001-02-17T14:23:55.9783277+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Bergstrom-Crist",
-        "ToolTip": "Impedit dicta pariatur corrupti ad perferendis sapiente cupiditate.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "esse",
-        "ColorBlock": 921,
-        "IconHint": "maxime",
+        "Id": 719,
+        "Name": "Bahringer Group",
+        "ToolTip": "Eum rerum officia vero qui.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "consequatur",
+        "ColorBlock": 770,
+        "IconHint": "nulla",
         "Selected": true,
-        "LastChanged": "2014-11-29T10:30:32.8805387+01:00",
+        "LastChanged": "2000-04-20T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "illum",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Dr. Efrain Mallory Rippin IV",
+        "FullName": "Yasmine Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldType": "System.String",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Mrs. Meagan Abshire",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Richard Stark I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 189
       }
     }
   }

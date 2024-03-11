@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 922,
-  "CustomerCustomerReplyTemplateId": 476,
-  "CustomerPasswordTemplateId": 818,
-  "CustomerConfirmEmailTemplateId": 70,
-  "CustomerChatLogTemplateId": 716,
-  "NewLinkTemplateId": 478,
-  "HotlistNewMessageTemplateId": 644,
-  "HotlistTicketActivatedTemplateId": 695,
-  "UserTicketAlarmTemplateId": 14,
-  "HotlistTicketTakenOverTemplateId": 578,
-  "UserActiveTicketsTemplateId": 446,
-  "UserNewMessageTemplateId": 506,
-  "UserTicketActivatedTemplateId": 247,
-  "UserNewTicketTemplateId": 260,
-  "PublishKbQuestionTemplateId": 241,
-  "PublishKbAnswerTemplateId": 460,
-  "UserTicketTakenOverTemplateId": 86,
-  "PrintTicketTemplateId": 613,
-  "WeekStatTemplateId": 954,
-  "TicketAlarmHotlistTemplateId": 646,
-  "EmailAddresses": "luella_waters@goldner.info",
+  "CustomerNewCustomerTemplateId": 56,
+  "CustomerCustomerReplyTemplateId": 339,
+  "CustomerPasswordTemplateId": 23,
+  "CustomerConfirmEmailTemplateId": 95,
+  "CustomerChatLogTemplateId": 35,
+  "NewLinkTemplateId": 170,
+  "HotlistNewMessageTemplateId": 516,
+  "HotlistTicketActivatedTemplateId": 667,
+  "UserTicketAlarmTemplateId": 835,
+  "HotlistTicketTakenOverTemplateId": 530,
+  "UserActiveTicketsTemplateId": 613,
+  "UserNewMessageTemplateId": 627,
+  "UserTicketActivatedTemplateId": 461,
+  "UserNewTicketTemplateId": 171,
+  "PublishKbQuestionTemplateId": 123,
+  "PublishKbAnswerTemplateId": 842,
+  "UserTicketTakenOverTemplateId": 316,
+  "PrintTicketTemplateId": 120,
+  "WeekStatTemplateId": 76,
+  "TicketAlarmHotlistTemplateId": 256,
+  "EmailAddresses": "hunter_daniel@breitenberg.us",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 222
     }
   }
 }

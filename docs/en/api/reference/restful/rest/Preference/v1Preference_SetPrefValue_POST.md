@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sunt",
+  "RawValue": "perferendis",
   "Specification": null,
-  "DisplayValue": "provident",
-  "DisplayTooltip": "dolorem",
+  "DisplayValue": "dolore",
+  "DisplayTooltip": "libero",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 314,
-  "PrefDescId": 527,
-  "TableName": "Langosh-O'Reilly",
-  "UserPreferenceId": 423
+  "TargetId": 654,
+  "PrefDescId": 116,
+  "TableName": "Luettgen, Zboncak and Toy",
+  "UserPreferenceId": 331
 }
 ```
 

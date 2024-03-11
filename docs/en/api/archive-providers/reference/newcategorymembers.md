@@ -57,11 +57,12 @@ Lists new CategoryMembers added through restriction.
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=title,contactCategory
+GET /api/v1/archive/NewCategoryMembers?$select=contactDepartment,title,contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

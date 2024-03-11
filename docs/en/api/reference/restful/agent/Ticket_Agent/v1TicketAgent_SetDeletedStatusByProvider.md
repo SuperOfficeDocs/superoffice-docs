@@ -75,28 +75,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler Inc and Sons",
+  "ProviderName": "Cassin Group",
   "Restrictions": [
     {
-      "Name": "Jones, Kassulke and Connelly",
-      "Operator": "praesentium",
+      "Name": "Okuneva LLC",
+      "Operator": "omnis",
       "Values": [
-        "aspernatur",
-        "voluptas"
+        "est",
+        "placeat"
       ],
       "DisplayValues": [
-        "iste",
-        "aliquid"
+        "cupiditate",
+        "architecto"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 184,
+      "InterParenthesis": 809,
       "InterOperator": "And",
-      "UniqueHash": 744
+      "UniqueHash": 765
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  189,
-  473
+  708,
+  61
 ]
 ```

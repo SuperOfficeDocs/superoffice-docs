@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 987,
-    "Name": "Zboncak LLC",
+    "QuickReplyId": 509,
+    "Name": "Blanda, Kerluke and McCullough",
     "HtmlBody": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 463
       }
     }
   },
   {
-    "QuickReplyId": 987,
-    "Name": "Zboncak LLC",
+    "QuickReplyId": 509,
+    "Name": "Blanda, Kerluke and McCullough",
     "HtmlBody": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 463
       }
     }
   }

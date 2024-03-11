@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Ferry LLC",
-  "Tooltip": "aspernatur",
+  "Id": 613,
+  "Name": "Huels-Stoltenberg",
+  "Tooltip": "debitis",
   "Deleted": true,
-  "Rank": 599,
-  "IsCustomList": false,
+  "Rank": 390,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 413
     }
   },
   "_Links": {

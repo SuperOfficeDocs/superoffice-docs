@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 769,
+  "LatestKnownEventId": 45,
   "PublishEvents": [
     {
-      "EventId": 103,
-      "EventName": "Dooley, Reinger and Medhurst",
-      "EntityType": "facere",
-      "EntityKey": 352,
-      "AssociateId": 403,
-      "AssociateName": "Hodkiewicz Inc and Sons",
-      "EventDateTime": "2017-08-01T10:30:25.076705+02:00"
+      "EventId": 643,
+      "EventName": "Wolf Inc and Sons",
+      "EntityType": "ipsum",
+      "EntityKey": 904,
+      "AssociateId": 947,
+      "AssociateName": "Marvin Inc and Sons",
+      "EventDateTime": "2005-01-13T14:23:47.9254988+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Runolfsson, Goyette and Mosciski",
-      "Value": 608
+      "Name": "Nienow-Beer",
+      "Value": 695
     },
     {
-      "Name": "Runolfsson, Goyette and Mosciski",
-      "Value": 608
+      "Name": "Nienow-Beer",
+      "Value": 695
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 291,
-    "EventName": "Kris-Pollich",
-    "EntityType": "tempore",
-    "EntityKey": 974,
-    "AssociateId": 209,
-    "AssociateName": "Fay LLC",
-    "EventDateTime": "2011-01-08T10:30:25.076705+01:00",
+    "EventId": 839,
+    "EventName": "Swift, Satterfield and Mitchell",
+    "EntityType": "accusamus",
+    "EntityKey": 281,
+    "AssociateId": 392,
+    "AssociateName": "Lubowitz-Cummerata",
+    "EventDateTime": "2000-11-29T14:23:47.9254988+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

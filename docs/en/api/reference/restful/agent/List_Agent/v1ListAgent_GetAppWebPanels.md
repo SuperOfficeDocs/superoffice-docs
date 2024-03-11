@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 499,
-    "Name": "Hane, Marquardt and Hane",
-    "Tooltip": "mollitia",
+    "WebPanelId": 339,
+    "Name": "Will LLC",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 596,
+    "Rank": 167,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": true,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Carter-Treutel",
+    "WindowName": "Gorczany-Torp",
     "Url": "http://www.example.com/",
-    "ProgId": "ipsa",
-    "Icon": 739,
+    "ProgId": "sit",
+    "Icon": 186,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 643
       }
     }
   }

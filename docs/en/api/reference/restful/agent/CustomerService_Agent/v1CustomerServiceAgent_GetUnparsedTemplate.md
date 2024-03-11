@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 894,
-  "LanguageId": 22
+  "ReplyTemplateId": 573,
+  "LanguageId": 468
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 378,
-  "PlainParsed": "mollitia",
-  "HtmlParsed": "asperiores",
+  "ReplyTemplateId": 618,
+  "PlainParsed": "quis",
+  "HtmlParsed": "sint",
   "Attachments": [
     {
-      "AttachmentId": 231,
-      "Name": "Conroy, Kassulke and Langworth",
-      "ContentType": "sint",
-      "AttSize": 359,
+      "AttachmentId": 364,
+      "Name": "Konopelski Inc and Sons",
+      "ContentType": "reprehenderit",
+      "AttSize": 382,
       "InlineImage": false,
-      "ContentId": "tenetur",
-      "AuthKey": "enim",
+      "ContentId": "necessitatibus",
+      "AuthKey": "voluptatum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
   ],
-  "Subject": "est",
+  "Subject": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 931
     }
   }
 }

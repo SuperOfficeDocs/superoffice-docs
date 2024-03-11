@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Stiedemann, McKenzie and Jacobs",
-    "ToolTip": "Doloribus cupiditate veniam aut et omnis sunt fuga.",
+    "Id": 373,
+    "Name": "Hintz Group",
+    "ToolTip": "Commodi aliquam.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "quam",
-    "ColorBlock": 648,
-    "IconHint": "est",
+    "Rank": 465,
+    "Type": "et",
+    "ColorBlock": 476,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2002-03-09T10:30:33.0849147+01:00",
+    "LastChanged": "2013-12-12T14:23:56.1814517+01:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Effertz LLC",
-        "ToolTip": "Nihil id voluptatibus.",
+        "Id": 38,
+        "Name": "Reinger-Schmeler",
+        "ToolTip": "Tempore quia aut.",
         "Deleted": false,
-        "Rank": 488,
-        "Type": "voluptas",
-        "ColorBlock": 258,
-        "IconHint": "ducimus",
+        "Rank": 183,
+        "Type": "rerum",
+        "ColorBlock": 895,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2009-12-11T10:30:33.0849147+01:00",
+        "LastChanged": "2016-11-28T14:23:56.1814517+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Antone Kunze",
+        "FullName": "Gerry Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Zachariah Orrin McLaughlin III",
+    "ExtraInfo": "vel",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Ora Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 732
       }
     }
   }

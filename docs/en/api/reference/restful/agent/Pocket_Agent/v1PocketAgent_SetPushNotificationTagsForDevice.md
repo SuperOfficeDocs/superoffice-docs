@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "et",
-  "Tags": "molestias"
+  "DeviceIdentifier": "expedita",
+  "Tags": "rerum"
 }
 ```
 

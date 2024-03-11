@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rippin, Luettgen and Buckridge",
+  "LayoutName": "Koch, Renner and Osinski",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 861,
-  "Name": "Thiel, Schmidt and Wolff",
-  "Value": "nobis",
-  "CreatedDate": "2008-02-13T10:30:23.0826686+01:00",
-  "UpdatedDate": "2017-05-13T10:30:23.0826686+02:00",
-  "CreatedBy": "alias",
-  "UpdatedBy": "saepe",
+  "AudienceLayoutId": 49,
+  "Name": "Hodkiewicz Group",
+  "Value": "optio",
+  "CreatedDate": "1998-07-25T14:23:45.8605856+02:00",
+  "UpdatedDate": "2000-05-11T14:23:45.8605856+02:00",
+  "CreatedBy": "id",
+  "UpdatedBy": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

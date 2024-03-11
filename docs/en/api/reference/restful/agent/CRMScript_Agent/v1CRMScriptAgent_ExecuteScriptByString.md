@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "voluptatem",
+  "Script": "aut",
   "Parameters": {
-    "Parameters1": "voluptas",
-    "Parameters2": "dolorem"
+    "Parameters1": "sunt",
+    "Parameters2": "provident"
   },
   "EventData": null
 }
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "debitis",
+  "Output": "officiis",
   "Parameters": {
-    "Parameters1": "molestiae",
-    "Parameters2": "est"
+    "Parameters1": "soluta",
+    "Parameters2": "quia"
   },
   "TraceRun": null,
   "Eventdata": null,
-  "Success": true,
+  "Success": false,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

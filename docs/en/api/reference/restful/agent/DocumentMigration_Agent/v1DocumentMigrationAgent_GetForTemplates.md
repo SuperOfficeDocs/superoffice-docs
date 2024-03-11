@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDocumentPluginId": 906,
-  "IncludeEmails": true
+  "TargetDocumentPluginId": 800,
+  "IncludeEmails": false
 }
 ```
 
@@ -92,11 +92,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 656,
-  "NumTemplatesAlreadyMigrated": 71,
+  "NumTemplatesOmitted": 440,
+  "NumTemplatesAlreadyMigrated": 705,
   "TemplateIds": [
-    258,
-    662
+    242,
+    905
   ]
 }
 ```

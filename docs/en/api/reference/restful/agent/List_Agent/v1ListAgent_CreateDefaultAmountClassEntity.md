@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 381,
-  "Name": "Denesik-Hauck",
-  "Tooltip": "rerum",
-  "Rank": 578,
-  "AmountFrom": 6487.38,
-  "AmountTo": 18879.216,
+  "AmountClassId": 218,
+  "Name": "Goldner, Lowe and Johnson",
+  "Tooltip": "ipsa",
+  "Rank": 833,
+  "AmountFrom": 5754.0239999999994,
+  "AmountTo": 9978.655999999999,
   "Deleted": true,
-  "CurrencyId": 860,
+  "CurrencyId": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 701
     }
   }
 }

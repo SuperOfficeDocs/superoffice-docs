@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill Inc and Sons",
-    "DisplayName": "Swaniawski LLC",
-    "DisplayTooltip": "fuga",
+    "Name": "Hartmann Inc and Sons",
+    "DisplayName": "Konopelski-Langworth",
+    "DisplayTooltip": "sint",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   },
   {
-    "Name": "Pfannerstill Inc and Sons",
-    "DisplayName": "Swaniawski LLC",
-    "DisplayTooltip": "fuga",
+    "Name": "Hartmann Inc and Sons",
+    "DisplayName": "Konopelski-Langworth",
+    "DisplayTooltip": "sint",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

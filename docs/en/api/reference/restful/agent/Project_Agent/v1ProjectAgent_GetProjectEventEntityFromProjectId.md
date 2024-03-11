@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 112
+  "ProjectId": 662
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptatem",
-  "SignOffText": "fugit",
-  "SignOnConfirmationText": "esse",
+  "SignOffConfirmationText": "voluptates",
+  "SignOffText": "cum",
+  "SignOnConfirmationText": "quidem",
   "SignOnText": "dolorem",
-  "EventDate": "2004-08-05T10:30:24.3549569+02:00",
-  "Enabled": true,
-  "CreatedDate": "2011-01-11T10:30:24.3549569+01:00",
-  "SignOff": true,
+  "EventDate": "2007-08-05T14:23:47.1755092+02:00",
+  "Enabled": false,
+  "CreatedDate": "2019-03-31T14:23:47.1755092+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 5,
+  "SignOffTaskId": 162,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 336,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2000-07-29T10:30:24.3549569+02:00",
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 156,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2012-07-28T14:23:47.1755092+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 396,
-  "Id": 70,
-  "PublishFrom": "2002-03-08T10:30:24.3549569+01:00",
+  "ProjectId": 282,
+  "Id": 565,
+  "PublishFrom": "2020-04-27T14:23:47.1755092+02:00",
   "PublishType": "External",
-  "PublishTo": "2008-03-22T10:30:24.3549569+01:00",
+  "PublishTo": "2009-12-31T14:23:47.1755092+01:00",
   "VisibleForCategories": [
     {
-      "Id": 415,
-      "Name": "Berge LLC",
-      "ToolTip": "Minima consequatur est.",
+      "Id": 358,
+      "Name": "Boyle-Feil",
+      "ToolTip": "Eaque rem id dolore et fugiat.",
       "Deleted": true,
-      "Rank": 428,
-      "Type": "harum",
+      "Rank": 707,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "error",
-      "ColorBlock": 586,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "cum",
-      "FullName": "Burdette Weimann",
+      "IconHint": "et",
+      "ColorBlock": 914,
+      "ExtraInfo": "eaque",
+      "StyleHint": "consequuntur",
+      "FullName": "Kory Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 701
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 463,
-      "Name": "Monahan-Volkman",
-      "ToolTip": "Enim sunt voluptatem omnis rerum et voluptatem.",
-      "Deleted": false,
-      "Rank": 26,
-      "Type": "repellat",
+      "Id": 622,
+      "Name": "Johns, Miller and Baumbach",
+      "ToolTip": "Officia saepe qui dignissimos.",
+      "Deleted": true,
+      "Rank": 508,
+      "Type": "cum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 260,
-      "ExtraInfo": "et",
-      "StyleHint": "corrupti",
-      "FullName": "Adam Casper",
+      "IconHint": "qui",
+      "ColorBlock": 560,
+      "ExtraInfo": "voluptates",
+      "StyleHint": "beatae",
+      "FullName": "Johnathan Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 367
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 313,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 912
     }
   }
 }

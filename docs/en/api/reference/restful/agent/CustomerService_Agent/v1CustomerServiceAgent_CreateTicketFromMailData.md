@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 887,
-  "Data": "ab"
+  "MailboxId": 973,
+  "Data": "exercitationem"
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 705,
-  "Title": "suscipit",
-  "OwnerName": "Wilkinson, Cummerata and Harvey",
+  "TicketId": 253,
+  "Title": "repudiandae",
+  "OwnerName": "Cummerata LLC",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Fay, Mann and Dickinson",
+  "PriorityName": "Kassulke, Casper and Dach",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Spencer-Mills",
-  "ContactName": "Pfannerstill, O'Conner and Sipes",
+  "PersonName": "Barton, Keeling and Leffler",
+  "ContactName": "Jacobson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   }
 }

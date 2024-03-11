@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "non",
+  "Id": 24,
+  "Name": "Williamson Group",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "UdListDefinitionId": 795,
-  "Rank": 894
+  "UdListDefinitionId": 425,
+  "Rank": 449
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 261,
-  "Name": "Ortiz Group",
-  "Tooltip": "accusamus",
+  "Id": 745,
+  "Name": "Reichel-Abernathy",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 664,
-  "Rank": 703,
+  "UdListDefinitionId": 792,
+  "Rank": 819,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 57
     }
   }
 }

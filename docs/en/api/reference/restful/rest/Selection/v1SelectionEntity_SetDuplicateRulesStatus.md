@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ziemann-Yost",
-    "DisplayName": "Monahan-Lehner",
-    "DisplayTooltip": "hic",
+    "Name": "Lesch Group",
+    "DisplayName": "Schinner Inc and Sons",
+    "DisplayTooltip": "ut",
     "IsActive": false
   },
   {
-    "Name": "Ziemann-Yost",
-    "DisplayName": "Monahan-Lehner",
-    "DisplayTooltip": "hic",
+    "Name": "Lesch Group",
+    "DisplayName": "Schinner Inc and Sons",
+    "DisplayTooltip": "ut",
     "IsActive": false
   }
 ]

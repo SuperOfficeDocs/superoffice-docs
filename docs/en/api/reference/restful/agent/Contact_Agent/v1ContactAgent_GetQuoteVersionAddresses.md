@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 95
+  "QuoteVersionId": 788
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 10342.199999999999,
-    "Wgs84Longitude": 25463.75,
+    "Wgs84Latitude": 16578.86,
+    "Wgs84Longitude": 16719.89,
     "LocalizedAddress": [
       [
         {
-          "Name": "Dare-Kiehn",
-          "Value": "minima",
-          "Tooltip": "blanditiis",
-          "Label": "aut",
-          "ValueLength": 359,
-          "AddressType": "et",
+          "Name": "Huels LLC",
+          "Value": "laudantium",
+          "Tooltip": "quae",
+          "Label": "magni",
+          "ValueLength": 685,
+          "AddressType": "asperiores",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 622
+              "FieldLength": 675
             }
           }
         }
       ],
       [
         {
-          "Name": "Kreiger Inc and Sons",
-          "Value": "a",
-          "Tooltip": "repellat",
-          "Label": "qui",
-          "ValueLength": 203,
-          "AddressType": "id",
+          "Name": "Harris, Abbott and Beatty",
+          "Value": "tenetur",
+          "Tooltip": "doloremque",
+          "Label": "consequatur",
+          "ValueLength": 854,
+          "AddressType": "nobis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 32
+              "FieldLength": 129
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "odit",
+    "Formatted": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 473
       }
     }
   }

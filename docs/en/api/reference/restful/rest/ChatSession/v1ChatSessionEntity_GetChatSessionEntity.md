@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 359,
-  "TopicId": 999,
+  "ChatSessionId": 864,
+  "TopicId": 661,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestiae",
-  "CustomerHost": "ut",
-  "CustomerName": "Mann, Rempel and Gorczany",
-  "CustomerEmail": "ariel@mcglynn.co.uk",
-  "CustomerPhone": "1-219-873-0657",
+  "CustomerAlias": "incidunt",
+  "CustomerHost": "autem",
+  "CustomerName": "Ziemann, Thiel and White",
+  "CustomerEmail": "edward_koepp@schneiderhirthe.us",
+  "CustomerPhone": "(501)927-0430",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hand Inc and Sons",
+  "CustomerCompanyName": "Hagenes Group",
   "Status": "Closed",
-  "FirstMessage": "eveniet",
-  "LastMessage": "libero",
-  "WhenRequested": "2019-04-10T10:30:31.7124762+02:00",
-  "WhenStarted": "2005-05-24T10:30:31.7124762+02:00",
-  "WhenEnded": "2015-07-18T10:30:31.7124762+02:00",
-  "WhenIdle": "2011-10-03T10:30:31.7124762+02:00",
-  "WhenFetched": "2001-01-18T10:30:31.7124762+01:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 703,
-  "AlertLevel": 517,
-  "Rank": 630,
+  "FirstMessage": "dolor",
+  "LastMessage": "placeat",
+  "WhenRequested": "1998-11-22T14:23:54.7721434+01:00",
+  "WhenStarted": "2023-05-16T14:23:54.7721434+02:00",
+  "WhenEnded": "2001-12-03T14:23:54.7721434+01:00",
+  "WhenIdle": "2023-11-03T14:23:54.7721434+01:00",
+  "WhenFetched": "2013-02-09T14:23:54.7721434+01:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 68,
+  "AlertLevel": 784,
+  "Rank": 963,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 55,
+  "Rating": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   },
   "_Links": {

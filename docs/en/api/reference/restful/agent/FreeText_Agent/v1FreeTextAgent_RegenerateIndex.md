@@ -109,36 +109,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Hand-Hand",
-  "AssociateId": 461,
-  "DetailsTable": 504,
-  "DetailsRecord": 750,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 632,
+  "Name": "Heathcote-Schmitt",
+  "AssociateId": 510,
+  "DetailsTable": 13,
+  "DetailsRecord": 602,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "totam",
-    "ParameterObject2": "sit"
+    "ParameterObject1": "magnam",
+    "ParameterObject2": "at"
   },
-  "LastStarted": "2023-02-25T10:30:23.9272181+01:00",
-  "Created": "2003-02-24T10:30:23.9272181+01:00",
-  "StartCount": 29,
-  "DatabaseSerialNumber": "796340",
-  "Context": "quo",
-  "Result": "velit",
+  "LastStarted": "2009-08-06T14:23:46.7681044+02:00",
+  "Created": "2000-05-13T14:23:46.7681044+02:00",
+  "StartCount": 179,
+  "DatabaseSerialNumber": "796056",
+  "Context": "rerum",
+  "Result": "veritatis",
   "State": "All",
-  "Description": "Profound needs-based encryption",
-  "Response": "et",
-  "Request": "sed",
-  "ProgressDescription": "Universal neutral functionalities",
-  "ProgressPercent": 553,
-  "FileName": "Prohaska LLC",
+  "Description": "Right-sized optimizing knowledge base",
+  "Response": "quae",
+  "Request": "architecto",
+  "ProgressDescription": "Cross-platform multimedia synergy",
+  "ProgressPercent": 459,
+  "FileName": "Beatty Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 616
     }
   }

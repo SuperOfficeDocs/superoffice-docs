@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 782,
-  "Name": "Ernser, Stark and Hettinger",
-  "Tooltip": "ipsum",
+  "Id": 395,
+  "Name": "Ortiz-Ortiz",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 838,
-  "Rank": 388,
+  "UdListDefinitionId": 413,
+  "Rank": 828,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 800
     }
   }
 }

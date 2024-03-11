@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 935,
-  "Name": "Marks Inc and Sons",
-  "Rank": 848,
-  "Tooltip": "placeat",
+  "AssociateId": 964,
+  "Name": "Johns Inc and Sons",
+  "Rank": 892,
+  "Tooltip": "fugit",
   "LicenseOwners": [
     {
-      "Name": "Schmeler Inc and Sons",
-      "Description": "Profound scalable functionalities",
+      "Name": "Thiel-Dach",
+      "Description": "Extended disintermediate standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Schmeler Inc and Sons",
-      "Description": "Profound scalable functionalities",
+      "Name": "Thiel-Dach",
+      "Description": "Extended disintermediate standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,87 +151,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "illo",
-      "Tooltip": "esse",
-      "Id": 383,
-      "Rank": 73,
-      "Deleted": false
+      "Value": "amet",
+      "Tooltip": "rerum",
+      "Id": 960,
+      "Rank": 625,
+      "Deleted": true
     },
     {
-      "Value": "illo",
-      "Tooltip": "esse",
-      "Id": 383,
-      "Rank": 73,
-      "Deleted": false
+      "Value": "amet",
+      "Tooltip": "rerum",
+      "Id": 960,
+      "Rank": 625,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2008-05-22T10:30:24.9829556+02:00",
-  "Lastlogout": "2014-12-13T10:30:24.9829556+01:00",
-  "EjUserId": 977,
-  "RequestSignature": "et",
+  "Lastlogin": "2021-01-11T14:23:47.8317514+01:00",
+  "Lastlogout": "2021-11-06T14:23:47.8317514+01:00",
+  "EjUserId": 412,
+  "RequestSignature": "tenetur",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "perferendis"
+      "Value": "maxime",
+      "DisplayValue": "in"
     },
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "perferendis"
+      "Value": "maxime",
+      "DisplayValue": "in"
     }
   ],
-  "UserName": "White Group",
+  "UserName": "Boyle-Barton",
   "TicketCategories": [
     {
-      "Id": 790,
-      "Name": "Conroy Inc and Sons",
-      "ToolTip": "Iste sit.",
-      "Deleted": false,
-      "Rank": 355,
-      "Type": "optio",
+      "Id": 213,
+      "Name": "Johnson, Beer and Armstrong",
+      "ToolTip": "Numquam et est eum nemo.",
+      "Deleted": true,
+      "Rank": 247,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "provident",
-      "ColorBlock": 445,
-      "ExtraInfo": "magnam",
-      "StyleHint": "expedita",
-      "FullName": "Mrs. Sidney Marta Stokes"
+      "IconHint": "dignissimos",
+      "ColorBlock": 754,
+      "ExtraInfo": "et",
+      "StyleHint": "quo",
+      "FullName": "Zachary Waelchi"
     }
   ],
-  "NickName": "Boyer, Stracke and Streich",
-  "WaitingForApproval": false,
+  "NickName": "Kuphal Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "est"
+    "CustomFields1": "sint",
+    "CustomFields2": "sapiente"
   },
   "PostSaveCommands": [
     {
-      "Name": "Steuber, Leuschke and Bins",
-      "DisplayName": "McLaughlin, Gulgowski and Lynch",
-      "Description": "Fundamental value-added toolset",
-      "ToolTip": "Non corrupti quos dignissimos enim.",
+      "Name": "Reichert LLC",
+      "DisplayName": "Kub, Mante and Hintz",
+      "Description": "Function-based 6th generation data-warehouse",
+      "ToolTip": "Iusto rem.",
       "Actions": "Implicit",
-      "ActionData": "voluptas"
+      "ActionData": "quidem"
     },
     {
-      "Name": "Steuber, Leuschke and Bins",
-      "DisplayName": "McLaughlin, Gulgowski and Lynch",
-      "Description": "Fundamental value-added toolset",
-      "ToolTip": "Non corrupti quos dignissimos enim.",
+      "Name": "Reichert LLC",
+      "DisplayName": "Kub, Mante and Hintz",
+      "Description": "Function-based 6th generation data-warehouse",
+      "ToolTip": "Iusto rem.",
       "Actions": "Implicit",
-      "ActionData": "voluptas"
+      "ActionData": "quidem"
     }
   ]
 }
@@ -244,14 +244,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 653,
-  "Name": "Dibbert Inc and Sons",
-  "Rank": 28,
-  "Tooltip": "maiores",
+  "AssociateId": 656,
+  "Name": "Labadie-Crist",
+  "Rank": 527,
+  "Tooltip": "nihil",
   "LicenseOwners": [
     {
-      "Name": "Murazik LLC",
-      "Description": "Sharable grid-enabled core",
+      "Name": "Klocko-Purdy",
+      "Description": "Adaptive systematic collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -264,14 +264,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 135
         }
       }
     },
     {
-      "Name": "Murazik LLC",
-      "Description": "Sharable grid-enabled core",
+      "Name": "Klocko-Purdy",
+      "Description": "Adaptive systematic collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 135
         }
       }
     }
@@ -294,110 +294,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "impedit",
-      "Id": 732,
-      "Rank": 393,
+      "Value": "ipsam",
+      "Tooltip": "maiores",
+      "Id": 518,
+      "Rank": 400,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 993
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2020-04-09T10:30:24.9829556+02:00",
-  "Lastlogout": "2021-06-17T10:30:24.9829556+02:00",
-  "EjUserId": 750,
-  "RequestSignature": "in",
+  "Lastlogin": "2014-07-06T14:23:47.8473753+02:00",
+  "Lastlogout": "2000-08-22T14:23:47.8473753+02:00",
+  "EjUserId": 39,
+  "RequestSignature": "nobis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "harum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "et",
-      "DisplayValue": "harum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
-        }
-      }
-    }
-  ],
-  "UserName": "Stamm LLC",
-  "TicketCategories": [
-    {
-      "Id": 212,
-      "Name": "Franecki Inc and Sons",
-      "ToolTip": "Quasi amet natus consequatur itaque.",
-      "Deleted": true,
-      "Rank": 968,
-      "Type": "distinctio",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "aliquid",
-      "ColorBlock": 188,
-      "ExtraInfo": "atque",
-      "StyleHint": "eos",
-      "FullName": "Judy Harvey PhD",
+      "Value": "magni",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 303
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "magni",
+      "DisplayValue": "aliquam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     }
   ],
-  "NickName": "Wintheiser Inc and Sons",
+  "UserName": "Baumbach-Jacobs",
+  "TicketCategories": [
+    {
+      "Id": 656,
+      "Name": "Romaguera LLC",
+      "ToolTip": "Sit velit nisi aliquam suscipit voluptatem.",
+      "Deleted": false,
+      "Rank": 407,
+      "Type": "et",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "a",
+      "ColorBlock": 980,
+      "ExtraInfo": "nulla",
+      "StyleHint": "repellendus",
+      "FullName": "Edyth Jewess",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 321
+        }
+      }
+    }
+  ],
+  "NickName": "Champlin Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quo"
+    "CustomFields1": "libero",
+    "CustomFields2": "harum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Quitzon Group",
-      "DisplayName": "Zieme-Barrows",
-      "Description": "Quality-focused context-sensitive protocol",
-      "ToolTip": "Impedit voluptatibus.",
+      "Name": "Luettgen-Altenwerth",
+      "DisplayName": "Schinner LLC",
+      "Description": "Total discrete strategy",
+      "ToolTip": "Ipsam aut.",
       "Actions": "Implicit",
-      "ActionData": "nulla",
+      "ActionData": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 314
+          "FieldLength": 449
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 179
     }
   }
 }

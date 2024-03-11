@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
+GET /api/v1/List/ConsentPurpose/MDOItems?query=necessitatibus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Adams-Thompson",
-    "ToolTip": "Molestiae tempore eos itaque illo dolor.",
+    "Id": 900,
+    "Name": "Schaden-Bradtke",
+    "ToolTip": "Est impedit facere consequuntur blanditiis doloremque.",
     "Deleted": false,
-    "Rank": 341,
-    "Type": "eligendi",
+    "Rank": 815,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Tillman-O'Connell",
-        "ToolTip": "Nobis sed blanditiis sed.",
-        "Deleted": true,
-        "Rank": 759,
-        "Type": "labore",
+        "Id": 842,
+        "Name": "Hermann Inc and Sons",
+        "ToolTip": "Praesentium qui autem doloremque non accusamus vero velit.",
+        "Deleted": false,
+        "Rank": 356,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 850,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quia",
-        "FullName": "Lavonne Daugherty",
+        "IconHint": "eos",
+        "ColorBlock": 613,
+        "ExtraInfo": "cumque",
+        "StyleHint": "dignissimos",
+        "FullName": "Dr. Nyah Emmanuelle Hermiston MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldLength": 297
           }
         }
       }
     ],
-    "IconHint": "architecto",
-    "ColorBlock": 500,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ducimus",
-    "FullName": "Craig Wuckert Jr.",
+    "IconHint": "exercitationem",
+    "ColorBlock": 10,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "in",
+    "FullName": "Eugenia O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 180
       }
     }
   }

@@ -30,6 +30,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:Marketing="http://www.superoffice.net/ws/crm/NetServer/Services88">
   <Marketing:ApplicationToken>1234567-1234-9876</Marketing:ApplicationToken>
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
  xmlns:Marketing="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
@@ -63,9 +65,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
     <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
     <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-    <Marketing:Registered xsi:type="xsd:dateTime">2024-02-15T09:29:06Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2024-03-07T13:22:30Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2024-02-15T09:29:06Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2024-03-07T13:22:30Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>

@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Oberbrunner, Mraz and Blick",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 388,
-  "Rank": 19
+  "Id": 63,
+  "Name": "Leuschke, Abbott and Wisozk",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "UdListDefinitionId": 652,
+  "Rank": 801
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "O'Kon-Bashirian",
-  "Tooltip": "odit",
+  "Id": 288,
+  "Name": "Rolfson-Trantow",
+  "Tooltip": "neque",
   "Deleted": false,
-  "UdListDefinitionId": 725,
-  "Rank": 841,
+  "UdListDefinitionId": 9,
+  "Rank": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

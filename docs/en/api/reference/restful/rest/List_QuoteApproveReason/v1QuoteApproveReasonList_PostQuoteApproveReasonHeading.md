@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 60,
-  "Name": "Sanford LLC",
-  "Tooltip": "doloremque",
+  "HeadingId": 224,
+  "Name": "Schimmel Inc and Sons",
+  "Tooltip": "quod",
   "Deleted": true,
-  "Rank": 645,
-  "UdListDefinitionId": 356
+  "Rank": 85,
+  "UdListDefinitionId": 266
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 913,
-  "Name": "Thiel-Ortiz",
-  "Tooltip": "id",
+  "HeadingId": 804,
+  "Name": "Jacobi-Crist",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 730,
-  "UdListDefinitionId": 601,
+  "Rank": 185,
+  "UdListDefinitionId": 924,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

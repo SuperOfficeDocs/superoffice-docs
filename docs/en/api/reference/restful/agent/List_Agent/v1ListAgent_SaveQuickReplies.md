@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 807,
-      "Name": "Predovic-Connelly",
-      "HtmlBody": "est"
+      "QuickReplyId": 556,
+      "Name": "Breitenberg Group",
+      "HtmlBody": "non"
     },
     {
-      "QuickReplyId": 807,
-      "Name": "Predovic-Connelly",
-      "HtmlBody": "est"
+      "QuickReplyId": 556,
+      "Name": "Breitenberg Group",
+      "HtmlBody": "non"
     }
   ]
 }

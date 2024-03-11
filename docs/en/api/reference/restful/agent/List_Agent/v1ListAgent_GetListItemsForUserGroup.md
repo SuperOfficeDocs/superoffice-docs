@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 945,
-  "GroupId": 820
+  "UdListDefinitionId": 850,
+  "GroupId": 440
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Schinner Group",
-    "ToolTip": "Sed voluptatibus explicabo voluptatum quia magnam aut et.",
-    "Deleted": true,
-    "Rank": 66,
-    "Type": "a",
-    "ColorBlock": 761,
-    "IconHint": "suscipit",
+    "Id": 893,
+    "Name": "Jerde-Ledner",
+    "ToolTip": "Eos dolorum.",
+    "Deleted": false,
+    "Rank": 786,
+    "Type": "nisi",
+    "ColorBlock": 448,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2010-10-16T10:30:23.9944062+02:00",
+    "LastChanged": "1998-02-20T14:23:46.8306046+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Carter, Blanda and Bernier",
-        "ToolTip": "Non et eos id nobis qui.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "saepe",
-        "ColorBlock": 578,
-        "IconHint": "nostrum",
+        "Id": 591,
+        "Name": "O'Kon LLC",
+        "ToolTip": "Saepe odio quo.",
+        "Deleted": false,
+        "Rank": 250,
+        "Type": "eos",
+        "ColorBlock": 636,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2012-11-01T10:30:23.9944062+01:00",
+        "LastChanged": "2010-11-27T14:23:46.8306046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "a",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Anne Mayert MD",
+        "FullName": "Jeromy Cremin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 736
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ut",
+    "ExtraInfo": "architecto",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Zack Schumm",
+    "FullName": "Rick Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 949
       }
     }
   }

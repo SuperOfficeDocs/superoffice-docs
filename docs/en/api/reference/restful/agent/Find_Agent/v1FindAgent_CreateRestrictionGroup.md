@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deleniti",
-  "ProviderName": "Lowe LLC",
-  "StorageKey": "sint",
-  "Context": "nostrum"
+  "StorageType": "est",
+  "ProviderName": "Schaden LLC",
+  "StorageKey": "numquam",
+  "Context": "consequuntur"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bradtke, Wehner and McLaughlin",
-  "Description": "Expanded directional analyzer",
-  "Rank": 375,
+  "Name": "Rippin, Fahey and Gulgowski",
+  "Description": "Visionary full-range capacity",
+  "Rank": 459,
   "Restrictions": [
     {
-      "Name": "Heathcote, Corkery and Dare",
-      "Operator": "ipsum",
+      "Name": "Mayer LLC",
+      "Operator": "tempora",
       "Values": [
-        "quod",
-        "sed"
+        "praesentium",
+        "a"
       ],
       "DisplayValues": [
-        "ea",
-        "animi"
+        "omnis",
+        "modi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 827,
+      "InterParenthesis": 392,
       "InterOperator": "And",
-      "UniqueHash": 523
+      "UniqueHash": 678
     }
   ]
 }

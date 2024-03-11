@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ipsum"
+  "Section": "aut"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 751,
-    "Section": "officiis",
-    "Key": "voluptas",
-    "Name": "Zemlak, Stamm and Hand",
+    "PrefDescId": 714,
+    "Section": "similique",
+    "Key": "hic",
+    "Name": "Sawayn, Lynch and Heller",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Realigned maximized circuit",
+    "Description": "Organized grid-enabled installation",
     "IsBuiltin": false,
-    "TableName": "Berge, Reichel and Krajcik",
-    "UserDefinedListId": 579,
-    "Rank": 378,
-    "SubGroup": "nostrum",
-    "MinLevel": 790,
-    "MaxValue": 693,
-    "MinValue": 369,
-    "RequiredLicense": "et",
+    "TableName": "Larson-Walsh",
+    "UserDefinedListId": 210,
+    "Rank": 164,
+    "SubGroup": "voluptates",
+    "MinLevel": 537,
+    "MaxValue": 210,
+    "MinValue": 380,
+    "RequiredLicense": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 194
       }
     }
   }

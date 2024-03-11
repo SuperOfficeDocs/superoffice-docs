@@ -8,7 +8,7 @@ title: Services88.WorkflowAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfWorkflowService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+<wsdl:definitions name="WcfWorkflowService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -80,6 +80,7 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Goals" nillable="true" type="tns:ArrayOfWorkflowGoal" />
               <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:WorkflowFilter" />
               <xs:element minOccurs="0" name="BlockLists" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ContentInfo" nillable="true" type="tns:ArrayOfWorkflowContentInfo" />
               <xs:element minOccurs="0" name="ExitFlowId" type="xs:int" />
               <xs:element minOccurs="0" name="ExitSuccessFlowId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
@@ -522,9 +523,8 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="RequestType" type="xs:int" />
               <xs:element minOccurs="0" name="Category" type="xs:int" />
               <xs:element minOccurs="0" name="Priority" type="xs:int" />
-              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="TicketStatus" type="xs:int" />
               <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Owner" type="xs:int" />
             </xs:sequence>
           </xs:extension>
@@ -1024,6 +1024,33 @@ title: Services88.WorkflowAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowFilter" nillable="true" type="tns:WorkflowFilter" />
+      <xs:complexType name="ArrayOfWorkflowContentInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowContentInfo" nillable="true" type="tns:WorkflowContentInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfWorkflowContentInfo" nillable="true" type="tns:ArrayOfWorkflowContentInfo" />
+      <xs:complexType name="WorkflowContentInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WorkflowContentType" type="tns:WorkflowContentType" />
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Actions" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowContentInfo" nillable="true" type="tns:WorkflowContentInfo" />
+      <xs:simpleType name="WorkflowContentType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Message" />
+          <xs:enumeration value="Form" />
+          <xs:enumeration value="Link" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowContentType" nillable="true" type="tns:WorkflowContentType" />
       <xs:complexType name="ArrayOfVisibleFor">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="tns:VisibleFor" />

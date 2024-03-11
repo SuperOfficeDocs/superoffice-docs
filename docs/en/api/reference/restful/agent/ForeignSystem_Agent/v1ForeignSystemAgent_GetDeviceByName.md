@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Swift-Hauck",
-  "DeviceName": "Bergstrom-Reichel"
+  "ApplicationName": "Blanda-Jakubowski",
+  "DeviceName": "Kunde LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 330,
-  "Name": "Fadel-Huel",
-  "CreatedDate": "2006-08-10T10:30:23.9073938+02:00",
-  "UpdatedDate": "2003-01-26T10:30:23.9073938+01:00",
-  "AssociateFullName": "Clara Weber",
-  "CreatedBy": "porro",
-  "UpdatedBy": "excepturi",
-  "DeviceIdentifier": "sint",
-  "ForeignAppId": 202,
+  "ForeignDeviceId": 457,
+  "Name": "Crooks-Hartmann",
+  "CreatedDate": "2024-01-10T14:23:46.7524806+01:00",
+  "UpdatedDate": "2001-11-30T14:23:46.7524806+01:00",
+  "AssociateFullName": "Madison Sanford DDS",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "quidem",
+  "DeviceIdentifier": "libero",
+  "ForeignAppId": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

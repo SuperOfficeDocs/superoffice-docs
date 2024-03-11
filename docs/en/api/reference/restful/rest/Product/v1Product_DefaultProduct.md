@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 883,
-  "ERPProductKey": "sint",
-  "ERPPriceListKey": "aperiam",
-  "Name": "Frami Group",
-  "Description": "Expanded eco-centric local area network",
-  "Code": "iste",
-  "PriceUnit": "qui",
-  "QuantityUnit": "perspiciatis",
+  "ProductId": 814,
+  "ERPProductKey": "similique",
+  "ERPPriceListKey": "beatae",
+  "Name": "Smith, Christiansen and Lowe",
+  "Description": "Total assymetric workforce",
+  "Code": "accusantium",
+  "PriceUnit": "voluptas",
+  "QuantityUnit": "molestiae",
   "IsSubscription": false,
-  "SubscriptionUnit": "repudiandae",
-  "DefaultSubscriptionQuantity": 20941.388,
-  "ItemNumber": "1059433",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 21724.888,
+  "ItemNumber": "371239",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "voluptas",
-  "VAT": 5334.068,
-  "VATInfo": "ea",
-  "UnitCost": 25448.079999999998,
-  "UnitMinimumPrice": 22668.221999999998,
-  "UnitListPrice": 12338.557999999999,
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "et",
+  "VAT": 19292.904,
+  "VATInfo": "ex",
+  "UnitCost": 10633.662,
+  "UnitMinimumPrice": 20712.606,
+  "UnitListPrice": 30333.986,
   "InAssortment": false,
-  "Supplier": "consectetur",
-  "SupplierCode": "itaque",
-  "Rights": "placeat",
-  "Rule": "est",
+  "Supplier": "iure",
+  "SupplierCode": "quis",
+  "Rights": "enim",
+  "Rule": "harum",
   "ExtraInfo": [
     {
-      "Name": "Mitchell, Heidenreich and Stiedemann",
-      "Value": "praesentium",
+      "Name": "Labadie, Blanda and Kreiger",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     },
     {
-      "Name": "Mitchell, Heidenreich and Stiedemann",
-      "Value": "praesentium",
+      "Name": "Labadie, Blanda and Kreiger",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
   ],
-  "RawExtraInfo": "ullam",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "corporis",
-  "ExtraField3": "necessitatibus",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "laboriosam",
-  "InStock": 19208.286,
+  "RawExtraInfo": "ea",
+  "ExtraField1": "odio",
+  "ExtraField2": "odit",
+  "ExtraField3": "illo",
+  "ExtraField4": "voluptatum",
+  "ExtraField5": "voluptates",
+  "InStock": 7587.414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 37
     }
   }
 }

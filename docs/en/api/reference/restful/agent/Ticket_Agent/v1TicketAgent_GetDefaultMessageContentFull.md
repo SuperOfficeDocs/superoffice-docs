@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 766,
+  "TicketId": 996,
   "MessageActionType": "Forward",
-  "TicketMessageId": 25,
-  "TicketTypeId": 725
+  "TicketMessageId": 640,
+  "TicketTypeId": 161
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "nam",
+  "Body": "animi",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 776,
-      "Name": "DuBuque, Walsh and Rice",
-      "ContentType": "ea",
-      "AttSize": 846,
+      "AttachmentId": 364,
+      "Name": "Funk, Wilderman and Murazik",
+      "ContentType": "itaque",
+      "AttSize": 34,
       "InlineImage": false,
-      "ContentId": "odio",
-      "AuthKey": "non",
+      "ContentId": "repellendus",
+      "AuthKey": "sequi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldLength": 973
         }
       }
     }

@@ -76,6 +76,7 @@ Lists all email flows
 |workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |workflowAssociate/userName|string|Owner - User name: User name| x |
 |workflowAssociate/personEmail|string|Owner - E-mail| x |
+|workflowAssociate/locationAddress|string|Owner - Location: Location| x |
 |hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |

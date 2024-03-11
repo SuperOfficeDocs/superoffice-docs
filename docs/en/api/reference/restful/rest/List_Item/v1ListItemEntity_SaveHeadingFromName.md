@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 341,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 869,
-  "UdListDefinitionId": 68
+  "HeadingId": 812,
+  "Name": "Collier Inc and Sons",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 792,
+  "UdListDefinitionId": 988
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 392,
-  "Name": "Hoeger Group",
-  "Tooltip": "consectetur",
+  "HeadingId": 774,
+  "Name": "Harber-Hills",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 193,
-  "UdListDefinitionId": 421,
+  "Rank": 371,
+  "UdListDefinitionId": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 565
     }
   }
 }

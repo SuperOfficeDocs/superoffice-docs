@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ebert, Schowalter and Pfannerstill",
-  "DeviceName": "Bartell, Graham and Bergstrom",
-  "DeviceIdentifier": "distinctio"
+  "ApplicationName": "Glover Inc and Sons",
+  "DeviceName": "Fadel, Schultz and Stracke",
+  "DeviceIdentifier": "commodi"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 477,
-  "Name": "Kub-Collins",
-  "CreatedDate": "2000-06-02T10:30:23.9073938+02:00",
-  "UpdatedDate": "2012-07-01T10:30:23.9073938+02:00",
-  "AssociateFullName": "Mrs. Nicholaus Koss PhD",
-  "CreatedBy": "error",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "totam",
-  "ForeignAppId": 412,
+  "ForeignDeviceId": 833,
+  "Name": "Leuschke Inc and Sons",
+  "CreatedDate": "2022-09-07T14:23:46.7524806+02:00",
+  "UpdatedDate": "2013-02-04T14:23:46.7524806+01:00",
+  "AssociateFullName": "Robyn Boyer",
+  "CreatedBy": "qui",
+  "UpdatedBy": "ea",
+  "DeviceIdentifier": "deserunt",
+  "ForeignAppId": 91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 345
     }
   }
 }

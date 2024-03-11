@@ -104,8 +104,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 410,
-  "Count": 528
+  "WeightedAmountLimit": 184,
+  "Count": 305
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rempel-Considine",
-    "SaleDate": "2015-02-09T10:30:24.5283735+01:00",
-    "SaleId": 164,
-    "Probability": 270,
-    "Title": "sit",
-    "Amount": 23583.35,
-    "Currency": "aut",
-    "ProjectName": "Robel Group",
-    "AssociateFullName": "Sophie Runolfsdottir",
-    "Description": "Visionary cohesive time-frame",
+    "ContactName": "Stark, Dooley and Lueilwitz",
+    "SaleDate": "2004-06-30T14:23:47.3630051+02:00",
+    "SaleId": 175,
+    "Probability": 89,
+    "Title": "labore",
+    "Amount": 3998.984,
+    "Currency": "dignissimos",
+    "ProjectName": "Sanford, Herzog and Jacobi",
+    "AssociateFullName": "Mrs. Eldridge Alysson Schumm DVM",
+    "Description": "Monitored system-worthy model",
     "Status": "Lost",
-    "WeightedAmount": 30302.646,
-    "ProjectId": 505,
-    "EarningPercent": 23213.538,
-    "Earning": 2209.47,
-    "ContactId": 922,
-    "AssociateId": 113,
-    "PersonId": 989,
-    "SaleTypeId": 710,
-    "SaleTypeName": "Doyle-Schmeler",
-    "PersonFullName": "Dr. Tad Cremin",
+    "WeightedAmount": 3190.412,
+    "ProjectId": 585,
+    "EarningPercent": 12871.338,
+    "Earning": 25423.007999999998,
+    "ContactId": 569,
+    "AssociateId": 300,
+    "PersonId": 536,
+    "SaleTypeId": 284,
+    "SaleTypeName": "Koch-Spencer",
+    "PersonFullName": "Presley Jany Runolfsson Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 258,
-    "NextDueDate": "2001-10-28T10:30:24.5283735+01:00",
-    "Number": "661844",
+    "ActiveErpLinks": 737,
+    "NextDueDate": "2020-05-29T14:23:47.3630051+02:00",
+    "Number": "651543",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 782
       }
     }
   }

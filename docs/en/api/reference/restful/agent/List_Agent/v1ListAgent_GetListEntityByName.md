@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus LLC"
+  "Name": "Fritsch, Kunde and Jenkins"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Bins-Hirthe",
-  "Tooltip": "deserunt",
+  "Id": 116,
+  "Name": "Dickens, Krajcik and West",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 400,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 152,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 401
     }
   }
 }

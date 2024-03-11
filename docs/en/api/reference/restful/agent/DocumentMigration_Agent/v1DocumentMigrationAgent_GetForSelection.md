@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 798,
-  "SelectionId": 364,
+  "DocumentPluginId": 266,
+  "SelectionId": 41,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 461,
-  "NumDocumentsAlreadyMigrated": 845,
+  "NumDocumentsOmitted": 402,
+  "NumDocumentsAlreadyMigrated": 715,
   "Documents": [
     {
-      "DocumentId": 155,
-      "ContactId": 246,
-      "PersonId": 633,
-      "SaleId": 359,
-      "ProjectId": 714,
-      "DocTmplId": 310,
-      "AssociateId": 60,
-      "UserGroupId": 421,
-      "VisibleForId": 294
+      "DocumentId": 733,
+      "ContactId": 463,
+      "PersonId": 396,
+      "SaleId": 170,
+      "ProjectId": 63,
+      "DocTmplId": 510,
+      "AssociateId": 918,
+      "UserGroupId": 801,
+      "VisibleForId": 321
     }
   ],
   "Associates": [
     {
-      "AssociateId": 337,
-      "EmailAddress": "bruce.crona@grady.ca"
+      "AssociateId": 557,
+      "EmailAddress": "shaniya.waelchi@reilly.com"
     },
     {
-      "AssociateId": 337,
-      "EmailAddress": "bruce.crona@grady.ca"
+      "AssociateId": 557,
+      "EmailAddress": "shaniya.waelchi@reilly.com"
     }
   ]
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Schinner, Nicolas and Herman",
-    "ToolTip": "Rerum quibusdam sit fugit est aliquam blanditiis explicabo.",
-    "Deleted": true,
-    "Rank": 281,
-    "Type": "fugit",
-    "ColorBlock": 584,
-    "IconHint": "officiis",
+    "Id": 37,
+    "Name": "Harvey Group",
+    "ToolTip": "Tempora velit eaque possimus nesciunt et sequi quidem.",
+    "Deleted": false,
+    "Rank": 709,
+    "Type": "soluta",
+    "ColorBlock": 356,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "1999-06-06T10:30:32.9118319+02:00",
+    "LastChanged": "2016-12-11T14:23:56.0252035+01:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Runolfsdottir Inc and Sons",
-        "ToolTip": "Qui aperiam quo illum et.",
-        "Deleted": true,
-        "Rank": 735,
-        "Type": "quaerat",
-        "ColorBlock": 376,
-        "IconHint": "iusto",
+        "Id": 995,
+        "Name": "Bayer-Kirlin",
+        "ToolTip": "Incidunt repellat.",
+        "Deleted": false,
+        "Rank": 97,
+        "Type": "ut",
+        "ColorBlock": 950,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2005-06-05T10:30:32.9274257+02:00",
+        "LastChanged": "2002-08-01T14:23:56.0252035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Dr. Nicole Jennie Haley"
+        "ExtraInfo": "doloribus",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Adam Kuphal"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "aliquid",
-    "Hidden": false,
-    "FullName": "Darron Kreiger"
+    "ExtraInfo": "aut",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Ms. Monica Freeman Heathcote DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Stanton, Weimann and Feeney",
-    "ToolTip": "Suscipit unde rerum eveniet.",
+    "Id": 973,
+    "Name": "Rolfson-Schaden",
+    "ToolTip": "Voluptatem quo assumenda sequi quasi.",
     "Deleted": false,
-    "Rank": 195,
-    "Type": "magnam",
-    "ColorBlock": 584,
-    "IconHint": "sapiente",
+    "Rank": 374,
+    "Type": "ducimus",
+    "ColorBlock": 530,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2019-07-28T10:30:32.9274257+02:00",
+    "LastChanged": "2014-09-09T14:23:56.0252035+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Cronin, Romaguera and Kirlin",
-        "ToolTip": "Quia dolorem.",
+        "Id": 722,
+        "Name": "Beatty, Weber and Carroll",
+        "ToolTip": "Optio accusantium voluptates veritatis quisquam.",
         "Deleted": false,
-        "Rank": 102,
-        "Type": "quam",
-        "ColorBlock": 268,
-        "IconHint": "dicta",
+        "Rank": 892,
+        "Type": "mollitia",
+        "ColorBlock": 787,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2000-01-21T10:30:32.9274257+01:00",
+        "LastChanged": "2014-02-03T14:23:56.0252035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Dr. Reynold Kub",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Sonny Felicia Kunde V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "sunt",
+    "ExtraInfo": "fuga",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Dr. Rowland Conroy II",
+    "FullName": "Vesta Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldLength": 815
       }
     }
   }

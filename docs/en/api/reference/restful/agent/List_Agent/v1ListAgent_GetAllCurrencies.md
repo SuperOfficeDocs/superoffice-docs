@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 188,
-    "Name": "Daniel LLC",
-    "Tooltip": "non",
-    "Rank": 800,
-    "Rate": 25272.576,
-    "Units": 28152.721999999998,
+    "CurrencyId": 770,
+    "Name": "Blick-Block",
+    "Tooltip": "eos",
+    "Rank": 406,
+    "Rate": 14645.181999999999,
+    "Units": 6540.6579999999994,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 620
       }
     }
   }

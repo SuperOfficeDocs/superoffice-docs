@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 969,
-  "ErpConnectorId": 342,
-  "DisplayName": "Pouros Inc and Sons",
-  "DisplayDescription": "Face to face bifurcated installation",
-  "Active": true,
-  "ConnectionId": "praesentium",
-  "MostRecentTimestamp": "enim",
+  "ErpConnectionId": 170,
+  "ErpConnectorId": 262,
+  "DisplayName": "Bartell-Raynor",
+  "DisplayDescription": "Multi-lateral background hub",
+  "Active": false,
+  "ConnectionId": "ut",
+  "MostRecentTimestamp": "natus",
   "ConfigFields": {
-    "ConfigFields1": "cum",
-    "ConfigFields2": "unde"
+    "ConfigFields1": "aut",
+    "ConfigFields2": "illum"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    725,
-    725
+    377,
+    615
   ],
   "AssociateAccessIds": [
-    503,
-    952
+    99,
+    674
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 693
     }
   }
 }

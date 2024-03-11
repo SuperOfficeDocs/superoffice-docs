@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 365,
-  "CrmRecordId": 210,
+  "ErpConnectionId": 461,
+  "CrmRecordId": 3,
   "CrmActorType": "Contact",
-  "ErpKey": "in",
+  "ErpKey": "eos",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Gorczany LLC",
-      "CrmFieldKey": "assumenda",
-      "Value": "qui",
-      "DisplayValue": "quam",
+      "DisplayName": "Upton-Wiza",
+      "CrmFieldKey": "a",
+      "Value": "fugit",
+      "DisplayValue": "exercitationem",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Gorczany LLC",
-      "CrmFieldKey": "assumenda",
-      "Value": "qui",
-      "DisplayValue": "quam",
+      "DisplayName": "Upton-Wiza",
+      "CrmFieldKey": "a",
+      "Value": "fugit",
+      "DisplayValue": "exercitationem",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }

@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walter, Conroy and Bahringer",
-  "AssociateId": 455
+  "TableName": "O'Connell LLC",
+  "AssociateId": 785
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Graham, Walsh and Hoppe",
-    "RecordId": 493,
-    "AssociateId": 995,
-    "ExtraInfo": "consequatur",
-    "Rank": 575,
+    "TableName": "Okuneva Inc and Sons",
+    "RecordId": 643,
+    "AssociateId": 376,
+    "ExtraInfo": "excepturi",
+    "Rank": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 502
       }
     }
   }

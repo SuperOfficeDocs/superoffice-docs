@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 704,
-  "Name": "Kunze-Rath",
-  "CurrencyId": 135,
-  "EnglishName": "Nader, Koepp and Deckow",
+  "CountryId": 611,
+  "Name": "Fritsch-Williamson",
+  "CurrencyId": 332,
+  "EnglishName": "Lebsack-Mayer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-engineered attitude-oriented implementation",
-  "OrgNrText": "1509757",
-  "InterAreaPrefix": "tenetur",
-  "DialInPrefix": "reprehenderit",
-  "ZipPrefix": "est",
-  "DomainName": "Gorczany Group",
-  "AddressLayoutId": 149,
-  "DomesticAddressLayoutId": 857,
-  "ForeignAddressLayoutId": 551,
-  "Rank": 845,
-  "Tooltip": "quidem",
+  "ImageDescription": "Managed encompassing flexibility",
+  "OrgNrText": "171100",
+  "InterAreaPrefix": "voluptatum",
+  "DialInPrefix": "corporis",
+  "ZipPrefix": "rerum",
+  "DomainName": "Spinka Inc and Sons",
+  "AddressLayoutId": 506,
+  "DomesticAddressLayoutId": 710,
+  "ForeignAddressLayoutId": 397,
+  "Rank": 446,
+  "Tooltip": "voluptatem",
   "Deleted": true
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 213,
-  "Name": "Farrell, Lind and Braun",
-  "CurrencyId": 185,
-  "EnglishName": "Olson Group",
+  "CountryId": 939,
+  "Name": "Waelchi Inc and Sons",
+  "CurrencyId": 992,
+  "EnglishName": "Walter-Bartell",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-engineered transitional application",
-  "OrgNrText": "1069219",
-  "InterAreaPrefix": "eius",
-  "DialInPrefix": "accusamus",
-  "ZipPrefix": "similique",
-  "DomainName": "Goyette Group",
-  "AddressLayoutId": 267,
-  "DomesticAddressLayoutId": 682,
-  "ForeignAddressLayoutId": 501,
-  "Rank": 1001,
-  "Tooltip": "officiis",
-  "Deleted": false,
+  "ImageDescription": "Multi-tiered executive structure",
+  "OrgNrText": "1319787",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "autem",
+  "ZipPrefix": "velit",
+  "DomainName": "Schimmel-Abernathy",
+  "AddressLayoutId": 549,
+  "DomesticAddressLayoutId": 277,
+  "ForeignAddressLayoutId": 497,
+  "Rank": 745,
+  "Tooltip": "quasi",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 902
     }
   }
 }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nitzsche LLC",
-  "AdditionalInfo": "laboriosam",
-  "SearchValue": "est"
+  "Name": "Wisoky, Johnson and Padberg",
+  "AdditionalInfo": "ut",
+  "SearchValue": "sed"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Roob Group",
-    "ToolTip": "Consectetur sit cum.",
-    "Deleted": true,
-    "Rank": 652,
-    "Type": "voluptatem",
-    "ColorBlock": 611,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2004-07-10T10:30:24.1193938+02:00",
+    "Id": 880,
+    "Name": "Gulgowski-Wyman",
+    "ToolTip": "Et dolore dolorem perferendis suscipit doloribus omnis.",
+    "Deleted": false,
+    "Rank": 638,
+    "Type": "praesentium",
+    "ColorBlock": 174,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2017-04-07T14:23:46.9255115+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "McCullough LLC",
-        "ToolTip": "Quam dignissimos et adipisci commodi magni.",
+        "Id": 60,
+        "Name": "Hermann Group",
+        "ToolTip": "Nihil vel et est qui aliquid qui.",
         "Deleted": false,
-        "Rank": 3,
-        "Type": "velit",
-        "ColorBlock": 238,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2014-02-22T10:30:24.1193938+01:00",
+        "Rank": 187,
+        "Type": "eius",
+        "ColorBlock": 806,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2007-07-17T14:23:46.9255115+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Asia Waters",
+        "ExtraInfo": "odio",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Adella Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldLength": 367
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "neque",
+    "ExtraInfo": "aut",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Antonina Cummerata",
+    "FullName": "Evert Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 526
       }
     }
   }

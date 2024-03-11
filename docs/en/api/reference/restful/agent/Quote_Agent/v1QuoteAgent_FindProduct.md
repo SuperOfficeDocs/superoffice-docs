@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 482,
-  "UserInput": "nihil",
-  "PriceListKey": "dolores"
+  "QuoteAlternativeId": 805,
+  "UserInput": "necessitatibus",
+  "PriceListKey": "quae"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 495,
-    "ERPProductKey": "quia",
-    "ERPPriceListKey": "qui",
-    "Name": "Considine-McGlynn",
-    "Description": "Reactive clear-thinking product",
-    "Code": "excepturi",
-    "PriceUnit": "enim",
-    "QuantityUnit": "magni",
+    "ProductId": 220,
+    "ERPProductKey": "aut",
+    "ERPPriceListKey": "et",
+    "Name": "Kuvalis LLC",
+    "Description": "Multi-channelled background groupware",
+    "Code": "consequatur",
+    "PriceUnit": "et",
+    "QuantityUnit": "aperiam",
     "IsSubscription": false,
-    "SubscriptionUnit": "eius",
-    "DefaultSubscriptionQuantity": 29274.694,
-    "ItemNumber": "703846",
+    "SubscriptionUnit": "dolorem",
+    "DefaultSubscriptionQuantity": 9881.502,
+    "ItemNumber": "758526",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptates",
-    "ProductTypeKey": "labore",
-    "VAT": 22489.584,
-    "VATInfo": "voluptatum",
-    "UnitCost": 4375.064,
-    "UnitMinimumPrice": 21351.942,
-    "UnitListPrice": 7038.964,
+    "ProductFamilyKey": "molestiae",
+    "ProductTypeKey": "ea",
+    "VAT": 28506.863999999998,
+    "VATInfo": "sit",
+    "UnitCost": 12006.354,
+    "UnitMinimumPrice": 29760.464,
+    "UnitListPrice": 27754.703999999998,
     "InAssortment": true,
-    "Supplier": "aut",
-    "SupplierCode": "repudiandae",
-    "Rights": "explicabo",
-    "Rule": "hic",
+    "Supplier": "maiores",
+    "SupplierCode": "sit",
+    "Rights": "accusamus",
+    "Rule": "aut",
     "ExtraInfo": [
       {
-        "Name": "Champlin, Bauch and Lemke",
-        "Value": "perferendis",
+        "Name": "Bechtelar, Armstrong and Trantow",
+        "Value": "blanditiis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldType": "System.String",
+            "FieldLength": 503
           }
         }
       },
       {
-        "Name": "Champlin, Bauch and Lemke",
-        "Value": "perferendis",
+        "Name": "Bechtelar, Armstrong and Trantow",
+        "Value": "blanditiis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldType": "System.String",
+            "FieldLength": 503
           }
         }
       }
     ],
-    "RawExtraInfo": "provident",
-    "ExtraField1": "labore",
-    "ExtraField2": "earum",
-    "ExtraField3": "assumenda",
-    "ExtraField4": "ab",
-    "ExtraField5": "at",
-    "InStock": 26795.7,
+    "RawExtraInfo": "quas",
+    "ExtraField1": "voluptas",
+    "ExtraField2": "rerum",
+    "ExtraField3": "esse",
+    "ExtraField4": "illo",
+    "ExtraField5": "harum",
+    "InStock": 4813.824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

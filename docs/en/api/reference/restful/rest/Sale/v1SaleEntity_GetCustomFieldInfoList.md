@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bruen, Rippin and Durgan",
-    "DisplayName": "Hayes-Feil",
-    "Description": "Digitized heuristic knowledge user",
-    "ShortLabel": "autem",
+    "FieldName": "Satterfield, Gleason and Nolan",
+    "DisplayName": "Stark Group",
+    "Description": "Multi-channelled contextually-based secured line",
+    "ShortLabel": "quos",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 68,
-    "TemplateVariableName": "Trantow-Runolfsson"
+    "Rank": 158,
+    "TemplateVariableName": "Connelly-Bauch"
   }
 ]
 ```

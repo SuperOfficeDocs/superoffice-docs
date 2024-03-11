@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=349
+POST /api/v1/Agents/Dash/GetDash?dashId=723
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 39,
-  "UniqueId": "est",
-  "Name": "Sporer Inc and Sons",
-  "Description": "Devolved optimal internet solution",
-  "AssociateId": 309,
-  "Columns": 4,
+  "DashboardId": 729,
+  "UniqueId": "esse",
+  "Name": "Franecki, Gerhold and Schneider",
+  "Description": "Front-line scalable budgetary management",
+  "AssociateId": 538,
+  "Columns": 649,
   "Theme": null,
-  "VisibleForAll": 345,
+  "VisibleForAll": 90,
   "VisibleForAssociates": [
-    801,
-    408
+    147,
+    47
   ],
   "VisibleForGroups": [
-    467,
-    411
+    700,
+    292
   ],
-  "PinForAll": 916,
+  "PinForAll": 395,
   "PinForAssociates": [
-    481,
-    825
+    213,
+    567
   ],
   "PinForGroups": [
-    662,
-    584
+    451,
+    94
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

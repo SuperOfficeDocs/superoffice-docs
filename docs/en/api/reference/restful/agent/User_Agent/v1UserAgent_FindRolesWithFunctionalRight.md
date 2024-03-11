@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "White, Gusikowski and Macejkovic"
+  "FunctionalRightName": "Daugherty LLC"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Windler LLC",
-    "ToolTip": "Repellendus quam beatae consequatur cupiditate non maiores.",
+    "Id": 495,
+    "Name": "Hauck LLC",
+    "ToolTip": "Ratione autem amet vel quia et.",
     "Deleted": true,
-    "Rank": 43,
-    "Type": "ut",
+    "Rank": 344,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Hegmann, Christiansen and Koss",
-        "ToolTip": "Autem est est tenetur et.",
+        "Id": 773,
+        "Name": "Armstrong Group",
+        "ToolTip": "Ab iste consectetur tempore.",
         "Deleted": false,
-        "Rank": 978,
-        "Type": "perferendis",
+        "Rank": 257,
+        "Type": "suscipit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 895,
-        "ExtraInfo": "ut",
-        "StyleHint": "magni",
-        "FullName": "Bridie Boyle",
+        "IconHint": "cupiditate",
+        "ColorBlock": 359,
+        "ExtraInfo": "quod",
+        "StyleHint": "aut",
+        "FullName": "Aimee Kristofer Williamson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 732
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 836,
-    "ExtraInfo": "et",
-    "StyleHint": "molestiae",
-    "FullName": "Noemie Cronin",
+    "IconHint": "nam",
+    "ColorBlock": 548,
+    "ExtraInfo": "quas",
+    "StyleHint": "quod",
+    "FullName": "Dallas Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 118
       }
     }
   }

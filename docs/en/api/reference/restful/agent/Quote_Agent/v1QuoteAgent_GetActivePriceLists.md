@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 975,
-  "Currency": "corrupti"
+  "QuoteConnectionId": 528,
+  "Currency": "libero"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 133,
-    "ERPPriceListKey": "dignissimos",
-    "QuoteConnectionId": 547,
-    "Name": "Frami Inc and Sons",
-    "Description": "Operative neutral benchmark",
-    "Currency": "est",
-    "CurrencyName": "Koss LLC",
-    "ValidFrom": "1996-10-23T10:30:24.4346264+02:00",
-    "ValidTo": "2002-09-27T10:30:24.4346264+02:00",
-    "IsActive": true,
+    "PriceListId": 748,
+    "ERPPriceListKey": "quaerat",
+    "QuoteConnectionId": 920,
+    "Name": "Frami LLC",
+    "Description": "Sharable attitude-oriented circuit",
+    "Currency": "vel",
+    "CurrencyName": "Hamill-Swaniawski",
+    "ValidFrom": "2009-03-12T14:23:47.2380075+01:00",
+    "ValidTo": "2019-04-05T14:23:47.2380075+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 272
       }
     }
   }

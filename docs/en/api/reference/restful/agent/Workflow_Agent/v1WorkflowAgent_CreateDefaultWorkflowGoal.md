@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 998,
-  "WorkflowId": 204,
+  "WorkflowGoalId": 705,
+  "WorkflowId": 909,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Hyatt Group",
-      "Description": "Profound non-volatile concept",
-      "Rank": 733,
+      "Name": "King-Fay",
+      "Description": "Quality-focused 4th generation secured line",
+      "Rank": 943,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hyatt Group",
-      "Description": "Profound non-volatile concept",
-      "Rank": 733,
+      "Name": "King-Fay",
+      "Description": "Quality-focused 4th generation secured line",
+      "Rank": 943,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldLength": 131
     }
   }
 }

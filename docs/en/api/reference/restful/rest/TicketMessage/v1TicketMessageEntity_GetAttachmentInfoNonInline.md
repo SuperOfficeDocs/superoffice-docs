@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 457,
-    "Name": "Wuckert Inc and Sons",
-    "ContentType": "modi",
-    "AttSize": 177,
+    "AttachmentId": 853,
+    "Name": "Quitzon, Windler and Boyle",
+    "ContentType": "nisi",
+    "AttSize": 691,
     "InlineImage": true,
-    "ContentId": "ut",
-    "AuthKey": "aut",
+    "ContentId": "blanditiis",
+    "AuthKey": "praesentium",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 109
       }
     }
   }

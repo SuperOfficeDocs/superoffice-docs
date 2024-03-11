@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 397,
-  "Name": "Fisher-VonRueden",
-  "Tooltip": "aut",
-  "Rank": 384,
-  "Key": "et",
-  "Deleted": false,
+  "LegalBaseId": 407,
+  "Name": "Bechtelar-Hansen",
+  "Tooltip": "minima",
+  "Rank": 447,
+  "Key": "minus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

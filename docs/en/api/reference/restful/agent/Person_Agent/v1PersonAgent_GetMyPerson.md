@@ -127,7 +127,7 @@ OK
 POST /api/v1/Agents/Person/GetMyPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -137,182 +137,182 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 523,
-  "Firstname": "Adela",
-  "MiddleName": "Carter, Jones and Williamson",
-  "Lastname": "Langosh",
-  "Mrmrs": "odit",
-  "Title": "eos",
-  "UpdatedDate": "2012-08-05T10:30:24.1818956+02:00",
-  "CreatedDate": "2001-05-25T10:30:24.1818956+02:00",
-  "BirthDate": "2001-02-22T10:30:24.1818956+01:00",
+  "PersonId": 450,
+  "Firstname": "Jody",
+  "MiddleName": "Schinner Inc and Sons",
+  "Lastname": "Lockman",
+  "Mrmrs": "quaerat",
+  "Title": "ex",
+  "UpdatedDate": "2017-10-21T14:23:46.988011+02:00",
+  "CreatedDate": "1997-08-10T14:23:46.988011+02:00",
+  "BirthDate": "2002-01-22T14:23:46.988011+01:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "omnis",
-      "StrippedValue": "sapiente",
-      "Description": "Advanced bi-directional capability",
+      "Value": "maiores",
+      "StrippedValue": "in",
+      "Description": "Decentralized demand-driven initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "sapiente",
-      "Description": "Advanced bi-directional capability",
+      "Value": "maiores",
+      "StrippedValue": "in",
+      "Description": "Decentralized demand-driven initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     }
   ],
-  "Description": "Object-based needs-based access",
+  "Description": "Managed reciprocal collaboration",
   "IsAssociate": true,
   "PrivatePhones": [
     {
-      "Value": "aut",
-      "StrippedValue": "veniam",
-      "Description": "Balanced transitional middleware",
+      "Value": "blanditiis",
+      "StrippedValue": "sequi",
+      "Description": "Intuitive holistic process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "veniam",
-      "Description": "Balanced transitional middleware",
+      "Value": "blanditiis",
+      "StrippedValue": "sequi",
+      "Description": "Intuitive holistic process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ea",
-      "StrippedValue": "incidunt",
-      "Description": "Switchable hybrid open architecture",
+      "Value": "voluptatibus",
+      "StrippedValue": "voluptatem",
+      "Description": "Intuitive 3rd generation support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 578
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     },
     {
-      "Value": "ea",
-      "StrippedValue": "incidunt",
-      "Description": "Switchable hybrid open architecture",
+      "Value": "voluptatibus",
+      "StrippedValue": "voluptatem",
+      "Description": "Intuitive 3rd generation support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 578
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
   ],
   "MobilePhones": [
     {
-      "Value": "aut",
-      "StrippedValue": "et",
-      "Description": "Profit-focused impactful methodology",
+      "Value": "ea",
+      "StrippedValue": "ea",
+      "Description": "Cross-platform asynchronous benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 310
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "et",
-      "Description": "Profit-focused impactful methodology",
+      "Value": "ea",
+      "StrippedValue": "ea",
+      "Description": "Cross-platform asynchronous benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 310
         }
       }
     }
   ],
   "OfficePhones": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "natus",
-      "Description": "Ergonomic human-resource concept",
+      "Value": "doloremque",
+      "StrippedValue": "aut",
+      "Description": "Robust coherent instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "natus",
-      "Description": "Ergonomic human-resource concept",
+      "Value": "doloremque",
+      "StrippedValue": "aut",
+      "Description": "Robust coherent instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     }
   ],
   "OtherPhones": [
     {
-      "Value": "facilis",
-      "StrippedValue": "atque",
-      "Description": "User-friendly object-oriented open architecture",
+      "Value": "qui",
+      "StrippedValue": "nulla",
+      "Description": "Visionary client-server info-mediaries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 435
         }
       }
     },
     {
-      "Value": "facilis",
-      "StrippedValue": "atque",
-      "Description": "User-friendly object-oriented open architecture",
+      "Value": "qui",
+      "StrippedValue": "nulla",
+      "Description": "Visionary client-server info-mediaries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 435
         }
       }
     }
@@ -323,195 +323,195 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Interests": [
     {
-      "Id": 706,
-      "Name": "Konopelski, Herman and Hudson",
-      "ToolTip": "Quia voluptas qui libero voluptas totam voluptatibus.",
+      "Id": 466,
+      "Name": "McKenzie Inc and Sons",
+      "ToolTip": "Nisi recusandae.",
       "Deleted": true,
-      "Rank": 328,
-      "Type": "magni",
-      "ColorBlock": 927,
-      "IconHint": "ducimus",
+      "Rank": 342,
+      "Type": "molestias",
+      "ColorBlock": 115,
+      "IconHint": "voluptas",
       "Selected": false,
-      "LastChanged": "1999-12-08T10:30:24.1818956+01:00",
+      "LastChanged": "1998-08-02T14:23:47.0036348+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "ut",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Tanya Purdy",
+      "FullName": "Ron Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldType": "System.String",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "PersonNumber": "1447091",
-  "FullName": "Dr. Callie Herzog",
-  "NoMailing": false,
+  "PersonNumber": "972530",
+  "FullName": "Miss Gerry Jasmin Berge",
+  "NoMailing": true,
   "UsePersonAddress": false,
-  "Retired": true,
+  "Retired": false,
   "Urls": [
     {
-      "Value": "quia",
-      "StrippedValue": "sed",
-      "Description": "Quality-focused value-added matrix",
+      "Value": "in",
+      "StrippedValue": "nemo",
+      "Description": "Persistent transitional portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 788
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "sed",
-      "Description": "Quality-focused value-added matrix",
+      "Value": "in",
+      "StrippedValue": "nemo",
+      "Description": "Persistent transitional portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 788
         }
       }
     }
   ],
-  "FormalName": "Koch Inc and Sons",
+  "FormalName": "Quitzon, Mayer and Roberts",
   "Address": null,
-  "Post3": "aut",
-  "Post2": "eum",
-  "Post1": "voluptas",
-  "Kanalname": "quo",
-  "Kanafname": "quis",
+  "Post3": "sit",
+  "Post2": "tenetur",
+  "Post1": "magnam",
+  "Kanalname": "sint",
+  "Kanafname": "possimus",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "omnis",
-  "ActiveInterests": 836,
+  "Salutation": "laborum",
+  "ActiveInterests": 889,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 185,
-  "DbiKey": "libero",
-  "DbiLastModified": "2013-12-13T10:30:24.1818956+01:00",
-  "DbiLastSyncronized": "2006-06-23T10:30:24.1818956+02:00",
-  "SentInfo": 383,
-  "ShowContactTickets": 521,
+  "DbiAgentId": 502,
+  "DbiKey": "magni",
+  "DbiLastModified": "2011-07-23T14:23:47.0036348+02:00",
+  "DbiLastSyncronized": "2014-05-31T14:23:47.0036348+02:00",
+  "SentInfo": 63,
+  "ShowContactTickets": 259,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "et",
-      "StrippedValue": "asperiores",
-      "Description": "Compatible upward-trending migration",
+      "Value": "omnis",
+      "StrippedValue": "eveniet",
+      "Description": "Progressive grid-enabled support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldLength": 105
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "asperiores",
-      "Description": "Compatible upward-trending migration",
+      "Value": "omnis",
+      "StrippedValue": "eveniet",
+      "Description": "Progressive grid-enabled support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldLength": 105
         }
       }
     }
   ],
   "InternetPhones": [
     {
-      "Value": "quo",
-      "StrippedValue": "repudiandae",
-      "Description": "Profit-focused object-oriented groupware",
+      "Value": "excepturi",
+      "StrippedValue": "fugiat",
+      "Description": "Horizontal neutral groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     },
     {
-      "Value": "quo",
-      "StrippedValue": "repudiandae",
-      "Description": "Profit-focused object-oriented groupware",
+      "Value": "excepturi",
+      "StrippedValue": "fugiat",
+      "Description": "Horizontal neutral groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     }
   ],
-  "Source": 955,
-  "ActiveErpLinks": 613,
+  "Source": 256,
+  "ActiveErpLinks": 227,
   "ShipmentTypes": [
     {
-      "Id": 676,
-      "Name": "Jacobs Inc and Sons",
-      "ToolTip": "Commodi aperiam est voluptatem voluptatem quod.",
+      "Id": 516,
+      "Name": "Wiza-Ondricka",
+      "ToolTip": "Assumenda veritatis nobis.",
       "Deleted": false,
-      "Rank": 310,
-      "Type": "minus",
-      "ColorBlock": 85,
-      "IconHint": "consequuntur",
+      "Rank": 232,
+      "Type": "sit",
+      "ColorBlock": 462,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2019-08-11T10:30:24.1818956+02:00",
+      "LastChanged": "2009-08-01T14:23:47.0036348+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "consectetur",
+      "ExtraInfo": "quod",
+      "StyleHint": "nam",
       "Hidden": false,
-      "FullName": "Audreanne Tillman V",
+      "FullName": "Marcelle Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 934
         }
       }
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 805,
-      "Comment": "sit",
-      "Registered": "2021-04-18T10:30:24.1818956+02:00",
-      "RegisteredAssociateId": 578,
-      "Updated": "2010-05-02T10:30:24.1818956+02:00",
-      "UpdatedAssociateId": 675,
-      "LegalBaseId": 364,
-      "LegalBaseKey": "incidunt",
-      "LegalBaseName": "Schuppe LLC",
-      "ConsentPurposeId": 72,
-      "ConsentPurposeKey": "eum",
-      "ConsentPurposeName": "Bogan-Ullrich",
-      "ConsentSourceId": 901,
-      "ConsentSourceKey": "magnam",
-      "ConsentSourceName": "Rogahn-Sporer",
+      "ConsentPersonId": 34,
+      "Comment": "delectus",
+      "Registered": "2020-09-01T14:23:47.0036348+02:00",
+      "RegisteredAssociateId": 400,
+      "Updated": "2017-01-11T14:23:47.0036348+01:00",
+      "UpdatedAssociateId": 430,
+      "LegalBaseId": 479,
+      "LegalBaseKey": "consectetur",
+      "LegalBaseName": "Berge LLC",
+      "ConsentPurposeId": 918,
+      "ConsentPurposeKey": "quas",
+      "ConsentPurposeName": "Kuhn LLC",
+      "ConsentSourceId": 319,
+      "ConsentSourceKey": "repellendus",
+      "ConsentSourceName": "Hills LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -523,28 +523,28 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "BounceEmails": [
-    "darrick@mcglynnbartoletti.name",
-    "lemuel@runte.ca"
+    "ladarius.green@blick.us",
+    "tad.abbott@klein.info"
   ],
-  "ActiveStatusMonitorId": 970,
+  "ActiveStatusMonitorId": 288,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Nyah Reilly",
+    "SuperOffice:2": "Miss Sibyl Dickinson"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "est"
+    "ExtraFields1": "in",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "sed"
+    "CustomFields1": "fugit",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 72
     }
   }
 }

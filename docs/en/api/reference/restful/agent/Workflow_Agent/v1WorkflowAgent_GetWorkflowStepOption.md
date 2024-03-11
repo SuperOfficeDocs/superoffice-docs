@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 998
+  "WorkflowStepOptionId": 428
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 32,
-  "WorkflowStepId": 649,
-  "WorkflowId": 161,
-  "Name": "Toy-Hyatt",
-  "Rank": 573,
+  "WorkflowStepOptionId": 820,
+  "WorkflowStepId": 497,
+  "WorkflowId": 54,
+  "Name": "Ullrich Inc and Sons",
+  "Rank": 172,
   "Steps": [
     {
-      "WorkflowStepId": 119,
-      "WorkflowId": 885,
+      "WorkflowStepId": 81,
+      "WorkflowId": 196,
       "StepType": "AddToList",
-      "Rank": 514
+      "Rank": 580
     },
     {
-      "WorkflowStepId": 119,
-      "WorkflowId": 885,
+      "WorkflowStepId": 81,
+      "WorkflowId": 196,
       "StepType": "AddToList",
-      "Rank": 514
+      "Rank": 580
     }
   ]
 }

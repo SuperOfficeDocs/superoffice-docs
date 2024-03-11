@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Von, Torp and Lesch",
+    "HeadingId": 621,
+    "Name": "Lowe-Feeney",
     "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 90,
-    "UdListDefinitionId": 278,
+    "Deleted": false,
+    "Rank": 318,
+    "UdListDefinitionId": 892,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

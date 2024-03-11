@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 170,
+  "SystemEventId": 764,
   "Scope": "Database",
-  "Eta": "2004-06-15T10:30:32.5125031+02:00",
-  "Eventkey": "esse",
-  "Eventmess": "eius",
-  "ExtraInfo": 959,
-  "Owner": 215,
-  "UpdatedCount": 57,
-  "Registered": "2022-04-04T10:30:32.5125031+02:00",
+  "Eta": "2000-04-01T14:23:55.5252104+02:00",
+  "Eventkey": "quod",
+  "Eventmess": "cupiditate",
+  "ExtraInfo": 173,
+  "Owner": 218,
+  "UpdatedCount": 345,
+  "Registered": "1998-07-30T14:23:55.5252104+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   },
   "_Links": {

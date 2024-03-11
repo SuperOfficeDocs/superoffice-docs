@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 567,
-  "OldPassword": "enim",
-  "NewPassword": "dicta"
+  "AssociateId": 447,
+  "OldPassword": "possimus",
+  "NewPassword": "natus"
 }
 ```
 

@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 723,
-  "NewName": "McDermott Inc and Sons",
-  "ValidFrom": "2002-12-22T10:30:24.4033765+01:00",
-  "ValidTo": "2002-05-01T10:30:24.4033765+02:00",
-  "NewCurrencyId": 140,
+  "OriginalPriceListId": 816,
+  "NewName": "Grady-Lubowitz",
+  "ValidFrom": "1996-12-05T14:23:47.222383+01:00",
+  "ValidTo": "1998-01-07T14:23:47.222383+01:00",
+  "NewCurrencyId": 742,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 939,
-  "ERPPriceListKey": "quasi",
-  "QuoteConnectionId": 372,
-  "Name": "Dare Inc and Sons",
-  "Description": "Optional transitional encryption",
-  "Currency": "non",
-  "CurrencyName": "Schiller, Dietrich and Kutch",
-  "ValidFrom": "2002-06-03T10:30:24.4033765+02:00",
-  "ValidTo": "2009-05-01T10:30:24.4033765+02:00",
+  "PriceListId": 940,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 890,
+  "Name": "Romaguera Group",
+  "Description": "Public-key cohesive instruction set",
+  "Currency": "doloribus",
+  "CurrencyName": "Wiza-Prosacco",
+  "ValidFrom": "1997-04-21T14:23:47.222383+02:00",
+  "ValidTo": "1999-10-23T14:23:47.222383+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 988
     }
   }
 }

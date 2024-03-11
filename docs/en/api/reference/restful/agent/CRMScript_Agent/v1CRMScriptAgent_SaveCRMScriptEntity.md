@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 69,
-  "UniqueIdentifier": "facere",
-  "Name": "O'Connell LLC",
-  "Description": "Synergized real-time emulation",
-  "IncludeId": "qui",
-  "HierarchyId": 427,
-  "Source": "est",
-  "Registered": "2005-10-05T10:30:23.4039465+02:00",
-  "RegisteredAssociateId": 740,
-  "Updated": "1999-08-15T10:30:23.4039465+02:00",
-  "UpdatedAssociateId": 919
+  "EjscriptId": 369,
+  "UniqueIdentifier": "sit",
+  "Name": "Wintheiser-Kuhn",
+  "Description": "Diverse local approach",
+  "IncludeId": "et",
+  "HierarchyId": 545,
+  "Source": "quo",
+  "Registered": "2003-05-30T14:23:46.2043319+02:00",
+  "RegisteredAssociateId": 41,
+  "Updated": "2014-01-03T14:23:46.2043319+01:00",
+  "UpdatedAssociateId": 104
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 473,
-  "UniqueIdentifier": "dolores",
-  "Name": "Herman-Kautzer",
-  "Description": "Customizable upward-trending system engine",
-  "IncludeId": "eaque",
-  "HierarchyId": 728,
-  "Source": "quia",
-  "Registered": "2021-08-26T10:30:23.4049883+02:00",
-  "RegisteredAssociateId": 129,
-  "Updated": "2005-05-13T10:30:23.4049883+02:00",
-  "UpdatedAssociateId": 51,
+  "EjscriptId": 40,
+  "UniqueIdentifier": "excepturi",
+  "Name": "Gerlach, Nitzsche and Klein",
+  "Description": "Re-engineered uniform website",
+  "IncludeId": "aspernatur",
+  "HierarchyId": 997,
+  "Source": "voluptas",
+  "Registered": "2021-12-08T14:23:46.2043319+01:00",
+  "RegisteredAssociateId": 983,
+  "Updated": "2017-11-09T14:23:46.2043319+01:00",
+  "UpdatedAssociateId": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

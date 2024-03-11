@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    232,
-    212
+    86,
+    8
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 651,
-    "MessageId": "fugiat",
-    "Subject": "expedita",
+    "ServerId": 589,
+    "MessageId": "consequatur",
+    "Subject": "laudantium",
     "From": null,
     "To": [
       {
-        "ContactId": 552,
-        "ContactName": "Murphy, Bartell and Streich",
-        "PersonId": 320,
-        "PersonName": "Murazik, Altenwerth and Morar",
-        "AssociateId": 641,
-        "Address": "fugit",
-        "EmailId": 788,
+        "ContactId": 925,
+        "ContactName": "Watsica-Denesik",
+        "PersonId": 846,
+        "PersonName": "Schmitt Inc and Sons",
+        "AssociateId": 679,
+        "Address": "temporibus",
+        "EmailId": 578,
         "DuplicatePersonIds": [
-          466,
-          761
+          918,
+          493
         ],
-        "Name": "Rempel-Conn",
+        "Name": "Runolfsdottir-Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldLength": 300
           }
         }
       }
     ],
-    "Sent": "2001-11-10T10:30:23.7355582+01:00",
+    "Sent": "2023-01-11T14:23:46.4387031+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 9,
+    "Size": 23,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldLength": 134
       }
     }
   }

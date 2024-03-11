@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 117,
-  "Name": "Metz LLC",
-  "Tooltip": "tempore",
+  "WebPanelId": 832,
+  "Name": "Lesch-Cruickshank",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 72,
+  "Rank": 232,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Thiel-Wunsch",
+  "WindowName": "Hayes, Homenick and Schmitt",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 485,
+  "ProgId": "tenetur",
+  "Icon": 43,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 593
     }
   }
 }

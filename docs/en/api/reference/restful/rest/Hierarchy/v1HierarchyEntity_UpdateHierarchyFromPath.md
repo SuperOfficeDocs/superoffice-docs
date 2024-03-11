@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 413,
+  "HierarchyId": 608,
   "Domain": "Dashboards",
-  "Name": "Luettgen-Balistreri",
-  "Fullname": "harum",
-  "ParentId": 854,
+  "Name": "Donnelly Inc and Sons",
+  "Fullname": "ut",
+  "ParentId": 321,
   "Children": [
     {
-      "HierarchyId": 678,
+      "HierarchyId": 612,
       "Domain": "Dashboards",
-      "Name": "Flatley-Kulas",
-      "Fullname": "corporis",
-      "ParentId": 605,
+      "Name": "Murray, Keeling and Mraz",
+      "Fullname": "magni",
+      "ParentId": 318,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-04-17T10:30:32.0886795+02:00",
-      "RegisteredAssociateId": 123,
-      "Updated": "2008-10-03T10:30:32.0886795+02:00",
-      "UpdatedAssociateId": 279
+      "Registered": "2022-02-08T14:23:55.195897+01:00",
+      "RegisteredAssociateId": 177,
+      "Updated": "2020-08-19T14:23:55.195897+02:00",
+      "UpdatedAssociateId": 600
     }
   ],
-  "Registered": "2017-10-22T10:30:32.0886795+02:00",
-  "RegisteredAssociateId": 78,
-  "Updated": "1999-07-28T10:30:32.0886795+02:00",
-  "UpdatedAssociateId": 540
+  "Registered": "2010-03-20T14:23:55.195897+01:00",
+  "RegisteredAssociateId": 683,
+  "Updated": "2014-12-25T14:23:55.195897+01:00",
+  "UpdatedAssociateId": 6
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 18,
+  "HierarchyId": 801,
   "Domain": "Dashboards",
-  "Name": "Connelly Group",
-  "Fullname": "in",
-  "ParentId": 578,
+  "Name": "Kshlerin-Ferry",
+  "Fullname": "est",
+  "ParentId": 224,
   "Children": [
     {
-      "HierarchyId": 534,
+      "HierarchyId": 162,
       "Domain": "Dashboards",
-      "Name": "Stiedemann, Toy and Orn",
-      "Fullname": "non",
-      "ParentId": 796,
+      "Name": "Langworth-Tremblay",
+      "Fullname": "modi",
+      "ParentId": 695,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-07-13T10:30:32.0886795+02:00",
-      "RegisteredAssociateId": 641,
-      "Updated": "1999-01-23T10:30:32.0886795+01:00",
-      "UpdatedAssociateId": 825,
+      "Registered": "2004-07-03T14:23:55.195897+02:00",
+      "RegisteredAssociateId": 219,
+      "Updated": "2009-06-08T14:23:55.195897+02:00",
+      "UpdatedAssociateId": 707,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 591
+          "FieldLength": 51
         }
       }
     }
   ],
-  "Registered": "2022-09-01T10:30:32.0886795+02:00",
-  "RegisteredAssociateId": 437,
-  "Updated": "2012-06-09T10:30:32.0886795+02:00",
-  "UpdatedAssociateId": 155,
+  "Registered": "2012-01-24T14:23:55.195897+01:00",
+  "RegisteredAssociateId": 429,
+  "Updated": "2012-06-26T14:23:55.195897+02:00",
+  "UpdatedAssociateId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

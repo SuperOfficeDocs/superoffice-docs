@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 745,
-    "Name": "Welch-Carter",
-    "Tooltip": "dignissimos",
-    "Rank": 38,
-    "Key": "numquam",
+    "LegalBaseId": 902,
+    "Name": "West Group",
+    "Tooltip": "qui",
+    "Rank": 298,
+    "Key": "quos",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldType": "System.Int32",
+        "FieldLength": 971
       }
     }
   }

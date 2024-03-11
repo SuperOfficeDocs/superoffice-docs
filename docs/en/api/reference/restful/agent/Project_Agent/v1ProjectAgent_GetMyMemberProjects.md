@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 357,
-    "Name": "Leuschke Inc and Sons",
-    "Description": "Secured bi-directional access",
+    "ProjectId": 616,
+    "Name": "Reynolds Group",
+    "Description": "Optimized incremental info-mediaries",
     "URL": "http://www.example.com/",
-    "Type": "ipsum",
-    "AssociateId": 373,
-    "AssociateFullName": "Britney Schaden",
-    "TypeId": 517,
-    "Updated": "2015-07-18T10:30:24.3705833+02:00",
-    "StatusId": 253,
-    "Status": "ratione",
-    "TextId": 796,
-    "PublishTo": "2000-01-01T10:30:24.3705833+01:00",
-    "PublishFrom": "2019-05-10T10:30:24.3705833+02:00",
+    "Type": "id",
+    "AssociateId": 489,
+    "AssociateFullName": "Martin Bergstrom",
+    "TypeId": 971,
+    "Updated": "2021-11-18T14:23:47.1755092+01:00",
+    "StatusId": 287,
+    "Status": "eos",
+    "TextId": 202,
+    "PublishTo": "2003-03-16T14:23:47.1755092+01:00",
+    "PublishFrom": "2018-02-04T14:23:47.1755092+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "931160",
-    "ActiveErpLinks": 726,
+    "ProjectNumber": "139707",
+    "ActiveErpLinks": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

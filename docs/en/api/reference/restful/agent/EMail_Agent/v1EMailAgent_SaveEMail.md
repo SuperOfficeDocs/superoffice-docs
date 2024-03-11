@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 81,
-      "ContactName": "Hegmann-Konopelski",
-      "PersonId": 579,
-      "PersonName": "Ortiz, Crona and White",
-      "AssociateId": 369,
-      "Address": "a",
-      "EmailId": 403,
+      "ContactId": 873,
+      "ContactName": "Ziemann-Franecki",
+      "PersonId": 708,
+      "PersonName": "Howe-Block",
+      "AssociateId": 352,
+      "Address": "voluptas",
+      "EmailId": 241,
       "DuplicatePersonIds": [
-        63,
-        160
+        394,
+        590
       ],
-      "Name": "Parker, Purdy and Hermann",
+      "Name": "Kub Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 447
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 485,
-      "ContactName": "Casper-Lynch",
-      "PersonId": 527,
-      "PersonName": "Gibson, Von and Harber",
-      "AssociateId": 253,
-      "Address": "vero",
-      "EmailId": 28,
+      "ContactId": 222,
+      "ContactName": "Jacobson-Grady",
+      "PersonId": 940,
+      "PersonName": "Barrows, Greenholt and Cole",
+      "AssociateId": 989,
+      "Address": "qui",
+      "EmailId": 782,
       "DuplicatePersonIds": [
-        909,
-        614
+        544,
+        638
       ],
-      "Name": "Quitzon Group",
+      "Name": "Pagac-Marquardt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 997,
-      "ContactName": "Jacobson, Spencer and Greenfelder",
-      "PersonId": 939,
-      "PersonName": "Morissette, Hettinger and Towne",
-      "AssociateId": 972,
-      "Address": "sapiente",
-      "EmailId": 230,
+      "ContactId": 725,
+      "ContactName": "Smitham-Beahan",
+      "PersonId": 324,
+      "PersonName": "Schultz, Torp and Kub",
+      "AssociateId": 637,
+      "Address": "ipsum",
+      "EmailId": 842,
       "DuplicatePersonIds": [
-        402,
-        905
+        608,
+        411
       ],
-      "Name": "Bogisich-Bradtke",
+      "Name": "Klein-Trantow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
   ],
-  "Subject": "alias",
-  "HTMLBody": "commodi",
+  "Subject": "quod",
+  "HTMLBody": "necessitatibus",
   "From": null,
-  "Sent": "2016-09-15T10:30:23.798054+02:00",
-  "Size": 41,
+  "Sent": "1997-09-17T14:23:46.6418272+02:00",
+  "Size": 692,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "omnis",
-  "PlainBody": "omnis",
-  "IsSent": false,
+  "MessageID": "explicabo",
+  "PlainBody": "libero",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 554,
+  "ServerId": 550,
   "Attachments": [
     {
-      "Description": "Self-enabling background productivity",
-      "Filename": "tempore",
-      "Size": 979,
-      "Type": "impedit",
-      "Encoding": "quas",
-      "Id": "maxime",
-      "Disposition": "libero",
+      "Description": "Polarised directional methodology",
+      "Filename": "accusantium",
+      "Size": 43,
+      "Type": "neque",
+      "Encoding": "qui",
+      "Id": "fugiat",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 654
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wisozk, West and Hermiston",
+      "Name": "Dietrich-Prosacco",
       "Values": [
-        "nemo",
-        "est"
+        "ratione",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 608
         }
       }
     },
     {
-      "Name": "Wisozk, West and Hermiston",
+      "Name": "Dietrich-Prosacco",
       "Values": [
-        "nemo",
-        "est"
+        "ratione",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 608
         }
       }
     }
   ],
-  "FolderName": "Monahan-Gleichner",
-  "EmailItemId": 878,
-  "AccountId": 361,
-  "ReceivedAt": "2004-11-18T10:30:23.798054+01:00",
+  "FolderName": "Sawayn Inc and Sons",
+  "EmailItemId": 486,
+  "AccountId": 865,
+  "ReceivedAt": "2012-10-17T14:23:46.6418272+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-02-11T10:30:23.798054+01:00",
+  "RepliedAt": "2001-05-03T14:23:46.6418272+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

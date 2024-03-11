@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Value": "a",
-    "Tooltip": "molestiae",
+    "Id": 338,
+    "Value": "veritatis",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   },
   {
-    "Id": 324,
-    "Value": "a",
-    "Tooltip": "molestiae",
+    "Id": 338,
+    "Value": "veritatis",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

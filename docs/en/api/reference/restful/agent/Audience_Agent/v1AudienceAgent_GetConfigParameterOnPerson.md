@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Quigley Inc and Sons",
-  "PersonId": 289
+  "ParameterName": "Maggio Group",
+  "PersonId": 305
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 392,
-  "Name": "Durgan Inc and Sons",
-  "Value": "aut",
-  "CreatedDate": "2002-07-30T10:30:23.0826686+02:00",
-  "UpdatedDate": "2002-06-18T10:30:23.0826686+02:00",
-  "CreatedBy": "non",
-  "UpdatedBy": "amet",
+  "AudienceLayoutId": 633,
+  "Name": "Marquardt-Nienow",
+  "Value": "pariatur",
+  "CreatedDate": "2012-12-27T14:23:45.8605856+01:00",
+  "UpdatedDate": "2022-03-24T14:23:45.8605856+01:00",
+  "CreatedBy": "sunt",
+  "UpdatedBy": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

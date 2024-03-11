@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 795,
-  "Name": "Howell LLC",
-  "Tooltip": "quia",
-  "Rank": 382,
+  "SuggestedAppointmentId": 743,
+  "Name": "Mohr-Kshlerin",
+  "Tooltip": "a",
+  "Rank": 315,
   "Deleted": false,
-  "DaysFuture": 938,
-  "Duration": "temporibus",
+  "DaysFuture": 305,
+  "Duration": "quia",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "aut",
+  "AssignToMember": true,
+  "Text": "minima",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 46,
-  "Name": "Gleason-O'Hara",
-  "Tooltip": "et",
-  "Rank": 789,
-  "Deleted": true,
-  "DaysFuture": 683,
-  "Duration": "quibusdam",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 149,
+  "Name": "Frami Group",
+  "Tooltip": "veniam",
+  "Rank": 753,
+  "Deleted": false,
+  "DaysFuture": 262,
+  "Duration": "dicta",
+  "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "tenetur",
+  "AssignToMember": false,
+  "Text": "nulla",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 229
     }
   }
 }

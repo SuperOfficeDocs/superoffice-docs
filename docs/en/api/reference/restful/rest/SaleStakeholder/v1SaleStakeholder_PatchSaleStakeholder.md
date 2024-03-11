@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatibus",
+    "path": "sequi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatibus",
+    "path": "sequi",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Crona-Schneider",
-  "Comment": "tempore",
-  "StakeholderRoleId": 225,
-  "CountryId": 599,
-  "PersonId": 511,
-  "EmailDescription": "katharina.parisian@hoppe.com",
-  "EmailId": 312,
-  "EmailAddress": "raegan_ankunding@bergnaum.uk",
-  "PhoneId": 511,
-  "ContactName": "Grady-Schmitt",
-  "ContactId": 861,
-  "SaleId": 25,
-  "Mrmrs": "commodi",
-  "Firstname": "Maya",
-  "MiddleName": "Gutmann, Ortiz and Yundt",
-  "Lastname": "Braun",
-  "SaleStakeholderId": 225,
-  "Rank": 918,
-  "Phone": "520.309.2401 x7183",
+  "StakeholderRoleName": "Walker LLC",
+  "Comment": "molestiae",
+  "StakeholderRoleId": 796,
+  "CountryId": 400,
+  "PersonId": 564,
+  "EmailDescription": "marian.barton@murphy.ca",
+  "EmailId": 783,
+  "EmailAddress": "brennon.smith@schinnercummings.ca",
+  "PhoneId": 639,
+  "ContactName": "Donnelly, Blanda and Feeney",
+  "ContactId": 467,
+  "SaleId": 69,
+  "Mrmrs": "eligendi",
+  "Firstname": "Aniya",
+  "MiddleName": "Kuhlman Group",
+  "Lastname": "Walsh",
+  "SaleStakeholderId": 233,
+  "Rank": 982,
+  "Phone": "360.786.9974 x08909",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   },
   "_Links": {

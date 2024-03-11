@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 160
+  "DocumentId": 677
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "molestias",
-    "DocumentId": 366,
-    "VersionId": "suscipit",
-    "CheckedInDate": "2000-03-06T10:30:23.6886831+01:00",
-    "CheckedInByName": "Cremin, Leffler and Hegmann",
-    "CheckedInByAssociateId": 84,
-    "Description": "Face to face zero administration customer loyalty",
-    "DisplayText": "expedita",
+    "ExternalReference": "voluptas",
+    "DocumentId": 254,
+    "VersionId": "tenetur",
+    "CheckedInDate": "2016-04-29T14:23:46.3918288+02:00",
+    "CheckedInByName": "Dickinson, Wolf and Kirlin",
+    "CheckedInByAssociateId": 105,
+    "Description": "Persistent hybrid leverage",
+    "DisplayText": "nihil",
     "ExtraFields": [
-      "laborum",
-      "natus"
+      "fuga",
+      "omnis"
     ]
   }
 ]

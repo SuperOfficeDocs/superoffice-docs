@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Morar-Crist",
-  "DeviceName": "Wiegand, Kshlerin and Quigley",
-  "DeviceIdentifier": "beatae"
+  "ApplicationName": "Funk-Doyle",
+  "DeviceName": "Beier, Franecki and Jaskolski",
+  "DeviceIdentifier": "dolor"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "quidem",
-  "RecordId": 96,
-  "CreatedDate": "2009-12-23T10:30:23.9073938+01:00",
-  "UpdatedDate": "2007-10-27T10:30:23.9073938+02:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "aut",
-  "TableName": "Runte-Becker",
+  "Key": "dolorem",
+  "Value": "illum",
+  "RecordId": 324,
+  "CreatedDate": "2015-01-04T14:23:46.7524806+01:00",
+  "UpdatedDate": "2008-11-26T14:23:46.7524806+01:00",
+  "UpdatedBy": "numquam",
+  "CreatedBy": "ipsa",
+  "TableName": "Dicki-Leffler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldLength": 914
     }
   }
 }

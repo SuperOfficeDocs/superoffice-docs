@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 316,
-  "LanguageCode": "ut"
+  "DocumentTemplateId": 180,
+  "LanguageCode": "voluptas"
 }
 ```
 

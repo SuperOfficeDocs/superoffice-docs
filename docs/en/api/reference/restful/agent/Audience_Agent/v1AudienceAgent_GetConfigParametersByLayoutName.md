@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schroeder, Bartoletti and Okuneva"
+  "LayoutName": "Hettinger LLC"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 819,
-    "Name": "Crist, Bechtelar and Towne",
-    "Value": "ut",
-    "CreatedDate": "2000-08-08T10:30:23.0826686+02:00",
-    "UpdatedDate": "2011-12-30T10:30:23.0826686+01:00",
-    "CreatedBy": "omnis",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 137,
+    "Name": "Muller, Dickinson and Lynch",
+    "Value": "eveniet",
+    "CreatedDate": "2007-12-02T14:23:45.8762101+01:00",
+    "UpdatedDate": "2017-06-29T14:23:45.8762101+02:00",
+    "CreatedBy": "facere",
+    "UpdatedBy": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 634
       }
     }
   }

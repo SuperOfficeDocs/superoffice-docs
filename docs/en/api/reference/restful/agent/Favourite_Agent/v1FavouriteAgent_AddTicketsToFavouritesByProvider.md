@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stehr, Breitenberg and Romaguera",
+  "ProviderName": "Dickinson, Fay and Wintheiser",
   "Restrictions": [
     {
-      "Name": "Considine-Kling",
-      "Operator": "voluptatem",
+      "Name": "Smith Group",
+      "Operator": "ut",
       "Values": [
-        "praesentium",
-        "quia"
+        "nulla",
+        "dolore"
       ],
       "DisplayValues": [
-        "sed",
-        "quod"
+        "optio",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 800,
+      "InterParenthesis": 60,
       "InterOperator": "And",
-      "UniqueHash": 237
+      "UniqueHash": 786
     }
   ],
-  "AssociateId": 93,
-  "ExtraInfo": "natus"
+  "AssociateId": 824,
+  "ExtraInfo": "error"
 }
 ```
 

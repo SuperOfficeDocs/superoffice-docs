@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 535,
-  "Name": "Ullrich-Robel",
+  "WebhookId": 78,
+  "Name": "Grady, Cruickshank and Nienow",
   "Events": [
-    "recusandae",
-    "aut"
+    "sint",
+    "voluptas"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "voluptatem",
   "State": "Active",
-  "Type": "qui",
+  "Type": "temporibus",
   "Headers": {
-    "Headers1": "laborum",
-    "Headers2": "dolor"
+    "Headers1": "fugiat",
+    "Headers2": "enim"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-12-06T10:30:32.8113095+01:00",
+  "Registered": "2010-06-30T14:23:55.9314526+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-08-28T10:30:32.8113095+02:00",
+  "Updated": "2004-09-12T14:23:55.9314526+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "irma_denesik@greenweimann.uk"
+  "ErrorsEmail": "alexane_hane@durgan.biz"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 96,
-  "Name": "Crona LLC",
+  "WebhookId": 601,
+  "Name": "Feeney LLC",
   "Events": [
-    "perferendis",
-    "accusamus"
+    "illum",
+    "expedita"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eum",
+  "Secret": "corrupti",
   "State": "Active",
-  "Type": "aut",
+  "Type": "ipsa",
   "Headers": {
-    "Headers1": "maxime",
-    "Headers2": "nisi"
+    "Headers1": "veritatis",
+    "Headers2": "necessitatibus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-23T10:30:32.8113095+02:00",
+  "Registered": "1999-02-19T14:23:55.9314526+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-05-12T10:30:32.8113095+02:00",
+  "Updated": "2010-10-27T14:23:55.9314526+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "arnulfo_collins@jewesskshlerin.com",
+  "ErrorsEmail": "lucie@durgan.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

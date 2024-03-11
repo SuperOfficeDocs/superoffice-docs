@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=nihil
+GET /api/v1/List/Business/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Feeney Group",
-    "ToolTip": "Quisquam et rerum voluptas laboriosam et voluptas.",
+    "Id": 460,
+    "Name": "Kautzer, Mueller and Parker",
+    "ToolTip": "Totam tempore.",
     "Deleted": false,
-    "Rank": 888,
-    "Type": "rerum",
+    "Rank": 725,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Rohan Group",
-        "ToolTip": "Aut corporis ea at doloribus voluptatem architecto non.",
+        "Id": 436,
+        "Name": "Armstrong-Reynolds",
+        "ToolTip": "Ad eaque voluptate dolorem natus.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "iste",
+        "Rank": 328,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 141,
-        "ExtraInfo": "et",
-        "StyleHint": "deleniti",
-        "FullName": "Mr. Nikolas Labadie II",
+        "IconHint": "cupiditate",
+        "ColorBlock": 322,
+        "ExtraInfo": "dolores",
+        "StyleHint": "eos",
+        "FullName": "Elody Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldLength": 352
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 292,
-    "ExtraInfo": "sunt",
-    "StyleHint": "ad",
-    "FullName": "Trudie Huels",
+    "IconHint": "eos",
+    "ColorBlock": 499,
+    "ExtraInfo": "qui",
+    "StyleHint": "quidem",
+    "FullName": "Cynthia Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 327
       }
     }
   }

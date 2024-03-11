@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 5,
-    "Name": "Waelchi-Kub",
-    "Tooltip": "beatae",
-    "Deleted": false,
-    "Rank": 159,
-    "UdListDefinitionId": 398
+    "HeadingId": 896,
+    "Name": "Sauer-Tromp",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 504,
+    "UdListDefinitionId": 768
   },
   {
-    "HeadingId": 5,
-    "Name": "Waelchi-Kub",
-    "Tooltip": "beatae",
-    "Deleted": false,
-    "Rank": 159,
-    "UdListDefinitionId": 398
+    "HeadingId": 896,
+    "Name": "Sauer-Tromp",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 504,
+    "UdListDefinitionId": 768
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Weimann LLC",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 291,
-    "UdListDefinitionId": 788,
+    "HeadingId": 701,
+    "Name": "Blick-Goyette",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 638,
+    "UdListDefinitionId": 756,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 872
       }
     }
   }

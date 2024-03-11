@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Schroeder, Mayer and Fay",
-    "ToolTip": "Natus et qui aut nam et.",
+    "Id": 386,
+    "Name": "Hudson Group",
+    "ToolTip": "Ab ullam ad nihil doloribus qui.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "voluptatem",
-    "ColorBlock": 935,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2008-06-23T10:30:33.131835+02:00",
+    "Rank": 754,
+    "Type": "aut",
+    "ColorBlock": 282,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2003-12-08T14:23:56.228325+01:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Lockman, Shields and Grimes",
-        "ToolTip": "Et consequatur sed vitae aut inventore temporibus id.",
+        "Id": 140,
+        "Name": "Heidenreich-Willms",
+        "ToolTip": "Similique tempore eos eum.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "vel",
-        "ColorBlock": 592,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-09-05T10:30:33.131835+02:00",
+        "Rank": 247,
+        "Type": "dignissimos",
+        "ColorBlock": 792,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2005-06-22T14:23:56.2439493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Rebekah Russel",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Garett Emard IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 559
+            "FieldType": "System.Int32",
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Emmie Lindgren",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Prof. Claud Makenzie Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldType": "System.String",
+        "FieldLength": 283
       }
     }
   }

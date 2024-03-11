@@ -200,6 +200,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/associate/otherGroups|userGroup|Sale - Other groups: Other groups|  |
 |alternative/version/quote/sale/associate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/associate/personEmail|string|Sale - E-mail| x |
+|alternative/version/quote/sale/associate/locationAddress|string|Sale - Location: Location| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:1|string|Sale - saleshorttext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:2|string|Sale - salelongtext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:3|int|Sale - salenumber| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
-|alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
 |alternative/version/quote/connection/erpConnection/mostRecent|string|ERP connection - ERP connections - Timestamp: The timestamp of the most recent synchronization on this ERP connection|  |
@@ -247,7 +248,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/number,alternative/version/quote/sale/userGroup
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/originalStage,alternative/version/sent,alternative/version/quote/sale/who
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

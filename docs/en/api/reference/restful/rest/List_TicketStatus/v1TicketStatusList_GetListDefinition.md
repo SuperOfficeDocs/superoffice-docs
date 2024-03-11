@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 994,
-  "Name": "Kuhlman-Dibbert",
-  "Tooltip": "facilis",
+  "Id": 406,
+  "Name": "Kub-Wehner",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 193,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 929,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 818
     }
   },
   "_Links": {

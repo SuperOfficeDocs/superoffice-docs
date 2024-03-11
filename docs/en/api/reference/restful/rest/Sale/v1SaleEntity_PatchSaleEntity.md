@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "atque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-09-08T10:30:32.4656327+02:00",
-  "Amount": 13657.972,
-  "SaleId": 818,
-  "Earning": 16528.716,
-  "EarningPercent": 27024.482,
-  "Heading": "tempore",
-  "Number": "1333585",
-  "Probability": 662,
-  "CreatedDate": "2015-07-17T10:30:32.4656327+02:00",
-  "UpdatedDate": "2004-11-25T10:30:32.4656327+01:00",
+  "Saledate": "2001-12-06T14:23:55.4627088+01:00",
+  "Amount": 8364.6459999999988,
+  "SaleId": 696,
+  "Earning": 6242.928,
+  "EarningPercent": 18042.438,
+  "Heading": "minima",
+  "Number": "1462685",
+  "Probability": 686,
+  "CreatedDate": "2017-06-26T14:23:55.4627088+02:00",
+  "UpdatedDate": "2008-01-20T14:23:55.4627088+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 894,
+  "ActiveLinks": 304,
   "Links": [
     {
-      "EntityName": "DuBuque-Howe",
-      "Id": 211,
-      "Description": "Quality-focused zero defect infrastructure",
-      "ExtraInfo": "maxime",
-      "LinkId": 425,
+      "EntityName": "Klocko, Schiller and Bogan",
+      "Id": 942,
+      "Description": "Mandatory intermediate customer loyalty",
+      "ExtraInfo": "minima",
+      "LinkId": 751,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 362
         }
       }
     }
   ],
-  "NextDueDate": "2002-04-11T10:30:32.4656327+02:00",
-  "Postit": "enim",
+  "NextDueDate": "2021-03-15T14:23:55.4627088+01:00",
+  "Postit": "accusamus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-09-01T10:30:32.4656327+02:00",
+  "ReopenDate": "2019-03-04T14:23:55.4627088+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Pacocha LLC",
-      "Comment": "rem",
-      "StakeholderRoleId": 461,
-      "CountryId": 135,
-      "PersonId": 218,
-      "EmailDescription": "kale@ullrich.us",
-      "EmailId": 505,
-      "EmailAddress": "maurice_macejkovic@homenickwalter.co.uk",
-      "PhoneId": 876,
-      "ContactName": "West LLC",
-      "ContactId": 832,
-      "SaleId": 737,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Kianna",
-      "MiddleName": "Kerluke-Koepp",
-      "Lastname": "Stanton",
-      "SaleStakeholderId": 171,
-      "Rank": 9,
-      "Phone": "240-613-6409",
+      "StakeholderRoleName": "Cummerata, Hackett and Quigley",
+      "Comment": "quo",
+      "StakeholderRoleId": 617,
+      "CountryId": 381,
+      "PersonId": 619,
+      "EmailDescription": "clara_king@williamson.info",
+      "EmailId": 218,
+      "EmailAddress": "noemi@nitzsche.us",
+      "PhoneId": 138,
+      "ContactName": "Leannon-Batz",
+      "ContactId": 273,
+      "SaleId": 319,
+      "Mrmrs": "vel",
+      "Firstname": "Jacklyn",
+      "MiddleName": "Bayer, Von and Casper",
+      "Lastname": "Schmeler",
+      "SaleStakeholderId": 355,
+      "Rank": 267,
+      "Phone": "994.151.1613 x5695",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldLength": 38
         }
       }
     }
   ],
-  "ActiveErpLinks": 350,
+  "ActiveErpLinks": 991,
   "UserDefinedFields": {
-    "SuperOffice:1": "252868683",
-    "SuperOffice:2": "Kendall Hickle"
+    "SuperOffice:1": "818375921",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "placeat",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "rerum"
+    "CustomFields1": "ea",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2021-03-05T10:30:32.4656327+01:00",
-  "PublishTo": "2009-06-27T10:30:32.4656327+02:00",
-  "PublishFrom": "2021-10-11T10:30:32.4656327+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-07-28T14:23:55.4627088+02:00",
+  "PublishTo": "2007-06-02T14:23:55.4627088+02:00",
+  "PublishFrom": "2003-06-18T14:23:55.4627088+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 257,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 709
         }
       }
     },
     {
-      "VisibleId": 257,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 709
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 827
     }
   },
   "_Links": {

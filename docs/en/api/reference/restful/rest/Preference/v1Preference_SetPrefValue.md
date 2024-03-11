@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quod",
+  "RawValue": "aliquam",
   "Specification": null,
   "DisplayValue": "aut",
-  "DisplayTooltip": "dicta",
+  "DisplayTooltip": "molestiae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 135,
-  "PrefDescId": 203,
-  "TableName": "Beatty, Donnelly and Bogisich",
-  "UserPreferenceId": 113
+  "TargetId": 210,
+  "PrefDescId": 883,
+  "TableName": "Rogahn Group",
+  "UserPreferenceId": 957
 }
 ```
 

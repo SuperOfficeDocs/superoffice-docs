@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 353,
-  "StartTime": "2011-10-09T10:30:23.5769016+02:00",
-  "EndTime": "2017-02-09T10:30:23.5769016+01:00",
-  "Count": 937,
-  "DocumentTemplateId": 535
+  "PersonId": 248,
+  "StartTime": "2021-07-22T14:23:46.2824577+02:00",
+  "EndTime": "2016-04-01T14:23:46.2824577+02:00",
+  "Count": 953,
+  "DocumentTemplateId": 394
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 41,
-    "Attention": "saepe",
-    "Header": "saepe",
-    "Name": "Thiel-Will",
-    "OurRef": "consectetur",
-    "YourRef": "hic",
-    "Description": "Optional even-keeled encryption",
-    "DocumentTemplate": "omnis",
-    "IsPublished": false,
-    "PersonId": 305,
-    "PersonFullName": "Prof. Cecile Hirthe",
-    "AssociateFullName": "Eden O'Kon",
-    "ContactId": 926,
-    "ContactName": "Franecki, Price and Kshlerin",
-    "ProjectId": 945,
-    "ProjectName": "O'Hara-Dach",
-    "AssociateId": 184,
-    "Snum": 649,
-    "SaleId": 716,
-    "SaleName": "Herzog, Nolan and Mante",
+    "DocumentId": 734,
+    "Attention": "officiis",
+    "Header": "magni",
+    "Name": "Funk LLC",
+    "OurRef": "id",
+    "YourRef": "sit",
+    "Description": "Grass-roots even-keeled software",
+    "DocumentTemplate": "fugiat",
+    "IsPublished": true,
+    "PersonId": 753,
+    "PersonFullName": "Selmer Mayer",
+    "AssociateFullName": "Gust Mertz",
+    "ContactId": 792,
+    "ContactName": "Harber-Gaylord",
+    "ProjectId": 952,
+    "ProjectName": "Dickinson Inc and Sons",
+    "AssociateId": 641,
+    "Snum": 384,
+    "SaleId": 982,
+    "SaleName": "McGlynn-Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldLength": 189
       }
     }
   }

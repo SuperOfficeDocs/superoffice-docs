@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gaylord, Gaylord and Windler",
+  "ProviderName": "Schroeder, Murphy and Reichel",
   "Restrictions": [
     {
-      "Name": "Weber Group",
-      "Operator": "modi",
+      "Name": "Davis, Ernser and Monahan",
+      "Operator": "rerum",
       "Values": [
-        "recusandae",
-        "veniam"
+        "in",
+        "similique"
       ],
       "DisplayValues": [
-        "quis",
-        "fugiat"
+        "aspernatur",
+        "soluta"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 101,
+      "InterParenthesis": 70,
       "InterOperator": "And",
-      "UniqueHash": 747
+      "UniqueHash": 722
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Graham Group",
-    "Operator": "et",
+    "Name": "McKenzie-Kuhic",
+    "Operator": "perferendis",
     "Values": [
-      "enim",
-      "saepe"
+      "laudantium",
+      "sed"
     ],
     "DisplayValues": [
-      "libero",
-      "repudiandae"
+      "magnam",
+      "dolores"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Larkin Group",
-        "Operator": "eos",
+        "Name": "Mayer LLC",
+        "Operator": "voluptatem",
         "Values": [
-          "sit",
-          "nihil"
+          "magnam",
+          "totam"
         ],
         "DisplayValues": [
-          "et",
-          "officia"
+          "sit",
+          "temporibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 898,
+        "InterParenthesis": 795,
         "InterOperator": "And",
-        "UniqueHash": 470
+        "UniqueHash": 306
       }
     ],
-    "InterParenthesis": 970,
+    "InterParenthesis": 254,
     "InterOperator": "And",
-    "UniqueHash": 61
+    "UniqueHash": 821
   }
 ]
 ```

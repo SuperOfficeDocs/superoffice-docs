@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=maxime
+GET /api/v1/List/Source/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Watsica, Lueilwitz and Rowe",
-    "ToolTip": "Et doloribus voluptatem.",
+    "Id": 526,
+    "Name": "Beatty, Morar and Greenholt",
+    "ToolTip": "Iste recusandae vel voluptatem.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "officia",
+    "Rank": 235,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Mraz Inc and Sons",
-        "ToolTip": "Est accusamus quos ab rem voluptatem.",
-        "Deleted": true,
-        "Rank": 872,
-        "Type": "eveniet",
+        "Id": 96,
+        "Name": "Fisher Inc and Sons",
+        "ToolTip": "Dignissimos dolores laudantium voluptas nihil facilis consequatur.",
+        "Deleted": false,
+        "Rank": 259,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 522,
-        "ExtraInfo": "quam",
-        "StyleHint": "libero",
-        "FullName": "Hortense Jewess II",
+        "IconHint": "mollitia",
+        "ColorBlock": 693,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "rem",
+        "FullName": "Mr. Juston Berenice Wisoky MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 68,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "error",
-    "FullName": "Alford Johns PhD",
+    "IconHint": "omnis",
+    "ColorBlock": 420,
+    "ExtraInfo": "maxime",
+    "StyleHint": "quibusdam",
+    "FullName": "Twila Saul Rippin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldType": "System.String",
+        "FieldLength": 769
       }
     }
   }

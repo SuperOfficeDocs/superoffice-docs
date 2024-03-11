@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Wuckert Inc and Sons",
-    "ToolTip": "Debitis saepe velit hic rerum non dolorem molestias.",
+    "Id": 161,
+    "Name": "Monahan, Langworth and Fritsch",
+    "ToolTip": "Est cupiditate.",
     "Deleted": true,
-    "Rank": 143,
-    "Type": "nihil",
-    "ColorBlock": 681,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2017-11-28T10:30:32.9118319+01:00",
+    "Rank": 270,
+    "Type": "ut",
+    "ColorBlock": 742,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2024-01-08T14:23:56.009576+01:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Rogahn-Cartwright",
-        "ToolTip": "Et et pariatur et eos.",
-        "Deleted": false,
-        "Rank": 158,
-        "Type": "facilis",
-        "ColorBlock": 403,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2005-06-04T10:30:32.9118319+02:00",
+        "Id": 367,
+        "Name": "Bahringer, Beier and Bergnaum",
+        "ToolTip": "Ipsa dolorum.",
+        "Deleted": true,
+        "Rank": 436,
+        "Type": "quidem",
+        "ColorBlock": 676,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2013-02-23T14:23:56.009576+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "dolores",
+        "ExtraInfo": "qui",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Mrs. Naomie Henriette Hermann III",
+        "FullName": "Claire Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 760
+            "FieldType": "System.Int32",
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "et",
+    "ExtraInfo": "odio",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Leopold Ronny Emard III",
+    "FullName": "Lea Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 260
       }
     }
   }

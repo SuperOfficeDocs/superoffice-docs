@@ -90,11 +90,12 @@ as well as before any ORDER BY, are applied.
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/middleName
+GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

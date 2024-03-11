@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Little, O'Connell and Howell",
-  "FieldName": "Stiedemann-Flatley"
+  "TableName": "Towne, Predovic and Kshlerin",
+  "FieldName": "Lubowitz-Bednar"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Dach-Mueller",
-  "DisplayName": "Durgan, Torp and Stroman",
-  "Description": "Public-key holistic success",
-  "ShortLabel": "impedit",
-  "HideLabel": true,
-  "HideField": false,
+  "FieldName": "Farrell, Kohler and Cruickshank",
+  "DisplayName": "Larson, Hills and Boyer",
+  "Description": "User-centric actuating intranet",
+  "ShortLabel": "in",
+  "HideLabel": false,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 342,
-  "TemplateVariableName": "Gislason Inc and Sons"
+  "Rank": 916,
+  "TemplateVariableName": "Huels, Towne and Hagenes"
 }
 ```

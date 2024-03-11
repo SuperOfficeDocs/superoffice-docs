@@ -71,7 +71,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jacobi Inc and Sons",
-  "DisplayName": "Kuphal Group",
-  "Description": "Open-source multi-state artificial intelligence",
-  "ShortLabel": "iusto",
-  "HideLabel": true,
+  "FieldName": "Nitzsche LLC",
+  "DisplayName": "Mante LLC",
+  "Description": "Compatible dedicated functionalities",
+  "ShortLabel": "tenetur",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 197,
-  "TemplateVariableName": "Block-Metz"
+  "IsIndexed": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "Rank": 786,
+  "TemplateVariableName": "Johns-Conroy"
 }
 ```

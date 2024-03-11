@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 242,
-  "WorkflowId": 374,
+  "WorkflowTriggerId": 946,
+  "WorkflowId": 718,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "McCullough LLC",
-      "Description": "User-friendly disintermediate attitude",
-      "Rank": 36,
+      "Name": "Pagac-Gleason",
+      "Description": "Exclusive bandwidth-monitored benchmark",
+      "Rank": 283,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McCullough LLC",
-      "Description": "User-friendly disintermediate attitude",
-      "Rank": 36,
+      "Name": "Pagac-Gleason",
+      "Description": "Exclusive bandwidth-monitored benchmark",
+      "Rank": 283,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 296,
-  "WorkflowId": 580,
+  "WorkflowTriggerId": 741,
+  "WorkflowId": 393,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Koch LLC",
-      "Description": "Sharable needs-based product",
-      "Rank": 258,
+      "Name": "Champlin LLC",
+      "Description": "Realigned stable function",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koch LLC",
-      "Description": "Sharable needs-based product",
-      "Rank": 258,
+      "Name": "Champlin LLC",
+      "Description": "Realigned stable function",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

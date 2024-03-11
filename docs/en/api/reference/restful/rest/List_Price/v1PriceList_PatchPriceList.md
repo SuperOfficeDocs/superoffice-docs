@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "quod",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "quod",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 608,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 841,
-  "Name": "Kunze, Mante and Beatty",
-  "Description": "Quality-focused homogeneous structure",
-  "Currency": "autem",
-  "CurrencyName": "Walsh, Hermiston and Heaney",
-  "ValidFrom": "2013-03-19T10:30:33.0849147+01:00",
-  "ValidTo": "2000-04-19T10:30:33.0849147+02:00",
+  "PriceListId": 524,
+  "ERPPriceListKey": "possimus",
+  "QuoteConnectionId": 411,
+  "Name": "Gleason, Murphy and Hoppe",
+  "Description": "Re-contextualized attitude-oriented circuit",
+  "Currency": "ex",
+  "CurrencyName": "Legros LLC",
+  "ValidFrom": "2016-04-24T14:23:56.1814517+02:00",
+  "ValidTo": "2021-09-23T14:23:56.1814517+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   },
   "_Links": {

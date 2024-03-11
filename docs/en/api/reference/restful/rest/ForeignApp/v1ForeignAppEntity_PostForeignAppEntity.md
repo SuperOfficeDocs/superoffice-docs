@@ -92,23 +92,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 153,
-  "Name": "Bins-Schinner",
-  "CreatedDate": "2005-05-23T10:30:32.0574265+02:00",
-  "UpdatedDate": "1996-12-26T10:30:32.0574265+01:00",
+  "ForeignAppId": 9,
+  "Name": "Ryan Inc and Sons",
+  "CreatedDate": "2004-11-25T14:23:55.1802705+01:00",
+  "UpdatedDate": "1999-09-05T14:23:55.1802705+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 237,
-      "Name": "Gaylord Inc and Sons",
-      "CreatedDate": "2006-07-27T10:30:32.0574265+02:00",
-      "UpdatedDate": "2004-12-22T10:30:32.0574265+01:00",
-      "AssociateFullName": "Mrs. Joan Nienow",
-      "CreatedBy": "sunt",
-      "UpdatedBy": "hic",
-      "DeviceIdentifier": "autem",
-      "ForeignAppId": 640
+      "ForeignDeviceId": 487,
+      "Name": "Zieme, Wehner and Metz",
+      "CreatedDate": "1997-04-05T14:23:55.1802705+02:00",
+      "UpdatedDate": "2015-01-08T14:23:55.1802705+01:00",
+      "AssociateFullName": "Tevin Wolf",
+      "CreatedBy": "ad",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "architecto",
+      "ForeignAppId": 505
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 820,
-  "Name": "Jones, Labadie and Corkery",
-  "CreatedDate": "2009-05-30T10:30:32.0730519+02:00",
-  "UpdatedDate": "2003-11-23T10:30:32.0730519+01:00",
+  "ForeignAppId": 99,
+  "Name": "Block-Kozey",
+  "CreatedDate": "2003-08-29T14:23:55.1802705+02:00",
+  "UpdatedDate": "2021-10-01T14:23:55.1802705+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 23,
-      "Name": "Shields-Gutmann",
-      "CreatedDate": "1998-09-19T10:30:32.0730519+02:00",
-      "UpdatedDate": "2007-08-27T10:30:32.0730519+02:00",
-      "AssociateFullName": "Ms. Kiara Legros III",
-      "CreatedBy": "ut",
-      "UpdatedBy": "vero",
-      "DeviceIdentifier": "repellendus",
-      "ForeignAppId": 58,
+      "ForeignDeviceId": 676,
+      "Name": "Kuhn Inc and Sons",
+      "CreatedDate": "2020-09-20T14:23:55.1802705+02:00",
+      "UpdatedDate": "2020-08-17T14:23:55.1802705+02:00",
+      "AssociateFullName": "Jasmin Rowe",
+      "CreatedBy": "ipsum",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 903,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 515
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldLength": 308
     }
   },
   "_Links": {

@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "odit",
+  "Type": "eius",
   "ItemsIds": [
-    132,
-    641
+    674,
+    743
   ]
 }
 ```

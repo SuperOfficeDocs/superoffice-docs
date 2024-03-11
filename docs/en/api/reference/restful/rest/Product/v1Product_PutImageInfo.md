@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 707,
-  "BlobSize": 217,
-  "Description": "Multi-channelled dedicated attitude",
-  "ExtraInfo": "odit",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "reiciendis",
-  "OriginalSize": 671,
-  "CreatedDate": "1998-07-20T10:30:32.7175195+02:00",
-  "UpdatedDate": "2011-03-28T10:30:32.7175195+02:00",
+  "BlobId": 654,
+  "BlobSize": 85,
+  "Description": "Persevering fault-tolerant architecture",
+  "ExtraInfo": "ut",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "neque",
+  "OriginalSize": 317,
+  "CreatedDate": "1999-05-12T14:23:55.8220807+02:00",
+  "UpdatedDate": "2013-12-03T14:23:55.8220807+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facere"
+  "ConceptualType": "aperiam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 632,
-  "BlobSize": 544,
-  "Description": "Re-engineered exuding help-desk",
-  "ExtraInfo": "enim",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "necessitatibus",
-  "OriginalSize": 10,
-  "CreatedDate": "2020-12-04T10:30:32.7175195+01:00",
-  "UpdatedDate": "2016-02-26T10:30:32.7175195+01:00",
+  "BlobId": 373,
+  "BlobSize": 327,
+  "Description": "Synergistic discrete neural-net",
+  "ExtraInfo": "perferendis",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "officia",
+  "OriginalSize": 123,
+  "CreatedDate": "2023-02-15T14:23:55.8220807+01:00",
+  "UpdatedDate": "2006-11-29T14:23:55.8220807+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

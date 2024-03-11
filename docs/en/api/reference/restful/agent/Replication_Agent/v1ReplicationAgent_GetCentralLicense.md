@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kertzmann, Osinski and Pacocha",
-    "Description": "Cross-group zero tolerance superstructure",
+    "Name": "Bogisich Group",
+    "Description": "Extended even-keeled service-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 320,
-        "Tooltip": "animi",
-        "CanAssign": false,
-        "Free": 31,
-        "InUse": 198,
+        "Unrestricted": true,
+        "Total": 887,
+        "Tooltip": "aperiam",
+        "CanAssign": true,
+        "Free": 831,
+        "InUse": 850,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 293,
-        "Name": "Mann-Bergstrom",
-        "Description": "Customer-focused systemic focus group",
-        "PrerequisiteModuleName": "Lubowitz, Bednar and Murray",
-        "SortOrder": 16,
-        "ExtraFlags": 918,
+        "Assigned": true,
+        "ModuleLicenseId": 691,
+        "Name": "Gislason Inc and Sons",
+        "Description": "Switchable value-added algorithm",
+        "PrerequisiteModuleName": "Bayer-Hegmann",
+        "SortOrder": 48,
+        "ExtraFlags": 563,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldType": "System.String",
+            "FieldLength": 920
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 319,
-        "Tooltip": "modi",
+        "Unrestricted": false,
+        "Total": 969,
+        "Tooltip": "magnam",
         "CanAssign": false,
-        "Free": 843,
-        "InUse": 207,
+        "Free": 717,
+        "InUse": 560,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 679,
-        "Name": "Klocko, Lynch and Heathcote",
-        "Description": "Ameliorated 24 hour customer loyalty",
-        "PrerequisiteModuleName": "Prosacco, Kertzmann and Braun",
-        "SortOrder": 948,
-        "ExtraFlags": 644,
+        "ModuleLicenseId": 267,
+        "Name": "Stark LLC",
+        "Description": "Total interactive forecast",
+        "PrerequisiteModuleName": "Lindgren-Herman",
+        "SortOrder": 325,
+        "ExtraFlags": 640,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 189
           }
         }
       }
@@ -139,62 +139,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   },
   {
-    "Name": "Kertzmann, Osinski and Pacocha",
-    "Description": "Cross-group zero tolerance superstructure",
+    "Name": "Bogisich Group",
+    "Description": "Extended even-keeled service-desk",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 320,
-        "Tooltip": "animi",
-        "CanAssign": false,
-        "Free": 31,
-        "InUse": 198,
+        "Unrestricted": true,
+        "Total": 887,
+        "Tooltip": "aperiam",
+        "CanAssign": true,
+        "Free": 831,
+        "InUse": 850,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 293,
-        "Name": "Mann-Bergstrom",
-        "Description": "Customer-focused systemic focus group",
-        "PrerequisiteModuleName": "Lubowitz, Bednar and Murray",
-        "SortOrder": 16,
-        "ExtraFlags": 918,
+        "Assigned": true,
+        "ModuleLicenseId": 691,
+        "Name": "Gislason Inc and Sons",
+        "Description": "Switchable value-added algorithm",
+        "PrerequisiteModuleName": "Bayer-Hegmann",
+        "SortOrder": 48,
+        "ExtraFlags": 563,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldType": "System.String",
+            "FieldLength": 920
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 319,
-        "Tooltip": "modi",
+        "Unrestricted": false,
+        "Total": 969,
+        "Tooltip": "magnam",
         "CanAssign": false,
-        "Free": 843,
-        "InUse": 207,
+        "Free": 717,
+        "InUse": 560,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 679,
-        "Name": "Klocko, Lynch and Heathcote",
-        "Description": "Ameliorated 24 hour customer loyalty",
-        "PrerequisiteModuleName": "Prosacco, Kertzmann and Braun",
-        "SortOrder": 948,
-        "ExtraFlags": 644,
+        "ModuleLicenseId": 267,
+        "Name": "Stark LLC",
+        "Description": "Total interactive forecast",
+        "PrerequisiteModuleName": "Lindgren-Herman",
+        "SortOrder": 325,
+        "ExtraFlags": 640,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 189
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   }

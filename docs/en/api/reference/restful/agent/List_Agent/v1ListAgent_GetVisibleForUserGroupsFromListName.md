@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bogisich LLC",
-  "ListItemId": 308
+  "UdListDefinitionName": "Will, Wunsch and Rau",
+  "ListItemId": 259
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Huels, Spencer and Reichert",
-    "ToolTip": "Ducimus rerum.",
+    "Id": 66,
+    "Name": "Satterfield-Bruen",
+    "ToolTip": "Asperiores nulla quod labore.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "fuga",
-    "ColorBlock": 711,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2007-07-31T10:30:23.978726+02:00",
+    "Rank": 929,
+    "Type": "dolore",
+    "ColorBlock": 916,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2022-09-16T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Pagac Group",
-        "ToolTip": "Dolores ut.",
+        "Id": 335,
+        "Name": "Muller, Fay and Becker",
+        "ToolTip": "Voluptas et veritatis.",
         "Deleted": true,
-        "Rank": 990,
-        "Type": "et",
-        "ColorBlock": 624,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "1996-10-19T10:30:23.978726+02:00",
+        "Rank": 987,
+        "Type": "quibusdam",
+        "ColorBlock": 420,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2004-12-01T14:23:46.8306046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Alf Gerlach Jr.",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Darian Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 637
+            "FieldType": "System.Int32",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Chauncey Koss",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Loraine Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldLength": 91
       }
     }
   }

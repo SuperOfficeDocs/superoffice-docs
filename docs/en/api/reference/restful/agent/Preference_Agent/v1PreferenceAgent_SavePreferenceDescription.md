@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 211,
-  "Section": "ad",
-  "Key": "ea",
-  "Name": "Jacobson Group",
+  "PrefDescId": 132,
+  "Section": "adipisci",
+  "Key": "consectetur",
+  "Name": "Labadie Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated optimizing alliance",
+  "Description": "Function-based contextually-based migration",
   "IsBuiltin": false,
-  "TableName": "Sipes Inc and Sons",
-  "UserDefinedListId": 153,
-  "Rank": 574,
-  "SubGroup": "nam",
-  "MinLevel": 572,
-  "MaxValue": 70,
-  "MinValue": 347,
-  "RequiredLicense": "voluptatem"
+  "TableName": "Kling Inc and Sons",
+  "UserDefinedListId": 178,
+  "Rank": 295,
+  "SubGroup": "non",
+  "MinLevel": 604,
+  "MaxValue": 464,
+  "MinValue": 58,
+  "RequiredLicense": "eum"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 434,
-  "Section": "nihil",
-  "Key": "quaerat",
-  "Name": "Hartmann-Predovic",
+  "PrefDescId": 556,
+  "Section": "voluptatem",
+  "Key": "dolorum",
+  "Name": "Spencer, Huel and Vandervort",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased logistical firmware",
+  "Description": "Front-line dedicated encryption",
   "IsBuiltin": false,
-  "TableName": "Hammes, Aufderhar and Leuschke",
-  "UserDefinedListId": 3,
-  "Rank": 896,
-  "SubGroup": "dolor",
-  "MinLevel": 862,
-  "MaxValue": 127,
-  "MinValue": 514,
-  "RequiredLicense": "et",
+  "TableName": "Boehm, Abbott and Dickens",
+  "UserDefinedListId": 395,
+  "Rank": 4,
+  "SubGroup": "ut",
+  "MinLevel": 110,
+  "MaxValue": 672,
+  "MinValue": 4,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

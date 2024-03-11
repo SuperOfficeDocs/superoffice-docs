@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schroeder, Swift and Leffler",
-  "Id": 376
+  "TableName": "Abernathy, Murray and Labadie",
+  "Id": 222
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "rem",
-    "Values2": "quod"
+    "Values1": "consequatur",
+    "Values2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 210
     }
   }
 }

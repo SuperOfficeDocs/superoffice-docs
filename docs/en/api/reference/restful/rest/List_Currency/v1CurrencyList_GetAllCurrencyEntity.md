@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 768,
-    "Name": "Hammes-Reilly",
-    "Tooltip": "quia",
-    "Rank": 745,
-    "Rate": 9358.124,
-    "Units": 30976.456,
+    "CurrencyId": 645,
+    "Name": "Swaniawski-Legros",
+    "Tooltip": "reiciendis",
+    "Rank": 203,
+    "Rate": 17095.97,
+    "Units": 24222.685999999998,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 693
       }
     }
   }

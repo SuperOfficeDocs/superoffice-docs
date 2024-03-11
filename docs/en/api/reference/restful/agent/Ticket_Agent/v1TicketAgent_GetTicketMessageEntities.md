@@ -103,10 +103,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 704,
+  "TicketId": 316,
   "MessageIds": [
-    43,
-    457
+    939,
+    131
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 625,
+    "EjMessageId": 87,
     "Ticket": null,
-    "CreatedAt": "1999-01-24T10:30:24.9204564+01:00",
+    "CreatedAt": "2018-03-28T14:23:47.7692506+02:00",
     "CreatedBy": null,
-    "Author": "ipsum",
+    "Author": "pariatur",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "aut",
-    "TimeSpent": 508,
-    "Body": "est",
-    "HtmlBody": "sed",
-    "EmailHeader": "ottis.schneider@bayer.co.uk",
-    "DebugInfo": "reprehenderit",
-    "MailSorter": "enim",
+    "MessageId": "voluptatem",
+    "TimeSpent": 653,
+    "Body": "quo",
+    "HtmlBody": "quia",
+    "EmailHeader": "colton_kuhn@nienow.co.uk",
+    "DebugInfo": "adipisci",
+    "MailSorter": "ullam",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "sed",
+    "SearchTitle": "repellendus",
     "MessageHeaders": [
       {
-        "Id": 474,
-        "Name": "Halvorson-Rice",
-        "Value": "nesciunt",
+        "Id": 636,
+        "Name": "Dickinson-Larson",
+        "Value": "optio",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldLength": 385
           }
         }
       }
     ],
     "Important": false,
-    "Language": "ut",
-    "Sentiment": 352,
-    "SentimentConfidence": 319,
+    "Language": "accusantium",
+    "Sentiment": 216,
+    "SentimentConfidence": 865,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 336,
-        "Name": "Wyman-Bahringer",
-        "ContentType": "porro",
-        "AttSize": 312,
+        "AttachmentId": 640,
+        "Name": "Quitzon-Orn",
+        "ContentType": "eaque",
+        "AttSize": 65,
         "InlineImage": false,
-        "ContentId": "porro",
-        "AuthKey": "veritatis",
+        "ContentId": "harum",
+        "AuthKey": "adipisci",
         "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 775
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "vitae",
-      "ExtraFields2": "debitis"
+      "ExtraFields1": "quaerat",
+      "ExtraFields2": "exercitationem"
     },
     "CustomFields": {
-      "CustomFields1": "molestiae",
-      "CustomFields2": "non"
+      "CustomFields1": "repellat",
+      "CustomFields2": "recusandae"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 413
       }
     }
   }

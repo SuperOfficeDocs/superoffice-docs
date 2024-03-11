@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "fuga",
-  "OptionalSecretKey": "beatae"
+  "Token": "ipsam",
+  "OptionalSecretKey": "qui"
 }
 ```
 

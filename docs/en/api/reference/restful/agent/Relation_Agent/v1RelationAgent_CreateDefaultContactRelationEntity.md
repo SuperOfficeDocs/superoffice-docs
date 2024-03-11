@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 796,
-  "SourcePersonId": 569,
-  "DestinationContactId": 643,
-  "DestinationPersonId": 284,
-  "RelationId": 534,
-  "Comment": "iusto",
-  "RelationDefinitionId": 417,
-  "Reversed": 558,
-  "UpdatedDate": "2015-05-23T10:30:24.4502511+02:00",
-  "CreatedDate": "2018-09-08T10:30:24.4502511+02:00",
+  "SourceContactId": 695,
+  "SourcePersonId": 62,
+  "DestinationContactId": 445,
+  "DestinationPersonId": 650,
+  "RelationId": 809,
+  "Comment": "dicta",
+  "RelationDefinitionId": 615,
+  "Reversed": 404,
+  "UpdatedDate": "2014-02-03T14:23:47.2692571+01:00",
+  "CreatedDate": "2000-10-15T14:23:47.2692571+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schuster-Kirlin",
-  "SourcePersonName": "Quigley-Smitham",
-  "DestinationContactName": "Walsh LLC",
-  "DestinationPersonName": "Pfannerstill-Reilly",
-  "ActiveText": "non",
-  "PassiveText": "in",
+  "SourceContactName": "Walter, Kunde and Steuber",
+  "SourcePersonName": "Corwin Group",
+  "DestinationContactName": "Hilpert, Gaylord and Ernser",
+  "DestinationPersonName": "Gaylord, Barrows and Spencer",
+  "ActiveText": "minima",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 844
     }
   }
 }

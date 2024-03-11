@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 192,
+  "RecordId": 217,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Anderson Group",
-    "CrmFieldKey": "id",
-    "Value": "quam",
-    "DisplayValue": "quia",
-    "SyncToCrm": true,
+    "DisplayName": "Bogan, Torphy and Jenkins",
+    "CrmFieldKey": "in",
+    "Value": "deserunt",
+    "DisplayValue": "vero",
+    "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 472
       }
     }
   }

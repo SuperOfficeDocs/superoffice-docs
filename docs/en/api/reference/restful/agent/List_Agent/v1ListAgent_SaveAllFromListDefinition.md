@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 346,
+  "UdListDefinitionId": 935,
   "Items": [
     {
-      "Id": 458,
-      "Name": "Rutherford-Harvey",
-      "Tooltip": "qui",
+      "Id": 814,
+      "Name": "Swaniawski-Moore",
+      "Tooltip": "ducimus",
       "Deleted": true,
-      "UdListDefinitionId": 573,
-      "Rank": 737
+      "UdListDefinitionId": 326,
+      "Rank": 478
     },
     {
-      "Id": 458,
-      "Name": "Rutherford-Harvey",
-      "Tooltip": "qui",
+      "Id": 814,
+      "Name": "Swaniawski-Moore",
+      "Tooltip": "ducimus",
       "Deleted": true,
-      "UdListDefinitionId": 573,
-      "Rank": 737
+      "UdListDefinitionId": 326,
+      "Rank": 478
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Bosco Group",
-    "Tooltip": "ipsam",
+    "Id": 727,
+    "Name": "Schoen-Volkman",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 977,
-    "Rank": 560,
+    "UdListDefinitionId": 572,
+    "Rank": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 300
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

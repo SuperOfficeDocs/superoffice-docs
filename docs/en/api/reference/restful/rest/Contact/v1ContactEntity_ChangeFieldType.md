@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 554,
-  "ColumnId": 908,
-  "FieldDefault": "rerum",
-  "FieldHeight": 21,
-  "FieldLabel": "deserunt",
-  "FieldLeft": 713,
-  "FieldTop": 6,
+  "UDefFieldId": 747,
+  "ColumnId": 45,
+  "FieldDefault": "quia",
+  "FieldHeight": 85,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 123,
+  "FieldTop": 132,
   "FieldType": "Checkbox",
-  "FieldWidth": 285,
-  "FormatMask": "omnis",
+  "FieldWidth": 853,
+  "FormatMask": "facilis",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 928,
-  "LabelLeft": 858,
-  "LabelTop": 12,
-  "LabelWidth": 834,
-  "LastVersionId": 789,
-  "ListTableId": 363,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 838,
+  "LabelLeft": 409,
+  "LabelTop": 656,
+  "LabelWidth": 266,
+  "LastVersionId": 996,
+  "ListTableId": 19,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 386,
-  "ProgId": "ad",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 208,
-  "TextLength": 281,
-  "Tooltip": "quaerat",
-  "UdefIdentity": 570,
-  "UDListDefinitionId": 922,
+  "Page1LineNo": 777,
+  "ProgId": "ut",
+  "IsReadOnly": false,
+  "ShortLabel": "enim",
+  "TabOrder": 577,
+  "TextLength": 560,
+  "Tooltip": "debitis",
+  "UdefIdentity": 203,
+  "UDListDefinitionId": 382,
   "Justification": "Center",
-  "Version": 869,
-  "TemplateVariableName": "Gleason, Littel and Ullrich",
-  "HasBeenPublished": false,
-  "MdoListName": "Dibbert-Hirthe",
+  "Version": 999,
+  "TemplateVariableName": "Lehner-Stanton",
+  "HasBeenPublished": true,
+  "MdoListName": "Barton-Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

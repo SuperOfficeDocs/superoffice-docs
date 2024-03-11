@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Koch-McLaughlin",
-    "ToolTip": "Delectus non et.",
+    "Id": 542,
+    "Name": "Harvey-Hills",
+    "ToolTip": "Eius sint.",
     "Deleted": false,
-    "Rank": 269,
-    "Type": "earum",
-    "ColorBlock": 436,
-    "IconHint": "quia",
+    "Rank": 766,
+    "Type": "quisquam",
+    "ColorBlock": 104,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "1997-12-01T10:30:33.2568344+01:00",
+    "LastChanged": "1997-06-18T14:23:56.353323+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Streich-Berge",
-        "ToolTip": "Quos aliquam molestiae laborum qui magni.",
-        "Deleted": true,
-        "Rank": 548,
-        "Type": "ut",
-        "ColorBlock": 15,
-        "IconHint": "omnis",
+        "Id": 916,
+        "Name": "Prosacco, Larkin and Senger",
+        "ToolTip": "Omnis non aspernatur.",
+        "Deleted": false,
+        "Rank": 352,
+        "Type": "est",
+        "ColorBlock": 548,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2006-11-02T10:30:33.2568344+01:00",
+        "LastChanged": "2002-03-12T14:23:56.353323+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Santina Wyman"
+        "ExtraInfo": "quia",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Donna Larkin"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Amber Albertha Predovic Sr."
+    "ExtraInfo": "provident",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Mrs. Eloy Moore"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Rau Inc and Sons",
-    "ToolTip": "Non veniam enim quis aliquid enim iusto.",
+    "Id": 914,
+    "Name": "Davis, Ankunding and Harris",
+    "ToolTip": "Ea iste qui modi et asperiores.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "ex",
-    "ColorBlock": 5,
-    "IconHint": "neque",
+    "Rank": 354,
+    "Type": "ut",
+    "ColorBlock": 44,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2015-09-06T10:30:33.2568344+02:00",
+    "LastChanged": "2006-11-06T14:23:56.353323+01:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Fahey, Spencer and Heaney",
-        "ToolTip": "Vitae ut voluptas voluptatibus saepe et.",
+        "Id": 915,
+        "Name": "Hyatt-Satterfield",
+        "ToolTip": "Illo ipsam nihil fugiat magnam eos voluptatem.",
         "Deleted": false,
-        "Rank": 727,
-        "Type": "enim",
-        "ColorBlock": 597,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2007-02-05T10:30:33.2568344+01:00",
+        "Rank": 43,
+        "Type": "eos",
+        "ColorBlock": 119,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2004-09-03T14:23:56.353323+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Daryl Kub",
+        "ExtraInfo": "optio",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Misael Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldType": "System.String",
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quo",
+    "ExtraInfo": "dolor",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Jared Mante",
+    "FullName": "Ms. Edward Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 409
       }
     }
   }

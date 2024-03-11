@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptas",
-    "PersonId": 814,
-    "Mrmrs": "eum",
-    "Firstname": "Josh",
-    "Lastname": "Hane",
-    "MiddleName": "Grady Group",
-    "Title": "omnis",
-    "Description": "Distributed eco-centric project",
-    "Email": "lorenza@graham.ca",
-    "FullName": "Onie Okuneva",
-    "DirectPhone": "1-982-248-4545",
-    "FormalName": "Little, Trantow and Grady",
-    "CountryId": 357,
-    "ContactId": 729,
-    "ContactName": "Walter, Farrell and Hane",
-    "Retired": 579,
-    "Rank": 161,
-    "ActiveInterests": 904,
+    "Position": "qui",
+    "PersonId": 458,
+    "Mrmrs": "praesentium",
+    "Firstname": "Eloy",
+    "Lastname": "Tillman",
+    "MiddleName": "Wehner Inc and Sons",
+    "Title": "sapiente",
+    "Description": "Upgradable encompassing array",
+    "Email": "godfrey_jewess@aufderhar.info",
+    "FullName": "Forrest Hartmann",
+    "DirectPhone": "(451)708-3597 x67999",
+    "FormalName": "Halvorson, Kertzmann and Kihn",
+    "CountryId": 84,
+    "ContactId": 914,
+    "ContactName": "Rolfson, Bashirian and Rau",
+    "Retired": 319,
+    "Rank": 811,
+    "ActiveInterests": 261,
     "ContactDepartment": "",
-    "ContactCountryId": 310,
-    "ContactOrgNr": "560638",
-    "FaxPhone": "631-730-0567",
-    "MobilePhone": "475.290.4445 x08419",
-    "ContactPhone": "628.639.0902 x90065",
-    "AssociateName": "Quigley, Haag and Emmerich",
-    "AssociateId": 34,
+    "ContactCountryId": 840,
+    "ContactOrgNr": "345845",
+    "FaxPhone": "(118)778-4370 x8266",
+    "MobilePhone": "(634)233-2451",
+    "ContactPhone": "310-411-4156",
+    "AssociateName": "Waelchi-Hamill",
+    "AssociateId": 356,
     "UsePersonAddress": false,
-    "ContactFax": "voluptatem",
-    "Kanafname": "placeat",
-    "Kanalname": "voluptas",
-    "Post1": "laboriosam",
-    "Post2": "omnis",
-    "Post3": "est",
-    "EmailName": "ayana@orn.name",
-    "ContactFullName": "Dell Fisher",
-    "ActiveErpLinks": 294,
-    "TicketPriorityId": 215,
-    "SupportLanguageId": 232,
-    "SupportAssociateId": 873,
+    "ContactFax": "quae",
+    "Kanafname": "saepe",
+    "Kanalname": "vero",
+    "Post1": "impedit",
+    "Post2": "veritatis",
+    "Post3": "sed",
+    "EmailName": "winona@gaylord.co.uk",
+    "ContactFullName": "Curtis Becker",
+    "ActiveErpLinks": 539,
+    "TicketPriorityId": 485,
+    "SupportLanguageId": 807,
+    "SupportAssociateId": 464,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 348
       }
     }
   }

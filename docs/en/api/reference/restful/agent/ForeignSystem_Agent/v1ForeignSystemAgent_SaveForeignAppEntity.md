@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 604,
-  "Name": "Moen-Wisozk",
-  "CreatedDate": "2019-03-15T10:30:23.8918024+01:00",
-  "UpdatedDate": "2010-05-02T10:30:23.8918024+02:00",
+  "ForeignAppId": 334,
+  "Name": "Harvey Group",
+  "CreatedDate": "2018-04-01T14:23:46.7524806+02:00",
+  "UpdatedDate": "1997-04-24T14:23:46.7524806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 357,
-      "Name": "Zemlak-Emard",
-      "CreatedDate": "2023-12-19T10:30:23.8918024+01:00",
-      "UpdatedDate": "2021-08-01T10:30:23.8918024+02:00",
-      "AssociateFullName": "Dr. Rhianna Dickens",
-      "CreatedBy": "est",
-      "UpdatedBy": "repellat",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 926
+      "ForeignDeviceId": 93,
+      "Name": "Runolfsson Group",
+      "CreatedDate": "2022-09-21T14:23:46.7524806+02:00",
+      "UpdatedDate": "1999-09-30T14:23:46.7524806+02:00",
+      "AssociateFullName": "Prof. Aylin Nicolas",
+      "CreatedBy": "laborum",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "ipsa",
+      "ForeignAppId": 408
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 923,
-  "Name": "Hagenes-Weimann",
-  "CreatedDate": "2016-12-14T10:30:23.8918024+01:00",
-  "UpdatedDate": "2007-11-21T10:30:23.8918024+01:00",
+  "ForeignAppId": 677,
+  "Name": "Turner-Nader",
+  "CreatedDate": "2021-04-04T14:23:46.7524806+02:00",
+  "UpdatedDate": "2019-05-26T14:23:46.7524806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 851,
-      "Name": "Wilkinson LLC",
-      "CreatedDate": "2009-07-12T10:30:23.9073938+02:00",
-      "UpdatedDate": "2007-02-21T10:30:23.9073938+01:00",
-      "AssociateFullName": "Colby Fern Hansen Jr.",
-      "CreatedBy": "temporibus",
-      "UpdatedBy": "tempore",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 689,
+      "ForeignDeviceId": 701,
+      "Name": "Thompson Group",
+      "CreatedDate": "1999-10-05T14:23:46.7524806+02:00",
+      "UpdatedDate": "2002-04-26T14:23:46.7524806+02:00",
+      "AssociateFullName": "Kaylie Haley DDS",
+      "CreatedBy": "ut",
+      "UpdatedBy": "natus",
+      "DeviceIdentifier": "distinctio",
+      "ForeignAppId": 654,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldType": "System.Int32",
+          "FieldLength": 757
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

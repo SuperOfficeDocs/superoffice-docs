@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 941
+  "UserGroupId": 230
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 736,
-    "ColumnId": 495,
-    "FieldDefault": "fugiat",
-    "FieldHeight": 653,
-    "FieldLabel": "libero",
-    "FieldLeft": 603,
-    "FieldTop": 719,
+    "UDefFieldId": 583,
+    "ColumnId": 479,
+    "FieldDefault": "blanditiis",
+    "FieldHeight": 702,
+    "FieldLabel": "quibusdam",
+    "FieldLeft": 878,
+    "FieldTop": 46,
     "FieldType": "Checkbox",
-    "FieldWidth": 308,
-    "FormatMask": "consequuntur",
+    "FieldWidth": 694,
+    "FormatMask": "sint",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 912,
-    "LabelLeft": 672,
-    "LabelTop": 812,
-    "LabelWidth": 67,
-    "LastVersionId": 767,
-    "ListTableId": 618,
+    "LabelHeight": 225,
+    "LabelLeft": 28,
+    "LabelTop": 450,
+    "LabelWidth": 689,
+    "LastVersionId": 792,
+    "ListTableId": 64,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 291,
-    "ProgId": "officia",
-    "IsReadOnly": true,
-    "ShortLabel": "eveniet",
-    "TabOrder": 660,
-    "TextLength": 108,
-    "Tooltip": "veniam",
-    "UdefIdentity": 505,
-    "UDListDefinitionId": 911,
+    "Page1LineNo": 512,
+    "ProgId": "laudantium",
+    "IsReadOnly": false,
+    "ShortLabel": "magnam",
+    "TabOrder": 401,
+    "TextLength": 87,
+    "Tooltip": "porro",
+    "UdefIdentity": 113,
+    "UDListDefinitionId": 179,
     "Justification": "Center",
-    "Version": 694,
-    "TemplateVariableName": "Hirthe Inc and Sons",
+    "Version": 368,
+    "TemplateVariableName": "Jewess Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Schimmel, Legros and Turcotte",
+    "MdoListName": "Walker-Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 407
       }
     }
   }

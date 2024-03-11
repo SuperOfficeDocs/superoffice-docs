@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=631
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=528
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 1000,
-  "ERPQuoteAlternativeKey": "repellat",
-  "QuoteVersionId": 299,
-  "Name": "Kuhn-Sporer",
-  "Description": "Visionary client-driven capacity",
+  "QuoteAlternativeId": 760,
+  "ERPQuoteAlternativeKey": "animi",
+  "QuoteVersionId": 926,
+  "Name": "Herzog-Runolfsdottir",
+  "Description": "Enterprise-wide optimal software",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10458.158,
-  "ERPDiscountAmount": 10878.114,
-  "DiscountPercent": 16484.84,
-  "DiscountAmount": 15597.918,
+  "ERPDiscountPercent": 23141.456,
+  "ERPDiscountAmount": 23059.971999999998,
+  "DiscountPercent": 1993.224,
+  "DiscountAmount": 27623.075999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptates",
-  "VAT": 16240.387999999999,
-  "EarningPercent": 29851.35,
-  "EarningAmount": 1150.1779999999999,
-  "SubTotal": 10893.784,
-  "TotalPrice": 19176.946,
-  "ExtraField1": "eligendi",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "facere",
-  "ExtraField4": "porro",
-  "ExtraField5": "id",
+  "VATInfo": "incidunt",
+  "VAT": 18634.764,
+  "EarningPercent": 18145.86,
+  "EarningAmount": 7399.374,
+  "SubTotal": 23119.518,
+  "TotalPrice": 12467.052,
+  "ExtraField1": "libero",
+  "ExtraField2": "inventore",
+  "ExtraField3": "provident",
+  "ExtraField4": "quia",
+  "ExtraField5": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldLength": 732
     }
   }
 }

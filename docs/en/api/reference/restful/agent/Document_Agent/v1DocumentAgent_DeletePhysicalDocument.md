@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 547,
+  "DocumentId": 282,
   "AllowedReturnType": [
-    "eos",
-    "velit"
+    "sit",
+    "officiis"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "repellendus",
-  "VersionId": "quia",
-  "Success": true,
+  "ExternalReference": "a",
+  "VersionId": "sunt",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "et"
+  "Value": "provident",
+  "AdditionalInfo": "quis"
 }
 ```

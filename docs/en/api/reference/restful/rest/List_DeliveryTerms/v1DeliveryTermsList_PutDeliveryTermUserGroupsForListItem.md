@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Cole-Hartmann",
-    "ToolTip": "Dignissimos suscipit tempore qui vel culpa.",
-    "Deleted": false,
-    "Rank": 197,
-    "Type": "ea",
-    "ColorBlock": 476,
-    "IconHint": "nisi",
+    "Id": 342,
+    "Name": "Brekke Group",
+    "ToolTip": "Occaecati non quasi maxime placeat rem non vitae.",
+    "Deleted": true,
+    "Rank": 102,
+    "Type": "velit",
+    "ColorBlock": 307,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2023-01-02T10:30:32.9743325+01:00",
+    "LastChanged": "2007-06-12T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Emard Group",
-        "ToolTip": "Animi et nobis.",
-        "Deleted": true,
-        "Rank": 178,
-        "Type": "est",
-        "ColorBlock": 277,
-        "IconHint": "odio",
+        "Id": 753,
+        "Name": "Sporer-Hoppe",
+        "ToolTip": "Illum molestiae omnis repellendus nihil dolore.",
+        "Deleted": false,
+        "Rank": 650,
+        "Type": "in",
+        "ColorBlock": 94,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2004-09-29T10:30:32.9743325+02:00",
+        "LastChanged": "2002-05-08T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "natus",
-        "Hidden": false,
-        "FullName": "Shaina Laney Swaniawski MD"
+        "ExtraInfo": "velit",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Kaley Rodriguez"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "facilis",
+    "ExtraInfo": "quam",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Isabel Tromp"
+    "FullName": "Irving Kohler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Koelpin LLC",
-    "ToolTip": "Tempore natus sunt quasi quibusdam accusamus.",
+    "Id": 202,
+    "Name": "Schmidt-Macejkovic",
+    "ToolTip": "Nulla quia consequatur.",
     "Deleted": true,
-    "Rank": 121,
-    "Type": "numquam",
-    "ColorBlock": 93,
-    "IconHint": "voluptatibus",
+    "Rank": 268,
+    "Type": "iusto",
+    "ColorBlock": 762,
+    "IconHint": "maxime",
     "Selected": true,
-    "LastChanged": "2005-02-26T10:30:32.9743325+01:00",
+    "LastChanged": "2013-06-01T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Feeney Inc and Sons",
-        "ToolTip": "Et voluptas.",
-        "Deleted": false,
-        "Rank": 709,
-        "Type": "sed",
-        "ColorBlock": 416,
-        "IconHint": "ex",
+        "Id": 923,
+        "Name": "Cronin-Hayes",
+        "ToolTip": "Laboriosam voluptas.",
+        "Deleted": true,
+        "Rank": 756,
+        "Type": "iusto",
+        "ColorBlock": 317,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2006-05-14T10:30:32.9743325+02:00",
+        "LastChanged": "2010-05-14T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Dr. Enos Wilfrid Leannon III",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Clifton Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 912
+            "FieldType": "System.String",
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Miss Rafaela Gisselle Von",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Prof. Jamal Angeline Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 120
       }
     }
   }

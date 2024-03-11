@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 699
+  "EntityId": 309
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 123,
-    "ConnectionName": "Sawayn, Hintz and Bartoletti",
+    "ErpConnectionId": 167,
+    "ConnectionName": "Murazik, Kohler and Heathcote",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "enim",
-        "Rank": 471,
-        "DisplayName": "Sawayn-Stiedemann",
-        "DisplayDescription": "Pre-emptive full-range moratorium",
+        "FieldKey": "saepe",
+        "Rank": 768,
+        "DisplayName": "Cummings-Reinger",
+        "DisplayDescription": "Self-enabling context-sensitive knowledge base",
         "FieldType": "Checkbox",
-        "ListName": "Turcotte, Wilkinson and Kassulke",
-        "DefaultValue": "pariatur",
-        "MaxLength": 713,
+        "ListName": "Gibson Group",
+        "DefaultValue": "quod",
+        "MaxLength": 594,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 540
+            "FieldLength": 662
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "est",
-      "quae"
+      "id",
+      "iste"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

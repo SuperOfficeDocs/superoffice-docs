@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 76,
-  "Name": "Block LLC",
-  "Tooltip": "sint",
+  "RoleId": 547,
+  "Name": "Wisozk-Upton",
+  "Tooltip": "incidunt",
   "RoleType": "Anonymous",
-  "Deleted": 750,
-  "Rank": 960,
-  "Created": "2019-01-29T10:30:32.260549+01:00",
-  "UseCategories": 330,
+  "Deleted": 249,
+  "Rank": 40,
+  "Created": "2015-04-01T14:23:55.384586+02:00",
+  "UseCategories": 30,
   "CreatedBy": null,
-  "Updated": "2014-06-22T10:30:32.260549+02:00",
+  "Updated": "2003-03-02T14:23:55.384586+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 646,
-  "Name": "Shields, Feest and Hodkiewicz",
-  "Tooltip": "libero",
+  "RoleId": 628,
+  "Name": "Crooks LLC",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 352,
-  "Rank": 504,
-  "Created": "2018-04-24T10:30:32.260549+02:00",
-  "UseCategories": 961,
+  "Deleted": 107,
+  "Rank": 528,
+  "Created": "2018-09-04T14:23:55.384586+02:00",
+  "UseCategories": 433,
   "CreatedBy": null,
-  "Updated": "2009-03-25T10:30:32.260549+01:00",
+  "Updated": "1998-10-21T14:23:55.384586+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 853
     }
   },
   "_Links": {

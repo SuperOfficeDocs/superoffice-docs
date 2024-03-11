@@ -102,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 563,
-  "OnlyOpenSales": true
+  "ContactId": 976,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Roob-Terry",
-    "SaleDate": "2010-08-22T10:30:24.5439994+02:00",
-    "SaleId": 599,
-    "Probability": 734,
-    "Title": "vel",
-    "Amount": 15203.034,
-    "Currency": "ab",
-    "ProjectName": "Doyle, Hessel and Lindgren",
-    "AssociateFullName": "Estefania Turcotte",
-    "Description": "Public-key 4th generation artificial intelligence",
+    "ContactName": "Purdy, DuBuque and Cummings",
+    "SaleDate": "1999-04-05T14:23:47.3630051+02:00",
+    "SaleId": 71,
+    "Probability": 71,
+    "Title": "dignissimos",
+    "Amount": 20327.124,
+    "Currency": "autem",
+    "ProjectName": "Hintz-Legros",
+    "AssociateFullName": "Brandon Rice",
+    "Description": "Cloned real-time complexity",
     "Status": "Lost",
-    "WeightedAmount": 5230.646,
-    "ProjectId": 305,
-    "EarningPercent": 12664.493999999999,
-    "Earning": 19095.462,
-    "ContactId": 245,
-    "AssociateId": 393,
-    "PersonId": 644,
-    "SaleTypeId": 617,
-    "SaleTypeName": "Leannon-Cole",
-    "PersonFullName": "Scottie Wehner",
+    "WeightedAmount": 10370.405999999999,
+    "ProjectId": 282,
+    "EarningPercent": 22514.656,
+    "Earning": 11598.934,
+    "ContactId": 928,
+    "AssociateId": 557,
+    "PersonId": 792,
+    "SaleTypeId": 735,
+    "SaleTypeName": "Nikolaus-Pfannerstill",
+    "PersonFullName": "Unique Metz",
     "Completed": "Completed",
-    "ActiveErpLinks": 441,
-    "NextDueDate": "2006-10-06T10:30:24.5439994+02:00",
-    "Number": "375565",
+    "ActiveErpLinks": 507,
+    "NextDueDate": "2000-08-17T14:23:47.3630051+02:00",
+    "Number": "492588",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 615
       }
     }
   }

@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Oberbrunner-Greenfelder",
-    "SoPrimaryKey": 441,
-    "EntryName": "Windler-Gerlach",
-    "EntryIdentifier": "accusantium",
-    "RuleDisplayName": "Watsica-Lang",
+    "RuleName": "Romaguera LLC",
+    "SoPrimaryKey": 717,
+    "EntryName": "O'Kon, Koepp and Balistreri",
+    "EntryIdentifier": "consequuntur",
+    "RuleDisplayName": "Mayert-Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldType": "System.Int32",
+        "FieldLength": 926
       }
     }
   }

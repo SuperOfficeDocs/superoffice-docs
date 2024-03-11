@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "in",
-  "Children": false
+  "Path": "voluptatibus",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 823,
+  "HierarchyId": 410,
   "Domain": "Dashboards",
-  "Name": "Koepp Group",
-  "Fullname": "qui",
-  "ParentId": 674,
+  "Name": "Walker, Lind and Skiles",
+  "Fullname": "non",
+  "ParentId": 111,
   "Children": [
     {
-      "HierarchyId": 99,
+      "HierarchyId": 875,
       "Domain": "Dashboards",
-      "Name": "Rolfson Group",
-      "Fullname": "delectus",
-      "ParentId": 912,
+      "Name": "Legros Group",
+      "Fullname": "voluptatibus",
+      "ParentId": 939,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-08-08T10:30:24.0569003+02:00",
-      "RegisteredAssociateId": 104,
-      "Updated": "2004-03-16T10:30:24.0569003+01:00",
-      "UpdatedAssociateId": 101,
+      "Registered": "2007-02-08T14:23:46.8786294+01:00",
+      "RegisteredAssociateId": 686,
+      "Updated": "2010-11-23T14:23:46.8786294+01:00",
+      "UpdatedAssociateId": 18,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
   ],
-  "Registered": "2012-07-30T10:30:24.0569003+02:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2014-02-24T10:30:24.0569003+01:00",
-  "UpdatedAssociateId": 160,
+  "Registered": "2022-12-04T14:23:46.8786294+01:00",
+  "RegisteredAssociateId": 575,
+  "Updated": "2022-01-18T14:23:46.8786294+01:00",
+  "UpdatedAssociateId": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 234
     }
   }
 }

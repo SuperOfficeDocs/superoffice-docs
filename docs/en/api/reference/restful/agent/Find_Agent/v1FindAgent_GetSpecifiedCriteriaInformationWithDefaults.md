@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "inventore",
-  "ProviderName": "Cummings, Jast and Collins",
-  "StorageKey": "quo",
+  "StorageType": "vitae",
+  "ProviderName": "Stehr LLC",
+  "StorageKey": "nobis",
   "DesiredColumnNames": [
-    "Rempel LLC",
-    "Bergnaum, Runte and Bergnaum"
+    "Stokes, Schneider and Wolf",
+    "Kovacek-Parker"
   ],
   "StaticColumns": [
-    "non",
-    "eum"
+    "adipisci",
+    "voluptatem"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Mayer-Nikolaus",
-      "Operator": "incidunt",
+      "Name": "Kunze-Wilderman",
+      "Operator": "facilis",
       "Values": [
-        "voluptatem",
-        "sequi"
+        "molestias",
+        "ut"
       ],
       "DisplayValues": [
-        "officiis",
-        "labore"
+        "delectus",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 470,
       "InterOperator": "And",
-      "UniqueHash": 744
+      "UniqueHash": 498
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hyatt Inc and Sons",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "ut",
+      "DisplayName": "Schumm Group",
+      "DisplayTooltip": "sit",
+      "DisplayType": "quia",
       "CanOrderBy": false,
-      "Name": "Runolfsson Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "nesciunt",
-      "RestrictionListName": "Stokes-Johnson",
-      "IsVisible": false,
-      "ExtraInfo": "nobis",
-      "Width": "minima",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "aliquam"
+      "Name": "Roob Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Jaskolski, Kub and Hudson",
+      "IsVisible": true,
+      "ExtraInfo": "in",
+      "Width": "optio",
+      "IconHint": "expedita",
+      "HeadingIconHint": "aperiam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goodwin, Blanda and Rath",
-      "PrimaryKey": 57,
+      "EntityName": "Pfeffer Inc and Sons",
+      "PrimaryKey": 517,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "velit",
-          "LinkHint": "vel"
+          "DisplayValue": "quis",
+          "TooltipHint": "libero",
+          "LinkHint": "non"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "animi",
+      "LinkHint": "nisi",
+      "StyleHint": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Langworth Inc and Sons",
-      "Description": "Intuitive scalable model",
-      "Rank": 208,
+      "Name": "Mayert-Yost",
+      "Description": "Profit-focused mobile extranet",
+      "Rank": 919,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langworth Inc and Sons",
-      "Description": "Intuitive scalable model",
-      "Rank": 208,
+      "Name": "Mayert-Yost",
+      "Description": "Profit-focused mobile extranet",
+      "Rank": 919,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 587
     }
   }
 }

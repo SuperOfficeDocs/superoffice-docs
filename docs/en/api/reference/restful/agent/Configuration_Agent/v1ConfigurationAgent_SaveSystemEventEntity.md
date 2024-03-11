@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 326,
+  "SystemEventId": 610,
   "Scope": "Database",
-  "Eta": "2011-07-15T10:30:23.2418173+02:00",
-  "Eventkey": "in",
-  "Eventmess": "architecto",
-  "ExtraInfo": 529,
-  "Owner": 266,
-  "UpdatedCount": 606,
-  "Registered": "2007-07-21T10:30:23.2418173+02:00",
+  "Eta": "2005-11-01T14:23:46.0480845+01:00",
+  "Eventkey": "inventore",
+  "Eventmess": "unde",
+  "ExtraInfo": 967,
+  "Owner": 967,
+  "UpdatedCount": 392,
+  "Registered": "2010-02-13T14:23:46.0480845+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 153,
+  "SystemEventId": 99,
   "Scope": "Database",
-  "Eta": "1998-10-20T10:30:23.2418173+02:00",
-  "Eventkey": "nisi",
-  "Eventmess": "ratione",
-  "ExtraInfo": 625,
-  "Owner": 479,
-  "UpdatedCount": 181,
-  "Registered": "2014-09-03T10:30:23.2418173+02:00",
+  "Eta": "2023-12-15T14:23:46.0480845+01:00",
+  "Eventkey": "doloribus",
+  "Eventmess": "vel",
+  "ExtraInfo": 103,
+  "Owner": 829,
+  "UpdatedCount": 240,
+  "Registered": "2020-05-15T14:23:46.0480845+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 857
     }
   }
 }

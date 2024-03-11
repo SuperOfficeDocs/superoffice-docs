@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 140,
-    "Name": "Satterfield Inc and Sons",
-    "Tooltip": "consequatur",
+    "HeadingId": 651,
+    "Name": "Schultz LLC",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 653,
-    "UdListDefinitionId": 787,
+    "Rank": 71,
+    "UdListDefinitionId": 260,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 260
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 192
+  "ContactId": 442
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(063)173-2869",
-    "PersonCellPhone": "744.225.4796",
-    "PersonPrivatePhone": "987-507-3783 x1538",
-    "PersonFaxNumber": "1558349",
-    "PersonPagerNumber": "1275705",
-    "PersonEmail": "dovie.kessler@howe.com",
-    "Id": 223,
-    "Name": "Hauck-Sporer",
-    "Tooltip": "a",
-    "UniqueId": "cupiditate",
+    "PersonDirectPhone": "1-978-114-0641 x0430",
+    "PersonCellPhone": "538.618.8973",
+    "PersonPrivatePhone": "438.943.9637",
+    "PersonFaxNumber": "805170",
+    "PersonPagerNumber": "1275253",
+    "PersonEmail": "marshall@mccullough.uk",
+    "Id": 956,
+    "Name": "Goyette, Langosh and Jerde",
+    "Tooltip": "odio",
+    "UniqueId": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

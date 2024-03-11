@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
+GET /api/v1/List/DeliveryTerm/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Rutherford Group",
-    "ToolTip": "Cumque dolores voluptas dolorum.",
+    "Id": 412,
+    "Name": "Schmidt, Leannon and Pollich",
+    "ToolTip": "Placeat quis.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "minima",
+    "Rank": 653,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Boyle-Glover",
-        "ToolTip": "Minima impedit dolor mollitia nostrum nobis incidunt vel.",
+        "Id": 734,
+        "Name": "Hamill LLC",
+        "ToolTip": "Aut voluptate consequuntur dolorem blanditiis praesentium expedita.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "earum",
+        "Rank": 290,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 951,
-        "ExtraInfo": "omnis",
-        "StyleHint": "excepturi",
-        "FullName": "Katlynn Kemmer III",
+        "IconHint": "veniam",
+        "ColorBlock": 867,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "nihil",
+        "FullName": "Mr. Margaret Alejandra Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 414
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 203,
-    "ExtraInfo": "laborum",
-    "StyleHint": "et",
-    "FullName": "Adrien Dicki",
+    "IconHint": "quia",
+    "ColorBlock": 219,
+    "ExtraInfo": "quos",
+    "StyleHint": "impedit",
+    "FullName": "Brenden Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 61
       }
     }
   }

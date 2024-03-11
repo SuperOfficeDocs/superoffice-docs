@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "et",
-  "ProviderName": "Mayer, Reichert and Collins",
-  "DesiredColumns": "iste",
-  "PageSize": 17,
-  "PageNumber": 26
+  "Restrictions": "nam",
+  "ProviderName": "Harber-Pouros",
+  "DesiredColumns": "rerum",
+  "PageSize": 908,
+  "PageNumber": 979
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Heller-Gutkowski",
-      "DisplayTooltip": "eum",
-      "DisplayType": "ut",
+      "DisplayName": "Weissnat, Marquardt and Gislason",
+      "DisplayTooltip": "velit",
+      "DisplayType": "quis",
       "CanOrderBy": false,
-      "Name": "Bayer LLC",
+      "Name": "Runte, Daugherty and Paucek",
       "CanRestrictBy": false,
-      "RestrictionType": "repellat",
-      "RestrictionListName": "Little, Cormier and Erdman",
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Sporer LLC",
       "IsVisible": false,
-      "ExtraInfo": "debitis",
-      "Width": "odit",
-      "IconHint": "sed",
-      "HeadingIconHint": "consectetur"
+      "ExtraInfo": "est",
+      "Width": "et",
+      "IconHint": "illum",
+      "HeadingIconHint": "distinctio"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schinner-Hodkiewicz",
-      "PrimaryKey": 11,
+      "EntityName": "Oberbrunner-Wisoky",
+      "PrimaryKey": 188,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "quasi",
-          "LinkHint": "ex"
+          "DisplayValue": "alias",
+          "TooltipHint": "facilis",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "saepe",
-      "StyleHint": "nihil",
+      "LinkHint": "amet",
+      "StyleHint": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 976
         }
       }
     }
   ],
-  "RowCount": 171,
+  "RowCount": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 767
     }
   }
 }

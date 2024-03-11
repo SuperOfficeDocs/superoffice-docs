@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 316,
-  "AttachmentId": "ab"
+  "MessageServerId": 270,
+  "AttachmentId": "quas"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended 24/7 array",
-  "Filename": "rerum",
-  "Size": 399,
-  "Type": "est",
-  "Encoding": "laudantium",
-  "Id": "quia",
-  "Disposition": "iusto",
-  "IsSafeFileExtension": false,
+  "Description": "Operative even-keeled matrix",
+  "Filename": "quam",
+  "Size": 606,
+  "Type": "cum",
+  "Encoding": "dolor",
+  "Id": "dolorum",
+  "Disposition": "dolor",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 883
     }
   }
 }

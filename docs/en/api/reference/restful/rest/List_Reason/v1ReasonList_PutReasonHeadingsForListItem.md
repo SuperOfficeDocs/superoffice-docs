@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Berge-Barton",
-    "ToolTip": "Amet facilis vel officiis ullam explicabo.",
+    "Id": 995,
+    "Name": "Thiel LLC",
+    "ToolTip": "Consequatur ea sed nisi porro.",
     "Deleted": true,
-    "Rank": 697,
-    "Type": "perferendis",
-    "ColorBlock": 909,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2015-08-13T10:30:33.2099635+02:00",
+    "Rank": 564,
+    "Type": "neque",
+    "ColorBlock": 251,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2016-01-28T14:23:56.3064496+01:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Jacobson Group",
-        "ToolTip": "Laboriosam et voluptate sunt sed ea hic.",
-        "Deleted": false,
-        "Rank": 146,
-        "Type": "in",
-        "ColorBlock": 3,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2022-08-06T10:30:33.2099635+02:00",
+        "Id": 769,
+        "Name": "Lehner Group",
+        "ToolTip": "Rem aspernatur dolores dolores sequi eos eligendi odio.",
+        "Deleted": true,
+        "Rank": 23,
+        "Type": "assumenda",
+        "ColorBlock": 539,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2002-07-13T14:23:56.3064496+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "quod",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Mr. Mittie Loren Morar"
+        "FullName": "Jaquan Emely Hegmann PhD"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Onie Roberts"
+    "ExtraInfo": "maxime",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Ms. Aaliyah Kaci Collins III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Torp-Heaney",
-    "ToolTip": "At sunt voluptate aut.",
+    "Id": 15,
+    "Name": "Reinger, Daugherty and Hudson",
+    "ToolTip": "Totam distinctio cumque repellendus aut saepe dolores.",
     "Deleted": true,
-    "Rank": 724,
-    "Type": "distinctio",
-    "ColorBlock": 697,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2008-03-25T10:30:33.2099635+01:00",
+    "Rank": 928,
+    "Type": "quam",
+    "ColorBlock": 650,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2019-10-11T14:23:56.3064496+02:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Mitchell, Reinger and Bernhard",
-        "ToolTip": "Iusto voluptas ipsam.",
+        "Id": 583,
+        "Name": "Fritsch Group",
+        "ToolTip": "Modi officia velit repellat omnis voluptate animi.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "recusandae",
-        "ColorBlock": 145,
-        "IconHint": "vitae",
+        "Rank": 51,
+        "Type": "corrupti",
+        "ColorBlock": 384,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "1998-11-14T10:30:33.2099635+01:00",
+        "LastChanged": "2018-08-25T14:23:56.3064496+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "minus",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Sonny Grady",
+        "FullName": "Agustin Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldType": "System.Int32",
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "expedita",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Clement Littel",
+    "FullName": "Florida Cruickshank PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

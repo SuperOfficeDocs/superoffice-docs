@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Kozey LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 974,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facere",
+  "Id": 869,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 485,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Keebler, Kerluke and Gerhold",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 948,
+  "Id": 887,
+  "Name": "Hyatt LLC",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 492,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 853
     }
   }
 }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 892,
-  "StartTime": "2023-08-18T10:30:23.5925282+02:00",
-  "EndTime": "2014-01-11T10:30:23.5925282+01:00",
-  "Count": 444,
+  "ProjectId": 764,
+  "StartTime": "2014-09-06T14:23:46.2980824+02:00",
+  "EndTime": "2009-09-29T14:23:46.2980824+02:00",
+  "Count": 573,
   "DocumentTemplateIds": [
-    215,
-    640
+    360,
+    698
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 540,
-    "Attention": "assumenda",
-    "Header": "consequatur",
-    "Name": "Bartoletti-Lockman",
-    "OurRef": "voluptatum",
-    "YourRef": "quod",
-    "Description": "Integrated needs-based matrices",
-    "DocumentTemplate": "nisi",
-    "IsPublished": false,
-    "PersonId": 81,
-    "PersonFullName": "Aileen Reichert",
-    "AssociateFullName": "Prof. Valerie Zemlak",
-    "ContactId": 323,
-    "ContactName": "Botsford LLC",
-    "ProjectId": 511,
-    "ProjectName": "Fahey-Lesch",
-    "AssociateId": 310,
-    "Snum": 494,
-    "SaleId": 853,
-    "SaleName": "Prosacco-Barton",
+    "DocumentId": 288,
+    "Attention": "nesciunt",
+    "Header": "quis",
+    "Name": "Rempel-Gislason",
+    "OurRef": "doloremque",
+    "YourRef": "dolorem",
+    "Description": "User-centric high-level project",
+    "DocumentTemplate": "officiis",
+    "IsPublished": true,
+    "PersonId": 493,
+    "PersonFullName": "Denis Deckow",
+    "AssociateFullName": "Mr. Gay Bailey Jr.",
+    "ContactId": 801,
+    "ContactName": "Halvorson, Brown and Deckow",
+    "ProjectId": 87,
+    "ProjectName": "Murphy LLC",
+    "AssociateId": 267,
+    "Snum": 210,
+    "SaleId": 753,
+    "SaleName": "Franecki, Grant and Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 757
       }
     }
   }

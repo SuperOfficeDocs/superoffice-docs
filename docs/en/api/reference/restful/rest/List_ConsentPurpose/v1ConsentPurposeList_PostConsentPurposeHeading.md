@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 198,
-  "Name": "Lubowitz Group",
-  "Tooltip": "iure",
+  "HeadingId": 977,
+  "Name": "Erdman-Oberbrunner",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 776,
-  "UdListDefinitionId": 915
+  "Rank": 561,
+  "UdListDefinitionId": 105
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 355,
-  "Name": "Daugherty, Flatley and Terry",
-  "Tooltip": "debitis",
+  "HeadingId": 475,
+  "Name": "Cassin Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 533,
-  "UdListDefinitionId": 788,
+  "Rank": 13,
+  "UdListDefinitionId": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

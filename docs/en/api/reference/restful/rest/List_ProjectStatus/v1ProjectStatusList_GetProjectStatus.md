@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 329,
-  "Name": "Kihn-Larkin",
+  "Id": 372,
+  "Name": "Brown-Waelchi",
   "Tooltip": "ullam",
-  "Deleted": true,
-  "UdListDefinitionId": 796,
-  "Rank": 970,
+  "Deleted": false,
+  "UdListDefinitionId": 661,
+  "Rank": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

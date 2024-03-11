@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 140,
-  "Name": "Tremblay, Johnston and Gulgowski",
-  "Tooltip": "repellendus",
-  "Rank": 777,
-  "Rate": 15231.24,
-  "Units": 2641.962,
-  "Deleted": false
+  "CurrencyId": 84,
+  "Name": "Fadel LLC",
+  "Tooltip": "autem",
+  "Rank": 134,
+  "Rate": 31067.342,
+  "Units": 19327.378,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 346,
-  "Name": "Kuvalis, Vandervort and Bauch",
-  "Tooltip": "voluptas",
-  "Rank": 681,
-  "Rate": 9774.946,
-  "Units": 6778.842,
+  "CurrencyId": 786,
+  "Name": "Kovacek-Mohr",
+  "Tooltip": "unde",
+  "Rank": 216,
+  "Rate": 2739.116,
+  "Units": 25852.365999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

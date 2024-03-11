@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kutch Inc and Sons",
-      "DisplayName": "D'Amore Inc and Sons",
-      "DisplayTooltip": "unde",
-      "IsActive": false
+      "Name": "Emard, Swaniawski and Marquardt",
+      "DisplayName": "Turner, Pagac and Brekke",
+      "DisplayTooltip": "nostrum",
+      "IsActive": true
     },
     {
-      "Name": "Kutch Inc and Sons",
-      "DisplayName": "D'Amore Inc and Sons",
-      "DisplayTooltip": "unde",
-      "IsActive": false
+      "Name": "Emard, Swaniawski and Marquardt",
+      "DisplayName": "Turner, Pagac and Brekke",
+      "DisplayTooltip": "nostrum",
+      "IsActive": true
     }
   ]
 }

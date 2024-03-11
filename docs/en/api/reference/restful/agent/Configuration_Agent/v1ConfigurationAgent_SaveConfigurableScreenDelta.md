@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 345,
-  "Name": "Shields, Barrows and Johnson",
-  "Description": "Business-focused maximized groupware",
-  "DeltaJson": "temporibus",
+  "ConfigurableScreenDeltaId": 923,
+  "Name": "Tremblay-McDermott",
+  "Description": "Expanded zero defect protocol",
+  "DeltaJson": "autem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nostrum",
-  "UpdatedDate": "2010-08-20T10:30:23.2418173+02:00",
-  "CreatedDate": "2008-05-15T10:30:23.2418173+02:00",
+  "RecipeId": "voluptatem",
+  "UpdatedDate": "2013-05-03T14:23:46.0480845+02:00",
+  "CreatedDate": "2009-04-26T14:23:46.0480845+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    848,
-    892
+    776,
+    361
   ],
-  "AppliesToKey": "et"
+  "AppliesToKey": "dolorum"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 949,
-  "Name": "Leannon-Runte",
-  "Description": "Profit-focused 3rd generation challenge",
-  "DeltaJson": "neque",
+  "ConfigurableScreenDeltaId": 571,
+  "Name": "O'Connell LLC",
+  "Description": "Multi-lateral directional algorithm",
+  "DeltaJson": "similique",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ad",
-  "UpdatedDate": "2003-03-18T10:30:23.2418173+01:00",
-  "CreatedDate": "2021-11-22T10:30:23.2418173+01:00",
+  "RecipeId": "praesentium",
+  "UpdatedDate": "2011-12-11T14:23:46.0480845+01:00",
+  "CreatedDate": "2019-02-25T14:23:46.0480845+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    226,
-    327
+    717,
+    419
   ],
-  "AppliesToKey": "eveniet",
+  "AppliesToKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 99
     }
   }
 }

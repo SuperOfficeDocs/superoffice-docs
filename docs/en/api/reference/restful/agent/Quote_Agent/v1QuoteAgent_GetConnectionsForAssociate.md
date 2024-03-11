@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 668
+  "AssociateId": 905
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 985,
-    "ERPName": "Hermiston-Quitzon",
-    "DisplayName": "O'Keefe-Stark",
-    "DisplayDescription": "Multi-channelled 5th generation task-force",
-    "Rank": 616,
-    "ConnectorName": "Bashirian-Murphy",
-    "ErpConnectionId": 56,
-    "ExtraData": "eveniet",
-    "IsAvailable": true,
+    "QuoteConnectionId": 390,
+    "ERPName": "Mraz-Stiedemann",
+    "DisplayName": "Champlin-Zieme",
+    "DisplayDescription": "Sharable actuating knowledge user",
+    "Rank": 424,
+    "ConnectorName": "Rogahn-Goyette",
+    "ErpConnectionId": 990,
+    "ExtraData": "veritatis",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 507,
-        "ERPPriceListKey": "eos",
-        "QuoteConnectionId": 613,
-        "Name": "Raynor, Murphy and Parisian",
-        "Description": "Focused bi-directional open architecture",
-        "Currency": "necessitatibus",
-        "CurrencyName": "Hane, Beier and Wuckert",
-        "ValidFrom": "2012-01-25T10:30:24.4346264+01:00",
-        "ValidTo": "2001-09-14T10:30:24.4346264+02:00",
+        "PriceListId": 734,
+        "ERPPriceListKey": "sit",
+        "QuoteConnectionId": 336,
+        "Name": "Mitchell, Torphy and Zulauf",
+        "Description": "User-centric zero defect budgetary management",
+        "Currency": "laborum",
+        "CurrencyName": "DuBuque, Jewess and Murray",
+        "ValidFrom": "2015-03-21T14:23:47.2380075+01:00",
+        "ValidTo": "2017-08-21T14:23:47.2380075+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 102
+            "FieldType": "System.Int32",
+            "FieldLength": 234
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      137,
-      467
+      114,
+      286
     ],
     "AssociateAccessIds": [
-      176,
-      225
+      281,
+      637
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldLength": 426
       }
     }
   }

@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 434,
-    "Tooltip": "distinctio",
-    "CanAssign": false,
-    "Free": 726,
-    "InUse": 943,
+    "Unrestricted": true,
+    "Total": 326,
+    "Tooltip": "culpa",
+    "CanAssign": true,
+    "Free": 203,
+    "InUse": 390,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 668,
-    "Name": "Kautzer Inc and Sons",
-    "Description": "Profound mission-critical initiative",
-    "PrerequisiteModuleName": "Bergstrom-Ritchie",
-    "SortOrder": 641,
-    "ExtraFlags": 507,
+    "ModuleLicenseId": 495,
+    "Name": "Kub, Harris and Jaskolski",
+    "Description": "Profit-focused scalable framework",
+    "PrerequisiteModuleName": "Ryan-Boyer",
+    "SortOrder": 143,
+    "ExtraFlags": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldType": "System.String",
+        "FieldLength": 125
       }
     }
   }

@@ -125,7 +125,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 423
+  "QuoteLineId": 668
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 352,
-  "ERPQuoteLineKey": "rem",
-  "QuoteAlternativeId": 138,
-  "ERPProductKey": "dolorum",
+  "QuoteLineId": 548,
+  "ERPQuoteLineKey": "tempore",
+  "QuoteAlternativeId": 871,
+  "ERPProductKey": "occaecati",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20374.134,
-  "DeliveredQuantity": 26980.606,
-  "Rank": 981,
-  "Name": "Schneider-Hettinger",
-  "Description": "De-engineered analyzing policy",
-  "Code": "unde",
-  "QuantityUnit": "quo",
-  "PriceUnit": "at",
-  "ItemNumber": "1209289",
+  "Quantity": 17735.306,
+  "DeliveredQuantity": 29077.252,
+  "Rank": 556,
+  "Name": "Mann-Upton",
+  "Description": "Open-source object-oriented forecast",
+  "Code": "nam",
+  "QuantityUnit": "molestias",
+  "PriceUnit": "nostrum",
+  "ItemNumber": "339472",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "excepturi",
-  "Supplier": "alias",
-  "SupplierCode": "a",
-  "Thumbnail": "culpa",
-  "VATInfo": "suscipit",
-  "VAT": 2945.96,
-  "UnitCost": 29657.041999999998,
-  "UnitMinimumPrice": 4456.548,
-  "UnitListPrice": 13275.624,
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "sapiente",
+  "Supplier": "culpa",
+  "SupplierCode": "asperiores",
+  "Thumbnail": "soluta",
+  "VATInfo": "blanditiis",
+  "VAT": 332.204,
+  "UnitCost": 21370.746,
+  "UnitMinimumPrice": 13595.292,
+  "UnitListPrice": 22451.976,
   "ExtraInfo": [
     {
-      "Name": "Kirlin, Erdman and Braun",
-      "Value": "rerum",
+      "Name": "Macejkovic LLC",
+      "Value": "maiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 664
         }
       }
     },
     {
-      "Name": "Kirlin, Erdman and Braun",
-      "Value": "rerum",
+      "Name": "Macejkovic LLC",
+      "Value": "maiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 664
         }
       }
     }
   ],
-  "RawExtraInfo": "adipisci",
+  "RawExtraInfo": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "SubscriptionQuantity": 14808.15,
-  "SubscriptionStart": "2017-03-22T10:30:24.4502511+01:00",
-  "ERPDiscountPercent": 16958.074,
-  "ERPDiscountAmount": 27168.646,
-  "DiscountPercent": 23483.061999999998,
-  "DiscountAmount": 28600.884,
+  "SubscriptionUnit": "deserunt",
+  "SubscriptionQuantity": 7919.6179999999995,
+  "SubscriptionStart": "2000-05-09T14:23:47.2692571+02:00",
+  "ERPDiscountPercent": 28434.782,
+  "ERPDiscountAmount": 14040.32,
+  "DiscountPercent": 5967.1359999999995,
+  "DiscountAmount": 564.12,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11313.74,
-  "EarningAmount": 29208.879999999997,
-  "SubTotal": 7800.526,
-  "TotalPrice": 12799.256,
-  "Rights": "eos",
-  "Rule": "eligendi",
-  "ExtraField1": "nesciunt",
-  "ExtraField2": "sint",
-  "ExtraField3": "fugit",
-  "ExtraField4": "non",
-  "ExtraField5": "error",
+  "EarningPercent": 23761.987999999998,
+  "EarningAmount": 11382.688,
+  "SubTotal": 17625.615999999998,
+  "TotalPrice": 26761.226,
+  "Rights": "mollitia",
+  "Rule": "facere",
+  "ExtraField1": "eum",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "at",
+  "ExtraField4": "placeat",
+  "ExtraField5": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Bartoletti-Bartoletti",
-    "Deckow, Breitenberg and Dietrich"
+    "Gleason-Schmidt",
+    "Quitzon, Schmitt and Wolff"
   ],
-  "Culture": "consectetur"
+  "Culture": "nihil"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Ratke LLC",
-    "ResourceValue": "minima",
-    "Culture": "perferendis",
-    "IsActive": false,
+    "ResourceName": "Waters Inc and Sons",
+    "ResourceValue": "a",
+    "Culture": "repudiandae",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 641
       }
     }
   },
   {
-    "ResourceName": "Ratke LLC",
-    "ResourceValue": "minima",
-    "Culture": "perferendis",
-    "IsActive": false,
+    "ResourceName": "Waters Inc and Sons",
+    "ResourceValue": "a",
+    "Culture": "repudiandae",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 641
       }
     }
   }

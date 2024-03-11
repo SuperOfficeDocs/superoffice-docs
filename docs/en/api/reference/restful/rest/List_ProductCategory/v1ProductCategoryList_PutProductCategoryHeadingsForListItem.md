@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Yundt LLC",
-    "ToolTip": "Facilis quae quaerat assumenda impedit nostrum molestiae ea.",
+    "Id": 267,
+    "Name": "Harvey-Mann",
+    "ToolTip": "Nemo sint.",
     "Deleted": false,
-    "Rank": 179,
-    "Type": "unde",
-    "ColorBlock": 196,
-    "IconHint": "maxime",
+    "Rank": 414,
+    "Type": "ullam",
+    "ColorBlock": 748,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2023-09-12T10:30:33.1005836+02:00",
+    "LastChanged": "2011-11-19T14:23:56.1970747+01:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Corwin Group",
-        "ToolTip": "Aliquam voluptatem deleniti repudiandae nihil qui et a.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "necessitatibus",
-        "ColorBlock": 259,
-        "IconHint": "laudantium",
-        "Selected": false,
-        "LastChanged": "2018-10-26T10:30:33.1005836+02:00",
+        "Id": 523,
+        "Name": "Jakubowski Inc and Sons",
+        "ToolTip": "Odio sed fugit et cum dolor.",
+        "Deleted": true,
+        "Rank": 460,
+        "Type": "ea",
+        "ColorBlock": 751,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2018-09-14T14:23:56.1970747+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Cale Medhurst"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Mrs. Marlene Laisha Walsh I"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Carole Wiegand DVM"
+    "ExtraInfo": "dolores",
+    "StyleHint": "deleniti",
+    "Hidden": true,
+    "FullName": "Aglae Leonel Pollich V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Nicolas-Predovic",
-    "ToolTip": "Quia nostrum.",
+    "Id": 334,
+    "Name": "Cronin, Reynolds and Pfannerstill",
+    "ToolTip": "Similique qui omnis sunt quia.",
     "Deleted": true,
-    "Rank": 475,
-    "Type": "voluptatum",
-    "ColorBlock": 959,
-    "IconHint": "voluptates",
+    "Rank": 994,
+    "Type": "vitae",
+    "ColorBlock": 336,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-10-14T10:30:33.1005836+02:00",
+    "LastChanged": "2010-10-16T14:23:56.1970747+02:00",
     "ChildItems": [
       {
-        "Id": 792,
-        "Name": "Swaniawski Inc and Sons",
-        "ToolTip": "Magnam modi adipisci harum sapiente.",
-        "Deleted": true,
-        "Rank": 705,
-        "Type": "dolorum",
-        "ColorBlock": 289,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2023-08-16T10:30:33.1005836+02:00",
+        "Id": 931,
+        "Name": "Blick, Littel and Hayes",
+        "ToolTip": "In qui totam eos non quia.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "omnis",
+        "ColorBlock": 355,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2007-05-02T14:23:56.1970747+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Walter Alayna Buckridge V",
+        "FullName": "Horacio Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 771
+            "FieldLength": 367
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Mr. Weldon Mariano Doyle",
+    "ExtraInfo": "inventore",
+    "StyleHint": "perferendis",
+    "Hidden": true,
+    "FullName": "Keeley Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldType": "System.String",
+        "FieldLength": 453
       }
     }
   }

@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cartwright Group",
-  "DeviceName": "Terry-Welch",
-  "DeviceIdentifier": "quo",
-  "KeyName": "Rippin-Cummings",
-  "KeyValue": "delectus",
-  "TableName": "Feest LLC"
+  "ApplicationName": "Smith-Rolfson",
+  "DeviceName": "Ankunding Inc and Sons",
+  "DeviceIdentifier": "repellat",
+  "KeyName": "Runte-Hermiston",
+  "KeyValue": "quia",
+  "TableName": "Kihn-Gutmann"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "quia",
-  "RecordId": 231,
-  "CreatedDate": "2023-06-25T10:30:23.9073938+02:00",
-  "UpdatedDate": "2007-04-07T10:30:23.9073938+02:00",
-  "UpdatedBy": "itaque",
-  "CreatedBy": "et",
-  "TableName": "Block LLC",
+  "Key": "molestiae",
+  "Value": "reiciendis",
+  "RecordId": 284,
+  "CreatedDate": "2019-03-27T14:23:46.7524806+01:00",
+  "UpdatedDate": "2009-08-03T14:23:46.7524806+02:00",
+  "UpdatedBy": "totam",
+  "CreatedBy": "nihil",
+  "TableName": "Kutch-Abshire",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

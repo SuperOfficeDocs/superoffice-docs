@@ -167,6 +167,7 @@ the email_id.
 |contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
+|contactAssociate/locationAddress|string|Location: Location| x |
 |contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -197,6 +198,7 @@ the email_id.
 |contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
+|contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
 |contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -230,12 +232,12 @@ the email_id.
 |contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
 |contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
 |contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
-|contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
-|contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
+|contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
@@ -334,12 +336,12 @@ the email_id.
 |LastDoByActivity|date|Date of last non-completed activity|  |
 |NumberOfSales|int|Number of sales|  |
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
 |LastDoBySale|date|Date of last non-completed sale|  |
@@ -365,7 +367,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=streetAddress/state,contactExtra/x_contact_default_integer,contactAssociate/middleName
+GET /api/v1/archive/emailcontactaddress?$select=business,who,contactAssociate/isActive,NumberOfNotCompletedSalesInPeriod,SaintStatus2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

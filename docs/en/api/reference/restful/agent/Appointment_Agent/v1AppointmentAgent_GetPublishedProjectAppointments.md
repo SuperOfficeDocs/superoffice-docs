@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 474
+  "ProjectId": 396
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 103,
-    "StartDate": "2018-01-01T10:30:22.5942688+01:00",
-    "EndDate": "1998-12-20T10:30:22.5942688+01:00",
+    "AppointmentId": 223,
+    "StartDate": "2024-02-05T14:23:45.3907072+01:00",
+    "EndDate": "2013-03-09T14:23:45.3907072+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Mr. Luigi Mueller",
-    "ContactName": "Sauer-Gutkowski",
-    "Description": "Monitored solution-oriented superstructure",
-    "PersonFullName": "Lula Walter",
-    "PersonId": 705,
-    "ContactId": 254,
-    "ProjectId": 35,
-    "ProjectName": "Lebsack-Schumm",
+    "Task": "voluptatem",
+    "AssociateFullName": "Lawson Crona",
+    "ContactName": "Robel, Satterfield and Collins",
+    "Description": "Expanded 24 hour focus group",
+    "PersonFullName": "Eleanore Bernier",
+    "PersonId": 721,
+    "ContactId": 660,
+    "ProjectId": 693,
+    "ProjectName": "Nitzsche, Cummings and Bernier",
     "IsPublished": false,
-    "AssociateId": 89,
-    "ColorIndex": 782,
+    "AssociateId": 491,
+    "ColorIndex": 274,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 142,
-    "PriorityName": "Doyle Group",
+    "PriorityId": 41,
+    "PriorityName": "Hahn Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-12-07T10:30:22.5942688+01:00",
+    "ActiveDate": "2018-05-20T14:23:45.3907072+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-09-26T10:30:22.5942688+02:00",
-    "RecurringEndDate": "2015-03-14T10:30:22.5942688+01:00",
-    "MotherId": 785,
-    "AssignedBy": 972,
-    "AssignedByFullName": "Lillie Walker PhD",
+    "RecurringStartDate": "2022-09-24T14:23:45.3907072+02:00",
+    "RecurringEndDate": "2012-02-11T14:23:45.3907072+01:00",
+    "MotherId": 975,
+    "AssignedBy": 647,
+    "AssignedByFullName": "Katrine Hintz",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "eum",
-    "SaleId": 991,
-    "SaleName": "Altenwerth-Sanford",
-    "AssociateName": "Johnston-Gibson",
-    "CreatedDate": "2023-11-17T10:30:22.5942688+01:00",
-    "CreatedBy": "quasi",
-    "CreatedByFullName": "Hilda Ebert",
-    "CreatedByAssociateId": 118,
+    "Location": "quis",
+    "AlarmLeadTime": "at",
+    "SaleId": 114,
+    "SaleName": "Jaskolski-Lubowitz",
+    "AssociateName": "Ferry LLC",
+    "CreatedDate": "1999-12-22T14:23:45.3907072+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Kariane Champlin",
+    "CreatedByAssociateId": 174,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 880,
-    "Title": "illum",
-    "Agenda": "quam",
-    "InternalNotes": "mollitia",
+    "PreferredTZLocation": 675,
+    "Title": "quia",
+    "Agenda": "facere",
+    "InternalNotes": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 615
       }
     }
   }

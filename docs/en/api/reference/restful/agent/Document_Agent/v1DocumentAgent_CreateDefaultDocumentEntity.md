@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 410,
+  "DocumentId": 261,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "perferendis",
-  "Name": "Ward Group",
-  "OurRef": "sit",
-  "YourRef": "quo",
-  "CreatedDate": "2019-10-04T10:30:23.6093354+02:00",
-  "UpdatedDate": "2015-01-30T10:30:23.6093354+01:00",
-  "Description": "Customizable multi-tasking extranet",
+  "Attention": "nostrum",
+  "Header": "quibusdam",
+  "Name": "Weissnat-Huel",
+  "OurRef": "at",
+  "YourRef": "quia",
+  "CreatedDate": "2008-01-25T14:23:46.3137065+01:00",
+  "UpdatedDate": "1997-09-29T14:23:46.3137065+02:00",
+  "Description": "Object-based eco-centric extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-08-01T10:30:23.6093354+02:00",
-  "ExternalRef": "ullam",
+  "Date": "2015-10-16T14:23:46.3137065+02:00",
+  "ExternalRef": "aspernatur",
   "Completed": "Completed",
-  "ActiveLinks": 198,
+  "ActiveLinks": 808,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McKenzie-Mosciski",
-      "Id": 269,
-      "Description": "Ergonomic even-keeled function",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 851,
+      "EntityName": "Rath-Price",
+      "Id": 122,
+      "Description": "Cross-platform fault-tolerant knowledge user",
+      "ExtraInfo": "id",
+      "LinkId": 246,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 92
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 635,
-  "Snum": 961,
+  "SuggestedDocumentId": 876,
+  "Snum": 462,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Marcelle Lisette Toy",
-    "SuperOffice:2": "Leonard Frami"
+    "SuperOffice:1": "Miss Elmira Roger Klein IV",
+    "SuperOffice:2": "1717538759"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "sed"
+    "CustomFields1": "in",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "2012-11-12T10:30:23.6093354+01:00",
-  "PublishTo": "2003-01-13T10:30:23.6093354+01:00",
-  "PublishFrom": "2001-04-09T10:30:23.6093354+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-07-08T14:23:46.3137065+02:00",
+  "PublishTo": "2013-05-09T14:23:46.3137065+02:00",
+  "PublishFrom": "2017-11-14T14:23:46.3137065+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 428,
+      "VisibleId": 500,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 659
         }
       }
     },
     {
-      "VisibleId": 428,
+      "VisibleId": 500,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldLength": 659
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 419
     }
   }
 }

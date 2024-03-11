@@ -82,6 +82,7 @@ inner participants provider, so that the conflict checking is performed.
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name|  |
 |personEmail|string|E-mail|  |
+|locationAddress|string|Location: Location|  |
 |personEmailsInformation|int|E-mail ID: IDs of contacts that should receive invitation e-mails for a booking - column is only used as a restriction|  |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name|  |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact|  |
@@ -132,11 +133,11 @@ inner participants provider, so that the conflict checking is performed.
 |email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |personUrl/URLAddress|string|URL|  |
 |personUrl/URLDescription|string|Description|  |
-|personContact/contactId| *None* |Company ID: Database ID of company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactId| *None* |Company ID: Database ID of company|  |
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
 |personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
@@ -187,7 +188,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=associateRestrictionId,personEmailsInformation,personRegisteredBy
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=appointmentRestrictionId,personRegisteredBy,locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

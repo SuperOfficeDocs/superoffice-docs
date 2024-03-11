@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cummerata-Paucek",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Gleichner, Brakus and Ritchie",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Gerlach, Feil and Quitzon",
-    "Tooltip": "voluptatem",
+    "Id": 808,
+    "Name": "Kiehn, Hagenes and Bosco",
+    "Tooltip": "voluptatum",
     "Deleted": true,
-    "UdListDefinitionId": 170,
-    "Rank": 669,
+    "UdListDefinitionId": 540,
+    "Rank": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldType": "System.Int32",
+        "FieldLength": 261
       }
     }
   }

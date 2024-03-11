@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Kunze LLC",
-    "ToolTip": "Magni assumenda porro.",
+    "Id": 690,
+    "Name": "Koepp-Ernser",
+    "ToolTip": "Quisquam quas.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "voluptas",
-    "ColorBlock": 273,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2004-12-29T10:30:32.9743325+01:00",
+    "Rank": 306,
+    "Type": "in",
+    "ColorBlock": 981,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2020-11-24T14:23:56.0877037+01:00",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Schumm, Kilback and Lebsack",
-        "ToolTip": "Eos suscipit in nihil rem et occaecati rerum.",
-        "Deleted": false,
-        "Rank": 703,
-        "Type": "deleniti",
-        "ColorBlock": 315,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2012-06-27T10:30:32.9743325+02:00",
+        "Id": 497,
+        "Name": "Ratke-Bosco",
+        "ToolTip": "Rerum perferendis.",
+        "Deleted": true,
+        "Rank": 134,
+        "Type": "reiciendis",
+        "ColorBlock": 444,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "1999-11-18T14:23:56.0877037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Janis Bode",
+        "ExtraInfo": "aut",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Aimee Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 291
+            "FieldType": "System.Int32",
+            "FieldLength": 188
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Adell Bernier Sr.",
+    "ExtraInfo": "placeat",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Mathias Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 336
       }
     }
   }

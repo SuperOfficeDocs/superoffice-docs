@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=iusto
+GET /api/v1/List/LegalBase/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Monahan, Gutkowski and Crist",
-    "ToolTip": "Qui enim culpa est aperiam esse.",
-    "Deleted": false,
-    "Rank": 620,
-    "Type": "velit",
+    "Id": 685,
+    "Name": "Bartell, Bode and Greenholt",
+    "ToolTip": "Recusandae illum omnis vitae.",
+    "Deleted": true,
+    "Rank": 86,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Klocko, Mraz and Hilll",
-        "ToolTip": "Ex sed maiores vero.",
+        "Id": 771,
+        "Name": "Schimmel, Abshire and Veum",
+        "ToolTip": "Illo autem hic tempora et.",
         "Deleted": false,
-        "Rank": 769,
-        "Type": "culpa",
+        "Rank": 128,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 862,
-        "ExtraInfo": "rem",
-        "StyleHint": "atque",
-        "FullName": "Bettye Goldner",
+        "IconHint": "accusamus",
+        "ColorBlock": 991,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "officiis",
+        "FullName": "Ms. Gunner Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldType": "System.String",
+            "FieldLength": 444
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 499,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "illum",
-    "FullName": "Dr. Taya McKenzie",
+    "IconHint": "possimus",
+    "ColorBlock": 949,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "pariatur",
+    "FullName": "Makenzie Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 107
       }
     }
   }

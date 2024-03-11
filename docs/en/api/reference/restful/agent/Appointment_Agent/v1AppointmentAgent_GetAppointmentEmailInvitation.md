@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Pacocha, Runte and Wuckert",
-  "Language": "magni"
+  "TemplateName": "Homenick LLC",
+  "Language": "id"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 164,
-      "ContactName": "McKenzie Group",
-      "PersonId": 221,
-      "PersonName": "White, Will and Abernathy",
-      "AssociateId": 908,
-      "Address": "cupiditate",
-      "EmailId": 181,
+      "ContactId": 505,
+      "ContactName": "Lynch-Konopelski",
+      "PersonId": 331,
+      "PersonName": "Blanda-Douglas",
+      "AssociateId": 369,
+      "Address": "vero",
+      "EmailId": 949,
       "DuplicatePersonIds": [
-        146,
-        86
+        813,
+        579
       ],
-      "Name": "Ebert Group",
+      "Name": "Gleichner, Emmerich and Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 529
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 950,
-      "ContactName": "Kling, Rutherford and Marks",
-      "PersonId": 489,
-      "PersonName": "Will-Howell",
-      "AssociateId": 602,
-      "Address": "eligendi",
-      "EmailId": 774,
+      "ContactId": 841,
+      "ContactName": "Grant-Kuvalis",
+      "PersonId": 78,
+      "PersonName": "Hamill Group",
+      "AssociateId": 176,
+      "Address": "soluta",
+      "EmailId": 862,
       "DuplicatePersonIds": [
-        175,
-        705
+        194,
+        456
       ],
-      "Name": "Grimes Inc and Sons",
+      "Name": "Graham, Koss and Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 993,
-      "ContactName": "Walsh LLC",
-      "PersonId": 869,
-      "PersonName": "Mohr, Berge and Braun",
-      "AssociateId": 782,
-      "Address": "quam",
-      "EmailId": 201,
+      "ContactId": 559,
+      "ContactName": "Weissnat Group",
+      "PersonId": 309,
+      "PersonName": "Beer LLC",
+      "AssociateId": 523,
+      "Address": "ut",
+      "EmailId": 640,
       "DuplicatePersonIds": [
-        241,
-        733
+        192,
+        277
       ],
-      "Name": "Hettinger-Conroy",
+      "Name": "Schoen-Bahringer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 821
+          "FieldType": "System.Int32",
+          "FieldLength": 177
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "fugiat",
+  "Subject": "quia",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2009-04-21T10:30:23.0201695+02:00",
-  "Size": 519,
+  "Sent": "2014-08-02T14:23:45.8137128+02:00",
+  "Size": 585,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "delectus",
-  "PlainBody": "nobis",
+  "MessageID": "et",
+  "PlainBody": "delectus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 371,
+  "ServerId": 264,
   "Attachments": [
     {
-      "Description": "Team-oriented composite moratorium",
-      "Filename": "aut",
-      "Size": 891,
-      "Type": "qui",
-      "Encoding": "voluptate",
-      "Id": "recusandae",
-      "Disposition": "beatae",
-      "IsSafeFileExtension": false,
+      "Description": "Right-sized global artificial intelligence",
+      "Filename": "qui",
+      "Size": 579,
+      "Type": "eius",
+      "Encoding": "ad",
+      "Id": "maiores",
+      "Disposition": "qui",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 66
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wunsch, Fadel and Pfeffer",
+      "Name": "Carter Group",
       "Values": [
-        "qui",
-        "iusto"
+        "dolore",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 262
         }
       }
     },
     {
-      "Name": "Wunsch, Fadel and Pfeffer",
+      "Name": "Carter Group",
       "Values": [
-        "qui",
-        "iusto"
+        "dolore",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 262
         }
       }
     }
   ],
-  "FolderName": "Schmidt, Steuber and Nienow",
-  "EmailItemId": 12,
-  "AccountId": 593,
-  "ReceivedAt": "2017-10-12T10:30:23.0201695+02:00",
+  "FolderName": "Thompson-Altenwerth",
+  "EmailItemId": 79,
+  "AccountId": 493,
+  "ReceivedAt": "2009-03-09T14:23:45.8137128+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-05-20T10:30:23.0201695+02:00",
+  "RepliedAt": "2006-07-03T14:23:45.8137128+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 71
     }
   }
 }

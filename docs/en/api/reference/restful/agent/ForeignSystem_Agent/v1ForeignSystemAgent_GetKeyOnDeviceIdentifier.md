@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Borer, Gerhold and Franecki",
-  "DeviceName": "Emard, Greenfelder and Lehner",
-  "DeviceIdentifier": "neque",
-  "KeyName": "Abernathy Group",
-  "TableName": "Cartwright Inc and Sons",
-  "RecordId": 604
+  "ApplicationName": "Wehner, Legros and Effertz",
+  "DeviceName": "Rempel LLC",
+  "DeviceIdentifier": "eum",
+  "KeyName": "Schroeder-Smitham",
+  "TableName": "Mosciski Group",
+  "RecordId": 579
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "modi",
-  "Value": "neque",
-  "RecordId": 43,
-  "CreatedDate": "2019-07-29T10:30:23.9073938+02:00",
-  "UpdatedDate": "2000-11-23T10:30:23.9073938+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "occaecati",
-  "TableName": "Armstrong-Sipes",
+  "Key": "ipsum",
+  "Value": "ratione",
+  "RecordId": 844,
+  "CreatedDate": "2010-09-22T14:23:46.7524806+02:00",
+  "UpdatedDate": "1997-12-28T14:23:46.7524806+01:00",
+  "UpdatedBy": "dicta",
+  "CreatedBy": "veniam",
+  "TableName": "Welch-Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 953
     }
   }
 }

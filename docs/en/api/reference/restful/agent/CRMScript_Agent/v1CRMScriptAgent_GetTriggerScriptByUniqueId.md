@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "sequi"
+  "TriggerScriptUniqueId": "ex"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 715,
-  "Name": "Considine Inc and Sons",
+  "ScreenChooserId": 314,
+  "Name": "Effertz-Von",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "aliquid",
-  "Registered": "2017-08-02T10:30:23.4049883+02:00",
-  "RegisteredAssociateId": 789,
-  "Updated": "2007-11-11T10:30:23.4049883+01:00",
-  "UpdatedAssociateId": 538,
+  "Enabled": true,
+  "UniqueIdentifier": "veritatis",
+  "Source": "dolores",
+  "Registered": "2003-09-03T14:23:46.219957+02:00",
+  "RegisteredAssociateId": 451,
+  "Updated": "2020-10-03T14:23:46.219957+02:00",
+  "UpdatedAssociateId": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldLength": 52
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 447,
-  "CurrentAppointmentId": 138,
+  "SaleId": 257,
+  "CurrentAppointmentId": 910,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 328,
-  "Deleted": 530,
-  "DaysFuture": 449,
-  "Tooltip": "delectus",
-  "Text": "magni",
-  "TaskId": 523,
-  "SuggestedAppointmentId": 869,
-  "SaleTypeStageLinkId": 477,
-  "RegisteredAssociateId": 939,
-  "Rank": 245,
-  "ProjectTypeStatusLinkId": 431,
-  "Name": "Weimann Inc and Sons",
-  "Duration": 323,
+  "AutoSuggest": 941,
+  "Deleted": 852,
+  "DaysFuture": 329,
+  "Tooltip": "molestiae",
+  "Text": "et",
+  "TaskId": 317,
+  "SuggestedAppointmentId": 462,
+  "SaleTypeStageLinkId": 456,
+  "RegisteredAssociateId": 254,
+  "Rank": 253,
+  "ProjectTypeStatusLinkId": 51,
+  "Name": "Moen LLC",
+  "Duration": 748,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 550
     }
   }
 }

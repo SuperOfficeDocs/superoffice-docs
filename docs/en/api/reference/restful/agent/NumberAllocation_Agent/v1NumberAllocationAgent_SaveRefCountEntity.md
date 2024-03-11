@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 33,
-  "Field": "asperiores",
-  "RecordId": 283,
+  "RefCountsId": 434,
+  "Field": "laborum",
+  "RecordId": 695,
   "SuggestedRecords": [
     {
-      "Id": 995,
-      "Name": "Konopelski Group",
-      "ToolTip": "Quos sed tempora voluptatum beatae iusto.",
+      "Id": 171,
+      "Name": "Cole-Carroll",
+      "ToolTip": "Quibusdam autem quo qui ut accusantium.",
       "Deleted": false,
-      "Rank": 306,
-      "Type": "iure",
+      "Rank": 172,
+      "Type": "quaerat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "suscipit",
-      "ColorBlock": 907,
+      "IconHint": "tenetur",
+      "ColorBlock": 199,
       "ExtraInfo": "aut",
-      "StyleHint": "maiores",
-      "FullName": "Martin Langosh"
+      "StyleHint": "est",
+      "FullName": "Hettie Emmerich IV"
     }
   ],
-  "CurrentValue": 714,
-  "TravelPrefix": 927,
-  "SatPrefix": 540,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": false
+  "CurrentValue": 784,
+  "TravelPrefix": 737,
+  "SatPrefix": 503,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": false,
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 709,
-  "Field": "sit",
-  "RecordId": 470,
+  "RefCountsId": 305,
+  "Field": "qui",
+  "RecordId": 90,
   "SuggestedRecords": [
     {
-      "Id": 816,
-      "Name": "Feil Group",
-      "ToolTip": "Mollitia qui voluptas.",
+      "Id": 605,
+      "Name": "Tromp-Beer",
+      "ToolTip": "Autem aperiam illum id distinctio laboriosam voluptatem.",
       "Deleted": false,
-      "Rank": 974,
-      "Type": "maiores",
+      "Rank": 136,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "fuga",
-      "ColorBlock": 753,
-      "ExtraInfo": "quaerat",
-      "StyleHint": "debitis",
-      "FullName": "Mrs. Fatima Jamil Moore",
+      "ColorBlock": 670,
+      "ExtraInfo": "occaecati",
+      "StyleHint": "expedita",
+      "FullName": "Jerrold Hoppe II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 329
+          "FieldLength": 986
         }
       }
     }
   ],
-  "CurrentValue": 578,
-  "TravelPrefix": 147,
-  "SatPrefix": 273,
-  "Allocate": false,
+  "CurrentValue": 726,
+  "TravelPrefix": 514,
+  "SatPrefix": 428,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": true,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 247
     }
   }
 }

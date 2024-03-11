@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 64,
-  "BlobSize": 881,
-  "Description": "Customer-focused radical pricing structure",
-  "ExtraInfo": "qui",
+  "BlobId": 157,
+  "BlobSize": 498,
+  "Description": "Innovative bandwidth-monitored info-mediaries",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptas",
-  "OriginalSize": 281,
-  "CreatedDate": "2009-07-10T10:30:23.0982933+02:00",
-  "UpdatedDate": "2005-02-11T10:30:23.0982933+01:00",
+  "MimeType": "vel",
+  "OriginalSize": 16,
+  "CreatedDate": "1997-06-14T14:23:45.8918358+02:00",
+  "UpdatedDate": "2014-01-02T14:23:45.8918358+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ex"
+  "ConceptualType": "distinctio"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 114,
-  "BlobSize": 363,
-  "Description": "Multi-lateral encompassing matrix",
-  "ExtraInfo": "incidunt",
+  "BlobId": 527,
+  "BlobSize": 767,
+  "Description": "Decentralized local extranet",
+  "ExtraInfo": "id",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "sequi",
-  "OriginalSize": 615,
-  "CreatedDate": "1999-10-30T10:30:23.0982933+02:00",
-  "UpdatedDate": "2007-05-20T10:30:23.0982933+02:00",
+  "IsZipped": true,
+  "MimeType": "nihil",
+  "OriginalSize": 172,
+  "CreatedDate": "2001-06-15T14:23:45.8918358+02:00",
+  "UpdatedDate": "2016-08-31T14:23:45.8918358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque",
+  "ConceptualType": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 159
     }
   }
 }

@@ -72,14 +72,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 15,
-      "AssociateName": "Larson, Howe and Hermiston",
-      "AssociateId": 130
+      "AccountId": 970,
+      "AssociateName": "Ledner LLC",
+      "AssociateId": 190
     },
     {
-      "AccountId": 15,
-      "AssociateName": "Larson, Howe and Hermiston",
-      "AssociateId": 130
+      "AccountId": 970,
+      "AssociateName": "Ledner LLC",
+      "AssociateId": 190
     }
   ]
 }

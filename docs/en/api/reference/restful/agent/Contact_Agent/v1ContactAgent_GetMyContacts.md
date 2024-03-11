@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 676,
-    "Name": "Gutkowski, Jacobs and Lesch",
-    "OrgNr": "1507573",
+    "ContactId": 843,
+    "Name": "Jewess-Kub",
+    "OrgNr": "664946",
     "Department": "",
     "URL": "http://www.example.com/",
     "City": "qui",
-    "DirectPhone": "242.736.1895 x9457",
-    "AssociateId": 795,
-    "CountryId": 891,
-    "EmailAddress": "zechariah@gislasonhermann.uk",
-    "Kananame": "quo",
-    "EmailAddressName": "dora@kerluke.name",
+    "DirectPhone": "606-789-1311",
+    "AssociateId": 972,
+    "CountryId": 164,
+    "EmailAddress": "clovis_hodkiewicz@moen.name",
+    "Kananame": "aut",
+    "EmailAddressName": "karianne@hodkiewiczchristiansen.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Lulu Kiehn",
+    "AssociateFullName": "Jayne Gusikowski",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "atque",
-    "FullName": "Eldon Stokes",
+    "FormattedAddress": "qui",
+    "FullName": "Adelia Robel",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 669,
-    "Number1": "843874",
-    "Number2": "1141473",
+    "ActiveErpLinks": 720,
+    "Number1": "487174",
+    "Number2": "1000500",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   }

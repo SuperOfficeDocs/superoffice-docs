@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Zulauf Group",
-    "Tooltip": "vel",
+    "Id": 446,
+    "Name": "McCullough-Lowe",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 126,
-    "Rank": 872,
+    "UdListDefinitionId": 74,
+    "Rank": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 780
       }
     }
   }

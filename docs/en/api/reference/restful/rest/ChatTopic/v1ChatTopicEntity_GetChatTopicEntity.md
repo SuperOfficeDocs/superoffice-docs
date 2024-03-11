@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 690,
-  "Name": "O'Hara LLC",
-  "Description": "Public-key dedicated info-mediaries",
-  "WelcomeMessage": "laborum",
+  "ChatTopicId": 979,
+  "Name": "DuBuque LLC",
+  "Description": "De-engineered eco-centric open architecture",
+  "WelcomeMessage": "ipsam",
   "Language": null,
-  "LastAccept": "2020-06-07T10:30:31.823057+02:00",
-  "SecondsPrAccept": 9,
-  "AlertRecipient": "esse",
+  "LastAccept": "2022-01-28T14:23:54.8977701+01:00",
+  "SecondsPrAccept": 350,
+  "AlertRecipient": "ullam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "consectetur",
+  "BadgeHeader": "aliquam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "porro",
-  "WarnNewChatMinutes": 779,
-  "WarnManagerNewChatMinutes": 461,
+  "CustomQueueText": "repellat",
+  "WarnNewChatMinutes": 73,
+  "WarnManagerNewChatMinutes": 670,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 721,
-  "WarnManagerChatMessageMinutes": 188,
+  "WarnChatMessageMinutes": 259,
+  "WarnManagerChatMessageMinutes": 890,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 95,
-  "OfflineFormQueueLength": 992,
+  "OfflineFormTimeLimit": 908,
+  "OfflineFormQueueLength": 312,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "id",
+  "WidgetRatingText": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 944
     }
   },
   "_Links": {

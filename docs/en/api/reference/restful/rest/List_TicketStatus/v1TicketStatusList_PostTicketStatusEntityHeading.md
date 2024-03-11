@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 416,
-  "Name": "Ratke-Reilly",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 709,
-  "UdListDefinitionId": 83
+  "HeadingId": 394,
+  "Name": "Luettgen LLC",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 559,
+  "UdListDefinitionId": 442
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 338,
-  "Name": "Hand, Bogisich and Wolf",
-  "Tooltip": "saepe",
+  "HeadingId": 241,
+  "Name": "Farrell Inc and Sons",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 824,
-  "UdListDefinitionId": 227,
+  "Rank": 461,
+  "UdListDefinitionId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

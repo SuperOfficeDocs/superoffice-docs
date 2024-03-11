@@ -70,11 +70,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rempel, Raynor and Skiles",
-  "Id": 252,
+  "TableName": "Bartell-Powlowski",
+  "Id": 12,
   "Values": {
-    "Values1": "voluptatem",
-    "Values2": "et"
+    "Values1": "culpa",
+    "Values2": "vel"
   }
 }
 ```

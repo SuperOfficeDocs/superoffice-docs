@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Walker Inc and Sons",
-    "ToolTip": "Vitae et vero sit ut eum error ea.",
-    "Deleted": false,
-    "Rank": 300,
-    "Type": "quo",
-    "ColorBlock": 981,
-    "IconHint": "iure",
+    "Id": 136,
+    "Name": "Cartwright-Harber",
+    "ToolTip": "Voluptas vitae maxime id aperiam voluptatem itaque.",
+    "Deleted": true,
+    "Rank": 306,
+    "Type": "rerum",
+    "ColorBlock": 670,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2015-12-02T10:30:32.8805387+01:00",
+    "LastChanged": "2021-08-30T14:23:55.9783277+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "VonRueden-Skiles",
-        "ToolTip": "Assumenda aut qui quo quia fugit.",
+        "Id": 725,
+        "Name": "Gorczany Inc and Sons",
+        "ToolTip": "Aspernatur aliquam.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "eos",
-        "ColorBlock": 943,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2018-12-25T10:30:32.8805387+01:00",
+        "Rank": 754,
+        "Type": "fugit",
+        "ColorBlock": 921,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2019-10-21T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "optio",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Marguerite Hansen"
+        "FullName": "Alphonso Stracke"
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Kristoffer Javonte Fahey Sr."
+    "FullName": "Brisa Gleichner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Robel, Adams and Schoen",
-    "ToolTip": "Magni quia commodi.",
+    "Id": 512,
+    "Name": "Runte-Pfannerstill",
+    "ToolTip": "Sint repudiandae quisquam quos sed.",
     "Deleted": false,
-    "Rank": 159,
+    "Rank": 255,
     "Type": "est",
-    "ColorBlock": 516,
-    "IconHint": "blanditiis",
+    "ColorBlock": 238,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2010-09-18T10:30:32.8805387+02:00",
+    "LastChanged": "1998-02-08T14:23:55.9783277+01:00",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Kuphal LLC",
-        "ToolTip": "Eum sint esse.",
+        "Id": 278,
+        "Name": "Kohler Inc and Sons",
+        "ToolTip": "Dolorum debitis dignissimos placeat.",
         "Deleted": false,
-        "Rank": 846,
-        "Type": "dolorem",
-        "ColorBlock": 62,
-        "IconHint": "dicta",
+        "Rank": 173,
+        "Type": "neque",
+        "ColorBlock": 299,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2019-09-14T10:30:32.8805387+02:00",
+        "LastChanged": "2018-10-11T14:23:55.9783277+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "suscipit",
-        "Hidden": true,
-        "FullName": "Prof. Garett Lebsack II",
+        "ExtraInfo": "esse",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Yasmeen Volkman PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 83
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "impedit",
+    "ExtraInfo": "sit",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Pat Kerluke",
+    "FullName": "Estel Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 582
       }
     }
   }

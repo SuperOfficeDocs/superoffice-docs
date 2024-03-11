@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=assumenda
+GET /api/v1/List/Category/MDOItems?query=eos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Brown LLC",
-    "ToolTip": "Sed totam doloribus id.",
+    "Id": 937,
+    "Name": "Medhurst Inc and Sons",
+    "ToolTip": "Debitis et hic velit.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "et",
+    "Rank": 765,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Block Group",
-        "ToolTip": "Tempora placeat sed est.",
+        "Id": 657,
+        "Name": "Johns-Pacocha",
+        "ToolTip": "Omnis corporis voluptas et voluptatem voluptas ut ipsam.",
         "Deleted": true,
-        "Rank": 689,
-        "Type": "veritatis",
+        "Rank": 729,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "libero",
-        "ColorBlock": 4,
-        "ExtraInfo": "a",
-        "StyleHint": "excepturi",
-        "FullName": "Eino Paucek",
+        "ColorBlock": 508,
+        "ExtraInfo": "omnis",
+        "StyleHint": "recusandae",
+        "FullName": "Louie Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 993
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 337,
-    "ExtraInfo": "est",
-    "StyleHint": "dolorem",
-    "FullName": "Amelia Nicolas",
+    "IconHint": "et",
+    "ColorBlock": 932,
+    "ExtraInfo": "ipsa",
+    "StyleHint": "enim",
+    "FullName": "Mr. Agustina Spencer Carroll MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

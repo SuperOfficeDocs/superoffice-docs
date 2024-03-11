@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 155,
-  "SelectionId": 785,
-  "Restrictions": "ipsa"
+  "DashboardTileId": 152,
+  "SelectionId": 537,
+  "Restrictions": "illo"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Blanda, Crist and Schumm",
-        "DisplayTooltip": "modi",
-        "DisplayType": "velit",
-        "CanOrderBy": true,
-        "Name": "Leannon-Breitenberg",
+        "DisplayName": "Franecki, Zulauf and Klocko",
+        "DisplayTooltip": "et",
+        "DisplayType": "quidem",
+        "CanOrderBy": false,
+        "Name": "Kassulke-Cartwright",
         "CanRestrictBy": false,
-        "RestrictionType": "ipsum",
-        "RestrictionListName": "Baumbach Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "enim",
-        "Width": "numquam",
-        "IconHint": "ut",
-        "HeadingIconHint": "laudantium"
+        "RestrictionType": "dolores",
+        "RestrictionListName": "Murphy, Kuhlman and Abernathy",
+        "IsVisible": true,
+        "ExtraInfo": "itaque",
+        "Width": "vitae",
+        "IconHint": "fugiat",
+        "HeadingIconHint": "consequatur"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Blanda, Crist and Schumm",
-        "DisplayTooltip": "modi",
-        "DisplayType": "velit",
-        "CanOrderBy": true,
-        "Name": "Leannon-Breitenberg",
+        "DisplayName": "Franecki, Zulauf and Klocko",
+        "DisplayTooltip": "et",
+        "DisplayType": "quidem",
+        "CanOrderBy": false,
+        "Name": "Kassulke-Cartwright",
         "CanRestrictBy": false,
-        "RestrictionType": "ipsum",
-        "RestrictionListName": "Baumbach Inc and Sons",
-        "IsVisible": false,
-        "ExtraInfo": "enim",
-        "Width": "numquam",
-        "IconHint": "ut",
-        "HeadingIconHint": "laudantium"
+        "RestrictionType": "dolores",
+        "RestrictionListName": "Murphy, Kuhlman and Abernathy",
+        "IsVisible": true,
+        "ExtraInfo": "itaque",
+        "Width": "vitae",
+        "IconHint": "fugiat",
+        "HeadingIconHint": "consequatur"
       }
     ],
     "Result": null

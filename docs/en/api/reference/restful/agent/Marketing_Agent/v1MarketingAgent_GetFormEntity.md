@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=902
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=425
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -78,6 +78,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
+| EmailFlows | array | EmailFlows this form is used in (read-only) |
 | FolderName | string | The name of the folder for this form |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 100,
-  "FormKey": "cumque",
-  "Name": "Koss, Dickinson and Gerhold",
-  "Description": "Open-architected user-facing system engine",
-  "Config": "quos",
-  "FolderId": 653,
-  "ScriptId": 286,
-  "ResponseShipmentId": 897,
+  "FormId": 429,
+  "FormKey": "aperiam",
+  "Name": "Frami Inc and Sons",
+  "Description": "Stand-alone intermediate budgetary management",
+  "Config": "eos",
+  "FolderId": 840,
+  "ScriptId": 306,
+  "ResponseShipmentId": 832,
   "Active": true,
-  "Expires": "2000-06-24T10:30:24.1037706+02:00",
-  "MaxSubmits": 890,
+  "Expires": "2021-01-31T14:23:46.9098888+01:00",
+  "MaxSubmits": 456,
   "Type": "Normal",
-  "Recipe": "voluptatibus",
-  "GroupId": 236,
+  "Recipe": "adipisci",
+  "GroupId": 199,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2003-09-25T10:30:24.1037706+02:00",
-  "RegisteredAssociateId": 334,
-  "Updated": "2001-03-09T10:30:24.1037706+01:00",
-  "UpdatedAssociateId": 472,
-  "UpdatedCount": 275,
-  "FolderName": "Corkery Group",
+  "Registered": "2011-01-28T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 508,
+  "Updated": "2019-07-24T14:23:46.9098888+02:00",
+  "UpdatedAssociateId": 234,
+  "UpdatedCount": 240,
+  "EmailFlows": [
+    337,
+    648
+  ],
+  "FolderName": "Stoltenberg-Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   }
 }

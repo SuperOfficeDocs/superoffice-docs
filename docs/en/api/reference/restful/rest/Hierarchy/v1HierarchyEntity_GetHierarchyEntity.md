@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,51 +92,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 311,
+  "HierarchyId": 758,
   "Domain": "Dashboards",
-  "Name": "Schinner-Cormier",
-  "Fullname": "nemo",
-  "ParentId": 205,
+  "Name": "Armstrong Group",
+  "Fullname": "et",
+  "ParentId": 289,
   "Children": [
     {
-      "HierarchyId": 811,
+      "HierarchyId": 368,
       "Domain": "Dashboards",
-      "Name": "Thiel Inc and Sons",
-      "Fullname": "nam",
-      "ParentId": 748,
+      "Name": "Predovic-Stiedemann",
+      "Fullname": "animi",
+      "ParentId": 420,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-08-24T10:30:32.0886795+02:00",
-      "RegisteredAssociateId": 69,
-      "Updated": "2020-01-29T10:30:32.0886795+01:00",
-      "UpdatedAssociateId": 303,
+      "Registered": "2012-05-03T14:23:55.195897+02:00",
+      "RegisteredAssociateId": 639,
+      "Updated": "2017-05-01T14:23:55.195897+02:00",
+      "UpdatedAssociateId": 251,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 474
         }
       }
     }
   ],
-  "Registered": "2001-03-18T10:30:32.0886795+01:00",
-  "RegisteredAssociateId": 944,
-  "Updated": "2006-07-06T10:30:32.0886795+02:00",
-  "UpdatedAssociateId": 954,
+  "Registered": "2018-08-31T14:23:55.195897+02:00",
+  "RegisteredAssociateId": 815,
+  "Updated": "2020-10-04T14:23:55.195897+02:00",
+  "UpdatedAssociateId": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 208
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

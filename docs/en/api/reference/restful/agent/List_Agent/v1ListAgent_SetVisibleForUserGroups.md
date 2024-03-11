@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 211,
-  "ListItemId": 218,
+  "UdListDefinitionId": 454,
+  "ListItemId": 966,
   "UserGroups": [
     {
-      "Id": 724,
-      "Name": "Mann-Roberts",
-      "ToolTip": "Voluptas aut mollitia voluptate omnis voluptatem itaque at.",
+      "Id": 196,
+      "Name": "Yost-Maggio",
+      "ToolTip": "Quas id voluptatibus ut modi aut sed.",
       "Deleted": false,
-      "Rank": 26,
-      "Type": "aut",
-      "ColorBlock": 574,
-      "IconHint": "sunt",
+      "Rank": 423,
+      "Type": "sunt",
+      "ColorBlock": 9,
+      "IconHint": "illo",
       "Selected": false,
-      "LastChanged": "2006-01-02T10:30:23.9944062+01:00",
+      "LastChanged": "1997-04-26T14:23:46.8306046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "quasi",
-      "Hidden": true,
-      "FullName": "Felicity Lafayette Koss III"
+      "ExtraInfo": "consequatur",
+      "StyleHint": "reiciendis",
+      "Hidden": false,
+      "FullName": "Domenick Fisher I"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Smitham LLC",
-    "ToolTip": "Voluptatibus fugit quis.",
-    "Deleted": false,
-    "Rank": 753,
-    "Type": "repudiandae",
-    "ColorBlock": 530,
-    "IconHint": "quis",
+    "Id": 419,
+    "Name": "Rosenbaum-Hauck",
+    "ToolTip": "Quasi dolorum exercitationem eaque repellendus dolorem cum unde.",
+    "Deleted": true,
+    "Rank": 527,
+    "Type": "aut",
+    "ColorBlock": 505,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2013-04-28T10:30:23.9944062+02:00",
+    "LastChanged": "2004-06-23T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Collier-Green",
-        "ToolTip": "Totam et sed explicabo repellat quia.",
+        "Id": 362,
+        "Name": "Bradtke-Cassin",
+        "ToolTip": "Non natus eos autem vel numquam aut.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "aspernatur",
-        "ColorBlock": 47,
-        "IconHint": "fugit",
+        "Rank": 68,
+        "Type": "impedit",
+        "ColorBlock": 708,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2022-12-23T10:30:23.9944062+01:00",
+        "LastChanged": "2021-10-24T14:23:46.8306046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "nihil",
+        "ExtraInfo": "ad",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mrs. Rachelle Elna Sawayn I",
+        "FullName": "Marvin Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 404
+            "FieldType": "System.Int32",
+            "FieldLength": 506
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Alberta Valentin Durgan Sr.",
+    "FullName": "Marcelle Waldo Schultz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldLength": 310
       }
     }
   }

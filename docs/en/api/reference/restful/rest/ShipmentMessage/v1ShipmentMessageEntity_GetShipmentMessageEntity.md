@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 624,
-  "PlainMessage": "asperiores",
-  "HtmlMessage": "eos",
-  "SmsMessage": "delectus",
-  "Description": "Re-contextualized incremental moratorium",
-  "Subject": "voluptatibus",
-  "FolderId": 877,
-  "HeaderField": "ipsa",
-  "Design": "quisquam",
+  "ShipmentMessageId": 395,
+  "PlainMessage": "consequatur",
+  "HtmlMessage": "est",
+  "SmsMessage": "perferendis",
+  "Description": "Intuitive incremental installation",
+  "Subject": "sed",
+  "FolderId": 188,
+  "HeaderField": "eligendi",
+  "Design": "beatae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Optional logistical product",
-  "AccessKey": "velit",
-  "DocumentMessage": 856,
-  "Registered": "2011-10-10T10:30:32.5125031+02:00",
-  "RegisteredAssociateId": 638,
-  "Updated": "2003-08-11T10:30:32.5125031+02:00",
-  "UpdatedAssociateId": 409,
-  "UpdatedCount": 420,
+  "InlineImages": false,
+  "LongDescription": "Switchable leading edge interface",
+  "AccessKey": "ad",
+  "DocumentMessage": 124,
+  "Registered": "1999-05-11T14:23:55.5252104+02:00",
+  "RegisteredAssociateId": 485,
+  "Updated": "2002-01-04T14:23:55.5252104+01:00",
+  "UpdatedAssociateId": 620,
+  "UpdatedCount": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=iusto
+GET /api/v1/List/ProductCategory/MDOItems?query=voluptatum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Stokes-Macejkovic",
-    "ToolTip": "Laudantium ad perspiciatis quod pariatur corporis quos.",
-    "Deleted": true,
-    "Rank": 397,
-    "Type": "ducimus",
+    "Id": 317,
+    "Name": "Schneider, McClure and Deckow",
+    "ToolTip": "Molestiae nostrum totam illo.",
+    "Deleted": false,
+    "Rank": 568,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Quigley, Gerlach and Roob",
-        "ToolTip": "In id suscipit commodi.",
+        "Id": 713,
+        "Name": "Kuhn LLC",
+        "ToolTip": "Et cum.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "qui",
+        "Rank": 767,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 681,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "sed",
-        "FullName": "Johnny Schoen",
+        "IconHint": "dicta",
+        "ColorBlock": 352,
+        "ExtraInfo": "ipsam",
+        "StyleHint": "est",
+        "FullName": "Phoebe Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 568
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 24,
-    "ExtraInfo": "eius",
-    "StyleHint": "distinctio",
-    "FullName": "Branson Rohan",
+    "IconHint": "et",
+    "ColorBlock": 117,
+    "ExtraInfo": "odit",
+    "StyleHint": "qui",
+    "FullName": "Javier Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 3
       }
     }
   }

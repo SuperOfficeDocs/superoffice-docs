@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 670
+  "AssociateId": 537
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schiller-Jacobson",
-    "Description": "Public-key scalable superstructure",
+    "Name": "Price-Bogan",
+    "Description": "Balanced heuristic encoding",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 629,
-        "Tooltip": "iste",
+        "Total": 165,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 934,
-        "InUse": 555,
+        "Free": 650,
+        "InUse": 107,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 104,
-        "Name": "Mraz-Fritsch",
-        "Description": "Cloned uniform strategy",
-        "PrerequisiteModuleName": "Erdman Group",
-        "SortOrder": 356,
-        "ExtraFlags": 57,
+        "Assigned": false,
+        "ModuleLicenseId": 719,
+        "Name": "Dach-Kiehn",
+        "Description": "Virtual client-server artificial intelligence",
+        "PrerequisiteModuleName": "Fisher-Spencer",
+        "SortOrder": 112,
+        "ExtraFlags": 434,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldType": "System.String",
+            "FieldLength": 428
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 553,
-        "Tooltip": "magni",
+        "Total": 285,
+        "Tooltip": "rerum",
         "CanAssign": false,
-        "Free": 693,
-        "InUse": 208,
-        "IsHidden": false,
+        "Free": 905,
+        "InUse": 662,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 222,
-        "Name": "Lind, O'Kon and Hintz",
-        "Description": "Fundamental empowering benchmark",
-        "PrerequisiteModuleName": "Heller LLC",
-        "SortOrder": 870,
-        "ExtraFlags": 314,
+        "ModuleLicenseId": 977,
+        "Name": "Becker-Stiedemann",
+        "Description": "Configurable analyzing policy",
+        "PrerequisiteModuleName": "Jacobi-Hansen",
+        "SortOrder": 964,
+        "ExtraFlags": 39,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldType": "System.String",
+            "FieldLength": 935
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   },
   {
-    "Name": "Schiller-Jacobson",
-    "Description": "Public-key scalable superstructure",
+    "Name": "Price-Bogan",
+    "Description": "Balanced heuristic encoding",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 629,
-        "Tooltip": "iste",
+        "Total": 165,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 934,
-        "InUse": 555,
+        "Free": 650,
+        "InUse": 107,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 104,
-        "Name": "Mraz-Fritsch",
-        "Description": "Cloned uniform strategy",
-        "PrerequisiteModuleName": "Erdman Group",
-        "SortOrder": 356,
-        "ExtraFlags": 57,
+        "Assigned": false,
+        "ModuleLicenseId": 719,
+        "Name": "Dach-Kiehn",
+        "Description": "Virtual client-server artificial intelligence",
+        "PrerequisiteModuleName": "Fisher-Spencer",
+        "SortOrder": 112,
+        "ExtraFlags": 434,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldType": "System.String",
+            "FieldLength": 428
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 553,
-        "Tooltip": "magni",
+        "Total": 285,
+        "Tooltip": "rerum",
         "CanAssign": false,
-        "Free": 693,
-        "InUse": 208,
-        "IsHidden": false,
+        "Free": 905,
+        "InUse": 662,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 222,
-        "Name": "Lind, O'Kon and Hintz",
-        "Description": "Fundamental empowering benchmark",
-        "PrerequisiteModuleName": "Heller LLC",
-        "SortOrder": 870,
-        "ExtraFlags": 314,
+        "ModuleLicenseId": 977,
+        "Name": "Becker-Stiedemann",
+        "Description": "Configurable analyzing policy",
+        "PrerequisiteModuleName": "Jacobi-Hansen",
+        "SortOrder": 964,
+        "ExtraFlags": 39,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldType": "System.String",
+            "FieldLength": 935
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   }

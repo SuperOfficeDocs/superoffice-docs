@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 102,
-    "Name": "Schamberger-Braun",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "Rank": 634,
-    "UdListDefinitionId": 595,
+    "HeadingId": 709,
+    "Name": "Witting LLC",
+    "Tooltip": "cumque",
+    "Deleted": false,
+    "Rank": 691,
+    "UdListDefinitionId": 686,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 35
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Kling, Kerluke and Cassin",
-    "ToolTip": "Qui enim cupiditate ad.",
+    "Id": 800,
+    "Name": "Donnelly, Davis and Fritsch",
+    "ToolTip": "Iste molestiae.",
     "Deleted": true,
-    "Rank": 288,
-    "Type": "omnis",
-    "ColorBlock": 125,
-    "IconHint": "veritatis",
+    "Rank": 401,
+    "Type": "a",
+    "ColorBlock": 803,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2014-08-30T10:30:32.9587082+02:00",
+    "LastChanged": "2000-02-06T14:23:56.0720758+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Simonis-Smitham",
-        "ToolTip": "Consequatur porro adipisci doloribus est quas molestiae omnis.",
-        "Deleted": false,
-        "Rank": 948,
-        "Type": "nemo",
-        "ColorBlock": 970,
-        "IconHint": "autem",
+        "Id": 596,
+        "Name": "Osinski-Wilkinson",
+        "ToolTip": "Voluptate hic sit esse accusantium dolores assumenda qui.",
+        "Deleted": true,
+        "Rank": 159,
+        "Type": "autem",
+        "ColorBlock": 268,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "1999-10-06T10:30:32.9587082+02:00",
+        "LastChanged": "2014-02-28T14:23:56.0720758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Frankie Walter Steuber Jr."
+        "ExtraInfo": "cum",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mr. Anna Weber"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Miss Delia Milton Schoen"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Mrs. Bailee Marcos Wiegand IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Senger LLC",
-    "ToolTip": "Eum et molestias.",
+    "Id": 422,
+    "Name": "Muller LLC",
+    "ToolTip": "Laudantium voluptatum labore mollitia.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "assumenda",
-    "ColorBlock": 804,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "2017-09-28T10:30:32.9587082+02:00",
+    "Rank": 72,
+    "Type": "tempore",
+    "ColorBlock": 94,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2023-09-23T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Runte Group",
-        "ToolTip": "Est enim.",
-        "Deleted": true,
-        "Rank": 513,
-        "Type": "accusamus",
-        "ColorBlock": 703,
-        "IconHint": "doloremque",
+        "Id": 94,
+        "Name": "Koch-Bashirian",
+        "ToolTip": "Repudiandae eum expedita.",
+        "Deleted": false,
+        "Rank": 413,
+        "Type": "assumenda",
+        "ColorBlock": 361,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2000-10-11T10:30:32.9587082+02:00",
+        "LastChanged": "2018-05-16T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Emelie Brown",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Amalia Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 200
+            "FieldType": "System.Int32",
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ut",
+    "ExtraInfo": "beatae",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Dr. May Kyla Goldner DVM",
+    "FullName": "Luella Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 309
       }
     }
   }

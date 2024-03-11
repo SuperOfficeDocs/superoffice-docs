@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 445,
-  "Section": "nobis",
-  "Key": "rem",
-  "Name": "Okuneva-Kemmer",
+  "PrefDescId": 932,
+  "Section": "ut",
+  "Key": "facilis",
+  "Name": "O'Keefe-Hackett",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered zero administration info-mediaries",
-  "IsBuiltin": true,
-  "TableName": "Upton Inc and Sons",
-  "UserDefinedListId": 128,
-  "Rank": 337,
-  "SubGroup": "corrupti",
-  "MinLevel": 872,
-  "MaxValue": 228,
-  "MinValue": 480,
-  "RequiredLicense": "officia",
+  "Description": "Cloned contextually-based time-frame",
+  "IsBuiltin": false,
+  "TableName": "Waelchi Inc and Sons",
+  "UserDefinedListId": 80,
+  "Rank": 66,
+  "SubGroup": "voluptatem",
+  "MinLevel": 5,
+  "MaxValue": 11,
+  "MinValue": 957,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 394
     }
   },
   "_Links": {

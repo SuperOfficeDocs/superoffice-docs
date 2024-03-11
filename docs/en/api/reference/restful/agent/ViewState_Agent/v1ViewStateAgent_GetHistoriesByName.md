@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Haley, Kshlerin and Klocko"
+  "HistoryName": "Bins, Kihn and Fahey"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 199,
-    "Id": 41,
-    "HistoryName": "Ward, Stiedemann and Jerde",
-    "HistoryId": 705,
-    "AssociateId": 910,
-    "Name": "Kerluke, Dickinson and Runte",
-    "ItemInfo": "voluptates",
+    "Rank": 756,
+    "Id": 971,
+    "HistoryName": "Bode-Stehr",
+    "HistoryId": 653,
+    "AssociateId": 736,
+    "Name": "Gaylord Group",
+    "ItemInfo": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 982
       }
     }
   }

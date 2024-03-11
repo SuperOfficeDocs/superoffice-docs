@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 812,
-  "Name": "Wiza, Feeney and Ratke",
-  "Tooltip": "dolor",
+  "Id": 606,
+  "Name": "Strosin LLC",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 255,
-  "IsCustomList": true,
+  "Rank": 705,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Ebert, Robel and Lebsack",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 177,
+  "Id": 654,
+  "Name": "Kuphal, Borer and Grady",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 47,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 366
     }
   }
 }

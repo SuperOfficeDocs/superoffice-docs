@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Dooley-Quitzon",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 631,
-    "Rank": 36,
+    "Id": 603,
+    "Name": "Skiles-Cummerata",
+    "Tooltip": "maiores",
+    "Deleted": true,
+    "UdListDefinitionId": 62,
+    "Rank": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 958
       }
     }
   }

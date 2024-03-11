@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Huels, Hayes and Smith",
-  "UserName": "Glover Group",
-  "Password": "delectus",
-  "Folder": "aliquid",
-  "UseSSL": true,
+  "ServerName": "Miller, Deckow and Breitenberg",
+  "UserName": "Dicki Inc and Sons",
+  "Password": "error",
+  "Folder": "esse",
+  "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 583
     }
   }
 }

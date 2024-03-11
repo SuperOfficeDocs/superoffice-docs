@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 842,
-  "PrefValue": "autem"
+  "PrefDescId": 631,
+  "PrefValue": "maxime"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 180,
-  "PrefDescId": 345,
-  "PrefValue": "nesciunt",
-  "PrefShowValue": "unde",
-  "Description": "Proactive upward-trending portal",
+  "PrefDescLineId": 154,
+  "PrefDescId": 363,
+  "PrefValue": "officia",
+  "PrefShowValue": "eum",
+  "Description": "Inverse next generation frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

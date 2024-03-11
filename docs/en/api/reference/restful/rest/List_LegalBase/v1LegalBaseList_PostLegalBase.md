@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 442,
-  "Name": "Hoeger Inc and Sons",
-  "Tooltip": "sit",
-  "Rank": 645,
-  "Key": "vel",
+  "LegalBaseId": 548,
+  "Name": "Kunze, Corkery and McClure",
+  "Tooltip": "error",
+  "Rank": 922,
+  "Key": "numquam",
   "Deleted": true
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 398,
-  "Name": "Raynor-Vandervort",
-  "Tooltip": "tempore",
-  "Rank": 443,
-  "Key": "eligendi",
+  "LegalBaseId": 328,
+  "Name": "Kohler, Koepp and Ferry",
+  "Tooltip": "officiis",
+  "Rank": 374,
+  "Key": "vitae",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

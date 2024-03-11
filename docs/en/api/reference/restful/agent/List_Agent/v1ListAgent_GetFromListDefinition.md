@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "UdListDefinitionId": 817
+  "Id": 964,
+  "UdListDefinitionId": 803
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "Name": "Kris, Turcotte and Cummings",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "UdListDefinitionId": 718,
-  "Rank": 861,
+  "Id": 662,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 95,
+  "Rank": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldType": "System.Int32",
+      "FieldLength": 342
     }
   }
 }

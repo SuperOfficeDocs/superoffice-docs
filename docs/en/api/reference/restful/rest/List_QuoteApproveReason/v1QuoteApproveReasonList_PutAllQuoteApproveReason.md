@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Swift LLC",
-    "Tooltip": "assumenda",
+    "Id": 583,
+    "Name": "Lang, Mertz and Kuhic",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "UdListDefinitionId": 739,
-    "Rank": 611
+    "UdListDefinitionId": 18,
+    "Rank": 943
   },
   {
-    "Id": 260,
-    "Name": "Swift LLC",
-    "Tooltip": "assumenda",
+    "Id": 583,
+    "Name": "Lang, Mertz and Kuhic",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "UdListDefinitionId": 739,
-    "Rank": 611
+    "UdListDefinitionId": 18,
+    "Rank": 943
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Thompson, Nienow and Hirthe",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "UdListDefinitionId": 274,
-    "Rank": 636,
+    "Id": 917,
+    "Name": "Kling, Hermann and Koepp",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "UdListDefinitionId": 99,
+    "Rank": 900,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

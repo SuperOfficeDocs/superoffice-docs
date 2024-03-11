@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Denesik-Cremin",
-  "Tooltip": "laborum",
+  "Id": 185,
+  "Name": "Treutel, Medhurst and Turcotte",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 443,
+  "Rank": 155,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fuga",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "Barton LLC",
-  "Tooltip": "nemo",
+  "Id": 832,
+  "Name": "Lehner Inc and Sons",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 794,
+  "Rank": 225,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

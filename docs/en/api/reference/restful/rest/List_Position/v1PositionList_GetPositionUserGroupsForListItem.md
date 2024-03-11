@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Morar-Rutherford",
-    "ToolTip": "Natus ut.",
+    "Id": 583,
+    "Name": "McDermott, Gerlach and Spencer",
+    "ToolTip": "Natus natus labore ad.",
     "Deleted": false,
-    "Rank": 413,
-    "Type": "et",
-    "ColorBlock": 935,
-    "IconHint": "voluptatum",
+    "Rank": 968,
+    "Type": "nam",
+    "ColorBlock": 577,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2009-12-23T10:30:33.0680874+01:00",
+    "LastChanged": "1997-03-29T14:23:56.165827+01:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Baumbach-Champlin",
-        "ToolTip": "Ducimus perspiciatis nemo consequatur nihil autem dolor.",
-        "Deleted": false,
-        "Rank": 545,
-        "Type": "eos",
-        "ColorBlock": 848,
-        "IconHint": "cupiditate",
+        "Id": 667,
+        "Name": "Greenholt LLC",
+        "ToolTip": "Quis qui a dolorem impedit.",
+        "Deleted": true,
+        "Rank": 556,
+        "Type": "doloribus",
+        "ColorBlock": 706,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2003-09-06T10:30:33.0680874+02:00",
+        "LastChanged": "2012-10-19T14:23:56.165827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "quia",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Eulah Fritsch",
+        "FullName": "Chelsea Bergnaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "nihil",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Thelma Gutmann",
+    "FullName": "Markus Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   }

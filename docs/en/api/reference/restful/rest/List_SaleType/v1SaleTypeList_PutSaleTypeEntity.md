@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 138,
-  "Name": "Spencer, Rau and Ortiz",
-  "Tooltip": "et",
-  "Rank": 904,
+  "SaleTypeId": 266,
+  "Name": "Klein Inc and Sons",
+  "Tooltip": "consequatur",
+  "Rank": 8,
   "DurationUnit": "Century",
-  "SaleDuration": 731,
-  "SaleTypeCatId": 938,
+  "SaleDuration": 352,
+  "SaleTypeCatId": 1001,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 232,
-  "QuoteLinesTemplate": 11,
-  "ConfirmationLinesTemplate": 133,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 941,
+  "QuoteLinesTemplate": 375,
+  "ConfirmationLinesTemplate": 661,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 212,
-  "MinEarningPercent": 823,
-  "GroupQuoteLinesBy": 698,
-  "SortGroupLinesBy": 575,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 876,
+  "MinEarningPercent": 798,
+  "GroupQuoteLinesBy": 886,
+  "SortGroupLinesBy": 502,
   "Stages": [
     {
-      "Id": 83,
-      "Name": "Pacocha, Johns and Hirthe",
-      "ToolTip": "Cumque fuga voluptatem facilis qui sit laudantium.",
+      "Id": 438,
+      "Name": "Okuneva Inc and Sons",
+      "ToolTip": "Voluptates alias voluptate et nulla ducimus.",
       "Deleted": true,
-      "Rank": 916,
-      "Type": "commodi",
-      "ColorBlock": 774,
-      "IconHint": "asperiores",
-      "Selected": false,
-      "LastChanged": "2020-11-23T10:30:33.2412121+01:00",
+      "Rank": 62,
+      "Type": "labore",
+      "ColorBlock": 795,
+      "IconHint": "eaque",
+      "Selected": true,
+      "LastChanged": "2014-02-12T14:23:56.3376983+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "aut",
+      "ExtraInfo": "est",
+      "StyleHint": "qui",
       "Hidden": true,
-      "FullName": "Ms. Trisha Beer"
+      "FullName": "Ms. Shany Maxwell Romaguera I"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 820,
-  "Name": "Schoen-Watsica",
-  "Tooltip": "deleniti",
-  "Rank": 772,
+  "SaleTypeId": 292,
+  "Name": "Blanda LLC",
+  "Tooltip": "ab",
+  "Rank": 892,
   "DurationUnit": "Century",
-  "SaleDuration": 121,
-  "SaleTypeCatId": 517,
+  "SaleDuration": 188,
+  "SaleTypeCatId": 523,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 486,
-  "QuoteLinesTemplate": 94,
-  "ConfirmationLinesTemplate": 658,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 118,
+  "QuoteLinesTemplate": 322,
+  "ConfirmationLinesTemplate": 893,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 966,
-  "MinEarningPercent": 770,
-  "GroupQuoteLinesBy": 61,
-  "SortGroupLinesBy": 571,
+  "MaxDiscountPercent": 302,
+  "MinEarningPercent": 603,
+  "GroupQuoteLinesBy": 583,
+  "SortGroupLinesBy": 995,
   "Stages": [
     {
-      "Id": 515,
-      "Name": "Schiller-Gutkowski",
-      "ToolTip": "Distinctio ratione voluptatum earum explicabo voluptatum.",
+      "Id": 579,
+      "Name": "Abbott-Sanford",
+      "ToolTip": "Est autem.",
       "Deleted": true,
-      "Rank": 706,
-      "Type": "omnis",
-      "ColorBlock": 994,
-      "IconHint": "architecto",
-      "Selected": false,
-      "LastChanged": "2023-06-03T10:30:33.2412121+02:00",
+      "Rank": 714,
+      "Type": "et",
+      "ColorBlock": 239,
+      "IconHint": "nihil",
+      "Selected": true,
+      "LastChanged": "2022-02-01T14:23:56.3376983+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "voluptatem",
-      "Hidden": true,
-      "FullName": "Marguerite Little",
+      "ExtraInfo": "minus",
+      "StyleHint": "ratione",
+      "Hidden": false,
+      "FullName": "Marietta Walsh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 426
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 536
     }
   }
 }

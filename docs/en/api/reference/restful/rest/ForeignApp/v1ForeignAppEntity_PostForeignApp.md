@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 713,
-  "Name": "Watsica-Stokes",
-  "CreatedDate": "2020-07-22T10:30:32.0574265+02:00",
-  "UpdatedDate": "2019-07-21T10:30:32.0574265+02:00",
+  "ForeignAppId": 372,
+  "Name": "Rolfson, Kassulke and Nikolaus",
+  "CreatedDate": "2000-07-30T14:23:55.1646464+02:00",
+  "UpdatedDate": "2020-04-22T14:23:55.1646464+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 18,
-      "Name": "Lehner, Cassin and Halvorson",
-      "CreatedDate": "2007-04-24T10:30:32.0574265+02:00",
-      "UpdatedDate": "1997-07-07T10:30:32.0574265+02:00",
-      "AssociateFullName": "Estel Jerald Wiegand II",
-      "CreatedBy": "eaque",
-      "UpdatedBy": "unde",
-      "DeviceIdentifier": "eos",
-      "ForeignAppId": 98,
+      "ForeignDeviceId": 910,
+      "Name": "Batz, Metz and Mertz",
+      "CreatedDate": "2021-12-02T14:23:55.1646464+01:00",
+      "UpdatedDate": "2010-11-10T14:23:55.1646464+01:00",
+      "AssociateFullName": "Graham Cole Quitzon I",
+      "CreatedBy": "similique",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "animi",
+      "ForeignAppId": 457,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 478
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 935,
-    "LCID": 226,
-    "EnglishName": "Yost, Cummerata and Hoeger",
-    "NativeName": "Bailey-Waters",
-    "ThreeLetterISOLanguageName": "Wuckert Group",
-    "TwoLetterISOLanguageName": "Bins Group",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 199,
+    "LCID": 321,
+    "EnglishName": "Stroman, Hintz and Roberts",
+    "NativeName": "Corkery-Dickinson",
+    "ThreeLetterISOLanguageName": "Brakus, Keeling and Bruen",
+    "TwoLetterISOLanguageName": "Bogisich Group",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

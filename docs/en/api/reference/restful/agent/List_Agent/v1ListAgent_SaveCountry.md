@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 729,
-  "Name": "Romaguera Inc and Sons",
-  "CurrencyId": 386,
-  "EnglishName": "Muller, Zemlak and Schultz",
+  "CountryId": 357,
+  "Name": "Walter-Gutkowski",
+  "CurrencyId": 826,
+  "EnglishName": "Nienow-Auer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Proactive object-oriented neural-net",
-  "OrgNrText": "874737",
-  "InterAreaPrefix": "harum",
-  "DialInPrefix": "dolorem",
-  "ZipPrefix": "hic",
-  "DomainName": "Auer Inc and Sons",
-  "AddressLayoutId": 634,
-  "DomesticAddressLayoutId": 600,
-  "ForeignAddressLayoutId": 707,
-  "Rank": 510,
-  "Tooltip": "nam",
-  "Deleted": false,
+  "ImageDescription": "Open-architected real-time time-frame",
+  "OrgNrText": "1376683",
+  "InterAreaPrefix": "quis",
+  "DialInPrefix": "exercitationem",
+  "ZipPrefix": "praesentium",
+  "DomainName": "Rolfson-Kilback",
+  "AddressLayoutId": 664,
+  "DomesticAddressLayoutId": 621,
+  "ForeignAddressLayoutId": 975,
+  "Rank": 358,
+  "Tooltip": "eaque",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 874
     }
   }
 }

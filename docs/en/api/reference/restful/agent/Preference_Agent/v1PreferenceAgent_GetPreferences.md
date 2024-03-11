@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "et",
-      "Key": "id"
+      "Section": "eos",
+      "Key": "possimus"
     },
     {
-      "Section": "et",
-      "Key": "id"
+      "Section": "eos",
+      "Key": "possimus"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "iusto",
     "Specification": null,
-    "DisplayValue": "nam",
-    "DisplayTooltip": "et",
+    "DisplayValue": "velit",
+    "DisplayTooltip": "iure",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 525,
-    "PrefDescId": 648,
-    "TableName": "Lemke, Bogan and Watsica",
-    "UserPreferenceId": 336,
+    "TargetId": 366,
+    "PrefDescId": 29,
+    "TableName": "Frami-Weimann",
+    "UserPreferenceId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldType": "System.String",
+        "FieldLength": 206
       }
     }
   }

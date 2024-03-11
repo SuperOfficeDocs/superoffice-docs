@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 735,
-  "MinDate": "2022-08-02T10:30:23.7199314+02:00",
-  "MaxDate": "2011-10-22T10:30:23.7199314+02:00",
+  "DocumentPluginId": 989,
+  "MinDate": "2000-09-08T14:23:46.4230787+02:00",
+  "MaxDate": "2005-09-22T14:23:46.4230787+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 924,
-  "NumDocumentsAlreadyMigrated": 773,
+  "NumDocumentsOmitted": 13,
+  "NumDocumentsAlreadyMigrated": 299,
   "Documents": [
     {
-      "DocumentId": 67,
-      "ContactId": 230,
-      "PersonId": 100,
-      "SaleId": 898,
-      "ProjectId": 930,
-      "DocTmplId": 816,
-      "AssociateId": 474,
-      "UserGroupId": 573,
-      "VisibleForId": 57
+      "DocumentId": 31,
+      "ContactId": 45,
+      "PersonId": 389,
+      "SaleId": 481,
+      "ProjectId": 686,
+      "DocTmplId": 362,
+      "AssociateId": 740,
+      "UserGroupId": 335,
+      "VisibleForId": 666
     }
   ],
   "Associates": [
     {
-      "AssociateId": 85,
-      "EmailAddress": "elyssa@okuneva.co.uk"
+      "AssociateId": 599,
+      "EmailAddress": "aliza_mills@schowalter.co.uk"
     },
     {
-      "AssociateId": 85,
-      "EmailAddress": "elyssa@okuneva.co.uk"
+      "AssociateId": 599,
+      "EmailAddress": "aliza_mills@schowalter.co.uk"
     }
   ]
 }

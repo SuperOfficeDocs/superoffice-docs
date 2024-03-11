@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 163,
-  "Name": "Zulauf Inc and Sons",
-  "Description": "Grass-roots uniform firmware",
-  "DefaultHeight": 26,
-  "DefaultWidth": 657,
+  "DashboardTileDefinitionId": 788,
+  "Name": "Okuneva Inc and Sons",
+  "Description": "Triple-buffered zero administration customer loyalty",
+  "DefaultHeight": 206,
+  "DefaultWidth": 49,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hamill, Paucek and Kub",
-  "SelectionId": 1002,
+  "EntityName": "Runte, Luettgen and Littel",
+  "SelectionId": 134,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "iure",
   "Measure": "Average",
-  "MeasureField": "ex",
-  "SortBy": "similique",
-  "LayoutConfig": "fugiat",
-  "SecondarySelectionId": 796,
-  "MeasureByField": "dicta",
+  "MeasureField": "quo",
+  "SortBy": "dignissimos",
+  "LayoutConfig": "beatae",
+  "SecondarySelectionId": 624,
+  "MeasureByField": "non",
   "Usage": "Dashboard",
-  "ProviderName": "Crooks, Christiansen and Reilly",
+  "ProviderName": "Reichert Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldLength": 386
     }
   },
   "_Links": {

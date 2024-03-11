@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 833,
-    "FieldName": "Ledner Group",
-    "Label": "ut",
-    "Tooltip": "eius",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 50,
+    "FieldName": "Monahan Group",
+    "Label": "quis",
+    "Tooltip": "ex",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 441,
+    "Rank": 315,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 714
       }
     }
   }

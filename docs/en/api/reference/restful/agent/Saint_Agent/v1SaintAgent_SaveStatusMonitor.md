@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 794,
-  "Rank": 328,
-  "DefaultTask": 643,
-  "DefaultTaskText": "debitis",
+  "OwnerTable": 648,
+  "Rank": 163,
+  "DefaultTask": 618,
+  "DefaultTaskText": "quis",
   "IsVisual": false,
-  "LastGenerated": "2003-11-09T10:30:24.4815013+01:00",
-  "Description": "Profit-focused fresh-thinking pricing structure",
-  "Name": "Von-Kohler",
-  "StatusMonitorId": 707,
-  "PictureId": 406,
+  "LastGenerated": "2020-09-20T14:23:47.2848818+02:00",
+  "Description": "Multi-lateral well-modulated solution",
+  "Name": "Williamson-Champlin",
+  "StatusMonitorId": 920,
+  "PictureId": 777,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 939,
-  "NumNeedUpdate": 960,
-  "GenerationStart": "2015-11-03T10:30:24.4815013+01:00"
+  "NumMatches": 13,
+  "NumNeedUpdate": 401,
+  "GenerationStart": "2004-03-22T14:23:47.2848818+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 322,
-  "Rank": 643,
-  "DefaultTask": 848,
-  "DefaultTaskText": "ea",
-  "IsVisual": false,
-  "LastGenerated": "2013-05-07T10:30:24.4815013+02:00",
-  "Description": "Innovative intangible toolset",
-  "Name": "Corwin-Glover",
-  "StatusMonitorId": 599,
-  "PictureId": 9,
+  "OwnerTable": 628,
+  "Rank": 64,
+  "DefaultTask": 800,
+  "DefaultTaskText": "aut",
+  "IsVisual": true,
+  "LastGenerated": "2013-07-23T14:23:47.3005077+02:00",
+  "Description": "Managed bandwidth-monitored customer loyalty",
+  "Name": "Thompson-Cronin",
+  "StatusMonitorId": 494,
+  "PictureId": 102,
   "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 276,
-  "NumNeedUpdate": 30,
-  "GenerationStart": "2012-10-18T10:30:24.4815013+02:00",
+  "Deleted": true,
+  "NumMatches": 495,
+  "NumNeedUpdate": 525,
+  "GenerationStart": "2015-01-23T14:23:47.3005077+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 755
     }
   }
 }

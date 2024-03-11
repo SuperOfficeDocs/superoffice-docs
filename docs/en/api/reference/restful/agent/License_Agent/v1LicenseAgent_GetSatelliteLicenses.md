@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 275
+  "SatelliteId": 951
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lueilwitz-Pollich",
-    "Description": "Innovative bottom-line frame",
+    "Name": "Schmeler-Berge",
+    "Description": "Phased bi-directional Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 552,
-        "Tooltip": "veniam",
+        "Unrestricted": false,
+        "Total": 32,
+        "Tooltip": "fugit",
         "CanAssign": true,
-        "Free": 951,
-        "InUse": 457,
+        "Free": 879,
+        "InUse": 795,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 734,
-        "Name": "Lebsack, Kerluke and Brakus",
-        "Description": "Down-sized dedicated matrices",
-        "PrerequisiteModuleName": "Schuppe-Champlin",
-        "SortOrder": 602,
-        "ExtraFlags": 751,
+        "Assigned": false,
+        "ModuleLicenseId": 793,
+        "Name": "Rohan, Trantow and Hirthe",
+        "Description": "Automated user-facing moratorium",
+        "PrerequisiteModuleName": "Kunze Inc and Sons",
+        "SortOrder": 480,
+        "ExtraFlags": 160,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 812
+            "FieldType": "System.String",
+            "FieldLength": 655
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 962,
-        "Tooltip": "consequatur",
+        "Unrestricted": true,
+        "Total": 820,
+        "Tooltip": "omnis",
         "CanAssign": false,
-        "Free": 479,
-        "InUse": 231,
+        "Free": 238,
+        "InUse": 76,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 87,
-        "Name": "Stokes LLC",
-        "Description": "Multi-channelled stable infrastructure",
-        "PrerequisiteModuleName": "Mante LLC",
-        "SortOrder": 502,
-        "ExtraFlags": 134,
+        "Assigned": true,
+        "ModuleLicenseId": 640,
+        "Name": "Bogan-Hilpert",
+        "Description": "Front-line discrete parallelism",
+        "PrerequisiteModuleName": "Purdy Inc and Sons",
+        "SortOrder": 874,
+        "ExtraFlags": 493,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 594
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   },
   {
-    "Name": "Lueilwitz-Pollich",
-    "Description": "Innovative bottom-line frame",
+    "Name": "Schmeler-Berge",
+    "Description": "Phased bi-directional Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 552,
-        "Tooltip": "veniam",
+        "Unrestricted": false,
+        "Total": 32,
+        "Tooltip": "fugit",
         "CanAssign": true,
-        "Free": 951,
-        "InUse": 457,
+        "Free": 879,
+        "InUse": 795,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 734,
-        "Name": "Lebsack, Kerluke and Brakus",
-        "Description": "Down-sized dedicated matrices",
-        "PrerequisiteModuleName": "Schuppe-Champlin",
-        "SortOrder": 602,
-        "ExtraFlags": 751,
+        "Assigned": false,
+        "ModuleLicenseId": 793,
+        "Name": "Rohan, Trantow and Hirthe",
+        "Description": "Automated user-facing moratorium",
+        "PrerequisiteModuleName": "Kunze Inc and Sons",
+        "SortOrder": 480,
+        "ExtraFlags": 160,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 812
+            "FieldType": "System.String",
+            "FieldLength": 655
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 962,
-        "Tooltip": "consequatur",
+        "Unrestricted": true,
+        "Total": 820,
+        "Tooltip": "omnis",
         "CanAssign": false,
-        "Free": 479,
-        "InUse": 231,
+        "Free": 238,
+        "InUse": 76,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 87,
-        "Name": "Stokes LLC",
-        "Description": "Multi-channelled stable infrastructure",
-        "PrerequisiteModuleName": "Mante LLC",
-        "SortOrder": 502,
-        "ExtraFlags": 134,
+        "Assigned": true,
+        "ModuleLicenseId": 640,
+        "Name": "Bogan-Hilpert",
+        "Description": "Front-line discrete parallelism",
+        "PrerequisiteModuleName": "Purdy Inc and Sons",
+        "SortOrder": 874,
+        "ExtraFlags": 493,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 594
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

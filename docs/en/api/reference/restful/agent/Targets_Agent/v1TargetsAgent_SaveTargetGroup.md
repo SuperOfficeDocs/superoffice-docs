@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 875,
-  "Year": 87,
+  "TargetGroupId": 169,
+  "Year": 198,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 148,
+      "TargetAssignmentInfoId": 517,
       "Values": [
-        372,
-        283
+        633,
+        419
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 999,
-      "DimensionListItemDisplayName": "McLaughlin, Windler and Jones"
+      "DimensionListItem": 253,
+      "DimensionListItemDisplayName": "Auer Group"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 955,
-  "Year": 51,
+  "TargetGroupId": 273,
+  "Year": 265,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 958,
+      "TargetAssignmentInfoId": 543,
       "Values": [
-        218,
-        999
+        876,
+        930
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 814,
-      "DimensionListItemDisplayName": "Rowe Group",
+      "DimensionListItem": 661,
+      "DimensionListItemDisplayName": "Conroy Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 18
     }
   }
 }

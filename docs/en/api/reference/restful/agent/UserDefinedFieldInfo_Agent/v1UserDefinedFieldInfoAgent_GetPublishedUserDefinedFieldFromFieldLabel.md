@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "magnam",
+  "FieldLabel": "voluptate",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 798,
-  "ColumnId": 998,
-  "FieldDefault": "qui",
-  "FieldHeight": 81,
-  "FieldLabel": "qui",
-  "FieldLeft": 798,
-  "FieldTop": 195,
+  "UDefFieldId": 675,
+  "ColumnId": 358,
+  "FieldDefault": "quisquam",
+  "FieldHeight": 399,
+  "FieldLabel": "illo",
+  "FieldLeft": 783,
+  "FieldTop": 239,
   "FieldType": "Checkbox",
-  "FieldWidth": 90,
-  "FormatMask": "labore",
+  "FieldWidth": 129,
+  "FormatMask": "numquam",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 488,
-  "LabelLeft": 660,
-  "LabelTop": 269,
-  "LabelWidth": 553,
-  "LastVersionId": 637,
-  "ListTableId": 392,
+  "IsIndexed": true,
+  "LabelHeight": 68,
+  "LabelLeft": 769,
+  "LabelTop": 794,
+  "LabelWidth": 180,
+  "LastVersionId": 66,
+  "ListTableId": 823,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 620,
-  "ProgId": "sunt",
+  "Page1LineNo": 640,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 693,
-  "TextLength": 359,
-  "Tooltip": "vero",
-  "UdefIdentity": 931,
-  "UDListDefinitionId": 251,
+  "ShortLabel": "non",
+  "TabOrder": 256,
+  "TextLength": 232,
+  "Tooltip": "velit",
+  "UdefIdentity": 311,
+  "UDListDefinitionId": 79,
   "Justification": "Center",
-  "Version": 954,
-  "TemplateVariableName": "Greenfelder, Feil and Hackett",
-  "HasBeenPublished": true,
-  "MdoListName": "Wolf, Hagenes and Kassulke",
+  "Version": 829,
+  "TemplateVariableName": "Kerluke-Funk",
+  "HasBeenPublished": false,
+  "MdoListName": "Mante-VonRueden",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 818
     }
   }
 }

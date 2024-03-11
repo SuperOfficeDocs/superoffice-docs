@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 430,
-  "Name": "Braun, Moen and Emard",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 392,
-  "Rank": 59,
+  "Id": 86,
+  "Name": "Hilpert Group",
+  "Tooltip": "distinctio",
+  "Deleted": true,
+  "UdListDefinitionId": 240,
+  "Rank": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 371,
-    "Name": "Pacocha Group",
-    "Tooltip": "doloremque",
-    "TableName": "Jacobson-Gleason",
-    "Area": "aut",
+    "TaskMenuId": 376,
+    "Name": "Ritchie-Rutherford",
+    "Tooltip": "at",
+    "TableName": "Kub, Von and Rogahn",
+    "Area": "commodi",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 305,
+    "CrmScriptId": 402,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 507,
+    "Rank": 727,
     "Encoding": "ANSI",
-    "ProgId": "ut",
+    "ProgId": "impedit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

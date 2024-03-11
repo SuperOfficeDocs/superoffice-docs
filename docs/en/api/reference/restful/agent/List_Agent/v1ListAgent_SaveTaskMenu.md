@@ -93,20 +93,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 769,
-  "Name": "Runte Group",
-  "Tooltip": "et",
-  "TableName": "Goyette Group",
-  "Area": "aliquam",
+  "TaskMenuId": 146,
+  "Name": "Upton, Stehr and Howell",
+  "Tooltip": "voluptatem",
+  "TableName": "Champlin-Wolff",
+  "Area": "perspiciatis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 605,
+  "CrmScriptId": 925,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 511,
+  "Rank": 619,
   "Encoding": "ANSI",
-  "ProgId": "voluptatem",
-  "Deleted": false
+  "ProgId": "qui",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 821,
-  "Name": "Grant-Ruecker",
-  "Tooltip": "hic",
-  "TableName": "Rutherford, Gleichner and Fisher",
-  "Area": "sequi",
+  "TaskMenuId": 576,
+  "Name": "Mills, O'Kon and Hartmann",
+  "Tooltip": "consectetur",
+  "TableName": "Turcotte Group",
+  "Area": "aut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 363,
+  "CrmScriptId": 383,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 458,
+  "Rank": 161,
   "Encoding": "ANSI",
-  "ProgId": "officiis",
-  "Deleted": false,
+  "ProgId": "itaque",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 955
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 319,
-    "Name": "Stroman Group",
-    "Tooltip": "consequatur",
-    "Rank": 567,
-    "Key": "maiores",
-    "MailTemplateId": 11,
+    "ConsentSourceId": 178,
+    "Name": "Hane-Yost",
+    "Tooltip": "saepe",
+    "Rank": 350,
+    "Key": "eos",
+    "MailTemplateId": 37,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 890
       }
     }
   }

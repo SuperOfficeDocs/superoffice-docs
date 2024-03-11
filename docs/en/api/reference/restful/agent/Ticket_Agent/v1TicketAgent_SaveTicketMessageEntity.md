@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 215,
+  "EjMessageId": 663,
   "Ticket": null,
-  "CreatedAt": "1998-07-31T10:30:24.7954621+02:00",
+  "CreatedAt": "2009-03-19T14:23:47.5348781+01:00",
   "CreatedBy": null,
-  "Author": "repellat",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "saepe",
-  "TimeSpent": 237,
-  "Body": "iusto",
-  "HtmlBody": "perspiciatis",
-  "EmailHeader": "darrion@hilpert.co.uk",
-  "DebugInfo": "dolorum",
-  "MailSorter": "consequatur",
+  "MessageId": "voluptatem",
+  "TimeSpent": 363,
+  "Body": "velit",
+  "HtmlBody": "corrupti",
+  "EmailHeader": "breanna@baileyroob.name",
+  "DebugInfo": "et",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "reprehenderit",
   "MessageHeaders": [
     {
-      "Id": 119,
-      "Name": "Bailey, Quitzon and Gutmann",
-      "Value": "soluta",
+      "Id": 405,
+      "Name": "Graham-Pollich",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 119,
-      "Name": "Bailey, Quitzon and Gutmann",
-      "Value": "soluta",
+      "Id": 405,
+      "Name": "Graham-Pollich",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "consequatur",
-  "Sentiment": 891,
-  "SentimentConfidence": 87,
+  "Language": "voluptatem",
+  "Sentiment": 957,
+  "SentimentConfidence": 988,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 576,
-      "Name": "Dickinson-Harvey",
-      "ContentType": "vero",
-      "AttSize": 180,
+      "AttachmentId": 315,
+      "Name": "Homenick, Pacocha and Frami",
+      "ContentType": "consequatur",
+      "AttSize": 653,
       "InlineImage": false,
-      "ContentId": "veniam",
-      "AuthKey": "aut",
+      "ContentId": "assumenda",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "sequi"
+    "CustomFields1": "ut",
+    "CustomFields2": "id"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 992,
+  "EjMessageId": 475,
   "Ticket": null,
-  "CreatedAt": "2002-05-06T10:30:24.7954621+02:00",
+  "CreatedAt": "2006-05-18T14:23:47.5505044+02:00",
   "CreatedBy": null,
-  "Author": "soluta",
+  "Author": "quibusdam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "error",
-  "TimeSpent": 864,
-  "Body": "non",
-  "HtmlBody": "praesentium",
-  "EmailHeader": "carolyn.labadie@kohlerstehr.biz",
-  "DebugInfo": "quibusdam",
-  "MailSorter": "recusandae",
+  "MessageId": "quas",
+  "TimeSpent": 889,
+  "Body": "aliquid",
+  "HtmlBody": "blanditiis",
+  "EmailHeader": "dominique@mcdermott.name",
+  "DebugInfo": "doloribus",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "veniam",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 956,
-      "Name": "Von-Nikolaus",
-      "Value": "in",
+      "Id": 809,
+      "Name": "Dicki-Williamson",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 110
         }
       }
     }
   ],
   "Important": false,
-  "Language": "maiores",
-  "Sentiment": 974,
-  "SentimentConfidence": 999,
+  "Language": "rerum",
+  "Sentiment": 406,
+  "SentimentConfidence": 733,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 491,
-      "Name": "Will Group",
-      "ContentType": "sit",
-      "AttSize": 875,
-      "InlineImage": true,
-      "ContentId": "voluptas",
-      "AuthKey": "sed",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 831,
+      "Name": "Trantow, Schimmel and Weimann",
+      "ContentType": "unde",
+      "AttSize": 112,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "beatae",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "ullam"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 642
     }
   }
 }

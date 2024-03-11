@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 343,
-  "AssociateId": 815,
-  "Caption": "veritatis",
+  "DashboardId": 740,
+  "AssociateId": 249,
+  "Caption": "quia",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 773,
-      "Caption": "dolorum",
-      "Description": "Implemented intangible leverage",
-      "ChartName": "Dickens Inc and Sons",
-      "ChartId": "modi",
-      "IsDefault": true,
-      "AssociateId": 76,
-      "GroupId": 893,
-      "SelectionId": 935,
-      "Config": "vitae",
+      "DashboardTileId": 288,
+      "Caption": "sed",
+      "Description": "Diverse local emulation",
+      "ChartName": "O'Keefe-Bartell",
+      "ChartId": "provident",
+      "IsDefault": false,
+      "AssociateId": 490,
+      "GroupId": 175,
+      "SelectionId": 852,
+      "Config": "consequatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldLength": 518
         }
       }
     }
@@ -176,13 +176,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

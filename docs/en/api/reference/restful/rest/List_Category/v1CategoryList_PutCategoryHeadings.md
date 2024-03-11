@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 916,
-    "Name": "Block, O'Keefe and Jast",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 243
+    "HeadingId": 17,
+    "Name": "Towne, Walter and Kozey",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 993,
+    "UdListDefinitionId": 272
   },
   {
-    "HeadingId": 916,
-    "Name": "Block, O'Keefe and Jast",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 243
+    "HeadingId": 17,
+    "Name": "Towne, Walter and Kozey",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 993,
+    "UdListDefinitionId": 272
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 160,
-    "Name": "Jakubowski Inc and Sons",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "Rank": 461,
-    "UdListDefinitionId": 929,
+    "HeadingId": 573,
+    "Name": "Weimann-Watsica",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 459,
+    "UdListDefinitionId": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 813
       }
     }
   }

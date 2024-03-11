@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "et",
-    "tempore"
+    "repellat",
+    "vero"
   ],
-  "CurrentClientTime": "2012-12-01T10:30:24.2924636+01:00"
+  "CurrentClientTime": "2009-10-31T14:23:47.1130103+01:00"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "praesentium",
-    "atque"
+    "ipsam",
+    "pariatur"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 186,
-  "NotificationsCount": 102,
+  "OverdueSalesCount": 66,
+  "NotificationsCount": 873,
   "SystemWebPanels": [
     {
-      "WebPanelId": 17,
-      "Name": "Murazik-Romaguera",
-      "Tooltip": "eos",
+      "WebPanelId": 501,
+      "Name": "Jakubowski-O'Conner",
+      "Tooltip": "numquam",
       "Deleted": false,
-      "Rank": 918,
+      "Rank": 756,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": true,
-      "OnSatellite": true,
+      "OnSatellite": false,
       "OnTravel": true,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
@@ -127,10 +127,10 @@ Content-Type: application/json; charset=utf-8
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Hansen, Toy and Cummings",
+      "WindowName": "Pacocha-Pfeffer",
       "Url": "http://www.example.com/",
-      "ProgId": "dolores",
-      "Icon": 776,
+      "ProgId": "atque",
+      "Icon": 468,
       "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 299
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "consequatur",
+      "RawValue": "quis",
       "Specification": null,
-      "DisplayValue": "unde",
-      "DisplayTooltip": "doloremque",
+      "DisplayValue": "atque",
+      "DisplayTooltip": "eum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 951,
-      "PrefDescId": 166,
-      "TableName": "Ziemann, White and Huel",
-      "UserPreferenceId": 361,
+      "TargetId": 970,
+      "PrefDescId": 733,
+      "TableName": "Hamill LLC",
+      "UserPreferenceId": 58,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 967
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "consequuntur",
+  "CustomData": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 647
     }
   }
 }

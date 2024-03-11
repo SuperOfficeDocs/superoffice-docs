@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Russel Group",
-  "Tooltip": "ut",
+  "Id": 702,
+  "Name": "Reichert-DuBuque",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 918,
+  "Rank": 14,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Emmerich, Kessler and Pfeffer",
-  "Tooltip": "ab",
+  "Id": 813,
+  "Name": "Howe LLC",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 614,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldLength": 285
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "King LLC",
-  "EventFilter": "dolores",
+  "NameFilter": "Labadie Inc and Sons",
+  "EventFilter": "eveniet",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 405,
-    "Name": "Lockman Group",
+    "WebhookId": 823,
+    "Name": "Kunze-Greenholt",
     "Events": [
-      "molestiae",
-      "placeat"
+      "asperiores",
+      "consequuntur"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "enim",
+    "Secret": "tempora",
     "State": "Active",
-    "Type": "et",
+    "Type": "exercitationem",
     "Headers": {
-      "Headers1": "non",
-      "Headers2": "nisi"
+      "Headers1": "quo",
+      "Headers2": "omnis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1998-01-30T10:30:25.076705+01:00",
+    "Registered": "2007-03-26T14:23:47.9254988+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-11-08T10:30:25.076705+01:00",
+    "Updated": "2008-10-02T14:23:47.9254988+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "darwin@gaylord.ca"
+    "ErrorsEmail": "fleta_toy@lemke.uk"
   }
 ]
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 188,
-    "Name": "Hessel, Ebert and Mayer",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 90
+    "HeadingId": 31,
+    "Name": "Ratke, Johnston and Balistreri",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 4
   },
   {
-    "HeadingId": 188,
-    "Name": "Hessel, Ebert and Mayer",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 90
+    "HeadingId": 31,
+    "Name": "Ratke, Johnston and Balistreri",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 4
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 982,
-    "Name": "Stamm-Jones",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 396,
-    "UdListDefinitionId": 601,
+    "HeadingId": 37,
+    "Name": "Pfannerstill, Baumbach and Zulauf",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 61,
+    "UdListDefinitionId": 906,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 805
       }
     }
   }

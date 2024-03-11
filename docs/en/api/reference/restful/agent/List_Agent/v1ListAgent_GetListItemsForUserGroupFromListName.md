@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stroman-White",
-  "GroupId": 414
+  "UdListDefinitionName": "Blick, Leannon and Kub",
+  "GroupId": 929
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Deckow, Parisian and Gerlach",
-    "ToolTip": "Ut accusamus.",
-    "Deleted": false,
-    "Rank": 452,
-    "Type": "quam",
-    "ColorBlock": 491,
+    "Id": 129,
+    "Name": "Sipes, Wilderman and Kessler",
+    "ToolTip": "Ullam quibusdam nostrum tempore numquam est necessitatibus eaque.",
+    "Deleted": true,
+    "Rank": 259,
+    "Type": "et",
+    "ColorBlock": 802,
     "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2016-08-07T10:30:23.9944062+02:00",
+    "Selected": false,
+    "LastChanged": "1997-11-14T14:23:46.8306046+01:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Hudson-Torphy",
-        "ToolTip": "Commodi a molestias tenetur nihil iusto aut sed.",
-        "Deleted": false,
-        "Rank": 972,
-        "Type": "qui",
-        "ColorBlock": 317,
-        "IconHint": "et",
+        "Id": 692,
+        "Name": "Walsh-Schaden",
+        "ToolTip": "Quis cum aliquid expedita non quo earum.",
+        "Deleted": true,
+        "Rank": 773,
+        "Type": "voluptatem",
+        "ColorBlock": 198,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2015-04-22T10:30:23.9944062+02:00",
+        "LastChanged": "2002-04-29T14:23:46.8306046+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "atque",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Constance Labadie",
+        "FullName": "Kurt Rogahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldType": "System.String",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Genevieve Helmer Vandervort IV",
+    "ExtraInfo": "corporis",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Dessie Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

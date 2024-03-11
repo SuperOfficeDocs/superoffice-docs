@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Daugherty, Mueller and Flatley",
-    "Tooltip": "quae",
+    "Id": 142,
+    "Name": "Ernser, Hirthe and Orn",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 770,
-    "Rank": 471
+    "UdListDefinitionId": 215,
+    "Rank": 47
   },
   {
-    "Id": 572,
-    "Name": "Daugherty, Mueller and Flatley",
-    "Tooltip": "quae",
+    "Id": 142,
+    "Name": "Ernser, Hirthe and Orn",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 770,
-    "Rank": 471
+    "UdListDefinitionId": 215,
+    "Rank": 47
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Zulauf LLC",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 919,
-    "Rank": 756,
+    "Id": 773,
+    "Name": "Cruickshank-Haley",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 1001,
+    "Rank": 818,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   }

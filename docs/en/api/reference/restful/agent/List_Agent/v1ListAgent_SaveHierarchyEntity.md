@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 843,
+  "HierarchyId": 88,
   "Domain": "Dashboards",
-  "Name": "Douglas-Streich",
-  "Fullname": "voluptas",
-  "ParentId": 956,
+  "Name": "Emard-Bednar",
+  "Fullname": "labore",
+  "ParentId": 510,
   "Children": [
     {
-      "HierarchyId": 769,
+      "HierarchyId": 27,
       "Domain": "Dashboards",
-      "Name": "Kuhn, Bahringer and Mueller",
-      "Fullname": "sint",
-      "ParentId": 410,
+      "Name": "Kerluke, Sawayn and Runte",
+      "Fullname": "dolor",
+      "ParentId": 328,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-11-01T10:30:24.0725232+01:00",
-      "RegisteredAssociateId": 860,
-      "Updated": "1999-12-23T10:30:24.0725232+01:00",
-      "UpdatedAssociateId": 674
+      "Registered": "2000-12-22T14:23:46.8942625+01:00",
+      "RegisteredAssociateId": 89,
+      "Updated": "1996-12-12T14:23:46.8942625+01:00",
+      "UpdatedAssociateId": 462
     }
   ],
-  "Registered": "2018-08-16T10:30:24.0725232+02:00",
-  "RegisteredAssociateId": 394,
-  "Updated": "2002-12-17T10:30:24.0725232+01:00",
-  "UpdatedAssociateId": 410
+  "Registered": "2014-11-27T14:23:46.8942625+01:00",
+  "RegisteredAssociateId": 373,
+  "Updated": "2020-09-14T14:23:46.8942625+02:00",
+  "UpdatedAssociateId": 63
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 191,
+  "HierarchyId": 584,
   "Domain": "Dashboards",
-  "Name": "Schneider, DuBuque and Nienow",
-  "Fullname": "fuga",
-  "ParentId": 383,
+  "Name": "Shanahan, Senger and Dietrich",
+  "Fullname": "quis",
+  "ParentId": 310,
   "Children": [
     {
-      "HierarchyId": 462,
+      "HierarchyId": 694,
       "Domain": "Dashboards",
-      "Name": "Rice-Osinski",
-      "Fullname": "repudiandae",
-      "ParentId": 845,
+      "Name": "Kovacek, Beahan and Boehm",
+      "Fullname": "quo",
+      "ParentId": 634,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-10-25T10:30:24.0725232+02:00",
-      "RegisteredAssociateId": 411,
-      "Updated": "2012-10-15T10:30:24.0725232+02:00",
-      "UpdatedAssociateId": 403,
+      "Registered": "2023-05-09T14:23:46.8942625+02:00",
+      "RegisteredAssociateId": 811,
+      "Updated": "2022-04-24T14:23:46.8942625+02:00",
+      "UpdatedAssociateId": 122,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldLength": 920
         }
       }
     }
   ],
-  "Registered": "2000-04-05T10:30:24.0725232+02:00",
-  "RegisteredAssociateId": 146,
-  "Updated": "2013-09-27T10:30:24.0725232+02:00",
-  "UpdatedAssociateId": 837,
+  "Registered": "2003-02-08T14:23:46.8942625+01:00",
+  "RegisteredAssociateId": 249,
+  "Updated": "2000-05-09T14:23:46.8942625+02:00",
+  "UpdatedAssociateId": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 604
     }
   }
 }

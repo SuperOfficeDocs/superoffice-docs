@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "odit",
-      "HTMLBody": "accusamus",
+      "Subject": "ut",
+      "HTMLBody": "qui",
       "From": null,
-      "Sent": "2001-03-24T10:30:23.7199314+01:00",
-      "Size": 750,
+      "Sent": "2017-10-27T14:23:46.4230787+02:00",
+      "Size": 698,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "a",
-      "PlainBody": "architecto",
-      "IsSent": true,
+      "MessageID": "excepturi",
+      "PlainBody": "quasi",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 282,
+      "ServerId": 966,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Satterfield-Jacobi",
-      "EmailItemId": 782,
-      "AccountId": 640,
-      "ReceivedAt": "2005-11-18T10:30:23.7199314+01:00",
+      "FolderName": "Muller LLC",
+      "EmailItemId": 292,
+      "AccountId": 29,
+      "ReceivedAt": "2019-08-09T14:23:46.4230787+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2020-03-22T10:30:23.7199314+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2001-05-03T14:23:46.4230787+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 225,
-        "ContactName": "Padberg LLC",
-        "PersonId": 441,
-        "PersonName": "Raynor, Hermann and Quigley",
-        "AssociateId": 892,
-        "Address": "officia",
-        "EmailId": 466,
+        "ContactId": 793,
+        "ContactName": "Larkin-McLaughlin",
+        "PersonId": 482,
+        "PersonName": "Dicki-Kling",
+        "AssociateId": 523,
+        "Address": "exercitationem",
+        "EmailId": 442,
         "DuplicatePersonIds": [
-          709,
-          190
+          519,
+          680
         ],
-        "Name": "Roberts LLC",
+        "Name": "Cummerata Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldLength": 174
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 908,
-        "ContactName": "Lemke Group",
-        "PersonId": 983,
-        "PersonName": "Torp, Pollich and Zemlak",
-        "AssociateId": 854,
-        "Address": "nobis",
-        "EmailId": 858,
+        "ContactId": 181,
+        "ContactName": "Nolan, Schuppe and West",
+        "PersonId": 406,
+        "PersonName": "Lebsack-Grimes",
+        "AssociateId": 60,
+        "Address": "ab",
+        "EmailId": 230,
         "DuplicatePersonIds": [
-          393,
-          9
+          564,
+          484
         ],
-        "Name": "O'Kon Inc and Sons",
+        "Name": "Kozey-Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 192
+            "FieldType": "System.Int32",
+            "FieldLength": 118
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 977,
-        "ContactName": "Koss-Kohler",
-        "PersonId": 354,
-        "PersonName": "Farrell LLC",
-        "AssociateId": 23,
-        "Address": "libero",
-        "EmailId": 68,
+        "ContactId": 63,
+        "ContactName": "Prohaska, Okuneva and D'Amore",
+        "PersonId": 409,
+        "PersonName": "Mueller-Cummings",
+        "AssociateId": 195,
+        "Address": "iste",
+        "EmailId": 668,
         "DuplicatePersonIds": [
-          529,
-          346
+          518,
+          101
         ],
-        "Name": "Wuckert, Mante and Ullrich",
+        "Name": "Quitzon LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 268
           }
         }
       }
     ],
-    "Subject": "quisquam",
-    "HTMLBody": "aspernatur",
+    "Subject": "et",
+    "HTMLBody": "at",
     "From": null,
-    "Sent": "2008-10-06T10:30:23.7355582+02:00",
-    "Size": 209,
+    "Sent": "2005-06-22T14:23:46.4230787+02:00",
+    "Size": 403,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "accusantium",
-    "PlainBody": "sint",
-    "IsSent": true,
+    "MessageID": "eos",
+    "PlainBody": "alias",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 339,
+    "ServerId": 82,
     "Attachments": [
       {
-        "Description": "Synergistic dedicated core",
-        "Filename": "sint",
-        "Size": 906,
-        "Type": "labore",
-        "Encoding": "et",
-        "Id": "amet",
-        "Disposition": "enim",
+        "Description": "Realigned well-modulated groupware",
+        "Filename": "consequatur",
+        "Size": 756,
+        "Type": "praesentium",
+        "Encoding": "architecto",
+        "Id": "est",
+        "Disposition": "explicabo",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,50 +260,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldLength": 681
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Considine LLC",
+        "Name": "Dach Group",
         "Values": [
-          "odit",
-          "harum"
+          "aut",
+          "facere"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldLength": 628
           }
         }
       },
       {
-        "Name": "Considine LLC",
+        "Name": "Dach Group",
         "Values": [
-          "odit",
-          "harum"
+          "aut",
+          "facere"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldLength": 628
           }
         }
       }
     ],
-    "FolderName": "Koepp, Zulauf and Gulgowski",
-    "EmailItemId": 481,
-    "AccountId": 512,
-    "ReceivedAt": "2002-04-29T10:30:23.7355582+02:00",
+    "FolderName": "Marks Inc and Sons",
+    "EmailItemId": 629,
+    "AccountId": 163,
+    "ReceivedAt": "1996-11-02T14:23:46.4230787+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2017-04-19T10:30:23.7355582+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "1998-03-08T14:23:46.4230787+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 266
+        "FieldLength": 817
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 840,
-  "Name": "Larson LLC",
-  "CurrencyId": 781,
-  "EnglishName": "Emard-Fay",
+  "CountryId": 673,
+  "Name": "Reichert LLC",
+  "CurrencyId": 174,
+  "EnglishName": "Strosin, Pacocha and Smitham",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Quality-focused hybrid support",
-  "OrgNrText": "326624",
-  "InterAreaPrefix": "expedita",
-  "DialInPrefix": "excepturi",
-  "ZipPrefix": "qui",
-  "DomainName": "Block LLC",
-  "AddressLayoutId": 879,
-  "DomesticAddressLayoutId": 585,
-  "ForeignAddressLayoutId": 958,
-  "Rank": 639,
-  "Tooltip": "maiores",
+  "ImageDescription": "Managed value-added Graphical User Interface",
+  "OrgNrText": "356376",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "harum",
+  "ZipPrefix": "fugit",
+  "DomainName": "Ebert Group",
+  "AddressLayoutId": 415,
+  "DomesticAddressLayoutId": 421,
+  "ForeignAddressLayoutId": 823,
+  "Rank": 24,
+  "Tooltip": "cumque",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 89
     }
   }
 }

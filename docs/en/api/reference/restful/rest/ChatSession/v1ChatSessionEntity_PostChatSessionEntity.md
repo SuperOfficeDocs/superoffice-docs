@@ -136,33 +136,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 724,
-  "TopicId": 501,
+  "ChatSessionId": 339,
+  "TopicId": 167,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nisi",
-  "CustomerHost": "sit",
-  "CustomerName": "Aufderhar LLC",
-  "CustomerEmail": "kara.deckow@haley.com",
-  "CustomerPhone": "(615)640-9576 x12371",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Pfeffer-Emmerich",
+  "CustomerAlias": "aut",
+  "CustomerHost": "iste",
+  "CustomerName": "Davis, Terry and Funk",
+  "CustomerEmail": "verla_renner@gislasonweimann.uk",
+  "CustomerPhone": "179-879-3537 x9961",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Considine-Schroeder",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "et",
-  "WhenRequested": "1998-10-09T10:30:31.6968501+02:00",
-  "WhenStarted": "2015-12-07T10:30:31.6968501+01:00",
-  "WhenEnded": "1998-11-24T10:30:31.6968501+01:00",
-  "WhenIdle": "2009-08-19T10:30:31.6968501+02:00",
-  "WhenFetched": "1997-01-07T10:30:31.6968501+01:00",
-  "SessionKey": "dolore",
-  "InitialQueuePos": 423,
-  "AlertLevel": 54,
-  "Rank": 902,
+  "FirstMessage": "quasi",
+  "LastMessage": "sunt",
+  "WhenRequested": "2005-09-23T14:23:54.7565188+02:00",
+  "WhenStarted": "2016-09-28T14:23:54.7565188+02:00",
+  "WhenEnded": "2003-07-13T14:23:54.7565188+02:00",
+  "WhenIdle": "2000-12-31T14:23:54.7565188+01:00",
+  "WhenFetched": "2021-07-29T14:23:54.7565188+02:00",
+  "SessionKey": "nam",
+  "InitialQueuePos": 163,
+  "AlertLevel": 169,
+  "Rank": 296,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 139
+  "Rating": 87
 }
 ```
 
@@ -181,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 741,
-  "TopicId": 151,
+  "ChatSessionId": 873,
+  "TopicId": 841,
   "User": null,
   "Person": null,
-  "CustomerAlias": "excepturi",
-  "CustomerHost": "molestias",
-  "CustomerName": "Becker-McLaughlin",
-  "CustomerEmail": "jessy@hesselbeatty.co.uk",
-  "CustomerPhone": "921-560-3302",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Franecki, Wisoky and Marvin",
+  "CustomerAlias": "porro",
+  "CustomerHost": "laboriosam",
+  "CustomerName": "Goyette, Crooks and Sanford",
+  "CustomerEmail": "vicenta@tremblay.name",
+  "CustomerPhone": "(484)696-9316",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bartoletti LLC",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "magnam",
-  "WhenRequested": "2010-11-13T10:30:31.7124762+01:00",
-  "WhenStarted": "2009-10-25T10:30:31.7124762+01:00",
-  "WhenEnded": "2012-06-08T10:30:31.7124762+02:00",
-  "WhenIdle": "2021-07-01T10:30:31.7124762+02:00",
-  "WhenFetched": "2013-02-11T10:30:31.7124762+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 706,
-  "AlertLevel": 243,
-  "Rank": 284,
+  "FirstMessage": "odit",
+  "LastMessage": "voluptatum",
+  "WhenRequested": "2017-03-18T14:23:54.7721434+01:00",
+  "WhenStarted": "2013-09-16T14:23:54.7721434+02:00",
+  "WhenEnded": "1998-11-25T14:23:54.7721434+01:00",
+  "WhenIdle": "2020-08-01T14:23:54.7721434+02:00",
+  "WhenFetched": "2013-04-23T14:23:54.7721434+02:00",
+  "SessionKey": "id",
+  "InitialQueuePos": 909,
+  "AlertLevel": 715,
+  "Rank": 660,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -211,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 169,
+  "Rating": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   },
   "_Links": {

@@ -85,6 +85,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
+|projectAssociate/locationAddress|string|Location: Location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -206,6 +207,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
+|sale/associate/locationAddress|string|Location: Location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/type|listAny|Type: Displays the type of an activity| x |
 |appointment/recordType|string|Record type : Shows the record type| x |
 |appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
-|appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|appointment/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|appointment/contactId|listAny|Company ID: Database ID of company| x |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
 |appointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -302,6 +304,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
+|appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
 |document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|document/registeredBy|associate|Registered by: The user who registered the data| x |
-|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|document/registeredBy|associate|Registered by: The user who registered the data| x |
+|document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId|int|Document ID: Database ID of document record| x |
 |document/keywords|string|Keywords | x |
@@ -380,6 +383,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
+|document/associate/locationAddress|string|Location: Location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |projectMember/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|projectMember/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|projectMember/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMember/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMember/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/portraitThumbnail| *None* |Person image: Person image|  |
+|projectMember/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMember/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |projectMember/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |projectMember/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |projectMember/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
@@ -531,14 +535,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
-|projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|projectMember/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|projectMember/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMember/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMember/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -564,6 +568,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/personAssociate/userName|string|User name: User name| x |
 |projectMember/personAssociate/personEmail|string|E-mail| x |
+|projectMember/personAssociate/locationAddress|string|Location: Location| x |
 |projectMember/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -594,6 +599,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/correspondingAssociate/userName|string|User name: User name| x |
 |projectMember/correspondingAssociate/personEmail|string|E-mail| x |
+|projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
 |projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -633,16 +639,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
 |projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |projectMember/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |projectMember/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |projectMember/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |projectMember/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |projectMember/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
@@ -692,6 +698,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/contactAssociate/userName|string|User name: User name| x |
 |projectMember/contactAssociate/personEmail|string|E-mail| x |
+|projectMember/contactAssociate/locationAddress|string|Location: Location| x |
 |projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -736,6 +743,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/LastSale|date|Date of last sale|  |
 |projectMember/LastCompletedSale|date|Date of last completed sale|  |
 |projectMember/LastDoBySale|date|Date of last non-completed sale|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/NumberOfTickets|int|Number of requests|  |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
@@ -743,10 +754,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMember/LastTicket|date|Date of last request|  |
 |projectMember/LastCompletedTicket|date|Date of last completed request|  |
 |projectMember/LastDoByTicket|date|Date of last non-completed request|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |projectMember/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |projectMember/saintSaleStatus|listAny|With status|  |
@@ -769,7 +776,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelectionV2?$select=appointment/saleId,appointment/appointmentPublish/publishedBy,appointment/associate/assocType,projectMember/personDirectPhone/description
+GET /api/v1/archive/ProjectStaticSelectionV2?$select=sale/recordType,sale/associate/isActive,projectMember/supportAssociate,projectMember/email/emailHasBounced,projectMember/contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

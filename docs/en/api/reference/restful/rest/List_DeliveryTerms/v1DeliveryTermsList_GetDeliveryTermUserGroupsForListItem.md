@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Bergnaum Group",
-    "ToolTip": "Rem velit at necessitatibus quam aut animi.",
+    "Id": 61,
+    "Name": "Breitenberg LLC",
+    "ToolTip": "Et architecto illo et.",
     "Deleted": false,
-    "Rank": 164,
-    "Type": "non",
-    "ColorBlock": 889,
-    "IconHint": "dolorem",
+    "Rank": 722,
+    "Type": "deleniti",
+    "ColorBlock": 707,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2002-11-15T10:30:32.9743325+01:00",
+    "LastChanged": "1999-05-01T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 203,
-        "Name": "Stokes, Padberg and Ortiz",
-        "ToolTip": "Fuga sunt rerum unde modi.",
-        "Deleted": true,
-        "Rank": 546,
-        "Type": "accusantium",
-        "ColorBlock": 142,
-        "IconHint": "ut",
+        "Id": 475,
+        "Name": "Eichmann-O'Keefe",
+        "ToolTip": "Libero culpa inventore harum facere doloremque vel esse.",
+        "Deleted": false,
+        "Rank": 63,
+        "Type": "dicta",
+        "ColorBlock": 34,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2012-12-23T10:30:32.9743325+01:00",
+        "LastChanged": "2005-09-15T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "est",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Nichole Sipes",
+        "FullName": "Evangeline Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 886
+            "FieldLength": 201
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "enim",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Unique Smitham",
+    "FullName": "Vidal Wunsch IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 358
       }
     }
   }

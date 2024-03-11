@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 259,
-    "Name": "Watsica-Thiel",
-    "MaxDataAge": 167,
-    "NumberOfUsers": 651,
-    "NumberOfLogins": 370,
+    "AreaId": 543,
+    "Name": "Hyatt Inc and Sons",
+    "MaxDataAge": 851,
+    "NumberOfUsers": 660,
+    "NumberOfLogins": 37,
     "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldLength": 977
       }
     }
   }

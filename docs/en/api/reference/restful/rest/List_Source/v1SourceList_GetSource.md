@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "Kunde Inc and Sons",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 647,
-  "Rank": 953,
+  "Id": 785,
+  "Name": "Huel-Gottlieb",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 447,
+  "Rank": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 870
     }
   }
 }

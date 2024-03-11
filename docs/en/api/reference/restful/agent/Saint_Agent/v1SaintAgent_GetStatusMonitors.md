@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Type": "est"
+  "Id": 940,
+  "Type": "ducimus"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 364,
-    "Rank": 913,
-    "DefaultTask": 548,
-    "DefaultTaskText": "dolor",
+    "OwnerTable": 896,
+    "Rank": 346,
+    "DefaultTask": 807,
+    "DefaultTaskText": "consequuntur",
     "IsVisual": false,
-    "LastGenerated": "2000-02-19T10:30:24.4815013+01:00",
-    "Description": "Open-architected user-facing array",
-    "Name": "Schaden, Weissnat and Moen",
-    "StatusMonitorId": 586,
-    "PictureId": 345,
+    "LastGenerated": "1998-02-09T14:23:47.3005077+01:00",
+    "Description": "Focused fresh-thinking neural-net",
+    "Name": "Barrows-Hackett",
+    "StatusMonitorId": 311,
+    "PictureId": 286,
     "NeedsUpdate": false,
-    "Deleted": true,
-    "NumMatches": 847,
-    "NumNeedUpdate": 99,
-    "GenerationStart": "1998-11-24T10:30:24.4815013+01:00",
+    "Deleted": false,
+    "NumMatches": 744,
+    "NumNeedUpdate": 646,
+    "GenerationStart": "2021-09-28T14:23:47.3005077+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

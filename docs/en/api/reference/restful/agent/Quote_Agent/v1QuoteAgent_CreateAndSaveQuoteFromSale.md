@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 900,
-  "CopyToSaleId": 601
+  "CopyFromSaleId": 693,
+  "CopyToSaleId": 264
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 832,
-  "SaleId": 989,
-  "QuoteConnectionId": 972,
-  "ERPQuoteKey": "deleniti",
-  "ERPOrderKey": "perspiciatis",
-  "ActiveQuoteVersionId": 238,
-  "AcceptedQuoteAlternativeId": 655,
-  "UseValuesFromQuote": 410,
-  "DocumentId": 451,
-  "PoNumber": "1128395",
-  "OrderComment": "dolorem",
-  "PreferredEmailCulture": "jayde_schmeler@mclaughlin.biz",
+  "QuoteId": 443,
+  "SaleId": 33,
+  "QuoteConnectionId": 778,
+  "ERPQuoteKey": "aspernatur",
+  "ERPOrderKey": "voluptas",
+  "ActiveQuoteVersionId": 393,
+  "AcceptedQuoteAlternativeId": 973,
+  "UseValuesFromQuote": 295,
+  "DocumentId": 521,
+  "PoNumber": "145922",
+  "OrderComment": "inventore",
+  "PreferredEmailCulture": "stella@sipes.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 407,
-      "ERPQuoteVersionKey": "qui",
-      "QuoteId": 354,
-      "Description": "De-engineered context-sensitive adapter",
-      "Number": "546089",
+      "QuoteVersionId": 326,
+      "ERPQuoteVersionKey": "iusto",
+      "QuoteId": 985,
+      "Description": "Operative regional knowledge user",
+      "Number": "1673028",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 427,
-      "SentDate": "2022-03-13T10:30:24.4346264+01:00",
-      "FollowupId": 294,
-      "ExpirationDate": "2023-08-15T10:30:24.4346264+02:00",
-      "DeliveryCountryId": 421,
+      "LikelyQuoteAlternativeId": 622,
+      "SentDate": "2010-09-12T14:23:47.2536317+02:00",
+      "FollowupId": 939,
+      "ExpirationDate": "2012-03-28T14:23:47.2536317+02:00",
+      "DeliveryCountryId": 997,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 638,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "deserunt",
-      "ERPPaymentTypeKey": "deleniti",
-      "ERPDeliveryTermsKey": "consequuntur",
-      "ERPDeliveryTypeKey": "vero",
-      "Rank": 285,
-      "ApprovedBy": 548,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 313,
-      "ApprovedRegisteredDate": "2016-06-07T10:30:24.4346264+02:00",
-      "ExtraField1": "eum",
-      "ExtraField2": "illum",
-      "ExtraField3": "consequatur",
-      "ExtraField4": "sit",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2022-03-31T10:30:24.4346264+02:00",
-      "Updated": "2015-12-31T10:30:24.4346264+01:00",
-      "UpdatedAssociateId": 196,
-      "Registered": "2017-03-07T10:30:24.4346264+01:00",
-      "RegisteredAssociateId": 933,
-      "RequestAssociateId": 543,
-      "RequestComment": "modi",
+      "InvoiceCountryId": 484,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "optio",
+      "ERPPaymentTypeKey": "non",
+      "ERPDeliveryTermsKey": "a",
+      "ERPDeliveryTypeKey": "iste",
+      "Rank": 393,
+      "ApprovedBy": 360,
+      "ApprovedText": "sit",
+      "ApprovedRegisteredBy": 594,
+      "ApprovedRegisteredDate": "2005-06-10T14:23:47.2536317+02:00",
+      "ExtraField1": "explicabo",
+      "ExtraField2": "et",
+      "ExtraField3": "ex",
+      "ExtraField4": "rerum",
+      "ExtraField5": "velit",
+      "LastRecalculated": "2022-09-06T14:23:47.2536317+02:00",
+      "Updated": "2003-11-13T14:23:47.2536317+01:00",
+      "UpdatedAssociateId": 471,
+      "Registered": "2014-06-06T14:23:47.2536317+02:00",
+      "RegisteredAssociateId": 118,
+      "RequestAssociateId": 376,
+      "RequestComment": "est",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 210
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldLength": 701
     }
   }
 }

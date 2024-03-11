@@ -136,6 +136,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name|  |
 |personEmail|string|E-mail|  |
+|locationAddress|string|Location: Location|  |
 |personEmailsInformation|int|E-mail ID: IDs of contacts that should receive invitation e-mails for a booking - column is only used as a restriction|  |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name|  |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact|  |
@@ -186,11 +187,11 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |personUrl/URLAddress|string|URL|  |
 |personUrl/URLDescription|string|Description|  |
-|personContact/contactId| *None* |Company ID: Database ID of company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactId| *None* |Company ID: Database ID of company|  |
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
 |personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
@@ -241,7 +242,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=personHasInterests,personContact/department,personContact/contactNoMail
+GET /api/v1/archive/Participants?$select=startTimeUtcInformation,personEmailsInformation,supportAssociate,isProjectMember,personContact/category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 219,
-  "Name": "Terry-Schulist",
-  "CreatedDate": "2014-11-03T10:30:32.0574265+01:00",
-  "UpdatedDate": "2021-09-29T10:30:32.0574265+02:00",
+  "ForeignAppId": 135,
+  "Name": "Stiedemann, Fritsch and Hoppe",
+  "CreatedDate": "2013-07-20T14:23:55.1646464+02:00",
+  "UpdatedDate": "2014-01-15T14:23:55.1646464+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 62,
-      "Name": "Becker Inc and Sons",
-      "CreatedDate": "2010-08-12T10:30:32.0574265+02:00",
-      "UpdatedDate": "2020-05-10T10:30:32.0574265+02:00",
-      "AssociateFullName": "Dr. Palma Rey Cartwright",
-      "CreatedBy": "est",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 256,
+      "ForeignDeviceId": 617,
+      "Name": "Beahan-Mosciski",
+      "CreatedDate": "2006-10-24T14:23:55.1646464+02:00",
+      "UpdatedDate": "2002-01-11T14:23:55.1646464+01:00",
+      "AssociateFullName": "Mr. Adonis Nader V",
+      "CreatedBy": "accusantium",
+      "UpdatedBy": "fugiat",
+      "DeviceIdentifier": "delectus",
+      "ForeignAppId": 86,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 905
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

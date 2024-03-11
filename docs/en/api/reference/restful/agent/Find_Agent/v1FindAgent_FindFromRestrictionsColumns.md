@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Hermann Group",
-      "Operator": "placeat",
+      "Name": "McLaughlin, Treutel and Kub",
+      "Operator": "ut",
       "Values": [
-        "in",
-        "possimus"
+        "doloremque",
+        "autem"
       ],
       "DisplayValues": [
-        "iste",
-        "sunt"
+        "possimus",
+        "suscipit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 324,
+      "InterParenthesis": 963,
       "InterOperator": "And",
-      "UniqueHash": 239
+      "UniqueHash": 395
     }
   ],
-  "ProviderName": "Nolan, Witting and Durgan",
+  "ProviderName": "Goldner Group",
   "DesiredColumns": [
     "et",
-    "consequatur"
+    "enim"
   ],
-  "PageSize": 3,
-  "PageNumber": 76
+  "PageSize": 624,
+  "PageNumber": 903
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Marvin Inc and Sons",
-      "DisplayTooltip": "quae",
-      "DisplayType": "consectetur",
-      "CanOrderBy": true,
-      "Name": "Konopelski-Bergstrom",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Kreiger, Boyer and Feil",
-      "IsVisible": true,
-      "ExtraInfo": "excepturi",
+      "DisplayName": "Gislason-Goldner",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "voluptatem",
+      "CanOrderBy": false,
+      "Name": "Jast-Cole",
+      "CanRestrictBy": false,
+      "RestrictionType": "distinctio",
+      "RestrictionListName": "Kozey Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "molestiae",
       "Width": "alias",
-      "IconHint": "quia",
-      "HeadingIconHint": "ut"
+      "IconHint": "consequatur",
+      "HeadingIconHint": "inventore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Tromp LLC",
-      "PrimaryKey": 213,
+      "EntityName": "Ebert, Lueilwitz and Mann",
+      "PrimaryKey": 737,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ducimus",
-          "TooltipHint": "quas",
-          "LinkHint": "aspernatur"
+          "DisplayValue": "aut",
+          "TooltipHint": "assumenda",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "nobis",
+      "LinkHint": "non",
+      "StyleHint": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 724
         }
       }
     }
   ],
-  "RowCount": 763,
+  "RowCount": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 787
     }
   }
 }

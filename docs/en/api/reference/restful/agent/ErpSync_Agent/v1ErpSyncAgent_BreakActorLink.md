@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/ErpSync/BreakActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 131,
-  "CrmRecordId": 577,
+  "ErpConnectionId": 464,
+  "CrmRecordId": 766,
   "CrmActorType": "Contact"
 }
 ```

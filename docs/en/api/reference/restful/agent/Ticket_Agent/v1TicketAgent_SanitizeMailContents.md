@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "sed",
-    "placeat"
+    "eligendi",
+    "consequatur"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "tempora",
-  "facere"
+  "debitis",
+  "id"
 ]
 ```

@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 96,
-  "ColumnId": 126,
-  "FieldDefault": "eum",
-  "FieldHeight": 904,
-  "FieldLabel": "quo",
-  "FieldLeft": 31,
-  "FieldTop": 323,
+  "UDefFieldId": 5,
+  "ColumnId": 414,
+  "FieldDefault": "sint",
+  "FieldHeight": 387,
+  "FieldLabel": "aut",
+  "FieldLeft": 384,
+  "FieldTop": 751,
   "FieldType": "Checkbox",
-  "FieldWidth": 365,
-  "FormatMask": "animi",
+  "FieldWidth": 687,
+  "FormatMask": "quis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 461,
-  "LabelLeft": 583,
-  "LabelTop": 530,
-  "LabelWidth": 846,
-  "LastVersionId": 13,
-  "ListTableId": 158,
+  "LabelHeight": 836,
+  "LabelLeft": 204,
+  "LabelTop": 960,
+  "LabelWidth": 927,
+  "LastVersionId": 635,
+  "ListTableId": 80,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 965,
-  "ProgId": "mollitia",
+  "Page1LineNo": 822,
+  "ProgId": "hic",
   "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 601,
-  "TextLength": 910,
-  "Tooltip": "ut",
-  "UdefIdentity": 587,
-  "UDListDefinitionId": 419,
+  "ShortLabel": "fuga",
+  "TabOrder": 384,
+  "TextLength": 298,
+  "Tooltip": "numquam",
+  "UdefIdentity": 409,
+  "UDListDefinitionId": 742,
   "Justification": "Center",
-  "Version": 237,
-  "TemplateVariableName": "Schmitt Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Windler, Wisoky and Stroman",
+  "Version": 13,
+  "TemplateVariableName": "Mosciski, Skiles and Kohler",
+  "HasBeenPublished": false,
+  "MdoListName": "Corwin, Howe and Stamm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldLength": 121
     }
   }
 }

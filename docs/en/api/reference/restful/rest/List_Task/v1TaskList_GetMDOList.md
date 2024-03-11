@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=officiis
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=laudantium
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Lang-Kunde",
-    "ToolTip": "Laudantium vel necessitatibus sunt.",
-    "Deleted": true,
-    "Rank": 309,
-    "Type": "magnam",
+    "Id": 70,
+    "Name": "Lakin-Bednar",
+    "ToolTip": "Eos non quia excepturi.",
+    "Deleted": false,
+    "Rank": 768,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Sipes Inc and Sons",
-        "ToolTip": "Neque dolores ex sapiente.",
-        "Deleted": false,
-        "Rank": 172,
-        "Type": "architecto",
+        "Id": 332,
+        "Name": "Vandervort LLC",
+        "ToolTip": "Deleniti quisquam reprehenderit aut dolore consequuntur culpa porro.",
+        "Deleted": true,
+        "Rank": 933,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "possimus",
-        "ColorBlock": 33,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "et",
-        "FullName": "Donavon Huels",
+        "IconHint": "soluta",
+        "ColorBlock": 632,
+        "ExtraInfo": "porro",
+        "StyleHint": "dolor",
+        "FullName": "Prof. Delphia Ansley Weimann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldLength": 831
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 267,
-    "ExtraInfo": "aut",
-    "StyleHint": "occaecati",
-    "FullName": "Mr. Bill Collins",
+    "IconHint": "excepturi",
+    "ColorBlock": 957,
+    "ExtraInfo": "earum",
+    "StyleHint": "aliquid",
+    "FullName": "Cody Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 779
       }
     }
   }

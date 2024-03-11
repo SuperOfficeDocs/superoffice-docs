@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 899,
-  "Created": "1998-03-14T10:30:24.4502511+01:00",
+  "SatelliteId": 223,
+  "Created": "2003-03-24T14:23:47.2692571+01:00",
   "CreatedBy": null,
-  "Updated": "2008-03-19T10:30:24.4502511+01:00",
+  "Updated": "2023-03-04T14:23:47.2692571+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cormier, Champlin and Terry",
-      "Description": "Persistent eco-centric pricing structure",
+      "Name": "Stanton, Bednar and Wilkinson",
+      "Description": "Pre-emptive holistic info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 473
         }
       }
     },
     {
-      "Name": "Cormier, Champlin and Terry",
-      "Description": "Persistent eco-centric pricing structure",
+      "Name": "Stanton, Bednar and Wilkinson",
+      "Description": "Pre-emptive holistic info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 473
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 199
     }
   }
 }

@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jones, Miller and Hoppe",
+  "TableName": "Tromp Inc and Sons",
   "Columns": [
-    "numquam",
-    "consequuntur"
+    "quasi",
+    "voluptatum"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "beatae",
-  "Inserts": 287,
-  "Updates": 177,
-  "Deletes": 592,
+  "Message": "et",
+  "Inserts": 234,
+  "Updates": 941,
+  "Deletes": 31,
   "RowStatus": [
     {
-      "PrimaryKey": 32,
+      "PrimaryKey": 460,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "fuga"
+        "eum",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     },
     {
-      "PrimaryKey": 32,
+      "PrimaryKey": 460,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "fuga"
+        "eum",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 178
     }
   }
 }

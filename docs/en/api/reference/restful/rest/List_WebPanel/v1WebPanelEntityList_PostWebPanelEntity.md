@@ -111,28 +111,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 895,
-  "Name": "Kihn Inc and Sons",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 882,
+  "WebPanelId": 543,
+  "Name": "Reilly, Abbott and Huel",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "Rank": 78,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Weissnat, Stroman and Grimes",
+  "WindowName": "Senger, Ziemann and Reichert",
   "Url": "http://www.example.com/",
-  "ProgId": "temporibus",
-  "Icon": 175,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "dolores",
+  "Icon": 538,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 287,
-  "Name": "Rau, Cartwright and Hamill",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 214,
+  "WebPanelId": 4,
+  "Name": "Murray-Schaefer",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 896,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Smitham, Kris and Ullrich",
+  "ShowInStatusBar": false,
+  "WindowName": "Cole-Feeney",
   "Url": "http://www.example.com/",
-  "ProgId": "atque",
-  "Icon": 969,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "quasi",
+  "Icon": 661,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 482
     }
   }
 }

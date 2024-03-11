@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 473
+  "ContactId": 651
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13523.21,
-  "Wgs84Longitude": 2842.538,
+  "Wgs84Latitude": 30659.922,
+  "Wgs84Longitude": 3033.712,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bergstrom, Schmitt and Powlowski",
-        "Value": "fuga",
-        "Tooltip": "maxime",
-        "Label": "maiores",
-        "ValueLength": 18,
-        "AddressType": "delectus",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 340
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Williamson Inc and Sons",
-        "Value": "recusandae",
-        "Tooltip": "ipsum",
-        "Label": "officia",
-        "ValueLength": 748,
+        "Name": "Johnson-Steuber",
+        "Value": "reiciendis",
+        "Tooltip": "aut",
+        "Label": "consequatur",
+        "ValueLength": 168,
         "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldLength": 993
+          }
+        }
+      }
+    ],
+    [
+      {
+        "Name": "Schmeler Group",
+        "Value": "ipsum",
+        "Tooltip": "qui",
+        "Label": "nihil",
+        "ValueLength": 886,
+        "AddressType": "iste",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "temporibus",
+  "Formatted": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldLength": 90
     }
   }
 }

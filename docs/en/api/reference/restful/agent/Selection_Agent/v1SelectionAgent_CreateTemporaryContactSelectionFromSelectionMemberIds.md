@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 866,
+  "SelectionId": 801,
   "SelectionMemberIds": [
-    372,
-    702
+    150,
+    587
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized hybrid groupware",
-  "Postit": "officia",
+  "Description": "Triple-buffered human-resource product",
+  "Postit": "fugiat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 809,
-  "IncludePerson": 998,
-  "MemberCount": 529,
-  "Name": "Robel, Wolff and Quigley",
-  "PostitTextId": 688,
-  "CreatedDate": "1998-03-03T10:30:24.7017104+01:00",
-  "SelectionId": 804,
-  "SoundEx": "necessitatibus",
-  "Source": 970,
-  "TextId": 863,
-  "UpdatedDate": "2022-05-31T10:30:24.7017104+02:00",
-  "UpdatedCount": 975,
-  "Visibility": 662,
+  "GroupIdx": 613,
+  "IncludePerson": 106,
+  "MemberCount": 612,
+  "Name": "Emard Group",
+  "PostitTextId": 210,
+  "CreatedDate": "2005-06-16T14:23:47.4098822+02:00",
+  "SelectionId": 523,
+  "SoundEx": "laborum",
+  "Source": 613,
+  "TextId": 312,
+  "UpdatedDate": "2005-04-05T14:23:47.4098822+02:00",
+  "UpdatedCount": 451,
+  "Visibility": 994,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 156,
-  "TargetTableName": "Koepp-Hilpert",
-  "Completed": false,
-  "LeftSelectionId": 449,
-  "RightSelectionId": 826,
+  "CompanyUnique": true,
+  "TargetTableNumber": 323,
+  "TargetTableName": "Schuster Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 708,
+  "RightSelectionId": 598,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Waelchi-Walsh",
-  "ShadowProviderName": "Dickinson, Wisozk and Hermann",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2010-05-13T10:30:24.7017104+02:00",
-  "LastLoadedBy": 277,
+  "MainProviderName": "Kling-Jast",
+  "ShadowProviderName": "Olson, Roberts and Wisoky",
+  "ChartKey": "fugiat",
+  "LastLoaded": "2011-08-15T14:23:47.4098822+02:00",
+  "LastLoadedBy": 399,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-23T10:30:24.7017104+02:00",
-  "LastMembershipChangeBy": 312,
+  "LastMembershipChange": "2022-03-17T14:23:47.4255063+01:00",
+  "LastMembershipChangeBy": 453,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "repudiandae",
-  "MemberTabHeading": "excepturi",
-  "MailingsProviderName": "Hand, Ritchie and Lockman",
-  "DashboardTileDefinitionId": 908,
+  "MainHeading": "incidunt",
+  "MemberTabHeading": "ullam",
+  "MailingsProviderName": "Johnson-Metz",
+  "DashboardTileDefinitionId": 715,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 817
+          "FieldLength": 854
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 930,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 817
+          "FieldLength": 854
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 457
     }
   }
 }

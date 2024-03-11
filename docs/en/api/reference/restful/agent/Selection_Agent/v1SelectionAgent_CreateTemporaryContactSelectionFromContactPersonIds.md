@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 38,
-      "ContactId": 349
+      "PersonId": 109,
+      "ContactId": 348
     },
     {
-      "PersonId": 38,
-      "ContactId": 349
+      "PersonId": 109,
+      "ContactId": 348
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face client-server strategy",
-  "Postit": "voluptate",
+  "Description": "Triple-buffered even-keeled product",
+  "Postit": "dolorem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 249,
-  "IncludePerson": 789,
-  "MemberCount": 375,
-  "Name": "Kerluke-Hickle",
-  "PostitTextId": 466,
-  "CreatedDate": "2002-11-29T10:30:24.5752485+01:00",
-  "SelectionId": 957,
-  "SoundEx": "veniam",
-  "Source": 87,
-  "TextId": 456,
-  "UpdatedDate": "2017-01-20T10:30:24.5752485+01:00",
-  "UpdatedCount": 119,
-  "Visibility": 77,
+  "GroupIdx": 192,
+  "IncludePerson": 314,
+  "MemberCount": 724,
+  "Name": "Schaefer-Kuhn",
+  "PostitTextId": 253,
+  "CreatedDate": "2011-12-11T14:23:47.4098822+01:00",
+  "SelectionId": 750,
+  "SoundEx": "ratione",
+  "Source": 600,
+  "TextId": 65,
+  "UpdatedDate": "2006-03-23T14:23:47.4098822+01:00",
+  "UpdatedCount": 250,
+  "Visibility": 311,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 289,
-  "TargetTableName": "Schaden-Rippin",
+  "CompanyUnique": false,
+  "TargetTableNumber": 730,
+  "TargetTableName": "Franecki LLC",
   "Completed": true,
-  "LeftSelectionId": 437,
-  "RightSelectionId": 1000,
+  "LeftSelectionId": 600,
+  "RightSelectionId": 194,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Parisian, Marvin and McLaughlin",
-  "ShadowProviderName": "Lemke-Little",
-  "ChartKey": "maiores",
-  "LastLoaded": "2016-04-11T10:30:24.5752485+02:00",
-  "LastLoadedBy": 795,
+  "MainProviderName": "Conroy, Tremblay and Hudson",
+  "ShadowProviderName": "Casper Group",
+  "ChartKey": "quisquam",
+  "LastLoaded": "2019-10-11T14:23:47.4098822+02:00",
+  "LastLoadedBy": 972,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-04-18T10:30:24.5752485+02:00",
-  "LastMembershipChangeBy": 905,
+  "LastMembershipChange": "2012-01-21T14:23:47.4098822+01:00",
+  "LastMembershipChangeBy": 775,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sint",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Corkery, Legros and Volkman",
-  "DashboardTileDefinitionId": 694,
+  "MainHeading": "dolorem",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Borer-Barrows",
+  "DashboardTileDefinitionId": 475,
   "VisibleFor": [
     {
-      "VisibleId": 363,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 651
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     },
     {
-      "VisibleId": 363,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 651
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 133
     }
   }
 }

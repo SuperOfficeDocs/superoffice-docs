@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 762
+  "QuoteAlternativeId": 958
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 980,
-    "ERPQuoteLineKey": "omnis",
-    "QuoteAlternativeId": 516,
-    "ERPProductKey": "et",
+    "QuoteLineId": 295,
+    "ERPQuoteLineKey": "quo",
+    "QuoteAlternativeId": 987,
+    "ERPProductKey": "nam",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 18355.838,
-    "DeliveredQuantity": 14638.913999999999,
-    "Rank": 441,
-    "Name": "Smith-Lind",
-    "Description": "Up-sized interactive architecture",
-    "Code": "voluptate",
-    "QuantityUnit": "aperiam",
-    "PriceUnit": "reprehenderit",
-    "ItemNumber": "1336941",
+    "Quantity": 2228.274,
+    "DeliveredQuantity": 10915.722,
+    "Rank": 247,
+    "Name": "Okuneva-Auer",
+    "Description": "Face to face coherent collaboration",
+    "Code": "molestias",
+    "QuantityUnit": "quas",
+    "PriceUnit": "odit",
+    "ItemNumber": "127429",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "nihil",
-    "ProductTypeKey": "reiciendis",
-    "Supplier": "non",
-    "SupplierCode": "mollitia",
-    "Thumbnail": "non",
-    "VATInfo": "magnam",
-    "VAT": 11241.658,
-    "UnitCost": 6305.608,
-    "UnitMinimumPrice": 17017.62,
-    "UnitListPrice": 7709.6399999999994,
+    "ProductFamilyKey": "laudantium",
+    "ProductTypeKey": "repudiandae",
+    "Supplier": "sed",
+    "SupplierCode": "in",
+    "Thumbnail": "minima",
+    "VATInfo": "enim",
+    "VAT": 31227.176,
+    "UnitCost": 15604.186,
+    "UnitMinimumPrice": 22574.201999999997,
+    "UnitListPrice": 17691.43,
     "ExtraInfo": [
       {
-        "Name": "Schiller LLC",
-        "Value": "esse",
+        "Name": "Kerluke, McLaughlin and Okuneva",
+        "Value": "et",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 443
           }
         }
       },
       {
-        "Name": "Schiller LLC",
-        "Value": "esse",
+        "Name": "Kerluke, McLaughlin and Okuneva",
+        "Value": "et",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 443
           }
         }
       }
     ],
-    "RawExtraInfo": "et",
-    "IsSubscription": false,
-    "SubscriptionUnit": "et",
-    "SubscriptionQuantity": 7208.2,
-    "SubscriptionStart": "2009-07-22T10:30:24.4502511+02:00",
-    "ERPDiscountPercent": 13686.178,
-    "ERPDiscountAmount": 25009.32,
-    "DiscountPercent": 13563.952,
-    "DiscountAmount": 29870.154,
+    "RawExtraInfo": "sunt",
+    "IsSubscription": true,
+    "SubscriptionUnit": "reiciendis",
+    "SubscriptionQuantity": 20026.26,
+    "SubscriptionStart": "2023-06-03T14:23:47.2692571+02:00",
+    "ERPDiscountPercent": 9527.36,
+    "ERPDiscountAmount": 28531.935999999998,
+    "DiscountPercent": 14143.742,
+    "DiscountAmount": 20436.814,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 21938.0,
-    "EarningAmount": 23373.372,
-    "SubTotal": 19042.184,
-    "TotalPrice": 8668.644,
-    "Rights": "molestias",
-    "Rule": "ut",
-    "ExtraField1": "dignissimos",
-    "ExtraField2": "quo",
-    "ExtraField3": "soluta",
-    "ExtraField4": "exercitationem",
-    "ExtraField5": "inventore",
+    "EarningPercent": 20088.94,
+    "EarningAmount": 28390.906,
+    "SubTotal": 26190.838,
+    "TotalPrice": 3074.4539999999997,
+    "Rights": "aliquam",
+    "Rule": "et",
+    "ExtraField1": "ad",
+    "ExtraField2": "distinctio",
+    "ExtraField3": "dolore",
+    "ExtraField4": "eveniet",
+    "ExtraField5": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

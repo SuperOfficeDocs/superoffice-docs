@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 672,
-  "ToAssociate": "minima"
+  "ChatSessionId": 260,
+  "ToAssociate": "vel"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 774,
-  "TopicId": 625,
+  "ChatSessionId": 845,
+  "TopicId": 80,
   "User": null,
   "Person": null,
-  "CustomerAlias": "maiores",
-  "CustomerHost": "deleniti",
-  "CustomerName": "Mills Group",
-  "CustomerEmail": "lavern@ziemejacobs.co.uk",
-  "CustomerPhone": "343-659-1633",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Beier-Schinner",
+  "CustomerAlias": "quisquam",
+  "CustomerHost": "rem",
+  "CustomerName": "Corwin-Murazik",
+  "CustomerEmail": "kristofer.gislason@gusikowski.info",
+  "CustomerPhone": "119-650-3359",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Mitchell-Ryan",
   "Status": "Closed",
-  "FirstMessage": "laborum",
-  "LastMessage": "in",
-  "WhenRequested": "2009-06-07T10:30:23.1764169+02:00",
-  "WhenStarted": "2006-09-07T10:30:23.1764169+02:00",
-  "WhenEnded": "1997-12-26T10:30:23.1764169+01:00",
-  "WhenIdle": "2001-05-08T10:30:23.1764169+02:00",
-  "WhenFetched": "2014-04-13T10:30:23.1764169+02:00",
-  "SessionKey": "consequuntur",
-  "InitialQueuePos": 490,
-  "AlertLevel": 733,
-  "Rank": 743,
+  "FirstMessage": "labore",
+  "LastMessage": "qui",
+  "WhenRequested": "2000-07-30T14:23:45.9699598+02:00",
+  "WhenStarted": "2013-03-01T14:23:45.9699598+01:00",
+  "WhenEnded": "1997-07-05T14:23:45.9699598+02:00",
+  "WhenIdle": "2020-12-30T14:23:45.9699598+01:00",
+  "WhenFetched": "2007-03-10T14:23:45.9699598+01:00",
+  "SessionKey": "eaque",
+  "InitialQueuePos": 968,
+  "AlertLevel": 989,
+  "Rank": 723,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 273,
+  "ChatbotIsActive": true,
+  "Rating": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

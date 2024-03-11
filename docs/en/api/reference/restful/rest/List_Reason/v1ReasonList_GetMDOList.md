@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=excepturi
+GET /api/v1/List/Reason/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Jast LLC",
-    "ToolTip": "Reprehenderit aut.",
-    "Deleted": false,
-    "Rank": 994,
-    "Type": "beatae",
+    "Id": 719,
+    "Name": "Huels-Leuschke",
+    "ToolTip": "Aut perspiciatis nam.",
+    "Deleted": true,
+    "Rank": 371,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Miller LLC",
-        "ToolTip": "Repellat velit sed eos nihil consequuntur ratione impedit.",
+        "Id": 659,
+        "Name": "Predovic, Kertzmann and Gaylord",
+        "ToolTip": "Omnis repellat cupiditate ea et iure doloremque non.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "aut",
+        "Rank": 773,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 240,
-        "ExtraInfo": "ut",
-        "StyleHint": "repudiandae",
-        "FullName": "Amos Hyatt",
+        "IconHint": "autem",
+        "ColorBlock": 96,
+        "ExtraInfo": "architecto",
+        "StyleHint": "expedita",
+        "FullName": "Ms. Kim Francesca Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldLength": 487
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 316,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "nam",
-    "FullName": "Leonel Unique Pollich PhD",
+    "IconHint": "aspernatur",
+    "ColorBlock": 87,
+    "ExtraInfo": "minima",
+    "StyleHint": "minima",
+    "FullName": "Mrs. Sonia Dianna Fritsch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 374
       }
     }
   }

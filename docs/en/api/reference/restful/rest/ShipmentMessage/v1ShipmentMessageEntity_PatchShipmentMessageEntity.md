@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "est",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 431,
-  "PlainMessage": "expedita",
-  "HtmlMessage": "dolorum",
-  "SmsMessage": "voluptas",
-  "Description": "Fundamental foreground emulation",
-  "Subject": "alias",
-  "FolderId": 275,
-  "HeaderField": "numquam",
-  "Design": "omnis",
+  "ShipmentMessageId": 260,
+  "PlainMessage": "laudantium",
+  "HtmlMessage": "commodi",
+  "SmsMessage": "dolores",
+  "Description": "Re-engineered responsive emulation",
+  "Subject": "facilis",
+  "FolderId": 442,
+  "HeaderField": "ab",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Centralized interactive forecast",
-  "AccessKey": "harum",
-  "DocumentMessage": 949,
-  "Registered": "2017-08-11T10:30:32.5125031+02:00",
-  "RegisteredAssociateId": 204,
-  "Updated": "2022-01-29T10:30:32.5125031+01:00",
-  "UpdatedAssociateId": 296,
-  "UpdatedCount": 906,
+  "LongDescription": "Up-sized explicit superstructure",
+  "AccessKey": "blanditiis",
+  "DocumentMessage": 959,
+  "Registered": "2002-01-28T14:23:55.5252104+01:00",
+  "RegisteredAssociateId": 610,
+  "Updated": "2013-01-06T14:23:55.5252104+01:00",
+  "UpdatedAssociateId": 921,
+  "UpdatedCount": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   },
   "_Links": {

@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 679,
-  "Name": "Hamill Group",
-  "AssociateId": 360,
-  "DetailsTable": 996,
-  "DetailsRecord": 906,
+  "Id": 231,
+  "Name": "Marvin Group",
+  "AssociateId": 319,
+  "DetailsTable": 786,
+  "DetailsRecord": 680,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "enim"
+    "ParameterObject1": "quia",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "1999-02-09T10:30:32.6699717+01:00",
-  "Created": "2005-04-15T10:30:32.6699717+02:00",
-  "StartCount": 588,
-  "DatabaseSerialNumber": "1275157",
-  "Context": "voluptatem",
-  "Result": "iusto",
+  "LastStarted": "2004-10-06T14:23:55.7595795+02:00",
+  "Created": "2000-07-21T14:23:55.7595795+02:00",
+  "StartCount": 545,
+  "DatabaseSerialNumber": "1556755",
+  "Context": "alias",
+  "Result": "eos",
   "State": "All",
-  "Description": "Intuitive scalable capacity",
-  "Response": "expedita",
-  "Request": "velit",
-  "ProgressDescription": "Diverse system-worthy pricing structure",
-  "ProgressPercent": 531,
-  "FileName": "Schulist Inc and Sons",
+  "Description": "Future-proofed national firmware",
+  "Response": "totam",
+  "Request": "aut",
+  "ProgressDescription": "Monitored stable superstructure",
+  "ProgressPercent": 273,
+  "FileName": "Hane Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Roob, Russel and Weber",
-  "AssociateId": 395,
-  "DetailsTable": 187,
-  "DetailsRecord": 677,
-  "IsSystemTask": true,
+  "Id": 934,
+  "Name": "Kutch LLC",
+  "AssociateId": 664,
+  "DetailsTable": 83,
+  "DetailsRecord": 853,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "doloribus",
-    "ParameterObject2": "quae"
+    "ParameterObject1": "vitae",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2015-08-09T10:30:32.6699717+02:00",
-  "Created": "2003-11-14T10:30:32.6699717+01:00",
-  "StartCount": 681,
-  "DatabaseSerialNumber": "1373744",
-  "Context": "earum",
-  "Result": "rerum",
+  "LastStarted": "2015-07-22T14:23:55.7595795+02:00",
+  "Created": "2019-10-11T14:23:55.7595795+02:00",
+  "StartCount": 82,
+  "DatabaseSerialNumber": "1464451",
+  "Context": "eos",
+  "Result": "soluta",
   "State": "All",
-  "Description": "Robust zero tolerance array",
-  "Response": "non",
-  "Request": "optio",
-  "ProgressDescription": "Open-architected systematic local area network",
-  "ProgressPercent": 137,
-  "FileName": "Hudson LLC",
+  "Description": "Reduced secondary conglomeration",
+  "Response": "provident",
+  "Request": "dignissimos",
+  "ProgressDescription": "Team-oriented real-time groupware",
+  "ProgressPercent": 131,
+  "FileName": "Hilpert, Cormier and Kautzer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

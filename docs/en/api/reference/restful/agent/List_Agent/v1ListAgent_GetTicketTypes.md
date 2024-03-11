@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 705,
-    "Name": "Klocko-Douglas",
-    "Rank": 56,
-    "Tooltip": "eum",
-    "Icon": "est",
-    "DefaultTicketStatus": 931,
+    "TicketTypeId": 777,
+    "Name": "Bogisich Group",
+    "Rank": 452,
+    "Tooltip": "ratione",
+    "Icon": "voluptates",
+    "DefaultTicketStatus": 396,
     "TicketStatuses": [
-      309,
-      734
+      858,
+      731
     ],
-    "DefaultTicketPriority": 150,
+    "DefaultTicketPriority": 822,
     "TicketPriorities": [
-      244,
-      905
+      360,
+      946
     ],
-    "ReplyTemplate": 914,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 467,
+    "IsExternalVisible": true,
     "IsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 119
       }
     }
   }

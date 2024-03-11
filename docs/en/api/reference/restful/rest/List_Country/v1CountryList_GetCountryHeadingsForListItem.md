@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Gleichner LLC",
-    "ToolTip": "Libero cupiditate necessitatibus et qui.",
-    "Deleted": false,
-    "Rank": 666,
-    "Type": "cum",
-    "ColorBlock": 398,
-    "IconHint": "maiores",
+    "Id": 155,
+    "Name": "Pfannerstill-Orn",
+    "ToolTip": "Aut aut dolor quia.",
+    "Deleted": true,
+    "Rank": 927,
+    "Type": "nihil",
+    "ColorBlock": 329,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-02-01T10:30:32.9274257+01:00",
+    "LastChanged": "2016-03-12T14:23:56.0408276+01:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Lindgren-Fahey",
-        "ToolTip": "Reiciendis est.",
-        "Deleted": false,
-        "Rank": 192,
-        "Type": "et",
-        "ColorBlock": 367,
-        "IconHint": "non",
+        "Id": 23,
+        "Name": "Connelly, Reilly and Block",
+        "ToolTip": "Iusto occaecati error error facere aspernatur.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "repellat",
+        "ColorBlock": 515,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2005-11-06T10:30:32.9274257+01:00",
+        "LastChanged": "1997-07-20T14:23:56.0408276+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Michele Vandervort",
+        "ExtraInfo": "culpa",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Sherwood Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Dashawn Ima Ward III",
+    "ExtraInfo": "et",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Foster Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 216
       }
     }
   }

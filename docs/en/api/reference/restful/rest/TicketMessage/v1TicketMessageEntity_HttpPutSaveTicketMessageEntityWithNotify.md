@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 814,
+  "EjMessageId": 417,
   "Ticket": null,
-  "CreatedAt": "2023-08-06T10:30:32.6230979+02:00",
+  "CreatedAt": "2021-07-08T14:23:55.7283316+02:00",
   "CreatedBy": null,
-  "Author": "veritatis",
+  "Author": "quis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 68,
-  "Body": "nesciunt",
-  "HtmlBody": "nemo",
-  "EmailHeader": "clovis@herman.us",
-  "DebugInfo": "nemo",
-  "MailSorter": "nihil",
+  "MessageId": "itaque",
+  "TimeSpent": 930,
+  "Body": "enim",
+  "HtmlBody": "eos",
+  "EmailHeader": "jeromy@trantow.ca",
+  "DebugInfo": "ipsum",
+  "MailSorter": "cumque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fugit",
+  "SearchTitle": "dignissimos",
   "MessageHeaders": [
     {
-      "Id": 162,
-      "Name": "Kessler-Pollich",
-      "Value": "ut",
+      "Id": 852,
+      "Name": "Stiedemann Inc and Sons",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 162,
-      "Name": "Kessler-Pollich",
-      "Value": "ut",
+      "Id": 852,
+      "Name": "Stiedemann Inc and Sons",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "fugiat",
-  "Sentiment": 147,
-  "SentimentConfidence": 307,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 638,
+  "SentimentConfidence": 489,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 391,
-      "Name": "Larson, Lubowitz and Heathcote",
-      "ContentType": "deserunt",
-      "AttSize": 571,
-      "InlineImage": false,
-      "ContentId": "possimus",
-      "AuthKey": "nam",
-      "IsSafeFileExtension": false
+      "AttachmentId": 175,
+      "Name": "Wehner-Abernathy",
+      "ContentType": "velit",
+      "AttSize": 197,
+      "InlineImage": true,
+      "ContentId": "velit",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "beatae",
+    "CustomFields2": "id"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 873,
+  "EjMessageId": 106,
   "Ticket": null,
-  "CreatedAt": "2001-08-14T10:30:32.638722+02:00",
+  "CreatedAt": "2009-05-01T14:23:55.743955+02:00",
   "CreatedBy": null,
-  "Author": "error",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "occaecati",
-  "TimeSpent": 125,
-  "Body": "necessitatibus",
-  "HtmlBody": "tempore",
-  "EmailHeader": "samanta.jaskolski@bayer.name",
-  "DebugInfo": "ut",
-  "MailSorter": "vel",
+  "MessageId": "enim",
+  "TimeSpent": 660,
+  "Body": "voluptatum",
+  "HtmlBody": "rerum",
+  "EmailHeader": "cierra@muller.uk",
+  "DebugInfo": "est",
+  "MailSorter": "illo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "unde",
+  "SearchTitle": "porro",
   "MessageHeaders": [
     {
-      "Id": 597,
-      "Name": "Jones, Herzog and Kulas",
-      "Value": "vero",
+      "Id": 644,
+      "Name": "Buckridge-Cartwright",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 985
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
   ],
   "Important": true,
-  "Language": "aut",
-  "Sentiment": 680,
-  "SentimentConfidence": 800,
+  "Language": "itaque",
+  "Sentiment": 688,
+  "SentimentConfidence": 76,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 750,
-      "Name": "Carter Inc and Sons",
-      "ContentType": "laborum",
-      "AttSize": 39,
+      "AttachmentId": 32,
+      "Name": "Konopelski-Watsica",
+      "ContentType": "consequatur",
+      "AttSize": 521,
       "InlineImage": true,
-      "ContentId": "fuga",
-      "AuthKey": "aut",
+      "ContentId": "qui",
+      "AuthKey": "hic",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldType": "System.Int32",
+          "FieldLength": 474
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "nulla"
+    "CustomFields1": "labore",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 84
     }
   }
 }

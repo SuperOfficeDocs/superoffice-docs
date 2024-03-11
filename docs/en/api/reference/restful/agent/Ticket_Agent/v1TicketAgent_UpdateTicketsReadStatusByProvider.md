@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "nam",
+  "Provider": "iste",
   "Restrictions": [
     {
-      "Name": "Larkin-Koss",
-      "Operator": "et",
+      "Name": "Morissette-Crooks",
+      "Operator": "eveniet",
       "Values": [
-        "dolore",
-        "minima"
+        "quasi",
+        "quaerat"
       ],
       "DisplayValues": [
-        "eveniet",
-        "maxime"
+        "aut",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 839,
+      "InterParenthesis": 439,
       "InterOperator": "And",
-      "UniqueHash": 871
+      "UniqueHash": 552
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  779,
-  426
+  776,
+  545
 ]
 ```

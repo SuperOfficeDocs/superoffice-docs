@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Price-Bergnaum",
-  "Tooltip": "ipsam",
+  "Id": 976,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 973,
-  "Rank": 592
+  "UdListDefinitionId": 188,
+  "Rank": 694
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Vandervort-Johnston",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "UdListDefinitionId": 882,
-  "Rank": 814,
+  "Id": 553,
+  "Name": "Kutch-Bergnaum",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "UdListDefinitionId": 107,
+  "Rank": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 293
     }
   }
 }

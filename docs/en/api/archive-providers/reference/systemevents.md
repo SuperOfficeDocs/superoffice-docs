@@ -77,11 +77,12 @@ blah....
 |registered\_associate\_id/otherGroups|userGroup|Activated by - Other groups: Other groups|  |
 |registered\_associate\_id/userName|string|Activated by - User name: User name| x |
 |registered\_associate\_id/personEmail|string|Activated by - E-mail| x |
+|registered\_associate\_id/locationAddress|string|Activated by - Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/firstName,registered_associate_id/associateDbId
+GET /api/v1/archive/SystemEvents?$select=getAllRows,registered_associate_id/lastName,registered_associate_id/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

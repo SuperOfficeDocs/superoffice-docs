@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "eligendi",
-  "IsoLangCode": "ut",
-  "UserPrompt": "culpa",
-  "DisplayValue": "consequatur",
+  "ChatId": "enim",
+  "IsoLangCode": "omnis",
+  "UserPrompt": "harum",
+  "DisplayValue": "dolorum",
   "PreviousTurns": [
     {
-      "Timestamp": "2010-05-22T10:30:22.5161441+02:00",
-      "UserPrompt": "laborum",
-      "UserDisplayText": "suscipit",
-      "BotResponse": "voluptas",
+      "Timestamp": "2007-07-06T14:23:45.3125879+02:00",
+      "UserPrompt": "eos",
+      "UserDisplayText": "velit",
+      "BotResponse": "quaerat",
       "BotActions": {
-        "BotActions1": "illo",
-        "BotActions2": "est"
+        "BotActions1": "velit",
+        "BotActions2": "ab"
       },
       "Attachments": [
-        "similique",
-        "sed"
+        "voluptatem",
+        "impedit"
       ]
     },
     {
-      "Timestamp": "2010-05-22T10:30:22.5161441+02:00",
-      "UserPrompt": "laborum",
-      "UserDisplayText": "suscipit",
-      "BotResponse": "voluptas",
+      "Timestamp": "2007-07-06T14:23:45.3125879+02:00",
+      "UserPrompt": "eos",
+      "UserDisplayText": "velit",
+      "BotResponse": "quaerat",
       "BotActions": {
-        "BotActions1": "illo",
-        "BotActions2": "est"
+        "BotActions1": "velit",
+        "BotActions2": "ab"
       },
       "Attachments": [
-        "similique",
-        "sed"
+        "voluptatem",
+        "impedit"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2008-07-13T10:30:22.5161441+02:00",
-  "UserPrompt": "voluptatem",
-  "UserDisplayText": "id",
-  "BotResponse": "cumque",
+  "Timestamp": "2016-09-15T14:23:45.3125879+02:00",
+  "UserPrompt": "culpa",
+  "UserDisplayText": "voluptas",
+  "BotResponse": "ab",
   "BotActions": {
-    "BotActions1": "quia",
-    "BotActions2": "corporis"
+    "BotActions1": "natus",
+    "BotActions2": "magni"
   },
   "Attachments": [
-    "architecto",
-    "est"
+    "dolorum",
+    "consequatur"
   ]
 }
 ```

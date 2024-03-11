@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2010-06-21T10:30:24.5283735+02:00",
-  "ToDate": "2008-04-10T10:30:24.5283735+02:00",
-  "AmountLimit": 693,
+  "FromDate": "2022-03-31T14:23:47.3630051+02:00",
+  "ToDate": "2016-02-09T14:23:47.3630051+01:00",
+  "AmountLimit": 142,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Swift-Connelly",
-    "SaleDate": "1996-10-01T10:30:24.5283735+02:00",
-    "SaleId": 812,
-    "Probability": 688,
-    "Title": "necessitatibus",
-    "Amount": 12232.002,
-    "Currency": "quasi",
-    "ProjectName": "Davis LLC",
-    "AssociateFullName": "Vinnie Jenkins",
-    "Description": "Organic needs-based open architecture",
+    "ContactName": "Auer Inc and Sons",
+    "SaleDate": "2014-03-08T14:23:47.3630051+01:00",
+    "SaleId": 639,
+    "Probability": 872,
+    "Title": "aut",
+    "Amount": 11821.448,
+    "Currency": "eius",
+    "ProjectName": "Heathcote, Murray and Haag",
+    "AssociateFullName": "Bernie Breitenberg",
+    "Description": "Realigned client-driven definition",
     "Status": "Lost",
-    "WeightedAmount": 1357.022,
-    "ProjectId": 662,
-    "EarningPercent": 22461.378,
-    "Earning": 7261.478,
-    "ContactId": 761,
-    "AssociateId": 551,
-    "PersonId": 644,
-    "SaleTypeId": 576,
-    "SaleTypeName": "Stanton LLC",
-    "PersonFullName": "Dr. Cynthia Thiel II",
+    "WeightedAmount": 24241.489999999998,
+    "ProjectId": 564,
+    "EarningPercent": 10063.274,
+    "Earning": 19819.416,
+    "ContactId": 609,
+    "AssociateId": 403,
+    "PersonId": 502,
+    "SaleTypeId": 482,
+    "SaleTypeName": "Gislason Inc and Sons",
+    "PersonFullName": "Elisabeth Armstrong",
     "Completed": "Completed",
-    "ActiveErpLinks": 941,
-    "NextDueDate": "1998-03-19T10:30:24.5283735+01:00",
-    "Number": "373423",
+    "ActiveErpLinks": 882,
+    "NextDueDate": "2005-05-07T14:23:47.3630051+02:00",
+    "Number": "951662",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldLength": 902
       }
     }
   }

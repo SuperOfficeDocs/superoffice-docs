@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 259,
-  "UniqueId": "alias",
-  "Name": "Conroy, Kshlerin and Schumm",
-  "Description": "Cloned stable encryption",
-  "AssociateId": 800,
-  "Columns": 740,
+  "DashboardId": 50,
+  "UniqueId": "dolor",
+  "Name": "Boyer Inc and Sons",
+  "Description": "Horizontal leading edge process improvement",
+  "AssociateId": 605,
+  "Columns": 808,
   "Theme": null,
-  "VisibleForAll": 124,
+  "VisibleForAll": 536,
   "VisibleForAssociates": [
-    23,
-    336
+    461,
+    814
   ],
   "VisibleForGroups": [
-    749,
-    955
+    345,
+    929
   ],
-  "PinForAll": 30,
+  "PinForAll": 983,
   "PinForAssociates": [
-    858,
-    387
+    293,
+    405
   ],
   "PinForGroups": [
-    45,
-    286
+    444,
+    342
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 751,
-  "UniqueId": "voluptatem",
+  "DashboardId": 200,
+  "UniqueId": "animi",
   "Name": "Wyman Inc and Sons",
-  "Description": "Open-source national protocol",
-  "AssociateId": 549,
-  "Columns": 209,
+  "Description": "Phased attitude-oriented strategy",
+  "AssociateId": 833,
+  "Columns": 80,
   "Theme": null,
-  "VisibleForAll": 436,
+  "VisibleForAll": 469,
   "VisibleForAssociates": [
-    574,
-    917
+    549,
+    537
   ],
   "VisibleForGroups": [
-    670,
-    860
+    649,
+    193
   ],
-  "PinForAll": 606,
+  "PinForAll": 141,
   "PinForAssociates": [
-    124,
-    52
+    288,
+    146
   ],
   "PinForGroups": [
-    437,
-    888
+    938,
+    993
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

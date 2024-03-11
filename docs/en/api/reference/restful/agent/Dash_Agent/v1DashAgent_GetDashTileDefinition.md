@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=338
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=332
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 595,
-  "Name": "Breitenberg-Lehner",
-  "Description": "Mandatory encompassing ability",
-  "DefaultHeight": 943,
-  "DefaultWidth": 302,
+  "DashboardTileDefinitionId": 667,
+  "Name": "Stoltenberg-Kirlin",
+  "Description": "Centralized 6th generation hub",
+  "DefaultHeight": 199,
+  "DefaultWidth": 599,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reilly, Wolff and Crona",
-  "SelectionId": 510,
+  "EntityName": "Kub Group",
+  "SelectionId": 286,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dicta",
+  "CurrencyCode": "eius",
   "Measure": "Average",
-  "MeasureField": "eligendi",
-  "SortBy": "quos",
-  "LayoutConfig": "autem",
-  "SecondarySelectionId": 930,
-  "MeasureByField": "minima",
+  "MeasureField": "dolorem",
+  "SortBy": "veniam",
+  "LayoutConfig": "quisquam",
+  "SecondarySelectionId": 222,
+  "MeasureByField": "ducimus",
   "Usage": "Dashboard",
-  "ProviderName": "Rutherford, Kirlin and Wisoky",
+  "ProviderName": "Considine Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 150
     }
   }
 }

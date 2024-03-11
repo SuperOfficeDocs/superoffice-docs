@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sint",
-  "TechExplanation": "occaecati",
-  "ErrorCode": "architecto",
+  "UserExplanation": "ea",
+  "TechExplanation": "delectus",
+  "ErrorCode": "recusandae",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

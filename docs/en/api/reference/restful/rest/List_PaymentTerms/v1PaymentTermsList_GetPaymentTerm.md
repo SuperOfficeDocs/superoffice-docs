@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Leannon, Pfannerstill and Thompson",
-  "Tooltip": "est",
+  "Id": 117,
+  "Name": "Ritchie-Sipes",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 201,
-  "Rank": 181,
+  "UdListDefinitionId": 495,
+  "Rank": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

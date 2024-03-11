@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Blanda-Hand"
+  "ApplicationName": "Franecki, Lebsack and Herzog"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 671,
-  "Name": "Anderson, Kuvalis and Becker",
-  "CreatedDate": "2013-01-23T10:30:23.9230375+01:00",
-  "UpdatedDate": "2003-02-02T10:30:23.9230375+01:00",
-  "AssociateFullName": "Ricardo Hettinger",
-  "CreatedBy": "excepturi",
-  "UpdatedBy": "incidunt",
-  "DeviceIdentifier": "dolores",
-  "ForeignAppId": 10,
+  "ForeignDeviceId": 845,
+  "Name": "King, Rowe and Zboncak",
+  "CreatedDate": "2020-05-17T14:23:46.7681044+02:00",
+  "UpdatedDate": "2000-11-06T14:23:46.7681044+01:00",
+  "AssociateFullName": "Victoria Klein",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "corrupti",
+  "ForeignAppId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 786
     }
   }
 }

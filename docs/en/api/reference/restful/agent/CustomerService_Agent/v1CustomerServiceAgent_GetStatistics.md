@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "non",
-    "facere"
+    "voluptatem",
+    "sapiente"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "cumque",
+    "Label": "quia",
     "Values": [
       {
-        "Label": "non",
-        "Value": 15212.436,
-        "Description": "Cross-platform object-oriented application",
+        "Label": "sit",
+        "Value": 30597.242,
+        "Description": "Grass-roots multimedia groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       },
       {
-        "Label": "non",
-        "Value": 15212.436,
-        "Description": "Cross-platform object-oriented application",
+        "Label": "sit",
+        "Value": 30597.242,
+        "Description": "Grass-roots multimedia groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "Description": "Optimized bottom-line local area network",
+    "Description": "Cross-group motivating groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 413
       }
     }
   },
   {
-    "Label": "cumque",
+    "Label": "quia",
     "Values": [
       {
-        "Label": "non",
-        "Value": 15212.436,
-        "Description": "Cross-platform object-oriented application",
+        "Label": "sit",
+        "Value": 30597.242,
+        "Description": "Grass-roots multimedia groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       },
       {
-        "Label": "non",
-        "Value": 15212.436,
-        "Description": "Cross-platform object-oriented application",
+        "Label": "sit",
+        "Value": 30597.242,
+        "Description": "Grass-roots multimedia groupware",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "Description": "Optimized bottom-line local area network",
+    "Description": "Cross-group motivating groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 413
       }
     }
   }

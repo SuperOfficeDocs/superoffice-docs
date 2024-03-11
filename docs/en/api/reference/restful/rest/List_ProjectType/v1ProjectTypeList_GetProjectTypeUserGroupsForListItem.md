@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Rippin-Nicolas",
-    "ToolTip": "Quos error autem.",
+    "Id": 757,
+    "Name": "Hirthe-Koss",
+    "ToolTip": "Pariatur molestiae voluptatem aut et nemo fugit dolorem.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "nobis",
-    "ColorBlock": 592,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2014-05-21T10:30:33.1474583+02:00",
+    "Rank": 452,
+    "Type": "ut",
+    "ColorBlock": 885,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2010-05-09T14:23:56.2439493+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Lakin, Homenick and Murphy",
-        "ToolTip": "Fugiat omnis.",
+        "Id": 819,
+        "Name": "Kuvalis LLC",
+        "ToolTip": "Illo maxime esse autem rerum placeat tempore accusantium.",
         "Deleted": true,
-        "Rank": 963,
-        "Type": "alias",
-        "ColorBlock": 789,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2018-10-23T10:30:33.1474583+02:00",
+        "Rank": 670,
+        "Type": "id",
+        "ColorBlock": 299,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2005-10-02T14:23:56.2439493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Alec Betty Braun Jr.",
+        "ExtraInfo": "saepe",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Bridie Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 949
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Eryn Prosacco IV",
+    "ExtraInfo": "hic",
+    "StyleHint": "voluptatum",
+    "Hidden": true,
+    "FullName": "Zetta Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

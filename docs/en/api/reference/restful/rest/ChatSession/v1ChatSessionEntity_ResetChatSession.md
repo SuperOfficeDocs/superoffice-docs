@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 659,
-  "TopicId": 592,
+  "ChatSessionId": 566,
+  "TopicId": 580,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iure",
-  "CustomerHost": "eius",
-  "CustomerName": "Ondricka Group",
-  "CustomerEmail": "hattie@schulist.us",
-  "CustomerPhone": "1-970-217-2630 x5027",
+  "CustomerAlias": "vitae",
+  "CustomerHost": "quas",
+  "CustomerName": "Casper, Beatty and Jaskolski",
+  "CustomerEmail": "kameron.hilpert@strosin.info",
+  "CustomerPhone": "(532)120-4479 x97676",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Lebsack Inc and Sons",
+  "CustomerCompanyName": "Rice LLC",
   "Status": "Closed",
-  "FirstMessage": "velit",
-  "LastMessage": "modi",
-  "WhenRequested": "2003-06-20T10:30:31.8073876+02:00",
-  "WhenStarted": "2018-04-15T10:30:31.8073876+02:00",
-  "WhenEnded": "2014-01-01T10:30:31.8073876+01:00",
-  "WhenIdle": "1999-04-27T10:30:31.8073876+02:00",
-  "WhenFetched": "1998-02-23T10:30:31.8073876+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 583,
-  "AlertLevel": 776,
-  "Rank": 461,
+  "FirstMessage": "odio",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2017-06-22T14:23:54.8815159+02:00",
+  "WhenStarted": "2001-01-24T14:23:54.8815159+01:00",
+  "WhenEnded": "2007-10-22T14:23:54.8815159+02:00",
+  "WhenIdle": "2015-01-14T14:23:54.8815159+01:00",
+  "WhenFetched": "2004-10-10T14:23:54.8815159+02:00",
+  "SessionKey": "quaerat",
+  "InitialQueuePos": 774,
+  "AlertLevel": 688,
+  "Rank": 434,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 621,
+  "Rating": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 658
     }
   }
 }

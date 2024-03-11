@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 359,
-  "Count": 641
+  "AmountLimit": 711,
+  "Count": 304
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ruecker LLC",
-    "SaleDate": "2004-06-28T10:30:24.5283735+02:00",
-    "SaleId": 68,
-    "Probability": 730,
-    "Title": "et",
-    "Amount": 23445.453999999998,
-    "Currency": "earum",
-    "ProjectName": "Dooley, Gottlieb and Hauck",
-    "AssociateFullName": "Abdullah Jaskolski",
-    "Description": "Ergonomic encompassing monitoring",
+    "ContactName": "Block Group",
+    "SaleDate": "2022-01-09T14:23:47.3630051+01:00",
+    "SaleId": 972,
+    "Probability": 804,
+    "Title": "accusamus",
+    "Amount": 6872.862,
+    "Currency": "aut",
+    "ProjectName": "Kuhic-Grady",
+    "AssociateFullName": "Alaina Vandervort",
+    "Description": "Centralized solution-oriented process improvement",
     "Status": "Lost",
-    "WeightedAmount": 8803.405999999999,
-    "ProjectId": 968,
-    "EarningPercent": 272.658,
-    "Earning": 17964.088,
-    "ContactId": 880,
-    "AssociateId": 514,
-    "PersonId": 519,
-    "SaleTypeId": 217,
-    "SaleTypeName": "Boyle LLC",
-    "PersonFullName": "Mr. Georgette Manley Dach I",
+    "WeightedAmount": 19800.612,
+    "ProjectId": 762,
+    "EarningPercent": 6985.686,
+    "Earning": 19139.338,
+    "ContactId": 124,
+    "AssociateId": 75,
+    "PersonId": 247,
+    "SaleTypeId": 302,
+    "SaleTypeName": "Bergstrom-Hickle",
+    "PersonFullName": "Florida Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 93,
-    "NextDueDate": "1997-04-16T10:30:24.5283735+02:00",
-    "Number": "846644",
+    "ActiveErpLinks": 154,
+    "NextDueDate": "2000-05-01T14:23:47.3630051+02:00",
+    "Number": "698241",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

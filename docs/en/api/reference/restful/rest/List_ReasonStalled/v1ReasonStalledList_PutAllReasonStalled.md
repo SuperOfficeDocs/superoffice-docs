@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "D'Amore Group",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "UdListDefinitionId": 277,
-    "Rank": 913
+    "Id": 592,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 651,
+    "Rank": 200
   },
   {
-    "Id": 206,
-    "Name": "D'Amore Group",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "UdListDefinitionId": 277,
-    "Rank": 913
+    "Id": 592,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 651,
+    "Rank": 200
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Hessel, Hills and Schowalter",
-    "Tooltip": "et",
+    "Id": 430,
+    "Name": "Konopelski-Mohr",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "UdListDefinitionId": 659,
-    "Rank": 807,
+    "UdListDefinitionId": 838,
+    "Rank": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 322,
-  "Name": "Koch-Powlowski",
-  "ConsentText": "reiciendis",
-  "FormText": "magnam",
-  "Key": "voluptas",
-  "Tooltip": "ut",
-  "Active": 466,
-  "UpdatedDate": "2001-03-05T10:30:24.1037706+01:00",
+  "ConsentPurposeId": 799,
+  "Name": "Brakus LLC",
+  "ConsentText": "autem",
+  "FormText": "labore",
+  "Key": "amet",
+  "Tooltip": "voluptatem",
+  "Active": 820,
+  "UpdatedDate": "2023-08-17T14:23:46.9098888+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 295,
-  "PrivacyStatementDesc": "odit",
+  "Rank": 133,
+  "PrivacyStatementDesc": "natus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   }
 }

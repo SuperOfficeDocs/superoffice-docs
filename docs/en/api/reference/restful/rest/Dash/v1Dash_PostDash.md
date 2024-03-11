@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 156,
-  "UniqueId": "neque",
-  "Name": "Bartoletti-Denesik",
-  "Description": "Pre-emptive disintermediate pricing structure",
-  "AssociateId": 431,
-  "Columns": 59,
+  "DashboardId": 614,
+  "UniqueId": "accusantium",
+  "Name": "Kreiger-Predovic",
+  "Description": "Distributed neutral structure",
+  "AssociateId": 684,
+  "Columns": 326,
   "Theme": null,
-  "VisibleForAll": 812,
+  "VisibleForAll": 683,
   "VisibleForAssociates": [
-    416,
-    452
+    602,
+    117
   ],
   "VisibleForGroups": [
-    386,
-    657
+    924,
+    220
   ],
-  "PinForAll": 608,
+  "PinForAll": 318,
   "PinForAssociates": [
-    902,
-    765
+    411,
+    924
   ],
   "PinForGroups": [
-    817,
-    539
+    6,
+    388
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 649,
-  "UniqueId": "eos",
-  "Name": "Schmitt, Grant and Daniel",
-  "Description": "Multi-channelled systematic Graphical User Interface",
-  "AssociateId": 394,
-  "Columns": 485,
+  "DashboardId": 244,
+  "UniqueId": "qui",
+  "Name": "Runolfsdottir-Gulgowski",
+  "Description": "Team-oriented uniform solution",
+  "AssociateId": 497,
+  "Columns": 845,
   "Theme": null,
-  "VisibleForAll": 642,
+  "VisibleForAll": 266,
   "VisibleForAssociates": [
-    811,
-    32
+    874,
+    34
   ],
   "VisibleForGroups": [
-    245,
-    862
+    431,
+    330
   ],
-  "PinForAll": 504,
+  "PinForAll": 976,
   "PinForAssociates": [
-    791,
-    215
+    204,
+    772
   ],
   "PinForGroups": [
-    285,
-    312
+    697,
+    74
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 572
     }
   },
   "_Links": {

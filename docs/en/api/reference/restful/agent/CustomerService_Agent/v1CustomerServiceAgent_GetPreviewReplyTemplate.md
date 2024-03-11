@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 160
+  "ReplyTemplateId": 837
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer Group",
-  "Description": "Enterprise-wide directional data-warehouse",
-  "OwnedByFullName": "Miss Jacklyn Krajcik",
-  "Updated": "2018-05-01T10:30:23.4206552+02:00",
-  "Body": "incidunt",
+  "Name": "Kuhn Group",
+  "Description": "Advanced non-volatile parallelism",
+  "OwnedByFullName": "Rosanna Vada Mayert V",
+  "Updated": "2014-09-13T14:23:46.2355814+02:00",
+  "Body": "dolorem",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 479
     }
   }
 }

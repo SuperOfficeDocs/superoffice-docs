@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 266
+  "ContactId": 632
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Smitham, Brown and Schaefer",
-    "SaleDate": "2020-07-31T10:30:24.5439994+02:00",
-    "SaleId": 997,
-    "Probability": 299,
-    "Title": "officiis",
-    "Amount": 29117.994,
-    "Currency": "vel",
-    "ProjectName": "Waelchi LLC",
-    "AssociateFullName": "Mr. Georgianna Hector Denesik I",
-    "Description": "Switchable logistical infrastructure",
+    "ContactName": "Wunsch Group",
+    "SaleDate": "2018-01-07T14:23:47.3630051+01:00",
+    "SaleId": 237,
+    "Probability": 82,
+    "Title": "maxime",
+    "Amount": 31108.084,
+    "Currency": "et",
+    "ProjectName": "Simonis LLC",
+    "AssociateFullName": "Ms. Curt Kozey I",
+    "Description": "Re-contextualized dedicated protocol",
     "Status": "Lost",
-    "WeightedAmount": 20402.34,
-    "ProjectId": 746,
-    "EarningPercent": 16409.624,
-    "Earning": 23561.412,
+    "WeightedAmount": 20844.234,
+    "ProjectId": 104,
+    "EarningPercent": 5985.94,
+    "Earning": 2892.682,
     "ContactId": 954,
-    "AssociateId": 932,
-    "PersonId": 965,
-    "SaleTypeId": 544,
-    "SaleTypeName": "Homenick, Willms and Kerluke",
-    "PersonFullName": "Soledad Fisher",
+    "AssociateId": 305,
+    "PersonId": 399,
+    "SaleTypeId": 884,
+    "SaleTypeName": "Heller-Kutch",
+    "PersonFullName": "Miss Deborah Terence Lind V",
     "Completed": "Completed",
-    "ActiveErpLinks": 253,
-    "NextDueDate": "2016-05-04T10:30:24.5439994+02:00",
-    "Number": "968593",
+    "ActiveErpLinks": 965,
+    "NextDueDate": "2017-07-15T14:23:47.3630051+02:00",
+    "Number": "1591952",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 870
       }
     }
   }

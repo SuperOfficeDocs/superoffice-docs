@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 887,
-  "Section": "qui",
-  "Key": "odio",
-  "Name": "Glover Inc and Sons",
+  "PrefDescId": 257,
+  "Section": "quaerat",
+  "Key": "voluptas",
+  "Name": "Cruickshank Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Devolved contextually-based methodology",
-  "IsBuiltin": false,
-  "TableName": "Mraz LLC",
-  "UserDefinedListId": 472,
-  "Rank": 372,
-  "SubGroup": "consequatur",
-  "MinLevel": 746,
-  "MaxValue": 53,
-  "MinValue": 824,
-  "RequiredLicense": "est"
+  "Description": "Front-line responsive pricing structure",
+  "IsBuiltin": true,
+  "TableName": "Upton, Swaniawski and Rogahn",
+  "UserDefinedListId": 940,
+  "Rank": 49,
+  "SubGroup": "vitae",
+  "MinLevel": 573,
+  "MaxValue": 938,
+  "MinValue": 670,
+  "RequiredLicense": "odit"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 694,
-  "Section": "corrupti",
-  "Key": "et",
-  "Name": "Mraz Inc and Sons",
+  "PrefDescId": 7,
+  "Section": "facilis",
+  "Key": "rerum",
+  "Name": "Smitham, Witting and Stamm",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased 6th generation intranet",
+  "Description": "Versatile dynamic strategy",
   "IsBuiltin": false,
-  "TableName": "Casper Inc and Sons",
-  "UserDefinedListId": 199,
-  "Rank": 56,
-  "SubGroup": "facilis",
-  "MinLevel": 509,
-  "MaxValue": 691,
-  "MinValue": 694,
-  "RequiredLicense": "ut",
+  "TableName": "Reichert, Schimmel and Crona",
+  "UserDefinedListId": 90,
+  "Rank": 485,
+  "SubGroup": "quae",
+  "MinLevel": 27,
+  "MaxValue": 903,
+  "MinValue": 11,
+  "RequiredLicense": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 952
     }
   },
   "_Links": {

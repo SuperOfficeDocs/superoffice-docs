@@ -307,6 +307,7 @@ the email_id.
 |contactAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |contactAssociate/userName| *None* |User name: User name|  |
 |contactAssociate/personEmail| *None* |E-mail|  |
+|contactAssociate/locationAddress| *None* |Location: Location|  |
 |contactSupportAssociate/firstName| *None* |Our service contact - First name: Displays the contact's first name|  |
 |contactSupportAssociate/lastName| *None* |Our service contact - Last name: Displays the contact's last name|  |
 |contactSupportAssociate/middleName| *None* |Our service contact - Middle Name: Displays the contact's middle name.|  |
@@ -337,12 +338,13 @@ the email_id.
 |contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
 |contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
-|contactSupportPerson/personId| *None* |User support contact - DB ID: Displays the database ID of a contact|  |
-|contactSupportPerson/firstName| *None* |User support contact - First name: Displays the contact's first name|  |
+|contactSupportAssociate/locationAddress| *None* |Our service contact - Location: Location|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personId| *None* |User support contact - DB ID: Displays the database ID of a contact|  |
+|contactSupportPerson/firstName| *None* |User support contact - First name: Displays the contact's first name|  |
 |contactSupportPerson/lastName| *None* |User support contact - Last name: Displays the contact's last name|  |
 |contactSupportPerson/middleName| *None* |User support contact - Middle name: Displays the contact's middle name.|  |
 |contactSupportPerson/fullName| *None* |User support contact - Contact: Displays the contact to which an item is linked|  |
@@ -441,12 +443,12 @@ the email_id.
 |contactUdef/SuperOffice:3| *None* |companynumber|  |
 |contactUdef/SuperOffice:4| *None* |companydate|  |
 |contactUdef/SuperOffice:5| *None* |companyunlimiteddate: tooltipunlimiteddate|  |
-|contactUdef/SuperOffice:6| *None* |companycheckbox|  |
-|contactUdef/SuperOffice:7| *None* |companydropdownlistbox|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactUdef/SuperOffice:6| *None* |companycheckbox|  |
+|contactUdef/SuperOffice:7| *None* |companydropdownlistbox|  |
 |contactUdef/SuperOffice:8| *None* |companydecimal|  |
 |contactUdef/SuperOffice:9| *None* |page1saleonly|  |
 |contactUdef/SuperOffice:10| *None* |page1marketingonly|  |
@@ -505,7 +507,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=streetAddress/zip,contactSupportAssociate/middleName,LastActivity
+GET /api/v1/archive/EmailAddress?$select=personContact/hasInfoText,streetAddress/wgs84latitude,contactSupportPerson/personNoMail,contactExtra/x_contact_contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

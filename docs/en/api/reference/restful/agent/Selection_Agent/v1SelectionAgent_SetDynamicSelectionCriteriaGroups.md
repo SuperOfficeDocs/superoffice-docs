@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 903,
+  "SelectionId": 890,
   "Criteria": [
     {
-      "Name": "Dicki-Wuckert",
-      "Description": "Horizontal zero tolerance internet solution",
-      "Rank": 144,
+      "Name": "Ziemann, Veum and Altenwerth",
+      "Description": "Organic upward-trending benchmark",
+      "Rank": 907,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dicki-Wuckert",
-      "Description": "Horizontal zero tolerance internet solution",
-      "Rank": 144,
+      "Name": "Ziemann, Veum and Altenwerth",
+      "Description": "Organic upward-trending benchmark",
+      "Rank": 907,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum-Oberbrunner",
-    "Description": "Business-focused systemic leverage",
-    "Rank": 298,
+    "Name": "Greenfelder-Heaney",
+    "Description": "Fundamental discrete attitude",
+    "Rank": 174,
     "Restrictions": [
       {
-        "Name": "Schmitt, Ebert and Metz",
-        "Operator": "qui",
+        "Name": "Larson-Schaden",
+        "Operator": "voluptatem",
         "Values": [
-          "quidem",
-          "officia"
+          "iste",
+          "maiores"
         ],
         "DisplayValues": [
-          "labore",
-          "aut"
+          "quia",
+          "debitis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 2,
+        "InterParenthesis": 283,
         "InterOperator": "And",
-        "UniqueHash": 70
+        "UniqueHash": 382
       }
     ]
   },
   {
-    "Name": "Veum-Oberbrunner",
-    "Description": "Business-focused systemic leverage",
-    "Rank": 298,
+    "Name": "Greenfelder-Heaney",
+    "Description": "Fundamental discrete attitude",
+    "Rank": 174,
     "Restrictions": [
       {
-        "Name": "Schmitt, Ebert and Metz",
-        "Operator": "qui",
+        "Name": "Larson-Schaden",
+        "Operator": "voluptatem",
         "Values": [
-          "quidem",
-          "officia"
+          "iste",
+          "maiores"
         ],
         "DisplayValues": [
-          "labore",
-          "aut"
+          "quia",
+          "debitis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 2,
+        "InterParenthesis": 283,
         "InterOperator": "And",
-        "UniqueHash": 70
+        "UniqueHash": 382
       }
     ]
   }

@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 369
+  "QuoteConnectionId": 11
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 474,
-  "ERPName": "Green LLC",
-  "DisplayName": "Weber-Reynolds",
-  "DisplayDescription": "Distributed encompassing application",
-  "Rank": 981,
-  "ConnectorName": "Sipes-Vandervort",
-  "ErpConnectionId": 536,
-  "ExtraData": "labore",
+  "QuoteConnectionId": 657,
+  "ERPName": "Ankunding Group",
+  "DisplayName": "Bartell, Robel and Medhurst",
+  "DisplayDescription": "Secured full-range hub",
+  "Rank": 115,
+  "ConnectorName": "Muller, Friesen and Casper",
+  "ErpConnectionId": 33,
+  "ExtraData": "aliquam",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 511,
-      "ERPPriceListKey": "consequatur",
-      "QuoteConnectionId": 729,
-      "Name": "Wunsch Group",
-      "Description": "Ergonomic needs-based array",
-      "Currency": "cumque",
-      "CurrencyName": "Stoltenberg Group",
-      "ValidFrom": "1999-08-01T10:30:24.4190067+02:00",
-      "ValidTo": "2013-12-25T10:30:24.4190067+01:00",
-      "IsActive": true,
+      "PriceListId": 222,
+      "ERPPriceListKey": "quia",
+      "QuoteConnectionId": 168,
+      "Name": "Huel Group",
+      "Description": "Digitized directional function",
+      "Currency": "et",
+      "CurrencyName": "O'Kon-Blanda",
+      "ValidFrom": "2021-03-07T14:23:47.2380075+01:00",
+      "ValidTo": "2006-04-03T14:23:47.2380075+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 745
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    365,
-    833
+    208,
+    898
   ],
   "AssociateAccessIds": [
-    296,
-    438
+    202,
+    160
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 987
     }
   }
 }

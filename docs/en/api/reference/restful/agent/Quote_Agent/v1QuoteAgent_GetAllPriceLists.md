@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 740,
-  "Currency": "dolor"
+  "QuoteConnectionId": 780,
+  "Currency": "autem"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 751,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 37,
-    "Name": "Rohan Inc and Sons",
-    "Description": "Configurable solution-oriented migration",
-    "Currency": "ut",
-    "CurrencyName": "Eichmann-O'Connell",
-    "ValidFrom": "2021-10-05T10:30:24.4346264+02:00",
-    "ValidTo": "1998-09-08T10:30:24.4346264+02:00",
-    "IsActive": true,
+    "PriceListId": 79,
+    "ERPPriceListKey": "necessitatibus",
+    "QuoteConnectionId": 434,
+    "Name": "Shields Inc and Sons",
+    "Description": "Self-enabling high-level framework",
+    "Currency": "quia",
+    "CurrencyName": "Ruecker-Hackett",
+    "ValidFrom": "2018-05-20T14:23:47.2536317+02:00",
+    "ValidTo": "2015-10-17T14:23:47.2536317+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   }

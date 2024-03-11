@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 230,
-      "ContactName": "Hane-Hammes",
-      "PersonId": 429,
-      "PersonName": "Jakubowski LLC",
-      "AssociateId": 235,
-      "Address": "ipsa",
-      "EmailId": 903,
+      "ContactId": 140,
+      "ContactName": "Deckow-Wolf",
+      "PersonId": 241,
+      "PersonName": "Schulist-Tromp",
+      "AssociateId": 546,
+      "Address": "est",
+      "EmailId": 300,
       "DuplicatePersonIds": [
-        195,
-        956
+        167,
+        606
       ],
-      "Name": "Bernier, Mosciski and Miller",
+      "Name": "Kovacek, Reichel and Lebsack",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 240
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 573,
-      "ContactName": "Stroman, Maggio and Rippin",
-      "PersonId": 8,
-      "PersonName": "Schoen, Kris and McDermott",
-      "AssociateId": 877,
-      "Address": "sed",
-      "EmailId": 644,
+      "ContactId": 410,
+      "ContactName": "Wilkinson-Hilpert",
+      "PersonId": 730,
+      "PersonName": "Metz LLC",
+      "AssociateId": 572,
+      "Address": "quia",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        879,
-        114
+        806,
+        116
       ],
-      "Name": "Luettgen Inc and Sons",
+      "Name": "Bashirian, Emard and Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 936,
-      "ContactName": "Crist-Swift",
-      "PersonId": 966,
-      "PersonName": "Osinski-Franecki",
-      "AssociateId": 536,
-      "Address": "impedit",
-      "EmailId": 966,
+      "ContactId": 327,
+      "ContactName": "Wehner Group",
+      "PersonId": 414,
+      "PersonName": "Corwin, Boyer and Carter",
+      "AssociateId": 728,
+      "Address": "molestiae",
+      "EmailId": 17,
       "DuplicatePersonIds": [
-        167,
-        702
+        44,
+        464
       ],
-      "Name": "Feil LLC",
+      "Name": "Streich, Lubowitz and O'Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 955
         }
       }
     }
   ],
-  "Subject": "nemo",
-  "HTMLBody": "expedita",
+  "Subject": "quam",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2006-11-05T10:30:23.7355582+01:00",
-  "Size": 653,
+  "Sent": "1999-10-31T14:23:46.4387031+01:00",
+  "Size": 451,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rem",
-  "PlainBody": "modi",
+  "MessageID": "consectetur",
+  "PlainBody": "corrupti",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 9,
+  "ServerId": 665,
   "Attachments": [
     {
-      "Description": "Focused tertiary firmware",
-      "Filename": "itaque",
-      "Size": 731,
-      "Type": "doloribus",
-      "Encoding": "voluptatum",
-      "Id": "impedit",
-      "Disposition": "ut",
-      "IsSafeFileExtension": false,
+      "Description": "Versatile zero defect productivity",
+      "Filename": "aut",
+      "Size": 690,
+      "Type": "ipsa",
+      "Encoding": "enim",
+      "Id": "repellat",
+      "Disposition": "aut",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 798
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Romaguera, Conroy and Turcotte",
+      "Name": "Kub-Dibbert",
       "Values": [
-        "quo",
-        "dolore"
+        "aspernatur",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     },
     {
-      "Name": "Romaguera, Conroy and Turcotte",
+      "Name": "Kub-Dibbert",
       "Values": [
-        "quo",
-        "dolore"
+        "aspernatur",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "FolderName": "Kling-Shields",
-  "EmailItemId": 968,
-  "AccountId": 904,
-  "ReceivedAt": "2016-10-25T10:30:23.7355582+02:00",
+  "FolderName": "Cummerata Inc and Sons",
+  "EmailItemId": 926,
+  "AccountId": 192,
+  "ReceivedAt": "2022-07-20T14:23:46.4387031+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-02-27T10:30:23.7355582+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2001-09-19T14:23:46.4387031+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 405
     }
   }
 }

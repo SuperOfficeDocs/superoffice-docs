@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Ondricka, Brakus and Bartoletti",
-    "ToolTip": "Quia ad incidunt.",
-    "Deleted": true,
-    "Rank": 232,
-    "Type": "aut",
-    "ColorBlock": 818,
-    "IconHint": "expedita",
+    "Id": 298,
+    "Name": "Kiehn, Hagenes and Lowe",
+    "ToolTip": "Voluptates quidem culpa qui.",
+    "Deleted": false,
+    "Rank": 770,
+    "Type": "eius",
+    "ColorBlock": 519,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1997-04-20T10:30:32.9274257+02:00",
+    "LastChanged": "1998-02-23T14:23:56.0408276+01:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Purdy-Lueilwitz",
-        "ToolTip": "Consequatur nemo.",
+        "Id": 346,
+        "Name": "McDermott-Sipes",
+        "ToolTip": "Vel quia iusto veritatis id et ut eum.",
         "Deleted": false,
-        "Rank": 707,
-        "Type": "qui",
-        "ColorBlock": 647,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2023-06-22T10:30:32.9274257+02:00",
+        "Rank": 334,
+        "Type": "deleniti",
+        "ColorBlock": 675,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2022-08-06T14:23:56.0408276+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Heidi Upton"
+        "ExtraInfo": "totam",
+        "StyleHint": "consectetur",
+        "Hidden": false,
+        "FullName": "General Bauch"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "debitis",
-    "Hidden": true,
-    "FullName": "Erwin Adams"
+    "ExtraInfo": "neque",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Gennaro Remington Ortiz II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Mraz Group",
-    "ToolTip": "Commodi odio.",
-    "Deleted": false,
-    "Rank": 327,
-    "Type": "dignissimos",
-    "ColorBlock": 398,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2003-08-13T10:30:32.9274257+02:00",
+    "Id": 463,
+    "Name": "Walter, Muller and Sipes",
+    "ToolTip": "Suscipit suscipit qui sed deleniti est et ducimus.",
+    "Deleted": true,
+    "Rank": 900,
+    "Type": "voluptatem",
+    "ColorBlock": 711,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2002-05-25T14:23:56.0408276+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Durgan, Roob and Wolff",
-        "ToolTip": "Dolore pariatur nobis consectetur magnam.",
+        "Id": 300,
+        "Name": "Stracke Group",
+        "ToolTip": "Id a autem explicabo nihil sit voluptates.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "tempora",
-        "ColorBlock": 875,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2018-03-17T10:30:32.9274257+01:00",
+        "Rank": 593,
+        "Type": "temporibus",
+        "ColorBlock": 940,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2018-05-14T14:23:56.0408276+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "odio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Carmella Lubowitz I",
+        "FullName": "Miss Xavier Misty Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldType": "System.String",
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "consectetur",
-    "Hidden": true,
-    "FullName": "Mr. Russel Ward",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Mrs. Melisa Mohamed Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 938
       }
     }
   }

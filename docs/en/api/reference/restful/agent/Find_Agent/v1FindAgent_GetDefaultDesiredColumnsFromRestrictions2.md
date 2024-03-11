@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Maggio, Herzog and Davis",
-  "Restrictions": "nisi"
+  "ProviderName": "Parisian LLC",
+  "Restrictions": "dicta"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schmitt-Leuschke",
-    "DisplayTooltip": "libero",
-    "DisplayType": "doloribus",
+    "DisplayName": "McLaughlin Inc and Sons",
+    "DisplayTooltip": "et",
+    "DisplayType": "neque",
     "CanOrderBy": false,
-    "Name": "Von Inc and Sons",
+    "Name": "Mohr-Kovacek",
     "CanRestrictBy": false,
-    "RestrictionType": "veniam",
-    "RestrictionListName": "Orn LLC",
-    "IsVisible": true,
-    "ExtraInfo": "atque",
-    "Width": "laborum",
+    "RestrictionType": "dolor",
+    "RestrictionListName": "Cassin, Dickinson and Rempel",
+    "IsVisible": false,
+    "ExtraInfo": "id",
+    "Width": "sit",
     "IconHint": "dolor",
-    "HeadingIconHint": "numquam"
+    "HeadingIconHint": "est"
   }
 ]
 ```

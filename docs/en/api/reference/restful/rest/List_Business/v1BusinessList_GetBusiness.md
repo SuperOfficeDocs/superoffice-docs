@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Erdman, Fritsch and Greenfelder",
-  "Tooltip": "eveniet",
+  "Id": 467,
+  "Name": "Pfannerstill, Kozey and Gaylord",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "UdListDefinitionId": 301,
-  "Rank": 635,
+  "UdListDefinitionId": 995,
+  "Rank": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 690
     }
   }
 }

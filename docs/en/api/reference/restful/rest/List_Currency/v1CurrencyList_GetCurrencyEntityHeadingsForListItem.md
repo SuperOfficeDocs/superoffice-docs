@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Rempel LLC",
-    "ToolTip": "Eos omnis labore cupiditate temporibus esse.",
+    "Id": 146,
+    "Name": "Rowe, Zboncak and Schimmel",
+    "ToolTip": "Ducimus reprehenderit quia.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "aut",
-    "ColorBlock": 935,
-    "IconHint": "ab",
+    "Rank": 381,
+    "Type": "eos",
+    "ColorBlock": 59,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2004-01-04T10:30:32.9587082+01:00",
+    "LastChanged": "2004-05-13T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "DuBuque-Keeling",
-        "ToolTip": "Deserunt aut rerum necessitatibus harum.",
+        "Id": 249,
+        "Name": "Monahan-Cummings",
+        "ToolTip": "Distinctio fugit consectetur.",
         "Deleted": false,
-        "Rank": 573,
-        "Type": "aut",
-        "ColorBlock": 291,
-        "IconHint": "expedita",
+        "Rank": 620,
+        "Type": "at",
+        "ColorBlock": 226,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2014-06-21T10:30:32.9587082+02:00",
+        "LastChanged": "2013-12-05T14:23:56.0720758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Mozell Orn",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Dr. Charles Pfannerstill V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 610
+            "FieldLength": 82
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "quas",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Lolita Lemke I",
+    "FullName": "Mitchel Jayde Baumbach DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

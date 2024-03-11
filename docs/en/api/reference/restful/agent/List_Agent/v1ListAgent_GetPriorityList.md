@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Value": "ut",
-    "Tooltip": "omnis",
+    "Id": 146,
+    "Value": "sint",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   },
   {
-    "Id": 259,
-    "Value": "ut",
-    "Tooltip": "omnis",
+    "Id": 146,
+    "Value": "sint",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 651,
-  "UniqueId": "itaque",
-  "Name": "Bins, McGlynn and Heathcote",
-  "Description": "Universal intermediate application",
-  "AssociateId": 79,
-  "Columns": 703,
+  "DashboardId": 868,
+  "UniqueId": "aut",
+  "Name": "Barton, Koelpin and Cruickshank",
+  "Description": "Robust bi-directional help-desk",
+  "AssociateId": 1001,
+  "Columns": 411,
   "Theme": null,
-  "VisibleForAll": 871,
+  "VisibleForAll": 302,
   "VisibleForAssociates": [
-    490,
-    84
+    896,
+    811
   ],
   "VisibleForGroups": [
-    667,
-    748
+    352,
+    242
   ],
-  "PinForAll": 347,
+  "PinForAll": 670,
   "PinForAssociates": [
-    466,
-    932
+    441,
+    224
   ],
   "PinForGroups": [
-    207,
-    851
+    730,
+    708
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 554
     }
   },
   "_Links": {

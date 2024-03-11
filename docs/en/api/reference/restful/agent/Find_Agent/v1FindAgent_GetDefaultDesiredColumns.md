@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Dicki Group",
-  "StorageKey": "rerum"
+  "StorageType": "veritatis",
+  "ProviderName": "Schroeder-Gaylord",
+  "StorageKey": "occaecati"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Harber-Block",
-    "DisplayTooltip": "eos",
-    "DisplayType": "tenetur",
-    "CanOrderBy": true,
-    "Name": "Herman LLC",
-    "CanRestrictBy": true,
+    "DisplayName": "Cummings, Weimann and Greenfelder",
+    "DisplayTooltip": "tenetur",
+    "DisplayType": "eveniet",
+    "CanOrderBy": false,
+    "Name": "Trantow-Rodriguez",
+    "CanRestrictBy": false,
     "RestrictionType": "aut",
-    "RestrictionListName": "Shields Inc and Sons",
-    "IsVisible": true,
-    "ExtraInfo": "dolorum",
-    "Width": "quis",
-    "IconHint": "odio",
-    "HeadingIconHint": "aut"
+    "RestrictionListName": "Champlin LLC",
+    "IsVisible": false,
+    "ExtraInfo": "quo",
+    "Width": "facere",
+    "IconHint": "sapiente",
+    "HeadingIconHint": "id"
   }
 ]
 ```

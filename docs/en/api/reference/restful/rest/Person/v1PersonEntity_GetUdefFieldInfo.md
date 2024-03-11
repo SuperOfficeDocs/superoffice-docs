@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 270,
-  "ColumnId": 473,
-  "FieldDefault": "sapiente",
-  "FieldHeight": 929,
-  "FieldLabel": "quaerat",
-  "FieldLeft": 166,
-  "FieldTop": 61,
+  "UDefFieldId": 499,
+  "ColumnId": 500,
+  "FieldDefault": "totam",
+  "FieldHeight": 370,
+  "FieldLabel": "temporibus",
+  "FieldLeft": 715,
+  "FieldTop": 711,
   "FieldType": "Checkbox",
-  "FieldWidth": 54,
-  "FormatMask": "facere",
+  "FieldWidth": 96,
+  "FormatMask": "fugit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 61,
-  "LabelLeft": 773,
-  "LabelTop": 288,
-  "LabelWidth": 426,
-  "LastVersionId": 772,
-  "ListTableId": 150,
-  "IsMandatory": false,
+  "LabelHeight": 675,
+  "LabelLeft": 572,
+  "LabelTop": 941,
+  "LabelWidth": 66,
+  "LastVersionId": 996,
+  "ListTableId": 315,
+  "IsMandatory": true,
   "Type": "Appointment",
   "Page1LineNo": 129,
-  "ProgId": "blanditiis",
+  "ProgId": "aspernatur",
   "IsReadOnly": false,
-  "ShortLabel": "voluptate",
-  "TabOrder": 209,
-  "TextLength": 47,
-  "Tooltip": "qui",
-  "UdefIdentity": 819,
-  "UDListDefinitionId": 693,
+  "ShortLabel": "aliquid",
+  "TabOrder": 423,
+  "TextLength": 684,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 514,
+  "UDListDefinitionId": 66,
   "Justification": "Center",
-  "Version": 342,
-  "TemplateVariableName": "Lind, Hansen and Donnelly",
-  "HasBeenPublished": false,
-  "MdoListName": "Kutch LLC",
+  "Version": 683,
+  "TemplateVariableName": "Klein-Considine",
+  "HasBeenPublished": true,
+  "MdoListName": "Wilkinson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 380
     }
   }
 }

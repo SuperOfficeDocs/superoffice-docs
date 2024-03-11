@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Mayer LLC",
-    "ToolTip": "Et quidem.",
+    "Id": 530,
+    "Name": "Wisoky-Champlin",
+    "ToolTip": "Iste voluptatem qui dolorum.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "praesentium",
-    "ColorBlock": 783,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2000-05-31T10:30:33.0524566+02:00",
+    "Rank": 698,
+    "Type": "quisquam",
+    "ColorBlock": 310,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2002-10-21T14:23:56.165827+02:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Mante, Goodwin and Hegmann",
-        "ToolTip": "Nam vero.",
+        "Id": 770,
+        "Name": "Wehner Group",
+        "ToolTip": "Aspernatur expedita tenetur sed quas dolores.",
         "Deleted": false,
-        "Rank": 815,
-        "Type": "harum",
-        "ColorBlock": 164,
-        "IconHint": "eum",
+        "Rank": 115,
+        "Type": "earum",
+        "ColorBlock": 347,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2002-06-04T10:30:33.0524566+02:00",
+        "LastChanged": "2003-12-07T14:23:56.165827+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Ahmad Funk"
+        "ExtraInfo": "quos",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Wallace Jacobi"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "est",
+    "ExtraInfo": "et",
+    "StyleHint": "quas",
     "Hidden": true,
-    "FullName": "Alden Dickinson"
+    "FullName": "Prof. Toney Toby Rippin II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Williamson-Gibson",
-    "ToolTip": "Animi consectetur et sed natus soluta.",
+    "Id": 297,
+    "Name": "Weber-Franecki",
+    "ToolTip": "Quo non cum.",
     "Deleted": false,
-    "Rank": 890,
-    "Type": "nam",
-    "ColorBlock": 661,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2001-01-29T10:30:33.0524566+01:00",
+    "Rank": 104,
+    "Type": "magnam",
+    "ColorBlock": 342,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2010-02-16T14:23:56.165827+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Lind, Bergnaum and Waters",
-        "ToolTip": "Voluptate nulla nostrum eos voluptatum.",
-        "Deleted": false,
-        "Rank": 675,
-        "Type": "a",
-        "ColorBlock": 970,
-        "IconHint": "at",
+        "Id": 161,
+        "Name": "Dicki-Gislason",
+        "ToolTip": "Doloremque odit maiores nihil aperiam.",
+        "Deleted": true,
+        "Rank": 324,
+        "Type": "est",
+        "ColorBlock": 88,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2010-01-20T10:30:33.0524566+01:00",
+        "LastChanged": "1998-07-05T14:23:56.165827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "quas",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Randal Beahan Jr.",
+        "FullName": "Prof. Alysson Cummings II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldType": "System.String",
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "est",
+    "ExtraInfo": "expedita",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Ms. Frankie Rozella Jones",
+    "FullName": "Sheila Angela Thiel DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldType": "System.String",
+        "FieldLength": 223
       }
     }
   }

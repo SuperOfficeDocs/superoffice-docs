@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Friesen-Maggio",
+  "Name": "Okuneva Inc and Sons",
   "AssociateIds": [
-    551,
-    69
+    633,
+    330
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Lynch, Kertzmann and Connelly",
-    "AssociateId": 121,
-    "DetailsTable": 626,
-    "DetailsRecord": 576,
-    "IsSystemTask": false,
+    "Id": 201,
+    "Name": "Herman Group",
+    "AssociateId": 340,
+    "DetailsTable": 151,
+    "DetailsRecord": 255,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "nam"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "totam"
     },
-    "LastStarted": "2010-08-18T10:30:23.0982933+02:00",
-    "Created": "2024-01-06T10:30:23.0982933+01:00",
-    "StartCount": 945,
-    "DatabaseSerialNumber": "654813",
-    "Context": "et",
-    "Result": "omnis",
+    "LastStarted": "2018-08-09T14:23:45.8762101+02:00",
+    "Created": "2015-09-28T14:23:45.8762101+02:00",
+    "StartCount": 903,
+    "DatabaseSerialNumber": "911004",
+    "Context": "quam",
+    "Result": "et",
     "State": "All",
-    "Description": "Expanded foreground projection",
-    "Response": "nulla",
-    "Request": "quia",
-    "ProgressDescription": "Total fresh-thinking attitude",
-    "ProgressPercent": 929,
-    "FileName": "Stracke, Yost and Leannon",
+    "Description": "Decentralized analyzing standardization",
+    "Response": "beatae",
+    "Request": "deleniti",
+    "ProgressDescription": "Expanded foreground moratorium",
+    "ProgressPercent": 158,
+    "FileName": "Gutkowski, Luettgen and Jacobs",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldLength": 42
       }
     }
   }

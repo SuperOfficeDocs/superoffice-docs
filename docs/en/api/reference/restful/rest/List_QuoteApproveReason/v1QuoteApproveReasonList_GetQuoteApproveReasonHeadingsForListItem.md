@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Deckow Inc and Sons",
-    "ToolTip": "Sed necessitatibus harum excepturi.",
+    "Id": 667,
+    "Name": "Bins-Willms",
+    "ToolTip": "Sint nisi rerum.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "dolor",
-    "ColorBlock": 501,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2009-04-30T10:30:33.1630832+02:00",
+    "Rank": 584,
+    "Type": "sit",
+    "ColorBlock": 671,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2019-04-30T14:23:56.2595732+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Boyer LLC",
-        "ToolTip": "Reprehenderit sint.",
+        "Id": 478,
+        "Name": "Weber-Sawayn",
+        "ToolTip": "Et ullam repellendus molestiae quasi eum molestiae.",
         "Deleted": false,
-        "Rank": 595,
-        "Type": "animi",
-        "ColorBlock": 938,
-        "IconHint": "voluptatem",
+        "Rank": 756,
+        "Type": "et",
+        "ColorBlock": 383,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2011-06-28T10:30:33.1630832+02:00",
+        "LastChanged": "2001-04-17T14:23:56.2595732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "alias",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Mr. Viviane Kuvalis MD",
+        "FullName": "Timothy McClure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldType": "System.String",
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "nobis",
-    "Hidden": false,
-    "FullName": "Ferne Kessler",
+    "ExtraInfo": "autem",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Miss Domenic Christiansen DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 841
       }
     }
   }

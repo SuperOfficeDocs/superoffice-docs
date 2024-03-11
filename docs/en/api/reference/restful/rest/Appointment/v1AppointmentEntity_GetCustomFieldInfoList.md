@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Wiza, Hills and Mosciski",
-    "DisplayName": "Mills-Dickinson",
-    "Description": "Compatible methodical challenge",
-    "ShortLabel": "sunt",
+    "FieldName": "Hintz Inc and Sons",
+    "DisplayName": "Schmitt Inc and Sons",
+    "Description": "Decentralized reciprocal definition",
+    "ShortLabel": "ipsum",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 353,
-    "TemplateVariableName": "Weber, Walker and Klocko"
+    "IsExternal": true,
+    "Rank": 384,
+    "TemplateVariableName": "Hilpert, Kuvalis and Treutel"
   }
 ]
 ```

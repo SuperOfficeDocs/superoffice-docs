@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Erdman Group",
-    "DisplayName": "Runolfsson Inc and Sons",
-    "Description": "Secured even-keeled algorithm",
-    "ShortLabel": "repellendus",
+    "FieldName": "Sauer, Reinger and Swift",
+    "DisplayName": "Skiles-Weimann",
+    "Description": "Virtual logistical local area network",
+    "ShortLabel": "dolor",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 93,
-    "TemplateVariableName": "Roberts, Hauck and Lubowitz"
+    "Rank": 721,
+    "TemplateVariableName": "Schroeder, Bogan and Jacobi"
   }
 ]
 ```

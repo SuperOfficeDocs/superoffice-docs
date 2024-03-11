@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 578
+  "SelectedListId": 825
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 211,
-  "ColumnId": 357,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 503,
-  "FieldLabel": "quia",
-  "FieldLeft": 944,
-  "FieldTop": 599,
+  "UDefFieldId": 187,
+  "ColumnId": 975,
+  "FieldDefault": "odio",
+  "FieldHeight": 263,
+  "FieldLabel": "est",
+  "FieldLeft": 626,
+  "FieldTop": 161,
   "FieldType": "Checkbox",
-  "FieldWidth": 746,
-  "FormatMask": "quo",
+  "FieldWidth": 661,
+  "FormatMask": "dicta",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 609,
-  "LabelLeft": 415,
-  "LabelTop": 937,
-  "LabelWidth": 296,
-  "LastVersionId": 220,
-  "ListTableId": 658,
+  "IsIndexed": false,
+  "LabelHeight": 954,
+  "LabelLeft": 224,
+  "LabelTop": 1000,
+  "LabelWidth": 897,
+  "LastVersionId": 716,
+  "ListTableId": 590,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 420,
-  "ProgId": "odit",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 449,
-  "TextLength": 398,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 714,
-  "UDListDefinitionId": 797,
+  "Page1LineNo": 692,
+  "ProgId": "sapiente",
+  "IsReadOnly": true,
+  "ShortLabel": "est",
+  "TabOrder": 937,
+  "TextLength": 941,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 364,
+  "UDListDefinitionId": 896,
   "Justification": "Center",
-  "Version": 175,
-  "TemplateVariableName": "Sauer-Fadel",
-  "HasBeenPublished": true,
-  "MdoListName": "Jast, Frami and Ward",
+  "Version": 631,
+  "TemplateVariableName": "Kerluke-Blanda",
+  "HasBeenPublished": false,
+  "MdoListName": "Orn-Jones",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

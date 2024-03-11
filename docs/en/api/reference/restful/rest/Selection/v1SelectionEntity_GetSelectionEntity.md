@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Jul 2018 10:30:32 G7T
+Last-Modified: Wed, 26 Oct 2011 14:23:55 G10T
 
 {
-  "Description": "Synchronised bifurcated challenge",
-  "Postit": "libero",
+  "Description": "Enhanced systematic extranet",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 226,
-  "IncludePerson": 519,
-  "MemberCount": 156,
-  "Name": "Braun-Grimes",
-  "PostitTextId": 748,
-  "CreatedDate": "2007-08-17T10:30:32.4968779+02:00",
-  "SelectionId": 567,
-  "SoundEx": "inventore",
-  "Source": 122,
-  "TextId": 947,
-  "UpdatedDate": "2018-07-28T10:30:32.4968779+02:00",
-  "UpdatedCount": 224,
-  "Visibility": 264,
+  "GroupIdx": 352,
+  "IncludePerson": 527,
+  "MemberCount": 877,
+  "Name": "Muller-Jacobson",
+  "PostitTextId": 195,
+  "CreatedDate": "2022-05-13T14:23:55.4939585+02:00",
+  "SelectionId": 22,
+  "SoundEx": "amet",
+  "Source": 967,
+  "TextId": 50,
+  "UpdatedDate": "2011-10-26T14:23:55.4939585+02:00",
+  "UpdatedCount": 773,
+  "Visibility": 23,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 752,
-  "TargetTableName": "Bergstrom, Hansen and Rath",
+  "TargetTableNumber": 137,
+  "TargetTableName": "DuBuque, Wunsch and Jast",
   "Completed": false,
-  "LeftSelectionId": 300,
-  "RightSelectionId": 276,
+  "LeftSelectionId": 403,
+  "RightSelectionId": 474,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Osinski Group",
-  "ShadowProviderName": "Goodwin-Hagenes",
-  "ChartKey": "dicta",
-  "LastLoaded": "2005-01-01T10:30:32.4968779+01:00",
-  "LastLoadedBy": 334,
+  "MainProviderName": "Spinka LLC",
+  "ShadowProviderName": "Strosin, Quigley and Emmerich",
+  "ChartKey": "tempora",
+  "LastLoaded": "1999-11-08T14:23:55.4939585+01:00",
+  "LastLoadedBy": 683,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-03-08T10:30:32.4968779+01:00",
-  "LastMembershipChangeBy": 571,
+  "LastMembershipChange": "2016-09-30T14:23:55.4939585+02:00",
+  "LastMembershipChangeBy": 505,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vitae",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "O'Connell LLC",
-  "DashboardTileDefinitionId": 585,
+  "MainHeading": "non",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Corkery, Deckow and Larson",
+  "DashboardTileDefinitionId": 715,
   "VisibleFor": [
     {
-      "VisibleId": 64,
+      "VisibleId": 658,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     },
     {
-      "VisibleId": 64,
+      "VisibleId": 658,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
@@ -197,13 +197,13 @@ Last-Modified: Sat, 28 Jul 2018 10:30:32 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

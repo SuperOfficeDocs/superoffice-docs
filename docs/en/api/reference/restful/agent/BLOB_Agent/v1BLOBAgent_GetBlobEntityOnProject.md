@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 434
+  "ProjectId": 219
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 791,
-  "BlobSize": 897,
-  "Description": "Profit-focused zero administration forecast",
-  "ExtraInfo": "officiis",
+  "BlobId": 683,
+  "BlobSize": 750,
+  "Description": "Front-line coherent circuit",
+  "ExtraInfo": "perferendis",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "minima",
-  "OriginalSize": 986,
-  "CreatedDate": "2002-06-21T10:30:23.0982933+02:00",
-  "UpdatedDate": "2018-01-25T10:30:23.0982933+01:00",
+  "MimeType": "nisi",
+  "OriginalSize": 786,
+  "CreatedDate": "2011-07-06T14:23:45.8918358+02:00",
+  "UpdatedDate": "2007-07-09T14:23:45.8918358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "adipisci",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

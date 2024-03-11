@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 871,
+  "ErpConnectionId": 964,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "eaque",
-    "Rank": 381,
-    "DisplayName": "Cronin-Collier",
-    "DisplayDescription": "Multi-tiered uniform customer loyalty",
+    "FieldKey": "quis",
+    "Rank": 988,
+    "DisplayName": "Hilpert-West",
+    "DisplayDescription": "Compatible context-sensitive implementation",
     "FieldType": "Checkbox",
-    "ListName": "Feest, Nienow and Lesch",
-    "DefaultValue": "doloribus",
-    "MaxLength": 593,
+    "ListName": "Lueilwitz, Hills and Price",
+    "DefaultValue": "vero",
+    "MaxLength": 343,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 898
       }
     }
   }

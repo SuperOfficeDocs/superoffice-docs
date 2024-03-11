@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Halvorson, Rempel and Fritsch",
-  "DisplayName": "Monahan, Kris and Fay",
-  "Description": "Distributed directional archive",
-  "ShortLabel": "dolorum",
-  "HideLabel": true,
+  "FieldName": "Nitzsche-Braun",
+  "DisplayName": "Schinner, Rempel and Hettinger",
+  "Description": "Progressive content-based encoding",
+  "ShortLabel": "voluptates",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 340,
-  "TemplateVariableName": "Kirlin-Daugherty"
+  "IsExternal": false,
+  "Rank": 504,
+  "TemplateVariableName": "VonRueden-Zulauf"
 }
 ```

@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 700,
+  "HierarchyId": 913,
   "Domain": "Dashboards",
-  "Name": "Johnston, Sporer and Powlowski",
-  "Fullname": "qui",
-  "ParentId": 350,
+  "Name": "Ondricka-Zulauf",
+  "Fullname": "rem",
+  "ParentId": 775,
   "Children": [
     {
-      "HierarchyId": 250,
+      "HierarchyId": 14,
       "Domain": "Dashboards",
-      "Name": "Lowe-Welch",
-      "Fullname": "pariatur",
-      "ParentId": 728,
+      "Name": "Turcotte Group",
+      "Fullname": "ea",
+      "ParentId": 392,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-10-24T10:30:24.0725232+02:00",
-      "RegisteredAssociateId": 543,
-      "Updated": "2013-08-11T10:30:24.0725232+02:00",
-      "UpdatedAssociateId": 995,
+      "Registered": "2009-01-06T14:23:46.8786294+01:00",
+      "RegisteredAssociateId": 490,
+      "Updated": "2022-06-03T14:23:46.8786294+02:00",
+      "UpdatedAssociateId": 867,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldLength": 909
         }
       }
     }
   ],
-  "Registered": "2006-01-24T10:30:24.0725232+01:00",
-  "RegisteredAssociateId": 683,
-  "Updated": "2000-04-07T10:30:24.0725232+02:00",
-  "UpdatedAssociateId": 602,
+  "Registered": "2003-07-29T14:23:46.8786294+02:00",
+  "RegisteredAssociateId": 658,
+  "Updated": "2005-08-11T14:23:46.8786294+02:00",
+  "UpdatedAssociateId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

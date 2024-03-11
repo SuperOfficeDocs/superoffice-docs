@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feest Group",
+  "TableName": "Rice, Fay and Jacobs",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schuster Group",
-    "DisplayName": "Kutch, Ruecker and Kunde",
-    "Description": "Decentralized hybrid software",
-    "ShortLabel": "aut",
+    "FieldName": "Hyatt LLC",
+    "DisplayName": "Jerde-Kuhic",
+    "Description": "Multi-channelled encompassing algorithm",
+    "ShortLabel": "sed",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 683,
-    "TemplateVariableName": "Daniel-Rohan"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 501,
+    "TemplateVariableName": "Reynolds, Yundt and Ebert"
   }
 ]
 ```

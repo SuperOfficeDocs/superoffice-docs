@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 118
+  "ShipmentAddrId": 347
 }
 ```
 
@@ -103,27 +103,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2020-06-08T10:30:24.1037706+02:00",
+  "SendingTime": "2017-05-20T14:23:46.9255115+02:00",
   "Status": "Blocked",
-  "ShipmentId": 767,
-  "ShipmentDescription": "Monitored human-resource intranet",
-  "FromAddress": "officiis",
-  "Configuration": 812,
-  "ContactId": 794,
-  "ContactName": "Effertz Group",
-  "PersonId": 809,
-  "PersonFullName": "Miss Scottie Carmela Hilll MD",
-  "ShipmentType": "dolores",
-  "MessageId": 405,
-  "MessageSubject": "error",
-  "DocumentMessageId": 486,
-  "Opened": "2011-12-12T10:30:24.1037706+01:00",
-  "LinkClicks": 360,
+  "ShipmentId": 323,
+  "ShipmentDescription": "Synchronised methodical structure",
+  "FromAddress": "eligendi",
+  "Configuration": 523,
+  "ContactId": 835,
+  "ContactName": "Marks, Boehm and Lemke",
+  "PersonId": 9,
+  "PersonFullName": "Jeanne Jakubowski PhD",
+  "ShipmentType": "in",
+  "MessageId": 331,
+  "MessageSubject": "non",
+  "DocumentMessageId": 572,
+  "Opened": "2008-05-05T14:23:46.9255115+02:00",
+  "LinkClicks": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 68
     }
   }

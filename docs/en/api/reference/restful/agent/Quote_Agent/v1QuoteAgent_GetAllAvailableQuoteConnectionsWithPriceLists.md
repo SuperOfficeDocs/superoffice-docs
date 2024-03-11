@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 622,
-    "ERPName": "Cartwright Inc and Sons",
-    "DisplayName": "Skiles-Kirlin",
-    "DisplayDescription": "Integrated 3rd generation circuit",
-    "Rank": 938,
-    "ConnectorName": "Rempel, Cormier and Parisian",
-    "ErpConnectionId": 679,
-    "ExtraData": "accusamus",
-    "IsAvailable": true,
+    "QuoteConnectionId": 771,
+    "ERPName": "Champlin Inc and Sons",
+    "DisplayName": "Weimann, Monahan and Hoeger",
+    "DisplayDescription": "Re-engineered demand-driven time-frame",
+    "Rank": 975,
+    "ConnectorName": "Terry, Wolf and Wisoky",
+    "ErpConnectionId": 656,
+    "ExtraData": "accusantium",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 352,
-        "ERPPriceListKey": "asperiores",
-        "QuoteConnectionId": 521,
-        "Name": "Breitenberg, Koss and Kuhn",
-        "Description": "Synchronised homogeneous utilisation",
-        "Currency": "aut",
-        "CurrencyName": "Daugherty-Hilpert",
-        "ValidFrom": "2009-02-19T10:30:24.4190067+01:00",
-        "ValidTo": "1998-09-02T10:30:24.4190067+02:00",
-        "IsActive": false,
+        "PriceListId": 962,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 439,
+        "Name": "Grant LLC",
+        "Description": "User-friendly reciprocal initiative",
+        "Currency": "nisi",
+        "CurrencyName": "Bailey-Bergstrom",
+        "ValidFrom": "2017-04-03T14:23:47.2380075+02:00",
+        "ValidTo": "1998-09-20T14:23:47.2380075+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 187
+            "FieldType": "System.Int32",
+            "FieldLength": 41
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      507,
-      724
+      980,
+      359
     ],
     "AssociateAccessIds": [
-      733,
-      669
+      35,
+      793
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 122
       }
     }
   }

@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 22,
-  "Caption": "impedit",
-  "Description": "Intuitive actuating functionalities",
-  "ChartName": "Pfeffer-Ratke",
-  "ChartId": "consectetur",
+  "DashboardTileId": 883,
+  "Caption": "sit",
+  "Description": "Function-based 4th generation archive",
+  "ChartName": "Stark, Goyette and Legros",
+  "ChartId": "ut",
   "IsDefault": false,
-  "AssociateId": 113,
-  "GroupId": 562,
-  "SelectionId": 690,
-  "Config": "dolorem",
+  "AssociateId": 817,
+  "GroupId": 71,
+  "SelectionId": 693,
+  "Config": "ducimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lynch-Murray",
-      "Description": "Innovative regional portal",
+      "Name": "Murazik, Franecki and Watsica",
+      "Description": "Public-key assymetric frame",
       "Type": "Boolean",
-      "ListName": "Welch-Rau",
+      "ListName": "Fisher-Fritsch",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "minima",
+      "Value": "ratione",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 162,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     },
     {
-      "VisibleId": 162,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     }
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 769
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

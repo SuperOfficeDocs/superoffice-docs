@@ -102,16 +102,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 542,
+  "EmailId": 894,
   "AttachmentIds": [
-    "ut",
-    "veniam"
+    "id",
+    "nesciunt"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 181,
-      "ContactName": "Romaguera-Pfannerstill",
-      "PersonId": 233,
-      "PersonName": "Bashirian, Schuppe and Lind",
-      "AssociateId": 521,
-      "Address": "aspernatur",
-      "EmailId": 593,
+      "ContactId": 418,
+      "ContactName": "Boyle-Ziemann",
+      "PersonId": 399,
+      "PersonName": "Hirthe, Murray and Rodriguez",
+      "AssociateId": 896,
+      "Address": "fugit",
+      "EmailId": 921,
       "DuplicatePersonIds": [
-        885,
-        662
+        509,
+        391
       ],
-      "Name": "Walker Inc and Sons",
+      "Name": "Brakus LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 962
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 535,
-      "ContactName": "Donnelly-Greenfelder",
-      "PersonId": 350,
-      "PersonName": "Kreiger-Lueilwitz",
-      "AssociateId": 296,
-      "Address": "officia",
-      "EmailId": 334,
+      "ContactId": 878,
+      "ContactName": "McLaughlin-Leuschke",
+      "PersonId": 86,
+      "PersonName": "Hettinger-Leannon",
+      "AssociateId": 88,
+      "Address": "ut",
+      "EmailId": 4,
       "DuplicatePersonIds": [
-        312,
-        138
+        459,
+        942
       ],
-      "Name": "Strosin-Brekke",
+      "Name": "Keeling-Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 11,
-      "ContactName": "Gerlach LLC",
-      "PersonId": 909,
-      "PersonName": "Mitchell LLC",
-      "AssociateId": 469,
-      "Address": "ipsum",
-      "EmailId": 529,
+      "ContactId": 566,
+      "ContactName": "Hoeger Inc and Sons",
+      "PersonId": 929,
+      "PersonName": "Berge, Schuster and Dibbert",
+      "AssociateId": 557,
+      "Address": "autem",
+      "EmailId": 469,
       "DuplicatePersonIds": [
-        349,
-        705
+        204,
+        665
       ],
-      "Name": "Hansen, Schmitt and Kshlerin",
+      "Name": "Lueilwitz, Harris and White",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 593
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "ut",
+  "Subject": "consectetur",
+  "HTMLBody": "dolores",
   "From": null,
-  "Sent": "2019-10-22T10:30:23.8136779+02:00",
-  "Size": 846,
+  "Sent": "2012-05-23T14:23:46.6574501+02:00",
+  "Size": 612,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "numquam",
+  "MessageID": "eos",
+  "PlainBody": "ut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 139,
+  "ServerId": 817,
   "Attachments": [
     {
-      "Description": "Implemented static flexibility",
-      "Filename": "magni",
-      "Size": 169,
-      "Type": "ullam",
-      "Encoding": "nulla",
-      "Id": "ut",
-      "Disposition": "ducimus",
+      "Description": "Configurable 3rd generation Graphic Interface",
+      "Filename": "voluptates",
+      "Size": 779,
+      "Type": "sed",
+      "Encoding": "reiciendis",
+      "Id": "expedita",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,50 +222,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 999
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Herzog-Wunsch",
+      "Name": "Kuphal, Pagac and Bruen",
       "Values": [
-        "atque",
-        "autem"
+        "voluptas",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 944
         }
       }
     },
     {
-      "Name": "Herzog-Wunsch",
+      "Name": "Kuphal, Pagac and Bruen",
       "Values": [
-        "atque",
-        "autem"
+        "voluptas",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 944
         }
       }
     }
   ],
-  "FolderName": "Medhurst, Strosin and Funk",
-  "EmailItemId": 574,
-  "AccountId": 471,
-  "ReceivedAt": "2009-03-22T10:30:23.8136779+01:00",
+  "FolderName": "Lehner LLC",
+  "EmailItemId": 68,
+  "AccountId": 889,
+  "ReceivedAt": "2020-10-06T14:23:46.6574501+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-04-02T10:30:23.8136779+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-12-08T14:23:46.6574501+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 733
     }
   }
 }

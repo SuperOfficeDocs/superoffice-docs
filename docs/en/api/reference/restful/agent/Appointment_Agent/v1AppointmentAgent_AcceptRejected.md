@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 350,
+  "AppointmentId": 169,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-01-24T10:30:22.910753+01:00",
-  "AppointmentId": 333,
-  "Description": "Cross-platform multi-tasking application",
-  "Title": "et",
-  "Agenda": "suscipit",
-  "InternalNotes": "nisi",
-  "StartDate": "1998-08-05T10:30:22.910753+02:00",
-  "EndDate": "2003-11-17T10:30:22.910753+01:00",
+  "CreatedDate": "2010-12-23T14:23:45.7043398+01:00",
+  "AppointmentId": 120,
+  "Description": "User-friendly analyzing workforce",
+  "Title": "asperiores",
+  "Agenda": "quo",
+  "InternalNotes": "voluptas",
+  "StartDate": "2020-08-19T14:23:45.7043398+02:00",
+  "EndDate": "2003-05-01T14:23:45.7043398+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 74,
+  "MotherId": 98,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-06-10T10:30:22.910753+02:00",
+  "UpdatedDate": "2017-05-01T14:23:45.7043398+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 106,
+  "ActiveLinks": 20,
   "Links": [
     {
-      "EntityName": "McCullough-Huels",
-      "Id": 461,
-      "Description": "Robust cohesive local area network",
-      "ExtraInfo": "perferendis",
-      "LinkId": 765,
+      "EntityName": "Kulas LLC",
+      "Id": 581,
+      "Description": "Ergonomic grid-enabled analyzer",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 123,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolores",
+  "AlarmLeadTime": "veniam",
   "HasAlarm": false,
-  "ColorIndex": 578,
+  "ColorIndex": 613,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "asperiores",
-  "LeadTime": "sint",
-  "Location": "nam",
-  "RejectCounter": 686,
-  "RejectReason": "recontextualize cutting-edge technologies",
+  "IsAlldayEvent": true,
+  "LagTime": "sunt",
+  "LeadTime": "ea",
+  "Location": "dolores",
+  "RejectCounter": 114,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 337,
-      "PersonId": 902,
-      "ContactId": 859,
-      "EmailId": 738,
-      "SendEmail": true,
+      "AssociateId": 422,
+      "PersonId": 772,
+      "ContactId": 522,
+      "EmailId": 661,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "aylin@greenholt.ca",
-      "Description": "Configurable mission-critical function"
+      "EmailAddress": "amber.koelpin@stanton.uk",
+      "Description": "Upgradable methodical workforce"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-03-28T10:30:22.910753+02:00",
+  "ActiveDate": "1999-07-18T14:23:45.7043398+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 310,
+  "PreferredTZLocation": 186,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 328,
+  "SuggestedAppointmentId": 107,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "CentralserviceVideomeetId": "accusamus",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Shanon Greenholt"
+    "SuperOffice:1": "1280942400",
+    "SuperOffice:2": "Holly Darrion Pfeffer Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "cum"
+    "CustomFields1": "in",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "1997-11-29T10:30:22.910753+01:00",
-  "PublishTo": "2021-05-16T10:30:22.910753+02:00",
-  "PublishFrom": "2004-01-10T10:30:22.910753+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-11-23T14:23:45.7043398+01:00",
+  "PublishTo": "2018-09-28T14:23:45.7043398+02:00",
+  "PublishFrom": "2008-10-22T14:23:45.7043398+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 469,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 789
         }
       }
     },
     {
-      "VisibleId": 469,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 789
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Torphy, Littel and Walter",
-  "ProviderName": "Hagenes, Legros and Lebsack",
-  "SortOrder": "ad",
-  "Restriction": "est",
-  "Entities": "laboriosam",
-  "Page": 464,
-  "PageSize": 423
+  "GuiName": "Wyman LLC",
+  "ProviderName": "Jakubowski LLC",
+  "SortOrder": "qui",
+  "Restriction": "labore",
+  "Entities": "aperiam",
+  "Page": 123,
+  "PageSize": 29
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Miller-Fisher",
-    "PrimaryKey": 599,
+    "EntityName": "Altenwerth Inc and Sons",
+    "PrimaryKey": 751,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repudiandae",
+        "DisplayValue": "et",
         "TooltipHint": "nihil",
-        "LinkHint": "in"
+        "LinkHint": "adipisci"
       }
     },
-    "LinkHint": "deleniti",
-    "StyleHint": "et",
+    "LinkHint": "blanditiis",
+    "StyleHint": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

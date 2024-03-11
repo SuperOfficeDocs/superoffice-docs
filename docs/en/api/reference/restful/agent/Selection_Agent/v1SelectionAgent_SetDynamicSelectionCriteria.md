@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 915,
+  "SelectionId": 983,
   "Criteria": [
     {
-      "Name": "Rosenbaum-Rippin",
-      "Operator": "alias",
+      "Name": "Wuckert Inc and Sons",
+      "Operator": "quas",
       "Values": [
-        "accusamus",
-        "iste"
+        "odio",
+        "ullam"
       ],
       "DisplayValues": [
-        "quia",
-        "omnis"
+        "eos",
+        "itaque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 838,
+      "InterParenthesis": 360,
       "InterOperator": "And",
-      "UniqueHash": 392
+      "UniqueHash": 242
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swaniawski, Bartoletti and Bernhard",
-    "Operator": "omnis",
+    "Name": "Mills Inc and Sons",
+    "Operator": "iste",
     "Values": [
-      "quidem",
-      "aut"
+      "qui",
+      "itaque"
     ],
     "DisplayValues": [
-      "laudantium",
-      "est"
+      "impedit",
+      "eos"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rau-Barrows",
-        "Operator": "quo",
+        "Name": "Bartell-Hoeger",
+        "Operator": "sunt",
         "Values": [
-          "illum",
-          "qui"
+          "est",
+          "doloremque"
         ],
         "DisplayValues": [
-          "odio",
-          "reprehenderit"
+          "et",
+          "error"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 731,
+        "InterParenthesis": 356,
         "InterOperator": "And",
-        "UniqueHash": 682
+        "UniqueHash": 602
       }
     ],
-    "InterParenthesis": 442,
+    "InterParenthesis": 297,
     "InterOperator": "And",
-    "UniqueHash": 290
+    "UniqueHash": 694
   }
 ]
 ```

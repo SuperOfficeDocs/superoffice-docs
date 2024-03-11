@@ -91,16 +91,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 911,
-  "Name": "Cummerata, Graham and Russel",
-  "Tooltip": "iste",
+  "RoleId": 561,
+  "Name": "Schaden-Champlin",
+  "Tooltip": "tempora",
   "RoleType": "Anonymous",
-  "Deleted": 734,
-  "Rank": 899,
-  "Created": "2003-01-31T10:30:24.9673316+01:00",
-  "UseCategories": 449,
+  "Deleted": 635,
+  "Rank": 865,
+  "Created": "2011-09-17T14:23:47.8317514+02:00",
+  "UseCategories": 100,
   "CreatedBy": null,
-  "Updated": "2016-02-23T10:30:24.9673316+01:00",
+  "Updated": "1997-02-15T14:23:47.8317514+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 172,
-  "Name": "Corwin, Collier and Christiansen",
-  "Tooltip": "libero",
+  "RoleId": 354,
+  "Name": "Wilkinson-Beatty",
+  "Tooltip": "sunt",
   "RoleType": "Anonymous",
-  "Deleted": 164,
-  "Rank": 509,
-  "Created": "1999-04-04T10:30:24.9673316+02:00",
-  "UseCategories": 655,
+  "Deleted": 811,
+  "Rank": 456,
+  "Created": "2008-10-21T14:23:47.8317514+02:00",
+  "UseCategories": 601,
   "CreatedBy": null,
-  "Updated": "2000-10-21T10:30:24.9829556+02:00",
+  "Updated": "2000-09-26T14:23:47.8317514+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

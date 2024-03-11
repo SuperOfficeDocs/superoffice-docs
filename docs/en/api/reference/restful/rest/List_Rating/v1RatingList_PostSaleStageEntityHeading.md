@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 718,
-  "Name": "Wiegand, Klein and Klocko",
-  "Tooltip": "consequatur",
+  "HeadingId": 550,
+  "Name": "Fisher, Lebsack and Rowe",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 567,
-  "UdListDefinitionId": 813
+  "Rank": 909,
+  "UdListDefinitionId": 401
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 940,
-  "Name": "Gibson-Spinka",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "Rank": 16,
-  "UdListDefinitionId": 266,
+  "HeadingId": 488,
+  "Name": "Hintz-Skiles",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 648,
+  "UdListDefinitionId": 591,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

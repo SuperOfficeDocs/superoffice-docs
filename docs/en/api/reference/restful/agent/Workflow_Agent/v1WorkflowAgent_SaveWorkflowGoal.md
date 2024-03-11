@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 299,
-  "WorkflowId": 94,
+  "WorkflowGoalId": 264,
+  "WorkflowId": 893,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Hudson, Legros and Armstrong",
-      "Description": "Centralized empowering workforce",
-      "Rank": 113,
+      "Name": "Collier, Larson and Hirthe",
+      "Description": "Pre-emptive scalable success",
+      "Rank": 116,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hudson, Legros and Armstrong",
-      "Description": "Centralized empowering workforce",
-      "Rank": 113,
+      "Name": "Collier, Larson and Hirthe",
+      "Description": "Pre-emptive scalable success",
+      "Rank": 116,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 19,
-  "WorkflowId": 783,
+  "WorkflowGoalId": 954,
+  "WorkflowId": 381,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Marks, Nicolas and Conroy",
-      "Description": "Centralized motivating interface",
-      "Rank": 61,
+      "Name": "Jones LLC",
+      "Description": "Customer-focused hybrid frame",
+      "Rank": 423,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Marks, Nicolas and Conroy",
-      "Description": "Centralized motivating interface",
-      "Rank": 61,
+      "Name": "Jones LLC",
+      "Description": "Customer-focused hybrid frame",
+      "Rank": 423,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

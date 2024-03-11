@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 265,
-  "Name": "Jakubowski-Wyman",
-  "Tooltip": "deleniti",
-  "SaveInDb": 491,
-  "Filename": "voluptatem",
-  "DefaultOref": "magnam",
+  "DocumentTemplateId": 448,
+  "Name": "McClure, Conn and Renner",
+  "Tooltip": "debitis",
+  "SaveInDb": 96,
+  "Filename": "laboriosam",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 537,
-  "IntentId": 664,
-  "IsDefaultPublished": false,
-  "Rank": 528,
-  "LoadTemplateFromPlugin": 988,
-  "MimeType": "iure",
+  "AutoeventId": 200,
+  "IntentId": 590,
+  "IsDefaultPublished": true,
+  "Rank": 434,
+  "LoadTemplateFromPlugin": 949,
+  "MimeType": "saepe",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 203,
+  "DocumentTypeKey": 658,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tamara_yundt@homenick.info",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "frederik@shields.info",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "zena@hegmannrussel.info",
+  "SenderEmailAddress": "jacques_hahn@glover.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 3,
-  "Name": "Paucek-Donnelly",
-  "Tooltip": "molestiae",
-  "SaveInDb": 803,
-  "Filename": "quae",
-  "DefaultOref": "accusamus",
+  "DocumentTemplateId": 938,
+  "Name": "Rath LLC",
+  "Tooltip": "officia",
+  "SaveInDb": 543,
+  "Filename": "assumenda",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 439,
-  "IntentId": 692,
-  "IsDefaultPublished": true,
-  "Rank": 557,
-  "LoadTemplateFromPlugin": 706,
-  "MimeType": "perspiciatis",
+  "AutoeventId": 58,
+  "IntentId": 90,
+  "IsDefaultPublished": false,
+  "Rank": 69,
+  "LoadTemplateFromPlugin": 387,
+  "MimeType": "non",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 126,
+  "DocumentTypeKey": 91,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "salvatore_willms@wintheiser.name",
+  "EmailSubject": "janessa.mayer@veumhermiston.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mona.ryan@kuhlmanmcdermott.co.uk",
+  "SenderEmailAddress": "ilene@cormier.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 575
     }
   }
 }

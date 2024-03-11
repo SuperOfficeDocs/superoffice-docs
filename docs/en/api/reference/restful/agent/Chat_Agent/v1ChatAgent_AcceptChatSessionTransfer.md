@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 360
+  "ChatSessionId": 626
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 445,
-  "TopicId": 720,
+  "ChatSessionId": 573,
+  "TopicId": 794,
   "User": null,
   "Person": null,
-  "CustomerAlias": "temporibus",
-  "CustomerHost": "quisquam",
-  "CustomerName": "Wilderman LLC",
-  "CustomerEmail": "june.conroy@maggiobatz.biz",
-  "CustomerPhone": "1-192-366-0780",
+  "CustomerAlias": "rem",
+  "CustomerHost": "similique",
+  "CustomerName": "Powlowski, Effertz and Oberbrunner",
+  "CustomerEmail": "cesar@green.name",
+  "CustomerPhone": "1-531-209-0379 x5301",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Heidenreich-Macejkovic",
+  "CustomerCompanyName": "Hoeger Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "natus",
-  "LastMessage": "sapiente",
-  "WhenRequested": "2005-06-30T10:30:23.1764169+02:00",
-  "WhenStarted": "2011-09-30T10:30:23.1764169+02:00",
-  "WhenEnded": "2008-01-24T10:30:23.1764169+01:00",
-  "WhenIdle": "2016-06-29T10:30:23.1764169+02:00",
-  "WhenFetched": "2011-02-04T10:30:23.1764169+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 230,
-  "AlertLevel": 432,
-  "Rank": 179,
+  "FirstMessage": "non",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2000-05-21T14:23:45.9699598+02:00",
+  "WhenStarted": "1998-01-05T14:23:45.9699598+01:00",
+  "WhenEnded": "2012-12-30T14:23:45.9699598+01:00",
+  "WhenIdle": "2019-07-01T14:23:45.9699598+02:00",
+  "WhenFetched": "2023-09-20T14:23:45.9699598+02:00",
+  "SessionKey": "pariatur",
+  "InitialQueuePos": 904,
+  "AlertLevel": 210,
+  "Rank": 365,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 643,
+  "ChatbotIsActive": false,
+  "Rating": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

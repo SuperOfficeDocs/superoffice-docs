@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 226,
-  "StartTime": "2003-05-06T10:30:23.5769016+02:00",
-  "EndTime": "2018-12-19T10:30:23.5769016+01:00",
-  "Count": 264
+  "ContactId": 639,
+  "StartTime": "2004-04-06T14:23:46.2824577+02:00",
+  "EndTime": "2015-08-09T14:23:46.2824577+02:00",
+  "Count": 632
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 999,
-    "Attention": "ut",
-    "Header": "inventore",
-    "Name": "Welch-Goldner",
-    "OurRef": "exercitationem",
-    "YourRef": "voluptatem",
-    "Description": "User-centric motivating complexity",
-    "DocumentTemplate": "aliquid",
+    "DocumentId": 930,
+    "Attention": "est",
+    "Header": "rerum",
+    "Name": "Funk-Dickinson",
+    "OurRef": "eum",
+    "YourRef": "aut",
+    "Description": "Exclusive impactful ability",
+    "DocumentTemplate": "ratione",
     "IsPublished": false,
-    "PersonId": 472,
-    "PersonFullName": "Joyce Beer",
-    "AssociateFullName": "Bobby Strosin",
-    "ContactId": 81,
-    "ContactName": "O'Reilly, Mraz and Beier",
-    "ProjectId": 673,
-    "ProjectName": "Kovacek, Parker and McKenzie",
-    "AssociateId": 501,
-    "Snum": 909,
-    "SaleId": 279,
-    "SaleName": "Bins Inc and Sons",
+    "PersonId": 929,
+    "PersonFullName": "Jordy Maggio",
+    "AssociateFullName": "Mrs. Beatrice Murphy",
+    "ContactId": 144,
+    "ContactName": "Hyatt-Erdman",
+    "ProjectId": 609,
+    "ProjectName": "Jones, Larkin and Watsica",
+    "AssociateId": 856,
+    "Snum": 103,
+    "SaleId": 711,
+    "SaleName": "Jones, Denesik and Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 360
       }
     }
   }

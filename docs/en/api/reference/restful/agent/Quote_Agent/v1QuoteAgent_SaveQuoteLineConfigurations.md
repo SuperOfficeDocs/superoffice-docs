@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 692,
-      "FieldName": "Mayer-Botsford",
-      "Label": "laborum",
-      "Tooltip": "at",
+      "QuoteLineConfigurationId": 141,
+      "FieldName": "Kunze-Hammes",
+      "Label": "repellendus",
+      "Tooltip": "et",
       "Editable": false,
-      "InUse": false,
+      "InUse": true,
       "Mandatory": false,
-      "Rank": 875,
+      "Rank": 19,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 554,
-    "FieldName": "Koch-Becker",
-    "Label": "eius",
-    "Tooltip": "eum",
-    "Editable": true,
+    "QuoteLineConfigurationId": 412,
+    "FieldName": "Bruen Group",
+    "Label": "iure",
+    "Tooltip": "rerum",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 262,
-    "RestrictEdit": true,
+    "Mandatory": false,
+    "Rank": 747,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

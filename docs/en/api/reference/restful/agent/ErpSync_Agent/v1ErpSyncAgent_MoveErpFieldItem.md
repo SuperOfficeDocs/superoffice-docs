@@ -69,13 +69,13 @@ No Content
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 736,
-  "Direction": 376,
-  "ErpConnectionId": 271,
+  "ErpFieldId": 546,
+  "Direction": 714,
+  "ErpConnectionId": 279,
   "ErpActorType": "Customer"
 }
 ```

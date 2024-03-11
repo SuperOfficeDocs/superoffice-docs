@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 90
+  "DocumentId": 414
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 327,
-      "ContactName": "Lebsack-McClure",
-      "PersonId": 940,
-      "PersonName": "Adams, Von and Lubowitz",
-      "AssociateId": 201,
-      "Address": "fugit",
-      "EmailId": 268,
+      "ContactId": 63,
+      "ContactName": "Johns, Schuppe and Auer",
+      "PersonId": 439,
+      "PersonName": "Ratke, McDermott and Veum",
+      "AssociateId": 437,
+      "Address": "possimus",
+      "EmailId": 891,
       "DuplicatePersonIds": [
-        918,
-        400
+        43,
+        466
       ],
-      "Name": "Leannon, Jacobson and Lang",
+      "Name": "Barrows, Kuhlman and Hane",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 566
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 641,
-      "ContactName": "Schamberger-Keeling",
-      "PersonId": 988,
-      "PersonName": "Crona Group",
-      "AssociateId": 149,
-      "Address": "dolor",
-      "EmailId": 400,
+      "ContactId": 140,
+      "ContactName": "Fisher, Koch and Kertzmann",
+      "PersonId": 121,
+      "PersonName": "Kertzmann-Hirthe",
+      "AssociateId": 575,
+      "Address": "eum",
+      "EmailId": 342,
       "DuplicatePersonIds": [
-        793,
-        376
+        654,
+        571
       ],
-      "Name": "Bode-Cremin",
+      "Name": "Kling-Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 212
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 84,
-      "ContactName": "Lebsack, Klein and Durgan",
-      "PersonId": 243,
-      "PersonName": "Bergnaum LLC",
-      "AssociateId": 295,
-      "Address": "enim",
-      "EmailId": 797,
+      "ContactId": 2,
+      "ContactName": "Crist Inc and Sons",
+      "PersonId": 917,
+      "PersonName": "Skiles-Fay",
+      "AssociateId": 507,
+      "Address": "corrupti",
+      "EmailId": 230,
       "DuplicatePersonIds": [
-        351,
-        252
+        493,
+        621
       ],
-      "Name": "Greenfelder Group",
+      "Name": "Cassin Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 623
         }
       }
     }
   ],
-  "Subject": "accusantium",
+  "Subject": "a",
   "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2019-06-28T10:30:23.8136779+02:00",
-  "Size": 690,
+  "Sent": "2007-09-26T14:23:46.6574501+02:00",
+  "Size": 633,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "et",
+  "MessageID": "ab",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 872,
+  "ServerId": 664,
   "Attachments": [
     {
-      "Description": "Adaptive zero administration productivity",
-      "Filename": "doloribus",
-      "Size": 896,
-      "Type": "voluptas",
-      "Encoding": "delectus",
-      "Id": "ducimus",
-      "Disposition": "cumque",
-      "IsSafeFileExtension": true,
+      "Description": "Object-based multi-state capacity",
+      "Filename": "voluptatem",
+      "Size": 114,
+      "Type": "iste",
+      "Encoding": "et",
+      "Id": "ut",
+      "Disposition": "fugiat",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldType": "System.String",
+          "FieldLength": 805
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mann, Stracke and Ryan",
+      "Name": "Thompson Inc and Sons",
       "Values": [
-        "eum",
-        "repudiandae"
+        "magnam",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     },
     {
-      "Name": "Mann, Stracke and Ryan",
+      "Name": "Thompson Inc and Sons",
       "Values": [
-        "eum",
-        "repudiandae"
+        "magnam",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     }
   ],
-  "FolderName": "Carter, Kuphal and Hegmann",
-  "EmailItemId": 268,
-  "AccountId": 607,
-  "ReceivedAt": "2004-05-25T10:30:23.8136779+02:00",
+  "FolderName": "Wintheiser, Tromp and Murray",
+  "EmailItemId": 144,
+  "AccountId": 185,
+  "ReceivedAt": "2014-07-30T14:23:46.6574501+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-08-20T10:30:23.8136779+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2012-10-06T14:23:46.6574501+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   }
 }

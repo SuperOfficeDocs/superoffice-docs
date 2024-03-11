@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 744,
-    "ErpConnectorId": 912,
-    "DisplayName": "Cole Inc and Sons",
-    "DisplayDescription": "Versatile reciprocal standardization",
-    "Active": true,
-    "ConnectionId": "quisquam",
-    "MostRecentTimestamp": "alias",
+    "ErpConnectionId": 516,
+    "ErpConnectorId": 863,
+    "DisplayName": "Upton LLC",
+    "DisplayDescription": "Ergonomic impactful solution",
+    "Active": false,
+    "ConnectionId": "explicabo",
+    "MostRecentTimestamp": "vitae",
     "ConfigFields": {
-      "ConfigFields1": "suscipit",
-      "ConfigFields2": "asperiores"
+      "ConfigFields1": "culpa",
+      "ConfigFields2": "magni"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      813,
-      473
+      800,
+      325
     ],
     "AssociateAccessIds": [
-      542,
-      617
+      717,
+      703
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldLength": 12
       }
     }
   }

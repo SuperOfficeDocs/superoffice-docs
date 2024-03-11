@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=blanditiis
+GET /api/v1/List/DeliveryType/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Hayes Group",
-    "ToolTip": "Velit qui et perferendis eum alias et.",
+    "Id": 592,
+    "Name": "Lubowitz LLC",
+    "ToolTip": "Odit quia at qui qui vitae.",
     "Deleted": true,
-    "Rank": 935,
-    "Type": "praesentium",
+    "Rank": 198,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Farrell Group",
-        "ToolTip": "Nam numquam harum consequatur.",
-        "Deleted": true,
-        "Rank": 436,
-        "Type": "occaecati",
+        "Id": 276,
+        "Name": "Mertz-O'Kon",
+        "ToolTip": "Explicabo qui delectus aut.",
+        "Deleted": false,
+        "Rank": 92,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 4,
-        "ExtraInfo": "nisi",
-        "StyleHint": "nemo",
-        "FullName": "Alberta Hammes",
+        "IconHint": "dolorem",
+        "ColorBlock": 515,
+        "ExtraInfo": "aut",
+        "StyleHint": "esse",
+        "FullName": "Ona Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 370
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 579,
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
-    "FullName": "Mrs. Yvonne Ernser Jr.",
+    "IconHint": "facere",
+    "ColorBlock": 636,
+    "ExtraInfo": "quis",
+    "StyleHint": "est",
+    "FullName": "Dr. Gerald Nakia Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 320
       }
     }
   }

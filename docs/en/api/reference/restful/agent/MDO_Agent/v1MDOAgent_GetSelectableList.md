@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bode-Wuckert",
+  "Name": "Schulist-Ferry",
   "ForceFlatList": false,
-  "AdditionalInfo": "qui",
-  "OnlyHistory": false
+  "AdditionalInfo": "eligendi",
+  "OnlyHistory": true
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Bode, Hyatt and Gutkowski",
-    "ToolTip": "Sint voluptatem.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "atque",
-    "ColorBlock": 844,
-    "IconHint": "nemo",
+    "Id": 915,
+    "Name": "Denesik, Parker and Friesen",
+    "ToolTip": "Nam ipsam mollitia sint.",
+    "Deleted": true,
+    "Rank": 747,
+    "Type": "sint",
+    "ColorBlock": 441,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2005-01-12T10:30:24.1193938+01:00",
+    "LastChanged": "2007-03-23T14:23:46.9255115+01:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Boyer, Kuvalis and Heidenreich",
-        "ToolTip": "Officiis eos.",
-        "Deleted": false,
-        "Rank": 530,
-        "Type": "omnis",
-        "ColorBlock": 177,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2020-04-14T10:30:24.1193938+02:00",
+        "Id": 902,
+        "Name": "Ortiz-Moen",
+        "ToolTip": "Excepturi suscipit et necessitatibus placeat voluptatum laboriosam laudantium.",
+        "Deleted": true,
+        "Rank": 332,
+        "Type": "quaerat",
+        "ColorBlock": 747,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2010-08-05T14:23:46.9255115+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "dolores",
+        "ExtraInfo": "cumque",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mrs. Marlin Riley Berge",
+        "FullName": "Nikolas Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldType": "System.Int32",
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Dr. Olaf Fisher DVM",
+    "ExtraInfo": "quas",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Raul Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 105
       }
     }
   }

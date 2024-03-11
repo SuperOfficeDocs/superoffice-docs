@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 585
+  "ErpFieldId": 340
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 472,
-  "DefaultValue": "eveniet",
+  "ErpFieldId": 376,
+  "DefaultValue": "esse",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "repudiandae",
+  "FirstSyncDefaultValue": "quas",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "consequuntur",
+  "ErpFieldKey": "ipsa",
   "FieldType": "Checkbox",
-  "ListName": "Reichel, Quitzon and Gibson",
+  "ListName": "Hyatt-Becker",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 209,
-  "UniqueIdentifier": "quae",
-  "Name": "Murazik Group",
-  "Description": "Open-source analyzing challenge",
-  "IncludeId": "a",
-  "HierarchyId": 863,
-  "Source": "voluptatem",
-  "Registered": "2016-04-20T10:30:31.9636795+02:00",
-  "RegisteredAssociateId": 561,
-  "Updated": "2003-02-13T10:30:31.9636795+01:00",
-  "UpdatedAssociateId": 881,
+  "EjscriptId": 1000,
+  "UniqueIdentifier": "quasi",
+  "Name": "Wiegand-Vandervort",
+  "Description": "Grass-roots dedicated complexity",
+  "IncludeId": "consequatur",
+  "HierarchyId": 519,
+  "Source": "accusantium",
+  "Registered": "2006-03-12T14:23:55.0552747+01:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "2008-04-04T14:23:55.0552747+02:00",
+  "UpdatedAssociateId": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

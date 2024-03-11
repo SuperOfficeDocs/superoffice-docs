@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Kovacek-Terry",
-  "Tooltip": "ut",
+  "Id": 607,
+  "Name": "Greenfelder LLC",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 728,
+  "Rank": 803,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
-  "InUseByUserDefinedFields": true
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "Auer Group",
-  "Tooltip": "tenetur",
+  "Id": 410,
+  "Name": "Bosco-Marks",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 173,
+  "Rank": 906,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldLength": 34
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=782
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=581
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -98,11 +98,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 701,
-  "Name": "Lynch-Sporer",
-  "Tooltip": "dolores",
+  "WebPanelId": 135,
+  "Name": "Paucek-Harris",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 779,
+  "Rank": 149,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Gorczany Inc and Sons",
+  "WindowName": "Hane Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "modi",
-  "Icon": 559,
+  "ProgId": "consequatur",
+  "Icon": 351,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

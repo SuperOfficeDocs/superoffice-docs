@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 764,
-  "Name": "Hansen LLC",
-  "Tooltip": "omnis",
-  "Rank": 587,
-  "Rate": 20800.358,
-  "Units": 29885.824,
-  "Deleted": true,
+  "CurrencyId": 678,
+  "Name": "Okuneva, Price and Hettinger",
+  "Tooltip": "ea",
+  "Rank": 262,
+  "Rate": 2526.004,
+  "Units": 15676.268,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 923
     }
   }
 }

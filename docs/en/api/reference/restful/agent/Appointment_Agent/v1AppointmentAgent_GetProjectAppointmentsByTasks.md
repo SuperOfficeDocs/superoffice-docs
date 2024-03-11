@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 398,
-  "StartTime": "2008-03-25T10:30:22.56302+01:00",
-  "EndTime": "2000-05-01T10:30:22.56302+02:00",
-  "Count": 767,
+  "ProjectId": 802,
+  "StartTime": "2022-07-21T14:23:45.359461+02:00",
+  "EndTime": "1998-10-18T14:23:45.359461+02:00",
+  "Count": 771,
   "TaskIds": [
-    589,
-    903
+    489,
+    626
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 202,
-    "StartDate": "2010-01-05T10:30:22.5786487+01:00",
-    "EndDate": "2011-02-25T10:30:22.5786487+01:00",
+    "AppointmentId": 379,
+    "StartDate": "2010-09-20T14:23:45.359461+02:00",
+    "EndDate": "2016-12-30T14:23:45.359461+01:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Palma Walsh",
-    "ContactName": "Bayer, Langosh and Langosh",
-    "Description": "Expanded hybrid emulation",
-    "PersonFullName": "Sandrine Crooks IV",
-    "PersonId": 80,
-    "ContactId": 394,
-    "ProjectId": 612,
-    "ProjectName": "Turner-Schroeder",
-    "IsPublished": true,
-    "AssociateId": 200,
-    "ColorIndex": 316,
+    "Task": "ipsum",
+    "AssociateFullName": "Cheyanne Schiller",
+    "ContactName": "Kutch Inc and Sons",
+    "Description": "Organic 6th generation orchestration",
+    "PersonFullName": "Anita Stracke DDS",
+    "PersonId": 492,
+    "ContactId": 570,
+    "ProjectId": 4,
+    "ProjectName": "Fay Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 697,
+    "ColorIndex": 295,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 598,
-    "PriorityName": "Ullrich-Yost",
+    "PriorityId": 569,
+    "PriorityName": "Lang LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-03-20T10:30:22.5786487+01:00",
+    "ActiveDate": "2000-08-17T14:23:45.359461+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-06-23T10:30:22.5786487+02:00",
-    "RecurringEndDate": "2002-02-12T10:30:22.5786487+01:00",
-    "MotherId": 379,
-    "AssignedBy": 185,
-    "AssignedByFullName": "Carlotta Reynolds",
+    "RecurringStartDate": "2023-05-24T14:23:45.359461+02:00",
+    "RecurringEndDate": "2011-10-04T14:23:45.359461+02:00",
+    "MotherId": 245,
+    "AssignedBy": 692,
+    "AssignedByFullName": "Mr. May Rowe",
     "RejectReason": "",
-    "Location": "ea",
-    "AlarmLeadTime": "ab",
-    "SaleId": 297,
-    "SaleName": "Hudson LLC",
-    "AssociateName": "Lueilwitz, Lebsack and McDermott",
-    "CreatedDate": "2004-05-16T10:30:22.5786487+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Miss Seamus Zboncak",
-    "CreatedByAssociateId": 683,
+    "Location": "quia",
+    "AlarmLeadTime": "ut",
+    "SaleId": 361,
+    "SaleName": "Schiller, Stark and Ledner",
+    "AssociateName": "McCullough, Doyle and Reilly",
+    "CreatedDate": "2017-12-01T14:23:45.359461+01:00",
+    "CreatedBy": "maxime",
+    "CreatedByFullName": "Jakob Herman MD",
+    "CreatedByAssociateId": 586,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 277,
-    "Title": "quia",
-    "Agenda": "aliquid",
-    "InternalNotes": "nostrum",
+    "PreferredTZLocation": 457,
+    "Title": "sit",
+    "Agenda": "vitae",
+    "InternalNotes": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

@@ -75,22 +75,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 412,
-  "AssociateId": 554,
-  "Caption": "amet",
+  "DashboardId": 461,
+  "AssociateId": 435,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 494,
-      "Caption": "tenetur",
-      "Description": "Universal zero defect focus group",
-      "ChartName": "Price, Rowe and Sawayn",
-      "ChartId": "mollitia",
+      "DashboardTileId": 69,
+      "Caption": "incidunt",
+      "Description": "Upgradable discrete solution",
+      "ChartName": "Anderson-Jakubowski",
+      "ChartId": "rerum",
       "IsDefault": false,
-      "AssociateId": 649,
-      "GroupId": 189,
-      "SelectionId": 914,
-      "Config": "voluptas",
+      "AssociateId": 708,
+      "GroupId": 936,
+      "SelectionId": 594,
+      "Config": "rerum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 209,
-  "AssociateId": 590,
-  "Caption": "ut",
+  "DashboardId": 104,
+  "AssociateId": 951,
+  "Caption": "voluptatum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 467,
-      "Caption": "voluptatem",
-      "Description": "Intuitive reciprocal collaboration",
-      "ChartName": "Stokes Inc and Sons",
-      "ChartId": "architecto",
+      "DashboardTileId": 118,
+      "Caption": "saepe",
+      "Description": "Enhanced 5th generation system engine",
+      "ChartName": "Hartmann-Barrows",
+      "ChartId": "explicabo",
       "IsDefault": false,
-      "AssociateId": 903,
-      "GroupId": 797,
-      "SelectionId": 767,
-      "Config": "voluptas",
+      "AssociateId": 840,
+      "GroupId": 796,
+      "SelectionId": 310,
+      "Config": "veniam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 436
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 565
     }
   }
 }

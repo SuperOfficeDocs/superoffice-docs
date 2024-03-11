@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Schmidt, Cummerata and Sipes",
-  "AssociateId": 88,
-  "DetailsTable": 955,
-  "DetailsRecord": 66,
+  "Id": 631,
+  "Name": "DuBuque-Krajcik",
+  "AssociateId": 127,
+  "DetailsTable": 201,
+  "DetailsRecord": 293,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "dolorem",
-    "ParameterObject2": "cupiditate"
+    "ParameterObject1": "voluptas",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2003-09-06T10:30:23.0982933+02:00",
-  "Created": "2014-02-02T10:30:23.0982933+01:00",
-  "StartCount": 992,
-  "DatabaseSerialNumber": "849116",
-  "Context": "quasi",
-  "Result": "hic",
+  "LastStarted": "2011-08-25T14:23:45.8762101+02:00",
+  "Created": "2002-10-18T14:23:45.8762101+02:00",
+  "StartCount": 635,
+  "DatabaseSerialNumber": "650867",
+  "Context": "sed",
+  "Result": "et",
   "State": "All",
-  "Description": "Mandatory disintermediate extranet",
-  "Response": "consequuntur",
-  "Request": "debitis",
-  "ProgressDescription": "Organic explicit pricing structure",
-  "ProgressPercent": 307,
-  "FileName": "Marks-Waelchi",
+  "Description": "Down-sized scalable encoding",
+  "Response": "voluptatem",
+  "Request": "nobis",
+  "ProgressDescription": "Switchable multi-tasking internet solution",
+  "ProgressPercent": 381,
+  "FileName": "Konopelski, McGlynn and Donnelly",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 412
     }
   }
 }

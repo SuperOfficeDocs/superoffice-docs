@@ -127,63 +127,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 591,
+  "EjMessageId": 711,
   "Ticket": null,
-  "CreatedAt": "2016-11-26T10:30:32.6074787+01:00",
+  "CreatedAt": "2015-09-13T14:23:55.7127052+02:00",
   "CreatedBy": null,
-  "Author": "sint",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 314,
-  "Body": "quo",
-  "HtmlBody": "molestias",
-  "EmailHeader": "andres.kessler@purdy.us",
-  "DebugInfo": "alias",
-  "MailSorter": "pariatur",
+  "MessageId": "voluptatem",
+  "TimeSpent": 172,
+  "Body": "nemo",
+  "HtmlBody": "odio",
+  "EmailHeader": "annabell@kuvaliswatsica.name",
+  "DebugInfo": "doloremque",
+  "MailSorter": "laudantium",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ex",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 873,
-      "Name": "Hansen-Morissette",
-      "Value": "earum",
+      "Id": 366,
+      "Name": "Bashirian LLC",
+      "Value": "recusandae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 873,
-      "Name": "Hansen-Morissette",
-      "Value": "earum",
+      "Id": 366,
+      "Name": "Bashirian LLC",
+      "Value": "recusandae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "nihil",
-  "Sentiment": 845,
-  "SentimentConfidence": 551,
+  "Language": "quia",
+  "Sentiment": 642,
+  "SentimentConfidence": 229,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 484,
-      "Name": "Pfannerstill-Gutkowski",
-      "ContentType": "doloremque",
-      "AttSize": 405,
+      "AttachmentId": 665,
+      "Name": "Heathcote, Streich and Wyman",
+      "ContentType": "voluptatem",
+      "AttSize": 213,
       "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "ducimus",
+      "ContentId": "facilis",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "facere"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "nesciunt"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 66,
+  "EjMessageId": 589,
   "Ticket": null,
-  "CreatedAt": "2003-12-20T10:30:32.6230979+01:00",
+  "CreatedAt": "2022-09-04T14:23:55.7283316+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "at",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "earum",
-  "TimeSpent": 165,
-  "Body": "recusandae",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "hailey.davis@kub.com",
-  "DebugInfo": "fugiat",
-  "MailSorter": "incidunt",
+  "MessageId": "et",
+  "TimeSpent": 968,
+  "Body": "in",
+  "HtmlBody": "pariatur",
+  "EmailHeader": "mariam.kassulke@pagac.com",
+  "DebugInfo": "officiis",
+  "MailSorter": "ipsum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "mollitia",
+  "SearchTitle": "praesentium",
   "MessageHeaders": [
     {
-      "Id": 511,
-      "Name": "Lind-Buckridge",
-      "Value": "vero",
+      "Id": 393,
+      "Name": "Stroman-Maggio",
+      "Value": "quasi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldType": "System.Int32",
+          "FieldLength": 913
         }
       }
     }
   ],
   "Important": false,
-  "Language": "molestiae",
-  "Sentiment": 83,
-  "SentimentConfidence": 55,
+  "Language": "laboriosam",
+  "Sentiment": 551,
+  "SentimentConfidence": 779,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 849,
-      "Name": "Trantow, Satterfield and Flatley",
-      "ContentType": "aut",
-      "AttSize": 208,
-      "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "expedita",
+      "AttachmentId": 10,
+      "Name": "O'Kon, Jast and Strosin",
+      "ContentType": "minima",
+      "AttSize": 50,
+      "InlineImage": true,
+      "ContentId": "quia",
+      "AuthKey": "vitae",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 434
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "et"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "architecto",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 351
     }
   }
 }

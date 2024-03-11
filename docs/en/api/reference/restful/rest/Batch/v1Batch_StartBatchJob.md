@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Hartmann Inc and Sons",
-  "AssociateId": 603,
-  "DetailsTable": 883,
-  "DetailsRecord": 74,
-  "IsSystemTask": true,
+  "Id": 660,
+  "Name": "Friesen, Medhurst and Orn",
+  "AssociateId": 282,
+  "DetailsTable": 655,
+  "DetailsRecord": 424,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "cum",
-    "ParameterObject2": "maxime"
+    "ParameterObject1": "doloribus",
+    "ParameterObject2": "recusandae"
   },
-  "LastStarted": "2006-04-26T10:30:32.6699717+02:00",
-  "Created": "2006-12-13T10:30:32.6699717+01:00",
-  "StartCount": 410,
-  "DatabaseSerialNumber": "791167",
-  "Context": "quo",
-  "Result": "tempore",
+  "LastStarted": "2020-06-04T14:23:55.7595795+02:00",
+  "Created": "2018-06-04T14:23:55.7595795+02:00",
+  "StartCount": 474,
+  "DatabaseSerialNumber": "417959",
+  "Context": "rem",
+  "Result": "sint",
   "State": "All",
-  "Description": "Distributed zero administration superstructure",
-  "Response": "maiores",
-  "Request": "omnis",
-  "ProgressDescription": "Profound national array",
-  "ProgressPercent": 443,
-  "FileName": "Zieme, Konopelski and Reynolds",
+  "Description": "Seamless context-sensitive policy",
+  "Response": "perspiciatis",
+  "Request": "architecto",
+  "ProgressDescription": "Exclusive stable moratorium",
+  "ProgressPercent": 201,
+  "FileName": "Jast-Jacobi",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-386
+21
 ```

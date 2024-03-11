@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Harris Group",
-    "ToolTip": "Velit repudiandae omnis tempore.",
+    "Id": 962,
+    "Name": "Dooley, Murray and Altenwerth",
+    "ToolTip": "Harum enim quibusdam quia iure et ducimus consequatur.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "qui",
-    "ColorBlock": 670,
-    "IconHint": "consequatur",
+    "Rank": 637,
+    "Type": "unde",
+    "ColorBlock": 800,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2001-07-02T10:30:32.8425633+02:00",
+    "LastChanged": "2019-04-24T14:23:55.9470782+02:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Conn-Macejkovic",
-        "ToolTip": "Aperiam ad cupiditate fuga atque.",
+        "Id": 754,
+        "Name": "King, Hickle and Boyle",
+        "ToolTip": "Placeat laudantium reprehenderit ea ut perspiciatis expedita enim.",
         "Deleted": true,
-        "Rank": 213,
-        "Type": "ipsam",
-        "ColorBlock": 186,
-        "IconHint": "iste",
+        "Rank": 320,
+        "Type": "et",
+        "ColorBlock": 553,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2010-01-09T10:30:32.8425633+01:00",
+        "LastChanged": "1998-11-23T14:23:55.9470782+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "culpa",
+        "ExtraInfo": "ut",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Ronny Toy McCullough V",
+        "FullName": "Miss Efrain Roob I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 7
+            "FieldType": "System.String",
+            "FieldLength": 487
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Vincenza Wilber Ebert PhD",
+    "ExtraInfo": "et",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Lance McLaughlin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 367
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Ratke LLC",
-  "Tooltip": "aut",
+  "Id": 495,
+  "Name": "Jakubowski, Ruecker and Heller",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 281,
+  "Rank": 780,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true
+  "ListType": "vel",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Paucek-Anderson",
-  "Tooltip": "et",
+  "Id": 824,
+  "Name": "Kiehn, Balistreri and Ullrich",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 692,
+  "Rank": 57,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

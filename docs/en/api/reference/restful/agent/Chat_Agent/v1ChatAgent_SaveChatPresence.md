@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 458,
-      "DisplayName": "Trantow Group",
-      "OngoingChats": 284,
+      "UserId": 980,
+      "DisplayName": "Schuster, Ernser and Adams",
+      "OngoingChats": 990,
       "Present": false,
       "ChatTopics": [
-        103,
-        33
+        578,
+        794
       ]
     },
     {
-      "UserId": 458,
-      "DisplayName": "Trantow Group",
-      "OngoingChats": 284,
+      "UserId": 980,
+      "DisplayName": "Schuster, Ernser and Adams",
+      "OngoingChats": 990,
       "Present": false,
       "ChatTopics": [
-        103,
-        33
+        578,
+        794
       ]
     }
   ]

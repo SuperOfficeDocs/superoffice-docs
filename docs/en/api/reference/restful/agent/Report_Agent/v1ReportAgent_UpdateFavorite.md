@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 691,
+  "ReportId": 852,
   "ReportCategory": "All",
-  "Description": "Quality-focused asynchronous groupware",
+  "Description": "Total homogeneous extranet",
   "ReportLayout": "CalendarMonth",
-  "Name": "Block LLC",
-  "AssociateId": 889,
-  "TemplateId": 353,
+  "Name": "Bernier-Wiza",
+  "AssociateId": 251,
+  "TemplateId": 736,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

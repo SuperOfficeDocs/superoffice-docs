@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bradtke, Barrows and Pollich",
-  "DeviceName": "Connelly, Effertz and Hermiston"
+  "ApplicationName": "White, Luettgen and Hackett",
+  "DeviceName": "Russel-Skiles"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quis",
-    "Value": "aperiam",
-    "RecordId": 869,
-    "CreatedDate": "2023-11-07T10:30:23.9230375+01:00",
-    "UpdatedDate": "2008-01-11T10:30:23.9230375+01:00",
-    "UpdatedBy": "voluptatem",
-    "CreatedBy": "placeat",
-    "TableName": "Brakus Group",
+    "Key": "iure",
+    "Value": "non",
+    "RecordId": 608,
+    "CreatedDate": "1997-10-26T14:23:46.7681044+01:00",
+    "UpdatedDate": "1998-12-25T14:23:46.7681044+01:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "eligendi",
+    "TableName": "McGlynn, Gerlach and Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 85
       }
     }
   }

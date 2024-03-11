@@ -87,22 +87,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "labore",
-  "ProviderName": "Metz, McDermott and Bednar",
-  "StorageKey": "praesentium",
+  "StorageType": "et",
+  "ProviderName": "Cormier Inc and Sons",
+  "StorageKey": "optio",
   "DesiredColumns": [
-    "voluptatem",
-    "amet"
+    "excepturi",
+    "est"
   ],
-  "PageSize": 901,
-  "PageNumber": 567,
+  "PageSize": 594,
+  "PageNumber": 739,
   "OrderBy": [
     {
-      "Name": "Doyle, Rutherford and Nitzsche",
+      "Name": "Wiza, Zulauf and Rempel",
       "Direction": "ASC"
     },
     {
-      "Name": "Doyle, Rutherford and Nitzsche",
+      "Name": "Wiza, Zulauf and Rempel",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Stark-Russel",
-      "DisplayTooltip": "totam",
-      "DisplayType": "nostrum",
+      "DisplayName": "Koepp Inc and Sons",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "optio",
       "CanOrderBy": false,
-      "Name": "Morissette, Frami and Durgan",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Jewess-Schaden",
+      "Name": "Klein-Boehm",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Erdman-Hettinger",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "nam",
-      "IconHint": "earum",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "officia",
+      "Width": "eius",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "laborum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Fay Group",
-      "PrimaryKey": 986,
+      "EntityName": "Hickle-Homenick",
+      "PrimaryKey": 180,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "occaecati",
-          "TooltipHint": "non",
-          "LinkHint": "ipsam"
+          "DisplayValue": "at",
+          "TooltipHint": "ut",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "distinctio",
-      "StyleHint": "distinctio",
+      "LinkHint": "non",
+      "StyleHint": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 296
         }
       }
     }
   ],
-  "RowCount": 500,
+  "RowCount": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

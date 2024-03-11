@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 573,
-  "SourcePersonId": 245,
-  "DestinationContactId": 846,
-  "DestinationPersonId": 645,
-  "RelationId": 149,
-  "Comment": "dolores",
-  "RelationDefinitionId": 243,
-  "Reversed": 383,
-  "UpdatedDate": "1997-01-16T10:30:24.4502511+01:00",
-  "CreatedDate": "2019-05-02T10:30:24.4502511+02:00",
+  "SourceContactId": 465,
+  "SourcePersonId": 746,
+  "DestinationContactId": 808,
+  "DestinationPersonId": 954,
+  "RelationId": 691,
+  "Comment": "exercitationem",
+  "RelationDefinitionId": 366,
+  "Reversed": 354,
+  "UpdatedDate": "2009-12-28T14:23:47.2692571+01:00",
+  "CreatedDate": "2020-06-06T14:23:47.2692571+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heaney Inc and Sons",
-  "SourcePersonName": "Zieme, Swift and Davis",
-  "DestinationContactName": "Nader, Goldner and Botsford",
-  "DestinationPersonName": "Graham LLC",
+  "SourceContactName": "Satterfield LLC",
+  "SourcePersonName": "Waelchi Group",
+  "DestinationContactName": "Reynolds-Kunze",
+  "DestinationPersonName": "Brakus-Russel",
   "ActiveText": "quia",
-  "PassiveText": "vel",
+  "PassiveText": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Grimes-Lesch",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "Rank": 768,
+  "Id": 907,
+  "Name": "Ziemann Group",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 977,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Cummings, Hyatt and Cruickshank",
-  "Tooltip": "provident",
+  "Id": 633,
+  "Name": "Franecki-Keeling",
+  "Tooltip": "quos",
   "Deleted": true,
-  "Rank": 503,
+  "Rank": 886,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

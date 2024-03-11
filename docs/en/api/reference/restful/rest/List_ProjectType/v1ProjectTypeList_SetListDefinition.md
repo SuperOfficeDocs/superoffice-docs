@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Grady-Olson",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 610,
+  "Id": 406,
+  "Name": "Kshlerin, Hackett and Schiller",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 95,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Sauer, Christiansen and Kuhn",
-  "Tooltip": "omnis",
+  "Id": 908,
+  "Name": "Botsford, Parker and Paucek",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 543,
-  "IsCustomList": true,
+  "Rank": 944,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldLength": 788
     }
   }
 }

@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/25/2011 10:30:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/08/2003 10:30:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=347
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/16/2022 14:23:58
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/27/2017 14:23:58
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=807
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 441,
-  "ERPPriceListKey": "quae",
-  "QuoteConnectionId": 68,
-  "Name": "Feeney Inc and Sons",
-  "Description": "Proactive discrete policy",
-  "Currency": "quod",
-  "CurrencyName": "Nitzsche-Schultz",
-  "ValidFrom": "2022-08-05T10:30:33.0849147+02:00",
-  "ValidTo": "2017-05-02T10:30:33.0849147+02:00",
+  "PriceListId": 80,
+  "ERPPriceListKey": "fugit",
+  "QuoteConnectionId": 746,
+  "Name": "Williamson, Bauch and Casper",
+  "Description": "Integrated context-sensitive protocol",
+  "Currency": "commodi",
+  "CurrencyName": "Ledner-Morissette",
+  "ValidFrom": "2002-10-17T14:23:56.1814517+02:00",
+  "ValidTo": "2022-02-09T14:23:56.1814517+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 757
     }
   }
 }

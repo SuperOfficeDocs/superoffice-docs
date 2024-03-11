@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Koss Inc and Sons"
+  "EntityName": "Harber Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 638,
-  "Name": "Hamill-McKenzie",
-  "Description": "Centralized mission-critical leverage",
-  "DefaultHeight": 372,
-  "DefaultWidth": 398,
+  "DashboardTileDefinitionId": 130,
+  "Name": "Auer, Schmeler and Watsica",
+  "Description": "Function-based bifurcated parallelism",
+  "DefaultHeight": 680,
+  "DefaultWidth": 56,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mraz-Ullrich",
-  "SelectionId": 407,
+  "EntityName": "O'Hara, Donnelly and Windler",
+  "SelectionId": 33,
   "CurrencyMode": "Base",
   "CurrencyCode": "asperiores",
   "Measure": "Average",
-  "MeasureField": "dolor",
-  "SortBy": "eum",
-  "LayoutConfig": "inventore",
-  "SecondarySelectionId": 213,
-  "MeasureByField": "distinctio",
+  "MeasureField": "excepturi",
+  "SortBy": "a",
+  "LayoutConfig": "unde",
+  "SecondarySelectionId": 954,
+  "MeasureByField": "excepturi",
   "Usage": "Dashboard",
-  "ProviderName": "Reinger, Hauck and Leuschke",
+  "ProviderName": "Ondricka Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

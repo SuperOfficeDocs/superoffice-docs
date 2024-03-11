@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nolan, Franecki and Fahey",
+  "ProviderName": "Heaney, Braun and Graham",
   "Columns": [
-    "ratione",
-    "dolor"
+    "nulla",
+    "quaerat"
   ],
   "SortOrder": [
     {
-      "Name": "Jaskolski Group",
+      "Name": "Green Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Jaskolski Group",
+      "Name": "Green Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bartell, Labadie and Nikolaus",
-      "Operator": "et",
+      "Name": "Yost, Hane and Carroll",
+      "Operator": "quibusdam",
       "Values": [
-        "officiis",
-        "aut"
+        "earum",
+        "sapiente"
       ],
       "DisplayValues": [
-        "officiis",
-        "sed"
+        "laboriosam",
+        "delectus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 963,
+      "InterParenthesis": 919,
       "InterOperator": "And",
-      "UniqueHash": 170
+      "UniqueHash": 305
     }
   ],
   "Entities": [
-    "quam",
-    "dolorem"
+    "esse",
+    "repudiandae"
   ],
-  "Page": 47,
-  "PageSize": 230,
-  "Context": "mollitia"
+  "Page": 192,
+  "PageSize": 530,
+  "Context": "nobis"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Blick, Simonis and Kreiger",
-    "PrimaryKey": 730,
+    "EntityName": "O'Connell-Kautzer",
+    "PrimaryKey": 492,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "id",
-        "LinkHint": "similique"
+        "DisplayValue": "quis",
+        "TooltipHint": "unde",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "molestiae",
-    "StyleHint": "architecto",
+    "LinkHint": "ut",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 909
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

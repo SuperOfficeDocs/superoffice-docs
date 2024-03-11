@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=472
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=474
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 353,
-  "WorkflowStepId": 361,
-  "WorkflowId": 32,
-  "Rank": 477,
+  "WorkflowWaitForActionId": 710,
+  "WorkflowStepId": 415,
+  "WorkflowId": 965,
+  "Rank": 294,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Gutmann-Runolfsdottir",
-      "Description": "Decentralized real-time challenge",
-      "Rank": 361,
+      "Name": "Denesik-Little",
+      "Description": "Optional foreground analyzer",
+      "Rank": 136,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann-Runolfsdottir",
-      "Description": "Decentralized real-time challenge",
-      "Rank": 361,
+      "Name": "Denesik-Little",
+      "Description": "Optional foreground analyzer",
+      "Rank": 136,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

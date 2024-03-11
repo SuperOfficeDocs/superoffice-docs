@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Lockman, Roob and Effertz",
-  "StorageKey": "minima",
+  "StorageType": "ut",
+  "ProviderName": "Roob-Feeney",
+  "StorageKey": "tenetur",
   "Restrictions": [
     {
-      "Name": "Koelpin LLC",
-      "Operator": "ducimus",
+      "Name": "Wintheiser LLC",
+      "Operator": "aliquam",
       "Values": [
-        "provident",
-        "aut"
+        "explicabo",
+        "velit"
       ],
       "DisplayValues": [
-        "quas",
-        "officiis"
+        "non",
+        "inventore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 290,
+      "InterParenthesis": 4,
       "InterOperator": "And",
-      "UniqueHash": 114
+      "UniqueHash": 271
     }
   ],
   "StaticColumns": [
-    "est",
-    "hic"
+    "accusantium",
+    "nemo"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Auer, Kassulke and Erdman",
-      "Operator": "beatae",
+      "Name": "Adams LLC",
+      "Operator": "qui",
       "Values": [
-        "dolores",
-        "eum"
+        "sed",
+        "quaerat"
       ],
       "DisplayValues": [
-        "dicta",
-        "eaque"
+        "dolores",
+        "atque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 836,
+      "InterParenthesis": 391,
       "InterOperator": "And",
-      "UniqueHash": 113
+      "UniqueHash": 50
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Maggio-Kling",
-      "DisplayTooltip": "aliquam",
-      "DisplayType": "qui",
-      "CanOrderBy": true,
-      "Name": "Kiehn-Shanahan",
-      "CanRestrictBy": false,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Moen, Prohaska and Hirthe",
-      "IsVisible": false,
-      "ExtraInfo": "dolorem",
-      "Width": "sunt",
-      "IconHint": "repellendus",
-      "HeadingIconHint": "ducimus"
+      "DisplayName": "Stiedemann, Lowe and Gusikowski",
+      "DisplayTooltip": "harum",
+      "DisplayType": "blanditiis",
+      "CanOrderBy": false,
+      "Name": "Strosin, Johnston and Crist",
+      "CanRestrictBy": true,
+      "RestrictionType": "quam",
+      "RestrictionListName": "Ruecker Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "fuga",
+      "IconHint": "itaque",
+      "HeadingIconHint": "at"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Denesik-Beahan",
-      "PrimaryKey": 612,
+      "EntityName": "Parisian-Rutherford",
+      "PrimaryKey": 826,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quam",
-          "TooltipHint": "nam",
-          "LinkHint": "nostrum"
+          "DisplayValue": "maxime",
+          "TooltipHint": "quo",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "sit",
+      "LinkHint": "velit",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldType": "System.String",
+          "FieldLength": 45
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hane, Roob and Tillman",
-      "Description": "Synergistic scalable knowledge base",
-      "Rank": 738,
+      "Name": "Feeney Group",
+      "Description": "Virtual explicit flexibility",
+      "Rank": 634,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hane, Roob and Tillman",
-      "Description": "Synergistic scalable knowledge base",
-      "Rank": 738,
+      "Name": "Feeney Group",
+      "Description": "Virtual explicit flexibility",
+      "Rank": 634,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

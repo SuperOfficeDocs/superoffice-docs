@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Kling-Runolfsdottir",
-    "ToolTip": "Et eligendi sit quas quo omnis rem.",
-    "Deleted": false,
-    "Rank": 445,
-    "Type": "sed",
-    "ColorBlock": 385,
-    "IconHint": "accusantium",
-    "Selected": true,
-    "LastChanged": "2020-01-29T10:30:33.0849147+01:00",
+    "Id": 427,
+    "Name": "Willms-Lynch",
+    "ToolTip": "Aut incidunt.",
+    "Deleted": true,
+    "Rank": 433,
+    "Type": "aliquid",
+    "ColorBlock": 47,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2014-10-29T14:23:56.1814517+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Nader, Glover and Skiles",
-        "ToolTip": "Nesciunt excepturi sit.",
+        "Id": 612,
+        "Name": "Leannon LLC",
+        "ToolTip": "Eligendi pariatur.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "et",
-        "ColorBlock": 378,
-        "IconHint": "molestiae",
+        "Rank": 176,
+        "Type": "iste",
+        "ColorBlock": 886,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "2005-06-01T10:30:33.0849147+02:00",
+        "LastChanged": "2023-06-14T14:23:56.1814517+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "repellat",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Georgiana Harvey"
+        "FullName": "Werner Herman"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Norris Simonis"
+    "FullName": "Elijah Okuneva"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Littel, Will and Stanton",
-    "ToolTip": "Autem doloremque mollitia.",
+    "Id": 77,
+    "Name": "Kuhn LLC",
+    "ToolTip": "Quis qui minima nostrum accusantium ullam officiis aut.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "rerum",
-    "ColorBlock": 360,
-    "IconHint": "perferendis",
+    "Rank": 255,
+    "Type": "adipisci",
+    "ColorBlock": 950,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2010-10-10T10:30:33.0849147+02:00",
+    "LastChanged": "2023-06-17T14:23:56.1814517+02:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Yundt Group",
-        "ToolTip": "Veniam veritatis qui quam itaque error.",
+        "Id": 749,
+        "Name": "Torp Group",
+        "ToolTip": "Aliquid pariatur fugiat quas atque.",
         "Deleted": true,
-        "Rank": 769,
-        "Type": "similique",
-        "ColorBlock": 452,
-        "IconHint": "iure",
+        "Rank": 688,
+        "Type": "vel",
+        "ColorBlock": 713,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "1996-12-03T10:30:33.0849147+01:00",
+        "LastChanged": "2006-09-27T14:23:56.1814517+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "optio",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Krystal O'Kon",
+        "FullName": "Ms. Cyrus Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 108
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Isobel Koss",
+    "FullName": "Sedrick Daphnee Bayer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 868
+        "FieldLength": 320
       }
     }
   }

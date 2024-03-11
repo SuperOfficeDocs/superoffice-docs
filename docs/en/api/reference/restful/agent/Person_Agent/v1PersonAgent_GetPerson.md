@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=35
+POST /api/v1/Agents/Person/GetPerson?personId=18
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ut",
-  "PersonId": 438,
-  "Mrmrs": "harum",
-  "Firstname": "Lavinia",
-  "Lastname": "Feest",
-  "MiddleName": "Schulist, Stark and Boyle",
-  "Title": "accusantium",
-  "Description": "Optional bottom-line process improvement",
-  "Email": "leon.padberg@huel.biz",
-  "FullName": "Autumn Ferry",
-  "DirectPhone": "026.235.7373 x13927",
-  "FormalName": "Vandervort-Hyatt",
-  "CountryId": 783,
-  "ContactId": 810,
-  "ContactName": "Upton-Hayes",
-  "Retired": 653,
-  "Rank": 460,
-  "ActiveInterests": 516,
+  "Position": "eum",
+  "PersonId": 867,
+  "Mrmrs": "eos",
+  "Firstname": "Enrique",
+  "Lastname": "Reilly",
+  "MiddleName": "Schuster, Klein and Tromp",
+  "Title": "commodi",
+  "Description": "Sharable motivating leverage",
+  "Email": "hailie@colebode.us",
+  "FullName": "Katlynn Bruen",
+  "DirectPhone": "1-465-190-2363",
+  "FormalName": "Stoltenberg-Blanda",
+  "CountryId": 782,
+  "ContactId": 284,
+  "ContactName": "Littel Inc and Sons",
+  "Retired": 184,
+  "Rank": 179,
+  "ActiveInterests": 821,
   "ContactDepartment": "",
-  "ContactCountryId": 927,
-  "ContactOrgNr": "1310317",
-  "FaxPhone": "(168)988-4520 x6428",
-  "MobilePhone": "1-958-150-3322 x01131",
-  "ContactPhone": "640-217-6076 x025",
-  "AssociateName": "Pfeffer-Kling",
-  "AssociateId": 698,
+  "ContactCountryId": 697,
+  "ContactOrgNr": "291151",
+  "FaxPhone": "(664)485-9939 x7148",
+  "MobilePhone": "269-476-5622 x7237",
+  "ContactPhone": "065-486-2449",
+  "AssociateName": "Crist-Langosh",
+  "AssociateId": 59,
   "UsePersonAddress": false,
-  "ContactFax": "beatae",
-  "Kanafname": "optio",
-  "Kanalname": "consequatur",
-  "Post1": "aliquam",
-  "Post2": "facere",
-  "Post3": "aliquam",
-  "EmailName": "easton.hills@walsh.info",
-  "ContactFullName": "Robert Erdman",
-  "ActiveErpLinks": 90,
-  "TicketPriorityId": 233,
-  "SupportLanguageId": 462,
-  "SupportAssociateId": 334,
+  "ContactFax": "veritatis",
+  "Kanafname": "dolorem",
+  "Kanalname": "excepturi",
+  "Post1": "dolorum",
+  "Post2": "optio",
+  "Post3": "rerum",
+  "EmailName": "ivah@goldnerschmeler.ca",
+  "ContactFullName": "Granville McCullough",
+  "ActiveErpLinks": 526,
+  "TicketPriorityId": 958,
+  "SupportLanguageId": 716,
+  "SupportAssociateId": 184,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 889
     }
   }
 }

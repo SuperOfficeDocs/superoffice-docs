@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 656,
-    "Name": "Ortiz-Zemlak",
-    "Tooltip": "ut",
-    "Rank": 803,
-    "Key": "quasi",
-    "MailTemplateId": 741,
+    "ConsentSourceId": 486,
+    "Name": "Rippin Group",
+    "Tooltip": "enim",
+    "Rank": 228,
+    "Key": "ut",
+    "MailTemplateId": 380,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   }

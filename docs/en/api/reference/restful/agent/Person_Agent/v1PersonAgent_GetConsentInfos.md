@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 334
+  "PersonId": 319
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 472,
-    "Comment": "unde",
-    "Registered": "2001-12-09T10:30:24.2443912+01:00",
-    "RegisteredAssociateId": 231,
-    "Updated": "2015-01-31T10:30:24.2443912+01:00",
-    "UpdatedAssociateId": 886,
-    "LegalBaseId": 11,
-    "LegalBaseKey": "voluptatem",
-    "LegalBaseName": "Muller-Conn",
-    "ConsentPurposeId": 666,
-    "ConsentPurposeKey": "repellendus",
-    "ConsentPurposeName": "Crist-Feeney",
-    "ConsentSourceId": 558,
-    "ConsentSourceKey": "facilis",
-    "ConsentSourceName": "Waters Inc and Sons",
+    "ConsentPersonId": 452,
+    "Comment": "eos",
+    "Registered": "2006-08-07T14:23:47.0661361+02:00",
+    "RegisteredAssociateId": 216,
+    "Updated": "2023-12-10T14:23:47.0661361+01:00",
+    "UpdatedAssociateId": 132,
+    "LegalBaseId": 623,
+    "LegalBaseKey": "id",
+    "LegalBaseName": "Ebert-Senger",
+    "ConsentPurposeId": 633,
+    "ConsentPurposeKey": "quo",
+    "ConsentPurposeName": "Cormier Inc and Sons",
+    "ConsentSourceId": 365,
+    "ConsentSourceKey": "et",
+    "ConsentSourceName": "Towne-Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

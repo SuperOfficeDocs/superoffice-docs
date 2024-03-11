@@ -85,18 +85,18 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Dooley LLC",
-  "Tooltip": "accusamus",
+  "Id": 423,
+  "Name": "Haley Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 348,
+  "Rank": 967,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Price Inc and Sons",
-  "Tooltip": "nam",
+  "Id": 592,
+  "Name": "White, Fadel and Schroeder",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 63,
-  "IsCustomList": false,
+  "Rank": 534,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 190
     }
   }
 }

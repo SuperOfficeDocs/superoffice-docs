@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Emard Group",
+  "UdListDefinitionName": "Schumm Inc and Sons",
   "Items": [
     {
-      "Id": 447,
-      "Name": "Tremblay, Bashirian and DuBuque",
-      "Tooltip": "neque",
-      "Deleted": true,
-      "UdListDefinitionId": 146,
-      "Rank": 769
+      "Id": 133,
+      "Name": "Mosciski, Christiansen and Ernser",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "UdListDefinitionId": 686,
+      "Rank": 257
     },
     {
-      "Id": 447,
-      "Name": "Tremblay, Bashirian and DuBuque",
-      "Tooltip": "neque",
-      "Deleted": true,
-      "UdListDefinitionId": 146,
-      "Rank": 769
+      "Id": 133,
+      "Name": "Mosciski, Christiansen and Ernser",
+      "Tooltip": "voluptas",
+      "Deleted": false,
+      "UdListDefinitionId": 686,
+      "Rank": 257
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Luettgen, Predovic and Hyatt",
-    "Tooltip": "recusandae",
+    "Id": 329,
+    "Name": "Nader-Trantow",
+    "Tooltip": "nulla",
     "Deleted": true,
-    "UdListDefinitionId": 852,
-    "Rank": 521,
+    "UdListDefinitionId": 718,
+    "Rank": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 394
       }
     }
   }

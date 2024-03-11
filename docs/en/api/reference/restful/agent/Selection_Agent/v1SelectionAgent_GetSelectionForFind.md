@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Maggio-Stracke",
-  "TypicalSearchId": 570
+  "EntityName": "Renner Group",
+  "TypicalSearchId": 247
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Armstrong, Frami and Satterfield",
-  "SelectionId": 101,
+  "ProviderName": "Kulas, Wilderman and Prosacco",
+  "SelectionId": 625,
   "CanSaveAsSelection": false,
-  "MainHeading": "unde",
-  "FilterScreenHeading": "fugiat",
-  "SelectionEntityHeading": "est",
+  "MainHeading": "illum",
+  "FilterScreenHeading": "laboriosam",
+  "SelectionEntityHeading": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

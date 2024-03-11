@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Keeling-Moore",
-    "ToolTip": "Illum debitis quam laboriosam nobis.",
-    "Deleted": true,
-    "Rank": 832,
-    "Type": "et",
-    "ColorBlock": 744,
-    "IconHint": "quod",
-    "Selected": false,
-    "LastChanged": "2011-10-30T10:30:33.2099635+01:00",
+    "Id": 441,
+    "Name": "Kilback Group",
+    "ToolTip": "Temporibus voluptate beatae eligendi.",
+    "Deleted": false,
+    "Rank": 986,
+    "Type": "aut",
+    "ColorBlock": 718,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2010-06-07T14:23:56.3064496+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Beahan-Ledner",
-        "ToolTip": "Maxime aspernatur.",
+        "Id": 561,
+        "Name": "Rogahn Group",
+        "ToolTip": "Cumque laboriosam vitae ut quia minus ut.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "et",
-        "ColorBlock": 79,
-        "IconHint": "amet",
+        "Rank": 675,
+        "Type": "quis",
+        "ColorBlock": 358,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2001-04-26T10:30:33.2099635+02:00",
+        "LastChanged": "2015-05-11T14:23:56.3064496+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "modi",
+        "ExtraInfo": "ea",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Margarete Buckridge",
+        "FullName": "Laurence Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 293
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Joesph Smith",
+    "ExtraInfo": "tempora",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Miss Augustus Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldLength": 435
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized multimedia system engine",
-  "Postit": "non",
+  "Description": "Synergized neutral flexibility",
+  "Postit": "dolores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 351,
-  "IncludePerson": 345,
-  "MemberCount": 54,
-  "Name": "Rath, Smitham and Mann",
-  "PostitTextId": 550,
-  "CreatedDate": "2001-06-17T10:30:24.5596239+02:00",
-  "SelectionId": 238,
-  "SoundEx": "nemo",
-  "Source": 452,
-  "TextId": 386,
-  "UpdatedDate": "2015-10-20T10:30:24.5596239+02:00",
-  "UpdatedCount": 739,
-  "Visibility": 784,
+  "GroupIdx": 730,
+  "IncludePerson": 395,
+  "MemberCount": 413,
+  "Name": "Senger-Rodriguez",
+  "PostitTextId": 210,
+  "CreatedDate": "2015-02-07T14:23:47.3786314+01:00",
+  "SelectionId": 666,
+  "SoundEx": "sunt",
+  "Source": 556,
+  "TextId": 2,
+  "UpdatedDate": "2014-02-03T14:23:47.3786314+01:00",
+  "UpdatedCount": 955,
+  "Visibility": 1001,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 319,
-  "TargetTableName": "Sawayn, Purdy and Gerhold",
-  "Completed": true,
-  "LeftSelectionId": 682,
-  "RightSelectionId": 957,
+  "TargetTableNumber": 435,
+  "TargetTableName": "Haag LLC",
+  "Completed": false,
+  "LeftSelectionId": 30,
+  "RightSelectionId": 555,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Waters, Rice and Vandervort",
-  "ShadowProviderName": "Leannon, O'Connell and McCullough",
-  "ChartKey": "numquam",
-  "LastLoaded": "2013-11-19T10:30:24.5596239+01:00",
-  "LastLoadedBy": 989,
+  "MainProviderName": "Langosh LLC",
+  "ShadowProviderName": "Schaden LLC",
+  "ChartKey": "sunt",
+  "LastLoaded": "2005-01-02T14:23:47.3786314+01:00",
+  "LastLoadedBy": 888,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-04-15T10:30:24.5596239+02:00",
-  "LastMembershipChangeBy": 697,
+  "LastMembershipChange": "2008-07-03T14:23:47.3786314+02:00",
+  "LastMembershipChangeBy": 165,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ratione",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Koepp LLC",
-  "DashboardTileDefinitionId": 401,
+  "MainHeading": "et",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Powlowski LLC",
+  "DashboardTileDefinitionId": 845,
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldLength": 45
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldLength": 45
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 275
     }
   }
 }

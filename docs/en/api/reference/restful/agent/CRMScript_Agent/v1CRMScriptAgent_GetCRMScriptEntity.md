@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=403
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=110
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 817,
-  "UniqueIdentifier": "explicabo",
-  "Name": "Baumbach, Russel and Purdy",
-  "Description": "Balanced uniform model",
-  "IncludeId": "qui",
-  "HierarchyId": 308,
-  "Source": "qui",
-  "Registered": "2011-07-22T10:30:23.4049883+02:00",
-  "RegisteredAssociateId": 725,
-  "Updated": "2003-10-12T10:30:23.4049883+02:00",
-  "UpdatedAssociateId": 760,
+  "EjscriptId": 534,
+  "UniqueIdentifier": "non",
+  "Name": "Batz, Raynor and Harvey",
+  "Description": "Balanced dedicated synergy",
+  "IncludeId": "sint",
+  "HierarchyId": 457,
+  "Source": "quo",
+  "Registered": "2002-08-09T14:23:46.2043319+02:00",
+  "RegisteredAssociateId": 363,
+  "Updated": "2003-03-03T14:23:46.2043319+01:00",
+  "UpdatedAssociateId": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 156
     }
   }
 }

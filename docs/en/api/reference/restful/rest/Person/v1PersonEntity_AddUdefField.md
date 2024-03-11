@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 37,
-  "ColumnId": 206,
-  "FieldDefault": "ratione",
-  "FieldHeight": 617,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 368,
-  "FieldTop": 152,
+  "UDefFieldId": 376,
+  "ColumnId": 697,
+  "FieldDefault": "id",
+  "FieldHeight": 189,
+  "FieldLabel": "ullam",
+  "FieldLeft": 94,
+  "FieldTop": 920,
   "FieldType": "Checkbox",
-  "FieldWidth": 174,
-  "FormatMask": "nihil",
+  "FieldWidth": 470,
+  "FormatMask": "aperiam",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 338,
-  "LabelLeft": 120,
-  "LabelTop": 299,
-  "LabelWidth": 78,
-  "LastVersionId": 130,
-  "ListTableId": 248,
+  "LabelHeight": 238,
+  "LabelLeft": 901,
+  "LabelTop": 842,
+  "LabelWidth": 102,
+  "LastVersionId": 584,
+  "ListTableId": 234,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 156,
-  "ProgId": "laborum",
+  "Page1LineNo": 542,
+  "ProgId": "enim",
   "IsReadOnly": false,
-  "ShortLabel": "delectus",
-  "TabOrder": 955,
-  "TextLength": 605,
-  "Tooltip": "quasi",
-  "UdefIdentity": 3,
-  "UDListDefinitionId": 722,
+  "ShortLabel": "eum",
+  "TabOrder": 31,
+  "TextLength": 342,
+  "Tooltip": "ad",
+  "UdefIdentity": 842,
+  "UDListDefinitionId": 272,
   "Justification": "Center",
-  "Version": 827,
-  "TemplateVariableName": "Torp Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Hansen, Hintz and Greenfelder",
+  "Version": 901,
+  "TemplateVariableName": "Mayer Group",
+  "HasBeenPublished": true,
+  "MdoListName": "O'Hara-Huels",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldLength": 281
     }
   }
 }

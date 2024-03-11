@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Hills Group",
-  "Tooltip": "fugit",
+  "Id": 891,
+  "Name": "Carter-Tromp",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 125,
+  "Rank": 218,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Bailey Group",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 260,
-  "IsCustomList": true,
+  "Id": 568,
+  "Name": "Bode, Raynor and Mayer",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 597,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
-  "InUseByUserDefinedFields": false,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 754
     }
   }
 }

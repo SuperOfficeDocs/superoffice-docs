@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 132,
-  "Name": "Dickens-Jacobson",
-  "Tooltip": "ipsum",
+  "Id": 814,
+  "Name": "Wolf, Fritsch and Stokes",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "UdListDefinitionId": 818,
-  "Rank": 722,
+  "UdListDefinitionId": 637,
+  "Rank": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 552
     }
   }
 }

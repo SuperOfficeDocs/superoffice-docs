@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 325,
-  "Name": "Bosco Inc and Sons",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 365,
-  "UdListDefinitionId": 423
+  "HeadingId": 615,
+  "Name": "White, Marks and Stroman",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 451,
+  "UdListDefinitionId": 653
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 724,
-  "Name": "Cassin LLC",
-  "Tooltip": "rerum",
+  "HeadingId": 18,
+  "Name": "Graham LLC",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 740,
-  "UdListDefinitionId": 654,
+  "Rank": 513,
+  "UdListDefinitionId": 986,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 286
     }
   }
 }

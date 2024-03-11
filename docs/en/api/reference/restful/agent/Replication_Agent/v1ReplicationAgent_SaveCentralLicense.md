@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Ward-Botsford",
-      "Description": "Switchable dedicated hierarchy",
+      "Name": "Parker, Hettinger and Gleichner",
+      "Description": "Distributed contextually-based access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ward-Botsford",
-      "Description": "Switchable dedicated hierarchy",
+      "Name": "Parker, Hettinger and Gleichner",
+      "Description": "Distributed contextually-based access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hirthe-Erdman",
-    "Description": "Fundamental didactic encryption",
+    "Name": "Kuhlman, Hudson and Schmidt",
+    "Description": "Expanded executive complexity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 428,
-        "Tooltip": "odio",
+        "Unrestricted": true,
+        "Total": 1002,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 162,
-        "InUse": 889,
+        "Free": 794,
+        "InUse": 432,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 732,
-        "Name": "Heathcote, Wyman and Terry",
-        "Description": "Triple-buffered bottom-line installation",
-        "PrerequisiteModuleName": "Wintheiser-Buckridge",
-        "SortOrder": 47,
-        "ExtraFlags": 409,
+        "Assigned": false,
+        "ModuleLicenseId": 964,
+        "Name": "Osinski Inc and Sons",
+        "Description": "Implemented contextually-based circuit",
+        "PrerequisiteModuleName": "Kemmer, Buckridge and Powlowski",
+        "SortOrder": 454,
+        "ExtraFlags": 125,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 655
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 238,
-        "Tooltip": "quidem",
-        "CanAssign": false,
-        "Free": 786,
-        "InUse": 852,
+        "Unrestricted": true,
+        "Total": 764,
+        "Tooltip": "omnis",
+        "CanAssign": true,
+        "Free": 16,
+        "InUse": 787,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Schaefer, Nolan and Kilback",
-        "Description": "Synergized bi-directional implementation",
-        "PrerequisiteModuleName": "Morissette Inc and Sons",
-        "SortOrder": 125,
-        "ExtraFlags": 630,
+        "ModuleLicenseId": 496,
+        "Name": "Von Group",
+        "Description": "Stand-alone intangible functionalities",
+        "PrerequisiteModuleName": "Kautzer, Weissnat and Hills",
+        "SortOrder": 60,
+        "ExtraFlags": 239,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 758
           }
         }
       }
@@ -178,61 +178,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 880
       }
     }
   },
   {
-    "Name": "Hirthe-Erdman",
-    "Description": "Fundamental didactic encryption",
+    "Name": "Kuhlman, Hudson and Schmidt",
+    "Description": "Expanded executive complexity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 428,
-        "Tooltip": "odio",
+        "Unrestricted": true,
+        "Total": 1002,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 162,
-        "InUse": 889,
+        "Free": 794,
+        "InUse": 432,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 732,
-        "Name": "Heathcote, Wyman and Terry",
-        "Description": "Triple-buffered bottom-line installation",
-        "PrerequisiteModuleName": "Wintheiser-Buckridge",
-        "SortOrder": 47,
-        "ExtraFlags": 409,
+        "Assigned": false,
+        "ModuleLicenseId": 964,
+        "Name": "Osinski Inc and Sons",
+        "Description": "Implemented contextually-based circuit",
+        "PrerequisiteModuleName": "Kemmer, Buckridge and Powlowski",
+        "SortOrder": 454,
+        "ExtraFlags": 125,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 655
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 238,
-        "Tooltip": "quidem",
-        "CanAssign": false,
-        "Free": 786,
-        "InUse": 852,
+        "Unrestricted": true,
+        "Total": 764,
+        "Tooltip": "omnis",
+        "CanAssign": true,
+        "Free": 16,
+        "InUse": 787,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Schaefer, Nolan and Kilback",
-        "Description": "Synergized bi-directional implementation",
-        "PrerequisiteModuleName": "Morissette Inc and Sons",
-        "SortOrder": 125,
-        "ExtraFlags": 630,
+        "ModuleLicenseId": 496,
+        "Name": "Von Group",
+        "Description": "Stand-alone intangible functionalities",
+        "PrerequisiteModuleName": "Kautzer, Weissnat and Hills",
+        "SortOrder": 60,
+        "ExtraFlags": 239,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 758
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 880
       }
     }
   }

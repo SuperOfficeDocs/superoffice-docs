@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Crist, Ferry and Reichel",
-  "Tooltip": "vel",
+  "Id": 621,
+  "Name": "Harris Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 748,
-  "Rank": 494,
+  "UdListDefinitionId": 528,
+  "Rank": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   }
 }

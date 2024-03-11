@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Cronin-Rice",
-  "Tooltip": "sed",
+  "Id": 587,
+  "Name": "Hackett, Kris and Thompson",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "Rank": 309,
+  "Rank": 995,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
+  "UseGroupsAndHeadings": false,
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "exercitationem",
+  "Id": 742,
+  "Name": "Braun, Yundt and Reichert",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "Rank": 848,
-  "IsCustomList": false,
+  "Rank": 574,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 882
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 762,
-    "Name": "Reilly Inc and Sons",
-    "Tooltip": "quidem",
+    "HeadingId": 234,
+    "Name": "Breitenberg, Kreiger and Kozey",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 822,
-    "UdListDefinitionId": 64,
+    "Rank": 419,
+    "UdListDefinitionId": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldLength": 748
       }
     }
   }

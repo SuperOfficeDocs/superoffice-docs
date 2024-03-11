@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 709,
-  "Name": "Gibson LLC",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 553,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": true
+  "Id": 74,
+  "Name": "Schulist, Dach and Johnson",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 4,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Walker LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 841,
+  "Id": 224,
+  "Name": "Pagac LLC",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 571,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "at",
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 95
     }
   }
 }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gaylord-Kemmer",
-  "ListItemId": 374,
-  "ShowDeleted": false
+  "UdListDefinitionName": "Jones-Cole",
+  "ListItemId": 338,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Towne, Wolf and Schimmel",
-    "ToolTip": "Tempora aut quia in quo et ut sit.",
+    "Id": 265,
+    "Name": "Rodriguez-Wisozk",
+    "ToolTip": "Quam voluptate.",
     "Deleted": false,
-    "Rank": 560,
-    "Type": "et",
-    "ColorBlock": 437,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2003-10-24T10:30:23.9944062+02:00",
+    "Rank": 591,
+    "Type": "fuga",
+    "ColorBlock": 126,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2005-05-30T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Stehr-Legros",
-        "ToolTip": "Molestias qui sit.",
-        "Deleted": true,
-        "Rank": 903,
-        "Type": "blanditiis",
-        "ColorBlock": 350,
-        "IconHint": "velit",
+        "Id": 13,
+        "Name": "Grant, Cassin and Jerde",
+        "ToolTip": "Tempore temporibus dolores illo cumque eius quae porro.",
+        "Deleted": false,
+        "Rank": 437,
+        "Type": "eius",
+        "ColorBlock": 575,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2010-04-21T10:30:23.9944062+02:00",
+        "LastChanged": "2019-08-21T14:23:46.8306046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Ervin Muller",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "animi",
+        "Hidden": true,
+        "FullName": "Darren Henriette Funk II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldType": "System.String",
+            "FieldLength": 272
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Salma Kirlin",
+    "ExtraInfo": "natus",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mittie Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 809,
-  "AttachmentId": "veniam"
+  "DocId": 860,
+  "AttachmentId": "nihil"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized disintermediate neural-net",
-  "Filename": "quia",
-  "Size": 369,
-  "Type": "dolorum",
-  "Encoding": "hic",
-  "Id": "ducimus",
-  "Disposition": "officia",
-  "IsSafeFileExtension": true,
+  "Description": "Open-architected scalable info-mediaries",
+  "Filename": "ipsa",
+  "Size": 569,
+  "Type": "ab",
+  "Encoding": "in",
+  "Id": "est",
+  "Disposition": "qui",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 233
     }
   }
 }

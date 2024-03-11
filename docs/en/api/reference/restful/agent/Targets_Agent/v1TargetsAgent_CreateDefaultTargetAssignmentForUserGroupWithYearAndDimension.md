@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 55,
-  "Year": 719,
-  "TargetDimensionId": 999
+  "UserGroupId": 433,
+  "Year": 464,
+  "TargetDimensionId": 279
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 739,
+    "TargetAssignmentInfoId": 127,
     "Values": [
-      333,
-      149
+      705,
+      181
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 400,
-    "DimensionListItemDisplayName": "Schinner, Yundt and Thiel",
+    "DimensionListItem": 445,
+    "DimensionListItemDisplayName": "Beahan LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldLength": 121
       }
     }
   }

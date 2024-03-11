@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 487,
-  "Name": "Nolan, Bartoletti and Rowe",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 994,
-  "UdListDefinitionId": 652
+  "HeadingId": 249,
+  "Name": "McCullough, Kilback and Kihn",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 640,
+  "UdListDefinitionId": 493
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 814,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "dolore",
+  "HeadingId": 674,
+  "Name": "Ruecker-Emard",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 911,
-  "UdListDefinitionId": 270,
+  "Rank": 476,
+  "UdListDefinitionId": 250,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

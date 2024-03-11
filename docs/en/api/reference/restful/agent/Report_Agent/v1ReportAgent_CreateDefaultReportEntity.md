@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 814,
+  "ReportId": 776,
   "ReportCategory": "All",
-  "Description": "Virtual context-sensitive firmware",
+  "Description": "Automated logistical artificial intelligence",
   "ReportLayout": "CalendarMonth",
-  "Name": "Witting-Jerde",
-  "AssociateId": 728,
-  "TemplateId": 454,
-  "Published": false,
+  "Name": "Harvey, Miller and Schneider",
+  "AssociateId": 778,
+  "TemplateId": 387,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

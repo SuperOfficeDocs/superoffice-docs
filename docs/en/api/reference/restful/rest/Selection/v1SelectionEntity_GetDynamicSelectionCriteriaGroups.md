@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thompson Group",
-    "Description": "Multi-channelled real-time protocol",
-    "Rank": 151,
+    "Name": "Hauck Group",
+    "Description": "Focused 3rd generation standardization",
+    "Rank": 911,
     "Restrictions": [
       {
-        "Name": "Gottlieb-Gerlach",
-        "Operator": "sunt",
+        "Name": "Larkin Group",
+        "Operator": "libero",
         "Values": [
-          "odit",
-          "beatae"
+          "ullam",
+          "amet"
         ],
         "DisplayValues": [
-          "cumque",
-          "nemo"
+          "accusamus",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 456,
+        "InterParenthesis": 208,
         "InterOperator": "And",
-        "UniqueHash": 236
+        "UniqueHash": 199
       }
     ]
   },
   {
-    "Name": "Thompson Group",
-    "Description": "Multi-channelled real-time protocol",
-    "Rank": 151,
+    "Name": "Hauck Group",
+    "Description": "Focused 3rd generation standardization",
+    "Rank": 911,
     "Restrictions": [
       {
-        "Name": "Gottlieb-Gerlach",
-        "Operator": "sunt",
+        "Name": "Larkin Group",
+        "Operator": "libero",
         "Values": [
-          "odit",
-          "beatae"
+          "ullam",
+          "amet"
         ],
         "DisplayValues": [
-          "cumque",
-          "nemo"
+          "accusamus",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 456,
+        "InterParenthesis": 208,
         "InterOperator": "And",
-        "UniqueHash": 236
+        "UniqueHash": 199
       }
     ]
   }

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "non",
-  "Key": "placeat"
+  "Section": "quae",
+  "Key": "nihil"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 559,
-  "Section": "iste",
-  "Key": "non",
-  "Name": "Mitchell, Schmeler and Witting",
+  "PrefDescId": 749,
+  "Section": "quo",
+  "Key": "facere",
+  "Name": "Olson Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-engineered fresh-thinking application",
+  "Description": "Extended foreground contingency",
   "IsBuiltin": false,
-  "TableName": "Wiegand-Runte",
-  "UserDefinedListId": 940,
-  "Rank": 802,
-  "SubGroup": "autem",
-  "MinLevel": 153,
-  "MaxValue": 760,
-  "MinValue": 280,
-  "RequiredLicense": "qui",
+  "TableName": "Casper-Gleason",
+  "UserDefinedListId": 893,
+  "Rank": 24,
+  "SubGroup": "quae",
+  "MinLevel": 39,
+  "MaxValue": 397,
+  "MinValue": 338,
+  "RequiredLicense": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

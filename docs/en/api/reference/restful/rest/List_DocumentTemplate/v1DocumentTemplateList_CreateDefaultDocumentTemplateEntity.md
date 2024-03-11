@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 839,
-  "Name": "Kreiger, Terry and Leuschke",
-  "Tooltip": "iure",
-  "SaveInDb": 913,
-  "Filename": "nesciunt",
-  "DefaultOref": "excepturi",
+  "DocumentTemplateId": 762,
+  "Name": "Predovic, Moore and Morar",
+  "Tooltip": "est",
+  "SaveInDb": 963,
+  "Filename": "quod",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 154,
-  "IntentId": 43,
+  "AutoeventId": 366,
+  "IntentId": 266,
   "IsDefaultPublished": false,
-  "Rank": 145,
-  "LoadTemplateFromPlugin": 175,
-  "MimeType": "ullam",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 12,
+  "Rank": 2,
+  "LoadTemplateFromPlugin": 199,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 945,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "nash.little@kirlin.us",
+  "EmailSubject": "kole_ondricka@vonrueden.com",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rodolfo@lubowitz.us",
+  "SenderEmailAddress": "benjamin@padberg.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

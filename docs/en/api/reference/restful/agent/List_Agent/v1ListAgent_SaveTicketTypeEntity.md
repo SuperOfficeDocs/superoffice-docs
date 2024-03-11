@@ -85,28 +85,28 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 751,
-  "Name": "Flatley, Dickinson and Rodriguez",
-  "Rank": 497,
-  "Tooltip": "voluptas",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 587,
+  "TicketTypeId": 198,
+  "Name": "Glover LLC",
+  "Rank": 393,
+  "Tooltip": "quibusdam",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 919,
   "TicketStatuses": [
-    283,
-    504
+    388,
+    858
   ],
-  "DefaultTicketPriority": 243,
+  "DefaultTicketPriority": 662,
   "TicketPriorities": [
-    747,
-    775
+    588,
+    743
   ],
-  "ReplyTemplate": 810,
+  "ReplyTemplate": 648,
   "IsExternalVisible": false,
-  "IsDefault": true
+  "IsDefault": false
 }
 ```
 
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 692,
-  "Name": "Schowalter, Treutel and Dietrich",
-  "Rank": 585,
-  "Tooltip": "fugiat",
-  "Icon": "aspernatur",
-  "DefaultTicketStatus": 8,
+  "TicketTypeId": 960,
+  "Name": "Trantow Group",
+  "Rank": 886,
+  "Tooltip": "dolores",
+  "Icon": "debitis",
+  "DefaultTicketStatus": 997,
   "TicketStatuses": [
-    737,
-    328
+    640,
+    344
   ],
-  "DefaultTicketPriority": 5,
+  "DefaultTicketPriority": 186,
   "TicketPriorities": [
-    479,
-    489
+    466,
+    541
   ],
-  "ReplyTemplate": 272,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 561,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 727
     }
   }
 }

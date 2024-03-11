@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=491
+GET /api/v1/Person/{personId}/Summary?limit=474
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 53,
-      "TicketStatus": 955,
-      "Title": "dolorum",
-      "Registered": "2023-05-12T10:30:32.1668022+02:00",
-      "IconHint": "velit"
+      "TicketId": 956,
+      "TicketStatus": 4,
+      "Title": "pariatur",
+      "Registered": "2023-01-20T14:23:55.2908369+01:00",
+      "IconHint": "provident"
     },
     {
-      "TicketId": 53,
-      "TicketStatus": 955,
-      "Title": "dolorum",
-      "Registered": "2023-05-12T10:30:32.1668022+02:00",
-      "IconHint": "velit"
+      "TicketId": 956,
+      "TicketStatus": 4,
+      "Title": "pariatur",
+      "Registered": "2023-01-20T14:23:55.2908369+01:00",
+      "IconHint": "provident"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 166,
-      "DocumentId": 406,
-      "Date": "2000-09-07T10:30:32.1668022+02:00",
-      "Description": "Switchable zero administration middleware",
+      "AppointmentId": 249,
+      "DocumentId": 724,
+      "Date": "1998-01-20T14:23:55.2908369+01:00",
+      "Description": "Compatible optimizing solution",
       "Completed": "Completed",
-      "Registered": "2019-07-20T10:30:32.1668022+02:00"
+      "Registered": "2014-09-21T14:23:55.2908369+02:00"
     },
     {
-      "AppointmentId": 166,
-      "DocumentId": 406,
-      "Date": "2000-09-07T10:30:32.1668022+02:00",
-      "Description": "Switchable zero administration middleware",
+      "AppointmentId": 249,
+      "DocumentId": 724,
+      "Date": "1998-01-20T14:23:55.2908369+01:00",
+      "Description": "Compatible optimizing solution",
       "Completed": "Completed",
-      "Registered": "2019-07-20T10:30:32.1668022+02:00"
+      "Registered": "2014-09-21T14:23:55.2908369+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 998,
-      "DocumentId": 586,
-      "Date": "2006-09-23T10:30:32.1668022+02:00",
-      "Description": "Down-sized systematic hub",
+      "AppointmentId": 485,
+      "DocumentId": 191,
+      "Date": "2013-07-09T14:23:55.2908369+02:00",
+      "Description": "Exclusive value-added support",
       "Completed": "Completed",
-      "Registered": "2008-08-17T10:30:32.1668022+02:00"
+      "Registered": "2009-06-13T14:23:55.2908369+02:00"
     },
     {
-      "AppointmentId": 998,
-      "DocumentId": 586,
-      "Date": "2006-09-23T10:30:32.1668022+02:00",
-      "Description": "Down-sized systematic hub",
+      "AppointmentId": 485,
+      "DocumentId": 191,
+      "Date": "2013-07-09T14:23:55.2908369+02:00",
+      "Description": "Exclusive value-added support",
       "Completed": "Completed",
-      "Registered": "2008-08-17T10:30:32.1668022+02:00"
+      "Registered": "2009-06-13T14:23:55.2908369+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 728,
-      "SaleDate": "2017-03-02T10:30:32.1668022+01:00",
-      "Probability": 442,
-      "Heading": "ut",
-      "Amount": 20681.266,
-      "Currency": "saepe",
-      "AmountInBaseCurrency": 15481.96,
+      "SaleId": 500,
+      "SaleDate": "2002-01-10T14:23:55.2908369+01:00",
+      "Probability": 812,
+      "Heading": "porro",
+      "Amount": 31173.897999999997,
+      "Currency": "delectus",
+      "AmountInBaseCurrency": 14783.078,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2006-02-09T10:30:32.1668022+01:00"
+      "Registered": "2016-04-23T14:23:55.2908369+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 725,
-      "Name": "Hahn-Stehr",
-      "CompanyName": "Carroll, Schinner and Kris",
-      "FirstMessage": "ut",
-      "LastMessage": "suscipit",
-      "WhenRequested": "2015-11-20T10:30:32.1668022+01:00",
-      "WhenEnded": "2019-01-26T10:30:32.1668022+01:00"
+      "ChatSessionId": 840,
+      "Name": "Tremblay LLC",
+      "CompanyName": "Stehr Group",
+      "FirstMessage": "iste",
+      "LastMessage": "laboriosam",
+      "WhenRequested": "2008-11-29T14:23:55.2908369+01:00",
+      "WhenEnded": "2009-07-01T14:23:55.2908369+02:00"
     }
   ]
 }

@@ -82,11 +82,12 @@ the actual functionality of the provider.
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=mrMrs,superoffice_ten-salesservicemarketing,title
+GET /api/v1/archive/AllUsers?$select=contactName,role,superoffice_ten-salesservicemarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

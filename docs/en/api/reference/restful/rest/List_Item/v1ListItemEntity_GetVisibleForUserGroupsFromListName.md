@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Carter, Rice and O'Connell",
-    "ToolTip": "Aut sed iusto voluptate nobis ducimus quos rerum.",
+    "Id": 909,
+    "Name": "Hintz Group",
+    "ToolTip": "Vel illo assumenda voluptates cumque nihil nihil.",
     "Deleted": false,
-    "Rank": 475,
-    "Type": "eos",
-    "ColorBlock": 428,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2016-01-15T10:30:32.8269372+01:00",
+    "Rank": 482,
+    "Type": "sed",
+    "ColorBlock": 319,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2018-12-12T14:23:55.9314526+01:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "O'Kon LLC",
-        "ToolTip": "Nemo vero est.",
+        "Id": 7,
+        "Name": "Wolff-Waelchi",
+        "ToolTip": "Cumque maiores suscipit expedita voluptas ea a provident.",
         "Deleted": false,
-        "Rank": 375,
-        "Type": "expedita",
-        "ColorBlock": 586,
-        "IconHint": "excepturi",
+        "Rank": 759,
+        "Type": "quisquam",
+        "ColorBlock": 759,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2002-11-23T10:30:32.8269372+01:00",
+        "LastChanged": "2005-09-22T14:23:55.9314526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "at",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Mrs. Fabiola Raleigh Sipes PhD",
+        "FullName": "Petra Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 291
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Domenico Torp",
+    "ExtraInfo": "rerum",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Hellen Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 854
       }
     }
   }

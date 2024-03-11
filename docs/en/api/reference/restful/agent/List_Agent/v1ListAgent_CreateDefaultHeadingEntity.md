@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 40,
-  "Name": "Stanton-Sanford",
-  "Tooltip": "veritatis",
+  "HeadingId": 188,
+  "Name": "Will, Kuhn and Bayer",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 370,
-  "UdListDefinitionId": 455,
+  "Rank": 518,
+  "UdListDefinitionId": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   }
 }

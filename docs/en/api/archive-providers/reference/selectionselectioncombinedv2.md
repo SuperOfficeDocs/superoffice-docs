@@ -75,6 +75,7 @@ Implementation of the provider for the combined selection
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 

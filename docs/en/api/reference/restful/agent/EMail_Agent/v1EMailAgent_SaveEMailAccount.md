@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 455,
-  "EMailAddress": "est",
-  "AssociateId": 44,
+  "EMailAccountId": 409,
+  "EMailAddress": "fugiat",
+  "AssociateId": 264,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 4,
-  "ErrorCount": 782,
+  "AccountStatus": 1000,
+  "ErrorCount": 159,
   "ErrorReason": "",
-  "InboxFolder": "ipsa",
-  "SentFolder": "est"
+  "InboxFolder": "blanditiis",
+  "SentFolder": "possimus"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 514,
-  "EMailAddress": "magnam",
-  "AssociateId": 637,
+  "EMailAccountId": 321,
+  "EMailAddress": "corporis",
+  "AssociateId": 172,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 117,
-  "ErrorCount": 337,
+  "AccountStatus": 289,
+  "ErrorCount": 310,
   "ErrorReason": "",
-  "InboxFolder": "enim",
-  "SentFolder": "ab",
+  "InboxFolder": "et",
+  "SentFolder": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 110
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Will, Dickens and Rogahn",
-    "Tooltip": "dignissimos",
-    "Deleted": true,
-    "Rank": 7,
-    "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "adipisci",
+    "Id": 921,
+    "Name": "Predovic, Schuppe and Bogan",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 478,
+    "IsCustomList": true,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "odio",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 58
       }
     }
   }

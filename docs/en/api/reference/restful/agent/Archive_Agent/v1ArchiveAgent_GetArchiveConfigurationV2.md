@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Trantow-Zulauf",
-  "ProviderName": "Will-Ritchie",
-  "Context": "et",
-  "OwnerKeys": "at"
+  "GuiName": "Wisoky Inc and Sons",
+  "ProviderName": "Kuhlman Inc and Sons",
+  "Context": "itaque",
+  "OwnerKeys": "fugiat"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Shields, Bahringer and Parisian",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "vitae",
+      "DisplayName": "Rutherford, Hessel and Price",
+      "DisplayTooltip": "qui",
+      "DisplayType": "dignissimos",
       "CanOrderBy": false,
-      "Name": "Muller LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Maggio-Lynch",
+      "Name": "Dach, Krajcik and Towne",
+      "CanRestrictBy": false,
+      "RestrictionType": "quisquam",
+      "RestrictionListName": "Jacobs-Lakin",
       "IsVisible": false,
-      "ExtraInfo": "dolores",
-      "Width": "eveniet",
-      "IconHint": "vel",
-      "HeadingIconHint": "tenetur"
+      "ExtraInfo": "omnis",
+      "Width": "et",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 50,
-      "Name": "Boehm Inc and Sons",
-      "ToolTip": "Labore quibusdam quam explicabo animi sapiente quia.",
+      "Id": 399,
+      "Name": "Hirthe, Runolfsdottir and Schultz",
+      "ToolTip": "Et est beatae aut et aut ipsam quam.",
       "Deleted": false,
-      "Rank": 994,
-      "Type": "est",
-      "ColorBlock": 98,
-      "IconHint": "perspiciatis",
-      "Selected": true,
-      "LastChanged": "2011-05-19T10:30:23.0514184+02:00",
+      "Rank": 143,
+      "Type": "porro",
+      "ColorBlock": 621,
+      "IconHint": "ipsam",
+      "Selected": false,
+      "LastChanged": "1998-06-03T14:23:45.8449626+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "ut",
+      "ExtraInfo": "consectetur",
+      "StyleHint": "ea",
       "Hidden": false,
-      "FullName": "Mr. Giovani Senger",
+      "FullName": "Cara Franecki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 101
+          "FieldType": "System.String",
+          "FieldLength": 956
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "D'Amore-Kris",
+      "Name": "Lowe, Collins and Gorczany",
       "Direction": "ASC"
     },
     {
-      "Name": "D'Amore-Kris",
+      "Name": "Lowe, Collins and Gorczany",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "soluta",
+  "OwnerKeys": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 228
     }
   }
 }

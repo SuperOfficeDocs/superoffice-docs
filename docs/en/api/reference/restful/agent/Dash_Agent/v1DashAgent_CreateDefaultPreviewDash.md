@@ -71,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Homenick-Mraz",
-  "Description": "Implemented coherent pricing structure",
-  "OwnedByFullName": "Tyra Mohr",
-  "Registered": "2011-08-18T10:30:23.4362808+02:00",
+  "Name": "Grant, Runolfsson and Tromp",
+  "Description": "Seamless bi-directional time-frame",
+  "OwnedByFullName": "Joanny Bernier Jr.",
+  "Registered": "2005-06-17T14:23:46.251207+02:00",
   "Tiles": [
     {
-      "Name": "Shields, Cole and Effertz",
+      "Name": "Ferry-Corkery",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 52
         }
       }
     },
     {
-      "Name": "Shields, Cole and Effertz",
+      "Name": "Ferry-Corkery",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 52
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 876
     }
   }
 }

@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 685,
-  "Name": "Auer LLC",
-  "Tooltip": "neque",
-  "VisibleColumns": 598,
-  "Rank": 926,
-  "AssocId": 802,
+  "DiaryViewId": 242,
+  "Name": "Crooks, Schmeler and VonRueden",
+  "Tooltip": "ea",
+  "VisibleColumns": 440,
+  "Rank": 703,
+  "AssocId": 814,
   "AssociateList": [
     {
-      "Id": 650,
-      "Name": "Runolfsson-Walsh",
-      "ToolTip": "Vero consequatur animi alias nobis quia molestiae.",
+      "Id": 409,
+      "Name": "Grimes-Nikolaus",
+      "ToolTip": "Labore aut natus laboriosam vel reprehenderit placeat assumenda.",
       "Deleted": false,
-      "Rank": 364,
-      "Type": "suscipit",
-      "ColorBlock": 764,
-      "IconHint": "tempore",
+      "Rank": 993,
+      "Type": "magnam",
+      "ColorBlock": 270,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2000-06-14T10:30:23.2418173+02:00",
+      "LastChanged": "1997-06-10T14:23:46.0480845+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "deleniti",
+      "ExtraInfo": "adipisci",
+      "StyleHint": "quaerat",
       "Hidden": false,
-      "FullName": "Sophie Kub"
+      "FullName": "Ms. Trenton Jarrett Stracke"
     }
   ],
-  "TzLocationId": 421
+  "TzLocationId": 176
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 76,
-  "Name": "Boyle LLC",
-  "Tooltip": "et",
-  "VisibleColumns": 417,
-  "Rank": 895,
-  "AssocId": 648,
+  "DiaryViewId": 853,
+  "Name": "Jerde-Beier",
+  "Tooltip": "labore",
+  "VisibleColumns": 448,
+  "Rank": 654,
+  "AssocId": 835,
   "AssociateList": [
     {
-      "Id": 548,
-      "Name": "Heller, Rau and Nolan",
-      "ToolTip": "Laborum qui velit nihil.",
-      "Deleted": true,
-      "Rank": 813,
-      "Type": "rerum",
-      "ColorBlock": 7,
-      "IconHint": "illo",
-      "Selected": false,
-      "LastChanged": "2017-06-11T10:30:23.2418173+02:00",
+      "Id": 959,
+      "Name": "Witting, Hirthe and Schuppe",
+      "ToolTip": "Ea dolor.",
+      "Deleted": false,
+      "Rank": 746,
+      "Type": "similique",
+      "ColorBlock": 522,
+      "IconHint": "unde",
+      "Selected": true,
+      "LastChanged": "2002-03-18T14:23:46.0480845+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "non",
-      "Hidden": false,
-      "FullName": "Mrs. Patsy Ruth Wyman II",
+      "ExtraInfo": "modi",
+      "StyleHint": "dolorem",
+      "Hidden": true,
+      "FullName": "Prof. Brent Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldLength": 941
         }
       }
     }
   ],
-  "TzLocationId": 543,
+  "TzLocationId": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   }
 }

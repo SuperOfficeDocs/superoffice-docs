@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 436,
-  "ColumnId": 105,
-  "FieldDefault": "officia",
-  "FieldHeight": 851,
-  "FieldLabel": "enim",
-  "FieldLeft": 853,
-  "FieldTop": 96,
+  "UDefFieldId": 404,
+  "ColumnId": 89,
+  "FieldDefault": "hic",
+  "FieldHeight": 471,
+  "FieldLabel": "et",
+  "FieldLeft": 469,
+  "FieldTop": 766,
   "FieldType": "Checkbox",
-  "FieldWidth": 595,
-  "FormatMask": "consectetur",
+  "FieldWidth": 389,
+  "FormatMask": "debitis",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 460,
-  "LabelLeft": 54,
-  "LabelTop": 873,
-  "LabelWidth": 580,
-  "LastVersionId": 96,
-  "ListTableId": 954,
-  "IsMandatory": false,
+  "LabelHeight": 501,
+  "LabelLeft": 627,
+  "LabelTop": 742,
+  "LabelWidth": 97,
+  "LastVersionId": 430,
+  "ListTableId": 326,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 870,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "pariatur",
-  "TabOrder": 250,
-  "TextLength": 328,
-  "Tooltip": "velit",
-  "UdefIdentity": 850,
-  "UDListDefinitionId": 790,
+  "Page1LineNo": 616,
+  "ProgId": "cumque",
+  "IsReadOnly": false,
+  "ShortLabel": "debitis",
+  "TabOrder": 26,
+  "TextLength": 754,
+  "Tooltip": "atque",
+  "UdefIdentity": 569,
+  "UDListDefinitionId": 619,
   "Justification": "Center",
-  "Version": 471,
-  "TemplateVariableName": "Boyer, Hayes and Weber",
+  "Version": 89,
+  "TemplateVariableName": "Bogan Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Schowalter-McCullough",
+  "MdoListName": "Abshire LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 681
     }
   }
 }

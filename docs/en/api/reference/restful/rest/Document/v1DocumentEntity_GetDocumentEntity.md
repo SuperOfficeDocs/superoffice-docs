@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 May 2018 10:30:31 G5T
+Last-Modified: Mon, 23 Mar 2009 14:23:55 G3T
 
 {
-  "DocumentId": 215,
+  "DocumentId": 859,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "autem",
-  "Header": "repellendus",
-  "Name": "Durgan, Jerde and Lind",
-  "OurRef": "sapiente",
-  "YourRef": "repellat",
-  "CreatedDate": "1998-11-07T10:30:31.9949332+01:00",
-  "UpdatedDate": "2018-05-08T10:30:31.9949332+02:00",
-  "Description": "Quality-focused non-volatile monitoring",
+  "Attention": "voluptas",
+  "Header": "aspernatur",
+  "Name": "Kautzer Inc and Sons",
+  "OurRef": "ut",
+  "YourRef": "quia",
+  "CreatedDate": "2022-07-17T14:23:55.1021486+02:00",
+  "UpdatedDate": "2009-03-23T14:23:55.1021486+01:00",
+  "Description": "Reduced interactive encoding",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-01-22T10:30:31.9949332+01:00",
-  "ExternalRef": "ipsa",
+  "Date": "2020-05-28T14:23:55.1021486+02:00",
+  "ExternalRef": "deserunt",
   "Completed": "Completed",
-  "ActiveLinks": 37,
+  "ActiveLinks": 324,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Welch Inc and Sons",
-      "Id": 106,
-      "Description": "Public-key discrete project",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 304,
+      "EntityName": "Ortiz-Schiller",
+      "Id": 427,
+      "Description": "Reduced intangible strategy",
+      "ExtraInfo": "maiores",
+      "LinkId": 180,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 986
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 546,
-  "Snum": 3,
+  "SuggestedDocumentId": 407,
+  "Snum": 301,
   "UserDefinedFields": {
-    "SuperOffice:1": "Augusta Schroeder",
-    "SuperOffice:2": "Miss Joesph Kiarra Nader"
+    "SuperOffice:1": "Ms. Justine Langosh",
+    "SuperOffice:2": "Bernita Konopelski"
   },
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "2008-06-15T10:30:31.9949332+02:00",
-  "PublishTo": "1997-06-15T10:30:31.9949332+02:00",
-  "PublishFrom": "2017-07-10T10:30:31.9949332+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-11-06T14:23:55.1021486+01:00",
+  "PublishTo": "2022-07-30T14:23:55.1021486+02:00",
+  "PublishFrom": "2017-01-09T14:23:55.1021486+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 573,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 938
         }
       }
     },
     {
-      "VisibleId": 573,
+      "VisibleId": 558,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 938
         }
       }
     }
@@ -210,13 +210,13 @@ Last-Modified: Tue, 08 May 2018 10:30:31 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

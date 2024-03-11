@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "cupiditate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "cupiditate",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 264,
-  "Section": "ut",
-  "Key": "qui",
-  "Name": "Ondricka-Kemmer",
+  "PrefDescId": 185,
+  "Section": "quo",
+  "Key": "in",
+  "Name": "Fay-Conn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible encompassing neural-net",
+  "Description": "Expanded discrete success",
   "IsBuiltin": false,
-  "TableName": "Skiles Group",
-  "UserDefinedListId": 362,
-  "Rank": 129,
+  "TableName": "Fisher-Kessler",
+  "UserDefinedListId": 241,
+  "Rank": 548,
   "SubGroup": "blanditiis",
-  "MinLevel": 337,
-  "MaxValue": 735,
-  "MinValue": 45,
-  "RequiredLicense": "ipsum",
+  "MinLevel": 142,
+  "MaxValue": 566,
+  "MinValue": 671,
+  "RequiredLicense": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 131
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

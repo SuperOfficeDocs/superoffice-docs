@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=745
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=929
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 438,
-  "ColumnId": 494,
-  "FieldDefault": "quo",
-  "FieldHeight": 372,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 681,
-  "FieldTop": 6,
+  "UDefFieldId": 931,
+  "ColumnId": 929,
+  "FieldDefault": "impedit",
+  "FieldHeight": 745,
+  "FieldLabel": "ab",
+  "FieldLeft": 89,
+  "FieldTop": 998,
   "FieldType": "Checkbox",
-  "FieldWidth": 583,
-  "FormatMask": "corporis",
-  "HideLabel": false,
+  "FieldWidth": 947,
+  "FormatMask": "rerum",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 61,
-  "LabelLeft": 234,
-  "LabelTop": 843,
-  "LabelWidth": 354,
-  "LastVersionId": 161,
-  "ListTableId": 620,
-  "IsMandatory": true,
+  "LabelHeight": 968,
+  "LabelLeft": 195,
+  "LabelTop": 989,
+  "LabelWidth": 648,
+  "LastVersionId": 271,
+  "ListTableId": 888,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 85,
-  "ProgId": "eum",
+  "Page1LineNo": 167,
+  "ProgId": "quidem",
   "IsReadOnly": false,
-  "ShortLabel": "voluptates",
-  "TabOrder": 67,
-  "TextLength": 602,
-  "Tooltip": "est",
-  "UdefIdentity": 171,
-  "UDListDefinitionId": 845,
+  "ShortLabel": "ea",
+  "TabOrder": 748,
+  "TextLength": 454,
+  "Tooltip": "sunt",
+  "UdefIdentity": 223,
+  "UDListDefinitionId": 508,
   "Justification": "Center",
-  "Version": 704,
-  "TemplateVariableName": "Paucek, Abernathy and Breitenberg",
-  "HasBeenPublished": true,
-  "MdoListName": "Bogisich, Botsford and Gorczany",
+  "Version": 84,
+  "TemplateVariableName": "Kohler LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Swift Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rolfson, Cormier and Miller"
+  "LayoutName": "Raynor LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 511,
-  "InstanceLayout": "laudantium",
-  "InstanceName": "Wintheiser-Walter",
-  "CreatedDate": "1999-11-10T10:30:23.0826686+01:00",
-  "UpdatedDate": "2014-04-27T10:30:23.0826686+02:00",
+  "AudienceLayoutId": 68,
+  "InstanceLayout": "rem",
+  "InstanceName": "Barton LLC",
+  "CreatedDate": "2014-11-16T14:23:45.8762101+01:00",
+  "UpdatedDate": "2011-07-13T14:23:45.8762101+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 321
     }
   }
 }

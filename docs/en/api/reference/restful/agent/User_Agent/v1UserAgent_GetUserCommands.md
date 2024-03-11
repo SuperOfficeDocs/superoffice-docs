@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Borer, Osinski and Little",
-    "DisplayName": "Toy, Lockman and Dietrich",
-    "Description": "Mandatory zero administration ability",
-    "ToolTip": "Quasi esse aut repudiandae mollitia fugit quos qui.",
+    "Name": "D'Amore Group",
+    "DisplayName": "Reinger-Gerhold",
+    "Description": "Versatile mission-critical data-warehouse",
+    "ToolTip": "Laboriosam inventore adipisci.",
     "Actions": "Implicit",
-    "ActionData": "occaecati",
+    "ActionData": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldType": "System.Int32",
+        "FieldLength": 275
       }
     }
   }

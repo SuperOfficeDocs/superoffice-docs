@@ -68,6 +68,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
+| EmailFlows | array | EmailFlows this form is used in (read-only) |
 | FolderName | string | The name of the folder for this form |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -78,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 912,
-  "FormKey": "iste",
-  "Name": "Osinski Group",
-  "Description": "Secured national Graphic Interface",
-  "Config": "quis",
-  "FolderId": 359,
-  "ScriptId": 136,
-  "ResponseShipmentId": 468,
-  "Active": false,
-  "Expires": "2009-01-14T10:30:24.1037706+01:00",
-  "MaxSubmits": 808,
+  "FormId": 924,
+  "FormKey": "autem",
+  "Name": "Kirlin, Buckridge and Jewess",
+  "Description": "Operative systematic knowledge base",
+  "Config": "autem",
+  "FolderId": 172,
+  "ScriptId": 951,
+  "ResponseShipmentId": 186,
+  "Active": true,
+  "Expires": "2012-05-17T14:23:46.9098888+02:00",
+  "MaxSubmits": 258,
   "Type": "Normal",
-  "Recipe": "error",
-  "GroupId": 238,
-  "NewTicket": true,
+  "Recipe": "eligendi",
+  "GroupId": 743,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1998-01-30T10:30:24.1037706+01:00",
-  "RegisteredAssociateId": 172,
-  "Updated": "2011-03-11T10:30:24.1037706+01:00",
-  "UpdatedAssociateId": 524,
-  "UpdatedCount": 756,
-  "FolderName": "Anderson Inc and Sons",
+  "Registered": "2006-01-21T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 958,
+  "Updated": "2006-12-08T14:23:46.9098888+01:00",
+  "UpdatedAssociateId": 717,
+  "UpdatedCount": 889,
+  "EmailFlows": [
+    924,
+    768
+  ],
+  "FolderName": "Streich, Russel and Rosenbaum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 745
     }
   }
 }

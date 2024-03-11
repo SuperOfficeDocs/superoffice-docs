@@ -81,10 +81,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 532,
-  "ApprovedByText": "ut",
-  "ApprovedByAssociateId": 58,
-  "ApprovalText": "repellendus"
+  "QuoteVersionId": 38,
+  "ApprovedByText": "aspernatur",
+  "ApprovedByAssociateId": 465,
+  "ApprovalText": "fuga"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 991,
+  "CreatedAppointmentId": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

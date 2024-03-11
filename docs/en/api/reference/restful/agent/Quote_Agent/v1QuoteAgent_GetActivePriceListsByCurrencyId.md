@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 404,
-  "CurrencyId": 666
+  "QuoteConnectionId": 921,
+  "CurrencyId": 805
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 292,
-    "ERPPriceListKey": "asperiores",
-    "QuoteConnectionId": 658,
-    "Name": "Shields-Jacobs",
-    "Description": "Integrated actuating internet solution",
-    "Currency": "dolores",
-    "CurrencyName": "Nitzsche, Reichel and Huels",
-    "ValidFrom": "1998-07-11T10:30:24.4346264+02:00",
-    "ValidTo": "2008-08-05T10:30:24.4346264+02:00",
-    "IsActive": true,
+    "PriceListId": 718,
+    "ERPPriceListKey": "non",
+    "QuoteConnectionId": 143,
+    "Name": "Smitham-Bartell",
+    "Description": "Persevering hybrid definition",
+    "Currency": "quae",
+    "CurrencyName": "Treutel, Ritchie and Johnson",
+    "ValidFrom": "2006-03-04T14:23:47.2536317+01:00",
+    "ValidTo": "2007-05-24T14:23:47.2536317+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

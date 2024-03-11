@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Bergnaum Group",
-  "DeviceName": "Hermann LLC",
-  "DeviceIdentifier": "similique"
+  "ApplicationName": "Davis LLC",
+  "DeviceName": "Zemlak Group",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nostrum",
-  "Value": "quia",
-  "RecordId": 314,
-  "CreatedDate": "2015-01-05T10:30:23.9073938+01:00",
-  "UpdatedDate": "2007-07-20T10:30:23.9073938+02:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "culpa",
-  "TableName": "Rutherford, Spencer and Borer",
+  "Key": "doloremque",
+  "Value": "ea",
+  "RecordId": 129,
+  "CreatedDate": "1997-03-05T14:23:46.7524806+01:00",
+  "UpdatedDate": "2003-01-14T14:23:46.7524806+01:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "eum",
+  "TableName": "Gulgowski-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 407
     }
   }
 }

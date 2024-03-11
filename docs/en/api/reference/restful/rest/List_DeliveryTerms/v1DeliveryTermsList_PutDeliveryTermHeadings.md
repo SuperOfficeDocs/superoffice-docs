@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 131,
-    "Name": "Marvin-Hand",
-    "Tooltip": "est",
+    "HeadingId": 685,
+    "Name": "Feeney Group",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 598,
-    "UdListDefinitionId": 512
+    "Rank": 622,
+    "UdListDefinitionId": 695
   },
   {
-    "HeadingId": 131,
-    "Name": "Marvin-Hand",
-    "Tooltip": "est",
+    "HeadingId": 685,
+    "Name": "Feeney Group",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 598,
-    "UdListDefinitionId": 512
+    "Rank": 622,
+    "UdListDefinitionId": 695
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 402,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "recusandae",
+    "HeadingId": 208,
+    "Name": "Farrell, Mante and Raynor",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 430,
-    "UdListDefinitionId": 563,
+    "Rank": 435,
+    "UdListDefinitionId": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

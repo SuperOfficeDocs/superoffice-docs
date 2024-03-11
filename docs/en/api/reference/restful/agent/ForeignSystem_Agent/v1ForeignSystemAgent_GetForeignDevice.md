@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=91
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=966
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 978,
-  "Name": "Green-Volkman",
-  "CreatedDate": "2003-11-24T10:30:23.9073938+01:00",
-  "UpdatedDate": "2002-09-12T10:30:23.9073938+02:00",
-  "AssociateFullName": "Lucious Koch",
-  "CreatedBy": "ea",
-  "UpdatedBy": "est",
-  "DeviceIdentifier": "voluptatum",
-  "ForeignAppId": 796,
+  "ForeignDeviceId": 464,
+  "Name": "Dare LLC",
+  "CreatedDate": "1997-05-13T14:23:46.7681044+02:00",
+  "UpdatedDate": "2013-09-12T14:23:46.7681044+02:00",
+  "AssociateFullName": "Trinity Marilie Little II",
+  "CreatedBy": "reiciendis",
+  "UpdatedBy": "explicabo",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 810
     }
   }
 }

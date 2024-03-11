@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 757,
-  "Name": "Mitchell, Hagenes and Mayert",
-  "Tooltip": "dolore",
-  "Rank": 531,
-  "Deleted": false,
-  "DaysFuture": 744,
-  "Duration": "est",
+  "SuggestedAppointmentId": 812,
+  "Name": "Stoltenberg LLC",
+  "Tooltip": "qui",
+  "Rank": 651,
+  "Deleted": true,
+  "DaysFuture": 479,
+  "Duration": "pariatur",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "incidunt",
+  "Text": "optio",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   }
 }

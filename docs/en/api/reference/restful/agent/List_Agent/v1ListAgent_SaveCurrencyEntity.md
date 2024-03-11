@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 813,
-  "Name": "Tromp, Beatty and Buckridge",
-  "Tooltip": "rerum",
-  "Rank": 145,
-  "Rate": 17769.78,
-  "Units": 23705.576,
+  "CurrencyId": 409,
+  "Name": "Mitchell-Goodwin",
+  "Tooltip": "autem",
+  "Rank": 749,
+  "Rate": 8618.5,
+  "Units": 310.26599999999996,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 183,
-  "Name": "Herzog Inc and Sons",
-  "Tooltip": "dolorem",
-  "Rank": 503,
-  "Rate": 28904.881999999998,
-  "Units": 10188.634,
-  "Deleted": false,
+  "CurrencyId": 104,
+  "Name": "Tillman, Jakubowski and Borer",
+  "Tooltip": "sed",
+  "Rank": 20,
+  "Rate": 10690.074,
+  "Units": 15660.598,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldLength": 959
     }
   }
 }

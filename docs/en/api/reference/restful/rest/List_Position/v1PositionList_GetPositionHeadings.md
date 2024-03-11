@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 971,
-    "Name": "Hodkiewicz, Reinger and Wyman",
-    "Tooltip": "dolor",
+    "HeadingId": 583,
+    "Name": "Jenkins-Legros",
+    "Tooltip": "nisi",
     "Deleted": true,
-    "Rank": 989,
-    "UdListDefinitionId": 558,
+    "Rank": 299,
+    "UdListDefinitionId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

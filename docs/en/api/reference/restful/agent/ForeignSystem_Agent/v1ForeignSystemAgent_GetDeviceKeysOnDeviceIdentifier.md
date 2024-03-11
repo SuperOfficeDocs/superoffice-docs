@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bins, Stanton and Marvin",
-  "DeviceName": "Muller, Franecki and Nader",
-  "DeviceIdentifier": "architecto"
+  "ApplicationName": "Considine, Schuppe and Thompson",
+  "DeviceName": "Strosin, Schmitt and Reilly",
+  "DeviceIdentifier": "recusandae"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "provident",
-    "Value": "voluptatibus",
-    "RecordId": 600,
-    "CreatedDate": "2008-06-29T10:30:23.9230375+02:00",
-    "UpdatedDate": "2004-04-28T10:30:23.9230375+02:00",
-    "UpdatedBy": "atque",
-    "CreatedBy": "voluptatem",
-    "TableName": "Jacobson-Bins",
+    "Key": "similique",
+    "Value": "animi",
+    "RecordId": 610,
+    "CreatedDate": "2011-02-01T14:23:46.7681044+01:00",
+    "UpdatedDate": "2014-09-12T14:23:46.7681044+02:00",
+    "UpdatedBy": "consequatur",
+    "CreatedBy": "pariatur",
+    "TableName": "Erdman, Stracke and Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

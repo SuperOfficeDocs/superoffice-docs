@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "saepe"
+      "Section": "nihil",
+      "Key": "natus"
     },
     {
-      "Section": "quia",
-      "Key": "saepe"
+      "Section": "nihil",
+      "Key": "natus"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "cumque",
+    "RawValue": "aut",
     "Specification": null,
-    "DisplayValue": "quis",
-    "DisplayTooltip": "sint",
+    "DisplayValue": "omnis",
+    "DisplayTooltip": "officiis",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 400,
-    "PrefDescId": 158,
-    "TableName": "Davis Group",
-    "UserPreferenceId": 364,
+    "TargetId": 942,
+    "PrefDescId": 362,
+    "TableName": "Barrows-Effertz",
+    "UserPreferenceId": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 417
       }
     }
   }

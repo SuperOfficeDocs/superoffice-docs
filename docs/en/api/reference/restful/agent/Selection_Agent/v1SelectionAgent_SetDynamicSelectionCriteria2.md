@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 825,
-  "Filter": "inventore"
+  "SelectionId": 993,
+  "Filter": "possimus"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Waters-Leffler",
-    "Operator": "aut",
+    "Name": "Stanton, Gislason and Hyatt",
+    "Operator": "eum",
     "Values": [
-      "aperiam",
-      "ut"
+      "voluptatem",
+      "nostrum"
     ],
     "DisplayValues": [
-      "illo",
-      "eaque"
+      "et",
+      "aliquid"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Runolfsdottir, Frami and Cartwright",
-        "Operator": "vero",
+        "Name": "Boyer-Hegmann",
+        "Operator": "est",
         "Values": [
-          "minus",
-          "consectetur"
+          "aliquam",
+          "et"
         ],
         "DisplayValues": [
-          "animi",
-          "quasi"
+          "veritatis",
+          "dolores"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 524,
+        "InterParenthesis": 533,
         "InterOperator": "And",
-        "UniqueHash": 277
+        "UniqueHash": 77
       }
     ],
-    "InterParenthesis": 816,
+    "InterParenthesis": 9,
     "InterOperator": "And",
-    "UniqueHash": 941
+    "UniqueHash": 202
   }
 ]
 ```

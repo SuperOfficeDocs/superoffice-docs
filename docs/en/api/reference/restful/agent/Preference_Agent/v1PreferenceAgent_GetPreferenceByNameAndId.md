@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sit",
-  "PrefKey": "iure",
+  "PrefSection": "itaque",
+  "PrefKey": "recusandae",
   "PrefLevel": "Database",
-  "OwnerId": 277
+  "OwnerId": 517
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "est",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "quidem",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "impedit",
+  "DisplayTooltip": "eveniet",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 897,
-  "PrefDescId": 928,
-  "TableName": "Treutel Group",
-  "UserPreferenceId": 444,
+  "TargetId": 649,
+  "PrefDescId": 303,
+  "TableName": "Hackett LLC",
+  "UserPreferenceId": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldLength": 762
     }
   }
 }

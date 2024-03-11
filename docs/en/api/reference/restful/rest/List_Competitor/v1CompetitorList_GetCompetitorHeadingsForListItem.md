@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Ritchie-Champlin",
-    "ToolTip": "Enim quae.",
+    "Id": 202,
+    "Name": "Dach Group",
+    "ToolTip": "Maiores consequatur voluptatem quia aut et iste est.",
     "Deleted": false,
-    "Rank": 944,
-    "Type": "eos",
-    "ColorBlock": 461,
-    "IconHint": "quia",
+    "Rank": 964,
+    "Type": "deserunt",
+    "ColorBlock": 322,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2007-11-03T10:30:32.8962093+01:00",
+    "LastChanged": "1999-09-05T14:23:55.9939519+02:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Mitchell, Hammes and Robel",
-        "ToolTip": "Assumenda non veritatis aliquam laboriosam ut.",
-        "Deleted": true,
-        "Rank": 296,
-        "Type": "provident",
-        "ColorBlock": 183,
-        "IconHint": "quos",
+        "Id": 677,
+        "Name": "Beier, Johnson and Stark",
+        "ToolTip": "Ipsum ipsam ut necessitatibus voluptatem quaerat aut.",
+        "Deleted": false,
+        "Rank": 605,
+        "Type": "fugiat",
+        "ColorBlock": 976,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2018-03-12T10:30:32.8962093+01:00",
+        "LastChanged": "2005-03-13T14:23:55.9939519+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "architecto",
+        "ExtraInfo": "facilis",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Jaylan Gerlach",
+        "FullName": "Paul Lenny Schmitt DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 451
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "officia",
+    "ExtraInfo": "omnis",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Miss Arne Weber",
+    "FullName": "Miss Araceli Renner Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 621
       }
     }
   }

@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 330,
-  "EmailAddress": "seamus@towne.uk",
+  "PersonId": 912,
+  "EmailAddress": "lucas.cummings@schulist.us",
   "SetAsPrimaryEmail": false
 }
 ```

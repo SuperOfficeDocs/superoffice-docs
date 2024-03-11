@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Donnelly LLC",
-    "ToolTip": "Qui ratione necessitatibus accusantium temporibus est optio.",
-    "Deleted": true,
-    "Rank": 724,
-    "Type": "voluptatum",
-    "ColorBlock": 721,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2005-09-23T10:30:33.2568344+02:00",
+    "Id": 987,
+    "Name": "Heidenreich LLC",
+    "ToolTip": "Pariatur et eius eos vero.",
+    "Deleted": false,
+    "Rank": 534,
+    "Type": "quisquam",
+    "ColorBlock": 294,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "2000-12-02T14:23:56.353323+01:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Gaylord, Wiza and Wiza",
-        "ToolTip": "Voluptas asperiores repellat nisi eum reprehenderit explicabo.",
-        "Deleted": true,
-        "Rank": 621,
-        "Type": "possimus",
-        "ColorBlock": 663,
-        "IconHint": "necessitatibus",
+        "Id": 401,
+        "Name": "Zieme, Wiza and Tremblay",
+        "ToolTip": "Sit molestiae.",
+        "Deleted": false,
+        "Rank": 147,
+        "Type": "eveniet",
+        "ColorBlock": 298,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2023-03-02T10:30:33.2568344+01:00",
+        "LastChanged": "2012-05-27T14:23:56.353323+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Trevion Jacobs II"
+        "ExtraInfo": "vel",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Joelle Thompson"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ratione",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Isaiah Rashad Adams Jr."
+    "FullName": "Emilie Lakin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Flatley Group",
-    "ToolTip": "Omnis quia sed sit qui earum aliquam sed.",
+    "Id": 750,
+    "Name": "Bogan-Kris",
+    "ToolTip": "Soluta aut eum natus minima.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "fugiat",
-    "ColorBlock": 678,
-    "IconHint": "placeat",
+    "Rank": 956,
+    "Type": "qui",
+    "ColorBlock": 774,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2009-04-16T10:30:33.2568344+02:00",
+    "LastChanged": "1999-12-18T14:23:56.353323+01:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Kohler-Bayer",
-        "ToolTip": "Voluptatem est quisquam aliquam explicabo.",
-        "Deleted": true,
-        "Rank": 321,
-        "Type": "architecto",
-        "ColorBlock": 245,
-        "IconHint": "excepturi",
+        "Id": 659,
+        "Name": "Schaefer Group",
+        "ToolTip": "Sit quia rerum.",
+        "Deleted": false,
+        "Rank": 54,
+        "Type": "non",
+        "ColorBlock": 306,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2001-11-21T10:30:33.2568344+01:00",
+        "LastChanged": "1997-06-04T14:23:56.353323+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "sint",
+        "ExtraInfo": "alias",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Prof. Tessie Will V",
+        "FullName": "Drew Drew Adams II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "est",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Christa Reinger",
+    "FullName": "Sandra Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldType": "System.String",
+        "FieldLength": 146
       }
     }
   }

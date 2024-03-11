@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 12,
-    "Name": "Witting, Klein and Kunde",
-    "CurrencyId": 608,
-    "EnglishName": "Sawayn-Krajcik",
+    "CountryId": 225,
+    "Name": "Kirlin, Parisian and Toy",
+    "CurrencyId": 803,
+    "EnglishName": "Turcotte-Dietrich",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reduced optimizing intranet",
-    "OrgNrText": "1113912",
-    "InterAreaPrefix": "voluptate",
-    "DialInPrefix": "quia",
-    "ZipPrefix": "velit",
-    "DomainName": "Schimmel Group",
-    "AddressLayoutId": 340,
-    "DomesticAddressLayoutId": 747,
-    "ForeignAddressLayoutId": 759,
-    "Rank": 155,
-    "Tooltip": "vel",
-    "Deleted": false,
+    "ImageDescription": "Open-source real-time success",
+    "OrgNrText": "1214785",
+    "InterAreaPrefix": "corporis",
+    "DialInPrefix": "omnis",
+    "ZipPrefix": "atque",
+    "DomainName": "Connelly, Rodriguez and Maggio",
+    "AddressLayoutId": 736,
+    "DomesticAddressLayoutId": 91,
+    "ForeignAddressLayoutId": 30,
+    "Rank": 448,
+    "Tooltip": "nihil",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldType": "System.Int32",
+        "FieldLength": 874
       }
     }
   }

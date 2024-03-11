@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 805,
-  "PrefDescId": 316,
-  "PrefValue": "recusandae",
-  "PrefShowValue": "et",
-  "Description": "Mandatory scalable standardization",
-  "IsBuiltin": true,
+  "PrefDescLineId": 76,
+  "PrefDescId": 477,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "non",
+  "Description": "Enterprise-wide user-facing utilisation",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 363
     }
   }
 }

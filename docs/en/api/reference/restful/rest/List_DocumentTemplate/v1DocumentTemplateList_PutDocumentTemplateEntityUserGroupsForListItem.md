@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Kihn-Harvey",
-    "ToolTip": "Animi non corrupti.",
+    "Id": 888,
+    "Name": "Greenfelder LLC",
+    "ToolTip": "Consequatur asperiores et consequatur id sunt enim.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "id",
-    "ColorBlock": 983,
-    "IconHint": "eius",
+    "Rank": 897,
+    "Type": "et",
+    "ColorBlock": 220,
+    "IconHint": "repudiandae",
     "Selected": true,
-    "LastChanged": "2005-03-17T10:30:33.0055846+01:00",
+    "LastChanged": "2001-07-20T14:23:56.1033275+02:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Satterfield, Cronin and Yundt",
-        "ToolTip": "Eligendi nihil omnis qui fuga qui quidem.",
+        "Id": 334,
+        "Name": "Gutmann Group",
+        "ToolTip": "Dolorum dolor.",
         "Deleted": false,
-        "Rank": 580,
-        "Type": "beatae",
-        "ColorBlock": 103,
-        "IconHint": "quidem",
+        "Rank": 342,
+        "Type": "ut",
+        "ColorBlock": 23,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "1999-04-09T10:30:33.0055846+02:00",
+        "LastChanged": "2004-04-23T14:23:56.1033275+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "D'angelo Stokes"
+        "ExtraInfo": "in",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Ernesto Roob"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
+    "ExtraInfo": "dolores",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Priscilla Katherine Reinger DDS"
+    "FullName": "Laurianne Mayert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Waters-Dietrich",
-    "ToolTip": "Voluptates dolores excepturi hic quia dolores qui.",
-    "Deleted": false,
-    "Rank": 294,
-    "Type": "eos",
-    "ColorBlock": 132,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2007-03-01T10:30:33.0055846+01:00",
+    "Id": 465,
+    "Name": "Kris, Lubowitz and Tromp",
+    "ToolTip": "Id soluta consequatur pariatur ut error.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "quis",
+    "ColorBlock": 831,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2023-08-12T14:23:56.1033275+02:00",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Bode Group",
-        "ToolTip": "Excepturi ut.",
-        "Deleted": false,
-        "Rank": 152,
-        "Type": "optio",
-        "ColorBlock": 606,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2023-02-18T10:30:33.0055846+01:00",
+        "Id": 950,
+        "Name": "Koch LLC",
+        "ToolTip": "Minima et.",
+        "Deleted": true,
+        "Rank": 125,
+        "Type": "sit",
+        "ColorBlock": 759,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2021-10-11T14:23:56.1033275+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Avery Monahan",
+        "ExtraInfo": "rerum",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Napoleon Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldType": "System.String",
+            "FieldLength": 505
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Michel Lang",
+    "ExtraInfo": "sint",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Andre Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 245
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

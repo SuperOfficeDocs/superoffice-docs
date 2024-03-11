@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 840,
-  "AssociateId": 323,
-  "Caption": "voluptatem",
+  "DashboardId": 492,
+  "AssociateId": 642,
+  "Caption": "harum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 840,
-      "Caption": "perferendis",
-      "Description": "Versatile optimizing extranet",
-      "ChartName": "D'Amore Inc and Sons",
-      "ChartId": "rerum",
-      "IsDefault": true,
-      "AssociateId": 491,
-      "GroupId": 155,
-      "SelectionId": 703,
-      "Config": "illo",
+      "DashboardTileId": 53,
+      "Caption": "vero",
+      "Description": "Advanced real-time complexity",
+      "ChartName": "Deckow LLC",
+      "ChartId": "occaecati",
+      "IsDefault": false,
+      "AssociateId": 485,
+      "GroupId": 562,
+      "SelectionId": 429,
+      "Config": "possimus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldType": "System.Int32",
+          "FieldLength": 73
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 523
     }
   }
 }

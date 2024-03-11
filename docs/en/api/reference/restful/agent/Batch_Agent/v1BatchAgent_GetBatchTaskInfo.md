@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97
+  "Id": 47
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Weissnat LLC",
-  "AssociateId": 306,
-  "DetailsTable": 738,
-  "DetailsRecord": 598,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 206,
+  "Name": "Donnelly-Jakubowski",
+  "AssociateId": 432,
+  "DetailsTable": 519,
+  "DetailsRecord": 837,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptas",
-    "ParameterObject2": "voluptas"
+    "ParameterObject1": "distinctio",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2012-02-21T10:30:23.0826686+01:00",
-  "Created": "2008-04-15T10:30:23.0826686+02:00",
-  "StartCount": 41,
-  "DatabaseSerialNumber": "1444002",
-  "Context": "quia",
-  "Result": "eos",
+  "LastStarted": "2011-07-24T14:23:45.8762101+02:00",
+  "Created": "2001-04-20T14:23:45.8762101+02:00",
+  "StartCount": 732,
+  "DatabaseSerialNumber": "1155299",
+  "Context": "in",
+  "Result": "unde",
   "State": "All",
-  "Description": "Optimized maximized adapter",
-  "Response": "nihil",
-  "Request": "a",
-  "ProgressDescription": "Universal well-modulated info-mediaries",
-  "ProgressPercent": 48,
-  "FileName": "Leannon, Schowalter and Reilly",
+  "Description": "Reactive user-facing time-frame",
+  "Response": "earum",
+  "Request": "ea",
+  "ProgressDescription": "User-friendly heuristic core",
+  "ProgressPercent": 9,
+  "FileName": "Schmitt, Shanahan and Ebert",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 12
     }
   }
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 898,
-    "Name": "Denesik, Lesch and Mayer",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 342,
-    "UdListDefinitionId": 688,
+    "HeadingId": 698,
+    "Name": "Rowe-Schroeder",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 43,
+    "UdListDefinitionId": 944,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldType": "System.Int32",
+        "FieldLength": 505
       }
     }
   }

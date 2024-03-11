@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 497,
+  "EjMessageId": 447,
   "Ticket": null,
-  "CreatedAt": "2022-11-03T10:30:32.6074787+01:00",
+  "CreatedAt": "2007-02-23T14:23:55.7127052+01:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "sunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 465,
-  "Body": "similique",
-  "HtmlBody": "unde",
-  "EmailHeader": "saige@streich.ca",
-  "DebugInfo": "deserunt",
-  "MailSorter": "sapiente",
+  "MessageId": "rerum",
+  "TimeSpent": 881,
+  "Body": "voluptatem",
+  "HtmlBody": "rem",
+  "EmailHeader": "bessie@howe.com",
+  "DebugInfo": "quos",
+  "MailSorter": "labore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ex",
+  "SearchTitle": "magni",
   "MessageHeaders": [
     {
-      "Id": 767,
-      "Name": "Schowalter-Rutherford",
+      "Id": 982,
+      "Name": "Wuckert-Spencer",
       "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -120,51 +120,51 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 547
+          "FieldType": "System.Int32",
+          "FieldLength": 487
         }
       }
     }
   ],
   "Important": false,
-  "Language": "illo",
-  "Sentiment": 598,
-  "SentimentConfidence": 475,
+  "Language": "dicta",
+  "Sentiment": 417,
+  "SentimentConfidence": 95,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 189,
-      "Name": "Price Group",
-      "ContentType": "voluptate",
-      "AttSize": 422,
-      "InlineImage": false,
-      "ContentId": "quis",
-      "AuthKey": "quia",
+      "AttachmentId": 320,
+      "Name": "Cronin Group",
+      "ContentType": "amet",
+      "AttSize": 555,
+      "InlineImage": true,
+      "ContentId": "vitae",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 220
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "et"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldLength": 910
     }
   }
 }

@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetFaqForCustomer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FaqEntryId": 793
+  "FaqEntryId": 866
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iusto"
+"distinctio"
 ```

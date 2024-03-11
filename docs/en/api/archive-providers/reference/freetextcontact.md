@@ -164,6 +164,7 @@ as well as before any ORDER BY, are applied.
 |contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
+|contactAssociate/locationAddress|string|Location: Location| x |
 |contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -194,6 +195,7 @@ as well as before any ORDER BY, are applied.
 |contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 |contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
+|contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
 |contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -236,12 +238,12 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
-|contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
+|contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
@@ -340,12 +342,12 @@ as well as before any ORDER BY, are applied.
 |NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
-|LastTicket|date|Date of last request|  |
-|LastCompletedTicket|date|Date of last completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastTicket|date|Date of last request|  |
+|LastCompletedTicket|date|Date of last completed request|  |
 |LastDoByTicket|date|Date of last non-completed request|  |
 |SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
@@ -362,7 +364,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactAssociate/associateDbId,contactSupportPerson/personId
+GET /api/v1/archive/FreetextContact?$select=contactSupportPerson/personRegisteredDate,contactAssociate/contactName,contactSupportAssociate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

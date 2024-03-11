@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,97 +97,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 603,
-      "ContactName": "Bartoletti-Beahan",
-      "PersonId": 924,
-      "PersonName": "Turcotte-Bartoletti",
-      "AssociateId": 400,
-      "Address": "quod",
-      "EmailId": 268,
+      "ContactId": 208,
+      "ContactName": "Grimes LLC",
+      "PersonId": 274,
+      "PersonName": "Boehm, Barrows and Cummings",
+      "AssociateId": 950,
+      "Address": "voluptatem",
+      "EmailId": 803,
       "DuplicatePersonIds": [
-        661,
-        742
+        677,
+        677
       ],
-      "Name": "Douglas-Harris",
+      "Name": "Senger Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldLength": 71
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 111,
-      "ContactName": "Heaney-Wuckert",
-      "PersonId": 888,
-      "PersonName": "Goodwin-Thiel",
-      "AssociateId": 569,
-      "Address": "ad",
-      "EmailId": 989,
+      "ContactId": 940,
+      "ContactName": "Beer-Bartell",
+      "PersonId": 145,
+      "PersonName": "Grimes, O'Connell and Moen",
+      "AssociateId": 523,
+      "Address": "deserunt",
+      "EmailId": 469,
       "DuplicatePersonIds": [
-        587,
-        651
+        723,
+        722
       ],
-      "Name": "Hermiston Inc and Sons",
+      "Name": "Marquardt LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 992
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 245,
-      "ContactName": "Borer-Fay",
-      "PersonId": 501,
-      "PersonName": "Mosciski-O'Conner",
-      "AssociateId": 769,
-      "Address": "temporibus",
-      "EmailId": 115,
+      "ContactId": 788,
+      "ContactName": "Moore-Schumm",
+      "PersonId": 418,
+      "PersonName": "Schinner Inc and Sons",
+      "AssociateId": 591,
+      "Address": "eum",
+      "EmailId": 405,
       "DuplicatePersonIds": [
-        999,
-        90
+        753,
+        195
       ],
-      "Name": "Feest Inc and Sons",
+      "Name": "Thiel-Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 343
         }
       }
     }
   ],
-  "Subject": "velit",
-  "HTMLBody": "et",
+  "Subject": "quia",
+  "HTMLBody": "recusandae",
   "From": null,
-  "Sent": "2006-04-30T10:30:23.7668125+02:00",
-  "Size": 221,
+  "Sent": "2009-12-06T14:23:46.5637428+01:00",
+  "Size": 562,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "praesentium",
+  "MessageID": "voluptatum",
+  "PlainBody": "enim",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 540,
+  "ServerId": 228,
   "Attachments": [
     {
-      "Description": "Balanced zero tolerance help-desk",
-      "Filename": "maiores",
-      "Size": 280,
-      "Type": "odio",
+      "Description": "Ameliorated multi-state concept",
+      "Filename": "quia",
+      "Size": 55,
+      "Type": "nihil",
       "Encoding": "et",
-      "Id": "illo",
-      "Disposition": "voluptatem",
+      "Id": "tempora",
+      "Disposition": "saepe",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -195,49 +195,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 501
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dooley Group",
+      "Name": "Wiza-Hilpert",
       "Values": [
-        "praesentium",
-        "laudantium"
+        "et",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 792
         }
       }
     },
     {
-      "Name": "Dooley Group",
+      "Name": "Wiza-Hilpert",
       "Values": [
-        "praesentium",
-        "laudantium"
+        "et",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 792
         }
       }
     }
   ],
-  "FolderName": "Beahan Inc and Sons",
-  "EmailItemId": 59,
-  "AccountId": 854,
-  "ReceivedAt": "2021-12-19T10:30:23.7668125+01:00",
+  "FolderName": "Hamill Group",
+  "EmailItemId": 381,
+  "AccountId": 642,
+  "ReceivedAt": "2010-06-17T14:23:46.5793695+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-03-04T10:30:23.7668125+01:00",
+  "RepliedAt": "2014-10-23T14:23:46.5793695+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 442
     }
   }
 }

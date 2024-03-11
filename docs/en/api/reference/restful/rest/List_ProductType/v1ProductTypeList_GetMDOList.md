@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=qui
+GET /api/v1/List/ProductType/MDOItems?query=eveniet
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Ebert, Denesik and Gleason",
-    "ToolTip": "Ipsum natus aliquid deserunt ea.",
-    "Deleted": false,
-    "Rank": 106,
-    "Type": "natus",
+    "Id": 217,
+    "Name": "Langworth Inc and Sons",
+    "ToolTip": "Et soluta facere aliquid.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Collins-Altenwerth",
-        "ToolTip": "Consequuntur qui est optio consectetur atque qui harum.",
-        "Deleted": false,
-        "Rank": 310,
-        "Type": "reprehenderit",
+        "Id": 795,
+        "Name": "Vandervort, Ferry and Mann",
+        "ToolTip": "Nisi delectus est placeat.",
+        "Deleted": true,
+        "Rank": 900,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 947,
-        "ExtraInfo": "dolores",
-        "StyleHint": "est",
-        "FullName": "John Magali Deckow Sr.",
+        "IconHint": "laborum",
+        "ColorBlock": 820,
+        "ExtraInfo": "assumenda",
+        "StyleHint": "explicabo",
+        "FullName": "Petra Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldType": "System.String",
+            "FieldLength": 119
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 837,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "voluptatibus",
-    "FullName": "Carol Harber",
+    "IconHint": "dolorem",
+    "ColorBlock": 364,
+    "ExtraInfo": "id",
+    "StyleHint": "qui",
+    "FullName": "Josiane Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 252
+        "FieldType": "System.Int32",
+        "FieldLength": 350
       }
     }
   }

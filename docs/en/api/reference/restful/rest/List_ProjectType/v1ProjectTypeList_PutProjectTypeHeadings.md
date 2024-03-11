@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Ernser, Mayer and Kunze",
-    "Tooltip": "consequuntur",
+    "HeadingId": 574,
+    "Name": "Russel-Parisian",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 451,
-    "UdListDefinitionId": 537
+    "Rank": 227,
+    "UdListDefinitionId": 840
   },
   {
-    "HeadingId": 572,
-    "Name": "Ernser, Mayer and Kunze",
-    "Tooltip": "consequuntur",
+    "HeadingId": 574,
+    "Name": "Russel-Parisian",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 451,
-    "UdListDefinitionId": 537
+    "Rank": 227,
+    "UdListDefinitionId": 840
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 832,
-    "Name": "Legros LLC",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "Rank": 649,
-    "UdListDefinitionId": 755,
+    "HeadingId": 251,
+    "Name": "Cassin-Brakus",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "Rank": 524,
+    "UdListDefinitionId": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 543
       }
     }
   }

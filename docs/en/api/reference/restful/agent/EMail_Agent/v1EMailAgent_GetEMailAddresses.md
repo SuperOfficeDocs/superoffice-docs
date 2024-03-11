@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    370,
-    613
+    408,
+    800
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 947,
-    "ContactName": "Ritchie, Haley and Zemlak",
-    "PersonId": 861,
-    "PersonName": "Harris Group",
-    "AssociateId": 53,
-    "Address": "non",
-    "EmailId": 356,
+    "ContactId": 247,
+    "ContactName": "Beahan LLC",
+    "PersonId": 908,
+    "PersonName": "Bradtke-Goldner",
+    "AssociateId": 955,
+    "Address": "qui",
+    "EmailId": 900,
     "DuplicatePersonIds": [
-      270,
-      419
+      70,
+      765
     ],
-    "Name": "Reichel-VonRueden",
+    "Name": "Kerluke, Mills and Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldType": "System.String",
+        "FieldLength": 527
       }
     }
   }

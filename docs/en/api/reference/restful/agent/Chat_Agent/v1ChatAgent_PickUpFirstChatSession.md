@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 450,
-  "TopicId": 837,
+  "ChatSessionId": 930,
+  "TopicId": 497,
   "User": null,
   "Person": null,
   "CustomerAlias": "et",
-  "CustomerHost": "eius",
-  "CustomerName": "Schuster, Bins and Pouros",
-  "CustomerEmail": "matilda@swift.us",
-  "CustomerPhone": "1-513-792-5674 x446",
+  "CustomerHost": "sint",
+  "CustomerName": "Bernier-Herzog",
+  "CustomerEmail": "omer_durgan@murphyconroy.ca",
+  "CustomerPhone": "202-026-4382 x112",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Padberg-Grady",
+  "CustomerCompanyName": "Wolf, Abbott and Kunde",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "quod",
-  "WhenRequested": "2009-05-18T10:30:23.2105694+02:00",
-  "WhenStarted": "1996-12-22T10:30:23.2105694+01:00",
-  "WhenEnded": "2000-12-06T10:30:23.2105694+01:00",
-  "WhenIdle": "2020-10-22T10:30:23.2105694+02:00",
-  "WhenFetched": "2002-04-21T10:30:23.2105694+02:00",
-  "SessionKey": "aliquid",
-  "InitialQueuePos": 919,
-  "AlertLevel": 426,
-  "Rank": 31,
+  "FirstMessage": "est",
+  "LastMessage": "aut",
+  "WhenRequested": "2021-07-11T14:23:46.0012103+02:00",
+  "WhenStarted": "2003-01-27T14:23:46.0012103+01:00",
+  "WhenEnded": "2002-04-08T14:23:46.0012103+02:00",
+  "WhenIdle": "2002-05-06T14:23:46.0012103+02:00",
+  "WhenFetched": "2012-04-29T14:23:46.0012103+02:00",
+  "SessionKey": "porro",
+  "InitialQueuePos": 288,
+  "AlertLevel": 115,
+  "Rank": 831,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 228,
+  "Rating": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   }
 }

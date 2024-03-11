@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 821,
-  "ERPName": "Kris Inc and Sons",
-  "DisplayName": "Prohaska Group",
-  "DisplayDescription": "Switchable dedicated middleware",
-  "Rank": 793,
-  "ConnectorName": "Kessler-McLaughlin",
-  "ErpConnectionId": 931,
-  "ExtraData": "consequatur",
-  "IsAvailable": true,
+  "QuoteConnectionId": 611,
+  "ERPName": "Kuhlman-Mueller",
+  "DisplayName": "Haag, Kiehn and Torphy",
+  "DisplayDescription": "Mandatory disintermediate architecture",
+  "Rank": 524,
+  "ConnectorName": "Schneider-Schaden",
+  "ErpConnectionId": 654,
+  "ExtraData": "nulla",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 893,
-      "ERPPriceListKey": "qui",
-      "QuoteConnectionId": 140,
-      "Name": "Zemlak, Shanahan and West",
-      "Description": "Triple-buffered directional system engine",
-      "Currency": "voluptas",
-      "CurrencyName": "Gaylord LLC",
-      "ValidFrom": "2003-07-13T10:30:24.4346264+02:00",
-      "ValidTo": "1996-10-28T10:30:24.4346264+01:00",
-      "IsActive": false,
+      "PriceListId": 962,
+      "ERPPriceListKey": "assumenda",
+      "QuoteConnectionId": 829,
+      "Name": "Marquardt, Upton and Dietrich",
+      "Description": "Focused stable structure",
+      "Currency": "quaerat",
+      "CurrencyName": "Pfannerstill LLC",
+      "ValidFrom": "1998-03-28T14:23:47.2380075+01:00",
+      "ValidTo": "2011-04-14T14:23:47.2380075+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldType": "System.Int32",
+          "FieldLength": 509
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": false,
+  "AllAccess": true,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    615,
-    143
+    511,
+    190
   ],
   "AssociateAccessIds": [
-    987,
-    253
+    827,
+    340
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

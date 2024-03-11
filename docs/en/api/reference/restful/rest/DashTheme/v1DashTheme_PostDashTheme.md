@@ -86,16 +86,16 @@ OK
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 79,
-  "Name": "Harris, Schmitt and Mann",
-  "Config": "a",
-  "Rank": 559,
-  "Client": "error",
-  "Style": "molestiae"
+  "DashboardThemeId": 929,
+  "Name": "Casper LLC",
+  "Config": "optio",
+  "Rank": 981,
+  "Client": "ad",
+  "Style": "vel"
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 906,
-  "Name": "Frami, Turner and Casper",
-  "Config": "exercitationem",
-  "Rank": 174,
-  "Client": "dolor",
-  "Style": "nobis",
+  "DashboardThemeId": 113,
+  "Name": "Wilkinson, Gerlach and Hilll",
+  "Config": "nulla",
+  "Rank": 673,
+  "Client": "voluptatum",
+  "Style": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 541
     }
   },
   "_Links": {

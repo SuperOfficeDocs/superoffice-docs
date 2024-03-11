@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 713,
+  "QuoteVersionId": 215,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 796
+  "CountryId": 144
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 27745.302,
-  "Wgs84Longitude": 25375.998,
+  "Wgs84Latitude": 17067.764,
+  "Wgs84Longitude": 12178.724,
   "LocalizedAddress": [
     [
       {
-        "Name": "Lindgren-Miller",
-        "Value": "saepe",
-        "Tooltip": "dolorem",
-        "Label": "excepturi",
-        "ValueLength": 680,
-        "AddressType": "est",
+        "Name": "Bechtelar LLC",
+        "Value": "quis",
+        "Tooltip": "animi",
+        "Label": "dicta",
+        "ValueLength": 66,
+        "AddressType": "inventore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 208
+            "FieldType": "System.Int32",
+            "FieldLength": 907
           }
         }
       }
     ],
     [
       {
-        "Name": "Powlowski-Beahan",
-        "Value": "non",
-        "Tooltip": "vero",
-        "Label": "doloremque",
-        "ValueLength": 897,
-        "AddressType": "dicta",
+        "Name": "Feil-Toy",
+        "Value": "nam",
+        "Tooltip": "in",
+        "Label": "sit",
+        "ValueLength": 720,
+        "AddressType": "delectus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 579
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "est",
+  "Formatted": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 279
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 625,
-  "ColumnId": 397,
-  "FieldDefault": "omnis",
-  "FieldHeight": 800,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 618,
-  "FieldTop": 711,
+  "UDefFieldId": 734,
+  "ColumnId": 260,
+  "FieldDefault": "inventore",
+  "FieldHeight": 555,
+  "FieldLabel": "dignissimos",
+  "FieldLeft": 77,
+  "FieldTop": 678,
   "FieldType": "Checkbox",
-  "FieldWidth": 189,
-  "FormatMask": "occaecati",
-  "HideLabel": false,
+  "FieldWidth": 188,
+  "FormatMask": "maiores",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 499,
-  "LabelLeft": 266,
-  "LabelTop": 166,
-  "LabelWidth": 263,
-  "LastVersionId": 625,
-  "ListTableId": 202,
+  "LabelHeight": 210,
+  "LabelLeft": 730,
+  "LabelTop": 270,
+  "LabelWidth": 597,
+  "LastVersionId": 984,
+  "ListTableId": 218,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 364,
-  "ProgId": "asperiores",
-  "IsReadOnly": true,
-  "ShortLabel": "omnis",
-  "TabOrder": 867,
-  "TextLength": 49,
-  "Tooltip": "deleniti",
-  "UdefIdentity": 695,
-  "UDListDefinitionId": 924,
+  "Page1LineNo": 974,
+  "ProgId": "accusamus",
+  "IsReadOnly": false,
+  "ShortLabel": "praesentium",
+  "TabOrder": 401,
+  "TextLength": 359,
+  "Tooltip": "laudantium",
+  "UdefIdentity": 453,
+  "UDListDefinitionId": 907,
   "Justification": "Center",
-  "Version": 343,
-  "TemplateVariableName": "Schowalter-Renner",
+  "Version": 497,
+  "TemplateVariableName": "Auer, Schumm and Langosh",
   "HasBeenPublished": false,
-  "MdoListName": "Ruecker LLC",
+  "MdoListName": "Jenkins Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

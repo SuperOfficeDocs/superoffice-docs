@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 863,
-    "Name": "Thiel-Hane",
-    "ContentType": "id",
-    "AttSize": 772,
+    "AttachmentId": 822,
+    "Name": "Hagenes, Bogisich and Bernhard",
+    "ContentType": "labore",
+    "AttSize": 177,
     "InlineImage": true,
-    "ContentId": "et",
-    "AuthKey": "labore",
+    "ContentId": "sit",
+    "AuthKey": "officiis",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 781
       }
     }
   }

@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 43
+  "ChatSessionId": 664
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 757,
-  "TopicId": 847,
+  "ChatSessionId": 350,
+  "TopicId": 244,
   "User": null,
   "Person": null,
-  "CustomerAlias": "numquam",
-  "CustomerHost": "ut",
-  "CustomerName": "Ullrich LLC",
-  "CustomerEmail": "chris@ortizlueilwitz.info",
-  "CustomerPhone": "1-368-774-7610",
+  "CustomerAlias": "debitis",
+  "CustomerHost": "perspiciatis",
+  "CustomerName": "Gusikowski, Ankunding and Schamberger",
+  "CustomerEmail": "lenny@rohan.uk",
+  "CustomerPhone": "938-217-7710",
   "CustomerConsented": false,
-  "CustomerCompanyName": "McClure LLC",
+  "CustomerCompanyName": "Lakin, Boyle and Kunze",
   "Status": "Closed",
-  "FirstMessage": "vero",
-  "LastMessage": "eos",
-  "WhenRequested": "2017-07-08T10:30:23.1949025+02:00",
-  "WhenStarted": "2003-03-09T10:30:23.1949025+01:00",
-  "WhenEnded": "2000-06-25T10:30:23.1949025+02:00",
-  "WhenIdle": "2021-04-30T10:30:23.1949025+02:00",
-  "WhenFetched": "2007-10-11T10:30:23.1949025+02:00",
-  "SessionKey": "ab",
-  "InitialQueuePos": 165,
-  "AlertLevel": 184,
-  "Rank": 535,
+  "FirstMessage": "iusto",
+  "LastMessage": "adipisci",
+  "WhenRequested": "2003-05-21T14:23:45.9855841+02:00",
+  "WhenStarted": "2003-04-29T14:23:45.9855841+02:00",
+  "WhenEnded": "2019-09-05T14:23:45.9855841+02:00",
+  "WhenIdle": "2002-06-03T14:23:45.9855841+02:00",
+  "WhenFetched": "2018-11-28T14:23:45.9855841+01:00",
+  "SessionKey": "deleniti",
+  "InitialQueuePos": 840,
+  "AlertLevel": 342,
+  "Rank": 211,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 537,
+  "Rating": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 541
     }
   }
 }

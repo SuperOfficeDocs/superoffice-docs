@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 66,
-  "Name": "Wintheiser LLC",
-  "Description": "Versatile human-resource challenge",
-  "WelcomeMessage": "neque",
+  "ChatTopicId": 857,
+  "Name": "Hodkiewicz, Leannon and Stanton",
+  "Description": "Expanded modular complexity",
+  "WelcomeMessage": "soluta",
   "Language": null,
-  "LastAccept": "2006-04-26T10:30:23.1451766+02:00",
-  "SecondsPrAccept": 75,
-  "AlertRecipient": "vel",
+  "LastAccept": "2018-05-13T14:23:45.9230859+02:00",
+  "SecondsPrAccept": 242,
+  "AlertRecipient": "error",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "corporis",
+  "BadgeHeader": "sed",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolores",
-  "WarnNewChatMinutes": 884,
-  "WarnManagerNewChatMinutes": 294,
-  "TicketEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 49,
+  "WarnManagerNewChatMinutes": 980,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 910,
-  "WarnManagerChatMessageMinutes": 24,
+  "WarnChatMessageMinutes": 883,
+  "WarnManagerChatMessageMinutes": 805,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 401,
-  "OfflineFormQueueLength": 378,
+  "OfflineFormTimeLimit": 562,
+  "OfflineFormQueueLength": 951,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dicta",
+  "WidgetRatingText": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldLength": 773
     }
   }
 }

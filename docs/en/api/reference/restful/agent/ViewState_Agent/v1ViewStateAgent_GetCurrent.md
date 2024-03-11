@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Farrell-Howell"
+  "HistoryName": "Homenick, Skiles and Hyatt"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 394,
-  "Id": 705,
-  "HistoryName": "Pollich, Jerde and Schmidt",
-  "HistoryId": 984,
-  "AssociateId": 472,
-  "Name": "Abernathy Inc and Sons",
-  "ItemInfo": "architecto",
+  "Rank": 864,
+  "Id": 722,
+  "HistoryName": "Spinka-Rath",
+  "HistoryId": 365,
+  "AssociateId": 516,
+  "Name": "Fadel, Brekke and Paucek",
+  "ItemInfo": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 846
     }
   }
 }

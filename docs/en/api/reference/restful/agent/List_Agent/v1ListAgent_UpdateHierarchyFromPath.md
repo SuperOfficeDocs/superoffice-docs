@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "nisi",
+  "Path": "id",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 247,
+  "HierarchyId": 837,
   "Domain": "Dashboards",
-  "Name": "Block, Turner and Larson",
-  "Fullname": "temporibus",
-  "ParentId": 919,
+  "Name": "Torp Group",
+  "Fullname": "quaerat",
+  "ParentId": 362,
   "Children": [
     {
-      "HierarchyId": 429,
+      "HierarchyId": 198,
       "Domain": "Dashboards",
-      "Name": "Quitzon Group",
-      "Fullname": "ut",
-      "ParentId": 942,
+      "Name": "Christiansen LLC",
+      "Fullname": "eligendi",
+      "ParentId": 501,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-12-03T10:30:24.0569003+01:00",
-      "RegisteredAssociateId": 949,
-      "Updated": "2022-12-26T10:30:24.0569003+01:00",
-      "UpdatedAssociateId": 94,
+      "Registered": "2019-03-04T14:23:46.8786294+01:00",
+      "RegisteredAssociateId": 55,
+      "Updated": "1997-02-20T14:23:46.8786294+01:00",
+      "UpdatedAssociateId": 45,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 645
         }
       }
     }
   ],
-  "Registered": "1999-01-09T10:30:24.0569003+01:00",
-  "RegisteredAssociateId": 400,
-  "Updated": "2008-01-05T10:30:24.0569003+01:00",
-  "UpdatedAssociateId": 593,
+  "Registered": "2001-12-01T14:23:46.8786294+01:00",
+  "RegisteredAssociateId": 533,
+  "Updated": "2016-04-20T14:23:46.8786294+02:00",
+  "UpdatedAssociateId": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

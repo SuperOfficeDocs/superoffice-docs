@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 963,
-      "ContactName": "Ziemann-Leffler",
-      "PersonId": 143,
-      "PersonName": "Schneider-Hirthe",
-      "AssociateId": 703,
-      "Address": "iusto",
-      "EmailId": 3,
+      "ContactId": 430,
+      "ContactName": "Emmerich Group",
+      "PersonId": 552,
+      "PersonName": "Howell-Abbott",
+      "AssociateId": 982,
+      "Address": "dolore",
+      "EmailId": 88,
       "DuplicatePersonIds": [
-        167,
-        864
+        872,
+        135
       ],
-      "Name": "Wunsch-Bruen",
+      "Name": "Mann-Parisian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 658,
-      "ContactName": "Weimann, Bernhard and Doyle",
-      "PersonId": 60,
-      "PersonName": "Daniel-Kautzer",
-      "AssociateId": 825,
-      "Address": "eum",
-      "EmailId": 535,
+      "ContactId": 30,
+      "ContactName": "Lowe, McCullough and Collier",
+      "PersonId": 291,
+      "PersonName": "Wilkinson Group",
+      "AssociateId": 213,
+      "Address": "impedit",
+      "EmailId": 832,
       "DuplicatePersonIds": [
-        335,
-        300
+        175,
+        23
       ],
-      "Name": "Hammes-Welch",
+      "Name": "Farrell, Davis and Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 239,
-      "ContactName": "Haag-Koelpin",
-      "PersonId": 446,
-      "PersonName": "Lowe LLC",
-      "AssociateId": 347,
-      "Address": "culpa",
-      "EmailId": 926,
+      "ContactId": 38,
+      "ContactName": "Lakin, Wiza and Heller",
+      "PersonId": 647,
+      "PersonName": "Hyatt-Considine",
+      "AssociateId": 280,
+      "Address": "sit",
+      "EmailId": 127,
       "DuplicatePersonIds": [
-        153,
-        534
+        61,
+        236
       ],
-      "Name": "Hauck-Pouros",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
-        }
-      }
-    }
-  ],
-  "Subject": "natus",
-  "HTMLBody": "similique",
-  "From": null,
-  "Sent": "2019-06-11T10:30:23.7199314+02:00",
-  "Size": 39,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "perspiciatis",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 114,
-  "Attachments": [
-    {
-      "Description": "Pre-emptive upward-trending task-force",
-      "Filename": "voluptatem",
-      "Size": 398,
-      "Type": "officiis",
-      "Encoding": "impedit",
-      "Id": "voluptatem",
-      "Disposition": "harum",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Leuschke Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 94
+        }
+      }
+    }
+  ],
+  "Subject": "qui",
+  "HTMLBody": "vel",
+  "From": null,
+  "Sent": "2001-10-26T14:23:46.4230787+02:00",
+  "Size": 804,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "expedita",
+  "PlainBody": "est",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 846,
+  "Attachments": [
+    {
+      "Description": "Business-focused foreground methodology",
+      "Filename": "omnis",
+      "Size": 953,
+      "Type": "sint",
+      "Encoding": "earum",
+      "Id": "sed",
+      "Disposition": "sunt",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kautzer Inc and Sons",
+      "Name": "Russel LLC",
       "Values": [
-        "earum",
-        "id"
+        "nam",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     },
     {
-      "Name": "Kautzer Inc and Sons",
+      "Name": "Russel LLC",
       "Values": [
-        "earum",
-        "id"
+        "nam",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     }
   ],
-  "FolderName": "Bahringer, Runte and Lynch",
-  "EmailItemId": 195,
-  "AccountId": 576,
-  "ReceivedAt": "2020-07-31T10:30:23.7199314+02:00",
+  "FolderName": "Thompson, Casper and Mueller",
+  "EmailItemId": 707,
+  "AccountId": 603,
+  "ReceivedAt": "2009-02-05T14:23:46.4230787+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-06-19T10:30:23.7199314+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2017-07-02T14:23:46.4230787+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

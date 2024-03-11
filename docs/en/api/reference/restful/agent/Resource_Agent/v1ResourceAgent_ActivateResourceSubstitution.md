@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Bruen, Adams and Hamill",
-  "Culture": "quis",
-  "IsActive": true
+  "ResourceName": "Dare, Nikolaus and Volkman",
+  "Culture": "perferendis",
+  "IsActive": false
 }
 ```
 

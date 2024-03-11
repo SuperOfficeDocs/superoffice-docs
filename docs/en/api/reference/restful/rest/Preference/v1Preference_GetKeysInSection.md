@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Denesik-Davis",
-    "ToolTip": "Qui quae enim voluptas nihil.",
+    "Id": 238,
+    "Name": "Conroy-Langosh",
+    "ToolTip": "Expedita dolor.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "quia",
+    "Rank": 78,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 208,
-        "Name": "Vandervort-Schmeler",
-        "ToolTip": "Molestiae mollitia officiis.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "voluptatem",
+        "Id": 196,
+        "Name": "Rogahn, Dibbert and Gerhold",
+        "ToolTip": "Minima impedit tempora porro at qui.",
+        "Deleted": true,
+        "Rank": 536,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 764,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "quae",
-        "FullName": "Davion Hudson IV",
+        "IconHint": "officiis",
+        "ColorBlock": 644,
+        "ExtraInfo": "expedita",
+        "StyleHint": "beatae",
+        "FullName": "Abbigail Kulas DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 989
+            "FieldLength": 771
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 450,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "eaque",
-    "FullName": "Maybelle O'Keefe",
+    "IconHint": "vero",
+    "ColorBlock": 541,
+    "ExtraInfo": "dolor",
+    "StyleHint": "sit",
+    "FullName": "Eliseo Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 249
       }
     }
   }

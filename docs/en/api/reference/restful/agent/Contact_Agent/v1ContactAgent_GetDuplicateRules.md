@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Franecki, Schroeder and Nikolaus",
-    "DisplayName": "Haag LLC",
-    "DisplayTooltip": "hic",
+    "Name": "Altenwerth Group",
+    "DisplayName": "Larson-Prohaska",
+    "DisplayTooltip": "distinctio",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   },
   {
-    "Name": "Franecki, Schroeder and Nikolaus",
-    "DisplayName": "Haag LLC",
-    "DisplayTooltip": "hic",
+    "Name": "Altenwerth Group",
+    "DisplayName": "Larson-Prohaska",
+    "DisplayTooltip": "distinctio",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 454,
-  "AppointmentId": 314,
-  "ProjectId": 337,
-  "SaleId": 730,
+  "DocumentId": 828,
+  "AppointmentId": 895,
+  "ProjectId": 87,
+  "SaleId": 292,
   "Archived": true,
-  "ArchivedAt": "2001-05-17T10:30:23.7824305+02:00",
-  "ArchivedBy": 26,
-  "ArchivedDisplayName": "Johnston Inc and Sons",
+  "ArchivedAt": "2003-07-28T14:23:46.6262356+02:00",
+  "ArchivedBy": 16,
+  "ArchivedDisplayName": "Witting Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 585
     }
   }
 }

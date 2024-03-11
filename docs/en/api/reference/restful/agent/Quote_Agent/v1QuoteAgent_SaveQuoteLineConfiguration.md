@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 993,
-  "FieldName": "Kemmer, Collins and Romaguera",
-  "Label": "adipisci",
-  "Tooltip": "vero",
+  "QuoteLineConfigurationId": 696,
+  "FieldName": "Turner-McKenzie",
+  "Label": "enim",
+  "Tooltip": "nam",
   "Editable": false,
-  "InUse": true,
+  "InUse": false,
   "Mandatory": true,
-  "Rank": 525,
+  "Rank": 292,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

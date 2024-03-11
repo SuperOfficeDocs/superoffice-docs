@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 75,
-    "Name": "Kihn-Oberbrunner",
-    "Tooltip": "fugit",
+    "HeadingId": 164,
+    "Name": "Hudson Inc and Sons",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 742,
-    "UdListDefinitionId": 150,
+    "Rank": 816,
+    "UdListDefinitionId": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 997
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=199
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=251
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 256,
-  "ParentId": 88,
-  "Name": "Schuppe LLC",
-  "Fullname": "veniam",
-  "CategoryMaster": 438,
+  "TicketCategoryId": 997,
+  "ParentId": 406,
+  "Name": "Schiller, Morar and Hammes",
+  "Fullname": "sequi",
+  "CategoryMaster": 519,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schmeler LLC",
+  "ExternalName": "Kerluke-Carroll",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 740,
-  "ReplyTemplate": 111,
-  "NotificationEmail": "melba@bednar.uk",
+  "AssignmentLag": 237,
+  "ReplyTemplate": 670,
+  "NotificationEmail": "hubert@corwin.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 10,
+  "EffectiveReplyTemplateId": 907,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "aut"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 11
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Walker Inc and Sons",
-  "Tooltip": "illum",
+  "Id": 43,
+  "Name": "Carroll, Kuvalis and Batz",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 752,
-  "Rank": 879,
+  "UdListDefinitionId": 775,
+  "Rank": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 276,
-    "Name": "Gerhold, Graham and Hartmann",
-    "Tooltip": "cumque",
+    "HeadingId": 790,
+    "Name": "Nitzsche Group",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 586,
-    "UdListDefinitionId": 594
+    "Rank": 539,
+    "UdListDefinitionId": 923
   },
   {
-    "HeadingId": 276,
-    "Name": "Gerhold, Graham and Hartmann",
-    "Tooltip": "cumque",
+    "HeadingId": 790,
+    "Name": "Nitzsche Group",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 586,
-    "UdListDefinitionId": 594
+    "Rank": 539,
+    "UdListDefinitionId": 923
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 163,
-    "Name": "Osinski LLC",
-    "Tooltip": "in",
+    "HeadingId": 435,
+    "Name": "Schuster Group",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 456,
-    "UdListDefinitionId": 122,
+    "Rank": 899,
+    "UdListDefinitionId": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

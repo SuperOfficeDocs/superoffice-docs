@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 423
+  "TicketMessageEntityId": 831
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 802,
-    "Name": "Botsford, Senger and Effertz",
-    "ContentType": "aut",
-    "AttSize": 993,
+    "AttachmentId": 356,
+    "Name": "Carroll-Schmidt",
+    "ContentType": "eveniet",
+    "AttSize": 71,
     "InlineImage": false,
-    "ContentId": "harum",
-    "AuthKey": "qui",
-    "IsSafeFileExtension": true,
+    "ContentId": "aut",
+    "AuthKey": "corporis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 991
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 15,
-    "ColumnId": 774,
-    "FieldDefault": "aut",
-    "FieldHeight": 437,
-    "FieldLabel": "assumenda",
-    "FieldLeft": 271,
-    "FieldTop": 704,
+    "UDefFieldId": 383,
+    "ColumnId": 617,
+    "FieldDefault": "perspiciatis",
+    "FieldHeight": 856,
+    "FieldLabel": "id",
+    "FieldLeft": 284,
+    "FieldTop": 412,
     "FieldType": "Checkbox",
-    "FieldWidth": 675,
-    "FormatMask": "perferendis",
-    "HideLabel": false,
+    "FieldWidth": 507,
+    "FormatMask": "non",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 329,
-    "LabelLeft": 226,
-    "LabelTop": 562,
-    "LabelWidth": 992,
-    "LastVersionId": 279,
-    "ListTableId": 809,
-    "IsMandatory": true,
+    "LabelHeight": 411,
+    "LabelLeft": 345,
+    "LabelTop": 1001,
+    "LabelWidth": 885,
+    "LastVersionId": 79,
+    "ListTableId": 238,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 156,
-    "ProgId": "ab",
+    "Page1LineNo": 828,
+    "ProgId": "corrupti",
     "IsReadOnly": false,
-    "ShortLabel": "ullam",
-    "TabOrder": 925,
-    "TextLength": 987,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 520,
-    "UDListDefinitionId": 427,
+    "ShortLabel": "in",
+    "TabOrder": 350,
+    "TextLength": 811,
+    "Tooltip": "quibusdam",
+    "UdefIdentity": 223,
+    "UDListDefinitionId": 701,
     "Justification": "Center",
-    "Version": 114,
-    "TemplateVariableName": "Green-Mosciski",
+    "Version": 474,
+    "TemplateVariableName": "Swift-Bailey",
     "HasBeenPublished": false,
-    "MdoListName": "Hyatt Group",
+    "MdoListName": "Moore Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

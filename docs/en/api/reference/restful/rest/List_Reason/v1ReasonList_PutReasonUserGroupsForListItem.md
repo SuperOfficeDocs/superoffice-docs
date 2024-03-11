@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Corwin-Jakubowski",
-    "ToolTip": "Delectus nulla eum molestias odio quidem quis.",
+    "Id": 835,
+    "Name": "Medhurst Group",
+    "ToolTip": "Molestiae iste culpa qui quam veritatis enim possimus.",
     "Deleted": false,
-    "Rank": 504,
-    "Type": "animi",
-    "ColorBlock": 717,
-    "IconHint": "vel",
+    "Rank": 876,
+    "Type": "exercitationem",
+    "ColorBlock": 305,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1999-06-25T10:30:33.1943329+02:00",
+    "LastChanged": "2014-08-31T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Johnston-Ernser",
-        "ToolTip": "Quia placeat voluptatem nesciunt.",
+        "Id": 947,
+        "Name": "Lockman-Shields",
+        "ToolTip": "Rem delectus sapiente distinctio itaque atque.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "eos",
-        "ColorBlock": 659,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2018-06-30T10:30:33.1943329+02:00",
+        "Rank": 532,
+        "Type": "et",
+        "ColorBlock": 179,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1998-06-14T14:23:56.2908239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Mr. Noe Esperanza Kihn"
+        "ExtraInfo": "culpa",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Arvel Thompson IV"
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "nisi",
+    "ExtraInfo": "rerum",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Landen Metz"
+    "FullName": "Keira Funk"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Kautzer Group",
-    "ToolTip": "Modi est blanditiis quibusdam velit.",
+    "Id": 160,
+    "Name": "Cormier-Murphy",
+    "ToolTip": "Eos eos autem eligendi dolorem facere est aliquam.",
     "Deleted": false,
-    "Rank": 719,
-    "Type": "et",
-    "ColorBlock": 144,
-    "IconHint": "tenetur",
-    "Selected": true,
-    "LastChanged": "1999-11-08T10:30:33.1943329+01:00",
+    "Rank": 312,
+    "Type": "sint",
+    "ColorBlock": 486,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2021-07-23T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "Gleichner, Franecki and Homenick",
-        "ToolTip": "Quo id.",
+        "Id": 64,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Praesentium delectus expedita nam.",
         "Deleted": false,
-        "Rank": 589,
-        "Type": "quia",
-        "ColorBlock": 738,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2017-05-02T10:30:33.1943329+02:00",
+        "Rank": 902,
+        "Type": "error",
+        "ColorBlock": 870,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2013-07-24T14:23:56.2908239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "molestias",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mrs. Felton Cloyd Hintz",
+        "FullName": "Melyssa Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "nihil",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Helena Lind",
+    "FullName": "Lonnie Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 502
       }
     }
   }

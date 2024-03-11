@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=ut
-GET /api/v1/TriggerScript?$top=418
-GET /api/v1/TriggerScript?$skip=305
+GET /api/v1/TriggerScript?$entities=quis
+GET /api/v1/TriggerScript?$top=202
+GET /api/v1/TriggerScript?$skip=892
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=officia
+GET /api/v1/TriggerScript?$context=ut
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=False
+GET /api/v1/TriggerScript?$jsonSafe=True
 GET /api/v1/TriggerScript?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "eveniet",
   "value": [
     {
-      "PrimaryKey": 3379,
+      "PrimaryKey": 4678,
       "EntityName": "sale",
-      "saleId": 3379,
-      "contactId": 8364,
-      "name": "Kuvalis LLC"
+      "saleId": 4678,
+      "contactId": 5595,
+      "name": "Wuckert Inc and Sons"
     },
     {
-      "PrimaryKey": 4532,
+      "PrimaryKey": 2574,
       "EntityName": "sale",
-      "saleId": 4532,
-      "contactId": 47,
-      "name": "Harris, Kassulke and Donnelly"
+      "saleId": 2574,
+      "contactId": 2868,
+      "name": "Homenick Group"
     }
   ]
 }

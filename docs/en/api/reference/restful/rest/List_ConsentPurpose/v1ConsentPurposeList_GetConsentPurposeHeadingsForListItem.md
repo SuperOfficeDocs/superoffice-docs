@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Greenfelder, Streich and Cremin",
-    "ToolTip": "Minus laboriosam dolore libero libero.",
+    "Id": 670,
+    "Name": "Dickens Inc and Sons",
+    "ToolTip": "Consequuntur sed non illo ut recusandae aut.",
     "Deleted": false,
-    "Rank": 952,
-    "Type": "tenetur",
-    "ColorBlock": 412,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2020-08-20T10:30:32.9118319+02:00",
+    "Rank": 726,
+    "Type": "saepe",
+    "ColorBlock": 159,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2010-12-12T14:23:56.009576+01:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Murray-Weimann",
-        "ToolTip": "Quibusdam voluptates quae suscipit.",
-        "Deleted": true,
-        "Rank": 136,
-        "Type": "possimus",
-        "ColorBlock": 719,
-        "IconHint": "deleniti",
+        "Id": 879,
+        "Name": "Walter Group",
+        "ToolTip": "Itaque voluptates optio inventore praesentium doloribus et accusantium.",
+        "Deleted": false,
+        "Rank": 726,
+        "Type": "quos",
+        "ColorBlock": 805,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2023-05-14T10:30:32.9118319+02:00",
+        "LastChanged": "2000-11-25T14:23:56.009576+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "vel",
+        "ExtraInfo": "sed",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Laverna Quigley",
+        "FullName": "Jazmyne Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldType": "System.String",
+            "FieldLength": 138
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Nico Batz",
+    "ExtraInfo": "quia",
+    "StyleHint": "deleniti",
+    "Hidden": false,
+    "FullName": "Pinkie Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

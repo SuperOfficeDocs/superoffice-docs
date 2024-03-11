@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "quod",
-    "DocumentId": 806,
-    "VersionId": "tenetur",
-    "CheckedInDate": "1997-01-16T10:30:32.0418021+01:00",
-    "CheckedInByName": "Pacocha-Hudson",
-    "CheckedInByAssociateId": 786,
-    "Description": "Right-sized tertiary Graphical User Interface",
-    "DisplayText": "sapiente",
+    "ExternalReference": "enim",
+    "DocumentId": 354,
+    "VersionId": "at",
+    "CheckedInDate": "2004-07-20T14:23:55.1490211+02:00",
+    "CheckedInByName": "Parker LLC",
+    "CheckedInByAssociateId": 404,
+    "Description": "Centralized contextually-based methodology",
+    "DisplayText": "recusandae",
     "ExtraFields": [
-      "sed",
-      "illum"
+      "vel",
+      "aut"
     ]
   }
 ]

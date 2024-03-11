@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "et",
-  "RecordId": 813,
-  "CreatedDate": "2020-12-23T10:30:32.0730519+01:00",
-  "UpdatedDate": "2014-04-07T10:30:32.0730519+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "voluptatem",
-  "TableName": "Sawayn-Bartoletti"
+  "Key": "cum",
+  "Value": "sit",
+  "RecordId": 406,
+  "CreatedDate": "2012-07-15T14:23:55.195897+02:00",
+  "UpdatedDate": "2014-09-14T14:23:55.195897+02:00",
+  "UpdatedBy": "at",
+  "CreatedBy": "quo",
+  "TableName": "Stoltenberg, Schuster and Gerhold"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "tenetur",
-  "RecordId": 863,
-  "CreatedDate": "2023-06-12T10:30:32.0730519+02:00",
-  "UpdatedDate": "2020-02-22T10:30:32.0730519+01:00",
-  "UpdatedBy": "dolores",
-  "CreatedBy": "repudiandae",
-  "TableName": "Ledner-Heller",
+  "Key": "sed",
+  "Value": "quos",
+  "RecordId": 665,
+  "CreatedDate": "2002-05-16T14:23:55.195897+02:00",
+  "UpdatedDate": "2016-05-20T14:23:55.195897+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "beatae",
+  "TableName": "Gulgowski-Graham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 651
     }
   }
 }

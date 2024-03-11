@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 327,
-  "UniqueId": "quam",
-  "Name": "Hudson, Runolfsdottir and Schultz",
-  "Description": "Re-engineered logistical ability",
-  "AssociateId": 906,
-  "Columns": 561,
+  "DashboardId": 879,
+  "UniqueId": "delectus",
+  "Name": "Friesen Group",
+  "Description": "Optimized bi-directional knowledge base",
+  "AssociateId": 57,
+  "Columns": 213,
   "Theme": null,
-  "VisibleForAll": 560,
+  "VisibleForAll": 749,
   "VisibleForAssociates": [
-    12,
-    265
+    178,
+    13
   ],
   "VisibleForGroups": [
-    648,
-    709
+    453,
+    527
   ],
-  "PinForAll": 204,
+  "PinForAll": 983,
   "PinForAssociates": [
-    790,
-    63
+    411,
+    762
   ],
   "PinForGroups": [
-    54,
-    676
+    733,
+    723
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

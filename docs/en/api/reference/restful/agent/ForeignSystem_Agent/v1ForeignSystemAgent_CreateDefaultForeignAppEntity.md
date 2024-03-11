@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 339,
-  "Name": "Conn Group",
-  "CreatedDate": "2004-06-14T10:30:23.8918024+02:00",
-  "UpdatedDate": "2001-09-07T10:30:23.8918024+02:00",
+  "ForeignAppId": 321,
+  "Name": "Reynolds LLC",
+  "CreatedDate": "2002-06-12T14:23:46.7524806+02:00",
+  "UpdatedDate": "2017-09-06T14:23:46.7524806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 461,
-      "Name": "Schmitt-Turner",
-      "CreatedDate": "1999-04-08T10:30:23.8918024+02:00",
-      "UpdatedDate": "2013-10-24T10:30:23.8918024+02:00",
-      "AssociateFullName": "Brice Treutel",
-      "CreatedBy": "eius",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "asperiores",
-      "ForeignAppId": 29,
+      "ForeignDeviceId": 656,
+      "Name": "Gottlieb, McGlynn and Kautzer",
+      "CreatedDate": "2012-09-30T14:23:46.7524806+02:00",
+      "UpdatedDate": "2010-12-09T14:23:46.7524806+01:00",
+      "AssociateFullName": "Jalen Schneider",
+      "CreatedBy": "reprehenderit",
+      "UpdatedBy": "iusto",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 219,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 918
+      "FieldLength": 334
     }
   }
 }

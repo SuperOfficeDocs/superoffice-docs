@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 855,
-  "Name": "Feeney LLC",
-  "Rank": 576,
-  "Tooltip": "velit",
-  "Icon": "a",
-  "DefaultTicketStatus": 671,
+  "TicketTypeId": 441,
+  "Name": "Dietrich Inc and Sons",
+  "Rank": 323,
+  "Tooltip": "facilis",
+  "Icon": "est",
+  "DefaultTicketStatus": 75,
   "TicketStatuses": [
-    796,
-    282
+    961,
+    206
   ],
-  "DefaultTicketPriority": 746,
+  "DefaultTicketPriority": 252,
   "TicketPriorities": [
-    705,
-    174
+    485,
+    986
   ],
-  "ReplyTemplate": 740,
+  "ReplyTemplate": 954,
   "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 617
     }
   }
 }

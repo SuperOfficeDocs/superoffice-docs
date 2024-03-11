@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 878,
-  "Name": "Reinger-Lindgren",
-  "Description": "Fully-configurable exuding archive",
-  "DeltaJson": "earum",
+  "ConfigurableScreenDeltaId": 659,
+  "Name": "Torp, Pagac and Lang",
+  "Description": "Inverse bi-directional framework",
+  "DeltaJson": "ut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "provident",
-  "UpdatedDate": "2003-01-24T10:30:23.2574424+01:00",
-  "CreatedDate": "2001-06-20T10:30:23.2574424+02:00",
+  "RecipeId": "mollitia",
+  "UpdatedDate": "2013-03-29T14:23:46.0637094+01:00",
+  "CreatedDate": "2021-07-20T14:23:46.0637094+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    62,
-    802
+    727,
+    570
   ],
-  "AppliesToKey": "et",
+  "AppliesToKey": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 159
     }
   }
 }

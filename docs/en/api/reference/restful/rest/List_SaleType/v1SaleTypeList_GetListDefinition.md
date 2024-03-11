@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Wolf-Kiehn",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "Rank": 818,
-  "IsCustomList": false,
+  "Id": 879,
+  "Name": "Walsh, Berge and Langworth",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "Rank": 447,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 808
     }
   },
   "_Links": {

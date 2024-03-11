@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 385,
-  "SaleId": 952,
-  "QuoteConnectionId": 630,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "omnis",
-  "ActiveQuoteVersionId": 226,
-  "AcceptedQuoteAlternativeId": 151,
-  "UseValuesFromQuote": 572,
-  "DocumentId": 358,
-  "PoNumber": "725410",
-  "OrderComment": "adipisci",
-  "PreferredEmailCulture": "elliott@rowe.us",
+  "QuoteId": 816,
+  "SaleId": 534,
+  "QuoteConnectionId": 443,
+  "ERPQuoteKey": "repellat",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 65,
+  "AcceptedQuoteAlternativeId": 925,
+  "UseValuesFromQuote": 235,
+  "DocumentId": 567,
+  "PoNumber": "816177",
+  "OrderComment": "modi",
+  "PreferredEmailCulture": "willy@waters.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 486,
-      "ERPQuoteVersionKey": "earum",
-      "QuoteId": 618,
-      "Description": "Managed static circuit",
-      "Number": "1831234",
+      "QuoteVersionId": 467,
+      "ERPQuoteVersionKey": "est",
+      "QuoteId": 471,
+      "Description": "Optional hybrid customer loyalty",
+      "Number": "1035816",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 982,
-      "SentDate": "2020-02-16T10:30:24.4346264+01:00",
-      "FollowupId": 336,
-      "ExpirationDate": "2013-04-24T10:30:24.4346264+02:00",
-      "DeliveryCountryId": 459,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 461,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "distinctio",
-      "ERPPaymentTypeKey": "eum",
-      "ERPDeliveryTermsKey": "nihil",
-      "ERPDeliveryTypeKey": "rerum",
-      "Rank": 592,
-      "ApprovedBy": 576,
-      "ApprovedText": "fugiat",
-      "ApprovedRegisteredBy": 942,
-      "ApprovedRegisteredDate": "2000-02-29T10:30:24.4346264+01:00",
-      "ExtraField1": "necessitatibus",
-      "ExtraField2": "numquam",
-      "ExtraField3": "consectetur",
-      "ExtraField4": "deleniti",
-      "ExtraField5": "error",
-      "LastRecalculated": "2003-12-02T10:30:24.4346264+01:00",
-      "Updated": "2008-12-05T10:30:24.4346264+01:00",
-      "UpdatedAssociateId": 412,
-      "Registered": "2020-09-01T10:30:24.4346264+02:00",
-      "RegisteredAssociateId": 360,
-      "RequestAssociateId": 278,
-      "RequestComment": "voluptatum",
+      "LikelyQuoteAlternativeId": 605,
+      "SentDate": "2013-01-20T14:23:47.2536317+01:00",
+      "FollowupId": 446,
+      "ExpirationDate": "2016-12-27T14:23:47.2536317+01:00",
+      "DeliveryCountryId": 628,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 743,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "sint",
+      "ERPPaymentTypeKey": "rem",
+      "ERPDeliveryTermsKey": "ut",
+      "ERPDeliveryTypeKey": "quam",
+      "Rank": 686,
+      "ApprovedBy": 939,
+      "ApprovedText": "nobis",
+      "ApprovedRegisteredBy": 393,
+      "ApprovedRegisteredDate": "1996-12-03T14:23:47.2536317+01:00",
+      "ExtraField1": "unde",
+      "ExtraField2": "maiores",
+      "ExtraField3": "rerum",
+      "ExtraField4": "ratione",
+      "ExtraField5": "quod",
+      "LastRecalculated": "2015-01-10T14:23:47.2536317+01:00",
+      "Updated": "2014-03-11T14:23:47.2536317+01:00",
+      "UpdatedAssociateId": 356,
+      "Registered": "2023-11-06T14:23:47.2536317+01:00",
+      "RegisteredAssociateId": 647,
+      "RequestAssociateId": 30,
+      "RequestComment": "voluptatibus",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 514
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

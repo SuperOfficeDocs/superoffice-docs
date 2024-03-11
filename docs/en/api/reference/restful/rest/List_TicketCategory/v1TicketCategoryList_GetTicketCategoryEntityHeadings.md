@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 110,
-    "Name": "Lakin Group",
-    "Tooltip": "suscipit",
+    "HeadingId": 583,
+    "Name": "Rogahn LLC",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 987,
-    "UdListDefinitionId": 640,
+    "Rank": 898,
+    "UdListDefinitionId": 327,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 592
       }
     }
   }

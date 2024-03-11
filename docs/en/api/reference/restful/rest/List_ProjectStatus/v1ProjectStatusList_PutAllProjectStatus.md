@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Marvin-Wisozk",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 548
+    "Id": 625,
+    "Name": "Kuphal LLC",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 365,
+    "Rank": 610
   },
   {
-    "Id": 768,
-    "Name": "Marvin-Wisozk",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 548
+    "Id": 625,
+    "Name": "Kuphal LLC",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 365,
+    "Rank": 610
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Lindgren, Kozey and Champlin",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "UdListDefinitionId": 156,
-    "Rank": 875,
+    "Id": 370,
+    "Name": "Jones Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 798,
+    "Rank": 766,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

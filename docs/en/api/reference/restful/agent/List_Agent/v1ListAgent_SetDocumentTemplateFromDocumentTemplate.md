@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 158,
+  "SourceDocumentTemplateId": 986,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 519,
-  "Name": "Leffler Group",
-  "Tooltip": "pariatur",
-  "SaveInDb": 806,
-  "Filename": "aut",
-  "DefaultOref": "iste",
+  "DocumentTemplateId": 914,
+  "Name": "Schuppe Inc and Sons",
+  "Tooltip": "quia",
+  "SaveInDb": 262,
+  "Filename": "necessitatibus",
+  "DefaultOref": "eligendi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 804,
-  "IntentId": 615,
-  "IsDefaultPublished": false,
-  "Rank": 4,
-  "LoadTemplateFromPlugin": 599,
-  "MimeType": "at",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 741,
+  "AutoeventId": 619,
+  "IntentId": 699,
+  "IsDefaultPublished": true,
+  "Rank": 798,
+  "LoadTemplateFromPlugin": 602,
+  "MimeType": "minus",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 725,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dariana.bauch@fisherkuphal.com",
+  "EmailSubject": "madyson@hansen.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rusty_rohan@feeney.us",
+  "SenderEmailAddress": "ari_stoltenberg@stamm.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 770
     }
   }
 }

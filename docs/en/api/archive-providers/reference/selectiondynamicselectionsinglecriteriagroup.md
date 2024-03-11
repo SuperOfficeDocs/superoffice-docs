@@ -76,11 +76,12 @@ Selection selection archive using the selectionId as criterionmapping.
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=updatedByFullName,selectionAssociate/assocName,lastLoadedByFullName
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

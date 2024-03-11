@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Weber LLC",
-    "SaleDate": "2014-11-08T10:30:24.5283735+01:00",
-    "SaleId": 268,
-    "Probability": 836,
-    "Title": "similique",
-    "Amount": 16936.136,
-    "Currency": "optio",
-    "ProjectName": "Swaniawski-Terry",
-    "AssociateFullName": "Tyrese Bergnaum",
-    "Description": "Fully-configurable zero tolerance challenge",
+    "ContactName": "DuBuque, Balistreri and Walter",
+    "SaleDate": "2002-07-25T14:23:47.3473816+02:00",
+    "SaleId": 288,
+    "Probability": 595,
+    "Title": "non",
+    "Amount": 29494.074,
+    "Currency": "eaque",
+    "ProjectName": "Gislason Group",
+    "AssociateFullName": "Rickie Lakin",
+    "Description": "Team-oriented assymetric hardware",
     "Status": "Lost",
-    "WeightedAmount": 12498.392,
-    "ProjectId": 456,
-    "EarningPercent": 2880.1459999999997,
-    "Earning": 4397.0019999999995,
-    "ContactId": 849,
-    "AssociateId": 582,
-    "PersonId": 743,
-    "SaleTypeId": 395,
-    "SaleTypeName": "Shanahan-McClure",
-    "PersonFullName": "Daphnee Kreiger",
+    "WeightedAmount": 22624.345999999998,
+    "ProjectId": 563,
+    "EarningPercent": 29575.557999999997,
+    "Earning": 29381.25,
+    "ContactId": 391,
+    "AssociateId": 634,
+    "PersonId": 49,
+    "SaleTypeId": 999,
+    "SaleTypeName": "Stark LLC",
+    "PersonFullName": "Deanna Bednar",
     "Completed": "Completed",
-    "ActiveErpLinks": 399,
-    "NextDueDate": "2014-08-07T10:30:24.5283735+02:00",
-    "Number": "1049583",
+    "ActiveErpLinks": 620,
+    "NextDueDate": "2023-04-14T14:23:47.3473816+02:00",
+    "Number": "388300",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

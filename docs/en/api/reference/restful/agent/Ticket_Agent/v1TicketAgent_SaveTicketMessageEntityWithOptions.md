@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    902,
-    220
+    873,
+    468
   ],
   "UpdateRepliedAt": false
 }
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 554,
+  "EjMessageId": 478,
   "Ticket": null,
-  "CreatedAt": "2007-07-12T10:30:24.9360824+02:00",
+  "CreatedAt": "2007-03-22T14:23:47.7848748+01:00",
   "CreatedBy": null,
-  "Author": "ducimus",
+  "Author": "maxime",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "labore",
-  "TimeSpent": 797,
-  "Body": "est",
-  "HtmlBody": "voluptas",
-  "EmailHeader": "nathen@wiza.name",
-  "DebugInfo": "quaerat",
-  "MailSorter": "hic",
+  "MessageId": "sapiente",
+  "TimeSpent": 955,
+  "Body": "veniam",
+  "HtmlBody": "sed",
+  "EmailHeader": "savion@hansen.co.uk",
+  "DebugInfo": "perspiciatis",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "harum",
   "MessageHeaders": [
     {
-      "Id": 628,
-      "Name": "Bahringer-Pfannerstill",
-      "Value": "sed",
+      "Id": 75,
+      "Name": "Hansen, Gerhold and Langosh",
+      "Value": "aliquid",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 970
+          "FieldType": "System.Int32",
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "perferendis",
-  "Sentiment": 118,
-  "SentimentConfidence": 894,
+  "Important": false,
+  "Language": "sit",
+  "Sentiment": 698,
+  "SentimentConfidence": 383,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 169,
-      "Name": "Hickle-Rippin",
-      "ContentType": "consequatur",
-      "AttSize": 766,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "voluptas",
+      "AttachmentId": 292,
+      "Name": "Bayer-Gerhold",
+      "ContentType": "tempore",
+      "AttSize": 952,
+      "InlineImage": true,
+      "ContentId": "voluptates",
+      "AuthKey": "est",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 76
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "impedit",
+    "CustomFields2": "aspernatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 755
     }
   }
 }

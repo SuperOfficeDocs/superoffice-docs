@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Thompson-Dach",
-  "Tooltip": "tempore",
+  "Id": 484,
+  "Name": "Yost Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 919,
-  "Rank": 901
+  "UdListDefinitionId": 794,
+  "Rank": 893
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Lemke Inc and Sons",
-  "Tooltip": "impedit",
+  "Id": 668,
+  "Name": "Wehner, Mosciski and Mitchell",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 148,
-  "Rank": 535,
+  "UdListDefinitionId": 455,
+  "Rank": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

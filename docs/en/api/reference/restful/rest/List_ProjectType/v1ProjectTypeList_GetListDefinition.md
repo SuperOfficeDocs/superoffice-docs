@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 49,
-  "Name": "Bauch Inc and Sons",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 231,
-  "IsCustomList": true,
+  "Id": 485,
+  "Name": "Hayes-McLaughlin",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 418,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 669
     }
   },
   "_Links": {

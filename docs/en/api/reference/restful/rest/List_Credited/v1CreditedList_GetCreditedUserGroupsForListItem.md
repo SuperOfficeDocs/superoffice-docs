@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Roberts Inc and Sons",
-    "ToolTip": "Et eos sunt et.",
+    "Id": 299,
+    "Name": "Konopelski, Feil and Huels",
+    "ToolTip": "Architecto earum impedit sit.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "sint",
-    "ColorBlock": 783,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "1998-11-16T10:30:32.9430827+01:00",
+    "Rank": 65,
+    "Type": "officia",
+    "ColorBlock": 446,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2016-07-06T14:23:56.0408276+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Becker-Price",
-        "ToolTip": "Voluptatum asperiores reiciendis impedit voluptatem sapiente aut excepturi.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "ut",
-        "ColorBlock": 543,
-        "IconHint": "officiis",
+        "Id": 62,
+        "Name": "Yost-Dietrich",
+        "ToolTip": "Repudiandae quia.",
+        "Deleted": false,
+        "Rank": 614,
+        "Type": "officia",
+        "ColorBlock": 222,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "1996-10-21T10:30:32.9430827+02:00",
+        "LastChanged": "2009-06-14T14:23:56.0408276+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Jo Brandyn Kuhlman",
+        "FullName": "Dr. Madeline Peyton Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 138
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "illum",
+    "ExtraInfo": "rerum",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Dock Collier",
+    "FullName": "Bennett Hodkiewicz Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 806
       }
     }
   }

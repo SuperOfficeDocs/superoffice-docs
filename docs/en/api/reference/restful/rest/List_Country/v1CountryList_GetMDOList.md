@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=et
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=repellat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Durgan, Block and Funk",
-    "ToolTip": "Velit fugiat.",
+    "Id": 313,
+    "Name": "Runte Group",
+    "ToolTip": "Accusamus quos.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "ducimus",
+    "Rank": 111,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Wiza Group",
-        "ToolTip": "Quis est aliquam nihil animi.",
-        "Deleted": false,
-        "Rank": 522,
-        "Type": "molestias",
+        "Id": 534,
+        "Name": "Davis, Lockman and Halvorson",
+        "ToolTip": "Eos autem quia molestias.",
+        "Deleted": true,
+        "Rank": 543,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 668,
-        "ExtraInfo": "modi",
-        "StyleHint": "voluptatibus",
-        "FullName": "Madison McKenzie",
+        "IconHint": "ut",
+        "ColorBlock": 645,
+        "ExtraInfo": "rem",
+        "StyleHint": "recusandae",
+        "FullName": "Watson Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 742
+            "FieldType": "System.String",
+            "FieldLength": 833
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 675,
-    "ExtraInfo": "ut",
-    "StyleHint": "doloribus",
-    "FullName": "Ms. Domenic Natasha Kshlerin",
+    "IconHint": "consequatur",
+    "ColorBlock": 275,
+    "ExtraInfo": "et",
+    "StyleHint": "suscipit",
+    "FullName": "Marie Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 532
       }
     }
   }

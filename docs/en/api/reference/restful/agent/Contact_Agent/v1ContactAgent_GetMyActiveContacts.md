@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2015-04-10T10:30:23.2886916+02:00",
+  "ActivityStartTime": "2018-03-21T14:23:46.1105841+01:00",
   "ContactCategories": [
-    690,
-    648
+    605,
+    584
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 476,
+    "ContactId": 520,
     "Department": "",
-    "OrgNr": "701033",
-    "Name": "Boyer Group",
+    "OrgNr": "550889",
+    "Name": "Witting, Stark and Boyer",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Lester Murazik",
+    "AssociateFullName": "Nikolas Funk",
     "Action": "ActivityCompleted",
-    "ActionTime": "2010-11-08T10:30:23.3043168+01:00",
+    "ActionTime": "2023-11-30T14:23:46.1105841+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Medhurst, Ullrich and Jones",
-    "ActionId": 719,
-    "PersonId": 636,
-    "ActivityPersonId": 605,
-    "AssociateId": 137,
+    "ActivityPersonName": "Murray-Ledner",
+    "ActionId": 886,
+    "PersonId": 992,
+    "ActivityPersonId": 90,
+    "AssociateId": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 17
       }
     }
   }

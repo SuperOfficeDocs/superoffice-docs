@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Kuhic, Hamill and Rowe",
-    "ToolTip": "Ut id maiores possimus distinctio nostrum incidunt.",
+    "Id": 761,
+    "Name": "Reinger-Swaniawski",
+    "ToolTip": "Eveniet quisquam fugit dolorem dolor et soluta.",
     "Deleted": false,
-    "Rank": 923,
-    "Type": "eligendi",
-    "ColorBlock": 508,
-    "IconHint": "quis",
+    "Rank": 415,
+    "Type": "accusantium",
+    "ColorBlock": 857,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2012-12-01T10:30:33.2724548+01:00",
+    "LastChanged": "2021-02-11T14:23:56.3701861+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Bosco LLC",
-        "ToolTip": "Fugit eaque tenetur quas vero accusamus.",
+        "Id": 768,
+        "Name": "Watsica Inc and Sons",
+        "ToolTip": "Molestiae autem.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "inventore",
-        "ColorBlock": 593,
-        "IconHint": "velit",
+        "Rank": 456,
+        "Type": "voluptatum",
+        "ColorBlock": 977,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2006-04-05T10:30:33.2724548+02:00",
+        "LastChanged": "1997-08-10T14:23:56.3701861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Lavina Glover",
+        "ExtraInfo": "hic",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Myrtle Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "sed",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Jed Upton",
+    "FullName": "Dr. Lessie Juwan Schultz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 992
       }
     }
   }

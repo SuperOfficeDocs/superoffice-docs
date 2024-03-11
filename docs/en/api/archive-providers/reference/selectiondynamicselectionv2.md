@@ -77,11 +77,12 @@ Selection selection archive with OR-able selection groups. Each group is represe
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionV2?$select=lastLoadedBy,selectionAssociate/middleName
+GET /api/v1/archive/SelectionDynamicSelectionV2?$select=lastLoadedBy,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

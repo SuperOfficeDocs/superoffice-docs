@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 329,
-  "Name": "Russel, Gutkowski and Senger",
+  "AttachmentId": 88,
+  "Name": "Shields-Blanda",
   "ContentType": "ut",
-  "AttSize": 122,
-  "InlineImage": true,
-  "ContentId": "possimus",
-  "AuthKey": "id",
-  "IsSafeFileExtension": true,
+  "AttSize": 994,
+  "InlineImage": false,
+  "ContentId": "quaerat",
+  "AuthKey": "alias",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

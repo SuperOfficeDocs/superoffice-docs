@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
+    "path": "cupiditate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "inventore",
+    "path": "cupiditate",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 48,
-  "Name": "Yost LLC",
-  "Tooltip": "deserunt",
-  "PassiveText": "aut",
+  "ReldefId": 88,
+  "Name": "Bergstrom-Volkman",
+  "Tooltip": "facere",
+  "PassiveText": "quos",
   "Deleted": false,
-  "Rank": 431,
+  "Rank": 6,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldLength": 119
     }
   },
   "_Links": {

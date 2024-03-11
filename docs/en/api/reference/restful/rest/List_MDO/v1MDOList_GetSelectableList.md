@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=voluptas
+GET /api/v1/MDOList/{listname}/selectable?additional=earum
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Rohan, Skiles and Bernier",
-    "ToolTip": "Quidem aut id dicta aut temporibus aliquam.",
+    "Id": 164,
+    "Name": "Blanda, Jacobs and Medhurst",
+    "ToolTip": "Ipsam cum et.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "esse",
-    "ColorBlock": 697,
-    "IconHint": "blanditiis",
+    "Rank": 405,
+    "Type": "sed",
+    "ColorBlock": 726,
+    "IconHint": "deserunt",
     "Selected": true,
-    "LastChanged": "2020-07-28T10:30:33.0212063+02:00",
+    "LastChanged": "2017-06-26T14:23:56.1189508+02:00",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Will-Terry",
-        "ToolTip": "Voluptatem nihil molestiae sunt minima.",
-        "Deleted": false,
-        "Rank": 766,
-        "Type": "voluptatibus",
-        "ColorBlock": 161,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2001-12-06T10:30:33.0212063+01:00",
+        "Id": 456,
+        "Name": "Sporer Group",
+        "ToolTip": "Soluta corrupti.",
+        "Deleted": true,
+        "Rank": 39,
+        "Type": "in",
+        "ColorBlock": 761,
+        "IconHint": "excepturi",
+        "Selected": false,
+        "LastChanged": "2002-04-18T14:23:56.1189508+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Liliana Urban Johnston MD",
+        "ExtraInfo": "quia",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Jayde Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 460
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Duane Spinka",
+    "ExtraInfo": "labore",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Miss Favian Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

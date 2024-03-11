@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 244,
-  "AttachmentId": "temporibus",
-  "AttachmentType": "repudiandae",
-  "AttachmentFilename": "ut"
+  "MailItemId": 591,
+  "AttachmentId": "odit",
+  "AttachmentType": "ut",
+  "AttachmentFilename": "iure"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced systemic emulation",
-  "Filename": "veniam",
-  "Size": 472,
-  "Type": "non",
-  "Encoding": "omnis",
-  "Id": "dolorum",
-  "Disposition": "quia",
+  "Description": "Synergistic fresh-thinking standardization",
+  "Filename": "fugit",
+  "Size": 1001,
+  "Type": "natus",
+  "Encoding": "iste",
+  "Id": "voluptatem",
+  "Disposition": "maiores",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 151
     }
   }
 }

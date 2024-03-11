@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 871,
-    "Name": "Weber, Kreiger and Marks",
-    "Value": "aut",
-    "CreatedDate": "2001-12-23T10:30:23.0826686+01:00",
-    "UpdatedDate": "2019-06-03T10:30:23.0826686+02:00",
-    "CreatedBy": "explicabo",
-    "UpdatedBy": "velit",
+    "AudienceLayoutId": 280,
+    "Name": "Altenwerth Group",
+    "Value": "numquam",
+    "CreatedDate": "1999-10-28T14:23:45.8762101+02:00",
+    "UpdatedDate": "2002-09-28T14:23:45.8762101+02:00",
+    "CreatedBy": "aut",
+    "UpdatedBy": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 754
       }
     }
   }

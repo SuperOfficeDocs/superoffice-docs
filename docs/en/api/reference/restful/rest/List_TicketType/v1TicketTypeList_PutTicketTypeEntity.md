@@ -96,22 +96,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 986,
-  "Name": "Russel, O'Keefe and Windler",
-  "Rank": 408,
-  "Tooltip": "dolor",
-  "Icon": "ut",
-  "DefaultTicketStatus": 382,
+  "TicketTypeId": 397,
+  "Name": "Rice LLC",
+  "Rank": 33,
+  "Tooltip": "accusantium",
+  "Icon": "velit",
+  "DefaultTicketStatus": 707,
   "TicketStatuses": [
-    299,
-    621
+    354,
+    923
   ],
-  "DefaultTicketPriority": 757,
+  "DefaultTicketPriority": 67,
   "TicketPriorities": [
-    890,
-    469
+    751,
+    153
   ],
-  "ReplyTemplate": 224,
+  "ReplyTemplate": 839,
   "IsExternalVisible": false,
   "IsDefault": true
 }
@@ -124,22 +124,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 944,
-  "Name": "Pagac-Purdy",
-  "Rank": 318,
-  "Tooltip": "eius",
-  "Icon": "sint",
-  "DefaultTicketStatus": 786,
+  "TicketTypeId": 357,
+  "Name": "Quitzon, Gislason and Rau",
+  "Rank": 826,
+  "Tooltip": "eaque",
+  "Icon": "in",
+  "DefaultTicketStatus": 314,
   "TicketStatuses": [
-    511,
-    31
+    740,
+    970
   ],
-  "DefaultTicketPriority": 969,
+  "DefaultTicketPriority": 370,
   "TicketPriorities": [
-    997,
-    302
+    380,
+    279
   ],
-  "ReplyTemplate": 155,
+  "ReplyTemplate": 143,
   "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 181
     }
   }
 }

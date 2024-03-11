@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 812,
-  "Name": "Frami, Johnston and Mertz",
-  "Tooltip": "quisquam",
+  "HeadingId": 300,
+  "Name": "Harber, Herzog and Kassulke",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 360,
-  "UdListDefinitionId": 227
+  "Rank": 238,
+  "UdListDefinitionId": 921
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 31,
-  "Name": "Spencer Group",
-  "Tooltip": "qui",
+  "HeadingId": 828,
+  "Name": "Tillman-Welch",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 953,
-  "UdListDefinitionId": 3,
+  "Rank": 261,
+  "UdListDefinitionId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 207
     }
   }
 }

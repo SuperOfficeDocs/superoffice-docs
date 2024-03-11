@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 9685,
+      "PrimaryKey": 1570,
       "EntityName": "sale",
-      "saleId": 9685,
-      "contactId": 6820,
-      "name": "Cruickshank Inc and Sons"
+      "saleId": 1570,
+      "contactId": 4153,
+      "name": "Glover-Kub"
     },
     {
-      "PrimaryKey": 535,
+      "PrimaryKey": 239,
       "EntityName": "sale",
-      "saleId": 535,
-      "contactId": 4567,
-      "name": "Douglas, Muller and Heidenreich"
+      "saleId": 239,
+      "contactId": 2700,
+      "name": "McDermott, Sporer and Stiedemann"
     }
   ]
 }

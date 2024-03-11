@@ -713,6 +713,8 @@ items:
   href: reference/ticketstatustimecounter.md
 - name: Ticketstatuswithpostpone
   href: reference/ticketstatuswithpostpone.md
+- name: Ticketstatuswithoutpostpone
+  href: reference/ticketstatuswithoutpostpone.md
 - name: Ticketticketstatus
   href: reference/ticketticketstatus.md
 - name: Ticket_freetextsearch

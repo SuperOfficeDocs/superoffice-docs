@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 557,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "aut",
+  "HeadingId": 392,
+  "Name": "Dooley-Kerluke",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 976,
-  "UdListDefinitionId": 854
+  "Rank": 506,
+  "UdListDefinitionId": 328
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 814,
-  "Name": "Block-Sanford",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "Rank": 477,
-  "UdListDefinitionId": 70,
+  "HeadingId": 582,
+  "Name": "Crooks, Hoppe and Brekke",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 518,
+  "UdListDefinitionId": 315,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 571
     }
   }
 }

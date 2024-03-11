@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 479,
-  "Name": "Bradtke, Wunsch and Brown",
-  "Tooltip": "est",
+  "HeadingId": 922,
+  "Name": "Ritchie, Jewess and Hahn",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 690,
-  "UdListDefinitionId": 931
+  "Rank": 500,
+  "UdListDefinitionId": 486
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 834,
-  "Name": "Jast Group",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 50,
-  "UdListDefinitionId": 340,
+  "HeadingId": 705,
+  "Name": "Schimmel-Cole",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 550,
+  "UdListDefinitionId": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldLength": 440
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Goyette LLC",
-    "ToolTip": "Alias odio maxime tempora ipsa quos.",
+    "Id": 690,
+    "Name": "Hagenes-Feeney",
+    "ToolTip": "Laborum ullam sunt.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "omnis",
-    "ColorBlock": 4,
-    "IconHint": "voluptatum",
+    "Rank": 578,
+    "Type": "autem",
+    "ColorBlock": 435,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2005-11-13T10:30:32.9743325+01:00",
+    "LastChanged": "2008-10-02T14:23:56.0720758+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Greenfelder, Casper and Bartell",
-        "ToolTip": "Earum amet corporis sint vel ipsa.",
+        "Id": 971,
+        "Name": "Prosacco LLC",
+        "ToolTip": "Fuga culpa illo porro iste vitae.",
         "Deleted": false,
-        "Rank": 715,
-        "Type": "sint",
-        "ColorBlock": 741,
-        "IconHint": "earum",
+        "Rank": 442,
+        "Type": "et",
+        "ColorBlock": 779,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2014-01-31T10:30:32.9743325+01:00",
+        "LastChanged": "2007-06-28T14:23:56.0720758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Dante Witting",
+        "FullName": "Chaz Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "iusto",
+    "ExtraInfo": "nisi",
+    "StyleHint": "doloremque",
     "Hidden": true,
-    "FullName": "Mr. Milan Steuber",
+    "FullName": "Shanna Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 903
       }
     }
   }

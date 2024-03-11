@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 787,
-  "AssociateId": 909,
-  "Caption": "et",
+  "DashboardId": 221,
+  "AssociateId": 400,
+  "Caption": "ad",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 1000,
-      "Caption": "facere",
-      "Description": "Realigned zero administration attitude",
-      "ChartName": "Rohan, Rowe and Fay",
-      "ChartId": "sint",
-      "IsDefault": false,
-      "AssociateId": 629,
-      "GroupId": 461,
-      "SelectionId": 370,
-      "Config": "occaecati",
+      "DashboardTileId": 529,
+      "Caption": "eos",
+      "Description": "Assimilated uniform open architecture",
+      "ChartName": "Green-Schultz",
+      "ChartId": "non",
+      "IsDefault": true,
+      "AssociateId": 640,
+      "GroupId": 281,
+      "SelectionId": 369,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 112
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldLength": 500
     }
   }
 }

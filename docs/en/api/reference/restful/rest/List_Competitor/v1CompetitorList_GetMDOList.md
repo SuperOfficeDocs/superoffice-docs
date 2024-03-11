@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=sequi
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=labore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Konopelski, Koch and Schulist",
-    "ToolTip": "Velit magnam doloremque.",
-    "Deleted": false,
-    "Rank": 181,
-    "Type": "officiis",
+    "Id": 941,
+    "Name": "Adams-McClure",
+    "ToolTip": "Voluptas quaerat dolor nulla labore animi non officia.",
+    "Deleted": true,
+    "Rank": 118,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Braun-Windler",
-        "ToolTip": "Perferendis deleniti magnam.",
-        "Deleted": false,
-        "Rank": 380,
-        "Type": "quo",
+        "Id": 587,
+        "Name": "Toy-Jacobi",
+        "ToolTip": "Vero esse sed similique consequatur ab.",
+        "Deleted": true,
+        "Rank": 419,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 939,
-        "ExtraInfo": "quos",
-        "StyleHint": "et",
-        "FullName": "Adeline Fadel",
+        "IconHint": "ducimus",
+        "ColorBlock": 576,
+        "ExtraInfo": "sunt",
+        "StyleHint": "tenetur",
+        "FullName": "Dallas Idella Hammes PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
     "IconHint": "sit",
-    "ColorBlock": 231,
-    "ExtraInfo": "quia",
-    "StyleHint": "aut",
-    "FullName": "Dr. Myrtle Lilliana Steuber",
+    "ColorBlock": 440,
+    "ExtraInfo": "autem",
+    "StyleHint": "laborum",
+    "FullName": "Shea Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

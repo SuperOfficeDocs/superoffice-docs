@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Mitchell-Cartwright",
-    "ToolTip": "Dicta ipsum pariatur esse.",
-    "Deleted": true,
-    "Rank": 391,
-    "Type": "ad",
-    "ColorBlock": 727,
-    "IconHint": "deserunt",
+    "Id": 210,
+    "Name": "Kertzmann LLC",
+    "ToolTip": "Quibusdam quasi.",
+    "Deleted": false,
+    "Rank": 724,
+    "Type": "cum",
+    "ColorBlock": 283,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2001-03-02T10:30:33.0524566+01:00",
+    "LastChanged": "2018-08-13T14:23:56.1502016+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Stehr, Hickle and Schmidt",
-        "ToolTip": "Mollitia eius quia optio.",
+        "Id": 620,
+        "Name": "McGlynn, Smith and Cartwright",
+        "ToolTip": "Ut a occaecati.",
         "Deleted": false,
-        "Rank": 91,
-        "Type": "rerum",
-        "ColorBlock": 765,
-        "IconHint": "ea",
+        "Rank": 40,
+        "Type": "exercitationem",
+        "ColorBlock": 653,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2007-03-27T10:30:33.0524566+02:00",
+        "LastChanged": "2019-10-04T14:23:56.1502016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "ex",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Lizeth Jakubowski"
+        "FullName": "Kristofer Homenick"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Prof. Alize Denesik I"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Prof. Mckayla Leannon Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Hickle, Russel and Robel",
-    "ToolTip": "Qui aut distinctio corporis.",
-    "Deleted": true,
-    "Rank": 422,
+    "Id": 802,
+    "Name": "Jacobi, Koss and Mann",
+    "ToolTip": "Eligendi quod quia cupiditate.",
+    "Deleted": false,
+    "Rank": 803,
     "Type": "voluptatem",
-    "ColorBlock": 7,
-    "IconHint": "natus",
+    "ColorBlock": 355,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2001-12-26T10:30:33.0524566+01:00",
+    "LastChanged": "2017-11-15T14:23:56.1502016+01:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Macejkovic LLC",
-        "ToolTip": "Quo mollitia.",
-        "Deleted": true,
-        "Rank": 272,
-        "Type": "illum",
-        "ColorBlock": 473,
-        "IconHint": "numquam",
+        "Id": 251,
+        "Name": "Farrell-Schmidt",
+        "ToolTip": "Minus quae odit.",
+        "Deleted": false,
+        "Rank": 915,
+        "Type": "mollitia",
+        "ColorBlock": 64,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2018-11-29T10:30:33.0524566+01:00",
+        "LastChanged": "1998-03-12T14:23:56.1502016+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "ab",
+        "ExtraInfo": "rerum",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Kristin Thiel",
+        "FullName": "Kolby Pietro Parker Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 865
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Teagan Walter",
+    "ExtraInfo": "debitis",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Price Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

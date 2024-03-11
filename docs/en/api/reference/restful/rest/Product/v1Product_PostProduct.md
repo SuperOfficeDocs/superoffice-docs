@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 210,
-  "ERPProductKey": "eaque",
-  "ERPPriceListKey": "ea",
-  "Name": "Rowe, Fisher and Hilpert",
-  "Description": "Proactive asynchronous installation",
-  "Code": "minima",
-  "PriceUnit": "velit",
-  "QuantityUnit": "itaque",
-  "IsSubscription": false,
-  "SubscriptionUnit": "accusamus",
-  "DefaultSubscriptionQuantity": 7227.004,
-  "ItemNumber": "834090",
+  "ProductId": 143,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "enim",
+  "Name": "Waters Group",
+  "Description": "Persevering tangible middleware",
+  "Code": "neque",
+  "PriceUnit": "quo",
+  "QuantityUnit": "tempore",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quos",
+  "DefaultSubscriptionQuantity": 10041.336,
+  "ItemNumber": "634869",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "error",
-  "ProductTypeKey": "illum",
-  "VAT": 6941.8099999999995,
-  "VATInfo": "natus",
-  "UnitCost": 3829.748,
-  "UnitMinimumPrice": 5904.456,
-  "UnitListPrice": 23630.36,
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "amet",
+  "VAT": 7809.928,
+  "VATInfo": "et",
+  "UnitCost": 21822.041999999998,
+  "UnitMinimumPrice": 21771.898,
+  "UnitListPrice": 1187.786,
   "InAssortment": true,
-  "Supplier": "vero",
-  "SupplierCode": "et",
-  "Rights": "iure",
-  "Rule": "qui",
+  "Supplier": "et",
+  "SupplierCode": "cumque",
+  "Rights": "praesentium",
+  "Rule": "minima",
   "ExtraInfo": [
     {
-      "Name": "Nienow, Lehner and Nitzsche",
-      "Value": "cumque",
+      "Name": "Quitzon-Marquardt",
+      "Value": "iusto",
       "Type": "Image"
     },
     {
-      "Name": "Nienow, Lehner and Nitzsche",
-      "Value": "cumque",
+      "Name": "Quitzon-Marquardt",
+      "Value": "iusto",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "neque",
-  "ExtraField2": "eos",
-  "ExtraField3": "dicta",
-  "ExtraField4": "tenetur",
-  "ExtraField5": "aut",
-  "InStock": 25175.422
+  "RawExtraInfo": "rerum",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "tempore",
+  "ExtraField3": "quia",
+  "ExtraField4": "ut",
+  "ExtraField5": "est",
+  "InStock": 27372.356
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 193,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Langworth Inc and Sons",
-  "Description": "Persistent solution-oriented database",
-  "Code": "excepturi",
-  "PriceUnit": "sequi",
-  "QuantityUnit": "necessitatibus",
+  "ProductId": 972,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "provident",
+  "Name": "Ortiz-Gaylord",
+  "Description": "Enhanced demand-driven array",
+  "Code": "nesciunt",
+  "PriceUnit": "quis",
+  "QuantityUnit": "reiciendis",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 12137.982,
-  "ItemNumber": "802140",
+  "SubscriptionUnit": "tempore",
+  "DefaultSubscriptionQuantity": 4265.374,
+  "ItemNumber": "969940",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptate",
-  "ProductTypeKey": "repudiandae",
-  "VAT": 22122.906,
-  "VATInfo": "quae",
-  "UnitCost": 19386.924,
-  "UnitMinimumPrice": 3243.69,
-  "UnitListPrice": 14607.573999999999,
-  "InAssortment": true,
-  "Supplier": "voluptatem",
-  "SupplierCode": "id",
-  "Rights": "et",
-  "Rule": "iusto",
+  "ProductFamilyKey": "odit",
+  "ProductTypeKey": "ut",
+  "VAT": 13974.506,
+  "VATInfo": "nemo",
+  "UnitCost": 26921.059999999998,
+  "UnitMinimumPrice": 25899.376,
+  "UnitListPrice": 3362.7819999999997,
+  "InAssortment": false,
+  "Supplier": "ipsum",
+  "SupplierCode": "necessitatibus",
+  "Rights": "neque",
+  "Rule": "iure",
   "ExtraInfo": [
     {
-      "Name": "McDermott, McCullough and Blick",
-      "Value": "fuga",
+      "Name": "Weber, Kutch and Haag",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "McDermott, McCullough and Blick",
-      "Value": "fuga",
+      "Name": "Weber, Kutch and Haag",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "RawExtraInfo": "exercitationem",
-  "ExtraField1": "itaque",
-  "ExtraField2": "fugit",
-  "ExtraField3": "nobis",
-  "ExtraField4": "doloremque",
-  "ExtraField5": "quia",
-  "InStock": 8872.354,
+  "RawExtraInfo": "et",
+  "ExtraField1": "sunt",
+  "ExtraField2": "non",
+  "ExtraField3": "cupiditate",
+  "ExtraField4": "quia",
+  "ExtraField5": "aperiam",
+  "InStock": 27334.748,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 428
     }
   }
 }

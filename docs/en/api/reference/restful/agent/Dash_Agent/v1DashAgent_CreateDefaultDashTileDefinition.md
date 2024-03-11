@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 45,
-  "Name": "Blanda Group",
-  "Description": "Monitored well-modulated neural-net",
-  "DefaultHeight": 892,
-  "DefaultWidth": 650,
+  "DashboardTileDefinitionId": 176,
+  "Name": "Koch Group",
+  "Description": "Total didactic methodology",
+  "DefaultHeight": 489,
+  "DefaultWidth": 446,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rodriguez, Feeney and Parisian",
-  "SelectionId": 455,
+  "EntityName": "Cassin, Rempel and Legros",
+  "SelectionId": 105,
   "CurrencyMode": "Base",
-  "CurrencyCode": "at",
+  "CurrencyCode": "quos",
   "Measure": "Average",
-  "MeasureField": "ipsum",
-  "SortBy": "quae",
-  "LayoutConfig": "consequatur",
-  "SecondarySelectionId": 661,
-  "MeasureByField": "aut",
+  "MeasureField": "incidunt",
+  "SortBy": "nemo",
+  "LayoutConfig": "labore",
+  "SecondarySelectionId": 247,
+  "MeasureByField": "perspiciatis",
   "Usage": "Dashboard",
-  "ProviderName": "Marvin-Collins",
+  "ProviderName": "Jakubowski-Thiel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 82
     }
   }
 }

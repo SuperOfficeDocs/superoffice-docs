@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-04-21T10:30:31.665602+02:00",
-  "AppointmentId": 512,
-  "Description": "Grass-roots grid-enabled moderator",
-  "Title": "ratione",
-  "Agenda": "eos",
-  "InternalNotes": "ea",
-  "StartDate": "2017-04-08T10:30:31.665602+02:00",
-  "EndDate": "2011-05-20T10:30:31.665602+02:00",
+  "CreatedDate": "1999-06-22T14:23:54.6158938+02:00",
+  "AppointmentId": 627,
+  "Description": "Progressive zero administration moratorium",
+  "Title": "blanditiis",
+  "Agenda": "eaque",
+  "InternalNotes": "eius",
+  "StartDate": "2019-08-30T14:23:54.6158938+02:00",
+  "EndDate": "2010-06-08T14:23:54.6158938+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 422,
+  "MotherId": 231,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-02-13T10:30:31.665602+01:00",
+  "UpdatedDate": "2016-01-25T14:23:54.6158938+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 5,
+  "ActiveLinks": 873,
   "Links": [
     {
-      "EntityName": "Hermann LLC",
-      "Id": 818,
-      "Description": "Reactive discrete encryption",
-      "ExtraInfo": "explicabo",
-      "LinkId": 618
+      "EntityName": "Ortiz-Farrell",
+      "Id": 279,
+      "Description": "Mandatory national hierarchy",
+      "ExtraInfo": "vel",
+      "LinkId": 763
     },
     {
-      "EntityName": "Hermann LLC",
-      "Id": 818,
-      "Description": "Reactive discrete encryption",
-      "ExtraInfo": "explicabo",
-      "LinkId": 618
+      "EntityName": "Ortiz-Farrell",
+      "Id": 279,
+      "Description": "Mandatory national hierarchy",
+      "ExtraInfo": "vel",
+      "LinkId": 763
     }
   ],
-  "AlarmLeadTime": "cum",
-  "HasAlarm": false,
-  "ColorIndex": 691,
-  "IsFree": true,
+  "AlarmLeadTime": "atque",
+  "HasAlarm": true,
+  "ColorIndex": 523,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aperiam",
-  "LeadTime": "vitae",
-  "Location": "voluptatem",
-  "RejectCounter": 377,
+  "LagTime": "quasi",
+  "LeadTime": "nihil",
+  "Location": "illum",
+  "RejectCounter": 798,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 371,
-      "PersonId": 258,
-      "ContactId": 304,
-      "EmailId": 632,
+      "AssociateId": 236,
+      "PersonId": 789,
+      "ContactId": 646,
+      "EmailId": 294,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "serena@rohanstamm.co.uk",
-      "Description": "Profit-focused client-server leverage"
+      "EmailAddress": "winona.collins@ortiz.ca",
+      "Description": "Multi-lateral non-volatile implementation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-11-06T10:30:31.6812266+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-04-03T14:23:54.6158938+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 805,
+  "PreferredTZLocation": 984,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 191,
+  "SuggestedAppointmentId": 570,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laboriosam",
+  "CentralserviceVideomeetId": "magnam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Lesly Gibson",
-    "SuperOffice:2": "1193443814"
+    "SuperOffice:1": "1384007807",
+    "SuperOffice:2": "Fiona Toy"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "atque"
+    "CustomFields1": "ea",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "2004-12-04T10:30:31.6812266+01:00",
-  "PublishTo": "2020-11-13T10:30:31.6812266+01:00",
-  "PublishFrom": "1999-08-21T10:30:31.6812266+02:00",
+  "PublishEventDate": "2006-08-10T14:23:54.6158938+02:00",
+  "PublishTo": "2005-05-29T14:23:54.6158938+02:00",
+  "PublishFrom": "2012-09-23T14:23:54.6158938+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 356,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "dolores"
     },
     {
-      "VisibleId": 356,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "dolores"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "non",
-  "2": "quia"
+  "1": "dolorem",
+  "2": "sequi"
 }
 ```

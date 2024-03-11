@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 523,
-    "Name": "Dickens Group",
-    "ContentType": "voluptates",
-    "AttSize": 293,
+    "AttachmentId": 201,
+    "Name": "Brown, Dickens and Botsford",
+    "ContentType": "ut",
+    "AttSize": 790,
     "InlineImage": false,
-    "ContentId": "aperiam",
-    "AuthKey": "voluptatem",
-    "IsSafeFileExtension": true,
+    "ContentId": "tenetur",
+    "AuthKey": "at",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 54
       }
     }
   }

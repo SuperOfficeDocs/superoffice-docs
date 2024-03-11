@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 332,
-  "ListItemId": 118,
+  "UdListDefinitionId": 909,
+  "ListItemId": 559,
   "Headings": [
     {
-      "Id": 639,
-      "Name": "Wisozk Group",
-      "ToolTip": "Iusto eligendi fugit nostrum quo sequi.",
+      "Id": 298,
+      "Name": "Schinner Group",
+      "ToolTip": "Dicta similique modi saepe et animi voluptatibus.",
       "Deleted": false,
-      "Rank": 739,
-      "Type": "eos",
-      "ColorBlock": 845,
-      "IconHint": "et",
+      "Rank": 381,
+      "Type": "omnis",
+      "ColorBlock": 718,
+      "IconHint": "qui",
       "Selected": true,
-      "LastChanged": "2017-04-11T10:30:23.9944062+02:00",
+      "LastChanged": "2022-08-05T14:23:46.8306046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "numquam",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Cassandre Hermann"
+      "FullName": "Geraldine Glover"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Beatty Inc and Sons",
-    "ToolTip": "Ea voluptates maiores inventore voluptatem.",
-    "Deleted": true,
-    "Rank": 26,
-    "Type": "quis",
-    "ColorBlock": 127,
-    "IconHint": "fuga",
+    "Id": 277,
+    "Name": "Schulist, Schmitt and Morissette",
+    "ToolTip": "Itaque impedit alias quaerat provident neque ipsa.",
+    "Deleted": false,
+    "Rank": 422,
+    "Type": "voluptate",
+    "ColorBlock": 706,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2019-09-18T10:30:23.9944062+02:00",
+    "LastChanged": "2005-11-26T14:23:46.8306046+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Watsica Inc and Sons",
-        "ToolTip": "Rem deserunt nihil dolor ipsum atque similique fugit.",
-        "Deleted": false,
-        "Rank": 976,
-        "Type": "et",
-        "ColorBlock": 149,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2018-10-02T10:30:23.9944062+02:00",
+        "Id": 452,
+        "Name": "Ledner-Pouros",
+        "ToolTip": "Quidem esse cum beatae.",
+        "Deleted": true,
+        "Rank": 281,
+        "Type": "quia",
+        "ColorBlock": 981,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2020-11-27T14:23:46.8306046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Mrs. Trinity Hintz III",
+        "ExtraInfo": "quia",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Ferne Rogahn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldLength": 678
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "quod",
+    "ExtraInfo": "iste",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Prof. Bradly Filiberto Wuckert",
+    "FullName": "Mrs. Eulalia Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 672
       }
     }
   }

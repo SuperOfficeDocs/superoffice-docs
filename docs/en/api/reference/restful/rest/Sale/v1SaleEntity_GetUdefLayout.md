@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 479,
-    "ColumnId": 965,
-    "FieldDefault": "perspiciatis",
-    "FieldHeight": 726,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 403,
-    "FieldTop": 616,
+    "UDefFieldId": 896,
+    "ColumnId": 812,
+    "FieldDefault": "dicta",
+    "FieldHeight": 625,
+    "FieldLabel": "nobis",
+    "FieldLeft": 349,
+    "FieldTop": 973,
     "FieldType": "Checkbox",
-    "FieldWidth": 250,
-    "FormatMask": "consequatur",
+    "FieldWidth": 549,
+    "FormatMask": "et",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 912,
-    "LabelLeft": 580,
-    "LabelTop": 830,
-    "LabelWidth": 205,
-    "LastVersionId": 592,
-    "ListTableId": 745,
+    "LabelHeight": 460,
+    "LabelLeft": 376,
+    "LabelTop": 792,
+    "LabelWidth": 279,
+    "LastVersionId": 724,
+    "ListTableId": 493,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 976,
-    "ProgId": "consequatur",
+    "Page1LineNo": 717,
+    "ProgId": "culpa",
     "IsReadOnly": false,
-    "ShortLabel": "asperiores",
-    "TabOrder": 850,
-    "TextLength": 886,
-    "Tooltip": "est",
-    "UdefIdentity": 934,
-    "UDListDefinitionId": 168,
+    "ShortLabel": "quibusdam",
+    "TabOrder": 928,
+    "TextLength": 277,
+    "Tooltip": "ut",
+    "UdefIdentity": 877,
+    "UDListDefinitionId": 843,
     "Justification": "Center",
-    "Version": 224,
-    "TemplateVariableName": "Kuhic-Douglas",
-    "HasBeenPublished": false,
-    "MdoListName": "Harber-Hirthe",
+    "Version": 108,
+    "TemplateVariableName": "Veum, Quigley and Fisher",
+    "HasBeenPublished": true,
+    "MdoListName": "Brekke-Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 86
       }
     }
   }

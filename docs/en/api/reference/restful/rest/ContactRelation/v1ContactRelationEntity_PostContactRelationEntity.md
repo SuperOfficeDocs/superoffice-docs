@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 557,
-  "SourcePersonId": 907,
-  "DestinationContactId": 618,
-  "DestinationPersonId": 676,
-  "RelationId": 638,
-  "Comment": "et",
-  "RelationDefinitionId": 648,
-  "Reversed": 921,
-  "UpdatedDate": "2020-11-23T10:30:31.9480569+01:00",
-  "CreatedDate": "2022-06-24T10:30:31.9480569+02:00",
+  "SourceContactId": 249,
+  "SourcePersonId": 37,
+  "DestinationContactId": 433,
+  "DestinationPersonId": 756,
+  "RelationId": 369,
+  "Comment": "beatae",
+  "RelationDefinitionId": 532,
+  "Reversed": 953,
+  "UpdatedDate": "2023-09-27T14:23:55.0396483+02:00",
+  "CreatedDate": "2013-11-14T14:23:55.0396483+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Weimann-Kessler",
-  "SourcePersonName": "Lakin Group",
-  "DestinationContactName": "Pacocha, Farrell and Lakin",
-  "DestinationPersonName": "Nolan, Ward and Schmidt",
-  "ActiveText": "perferendis",
-  "PassiveText": "est"
+  "SourceContactName": "Klein Inc and Sons",
+  "SourcePersonName": "Schoen Inc and Sons",
+  "DestinationContactName": "Gibson, Runte and Grady",
+  "DestinationPersonName": "Lang Group",
+  "ActiveText": "vel",
+  "PassiveText": "perspiciatis"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 162,
-  "SourcePersonId": 544,
-  "DestinationContactId": 292,
-  "DestinationPersonId": 677,
-  "RelationId": 42,
-  "Comment": "inventore",
-  "RelationDefinitionId": 705,
-  "Reversed": 664,
-  "UpdatedDate": "1997-09-19T10:30:31.9480569+02:00",
-  "CreatedDate": "2010-05-22T10:30:31.9480569+02:00",
+  "SourceContactId": 597,
+  "SourcePersonId": 881,
+  "DestinationContactId": 75,
+  "DestinationPersonId": 485,
+  "RelationId": 730,
+  "Comment": "eum",
+  "RelationDefinitionId": 634,
+  "Reversed": 224,
+  "UpdatedDate": "2003-11-08T14:23:55.0396483+01:00",
+  "CreatedDate": "2005-08-14T14:23:55.0396483+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Boyer, Jaskolski and Roob",
-  "SourcePersonName": "Reichert Inc and Sons",
-  "DestinationContactName": "Larson-Feest",
-  "DestinationPersonName": "Spinka Inc and Sons",
+  "SourceContactName": "Schroeder-Kris",
+  "SourcePersonName": "Ernser Group",
+  "DestinationContactName": "Gutkowski Group",
+  "DestinationPersonName": "Senger-Ward",
   "ActiveText": "sed",
-  "PassiveText": "ipsam",
+  "PassiveText": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 66
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

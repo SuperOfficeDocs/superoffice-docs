@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Stracke-Emard"
+  "ParameterName": "Cremin, Gislason and Witting"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 774,
-  "Name": "Trantow, Schiller and Hackett",
-  "Value": "non",
-  "CreatedDate": "2013-10-28T10:30:23.0826686+01:00",
-  "UpdatedDate": "2018-11-03T10:30:23.0826686+01:00",
-  "CreatedBy": "et",
-  "UpdatedBy": "harum",
+  "AudienceLayoutId": 391,
+  "Name": "Stehr-Doyle",
+  "Value": "voluptatem",
+  "CreatedDate": "2009-01-23T14:23:45.8605856+01:00",
+  "UpdatedDate": "2003-07-11T14:23:45.8605856+02:00",
+  "CreatedBy": "ipsam",
+  "UpdatedBy": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

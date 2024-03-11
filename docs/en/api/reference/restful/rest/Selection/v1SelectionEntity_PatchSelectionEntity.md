@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "eaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "eaque",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide 24 hour encryption",
-  "Postit": "magni",
+  "Description": "Face to face solution-oriented infrastructure",
+  "Postit": "excepturi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 537,
-  "IncludePerson": 9,
-  "MemberCount": 12,
-  "Name": "Hintz-Kutch",
-  "PostitTextId": 550,
-  "CreatedDate": "2008-01-11T10:30:32.4968779+01:00",
-  "SelectionId": 530,
-  "SoundEx": "aspernatur",
-  "Source": 610,
-  "TextId": 116,
-  "UpdatedDate": "2012-08-08T10:30:32.4968779+02:00",
-  "UpdatedCount": 413,
-  "Visibility": 127,
+  "GroupIdx": 116,
+  "IncludePerson": 835,
+  "MemberCount": 290,
+  "Name": "Steuber, Hilll and Bartell",
+  "PostitTextId": 578,
+  "CreatedDate": "2004-01-23T14:23:55.509584+01:00",
+  "SelectionId": 925,
+  "SoundEx": "eius",
+  "Source": 602,
+  "TextId": 744,
+  "UpdatedDate": "2010-07-20T14:23:55.509584+02:00",
+  "UpdatedCount": 804,
+  "Visibility": 408,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 636,
-  "TargetTableName": "Satterfield Group",
+  "TargetTableNumber": 410,
+  "TargetTableName": "Kuhic LLC",
   "Completed": false,
-  "LeftSelectionId": 124,
-  "RightSelectionId": 796,
+  "LeftSelectionId": 618,
+  "RightSelectionId": 37,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gerhold, Hegmann and Flatley",
-  "ShadowProviderName": "Bode-Roob",
-  "ChartKey": "occaecati",
-  "LastLoaded": "2011-11-18T10:30:32.4968779+01:00",
-  "LastLoadedBy": 422,
+  "MainProviderName": "Hills, Prohaska and Bauch",
+  "ShadowProviderName": "Pfeffer Group",
+  "ChartKey": "aut",
+  "LastLoaded": "2019-04-13T14:23:55.509584+02:00",
+  "LastLoadedBy": 126,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-12-09T10:30:32.4968779+01:00",
-  "LastMembershipChangeBy": 259,
+  "LastMembershipChange": "2015-09-19T14:23:55.509584+02:00",
+  "LastMembershipChangeBy": 918,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "exercitationem",
-  "MemberTabHeading": "nisi",
-  "MailingsProviderName": "Rolfson-Rau",
-  "DashboardTileDefinitionId": 759,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Haley, Brown and Ullrich",
+  "DashboardTileDefinitionId": 501,
   "VisibleFor": [
     {
-      "VisibleId": 879,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 628
         }
       }
     },
     {
-      "VisibleId": 879,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 628
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 264
     }
   },
   "_Links": {

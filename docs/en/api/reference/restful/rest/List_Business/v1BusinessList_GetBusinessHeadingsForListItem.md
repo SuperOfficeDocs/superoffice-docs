@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Ernser, Ziemann and Deckow",
-    "ToolTip": "Praesentium fugiat animi.",
-    "Deleted": true,
-    "Rank": 358,
-    "Type": "delectus",
-    "ColorBlock": 187,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2006-10-01T10:30:32.858187+02:00",
+    "Id": 89,
+    "Name": "Strosin, Hauck and Cremin",
+    "ToolTip": "Qui facilis.",
+    "Deleted": false,
+    "Rank": 374,
+    "Type": "nisi",
+    "ColorBlock": 889,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2010-03-03T14:23:55.9627019+01:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Cruickshank-Blanda",
-        "ToolTip": "Vel neque ad minima eveniet.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "pariatur",
-        "ColorBlock": 668,
-        "IconHint": "officiis",
+        "Id": 905,
+        "Name": "Ondricka Inc and Sons",
+        "ToolTip": "Eum corporis.",
+        "Deleted": false,
+        "Rank": 495,
+        "Type": "sit",
+        "ColorBlock": 526,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2020-05-22T10:30:32.858187+02:00",
+        "LastChanged": "2016-12-03T14:23:55.9627019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Miss Ivory Fritsch V",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Armani Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "laborum",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Imelda Walker",
+    "FullName": "Shawn Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldType": "System.String",
+        "FieldLength": 807
       }
     }
   }

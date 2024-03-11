@@ -130,15 +130,15 @@ Application tokens must be specified if calling an Online installation. Applicat
           <Workflow:UpdatedAssociateId xsi:nil="true"></Workflow:UpdatedAssociateId>
          </Workflow:HierarchyEntity>
         </Workflow:Children>
-        <Workflow:Registered xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Registered>
+        <Workflow:Registered xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Registered>
         <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-        <Workflow:Updated xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Updated>
+        <Workflow:Updated xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Updated>
         <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
        </Workflow:HierarchyEntity>
       </Workflow:Children>
-      <Workflow:Registered xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Registered>
+      <Workflow:Registered xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Registered>
       <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-      <Workflow:Updated xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Updated>
+      <Workflow:Updated xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Updated>
       <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
      </Workflow:Folder>
      <Workflow:Associate xsi:type="Workflow:Associate">
@@ -267,6 +267,13 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Workflow:BlockLists>
+     <Workflow:ContentInfo xsi:type="Workflow:ArrayOfWorkflowContentInfo">
+      <Workflow:WorkflowContentInfo xsi:type="Workflow:WorkflowContentInfo">
+       <Workflow:WorkflowContentType xsi:type="Workflow:WorkflowContentType">None</Workflow:WorkflowContentType>
+       <Workflow:Id xsi:type="xsd:int">0</Workflow:Id>
+       <Workflow:Actions xsi:type="xsd:boolean">false</Workflow:Actions>
+      </Workflow:WorkflowContentInfo>
+     </Workflow:ContentInfo>
      <Workflow:ExitFlowId xsi:type="xsd:int">0</Workflow:ExitFlowId>
      <Workflow:ExitSuccessFlowId xsi:type="xsd:int">0</Workflow:ExitSuccessFlowId>
      <Workflow:CreatedBy xsi:type="Workflow:Associate">
@@ -297,8 +304,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Workflow:EjUserId xsi:type="xsd:int">0</Workflow:EjUserId>
       <Workflow:UserName xsi:type="xsd:string"></Workflow:UserName>
      </Workflow:UpdatedBy>
-     <Workflow:CreatedDate xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:CreatedDate>
-     <Workflow:UpdatedDate xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:UpdatedDate>
+     <Workflow:CreatedDate xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:CreatedDate>
+     <Workflow:UpdatedDate xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:UpdatedDate>
      <Workflow:VisibleFor xsi:type="Workflow:ArrayOfVisibleFor">
       <Workflow:VisibleFor xsi:type="Workflow:VisibleFor">
        <Workflow:VisibleId xsi:type="xsd:int">0</Workflow:VisibleId>
@@ -416,21 +423,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Workflow:Children xsi:type="Workflow:ArrayOfHierarchyEntity">
           <Workflow:HierarchyEntity xsi:nil="true"></Workflow:HierarchyEntity>
          </Workflow:Children>
-         <Workflow:Registered xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Registered>
+         <Workflow:Registered xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Registered>
          <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-         <Workflow:Updated xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Updated>
+         <Workflow:Updated xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Updated>
          <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
         </Workflow:HierarchyEntity>
        </Workflow:Children>
-       <Workflow:Registered xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Registered>
+       <Workflow:Registered xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Registered>
        <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-       <Workflow:Updated xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Updated>
+       <Workflow:Updated xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Updated>
        <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
       </Workflow:HierarchyEntity>
      </Workflow:Children>
-     <Workflow:Registered xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Registered>
+     <Workflow:Registered xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Registered>
      <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-     <Workflow:Updated xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:Updated>
+     <Workflow:Updated xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:Updated>
      <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
     </Workflow:Folder>
     <Workflow:Associate xsi:type="Workflow:Associate">
@@ -603,6 +610,13 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Workflow:BlockLists>
+    <Workflow:ContentInfo xsi:type="Workflow:ArrayOfWorkflowContentInfo">
+     <Workflow:WorkflowContentInfo xsi:type="Workflow:WorkflowContentInfo">
+      <Workflow:WorkflowContentType xsi:type="Workflow:WorkflowContentType">None</Workflow:WorkflowContentType>
+      <Workflow:Id xsi:type="xsd:int">0</Workflow:Id>
+      <Workflow:Actions xsi:type="xsd:boolean">false</Workflow:Actions>
+     </Workflow:WorkflowContentInfo>
+    </Workflow:ContentInfo>
     <Workflow:ExitFlowId xsi:type="xsd:int">0</Workflow:ExitFlowId>
     <Workflow:ExitSuccessFlowId xsi:type="xsd:int">0</Workflow:ExitSuccessFlowId>
     <Workflow:CreatedBy xsi:type="Workflow:Associate">
@@ -633,8 +647,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:EjUserId xsi:type="xsd:int">0</Workflow:EjUserId>
      <Workflow:UserName xsi:type="xsd:string"></Workflow:UserName>
     </Workflow:UpdatedBy>
-    <Workflow:CreatedDate xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:CreatedDate>
-    <Workflow:UpdatedDate xsi:type="xsd:dateTime">2024-02-15T09:30:05Z</Workflow:UpdatedDate>
+    <Workflow:CreatedDate xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:CreatedDate>
+    <Workflow:UpdatedDate xsi:type="xsd:dateTime">2024-03-07T13:23:29Z</Workflow:UpdatedDate>
     <Workflow:VisibleFor xsi:type="Workflow:ArrayOfVisibleFor">
      <Workflow:VisibleFor xsi:type="Workflow:VisibleFor">
       <Workflow:VisibleId xsi:type="xsd:int">0</Workflow:VisibleId>

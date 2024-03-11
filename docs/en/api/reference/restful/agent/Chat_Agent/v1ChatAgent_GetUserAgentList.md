@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Blick-Cummings",
-    "ToolTip": "Sit reprehenderit perferendis distinctio recusandae error excepturi.",
+    "Id": 502,
+    "Name": "Rath Inc and Sons",
+    "ToolTip": "Expedita modi modi odit esse dolor.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "amet",
+    "Rank": 574,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 77,
-        "Name": "Langosh Group",
-        "ToolTip": "Est ex nostrum officia magni consequatur.",
-        "Deleted": true,
-        "Rank": 749,
-        "Type": "minus",
+        "Id": 187,
+        "Name": "Gutmann-Jewess",
+        "ToolTip": "Asperiores omnis inventore architecto adipisci ut est veritatis.",
+        "Deleted": false,
+        "Rank": 951,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 876,
-        "ExtraInfo": "et",
-        "StyleHint": "sed",
-        "FullName": "Karlee Wilderman V",
+        "ColorBlock": 326,
+        "ExtraInfo": "ea",
+        "StyleHint": "eos",
+        "FullName": "Cleora Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldLength": 122
           }
         }
       }
     ],
-    "IconHint": "sapiente",
-    "ColorBlock": 616,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "ut",
-    "FullName": "Ursula Conor Harris MD",
+    "IconHint": "repellendus",
+    "ColorBlock": 868,
+    "ExtraInfo": "autem",
+    "StyleHint": "enim",
+    "FullName": "Ms. Jaydon Efren Morissette PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 131
       }
     }
   }

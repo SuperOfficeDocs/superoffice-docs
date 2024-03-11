@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Grady-Bartoletti",
-    "ToolTip": "Odio est temporibus velit vel maiores amet.",
+    "Id": 820,
+    "Name": "Buckridge-Considine",
+    "ToolTip": "Dolorem eos in magnam adipisci.",
     "Deleted": true,
-    "Rank": 430,
-    "Type": "qui",
+    "Rank": 666,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 824,
-        "Name": "Collier-Greenfelder",
-        "ToolTip": "Maiores nihil porro sed expedita.",
+        "Id": 350,
+        "Name": "Miller, Goodwin and Koss",
+        "ToolTip": "Sapiente autem id aut nulla qui dicta.",
         "Deleted": true,
-        "Rank": 535,
-        "Type": "reiciendis",
+        "Rank": 952,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 701,
-        "ExtraInfo": "aliquid",
-        "StyleHint": "et",
-        "FullName": "Deanna Towne",
+        "IconHint": "delectus",
+        "ColorBlock": 586,
+        "ExtraInfo": "non",
+        "StyleHint": "maiores",
+        "FullName": "Alvena Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 200
+            "FieldType": "System.String",
+            "FieldLength": 542
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 612,
-    "ExtraInfo": "quam",
-    "StyleHint": "aut",
-    "FullName": "Ephraim Gutmann",
+    "IconHint": "ad",
+    "ColorBlock": 61,
+    "ExtraInfo": "omnis",
+    "StyleHint": "nam",
+    "FullName": "Pedro Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 691
       }
     }
   }

@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Feil LLC",
-  "AssociateId": 635,
-  "DetailsTable": 603,
-  "DetailsRecord": 947,
+  "Id": 263,
+  "Name": "Mills, Spencer and Turcotte",
+  "AssociateId": 751,
+  "DetailsTable": 410,
+  "DetailsRecord": 532,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "expedita",
-    "ParameterObject2": "et"
+    "ParameterObject1": "dolor",
+    "ParameterObject2": "optio"
   },
-  "LastStarted": "2002-03-08T10:30:32.6699717+01:00",
-  "Created": "2019-04-05T10:30:32.6699717+02:00",
-  "StartCount": 857,
-  "DatabaseSerialNumber": "986897",
-  "Context": "eum",
-  "Result": "sint",
+  "LastStarted": "2018-03-27T14:23:55.7595795+02:00",
+  "Created": "2018-03-14T14:23:55.7595795+01:00",
+  "StartCount": 683,
+  "DatabaseSerialNumber": "1136314",
+  "Context": "ea",
+  "Result": "aut",
   "State": "All",
-  "Description": "Right-sized dynamic adapter",
-  "Response": "voluptatem",
-  "Request": "cumque",
-  "ProgressDescription": "Future-proofed discrete project",
-  "ProgressPercent": 379,
-  "FileName": "Gusikowski LLC",
+  "Description": "Intuitive contextually-based functionalities",
+  "Response": "quasi",
+  "Request": "tenetur",
+  "ProgressDescription": "Virtual homogeneous utilisation",
+  "ProgressPercent": 699,
+  "FileName": "Emard, Schultz and Pfannerstill",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gerlach-Hintz",
-  "DeviceName": "Kunde Group",
-  "KeyName": "Zemlak, Tromp and Sawayn",
-  "TableName": "Wuckert-Emmerich",
-  "RecordId": 479
+  "ApplicationName": "Gusikowski, Hessel and Simonis",
+  "DeviceName": "Bartoletti, Weissnat and Schmitt",
+  "KeyName": "Torp-Dickens",
+  "TableName": "Rutherford Inc and Sons",
+  "RecordId": 406
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "possimus",
-  "Value": "aspernatur",
-  "RecordId": 629,
-  "CreatedDate": "2015-06-01T10:30:23.9073938+02:00",
-  "UpdatedDate": "2005-09-05T10:30:23.9073938+02:00",
-  "UpdatedBy": "autem",
-  "CreatedBy": "facere",
-  "TableName": "Jacobson-Bergstrom",
+  "Key": "in",
+  "Value": "maiores",
+  "RecordId": 208,
+  "CreatedDate": "2015-03-07T14:23:46.7524806+01:00",
+  "UpdatedDate": "2012-03-21T14:23:46.7524806+01:00",
+  "UpdatedBy": "modi",
+  "CreatedBy": "provident",
+  "TableName": "Lueilwitz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldLength": 502
     }
   }
 }

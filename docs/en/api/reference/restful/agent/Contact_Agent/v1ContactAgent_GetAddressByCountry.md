@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 263,
-  "CountryId": 754
+  "ContactId": 230,
+  "CountryId": 124
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 980.942,
-  "Wgs84Longitude": 28613.42,
+  "Wgs84Latitude": 19925.971999999998,
+  "Wgs84Longitude": 11410.894,
   "LocalizedAddress": [
     [
       {
-        "Name": "Legros-Goodwin",
-        "Value": "ab",
-        "Tooltip": "expedita",
-        "Label": "incidunt",
-        "ValueLength": 482,
-        "AddressType": "iste",
+        "Name": "Oberbrunner-Thompson",
+        "Value": "commodi",
+        "Tooltip": "dolorem",
+        "Label": "in",
+        "ValueLength": 217,
+        "AddressType": "esse",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 148
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       }
     ],
     [
       {
-        "Name": "Becker-Lemke",
-        "Value": "incidunt",
-        "Tooltip": "libero",
-        "Label": "ut",
-        "ValueLength": 690,
-        "AddressType": "quasi",
+        "Name": "Miller Group",
+        "Value": "quas",
+        "Tooltip": "corrupti",
+        "Label": "sed",
+        "ValueLength": 246,
+        "AddressType": "magni",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 769
+            "FieldType": "System.Int32",
+            "FieldLength": 435
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "repudiandae",
+  "Formatted": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Watsica Group",
-  "Tooltip": "praesentium",
+  "Id": 381,
+  "Name": "Roob Inc and Sons",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 218,
+  "Rank": 974,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Wyman Group",
-  "Tooltip": "nobis",
-  "Deleted": true,
-  "Rank": 827,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "Id": 332,
+  "Name": "Quigley Group",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 655,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ea",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 587
     }
   }
 }

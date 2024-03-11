@@ -101,15 +101,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 69,
-    "Value": "ad",
+    "TaskListItemId": 16,
+    "Value": "explicabo",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "IntentId": 837,
-    "Rank": 245,
-    "IsDefaultAlldayEvent": true,
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "IntentId": 583,
+    "Rank": 778,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldType": "System.Int32",
+        "FieldLength": 935
       }
     }
   }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "Rank": 768,
-  "IsCustomList": false,
+  "Id": 367,
+  "Name": "Fadel LLC",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "Rank": 671,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 182,
-  "IsCustomList": false,
+  "Id": 423,
+  "Name": "Reichert, Reichel and O'Kon",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "Rank": 959,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": false,
+  "ListType": "amet",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 860
     }
   }
 }

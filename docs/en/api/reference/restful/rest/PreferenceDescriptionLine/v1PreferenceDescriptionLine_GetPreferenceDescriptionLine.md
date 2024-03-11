@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 77,
-  "PrefDescId": 992,
-  "PrefValue": "perferendis",
-  "PrefShowValue": "corporis",
-  "Description": "Polarised optimal local area network",
+  "PrefDescLineId": 276,
+  "PrefDescId": 979,
+  "PrefValue": "eveniet",
+  "PrefShowValue": "et",
+  "Description": "Switchable stable concept",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldLength": 171
     }
   },
   "_Links": {

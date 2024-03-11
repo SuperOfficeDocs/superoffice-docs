@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Rau-Shanahan",
-    "ToolTip": "Neque mollitia aut tenetur sunt velit numquam dolorem.",
+    "Id": 835,
+    "Name": "Lind-Keebler",
+    "ToolTip": "Alias dignissimos animi occaecati.",
     "Deleted": false,
-    "Rank": 297,
-    "Type": "voluptatibus",
-    "ColorBlock": 328,
-    "IconHint": "non",
+    "Rank": 997,
+    "Type": "et",
+    "ColorBlock": 125,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2023-10-11T10:30:33.0524566+02:00",
+    "LastChanged": "2004-10-27T14:23:56.165827+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Ratke Group",
-        "ToolTip": "Ut qui quod ut et dolorem natus.",
-        "Deleted": true,
-        "Rank": 239,
-        "Type": "et",
-        "ColorBlock": 754,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2002-09-16T10:30:33.0524566+02:00",
+        "Id": 91,
+        "Name": "Paucek, Kris and Kreiger",
+        "ToolTip": "Qui ipsa deserunt maiores expedita.",
+        "Deleted": false,
+        "Rank": 978,
+        "Type": "vel",
+        "ColorBlock": 192,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "1997-02-23T14:23:56.165827+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Kelly Klocko",
+        "ExtraInfo": "dolores",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Mr. Delaney Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 722
+            "FieldLength": 982
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "eaque",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Jaeden Ziemann",
+    "FullName": "Prof. Lyda Moen DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 473
       }
     }
   }

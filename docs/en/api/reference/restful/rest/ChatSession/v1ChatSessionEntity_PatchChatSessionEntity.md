@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "atque",
+    "path": "voluptate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "atque",
+    "path": "voluptate",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 442,
-  "TopicId": 933,
+  "ChatSessionId": 619,
+  "TopicId": 91,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatum",
-  "CustomerHost": "magnam",
-  "CustomerName": "Bradtke, Osinski and Gerhold",
-  "CustomerEmail": "velma@mueller.co.uk",
-  "CustomerPhone": "(131)099-2185 x55331",
+  "CustomerAlias": "quod",
+  "CustomerHost": "labore",
+  "CustomerName": "Huel LLC",
+  "CustomerEmail": "uriel@koelpinblanda.co.uk",
+  "CustomerPhone": "071.780.7298",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Eichmann-Gibson",
+  "CustomerCompanyName": "Schiller, Feeney and Wolf",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "explicabo",
-  "WhenRequested": "2007-05-11T10:30:31.7437351+02:00",
-  "WhenStarted": "2004-07-04T10:30:31.7437351+02:00",
-  "WhenEnded": "2022-09-30T10:30:31.7437351+02:00",
-  "WhenIdle": "2007-04-16T10:30:31.7437351+02:00",
-  "WhenFetched": "2008-09-27T10:30:31.7437351+02:00",
-  "SessionKey": "eveniet",
-  "InitialQueuePos": 650,
-  "AlertLevel": 643,
-  "Rank": 68,
+  "FirstMessage": "quos",
+  "LastMessage": "totam",
+  "WhenRequested": "2020-01-09T14:23:54.8033918+01:00",
+  "WhenStarted": "2011-05-15T14:23:54.8033918+02:00",
+  "WhenEnded": "2011-03-12T14:23:54.8033918+01:00",
+  "WhenIdle": "1999-04-10T14:23:54.8033918+02:00",
+  "WhenFetched": "2014-09-13T14:23:54.8033918+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 934,
+  "AlertLevel": 138,
+  "Rank": 344,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 761,
+  "ChatbotIsActive": false,
+  "Rating": 751,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 263
     }
   },
   "_Links": {

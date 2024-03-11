@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 918,
-  "ERPPriceListKey": "consequatur",
-  "QuoteConnectionId": 210,
-  "Name": "Bruen-Langworth",
-  "Description": "User-friendly contextually-based conglomeration",
-  "Currency": "ipsum",
-  "CurrencyName": "Moen-Mitchell",
-  "ValidFrom": "2009-04-10T10:30:33.0680874+02:00",
-  "ValidTo": "1999-02-03T10:30:33.0680874+01:00",
+  "PriceListId": 4,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 144,
+  "Name": "Reinger LLC",
+  "Description": "Implemented uniform paradigm",
+  "Currency": "recusandae",
+  "CurrencyName": "Cummings, Ward and Daugherty",
+  "ValidFrom": "2014-04-02T14:23:56.1814517+02:00",
+  "ValidTo": "2019-03-04T14:23:56.1814517+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   },
   "_Links": {

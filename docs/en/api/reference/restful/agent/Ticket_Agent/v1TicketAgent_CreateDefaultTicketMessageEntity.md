@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 865,
+  "EjMessageId": 452,
   "Ticket": null,
-  "CreatedAt": "2016-04-04T10:30:24.7954621+02:00",
+  "CreatedAt": "2009-05-02T14:23:47.5348781+02:00",
   "CreatedBy": null,
-  "Author": "accusamus",
+  "Author": "quam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "totam",
-  "TimeSpent": 415,
-  "Body": "magnam",
-  "HtmlBody": "tenetur",
-  "EmailHeader": "garth_funk@reinger.co.uk",
-  "DebugInfo": "nihil",
-  "MailSorter": "facilis",
+  "MessageId": "ut",
+  "TimeSpent": 572,
+  "Body": "quod",
+  "HtmlBody": "autem",
+  "EmailHeader": "addison@braun.co.uk",
+  "DebugInfo": "pariatur",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magni",
+  "SearchTitle": "inventore",
   "MessageHeaders": [
     {
-      "Id": 558,
-      "Name": "Pagac-Schmidt",
-      "Value": "ex",
+      "Id": 26,
+      "Name": "Crist Group",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 34
+          "FieldLength": 905
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "facilis",
-  "Sentiment": 948,
-  "SentimentConfidence": 975,
+  "Important": true,
+  "Language": "quia",
+  "Sentiment": 349,
+  "SentimentConfidence": 618,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 401,
-      "Name": "Ankunding, Quitzon and Becker",
-      "ContentType": "tempora",
-      "AttSize": 429,
+      "AttachmentId": 323,
+      "Name": "Farrell, Walker and Hodkiewicz",
+      "ContentType": "odio",
+      "AttSize": 857,
       "InlineImage": false,
-      "ContentId": "cumque",
-      "AuthKey": "quos",
+      "ContentId": "facilis",
+      "AuthKey": "accusamus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 715
+          "FieldLength": 356
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "in",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "a"
+    "CustomFields1": "ratione",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   }
 }

@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quae",
-  "PluginId": 770
+  "LanguageCode": "eos",
+  "PluginId": 307
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 106,
-  "Name": "Green-Fay",
-  "Tooltip": "aut",
-  "SaveInDb": 254,
-  "Filename": "rerum",
-  "DefaultOref": "ipsum",
+  "DocumentTemplateId": 377,
+  "Name": "Abshire, Sawayn and Langosh",
+  "Tooltip": "alias",
+  "SaveInDb": 828,
+  "Filename": "et",
+  "DefaultOref": "tenetur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 692,
-  "IntentId": 809,
+  "AutoeventId": 384,
+  "IntentId": 220,
   "IsDefaultPublished": false,
-  "Rank": 295,
-  "LoadTemplateFromPlugin": 571,
-  "MimeType": "eligendi",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 473,
+  "Rank": 171,
+  "LoadTemplateFromPlugin": 815,
+  "MimeType": "expedita",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 300,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "brendon_cummings@parisiankertzmann.biz",
+  "EmailSubject": "lonie.brakus@braun.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "tracey.anderson@von.biz",
+  "SenderEmailAddress": "conner@blanda.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 69
     }
   }
 }

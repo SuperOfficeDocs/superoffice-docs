@@ -62,12 +62,13 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
+|locationAddress|string|Location: Location| x |
 |addedRows| *None* ||  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=personId,usergroup
+GET /api/v1/archive/CategoryMembers?$select=personId,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

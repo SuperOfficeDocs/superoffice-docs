@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Ebert, Mitchell and Runolfsdottir",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "UdListDefinitionId": 278,
-    "Rank": 616,
+    "Id": 674,
+    "Name": "Ebert LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 343,
+    "Rank": 498,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 118
       }
     }
   }

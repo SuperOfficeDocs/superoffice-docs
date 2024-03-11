@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Dec 2021 10:30:32 G12T
+Last-Modified: Thu, 07 Nov 1996 14:23:55 G11T
 
 {
-  "ForeignAppId": 65,
-  "Name": "Littel, Greenholt and Barrows",
-  "CreatedDate": "2001-03-05T10:30:32.0730519+01:00",
-  "UpdatedDate": "2021-12-28T10:30:32.0730519+01:00",
+  "ForeignAppId": 637,
+  "Name": "Runolfsson, Bartell and Orn",
+  "CreatedDate": "2019-12-03T14:23:55.1802705+01:00",
+  "UpdatedDate": "1996-11-07T14:23:55.1802705+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 184,
-      "Name": "Sawayn LLC",
-      "CreatedDate": "2000-04-01T10:30:32.0730519+02:00",
-      "UpdatedDate": "1998-02-22T10:30:32.0730519+01:00",
-      "AssociateFullName": "Dr. Carole Huel IV",
-      "CreatedBy": "doloremque",
-      "UpdatedBy": "commodi",
-      "DeviceIdentifier": "amet",
-      "ForeignAppId": 5,
+      "ForeignDeviceId": 484,
+      "Name": "Bayer-Kessler",
+      "CreatedDate": "1997-05-03T14:23:55.1802705+02:00",
+      "UpdatedDate": "2014-02-28T14:23:55.1802705+01:00",
+      "AssociateFullName": "Esperanza Ritchie",
+      "CreatedBy": "quas",
+      "UpdatedBy": "quisquam",
+      "DeviceIdentifier": "suscipit",
+      "ForeignAppId": 89,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 283
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Tue, 28 Dec 2021 10:30:32 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

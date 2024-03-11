@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 33,
-  "DefaultValue": "ea",
+  "ErpFieldId": 63,
+  "DefaultValue": "sunt",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quia",
+  "FirstSyncDefaultValue": "ut",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "et",
+  "Mandatory": true,
+  "ErpFieldKey": "sunt",
   "FieldType": "Checkbox",
-  "ListName": "Marvin LLC",
+  "ListName": "Glover Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 248,
-  "Title": "omnis",
-  "CreatedAt": "2006-11-25T10:30:24.8579602+01:00",
-  "LastChanged": "2009-09-21T10:30:24.8579602+02:00",
-  "ReadByOwner": "2011-11-25T10:30:24.8579602+01:00",
-  "ReadByCustomer": "2006-07-12T10:30:24.8579602+02:00",
-  "FirstReadByOwner": "1998-03-21T10:30:24.8579602+01:00",
-  "FirstReadByUser": "1998-10-30T10:30:24.8579602+01:00",
-  "Activate": "1999-09-23T10:30:24.8579602+02:00",
-  "ClosedAt": "1999-02-20T10:30:24.8579602+01:00",
-  "RepliedAt": "2008-09-23T10:30:24.8579602+02:00",
-  "AlertTimeout": "2023-12-15T10:30:24.8579602+01:00",
-  "Deadline": "2001-05-02T10:30:24.8579602+02:00",
+  "TicketId": 198,
+  "Title": "id",
+  "CreatedAt": "1999-08-27T14:23:47.5973787+02:00",
+  "LastChanged": "2011-06-29T14:23:47.5973787+02:00",
+  "ReadByOwner": "2023-02-02T14:23:47.5973787+01:00",
+  "ReadByCustomer": "2021-12-06T14:23:47.5973787+01:00",
+  "FirstReadByOwner": "2014-02-20T14:23:47.5973787+01:00",
+  "FirstReadByUser": "2008-02-26T14:23:47.5973787+01:00",
+  "Activate": "2021-04-23T14:23:47.5973787+02:00",
+  "ClosedAt": "1997-02-13T14:23:47.5973787+01:00",
+  "RepliedAt": "2016-02-23T14:23:47.5973787+01:00",
+  "AlertTimeout": "2000-05-13T14:23:47.5973787+02:00",
+  "Deadline": "2002-03-28T14:23:47.5973787+01:00",
   "CreatedBy": null,
-  "Author": "praesentium",
+  "Author": "ad",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,162 +157,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "qui",
-      "PersonId": 590,
-      "Mrmrs": "vel",
-      "Firstname": "Cornelius",
-      "Lastname": "Sipes",
-      "MiddleName": "Pfannerstill-Satterfield",
-      "Title": "delectus",
-      "Description": "Balanced radical methodology",
-      "Email": "shania@price.uk",
-      "FullName": "Maribel Shields",
-      "DirectPhone": "369-232-9572 x26436",
-      "FormalName": "O'Reilly, Kohler and Grimes",
-      "CountryId": 891,
-      "ContactId": 735,
-      "ContactName": "Harber-Langworth",
-      "Retired": 829,
-      "Rank": 317,
-      "ActiveInterests": 151,
+      "Position": "distinctio",
+      "PersonId": 500,
+      "Mrmrs": "cum",
+      "Firstname": "Itzel",
+      "Lastname": "Greenholt",
+      "MiddleName": "Keeling-Roob",
+      "Title": "dolores",
+      "Description": "Front-line 24/7 flexibility",
+      "Email": "burley_schroeder@schimmelkoch.uk",
+      "FullName": "Jena Wyman",
+      "DirectPhone": "486.757.3978 x98079",
+      "FormalName": "Fisher-Emmerich",
+      "CountryId": 710,
+      "ContactId": 106,
+      "ContactName": "Daniel Inc and Sons",
+      "Retired": 60,
+      "Rank": 36,
+      "ActiveInterests": 103,
       "ContactDepartment": "",
-      "ContactCountryId": 388,
-      "ContactOrgNr": "1186313",
-      "FaxPhone": "543.969.9418 x4893",
-      "MobilePhone": "1-876-190-4204",
-      "ContactPhone": "966-217-7893",
-      "AssociateName": "Predovic LLC",
-      "AssociateId": 356,
-      "UsePersonAddress": true,
-      "ContactFax": "amet",
-      "Kanafname": "saepe",
-      "Kanalname": "dolorem",
+      "ContactCountryId": 275,
+      "ContactOrgNr": "521670",
+      "FaxPhone": "010-354-0711 x2594",
+      "MobilePhone": "(163)670-0523",
+      "ContactPhone": "011-135-1881 x623",
+      "AssociateName": "Little, Corwin and Stokes",
+      "AssociateId": 255,
+      "UsePersonAddress": false,
+      "ContactFax": "et",
+      "Kanafname": "facilis",
+      "Kanalname": "dolorum",
       "Post1": "aut",
-      "Post2": "enim",
-      "Post3": "saepe",
-      "EmailName": "alexis_runolfsson@cormierbeahan.biz",
-      "ContactFullName": "Ana Jasmin Howell II",
-      "ActiveErpLinks": 726,
-      "TicketPriorityId": 547,
-      "SupportLanguageId": 128,
+      "Post2": "sint",
+      "Post3": "qui",
+      "EmailName": "reese@rowe.com",
+      "ContactFullName": "Berry Larson",
+      "ActiveErpLinks": 925,
+      "TicketPriorityId": 656,
+      "SupportLanguageId": 382,
       "SupportAssociateId": 850,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 269
         }
       }
     }
   ],
-  "AlertLevel": 137,
-  "ConnectId": 904,
+  "AlertLevel": 554,
+  "ConnectId": 654,
   "ReadStatus": "Green",
-  "TimeToReply": 875,
-  "RealTimeToReply": 152,
-  "TimeToClose": 851,
-  "RealTimeToClose": 105,
-  "TimeSpentInternally": 335,
-  "TimeSpentExternally": 212,
-  "TimeSpentQueue": 324,
-  "RealTimeSpentInternally": 97,
-  "RealTimeSpentExternally": 611,
-  "RealTimeSpentQueue": 827,
-  "TimeSpent": 852,
+  "TimeToReply": 43,
+  "RealTimeToReply": 396,
+  "TimeToClose": 233,
+  "RealTimeToClose": 447,
+  "TimeSpentInternally": 670,
+  "TimeSpentExternally": 267,
+  "TimeSpentQueue": 707,
+  "RealTimeSpentInternally": 870,
+  "RealTimeSpentExternally": 847,
+  "RealTimeSpentQueue": 356,
+  "TimeSpent": 336,
   "HasAttachment": false,
-  "NumReplies": 409,
-  "NumMessages": 178,
-  "FromAddress": "ut",
+  "NumReplies": 86,
+  "NumMessages": 221,
+  "FromAddress": "dignissimos",
   "Messages": [
     {
-      "TicketMessageId": 637,
-      "CreatedAt": "1999-11-28T10:30:24.8579602+01:00",
+      "TicketMessageId": 395,
+      "CreatedAt": "2005-07-26T14:23:47.6130021+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "dolore",
-      "PersonId": 955,
-      "PersonFullName": "Cielo Shanahan",
-      "ContactId": 214,
-      "ContactName": "Mayer-Hegmann",
+      "Important": true,
+      "Author": "nulla",
+      "PersonId": 383,
+      "PersonFullName": "Mr. Hyman Korbin Predovic",
+      "ContactId": 813,
+      "ContactName": "Treutel Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 270,
-      "EmailHeader": "anais@predovicrosenbaum.com",
+      "NumAttachments": 910,
+      "EmailHeader": "gia@haagzboncak.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 877,
-      "SentimentConfidence": 749,
-      "CreatedBy": 949,
-      "ChangedAt": "2016-03-20T10:30:24.8579602+01:00",
+      "Language": "inventore",
+      "Sentiment": 421,
+      "SentimentConfidence": 104,
+      "CreatedBy": 80,
+      "ChangedAt": "2006-05-03T14:23:47.6130021+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 753
+          "FieldType": "System.String",
+          "FieldLength": 627
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 279,
-      "Name": "Bechtelar-Reichel",
-      "ToolTip": "Aliquid ut.",
+      "Id": 410,
+      "Name": "Schoen, Green and Walker",
+      "ToolTip": "Aut autem cupiditate distinctio porro qui est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 21
         }
       }
     },
     {
-      "Id": 279,
-      "Name": "Bechtelar-Reichel",
-      "ToolTip": "Aliquid ut.",
+      "Id": 410,
+      "Name": "Schoen, Green and Walker",
+      "ToolTip": "Aut autem cupiditate distinctio porro qui est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldType": "System.Int32",
+          "FieldLength": 21
         }
       }
     }
   ],
-  "Language": "tempore",
-  "Sentiment": 578,
-  "SentimentConfidence": 88,
-  "SuggestedCategoryId": 140,
+  "Language": "cum",
+  "Sentiment": 917,
+  "SentimentConfidence": 803,
+  "SuggestedCategoryId": 732,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 78,
-  "IconHint": "eveniet",
+  "OrigHumanCategoryId": 786,
+  "IconHint": "tempora",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 277,
+  "ActiveStatusMonitorId": 968,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "debitis"
+    "CustomFields1": "veniam",
+    "CustomFields2": "aliquid"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 720
     }
   }
 }

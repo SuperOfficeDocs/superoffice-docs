@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sunt"
+  "UniqueIdentifier": "tenetur"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Barrows-Erdman",
-  "Description": "Function-based transitional benchmark",
-  "IncludeId": "qui",
-  "Source": "consequatur",
-  "Registered": "1998-04-16T10:30:23.4049883+02:00",
-  "RegisteredBy": "quis",
-  "Updated": "2022-06-30T10:30:23.4049883+02:00",
-  "UpdatedBy": "perspiciatis",
-  "Path": "sunt",
+  "UniqueIdentifier": "qui",
+  "Name": "Dibbert-Nicolas",
+  "Description": "Visionary 24/7 algorithm",
+  "IncludeId": "sunt",
+  "Source": "aut",
+  "Registered": "1996-11-21T14:23:46.2043319+01:00",
+  "RegisteredBy": "dolores",
+  "Updated": "2023-01-06T14:23:46.2043319+01:00",
+  "UpdatedBy": "quia",
+  "Path": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 570
     }
   }
 }

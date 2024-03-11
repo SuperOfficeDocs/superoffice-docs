@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Hauck-Hessel",
-    "ToolTip": "Omnis consequuntur suscipit dolor.",
+    "Id": 664,
+    "Name": "Keebler Group",
+    "ToolTip": "Odit et impedit iusto eaque voluptas eligendi.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "officia",
-    "ColorBlock": 658,
-    "IconHint": "qui",
+    "Rank": 369,
+    "Type": "voluptatibus",
+    "ColorBlock": 521,
+    "IconHint": "nemo",
     "Selected": true,
-    "LastChanged": "2002-08-21T10:30:32.9118319+02:00",
+    "LastChanged": "2008-08-26T14:23:56.009576+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Gusikowski Inc and Sons",
-        "ToolTip": "Ea et assumenda quam.",
+        "Id": 38,
+        "Name": "Fay, Hahn and Price",
+        "ToolTip": "Voluptas et vitae est consequatur voluptatum.",
         "Deleted": true,
-        "Rank": 663,
-        "Type": "sint",
-        "ColorBlock": 369,
-        "IconHint": "et",
+        "Rank": 561,
+        "Type": "culpa",
+        "ColorBlock": 397,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2021-02-04T10:30:32.9118319+01:00",
+        "LastChanged": "2009-03-11T14:23:56.009576+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Nathanael Barton"
+        "ExtraInfo": "ea",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Albina Ondricka"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Kimberly Nolan"
+    "ExtraInfo": "ducimus",
+    "StyleHint": "itaque",
+    "Hidden": true,
+    "FullName": "Nicklaus Botsford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Marquardt Inc and Sons",
-    "ToolTip": "Rerum repellat voluptas dolorem quos sapiente.",
-    "Deleted": true,
-    "Rank": 884,
-    "Type": "omnis",
-    "ColorBlock": 723,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2003-05-25T10:30:32.9118319+02:00",
+    "Id": 597,
+    "Name": "Cummings LLC",
+    "ToolTip": "Facere et ratione qui.",
+    "Deleted": false,
+    "Rank": 122,
+    "Type": "perferendis",
+    "ColorBlock": 761,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2010-06-19T14:23:56.009576+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Goodwin Group",
-        "ToolTip": "Unde occaecati qui est velit explicabo voluptatem.",
+        "Id": 329,
+        "Name": "Hane-Dickinson",
+        "ToolTip": "Enim explicabo labore mollitia modi ut corrupti.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "necessitatibus",
-        "ColorBlock": 366,
-        "IconHint": "mollitia",
+        "Rank": 350,
+        "Type": "ullam",
+        "ColorBlock": 776,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2018-01-23T10:30:32.9118319+01:00",
+        "LastChanged": "2014-09-20T14:23:56.009576+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Haleigh O'Keefe",
+        "ExtraInfo": "aut",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Karlie Rene Fadel V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldType": "System.String",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Viva Pacocha",
+    "ExtraInfo": "vero",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Miss Sincere Predovic DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 371
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Stiedemann Inc and Sons",
-    "ToolTip": "Similique alias dolorem quis enim similique.",
-    "Deleted": true,
-    "Rank": 404,
-    "Type": "ut",
-    "ColorBlock": 772,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "2021-01-18T10:30:32.858187+01:00",
+    "Id": 17,
+    "Name": "Effertz Group",
+    "ToolTip": "Sed dolores officiis sit sit.",
+    "Deleted": false,
+    "Rank": 271,
+    "Type": "et",
+    "ColorBlock": 431,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2006-01-29T14:23:55.9627019+01:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Cassin-Wehner",
-        "ToolTip": "Corporis nam quia quae occaecati est.",
+        "Id": 817,
+        "Name": "Shields, Ankunding and Spinka",
+        "ToolTip": "Possimus nihil iusto rerum sunt harum.",
         "Deleted": true,
-        "Rank": 188,
-        "Type": "non",
-        "ColorBlock": 797,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2004-08-10T10:30:32.858187+02:00",
+        "Rank": 768,
+        "Type": "porro",
+        "ColorBlock": 483,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2003-08-02T14:23:55.9627019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "et",
+        "ExtraInfo": "iure",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Tess Carlie O'Conner PhD"
+        "FullName": "Juana Hettie Shanahan IV"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "nam",
+    "ExtraInfo": "laborum",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Sasha Kip Waelchi MD"
+    "FullName": "Earnestine Block DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Mills LLC",
-    "ToolTip": "Voluptas officiis consequatur qui.",
-    "Deleted": true,
-    "Rank": 299,
-    "Type": "rerum",
-    "ColorBlock": 184,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2021-03-21T10:30:32.8738112+01:00",
+    "Id": 131,
+    "Name": "Adams, Volkman and Fahey",
+    "ToolTip": "Ex sunt ut nesciunt reprehenderit.",
+    "Deleted": false,
+    "Rank": 70,
+    "Type": "voluptate",
+    "ColorBlock": 680,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2022-07-17T14:23:55.9627019+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Jacobson-Bechtelar",
-        "ToolTip": "Illo odit optio vitae dolorem.",
+        "Id": 978,
+        "Name": "Willms LLC",
+        "ToolTip": "Sunt reiciendis cupiditate id alias est.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "neque",
-        "ColorBlock": 234,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2010-02-25T10:30:32.8738112+01:00",
+        "Rank": 177,
+        "Type": "quae",
+        "ColorBlock": 48,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2019-01-08T14:23:55.9627019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Sharon Mueller",
+        "ExtraInfo": "est",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Maeve Bernardo Swift Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 509
+            "FieldType": "System.Int32",
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "eum",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "illo",
     "Hidden": true,
-    "FullName": "Ashlynn Larson PhD",
+    "FullName": "Sarina Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

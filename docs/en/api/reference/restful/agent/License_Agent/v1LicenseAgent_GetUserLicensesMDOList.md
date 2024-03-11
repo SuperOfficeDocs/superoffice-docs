@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Leannon, Legros and Ernser",
-    "ToolTip": "Aut qui ut velit.",
-    "Deleted": true,
-    "Rank": 591,
-    "Type": "vitae",
-    "ColorBlock": 816,
-    "IconHint": "rem",
+    "Id": 436,
+    "Name": "Davis-Wiza",
+    "ToolTip": "Ullam quia blanditiis.",
+    "Deleted": false,
+    "Rank": 455,
+    "Type": "mollitia",
+    "ColorBlock": 58,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2021-05-25T10:30:23.9272181+02:00",
+    "LastChanged": "2019-01-24T14:23:46.7837295+01:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Maggio LLC",
-        "ToolTip": "Repellat est et qui quibusdam veritatis.",
+        "Id": 711,
+        "Name": "Langosh Inc and Sons",
+        "ToolTip": "Harum natus voluptatem ut architecto.",
         "Deleted": true,
-        "Rank": 143,
-        "Type": "facilis",
-        "ColorBlock": 884,
-        "IconHint": "et",
+        "Rank": 179,
+        "Type": "quia",
+        "ColorBlock": 140,
+        "IconHint": "dolore",
         "Selected": true,
-        "LastChanged": "2021-01-27T10:30:23.9272181+01:00",
+        "LastChanged": "2000-10-17T14:23:46.7837295+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Christina Satterfield",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Janet Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldType": "System.String",
+            "FieldLength": 216
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Dr. Constantin Schmitt",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Ms. Mertie Penelope Hahn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

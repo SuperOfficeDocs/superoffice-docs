@@ -76,12 +76,13 @@ This is the archive Provider for the Selection selection archive.
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

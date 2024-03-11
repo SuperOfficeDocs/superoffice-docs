@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 753,
-  "Name": "Moen, Lubowitz and Wilkinson",
-  "Rank": 338,
-  "Tooltip": "sit",
+  "AssociateId": 194,
+  "Name": "Gottlieb-Nader",
+  "Rank": 277,
+  "Tooltip": "eligendi",
   "LicenseOwners": [
     {
-      "Name": "Feest Inc and Sons",
-      "Description": "Ergonomic analyzing help-desk",
+      "Name": "Quigley-Cronin",
+      "Description": "Vision-oriented exuding benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 457
         }
       }
     },
     {
-      "Name": "Feest Inc and Sons",
-      "Description": "Ergonomic analyzing help-desk",
+      "Name": "Quigley-Cronin",
+      "Description": "Vision-oriented exuding benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 457
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "tenetur",
-      "Id": 559,
-      "Rank": 753,
+      "Value": "sunt",
+      "Tooltip": "reiciendis",
+      "Id": 89,
+      "Rank": 759,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 600
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-05-06T10:30:32.7800638+02:00",
-  "Lastlogout": "2021-06-08T10:30:32.7800638+02:00",
-  "EjUserId": 248,
-  "RequestSignature": "ipsam",
+  "Lastlogin": "1997-04-22T14:23:55.884579+02:00",
+  "Lastlogout": "2000-10-22T14:23:55.884579+02:00",
+  "EjUserId": 650,
+  "RequestSignature": "officiis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "culpa",
-      "DisplayValue": "quae",
+      "Value": "nemo",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 194
         }
       }
     },
     {
       "Type": null,
-      "Value": "culpa",
-      "DisplayValue": "quae",
+      "Value": "nemo",
+      "DisplayValue": "aliquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 194
         }
       }
     }
   ],
-  "UserName": "Kulas-Bergnaum",
+  "UserName": "Hansen Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 508,
-      "Name": "Effertz-Abshire",
-      "ToolTip": "Dicta consectetur fugiat eligendi dolor aspernatur ducimus.",
+      "Id": 823,
+      "Name": "Fay LLC",
+      "ToolTip": "Numquam vitae molestiae et eos.",
       "Deleted": false,
-      "Rank": 623,
-      "Type": "doloribus",
+      "Rank": 955,
+      "Type": "ad",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 255,
-      "ExtraInfo": "praesentium",
-      "StyleHint": "unde",
-      "FullName": "Ms. Jessica Freeda Wisozk PhD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 156
-        }
-      }
-    }
-  ],
-  "NickName": "Beier-Hickle",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "doloremque"
-  },
-  "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "quia"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Heathcote-Schmidt",
-      "DisplayName": "Thompson, Bosco and Beer",
-      "Description": "Universal contextually-based budgetary management",
-      "ToolTip": "Vel et sunt est adipisci non.",
-      "Actions": "Implicit",
-      "ActionData": "odio",
+      "IconHint": "iusto",
+      "ColorBlock": 749,
+      "ExtraInfo": "amet",
+      "StyleHint": "molestias",
+      "FullName": "Emma O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 223
+        }
+      }
+    }
+  ],
+  "NickName": "Kuhn, Sanford and Lowe",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "id",
+    "CustomFields2": "voluptatem"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kertzmann Inc and Sons",
+      "DisplayName": "Nitzsche, Heaney and Wunsch",
+      "Description": "Persistent composite budgetary management",
+      "ToolTip": "Possimus iusto deleniti.",
+      "Actions": "Implicit",
+      "ActionData": "quae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 768
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

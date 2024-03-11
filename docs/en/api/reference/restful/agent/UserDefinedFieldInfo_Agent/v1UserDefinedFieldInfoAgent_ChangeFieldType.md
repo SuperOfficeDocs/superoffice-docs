@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 973,
-  "ColumnId": 126,
-  "FieldDefault": "sit",
-  "FieldHeight": 623,
-  "FieldLabel": "illo",
-  "FieldLeft": 146,
-  "FieldTop": 715,
+  "UDefFieldId": 341,
+  "ColumnId": 686,
+  "FieldDefault": "modi",
+  "FieldHeight": 439,
+  "FieldLabel": "natus",
+  "FieldLeft": 353,
+  "FieldTop": 595,
   "FieldType": "Checkbox",
-  "FieldWidth": 482,
-  "FormatMask": "ipsum",
+  "FieldWidth": 727,
+  "FormatMask": "nobis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 621,
-  "LabelLeft": 557,
-  "LabelTop": 519,
-  "LabelWidth": 365,
-  "LastVersionId": 968,
-  "ListTableId": 873,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 937,
+  "LabelLeft": 178,
+  "LabelTop": 838,
+  "LabelWidth": 737,
+  "LastVersionId": 498,
+  "ListTableId": 248,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 980,
-  "ProgId": "quas",
-  "IsReadOnly": true,
-  "ShortLabel": "architecto",
-  "TabOrder": 195,
-  "TextLength": 759,
-  "Tooltip": "illo",
-  "UdefIdentity": 667,
-  "UDListDefinitionId": 170,
+  "Page1LineNo": 853,
+  "ProgId": "modi",
+  "IsReadOnly": false,
+  "ShortLabel": "delectus",
+  "TabOrder": 548,
+  "TextLength": 548,
+  "Tooltip": "consectetur",
+  "UdefIdentity": 750,
+  "UDListDefinitionId": 115,
   "Justification": "Center",
-  "Version": 209,
-  "TemplateVariableName": "Satterfield Inc and Sons",
+  "Version": 129,
+  "TemplateVariableName": "Rau LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Jacobs Inc and Sons",
+  "MdoListName": "Wintheiser Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 437
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 115,
-    "Name": "Vandervort Group",
-    "Tooltip": "numquam",
+    "HeadingId": 264,
+    "Name": "Renner-Rutherford",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 791,
-    "UdListDefinitionId": 365,
+    "Rank": 905,
+    "UdListDefinitionId": 780,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 314
       }
     }
   }

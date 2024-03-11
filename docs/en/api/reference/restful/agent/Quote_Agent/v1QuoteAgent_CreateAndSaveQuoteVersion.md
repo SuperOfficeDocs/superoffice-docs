@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 176
+  "QuoteVersionId": 847
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 646,
-  "ERPQuoteVersionKey": "tempora",
-  "QuoteId": 561,
-  "Description": "Grass-roots 24 hour complexity",
-  "Number": "1609392",
+  "QuoteVersionId": 721,
+  "ERPQuoteVersionKey": "magnam",
+  "QuoteId": 298,
+  "Description": "Networked attitude-oriented superstructure",
+  "Number": "1275950",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 895,
-  "SentDate": "1998-12-08T10:30:24.3877082+01:00",
-  "FollowupId": 701,
-  "ExpirationDate": "2014-02-04T10:30:24.3877082+01:00",
-  "DeliveryCountryId": 574,
+  "Reason": "morph impactful supply-chains",
+  "LikelyQuoteAlternativeId": 360,
+  "SentDate": "2003-09-02T14:23:47.2067575+02:00",
+  "FollowupId": 904,
+  "ExpirationDate": "2000-05-06T14:23:47.2067575+02:00",
+  "DeliveryCountryId": 205,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 764,
+  "InvoiceCountryId": 908,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "iste",
-  "ERPPaymentTypeKey": "illum",
-  "ERPDeliveryTermsKey": "beatae",
-  "ERPDeliveryTypeKey": "esse",
-  "Rank": 659,
-  "ApprovedBy": 225,
+  "ERPPaymentTermsKey": "unde",
+  "ERPPaymentTypeKey": "hic",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "dolorum",
+  "Rank": 361,
+  "ApprovedBy": 565,
   "ApprovedText": "et",
-  "ApprovedRegisteredBy": 801,
-  "ApprovedRegisteredDate": "2018-01-11T10:30:24.3877082+01:00",
-  "ExtraField1": "soluta",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "rem",
-  "ExtraField4": "repudiandae",
-  "ExtraField5": "doloribus",
-  "LastRecalculated": "2009-04-08T10:30:24.3877082+02:00",
-  "Updated": "2001-07-16T10:30:24.3877082+02:00",
-  "UpdatedAssociateId": 670,
-  "Registered": "1999-05-07T10:30:24.3877082+02:00",
-  "RegisteredAssociateId": 489,
-  "RequestAssociateId": 327,
-  "RequestComment": "quo",
+  "ApprovedRegisteredBy": 523,
+  "ApprovedRegisteredDate": "2016-10-08T14:23:47.2067575+02:00",
+  "ExtraField1": "quia",
+  "ExtraField2": "rem",
+  "ExtraField3": "ullam",
+  "ExtraField4": "facilis",
+  "ExtraField5": "aliquid",
+  "LastRecalculated": "2002-05-26T14:23:47.2067575+02:00",
+  "Updated": "2002-03-20T14:23:47.2067575+01:00",
+  "UpdatedAssociateId": 576,
+  "Registered": "2022-03-14T14:23:47.2067575+01:00",
+  "RegisteredAssociateId": 84,
+  "RequestAssociateId": 486,
+  "RequestComment": "cumque",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 553,
-      "ERPQuoteAlternativeKey": "nam",
-      "QuoteVersionId": 224,
-      "Name": "Gusikowski Group",
-      "Description": "Innovative solution-oriented orchestration",
+      "QuoteAlternativeId": 723,
+      "ERPQuoteAlternativeKey": "consectetur",
+      "QuoteVersionId": 270,
+      "Name": "Littel Inc and Sons",
+      "Description": "Future-proofed transitional array",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 1814.586,
-      "ERPDiscountAmount": 19775.54,
-      "DiscountPercent": 12887.008,
-      "DiscountAmount": 8264.358,
+      "ERPDiscountPercent": 21825.176,
+      "ERPDiscountAmount": 13842.877999999999,
+      "DiscountPercent": 1494.918,
+      "DiscountAmount": 20584.112,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 1106.302,
-      "EarningPercent": 354.142,
-      "EarningAmount": 16958.074,
-      "SubTotal": 25645.522,
-      "TotalPrice": 12626.886,
-      "ExtraField1": "aliquid",
-      "ExtraField2": "nulla",
-      "ExtraField3": "quo",
-      "ExtraField4": "provident",
-      "ExtraField5": "laboriosam",
+      "VATInfo": "nihil",
+      "VAT": 3883.026,
+      "EarningPercent": 13419.788,
+      "EarningAmount": 24915.3,
+      "SubTotal": 29769.865999999998,
+      "TotalPrice": 15438.083999999999,
+      "ExtraField1": "quos",
+      "ExtraField2": "debitis",
+      "ExtraField3": "hic",
+      "ExtraField4": "quo",
+      "ExtraField5": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

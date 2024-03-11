@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=id
+GET /api/v1/List/ProductFamily/MDOItems?query=deserunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Hintz, Jones and Mosciski",
-    "ToolTip": "Saepe atque quidem dignissimos sed.",
+    "Id": 489,
+    "Name": "Leffler-Rutherford",
+    "ToolTip": "Atque aut.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "dolorem",
+    "Rank": 709,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Bruen Group",
-        "ToolTip": "Autem repellat quia tempore aspernatur ullam aut.",
+        "Id": 878,
+        "Name": "Harvey Group",
+        "ToolTip": "Quod natus tempore quibusdam perspiciatis.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "mollitia",
+        "Rank": 522,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 928,
-        "ExtraInfo": "sunt",
-        "StyleHint": "omnis",
-        "FullName": "Carolyn Padberg",
+        "IconHint": "atque",
+        "ColorBlock": 205,
+        "ExtraInfo": "architecto",
+        "StyleHint": "veniam",
+        "FullName": "Dr. Arvilla Mozell Lemke V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 973
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 555,
-    "ExtraInfo": "qui",
-    "StyleHint": "esse",
-    "FullName": "Mrs. April Charlotte Brown DDS",
+    "IconHint": "ut",
+    "ColorBlock": 477,
+    "ExtraInfo": "ipsa",
+    "StyleHint": "quos",
+    "FullName": "Eloisa Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

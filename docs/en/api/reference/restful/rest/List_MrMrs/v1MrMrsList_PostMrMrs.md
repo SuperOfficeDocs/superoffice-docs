@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "Prohaska LLC",
-  "Tooltip": "vel",
+  "Id": 130,
+  "Name": "Mertz-Carroll",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 269,
-  "Rank": 329
+  "UdListDefinitionId": 175,
+  "Rank": 51
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Yundt Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 646,
-  "Rank": 339,
+  "Id": 779,
+  "Name": "Mills Group",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "UdListDefinitionId": 345,
+  "Rank": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

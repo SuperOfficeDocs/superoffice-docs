@@ -97,14 +97,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 988,
-  "Name": "Ullrich Inc and Sons",
-  "ContentType": "quas",
-  "AttSize": 174,
+  "AttachmentId": 776,
+  "Name": "Ferry-Block",
+  "ContentType": "qui",
+  "AttSize": 367,
   "InlineImage": false,
-  "ContentId": "ea",
-  "AuthKey": "quia",
-  "IsSafeFileExtension": true
+  "ContentId": "perspiciatis",
+  "AuthKey": "officiis",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 124,
-  "Name": "Harvey-Mosciski",
-  "ContentType": "sed",
-  "AttSize": 557,
+  "AttachmentId": 281,
+  "Name": "Schroeder Group",
+  "ContentType": "voluptas",
+  "AttSize": 839,
   "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "mollitia",
-  "IsSafeFileExtension": true,
+  "ContentId": "fuga",
+  "AuthKey": "repellat",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 72
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

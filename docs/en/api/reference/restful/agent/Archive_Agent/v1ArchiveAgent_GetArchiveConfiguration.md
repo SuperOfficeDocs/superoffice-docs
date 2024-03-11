@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Carter, Wiza and McKenzie",
-  "ProviderName": "Corkery LLC"
+  "GuiName": "Hoeger-Graham",
+  "ProviderName": "Gulgowski-Wilderman"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Champlin-Dach",
-      "DisplayTooltip": "aut",
-      "DisplayType": "maxime",
+      "DisplayName": "Schamberger, Kihn and Nitzsche",
+      "DisplayTooltip": "est",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Lowe Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Hane-Moore",
+      "Name": "Champlin, Miller and Reichert",
+      "CanRestrictBy": true,
+      "RestrictionType": "hic",
+      "RestrictionListName": "Sauer, Langworth and Prohaska",
       "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "esse",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "architecto"
+      "ExtraInfo": "sit",
+      "Width": "eaque",
+      "IconHint": "eum",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 704,
-      "Name": "Jacobi Inc and Sons",
-      "ToolTip": "Praesentium saepe.",
-      "Deleted": false,
-      "Rank": 770,
-      "Type": "tempore",
-      "ColorBlock": 227,
-      "IconHint": "aperiam",
+      "Id": 807,
+      "Name": "Rempel-Rogahn",
+      "ToolTip": "Voluptas vero vel ab nulla odit vitae.",
+      "Deleted": true,
+      "Rank": 306,
+      "Type": "cupiditate",
+      "ColorBlock": 735,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "2003-09-08T10:30:23.0514184+02:00",
+      "LastChanged": "2016-07-18T14:23:45.8293368+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "soluta",
+      "ExtraInfo": "numquam",
+      "StyleHint": "blanditiis",
       "Hidden": true,
-      "FullName": "Prof. Prudence Fay",
+      "FullName": "Kadin Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldType": "System.String",
+          "FieldLength": 626
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Terry LLC",
+      "Name": "Senger-Weber",
       "Direction": "ASC"
     },
     {
-      "Name": "Terry LLC",
+      "Name": "Senger-Weber",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "qui",
+  "OwnerKeys": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 906
     }
   }
 }

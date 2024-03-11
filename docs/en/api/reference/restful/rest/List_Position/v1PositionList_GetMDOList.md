@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=itaque
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=debitis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Oberbrunner-Kihn",
-    "ToolTip": "Corporis similique.",
+    "Id": 125,
+    "Name": "Huels, Becker and Armstrong",
+    "ToolTip": "Accusantium odio.",
     "Deleted": false,
-    "Rank": 738,
-    "Type": "mollitia",
+    "Rank": 344,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Lehner-Reinger",
-        "ToolTip": "Deserunt dolor ea.",
+        "Id": 319,
+        "Name": "Ledner-Johnson",
+        "ToolTip": "Qui molestiae minima.",
         "Deleted": true,
-        "Rank": 728,
-        "Type": "mollitia",
+        "Rank": 820,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 499,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptatem",
-        "FullName": "Jasen Fisher",
+        "IconHint": "dolorem",
+        "ColorBlock": 703,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "incidunt",
+        "FullName": "Wellington Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldLength": 462
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 795,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "molestias",
-    "FullName": "Marcel Lebsack",
+    "IconHint": "exercitationem",
+    "ColorBlock": 695,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eveniet",
+    "FullName": "Rossie Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

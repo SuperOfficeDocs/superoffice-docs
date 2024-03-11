@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "accusamus",
+  "SaleText": "quo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-04-03T10:30:32.403128+02:00",
-  "Amount": 6553.1939999999995,
-  "SaleId": 180,
-  "Earning": 18496.868,
-  "EarningPercent": 29315.435999999998,
-  "Heading": "deserunt",
-  "Number": "993988",
-  "Probability": 404,
-  "CreatedDate": "2001-07-14T10:30:32.403128+02:00",
-  "UpdatedDate": "2014-06-09T10:30:32.403128+02:00",
+  "Saledate": "2009-06-03T14:23:55.4158327+02:00",
+  "Amount": 29760.464,
+  "SaleId": 698,
+  "Earning": 2005.76,
+  "EarningPercent": 23063.106,
+  "Heading": "tempore",
+  "Number": "1631383",
+  "Probability": 123,
+  "CreatedDate": "2018-08-09T14:23:55.4158327+02:00",
+  "UpdatedDate": "2005-02-12T14:23:55.4158327+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 186,
+  "ActiveLinks": 698,
   "Links": [
     {
-      "EntityName": "Torp-Steuber",
-      "Id": 955,
-      "Description": "Visionary human-resource task-force",
-      "ExtraInfo": "molestiae",
-      "LinkId": 847
+      "EntityName": "Kovacek LLC",
+      "Id": 487,
+      "Description": "Customer-focused maximized encryption",
+      "ExtraInfo": "quidem",
+      "LinkId": 18
     },
     {
-      "EntityName": "Torp-Steuber",
-      "Id": 955,
-      "Description": "Visionary human-resource task-force",
-      "ExtraInfo": "molestiae",
-      "LinkId": 847
+      "EntityName": "Kovacek LLC",
+      "Id": 487,
+      "Description": "Customer-focused maximized encryption",
+      "ExtraInfo": "quidem",
+      "LinkId": 18
     }
   ],
-  "NextDueDate": "2003-12-17T10:30:32.403128+01:00",
-  "Postit": "quis",
+  "NextDueDate": "2002-03-20T14:23:55.4158327+01:00",
+  "Postit": "cumque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-06-13T10:30:32.403128+02:00",
+  "ReopenDate": "2003-11-26T14:23:55.4158327+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Keebler, Feil and Hansen",
-      "Comment": "repellendus",
-      "StakeholderRoleId": 475,
-      "CountryId": 38,
-      "PersonId": 70,
-      "EmailDescription": "roma@turnerreinger.ca",
-      "EmailId": 40,
-      "EmailAddress": "damaris@sauerrogahn.co.uk",
-      "PhoneId": 906,
-      "ContactName": "Luettgen, Kris and Kirlin",
-      "ContactId": 792,
-      "SaleId": 489,
-      "Mrmrs": "nostrum",
-      "Firstname": "Edna",
-      "MiddleName": "Herman LLC",
-      "Lastname": "Wunsch",
-      "SaleStakeholderId": 147,
-      "Rank": 64,
-      "Phone": "1-265-621-3464 x425"
+      "StakeholderRoleName": "Kirlin-Beahan",
+      "Comment": "dolore",
+      "StakeholderRoleId": 871,
+      "CountryId": 653,
+      "PersonId": 706,
+      "EmailDescription": "bernardo@ondrickabeahan.co.uk",
+      "EmailId": 475,
+      "EmailAddress": "kara.aufderhar@mohrcorkery.biz",
+      "PhoneId": 679,
+      "ContactName": "Dickens, Koch and Koss",
+      "ContactId": 967,
+      "SaleId": 81,
+      "Mrmrs": "omnis",
+      "Firstname": "Pansy",
+      "MiddleName": "Turcotte-Blick",
+      "Lastname": "Krajcik",
+      "SaleStakeholderId": 589,
+      "Rank": 426,
+      "Phone": "1-490-477-5115"
     }
   ],
-  "ActiveErpLinks": 397,
+  "ActiveErpLinks": 183,
   "UserDefinedFields": {
-    "SuperOffice:1": "1899074226",
-    "SuperOffice:2": "Prof. Demarco Joseph Dare Sr."
+    "SuperOffice:1": "Joey Genoveva Bernhard II",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "et",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2011-12-29T10:30:32.403128+01:00",
-  "PublishTo": "2017-09-02T10:30:32.403128+02:00",
-  "PublishFrom": "2017-08-26T10:30:32.403128+02:00",
+  "PublishEventDate": "2003-09-16T14:23:55.4158327+02:00",
+  "PublishTo": "2014-03-27T14:23:55.4158327+01:00",
+  "PublishFrom": "2017-01-24T14:23:55.4158327+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "error"
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "error"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "nesciunt",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-09-07T10:30:32.4187928+02:00",
-  "Amount": 26353.806,
-  "SaleId": 209,
-  "Earning": 22147.978,
-  "EarningPercent": 20236.237999999998,
-  "Heading": "distinctio",
-  "Number": "248510",
-  "Probability": 920,
-  "CreatedDate": "2017-04-07T10:30:32.4187928+02:00",
-  "UpdatedDate": "2015-07-02T10:30:32.4187928+02:00",
+  "Saledate": "2008-12-22T14:23:55.4314594+01:00",
+  "Amount": 7838.134,
+  "SaleId": 247,
+  "Earning": 10514.57,
+  "EarningPercent": 18189.736,
+  "Heading": "velit",
+  "Number": "1244854",
+  "Probability": 396,
+  "CreatedDate": "2018-08-26T14:23:55.4314594+02:00",
+  "UpdatedDate": "2015-04-11T14:23:55.4314594+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 146,
+  "ActiveLinks": 267,
   "Links": [
     {
-      "EntityName": "Flatley Inc and Sons",
-      "Id": 76,
-      "Description": "Future-proofed multi-tasking intranet",
-      "ExtraInfo": "sint",
-      "LinkId": 251,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 430
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2000-09-25T10:30:32.4187928+02:00",
-  "Postit": "sit",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2021-01-31T10:30:32.4187928+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Witting Inc and Sons",
-      "Comment": "minus",
-      "StakeholderRoleId": 923,
-      "CountryId": 962,
-      "PersonId": 210,
-      "EmailDescription": "gavin@barton.info",
-      "EmailId": 280,
-      "EmailAddress": "evan@gusikowskipadberg.ca",
-      "PhoneId": 865,
-      "ContactName": "Keebler-Kshlerin",
-      "ContactId": 699,
-      "SaleId": 352,
-      "Mrmrs": "id",
-      "Firstname": "Marietta",
-      "MiddleName": "Dietrich Inc and Sons",
-      "Lastname": "Kunde",
-      "SaleStakeholderId": 75,
-      "Rank": 676,
-      "Phone": "(095)461-4661",
+      "EntityName": "Heller LLC",
+      "Id": 854,
+      "Description": "Streamlined bottom-line portal",
+      "ExtraInfo": "dolorum",
+      "LinkId": 721,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 227
         }
       }
     }
   ],
-  "ActiveErpLinks": 890,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Hilma Wiza III",
-    "SuperOffice:2": "Prof. Madyson Gerhold"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "ea"
-  },
-  "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "maiores"
-  },
-  "PublishEventDate": "2004-03-19T10:30:32.4187928+01:00",
-  "PublishTo": "2005-02-10T10:30:32.4187928+01:00",
-  "PublishFrom": "2007-11-16T10:30:32.4187928+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2002-10-07T14:23:55.4314594+02:00",
+  "Postit": "odit",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-09-22T14:23:55.4314594+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 526,
-      "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "StakeholderRoleName": "Rempel-Veum",
+      "Comment": "provident",
+      "StakeholderRoleId": 927,
+      "CountryId": 856,
+      "PersonId": 201,
+      "EmailDescription": "niko.becker@ernser.name",
+      "EmailId": 881,
+      "EmailAddress": "berniece.heathcote@wolff.us",
+      "PhoneId": 183,
+      "ContactName": "Runte, Cruickshank and Grant",
+      "ContactId": 314,
+      "SaleId": 2,
+      "Mrmrs": "ut",
+      "Firstname": "Jadon",
+      "MiddleName": "Aufderhar LLC",
+      "Lastname": "Hermiston",
+      "SaleStakeholderId": 10,
+      "Rank": 219,
+      "Phone": "(157)990-6338",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 522
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 192,
+  "UserDefinedFields": {
+    "SuperOffice:1": "395493027",
+    "SuperOffice:2": "Lucile Lang"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "laudantium"
+  },
+  "CustomFields": {
+    "CustomFields1": "neque",
+    "CustomFields2": "magnam"
+  },
+  "PublishEventDate": "2002-06-27T14:23:55.4314594+02:00",
+  "PublishTo": "2024-01-21T14:23:55.4314594+01:00",
+  "PublishFrom": "2012-01-25T14:23:55.4314594+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 255,
+      "Visibility": "All",
+      "DisplayValue": "sed",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     },
     {
-      "VisibleId": 526,
+      "VisibleId": 255,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
@@ -407,13 +407,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

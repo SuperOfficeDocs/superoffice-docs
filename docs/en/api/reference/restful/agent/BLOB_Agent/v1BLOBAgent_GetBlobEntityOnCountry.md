@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 532
+  "CountryId": 223
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 861,
-  "BlobSize": 213,
-  "Description": "Re-contextualized incremental middleware",
-  "ExtraInfo": "ipsa",
+  "BlobId": 787,
+  "BlobSize": 526,
+  "Description": "Reduced tertiary Graphical User Interface",
+  "ExtraInfo": "accusamus",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 864,
-  "CreatedDate": "2023-11-07T10:30:23.1139183+01:00",
-  "UpdatedDate": "1997-10-23T10:30:23.1139183+02:00",
+  "IsZipped": true,
+  "MimeType": "aliquid",
+  "OriginalSize": 218,
+  "CreatedDate": "2000-03-24T14:23:45.8918358+01:00",
+  "UpdatedDate": "2001-06-14T14:23:45.8918358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

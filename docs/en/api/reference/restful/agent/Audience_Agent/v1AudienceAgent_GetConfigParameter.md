@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Larson-Price",
-  "ParameterName": "Johnson Group"
+  "LayoutName": "Schiller-Williamson",
+  "ParameterName": "Runte Group"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 593,
-  "Name": "Cassin Inc and Sons",
-  "Value": "exercitationem",
-  "CreatedDate": "2002-02-18T10:30:23.0826686+01:00",
-  "UpdatedDate": "2010-06-21T10:30:23.0826686+02:00",
-  "CreatedBy": "eos",
-  "UpdatedBy": "voluptatum",
+  "AudienceLayoutId": 203,
+  "Name": "Pollich LLC",
+  "Value": "cum",
+  "CreatedDate": "2021-02-17T14:23:45.8605856+01:00",
+  "UpdatedDate": "2013-04-08T14:23:45.8605856+02:00",
+  "CreatedBy": "quia",
+  "UpdatedBy": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

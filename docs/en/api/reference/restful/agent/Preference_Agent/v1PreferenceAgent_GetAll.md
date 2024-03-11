@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 165,
-    "Section": "quia",
-    "Key": "accusantium",
-    "Name": "Bradtke Inc and Sons",
+    "PrefDescId": 52,
+    "Section": "pariatur",
+    "Key": "modi",
+    "Name": "Howell-Torphy",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Organized well-modulated hardware",
+    "Description": "Managed exuding service-desk",
     "IsBuiltin": false,
-    "TableName": "Pouros-Feil",
-    "UserDefinedListId": 27,
-    "Rank": 60,
-    "SubGroup": "quam",
-    "MinLevel": 2,
-    "MaxValue": 873,
-    "MinValue": 613,
-    "RequiredLicense": "velit",
+    "TableName": "Douglas-Nikolaus",
+    "UserDefinedListId": 328,
+    "Rank": 199,
+    "SubGroup": "eum",
+    "MinLevel": 1000,
+    "MaxValue": 363,
+    "MinValue": 88,
+    "RequiredLicense": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldLength": 535
       }
     }
   }

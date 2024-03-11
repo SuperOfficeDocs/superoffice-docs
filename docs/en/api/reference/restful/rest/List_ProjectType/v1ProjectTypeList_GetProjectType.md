@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "West, Boehm and D'Amore",
-  "Tooltip": "autem",
+  "Id": 140,
+  "Name": "Bednar LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 993,
+  "UdListDefinitionId": 299,
+  "Rank": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

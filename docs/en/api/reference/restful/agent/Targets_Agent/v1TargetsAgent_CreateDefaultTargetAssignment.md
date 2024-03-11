@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 80,
+  "TargetAssignmentInfoId": 84,
   "Values": [
-    26,
-    839
+    566,
+    315
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 894,
-  "DimensionListItemDisplayName": "Hoeger, Herzog and Beahan",
+  "DimensionListItem": 119,
+  "DimensionListItemDisplayName": "White, Mraz and Jacobs",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 387
     }
   }
 }

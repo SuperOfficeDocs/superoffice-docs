@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 937,
-  "PlainMessage": "porro",
-  "HtmlMessage": "sed",
-  "SmsMessage": "illo",
-  "Description": "Optimized static groupware",
-  "Subject": "quae",
-  "FolderId": 870,
-  "HeaderField": "tempora",
-  "Design": "sed",
+  "ShipmentMessageId": 427,
+  "PlainMessage": "sed",
+  "HtmlMessage": "doloribus",
+  "SmsMessage": "praesentium",
+  "Description": "Implemented static matrices",
+  "Subject": "voluptate",
+  "FolderId": 921,
+  "HeaderField": "occaecati",
+  "Design": "deleniti",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Synchronised zero tolerance function",
-  "AccessKey": "est",
-  "DocumentMessage": 621,
-  "Registered": "2022-02-25T10:30:24.1037706+01:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2009-11-07T10:30:24.1037706+01:00",
-  "UpdatedAssociateId": 937,
-  "UpdatedCount": 713,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Virtual cohesive hardware",
+  "AccessKey": "velit",
+  "DocumentMessage": 561,
+  "Registered": "2001-03-04T14:23:46.9098888+01:00",
+  "RegisteredAssociateId": 384,
+  "Updated": "2000-05-15T14:23:46.9098888+02:00",
+  "UpdatedAssociateId": 396,
+  "UpdatedCount": 326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 529
     }
   }
 }

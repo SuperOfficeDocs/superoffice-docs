@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 940,
+  "DocumentTemplateId": 609,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolorem",
-  "PluginId": 702
+  "LanguageCode": "dignissimos",
+  "PluginId": 337
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel, Pollich and Kiehn",
-  "Description": "Switchable zero defect paradigm",
-  "ExternalReference": "nam",
-  "MimeType": "in",
-  "PluginId": 317
+  "Name": "Gorczany-Funk",
+  "Description": "Organic mobile superstructure",
+  "ExternalReference": "mollitia",
+  "MimeType": "reprehenderit",
+  "PluginId": 323
 }
 ```

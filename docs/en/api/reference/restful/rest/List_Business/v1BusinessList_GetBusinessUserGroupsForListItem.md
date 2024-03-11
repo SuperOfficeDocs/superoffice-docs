@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Luettgen, Jakubowski and Beier",
-    "ToolTip": "Tenetur et quisquam quae culpa illo delectus eum.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "qui",
-    "ColorBlock": 625,
-    "IconHint": "eaque",
+    "Id": 423,
+    "Name": "Abernathy Inc and Sons",
+    "ToolTip": "Dolores dolorem assumenda molestiae vel voluptatem quas.",
+    "Deleted": true,
+    "Rank": 547,
+    "Type": "dolorem",
+    "ColorBlock": 969,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2021-04-03T10:30:32.858187+02:00",
+    "LastChanged": "2003-11-23T14:23:55.9627019+01:00",
     "ChildItems": [
       {
-        "Id": 813,
-        "Name": "Simonis, Parisian and Kovacek",
-        "ToolTip": "Fugit sed occaecati ea.",
+        "Id": 22,
+        "Name": "Feil-Ernser",
+        "ToolTip": "Provident maiores totam eum in est.",
         "Deleted": true,
-        "Rank": 377,
-        "Type": "aliquam",
-        "ColorBlock": 570,
-        "IconHint": "nemo",
+        "Rank": 446,
+        "Type": "facilis",
+        "ColorBlock": 428,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2015-11-03T10:30:32.858187+01:00",
+        "LastChanged": "2000-09-22T14:23:55.9627019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "nemo",
+        "ExtraInfo": "repellat",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Darian Schroeder",
+        "FullName": "Mrs. Andy Stokes I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Dr. Bobby Jacquelyn Bartell Sr.",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Izabella Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

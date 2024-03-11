@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 127,
-  "AttachmentId": "corrupti"
+  "DocId": 398,
+  "AttachmentId": "qui"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory directional hub",
-  "Filename": "officiis",
-  "Size": 173,
-  "Type": "et",
-  "Encoding": "libero",
-  "Id": "quam",
-  "Disposition": "sed",
-  "IsSafeFileExtension": false,
+  "Description": "Diverse disintermediate toolset",
+  "Filename": "quibusdam",
+  "Size": 120,
+  "Type": "necessitatibus",
+  "Encoding": "sed",
+  "Id": "sint",
+  "Disposition": "molestiae",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldLength": 49
     }
   }
 }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 916,
+  "DocumentId": 645,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 520,
+  "DocumentId": 478,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quibusdam",
-  "Header": "officiis",
-  "Name": "Glover, Stark and Orn",
-  "OurRef": "molestias",
-  "YourRef": "in",
-  "CreatedDate": "2008-12-06T10:30:23.7043065+01:00",
-  "UpdatedDate": "2022-10-22T10:30:23.7043065+02:00",
-  "Description": "Monitored heuristic flexibility",
+  "Attention": "a",
+  "Header": "sunt",
+  "Name": "Block-Harber",
+  "OurRef": "culpa",
+  "YourRef": "tempora",
+  "CreatedDate": "2016-03-16T14:23:46.4074533+01:00",
+  "UpdatedDate": "2006-05-15T14:23:46.4074533+02:00",
+  "Description": "Advanced value-added hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-06-09T10:30:23.7043065+02:00",
-  "ExternalRef": "ea",
+  "Date": "2008-05-23T14:23:46.4074533+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 725,
+  "ActiveLinks": 686,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Adams, Funk and Schumm",
-      "Id": 305,
-      "Description": "Up-sized heuristic hardware",
-      "ExtraInfo": "dolores",
-      "LinkId": 858,
+      "EntityName": "Kerluke, Kihn and Willms",
+      "Id": 544,
+      "Description": "Reactive didactic encryption",
+      "ExtraInfo": "perspiciatis",
+      "LinkId": 874,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 839
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 283,
-  "Snum": 845,
+  "SuggestedDocumentId": 547,
+  "Snum": 931,
   "UserDefinedFields": {
-    "SuperOffice:1": "1266381262",
-    "SuperOffice:2": "1183285580"
+    "SuperOffice:1": "Rahsaan Price",
+    "SuperOffice:2": "Wava Prohaska"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "hic"
+    "CustomFields1": "nulla",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2002-05-15T10:30:23.7043065+02:00",
-  "PublishTo": "1997-03-25T10:30:23.7043065+01:00",
-  "PublishFrom": "2018-09-30T10:30:23.7043065+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-12-24T14:23:46.4074533+01:00",
+  "PublishTo": "1999-07-22T14:23:46.4074533+02:00",
+  "PublishFrom": "2008-07-25T14:23:46.4074533+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 224,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 555
         }
       }
     },
     {
-      "VisibleId": 224,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 555
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 170
     }
   }
 }

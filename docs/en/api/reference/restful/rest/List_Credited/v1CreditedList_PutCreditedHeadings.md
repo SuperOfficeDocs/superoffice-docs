@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 321,
-    "Name": "Davis, Rodriguez and Rosenbaum",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 373
+    "HeadingId": 532,
+    "Name": "Lockman LLC",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 648,
+    "UdListDefinitionId": 315
   },
   {
-    "HeadingId": 321,
-    "Name": "Davis, Rodriguez and Rosenbaum",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 373
+    "HeadingId": 532,
+    "Name": "Lockman LLC",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 648,
+    "UdListDefinitionId": 315
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 382,
-    "Name": "Simonis-White",
-    "Tooltip": "et",
+    "HeadingId": 852,
+    "Name": "Lynch, Crist and Lubowitz",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 928,
+    "Rank": 693,
+    "UdListDefinitionId": 129,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

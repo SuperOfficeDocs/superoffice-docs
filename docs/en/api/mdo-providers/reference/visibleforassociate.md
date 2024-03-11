@@ -21,6 +21,7 @@ The name of the MDO list is 'visibleforassociate'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Add the company name in parenthesis.| ContactName|False|
+|Include has_email in extrainfo| includeHasEmail|False|
 
 
 

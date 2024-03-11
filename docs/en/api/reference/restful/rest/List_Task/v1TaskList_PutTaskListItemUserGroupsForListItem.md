@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Hackett-Runolfsson",
-    "ToolTip": "Et adipisci porro animi.",
-    "Deleted": true,
-    "Rank": 903,
-    "Type": "voluptatem",
-    "ColorBlock": 302,
-    "IconHint": "quia",
+    "Id": 283,
+    "Name": "Runolfsdottir Group",
+    "ToolTip": "Sint rem.",
+    "Deleted": false,
+    "Rank": 924,
+    "Type": "in",
+    "ColorBlock": 849,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "1998-11-29T10:30:33.2724548+01:00",
+    "LastChanged": "1997-09-23T14:23:56.3858254+02:00",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Hackett-Carroll",
-        "ToolTip": "Exercitationem dolorem exercitationem ex.",
+        "Id": 767,
+        "Name": "Green LLC",
+        "ToolTip": "Omnis culpa tempora delectus velit quidem.",
         "Deleted": false,
-        "Rank": 297,
-        "Type": "harum",
-        "ColorBlock": 503,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2002-04-23T10:30:33.2724548+02:00",
+        "Rank": 714,
+        "Type": "laboriosam",
+        "ColorBlock": 644,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2003-05-02T14:23:56.3858254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Prof. Alyson Heller V"
+        "FullName": "Ms. Jermey Paige Thiel I"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Dixie Torp"
+    "ExtraInfo": "iusto",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Kamron Stanton"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Goyette-Lehner",
-    "ToolTip": "Deleniti ipsum voluptates.",
-    "Deleted": false,
-    "Rank": 967,
-    "Type": "voluptates",
-    "ColorBlock": 719,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2007-11-23T10:30:33.2724548+01:00",
+    "Id": 863,
+    "Name": "Spencer-Grady",
+    "ToolTip": "Nulla ex animi saepe.",
+    "Deleted": true,
+    "Rank": 620,
+    "Type": "dolorum",
+    "ColorBlock": 890,
+    "IconHint": "officia",
+    "Selected": false,
+    "LastChanged": "2001-04-24T14:23:56.3858254+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Cummings, Stark and Goodwin",
-        "ToolTip": "Quos nihil autem atque molestiae expedita recusandae.",
+        "Id": 643,
+        "Name": "Hand-Rowe",
+        "ToolTip": "Quaerat quibusdam ullam.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "et",
-        "ColorBlock": 675,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2001-08-09T10:30:33.2724548+02:00",
+        "Rank": 580,
+        "Type": "dolor",
+        "ColorBlock": 666,
+        "IconHint": "officia",
+        "Selected": false,
+        "LastChanged": "2017-09-19T14:23:56.3858254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Prof. Anabel Jaleel Schroeder",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Vickie Buddy Christiansen II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 637
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Marilyne Hirthe",
+    "FullName": "Destinee Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 290
       }
     }
   }

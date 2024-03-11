@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 747,
-    "Attention": "voluptatem",
-    "Header": "voluptatum",
-    "Name": "Bashirian-Schultz",
-    "OurRef": "necessitatibus",
-    "YourRef": "doloremque",
-    "Description": "Future-proofed 5th generation capability",
-    "DocumentTemplate": "qui",
-    "IsPublished": true,
-    "PersonId": 329,
-    "PersonFullName": "Khalid McClure Sr.",
-    "AssociateFullName": "Okey Russel",
-    "ContactId": 488,
-    "ContactName": "Doyle-Boyer",
-    "ProjectId": 826,
-    "ProjectName": "Jaskolski, Fahey and Howe",
-    "AssociateId": 148,
-    "Snum": 295,
-    "SaleId": 341,
-    "SaleName": "Littel, Kutch and Heller",
+    "DocumentId": 75,
+    "Attention": "eum",
+    "Header": "commodi",
+    "Name": "O'Keefe-Mosciski",
+    "OurRef": "et",
+    "YourRef": "ut",
+    "Description": "Triple-buffered explicit synergy",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 169,
+    "PersonFullName": "Audie Sipes",
+    "AssociateFullName": "Rickie Heidenreich",
+    "ContactId": 877,
+    "ContactName": "Emmerich LLC",
+    "ProjectId": 67,
+    "ProjectName": "Harris, Mann and Stiedemann",
+    "AssociateId": 502,
+    "Snum": 302,
+    "SaleId": 580,
+    "SaleName": "Kling, Pfeffer and Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldType": "System.Int32",
+        "FieldLength": 260
       }
     }
   }

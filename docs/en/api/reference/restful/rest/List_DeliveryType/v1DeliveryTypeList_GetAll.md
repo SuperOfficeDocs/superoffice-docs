@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Pagac-Feest",
-    "Tooltip": "qui",
+    "Id": 278,
+    "Name": "Murphy Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 516,
-    "Rank": 302,
+    "UdListDefinitionId": 34,
+    "Rank": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 367
       }
     }
   }

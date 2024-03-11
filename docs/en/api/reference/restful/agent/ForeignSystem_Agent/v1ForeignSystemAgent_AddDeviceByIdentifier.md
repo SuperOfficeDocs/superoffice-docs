@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gleason, Waelchi and O'Hara",
-  "DeviceName": "Walker, Witting and Bayer",
-  "DeviceIdentifier": "magnam"
+  "ApplicationName": "Fadel, Ferry and Johns",
+  "DeviceName": "Gerhold Group",
+  "DeviceIdentifier": "aut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 966,
-  "Name": "Christiansen-Bashirian",
-  "CreatedDate": "2002-07-19T10:30:23.9073938+02:00",
-  "UpdatedDate": "2001-06-05T10:30:23.9073938+02:00",
-  "AssociateFullName": "Sallie Hegmann",
-  "CreatedBy": "est",
-  "UpdatedBy": "commodi",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 811,
+  "ForeignDeviceId": 312,
+  "Name": "Graham, Muller and Wolff",
+  "CreatedDate": "2008-12-29T14:23:46.7524806+01:00",
+  "UpdatedDate": "2014-07-11T14:23:46.7524806+02:00",
+  "AssociateFullName": "Valentin Hayes",
+  "CreatedBy": "corrupti",
+  "UpdatedBy": "dignissimos",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 451,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 585
     }
   }
 }

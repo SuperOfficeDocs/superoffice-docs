@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-02-12T10:30:23.0359181+01:00",
-  "ToDate": "2009-03-06T10:30:23.0359181+01:00",
+  "FromDate": "2020-10-26T14:23:45.8293368+01:00",
+  "ToDate": "2023-05-09T14:23:45.8293368+02:00",
   "AssociateList": [
     {
-      "Id": 555,
-      "Name": "Hoeger, Bosco and Kerluke",
-      "ToolTip": "Sit dolores unde quis accusantium quae.",
+      "Id": 530,
+      "Name": "Turcotte-Ledner",
+      "ToolTip": "Assumenda et fuga occaecati.",
       "Deleted": false,
-      "Rank": 922,
-      "Type": "quia",
-      "ColorBlock": 341,
-      "IconHint": "temporibus",
-      "Selected": true,
-      "LastChanged": "2018-01-24T10:30:23.0359181+01:00",
+      "Rank": 555,
+      "Type": "ut",
+      "ColorBlock": 609,
+      "IconHint": "explicabo",
+      "Selected": false,
+      "LastChanged": "2010-07-14T14:23:45.8293368+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "veritatis",
-      "Hidden": false,
-      "FullName": "Mrs. Krystal Zulauf",
+      "ExtraInfo": "porro",
+      "StyleHint": "corporis",
+      "Hidden": true,
+      "FullName": "Tina Weissnat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldLength": 269
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 324,
-      "Name": "Wiza LLC",
-      "ToolTip": "Et et quod.",
+      "Id": 780,
+      "Name": "Heidenreich-Pfannerstill",
+      "ToolTip": "Odit deleniti rerum cum cumque.",
       "Deleted": false,
-      "Rank": 492,
-      "Type": "eaque",
-      "ColorBlock": 395,
-      "IconHint": "maxime",
-      "Selected": false,
-      "LastChanged": "2015-05-05T10:30:23.0514184+02:00",
+      "Rank": 987,
+      "Type": "odit",
+      "ColorBlock": 183,
+      "IconHint": "alias",
+      "Selected": true,
+      "LastChanged": "2021-10-25T14:23:45.8293368+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "quo",
-      "Hidden": false,
-      "FullName": "Sven Kirlin",
+      "ExtraInfo": "omnis",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Rosario Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldLength": 150
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 799,
-      "Name": "Bergnaum Inc and Sons",
-      "ToolTip": "Nobis et voluptas rerum ab earum.",
+      "Id": 56,
+      "Name": "Beer-Parisian",
+      "ToolTip": "Suscipit modi in nesciunt molestiae.",
       "Deleted": false,
-      "Rank": 973,
-      "Type": "eveniet",
+      "Rank": 619,
+      "Type": "delectus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 994,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "facere",
-      "FullName": "Greta Corkery",
+      "IconHint": "et",
+      "ColorBlock": 97,
+      "ExtraInfo": "omnis",
+      "StyleHint": "repellendus",
+      "FullName": "Miss Diego Chase Larkin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 553
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

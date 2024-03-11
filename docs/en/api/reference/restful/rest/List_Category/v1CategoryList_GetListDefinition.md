@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Hegmann-Kiehn",
-  "Tooltip": "odio",
+  "Id": 242,
+  "Name": "Keeling LLC",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 891,
+  "Rank": 230,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   },
   "_Links": {

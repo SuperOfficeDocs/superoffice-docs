@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Borer LLC",
-  "AdditionalInfo": "molestias",
+  "Name": "Hills-Konopelski",
+  "AdditionalInfo": "fugit",
   "SelectableMDOList": [
     {
-      "Id": 680,
-      "Name": "Brakus Group",
-      "ToolTip": "Deserunt voluptatem aliquid quis labore esse autem quo.",
+      "Id": 523,
+      "Name": "Kling Inc and Sons",
+      "ToolTip": "Iusto quo.",
       "Deleted": false,
-      "Rank": 388,
-      "Type": "occaecati",
-      "ColorBlock": 203,
-      "IconHint": "nemo",
-      "Selected": false,
-      "LastChanged": "2021-05-31T10:30:24.1193938+02:00",
+      "Rank": 526,
+      "Type": "eveniet",
+      "ColorBlock": 986,
+      "IconHint": "excepturi",
+      "Selected": true,
+      "LastChanged": "2022-01-24T14:23:46.9411374+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
+      "ExtraInfo": "est",
       "StyleHint": "officia",
       "Hidden": false,
-      "FullName": "Mariane Rutherford"
+      "FullName": "Regan Rowe"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Swift-Conn",
-    "ToolTip": "Pariatur nam repellendus reprehenderit.",
+    "Id": 119,
+    "Name": "Bergnaum Inc and Sons",
+    "ToolTip": "Consequuntur et.",
     "Deleted": false,
-    "Rank": 646,
-    "Type": "iure",
-    "ColorBlock": 274,
-    "IconHint": "magnam",
+    "Rank": 720,
+    "Type": "explicabo",
+    "ColorBlock": 452,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2012-05-10T10:30:24.1193938+02:00",
+    "LastChanged": "2014-11-20T14:23:46.9411374+01:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Wiegand, Bosco and Muller",
-        "ToolTip": "Nemo eum.",
+        "Id": 190,
+        "Name": "Pagac-Schoen",
+        "ToolTip": "Ipsa culpa ea nesciunt.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "autem",
-        "ColorBlock": 838,
-        "IconHint": "fuga",
+        "Rank": 548,
+        "Type": "incidunt",
+        "ColorBlock": 323,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2001-07-26T10:30:24.1193938+02:00",
+        "LastChanged": "2017-05-04T14:23:46.9411374+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "aut",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Mr. Jamie Zemlak Jr.",
+        "FullName": "Ariel Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 411
+            "FieldType": "System.String",
+            "FieldLength": 995
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
+    "ExtraInfo": "qui",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Ms. Soledad Stanford Quitzon",
+    "FullName": "Ms. Janis Saul Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

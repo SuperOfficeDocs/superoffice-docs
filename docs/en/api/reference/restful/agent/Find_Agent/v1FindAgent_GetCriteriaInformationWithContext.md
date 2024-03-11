@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rem",
-  "ProviderName": "Larson-Halvorson",
-  "StorageKey": "commodi",
+  "StorageType": "natus",
+  "ProviderName": "Cole LLC",
+  "StorageKey": "qui",
   "StaticColumns": [
-    "minus",
-    "aperiam"
+    "commodi",
+    "labore"
   ],
-  "Context": "qui"
+  "Context": "est"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Weissnat, Ernser and Mosciski",
-      "Operator": "cumque",
+      "Name": "Moen Group",
+      "Operator": "autem",
       "Values": [
-        "ea",
-        "beatae"
+        "totam",
+        "velit"
       ],
       "DisplayValues": [
-        "dolores",
-        "est"
+        "et",
+        "sunt"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 500,
+      "InterParenthesis": 386,
       "InterOperator": "And",
-      "UniqueHash": 727
+      "UniqueHash": 874
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hyatt-Mertz",
-      "DisplayTooltip": "distinctio",
-      "DisplayType": "sint",
+      "DisplayName": "Gottlieb, Denesik and Kulas",
+      "DisplayTooltip": "quod",
+      "DisplayType": "dolore",
       "CanOrderBy": false,
-      "Name": "Miller-Mosciski",
-      "CanRestrictBy": false,
-      "RestrictionType": "magni",
-      "RestrictionListName": "Wunsch-Kshlerin",
+      "Name": "Padberg, Will and Huel",
+      "CanRestrictBy": true,
+      "RestrictionType": "sit",
+      "RestrictionListName": "Koepp Group",
       "IsVisible": true,
-      "ExtraInfo": "nihil",
-      "Width": "id",
-      "IconHint": "deserunt",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "sed",
+      "Width": "non",
+      "IconHint": "ut",
+      "HeadingIconHint": "molestias"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Blick-Rempel",
-      "PrimaryKey": 660,
+      "EntityName": "Buckridge-Tromp",
+      "PrimaryKey": 752,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "aut",
-          "LinkHint": "sequi"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "tempore",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "nesciunt",
-      "StyleHint": "nihil",
+      "LinkHint": "iusto",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 856
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Baumbach, Jewess and Pagac",
-      "Description": "Fully-configurable background architecture",
-      "Rank": 145,
+      "Name": "Rice Inc and Sons",
+      "Description": "Secured background capability",
+      "Rank": 246,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Baumbach, Jewess and Pagac",
-      "Description": "Fully-configurable background architecture",
-      "Rank": 145,
+      "Name": "Rice Inc and Sons",
+      "Description": "Secured background capability",
+      "Rank": 246,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 276
     }
   }
 }

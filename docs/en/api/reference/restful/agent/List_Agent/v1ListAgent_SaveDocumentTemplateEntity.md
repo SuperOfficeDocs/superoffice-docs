@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 580,
-  "Name": "Rogahn Group",
-  "Tooltip": "blanditiis",
-  "SaveInDb": 860,
-  "Filename": "fugit",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 284,
+  "Name": "Pollich-Haag",
+  "Tooltip": "dolores",
+  "SaveInDb": 673,
+  "Filename": "et",
+  "DefaultOref": "dolorem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 150,
-  "IntentId": 559,
+  "AutoeventId": 558,
+  "IntentId": 499,
   "IsDefaultPublished": false,
-  "Rank": 373,
-  "LoadTemplateFromPlugin": 660,
+  "Rank": 778,
+  "LoadTemplateFromPlugin": 469,
   "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 466,
+  "DocumentTypeKey": 226,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "crawford_stamm@ferry.biz",
+  "EmailSubject": "kaylin@okeefelindgren.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "art@hermanfarrell.com",
+  "SenderEmailAddress": "hildegard_flatley@herzog.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 386,
-  "Name": "Mraz, Beer and Cronin",
-  "Tooltip": "quis",
-  "SaveInDb": 195,
-  "Filename": "necessitatibus",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 125,
+  "Name": "Smith Group",
+  "Tooltip": "dolore",
+  "SaveInDb": 544,
+  "Filename": "laborum",
+  "DefaultOref": "recusandae",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 610,
-  "IntentId": 400,
-  "IsDefaultPublished": true,
-  "Rank": 757,
-  "LoadTemplateFromPlugin": 296,
-  "MimeType": "distinctio",
+  "AutoeventId": 899,
+  "IntentId": 450,
+  "IsDefaultPublished": false,
+  "Rank": 439,
+  "LoadTemplateFromPlugin": 801,
+  "MimeType": "accusamus",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 245,
+  "DocumentTypeKey": 640,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "griffin@marvin.name",
+  "EmailSubject": "kellie@skiles.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lamont_kutch@schneider.ca",
+  "SenderEmailAddress": "margarita.rowe@christiansenjohnston.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 333
     }
   }
 }

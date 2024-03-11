@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 882,
-  "UniqueIdentifier": "consequatur",
-  "Name": "Feeney Group",
-  "Description": "Team-oriented zero tolerance challenge",
-  "IncludeId": "illum",
-  "HierarchyId": 520,
-  "Source": "aliquam",
-  "Registered": "2008-09-29T10:30:31.9636795+02:00",
-  "RegisteredAssociateId": 823,
-  "Updated": "2005-01-29T10:30:31.9636795+01:00",
-  "UpdatedAssociateId": 426
+  "EjscriptId": 329,
+  "UniqueIdentifier": "nemo",
+  "Name": "Ondricka Inc and Sons",
+  "Description": "Ameliorated radical installation",
+  "IncludeId": "et",
+  "HierarchyId": 822,
+  "Source": "odio",
+  "Registered": "2008-04-07T14:23:55.0552747+02:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2013-12-03T14:23:55.0552747+01:00",
+  "UpdatedAssociateId": 633
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 414,
-  "UniqueIdentifier": "fugiat",
-  "Name": "Bode, Ferry and Gulgowski",
-  "Description": "Quality-focused asynchronous capacity",
-  "IncludeId": "aliquid",
-  "HierarchyId": 984,
-  "Source": "architecto",
-  "Registered": "2020-02-05T10:30:31.9636795+01:00",
-  "RegisteredAssociateId": 540,
-  "Updated": "2011-11-28T10:30:31.9636795+01:00",
-  "UpdatedAssociateId": 656,
+  "EjscriptId": 342,
+  "UniqueIdentifier": "provident",
+  "Name": "Morissette, McGlynn and Ryan",
+  "Description": "Mandatory responsive customer loyalty",
+  "IncludeId": "sit",
+  "HierarchyId": 739,
+  "Source": "saepe",
+  "Registered": "1999-06-25T14:23:55.0552747+02:00",
+  "RegisteredAssociateId": 959,
+  "Updated": "2006-04-28T14:23:55.0552747+02:00",
+  "UpdatedAssociateId": 362,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 432
     }
   },
   "_Links": {

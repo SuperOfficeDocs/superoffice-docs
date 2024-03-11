@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "aut",
-  "RecordId": 2,
-  "CreatedDate": "2009-01-21T10:30:32.0730519+01:00",
-  "UpdatedDate": "2021-08-16T10:30:32.0730519+02:00",
-  "UpdatedBy": "deserunt",
-  "CreatedBy": "accusamus",
-  "TableName": "Kozey-Little"
+  "Key": "error",
+  "Value": "dolorem",
+  "RecordId": 812,
+  "CreatedDate": "2023-07-18T14:23:55.195897+02:00",
+  "UpdatedDate": "2005-07-15T14:23:55.195897+02:00",
+  "UpdatedBy": "nemo",
+  "CreatedBy": "aut",
+  "TableName": "Weimann, McKenzie and Skiles"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sapiente",
-  "Value": "quae",
-  "RecordId": 158,
-  "CreatedDate": "1998-07-21T10:30:32.0886795+02:00",
-  "UpdatedDate": "2010-06-14T10:30:32.0886795+02:00",
-  "UpdatedBy": "quis",
-  "CreatedBy": "doloribus",
-  "TableName": "Cole Inc and Sons",
+  "Key": "sed",
+  "Value": "consequatur",
+  "RecordId": 539,
+  "CreatedDate": "2000-06-25T14:23:55.195897+02:00",
+  "UpdatedDate": "2017-07-09T14:23:55.195897+02:00",
+  "UpdatedBy": "atque",
+  "CreatedBy": "consequatur",
+  "TableName": "Feeney-Aufderhar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 445
     }
   }
 }

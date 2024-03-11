@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 72,
-  "Name": "Koelpin-Fay",
-  "Tooltip": "sed",
+  "Id": 917,
+  "Name": "Howell, Schiller and Muller",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 781,
-  "Rank": 670
+  "UdListDefinitionId": 74,
+  "Rank": 557
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Bayer Inc and Sons",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "UdListDefinitionId": 710,
-  "Rank": 934,
+  "Id": 635,
+  "Name": "Hickle Group",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 448,
+  "Rank": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 534
     }
   }
 }

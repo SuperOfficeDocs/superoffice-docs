@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 328,
-  "Name": "Gleason Inc and Sons",
-  "Description": "Integrated upward-trending complexity",
-  "WelcomeMessage": "aliquam",
+  "ChatTopicId": 484,
+  "Name": "Macejkovic Inc and Sons",
+  "Description": "Realigned multi-state application",
+  "WelcomeMessage": "nostrum",
   "Language": null,
-  "LastAccept": "2010-02-02T10:30:31.8073876+01:00",
-  "SecondsPrAccept": 949,
-  "AlertRecipient": "itaque",
+  "LastAccept": "2001-10-31T14:23:54.8815159+01:00",
+  "SecondsPrAccept": 577,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "eaque",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "velit",
-  "WarnNewChatMinutes": 516,
-  "WarnManagerNewChatMinutes": 634,
-  "TicketEnabled": false,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 147,
+  "WarnManagerNewChatMinutes": 45,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 703,
-  "WarnManagerChatMessageMinutes": 750,
+  "WarnChatMessageMinutes": 947,
+  "WarnManagerChatMessageMinutes": 472,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 934,
-  "OfflineFormQueueLength": 205,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ratione"
+  "OfflineFormTimeLimit": 798,
+  "OfflineFormQueueLength": 306,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "eaque"
 }
 ```
 
@@ -181,21 +181,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 208,
-  "Name": "Boyer-Lockman",
-  "Description": "Persistent responsive open system",
-  "WelcomeMessage": "dolores",
+  "ChatTopicId": 717,
+  "Name": "Ziemann-Kris",
+  "Description": "Enhanced motivating implementation",
+  "WelcomeMessage": "fugiat",
   "Language": null,
-  "LastAccept": "2008-10-18T10:30:31.823057+02:00",
-  "SecondsPrAccept": 52,
-  "AlertRecipient": "a",
+  "LastAccept": "2018-06-17T14:23:54.8815159+02:00",
+  "SecondsPrAccept": 274,
+  "AlertRecipient": "illo",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "et",
+  "CollectConsent": false,
+  "BadgeHeader": "voluptatibus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 644,
-  "WarnManagerNewChatMinutes": 870,
+  "CustomQueueText": "nisi",
+  "WarnNewChatMinutes": 157,
+  "WarnManagerNewChatMinutes": 723,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -204,25 +204,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 540,
-  "WarnManagerChatMessageMinutes": 326,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 526,
-  "OfflineFormQueueLength": 955,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "eligendi",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 531,
+  "WarnManagerChatMessageMinutes": 43,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 669,
+  "OfflineFormQueueLength": 742,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

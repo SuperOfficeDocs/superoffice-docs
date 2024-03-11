@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 516
+  "UserGroupId": 584
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 212,
-    "ColumnId": 135,
-    "FieldDefault": "dolor",
-    "FieldHeight": 214,
-    "FieldLabel": "sed",
-    "FieldLeft": 36,
-    "FieldTop": 550,
+    "UDefFieldId": 888,
+    "ColumnId": 699,
+    "FieldDefault": "officia",
+    "FieldHeight": 719,
+    "FieldLabel": "labore",
+    "FieldLeft": 101,
+    "FieldTop": 452,
     "FieldType": "Checkbox",
-    "FieldWidth": 819,
-    "FormatMask": "repellendus",
+    "FieldWidth": 180,
+    "FormatMask": "nulla",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 461,
-    "LabelLeft": 611,
-    "LabelTop": 32,
-    "LabelWidth": 271,
-    "LastVersionId": 992,
-    "ListTableId": 740,
+    "IsIndexed": true,
+    "LabelHeight": 18,
+    "LabelLeft": 234,
+    "LabelTop": 58,
+    "LabelWidth": 657,
+    "LastVersionId": 168,
+    "ListTableId": 923,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 554,
-    "ProgId": "beatae",
+    "Page1LineNo": 372,
+    "ProgId": "dolor",
     "IsReadOnly": false,
-    "ShortLabel": "libero",
-    "TabOrder": 504,
-    "TextLength": 350,
-    "Tooltip": "expedita",
-    "UdefIdentity": 60,
-    "UDListDefinitionId": 568,
+    "ShortLabel": "culpa",
+    "TabOrder": 505,
+    "TextLength": 359,
+    "Tooltip": "aliquam",
+    "UdefIdentity": 989,
+    "UDListDefinitionId": 714,
     "Justification": "Center",
-    "Version": 751,
-    "TemplateVariableName": "Homenick-Jenkins",
+    "Version": 893,
+    "TemplateVariableName": "Gulgowski-Wehner",
     "HasBeenPublished": false,
-    "MdoListName": "Powlowski Inc and Sons",
+    "MdoListName": "Hirthe, Rempel and Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 493
       }
     }
   }

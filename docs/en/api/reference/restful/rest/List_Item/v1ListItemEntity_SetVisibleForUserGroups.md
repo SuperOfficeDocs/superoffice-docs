@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Russel LLC",
-    "ToolTip": "Autem molestiae maiores.",
+    "Id": 416,
+    "Name": "Johns-Fahey",
+    "ToolTip": "Praesentium eligendi.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "sint",
-    "ColorBlock": 682,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2015-03-07T10:30:32.8269372+01:00",
+    "Rank": 265,
+    "Type": "perferendis",
+    "ColorBlock": 566,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2001-09-19T14:23:55.9314526+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Dickens LLC",
-        "ToolTip": "Aut illum dolorem.",
-        "Deleted": false,
-        "Rank": 817,
-        "Type": "numquam",
-        "ColorBlock": 673,
-        "IconHint": "tempore",
+        "Id": 183,
+        "Name": "Jakubowski, Carroll and Hermiston",
+        "ToolTip": "Facilis quis consequatur facere.",
+        "Deleted": true,
+        "Rank": 114,
+        "Type": "repellat",
+        "ColorBlock": 166,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2014-03-24T10:30:32.8269372+01:00",
+        "LastChanged": "2018-06-10T14:23:55.9314526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Friedrich Turner"
+        "ExtraInfo": "rem",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Rahsaan Stehr"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "illum",
+    "ExtraInfo": "saepe",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Chaya Graham"
+    "FullName": "Dr. Kian Gayle Johnston PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Hagenes, Nicolas and Ondricka",
-    "ToolTip": "Blanditiis atque aut minima fuga.",
-    "Deleted": true,
-    "Rank": 232,
-    "Type": "consectetur",
-    "ColorBlock": 873,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2010-09-16T10:30:32.8269372+02:00",
+    "Id": 301,
+    "Name": "Hayes-Lockman",
+    "ToolTip": "Totam cumque fugiat.",
+    "Deleted": false,
+    "Rank": 780,
+    "Type": "id",
+    "ColorBlock": 93,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2012-11-14T14:23:55.9314526+01:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Daugherty, Considine and Toy",
-        "ToolTip": "Voluptate pariatur iusto.",
-        "Deleted": false,
-        "Rank": 718,
-        "Type": "quam",
-        "ColorBlock": 731,
-        "IconHint": "quo",
+        "Id": 52,
+        "Name": "Bosco LLC",
+        "ToolTip": "Veniam omnis officiis sint voluptatem tenetur est.",
+        "Deleted": true,
+        "Rank": 374,
+        "Type": "voluptas",
+        "ColorBlock": 132,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2021-03-31T10:30:32.8269372+02:00",
+        "LastChanged": "2009-12-14T14:23:55.9314526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "earum",
+        "ExtraInfo": "nobis",
+        "StyleHint": "reprehenderit",
         "Hidden": true,
-        "FullName": "Herminio Franecki",
+        "FullName": "Mrs. Michele Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 405
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ut",
+    "ExtraInfo": "minima",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Dr. Vanessa Spencer MD",
+    "FullName": "Dora Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldLength": 620
       }
     }
   }

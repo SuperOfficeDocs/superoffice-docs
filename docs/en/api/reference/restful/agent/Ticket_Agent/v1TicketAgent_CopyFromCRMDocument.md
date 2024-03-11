@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 342
+  "DocumentId": 67
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 123,
-  "Name": "Toy-Greenholt",
-  "ContentType": "et",
-  "AttSize": 153,
+  "AttachmentId": 940,
+  "Name": "Senger Inc and Sons",
+  "ContentType": "officia",
+  "AttSize": 130,
   "InlineImage": false,
-  "ContentId": "ducimus",
-  "AuthKey": "quaerat",
+  "ContentId": "expedita",
+  "AuthKey": "consequatur",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldLength": 67
     }
   }
 }

@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "doloribus",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "nam",
+  "DisplayValue": "temporibus",
+  "DisplayTooltip": "reprehenderit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 729,
-  "PrefDescId": 80,
-  "TableName": "Gulgowski Inc and Sons",
-  "UserPreferenceId": 203,
+  "TargetId": 108,
+  "PrefDescId": 779,
+  "TableName": "Erdman Group",
+  "UserPreferenceId": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

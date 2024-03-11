@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 861,
-  "StartTime": "2000-09-07T10:30:23.5769016+02:00",
-  "EndTime": "2010-04-06T10:30:23.5769016+02:00",
-  "Count": 764,
-  "TemplateHeadingId": 931
+  "ContactId": 506,
+  "StartTime": "2023-04-21T14:23:46.2824577+02:00",
+  "EndTime": "2005-12-01T14:23:46.2824577+01:00",
+  "Count": 524,
+  "TemplateHeadingId": 370
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 840,
-    "Attention": "iste",
-    "Header": "ipsam",
-    "Name": "Lehner LLC",
-    "OurRef": "temporibus",
-    "YourRef": "qui",
-    "Description": "Operative static frame",
-    "DocumentTemplate": "est",
+    "DocumentId": 184,
+    "Attention": "ut",
+    "Header": "dolore",
+    "Name": "Weber, Jaskolski and Feeney",
+    "OurRef": "exercitationem",
+    "YourRef": "architecto",
+    "Description": "Multi-tiered modular emulation",
+    "DocumentTemplate": "nisi",
     "IsPublished": false,
-    "PersonId": 632,
-    "PersonFullName": "Monserrat Bartoletti",
-    "AssociateFullName": "Prof. Alek Efren Waters",
-    "ContactId": 415,
-    "ContactName": "Miller, Davis and Gleichner",
-    "ProjectId": 170,
-    "ProjectName": "Anderson-Mosciski",
-    "AssociateId": 778,
-    "Snum": 865,
-    "SaleId": 865,
-    "SaleName": "Wunsch-Trantow",
+    "PersonId": 395,
+    "PersonFullName": "Garfield Bogisich",
+    "AssociateFullName": "Ms. Josefa Effertz DVM",
+    "ContactId": 854,
+    "ContactName": "DuBuque Group",
+    "ProjectId": 736,
+    "ProjectName": "Kreiger, Heaney and Stark",
+    "AssociateId": 767,
+    "Snum": 75,
+    "SaleId": 560,
+    "SaleName": "Daniel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

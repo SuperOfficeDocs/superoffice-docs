@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 140,
-  "ListItemId": 128,
-  "ShowDeleted": false
+  "UdListDefinitionId": 400,
+  "ListItemId": 452,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Armstrong, Weimann and Rodriguez",
-    "ToolTip": "Laboriosam nulla animi tempora eos qui error.",
+    "Id": 323,
+    "Name": "Bergstrom, Thompson and Runolfsson",
+    "ToolTip": "Autem qui sed qui sunt fugit.",
     "Deleted": true,
-    "Rank": 940,
+    "Rank": 837,
     "Type": "occaecati",
-    "ColorBlock": 403,
-    "IconHint": "ut",
+    "ColorBlock": 457,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2011-09-10T10:30:23.9944062+02:00",
+    "LastChanged": "1999-07-04T14:23:46.8306046+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Haley Group",
-        "ToolTip": "Et ipsam ex.",
+        "Id": 370,
+        "Name": "Schaden-Gottlieb",
+        "ToolTip": "Magni est pariatur dignissimos doloremque aut hic incidunt.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "quidem",
-        "ColorBlock": 118,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2013-11-20T10:30:23.9944062+01:00",
+        "Rank": 89,
+        "Type": "voluptates",
+        "ColorBlock": 212,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2018-10-06T14:23:46.8306046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "nemo",
         "Hidden": true,
-        "FullName": "Cristina Frami",
+        "FullName": "Efrain Volkman PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Karlee Walsh IV",
+    "FullName": "Jody Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

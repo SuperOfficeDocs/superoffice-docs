@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Zboncak Group",
-  "StorageKey": "natus"
+  "StorageType": "molestiae",
+  "ProviderName": "Spencer, Corwin and Grant",
+  "StorageKey": "enim"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum LLC",
+    "Name": "Emmerich-Swift",
     "Direction": "ASC"
   },
   {
-    "Name": "Veum LLC",
+    "Name": "Emmerich-Swift",
     "Direction": "ASC"
   }
 ]

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Smith-O'Kon",
-  "ProviderName": "Kling, Reinger and Kreiger",
+  "GuiName": "Keeling, Cormier and Satterfield",
+  "ProviderName": "Ward-Robel",
   "Entities": [
-    "quisquam",
-    "autem"
+    "et",
+    "tempora"
   ]
 }
 ```

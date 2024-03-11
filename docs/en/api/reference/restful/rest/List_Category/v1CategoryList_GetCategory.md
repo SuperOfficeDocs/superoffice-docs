@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308,
-  "Name": "Spencer-Veum",
-  "Tooltip": "hic",
+  "Id": 743,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 316,
-  "Rank": 340,
+  "UdListDefinitionId": 100,
+  "Rank": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 514
     }
   }
 }

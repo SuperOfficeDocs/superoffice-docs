@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Reynolds-Stark",
-  "Tooltip": "voluptas",
+  "Id": 406,
+  "Name": "Monahan, Von and Daugherty",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 656,
-  "Rank": 935,
+  "UdListDefinitionId": 786,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 644
     }
   }
 }

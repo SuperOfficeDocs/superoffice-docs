@@ -98,15 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 62,
-  "Name": "Auer Group",
-  "Tooltip": "corrupti",
+  "Id": 252,
+  "Name": "Kub LLC",
+  "Tooltip": "beatae",
   "Deleted": true,
-  "Rank": 524,
+  "Rank": 423,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "explicabo",
+  "ListType": "earum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "Lueilwitz Inc and Sons",
-  "Tooltip": "ratione",
+  "Id": 736,
+  "Name": "Rutherford, Mitchell and Rowe",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 947,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 109,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 297
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

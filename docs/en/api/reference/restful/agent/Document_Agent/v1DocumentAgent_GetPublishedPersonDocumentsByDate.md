@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 239,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2018-12-29T10:30:23.5769016+01:00",
-  "EndTime": "2020-09-26T10:30:23.5769016+02:00",
-  "Count": 59
+  "PersonId": 260,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2010-11-03T14:23:46.2824577+01:00",
+  "EndTime": "2002-09-13T14:23:46.2824577+02:00",
+  "Count": 951
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 866,
-    "Attention": "facere",
-    "Header": "ducimus",
-    "Name": "Skiles-Bode",
-    "OurRef": "qui",
-    "YourRef": "quaerat",
-    "Description": "Proactive systematic leverage",
-    "DocumentTemplate": "consequuntur",
+    "DocumentId": 285,
+    "Attention": "rerum",
+    "Header": "eum",
+    "Name": "Schamberger LLC",
+    "OurRef": "est",
+    "YourRef": "culpa",
+    "Description": "Enhanced background interface",
+    "DocumentTemplate": "magni",
     "IsPublished": false,
-    "PersonId": 449,
-    "PersonFullName": "Elijah Thiel",
-    "AssociateFullName": "Modesta Brekke",
-    "ContactId": 568,
-    "ContactName": "Hand-Williamson",
-    "ProjectId": 184,
-    "ProjectName": "Wehner Group",
-    "AssociateId": 398,
-    "Snum": 650,
-    "SaleId": 28,
-    "SaleName": "Haag Group",
+    "PersonId": 169,
+    "PersonFullName": "Mrs. Jared Cali Nienow",
+    "AssociateFullName": "Norval Hauck I",
+    "ContactId": 135,
+    "ContactName": "Heller, Gulgowski and Abshire",
+    "ProjectId": 680,
+    "ProjectName": "Ziemann LLC",
+    "AssociateId": 804,
+    "Snum": 863,
+    "SaleId": 883,
+    "SaleName": "Boehm-Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldLength": 34
       }
     }
   }

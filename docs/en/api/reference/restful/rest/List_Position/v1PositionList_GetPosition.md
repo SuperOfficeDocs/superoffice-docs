@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Kling LLC",
-  "Tooltip": "voluptatem",
+  "Id": 645,
+  "Name": "Legros, Windler and Breitenberg",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "UdListDefinitionId": 749,
-  "Rank": 625,
+  "UdListDefinitionId": 642,
+  "Rank": 417,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 736
     }
   }
 }

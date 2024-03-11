@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 113,
-    "Name": "VonRueden, Heidenreich and Dibbert",
-    "Tooltip": "molestiae",
+    "HeadingId": 587,
+    "Name": "Hartmann Group",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 405,
-    "UdListDefinitionId": 438,
+    "Rank": 743,
+    "UdListDefinitionId": 999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

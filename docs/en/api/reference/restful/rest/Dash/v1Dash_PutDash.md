@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 484,
-  "UniqueId": "culpa",
-  "Name": "Heaney, Walter and Flatley",
-  "Description": "Integrated maximized success",
-  "AssociateId": 904,
-  "Columns": 950,
+  "DashboardId": 810,
+  "UniqueId": "soluta",
+  "Name": "Yost, Bechtelar and Witting",
+  "Description": "Extended foreground orchestration",
+  "AssociateId": 97,
+  "Columns": 77,
   "Theme": null,
-  "VisibleForAll": 687,
+  "VisibleForAll": 72,
   "VisibleForAssociates": [
-    997,
-    193
+    970,
+    241
   ],
   "VisibleForGroups": [
-    825,
-    958
+    193,
+    842
   ],
-  "PinForAll": 598,
+  "PinForAll": 255,
   "PinForAssociates": [
-    774,
-    967
+    72,
+    785
   ],
   "PinForGroups": [
-    497,
-    663
+    170,
+    68
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 622,
-  "UniqueId": "nesciunt",
-  "Name": "Kozey, VonRueden and Reichel",
-  "Description": "Profit-focused 24/7 matrices",
-  "AssociateId": 849,
-  "Columns": 777,
+  "DashboardId": 841,
+  "UniqueId": "consequatur",
+  "Name": "Cartwright Group",
+  "Description": "Assimilated client-driven toolset",
+  "AssociateId": 310,
+  "Columns": 932,
   "Theme": null,
-  "VisibleForAll": 915,
+  "VisibleForAll": 619,
   "VisibleForAssociates": [
-    849,
-    788
-  ],
-  "VisibleForGroups": [
-    534,
+    412,
     118
   ],
-  "PinForAll": 682,
+  "VisibleForGroups": [
+    271,
+    766
+  ],
+  "PinForAll": 709,
   "PinForAssociates": [
-    622,
-    291
+    574,
+    358
   ],
   "PinForGroups": [
-    544,
-    183
+    962,
+    78
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 833
     }
   },
   "_Links": {

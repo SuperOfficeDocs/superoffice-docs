@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 100,
-  "Name": "Lubowitz, Williamson and Windler",
-  "Description": "Synergized intangible protocol",
-  "DeltaJson": "delectus",
+  "ConfigurableScreenDeltaId": 907,
+  "Name": "Murphy, Witting and Schumm",
+  "Description": "Streamlined static utilisation",
+  "DeltaJson": "ex",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "totam",
-  "UpdatedDate": "2014-10-02T10:30:23.2418173+02:00",
-  "CreatedDate": "2014-11-15T10:30:23.2418173+01:00",
+  "RecipeId": "accusantium",
+  "UpdatedDate": "2009-06-27T14:23:46.0480845+02:00",
+  "CreatedDate": "2018-03-01T14:23:46.0480845+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    791,
-    537
+    91,
+    919
   ],
-  "AppliesToKey": "et",
+  "AppliesToKey": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

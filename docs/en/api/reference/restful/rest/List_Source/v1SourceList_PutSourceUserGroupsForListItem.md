@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Douglas Group",
-    "ToolTip": "Voluptatem numquam.",
+    "Id": 453,
+    "Name": "Keeling Group",
+    "ToolTip": "Ut quia qui modi.",
     "Deleted": false,
-    "Rank": 813,
-    "Type": "ipsum",
-    "ColorBlock": 137,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2021-04-27T10:30:33.2568344+02:00",
+    "Rank": 508,
+    "Type": "ab",
+    "ColorBlock": 970,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "1999-08-01T14:23:56.3701861+02:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Swaniawski Inc and Sons",
-        "ToolTip": "Sint quia.",
+        "Id": 865,
+        "Name": "Bernhard Group",
+        "ToolTip": "Perferendis assumenda sit vel corrupti in.",
         "Deleted": false,
-        "Rank": 852,
-        "Type": "excepturi",
-        "ColorBlock": 431,
-        "IconHint": "aspernatur",
+        "Rank": 89,
+        "Type": "et",
+        "ColorBlock": 247,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2009-02-12T10:30:33.2568344+01:00",
+        "LastChanged": "2016-02-14T14:23:56.3701861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "fuga",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Brook Reinger"
+        "FullName": "Elvie Kulas"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Jovanny Cindy Lebsack DDS"
+    "ExtraInfo": "dicta",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Maci Considine"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Littel-Collins",
-    "ToolTip": "A consequatur non.",
+    "Id": 250,
+    "Name": "Lehner Inc and Sons",
+    "ToolTip": "Molestiae autem sunt.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "nam",
-    "ColorBlock": 512,
-    "IconHint": "ex",
+    "Rank": 429,
+    "Type": "corrupti",
+    "ColorBlock": 726,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2007-10-10T10:30:33.2724548+02:00",
+    "LastChanged": "2009-10-25T14:23:56.3701861+01:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Rowe, Schimmel and Jakubowski",
-        "ToolTip": "Excepturi sint.",
-        "Deleted": false,
-        "Rank": 990,
-        "Type": "enim",
-        "ColorBlock": 856,
-        "IconHint": "reiciendis",
+        "Id": 805,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Ut nulla nesciunt.",
+        "Deleted": true,
+        "Rank": 911,
+        "Type": "optio",
+        "ColorBlock": 266,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-12-13T10:30:33.2724548+01:00",
+        "LastChanged": "2008-01-01T14:23:56.3701861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Stanton Tressie Boyle MD",
+        "ExtraInfo": "quo",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Nelle Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "vel",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Rozella Bauch I",
+    "FullName": "Simone Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 647
+        "FieldLength": 656
       }
     }
   }

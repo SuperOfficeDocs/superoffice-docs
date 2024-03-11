@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Russel-Strosin",
-      "DisplayName": "Schmidt Group",
-      "DisplayTooltip": "architecto",
-      "IsActive": true
+      "Name": "Wolff-Aufderhar",
+      "DisplayName": "Harris LLC",
+      "DisplayTooltip": "ut",
+      "IsActive": false
     },
     {
-      "Name": "Russel-Strosin",
-      "DisplayName": "Schmidt Group",
-      "DisplayTooltip": "architecto",
-      "IsActive": true
+      "Name": "Wolff-Aufderhar",
+      "DisplayName": "Harris LLC",
+      "DisplayTooltip": "ut",
+      "IsActive": false
     }
   ]
 }

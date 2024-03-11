@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 1001,
-  "LanguageCode": "repudiandae"
+  "DocumentTemplateId": 262,
+  "LanguageCode": "quaerat"
 }
 ```
 

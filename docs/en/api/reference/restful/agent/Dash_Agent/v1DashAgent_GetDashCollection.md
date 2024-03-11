@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 196,
-      "UniqueId": "quia",
-      "Name": "Raynor Inc and Sons",
-      "Description": "Optional 5th generation time-frame",
-      "AssociateId": 479,
-      "Columns": 301,
+      "DashboardId": 143,
+      "UniqueId": "quis",
+      "Name": "Renner, Hessel and Towne",
+      "Description": "Up-sized zero administration definition",
+      "AssociateId": 798,
+      "Columns": 665,
       "Theme": null,
-      "VisibleForAll": 466,
+      "VisibleForAll": 130,
       "VisibleForAssociates": [
-        919,
-        172
+        731,
+        290
       ],
       "VisibleForGroups": [
-        508,
-        158
+        968,
+        745
       ],
-      "PinForAll": 218,
+      "PinForAll": 658,
       "PinForAssociates": [
-        454,
-        217
+        294,
+        281
       ],
       "PinForGroups": [
-        312,
-        159
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 316
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 442,
-      "UniqueId": "ea",
-      "Name": "Steuber Inc and Sons",
-      "Description": "Integrated zero tolerance system engine",
-      "AssociateId": 733,
-      "Columns": 406,
-      "Theme": null,
-      "VisibleForAll": 384,
-      "VisibleForAssociates": [
-        685,
-        889
-      ],
-      "VisibleForGroups": [
-        585,
-        813
-      ],
-      "PinForAll": 246,
-      "PinForAssociates": [
-        32,
-        763
-      ],
-      "PinForGroups": [
-        822,
-        619
+        135,
+        492
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Other": [
+  "Favourites": [
     {
-      "DashboardId": 140,
-      "UniqueId": "non",
-      "Name": "Hickle, Christiansen and Dooley",
-      "Description": "Managed composite Graphic Interface",
-      "AssociateId": 214,
-      "Columns": 530,
+      "DashboardId": 585,
+      "UniqueId": "dolore",
+      "Name": "Zemlak-Purdy",
+      "Description": "Inverse motivating instruction set",
+      "AssociateId": 261,
+      "Columns": 551,
       "Theme": null,
-      "VisibleForAll": 45,
+      "VisibleForAll": 399,
       "VisibleForAssociates": [
-        51,
-        1002
+        149,
+        894
       ],
       "VisibleForGroups": [
-        553,
-        206
+        917,
+        940
       ],
-      "PinForAll": 850,
+      "PinForAll": 28,
       "PinForAssociates": [
-        353,
-        499
+        694,
+        637
       ],
       "PinForGroups": [
-        737,
-        658
+        188,
+        99
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 906
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 521,
+      "UniqueId": "et",
+      "Name": "Donnelly-VonRueden",
+      "Description": "Function-based hybrid application",
+      "AssociateId": 133,
+      "Columns": 498,
+      "Theme": null,
+      "VisibleForAll": 230,
+      "VisibleForAssociates": [
+        41,
+        39
+      ],
+      "VisibleForGroups": [
+        733,
+        810
+      ],
+      "PinForAll": 349,
+      "PinForAssociates": [
+        97,
+        629
+      ],
+      "PinForGroups": [
+        527,
+        358
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

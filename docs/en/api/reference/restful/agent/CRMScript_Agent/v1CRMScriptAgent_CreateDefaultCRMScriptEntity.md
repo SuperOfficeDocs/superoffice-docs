@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 785,
-  "UniqueIdentifier": "non",
-  "Name": "Strosin Group",
-  "Description": "Inverse tertiary initiative",
-  "IncludeId": "non",
-  "HierarchyId": 426,
-  "Source": "eaque",
-  "Registered": "2001-07-25T10:30:23.4039465+02:00",
-  "RegisteredAssociateId": 753,
-  "Updated": "2019-12-27T10:30:23.4039465+01:00",
-  "UpdatedAssociateId": 763,
+  "EjscriptId": 35,
+  "UniqueIdentifier": "fugit",
+  "Name": "King Inc and Sons",
+  "Description": "Down-sized encompassing portal",
+  "IncludeId": "aut",
+  "HierarchyId": 268,
+  "Source": "voluptas",
+  "Registered": "2002-09-10T14:23:46.2043319+02:00",
+  "RegisteredAssociateId": 220,
+  "Updated": "2000-04-05T14:23:46.2043319+02:00",
+  "UpdatedAssociateId": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 200
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Romaguera-Crist",
+  "Id": 617,
+  "Name": "Lueilwitz LLC",
   "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 687,
-  "Rank": 125
+  "Deleted": true,
+  "UdListDefinitionId": 107,
+  "Rank": 523
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "White-Gusikowski",
-  "Tooltip": "omnis",
+  "Id": 521,
+  "Name": "Kuhn Inc and Sons",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 567,
-  "Rank": 710,
+  "UdListDefinitionId": 112,
+  "Rank": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 503
     }
   }
 }

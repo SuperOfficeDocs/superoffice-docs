@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=provident
+GET /api/v1/List/Currency/MDOItems?query=minus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Breitenberg-Beer",
-    "ToolTip": "Et eos ratione eaque.",
+    "Id": 628,
+    "Name": "Block-Sipes",
+    "ToolTip": "Magni praesentium illo et odio suscipit consectetur.",
     "Deleted": false,
-    "Rank": 970,
-    "Type": "blanditiis",
+    "Rank": 476,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Cummings, Champlin and Wintheiser",
-        "ToolTip": "Est impedit ea a accusamus exercitationem accusamus.",
+        "Id": 614,
+        "Name": "Fisher, Blanda and Fadel",
+        "ToolTip": "Modi ea eius.",
         "Deleted": true,
-        "Rank": 226,
-        "Type": "cumque",
+        "Rank": 422,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 170,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "perspiciatis",
-        "FullName": "Russell Swaniawski DVM",
+        "IconHint": "modi",
+        "ColorBlock": 796,
+        "ExtraInfo": "hic",
+        "StyleHint": "cumque",
+        "FullName": "Rodolfo Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldLength": 494
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 120,
-    "ExtraInfo": "non",
-    "StyleHint": "maxime",
-    "FullName": "Amely Okuneva",
+    "IconHint": "quisquam",
+    "ColorBlock": 268,
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "aspernatur",
+    "FullName": "Oral Dewitt VonRueden V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 289
       }
     }
   }

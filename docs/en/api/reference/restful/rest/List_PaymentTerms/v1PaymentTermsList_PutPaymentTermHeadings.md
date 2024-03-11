@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 175,
-    "Name": "Bailey Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 552,
+    "Name": "Bradtke-Streich",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 758
+    "Rank": 317,
+    "UdListDefinitionId": 465
   },
   {
-    "HeadingId": 175,
-    "Name": "Bailey Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 552,
+    "Name": "Bradtke-Streich",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 758
+    "Rank": 317,
+    "UdListDefinitionId": 465
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Cartwright, Walter and Roob",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 127,
+    "HeadingId": 92,
+    "Name": "Padberg, Lockman and Smitham",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 173,
+    "UdListDefinitionId": 547,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 675
       }
     }
   }

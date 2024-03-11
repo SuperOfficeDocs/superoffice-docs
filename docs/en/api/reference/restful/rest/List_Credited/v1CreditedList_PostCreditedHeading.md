@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 903,
-  "Name": "Ferry, Quigley and McGlynn",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 437,
-  "UdListDefinitionId": 931
+  "HeadingId": 174,
+  "Name": "Carroll, Hahn and Rippin",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 614,
+  "UdListDefinitionId": 196
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 844,
-  "Name": "Wunsch-Feeney",
-  "Tooltip": "mollitia",
+  "HeadingId": 652,
+  "Name": "Schultz-Tromp",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 893,
-  "UdListDefinitionId": 282,
+  "Rank": 269,
+  "UdListDefinitionId": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldLength": 592
     }
   }
 }

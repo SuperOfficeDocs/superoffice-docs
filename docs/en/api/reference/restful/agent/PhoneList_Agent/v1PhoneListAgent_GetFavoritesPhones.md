@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "300.167.9338",
-    "PersonCellPhone": "1-817-833-2685 x834",
-    "PersonPrivatePhone": "1-405-120-9055 x2595",
-    "PersonFaxNumber": "1149776",
-    "PersonPagerNumber": "1118694",
-    "PersonEmail": "vance@johnsonhirthe.us",
-    "Id": 769,
-    "Name": "McClure Inc and Sons",
-    "Tooltip": "culpa",
-    "UniqueId": "quis",
+    "PersonDirectPhone": "849-091-6424 x93736",
+    "PersonCellPhone": "385-931-4892 x8898",
+    "PersonPrivatePhone": "1-400-887-7250 x3176",
+    "PersonFaxNumber": "1108548",
+    "PersonPagerNumber": "645041",
+    "PersonEmail": "cordia@powlowski.com",
+    "Id": 797,
+    "Name": "McLaughlin, Homenick and Torp",
+    "Tooltip": "est",
+    "UniqueId": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldType": "System.String",
+        "FieldLength": 518
       }
     }
   }

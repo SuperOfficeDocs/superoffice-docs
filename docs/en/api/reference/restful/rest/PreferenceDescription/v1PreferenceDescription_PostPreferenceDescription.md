@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 548,
-  "Section": "non",
-  "Key": "id",
-  "Name": "Okuneva Inc and Sons",
+  "PrefDescId": 437,
+  "Section": "ea",
+  "Key": "deleniti",
+  "Name": "Heidenreich LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Automated assymetric core",
+  "Description": "Upgradable reciprocal software",
   "IsBuiltin": true,
-  "TableName": "Boyle Inc and Sons",
-  "UserDefinedListId": 925,
-  "Rank": 19,
-  "SubGroup": "sunt",
-  "MinLevel": 763,
-  "MaxValue": 679,
-  "MinValue": 310,
-  "RequiredLicense": "dignissimos"
+  "TableName": "Krajcik, Zboncak and Fay",
+  "UserDefinedListId": 458,
+  "Rank": 294,
+  "SubGroup": "maiores",
+  "MinLevel": 749,
+  "MaxValue": 390,
+  "MinValue": 214,
+  "RequiredLicense": "non"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 947,
-  "Section": "et",
-  "Key": "dolorem",
-  "Name": "Shields-Zemlak",
+  "PrefDescId": 6,
+  "Section": "illo",
+  "Key": "animi",
+  "Name": "Anderson Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed discrete complexity",
+  "Description": "Synergistic full-range definition",
   "IsBuiltin": false,
-  "TableName": "Monahan Group",
-  "UserDefinedListId": 9,
-  "Rank": 208,
-  "SubGroup": "et",
-  "MinLevel": 467,
-  "MaxValue": 822,
-  "MinValue": 781,
-  "RequiredLicense": "minus",
+  "TableName": "Kessler, Willms and Schultz",
+  "UserDefinedListId": 124,
+  "Rank": 491,
+  "SubGroup": "dicta",
+  "MinLevel": 799,
+  "MaxValue": 576,
+  "MinValue": 505,
+  "RequiredLicense": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   },
   "_Links": {

@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 947,
-  "Channel": "aperiam",
-  "Regarding": "nulla",
-  "ContactName": "Boyer Inc and Sons",
-  "PersonFirstname": "Chelsea",
-  "PersonLastname": "Raynor",
-  "EmailAddress": "annette@goyette.info",
-  "PhoneNumber": "332849"
+  "AssociateIdForNewContact": 329,
+  "Channel": "dignissimos",
+  "Regarding": "explicabo",
+  "ContactName": "Trantow, Gislason and Russel",
+  "PersonFirstname": "Leatha",
+  "PersonLastname": "Wehner",
+  "EmailAddress": "cassidy_cartwright@johnston.us",
+  "PhoneNumber": "910233"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 850,
-      "Name": "Cole, Littel and Abbott",
-      "OrgNr": "1245827",
+      "ContactId": 484,
+      "Name": "Feest, Buckridge and O'Reilly",
+      "OrgNr": "1047212",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "et",
-      "DirectPhone": "1-822-231-0007 x7075",
-      "AssociateId": 831,
-      "CountryId": 885,
-      "EmailAddress": "wilson@waelchi.name",
-      "Kananame": "modi",
-      "EmailAddressName": "jeanette_williamson@aufderhardonnelly.biz",
+      "City": "rem",
+      "DirectPhone": "1-655-542-4350",
+      "AssociateId": 260,
+      "CountryId": 931,
+      "EmailAddress": "maci@robel.com",
+      "Kananame": "ad",
+      "EmailAddressName": "vicenta@kutch.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Mrs. Mohammad Bahringer",
+      "AssociateFullName": "Alfreda Herman",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sit",
-      "FullName": "Ms. Wellington Johns",
+      "FormattedAddress": "quidem",
+      "FullName": "Mr. Sophie Jakubowski III",
       "IsOwnerContact": true,
-      "ActiveErpLinks": 241,
-      "Number1": "709831",
-      "Number2": "334849",
+      "ActiveErpLinks": 729,
+      "Number1": "1670071",
+      "Number2": "82796",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 353
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 840
     }
   }
 }

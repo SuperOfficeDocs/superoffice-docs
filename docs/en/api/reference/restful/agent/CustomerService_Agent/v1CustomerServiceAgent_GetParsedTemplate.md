@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 742,
-  "LanguageId": 889,
-  "PersonId": 954,
-  "TicketId": 148
+  "ReplyTemplateId": 213,
+  "LanguageId": 687,
+  "PersonId": 345,
+  "TicketId": 887
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 542,
-  "PlainParsed": "dolorum",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 707,
+  "PlainParsed": "quidem",
+  "HtmlParsed": "aperiam",
   "Attachments": [
     {
-      "AttachmentId": 481,
-      "Name": "Kuhlman LLC",
-      "ContentType": "omnis",
-      "AttSize": 118,
-      "InlineImage": false,
-      "ContentId": "facilis",
-      "AuthKey": "aliquam",
+      "AttachmentId": 92,
+      "Name": "Tromp, Reinger and Aufderhar",
+      "ContentType": "quibusdam",
+      "AttSize": 782,
+      "InlineImage": true,
+      "ContentId": "eius",
+      "AuthKey": "temporibus",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldType": "System.Int32",
+          "FieldLength": 809
         }
       }
     }
   ],
-  "Subject": "et",
+  "Subject": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 147
     }
   }
 }

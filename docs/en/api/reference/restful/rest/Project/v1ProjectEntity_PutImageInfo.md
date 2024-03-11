@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=901
+PUT /api/v1/Project/{id}/ImageInfo?projectId=500
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 235,
-  "BlobSize": 240,
-  "Description": "Profit-focused systemic hardware",
-  "ExtraInfo": "distinctio",
-  "IsEncrypted": true,
+  "BlobId": 934,
+  "BlobSize": 714,
+  "Description": "Compatible intermediate archive",
+  "ExtraInfo": "error",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 741,
-  "CreatedDate": "2018-05-23T10:30:32.2449231+02:00",
-  "UpdatedDate": "2021-09-04T10:30:32.2449231+02:00",
+  "MimeType": "modi",
+  "OriginalSize": 882,
+  "CreatedDate": "2013-01-21T14:23:55.3689602+01:00",
+  "UpdatedDate": "2004-07-09T14:23:55.3689602+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quibusdam"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 466,
-  "BlobSize": 297,
-  "Description": "Customer-focused global project",
-  "ExtraInfo": "assumenda",
+  "BlobId": 931,
+  "BlobSize": 379,
+  "Description": "Seamless bandwidth-monitored strategy",
+  "ExtraInfo": "quidem",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 732,
-  "CreatedDate": "2008-09-05T10:30:32.2449231+02:00",
-  "UpdatedDate": "2012-01-26T10:30:32.2449231+01:00",
+  "MimeType": "fuga",
+  "OriginalSize": 224,
+  "CreatedDate": "2003-07-10T14:23:55.3689602+02:00",
+  "UpdatedDate": "2015-01-24T14:23:55.3689602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   }
 }

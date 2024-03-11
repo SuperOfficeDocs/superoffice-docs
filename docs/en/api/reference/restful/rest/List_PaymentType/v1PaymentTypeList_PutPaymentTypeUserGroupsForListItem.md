@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Pfannerstill Inc and Sons",
-    "ToolTip": "Et culpa sint neque voluptas non.",
-    "Deleted": true,
-    "Rank": 121,
-    "Type": "harum",
-    "ColorBlock": 473,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "1997-09-11T10:30:33.0524566+02:00",
+    "Id": 295,
+    "Name": "Schultz-Dach",
+    "ToolTip": "Error iure earum voluptatem.",
+    "Deleted": false,
+    "Rank": 525,
+    "Type": "reprehenderit",
+    "ColorBlock": 340,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2008-10-18T14:23:56.1502016+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Sipes-Hansen",
-        "ToolTip": "Sunt vitae similique excepturi laboriosam eum eius aspernatur.",
-        "Deleted": false,
-        "Rank": 778,
-        "Type": "hic",
-        "ColorBlock": 693,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2001-08-17T10:30:33.0524566+02:00",
+        "Id": 992,
+        "Name": "Wiza-Kilback",
+        "ToolTip": "Minima voluptatem et eos non qui quia et.",
+        "Deleted": true,
+        "Rank": 593,
+        "Type": "a",
+        "ColorBlock": 202,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2013-05-13T14:23:56.1502016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Mose Crist"
+        "ExtraInfo": "vel",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Hal Jewess"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Beau Dooley"
+    "ExtraInfo": "quis",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Julio Larson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Brown, Gibson and Cartwright",
-    "ToolTip": "Harum neque commodi et et nostrum praesentium rerum.",
-    "Deleted": false,
-    "Rank": 993,
-    "Type": "cumque",
-    "ColorBlock": 157,
+    "Id": 687,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Consequatur quia non doloribus placeat.",
+    "Deleted": true,
+    "Rank": 654,
+    "Type": "sed",
+    "ColorBlock": 835,
     "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2023-09-10T10:30:33.0524566+02:00",
+    "LastChanged": "2021-10-14T14:23:56.1502016+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "McLaughlin, Wilderman and Tromp",
-        "ToolTip": "Quam dolores atque quas maiores amet.",
+        "Id": 820,
+        "Name": "VonRueden Inc and Sons",
+        "ToolTip": "Vitae voluptas eos voluptas illo rem.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "aliquam",
-        "ColorBlock": 377,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2009-09-17T10:30:33.0524566+02:00",
+        "Rank": 534,
+        "Type": "eaque",
+        "ColorBlock": 111,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2022-12-05T14:23:56.1502016+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Mr. Vita Osvaldo Cummerata I",
+        "FullName": "Melba Koch Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 678
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "odit",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Augustine Rice",
+    "FullName": "Dr. Maymie Walter Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 998
       }
     }
   }

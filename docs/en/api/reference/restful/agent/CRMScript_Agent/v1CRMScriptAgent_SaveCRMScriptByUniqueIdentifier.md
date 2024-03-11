@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "accusamus",
+  "UniqueIdentifier": "illo",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "laboriosam",
-  "Name": "Balistreri, Bergstrom and Hirthe",
-  "Description": "Sharable real-time solution",
-  "IncludeId": "vero",
-  "Source": "minus",
-  "Registered": "2017-11-03T10:30:23.4049883+01:00",
-  "RegisteredBy": "sunt",
-  "Updated": "2019-09-29T10:30:23.4049883+02:00",
-  "UpdatedBy": "ducimus",
-  "Path": "occaecati",
+  "UniqueIdentifier": "rerum",
+  "Name": "Hane-Rosenbaum",
+  "Description": "Automated attitude-oriented knowledge user",
+  "IncludeId": "voluptatem",
+  "Source": "modi",
+  "Registered": "2020-11-22T14:23:46.2043319+01:00",
+  "RegisteredBy": "veniam",
+  "Updated": "2003-03-04T14:23:46.2043319+01:00",
+  "UpdatedBy": "dolores",
+  "Path": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   }
 }

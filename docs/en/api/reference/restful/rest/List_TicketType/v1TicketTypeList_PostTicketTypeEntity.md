@@ -87,28 +87,28 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 44,
-  "Name": "Grimes, Hyatt and Runolfsdottir",
-  "Rank": 931,
-  "Tooltip": "in",
-  "Icon": "necessitatibus",
-  "DefaultTicketStatus": 711,
+  "TicketTypeId": 161,
+  "Name": "Casper, West and McGlynn",
+  "Rank": 668,
+  "Tooltip": "expedita",
+  "Icon": "quisquam",
+  "DefaultTicketStatus": 843,
   "TicketStatuses": [
-    412,
-    733
+    96,
+    935
   ],
-  "DefaultTicketPriority": 293,
+  "DefaultTicketPriority": 169,
   "TicketPriorities": [
-    143,
-    686
+    792,
+    397
   ],
-  "ReplyTemplate": 716,
-  "IsExternalVisible": false,
-  "IsDefault": false
+  "ReplyTemplate": 813,
+  "IsExternalVisible": true,
+  "IsDefault": true
 }
 ```
 
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 957,
-  "Name": "Carter, Schmeler and Upton",
-  "Rank": 212,
-  "Tooltip": "ad",
-  "Icon": "consequatur",
-  "DefaultTicketStatus": 189,
+  "TicketTypeId": 897,
+  "Name": "Morar-Mosciski",
+  "Rank": 345,
+  "Tooltip": "reprehenderit",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 366,
   "TicketStatuses": [
-    540,
-    964
+    13,
+    451
   ],
-  "DefaultTicketPriority": 463,
+  "DefaultTicketPriority": 758,
   "TicketPriorities": [
-    496,
-    468
+    38,
+    595
   ],
-  "ReplyTemplate": 132,
+  "ReplyTemplate": 40,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

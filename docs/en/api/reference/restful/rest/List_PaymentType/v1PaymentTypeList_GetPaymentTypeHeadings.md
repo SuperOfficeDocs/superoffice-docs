@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Goodwin Inc and Sons",
-    "Tooltip": "omnis",
+    "HeadingId": 375,
+    "Name": "Marks Inc and Sons",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 837,
-    "UdListDefinitionId": 621,
+    "Rank": 125,
+    "UdListDefinitionId": 33,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldType": "System.String",
+        "FieldLength": 356
       }
     }
   }

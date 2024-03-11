@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 484
+  "PersonId": 959
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 765,
-  "InstanceLayout": "est",
-  "InstanceName": "Schumm-Jacobs",
-  "CreatedDate": "2021-02-18T10:30:23.0826686+01:00",
-  "UpdatedDate": "2000-03-20T10:30:23.0826686+01:00",
+  "AudienceLayoutId": 5,
+  "InstanceLayout": "id",
+  "InstanceName": "Bernhard, Kulas and Price",
+  "CreatedDate": "2008-11-30T14:23:45.8762101+01:00",
+  "UpdatedDate": "2002-06-20T14:23:45.8762101+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

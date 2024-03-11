@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 725,
-  "StartTime": "2021-09-09T10:30:23.5769016+02:00",
-  "EndTime": "1999-05-25T10:30:23.5769016+02:00",
-  "Count": 182,
+  "ContactId": 685,
+  "StartTime": "2016-03-09T14:23:46.2824577+01:00",
+  "EndTime": "1997-12-03T14:23:46.2824577+01:00",
+  "Count": 89,
   "DocumentTemplateIds": [
-    223,
-    584
+    580,
+    948
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 591,
-    "Attention": "qui",
-    "Header": "similique",
-    "Name": "Ebert, Ryan and Hackett",
-    "OurRef": "consequatur",
-    "YourRef": "aut",
-    "Description": "Future-proofed client-driven budgetary management",
-    "DocumentTemplate": "reprehenderit",
+    "DocumentId": 85,
+    "Attention": "consequatur",
+    "Header": "tempore",
+    "Name": "Spencer Inc and Sons",
+    "OurRef": "et",
+    "YourRef": "ea",
+    "Description": "Balanced even-keeled knowledge base",
+    "DocumentTemplate": "minima",
     "IsPublished": false,
-    "PersonId": 615,
-    "PersonFullName": "Merritt Una Wunsch MD",
-    "AssociateFullName": "Emil Janice Rice V",
-    "ContactId": 927,
-    "ContactName": "Jaskolski-Cruickshank",
-    "ProjectId": 543,
-    "ProjectName": "Pfeffer-Shields",
-    "AssociateId": 936,
-    "Snum": 597,
-    "SaleId": 225,
-    "SaleName": "Goyette, Reilly and Cummings",
+    "PersonId": 1002,
+    "PersonFullName": "Annette Brekke",
+    "AssociateFullName": "Terrell Braun II",
+    "ContactId": 885,
+    "ContactName": "Sipes, Donnelly and Hettinger",
+    "ProjectId": 587,
+    "ProjectName": "Schneider, Upton and Schaden",
+    "AssociateId": 800,
+    "Snum": 826,
+    "SaleId": 14,
+    "SaleName": "Renner-Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldLength": 336
       }
     }
   }

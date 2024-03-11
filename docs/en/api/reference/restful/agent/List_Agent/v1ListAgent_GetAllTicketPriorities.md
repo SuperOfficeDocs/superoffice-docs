@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 18,
-    "Name": "Kuhlman, Kuvalis and Bartell",
+    "TicketPriorityId": 761,
+    "Name": "Sipes LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 399,
+    "SortOrder": 38,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 23,
-    "MonStart": "2002-06-25T10:30:23.9428584+02:00",
-    "MonStop": "2003-05-29T10:30:23.9428584+02:00",
-    "TueStart": "2005-09-10T10:30:23.9428584+02:00",
-    "TueStop": "2003-06-20T10:30:23.9428584+02:00",
-    "WedStart": "2007-08-25T10:30:23.9428584+02:00",
-    "WedStop": "1998-07-16T10:30:23.9428584+02:00",
-    "ThuStart": "1997-11-21T10:30:23.9428584+01:00",
-    "ThuStop": "2019-10-30T10:30:23.9428584+01:00",
-    "FriStart": "2000-10-04T10:30:23.9428584+02:00",
-    "FriStop": "2014-10-16T10:30:23.9428584+02:00",
-    "SatStart": "2014-08-31T10:30:23.9428584+02:00",
-    "SatStop": "2009-11-22T10:30:23.9428584+01:00",
-    "SunStart": "2006-11-15T10:30:23.9428584+01:00",
-    "SunStop": "2023-03-21T10:30:23.9428584+01:00",
+    "Deadline": 635,
+    "MonStart": "1998-12-15T14:23:46.7837295+01:00",
+    "MonStop": "2006-03-06T14:23:46.7837295+01:00",
+    "TueStart": "2019-04-20T14:23:46.7837295+02:00",
+    "TueStop": "2017-01-28T14:23:46.7837295+01:00",
+    "WedStart": "2021-10-19T14:23:46.7837295+02:00",
+    "WedStop": "2017-10-20T14:23:46.7837295+02:00",
+    "ThuStart": "1999-04-05T14:23:46.7837295+02:00",
+    "ThuStop": "2000-06-03T14:23:46.7837295+02:00",
+    "FriStart": "2017-09-17T14:23:46.7837295+02:00",
+    "FriStop": "2005-01-28T14:23:46.7837295+01:00",
+    "SatStart": "2009-09-16T14:23:46.7837295+02:00",
+    "SatStop": "2001-09-05T14:23:46.7837295+02:00",
+    "SunStart": "2010-01-01T14:23:46.7837295+01:00",
+    "SunStop": "2021-05-22T14:23:46.7837295+02:00",
     "NonDates": [
-      "minus",
-      "itaque"
+      "omnis",
+      "voluptatem"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 225,
-        "AlertLevel": 2,
-        "AlertTimeout": 794,
-        "Action": 131,
-        "DelegateTo": 610,
-        "ScriptId": 469,
-        "EmailTo": "abby@hartmann.biz",
-        "SmsTo": "excepturi",
-        "ReplyTemplateIdCustomer": 406,
-        "ReplyTemplateIdUser": 538,
-        "ReplyTemplateIdCatmast": 371,
-        "ReplyTemplateIdEmail": 46,
-        "RtiCustomerSms": 353,
-        "ReplyTemplateIdUserSms": 983,
-        "ReplyTemplateIdCatmastSms": 769,
-        "ReplyTemplateIdSms": 831,
+        "TicketAlertId": 786,
+        "AlertLevel": 411,
+        "AlertTimeout": 873,
+        "Action": 734,
+        "DelegateTo": 613,
+        "ScriptId": 641,
+        "EmailTo": "kylee@jacobson.us",
+        "SmsTo": "eum",
+        "ReplyTemplateIdCustomer": 228,
+        "ReplyTemplateIdUser": 590,
+        "ReplyTemplateIdCatmast": 93,
+        "ReplyTemplateIdEmail": 728,
+        "RtiCustomerSms": 123,
+        "ReplyTemplateIdUserSms": 688,
+        "ReplyTemplateIdCatmastSms": 438,
+        "ReplyTemplateIdSms": 766,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldType": "System.String",
+            "FieldLength": 598
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 726
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 282,
-  "TemplateName": "Mueller LLC",
+  "SelectionId": 997,
+  "TemplateName": "Botsford LLC",
   "UseContacts": false,
-  "OrderBy": "facere"
+  "OrderBy": "qui"
 }
 ```
 

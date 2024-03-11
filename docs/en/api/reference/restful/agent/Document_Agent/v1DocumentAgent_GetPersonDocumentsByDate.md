@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 544,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2017-06-07T10:30:23.5925282+02:00",
-  "EndTime": "2000-07-05T10:30:23.5925282+02:00",
-  "Count": 583
+  "PersonId": 346,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2003-08-03T14:23:46.2980824+02:00",
+  "EndTime": "2022-07-17T14:23:46.2980824+02:00",
+  "Count": 262
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 913,
-    "Attention": "ea",
-    "Header": "eum",
-    "Name": "Reynolds Inc and Sons",
-    "OurRef": "sit",
-    "YourRef": "ratione",
-    "Description": "Self-enabling human-resource core",
-    "DocumentTemplate": "quo",
-    "IsPublished": true,
-    "PersonId": 898,
-    "PersonFullName": "Crystal Hudson Jr.",
-    "AssociateFullName": "Norwood Durgan",
-    "ContactId": 219,
-    "ContactName": "Stark, Rodriguez and Trantow",
-    "ProjectId": 831,
-    "ProjectName": "Heller, Bergstrom and Parker",
-    "AssociateId": 60,
-    "Snum": 243,
-    "SaleId": 893,
-    "SaleName": "Schuppe, Johnston and Thiel",
+    "DocumentId": 682,
+    "Attention": "quia",
+    "Header": "iste",
+    "Name": "Deckow, Mohr and Pfeffer",
+    "OurRef": "et",
+    "YourRef": "voluptas",
+    "Description": "Reverse-engineered context-sensitive benchmark",
+    "DocumentTemplate": "consequatur",
+    "IsPublished": false,
+    "PersonId": 406,
+    "PersonFullName": "Felicia Schowalter",
+    "AssociateFullName": "Walter Denesik",
+    "ContactId": 480,
+    "ContactName": "Lemke, Bradtke and Haley",
+    "ProjectId": 801,
+    "ProjectName": "Nader LLC",
+    "AssociateId": 512,
+    "Snum": 202,
+    "SaleId": 773,
+    "SaleName": "O'Keefe, Gulgowski and DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 416,
-    "Name": "Hessel, Berge and Labadie",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 67,
-    "UdListDefinitionId": 535
+    "HeadingId": 590,
+    "Name": "Jewess-Kulas",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 984,
+    "UdListDefinitionId": 38
   },
   {
-    "HeadingId": 416,
-    "Name": "Hessel, Berge and Labadie",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 67,
-    "UdListDefinitionId": 535
+    "HeadingId": 590,
+    "Name": "Jewess-Kulas",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 984,
+    "UdListDefinitionId": 38
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 641,
-    "Name": "Fahey-Jerde",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "Rank": 299,
-    "UdListDefinitionId": 947,
+    "HeadingId": 655,
+    "Name": "Kihn-Cronin",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 926,
+    "UdListDefinitionId": 724,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 401
       }
     }
   }

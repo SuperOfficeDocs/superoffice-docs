@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 788
+  "SaleId": 163
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schultz-Walsh",
-    "Comment": "occaecati",
-    "StakeholderRoleId": 473,
-    "CountryId": 915,
-    "PersonId": 100,
-    "EmailDescription": "mariela.hammes@bahringer.name",
-    "EmailId": 758,
-    "EmailAddress": "ashton_kreiger@spencerquigley.co.uk",
-    "PhoneId": 846,
-    "ContactName": "White LLC",
-    "ContactId": 961,
-    "SaleId": 473,
-    "Mrmrs": "iure",
-    "Firstname": "Imogene",
-    "MiddleName": "Corkery-Hauck",
-    "Lastname": "Kulas",
-    "SaleStakeholderId": 641,
-    "Rank": 130,
-    "Phone": "334-571-2377 x64156",
+    "StakeholderRoleName": "Yundt-Schmitt",
+    "Comment": "voluptatum",
+    "StakeholderRoleId": 766,
+    "CountryId": 331,
+    "PersonId": 564,
+    "EmailDescription": "meggie@will.uk",
+    "EmailId": 218,
+    "EmailAddress": "darius@nienowblanda.us",
+    "PhoneId": 550,
+    "ContactName": "Fahey, Russel and Frami",
+    "ContactId": 724,
+    "SaleId": 308,
+    "Mrmrs": "amet",
+    "Firstname": "Korey",
+    "MiddleName": "Marvin-Altenwerth",
+    "Lastname": "Nikolaus",
+    "SaleStakeholderId": 914,
+    "Rank": 262,
+    "Phone": "(141)746-8354",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

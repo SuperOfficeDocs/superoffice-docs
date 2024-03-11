@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Corkery-Feest",
-    "ToolTip": "Quae illo dolorem sapiente ullam sunt.",
+    "Id": 568,
+    "Name": "Reinger-Cummerata",
+    "ToolTip": "Officiis ullam.",
     "Deleted": false,
-    "Rank": 670,
-    "Type": "sit",
-    "ColorBlock": 163,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2003-08-21T10:30:33.1943329+02:00",
+    "Rank": 473,
+    "Type": "est",
+    "ColorBlock": 30,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2011-09-28T14:23:56.2908239+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Simonis Inc and Sons",
-        "ToolTip": "Enim mollitia.",
+        "Id": 173,
+        "Name": "Effertz, Padberg and Durgan",
+        "ToolTip": "Nemo officia nisi numquam sint incidunt voluptates.",
         "Deleted": false,
-        "Rank": 374,
-        "Type": "est",
-        "ColorBlock": 397,
-        "IconHint": "voluptas",
+        "Rank": 330,
+        "Type": "ut",
+        "ColorBlock": 577,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "1999-10-22T10:30:33.1943329+02:00",
+        "LastChanged": "2018-07-30T14:23:56.2908239+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
+        "ExtraInfo": "officia",
         "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Gracie Blanda",
+        "Hidden": false,
+        "FullName": "Annabel McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 684
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "a",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Erna Kemmer",
+    "FullName": "Quinn Steuber IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 874
       }
     }
   }

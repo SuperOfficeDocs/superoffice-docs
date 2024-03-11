@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Jan 2004 10:30:32 G1T
+Last-Modified: Tue, 29 Nov 2005 14:23:55 G11T
 
 {
-  "ForeignAppId": 389,
-  "Name": "Schowalter, Mohr and Mitchell",
-  "CreatedDate": "2007-12-10T10:30:32.0574265+01:00",
-  "UpdatedDate": "2004-01-06T10:30:32.0574265+01:00",
+  "ForeignAppId": 167,
+  "Name": "Hackett, Goldner and Ondricka",
+  "CreatedDate": "2017-01-16T14:23:55.1646464+01:00",
+  "UpdatedDate": "2005-11-29T14:23:55.1646464+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 641,
-      "Name": "Kuhn, Reinger and Ward",
-      "CreatedDate": "2019-07-28T10:30:32.0574265+02:00",
-      "UpdatedDate": "2010-01-02T10:30:32.0574265+01:00",
-      "AssociateFullName": "Mrs. Clementina Theo Cronin",
-      "CreatedBy": "error",
-      "UpdatedBy": "facilis",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 475,
+      "ForeignDeviceId": 644,
+      "Name": "Blick-Ritchie",
+      "CreatedDate": "2004-03-14T14:23:55.1802705+01:00",
+      "UpdatedDate": "2001-02-16T14:23:55.1802705+01:00",
+      "AssociateFullName": "Maximilian Nathen McClure II",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "nam",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 697,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 06 Jan 2004 10:30:32 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 196
     }
   }
 }

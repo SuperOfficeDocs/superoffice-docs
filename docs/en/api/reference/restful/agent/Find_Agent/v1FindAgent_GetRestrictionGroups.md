@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Keeling-Wisoky",
-  "StorageKey": "sed",
-  "Context": "modi"
+  "StorageType": "tenetur",
+  "ProviderName": "Mueller, Botsford and Schiller",
+  "StorageKey": "sapiente",
+  "Context": "aut"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murphy, Cruickshank and Beer",
-    "Description": "Compatible real-time encoding",
-    "Rank": 543,
+    "Name": "Effertz, Rosenbaum and Kertzmann",
+    "Description": "Function-based foreground forecast",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Batz-Ernser",
-        "Operator": "ut",
+        "Name": "Windler Inc and Sons",
+        "Operator": "aut",
         "Values": [
-          "aliquam",
-          "id"
+          "quasi",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "fugiat",
-          "enim"
+          "non",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 348,
+        "InterParenthesis": 524,
         "InterOperator": "And",
-        "UniqueHash": 471
+        "UniqueHash": 934
       }
     ]
   },
   {
-    "Name": "Murphy, Cruickshank and Beer",
-    "Description": "Compatible real-time encoding",
-    "Rank": 543,
+    "Name": "Effertz, Rosenbaum and Kertzmann",
+    "Description": "Function-based foreground forecast",
+    "Rank": 929,
     "Restrictions": [
       {
-        "Name": "Batz-Ernser",
-        "Operator": "ut",
+        "Name": "Windler Inc and Sons",
+        "Operator": "aut",
         "Values": [
-          "aliquam",
-          "id"
+          "quasi",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "fugiat",
-          "enim"
+          "non",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 348,
+        "InterParenthesis": 524,
         "InterOperator": "And",
-        "UniqueHash": 471
+        "UniqueHash": 934
       }
     ]
   }

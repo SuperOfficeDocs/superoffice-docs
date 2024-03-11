@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916,
-  "StartTime": "2005-03-11T10:30:23.5925282+01:00",
-  "EndTime": "2009-12-17T10:30:23.5925282+01:00",
-  "Count": 766,
-  "DocumentTemplateId": 237
+  "ProjectId": 231,
+  "StartTime": "2006-06-16T14:23:46.2980824+02:00",
+  "EndTime": "2018-06-26T14:23:46.2980824+02:00",
+  "Count": 926,
+  "DocumentTemplateId": 605
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 712,
-    "Attention": "nesciunt",
-    "Header": "ipsam",
-    "Name": "Sanford-Kozey",
-    "OurRef": "sed",
-    "YourRef": "voluptatem",
-    "Description": "Visionary 24/7 approach",
-    "DocumentTemplate": "unde",
-    "IsPublished": true,
-    "PersonId": 527,
-    "PersonFullName": "Adrain Wolf",
-    "AssociateFullName": "Prof. Delta Vallie Hilll",
-    "ContactId": 362,
-    "ContactName": "Russel-Hyatt",
-    "ProjectId": 28,
-    "ProjectName": "Kshlerin-Little",
-    "AssociateId": 411,
-    "Snum": 996,
-    "SaleId": 980,
-    "SaleName": "Russel, McClure and Davis",
+    "DocumentId": 394,
+    "Attention": "voluptatum",
+    "Header": "eos",
+    "Name": "Jakubowski-Bashirian",
+    "OurRef": "nesciunt",
+    "YourRef": "hic",
+    "Description": "Monitored assymetric software",
+    "DocumentTemplate": "illum",
+    "IsPublished": false,
+    "PersonId": 929,
+    "PersonFullName": "Geovany Yost",
+    "AssociateFullName": "Annalise Wilkinson",
+    "ContactId": 201,
+    "ContactName": "Beatty Group",
+    "ProjectId": 367,
+    "ProjectName": "Tromp, Gerhold and Gottlieb",
+    "AssociateId": 882,
+    "Snum": 854,
+    "SaleId": 203,
+    "SaleName": "Hagenes LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldLength": 300
       }
     }
   }

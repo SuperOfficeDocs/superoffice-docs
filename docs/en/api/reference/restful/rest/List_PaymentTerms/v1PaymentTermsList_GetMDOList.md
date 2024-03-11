@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=culpa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Nader, Herman and Dickinson",
-    "ToolTip": "Aut ut rerum optio.",
+    "Id": 977,
+    "Name": "Mraz-Kemmer",
+    "ToolTip": "Ab reiciendis dignissimos voluptatum libero eum.",
     "Deleted": false,
-    "Rank": 966,
-    "Type": "velit",
+    "Rank": 40,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Botsford-Senger",
-        "ToolTip": "Repellendus quia non ipsam eaque assumenda.",
+        "Id": 893,
+        "Name": "Funk, Heaney and Cormier",
+        "ToolTip": "Velit officia corrupti adipisci.",
         "Deleted": false,
-        "Rank": 617,
-        "Type": "consequatur",
+        "Rank": 109,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 835,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "autem",
-        "FullName": "Geo Spinka",
+        "IconHint": "consequatur",
+        "ColorBlock": 276,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "delectus",
+        "FullName": "Mrs. Afton Isabelle Botsford III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 402
           }
         }
       }
     ],
-    "IconHint": "placeat",
-    "ColorBlock": 188,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "amet",
-    "FullName": "Ayla Stracke",
+    "IconHint": "rerum",
+    "ColorBlock": 706,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "vero",
+    "FullName": "Dr. Kade Margret Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 59
       }
     }
   }

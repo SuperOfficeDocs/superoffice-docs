@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 89
+  "Id": 996
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 498,
-  "Rank": 891,
-  "DefaultTask": 820,
-  "DefaultTaskText": "molestias",
-  "IsVisual": true,
-  "LastGenerated": "2017-08-12T10:30:24.4815013+02:00",
-  "Description": "Devolved didactic approach",
-  "Name": "Bednar, Muller and Wuckert",
-  "StatusMonitorId": 858,
-  "PictureId": 880,
+  "OwnerTable": 601,
+  "Rank": 308,
+  "DefaultTask": 121,
+  "DefaultTaskText": "quis",
+  "IsVisual": false,
+  "LastGenerated": "2022-11-07T14:23:47.3005077+01:00",
+  "Description": "Reduced next generation Graphic Interface",
+  "Name": "Heaney-Eichmann",
+  "StatusMonitorId": 727,
+  "PictureId": 123,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 590,
-  "NumNeedUpdate": 188,
-  "GenerationStart": "2007-02-22T10:30:24.4815013+01:00",
+  "Deleted": false,
+  "NumMatches": 817,
+  "NumNeedUpdate": 84,
+  "GenerationStart": "2000-07-11T14:23:47.3005077+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 651
     }
   }
 }

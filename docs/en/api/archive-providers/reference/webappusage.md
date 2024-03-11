@@ -60,6 +60,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/otherGroups|userGroup|Associate - Other groups: Other groups|  |
 |associate/userName|string|Associate - User name: User name| x |
 |associate/personEmail|string|Associate - E-mail| x |
+|associate/locationAddress|string|Associate - Location: Location| x |
 
 ## Sample
 

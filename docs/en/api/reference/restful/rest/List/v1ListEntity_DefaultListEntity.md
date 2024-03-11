@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Maggio, Turner and Doyle",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 875,
+  "Id": 124,
+  "Name": "Schroeder-Steuber",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 136,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 219
     }
   }
 }

@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Fritsch LLC",
-  "Tooltip": "alias",
-  "Deleted": false,
-  "Rank": 643,
+  "Id": 822,
+  "Name": "Satterfield-Ryan",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 751,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 42,
-  "Name": "Wyman Group",
-  "Tooltip": "atque",
+  "Id": 579,
+  "Name": "O'Kon Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 256,
+  "Rank": 920,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   },
   "_Links": {

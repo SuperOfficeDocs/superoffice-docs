@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Batz LLC",
-    "Tooltip": "et",
+    "Id": 555,
+    "Name": "Lockman-Bednar",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 699,
-    "Rank": 115
+    "UdListDefinitionId": 687,
+    "Rank": 929
   },
   {
-    "Id": 361,
-    "Name": "Batz LLC",
-    "Tooltip": "et",
+    "Id": 555,
+    "Name": "Lockman-Bednar",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 699,
-    "Rank": 115
+    "UdListDefinitionId": 687,
+    "Rank": 929
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Zieme, Walter and Prohaska",
-    "Tooltip": "numquam",
+    "Id": 596,
+    "Name": "Mante LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 924,
-    "Rank": 210,
+    "UdListDefinitionId": 166,
+    "Rank": 721,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 689
       }
     }
   }

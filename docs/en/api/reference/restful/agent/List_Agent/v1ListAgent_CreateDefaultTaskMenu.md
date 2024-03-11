@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 848,
-  "Name": "Lang-Kohler",
-  "Tooltip": "commodi",
-  "TableName": "Feil-Bashirian",
-  "Area": "dolorum",
+  "TaskMenuId": 845,
+  "Name": "Fritsch-Hodkiewicz",
+  "Tooltip": "expedita",
+  "TableName": "Schulist-DuBuque",
+  "Area": "id",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 335,
+  "CrmScriptId": 477,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 607,
+  "Rank": 775,
   "Encoding": "ANSI",
-  "ProgId": "rerum",
+  "ProgId": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   }
 }

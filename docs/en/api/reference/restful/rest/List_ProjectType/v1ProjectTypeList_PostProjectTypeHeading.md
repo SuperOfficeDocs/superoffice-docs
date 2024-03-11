@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 976,
-  "Name": "Greenfelder-Schneider",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "Rank": 517,
-  "UdListDefinitionId": 421
+  "HeadingId": 627,
+  "Name": "Murray, Rohan and Welch",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "Rank": 93,
+  "UdListDefinitionId": 193
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 32,
-  "Name": "Emard LLC",
-  "Tooltip": "ut",
+  "HeadingId": 430,
+  "Name": "Reilly-Miller",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 286,
-  "UdListDefinitionId": 845,
+  "Rank": 880,
+  "UdListDefinitionId": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

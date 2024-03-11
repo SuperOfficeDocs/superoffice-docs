@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 419,
-  "Name": "Leffler Inc and Sons",
-  "CurrencyId": 680,
-  "EnglishName": "Kling Inc and Sons",
+  "CountryId": 233,
+  "Name": "Connelly-Tillman",
+  "CurrencyId": 660,
+  "EnglishName": "Ebert-Ledner",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Phased foreground archive",
-  "OrgNrText": "968788",
-  "InterAreaPrefix": "at",
-  "DialInPrefix": "sunt",
-  "ZipPrefix": "quibusdam",
-  "DomainName": "Yost, Barrows and Hickle",
-  "AddressLayoutId": 377,
-  "DomesticAddressLayoutId": 437,
-  "ForeignAddressLayoutId": 611,
-  "Rank": 674,
-  "Tooltip": "praesentium",
-  "Deleted": false,
+  "ImageDescription": "Total content-based matrix",
+  "OrgNrText": "544823",
+  "InterAreaPrefix": "expedita",
+  "DialInPrefix": "ducimus",
+  "ZipPrefix": "commodi",
+  "DomainName": "Prohaska-Okuneva",
+  "AddressLayoutId": 599,
+  "DomesticAddressLayoutId": 561,
+  "ForeignAddressLayoutId": 496,
+  "Rank": 763,
+  "Tooltip": "qui",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 682
     }
   }
 }

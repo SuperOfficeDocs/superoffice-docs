@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Kutch, Hermann and Pfeffer",
-    "ToolTip": "Voluptates et voluptas aut ea nemo ipsum.",
+    "Id": 13,
+    "Name": "Wyman Group",
+    "ToolTip": "Porro in sapiente consequuntur et saepe.",
     "Deleted": true,
-    "Rank": 543,
-    "Type": "enim",
-    "ColorBlock": 501,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2000-11-27T10:30:32.9430827+01:00",
+    "Rank": 392,
+    "Type": "aut",
+    "ColorBlock": 435,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2013-11-29T14:23:56.0564526+01:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Jones, Hayes and Koss",
-        "ToolTip": "Distinctio error rerum eveniet aut labore voluptatum.",
+        "Id": 527,
+        "Name": "Koepp, Reichel and Cronin",
+        "ToolTip": "Qui optio omnis possimus aut.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "minima",
-        "ColorBlock": 70,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2004-08-20T10:30:32.9430827+02:00",
+        "Rank": 820,
+        "Type": "cupiditate",
+        "ColorBlock": 360,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2004-03-31T14:23:56.0564526+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Marlene Metz IV"
+        "ExtraInfo": "incidunt",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Miss Erik Bogisich"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "quo",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Genoveva Stracke"
+    "FullName": "Prof. Dina Metz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Russel, Raynor and Bogisich",
-    "ToolTip": "Asperiores laboriosam eos.",
+    "Id": 781,
+    "Name": "Lynch Inc and Sons",
+    "ToolTip": "Consectetur iure occaecati.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "similique",
-    "ColorBlock": 334,
-    "IconHint": "debitis",
+    "Rank": 693,
+    "Type": "cum",
+    "ColorBlock": 462,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2003-01-27T10:30:32.9430827+01:00",
+    "LastChanged": "2021-02-25T14:23:56.0564526+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Ullrich, Kuhlman and Schaden",
-        "ToolTip": "Cupiditate non amet.",
-        "Deleted": true,
-        "Rank": 679,
-        "Type": "assumenda",
-        "ColorBlock": 288,
-        "IconHint": "nihil",
+        "Id": 94,
+        "Name": "Stokes, Braun and Kuhic",
+        "ToolTip": "Doloremque dolores.",
+        "Deleted": false,
+        "Rank": 91,
+        "Type": "non",
+        "ColorBlock": 122,
+        "IconHint": "reiciendis",
         "Selected": true,
-        "LastChanged": "2002-06-12T10:30:32.9430827+02:00",
+        "LastChanged": "2000-12-30T14:23:56.0564526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Parker Wuckert",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Shanel Dariana Metz MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 805
+            "FieldType": "System.String",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "sit",
+    "ExtraInfo": "repellat",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Dr. Meghan Cristina Beier",
+    "FullName": "Mr. Elva Lowe Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 778,
-  "Name": "Moore Group",
-  "CreatedDate": "2015-12-22T10:30:32.0730519+01:00",
-  "UpdatedDate": "2018-08-10T10:30:32.0730519+02:00",
+  "ForeignAppId": 517,
+  "Name": "Jacobi LLC",
+  "CreatedDate": "2009-10-05T14:23:55.1802705+02:00",
+  "UpdatedDate": "2006-09-08T14:23:55.1802705+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 197,
-      "Name": "Daniel-Ward",
-      "CreatedDate": "2011-04-06T10:30:32.0730519+02:00",
-      "UpdatedDate": "2023-09-06T10:30:32.0730519+02:00",
-      "AssociateFullName": "Foster Lang DDS",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "beatae",
-      "DeviceIdentifier": "nam",
-      "ForeignAppId": 43,
+      "ForeignDeviceId": 484,
+      "Name": "Schuster Inc and Sons",
+      "CreatedDate": "2012-05-11T14:23:55.1802705+02:00",
+      "UpdatedDate": "2013-10-26T14:23:55.1802705+02:00",
+      "AssociateFullName": "Mrs. Benedict Howe Sr.",
+      "CreatedBy": "illo",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 814,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 63
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   },
   "_Links": {

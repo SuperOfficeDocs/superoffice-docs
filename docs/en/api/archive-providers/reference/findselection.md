@@ -74,11 +74,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |selectionAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
+|selectionAssociate/locationAddress|string|Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSelection?$select=selectionAssociate/contactId,selectionAssociate/credentialDisplayValue,lastLoadedByFullName
+GET /api/v1/archive/FindSelection?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

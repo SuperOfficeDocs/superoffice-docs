@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Bailey Inc and Sons",
-    "ToolTip": "Aut saepe laboriosam ratione libero ipsam autem.",
+    "Id": 952,
+    "Name": "Gaylord, Quigley and D'Amore",
+    "ToolTip": "Et delectus sed fugiat molestias.",
     "Deleted": true,
-    "Rank": 265,
-    "Type": "temporibus",
-    "ColorBlock": 475,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2007-02-23T10:30:33.2255818+01:00",
+    "Rank": 796,
+    "Type": "aut",
+    "ColorBlock": 560,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "1998-10-14T14:23:56.3220736+02:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Eichmann Inc and Sons",
-        "ToolTip": "Quo expedita suscipit minus est itaque minima.",
-        "Deleted": false,
-        "Rank": 311,
-        "Type": "molestiae",
-        "ColorBlock": 302,
-        "IconHint": "possimus",
+        "Id": 956,
+        "Name": "Jast, Altenwerth and Emard",
+        "ToolTip": "Quia consectetur rerum consequatur omnis.",
+        "Deleted": true,
+        "Rank": 232,
+        "Type": "nemo",
+        "ColorBlock": 665,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2007-10-17T10:30:33.2255818+02:00",
+        "LastChanged": "2023-04-06T14:23:56.3220736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Mr. Twila Stefanie Bernhard"
+        "ExtraInfo": "illo",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Lucienne Littel"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "labore",
+    "ExtraInfo": "sed",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Miss Vito Manuel Sipes MD"
+    "FullName": "Haven Mohr"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Kohler-Cassin",
-    "ToolTip": "Consequatur necessitatibus rerum cupiditate rem magni itaque fugiat.",
+    "Id": 43,
+    "Name": "Ebert Group",
+    "ToolTip": "Possimus quis soluta earum et repudiandae aut.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "quae",
-    "ColorBlock": 734,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2008-08-04T10:30:33.2255818+02:00",
+    "Rank": 518,
+    "Type": "eum",
+    "ColorBlock": 749,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2021-03-01T14:23:56.3220736+01:00",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Sanford Inc and Sons",
-        "ToolTip": "Hic dignissimos laborum ea delectus qui in.",
-        "Deleted": true,
-        "Rank": 419,
-        "Type": "fuga",
-        "ColorBlock": 875,
-        "IconHint": "qui",
+        "Id": 250,
+        "Name": "Schmeler LLC",
+        "ToolTip": "Qui officiis illo labore doloremque est earum.",
+        "Deleted": false,
+        "Rank": 957,
+        "Type": "voluptatem",
+        "ColorBlock": 142,
+        "IconHint": "autem",
         "Selected": true,
-        "LastChanged": "2013-05-10T10:30:33.2255818+02:00",
+        "LastChanged": "2023-03-25T14:23:56.3220736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "iste",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Linda Sawayn",
+        "FullName": "Dr. Sherwood Russel DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 437
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Shakira Bogan DDS",
+    "ExtraInfo": "ut",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Jude Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 200
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   }

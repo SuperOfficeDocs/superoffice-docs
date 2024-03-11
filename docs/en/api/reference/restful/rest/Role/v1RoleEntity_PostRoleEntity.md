@@ -105,16 +105,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 284,
-  "Name": "Morissette, Zboncak and Schumm",
-  "Tooltip": "incidunt",
+  "RoleId": 317,
+  "Name": "Bernhard LLC",
+  "Tooltip": "rerum",
   "RoleType": "Anonymous",
-  "Deleted": 981,
-  "Rank": 393,
-  "Created": "2006-01-31T10:30:32.260549+01:00",
-  "UseCategories": 653,
+  "Deleted": 723,
+  "Rank": 840,
+  "Created": "2022-04-05T14:23:55.384586+02:00",
+  "UseCategories": 558,
   "CreatedBy": null,
-  "Updated": "2004-04-25T10:30:32.260549+02:00",
+  "Updated": "1999-04-14T14:23:55.384586+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 912,
-  "Name": "West Group",
-  "Tooltip": "odio",
+  "RoleId": 774,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 115,
-  "Rank": 239,
-  "Created": "2022-06-11T10:30:32.260549+02:00",
-  "UseCategories": 322,
+  "Deleted": 790,
+  "Rank": 571,
+  "Created": "2003-09-07T14:23:55.384586+02:00",
+  "UseCategories": 773,
   "CreatedBy": null,
-  "Updated": "2017-03-22T10:30:32.260549+01:00",
+  "Updated": "2005-12-07T14:23:55.384586+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 553
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

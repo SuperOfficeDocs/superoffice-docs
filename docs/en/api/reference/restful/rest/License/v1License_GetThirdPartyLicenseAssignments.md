@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 949,
-    "Tooltip": "qui",
+    "Unrestricted": false,
+    "Total": 440,
+    "Tooltip": "nulla",
     "CanAssign": false,
-    "Free": 236,
-    "InUse": 138,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 976,
-    "Name": "Durgan-Stiedemann",
-    "Description": "Profound dedicated Graphical User Interface",
-    "PrerequisiteModuleName": "Vandervort LLC",
-    "SortOrder": 660,
-    "ExtraFlags": 63,
+    "Free": 305,
+    "InUse": 441,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 350,
+    "Name": "Jast-Haley",
+    "Description": "Switchable heuristic structure",
+    "PrerequisiteModuleName": "Kuhn, Turner and Ryan",
+    "SortOrder": 623,
+    "ExtraFlags": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

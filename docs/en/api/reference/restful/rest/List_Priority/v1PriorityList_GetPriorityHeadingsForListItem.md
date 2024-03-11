@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Jewess-Greenholt",
-    "ToolTip": "Accusantium ut voluptas.",
-    "Deleted": true,
-    "Rank": 741,
-    "Type": "mollitia",
-    "ColorBlock": 294,
-    "IconHint": "dolore",
+    "Id": 414,
+    "Name": "Jast Inc and Sons",
+    "ToolTip": "Nostrum minima aut officiis voluptates.",
+    "Deleted": false,
+    "Rank": 2,
+    "Type": "vitae",
+    "ColorBlock": 753,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2018-09-20T10:30:33.0849147+02:00",
+    "LastChanged": "1997-11-24T14:23:56.1814517+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Harris LLC",
-        "ToolTip": "Beatae eos deleniti.",
+        "Id": 935,
+        "Name": "Windler Inc and Sons",
+        "ToolTip": "Et qui laudantium pariatur earum.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "autem",
-        "ColorBlock": 52,
-        "IconHint": "nostrum",
+        "Rank": 499,
+        "Type": "voluptatem",
+        "ColorBlock": 989,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2023-07-22T10:30:33.0849147+02:00",
+        "LastChanged": "2012-11-09T14:23:56.1814517+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "sed",
+        "ExtraInfo": "velit",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Mr. Sonya Maggio",
+        "FullName": "Geoffrey DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 997
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Shanon Deckow",
+    "ExtraInfo": "rem",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Mrs. Ellsworth Dach V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

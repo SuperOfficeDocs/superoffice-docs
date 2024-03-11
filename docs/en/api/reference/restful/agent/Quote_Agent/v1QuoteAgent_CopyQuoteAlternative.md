@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 796,
-  "QuoteAlternativeId": 716,
-  "QuoteAlternativeName": "Wiza, Nicolas and Raynor"
+  "QuoteVersionId": 647,
+  "QuoteAlternativeId": 197,
+  "QuoteAlternativeName": "Kovacek Group"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 341,
-  "ERPQuoteAlternativeKey": "numquam",
-  "QuoteVersionId": 247,
-  "Name": "Lakin, Schimmel and Shields",
-  "Description": "Future-proofed cohesive customer loyalty",
+  "QuoteAlternativeId": 425,
+  "ERPQuoteAlternativeKey": "eos",
+  "QuoteVersionId": 98,
+  "Name": "Bernhard-Auer",
+  "Description": "Customizable 4th generation workforce",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6390.226,
-  "ERPDiscountAmount": 21038.541999999998,
-  "DiscountPercent": 1899.204,
-  "DiscountAmount": 15425.547999999999,
+  "ERPDiscountPercent": 20812.894,
+  "ERPDiscountAmount": 26692.278,
+  "DiscountPercent": 21599.528,
+  "DiscountAmount": 22558.532,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "non",
-  "VAT": 28039.897999999997,
-  "EarningPercent": 27735.899999999998,
-  "EarningAmount": 21192.108,
-  "SubTotal": 25391.667999999998,
-  "TotalPrice": 4397.0019999999995,
-  "ExtraField1": "quis",
-  "ExtraField2": "vitae",
-  "ExtraField3": "quod",
-  "ExtraField4": "excepturi",
-  "ExtraField5": "nesciunt",
+  "VATInfo": "in",
+  "VAT": 3663.6459999999997,
+  "EarningPercent": 16375.15,
+  "EarningAmount": 7258.344,
+  "SubTotal": 4889.04,
+  "TotalPrice": 17685.162,
+  "ExtraField1": "non",
+  "ExtraField2": "quo",
+  "ExtraField3": "inventore",
+  "ExtraField4": "doloremque",
+  "ExtraField5": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

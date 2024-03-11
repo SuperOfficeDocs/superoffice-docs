@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 359,
+  "CRMScriptId": 607,
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ut",
-    "InputValues2": "sapiente"
+    "InputValues1": "quaerat",
+    "InputValues2": "dolore"
   },
   "BlockExecution": false,
-  "NavigateTo": "recusandae",
-  "Message": "aut",
-  "ShowDialog": "ducimus",
+  "NavigateTo": "quam",
+  "Message": "sunt",
+  "ShowDialog": "est",
   "OutputValues": {
-    "OutputValues1": "sit",
-    "OutputValues2": "autem"
+    "OutputValues1": "porro",
+    "OutputValues2": "voluptas"
   },
   "StateValues": {
-    "StateValues1": "id",
-    "StateValues2": "enim"
+    "StateValues1": "reiciendis",
+    "StateValues2": "sequi"
   },
-  "Exception": "amet",
+  "Exception": "doloremque",
   "ParserValues": {
-    "ParserValues1": "quod",
-    "ParserValues2": "reiciendis"
+    "ParserValues1": "aliquam",
+    "ParserValues2": "et"
   },
   "CgiVariables": {
-    "CgiVariables1": "alias",
-    "CgiVariables2": "itaque"
+    "CgiVariables1": "quia",
+    "CgiVariables2": "ipsum"
   },
-  "CgiContent": "tempore",
+  "CgiContent": "veniam",
   "Headers": {
-    "Headers1": "atque",
-    "Headers2": "corporis"
+    "Headers1": "culpa",
+    "Headers2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 979
     }
   }
 }

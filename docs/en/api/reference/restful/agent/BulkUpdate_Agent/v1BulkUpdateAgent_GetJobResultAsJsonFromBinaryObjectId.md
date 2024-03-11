@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McLaughlin Inc and Sons",
-  "BinaryObjectId": 421
+  "TableName": "Grimes, Bernhard and Effertz",
+  "BinaryObjectId": 524
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"beatae"
+"et"
 ```

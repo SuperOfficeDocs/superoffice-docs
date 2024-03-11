@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 856,
-    "Name": "Waters-Steuber",
-    "Tooltip": "dolorem",
+    "HeadingId": 922,
+    "Name": "Eichmann-Steuber",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 313,
+    "Rank": 299,
+    "UdListDefinitionId": 461,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldLength": 299
       }
     }
   }

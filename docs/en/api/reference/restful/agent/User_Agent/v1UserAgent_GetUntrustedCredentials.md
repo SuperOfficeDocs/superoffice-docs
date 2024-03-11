@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "exercitationem"
+  "Type": "et"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2019-03-27T10:30:25.0298296+01:00",
-    "ValidTo": "2005-08-08T10:30:25.0298296+02:00",
-    "Comment": "quam",
-    "SecretValue": "molestias",
-    "PublicValue": "qui",
+    "ValidFrom": "1999-04-17T14:23:47.8786246+02:00",
+    "ValidTo": "2000-05-02T14:23:47.8786246+02:00",
+    "Comment": "soluta",
+    "SecretValue": "quasi",
+    "PublicValue": "quia",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 26
       }
     }
   }

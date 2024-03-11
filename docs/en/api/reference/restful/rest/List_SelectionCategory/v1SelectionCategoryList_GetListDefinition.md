@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Kertzmann Group",
-  "Tooltip": "libero",
+  "Id": 978,
+  "Name": "Beahan, Lubowitz and Roberts",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "Rank": 206,
-  "IsCustomList": true,
+  "Rank": 172,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   },
   "_Links": {

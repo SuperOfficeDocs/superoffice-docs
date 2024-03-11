@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 33
+  "ChatSessionId": 441
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 691,
-  "TopicId": 406,
+  "ChatSessionId": 574,
+  "TopicId": 72,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eos",
-  "CustomerHost": "quis",
-  "CustomerName": "Howell Inc and Sons",
-  "CustomerEmail": "larissa@nader.uk",
-  "CustomerPhone": "(049)761-2894 x64093",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Williamson Group",
+  "CustomerAlias": "eius",
+  "CustomerHost": "tempora",
+  "CustomerName": "Ledner, Cartwright and Kovacek",
+  "CustomerEmail": "bradford.zboncak@blick.co.uk",
+  "CustomerPhone": "401-899-1184 x898",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Price Group",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "fugit",
-  "WhenRequested": "2008-11-29T10:30:23.2261925+01:00",
-  "WhenStarted": "2002-09-07T10:30:23.2261925+02:00",
-  "WhenEnded": "2006-03-15T10:30:23.2261925+01:00",
-  "WhenIdle": "2007-07-05T10:30:23.2261925+02:00",
-  "WhenFetched": "2005-04-25T10:30:23.2261925+02:00",
-  "SessionKey": "doloribus",
-  "InitialQueuePos": 854,
-  "AlertLevel": 572,
-  "Rank": 177,
+  "FirstMessage": "aliquam",
+  "LastMessage": "ex",
+  "WhenRequested": "2020-06-24T14:23:46.0168337+02:00",
+  "WhenStarted": "2002-11-15T14:23:46.0168337+01:00",
+  "WhenEnded": "1999-04-29T14:23:46.0168337+02:00",
+  "WhenIdle": "2016-08-31T14:23:46.0168337+02:00",
+  "WhenFetched": "1997-08-13T14:23:46.0168337+02:00",
+  "SessionKey": "optio",
+  "InitialQueuePos": 766,
+  "AlertLevel": 931,
+  "Rank": 109,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 518,
+  "ChatbotIsActive": true,
+  "Rating": 604,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   }
 }

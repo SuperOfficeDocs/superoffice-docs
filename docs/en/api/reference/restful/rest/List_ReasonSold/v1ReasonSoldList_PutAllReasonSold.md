@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Erdman Group",
-    "Tooltip": "qui",
+    "Id": 176,
+    "Name": "O'Conner, Osinski and Kuphal",
+    "Tooltip": "odio",
     "Deleted": false,
-    "UdListDefinitionId": 173,
-    "Rank": 863
+    "UdListDefinitionId": 660,
+    "Rank": 518
   },
   {
-    "Id": 617,
-    "Name": "Erdman Group",
-    "Tooltip": "qui",
+    "Id": 176,
+    "Name": "O'Conner, Osinski and Kuphal",
+    "Tooltip": "odio",
     "Deleted": false,
-    "UdListDefinitionId": 173,
-    "Rank": 863
+    "UdListDefinitionId": 660,
+    "Rank": 518
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Lang-Muller",
-    "Tooltip": "beatae",
+    "Id": 232,
+    "Name": "Lubowitz-Crooks",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 867,
+    "UdListDefinitionId": 420,
+    "Rank": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 889
       }
     }
   }

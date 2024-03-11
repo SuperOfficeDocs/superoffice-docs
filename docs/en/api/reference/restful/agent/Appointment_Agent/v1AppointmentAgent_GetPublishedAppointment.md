@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 181
+  "AppointmentId": 85
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 223,
-  "StartDate": "1999-09-11T10:30:22.5942688+02:00",
-  "EndDate": "2013-11-11T10:30:22.5942688+01:00",
+  "AppointmentId": 699,
+  "StartDate": "2002-06-01T14:23:45.3907072+02:00",
+  "EndDate": "2017-02-10T14:23:45.3907072+01:00",
   "Type": "BookingForChecklist",
-  "Task": "tenetur",
-  "AssociateFullName": "Andre Orn",
-  "ContactName": "Ward-Wilderman",
-  "Description": "Ergonomic well-modulated extranet",
-  "PersonFullName": "Dr. Garry Keegan Heller II",
-  "PersonId": 463,
-  "ContactId": 715,
-  "ProjectId": 4,
-  "ProjectName": "Hudson LLC",
+  "Task": "aperiam",
+  "AssociateFullName": "Arthur Kling Jr.",
+  "ContactName": "Ortiz-Brown",
+  "Description": "Optimized dedicated software",
+  "PersonFullName": "Elizabeth Goldner",
+  "PersonId": 532,
+  "ContactId": 257,
+  "ProjectId": 233,
+  "ProjectName": "Ebert, Effertz and Wintheiser",
   "IsPublished": false,
-  "AssociateId": 96,
-  "ColorIndex": 381,
-  "IsFree": false,
+  "AssociateId": 779,
+  "ColorIndex": 289,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 738,
-  "PriorityName": "Mills, Hagenes and Walker",
+  "PriorityId": 137,
+  "PriorityName": "Bode Group",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2017-03-29T10:30:22.5942688+02:00",
+  "ActiveDate": "2008-02-03T14:23:45.3907072+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2018-05-09T10:30:22.5942688+02:00",
-  "RecurringEndDate": "1997-02-02T10:30:22.5942688+01:00",
-  "MotherId": 124,
-  "AssignedBy": 339,
-  "AssignedByFullName": "Jeffery Zemlak",
+  "RecurringStartDate": "2007-08-25T14:23:45.3907072+02:00",
+  "RecurringEndDate": "2017-10-15T14:23:45.3907072+02:00",
+  "MotherId": 598,
+  "AssignedBy": 719,
+  "AssignedByFullName": "Icie Towne MD",
   "RejectReason": "",
-  "Location": "ut",
-  "AlarmLeadTime": "reprehenderit",
-  "SaleId": 357,
-  "SaleName": "Kuvalis, Lebsack and Wunsch",
-  "AssociateName": "Wiegand-Schimmel",
-  "CreatedDate": "2014-07-29T10:30:22.5942688+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Curt Durgan",
-  "CreatedByAssociateId": 264,
+  "Location": "voluptatem",
+  "AlarmLeadTime": "sint",
+  "SaleId": 116,
+  "SaleName": "Bahringer-Legros",
+  "AssociateName": "Beatty Group",
+  "CreatedDate": "2018-06-30T14:23:45.3907072+02:00",
+  "CreatedBy": "impedit",
+  "CreatedByFullName": "Jewel Torp",
+  "CreatedByAssociateId": 316,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 763,
-  "Title": "quae",
-  "Agenda": "quia",
-  "InternalNotes": "ipsam",
+  "PreferredTZLocation": 598,
+  "Title": "molestiae",
+  "Agenda": "minus",
+  "InternalNotes": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldLength": 817
     }
   }
 }

@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "provident",
-  "Key": "est",
+  "Section": "est",
+  "Key": "molestias",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 170,
-  "Section": "porro",
-  "Key": "rerum",
-  "Name": "Brown-Dach",
+  "PrefDescId": 482,
+  "Section": "ratione",
+  "Key": "consectetur",
+  "Name": "Breitenberg, Collins and Boehm",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured 24/7 frame",
-  "IsBuiltin": true,
-  "TableName": "Schroeder-Stoltenberg",
-  "UserDefinedListId": 523,
-  "Rank": 916,
-  "SubGroup": "possimus",
-  "MinLevel": 89,
-  "MaxValue": 249,
-  "MinValue": 151,
-  "RequiredLicense": "quos",
+  "Description": "Up-sized logistical support",
+  "IsBuiltin": false,
+  "TableName": "Haley-Dicki",
+  "UserDefinedListId": 418,
+  "Rank": 99,
+  "SubGroup": "consequuntur",
+  "MinLevel": 639,
+  "MaxValue": 981,
+  "MinValue": 364,
+  "RequiredLicense": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   }
 }

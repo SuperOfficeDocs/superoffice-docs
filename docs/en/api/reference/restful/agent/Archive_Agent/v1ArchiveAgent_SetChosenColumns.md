@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brown-Pagac",
-  "ProviderName": "Block-Jacobson",
+  "GuiName": "Littel, Schaden and Block",
+  "ProviderName": "Steuber Inc and Sons",
   "ChosenColumns": [
-    "soluta",
-    "dolores"
+    "quia",
+    "assumenda"
   ]
 }
 ```

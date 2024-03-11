@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=266
+POST /api/v1/Agents/User/GetUser?userId=72
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 303,
-  "Name": "Flatley, Kertzmann and Emard",
-  "Rank": 96,
-  "Tooltip": "odio",
+  "AssociateId": 750,
+  "Name": "Romaguera, Lynch and Conn",
+  "Rank": 334,
+  "Tooltip": "quia",
   "LicenseOwners": [
     {
-      "Name": "Brekke, Krajcik and Langworth",
-      "Description": "Centralized explicit strategy",
+      "Name": "Torphy, King and Murray",
+      "Description": "Assimilated systematic portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldLength": 401
         }
       }
     },
     {
-      "Name": "Brekke, Krajcik and Langworth",
-      "Description": "Centralized explicit strategy",
+      "Name": "Torphy, King and Murray",
+      "Description": "Assimilated systematic portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldLength": 401
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quam",
-      "Tooltip": "velit",
-      "Id": 908,
-      "Rank": 209,
+      "Value": "molestiae",
+      "Tooltip": "similique",
+      "Id": 877,
+      "Rank": 817,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 166
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-01-01T10:30:25.0142166+01:00",
-  "Lastlogout": "2004-07-25T10:30:25.0142166+02:00",
-  "EjUserId": 821,
-  "RequestSignature": "id",
+  "Lastlogin": "2009-06-03T14:23:47.8630016+02:00",
+  "Lastlogout": "2010-11-05T14:23:47.8630016+01:00",
+  "EjUserId": 490,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "enim",
+      "Value": "amet",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 412
         }
       }
     },
     {
       "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "enim",
+      "Value": "amet",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 412
         }
       }
     }
   ],
-  "UserName": "Mraz Group",
+  "UserName": "Schneider Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 835,
-      "Name": "Schaden, Auer and Mraz",
-      "ToolTip": "Ducimus repellendus ipsam numquam ducimus nesciunt.",
+      "Id": 275,
+      "Name": "Wiza, Ward and McDermott",
+      "ToolTip": "Dolorem omnis sint omnis perferendis.",
       "Deleted": true,
-      "Rank": 286,
-      "Type": "esse",
+      "Rank": 828,
+      "Type": "accusamus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nisi",
-      "ColorBlock": 409,
-      "ExtraInfo": "ad",
-      "StyleHint": "dicta",
-      "FullName": "Mr. Lexus Larkin PhD",
+      "IconHint": "aut",
+      "ColorBlock": 887,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "vel",
+      "FullName": "Pearl Durgan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 667
         }
       }
     }
   ],
-  "NickName": "Vandervort-Ferry",
+  "NickName": "Herman, Bartoletti and O'Hara",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "voluptates"
   },
   "PostSaveCommands": [
     {
-      "Name": "Denesik, Ledner and Strosin",
-      "DisplayName": "Schaefer Inc and Sons",
-      "Description": "Automated transitional archive",
-      "ToolTip": "Sit odit eligendi atque inventore amet.",
+      "Name": "Torp Group",
+      "DisplayName": "Jacobson-Leuschke",
+      "Description": "Customer-focused uniform moderator",
+      "ToolTip": "Harum sequi necessitatibus et similique vel voluptates.",
       "Actions": "Implicit",
-      "ActionData": "molestias",
+      "ActionData": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 179
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 620
     }
   }
 }

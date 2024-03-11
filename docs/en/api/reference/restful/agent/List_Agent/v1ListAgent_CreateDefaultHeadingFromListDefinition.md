@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 903
+  "UdListDefinitionId": 207
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 732,
-  "Name": "Bode-Green",
-  "Tooltip": "quos",
+  "HeadingId": 13,
+  "Name": "Schneider Group",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 408,
-  "UdListDefinitionId": 49,
+  "Rank": 166,
+  "UdListDefinitionId": 667,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   }
 }

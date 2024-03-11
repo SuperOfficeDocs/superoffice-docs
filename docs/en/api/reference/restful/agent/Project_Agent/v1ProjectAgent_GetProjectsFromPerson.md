@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 661
+  "PersonId": 746
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 828,
-    "Name": "Schulist, Moen and Fritsch",
-    "Description": "Total global software",
+    "ProjectId": 616,
+    "Name": "Armstrong Group",
+    "Description": "Assimilated grid-enabled projection",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 973,
-    "AssociateFullName": "Jordyn Issac Rodriguez Jr.",
-    "TypeId": 646,
-    "Updated": "2000-12-13T10:30:24.3705833+01:00",
-    "StatusId": 769,
-    "Status": "ipsa",
-    "TextId": 441,
-    "PublishTo": "2005-03-28T10:30:24.3705833+02:00",
-    "PublishFrom": "2018-05-30T10:30:24.3705833+02:00",
-    "IsPublished": false,
+    "Type": "neque",
+    "AssociateId": 73,
+    "AssociateFullName": "Mr. Nelson Schimmel",
+    "TypeId": 93,
+    "Updated": "1998-04-03T14:23:47.1755092+02:00",
+    "StatusId": 493,
+    "Status": "facere",
+    "TextId": 964,
+    "PublishTo": "2015-02-23T14:23:47.1755092+01:00",
+    "PublishFrom": "2006-04-12T14:23:47.1755092+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1155835",
-    "ActiveErpLinks": 793,
+    "ProjectNumber": "867640",
+    "ActiveErpLinks": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 806
       }
     }
   }

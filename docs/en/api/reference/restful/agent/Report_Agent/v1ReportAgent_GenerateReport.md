@@ -77,32 +77,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 71,
-  "LabelLayoutId": 36,
-  "Filename": "alias",
-  "Language": "ea",
-  "FileType": "non",
+  "ReportId": 523,
+  "LabelLayoutId": 203,
+  "Filename": "est",
+  "Language": "culpa",
+  "FileType": "dignissimos",
   "Restrictions": [
     {
-      "Name": "Baumbach, Collier and Sawayn",
-      "Operator": "molestias",
+      "Name": "Aufderhar LLC",
+      "Operator": "assumenda",
       "Values": [
-        "ducimus",
-        "quis"
+        "et",
+        "culpa"
       ],
       "DisplayValues": [
-        "ea",
-        "minus"
+        "sint",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 978,
+      "InterParenthesis": 8,
       "InterOperator": "And",
-      "UniqueHash": 179
+      "UniqueHash": 338
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quisquam"
+"ut"
 ```

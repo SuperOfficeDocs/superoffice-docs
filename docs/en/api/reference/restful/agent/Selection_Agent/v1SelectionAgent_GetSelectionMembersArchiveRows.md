@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 79,
-  "Select": "at"
+  "SelectionId": 674,
+  "Select": "similique"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Farrell-Lesch",
-    "PrimaryKey": 356,
+    "EntityName": "Gleason LLC",
+    "PrimaryKey": 120,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sit",
-        "TooltipHint": "enim",
-        "LinkHint": "labore"
+        "DisplayValue": "enim",
+        "TooltipHint": "veniam",
+        "LinkHint": "iste"
       }
     },
-    "LinkHint": "suscipit",
-    "StyleHint": "a",
+    "LinkHint": "at",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 134
       }
     }
   }

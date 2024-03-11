@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 213
+  "MailItemId": 331
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 814,
-  "StartDate": "2019-07-18T10:30:23.7511796+02:00",
-  "EndDate": "2022-02-26T10:30:23.7511796+01:00",
-  "RecurrenceCounter": 467,
+  "RecurrenceId": 400,
+  "StartDate": "2022-01-14T14:23:46.4699533+01:00",
+  "EndDate": "2021-12-01T14:23:46.4699533+01:00",
+  "RecurrenceCounter": 475,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2014-12-06T10:30:23.7511796+01:00",
-      "IsConflict": false,
-      "Description": "Customizable didactic instruction set",
-      "DescriptionStyleHint": "Configurable non-volatile core",
-      "Tooltip": "quidem"
+      "Date": "2020-10-20T14:23:46.4699533+02:00",
+      "IsConflict": true,
+      "Description": "Streamlined foreground moderator",
+      "DescriptionStyleHint": "Multi-tiered demand-driven analyzer",
+      "Tooltip": "nisi"
     },
     {
-      "Date": "2014-12-06T10:30:23.7511796+01:00",
-      "IsConflict": false,
-      "Description": "Customizable didactic instruction set",
-      "DescriptionStyleHint": "Configurable non-volatile core",
-      "Tooltip": "quidem"
+      "Date": "2020-10-20T14:23:46.4699533+02:00",
+      "IsConflict": true,
+      "Description": "Streamlined foreground moderator",
+      "DescriptionStyleHint": "Multi-tiered demand-driven analyzer",
+      "Tooltip": "nisi"
     }
   ],
   "IsRecurrence": false

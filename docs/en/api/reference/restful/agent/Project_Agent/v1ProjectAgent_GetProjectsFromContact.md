@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 129
+  "ContactId": 89
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 616,
-    "Name": "Kozey Group",
-    "Description": "Configurable 3rd generation capability",
+    "ProjectId": 1002,
+    "Name": "Hackett Group",
+    "Description": "Upgradable maximized infrastructure",
     "URL": "http://www.example.com/",
-    "Type": "labore",
-    "AssociateId": 362,
-    "AssociateFullName": "Raphael Cole Ritchie DVM",
-    "TypeId": 9,
-    "Updated": "2012-10-09T10:30:24.3705833+02:00",
-    "StatusId": 795,
-    "Status": "quia",
-    "TextId": 186,
-    "PublishTo": "1996-12-05T10:30:24.3705833+01:00",
-    "PublishFrom": "2002-10-18T10:30:24.3705833+02:00",
+    "Type": "pariatur",
+    "AssociateId": 439,
+    "AssociateFullName": "Antonia Wiegand MD",
+    "TypeId": 364,
+    "Updated": "2007-07-26T14:23:47.1755092+02:00",
+    "StatusId": 636,
+    "Status": "optio",
+    "TextId": 745,
+    "PublishTo": "2005-04-05T14:23:47.1755092+02:00",
+    "PublishFrom": "2001-09-30T14:23:47.1755092+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "877245",
-    "ActiveErpLinks": 308,
+    "ProjectNumber": "1332004",
+    "ActiveErpLinks": 801,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

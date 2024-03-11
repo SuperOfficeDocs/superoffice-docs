@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schumm Group"
+  "ApplicationName": "Heller-Gutmann"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aut",
-    "Value": "velit",
-    "RecordId": 914,
-    "CreatedDate": "2016-04-26T10:30:23.9230375+02:00",
-    "UpdatedDate": "2013-12-14T10:30:23.9230375+01:00",
-    "UpdatedBy": "provident",
-    "CreatedBy": "harum",
-    "TableName": "Welch-Smitham",
+    "Key": "impedit",
+    "Value": "enim",
+    "RecordId": 191,
+    "CreatedDate": "1997-09-05T14:23:46.7681044+02:00",
+    "UpdatedDate": "2000-10-31T14:23:46.7681044+01:00",
+    "UpdatedBy": "quisquam",
+    "CreatedBy": "dolor",
+    "TableName": "Flatley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldLength": 686
       }
     }
   }

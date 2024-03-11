@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kemmer, Gerhold and Bartoletti",
-  "ProviderName": "Dare Group",
+  "GuiName": "Morar Group",
+  "ProviderName": "Sipes-Corkery",
   "SortOrder": [
     {
-      "Name": "Crooks, Graham and Franecki",
+      "Name": "Lowe-Borer",
       "Direction": "ASC"
     },
     {
-      "Name": "Crooks, Graham and Franecki",
+      "Name": "Lowe-Borer",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rice Inc and Sons",
-      "Operator": "laboriosam",
+      "Name": "Ziemann LLC",
+      "Operator": "illo",
       "Values": [
-        "aspernatur",
-        "ea"
+        "quia",
+        "sed"
       ],
       "DisplayValues": [
-        "illo",
-        "voluptatum"
+        "aut",
+        "facilis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 136,
+      "InterParenthesis": 663,
       "InterOperator": "And",
-      "UniqueHash": 892
+      "UniqueHash": 9
     }
   ],
   "Entities": [
-    "id",
-    "incidunt"
+    "atque",
+    "facilis"
   ],
-  "Page": 520,
-  "PageSize": 639
+  "Page": 437,
+  "PageSize": 190
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Murazik-Bogisich",
-    "PrimaryKey": 460,
+    "EntityName": "Dach Group",
+    "PrimaryKey": 56,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolore",
-        "TooltipHint": "sint",
-        "LinkHint": "id"
+        "DisplayValue": "itaque",
+        "TooltipHint": "libero",
+        "LinkHint": "enim"
       }
     },
     "LinkHint": "qui",
-    "StyleHint": "veritatis",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 469
       }
     }
   }

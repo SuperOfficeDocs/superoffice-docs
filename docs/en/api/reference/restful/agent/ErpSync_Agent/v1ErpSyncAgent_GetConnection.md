@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 182
+  "ErpConnectionId": 834
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 65,
-  "ErpConnectorId": 35,
-  "DisplayName": "Hickle Group",
-  "DisplayDescription": "Versatile 3rd generation implementation",
-  "Active": true,
-  "ConnectionId": "nihil",
-  "MostRecentTimestamp": "recusandae",
+  "ErpConnectionId": 555,
+  "ErpConnectorId": 510,
+  "DisplayName": "Considine, Kautzer and Gutkowski",
+  "DisplayDescription": "Function-based value-added process improvement",
+  "Active": false,
+  "ConnectionId": "velit",
+  "MostRecentTimestamp": "laudantium",
   "ConfigFields": {
-    "ConfigFields1": "molestiae",
-    "ConfigFields2": "ut"
+    "ConfigFields1": "eveniet",
+    "ConfigFields2": "libero"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    460,
-    291
+    98,
+    753
   ],
   "AssociateAccessIds": [
-    936,
-    12
+    608,
+    947
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 102
     }
   }
 }

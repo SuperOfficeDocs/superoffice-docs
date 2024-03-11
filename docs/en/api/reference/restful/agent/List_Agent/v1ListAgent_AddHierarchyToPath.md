@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "iure",
-  "Name": "Thompson-Harber"
+  "Path": "soluta",
+  "Name": "Jewess, Howell and Dickinson"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 137,
+  "HierarchyId": 669,
   "Domain": "Dashboards",
-  "Name": "Quigley-Kozey",
-  "Fullname": "labore",
-  "ParentId": 904,
+  "Name": "Bernier-Wisozk",
+  "Fullname": "ut",
+  "ParentId": 258,
   "Children": [
     {
-      "HierarchyId": 234,
+      "HierarchyId": 605,
       "Domain": "Dashboards",
-      "Name": "Hammes, Schmitt and Crona",
-      "Fullname": "autem",
-      "ParentId": 424,
+      "Name": "Murphy Inc and Sons",
+      "Fullname": "enim",
+      "ParentId": 942,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-02-02T10:30:24.0569003+01:00",
-      "RegisteredAssociateId": 851,
-      "Updated": "1999-11-04T10:30:24.0569003+01:00",
-      "UpdatedAssociateId": 244,
+      "Registered": "2009-01-29T14:23:46.8786294+01:00",
+      "RegisteredAssociateId": 704,
+      "Updated": "2005-12-31T14:23:46.8786294+01:00",
+      "UpdatedAssociateId": 189,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 664
+          "FieldType": "System.Int32",
+          "FieldLength": 79
         }
       }
     }
   ],
-  "Registered": "2013-01-02T10:30:24.0569003+01:00",
-  "RegisteredAssociateId": 52,
-  "Updated": "2000-05-12T10:30:24.0569003+02:00",
-  "UpdatedAssociateId": 932,
+  "Registered": "2009-01-05T14:23:46.8786294+01:00",
+  "RegisteredAssociateId": 498,
+  "Updated": "2023-05-21T14:23:46.8786294+02:00",
+  "UpdatedAssociateId": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

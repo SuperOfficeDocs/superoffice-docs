@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 122,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "velit",
-  "Name": "Cassin, Quigley and Ondricka",
-  "Description": "Public-key human-resource open architecture",
-  "Code": "error",
-  "PriceUnit": "consectetur",
-  "QuantityUnit": "quae",
+  "ProductId": 994,
+  "ERPProductKey": "ratione",
+  "ERPPriceListKey": "tempore",
+  "Name": "Hodkiewicz, Kassulke and Morissette",
+  "Description": "Configurable exuding firmware",
+  "Code": "at",
+  "PriceUnit": "modi",
+  "QuantityUnit": "reiciendis",
   "IsSubscription": false,
-  "SubscriptionUnit": "aspernatur",
-  "DefaultSubscriptionQuantity": 24275.964,
-  "ItemNumber": "734661",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 17942.149999999998,
+  "ItemNumber": "1628034",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sequi",
-  "ProductTypeKey": "impedit",
-  "VAT": 26419.62,
-  "VATInfo": "est",
-  "UnitCost": 18976.37,
-  "UnitMinimumPrice": 23078.775999999998,
-  "UnitListPrice": 11000.34,
-  "InAssortment": true,
-  "Supplier": "sed",
-  "SupplierCode": "est",
-  "Rights": "ut",
-  "Rule": "non",
+  "ProductFamilyKey": "illum",
+  "ProductTypeKey": "qui",
+  "VAT": 7499.6619999999994,
+  "VATInfo": "hic",
+  "UnitCost": 12065.9,
+  "UnitMinimumPrice": 25623.584,
+  "UnitListPrice": 29058.448,
+  "InAssortment": false,
+  "Supplier": "delectus",
+  "SupplierCode": "pariatur",
+  "Rights": "quae",
+  "Rule": "ea",
   "ExtraInfo": [
     {
-      "Name": "Leuschke LLC",
-      "Value": "et",
+      "Name": "Gutkowski Inc and Sons",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 153
         }
       }
     },
     {
-      "Name": "Leuschke LLC",
-      "Value": "et",
+      "Name": "Gutkowski Inc and Sons",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 153
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "velit",
-  "ExtraField2": "ut",
-  "ExtraField3": "ab",
-  "ExtraField4": "cupiditate",
-  "ExtraField5": "aut",
-  "InStock": 12952.822,
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "ipsa",
+  "ExtraField3": "temporibus",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "corrupti",
+  "InStock": 11746.232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

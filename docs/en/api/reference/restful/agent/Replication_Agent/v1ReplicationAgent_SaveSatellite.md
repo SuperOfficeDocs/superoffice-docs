@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 515,
-  "Created": "2020-06-29T10:30:24.4502511+02:00",
+  "SatelliteId": 379,
+  "Created": "2022-12-17T14:23:47.2692571+01:00",
   "CreatedBy": null,
-  "Updated": "2007-02-15T10:30:24.4658786+01:00",
+  "Updated": "2011-08-11T14:23:47.2692571+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Weber-Rowe",
-      "Description": "Seamless incremental task-force",
+      "Name": "Fisher Group",
+      "Description": "Multi-lateral explicit ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Weber-Rowe",
-      "Description": "Seamless incremental task-force",
+      "Name": "Fisher Group",
+      "Description": "Multi-lateral explicit ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 95,
-  "Created": "2012-08-17T10:30:24.4658786+02:00",
+  "SatelliteId": 598,
+  "Created": "2022-12-30T14:23:47.2848818+01:00",
   "CreatedBy": null,
-  "Updated": "1997-03-14T10:30:24.4658786+01:00",
+  "Updated": "2004-10-27T14:23:47.2848818+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kris, Hagenes and Doyle",
-      "Description": "Customer-focused responsive throughput",
+      "Name": "Hickle, Rempel and Boehm",
+      "Description": "Fundamental incremental data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldType": "System.String",
+          "FieldLength": 131
         }
       }
     },
     {
-      "Name": "Kris, Hagenes and Doyle",
-      "Description": "Customer-focused responsive throughput",
+      "Name": "Hickle, Rempel and Boehm",
+      "Description": "Fundamental incremental data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldType": "System.String",
+          "FieldLength": 131
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 574
     }
   }
 }

@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "ex",
-  "NewPassword": "ab"
+  "OldPassword": "eos",
+  "NewPassword": "doloribus"
 }
 ```
 

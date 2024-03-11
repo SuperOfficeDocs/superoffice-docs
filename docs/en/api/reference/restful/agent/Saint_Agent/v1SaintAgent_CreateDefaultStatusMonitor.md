@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 856,
-  "Rank": 3,
-  "DefaultTask": 317,
-  "DefaultTaskText": "hic",
+  "OwnerTable": 706,
+  "Rank": 292,
+  "DefaultTask": 332,
+  "DefaultTaskText": "eius",
   "IsVisual": false,
-  "LastGenerated": "2000-11-04T10:30:24.4815013+01:00",
-  "Description": "Seamless bottom-line pricing structure",
-  "Name": "Bernier, Larkin and Runolfsson",
-  "StatusMonitorId": 231,
-  "PictureId": 344,
+  "LastGenerated": "2008-06-06T14:23:47.2848818+02:00",
+  "Description": "Balanced fault-tolerant extranet",
+  "Name": "Wiegand Inc and Sons",
+  "StatusMonitorId": 246,
+  "PictureId": 714,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 713,
-  "NumNeedUpdate": 737,
-  "GenerationStart": "2023-11-10T10:30:24.4815013+01:00",
+  "Deleted": true,
+  "NumMatches": 759,
+  "NumNeedUpdate": 272,
+  "GenerationStart": "2009-08-28T14:23:47.2848818+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

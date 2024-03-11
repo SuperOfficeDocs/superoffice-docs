@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hills, Steuber and Metz",
-  "ForceFlatList": false,
-  "AdditionalInfo": "maxime",
+  "Name": "Kassulke-Schneider",
+  "ForceFlatList": true,
+  "AdditionalInfo": "recusandae",
   "HistoryItems": [
-    20,
-    573
+    728,
+    114
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Bode LLC",
-    "ToolTip": "Velit exercitationem.",
-    "Deleted": false,
-    "Rank": 935,
-    "Type": "totam",
+    "Id": 42,
+    "Name": "Quigley, Greenholt and Koepp",
+    "ToolTip": "Sed quia nemo.",
+    "Deleted": true,
+    "Rank": 476,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Beatty, Beer and West",
-        "ToolTip": "Est temporibus ut enim occaecati numquam.",
-        "Deleted": false,
-        "Rank": 611,
-        "Type": "fugit",
+        "Id": 363,
+        "Name": "Schumm LLC",
+        "ToolTip": "Sed dolores nostrum ratione deserunt id.",
+        "Deleted": true,
+        "Rank": 485,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 858,
-        "ExtraInfo": "et",
-        "StyleHint": "quidem",
-        "FullName": "Willard Cummings",
+        "IconHint": "aut",
+        "ColorBlock": 861,
+        "ExtraInfo": "iusto",
+        "StyleHint": "minima",
+        "FullName": "Ms. Ethelyn Darrin McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldLength": 840
           }
         }
       }
     ],
-    "IconHint": "porro",
-    "ColorBlock": 165,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "alias",
-    "FullName": "Margaret Aditya Bartoletti MD",
+    "IconHint": "consequatur",
+    "ColorBlock": 520,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "reprehenderit",
+    "FullName": "Mrs. Lysanne Walsh IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 811
       }
     }
   }

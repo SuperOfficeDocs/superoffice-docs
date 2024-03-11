@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 657,
-    "Name": "Harber-Schmitt",
-    "Tooltip": "dolorum",
-    "SaveInDb": 595,
-    "Filename": "incidunt",
-    "DefaultOref": "reiciendis",
+    "DocumentTemplateId": 620,
+    "Name": "Keeling, Lubowitz and Mosciski",
+    "Tooltip": "officia",
+    "SaveInDb": 757,
+    "Filename": "mollitia",
+    "DefaultOref": "consequatur",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 957,
-    "IntentId": 947,
+    "AutoeventId": 960,
+    "IntentId": 259,
     "IsDefaultPublished": true,
-    "Rank": 865,
-    "LoadTemplateFromPlugin": 144,
+    "Rank": 590,
+    "LoadTemplateFromPlugin": 838,
     "MimeType": "dolorem",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 295,
+    "DocumentTypeKey": 808,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "yasmin@williamson.co.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "mina_klein@hansenabshire.name",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "reilly_bernhard@legros.uk",
+    "SenderEmailAddress": "ashlee@baumbach.com",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 490
       }
     }
   }

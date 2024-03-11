@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 254,
-  "StartTime": "2008-02-23T10:30:23.5769016+01:00",
-  "EndTime": "2007-09-16T10:30:23.5769016+02:00",
-  "Count": 577,
+  "PersonId": 173,
+  "StartTime": "2018-04-20T14:23:46.2824577+02:00",
+  "EndTime": "2007-03-29T14:23:46.2824577+02:00",
+  "Count": 788,
   "DocumentTemplateIds": [
-    187,
-    345
+    287,
+    987
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 51,
-    "Attention": "nulla",
-    "Header": "voluptate",
-    "Name": "Muller, Bergstrom and Lynch",
-    "OurRef": "quo",
-    "YourRef": "id",
-    "Description": "Up-sized 5th generation array",
-    "DocumentTemplate": "enim",
+    "DocumentId": 35,
+    "Attention": "alias",
+    "Header": "dolore",
+    "Name": "Abshire, Hettinger and Russel",
+    "OurRef": "asperiores",
+    "YourRef": "ea",
+    "Description": "Stand-alone motivating strategy",
+    "DocumentTemplate": "saepe",
     "IsPublished": false,
-    "PersonId": 443,
-    "PersonFullName": "Alana Kautzer",
-    "AssociateFullName": "Florian Hessel",
-    "ContactId": 795,
-    "ContactName": "Parker-Bahringer",
-    "ProjectId": 861,
-    "ProjectName": "Wiza, Schiller and Kulas",
-    "AssociateId": 64,
-    "Snum": 843,
-    "SaleId": 519,
-    "SaleName": "Baumbach-Bergstrom",
+    "PersonId": 817,
+    "PersonFullName": "Sophia Pfeffer",
+    "AssociateFullName": "Wilma Mekhi Green Sr.",
+    "ContactId": 1000,
+    "ContactName": "Abshire LLC",
+    "ProjectId": 358,
+    "ProjectName": "Kuhic, Zulauf and Feest",
+    "AssociateId": 974,
+    "Snum": 536,
+    "SaleId": 237,
+    "SaleName": "Maggio Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldLength": 203
       }
     }
   }

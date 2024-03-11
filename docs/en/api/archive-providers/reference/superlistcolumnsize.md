@@ -67,11 +67,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/otherGroups|userGroup|Associate - Other groups: Other groups|  |
 |associate/userName|string|Associate - User name: User name| x |
 |associate/personEmail|string|Associate - E-mail| x |
+|associate/locationAddress|string|Associate - Location: Location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=groupId,associate/mrMrs
+GET /api/v1/archive/SuperListColumnSize?$select=associate/otherGroups,configurationName,associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

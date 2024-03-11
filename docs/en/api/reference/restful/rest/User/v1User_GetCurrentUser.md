@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 271,
-  "Name": "Bernier, Kunde and Kilback",
-  "Rank": 563,
-  "Tooltip": "ad",
+  "AssociateId": 737,
+  "Name": "Oberbrunner-Schowalter",
+  "Rank": 680,
+  "Tooltip": "eveniet",
   "LicenseOwners": [
     {
-      "Name": "Casper Group",
-      "Description": "Reverse-engineered client-driven policy",
+      "Name": "Spinka-Runolfsson",
+      "Description": "Monitored background definition",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     },
     {
-      "Name": "Casper Group",
-      "Description": "Reverse-engineered client-driven policy",
+      "Name": "Spinka-Runolfsson",
+      "Description": "Monitored background definition",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 145
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "debitis",
-      "Tooltip": "et",
-      "Id": 311,
-      "Rank": 232,
-      "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2014-09-29T10:30:32.8113095+02:00",
-  "Lastlogout": "2018-06-21T10:30:32.8113095+02:00",
-  "EjUserId": 710,
-  "RequestSignature": "aut",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "ullam",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ullam",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
-        }
-      }
-    }
-  ],
-  "UserName": "Weissnat, Wiza and O'Hara",
-  "TicketCategories": [
-    {
-      "Id": 646,
-      "Name": "Effertz Group",
-      "ToolTip": "Sed sapiente.",
-      "Deleted": false,
-      "Rank": 512,
-      "Type": "autem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "sequi",
-      "ColorBlock": 962,
-      "ExtraInfo": "iure",
-      "StyleHint": "alias",
-      "FullName": "Danika Hoeger",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 438
-        }
-      }
-    }
-  ],
-  "NickName": "Jones-Kerluke",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "enim"
-  },
-  "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "velit"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Rolfson Group",
-      "DisplayName": "Schiller LLC",
-      "Description": "Multi-layered client-driven circuit",
-      "ToolTip": "Harum sed recusandae autem voluptas nobis sit.",
-      "Actions": "Implicit",
-      "ActionData": "veritatis",
+      "Value": "occaecati",
+      "Tooltip": "doloremque",
+      "Id": 602,
+      "Rank": 214,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 103
+        }
+      }
+    }
+  ],
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2021-12-02T14:23:55.915829+01:00",
+  "Lastlogout": "2018-08-03T14:23:55.915829+02:00",
+  "EjUserId": 674,
+  "RequestSignature": "incidunt",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
+  "Credentials": [
+    {
+      "Type": null,
+      "Value": "ea",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 746
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ea",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 746
+        }
+      }
+    }
+  ],
+  "UserName": "Dickinson Group",
+  "TicketCategories": [
+    {
+      "Id": 630,
+      "Name": "Harber-Rice",
+      "ToolTip": "Odit perferendis accusamus in ut enim similique.",
+      "Deleted": false,
+      "Rank": 812,
+      "Type": "recusandae",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "non",
+      "ColorBlock": 510,
+      "ExtraInfo": "et",
+      "StyleHint": "blanditiis",
+      "FullName": "Miss Mustafa Rippin IV",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 745
+        }
+      }
+    }
+  ],
+  "NickName": "Greenfelder, Gorczany and Cassin",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "minus"
+  },
+  "CustomFields": {
+    "CustomFields1": "dicta",
+    "CustomFields2": "inventore"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Brekke LLC",
+      "DisplayName": "Satterfield LLC",
+      "Description": "Horizontal composite conglomeration",
+      "ToolTip": "Provident dolor ut sed.",
+      "Actions": "Implicit",
+      "ActionData": "fugiat",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 781
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

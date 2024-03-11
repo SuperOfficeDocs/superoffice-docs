@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "quia",
-      "ValueType": "soluta",
+      "Key": "omnis",
+      "ValueType": "nobis",
       "Mandatory": false,
-      "EncodedDisplayName": "Schneider, Reinger and Donnelly",
-      "EncodedDisplayDescription": "Compatible fault-tolerant contingency",
-      "IconHint": "voluptates",
+      "EncodedDisplayName": "Schuppe-Strosin",
+      "EncodedDisplayDescription": "Digitized didactic access",
+      "IconHint": "doloribus",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "explicabo",
-      "EncodedDataCaptionDescription": "Right-sized global core",
-      "CurrentOperationType": "qui",
+      "EncodedDataCaption": "aut",
+      "EncodedDataCaptionDescription": "Ergonomic 6th generation benchmark",
+      "CurrentOperationType": "doloribus",
       "Values": [
-        "esse",
-        "quos"
+        "odit",
+        "debitis"
       ],
       "DisplayValues": [
-        "odio",
-        "eum"
+        "voluptates",
+        "dicta"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Olson, Sporer and Gusikowski",
-  "Context": "voluptas",
-  "SelectionId": 899,
+  "TableName": "Hills-Witting",
+  "Context": "esse",
+  "SelectionId": 870,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-952
+726
 ```

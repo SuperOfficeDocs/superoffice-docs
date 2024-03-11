@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 765,
-  "ParentId": 588,
-  "Name": "Harris-Schmeler",
-  "Fullname": "error",
-  "CategoryMaster": 482,
+  "TicketCategoryId": 417,
+  "ParentId": 628,
+  "Name": "Klein LLC",
+  "Fullname": "enim",
+  "CategoryMaster": 204,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hettinger-Olson",
+  "ExternalName": "Kuhic-Bernier",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 742,
-  "ReplyTemplate": 245,
-  "NotificationEmail": "jena@hamill.info",
+  "AssignmentLag": 611,
+  "ReplyTemplate": 466,
+  "NotificationEmail": "xander@heidenreichpaucek.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 250,
+  "EffectiveReplyTemplateId": 402,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "culpa"
+    "CustomFields1": "qui",
+    "CustomFields2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 339
     }
   }
 }

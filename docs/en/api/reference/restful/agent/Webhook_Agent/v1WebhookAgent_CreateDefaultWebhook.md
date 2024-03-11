@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 759,
-  "Name": "Lynch-Lakin",
+  "WebhookId": 392,
+  "Name": "Howell, Wisoky and Bayer",
   "Events": [
-    "veritatis",
-    "aut"
+    "non",
+    "vel"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iure",
+  "Secret": "in",
   "State": "Active",
-  "Type": "nostrum",
+  "Type": "expedita",
   "Headers": {
-    "Headers1": "dolor",
-    "Headers2": "quaerat"
+    "Headers1": "recusandae",
+    "Headers2": "dolores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-08-25T10:30:25.076705+02:00",
+  "Registered": "2001-06-15T14:23:47.9254988+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-02-03T10:30:25.076705+01:00",
+  "Updated": "2007-06-12T14:23:47.9254988+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "unique@brown.name"
+  "ErrorsEmail": "tyreek@schulist.us"
 }
 ```

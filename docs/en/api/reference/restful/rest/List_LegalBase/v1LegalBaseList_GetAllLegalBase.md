@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 398,
-    "Name": "Heller Inc and Sons",
-    "Tooltip": "nisi",
-    "Rank": 795,
-    "Key": "molestiae",
+    "LegalBaseId": 651,
+    "Name": "Trantow Group",
+    "Tooltip": "iusto",
+    "Rank": 754,
+    "Key": "occaecati",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldType": "System.Int32",
+        "FieldLength": 10
       }
     }
   }

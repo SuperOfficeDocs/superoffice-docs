@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 87,
-    "Name": "Kessler LLC",
-    "Tooltip": "ad",
+    "HeadingId": 425,
+    "Name": "Wiza, Morar and Johns",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 350,
-    "UdListDefinitionId": 886,
+    "Rank": 390,
+    "UdListDefinitionId": 996,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

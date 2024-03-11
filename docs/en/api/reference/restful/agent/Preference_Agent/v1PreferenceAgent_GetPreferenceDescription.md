@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=633
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=699
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 992,
-  "Section": "laborum",
-  "Key": "quas",
-  "Name": "Jerde LLC",
+  "PrefDescId": 814,
+  "Section": "eum",
+  "Key": "exercitationem",
+  "Name": "Lynch Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse secondary benchmark",
-  "IsBuiltin": false,
-  "TableName": "Boyle, Trantow and Wiegand",
-  "UserDefinedListId": 730,
-  "Rank": 1001,
-  "SubGroup": "eos",
-  "MinLevel": 241,
-  "MaxValue": 980,
-  "MinValue": 18,
-  "RequiredLicense": "distinctio",
+  "Description": "Team-oriented zero defect encryption",
+  "IsBuiltin": true,
+  "TableName": "Gottlieb Inc and Sons",
+  "UserDefinedListId": 986,
+  "Rank": 545,
+  "SubGroup": "enim",
+  "MinLevel": 723,
+  "MaxValue": 851,
+  "MinValue": 333,
+  "RequiredLicense": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 778
     }
   }
 }

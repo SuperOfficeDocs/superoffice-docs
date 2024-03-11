@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 15 Dec 2006 10:30:31 G12T
+Last-Modified: Wed, 23 Mar 2022 14:23:55 G3T
 
 {
-  "SourceContactId": 829,
-  "SourcePersonId": 918,
-  "DestinationContactId": 231,
-  "DestinationPersonId": 210,
-  "RelationId": 94,
-  "Comment": "dicta",
-  "RelationDefinitionId": 499,
-  "Reversed": 393,
-  "UpdatedDate": "2006-12-15T10:30:31.9480569+01:00",
-  "CreatedDate": "2001-08-06T10:30:31.9480569+02:00",
+  "SourceContactId": 678,
+  "SourcePersonId": 708,
+  "DestinationContactId": 403,
+  "DestinationPersonId": 471,
+  "RelationId": 297,
+  "Comment": "ut",
+  "RelationDefinitionId": 57,
+  "Reversed": 681,
+  "UpdatedDate": "2022-03-23T14:23:55.0396483+01:00",
+  "CreatedDate": "2014-02-16T14:23:55.0396483+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ortiz LLC",
-  "SourcePersonName": "Balistreri Inc and Sons",
-  "DestinationContactName": "Homenick LLC",
-  "DestinationPersonName": "Okuneva-Lowe",
-  "ActiveText": "cupiditate",
-  "PassiveText": "enim",
+  "SourceContactName": "Jewess-Christiansen",
+  "SourcePersonName": "Nicolas-Morar",
+  "DestinationContactName": "Dibbert-Greenholt",
+  "DestinationPersonName": "Dickinson-Jacobson",
+  "ActiveText": "placeat",
+  "PassiveText": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldLength": 95
     }
   }
 }

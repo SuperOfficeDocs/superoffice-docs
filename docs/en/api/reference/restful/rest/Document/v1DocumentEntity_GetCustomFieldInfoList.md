@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McDermott-Greenholt",
-    "DisplayName": "Torphy LLC",
-    "Description": "Polarised 6th generation productivity",
-    "ShortLabel": "quae",
-    "HideLabel": false,
+    "FieldName": "Gutmann, Altenwerth and Swaniawski",
+    "DisplayName": "Nikolaus, Kassulke and McGlynn",
+    "Description": "Synchronised methodical analyzer",
+    "ShortLabel": "cupiditate",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 157,
-    "TemplateVariableName": "Reynolds, Thiel and Hayes"
+    "Rank": 668,
+    "TemplateVariableName": "Cartwright, Bogan and Murazik"
   }
 ]
 ```

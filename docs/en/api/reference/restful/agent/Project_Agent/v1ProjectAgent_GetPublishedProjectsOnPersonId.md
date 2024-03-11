@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 214
+  "PersonId": 814
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 999,
-    "Name": "Ledner Group",
-    "Description": "Optimized 4th generation orchestration",
+    "ProjectId": 82,
+    "Name": "Corkery Group",
+    "Description": "Public-key systemic toolset",
     "URL": "http://www.example.com/",
-    "Type": "quae",
-    "AssociateId": 423,
-    "AssociateFullName": "Glen O'Reilly",
-    "TypeId": 116,
-    "Updated": "2016-05-21T10:30:24.3705833+02:00",
-    "StatusId": 814,
-    "Status": "molestiae",
-    "TextId": 158,
-    "PublishTo": "2022-09-03T10:30:24.3705833+02:00",
-    "PublishFrom": "2003-08-14T10:30:24.3705833+02:00",
+    "Type": "dolor",
+    "AssociateId": 681,
+    "AssociateFullName": "Merle Gibson",
+    "TypeId": 497,
+    "Updated": "2006-08-27T14:23:47.1911342+02:00",
+    "StatusId": 882,
+    "Status": "vitae",
+    "TextId": 385,
+    "PublishTo": "2001-10-07T14:23:47.1911342+02:00",
+    "PublishFrom": "1999-09-01T14:23:47.1911342+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "335536",
-    "ActiveErpLinks": 464,
+    "ProjectNumber": "1048585",
+    "ActiveErpLinks": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 417
       }
     }
   }

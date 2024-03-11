@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Jun 2004 10:30:32 G6T
+Last-Modified: Sun, 27 Jan 2019 14:23:55 G1T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Tue, 15 Jun 2004 10:30:32 G6T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "id",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Tue, 15 Jun 2004 10:30:32 G6T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-05-17T10:30:32.403128+02:00",
-  "Amount": 15413.011999999999,
-  "SaleId": 291,
-  "Earning": 27375.489999999998,
-  "EarningPercent": 26043.54,
-  "Heading": "ducimus",
-  "Number": "1603728",
-  "Probability": 280,
-  "CreatedDate": "2005-11-19T10:30:32.403128+01:00",
-  "UpdatedDate": "2004-06-15T10:30:32.403128+02:00",
+  "Saledate": "2008-08-26T14:23:55.4158327+02:00",
+  "Amount": 19148.739999999998,
+  "SaleId": 831,
+  "Earning": 24501.612,
+  "EarningPercent": 9618.246,
+  "Heading": "repellendus",
+  "Number": "722503",
+  "Probability": 851,
+  "CreatedDate": "2023-10-04T14:23:55.4158327+02:00",
+  "UpdatedDate": "2019-01-27T14:23:55.4158327+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 627,
+  "ActiveLinks": 912,
   "Links": [
     {
-      "EntityName": "Braun, Reichert and Feeney",
-      "Id": 254,
-      "Description": "Fundamental object-oriented utilisation",
-      "ExtraInfo": "cumque",
-      "LinkId": 704,
+      "EntityName": "Hayes, Cruickshank and Wisozk",
+      "Id": 617,
+      "Description": "Phased modular conglomeration",
+      "ExtraInfo": "id",
+      "LinkId": 314,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 733
         }
       }
     }
   ],
-  "NextDueDate": "2004-08-04T10:30:32.403128+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2015-02-13T14:23:55.4158327+01:00",
+  "Postit": "eius",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2013-04-10T10:30:32.403128+02:00",
+  "ReopenDate": "2021-05-26T14:23:55.4158327+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Harvey-Ferry",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 258,
-      "CountryId": 827,
-      "PersonId": 783,
-      "EmailDescription": "wilfred@von.com",
-      "EmailId": 748,
-      "EmailAddress": "ernest.green@jonesmayer.co.uk",
-      "PhoneId": 941,
-      "ContactName": "King LLC",
-      "ContactId": 598,
-      "SaleId": 887,
-      "Mrmrs": "labore",
-      "Firstname": "Jamarcus",
-      "MiddleName": "Hackett-Kerluke",
-      "Lastname": "Strosin",
-      "SaleStakeholderId": 475,
-      "Rank": 966,
-      "Phone": "(274)802-6627 x1946",
+      "StakeholderRoleName": "Berge-Bartoletti",
+      "Comment": "earum",
+      "StakeholderRoleId": 775,
+      "CountryId": 654,
+      "PersonId": 494,
+      "EmailDescription": "danyka@kuhlman.name",
+      "EmailId": 968,
+      "EmailAddress": "christian@parkerrowe.name",
+      "PhoneId": 243,
+      "ContactName": "Hagenes, Senger and Langosh",
+      "ContactId": 397,
+      "SaleId": 914,
+      "Mrmrs": "est",
+      "Firstname": "Terrill",
+      "MiddleName": "West Group",
+      "Lastname": "Haley",
+      "SaleStakeholderId": 191,
+      "Rank": 69,
+      "Phone": "634.592.7651",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 87
         }
       }
     }
   ],
-  "ActiveErpLinks": 338,
+  "ActiveErpLinks": 782,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Edd O'Connell II",
-    "SuperOffice:2": "Kimberly Roob"
+    "SuperOffice:1": "Prof. Willy Kuhn",
+    "SuperOffice:2": "Alva Cristobal Klein Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "inventore"
+    "CustomFields1": "et",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2011-10-19T10:30:32.403128+02:00",
-  "PublishTo": "2008-11-08T10:30:32.403128+01:00",
-  "PublishFrom": "2008-07-30T10:30:32.403128+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2005-04-04T14:23:55.4158327+02:00",
+  "PublishTo": "2009-12-06T14:23:55.4158327+01:00",
+  "PublishFrom": "2023-12-20T14:23:55.4158327+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 446,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     },
     {
-      "VisibleId": 446,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Tue, 15 Jun 2004 10:30:32 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

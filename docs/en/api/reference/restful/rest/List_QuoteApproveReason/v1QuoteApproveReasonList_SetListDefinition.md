@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Langworth-Hahn",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "Rank": 409,
+  "Id": 906,
+  "Name": "Zemlak-Macejkovic",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 432,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Will Group",
-  "Tooltip": "quae",
+  "Id": 145,
+  "Name": "Ernser Inc and Sons",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 237,
+  "Rank": 956,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldLength": 843
     }
   }
 }

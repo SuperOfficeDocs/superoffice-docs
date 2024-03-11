@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "a"
+  "Context": "reiciendis"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "voluptatem",
-    "ValueType": "officia",
-    "Mandatory": false,
-    "EncodedDisplayName": "Cronin Group",
-    "EncodedDisplayDescription": "Secured holistic firmware",
-    "IconHint": "aut",
+    "Key": "qui",
+    "ValueType": "quia",
+    "Mandatory": true,
+    "EncodedDisplayName": "Dickens, Cummings and Labadie",
+    "EncodedDisplayDescription": "Reactive needs-based parallelism",
+    "IconHint": "laborum",
     "ControlInfos": [
       {
-        "Type": "dolorem",
-        "Label": "esse",
-        "Dimension": 770,
-        "ListProviderName": "Nicolas-Spinka",
-        "ListProviderExtraInfo": "error",
-        "ListProviderPrimaryKeyName": "Keeling-Streich",
-        "ListLeadText": "eius",
+        "Type": "dolorum",
+        "Label": "voluptatem",
+        "Dimension": 188,
+        "ListProviderName": "Harris, Bauch and Mraz",
+        "ListProviderExtraInfo": "non",
+        "ListProviderPrimaryKeyName": "West Inc and Sons",
+        "ListLeadText": "et",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 816
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "molestiae",
+    "EncodedDataCaptionDescription": "Customizable solution-oriented open system",
+    "CurrentOperationType": "rerum",
+    "Values": [
+      "omnis",
+      "officia"
+    ],
+    "DisplayValues": [
+      "nesciunt",
+      "reprehenderit"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "iusto",
+        "EncodedDisplayName": "Raynor Group",
+        "EncodedLeadTexts": [
+          "pariatur",
+          "facere"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 226
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "enim",
-    "EncodedDataCaptionDescription": "Open-architected attitude-oriented moratorium",
-    "CurrentOperationType": "perferendis",
-    "Values": [
-      "sequi",
-      "et"
-    ],
-    "DisplayValues": [
-      "deserunt",
-      "ipsa"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "eos",
-        "EncodedDisplayName": "Kshlerin LLC",
-        "EncodedLeadTexts": [
-          "alias",
-          "voluptatem"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 426
           }
         }
       },
       {
-        "Key": "eos",
-        "EncodedDisplayName": "Kshlerin LLC",
+        "Key": "iusto",
+        "EncodedDisplayName": "Raynor Group",
         "EncodedLeadTexts": [
-          "alias",
-          "voluptatem"
+          "pariatur",
+          "facere"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldType": "System.String",
+            "FieldLength": 426
           }
         }
       }

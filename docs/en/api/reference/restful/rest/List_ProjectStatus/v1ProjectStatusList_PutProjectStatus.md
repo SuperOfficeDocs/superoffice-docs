@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Gorczany-Miller",
-  "Tooltip": "sed",
+  "Id": 924,
+  "Name": "Nitzsche-Abshire",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 168,
-  "Rank": 815
+  "UdListDefinitionId": 429,
+  "Rank": 246
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Hodkiewicz-Prohaska",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 301,
-  "Rank": 941,
+  "Id": 373,
+  "Name": "Gerhold-Carter",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "UdListDefinitionId": 573,
+  "Rank": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

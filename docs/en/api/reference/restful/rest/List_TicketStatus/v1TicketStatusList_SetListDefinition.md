@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 821,
-  "Name": "Homenick-Breitenberg",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 876,
-  "IsCustomList": true,
+  "Id": 668,
+  "Name": "Denesik, Grimes and Langosh",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 968,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Kuphal, Maggio and Franecki",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "Rank": 956,
+  "Id": 128,
+  "Name": "Stiedemann LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 628,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptate",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 999
     }
   }
 }

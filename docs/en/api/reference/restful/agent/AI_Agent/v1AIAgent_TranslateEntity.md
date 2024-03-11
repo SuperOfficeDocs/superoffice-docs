@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wyman, Kreiger and Bayer",
-  "EntityId": 495,
-  "TargetLanguage": "accusantium"
+  "EntityName": "Cartwright-Crooks",
+  "EntityId": 200,
+  "TargetLanguage": "vitae"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"minus"
 ```

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Harber Group",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 340,
-    "Rank": 684
+    "Id": 976,
+    "Name": "Brakus-Senger",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 530,
+    "Rank": 823
   },
   {
-    "Id": 271,
-    "Name": "Harber Group",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 340,
-    "Rank": 684
+    "Id": 976,
+    "Name": "Brakus-Senger",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 530,
+    "Rank": 823
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "voluptatum",
+    "Id": 936,
+    "Name": "Stracke Inc and Sons",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 736,
-    "Rank": 720,
+    "UdListDefinitionId": 468,
+    "Rank": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

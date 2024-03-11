@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 418,
-  "IsActive": true,
+  "ErpConnectionId": 432,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 180,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Kreiger, Nader and Blick",
-      "CrmDisplayTooltip": "et",
-      "ErpFieldKey": "sunt",
+      "ErpFieldId": 962,
+      "CrmFieldKey": "optio",
+      "CrmDisplayName": "Kub Inc and Sons",
+      "CrmDisplayTooltip": "maiores",
+      "ErpFieldKey": "enim",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Wisozk-Moore",
-      "ErpDisplayTooltip": "neque",
-      "SyncToCrm": false,
-      "SyncToErp": false,
+      "ErpDisplayName": "Schimmel-Renner",
+      "ErpDisplayTooltip": "dolore",
+      "SyncToCrm": true,
+      "SyncToErp": true,
       "ShowInGui": true,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": false,
       "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "sequi",
+      "ListReference": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldLength": 622
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 37
     }
   }
 }

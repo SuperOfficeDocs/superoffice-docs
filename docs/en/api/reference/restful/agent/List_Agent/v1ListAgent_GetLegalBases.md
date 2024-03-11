@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 665,
-    "Name": "Dickinson-Mayer",
-    "Tooltip": "sed",
-    "Rank": 443,
-    "Key": "nihil",
+    "LegalBaseId": 200,
+    "Name": "Turcotte-Muller",
+    "Tooltip": "nam",
+    "Rank": 862,
+    "Key": "ratione",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }
