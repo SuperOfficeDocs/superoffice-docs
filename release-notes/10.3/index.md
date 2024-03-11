@@ -2,10 +2,10 @@
 uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
-author: SuperOffice AS – Research and Development
-so.date: 02.21.2024
-so.version: 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
+author: SuperOffice AS – Research and Development
+so.date: 03.02.2024
+so.version: 10.3
 so.topic: reference
 ---
 
@@ -19,10 +19,13 @@ so.topic: reference
 
 ### SuperOffice CRM
 
+* 10.3.3 (12.03.2024):
+  * [Request - simplify attachment handling (10.3.3)][18] in Service
+
 * 10.3.2 (20.02.2024):
   * [Notifications - Show invitations I have declined (10.3.2)][12] in Core CRM
   * [Dashboard - Request dashboard and tiles (10.3.2)][12] in Core CRM
-  * [Request types for efficient support (10.3.2)][13] in Core CRM and Service
+  * [Request types - for efficient support (10.3.2)][13] in Core CRM and Service
   * [Requests - Add and customize request types (10.3.2)][14] in Settings and maintenance
   * [Screen designer - Assign layouts to request types (10.3.2)][14] in Settings and maintenance
 
@@ -41,17 +44,18 @@ so.topic: reference
 
 Latest released versions:
 
+* WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
 * SuperOffice for Outlook 4.1 (21.12.2023)
-* WebTools for Windows 12.8 (05.10.2023)
+* WebTools for Mac 12.0 (10.11.2022)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.9 (24.09.2023)
 * Video Meetings 2.5 (18.09.2023)
-* WebTools for Mac 12.0 (10.11.2022)
 
 ### Other highlights
 
 * **SuperOffice App store** - [New or updated apps][5]
+  * [Amesto PowerBI for SuperOffice (08.02.2024)][19]
   * [Exact for SuperOffice (02.02.2024)][16]
   * [Documendo Webforms (24.01.2024)][15]
   * [ITX UC (05.11.2023)][17]
@@ -79,5 +83,7 @@ Latest released versions:
 [15]: https://appstore.superoffice.com/siteshop-aps/documendo-webforms
 [16]: https://appstore.superoffice.com/all-crm/exact-for-superoffice
 [17]: https://appstore.superoffice.com/itx-norge-as/itx-uc
+[18]: service/10.3.3-update.md
+[19]: https://appstore.superoffice.com/amesto-solutions-a-s/amesto-insight
 
 <!-- Referenced images -->
