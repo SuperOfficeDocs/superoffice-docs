@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Lotus Notes Link
   href: lotus.md
+- name: Microsoft 365 Document Integration
+  href: sharepoint-app.md
 - name: Pagebuilder
   href: pagebuilder.md
 - name: SOAP web services

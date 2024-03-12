@@ -1,13 +1,13 @@
 ---
-title: End-of-life notifications
 uid: eol
+title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
-author: Bergfrid Dias
-so.date: 12.13.2023
-so.lang: en
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
+author: Bergfrid Dias
+so.date: 03.12.2023
+so.lang: en
 so.topic: reference
-so.version: 10.2
+so.version: 10.3
 ---
 
 # End-of-life notifications
@@ -24,7 +24,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [Lotus Notes Link][11] | Approaching end-of-life | Support ends effectively from 01.01.2024 | Switch to [SuperOffice Inbox][21]. |
+| [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | 01.09.2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
 | [Pagebuilder][12] | No longer supported | The last supported version is 10.2.9 | Switch to [Screen Designer][22]. |
 
 ## Upcoming end-of-life notices
@@ -38,6 +38,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
+| [Lotus Notes Link][11] | Deprecated | Not supported from 01.01.2024 | Switch to [SuperOffice Inbox][21]. |
 | Pagebuilder extensibility | Deprecated | Not supported on SuperOffice 10.x and newer. | [WebCustomizations breaking changes][5] |
 | SOAP interface of SuperOffice Service | Deprecated | Not supported in SuperOffice Online version 10.x and newer. | Switch to [SuperOffice.WebApi][23] (REST). |
 
@@ -57,8 +58,11 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [11]: lotus.md
 [12]: pagebuilder.md
 [13]: soap.md
+[14]: sharepoint-app.md
 [21]: ../../docs/en/email/inbox/learn/index.md
 [22]: ../../docs/en/ui/screen-designer/index.md
 [23]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
+[24]: ../../docs/en/identity-management/superid/sign-in-services.md
+[25]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
 
 <!-- Referenced images -->
