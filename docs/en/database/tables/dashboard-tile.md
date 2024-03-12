@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# dashboard\_tile Table (480)
+# dashboard\_tile Table (482)
 
 Represents one tile in the dashboard
 

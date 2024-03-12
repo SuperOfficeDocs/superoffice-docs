@@ -15,11 +15,11 @@ Status of the workflow instance
 | Name | Value | Description |
 |------|-------|-------------|
 |None|0|None|
-|Idle|1|Idle|
-|Running|2|Running|
+|Idle|1|Idle - internally used for two stage insert to avoid race condition duplicates|
+|Active|2|Active (Running)|
 |Finished|3|Finished|
-|Suspended|4|Suspended|
-|Faulted|5|Faulted|
+|FinishedWithSuccess|4|Finished sith success (success criteria reached)|
+|DropOut|5|Dropped out (or faulted) for some given reason|
 |Cancelled|6|Cancelled|
 
 ## Usage

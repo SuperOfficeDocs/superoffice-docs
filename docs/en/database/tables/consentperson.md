@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# ConsentPerson Table (471)
+# ConsentPerson Table (472)
 
 Link table that defines who has which consents
 

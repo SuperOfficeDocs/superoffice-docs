@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# LegalBase Table (469)
+# LegalBase Table (470)
 
 Legal base for GDPR (Article 6)
 

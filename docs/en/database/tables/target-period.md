@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# target\_period Table (499)
+# target\_period Table (501)
 
 A set of periods linked with target amounts for users/usergroups and the target groups/years.
 

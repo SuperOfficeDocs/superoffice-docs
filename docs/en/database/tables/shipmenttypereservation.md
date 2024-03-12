@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# ShipmentTypeReservation Table (496)
+# ShipmentTypeReservation Table (498)
 
 ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 

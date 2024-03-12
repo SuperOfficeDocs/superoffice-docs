@@ -7,6 +7,8 @@ items:
   href: address.md
 - name: AddressFormat
   href: addressformat.md
+- name: ai_chat_turn
+  href: ai-chat-turn.md
 - name: AmountClass
   href: amountclass.md
 - name: AmountClassGroupLink
@@ -73,6 +75,8 @@ items:
   href: categorygrouplink.md
 - name: CategoryHeadingLink
   href: categoryheadinglink.md
+- name: cc_template
+  href: cc-template.md
 - name: chat_message
   href: chat-message.md
 - name: chat_session
@@ -457,6 +461,14 @@ items:
   href: notice-frame.md
 - name: notify
   href: notify.md
+- name: obsolete_1
+  href: obsolete-1.md
+- name: obsolete_2
+  href: obsolete-2.md
+- name: obsolete_3
+  href: obsolete-3.md
+- name: obsolete_4
+  href: obsolete-4.md
 - name: OLEField
   href: olefield.md
 - name: OLEFieldText
@@ -901,6 +913,8 @@ items:
   href: taskmenugrouplink.md
 - name: TaskMenuHeadingLink
   href: taskmenuheadinglink.md
+- name: temp_db_lock
+  href: temp-db-lock.md
 - name: temporary_words
   href: temporary-words.md
 - name: TemporaryKey
@@ -929,6 +943,10 @@ items:
   href: ticket-status-history.md
 - name: ticket_type
   href: ticket-type.md
+- name: ticket_type_priority
+  href: ticket-type-priority.md
+- name: ticket_type_status
+  href: ticket-type-status.md
 - name: timestamps
   href: timestamps.md
 - name: travelcurrent
@@ -1039,6 +1057,8 @@ items:
   href: workflow-step-option-link.md
 - name: workflow_trigger
   href: workflow-trigger.md
+- name: workflow_wait_for_action
+  href: workflow-wait-for-action.md
 - name: wsdl_description
   href: wsdl-description.md
 - name: ziptocity
@@ -1073,6 +1093,8 @@ items:
     href: enums/badgetype.md
   - name: BlobLinkType
     href: enums/bloblinktype.md
+  - name: CcTemplateType
+    href: enums/cctemplatetype.md
   - name: ChatMessageSpecialType
     href: enums/chatmessagespecialtype.md
   - name: ChatMessageType
@@ -1207,6 +1229,8 @@ items:
     href: enums/saledone.md
   - name: SaleStatus
     href: enums/salestatus.md
+  - name: ScriptType
+    href: enums/scripttype.md
   - name: SelectionSystemType
     href: enums/selectionsystemtype.md
   - name: SelectionUnionType
@@ -1313,3 +1337,5 @@ items:
     href: enums/workflowsteptype.md
   - name: WorkflowTriggerType
     href: enums/workflowtriggertype.md
+  - name: WorkflowWaitForActionType
+    href: enums/workflowwaitforactiontype.md

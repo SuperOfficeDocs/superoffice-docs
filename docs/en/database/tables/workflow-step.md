@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow\_step Table (512)
+# workflow\_step Table (514)
 
 A set of steps related to a workflow.
 
@@ -43,10 +43,12 @@ A set of steps related to a workflow.
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 |[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
 |[workflow\_step\_option\_link](workflow-step-option-link.md)  |Link steps to other steps through step options |
+|[workflow\_wait\_for\_action](workflow-wait-for-action.md)  |Some steps wait for actions, this is info about those actions |
 
 
 ## Replication Flags

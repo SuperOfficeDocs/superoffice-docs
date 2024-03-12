@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# QuoteDenyReason Table (522)
+# QuoteDenyReason Table (526)
 
 QuoteDenyReason MDO list item table.
 Predefined reasons for quote denial

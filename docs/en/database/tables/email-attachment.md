@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# email\_attachment Table (488)
+# email\_attachment Table (490)
 
 Attachment info related to an email_item
 

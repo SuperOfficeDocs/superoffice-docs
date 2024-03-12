@@ -44,6 +44,8 @@ This table user defined ticket status values.
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
+|[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |
 
 
 ## Replication Flags

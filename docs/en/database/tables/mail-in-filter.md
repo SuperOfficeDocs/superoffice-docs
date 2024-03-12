@@ -42,6 +42,7 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 |mailgun\_dsn|If this is set to 1, the route created in Mailgun will be set up to deliver emails of type auto-replies, system messsages etc|Bool|&#x25CF;|
 |ai\_suggest\_category|If this is set to 0 (false), then there will be no AI for suggesting categories on incoming emails|Bool| |
 |ai\_text\_analysis|If this is set to 0 (false), then there will be no AI text analysis on incoming emails|Bool| |
+|ticket\_type|Tickettype of the ticket|FK [ticket_type](ticket-type.md)|&#x25CF;|
 
 
 ![mail_in_filter table relationship diagram](./media/mail_in_filter.png)
@@ -73,6 +74,7 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 |[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
 
 
 ## Replication Flags

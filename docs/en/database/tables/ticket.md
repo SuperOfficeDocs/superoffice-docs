@@ -66,7 +66,6 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |time\_spent\_calculated|When the time_spent value was last calculated.|DateTime|&#x25CF;|
 |num\_replies|The number of replies (messages) to the customer for this request.|Int|&#x25CF;|
 |num\_messages|The total number of messages for this request.|Int|&#x25CF;|
-|ticket\_type|Ticket type|FK [ticket_type](ticket-type.md)|&#x25CF;|
 |from\_address|The from-address used when this ticket got created, e.g. by email|String(4000)|&#x25CF;|
 |tags|Array of references to the Tags records|FKArray|&#x25CF;|
 |contact\_id|The company of the person in the cust_id field, if that person belongs to a company|FK [contact](contact.md)|&#x25CF;|
@@ -78,6 +77,8 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |origHumanCategory\_id|Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category|FK [ej_category](ej-category.md)| |
 |sale\_id|Reference to sale table|FK [sale](sale.md)|&#x25CF;|
 |project\_id|Reference to project table|FK [project](project.md)|&#x25CF;|
+|time\_spent|The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use.|Int| |
+|ticket\_type|Tickettype of the ticket|FK [ticket_type](ticket-type.md)| |
 
 
 ![ticket table relationship diagram](./media/ticket.png)
@@ -107,8 +108,8 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
-|ticket\_type |FK |Index |
 |tags |FKArray |Full text |
+|ticket\_type |FK |Index |
 
 ## Relationships
 
@@ -138,7 +139,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
-|[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
 
 
 ## Replication Flags

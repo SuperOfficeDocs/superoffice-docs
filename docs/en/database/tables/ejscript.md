@@ -31,6 +31,7 @@ ejscript
 |updated|Last updated when|UtcDateTime|&#x25CF;|
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
+|type|The type/language of this script|Enum [ScriptType](enums/scripttype.md)| |
 
 
 ![ejscript table relationship diagram](./media/ejscript.png)
@@ -62,6 +63,7 @@ ejscript
 |[screen\_definition\_action](screen-definition-action.md)  |An action to perform for a certain button in an screen |
 |[TaskMenu](taskmenu.md)  |List items to merge into menues |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+
 
 ## Replication Flags
 

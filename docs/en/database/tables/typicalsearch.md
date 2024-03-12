@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# TypicalSearch Table (492)
+# TypicalSearch Table (494)
 
 Owner of a set of predefined selection criteria
 

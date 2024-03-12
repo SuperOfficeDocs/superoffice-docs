@@ -20,7 +20,7 @@ Step type
 |WaitForTime|3|WaitForTime|
 |WaitForAction|4|WaitForAction|
 |Split|5|Split|
-|UpdateContact|6|UpdateContact|
+|UpdateParticipant|6|UpdateParticipant|
 |AddToList|7|AddToList|
 |RemoveFromList|8|RemoveFromList|
 |CreateRequest|9|CreateRequest|

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# target\_revision\_history Table (502)
+# target\_revision\_history Table (504)
 
 Revision history info in case the original target group or assignment info was deleted
 

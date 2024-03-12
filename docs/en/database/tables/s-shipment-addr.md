@@ -33,6 +33,8 @@ Addresses that are ready to be sent in a shipment.
 |bounce\_code|If this recipient bounced and we have a bounce code, this field will contain the code|Int|&#x25CF;|
 |bounce\_reasontag|If this recipient bounced and we have a bounce reason, this field will contain the reason|String(4000)|&#x25CF;|
 |cleaned|Used for indicating that a bounced recipient row has been cleaned, and now will not be presented again in the cleaning list|Bool|&#x25CF;|
+|workflow\_step\_id|The row was created by this workflow step|FK [workflow_step](workflow-step.md)|&#x25CF;|
+|workflow\_instance\_id|The row was created by this workflow instance|FK [workflow_instance](workflow-instance.md)|&#x25CF;|
 
 
 ![s_shipment_addr table relationship diagram](./media/s_shipment_addr.png)
@@ -50,6 +52,8 @@ Addresses that are ready to be sent in a shipment.
 |ticket\_id |FK |Index |
 |contact\_id |FK |Index |
 |status, shipment\_id |Enum, FK |Index |
+|workflow\_instance\_id |FK |Index |
+|workflow\_step\_id |FK |Index |
 
 ## Relationships
 
@@ -60,6 +64,8 @@ Addresses that are ready to be sent in a shipment.
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
+|[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 
 
 ## Replication Flags

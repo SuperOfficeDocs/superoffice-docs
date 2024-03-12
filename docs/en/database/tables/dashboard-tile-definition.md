@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# dashboard\_tile\_definition Table (479)
+# dashboard\_tile\_definition Table (481)
 
 Describes the contents of a tile
 

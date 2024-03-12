@@ -62,6 +62,7 @@ Employees, resources and other users - except for External persons
 |------|-------------|
 |[address](address.md)  |Contact and Person addresses |
 |[AddressFormat](addressformat.md)  |Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com |
+|[ai\_chat\_turn](ai-chat-turn.md)  |Contains AI Chatbot history - contains whole chat, not just what is sent to the chatbot. History is ready ordered by timestamp |
 |[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[AmountClassGroupLink](amountclassgrouplink.md)  |User group link table for AmountClass, for MDO item hiding |
 |[AmountClassHeadingLink](amountclassheadinglink.md)  |Heading link table for AmountClass, for MDO headers |
@@ -90,6 +91,7 @@ Employees, resources and other users - except for External persons
 |[CategoryFamily](categoryfamily.md)  |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos; |
 |[CategoryGroupLink](categorygrouplink.md)  |User group link table for Category, for MDO item hiding |
 |[CategoryHeadingLink](categoryheadinglink.md)  |Heading link table for Category, for MDO headers |
+|[cc\_template](cc-template.md)  |This table contains templates for the customer center |
 |[company](company.md)  |Information on license and owner of this SuperOffice database. This table should only have 1 row. This table contains encrypted license information. Changing it will disable login for all users and require you to restore the database from backup. |
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
 |[ComptrGroupLink](comptrgrouplink.md)  |User group link table for Comptr, for MDO item hiding |
@@ -373,9 +375,12 @@ Employees, resources and other users - except for External persons
 |[TaskMenu](taskmenu.md)  |List items to merge into menues |
 |[TaskMenuGroupLink](taskmenugrouplink.md)  |User group link table for TaskMenu, for MDO item hiding |
 |[TaskMenuHeadingLink](taskmenuheadinglink.md)  |Heading link table for TaskMenu, for MDO headers |
+|[temp\_db\_lock](temp-db-lock.md)  |Represents a temporary lock on a resource identified by table_id and key |
 |[TemporaryKey](temporarykey.md)  |Temporary keys for lightweight authentications such as changing ones subscriptions |
 |[text](text.md)  |Long text fields from all over the system |
-|[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
+|[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
+|[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
 |[travelgenerateddatabase](travelgenerateddatabase.md)  |Information about all databases generated from this database |
 |[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |
@@ -411,6 +416,7 @@ Employees, resources and other users - except for External persons
 |[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
 |[workflow\_step\_option\_link](workflow-step-option-link.md)  |Link steps to other steps through step options |
 |[workflow\_trigger](workflow-trigger.md)  |A set of triggers related to a workflow. |
+|[workflow\_wait\_for\_action](workflow-wait-for-action.md)  |Some steps wait for actions, this is info about those actions |
 
 
 ## Replication Flags

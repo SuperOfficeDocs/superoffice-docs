@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow\_goal Table (511)
+# workflow\_goal Table (513)
 
 A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.
 

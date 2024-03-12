@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# script\_trace\_run Table (474)
+# script\_trace\_run Table (475)
 
 Traces of executed scripts
 
@@ -27,6 +27,7 @@ Traces of executed scripts
 |file\_size|The size of the trace file|Int|&#x25CF;|
 |associate\_id|Associate who the script was executed as|FK [associate](associate.md)|&#x25CF;|
 |status|The status of the script, or exception if it fails|String(2047)|&#x25CF;|
+|frames|The frames of the the trace|Clob|&#x25CF;|
 
 
 ![script_trace_run table relationship diagram](./media/script_trace_run.png)

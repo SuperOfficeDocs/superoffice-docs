@@ -1,0 +1,13 @@
+digraph ticket_type_priority  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ticket_type_priority[fillcolor = "cadetblue1"]
+ticket_type[fillcolor = "azure1"]
+ticket_priority[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+ticket_type_priority -> ticket_type [headlabel = "ticket_type_id"]
+ticket_type_priority -> ticket_priority [headlabel = "ticket_priority_id"]
+ticket_type_priority -> associate [headlabel = "registered_associate_id"]
+ticket_type_priority -> associate [label = "updated_associate_id"]
+}

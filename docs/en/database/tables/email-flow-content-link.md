@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# email\_flow\_content\_link Table (516)
+# email\_flow\_content\_link Table (518)
 
 Link message content to an email workflow
 

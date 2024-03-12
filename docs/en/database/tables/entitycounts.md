@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# EntityCounts Table (525)
+# EntityCounts Table (529)
 
 Number of different entities an associate has created for usage statistics
 

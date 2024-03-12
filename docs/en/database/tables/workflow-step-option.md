@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow\_step\_option Table (514)
+# workflow\_step\_option Table (516)
 
 Some steps can have optional child &apos;flows&apos;, a new series of steps
 
@@ -20,13 +20,13 @@ Some steps can have optional child &apos;flows&apos;, a new series of steps
 |workflow\_step\_id|The workflow step this instance belongs to|FK [workflow_step](workflow-step.md)|&#x25CF;|
 |workflow\_id|The flow this instance belongs to|FK [workflow](workflow.md)|&#x25CF;|
 |name|The name of this option|String(255)|&#x25CF;|
-|key|A key used to refer to this option|String(255)|&#x25CF;|
 |rank|The rank of this option|Int|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|key\_id|References the object this option is based on (project, selection, link...) given by SplitOptionType on a SplitStep|RecordId|&#x25CF;|
 
 
 ![workflow_step_option table relationship diagram](./media/workflow_step_option.png)
@@ -38,6 +38,7 @@ Some steps can have optional child &apos;flows&apos;, a new series of steps
 | Fields | Types | Description |
 |--------|-------|-------------|
 |workflow\_step\_option\_id |PK |Clustered, Unique |
+|key\_id |RecordId |Index |
 
 ## Relationships
 

@@ -1,0 +1,9 @@
+digraph temp_db_lock  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+temp_db_lock[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+temp_db_lock -> associate [headlabel = "registered_associate_id"]
+temp_db_lock -> associate [label = "updated_associate_id"]
+}

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# dashboard Table (477)
+# dashboard Table (479)
 
 Describes a dashboard
 

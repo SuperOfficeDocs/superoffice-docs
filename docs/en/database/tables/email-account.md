@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# email\_account Table (484)
+# email\_account Table (486)
 
 Email account information
 

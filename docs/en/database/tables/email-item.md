@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# email\_item Table (487)
+# email\_item Table (489)
 
 Email data
 

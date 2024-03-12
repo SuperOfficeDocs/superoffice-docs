@@ -38,6 +38,7 @@ This table contains email filters. These are the filters allowing you to do adva
 |parse\_mode|If automatic parsing this column indicate mode|Short|&#x25CF;|
 |ejscript|The reference to the ejscript to execute for this filter.|FK [ejscript](ejscript.md)|&#x25CF;|
 |new\_tags|The tags to set for tickets modified by this filter|FKArray|&#x25CF;|
+|new\_ticket\_type|Tickettype of the ticket|FK [ticket_type](ticket-type.md)|&#x25CF;|
 
 
 ![ms_filter table relationship diagram](./media/ms_filter.png)
@@ -72,6 +73,7 @@ This table contains email filters. These are the filters allowing you to do adva
 |[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
 |[Tags](tags.md)  |MDO List of tags for Service entities |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
 
 
 ## Replication Flags

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow\_step\_option\_link Table (515)
+# workflow\_step\_option\_link Table (517)
 
 Link steps to other steps through step options
 

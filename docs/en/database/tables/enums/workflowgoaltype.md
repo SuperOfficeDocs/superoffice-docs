@@ -15,8 +15,8 @@ A goal that will conclude the workflow
 | Name | Value | Description |
 |------|-------|-------------|
 |None|0|None|
-|ContactUpdated|1|ContactUpdated|
-|SaleCreatedOnContact|2|SaleCreatedOnContact|
+|PersonUpdated|1|PersonUpdated|
+|SaleCreatedOnPerson|2|SaleCreatedOnPerson|
 |SaleCreatedOnCompany|3|SaleCreatedOnCompany|
 |AppointmentCreated|4|AppointmentCreated|
 |AddedToProject|5|AddedToProject|

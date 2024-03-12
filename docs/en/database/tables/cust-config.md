@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# cust\_config Table (476)
+# cust\_config Table (477)
 
 This table contains JSON structures used for customizing the customer center
 

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# invitation Table (489)
+# invitation Table (491)
 
 Invitations to events
 
@@ -30,6 +30,7 @@ Invitations to events
 |organizer\_fullname|The organizer&apos;s full name|String(255)|&#x25CF;|
 |recurring\_end\_date|The end date for a recurring event|DateTime|&#x25CF;|
 |recurring\_start\_date|The start date for a recurring event|DateTime|&#x25CF;|
+|template\_language|The SO-language used for email invitations (see PhysicalDocument.GetTemplateLanguages(), CultureDataFormatter.MapCultureToSuperOfficeLanguage()|String(16)|&#x25CF;|
 
 
 ![invitation table relationship diagram](./media/invitation.png)

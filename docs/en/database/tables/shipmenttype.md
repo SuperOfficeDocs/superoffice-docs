@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# ShipmentType Table (495)
+# ShipmentType Table (497)
 
 Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists
 

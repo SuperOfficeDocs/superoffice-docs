@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# target\_group Table (498)
+# target\_group Table (500)
 
 Info about a set of (sales, project, selection...) targets
 

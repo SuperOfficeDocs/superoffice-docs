@@ -1,0 +1,8 @@
+digraph ai_chat_turn  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+ai_chat_turn[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+ai_chat_turn -> associate [headlabel = "associate_id"]
+}

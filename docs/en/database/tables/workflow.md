@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow Table (508)
+# workflow Table (510)
 
 SuperOffice specific info about a workflow
 
@@ -39,6 +39,8 @@ SuperOffice specific info about a workflow
 |tzLocationId|Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...|FK [TZLocation](tzlocation.md)|&#x25CF;|
 |remove\_from\_flows|Workflows to remove the participants from when they are enrolled in this workflow|FKArray|&#x25CF;|
 |block\_lists|Persons in the given selections are not allowed to enter this workflow|FKArray|&#x25CF;|
+|exit\_flow\_id|On exit with no success criteria met, we attempt to add the participant to the given flow|FK [workflow](workflow.md)|&#x25CF;|
+|exit\_success\_flow\_id|On exit with success criteria met, we attempt to add the participant to the given flow|FK [workflow](workflow.md)|&#x25CF;|
 
 
 ![workflow table relationship diagram](./media/workflow.png)
@@ -68,6 +70,7 @@ SuperOffice specific info about a workflow
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 |[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
 |[workflow\_trigger](workflow-trigger.md)  |A set of triggers related to a workflow. |
+|[workflow\_wait\_for\_action](workflow-wait-for-action.md)  |Some steps wait for actions, this is info about those actions |
 
 
 ## Replication Flags

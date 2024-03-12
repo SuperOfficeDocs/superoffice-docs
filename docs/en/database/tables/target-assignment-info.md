@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# target\_assignment\_info Table (500)
+# target\_assignment\_info Table (502)
 
 Linking associate, company or user group target and other information with target values
 

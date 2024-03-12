@@ -15,19 +15,19 @@ What kind of trigger is this
 | Name | Value | Description |
 |------|-------|-------------|
 |None|0|None|
-|SendEmail|1|ContactCreated|
-|SendSMS|2|ContactUpdated|
-|WaitForTime|3|AddedToProject|
-|WaitForAction|4|CreatedRequest|
-|Split|5|LinkClicked|
-|UpdateContact|6|AddedToSelection|
-|AddToList|7|FormSubmitted|
-|RemoveFromList|8|AddedMessage|
-|CreateRequest|9|StartedChat|
-|CreateFollowUp|10|OrderPlaced|
-|CreateSale|11|SaleCreated|
-|NotifyByEmail|12|SaleSold|
-|NotifyBySMS|13|SaleLost|
+|PersonCreated|1|PersonCreated|
+|PersonUpdated|2|PersonUpdated|
+|AddedToProject|3|AddedToProject|
+|CreatedRequest|4|CreatedRequest|
+|LinkClicked|5|LinkClicked|
+|AddedToSelection|6|AddedToSelection|
+|FormSubmitted|7|FormSubmitted|
+|AddedMessage|8|AddedMessage|
+|StartedChat|9|StartedChat|
+|OrderPlaced|10|OrderPlaced|
+|SaleCreated|11|SaleCreated|
+|SaleSold|12|SaleSold|
+|SaleLost|13|SaleLost|
 
 ## Usage
 

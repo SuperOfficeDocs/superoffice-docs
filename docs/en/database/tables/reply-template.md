@@ -51,6 +51,7 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 |[reply\_template\_body](reply-template-body.md)  |Contains the body of the reply templates in different languages |
 |[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
 
 
 ## Replication Flags

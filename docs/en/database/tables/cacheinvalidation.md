@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# CacheInvalidation Table (518)
+# CacheInvalidation Table (522)
 
 Names and generation numbers for distributed invalidation of caches
 
@@ -21,6 +21,7 @@ Names and generation numbers for distributed invalidation of caches
 |Generation|The &apos;generation number&apos;, starts at 1 and goes up for every registered change|Int|&#x25CF;|
 |LastChange|The UTC datetime of the last change; for information only|UtcDateTime|&#x25CF;|
 |LastChangeMachine|The name of the machine where the last change occurred|String(255)|&#x25CF;|
+|FirstChange|When was the first flush registered for this table/cache|UtcDateTime|&#x25CF;|
 
 
 ![CacheInvalidation table relationship diagram](./media/CacheInvalidation.png)

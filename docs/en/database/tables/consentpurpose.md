@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# ConsentPurpose Table (468)
+# ConsentPurpose Table (469)
 
 GDPR purpose alternatives
 

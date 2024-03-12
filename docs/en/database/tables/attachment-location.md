@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# attachment\_location Table (475)
+# attachment\_location Table (476)
 
 A location for storing attachments
 

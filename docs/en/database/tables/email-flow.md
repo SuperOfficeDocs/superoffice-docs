@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# email\_flow Table (509)
+# email\_flow Table (511)
 
 A set of properties related to the email workflow.
 

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# MailingDomains Table (491)
+# MailingDomains Table (493)
 
 List of allowed domains used in a Mailing
 

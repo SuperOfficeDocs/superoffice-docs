@@ -1,0 +1,13 @@
+digraph workflow_wait_for_action  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+workflow_wait_for_action[fillcolor = "cadetblue1"]
+workflow_step[fillcolor = "azure1"]
+workflow[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+workflow_wait_for_action -> workflow_step [headlabel = "workflow_step_id"]
+workflow_wait_for_action -> workflow [headlabel = "workflow_id"]
+workflow_wait_for_action -> associate [headlabel = "registered_associate_id"]
+workflow_wait_for_action -> associate [label = "updated_associate_id"]
+}

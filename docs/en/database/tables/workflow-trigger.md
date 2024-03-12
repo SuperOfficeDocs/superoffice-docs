@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# workflow\_trigger Table (513)
+# workflow\_trigger Table (515)
 
 A set of triggers related to a workflow.
 

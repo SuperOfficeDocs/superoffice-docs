@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# TemporaryKey Table (497)
+# TemporaryKey Table (499)
 
 Temporary keys for lightweight authentications such as changing ones subscriptions
 

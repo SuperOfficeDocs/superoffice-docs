@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# QuoteDenyReasonHeadingLink Table (524)
+# QuoteDenyReasonHeadingLink Table (528)
 
 Heading link table for QuoteDenyReason, for MDO headers
 

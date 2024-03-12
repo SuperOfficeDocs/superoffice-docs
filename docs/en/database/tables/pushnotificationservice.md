@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# PushNotificationService Table (494)
+# PushNotificationService Table (496)
 
 Used for storing handles to user devices that should receive push notifications
 

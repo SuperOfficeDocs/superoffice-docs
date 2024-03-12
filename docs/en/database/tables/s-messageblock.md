@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# s\_messageblock Table (490)
+# s\_messageblock Table (492)
 
 Contains a block of a mailing message, that can be reused in a mailing
 

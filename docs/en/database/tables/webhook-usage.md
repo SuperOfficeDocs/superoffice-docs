@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# Webhook\_usage Table (507)
+# Webhook\_usage Table (509)
 
 Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.
 

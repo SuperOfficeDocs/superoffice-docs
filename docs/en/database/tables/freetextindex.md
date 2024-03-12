@@ -38,6 +38,7 @@ This is the index table for the free text search function. Each word in FreeText
 |table\_id, record\_id |TableNumber, RecordId |Index |
 |freetextwords\_id, ownertable\_id |FK, TableNumber |Clustered |
 |contact\_id |FK |Index |
+|ownerrecord\_id, ownertable\_id, freetextwords\_id |RecordId, TableNumber, FK |Index |
 
 ## Relationships
 

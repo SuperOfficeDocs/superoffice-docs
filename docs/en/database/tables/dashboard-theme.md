@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# dashboard\_theme Table (478)
+# dashboard\_theme Table (480)
 
 A set of style rules for the Dashboard
 

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# service\_auth Table (486)
+# service\_auth Table (488)
 
 Authentication for a service (imap, smtp...)
 

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# quick\_reply Table (462)
+# quick\_reply Table (463)
 
 Personal quick reply text fragments
 

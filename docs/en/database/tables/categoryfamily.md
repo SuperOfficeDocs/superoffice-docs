@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# CategoryFamily Table (472)
+# CategoryFamily Table (473)
 
 Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;
 

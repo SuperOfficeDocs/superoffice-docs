@@ -1,0 +1,6 @@
+digraph obsolete_1  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+obsolete_1[fillcolor = "cadetblue1"]
+}

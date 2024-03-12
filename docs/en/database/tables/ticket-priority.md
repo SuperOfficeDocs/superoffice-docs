@@ -67,6 +67,8 @@ This table contains the ticket priorities.
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
+|[ticket\_type](ticket-type.md)  |A ticket (request) type |
+|[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 
 
 ## Replication Flags
