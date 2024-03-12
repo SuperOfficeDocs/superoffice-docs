@@ -1,13 +1,11 @@
 items:
 - name: Project
   href: index.yml
-  expanded: true
   items:
   - name: Overview
     href: overview.md
   - name: API options
     href: howto/index.md
-    expanded: true
     items:
     - name: CRMScript
       href: howto/crmscript/index.md
@@ -26,7 +24,6 @@ items:
         href: howto/crmscript/samples.md
     - name: Raw SQL
       href: howto/sql/index.md
-      expanded: true
       items:
       - name: Create project
         href: howto/sql/create.md

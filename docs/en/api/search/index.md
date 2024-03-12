@@ -1,4 +1,5 @@
 ---
+uid: search-api
 title: search
 description: "Introduction to API search capabilities and archive providers."
 author: SuperOfficeDevNet

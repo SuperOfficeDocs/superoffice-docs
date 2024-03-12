@@ -1,7 +1,6 @@
 items:
 - name: User interface
   topicHref: index.yml
-  expanded: true
   items:
   - name: Screen designer
     href: screen-designer/toc.yml

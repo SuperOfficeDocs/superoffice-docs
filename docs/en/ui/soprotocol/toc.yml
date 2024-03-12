@@ -6,7 +6,6 @@ items:
 - name: Page control and cache
   href: page-control-and-cache.md
 - name: How to...
-  expanded: true
   items:
   - name: Create appointment
     href: create-appointment.md

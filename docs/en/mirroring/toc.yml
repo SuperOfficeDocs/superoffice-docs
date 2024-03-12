@@ -19,7 +19,6 @@ items:
   href: sql-server-schema.md
 - name: Getting started
   href: getting-started/index.md
-  expanded: true
   items:
   - name: Create WFC
     href: getting-started/create-wfc.md

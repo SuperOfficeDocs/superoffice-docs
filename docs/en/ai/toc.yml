@@ -1,6 +1,5 @@
 items:
 - name: AI services
-  expanded: true
   items:
   - name: Introduction
     href: index.md
@@ -8,7 +7,6 @@ items:
     href: copilot/index.md
   - name: Configuration AI
     href: configuration-ai/index.md
-    expanded: true
     items:
     - name: Getting started
       href: configuration-ai/getting-started.md

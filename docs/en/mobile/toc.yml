@@ -1,14 +1,12 @@
 items:
 - name: Mobile
   topicHref: index.yml
-  expanded: true
   items:
   - name: Introduction
     href: overview.md
   - name: Superoffice Mobile
     href: superoffice-mobile/toc.yml
   - name: Pocket CRM
-    expanded: true
     items:
     - name: Install
       href: pocket-crm/install.md

@@ -1,6 +1,5 @@
 items:
 - name: Document
-  expanded: true
   items:
   - name: Cloud document integrations
     href: cloud/index.yml

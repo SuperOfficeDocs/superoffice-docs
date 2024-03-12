@@ -1,7 +1,6 @@
 items:
 - name: Sale
   href: index.yml
-  expanded: true
   items:
   - name: Introduction to sales
     href: overview.md

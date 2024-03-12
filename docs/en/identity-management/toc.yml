@@ -16,7 +16,6 @@ items:
     href: single-sign-on/onsite-sso.md
 - name: SuperID
   href: superid/overview.md
-  expanded: true
   items:
   - name: Sign-in services
     href: superid/sign-in-services.md
@@ -46,7 +45,6 @@ items:
       href: superid/howto/custom-domains-registration-form.md
 - name: User
   href: user/add-user-in-admin-client.md
-  expanded: true
   items:
   - name: Add user in admin client
     href: user/add-user-in-admin-client.md
@@ -58,7 +56,6 @@ items:
     href: user/send-welcome-emails.md
 - name: Active Directory
   href: ad/index.md
-  expanded: true
   items:
   - name: Set up AD auth
     href: ad/set-up-ad-auth.md
@@ -66,7 +63,6 @@ items:
     href: ad/mapping-so-user-to-ad-v-7-1.md
 - name: SCIM
   href: scim/overview.md
-  expanded: true
   items:
   - name: Sign in to SCIM
     href: scim/sign-in-to-scim.md

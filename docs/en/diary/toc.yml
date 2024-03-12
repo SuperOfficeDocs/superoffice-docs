@@ -1,7 +1,6 @@
 items:
 - name: Diary
   href: index.yml
-  expanded: true
   items:
   - name: Video meeting
     href: ../video-meeting/toc.yml

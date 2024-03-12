@@ -1,7 +1,6 @@
 items:
 - name: Introduction
   href: index.md
-  expanded: true
 - name: Google
   href: google-meet/index.md
 - name: Jitsi
@@ -13,7 +12,6 @@ items:
 - name: Zoom
   href: zoom/index.md
 - name: Howto
-  expanded: false
   items:
   - name: Create video meeting
     href: howto/create.md

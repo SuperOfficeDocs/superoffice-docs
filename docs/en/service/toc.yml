@@ -1,7 +1,6 @@
 items:
 - name: Service
   href: index.yml
-  expanded: true
   items:
   - name: Install
     items:

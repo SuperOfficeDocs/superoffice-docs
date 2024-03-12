@@ -3,7 +3,6 @@ items:
   href: index.md
 - name: Register the app
   href: index.md
-  expanded: true
   items:
   - name: Web app
     href: web-app.md
@@ -21,7 +20,6 @@ items:
   href: versioning.md
 - name: Configuration
   href: config/index.md
-  expanded: true
   items:
   - name: What is my client ID?
     href: config/find-clientid.md

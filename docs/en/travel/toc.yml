@@ -6,7 +6,6 @@ items:
 - name: What is an update prototype?
   href: update-prototype.md
 - name: Database options
-  expanded: true
   items:
   - name: Built-in
     items:
@@ -28,7 +27,6 @@ items:
       href: sybase/create-prototype.md
 - name: Travel gateway
   href: travel-gateway/index.md
-  expanded: true
   items:
   - name: SuperOffice Remote Travel Server
     href: travel-gateway/sorts.md
@@ -48,7 +46,6 @@ items:
       href: travel-gateway/username-ini.md
 - name: Area management
   href: area-management/index.md
-  expanded: true
   items:
   - name: Terminology
     href: area-management/terminology.md
@@ -56,7 +53,6 @@ items:
     href: area-management/set-up.md
 - name: Satellite
   href: satellite/index.md
-  expanded: true
   items:
   - name: Set up
     href: satellite/set-up.md

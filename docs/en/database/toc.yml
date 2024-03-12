@@ -1,7 +1,6 @@
 items:
 - name: Database
   topicHref: index.yml
-  expanded: true
   items:
   - name: Introduction
     href: overview.md

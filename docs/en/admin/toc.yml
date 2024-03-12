@@ -1,7 +1,6 @@
 items:
 - name: Admin
   href: overview.md
-  expanded: true
   items:
   - name: License
     href: license/index.md

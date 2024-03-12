@@ -3,7 +3,6 @@ items:
   href: overview.md
 - name: Custom screens
   href: custom-screens/index.md
-  expanded: true
   items:
   - name: bLogic query syntax
     href: custom-screens/blogic-query-syntax.md
@@ -177,7 +176,6 @@ items:
   - name: Tree explorer
     href: reference/tree-explorer.md
 - name: Tutorials
-  expanded: true
   items:
   - name: Custom database and UI
     href: tutorials/custom-db-and-ui.md
