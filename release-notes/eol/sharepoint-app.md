@@ -15,7 +15,7 @@ so.envir: online
 
 This is a formal announcement of **End of Life** for our Microsoft 365 Document Integration (Sharepoint v1.0). This feature has been available for Online customers through our AppStore only. You can already now migrate to our application [SharePoint Documents 3.0][2] - the new and improved version for handling document integration to SharePoint.
 
-We will end our support effectively from **09.01.2024**. After this date you are not able to create new documents from SuperOffice until you have migrated to the new version.
+We will end our support effectively from **01.09.2024** (September). After this date you are not able to create new documents from SuperOffice until you have migrated to the new version.
 
 ## What is Microsoft 365 Document Integration (Sharepoint v1.0)?
 
