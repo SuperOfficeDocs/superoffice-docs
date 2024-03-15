@@ -2,35 +2,37 @@
 uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
+keywords: formulär, webbformulär, anmäl dig
 author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: formulär, anmäl dig
+so.date: 03.13.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Skapa nytt formulär
 
-Med hjälp av webbformulär blir det lättare att interagera med befintliga och potentiella kunder via din webbplats eller via kundcentret.
-
-Du kan antingen skapa ditt eget formulär från grunden, använda en mall från formulärmallarna eller välja en från vårt online-mallbibliotek.
+Webbformulär gör det lättare att interagera med befintliga och potentiella kunder via din webbplats eller kundcenter. Du har tre alternativ: skapa ett formulär från grunden, skapa och använda en anpassad formulärmall eller välj en gratis mall från **Online Template Library** i SuperOffice Marketing.
 
 Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa ett webbformulär (videons längd: 7:49).
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
-## Skapa nytt
+## Skapa nytt (från grunden)
 
 1. Gå till fliken **Formulär**.
-2. Klicka eventuellt på **Lägg till mapp** för att [skapa en mapp för formuläret][8].
-3. Välj **Formulär** under **Skapa nytt** till höger på skärmen. Skärmen **Redigera formulär** visas.
-4. Ange ett beskrivande namn på mallen i fältet **Formulärnamn**.
-5. Fyll i fältet enligt beskrivningen nedan.
-6. Kom ihåg att klicka på **Använd nu** regelbundet så att arbetet sparas. Formuläret sparas inte automatiskt.
-7. Klicka på **Spara** när du är klar.
+2. Om det behövs, klicka på **Lägg till mapp** för att [skapa en mapp för formuläret][8].
+3. Klicka på **Formulär**-knappen under **Skapa nytt** på höger sida av skärmen.
+4. I dialogrutan **Redigera formulär**, ange ett beskrivande **Formulärnamn**.
+5. [Fyll i fälten](#fields) enligt beskrivningen nedan. Kom ihåg att klicka på **Använd nu** regelbundet för att spara ditt arbete. Formuläret sparas inte automatiskt.
+6. Klicka på **Spara** när du är klar.
 
-## Vill du skapa ett nytt formulär baserat på en formulärmall?
+![Definiera egenskaper för nytt Kontakta mig formulär -screenshot][img15]
+
+## Skapa nytt formulär baserat på en formulärmall
 
 1. Välj fliken **Formulärmallar**.
 2. Klicka på **Alla mallar**.
@@ -40,11 +42,11 @@ Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa et
 
 ## <a id="multi-page" />Skapa flersidiga formulär
 
-Om du skapar ett formulär med många fält kan det vara praktiskt att dela upp formuläret på flera sidor. Det gör att formuläret blir mer användarvänligt och att det blir lättare att läsa det. Användaren kan navigera med hjälp av knapparna **Nästa** och **Föregående**, och du kan även lägga till en förloppsindikator för att visa hur mycket det finns kvar att fylla i.
+För att öka användarvänligheten och underlätta läsbarheten kan du överväga att dela upp ett formulär med många fält på flera sidor. Användare kan navigera genom formuläret med hjälp av **Nästa**- och **Föregående**-knappar, och en förloppsindikator kan läggas till för att visa återstående fält.
 
 1. Skapa ett formulär enligt beskrivningen ovan.
-2. Gå till kategorin **Fält**.
-3. Klicka på knappen **Lägg till**(![ikon][img2]).
+2. Välj **Fält** från vänstermenyn (i dialogrutan).
+3. Klicka på knappen **Lägg till** ![ikon][img2].
 4. I fönstret **Lägg till post** väljer du **Visa poster**.
 5. Välj **Avsnitt** och klicka på **Lägg till**. Fönstret stängs och ett avsnitt läggs till i formuläret. Du kan också se avsnittet i förhandsgranskningen av formuläret.
 6. Klicka på ![ikon][img3] längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
@@ -54,13 +56,11 @@ Om du skapar ett formulär med många fält kan det vara praktiskt att dela upp 
 > [!TIP]
 > Du kan lägga till en förloppsindikator i formuläret så att användaren kan se hur mycket det är kvar att fylla i. Gå till kategorin **Stil**, klicka på kryssrutan bredvid **Färg på förloppsindikatorn** och välj en färg.
 
-## Fylla i formulärfält
+## <a id="fields" />Fylla i formulärfält
 
-Klicka på rubrikerna för att lära dig hur du fyller i fälten i de olika kategorierna:
+[!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 ### Egenskaper
-
-Fyll i följande information i kategorin **Egenskaper**:
 
 * **Mapp**: Välj var du vill placera formuläret eller [skapa en ny mapp][8].
 
@@ -81,13 +81,16 @@ Fyll i följande information i kategorin **Egenskaper**:
 
 I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. När du lägger till och redigerar fält uppdateras förhandsgranskningen automatiskt.
 
-1. Gå till kategorin **Fält**. Fältet **Kontakt – namn** och knappen **OK** har lagts till som standard i det nya formuläret.
+1. Välj **Fält** från vänstermenyn. Fältet **Kontakt – namn** och knappen **OK** har lagts till som standard i det nya formuläret.
 
 2. Klicka på knappen **Lägg till** ![ikon][img2].
 
 3. Välj en av följande fältkategorier i fönstret **Lägg till post**:
+
     * **SuperOffice-poster**: Fält som är länkade till SuperOffice-data, till exempel kontaktnamn, land, e-postadress och så vidare. Beroende på typ av fält kan värden från inlämnade formulär antingen ersätta befintliga värden (t.ex. land eller titel) eller läggas till i relevant SuperOffice-fält (t.ex. mobiltelefon).
+
     * **Formulärposter**: Fält där text eller datum, fält för att välja värden (listor, kryssrutor och alternativknappar) och filöverföringsfält anges.
+
     * **Visa poster**: Avsnitt, texter och bilder. Använd avsnitt för att [skapa flersidiga formulär](#multi-page).
 
 4. Välj ett fält i listan.
@@ -113,7 +116,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 ### Stil
 
-I kategorin **Stil** kan du ange utseendet och känslan för formuläret. Du kan bland annat ange antal kolumner, placering av fältnamn, kanter, bakgrund, typsnittsfärg/-storlek och formulärstorlek.
+Välj **Stil** från vänstermenyn för att definiera utseendet och känslan av formuläret. Till exempel, antal kolumner, placering av fältnamn, kanter, bakgrund, typsnittsfärg/-storlek och formulärstorlek.
 
 Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon inställning. Om du inte anger höjden och bredden på formuläret får formuläret automatiskt skärmstorleken (stationär dator, surfplatta eller mobil).
 
@@ -122,12 +125,7 @@ Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon 
 
 ### Aktivera dubbel anmälan
 
-Dubbel anmälan är ett extra steg i processen för formulärinlämning, där en person måste bekräfta sin e-postadress för att slutföra sin formulärinlämning. De får ett e-postmeddelande med en länk som personen måste klicka på för att bekräfta att e-postadressen är rätt.
-
-> [!NOTE]
-> Länken är giltig i 30 minuter som standard.
-
-Att använda funktionen för dubbel anmälan garanterar att man skickar in rätt e-postadress. Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till en ökad öppningsgrad för dina utskick. Som en extra bonus behöver du inte lägga tid på att korrigera stavfel i e-postadresser eller ta bort e-postadresser som inte finns. Och det kommer också att hjälpa dig i ditt arbete att vara GDPR-kompatibel.
+Dubbel anmälan (opt-in) är ett extra steg i processen för formulärinlämning som garanterar att personer skickar in rätt e-postadress.
 
 Titta på den här filmen eller följ stegen nedan för att lära dig hur du använder funktionen för dubbel anmälan i ditt webbformulär (videons längd: 3:45).
 
@@ -137,15 +135,18 @@ Titta på den här filmen eller följ stegen nedan för att lära dig hur du anv
 **Steg:**
 
 1. Klicka på **Aktivera dubbel anmälan**.
-2. Ange den text som ska visas när formuläret lämnas in på fliken **Meddelande**. Klicka på **Visa/dölj verktygsfält** ![ikon][img7] om du vill visa formateringsalternativen för texten.
+
+2. Ange den text som ska visas när formuläret lämnas in på fliken **Meddelande**.
+
 3. Skapa bekräftelsemeddelandet som skickades till personerna som lämnade in formuläret på fliken **E-post**.
     1. **Ämne**: Ange ämnet i bekräftelsemeddelandet.
     2. **Avsändaradress**: Ange e-postadressen som ska visas i fältet **Från** i bekräftelsemeddelandet.
-    3. **Bekräftelsetext**: Ange brödtexten i e-postmeddelandet. Klicka på **Visa/dölj verktygsfält** ![ikon][img7] om du vill visa formateringsalternativen för texten. Klicka på **Öppna textredigerare i dialogruta** ![ikon][img8] om du vill redigera texten i en större redigerare.
-    4. Klicka på **Visa/dölj verktygsfält** ![ikon][img7] och sedan på **Lägg in bekräftelselänk** ![ikon][img9]. Bekräftelselänken infogas i brödtexten. Om du vill redigera länken klickar du på den och väljer **Redigera länk** ![ikon][img10].
+    3. **Bekräftelsetext**: Ange brödtexten i e-postmeddelandet.
+    4. Välj **Lägg in bekräftelselänk** ![ikon][img9] från verktygsfältet (klicka ![ikon][img7] för att visa). Bekräftelselänken infogas i brödtexten. Om du vill redigera länken klickar du på den och väljer **Redigera länk** ![ikon][img8].
+
 4. Klicka på **Använd nu** när du är klar.
 
-Om dubbel anmälan är aktiverad för ett formulär får alla [inlämningar för det här formuläret][5] statusen **Väntar på bekräftelse** tills e-postadressen har bekräftats.
+Om dubbel anmälan är aktiverad för ett formulär får alla inlämningar för det här formuläret statusen **Väntar på bekräftelse** tills e-postadressen har bekräftats.
 
 > [!NOTE]
 > Kom ihåg att lägga till fältet **Kontakt – e-post** i kategorin **Fält**.
@@ -154,9 +155,7 @@ Om dubbel anmälan är aktiverad för ett formulär får alla [inlämningar för
 
 När en person slutför och lämnar in ett formulär ska du tacka dem och tala om för dem vad som händer härnäst. Det är alltid trevligt att säga tack. Det är något människor verkligen uppskattar.
 
-Förutom att säga tack kan du använda den här sidan för att informera dina besökare om andra produkter eller evenemang. Lägg bara till din inspirationstext på sidan och länka den till specifika platser på din webbplats. På så sätt kan kunden fortsätta att utforska din webbplats efter att de har skickat in sina uppgifter.
-
-Effekten blir upplyftande – en "Tack"-sida kommer både att höja deras kundupplevelse och stärka kundlojaliteten för dig.
+Använd "Tack"-sidan för att marknadsföra andra produkter eller evenemang och länka till relevanta delar av din webbplats. Detta förbättrar användarupplevelsen och främjar kundlojalitet.
 
 Titta på den här filmen eller följ stegen nedan för att lära dig hur du lägger till en "Tack"-sida i ditt webbformulär (videons längd: 1:48).
 
@@ -167,38 +166,21 @@ Välj något av följande alternativ:
 
 * **Omdirigera till extern webbplats**: Ange länken till webbsidan med mer information.
 * **Visa detta meddelande**: Ange den text som ska visas.
-  * Klicka på **Visa/dölj verktygsfält** ![ikon][img7] om du vill visa formateringsalternativen för texten.
-  * Klicka på **Öppna textredigerare i dialogruta** ![ikon][img8] om du vill redigera texten i en större redigerare.
 
 ### Sida för inaktivt formulär
 
 Om en person öppnar ett inaktivt formulär kan du antingen dirigera om honom eller henne till en annan webbsida eller visa ett meddelande.
 
 * **Omdirigera till extern webbplats**: Ange länken till webbsidan.
-* **Visa detta meddelande**: Ange den text som ska visas. Klicka på **Visa/dölj verktygsfält** ![ikon][img7] om du vill visa formateringsalternativen för texten. Klicka på **Öppna textredigerare i dialogruta** ![ikon][img8] om du vill redigera texten i en större redigerare.
+* **Visa detta meddelande**: Ange den text som ska visas.
 
 ### Åtgärder
 
-Här kan du ange hur ett inlämnat formulär ska bearbetas. Fyll i följande fält:
+Här kan du [definiera vad som händer när någon skickar in ett svarsformulär][3].
 
-**Meddela inlämningar genom att skapa ärenden**: Välj detta alternativ om du vill skapa ett ärende för varje formulär som lämnas in. Ange en rubrik och välj kategori och prioritet för ärendet. Inlämnade formulär är tillgängliga under **Ärenden** i SuperOffice Service och i detaljkortet **Ärende** i fönstren Företag och Kontakt i SuperOffice CRM.
-
-**Hur ska en formulärinlämning bearbetas?** Här kan du ange om det inlämnade formuläret ska behandlas automatiskt.
-
-* **Bearbeta alla inlämningar automatiskt. Skapa en ny kontakt om ingen matchning hittas**: Alla formulärinlämningar bearbetas automatiskt. Det kommer inga meddelanden om inskickade formulär.
-* **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt. Du får ett meddelande (![ikon][img11]). Se [Behandla formulärinlämningar][6].
-* **Manuellt för alla inlämningar**: Du får ett meddelande (![ikon][img11]) för varje inskickat formulär. Om du vill bearbeta formulärinlämningar manuellt går du till [Bearbeta formulärinlämningar][6].
-
-**What should happen when the form is processed?** Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (automatiskt eller manuellt).
-
-* **Lägg till kontakt i urval**: Om du valt automatisk behandling ovan lägger du till en markering här som håller koll på kontakter som lagts till via det här formuläret. Det gör det också lättare att ta bort irrelevanta kontakter (och företag).
-* **Lägg till kontakt i projekt**: Välj ett projekt. Kontakter som lämnar in det här formuläret läggs till i projektet.
-* **Lägg till intressen för kontakt**: Välj ett intresse. Intresset läggs till i kontakter som lämnar in det här formuläret.
-* **E-postsvar**: Välj ett formulärsvar som du vill skicka till kontakter när deras formulär behandlas. [Så här skapar du ett formulärsvar][7].
-* **Skapa ärende**: Om du lagt till ett ärendefält i kategorin **Fält** måste du också välja en standardkategori och prioritet för de ärenden som skapas från det här formuläret. Inlämnade formulär är tillgängliga under **Ärenden** i SuperOffice Service och i detaljkortet **Ärende** i fönstren Företag och Kontakt i SuperOffice CRM.
-* **Kör CRMScript**: Välj ett skript eller makro som ska köras när ett formulärsvar behandlas. Se [CRMScript][9].
-* **Standardkategori** / **Standardföretag**: Välj en standardkategori och ett företag för alla kontakter eller företag som har lagts till i SuperOffice baserat på inskickade formulär. Med det här alternativet kan du gruppera inskickade formulär och nya kontakter/företag till en specifik kategori och/eller företag.
-    Om du till exempel har ett formulär för potentiella kunder, väljer du potentiella kunder som din kategori. Därefter kan du enkelt skapa urval baserat på denna kategori och/eller företag.
+* Meddela inlämningar genom att skapa ärenden
+* Hur ska en formulärinlämning bearbetas?
+* What should happen when the form is processed?
 
 ## Vad vill du göra nu?
 
@@ -207,21 +189,17 @@ Här kan du ange hur ett inlämnat formulär ska bearbetas. Fyll i följande fä
 <!-- Referenced links -->
 [1]: ../../tracked-links/learn/ga-tutorial.md
 [2]: publish.md
+[3]: define-form-actions.md
 [4]: field-options.md
-[5]: submissions/index.md
-[6]: submissions/process.md
-[7]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [8]: ../../learn/create-folder.md
-[9]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
+[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img5]: ../../../../../common/icons/cog-wheel.png
 [img6]: ../../../../../common/icons/duplicate-icon.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../../../common/icons/pop-out-icon.png
 [img9]: ../../../../../common/icons/new-window-icon.png
-[img10]: ../../../../../common/icons/edit-black.png
-[img11]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img8]: ../../../../../common/icons/edit-black.png
+[img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

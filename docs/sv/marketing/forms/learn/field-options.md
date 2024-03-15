@@ -2,11 +2,14 @@
 uid: help-sv-form-field-options
 title: Fältalternativ
 description: Fältalternativ
+keywords: formulär fält, formulärposter, reCAPTCHA
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulär
+so.date: 03.15.2024
+so.version: 10
 so.topic: reference
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Fältalternativ
@@ -15,15 +18,17 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 
 ## SuperOffice-poster
 
-* **Ersätt**: Välj det här alternativet om du vill ersätta ett befintligt värde i SuperOffice med ett värde i formuläret. Detta gäller för land, rubrik och herr/fru.
+* **Ersätt:** Välj det här alternativet om du vill ersätta ett befintligt värde i SuperOffice med ett värde i formuläret. Detta gäller för land, rubrik och herr/fru.
 
 * **Kontakt – medgivande**
 
-  * **Syfte**: Välj varför personen måste ge sitt samtycke. Godkännandetexten och beskrivning anges i Inställningar och underhåll.
+  * **Syfte:** Välj varför personen måste ge sitt samtycke.
 
-  * **Visa länk till meddelande om behandling av personuppgifter**: Välj det här alternativet om du vill inkludera länken till integritetspolicyn.[!include[SM](../../../learn/includes/as-defined-sm.md)]
+  * **Visa länk till meddelande om behandling av personuppgifter:** Välj det här alternativet om du vill inkludera länken till integritetspolicyn.
 
-* **Kontakt – prenumeration**: Välj [prenumerationerna][3] som ska visas i formuläret.
+    [Integritetsinställningar][4] för GDPR är definierade i Inställningar och underhåll.
+
+* **Kontakt – prenumeration:** Välj [prenumerationerna][3] som ska visas i formuläret.
 
 * **Företagsnamn: Använd befintligt företag om du hittar det**.
 
@@ -36,56 +41,57 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 
 ## Formulärposter
 
-* **Textfält**: Ett enda fält med en rad.
+* **Textfält:** Ett enda fält med en rad.
 
-* **Textområde**: Ett stort fält med flera rader.
+* **Textområde:** Ett stort fält med flera rader.
 
-* **Alternativknappar**: Ett urvalsfält där du kan välja ett av flera värden.
+* **Alternativknappar:** Ett urvalsfält där du kan välja ett av flera värden.
 
-  * **Vertikal**: Visar värdena horisontellt eller vertikalt.
+  * **Vertikal:** Visar värdena horisontellt eller vertikalt.
 
-  * **Data**: Här anger du värden för varje alternativknapp. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du värden för varje alternativknapp. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
 
-* **Kryssruta**: Ett urvalsfält där du kan välja flera värden.
+* **Kryssruta:** Ett urvalsfält där du kan välja flera värden.
 
-  * **Vertikal**: Visar värdena horisontellt eller vertikalt.
+  * **Vertikal:** Visar värdena horisontellt eller vertikalt.
 
-  * **Data**: Här anger du värdena för varje kryssruta. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du värdena för varje kryssruta. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
 
-* **Listruta**: Ett urvalsfält där du kan välja ett värde i listan.
+* **Listruta:** Ett urvalsfält där du kan välja ett värde i listan.
 
-  * **Data**: Här anger du listvärdena. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du listvärdena. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
 
-* **Dold**: Ett fält som inte syns i det publicerade formuläret. I fältet **Standardvärde** kan du ange en kod, ett projektnamn/nummer eller annan information som ska associeras med formuläret.
+* **Dold:** Ett fält som inte syns i det publicerade formuläret. I fältet **Standardvärde** kan du ange en kod, ett projektnamn/nummer eller annan information som ska associeras med formuläret.
 
-* **Datum**: Ett datumfält.
+* **Datum:** Ett datumfält.
 
-* **Överför fil**: Ett fält för att överföra filer.
+* **Överför fil:** Ett fält för att överföra filer.
 
-  * **Tillåt flera filer**: Välj det här alternativet om du vill tillåta att flera filer överförs.
+  * **Tillåt flera filer:** Välj det här alternativet om du vill tillåta att flera filer överförs.
 
-  * **Maximal filstorlek (kb)**: Ange en filstorlek i kilobyte för att förhindra att en stor fil överförs. Lämna fältet tomt om du vill tillåta alla filstorlekar.
+  * **Maximal filstorlek (kb):** Ange en filstorlek i kilobyte för att förhindra att en stor fil överförs. Lämna fältet tomt om du vill tillåta alla filstorlekar.
 
-  * **Tillåtna filtyper**: Ange de filtyper som kan överföras. Använd formaten *jpg, gif, png, bmp* (kommaseparerad, inget blandsteg). Lämna fältet tomt om du vill tillåta alla filtyper.
+  * **Tillåtna filtyper:** Ange de filtyper som kan överföras. Använd formaten *jpg, gif, png, bmp* (kommaseparerad, inget blandsteg). Lämna fältet tomt om du vill tillåta alla filtyper.
 
-* **Bedömning**: Ett fält där kunderna kan betygsätta till exempel servicen med hjälp av olika klassificeringstyper (stjärnor, tärningar, 1–10-skala och liknande).
+* **Bedömning:** Ett fält där kunderna kan betygsätta till exempel servicen med hjälp av olika klassificeringstyper (stjärnor, tärningar, 1–10-skala och liknande).
 
-* **Google reCAPTCHA**: [ReCAPTCHA-funktionen][1] (kryssrutan "I'm not a robot" är en gratis Google-tjänst som säkerställer att endast riktiga användare kan skicka in webbformulär. Det förhindrar spam och automatiserade robotar från att sabotera din datainsamling.
+* **Google reCAPTCHA:** [ReCAPTCHA-funktionen][1] (kryssrutan "I'm not a robot") är en gratis Google-tjänst som säkerställer att endast riktiga användare kan skicka in webbformulär. Det förhindrar spam och automatiserade robotar från att sabotera din datainsamling.
 
 ## Visa poster
 
-* **Textblock**: Ange en text som ska visas i formuläret, t.ex. en kort introduktion eller detaljerad beskrivning. Klicka på **Visa/dölj verktygsfält** ![ikon][img2] om du vill visa formateringsalternativen för texten. Klicka på **Öppna textredigerare i dialogruta** ![ikon][img3] om du vill redigera texten i en större redigerare.
+* **Textblock:** Ange en text som ska visas i formuläret, t.ex. en kort introduktion eller detaljerad beskrivning.
 
-* **Bild**: Lägg till en bild i formuläret. Klicka på länken om du vill välja en bild eller dra och släppa en bild i fältet **Bild**. Använd alternativknapparna **Position** och placera bilden i formuläret.
+    [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
-* **Avsnitt**: Lägg till ett avsnitt mellan fälten för att [skapa ett flersidigt formulär][2]. Praktiskt om ditt formulär innehåller många fält och du vill slippa rulla.
+* **Bild:** Lägg till en bild i formuläret. Klicka på länken om du vill välja en bild eller dra och släppa en bild i fältet **Bild**. Använd alternativknapparna **Position** och placera bilden i formuläret.
+
+* **Avsnitt:** Lägg till ett avsnitt mellan fälten för att [skapa ett flersidigt formulär][2]. Praktiskt om ditt formulär innehåller många fält och du vill slippa rulla.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]: recaptcha.md
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
+[4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png
-[img2]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img3]: ../../../../../common/icons/pop-out-icon.png
