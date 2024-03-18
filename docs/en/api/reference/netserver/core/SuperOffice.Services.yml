@@ -19,12 +19,14 @@ references:
 - uid: SuperOffice.Services.ServiceVersion
   commentId: T:SuperOffice.Services.ServiceVersion
   isExternal: true
+  href: SuperOffice.Services.ServiceVersion.html
   name: ServiceVersion
   nameWithType: ServiceVersion
   fullName: SuperOffice.Services.ServiceVersion
 - uid: SuperOffice.Services.LatestVersion
   commentId: T:SuperOffice.Services.LatestVersion
   isExternal: true
+  href: SuperOffice.Services.LatestVersion.html
   name: LatestVersion
   nameWithType: LatestVersion
   fullName: SuperOffice.Services.LatestVersion

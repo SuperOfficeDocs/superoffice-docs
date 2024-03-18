@@ -19,12 +19,14 @@ references:
 - uid: SuperOffice.Products.NetServerCore
   commentId: T:SuperOffice.Products.NetServerCore
   isExternal: true
+  href: SuperOffice.Products.NetServerCore.html
   name: NetServerCore
   nameWithType: NetServerCore
   fullName: SuperOffice.Products.NetServerCore
 - uid: SuperOffice.Products.NetServerDataBase
   commentId: T:SuperOffice.Products.NetServerDataBase
   isExternal: true
+  href: SuperOffice.Products.NetServerDataBase.html
   name: NetServerDataBase
   nameWithType: NetServerDataBase
   fullName: SuperOffice.Products.NetServerDataBase

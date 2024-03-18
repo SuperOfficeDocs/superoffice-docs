@@ -28,23 +28,31 @@ items:
   nameWithType: BatchAgent
   fullName: SuperOffice.CRM.Services.BatchAgent
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nFacade for the Batch Agent\nStart, stop and monitor predefined batch tasks\n"
+  summary: >-
+    Facade for the Batch Agent
+
+    Start, stop and monitor predefined batch tasks
   example:
-  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BatchAgent agent = new BatchAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       using (BatchAgent agent = new BatchAgent())
+       {
+          // call methods on agent here...
+       }
+    }</code></pre>
   syntax:
     content: 'public class BatchAgent : AgentBase<IBatchAgent>, IDisposable, IBatchAgent, IAgent'
-    content.vb: >-
-      Public Class BatchAgent
-
-          Inherits AgentBase(Of IBatchAgent)
-
-          Implements IDisposable, IBatchAgent, IAgent
+    content.vb: Public Class BatchAgent Inherits AgentBase(Of IBatchAgent) Implements IDisposable, IBatchAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
@@ -55,12 +63,13 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
   id: GetBatchTaskInfo(System.Int32)
@@ -68,17 +77,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfo(Int32)
-  nameWithType: BatchAgent.GetBatchTaskInfo(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(System.Int32)
+  name: GetBatchTaskInfo(int)
+  nameWithType: BatchAgent.GetBatchTaskInfo(int)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(int)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet a single BatchTaskInfo based on Id.\n"
+  summary: Get a single BatchTaskInfo based on Id.
+  example: []
   syntax:
     content: public BatchTaskInfo GetBatchTaskInfo(int id)
     parameters:
@@ -92,10 +99,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetBatchTaskInfo(Integer)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo(Integer)
+  name.vb: GetBatchTaskInfo(Integer)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
   id: GetBatchTaskInfosByAssociates(System.Int32[])
@@ -103,37 +109,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociates(Int32[])
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociates(Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
+  name: GetBatchTaskInfosByAssociates(int[])
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociates(int[])
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(int[])
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetBatchTaskInfosByAssociates(int[] associateIds)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
+      description: Array of associate id's. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
     return:
       type: SuperOffice.CRM.Services.BatchTaskInfo[]
-      description: Returns an array of user&apos;s BatchTaskInfo.
+      description: Returns an array of user's BatchTaskInfo.
     content.vb: Public Function GetBatchTaskInfosByAssociates(associateIds As Integer()) As BatchTaskInfo()
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociates(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(System.Int32())
-  name.vb: GetBatchTaskInfosByAssociates(Int32())
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociates(Integer())
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates(Integer())
+  name.vb: GetBatchTaskInfosByAssociates(Integer())
 - uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
   id: StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
@@ -145,13 +145,11 @@ items:
   nameWithType: BatchAgent.StartBatchJob(BatchTaskInfo)
   fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStart a batch job based on BatchTaskInfo.\n"
+  summary: Start a batch job based on BatchTaskInfo.
+  example: []
   syntax:
     content: public int StartBatchJob(BatchTaskInfo batchTaskInfo)
     parameters:
@@ -165,10 +163,6 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.StartBatchJob*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
   id: StopBatchJob(System.Int32)
@@ -176,17 +170,15 @@ items:
   langs:
   - csharp
   - vb
-  name: StopBatchJob(Int32)
-  nameWithType: BatchAgent.StopBatchJob(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(System.Int32)
+  name: StopBatchJob(int)
+  nameWithType: BatchAgent.StopBatchJob(int)
+  fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(int)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStop a batch job based on Id.\n"
+  summary: Stop a batch job based on Id.
+  example: []
   syntax:
     content: public bool StopBatchJob(int id)
     parameters:
@@ -200,10 +192,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.StopBatchJob*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.StopBatchJob(Integer)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.StopBatchJob(Integer)
+  name.vb: StopBatchJob(Integer)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
   id: GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
@@ -215,13 +206,11 @@ items:
   nameWithType: BatchAgent.GetBatchTaskInfosByState(BatchTaskState)
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState.\n"
+  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetBatchTaskInfosByState(BatchTaskState state)
     parameters:
@@ -235,10 +224,6 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   id: UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
@@ -250,13 +235,11 @@ items:
   nameWithType: BatchAgent.UpdateBatchTask(BatchTaskInfo)
   fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.\n"
+  summary: 'Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.'
+  example: []
   syntax:
     content: public BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
     parameters:
@@ -270,10 +253,6 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   id: GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
@@ -281,17 +260,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.\n"
+  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetBatchTaskInfosByNameAndState(string name, BatchTaskState state)
     parameters:
@@ -308,10 +285,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
   id: GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
@@ -319,17 +295,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32[])
+  name: GetBatchTaskInfosByNameAndAssociates(string, int[])
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociates(string, int[])
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(string, int[])
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task definition name.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(string name, int[] associateIds)
     parameters:
@@ -338,7 +312,7 @@ items:
       description: Batchtask definition name. Blank for all tasks.
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
     return:
       type: SuperOffice.CRM.Services.BatchTaskInfo[]
       description: Returns an array of BatchTaskInfo.
@@ -346,13 +320,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32())
-  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Int32())
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Integer())
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Integer())
+  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Integer())
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
   id: GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
@@ -360,23 +330,21 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[], SuperOffice.Data.BatchTaskState)
+  name: GetBatchTaskInfosByAssociatesAndState(int[], BatchTaskState)
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndState(int[], BatchTaskState)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(int[], SuperOffice.Data.BatchTaskState)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task state.\n"
+  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task state.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetBatchTaskInfosByAssociatesAndState(int[] associateIds, BatchTaskState state)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
     - id: state
       type: SuperOffice.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
@@ -387,13 +355,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
-  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32(), SuperOffice.Data.BatchTaskState)
-  name.vb: GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer(), BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer(), SuperOffice.Data.BatchTaskState)
+  name.vb: GetBatchTaskInfosByAssociatesAndState(Integer(), BatchTaskState)
 - uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
   id: DeleteBatchTasks(System.Int32[])
@@ -401,17 +365,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteBatchTasks(Int32[])
-  nameWithType: BatchAgent.DeleteBatchTasks(Int32[])
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32[])
+  name: DeleteBatchTasks(int[])
+  nameWithType: BatchAgent.DeleteBatchTasks(int[])
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(int[])
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete batch tasks from the database.\n"
+  summary: Delete batch tasks from the database.
+  example: []
   syntax:
     content: public void DeleteBatchTasks(int[] batchTaskIds)
     parameters:
@@ -422,13 +384,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-  nameWithType.vb: BatchAgent.DeleteBatchTasks(Int32())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(System.Int32())
-  name.vb: DeleteBatchTasks(Int32())
+  nameWithType.vb: BatchAgent.DeleteBatchTasks(Integer())
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks(Integer())
+  name.vb: DeleteBatchTasks(Integer())
 - uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
   id: DeleteBatchTask(System.Int32)
@@ -436,17 +394,15 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteBatchTask(Int32)
-  nameWithType: BatchAgent.DeleteBatchTask(Int32)
-  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(System.Int32)
+  name: DeleteBatchTask(int)
+  nameWithType: BatchAgent.DeleteBatchTask(int)
+  fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(int)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a batch task from the database.\n"
+  summary: Delete a batch task from the database.
+  example: []
   syntax:
     content: public void DeleteBatchTask(int batchTaskId)
     parameters:
@@ -457,10 +413,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.DeleteBatchTask(Integer)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask(Integer)
+  name.vb: DeleteBatchTask(Integer)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
   id: GetAllBatchTaskInfosByName(System.String)
@@ -468,17 +423,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByName(String)
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(System.String)
+  name: GetAllBatchTaskInfosByName(string)
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByName(string)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name.\n"
+  summary: Get an array of system and user BatchTaskInfo for the provided task name.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetAllBatchTaskInfosByName(string taskName)
     parameters:
@@ -492,10 +445,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetAllBatchTaskInfosByName(String)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName(String)
+  name.vb: GetAllBatchTaskInfosByName(String)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   id: GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
@@ -503,17 +455,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetAllBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name and state.\n"
+  summary: Get an array of system and user BatchTaskInfo for the provided task name and state.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetAllBatchTaskInfosByNameAndState(string taskName, BatchTaskState state)
     parameters:
@@ -530,10 +480,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
   id: GetSystemBatchTaskInfosByName(System.String)
@@ -541,17 +490,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByName(String)
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(System.String)
+  name: GetSystemBatchTaskInfosByName(string)
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByName(string)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system BatchTaskInfo for the provided task name.\n"
+  summary: Get an array of system BatchTaskInfo for the provided task name.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetSystemBatchTaskInfosByName(string taskName)
     parameters:
@@ -565,10 +512,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetSystemBatchTaskInfosByName(String)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName(String)
+  name.vb: GetSystemBatchTaskInfosByName(String)
 - uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   commentId: M:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   id: GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
@@ -576,17 +522,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  name: GetSystemBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGet an array of system BatchTaskInfo for the provided task name and state.\n"
+  summary: Get an array of system BatchTaskInfo for the provided task name and state.
+  example: []
   syntax:
     content: public BatchTaskInfo[] GetSystemBatchTaskInfosByNameAndState(string taskName, BatchTaskState state)
     parameters:
@@ -603,10 +547,9 @@ items:
   overload: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState*
   implements:
   - SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
 - uid: SuperOffice.CRM.Services.BatchAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.BatchAgent.#ctor
   id: '#ctor'
@@ -618,31 +561,70 @@ items:
   nameWithType: BatchAgent.BatchAgent()
   fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public BatchAgent()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.BatchAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BatchAgent.New()
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
+  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IBatchAgent>
   nameWithType: AgentBase<IBatchAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>
@@ -652,39 +634,32 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.CRM.Services.IBatchAgent
     name: IBatchAgent
-    nameWithType: IBatchAgent
-    fullName: SuperOffice.CRM.Services.IBatchAgent
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Services.AgentBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.CRM.Services.IBatchAgent
     name: IBatchAgent
-    nameWithType: IBatchAgent
-    fullName: SuperOffice.CRM.Services.IBatchAgent
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -692,6 +667,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.IBatchAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IBatchAgent.html
   name: IBatchAgent
   nameWithType: IBatchAgent
   fullName: SuperOffice.CRM.Services.IBatchAgent
@@ -699,6 +675,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -706,47 +683,266 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IBatchAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IBatchAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
     name: Dispose
-    nameWithType: AgentBase<IBatchAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.Dispose
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.Dispose
     name: Dispose
-    nameWithType: AgentBase(Of IBatchAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).Dispose
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBatchAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IBatchAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBatchAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IBatchAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBatchAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
+  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -756,36 +952,25 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
-    nameWithType: AgentBase
-    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: SuperOffice.CRM.Services.AgentBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: TAgent
-    nameWithType: TAgent
-    fullName: TAgent
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
+  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -794,30 +979,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
-    nameWithType: AgentBase<TAgent>.Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
-    nameWithType: AgentBase(Of TAgent).Dispose
-    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
+    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -826,6 +1002,7 @@ references:
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfo_System_Int32_
   name: GetBatchTaskInfo
   nameWithType: BatchAgent.GetBatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfo
@@ -833,66 +1010,58 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfo(Int32)
-  nameWithType: IBatchAgent.GetBatchTaskInfo(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfo_System_Int32_
+  name: GetBatchTaskInfo(int)
+  nameWithType: IBatchAgent.GetBatchTaskInfo(int)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(int)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfo(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(Integer)
+  name.vb: GetBatchTaskInfo(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
     name: GetBatchTaskInfo
-    nameWithType: IBatchAgent.GetBatchTaskInfo
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfo_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo(System.Int32)
     name: GetBatchTaskInfo
-    nameWithType: IBatchAgent.GetBatchTaskInfo
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfo_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.BatchTaskInfo
   commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchTaskInfo.html
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByAssociates_System_Int32___
   name: GetBatchTaskInfosByAssociates
   nameWithType: BatchAgent.GetBatchTaskInfosByAssociates
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociates
@@ -900,80 +1069,65 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByAssociates(Int32[])
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates(Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociates(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32())
-  name.vb: GetBatchTaskInfosByAssociates(Int32())
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociates_System_Int32___
+  name: GetBatchTaskInfosByAssociates(int[])
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates(int[])
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(int[])
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociates(Integer())
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(Integer())
+  name.vb: GetBatchTaskInfosByAssociates(Integer())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
     name: GetBatchTaskInfosByAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociates_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates(System.Int32[])
     name: GetBatchTaskInfosByAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociates
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociates_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.BatchTaskInfo[]
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchTaskInfo.html
   name: BatchTaskInfo[]
   nameWithType: BatchTaskInfo[]
   fullName: SuperOffice.CRM.Services.BatchTaskInfo[]
@@ -983,24 +1137,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.BatchAgent.StartBatchJob*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StartBatchJob
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_StartBatchJob_SuperOffice_CRM_Services_BatchTaskInfo_
   name: StartBatchJob
   nameWithType: BatchAgent.StartBatchJob
   fullName: SuperOffice.CRM.Services.BatchAgent.StartBatchJob
@@ -1008,46 +1159,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StartBatchJob_SuperOffice_CRM_Services_BatchTaskInfo_
   name: StartBatchJob(BatchTaskInfo)
   nameWithType: IBatchAgent.StartBatchJob(BatchTaskInfo)
   fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
     name: StartBatchJob
-    nameWithType: IBatchAgent.StartBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StartBatchJob_SuperOffice_CRM_Services_BatchTaskInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob(SuperOffice.CRM.Services.BatchTaskInfo)
     name: StartBatchJob
-    nameWithType: IBatchAgent.StartBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StartBatchJob
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StartBatchJob_SuperOffice_CRM_Services_BatchTaskInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.StopBatchJob*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.StopBatchJob
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_StopBatchJob_System_Int32_
   name: StopBatchJob
   nameWithType: BatchAgent.StopBatchJob
   fullName: SuperOffice.CRM.Services.BatchAgent.StopBatchJob
@@ -1055,53 +1196,50 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: StopBatchJob(Int32)
-  nameWithType: IBatchAgent.StopBatchJob(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StopBatchJob_System_Int32_
+  name: StopBatchJob(int)
+  nameWithType: IBatchAgent.StopBatchJob(int)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(int)
+  nameWithType.vb: IBatchAgent.StopBatchJob(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(Integer)
+  name.vb: StopBatchJob(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
     name: StopBatchJob
-    nameWithType: IBatchAgent.StopBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StopBatchJob_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob(System.Int32)
     name: StopBatchJob
-    nameWithType: IBatchAgent.StopBatchJob
-    fullName: SuperOffice.CRM.Services.IBatchAgent.StopBatchJob
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_StopBatchJob_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByState_SuperOffice_Data_BatchTaskState_
   name: GetBatchTaskInfosByState
   nameWithType: BatchAgent.GetBatchTaskInfosByState
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByState
@@ -1109,43 +1247,30 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByState_SuperOffice_Data_BatchTaskState_
   name: GetBatchTaskInfosByState(BatchTaskState)
   nameWithType: IBatchAgent.GetBatchTaskInfosByState(BatchTaskState)
   fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByState_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState(SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByState_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.BatchTaskState
   isExternal: true
   name: BatchTaskState
@@ -1154,6 +1279,7 @@ references:
 - uid: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_UpdateBatchTask_SuperOffice_CRM_Services_BatchTaskInfo_
   name: UpdateBatchTask
   nameWithType: BatchAgent.UpdateBatchTask
   fullName: SuperOffice.CRM.Services.BatchAgent.UpdateBatchTask
@@ -1161,46 +1287,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_UpdateBatchTask_SuperOffice_CRM_Services_BatchTaskInfo_
   name: UpdateBatchTask(BatchTaskInfo)
   nameWithType: IBatchAgent.UpdateBatchTask(BatchTaskInfo)
   fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
     name: UpdateBatchTask
-    nameWithType: IBatchAgent.UpdateBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_UpdateBatchTask_SuperOffice_CRM_Services_BatchTaskInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
     name: UpdateBatchTask
-    nameWithType: IBatchAgent.UpdateBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_UpdateBatchTask_SuperOffice_CRM_Services_BatchTaskInfo_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
-    nameWithType: BatchTaskInfo
-    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
+    href: SuperOffice.CRM.Services.BatchTaskInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   name: GetBatchTaskInfosByNameAndState
   nameWithType: BatchAgent.GetBatchTaskInfosByNameAndState
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndState
@@ -1208,69 +1324,60 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
+  name: GetBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetBatchTaskInfosByNameAndState(String, BatchTaskState)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByNameAndAssociates_System_String_System_Int32___
   name: GetBatchTaskInfosByNameAndAssociates
   nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociates
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByNameAndAssociates
@@ -1278,71 +1385,55 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32[])
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String, System.Int32())
-  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Int32())
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndAssociates_System_String_System_Int32___
+  name: GetBatchTaskInfosByNameAndAssociates(string, int[])
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(string, int[])
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(string, int[])
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Integer())
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(String, Integer())
+  name.vb: GetBatchTaskInfosByNameAndAssociates(String, Integer())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
     name: GetBatchTaskInfosByNameAndAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndAssociates_System_String_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates(System.String,System.Int32[])
     name: GetBatchTaskInfosByNameAndAssociates
-    nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociates
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByNameAndAssociates
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByNameAndAssociates_System_String_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetBatchTaskInfosByAssociatesAndState_System_Int32___SuperOffice_Data_BatchTaskState_
   name: GetBatchTaskInfosByAssociatesAndState
   nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndState
   fullName: SuperOffice.CRM.Services.BatchAgent.GetBatchTaskInfosByAssociatesAndState
@@ -1350,71 +1441,53 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32[], BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[], SuperOffice.Data.BatchTaskState)
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32(), SuperOffice.Data.BatchTaskState)
-  name.vb: GetBatchTaskInfosByAssociatesAndState(Int32(), BatchTaskState)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociatesAndState_System_Int32___SuperOffice_Data_BatchTaskState_
+  name: GetBatchTaskInfosByAssociatesAndState(int[], BatchTaskState)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(int[], BatchTaskState)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(int[], SuperOffice.Data.BatchTaskState)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer(), BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(Integer(), SuperOffice.Data.BatchTaskState)
+  name.vb: GetBatchTaskInfosByAssociatesAndState(Integer(), BatchTaskState)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByAssociatesAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociatesAndState_System_Int32___SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState(System.Int32[],SuperOffice.Data.BatchTaskState)
     name: GetBatchTaskInfosByAssociatesAndState
-    nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetBatchTaskInfosByAssociatesAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetBatchTaskInfosByAssociatesAndState_System_Int32___SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_DeleteBatchTasks_System_Int32___
   name: DeleteBatchTasks
   nameWithType: BatchAgent.DeleteBatchTasks
   fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTasks
@@ -1422,55 +1495,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: DeleteBatchTasks(Int32[])
-  nameWithType: IBatchAgent.DeleteBatchTasks(Int32[])
-  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
-  nameWithType.vb: IBatchAgent.DeleteBatchTasks(Int32())
-  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32())
-  name.vb: DeleteBatchTasks(Int32())
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTasks_System_Int32___
+  name: DeleteBatchTasks(int[])
+  nameWithType: IBatchAgent.DeleteBatchTasks(int[])
+  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(int[])
+  nameWithType.vb: IBatchAgent.DeleteBatchTasks(Integer())
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(Integer())
+  name.vb: DeleteBatchTasks(Integer())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
     name: DeleteBatchTasks
-    nameWithType: IBatchAgent.DeleteBatchTasks
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTasks_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks(System.Int32[])
     name: DeleteBatchTasks
-    nameWithType: IBatchAgent.DeleteBatchTasks
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTasks
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTasks_System_Int32___
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_DeleteBatchTask_System_Int32_
   name: DeleteBatchTask
   nameWithType: BatchAgent.DeleteBatchTask
   fullName: SuperOffice.CRM.Services.BatchAgent.DeleteBatchTask
@@ -1478,46 +1539,39 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: DeleteBatchTask(Int32)
-  nameWithType: IBatchAgent.DeleteBatchTask(Int32)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTask_System_Int32_
+  name: DeleteBatchTask(int)
+  nameWithType: IBatchAgent.DeleteBatchTask(int)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(int)
+  nameWithType.vb: IBatchAgent.DeleteBatchTask(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(Integer)
+  name.vb: DeleteBatchTask(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
     name: DeleteBatchTask
-    nameWithType: IBatchAgent.DeleteBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTask_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask(System.Int32)
     name: DeleteBatchTask
-    nameWithType: IBatchAgent.DeleteBatchTask
-    fullName: SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_DeleteBatchTask_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetAllBatchTaskInfosByName_System_String_
   name: GetAllBatchTaskInfosByName
   nameWithType: BatchAgent.GetAllBatchTaskInfosByName
   fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByName
@@ -1525,46 +1579,39 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetAllBatchTaskInfosByName(String)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByName_System_String_
+  name: GetAllBatchTaskInfosByName(string)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByName(string)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(string)
+  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByName(String)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(String)
+  name.vb: GetAllBatchTaskInfosByName(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
     name: GetAllBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByName_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName(System.String)
     name: GetAllBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByName
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByName_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetAllBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   name: GetAllBatchTaskInfosByNameAndState
   nameWithType: BatchAgent.GetAllBatchTaskInfosByNameAndState
   fullName: SuperOffice.CRM.Services.BatchAgent.GetAllBatchTaskInfosByNameAndState
@@ -1572,62 +1619,49 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
+  name: GetAllBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
+  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetAllBatchTaskInfosByNameAndState(String, BatchTaskState)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetAllBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetAllBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetAllBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetAllBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetSystemBatchTaskInfosByName_System_String_
   name: GetSystemBatchTaskInfosByName
   nameWithType: BatchAgent.GetSystemBatchTaskInfosByName
   fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByName
@@ -1635,46 +1669,39 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetSystemBatchTaskInfosByName(String)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName(String)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByName_System_String_
+  name: GetSystemBatchTaskInfosByName(string)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName(string)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(string)
+  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByName(String)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(String)
+  name.vb: GetSystemBatchTaskInfosByName(String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
     name: GetSystemBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByName_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName(System.String)
     name: GetSystemBatchTaskInfosByName
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByName
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByName
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByName_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent_GetSystemBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   name: GetSystemBatchTaskInfosByNameAndState
   nameWithType: BatchAgent.GetSystemBatchTaskInfosByNameAndState
   fullName: SuperOffice.CRM.Services.BatchAgent.GetSystemBatchTaskInfosByNameAndState
@@ -1682,62 +1709,52 @@ references:
   commentId: M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
   parent: SuperOffice.CRM.Services.IBatchAgent
   isExternal: true
-  name: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
-  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String, SuperOffice.Data.BatchTaskState)
+  href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
+  name: GetSystemBatchTaskInfosByNameAndState(string, BatchTaskState)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState(string, BatchTaskState)
+  fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(string, SuperOffice.Data.BatchTaskState)
+  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
+  fullName.vb: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(String, SuperOffice.Data.BatchTaskState)
+  name.vb: GetSystemBatchTaskInfosByNameAndState(String, BatchTaskState)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetSystemBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState(System.String,SuperOffice.Data.BatchTaskState)
     name: GetSystemBatchTaskInfosByNameAndState
-    nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndState
-    fullName: SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState
     isExternal: true
+    href: SuperOffice.CRM.Services.IBatchAgent.html#SuperOffice_CRM_Services_IBatchAgent_GetSystemBatchTaskInfosByNameAndState_System_String_SuperOffice_Data_BatchTaskState_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.Data.BatchTaskState
     name: BatchTaskState
-    nameWithType: BatchTaskState
-    fullName: SuperOffice.Data.BatchTaskState
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.BatchAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.BatchAgent.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.BatchAgent.html#SuperOffice_CRM_Services_BatchAgent__ctor
   name: BatchAgent
   nameWithType: BatchAgent.BatchAgent
   fullName: SuperOffice.CRM.Services.BatchAgent.BatchAgent
+  nameWithType.vb: BatchAgent.New
+  fullName.vb: SuperOffice.CRM.Services.BatchAgent.New
+  name.vb: New

@@ -25,18 +25,21 @@ references:
   commentId: T:SuperOffice.Security.Claims.SoTokenType
   parent: SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.Security.Claims.SoTokenType.html
   name: SoTokenType
   nameWithType: SoTokenType
   fullName: SuperOffice.Security.Claims.SoTokenType
 - uid: SuperOffice.Security.Claims.ClaimsIdentityHelper
   commentId: T:SuperOffice.Security.Claims.ClaimsIdentityHelper
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentityHelper.html
   name: ClaimsIdentityHelper
   nameWithType: ClaimsIdentityHelper
   fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper
 - uid: SuperOffice.Security.Claims.ClaimsExtensions
   commentId: T:SuperOffice.Security.Claims.ClaimsExtensions
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsExtensions.html
   name: ClaimsExtensions
   nameWithType: ClaimsExtensions
   fullName: SuperOffice.Security.Claims.ClaimsExtensions
@@ -44,12 +47,14 @@ references:
   commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
   parent: SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder.html
   name: ClaimsIdentitiesBuilder
   nameWithType: ClaimsIdentitiesBuilder
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
 - uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
   commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.html
   name: ClaimsIdentitiesExtensions
   nameWithType: ClaimsIdentitiesExtensions
   fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
@@ -57,18 +62,51 @@ references:
   commentId: T:SuperOffice.Security.Claims.ClaimsIdentityBuilder
   parent: SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.Security.Claims.ClaimsIdentityBuilder.html
   name: ClaimsIdentityBuilder
   nameWithType: ClaimsIdentityBuilder
   fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
 - uid: SuperOffice.Security.Claims.SoClaimTypes
   commentId: T:SuperOffice.Security.Claims.SoClaimTypes
   isExternal: true
+  href: SuperOffice.Security.Claims.SoClaimTypes.html
   name: SoClaimTypes
   nameWithType: SoClaimTypes
   fullName: SuperOffice.Security.Claims.SoClaimTypes
 - uid: SuperOffice.Security.Claims
   commentId: N:SuperOffice.Security.Claims
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Claims
   nameWithType: SuperOffice.Security.Claims
   fullName: SuperOffice.Security.Claims
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Claims
+    name: Claims
+    isExternal: true
+    href: SuperOffice.Security.Claims.html

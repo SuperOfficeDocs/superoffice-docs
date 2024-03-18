@@ -13,26 +13,21 @@ items:
   nameWithType: IContextInitializer
   fullName: SuperOffice.Security.Principal.IContextInitializer
   type: Interface
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: "\nInterface implemented by context initializers.\n"
-  remarks: "\nA Context initializer is responsible for initializing a context \nand assigning tenant specific configuration.\n"
+  summary: Interface implemented by context initializers.
+  remarks: >-
+    A Context initializer is responsible for initializing a context 
+
+    and assigning tenant specific configuration.
+  example: []
   syntax:
     content: public interface IContextInitializer
     content.vb: Public Interface IContextInitializer
   extensionMethods:
   - SuperOffice.Security.Principal.IContextInitializer.EnumUtil.MapEnums``2
   - SuperOffice.Security.Principal.IContextInitializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.Security.Principal.IContextInitializer.InitializeContext(System.String)
   commentId: M:SuperOffice.Security.Principal.IContextInitializer.InitializeContext(System.String)
   id: InitializeContext(System.String)
@@ -40,102 +35,179 @@ items:
   langs:
   - csharp
   - vb
-  name: InitializeContext(String)
-  nameWithType: IContextInitializer.InitializeContext(String)
-  fullName: SuperOffice.Security.Principal.IContextInitializer.InitializeContext(System.String)
+  name: InitializeContext(string)
+  nameWithType: IContextInitializer.InitializeContext(string)
+  fullName: SuperOffice.Security.Principal.IContextInitializer.InitializeContext(string)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: "\nMethod called every time a new context is entered for the first time.  \nPerform initial configuration like assigning database, so_arc and so on. \nThe method is also called for the initial context.  \n"
+  summary: >-
+    Method called every time a new context is entered for the first time.  
+
+    Perform initial configuration like assigning database, so_arc and so on. 
+
+    The method is also called for the initial context.
+  example: []
   syntax:
     content: void InitializeContext(string contextIdentifier)
     parameters:
     - id: contextIdentifier
       type: System.String
+      description: ''
     content.vb: Sub InitializeContext(contextIdentifier As String)
   overload: SuperOffice.Security.Principal.IContextInitializer.InitializeContext*
+  nameWithType.vb: IContextInitializer.InitializeContext(String)
+  fullName.vb: SuperOffice.Security.Principal.IContextInitializer.InitializeContext(String)
+  name.vb: InitializeContext(String)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
 - uid: SuperOffice.Security.Principal.IContextInitializer.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IContextInitializer, To>()
-  nameWithType: EnumUtil.MapEnums<IContextInitializer, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IContextInitializer, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)()
-  name.vb: MapEnums(Of IContextInitializer, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IContextInitializer, To>(IContextInitializer)
+  nameWithType: EnumUtil.MapEnums<IContextInitializer, To>(IContextInitializer)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>(SuperOffice.Security.Principal.IContextInitializer)
+  nameWithType.vb: EnumUtil.MapEnums(Of IContextInitializer, To)(IContextInitializer)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)(SuperOffice.Security.Principal.IContextInitializer)
+  name.vb: MapEnums(Of IContextInitializer, To)(IContextInitializer)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IContextInitializer, To>
-    nameWithType: EnumUtil.MapEnums<IContextInitializer, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IContextInitializer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IContextInitializer, To)
-    nameWithType: EnumUtil.MapEnums(Of IContextInitializer, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IContextInitializer)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: )
 - uid: SuperOffice.Security.Principal.IContextInitializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IContextInitializer, To>()
-  nameWithType: Converters.MapEnums<IContextInitializer, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>()
-  nameWithType.vb: Converters.MapEnums(Of IContextInitializer, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)()
-  name.vb: MapEnums(Of IContextInitializer, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IContextInitializer, To>(IContextInitializer)
+  nameWithType: Converters.MapEnums<IContextInitializer, To>(IContextInitializer)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>(SuperOffice.Security.Principal.IContextInitializer)
+  nameWithType.vb: Converters.MapEnums(Of IContextInitializer, To)(IContextInitializer)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)(SuperOffice.Security.Principal.IContextInitializer)
+  name.vb: MapEnums(Of IContextInitializer, To)(IContextInitializer)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IContextInitializer, To>
-    nameWithType: Converters.MapEnums<IContextInitializer, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IContextInitializer, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IContextInitializer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IContextInitializer, To)
-    nameWithType: Converters.MapEnums(Of IContextInitializer, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IContextInitializer, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IContextInitializer)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.IContextInitializer
+    name: IContextInitializer
+    isExternal: true
+    href: SuperOffice.Security.Principal.IContextInitializer.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -144,43 +216,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -189,50 +263,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.Principal.IContextInitializer.InitializeContext*
   commentId: Overload:SuperOffice.Security.Principal.IContextInitializer.InitializeContext
   isExternal: true
+  href: SuperOffice.Security.Principal.IContextInitializer.html#SuperOffice_Security_Principal_IContextInitializer_InitializeContext_System_String_
   name: InitializeContext
   nameWithType: IContextInitializer.InitializeContext
   fullName: SuperOffice.Security.Principal.IContextInitializer.InitializeContext
@@ -240,12 +347,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System

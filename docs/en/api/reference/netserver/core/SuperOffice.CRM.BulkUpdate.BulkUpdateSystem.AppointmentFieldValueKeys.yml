@@ -32,27 +32,22 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
   type: Class
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: 'public static class AppointmentFieldValueKeys : Object'
-    content.vb: >-
-      Public Module AppointmentFieldValueKeys
-
-          Inherits Object
+    content: public static class BulkUpdateSystem.AppointmentFieldValueKeys
+    content.vb: Public Module BulkUpdateSystem.AppointmentFieldValueKeys
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
   id: Done
@@ -64,9 +59,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Done
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -75,12 +67,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Done As String = "done"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   id: FreeBusy
@@ -92,9 +78,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -103,12 +86,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const FreeBusy As String = "free/busy"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   id: Owner
@@ -120,9 +97,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -131,12 +105,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Owner As String = "owner"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   id: ProjectId
@@ -148,9 +116,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -159,12 +124,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProjectId As String = "projectId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   id: SaleId
@@ -176,9 +135,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -187,12 +143,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaleId As String = "saleId"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
   id: Description
@@ -204,9 +154,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Description
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -215,12 +162,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   id: Type
@@ -232,9 +173,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Type
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -243,12 +181,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Type As String = "type"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   id: Priority
@@ -260,9 +192,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -271,12 +200,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Priority As String = "priority"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   id: HasAlarm
@@ -288,9 +211,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -299,12 +219,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const HasAlarm As String = "hasAlarm"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   id: AlarmOffset
@@ -316,9 +230,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -327,12 +238,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const AlarmOffset As String = "alarmOffset"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   id: StartDate
@@ -344,9 +249,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -355,12 +257,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const StartDate As String = "startDate"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   id: StartTime
@@ -372,9 +268,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -383,12 +276,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const StartTime As String = "startTime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   id: EndTime
@@ -400,9 +287,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -411,12 +295,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const EndTime As String = "endTime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   id: StartTimeAndEndTime
@@ -428,9 +306,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -439,12 +314,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const StartTimeAndEndTime As String = "startTime+endTime"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   id: Duration
@@ -456,9 +325,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -467,12 +333,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Duration As String = "duration"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   id: VisibleFor
@@ -484,9 +344,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -495,12 +352,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const VisibleFor As String = "visibleFor"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   id: Activitylink
@@ -512,9 +363,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -523,12 +371,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Activitylink As String = "activitylink"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
   id: Published
@@ -540,9 +382,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Published
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -551,12 +390,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Published As String = "published"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   id: CautionWarning
@@ -568,9 +401,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -579,12 +409,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const CautionWarning As String = "cautionWarning"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
   id: TimeZone
@@ -596,9 +420,6 @@ items:
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.TimeZone
   type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -607,29 +428,278 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeZone As String = "timeZone"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -637,6 +707,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

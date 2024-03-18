@@ -35,6 +35,7 @@ references:
   commentId: T:SuperOffice.IO.BinaryGenerator
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.BinaryGenerator.html
   name: BinaryGenerator
   nameWithType: BinaryGenerator
   fullName: SuperOffice.IO.BinaryGenerator
@@ -42,13 +43,35 @@ references:
   commentId: T:SuperOffice.IO.BinaryGenerator.State
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.BinaryGenerator.html
   name: BinaryGenerator.State
   nameWithType: BinaryGenerator.State
   fullName: SuperOffice.IO.BinaryGenerator.State
+  spec.csharp:
+  - uid: SuperOffice.IO.BinaryGenerator
+    name: BinaryGenerator
+    isExternal: true
+    href: SuperOffice.IO.BinaryGenerator.html
+  - name: .
+  - uid: SuperOffice.IO.BinaryGenerator.State
+    name: State
+    isExternal: true
+    href: SuperOffice.IO.BinaryGenerator.State.html
+  spec.vb:
+  - uid: SuperOffice.IO.BinaryGenerator
+    name: BinaryGenerator
+    isExternal: true
+    href: SuperOffice.IO.BinaryGenerator.html
+  - name: .
+  - uid: SuperOffice.IO.BinaryGenerator.State
+    name: State
+    isExternal: true
+    href: SuperOffice.IO.BinaryGenerator.State.html
 - uid: SuperOffice.IO.IStreamProvider
   commentId: T:SuperOffice.IO.IStreamProvider
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.IStreamProvider.html
   name: IStreamProvider
   nameWithType: IStreamProvider
   fullName: SuperOffice.IO.IStreamProvider
@@ -56,6 +79,7 @@ references:
   commentId: T:SuperOffice.IO.ProviderStream
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.ProviderStream.html
   name: ProviderStream
   nameWithType: ProviderStream
   fullName: SuperOffice.IO.ProviderStream
@@ -63,13 +87,35 @@ references:
   commentId: T:SuperOffice.IO.ProviderStream.AccessMode
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.ProviderStream.html
   name: ProviderStream.AccessMode
   nameWithType: ProviderStream.AccessMode
   fullName: SuperOffice.IO.ProviderStream.AccessMode
+  spec.csharp:
+  - uid: SuperOffice.IO.ProviderStream
+    name: ProviderStream
+    isExternal: true
+    href: SuperOffice.IO.ProviderStream.html
+  - name: .
+  - uid: SuperOffice.IO.ProviderStream.AccessMode
+    name: AccessMode
+    isExternal: true
+    href: SuperOffice.IO.ProviderStream.AccessMode.html
+  spec.vb:
+  - uid: SuperOffice.IO.ProviderStream
+    name: ProviderStream
+    isExternal: true
+    href: SuperOffice.IO.ProviderStream.html
+  - name: .
+  - uid: SuperOffice.IO.ProviderStream.AccessMode
+    name: AccessMode
+    isExternal: true
+    href: SuperOffice.IO.ProviderStream.AccessMode.html
 - uid: SuperOffice.IO.SerializationWriter
   commentId: T:SuperOffice.IO.SerializationWriter
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.SerializationWriter.html
   name: SerializationWriter
   nameWithType: SerializationWriter
   fullName: SuperOffice.IO.SerializationWriter
@@ -77,18 +123,21 @@ references:
   commentId: T:SuperOffice.IO.SerializationReader
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.SerializationReader.html
   name: SerializationReader
   nameWithType: SerializationReader
   fullName: SuperOffice.IO.SerializationReader
 - uid: SuperOffice.IO.OptimizationException
   commentId: T:SuperOffice.IO.OptimizationException
   isExternal: true
+  href: SuperOffice.IO.OptimizationException.html
   name: OptimizationException
   nameWithType: OptimizationException
   fullName: SuperOffice.IO.OptimizationException
 - uid: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
   commentId: T:SuperOffice.IO.IOwnedDataSerializableAndRecreatable
   isExternal: true
+  href: SuperOffice.IO.IOwnedDataSerializableAndRecreatable.html
   name: IOwnedDataSerializableAndRecreatable
   nameWithType: IOwnedDataSerializableAndRecreatable
   fullName: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
@@ -96,12 +145,14 @@ references:
   commentId: T:SuperOffice.IO.IOwnedDataSerializable
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.IOwnedDataSerializable.html
   name: IOwnedDataSerializable
   nameWithType: IOwnedDataSerializable
   fullName: SuperOffice.IO.IOwnedDataSerializable
 - uid: SuperOffice.IO.IFastSerializationTypeSurrogate
   commentId: T:SuperOffice.IO.IFastSerializationTypeSurrogate
   isExternal: true
+  href: SuperOffice.IO.IFastSerializationTypeSurrogate.html
   name: IFastSerializationTypeSurrogate
   nameWithType: IFastSerializationTypeSurrogate
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
@@ -109,6 +160,7 @@ references:
   commentId: T:SuperOffice.IO.Generator
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.Generator.html
   name: Generator
   nameWithType: Generator
   fullName: SuperOffice.IO.Generator
@@ -116,12 +168,14 @@ references:
   commentId: T:SuperOffice.IO.ITempFileProvider
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.ITempFileProvider.html
   name: ITempFileProvider
   nameWithType: ITempFileProvider
   fullName: SuperOffice.IO.ITempFileProvider
 - uid: SuperOffice.IO.MsWordGenerator
   commentId: T:SuperOffice.IO.MsWordGenerator
   isExternal: true
+  href: SuperOffice.IO.MsWordGenerator.html
   name: MsWordGenerator
   nameWithType: MsWordGenerator
   fullName: SuperOffice.IO.MsWordGenerator
@@ -129,6 +183,7 @@ references:
   commentId: T:SuperOffice.IO.TagContainer
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.TagContainer.html
   name: TagContainer
   nameWithType: TagContainer
   fullName: SuperOffice.IO.TagContainer
@@ -136,18 +191,41 @@ references:
   commentId: T:SuperOffice.IO.TemplateTagAttribute
   parent: SuperOffice.IO
   isExternal: true
+  href: SuperOffice.IO.TemplateTagAttribute.html
   name: TemplateTagAttribute
   nameWithType: TemplateTagAttribute
   fullName: SuperOffice.IO.TemplateTagAttribute
 - uid: SuperOffice.IO.TextGenerator
   commentId: T:SuperOffice.IO.TextGenerator
   isExternal: true
+  href: SuperOffice.IO.TextGenerator.html
   name: TextGenerator
   nameWithType: TextGenerator
   fullName: SuperOffice.IO.TextGenerator
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.IO
   nameWithType: SuperOffice.IO
   fullName: SuperOffice.IO
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.IO
+    name: IO
+    isExternal: true
+    href: SuperOffice.IO.html

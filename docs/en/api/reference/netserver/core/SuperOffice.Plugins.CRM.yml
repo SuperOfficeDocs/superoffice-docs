@@ -19,12 +19,14 @@ references:
 - uid: SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
   commentId: T:SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
   isExternal: true
+  href: SuperOffice.Plugins.CRM.IExtendedLoggerPlugin.html
   name: IExtendedLoggerPlugin
   nameWithType: IExtendedLoggerPlugin
   fullName: SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
 - uid: SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute
   commentId: T:SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute
   isExternal: true
+  href: SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute.html
   name: ExtendedLoggerPluginAttribute
   nameWithType: ExtendedLoggerPluginAttribute
   fullName: SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute

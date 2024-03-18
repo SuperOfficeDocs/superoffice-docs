@@ -14,22 +14,14 @@ items:
   nameWithType: IVisibleForCarrier
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface implemented by carriers having the Visible For flag\n"
+  summary: Interface implemented by carriers having the Visible For flag
+  example: []
   syntax:
     content: public interface IVisibleForCarrier
     content.vb: Public Interface IVisibleForCarrier
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
   commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
   id: VisibleFor
@@ -41,13 +33,11 @@ items:
   nameWithType: IVisibleForCarrier.VisibleFor
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe set of users or groups the record is visible for\n"
+  summary: The set of users or groups the record is visible for
+  example: []
   syntax:
     content: VisibleFor[] VisibleFor { get; set; }
     parameters: []
@@ -55,9 +45,6 @@ items:
       type: SuperOffice.CRM.Services.VisibleFor[]
     content.vb: Property VisibleFor As VisibleFor()
   overload: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor*
-  modifiers.csharp:
-  - get
-  - set
 - uid: SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties
   commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties
   id: FieldProperties
@@ -69,9 +56,6 @@ items:
   nameWithType: IVisibleForCarrier.FieldProperties
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
@@ -82,24 +66,54 @@ items:
       type: SuperOffice.CRM.Security.FieldPropertyDictionary
     content.vb: Property FieldProperties As FieldPropertyDictionary
   overload: SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties*
-  modifiers.csharp:
-  - get
-  - set
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor*
   commentId: Overload:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
   isExternal: true
+  href: SuperOffice.CRM.Services.IVisibleForCarrier.html#SuperOffice_CRM_Services_IVisibleForCarrier_VisibleFor
   name: VisibleFor
   nameWithType: IVisibleForCarrier.VisibleFor
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
 - uid: SuperOffice.CRM.Services.VisibleFor[]
   isExternal: true
+  href: SuperOffice.CRM.Services.VisibleFor.html
   name: VisibleFor[]
   nameWithType: VisibleFor[]
   fullName: SuperOffice.CRM.Services.VisibleFor[]
@@ -109,24 +123,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
-    nameWithType: VisibleFor
-    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.CRM.Services.VisibleFor.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
-    nameWithType: VisibleFor
-    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.CRM.Services.VisibleFor.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties*
   commentId: Overload:SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties
   isExternal: true
+  href: SuperOffice.CRM.Services.IVisibleForCarrier.html#SuperOffice_CRM_Services_IVisibleForCarrier_FieldProperties
   name: FieldProperties
   nameWithType: IVisibleForCarrier.FieldProperties
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier.FieldProperties

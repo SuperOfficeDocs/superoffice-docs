@@ -14,22 +14,17 @@ items:
   nameWithType: IExtraFieldCarrier
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
   type: Interface
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface implemented by carriers having Extra fields\nExtra fields are data typically added by plug-ins, foreignkey system and external applications\n"
+  summary: >-
+    Interface implemented by carriers having Extra fields
+
+    Extra fields are data typically added by plug-ins, foreignkey system and external applications
+  example: []
   syntax:
     content: public interface IExtraFieldCarrier
     content.vb: Public Interface IExtraFieldCarrier
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
   commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
   id: ExtraFields
@@ -41,13 +36,33 @@ items:
   nameWithType: IExtraFieldCarrier.ExtraFields
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n<remarks>\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[MainTableName name]\n	Example: “DocumentPlugin.DocumentType”\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: “Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: “Phunneling.AggregatedSales”\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesn’t change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n</remarks>\n"
+  summary: >-
+    Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.
+
+    <remarks>
+
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Plug-in data</td><td class="description">
+    	[Plug-in name].[MainTableName name]
+    	Example: “DocumentPlugin.DocumentType”
+    	</td></tr><tr><td class="term">Foreign key data</td><td class="description">
+    	The device identity is appended directly to the device name if it exists. 
+        This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, 
+        and hence we would ensure an unique key if this field is used.
+        Example: “Audience.SecretService.DefaultCountry
+        </td></tr><tr><td class="term">User defined table data</td><td class="description">
+    	[Table name].[Field name]
+    	Example: “Phunneling.AggregatedSales”
+    	</td></tr><tr><td class="term">Other</td><td class="description">
+    	Other data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. 
+    	We also ensure that SuperOffice data are added first, so that existing data doesn’t change when more data sources are added (with duplicate data keys).
+    	</td></tr></tbody></table>
+    </remarks>
+  example: []
   syntax:
     content: StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -55,9 +70,6 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     content.vb: Property ExtraFields As StringDictionary
   overload: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields*
-  modifiers.csharp:
-  - get
-  - set
 - uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   id: CustomFields
@@ -69,14 +81,28 @@ items:
   nameWithType: IExtraFieldCarrier.CustomFields
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  summary: >-
+    Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.
+
+    Custom fields combines user defined fields and extra fields into one bucket. 
+
+    The individual <xref href="SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields" data-throw-if-not-resolved="false"></xref> and UserDefinedFields properties are deprecated in favor of this
+
+    combined collection.
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Extra field data</td><td class="description">
+           [Extra field name]<p></p>
+           Example: <pre><code class="lang-csharp">'x_gorp' = '[I:123]'</code></pre>
+           </td></tr><tr><td class="term">User defined field data</td><td class="description">
+           [Prog-id name]<p></p>
+        Example: <pre><code class="lang-csharp">'SuperOffice:1' = '[I:123]'</code></pre><p></p>
+           </td></tr></tbody></table>
+  example: []
   syntax:
     content: StringDictionary CustomFields { get; set; }
     parameters: []
@@ -84,19 +110,48 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     content.vb: Property CustomFields As StringDictionary
   overload: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields*
-  modifiers.csharp:
-  - get
-  - set
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields*
   commentId: Overload:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
   isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html#SuperOffice_CRM_Services_IExtraFieldCarrier_ExtraFields
   name: ExtraFields
   nameWithType: IExtraFieldCarrier.ExtraFields
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
@@ -105,9 +160,26 @@ references:
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html#SuperOffice_CRM_Services_IExtraFieldCarrier_ExtraFields
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
 - uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields*
   commentId: Overload:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html#SuperOffice_CRM_Services_IExtraFieldCarrier_CustomFields
   name: CustomFields
   nameWithType: IExtraFieldCarrier.CustomFields
   fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier

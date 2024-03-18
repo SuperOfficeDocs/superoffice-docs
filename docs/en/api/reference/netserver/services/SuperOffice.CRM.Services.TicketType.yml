@@ -6,11 +6,14 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.TicketType.#ctor
-  - SuperOffice.CRM.Services.TicketType.Id
-  - SuperOffice.CRM.Services.TicketType.Tooltip
+  - SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+  - SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+  - SuperOffice.CRM.Services.TicketType.Icon
+  - SuperOffice.CRM.Services.TicketType.IsDefault
+  - SuperOffice.CRM.Services.TicketType.Name
+  - SuperOffice.CRM.Services.TicketType.TicketTypeId
   - SuperOffice.CRM.Services.TicketType.ToString
   - SuperOffice.CRM.Services.TicketType.ToString(System.String)
-  - SuperOffice.CRM.Services.TicketType.Value
   langs:
   - csharp
   - vb
@@ -18,21 +21,27 @@ items:
   nameWithType: TicketType
   fullName: SuperOffice.CRM.Services.TicketType
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nTrivial TicketType information for filling selector values\n<p></p>\nCarrier object for TicketType.\nServices for the TicketType Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  example:
-  - "\nGet TicketType 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var ticketType = agent.GetTicketType( 123 );\n }</code></pre>\n"
-  syntax:
-    content: 'public class TicketType : Carrier'
-    content.vb: >-
-      Public Class TicketType
+  summary: >-
+    Ticket Type - light read-only version of TicketTypeEntity.
 
-          Inherits Carrier
+    <p></p>
+
+    Carrier object for TicketType.
+
+    Services for the TicketType Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
+
+      public class TicketType : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+
+      Public Class TicketType Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent
     commentId: T:SuperOffice.CRM.Services.ListAgent
@@ -40,12 +49,14 @@ items:
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
 - uid: SuperOffice.CRM.Services.TicketType.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketType.#ctor
   id: '#ctor'
@@ -57,21 +68,18 @@ items:
   nameWithType: TicketType.TicketType()
   fullName: SuperOffice.CRM.Services.TicketType.TicketType()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TicketType()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TicketType.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TicketType.New()
+  fullName.vb: SuperOffice.CRM.Services.TicketType.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TicketType.ToString
   commentId: M:SuperOffice.CRM.Services.TicketType.ToString
   id: ToString
@@ -83,26 +91,18 @@ items:
   nameWithType: TicketType.ToString()
   fullName: SuperOffice.CRM.Services.TicketType.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TicketType.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TicketType.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TicketType.ToString(System.String)
   id: ToString(System.String)
@@ -110,17 +110,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TicketType.ToString(String)
-  fullName: SuperOffice.CRM.Services.TicketType.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TicketType.ToString(string)
+  fullName: SuperOffice.CRM.Services.TicketType.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,113 +133,212 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TicketType.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TicketType.Id
-  commentId: P:SuperOffice.CRM.Services.TicketType.Id
-  id: Id
+  nameWithType.vb: TicketType.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TicketType.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.TicketType.TicketTypeId
+  commentId: P:SuperOffice.CRM.Services.TicketType.TicketTypeId
+  id: TicketTypeId
   parent: SuperOffice.CRM.Services.TicketType
   langs:
   - csharp
   - vb
-  name: Id
-  nameWithType: TicketType.Id
-  fullName: SuperOffice.CRM.Services.TicketType.Id
+  name: TicketTypeId
+  nameWithType: TicketType.TicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketType.TicketTypeId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe List Item Id\n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public int Id { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TicketTypeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Property Id As Integer
-  overload: SuperOffice.CRM.Services.TicketType.Id*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TicketType.Value
-  commentId: P:SuperOffice.CRM.Services.TicketType.Value
-  id: Value
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TicketTypeId As Integer
+  overload: SuperOffice.CRM.Services.TicketType.TicketTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketType.Name
+  commentId: P:SuperOffice.CRM.Services.TicketType.Name
+  id: Name
   parent: SuperOffice.CRM.Services.TicketType
   langs:
   - csharp
   - vb
-  name: Value
-  nameWithType: TicketType.Value
-  fullName: SuperOffice.CRM.Services.TicketType.Value
+  name: Name
+  nameWithType: TicketType.Name
+  fullName: SuperOffice.CRM.Services.TicketType.Name
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe List Item Value\n"
+  summary: The list item
+  example: []
   syntax:
-    content: public string Value { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Value As String
-  overload: SuperOffice.CRM.Services.TicketType.Value*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.TicketType.Tooltip
-  commentId: P:SuperOffice.CRM.Services.TicketType.Tooltip
-  id: Tooltip
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.TicketType.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketType.Icon
+  commentId: P:SuperOffice.CRM.Services.TicketType.Icon
+  id: Icon
   parent: SuperOffice.CRM.Services.TicketType
   langs:
   - csharp
   - vb
-  name: Tooltip
-  nameWithType: TicketType.Tooltip
-  fullName: SuperOffice.CRM.Services.TicketType.Tooltip
+  name: Icon
+  nameWithType: TicketType.Icon
+  fullName: SuperOffice.CRM.Services.TicketType.Icon
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe List Item Tooltip\n"
+  summary: Name of the icon
+  example: []
   syntax:
-    content: public string Tooltip { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Icon { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Tooltip As String
-  overload: SuperOffice.CRM.Services.TicketType.Tooltip*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Icon As String
+  overload: SuperOffice.CRM.Services.TicketType.Icon*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+  commentId: P:SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+  id: DefaultTicketStatus
+  parent: SuperOffice.CRM.Services.TicketType
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketStatus
+  nameWithType: TicketType.DefaultTicketStatus
+  fullName: SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default ticket status for new tickets
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int DefaultTicketStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultTicketStatus As Integer
+  overload: SuperOffice.CRM.Services.TicketType.DefaultTicketStatus*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+  commentId: P:SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+  id: DefaultTicketPriority
+  parent: SuperOffice.CRM.Services.TicketType
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketPriority
+  nameWithType: TicketType.DefaultTicketPriority
+  fullName: SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default ticket priority for new tickets
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int DefaultTicketPriority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DefaultTicketPriority As Integer
+  overload: SuperOffice.CRM.Services.TicketType.DefaultTicketPriority*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketType.IsDefault
+  commentId: P:SuperOffice.CRM.Services.TicketType.IsDefault
+  id: IsDefault
+  parent: SuperOffice.CRM.Services.TicketType
+  langs:
+  - csharp
+  - vb
+  name: IsDefault
+  nameWithType: TicketType.IsDefault
+  fullName: SuperOffice.CRM.Services.TicketType.IsDefault
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Is this Ticket Type marked as default
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsDefault As Boolean
+  overload: SuperOffice.CRM.Services.TicketType.IsDefault*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.ListAgent.html
   name: ListAgent
   nameWithType: ListAgent
   fullName: SuperOffice.CRM.Services.ListAgent
@@ -246,18 +346,79 @@ references:
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketType.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketType.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType__ctor
   name: TicketType
   nameWithType: TicketType.TicketType
   fullName: SuperOffice.CRM.Services.TicketType.TicketType
+  nameWithType.vb: TicketType.New
+  fullName.vb: SuperOffice.CRM.Services.TicketType.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TicketType.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TicketType.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_ToString
   name: ToString
   nameWithType: TicketType.ToString
   fullName: SuperOffice.CRM.Services.TicketType.ToString
@@ -265,37 +426,74 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.TicketType.TicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.TicketTypeId
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.TicketType.Id*
-  commentId: Overload:SuperOffice.CRM.Services.TicketType.Id
-  isExternal: true
-  name: Id
-  nameWithType: TicketType.Id
-  fullName: SuperOffice.CRM.Services.TicketType.Id
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_TicketTypeId
+  name: TicketTypeId
+  nameWithType: TicketType.TicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketType.TicketTypeId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.TicketType.Value*
-  commentId: Overload:SuperOffice.CRM.Services.TicketType.Value
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.TicketType.Name*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.Name
   isExternal: true
-  name: Value
-  nameWithType: TicketType.Value
-  fullName: SuperOffice.CRM.Services.TicketType.Value
-- uid: SuperOffice.CRM.Services.TicketType.Tooltip*
-  commentId: Overload:SuperOffice.CRM.Services.TicketType.Tooltip
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_Name
+  name: Name
+  nameWithType: TicketType.Name
+  fullName: SuperOffice.CRM.Services.TicketType.Name
+- uid: SuperOffice.CRM.Services.TicketType.Icon*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.Icon
   isExternal: true
-  name: Tooltip
-  nameWithType: TicketType.Tooltip
-  fullName: SuperOffice.CRM.Services.TicketType.Tooltip
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_Icon
+  name: Icon
+  nameWithType: TicketType.Icon
+  fullName: SuperOffice.CRM.Services.TicketType.Icon
+- uid: SuperOffice.CRM.Services.TicketType.DefaultTicketStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_DefaultTicketStatus
+  name: DefaultTicketStatus
+  nameWithType: TicketType.DefaultTicketStatus
+  fullName: SuperOffice.CRM.Services.TicketType.DefaultTicketStatus
+- uid: SuperOffice.CRM.Services.TicketType.DefaultTicketPriority*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_DefaultTicketPriority
+  name: DefaultTicketPriority
+  nameWithType: TicketType.DefaultTicketPriority
+  fullName: SuperOffice.CRM.Services.TicketType.DefaultTicketPriority
+- uid: SuperOffice.CRM.Services.TicketType.IsDefault*
+  commentId: Overload:SuperOffice.CRM.Services.TicketType.IsDefault
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketType.html#SuperOffice_CRM_Services_TicketType_IsDefault
+  name: IsDefault
+  nameWithType: TicketType.IsDefault
+  fullName: SuperOffice.CRM.Services.TicketType.IsDefault
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

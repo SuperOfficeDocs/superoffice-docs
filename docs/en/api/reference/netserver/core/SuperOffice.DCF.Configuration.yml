@@ -27,60 +27,350 @@ references:
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes
   nameWithType: ConfigurationAttributes
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlTypes
   nameWithType: ConfigurationAttributes.ControlTypes
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+    name: ControlTypes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+    name: ControlTypes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlTypes.Position
   nameWithType: ConfigurationAttributes.ControlTypes.Position
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+    name: ControlTypes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+    name: Position
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+    name: ControlTypes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+    name: Position
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.Validation
   nameWithType: ConfigurationAttributes.Validation
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+    name: Validation
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+    name: Validation
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements
   nameWithType: ConfigurationAttributes.ControlElements
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements.Config
   nameWithType: ConfigurationAttributes.ControlElements.Config
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements.Config.TextField
   nameWithType: ConfigurationAttributes.ControlElements.Config.TextField
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+    name: TextField
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+    name: TextField
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements.Config.Date
   nameWithType: ConfigurationAttributes.ControlElements.Config.Date
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
+    name: Date
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date
+    name: Date
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Date.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements.Config.Label
   nameWithType: ConfigurationAttributes.ControlElements.Config.Label
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label
+    name: Label
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label
+    name: Label
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.Label.html
 - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
   commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
   isExternal: true
+  href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
   name: ConfigurationAttributes.ControlElements.Config.MDO
   nameWithType: ConfigurationAttributes.ControlElements.Config.MDO
   fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
+  spec.csharp:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
+    name: MDO
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.html
+  spec.vb:
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+    name: ConfigurationAttributes
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements
+    name: ControlElements
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config
+    name: Config
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.html
+  - name: .
+  - uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO
+    name: MDO
+    isExternal: true
+    href: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.MDO.html

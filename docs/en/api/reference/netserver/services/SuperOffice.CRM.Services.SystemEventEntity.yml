@@ -25,21 +25,48 @@ items:
   nameWithType: SystemEventEntity
   fullName: SuperOffice.CRM.Services.SystemEventEntity
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEntity for system events\n<p></p>\nCarrier object for SystemEventEntity.\nServices for the SystemEventEntity Carrier is available from the <see cref=\"!:IConfigurationAgent\">Configuration Agent</see>.\n"
-  example:
-  - "\nGet SystemEventEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ConfigurationAgent();\n    var systemEventEntity = agent.GetSystemEventEntity( 123 );\n }</code></pre>\n\nFind all SystemEventEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;SystemEvents&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
-  syntax:
-    content: 'public class SystemEventEntity : Carrier'
-    content.vb: >-
-      Public Class SystemEventEntity
+  summary: >-
+    Entity for system events
 
-          Inherits Carrier
+    <p></p>
+
+    Carrier object for SystemEventEntity.
+
+    Services for the SystemEventEntity Carrier is available from the IConfigurationAgent.
+  example:
+  - >-
+    Get SystemEventEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new ConfigurationAgent();
+       var systemEventEntity = agent.GetSystemEventEntity( 123 );
+    }</code></pre>
+
+
+    Find all SystemEventEntity, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("SystemEvents", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
+
+      public class SystemEventEntity : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+
+      Public Class SystemEventEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ArchiveAgent
     commentId: T:SuperOffice.CRM.Services.ArchiveAgent
@@ -47,12 +74,14 @@ items:
     commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
 - uid: SuperOffice.CRM.Services.SystemEventEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.SystemEventEntity.#ctor
   id: '#ctor'
@@ -64,21 +93,18 @@ items:
   nameWithType: SystemEventEntity.SystemEventEntity()
   fullName: SuperOffice.CRM.Services.SystemEventEntity.SystemEventEntity()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public SystemEventEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.SystemEventEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SystemEventEntity.New()
+  fullName.vb: SuperOffice.CRM.Services.SystemEventEntity.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ToString
   commentId: M:SuperOffice.CRM.Services.SystemEventEntity.ToString
   id: ToString
@@ -90,26 +116,18 @@ items:
   nameWithType: SystemEventEntity.ToString()
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.SystemEventEntity.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SystemEventEntity.ToString(System.String)
   id: ToString(System.String)
@@ -117,17 +135,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: SystemEventEntity.ToString(String)
-  fullName: SuperOffice.CRM.Services.SystemEventEntity.ToString(System.String)
+  name: ToString(string)
+  nameWithType: SystemEventEntity.ToString(string)
+  fullName: SuperOffice.CRM.Services.SystemEventEntity.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -139,10 +158,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SystemEventEntity.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SystemEventEntity.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.SystemEventEntity.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.SystemEventEntity.SystemEventId
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.SystemEventId
   id: SystemEventId
@@ -154,28 +172,28 @@ items:
   nameWithType: SystemEventEntity.SystemEventId
   fullName: SuperOffice.CRM.Services.SystemEventEntity.SystemEventId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int SystemEventId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int SystemEventId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property SystemEventId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SystemEventId As Integer
   overload: SuperOffice.CRM.Services.SystemEventEntity.SystemEventId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Scope
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Scope
   id: Scope
@@ -187,28 +205,28 @@ items:
   nameWithType: SystemEventEntity.Scope
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Scope
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n1 = system-wide, 2= database, 3 = group, 4 = user \n"
+  summary: 1 = system-wide, 2= database, 3 = group, 4 = user
+  example: []
   syntax:
-    content: public virtual SystemEventScope Scope { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual SystemEventScope Scope { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.SystemEventScope
-    content.vb: Public Overridable Property Scope As SystemEventScope
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Scope As SystemEventScope
   overload: SuperOffice.CRM.Services.SystemEventEntity.Scope*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eta
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Eta
   id: Eta
@@ -220,28 +238,28 @@ items:
   nameWithType: SystemEventEntity.Eta
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eta
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEstimated Time of Arrival, i.e., when will this event finish? \n"
+  summary: Estimated Time of Arrival, i.e., when will this event finish?
+  example: []
   syntax:
-    content: public virtual DateTime Eta { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Eta { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Eta As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Eta As Date
   overload: SuperOffice.CRM.Services.SystemEventEntity.Eta*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eventkey
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Eventkey
   id: Eventkey
@@ -253,28 +271,28 @@ items:
   nameWithType: SystemEventEntity.Eventkey
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eventkey
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nEvent key, predefined in code \n"
+  summary: Event key, predefined in code
+  example: []
   syntax:
-    content: public virtual string Eventkey { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Eventkey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Eventkey As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Eventkey As String
   overload: SuperOffice.CRM.Services.SystemEventEntity.Eventkey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eventmess
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Eventmess
   id: Eventmess
@@ -286,28 +304,28 @@ items:
   nameWithType: SystemEventEntity.Eventmess
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eventmess
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMessage to be shown, entered by administrator \n"
+  summary: Message to be shown, entered by administrator
+  example: []
   syntax:
-    content: public virtual string Eventmess { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Eventmess { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Eventmess As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Eventmess As String
   overload: SuperOffice.CRM.Services.SystemEventEntity.Eventmess*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo
   id: ExtraInfo
@@ -319,28 +337,28 @@ items:
   nameWithType: SystemEventEntity.ExtraInfo
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nExtra information (area id for prototype rebuild, etc) \n"
+  summary: Extra information (area id for prototype rebuild, etc)
+  example: []
   syntax:
-    content: public virtual int ExtraInfo { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int ExtraInfo { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property ExtraInfo As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExtraInfo As Integer
   overload: SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Owner
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Owner
   id: Owner
@@ -352,28 +370,28 @@ items:
   nameWithType: SystemEventEntity.Owner
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Owner
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n0, 0, group_id, assoc id (see over) \n"
+  summary: 0, 0, group_id, assoc id (see over)
+  example: []
   syntax:
-    content: public virtual int Owner { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int Owner { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property Owner As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Owner As Integer
   overload: SuperOffice.CRM.Services.SystemEventEntity.Owner*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount
   id: UpdatedCount
@@ -385,28 +403,28 @@ items:
   nameWithType: SystemEventEntity.UpdatedCount
   fullName: SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nNumber of updates made to this record \n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
-    content: public virtual short UpdatedCount { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual short UpdatedCount { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: Public Overridable Property UpdatedCount As Short
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Registered
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.Registered
   id: Registered
@@ -418,28 +436,28 @@ items:
   nameWithType: SystemEventEntity.Registered
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Registered
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRegistered when  in UTC.\n"
+  summary: Registered when  in UTC.
+  example: []
   syntax:
-    content: public virtual DateTime Registered { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
   overload: SuperOffice.CRM.Services.SystemEventEntity.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy
   commentId: P:SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy
   id: ActivatedBy
@@ -451,38 +469,33 @@ items:
   nameWithType: SystemEventEntity.ActivatedBy
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe associate that first created the SystemEvent. \n"
+  summary: The associate that first created the SystemEvent.
+  example: []
   syntax:
-    content: public virtual Associate ActivatedBy { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual Associate ActivatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: Public Overridable Property ActivatedBy As Associate
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ActivatedBy As Associate
   overload: SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ArchiveAgent
   commentId: T:SuperOffice.CRM.Services.ArchiveAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveAgent.html
   name: ArchiveAgent
   nameWithType: ArchiveAgent
   fullName: SuperOffice.CRM.Services.ArchiveAgent
@@ -490,155 +503,184 @@ references:
   commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   isExternal: true
-  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  href: SuperOffice.CRM.Services.IArchiveAgent.html#SuperOffice_CRM_Services_IArchiveAgent_GetArchiveListByColumns2_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Int32_
+  name: GetArchiveListByColumns2(string, string, string, string, string, int, int)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(string, string, string, string, string, int, int)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(string, string, string, string, string, int, int)
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Integer, Integer)
+  name.vb: GetArchiveListByColumns2(String, String, String, String, String, Integer, Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
     name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
     isExternal: true
+    href: SuperOffice.CRM.Services.IArchiveAgent.html#SuperOffice_CRM_Services_IArchiveAgent_GetArchiveListByColumns2_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
     name: GetArchiveListByColumns2
-    nameWithType: IArchiveAgent.GetArchiveListByColumns2
-    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
     isExternal: true
+    href: SuperOffice.CRM.Services.IArchiveAgent.html#SuperOffice_CRM_Services_IArchiveAgent_GetArchiveListByColumns2_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IArchiveAgent.html
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SystemEventEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity__ctor
   name: SystemEventEntity
   nameWithType: SystemEventEntity.SystemEventEntity
   fullName: SuperOffice.CRM.Services.SystemEventEntity.SystemEventEntity
+  nameWithType.vb: SystemEventEntity.New
+  fullName.vb: SuperOffice.CRM.Services.SystemEventEntity.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_ToString
   name: ToString
   nameWithType: SystemEventEntity.ToString
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ToString
@@ -646,18 +688,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.SystemEventEntity.SystemEventId*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.SystemEventId
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_SystemEventId
   name: SystemEventId
   nameWithType: SystemEventEntity.SystemEventId
   fullName: SuperOffice.CRM.Services.SystemEventEntity.SystemEventId
@@ -665,12 +706,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Scope*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Scope
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Scope
   name: Scope
   nameWithType: SystemEventEntity.Scope
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Scope
@@ -683,41 +729,53 @@ references:
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eta*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Eta
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Eta
   name: Eta
   nameWithType: SystemEventEntity.Eta
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eta
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eventkey*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Eventkey
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Eventkey
   name: Eventkey
   nameWithType: SystemEventEntity.Eventkey
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eventkey
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Eventmess*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Eventmess
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Eventmess
   name: Eventmess
   nameWithType: SystemEventEntity.Eventmess
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Eventmess
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_ExtraInfo
   name: ExtraInfo
   nameWithType: SystemEventEntity.ExtraInfo
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ExtraInfo
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Owner*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Owner
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Owner
   name: Owner
   nameWithType: SystemEventEntity.Owner
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Owner
 - uid: SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_UpdatedCount
   name: UpdatedCount
   nameWithType: SystemEventEntity.UpdatedCount
   fullName: SuperOffice.CRM.Services.SystemEventEntity.UpdatedCount
@@ -725,18 +783,24 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Services.SystemEventEntity.Registered*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.Registered
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_Registered
   name: Registered
   nameWithType: SystemEventEntity.Registered
   fullName: SuperOffice.CRM.Services.SystemEventEntity.Registered
 - uid: SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy*
   commentId: Overload:SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy
   isExternal: true
+  href: SuperOffice.CRM.Services.SystemEventEntity.html#SuperOffice_CRM_Services_SystemEventEntity_ActivatedBy
   name: ActivatedBy
   nameWithType: SystemEventEntity.ActivatedBy
   fullName: SuperOffice.CRM.Services.SystemEventEntity.ActivatedBy
@@ -744,6 +808,7 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate

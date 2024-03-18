@@ -19,19 +19,23 @@ items:
   nameWithType: TabOrder
   fullName: SuperOffice.CRM.Services.TabOrder
   type: Class
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for TabOrder.\nServices for the TabOrder Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPreferenceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: 'public class TabOrder : Carrier'
-    content.vb: >-
-      Public Class TabOrder
+  summary: >-
+    Carrier object for TabOrder.
 
-          Inherits Carrier
+    Services for the TabOrder Carrier is available from the <xref href="SuperOffice.CRM.Services.IPreferenceAgent?text=Preference+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
+
+      public class TabOrder : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+
+      Public Class TabOrder Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PreferenceAgent
     commentId: T:SuperOffice.CRM.Services.PreferenceAgent
@@ -39,12 +43,14 @@ items:
     commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
 - uid: SuperOffice.CRM.Services.TabOrder.#ctor
   commentId: M:SuperOffice.CRM.Services.TabOrder.#ctor
   id: '#ctor'
@@ -56,21 +62,18 @@ items:
   nameWithType: TabOrder.TabOrder()
   fullName: SuperOffice.CRM.Services.TabOrder.TabOrder()
   type: Constructor
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
+  example: []
   syntax:
     content: public TabOrder()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.CRM.Services.TabOrder.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TabOrder.New()
+  fullName.vb: SuperOffice.CRM.Services.TabOrder.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.Services.TabOrder.ToString
   commentId: M:SuperOffice.CRM.Services.TabOrder.ToString
   id: ToString
@@ -82,26 +85,18 @@ items:
   nameWithType: TabOrder.ToString()
   fullName: SuperOffice.CRM.Services.TabOrder.ToString()
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string.\n"
+  summary: Returns the carrier contents as a formatted string.
+  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString As String
+    content.vb: Public Overrides Function ToString() As String
   overload: SuperOffice.CRM.Services.TabOrder.ToString*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: SuperOffice.CRM.Services.TabOrder.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TabOrder.ToString(System.String)
   id: ToString(System.String)
@@ -109,17 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(String)
-  nameWithType: TabOrder.ToString(String)
-  fullName: SuperOffice.CRM.Services.TabOrder.ToString(System.String)
+  name: ToString(string)
+  nameWithType: TabOrder.ToString(string)
+  fullName: SuperOffice.CRM.Services.TabOrder.ToString(string)
   type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,10 +127,9 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TabOrder.ToString*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: TabOrder.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TabOrder.ToString(String)
+  name.vb: ToString(String)
 - uid: SuperOffice.CRM.Services.TabOrder.TabOrderId
   commentId: P:SuperOffice.CRM.Services.TabOrder.TabOrderId
   id: TabOrderId
@@ -146,28 +141,28 @@ items:
   nameWithType: TabOrder.TabOrderId
   fullName: SuperOffice.CRM.Services.TabOrder.TabOrderId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nPrimary key \n"
+  summary: Primary key
+  example: []
   syntax:
-    content: public virtual int TabOrderId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int TabOrderId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property TabOrderId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TabOrderId As Integer
   overload: SuperOffice.CRM.Services.TabOrder.TabOrderId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TabOrder.TabName
   commentId: P:SuperOffice.CRM.Services.TabOrder.TabName
   id: TabName
@@ -179,28 +174,28 @@ items:
   nameWithType: TabOrder.TabName
   fullName: SuperOffice.CRM.Services.TabOrder.TabName
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nName of tab control \n"
+  summary: Name of tab control
+  example: []
   syntax:
-    content: public virtual string TabName { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string TabName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TabName As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TabName As String
   overload: SuperOffice.CRM.Services.TabOrder.TabName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TabOrder.Order
   commentId: P:SuperOffice.CRM.Services.TabOrder.Order
   id: Order
@@ -212,28 +207,28 @@ items:
   nameWithType: TabOrder.Order
   fullName: SuperOffice.CRM.Services.TabOrder.Order
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe actual tab order \n"
+  summary: The actual tab order
+  example: []
   syntax:
-    content: public virtual string Order { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual string Order { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property Order As String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Order As String
   overload: SuperOffice.CRM.Services.TabOrder.Order*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.TabOrder.AssociateId
   commentId: P:SuperOffice.CRM.Services.TabOrder.AssociateId
   id: AssociateId
@@ -245,38 +240,33 @@ items:
   nameWithType: TabOrder.AssociateId
   fullName: SuperOffice.CRM.Services.TabOrder.AssociateId
   type: Property
-  source:
-    path: SuperOffice.Services
-    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAssociate who owns this tab order \n"
+  summary: Associate who owns this tab order
+  example: []
   syntax:
-    content: public virtual int AssociateId { get; set; }
+    content: >-
+      [DataMember]
+
+      public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property AssociateId As Integer
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.TabOrder.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.PreferenceAgent
   commentId: T:SuperOffice.CRM.Services.PreferenceAgent
   isExternal: true
+  href: SuperOffice.CRM.Services.PreferenceAgent.html
   name: PreferenceAgent
   nameWithType: PreferenceAgent
   fullName: SuperOffice.CRM.Services.PreferenceAgent
@@ -284,18 +274,79 @@ references:
   commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html
   name: IPreferenceAgent
   nameWithType: IPreferenceAgent
   fullName: SuperOffice.CRM.Services.IPreferenceAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TabOrder.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.#ctor
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder__ctor
   name: TabOrder
   nameWithType: TabOrder.TabOrder
   fullName: SuperOffice.CRM.Services.TabOrder.TabOrder
+  nameWithType.vb: TabOrder.New
+  fullName.vb: SuperOffice.CRM.Services.TabOrder.New
+  name.vb: New
 - uid: SuperOffice.CRM.Services.TabOrder.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.ToString
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder_ToString
   name: ToString
   nameWithType: TabOrder.ToString
   fullName: SuperOffice.CRM.Services.TabOrder.ToString
@@ -303,18 +354,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.TabOrder.TabOrderId*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.TabOrderId
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder_TabOrderId
   name: TabOrderId
   nameWithType: TabOrder.TabOrderId
   fullName: SuperOffice.CRM.Services.TabOrder.TabOrderId
@@ -322,24 +372,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.TabOrder.TabName*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.TabName
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder_TabName
   name: TabName
   nameWithType: TabOrder.TabName
   fullName: SuperOffice.CRM.Services.TabOrder.TabName
 - uid: SuperOffice.CRM.Services.TabOrder.Order*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.Order
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder_Order
   name: Order
   nameWithType: TabOrder.Order
   fullName: SuperOffice.CRM.Services.TabOrder.Order
 - uid: SuperOffice.CRM.Services.TabOrder.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.TabOrder.AssociateId
   isExternal: true
+  href: SuperOffice.CRM.Services.TabOrder.html#SuperOffice_CRM_Services_TabOrder_AssociateId
   name: AssociateId
   nameWithType: TabOrder.AssociateId
   fullName: SuperOffice.CRM.Services.TabOrder.AssociateId

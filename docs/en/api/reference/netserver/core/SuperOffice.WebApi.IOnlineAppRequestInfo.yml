@@ -16,25 +16,17 @@ items:
   nameWithType: IOnlineAppRequestInfo
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo
   type: Interface
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: "\nInterface implemented on service prviding information about app calling NetServer\n"
+  summary: Interface implemented on service prviding information about app calling NetServer
+  example: []
   syntax:
     content: public interface IOnlineAppRequestInfo
     content.vb: Public Interface IOnlineAppRequestInfo
   extensionMethods:
   - SuperOffice.WebApi.IOnlineAppRequestInfo.EnumUtil.MapEnums``2
   - SuperOffice.WebApi.IOnlineAppRequestInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
   commentId: M:SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
   id: InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
@@ -46,13 +38,11 @@ items:
   nameWithType: IOnlineAppRequestInfo.InitializeOnlineAppRequest(PartnerAppRequestInfo)
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
   type: Method
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: "\nInitialize the current scope with information about a oline app request\n"
+  summary: Initialize the current scope with information about a oline app request
+  example: []
   syntax:
     content: void InitializeOnlineAppRequest(PartnerAppRequestInfo partnerAppRequestInfo)
     parameters:
@@ -72,13 +62,11 @@ items:
   nameWithType: IOnlineAppRequestInfo.ContextIdentifier
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: "\nContextIdentifier\n"
+  summary: ContextIdentifier
+  example: []
   syntax:
     content: string ContextIdentifier { get; set; }
     parameters: []
@@ -86,9 +74,6 @@ items:
       type: System.String
     content.vb: Property ContextIdentifier As String
   overload: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier*
-  modifiers.csharp:
-  - get
-  - set
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
   commentId: P:SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
   id: IsOnlineAppRequest
@@ -100,13 +85,11 @@ items:
   nameWithType: IOnlineAppRequestInfo.IsOnlineAppRequest
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: "\nIs the request called by an online partner app\n"
+  summary: Is the request called by an online partner app
+  example: []
   syntax:
     content: bool IsOnlineAppRequest { get; }
     parameters: []
@@ -114,10 +97,6 @@ items:
       type: System.Boolean
     content.vb: ReadOnly Property IsOnlineAppRequest As Boolean
   overload: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
   commentId: P:SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
   id: PartnerAppRequestInfo
@@ -129,13 +108,11 @@ items:
   nameWithType: IOnlineAppRequestInfo.PartnerAppRequestInfo
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
   type: Property
-  source:
-    path: SoCore
-    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.WebApi
-  summary: "\nInformation about the request if it is made by an online app\n"
+  summary: Information about the request if it is made by an online app
+  example: []
   syntax:
     content: PartnerAppRequestInfo PartnerAppRequestInfo { get; }
     parameters: []
@@ -143,88 +120,144 @@ items:
       type: SuperOffice.WebApi.PartnerAppRequestInfo
     content.vb: ReadOnly Property PartnerAppRequestInfo As PartnerAppRequestInfo
   overload: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IOnlineAppRequestInfo, To>()
-  nameWithType: EnumUtil.MapEnums<IOnlineAppRequestInfo, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IOnlineAppRequestInfo, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)()
-  name.vb: MapEnums(Of IOnlineAppRequestInfo, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IOnlineAppRequestInfo, To>(IOnlineAppRequestInfo)
+  nameWithType: EnumUtil.MapEnums<IOnlineAppRequestInfo, To>(IOnlineAppRequestInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>(SuperOffice.WebApi.IOnlineAppRequestInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of IOnlineAppRequestInfo, To)(IOnlineAppRequestInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)(SuperOffice.WebApi.IOnlineAppRequestInfo)
+  name.vb: MapEnums(Of IOnlineAppRequestInfo, To)(IOnlineAppRequestInfo)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IOnlineAppRequestInfo, To>
-    nameWithType: EnumUtil.MapEnums<IOnlineAppRequestInfo, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.WebApi.IOnlineAppRequestInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IOnlineAppRequestInfo, To)
-    nameWithType: EnumUtil.MapEnums(Of IOnlineAppRequestInfo, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.WebApi.IOnlineAppRequestInfo)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: )
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IOnlineAppRequestInfo, To>()
-  nameWithType: Converters.MapEnums<IOnlineAppRequestInfo, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>()
-  nameWithType.vb: Converters.MapEnums(Of IOnlineAppRequestInfo, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)()
-  name.vb: MapEnums(Of IOnlineAppRequestInfo, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IOnlineAppRequestInfo, To>(IOnlineAppRequestInfo)
+  nameWithType: Converters.MapEnums<IOnlineAppRequestInfo, To>(IOnlineAppRequestInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>(SuperOffice.WebApi.IOnlineAppRequestInfo)
+  nameWithType.vb: Converters.MapEnums(Of IOnlineAppRequestInfo, To)(IOnlineAppRequestInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)(SuperOffice.WebApi.IOnlineAppRequestInfo)
+  name.vb: MapEnums(Of IOnlineAppRequestInfo, To)(IOnlineAppRequestInfo)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IOnlineAppRequestInfo, To>
-    nameWithType: Converters.MapEnums<IOnlineAppRequestInfo, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.IOnlineAppRequestInfo, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.WebApi.IOnlineAppRequestInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IOnlineAppRequestInfo, To)
-    nameWithType: Converters.MapEnums(Of IOnlineAppRequestInfo, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.IOnlineAppRequestInfo, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.WebApi.IOnlineAppRequestInfo)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+    name: IOnlineAppRequestInfo
+    isExternal: true
+    href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -233,43 +266,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -278,50 +313,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest*
   commentId: Overload:SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest
   isExternal: true
+  href: SuperOffice.WebApi.IOnlineAppRequestInfo.html#SuperOffice_WebApi_IOnlineAppRequestInfo_InitializeOnlineAppRequest_SuperOffice_WebApi_PartnerAppRequestInfo_
   name: InitializeOnlineAppRequest
   nameWithType: IOnlineAppRequestInfo.InitializeOnlineAppRequest
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest
@@ -329,12 +397,14 @@ references:
   commentId: T:SuperOffice.WebApi.PartnerAppRequestInfo
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.PartnerAppRequestInfo.html
   name: PartnerAppRequestInfo
   nameWithType: PartnerAppRequestInfo
   fullName: SuperOffice.WebApi.PartnerAppRequestInfo
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier*
   commentId: Overload:SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
   isExternal: true
+  href: SuperOffice.WebApi.IOnlineAppRequestInfo.html#SuperOffice_WebApi_IOnlineAppRequestInfo_ContextIdentifier
   name: ContextIdentifier
   nameWithType: IOnlineAppRequestInfo.ContextIdentifier
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
@@ -342,18 +412,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest*
   commentId: Overload:SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
   isExternal: true
+  href: SuperOffice.WebApi.IOnlineAppRequestInfo.html#SuperOffice_WebApi_IOnlineAppRequestInfo_IsOnlineAppRequest
   name: IsOnlineAppRequest
   nameWithType: IOnlineAppRequestInfo.IsOnlineAppRequest
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
@@ -361,12 +437,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo*
   commentId: Overload:SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
   isExternal: true
+  href: SuperOffice.WebApi.IOnlineAppRequestInfo.html#SuperOffice_WebApi_IOnlineAppRequestInfo_PartnerAppRequestInfo
   name: PartnerAppRequestInfo
   nameWithType: IOnlineAppRequestInfo.PartnerAppRequestInfo
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo

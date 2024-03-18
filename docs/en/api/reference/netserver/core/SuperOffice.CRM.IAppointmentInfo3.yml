@@ -13,18 +13,12 @@ items:
   nameWithType: IAppointmentInfo3
   fullName: SuperOffice.CRM.IAppointmentInfo3
   type: Interface
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
   syntax:
     content: 'public interface IAppointmentInfo3 : IAppointmentInfo2, IAppointmentInfo'
-    content.vb: >-
-      Public Interface IAppointmentInfo3
-
-          Inherits IAppointmentInfo2, IAppointmentInfo
+    content.vb: Public Interface IAppointmentInfo3 Inherits IAppointmentInfo2, IAppointmentInfo
   inheritedMembers:
   - SuperOffice.CRM.IAppointmentInfo2.IsMilestone
   - SuperOffice.CRM.IAppointmentInfo2.SuggestedAppointmentId
@@ -91,12 +85,6 @@ items:
   extensionMethods:
   - SuperOffice.CRM.IAppointmentInfo3.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IAppointmentInfo3.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl
   commentId: P:SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl
   id: JoinMeetingUrl
@@ -108,13 +96,11 @@ items:
   nameWithType: IAppointmentInfo3.JoinMeetingUrl
   fullName: SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl
   type: Property
-  source:
-    path: SuperOffice.Plugins
-    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: "\nThe URL\n"
+  summary: The URL
+  example: []
   syntax:
     content: string JoinMeetingUrl { get; }
     parameters: []
@@ -122,21 +108,39 @@ items:
       type: System.String
     content.vb: ReadOnly Property JoinMeetingUrl As String
   overload: SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.IAppointmentInfo2.IsMilestone
   commentId: P:SuperOffice.CRM.IAppointmentInfo2.IsMilestone
   parent: SuperOffice.CRM.IAppointmentInfo2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html#SuperOffice_CRM_IAppointmentInfo2_IsMilestone
   name: IsMilestone
   nameWithType: IAppointmentInfo2.IsMilestone
   fullName: SuperOffice.CRM.IAppointmentInfo2.IsMilestone
@@ -144,6 +148,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo2.SuggestedAppointmentId
   parent: SuperOffice.CRM.IAppointmentInfo2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html#SuperOffice_CRM_IAppointmentInfo2_SuggestedAppointmentId
   name: SuggestedAppointmentId
   nameWithType: IAppointmentInfo2.SuggestedAppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo2.SuggestedAppointmentId
@@ -151,6 +156,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo2.OldStartDate
   parent: SuperOffice.CRM.IAppointmentInfo2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html#SuperOffice_CRM_IAppointmentInfo2_OldStartDate
   name: OldStartDate
   nameWithType: IAppointmentInfo2.OldStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo2.OldStartDate
@@ -158,6 +164,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo2.OldStartTime
   parent: SuperOffice.CRM.IAppointmentInfo2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html#SuperOffice_CRM_IAppointmentInfo2_OldStartTime
   name: OldStartTime
   nameWithType: IAppointmentInfo2.OldStartTime
   fullName: SuperOffice.CRM.IAppointmentInfo2.OldStartTime
@@ -165,6 +172,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo2.InvitedList
   parent: SuperOffice.CRM.IAppointmentInfo2
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html#SuperOffice_CRM_IAppointmentInfo2_InvitedList
   name: InvitedList
   nameWithType: IAppointmentInfo2.InvitedList
   fullName: SuperOffice.CRM.IAppointmentInfo2.InvitedList
@@ -172,252 +180,205 @@ references:
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedDecimal(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_Int32_
+  name: GetUserDefinedDecimal(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(int)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedDecimal(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(Integer)
+  name.vb: GetUserDefinedDecimal(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
-    nameWithType: IAppointmentInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
-    nameWithType: IAppointmentInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedInt(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedInt(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_Int32_
+  name: GetUserDefinedInt(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedInt(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(int)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedInt(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(Integer)
+  name.vb: GetUserDefinedInt(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
-    nameWithType: IAppointmentInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
-    nameWithType: IAppointmentInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedString(Int32)
-  nameWithType: IAppointmentInfo.GetUserDefinedString(Int32)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_Int32_
+  name: GetUserDefinedString(int)
+  nameWithType: IAppointmentInfo.GetUserDefinedString(int)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(int)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedString(Integer)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(Integer)
+  name.vb: GetUserDefinedString(Integer)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
-    nameWithType: IAppointmentInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
-    nameWithType: IAppointmentInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedDecimal(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_String_
+  name: GetUserDefinedDecimal(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedDecimal(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(string)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedDecimal(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(String)
+  name.vb: GetUserDefinedDecimal(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
-    nameWithType: IAppointmentInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
-    nameWithType: IAppointmentInfo.GetUserDefinedDecimal
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedDecimal_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedInt(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedInt(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_String_
+  name: GetUserDefinedInt(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedInt(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(string)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedInt(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(String)
+  name.vb: GetUserDefinedInt(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
-    nameWithType: IAppointmentInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
-    nameWithType: IAppointmentInfo.GetUserDefinedInt
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedInt
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedInt_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
-  name: GetUserDefinedString(String)
-  nameWithType: IAppointmentInfo.GetUserDefinedString(String)
-  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_String_
+  name: GetUserDefinedString(string)
+  nameWithType: IAppointmentInfo.GetUserDefinedString(string)
+  fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(string)
+  nameWithType.vb: IAppointmentInfo.GetUserDefinedString(String)
+  fullName.vb: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(String)
+  name.vb: GetUserDefinedString(String)
   spec.csharp:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
-    nameWithType: IAppointmentInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
-    nameWithType: IAppointmentInfo.GetUserDefinedString
-    fullName: SuperOffice.CRM.IAppointmentInfo.GetUserDefinedString
     isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_GetUserDefinedString_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IAppointmentInfo.AppointmentId
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AppointmentId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AppointmentId
   name: AppointmentId
   nameWithType: IAppointmentInfo.AppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.AppointmentId
@@ -425,6 +386,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateId
   name: AssociateId
   nameWithType: IAppointmentInfo.AssociateId
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateId
@@ -432,6 +394,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateName
   name: AssociateName
   nameWithType: IAppointmentInfo.AssociateName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateName
@@ -439,6 +402,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_AssociateOwnerName
   name: AssociateOwnerName
   nameWithType: IAppointmentInfo.AssociateOwnerName
   fullName: SuperOffice.CRM.IAppointmentInfo.AssociateOwnerName
@@ -446,6 +410,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ContactId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ContactId
   name: ContactId
   nameWithType: IAppointmentInfo.ContactId
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactId
@@ -453,6 +418,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ContactName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ContactName
   name: ContactName
   nameWithType: IAppointmentInfo.ContactName
   fullName: SuperOffice.CRM.IAppointmentInfo.ContactName
@@ -460,6 +426,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PersonId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PersonId
   name: PersonId
   nameWithType: IAppointmentInfo.PersonId
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonId
@@ -467,6 +434,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PersonName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PersonName
   name: PersonName
   nameWithType: IAppointmentInfo.PersonName
   fullName: SuperOffice.CRM.IAppointmentInfo.PersonName
@@ -474,6 +442,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ProjectId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ProjectId
   name: ProjectId
   nameWithType: IAppointmentInfo.ProjectId
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectId
@@ -481,6 +450,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ProjectName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ProjectName
   name: ProjectName
   nameWithType: IAppointmentInfo.ProjectName
   fullName: SuperOffice.CRM.IAppointmentInfo.ProjectName
@@ -488,6 +458,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Description
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Description
   name: Description
   nameWithType: IAppointmentInfo.Description
   fullName: SuperOffice.CRM.IAppointmentInfo.Description
@@ -495,6 +466,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.DescriptionLine
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_DescriptionLine
   name: DescriptionLine
   nameWithType: IAppointmentInfo.DescriptionLine
   fullName: SuperOffice.CRM.IAppointmentInfo.DescriptionLine
@@ -502,6 +474,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.CreationDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_CreationDate
   name: CreationDate
   nameWithType: IAppointmentInfo.CreationDate
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationDate
@@ -509,6 +482,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.CreationTime
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_CreationTime
   name: CreationTime
   nameWithType: IAppointmentInfo.CreationTime
   fullName: SuperOffice.CRM.IAppointmentInfo.CreationTime
@@ -516,6 +490,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedDate
   name: UpdatedDate
   nameWithType: IAppointmentInfo.UpdatedDate
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedDate
@@ -523,6 +498,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedTime
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedTime
   name: UpdatedTime
   nameWithType: IAppointmentInfo.UpdatedTime
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedTime
@@ -530,6 +506,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.UpdatedCount
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: IAppointmentInfo.UpdatedCount
   fullName: SuperOffice.CRM.IAppointmentInfo.UpdatedCount
@@ -537,6 +514,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Type
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Type
   name: Type
   nameWithType: IAppointmentInfo.Type
   fullName: SuperOffice.CRM.IAppointmentInfo.Type
@@ -544,6 +522,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationUrl
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InvitationUrl
   name: InvitationUrl
   nameWithType: IAppointmentInfo.InvitationUrl
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationUrl
@@ -551,6 +530,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationClickText
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InvitationClickText
   name: InvitationClickText
   nameWithType: IAppointmentInfo.InvitationClickText
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationClickText
@@ -558,6 +538,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InvitationFormattedList
   name: InvitationFormattedList
   nameWithType: IAppointmentInfo.InvitationFormattedList
   fullName: SuperOffice.CRM.IAppointmentInfo.InvitationFormattedList
@@ -565,6 +546,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InviteeId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InviteeId
   name: InviteeId
   nameWithType: IAppointmentInfo.InviteeId
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeId
@@ -572,6 +554,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.InviteeName
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_InviteeName
   name: InviteeName
   nameWithType: IAppointmentInfo.InviteeName
   fullName: SuperOffice.CRM.IAppointmentInfo.InviteeName
@@ -579,6 +562,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PublishStartDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: IAppointmentInfo.PublishStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishStartDate
@@ -586,6 +570,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PublishEndDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: IAppointmentInfo.PublishEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.PublishEndDate
@@ -593,6 +578,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartTime
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartTime
   name: StartTime
   nameWithType: IAppointmentInfo.StartTime
   fullName: SuperOffice.CRM.IAppointmentInfo.StartTime
@@ -600,6 +586,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EndTime
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EndTime
   name: EndTime
   nameWithType: IAppointmentInfo.EndTime
   fullName: SuperOffice.CRM.IAppointmentInfo.EndTime
@@ -607,6 +594,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDate
   name: StartDate
   nameWithType: IAppointmentInfo.StartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDate
@@ -614,6 +602,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EndDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EndDate
   name: EndDate
   nameWithType: IAppointmentInfo.EndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.EndDate
@@ -621,6 +610,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.EMail
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_EMail
   name: EMail
   nameWithType: IAppointmentInfo.EMail
   fullName: SuperOffice.CRM.IAppointmentInfo.EMail
@@ -628,6 +618,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.FreeBusy
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_FreeBusy
   name: FreeBusy
   nameWithType: IAppointmentInfo.FreeBusy
   fullName: SuperOffice.CRM.IAppointmentInfo.FreeBusy
@@ -635,6 +626,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Location
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Location
   name: Location
   nameWithType: IAppointmentInfo.Location
   fullName: SuperOffice.CRM.IAppointmentInfo.Location
@@ -642,6 +634,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDateLabel
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDateLabel
   name: StartDateLabel
   nameWithType: IAppointmentInfo.StartDateLabel
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateLabel
@@ -649,6 +642,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ICalPriority
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ICalPriority
   name: ICalPriority
   nameWithType: IAppointmentInfo.ICalPriority
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalPriority
@@ -656,6 +650,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingTooltip
   name: RepeatingTooltip
   nameWithType: IAppointmentInfo.RepeatingTooltip
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingTooltip
@@ -663,6 +658,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingEndDate
   name: RepeatingEndDate
   nameWithType: IAppointmentInfo.RepeatingEndDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingEndDate
@@ -670,6 +666,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_MainRepeatingPattern
   name: MainRepeatingPattern
   nameWithType: IAppointmentInfo.MainRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.MainRepeatingPattern
@@ -677,6 +674,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_SubRepeatingPattern
   name: SubRepeatingPattern
   nameWithType: IAppointmentInfo.SubRepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.SubRepeatingPattern
@@ -684,6 +682,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_StartDateTimeAndDuration
   name: StartDateTimeAndDuration
   nameWithType: IAppointmentInfo.StartDateTimeAndDuration
   fullName: SuperOffice.CRM.IAppointmentInfo.StartDateTimeAndDuration
@@ -691,6 +690,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.Priority
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_Priority
   name: Priority
   nameWithType: IAppointmentInfo.Priority
   fullName: SuperOffice.CRM.IAppointmentInfo.Priority
@@ -698,6 +698,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PriorityId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PriorityId
   name: PriorityId
   nameWithType: IAppointmentInfo.PriorityId
   fullName: SuperOffice.CRM.IAppointmentInfo.PriorityId
@@ -705,6 +706,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPattern
   name: RepeatingPattern
   nameWithType: IAppointmentInfo.RepeatingPattern
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPattern
@@ -712,6 +714,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternEnd
   name: RepeatingPatternEnd
   nameWithType: IAppointmentInfo.RepeatingPatternEnd
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternEnd
@@ -719,6 +722,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternWeekStart
   name: RepeatingPatternWeekStart
   nameWithType: IAppointmentInfo.RepeatingPatternWeekStart
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternWeekStart
@@ -726,6 +730,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingStartDate
   name: RepeatingStartDate
   nameWithType: IAppointmentInfo.RepeatingStartDate
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingStartDate
@@ -733,6 +738,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternText
   name: RepeatingPatternText
   nameWithType: IAppointmentInfo.RepeatingPatternText
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText
@@ -740,6 +746,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingPatternText2
   name: RepeatingPatternText2
   nameWithType: IAppointmentInfo.RepeatingPatternText2
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingPatternText2
@@ -747,6 +754,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_RepeatingAppointmentId
   name: RepeatingAppointmentId
   nameWithType: IAppointmentInfo.RepeatingAppointmentId
   fullName: SuperOffice.CRM.IAppointmentInfo.RepeatingAppointmentId
@@ -754,6 +762,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.ICalId
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_ICalId
   name: ICalId
   nameWithType: IAppointmentInfo.ICalId
   fullName: SuperOffice.CRM.IAppointmentInfo.ICalId
@@ -761,6 +770,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.State
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_State
   name: State
   nameWithType: IAppointmentInfo.State
   fullName: SuperOffice.CRM.IAppointmentInfo.State
@@ -768,6 +778,7 @@ references:
   commentId: P:SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
   parent: SuperOffice.CRM.IAppointmentInfo
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html#SuperOffice_CRM_IAppointmentInfo_PreferredTZLocation
   name: PreferredTZLocation
   nameWithType: IAppointmentInfo.PreferredTZLocation
   fullName: SuperOffice.CRM.IAppointmentInfo.PreferredTZLocation
@@ -775,74 +786,113 @@ references:
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<IAppointmentInfo3, To>()
-  nameWithType: EnumUtil.MapEnums<IAppointmentInfo3, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentInfo3, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)()
-  name.vb: MapEnums(Of IAppointmentInfo3, To)()
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IAppointmentInfo3, To>(IAppointmentInfo3)
+  nameWithType: EnumUtil.MapEnums<IAppointmentInfo3, To>(IAppointmentInfo3)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>(SuperOffice.CRM.IAppointmentInfo3)
+  nameWithType.vb: EnumUtil.MapEnums(Of IAppointmentInfo3, To)(IAppointmentInfo3)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)(SuperOffice.CRM.IAppointmentInfo3)
+  name.vb: MapEnums(Of IAppointmentInfo3, To)(IAppointmentInfo3)
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<IAppointmentInfo3, To>
-    nameWithType: EnumUtil.MapEnums<IAppointmentInfo3, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IAppointmentInfo3)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of IAppointmentInfo3, To)
-    nameWithType: EnumUtil.MapEnums(Of IAppointmentInfo3, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IAppointmentInfo3)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: )
 - uid: SuperOffice.CRM.IAppointmentInfo3.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<IAppointmentInfo3, To>()
-  nameWithType: Converters.MapEnums<IAppointmentInfo3, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>()
-  nameWithType.vb: Converters.MapEnums(Of IAppointmentInfo3, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)()
-  name.vb: MapEnums(Of IAppointmentInfo3, To)()
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IAppointmentInfo3, To>(IAppointmentInfo3)
+  nameWithType: Converters.MapEnums<IAppointmentInfo3, To>(IAppointmentInfo3)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>(SuperOffice.CRM.IAppointmentInfo3)
+  nameWithType.vb: Converters.MapEnums(Of IAppointmentInfo3, To)(IAppointmentInfo3)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)(SuperOffice.CRM.IAppointmentInfo3)
+  name.vb: MapEnums(Of IAppointmentInfo3, To)(IAppointmentInfo3)
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<IAppointmentInfo3, To>
-    nameWithType: Converters.MapEnums<IAppointmentInfo3, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IAppointmentInfo3, To>
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IAppointmentInfo3)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of IAppointmentInfo3, To)
-    nameWithType: Converters.MapEnums(Of IAppointmentInfo3, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IAppointmentInfo3, To)
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IAppointmentInfo3)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - uid: SuperOffice.CRM.IAppointmentInfo3
+    name: IAppointmentInfo3
+    isExternal: true
+    href: SuperOffice.CRM.IAppointmentInfo3.html
+  - name: )
 - uid: SuperOffice.CRM.IAppointmentInfo2
   commentId: T:SuperOffice.CRM.IAppointmentInfo2
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo2.html
   name: IAppointmentInfo2
   nameWithType: IAppointmentInfo2
   fullName: SuperOffice.CRM.IAppointmentInfo2
@@ -850,12 +900,14 @@ references:
   commentId: T:SuperOffice.CRM.IAppointmentInfo
   parent: SuperOffice.CRM
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo.html
   name: IAppointmentInfo
   nameWithType: IAppointmentInfo
   fullName: SuperOffice.CRM.IAppointmentInfo
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -864,43 +916,45 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
+  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -909,50 +963,83 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    name: MapEnums
     isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    name: MapEnums
     isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
   - name: From
-    nameWithType: From
-    fullName: From
+  - name: ','
+  - name: " "
+  - name: To
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: (
+  - name: From
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl*
   commentId: Overload:SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl
   isExternal: true
+  href: SuperOffice.CRM.IAppointmentInfo3.html#SuperOffice_CRM_IAppointmentInfo3_JoinMeetingUrl
   name: JoinMeetingUrl
   nameWithType: IAppointmentInfo3.JoinMeetingUrl
   fullName: SuperOffice.CRM.IAppointmentInfo3.JoinMeetingUrl
@@ -960,12 +1047,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System

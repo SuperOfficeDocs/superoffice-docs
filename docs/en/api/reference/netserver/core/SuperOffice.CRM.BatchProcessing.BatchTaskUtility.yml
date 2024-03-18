@@ -14,27 +14,24 @@ items:
   nameWithType: BatchTaskUtility
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
   type: Class
-  source:
-    path: SoBatchProcessing
-    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: "\nUtility functions for simplifying batchtask creation and execution.\n"
+  summary: Utility functions for simplifying batchtask creation and execution.
+  example: []
   syntax:
-    content: 'public static class BatchTaskUtility : Object'
-    content.vb: >-
-      Public Module BatchTaskUtility
-          Inherits Object
+    content: public static class BatchTaskUtility
+    content.vb: Public Module BatchTaskUtility
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter``1(System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter``1(System.String)
   id: DeserializeParameter``1(System.String)
@@ -42,13 +39,10 @@ items:
   langs:
   - csharp
   - vb
-  name: DeserializeParameter<T>(String)
-  nameWithType: BatchTaskUtility.DeserializeParameter<T>(String)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter<T>(System.String)
+  name: DeserializeParameter<T>(string)
+  nameWithType: BatchTaskUtility.DeserializeParameter<T>(string)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter<T>(string)
   type: Method
-  source:
-    path: SoBatchProcessing
-    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
@@ -64,13 +58,7 @@ items:
     content.vb: Public Shared Function DeserializeParameter(Of T)(serializedData As String) As T
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter*
   nameWithType.vb: BatchTaskUtility.DeserializeParameter(Of T)(String)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter(Of T)(System.String)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter(Of T)(String)
   name.vb: DeserializeParameter(Of T)(String)
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter``1(``0)
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter``1(``0)
@@ -83,9 +71,6 @@ items:
   nameWithType: BatchTaskUtility.SerializeParameter<T>(T)
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter<T>(T)
   type: Method
-  source:
-    path: SoBatchProcessing
-    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
@@ -101,37 +86,287 @@ items:
     content.vb: Public Shared Function SerializeParameter(Of T)(objectToSerialize As T) As String
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter*
   nameWithType.vb: BatchTaskUtility.SerializeParameter(Of T)(T)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter(Of T)(T)
   name.vb: SerializeParameter(Of T)(T)
 references:
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing
   nameWithType: SuperOffice.CRM.BatchProcessing
   fullName: SuperOffice.CRM.BatchProcessing
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BatchProcessing
+    name: BatchProcessing
+    isExternal: true
+    href: SuperOffice.CRM.BatchProcessing.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter
   isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.html#SuperOffice_CRM_BatchProcessing_BatchTaskUtility_DeserializeParameter__1_System_String_
   name: DeserializeParameter
   nameWithType: BatchTaskUtility.DeserializeParameter
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter
@@ -139,9 +374,13 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: '{T}'
   commentId: '!:T'
   definition: T
@@ -155,6 +394,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter
   isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.html#SuperOffice_CRM_BatchProcessing_BatchTaskUtility_SerializeParameter__1___0_
   name: SerializeParameter
   nameWithType: BatchTaskUtility.SerializeParameter
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter
