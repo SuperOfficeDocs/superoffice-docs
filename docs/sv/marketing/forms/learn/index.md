@@ -2,7 +2,7 @@
 uid: help-sv-forms
 title: Arbeta med formulär
 description: Webbformulär i SuperOffice är ett bra sätt att samla in kundinformation och återkoppling. Webbformulär gör det möjligt för personer som besöker din webbplats att komma i kontakt med dig och lämna sin kontaktinformation.
-keywords: formulär
+keywords: formulär, dubbel anmälan
 author: SuperOffice RnD
 so.date: 03.15.2024
 so.version: 10
@@ -44,15 +44,19 @@ När du skapar ett formulär följder du detta arbetsflöde:
 
 ## Var hittar du formulär?
 
-Det finns flera sätt att hitta formulär. Gå till fliken Formulär, formulärmallar eller fliken Formulärinlämningar.
+SuperOffice Marketing har 3 flikar som rör formulär.
 
 ![Det finns flera sätt att hitta formulär -screenshot][img2]
 
-* **Formulär:** här kan du skapa nya formulär och se alla formulär som tidigare har skapats. På fliken Aktiva formulär visas vilka formulär som används för närvarande. Den röda bubblan i det övre högra hörnet i ett formulär visar antalet formulärinlämningar som inte har behandlats ännu.
+* **Fliken Formulär:** låter dig skapa nya formulär och se tidigare skapade. Avsnittet **Aktiva formulär** visar för närvarande använda formulär. En röd bubbla på ett formulär indikerar ej behandlade formulärinlämningar.
 
-* **Formulärmallar:** här hittar du alla tillgängliga [formulärmallar][7]. När du öppnar den här fliken första gången hittar du olika mallar i online-mallbiblioteket. Du kan också importera och använda mallar från online-mallbiblioteket eller så kan du använda dem som inspiration för att skapa egna. Klicka bara på den mall du gillar och tryck på Importera mall för att ladda ned den.
+    Använd den sekundära raden med flikar (Senaste, Mina formulär, Aktiva formulär, Alla formulär) och sökrutan för att utforska tillgängliga formulär.
 
-* **Formulärinlämningar:** visar all information om de kontakter som har skickat ett formulär och vad deras aktuella formulärstatus är.
+    Dubbelklicka på ett formulär för att se detaljer om det.
+
+* **Fliken Formulärmallar:** innehåller alla tillgängliga [formulärmallar][7]. När du öppnar den här fliken första gången ser du mallar från Online Library. Du kan importera dessa för användning eller inspiration. För att ladda ner en mall, klicka på den och tryck på **Importera mall**.
+
+* **Fliken Formulärinlämningar:** visar en lista över personer som har skickat in ett formulär och det aktuella [status för deras inlämning](#status).
 
 ## <a id="view" />Skärmen Visa formulär
 
@@ -62,7 +66,7 @@ Det finns flera sätt att hitta formulär. Gå till fliken Formulär, formulärm
 
 |Alternativ | Beskrivning |
 |---|---|
-| Inaktiv/Aktiv | Växla den här reglaget för att aktivera eller inaktivera formuläret. |
+| Inaktiv/Aktiv | Klicka på skjutreglageknappen för att aktivera eller inaktivera formuläret. |
 | Uppdatera | Uppdaterar skärmen. |
 | Redigera | Öppnar formuläret i redigeringsläge. |
 | ![ikon][img5] | Ställer in formuläret som [favorit][11]. |
@@ -73,7 +77,7 @@ Skärmen **Visa formulär** består av följande flikar:
 * **Publicera:** visar länken och skriptet för [publicering av formuläret][3] på en webbsida eller i ett utskick.
 * **Rapporter:** visar diagram med statistik för formuläret (håll musen över för att se exakta siffror).
 * **Formulärintagningar:** visar inlämningar för ett individuellt formulär.
-* **Svarse-post:** visar en förhandsgranskning av formulärsvar (utskick) kopplad till detta formulär. Synlig endast om **E-postrespons** [formuläråtgärd][8] är vald.
+* **Svars-e-post:** visar en förhandsgranskning av formulärsvaret (utskicket) kopplad till detta formulär. Synlig endast om **E-postsvar** [formuläråtgärd][8] är vald.
 
 ## <a id="submissions" />Formulärinlämningar
 
@@ -94,12 +98,9 @@ På fliken **Formulärinlämningar** kan du visa alla inlämnade formulär. Anv�
 
 Med dubbel anmälan måste kunden förutom att skicka in formuläret verifiera sin e-postadress genom att klicka på länken i ett bekräftelsemeddelande.
 
-Alternativet lägger till ett extra säkerhetslager i formuläret. Om du aktiverar alternativet måste personen som lämnar in formuläret även bekräfta sin e-postadress. Detta görs genom att ett e-postmeddelande skickas till personen när formuläret skickas iväg. E-postmeddelandet innehåller en länk som personen måste klicka på för att bekräfta att e-postadressen är rätt.
-Länken är giltig i 30 minuter som standard.
+Alternativet lägger till ett extra säkerhetslager i formuläret. Om du aktiverar alternativet måste personen som lämnar in formuläret även bekräfta sin e-postadress. Detta görs genom att ett e-postmeddelande skickas till personen när formuläret skickas iväg. E-postmeddelandet innehåller en länk som personen måste klicka på för att bekräfta att e-postadressen är rätt. Länken är giltig i 30 minuter som standard.
 
-Dubbel anmälan är ett extra steg i processen för formulärinlämning, där en person måste bekräfta sin e-postadress för att slutföra sin formulärinlämning. De får ett e-postmeddelande med en länk som personen måste klicka på för att bekräfta att e-postadressen är rätt.
-
-Att använda funktionen för dubbel anmälan garanterar att man skickar in rätt e-postadress. Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till en ökad öppningsgrad för dina utskick. Som en extra bonus behöver du inte lägga tid på att korrigera stavfel i e-postadresser eller ta bort e-postadresser som inte finns. Och det kommer också att hjälpa dig i ditt arbete att vara GDPR-kompatibel.
+Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till en ökad öppningsgrad för dina utskick. Som en extra bonus behöver du inte lägga tid på att korrigera stavfel i e-postadresser eller ta bort e-postadresser som inte finns. Och det kommer också att hjälpa dig i ditt arbete att vara GDPR-kompatibel.
 
 <!-- Referenced links -->
 [1]: tutorial-sign-up.md

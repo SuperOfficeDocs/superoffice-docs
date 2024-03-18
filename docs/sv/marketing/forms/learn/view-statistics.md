@@ -48,7 +48,7 @@ Att ha en [dashboard för formulärinlämning][3] gör det enkelt att mäta och 
 
 <!-- Referenced links -->
 [1]: process-submissions.md
-[2]: ../../mailing/learn/follow-up/view-statistics.md
+[2]: ../../mailing/learn/view-statistics.md
 [3]: ../../../dashboard/learn/show-marketing.md
 
 <!-- Referenced images -->

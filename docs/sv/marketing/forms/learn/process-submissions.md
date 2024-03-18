@@ -2,9 +2,9 @@
 uid: help-sv-form-submissions-process
 title: Behandla formulärinlämningar
 description: I den här guiden lär du dig hur du bearbetar formulärinlämningar manuellt.
-keywords: Formulär
-author: SuperOffice RnD
-so.date: 03.15.2024
+keywords: formulär, formulärinlämning, avsändar, inlämnad
+author: Bergfrid Dias
+so.date: 03.18.2024
 so.version: 10
 so.topic: howto
 language: sv
@@ -14,18 +14,16 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Behandla formulärinlämningar
 
-Så snart formulärinlämningarna börjar strömma in är det dags att behandla dem. Formulär kan behandlas automatiskt, manuellt eller en kombination av båda.
+Så snart formulärinlämningarna börjar strömma in är det dags att behandla dem. Formulär kan behandlas automatiskt, manuellt eller en kombination av båda. Detta anges som [formuläråtgärder][2].
 
-> [!NOTE]
-> SuperOffice kommer att kontrollera och validera e-postadressen som har angetts i formuläret för att kontrollera att det är ett befintligt domännamn. Grundläggande syntax i e-postadressen kontrolleras också.
+Formulärintagningar med status **Inlämnad** måste behandlas manuellt. Detta innebär att granska formulärinnehållet och länka avsändaren till en befintlig eller ny kontakt och/eller företag i SuperOffice.
 
-När du har konfigurerat ditt webbformulär för att automatiskt behandla alla inkommande inlämningar behöver du inte göra någonting. SuperOffice CRM behandlar dem åt dig och skapar en ny kontakt när ingen matchning hittas i din databas.
+Den främsta anledningen till att välja manuell behandling är att ha mer kontroll över de kontakter som läggs till i din databas genom formulärintagningar. Specifikt kan du förhindra dubblettkontakter genom att kontrollera om en person redan är registrerad. SuperOffice kommer att kontrollera och validera e-postadressen som har angetts i formuläret för att kontrollera att det är ett befintligt domännamn. Grundläggande syntax i e-postadressen kontrolleras också.
 
-* När du behandlar formulärinlämningar manuellt kan du förhindra dubblettkontakter genom att kontrollera om en person redan är registrerad i din databas eller inte.
+När ett formulär skickas in försöker SuperOffice att koppla formuläret till en befintlig kontakt med hjälp av den angivna e-postadressen.
 
-* Du kan också välja det här alternativet: "Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd." På så sätt har du mer kontroll över de kontakter som läggs till i databasen via formulärinlämningar.
-
-Formulärinlämningar med statusen **Inlämnad** måste behandlas manuellt. Det innebär att formulärinnehållet granskas och länkas till avsändaren i en befintlig eller en ny kontakt och/eller företag i SuperOffice. Bearbetade formulär kommer att finnas tillgängliga på detaljkortet **Aktiviteter** i fönstren Företag och Kontakt i SuperOffice CRM. Om du valt att få en avisering vid varje nytt ärende blir de behandlade formulären tillgängliga på fliken **Ärende**.
+* Om en matchning hittas kan du visa kontakternas information, ärenden, försäljning, händelser och tidigare chattsessioner.
+* Om ingen matchning hittas, sök efter rätt kontakt eller skapa en ny.
 
 Titta på den här videon (eller följ steg-för-steg-guiden nedan) för att lära dig hur du manuellt kan behandla ett inskickat webbformulär (videons längd – 4:30) eller följ stegen nedan.
 
@@ -34,44 +32,57 @@ Titta på den här videon (eller följ steg-för-steg-guiden nedan) för att lä
 
 ## Steg
 
-1. I SuperOffice Marknadsföring:
-    1. Öppna ett formulär och gå till fliken **Formulärinlämningar** eller gå till fliken **Formulärinlämningar** (i huvudfönstret **Marknadsföring**).
-    2. Avmarkera alla filter förutom **Inlämnad** längst ned i listan över formulärinlämningar. I listan visas bara formulärinlämningar som måste behandlas.
+### 1- Hitta och öppna formulärinlämningen
 
-    I SuperOffice CRM: Gå till fönstret Kontakt, sök efter den aktuella personen och välj detaljkortet **Aktiviteter**.
+Gör något av följande:
 
-2. Dubbelklicka på en rad.
+* Om du blev meddelad av ett Service ärende, öppna ärendet och klicka på länken.
 
-3. I fönstret **Formulärinlämning**granskar du inlämnade data på fliken **Data från-formulär**.
+* Om avsändaren är känd, gå till fönstret Kontakt, sök efter den aktuella personen och välj detaljkortet **Aktiviteter**. Dubbelklicka på raden med den ohanterade formulärinlämningen.
 
-4. Gå till fliken **Åtgärder** om du vill visa de åtgärder som utförs på formulärdata när du behandlar dem.
+* I SuperOffice Marketing:
 
-5. På sidopanelen **Avsändare** måste du länka avsändaren till en befintlig eller ny kontakt i SuperOffice.
+    1. Öppna ett formulär och gå till fliken **Formulärinlämningar**, eller gå till fliken **Formulärinlämningar** på huvudfönstret för marknadsföring.
 
-6. Klicka på **Behandla**.
+    2. Längst ner på listan över formulärinlämningar avmarkera alla filter förutom **Inlämnad**. Listan visar nu bara formulärinlämningar som måste behandlas.
 
-## Länka avsändaren till en SuperOffice-kontakt och företag
+    3. Dubbelklicka på raden med den inlämning du vill behandla.
 
-När ett formulär lämnas in försöker SuperOffice matcha e-postadressen i formuläret med befintliga e-postadresser i SuperOffice och länka formulärinlämningen till en befintlig kontakt. Om avsändaren finns i SuperOffice kan du visa kontaktinformation, ärenden, försäljning, händelser och tidigare registrerade chattsessioner.
+### 2 - Granska och behandla data
 
-Om ingen matchning hittades kan du försöka hitta rätt kontakt eller skapa en ny kontakt (och företag).
+I **Formulärinlämning**-fönstret:
 
-### Använd föreslagen kontakt
+1. Välj fliken **Data från formulär** och granska de inlämnade data.
 
-Om SuperOffice hittar matchande kontakter i databasen listas de under **Den här kontakten kan vara...**. Klicka på en kontakt om du vill visa relevant information och länka kontakten till denna formulärinlämning.
+2. Välj fliken **Åtgärder** för att se de åtgärder som utförs på formulärdata när du behandlar dem.
 
-### Söka efter en kontakt
+3. I sidopanelen för **Avsändare**, länka avsändaren till en befintlig eller ny SuperOffice-kontakt:
 
-Om det inte går att hitta rätt kontakt i databasen i SuperOffice kan du söka efter kontakten i sökfältet. Här kan du också välja från historiklistan och favoriter.
+    * **Använd föreslagen kontakt:** Om SuperOffice hittar matchande kontakter, visas de under **Den här kontakten kan vara...**. Klicka på en kontakt för att länka den till denna formulärinlämning.
 
-### Ändra kontakt
+    * **Sök efter en kontakt:** Om den korrekta kontakten inte hittas, använd sökfältet för att hitta den. Du kan också välja från historik och favoriter.
 
-Om du har valt fel kontakt klickar du på **Byt kontakt** längst ned på sidopanelen för att söka efter en annan kontakt.
+    * **Ändra kontakt:** Om du har valt fel kontakt, klicka på **Byt kontakt** för att söka igen.
 
-### Skapa nytt företag och ny kontakt
+    * **Skapa nytt företag och ny kontakt:** Om avsändaren inte finns i SuperOffice, skapa en ny kontakt och ett nytt företag:
 
-Om du inte hittar avsändaren i SuperOffice kan du skapa en ny kontakt och nytt företag i sidopanelen.
+      1. Klicka på **Skapa nytt företag och ny kontakt**. Vissa fält fylls i med formulärdata.
+      2. Fyll i relevanta fält.
+      3. Klicka på **Lägg till** för att lägga till den nya kontakten och företaget i SuperOffice.
 
-1. Klicka på **Skapa nytt företag och ny kontakt**. Vissa fält fylls i med information som kunden lämnade i formuläret.
-2. Fyll i relevanta fält.
-3. Klicka på **Lägg till**. Den nya kontakten och det nya företaget läggs till i SuperOffice.
+4. Klicka på **Behandla**.
+
+![Formulärinlämningar, Data från-formulär -screenshot][img1]
+
+## Vad vill du göra nu?
+
+* [Spåra formulärinlämningar och visa statistik][1]
+* [Analysera dina utskicksresultat][4]
+
+<!-- Referenced links -->
+[1]: view-statistics.md
+[2]: define-form-actions.md
+[4]: ../../mailing/learn/view-statistics.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png
