@@ -2,11 +2,14 @@
 uid: help-nl-form-templates
 title: Werken met formuliersjablonen
 description: Werken met formuliersjablonen
+keywords: formulier, sjablon, formuliersjablon
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulieren
+so.date: 03.13.2024
+so.version: 10
 so.topic: howto
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Werken met formuliersjablonen
