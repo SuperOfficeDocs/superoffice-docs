@@ -95,4 +95,3 @@ This is an overview of special options in some of the available fields.
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png
-

@@ -5,6 +5,8 @@ items:
   href: create.md
 - name: Field options
   href: field-options.md
+- name: Google reCAPTCHA
+  href: recaptcha.md
 - name: Define form actions
   href: define-form-actions.md
 - name: Form templates
