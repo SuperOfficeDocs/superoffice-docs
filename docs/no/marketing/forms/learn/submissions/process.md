@@ -4,5 +4,5 @@ title: Behandle skjemainnsendinger
 author: Bergfrid Dias
 so.date: 03.07.2024
 language: no
-redirect_url: https://docs.superoffice.com/bo/marketing/forms/learn/process-submissions.html
+redirect_url: https://docs.superoffice.com/no/marketing/forms/learn/process-submissions.html
 ---

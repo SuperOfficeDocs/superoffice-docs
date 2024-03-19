@@ -86,6 +86,7 @@ In the **Fields** category you add the fields that should be included in the for
 2. Click the **Add** button ![icon][img2].
 
 3. In the **Add element** window, select one of the following field categories:
+
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
 
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
@@ -143,6 +144,7 @@ Watch this video to learn how to use the double opt-in feature on your web form 
     2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
     3. **Confirmation text**: Enter the body text of the email.
     4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img8].
+
 4. Click **Apply now** when you are done.
 
 If double opt-in is activated for a form, all submissions for this form have status **Awaiting confirmation** until the email address is confirmed.

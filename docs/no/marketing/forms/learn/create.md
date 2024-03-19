@@ -104,8 +104,11 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 8. Du kan også redigere disse innstillingene (valgfritt):
 
     * I feltet **Plassholder** kan du skrive kort hva som skal angis i feltet.
+
     * Merk av for **Obligatorisk** hvis dette feltet skal fylles ut. Skjemaet kan ikke sendes hvis det ikke er fylt ut obligatoriske felt.
+
     * Klikk på **Avanserte alternativer** ![icon][img5] for å vise **Identifikator**-feltet der du kan legge til en ID for feltet. Dette er en unik ID for dette feltet, og den blir ikke endret selv om navn/ledetekst eller språk for feltet endres. På denne måten kan du sørge for at koblinger til dette feltet ikke brytes etter publisering av skjemaet.
+
     * Velg **Full bredde** hvis du vil at det valgte feltet skal ha samme bredde som skjemaet.
 
 9. Rediger eventuelle andre [alternativer i feltet][4] etter behov.
@@ -164,15 +167,15 @@ Se denne videoen for å lære hvordan du legger til en "Takk"-side i webskjemaet
 
 Velg ett av følgende alternativer:
 
-* **Videresend til ekstern webside**: Skriv inn koblingen til websiden med mer informasjon.
-* **Vis denne meldingen**: Skriv inn teksten som skal vises.
+* **Videresend til ekstern webside:** Skriv inn koblingen til websiden med mer informasjon.
+* **Vis denne meldingen:** Skriv inn teksten som skal vises.
 
 ### Side for inaktivt skjema
 
 Hvis en person åpner et skjema som er inaktivt, kan du enten omdirigere vedkommende til en annen nettside eller vise en melding.
 
-* **Videresend til eksternt websted**: Angi koblingen til nettstedet.
-* **Vis denne meldingen**: Skriv inn teksten som skal vises.
+* **Videresend til eksternt websted:** Angi koblingen til nettstedet.
+* **Vis denne meldingen:** Skriv inn teksten som skal vises.
 
 ### Handlinger
 

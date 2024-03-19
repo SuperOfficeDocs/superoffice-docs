@@ -1,38 +1,23 @@
 items:
 - name: Überblick
   href: index.md
-- name: Überblick
-  href: form-templates.md
 - name: Neues Formular erstellen
   href: create.md
 - name: Feldoptionen
   href: field-options.md
+- name: Formularaktionen definieren
+  href: define-form-actions.md
+- name: Formularvorlagen
+  href: form-templates.md
 - name: Formulare veröffentlichen
   href: publish.md
 - name: Verwenden von vorausgefüllten Feldern
   href: form-prefilled.md
-- name: Formularübermittlungen überwachen und Statistiken anzeigen
-  href: submissions/track.md
-- name: Formularübermittlungen verarbeiten
-  href: submissions/process.md
-
-- name: Create new form
-  href: create.md
-- name: Field options
-  href: field-options.md
-- name: Define form actions
-  href: define-form-actions.md
-- name: Form templates
-  href: form-templates.md
-- name: Publish forms
-  href: publish.md
-- name: Using pre-filled fields
-  href: form-prefilled.md
-- name: View statistics
+- name: Formularstatistiken anzeigen
   href: view-statistics.md
-- name: Process form submissions
+- name: Formularübermittlungen verarbeiten
   href: process-submissions.md
-- name: Tutorial - Contact me
+- name: Anleitung - Kontaktieren-Formular
   href: tutorial-contact-me.md
-- name: Tutorial - Newsletter sign-up
+- name: Anleitung - Anmeldung zum Newsletter
   href: tutorial-sign-up.md

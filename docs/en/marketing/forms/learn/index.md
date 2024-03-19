@@ -98,8 +98,7 @@ Use the filter options at the bottom of the list to view only submissions with s
 
 With double opt-in, the customers must verify their email address by clicking the link in a confirmation email in addition to submitting the form.
 
-This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
-The link is valid for 30 minutes by default.
+This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct. The link is valid for 30 minutes by default.
 
 This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won't have to spend time correcting spelling mistakes in email addresses or deleting email addresses that do not exist. And it also will help you in your effort to stay GDPR-compliant.
 

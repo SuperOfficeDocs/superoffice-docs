@@ -2,7 +2,7 @@
 uid: help-no-form-templates
 title: Arbeide med skjemamaler
 description: Arbeide med skjemamaler
-keywords: skjema, mal, formulärmall
+keywords: skjema, mal, skjemamal
 author: SuperOffice RnD
 so.date: 03.04.2024
 so.version: 10

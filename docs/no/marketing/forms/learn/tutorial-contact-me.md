@@ -1,6 +1,6 @@
 ---
 uid: help-no-forms-contact-me
-title: Veiledning- hvordan opprette et Kontakt meg skjema
+title: Veiledning - hvordan opprette et Kontakt meg skjema
 description: Denne veiledningen forklarer hvordan du oppretter et Kontakt meg skjema i SuperOffice Marketing.
 keywords: skjema, kontakt meg
 author: Bergfrid Dias
@@ -40,7 +40,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Velg **Felt** fra venstremenyen.
 
-1. VVelg feltet **Kontakt - Navn**, og klikk på den røde X-en for å fjerne dette feltet.
+1. Velg feltet **Kontakt - Navn**, og klikk på den røde X-en for å fjerne dette feltet.
 
 1. Klikk på **Legg til**-knappen ![icon][img1] og legg til følgende felt:
 

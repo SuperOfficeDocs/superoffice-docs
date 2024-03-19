@@ -12,7 +12,7 @@ so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Så här skapar du ett Kontakta mig formulär
+# Guide - Så här skapar du ett Kontakta mig formulär
 
 Lägg ett "Kontakta mig"-formulär på företagets webbsidor som en enkel kommunikationskanal för befintliga eller potentiella kunder. Använd det här formuläret om du vill generera supportärenden eller leads för säljteamet.
 

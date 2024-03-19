@@ -1,7 +1,7 @@
 ---
 uid: help-de-forms-contact-me
-title: Anleitung - Anleitung - ein "Kontaktieren"-Formular erstellen
-description: In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erstellen können, die sich an einen Supportmitarbeiter wenden wollen. Die Formularübermittlung löst eine neue Anfrage für Ihre Supportabteilung aus.
+title: Anleitung - ein "Kontaktieren"-Formular erstellen
+description: In dieser Anleitung wird erläutert, wie Sie ein kurzes Formular für Kunden erstellen können, die sich an einen Supportmitarbeiter wenden wollen. Die Formularübermittlung löst eine neue Anfrage für Ihre Supportabteilung aus.
 keywords: Formular, Feld, Kontaktieren
 author: Bergfrid Dias
 so.date: 03.18.2024

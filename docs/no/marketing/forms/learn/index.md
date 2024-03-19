@@ -46,7 +46,7 @@ Oppretting av et skjema følger en slik arbeidsflyt:
 
 SuperOffice Marketing har 3 faner som gjelder skjemaer.
 
-![Det er flere måter å finne skjemaer på - skjermbilde][img2]
+![Det er flere måter å finne skjemaer på -screenshot][img2]
 
 * **Fanen Skjemaer:** lar deg opprette nye skjemaer og se tidligere opprettede. Seksjonen **Aktive skjemaer** viser hvilke skjemaer som brukes for øyeblikket. En rød boble på et skjema indikerer ubehandlede innsendinger.
 

@@ -74,7 +74,7 @@ I **Skjemainnlevering**-vinduet:
 
 ![Skjemainnsending, Data fra skjema -screenshot][img1]
 
-## ktuelt innhold
+## Aktuelt innhold
 
 * [Spore skjemainnsendinger og vise statistikk][1]
 * [Vise statistikk for utsendelse][4]
@@ -82,7 +82,7 @@ I **Skjemainnlevering**-vinduet:
 <!-- Referenced links -->
 [1]: view-statistics.md
 [2]: define-form-actions.md
-[4]: ../../mailing/learn/follow-up/view-statistics.md
+[4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

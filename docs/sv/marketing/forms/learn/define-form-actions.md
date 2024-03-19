@@ -12,13 +12,13 @@ so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Definer formuläråtgärder
+# Definera formuläråtgärder
 
 Att manuellt hantera 200 anmälningar till evenemanget tar tid och är onödigt. Automatiserade formuläråtgärder kan effektivisera denna process.
 
 Automatisering sparar tid som annars skulle användas för att hantera svar. När en person skickar in formuläret utför systemet åtgärderna åt dig!
 
-![Definer skjemahandlinger -screenshot][img17]
+![Definera skjemahandlinger -screenshot][img17]
 
 ## Tilgjengelige åtgärder
 

@@ -22,17 +22,17 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
 * **Summary:** Here you can find basic information about the form, including a preview of the form, and view various submission statistics:
 
-  * **Total submissions**: How many forms have been submitted.
-  * **Last submission**: When the last form was submitted.
-  * **Completion last 7 days**: Submitted forms per day the last 7 days.
-  * **Completion rate**: Status for submitted forms.
+  * **Total submissions:** How many forms have been submitted.
+  * **Last submission:** When the last form was submitted.
+  * **Completion last 7 days:** Submitted forms per day the last 7 days.
+  * **Completion rate:** Status for submitted forms.
   * **Mailing:** This link provides access to the [form response mailing][2] used by this form. Click the link to view additional statistics.
 
-  ![Form submission report-screenshot][img3]
+  ![Form submission summary -screenshot][img3]
 
 * **Reports:** Charts show statistics for the form (mouse-over to view exact numbers).
 
-    ![Form submission report-screenshot][img2]
+    ![Form submission report -screenshot][img2]
 
 * **Form submissions:** Here you can view and [process all submitted forms][1]. A red icon on the tab indicates new form submissions.
 
@@ -48,7 +48,7 @@ Having a [dashboard for form submissions][3] simplifies the process of measuring
 
 <!-- Referenced links -->
 [1]: process-submissions.md
-[2]: ../../mailing/learn/follow-up/view-statistics.md
+[2]: ../../mailing/learn/view-statistics.md
 [3]: ../../../dashboard/learn/show-marketing.md
 
 <!-- Referenced images -->

@@ -32,7 +32,7 @@ Watch this video (or follow the step-by-step guide below) to learn how you can m
 
 ## Steps
 
-### 1- Locate and open the form submission
+### 1 - Locate and open the form submission
 
 Do one of the following:
 
@@ -48,7 +48,7 @@ Do one of the following:
 
     3. Double-click the row with the submission you want to process.
 
-### 2- Review and process data
+### 2 - Review and process data
 
 In the **Form submission** window:
 
@@ -82,7 +82,7 @@ In the **Form submission** window:
 <!-- Referenced links -->
 [1]: view-statistics.md
 [2]: define-form-actions.md
-[4]: ../../mailing/learn/follow-up/view-statistics.md
+[4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

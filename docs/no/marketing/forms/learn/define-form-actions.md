@@ -26,7 +26,7 @@ Automatisering sparer tid som ellers ville blitt brukt på å håndtere svar. N�
 
 Velg dette alternativet for å [opprette en sak][8] for hvert skjema som mottas. Skriv en tittel, og velg kategori og prioritet for saken.
 
-Innsendte skjemaer vil være tilgjengelige i skjermbildet **Saker** og i detaljkortet **Saker** i skjermbildene firma og Person i SuperOffice CRM.
+Innsendte skjemaer vil være tilgjengelige i skjermbildet **Saker** og i detaljkortet **Saker** i skjermbildene Firma og Person i SuperOffice CRM.
 
 ## Hvordan skal en skjemainnsending behandles?
 

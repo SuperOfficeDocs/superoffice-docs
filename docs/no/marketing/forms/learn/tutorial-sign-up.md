@@ -75,7 +75,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
-1. Velg**Dobbel opt-in** fra venstremenyen.
+1. Velg **Dobbel opt-in** fra venstremenyen.
 
 1. Klikk på **Aktiver dobbel opt-in**.
 
@@ -113,7 +113,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 
-![Lett til dobbel opt-in i nytt påmeldingsskjema -screenshot][img9]
+![Legg til dobbel opt-in i nytt påmeldingsskjema -screenshot][img9]
 
 ## Landingssider
 

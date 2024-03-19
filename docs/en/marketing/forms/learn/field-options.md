@@ -91,7 +91,8 @@ This is an overview of special options in some of the available fields.
 [1]: recaptcha.md
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
-[4]: ../../security/privacy/learn/admin/add-consent-purpose.md
+[4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png
+

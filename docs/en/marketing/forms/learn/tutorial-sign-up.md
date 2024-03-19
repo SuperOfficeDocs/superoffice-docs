@@ -48,8 +48,8 @@ The example does not cover every field and option, but you can find comprehensiv
 
     * **Contact - Email** (make this field mandatory)
 
-    * Contact - Subscription
-        * Select one or more newsletters that should be available
+    * **Contact - Subscription**
+        * Select one or more newsletters that should be available.
         * Set the field to **Mandatory**.
         * Change the name of the field to "Choose your subscriptions".
 

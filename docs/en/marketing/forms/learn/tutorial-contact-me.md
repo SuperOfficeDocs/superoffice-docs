@@ -18,7 +18,7 @@ Put a "Contact me" form on your company's web pages to provide an easy channel o
 
 ## What we will be doing
 
-In this tutorial we will create short form for customers who want to get in touch with a support representative. The form submission will trigger a new request for your support department.
+In this tutorial we will create a short form for customers who want to get in touch with a support representative. The form submission will trigger a new request for your support department.
 
 The example does not cover every field and option, but you can find comprehensive instructions in [Create a new form][1].
 

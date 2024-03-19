@@ -26,7 +26,7 @@ Når du har opprettet et skjema og (eventuelt) svaret på skjemaet, kan du publi
 
 4. Gå til fanen **Publiser**.
 
-5. (valgfritt) Velg **Vis med forhåndsutfylte felt**for å legge til feltidentifikatorer i koblingen/JavaScript. Nyttig for [forhåndsutfylling av felt i skjemaer][1] med eksisterende kundedata fra SuperOffice.
+5. (valgfritt) Velg **Vis med forhåndsutfylte felt** for å legge til feltidentifikatorer i koblingen/JavaScript. Nyttig for [forhåndsutfylling av felt i skjemaer][1] med eksisterende kundedata fra SuperOffice.
 
 6. Til venstre i bildet velger du et publiseringsalternativ for skjemaet:
     * **Direktekobling**: En direktekobling til skjemaet.

@@ -26,13 +26,13 @@ For å vise statistikk om skjemaet, går til fanen **Skjemaer** og klikk på skj
   * **Siste innsending:** Når siste skjema ble sendt.
   * **Fullført siste 7 dager:** Sendte skjemaer per dag de siste 7 dagene.
   * **Fullføringsgrad:** Status for innsendte skjemaer.
-  * **Utsendelse:** Dette feltet er synlig hvis du har aktivert **E-postsvar:** Denne koblingen gir tilgang til [skjemasvarutsendelsen][2] brukt av dette skjemaet. Klikk på lenken for å se tilleggsstatistikker.
+  * **Utsendelse:** Dette feltet er synlig hvis du har aktivert **E-postsvar**. Denne koblingen gir tilgang til [skjemasvarutsendelsen][2] brukt av dette skjemaet. Klikk på lenken for å se tilleggsstatistikker.
 
   ![Skjemainnsendingsoversikt -screenshot][img3]
 
 * **Rapporter:** Diagram viser statistikk for skjemaet (hold musen over for å vise eksakte tall).
 
-    ![Skjemainnsendingsrapport -screenshot][img2]
+  ![Skjemainnsendingsrapport -screenshot][img2]
 
 * **Skjemainnsendinger:** Her kan du se og [behandle alle innsendte skjemaer][1]. Et rødt ikon i fanen angir ny skjemainnsending.
 
@@ -48,7 +48,7 @@ Når du har et [dashbord for skjemainnsending][3], blir det enkelt å måle og v
 
 <!-- Referenced links -->
 [1]: process-submissions.md
-[2]: ../../mailing/learn/follow-up/view-statistics.md
+[2]: ../../mailing/learn/view-statistics.md
 [3]: ../../../dashboard/learn/show-marketing.md
 
 <!-- Referenced images -->
