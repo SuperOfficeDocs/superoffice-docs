@@ -104,8 +104,11 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 8. Du kan også redigere disse indstillinger (valgfrit):
 
     * I feltet **Pladsholder** skal du indtaste en kort hjælp til, hvad der skal indtastes i feltet.
+
     * Marker det **obligatoriske** afkrydsningsfelt, hvis dette felt skal udfyldes. Formularen kan ikke sendes, hvis obligatoriske felter ikke er udfyldt.
+
     * Klik på **Avancerede indstillinger** ![ikon][img5] for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet. Det bliver til et entydigt ID for dette felt og ændres ikke, feltnavnet/-etiketten eller sproget ændres. På den måde kan du sikre, at links til dette felt ikke brydes efter udgivelse af formularen.
+
     * Klik på afkrydsningsfeltet **Fuld bredde,** hvis det markerede felt skal have samme bredde som formularen.
 
 9. Rediger eventuelle andre [indstillinger i feltet][4] efter behov.
@@ -139,9 +142,13 @@ Se denne video for at lære, hvordan du bruger dobbelt tilsagnsfunktionen (video
 2. I fanen **Meddelelse** kan du angive den tekst, der skal vises, efter at formularen er blevet indsendt.
 
 3. I fanen **E-mail** skal du oprette den bekræftelses-e-mail, der sendes til personer, der indsender formularen.
+
     1. **Emne**: Indtast emnet for bekræftelses-e-mailen.
+
     2. **Afsenderadresse**: Indtast e-mailadressen, der skal vises i feltet **Fra** i bekræftelses-e-mailen.
+
     3. **Bekræftelsestekst**: Indtast e-mailens brødtekst.
+
     4. Vælg **Indsæt bekræftelseslink** ![ikon][img9] fra værktøjslinjen (klik ![ikon][img7] for at vise). Bekræftelseslinket indsættes i brødteksten. Hvis du vil redigere, klikker du på linket og vælger **Rediger link** ![ikon][img8].
 
 4. Klik på **Brug nu**, når du er færdig.

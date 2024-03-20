@@ -2,7 +2,7 @@
 uid: help-no-form-publish
 title: Publisere skjemaer
 description: Publisere skjemaer
-keywords: skjema, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt
+keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, skriptkode
 author: SuperOffice RnD
 so.date: 03.07.2024
 so.version: 10

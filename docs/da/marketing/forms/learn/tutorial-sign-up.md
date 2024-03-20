@@ -1,5 +1,5 @@
 ---
-uid: help-da-forms-examples
+uid: help-da-forms-sign-up
 title: Sådan oprettes formularer (eksempler)
 description: Denne vejledning vil forklare, hvordan du opretter en formular hvor dine kunder kan tilmelde sig et eller flere nyhedsbreve
 keywords: formular, dobbelt tilmelding, tilmelding, nyhedsbrev

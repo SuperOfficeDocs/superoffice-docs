@@ -142,9 +142,13 @@ Sehen Sie sich dieses Video an, um zu lernen, wie man die doppelte Opt-in-Funkti
 2. Geben Sie in der Registerkarte **Mitteilung** den Text ein, der nach Übermittlung des Formulars angezeigt wird.
 
 3. Erstellen Sie auf der Registerkarte **E-Mail** die Bestätigungs-E-Mail, die den Personen zugesendet wird, die das Formular übermitteln.
+
     1. **Betreff**: Geben Sie den Betreff der Bestätigungs-E-Mail ein.
+
     2. **Absenderadresse**: Geben Sie die E-Mail-Adresse ein, die in der Bestätigungs-E-Mail im Feld **Von** angezeigt werden soll.
+
     3. **Bestätigungstext**: Geben Sie den Textkörper der E-Mail ein.
+
     4. Wählen Sie **Bestätigungs-Link einfügen** ![Symbol][img9] aus der Symbolleiste (klicken Sie auf ![Symbol][img7], um anzuzeigen). Der Link wird in den Text eingefügt. Klicken Sie zum Bearbeiten auf den Link und wählen Sie **Link bearbeiten** ![Symbol][img8] aus.
 
 4. Klicken Sie, sobald Sie fertig sind, auf **Aktivieren**.

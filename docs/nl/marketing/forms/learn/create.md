@@ -142,9 +142,13 @@ Bekijk deze video om te leren hoe u de dubbele opt-in-functie op uw webformulier
 2. Voer in het tabblad **Bericht** de tekst in die moet worden weergegeven nadat het formulier is ingediend.
 
 3. Maak in het tabblad **E-mail** de bevestigings-e-mail die wordt verzonden naar personen die het formulier verzenden.
+
     1. **Onderwerp**: Voer het onderwerp van de bevestigingse-mail in.
+
     2. **Adres afzender**: Voer het e-mailadres in dat moet worden weergegeven in het veld **Van** in de bevestigingse-mail.
+
     3. **Bevestigingstekst**: Voer de hoofdtekst van de e-mail in.
+
     4. Selecteer **Bevestigingskoppeling invoegen** ![icoon][img9] uit de werkbalk (klik op ![icoon][img7] om te tonen). De koppeling wordt in de hoofdtekst ingevoegd. Als u de koppeling wilt bewerken, klikt u erop en selecteert u **Koppeling bewerken**![pictogram][img8].
 
 4. Klik op **Nu toepassen** wanneer u klaar bent.

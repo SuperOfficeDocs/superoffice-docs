@@ -2,7 +2,7 @@
 uid: help-sv-form-publish
 title: Publicera formulär
 description: Publicera formulär
-keywords: Formulär
+keywords: formulär, publicera, publicera formulär, förifyllda fält, skripttagg, direktlänk
 author: SuperOffice RnD
 so.date: 03.13.2024
 so.version: 10

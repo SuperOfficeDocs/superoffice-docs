@@ -29,6 +29,7 @@ After creating a form and (if relevant) the form response, you can publish the f
 5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. Useful for [pre-filling form fields][1] with existing customer data from SuperOffice.
 
 6. On the left side of the screen, select a publishing option for the form:
+
     * **Direct link**: A direct link to the form.
     * **Embed inline**: A script tag used to add the form on a web page.
     * **Embed as popup**: A button to open the form in a pop-up window on the web page.

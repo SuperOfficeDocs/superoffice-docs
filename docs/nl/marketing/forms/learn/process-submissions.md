@@ -2,7 +2,7 @@
 uid: help-nl-form-submissions-process
 title: Formulierverzendingen verwerken
 description: In deze handleiding leert u hoe u formulierverzendingen handmatig kunt verwerken.
-keywords: formulier, formulierverzending, formulierinzending, indiener, inzender, ingediend
+keywords: formulier, formulierverzending, formulierinzending, indiener, inzender, ingediend, gegevens van formulier, formuliergegevens
 author: Bergfrid Dias
 so.date: 03.19.2024
 so.version: 10

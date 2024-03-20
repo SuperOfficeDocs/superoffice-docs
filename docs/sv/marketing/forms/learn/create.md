@@ -104,8 +104,11 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 8. Du kan också redigera dessa inställningar (valfritt):
 
     * Ange en kort ledtråd om vad som ska anges i fältet i **Platshållare**.
+
     * Markera kryssrutan **Obligatoriskt** om fältet måste fyllas i. Formuläret kan inte skickas om obligatoriska fält inte är ifyllda.
+
     * Klicka på **Avancerat** ![ikon][img5] om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet. Detta blir ett unikt ID för fältet och ändras inte även om fältnamnet/etiketten eller språket ändras. På så sätt kan du vara säker på att länkar till fältet inte är brutna när formuläret har publicerats.
+
     * Klicka på kryssrutan **Full bredd** om du vill att det markerade fältet ska ha samma bredd som formuläret.
 
 9. Redigera andra [alternativ i fältet][4] om det behövs.
@@ -139,9 +142,13 @@ Titta på den här filmen eller följ stegen nedan för att lära dig hur du anv
 2. Ange den text som ska visas när formuläret lämnas in på fliken **Meddelande**.
 
 3. Skapa bekräftelsemeddelandet som skickades till personerna som lämnade in formuläret på fliken **E-post**.
+
     1. **Ämne**: Ange ämnet i bekräftelsemeddelandet.
+
     2. **Avsändaradress**: Ange e-postadressen som ska visas i fältet **Från** i bekräftelsemeddelandet.
+
     3. **Bekräftelsetext**: Ange brödtexten i e-postmeddelandet.
+
     4. Välj **Lägg in bekräftelselänk** ![ikon][img9] från verktygsfältet (klicka ![ikon][img7] för att visa). Bekräftelselänken infogas i brödtexten. Om du vill redigera länken klickar du på den och väljer **Redigera länk** ![ikon][img8].
 
 4. Klicka på **Använd nu** när du är klar.

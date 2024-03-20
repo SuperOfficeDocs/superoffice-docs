@@ -2,7 +2,7 @@
 uid: help-en-form-prefilled
 title: Using pre-filled fields in forms
 description: Using pre-filled fields in forms
-keywords: form, pre-fill, pre-filled field, form identifier, form ID
+keywords: form, pre-fill, pre-filled field, form identifier, field ID
 author: SuperOffice RnD
 so.date: 03.05.2024
 so.version: 10
@@ -26,8 +26,7 @@ A field identifier is a unique ID for a specific field. It will not change even 
 
 3. [Publish forms][2].
 
-4. Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript.
-    It should look something like this:
+4. Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. It should look something like this:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=

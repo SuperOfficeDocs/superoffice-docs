@@ -26,8 +26,7 @@ En feltidentifikator er en unik ID for et specifikt felt. Den vil ikke ændre si
 
 3. [Udgiv formularer][2].
 
-4. Vælg **Vis med forudfyldte felter** for at føje felt-ID'er til linket/JavaScript.
-    Det skal se nogenlunde ud som følger:
+4. Vælg **Vis med forudfyldte felter** for at føje felt-ID'er til linket/JavaScript. Det skal se nogenlunde ud som følger:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=

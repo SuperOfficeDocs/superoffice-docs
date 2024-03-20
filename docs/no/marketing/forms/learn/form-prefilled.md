@@ -2,7 +2,7 @@
 uid: help-no-form-prefilled
 title: Bruke ferdigutfylte felt i skjema
 description: Bruke ferdigutfylte felt i skjema
-keywords: skjema, ferdigutfylt, forhåndsutfylling av felt, forhåndsutfylt felt, feltidentifikator
+keywords: skjema, felt, ferdigutfylt, forhåndsutfylling av felt, forhåndsutfylt felt, feltidentifikator
 author: SuperOffice RnD
 so.date: 03.07.2024
 so.version: 10
@@ -26,8 +26,7 @@ En feltidentifikator er en unik ID for et spesifikt felt. Den vil ikke endre seg
 
 3. [Publiser skjemaer][2].
 
-4. Velg **Vis med forhåndsutfylte felt** for å legge til feltidentifikatorer i koblingen/JavaScript.
-    Det skal se omtrent slik ut:
+4. Velg **Vis med forhåndsutfylte felt** for å legge til feltidentifikatorer i koblingen/JavaScript. Det skal se omtrent slik ut:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=

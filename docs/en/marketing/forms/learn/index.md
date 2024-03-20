@@ -3,7 +3,7 @@ uid: help-en-forms
 title: Work with forms
 description: SuperOffice web forms are a great way to gather customer information and feedback. Web forms allow the people visiting your website to get in touch with you and leave their contact details.
 keywords: form, submission, double opt-in
-author: SuperOffice RnD
+author: Bergfrid Dias
 so.date: 02.29.2024
 so.version: 10
 so.topic: concept

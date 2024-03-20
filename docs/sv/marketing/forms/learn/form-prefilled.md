@@ -2,7 +2,7 @@
 uid: help-sv-form-prefilled
 title: Använda förifyllda fält i formulär
 description: Använda förifyllda fält i formulär
-keywords: Formulär
+keywords: formulär, fält, förifyllda fält, fältidentifierare
 author: SuperOffice RnD
 so.date: 03.15.2024
 so.version: 10
@@ -26,8 +26,7 @@ En fältidentifierare är en unik ID för ett specifikt fält. Den kommer inte a
 
 3. [Publicera formulär][2].
 
-4. Välj **Visa med förifyllda fält** om du vill lägga till fältidentifierare i länken/JavaScript.
-    Det borde se ut ungefär så här:
+4. Välj **Visa med förifyllda fält** om du vill lägga till fältidentifierare i länken/JavaScript. Det borde se ut ungefär så här:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=

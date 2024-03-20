@@ -121,7 +121,9 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 1. Välj **Visa detta meddelande** och skriv  "Tack för att du prenumererar". Detta kommer att visas efter att kunden verifierat sin e-postadress.
 
- Välj **Omdirigera till extern webbplats** och ange en URL. Om en kund får tillgång till formuläret efter att det har markerats som inaktivt kommer de att skickas till denna sida.
+1. Välj **Sida för inaktivt formulär**.
+
+1. Välj **Omdirigera till extern webbplats** och ange en URL. Om en kund får tillgång till formuläret efter att det har markerats som inaktivt kommer de att skickas till denna sida.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 

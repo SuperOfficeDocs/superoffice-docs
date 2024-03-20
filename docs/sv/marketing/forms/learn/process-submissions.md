@@ -2,7 +2,7 @@
 uid: help-sv-form-submissions-process
 title: Behandla formulärinlämningar
 description: I den här guiden lär du dig hur du bearbetar formulärinlämningar manuellt.
-keywords: formulär, formulärinlämning, avsändar, inlämnad
+keywords: formulär, formulärinlämning, avsändar, inlämnad, data från formulär, formulärdat
 author: Bergfrid Dias
 so.date: 03.18.2024
 so.version: 10

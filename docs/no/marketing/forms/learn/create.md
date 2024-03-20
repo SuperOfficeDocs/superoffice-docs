@@ -142,9 +142,13 @@ Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på
 2. I fanen**Melding** skriver du inn teksten som skal vises etter at skjemaet er sendt.
 
 3. I **E-post**-fanen oppretter du e-postbekreftelsen som sendes til personene som sender skjemaet.
+
     1. **Overskrift**: Skriv inn overskriften for e-postbekreftelsen.
+
     2. **Avsenderadresse**: Skriv inn e-postadressen som skal vises, i **Fra**-feltet i e-postbekreftelsen.
+
     3. **Bekreftelsestekst**: Skriv inn brødteksten i e-posten.
+
     4. Velg **Sett inn bekreftelseslenke** ![ikon][img9] fra verktøylinjen (klikk ![ikon][img7] for å vise). Bekreftelseskoblingen settes inn i brødteksten. Hvis du vil redigere koblingen, klikker du på den og velger **Rediger kobling** ![icon][img8].
 
 4. Klikk på **Bruk nå** når du er ferdig.

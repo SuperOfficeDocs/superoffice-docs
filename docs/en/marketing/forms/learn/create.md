@@ -104,8 +104,11 @@ In the **Fields** category you add the fields that should be included in the for
 8. You can also edit these settings (optional):
 
     * In the **Placeholder** field, enter a short hint on what to enter in the field.
+
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
+
     * Click **Advanced options** ![icon][img5] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
 
 9. Edit any other [options in the field][4] as relevant.
@@ -141,8 +144,11 @@ Watch this video to learn how to use the double opt-in feature on your web form 
 3. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
 
     1. **Subject**: Enter the subject of the confirmation email.
+
     2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
+
     3. **Confirmation text**: Enter the body text of the email.
+
     4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img8].
 
 4. Click **Apply now** when you are done.

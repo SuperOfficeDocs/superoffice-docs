@@ -1,5 +1,5 @@
 ---
-uid: help-da-form-submission-track
+uid: help-da-form-view-statistics
 title: Sporing af formularindsendelser og visning af statistik
 description: Sporing af formularindsendelser og visning af statistik
 keywords: formular, indsendelse, formularindsendelse

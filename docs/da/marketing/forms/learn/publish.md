@@ -2,7 +2,7 @@
 uid: help-da-form-publish
 title: Udgiv formularer
 description: Udgiv formularer
-keywords: Formularer
+keywords: formular, udgiv, udgiv formular, forudfyldte felt, scripttag
 author: SuperOffice RnD
 so.date: 03.12.2024
 so.version: 10
@@ -29,6 +29,7 @@ Når du har oprettet formularen og (hvis relevant) formularsvaret, kan du udgive
 5. (valgfrit) Vælg **Vis med forudfyldte felter** for at føje felt-ID'er til linket/JavaScript. Nyttig til [forhåndsudfyldning af felter i formularerne][1] med eksisterende kundedata fra SuperOffice.
 
 6. Vælg en udgivelsesindstilling for formularen på venstre side af skærmen:
+
     * **Direkte link**: Et direkte link til formularen.
     * **Integrer inline**: Et scripttag, der bruges til at tilføje formularen på en webside.
     * **Integrer som popup**: En knap til at åbne formularen i et pop op-vindue på websiden.

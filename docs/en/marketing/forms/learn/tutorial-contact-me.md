@@ -32,6 +32,8 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Select **Properties**, enter a description, and set other form properties as relevant. Do NOT activate any options under **Deactivate form automatically**.
 
+1. Click **Apply now** to save the form and continue editing.
+
 ![Set properties for new contact me form -screenshot][img5]
 
 ## Fields
@@ -79,6 +81,8 @@ The example does not cover every field and option, but you can find comprehensiv
 1. Select **Page for inactive form**.
 
 1. Select **Redirect to external website** and enter a URL. If a customer accesses the form after it is marked as inactive, they will be sent to this page.
+
+1. Click **Apply now** to save the form and continue editing.
 
 ## Form actions
 

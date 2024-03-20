@@ -2,7 +2,7 @@
 uid: help-de-form-prefilled
 title: Verwenden vorausgefüllter Felder in Formularen
 description: Verwenden vorausgefüllter Felder in Formularen
-keywords: Formular, vorausgefüllt, vorausgefüllter Felder, Feldidentifikator, Feldbezeichnung
+keywords: Formular, Feld, vorausgefüllt, vorausgefüllts Feld, Feldidentifikator, Feldbezeichnung
 author: SuperOffice RnD
 so.date: 03.18.2024
 so.version: 10
@@ -26,8 +26,7 @@ Ein Feldidentifikator ist eine eindeutige ID für ein bestimmtes Feld. Sie wird 
 
 3. [Veröffentlichen Sie Formulare][2].
 
-4. Wählen Sie **Mit vorausgefüllten Feldern anzeigen**, um Feldbezeichnungen zur Verknüpfung/JavaScript hinzuzufügen.
-    Das sollte in etwa so aussehen:
+4. Wählen Sie **Mit vorausgefüllten Feldern anzeigen**, um Feldbezeichnungen zur Verknüpfung/JavaScript hinzuzufügen. Das sollte in etwa so aussehen:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=

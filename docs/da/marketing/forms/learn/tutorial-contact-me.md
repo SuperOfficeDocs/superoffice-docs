@@ -14,11 +14,11 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Sådan oprettes en kontakt-mig formular
 
-Læg en "Kontakt-mig"-formular på firmaets websider for at give en nem kommunikationskanal til nuværende eller potentielle kunder. Brug denne formular til generering af supportanmodninger eller til generering af kundeemner til dit salgsteam.
+Læg en "Kontakt-mig"-formular på firmaets websider for at give en nem kommunikationskanal til nuværende eller potentielle kunder. Brug denne formular til generering af supportsag eller til generering af kundeemner til dit salgsteam.
 
 ## Hvad vi skal gøre
 
-I dette eksempel viser vi, hvordan du opretter en formular til kunder, der vil i kontakt med en supportmedarbejder. Indsendelsen af formularen udløser en ny anmodning til din supportafdeling.
+I dette eksempel viser vi, hvordan du opretter en formular til kunder, der vil i kontakt med en supportmedarbejder. Indsendelsen af formularen udløser en ny sag til din supportafdeling.
 
 Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede instruktion i [Opret ny formular][1].
 

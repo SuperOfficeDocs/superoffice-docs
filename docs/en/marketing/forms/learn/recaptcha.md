@@ -2,7 +2,7 @@
 uid: help-en-form-recaptcha
 title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
-keywords: reCAPTCHA, forms, Google
+keywords: reCAPTCHA, reCAPTCHA profile, form, Google reCAPTCHA, I'm not a robot, site key, secret key
 author: Bergfrid Dias
 so.date: 03.05.2024
 so.version: 8.5 R04

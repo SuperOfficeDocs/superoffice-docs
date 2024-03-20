@@ -26,8 +26,7 @@ Een veldidentificator is een unieke ID voor een specifiek veld. Het zal niet ver
 
 3. [Formulieren publiceren][2].
 
-4. Selecteer **Weergeven met vooraf ingevulde velden** om veld-ID's toe te voegen aan de koppeling/JavaScript.
-    Het moet er ongeveer zo uitzien:
+4. Selecteer **Weergeven met vooraf ingevulde velden** om veld-ID's toe te voegen aan de koppeling/JavaScript. Het moet er ongeveer zo uitzien:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=
