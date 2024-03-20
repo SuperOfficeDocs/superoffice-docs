@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "McDermott, Gerlach and Spencer",
-    "ToolTip": "Natus natus labore ad.",
-    "Deleted": false,
-    "Rank": 968,
-    "Type": "nam",
-    "ColorBlock": 577,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "1997-03-29T14:23:56.165827+01:00",
+    "Id": 968,
+    "Name": "Littel, Borer and Schoen",
+    "ToolTip": "Eos et voluptatibus culpa et.",
+    "Deleted": true,
+    "Rank": 646,
+    "Type": "quas",
+    "ColorBlock": 845,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2016-06-01T12:19:54.6646278+02:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Greenholt LLC",
-        "ToolTip": "Quis qui a dolorem impedit.",
+        "Id": 315,
+        "Name": "Stiedemann LLC",
+        "ToolTip": "Suscipit magni optio et doloremque voluptatem.",
         "Deleted": true,
-        "Rank": 556,
-        "Type": "doloribus",
-        "ColorBlock": 706,
-        "IconHint": "quisquam",
+        "Rank": 797,
+        "Type": "ex",
+        "ColorBlock": 436,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-10-19T14:23:56.165827+02:00",
+        "LastChanged": "2005-01-25T12:19:54.6646278+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "tempora",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Chelsea Bergnaum",
+        "FullName": "Otha Fay Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldLength": 383
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "et",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Markus Powlowski",
+    "FullName": "Geraldine Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

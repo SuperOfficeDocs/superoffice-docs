@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=495
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=261
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 576,
+  "EjMessageId": 356,
   "Ticket": null,
-  "CreatedAt": "1998-04-09T14:23:47.7692506+02:00",
+  "CreatedAt": "2017-03-17T12:19:46.5076053+01:00",
   "CreatedBy": null,
-  "Author": "sapiente",
+  "Author": "alias",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorem",
-  "TimeSpent": 465,
-  "Body": "est",
-  "HtmlBody": "rerum",
-  "EmailHeader": "leonie.emmerich@lemke.ca",
-  "DebugInfo": "soluta",
-  "MailSorter": "nobis",
+  "MessageId": "sit",
+  "TimeSpent": 380,
+  "Body": "omnis",
+  "HtmlBody": "blanditiis",
+  "EmailHeader": "kay@conroy.biz",
+  "DebugInfo": "officiis",
+  "MailSorter": "repellat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "error",
+  "SearchTitle": "ullam",
   "MessageHeaders": [
     {
-      "Id": 139,
-      "Name": "Stamm, Grady and Little",
-      "Value": "expedita",
+      "Id": 115,
+      "Name": "Mayer Group",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     }
   ],
   "Important": true,
-  "Language": "at",
-  "Sentiment": 648,
-  "SentimentConfidence": 724,
+  "Language": "non",
+  "Sentiment": 847,
+  "SentimentConfidence": 99,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 160,
-      "Name": "Fahey-Vandervort",
-      "ContentType": "aliquam",
-      "AttSize": 611,
-      "InlineImage": false,
-      "ContentId": "dignissimos",
-      "AuthKey": "suscipit",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 200,
+      "Name": "Adams, Stroman and Hudson",
+      "ContentType": "laboriosam",
+      "AttSize": 703,
+      "InlineImage": true,
+      "ContentId": "distinctio",
+      "AuthKey": "est",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldType": "System.String",
+          "FieldLength": 690
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "sed",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 163
     }
   }
 }

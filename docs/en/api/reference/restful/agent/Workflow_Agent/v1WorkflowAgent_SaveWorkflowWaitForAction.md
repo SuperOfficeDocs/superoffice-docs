@@ -41,7 +41,7 @@ The WorkflowWaitForAction to be saved.
 |----------------|------|--------------|
 | WorkflowWaitForActionId | Integer | Primary key |
 | WorkflowStepId | Integer | The workflow step this instance belongs to |
-| WorkflowId | Integer | The flow this instance belongs to |
+| WorkflowId | Integer | Workflow id |
 | Rank | Integer | The rank of this action |
 | ActionType | String | The type of action |
 | RestrictionGroups | Array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
@@ -60,7 +60,7 @@ OK
 |----------------|------|--------------|
 | WorkflowWaitForActionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
+| WorkflowId | int32 | Workflow id |
 | Rank | int32 | The rank of this action |
 | ActionType | string | The type of action |
 | RestrictionGroups | array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 244,
-  "WorkflowStepId": 946,
-  "WorkflowId": 769,
-  "Rank": 65,
+  "WorkflowWaitForActionId": 803,
+  "WorkflowStepId": 520,
+  "WorkflowId": 634,
+  "Rank": 821,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Johnson Group",
-      "Description": "Synergized uniform archive",
-      "Rank": 336,
+      "Name": "Gleichner Group",
+      "Description": "Compatible responsive infrastructure",
+      "Rank": 161,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johnson Group",
-      "Description": "Synergized uniform archive",
-      "Rank": 336,
+      "Name": "Gleichner Group",
+      "Description": "Compatible responsive infrastructure",
+      "Rank": 161,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 637,
-  "WorkflowStepId": 674,
-  "WorkflowId": 954,
-  "Rank": 539,
+  "WorkflowWaitForActionId": 901,
+  "WorkflowStepId": 228,
+  "WorkflowId": 556,
+  "Rank": 153,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Kutch Group",
-      "Description": "Polarised client-driven architecture",
-      "Rank": 552,
+      "Name": "Sawayn Group",
+      "Description": "Customizable national Graphic Interface",
+      "Rank": 481,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kutch Group",
-      "Description": "Polarised client-driven architecture",
-      "Rank": 552,
+      "Name": "Sawayn Group",
+      "Description": "Customizable national Graphic Interface",
+      "Rank": 481,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   }
 }

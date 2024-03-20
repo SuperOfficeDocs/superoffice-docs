@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Schaefer, Hyatt and Ledner",
-    "ToolTip": "Et aut fugit quis cupiditate impedit iusto.",
+    "Id": 254,
+    "Name": "Goyette, Herman and Brekke",
+    "ToolTip": "Officia doloribus dolore ut.",
     "Deleted": true,
-    "Rank": 100,
+    "Rank": 340,
     "Type": "et",
-    "ColorBlock": 292,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2018-10-03T14:23:56.0408276+02:00",
+    "ColorBlock": 673,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2022-05-22T12:19:54.383431+02:00",
     "ChildItems": [
       {
         "Id": 488,
-        "Name": "Will Inc and Sons",
-        "ToolTip": "Id eos enim quas perferendis repellendus.",
+        "Name": "Walter Group",
+        "ToolTip": "Enim reprehenderit ducimus voluptatem et.",
         "Deleted": true,
-        "Rank": 890,
-        "Type": "ullam",
-        "ColorBlock": 175,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2018-12-11T14:23:56.0408276+01:00",
+        "Rank": 40,
+        "Type": "molestiae",
+        "ColorBlock": 597,
+        "IconHint": "nam",
+        "Selected": true,
+        "LastChanged": "2010-09-01T12:19:54.383431+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "ea",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Macy Robel"
+        "FullName": "Ayla Gottlieb"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Cora Nicolas Sr."
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Miss Kenny Chauncey Renner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Bradtke-Lowe",
-    "ToolTip": "Cupiditate sunt.",
+    "Id": 786,
+    "Name": "Fay LLC",
+    "ToolTip": "Ratione praesentium vero voluptatem.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "magni",
-    "ColorBlock": 939,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2014-12-25T14:23:56.0564526+01:00",
+    "Rank": 543,
+    "Type": "quo",
+    "ColorBlock": 983,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2017-03-23T12:19:54.383431+01:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Cremin, Wiegand and Grimes",
-        "ToolTip": "Expedita totam repellat sit dolorem.",
+        "Id": 769,
+        "Name": "Rodriguez-Dibbert",
+        "ToolTip": "Quae molestiae illo et cupiditate maxime.",
         "Deleted": true,
-        "Rank": 813,
-        "Type": "corporis",
-        "ColorBlock": 92,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2022-05-01T14:23:56.0564526+02:00",
+        "Rank": 299,
+        "Type": "et",
+        "ColorBlock": 179,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2022-10-21T12:19:54.383431+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Ms. Moshe Renner",
+        "ExtraInfo": "ut",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Lola Duncan Terry Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "omnis",
+    "ExtraInfo": "nihil",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Clifton Kub",
+    "FullName": "Keenan Hunter Schoen V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 257
       }
     }
   }

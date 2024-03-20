@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 822,
-  "StartTime": "2007-04-11T14:23:46.2980824+02:00",
-  "EndTime": "2001-12-01T14:23:46.2980824+01:00",
-  "Count": 336,
-  "TemplateHeadingId": 133
+  "ProjectId": 499,
+  "StartTime": "1997-03-13T12:19:45.0860733+01:00",
+  "EndTime": "2013-12-12T12:19:45.0860733+01:00",
+  "Count": 309,
+  "TemplateHeadingId": 596
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 799,
-    "Attention": "perferendis",
-    "Header": "sequi",
-    "Name": "Feil, Hintz and Toy",
-    "OurRef": "tempore",
-    "YourRef": "aut",
-    "Description": "Decentralized mobile system engine",
-    "DocumentTemplate": "quia",
+    "DocumentId": 44,
+    "Attention": "ut",
+    "Header": "rerum",
+    "Name": "Schaefer, Simonis and Roob",
+    "OurRef": "ullam",
+    "YourRef": "iusto",
+    "Description": "Managed systematic productivity",
+    "DocumentTemplate": "velit",
     "IsPublished": false,
-    "PersonId": 478,
-    "PersonFullName": "Dallas Beatty V",
-    "AssociateFullName": "Marcellus Corwin",
-    "ContactId": 721,
-    "ContactName": "Nader-Dach",
-    "ProjectId": 658,
-    "ProjectName": "Pouros-Jakubowski",
-    "AssociateId": 850,
-    "Snum": 507,
-    "SaleId": 913,
-    "SaleName": "Mante, Fisher and Altenwerth",
+    "PersonId": 316,
+    "PersonFullName": "Mackenzie Powlowski",
+    "AssociateFullName": "Eleanora Zulauf",
+    "ContactId": 45,
+    "ContactName": "Tremblay LLC",
+    "ProjectId": 545,
+    "ProjectName": "Lubowitz Group",
+    "AssociateId": 702,
+    "Snum": 956,
+    "SaleId": 697,
+    "SaleName": "Mitchell, Marquardt and Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

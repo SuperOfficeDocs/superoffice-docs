@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Nitzsche Group",
-  "StorageKey": "exercitationem",
+  "StorageType": "qui",
+  "ProviderName": "Willms, Auer and Pouros",
+  "StorageKey": "maiores",
   "StaticColumns": [
-    "similique",
-    "expedita"
+    "aperiam",
+    "qui"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lockman-Spencer",
-      "Operator": "accusamus",
+      "Name": "Toy, Bogan and Von",
+      "Operator": "molestias",
       "Values": [
-        "deleniti",
-        "earum"
+        "delectus",
+        "sunt"
       ],
       "DisplayValues": [
-        "doloremque",
-        "eligendi"
+        "atque",
+        "laudantium"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 346,
+      "InterParenthesis": 635,
       "InterOperator": "And",
-      "UniqueHash": 144
+      "UniqueHash": 524
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Casper LLC",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "corporis",
+      "DisplayName": "Spencer LLC",
+      "DisplayTooltip": "et",
+      "DisplayType": "rem",
       "CanOrderBy": false,
-      "Name": "Willms, Grady and O'Conner",
-      "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Corwin Inc and Sons",
+      "Name": "Rodriguez-Marvin",
+      "CanRestrictBy": true,
+      "RestrictionType": "unde",
+      "RestrictionListName": "Nienow-Bogisich",
       "IsVisible": false,
-      "ExtraInfo": "quibusdam",
-      "Width": "quia",
-      "IconHint": "ea",
-      "HeadingIconHint": "esse"
+      "ExtraInfo": "nam",
+      "Width": "id",
+      "IconHint": "ut",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jaskolski-Lueilwitz",
-      "PrimaryKey": 202,
+      "EntityName": "Cartwright Inc and Sons",
+      "PrimaryKey": 862,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "deleniti",
-          "LinkHint": "autem"
+          "DisplayValue": "velit",
+          "TooltipHint": "aperiam",
+          "LinkHint": "nihil"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "excepturi",
+      "LinkHint": "porro",
+      "StyleHint": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kulas, Walsh and Pagac",
-      "Description": "Innovative web-enabled alliance",
-      "Rank": 670,
+      "Name": "Lakin Inc and Sons",
+      "Description": "Vision-oriented upward-trending capacity",
+      "Rank": 848,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kulas, Walsh and Pagac",
-      "Description": "Innovative web-enabled alliance",
-      "Rank": 670,
+      "Name": "Lakin Inc and Sons",
+      "Description": "Vision-oriented upward-trending capacity",
+      "Rank": 848,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

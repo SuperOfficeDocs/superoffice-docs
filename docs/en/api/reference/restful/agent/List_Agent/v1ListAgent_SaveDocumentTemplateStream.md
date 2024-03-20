@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 609,
+  "DocumentTemplateId": 954,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dignissimos",
-  "PluginId": 337
+  "LanguageCode": "sapiente",
+  "PluginId": 973
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany-Funk",
-  "Description": "Organic mobile superstructure",
-  "ExternalReference": "mollitia",
-  "MimeType": "reprehenderit",
-  "PluginId": 323
+  "Name": "Weber Inc and Sons",
+  "Description": "Profit-focused disintermediate definition",
+  "ExternalReference": "provident",
+  "MimeType": "facere",
+  "PluginId": 579
 }
 ```

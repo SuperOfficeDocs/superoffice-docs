@@ -33,7 +33,7 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=False
+GET /api/v1/Ticket/{id}?fk=True
 ```
 
 
@@ -132,7 +132,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -142,21 +142,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 767,
-  "Title": "aliquam",
-  "CreatedAt": "2023-05-28T14:23:55.6658646+02:00",
-  "LastChanged": "2015-11-02T14:23:55.6658646+01:00",
-  "ReadByOwner": "2011-01-26T14:23:55.6658646+01:00",
-  "ReadByCustomer": "2014-07-17T14:23:55.6658646+02:00",
-  "FirstReadByOwner": "2016-05-31T14:23:55.6658646+02:00",
-  "FirstReadByUser": "2003-04-04T14:23:55.6658646+02:00",
-  "Activate": "2003-11-22T14:23:55.6658646+01:00",
-  "ClosedAt": "1999-12-11T14:23:55.6658646+01:00",
-  "RepliedAt": "2013-12-14T14:23:55.6658646+01:00",
-  "AlertTimeout": "2005-02-23T14:23:55.6658646+01:00",
-  "Deadline": "2019-09-21T14:23:55.6658646+02:00",
+  "TicketId": 537,
+  "Title": "culpa",
+  "CreatedAt": "2004-10-23T12:19:53.9773001+02:00",
+  "LastChanged": "2021-01-03T12:19:53.9773001+01:00",
+  "ReadByOwner": "2015-04-14T12:19:53.9773001+02:00",
+  "ReadByCustomer": "2003-04-29T12:19:53.9773001+02:00",
+  "FirstReadByOwner": "2019-01-28T12:19:53.9773001+01:00",
+  "FirstReadByUser": "2021-08-01T12:19:53.9773001+02:00",
+  "Activate": "2001-11-02T12:19:53.9773001+01:00",
+  "ClosedAt": "2000-05-16T12:19:53.9773001+02:00",
+  "RepliedAt": "2008-03-06T12:19:53.9773001+01:00",
+  "AlertTimeout": "2011-08-29T12:19:53.9773001+02:00",
+  "Deadline": "2019-09-12T12:19:53.9773001+02:00",
   "CreatedBy": null,
-  "Author": "id",
+  "Author": "eligendi",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,167 +167,167 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "nemo",
-      "PersonId": 512,
-      "Mrmrs": "quaerat",
-      "Firstname": "Bryce",
-      "Lastname": "Smith",
-      "MiddleName": "Zieme LLC",
-      "Title": "ut",
-      "Description": "Customizable bandwidth-monitored success",
-      "Email": "scot_shields@hagenesdaniel.uk",
-      "FullName": "Vance Jakubowski",
-      "DirectPhone": "1-704-036-2431",
-      "FormalName": "Hilpert, Langosh and Stoltenberg",
-      "CountryId": 146,
-      "ContactId": 142,
-      "ContactName": "Flatley Group",
-      "Retired": 396,
-      "Rank": 143,
-      "ActiveInterests": 856,
+      "Position": "ut",
+      "PersonId": 93,
+      "Mrmrs": "eaque",
+      "Firstname": "Treva",
+      "Lastname": "Halvorson",
+      "MiddleName": "Klocko-Miller",
+      "Title": "iusto",
+      "Description": "Multi-layered well-modulated archive",
+      "Email": "bradford@ernser.co.uk",
+      "FullName": "Mr. Dudley Caleigh Kshlerin",
+      "DirectPhone": "204-668-6344",
+      "FormalName": "Heidenreich-Schiller",
+      "CountryId": 697,
+      "ContactId": 435,
+      "ContactName": "Gleason-Stanton",
+      "Retired": 25,
+      "Rank": 158,
+      "ActiveInterests": 823,
       "ContactDepartment": "",
-      "ContactCountryId": 633,
-      "ContactOrgNr": "958172",
-      "FaxPhone": "868.777.3549",
-      "MobilePhone": "(443)122-9455",
-      "ContactPhone": "1-299-760-5885",
-      "AssociateName": "Becker-Kuvalis",
-      "AssociateId": 732,
+      "ContactCountryId": 947,
+      "ContactOrgNr": "1525753",
+      "FaxPhone": "076.005.2014",
+      "MobilePhone": "079-143-0115 x717",
+      "ContactPhone": "(868)542-0034",
+      "AssociateName": "Orn-Schowalter",
+      "AssociateId": 377,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "odio",
-      "Kanalname": "et",
-      "Post1": "quidem",
+      "ContactFax": "molestias",
+      "Kanafname": "quam",
+      "Kanalname": "iure",
+      "Post1": "culpa",
       "Post2": "id",
-      "Post3": "est",
-      "EmailName": "jeromy.labadie@hayes.info",
-      "ContactFullName": "Mrs. Julian Jean Kozey",
-      "ActiveErpLinks": 618,
-      "TicketPriorityId": 925,
-      "SupportLanguageId": 44,
-      "SupportAssociateId": 407,
+      "Post3": "blanditiis",
+      "EmailName": "olaf_cartwright@klein.us",
+      "ContactFullName": "Mrs. Madisen Kessler",
+      "ActiveErpLinks": 657,
+      "TicketPriorityId": 63,
+      "SupportLanguageId": 597,
+      "SupportAssociateId": 96,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "AlertLevel": 431,
-  "ConnectId": 430,
+  "AlertLevel": 188,
+  "ConnectId": 72,
   "ReadStatus": "Green",
-  "TimeToReply": 903,
-  "RealTimeToReply": 507,
-  "TimeToClose": 487,
-  "RealTimeToClose": 662,
-  "TimeSpentInternally": 912,
-  "TimeSpentExternally": 815,
-  "TimeSpentQueue": 570,
-  "RealTimeSpentInternally": 907,
-  "RealTimeSpentExternally": 904,
-  "RealTimeSpentQueue": 857,
-  "TimeSpent": 984,
-  "HasAttachment": true,
-  "NumReplies": 536,
-  "NumMessages": 567,
-  "FromAddress": "quidem",
+  "TimeToReply": 529,
+  "RealTimeToReply": 374,
+  "TimeToClose": 424,
+  "RealTimeToClose": 145,
+  "TimeSpentInternally": 129,
+  "TimeSpentExternally": 385,
+  "TimeSpentQueue": 627,
+  "RealTimeSpentInternally": 910,
+  "RealTimeSpentExternally": 443,
+  "RealTimeSpentQueue": 73,
+  "TimeSpent": 472,
+  "HasAttachment": false,
+  "NumReplies": 432,
+  "NumMessages": 690,
+  "FromAddress": "nam",
   "Messages": [
     {
-      "TicketMessageId": 999,
-      "CreatedAt": "2013-03-29T14:23:55.6658646+01:00",
+      "TicketMessageId": 344,
+      "CreatedAt": "1997-07-26T12:19:53.9929096+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "expedita",
-      "PersonId": 496,
-      "PersonFullName": "Buster Ziemann",
-      "ContactId": 341,
-      "ContactName": "Hodkiewicz Group",
+      "Important": false,
+      "Author": "minima",
+      "PersonId": 921,
+      "PersonFullName": "Mrs. Destiney Jaden Luettgen Sr.",
+      "ContactId": 949,
+      "ContactName": "White-Bauch",
       "ContactDepartment": "",
-      "NumAttachments": 968,
-      "EmailHeader": "dasia.tromp@runte.info",
+      "NumAttachments": 63,
+      "EmailHeader": "hayden.kuhlman@schadenmetz.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quod",
-      "Sentiment": 74,
-      "SentimentConfidence": 758,
-      "CreatedBy": 402,
-      "ChangedAt": "2007-11-15T14:23:55.6658646+01:00",
+      "Language": "consequatur",
+      "Sentiment": 874,
+      "SentimentConfidence": 130,
+      "CreatedBy": 539,
+      "ChangedAt": "2020-02-13T12:19:53.9929096+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 379
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 522,
-      "Name": "Witting-Zemlak",
-      "ToolTip": "Est in aut natus et vero.",
+      "Id": 243,
+      "Name": "Kshlerin, McKenzie and Rodriguez",
+      "ToolTip": "Rem autem aperiam consectetur minus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldType": "System.Int32",
+          "FieldLength": 610
         }
       }
     },
     {
-      "Id": 522,
-      "Name": "Witting-Zemlak",
-      "ToolTip": "Est in aut natus et vero.",
+      "Id": 243,
+      "Name": "Kshlerin, McKenzie and Rodriguez",
+      "ToolTip": "Rem autem aperiam consectetur minus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldType": "System.Int32",
+          "FieldLength": 610
         }
       }
     }
   ],
-  "Language": "qui",
-  "Sentiment": 288,
-  "SentimentConfidence": 627,
-  "SuggestedCategoryId": 953,
+  "Language": "nulla",
+  "Sentiment": 817,
+  "SentimentConfidence": 854,
+  "SuggestedCategoryId": 540,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 309,
-  "IconHint": "eius",
+  "OrigHumanCategoryId": 559,
+  "IconHint": "aut",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 863,
+  "ActiveStatusMonitorId": 630,
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "est",
+    "CustomFields1": "dicta",
     "CustomFields2": "dolorum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 68
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

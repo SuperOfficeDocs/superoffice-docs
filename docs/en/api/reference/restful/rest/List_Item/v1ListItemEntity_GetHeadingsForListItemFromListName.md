@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Dooley, Murray and Altenwerth",
-    "ToolTip": "Harum enim quibusdam quia iure et ducimus consequatur.",
+    "Id": 264,
+    "Name": "Davis-Kessler",
+    "ToolTip": "Suscipit ducimus sapiente in et nobis quaerat.",
     "Deleted": false,
-    "Rank": 637,
-    "Type": "unde",
-    "ColorBlock": 800,
-    "IconHint": "odit",
+    "Rank": 405,
+    "Type": "natus",
+    "ColorBlock": 378,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2019-04-24T14:23:55.9470782+02:00",
+    "LastChanged": "2004-06-04T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "King, Hickle and Boyle",
-        "ToolTip": "Placeat laudantium reprehenderit ea ut perspiciatis expedita enim.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "et",
-        "ColorBlock": 553,
-        "IconHint": "delectus",
+        "Id": 376,
+        "Name": "Vandervort Group",
+        "ToolTip": "Soluta laboriosam consequatur.",
+        "Deleted": false,
+        "Rank": 722,
+        "Type": "voluptates",
+        "ColorBlock": 101,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "1998-11-23T14:23:55.9470782+01:00",
+        "LastChanged": "1999-11-05T12:19:54.2740906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "a",
+        "ExtraInfo": "non",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Miss Efrain Roob I",
+        "FullName": "Kamron Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Lance McLaughlin Sr.",
+    "ExtraInfo": "velit",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Andy Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 659
       }
     }
   }

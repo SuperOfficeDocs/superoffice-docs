@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 868,
-  "UniqueId": "aut",
-  "Name": "Barton, Koelpin and Cruickshank",
-  "Description": "Robust bi-directional help-desk",
-  "AssociateId": 1001,
-  "Columns": 411,
+  "DashboardId": 662,
+  "UniqueId": "repellat",
+  "Name": "Wyman LLC",
+  "Description": "Mandatory well-modulated circuit",
+  "AssociateId": 275,
+  "Columns": 507,
   "Theme": null,
-  "VisibleForAll": 302,
+  "VisibleForAll": 265,
   "VisibleForAssociates": [
-    896,
-    811
+    586,
+    925
   ],
   "VisibleForGroups": [
-    352,
-    242
+    635,
+    210
   ],
-  "PinForAll": 670,
+  "PinForAll": 707,
   "PinForAssociates": [
-    441,
-    224
+    407,
+    178
   ],
   "PinForGroups": [
-    730,
-    708
+    798,
+    111
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 180
     }
   },
   "_Links": {

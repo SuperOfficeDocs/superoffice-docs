@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McDermott-Schimmel",
-      "Operator": "vel",
+      "Name": "Becker, Emmerich and Heathcote",
+      "Operator": "aut",
       "Values": [
-        "nihil",
-        "rerum"
+        "ex",
+        "ab"
       ],
       "DisplayValues": [
-        "facere",
-        "voluptatum"
+        "molestiae",
+        "accusantium"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 78,
+      "InterParenthesis": 971,
       "InterOperator": "And",
-      "UniqueHash": 429
+      "UniqueHash": 915
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huel, Cole and Parisian",
-    "Operator": "soluta",
+    "Name": "Sawayn, Towne and Pouros",
+    "Operator": "eos",
     "Values": [
-      "minima",
-      "modi"
+      "distinctio",
+      "et"
     ],
     "DisplayValues": [
-      "et",
-      "voluptatem"
+      "qui",
+      "ut"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "O'Keefe LLC",
-        "Operator": "optio",
+        "Name": "Klocko-Roob",
+        "Operator": "omnis",
         "Values": [
-          "facere",
-          "esse"
+          "et",
+          "deserunt"
         ],
         "DisplayValues": [
-          "accusamus",
-          "repellat"
+          "temporibus",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 993,
+        "InterParenthesis": 239,
         "InterOperator": "And",
-        "UniqueHash": 436
+        "UniqueHash": 801
       }
     ],
-    "InterParenthesis": 595,
+    "InterParenthesis": 630,
     "InterOperator": "And",
-    "UniqueHash": 476
+    "UniqueHash": 516
   }
 ]
 ```

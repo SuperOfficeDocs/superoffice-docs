@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Value": "et",
-    "Tooltip": "voluptatem",
+    "Id": 646,
+    "Value": "ipsa",
+    "Tooltip": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 40
       }
     }
   },
   {
-    "Id": 539,
-    "Value": "et",
-    "Tooltip": "voluptatem",
+    "Id": 646,
+    "Value": "ipsa",
+    "Tooltip": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 40
       }
     }
   }

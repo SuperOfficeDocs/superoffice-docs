@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=veniam
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=accusantium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Buckridge-Considine",
-    "ToolTip": "Dolorem eos in magnam adipisci.",
-    "Deleted": true,
-    "Rank": 666,
-    "Type": "est",
+    "Id": 825,
+    "Name": "Gerhold Inc and Sons",
+    "ToolTip": "Mollitia provident soluta consequatur et.",
+    "Deleted": false,
+    "Rank": 434,
+    "Type": "doloremque",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Miller, Goodwin and Koss",
-        "ToolTip": "Sapiente autem id aut nulla qui dicta.",
-        "Deleted": true,
-        "Rank": 952,
-        "Type": "molestiae",
+        "Id": 41,
+        "Name": "Gutmann-Hodkiewicz",
+        "ToolTip": "Ducimus aspernatur qui ducimus quasi iure.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 586,
-        "ExtraInfo": "non",
-        "StyleHint": "maiores",
-        "FullName": "Alvena Brekke",
+        "IconHint": "facere",
+        "ColorBlock": 378,
+        "ExtraInfo": "in",
+        "StyleHint": "aut",
+        "FullName": "Aron Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 542
+            "FieldLength": 349
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 61,
-    "ExtraInfo": "omnis",
-    "StyleHint": "nam",
-    "FullName": "Pedro Frami",
+    "IconHint": "libero",
+    "ColorBlock": 881,
+    "ExtraInfo": "dicta",
+    "StyleHint": "itaque",
+    "FullName": "Geraldine Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 478
       }
     }
   }

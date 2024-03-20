@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 409,
-    "Name": "Fay, Corwin and Blanda",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 350
+    "HeadingId": 369,
+    "Name": "Ferry Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 519,
+    "UdListDefinitionId": 258
   },
   {
-    "HeadingId": 409,
-    "Name": "Fay, Corwin and Blanda",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 103,
-    "UdListDefinitionId": 350
+    "HeadingId": 369,
+    "Name": "Ferry Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 519,
+    "UdListDefinitionId": 258
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Renner-Beer",
-    "Tooltip": "quo",
+    "HeadingId": 590,
+    "Name": "Wisozk-Schiller",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 822,
-    "UdListDefinitionId": 326,
+    "Rank": 384,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldLength": 77
       }
     }
   }

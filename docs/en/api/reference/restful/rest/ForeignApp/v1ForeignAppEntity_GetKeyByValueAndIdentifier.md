@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ratione
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=odit
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 29 Dec 2014 14:23:55 G12T
+Last-Modified: Fri, 05 Feb 2016 12:19:53 G2T
 
 {
-  "Key": "enim",
-  "Value": "voluptatum",
-  "RecordId": 833,
-  "CreatedDate": "1996-12-31T14:23:55.195897+01:00",
-  "UpdatedDate": "2014-12-29T14:23:55.195897+01:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "amet",
-  "TableName": "Hyatt Inc and Sons",
+  "Key": "qui",
+  "Value": "non",
+  "RecordId": 927,
+  "CreatedDate": "2024-01-07T12:19:53.6023745+01:00",
+  "UpdatedDate": "2016-02-05T12:19:53.6023745+01:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "rerum",
+  "TableName": "Nolan-Abbott",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

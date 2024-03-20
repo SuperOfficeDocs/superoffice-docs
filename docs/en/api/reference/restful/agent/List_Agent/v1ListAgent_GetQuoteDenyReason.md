@@ -26,7 +26,7 @@ Gets a QuoteDenyReason object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetQuoteDenyReason?quoteDenyReasonId=773
+POST /api/v1/Agents/List/GetQuoteDenyReason?quoteDenyReasonId=688
 POST /api/v1/Agents/List/GetQuoteDenyReason?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Value": "qui",
-  "Tooltip": "saepe",
+  "Id": 47,
+  "Value": "ex",
+  "Tooltip": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

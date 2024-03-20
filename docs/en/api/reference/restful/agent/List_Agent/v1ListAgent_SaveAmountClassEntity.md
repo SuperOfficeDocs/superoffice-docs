@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 671,
-  "Name": "Stiedemann-Wolff",
-  "Tooltip": "quia",
-  "Rank": 440,
-  "AmountFrom": 16127.564,
-  "AmountTo": 31286.721999999998,
+  "AmountClassId": 745,
+  "Name": "O'Kon-Schuppe",
+  "Tooltip": "error",
+  "Rank": 191,
+  "AmountFrom": 24890.228,
+  "AmountTo": 8480.604,
   "Deleted": false,
-  "CurrencyId": 697
+  "CurrencyId": 78
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 526,
-  "Name": "Hamill, Lynch and Feil",
-  "Tooltip": "deserunt",
-  "Rank": 198,
-  "AmountFrom": 26350.672,
-  "AmountTo": 8634.17,
-  "Deleted": false,
-  "CurrencyId": 358,
+  "AmountClassId": 127,
+  "Name": "Waelchi LLC",
+  "Tooltip": "et",
+  "Rank": 45,
+  "AmountFrom": 28654.162,
+  "AmountTo": 30753.942,
+  "Deleted": true,
+  "CurrencyId": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 570
     }
   }
 }

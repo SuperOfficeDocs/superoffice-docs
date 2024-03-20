@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 738,
-    "Name": "Hauck, Weissnat and Klein",
-    "Rank": 851,
-    "Tooltip": "laudantium",
-    "Icon": "voluptatum",
-    "DefaultTicketStatus": 699,
+    "TicketTypeId": 945,
+    "Name": "Kuhic, Schoen and Hettinger",
+    "Rank": 402,
+    "Tooltip": "in",
+    "Icon": "dolores",
+    "DefaultTicketStatus": 387,
     "TicketStatuses": [
-      913,
-      567
+      148,
+      561
     ],
-    "DefaultTicketPriority": 516,
+    "DefaultTicketPriority": 26,
     "TicketPriorities": [
-      726,
-      607
+      391,
+      669
     ],
-    "ReplyTemplate": 48,
+    "ReplyTemplate": 462,
     "IsExternalVisible": false,
-    "IsDefault": true,
+    "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 472
       }
     }
   }

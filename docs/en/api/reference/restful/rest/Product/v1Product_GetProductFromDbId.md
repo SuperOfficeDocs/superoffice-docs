@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 994,
-  "ERPProductKey": "ratione",
-  "ERPPriceListKey": "tempore",
-  "Name": "Hodkiewicz, Kassulke and Morissette",
-  "Description": "Configurable exuding firmware",
-  "Code": "at",
-  "PriceUnit": "modi",
-  "QuantityUnit": "reiciendis",
+  "ProductId": 363,
+  "ERPProductKey": "quisquam",
+  "ERPPriceListKey": "rem",
+  "Name": "McCullough-Abshire",
+  "Description": "Switchable bandwidth-monitored leverage",
+  "Code": "et",
+  "PriceUnit": "quasi",
+  "QuantityUnit": "mollitia",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 17942.149999999998,
-  "ItemNumber": "1628034",
+  "SubscriptionUnit": "consequuntur",
+  "DefaultSubscriptionQuantity": 19427.666,
+  "ItemNumber": "723101",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illum",
-  "ProductTypeKey": "qui",
-  "VAT": 7499.6619999999994,
-  "VATInfo": "hic",
-  "UnitCost": 12065.9,
-  "UnitMinimumPrice": 25623.584,
-  "UnitListPrice": 29058.448,
-  "InAssortment": false,
-  "Supplier": "delectus",
-  "SupplierCode": "pariatur",
-  "Rights": "quae",
-  "Rule": "ea",
+  "ProductFamilyKey": "quae",
+  "ProductTypeKey": "blanditiis",
+  "VAT": 17866.934,
+  "VATInfo": "distinctio",
+  "UnitCost": 10859.31,
+  "UnitMinimumPrice": 2272.15,
+  "UnitListPrice": 5663.138,
+  "InAssortment": true,
+  "Supplier": "exercitationem",
+  "SupplierCode": "rem",
+  "Rights": "placeat",
+  "Rule": "iure",
   "ExtraInfo": [
     {
-      "Name": "Gutkowski Inc and Sons",
-      "Value": "eum",
+      "Name": "Zboncak, Hilpert and Will",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Gutkowski Inc and Sons",
-      "Value": "eum",
+      "Name": "Zboncak, Hilpert and Will",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldType": "System.Int32",
+          "FieldLength": 476
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "ipsa",
-  "ExtraField3": "temporibus",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "corrupti",
-  "InStock": 11746.232,
+  "RawExtraInfo": "necessitatibus",
+  "ExtraField1": "error",
+  "ExtraField2": "rerum",
+  "ExtraField3": "et",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "et",
+  "InStock": 20405.474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 838
     }
   }
 }

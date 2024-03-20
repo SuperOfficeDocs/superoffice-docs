@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 432,
+  "ErpConnectionId": 185,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 962,
-      "CrmFieldKey": "optio",
-      "CrmDisplayName": "Kub Inc and Sons",
-      "CrmDisplayTooltip": "maiores",
-      "ErpFieldKey": "enim",
+      "ErpFieldId": 442,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Cormier Group",
+      "CrmDisplayTooltip": "alias",
+      "ErpFieldKey": "optio",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schimmel-Renner",
-      "ErpDisplayTooltip": "dolore",
+      "ErpDisplayName": "Mueller-Mosciski",
+      "ErpDisplayTooltip": "sint",
       "SyncToCrm": true,
-      "SyncToErp": true,
-      "ShowInGui": true,
-      "ShowInSearch": true,
+      "SyncToErp": false,
+      "ShowInGui": false,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "ratione",
+      "ListReference": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 744
     }
   }
 }

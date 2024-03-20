@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "quidem"
+  "QuoteLineExtraData": "ut"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sawayn LLC",
-    "Value": "qui",
+    "Name": "Bosco, Mraz and Satterfield",
+    "Value": "et",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 879
       }
     }
   },
   {
-    "Name": "Sawayn LLC",
-    "Value": "qui",
+    "Name": "Bosco, Mraz and Satterfield",
+    "Value": "et",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 879
       }
     }
   }

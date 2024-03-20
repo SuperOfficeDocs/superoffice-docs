@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Greenfelder, Koch and Hilll",
-    "ToolTip": "Assumenda sequi natus saepe est et.",
-    "Deleted": false,
-    "Rank": 541,
-    "Type": "perspiciatis",
-    "ColorBlock": 616,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2018-12-15T14:23:55.400211+01:00",
+    "Id": 291,
+    "Name": "Cummings LLC",
+    "ToolTip": "Dolor rerum iure earum quia et id nesciunt.",
+    "Deleted": true,
+    "Rank": 328,
+    "Type": "impedit",
+    "ColorBlock": 445,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2014-04-22T12:19:53.8054479+02:00",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Fay-Crooks",
-        "ToolTip": "Iste cum.",
+        "Id": 639,
+        "Name": "Wisoky-Bruen",
+        "ToolTip": "Consequuntur qui nobis qui et rerum quia error.",
         "Deleted": true,
-        "Rank": 171,
-        "Type": "nam",
-        "ColorBlock": 304,
-        "IconHint": "ratione",
+        "Rank": 32,
+        "Type": "molestiae",
+        "ColorBlock": 643,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2017-03-06T14:23:55.400211+01:00",
+        "LastChanged": "2008-04-27T12:19:53.8054479+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "rerum",
+        "ExtraInfo": "est",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Miss Darlene Kemmer",
+        "FullName": "Jaquelin Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldType": "System.String",
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "quis",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Lottie Gaylord",
+    "FullName": "Adella Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

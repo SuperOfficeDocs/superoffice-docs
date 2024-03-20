@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 498,
-  "Name": "Blick Inc and Sons",
-  "Config": "quidem",
-  "Rank": 477,
-  "Client": "est",
-  "Style": "assumenda",
+  "DashboardThemeId": 639,
+  "Name": "Strosin Group",
+  "Config": "exercitationem",
+  "Rank": 803,
+  "Client": "commodi",
+  "Style": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   },
   "_Links": {

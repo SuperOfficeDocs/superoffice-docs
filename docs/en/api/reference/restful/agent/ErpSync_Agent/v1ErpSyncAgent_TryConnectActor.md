@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 461,
-  "CrmRecordId": 3,
+  "ErpConnectionId": 168,
+  "CrmRecordId": 684,
   "CrmActorType": "Contact",
-  "ErpKey": "eos",
+  "ErpKey": "nam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Upton-Wiza",
-      "CrmFieldKey": "a",
-      "Value": "fugit",
-      "DisplayValue": "exercitationem",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Bode LLC",
+      "CrmFieldKey": "aut",
+      "Value": "laudantium",
+      "DisplayValue": "id",
+      "SyncToCrm": true,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Upton-Wiza",
-      "CrmFieldKey": "a",
-      "Value": "fugit",
-      "DisplayValue": "exercitationem",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Bode LLC",
+      "CrmFieldKey": "aut",
+      "Value": "laudantium",
+      "DisplayValue": "id",
+      "SyncToCrm": true,
+      "SyncToErp": true
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

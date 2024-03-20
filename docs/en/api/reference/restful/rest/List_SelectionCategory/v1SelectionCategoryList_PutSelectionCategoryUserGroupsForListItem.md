@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Harvey-Hills",
-    "ToolTip": "Eius sint.",
+    "Id": 166,
+    "Name": "Erdman, Becker and Boyer",
+    "ToolTip": "Cumque quia culpa voluptatem deleniti dolor totam fuga.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "quisquam",
-    "ColorBlock": 104,
-    "IconHint": "labore",
+    "Rank": 646,
+    "Type": "sapiente",
+    "ColorBlock": 770,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1997-06-18T14:23:56.353323+02:00",
+    "LastChanged": "2011-01-05T12:19:54.8520816+01:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Prosacco, Larkin and Senger",
-        "ToolTip": "Omnis non aspernatur.",
-        "Deleted": false,
-        "Rank": 352,
-        "Type": "est",
-        "ColorBlock": 548,
-        "IconHint": "perferendis",
+        "Id": 3,
+        "Name": "Wilkinson-Boyer",
+        "ToolTip": "Odit eveniet autem.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "sint",
+        "ColorBlock": 946,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2002-03-12T14:23:56.353323+01:00",
+        "LastChanged": "2004-03-28T12:19:54.8520816+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Donna Larkin"
+        "FullName": "Ewell Welch IV"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "dicta",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Mrs. Eloy Moore"
+    "FullName": "Rae Boyer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Davis, Ankunding and Harris",
-    "ToolTip": "Ea iste qui modi et asperiores.",
-    "Deleted": false,
-    "Rank": 354,
-    "Type": "ut",
-    "ColorBlock": 44,
-    "IconHint": "magni",
+    "Id": 184,
+    "Name": "Conn-Hilpert",
+    "ToolTip": "Maiores id.",
+    "Deleted": true,
+    "Rank": 891,
+    "Type": "eaque",
+    "ColorBlock": 393,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2006-11-06T14:23:56.353323+01:00",
+    "LastChanged": "2010-03-25T12:19:54.8520816+01:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Hyatt-Satterfield",
-        "ToolTip": "Illo ipsam nihil fugiat magnam eos voluptatem.",
+        "Id": 383,
+        "Name": "Crona-Langworth",
+        "ToolTip": "Veritatis consectetur.",
         "Deleted": false,
-        "Rank": 43,
-        "Type": "eos",
-        "ColorBlock": 119,
-        "IconHint": "temporibus",
+        "Rank": 818,
+        "Type": "et",
+        "ColorBlock": 4,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2004-09-03T14:23:56.353323+02:00",
+        "LastChanged": "2015-09-27T12:19:54.8520816+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "velit",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Misael Harber",
+        "FullName": "Jazmin Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 871
+            "FieldType": "System.Int32",
+            "FieldLength": 861
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Ms. Edward Kris",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Geovanny Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

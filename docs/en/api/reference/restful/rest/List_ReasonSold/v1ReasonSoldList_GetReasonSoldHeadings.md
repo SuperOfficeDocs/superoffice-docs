@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Hegmann Group",
-    "Tooltip": "provident",
+    "HeadingId": 482,
+    "Name": "Altenwerth, Hickle and Stehr",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 293,
-    "UdListDefinitionId": 428,
+    "Rank": 887,
+    "UdListDefinitionId": 64,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 705
       }
     }
   }

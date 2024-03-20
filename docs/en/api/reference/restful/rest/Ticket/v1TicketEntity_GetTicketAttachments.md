@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 201,
-    "Name": "Brown, Dickens and Botsford",
-    "ContentType": "ut",
-    "AttSize": 790,
+    "AttachmentId": 537,
+    "Name": "Homenick LLC",
+    "ContentType": "quia",
+    "AttSize": 177,
     "InlineImage": false,
-    "ContentId": "tenetur",
-    "AuthKey": "at",
-    "IsSafeFileExtension": false,
+    "ContentId": "iusto",
+    "AuthKey": "beatae",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 38
       }
     }
   }

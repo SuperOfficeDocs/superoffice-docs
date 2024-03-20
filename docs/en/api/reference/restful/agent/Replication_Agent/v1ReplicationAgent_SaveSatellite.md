@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 379,
-  "Created": "2022-12-17T14:23:47.2692571+01:00",
+  "SatelliteId": 525,
+  "Created": "2012-07-29T12:19:46.1326875+02:00",
   "CreatedBy": null,
-  "Updated": "2011-08-11T14:23:47.2692571+02:00",
+  "Updated": "2003-09-10T12:19:46.1326875+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Fisher Group",
-      "Description": "Multi-lateral explicit ability",
+      "Name": "Kessler-Legros",
+      "Description": "Switchable solution-oriented conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Fisher Group",
-      "Description": "Multi-lateral explicit ability",
+      "Name": "Kessler-Legros",
+      "Description": "Switchable solution-oriented conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 598,
-  "Created": "2022-12-30T14:23:47.2848818+01:00",
+  "SatelliteId": 681,
+  "Created": "1998-03-08T12:19:46.1326875+01:00",
   "CreatedBy": null,
-  "Updated": "2004-10-27T14:23:47.2848818+02:00",
+  "Updated": "1999-01-04T12:19:46.1326875+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Hickle, Rempel and Boehm",
-      "Description": "Fundamental incremental data-warehouse",
+      "Name": "Lindgren-Bradtke",
+      "Description": "Function-based value-added architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldLength": 818
         }
       }
     },
     {
-      "Name": "Hickle, Rempel and Boehm",
-      "Description": "Fundamental incremental data-warehouse",
+      "Name": "Lindgren-Bradtke",
+      "Description": "Function-based value-added architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldLength": 818
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

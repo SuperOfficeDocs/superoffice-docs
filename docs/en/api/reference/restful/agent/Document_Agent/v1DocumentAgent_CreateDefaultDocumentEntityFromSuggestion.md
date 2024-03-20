@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 475
+  "SuggestedDocumentId": 861
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 103,
+  "DocumentId": 70,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "ab",
-  "Name": "Koss-Kemmer",
-  "OurRef": "totam",
-  "YourRef": "sed",
-  "CreatedDate": "2023-03-12T14:23:46.3918288+01:00",
-  "UpdatedDate": "2021-11-03T14:23:46.3918288+01:00",
-  "Description": "Synchronised modular leverage",
+  "Attention": "illum",
+  "Header": "ut",
+  "Name": "Berge-Hansen",
+  "OurRef": "reiciendis",
+  "YourRef": "similique",
+  "CreatedDate": "2013-11-28T12:19:45.1954094+01:00",
+  "UpdatedDate": "2012-06-04T12:19:45.1954094+02:00",
+  "Description": "Distributed transitional task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-03-12T14:23:46.4074533+01:00",
-  "ExternalRef": "hic",
+  "Date": "2018-07-25T12:19:45.1954094+02:00",
+  "ExternalRef": "asperiores",
   "Completed": "Completed",
-  "ActiveLinks": 288,
+  "ActiveLinks": 389,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lindgren-DuBuque",
-      "Id": 483,
-      "Description": "Business-focused secondary open system",
-      "ExtraInfo": "sit",
-      "LinkId": 534,
+      "EntityName": "Hayes Inc and Sons",
+      "Id": 817,
+      "Description": "Fully-configurable leading edge paradigm",
+      "ExtraInfo": "cum",
+      "LinkId": 880,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 952
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 212,
-  "Snum": 99,
+  "SuggestedDocumentId": 932,
+  "Snum": 552,
   "UserDefinedFields": {
-    "SuperOffice:1": "Darion Greenfelder",
-    "SuperOffice:2": "Isabell Zboncak"
+    "SuperOffice:1": "222774507",
+    "SuperOffice:2": "1710843285"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "quia"
+    "CustomFields1": "veniam",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "2003-06-13T14:23:46.4074533+02:00",
-  "PublishTo": "1997-08-13T14:23:46.4074533+02:00",
-  "PublishFrom": "1997-06-25T14:23:46.4074533+02:00",
+  "PublishEventDate": "2002-04-09T12:19:45.1954094+02:00",
+  "PublishTo": "2021-03-11T12:19:45.1954094+01:00",
+  "PublishFrom": "2016-08-21T12:19:45.1954094+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

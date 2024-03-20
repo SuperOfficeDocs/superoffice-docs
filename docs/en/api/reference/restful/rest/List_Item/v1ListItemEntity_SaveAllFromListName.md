@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Hauck, Muller and Lemke",
-    "Tooltip": "velit",
+    "Id": 668,
+    "Name": "Pfannerstill Group",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 597,
-    "Rank": 235
+    "UdListDefinitionId": 760,
+    "Rank": 864
   },
   {
-    "Id": 44,
-    "Name": "Hauck, Muller and Lemke",
-    "Tooltip": "velit",
+    "Id": 668,
+    "Name": "Pfannerstill Group",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 597,
-    "Rank": 235
+    "UdListDefinitionId": 760,
+    "Rank": 864
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Wolff-Barrows",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 322,
-    "Rank": 443,
+    "Id": 328,
+    "Name": "Kub LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 744,
+    "Rank": 783,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 582
       }
     }
   }

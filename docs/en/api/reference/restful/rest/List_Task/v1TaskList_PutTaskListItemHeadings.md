@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 129,
-    "Name": "Willms, Lynch and Smith",
-    "Tooltip": "ut",
+    "HeadingId": 348,
+    "Name": "Hoeger Inc and Sons",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 272,
-    "UdListDefinitionId": 767
+    "Rank": 912,
+    "UdListDefinitionId": 453
   },
   {
-    "HeadingId": 129,
-    "Name": "Willms, Lynch and Smith",
-    "Tooltip": "ut",
+    "HeadingId": 348,
+    "Name": "Hoeger Inc and Sons",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 272,
-    "UdListDefinitionId": 767
+    "Rank": 912,
+    "UdListDefinitionId": 453
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 198,
-    "Name": "Bogisich-Quigley",
-    "Tooltip": "exercitationem",
+    "HeadingId": 597,
+    "Name": "King, Simonis and Wilderman",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "Rank": 736,
-    "UdListDefinitionId": 292,
+    "Rank": 391,
+    "UdListDefinitionId": 427,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldType": "System.Int32",
+        "FieldLength": 622
       }
     }
   }

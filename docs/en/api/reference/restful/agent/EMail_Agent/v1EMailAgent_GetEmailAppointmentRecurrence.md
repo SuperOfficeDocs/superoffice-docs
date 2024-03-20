@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 331
+  "MailItemId": 243
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 400,
-  "StartDate": "2022-01-14T14:23:46.4699533+01:00",
-  "EndDate": "2021-12-01T14:23:46.4699533+01:00",
-  "RecurrenceCounter": 475,
+  "RecurrenceId": 491,
+  "StartDate": "2014-05-10T12:19:45.2578956+02:00",
+  "EndDate": "2009-12-25T12:19:45.2578956+01:00",
+  "RecurrenceCounter": 378,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-10-20T14:23:46.4699533+02:00",
+      "Date": "2007-08-31T12:19:45.2578956+02:00",
       "IsConflict": true,
-      "Description": "Streamlined foreground moderator",
-      "DescriptionStyleHint": "Multi-tiered demand-driven analyzer",
-      "Tooltip": "nisi"
+      "Description": "Pre-emptive multi-state architecture",
+      "DescriptionStyleHint": "Upgradable radical firmware",
+      "Tooltip": "quia"
     },
     {
-      "Date": "2020-10-20T14:23:46.4699533+02:00",
+      "Date": "2007-08-31T12:19:45.2578956+02:00",
       "IsConflict": true,
-      "Description": "Streamlined foreground moderator",
-      "DescriptionStyleHint": "Multi-tiered demand-driven analyzer",
-      "Tooltip": "nisi"
+      "Description": "Pre-emptive multi-state architecture",
+      "DescriptionStyleHint": "Upgradable radical firmware",
+      "Tooltip": "quia"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

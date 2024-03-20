@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Mayert Group",
-    "ToolTip": "Est rerum nisi delectus incidunt.",
+    "Id": 829,
+    "Name": "Bradtke Inc and Sons",
+    "ToolTip": "Itaque porro totam non dolore atque sunt.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "consequuntur",
-    "ColorBlock": 635,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "1999-11-29T14:23:56.0252035+01:00",
+    "Rank": 715,
+    "Type": "voluptatum",
+    "ColorBlock": 500,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2017-07-20T12:19:54.367807+02:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Lehner, Robel and Kunde",
-        "ToolTip": "Minus ut ex qui doloribus magnam.",
+        "Id": 215,
+        "Name": "Pacocha Inc and Sons",
+        "ToolTip": "Libero magnam accusamus.",
         "Deleted": false,
-        "Rank": 32,
-        "Type": "id",
-        "ColorBlock": 566,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2011-03-29T14:23:56.0252035+02:00",
+        "Rank": 324,
+        "Type": "ab",
+        "ColorBlock": 670,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2017-01-15T12:19:54.367807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "accusantium",
-        "Hidden": false,
-        "FullName": "Dayton Bednar",
+        "ExtraInfo": "in",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Ford Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 423
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Carlie Joelle Keebler V",
+    "ExtraInfo": "nam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Troy Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldType": "System.Int32",
+        "FieldLength": 226
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 469,
-    "Name": "Bednar, Bauch and Barton",
-    "Tooltip": "facilis",
+    "HeadingId": 916,
+    "Name": "Wilkinson-Rath",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 721,
+    "Rank": 474,
+    "UdListDefinitionId": 843,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 344
       }
     }
   }

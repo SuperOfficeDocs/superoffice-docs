@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Trantow, Thompson and Schinner",
-    "ToolTip": "Et eos est.",
+    "Id": 970,
+    "Name": "Durgan-Stamm",
+    "ToolTip": "Consectetur delectus distinctio voluptatem.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "porro",
-    "ColorBlock": 840,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2018-01-21T14:23:56.1970747+01:00",
+    "Rank": 273,
+    "Type": "et",
+    "ColorBlock": 645,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2004-11-03T12:19:54.6958722+01:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Oberbrunner, Ward and Grady",
-        "ToolTip": "Illo saepe alias atque accusamus blanditiis perferendis sit.",
-        "Deleted": true,
-        "Rank": 21,
-        "Type": "voluptates",
-        "ColorBlock": 883,
-        "IconHint": "est",
+        "Id": 676,
+        "Name": "Rohan, Yost and Huels",
+        "ToolTip": "Voluptas quo iusto.",
+        "Deleted": false,
+        "Rank": 347,
+        "Type": "dignissimos",
+        "ColorBlock": 190,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2006-11-29T14:23:56.1970747+01:00",
+        "LastChanged": "2013-01-05T12:19:54.6958722+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "aut",
+        "ExtraInfo": "ullam",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Keshawn Cruickshank",
+        "FullName": "Esperanza Corkery DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "omnis",
+    "ExtraInfo": "eos",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Wava Sporer",
+    "FullName": "Ambrose Manuela Schultz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   }

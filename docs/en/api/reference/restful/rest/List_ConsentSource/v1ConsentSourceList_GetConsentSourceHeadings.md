@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Friesen-Bergnaum",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 260,
-    "UdListDefinitionId": 633,
+    "HeadingId": 861,
+    "Name": "McKenzie Inc and Sons",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 1002,
+    "UdListDefinitionId": 827,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 759
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Maggio Group",
-  "PersonId": 305
+  "ParameterName": "Hayes Group",
+  "PersonId": 858
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 633,
-  "Name": "Marquardt-Nienow",
-  "Value": "pariatur",
-  "CreatedDate": "2012-12-27T14:23:45.8605856+01:00",
-  "UpdatedDate": "2022-03-24T14:23:45.8605856+01:00",
-  "CreatedBy": "sunt",
-  "UpdatedBy": "repellendus",
+  "AudienceLayoutId": 879,
+  "Name": "Stark, Witting and Wisoky",
+  "Value": "quia",
+  "CreatedDate": "2020-03-09T12:19:44.5080652+01:00",
+  "UpdatedDate": "2013-04-04T12:19:44.5080652+02:00",
+  "CreatedBy": "dolorem",
+  "UpdatedBy": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldLength": 325
     }
   }
 }

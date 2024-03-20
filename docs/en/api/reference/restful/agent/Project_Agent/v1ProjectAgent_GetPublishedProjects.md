@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    348,
-    856
+    563,
+    918
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 783,
-    "Name": "Rippin LLC",
-    "Description": "Synergized client-server structure",
+    "ProjectId": 141,
+    "Name": "Heathcote, Graham and Reynolds",
+    "Description": "Function-based well-modulated knowledge base",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 870,
-    "AssociateFullName": "Kelsi Marks",
-    "TypeId": 832,
-    "Updated": "2010-09-01T14:23:47.1911342+02:00",
-    "StatusId": 962,
-    "Status": "eligendi",
-    "TextId": 865,
-    "PublishTo": "2010-10-09T14:23:47.1911342+02:00",
-    "PublishFrom": "1999-06-15T14:23:47.1911342+02:00",
+    "Type": "expedita",
+    "AssociateId": 487,
+    "AssociateFullName": "Harry Shanahan",
+    "TypeId": 373,
+    "Updated": "2016-03-24T12:19:46.038959+01:00",
+    "StatusId": 581,
+    "Status": "qui",
+    "TextId": 718,
+    "PublishTo": "2019-08-25T12:19:46.038959+02:00",
+    "PublishFrom": "2006-01-17T12:19:46.038959+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1813718",
-    "ActiveErpLinks": 391,
+    "ProjectNumber": "858492",
+    "ActiveErpLinks": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldType": "System.String",
+        "FieldLength": 187
       }
     }
   }

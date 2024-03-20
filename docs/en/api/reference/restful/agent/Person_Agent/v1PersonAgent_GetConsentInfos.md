@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 319
+  "PersonId": 815
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 452,
-    "Comment": "eos",
-    "Registered": "2006-08-07T14:23:47.0661361+02:00",
-    "RegisteredAssociateId": 216,
-    "Updated": "2023-12-10T14:23:47.0661361+01:00",
-    "UpdatedAssociateId": 132,
-    "LegalBaseId": 623,
-    "LegalBaseKey": "id",
-    "LegalBaseName": "Ebert-Senger",
-    "ConsentPurposeId": 633,
-    "ConsentPurposeKey": "quo",
-    "ConsentPurposeName": "Cormier Inc and Sons",
-    "ConsentSourceId": 365,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Towne-Hartmann",
+    "ConsentPersonId": 691,
+    "Comment": "exercitationem",
+    "Registered": "2003-12-08T12:19:45.7265371+01:00",
+    "RegisteredAssociateId": 779,
+    "Updated": "1998-08-06T12:19:45.7265371+02:00",
+    "UpdatedAssociateId": 216,
+    "LegalBaseId": 725,
+    "LegalBaseKey": "adipisci",
+    "LegalBaseName": "Kuhlman, Kris and Farrell",
+    "ConsentPurposeId": 653,
+    "ConsentPurposeKey": "a",
+    "ConsentPurposeName": "Mueller-Stehr",
+    "ConsentSourceId": 191,
+    "ConsentSourceKey": "nostrum",
+    "ConsentSourceName": "Runolfsdottir-Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 720
       }
     }
   }

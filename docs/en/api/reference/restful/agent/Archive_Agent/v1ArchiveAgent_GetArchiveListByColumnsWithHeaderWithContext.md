@@ -107,52 +107,52 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jones-Jaskolski",
+  "ProviderName": "McKenzie-Kuvalis",
   "Columns": [
-    "sit",
-    "laborum"
+    "voluptas",
+    "labore"
   ],
   "SortOrder": [
     {
-      "Name": "Von Inc and Sons",
+      "Name": "White-Funk",
       "Direction": "ASC"
     },
     {
-      "Name": "Von Inc and Sons",
+      "Name": "White-Funk",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Volkman-Nikolaus",
-      "Operator": "velit",
+      "Name": "Howe-Smith",
+      "Operator": "culpa",
       "Values": [
-        "quidem",
-        "at"
+        "quaerat",
+        "ea"
       ],
       "DisplayValues": [
-        "nemo",
-        "architecto"
+        "delectus",
+        "dolores"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 14,
+      "InterParenthesis": 286,
       "InterOperator": "And",
-      "UniqueHash": 877
+      "UniqueHash": 347
     }
   ],
   "Entities": [
-    "sint",
-    "et"
+    "qui",
+    "sed"
   ],
-  "Page": 494,
-  "PageSize": 790,
-  "Options": "quas",
-  "Context": "vel"
+  "Page": 877,
+  "PageSize": 606,
+  "Options": "numquam",
+  "Context": "voluptates"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 178,
+  "RowCount": 875,
   "Rows": [
     {
-      "EntityName": "Kovacek Inc and Sons",
-      "PrimaryKey": 777,
+      "EntityName": "Beer LLC",
+      "PrimaryKey": 225,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "eaque",
-          "LinkHint": "voluptates"
+          "DisplayValue": "ratione",
+          "TooltipHint": "odit",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "suscipit",
-      "StyleHint": "quia",
+      "LinkHint": "commodi",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 753
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

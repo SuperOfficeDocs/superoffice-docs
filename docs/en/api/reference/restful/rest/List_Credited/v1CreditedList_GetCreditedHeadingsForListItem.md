@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Medhurst, Hoppe and Tromp",
-    "ToolTip": "Quibusdam pariatur delectus explicabo totam et fugiat.",
+    "Id": 811,
+    "Name": "Hegmann, Jerde and Aufderhar",
+    "ToolTip": "Laudantium repellendus dolor adipisci.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "quos",
-    "ColorBlock": 380,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2006-02-03T14:23:56.0564526+01:00",
+    "Rank": 261,
+    "Type": "et",
+    "ColorBlock": 899,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "1997-12-18T12:19:54.383431+01:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Kub Group",
-        "ToolTip": "Molestiae maiores.",
-        "Deleted": false,
-        "Rank": 437,
-        "Type": "voluptate",
-        "ColorBlock": 497,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2015-11-05T14:23:56.0564526+01:00",
+        "Id": 498,
+        "Name": "Bogan-Connelly",
+        "ToolTip": "Omnis consequuntur eos libero sequi provident similique dolores.",
+        "Deleted": true,
+        "Rank": 895,
+        "Type": "iste",
+        "ColorBlock": 854,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "1996-11-16T12:19:54.383431+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Prof. Ocie Aletha Haag",
+        "ExtraInfo": "quo",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Kay Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Rebeca Dicki",
+    "ExtraInfo": "aut",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Prof. Herta Danielle Mueller DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 243
       }
     }
   }

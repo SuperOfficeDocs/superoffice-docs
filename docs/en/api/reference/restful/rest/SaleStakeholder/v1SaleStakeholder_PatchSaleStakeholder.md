@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sequi",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sequi",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Walker LLC",
-  "Comment": "molestiae",
-  "StakeholderRoleId": 796,
-  "CountryId": 400,
-  "PersonId": 564,
-  "EmailDescription": "marian.barton@murphy.ca",
-  "EmailId": 783,
-  "EmailAddress": "brennon.smith@schinnercummings.ca",
-  "PhoneId": 639,
-  "ContactName": "Donnelly, Blanda and Feeney",
-  "ContactId": 467,
-  "SaleId": 69,
-  "Mrmrs": "eligendi",
-  "Firstname": "Aniya",
-  "MiddleName": "Kuhlman Group",
-  "Lastname": "Walsh",
-  "SaleStakeholderId": 233,
-  "Rank": 982,
-  "Phone": "360.786.9974 x08909",
+  "StakeholderRoleName": "Hickle Inc and Sons",
+  "Comment": "et",
+  "StakeholderRoleId": 611,
+  "CountryId": 568,
+  "PersonId": 233,
+  "EmailDescription": "mable.oconnell@kovacek.co.uk",
+  "EmailId": 547,
+  "EmailAddress": "dagmar_hudson@funk.biz",
+  "PhoneId": 666,
+  "ContactName": "Kassulke, Franecki and Ondricka",
+  "ContactId": 835,
+  "SaleId": 587,
+  "Mrmrs": "recusandae",
+  "Firstname": "Adonis",
+  "MiddleName": "Anderson-Donnelly",
+  "Lastname": "Turcotte",
+  "SaleStakeholderId": 559,
+  "Rank": 184,
+  "Phone": "148-346-5642 x5282",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 329
     }
   },
   "_Links": {

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 347
+  "ShipmentAddrId": 940
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2017-05-20T14:23:46.9255115+02:00",
+  "SendingTime": "2002-07-21T12:19:45.585943+02:00",
   "Status": "Blocked",
-  "ShipmentId": 323,
-  "ShipmentDescription": "Synchronised methodical structure",
-  "FromAddress": "eligendi",
-  "Configuration": 523,
-  "ContactId": 835,
-  "ContactName": "Marks, Boehm and Lemke",
-  "PersonId": 9,
-  "PersonFullName": "Jeanne Jakubowski PhD",
-  "ShipmentType": "in",
-  "MessageId": 331,
-  "MessageSubject": "non",
-  "DocumentMessageId": 572,
-  "Opened": "2008-05-05T14:23:46.9255115+02:00",
-  "LinkClicks": 990,
+  "ShipmentId": 402,
+  "ShipmentDescription": "Devolved dedicated hub",
+  "FromAddress": "rerum",
+  "Configuration": 365,
+  "ContactId": 620,
+  "ContactName": "Sauer, Heidenreich and Rau",
+  "PersonId": 764,
+  "PersonFullName": "Adriana Rogahn",
+  "ShipmentType": "neque",
+  "MessageId": 516,
+  "MessageSubject": "impedit",
+  "DocumentMessageId": 637,
+  "Opened": "2000-03-19T12:19:45.585943+01:00",
+  "LinkClicks": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

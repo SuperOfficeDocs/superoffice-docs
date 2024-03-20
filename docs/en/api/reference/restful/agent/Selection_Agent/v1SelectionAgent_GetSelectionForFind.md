@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Renner Group",
-  "TypicalSearchId": 247
+  "EntityName": "Wiegand, Murazik and Muller",
+  "TypicalSearchId": 365
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kulas, Wilderman and Prosacco",
-  "SelectionId": 625,
-  "CanSaveAsSelection": false,
-  "MainHeading": "illum",
-  "FilterScreenHeading": "laboriosam",
-  "SelectionEntityHeading": "magni",
+  "ProviderName": "Eichmann Inc and Sons",
+  "SelectionId": 751,
+  "CanSaveAsSelection": true,
+  "MainHeading": "aut",
+  "FilterScreenHeading": "saepe",
+  "SelectionEntityHeading": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldLength": 860
     }
   }
 }

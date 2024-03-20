@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Turner-Collier",
-    "Tooltip": "labore",
-    "Deleted": false,
-    "UdListDefinitionId": 821,
-    "Rank": 873,
+    "Id": 76,
+    "Name": "Herzog LLC",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "UdListDefinitionId": 566,
+    "Rank": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 139
       }
     }
   }

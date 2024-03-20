@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 573,
-    "Name": "Glover, Swift and Hackett",
-    "Tooltip": "deleniti",
+    "HeadingId": 315,
+    "Name": "Marks-Ullrich",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 953
+    "Rank": 582,
+    "UdListDefinitionId": 811
   },
   {
-    "HeadingId": 573,
-    "Name": "Glover, Swift and Hackett",
-    "Tooltip": "deleniti",
+    "HeadingId": 315,
+    "Name": "Marks-Ullrich",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 953
+    "Rank": 582,
+    "UdListDefinitionId": 811
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 146,
-    "Name": "Marks Group",
-    "Tooltip": "optio",
-    "Deleted": false,
-    "Rank": 639,
-    "UdListDefinitionId": 975,
+    "HeadingId": 261,
+    "Name": "Schultz, D'Amore and Von",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 229,
+    "UdListDefinitionId": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldLength": 19
       }
     }
   }

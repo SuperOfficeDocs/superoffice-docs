@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 437,
-  "Section": "ea",
-  "Key": "deleniti",
-  "Name": "Heidenreich LLC",
+  "PrefDescId": 303,
+  "Section": "laborum",
+  "Key": "sit",
+  "Name": "Gerlach, Gerhold and Bradtke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable reciprocal software",
+  "Description": "Persevering didactic methodology",
   "IsBuiltin": true,
-  "TableName": "Krajcik, Zboncak and Fay",
-  "UserDefinedListId": 458,
-  "Rank": 294,
-  "SubGroup": "maiores",
-  "MinLevel": 749,
-  "MaxValue": 390,
-  "MinValue": 214,
-  "RequiredLicense": "non"
+  "TableName": "Hackett, Friesen and Hamill",
+  "UserDefinedListId": 134,
+  "Rank": 168,
+  "SubGroup": "exercitationem",
+  "MinLevel": 997,
+  "MaxValue": 216,
+  "MinValue": 265,
+  "RequiredLicense": "eum"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 6,
-  "Section": "illo",
-  "Key": "animi",
-  "Name": "Anderson Group",
+  "PrefDescId": 564,
+  "Section": "exercitationem",
+  "Key": "consequatur",
+  "Name": "Cummerata, Roberts and O'Hara",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic full-range definition",
+  "Description": "Robust regional portal",
   "IsBuiltin": false,
-  "TableName": "Kessler, Willms and Schultz",
-  "UserDefinedListId": 124,
-  "Rank": 491,
-  "SubGroup": "dicta",
-  "MinLevel": 799,
-  "MaxValue": 576,
-  "MinValue": 505,
-  "RequiredLicense": "nihil",
+  "TableName": "Abshire Inc and Sons",
+  "UserDefinedListId": 675,
+  "Rank": 971,
+  "SubGroup": "porro",
+  "MinLevel": 434,
+  "MaxValue": 879,
+  "MinValue": 34,
+  "RequiredLicense": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

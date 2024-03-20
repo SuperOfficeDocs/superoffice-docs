@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "tenetur"
+  "UniqueIdentifier": "impedit"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
-  "Name": "Dibbert-Nicolas",
-  "Description": "Visionary 24/7 algorithm",
-  "IncludeId": "sunt",
-  "Source": "aut",
-  "Registered": "1996-11-21T14:23:46.2043319+01:00",
+  "UniqueIdentifier": "facere",
+  "Name": "Bogisich, Schultz and Batz",
+  "Description": "Up-sized next generation adapter",
+  "IncludeId": "quia",
+  "Source": "et",
+  "Registered": "2023-09-07T12:19:44.9923255+02:00",
   "RegisteredBy": "dolores",
-  "Updated": "2023-01-06T14:23:46.2043319+01:00",
-  "UpdatedBy": "quia",
-  "Path": "voluptatibus",
+  "Updated": "2015-06-16T12:19:44.9923255+02:00",
+  "UpdatedBy": "atque",
+  "Path": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

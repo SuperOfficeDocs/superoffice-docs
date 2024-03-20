@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 380,
-    "ERPName": "Schowalter LLC",
-    "DisplayName": "Tillman Group",
-    "DisplayDescription": "Secured real-time firmware",
-    "Rank": 301,
-    "ConnectorName": "Rolfson, Ritchie and Dibbert",
-    "ErpConnectionId": 593,
-    "ExtraData": "voluptatem",
-    "IsAvailable": false,
+    "QuoteConnectionId": 868,
+    "ERPName": "Hills-McKenzie",
+    "DisplayName": "Herzog, Schmitt and Nitzsche",
+    "DisplayDescription": "Reactive leading edge matrix",
+    "Rank": 344,
+    "ConnectorName": "Bashirian LLC",
+    "ErpConnectionId": 682,
+    "ExtraData": "omnis",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 85,
-        "ERPPriceListKey": "sint",
-        "QuoteConnectionId": 210,
-        "Name": "Haag Inc and Sons",
-        "Description": "Diverse impactful concept",
-        "Currency": "impedit",
-        "CurrencyName": "Lebsack LLC",
-        "ValidFrom": "2009-02-02T14:23:47.2380075+01:00",
-        "ValidTo": "2016-05-30T14:23:47.2380075+02:00",
-        "IsActive": true,
+        "PriceListId": 602,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 868,
+        "Name": "Zulauf Inc and Sons",
+        "Description": "Pre-emptive 3rd generation customer loyalty",
+        "Currency": "velit",
+        "CurrencyName": "Schmeler-Swaniawski",
+        "ValidFrom": "2012-02-13T12:19:46.0858192+01:00",
+        "ValidTo": "2007-02-14T12:19:46.0858192+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldLength": 380
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      716,
-      329
+      555,
+      767
     ],
     "AssociateAccessIds": [
-      833,
-      401
+      56,
+      517
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 831
       }
     }
   }

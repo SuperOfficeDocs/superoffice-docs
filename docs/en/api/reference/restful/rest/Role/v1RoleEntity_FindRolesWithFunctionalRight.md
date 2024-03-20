@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Lehner, Deckow and Wisozk",
-    "ToolTip": "Neque non explicabo fuga aspernatur qui.",
-    "Deleted": true,
-    "Rank": 209,
-    "Type": "sint",
+    "Id": 329,
+    "Name": "VonRueden-Towne",
+    "ToolTip": "Similique eaque corporis qui dignissimos.",
+    "Deleted": false,
+    "Rank": 73,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Weimann, Tromp and Schowalter",
-        "ToolTip": "Quo nihil laudantium eaque reprehenderit minima ducimus nostrum.",
-        "Deleted": true,
-        "Rank": 509,
-        "Type": "ullam",
+        "Id": 704,
+        "Name": "Simonis-Jast",
+        "ToolTip": "Assumenda quas autem in quis enim.",
+        "Deleted": false,
+        "Rank": 392,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 775,
-        "ExtraInfo": "ab",
-        "StyleHint": "occaecati",
-        "FullName": "Brennan Noemie Schultz MD",
+        "IconHint": "officiis",
+        "ColorBlock": 357,
+        "ExtraInfo": "fuga",
+        "StyleHint": "ex",
+        "FullName": "Armando Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 650
+            "FieldType": "System.String",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 983,
-    "ExtraInfo": "ipsam",
-    "StyleHint": "et",
-    "FullName": "Yazmin Maudie Dicki MD",
+    "IconHint": "aut",
+    "ColorBlock": 846,
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "animi",
+    "FullName": "Emie Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

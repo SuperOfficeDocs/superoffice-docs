@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 935,
+  "UdListDefinitionId": 954,
   "Items": [
     {
-      "Id": 814,
-      "Name": "Swaniawski-Moore",
-      "Tooltip": "ducimus",
-      "Deleted": true,
-      "UdListDefinitionId": 326,
-      "Rank": 478
+      "Id": 951,
+      "Name": "Koepp, Hettinger and Schuppe",
+      "Tooltip": "perspiciatis",
+      "Deleted": false,
+      "UdListDefinitionId": 253,
+      "Rank": 198
     },
     {
-      "Id": 814,
-      "Name": "Swaniawski-Moore",
-      "Tooltip": "ducimus",
-      "Deleted": true,
-      "UdListDefinitionId": 326,
-      "Rank": 478
+      "Id": 951,
+      "Name": "Koepp, Hettinger and Schuppe",
+      "Tooltip": "perspiciatis",
+      "Deleted": false,
+      "UdListDefinitionId": 253,
+      "Rank": 198
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Schoen-Volkman",
-    "Tooltip": "rerum",
+    "Id": 946,
+    "Name": "Pacocha-Reichel",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "UdListDefinitionId": 572,
-    "Rank": 53,
+    "UdListDefinitionId": 640,
+    "Rank": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 99
       }
     }
   }

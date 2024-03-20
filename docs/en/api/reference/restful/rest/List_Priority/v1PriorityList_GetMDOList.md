@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=ea
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Jacobson-Doyle",
-    "ToolTip": "Similique omnis corporis fuga ullam quis laboriosam.",
+    "Id": 512,
+    "Name": "Hand Inc and Sons",
+    "ToolTip": "Reiciendis ratione cupiditate nulla et omnis unde tenetur.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "nam",
+    "Rank": 997,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Prohaska Group",
-        "ToolTip": "Ut quasi eius vel commodi eligendi.",
-        "Deleted": true,
-        "Rank": 73,
+        "Id": 643,
+        "Name": "Dickinson, Moen and Kirlin",
+        "ToolTip": "Non vel harum nisi incidunt in.",
+        "Deleted": false,
+        "Rank": 539,
         "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 491,
-        "ExtraInfo": "quae",
+        "IconHint": "ut",
+        "ColorBlock": 69,
+        "ExtraInfo": "libero",
         "StyleHint": "est",
-        "FullName": "Aleen Pfeffer",
+        "FullName": "Prof. Renee Albertha Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 211
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 885,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
-    "FullName": "Mr. Marietta Ludwig Hammes IV",
+    "IconHint": "dolores",
+    "ColorBlock": 477,
+    "ExtraInfo": "molestias",
+    "StyleHint": "quia",
+    "FullName": "Helene Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldLength": 678
       }
     }
   }

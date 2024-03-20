@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 548,
-  "Name": "Nikolaus, Wilderman and McLaughlin",
-  "Tooltip": "et",
-  "Rank": 882,
-  "DoctmplId": 803,
-  "Header": "et",
-  "OurRef": "voluptatum",
-  "Deleted": true,
+  "SuggestedDocumentId": 715,
+  "Name": "Hand, Lemke and Heidenreich",
+  "Tooltip": "molestiae",
+  "Rank": 602,
+  "DoctmplId": 90,
+  "Header": "mollitia",
+  "OurRef": "in",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 155,
-  "Name": "Hudson, Lang and Zboncak",
-  "Tooltip": "nihil",
-  "Rank": 61,
-  "DoctmplId": 576,
-  "Header": "ut",
-  "OurRef": "veritatis",
-  "Deleted": true,
+  "SuggestedDocumentId": 842,
+  "Name": "Predovic-Jacobi",
+  "Tooltip": "totam",
+  "Rank": 270,
+  "DoctmplId": 143,
+  "Header": "sed",
+  "OurRef": "omnis",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 666
     }
   }
 }

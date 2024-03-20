@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=110
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=798
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 534,
-  "UniqueIdentifier": "non",
-  "Name": "Batz, Raynor and Harvey",
-  "Description": "Balanced dedicated synergy",
-  "IncludeId": "sint",
-  "HierarchyId": 457,
-  "Source": "quo",
-  "Registered": "2002-08-09T14:23:46.2043319+02:00",
-  "RegisteredAssociateId": 363,
-  "Updated": "2003-03-03T14:23:46.2043319+01:00",
-  "UpdatedAssociateId": 763,
+  "EjscriptId": 666,
+  "UniqueIdentifier": "esse",
+  "Name": "Bruen, Koepp and Turner",
+  "Description": "Intuitive 24 hour matrices",
+  "IncludeId": "dolorem",
+  "HierarchyId": 395,
+  "Source": "qui",
+  "Registered": "1998-09-23T12:19:44.9923255+02:00",
+  "RegisteredAssociateId": 335,
+  "Updated": "2004-10-17T12:19:44.9923255+02:00",
+  "UpdatedAssociateId": 463,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 167
     }
   }
 }

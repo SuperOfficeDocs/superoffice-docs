@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 63,
-  "QuoteAlternativeName": "Johns, Douglas and Bayer",
-  "QuoteAlternativeDescription": "Implemented 5th generation product"
+  "QuoteVersionId": 334,
+  "QuoteAlternativeName": "Leannon-Harris",
+  "QuoteAlternativeDescription": "Universal homogeneous workforce"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 890,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 517,
-  "Name": "Gleichner-Turcotte",
-  "Description": "Synchronised 24 hour capability",
+  "QuoteAlternativeId": 889,
+  "ERPQuoteAlternativeKey": "et",
+  "QuoteVersionId": 389,
+  "Name": "Streich, Schimmel and Pfeffer",
+  "Description": "Integrated mission-critical algorithm",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18127.056,
-  "ERPDiscountAmount": 10147.892,
-  "DiscountPercent": 21690.414,
-  "DiscountAmount": 1823.9879999999998,
+  "ERPDiscountPercent": 29393.786,
+  "ERPDiscountAmount": 24200.748,
+  "DiscountPercent": 11069.288,
+  "DiscountAmount": 6371.422,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "facere",
-  "VAT": 19330.512,
-  "EarningPercent": 23761.987999999998,
-  "EarningAmount": 23953.162,
-  "SubTotal": 15375.403999999999,
-  "TotalPrice": 25388.534,
-  "ExtraField1": "ut",
-  "ExtraField2": "minus",
-  "ExtraField3": "dolor",
-  "ExtraField4": "est",
-  "ExtraField5": "non",
+  "VATInfo": "laudantium",
+  "VAT": 6706.76,
+  "EarningPercent": 5819.838,
+  "EarningAmount": 4998.73,
+  "SubTotal": 10777.826,
+  "TotalPrice": 19399.46,
+  "ExtraField1": "officia",
+  "ExtraField2": "ea",
+  "ExtraField3": "provident",
+  "ExtraField4": "quo",
+  "ExtraField5": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 270
     }
   }
 }

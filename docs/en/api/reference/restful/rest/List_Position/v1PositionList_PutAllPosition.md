@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Fritsch Inc and Sons",
-    "Tooltip": "ut",
+    "Id": 848,
+    "Name": "Spinka Inc and Sons",
+    "Tooltip": "odio",
     "Deleted": false,
-    "UdListDefinitionId": 381,
-    "Rank": 432
+    "UdListDefinitionId": 553,
+    "Rank": 460
   },
   {
-    "Id": 225,
-    "Name": "Fritsch Inc and Sons",
-    "Tooltip": "ut",
+    "Id": 848,
+    "Name": "Spinka Inc and Sons",
+    "Tooltip": "odio",
     "Deleted": false,
-    "UdListDefinitionId": 381,
-    "Rank": 432
+    "UdListDefinitionId": 553,
+    "Rank": 460
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Spinka, Welch and Bashirian",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "UdListDefinitionId": 171,
-    "Rank": 45,
+    "Id": 487,
+    "Name": "Homenick, Cassin and Von",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "UdListDefinitionId": 101,
+    "Rank": 941,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

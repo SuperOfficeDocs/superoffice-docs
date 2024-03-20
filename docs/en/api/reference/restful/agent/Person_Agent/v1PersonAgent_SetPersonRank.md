@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 418,
-  "DesiredRank": 247
+  "PersonId": 107,
+  "DesiredRank": 83
 }
 ```
 

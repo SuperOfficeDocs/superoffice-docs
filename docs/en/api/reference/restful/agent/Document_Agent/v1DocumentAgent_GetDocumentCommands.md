@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 21,
+  "DocumentId": 448,
   "AllowedReturnTypes": [
-    "molestias",
-    "sit"
+    "voluptate",
+    "voluptatem"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tillman Inc and Sons",
-    "DisplayName": "Bashirian Inc and Sons",
-    "DisplayTooltip": "esse",
-    "IconHint": "incidunt",
+    "Name": "Bauch-Ryan",
+    "DisplayName": "Wisozk, Schroeder and Stanton",
+    "DisplayTooltip": "nulla",
+    "IconHint": "asperiores",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Tillman Inc and Sons",
-    "DisplayName": "Bashirian Inc and Sons",
-    "DisplayTooltip": "esse",
-    "IconHint": "incidunt",
+    "Name": "Bauch-Ryan",
+    "DisplayName": "Wisozk, Schroeder and Stanton",
+    "DisplayTooltip": "nulla",
+    "IconHint": "asperiores",
     "ReturnType": "CustomGui"
   }
 ]

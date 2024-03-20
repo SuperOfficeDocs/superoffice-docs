@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 866,
+  "DocumentId": 142,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nemo",
-  "Header": "quia",
-  "Name": "Stokes-Ortiz",
-  "OurRef": "et",
-  "YourRef": "ut",
-  "CreatedDate": "2004-06-04T14:23:55.1333981+02:00",
-  "UpdatedDate": "2018-05-05T14:23:55.1333981+02:00",
-  "Description": "Configurable optimizing structure",
+  "Attention": "non",
+  "Header": "amet",
+  "Name": "Berge-Schmidt",
+  "OurRef": "ex",
+  "YourRef": "non",
+  "CreatedDate": "2020-11-14T12:19:53.5555078+01:00",
+  "UpdatedDate": "2017-10-25T12:19:53.5555078+02:00",
+  "Description": "Self-enabling intangible solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-14T14:23:55.1490211+01:00",
-  "ExternalRef": "explicabo",
+  "Date": "2022-04-18T12:19:53.5555078+02:00",
+  "ExternalRef": "vitae",
   "Completed": "Completed",
-  "ActiveLinks": 351,
+  "ActiveLinks": 225,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McLaughlin Inc and Sons",
-      "Id": 710,
-      "Description": "Robust explicit implementation",
-      "ExtraInfo": "in",
-      "LinkId": 315,
+      "EntityName": "Morissette, Cartwright and Nader",
+      "Id": 413,
+      "Description": "Proactive background solution",
+      "ExtraInfo": "sit",
+      "LinkId": 255,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 139,
-  "Snum": 75,
+  "SuggestedDocumentId": 534,
+  "Snum": 937,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Hallie Wunsch Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Bria Feest",
+    "SuperOffice:2": "1765539082"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "quis"
+    "CustomFields1": "maiores",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2022-01-06T14:23:55.1490211+01:00",
-  "PublishTo": "2004-05-19T14:23:55.1490211+02:00",
-  "PublishFrom": "2017-01-08T14:23:55.1490211+01:00",
+  "PublishEventDate": "2023-01-08T12:19:53.5555078+01:00",
+  "PublishTo": "2001-07-23T12:19:53.5555078+02:00",
+  "PublishFrom": "2006-06-01T12:19:53.5555078+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 69,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 950
         }
       }
     },
     {
-      "VisibleId": 69,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 950
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 483
     }
   }
 }

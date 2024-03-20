@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 822
+  "TicketEntityId": 956
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 535,
-    "Name": "Mertz Inc and Sons",
-    "ContentType": "repellendus",
-    "AttSize": 466,
+    "AttachmentId": 412,
+    "Name": "Okuneva LLC",
+    "ContentType": "ut",
+    "AttSize": 88,
     "InlineImage": false,
-    "ContentId": "dolore",
-    "AuthKey": "et",
-    "IsSafeFileExtension": false,
+    "ContentId": "exercitationem",
+    "AuthKey": "provident",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

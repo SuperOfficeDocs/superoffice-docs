@@ -84,35 +84,35 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 153,
+  "SelectionId": 812,
   "Criteria": [
     {
-      "Name": "Hauck, Mayer and Hyatt",
-      "Operator": "dolor",
+      "Name": "Abshire Group",
+      "Operator": "distinctio",
       "Values": [
-        "non",
-        "nam"
+        "at",
+        "nostrum"
       ],
       "DisplayValues": [
-        "enim",
-        "ut"
+        "quia",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 525,
+      "InterParenthesis": 776,
       "InterOperator": "And",
-      "UniqueHash": 612
+      "UniqueHash": 606
     }
   ],
-  "Filter": "debitis"
+  "Filter": "quisquam"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler LLC",
-    "Operator": "quidem",
+    "Name": "Kozey LLC",
+    "Operator": "est",
     "Values": [
-      "ut",
-      "itaque"
+      "tempore",
+      "delectus"
     ],
     "DisplayValues": [
-      "tenetur",
-      "velit"
+      "dolores",
+      "ipsum"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Dietrich-Morissette",
-        "Operator": "fugit",
+        "Name": "Bosco Group",
+        "Operator": "at",
         "Values": [
-          "accusamus",
-          "et"
+          "voluptatem",
+          "aliquam"
         ],
         "DisplayValues": [
-          "quo",
-          "ut"
+          "nam",
+          "praesentium"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 169,
+        "InterParenthesis": 587,
         "InterOperator": "And",
-        "UniqueHash": 301
+        "UniqueHash": 77
       }
     ],
-    "InterParenthesis": 403,
+    "InterParenthesis": 14,
     "InterOperator": "And",
-    "UniqueHash": 589
+    "UniqueHash": 328
   }
 ]
 ```

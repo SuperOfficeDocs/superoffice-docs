@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 80,
-  "ParentId": 270,
-  "Name": "Doyle-Davis",
-  "Fullname": "qui",
-  "CategoryMaster": 204,
+  "TicketCategoryId": 428,
+  "ParentId": 882,
+  "Name": "Daniel LLC",
+  "Fullname": "delectus",
+  "CategoryMaster": 855,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Smith, Abbott and Kutch",
+  "ExternalName": "Crooks-Reinger",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 628,
-  "ReplyTemplate": 750,
-  "NotificationEmail": "madisyn_walter@strosin.ca",
+  "AssignmentLag": 805,
+  "ReplyTemplate": 302,
+  "NotificationEmail": "jana.wisoky@streich.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 85,
+  "EffectiveReplyTemplateId": 601,
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "illo"
+    "CustomFields1": "illo",
+    "CustomFields2": "vel"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 238,
-  "ParentId": 869,
-  "Name": "Hermiston, Quigley and Ruecker",
-  "Fullname": "iure",
-  "CategoryMaster": 691,
+  "TicketCategoryId": 770,
+  "ParentId": 521,
+  "Name": "Bergnaum Inc and Sons",
+  "Fullname": "eius",
+  "CategoryMaster": 381,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Torp Inc and Sons",
+  "ExternalName": "Kirlin-Pfannerstill",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 360,
-  "ReplyTemplate": 361,
-  "NotificationEmail": "wilber@borer.info",
+  "AssignmentLag": 42,
+  "ReplyTemplate": 530,
+  "NotificationEmail": "tatyana@labadie.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 280,
+  "EffectiveReplyTemplateId": 443,
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "et"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "quas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 338
     }
   }
 }

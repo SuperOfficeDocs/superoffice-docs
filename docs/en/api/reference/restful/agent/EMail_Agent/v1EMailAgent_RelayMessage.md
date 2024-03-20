@@ -74,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "nihil",
-  "From": "saepe",
+  "Rfc822": "voluptatibus",
+  "From": "qui",
   "Recipients": [
-    "ut",
-    "harum"
+    "qui",
+    "ad"
   ]
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lindgren-Gutmann",
-  "Comment": "rerum",
-  "StakeholderRoleId": 60,
-  "CountryId": 889,
-  "PersonId": 646,
-  "EmailDescription": "adan@toy.name",
-  "EmailId": 906,
-  "EmailAddress": "kameron@larson.biz",
-  "PhoneId": 495,
-  "ContactName": "Franecki-Mante",
-  "ContactId": 774,
-  "SaleId": 578,
-  "Mrmrs": "voluptates",
-  "Firstname": "Robert",
-  "MiddleName": "Toy, Ondricka and Howe",
-  "Lastname": "Kihn",
-  "SaleStakeholderId": 472,
-  "Rank": 713,
-  "Phone": "517-132-2298",
+  "StakeholderRoleName": "Fadel-Keebler",
+  "Comment": "ipsum",
+  "StakeholderRoleId": 786,
+  "CountryId": 383,
+  "PersonId": 205,
+  "EmailDescription": "maryse@bartell.name",
+  "EmailId": 573,
+  "EmailAddress": "floyd_schroeder@willms.name",
+  "PhoneId": 460,
+  "ContactName": "Hickle LLC",
+  "ContactId": 901,
+  "SaleId": 753,
+  "Mrmrs": "dolor",
+  "Firstname": "Elijah",
+  "MiddleName": "Kerluke, Kunze and McClure",
+  "Lastname": "Borer",
+  "SaleStakeholderId": 611,
+  "Rank": 287,
+  "Phone": "445.305.1980 x377",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

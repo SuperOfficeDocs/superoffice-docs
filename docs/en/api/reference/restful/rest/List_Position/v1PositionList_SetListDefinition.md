@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Kuphal Inc and Sons",
-  "Tooltip": "temporibus",
+  "Id": 838,
+  "Name": "Hermiston, Prohaska and Price",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 485,
-  "IsCustomList": false,
+  "Rank": 410,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Hyatt LLC",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "Rank": 492,
-  "IsCustomList": false,
+  "Id": 103,
+  "Name": "Schuster, Purdy and Feeney",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 262,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 998
     }
   }
 }

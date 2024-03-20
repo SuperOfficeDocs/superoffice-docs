@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Bode Inc and Sons",
-    "Tooltip": "velit",
+    "Id": 480,
+    "Name": "Langosh, Rolfson and Wilkinson",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 66
+    "UdListDefinitionId": 189,
+    "Rank": 527
   },
   {
-    "Id": 353,
-    "Name": "Bode Inc and Sons",
-    "Tooltip": "velit",
+    "Id": 480,
+    "Name": "Langosh, Rolfson and Wilkinson",
+    "Tooltip": "sit",
     "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 66
+    "UdListDefinitionId": 189,
+    "Rank": 527
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Hamill-DuBuque",
-    "Tooltip": "velit",
+    "Id": 116,
+    "Name": "Bode-Gaylord",
+    "Tooltip": "vitae",
     "Deleted": false,
     "UdListDefinitionId": 756,
-    "Rank": 431,
+    "Rank": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 256
       }
     }
   }

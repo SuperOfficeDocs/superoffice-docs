@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=repellat
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=sequi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Runte Group",
-    "ToolTip": "Accusamus quos.",
+    "Id": 735,
+    "Name": "Koch-Gerhold",
+    "ToolTip": "Perspiciatis dolorem necessitatibus.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "quia",
+    "Rank": 9,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Davis, Lockman and Halvorson",
-        "ToolTip": "Eos autem quia molestias.",
-        "Deleted": true,
-        "Rank": 543,
-        "Type": "sunt",
+        "Id": 154,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Explicabo voluptas quas eum.",
+        "Deleted": false,
+        "Rank": 323,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 645,
-        "ExtraInfo": "rem",
-        "StyleHint": "recusandae",
-        "FullName": "Watson Turcotte",
+        "IconHint": "voluptatibus",
+        "ColorBlock": 65,
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
+        "FullName": "Jasen Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldLength": 219
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 275,
-    "ExtraInfo": "et",
-    "StyleHint": "suscipit",
-    "FullName": "Marie Rowe",
+    "IconHint": "voluptatem",
+    "ColorBlock": 526,
+    "ExtraInfo": "vitae",
+    "StyleHint": "fugiat",
+    "FullName": "Zoey Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 526
       }
     }
   }

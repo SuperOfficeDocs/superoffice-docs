@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Glover Inc and Sons",
-  "DeviceName": "Fadel, Schultz and Stracke",
-  "DeviceIdentifier": "commodi"
+  "ApplicationName": "Miller LLC",
+  "DeviceName": "Herman-Yundt",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 833,
-  "Name": "Leuschke Inc and Sons",
-  "CreatedDate": "2022-09-07T14:23:46.7524806+02:00",
-  "UpdatedDate": "2013-02-04T14:23:46.7524806+01:00",
-  "AssociateFullName": "Robyn Boyer",
-  "CreatedBy": "qui",
-  "UpdatedBy": "ea",
-  "DeviceIdentifier": "deserunt",
-  "ForeignAppId": 91,
+  "ForeignDeviceId": 705,
+  "Name": "Price-Leffler",
+  "CreatedDate": "1999-05-03T12:19:45.4141069+02:00",
+  "UpdatedDate": "2014-04-29T12:19:45.4141069+02:00",
+  "AssociateFullName": "Mr. Cory Gudrun Bahringer Jr.",
+  "CreatedBy": "vitae",
+  "UpdatedBy": "odio",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 309,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 253
     }
   }
 }

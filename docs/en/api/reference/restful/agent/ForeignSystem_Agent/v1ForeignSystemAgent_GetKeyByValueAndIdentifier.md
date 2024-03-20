@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Smith-Rolfson",
-  "DeviceName": "Ankunding Inc and Sons",
-  "DeviceIdentifier": "repellat",
-  "KeyName": "Runte-Hermiston",
-  "KeyValue": "quia",
-  "TableName": "Kihn-Gutmann"
+  "ApplicationName": "Littel, Bogisich and Boyle",
+  "DeviceName": "Crooks, Gleason and Predovic",
+  "DeviceIdentifier": "ipsum",
+  "KeyName": "Jacobi, Krajcik and Bailey",
+  "KeyValue": "quas",
+  "TableName": "Cummerata Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestiae",
-  "Value": "reiciendis",
-  "RecordId": 284,
-  "CreatedDate": "2019-03-27T14:23:46.7524806+01:00",
-  "UpdatedDate": "2009-08-03T14:23:46.7524806+02:00",
-  "UpdatedBy": "totam",
-  "CreatedBy": "nihil",
-  "TableName": "Kutch-Abshire",
+  "Key": "vero",
+  "Value": "ipsam",
+  "RecordId": 539,
+  "CreatedDate": "2009-04-03T12:19:45.4297292+02:00",
+  "UpdatedDate": "2006-08-23T12:19:45.4297292+02:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "aut",
+  "TableName": "Frami, Considine and Moen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldLength": 930
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 976,
-  "ColumnId": 446,
-  "FieldDefault": "illum",
-  "FieldHeight": 539,
-  "FieldLabel": "officia",
-  "FieldLeft": 8,
-  "FieldTop": 851,
+  "UDefFieldId": 240,
+  "ColumnId": 735,
+  "FieldDefault": "ipsa",
+  "FieldHeight": 387,
+  "FieldLabel": "quia",
+  "FieldLeft": 789,
+  "FieldTop": 535,
   "FieldType": "Checkbox",
-  "FieldWidth": 838,
-  "FormatMask": "corporis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 537,
-  "LabelLeft": 369,
-  "LabelTop": 48,
-  "LabelWidth": 69,
-  "LastVersionId": 288,
-  "ListTableId": 756,
-  "IsMandatory": false,
+  "FieldWidth": 833,
+  "FormatMask": "excepturi",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 149,
+  "LabelLeft": 712,
+  "LabelTop": 294,
+  "LabelWidth": 964,
+  "LastVersionId": 400,
+  "ListTableId": 635,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 133,
-  "ProgId": "ut",
+  "Page1LineNo": 339,
+  "ProgId": "saepe",
   "IsReadOnly": false,
-  "ShortLabel": "libero",
-  "TabOrder": 262,
-  "TextLength": 666,
-  "Tooltip": "illo",
-  "UdefIdentity": 704,
-  "UDListDefinitionId": 408,
+  "ShortLabel": "magni",
+  "TabOrder": 856,
+  "TextLength": 558,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 18,
+  "UDListDefinitionId": 345,
   "Justification": "Center",
-  "Version": 686,
-  "TemplateVariableName": "O'Reilly, Cartwright and Ritchie",
+  "Version": 518,
+  "TemplateVariableName": "Hamill Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Carroll, Jaskolski and Medhurst",
+  "MdoListName": "Yost, Purdy and Bednar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 100
     }
   }
 }

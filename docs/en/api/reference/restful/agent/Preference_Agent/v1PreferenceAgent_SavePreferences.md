@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "magni",
+      "RawValue": "placeat",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "esse",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "sequi",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 510,
-      "PrefDescId": 74,
-      "TableName": "Hodkiewicz, DuBuque and Thompson",
-      "UserPreferenceId": 758
+      "TargetId": 323,
+      "PrefDescId": 910,
+      "TableName": "Emard Group",
+      "UserPreferenceId": 242
     }
   ]
 }

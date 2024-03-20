@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 241,
-    "Name": "Treutel, Turner and Yundt",
-    "Tooltip": "autem",
+    "HeadingId": 878,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "vero",
     "Deleted": true,
-    "Rank": 547,
-    "UdListDefinitionId": 871
+    "Rank": 854,
+    "UdListDefinitionId": 758
   },
   {
-    "HeadingId": 241,
-    "Name": "Treutel, Turner and Yundt",
-    "Tooltip": "autem",
+    "HeadingId": 878,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "vero",
     "Deleted": true,
-    "Rank": 547,
-    "UdListDefinitionId": 871
+    "Rank": 854,
+    "UdListDefinitionId": 758
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 894,
-    "Name": "Mante, Murray and Swift",
-    "Tooltip": "cumque",
+    "HeadingId": 680,
+    "Name": "Goodwin LLC",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 544,
-    "UdListDefinitionId": 614,
+    "Rank": 912,
+    "UdListDefinitionId": 617,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldType": "System.Int32",
+        "FieldLength": 676
       }
     }
   }

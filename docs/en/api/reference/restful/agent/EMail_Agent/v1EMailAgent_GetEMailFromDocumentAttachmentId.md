@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 433,
+  "DocId": 454,
   "AttachmentIds": [
-    "amet",
-    "id"
+    "minima",
+    "tenetur"
   ],
   "IncludeAttachments": false
 }
@@ -124,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 883,
-      "ContactName": "Cummings-Dickens",
-      "PersonId": 847,
-      "PersonName": "Kihn, Wunsch and Schimmel",
-      "AssociateId": 892,
-      "Address": "esse",
-      "EmailId": 395,
+      "ContactId": 581,
+      "ContactName": "Feest, Grady and Borer",
+      "PersonId": 979,
+      "PersonName": "West-Bernhard",
+      "AssociateId": 562,
+      "Address": "quo",
+      "EmailId": 39,
       "DuplicatePersonIds": [
-        475,
-        608
+        714,
+        754
       ],
-      "Name": "Nitzsche Inc and Sons",
+      "Name": "Rempel, Cassin and Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 52
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 559,
-      "ContactName": "Von Inc and Sons",
-      "PersonId": 468,
-      "PersonName": "Wolff-Heidenreich",
-      "AssociateId": 992,
-      "Address": "expedita",
-      "EmailId": 415,
+      "ContactId": 38,
+      "ContactName": "Hessel Group",
+      "PersonId": 810,
+      "PersonName": "Jones-Lang",
+      "AssociateId": 614,
+      "Address": "animi",
+      "EmailId": 724,
       "DuplicatePersonIds": [
-        900,
-        976
+        489,
+        722
       ],
-      "Name": "Cummerata Inc and Sons",
+      "Name": "Lang, Balistreri and Beer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 992,
-      "ContactName": "Keeling LLC",
-      "PersonId": 862,
-      "PersonName": "Christiansen, Farrell and Reilly",
-      "AssociateId": 219,
-      "Address": "incidunt",
-      "EmailId": 548,
+      "ContactId": 80,
+      "ContactName": "Rosenbaum-Tromp",
+      "PersonId": 302,
+      "PersonName": "Feest, Bergstrom and Gaylord",
+      "AssociateId": 440,
+      "Address": "voluptatibus",
+      "EmailId": 956,
       "DuplicatePersonIds": [
-        658,
-        733
+        424,
+        1000
       ],
-      "Name": "Volkman-Smith",
+      "Name": "Towne-Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 289
         }
       }
     }
   ],
-  "Subject": "aperiam",
-  "HTMLBody": "non",
+  "Subject": "sunt",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2010-05-03T14:23:46.6574501+02:00",
-  "Size": 740,
+  "Sent": "2019-03-29T12:19:45.320371+01:00",
+  "Size": 604,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "quam",
+  "MessageID": "earum",
+  "PlainBody": "nulla",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 760,
+  "ServerId": 517,
   "Attachments": [
     {
-      "Description": "Focused grid-enabled info-mediaries",
-      "Filename": "explicabo",
-      "Size": 506,
-      "Type": "id",
-      "Encoding": "accusamus",
-      "Id": "officiis",
-      "Disposition": "velit",
+      "Description": "Switchable contextually-based hierarchy",
+      "Filename": "dolore",
+      "Size": 643,
+      "Type": "eveniet",
+      "Encoding": "tempora",
+      "Id": "dolorem",
+      "Disposition": "totam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 219
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Emmerich Inc and Sons",
+      "Name": "Miller Inc and Sons",
       "Values": [
-        "ut",
-        "dolores"
+        "cumque",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 36
         }
       }
     },
     {
-      "Name": "Emmerich Inc and Sons",
+      "Name": "Miller Inc and Sons",
       "Values": [
-        "ut",
-        "dolores"
+        "cumque",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 36
         }
       }
     }
   ],
-  "FolderName": "Daugherty Inc and Sons",
-  "EmailItemId": 441,
-  "AccountId": 308,
-  "ReceivedAt": "1999-03-22T14:23:46.6574501+01:00",
+  "FolderName": "Gusikowski-Hansen",
+  "EmailItemId": 543,
+  "AccountId": 438,
+  "ReceivedAt": "2017-04-07T12:19:45.320371+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-01-21T14:23:46.6574501+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2010-10-20T12:19:45.320371+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 796
     }
   }
 }

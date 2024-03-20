@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 184,
-  "Count": 305
+  "WeightedAmountLimit": 82,
+  "Count": 53
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stark, Dooley and Lueilwitz",
-    "SaleDate": "2004-06-30T14:23:47.3630051+02:00",
-    "SaleId": 175,
-    "Probability": 89,
-    "Title": "labore",
-    "Amount": 3998.984,
-    "Currency": "dignissimos",
-    "ProjectName": "Sanford, Herzog and Jacobi",
-    "AssociateFullName": "Mrs. Eldridge Alysson Schumm DVM",
-    "Description": "Monitored system-worthy model",
+    "ContactName": "Marquardt, Gerhold and Rath",
+    "SaleDate": "2006-03-03T12:19:46.210807+01:00",
+    "SaleId": 661,
+    "Probability": 153,
+    "Title": "sint",
+    "Amount": 200.576,
+    "Currency": "earum",
+    "ProjectName": "Considine, Rohan and Hettinger",
+    "AssociateFullName": "Prof. Naomi Orlo Ortiz",
+    "Description": "Cloned maximized contingency",
     "Status": "Lost",
-    "WeightedAmount": 3190.412,
-    "ProjectId": 585,
-    "EarningPercent": 12871.338,
-    "Earning": 25423.007999999998,
-    "ContactId": 569,
-    "AssociateId": 300,
-    "PersonId": 536,
-    "SaleTypeId": 284,
-    "SaleTypeName": "Koch-Spencer",
-    "PersonFullName": "Presley Jany Runolfsson Sr.",
+    "WeightedAmount": 10818.568,
+    "ProjectId": 939,
+    "EarningPercent": 7762.918,
+    "Earning": 30581.572,
+    "ContactId": 638,
+    "AssociateId": 333,
+    "PersonId": 171,
+    "SaleTypeId": 601,
+    "SaleTypeName": "Stiedemann-Greenfelder",
+    "PersonFullName": "Eulalia Thiel",
     "Completed": "Completed",
-    "ActiveErpLinks": 737,
-    "NextDueDate": "2020-05-29T14:23:47.3630051+02:00",
-    "Number": "651543",
+    "ActiveErpLinks": 539,
+    "NextDueDate": "2015-09-02T12:19:46.210807+02:00",
+    "Number": "426783",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldLength": 126
       }
     }
   }

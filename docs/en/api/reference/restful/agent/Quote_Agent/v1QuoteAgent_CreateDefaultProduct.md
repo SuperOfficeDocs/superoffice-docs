@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 510,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Gerhold, Douglas and Balistreri",
-  "Description": "Realigned 24 hour task-force",
-  "Code": "quasi",
-  "PriceUnit": "et",
-  "QuantityUnit": "vel",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 12181.858,
-  "ItemNumber": "340476",
+  "ProductId": 216,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "recusandae",
+  "Name": "Stanton-Bechtelar",
+  "Description": "Optimized high-level methodology",
+  "Code": "aspernatur",
+  "PriceUnit": "suscipit",
+  "QuantityUnit": "modi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "occaecati",
+  "DefaultSubscriptionQuantity": 28017.96,
+  "ItemNumber": "490813",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tenetur",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 6907.3359999999993,
-  "VATInfo": "vitae",
-  "UnitCost": 28068.104,
-  "UnitMinimumPrice": 14629.511999999999,
-  "UnitListPrice": 4788.7519999999995,
+  "ProductFamilyKey": "voluptatem",
+  "ProductTypeKey": "minus",
+  "VAT": 30252.502,
+  "VATInfo": "ut",
+  "UnitCost": 27817.384,
+  "UnitMinimumPrice": 29500.342,
+  "UnitListPrice": 18478.064,
   "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "ea",
-  "Rights": "qui",
-  "Rule": "expedita",
+  "Supplier": "nobis",
+  "SupplierCode": "optio",
+  "Rights": "illum",
+  "Rule": "voluptates",
   "ExtraInfo": [
     {
-      "Name": "Ryan Inc and Sons",
-      "Value": "suscipit",
+      "Name": "Klocko-Hoppe",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 794
         }
       }
     },
     {
-      "Name": "Ryan Inc and Sons",
-      "Value": "suscipit",
+      "Name": "Klocko-Hoppe",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 794
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "impedit",
-  "ExtraField2": "vitae",
-  "ExtraField3": "ducimus",
-  "ExtraField4": "sed",
-  "ExtraField5": "enim",
-  "InStock": 7885.1439999999993,
+  "RawExtraInfo": "amet",
+  "ExtraField1": "magnam",
+  "ExtraField2": "qui",
+  "ExtraField3": "nobis",
+  "ExtraField4": "minima",
+  "ExtraField5": "laudantium",
+  "InStock": 22345.42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   }
 }

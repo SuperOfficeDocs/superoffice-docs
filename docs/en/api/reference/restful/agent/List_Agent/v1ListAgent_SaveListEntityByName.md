@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kozey, Little and O'Conner",
+  "Name": "Rowe, Grant and Trantow",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 651,
-  "IsCustomList": false,
+  "Id": 77,
+  "Name": "Crooks, Dietrich and Treutel",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 309,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "unde",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 36
+      "FieldLength": 536
     }
   }
 }

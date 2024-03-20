@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est",
-  "Key": "molestias",
+  "Section": "voluptatem",
+  "Key": "quis",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 482,
-  "Section": "ratione",
-  "Key": "consectetur",
-  "Name": "Breitenberg, Collins and Boehm",
+  "PrefDescId": 357,
+  "Section": "delectus",
+  "Key": "repudiandae",
+  "Name": "Smith, Stamm and Cormier",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Up-sized logistical support",
+  "Description": "Synergistic global approach",
   "IsBuiltin": false,
-  "TableName": "Haley-Dicki",
-  "UserDefinedListId": 418,
-  "Rank": 99,
-  "SubGroup": "consequuntur",
-  "MinLevel": 639,
-  "MaxValue": 981,
-  "MinValue": 364,
-  "RequiredLicense": "reiciendis",
+  "TableName": "Mann LLC",
+  "UserDefinedListId": 739,
+  "Rank": 512,
+  "SubGroup": "voluptatum",
+  "MinLevel": 566,
+  "MaxValue": 68,
+  "MinValue": 84,
+  "RequiredLicense": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

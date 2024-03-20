@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 102,
-  "DocumentId": 887,
+  "SelectionId": 618,
+  "DocumentId": 928,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "et",
+  "CustomAttention": "quis",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "non",
+  "CustomMailBody": "officiis",
   "TaskEntity": null,
-  "AddCompanyInterest": 333,
-  "AddPersonInterest": 633,
-  "RemoveCompanyInterest": 412,
-  "RemovePersonInterest": 775,
-  "IncludeNoMailingsRecipient": false,
-  "TestOnly": false,
-  "ProjectId": 515,
-  "IncludeRetiredRecipients": true,
+  "AddCompanyInterest": 246,
+  "AddPersonInterest": 719,
+  "RemoveCompanyInterest": 987,
+  "RemovePersonInterest": 956,
+  "IncludeNoMailingsRecipient": true,
+  "TestOnly": true,
+  "ProjectId": 801,
+  "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "quia",
-  "ExtraInfo": "eaque",
-  "Synchronous": false,
+  "CustomMailSubject": "aut",
+  "ExtraInfo": "possimus",
+  "Synchronous": true,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 734
     }
   }
 }

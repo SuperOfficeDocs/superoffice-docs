@@ -27,10 +27,11 @@ the actual functionality of the provider.
 |"superoffice_admin-anonymous-user"|[Anonymous user admin]|
 |"superoffice_publish"|[Publish to external]|
 |"superoffice_superlicense-no-selection"|[(No Selection)]|
-|"superoffice_ten-sales"|[SalesPREM]|
-|"superoffice_ten-service"|[ServicePREM]|
-|"superoffice_ten-marketing"|[Marketing]|
-|"superoffice_ten-salesservicemarketing"|[SalesPREM-ServicePREM-Marketing]|
+|"superoffice_ten-sales"|[Sales Premium]|
+|"superoffice_ten-service"|[Service Premium]|
+|"superoffice_ten-marketing"|[Marketing Premium]|
+|"superoffice_ten-salesservicemarketing"|[SalesPremiumServicePremiumMarketingPremium]|
+|"superoffice_outlook-synchronizer"|[Outlook Synchronizer]|
 |"expired"|Expired|
 
 ## Supported Columns
@@ -48,10 +49,11 @@ the actual functionality of the provider.
 |superoffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
 |superoffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
 |superoffice\_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
-|superoffice\_ten-sales| *None* |SalesPREM: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
-|superoffice\_ten-service| *None* |ServicePREM: User Plan: Can edit Requests|  |
-|superoffice\_ten-marketing| *None* |Marketing: User Plan: Can send Mailings, Combined Selections|  |
-|superoffice\_ten-salesservicemarketing| *None* |SalesPREM-ServicePREM-Marketing: User Plan: Can edit sales, requests, mailings.|  |
+|superoffice\_ten-sales| *None* |Sales Premium: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
+|superoffice\_ten-service| *None* |Service Premium: User Plan: Can edit Requests|  |
+|superoffice\_ten-marketing| *None* |Marketing Premium: User Plan: Can send Mailings, Combined Selections|  |
+|superoffice\_ten-salesservicemarketing| *None* |SalesPremiumServicePremiumMarketingPremium: User Plan: Can edit sales, requests, mailings.|  |
+|superoffice\_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -87,7 +89,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=contactName,role,superoffice_ten-salesservicemarketing
+GET /api/v1/archive/AllUsers?$select=superoffice_publish,superoffice_outlook-synchronizer,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

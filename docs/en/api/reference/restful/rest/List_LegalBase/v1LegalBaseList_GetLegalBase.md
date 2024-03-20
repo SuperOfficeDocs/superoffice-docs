@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 745,
-  "Name": "Von Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 979,
-  "Key": "blanditiis",
-  "Deleted": true,
+  "LegalBaseId": 669,
+  "Name": "Hodkiewicz, Frami and Berge",
+  "Tooltip": "veritatis",
+  "Rank": 342,
+  "Key": "id",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 151
     }
   }
 }

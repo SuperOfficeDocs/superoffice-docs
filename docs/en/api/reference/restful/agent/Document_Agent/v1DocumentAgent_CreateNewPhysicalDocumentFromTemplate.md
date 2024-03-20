@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 48,
-  "PersonId": 480,
-  "AppointmentId": 151,
-  "DocumentId": 469,
-  "SaleId": 199,
-  "SelectionId": 663,
-  "ProjectId": 445,
-  "UiCulture": "beatae"
+  "ContactId": 932,
+  "PersonId": 706,
+  "AppointmentId": 437,
+  "DocumentId": 302,
+  "SaleId": 827,
+  "SelectionId": 271,
+  "ProjectId": 148,
+  "UiCulture": "qui"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 406,
+  "DocumentId": 434,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "inventore",
-  "Header": "magnam",
-  "Name": "Stamm Group",
-  "OurRef": "distinctio",
-  "YourRef": "vel",
-  "CreatedDate": "1998-06-26T14:23:46.3918288+02:00",
-  "UpdatedDate": "2014-04-05T14:23:46.3918288+02:00",
-  "Description": "Centralized systematic methodology",
+  "Attention": "omnis",
+  "Header": "animi",
+  "Name": "Terry-Legros",
+  "OurRef": "nihil",
+  "YourRef": "architecto",
+  "CreatedDate": "2021-05-26T12:19:45.1797866+02:00",
+  "UpdatedDate": "2004-09-01T12:19:45.1797866+02:00",
+  "Description": "Team-oriented dedicated circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-02-02T14:23:46.3918288+01:00",
-  "ExternalRef": "quaerat",
+  "Date": "2021-08-12T12:19:45.1797866+02:00",
+  "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 645,
+  "ActiveLinks": 413,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Streich-O'Reilly",
-      "Id": 937,
-      "Description": "Robust bandwidth-monitored solution",
-      "ExtraInfo": "quam",
-      "LinkId": 212,
+      "EntityName": "Cremin, Rohan and Waters",
+      "Id": 654,
+      "Description": "Switchable neutral productivity",
+      "ExtraInfo": "iusto",
+      "LinkId": 355,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 20,
-  "Snum": 526,
+  "SuggestedDocumentId": 395,
+  "Snum": 795,
   "UserDefinedFields": {
-    "SuperOffice:1": "Johathan Haley DVM",
-    "SuperOffice:2": "Maggie Hoeger"
+    "SuperOffice:1": "65935254",
+    "SuperOffice:2": "Aisha Furman Hessel IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "labore"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2013-09-05T14:23:46.3918288+02:00",
-  "PublishTo": "2021-06-23T14:23:46.3918288+02:00",
-  "PublishFrom": "2010-12-24T14:23:46.3918288+01:00",
+  "PublishEventDate": "2001-12-15T12:19:45.1797866+01:00",
+  "PublishTo": "2012-04-01T12:19:45.1797866+02:00",
+  "PublishFrom": "2021-11-10T12:19:45.1797866+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 386,
+      "VisibleId": 914,
       "Visibility": "All",
       "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     },
     {
-      "VisibleId": 386,
+      "VisibleId": 914,
       "Visibility": "All",
       "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 57
     }
   }
 }

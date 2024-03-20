@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Daugherty LLC"
+  "FunctionalRightName": "Beer Inc and Sons"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Hauck LLC",
-    "ToolTip": "Ratione autem amet vel quia et.",
-    "Deleted": true,
-    "Rank": 344,
-    "Type": "repudiandae",
+    "Id": 197,
+    "Name": "Hagenes, Haley and Russel",
+    "ToolTip": "Quam dolor.",
+    "Deleted": false,
+    "Rank": 913,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Armstrong Group",
-        "ToolTip": "Ab iste consectetur tempore.",
+        "Id": 632,
+        "Name": "D'Amore, Macejkovic and Marks",
+        "ToolTip": "Nobis dolor consequatur rem est.",
         "Deleted": false,
-        "Rank": 257,
-        "Type": "suscipit",
+        "Rank": 247,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 359,
-        "ExtraInfo": "quod",
-        "StyleHint": "aut",
-        "FullName": "Aimee Kristofer Williamson Sr.",
+        "IconHint": "delectus",
+        "ColorBlock": 611,
+        "ExtraInfo": "quo",
+        "StyleHint": "assumenda",
+        "FullName": "Franco Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 322
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 548,
-    "ExtraInfo": "quas",
-    "StyleHint": "quod",
-    "FullName": "Dallas Medhurst",
+    "IconHint": "accusantium",
+    "ColorBlock": 491,
+    "ExtraInfo": "dolor",
+    "StyleHint": "qui",
+    "FullName": "Hildegard Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 866
       }
     }
   }

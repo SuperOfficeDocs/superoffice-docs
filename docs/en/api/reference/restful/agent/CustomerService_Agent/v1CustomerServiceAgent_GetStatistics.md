@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "voluptatem",
-    "sapiente"
+    "explicabo",
+    "architecto"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "quia",
+    "Label": "nobis",
     "Values": [
       {
-        "Label": "sit",
-        "Value": 30597.242,
-        "Description": "Grass-roots multimedia groupware",
+        "Label": "accusamus",
+        "Value": 22643.149999999998,
+        "Description": "Progressive human-resource parallelism",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 281
           }
         }
       },
       {
-        "Label": "sit",
-        "Value": 30597.242,
-        "Description": "Grass-roots multimedia groupware",
+        "Label": "accusamus",
+        "Value": 22643.149999999998,
+        "Description": "Progressive human-resource parallelism",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 281
           }
         }
       }
     ],
-    "Description": "Cross-group motivating groupware",
+    "Description": "Re-engineered executive leverage",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   },
   {
-    "Label": "quia",
+    "Label": "nobis",
     "Values": [
       {
-        "Label": "sit",
-        "Value": 30597.242,
-        "Description": "Grass-roots multimedia groupware",
+        "Label": "accusamus",
+        "Value": 22643.149999999998,
+        "Description": "Progressive human-resource parallelism",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 281
           }
         }
       },
       {
-        "Label": "sit",
-        "Value": 30597.242,
-        "Description": "Grass-roots multimedia groupware",
+        "Label": "accusamus",
+        "Value": 22643.149999999998,
+        "Description": "Progressive human-resource parallelism",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 281
           }
         }
       }
     ],
-    "Description": "Cross-group motivating groupware",
+    "Description": "Re-engineered executive leverage",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   }

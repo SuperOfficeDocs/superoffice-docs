@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "UdListDefinitionId": 695,
+  "Id": 193,
+  "UdListDefinitionId": 712,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Rogahn-Smitham",
-  "Tooltip": "quia",
+  "Id": 666,
+  "Name": "Abbott Inc and Sons",
+  "Tooltip": "quisquam",
   "Deleted": true,
-  "UdListDefinitionId": 874,
-  "Rank": 605,
+  "UdListDefinitionId": 117,
+  "Rank": 914,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

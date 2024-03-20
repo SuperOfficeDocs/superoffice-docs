@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "fugit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "fugit",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 260,
-  "PlainMessage": "laudantium",
-  "HtmlMessage": "commodi",
-  "SmsMessage": "dolores",
-  "Description": "Re-engineered responsive emulation",
-  "Subject": "facilis",
-  "FolderId": 442,
-  "HeaderField": "ab",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 285,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "dolores",
+  "SmsMessage": "doloremque",
+  "Description": "Enterprise-wide maximized knowledge base",
+  "Subject": "accusantium",
+  "FolderId": 584,
+  "HeaderField": "perferendis",
+  "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Up-sized explicit superstructure",
-  "AccessKey": "blanditiis",
-  "DocumentMessage": 959,
-  "Registered": "2002-01-28T14:23:55.5252104+01:00",
-  "RegisteredAssociateId": 610,
-  "Updated": "2013-01-06T14:23:55.5252104+01:00",
-  "UpdatedAssociateId": 921,
-  "UpdatedCount": 594,
+  "LongDescription": "Organized foreground forecast",
+  "AccessKey": "veritatis",
+  "DocumentMessage": 184,
+  "Registered": "2016-11-15T12:19:53.9460405+01:00",
+  "RegisteredAssociateId": 408,
+  "Updated": "2003-07-11T12:19:53.9460405+02:00",
+  "UpdatedAssociateId": 973,
+  "UpdatedCount": 178,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

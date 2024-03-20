@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "possimus"
+  "QuoteListType": "magnam"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "officiis",
-    "DisplayValue": "recusandae",
-    "DisplayDescription": "De-engineered transitional complexity",
+    "ERPQuoteListItemKey": "repudiandae",
+    "DisplayValue": "facilis",
+    "DisplayDescription": "Organized fault-tolerant parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 403
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "officiis",
-    "DisplayValue": "recusandae",
-    "DisplayDescription": "De-engineered transitional complexity",
+    "ERPQuoteListItemKey": "repudiandae",
+    "DisplayValue": "facilis",
+    "DisplayDescription": "Organized fault-tolerant parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 403
       }
     }
   }

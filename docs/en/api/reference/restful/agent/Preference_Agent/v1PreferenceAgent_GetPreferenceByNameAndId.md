@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "itaque",
-  "PrefKey": "recusandae",
+  "PrefSection": "qui",
+  "PrefKey": "adipisci",
   "PrefLevel": "Database",
-  "OwnerId": 517
+  "OwnerId": 925
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "impedit",
-  "DisplayTooltip": "eveniet",
+  "DisplayValue": "sint",
+  "DisplayTooltip": "quaerat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 649,
-  "PrefDescId": 303,
-  "TableName": "Hackett LLC",
-  "UserPreferenceId": 874,
+  "TargetId": 529,
+  "PrefDescId": 278,
+  "TableName": "Emard, Cruickshank and Schneider",
+  "UserPreferenceId": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

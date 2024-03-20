@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "O'Keefe, Haley and Wolff",
-  "ParameterName": "Mraz-Barrows"
+  "LayoutName": "Maggio, Wilkinson and Hansen",
+  "ParameterName": "Cassin-Medhurst"
 }
 ```
 

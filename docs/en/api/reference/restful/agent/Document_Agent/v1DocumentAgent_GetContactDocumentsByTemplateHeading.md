@@ -102,11 +102,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 506,
-  "StartTime": "2023-04-21T14:23:46.2824577+02:00",
-  "EndTime": "2005-12-01T14:23:46.2824577+01:00",
-  "Count": 524,
-  "TemplateHeadingId": 370
+  "ContactId": 190,
+  "StartTime": "2013-01-28T12:19:45.0704356+01:00",
+  "EndTime": "2004-04-29T12:19:45.0704356+02:00",
+  "Count": 60,
+  "TemplateHeadingId": 479
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 184,
-    "Attention": "ut",
-    "Header": "dolore",
-    "Name": "Weber, Jaskolski and Feeney",
-    "OurRef": "exercitationem",
-    "YourRef": "architecto",
-    "Description": "Multi-tiered modular emulation",
-    "DocumentTemplate": "nisi",
+    "DocumentId": 500,
+    "Attention": "reiciendis",
+    "Header": "corrupti",
+    "Name": "Sauer, Heller and Bode",
+    "OurRef": "maxime",
+    "YourRef": "repellat",
+    "Description": "Stand-alone fault-tolerant framework",
+    "DocumentTemplate": "omnis",
     "IsPublished": false,
-    "PersonId": 395,
-    "PersonFullName": "Garfield Bogisich",
-    "AssociateFullName": "Ms. Josefa Effertz DVM",
-    "ContactId": 854,
-    "ContactName": "DuBuque Group",
-    "ProjectId": 736,
-    "ProjectName": "Kreiger, Heaney and Stark",
-    "AssociateId": 767,
-    "Snum": 75,
-    "SaleId": 560,
-    "SaleName": "Daniel Group",
+    "PersonId": 420,
+    "PersonFullName": "Kelsie Mayer",
+    "AssociateFullName": "Ms. Dustin Cielo Grant",
+    "ContactId": 592,
+    "ContactName": "Kemmer, Romaguera and Gleichner",
+    "ProjectId": 920,
+    "ProjectName": "Kirlin-Williamson",
+    "AssociateId": 782,
+    "Snum": 640,
+    "SaleId": 1001,
+    "SaleName": "Morar-Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 868
       }
     }
   }

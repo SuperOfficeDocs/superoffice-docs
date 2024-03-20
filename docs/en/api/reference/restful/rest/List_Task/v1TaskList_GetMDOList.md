@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=laudantium
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Lakin-Bednar",
-    "ToolTip": "Eos non quia excepturi.",
-    "Deleted": false,
-    "Rank": 768,
-    "Type": "est",
+    "Id": 78,
+    "Name": "Eichmann-Kreiger",
+    "ToolTip": "Illum in.",
+    "Deleted": true,
+    "Rank": 551,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Vandervort LLC",
-        "ToolTip": "Deleniti quisquam reprehenderit aut dolore consequuntur culpa porro.",
+        "Id": 644,
+        "Name": "Mayert LLC",
+        "ToolTip": "Rem enim non enim maxime eum accusantium placeat.",
         "Deleted": true,
-        "Rank": 933,
-        "Type": "provident",
+        "Rank": 382,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 632,
-        "ExtraInfo": "porro",
-        "StyleHint": "dolor",
-        "FullName": "Prof. Delphia Ansley Weimann IV",
+        "IconHint": "consequatur",
+        "ColorBlock": 71,
+        "ExtraInfo": "nisi",
+        "StyleHint": "atque",
+        "FullName": "Yvonne Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 831
+            "FieldType": "System.Int32",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 957,
-    "ExtraInfo": "earum",
-    "StyleHint": "aliquid",
-    "FullName": "Cody Stroman",
+    "IconHint": "possimus",
+    "ColorBlock": 301,
+    "ExtraInfo": "officiis",
+    "StyleHint": "ducimus",
+    "FullName": "Raphaelle Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 838
       }
     }
   }

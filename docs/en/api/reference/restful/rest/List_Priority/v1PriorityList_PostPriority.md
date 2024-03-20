@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Simonis, Franecki and Adams",
-  "Tooltip": "minus",
+  "Id": 402,
+  "Name": "Robel-Jakubowski",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 438,
-  "Rank": 61
+  "UdListDefinitionId": 372,
+  "Rank": 67
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Bode Group",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "UdListDefinitionId": 870,
-  "Rank": 877,
+  "Id": 977,
+  "Name": "Simonis LLC",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "UdListDefinitionId": 838,
+  "Rank": 353,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

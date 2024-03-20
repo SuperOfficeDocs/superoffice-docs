@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Franecki, Lebsack and Herzog"
+  "ApplicationName": "Nitzsche, Runolfsdottir and Williamson"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 845,
-  "Name": "King, Rowe and Zboncak",
-  "CreatedDate": "2020-05-17T14:23:46.7681044+02:00",
-  "UpdatedDate": "2000-11-06T14:23:46.7681044+01:00",
-  "AssociateFullName": "Victoria Klein",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "corrupti",
-  "ForeignAppId": 248,
+  "ForeignDeviceId": 72,
+  "Name": "Zulauf, Padberg and Cummings",
+  "CreatedDate": "2002-06-11T12:19:45.4297292+02:00",
+  "UpdatedDate": "1996-11-05T12:19:45.4297292+01:00",
+  "AssociateFullName": "Amya Koepp",
+  "CreatedBy": "sequi",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "aperiam",
+  "ForeignAppId": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 755
     }
   }
 }

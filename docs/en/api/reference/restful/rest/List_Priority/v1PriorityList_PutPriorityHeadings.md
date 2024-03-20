@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 194,
-    "Name": "Kihn Inc and Sons",
-    "Tooltip": "exercitationem",
+    "HeadingId": 282,
+    "Name": "Roob, Cormier and Weber",
+    "Tooltip": "adipisci",
     "Deleted": true,
-    "Rank": 753,
-    "UdListDefinitionId": 240
+    "Rank": 472,
+    "UdListDefinitionId": 535
   },
   {
-    "HeadingId": 194,
-    "Name": "Kihn Inc and Sons",
-    "Tooltip": "exercitationem",
+    "HeadingId": 282,
+    "Name": "Roob, Cormier and Weber",
+    "Tooltip": "adipisci",
     "Deleted": true,
-    "Rank": 753,
-    "UdListDefinitionId": 240
+    "Rank": 472,
+    "UdListDefinitionId": 535
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 808,
-    "Name": "Mante, Kemmer and Batz",
-    "Tooltip": "eligendi",
+    "HeadingId": 616,
+    "Name": "Fay Group",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 15,
-    "UdListDefinitionId": 927,
+    "Rank": 918,
+    "UdListDefinitionId": 227,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 466
       }
     }
   }

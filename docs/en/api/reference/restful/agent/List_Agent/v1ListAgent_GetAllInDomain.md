@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 497,
+    "HierarchyId": 695,
     "Domain": "Dashboards",
-    "Name": "Watsica-Russel",
-    "Fullname": "doloremque",
-    "ParentId": 682,
+    "Name": "Jaskolski-Von",
+    "Fullname": "pariatur",
+    "ParentId": 884,
     "Children": [
       {
-        "HierarchyId": 866,
+        "HierarchyId": 70,
         "Domain": "Dashboards",
-        "Name": "Towne Group",
-        "Fullname": "placeat",
-        "ParentId": 92,
+        "Name": "Sanford LLC",
+        "Fullname": "pariatur",
+        "ParentId": 59,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2010-08-06T14:23:46.8786294+02:00",
-        "RegisteredAssociateId": 557,
-        "Updated": "2003-10-15T14:23:46.8786294+02:00",
-        "UpdatedAssociateId": 296,
+        "Registered": "2007-12-23T12:19:45.5390987+01:00",
+        "RegisteredAssociateId": 448,
+        "Updated": "2011-06-03T12:19:45.5390987+02:00",
+        "UpdatedAssociateId": 770,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 707
+            "FieldLength": 87
           }
         }
       }
     ],
-    "Registered": "2011-06-11T14:23:46.8786294+02:00",
-    "RegisteredAssociateId": 366,
-    "Updated": "2014-01-15T14:23:46.8786294+01:00",
-    "UpdatedAssociateId": 407,
+    "Registered": "2023-06-02T12:19:45.5390987+02:00",
+    "RegisteredAssociateId": 589,
+    "Updated": "2006-01-18T12:19:45.5390987+01:00",
+    "UpdatedAssociateId": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 124
       }
     }
   }

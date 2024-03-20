@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 7,
-    "DisplayName": "Mueller-Kuhlman",
-    "OngoingChats": 794,
-    "Present": false,
+    "UserId": 352,
+    "DisplayName": "Welch Group",
+    "OngoingChats": 657,
+    "Present": true,
     "ChatTopics": [
-      529,
-      223
+      70,
+      20
     ]
   },
   {
-    "UserId": 7,
-    "DisplayName": "Mueller-Kuhlman",
-    "OngoingChats": 794,
-    "Present": false,
+    "UserId": 352,
+    "DisplayName": "Welch Group",
+    "OngoingChats": 657,
+    "Present": true,
     "ChatTopics": [
-      529,
-      223
+      70,
+      20
     ]
   }
 ]

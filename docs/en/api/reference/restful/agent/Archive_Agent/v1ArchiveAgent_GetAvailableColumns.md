@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jast Group",
-  "Context": "soluta"
+  "ProviderName": "Cruickshank, Glover and Prosacco",
+  "Context": "consequatur"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Homenick, Waelchi and Reichert",
-    "DisplayTooltip": "reprehenderit",
-    "DisplayType": "recusandae",
+    "DisplayName": "Herzog Group",
+    "DisplayTooltip": "consectetur",
+    "DisplayType": "sequi",
     "CanOrderBy": false,
-    "Name": "Leuschke, Rogahn and Stehr",
+    "Name": "Ward, Corkery and Brown",
     "CanRestrictBy": true,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "Sanford, Mohr and Schaden",
+    "RestrictionType": "in",
+    "RestrictionListName": "Kassulke-Reichel",
     "IsVisible": true,
-    "ExtraInfo": "iure",
+    "ExtraInfo": "tempora",
     "Width": "est",
-    "IconHint": "mollitia",
-    "HeadingIconHint": "quasi"
+    "IconHint": "quis",
+    "HeadingIconHint": "consequatur"
   }
 ]
 ```

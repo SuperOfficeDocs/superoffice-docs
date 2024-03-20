@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 538
+  "ShipmentId": 411
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2010-02-23T14:23:46.9255115+01:00",
+  "StartDate": "2008-09-23T12:19:45.585943+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 813,
-  "ShipmentDescription": "Multi-layered optimizing artificial intelligence",
-  "FromAddress": "repellendus",
-  "Configuration": 432,
-  "PersonId": 607,
-  "PersonFullName": "Dr. Juana Hayes MD",
-  "ShipmentType": "reiciendis",
-  "MessageId": 837,
-  "MessageSubject": "et",
-  "DocumentMessageId": 874,
-  "NumSent": 672,
-  "NumOpened": 377,
-  "NumBounced": 958,
-  "NumClicks": 928,
+  "ShipmentId": 947,
+  "ShipmentDescription": "Centralized composite flexibility",
+  "FromAddress": "dignissimos",
+  "Configuration": 875,
+  "PersonId": 824,
+  "PersonFullName": "Prof. Estevan Vandervort",
+  "ShipmentType": "aspernatur",
+  "MessageId": 525,
+  "MessageSubject": "qui",
+  "DocumentMessageId": 348,
+  "NumSent": 311,
+  "NumOpened": 579,
+  "NumBounced": 402,
+  "NumClicks": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

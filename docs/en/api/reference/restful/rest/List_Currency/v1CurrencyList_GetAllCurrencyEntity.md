@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 645,
-    "Name": "Swaniawski-Legros",
-    "Tooltip": "reiciendis",
-    "Rank": 203,
-    "Rate": 17095.97,
-    "Units": 24222.685999999998,
-    "Deleted": false,
+    "CurrencyId": 440,
+    "Name": "Strosin-Witting",
+    "Tooltip": "et",
+    "Rank": 349,
+    "Rate": 4491.022,
+    "Units": 26068.611999999997,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

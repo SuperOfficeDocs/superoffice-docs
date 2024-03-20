@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Christiansen LLC",
+  "ProviderName": "Roberts, Shanahan and Champlin",
   "DesiredColumns": [
-    "minus",
-    "eligendi"
+    "a",
+    "occaecati"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kihn, Greenholt and Grant",
+    "Name": "Casper Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Kihn, Greenholt and Grant",
+    "Name": "Casper Inc and Sons",
     "Direction": "ASC"
   }
 ]

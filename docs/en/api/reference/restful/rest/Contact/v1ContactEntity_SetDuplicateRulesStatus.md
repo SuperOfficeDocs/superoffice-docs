@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lemke-Jewess",
-    "DisplayName": "Shanahan, Raynor and Ankunding",
-    "DisplayTooltip": "ipsam",
-    "IsActive": false
+    "Name": "Goldner, Upton and Keebler",
+    "DisplayName": "Gleichner, Harris and Blanda",
+    "DisplayTooltip": "omnis",
+    "IsActive": true
   },
   {
-    "Name": "Lemke-Jewess",
-    "DisplayName": "Shanahan, Raynor and Ankunding",
-    "DisplayTooltip": "ipsam",
-    "IsActive": false
+    "Name": "Goldner, Upton and Keebler",
+    "DisplayName": "Gleichner, Harris and Blanda",
+    "DisplayTooltip": "omnis",
+    "IsActive": true
   }
 ]
 ```

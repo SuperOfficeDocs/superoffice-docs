@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Kuphal Group",
-    "ToolTip": "Tenetur est culpa eos quasi optio perferendis aliquam.",
-    "Deleted": true,
-    "Rank": 945,
-    "Type": "quos",
-    "ColorBlock": 536,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "2003-10-09T14:23:56.2908239+02:00",
+    "Id": 636,
+    "Name": "West, Bashirian and Huel",
+    "ToolTip": "Et ad.",
+    "Deleted": false,
+    "Rank": 405,
+    "Type": "rerum",
+    "ColorBlock": 223,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2023-01-12T12:19:54.789597+01:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Murray LLC",
-        "ToolTip": "Dolores hic vel.",
+        "Id": 500,
+        "Name": "Paucek, Crona and Witting",
+        "ToolTip": "Eius velit qui est maxime similique ut et.",
         "Deleted": false,
-        "Rank": 18,
-        "Type": "dicta",
-        "ColorBlock": 116,
-        "IconHint": "magni",
+        "Rank": 578,
+        "Type": "doloribus",
+        "ColorBlock": 366,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "1997-11-03T14:23:56.2908239+01:00",
+        "LastChanged": "1999-03-11T12:19:54.789597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ad",
-        "Hidden": true,
-        "FullName": "Miss Lavon Mayert PhD"
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Americo Yost"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Mr. Nicholaus Berge"
+    "ExtraInfo": "eius",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Ms. Alene Cole Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Grimes-Wyman",
-    "ToolTip": "Totam quis amet non dolorem molestiae maxime.",
+    "Id": 555,
+    "Name": "Walsh-Marvin",
+    "ToolTip": "Laborum dicta dolore.",
     "Deleted": false,
-    "Rank": 361,
-    "Type": "beatae",
-    "ColorBlock": 758,
-    "IconHint": "consequatur",
+    "Rank": 741,
+    "Type": "natus",
+    "ColorBlock": 512,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2014-06-27T14:23:56.2908239+02:00",
+    "LastChanged": "2010-11-28T12:19:54.789597+01:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Brakus-Krajcik",
-        "ToolTip": "Possimus accusamus dolor voluptates delectus totam.",
-        "Deleted": true,
-        "Rank": 530,
-        "Type": "sapiente",
-        "ColorBlock": 143,
-        "IconHint": "adipisci",
+        "Id": 859,
+        "Name": "Osinski-Koelpin",
+        "ToolTip": "Incidunt amet.",
+        "Deleted": false,
+        "Rank": 845,
+        "Type": "ullam",
+        "ColorBlock": 588,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2017-08-21T14:23:56.2908239+02:00",
+        "LastChanged": "2013-11-24T12:19:54.789597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Alfonzo Florine Ernser PhD",
+        "FullName": "Kian Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 47
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "sit",
+    "ExtraInfo": "illum",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Mr. Xzavier Kailee Koepp V",
+    "FullName": "Prof. Hazel Hammes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Lehner-Ruecker",
-    "ToolTip": "Nobis rem.",
-    "Deleted": true,
-    "Rank": 903,
-    "Type": "maiores",
-    "ColorBlock": 56,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2022-05-03T14:23:56.2751981+02:00",
+    "Id": 880,
+    "Name": "Goldner, Kuhic and Stamm",
+    "ToolTip": "Dolores praesentium vel occaecati eius.",
+    "Deleted": false,
+    "Rank": 271,
+    "Type": "voluptatem",
+    "ColorBlock": 284,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2022-11-21T12:19:54.7739754+01:00",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Dibbert-Schmitt",
-        "ToolTip": "Fuga dolorem.",
+        "Id": 749,
+        "Name": "Morar LLC",
+        "ToolTip": "Suscipit officiis vero similique voluptatum.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "voluptas",
-        "ColorBlock": 338,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "1997-12-25T14:23:56.2751981+01:00",
+        "Rank": 264,
+        "Type": "est",
+        "ColorBlock": 889,
+        "IconHint": "tenetur",
+        "Selected": false,
+        "LastChanged": "2018-11-14T12:19:54.7739754+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Caleb Green"
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "nulla",
+        "Hidden": true,
+        "FullName": "Reagan Conroy"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "autem",
+    "ExtraInfo": "cum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mrs. Stephon Jan Bradtke Jr."
+    "FullName": "Mrs. Yvonne Martin Stroman DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Bruen Group",
-    "ToolTip": "Aut ex aut et velit qui.",
+    "Id": 562,
+    "Name": "Larkin, Mitchell and O'Conner",
+    "ToolTip": "Molestiae ea optio voluptatem quisquam maxime.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "aspernatur",
-    "ColorBlock": 177,
-    "IconHint": "modi",
+    "Rank": 358,
+    "Type": "quibusdam",
+    "ColorBlock": 513,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2016-08-08T14:23:56.2751981+02:00",
+    "LastChanged": "2001-09-17T12:19:54.7739754+02:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Wilderman-Sauer",
-        "ToolTip": "Ea at et sit.",
+        "Id": 88,
+        "Name": "Mills-Ruecker",
+        "ToolTip": "Perspiciatis aut eos.",
         "Deleted": false,
-        "Rank": 459,
-        "Type": "enim",
-        "ColorBlock": 616,
-        "IconHint": "officia",
-        "Selected": true,
-        "LastChanged": "1997-12-07T14:23:56.2751981+01:00",
+        "Rank": 778,
+        "Type": "non",
+        "ColorBlock": 821,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2021-03-09T12:19:54.7739754+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Wilmer Streich",
+        "ExtraInfo": "est",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Claudia Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 750
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "quidem",
+    "ExtraInfo": "id",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Cristina Bernier",
+    "FullName": "Mrs. Gerhard Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 240
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 143,
-      "UniqueId": "quis",
-      "Name": "Renner, Hessel and Towne",
-      "Description": "Up-sized zero administration definition",
-      "AssociateId": 798,
-      "Columns": 665,
+      "DashboardId": 182,
+      "UniqueId": "sed",
+      "Name": "Kuhn-Yundt",
+      "Description": "Right-sized dedicated open system",
+      "AssociateId": 61,
+      "Columns": 281,
       "Theme": null,
-      "VisibleForAll": 130,
+      "VisibleForAll": 184,
       "VisibleForAssociates": [
-        731,
-        290
+        212,
+        683
       ],
       "VisibleForGroups": [
-        968,
-        745
+        434,
+        781
       ],
-      "PinForAll": 658,
+      "PinForAll": 520,
       "PinForAssociates": [
-        294,
-        281
+        692,
+        944
       ],
       "PinForGroups": [
-        135,
-        492
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 585,
-      "UniqueId": "dolore",
-      "Name": "Zemlak-Purdy",
-      "Description": "Inverse motivating instruction set",
-      "AssociateId": 261,
-      "Columns": 551,
-      "Theme": null,
-      "VisibleForAll": 399,
-      "VisibleForAssociates": [
-        149,
-        894
-      ],
-      "VisibleForGroups": [
-        917,
-        940
-      ],
-      "PinForAll": 28,
-      "PinForAssociates": [
-        694,
-        637
-      ],
-      "PinForGroups": [
-        188,
-        99
+        266,
+        121
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 653
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 660,
+      "UniqueId": "totam",
+      "Name": "Medhurst-Murray",
+      "Description": "Organic optimizing strategy",
+      "AssociateId": 608,
+      "Columns": 477,
+      "Theme": null,
+      "VisibleForAll": 19,
+      "VisibleForAssociates": [
+        124,
+        763
+      ],
+      "VisibleForGroups": [
+        667,
+        674
+      ],
+      "PinForAll": 403,
+      "PinForAssociates": [
+        501,
+        152
+      ],
+      "PinForGroups": [
+        88,
+        797
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 573
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 521,
-      "UniqueId": "et",
-      "Name": "Donnelly-VonRueden",
-      "Description": "Function-based hybrid application",
-      "AssociateId": 133,
-      "Columns": 498,
+      "DashboardId": 228,
+      "UniqueId": "perferendis",
+      "Name": "Abbott-Rohan",
+      "Description": "Managed mission-critical utilisation",
+      "AssociateId": 832,
+      "Columns": 727,
       "Theme": null,
-      "VisibleForAll": 230,
+      "VisibleForAll": 471,
       "VisibleForAssociates": [
-        41,
-        39
+        300,
+        107
       ],
       "VisibleForGroups": [
-        733,
-        810
+        558,
+        306
       ],
-      "PinForAll": 349,
+      "PinForAll": 8,
       "PinForAssociates": [
-        97,
-        629
+        174,
+        977
       ],
       "PinForGroups": [
-        527,
-        358
+        160,
+        44
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 645
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 17
     }
   }
 }

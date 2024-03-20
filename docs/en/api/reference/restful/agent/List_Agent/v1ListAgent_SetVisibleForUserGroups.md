@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 454,
-  "ListItemId": 966,
+  "UdListDefinitionId": 7,
+  "ListItemId": 163,
   "UserGroups": [
     {
-      "Id": 196,
-      "Name": "Yost-Maggio",
-      "ToolTip": "Quas id voluptatibus ut modi aut sed.",
+      "Id": 188,
+      "Name": "Homenick Inc and Sons",
+      "ToolTip": "Et dolor voluptatem libero qui ex sit totam.",
       "Deleted": false,
-      "Rank": 423,
-      "Type": "sunt",
-      "ColorBlock": 9,
-      "IconHint": "illo",
+      "Rank": 862,
+      "Type": "expedita",
+      "ColorBlock": 760,
+      "IconHint": "fugit",
       "Selected": false,
-      "LastChanged": "1997-04-26T14:23:46.8306046+02:00",
+      "LastChanged": "1996-11-28T12:19:45.4922171+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "reiciendis",
+      "ExtraInfo": "libero",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Domenick Fisher I"
+      "FullName": "Kaylie Pfeffer"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Rosenbaum-Hauck",
-    "ToolTip": "Quasi dolorum exercitationem eaque repellendus dolorem cum unde.",
-    "Deleted": true,
-    "Rank": 527,
-    "Type": "aut",
-    "ColorBlock": 505,
-    "IconHint": "quod",
+    "Id": 832,
+    "Name": "Stamm, Herman and Wilderman",
+    "ToolTip": "Quam occaecati et labore nostrum vitae recusandae iure.",
+    "Deleted": false,
+    "Rank": 522,
+    "Type": "rerum",
+    "ColorBlock": 351,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2004-06-23T14:23:46.8306046+02:00",
+    "LastChanged": "1997-05-19T12:19:45.4922171+02:00",
     "ChildItems": [
       {
-        "Id": 362,
-        "Name": "Bradtke-Cassin",
-        "ToolTip": "Non natus eos autem vel numquam aut.",
-        "Deleted": false,
-        "Rank": 68,
-        "Type": "impedit",
-        "ColorBlock": 708,
-        "IconHint": "voluptas",
+        "Id": 144,
+        "Name": "Willms-Parker",
+        "ToolTip": "Quia ut et iste facilis assumenda totam voluptates.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "voluptatum",
+        "ColorBlock": 746,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2021-10-24T14:23:46.8306046+02:00",
+        "LastChanged": "1998-10-16T12:19:45.4922171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "ut",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Marvin Hoppe",
+        "FullName": "Nigel Sienna Schuster II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldType": "System.String",
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "ullam",
+    "ExtraInfo": "eum",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Marcelle Waldo Schultz III",
+    "FullName": "Iliana Josefina Schinner Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldLength": 960
       }
     }
   }

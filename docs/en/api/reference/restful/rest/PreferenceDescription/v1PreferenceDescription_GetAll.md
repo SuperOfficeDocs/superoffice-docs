@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 41,
-    "Section": "natus",
-    "Key": "ipsa",
-    "Name": "Gaylord, Hyatt and Lakin",
+    "PrefDescId": 182,
+    "Section": "aut",
+    "Key": "facilis",
+    "Name": "Renner-Conroy",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Grass-roots client-server info-mediaries",
-    "IsBuiltin": true,
-    "TableName": "Beatty-Runte",
-    "UserDefinedListId": 438,
-    "Rank": 492,
-    "SubGroup": "iste",
-    "MinLevel": 509,
-    "MaxValue": 670,
-    "MinValue": 487,
-    "RequiredLicense": "inventore",
+    "Description": "Persevering optimal moratorium",
+    "IsBuiltin": false,
+    "TableName": "Senger Group",
+    "UserDefinedListId": 356,
+    "Rank": 409,
+    "SubGroup": "illo",
+    "MinLevel": 313,
+    "MaxValue": 804,
+    "MinValue": 139,
+    "RequiredLicense": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

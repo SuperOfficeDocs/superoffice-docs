@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "occaecati",
-  "To": "iure",
-  "Subject": "quia",
-  "PlainBody": "debitis",
-  "HtmlBody": "eveniet",
+  "From": "soluta",
+  "To": "autem",
+  "Subject": "vel",
+  "PlainBody": "et",
+  "HtmlBody": "qui",
   "AttachmentIds": [
-    750,
-    996
+    548,
+    519
   ],
-  "EventName": "Predovic, Yost and Mosciski"
+  "EventName": "Koss Group"
 }
 ```
 

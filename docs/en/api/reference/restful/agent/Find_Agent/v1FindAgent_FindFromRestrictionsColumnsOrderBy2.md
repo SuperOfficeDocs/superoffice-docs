@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "tempore",
-  "ProviderName": "Effertz, Klein and Rice",
-  "DesiredColumns": "porro",
-  "OrderBy": "nulla",
-  "PageSize": 797,
-  "PageNumber": 348
+  "Restrictions": "iusto",
+  "ProviderName": "Lowe, Yundt and Pagac",
+  "DesiredColumns": "ex",
+  "OrderBy": "sed",
+  "PageSize": 31,
+  "PageNumber": 322
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hane-Bartell",
-      "DisplayTooltip": "mollitia",
-      "DisplayType": "esse",
+      "DisplayName": "Kuhlman-VonRueden",
+      "DisplayTooltip": "dolorum",
+      "DisplayType": "est",
       "CanOrderBy": true,
-      "Name": "Wisoky, Gulgowski and Shields",
-      "CanRestrictBy": true,
-      "RestrictionType": "error",
-      "RestrictionListName": "Hammes, Ledner and Larkin",
+      "Name": "Dietrich, Haag and Zboncak",
+      "CanRestrictBy": false,
+      "RestrictionType": "quo",
+      "RestrictionListName": "Spencer-Schoen",
       "IsVisible": false,
-      "ExtraInfo": "distinctio",
-      "Width": "nulla",
-      "IconHint": "qui",
-      "HeadingIconHint": "nihil"
+      "ExtraInfo": "ex",
+      "Width": "qui",
+      "IconHint": "doloribus",
+      "HeadingIconHint": "ullam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Zieme-Vandervort",
-      "PrimaryKey": 214,
+      "EntityName": "Erdman-Kris",
+      "PrimaryKey": 803,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "aut",
-          "LinkHint": "nostrum"
+          "DisplayValue": "voluptate",
+          "TooltipHint": "in",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "aspernatur",
-      "StyleHint": "dolorem",
+      "LinkHint": "necessitatibus",
+      "StyleHint": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
   ],
-  "RowCount": 249,
+  "RowCount": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

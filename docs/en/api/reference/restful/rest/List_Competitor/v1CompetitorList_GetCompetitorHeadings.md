@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 206,
-    "Name": "Lowe-Raynor",
-    "Tooltip": "tenetur",
+    "HeadingId": 555,
+    "Name": "Hand Inc and Sons",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 813,
-    "UdListDefinitionId": 944,
+    "Rank": 891,
+    "UdListDefinitionId": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 873
+        "FieldType": "System.Int32",
+        "FieldLength": 452
       }
     }
   }

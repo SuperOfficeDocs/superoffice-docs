@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 440,
-    "Tooltip": "nulla",
+    "Unrestricted": true,
+    "Total": 730,
+    "Tooltip": "odit",
     "CanAssign": false,
-    "Free": 305,
-    "InUse": 441,
+    "Free": 161,
+    "InUse": 197,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 350,
-    "Name": "Jast-Haley",
-    "Description": "Switchable heuristic structure",
-    "PrerequisiteModuleName": "Kuhn, Turner and Ryan",
-    "SortOrder": 623,
-    "ExtraFlags": 695,
+    "ModuleLicenseId": 518,
+    "Name": "Kertzmann, Trantow and Gibson",
+    "Description": "Ergonomic fault-tolerant focus group",
+    "PrerequisiteModuleName": "Moore-Will",
+    "SortOrder": 835,
+    "ExtraFlags": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 911
       }
     }
   }

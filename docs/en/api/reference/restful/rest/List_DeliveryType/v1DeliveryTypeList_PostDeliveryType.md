@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Russel Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 509,
-  "Rank": 623
+  "Id": 121,
+  "Name": "Funk Inc and Sons",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "UdListDefinitionId": 61,
+  "Rank": 375
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Cole-Crist",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "UdListDefinitionId": 806,
-  "Rank": 658,
+  "Id": 297,
+  "Name": "Wiza Group",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "UdListDefinitionId": 980,
+  "Rank": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 684
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fadel, Ferry and Johns",
-  "DeviceName": "Gerhold Group",
-  "DeviceIdentifier": "aut"
+  "ApplicationName": "Hansen Inc and Sons",
+  "DeviceName": "Morissette Inc and Sons",
+  "DeviceIdentifier": "commodi"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 312,
-  "Name": "Graham, Muller and Wolff",
-  "CreatedDate": "2008-12-29T14:23:46.7524806+01:00",
-  "UpdatedDate": "2014-07-11T14:23:46.7524806+02:00",
-  "AssociateFullName": "Valentin Hayes",
-  "CreatedBy": "corrupti",
-  "UpdatedBy": "dignissimos",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 451,
+  "ForeignDeviceId": 546,
+  "Name": "Powlowski Group",
+  "CreatedDate": "2013-01-22T12:19:45.4141069+01:00",
+  "UpdatedDate": "2023-03-17T12:19:45.4141069+01:00",
+  "AssociateFullName": "Josefina Mitchell",
+  "CreatedBy": "distinctio",
+  "UpdatedBy": "doloremque",
+  "DeviceIdentifier": "quisquam",
+  "ForeignAppId": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 628
     }
   }
 }

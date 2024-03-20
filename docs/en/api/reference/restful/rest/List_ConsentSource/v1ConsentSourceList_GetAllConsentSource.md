@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 749,
-    "Name": "Russel, Jaskolski and Gleason",
-    "Tooltip": "voluptatem",
-    "Rank": 262,
-    "Key": "rem",
-    "MailTemplateId": 535,
+    "ConsentSourceId": 222,
+    "Name": "Schmeler Group",
+    "Tooltip": "necessitatibus",
+    "Rank": 905,
+    "Key": "pariatur",
+    "MailTemplateId": 784,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldType": "System.String",
+        "FieldLength": 643
       }
     }
   }

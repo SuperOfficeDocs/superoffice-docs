@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 976,
+  "ContactId": 129,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Purdy, DuBuque and Cummings",
-    "SaleDate": "1999-04-05T14:23:47.3630051+02:00",
-    "SaleId": 71,
-    "Probability": 71,
-    "Title": "dignissimos",
-    "Amount": 20327.124,
-    "Currency": "autem",
-    "ProjectName": "Hintz-Legros",
-    "AssociateFullName": "Brandon Rice",
-    "Description": "Cloned real-time complexity",
+    "ContactName": "Nitzsche LLC",
+    "SaleDate": "2013-06-17T12:19:46.210807+02:00",
+    "SaleId": 405,
+    "Probability": 316,
+    "Title": "explicabo",
+    "Amount": 25814.757999999998,
+    "Currency": "aut",
+    "ProjectName": "Mills-Graham",
+    "AssociateFullName": "Montana Kunde",
+    "Description": "Streamlined zero tolerance neural-net",
     "Status": "Lost",
-    "WeightedAmount": 10370.405999999999,
-    "ProjectId": 282,
-    "EarningPercent": 22514.656,
-    "Earning": 11598.934,
-    "ContactId": 928,
-    "AssociateId": 557,
-    "PersonId": 792,
-    "SaleTypeId": 735,
-    "SaleTypeName": "Nikolaus-Pfannerstill",
-    "PersonFullName": "Unique Metz",
+    "WeightedAmount": 22840.592,
+    "ProjectId": 125,
+    "EarningPercent": 28663.564,
+    "Earning": 16111.894,
+    "ContactId": 261,
+    "AssociateId": 524,
+    "PersonId": 926,
+    "SaleTypeId": 668,
+    "SaleTypeName": "Bins, Veum and Nicolas",
+    "PersonFullName": "Delfina Cronin",
     "Completed": "Completed",
-    "ActiveErpLinks": 507,
-    "NextDueDate": "2000-08-17T14:23:47.3630051+02:00",
-    "Number": "492588",
+    "ActiveErpLinks": 941,
+    "NextDueDate": "2007-04-02T12:19:46.210807+02:00",
+    "Number": "1118328",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 410
       }
     }
   }

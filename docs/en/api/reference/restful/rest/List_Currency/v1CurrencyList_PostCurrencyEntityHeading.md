@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 922,
-  "Name": "Ritchie, Jewess and Hahn",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 500,
-  "UdListDefinitionId": 486
+  "HeadingId": 219,
+  "Name": "Wilkinson, Lockman and O'Keefe",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 993,
+  "UdListDefinitionId": 747
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 705,
-  "Name": "Schimmel-Cole",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 550,
-  "UdListDefinitionId": 264,
+  "HeadingId": 424,
+  "Name": "Powlowski LLC",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "Rank": 754,
+  "UdListDefinitionId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldLength": 880
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 430,
-  "Section": "eius",
-  "Key": "vel",
-  "Name": "Gottlieb Inc and Sons",
+  "PrefDescId": 477,
+  "Section": "amet",
+  "Key": "possimus",
+  "Name": "Rowe Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide needs-based matrix",
-  "IsBuiltin": true,
-  "TableName": "Lindgren Inc and Sons",
-  "UserDefinedListId": 523,
-  "Rank": 679,
-  "SubGroup": "magni",
-  "MinLevel": 153,
-  "MaxValue": 870,
-  "MinValue": 898,
-  "RequiredLicense": "cum",
+  "Description": "Multi-layered object-oriented core",
+  "IsBuiltin": false,
+  "TableName": "Koch-Kirlin",
+  "UserDefinedListId": 453,
+  "Rank": 603,
+  "SubGroup": "qui",
+  "MinLevel": 634,
+  "MaxValue": 977,
+  "MinValue": 225,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 498
     }
   }
 }

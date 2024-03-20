@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Schaefer-Okuneva",
-    "ToolTip": "Ut non numquam sit.",
+    "Id": 912,
+    "Name": "Williamson-Waelchi",
+    "ToolTip": "Praesentium modi quisquam et.",
     "Deleted": false,
-    "Rank": 254,
-    "Type": "enim",
-    "ColorBlock": 947,
-    "IconHint": "aut",
+    "Rank": 574,
+    "Type": "asperiores",
+    "ColorBlock": 713,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2020-06-03T14:23:56.228325+02:00",
+    "LastChanged": "2005-08-29T12:19:54.7271106+02:00",
     "ChildItems": [
       {
         "Id": 130,
-        "Name": "Dickinson, Hahn and Mertz",
-        "ToolTip": "Numquam voluptas maxime repellendus molestias laudantium odio.",
-        "Deleted": false,
-        "Rank": 466,
-        "Type": "soluta",
-        "ColorBlock": 380,
-        "IconHint": "officia",
+        "Name": "Schultz, Tillman and Paucek",
+        "ToolTip": "Perspiciatis doloribus quis.",
+        "Deleted": true,
+        "Rank": 582,
+        "Type": "atque",
+        "ColorBlock": 543,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2016-09-08T14:23:56.228325+02:00",
+        "LastChanged": "2010-11-12T12:19:54.7271106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Ms. Vanessa Adah Christiansen"
+        "FullName": "Miss Electa O'Hara"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Timmy Graham"
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Scarlett Rutherford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Tempore dolor voluptates.",
-    "Deleted": true,
-    "Rank": 634,
-    "Type": "est",
-    "ColorBlock": 275,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2013-07-24T14:23:56.228325+02:00",
+    "Id": 885,
+    "Name": "Reilly-Cummings",
+    "ToolTip": "Ut sunt qui nemo non.",
+    "Deleted": false,
+    "Rank": 470,
+    "Type": "mollitia",
+    "ColorBlock": 640,
+    "IconHint": "hic",
+    "Selected": false,
+    "LastChanged": "2021-10-05T12:19:54.7271106+02:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Mohr Inc and Sons",
-        "ToolTip": "Aspernatur debitis.",
+        "Id": 930,
+        "Name": "Orn Inc and Sons",
+        "ToolTip": "Qui reprehenderit delectus omnis suscipit non cumque.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "adipisci",
-        "ColorBlock": 790,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2004-09-04T14:23:56.228325+02:00",
+        "Rank": 635,
+        "Type": "porro",
+        "ColorBlock": 633,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2002-05-24T12:19:54.7271106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mr. Annamarie Tyrell Welch",
+        "ExtraInfo": "qui",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Mr. Olga Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 128
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Mrs. Eulah Saige D'Amore",
+    "ExtraInfo": "eos",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Prof. Jasmin D'Amore V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 452
       }
     }
   }

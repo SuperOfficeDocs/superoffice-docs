@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 907,
-  "Name": "Murphy, Witting and Schumm",
-  "Description": "Streamlined static utilisation",
-  "DeltaJson": "ex",
+  "ConfigurableScreenDeltaId": 199,
+  "Name": "Bogan Group",
+  "Description": "Configurable static functionalities",
+  "DeltaJson": "similique",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "accusantium",
-  "UpdatedDate": "2009-06-27T14:23:46.0480845+02:00",
-  "CreatedDate": "2018-03-01T14:23:46.0480845+01:00",
+  "RecipeId": "neque",
+  "UpdatedDate": "2019-02-17T12:19:44.8204988+01:00",
+  "CreatedDate": "1997-03-16T12:19:44.8204988+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    91,
-    919
+    530,
+    896
   ],
-  "AppliesToKey": "tempore",
+  "AppliesToKey": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 477
     }
   }
 }

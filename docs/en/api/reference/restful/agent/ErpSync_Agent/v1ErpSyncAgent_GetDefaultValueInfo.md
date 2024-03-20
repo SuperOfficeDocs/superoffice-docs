@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 340
+  "ErpFieldId": 250
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 376,
-  "DefaultValue": "esse",
+  "ErpFieldId": 470,
+  "DefaultValue": "nihil",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quas",
+  "FirstSyncDefaultValue": "maiores",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "ipsa",
+  "Mandatory": true,
+  "ErpFieldKey": "doloremque",
   "FieldType": "Checkbox",
-  "ListName": "Hyatt-Becker",
+  "ListName": "Ullrich LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 737
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "Name": "Roob Inc and Sons",
-  "Tooltip": "saepe",
+  "Id": 407,
+  "Name": "Conn, Tillman and Schiller",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 974,
+  "Rank": 665,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Quigley Group",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 655,
+  "Id": 919,
+  "Name": "Hagenes Group",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 159,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloribus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 164
     }
   }
 }

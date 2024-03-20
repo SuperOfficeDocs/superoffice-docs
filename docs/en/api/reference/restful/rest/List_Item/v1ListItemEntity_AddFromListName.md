@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Wyman LLC",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "UdListDefinitionId": 503,
-  "Rank": 54
+  "Id": 341,
+  "Name": "Schumm, Heller and Von",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 1002,
+  "Rank": 881
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Cruickshank, Oberbrunner and Cormier",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "UdListDefinitionId": 76,
-  "Rank": 74,
+  "Id": 217,
+  "Name": "Wyman-Roob",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 9,
+  "Rank": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   }
 }

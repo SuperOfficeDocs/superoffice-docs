@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Yundt, Rau and Bode",
-  "Tooltip": "eligendi",
+  "Id": 641,
+  "Name": "Quigley Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 652,
-  "Rank": 361,
+  "UdListDefinitionId": 153,
+  "Rank": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 145
     }
   }
 }

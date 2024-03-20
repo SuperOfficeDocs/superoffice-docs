@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 737,
-  "Name": "Oberbrunner-Schowalter",
-  "Rank": 680,
-  "Tooltip": "eveniet",
+  "AssociateId": 331,
+  "Name": "Skiles-Watsica",
+  "Rank": 527,
+  "Tooltip": "modi",
   "LicenseOwners": [
     {
-      "Name": "Spinka-Runolfsson",
-      "Description": "Monitored background definition",
+      "Name": "Larson, Wilderman and Emmerich",
+      "Description": "Open-architected clear-thinking function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 503
         }
       }
     },
     {
-      "Name": "Spinka-Runolfsson",
-      "Description": "Monitored background definition",
+      "Name": "Larson, Wilderman and Emmerich",
+      "Description": "Open-architected clear-thinking function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 503
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "occaecati",
-      "Tooltip": "doloremque",
-      "Id": 602,
-      "Rank": 214,
-      "Deleted": true,
+      "Value": "veniam",
+      "Tooltip": "nihil",
+      "Id": 54,
+      "Rank": 37,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldLength": 761
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-12-02T14:23:55.915829+01:00",
-  "Lastlogout": "2018-08-03T14:23:55.915829+02:00",
-  "EjUserId": 674,
-  "RequestSignature": "incidunt",
+  "Lastlogin": "2007-08-16T12:19:54.2428489+02:00",
+  "Lastlogout": "2002-11-08T12:19:54.2428489+01:00",
+  "EjUserId": 98,
+  "RequestSignature": "voluptas",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "et",
+      "Value": "maxime",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 746
+          "FieldType": "System.Int32",
+          "FieldLength": 172
         }
       }
     },
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "et",
+      "Value": "maxime",
+      "DisplayValue": "nemo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 172
+        }
+      }
+    }
+  ],
+  "UserName": "Johns, Carter and Stanton",
+  "TicketCategories": [
+    {
+      "Id": 310,
+      "Name": "Orn Group",
+      "ToolTip": "Necessitatibus hic.",
+      "Deleted": false,
+      "Rank": 864,
+      "Type": "dolorem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "deserunt",
+      "ColorBlock": 293,
+      "ExtraInfo": "neque",
+      "StyleHint": "et",
+      "FullName": "Maude Witting",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 95
+        }
+      }
+    }
+  ],
+  "NickName": "Jaskolski Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aut",
+    "ExtraFields2": "a"
+  },
+  "CustomFields": {
+    "CustomFields1": "quae",
+    "CustomFields2": "maxime"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hegmann-Turner",
+      "DisplayName": "Connelly-Bins",
+      "Description": "Right-sized coherent flexibility",
+      "ToolTip": "Quis consectetur perferendis doloremque autem.",
+      "Actions": "Implicit",
+      "ActionData": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 746
-        }
-      }
-    }
-  ],
-  "UserName": "Dickinson Group",
-  "TicketCategories": [
-    {
-      "Id": 630,
-      "Name": "Harber-Rice",
-      "ToolTip": "Odit perferendis accusamus in ut enim similique.",
-      "Deleted": false,
-      "Rank": 812,
-      "Type": "recusandae",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "non",
-      "ColorBlock": 510,
-      "ExtraInfo": "et",
-      "StyleHint": "blanditiis",
-      "FullName": "Miss Mustafa Rippin IV",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
-        }
-      }
-    }
-  ],
-  "NickName": "Greenfelder, Gorczany and Cassin",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "minus"
-  },
-  "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "inventore"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Brekke LLC",
-      "DisplayName": "Satterfield LLC",
-      "Description": "Horizontal composite conglomeration",
-      "ToolTip": "Provident dolor ut sed.",
-      "Actions": "Implicit",
-      "ActionData": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 501
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
 }

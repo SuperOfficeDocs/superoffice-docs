@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Jenkins-Legros",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "Rank": 299,
-    "UdListDefinitionId": 942,
+    "HeadingId": 877,
+    "Name": "Cole, Stroman and Balistreri",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 957,
+    "UdListDefinitionId": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 449
       }
     }
   }

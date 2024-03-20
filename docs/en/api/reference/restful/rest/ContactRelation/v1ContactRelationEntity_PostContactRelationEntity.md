@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 249,
-  "SourcePersonId": 37,
-  "DestinationContactId": 433,
-  "DestinationPersonId": 756,
-  "RelationId": 369,
-  "Comment": "beatae",
-  "RelationDefinitionId": 532,
-  "Reversed": 953,
-  "UpdatedDate": "2023-09-27T14:23:55.0396483+02:00",
-  "CreatedDate": "2013-11-14T14:23:55.0396483+01:00",
+  "SourceContactId": 859,
+  "SourcePersonId": 380,
+  "DestinationContactId": 907,
+  "DestinationPersonId": 266,
+  "RelationId": 997,
+  "Comment": "ut",
+  "RelationDefinitionId": 699,
+  "Reversed": 352,
+  "UpdatedDate": "2005-10-14T12:19:53.2899404+02:00",
+  "CreatedDate": "2011-01-07T12:19:53.2899404+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Klein Inc and Sons",
-  "SourcePersonName": "Schoen Inc and Sons",
-  "DestinationContactName": "Gibson, Runte and Grady",
-  "DestinationPersonName": "Lang Group",
-  "ActiveText": "vel",
-  "PassiveText": "perspiciatis"
+  "SourceContactName": "Collier-Watsica",
+  "SourcePersonName": "Hauck-Effertz",
+  "DestinationContactName": "Cole LLC",
+  "DestinationPersonName": "Stiedemann, Little and Ratke",
+  "ActiveText": "quia",
+  "PassiveText": "perferendis"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 597,
-  "SourcePersonId": 881,
-  "DestinationContactId": 75,
-  "DestinationPersonId": 485,
-  "RelationId": 730,
-  "Comment": "eum",
-  "RelationDefinitionId": 634,
-  "Reversed": 224,
-  "UpdatedDate": "2003-11-08T14:23:55.0396483+01:00",
-  "CreatedDate": "2005-08-14T14:23:55.0396483+02:00",
+  "SourceContactId": 593,
+  "SourcePersonId": 286,
+  "DestinationContactId": 418,
+  "DestinationPersonId": 431,
+  "RelationId": 969,
+  "Comment": "cum",
+  "RelationDefinitionId": 400,
+  "Reversed": 800,
+  "UpdatedDate": "2001-07-29T12:19:53.2899404+02:00",
+  "CreatedDate": "2021-12-17T12:19:53.2899404+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schroeder-Kris",
-  "SourcePersonName": "Ernser Group",
-  "DestinationContactName": "Gutkowski Group",
-  "DestinationPersonName": "Senger-Ward",
-  "ActiveText": "sed",
-  "PassiveText": "nostrum",
+  "SourceContactName": "Nolan LLC",
+  "SourcePersonName": "Hoeger-Zemlak",
+  "DestinationContactName": "Homenick LLC",
+  "DestinationPersonName": "Bechtelar Inc and Sons",
+  "ActiveText": "voluptas",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 613
     }
   },
   "_Links": {

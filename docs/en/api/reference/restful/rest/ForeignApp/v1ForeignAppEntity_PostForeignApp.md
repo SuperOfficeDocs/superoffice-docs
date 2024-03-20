@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 372,
-  "Name": "Rolfson, Kassulke and Nikolaus",
-  "CreatedDate": "2000-07-30T14:23:55.1646464+02:00",
-  "UpdatedDate": "2020-04-22T14:23:55.1646464+02:00",
+  "ForeignAppId": 475,
+  "Name": "Morissette-Abbott",
+  "CreatedDate": "2021-12-29T12:19:53.5867469+01:00",
+  "UpdatedDate": "2013-04-22T12:19:53.5867469+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 910,
-      "Name": "Batz, Metz and Mertz",
-      "CreatedDate": "2021-12-02T14:23:55.1646464+01:00",
-      "UpdatedDate": "2010-11-10T14:23:55.1646464+01:00",
-      "AssociateFullName": "Graham Cole Quitzon I",
-      "CreatedBy": "similique",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 457,
+      "ForeignDeviceId": 726,
+      "Name": "Green LLC",
+      "CreatedDate": "2006-01-17T12:19:53.5867469+01:00",
+      "UpdatedDate": "2006-10-04T12:19:53.5867469+02:00",
+      "AssociateFullName": "Anna Walker",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "vel",
+      "DeviceIdentifier": "vel",
+      "ForeignAppId": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldLength": 258
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldType": "System.Int32",
+      "FieldLength": 974
     }
   }
 }

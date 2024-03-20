@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Murray Inc and Sons",
-    "ToolTip": "Cumque et similique molestias ad dolor.",
+    "Id": 740,
+    "Name": "Corwin LLC",
+    "ToolTip": "Saepe eum.",
     "Deleted": false,
-    "Rank": 216,
-    "Type": "quidem",
-    "ColorBlock": 955,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2014-01-23T14:23:55.9939519+01:00",
+    "Rank": 830,
+    "Type": "praesentium",
+    "ColorBlock": 220,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2021-06-14T12:19:54.3365677+02:00",
     "ChildItems": [
       {
-        "Id": 92,
-        "Name": "Klein LLC",
-        "ToolTip": "Et veniam autem consectetur.",
-        "Deleted": true,
-        "Rank": 645,
-        "Type": "et",
-        "ColorBlock": 84,
-        "IconHint": "et",
+        "Id": 75,
+        "Name": "Brakus-Haley",
+        "ToolTip": "Rerum illum.",
+        "Deleted": false,
+        "Rank": 336,
+        "Type": "tempore",
+        "ColorBlock": 300,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2015-01-11T14:23:55.9939519+01:00",
+        "LastChanged": "2013-09-29T12:19:54.3365677+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Trystan Jones Jr."
+        "ExtraInfo": "est",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Mrs. Mariana Marion Okuneva IV"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quia",
+    "ExtraInfo": "officia",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Brayan Cormier"
+    "FullName": "Asia Gottlieb PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Emmerich, Price and Bayer",
-    "ToolTip": "Odio at quia quia eligendi omnis enim et.",
-    "Deleted": true,
-    "Rank": 95,
-    "Type": "est",
-    "ColorBlock": 2,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2005-09-22T14:23:55.9939519+02:00",
+    "Id": 389,
+    "Name": "Gusikowski LLC",
+    "ToolTip": "Vel dolor cum reiciendis tempora eos.",
+    "Deleted": false,
+    "Rank": 665,
+    "Type": "odio",
+    "ColorBlock": 778,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2020-10-13T12:19:54.3365677+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Lindgren, Keeling and Rice",
-        "ToolTip": "Aperiam eveniet vitae voluptatum et ipsa doloribus rerum.",
+        "Id": 421,
+        "Name": "Prosacco Group",
+        "ToolTip": "Quia neque maxime.",
         "Deleted": false,
-        "Rank": 232,
-        "Type": "ipsa",
-        "ColorBlock": 464,
-        "IconHint": "consequuntur",
+        "Rank": 726,
+        "Type": "animi",
+        "ColorBlock": 469,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "1998-04-25T14:23:55.9939519+02:00",
+        "LastChanged": "2014-01-13T12:19:54.3365677+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "quas",
+        "ExtraInfo": "tempora",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Prof. Bethany Meta McCullough MD",
+        "FullName": "Tabitha Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "sint",
+    "ExtraInfo": "ad",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Marjolaine Cartwright",
+    "FullName": "Jayne Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 645
       }
     }
   }

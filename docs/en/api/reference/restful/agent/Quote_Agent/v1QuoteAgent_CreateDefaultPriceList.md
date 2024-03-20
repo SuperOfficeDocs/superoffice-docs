@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 424,
-  "ERPPriceListKey": "porro",
-  "QuoteConnectionId": 420,
-  "Name": "Weber-Thiel",
-  "Description": "Right-sized multi-tasking forecast",
-  "Currency": "ex",
-  "CurrencyName": "Moore LLC",
-  "ValidFrom": "2013-04-02T14:23:47.222383+02:00",
-  "ValidTo": "2009-10-05T14:23:47.222383+02:00",
+  "PriceListId": 626,
+  "ERPPriceListKey": "adipisci",
+  "QuoteConnectionId": 519,
+  "Name": "Cormier-Klocko",
+  "Description": "Stand-alone assymetric task-force",
+  "Currency": "assumenda",
+  "CurrencyName": "Gibson, Bernhard and Maggio",
+  "ValidFrom": "2006-05-17T12:19:46.0701997+02:00",
+  "ValidTo": "2022-01-31T12:19:46.0701997+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

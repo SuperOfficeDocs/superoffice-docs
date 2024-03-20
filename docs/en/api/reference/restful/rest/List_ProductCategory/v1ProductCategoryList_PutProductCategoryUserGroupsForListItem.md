@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Weimann Group",
-    "ToolTip": "Autem autem voluptate rerum.",
+    "Id": 439,
+    "Name": "Kihn LLC",
+    "ToolTip": "Qui quam dignissimos impedit ex odit omnis.",
     "Deleted": false,
-    "Rank": 900,
-    "Type": "aut",
-    "ColorBlock": 925,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2001-05-14T14:23:56.1970747+02:00",
+    "Rank": 429,
+    "Type": "expedita",
+    "ColorBlock": 891,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2000-06-28T12:19:54.6958722+02:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Stehr, Vandervort and Toy",
-        "ToolTip": "Sunt et officia tempora.",
-        "Deleted": true,
-        "Rank": 611,
-        "Type": "soluta",
-        "ColorBlock": 832,
-        "IconHint": "unde",
+        "Id": 443,
+        "Name": "Effertz, Wolf and Carroll",
+        "ToolTip": "Delectus tenetur est distinctio consequatur dolorem.",
+        "Deleted": false,
+        "Rank": 492,
+        "Type": "corrupti",
+        "ColorBlock": 680,
+        "IconHint": "incidunt",
         "Selected": true,
-        "LastChanged": "2017-07-13T14:23:56.1970747+02:00",
+        "LastChanged": "2006-02-13T12:19:54.6958722+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "et",
+        "ExtraInfo": "modi",
+        "StyleHint": "porro",
         "Hidden": true,
-        "FullName": "Miss Gaylord Little"
+        "FullName": "Lamont Senger"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "minus",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Wilber Roob"
+    "FullName": "Cody Mosciski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Kub, Rogahn and Conn",
-    "ToolTip": "Enim quidem laudantium sunt iste dolores temporibus inventore.",
+    "Id": 261,
+    "Name": "Simonis, Weimann and Nikolaus",
+    "ToolTip": "Eaque aperiam consequatur porro.",
     "Deleted": false,
-    "Rank": 306,
-    "Type": "quam",
-    "ColorBlock": 219,
-    "IconHint": "harum",
+    "Rank": 170,
+    "Type": "consequatur",
+    "ColorBlock": 544,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2011-01-30T14:23:56.1970747+01:00",
+    "LastChanged": "2017-04-30T12:19:54.6958722+02:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Kuhic, Haley and Johnson",
-        "ToolTip": "Minima et ut veritatis consequatur recusandae.",
-        "Deleted": false,
-        "Rank": 697,
-        "Type": "debitis",
-        "ColorBlock": 672,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "1999-03-10T14:23:56.1970747+01:00",
+        "Id": 487,
+        "Name": "Durgan-Jacobson",
+        "ToolTip": "Fugiat sint voluptatibus sunt quidem et.",
+        "Deleted": true,
+        "Rank": 760,
+        "Type": "quia",
+        "ColorBlock": 989,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "2019-10-14T12:19:54.6958722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Naomi Macejkovic",
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Victor Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldType": "System.String",
+            "FieldLength": 387
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "similique",
+    "ExtraInfo": "enim",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Mr. Dudley Cormier Sr.",
+    "FullName": "Marisol Altenwerth Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 130
       }
     }
   }

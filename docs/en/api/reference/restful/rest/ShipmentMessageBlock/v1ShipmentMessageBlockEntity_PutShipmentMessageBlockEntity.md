@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 198,
-  "AssociateId": 562,
-  "Block": "doloremque",
-  "Registered": "2014-07-09T14:23:55.509584+02:00",
-  "RegisteredAssociateId": 269,
-  "Updated": "2023-05-18T14:23:55.509584+02:00",
-  "UpdatedAssociateId": 88,
-  "UpdatedCount": 663
+  "ShipmentMessageBlockId": 393,
+  "AssociateId": 79,
+  "Block": "quod",
+  "Registered": "2014-04-30T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 682,
+  "Updated": "2003-09-28T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 141,
+  "UpdatedCount": 462
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 555,
-  "AssociateId": 412,
+  "ShipmentMessageBlockId": 687,
+  "AssociateId": 424,
   "Block": "aut",
-  "Registered": "2005-10-02T14:23:55.509584+02:00",
-  "RegisteredAssociateId": 676,
-  "Updated": "2015-12-17T14:23:55.509584+01:00",
-  "UpdatedAssociateId": 429,
-  "UpdatedCount": 171,
+  "Registered": "2009-06-10T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2003-03-07T12:19:53.9304171+01:00",
+  "UpdatedAssociateId": 421,
+  "UpdatedCount": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

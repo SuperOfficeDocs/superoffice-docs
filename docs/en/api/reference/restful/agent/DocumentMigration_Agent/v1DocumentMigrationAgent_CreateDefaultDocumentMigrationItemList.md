@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 792,
-  "NumDocumentsAlreadyMigrated": 216,
+  "NumDocumentsOmitted": 34,
+  "NumDocumentsAlreadyMigrated": 274,
   "Documents": [
     {
-      "DocumentId": 795,
-      "ContactId": 362,
-      "PersonId": 760,
-      "SaleId": 629,
-      "ProjectId": 162,
-      "DocTmplId": 583,
-      "AssociateId": 671,
-      "UserGroupId": 635,
-      "VisibleForId": 472
+      "DocumentId": 392,
+      "ContactId": 506,
+      "PersonId": 209,
+      "SaleId": 140,
+      "ProjectId": 427,
+      "DocTmplId": 156,
+      "AssociateId": 452,
+      "UserGroupId": 141,
+      "VisibleForId": 115
     }
   ],
   "Associates": [
     {
-      "AssociateId": 948,
-      "EmailAddress": "brittany_romaguera@feeney.info"
+      "AssociateId": 807,
+      "EmailAddress": "domingo@lind.us"
     },
     {
-      "AssociateId": 948,
-      "EmailAddress": "brittany_romaguera@feeney.info"
+      "AssociateId": 807,
+      "EmailAddress": "domingo@lind.us"
     }
   ]
 }

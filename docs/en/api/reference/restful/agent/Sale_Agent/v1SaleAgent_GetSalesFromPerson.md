@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 827,
-  "OnlyOpenSales": false
+  "PersonId": 463,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Corwin, Schiller and Bruen",
-    "SaleDate": "2020-12-04T14:23:47.3630051+01:00",
-    "SaleId": 820,
-    "Probability": 991,
-    "Title": "error",
-    "Amount": 19405.728,
-    "Currency": "quidem",
-    "ProjectName": "Stoltenberg, Nader and Prohaska",
-    "AssociateFullName": "Mrs. Carol Watsica V",
-    "Description": "Synergistic even-keeled ability",
+    "ContactName": "Langworth, Morissette and Borer",
+    "SaleDate": "2015-01-10T12:19:46.210807+01:00",
+    "SaleId": 107,
+    "Probability": 313,
+    "Title": "voluptatibus",
+    "Amount": 13573.354,
+    "Currency": "magnam",
+    "ProjectName": "Harvey Inc and Sons",
+    "AssociateFullName": "Celia Gulgowski",
+    "Description": "Multi-layered client-driven open system",
     "Status": "Lost",
-    "WeightedAmount": 2228.274,
-    "ProjectId": 530,
-    "EarningPercent": 11855.922,
-    "Earning": 16127.564,
-    "ContactId": 663,
-    "AssociateId": 608,
-    "PersonId": 977,
-    "SaleTypeId": 605,
-    "SaleTypeName": "Reichel LLC",
-    "PersonFullName": "Alvah Douglas",
+    "WeightedAmount": 29550.486,
+    "ProjectId": 557,
+    "EarningPercent": 7772.32,
+    "Earning": 27867.528,
+    "ContactId": 696,
+    "AssociateId": 381,
+    "PersonId": 206,
+    "SaleTypeId": 487,
+    "SaleTypeName": "Hagenes-Ward",
+    "PersonFullName": "Lucious Blanda",
     "Completed": "Completed",
-    "ActiveErpLinks": 253,
-    "NextDueDate": "2005-07-01T14:23:47.3630051+02:00",
-    "Number": "1675949",
+    "ActiveErpLinks": 481,
+    "NextDueDate": "2008-04-11T12:19:46.210807+02:00",
+    "Number": "294255",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 18
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ad",
-  "PrefKey": "maiores",
+  "PrefSection": "amet",
+  "PrefKey": "quo",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aperiam",
+  "RawValue": "harum",
   "Specification": null,
-  "DisplayValue": "vel",
+  "DisplayValue": "veniam",
   "DisplayTooltip": "aspernatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 755,
-  "PrefDescId": 585,
-  "TableName": "Tillman-Schulist",
-  "UserPreferenceId": 415,
+  "TargetId": 901,
+  "PrefDescId": 468,
+  "TableName": "Hegmann, Runolfsson and Greenfelder",
+  "UserPreferenceId": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 207
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 347,
-      "ContactName": "Jacobi, Grant and Kulas",
-      "PersonId": 271,
-      "PersonName": "Hoeger, Cummerata and Rolfson",
-      "AssociateId": 280,
-      "Address": "sed",
-      "EmailId": 674,
+      "ContactId": 674,
+      "ContactName": "Rippin, Torp and Reynolds",
+      "PersonId": 882,
+      "PersonName": "Gislason, Conn and Moen",
+      "AssociateId": 623,
+      "Address": "inventore",
+      "EmailId": 356,
       "DuplicatePersonIds": [
-        841,
-        94
+        547,
+        349
       ],
-      "Name": "Hane Group",
+      "Name": "Abbott-Murray",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 116,
-      "ContactName": "Jacobson, Kilback and Padberg",
-      "PersonId": 927,
-      "PersonName": "Torphy LLC",
-      "AssociateId": 766,
-      "Address": "optio",
-      "EmailId": 595,
+      "ContactId": 130,
+      "ContactName": "White-Ziemann",
+      "PersonId": 115,
+      "PersonName": "Kessler-Grant",
+      "AssociateId": 313,
+      "Address": "nihil",
+      "EmailId": 740,
       "DuplicatePersonIds": [
-        500,
-        387
+        589,
+        498
       ],
-      "Name": "O'Keefe, Pouros and Johnston",
+      "Name": "O'Kon LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 826
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 490,
-      "ContactName": "Kutch Group",
-      "PersonId": 181,
-      "PersonName": "Witting-Brakus",
-      "AssociateId": 490,
-      "Address": "omnis",
-      "EmailId": 19,
+      "ContactId": 670,
+      "ContactName": "Lebsack-Kassulke",
+      "PersonId": 201,
+      "PersonName": "Botsford LLC",
+      "AssociateId": 661,
+      "Address": "vero",
+      "EmailId": 368,
       "DuplicatePersonIds": [
-        821,
-        110
+        809,
+        409
       ],
-      "Name": "Thiel-Veum",
+      "Name": "Aufderhar, Hodkiewicz and Olson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 500
+          "FieldLength": 110
         }
       }
     }
   ],
-  "Subject": "optio",
-  "HTMLBody": "velit",
+  "Subject": "qui",
+  "HTMLBody": "tempora",
   "From": null,
-  "Sent": "2019-06-23T14:23:46.4230787+02:00",
-  "Size": 42,
+  "Sent": "2008-06-08T12:19:45.2266504+02:00",
+  "Size": 965,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "cum",
-  "PlainBody": "ducimus",
+  "MessageID": "officiis",
+  "PlainBody": "rerum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 848,
+  "ServerId": 43,
   "Attachments": [
     {
-      "Description": "Business-focused eco-centric complexity",
-      "Filename": "ducimus",
-      "Size": 999,
-      "Type": "sapiente",
-      "Encoding": "reprehenderit",
-      "Id": "soluta",
-      "Disposition": "laudantium",
+      "Description": "Automated leading edge focus group",
+      "Filename": "distinctio",
+      "Size": 372,
+      "Type": "ullam",
+      "Encoding": "doloribus",
+      "Id": "illum",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 886
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bednar-Kerluke",
+      "Name": "Treutel-Kuhlman",
       "Values": [
-        "deleniti",
-        "ex"
+        "sit",
+        "fugit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 369
         }
       }
     },
     {
-      "Name": "Bednar-Kerluke",
+      "Name": "Treutel-Kuhlman",
       "Values": [
-        "deleniti",
-        "ex"
+        "sit",
+        "fugit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 369
         }
       }
     }
   ],
-  "FolderName": "Lind-Jacobs",
-  "EmailItemId": 422,
-  "AccountId": 467,
-  "ReceivedAt": "2019-05-07T14:23:46.4230787+02:00",
+  "FolderName": "Ullrich, Yundt and Goyette",
+  "EmailItemId": 261,
+  "AccountId": 267,
+  "ReceivedAt": "2003-03-06T12:19:45.2266504+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-07-10T14:23:46.4230787+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2010-04-04T12:19:45.2266504+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 805
     }
   }
 }

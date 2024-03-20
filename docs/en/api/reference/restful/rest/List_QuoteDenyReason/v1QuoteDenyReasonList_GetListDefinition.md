@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Gusikowski, Ritchie and Frami",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 903,
-  "IsCustomList": true,
+  "Id": 109,
+  "Name": "Turner, Kuhn and Grant",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 144,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

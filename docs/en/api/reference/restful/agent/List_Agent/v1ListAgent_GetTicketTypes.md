@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 777,
-    "Name": "Bogisich Group",
-    "Rank": 452,
-    "Tooltip": "ratione",
-    "Icon": "voluptates",
-    "DefaultTicketStatus": 396,
+    "TicketTypeId": 805,
+    "Name": "Gottlieb-Dickinson",
+    "Rank": 9,
+    "Tooltip": "temporibus",
+    "Icon": "harum",
+    "DefaultTicketStatus": 840,
     "TicketStatuses": [
-      858,
-      731
+      194,
+      527
     ],
-    "DefaultTicketPriority": 822,
+    "DefaultTicketPriority": 377,
     "TicketPriorities": [
-      360,
-      946
+      851,
+      17
     ],
-    "ReplyTemplate": 467,
+    "ReplyTemplate": 586,
     "IsExternalVisible": true,
     "IsDefault": true,
     "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 734
       }
     }
   }

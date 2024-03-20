@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 138,
-  "Name": "Erdman LLC",
-  "Tooltip": "ea",
+  "HeadingId": 100,
+  "Name": "Hyatt-Grimes",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 540,
-  "UdListDefinitionId": 187
+  "Rank": 990,
+  "UdListDefinitionId": 976
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Raynor Group",
-  "Tooltip": "possimus",
+  "HeadingId": 921,
+  "Name": "Waelchi, Prohaska and Stamm",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 954,
-  "UdListDefinitionId": 215,
+  "Rank": 405,
+  "UdListDefinitionId": 97,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 441
     }
   }
 }

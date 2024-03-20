@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 286,
-  "SaleId": 22,
+  "SuggestedAppointmentId": 69,
+  "SaleId": 267,
   "CreateNow": true,
-  "OwnerId": 839
+  "OwnerId": 928
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-08-22T14:23:45.7355899+02:00",
-  "AppointmentId": 516,
-  "Description": "Universal foreground projection",
-  "Title": "labore",
-  "Agenda": "quia",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2009-12-19T14:23:45.7355899+01:00",
-  "EndDate": "2012-05-31T14:23:45.7355899+02:00",
+  "CreatedDate": "1997-07-16T12:19:44.3830929+02:00",
+  "AppointmentId": 816,
+  "Description": "Business-focused dedicated product",
+  "Title": "quod",
+  "Agenda": "consequatur",
+  "InternalNotes": "mollitia",
+  "StartDate": "2014-10-01T12:19:44.3830929+02:00",
+  "EndDate": "1999-01-12T12:19:44.3830929+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 60,
+  "MotherId": 800,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-06-18T14:23:45.7512132+02:00",
+  "UpdatedDate": "2023-01-27T12:19:44.3830929+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 660,
+  "ActiveLinks": 742,
   "Links": [
     {
-      "EntityName": "Schulist LLC",
-      "Id": 699,
-      "Description": "Intuitive content-based capability",
-      "ExtraInfo": "voluptas",
-      "LinkId": 662,
+      "EntityName": "Wuckert LLC",
+      "Id": 566,
+      "Description": "Progressive multi-state strategy",
+      "ExtraInfo": "quaerat",
+      "LinkId": 658,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 668
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "delectus",
   "HasAlarm": true,
-  "ColorIndex": 236,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "id",
-  "LeadTime": "natus",
-  "Location": "totam",
-  "RejectCounter": 920,
+  "ColorIndex": 963,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "sed",
+  "LeadTime": "sint",
+  "Location": "tempore",
+  "RejectCounter": 557,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 142,
-      "PersonId": 321,
-      "ContactId": 23,
-      "EmailId": 465,
+      "AssociateId": 863,
+      "PersonId": 349,
+      "ContactId": 377,
+      "EmailId": 164,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "gaston_nader@lehner.biz",
-      "Description": "Open-source clear-thinking hierarchy"
+      "EmailAddress": "durward.koch@jacobson.info",
+      "Description": "Sharable encompassing functionalities"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-03-25T14:23:45.7512132+01:00",
+  "ActiveDate": "2009-02-20T12:19:44.3830929+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 695,
+  "PreferredTZLocation": 464,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 851,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 534,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "similique",
+  "CentralserviceVideomeetId": "vel",
   "UserDefinedFields": {
-    "SuperOffice:1": "Molly Koss MD",
-    "SuperOffice:2": "Camille Aufderhar"
+    "SuperOffice:1": "Margie Pouros I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "optio"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2015-05-23T14:23:45.7512132+02:00",
-  "PublishTo": "2011-07-03T14:23:45.7512132+02:00",
-  "PublishFrom": "2006-10-23T14:23:45.7512132+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-05-21T12:19:44.3830929+02:00",
+  "PublishTo": "2012-05-02T12:19:44.3830929+02:00",
+  "PublishFrom": "2003-04-19T12:19:44.3830929+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 774,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 658
         }
       }
     },
     {
-      "VisibleId": 774,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 658
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

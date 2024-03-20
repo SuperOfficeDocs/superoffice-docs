@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 759,
-  "StartDate": "2013-09-14T14:23:45.548125+02:00",
-  "EndDate": "2021-03-31T14:23:45.548125+02:00",
-  "RecurrenceCounter": 163,
+  "RecurrenceId": 224,
+  "StartDate": "1997-02-28T12:19:44.3049893+01:00",
+  "EndDate": "2010-02-25T12:19:44.3049893+01:00",
+  "RecurrenceCounter": 747,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-12-11T14:23:45.548125+01:00",
-      "IsConflict": true,
-      "Description": "Focused static groupware",
-      "DescriptionStyleHint": "Managed bifurcated protocol",
-      "Tooltip": "aut"
+      "Date": "2001-11-20T12:19:44.3049893+01:00",
+      "IsConflict": false,
+      "Description": "Cross-group client-driven process improvement",
+      "DescriptionStyleHint": "Ergonomic leading edge ability",
+      "Tooltip": "enim"
     },
     {
-      "Date": "1999-12-11T14:23:45.548125+01:00",
-      "IsConflict": true,
-      "Description": "Focused static groupware",
-      "DescriptionStyleHint": "Managed bifurcated protocol",
-      "Tooltip": "aut"
+      "Date": "2001-11-20T12:19:44.3049893+01:00",
+      "IsConflict": false,
+      "Description": "Cross-group client-driven process improvement",
+      "DescriptionStyleHint": "Ergonomic leading edge ability",
+      "Tooltip": "enim"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

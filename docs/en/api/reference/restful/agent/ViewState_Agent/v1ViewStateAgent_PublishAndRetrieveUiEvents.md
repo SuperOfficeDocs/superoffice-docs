@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 45,
+  "LatestKnownEventId": 349,
   "PublishEvents": [
     {
-      "EventId": 643,
-      "EventName": "Wolf Inc and Sons",
-      "EntityType": "ipsum",
-      "EntityKey": 904,
-      "AssociateId": 947,
-      "AssociateName": "Marvin Inc and Sons",
-      "EventDateTime": "2005-01-13T14:23:47.9254988+01:00"
+      "EventId": 501,
+      "EventName": "Koss-Gleason",
+      "EntityType": "fugiat",
+      "EntityKey": 727,
+      "AssociateId": 961,
+      "AssociateName": "Abshire, Kihn and Bradtke",
+      "EventDateTime": "2002-05-01T12:19:46.6638166+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Nienow-Beer",
-      "Value": 695
+      "Name": "Tromp, Schamberger and Heaney",
+      "Value": 920
     },
     {
-      "Name": "Nienow-Beer",
-      "Value": 695
+      "Name": "Tromp, Schamberger and Heaney",
+      "Value": 920
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 839,
-    "EventName": "Swift, Satterfield and Mitchell",
-    "EntityType": "accusamus",
-    "EntityKey": 281,
-    "AssociateId": 392,
-    "AssociateName": "Lubowitz-Cummerata",
-    "EventDateTime": "2000-11-29T14:23:47.9254988+01:00",
+    "EventId": 722,
+    "EventName": "Hyatt, Howe and Orn",
+    "EntityType": "quas",
+    "EntityKey": 544,
+    "AssociateId": 346,
+    "AssociateName": "O'Hara-Bergstrom",
+    "EventDateTime": "2004-03-15T12:19:46.6638166+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 941
       }
     }
   }

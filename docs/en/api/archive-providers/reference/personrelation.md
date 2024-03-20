@@ -274,6 +274,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/contactExtra/x\_contact\_contact\_relation| *None* |Target - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |target/contactExtra/x\_contact\_request\_relation| *None* |Target - Extra Request relation: Request relation on company|  |
 |target/contactExtra/x\_contact\_contact| *None* |Target - Extra contact relation: Contact relation on company|  |
+|target/contactExtra/y\_organization/x\_name| *None* |Target - Organization - Name|  |
 |target/NumberOfActivities| *None* |Target - Number of activities|  |
 |target/NumberOfActivitiesInPeriod| *None* |Target - Number of activities in last 90 days|  |
 |target/NumberOfNotCompletedActivities| *None* |Target - Number of non-completed activities|  |
@@ -331,11 +332,11 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |portraitThumbnail| *None* |Person image: Person image|  |
-|otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
@@ -435,11 +436,11 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/restrictionAddress/line1| *None* |Source - Search address - Address 1: First line of the address|  |
 |source/restrictionAddress/line2| *None* |Source - Search address - Address 2: Second line of the address|  |
 |source/restrictionAddress/line3| *None* |Source - Search address - Address 3: Third line of the address|  |
-|source/restrictionAddress/county| *None* |Source - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|source/restrictionAddress/county| *None* |Source - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |source/restrictionAddress/city| *None* |Source - Search address - City: This criterion corresponds to the City field on the Company card.|  |
 |source/restrictionAddress/zip| *None* |Source - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |source/restrictionAddress/state| *None* |Source - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
@@ -510,6 +511,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/contactExtra/x\_contact\_contact\_relation| *None* |Source - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |source/contactExtra/x\_contact\_request\_relation| *None* |Source - Extra Request relation: Request relation on company|  |
 |source/contactExtra/x\_contact\_contact| *None* |Source - Extra contact relation: Contact relation on company|  |
+|source/contactExtra/y\_organization/x\_name| *None* |Source - Organization - Name|  |
 |source/NumberOfActivities| *None* |Source - Number of activities|  |
 |source/NumberOfActivitiesInPeriod| *None* |Source - Number of activities in last 90 days|  |
 |source/NumberOfNotCompletedActivities| *None* |Source - Number of non-completed activities|  |
@@ -538,13 +540,17 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/saintActivityType| *None* |Source - SAINT type|  |
 |source/saintDirection| *None* |Source - Direction|  |
 |source/saintIntention| *None* |Source - Intention|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/saintTicketStatus| *None* |Source - Status|  |
 |source/saintTicketCategory| *None* |Source - Category|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/fullNameWithContact,source/hasInfoText,source/personCategory,source/personPager/description,target/email/emailLastSent
+GET /api/v1/archive/PersonRelation?$select=target/contactNoMail,target/who,target/streetAddress/line3,target/restrictionAddress/addressId,target/contactExtra/x_contact_contact_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

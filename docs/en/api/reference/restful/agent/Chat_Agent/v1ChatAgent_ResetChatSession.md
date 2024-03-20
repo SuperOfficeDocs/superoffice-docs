@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 441
+  "ChatSessionId": 763
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 574,
-  "TopicId": 72,
+  "ChatSessionId": 37,
+  "TopicId": 972,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eius",
-  "CustomerHost": "tempora",
-  "CustomerName": "Ledner, Cartwright and Kovacek",
-  "CustomerEmail": "bradford.zboncak@blick.co.uk",
-  "CustomerPhone": "401-899-1184 x898",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Price Group",
+  "CustomerAlias": "est",
+  "CustomerHost": "repudiandae",
+  "CustomerName": "Waelchi-Corkery",
+  "CustomerEmail": "adriel_king@hicklenolan.co.uk",
+  "CustomerPhone": "1-465-020-8873",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Ritchie, Thiel and Hagenes",
   "Status": "Closed",
-  "FirstMessage": "aliquam",
-  "LastMessage": "ex",
-  "WhenRequested": "2020-06-24T14:23:46.0168337+02:00",
-  "WhenStarted": "2002-11-15T14:23:46.0168337+01:00",
-  "WhenEnded": "1999-04-29T14:23:46.0168337+02:00",
-  "WhenIdle": "2016-08-31T14:23:46.0168337+02:00",
-  "WhenFetched": "1997-08-13T14:23:46.0168337+02:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 766,
-  "AlertLevel": 931,
-  "Rank": 109,
+  "FirstMessage": "accusamus",
+  "LastMessage": "optio",
+  "WhenRequested": "2017-12-07T12:19:44.804875+01:00",
+  "WhenStarted": "1996-12-23T12:19:44.804875+01:00",
+  "WhenEnded": "2018-08-22T12:19:44.804875+02:00",
+  "WhenIdle": "1997-03-02T12:19:44.804875+01:00",
+  "WhenFetched": "2020-07-14T12:19:44.804875+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 187,
+  "AlertLevel": 623,
+  "Rank": 535,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 604,
+  "ChatbotIsActive": false,
+  "Rating": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 557
     }
   }
 }

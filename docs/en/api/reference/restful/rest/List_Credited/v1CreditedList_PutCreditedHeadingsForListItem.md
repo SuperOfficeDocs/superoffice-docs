@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Wyman Group",
-    "ToolTip": "Porro in sapiente consequuntur et saepe.",
+    "Id": 897,
+    "Name": "Collins-Fahey",
+    "ToolTip": "Natus et ab omnis expedita aut.",
     "Deleted": true,
-    "Rank": 392,
-    "Type": "aut",
-    "ColorBlock": 435,
-    "IconHint": "voluptatem",
+    "Rank": 4,
+    "Type": "tempora",
+    "ColorBlock": 242,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2013-11-29T14:23:56.0564526+01:00",
+    "LastChanged": "2018-01-29T12:19:54.383431+01:00",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Koepp, Reichel and Cronin",
-        "ToolTip": "Qui optio omnis possimus aut.",
+        "Id": 97,
+        "Name": "Champlin-Collier",
+        "ToolTip": "Quaerat vel aut non.",
         "Deleted": false,
-        "Rank": 820,
-        "Type": "cupiditate",
-        "ColorBlock": 360,
-        "IconHint": "consequatur",
+        "Rank": 996,
+        "Type": "minima",
+        "ColorBlock": 126,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2004-03-31T14:23:56.0564526+02:00",
+        "LastChanged": "2006-02-20T12:19:54.383431+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Miss Erik Bogisich"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Nina Johnston"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Prof. Dina Metz"
+    "ExtraInfo": "similique",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Mrs. Jerrod Casey Haag II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Lynch Inc and Sons",
-    "ToolTip": "Consectetur iure occaecati.",
-    "Deleted": false,
-    "Rank": 693,
-    "Type": "cum",
-    "ColorBlock": 462,
-    "IconHint": "eum",
+    "Id": 679,
+    "Name": "Bartell LLC",
+    "ToolTip": "Rerum aut porro voluptatibus quos.",
+    "Deleted": true,
+    "Rank": 252,
+    "Type": "et",
+    "ColorBlock": 52,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2021-02-25T14:23:56.0564526+01:00",
+    "LastChanged": "2010-10-05T12:19:54.3990083+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Stokes, Braun and Kuhic",
-        "ToolTip": "Doloremque dolores.",
+        "Id": 234,
+        "Name": "Hegmann, Boyle and Lindgren",
+        "ToolTip": "Recusandae qui et facere laboriosam mollitia placeat.",
         "Deleted": false,
-        "Rank": 91,
-        "Type": "non",
-        "ColorBlock": 122,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2000-12-30T14:23:56.0564526+01:00",
+        "Rank": 846,
+        "Type": "aut",
+        "ColorBlock": 23,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2017-05-23T12:19:54.3990083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Shanel Dariana Metz MD",
+        "ExtraInfo": "nemo",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Prof. Tara Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mr. Elva Lowe Jr.",
+    "ExtraInfo": "eaque",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Rosalind Prohaska DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldLength": 283
       }
     }
   }

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 163
+  "SaleId": 710
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Yundt-Schmitt",
-    "Comment": "voluptatum",
-    "StakeholderRoleId": 766,
-    "CountryId": 331,
-    "PersonId": 564,
-    "EmailDescription": "meggie@will.uk",
-    "EmailId": 218,
-    "EmailAddress": "darius@nienowblanda.us",
-    "PhoneId": 550,
-    "ContactName": "Fahey, Russel and Frami",
-    "ContactId": 724,
-    "SaleId": 308,
-    "Mrmrs": "amet",
-    "Firstname": "Korey",
-    "MiddleName": "Marvin-Altenwerth",
-    "Lastname": "Nikolaus",
-    "SaleStakeholderId": 914,
-    "Rank": 262,
-    "Phone": "(141)746-8354",
+    "StakeholderRoleName": "Hayes-Beer",
+    "Comment": "ducimus",
+    "StakeholderRoleId": 389,
+    "CountryId": 774,
+    "PersonId": 418,
+    "EmailDescription": "jamie@schinnerkovacek.us",
+    "EmailId": 381,
+    "EmailAddress": "brock@wintheiser.uk",
+    "PhoneId": 143,
+    "ContactName": "Stracke LLC",
+    "ContactId": 10,
+    "SaleId": 477,
+    "Mrmrs": "aliquam",
+    "Firstname": "Triston",
+    "MiddleName": "Walker LLC",
+    "Lastname": "Simonis",
+    "SaleStakeholderId": 381,
+    "Rank": 215,
+    "Phone": "407.329.5007 x037",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldLength": 686
       }
     }
   }

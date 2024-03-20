@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Fritsch, Torp and Bosco",
-      "Operator": "est",
+      "Name": "Kris, Zieme and Gleason",
+      "Operator": "tenetur",
       "Values": [
-        "velit",
-        "non"
+        "fuga",
+        "consequatur"
       ],
       "DisplayValues": [
-        "debitis",
-        "dolor"
+        "odio",
+        "quibusdam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 444,
+      "InterParenthesis": 612,
       "InterOperator": "And",
-      "UniqueHash": 652
+      "UniqueHash": 601
     }
   ],
-  "ProviderName": "Abbott-Hartmann",
-  "PageSize": 703,
-  "PageNumber": 854
+  "ProviderName": "Welch, Gleason and Batz",
+  "PageSize": 356,
+  "PageNumber": 166
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Renner LLC",
-      "DisplayTooltip": "ut",
-      "DisplayType": "doloribus",
+      "DisplayName": "Bogisich-O'Kon",
+      "DisplayTooltip": "aspernatur",
+      "DisplayType": "cupiditate",
       "CanOrderBy": false,
-      "Name": "Trantow LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "ipsam",
-      "RestrictionListName": "Nikolaus, Klocko and Hand",
+      "Name": "Kuvalis-Nikolaus",
+      "CanRestrictBy": true,
+      "RestrictionType": "sit",
+      "RestrictionListName": "Borer-Funk",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "ut",
-      "IconHint": "aut",
-      "HeadingIconHint": "doloribus"
+      "ExtraInfo": "deserunt",
+      "Width": "quia",
+      "IconHint": "debitis",
+      "HeadingIconHint": "magni"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kilback-Barrows",
-      "PrimaryKey": 397,
+      "EntityName": "Jacobson Group",
+      "PrimaryKey": 964,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "vitae",
-          "LinkHint": "et"
+          "DisplayValue": "enim",
+          "TooltipHint": "sunt",
+          "LinkHint": "repudiandae"
         }
       },
-      "LinkHint": "fugiat",
-      "StyleHint": "ea",
+      "LinkHint": "laudantium",
+      "StyleHint": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldType": "System.String",
+          "FieldLength": 274
         }
       }
     }
   ],
-  "RowCount": 399,
+  "RowCount": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   }
 }

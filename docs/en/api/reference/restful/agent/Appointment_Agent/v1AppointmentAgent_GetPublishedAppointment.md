@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 85
+  "AppointmentId": 341
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 699,
-  "StartDate": "2002-06-01T14:23:45.3907072+02:00",
-  "EndDate": "2017-02-10T14:23:45.3907072+01:00",
+  "AppointmentId": 895,
+  "StartDate": "2008-09-18T12:19:44.1643873+02:00",
+  "EndDate": "2017-01-26T12:19:44.1643873+01:00",
   "Type": "BookingForChecklist",
-  "Task": "aperiam",
-  "AssociateFullName": "Arthur Kling Jr.",
-  "ContactName": "Ortiz-Brown",
-  "Description": "Optimized dedicated software",
-  "PersonFullName": "Elizabeth Goldner",
-  "PersonId": 532,
-  "ContactId": 257,
-  "ProjectId": 233,
-  "ProjectName": "Ebert, Effertz and Wintheiser",
-  "IsPublished": false,
-  "AssociateId": 779,
-  "ColorIndex": 289,
-  "IsFree": true,
+  "Task": "incidunt",
+  "AssociateFullName": "Esperanza Parisian",
+  "ContactName": "Langosh, Stracke and Lind",
+  "Description": "Triple-buffered full-range emulation",
+  "PersonFullName": "Addison Kunze",
+  "PersonId": 105,
+  "ContactId": 124,
+  "ProjectId": 377,
+  "ProjectName": "Kunze-Swift",
+  "IsPublished": true,
+  "AssociateId": 673,
+  "ColorIndex": 623,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 137,
-  "PriorityName": "Bode Group",
+  "PriorityId": 867,
+  "PriorityName": "Hagenes-Torphy",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2008-02-03T14:23:45.3907072+01:00",
+  "ActiveDate": "2006-11-17T12:19:44.1643873+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-08-25T14:23:45.3907072+02:00",
-  "RecurringEndDate": "2017-10-15T14:23:45.3907072+02:00",
-  "MotherId": 598,
-  "AssignedBy": 719,
-  "AssignedByFullName": "Icie Towne MD",
-  "RejectReason": "",
-  "Location": "voluptatem",
-  "AlarmLeadTime": "sint",
-  "SaleId": 116,
-  "SaleName": "Bahringer-Legros",
-  "AssociateName": "Beatty Group",
-  "CreatedDate": "2018-06-30T14:23:45.3907072+02:00",
-  "CreatedBy": "impedit",
-  "CreatedByFullName": "Jewel Torp",
-  "CreatedByAssociateId": 316,
+  "RecurringStartDate": "2005-09-07T12:19:44.1643873+02:00",
+  "RecurringEndDate": "2000-04-05T12:19:44.1643873+02:00",
+  "MotherId": 713,
+  "AssignedBy": 5,
+  "AssignedByFullName": "Alize Eloisa Denesik I",
+  "RejectReason": "leverage magnetic applications",
+  "Location": "non",
+  "AlarmLeadTime": "quis",
+  "SaleId": 710,
+  "SaleName": "Hartmann, McKenzie and Kshlerin",
+  "AssociateName": "Witting-King",
+  "CreatedDate": "2022-08-08T12:19:44.1643873+02:00",
+  "CreatedBy": "nemo",
+  "CreatedByFullName": "Eusebio Hansen Jr.",
+  "CreatedByAssociateId": 559,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 598,
-  "Title": "molestiae",
-  "Agenda": "minus",
-  "InternalNotes": "necessitatibus",
+  "PreferredTZLocation": 426,
+  "Title": "quisquam",
+  "Agenda": "perferendis",
+  "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 626,
+  "TicketMessageEntityId": 349,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 334,
+  "EjMessageId": 515,
   "Ticket": null,
-  "CreatedAt": "2003-06-26T14:23:47.8005007+02:00",
+  "CreatedAt": "2003-09-16T12:19:46.5388507+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "expedita",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eius",
-  "TimeSpent": 583,
-  "Body": "non",
-  "HtmlBody": "laudantium",
-  "EmailHeader": "justina@wardroberts.ca",
-  "DebugInfo": "atque",
-  "MailSorter": "quis",
+  "MessageId": "et",
+  "TimeSpent": 137,
+  "Body": "quam",
+  "HtmlBody": "blanditiis",
+  "EmailHeader": "estella.bayer@leuschkemckenzie.us",
+  "DebugInfo": "eveniet",
+  "MailSorter": "inventore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ab",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 674,
-      "Name": "Upton-Gaylord",
-      "Value": "delectus",
+      "Id": 613,
+      "Name": "Bode Group",
+      "Value": "tempore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldType": "System.String",
+          "FieldLength": 931
         }
       }
     }
   ],
   "Important": true,
-  "Language": "fugit",
-  "Sentiment": 868,
-  "SentimentConfidence": 612,
+  "Language": "ut",
+  "Sentiment": 989,
+  "SentimentConfidence": 343,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 401,
-      "Name": "Rempel-Lynch",
-      "ContentType": "veniam",
-      "AttSize": 206,
-      "InlineImage": true,
-      "ContentId": "facere",
-      "AuthKey": "magni",
+      "AttachmentId": 291,
+      "Name": "Ankunding, Schaden and Boyer",
+      "ContentType": "dolor",
+      "AttSize": 987,
+      "InlineImage": false,
+      "ContentId": "dolorem",
+      "AuthKey": "veniam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 16
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "qui"
+    "CustomFields1": "et",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 352
     }
   }
 }

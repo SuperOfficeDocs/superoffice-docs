@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 173,
-  "StartTime": "2018-04-20T14:23:46.2824577+02:00",
-  "EndTime": "2007-03-29T14:23:46.2824577+02:00",
-  "Count": 788,
+  "PersonId": 349,
+  "StartTime": "2004-09-27T12:19:45.0704356+02:00",
+  "EndTime": "2003-09-12T12:19:45.0704356+02:00",
+  "Count": 945,
   "DocumentTemplateIds": [
-    287,
-    987
+    716,
+    745
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 35,
-    "Attention": "alias",
-    "Header": "dolore",
-    "Name": "Abshire, Hettinger and Russel",
-    "OurRef": "asperiores",
-    "YourRef": "ea",
-    "Description": "Stand-alone motivating strategy",
-    "DocumentTemplate": "saepe",
-    "IsPublished": false,
-    "PersonId": 817,
-    "PersonFullName": "Sophia Pfeffer",
-    "AssociateFullName": "Wilma Mekhi Green Sr.",
-    "ContactId": 1000,
-    "ContactName": "Abshire LLC",
-    "ProjectId": 358,
-    "ProjectName": "Kuhic, Zulauf and Feest",
-    "AssociateId": 974,
-    "Snum": 536,
-    "SaleId": 237,
-    "SaleName": "Maggio Group",
+    "DocumentId": 325,
+    "Attention": "autem",
+    "Header": "est",
+    "Name": "Gleason-DuBuque",
+    "OurRef": "ut",
+    "YourRef": "et",
+    "Description": "Balanced grid-enabled installation",
+    "DocumentTemplate": "aut",
+    "IsPublished": true,
+    "PersonId": 743,
+    "PersonFullName": "Lilly Stehr",
+    "AssociateFullName": "Katrine O'Kon",
+    "ContactId": 435,
+    "ContactName": "Funk-Lind",
+    "ProjectId": 386,
+    "ProjectName": "Keebler-Botsford",
+    "AssociateId": 156,
+    "Snum": 466,
+    "SaleId": 312,
+    "SaleName": "Weber, Connelly and Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldLength": 518
       }
     }
   }

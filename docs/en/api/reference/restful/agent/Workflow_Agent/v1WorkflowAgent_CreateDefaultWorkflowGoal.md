@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 705,
-  "WorkflowId": 909,
+  "WorkflowGoalId": 71,
+  "WorkflowId": 561,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "King-Fay",
-      "Description": "Quality-focused 4th generation secured line",
-      "Rank": 943,
+      "Name": "Wisoky-Rohan",
+      "Description": "Digitized multimedia system engine",
+      "Rank": 313,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "King-Fay",
-      "Description": "Quality-focused 4th generation secured line",
-      "Rank": 943,
+      "Name": "Wisoky-Rohan",
+      "Description": "Digitized multimedia system engine",
+      "Rank": 313,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 295
     }
   }
 }

@@ -77,15 +77,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 42,
-  "AssociateId": 728,
+  "DocumentId": 777,
+  "AssociateId": 357,
   "CustomTags": [
-    "quisquam",
-    "amet"
+    "a",
+    "sit"
   ],
   "CustomValues": [
-    "consectetur",
-    "recusandae"
+    "architecto",
+    "blanditiis"
   ]
 }
 ```

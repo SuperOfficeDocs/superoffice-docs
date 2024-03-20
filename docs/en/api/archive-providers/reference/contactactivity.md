@@ -19,8 +19,8 @@ Activity archive provider for the Company card
 | ---- | ----- |
 |"chat"|Chat session|
 |"document"|Documents|
-|"appointment"|Follow-ups|
 |"formSubmission"|Form submissions|
+|"appointment"|Follow-ups|
 |"mailing"|Mailings|
 
 ## Supported Columns
@@ -219,6 +219,7 @@ Activity archive provider for the Company card
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -228,11 +229,11 @@ Activity archive provider for the Company card
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
-|person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -332,11 +333,11 @@ Activity archive provider for the Company card
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
 |contact/email/emailDescription|string|Description| x |
-|contact/email/emailId|int|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
@@ -436,14 +437,15 @@ Activity archive provider for the Company card
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
-|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -539,12 +541,12 @@ Activity archive provider for the Company card
 |project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/associateDbId|associate|ID| x |
@@ -643,12 +645,12 @@ Activity archive provider for the Company card
 |sale/amount|decimal|Amount: The gross sales total| x |
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
-|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|sale/probPercent|int|Probability as %: Probability as %| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -713,6 +715,11 @@ Activity archive provider for the Company card
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |document/textId|int|Text ID| x |
 |document/description|positiveString|Text: Displays the text entered in the description field| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -742,6 +749,10 @@ Activity archive provider for the Company card
 |appointmentUdef/SuperOffice:3|int|followupnumber| x |
 |appointmentUdef/SuperOffice:4|date|followupdate| x |
 |appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
@@ -749,17 +760,8 @@ Activity archive provider for the Company card
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -851,12 +853,12 @@ Activity archive provider for the Company card
 |mailingAddr/contact/restrictionAddress/line3|string|Company - Search address - Address 3: Third line of the address| x |
 |mailingAddr/contact/restrictionAddress/county|string|Company - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/restrictionAddress/city|string|Company - Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|mailingAddr/contact/restrictionAddress/zip|string|Company - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|mailingAddr/contact/restrictionAddress/state|string|Company - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/restrictionAddress/zip|string|Company - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|mailingAddr/contact/restrictionAddress/state|string|Company - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/restrictionAddress/wgs84latitude|decimal|Company - Search address - Latitude: Latitude| x |
 |mailingAddr/contact/restrictionAddress/wgs84longitude|decimal|Company - Search address - Longitude: Longitude| x |
 |mailingAddr/contact/restrictionAddress/formattedAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
@@ -924,6 +926,7 @@ Activity archive provider for the Company card
 |mailingAddr/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Company - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |mailingAddr/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Company - Extra Request relation: Request relation on company| x |
 |mailingAddr/contact/contactExtra/x\_contact\_contact|stringorPK|Company - Extra contact relation: Contact relation on company| x |
+|mailingAddr/contact/contactExtra/y\_organization/x\_name|string|Company - Organization - Name| x |
 |mailingAddr/contact/NumberOfActivities|int|Company - Number of activities|  |
 |mailingAddr/contact/NumberOfActivitiesInPeriod|int|Company - Number of activities in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedActivities|int|Company - Number of non-completed activities|  |
@@ -954,13 +957,13 @@ Activity archive provider for the Company card
 |mailingAddr/contact/saintIntention|listAny|Company - Intention|  |
 |mailingAddr/contact/saintTicketStatus|listAny|Company - Status|  |
 |mailingAddr/contact/saintTicketCategory|listAny|Company - Category|  |
-|mailingAddr/person/personId|int|Contact - DB ID: Displays the database ID of a contact| x |
-|mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
-|mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personId|int|Contact - DB ID: Displays the database ID of a contact| x |
+|mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
+|mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
 |mailingAddr/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
 |mailingAddr/person/contactId|int|Contact - Company ID: Database ID of company| x |
@@ -1058,13 +1061,13 @@ Activity archive provider for the Company card
 |mailingAddr/person/personUdef/SuperOffice:1|string|Contact - contactshorttext: tooltipshorttext| x |
 |mailingAddr/person/personUdef/SuperOffice:2|string|Contact - contactlongtext: tooltiplongtext| x |
 |mailingAddr/person/personUdef/SuperOffice:3|int|Contact - contactnumber| x |
-|mailingAddr/person/personUdef/SuperOffice:4|date|Contact - contactdate| x |
-|mailingAddr/person/personUdef/SuperOffice:5|unlimitedDate|Contact - contactunlimiteddate: tooltipunlimiteddate| x |
-|mailingAddr/person/personUdef/SuperOffice:6|bool|Contact - contactcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personUdef/SuperOffice:4|date|Contact - contactdate| x |
+|mailingAddr/person/personUdef/SuperOffice:5|unlimitedDate|Contact - contactunlimiteddate: tooltipunlimiteddate| x |
+|mailingAddr/person/personUdef/SuperOffice:6|bool|Contact - contactcheckbox| x |
 |mailingAddr/person/personUdef/SuperOffice:7|listAny|Contact - contactdropdownlistbox| x |
 |mailingAddr/person/personUdef/SuperOffice:8|decimal|Contact - contactdecimal| x |
 |mailingAddr/person/personUdef/SuperOffice:9|string|Contact - page1saleonly| x |
@@ -1093,6 +1096,7 @@ Activity archive provider for the Company card
 |mailingAddr/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |mailingAddr/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |mailingAddr/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|mailingAddr/person/personExtra/y\_car/id|int|Contact - Car - id: Displays the row's primary key (y\_car)| x |
 |mailingAddr/person/personAssociate/firstName|string|Contact - First name: Displays the contact's first name| x |
 |mailingAddr/person/personAssociate/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/personAssociate/middleName|string|Contact - Middle Name: Displays the contact's middle name.| x |
@@ -1161,6 +1165,10 @@ Activity archive provider for the Company card
 |mailingAddr/person/hasEmarketingConsent|bool|Contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |mailingAddr/person/withdrawnEmarketingConsent|bool|Contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |mailingAddr/person/subscription|listAny|Contact - Subscription: Subscription for marketing| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/legalBaseStore|listAny|Contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |mailingAddr/person/legalBaseEmarketing|listAny|Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |mailingAddr/person/consentSourceStore|listAny|Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
@@ -1169,7 +1177,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=date,associate/lastName,person/personBusiness,person/personUdef/SuperOffice:9,contact/contactAssociate/firstName
+GET /api/v1/archive/ContactActivity?$select=person/useAsMailingAddress,person/personAddress/line2,person/personAssociate/personEmail,person/legalBaseEmarketing,contact/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

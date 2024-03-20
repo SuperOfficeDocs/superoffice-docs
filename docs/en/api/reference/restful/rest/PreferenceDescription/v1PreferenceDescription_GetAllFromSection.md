@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 182,
-    "Section": "modi",
-    "Key": "et",
-    "Name": "Christiansen Group",
+    "PrefDescId": 292,
+    "Section": "ut",
+    "Key": "est",
+    "Name": "Medhurst, Adams and Kemmer",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Function-based zero tolerance website",
+    "Description": "Enterprise-wide impactful analyzer",
     "IsBuiltin": true,
-    "TableName": "Considine, Prohaska and Toy",
-    "UserDefinedListId": 33,
-    "Rank": 557,
-    "SubGroup": "illo",
-    "MinLevel": 946,
-    "MaxValue": 912,
-    "MinValue": 765,
-    "RequiredLicense": "est",
+    "TableName": "Kshlerin, Lakin and Murphy",
+    "UserDefinedListId": 711,
+    "Rank": 416,
+    "SubGroup": "ut",
+    "MinLevel": 153,
+    "MaxValue": 214,
+    "MinValue": 118,
+    "RequiredLicense": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 442
       }
     }
   }

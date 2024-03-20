@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "McLaughlin Group",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "UdListDefinitionId": 323,
-    "Rank": 603,
+    "Id": 815,
+    "Name": "Mosciski, Schaefer and Oberbrunner",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 802,
+    "Rank": 85,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldLength": 712
       }
     }
   }

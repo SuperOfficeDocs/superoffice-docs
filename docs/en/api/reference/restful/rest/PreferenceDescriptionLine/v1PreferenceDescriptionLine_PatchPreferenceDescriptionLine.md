@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "incidunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "incidunt",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 892,
-  "PrefDescId": 561,
-  "PrefValue": "occaecati",
-  "PrefShowValue": "laudantium",
-  "Description": "Grass-roots tertiary contingency",
-  "IsBuiltin": false,
+  "PrefDescLineId": 383,
+  "PrefDescId": 493,
+  "PrefValue": "veritatis",
+  "PrefShowValue": "nostrum",
+  "Description": "Progressive methodical moratorium",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   },
   "_Links": {

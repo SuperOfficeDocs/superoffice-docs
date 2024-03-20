@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 763
+  "QuoteVersionId": 840
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 404,
-  "ERPQuoteVersionKey": "odio",
-  "QuoteId": 760,
-  "Description": "Team-oriented neutral knowledge user",
-  "Number": "1708290",
+  "QuoteVersionId": 961,
+  "ERPQuoteVersionKey": "iure",
+  "QuoteId": 580,
+  "Description": "Optimized mobile focus group",
+  "Number": "1133036",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 591,
-  "SentDate": "2021-11-16T14:23:47.2067575+01:00",
-  "FollowupId": 781,
-  "ExpirationDate": "2022-09-13T14:23:47.2067575+02:00",
-  "DeliveryCountryId": 228,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 849,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "et",
-  "ERPPaymentTypeKey": "sint",
-  "ERPDeliveryTermsKey": "a",
-  "ERPDeliveryTypeKey": "perspiciatis",
-  "Rank": 250,
-  "ApprovedBy": 257,
-  "ApprovedText": "qui",
-  "ApprovedRegisteredBy": 217,
-  "ApprovedRegisteredDate": "2008-03-11T14:23:47.2067575+01:00",
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "incidunt",
-  "ExtraField4": "veniam",
-  "ExtraField5": "voluptas",
-  "LastRecalculated": "2007-08-13T14:23:47.2067575+02:00",
-  "Updated": "2013-03-30T14:23:47.2067575+01:00",
-  "UpdatedAssociateId": 113,
-  "Registered": "2009-07-18T14:23:47.2067575+02:00",
-  "RegisteredAssociateId": 801,
-  "RequestAssociateId": 199,
-  "RequestComment": "expedita",
+  "LikelyQuoteAlternativeId": 151,
+  "SentDate": "2001-08-02T12:19:46.054573+02:00",
+  "FollowupId": 623,
+  "ExpirationDate": "2017-06-15T12:19:46.054573+02:00",
+  "DeliveryCountryId": 413,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 291,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "quia",
+  "ERPPaymentTypeKey": "cumque",
+  "ERPDeliveryTermsKey": "veritatis",
+  "ERPDeliveryTypeKey": "ullam",
+  "Rank": 164,
+  "ApprovedBy": 918,
+  "ApprovedText": "aperiam",
+  "ApprovedRegisteredBy": 253,
+  "ApprovedRegisteredDate": "2016-01-13T12:19:46.054573+01:00",
+  "ExtraField1": "ea",
+  "ExtraField2": "beatae",
+  "ExtraField3": "facere",
+  "ExtraField4": "dolor",
+  "ExtraField5": "maxime",
+  "LastRecalculated": "2014-03-31T12:19:46.054573+02:00",
+  "Updated": "2002-04-05T12:19:46.054573+02:00",
+  "UpdatedAssociateId": 914,
+  "Registered": "2021-09-19T12:19:46.054573+02:00",
+  "RegisteredAssociateId": 22,
+  "RequestAssociateId": 569,
+  "RequestComment": "quasi",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 785,
-      "ERPQuoteAlternativeKey": "accusamus",
-      "QuoteVersionId": 818,
-      "Name": "Wunsch, Schaefer and Bergnaum",
-      "Description": "Ameliorated scalable groupware",
+      "QuoteAlternativeId": 992,
+      "ERPQuoteAlternativeKey": "tenetur",
+      "QuoteVersionId": 631,
+      "Name": "Kling LLC",
+      "Description": "Cloned discrete Graphical User Interface",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3444.266,
-      "ERPDiscountAmount": 15848.637999999999,
-      "DiscountPercent": 3804.676,
-      "DiscountAmount": 19261.564,
+      "ERPDiscountPercent": 17945.284,
+      "ERPDiscountAmount": 2848.806,
+      "DiscountPercent": 2917.754,
+      "DiscountAmount": 2450.788,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "vitae",
-      "VAT": 27710.827999999998,
-      "EarningPercent": 1121.972,
-      "EarningAmount": 24959.176,
-      "SubTotal": 26563.784,
-      "TotalPrice": 28124.516,
-      "ExtraField1": "recusandae",
-      "ExtraField2": "minima",
-      "ExtraField3": "repudiandae",
-      "ExtraField4": "totam",
-      "ExtraField5": "velit",
+      "VATInfo": "sit",
+      "VAT": 12780.452,
+      "EarningPercent": 19076.658,
+      "EarningAmount": 6007.878,
+      "SubTotal": 26895.987999999998,
+      "TotalPrice": 20794.09,
+      "ExtraField1": "sunt",
+      "ExtraField2": "cumque",
+      "ExtraField3": "libero",
+      "ExtraField4": "a",
+      "ExtraField5": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 612
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldType": "System.String",
+      "FieldLength": 478
     }
   }
 }

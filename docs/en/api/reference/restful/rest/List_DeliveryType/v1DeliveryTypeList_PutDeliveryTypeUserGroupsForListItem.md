@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Bruen Inc and Sons",
-    "ToolTip": "Nulla et veniam veniam deserunt quia.",
+    "Id": 76,
+    "Name": "Tromp, Towne and Windler",
+    "ToolTip": "Et et quis aut odit cum.",
     "Deleted": false,
-    "Rank": 891,
-    "Type": "dignissimos",
-    "ColorBlock": 302,
-    "IconHint": "cum",
+    "Rank": 270,
+    "Type": "et",
+    "ColorBlock": 726,
+    "IconHint": "alias",
     "Selected": true,
-    "LastChanged": "1997-11-23T14:23:56.0877037+01:00",
+    "LastChanged": "2023-07-25T12:19:54.4302944+02:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Hahn-Morar",
-        "ToolTip": "Rem ducimus.",
+        "Id": 537,
+        "Name": "Schaefer, Davis and Parisian",
+        "ToolTip": "Facilis necessitatibus voluptates quia harum explicabo.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "sed",
-        "ColorBlock": 92,
-        "IconHint": "explicabo",
+        "Rank": 744,
+        "Type": "quod",
+        "ColorBlock": 829,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2011-09-16T14:23:56.0877037+02:00",
+        "LastChanged": "2012-09-03T12:19:54.4302944+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Samanta Emmerich"
+        "FullName": "Katrine Gussie Braun DVM"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "est",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Lon Kihn"
+    "FullName": "Werner Senger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Bins, Lesch and Spinka",
-    "ToolTip": "Fuga quod et aut omnis iusto nesciunt corrupti.",
+    "Id": 433,
+    "Name": "Marks, Bogan and White",
+    "ToolTip": "Excepturi aperiam incidunt nostrum perferendis.",
     "Deleted": true,
-    "Rank": 167,
-    "Type": "ducimus",
-    "ColorBlock": 97,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "2004-06-11T14:23:56.0877037+02:00",
+    "Rank": 78,
+    "Type": "eveniet",
+    "ColorBlock": 472,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2023-06-02T12:19:54.4302944+02:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Bruen-Harris",
-        "ToolTip": "Eos eos id sint earum.",
-        "Deleted": true,
-        "Rank": 381,
-        "Type": "perspiciatis",
-        "ColorBlock": 736,
-        "IconHint": "nihil",
+        "Id": 806,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Ipsa omnis laudantium iusto.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "quod",
+        "ColorBlock": 824,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "2006-09-14T14:23:56.0877037+02:00",
+        "LastChanged": "2000-08-09T12:19:54.4302944+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Lisette Shields",
+        "ExtraInfo": "natus",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Armani Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 599
+            "FieldType": "System.Int32",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "quo",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "voluptatum",
     "Hidden": true,
-    "FullName": "Mrs. Sadye Shaun Kris DVM",
+    "FullName": "Prof. Geovany Emilia Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

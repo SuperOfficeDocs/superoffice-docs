@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 196,
-    "Name": "Schamberger LLC",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 923,
-    "UdListDefinitionId": 634,
+    "HeadingId": 386,
+    "Name": "Corkery Group",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "Rank": 109,
+    "UdListDefinitionId": 896,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

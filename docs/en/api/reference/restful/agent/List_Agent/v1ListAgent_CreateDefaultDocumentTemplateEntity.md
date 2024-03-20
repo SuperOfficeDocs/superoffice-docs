@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 264,
-  "Name": "Yost-Vandervort",
-  "Tooltip": "velit",
-  "SaveInDb": 293,
-  "Filename": "iusto",
-  "DefaultOref": "error",
+  "DocumentTemplateId": 316,
+  "Name": "Erdman Group",
+  "Tooltip": "libero",
+  "SaveInDb": 883,
+  "Filename": "tempore",
+  "DefaultOref": "pariatur",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 964,
-  "IntentId": 171,
+  "AutoeventId": 605,
+  "IntentId": 272,
   "IsDefaultPublished": false,
-  "Rank": 850,
-  "LoadTemplateFromPlugin": 465,
-  "MimeType": "eum",
+  "Rank": 284,
+  "LoadTemplateFromPlugin": 885,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 102,
+  "DocumentTypeKey": 884,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "belle_gaylord@aufderharstreich.name",
+  "EmailSubject": "casey_miller@howebergstrom.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "zetta@schummcrooks.co.uk",
+  "SenderEmailAddress": "kim@bailey.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

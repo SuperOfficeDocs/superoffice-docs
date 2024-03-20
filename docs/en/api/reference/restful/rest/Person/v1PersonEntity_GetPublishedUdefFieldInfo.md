@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 857,
-  "ColumnId": 39,
-  "FieldDefault": "et",
-  "FieldHeight": 48,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 120,
-  "FieldTop": 168,
+  "UDefFieldId": 341,
+  "ColumnId": 148,
+  "FieldDefault": "est",
+  "FieldHeight": 635,
+  "FieldLabel": "laboriosam",
+  "FieldLeft": 607,
+  "FieldTop": 621,
   "FieldType": "Checkbox",
-  "FieldWidth": 473,
-  "FormatMask": "eum",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 440,
-  "LabelLeft": 364,
-  "LabelTop": 873,
-  "LabelWidth": 206,
-  "LastVersionId": 340,
-  "ListTableId": 969,
+  "FieldWidth": 451,
+  "FormatMask": "aut",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 89,
+  "LabelLeft": 969,
+  "LabelTop": 595,
+  "LabelWidth": 366,
+  "LastVersionId": 131,
+  "ListTableId": 440,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 78,
-  "ProgId": "eaque",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 249,
-  "TextLength": 391,
-  "Tooltip": "nobis",
-  "UdefIdentity": 973,
-  "UDListDefinitionId": 225,
+  "Page1LineNo": 987,
+  "ProgId": "pariatur",
+  "IsReadOnly": false,
+  "ShortLabel": "ducimus",
+  "TabOrder": 902,
+  "TextLength": 802,
+  "Tooltip": "quibusdam",
+  "UdefIdentity": 245,
+  "UDListDefinitionId": 644,
   "Justification": "Center",
-  "Version": 350,
-  "TemplateVariableName": "Heathcote, Doyle and Smith",
+  "Version": 878,
+  "TemplateVariableName": "Leffler, Ritchie and Legros",
   "HasBeenPublished": false,
-  "MdoListName": "Stamm-Labadie",
+  "MdoListName": "Smitham-Kuhic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 995
     }
   }
 }

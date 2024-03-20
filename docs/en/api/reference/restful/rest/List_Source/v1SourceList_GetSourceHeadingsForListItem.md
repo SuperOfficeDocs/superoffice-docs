@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Reinger-Swaniawski",
-    "ToolTip": "Eveniet quisquam fugit dolorem dolor et soluta.",
+    "Id": 945,
+    "Name": "Rowe Inc and Sons",
+    "ToolTip": "Aut asperiores qui quis.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "accusantium",
-    "ColorBlock": 857,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2021-02-11T14:23:56.3701861+01:00",
+    "Rank": 298,
+    "Type": "ea",
+    "ColorBlock": 85,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2015-08-25T12:19:54.8677016+02:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Watsica Inc and Sons",
-        "ToolTip": "Molestiae autem.",
+        "Id": 699,
+        "Name": "Donnelly LLC",
+        "ToolTip": "Saepe sit dolorum quisquam adipisci est.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "voluptatum",
-        "ColorBlock": 977,
-        "IconHint": "possimus",
+        "Rank": 814,
+        "Type": "iste",
+        "ColorBlock": 110,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "1997-08-10T14:23:56.3701861+02:00",
+        "LastChanged": "2023-10-14T12:19:54.8677016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Myrtle Mann",
+        "ExtraInfo": "eos",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Roel Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldLength": 778
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "officiis",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Dr. Lessie Juwan Schultz DVM",
+    "FullName": "Chester Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 563
       }
     }
   }

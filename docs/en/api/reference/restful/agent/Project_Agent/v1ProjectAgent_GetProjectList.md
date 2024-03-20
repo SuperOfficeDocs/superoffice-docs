@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 749,
-    "Name": "Bins LLC",
-    "Description": "Networked zero administration application",
+    "ProjectId": 250,
+    "Name": "Gutmann, Buckridge and Schowalter",
+    "Description": "Reactive 6th generation hierarchy",
     "URL": "http://www.example.com/",
-    "Type": "quis",
-    "AssociateId": 337,
-    "AssociateFullName": "Dariana Gleichner",
-    "TypeId": 821,
-    "Updated": "2012-12-28T14:23:47.1755092+01:00",
-    "StatusId": 495,
-    "Status": "consequatur",
-    "TextId": 287,
-    "PublishTo": "2014-07-11T14:23:47.1755092+02:00",
-    "PublishFrom": "2018-09-25T14:23:47.1755092+02:00",
+    "Type": "magni",
+    "AssociateId": 887,
+    "AssociateFullName": "Viva Corkery",
+    "TypeId": 165,
+    "Updated": "2023-07-15T12:19:46.0233436+02:00",
+    "StatusId": 501,
+    "Status": "libero",
+    "TextId": 160,
+    "PublishTo": "2013-03-23T12:19:46.0233436+01:00",
+    "PublishFrom": "2017-09-26T12:19:46.0233436+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "467040",
-    "ActiveErpLinks": 432,
+    "ProjectNumber": "1051238",
+    "ActiveErpLinks": 128,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 788
       }
     }
   }

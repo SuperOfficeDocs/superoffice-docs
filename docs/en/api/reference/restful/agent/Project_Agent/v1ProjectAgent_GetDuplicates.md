@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beier, Swaniawski and Farrell"
+  "Name": "Beer Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Littel, Lind and Goodwin",
-    "SoPrimaryKey": 954,
-    "EntryName": "Tremblay, Watsica and Carroll",
-    "EntryIdentifier": "nihil",
-    "RuleDisplayName": "Becker Inc and Sons",
+    "RuleName": "Rippin, Hahn and Wisozk",
+    "SoPrimaryKey": 887,
+    "EntryName": "Adams-DuBuque",
+    "EntryIdentifier": "itaque",
+    "RuleDisplayName": "Haley, Fay and Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 703
       }
     }
   }

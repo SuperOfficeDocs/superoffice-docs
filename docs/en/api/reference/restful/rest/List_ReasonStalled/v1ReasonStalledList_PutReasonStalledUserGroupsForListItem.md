@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Gaylord, Quigley and D'Amore",
-    "ToolTip": "Et delectus sed fugiat molestias.",
+    "Id": 364,
+    "Name": "Von Group",
+    "ToolTip": "Quia ut.",
     "Deleted": true,
-    "Rank": 796,
-    "Type": "aut",
-    "ColorBlock": 560,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "1998-10-14T14:23:56.3220736+02:00",
+    "Rank": 771,
+    "Type": "ab",
+    "ColorBlock": 328,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2010-02-05T12:19:54.8208379+01:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Jast, Altenwerth and Emard",
-        "ToolTip": "Quia consectetur rerum consequatur omnis.",
-        "Deleted": true,
-        "Rank": 232,
-        "Type": "nemo",
-        "ColorBlock": 665,
-        "IconHint": "dolorem",
+        "Id": 247,
+        "Name": "Harber, Blanda and Harber",
+        "ToolTip": "Rem sunt nostrum natus dolorem consequuntur.",
+        "Deleted": false,
+        "Rank": 668,
+        "Type": "explicabo",
+        "ColorBlock": 453,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2023-04-06T14:23:56.3220736+02:00",
+        "LastChanged": "2008-06-21T12:19:54.8208379+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quas",
-        "Hidden": true,
-        "FullName": "Lucienne Littel"
+        "ExtraInfo": "magni",
+        "StyleHint": "minima",
+        "Hidden": false,
+        "FullName": "Erwin Walter"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Haven Mohr"
+    "ExtraInfo": "officia",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Jammie Metz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Ebert Group",
-    "ToolTip": "Possimus quis soluta earum et repudiandae aut.",
+    "Id": 689,
+    "Name": "Shanahan Inc and Sons",
+    "ToolTip": "In rerum laborum dolore.",
     "Deleted": false,
-    "Rank": 518,
-    "Type": "eum",
-    "ColorBlock": 749,
-    "IconHint": "ipsa",
+    "Rank": 675,
+    "Type": "quia",
+    "ColorBlock": 898,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2021-03-01T14:23:56.3220736+01:00",
+    "LastChanged": "2023-10-30T12:19:54.8208379+01:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Schmeler LLC",
-        "ToolTip": "Qui officiis illo labore doloremque est earum.",
+        "Id": 222,
+        "Name": "Schuppe LLC",
+        "ToolTip": "Officia laboriosam sequi eum.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "voluptatem",
-        "ColorBlock": 142,
-        "IconHint": "autem",
+        "Rank": 792,
+        "Type": "laudantium",
+        "ColorBlock": 626,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2023-03-25T14:23:56.3220736+01:00",
+        "LastChanged": "2023-03-16T12:19:54.8208379+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "enim",
+        "ExtraInfo": "harum",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Dr. Sherwood Russel DDS",
+        "FullName": "Mr. Mazie Cletus Hackett DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldType": "System.String",
+            "FieldLength": 691
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Jude Hoeger",
+    "ExtraInfo": "amet",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Ms. Clotilde Alayna Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 247
       }
     }
   }

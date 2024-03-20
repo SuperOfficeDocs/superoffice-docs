@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 356,
-    "Name": "Kohler Group",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 924,
-    "UdListDefinitionId": 436,
+    "HeadingId": 757,
+    "Name": "Mante, Swaniawski and Dibbert",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 273,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldLength": 945
       }
     }
   }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 636,
-  "BlobSize": 459,
-  "Description": "Customizable holistic array",
-  "ExtraInfo": "dolorum",
+  "BlobId": 947,
+  "BlobSize": 410,
+  "Description": "Right-sized interactive collaboration",
+  "ExtraInfo": "ullam",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 505,
-  "CreatedDate": "2012-04-08T14:23:54.9290273+02:00",
-  "UpdatedDate": "2023-01-24T14:23:54.9290273+01:00",
+  "MimeType": "perspiciatis",
+  "OriginalSize": 255,
+  "CreatedDate": "1998-07-22T12:19:53.1805817+02:00",
+  "UpdatedDate": "2000-05-02T12:19:53.1805817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quaerat"
+  "ConceptualType": "et"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 315,
-  "BlobSize": 598,
-  "Description": "Automated value-added matrices",
-  "ExtraInfo": "optio",
+  "BlobId": 660,
+  "BlobSize": 48,
+  "Description": "Quality-focused 4th generation Graphic Interface",
+  "ExtraInfo": "eius",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "nihil",
-  "OriginalSize": 860,
-  "CreatedDate": "2021-06-01T14:23:54.9290273+02:00",
-  "UpdatedDate": "1999-01-20T14:23:54.9290273+01:00",
+  "MimeType": "assumenda",
+  "OriginalSize": 168,
+  "CreatedDate": "2003-01-21T12:19:53.1805817+01:00",
+  "UpdatedDate": "2003-07-11T12:19:53.1805817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 208
     }
   }
 }

@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetVisibleForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 390,
-  "ListItemId": 646,
+  "UdListDefinitionId": 696,
+  "ListItemId": 20,
   "UserGroupId": [
-    314,
-    491
+    238,
+    929
   ],
   "Enable": false
 }

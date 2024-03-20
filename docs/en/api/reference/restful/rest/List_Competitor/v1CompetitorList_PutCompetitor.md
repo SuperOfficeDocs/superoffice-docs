@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Wilkinson-Lesch",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 214,
-  "Rank": 823
+  "Id": 126,
+  "Name": "Sipes Group",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "UdListDefinitionId": 246,
+  "Rank": 926
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Lynch, Bergstrom and Purdy",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "UdListDefinitionId": 997,
-  "Rank": 291,
+  "Id": 219,
+  "Name": "Hegmann LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 60,
+  "Rank": 50,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 446
     }
   }
 }

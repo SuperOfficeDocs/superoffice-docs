@@ -71,18 +71,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dickinson, Fay and Wintheiser",
+  "ProviderName": "Streich, Gorczany and Crona",
   "Restrictions": [
     {
-      "Name": "Smith Group",
-      "Operator": "ut",
+      "Name": "Brekke-Brekke",
+      "Operator": "qui",
       "Values": [
-        "nulla",
-        "dolore"
+        "iste",
+        "veniam"
       ],
       "DisplayValues": [
-        "optio",
-        "sed"
+        "recusandae",
+        "cupiditate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 60,
+      "InterParenthesis": 252,
       "InterOperator": "And",
-      "UniqueHash": 786
+      "UniqueHash": 333
     }
   ],
-  "AssociateId": 824,
-  "ExtraInfo": "error"
+  "AssociateId": 66,
+  "ExtraInfo": "deleniti"
 }
 ```
 

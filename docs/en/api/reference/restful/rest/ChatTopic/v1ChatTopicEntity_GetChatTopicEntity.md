@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,22 +113,22 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 979,
-  "Name": "DuBuque LLC",
-  "Description": "De-engineered eco-centric open architecture",
+  "ChatTopicId": 807,
+  "Name": "Will-Kreiger",
+  "Description": "Upgradable empowering service-desk",
   "WelcomeMessage": "ipsam",
   "Language": null,
-  "LastAccept": "2022-01-28T14:23:54.8977701+01:00",
-  "SecondsPrAccept": 350,
-  "AlertRecipient": "ullam",
+  "LastAccept": "1997-04-14T12:19:53.1493706+02:00",
+  "SecondsPrAccept": 177,
+  "AlertRecipient": "delectus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "aliquam",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "repellat",
-  "WarnNewChatMinutes": 73,
-  "WarnManagerNewChatMinutes": 670,
-  "TicketEnabled": false,
+  "BadgeHeader": "consectetur",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "explicabo",
+  "WarnNewChatMinutes": 80,
+  "WarnManagerNewChatMinutes": 705,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -136,25 +136,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 259,
-  "WarnManagerChatMessageMinutes": 890,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 908,
-  "OfflineFormQueueLength": 312,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ratione",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 663,
+  "WarnManagerChatMessageMinutes": 27,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 386,
+  "OfflineFormQueueLength": 930,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

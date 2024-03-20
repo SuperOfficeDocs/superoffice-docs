@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham, Bradtke and Considine",
+  "Name": "Littel-Kunze",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Beer LLC",
-    "SoPrimaryKey": 457,
-    "EntryName": "Mills Inc and Sons",
-    "EntryIdentifier": "quia",
-    "RuleDisplayName": "Blick-Johnston",
+    "RuleName": "Conroy-Stark",
+    "SoPrimaryKey": 853,
+    "EntryName": "Labadie-Anderson",
+    "EntryIdentifier": "illo",
+    "RuleDisplayName": "Carroll, Toy and Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

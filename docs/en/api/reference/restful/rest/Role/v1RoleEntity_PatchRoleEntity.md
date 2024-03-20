@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ratione",
+    "path": "cumque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ratione",
+    "path": "cumque",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 249,
-  "Name": "Orn LLC",
-  "Tooltip": "aperiam",
+  "RoleId": 474,
+  "Name": "Rempel Group",
+  "Tooltip": "officiis",
   "RoleType": "Anonymous",
-  "Deleted": 896,
-  "Rank": 905,
-  "Created": "2011-07-15T14:23:55.400211+02:00",
-  "UseCategories": 531,
+  "Deleted": 752,
+  "Rank": 418,
+  "Created": "2014-01-14T12:19:53.7898269+01:00",
+  "UseCategories": 536,
   "CreatedBy": null,
-  "Updated": "2011-05-09T14:23:55.400211+02:00",
+  "Updated": "2013-04-20T12:19:53.7898269+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 35
     }
   },
   "_Links": {

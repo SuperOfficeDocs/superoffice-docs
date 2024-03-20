@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 697,
-  "HeadingId": 980
+  "UdListDefinitionId": 951,
+  "HeadingId": 233
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Blick-Kunze",
-    "ToolTip": "Qui dolorum quam.",
+    "Id": 713,
+    "Name": "Daniel Inc and Sons",
+    "ToolTip": "Illo vero voluptatibus.",
     "Deleted": true,
-    "Rank": 592,
-    "Type": "sed",
-    "ColorBlock": 744,
-    "IconHint": "ducimus",
-    "Selected": false,
-    "LastChanged": "2022-10-12T14:23:46.8462293+02:00",
+    "Rank": 581,
+    "Type": "dolor",
+    "ColorBlock": 626,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2023-09-12T12:19:45.5078373+02:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Macejkovic-Davis",
-        "ToolTip": "Sit maiores.",
+        "Id": 646,
+        "Name": "Franecki-Hartmann",
+        "ToolTip": "Illum consequatur earum eaque architecto odit soluta.",
         "Deleted": true,
-        "Rank": 329,
-        "Type": "iusto",
-        "ColorBlock": 474,
-        "IconHint": "perferendis",
+        "Rank": 890,
+        "Type": "praesentium",
+        "ColorBlock": 314,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2005-02-27T14:23:46.8462293+01:00",
+        "LastChanged": "2023-10-09T12:19:45.5078373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "labore",
+        "ExtraInfo": "et",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Ms. Faye Audie Bernier PhD",
+        "FullName": "Parker Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 812
+            "FieldType": "System.Int32",
+            "FieldLength": 767
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Carter Kiehn Jr.",
+    "ExtraInfo": "est",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Prof. Dell Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldLength": 359
       }
     }
   }

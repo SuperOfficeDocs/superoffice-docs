@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 343,
+    "TargetDimensionId": 276,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "itaque",
-    "DimensionListName": "Stanton-Hahn",
-    "DimensionListId": 386,
-    "DimensionListLabel": "iure",
+    "DimensionListField": "porro",
+    "DimensionListName": "Donnelly-Adams",
+    "DimensionListId": 814,
+    "DimensionListLabel": "eos",
     "SelectedDimensions": [
-      472,
-      978
+      94,
+      963
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 943
       }
     }
   }

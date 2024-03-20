@@ -25,7 +25,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=True
+GET /api/v1/List/Priority/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Rosenbaum, Schmeler and Lesch",
-    "Tooltip": "sed",
+    "Id": 605,
+    "Name": "Ward Group",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "UdListDefinitionId": 194,
-    "Rank": 648,
+    "UdListDefinitionId": 415,
+    "Rank": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 576
+        "FieldLength": 336
       }
     }
   }

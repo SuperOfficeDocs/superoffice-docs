@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wisoky Inc and Sons",
-  "ProviderName": "Kuhlman Inc and Sons",
-  "Context": "itaque",
-  "OwnerKeys": "fugiat"
+  "GuiName": "Ankunding LLC",
+  "ProviderName": "Lindgren-Feest",
+  "Context": "voluptatem",
+  "OwnerKeys": "voluptate"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Rutherford, Hessel and Price",
-      "DisplayTooltip": "qui",
-      "DisplayType": "dignissimos",
+      "DisplayName": "Von, Rau and Littel",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "reprehenderit",
       "CanOrderBy": false,
-      "Name": "Dach, Krajcik and Towne",
+      "Name": "Bogan Group",
       "CanRestrictBy": false,
-      "RestrictionType": "quisquam",
-      "RestrictionListName": "Jacobs-Lakin",
+      "RestrictionType": "qui",
+      "RestrictionListName": "Pagac, Jacobs and Hilpert",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "et",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "sequi",
+      "Width": "quis",
+      "IconHint": "deserunt",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 399,
-      "Name": "Hirthe, Runolfsdottir and Schultz",
-      "ToolTip": "Et est beatae aut et aut ipsam quam.",
+      "Id": 84,
+      "Name": "Leuschke Group",
+      "ToolTip": "Qui ea.",
       "Deleted": false,
-      "Rank": 143,
-      "Type": "porro",
-      "ColorBlock": 621,
-      "IconHint": "ipsam",
+      "Rank": 447,
+      "Type": "recusandae",
+      "ColorBlock": 517,
+      "IconHint": "magnam",
       "Selected": false,
-      "LastChanged": "1998-06-03T14:23:45.8449626+02:00",
+      "LastChanged": "2006-05-14T12:19:44.4768158+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consectetur",
-      "StyleHint": "ea",
-      "Hidden": false,
-      "FullName": "Cara Franecki",
+      "ExtraInfo": "numquam",
+      "StyleHint": "architecto",
+      "Hidden": true,
+      "FullName": "Earnestine Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 333
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Lowe, Collins and Gorczany",
+      "Name": "DuBuque Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Lowe, Collins and Gorczany",
+      "Name": "DuBuque Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "consequatur",
+  "OwnerKeys": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 261
     }
   }
 }

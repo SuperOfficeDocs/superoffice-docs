@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 413,
-  "Name": "Gleichner, Macejkovic and Johns"
+  "DashTileId": 79,
+  "Name": "Littel Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 635,
-  "DashboardId": 716,
-  "Height": 589,
-  "Width": 390,
-  "Rank": 509,
+  "DashboardTileId": 526,
+  "DashboardId": 545,
+  "Height": 900,
+  "Width": 866,
+  "Rank": 754,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   }
 }

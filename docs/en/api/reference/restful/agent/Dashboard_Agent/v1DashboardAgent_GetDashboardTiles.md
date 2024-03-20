@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    186,
-    335
+    688,
+    819
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 813,
-    "Caption": "quisquam",
-    "Description": "Expanded logistical function",
-    "ChartName": "Weber LLC",
-    "ChartId": "similique",
-    "IsDefault": false,
-    "AssociateId": 391,
-    "GroupId": 709,
-    "SelectionId": 829,
-    "Config": "incidunt",
+    "DashboardTileId": 748,
+    "Caption": "dicta",
+    "Description": "Networked empowering collaboration",
+    "ChartName": "Konopelski LLC",
+    "ChartId": "inventore",
+    "IsDefault": true,
+    "AssociateId": 267,
+    "GroupId": 633,
+    "SelectionId": 413,
+    "Config": "sit",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Schmeler Inc and Sons",
-        "Description": "Networked transitional model",
+        "Name": "Kemmer, Konopelski and Dietrich",
+        "Description": "Enterprise-wide intangible algorithm",
         "Type": "Boolean",
-        "ListName": "Dicki-Schaefer",
+        "ListName": "Rodriguez, Treutel and Waelchi",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "magni",
-        "DefaultDataOption": true,
+        "Value": "quod",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 206
+            "FieldLength": 77
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 703,
+        "VisibleId": 688,
         "Visibility": "All",
-        "DisplayValue": "cumque",
+        "DisplayValue": "magnam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 646
           }
         }
       },
       {
-        "VisibleId": 703,
+        "VisibleId": 688,
         "Visibility": "All",
-        "DisplayValue": "cumque",
+        "DisplayValue": "magnam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 646
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 595
       }
     }
   }

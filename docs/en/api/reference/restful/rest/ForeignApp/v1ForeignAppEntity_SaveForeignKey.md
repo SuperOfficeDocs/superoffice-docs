@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "cum",
-  "Value": "sit",
-  "RecordId": 406,
-  "CreatedDate": "2012-07-15T14:23:55.195897+02:00",
-  "UpdatedDate": "2014-09-14T14:23:55.195897+02:00",
-  "UpdatedBy": "at",
-  "CreatedBy": "quo",
-  "TableName": "Stoltenberg, Schuster and Gerhold"
+  "Key": "itaque",
+  "Value": "officia",
+  "RecordId": 305,
+  "CreatedDate": "2019-07-15T12:19:53.6023745+02:00",
+  "UpdatedDate": "2018-02-17T12:19:53.6023745+01:00",
+  "UpdatedBy": "consectetur",
+  "CreatedBy": "iste",
+  "TableName": "Bednar, Russel and Wehner"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "quos",
-  "RecordId": 665,
-  "CreatedDate": "2002-05-16T14:23:55.195897+02:00",
-  "UpdatedDate": "2016-05-20T14:23:55.195897+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "beatae",
-  "TableName": "Gulgowski-Graham",
+  "Key": "eveniet",
+  "Value": "molestiae",
+  "RecordId": 595,
+  "CreatedDate": "2017-04-30T12:19:53.6023745+02:00",
+  "UpdatedDate": "2003-06-16T12:19:53.6023745+02:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "nobis",
+  "TableName": "Dare, Blick and Powlowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

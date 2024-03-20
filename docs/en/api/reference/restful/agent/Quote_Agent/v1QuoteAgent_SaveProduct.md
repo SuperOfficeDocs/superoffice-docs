@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 501,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "placeat",
-  "Name": "O'Kon LLC",
-  "Description": "Team-oriented holistic algorithm",
-  "Code": "sapiente",
-  "PriceUnit": "quia",
-  "QuantityUnit": "voluptatum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "tenetur",
-  "DefaultSubscriptionQuantity": 711.418,
-  "ItemNumber": "744082",
+  "ProductId": 205,
+  "ERPProductKey": "iusto",
+  "ERPPriceListKey": "qui",
+  "Name": "Boyer, Breitenberg and Berge",
+  "Description": "Vision-oriented 3rd generation conglomeration",
+  "Code": "deserunt",
+  "PriceUnit": "ut",
+  "QuantityUnit": "quis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "provident",
+  "DefaultSubscriptionQuantity": 30346.521999999997,
+  "ItemNumber": "1167536",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ad",
-  "ProductTypeKey": "nobis",
-  "VAT": 31274.185999999998,
-  "VATInfo": "eligendi",
-  "UnitCost": 8543.284,
-  "UnitMinimumPrice": 10213.706,
-  "UnitListPrice": 11624.006,
+  "ProductFamilyKey": "a",
+  "ProductTypeKey": "modi",
+  "VAT": 10226.242,
+  "VATInfo": "illo",
+  "UnitCost": 18415.384,
+  "UnitMinimumPrice": 26980.606,
+  "UnitListPrice": 18023.634,
   "InAssortment": true,
-  "Supplier": "impedit",
-  "SupplierCode": "neque",
-  "Rights": "deleniti",
-  "Rule": "quia",
+  "Supplier": "quidem",
+  "SupplierCode": "harum",
+  "Rights": "eum",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Macejkovic Group",
-      "Value": "velit",
+      "Name": "Robel, Wolff and Harvey",
+      "Value": "enim",
       "Type": "Image"
     },
     {
-      "Name": "Macejkovic Group",
-      "Value": "velit",
+      "Name": "Robel, Wolff and Harvey",
+      "Value": "enim",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "id",
-  "ExtraField1": "ut",
-  "ExtraField2": "id",
-  "ExtraField3": "omnis",
-  "ExtraField4": "est",
-  "ExtraField5": "totam",
-  "InStock": 3406.658
+  "RawExtraInfo": "minus",
+  "ExtraField1": "deleniti",
+  "ExtraField2": "quo",
+  "ExtraField3": "suscipit",
+  "ExtraField4": "beatae",
+  "ExtraField5": "unde",
+  "InStock": 24949.773999999998
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 978,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "repudiandae",
-  "Name": "Carter, Stracke and Feest",
-  "Description": "Networked next generation hardware",
-  "Code": "ea",
-  "PriceUnit": "eaque",
-  "QuantityUnit": "sit",
+  "ProductId": 826,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "nihil",
+  "Name": "Schuster-Ortiz",
+  "Description": "User-friendly scalable policy",
+  "Code": "officiis",
+  "PriceUnit": "cum",
+  "QuantityUnit": "culpa",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 27767.239999999998,
-  "ItemNumber": "1445281",
+  "SubscriptionUnit": "eos",
+  "DefaultSubscriptionQuantity": 29268.426,
+  "ItemNumber": "1157206",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "delectus",
-  "VAT": 28519.399999999998,
-  "VATInfo": "occaecati",
-  "UnitCost": 18756.989999999998,
-  "UnitMinimumPrice": 6286.804,
-  "UnitListPrice": 3782.738,
+  "ProductFamilyKey": "eius",
+  "ProductTypeKey": "consequatur",
+  "VAT": 3654.2439999999997,
+  "VATInfo": "voluptates",
+  "UnitCost": 9837.626,
+  "UnitMinimumPrice": 27949.012,
+  "UnitListPrice": 2419.448,
   "InAssortment": false,
-  "Supplier": "debitis",
-  "SupplierCode": "esse",
-  "Rights": "magni",
-  "Rule": "vero",
+  "Supplier": "molestiae",
+  "SupplierCode": "cum",
+  "Rights": "iure",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Thompson-Monahan",
-      "Value": "a",
+      "Name": "Goodwin Group",
+      "Value": "laudantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 577
         }
       }
     },
     {
-      "Name": "Thompson-Monahan",
-      "Value": "a",
+      "Name": "Goodwin Group",
+      "Value": "laudantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 577
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "debitis",
-  "ExtraField2": "numquam",
-  "ExtraField3": "quia",
-  "ExtraField4": "neque",
-  "ExtraField5": "iste",
-  "InStock": 7543.538,
+  "RawExtraInfo": "vero",
+  "ExtraField1": "repellendus",
+  "ExtraField2": "ut",
+  "ExtraField3": "eum",
+  "ExtraField4": "non",
+  "ExtraField5": "soluta",
+  "InStock": 2353.634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 557
     }
   }
 }

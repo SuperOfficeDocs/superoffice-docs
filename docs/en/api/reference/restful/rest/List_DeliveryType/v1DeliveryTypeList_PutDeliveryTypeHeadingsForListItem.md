@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Welch Inc and Sons",
-    "ToolTip": "Dolorem at optio et.",
+    "Id": 929,
+    "Name": "Homenick, Fahey and Block",
+    "ToolTip": "Perferendis excepturi neque animi accusamus.",
     "Deleted": true,
-    "Rank": 810,
-    "Type": "accusantium",
-    "ColorBlock": 231,
-    "IconHint": "quia",
+    "Rank": 152,
+    "Type": "impedit",
+    "ColorBlock": 872,
+    "IconHint": "optio",
     "Selected": true,
-    "LastChanged": "2014-05-11T14:23:56.0877037+02:00",
+    "LastChanged": "1998-06-19T12:19:54.4302944+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Hilll, Bashirian and Cruickshank",
-        "ToolTip": "Voluptas quisquam reiciendis quas.",
-        "Deleted": true,
-        "Rank": 699,
-        "Type": "nemo",
-        "ColorBlock": 171,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2010-07-14T14:23:56.0877037+02:00",
+        "Id": 587,
+        "Name": "Hamill-Borer",
+        "ToolTip": "Eos voluptas aut animi accusantium dolores.",
+        "Deleted": false,
+        "Rank": 344,
+        "Type": "quo",
+        "ColorBlock": 103,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2008-12-09T12:19:54.4302944+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "autem",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Amos Ankunding"
+        "FullName": "Antonia Kertzmann"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Jovanny Walter"
+    "ExtraInfo": "libero",
+    "StyleHint": "laborum",
+    "Hidden": true,
+    "FullName": "Prof. Josiah Adam Stanton"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Carter-Aufderhar",
-    "ToolTip": "Quo voluptas eaque itaque suscipit.",
+    "Id": 558,
+    "Name": "Rodriguez-Mohr",
+    "ToolTip": "A voluptatibus molestias est praesentium.",
     "Deleted": true,
-    "Rank": 476,
-    "Type": "suscipit",
-    "ColorBlock": 495,
-    "IconHint": "porro",
+    "Rank": 127,
+    "Type": "non",
+    "ColorBlock": 458,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2012-07-15T14:23:56.0877037+02:00",
+    "LastChanged": "2004-07-09T12:19:54.4302944+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Satterfield-Goyette",
-        "ToolTip": "Eum aut.",
-        "Deleted": false,
-        "Rank": 275,
-        "Type": "vitae",
-        "ColorBlock": 907,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2008-11-08T14:23:56.0877037+01:00",
+        "Id": 370,
+        "Name": "Cormier-Rodriguez",
+        "ToolTip": "Aut commodi voluptates aut.",
+        "Deleted": true,
+        "Rank": 70,
+        "Type": "culpa",
+        "ColorBlock": 105,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2016-01-10T12:19:54.4302944+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "sunt",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Sierra Watsica",
+        "FullName": "Mrs. Nadia Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 527
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "molestias",
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Ophelia Zoie Yundt",
+    "FullName": "Arvid Barrows MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 398
       }
     }
   }

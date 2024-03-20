@@ -71,7 +71,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Robel LLC",
-  "DisplayName": "Ferry Group",
-  "Description": "Networked background Graphical User Interface",
-  "ShortLabel": "vitae",
+  "FieldName": "Turner-Fahey",
+  "DisplayName": "Schinner Inc and Sons",
+  "Description": "Cloned high-level interface",
+  "ShortLabel": "repudiandae",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": true,
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 938,
-  "TemplateVariableName": "Zboncak-Ritchie"
+  "IsExternal": false,
+  "Rank": 739,
+  "TemplateVariableName": "Fisher, Abshire and McLaughlin"
 }
 ```

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Ortiz Group",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "Rank": 606,
+  "Id": 978,
+  "Name": "Rippin-Hauck",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 892,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 552,
-  "Name": "Bernier Group",
-  "Tooltip": "iste",
+  "Id": 148,
+  "Name": "Krajcik-Ferry",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 815,
+  "Rank": 506,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 202
     }
   }
 }

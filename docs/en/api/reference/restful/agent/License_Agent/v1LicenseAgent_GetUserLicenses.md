@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 537
+  "AssociateId": 416
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price-Bogan",
-    "Description": "Balanced heuristic encoding",
+    "Name": "Boehm-Emmerich",
+    "Description": "De-engineered 4th generation moratorium",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 650,
-        "InUse": 107,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 240,
+        "Tooltip": "rerum",
+        "CanAssign": true,
+        "Free": 398,
+        "InUse": 228,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 719,
-        "Name": "Dach-Kiehn",
-        "Description": "Virtual client-server artificial intelligence",
-        "PrerequisiteModuleName": "Fisher-Spencer",
-        "SortOrder": 112,
-        "ExtraFlags": 434,
+        "ModuleLicenseId": 219,
+        "Name": "Brakus-Balistreri",
+        "Description": "Future-proofed methodical implementation",
+        "PrerequisiteModuleName": "Bayer LLC",
+        "SortOrder": 887,
+        "ExtraFlags": 563,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 428
+            "FieldType": "System.Int32",
+            "FieldLength": 602
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 285,
-        "Tooltip": "rerum",
+        "Total": 8,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 905,
-        "InUse": 662,
+        "Free": 276,
+        "InUse": 403,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 977,
-        "Name": "Becker-Stiedemann",
-        "Description": "Configurable analyzing policy",
-        "PrerequisiteModuleName": "Jacobi-Hansen",
-        "SortOrder": 964,
-        "ExtraFlags": 39,
+        "Assigned": false,
+        "ModuleLicenseId": 800,
+        "Name": "Doyle LLC",
+        "Description": "De-engineered system-worthy superstructure",
+        "PrerequisiteModuleName": "Walker LLC",
+        "SortOrder": 886,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 935
+            "FieldLength": 737
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   },
   {
-    "Name": "Price-Bogan",
-    "Description": "Balanced heuristic encoding",
+    "Name": "Boehm-Emmerich",
+    "Description": "De-engineered 4th generation moratorium",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 650,
-        "InUse": 107,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 240,
+        "Tooltip": "rerum",
+        "CanAssign": true,
+        "Free": 398,
+        "InUse": 228,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 719,
-        "Name": "Dach-Kiehn",
-        "Description": "Virtual client-server artificial intelligence",
-        "PrerequisiteModuleName": "Fisher-Spencer",
-        "SortOrder": 112,
-        "ExtraFlags": 434,
+        "ModuleLicenseId": 219,
+        "Name": "Brakus-Balistreri",
+        "Description": "Future-proofed methodical implementation",
+        "PrerequisiteModuleName": "Bayer LLC",
+        "SortOrder": 887,
+        "ExtraFlags": 563,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 428
+            "FieldType": "System.Int32",
+            "FieldLength": 602
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 285,
-        "Tooltip": "rerum",
+        "Total": 8,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 905,
-        "InUse": 662,
+        "Free": 276,
+        "InUse": 403,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 977,
-        "Name": "Becker-Stiedemann",
-        "Description": "Configurable analyzing policy",
-        "PrerequisiteModuleName": "Jacobi-Hansen",
-        "SortOrder": 964,
-        "ExtraFlags": 39,
+        "Assigned": false,
+        "ModuleLicenseId": 800,
+        "Name": "Doyle LLC",
+        "Description": "De-engineered system-worthy superstructure",
+        "PrerequisiteModuleName": "Walker LLC",
+        "SortOrder": 886,
+        "ExtraFlags": 515,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 935
+            "FieldLength": 737
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

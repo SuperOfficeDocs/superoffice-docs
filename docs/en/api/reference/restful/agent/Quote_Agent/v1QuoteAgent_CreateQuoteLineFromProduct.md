@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 236,
+  "QuoteAlternativeId": 360,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 774,
-  "ERPQuoteLineKey": "suscipit",
-  "QuoteAlternativeId": 984,
-  "ERPProductKey": "asperiores",
+  "QuoteLineId": 989,
+  "ERPQuoteLineKey": "nisi",
+  "QuoteAlternativeId": 509,
+  "ERPProductKey": "quis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26419.62,
-  "DeliveredQuantity": 4312.384,
-  "Rank": 310,
-  "Name": "Ullrich-Bernier",
-  "Description": "Fully-configurable local portal",
-  "Code": "consequuntur",
-  "QuantityUnit": "sunt",
-  "PriceUnit": "esse",
-  "ItemNumber": "554912",
+  "Quantity": 1776.9779999999998,
+  "DeliveredQuantity": 23975.1,
+  "Rank": 455,
+  "Name": "Balistreri, Ferry and Schultz",
+  "Description": "Total global Graphic Interface",
+  "Code": "fuga",
+  "QuantityUnit": "quo",
+  "PriceUnit": "porro",
+  "ItemNumber": "463277",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "quaerat",
-  "Supplier": "quaerat",
-  "SupplierCode": "fugit",
-  "Thumbnail": "aut",
-  "VATInfo": "ab",
-  "VAT": 24887.094,
-  "UnitCost": 300.864,
-  "UnitMinimumPrice": 31170.764,
-  "UnitListPrice": 868.11799999999994,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "ducimus",
+  "Supplier": "nulla",
+  "SupplierCode": "dolores",
+  "Thumbnail": "voluptate",
+  "VATInfo": "provident",
+  "VAT": 4418.94,
+  "UnitCost": 30058.194,
+  "UnitMinimumPrice": 13112.655999999999,
+  "UnitListPrice": 14942.912,
   "ExtraInfo": [
     {
-      "Name": "Abernathy LLC",
-      "Value": "commodi",
+      "Name": "Mohr, Stracke and Ward",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 234
         }
       }
     },
     {
-      "Name": "Abernathy LLC",
-      "Value": "commodi",
+      "Name": "Mohr, Stracke and Ward",
+      "Value": "similique",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 234
         }
       }
     }
   ],
-  "RawExtraInfo": "quas",
+  "RawExtraInfo": "et",
   "IsSubscription": true,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 3688.718,
-  "SubscriptionStart": "2006-01-21T14:23:47.2536317+01:00",
-  "ERPDiscountPercent": 14334.916,
-  "ERPDiscountAmount": 21398.951999999997,
-  "DiscountPercent": 20396.072,
-  "DiscountAmount": 26253.518,
+  "SubscriptionUnit": "maiores",
+  "SubscriptionQuantity": 17854.398,
+  "SubscriptionStart": "1998-03-07T12:19:46.117062+01:00",
+  "ERPDiscountPercent": 2886.4139999999998,
+  "ERPDiscountAmount": 6239.794,
+  "DiscountPercent": 19769.272,
+  "DiscountAmount": 11746.232,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17769.78,
-  "EarningAmount": 14660.851999999999,
-  "SubTotal": 25993.396,
-  "TotalPrice": 23085.043999999998,
-  "Rights": "aspernatur",
-  "Rule": "non",
-  "ExtraField1": "nam",
-  "ExtraField2": "et",
-  "ExtraField3": "enim",
-  "ExtraField4": "maxime",
-  "ExtraField5": "alias",
+  "EarningPercent": 17616.214,
+  "EarningAmount": 3506.946,
+  "SubTotal": 6550.0599999999995,
+  "TotalPrice": 14554.296,
+  "Rights": "omnis",
+  "Rule": "mollitia",
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "ullam",
+  "ExtraField3": "quia",
+  "ExtraField4": "est",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldLength": 88
     }
   }
 }

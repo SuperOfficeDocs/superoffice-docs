@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 127,
-  "SaleId": 642,
-  "QuoteConnectionId": 67,
-  "ERPQuoteKey": "modi",
-  "ERPOrderKey": "architecto",
-  "ActiveQuoteVersionId": 324,
-  "AcceptedQuoteAlternativeId": 396,
-  "UseValuesFromQuote": 55,
-  "DocumentId": 995,
-  "PoNumber": "1230267",
-  "OrderComment": "accusantium",
-  "PreferredEmailCulture": "kade.schinner@lefflermorissette.com",
+  "QuoteId": 453,
+  "SaleId": 178,
+  "QuoteConnectionId": 253,
+  "ERPQuoteKey": "magnam",
+  "ERPOrderKey": "est",
+  "ActiveQuoteVersionId": 649,
+  "AcceptedQuoteAlternativeId": 90,
+  "UseValuesFromQuote": 266,
+  "DocumentId": 871,
+  "PoNumber": "370496",
+  "OrderComment": "eos",
+  "PreferredEmailCulture": "vita.langworth@thompsonaltenwerth.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldLength": 728
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 477,
-  "PersonName": "Lowe, Maggio and Emard",
+  "ContactId": 123,
+  "PersonName": "Swaniawski, Stamm and Dickens",
   "PhoneNumbers": [
-    "1578852",
-    "1546202"
+    "1009019",
+    "108341"
   ],
   "Emails": [
-    "trevor_ortiz@gulgowski.name",
-    "arden@heidenreich.name"
+    "orin_glover@schowalter.ca",
+    "raheem@gottliebhowell.ca"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

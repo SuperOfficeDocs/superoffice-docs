@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 228,
-  "Name": "Leannon Group",
-  "Tooltip": "quam",
-  "Rank": 191,
+  "SaleTypeId": 896,
+  "Name": "Waters, Abbott and McDermott",
+  "Tooltip": "et",
+  "Rank": 619,
   "DurationUnit": "Century",
-  "SaleDuration": 199,
-  "SaleTypeCatId": 690,
+  "SaleDuration": 826,
+  "SaleTypeCatId": 269,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 462,
-  "QuoteLinesTemplate": 709,
-  "ConfirmationLinesTemplate": 985,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 484,
+  "QuoteLinesTemplate": 390,
+  "ConfirmationLinesTemplate": 311,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 58,
-  "MinEarningPercent": 344,
-  "GroupQuoteLinesBy": 51,
-  "SortGroupLinesBy": 232,
+  "MaxDiscountPercent": 4,
+  "MinEarningPercent": 475,
+  "GroupQuoteLinesBy": 694,
+  "SortGroupLinesBy": 487,
   "Stages": [
     {
-      "Id": 960,
-      "Name": "Crona Inc and Sons",
-      "ToolTip": "Atque explicabo.",
+      "Id": 576,
+      "Name": "Swaniawski, Pouros and Kautzer",
+      "ToolTip": "Maiores dolorem porro quis reiciendis.",
       "Deleted": false,
-      "Rank": 159,
-      "Type": "atque",
-      "ColorBlock": 748,
-      "IconHint": "delectus",
-      "Selected": true,
-      "LastChanged": "2020-01-26T14:23:56.3376983+01:00",
+      "Rank": 772,
+      "Type": "aperiam",
+      "ColorBlock": 476,
+      "IconHint": "sit",
+      "Selected": false,
+      "LastChanged": "2023-09-01T12:19:54.8364594+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "ipsam",
-      "Hidden": false,
-      "FullName": "Ms. Phoebe Kennedy Balistreri"
+      "ExtraInfo": "voluptas",
+      "StyleHint": "corrupti",
+      "Hidden": true,
+      "FullName": "Reginald Luettgen"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 271,
-  "Name": "Kohler, Rice and Walter",
-  "Tooltip": "nulla",
-  "Rank": 648,
+  "SaleTypeId": 858,
+  "Name": "Powlowski, Konopelski and Kirlin",
+  "Tooltip": "quaerat",
+  "Rank": 253,
   "DurationUnit": "Century",
-  "SaleDuration": 913,
-  "SaleTypeCatId": 169,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 396,
+  "SaleTypeCatId": 683,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 358,
-  "QuoteLinesTemplate": 995,
-  "ConfirmationLinesTemplate": 978,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 307,
-  "MinEarningPercent": 145,
-  "GroupQuoteLinesBy": 77,
-  "SortGroupLinesBy": 51,
+  "DefaultQuoteValidity": 16,
+  "QuoteLinesTemplate": 497,
+  "ConfirmationLinesTemplate": 11,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 599,
+  "MinEarningPercent": 57,
+  "GroupQuoteLinesBy": 74,
+  "SortGroupLinesBy": 40,
   "Stages": [
     {
-      "Id": 373,
-      "Name": "Marks-Simonis",
-      "ToolTip": "Quam consequatur.",
-      "Deleted": false,
-      "Rank": 181,
-      "Type": "aut",
-      "ColorBlock": 993,
-      "IconHint": "est",
+      "Id": 532,
+      "Name": "Beier-Beer",
+      "ToolTip": "Suscipit ab odit consequatur asperiores dolorem quia.",
+      "Deleted": true,
+      "Rank": 32,
+      "Type": "ipsa",
+      "ColorBlock": 961,
+      "IconHint": "optio",
       "Selected": false,
-      "LastChanged": "2017-04-01T14:23:56.3376983+02:00",
+      "LastChanged": "2021-02-01T12:19:54.8364594+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odio",
-      "StyleHint": "consequuntur",
-      "Hidden": true,
-      "FullName": "Dr. Levi Cormier",
+      "ExtraInfo": "ea",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Rolando Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldLength": 976
     }
   }
 }

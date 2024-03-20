@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 413,
-  "TopicId": 258,
+  "ChatSessionId": 626,
+  "TopicId": 277,
   "User": null,
   "Person": null,
-  "CustomerAlias": "id",
-  "CustomerHost": "laborum",
-  "CustomerName": "O'Reilly, Miller and Trantow",
-  "CustomerEmail": "garth@gislason.biz",
-  "CustomerPhone": "(334)145-6446 x13154",
+  "CustomerAlias": "ipsam",
+  "CustomerHost": "esse",
+  "CustomerName": "Mitchell-Schuster",
+  "CustomerEmail": "conrad@spinka.uk",
+  "CustomerPhone": "1-825-278-8130",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Leuschke-Schuster",
+  "CustomerCompanyName": "Kling LLC",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "quidem",
-  "WhenRequested": "2019-10-10T14:23:45.9074599+02:00",
-  "WhenStarted": "2020-05-26T14:23:45.9074599+02:00",
-  "WhenEnded": "1997-11-17T14:23:45.9074599+01:00",
-  "WhenIdle": "1999-08-30T14:23:45.9074599+02:00",
-  "WhenFetched": "2018-01-18T14:23:45.9074599+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 171,
-  "AlertLevel": 974,
-  "Rank": 273,
+  "FirstMessage": "aliquam",
+  "LastMessage": "placeat",
+  "WhenRequested": "2001-12-15T12:19:44.5549332+01:00",
+  "WhenStarted": "2001-06-20T12:19:44.5549332+02:00",
+  "WhenEnded": "2017-04-23T12:19:44.5549332+02:00",
+  "WhenIdle": "2012-09-05T12:19:44.5549332+02:00",
+  "WhenFetched": "2006-06-02T12:19:44.5549332+02:00",
+  "SessionKey": "exercitationem",
+  "InitialQueuePos": 542,
+  "AlertLevel": 787,
+  "Rank": 6,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 138,
+  "ChatbotIsActive": false,
+  "Rating": 558,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

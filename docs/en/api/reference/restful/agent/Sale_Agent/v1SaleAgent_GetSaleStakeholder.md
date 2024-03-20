@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=507
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=355
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kub-Gerlach",
-  "Comment": "neque",
-  "StakeholderRoleId": 654,
-  "CountryId": 239,
-  "PersonId": 639,
-  "EmailDescription": "arely_lubowitz@yundtcrooks.us",
-  "EmailId": 86,
-  "EmailAddress": "cecil.christiansen@leschpaucek.uk",
-  "PhoneId": 886,
-  "ContactName": "Block LLC",
-  "ContactId": 926,
-  "SaleId": 514,
-  "Mrmrs": "quia",
-  "Firstname": "Lewis",
-  "MiddleName": "Kris, Dare and Schoen",
-  "Lastname": "Berge",
-  "SaleStakeholderId": 264,
-  "Rank": 416,
-  "Phone": "366.844.8721",
+  "StakeholderRoleName": "Abernathy, Zboncak and Gibson",
+  "Comment": "aut",
+  "StakeholderRoleId": 922,
+  "CountryId": 419,
+  "PersonId": 706,
+  "EmailDescription": "eliseo_crona@walsh.co.uk",
+  "EmailId": 887,
+  "EmailAddress": "scottie@ullrichwelch.name",
+  "PhoneId": 504,
+  "ContactName": "Ward Group",
+  "ContactId": 804,
+  "SaleId": 702,
+  "Mrmrs": "consequatur",
+  "Firstname": "Wilfrid",
+  "MiddleName": "Bartell-Krajcik",
+  "Lastname": "Torphy",
+  "SaleStakeholderId": 202,
+  "Rank": 312,
+  "Phone": "(792)949-8414 x944",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 495
     }
   }
 }

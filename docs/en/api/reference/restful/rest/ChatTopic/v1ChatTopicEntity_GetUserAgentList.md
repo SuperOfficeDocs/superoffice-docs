@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Abshire Inc and Sons",
-    "ToolTip": "Non aliquam.",
+    "Id": 26,
+    "Name": "Spencer-Dietrich",
+    "ToolTip": "Voluptas sed aut adipisci.",
     "Deleted": false,
-    "Rank": 666,
-    "Type": "deserunt",
+    "Rank": 66,
+    "Type": "quas",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "West-O'Keefe",
-        "ToolTip": "Ex aut non esse voluptatem praesentium labore.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "error",
+        "Id": 418,
+        "Name": "Cruickshank Inc and Sons",
+        "ToolTip": "Cumque est odio.",
+        "Deleted": false,
+        "Rank": 157,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 869,
-        "ExtraInfo": "quae",
-        "StyleHint": "voluptas",
-        "FullName": "Kiara McKenzie",
+        "IconHint": "aspernatur",
+        "ColorBlock": 405,
+        "ExtraInfo": "debitis",
+        "StyleHint": "nulla",
+        "FullName": "Mr. Estefania Rosendo O'Conner IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 289
           }
         }
       }
     ],
-    "IconHint": "aliquid",
-    "ColorBlock": 165,
-    "ExtraInfo": "sunt",
-    "StyleHint": "impedit",
-    "FullName": "Lindsay Lang",
+    "IconHint": "dolores",
+    "ColorBlock": 253,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quas",
+    "FullName": "Rupert Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 270
       }
     }
   }

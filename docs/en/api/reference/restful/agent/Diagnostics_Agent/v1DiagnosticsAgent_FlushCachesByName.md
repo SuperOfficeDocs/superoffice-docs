@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Quitzon, Bradtke and Medhurst",
-    "Wuckert-Jacobi"
+    "Rohan, Jenkins and Anderson",
+    "Hilpert Group"
   ]
 }
 ```

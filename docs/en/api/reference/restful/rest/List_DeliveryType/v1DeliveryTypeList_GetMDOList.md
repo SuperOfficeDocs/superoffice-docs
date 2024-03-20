@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=est
+GET /api/v1/List/DeliveryType/MDOItems?query=adipisci
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Lubowitz LLC",
-    "ToolTip": "Odit quia at qui qui vitae.",
-    "Deleted": true,
-    "Rank": 198,
-    "Type": "error",
+    "Id": 608,
+    "Name": "Rosenbaum-Thompson",
+    "ToolTip": "Tempore sit unde ut quam voluptate.",
+    "Deleted": false,
+    "Rank": 493,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Mertz-O'Kon",
-        "ToolTip": "Explicabo qui delectus aut.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "aut",
+        "Id": 649,
+        "Name": "Howe LLC",
+        "ToolTip": "Commodi et explicabo atque amet qui quia labore.",
+        "Deleted": true,
+        "Rank": 436,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 515,
-        "ExtraInfo": "aut",
-        "StyleHint": "esse",
-        "FullName": "Ona Russel",
+        "IconHint": "animi",
+        "ColorBlock": 724,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "non",
+        "FullName": "Kaela Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 636,
-    "ExtraInfo": "quis",
-    "StyleHint": "est",
-    "FullName": "Dr. Gerald Nakia Goldner",
+    "IconHint": "ab",
+    "ColorBlock": 389,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "soluta",
+    "FullName": "Prof. Jodie Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 459
       }
     }
   }

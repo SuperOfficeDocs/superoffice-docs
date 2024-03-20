@@ -71,7 +71,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kuvalis, Schuster and Dietrich",
-  "DisplayName": "Simonis-Lemke",
-  "Description": "Assimilated tertiary local area network",
-  "ShortLabel": "provident",
+  "FieldName": "Daugherty, Zemlak and Howell",
+  "DisplayName": "Mills-Deckow",
+  "Description": "Total multi-tasking product",
+  "ShortLabel": "ex",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 866,
-  "TemplateVariableName": "Legros Group"
+  "Rank": 726,
+  "TemplateVariableName": "West Inc and Sons"
 }
 ```

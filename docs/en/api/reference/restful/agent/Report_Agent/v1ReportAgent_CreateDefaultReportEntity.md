@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 776,
+  "ReportId": 819,
   "ReportCategory": "All",
-  "Description": "Automated logistical artificial intelligence",
+  "Description": "Virtual eco-centric local area network",
   "ReportLayout": "CalendarMonth",
-  "Name": "Harvey, Miller and Schneider",
-  "AssociateId": 778,
-  "TemplateId": 387,
+  "Name": "Barrows, Gulgowski and Halvorson",
+  "AssociateId": 352,
+  "TemplateId": 326,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 328
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

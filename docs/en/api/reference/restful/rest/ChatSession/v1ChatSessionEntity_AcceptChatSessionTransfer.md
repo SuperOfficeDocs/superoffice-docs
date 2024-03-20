@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 396,
-  "TopicId": 706,
+  "ChatSessionId": 598,
+  "TopicId": 651,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ducimus",
-  "CustomerHost": "voluptate",
-  "CustomerName": "Effertz-Ward",
-  "CustomerEmail": "whitney@kuhnschmidt.us",
-  "CustomerPhone": "832-305-7242",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Bahringer Group",
+  "CustomerAlias": "amet",
+  "CustomerHost": "veniam",
+  "CustomerName": "Bergnaum-Koss",
+  "CustomerEmail": "taya_quitzon@schiller.biz",
+  "CustomerPhone": "967-926-3705 x55230",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kertzmann Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "exercitationem",
-  "WhenRequested": "2017-03-21T14:23:54.8346426+01:00",
-  "WhenStarted": "2011-10-17T14:23:54.8346426+02:00",
-  "WhenEnded": "2009-11-08T14:23:54.8346426+01:00",
-  "WhenIdle": "2004-03-29T14:23:54.8346426+02:00",
-  "WhenFetched": "2012-01-16T14:23:54.8346426+01:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 781,
-  "AlertLevel": 724,
-  "Rank": 616,
+  "FirstMessage": "placeat",
+  "LastMessage": "sed",
+  "WhenRequested": "2008-05-26T12:19:53.1024841+02:00",
+  "WhenStarted": "2006-05-25T12:19:53.1024841+02:00",
+  "WhenEnded": "2019-07-15T12:19:53.1024841+02:00",
+  "WhenIdle": "2008-06-02T12:19:53.1024841+02:00",
+  "WhenFetched": "2018-01-26T12:19:53.1024841+01:00",
+  "SessionKey": "accusamus",
+  "InitialQueuePos": 898,
+  "AlertLevel": 262,
+  "Rank": 457,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 648,
+  "Rating": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

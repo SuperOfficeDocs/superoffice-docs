@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 565,
+  "DocumentId": 872,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laborum",
-  "Header": "voluptatibus",
-  "Name": "Klein, Jewess and Goyette",
-  "OurRef": "perferendis",
-  "YourRef": "ipsa",
-  "CreatedDate": "2023-11-05T14:23:55.1490211+01:00",
-  "UpdatedDate": "2007-06-18T14:23:55.1490211+02:00",
-  "Description": "Multi-channelled transitional customer loyalty",
+  "Attention": "maxime",
+  "Header": "explicabo",
+  "Name": "Kertzmann-Ward",
+  "OurRef": "minus",
+  "YourRef": "consequatur",
+  "CreatedDate": "2007-06-09T12:19:53.5711314+02:00",
+  "UpdatedDate": "2013-01-05T12:19:53.5711314+01:00",
+  "Description": "Profound well-modulated orchestration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-08-02T14:23:55.1646464+02:00",
-  "ExternalRef": "ut",
+  "Date": "2022-01-18T12:19:53.5711314+01:00",
+  "ExternalRef": "odit",
   "Completed": "Completed",
-  "ActiveLinks": 44,
+  "ActiveLinks": 85,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gleichner, Treutel and Kreiger",
-      "Id": 187,
-      "Description": "Visionary multi-tasking standardization",
-      "ExtraInfo": "sed",
-      "LinkId": 28
+      "EntityName": "Bauch, Schinner and Hartmann",
+      "Id": 201,
+      "Description": "Down-sized regional knowledge base",
+      "ExtraInfo": "ea",
+      "LinkId": 949
     },
     {
-      "EntityName": "Gleichner, Treutel and Kreiger",
-      "Id": 187,
-      "Description": "Visionary multi-tasking standardization",
-      "ExtraInfo": "sed",
-      "LinkId": 28
+      "EntityName": "Bauch, Schinner and Hartmann",
+      "Id": 201,
+      "Description": "Down-sized regional knowledge base",
+      "ExtraInfo": "ea",
+      "LinkId": 949
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 118,
-  "Snum": 88,
+  "SuggestedDocumentId": 851,
+  "Snum": 358,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Triston Bailee McGlynn PhD",
-    "SuperOffice:2": "Ronny Jones"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mrs. Cleora Josefina Boyer DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "cumque",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "ea",
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "2001-03-10T14:23:55.1646464+01:00",
-  "PublishTo": "2004-05-20T14:23:55.1646464+02:00",
-  "PublishFrom": "2008-04-20T14:23:55.1646464+02:00",
+  "PublishEventDate": "2023-06-05T12:19:53.5711314+02:00",
+  "PublishTo": "2021-07-17T12:19:53.5711314+02:00",
+  "PublishFrom": "2000-05-26T12:19:53.5711314+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 358,
+      "VisibleId": 789,
       "Visibility": "All",
-      "DisplayValue": "eveniet"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 358,
+      "VisibleId": 789,
       "Visibility": "All",
-      "DisplayValue": "eveniet"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "cum",
-  "2": "unde"
+  "1": "aut",
+  "2": "et"
 }
 ```

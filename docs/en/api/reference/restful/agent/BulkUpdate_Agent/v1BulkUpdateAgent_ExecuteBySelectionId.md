@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "omnis",
-      "ValueType": "nobis",
-      "Mandatory": false,
-      "EncodedDisplayName": "Schuppe-Strosin",
-      "EncodedDisplayDescription": "Digitized didactic access",
-      "IconHint": "doloribus",
+      "Key": "accusantium",
+      "ValueType": "dolorem",
+      "Mandatory": true,
+      "EncodedDisplayName": "Runolfsdottir, Ward and Olson",
+      "EncodedDisplayDescription": "Exclusive methodical intranet",
+      "IconHint": "nobis",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "aut",
-      "EncodedDataCaptionDescription": "Ergonomic 6th generation benchmark",
-      "CurrentOperationType": "doloribus",
+      "EncodedDataCaption": "ut",
+      "EncodedDataCaptionDescription": "Optional value-added extranet",
+      "CurrentOperationType": "modi",
       "Values": [
-        "odit",
-        "debitis"
+        "deleniti",
+        "et"
       ],
       "DisplayValues": [
-        "voluptates",
-        "dicta"
+        "iste",
+        "sit"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Hills-Witting",
-  "Context": "esse",
-  "SelectionId": 870,
+  "TableName": "Daniel-Sporer",
+  "Context": "pariatur",
+  "SelectionId": 270,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-726
+748
 ```

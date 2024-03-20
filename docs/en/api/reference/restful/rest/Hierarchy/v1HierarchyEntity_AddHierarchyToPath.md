@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 696,
+  "HierarchyId": 221,
   "Domain": "Dashboards",
-  "Name": "Grant-Kohler",
-  "Fullname": "laudantium",
-  "ParentId": 5,
+  "Name": "Kulas-Pouros",
+  "Fullname": "explicabo",
+  "ParentId": 290,
   "Children": [
     {
-      "HierarchyId": 153,
+      "HierarchyId": 481,
       "Domain": "Dashboards",
-      "Name": "Thiel-Lueilwitz",
-      "Fullname": "itaque",
-      "ParentId": 676,
+      "Name": "Marvin Inc and Sons",
+      "Fullname": "officia",
+      "ParentId": 228,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-11-13T14:23:55.195897+01:00",
-      "RegisteredAssociateId": 232,
-      "Updated": "2012-08-30T14:23:55.195897+02:00",
-      "UpdatedAssociateId": 810,
+      "Registered": "1999-03-07T12:19:53.6179912+01:00",
+      "RegisteredAssociateId": 399,
+      "Updated": "2015-10-05T12:19:53.6179912+02:00",
+      "UpdatedAssociateId": 716,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     }
   ],
-  "Registered": "1998-07-23T14:23:55.195897+02:00",
-  "RegisteredAssociateId": 396,
-  "Updated": "2011-08-01T14:23:55.195897+02:00",
-  "UpdatedAssociateId": 720,
+  "Registered": "2020-10-24T12:19:53.6179912+02:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2021-12-23T12:19:53.6179912+01:00",
+  "UpdatedAssociateId": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

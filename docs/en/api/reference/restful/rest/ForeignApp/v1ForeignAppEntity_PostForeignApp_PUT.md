@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 135,
-  "Name": "Stiedemann, Fritsch and Hoppe",
-  "CreatedDate": "2013-07-20T14:23:55.1646464+02:00",
-  "UpdatedDate": "2014-01-15T14:23:55.1646464+01:00",
+  "ForeignAppId": 281,
+  "Name": "Satterfield, Berge and Littel",
+  "CreatedDate": "1999-10-04T12:19:53.5867469+02:00",
+  "UpdatedDate": "2011-08-03T12:19:53.5867469+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 617,
-      "Name": "Beahan-Mosciski",
-      "CreatedDate": "2006-10-24T14:23:55.1646464+02:00",
-      "UpdatedDate": "2002-01-11T14:23:55.1646464+01:00",
-      "AssociateFullName": "Mr. Adonis Nader V",
-      "CreatedBy": "accusantium",
-      "UpdatedBy": "fugiat",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 86,
+      "ForeignDeviceId": 157,
+      "Name": "Stanton-Farrell",
+      "CreatedDate": "2002-10-15T12:19:53.5867469+02:00",
+      "UpdatedDate": "1998-07-28T12:19:53.5867469+02:00",
+      "AssociateFullName": "Mr. Shayne Della Stamm II",
+      "CreatedBy": "sequi",
+      "UpdatedBy": "dolor",
+      "DeviceIdentifier": "error",
+      "ForeignAppId": 263,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 632
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 417
     }
   }
 }

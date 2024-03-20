@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "consequatur",
-    "Tooltip": "vero",
-    "Id": 50,
-    "Rank": 158,
+    "Value": "laboriosam",
+    "Tooltip": "quos",
+    "Id": 537,
+    "Rank": 407,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 267
       }
     }
   }

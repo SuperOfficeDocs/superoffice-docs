@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Harvey, Casper and Zieme",
-  "Tooltip": "sit",
+  "Id": 183,
+  "Name": "Murazik Group",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "UdListDefinitionId": 839,
-  "Rank": 353,
+  "UdListDefinitionId": 70,
+  "Rank": 771,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 560
     }
   }
 }

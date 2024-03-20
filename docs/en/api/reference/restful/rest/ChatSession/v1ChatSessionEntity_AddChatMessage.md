@@ -81,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 881,
-  "ChatSessionId": 87,
+  "ChatMessageId": 221,
+  "ChatSessionId": 917,
   "Type": "Invalid",
-  "Message": "labore",
-  "Author": "nisi",
-  "ReadByCustomer": 358,
+  "Message": "quas",
+  "Author": "et",
+  "ReadByCustomer": 97,
   "SpecialType": "Block",
-  "SpecialParam": "aut",
-  "WhenPosted": "1997-11-09T14:23:54.8815159+01:00"
+  "SpecialParam": "dolor",
+  "WhenPosted": "2010-04-24T12:19:53.1493706+02:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 32,
-  "ChatSessionId": 851,
+  "ChatMessageId": 758,
+  "ChatSessionId": 522,
   "Type": "Invalid",
-  "Message": "excepturi",
-  "Author": "molestiae",
-  "ReadByCustomer": 946,
+  "Message": "dolor",
+  "Author": "in",
+  "ReadByCustomer": 850,
   "SpecialType": "Block",
-  "SpecialParam": "voluptate",
-  "WhenPosted": "2014-08-16T14:23:54.8815159+02:00"
+  "SpecialParam": "id",
+  "WhenPosted": "2010-03-01T12:19:53.1493706+01:00"
 }
 ```

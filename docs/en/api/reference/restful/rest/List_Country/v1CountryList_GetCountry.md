@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 233,
-  "Name": "Connelly-Tillman",
-  "CurrencyId": 660,
-  "EnglishName": "Ebert-Ledner",
+  "CountryId": 271,
+  "Name": "Jakubowski, Gorczany and Smitham",
+  "CurrencyId": 89,
+  "EnglishName": "Nolan-Carter",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Total content-based matrix",
-  "OrgNrText": "544823",
-  "InterAreaPrefix": "expedita",
-  "DialInPrefix": "ducimus",
-  "ZipPrefix": "commodi",
-  "DomainName": "Prohaska-Okuneva",
-  "AddressLayoutId": 599,
-  "DomesticAddressLayoutId": 561,
-  "ForeignAddressLayoutId": 496,
-  "Rank": 763,
-  "Tooltip": "qui",
+  "ImageDescription": "Open-architected maximized project",
+  "OrgNrText": "503912",
+  "InterAreaPrefix": "debitis",
+  "DialInPrefix": "et",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Waters, O'Reilly and Langworth",
+  "AddressLayoutId": 226,
+  "DomesticAddressLayoutId": 414,
+  "ForeignAddressLayoutId": 180,
+  "Rank": 56,
+  "Tooltip": "tenetur",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

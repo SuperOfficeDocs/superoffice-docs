@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 301,
+  "PersonId": 914,
   "IncludeProjectDocuments": false,
-  "StartTime": "2016-10-29T14:23:46.2980824+02:00",
-  "EndTime": "2012-11-05T14:23:46.2980824+01:00",
-  "Count": 61,
-  "DocumentTemplateId": 53
+  "StartTime": "1997-06-04T12:19:45.0860733+02:00",
+  "EndTime": "2018-09-18T12:19:45.0860733+02:00",
+  "Count": 119,
+  "DocumentTemplateId": 915
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 884,
-    "Attention": "sint",
-    "Header": "soluta",
-    "Name": "Weber Inc and Sons",
-    "OurRef": "asperiores",
-    "YourRef": "necessitatibus",
-    "Description": "Adaptive multi-tasking hub",
-    "DocumentTemplate": "quidem",
+    "DocumentId": 947,
+    "Attention": "et",
+    "Header": "fugit",
+    "Name": "Feest LLC",
+    "OurRef": "libero",
+    "YourRef": "numquam",
+    "Description": "Inverse mobile application",
+    "DocumentTemplate": "alias",
     "IsPublished": false,
-    "PersonId": 361,
-    "PersonFullName": "Mrs. Abner Brandt Hegmann II",
-    "AssociateFullName": "Shawna Monahan",
-    "ContactId": 526,
-    "ContactName": "O'Hara LLC",
-    "ProjectId": 854,
-    "ProjectName": "Konopelski LLC",
-    "AssociateId": 831,
-    "Snum": 38,
-    "SaleId": 63,
-    "SaleName": "Waelchi-Kihn",
+    "PersonId": 845,
+    "PersonFullName": "Coty Bauch",
+    "AssociateFullName": "Miss Elyssa Nitzsche IV",
+    "ContactId": 139,
+    "ContactName": "Legros-McCullough",
+    "ProjectId": 291,
+    "ProjectName": "Schamberger, Kub and Rice",
+    "AssociateId": 147,
+    "Snum": 329,
+    "SaleId": 633,
+    "SaleName": "Raynor, Konopelski and Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 775
       }
     }
   }

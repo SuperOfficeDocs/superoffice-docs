@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Schaden LLC",
-  "StorageKey": "numquam",
-  "Context": "consequuntur"
+  "StorageType": "exercitationem",
+  "ProviderName": "Turner, Hessel and Jewess",
+  "StorageKey": "explicabo",
+  "Context": "molestias"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rippin, Fahey and Gulgowski",
-  "Description": "Visionary full-range capacity",
-  "Rank": 459,
+  "Name": "Sipes Inc and Sons",
+  "Description": "Balanced dedicated open system",
+  "Rank": 538,
   "Restrictions": [
     {
-      "Name": "Mayer LLC",
-      "Operator": "tempora",
+      "Name": "Fisher, Krajcik and Price",
+      "Operator": "ipsam",
       "Values": [
-        "praesentium",
-        "a"
+        "quo",
+        "adipisci"
       ],
       "DisplayValues": [
-        "omnis",
-        "modi"
+        "sed",
+        "repellat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 392,
+      "InterParenthesis": 313,
       "InterOperator": "And",
-      "UniqueHash": 678
+      "UniqueHash": 799
     }
   ]
 }

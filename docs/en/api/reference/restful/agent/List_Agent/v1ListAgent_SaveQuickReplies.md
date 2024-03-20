@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 556,
-      "Name": "Breitenberg Group",
-      "HtmlBody": "non"
+      "QuickReplyId": 139,
+      "Name": "Kuhlman LLC",
+      "HtmlBody": "quasi"
     },
     {
-      "QuickReplyId": 556,
-      "Name": "Breitenberg Group",
-      "HtmlBody": "non"
+      "QuickReplyId": 139,
+      "Name": "Kuhlman LLC",
+      "HtmlBody": "quasi"
     }
   ]
 }

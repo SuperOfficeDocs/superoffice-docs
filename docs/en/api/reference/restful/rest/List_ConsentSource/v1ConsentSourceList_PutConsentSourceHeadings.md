@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 276,
-    "Name": "Casper Group",
-    "Tooltip": "cumque",
+    "HeadingId": 978,
+    "Name": "Klocko, McClure and Torp",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 428
+    "Rank": 891,
+    "UdListDefinitionId": 929
   },
   {
-    "HeadingId": 276,
-    "Name": "Casper Group",
-    "Tooltip": "cumque",
+    "HeadingId": 978,
+    "Name": "Klocko, McClure and Torp",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 428
+    "Rank": 891,
+    "UdListDefinitionId": 929
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 958,
-    "Name": "Streich-Kassulke",
-    "Tooltip": "velit",
+    "HeadingId": 172,
+    "Name": "Schinner Inc and Sons",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 599,
-    "UdListDefinitionId": 40,
+    "Rank": 38,
+    "UdListDefinitionId": 250,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 526
       }
     }
   }

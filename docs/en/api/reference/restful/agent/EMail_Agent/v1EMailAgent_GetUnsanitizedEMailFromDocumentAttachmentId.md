@@ -109,12 +109,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 756,
+  "DocId": 788,
   "AttachmentIds": [
-    "ut",
-    "exercitationem"
+    "accusamus",
+    "amet"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 212,
-      "ContactName": "Larkin Group",
-      "PersonId": 760,
-      "PersonName": "Schulist-Farrell",
-      "AssociateId": 498,
-      "Address": "voluptatem",
-      "EmailId": 758,
+      "ContactId": 281,
+      "ContactName": "Spencer-Daniel",
+      "PersonId": 251,
+      "PersonName": "Walsh, Effertz and Kuhlman",
+      "AssociateId": 324,
+      "Address": "in",
+      "EmailId": 105,
       "DuplicatePersonIds": [
-        863,
-        556
+        352,
+        800
       ],
-      "Name": "Streich, Rempel and Morissette",
+      "Name": "Greenholt-McLaughlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldType": "System.String",
+          "FieldLength": 936
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 865,
-      "ContactName": "Walter LLC",
-      "PersonId": 551,
-      "PersonName": "Bruen-Gaylord",
-      "AssociateId": 317,
-      "Address": "cum",
-      "EmailId": 223,
+      "ContactId": 239,
+      "ContactName": "Smith, Waters and Turner",
+      "PersonId": 866,
+      "PersonName": "Mueller Group",
+      "AssociateId": 402,
+      "Address": "dolorem",
+      "EmailId": 648,
       "DuplicatePersonIds": [
-        518,
-        336
+        693,
+        545
       ],
-      "Name": "Rowe LLC",
+      "Name": "Cartwright Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 693
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 686,
-      "ContactName": "Kirlin, Hilpert and Miller",
-      "PersonId": 406,
-      "PersonName": "Volkman-Yost",
-      "AssociateId": 145,
-      "Address": "est",
-      "EmailId": 536,
+      "ContactId": 720,
+      "ContactName": "Reichel Group",
+      "PersonId": 566,
+      "PersonName": "Harris LLC",
+      "AssociateId": 701,
+      "Address": "aut",
+      "EmailId": 588,
       "DuplicatePersonIds": [
-        414,
-        132
+        895,
+        464
       ],
-      "Name": "Spencer LLC",
+      "Name": "Lehner-Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 334
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "et",
+  "Subject": "perspiciatis",
+  "HTMLBody": "ducimus",
   "From": null,
-  "Sent": "2012-02-25T14:23:46.6574501+01:00",
-  "Size": 255,
+  "Sent": "2000-02-12T12:19:45.320371+01:00",
+  "Size": 478,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "cumque",
-  "PlainBody": "modi",
-  "IsSent": false,
+  "MessageID": "ea",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 191,
+  "ServerId": 340,
   "Attachments": [
     {
-      "Description": "Implemented bi-directional open system",
-      "Filename": "a",
-      "Size": 985,
-      "Type": "non",
-      "Encoding": "consequatur",
-      "Id": "aliquam",
-      "Disposition": "non",
-      "IsSafeFileExtension": true,
+      "Description": "Versatile global process improvement",
+      "Filename": "reprehenderit",
+      "Size": 206,
+      "Type": "eligendi",
+      "Encoding": "ut",
+      "Id": "quia",
+      "Disposition": "quia",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 577
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Harris Group",
+      "Name": "Schmitt, Moore and Stokes",
       "Values": [
-        "qui",
-        "culpa"
+        "necessitatibus",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 876
         }
       }
     },
     {
-      "Name": "Harris Group",
+      "Name": "Schmitt, Moore and Stokes",
       "Values": [
-        "qui",
-        "culpa"
+        "necessitatibus",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 876
         }
       }
     }
   ],
-  "FolderName": "O'Connell-Heaney",
-  "EmailItemId": 684,
-  "AccountId": 959,
-  "ReceivedAt": "2009-08-18T14:23:46.6743451+02:00",
+  "FolderName": "Jenkins-Hoeger",
+  "EmailItemId": 703,
+  "AccountId": 881,
+  "ReceivedAt": "2017-11-01T12:19:45.320371+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-03-24T14:23:46.6743451+01:00",
+  "RepliedAt": "2019-09-23T12:19:45.320371+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 318
     }
   }
 }

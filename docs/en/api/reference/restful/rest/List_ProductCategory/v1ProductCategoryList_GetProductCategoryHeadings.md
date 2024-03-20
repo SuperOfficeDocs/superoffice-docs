@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Rowe, Bahringer and Hodkiewicz",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 231,
-    "UdListDefinitionId": 402,
+    "HeadingId": 431,
+    "Name": "Beer Inc and Sons",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "Rank": 359,
+    "UdListDefinitionId": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 372
+        "FieldType": "System.Int32",
+        "FieldLength": 963
       }
     }
   }

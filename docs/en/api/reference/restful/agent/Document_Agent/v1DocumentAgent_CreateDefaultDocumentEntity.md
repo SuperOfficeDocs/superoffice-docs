@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 261,
+  "DocumentId": 8,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nostrum",
-  "Header": "quibusdam",
-  "Name": "Weissnat-Huel",
-  "OurRef": "at",
-  "YourRef": "quia",
-  "CreatedDate": "2008-01-25T14:23:46.3137065+01:00",
-  "UpdatedDate": "1997-09-29T14:23:46.3137065+02:00",
-  "Description": "Object-based eco-centric extranet",
+  "Attention": "quisquam",
+  "Header": "accusamus",
+  "Name": "Maggio, Kunde and Lindgren",
+  "OurRef": "est",
+  "YourRef": "et",
+  "CreatedDate": "2003-08-14T12:19:45.1016783+02:00",
+  "UpdatedDate": "1997-03-06T12:19:45.1016783+01:00",
+  "Description": "Streamlined 24 hour synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-10-16T14:23:46.3137065+02:00",
-  "ExternalRef": "aspernatur",
+  "Date": "2020-04-26T12:19:45.1016783+02:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 808,
+  "ActiveLinks": 910,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rath-Price",
-      "Id": 122,
-      "Description": "Cross-platform fault-tolerant knowledge user",
-      "ExtraInfo": "id",
-      "LinkId": 246,
+      "EntityName": "McLaughlin Inc and Sons",
+      "Id": 28,
+      "Description": "Secured grid-enabled leverage",
+      "ExtraInfo": "nisi",
+      "LinkId": 598,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldType": "System.String",
+          "FieldLength": 69
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 876,
-  "Snum": 462,
+  "SuggestedDocumentId": 180,
+  "Snum": 300,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Elmira Roger Klein IV",
-    "SuperOffice:2": "1717538759"
+    "SuperOffice:1": "Ms. Lafayette Runolfsson II",
+    "SuperOffice:2": "Randy Lehner Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "maiores",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "1999-07-08T14:23:46.3137065+02:00",
-  "PublishTo": "2013-05-09T14:23:46.3137065+02:00",
-  "PublishFrom": "2017-11-14T14:23:46.3137065+01:00",
+  "PublishEventDate": "1996-12-08T12:19:45.1016783+01:00",
+  "PublishTo": "2003-04-18T12:19:45.1016783+02:00",
+  "PublishFrom": "2017-11-28T12:19:45.1016783+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 500,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldLength": 279
         }
       }
     },
     {
-      "VisibleId": 500,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldLength": 279
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 314
     }
   }
 }

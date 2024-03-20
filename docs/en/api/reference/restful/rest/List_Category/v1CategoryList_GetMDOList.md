@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=eos
+GET /api/v1/List/Category/MDOItems?query=totam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Medhurst Inc and Sons",
-    "ToolTip": "Debitis et hic velit.",
+    "Id": 174,
+    "Name": "Casper-Grant",
+    "ToolTip": "Dolorem labore nulla similique.",
     "Deleted": false,
-    "Rank": 765,
-    "Type": "omnis",
+    "Rank": 593,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Johns-Pacocha",
-        "ToolTip": "Omnis corporis voluptas et voluptatem voluptas ut ipsam.",
-        "Deleted": true,
-        "Rank": 729,
-        "Type": "omnis",
+        "Id": 734,
+        "Name": "Gerhold, Stokes and Wiza",
+        "ToolTip": "Ut necessitatibus.",
+        "Deleted": false,
+        "Rank": 146,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 508,
-        "ExtraInfo": "omnis",
-        "StyleHint": "recusandae",
-        "FullName": "Louie Hickle",
+        "IconHint": "velit",
+        "ColorBlock": 367,
+        "ExtraInfo": "quod",
+        "StyleHint": "cupiditate",
+        "FullName": "Mrs. Kirsten Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldType": "System.String",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 932,
-    "ExtraInfo": "ipsa",
-    "StyleHint": "enim",
-    "FullName": "Mr. Agustina Spencer Carroll MD",
+    "IconHint": "delectus",
+    "ColorBlock": 405,
+    "ExtraInfo": "fuga",
+    "StyleHint": "id",
+    "FullName": "Mariela Dennis Wiza DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 33
       }
     }
   }

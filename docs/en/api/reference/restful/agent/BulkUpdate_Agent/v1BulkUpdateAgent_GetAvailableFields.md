@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "repudiandae",
-    "ValueType": "qui",
-    "Mandatory": true,
-    "EncodedDisplayName": "Flatley, Rowe and Parisian",
-    "EncodedDisplayDescription": "Cross-platform fault-tolerant open architecture",
-    "IconHint": "qui",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "qui",
+    "ValueType": "ducimus",
+    "Mandatory": false,
+    "EncodedDisplayName": "Kozey, Orn and Wilderman",
+    "EncodedDisplayDescription": "Focused executive superstructure",
+    "IconHint": "voluptatibus",
     "ControlInfos": [
       {
-        "Type": "similique",
-        "Label": "est",
-        "Dimension": 508,
-        "ListProviderName": "DuBuque, Jones and Emmerich",
-        "ListProviderExtraInfo": "repudiandae",
-        "ListProviderPrimaryKeyName": "Hahn-Douglas",
-        "ListLeadText": "ut",
+        "Type": "aut",
+        "Label": "et",
+        "Dimension": 589,
+        "ListProviderName": "Bernhard Group",
+        "ListProviderExtraInfo": "veritatis",
+        "ListProviderPrimaryKeyName": "Waters LLC",
+        "ListLeadText": "unde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 463
+            "FieldType": "System.Int32",
+            "FieldLength": 398
           }
         }
       }
     ],
-    "EncodedDataCaption": "adipisci",
-    "EncodedDataCaptionDescription": "De-engineered dynamic array",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "quisquam",
+    "EncodedDataCaptionDescription": "Diverse fault-tolerant knowledge user",
+    "CurrentOperationType": "sunt",
     "Values": [
-      "quae",
-      "ab"
+      "dolor",
+      "eos"
     ],
     "DisplayValues": [
-      "quaerat",
-      "delectus"
+      "dolores",
+      "voluptate"
     ],
     "OperationInfos": [
       {
-        "Key": "id",
-        "EncodedDisplayName": "Considine, Kuhic and Rohan",
+        "Key": "temporibus",
+        "EncodedDisplayName": "Tremblay, Jewess and Schneider",
         "EncodedLeadTexts": [
-          "explicabo",
-          "dolores"
+          "voluptatem",
+          "cum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 807
+            "FieldType": "System.Int32",
+            "FieldLength": 337
           }
         }
       },
       {
-        "Key": "id",
-        "EncodedDisplayName": "Considine, Kuhic and Rohan",
+        "Key": "temporibus",
+        "EncodedDisplayName": "Tremblay, Jewess and Schneider",
         "EncodedLeadTexts": [
-          "explicabo",
-          "dolores"
+          "voluptatem",
+          "cum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 807
+            "FieldType": "System.Int32",
+            "FieldLength": 337
           }
         }
       }

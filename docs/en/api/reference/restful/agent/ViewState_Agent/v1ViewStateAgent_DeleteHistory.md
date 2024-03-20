@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ward Inc and Sons",
-  "Id": 423
+  "HistoryName": "Ruecker, Hettinger and Morar",
+  "Id": 83
 }
 ```
 

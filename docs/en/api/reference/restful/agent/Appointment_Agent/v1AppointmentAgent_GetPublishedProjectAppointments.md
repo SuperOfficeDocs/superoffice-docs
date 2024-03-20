@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 396
+  "ProjectId": 270
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 223,
-    "StartDate": "2024-02-05T14:23:45.3907072+01:00",
-    "EndDate": "2013-03-09T14:23:45.3907072+01:00",
+    "AppointmentId": 531,
+    "StartDate": "2012-10-19T12:19:44.1643873+02:00",
+    "EndDate": "2018-05-31T12:19:44.1643873+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Lawson Crona",
-    "ContactName": "Robel, Satterfield and Collins",
-    "Description": "Expanded 24 hour focus group",
-    "PersonFullName": "Eleanore Bernier",
-    "PersonId": 721,
-    "ContactId": 660,
-    "ProjectId": 693,
-    "ProjectName": "Nitzsche, Cummings and Bernier",
+    "Task": "error",
+    "AssociateFullName": "Mrs. Constantin Fletcher Predovic",
+    "ContactName": "Auer Inc and Sons",
+    "Description": "Quality-focused client-server installation",
+    "PersonFullName": "Rhett Jacobi",
+    "PersonId": 176,
+    "ContactId": 923,
+    "ProjectId": 736,
+    "ProjectName": "Wiegand-Cronin",
     "IsPublished": false,
-    "AssociateId": 491,
-    "ColorIndex": 274,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 441,
+    "ColorIndex": 571,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 41,
-    "PriorityName": "Hahn Inc and Sons",
+    "PriorityId": 301,
+    "PriorityName": "Johnston-Durgan",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2018-05-20T14:23:45.3907072+02:00",
+    "ActiveDate": "2013-02-27T12:19:44.1643873+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-09-24T14:23:45.3907072+02:00",
-    "RecurringEndDate": "2012-02-11T14:23:45.3907072+01:00",
-    "MotherId": 975,
-    "AssignedBy": 647,
-    "AssignedByFullName": "Katrine Hintz",
-    "RejectReason": "",
-    "Location": "quis",
-    "AlarmLeadTime": "at",
-    "SaleId": 114,
-    "SaleName": "Jaskolski-Lubowitz",
-    "AssociateName": "Ferry LLC",
-    "CreatedDate": "1999-12-22T14:23:45.3907072+01:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Kariane Champlin",
-    "CreatedByAssociateId": 174,
+    "RecurringStartDate": "2015-01-16T12:19:44.1643873+01:00",
+    "RecurringEndDate": "2012-11-28T12:19:44.1643873+01:00",
+    "MotherId": 517,
+    "AssignedBy": 124,
+    "AssignedByFullName": "Filomena Ratke",
+    "RejectReason": "reintermediate killer channels",
+    "Location": "odit",
+    "AlarmLeadTime": "corrupti",
+    "SaleId": 721,
+    "SaleName": "Muller Inc and Sons",
+    "AssociateName": "Orn Inc and Sons",
+    "CreatedDate": "2020-11-09T12:19:44.1643873+01:00",
+    "CreatedBy": "repellat",
+    "CreatedByFullName": "Prof. Heloise Hermiston MD",
+    "CreatedByAssociateId": 709,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 675,
-    "Title": "quia",
-    "Agenda": "facere",
-    "InternalNotes": "itaque",
+    "PreferredTZLocation": 239,
+    "Title": "tenetur",
+    "Agenda": "fugit",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 794
       }
     }
   }

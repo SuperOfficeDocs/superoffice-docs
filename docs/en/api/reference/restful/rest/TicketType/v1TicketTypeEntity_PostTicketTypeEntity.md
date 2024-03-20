@@ -102,22 +102,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 280,
-  "Name": "Bergstrom, Wunsch and Cummings",
-  "Rank": 130,
-  "Tooltip": "iusto",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 188,
+  "TicketTypeId": 692,
+  "Name": "Lowe, Goodwin and Dare",
+  "Rank": 654,
+  "Tooltip": "tempore",
+  "Icon": "voluptas",
+  "DefaultTicketStatus": 384,
   "TicketStatuses": [
-    461,
-    594
+    477,
+    577
   ],
-  "DefaultTicketPriority": 692,
+  "DefaultTicketPriority": 10,
   "TicketPriorities": [
-    512,
-    772
+    721,
+    175
   ],
-  "ReplyTemplate": 10,
+  "ReplyTemplate": 836,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 244,
-  "Name": "Bahringer-Orn",
-  "Rank": 177,
-  "Tooltip": "dolorem",
-  "Icon": "nihil",
-  "DefaultTicketStatus": 834,
+  "TicketTypeId": 248,
+  "Name": "Mayert Group",
+  "Rank": 280,
+  "Tooltip": "a",
+  "Icon": "illo",
+  "DefaultTicketStatus": 358,
   "TicketStatuses": [
-    452,
-    401
+    420,
+    921
   ],
-  "DefaultTicketPriority": 374,
+  "DefaultTicketPriority": 658,
   "TicketPriorities": [
-    391,
-    519
+    952,
+    676
   ],
-  "ReplyTemplate": 723,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 296,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   },
   "_Links": {

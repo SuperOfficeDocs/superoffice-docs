@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    761,
-    755
+    455,
+    731
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 14,
-    "Name": "Hickle, Volkman and Ryan",
-    "TargetTable": "voluptatem",
-    "Registered": "1997-01-06T14:23:47.4411323+01:00",
-    "ProviderName": "Marquardt, Kunze and Jacobs"
+    "SelectionId": 191,
+    "Name": "Kuphal LLC",
+    "TargetTable": "dolor",
+    "Registered": "2019-10-08T12:19:46.2889068+02:00",
+    "ProviderName": "Cassin, Crooks and Welch"
   },
   {
-    "SelectionId": 14,
-    "Name": "Hickle, Volkman and Ryan",
-    "TargetTable": "voluptatem",
-    "Registered": "1997-01-06T14:23:47.4411323+01:00",
-    "ProviderName": "Marquardt, Kunze and Jacobs"
+    "SelectionId": 191,
+    "Name": "Kuphal LLC",
+    "TargetTable": "dolor",
+    "Registered": "2019-10-08T12:19:46.2889068+02:00",
+    "ProviderName": "Cassin, Crooks and Welch"
   }
 ]
 ```

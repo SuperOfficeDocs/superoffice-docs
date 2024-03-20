@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 270,
-  "AttachmentId": "quas"
+  "MessageServerId": 738,
+  "AttachmentId": "magnam"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative even-keeled matrix",
-  "Filename": "quam",
-  "Size": 606,
-  "Type": "cum",
-  "Encoding": "dolor",
-  "Id": "dolorum",
-  "Disposition": "dolor",
-  "IsSafeFileExtension": true,
+  "Description": "Networked heuristic firmware",
+  "Filename": "quia",
+  "Size": 883,
+  "Type": "esse",
+  "Encoding": "nisi",
+  "Id": "facilis",
+  "Disposition": "cupiditate",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   }
 }

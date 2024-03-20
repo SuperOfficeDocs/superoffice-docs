@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fritsch, Kunde and Jenkins"
+  "Name": "Halvorson Group"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Dickens, Krajcik and West",
-  "Tooltip": "autem",
+  "Id": 948,
+  "Name": "Hane, Braun and Terry",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 152,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 479,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 903
     }
   }
 }

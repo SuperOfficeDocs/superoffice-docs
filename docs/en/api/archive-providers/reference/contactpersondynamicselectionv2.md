@@ -173,6 +173,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -225,11 +226,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sourceRelation/registeredBy|associate|Source - Registered by: The user who registered the data| x |
 |sourceRelation/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
 |sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
-|sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
 |sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |sourceRelation/deletedDate|datetime|Source - Deleted date: Deleted date|  |
@@ -329,11 +330,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/associateDbId|associate|ID| x |
@@ -433,11 +434,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory|listAny|Category: Category| x |
 |appointment/associate/role|listAny|Role : Role| x |
 |appointment/associate/assocName|associate|User ID : User ID| x |
@@ -537,11 +538,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
 |document/documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
 |document/documentUdef/SuperOffice:6|bool|documentcheckbox| x |
-|document/documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/documentUdef/SuperOffice:7|listAny|documentdropdownlistbox| x |
 |document/documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |document/document/textId|int|Text ID| x |
 |document/document/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -641,11 +642,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
-|personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
 |personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
 |personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
@@ -664,6 +665,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |personSourceRelation/personId|int|Source - DB ID: Displays the database ID of a contact| x |
 |personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
 |personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
@@ -744,12 +746,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personTargetRelation/kanaLastName|string|Target - Last name, kana: Contact's last name, in kana alphabet| x |
 |personTargetRelation/personUpdatedBy|associate|Target - Updated by: The user who last updated the data| x |
 |personTargetRelation/personUpdatedByFullName|associate|Target - Updated by - Full name: The user who last updated the data| x |
-|personTargetRelation/personUpdatedDate|date|Target - Updated: The date/time the data was last updated in UTC.| x |
-|personTargetRelation/personRegisteredBy|associate|Target - Registered by: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/personUpdatedDate|date|Target - Updated: The date/time the data was last updated in UTC.| x |
+|personTargetRelation/personRegisteredBy|associate|Target - Registered by: The user who registered the data| x |
 |personTargetRelation/personRegisteredByFullName|associate|Target - Registered by - Full name: The user who registered the data| x |
 |personTargetRelation/personRegisteredDate|date|Target - Registered date: The date/time the data was registered in UTC.| x |
 |personTargetRelation/portraitThumbnail| *None* |Target - Person image: Person image|  |
@@ -848,12 +850,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
-|request/ticketTypeName|listAny|Request type: Request type| x |
-|request/ticketStatusName|listAny|Status: Request status| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ticketTypeName|listAny|Request type: Request type| x |
+|request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
@@ -952,12 +954,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/ownedBy/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
 |request/ownedBy/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
-|request/ownedBy/portraitThumbnail| *None* |Owner - Person image: Person image|  |
-|request/ownedBy/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|request/ownedBy/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |request/ownedBy/userName|string|Owner - User name: User name| x |
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
@@ -976,6 +978,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|request/extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |projectMembers/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |projectMembers/projectId|int|DB ID: Displays the database ID for a project row| x |
 |projectMembers/name|stringorPK|Project name: Displays the Project's name| x |
@@ -1055,13 +1058,13 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMembers/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |projectMembers/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|projectMembers/LastActivity|date|Date of last activity|  |
-|projectMembers/LastCompletedActivity|date|Date of last completed activity|  |
-|projectMembers/LastDoByActivity|date|Date of last non-completed activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/LastActivity|date|Date of last activity|  |
+|projectMembers/LastCompletedActivity|date|Date of last completed activity|  |
+|projectMembers/LastDoByActivity|date|Date of last non-completed activity|  |
 |projectMembers/NumberOfSales|int|Number of sales|  |
 |projectMembers/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |projectMembers/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
@@ -1159,13 +1162,13 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |personAppointment/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |personAppointment/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|personAppointment/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|personAppointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|personAppointment/associate/userName|string|User name: User name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/portraitThumbnail| *None* |Person image: Person image|  |
+|personAppointment/associate/otherGroups|userGroup|Other groups: Other groups|  |
+|personAppointment/associate/userName|string|User name: User name| x |
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1179,7 +1182,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=business,email/emailLastBounce,LastCompletedActivity,sourceRelation/registeredBy,sale/competitor
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=email/emailLastSent,postAddress/addressId,saintSaleStatus,sale/userGroup,sale/saleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

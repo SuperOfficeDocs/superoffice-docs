@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 643,
-  "Section": "sequi",
-  "Key": "voluptates",
-  "Name": "Sawayn LLC",
+  "PrefDescId": 10,
+  "Section": "est",
+  "Key": "veniam",
+  "Name": "Block Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone client-server system engine",
-  "IsBuiltin": true,
-  "TableName": "Fahey, Schmeler and Considine",
-  "UserDefinedListId": 781,
-  "Rank": 914,
-  "SubGroup": "repudiandae",
-  "MinLevel": 529,
-  "MaxValue": 212,
-  "MinValue": 421,
-  "RequiredLicense": "tenetur"
+  "Description": "Intuitive homogeneous focus group",
+  "IsBuiltin": false,
+  "TableName": "Glover Inc and Sons",
+  "UserDefinedListId": 41,
+  "Rank": 60,
+  "SubGroup": "quidem",
+  "MinLevel": 984,
+  "MaxValue": 448,
+  "MinValue": 43,
+  "RequiredLicense": "ullam"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 713,
-  "Section": "corrupti",
-  "Key": "sunt",
-  "Name": "Bauch, Koepp and Toy",
+  "PrefDescId": 941,
+  "Section": "in",
+  "Key": "ex",
+  "Name": "Cartwright LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented client-driven productivity",
-  "IsBuiltin": true,
-  "TableName": "Halvorson Group",
-  "UserDefinedListId": 140,
-  "Rank": 759,
-  "SubGroup": "culpa",
-  "MinLevel": 463,
-  "MaxValue": 256,
-  "MinValue": 197,
-  "RequiredLicense": "libero",
+  "Description": "Robust explicit internet solution",
+  "IsBuiltin": false,
+  "TableName": "Hodkiewicz, Heller and Shanahan",
+  "UserDefinedListId": 467,
+  "Rank": 923,
+  "SubGroup": "ut",
+  "MinLevel": 50,
+  "MaxValue": 841,
+  "MinValue": 955,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

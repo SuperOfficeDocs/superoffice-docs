@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 537,
-  "PrefDescId": 685,
-  "PrefValue": "velit",
-  "PrefShowValue": "sit",
-  "Description": "Right-sized intangible hardware",
+  "PrefDescLineId": 589,
+  "PrefDescId": 851,
+  "PrefValue": "consequatur",
+  "PrefShowValue": "rem",
+  "Description": "Cloned encompassing matrix",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 464,
-  "PrefDescId": 883,
-  "PrefValue": "ipsa",
-  "PrefShowValue": "hic",
-  "Description": "Cloned global neural-net",
-  "IsBuiltin": true,
+  "PrefDescLineId": 676,
+  "PrefDescId": 481,
+  "PrefValue": "libero",
+  "PrefShowValue": "sapiente",
+  "Description": "Open-architected intermediate alliance",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 490
     }
   },
   "_Links": {

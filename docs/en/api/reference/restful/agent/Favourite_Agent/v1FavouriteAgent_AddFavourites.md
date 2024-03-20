@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Haag Inc and Sons",
+  "TableName": "Gibson, Smith and Veum",
   "RecordIds": [
-    357,
-    6
+    793,
+    307
   ],
-  "AssociateId": 73,
-  "ExtraInfo": "odio"
+  "AssociateId": 393,
+  "ExtraInfo": "vitae"
 }
 ```
 

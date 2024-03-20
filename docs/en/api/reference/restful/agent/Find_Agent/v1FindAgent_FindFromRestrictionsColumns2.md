@@ -168,11 +168,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "nam",
-  "ProviderName": "Harber-Pouros",
-  "DesiredColumns": "rerum",
-  "PageSize": 908,
-  "PageNumber": 979
+  "Restrictions": "nesciunt",
+  "ProviderName": "Mohr Inc and Sons",
+  "DesiredColumns": "qui",
+  "PageSize": 714,
+  "PageNumber": 205
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weissnat, Marquardt and Gislason",
-      "DisplayTooltip": "velit",
-      "DisplayType": "quis",
+      "DisplayName": "Hintz-Ankunding",
+      "DisplayTooltip": "nostrum",
+      "DisplayType": "facere",
       "CanOrderBy": false,
-      "Name": "Runte, Daugherty and Paucek",
-      "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Sporer LLC",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "et",
-      "IconHint": "illum",
-      "HeadingIconHint": "distinctio"
+      "Name": "McGlynn Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "hic",
+      "RestrictionListName": "Brown-Batz",
+      "IsVisible": true,
+      "ExtraInfo": "quae",
+      "Width": "dolorem",
+      "IconHint": "aut",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Oberbrunner-Wisoky",
-      "PrimaryKey": 188,
+      "EntityName": "Schiller-Lebsack",
+      "PrimaryKey": 624,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "alias",
-          "TooltipHint": "facilis",
-          "LinkHint": "omnis"
+          "DisplayValue": "non",
+          "TooltipHint": "totam",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "facilis",
+      "LinkHint": "asperiores",
+      "StyleHint": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 4
         }
       }
     }
   ],
-  "RowCount": 66,
+  "RowCount": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 795
     }
   }
 }

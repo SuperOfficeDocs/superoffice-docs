@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 991,
-  "BlobSize": 950,
-  "Description": "Robust reciprocal benchmark",
-  "ExtraInfo": "tenetur",
+  "BlobId": 781,
+  "BlobSize": 213,
+  "Description": "Decentralized assymetric data-warehouse",
+  "ExtraInfo": "amet",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quisquam",
-  "OriginalSize": 514,
-  "CreatedDate": "2020-11-21T14:23:55.3064621+01:00",
-  "UpdatedDate": "2009-03-11T14:23:55.3064621+01:00",
+  "IsZipped": true,
+  "MimeType": "reiciendis",
+  "OriginalSize": 648,
+  "CreatedDate": "2006-11-13T12:19:53.7273414+01:00",
+  "UpdatedDate": "2005-06-02T12:19:53.7273414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint"
+  "ConceptualType": "et"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 94,
-  "BlobSize": 650,
-  "Description": "Self-enabling secondary monitoring",
-  "ExtraInfo": "vitae",
+  "BlobId": 793,
+  "BlobSize": 928,
+  "Description": "Fully-configurable mission-critical conglomeration",
+  "ExtraInfo": "commodi",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "sapiente",
-  "OriginalSize": 274,
-  "CreatedDate": "2016-08-30T14:23:55.3064621+02:00",
-  "UpdatedDate": "2009-12-02T14:23:55.3064621+01:00",
+  "IsZipped": false,
+  "MimeType": "quod",
+  "OriginalSize": 769,
+  "CreatedDate": "2003-12-17T12:19:53.7273414+01:00",
+  "UpdatedDate": "2016-12-09T12:19:53.7273414+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldLength": 364
     }
   }
 }

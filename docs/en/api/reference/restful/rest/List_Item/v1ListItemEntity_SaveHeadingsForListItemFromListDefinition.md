@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "McDermott Group",
-    "ToolTip": "Sed adipisci unde.",
+    "Id": 241,
+    "Name": "Pollich LLC",
+    "ToolTip": "Aspernatur dolor.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "error",
-    "ColorBlock": 439,
-    "IconHint": "alias",
+    "Rank": 731,
+    "Type": "debitis",
+    "ColorBlock": 67,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2021-10-30T14:23:55.9470782+02:00",
+    "LastChanged": "2010-04-08T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Connelly LLC",
-        "ToolTip": "Totam sit.",
+        "Id": 288,
+        "Name": "Kassulke Group",
+        "ToolTip": "Mollitia impedit error doloremque.",
         "Deleted": true,
-        "Rank": 34,
-        "Type": "cum",
-        "ColorBlock": 522,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2003-01-09T14:23:55.9470782+01:00",
+        "Rank": 633,
+        "Type": "est",
+        "ColorBlock": 499,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2018-03-08T12:19:54.2740906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Hipolito Kuphal"
+        "ExtraInfo": "quos",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Elody Greenfelder MD"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Prof. Camren Kuphal"
+    "FullName": "Mr. Rachelle Kessler Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Kuhic Group",
-    "ToolTip": "Expedita dicta possimus id omnis.",
+    "Id": 320,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Consequatur dolorem similique voluptate.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "quo",
-    "ColorBlock": 66,
-    "IconHint": "impedit",
+    "Rank": 386,
+    "Type": "dolor",
+    "ColorBlock": 823,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2013-02-11T14:23:55.9470782+01:00",
+    "LastChanged": "2019-04-07T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Reichel-Schulist",
-        "ToolTip": "Dolorum tempore.",
-        "Deleted": true,
-        "Rank": 546,
-        "Type": "recusandae",
-        "ColorBlock": 951,
-        "IconHint": "iure",
+        "Id": 261,
+        "Name": "Boyer-Goodwin",
+        "ToolTip": "Eum ut.",
+        "Deleted": false,
+        "Rank": 446,
+        "Type": "doloremque",
+        "ColorBlock": 658,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2011-04-05T14:23:55.9470782+02:00",
+        "LastChanged": "2003-10-21T12:19:54.2740906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "sint",
+        "ExtraInfo": "velit",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Miss Mariela Towne",
+        "FullName": "Khalil Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Mrs. Laron Bogan II",
+    "ExtraInfo": "possimus",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Arvilla King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

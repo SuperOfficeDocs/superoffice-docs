@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Graham-Wolf",
-    "Records": 300,
+    "EntityName": "Littel Group",
+    "Records": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 174
       }
     }
   },
   {
-    "EntityName": "Graham-Wolf",
-    "Records": 300,
+    "EntityName": "Littel Group",
+    "Records": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 174
       }
     }
   }

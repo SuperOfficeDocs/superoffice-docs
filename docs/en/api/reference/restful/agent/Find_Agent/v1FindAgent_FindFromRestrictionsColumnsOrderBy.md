@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Klocko, Fahey and Rath",
-      "Operator": "est",
+      "Name": "Shields, Koepp and White",
+      "Operator": "eos",
       "Values": [
-        "autem",
-        "debitis"
+        "consequuntur",
+        "est"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "neque"
+        "in",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 854,
+      "InterParenthesis": 517,
       "InterOperator": "And",
-      "UniqueHash": 352
+      "UniqueHash": 1000
     }
   ],
-  "ProviderName": "Littel Inc and Sons",
+  "ProviderName": "Nitzsche Inc and Sons",
   "DesiredColumns": [
-    "fuga",
-    "dolorem"
+    "sit",
+    "quod"
   ],
   "OrderBy": [
     {
-      "Name": "Miller, Beatty and Rowe",
+      "Name": "Heller, Lowe and Schroeder",
       "Direction": "ASC"
     },
     {
-      "Name": "Miller, Beatty and Rowe",
+      "Name": "Heller, Lowe and Schroeder",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 487,
-  "PageNumber": 780
+  "PageSize": 590,
+  "PageNumber": 154
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "O'Hara-Pollich",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "qui",
+      "DisplayName": "Labadie-Steuber",
+      "DisplayTooltip": "voluptates",
+      "DisplayType": "laboriosam",
       "CanOrderBy": false,
-      "Name": "Wehner-Spencer",
+      "Name": "Kling-Stoltenberg",
       "CanRestrictBy": false,
-      "RestrictionType": "incidunt",
-      "RestrictionListName": "Feeney, Pfeffer and Collier",
-      "IsVisible": false,
-      "ExtraInfo": "excepturi",
-      "Width": "voluptatem",
-      "IconHint": "illo",
-      "HeadingIconHint": "saepe"
+      "RestrictionType": "est",
+      "RestrictionListName": "Volkman-O'Reilly",
+      "IsVisible": true,
+      "ExtraInfo": "voluptatem",
+      "Width": "perspiciatis",
+      "IconHint": "suscipit",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kiehn Inc and Sons",
-      "PrimaryKey": 137,
+      "EntityName": "Jaskolski, Durgan and Keebler",
+      "PrimaryKey": 103,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ea",
-          "TooltipHint": "doloribus",
-          "LinkHint": "assumenda"
+          "DisplayValue": "officiis",
+          "TooltipHint": "rerum",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "odio",
-      "StyleHint": "rem",
+      "LinkHint": "exercitationem",
+      "StyleHint": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     }
   ],
-  "RowCount": 654,
+  "RowCount": 894,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 419
     }
   }
 }

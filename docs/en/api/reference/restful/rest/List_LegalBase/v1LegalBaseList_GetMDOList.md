@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=est
+GET /api/v1/List/LegalBase/MDOItems?query=id
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Bartell, Bode and Greenholt",
-    "ToolTip": "Recusandae illum omnis vitae.",
-    "Deleted": true,
-    "Rank": 86,
-    "Type": "earum",
+    "Id": 554,
+    "Name": "Gaylord, Dickinson and Nader",
+    "ToolTip": "Ut placeat consequatur non qui.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Schimmel, Abshire and Veum",
-        "ToolTip": "Illo autem hic tempora et.",
+        "Id": 363,
+        "Name": "Witting-Dickinson",
+        "ToolTip": "Consequatur aliquid dolorem placeat quo pariatur qui et.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "expedita",
+        "Rank": 563,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 991,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "officiis",
-        "FullName": "Ms. Gunner Walsh",
+        "IconHint": "sed",
+        "ColorBlock": 411,
+        "ExtraInfo": "ut",
+        "StyleHint": "ad",
+        "FullName": "Norris Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 444
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "possimus",
-    "ColorBlock": 949,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "pariatur",
-    "FullName": "Makenzie Sipes",
+    "IconHint": "labore",
+    "ColorBlock": 24,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "expedita",
+    "FullName": "Kamryn Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 325
       }
     }
   }

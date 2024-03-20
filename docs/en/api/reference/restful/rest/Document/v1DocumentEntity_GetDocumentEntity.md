@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Mar 2009 14:23:55 G3T
+Last-Modified: Thu, 16 Apr 2020 12:19:53 G4T
 
 {
-  "DocumentId": 859,
+  "DocumentId": 671,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "aspernatur",
-  "Name": "Kautzer Inc and Sons",
-  "OurRef": "ut",
-  "YourRef": "quia",
-  "CreatedDate": "2022-07-17T14:23:55.1021486+02:00",
-  "UpdatedDate": "2009-03-23T14:23:55.1021486+01:00",
-  "Description": "Reduced interactive encoding",
+  "Attention": "quidem",
+  "Header": "sint",
+  "Name": "Hayes, Hudson and Steuber",
+  "OurRef": "non",
+  "YourRef": "et",
+  "CreatedDate": "2000-01-12T12:19:53.3368073+01:00",
+  "UpdatedDate": "2020-04-16T12:19:53.3368073+02:00",
+  "Description": "Down-sized assymetric protocol",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-05-28T14:23:55.1021486+02:00",
-  "ExternalRef": "deserunt",
+  "Date": "2009-01-15T12:19:53.3368073+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 324,
+  "ActiveLinks": 3,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ortiz-Schiller",
-      "Id": 427,
-      "Description": "Reduced intangible strategy",
-      "ExtraInfo": "maiores",
-      "LinkId": 180,
+      "EntityName": "Muller-Hettinger",
+      "Id": 455,
+      "Description": "Multi-layered bandwidth-monitored ability",
+      "ExtraInfo": "atque",
+      "LinkId": 909,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 983
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 407,
-  "Snum": 301,
+  "SuggestedDocumentId": 962,
+  "Snum": 844,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Justine Langosh",
-    "SuperOffice:2": "Bernita Konopelski"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Kirstin Roob"
   },
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "fugit"
+    "CustomFields1": "quam",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2007-11-06T14:23:55.1021486+01:00",
-  "PublishTo": "2022-07-30T14:23:55.1021486+02:00",
-  "PublishFrom": "2017-01-09T14:23:55.1021486+01:00",
+  "PublishEventDate": "2003-05-13T12:19:53.3368073+02:00",
+  "PublishTo": "2016-06-02T12:19:53.3368073+02:00",
+  "PublishFrom": "2011-10-05T12:19:53.3368073+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 558,
+      "VisibleId": 504,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 861
         }
       }
     },
     {
-      "VisibleId": 558,
+      "VisibleId": 504,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 861
         }
       }
     }
@@ -210,13 +210,13 @@ Last-Modified: Mon, 23 Mar 2009 14:23:55 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

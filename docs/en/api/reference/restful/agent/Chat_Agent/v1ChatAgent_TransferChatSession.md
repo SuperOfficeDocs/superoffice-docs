@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 260,
-  "ToAssociate": "vel"
+  "ChatSessionId": 44,
+  "ToAssociate": "inventore"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 845,
-  "TopicId": 80,
+  "ChatSessionId": 308,
+  "TopicId": 533,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quisquam",
-  "CustomerHost": "rem",
-  "CustomerName": "Corwin-Murazik",
-  "CustomerEmail": "kristofer.gislason@gusikowski.info",
-  "CustomerPhone": "119-650-3359",
+  "CustomerAlias": "et",
+  "CustomerHost": "sit",
+  "CustomerName": "Windler-Lubowitz",
+  "CustomerEmail": "giovanna@bruen.us",
+  "CustomerPhone": "137-903-5656",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Mitchell-Ryan",
+  "CustomerCompanyName": "Towne-Zulauf",
   "Status": "Closed",
-  "FirstMessage": "labore",
-  "LastMessage": "qui",
-  "WhenRequested": "2000-07-30T14:23:45.9699598+02:00",
-  "WhenStarted": "2013-03-01T14:23:45.9699598+01:00",
-  "WhenEnded": "1997-07-05T14:23:45.9699598+02:00",
-  "WhenIdle": "2020-12-30T14:23:45.9699598+01:00",
-  "WhenFetched": "2007-03-10T14:23:45.9699598+01:00",
-  "SessionKey": "eaque",
-  "InitialQueuePos": 968,
-  "AlertLevel": 989,
-  "Rank": 723,
+  "FirstMessage": "inventore",
+  "LastMessage": "et",
+  "WhenRequested": "2009-11-25T12:19:44.6017963+01:00",
+  "WhenStarted": "1997-09-29T12:19:44.6017963+02:00",
+  "WhenEnded": "2015-10-22T12:19:44.6017963+02:00",
+  "WhenIdle": "2021-01-22T12:19:44.6017963+01:00",
+  "WhenFetched": "2022-02-09T12:19:44.6017963+01:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 313,
+  "AlertLevel": 366,
+  "Rank": 680,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 933,
+  "ChatbotIsActive": false,
+  "Rating": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 350
     }
   }
 }

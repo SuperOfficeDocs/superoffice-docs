@@ -71,8 +71,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quos",
-  "PublicValue": "nam"
+  "Type": "est",
+  "PublicValue": "aliquam"
 }
 ```
 

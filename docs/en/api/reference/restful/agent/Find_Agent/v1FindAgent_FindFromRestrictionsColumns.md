@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McLaughlin, Treutel and Kub",
-      "Operator": "ut",
+      "Name": "Rau-Howe",
+      "Operator": "itaque",
       "Values": [
-        "doloremque",
-        "autem"
+        "distinctio",
+        "vitae"
       ],
       "DisplayValues": [
-        "possimus",
-        "suscipit"
+        "quaerat",
+        "totam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 963,
+      "InterParenthesis": 692,
       "InterOperator": "And",
-      "UniqueHash": 395
+      "UniqueHash": 30
     }
   ],
-  "ProviderName": "Goldner Group",
+  "ProviderName": "Bogisich-Emard",
   "DesiredColumns": [
-    "et",
-    "enim"
+    "nam",
+    "exercitationem"
   ],
-  "PageSize": 624,
-  "PageNumber": 903
+  "PageSize": 48,
+  "PageNumber": 442
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gislason-Goldner",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Bergnaum Group",
+      "DisplayTooltip": "quo",
+      "DisplayType": "nisi",
       "CanOrderBy": false,
-      "Name": "Jast-Cole",
+      "Name": "Blanda, Armstrong and Corwin",
       "CanRestrictBy": false,
-      "RestrictionType": "distinctio",
-      "RestrictionListName": "Kozey Inc and Sons",
+      "RestrictionType": "optio",
+      "RestrictionListName": "Denesik, Cronin and Tromp",
       "IsVisible": false,
       "ExtraInfo": "molestiae",
-      "Width": "alias",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "inventore"
+      "Width": "dignissimos",
+      "IconHint": "sint",
+      "HeadingIconHint": "odit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ebert, Lueilwitz and Mann",
-      "PrimaryKey": 737,
+      "EntityName": "Greenholt, Ortiz and Emard",
+      "PrimaryKey": 621,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "assumenda",
-          "LinkHint": "qui"
+          "DisplayValue": "ipsum",
+          "TooltipHint": "et",
+          "LinkHint": "voluptatum"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "eos",
+      "LinkHint": "mollitia",
+      "StyleHint": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldType": "System.String",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "RowCount": 399,
+  "RowCount": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

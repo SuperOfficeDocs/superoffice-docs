@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 763,
+  "QuoteConnectionId": 919,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "nam",
-    "ConnectionConfigFields2": "velit"
+    "ConnectionConfigFields1": "unde",
+    "ConnectionConfigFields2": "porro"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "culpa",
-  "2": "tempora"
+  "1": "odit",
+  "2": "rem"
 }
 ```

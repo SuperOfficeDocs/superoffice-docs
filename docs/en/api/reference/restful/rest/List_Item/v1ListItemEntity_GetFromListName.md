@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Powlowski Inc and Sons",
-  "Tooltip": "sit",
+  "Id": 443,
+  "Name": "Toy-Cremin",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "UdListDefinitionId": 285,
-  "Rank": 171,
+  "UdListDefinitionId": 612,
+  "Rank": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 813
     }
   }
 }

@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Morissette-Frami",
+      "ErpListName": "Moore-Reichel",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Mosciski-Wilderman",
-      "ErpFieldId": 893,
+      "ErpActorTypeName": "Tremblay Inc and Sons",
+      "ErpFieldId": 659,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 490
         }
       }
     }
   ],
-  "ErpConnectionId": 406,
-  "ErpConnectionName": "Jones, Bernhard and Reichert",
+  "ErpConnectionId": 210,
+  "ErpConnectionName": "Hyatt, Kris and Schiller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 955
     }
   }
 }

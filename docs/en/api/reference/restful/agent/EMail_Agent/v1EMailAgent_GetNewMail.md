@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    86,
-    8
+    487,
+    664
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 589,
-    "MessageId": "consequatur",
-    "Subject": "laudantium",
+    "ServerId": 531,
+    "MessageId": "vitae",
+    "Subject": "minima",
     "From": null,
     "To": [
       {
-        "ContactId": 925,
-        "ContactName": "Watsica-Denesik",
-        "PersonId": 846,
-        "PersonName": "Schmitt Inc and Sons",
-        "AssociateId": 679,
-        "Address": "temporibus",
-        "EmailId": 578,
+        "ContactId": 853,
+        "ContactName": "Jones LLC",
+        "PersonId": 715,
+        "PersonName": "Farrell-Stiedemann",
+        "AssociateId": 64,
+        "Address": "autem",
+        "EmailId": 24,
         "DuplicatePersonIds": [
-          918,
-          493
+          458,
+          796
         ],
-        "Name": "Runolfsdottir-Stamm",
+        "Name": "Hirthe-Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldType": "System.String",
+            "FieldLength": 18
           }
         }
       }
     ],
-    "Sent": "2023-01-11T14:23:46.4387031+01:00",
+    "Sent": "2021-03-24T12:19:45.2422708+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 23,
+    "Size": 142,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 553
       }
     }
   }

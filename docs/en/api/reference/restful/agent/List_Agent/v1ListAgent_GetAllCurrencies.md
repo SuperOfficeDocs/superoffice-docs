@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 770,
-    "Name": "Blick-Block",
-    "Tooltip": "eos",
-    "Rank": 406,
-    "Rate": 14645.181999999999,
-    "Units": 6540.6579999999994,
-    "Deleted": false,
+    "CurrencyId": 811,
+    "Name": "Lindgren-Marquardt",
+    "Tooltip": "omnis",
+    "Rank": 493,
+    "Rate": 1147.0439999999999,
+    "Units": 2895.816,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 759
       }
     }
   }

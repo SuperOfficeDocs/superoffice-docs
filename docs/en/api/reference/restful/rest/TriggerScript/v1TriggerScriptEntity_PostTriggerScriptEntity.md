@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 774,
-  "Name": "Collins, Luettgen and King",
+  "ScreenChooserId": 479,
+  "Name": "Hoppe Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "maxime",
-  "Source": "et",
-  "Registered": "2022-10-10T14:23:55.7595795+02:00",
-  "RegisteredAssociateId": 326,
-  "Updated": "2002-06-05T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 29
+  "Enabled": false,
+  "UniqueIdentifier": "asperiores",
+  "Source": "sunt",
+  "Registered": "2010-09-13T12:19:54.0866374+02:00",
+  "RegisteredAssociateId": 597,
+  "Updated": "2006-09-10T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 243
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 572,
-  "Name": "Considine, Gottlieb and Tillman",
+  "ScreenChooserId": 437,
+  "Name": "Bauch, Brown and Emard",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "amet",
-  "Source": "delectus",
-  "Registered": "2017-11-10T14:23:55.7595795+01:00",
-  "RegisteredAssociateId": 518,
-  "Updated": "2019-05-31T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 418,
+  "UniqueIdentifier": "cupiditate",
+  "Source": "reprehenderit",
+  "Registered": "2002-10-13T12:19:54.0866374+02:00",
+  "RegisteredAssociateId": 783,
+  "Updated": "1997-08-23T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 667
     }
   },
   "_Links": {

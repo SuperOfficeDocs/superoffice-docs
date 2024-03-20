@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 616,
-    "Name": "Reynolds Group",
-    "Description": "Optimized incremental info-mediaries",
+    "ProjectId": 287,
+    "Name": "Swaniawski-Howell",
+    "Description": "Profound demand-driven protocol",
     "URL": "http://www.example.com/",
-    "Type": "id",
-    "AssociateId": 489,
-    "AssociateFullName": "Martin Bergstrom",
-    "TypeId": 971,
-    "Updated": "2021-11-18T14:23:47.1755092+01:00",
-    "StatusId": 287,
-    "Status": "eos",
-    "TextId": 202,
-    "PublishTo": "2003-03-16T14:23:47.1755092+01:00",
-    "PublishFrom": "2018-02-04T14:23:47.1755092+01:00",
-    "IsPublished": true,
+    "Type": "eius",
+    "AssociateId": 689,
+    "AssociateFullName": "Kristopher Mosciski",
+    "TypeId": 953,
+    "Updated": "2006-07-25T12:19:46.0233436+02:00",
+    "StatusId": 431,
+    "Status": "est",
+    "TextId": 386,
+    "PublishTo": "2006-04-27T12:19:46.0233436+02:00",
+    "PublishFrom": "2009-09-03T12:19:46.0233436+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "139707",
-    "ActiveErpLinks": 78,
+    "ProjectNumber": "1610430",
+    "ActiveErpLinks": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 204
       }
     }
   }

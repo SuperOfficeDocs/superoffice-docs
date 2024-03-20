@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 655,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2011-06-19T14:23:45.359461+02:00",
-  "EndTime": "2005-12-06T14:23:45.359461+01:00",
-  "Count": 866,
+  "PersonId": 396,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2018-06-06T12:19:44.1331553+02:00",
+  "EndTime": "2003-08-28T12:19:44.1331553+02:00",
+  "Count": 851,
   "TaskIds": [
-    923,
-    857
+    283,
+    73
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 81,
-    "StartDate": "2000-06-15T14:23:45.359461+02:00",
-    "EndDate": "2022-12-07T14:23:45.359461+01:00",
+    "AppointmentId": 28,
+    "StartDate": "2014-01-14T12:19:44.1331553+01:00",
+    "EndDate": "2004-06-28T12:19:44.1331553+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nesciunt",
-    "AssociateFullName": "Hardy Will DDS",
-    "ContactName": "Ritchie, Steuber and Schamberger",
-    "Description": "Organized foreground system engine",
-    "PersonFullName": "Magali Treutel",
-    "PersonId": 827,
-    "ContactId": 963,
-    "ProjectId": 577,
-    "ProjectName": "Heller, Baumbach and Ferry",
+    "Task": "ut",
+    "AssociateFullName": "Miss Narciso Sauer",
+    "ContactName": "Halvorson Inc and Sons",
+    "Description": "Extended systematic support",
+    "PersonFullName": "Dr. Britney Kemmer",
+    "PersonId": 288,
+    "ContactId": 7,
+    "ProjectId": 970,
+    "ProjectName": "Huels Group",
     "IsPublished": false,
-    "AssociateId": 184,
-    "ColorIndex": 696,
+    "AssociateId": 473,
+    "ColorIndex": 147,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 69,
-    "PriorityName": "Wilkinson-Langosh",
+    "PriorityId": 627,
+    "PriorityName": "Johnston Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1996-12-20T14:23:45.359461+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2004-07-04T12:19:44.1331553+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-08-31T14:23:45.359461+02:00",
-    "RecurringEndDate": "2019-02-01T14:23:45.359461+01:00",
-    "MotherId": 120,
-    "AssignedBy": 277,
-    "AssignedByFullName": "Miss Heath Althea Lockman",
-    "RejectReason": "",
-    "Location": "numquam",
-    "AlarmLeadTime": "odit",
-    "SaleId": 345,
-    "SaleName": "Maggio-Bernhard",
-    "AssociateName": "Heathcote-Dickinson",
-    "CreatedDate": "2011-02-16T14:23:45.359461+01:00",
-    "CreatedBy": "iure",
-    "CreatedByFullName": "Liza Gulgowski",
-    "CreatedByAssociateId": 242,
+    "RecurringStartDate": "2011-02-07T12:19:44.1331553+01:00",
+    "RecurringEndDate": "2023-02-17T12:19:44.1331553+01:00",
+    "MotherId": 618,
+    "AssignedBy": 804,
+    "AssignedByFullName": "Burley Otha Kirlin DDS",
+    "RejectReason": "recontextualize rich infomediaries",
+    "Location": "aut",
+    "AlarmLeadTime": "eum",
+    "SaleId": 93,
+    "SaleName": "Lynch, Keeling and Becker",
+    "AssociateName": "Legros Inc and Sons",
+    "CreatedDate": "2016-11-23T12:19:44.1331553+01:00",
+    "CreatedBy": "dolore",
+    "CreatedByFullName": "Isaac Ruecker",
+    "CreatedByAssociateId": 559,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 274,
-    "Title": "quis",
-    "Agenda": "excepturi",
-    "InternalNotes": "iure",
+    "PreferredTZLocation": 496,
+    "Title": "voluptatem",
+    "Agenda": "aut",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 781
       }
     }
   }

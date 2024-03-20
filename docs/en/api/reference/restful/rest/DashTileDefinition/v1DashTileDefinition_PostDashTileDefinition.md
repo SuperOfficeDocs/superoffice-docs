@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 345,
-  "Name": "Kulas-Schaefer",
-  "Description": "Organic zero administration matrices",
-  "DefaultHeight": 953,
-  "DefaultWidth": 177,
+  "DashboardTileDefinitionId": 995,
+  "Name": "Donnelly-Brekke",
+  "Description": "Business-focused asynchronous extranet",
+  "DefaultHeight": 230,
+  "DefaultWidth": 592,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Marquardt, Dickinson and Gislason",
-  "SelectionId": 359,
+  "EntityName": "Gusikowski LLC",
+  "SelectionId": 859,
   "CurrencyMode": "Base",
-  "CurrencyCode": "temporibus",
+  "CurrencyCode": "consequatur",
   "Measure": "Average",
-  "MeasureField": "unde",
-  "SortBy": "vel",
-  "LayoutConfig": "hic",
-  "SecondarySelectionId": 965,
-  "MeasureByField": "illo",
+  "MeasureField": "nulla",
+  "SortBy": "sunt",
+  "LayoutConfig": "eaque",
+  "SecondarySelectionId": 63,
+  "MeasureByField": "aliquid",
   "Usage": "Dashboard",
-  "ProviderName": "Okuneva, Pfeffer and Roob"
+  "ProviderName": "Pfannerstill LLC"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 920,
-  "Name": "Kuhn, Friesen and Carter",
-  "Description": "Future-proofed foreground synergy",
-  "DefaultHeight": 847,
-  "DefaultWidth": 867,
+  "DashboardTileDefinitionId": 319,
+  "Name": "Lindgren-Runte",
+  "Description": "Balanced cohesive extranet",
+  "DefaultHeight": 98,
+  "DefaultWidth": 121,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kulas, D'Amore and Weimann",
-  "SelectionId": 727,
+  "EntityName": "Altenwerth, Quigley and Gerlach",
+  "SelectionId": 850,
   "CurrencyMode": "Base",
-  "CurrencyCode": "debitis",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "id",
-  "SortBy": "quisquam",
-  "LayoutConfig": "voluptates",
-  "SecondarySelectionId": 23,
-  "MeasureByField": "quasi",
+  "MeasureField": "ut",
+  "SortBy": "laborum",
+  "LayoutConfig": "ab",
+  "SecondarySelectionId": 821,
+  "MeasureByField": "voluptates",
   "Usage": "Dashboard",
-  "ProviderName": "Walsh LLC",
+  "ProviderName": "Thiel-Huels",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 269
     }
   },
   "_Links": {

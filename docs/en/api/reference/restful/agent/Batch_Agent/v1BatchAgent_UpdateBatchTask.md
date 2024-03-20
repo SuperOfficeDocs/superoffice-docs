@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "DuBuque-Krajcik",
-  "AssociateId": 127,
-  "DetailsTable": 201,
-  "DetailsRecord": 293,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 383,
+  "Name": "Mosciski, Carter and Barrows",
+  "AssociateId": 856,
+  "DetailsTable": 318,
+  "DetailsRecord": 271,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptas",
-    "ParameterObject2": "sit"
+    "ParameterObject1": "doloremque",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2011-08-25T14:23:45.8762101+02:00",
-  "Created": "2002-10-18T14:23:45.8762101+02:00",
-  "StartCount": 635,
-  "DatabaseSerialNumber": "650867",
-  "Context": "sed",
+  "LastStarted": "2010-01-16T12:19:44.5238763+01:00",
+  "Created": "2004-05-31T12:19:44.5238763+02:00",
+  "StartCount": 573,
+  "DatabaseSerialNumber": "1044481",
+  "Context": "temporibus",
   "Result": "et",
   "State": "All",
-  "Description": "Down-sized scalable encoding",
-  "Response": "voluptatem",
-  "Request": "nobis",
-  "ProgressDescription": "Switchable multi-tasking internet solution",
-  "ProgressPercent": 381,
-  "FileName": "Konopelski, McGlynn and Donnelly",
+  "Description": "Inverse value-added policy",
+  "Response": "repudiandae",
+  "Request": "nostrum",
+  "ProgressDescription": "Compatible even-keeled time-frame",
+  "ProgressPercent": 422,
+  "FileName": "Block, Moen and Dickinson",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 685
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=425
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=222
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 429,
-  "FormKey": "aperiam",
-  "Name": "Frami Inc and Sons",
-  "Description": "Stand-alone intermediate budgetary management",
-  "Config": "eos",
-  "FolderId": 840,
-  "ScriptId": 306,
-  "ResponseShipmentId": 832,
+  "FormId": 53,
+  "FormKey": "sint",
+  "Name": "Howell-Lockman",
+  "Description": "Intuitive zero defect database",
+  "Config": "assumenda",
+  "FolderId": 525,
+  "ScriptId": 299,
+  "ResponseShipmentId": 29,
   "Active": true,
-  "Expires": "2021-01-31T14:23:46.9098888+01:00",
-  "MaxSubmits": 456,
+  "Expires": "2007-09-07T12:19:45.585943+02:00",
+  "MaxSubmits": 805,
   "Type": "Normal",
-  "Recipe": "adipisci",
-  "GroupId": 199,
-  "NewTicket": true,
+  "Recipe": "natus",
+  "GroupId": 457,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-01-28T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 508,
-  "Updated": "2019-07-24T14:23:46.9098888+02:00",
-  "UpdatedAssociateId": 234,
-  "UpdatedCount": 240,
+  "Registered": "2019-06-21T12:19:45.585943+02:00",
+  "RegisteredAssociateId": 809,
+  "Updated": "2014-07-06T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 592,
+  "UpdatedCount": 170,
   "EmailFlows": [
-    337,
-    648
+    942,
+    619
   ],
-  "FolderName": "Stoltenberg-Daugherty",
+  "FolderName": "Wyman LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 151
     }
   }
 }

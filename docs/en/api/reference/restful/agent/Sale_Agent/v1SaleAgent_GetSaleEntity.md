@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=689
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=156
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "blanditiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-02-17T14:23:47.3473816+01:00",
-  "Amount": 10285.788,
-  "SaleId": 792,
-  "Earning": 4174.488,
-  "EarningPercent": 26983.739999999998,
-  "Heading": "a",
-  "Number": "1761565",
-  "Probability": 237,
-  "CreatedDate": "2018-01-21T14:23:47.3473816+01:00",
-  "UpdatedDate": "2000-08-05T14:23:47.3473816+02:00",
+  "Saledate": "2008-01-08T12:19:46.1951792+01:00",
+  "Amount": 27861.26,
+  "SaleId": 119,
+  "Earning": 22129.174,
+  "EarningPercent": 30600.376,
+  "Heading": "non",
+  "Number": "1032507",
+  "Probability": 878,
+  "CreatedDate": "2011-04-27T12:19:46.1951792+02:00",
+  "UpdatedDate": "1997-08-24T12:19:46.1951792+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 627,
+  "ActiveLinks": 809,
   "Links": [
     {
-      "EntityName": "Greenfelder Group",
-      "Id": 891,
-      "Description": "Public-key scalable migration",
-      "ExtraInfo": "omnis",
-      "LinkId": 814,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 979
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2014-06-06T14:23:47.3473816+02:00",
-  "Postit": "officia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2016-06-11T14:23:47.3473816+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Gerhold Group",
-      "Comment": "autem",
-      "StakeholderRoleId": 667,
-      "CountryId": 934,
-      "PersonId": 219,
-      "EmailDescription": "ottilie@ankundinghomenick.biz",
-      "EmailId": 442,
-      "EmailAddress": "jan_rice@gerhold.name",
-      "PhoneId": 499,
-      "ContactName": "Nicolas-Steuber",
-      "ContactId": 794,
-      "SaleId": 33,
-      "Mrmrs": "totam",
-      "Firstname": "Lorna",
-      "MiddleName": "Thiel, Hermann and Veum",
-      "Lastname": "Kiehn",
-      "SaleStakeholderId": 822,
-      "Rank": 460,
-      "Phone": "586.814.4134 x962",
+      "EntityName": "Leffler LLC",
+      "Id": 154,
+      "Description": "Public-key incremental protocol",
+      "ExtraInfo": "ullam",
+      "LinkId": 812,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 452
+          "FieldLength": 333
         }
       }
     }
   ],
-  "ActiveErpLinks": 223,
+  "NextDueDate": "2023-11-10T12:19:46.1951792+01:00",
+  "Postit": "tenetur",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2012-06-29T12:19:46.1951792+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Hackett, Stroman and Reinger",
+      "Comment": "eaque",
+      "StakeholderRoleId": 660,
+      "CountryId": 523,
+      "PersonId": 843,
+      "EmailDescription": "porter_rutherford@larsonpowlowski.uk",
+      "EmailId": 404,
+      "EmailAddress": "nova@bode.biz",
+      "PhoneId": 530,
+      "ContactName": "Ortiz, Koepp and Streich",
+      "ContactId": 174,
+      "SaleId": 1000,
+      "Mrmrs": "aut",
+      "Firstname": "Bridie",
+      "MiddleName": "Hintz Inc and Sons",
+      "Lastname": "Miller",
+      "SaleStakeholderId": 675,
+      "Rank": 21,
+      "Phone": "(552)714-8341",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 606
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 448,
   "UserDefinedFields": {
-    "SuperOffice:1": "Macy Quigley",
-    "SuperOffice:2": "Sherwood Reichel"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Roma Schultz"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "a",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "velit",
+    "CustomFields2": "soluta"
   },
-  "PublishEventDate": "2007-07-24T14:23:47.3473816+02:00",
-  "PublishTo": "2017-06-20T14:23:47.3473816+02:00",
-  "PublishFrom": "1999-10-09T14:23:47.3473816+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-11-23T12:19:46.1951792+01:00",
+  "PublishTo": "2019-11-01T12:19:46.1951792+01:00",
+  "PublishFrom": "1998-04-05T12:19:46.1951792+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 987,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 233
         }
       }
     },
     {
-      "VisibleId": 987,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 233
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 944
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 142,
-    "Name": "Ziemann, Thiel and Larkin",
-    "Description": "Stand-alone background array",
-    "DeltaJson": "quod",
+    "ConfigurableScreenDeltaId": 453,
+    "Name": "McCullough-Raynor",
+    "Description": "Digitized value-added structure",
+    "DeltaJson": "optio",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quas",
-    "UpdatedDate": "2009-05-02T14:23:46.0637094+02:00",
-    "CreatedDate": "2016-02-08T14:23:46.0637094+01:00",
+    "RecipeId": "mollitia",
+    "UpdatedDate": "2000-05-26T12:19:44.8361197+02:00",
+    "CreatedDate": "1997-08-04T12:19:44.8361197+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      680,
-      828
+      31,
+      727
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 171
       }
     }
   }

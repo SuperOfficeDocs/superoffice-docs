@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 828,
-  "AppointmentId": 895,
-  "ProjectId": 87,
-  "SaleId": 292,
-  "Archived": true,
-  "ArchivedAt": "2003-07-28T14:23:46.6262356+02:00",
-  "ArchivedBy": 16,
-  "ArchivedDisplayName": "Witting Group",
+  "DocumentId": 665,
+  "AppointmentId": 328,
+  "ProjectId": 949,
+  "SaleId": 157,
+  "Archived": false,
+  "ArchivedAt": "2002-08-30T12:19:45.2735196+02:00",
+  "ArchivedBy": 736,
+  "ArchivedDisplayName": "Mraz-Dare",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 780
     }
   }
 }

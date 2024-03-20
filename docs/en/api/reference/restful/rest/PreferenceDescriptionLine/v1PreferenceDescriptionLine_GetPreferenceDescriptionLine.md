@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 276,
-  "PrefDescId": 979,
-  "PrefValue": "eveniet",
-  "PrefShowValue": "et",
-  "Description": "Switchable stable concept",
-  "IsBuiltin": true,
+  "PrefDescLineId": 272,
+  "PrefDescId": 145,
+  "PrefValue": "optio",
+  "PrefShowValue": "exercitationem",
+  "Description": "Focused exuding encryption",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 632
     }
   },
   "_Links": {

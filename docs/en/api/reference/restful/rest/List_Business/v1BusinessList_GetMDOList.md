@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=ea
+GET /api/v1/List/Business/MDOItems?query=quisquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Kautzer, Mueller and Parker",
-    "ToolTip": "Totam tempore.",
-    "Deleted": false,
-    "Rank": 725,
-    "Type": "dolore",
+    "Id": 992,
+    "Name": "Johnson LLC",
+    "ToolTip": "Mollitia quisquam et sunt officia.",
+    "Deleted": true,
+    "Rank": 82,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Armstrong-Reynolds",
-        "ToolTip": "Ad eaque voluptate dolorem natus.",
+        "Id": 603,
+        "Name": "Bradtke, Hilll and Conn",
+        "ToolTip": "Maiores veniam explicabo debitis harum laborum explicabo.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "sit",
+        "Rank": 748,
+        "Type": "architecto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 322,
-        "ExtraInfo": "dolores",
-        "StyleHint": "eos",
-        "FullName": "Elody Okuneva",
+        "IconHint": "ullam",
+        "ColorBlock": 599,
+        "ExtraInfo": "minus",
+        "StyleHint": "magni",
+        "FullName": "Corene Laurie Larson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 352
+            "FieldLength": 660
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 499,
-    "ExtraInfo": "qui",
-    "StyleHint": "quidem",
-    "FullName": "Cynthia Terry",
+    "IconHint": "ea",
+    "ColorBlock": 449,
+    "ExtraInfo": "iusto",
+    "StyleHint": "et",
+    "FullName": "Prof. Adeline Sporer V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldType": "System.String",
+        "FieldLength": 599
       }
     }
   }

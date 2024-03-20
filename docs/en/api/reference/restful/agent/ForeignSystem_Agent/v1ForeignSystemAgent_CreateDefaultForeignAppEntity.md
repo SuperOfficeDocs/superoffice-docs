@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 321,
-  "Name": "Reynolds LLC",
-  "CreatedDate": "2002-06-12T14:23:46.7524806+02:00",
-  "UpdatedDate": "2017-09-06T14:23:46.7524806+02:00",
+  "ForeignAppId": 927,
+  "Name": "Sauer, Raynor and Hilll",
+  "CreatedDate": "2023-08-29T12:19:45.4141069+02:00",
+  "UpdatedDate": "2022-10-28T12:19:45.4141069+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 656,
-      "Name": "Gottlieb, McGlynn and Kautzer",
-      "CreatedDate": "2012-09-30T14:23:46.7524806+02:00",
-      "UpdatedDate": "2010-12-09T14:23:46.7524806+01:00",
-      "AssociateFullName": "Jalen Schneider",
-      "CreatedBy": "reprehenderit",
-      "UpdatedBy": "iusto",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 219,
+      "ForeignDeviceId": 41,
+      "Name": "Lind, Konopelski and Bednar",
+      "CreatedDate": "2021-08-11T12:19:45.4141069+02:00",
+      "UpdatedDate": "2012-04-28T12:19:45.4141069+02:00",
+      "AssociateFullName": "Jana Grady Jr.",
+      "CreatedBy": "ipsum",
+      "UpdatedBy": "accusantium",
+      "DeviceIdentifier": "impedit",
+      "ForeignAppId": 424,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldType": "System.Int32",
+          "FieldLength": 34
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 505
     }
   }
 }

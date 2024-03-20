@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "Predovic-Schimmel",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 733,
-    "UdListDefinitionId": 346
+    "HeadingId": 477,
+    "Name": "Bernier-Wunsch",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 915,
+    "UdListDefinitionId": 589
   },
   {
-    "HeadingId": 9,
-    "Name": "Predovic-Schimmel",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 733,
-    "UdListDefinitionId": 346
+    "HeadingId": 477,
+    "Name": "Bernier-Wunsch",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 915,
+    "UdListDefinitionId": 589
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 992,
-    "Name": "Adams-Moen",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "Rank": 235,
-    "UdListDefinitionId": 856,
+    "HeadingId": 602,
+    "Name": "Bechtelar, Deckow and Kiehn",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "Rank": 994,
+    "UdListDefinitionId": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 567
       }
     }
   }

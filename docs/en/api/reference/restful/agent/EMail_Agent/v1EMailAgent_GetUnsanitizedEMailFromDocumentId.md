@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 414
+  "DocumentId": 780
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 63,
-      "ContactName": "Johns, Schuppe and Auer",
-      "PersonId": 439,
-      "PersonName": "Ratke, McDermott and Veum",
-      "AssociateId": 437,
-      "Address": "possimus",
-      "EmailId": 891,
+      "ContactId": 880,
+      "ContactName": "Cummings LLC",
+      "PersonId": 72,
+      "PersonName": "Ziemann-Cummings",
+      "AssociateId": 6,
+      "Address": "ex",
+      "EmailId": 628,
       "DuplicatePersonIds": [
-        43,
-        466
+        526,
+        884
       ],
-      "Name": "Barrows, Kuhlman and Hane",
+      "Name": "O'Connell Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 591
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 140,
-      "ContactName": "Fisher, Koch and Kertzmann",
-      "PersonId": 121,
-      "PersonName": "Kertzmann-Hirthe",
-      "AssociateId": 575,
-      "Address": "eum",
-      "EmailId": 342,
+      "ContactId": 878,
+      "ContactName": "Gleichner Group",
+      "PersonId": 694,
+      "PersonName": "Stanton, Ullrich and Stamm",
+      "AssociateId": 101,
+      "Address": "voluptates",
+      "EmailId": 693,
       "DuplicatePersonIds": [
-        654,
-        571
+        527,
+        238
       ],
-      "Name": "Kling-Dibbert",
+      "Name": "Hamill-Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 2,
-      "ContactName": "Crist Inc and Sons",
-      "PersonId": 917,
-      "PersonName": "Skiles-Fay",
-      "AssociateId": 507,
-      "Address": "corrupti",
-      "EmailId": 230,
+      "ContactId": 14,
+      "ContactName": "Fay-Monahan",
+      "PersonId": 638,
+      "PersonName": "Aufderhar Group",
+      "AssociateId": 54,
+      "Address": "iure",
+      "EmailId": 209,
       "DuplicatePersonIds": [
-        493,
-        621
+        365,
+        766
       ],
-      "Name": "Cassin Group",
+      "Name": "Streich-Adams",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 333
         }
       }
     }
   ],
-  "Subject": "a",
-  "HTMLBody": "voluptatibus",
+  "Subject": "eos",
+  "HTMLBody": "sapiente",
   "From": null,
-  "Sent": "2007-09-26T14:23:46.6574501+02:00",
-  "Size": 633,
+  "Sent": "2006-04-02T12:19:45.3047627+02:00",
+  "Size": 489,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ab",
-  "PlainBody": "qui",
+  "MessageID": "eos",
+  "PlainBody": "tempora",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 664,
+  "ServerId": 91,
   "Attachments": [
     {
-      "Description": "Object-based multi-state capacity",
-      "Filename": "voluptatem",
-      "Size": 114,
-      "Type": "iste",
-      "Encoding": "et",
-      "Id": "ut",
-      "Disposition": "fugiat",
-      "IsSafeFileExtension": false,
+      "Description": "Managed bandwidth-monitored leverage",
+      "Filename": "labore",
+      "Size": 931,
+      "Type": "temporibus",
+      "Encoding": "nesciunt",
+      "Id": "qui",
+      "Disposition": "nesciunt",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Thompson Inc and Sons",
+      "Name": "Stiedemann LLC",
       "Values": [
-        "magnam",
-        "voluptas"
+        "qui",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldType": "System.Int32",
+          "FieldLength": 24
         }
       }
     },
     {
-      "Name": "Thompson Inc and Sons",
+      "Name": "Stiedemann LLC",
       "Values": [
-        "magnam",
-        "voluptas"
+        "qui",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldType": "System.Int32",
+          "FieldLength": 24
         }
       }
     }
   ],
-  "FolderName": "Wintheiser, Tromp and Murray",
-  "EmailItemId": 144,
-  "AccountId": 185,
-  "ReceivedAt": "2014-07-30T14:23:46.6574501+02:00",
+  "FolderName": "Muller, Bahringer and Murray",
+  "EmailItemId": 931,
+  "AccountId": 425,
+  "ReceivedAt": "2021-04-17T12:19:45.320371+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-10-06T14:23:46.6574501+02:00",
+  "RepliedAt": "2013-05-09T12:19:45.320371+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 806
     }
   }
 }

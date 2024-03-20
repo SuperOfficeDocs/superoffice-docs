@@ -82,11 +82,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Koepp, Batz and Dare",
-  "StorageKey": "id",
-  "Rank": 131,
-  "Context": "quas"
+  "StorageType": "minima",
+  "ProviderName": "Turcotte, Collier and Kihn",
+  "StorageKey": "tenetur",
+  "Rank": 803,
+  "Context": "velit"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Denesik-Goldner",
-  "Description": "Monitored non-volatile knowledge base",
-  "Rank": 151,
+  "Name": "Sanford-Russel",
+  "Description": "Managed regional moderator",
+  "Rank": 209,
   "Restrictions": [
     {
-      "Name": "Koepp Group",
-      "Operator": "repellat",
+      "Name": "Purdy-Langworth",
+      "Operator": "eveniet",
       "Values": [
-        "sunt",
-        "enim"
+        "dolore",
+        "dolorem"
       ],
       "DisplayValues": [
-        "quis",
-        "alias"
+        "corrupti",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 405,
+      "InterParenthesis": 3,
       "InterOperator": "And",
-      "UniqueHash": 871
+      "UniqueHash": 473
     }
   ]
 }

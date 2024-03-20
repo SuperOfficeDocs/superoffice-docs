@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 200,
-    "Name": "Turcotte-Muller",
-    "Tooltip": "nam",
-    "Rank": 862,
-    "Key": "ratione",
+    "LegalBaseId": 516,
+    "Name": "Halvorson, Kshlerin and Hahn",
+    "Tooltip": "voluptate",
+    "Rank": 74,
+    "Key": "cum",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

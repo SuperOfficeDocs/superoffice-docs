@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 341,
-  "FormKey": "temporibus",
-  "Name": "Cassin-Stiedemann",
-  "Description": "Phased modular toolset",
-  "Config": "beatae",
-  "FolderId": 430,
-  "ScriptId": 326,
-  "ResponseShipmentId": 87,
-  "Active": true,
-  "Expires": "2007-06-03T14:23:46.9098888+02:00",
-  "MaxSubmits": 956,
+  "FormId": 672,
+  "FormKey": "et",
+  "Name": "Blick LLC",
+  "Description": "Total object-oriented conglomeration",
+  "Config": "et",
+  "FolderId": 860,
+  "ScriptId": 316,
+  "ResponseShipmentId": 409,
+  "Active": false,
+  "Expires": "2021-12-12T12:19:45.585943+01:00",
+  "MaxSubmits": 420,
   "Type": "Normal",
-  "Recipe": "deserunt",
-  "GroupId": 885,
+  "Recipe": "aut",
+  "GroupId": 88,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2001-03-21T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 242,
-  "Updated": "2001-01-17T14:23:46.9098888+01:00",
-  "UpdatedAssociateId": 939,
-  "UpdatedCount": 918,
+  "Registered": "2015-09-30T12:19:45.585943+02:00",
+  "RegisteredAssociateId": 607,
+  "Updated": "2022-07-25T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 50,
+  "UpdatedCount": 514,
   "EmailFlows": [
-    647,
-    813
+    829,
+    899
   ],
-  "FolderName": "Runolfsson LLC"
+  "FolderName": "Keebler LLC"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 557,
-  "FormKey": "dolores",
-  "Name": "Cartwright-Sanford",
-  "Description": "Multi-lateral incremental structure",
-  "Config": "ad",
-  "FolderId": 963,
-  "ScriptId": 706,
-  "ResponseShipmentId": 63,
-  "Active": true,
-  "Expires": "2005-11-09T14:23:46.9098888+01:00",
-  "MaxSubmits": 372,
+  "FormId": 647,
+  "FormKey": "qui",
+  "Name": "Mitchell, Moore and Jacobs",
+  "Description": "Progressive web-enabled open system",
+  "Config": "maxime",
+  "FolderId": 788,
+  "ScriptId": 227,
+  "ResponseShipmentId": 383,
+  "Active": false,
+  "Expires": "2023-02-27T12:19:45.585943+01:00",
+  "MaxSubmits": 496,
   "Type": "Normal",
-  "Recipe": "placeat",
-  "GroupId": 903,
+  "Recipe": "dolorum",
+  "GroupId": 448,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2019-02-04T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 308,
-  "Updated": "2006-07-01T14:23:46.9098888+02:00",
-  "UpdatedAssociateId": 646,
-  "UpdatedCount": 229,
+  "Registered": "2020-10-19T12:19:45.585943+02:00",
+  "RegisteredAssociateId": 247,
+  "Updated": "2000-09-24T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 697,
+  "UpdatedCount": 706,
   "EmailFlows": [
-    549,
-    541
+    738,
+    737
   ],
-  "FolderName": "Goldner Inc and Sons",
+  "FolderName": "Romaguera, Shanahan and Parisian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

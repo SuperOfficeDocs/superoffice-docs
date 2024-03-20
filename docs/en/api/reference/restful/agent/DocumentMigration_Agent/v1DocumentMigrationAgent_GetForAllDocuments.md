@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 738,
+  "DocumentPluginId": 165,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 892,
-  "NumDocumentsAlreadyMigrated": 425,
+  "NumDocumentsOmitted": 40,
+  "NumDocumentsAlreadyMigrated": 206,
   "Documents": [
     {
-      "DocumentId": 726,
-      "ContactId": 228,
-      "PersonId": 571,
-      "SaleId": 654,
-      "ProjectId": 789,
-      "DocTmplId": 774,
-      "AssociateId": 759,
-      "UserGroupId": 344,
-      "VisibleForId": 290
+      "DocumentId": 595,
+      "ContactId": 426,
+      "PersonId": 175,
+      "SaleId": 859,
+      "ProjectId": 142,
+      "DocTmplId": 524,
+      "AssociateId": 532,
+      "UserGroupId": 528,
+      "VisibleForId": 812
     }
   ],
   "Associates": [
     {
-      "AssociateId": 328,
-      "EmailAddress": "freida.gerlach@bartolettiwatsica.co.uk"
+      "AssociateId": 528,
+      "EmailAddress": "araceli_parisian@flatleyfadel.biz"
     },
     {
-      "AssociateId": 328,
-      "EmailAddress": "freida.gerlach@bartolettiwatsica.co.uk"
+      "AssociateId": 528,
+      "EmailAddress": "araceli_parisian@flatleyfadel.biz"
     }
   ]
 }

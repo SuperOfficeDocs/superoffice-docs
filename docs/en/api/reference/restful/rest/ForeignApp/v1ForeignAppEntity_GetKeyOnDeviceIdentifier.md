@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Apr 2004 14:23:55 G4T
+Last-Modified: Wed, 14 Mar 2012 12:19:53 G3T
 
 {
-  "Key": "error",
-  "Value": "nam",
-  "RecordId": 407,
-  "CreatedDate": "2012-08-08T14:23:55.195897+02:00",
-  "UpdatedDate": "2004-04-30T14:23:55.195897+02:00",
-  "UpdatedBy": "itaque",
-  "CreatedBy": "iusto",
-  "TableName": "Roob-Kertzmann",
+  "Key": "dolores",
+  "Value": "similique",
+  "RecordId": 208,
+  "CreatedDate": "2002-06-14T12:19:53.6023745+02:00",
+  "UpdatedDate": "2012-03-14T12:19:53.6023745+01:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "dolores",
+  "TableName": "Mosciski Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 141
     }
   }
 }

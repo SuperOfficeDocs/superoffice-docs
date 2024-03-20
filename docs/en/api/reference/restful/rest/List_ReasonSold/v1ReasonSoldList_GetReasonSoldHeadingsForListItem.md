@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Dare, Bosco and Gusikowski",
-    "ToolTip": "Omnis nemo.",
-    "Deleted": false,
-    "Rank": 929,
-    "Type": "vel",
-    "ColorBlock": 615,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2023-12-26T14:23:56.3064496+01:00",
+    "Id": 279,
+    "Name": "Heller, McGlynn and Gleason",
+    "ToolTip": "Molestias velit inventore sunt eius vero neque.",
+    "Deleted": true,
+    "Rank": 209,
+    "Type": "quas",
+    "ColorBlock": 71,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "2023-12-04T12:19:54.8208379+01:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Dibbert-Huel",
-        "ToolTip": "Corporis et id fuga nihil.",
+        "Id": 965,
+        "Name": "McLaughlin Group",
+        "ToolTip": "Quo est molestiae harum.",
         "Deleted": true,
-        "Rank": 787,
-        "Type": "animi",
-        "ColorBlock": 967,
-        "IconHint": "quis",
+        "Rank": 638,
+        "Type": "quaerat",
+        "ColorBlock": 542,
+        "IconHint": "distinctio",
         "Selected": true,
-        "LastChanged": "2010-11-11T14:23:56.3064496+01:00",
+        "LastChanged": "1998-01-22T12:19:54.8208379+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Brittany Schuppe I",
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Isobel Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldType": "System.Int32",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Corine Renner",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Ms. Brian Thiel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 694
       }
     }
   }

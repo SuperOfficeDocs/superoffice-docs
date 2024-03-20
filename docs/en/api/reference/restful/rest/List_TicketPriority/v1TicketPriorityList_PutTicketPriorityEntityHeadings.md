@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 181,
-    "Name": "Kuhic Inc and Sons",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 817
+    "HeadingId": 678,
+    "Name": "Oberbrunner, Heidenreich and Lang",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "Rank": 159,
+    "UdListDefinitionId": 539
   },
   {
-    "HeadingId": 181,
-    "Name": "Kuhic Inc and Sons",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 817
+    "HeadingId": 678,
+    "Name": "Oberbrunner, Heidenreich and Lang",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "Rank": 159,
+    "UdListDefinitionId": 539
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 748,
-    "Name": "Blick-Smitham",
-    "Tooltip": "et",
+    "HeadingId": 515,
+    "Name": "Roberts, Kertzmann and Reinger",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "Rank": 462,
-    "UdListDefinitionId": 801,
+    "Rank": 293,
+    "UdListDefinitionId": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 897
       }
     }
   }

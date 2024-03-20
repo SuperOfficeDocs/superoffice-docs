@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "Bailey Group",
-  "StorageKey": "temporibus",
+  "StorageType": "et",
+  "ProviderName": "Mueller, Haley and Dare",
+  "StorageKey": "unde",
   "RestrictionGroup": null,
-  "Context": "esse"
+  "Context": "ut"
 }
 ```
 

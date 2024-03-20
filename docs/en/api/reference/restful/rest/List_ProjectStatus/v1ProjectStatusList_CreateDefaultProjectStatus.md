@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "UdListDefinitionId": 900,
-  "Rank": 779,
+  "Id": 159,
+  "Name": "Hudson, Goodwin and Rolfson",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 105,
+  "Rank": 209,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   }
 }

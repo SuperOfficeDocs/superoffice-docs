@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "eligendi",
-    "consequatur"
+    "atque",
+    "est"
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "debitis",
-  "id"
+  "quos",
+  "voluptates"
 ]
 ```

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Value": "totam",
-    "Tooltip": "labore",
+    "Id": 476,
+    "Value": "eos",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   },
   {
-    "Id": 278,
-    "Value": "totam",
-    "Tooltip": "labore",
+    "Id": 476,
+    "Value": "eos",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   }

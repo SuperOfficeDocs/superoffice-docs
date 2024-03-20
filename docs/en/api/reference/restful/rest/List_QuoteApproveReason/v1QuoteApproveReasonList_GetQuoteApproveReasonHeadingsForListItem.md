@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Bins-Willms",
-    "ToolTip": "Sint nisi rerum.",
+    "Id": 336,
+    "Name": "Padberg, Turner and Bergnaum",
+    "ToolTip": "Tenetur laboriosam.",
     "Deleted": false,
-    "Rank": 584,
-    "Type": "sit",
-    "ColorBlock": 671,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2019-04-30T14:23:56.2595732+02:00",
+    "Rank": 677,
+    "Type": "quibusdam",
+    "ColorBlock": 698,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2022-11-20T12:19:54.7583539+01:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Weber-Sawayn",
-        "ToolTip": "Et ullam repellendus molestiae quasi eum molestiae.",
+        "Id": 146,
+        "Name": "Spinka, Zemlak and Klocko",
+        "ToolTip": "Quam omnis.",
         "Deleted": false,
-        "Rank": 756,
-        "Type": "et",
-        "ColorBlock": 383,
-        "IconHint": "aliquid",
+        "Rank": 738,
+        "Type": "porro",
+        "ColorBlock": 131,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2001-04-17T14:23:56.2595732+02:00",
+        "LastChanged": "2012-09-12T12:19:54.7583539+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Timothy McClure",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Ms. Tressa Althea Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 78
+            "FieldType": "System.Int32",
+            "FieldLength": 25
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Miss Domenic Christiansen DVM",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Mekhi Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldLength": 729
       }
     }
   }

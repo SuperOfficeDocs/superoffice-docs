@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 26,
+  "CustConfigId": 355,
   "Type": "Options",
-  "Config": "aut",
-  "CustLangId": 664,
-  "Registered": "2020-11-26T14:23:46.219957+01:00",
-  "RegisteredAssociateId": 815,
-  "Updated": "2002-05-22T14:23:46.219957+02:00",
-  "UpdatedAssociateId": 304
+  "Config": "cupiditate",
+  "CustLangId": 467,
+  "Registered": "2019-07-07T12:19:45.0079506+02:00",
+  "RegisteredAssociateId": 603,
+  "Updated": "2012-06-14T12:19:45.0079506+02:00",
+  "UpdatedAssociateId": 488
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 243,
+  "CustConfigId": 28,
   "Type": "Options",
-  "Config": "rerum",
-  "CustLangId": 157,
-  "Registered": "2007-01-23T14:23:46.219957+01:00",
-  "RegisteredAssociateId": 706,
-  "Updated": "2017-03-09T14:23:46.219957+01:00",
-  "UpdatedAssociateId": 944,
+  "Config": "similique",
+  "CustLangId": 863,
+  "Registered": "1998-09-14T12:19:45.0079506+02:00",
+  "RegisteredAssociateId": 856,
+  "Updated": "2015-04-04T12:19:45.0079506+02:00",
+  "UpdatedAssociateId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

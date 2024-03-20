@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Prosacco-DuBuque"
+  "UserName": "Abbott-Monahan"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 32,
-  "Name": "Crona-Rice",
-  "Rank": 217,
-  "Tooltip": "quasi",
+  "AssociateId": 558,
+  "Name": "Will LLC",
+  "Rank": 72,
+  "Tooltip": "autem",
   "LicenseOwners": [
     {
-      "Name": "Jast LLC",
-      "Description": "Centralized human-resource infrastructure",
+      "Name": "Wiegand, Murazik and Douglas",
+      "Description": "Business-focused full-range functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 802
         }
       }
     },
     {
-      "Name": "Jast LLC",
-      "Description": "Centralized human-resource infrastructure",
+      "Name": "Wiegand, Murazik and Douglas",
+      "Description": "Business-focused full-range functionalities",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 802
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequuntur",
-      "Tooltip": "debitis",
-      "Id": 813,
-      "Rank": 683,
+      "Value": "nihil",
+      "Tooltip": "maiores",
+      "Id": 496,
+      "Rank": 214,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 270
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2001-01-01T14:23:47.8630016+01:00",
-  "Lastlogout": "1998-09-27T14:23:47.8630016+02:00",
-  "EjUserId": 706,
-  "RequestSignature": "deserunt",
+  "Deleted": true,
+  "Lastlogin": "2019-12-28T12:19:46.6013369+01:00",
+  "Lastlogout": "2004-11-13T12:19:46.6013369+01:00",
+  "EjUserId": 823,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "dolores",
+      "Value": "in",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 115
         }
       }
     },
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "dolores",
+      "Value": "in",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 115
         }
       }
     }
   ],
-  "UserName": "Padberg, Ondricka and Zboncak",
+  "UserName": "Rutherford Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 834,
-      "Name": "Hayes, Dicki and Blick",
-      "ToolTip": "Dolore sapiente consequuntur est sit ea accusantium.",
+      "Id": 940,
+      "Name": "Leffler, Ebert and Gleason",
+      "ToolTip": "Reprehenderit quis quaerat provident quia esse exercitationem.",
       "Deleted": false,
-      "Rank": 147,
-      "Type": "asperiores",
+      "Rank": 887,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "blanditiis",
-      "ColorBlock": 355,
-      "ExtraInfo": "quo",
-      "StyleHint": "atque",
-      "FullName": "Presley McClure IV",
+      "IconHint": "nam",
+      "ColorBlock": 352,
+      "ExtraInfo": "ut",
+      "StyleHint": "nobis",
+      "FullName": "Helga Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 308
+          "FieldLength": 280
         }
       }
     }
   ],
-  "NickName": "Kertzmann-Swaniawski",
+  "NickName": "Rutherford Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "incidunt"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "labore"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "neque"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rutherford, Lang and Murphy",
-      "DisplayName": "Bechtelar, Gutmann and Jakubowski",
-      "Description": "Stand-alone intangible architecture",
-      "ToolTip": "Veniam cupiditate aperiam est fuga.",
+      "Name": "Corwin, Bradtke and Harris",
+      "DisplayName": "Swaniawski Inc and Sons",
+      "Description": "Intuitive bi-directional parallelism",
+      "ToolTip": "Ut maxime sunt incidunt nulla laboriosam.",
       "Actions": "Implicit",
-      "ActionData": "est",
+      "ActionData": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "eos",
-  "PluginId": 307
+  "LanguageCode": "quidem",
+  "PluginId": 931
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 377,
-  "Name": "Abshire, Sawayn and Langosh",
-  "Tooltip": "alias",
-  "SaveInDb": 828,
-  "Filename": "et",
-  "DefaultOref": "tenetur",
+  "DocumentTemplateId": 814,
+  "Name": "VonRueden-Hermiston",
+  "Tooltip": "quis",
+  "SaveInDb": 902,
+  "Filename": "officia",
+  "DefaultOref": "ipsam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 384,
-  "IntentId": 220,
+  "AutoeventId": 320,
+  "IntentId": 62,
   "IsDefaultPublished": false,
-  "Rank": 171,
-  "LoadTemplateFromPlugin": 815,
-  "MimeType": "expedita",
+  "Rank": 148,
+  "LoadTemplateFromPlugin": 718,
+  "MimeType": "quod",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 300,
+  "DocumentTypeKey": 323,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lonie.brakus@braun.com",
+  "EmailSubject": "amira@smithamwaters.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "conner@blanda.uk",
+  "SenderEmailAddress": "lela@toy.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

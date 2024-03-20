@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 140,
-      "ContactName": "Deckow-Wolf",
-      "PersonId": 241,
-      "PersonName": "Schulist-Tromp",
-      "AssociateId": 546,
-      "Address": "est",
-      "EmailId": 300,
+      "ContactId": 178,
+      "ContactName": "Langosh-Beahan",
+      "PersonId": 344,
+      "PersonName": "Stanton-Anderson",
+      "AssociateId": 4,
+      "Address": "pariatur",
+      "EmailId": 982,
       "DuplicatePersonIds": [
-        167,
-        606
+        616,
+        143
       ],
-      "Name": "Kovacek, Reichel and Lebsack",
+      "Name": "Lehner, Block and Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 239
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 410,
-      "ContactName": "Wilkinson-Hilpert",
-      "PersonId": 730,
-      "PersonName": "Metz LLC",
-      "AssociateId": 572,
-      "Address": "quia",
-      "EmailId": 200,
+      "ContactId": 227,
+      "ContactName": "Lockman Inc and Sons",
+      "PersonId": 95,
+      "PersonName": "Johnson-Renner",
+      "AssociateId": 1001,
+      "Address": "vel",
+      "EmailId": 537,
       "DuplicatePersonIds": [
-        806,
-        116
+        965,
+        707
       ],
-      "Name": "Bashirian, Emard and Keebler",
+      "Name": "Ernser, Bashirian and Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 327,
-      "ContactName": "Wehner Group",
-      "PersonId": 414,
-      "PersonName": "Corwin, Boyer and Carter",
-      "AssociateId": 728,
-      "Address": "molestiae",
-      "EmailId": 17,
+      "ContactId": 382,
+      "ContactName": "Larson-Dare",
+      "PersonId": 408,
+      "PersonName": "Dach LLC",
+      "AssociateId": 606,
+      "Address": "iusto",
+      "EmailId": 725,
       "DuplicatePersonIds": [
-        44,
-        464
+        377,
+        514
       ],
-      "Name": "Streich, Lubowitz and O'Reilly",
+      "Name": "Purdy Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     }
   ],
-  "Subject": "quam",
-  "HTMLBody": "et",
+  "Subject": "ipsa",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "1999-10-31T14:23:46.4387031+01:00",
-  "Size": 451,
+  "Sent": "2000-08-29T12:19:45.2266504+02:00",
+  "Size": 782,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consectetur",
-  "PlainBody": "corrupti",
+  "MessageID": "est",
+  "PlainBody": "dicta",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 665,
+  "ServerId": 499,
   "Attachments": [
     {
-      "Description": "Versatile zero defect productivity",
-      "Filename": "aut",
-      "Size": 690,
-      "Type": "ipsa",
-      "Encoding": "enim",
-      "Id": "repellat",
-      "Disposition": "aut",
-      "IsSafeFileExtension": true,
+      "Description": "User-friendly optimizing adapter",
+      "Filename": "assumenda",
+      "Size": 438,
+      "Type": "nobis",
+      "Encoding": "praesentium",
+      "Id": "et",
+      "Disposition": "totam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 718
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kub-Dibbert",
+      "Name": "Bosco LLC",
       "Values": [
-        "aspernatur",
-        "in"
+        "voluptas",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     },
     {
-      "Name": "Kub-Dibbert",
+      "Name": "Bosco LLC",
       "Values": [
-        "aspernatur",
-        "in"
+        "voluptas",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
-  "FolderName": "Cummerata Inc and Sons",
-  "EmailItemId": 926,
-  "AccountId": 192,
-  "ReceivedAt": "2022-07-20T14:23:46.4387031+02:00",
+  "FolderName": "Padberg Group",
+  "EmailItemId": 120,
+  "AccountId": 204,
+  "ReceivedAt": "2001-11-21T12:19:45.2266504+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-09-19T14:23:46.4387031+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2012-07-04T12:19:45.2266504+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 785
     }
   }
 }

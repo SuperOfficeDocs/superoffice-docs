@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 678,
-  "Name": "Okuneva, Price and Hettinger",
-  "Tooltip": "ea",
-  "Rank": 262,
-  "Rate": 2526.004,
-  "Units": 15676.268,
+  "CurrencyId": 118,
+  "Name": "Powlowski-Dibbert",
+  "Tooltip": "voluptatibus",
+  "Rank": 958,
+  "Rate": 10078.944,
+  "Units": 7546.672,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 847
     }
   }
 }

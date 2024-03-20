@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 601,
-  "Caption": "corporis",
-  "Description": "Function-based motivating conglomeration",
-  "ChartName": "Witting, Brekke and Kovacek",
-  "ChartId": "sit",
-  "IsDefault": true,
-  "AssociateId": 948,
-  "GroupId": 36,
-  "SelectionId": 380,
-  "Config": "est",
+  "DashboardTileId": 134,
+  "Caption": "occaecati",
+  "Description": "Integrated value-added moratorium",
+  "ChartName": "Bosco, Schmitt and Cole",
+  "ChartId": "eos",
+  "IsDefault": false,
+  "AssociateId": 567,
+  "GroupId": 112,
+  "SelectionId": 271,
+  "Config": "ipsam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hills, Kuhic and Stark",
-      "Description": "Ergonomic modular circuit",
+      "Name": "Steuber LLC",
+      "Description": "Self-enabling contextually-based complexity",
       "Type": "Boolean",
-      "ListName": "Abbott-O'Reilly",
+      "ListName": "Jaskolski, Bergstrom and Renner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "facere",
+      "Value": "aperiam",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 910,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "blanditiis"
     },
     {
-      "VisibleId": 910,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "blanditiis"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 75,
+  "DashboardTileId": 224,
   "Caption": "rerum",
-  "Description": "Reduced 5th generation moratorium",
-  "ChartName": "Zieme-Kuhic",
-  "ChartId": "rerum",
-  "IsDefault": false,
-  "AssociateId": 227,
-  "GroupId": 458,
-  "SelectionId": 198,
-  "Config": "alias",
+  "Description": "Decentralized homogeneous budgetary management",
+  "ChartName": "Hamill-Bergnaum",
+  "ChartId": "dignissimos",
+  "IsDefault": true,
+  "AssociateId": 809,
+  "GroupId": 83,
+  "SelectionId": 738,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "VonRueden, Goodwin and Brown",
-      "Description": "Persevering regional challenge",
+      "Name": "Mills-Little",
+      "Description": "Open-architected dynamic paradigm",
       "Type": "Boolean",
-      "ListName": "Rippin-Schowalter",
+      "ListName": "Gleason-Effertz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "neque",
+      "Value": "vel",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 548
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 129,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 939
         }
       }
     },
     {
-      "VisibleId": 129,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 939
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 673
     }
   }
 }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=non
-GET /api/v1/Role?$top=845
-GET /api/v1/Role?$skip=332
+GET /api/v1/Role?$entities=tempora
+GET /api/v1/Role?$top=884
+GET /api/v1/Role?$skip=884
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=doloremque
+GET /api/v1/Role?$context=totam
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "deserunt",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 880,
+      "PrimaryKey": 36,
       "EntityName": "sale",
-      "saleId": 880,
-      "contactId": 2198,
-      "name": "Hermann, Lang and Hackett"
+      "saleId": 36,
+      "contactId": 3353,
+      "name": "Steuber-Veum"
     },
     {
-      "PrimaryKey": 1387,
+      "PrimaryKey": 4942,
       "EntityName": "sale",
-      "saleId": 1387,
-      "contactId": 4275,
-      "name": "Koelpin, Torphy and Kohler"
+      "saleId": 4942,
+      "contactId": 161,
+      "name": "Lowe LLC"
     }
   ]
 }

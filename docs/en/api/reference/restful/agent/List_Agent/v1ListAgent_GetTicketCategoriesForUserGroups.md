@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    65,
-    931
+    592,
+    945
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Schmidt-Dibbert",
-    "ToolTip": "Voluptatem tenetur earum illum reiciendis.",
+    "Id": 791,
+    "Name": "Roberts-Hoeger",
+    "ToolTip": "Consequatur quo sint cupiditate expedita voluptate temporibus nisi.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "fugit",
+    "Rank": 881,
+    "Type": "illum",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Quitzon-Conn",
-        "ToolTip": "Perspiciatis nostrum commodi totam.",
+        "Id": 51,
+        "Name": "Ritchie Group",
+        "ToolTip": "Et esse nostrum.",
         "Deleted": false,
-        "Rank": 866,
-        "Type": "sapiente",
+        "Rank": 974,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 337,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "dolores",
-        "FullName": "Bailey Herman",
+        "IconHint": "qui",
+        "ColorBlock": 640,
+        "ExtraInfo": "cum",
+        "StyleHint": "beatae",
+        "FullName": "Mr. Lucas Morar DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldType": "System.Int32",
+            "FieldLength": 840
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 649,
-    "ExtraInfo": "non",
-    "StyleHint": "eos",
-    "FullName": "Norene Olson",
+    "IconHint": "quas",
+    "ColorBlock": 517,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "expedita",
+    "FullName": "Alejandra Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 356
       }
     }
   }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nader, Murray and Flatley",
-  "AdditionalInfo": "itaque",
-  "SearchValue": "nemo"
+  "Name": "Roob LLC",
+  "AdditionalInfo": "autem",
+  "SearchValue": "odio"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Bosco LLC",
-    "ToolTip": "Harum est in nesciunt molestiae aliquam voluptatem vel.",
+    "Id": 459,
+    "Name": "Haley Group",
+    "ToolTip": "Quas qui voluptatem ipsam voluptas numquam dignissimos rerum.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "iure",
+    "Rank": 470,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "VonRueden, Armstrong and Rutherford",
-        "ToolTip": "Est sunt enim ea ut.",
-        "Deleted": true,
-        "Rank": 696,
-        "Type": "quisquam",
+        "Id": 186,
+        "Name": "Ferry, Cummerata and Waelchi",
+        "ToolTip": "Qui assumenda.",
+        "Deleted": false,
+        "Rank": 621,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magnam",
-        "ColorBlock": 901,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "quisquam",
-        "FullName": "Dr. Easton Kuhic DDS",
+        "IconHint": "nesciunt",
+        "ColorBlock": 948,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "nesciunt",
+        "FullName": "Murl Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 176
+            "FieldType": "System.Int32",
+            "FieldLength": 161
           }
         }
       }
     ],
     "IconHint": "expedita",
-    "ColorBlock": 256,
-    "ExtraInfo": "aut",
-    "StyleHint": "deleniti",
-    "FullName": "Queenie Fay DVM",
+    "ColorBlock": 405,
+    "ExtraInfo": "rerum",
+    "StyleHint": "vero",
+    "FullName": "Alf Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

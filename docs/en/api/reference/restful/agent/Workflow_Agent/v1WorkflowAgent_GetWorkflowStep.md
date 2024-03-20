@@ -64,7 +64,7 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WorkflowStepId | int32 | Primary key |
-| WorkflowId | int32 | The flow this step belongs to |
+| WorkflowId | int32 | The workflow to connect to |
 | StepType | string | Step type |
 | Rank | int32 | Step order |
 
@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 497
+  "WorkflowStepId": 498
 }
 ```
 
@@ -89,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 706,
-  "WorkflowId": 197,
+  "WorkflowStepId": 533,
+  "WorkflowId": 578,
   "StepType": "AddToList",
-  "Rank": 301
+  "Rank": 619
 }
 ```

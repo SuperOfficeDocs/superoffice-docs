@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=453
+POST /api/v1/Agents/List/GetCountry?countryId=55
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 635,
-  "Name": "Wisoky Group",
-  "CurrencyId": 191,
-  "EnglishName": "Fay-Balistreri",
+  "CountryId": 458,
+  "Name": "Harvey-Kling",
+  "CurrencyId": 648,
+  "EnglishName": "McClure-Marks",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Persevering zero administration function",
-  "OrgNrText": "666319",
-  "InterAreaPrefix": "itaque",
-  "DialInPrefix": "et",
-  "ZipPrefix": "porro",
-  "DomainName": "Smith Inc and Sons",
-  "AddressLayoutId": 745,
-  "DomesticAddressLayoutId": 595,
-  "ForeignAddressLayoutId": 922,
-  "Rank": 31,
-  "Tooltip": "earum",
-  "Deleted": false,
+  "ImageDescription": "Advanced homogeneous contingency",
+  "OrgNrText": "654736",
+  "InterAreaPrefix": "earum",
+  "DialInPrefix": "sapiente",
+  "ZipPrefix": "ipsum",
+  "DomainName": "Windler-Von",
+  "AddressLayoutId": 523,
+  "DomesticAddressLayoutId": 257,
+  "ForeignAddressLayoutId": 998,
+  "Rank": 12,
+  "Tooltip": "nam",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 440
     }
   }
 }

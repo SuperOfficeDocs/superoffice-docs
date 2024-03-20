@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=in
-GET /api/v1/Document?$top=36
-GET /api/v1/Document?$skip=977
+GET /api/v1/Document?$entities=voluptatem
+GET /api/v1/Document?$top=704
+GET /api/v1/Document?$skip=94
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=et
+GET /api/v1/Document?$context=sit
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "magni",
+  "odata.nextLink": "nesciunt",
   "value": [
     {
-      "PrimaryKey": 4515,
+      "PrimaryKey": 1270,
       "EntityName": "sale",
-      "saleId": 4515,
-      "contactId": 7664,
-      "name": "Jast, VonRueden and Wuckert"
+      "saleId": 1270,
+      "contactId": 289,
+      "name": "Leffler, Murray and Hyatt"
     },
     {
-      "PrimaryKey": 7132,
+      "PrimaryKey": 3278,
       "EntityName": "sale",
-      "saleId": 7132,
-      "contactId": 6460,
-      "name": "Pagac Group"
+      "saleId": 3278,
+      "contactId": 4543,
+      "name": "Tremblay Group"
     }
   ]
 }

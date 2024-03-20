@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=52
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=241
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 289,
-  "SourcePersonId": 823,
-  "DestinationContactId": 563,
-  "DestinationPersonId": 282,
-  "RelationId": 143,
-  "Comment": "quo",
-  "RelationDefinitionId": 468,
-  "Reversed": 920,
-  "UpdatedDate": "2013-08-05T14:23:47.2692571+02:00",
-  "CreatedDate": "2003-02-02T14:23:47.2692571+01:00",
+  "SourceContactId": 803,
+  "SourcePersonId": 211,
+  "DestinationContactId": 668,
+  "DestinationPersonId": 401,
+  "RelationId": 319,
+  "Comment": "pariatur",
+  "RelationDefinitionId": 442,
+  "Reversed": 1001,
+  "UpdatedDate": "2017-07-29T12:19:46.117062+02:00",
+  "CreatedDate": "2010-07-22T12:19:46.117062+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Medhurst, Johnson and Russel",
-  "SourcePersonName": "Conn LLC",
-  "DestinationContactName": "Hilpert, Greenholt and Corkery",
-  "DestinationPersonName": "Schmeler, Fritsch and Nienow",
+  "SourceContactName": "Kilback, Witting and Dicki",
+  "SourcePersonName": "Schneider-Williamson",
+  "DestinationContactName": "Nitzsche-Turner",
+  "DestinationPersonName": "Witting-Zulauf",
   "ActiveText": "animi",
-  "PassiveText": "aut",
+  "PassiveText": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 685,
-  "StartTime": "2016-03-09T14:23:46.2824577+01:00",
-  "EndTime": "1997-12-03T14:23:46.2824577+01:00",
-  "Count": 89,
+  "ContactId": 230,
+  "StartTime": "2000-11-27T12:19:45.0704356+01:00",
+  "EndTime": "1999-06-17T12:19:45.0704356+02:00",
+  "Count": 115,
   "DocumentTemplateIds": [
-    580,
-    948
+    216,
+    324
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 85,
-    "Attention": "consequatur",
-    "Header": "tempore",
-    "Name": "Spencer Inc and Sons",
-    "OurRef": "et",
-    "YourRef": "ea",
-    "Description": "Balanced even-keeled knowledge base",
-    "DocumentTemplate": "minima",
-    "IsPublished": false,
-    "PersonId": 1002,
-    "PersonFullName": "Annette Brekke",
-    "AssociateFullName": "Terrell Braun II",
-    "ContactId": 885,
-    "ContactName": "Sipes, Donnelly and Hettinger",
-    "ProjectId": 587,
-    "ProjectName": "Schneider, Upton and Schaden",
-    "AssociateId": 800,
-    "Snum": 826,
-    "SaleId": 14,
-    "SaleName": "Renner-Stracke",
+    "DocumentId": 815,
+    "Attention": "ipsam",
+    "Header": "autem",
+    "Name": "Conn Inc and Sons",
+    "OurRef": "facere",
+    "YourRef": "corporis",
+    "Description": "Public-key system-worthy policy",
+    "DocumentTemplate": "in",
+    "IsPublished": true,
+    "PersonId": 836,
+    "PersonFullName": "Kathlyn Medhurst",
+    "AssociateFullName": "Ms. Alda McClure II",
+    "ContactId": 763,
+    "ContactName": "Russel Inc and Sons",
+    "ProjectId": 132,
+    "ProjectName": "Hudson, Russel and O'Keefe",
+    "AssociateId": 565,
+    "Snum": 122,
+    "SaleId": 631,
+    "SaleName": "Deckow, Feest and Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 332
       }
     }
   }

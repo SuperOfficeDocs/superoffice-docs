@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 839,
-  "Name": "Pfeffer LLC",
-  "Tooltip": "corrupti",
+  "RoleId": 69,
+  "Name": "Mann Group",
+  "Tooltip": "aliquid",
   "RoleType": "Anonymous",
-  "Deleted": 474,
-  "Rank": 124,
-  "Created": "2021-12-27T14:23:55.384586+01:00",
-  "UseCategories": 471,
+  "Deleted": 602,
+  "Rank": 156,
+  "Created": "2004-07-22T12:19:53.7898269+02:00",
+  "UseCategories": 863,
   "CreatedBy": null,
-  "Updated": "2002-10-13T14:23:55.384586+02:00",
+  "Updated": "2002-10-20T12:19:53.7898269+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 795
     }
   }
 }

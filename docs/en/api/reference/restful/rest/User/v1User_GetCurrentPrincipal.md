@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "aspernatur",
-  "AssociateId": 889,
+  "Associate": "ut",
+  "AssociateId": 354,
   "IsPerson": false,
-  "PersonId": 659,
-  "CountryId": 273,
-  "HomeCountryId": 18,
-  "ContactId": 320,
-  "GroupId": 114,
-  "BusinessId": 787,
-  "CategoryId": 227,
-  "ContactOwner": 860,
-  "RoleId": 884,
-  "RoleName": "Skiles, Denesik and O'Kon",
-  "RoleDescription": "Future-proofed didactic core",
+  "PersonId": 783,
+  "CountryId": 417,
+  "HomeCountryId": 673,
+  "ContactId": 271,
+  "GroupId": 457,
+  "BusinessId": 634,
+  "CategoryId": 795,
+  "ContactOwner": 599,
+  "RoleId": 357,
+  "RoleName": "Kris LLC",
+  "RoleDescription": "Secured homogeneous internet solution",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 867,
-      "OwnerName": "Nikolaus, Ortiz and Kutch",
-      "OwnerDescription": "Streamlined systemic service-desk",
-      "ModuleId": 840,
-      "Name": "Abshire, Armstrong and Adams",
-      "Description": "Diverse maximized conglomeration",
-      "Version": "quae",
+      "OwnerId": 226,
+      "OwnerName": "Runte, Ortiz and Schoen",
+      "OwnerDescription": "Persistent foreground Graphic Interface",
+      "ModuleId": 438,
+      "Name": "Stanton Group",
+      "Description": "Sharable homogeneous protocol",
+      "Version": "eum",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 494,
-      "ExtraInfo": "nostrum",
-      "SortOrder": 549,
-      "LicenseNumber": 958,
-      "IsHidden": true,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2010-09-30T14:23:55.915829+02:00",
+      "ExtraFlags": 556,
+      "ExtraInfo": "quis",
+      "SortOrder": 942,
+      "LicenseNumber": 571,
+      "IsHidden": false,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2016-05-21T12:19:54.2428489+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldType": "System.Int32",
+          "FieldLength": 983
         }
       }
     }
   ],
-  "FullName": "Ms. Olaf Edwin Volkman",
-  "EMailAddress": "vitae",
+  "FullName": "Ms. Theron Hermiston",
+  "EMailAddress": "placeat",
   "FunctionRights": [
-    "quia",
-    "deserunt"
+    "ut",
+    "corrupti"
   ],
-  "EjUserId": 395,
-  "EjAccessLevel": 223,
+  "EjUserId": 759,
+  "EjAccessLevel": 254,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "expedita",
-      "SearchName": "Gutmann, Jenkins and Grimes",
-      "DisplayName": "Crist Inc and Sons",
-      "CredentialId": 703
+      "Type": "vel",
+      "SearchName": "Harber LLC",
+      "DisplayName": "Kshlerin Group",
+      "CredentialId": 844
     },
     {
-      "Type": "expedita",
-      "SearchName": "Gutmann, Jenkins and Grimes",
-      "DisplayName": "Crist Inc and Sons",
-      "CredentialId": 703
+      "Type": "vel",
+      "SearchName": "Harber LLC",
+      "DisplayName": "Kshlerin Group",
+      "CredentialId": 844
     }
   ],
   "SecondaryGroups": [
-    492,
-    524
+    575,
+    418
   ],
-  "DatabaseContextIdentifier": "dolorum",
-  "UserName": "McDermott, Prohaska and D'Amore"
+  "DatabaseContextIdentifier": "et",
+  "UserName": "Gutmann Group"
 }
 ```

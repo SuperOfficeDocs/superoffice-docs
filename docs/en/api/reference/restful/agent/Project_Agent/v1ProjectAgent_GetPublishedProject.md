@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 297
+  "ProjectId": 337
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 831,
-  "Name": "Graham-Fritsch",
-  "Description": "Up-sized composite website",
+  "ProjectId": 210,
+  "Name": "Jones-Corkery",
+  "Description": "Enterprise-wide zero administration Graphical User Interface",
   "URL": "http://www.example.com/",
-  "Type": "quis",
-  "AssociateId": 340,
-  "AssociateFullName": "Faustino Derrick Orn DVM",
-  "TypeId": 124,
-  "Updated": "2023-05-07T14:23:47.1911342+02:00",
-  "StatusId": 480,
-  "Status": "est",
-  "TextId": 845,
-  "PublishTo": "2019-01-15T14:23:47.1911342+01:00",
-  "PublishFrom": "2002-05-10T14:23:47.1911342+02:00",
+  "Type": "ratione",
+  "AssociateId": 55,
+  "AssociateFullName": "Landen Toni Willms DVM",
+  "TypeId": 99,
+  "Updated": "2010-05-25T12:19:46.038959+02:00",
+  "StatusId": 276,
+  "Status": "sed",
+  "TextId": 227,
+  "PublishTo": "2009-10-29T12:19:46.038959+01:00",
+  "PublishFrom": "2002-11-25T12:19:46.038959+01:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "531132",
-  "ActiveErpLinks": 586,
+  "ProjectNumber": "434138",
+  "ActiveErpLinks": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

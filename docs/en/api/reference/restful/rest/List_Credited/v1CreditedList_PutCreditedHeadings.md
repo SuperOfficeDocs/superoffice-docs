@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 532,
-    "Name": "Lockman LLC",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 714,
+    "Name": "Boyle LLC",
+    "Tooltip": "architecto",
     "Deleted": true,
-    "Rank": 648,
-    "UdListDefinitionId": 315
+    "Rank": 24,
+    "UdListDefinitionId": 205
   },
   {
-    "HeadingId": 532,
-    "Name": "Lockman LLC",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 714,
+    "Name": "Boyle LLC",
+    "Tooltip": "architecto",
     "Deleted": true,
-    "Rank": 648,
-    "UdListDefinitionId": 315
+    "Rank": 24,
+    "UdListDefinitionId": 205
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 852,
-    "Name": "Lynch, Crist and Lubowitz",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "Rank": 693,
-    "UdListDefinitionId": 129,
+    "HeadingId": 862,
+    "Name": "Mohr Group",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 928,
+    "UdListDefinitionId": 9,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

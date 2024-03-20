@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 652,
-  "StartTime": "2020-04-25T14:23:46.2824577+02:00",
-  "EndTime": "2003-09-26T14:23:46.2824577+02:00",
-  "Count": 629,
-  "DocumentTemplateId": 432
+  "ContactId": 408,
+  "StartTime": "2001-09-17T12:19:45.0704356+02:00",
+  "EndTime": "2023-07-12T12:19:45.0704356+02:00",
+  "Count": 386,
+  "DocumentTemplateId": 603
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 329,
-    "Attention": "eaque",
-    "Header": "ipsum",
-    "Name": "Jacobi Group",
-    "OurRef": "reprehenderit",
-    "YourRef": "nesciunt",
-    "Description": "Switchable transitional frame",
-    "DocumentTemplate": "ut",
+    "DocumentId": 739,
+    "Attention": "et",
+    "Header": "aut",
+    "Name": "Prosacco LLC",
+    "OurRef": "libero",
+    "YourRef": "culpa",
+    "Description": "Virtual grid-enabled secured line",
+    "DocumentTemplate": "nihil",
     "IsPublished": false,
-    "PersonId": 220,
-    "PersonFullName": "Prof. Willy Derick Nikolaus",
-    "AssociateFullName": "Ezekiel Hayley White I",
-    "ContactId": 284,
-    "ContactName": "Jenkins-Leuschke",
-    "ProjectId": 264,
-    "ProjectName": "Mraz Group",
-    "AssociateId": 264,
-    "Snum": 471,
-    "SaleId": 8,
-    "SaleName": "Nienow LLC",
+    "PersonId": 68,
+    "PersonFullName": "Rosalyn Yolanda Borer Jr.",
+    "AssociateFullName": "Mrs. Xzavier Kody Hane II",
+    "ContactId": 116,
+    "ContactName": "Sawayn Inc and Sons",
+    "ProjectId": 517,
+    "ProjectName": "Halvorson-Hamill",
+    "AssociateId": 331,
+    "Snum": 561,
+    "SaleId": 232,
+    "SaleName": "McDermott-Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 449
       }
     }
   }

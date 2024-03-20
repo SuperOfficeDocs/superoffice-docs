@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 767,
-    "Name": "Kling-Sawayn",
+    "HeadingId": 714,
+    "Name": "Brekke-Kuhlman",
     "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 954,
-    "UdListDefinitionId": 59,
+    "Deleted": false,
+    "Rank": 423,
+    "UdListDefinitionId": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

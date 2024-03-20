@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 206,
-  "Name": "Metz, Hagenes and Murphy",
-  "CurrencyId": 809,
-  "EnglishName": "Satterfield, Smith and Huel",
+  "CountryId": 592,
+  "Name": "Langosh, Wunsch and O'Hara",
+  "CurrencyId": 480,
+  "EnglishName": "Kessler-West",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Future-proofed regional model",
-  "OrgNrText": "1557439",
-  "InterAreaPrefix": "consectetur",
-  "DialInPrefix": "delectus",
-  "ZipPrefix": "impedit",
-  "DomainName": "Mosciski Group",
-  "AddressLayoutId": 778,
-  "DomesticAddressLayoutId": 29,
-  "ForeignAddressLayoutId": 857,
-  "Rank": 526,
-  "Tooltip": "recusandae",
+  "ImageDescription": "Public-key methodical support",
+  "OrgNrText": "1094579",
+  "InterAreaPrefix": "optio",
+  "DialInPrefix": "assumenda",
+  "ZipPrefix": "ab",
+  "DomainName": "Trantow-Botsford",
+  "AddressLayoutId": 352,
+  "DomesticAddressLayoutId": 661,
+  "ForeignAddressLayoutId": 946,
+  "Rank": 37,
+  "Tooltip": "in",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 224,
-  "Name": "Smitham Group",
-  "CurrencyId": 283,
-  "EnglishName": "Greenholt, Barton and Kessler",
+  "CountryId": 455,
+  "Name": "Powlowski-Hintz",
+  "CurrencyId": 903,
+  "EnglishName": "Bruen-Jakubowski",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Integrated incremental focus group",
-  "OrgNrText": "1476412",
-  "InterAreaPrefix": "necessitatibus",
-  "DialInPrefix": "culpa",
-  "ZipPrefix": "laborum",
-  "DomainName": "Wolff-Hudson",
-  "AddressLayoutId": 223,
-  "DomesticAddressLayoutId": 883,
-  "ForeignAddressLayoutId": 18,
-  "Rank": 633,
-  "Tooltip": "sunt",
+  "ImageDescription": "Monitored directional orchestration",
+  "OrgNrText": "1228185",
+  "InterAreaPrefix": "laudantium",
+  "DialInPrefix": "est",
+  "ZipPrefix": "in",
+  "DomainName": "Watsica LLC",
+  "AddressLayoutId": 154,
+  "DomesticAddressLayoutId": 568,
+  "ForeignAddressLayoutId": 375,
+  "Rank": 402,
+  "Tooltip": "iusto",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 193
     }
   }
 }

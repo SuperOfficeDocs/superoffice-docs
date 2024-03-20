@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 619,
+  "TicketId": 243,
   "MessageActionType": "Forward",
-  "TicketMessageId": 907
+  "TicketMessageId": 27
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eveniet"
+"quas"
 ```

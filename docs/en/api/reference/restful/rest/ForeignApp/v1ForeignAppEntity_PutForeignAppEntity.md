@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 592,
-  "Name": "Bins Group",
-  "CreatedDate": "2022-05-06T14:23:55.1802705+02:00",
-  "UpdatedDate": "1998-11-28T14:23:55.1802705+01:00",
+  "ForeignAppId": 976,
+  "Name": "Wehner, Gulgowski and Bins",
+  "CreatedDate": "2018-07-08T12:19:53.5867469+02:00",
+  "UpdatedDate": "2016-11-27T12:19:53.5867469+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 959,
-      "Name": "Donnelly, Lehner and Kulas",
-      "CreatedDate": "2000-03-01T14:23:55.1802705+01:00",
-      "UpdatedDate": "2011-09-02T14:23:55.1802705+02:00",
-      "AssociateFullName": "Marianna Pauline Metz MD",
-      "CreatedBy": "quos",
-      "UpdatedBy": "eveniet",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 85
+      "ForeignDeviceId": 303,
+      "Name": "Mraz, Wintheiser and Funk",
+      "CreatedDate": "2018-12-09T12:19:53.5867469+01:00",
+      "UpdatedDate": "1997-04-24T12:19:53.5867469+02:00",
+      "AssociateFullName": "Kariane Shields",
+      "CreatedBy": "id",
+      "UpdatedBy": "temporibus",
+      "DeviceIdentifier": "aliquid",
+      "ForeignAppId": 368
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 542,
-  "Name": "Brakus-Champlin",
-  "CreatedDate": "1997-06-19T14:23:55.1802705+02:00",
-  "UpdatedDate": "2008-12-22T14:23:55.1802705+01:00",
+  "ForeignAppId": 147,
+  "Name": "Senger-Johnston",
+  "CreatedDate": "1998-11-26T12:19:53.5867469+01:00",
+  "UpdatedDate": "2002-05-30T12:19:53.5867469+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 816,
-      "Name": "Christiansen Inc and Sons",
-      "CreatedDate": "2024-01-26T14:23:55.1802705+01:00",
-      "UpdatedDate": "2014-09-24T14:23:55.1802705+02:00",
-      "AssociateFullName": "Vicente Bashirian PhD",
-      "CreatedBy": "velit",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "aspernatur",
-      "ForeignAppId": 195,
+      "ForeignDeviceId": 464,
+      "Name": "Bergnaum, Muller and Wilkinson",
+      "CreatedDate": "2023-03-05T12:19:53.6023745+01:00",
+      "UpdatedDate": "2004-05-08T12:19:53.6023745+02:00",
+      "AssociateFullName": "Cleveland Rippin",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "odit",
+      "DeviceIdentifier": "voluptatibus",
+      "ForeignAppId": 751,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 708
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 520
     }
   },
   "_Links": {

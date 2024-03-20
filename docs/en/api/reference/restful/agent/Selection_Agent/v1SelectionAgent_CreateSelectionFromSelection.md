@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 336,
-  "Name": "Farrell Inc and Sons",
+  "SelectionId": 883,
+  "Name": "Hoeger-Ryan",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive global extranet",
-  "Postit": "quae",
+  "Description": "Managed intangible monitoring",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 327,
-  "IncludePerson": 564,
-  "MemberCount": 525,
-  "Name": "Kuvalis, Koch and Little",
-  "PostitTextId": 618,
-  "CreatedDate": "1998-04-07T14:23:47.4255063+02:00",
-  "SelectionId": 349,
-  "SoundEx": "beatae",
-  "Source": 367,
-  "TextId": 406,
-  "UpdatedDate": "2012-12-23T14:23:47.4255063+01:00",
-  "UpdatedCount": 677,
-  "Visibility": 179,
+  "GroupIdx": 80,
+  "IncludePerson": 783,
+  "MemberCount": 856,
+  "Name": "Erdman Group",
+  "PostitTextId": 544,
+  "CreatedDate": "2000-05-10T12:19:46.2889068+02:00",
+  "SelectionId": 859,
+  "SoundEx": "aut",
+  "Source": 92,
+  "TextId": 180,
+  "UpdatedDate": "2022-10-15T12:19:46.2889068+02:00",
+  "UpdatedCount": 383,
+  "Visibility": 491,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 248,
-  "TargetTableName": "Cummerata Inc and Sons",
+  "TargetTableNumber": 877,
+  "TargetTableName": "Pagac-McGlynn",
   "Completed": false,
-  "LeftSelectionId": 548,
-  "RightSelectionId": 287,
+  "LeftSelectionId": 674,
+  "RightSelectionId": 735,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Daniel, Kunde and Funk",
-  "ShadowProviderName": "Klein Group",
-  "ChartKey": "eaque",
-  "LastLoaded": "2020-07-16T14:23:47.4255063+02:00",
-  "LastLoadedBy": 450,
+  "MainProviderName": "Dickens Group",
+  "ShadowProviderName": "Brekke-Nienow",
+  "ChartKey": "nihil",
+  "LastLoaded": "2013-03-07T12:19:46.2889068+01:00",
+  "LastLoadedBy": 558,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-02-27T14:23:47.4255063+01:00",
-  "LastMembershipChangeBy": 887,
+  "LastMembershipChange": "2002-08-04T12:19:46.2889068+02:00",
+  "LastMembershipChangeBy": 842,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Douglas, Lueilwitz and Crona",
-  "DashboardTileDefinitionId": 4,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "dolore",
+  "MailingsProviderName": "Gerhold, Hayes and Lemke",
+  "DashboardTileDefinitionId": 561,
   "VisibleFor": [
     {
-      "VisibleId": 547,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 899
         }
       }
     },
     {
-      "VisibleId": 547,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 899
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 952
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Oct 1999 14:23:55 G10T
+Last-Modified: Wed, 05 Sep 2001 12:19:53 G9T
 
 {
-  "ForeignAppId": 637,
-  "Name": "Hauck-Bernier",
-  "CreatedDate": "2010-02-20T14:23:55.1802705+01:00",
-  "UpdatedDate": "1999-10-21T14:23:55.1802705+02:00",
+  "ForeignAppId": 357,
+  "Name": "Lesch-Effertz",
+  "CreatedDate": "2015-02-10T12:19:53.6023745+01:00",
+  "UpdatedDate": "2001-09-05T12:19:53.6023745+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 989,
-      "Name": "Macejkovic Group",
-      "CreatedDate": "2007-06-18T14:23:55.1802705+02:00",
-      "UpdatedDate": "2021-02-09T14:23:55.1802705+01:00",
-      "AssociateFullName": "Mr. Bertram Ronaldo Mann",
-      "CreatedBy": "eos",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "temporibus",
-      "ForeignAppId": 386,
+      "ForeignDeviceId": 536,
+      "Name": "Collier, Schaden and Greenholt",
+      "CreatedDate": "2010-02-22T12:19:53.6023745+01:00",
+      "UpdatedDate": "2013-04-22T12:19:53.6023745+02:00",
+      "AssociateFullName": "Jon Nienow",
+      "CreatedBy": "vitae",
+      "UpdatedBy": "quasi",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 98,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 400
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Thu, 21 Oct 1999 14:23:55 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 809
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 490,
-    "ColumnId": 363,
-    "FieldDefault": "est",
-    "FieldHeight": 818,
-    "FieldLabel": "illo",
-    "FieldLeft": 663,
-    "FieldTop": 750,
+    "UDefFieldId": 170,
+    "ColumnId": 207,
+    "FieldDefault": "quos",
+    "FieldHeight": 649,
+    "FieldLabel": "minima",
+    "FieldLeft": 850,
+    "FieldTop": 400,
     "FieldType": "Checkbox",
-    "FieldWidth": 770,
-    "FormatMask": "omnis",
+    "FieldWidth": 778,
+    "FormatMask": "beatae",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 362,
-    "LabelLeft": 780,
-    "LabelTop": 231,
-    "LabelWidth": 370,
-    "LastVersionId": 816,
-    "ListTableId": 955,
-    "IsMandatory": false,
+    "LabelHeight": 760,
+    "LabelLeft": 586,
+    "LabelTop": 6,
+    "LabelWidth": 225,
+    "LastVersionId": 796,
+    "ListTableId": 819,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 88,
-    "ProgId": "ad",
+    "Page1LineNo": 262,
+    "ProgId": "voluptate",
     "IsReadOnly": false,
-    "ShortLabel": "dolores",
-    "TabOrder": 628,
-    "TextLength": 311,
-    "Tooltip": "eos",
-    "UdefIdentity": 733,
-    "UDListDefinitionId": 670,
+    "ShortLabel": "et",
+    "TabOrder": 669,
+    "TextLength": 473,
+    "Tooltip": "qui",
+    "UdefIdentity": 373,
+    "UDListDefinitionId": 87,
     "Justification": "Center",
-    "Version": 729,
-    "TemplateVariableName": "Ward Inc and Sons",
+    "Version": 134,
+    "TemplateVariableName": "Keeling-Keeling",
     "HasBeenPublished": false,
-    "MdoListName": "Mante, Kunze and Baumbach",
+    "MdoListName": "Koepp-Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 290
       }
     }
   }

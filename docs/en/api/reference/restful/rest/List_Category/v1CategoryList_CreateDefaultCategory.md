@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Prohaska-Schultz",
-  "Tooltip": "ipsa",
+  "Id": 555,
+  "Name": "Bailey Group",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "UdListDefinitionId": 364,
-  "Rank": 257,
+  "UdListDefinitionId": 760,
+  "Rank": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

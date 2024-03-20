@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Wilderman-Prohaska",
+  "HistoryName": "Tremblay Group",
   "History": [
     {
-      "Rank": 627,
-      "Id": 30,
-      "HistoryName": "Kertzmann Group",
-      "HistoryId": 436,
-      "AssociateId": 954,
-      "Name": "Halvorson Group",
-      "ItemInfo": "cupiditate"
+      "Rank": 40,
+      "Id": 418,
+      "HistoryName": "Gleason LLC",
+      "HistoryId": 162,
+      "AssociateId": 149,
+      "Name": "Bartoletti-Hoppe",
+      "ItemInfo": "corporis"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 842,
-    "Id": 963,
-    "HistoryName": "Stehr-Hermann",
-    "HistoryId": 768,
-    "AssociateId": 461,
-    "Name": "Blick Group",
-    "ItemInfo": "qui",
+    "Rank": 2,
+    "Id": 263,
+    "HistoryName": "Weimann Group",
+    "HistoryId": 294,
+    "AssociateId": 507,
+    "Name": "Corkery, Smitham and Watsica",
+    "ItemInfo": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 7
       }
     }
   }

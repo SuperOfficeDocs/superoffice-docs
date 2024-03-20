@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 621,
-    "Name": "Lowe-Feeney",
-    "Tooltip": "et",
+    "HeadingId": 394,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 892,
+    "Rank": 102,
+    "UdListDefinitionId": 640,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 636
       }
     }
   }

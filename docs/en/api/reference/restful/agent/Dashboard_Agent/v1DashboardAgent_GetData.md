@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 215,
-  "Restrictions": "et"
+  "DashboardTileId": 137,
+  "Restrictions": "aut"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kutch, Kassulke and Roberts",
+        "DisplayName": "Johnston-Connelly",
         "DisplayTooltip": "qui",
-        "DisplayType": "fugiat",
-        "CanOrderBy": true,
-        "Name": "White-Ankunding",
+        "DisplayType": "delectus",
+        "CanOrderBy": false,
+        "Name": "Flatley, Cormier and Dach",
         "CanRestrictBy": true,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Kreiger Group",
+        "RestrictionType": "in",
+        "RestrictionListName": "Pagac, Hayes and Abbott",
         "IsVisible": false,
-        "ExtraInfo": "ad",
-        "Width": "ipsam",
-        "IconHint": "omnis",
-        "HeadingIconHint": "delectus"
+        "ExtraInfo": "consequatur",
+        "Width": "quasi",
+        "IconHint": "dolore",
+        "HeadingIconHint": "fugiat"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kutch, Kassulke and Roberts",
+        "DisplayName": "Johnston-Connelly",
         "DisplayTooltip": "qui",
-        "DisplayType": "fugiat",
-        "CanOrderBy": true,
-        "Name": "White-Ankunding",
+        "DisplayType": "delectus",
+        "CanOrderBy": false,
+        "Name": "Flatley, Cormier and Dach",
         "CanRestrictBy": true,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Kreiger Group",
+        "RestrictionType": "in",
+        "RestrictionListName": "Pagac, Hayes and Abbott",
         "IsVisible": false,
-        "ExtraInfo": "ad",
-        "Width": "ipsam",
-        "IconHint": "omnis",
-        "HeadingIconHint": "delectus"
+        "ExtraInfo": "consequatur",
+        "Width": "quasi",
+        "IconHint": "dolore",
+        "HeadingIconHint": "fugiat"
       }
     ],
     "Result": null

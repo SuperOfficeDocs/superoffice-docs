@@ -129,77 +129,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 959,
+  "DocumentId": 900,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nulla",
-  "Header": "alias",
-  "Name": "Quigley, Balistreri and Bruen",
-  "OurRef": "facere",
-  "YourRef": "vel",
-  "CreatedDate": "2022-06-07T14:23:46.3137065+02:00",
-  "UpdatedDate": "2020-07-08T14:23:46.3137065+02:00",
-  "Description": "Triple-buffered clear-thinking open system",
+  "Attention": "voluptatem",
+  "Header": "accusantium",
+  "Name": "Wiza LLC",
+  "OurRef": "vero",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2015-12-03T12:19:45.1016783+01:00",
+  "UpdatedDate": "1996-11-27T12:19:45.1016783+01:00",
+  "Description": "Diverse even-keeled superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-03-15T14:23:46.3137065+01:00",
-  "ExternalRef": "et",
+  "Date": "2023-03-25T12:19:45.117301+01:00",
+  "ExternalRef": "impedit",
   "Completed": "Completed",
-  "ActiveLinks": 519,
+  "ActiveLinks": 882,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cartwright LLC",
-      "Id": 131,
-      "Description": "Open-architected contextually-based throughput",
-      "ExtraInfo": "dolorem",
-      "LinkId": 448
+      "EntityName": "Rau Group",
+      "Id": 386,
+      "Description": "Future-proofed scalable product",
+      "ExtraInfo": "aut",
+      "LinkId": 349
     },
     {
-      "EntityName": "Cartwright LLC",
-      "Id": 131,
-      "Description": "Open-architected contextually-based throughput",
-      "ExtraInfo": "dolorem",
-      "LinkId": 448
+      "EntityName": "Rau Group",
+      "Id": 386,
+      "Description": "Future-proofed scalable product",
+      "ExtraInfo": "aut",
+      "LinkId": 349
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 830,
-  "Snum": 172,
+  "SuggestedDocumentId": 334,
+  "Snum": 375,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Hailie Diana Legros",
-    "SuperOffice:2": "1926491606"
+    "SuperOffice:1": "Frederic Denesik DVM",
+    "SuperOffice:2": "2012363742"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "cum"
+    "CustomFields1": "ea",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2019-09-06T14:23:46.3137065+02:00",
-  "PublishTo": "2020-05-22T14:23:46.3137065+02:00",
-  "PublishFrom": "2016-11-04T14:23:46.3137065+01:00",
+  "PublishEventDate": "2001-04-10T12:19:45.117301+02:00",
+  "PublishTo": "1998-07-24T12:19:45.117301+02:00",
+  "PublishFrom": "2016-12-27T12:19:45.117301+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 487,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "consequuntur"
+      "DisplayValue": "id"
     },
     {
-      "VisibleId": 487,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "consequuntur"
+      "DisplayValue": "id"
     }
   ]
 }
@@ -212,88 +212,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 544,
+  "DocumentId": 98,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "voluptates",
-  "Name": "Bartell LLC",
-  "OurRef": "laudantium",
-  "YourRef": "porro",
-  "CreatedDate": "2009-01-12T14:23:46.3293302+01:00",
-  "UpdatedDate": "2023-10-28T14:23:46.3293302+02:00",
-  "Description": "User-friendly 4th generation core",
+  "Attention": "velit",
+  "Header": "ipsam",
+  "Name": "Nader-Schmeler",
+  "OurRef": "quia",
+  "YourRef": "eum",
+  "CreatedDate": "2018-12-22T12:19:45.117301+01:00",
+  "UpdatedDate": "2015-12-04T12:19:45.117301+01:00",
+  "Description": "Streamlined tertiary strategy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-05-13T14:23:46.3293302+02:00",
-  "ExternalRef": "possimus",
+  "Date": "2009-12-05T12:19:45.117301+01:00",
+  "ExternalRef": "nisi",
   "Completed": "Completed",
-  "ActiveLinks": 533,
+  "ActiveLinks": 576,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wyman-Denesik",
-      "Id": 497,
-      "Description": "Centralized composite capability",
-      "ExtraInfo": "beatae",
-      "LinkId": 828,
+      "EntityName": "Jacobs-Aufderhar",
+      "Id": 512,
+      "Description": "Universal grid-enabled encryption",
+      "ExtraInfo": "iste",
+      "LinkId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 704,
-  "Snum": 700,
+  "SuggestedDocumentId": 882,
+  "Snum": 120,
   "UserDefinedFields": {
-    "SuperOffice:1": "20006971",
-    "SuperOffice:2": "215417389"
+    "SuperOffice:1": "Elwin Gusikowski",
+    "SuperOffice:2": "Caterina Heathcote"
   },
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "molestias"
+    "CustomFields1": "nisi",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "1998-10-19T14:23:46.3293302+02:00",
-  "PublishTo": "2022-08-12T14:23:46.3293302+02:00",
-  "PublishFrom": "2013-10-03T14:23:46.3293302+02:00",
+  "PublishEventDate": "2013-06-30T12:19:45.117301+02:00",
+  "PublishTo": "2004-11-27T12:19:45.117301+01:00",
+  "PublishFrom": "1998-03-23T12:19:45.117301+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 443,
+      "VisibleId": 135,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 961
         }
       }
     },
     {
-      "VisibleId": 443,
+      "VisibleId": 135,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 961
         }
       }
     }
@@ -303,7 +303,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldLength": 353
     }
   }
 }

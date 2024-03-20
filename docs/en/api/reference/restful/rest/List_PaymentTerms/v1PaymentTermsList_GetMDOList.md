@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=culpa
+GET /api/v1/List/PaymentTerm/MDOItems?query=perspiciatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Mraz-Kemmer",
-    "ToolTip": "Ab reiciendis dignissimos voluptatum libero eum.",
+    "Id": 885,
+    "Name": "Vandervort-Jewess",
+    "ToolTip": "Non et inventore.",
     "Deleted": false,
-    "Rank": 40,
-    "Type": "unde",
+    "Rank": 113,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Funk, Heaney and Cormier",
-        "ToolTip": "Velit officia corrupti adipisci.",
-        "Deleted": false,
-        "Rank": 109,
-        "Type": "et",
+        "Id": 935,
+        "Name": "Nolan Inc and Sons",
+        "ToolTip": "In quaerat molestiae explicabo excepturi sunt itaque illo.",
+        "Deleted": true,
+        "Rank": 694,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 276,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "delectus",
-        "FullName": "Mrs. Afton Isabelle Botsford III",
+        "IconHint": "sit",
+        "ColorBlock": 590,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "laboriosam",
+        "FullName": "Mose Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 50
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 706,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "vero",
-    "FullName": "Dr. Kade Margret Volkman",
+    "IconHint": "molestiae",
+    "ColorBlock": 771,
+    "ExtraInfo": "nihil",
+    "StyleHint": "porro",
+    "FullName": "Mr. Rosella O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldLength": 332
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Dickinson-Pouros",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 47,
-  "Rank": 85,
+  "Id": 783,
+  "Name": "Wiegand, McGlynn and Durgan",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 183,
+  "Rank": 900,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 69
     }
   }
 }

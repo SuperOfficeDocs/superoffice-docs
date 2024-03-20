@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 109,
-      "ContactId": 348
+      "PersonId": 39,
+      "ContactId": 54
     },
     {
-      "PersonId": 109,
-      "ContactId": 348
+      "PersonId": 39,
+      "ContactId": 54
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered even-keeled product",
-  "Postit": "dolorem",
+  "Description": "Persistent bifurcated benchmark",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 192,
-  "IncludePerson": 314,
-  "MemberCount": 724,
-  "Name": "Schaefer-Kuhn",
-  "PostitTextId": 253,
-  "CreatedDate": "2011-12-11T14:23:47.4098822+01:00",
-  "SelectionId": 750,
-  "SoundEx": "ratione",
-  "Source": 600,
-  "TextId": 65,
-  "UpdatedDate": "2006-03-23T14:23:47.4098822+01:00",
-  "UpdatedCount": 250,
-  "Visibility": 311,
+  "GroupIdx": 939,
+  "IncludePerson": 343,
+  "MemberCount": 564,
+  "Name": "Wisozk Group",
+  "PostitTextId": 699,
+  "CreatedDate": "2016-01-08T12:19:46.2576612+01:00",
+  "SelectionId": 512,
+  "SoundEx": "nihil",
+  "Source": 55,
+  "TextId": 153,
+  "UpdatedDate": "2018-11-29T12:19:46.2576612+01:00",
+  "UpdatedCount": 857,
+  "Visibility": 561,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 730,
-  "TargetTableName": "Franecki LLC",
+  "TargetTableNumber": 393,
+  "TargetTableName": "Reinger Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 600,
-  "RightSelectionId": 194,
+  "LeftSelectionId": 969,
+  "RightSelectionId": 440,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conroy, Tremblay and Hudson",
-  "ShadowProviderName": "Casper Group",
-  "ChartKey": "quisquam",
-  "LastLoaded": "2019-10-11T14:23:47.4098822+02:00",
-  "LastLoadedBy": 972,
+  "MainProviderName": "Hermiston, Robel and Marks",
+  "ShadowProviderName": "Walsh, Dooley and Klein",
+  "ChartKey": "neque",
+  "LastLoaded": "2016-03-09T12:19:46.2576612+01:00",
+  "LastLoadedBy": 194,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-01-21T14:23:47.4098822+01:00",
-  "LastMembershipChangeBy": 775,
+  "LastMembershipChange": "1999-02-21T12:19:46.2576612+01:00",
+  "LastMembershipChangeBy": 826,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorem",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Borer-Barrows",
-  "DashboardTileDefinitionId": 475,
+  "MainHeading": "veniam",
+  "MemberTabHeading": "error",
+  "MailingsProviderName": "Corwin Inc and Sons",
+  "DashboardTileDefinitionId": 749,
   "VisibleFor": [
     {
-      "VisibleId": 796,
+      "VisibleId": 96,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 380
         }
       }
     },
     {
-      "VisibleId": 796,
+      "VisibleId": 96,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 380
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

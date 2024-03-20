@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Murphy Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 34,
-    "Rank": 18,
+    "Id": 350,
+    "Name": "Bashirian Group",
+    "Tooltip": "dolorum",
+    "Deleted": true,
+    "UdListDefinitionId": 626,
+    "Rank": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldType": "System.Int32",
+        "FieldLength": 781
       }
     }
   }

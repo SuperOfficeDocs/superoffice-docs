@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Romaguera-Wyman",
-  "RecordId": 886,
-  "AssociateId": 784
+  "TableName": "Pacocha Group",
+  "RecordId": 253,
+  "AssociateId": 151
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

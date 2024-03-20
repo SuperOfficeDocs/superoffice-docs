@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Goyette-Armstrong"
+  "EntityName": "Romaguera Group"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 807,
-  "DashboardId": 596,
-  "Height": 929,
-  "Width": 30,
-  "Rank": 564,
+  "DashboardTileId": 753,
+  "DashboardId": 532,
+  "Height": 49,
+  "Width": 50,
+  "Rank": 95,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 468
     }
   }
 }

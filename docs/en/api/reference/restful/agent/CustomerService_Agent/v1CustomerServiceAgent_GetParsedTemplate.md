@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 213,
-  "LanguageId": 687,
-  "PersonId": 345,
-  "TicketId": 887
+  "ReplyTemplateId": 846,
+  "LanguageId": 17,
+  "PersonId": 705,
+  "TicketId": 515
 }
 ```
 
@@ -98,25 +98,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 707,
-  "PlainParsed": "quidem",
-  "HtmlParsed": "aperiam",
+  "ReplyTemplateId": 334,
+  "PlainParsed": "neque",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 92,
-      "Name": "Tromp, Reinger and Aufderhar",
-      "ContentType": "quibusdam",
-      "AttSize": 782,
-      "InlineImage": true,
-      "ContentId": "eius",
-      "AuthKey": "temporibus",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 610,
+      "Name": "Fisher LLC",
+      "ContentType": "et",
+      "AttSize": 941,
+      "InlineImage": false,
+      "ContentId": "soluta",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   }
 }

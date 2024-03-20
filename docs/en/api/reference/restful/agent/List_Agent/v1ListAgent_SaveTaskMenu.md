@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 146,
-  "Name": "Upton, Stehr and Howell",
-  "Tooltip": "voluptatem",
-  "TableName": "Champlin-Wolff",
-  "Area": "perspiciatis",
+  "TaskMenuId": 192,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "aperiam",
+  "TableName": "Lueilwitz-Johnston",
+  "Area": "consequatur",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 925,
+  "CrmScriptId": 466,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 619,
+  "Rank": 629,
   "Encoding": "ANSI",
-  "ProgId": "qui",
-  "Deleted": true
+  "ProgId": "voluptate",
+  "Deleted": false
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 576,
-  "Name": "Mills, O'Kon and Hartmann",
-  "Tooltip": "consectetur",
-  "TableName": "Turcotte Group",
-  "Area": "aut",
+  "TaskMenuId": 47,
+  "Name": "Crona, Bechtelar and Kuphal",
+  "Tooltip": "perferendis",
+  "TableName": "Leannon Group",
+  "Area": "laboriosam",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 383,
+  "CrmScriptId": 150,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 161,
+  "Rank": 520,
   "Encoding": "ANSI",
-  "ProgId": "itaque",
+  "ProgId": "aut",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 134
     }
   }
 }

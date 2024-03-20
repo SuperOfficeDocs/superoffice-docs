@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    150,
-    681
+    957,
+    824
   ],
-  "TargetFolder": "magni"
+  "TargetFolder": "in"
 }
 ```
 

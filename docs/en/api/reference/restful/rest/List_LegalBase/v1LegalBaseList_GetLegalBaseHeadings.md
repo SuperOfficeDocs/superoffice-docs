@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 587,
-    "Name": "Hartmann Group",
-    "Tooltip": "odio",
+    "HeadingId": 206,
+    "Name": "Volkman-Mueller",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 743,
-    "UdListDefinitionId": 999,
+    "Rank": 506,
+    "UdListDefinitionId": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 684
       }
     }
   }

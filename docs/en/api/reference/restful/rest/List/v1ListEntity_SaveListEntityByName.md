@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Haley Inc and Sons",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 967,
-  "IsCustomList": true,
+  "Id": 843,
+  "Name": "Sipes LLC",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "Rank": 240,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "White, Fadel and Schroeder",
-  "Tooltip": "consequatur",
+  "Id": 53,
+  "Name": "Nitzsche LLC",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 534,
-  "IsCustomList": true,
+  "Rank": 249,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "UseGroupsAndHeadings": true,
   "ListType": "exercitationem",
-  "InUseByUserDefinedFields": false,
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

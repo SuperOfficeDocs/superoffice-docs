@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Denesik-Kilback",
-  "Tooltip": "expedita",
+  "Id": 528,
+  "Name": "Heidenreich Group",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "UdListDefinitionId": 95,
-  "Rank": 724
+  "UdListDefinitionId": 573,
+  "Rank": 69
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Heidenreich-Stark",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 615,
-  "Rank": 873,
+  "Id": 143,
+  "Name": "Leuschke, Schimmel and Bechtelar",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "UdListDefinitionId": 423,
+  "Rank": 352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

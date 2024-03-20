@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "White LLC",
-  "DeviceName": "Deckow Inc and Sons",
-  "DeviceIdentifier": "explicabo",
-  "TableName": "Roberts Inc and Sons"
+  "ApplicationName": "Durgan Inc and Sons",
+  "DeviceName": "Hansen LLC",
+  "DeviceIdentifier": "dolorem",
+  "TableName": "Reinger-Aufderhar"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quia",
-    "Value": "porro",
-    "RecordId": 40,
-    "CreatedDate": "2004-10-11T14:23:46.7681044+02:00",
-    "UpdatedDate": "2008-01-12T14:23:46.7681044+01:00",
-    "UpdatedBy": "deleniti",
-    "CreatedBy": "vel",
-    "TableName": "Mann-Kuhlman",
+    "Key": "neque",
+    "Value": "est",
+    "RecordId": 961,
+    "CreatedDate": "2014-12-18T12:19:45.4297292+01:00",
+    "UpdatedDate": "2020-03-30T12:19:45.4297292+02:00",
+    "UpdatedBy": "possimus",
+    "CreatedBy": "quam",
+    "TableName": "Abbott, Gerlach and Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 618
       }
     }
   }

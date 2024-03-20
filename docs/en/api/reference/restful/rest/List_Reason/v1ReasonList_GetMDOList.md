@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=sunt
+GET /api/v1/List/Reason/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Huels-Leuschke",
-    "ToolTip": "Aut perspiciatis nam.",
-    "Deleted": true,
-    "Rank": 371,
-    "Type": "rem",
+    "Id": 338,
+    "Name": "Donnelly LLC",
+    "ToolTip": "Repellat molestias cupiditate.",
+    "Deleted": false,
+    "Rank": 806,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Predovic, Kertzmann and Gaylord",
-        "ToolTip": "Omnis repellat cupiditate ea et iure doloremque non.",
+        "Id": 628,
+        "Name": "Pagac, Sipes and Anderson",
+        "ToolTip": "Veritatis omnis commodi velit aut iusto natus.",
         "Deleted": false,
-        "Rank": 773,
-        "Type": "quia",
+        "Rank": 118,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 96,
-        "ExtraInfo": "architecto",
-        "StyleHint": "expedita",
-        "FullName": "Ms. Kim Francesca Ratke",
+        "IconHint": "accusamus",
+        "ColorBlock": 133,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "laudantium",
+        "FullName": "Miss Hyman Koby Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 487
+            "FieldLength": 584
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 87,
-    "ExtraInfo": "minima",
-    "StyleHint": "minima",
-    "FullName": "Mrs. Sonia Dianna Fritsch DVM",
+    "IconHint": "numquam",
+    "ColorBlock": 946,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "nihil",
+    "FullName": "Mrs. Malcolm Sauer PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

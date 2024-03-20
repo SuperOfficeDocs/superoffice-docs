@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Beier-Simonis",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 513,
+    "Id": 744,
+    "Name": "Mosciski Group",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "UdListDefinitionId": 776,
+    "Rank": 742,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 490
       }
     }
   }

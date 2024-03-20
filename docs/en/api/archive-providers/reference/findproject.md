@@ -536,11 +536,12 @@ Provider for searching in projects
 |projectMember/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|projectMember/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -640,11 +641,11 @@ Provider for searching in projects
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
-|projectMember/contactEmail/emailProtocol|string|Company - Protocol: E-mail protocol, such as SMTP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactEmail/emailProtocol|string|Company - Protocol: E-mail protocol, such as SMTP| x |
 |projectMember/contactEmail/emailAddress|string|Company - E-mail| x |
 |projectMember/contactEmail/emailDescription|string|Company - Description| x |
 |projectMember/contactEmail/emailId|int|Company - ID| x |
@@ -739,16 +740,17 @@ Provider for searching in projects
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|projectMember/LastActivity|date|Date of last activity|  |
-|projectMember/LastCompletedActivity|date|Date of last completed activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/LastActivity|date|Date of last activity|  |
+|projectMember/LastCompletedActivity|date|Date of last completed activity|  |
 |projectMember/LastDoByActivity|date|Date of last non-completed activity|  |
 |projectMember/NumberOfSales|int|Number of sales|  |
 |projectMember/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
@@ -779,7 +781,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=projectEvent/isExternalEvent,projectMember/personUdef/SuperOffice:3,projectMember/personExtra/x_person_shorttext_list,projectMember/personAssociate/contactDepartment,projectMember/correspondingAssociate/contactCategory
+GET /api/v1/archive/FindProject?$select=projectAssociate/ejDisplayName,sale/saleStatus,document/recordType,document/documentPublish/publishedFrom,document/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

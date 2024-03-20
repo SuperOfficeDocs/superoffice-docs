@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "repellat"
+    "InputValues1": "molestiae",
+    "InputValues2": "in"
   },
-  "BlockExecution": false,
-  "NavigateTo": "neque",
-  "Message": "quibusdam",
-  "ShowDialog": "quo",
+  "BlockExecution": true,
+  "NavigateTo": "in",
+  "Message": "et",
+  "ShowDialog": "animi",
   "OutputValues": {
-    "OutputValues1": "quaerat",
-    "OutputValues2": "sapiente"
+    "OutputValues1": "qui",
+    "OutputValues2": "ea"
   },
   "StateValues": {
-    "StateValues1": "esse",
-    "StateValues2": "deleniti"
+    "StateValues1": "facere",
+    "StateValues2": "quidem"
   },
-  "Exception": "magnam",
+  "Exception": "similique",
   "ParserValues": {
-    "ParserValues1": "error",
-    "ParserValues2": "ut"
+    "ParserValues1": "quis",
+    "ParserValues2": "aliquid"
   },
   "CgiVariables": {
-    "CgiVariables1": "dolor",
-    "CgiVariables2": "porro"
+    "CgiVariables1": "magni",
+    "CgiVariables2": "tenetur"
   },
-  "CgiContent": "fugiat",
+  "CgiContent": "labore",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "eum"
+    "Headers1": "deserunt",
+    "Headers2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldLength": 13
     }
   }
 }

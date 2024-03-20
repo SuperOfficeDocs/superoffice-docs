@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Jenkins-Morar",
-    "Tooltip": "voluptatem",
+    "Id": 75,
+    "Name": "Shanahan, Schmidt and Bergstrom",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 310,
-    "IsCustomList": false,
+    "Rank": 357,
+    "IsCustomList": true,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "mollitia",
+    "ListType": "aut",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldLength": 344
       }
     }
   }

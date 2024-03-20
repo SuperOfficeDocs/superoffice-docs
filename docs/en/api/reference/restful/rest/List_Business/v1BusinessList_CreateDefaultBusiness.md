@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Adams-Buckridge",
-  "Tooltip": "ad",
+  "Id": 138,
+  "Name": "Ritchie, Blick and Sanford",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 61,
-  "Rank": 87,
+  "UdListDefinitionId": 59,
+  "Rank": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

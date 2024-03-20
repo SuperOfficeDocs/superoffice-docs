@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 568,
-    "Name": "Stracke-Moore",
-    "Description": "Streamlined system-worthy analyzer",
-    "DeltaJson": "deserunt",
+    "ConfigurableScreenDeltaId": 881,
+    "Name": "Osinski, Hudson and Osinski",
+    "Description": "Configurable stable methodology",
+    "DeltaJson": "doloremque",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "repellendus",
-    "UpdatedDate": "2001-01-17T14:23:46.0637094+01:00",
-    "CreatedDate": "2022-07-27T14:23:46.0637094+02:00",
+    "RecipeId": "accusamus",
+    "UpdatedDate": "2008-03-22T12:19:44.8361197+01:00",
+    "CreatedDate": "2008-02-28T12:19:44.8361197+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      902,
-      243
+      774,
+      229
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 423
+        "FieldLength": 448
       }
     }
   }

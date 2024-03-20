@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Beahan-Hills",
-  "ResourceValues": "aut",
-  "Culture": "consectetur",
+  "ResourceName": "Anderson Inc and Sons",
+  "ResourceValues": "dolores",
+  "Culture": "quae",
   "IsActive": false
 }
 ```

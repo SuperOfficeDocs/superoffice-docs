@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Swaniawski Inc and Sons",
+  "Name": "Klocko, Nader and Brakus",
   "Values": [
-    "velit",
-    "voluptas"
+    "sapiente",
+    "tenetur"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   }
 }

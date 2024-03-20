@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 341,
-  "Name": "Grimes-Labadie",
-  "Rank": 909,
-  "Tooltip": "accusamus",
-  "Icon": "molestiae",
-  "DefaultTicketStatus": 9,
+  "TicketTypeId": 633,
+  "Name": "Schuppe, Lueilwitz and Bergnaum",
+  "Rank": 23,
+  "Tooltip": "omnis",
+  "Icon": "aut",
+  "DefaultTicketStatus": 540,
   "TicketStatuses": [
-    172,
-    116
+    838,
+    48
   ],
-  "DefaultTicketPriority": 63,
+  "DefaultTicketPriority": 598,
   "TicketPriorities": [
-    62,
-    176
+    643,
+    63
   ],
-  "ReplyTemplate": 39,
+  "ReplyTemplate": 684,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 277
     }
   }
 }

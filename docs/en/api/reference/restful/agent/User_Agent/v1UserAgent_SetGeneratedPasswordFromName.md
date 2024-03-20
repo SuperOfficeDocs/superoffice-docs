@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Kautzer, Barrows and Schumm"
+  "AssociateName": "Waters Group"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Cruickshank, Homenick and Auer"
+"Bahringer Inc and Sons"
 ```

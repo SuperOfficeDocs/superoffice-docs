@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ab",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ab",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "atque",
+  "SaleText": "praesentium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-12-06T14:23:55.4627088+01:00",
-  "Amount": 8364.6459999999988,
-  "SaleId": 696,
-  "Earning": 6242.928,
-  "EarningPercent": 18042.438,
-  "Heading": "minima",
-  "Number": "1462685",
-  "Probability": 686,
-  "CreatedDate": "2017-06-26T14:23:55.4627088+02:00",
-  "UpdatedDate": "2008-01-20T14:23:55.4627088+01:00",
+  "Saledate": "2004-03-18T12:19:53.8835558+01:00",
+  "Amount": 30352.789999999997,
+  "SaleId": 262,
+  "Earning": 15159.158,
+  "EarningPercent": 18559.548,
+  "Heading": "rerum",
+  "Number": "976200",
+  "Probability": 682,
+  "CreatedDate": "2012-12-19T12:19:53.8835558+01:00",
+  "UpdatedDate": "1997-08-08T12:19:53.8835558+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 486,
   "Links": [
     {
-      "EntityName": "Klocko, Schiller and Bogan",
-      "Id": 942,
-      "Description": "Mandatory intermediate customer loyalty",
-      "ExtraInfo": "minima",
-      "LinkId": 751,
+      "EntityName": "Harber-Conroy",
+      "Id": 629,
+      "Description": "Advanced encompassing framework",
+      "ExtraInfo": "sint",
+      "LinkId": 88,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldLength": 782
         }
       }
     }
   ],
-  "NextDueDate": "2021-03-15T14:23:55.4627088+01:00",
-  "Postit": "accusamus",
+  "NextDueDate": "2023-07-19T12:19:53.8835558+02:00",
+  "Postit": "eligendi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-03-04T14:23:55.4627088+01:00",
+  "ReopenDate": "2007-02-05T12:19:53.8835558+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Cummerata, Hackett and Quigley",
-      "Comment": "quo",
-      "StakeholderRoleId": 617,
-      "CountryId": 381,
-      "PersonId": 619,
-      "EmailDescription": "clara_king@williamson.info",
-      "EmailId": 218,
-      "EmailAddress": "noemi@nitzsche.us",
-      "PhoneId": 138,
-      "ContactName": "Leannon-Batz",
-      "ContactId": 273,
-      "SaleId": 319,
-      "Mrmrs": "vel",
-      "Firstname": "Jacklyn",
-      "MiddleName": "Bayer, Von and Casper",
-      "Lastname": "Schmeler",
-      "SaleStakeholderId": 355,
-      "Rank": 267,
-      "Phone": "994.151.1613 x5695",
+      "StakeholderRoleName": "Heathcote, Purdy and Stokes",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 767,
+      "CountryId": 64,
+      "PersonId": 663,
+      "EmailDescription": "imani_yost@smithabernathy.com",
+      "EmailId": 59,
+      "EmailAddress": "derrick@huel.co.uk",
+      "PhoneId": 830,
+      "ContactName": "Shields LLC",
+      "ContactId": 646,
+      "SaleId": 836,
+      "Mrmrs": "dolor",
+      "Firstname": "Cristal",
+      "MiddleName": "Kassulke Inc and Sons",
+      "Lastname": "Hane",
+      "SaleStakeholderId": 120,
+      "Rank": 663,
+      "Phone": "262.102.1439 x03358",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldLength": 943
         }
       }
     }
   ],
-  "ActiveErpLinks": 991,
+  "ActiveErpLinks": 339,
   "UserDefinedFields": {
-    "SuperOffice:1": "818375921",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "365320542"
   },
   "ExtraFields": {
-    "ExtraFields1": "placeat",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "inventore"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "error"
   },
-  "PublishEventDate": "2000-07-28T14:23:55.4627088+02:00",
-  "PublishTo": "2007-06-02T14:23:55.4627088+02:00",
-  "PublishFrom": "2003-06-18T14:23:55.4627088+02:00",
+  "PublishEventDate": "2003-02-23T12:19:53.8835558+01:00",
+  "PublishTo": "2019-01-01T12:19:53.8835558+01:00",
+  "PublishFrom": "2017-03-31T12:19:53.8835558+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 619
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 619
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldLength": 747
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    788,
-    579
+    109,
+    716
   ],
-  "TargetTableNumber": 233
+  "TargetTableNumber": 798
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive discrete encoding",
-  "Postit": "iusto",
+  "Description": "Cloned asynchronous standardization",
+  "Postit": "inventore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 118,
-  "IncludePerson": 979,
-  "MemberCount": 262,
-  "Name": "Friesen-Effertz",
-  "PostitTextId": 218,
-  "CreatedDate": "2023-06-15T14:23:47.4255063+02:00",
-  "SelectionId": 587,
-  "SoundEx": "soluta",
-  "Source": 608,
-  "TextId": 494,
-  "UpdatedDate": "2016-05-10T14:23:47.4255063+02:00",
-  "UpdatedCount": 854,
-  "Visibility": 922,
+  "GroupIdx": 30,
+  "IncludePerson": 359,
+  "MemberCount": 284,
+  "Name": "Adams-Wolff",
+  "PostitTextId": 222,
+  "CreatedDate": "1997-07-03T12:19:46.273282+02:00",
+  "SelectionId": 217,
+  "SoundEx": "qui",
+  "Source": 764,
+  "TextId": 201,
+  "UpdatedDate": "2015-07-26T12:19:46.273282+02:00",
+  "UpdatedCount": 867,
+  "Visibility": 429,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 195,
-  "TargetTableName": "Kunde-Haag",
+  "CompanyUnique": true,
+  "TargetTableNumber": 463,
+  "TargetTableName": "Gibson-Lang",
   "Completed": false,
-  "LeftSelectionId": 271,
-  "RightSelectionId": 689,
+  "LeftSelectionId": 284,
+  "RightSelectionId": 62,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lueilwitz, Metz and Boyer",
-  "ShadowProviderName": "Adams-Homenick",
-  "ChartKey": "a",
-  "LastLoaded": "2005-10-14T14:23:47.4255063+02:00",
-  "LastLoadedBy": 119,
+  "MainProviderName": "Breitenberg-Sawayn",
+  "ShadowProviderName": "Osinski, Sauer and Ratke",
+  "ChartKey": "provident",
+  "LastLoaded": "2003-11-10T12:19:46.273282+01:00",
+  "LastLoadedBy": 629,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-11-26T14:23:47.4255063+01:00",
-  "LastMembershipChangeBy": 351,
+  "LastMembershipChange": "2021-04-07T12:19:46.273282+02:00",
+  "LastMembershipChangeBy": 641,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "nemo",
-  "MailingsProviderName": "Ledner-Herzog",
-  "DashboardTileDefinitionId": 62,
+  "MainHeading": "hic",
+  "MemberTabHeading": "repellendus",
+  "MailingsProviderName": "Oberbrunner-Zulauf",
+  "DashboardTileDefinitionId": 310,
   "VisibleFor": [
     {
-      "VisibleId": 635,
+      "VisibleId": 854,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     },
     {
-      "VisibleId": 635,
+      "VisibleId": 854,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 975
     }
   }
 }

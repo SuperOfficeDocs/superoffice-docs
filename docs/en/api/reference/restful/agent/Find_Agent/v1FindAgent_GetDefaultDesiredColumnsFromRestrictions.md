@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schroeder-Schuppe",
+  "ProviderName": "Wyman, Barton and Gislason",
   "Restrictions": [
     {
-      "Name": "Schmeler Inc and Sons",
-      "Operator": "officia",
+      "Name": "Bosco-Aufderhar",
+      "Operator": "repudiandae",
       "Values": [
-        "molestiae",
-        "cupiditate"
+        "doloribus",
+        "dolor"
       ],
       "DisplayValues": [
-        "aut",
-        "aliquam"
+        "voluptas",
+        "expedita"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 237,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 847
+      "UniqueHash": 392
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Balistreri Inc and Sons",
-    "DisplayTooltip": "labore",
-    "DisplayType": "libero",
+    "DisplayName": "Lynch-Stamm",
+    "DisplayTooltip": "earum",
+    "DisplayType": "a",
     "CanOrderBy": false,
-    "Name": "Willms-Hilll",
-    "CanRestrictBy": true,
-    "RestrictionType": "soluta",
-    "RestrictionListName": "Reichert LLC",
+    "Name": "Batz Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "magni",
+    "RestrictionListName": "Fay, Boyer and Breitenberg",
     "IsVisible": false,
-    "ExtraInfo": "quia",
-    "Width": "ab",
-    "IconHint": "quia",
-    "HeadingIconHint": "quas"
+    "ExtraInfo": "dolores",
+    "Width": "minima",
+    "IconHint": "sed",
+    "HeadingIconHint": "et"
   }
 ]
 ```

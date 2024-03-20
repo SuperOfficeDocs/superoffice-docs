@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 805,
-  "UserInput": "necessitatibus",
-  "PriceListKey": "quae"
+  "QuoteAlternativeId": 57,
+  "UserInput": "ut",
+  "PriceListKey": "vel"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 220,
-    "ERPProductKey": "aut",
-    "ERPPriceListKey": "et",
-    "Name": "Kuvalis LLC",
-    "Description": "Multi-channelled background groupware",
-    "Code": "consequatur",
-    "PriceUnit": "et",
-    "QuantityUnit": "aperiam",
-    "IsSubscription": false,
-    "SubscriptionUnit": "dolorem",
-    "DefaultSubscriptionQuantity": 9881.502,
-    "ItemNumber": "758526",
+    "ProductId": 118,
+    "ERPProductKey": "cupiditate",
+    "ERPPriceListKey": "rerum",
+    "Name": "Crist, Hills and Bergstrom",
+    "Description": "Streamlined disintermediate frame",
+    "Code": "est",
+    "PriceUnit": "accusantium",
+    "QuantityUnit": "dicta",
+    "IsSubscription": true,
+    "SubscriptionUnit": "odio",
+    "DefaultSubscriptionQuantity": 17754.11,
+    "ItemNumber": "1468485",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "molestiae",
-    "ProductTypeKey": "ea",
-    "VAT": 28506.863999999998,
-    "VATInfo": "sit",
-    "UnitCost": 12006.354,
-    "UnitMinimumPrice": 29760.464,
-    "UnitListPrice": 27754.703999999998,
-    "InAssortment": true,
-    "Supplier": "maiores",
-    "SupplierCode": "sit",
-    "Rights": "accusamus",
+    "ProductFamilyKey": "quasi",
+    "ProductTypeKey": "ipsum",
+    "VAT": 25604.78,
+    "VATInfo": "dolor",
+    "UnitCost": 15469.423999999999,
+    "UnitMinimumPrice": 20145.352,
+    "UnitListPrice": 30280.708,
+    "InAssortment": false,
+    "Supplier": "temporibus",
+    "SupplierCode": "blanditiis",
+    "Rights": "aperiam",
     "Rule": "aut",
     "ExtraInfo": [
       {
-        "Name": "Bechtelar, Armstrong and Trantow",
-        "Value": "blanditiis",
+        "Name": "Gottlieb Inc and Sons",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldLength": 527
           }
         }
       },
       {
-        "Name": "Bechtelar, Armstrong and Trantow",
-        "Value": "blanditiis",
+        "Name": "Gottlieb Inc and Sons",
+        "Value": "rerum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldLength": 527
           }
         }
       }
     ],
-    "RawExtraInfo": "quas",
-    "ExtraField1": "voluptas",
-    "ExtraField2": "rerum",
-    "ExtraField3": "esse",
-    "ExtraField4": "illo",
-    "ExtraField5": "harum",
-    "InStock": 4813.824,
+    "RawExtraInfo": "rem",
+    "ExtraField1": "quod",
+    "ExtraField2": "aut",
+    "ExtraField3": "eveniet",
+    "ExtraField4": "quos",
+    "ExtraField5": "sed",
+    "InStock": 27159.244,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 388
       }
     }
   }

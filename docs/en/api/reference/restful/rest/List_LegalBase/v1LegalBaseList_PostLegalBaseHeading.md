@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 5,
-  "Name": "Halvorson-Bode",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 489,
-  "UdListDefinitionId": 183
+  "HeadingId": 168,
+  "Name": "Frami, Goyette and Konopelski",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 213,
+  "UdListDefinitionId": 834
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 573,
-  "Name": "Skiles-King",
-  "Tooltip": "quis",
+  "HeadingId": 996,
+  "Name": "McGlynn, O'Keefe and Christiansen",
+  "Tooltip": "quam",
   "Deleted": true,
-  "Rank": 556,
-  "UdListDefinitionId": 756,
+  "Rank": 318,
+  "UdListDefinitionId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

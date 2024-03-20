@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 63,
-  "DefaultValue": "sunt",
+  "ErpFieldId": 33,
+  "DefaultValue": "rerum",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ut",
+  "FirstSyncDefaultValue": "minus",
   "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "sunt",
+  "Mandatory": false,
+  "ErpFieldKey": "qui",
   "FieldType": "Checkbox",
-  "ListName": "Glover Inc and Sons",
+  "ListName": "Hilpert Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 828
     }
   }
 }

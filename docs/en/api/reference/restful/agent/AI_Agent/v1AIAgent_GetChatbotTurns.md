@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quasi"
+  "ChatId": "quis"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2020-08-12T14:23:45.3125879+02:00",
-    "UserPrompt": "deleniti",
-    "UserDisplayText": "omnis",
-    "BotResponse": "laboriosam",
+    "Timestamp": "2003-01-04T12:19:44.1019032+01:00",
+    "UserPrompt": "officiis",
+    "UserDisplayText": "laboriosam",
+    "BotResponse": "repellendus",
     "BotActions": {
-      "BotActions1": "est",
-      "BotActions2": "est"
+      "BotActions1": "sint",
+      "BotActions2": "delectus"
     },
     "Attachments": [
-      "sed",
-      "dolores"
+      "corrupti",
+      "alias"
     ]
   },
   {
-    "Timestamp": "2020-08-12T14:23:45.3125879+02:00",
-    "UserPrompt": "deleniti",
-    "UserDisplayText": "omnis",
-    "BotResponse": "laboriosam",
+    "Timestamp": "2003-01-04T12:19:44.1019032+01:00",
+    "UserPrompt": "officiis",
+    "UserDisplayText": "laboriosam",
+    "BotResponse": "repellendus",
     "BotActions": {
-      "BotActions1": "est",
-      "BotActions2": "est"
+      "BotActions1": "sint",
+      "BotActions2": "delectus"
     },
     "Attachments": [
-      "sed",
-      "dolores"
+      "corrupti",
+      "alias"
     ]
   }
 ]

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 690,
-  "Caption": "in",
-  "Description": "Profit-focused bifurcated emulation",
-  "ChartName": "Hodkiewicz, Dibbert and Smith",
-  "ChartId": "in",
-  "IsDefault": false,
-  "AssociateId": 961,
-  "GroupId": 134,
-  "SelectionId": 221,
-  "Config": "sequi",
+  "DashboardTileId": 564,
+  "Caption": "eos",
+  "Description": "Extended bandwidth-monitored archive",
+  "ChartName": "Schmeler-Wilderman",
+  "ChartId": "nobis",
+  "IsDefault": true,
+  "AssociateId": 860,
+  "GroupId": 535,
+  "SelectionId": 297,
+  "Config": "officia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Denesik, Parisian and Sporer",
-      "Description": "Public-key well-modulated Graphic Interface",
+      "Name": "Effertz, Johns and Powlowski",
+      "Description": "Realigned attitude-oriented open architecture",
       "Type": "Boolean",
-      "ListName": "Herman-Goyette",
+      "ListName": "Hintz-Hoppe",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "cum",
+      "Value": "quas",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 327,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldType": "System.String",
+          "FieldLength": 216
         }
       }
     },
     {
-      "VisibleId": 327,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldType": "System.String",
+          "FieldLength": 216
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

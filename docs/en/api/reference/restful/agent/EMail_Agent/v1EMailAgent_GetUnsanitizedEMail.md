@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
+  "Id": 29,
   "IncludeAttachments": false
 }
 ```
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 111,
-      "ContactName": "Watsica-Sanford",
-      "PersonId": 656,
-      "PersonName": "Gerlach, Jacobson and Schmidt",
-      "AssociateId": 337,
-      "Address": "cumque",
-      "EmailId": 66,
+      "ContactId": 987,
+      "ContactName": "Boehm, Tremblay and Rolfson",
+      "PersonId": 849,
+      "PersonName": "Mayert-Hoppe",
+      "AssociateId": 426,
+      "Address": "nam",
+      "EmailId": 487,
       "DuplicatePersonIds": [
-        60,
-        139
+        614,
+        876
       ],
-      "Name": "Walsh, Friesen and Daugherty",
+      "Name": "Smitham-Stamm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 222
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 127,
-      "ContactName": "Watsica Group",
-      "PersonId": 902,
-      "PersonName": "Larson Inc and Sons",
-      "AssociateId": 550,
-      "Address": "corporis",
-      "EmailId": 67,
+      "ContactId": 487,
+      "ContactName": "Harvey-Simonis",
+      "PersonId": 489,
+      "PersonName": "Powlowski-Davis",
+      "AssociateId": 857,
+      "Address": "qui",
+      "EmailId": 478,
       "DuplicatePersonIds": [
-        265,
-        295
+        196,
+        993
       ],
-      "Name": "Feeney, Lindgren and Koch",
+      "Name": "Schmeler-Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 65
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 987,
-      "ContactName": "Wilderman LLC",
-      "PersonId": 380,
-      "PersonName": "Kling, Heaney and Rath",
-      "AssociateId": 963,
-      "Address": "quis",
-      "EmailId": 504,
+      "ContactId": 636,
+      "ContactName": "Heller-Emard",
+      "PersonId": 651,
+      "PersonName": "Witting Inc and Sons",
+      "AssociateId": 38,
+      "Address": "eligendi",
+      "EmailId": 559,
       "DuplicatePersonIds": [
-        951,
-        427
+        638,
+        990
       ],
-      "Name": "Hermiston-Carroll",
+      "Name": "Williamson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "praesentium",
+  "Subject": "minus",
+  "HTMLBody": "occaecati",
   "From": null,
-  "Sent": "2022-01-14T14:23:46.6899795+01:00",
-  "Size": 654,
+  "Sent": "1998-08-19T12:19:45.3359926+02:00",
+  "Size": 333,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "placeat",
-  "PlainBody": "natus",
-  "IsSent": false,
+  "MessageID": "quidem",
+  "PlainBody": "pariatur",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 669,
+  "ServerId": 398,
   "Attachments": [
     {
-      "Description": "Reduced 5th generation workforce",
-      "Filename": "voluptatem",
-      "Size": 449,
-      "Type": "alias",
-      "Encoding": "architecto",
-      "Id": "velit",
-      "Disposition": "dolorem",
-      "IsSafeFileExtension": true,
+      "Description": "Object-based multi-tasking synergy",
+      "Filename": "rem",
+      "Size": 13,
+      "Type": "laudantium",
+      "Encoding": "eveniet",
+      "Id": "ipsa",
+      "Disposition": "doloribus",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldLength": 72
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kozey-Treutel",
+      "Name": "Marquardt-Marvin",
       "Values": [
-        "error",
-        "sunt"
+        "et",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 925
         }
       }
     },
     {
-      "Name": "Kozey-Treutel",
+      "Name": "Marquardt-Marvin",
       "Values": [
-        "error",
-        "sunt"
+        "et",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 925
         }
       }
     }
   ],
-  "FolderName": "Lindgren, Corwin and Reilly",
-  "EmailItemId": 599,
-  "AccountId": 982,
-  "ReceivedAt": "2012-09-23T14:23:46.6899795+02:00",
+  "FolderName": "Fisher, Denesik and Lehner",
+  "EmailItemId": 455,
+  "AccountId": 505,
+  "ReceivedAt": "2015-06-05T12:19:45.3359926+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-09-20T14:23:46.6899795+02:00",
+  "RepliedAt": "2013-03-23T12:19:45.3359926+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

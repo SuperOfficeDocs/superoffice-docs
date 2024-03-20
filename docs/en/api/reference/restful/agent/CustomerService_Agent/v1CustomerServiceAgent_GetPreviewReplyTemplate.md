@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 837
+  "ReplyTemplateId": 588
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhn Group",
-  "Description": "Advanced non-volatile parallelism",
-  "OwnedByFullName": "Rosanna Vada Mayert V",
-  "Updated": "2014-09-13T14:23:46.2355814+02:00",
-  "Body": "dolorem",
+  "Name": "Gerlach-Metz",
+  "Description": "Ameliorated mobile artificial intelligence",
+  "OwnedByFullName": "Mrs. Merle West",
+  "Updated": "2001-10-07T12:19:45.0235865+02:00",
+  "Body": "et",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 604,
-  "Name": "Ziemann-Sipes",
-  "Tooltip": "quia",
+  "HeadingId": 371,
+  "Name": "Johnston LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 451,
-  "UdListDefinitionId": 448
+  "Rank": 444,
+  "UdListDefinitionId": 163
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 823,
-  "Name": "Morar, Leuschke and Mitchell",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "Rank": 298,
-  "UdListDefinitionId": 526,
+  "HeadingId": 867,
+  "Name": "Heathcote, Morar and Gerlach",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 776,
+  "UdListDefinitionId": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 139
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=474
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=54
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -59,7 +59,7 @@ OK
 |----------------|------|--------------|
 | WorkflowWaitForActionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
+| WorkflowId | int32 | Workflow id |
 | Rank | int32 | The rank of this action |
 | ActionType | string | The type of action |
 | RestrictionGroups | array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 710,
-  "WorkflowStepId": 415,
-  "WorkflowId": 965,
-  "Rank": 294,
+  "WorkflowWaitForActionId": 132,
+  "WorkflowStepId": 856,
+  "WorkflowId": 235,
+  "Rank": 768,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Denesik-Little",
-      "Description": "Optional foreground analyzer",
-      "Rank": 136,
+      "Name": "Brown LLC",
+      "Description": "Adaptive grid-enabled function",
+      "Rank": 654,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Denesik-Little",
-      "Description": "Optional foreground analyzer",
-      "Rank": 136,
+      "Name": "Brown LLC",
+      "Description": "Adaptive grid-enabled function",
+      "Rank": 654,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

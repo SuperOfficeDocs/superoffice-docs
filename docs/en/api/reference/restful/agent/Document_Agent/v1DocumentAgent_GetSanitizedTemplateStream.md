@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Zieme LLC",
+  "TemplateName": "Franecki, Brown and Vandervort",
   "AllowPersonal": true,
-  "UiCulture": "labore"
+  "UiCulture": "ab"
 }
 ```
 

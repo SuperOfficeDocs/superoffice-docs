@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 400,
-  "ListItemId": 452,
+  "UdListDefinitionId": 954,
+  "ListItemId": 981,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Bergstrom, Thompson and Runolfsson",
-    "ToolTip": "Autem qui sed qui sunt fugit.",
+    "Id": 759,
+    "Name": "Howell-Nader",
+    "ToolTip": "Facilis accusantium harum.",
     "Deleted": true,
-    "Rank": 837,
-    "Type": "occaecati",
-    "ColorBlock": 457,
-    "IconHint": "quidem",
+    "Rank": 711,
+    "Type": "qui",
+    "ColorBlock": 337,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1999-07-04T14:23:46.8306046+02:00",
+    "LastChanged": "2015-09-15T12:19:45.4922171+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Schaden-Gottlieb",
-        "ToolTip": "Magni est pariatur dignissimos doloremque aut hic incidunt.",
+        "Id": 153,
+        "Name": "Kunde, Fritsch and Morissette",
+        "ToolTip": "Quae quo itaque totam tenetur sunt delectus porro.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "voluptates",
-        "ColorBlock": 212,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2018-10-06T14:23:46.8306046+02:00",
+        "Rank": 934,
+        "Type": "consequatur",
+        "ColorBlock": 531,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2004-12-23T12:19:45.4922171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "nemo",
+        "ExtraInfo": "unde",
+        "StyleHint": "explicabo",
         "Hidden": true,
-        "FullName": "Efrain Volkman PhD",
+        "FullName": "Rahul Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldLength": 560
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "mollitia",
-    "Hidden": false,
-    "FullName": "Jody Denesik",
+    "ExtraInfo": "odio",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Raven Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,21 +108,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 730,
-    "Name": "Kuhn LLC",
-    "Description": "Networked even-keeled extranet",
-    "WelcomeMessage": "dolorem",
+    "ChatTopicId": 442,
+    "Name": "Kuvalis, Marquardt and Cremin",
+    "Description": "Multi-layered bifurcated project",
+    "WelcomeMessage": "facere",
     "Language": null,
-    "LastAccept": "1997-07-25T14:23:46.0168337+02:00",
-    "SecondsPrAccept": 231,
-    "AlertRecipient": "amet",
+    "LastAccept": "2000-01-23T12:19:44.804875+01:00",
+    "SecondsPrAccept": 585,
+    "AlertRecipient": "autem",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "quis",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "qui",
-    "WarnNewChatMinutes": 910,
-    "WarnManagerNewChatMinutes": 463,
+    "BadgeHeader": "repellat",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "vitae",
+    "WarnNewChatMinutes": 235,
+    "WarnManagerNewChatMinutes": 843,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -131,20 +131,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 718,
-    "WarnManagerChatMessageMinutes": 234,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 663,
-    "OfflineFormQueueLength": 917,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 723,
+    "WarnManagerChatMessageMinutes": 769,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 646,
+    "OfflineFormQueueLength": 482,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "eaque",
+    "WidgetRatingText": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldLength": 795
       }
     }
   }

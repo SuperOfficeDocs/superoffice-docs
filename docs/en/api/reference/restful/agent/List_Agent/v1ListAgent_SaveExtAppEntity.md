@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 991,
-  "Name": "Bernier, Schmidt and Schinner",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 251,
-  "Filename": "consectetur",
-  "Parameters": "ipsum",
-  "Workdir": "eaque",
+  "ExtAppId": 133,
+  "Name": "Anderson-Frami",
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "Rank": 182,
+  "Filename": "eligendi",
+  "Parameters": "quo",
+  "Workdir": "deserunt",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 790,
-  "WaitToFinish": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "Icon": 339,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "facere"
+  "Path": "est"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 174,
-  "Name": "Ziemann, Ebert and Littel",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 859,
-  "Filename": "modi",
-  "Parameters": "nesciunt",
-  "Workdir": "rerum",
+  "ExtAppId": 888,
+  "Name": "Weber, O'Hara and Harris",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 781,
+  "Filename": "illo",
+  "Parameters": "et",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 622,
+  "Icon": 541,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "fuga",
+  "Path": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 819
     }
   }
 }

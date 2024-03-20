@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nolan Group",
-    "Description": "Open-architected grid-enabled synergy",
+    "Name": "Ernser-Hettinger",
+    "Description": "Reactive bandwidth-monitored knowledge base",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 432,
-        "Tooltip": "doloremque",
-        "CanAssign": false,
-        "Free": 748,
-        "InUse": 717,
-        "IsHidden": false,
+        "Total": 878,
+        "Tooltip": "debitis",
+        "CanAssign": true,
+        "Free": 19,
+        "InUse": 482,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 333,
-        "Name": "O'Conner, Doyle and Mayert",
-        "Description": "Devolved zero defect productivity",
-        "PrerequisiteModuleName": "Ledner LLC",
-        "SortOrder": 762,
-        "ExtraFlags": 805,
+        "ModuleLicenseId": 456,
+        "Name": "Wisoky, Hansen and Greenfelder",
+        "Description": "Realigned zero tolerance capability",
+        "PrerequisiteModuleName": "Kris-Wolf",
+        "SortOrder": 814,
+        "ExtraFlags": 543,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 673
+            "FieldType": "System.Int32",
+            "FieldLength": 353
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 774,
-        "Tooltip": "magni",
+        "Unrestricted": true,
+        "Total": 923,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 929,
-        "InUse": 865,
-        "IsHidden": true,
+        "Free": 997,
+        "InUse": 738,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 190,
-        "Name": "Morissette-Gulgowski",
-        "Description": "Streamlined uniform function",
-        "PrerequisiteModuleName": "Altenwerth Inc and Sons",
-        "SortOrder": 788,
-        "ExtraFlags": 989,
+        "ModuleLicenseId": 722,
+        "Name": "Ritchie LLC",
+        "Description": "Operative transitional archive",
+        "PrerequisiteModuleName": "Stroman LLC",
+        "SortOrder": 125,
+        "ExtraFlags": 1000,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldType": "System.String",
+            "FieldLength": 573
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   },
   {
-    "Name": "Nolan Group",
-    "Description": "Open-architected grid-enabled synergy",
+    "Name": "Ernser-Hettinger",
+    "Description": "Reactive bandwidth-monitored knowledge base",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 432,
-        "Tooltip": "doloremque",
-        "CanAssign": false,
-        "Free": 748,
-        "InUse": 717,
-        "IsHidden": false,
+        "Total": 878,
+        "Tooltip": "debitis",
+        "CanAssign": true,
+        "Free": 19,
+        "InUse": 482,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 333,
-        "Name": "O'Conner, Doyle and Mayert",
-        "Description": "Devolved zero defect productivity",
-        "PrerequisiteModuleName": "Ledner LLC",
-        "SortOrder": 762,
-        "ExtraFlags": 805,
+        "ModuleLicenseId": 456,
+        "Name": "Wisoky, Hansen and Greenfelder",
+        "Description": "Realigned zero tolerance capability",
+        "PrerequisiteModuleName": "Kris-Wolf",
+        "SortOrder": 814,
+        "ExtraFlags": 543,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 673
+            "FieldType": "System.Int32",
+            "FieldLength": 353
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 774,
-        "Tooltip": "magni",
+        "Unrestricted": true,
+        "Total": 923,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 929,
-        "InUse": 865,
-        "IsHidden": true,
+        "Free": 997,
+        "InUse": 738,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 190,
-        "Name": "Morissette-Gulgowski",
-        "Description": "Streamlined uniform function",
-        "PrerequisiteModuleName": "Altenwerth Inc and Sons",
-        "SortOrder": 788,
-        "ExtraFlags": 989,
+        "ModuleLicenseId": 722,
+        "Name": "Ritchie LLC",
+        "Description": "Operative transitional archive",
+        "PrerequisiteModuleName": "Stroman LLC",
+        "SortOrder": 125,
+        "ExtraFlags": 1000,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldType": "System.String",
+            "FieldLength": 573
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

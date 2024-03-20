@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 992,
-  "Name": "Murphy, Russel and Howell",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 580,
+  "WebPanelId": 287,
+  "Name": "Kub, Mueller and Dibbert",
+  "Tooltip": "at",
+  "Deleted": false,
+  "Rank": 114,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Tillman, McClure and Bergnaum",
+  "ShowInStatusBar": true,
+  "WindowName": "Gerhold-Jaskolski",
   "Url": "http://www.example.com/",
-  "ProgId": "magnam",
-  "Icon": 805,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "blanditiis",
+  "Icon": 901,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 639
     }
   }
 }

@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 758,
+  "HierarchyId": 431,
   "Domain": "Dashboards",
-  "Name": "Armstrong Group",
-  "Fullname": "et",
-  "ParentId": 289,
+  "Name": "Armstrong Inc and Sons",
+  "Fullname": "hic",
+  "ParentId": 970,
   "Children": [
     {
-      "HierarchyId": 368,
+      "HierarchyId": 815,
       "Domain": "Dashboards",
-      "Name": "Predovic-Stiedemann",
-      "Fullname": "animi",
-      "ParentId": 420,
+      "Name": "Hills Inc and Sons",
+      "Fullname": "ducimus",
+      "ParentId": 817,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-05-03T14:23:55.195897+02:00",
-      "RegisteredAssociateId": 639,
-      "Updated": "2017-05-01T14:23:55.195897+02:00",
-      "UpdatedAssociateId": 251,
+      "Registered": "2021-12-26T12:19:53.6023745+01:00",
+      "RegisteredAssociateId": 256,
+      "Updated": "2001-11-25T12:19:53.6023745+01:00",
+      "UpdatedAssociateId": 273,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 474
+          "FieldLength": 240
         }
       }
     }
   ],
-  "Registered": "2018-08-31T14:23:55.195897+02:00",
-  "RegisteredAssociateId": 815,
-  "Updated": "2020-10-04T14:23:55.195897+02:00",
-  "UpdatedAssociateId": 1001,
+  "Registered": "2011-12-02T12:19:53.6023745+01:00",
+  "RegisteredAssociateId": 252,
+  "Updated": "2009-02-06T12:19:53.6023745+01:00",
+  "UpdatedAssociateId": 255,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 324
     }
   },
   "_Links": {

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 112
+  "PersonId": 117
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 492,
-    "Name": "Dach-Murazik",
-    "Value": "pariatur",
-    "CreatedDate": "2005-03-27T14:23:45.8762101+02:00",
-    "UpdatedDate": "2013-03-29T14:23:45.8762101+01:00",
-    "CreatedBy": "est",
-    "UpdatedBy": "aut",
+    "AudienceLayoutId": 808,
+    "Name": "Renner-Murphy",
+    "Value": "veritatis",
+    "CreatedDate": "2012-04-19T12:19:44.5080652+02:00",
+    "UpdatedDate": "2015-09-19T12:19:44.5080652+02:00",
+    "CreatedBy": "alias",
+    "UpdatedBy": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 961
       }
     }
   }

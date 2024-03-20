@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "hic",
-  "Name": "Dare LLC",
-  "Description": "Cross-platform exuding circuit",
-  "IncludeId": "eveniet",
-  "Source": "reiciendis",
-  "Registered": "2016-03-14T14:23:55.8533291+01:00",
-  "RegisteredBy": "nam",
-  "Updated": "2002-10-31T14:23:55.8533291+01:00",
-  "UpdatedBy": "assumenda",
-  "Path": "qui",
+  "UniqueIdentifier": "corrupti",
+  "Name": "Swaniawski-Stracke",
+  "Description": "Monitored eco-centric toolset",
+  "IncludeId": "ducimus",
+  "Source": "rerum",
+  "Registered": "2017-09-06T12:19:54.1803664+02:00",
+  "RegisteredBy": "debitis",
+  "Updated": "2012-06-20T12:19:54.1803664+02:00",
+  "UpdatedBy": "corporis",
+  "Path": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

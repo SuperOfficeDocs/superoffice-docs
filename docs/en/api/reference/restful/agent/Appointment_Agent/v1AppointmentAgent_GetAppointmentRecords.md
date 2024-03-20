@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 340,
-  "RecurrenceRuleId": 994
+  "MotherId": 121,
+  "RecurrenceRuleId": 672
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 911,
-    "StartDate": "2015-03-14T14:23:45.4063334+01:00",
-    "EndDate": "2015-05-17T14:23:45.4063334+02:00",
+    "AppointmentId": 100,
+    "StartDate": "2015-05-24T12:19:44.1800107+02:00",
+    "EndDate": "1997-10-14T12:19:44.1800107+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nemo",
-    "AssociateFullName": "Dr. Lupe Cassidy Swift DVM",
-    "ContactName": "Weimann, Konopelski and Batz",
-    "Description": "Front-line intangible open system",
-    "PersonFullName": "Anderson Lindgren",
-    "PersonId": 208,
-    "ContactId": 631,
-    "ProjectId": 834,
-    "ProjectName": "Sawayn, Hermiston and Runolfsson",
+    "Task": "cupiditate",
+    "AssociateFullName": "Prof. Yolanda Katarina Ritchie PhD",
+    "ContactName": "Jakubowski, Lynch and Hilpert",
+    "Description": "Reactive optimal functionalities",
+    "PersonFullName": "Mariana Tate Runte MD",
+    "PersonId": 586,
+    "ContactId": 423,
+    "ProjectId": 380,
+    "ProjectName": "Schaefer, Skiles and Schaefer",
     "IsPublished": false,
-    "AssociateId": 749,
-    "ColorIndex": 845,
+    "AssociateId": 641,
+    "ColorIndex": 846,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 737,
-    "PriorityName": "Moore, Haag and Skiles",
+    "PriorityId": 907,
+    "PriorityName": "Ortiz-Hettinger",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2015-03-17T14:23:45.4063334+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-11-22T12:19:44.1800107+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-03-27T14:23:45.4063334+02:00",
-    "RecurringEndDate": "2008-01-18T14:23:45.4063334+01:00",
-    "MotherId": 823,
-    "AssignedBy": 111,
-    "AssignedByFullName": "Korbin Paucek",
+    "RecurringStartDate": "2023-03-06T12:19:44.1800107+01:00",
+    "RecurringEndDate": "2010-10-07T12:19:44.1800107+02:00",
+    "MotherId": 746,
+    "AssignedBy": 222,
+    "AssignedByFullName": "Dr. Destini Marvin",
     "RejectReason": "",
-    "Location": "nam",
-    "AlarmLeadTime": "assumenda",
-    "SaleId": 813,
-    "SaleName": "Lang-Balistreri",
-    "AssociateName": "Gutmann-Harris",
-    "CreatedDate": "2017-03-30T14:23:45.4063334+02:00",
-    "CreatedBy": "libero",
-    "CreatedByFullName": "Katharina Altenwerth",
-    "CreatedByAssociateId": 525,
+    "Location": "facere",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 330,
+    "SaleName": "Hirthe-Kunze",
+    "AssociateName": "Cremin LLC",
+    "CreatedDate": "1997-06-18T12:19:44.1800107+02:00",
+    "CreatedBy": "error",
+    "CreatedByFullName": "Dr. Francis Collier IV",
+    "CreatedByAssociateId": 556,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 5,
-    "Title": "sapiente",
-    "Agenda": "expedita",
-    "InternalNotes": "mollitia",
+    "PreferredTZLocation": 194,
+    "Title": "ex",
+    "Agenda": "labore",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

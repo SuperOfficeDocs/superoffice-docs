@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 75,
+  "DocumentId": 123,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ex",
-  "Header": "perspiciatis",
-  "Name": "O'Kon, Roob and Koss",
-  "OurRef": "quia",
-  "YourRef": "explicabo",
-  "CreatedDate": "2015-07-29T14:23:46.344954+02:00",
-  "UpdatedDate": "2016-03-18T14:23:46.344954+01:00",
-  "Description": "Synergized zero tolerance project",
+  "Attention": "aut",
+  "Header": "expedita",
+  "Name": "Sawayn Group",
+  "OurRef": "tempora",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2009-03-12T12:19:45.1485453+01:00",
+  "UpdatedDate": "2013-11-14T12:19:45.1485453+01:00",
+  "Description": "Streamlined multi-state challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-07-15T14:23:46.344954+02:00",
-  "ExternalRef": "qui",
+  "Date": "2019-01-05T12:19:45.1485453+01:00",
+  "ExternalRef": "dolorem",
   "Completed": "Completed",
-  "ActiveLinks": 260,
+  "ActiveLinks": 61,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koepp, Shields and Cassin",
-      "Id": 276,
-      "Description": "Upgradable incremental neural-net",
-      "ExtraInfo": "sed",
-      "LinkId": 354,
+      "EntityName": "Dare, Grady and Rosenbaum",
+      "Id": 658,
+      "Description": "Optional even-keeled complexity",
+      "ExtraInfo": "ratione",
+      "LinkId": 340,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 44
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 912,
-  "Snum": 555,
+  "SuggestedDocumentId": 634,
+  "Snum": 492,
   "UserDefinedFields": {
-    "SuperOffice:1": "Javonte Jacobi",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Prof. Brandyn Rosina Kerluke"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "neque"
+    "CustomFields1": "id",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2022-07-24T14:23:46.344954+02:00",
-  "PublishTo": "2015-11-09T14:23:46.344954+01:00",
-  "PublishFrom": "1999-06-30T14:23:46.344954+02:00",
+  "PublishEventDate": "2014-11-16T12:19:45.1485453+01:00",
+  "PublishTo": "1999-10-14T12:19:45.1485453+02:00",
+  "PublishFrom": "2001-09-26T12:19:45.1485453+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 752,
+      "VisibleId": 577,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldLength": 129
         }
       }
     },
     {
-      "VisibleId": 752,
+      "VisibleId": 577,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldLength": 129
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 141
     }
   }
 }

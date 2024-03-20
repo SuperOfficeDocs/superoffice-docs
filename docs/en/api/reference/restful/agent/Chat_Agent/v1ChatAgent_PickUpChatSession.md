@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 25
+  "ChatSessionId": 597
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 231,
-  "TopicId": 765,
+  "ChatSessionId": 300,
+  "TopicId": 503,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "incidunt",
-  "CustomerName": "Halvorson, Shanahan and Dicki",
-  "CustomerEmail": "oswaldo.baumbach@bahringer.uk",
-  "CustomerPhone": "705.001.2297 x123",
+  "CustomerAlias": "molestias",
+  "CustomerHost": "esse",
+  "CustomerName": "Friesen, Gutkowski and Nader",
+  "CustomerEmail": "payton@bashirian.us",
+  "CustomerPhone": "(782)865-4317",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmidt LLC",
+  "CustomerCompanyName": "Cruickshank-Lebsack",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "deleniti",
-  "WhenRequested": "2009-09-20T14:23:45.9855841+02:00",
-  "WhenStarted": "1997-07-26T14:23:45.9855841+02:00",
-  "WhenEnded": "1997-02-21T14:23:45.9855841+01:00",
-  "WhenIdle": "2008-10-23T14:23:45.9855841+02:00",
-  "WhenFetched": "2023-02-22T14:23:45.9855841+01:00",
-  "SessionKey": "esse",
-  "InitialQueuePos": 171,
-  "AlertLevel": 348,
-  "Rank": 1002,
+  "FirstMessage": "nobis",
+  "LastMessage": "dolores",
+  "WhenRequested": "2015-07-19T12:19:44.7736323+02:00",
+  "WhenStarted": "2008-11-05T12:19:44.7736323+01:00",
+  "WhenEnded": "2003-08-27T12:19:44.7736323+02:00",
+  "WhenIdle": "2015-03-21T12:19:44.7736323+01:00",
+  "WhenFetched": "2016-09-03T12:19:44.7736323+02:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 279,
+  "AlertLevel": 930,
+  "Rank": 426,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 58,
+  "ChatbotIsActive": true,
+  "Rating": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 858
     }
   }
 }

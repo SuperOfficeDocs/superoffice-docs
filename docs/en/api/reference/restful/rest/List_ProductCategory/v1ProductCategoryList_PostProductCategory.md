@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Lueilwitz LLC",
-  "Tooltip": "est",
+  "Id": 558,
+  "Name": "Conn Inc and Sons",
+  "Tooltip": "deserunt",
   "Deleted": true,
-  "UdListDefinitionId": 107,
-  "Rank": 523
+  "UdListDefinitionId": 218,
+  "Rank": 915
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Kuhn Inc and Sons",
-  "Tooltip": "ipsam",
+  "Id": 836,
+  "Name": "O'Kon-Swift",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "UdListDefinitionId": 112,
-  "Rank": 476,
+  "UdListDefinitionId": 902,
+  "Rank": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldType": "System.String",
+      "FieldLength": 151
     }
   }
 }

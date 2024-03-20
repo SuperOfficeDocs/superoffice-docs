@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 335,
-  "ColumnId": 838,
-  "FieldDefault": "ea",
-  "FieldHeight": 435,
-  "FieldLabel": "earum",
-  "FieldLeft": 726,
-  "FieldTop": 228,
+  "UDefFieldId": 431,
+  "ColumnId": 428,
+  "FieldDefault": "omnis",
+  "FieldHeight": 336,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 952,
+  "FieldTop": 758,
   "FieldType": "Checkbox",
-  "FieldWidth": 397,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 851,
-  "LabelLeft": 737,
-  "LabelTop": 724,
-  "LabelWidth": 283,
-  "LastVersionId": 336,
-  "ListTableId": 101,
+  "FieldWidth": 309,
+  "FormatMask": "error",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 617,
+  "LabelLeft": 629,
+  "LabelTop": 44,
+  "LabelWidth": 942,
+  "LastVersionId": 744,
+  "ListTableId": 147,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 990,
-  "ProgId": "molestias",
-  "IsReadOnly": false,
-  "ShortLabel": "occaecati",
-  "TabOrder": 202,
-  "TextLength": 666,
-  "Tooltip": "temporibus",
-  "UdefIdentity": 476,
-  "UDListDefinitionId": 852,
+  "Page1LineNo": 355,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "distinctio",
+  "TabOrder": 981,
+  "TextLength": 268,
+  "Tooltip": "nulla",
+  "UdefIdentity": 932,
+  "UDListDefinitionId": 287,
   "Justification": "Center",
-  "Version": 287,
-  "TemplateVariableName": "Lemke-Huels",
+  "Version": 342,
+  "TemplateVariableName": "Stokes, Hoeger and Wolff",
   "HasBeenPublished": false,
-  "MdoListName": "Hagenes-Satterfield",
+  "MdoListName": "Erdman-Mosciski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 190
     }
   }
 }

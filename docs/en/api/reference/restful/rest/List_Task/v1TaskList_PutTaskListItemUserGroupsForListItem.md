@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Runolfsdottir Group",
-    "ToolTip": "Sint rem.",
+    "Id": 175,
+    "Name": "Erdman LLC",
+    "ToolTip": "Alias sed.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "in",
-    "ColorBlock": 849,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "1997-09-23T14:23:56.3858254+02:00",
+    "Rank": 604,
+    "Type": "nostrum",
+    "ColorBlock": 799,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2020-10-02T12:19:54.8833241+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Green LLC",
-        "ToolTip": "Omnis culpa tempora delectus velit quidem.",
+        "Id": 351,
+        "Name": "Conn-Bergnaum",
+        "ToolTip": "Itaque suscipit explicabo molestiae molestiae deserunt.",
         "Deleted": false,
-        "Rank": 714,
-        "Type": "laboriosam",
-        "ColorBlock": 644,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2003-05-02T14:23:56.3858254+02:00",
+        "Rank": 753,
+        "Type": "laborum",
+        "ColorBlock": 694,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "2019-10-21T12:19:54.8833241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Ms. Jermey Paige Thiel I"
+        "ExtraInfo": "qui",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Ms. Kari Ferry DVM"
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "ab",
+    "StyleHint": "magnam",
     "Hidden": true,
-    "FullName": "Kamron Stanton"
+    "FullName": "Mr. Keshaun Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Spencer-Grady",
-    "ToolTip": "Nulla ex animi saepe.",
-    "Deleted": true,
-    "Rank": 620,
-    "Type": "dolorum",
-    "ColorBlock": 890,
-    "IconHint": "officia",
+    "Id": 497,
+    "Name": "Jacobi Group",
+    "ToolTip": "Qui aliquam iusto.",
+    "Deleted": false,
+    "Rank": 278,
+    "Type": "quaerat",
+    "ColorBlock": 581,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2001-04-24T14:23:56.3858254+02:00",
+    "LastChanged": "2018-01-26T12:19:54.8833241+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Hand-Rowe",
-        "ToolTip": "Quaerat quibusdam ullam.",
+        "Id": 72,
+        "Name": "McKenzie, Rath and Mraz",
+        "ToolTip": "Veniam rerum quam.",
         "Deleted": false,
-        "Rank": 580,
-        "Type": "dolor",
-        "ColorBlock": 666,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2017-09-19T14:23:56.3858254+02:00",
+        "Rank": 471,
+        "Type": "aut",
+        "ColorBlock": 275,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2022-07-23T12:19:54.8833241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "qui",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Vickie Buddy Christiansen II",
+        "FullName": "Mr. Mayra Wuckert Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 287
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "rerum",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Destinee Doyle",
+    "FullName": "Wilford Macey Reichert IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 918
       }
     }
   }

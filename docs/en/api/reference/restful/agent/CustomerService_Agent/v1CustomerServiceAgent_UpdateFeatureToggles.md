@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Christiansen, Bayer and Gleason",
-      "State": true
+      "Name": "Littel-Grady",
+      "State": false
     },
     {
-      "Name": "Christiansen, Bayer and Gleason",
-      "State": true
+      "Name": "Littel-Grady",
+      "State": false
     }
   ]
 }

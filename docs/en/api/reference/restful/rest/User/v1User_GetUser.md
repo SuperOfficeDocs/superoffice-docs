@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 450,
-  "Name": "Wolf-Littel",
-  "Rank": 28,
-  "Tooltip": "aliquid",
+  "AssociateId": 480,
+  "Name": "Leuschke Group",
+  "Rank": 616,
+  "Tooltip": "quae",
   "LicenseOwners": [
     {
-      "Name": "Renner-McDermott",
-      "Description": "Proactive context-sensitive complexity",
+      "Name": "Jacobs, Cole and Klocko",
+      "Description": "Visionary needs-based monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 221
         }
       }
     },
     {
-      "Name": "Renner-McDermott",
-      "Description": "Proactive context-sensitive complexity",
+      "Name": "Jacobs, Cole and Klocko",
+      "Description": "Visionary needs-based monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 221
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptate",
-      "Tooltip": "nam",
-      "Id": 197,
-      "Rank": 313,
+      "Value": "facilis",
+      "Tooltip": "laborum",
+      "Id": 137,
+      "Rank": 305,
       "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 676
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2015-07-20T14:23:55.8689548+02:00",
-  "Lastlogout": "2022-01-09T14:23:55.8689548+01:00",
-  "EjUserId": 990,
-  "RequestSignature": "molestias",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "reprehenderit",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "reprehenderit",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
-        }
-      }
-    }
-  ],
-  "UserName": "Rice Group",
-  "TicketCategories": [
-    {
-      "Id": 712,
-      "Name": "Kohler LLC",
-      "ToolTip": "Dolores non.",
-      "Deleted": false,
-      "Rank": 195,
-      "Type": "est",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "saepe",
-      "ColorBlock": 37,
-      "ExtraInfo": "minima",
-      "StyleHint": "saepe",
-      "FullName": "Giovani Streich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldLength": 932
         }
       }
     }
   ],
-  "NickName": "Fisher Group",
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2021-09-08T12:19:54.1959875+02:00",
+  "Lastlogout": "2007-01-23T12:19:54.1959875+01:00",
+  "EjUserId": 71,
+  "RequestSignature": "ut",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
+  "Credentials": [
+    {
+      "Type": null,
+      "Value": "occaecati",
+      "DisplayValue": "id",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 418
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "occaecati",
+      "DisplayValue": "id",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 418
+        }
+      }
+    }
+  ],
+  "UserName": "Berge-Harvey",
+  "TicketCategories": [
+    {
+      "Id": 26,
+      "Name": "Flatley Inc and Sons",
+      "ToolTip": "Nostrum eos consequatur ut qui.",
+      "Deleted": false,
+      "Rank": 446,
+      "Type": "suscipit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "autem",
+      "ColorBlock": 40,
+      "ExtraInfo": "sed",
+      "StyleHint": "ex",
+      "FullName": "Seth Denesik",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 512
+        }
+      }
+    }
+  ],
+  "NickName": "Huels-Hoppe",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "aut"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "perspiciatis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lockman, Sporer and Marvin",
-      "DisplayName": "Beier-Willms",
-      "Description": "Open-architected dedicated toolset",
-      "ToolTip": "Tenetur incidunt voluptatem et neque aut.",
+      "Name": "Cartwright, Torp and Grady",
+      "DisplayName": "Keeling-Sawayn",
+      "Description": "Adaptive responsive focus group",
+      "ToolTip": "Omnis fuga laborum fugiat nemo eligendi quod aspernatur.",
       "Actions": "Implicit",
-      "ActionData": "pariatur",
+      "ActionData": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldLength": 410
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   },
   "_Links": {

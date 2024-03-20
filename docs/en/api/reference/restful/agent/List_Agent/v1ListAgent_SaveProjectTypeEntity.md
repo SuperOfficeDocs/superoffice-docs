@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 609,
-  "Name": "Pfeffer-Wuckert",
-  "Tooltip": "voluptatem",
-  "Rank": 231,
+  "ProjTypeId": 330,
+  "Name": "Cremin, O'Conner and Graham",
+  "Tooltip": "fugiat",
+  "Rank": 434,
   "DurationUnit": "Century",
-  "ProjectDuration": 420,
-  "Deleted": true,
+  "ProjectDuration": 240,
+  "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Stokes-Effertz",
-      "ToolTip": "Et earum est dolor.",
+      "Id": 893,
+      "Name": "Marquardt Inc and Sons",
+      "ToolTip": "Ipsum aut officiis temporibus rem enim quia est.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "dicta",
-      "ColorBlock": 305,
-      "IconHint": "quod",
+      "Rank": 523,
+      "Type": "quis",
+      "ColorBlock": 777,
+      "IconHint": "ipsam",
       "Selected": true,
-      "LastChanged": "2013-09-09T14:23:46.8942625+02:00",
+      "LastChanged": "2023-10-12T12:19:45.5547007+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "atque",
-      "StyleHint": "minima",
+      "ExtraInfo": "non",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Prof. Eric Weimann"
+      "FullName": "Kaci McKenzie"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 923,
-  "Name": "Schamberger Inc and Sons",
-  "Tooltip": "a",
-  "Rank": 237,
+  "ProjTypeId": 278,
+  "Name": "Hilll-Schinner",
+  "Tooltip": "vel",
+  "Rank": 923,
   "DurationUnit": "Century",
-  "ProjectDuration": 25,
+  "ProjectDuration": 391,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 21,
-      "Name": "Ziemann, Zemlak and Blanda",
-      "ToolTip": "Repellendus qui provident doloribus debitis aut quam optio.",
-      "Deleted": true,
-      "Rank": 891,
-      "Type": "unde",
-      "ColorBlock": 700,
-      "IconHint": "necessitatibus",
+      "Id": 731,
+      "Name": "Lowe Inc and Sons",
+      "ToolTip": "Reiciendis minus assumenda eveniet.",
+      "Deleted": false,
+      "Rank": 516,
+      "Type": "velit",
+      "ColorBlock": 468,
+      "IconHint": "ullam",
       "Selected": false,
-      "LastChanged": "1999-04-22T14:23:46.8942625+02:00",
+      "LastChanged": "1999-03-08T12:19:45.5547007+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "odio",
+      "ExtraInfo": "praesentium",
+      "StyleHint": "sequi",
       "Hidden": false,
-      "FullName": "Prof. Dariana Bradford Schaefer DVM",
+      "FullName": "Mr. Kolby Mack Wiegand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 82
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

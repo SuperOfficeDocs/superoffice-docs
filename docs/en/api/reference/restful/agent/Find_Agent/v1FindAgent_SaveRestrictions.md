@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Brown-Strosin",
-  "StorageKey": "necessitatibus",
+  "StorageType": "dignissimos",
+  "ProviderName": "Wisozk, Deckow and Yundt",
+  "StorageKey": "est",
   "Restrictions": [
     {
-      "Name": "Keeling Group",
-      "Operator": "vitae",
+      "Name": "Breitenberg-Simonis",
+      "Operator": "ipsam",
       "Values": [
-        "animi",
-        "tenetur"
+        "illum",
+        "accusantium"
       ],
       "DisplayValues": [
-        "iusto",
-        "dolorem"
+        "nihil",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 842,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 904
+      "UniqueHash": 270
     }
   ]
 }

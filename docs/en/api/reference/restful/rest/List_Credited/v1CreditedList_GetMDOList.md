@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=et
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=ullam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Jerde Inc and Sons",
-    "ToolTip": "Ut non non ipsum placeat.",
+    "Id": 701,
+    "Name": "Wunsch Inc and Sons",
+    "ToolTip": "Facilis non et quasi.",
     "Deleted": true,
-    "Rank": 739,
-    "Type": "ea",
+    "Rank": 715,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Bartell-Altenwerth",
-        "ToolTip": "Quibusdam rem nihil.",
-        "Deleted": false,
-        "Rank": 399,
-        "Type": "eveniet",
+        "Id": 990,
+        "Name": "Schmeler Group",
+        "ToolTip": "Soluta in et rerum hic quas.",
+        "Deleted": true,
+        "Rank": 218,
+        "Type": "architecto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 60,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "aliquid",
-        "FullName": "Emory Gusikowski",
+        "IconHint": "eveniet",
+        "ColorBlock": 365,
+        "ExtraInfo": "laborum",
+        "StyleHint": "ut",
+        "FullName": "Clotilde Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldType": "System.String",
+            "FieldLength": 82
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 299,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "mollitia",
-    "FullName": "Destany Farrell",
+    "IconHint": "totam",
+    "ColorBlock": 672,
+    "ExtraInfo": "nobis",
+    "StyleHint": "magnam",
+    "FullName": "Kurtis Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 773
       }
     }
   }

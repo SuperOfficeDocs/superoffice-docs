@@ -81,28 +81,28 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "vitae",
+  "Source": "pariatur",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "asperiores",
-    "aliquam"
+    "sint",
+    "qui"
   ],
   "CustomValues": [
-    "fugit",
-    "minima"
+    "molestias",
+    "veritatis"
   ],
-  "ContactId": 278,
-  "PersonId": 383,
-  "AppointmentId": 384,
-  "DocumentId": 294,
-  "SaleId": 868,
-  "SelectionId": 373,
-  "ProjectId": 58,
-  "CultureName": "sv"
+  "ContactId": 253,
+  "PersonId": 379,
+  "AppointmentId": 931,
+  "DocumentId": 464,
+  "SaleId": 200,
+  "SelectionId": 958,
+  "ProjectId": 534,
+  "CultureName": "en"
 }
 ```
 
@@ -112,5 +112,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fuga"
+"autem"
 ```

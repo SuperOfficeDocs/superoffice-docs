@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Spencer, Corwin and Grant",
-  "StorageKey": "enim"
+  "StorageType": "debitis",
+  "ProviderName": "Koss, Boyle and Ernser",
+  "StorageKey": "et"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emmerich-Swift",
+    "Name": "Lueilwitz-Labadie",
     "Direction": "ASC"
   },
   {
-    "Name": "Emmerich-Swift",
+    "Name": "Lueilwitz-Labadie",
     "Direction": "ASC"
   }
 ]

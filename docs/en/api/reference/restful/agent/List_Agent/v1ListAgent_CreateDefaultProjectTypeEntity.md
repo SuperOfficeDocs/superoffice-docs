@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 542,
-  "Name": "O'Connell, Mayer and Kihn",
-  "Tooltip": "accusamus",
-  "Rank": 727,
+  "ProjTypeId": 85,
+  "Name": "Gusikowski-Hauck",
+  "Tooltip": "asperiores",
+  "Rank": 771,
   "DurationUnit": "Century",
-  "ProjectDuration": 714,
-  "Deleted": true,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 979,
+  "Deleted": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 936,
-      "Name": "Anderson-Rutherford",
-      "ToolTip": "Magni sed iste odit voluptatum facere animi est.",
+      "Id": 946,
+      "Name": "Rowe, Hane and Sanford",
+      "ToolTip": "Tempora fugit esse officiis ut recusandae.",
       "Deleted": true,
-      "Rank": 994,
-      "Type": "sed",
-      "ColorBlock": 11,
-      "IconHint": "iste",
-      "Selected": false,
-      "LastChanged": "2007-10-22T14:23:46.8942625+02:00",
+      "Rank": 787,
+      "Type": "odit",
+      "ColorBlock": 700,
+      "IconHint": "repellendus",
+      "Selected": true,
+      "LastChanged": "2001-03-07T12:19:45.5547007+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "vero",
+      "ExtraInfo": "optio",
+      "StyleHint": "praesentium",
       "Hidden": false,
-      "FullName": "Bella Franecki",
+      "FullName": "Leif Brown MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 447
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 851
     }
   }
 }

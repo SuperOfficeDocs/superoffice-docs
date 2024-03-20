@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 674,
-  "Select": "similique"
+  "SelectionId": 727,
+  "Select": "consequuntur"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gleason LLC",
-    "PrimaryKey": 120,
+    "EntityName": "Price, Stanton and Windler",
+    "PrimaryKey": 817,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "veniam",
-        "LinkHint": "iste"
+        "DisplayValue": "accusamus",
+        "TooltipHint": "error",
+        "LinkHint": "ducimus"
       }
     },
-    "LinkHint": "at",
-    "StyleHint": "qui",
+    "LinkHint": "odio",
+    "StyleHint": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 762
       }
     }
   }

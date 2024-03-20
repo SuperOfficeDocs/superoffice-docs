@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 375,
-    "Name": "Marks Inc and Sons",
-    "Tooltip": "expedita",
+    "HeadingId": 768,
+    "Name": "Fisher-Walter",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 125,
-    "UdListDefinitionId": 33,
+    "Rank": 445,
+    "UdListDefinitionId": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldLength": 774
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sauer, Reinger and Swift",
-    "DisplayName": "Skiles-Weimann",
-    "Description": "Virtual logistical local area network",
-    "ShortLabel": "dolor",
+    "FieldName": "Skiles-Lockman",
+    "DisplayName": "Cummings, Jenkins and Prosacco",
+    "Description": "Upgradable exuding challenge",
+    "ShortLabel": "minima",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 721,
-    "TemplateVariableName": "Schroeder, Bogan and Jacobi"
+    "IsExternal": true,
+    "Rank": 594,
+    "TemplateVariableName": "Stark, Runolfsson and Wolff"
   }
 ]
 ```

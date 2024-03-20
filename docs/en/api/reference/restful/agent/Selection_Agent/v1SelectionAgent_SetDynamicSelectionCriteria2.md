@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 993,
-  "Filter": "possimus"
+  "SelectionId": 173,
+  "Filter": "impedit"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stanton, Gislason and Hyatt",
-    "Operator": "eum",
+    "Name": "Kilback Group",
+    "Operator": "labore",
     "Values": [
-      "voluptatem",
-      "nostrum"
+      "ut",
+      "accusantium"
     ],
     "DisplayValues": [
-      "et",
-      "aliquid"
+      "aut",
+      "molestias"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Boyer-Hegmann",
-        "Operator": "est",
+        "Name": "Daugherty, Homenick and Windler",
+        "Operator": "iusto",
         "Values": [
-          "aliquam",
-          "et"
+          "similique",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "veritatis",
-          "dolores"
+          "incidunt",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 533,
+        "InterParenthesis": 174,
         "InterOperator": "And",
-        "UniqueHash": 77
+        "UniqueHash": 877
       }
     ],
-    "InterParenthesis": 9,
+    "InterParenthesis": 218,
     "InterOperator": "And",
-    "UniqueHash": 202
+    "UniqueHash": 842
   }
 ]
 ```

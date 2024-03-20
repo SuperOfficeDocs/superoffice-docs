@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Koch, Renner and Osinski",
+  "LayoutName": "Ebert, Kerluke and Koepp",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 49,
-  "Name": "Hodkiewicz Group",
-  "Value": "optio",
-  "CreatedDate": "1998-07-25T14:23:45.8605856+02:00",
-  "UpdatedDate": "2000-05-11T14:23:45.8605856+02:00",
-  "CreatedBy": "id",
-  "UpdatedBy": "vitae",
+  "AudienceLayoutId": 390,
+  "Name": "Hirthe, Franecki and Hintz",
+  "Value": "aliquid",
+  "CreatedDate": "2010-07-22T12:19:44.5080652+02:00",
+  "UpdatedDate": "2011-02-09T12:19:44.5080652+01:00",
+  "CreatedBy": "aliquam",
+  "UpdatedBy": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldLength": 781
     }
   }
 }

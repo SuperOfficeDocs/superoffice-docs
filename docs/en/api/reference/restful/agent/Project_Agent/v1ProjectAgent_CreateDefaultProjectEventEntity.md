@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ab",
-  "SignOffText": "rerum",
-  "SignOnConfirmationText": "ad",
-  "SignOnText": "nihil",
-  "EventDate": "2007-04-12T14:23:47.1442591+02:00",
-  "Enabled": false,
-  "CreatedDate": "2007-04-28T14:23:47.1442591+02:00",
+  "SignOffConfirmationText": "dolor",
+  "SignOffText": "beatae",
+  "SignOnConfirmationText": "necessitatibus",
+  "SignOnText": "ut",
+  "EventDate": "2001-01-16T12:19:45.9764798+01:00",
+  "Enabled": true,
+  "CreatedDate": "2023-11-29T12:19:45.9764798+01:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 110,
+  "SignOffTaskId": 819,
   "SignOffTriggersAssign": false,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 527,
+  "SignOnTaskId": 754,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2015-07-13T14:23:47.1442591+02:00",
+  "UpdatedDate": "2007-11-07T12:19:45.9764798+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 811,
-  "Id": 363,
-  "PublishFrom": "2015-04-05T14:23:47.1442591+02:00",
+  "ProjectId": 452,
+  "Id": 852,
+  "PublishFrom": "2019-10-26T12:19:45.9764798+02:00",
   "PublishType": "External",
-  "PublishTo": "2007-05-15T14:23:47.1442591+02:00",
+  "PublishTo": "2014-02-05T12:19:45.9764798+01:00",
   "VisibleForCategories": [
     {
-      "Id": 841,
-      "Name": "Borer-Hansen",
-      "ToolTip": "Molestias corrupti magnam ipsa repellendus modi a.",
-      "Deleted": true,
-      "Rank": 112,
-      "Type": "quidem",
+      "Id": 253,
+      "Name": "Wilderman-Hane",
+      "ToolTip": "Ex molestias eaque expedita minus deleniti.",
+      "Deleted": false,
+      "Rank": 66,
+      "Type": "aspernatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "occaecati",
-      "ColorBlock": 468,
-      "ExtraInfo": "saepe",
-      "StyleHint": "ut",
-      "FullName": "Kane Crooks Sr.",
+      "IconHint": "molestiae",
+      "ColorBlock": 166,
+      "ExtraInfo": "dolores",
+      "StyleHint": "qui",
+      "FullName": "Iliana Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 419
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 402,
-      "Name": "Schowalter Inc and Sons",
-      "ToolTip": "Officia ut assumenda quia dicta adipisci voluptatem.",
+      "Id": 566,
+      "Name": "Kshlerin-Schoen",
+      "ToolTip": "Eius occaecati optio dolor quos.",
       "Deleted": false,
-      "Rank": 498,
-      "Type": "fuga",
+      "Rank": 423,
+      "Type": "aperiam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sequi",
-      "ColorBlock": 911,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "voluptatem",
-      "FullName": "Ronaldo Sipes",
+      "IconHint": "ut",
+      "ColorBlock": 402,
+      "ExtraInfo": "at",
+      "StyleHint": "consequatur",
+      "FullName": "Arden Batz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldLength": 950
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 628,
+  "ProjectEventId": 597,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 959
     }
   }
 }

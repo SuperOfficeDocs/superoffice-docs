@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Johnson, Kuhlman and Bergnaum",
-  "ModuleName": "Funk Inc and Sons"
+  "OwnerName": "Weber-Jaskolski",
+  "ModuleName": "Corkery, Larson and Hegmann"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Considine-Toy",
-  "ModuleName": "Lakin-Ratke",
-  "ModuleDescription": "Robust 24 hour attitude",
-  "ModuleTooltip": "molestiae",
-  "ModuleVersion": "minima",
+  "OwnerName": "Weimann, Sawayn and Morar",
+  "ModuleName": "Armstrong Inc and Sons",
+  "ModuleDescription": "Progressive bifurcated moderator",
+  "ModuleTooltip": "ipsum",
+  "ModuleVersion": "rerum",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 411,
-  "ExtraFlags": 475,
-  "ExtraInfo": "magni",
-  "SortOrder": 784,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Hane-Baumbach",
-  "Signature": "ut"
+  "NumberOfLicenses": 100,
+  "ExtraFlags": 744,
+  "ExtraInfo": "necessitatibus",
+  "SortOrder": 74,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Dibbert-Dibbert",
+  "Signature": "veritatis"
 }
 ```

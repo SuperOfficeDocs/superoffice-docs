@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "debitis",
-    "vitae"
+    "laudantium",
+    "iste"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Muller LLC",
-    "Delimiter": "doloremque",
-    "Flags": "modi",
-    "TotalItems": 327,
-    "UnreadItems": 508,
+    "Name": "Schiller, Homenick and Collier",
+    "Delimiter": "qui",
+    "Flags": "nihil",
+    "TotalItems": 169,
+    "UnreadItems": 74,
     "Subscribed": true,
-    "EmailFolderId": 978,
+    "EmailFolderId": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 220
       }
     }
   }

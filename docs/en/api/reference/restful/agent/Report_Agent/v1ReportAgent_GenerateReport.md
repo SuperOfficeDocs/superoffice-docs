@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 523,
-  "LabelLayoutId": 203,
-  "Filename": "est",
-  "Language": "culpa",
-  "FileType": "dignissimos",
+  "ReportId": 983,
+  "LabelLayoutId": 472,
+  "Filename": "temporibus",
+  "Language": "odio",
+  "FileType": "ab",
   "Restrictions": [
     {
-      "Name": "Aufderhar LLC",
-      "Operator": "assumenda",
+      "Name": "Schaden-Wisozk",
+      "Operator": "blanditiis",
       "Values": [
-        "et",
-        "culpa"
+        "sequi",
+        "omnis"
       ],
       "DisplayValues": [
-        "sint",
-        "voluptas"
+        "ut",
+        "doloribus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 8,
+      "InterParenthesis": 999,
       "InterOperator": "And",
-      "UniqueHash": 338
+      "UniqueHash": 832
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"qui"
 ```

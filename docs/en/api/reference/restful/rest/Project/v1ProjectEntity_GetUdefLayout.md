@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 612,
-    "ColumnId": 57,
-    "FieldDefault": "est",
-    "FieldHeight": 949,
-    "FieldLabel": "et",
-    "FieldLeft": 54,
-    "FieldTop": 742,
+    "UDefFieldId": 482,
+    "ColumnId": 53,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 153,
+    "FieldLabel": "veritatis",
+    "FieldLeft": 875,
+    "FieldTop": 79,
     "FieldType": "Checkbox",
-    "FieldWidth": 397,
-    "FormatMask": "non",
+    "FieldWidth": 311,
+    "FormatMask": "veritatis",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 588,
-    "LabelLeft": 1002,
-    "LabelTop": 487,
-    "LabelWidth": 508,
-    "LastVersionId": 707,
-    "ListTableId": 368,
+    "LabelHeight": 113,
+    "LabelLeft": 22,
+    "LabelTop": 532,
+    "LabelWidth": 831,
+    "LastVersionId": 541,
+    "ListTableId": 75,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 803,
-    "ProgId": "maxime",
+    "Page1LineNo": 493,
+    "ProgId": "excepturi",
     "IsReadOnly": false,
-    "ShortLabel": "corrupti",
-    "TabOrder": 374,
-    "TextLength": 121,
-    "Tooltip": "qui",
-    "UdefIdentity": 570,
-    "UDListDefinitionId": 950,
+    "ShortLabel": "neque",
+    "TabOrder": 487,
+    "TextLength": 415,
+    "Tooltip": "tempora",
+    "UdefIdentity": 60,
+    "UDListDefinitionId": 827,
     "Justification": "Center",
-    "Version": 89,
-    "TemplateVariableName": "Schinner Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Sipes, Cummerata and Mayert",
+    "Version": 738,
+    "TemplateVariableName": "Tremblay, Rice and Rohan",
+    "HasBeenPublished": false,
+    "MdoListName": "Stokes Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

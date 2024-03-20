@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 203,
-  "AttachmentId": "rem"
+  "MailItemId": 821,
+  "AttachmentId": "rerum"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized bifurcated standardization",
-  "Filename": "ex",
-  "Size": 805,
-  "Type": "aut",
-  "Encoding": "odit",
-  "Id": "ipsa",
-  "Disposition": "reprehenderit",
+  "Description": "Synergistic 4th generation algorithm",
+  "Filename": "perferendis",
+  "Size": 827,
+  "Type": "recusandae",
+  "Encoding": "deleniti",
+  "Id": "enim",
+  "Disposition": "adipisci",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 297
     }
   }
 }

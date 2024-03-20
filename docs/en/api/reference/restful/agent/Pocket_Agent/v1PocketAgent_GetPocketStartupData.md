@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "repellat",
-    "vero"
+    "quae",
+    "autem"
   ],
-  "CurrentClientTime": "2009-10-31T14:23:47.1130103+01:00"
+  "CurrentClientTime": "2004-04-11T12:19:45.789023+02:00"
 }
 ```
 
@@ -102,35 +102,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "ipsam",
-    "pariatur"
+    "aut",
+    "optio"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 66,
-  "NotificationsCount": 873,
+  "OverdueSalesCount": 876,
+  "NotificationsCount": 198,
   "SystemWebPanels": [
     {
-      "WebPanelId": 501,
-      "Name": "Jakubowski-O'Conner",
-      "Tooltip": "numquam",
-      "Deleted": false,
-      "Rank": 756,
+      "WebPanelId": 889,
+      "Name": "Parker-Towne",
+      "Tooltip": "et",
+      "Deleted": true,
+      "Rank": 356,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
+      "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": true,
+      "OnTravel": false,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
-      "ShowInToolBar": false,
+      "OnSalesMarketingPocket": true,
+      "ShowInMenuBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Pacocha-Pfeffer",
+      "ShowInStatusBar": true,
+      "WindowName": "Romaguera Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "atque",
-      "Icon": 468,
+      "ProgId": "in",
+      "Icon": 822,
       "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 471
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quis",
+      "RawValue": "eos",
       "Specification": null,
-      "DisplayValue": "atque",
-      "DisplayTooltip": "eum",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "consectetur",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 970,
-      "PrefDescId": 733,
-      "TableName": "Hamill LLC",
-      "UserPreferenceId": 58,
+      "TargetId": 88,
+      "PrefDescId": 314,
+      "TableName": "Howe, Keebler and Trantow",
+      "UserPreferenceId": 549,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldType": "System.String",
+          "FieldLength": 136
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "autem",
+  "CustomData": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 113
     }
   }
 }

@@ -116,47 +116,47 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 266,
-  "Name": "Klein Inc and Sons",
-  "Tooltip": "consequatur",
-  "Rank": 8,
+  "SaleTypeId": 639,
+  "Name": "Fay Inc and Sons",
+  "Tooltip": "facilis",
+  "Rank": 247,
   "DurationUnit": "Century",
-  "SaleDuration": 352,
-  "SaleTypeCatId": 1001,
+  "SaleDuration": 449,
+  "SaleTypeCatId": 789,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 941,
-  "QuoteLinesTemplate": 375,
-  "ConfirmationLinesTemplate": 661,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 876,
-  "MinEarningPercent": 798,
-  "GroupQuoteLinesBy": 886,
-  "SortGroupLinesBy": 502,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 345,
+  "QuoteLinesTemplate": 976,
+  "ConfirmationLinesTemplate": 707,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 838,
+  "MinEarningPercent": 717,
+  "GroupQuoteLinesBy": 953,
+  "SortGroupLinesBy": 789,
   "Stages": [
     {
-      "Id": 438,
-      "Name": "Okuneva Inc and Sons",
-      "ToolTip": "Voluptates alias voluptate et nulla ducimus.",
+      "Id": 816,
+      "Name": "Upton, Hilpert and Carter",
+      "ToolTip": "Facere saepe eos fugiat mollitia ut.",
       "Deleted": true,
-      "Rank": 62,
-      "Type": "labore",
-      "ColorBlock": 795,
-      "IconHint": "eaque",
+      "Rank": 204,
+      "Type": "qui",
+      "ColorBlock": 872,
+      "IconHint": "cumque",
       "Selected": true,
-      "LastChanged": "2014-02-12T14:23:56.3376983+01:00",
+      "LastChanged": "2004-10-14T12:19:54.8364594+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "qui",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "quos",
       "Hidden": true,
-      "FullName": "Ms. Shany Maxwell Romaguera I"
+      "FullName": "Prof. Sydnee Grimes PhD"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 292,
-  "Name": "Blanda LLC",
-  "Tooltip": "ab",
-  "Rank": 892,
+  "SaleTypeId": 833,
+  "Name": "Stiedemann, Bosco and Runolfsdottir",
+  "Tooltip": "voluptate",
+  "Rank": 929,
   "DurationUnit": "Century",
-  "SaleDuration": 188,
-  "SaleTypeCatId": 523,
+  "SaleDuration": 288,
+  "SaleTypeCatId": 535,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 118,
-  "QuoteLinesTemplate": 322,
-  "ConfirmationLinesTemplate": 893,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 302,
-  "MinEarningPercent": 603,
-  "GroupQuoteLinesBy": 583,
-  "SortGroupLinesBy": 995,
+  "DefaultQuoteValidity": 558,
+  "QuoteLinesTemplate": 370,
+  "ConfirmationLinesTemplate": 376,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 310,
+  "MinEarningPercent": 986,
+  "GroupQuoteLinesBy": 858,
+  "SortGroupLinesBy": 749,
   "Stages": [
     {
-      "Id": 579,
-      "Name": "Abbott-Sanford",
-      "ToolTip": "Est autem.",
-      "Deleted": true,
-      "Rank": 714,
-      "Type": "et",
-      "ColorBlock": 239,
-      "IconHint": "nihil",
-      "Selected": true,
-      "LastChanged": "2022-02-01T14:23:56.3376983+01:00",
+      "Id": 342,
+      "Name": "Skiles, Johns and McKenzie",
+      "ToolTip": "Quis tempore et velit odio nihil.",
+      "Deleted": false,
+      "Rank": 521,
+      "Type": "porro",
+      "ColorBlock": 747,
+      "IconHint": "quod",
+      "Selected": false,
+      "LastChanged": "2023-06-25T12:19:54.8364594+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minus",
-      "StyleHint": "ratione",
+      "ExtraInfo": "tempora",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Marietta Walsh",
+      "FullName": "Molly Jacobson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 703
     }
   }
 }

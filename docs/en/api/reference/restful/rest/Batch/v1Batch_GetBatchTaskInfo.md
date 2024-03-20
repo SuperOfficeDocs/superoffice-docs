@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Mills, Spencer and Turcotte",
-  "AssociateId": 751,
-  "DetailsTable": 410,
-  "DetailsRecord": 532,
+  "Id": 535,
+  "Name": "Aufderhar-Heller",
+  "AssociateId": 202,
+  "DetailsTable": 691,
+  "DetailsRecord": 943,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "dolor",
-    "ParameterObject2": "optio"
+    "ParameterObject1": "et",
+    "ParameterObject2": "cum"
   },
-  "LastStarted": "2018-03-27T14:23:55.7595795+02:00",
-  "Created": "2018-03-14T14:23:55.7595795+01:00",
-  "StartCount": 683,
-  "DatabaseSerialNumber": "1136314",
-  "Context": "ea",
-  "Result": "aut",
+  "LastStarted": "1999-02-24T12:19:54.0866374+01:00",
+  "Created": "1999-04-11T12:19:54.0866374+02:00",
+  "StartCount": 73,
+  "DatabaseSerialNumber": "867914",
+  "Context": "adipisci",
+  "Result": "voluptatem",
   "State": "All",
-  "Description": "Intuitive contextually-based functionalities",
-  "Response": "quasi",
-  "Request": "tenetur",
-  "ProgressDescription": "Virtual homogeneous utilisation",
-  "ProgressPercent": 699,
-  "FileName": "Emard, Schultz and Pfannerstill",
+  "Description": "Object-based full-range budgetary management",
+  "Response": "molestiae",
+  "Request": "rerum",
+  "ProgressDescription": "Profound incremental alliance",
+  "ProgressPercent": 847,
+  "FileName": "Zboncak, Yost and Bode",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

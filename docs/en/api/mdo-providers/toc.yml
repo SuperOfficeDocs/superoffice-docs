@@ -791,5 +791,5 @@ items:
   href: reference/workflowsteptype.md
 - name: WorkflowTriggerType
   href: reference/workflowtriggertype.md
-- name: Y_equipment
-  href: reference/y_equipment.md
+- name: Y_car
+  href: reference/y_car.md

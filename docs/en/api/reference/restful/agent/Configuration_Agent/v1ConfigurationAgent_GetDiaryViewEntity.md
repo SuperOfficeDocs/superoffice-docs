@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=822
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=274
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 753,
-  "Name": "Nitzsche-Brakus",
-  "Tooltip": "qui",
-  "VisibleColumns": 783,
-  "Rank": 989,
-  "AssocId": 654,
+  "DiaryViewId": 313,
+  "Name": "Becker, Johnston and Kuhlman",
+  "Tooltip": "esse",
+  "VisibleColumns": 352,
+  "Rank": 138,
+  "AssocId": 52,
   "AssociateList": [
     {
-      "Id": 281,
-      "Name": "Emard, Mayert and Wuckert",
-      "ToolTip": "Earum non vitae et asperiores quia numquam.",
-      "Deleted": true,
-      "Rank": 634,
-      "Type": "magni",
-      "ColorBlock": 58,
-      "IconHint": "dolore",
-      "Selected": true,
-      "LastChanged": "2010-07-23T14:23:46.0637094+02:00",
+      "Id": 981,
+      "Name": "Jast LLC",
+      "ToolTip": "Culpa dolor eveniet porro voluptas.",
+      "Deleted": false,
+      "Rank": 877,
+      "Type": "laboriosam",
+      "ColorBlock": 122,
+      "IconHint": "temporibus",
+      "Selected": false,
+      "LastChanged": "2004-08-14T12:19:44.8517429+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "officia",
+      "ExtraInfo": "quo",
+      "StyleHint": "dolore",
       "Hidden": false,
-      "FullName": "Elnora Camilla Crooks I",
+      "FullName": "Mrs. Alexys Wilkinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 85
         }
       }
     }
   ],
-  "TzLocationId": 573,
+  "TzLocationId": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

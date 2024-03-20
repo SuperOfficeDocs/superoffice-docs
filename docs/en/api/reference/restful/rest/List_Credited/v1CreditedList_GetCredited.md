@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 356,
-  "Name": "Sporer Group",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 552,
-  "Rank": 90,
+  "Id": 921,
+  "Name": "Witting LLC",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 30,
+  "Rank": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 441
     }
   }
 }

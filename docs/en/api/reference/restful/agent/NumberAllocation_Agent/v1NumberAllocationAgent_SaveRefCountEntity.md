@@ -83,37 +83,37 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 434,
-  "Field": "laborum",
-  "RecordId": 695,
+  "RefCountsId": 296,
+  "Field": "aut",
+  "RecordId": 1002,
   "SuggestedRecords": [
     {
-      "Id": 171,
-      "Name": "Cole-Carroll",
-      "ToolTip": "Quibusdam autem quo qui ut accusantium.",
+      "Id": 326,
+      "Name": "Oberbrunner-Yundt",
+      "ToolTip": "Ipsum unde dicta numquam illo.",
       "Deleted": false,
-      "Rank": 172,
-      "Type": "quaerat",
+      "Rank": 31,
+      "Type": "neque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tenetur",
-      "ColorBlock": 199,
-      "ExtraInfo": "aut",
-      "StyleHint": "est",
-      "FullName": "Hettie Emmerich IV"
+      "IconHint": "tempore",
+      "ColorBlock": 503,
+      "ExtraInfo": "sit",
+      "StyleHint": "facilis",
+      "FullName": "Rashad Botsford"
     }
   ],
-  "CurrentValue": 784,
-  "TravelPrefix": 737,
-  "SatPrefix": 503,
+  "CurrentValue": 270,
+  "TravelPrefix": 704,
+  "SatPrefix": 483,
   "Allocate": true,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": true
 }
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 305,
-  "Field": "qui",
-  "RecordId": 90,
+  "RefCountsId": 896,
+  "Field": "at",
+  "RecordId": 283,
   "SuggestedRecords": [
     {
-      "Id": 605,
-      "Name": "Tromp-Beer",
-      "ToolTip": "Autem aperiam illum id distinctio laboriosam voluptatem.",
+      "Id": 123,
+      "Name": "Adams, Krajcik and Corwin",
+      "ToolTip": "Sequi deleniti non et laudantium vel repudiandae.",
       "Deleted": false,
-      "Rank": 136,
-      "Type": "molestiae",
+      "Rank": 179,
+      "Type": "dolores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fuga",
-      "ColorBlock": 670,
-      "ExtraInfo": "occaecati",
-      "StyleHint": "expedita",
-      "FullName": "Jerrold Hoppe II",
+      "IconHint": "eaque",
+      "ColorBlock": 749,
+      "ExtraInfo": "nostrum",
+      "StyleHint": "quo",
+      "FullName": "Mortimer Carter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 986
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "CurrentValue": 726,
-  "TravelPrefix": 514,
-  "SatPrefix": 428,
-  "Allocate": true,
+  "CurrentValue": 548,
+  "TravelPrefix": 132,
+  "SatPrefix": 202,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 554
     }
   }
 }

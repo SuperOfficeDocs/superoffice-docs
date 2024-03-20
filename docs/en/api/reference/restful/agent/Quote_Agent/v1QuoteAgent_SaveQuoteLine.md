@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 103,
-  "ERPQuoteLineKey": "voluptatem",
-  "QuoteAlternativeId": 75,
-  "ERPProductKey": "alias",
+  "QuoteLineId": 324,
+  "ERPQuoteLineKey": "dolores",
+  "QuoteAlternativeId": 480,
+  "ERPProductKey": "quaerat",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1021.684,
-  "DeliveredQuantity": 6951.2119999999995,
-  "Rank": 766,
-  "Name": "Bauch, Howell and Jaskolski",
-  "Description": "Profound value-added benchmark",
-  "Code": "qui",
-  "QuantityUnit": "voluptates",
-  "PriceUnit": "et",
-  "ItemNumber": "1095621",
+  "Quantity": 7132.9839999999995,
+  "DeliveredQuantity": 3271.8959999999997,
+  "Rank": 960,
+  "Name": "Raynor-Bergnaum",
+  "Description": "Cross-platform reciprocal productivity",
+  "Code": "non",
+  "QuantityUnit": "et",
+  "PriceUnit": "ducimus",
+  "ItemNumber": "397780",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tenetur",
-  "ProductTypeKey": "labore",
+  "ProductFamilyKey": "quam",
+  "ProductTypeKey": "quibusdam",
   "Supplier": "quas",
-  "SupplierCode": "pariatur",
-  "Thumbnail": "quasi",
-  "VATInfo": "vero",
-  "VAT": 26488.568,
-  "UnitCost": 20001.188,
-  "UnitMinimumPrice": 18556.414,
-  "UnitListPrice": 29284.095999999998,
+  "SupplierCode": "impedit",
+  "Thumbnail": "eos",
+  "VATInfo": "iure",
+  "VAT": 31255.381999999998,
+  "UnitCost": 9577.503999999999,
+  "UnitMinimumPrice": 6788.244,
+  "UnitListPrice": 11461.038,
   "ExtraInfo": [
     {
-      "Name": "Heidenreich, Frami and Purdy",
-      "Value": "excepturi",
+      "Name": "Fay LLC",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 651
         }
       }
     },
     {
-      "Name": "Heidenreich, Frami and Purdy",
-      "Value": "excepturi",
+      "Name": "Fay LLC",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 651
         }
       }
     }
   ],
-  "RawExtraInfo": "exercitationem",
+  "RawExtraInfo": "dolor",
   "IsSubscription": true,
-  "SubscriptionUnit": "recusandae",
-  "SubscriptionQuantity": 18224.21,
-  "SubscriptionStart": "1997-10-05T14:23:47.2536317+02:00",
-  "ERPDiscountPercent": 4967.3899999999994,
-  "ERPDiscountAmount": 5356.0059999999994,
-  "DiscountPercent": 13266.222,
-  "DiscountAmount": 6869.728,
+  "SubscriptionUnit": "repellendus",
+  "SubscriptionQuantity": 5255.718,
+  "SubscriptionStart": "2003-05-14T12:19:46.117062+02:00",
+  "ERPDiscountPercent": 28456.719999999998,
+  "ERPDiscountAmount": 22978.487999999998,
+  "DiscountPercent": 4346.858,
+  "DiscountAmount": 5227.512,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16898.528,
-  "EarningAmount": 25946.386,
-  "SubTotal": 4531.764,
-  "TotalPrice": 16434.696,
-  "Rights": "autem",
-  "Rule": "voluptas",
-  "ExtraField1": "voluptate",
-  "ExtraField2": "culpa",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "est",
-  "ExtraField5": "qui",
+  "EarningPercent": 1147.0439999999999,
+  "EarningAmount": 27974.084,
+  "SubTotal": 12648.823999999999,
+  "TotalPrice": 23188.466,
+  "Rights": "fugiat",
+  "Rule": "quia",
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "minus",
+  "ExtraField3": "sit",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

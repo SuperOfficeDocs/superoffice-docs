@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=913
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=88
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 401,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 612,
-  "Name": "Veum, Collins and Steuber",
-  "Description": "Decentralized object-oriented emulation",
-  "Currency": "ex",
-  "CurrencyName": "Deckow, Harris and Treutel",
-  "ValidFrom": "2022-08-15T14:23:47.222383+02:00",
-  "ValidTo": "1997-03-17T14:23:47.222383+01:00",
-  "IsActive": false,
+  "PriceListId": 228,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 513,
+  "Name": "Stark Group",
+  "Description": "Cloned transitional interface",
+  "Currency": "aperiam",
+  "CurrencyName": "Conroy, Anderson and Veum",
+  "ValidFrom": "2015-05-09T12:19:46.0701997+02:00",
+  "ValidTo": "2000-07-02T12:19:46.0701997+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 597
     }
   }
 }

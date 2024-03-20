@@ -64,7 +64,7 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WorkflowStepId | int32 | Primary key |
-| WorkflowId | int32 | The flow this step belongs to |
+| WorkflowId | int32 | The workflow to connect to |
 | StepType | string | Step type |
 | Rank | int32 | Step order |
 
@@ -89,9 +89,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 39,
-  "WorkflowId": 282,
+  "WorkflowStepId": 974,
+  "WorkflowId": 943,
   "StepType": "AddToList",
-  "Rank": 191
+  "Rank": 592
 }
 ```

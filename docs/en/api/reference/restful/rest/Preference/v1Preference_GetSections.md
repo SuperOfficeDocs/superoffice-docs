@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Hettinger-Reynolds",
-    "ToolTip": "Blanditiis voluptates.",
+    "Id": 508,
+    "Name": "Heller, McDermott and White",
+    "ToolTip": "Quo animi rerum ipsa doloremque voluptas fuga distinctio.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "deserunt",
+    "Rank": 339,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 873,
-        "Name": "Huels-Monahan",
-        "ToolTip": "Alias ut saepe.",
+        "Id": 712,
+        "Name": "Dare LLC",
+        "ToolTip": "Rerum distinctio quas et dolorem in.",
         "Deleted": false,
-        "Rank": 191,
-        "Type": "fuga",
+        "Rank": 59,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 777,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "at",
-        "FullName": "Ms. Flavie O'Kon V",
+        "IconHint": "soluta",
+        "ColorBlock": 794,
+        "ExtraInfo": "tempore",
+        "StyleHint": "rerum",
+        "FullName": "Franco Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 553
+            "FieldLength": 665
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 205,
-    "ExtraInfo": "amet",
-    "StyleHint": "ab",
-    "FullName": "Keira Johnston",
+    "IconHint": "impedit",
+    "ColorBlock": 90,
+    "ExtraInfo": "fuga",
+    "StyleHint": "blanditiis",
+    "FullName": "Meggie Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 142
       }
     }
   }

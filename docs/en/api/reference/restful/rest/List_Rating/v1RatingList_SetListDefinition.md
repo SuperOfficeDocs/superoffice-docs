@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 429,
-  "Name": "Weissnat, Buckridge and Schinner",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 671,
-  "IsCustomList": true,
+  "Id": 889,
+  "Name": "Botsford Group",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "Rank": 579,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Heaney, Monahan and King",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 604,
-  "IsCustomList": true,
+  "Id": 581,
+  "Name": "Kessler, Bruen and Greenfelder",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 373,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 822
     }
   }
 }

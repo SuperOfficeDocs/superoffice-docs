@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Gutkowski, Sanford and Renner",
-    "Bogisich Group"
+    "Reilly LLC",
+    "Parker LLC"
   ],
-  "Culture": "sint",
-  "ActiveOnly": false
+  "Culture": "soluta",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Murray, Oberbrunner and Sipes",
-    "ResourceValue": "ut",
-    "Culture": "consequatur",
+    "ResourceName": "Spinka LLC",
+    "ResourceValue": "perspiciatis",
+    "Culture": "reiciendis",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   },
   {
-    "ResourceName": "Murray, Oberbrunner and Sipes",
-    "ResourceValue": "ut",
-    "Culture": "consequatur",
+    "ResourceName": "Spinka LLC",
+    "ResourceValue": "perspiciatis",
+    "Culture": "reiciendis",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

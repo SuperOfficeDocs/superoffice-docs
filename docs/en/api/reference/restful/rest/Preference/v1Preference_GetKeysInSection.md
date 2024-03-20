@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Conroy-Langosh",
-    "ToolTip": "Expedita dolor.",
-    "Deleted": false,
-    "Rank": 78,
-    "Type": "commodi",
+    "Id": 604,
+    "Name": "Adams, Tromp and Oberbrunner",
+    "ToolTip": "Repudiandae distinctio accusantium et veritatis.",
+    "Deleted": true,
+    "Rank": 531,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Rogahn, Dibbert and Gerhold",
-        "ToolTip": "Minima impedit tempora porro at qui.",
+        "Id": 988,
+        "Name": "Schaefer, Ward and Stoltenberg",
+        "ToolTip": "Sunt sed eligendi.",
         "Deleted": true,
-        "Rank": 536,
-        "Type": "eveniet",
+        "Rank": 362,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 644,
-        "ExtraInfo": "expedita",
-        "StyleHint": "beatae",
-        "FullName": "Abbigail Kulas DVM",
+        "IconHint": "nobis",
+        "ColorBlock": 980,
+        "ExtraInfo": "eius",
+        "StyleHint": "ut",
+        "FullName": "Mr. Adela Judah Shanahan III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 771
+            "FieldLength": 518
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 541,
-    "ExtraInfo": "dolor",
-    "StyleHint": "sit",
-    "FullName": "Eliseo Windler",
+    "IconHint": "nesciunt",
+    "ColorBlock": 730,
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "ut",
+    "FullName": "Lilliana Rutherford DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 774
       }
     }
   }

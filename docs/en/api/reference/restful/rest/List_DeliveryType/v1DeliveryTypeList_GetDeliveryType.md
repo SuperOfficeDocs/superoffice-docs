@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Rowe, Bradtke and Gibson",
-  "Tooltip": "impedit",
-  "Deleted": true,
-  "UdListDefinitionId": 505,
-  "Rank": 529,
+  "Id": 476,
+  "Name": "Bergstrom, Bernier and Witting",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 629,
+  "Rank": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

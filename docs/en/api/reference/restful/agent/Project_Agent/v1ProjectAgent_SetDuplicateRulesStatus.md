@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Gusikowski, Stamm and Gorczany",
-      "DisplayName": "O'Hara-Walter",
-      "DisplayTooltip": "eveniet",
+      "Name": "Yundt-Abshire",
+      "DisplayName": "Ernser, Witting and Rosenbaum",
+      "DisplayTooltip": "incidunt",
       "IsActive": false
     },
     {
-      "Name": "Gusikowski, Stamm and Gorczany",
-      "DisplayName": "O'Hara-Walter",
-      "DisplayTooltip": "eveniet",
+      "Name": "Yundt-Abshire",
+      "DisplayName": "Ernser, Witting and Rosenbaum",
+      "DisplayTooltip": "incidunt",
       "IsActive": false
     }
   ]

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Williamson, Zieme and Renner",
-  "Id": 904
+  "ListName": "Hagenes Group",
+  "Id": 248
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Stark-Purdy",
-  "ToolTip": "Quisquam vitae sint similique aperiam nostrum.",
-  "Deleted": false,
-  "Rank": 185,
-  "Type": "neque",
+  "Id": 718,
+  "Name": "Farrell, Kozey and Jast",
+  "ToolTip": "Laborum eos alias vel et sequi.",
+  "Deleted": true,
+  "Rank": 158,
+  "Type": "illum",
   "ChildItems": [
     {
-      "Id": 717,
-      "Name": "Kuhn Inc and Sons",
-      "ToolTip": "Illo qui unde illum.",
-      "Deleted": false,
-      "Rank": 217,
-      "Type": "quisquam",
+      "Id": 399,
+      "Name": "Hyatt, Jewess and Collier",
+      "ToolTip": "Cumque consequatur est.",
+      "Deleted": true,
+      "Rank": 250,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 749,
-      "ExtraInfo": "velit",
-      "StyleHint": "soluta",
-      "FullName": "Talia Schaefer",
+      "IconHint": "fugiat",
+      "ColorBlock": 788,
+      "ExtraInfo": "maiores",
+      "StyleHint": "et",
+      "FullName": "Dr. Gabriel Eric Hickle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 504
         }
       }
     }
   ],
-  "IconHint": "sequi",
-  "ColorBlock": 474,
+  "IconHint": "magnam",
+  "ColorBlock": 9,
   "ExtraInfo": "iste",
-  "StyleHint": "qui",
-  "FullName": "Miss Tyrell Harris I",
+  "StyleHint": "accusantium",
+  "FullName": "Dr. Kristian Norene Hessel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

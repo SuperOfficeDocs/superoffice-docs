@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 867,
-  "Name": "Reichert, Sawayn and VonRueden",
-  "Tooltip": "eum",
-  "Rank": 665,
+  "SaleTypeId": 45,
+  "Name": "Mraz-Sporer",
+  "Tooltip": "et",
+  "Rank": 758,
   "DurationUnit": "Century",
-  "SaleDuration": 375,
-  "SaleTypeCatId": 87,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 691,
-  "QuoteLinesTemplate": 819,
-  "ConfirmationLinesTemplate": 825,
+  "SaleDuration": 357,
+  "SaleTypeCatId": 243,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 995,
+  "QuoteLinesTemplate": 949,
+  "ConfirmationLinesTemplate": 415,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 639,
-  "MinEarningPercent": 1002,
-  "GroupQuoteLinesBy": 775,
-  "SortGroupLinesBy": 780,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 553,
+  "MinEarningPercent": 433,
+  "GroupQuoteLinesBy": 80,
+  "SortGroupLinesBy": 625,
   "Stages": [
     {
-      "Id": 34,
-      "Name": "Streich, Kilback and Yundt",
-      "ToolTip": "Dolores eum voluptas.",
+      "Id": 243,
+      "Name": "Grimes Inc and Sons",
+      "ToolTip": "Explicabo quas quia atque omnis repellendus dolor suscipit.",
       "Deleted": false,
-      "Rank": 520,
-      "Type": "quibusdam",
+      "Rank": 491,
+      "Type": "voluptate",
       "ColorBlock": 551,
-      "IconHint": "doloribus",
+      "IconHint": "omnis",
       "Selected": false,
-      "LastChanged": "2009-08-20T14:23:46.8942625+02:00",
+      "LastChanged": "2024-01-09T12:19:45.5547007+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Prof. Ella Malvina Welch",
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "ipsum",
+      "Hidden": false,
+      "FullName": "Joannie Heaney I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 683
+          "FieldLength": 737
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=22
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=445
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 291,
-  "StartDate": "2014-08-15T14:23:45.4856311+02:00",
-  "EndDate": "2009-04-19T14:23:45.4856311+02:00",
+  "AppointmentId": 471,
+  "StartDate": "2023-07-21T12:19:44.2424995+02:00",
+  "EndDate": "2014-05-08T12:19:44.2424995+02:00",
   "Type": "BookingForChecklist",
-  "Task": "impedit",
-  "AssociateFullName": "Barrett Kertzmann",
-  "ContactName": "Homenick-Rohan",
-  "Description": "Grass-roots heuristic projection",
-  "PersonFullName": "Emelie Sipes",
-  "PersonId": 369,
-  "ContactId": 935,
-  "ProjectId": 442,
-  "ProjectName": "Pollich LLC",
-  "IsPublished": false,
-  "AssociateId": 468,
-  "ColorIndex": 989,
-  "IsFree": true,
+  "Task": "rem",
+  "AssociateFullName": "Dayne Hills",
+  "ContactName": "Daugherty-Jaskolski",
+  "Description": "Enterprise-wide full-range workforce",
+  "PersonFullName": "Dr. Abby Madyson Stroman",
+  "PersonId": 226,
+  "ContactId": 590,
+  "ProjectId": 914,
+  "ProjectName": "Cartwright-Stanton",
+  "IsPublished": true,
+  "AssociateId": 159,
+  "ColorIndex": 184,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 739,
-  "PriorityName": "Huel-McKenzie",
+  "PriorityId": 703,
+  "PriorityName": "Cruickshank Group",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2011-07-04T14:23:45.4856311+02:00",
+  "ActiveDate": "2009-11-14T12:19:44.2424995+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-09-21T14:23:45.4856311+02:00",
-  "RecurringEndDate": "2016-01-22T14:23:45.4856311+01:00",
-  "MotherId": 294,
-  "AssignedBy": 480,
-  "AssignedByFullName": "Scotty Kieran Breitenberg Sr.",
+  "RecurringStartDate": "1998-01-15T12:19:44.2424995+01:00",
+  "RecurringEndDate": "2013-06-07T12:19:44.2424995+02:00",
+  "MotherId": 5,
+  "AssignedBy": 222,
+  "AssignedByFullName": "Vivianne Prosacco",
   "RejectReason": "",
-  "Location": "ex",
-  "AlarmLeadTime": "at",
-  "SaleId": 66,
-  "SaleName": "Reilly, Balistreri and Upton",
-  "AssociateName": "Reynolds, Nicolas and Emard",
-  "CreatedDate": "2003-10-24T14:23:45.4856311+02:00",
-  "CreatedBy": "debitis",
-  "CreatedByFullName": "Miss Fred Ruecker",
-  "CreatedByAssociateId": 861,
+  "Location": "suscipit",
+  "AlarmLeadTime": "vel",
+  "SaleId": 215,
+  "SaleName": "Jacobs Inc and Sons",
+  "AssociateName": "Jenkins-Block",
+  "CreatedDate": "2017-05-24T12:19:44.2424995+02:00",
+  "CreatedBy": "dolor",
+  "CreatedByFullName": "Granville Cruickshank",
+  "CreatedByAssociateId": 566,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 88,
-  "Title": "dolorem",
-  "Agenda": "eum",
-  "InternalNotes": "expedita",
+  "PreferredTZLocation": 251,
+  "Title": "necessitatibus",
+  "Agenda": "modi",
+  "InternalNotes": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 256
     }
   }
 }

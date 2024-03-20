@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Keebler-Towne",
-    "ToolTip": "Voluptatum minus rem.",
-    "Deleted": false,
-    "Rank": 649,
-    "Type": "ut",
-    "ColorBlock": 214,
-    "IconHint": "non",
+    "Id": 661,
+    "Name": "Brekke, Osinski and O'Kon",
+    "ToolTip": "Quia eligendi officia omnis voluptatem.",
+    "Deleted": true,
+    "Rank": 454,
+    "Type": "neque",
+    "ColorBlock": 328,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2007-05-30T14:23:56.2595732+02:00",
+    "LastChanged": "2021-10-09T12:19:54.7583539+02:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Heller Group",
-        "ToolTip": "Voluptatibus consequatur qui atque ipsum.",
+        "Id": 598,
+        "Name": "Tillman-Fay",
+        "ToolTip": "Quis eius ipsa modi velit.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "sit",
-        "ColorBlock": 543,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2002-05-06T14:23:56.2595732+02:00",
+        "Rank": 665,
+        "Type": "officia",
+        "ColorBlock": 760,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2010-04-26T12:19:54.7583539+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "nam",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Arvid Rocky Kozey V"
+        "FullName": "Lura Kenya Hammes IV"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "ex",
+    "ExtraInfo": "qui",
+    "StyleHint": "quos",
     "Hidden": true,
-    "FullName": "Ewald Hilpert"
+    "FullName": "Stanton Goodwin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Herman LLC",
-    "ToolTip": "Quas voluptas aut aut eos adipisci a molestiae.",
+    "Id": 513,
+    "Name": "Rippin, Stark and Sanford",
+    "ToolTip": "Voluptatibus id eum temporibus ipsum vel assumenda nihil.",
     "Deleted": false,
-    "Rank": 662,
-    "Type": "consequatur",
-    "ColorBlock": 123,
-    "IconHint": "dicta",
+    "Rank": 167,
+    "Type": "qui",
+    "ColorBlock": 571,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2014-03-29T14:23:56.2595732+01:00",
+    "LastChanged": "2007-03-08T12:19:54.7583539+01:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Beahan, Beier and Kuphal",
-        "ToolTip": "Necessitatibus sunt vel asperiores.",
-        "Deleted": false,
-        "Rank": 229,
-        "Type": "nostrum",
-        "ColorBlock": 150,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2020-01-27T14:23:56.2595732+01:00",
+        "Id": 360,
+        "Name": "Koelpin Inc and Sons",
+        "ToolTip": "Modi et eaque et.",
+        "Deleted": true,
+        "Rank": 287,
+        "Type": "sint",
+        "ColorBlock": 179,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2016-01-29T12:19:54.7583539+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "omnis",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Gideon Jaskolski DVM",
+        "FullName": "Prof. Mark Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Alfred Demarco Hudson I",
+    "FullName": "Ms. Marta Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

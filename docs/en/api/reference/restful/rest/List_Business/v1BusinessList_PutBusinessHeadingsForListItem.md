@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Effertz Group",
-    "ToolTip": "Sed dolores officiis sit sit.",
+    "Id": 839,
+    "Name": "Heaney Inc and Sons",
+    "ToolTip": "Nihil ducimus sint quasi ullam occaecati architecto.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "et",
-    "ColorBlock": 431,
-    "IconHint": "ea",
+    "Rank": 802,
+    "Type": "vitae",
+    "ColorBlock": 897,
+    "IconHint": "quidem",
     "Selected": true,
-    "LastChanged": "2006-01-29T14:23:55.9627019+01:00",
+    "LastChanged": "2013-10-30T12:19:54.3053212+01:00",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Shields, Ankunding and Spinka",
-        "ToolTip": "Possimus nihil iusto rerum sunt harum.",
-        "Deleted": true,
-        "Rank": 768,
-        "Type": "porro",
-        "ColorBlock": 483,
-        "IconHint": "dolorem",
+        "Id": 331,
+        "Name": "Torp LLC",
+        "ToolTip": "Commodi rem odit dolor tenetur aut quasi minima.",
+        "Deleted": false,
+        "Rank": 17,
+        "Type": "ut",
+        "ColorBlock": 959,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2003-08-02T14:23:55.9627019+02:00",
+        "LastChanged": "2005-12-04T12:19:54.3053212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Juana Hettie Shanahan IV"
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Adriana Sawayn"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "eum",
+    "ExtraInfo": "repellat",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Earnestine Block DDS"
+    "FullName": "Dewayne Moore"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Adams, Volkman and Fahey",
-    "ToolTip": "Ex sunt ut nesciunt reprehenderit.",
+    "Id": 289,
+    "Name": "Smitham, Harvey and Stoltenberg",
+    "ToolTip": "Repellendus sequi.",
     "Deleted": false,
-    "Rank": 70,
-    "Type": "voluptate",
-    "ColorBlock": 680,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2022-07-17T14:23:55.9627019+02:00",
+    "Rank": 368,
+    "Type": "eligendi",
+    "ColorBlock": 77,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2008-10-01T12:19:54.3053212+02:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Willms LLC",
-        "ToolTip": "Sunt reiciendis cupiditate id alias est.",
+        "Id": 900,
+        "Name": "Shields Group",
+        "ToolTip": "Vel itaque.",
         "Deleted": false,
-        "Rank": 177,
-        "Type": "quae",
-        "ColorBlock": 48,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2019-01-08T14:23:55.9627019+01:00",
+        "Rank": 995,
+        "Type": "corporis",
+        "ColorBlock": 37,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2001-09-30T12:19:54.3053212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Maeve Bernardo Swift Jr.",
+        "ExtraInfo": "ratione",
+        "StyleHint": "culpa",
+        "Hidden": true,
+        "FullName": "Friedrich Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Sarina Barrows",
+    "ExtraInfo": "sunt",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Ardella Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

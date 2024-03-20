@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 548,
-  "Name": "Hansen LLC",
-  "Description": "Cross-platform 24 hour approach"
+  "SourceId": 580,
+  "Name": "Kris, Romaguera and Kiehn",
+  "Description": "Distributed non-volatile pricing structure"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 661,
+  "ReportId": 635,
   "ReportCategory": "All",
-  "Description": "Focused needs-based firmware",
+  "Description": "De-engineered 6th generation function",
   "ReportLayout": "CalendarMonth",
-  "Name": "O'Kon-Upton",
-  "AssociateId": 516,
-  "TemplateId": 329,
+  "Name": "Boyle-Hermann",
+  "AssociateId": 164,
+  "TemplateId": 165,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 792
     }
   }
 }

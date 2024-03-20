@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 585,
-  "Name": "Schimmel-Schinner",
-  "Tooltip": "consequatur",
+  "HeadingId": 739,
+  "Name": "Sipes-Morissette",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 73,
-  "UdListDefinitionId": 666
+  "Rank": 687,
+  "UdListDefinitionId": 614
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 143,
-  "Name": "Vandervort Inc and Sons",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "Rank": 569,
-  "UdListDefinitionId": 463,
+  "HeadingId": 760,
+  "Name": "O'Connell LLC",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 92,
+  "UdListDefinitionId": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 941
     }
   }
 }

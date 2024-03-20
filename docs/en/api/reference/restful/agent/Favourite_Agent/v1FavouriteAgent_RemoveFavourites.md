@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jerde, Mohr and Kohler",
+  "TableName": "Runolfsson LLC",
   "RecordIds": [
-    171,
-    512
+    498,
+    320
   ],
-  "AssociateId": 960
+  "AssociateId": 200
 }
 ```
 

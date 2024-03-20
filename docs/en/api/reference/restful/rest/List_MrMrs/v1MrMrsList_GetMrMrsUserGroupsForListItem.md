@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Waters, Grady and Ondricka",
-    "ToolTip": "Quas eum omnis asperiores velit incidunt.",
+    "Id": 271,
+    "Name": "Renner Inc and Sons",
+    "ToolTip": "Consequuntur qui voluptatem consectetur.",
     "Deleted": false,
-    "Rank": 868,
-    "Type": "impedit",
-    "ColorBlock": 461,
-    "IconHint": "est",
+    "Rank": 238,
+    "Type": "voluptate",
+    "ColorBlock": 951,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2006-10-28T14:23:56.1345776+02:00",
+    "LastChanged": "2013-02-24T12:19:54.6177594+01:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Welch Inc and Sons",
-        "ToolTip": "Atque nobis facere.",
-        "Deleted": false,
-        "Rank": 122,
-        "Type": "dolor",
-        "ColorBlock": 961,
-        "IconHint": "eveniet",
+        "Id": 211,
+        "Name": "Koss-Block",
+        "ToolTip": "Et et.",
+        "Deleted": true,
+        "Rank": 574,
+        "Type": "deserunt",
+        "ColorBlock": 556,
+        "IconHint": "libero",
         "Selected": true,
-        "LastChanged": "2012-02-15T14:23:56.1345776+01:00",
+        "LastChanged": "2004-06-15T12:19:54.6177594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "nam",
-        "Hidden": true,
-        "FullName": "Gloria Gislason",
+        "ExtraInfo": "animi",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Armani Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 558
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Bonnie Emard",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "recusandae",
+    "Hidden": true,
+    "FullName": "Leon Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 794
       }
     }
   }

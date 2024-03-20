@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 25,
-  "Name": "Green, Grant and Schuppe",
-  "Description": "Multi-lateral needs-based hierarchy",
+  "ReportLabelLayoutId": 334,
+  "Name": "Sauer-Heaney",
+  "Description": "Multi-channelled directional migration",
   "Orientation": "Landscape",
-  "PaperWidth": 643,
-  "PaperHeight": 3,
-  "LeftMargin": 70,
-  "RightMargin": 473,
-  "TopMargin": 896,
-  "BottomMargin": 224,
-  "CountColumns": 76,
-  "CountRows": 43,
+  "PaperWidth": 623,
+  "PaperHeight": 754,
+  "LeftMargin": 347,
+  "RightMargin": 893,
+  "TopMargin": 256,
+  "BottomMargin": 308,
+  "CountColumns": 511,
+  "CountRows": 53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 700
     }
   }
 }

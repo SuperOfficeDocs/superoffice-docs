@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 607,
+  "CRMScriptId": 881,
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quaerat",
-    "InputValues2": "dolore"
+    "InputValues1": "exercitationem",
+    "InputValues2": "illum"
   },
-  "BlockExecution": false,
-  "NavigateTo": "quam",
-  "Message": "sunt",
-  "ShowDialog": "est",
+  "BlockExecution": true,
+  "NavigateTo": "quaerat",
+  "Message": "ratione",
+  "ShowDialog": "nihil",
   "OutputValues": {
-    "OutputValues1": "porro",
-    "OutputValues2": "voluptas"
+    "OutputValues1": "assumenda",
+    "OutputValues2": "excepturi"
   },
   "StateValues": {
-    "StateValues1": "reiciendis",
-    "StateValues2": "sequi"
+    "StateValues1": "dicta",
+    "StateValues2": "pariatur"
   },
-  "Exception": "doloremque",
+  "Exception": "aliquam",
   "ParserValues": {
-    "ParserValues1": "aliquam",
-    "ParserValues2": "et"
+    "ParserValues1": "enim",
+    "ParserValues2": "voluptates"
   },
   "CgiVariables": {
-    "CgiVariables1": "quia",
-    "CgiVariables2": "ipsum"
+    "CgiVariables1": "magni",
+    "CgiVariables2": "expedita"
   },
-  "CgiContent": "veniam",
+  "CgiContent": "voluptas",
   "Headers": {
-    "Headers1": "culpa",
-    "Headers2": "dolores"
+    "Headers1": "nisi",
+    "Headers2": "repellendus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 550
     }
   }
 }

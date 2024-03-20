@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 388,
-  "Name": "Herman, Konopelski and Bauch",
-  "Description": "Polarised fresh-thinking software",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 844,
+  "Name": "Jenkins, Kihn and Powlowski",
+  "Description": "Open-architected neutral installation",
+  "WelcomeMessage": "id",
   "Language": null,
-  "LastAccept": "2004-08-05T14:23:45.9387095+02:00",
-  "SecondsPrAccept": 862,
-  "AlertRecipient": "non",
+  "LastAccept": "2021-08-01T12:19:44.5705529+02:00",
+  "SecondsPrAccept": 565,
+  "AlertRecipient": "enim",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "alias",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quos",
-  "WarnNewChatMinutes": 677,
-  "WarnManagerNewChatMinutes": 505,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "nisi",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "amet",
+  "WarnNewChatMinutes": 106,
+  "WarnManagerNewChatMinutes": 514,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 530,
-  "WarnManagerChatMessageMinutes": 833,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 9,
+  "WarnManagerChatMessageMinutes": 258,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 299,
-  "OfflineFormQueueLength": 401,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "incidunt"
+  "OfflineFormTimeLimit": 782,
+  "OfflineFormQueueLength": 17,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "sunt"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 478,
-  "Name": "Hand-Sanford",
-  "Description": "Function-based incremental standardization",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 612,
+  "Name": "Oberbrunner-Hansen",
+  "Description": "Ergonomic static open architecture",
+  "WelcomeMessage": "non",
   "Language": null,
-  "LastAccept": "2016-07-30T14:23:45.9387095+02:00",
-  "SecondsPrAccept": 551,
-  "AlertRecipient": "minima",
+  "LastAccept": "2003-07-04T12:19:44.5705529+02:00",
+  "SecondsPrAccept": 997,
+  "AlertRecipient": "ipsam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "non",
-  "WarnNewChatMinutes": 444,
-  "WarnManagerNewChatMinutes": 555,
+  "BadgeHeader": "facere",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "animi",
+  "WarnNewChatMinutes": 599,
+  "WarnManagerNewChatMinutes": 895,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 715,
-  "WarnManagerChatMessageMinutes": 381,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 248,
-  "OfflineFormQueueLength": 226,
+  "WarnChatMessageMinutes": 483,
+  "WarnManagerChatMessageMinutes": 97,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 681,
+  "OfflineFormQueueLength": 199,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "fuga",
+  "WidgetRatingText": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 609
     }
   }
 }

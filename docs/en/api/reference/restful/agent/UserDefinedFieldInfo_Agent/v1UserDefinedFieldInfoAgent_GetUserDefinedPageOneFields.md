@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 230
+  "UserGroupId": 894
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 583,
-    "ColumnId": 479,
-    "FieldDefault": "blanditiis",
-    "FieldHeight": 702,
-    "FieldLabel": "quibusdam",
-    "FieldLeft": 878,
-    "FieldTop": 46,
+    "UDefFieldId": 402,
+    "ColumnId": 931,
+    "FieldDefault": "omnis",
+    "FieldHeight": 655,
+    "FieldLabel": "ratione",
+    "FieldLeft": 394,
+    "FieldTop": 984,
     "FieldType": "Checkbox",
-    "FieldWidth": 694,
-    "FormatMask": "sint",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 225,
-    "LabelLeft": 28,
-    "LabelTop": 450,
-    "LabelWidth": 689,
-    "LastVersionId": 792,
-    "ListTableId": 64,
-    "IsMandatory": true,
+    "FieldWidth": 526,
+    "FormatMask": "aperiam",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 434,
+    "LabelLeft": 143,
+    "LabelTop": 563,
+    "LabelWidth": 420,
+    "LastVersionId": 461,
+    "ListTableId": 7,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 512,
-    "ProgId": "laudantium",
-    "IsReadOnly": false,
-    "ShortLabel": "magnam",
-    "TabOrder": 401,
-    "TextLength": 87,
-    "Tooltip": "porro",
-    "UdefIdentity": 113,
-    "UDListDefinitionId": 179,
+    "Page1LineNo": 70,
+    "ProgId": "sunt",
+    "IsReadOnly": true,
+    "ShortLabel": "eum",
+    "TabOrder": 168,
+    "TextLength": 541,
+    "Tooltip": "hic",
+    "UdefIdentity": 755,
+    "UDListDefinitionId": 14,
     "Justification": "Center",
-    "Version": 368,
-    "TemplateVariableName": "Jewess Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Walker-Cummings",
+    "Version": 868,
+    "TemplateVariableName": "Green Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Deckow-Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldType": "System.Int32",
+        "FieldLength": 827
       }
     }
   }

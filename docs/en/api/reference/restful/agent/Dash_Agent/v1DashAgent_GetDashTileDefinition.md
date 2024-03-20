@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=332
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=162
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 667,
-  "Name": "Stoltenberg-Kirlin",
-  "Description": "Centralized 6th generation hub",
-  "DefaultHeight": 199,
-  "DefaultWidth": 599,
+  "DashboardTileDefinitionId": 983,
+  "Name": "Halvorson Group",
+  "Description": "Optimized content-based application",
+  "DefaultHeight": 547,
+  "DefaultWidth": 4,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kub Group",
-  "SelectionId": 286,
+  "EntityName": "Swaniawski LLC",
+  "SelectionId": 887,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eius",
+  "CurrencyCode": "facere",
   "Measure": "Average",
-  "MeasureField": "dolorem",
-  "SortBy": "veniam",
-  "LayoutConfig": "quisquam",
-  "SecondarySelectionId": 222,
-  "MeasureByField": "ducimus",
+  "MeasureField": "provident",
+  "SortBy": "quidem",
+  "LayoutConfig": "maxime",
+  "SecondarySelectionId": 587,
+  "MeasureByField": "tempora",
   "Usage": "Dashboard",
-  "ProviderName": "Considine Inc and Sons",
+  "ProviderName": "Bernhard Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

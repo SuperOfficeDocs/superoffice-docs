@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenfelder Inc and Sons",
-  "ContactGroupId": 374,
-  "ContactAssociateId": 521
+  "TableName": "Price Inc and Sons",
+  "ContactGroupId": 190,
+  "ContactAssociateId": 811
 }
 ```
 

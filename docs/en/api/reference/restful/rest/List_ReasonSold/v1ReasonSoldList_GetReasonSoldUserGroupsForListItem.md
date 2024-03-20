@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Kilback Group",
-    "ToolTip": "Temporibus voluptate beatae eligendi.",
-    "Deleted": false,
-    "Rank": 986,
-    "Type": "aut",
-    "ColorBlock": 718,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2010-06-07T14:23:56.3064496+02:00",
+    "Id": 251,
+    "Name": "Gottlieb Group",
+    "ToolTip": "Et quia.",
+    "Deleted": true,
+    "Rank": 836,
+    "Type": "placeat",
+    "ColorBlock": 310,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2006-04-13T12:19:54.8052144+02:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Rogahn Group",
-        "ToolTip": "Cumque laboriosam vitae ut quia minus ut.",
-        "Deleted": false,
-        "Rank": 675,
-        "Type": "quis",
-        "ColorBlock": 358,
-        "IconHint": "itaque",
+        "Id": 369,
+        "Name": "Skiles LLC",
+        "ToolTip": "Esse porro voluptatem voluptatibus.",
+        "Deleted": true,
+        "Rank": 822,
+        "Type": "esse",
+        "ColorBlock": 267,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2015-05-11T14:23:56.3064496+02:00",
+        "LastChanged": "2014-07-01T12:19:54.8052144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Laurence Flatley",
+        "ExtraInfo": "sunt",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Crystal Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldType": "System.String",
+            "FieldLength": 875
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Miss Augustus Jakubowski",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "atque",
+    "Hidden": false,
+    "FullName": "Ms. Ellen Mohammed Kessler DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 406
       }
     }
   }

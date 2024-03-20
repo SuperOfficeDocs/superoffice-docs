@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "quia",
-  "DisplayTooltip": "voluptate",
+  "DisplayValue": "et",
+  "DisplayTooltip": "ab",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 289,
-  "PrefDescId": 799,
-  "TableName": "Rohan LLC",
-  "UserPreferenceId": 322,
+  "TargetId": 11,
+  "PrefDescId": 837,
+  "TableName": "Rutherford-Grimes",
+  "UserPreferenceId": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

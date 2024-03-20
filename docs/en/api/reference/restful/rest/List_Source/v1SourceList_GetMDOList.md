@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=ipsum
+GET /api/v1/List/Source/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Beatty, Morar and Greenholt",
-    "ToolTip": "Iste recusandae vel voluptatem.",
-    "Deleted": false,
-    "Rank": 235,
-    "Type": "in",
+    "Id": 921,
+    "Name": "Waters-Brakus",
+    "ToolTip": "A consequuntur ex voluptates minus a.",
+    "Deleted": true,
+    "Rank": 188,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Fisher Inc and Sons",
-        "ToolTip": "Dignissimos dolores laudantium voluptas nihil facilis consequatur.",
+        "Id": 299,
+        "Name": "Bogan-Bayer",
+        "ToolTip": "Sunt dolorem.",
         "Deleted": false,
-        "Rank": 259,
-        "Type": "earum",
+        "Rank": 482,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 693,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "rem",
-        "FullName": "Mr. Juston Berenice Wisoky MD",
+        "IconHint": "eum",
+        "ColorBlock": 558,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "dolorem",
+        "FullName": "Dina Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 427
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 420,
-    "ExtraInfo": "maxime",
-    "StyleHint": "quibusdam",
-    "FullName": "Twila Saul Rippin V",
+    "IconHint": "in",
+    "ColorBlock": 977,
+    "ExtraInfo": "aut",
+    "StyleHint": "aut",
+    "FullName": "Vidal Hayes MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 769
+        "FieldLength": 604
       }
     }
   }

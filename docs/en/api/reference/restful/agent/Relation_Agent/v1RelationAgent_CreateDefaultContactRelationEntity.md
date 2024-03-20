@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 695,
-  "SourcePersonId": 62,
-  "DestinationContactId": 445,
-  "DestinationPersonId": 650,
-  "RelationId": 809,
-  "Comment": "dicta",
-  "RelationDefinitionId": 615,
-  "Reversed": 404,
-  "UpdatedDate": "2014-02-03T14:23:47.2692571+01:00",
-  "CreatedDate": "2000-10-15T14:23:47.2692571+02:00",
+  "SourceContactId": 307,
+  "SourcePersonId": 510,
+  "DestinationContactId": 222,
+  "DestinationPersonId": 690,
+  "RelationId": 952,
+  "Comment": "animi",
+  "RelationDefinitionId": 690,
+  "Reversed": 470,
+  "UpdatedDate": "2007-11-07T12:19:46.117062+01:00",
+  "CreatedDate": "2004-07-31T12:19:46.117062+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Walter, Kunde and Steuber",
-  "SourcePersonName": "Corwin Group",
-  "DestinationContactName": "Hilpert, Gaylord and Ernser",
-  "DestinationPersonName": "Gaylord, Barrows and Spencer",
-  "ActiveText": "minima",
-  "PassiveText": "sed",
+  "SourceContactName": "Veum-Prosacco",
+  "SourcePersonName": "Jacobs-Spinka",
+  "DestinationContactName": "Lueilwitz-Kulas",
+  "DestinationPersonName": "Gleason-Walter",
+  "ActiveText": "quae",
+  "PassiveText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

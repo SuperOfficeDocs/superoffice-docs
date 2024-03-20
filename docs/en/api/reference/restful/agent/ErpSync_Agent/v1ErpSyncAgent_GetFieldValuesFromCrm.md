@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 217,
+  "RecordId": 966,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan, Torphy and Jenkins",
-    "CrmFieldKey": "in",
-    "Value": "deserunt",
-    "DisplayValue": "vero",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "DisplayName": "Aufderhar, Glover and Klein",
+    "CrmFieldKey": "ab",
+    "Value": "non",
+    "DisplayValue": "blanditiis",
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Balistreri Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 78,
+  "Id": 591,
+  "Name": "Waters Inc and Sons",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 199,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 429,
-  "Name": "Hintz LLC",
-  "Tooltip": "enim",
+  "Id": 462,
+  "Name": "Brekke, Borer and Fay",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 965,
+  "Rank": 10,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "odit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 689
     }
   }
 }

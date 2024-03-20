@@ -62,15 +62,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lesch Group",
-    "DisplayName": "Schinner Inc and Sons",
-    "DisplayTooltip": "ut",
+    "Name": "Dicki Group",
+    "DisplayName": "Rippin LLC",
+    "DisplayTooltip": "sit",
     "IsActive": false
   },
   {
-    "Name": "Lesch Group",
-    "DisplayName": "Schinner Inc and Sons",
-    "DisplayTooltip": "ut",
+    "Name": "Dicki Group",
+    "DisplayName": "Rippin LLC",
+    "DisplayTooltip": "sit",
     "IsActive": false
   }
 ]

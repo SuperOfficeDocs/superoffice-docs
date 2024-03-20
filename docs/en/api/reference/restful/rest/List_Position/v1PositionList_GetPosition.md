@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Legros, Windler and Breitenberg",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 642,
-  "Rank": 417,
+  "Id": 852,
+  "Name": "Metz-Crooks",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "UdListDefinitionId": 742,
+  "Rank": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 711
     }
   }
 }

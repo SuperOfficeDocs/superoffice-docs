@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Kshlerin, Hackett and Schiller",
-  "Tooltip": "ipsam",
+  "Id": 271,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 95,
+  "Rank": 521,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Botsford, Parker and Paucek",
-  "Tooltip": "qui",
+  "Id": 162,
+  "Name": "Stokes LLC",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 944,
+  "Rank": 756,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 56,
-  "EmailAddress": "mertie.moore@barrows.biz",
-  "EmailTemplateId": 659,
-  "CultureLcidId": 949,
-  "Subject": "quas"
+  "PersonId": 954,
+  "EmailAddress": "karl@rosenbaum.us",
+  "EmailTemplateId": 215,
+  "CultureLcidId": 122,
+  "Subject": "a"
 }
 ```
 

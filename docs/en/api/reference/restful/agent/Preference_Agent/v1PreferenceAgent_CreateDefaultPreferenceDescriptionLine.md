@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 948,
-  "PrefDescId": 601,
-  "PrefValue": "distinctio",
-  "PrefShowValue": "ut",
-  "Description": "Operative neutral frame",
+  "PrefDescLineId": 357,
+  "PrefDescId": 287,
+  "PrefValue": "officia",
+  "PrefShowValue": "necessitatibus",
+  "Description": "Monitored client-server functionalities",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 473
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

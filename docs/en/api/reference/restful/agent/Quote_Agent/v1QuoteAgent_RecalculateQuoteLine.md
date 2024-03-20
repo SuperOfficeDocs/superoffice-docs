@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "dicta",
-    "ea"
+    "maxime",
+    "magnam"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 652,
-  "ERPQuoteLineKey": "rerum",
-  "QuoteAlternativeId": 163,
-  "ERPProductKey": "magnam",
+  "QuoteLineId": 534,
+  "ERPQuoteLineKey": "autem",
+  "QuoteAlternativeId": 88,
+  "ERPProductKey": "inventore",
   "Status": "Error",
-  "Reason": "innovate clicks-and-mortar functionalities",
-  "Quantity": 4873.37,
-  "DeliveredQuantity": 2109.182,
-  "Rank": 913,
-  "Name": "White-Toy",
-  "Description": "Programmable hybrid projection",
-  "Code": "et",
-  "QuantityUnit": "autem",
-  "PriceUnit": "sit",
-  "ItemNumber": "272737",
+  "Reason": "",
+  "Quantity": 23696.174,
+  "DeliveredQuantity": 8725.056,
+  "Rank": 167,
+  "Name": "Abernathy Inc and Sons",
+  "Description": "Progressive system-worthy website",
+  "Code": "accusantium",
+  "QuantityUnit": "dolor",
+  "PriceUnit": "ut",
+  "ItemNumber": "980315",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sequi",
+  "ProductFamilyKey": "impedit",
   "ProductTypeKey": "dolores",
-  "Supplier": "ipsam",
-  "SupplierCode": "sint",
-  "Thumbnail": "distinctio",
-  "VATInfo": "at",
-  "VAT": 3839.15,
-  "UnitCost": 1184.652,
-  "UnitMinimumPrice": 1582.6699999999998,
-  "UnitListPrice": 25187.958,
+  "Supplier": "rem",
+  "SupplierCode": "numquam",
+  "Thumbnail": "laudantium",
+  "VATInfo": "quibusdam",
+  "VAT": 28014.825999999997,
+  "UnitCost": 25886.84,
+  "UnitMinimumPrice": 21621.466,
+  "UnitListPrice": 24977.98,
   "ExtraInfo": [
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "necessitatibus",
+      "Name": "Feeney-King",
+      "Value": "recusandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 663
         }
       }
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "necessitatibus",
+      "Name": "Feeney-King",
+      "Value": "recusandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 663
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 31086.146,
-  "SubscriptionStart": "2018-04-13T14:23:47.1911342+02:00",
-  "ERPDiscountPercent": 16660.344,
-  "ERPDiscountAmount": 3228.02,
-  "DiscountPercent": 16318.738,
-  "DiscountAmount": 16544.386,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "recusandae",
+  "SubscriptionQuantity": 11555.057999999999,
+  "SubscriptionStart": "2000-08-21T12:19:46.054573+02:00",
+  "ERPDiscountPercent": 21521.178,
+  "ERPDiscountAmount": 24175.676,
+  "DiscountPercent": 3425.462,
+  "DiscountAmount": 27193.718,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5540.912,
-  "EarningAmount": 16660.344,
-  "SubTotal": 12379.3,
-  "TotalPrice": 28989.5,
-  "Rights": "dolorem",
-  "Rule": "saepe",
-  "ExtraField1": "est",
-  "ExtraField2": "id",
-  "ExtraField3": "vero",
-  "ExtraField4": "vitae",
-  "ExtraField5": "quae",
+  "EarningPercent": 6578.266,
+  "EarningAmount": 4384.4659999999994,
+  "SubTotal": 13247.418,
+  "TotalPrice": 23771.39,
+  "Rights": "atque",
+  "Rule": "eos",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "omnis",
+  "ExtraField3": "earum",
+  "ExtraField4": "quae",
+  "ExtraField5": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 395
     }
   }
 }

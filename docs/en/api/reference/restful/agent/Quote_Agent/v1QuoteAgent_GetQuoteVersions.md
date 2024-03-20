@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 77
+  "QuoteId": 579
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 187,
-    "ERPQuoteVersionKey": "voluptatum",
-    "QuoteId": 646,
-    "Description": "Vision-oriented bifurcated methodology",
-    "Number": "1274102",
+    "QuoteVersionId": 837,
+    "ERPQuoteVersionKey": "minus",
+    "QuoteId": 178,
+    "Description": "Digitized dedicated knowledge base",
+    "Number": "729118",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "embrace visionary portals",
-    "LikelyQuoteAlternativeId": 318,
-    "SentDate": "2004-05-04T14:23:47.2067575+02:00",
-    "FollowupId": 49,
-    "ExpirationDate": "2014-12-03T14:23:47.2067575+01:00",
-    "DeliveryCountryId": 672,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 126,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 959,
+    "SentDate": "2018-06-17T12:19:46.054573+02:00",
+    "FollowupId": 40,
+    "ExpirationDate": "2001-04-04T12:19:46.054573+02:00",
+    "DeliveryCountryId": 936,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 606,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "omnis",
-    "ERPPaymentTypeKey": "fugit",
-    "ERPDeliveryTermsKey": "excepturi",
-    "ERPDeliveryTypeKey": "accusantium",
-    "Rank": 628,
-    "ApprovedBy": 566,
-    "ApprovedText": "molestiae",
-    "ApprovedRegisteredBy": 390,
-    "ApprovedRegisteredDate": "2022-10-01T14:23:47.2067575+02:00",
+    "ERPPaymentTermsKey": "deleniti",
+    "ERPPaymentTypeKey": "quae",
+    "ERPDeliveryTermsKey": "sit",
+    "ERPDeliveryTypeKey": "aut",
+    "Rank": 83,
+    "ApprovedBy": 964,
+    "ApprovedText": "nulla",
+    "ApprovedRegisteredBy": 608,
+    "ApprovedRegisteredDate": "2006-01-10T12:19:46.054573+01:00",
     "ExtraField1": "ut",
-    "ExtraField2": "officia",
-    "ExtraField3": "molestias",
-    "ExtraField4": "modi",
-    "ExtraField5": "occaecati",
-    "LastRecalculated": "1997-02-23T14:23:47.2067575+01:00",
-    "Updated": "1999-02-04T14:23:47.2067575+01:00",
-    "UpdatedAssociateId": 577,
-    "Registered": "2001-12-12T14:23:47.2067575+01:00",
-    "RegisteredAssociateId": 327,
-    "RequestAssociateId": 424,
-    "RequestComment": "numquam",
+    "ExtraField2": "odit",
+    "ExtraField3": "illum",
+    "ExtraField4": "aut",
+    "ExtraField5": "magnam",
+    "LastRecalculated": "2018-08-14T12:19:46.054573+02:00",
+    "Updated": "2008-12-16T12:19:46.054573+01:00",
+    "UpdatedAssociateId": 790,
+    "Registered": "2017-11-19T12:19:46.054573+01:00",
+    "RegisteredAssociateId": 57,
+    "RequestAssociateId": 896,
+    "RequestComment": "aut",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 338,
-        "ERPQuoteAlternativeKey": "voluptatem",
-        "QuoteVersionId": 764,
-        "Name": "Schultz LLC",
-        "Description": "Digitized logistical complexity",
+        "QuoteAlternativeId": 523,
+        "ERPQuoteAlternativeKey": "aut",
+        "QuoteVersionId": 133,
+        "Name": "Emard-Pfannerstill",
+        "Description": "Enhanced stable moratorium",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 9840.76,
-        "ERPDiscountAmount": 10859.31,
-        "DiscountPercent": 12059.632,
-        "DiscountAmount": 10821.702,
+        "ERPDiscountPercent": 28296.886,
+        "ERPDiscountAmount": 3441.132,
+        "DiscountPercent": 22392.43,
+        "DiscountAmount": 17882.604,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "consequatur",
-        "VAT": 27917.672,
-        "EarningPercent": 12043.962,
-        "EarningAmount": 1137.642,
-        "SubTotal": 19609.438,
-        "TotalPrice": 31126.888,
-        "ExtraField1": "ipsa",
-        "ExtraField2": "qui",
-        "ExtraField3": "perspiciatis",
-        "ExtraField4": "molestiae",
-        "ExtraField5": "animi",
+        "VATInfo": "eligendi",
+        "VAT": 14237.761999999999,
+        "EarningPercent": 18358.971999999998,
+        "EarningAmount": 17967.221999999998,
+        "SubTotal": 6919.8719999999994,
+        "TotalPrice": 1125.106,
+        "ExtraField1": "quos",
+        "ExtraField2": "dolorum",
+        "ExtraField3": "est",
+        "ExtraField4": "dolores",
+        "ExtraField5": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldType": "System.String",
+            "FieldLength": 513
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 460
       }
     }
   }

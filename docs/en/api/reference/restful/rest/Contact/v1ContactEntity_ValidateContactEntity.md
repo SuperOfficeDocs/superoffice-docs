@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 409,
-  "Name": "Feest Group",
+  "ContactId": 120,
+  "Name": "Ondricka, Moore and Buckridge",
   "Department": "",
-  "OrgNr": "1367895",
-  "Number1": "802936",
-  "Number2": "1110412",
-  "UpdatedDate": "2010-04-23T14:23:55.0083878+02:00",
-  "CreatedDate": "2004-09-06T14:23:55.0083878+02:00",
+  "OrgNr": "1126399",
+  "Number1": "638393",
+  "Number2": "387705",
+  "UpdatedDate": "2009-04-26T12:19:53.2743262+02:00",
+  "CreatedDate": "1999-12-06T12:19:53.2743262+01:00",
   "Emails": [
     {
-      "Value": "maiores",
-      "StrippedValue": "maiores",
-      "Description": "Horizontal 4th generation hub"
+      "Value": "sint",
+      "StrippedValue": "aperiam",
+      "Description": "Function-based mobile time-frame"
     },
     {
-      "Value": "maiores",
-      "StrippedValue": "maiores",
-      "Description": "Horizontal 4th generation hub"
+      "Value": "sint",
+      "StrippedValue": "aperiam",
+      "Description": "Function-based mobile time-frame"
     }
   ],
   "Interests": [
     {
-      "Id": 753,
-      "Name": "Lemke, Mraz and Hintz",
-      "ToolTip": "Quod consectetur voluptas at.",
+      "Id": 179,
+      "Name": "Rippin Inc and Sons",
+      "ToolTip": "Consequatur neque cupiditate in nulla.",
       "Deleted": false,
-      "Rank": 312,
-      "Type": "praesentium",
-      "ColorBlock": 528,
-      "IconHint": "rerum",
+      "Rank": 213,
+      "Type": "saepe",
+      "ColorBlock": 341,
+      "IconHint": "architecto",
       "Selected": true,
-      "LastChanged": "2008-06-08T14:23:55.0083878+02:00",
+      "LastChanged": "2001-03-25T12:19:53.2743262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "provident",
+      "ExtraInfo": "odio",
+      "StyleHint": "veritatis",
       "Hidden": false,
-      "FullName": "Mrs. Adrienne Turcotte"
+      "FullName": "Mrs. Ian Considine V"
     }
   ],
   "Urls": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "dolores",
-      "Description": "Optimized bottom-line capability"
+      "Value": "hic",
+      "StrippedValue": "qui",
+      "Description": "Cross-platform transitional pricing structure"
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "dolores",
-      "Description": "Optimized bottom-line capability"
+      "Value": "hic",
+      "StrippedValue": "qui",
+      "Description": "Cross-platform transitional pricing structure"
     }
   ],
   "Phones": [
     {
-      "Value": "labore",
-      "StrippedValue": "non",
-      "Description": "Reverse-engineered bi-directional project"
+      "Value": "veritatis",
+      "StrippedValue": "atque",
+      "Description": "Programmable clear-thinking intranet"
     },
     {
-      "Value": "labore",
-      "StrippedValue": "non",
-      "Description": "Reverse-engineered bi-directional project"
+      "Value": "veritatis",
+      "StrippedValue": "atque",
+      "Description": "Programmable clear-thinking intranet"
     }
   ],
   "Faxes": [
     {
-      "Value": "doloribus",
-      "StrippedValue": "maiores",
-      "Description": "Digitized heuristic budgetary management"
+      "Value": "blanditiis",
+      "StrippedValue": "non",
+      "Description": "Expanded context-sensitive neural-net"
     },
     {
-      "Value": "doloribus",
-      "StrippedValue": "maiores",
-      "Description": "Digitized heuristic budgetary management"
+      "Value": "blanditiis",
+      "StrippedValue": "non",
+      "Description": "Expanded context-sensitive neural-net"
     }
   ],
-  "Description": "Mandatory solution-oriented conglomeration",
+  "Description": "Diverse scalable Graphic Interface",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "nisi",
-      "PersonId": 552,
-      "Mrmrs": "magnam",
-      "Firstname": "Jeffrey",
-      "Lastname": "Weber",
-      "MiddleName": "Stanton-McClure",
-      "Title": "voluptatibus",
-      "Description": "Robust stable solution",
-      "Email": "don@wisozk.com",
-      "FullName": "Willa Spinka",
-      "DirectPhone": "331-496-8633 x887",
-      "FormalName": "Hand-Krajcik",
-      "CountryId": 539,
-      "ContactId": 437,
-      "ContactName": "Gislason LLC",
-      "Retired": 344,
-      "Rank": 567,
-      "ActiveInterests": 406,
+      "Position": "et",
+      "PersonId": 578,
+      "Mrmrs": "vel",
+      "Firstname": "Rene",
+      "Lastname": "Wisozk",
+      "MiddleName": "Graham LLC",
+      "Title": "voluptas",
+      "Description": "Balanced multimedia conglomeration",
+      "Email": "dale@mantedibbert.info",
+      "FullName": "Karlee Hauck",
+      "DirectPhone": "(045)400-2068",
+      "FormalName": "Donnelly Inc and Sons",
+      "CountryId": 400,
+      "ContactId": 21,
+      "ContactName": "Wyman LLC",
+      "Retired": 780,
+      "Rank": 98,
+      "ActiveInterests": 253,
       "ContactDepartment": "",
-      "ContactCountryId": 442,
-      "ContactOrgNr": "1360758",
-      "FaxPhone": "1-960-733-1378 x6119",
-      "MobilePhone": "705-122-6514 x484",
-      "ContactPhone": "(310)727-8776 x1682",
-      "AssociateName": "Bahringer-Dietrich",
-      "AssociateId": 519,
-      "UsePersonAddress": false,
-      "ContactFax": "esse",
-      "Kanafname": "asperiores",
-      "Kanalname": "rem",
-      "Post1": "placeat",
-      "Post2": "amet",
-      "Post3": "nihil",
-      "EmailName": "audreanne_mann@dickens.us",
-      "ContactFullName": "Dr. Laura Gibson DDS",
-      "ActiveErpLinks": 270,
-      "TicketPriorityId": 900,
-      "SupportLanguageId": 906,
-      "SupportAssociateId": 970,
+      "ContactCountryId": 633,
+      "ContactOrgNr": "1177913",
+      "FaxPhone": "425-791-2372",
+      "MobilePhone": "1-652-032-7056",
+      "ContactPhone": "220.591.4790 x00019",
+      "AssociateName": "Stracke Inc and Sons",
+      "AssociateId": 395,
+      "UsePersonAddress": true,
+      "ContactFax": "fugiat",
+      "Kanafname": "minima",
+      "Kanalname": "dolore",
+      "Post1": "et",
+      "Post2": "minima",
+      "Post3": "similique",
+      "EmailName": "cullen@pfannerstillkassulke.com",
+      "ContactFullName": "Thurman Marley Luettgen DDS",
+      "ActiveErpLinks": 711,
+      "TicketPriorityId": 191,
+      "SupportLanguageId": 734,
+      "SupportAssociateId": 391,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "velit",
-  "Xstop": false,
-  "ActiveInterests": 722,
-  "GroupId": 588,
-  "ActiveStatusMonitorId": 898,
+  "Kananame": "et",
+  "Xstop": true,
+  "ActiveInterests": 467,
+  "GroupId": 57,
+  "ActiveStatusMonitorId": 392,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 17,
-  "DbiAgentId": 257,
-  "DbiLastSyncronized": "2005-10-28T14:23:55.0240251+02:00",
-  "DbiKey": "reiciendis",
-  "DbiLastModified": "2012-03-23T14:23:55.0240251+01:00",
+  "Deleted": 157,
+  "DbiAgentId": 305,
+  "DbiLastSyncronized": "2018-04-01T12:19:53.2743262+02:00",
+  "DbiKey": "architecto",
+  "DbiLastModified": "2017-06-15T12:19:53.2743262+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 995,
-  "ActiveErpLinks": 76,
+  "Source": 856,
+  "ActiveErpLinks": 637,
   "BounceEmails": [
-    "alana@abbottgibson.ca",
-    "nyasia_quitzon@nolankuhlman.com"
+    "alexandra_koss@fisher.name",
+    "dulce@collier.biz"
   ],
   "Domains": [
-    "aliquid",
-    "rerum"
+    "eum",
+    "temporibus"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Odessa Patrick Douglas I",
-    "SuperOffice:2": "965878119"
+    "SuperOffice:1": "Trudie O'Reilly",
+    "SuperOffice:2": "Dudley Ondricka"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "iusto"
+    "CustomFields1": "omnis",
+    "CustomFields2": "consectetur"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nihil",
-  "2": "facere"
+  "1": "accusamus",
+  "2": "nihil"
 }
 ```

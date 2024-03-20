@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "id",
     "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "id",
     "value": {}
   }
 ]
@@ -145,28 +145,28 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 721,
-  "UniqueIdentifier": "praesentium",
-  "Name": "O'Hara, Yost and Jast",
-  "Description": "Optional clear-thinking infrastructure",
-  "IncludeId": "dicta",
-  "HierarchyId": 440,
-  "Source": "corporis",
-  "Registered": "2021-09-21T14:23:55.0552747+02:00",
-  "RegisteredAssociateId": 935,
-  "Updated": "1997-01-06T14:23:55.0552747+01:00",
-  "UpdatedAssociateId": 638,
+  "EjscriptId": 293,
+  "UniqueIdentifier": "laborum",
+  "Name": "Dare, Bode and Koelpin",
+  "Description": "Total hybrid database",
+  "IncludeId": "aut",
+  "HierarchyId": 337,
+  "Source": "autem",
+  "Registered": "2010-09-14T12:19:53.3055654+02:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "2001-02-23T12:19:53.3055654+01:00",
+  "UpdatedAssociateId": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 528
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

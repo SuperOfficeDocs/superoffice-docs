@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 442
+  "ContactId": 715
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-978-114-0641 x0430",
-    "PersonCellPhone": "538.618.8973",
-    "PersonPrivatePhone": "438.943.9637",
-    "PersonFaxNumber": "805170",
-    "PersonPagerNumber": "1275253",
-    "PersonEmail": "marshall@mccullough.uk",
-    "Id": 956,
-    "Name": "Goyette, Langosh and Jerde",
-    "Tooltip": "odio",
-    "UniqueId": "cumque",
+    "PersonDirectPhone": "536.767.3048 x51279",
+    "PersonCellPhone": "269.067.7237",
+    "PersonPrivatePhone": "1-938-045-4925",
+    "PersonFaxNumber": "1246657",
+    "PersonPagerNumber": "439947",
+    "PersonEmail": "tiffany@leannonbashirian.info",
+    "Id": 446,
+    "Name": "Zemlak Inc and Sons",
+    "Tooltip": "laudantium",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 142
       }
     }
   }

@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 323,
-  "ModuleOwner": "ipsum",
+  "AssociateId": 708,
+  "ModuleOwner": "quia",
   "ModuleLicenseNames": [
-    "Fisher, Gaylord and Muller",
-    "Daugherty Inc and Sons"
+    "Dietrich LLC",
+    "Watsica Group"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 735,
-    "Tooltip": "et",
+    "Unrestricted": false,
+    "Total": 112,
+    "Tooltip": "dignissimos",
     "CanAssign": false,
-    "Free": 96,
-    "InUse": 963,
+    "Free": 970,
+    "InUse": 964,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 195,
-    "Name": "Terry Inc and Sons",
-    "Description": "Operative asynchronous access",
-    "PrerequisiteModuleName": "Schowalter-Orn",
-    "SortOrder": 543,
-    "ExtraFlags": 314,
+    "ModuleLicenseId": 358,
+    "Name": "Franecki Inc and Sons",
+    "Description": "Fundamental value-added time-frame",
+    "PrerequisiteModuleName": "Nolan, Veum and Erdman",
+    "SortOrder": 429,
+    "ExtraFlags": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 774
       }
     }
   }

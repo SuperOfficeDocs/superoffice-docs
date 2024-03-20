@@ -92,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 67,
+  "AssociateId": 676,
   "ModuleOwner": "praesentium",
   "ModuleLicenseNames": [
-    "Lesch, Stark and O'Keefe",
-    "Mante LLC"
+    "Kuphal Group",
+    "Kutch, Fay and Weissnat"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 526,
-    "Tooltip": "qui",
+    "Total": 177,
+    "Tooltip": "voluptatem",
     "CanAssign": false,
-    "Free": 95,
-    "InUse": 72,
+    "Free": 806,
+    "InUse": 558,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 396,
-    "Name": "Conroy-Feeney",
-    "Description": "Profit-focused user-facing matrices",
-    "PrerequisiteModuleName": "Davis-Predovic",
-    "SortOrder": 462,
-    "ExtraFlags": 183,
+    "Assigned": false,
+    "ModuleLicenseId": 172,
+    "Name": "Mills, Davis and Abernathy",
+    "Description": "Configurable optimal standardization",
+    "PrerequisiteModuleName": "Moore LLC",
+    "SortOrder": 540,
+    "ExtraFlags": 577,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 463
       }
     }
   }

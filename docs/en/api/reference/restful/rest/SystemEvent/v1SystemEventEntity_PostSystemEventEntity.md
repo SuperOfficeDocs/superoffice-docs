@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 202,
+  "SystemEventId": 957,
   "Scope": "Database",
-  "Eta": "2015-02-09T14:23:55.5252104+01:00",
-  "Eventkey": "facilis",
-  "Eventmess": "quia",
-  "ExtraInfo": 682,
-  "Owner": 260,
-  "UpdatedCount": 360,
-  "Registered": "2005-12-29T14:23:55.5252104+01:00",
+  "Eta": "1999-07-26T12:19:53.9460405+02:00",
+  "Eventkey": "blanditiis",
+  "Eventmess": "maxime",
+  "ExtraInfo": 804,
+  "Owner": 805,
+  "UpdatedCount": 473,
+  "Registered": "1997-05-19T12:19:53.9460405+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 85,
+  "SystemEventId": 167,
   "Scope": "Database",
-  "Eta": "2019-01-08T14:23:55.5252104+01:00",
-  "Eventkey": "aliquid",
-  "Eventmess": "sed",
-  "ExtraInfo": 880,
-  "Owner": 544,
-  "UpdatedCount": 891,
-  "Registered": "2022-05-27T14:23:55.5252104+02:00",
+  "Eta": "2001-11-14T12:19:53.9460405+01:00",
+  "Eventkey": "et",
+  "Eventmess": "nostrum",
+  "ExtraInfo": 426,
+  "Owner": 261,
+  "UpdatedCount": 491,
+  "Registered": "1998-09-03T12:19:53.9460405+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 461
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

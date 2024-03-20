@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Jast Inc and Sons",
-  "DisplayName": "Nolan, Kerluke and Cummings",
-  "Description": "Progressive zero administration pricing structure",
-  "ShortLabel": "modi",
+  "FieldName": "Harris-Stanton",
+  "DisplayName": "Koch, Lubowitz and Fisher",
+  "Description": "Upgradable cohesive initiative",
+  "ShortLabel": "provident",
   "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 892,
-  "TemplateVariableName": "Schiller Inc and Sons"
+  "Rank": 19,
+  "TemplateVariableName": "Emard, Ernser and Johnson"
 }
 ```

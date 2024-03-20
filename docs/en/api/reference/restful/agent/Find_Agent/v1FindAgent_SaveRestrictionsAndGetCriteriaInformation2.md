@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Kuvalis Group",
-  "StorageKey": "corrupti",
-  "Restrictions": "explicabo",
-  "StaticColumns": "saepe"
+  "StorageType": "dicta",
+  "ProviderName": "Dibbert Group",
+  "StorageKey": "ipsa",
+  "Restrictions": "dolores",
+  "StaticColumns": "ex"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bartell-Rutherford",
-      "Operator": "aperiam",
+      "Name": "Ritchie-Ratke",
+      "Operator": "et",
       "Values": [
-        "et",
-        "voluptatem"
+        "tenetur",
+        "laboriosam"
       ],
       "DisplayValues": [
-        "dolores",
-        "cupiditate"
+        "eligendi",
+        "consequuntur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 614,
+      "InterParenthesis": 338,
       "InterOperator": "And",
-      "UniqueHash": 693
+      "UniqueHash": 397
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Huels-Dibbert",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "magni",
-      "CanOrderBy": false,
-      "Name": "Wintheiser, Bogan and Borer",
-      "CanRestrictBy": false,
-      "RestrictionType": "perspiciatis",
-      "RestrictionListName": "O'Reilly-Heaney",
+      "DisplayName": "Conroy-Legros",
+      "DisplayTooltip": "porro",
+      "DisplayType": "itaque",
+      "CanOrderBy": true,
+      "Name": "Fadel, Schinner and Huels",
+      "CanRestrictBy": true,
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Kuphal Group",
       "IsVisible": false,
-      "ExtraInfo": "aperiam",
-      "Width": "quod",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "ea"
+      "ExtraInfo": "nihil",
+      "Width": "amet",
+      "IconHint": "officiis",
+      "HeadingIconHint": "ipsam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bechtelar-Raynor",
-      "PrimaryKey": 933,
+      "EntityName": "Steuber, Armstrong and Heller",
+      "PrimaryKey": 198,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "incidunt",
-          "LinkHint": "molestiae"
+          "DisplayValue": "facilis",
+          "TooltipHint": "asperiores",
+          "LinkHint": "impedit"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "dignissimos",
+      "LinkHint": "deleniti",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldLength": 728
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bode, Reichert and Gislason",
-      "Description": "Front-line exuding portal",
-      "Rank": 23,
+      "Name": "Brekke-Mante",
+      "Description": "Adaptive composite portal",
+      "Rank": 553,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bode, Reichert and Gislason",
-      "Description": "Front-line exuding portal",
-      "Rank": 23,
+      "Name": "Brekke-Mante",
+      "Description": "Adaptive composite portal",
+      "Rank": 553,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 260
     }
   }
 }

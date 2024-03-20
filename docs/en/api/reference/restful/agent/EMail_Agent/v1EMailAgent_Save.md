@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 430,
-      "ContactName": "Emmerich Group",
-      "PersonId": 552,
-      "PersonName": "Howell-Abbott",
-      "AssociateId": 982,
-      "Address": "dolore",
-      "EmailId": 88,
+      "ContactId": 561,
+      "ContactName": "Hodkiewicz Group",
+      "PersonId": 585,
+      "PersonName": "Schuster-Jaskolski",
+      "AssociateId": 266,
+      "Address": "harum",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        872,
-        135
+        746,
+        967
       ],
-      "Name": "Mann-Parisian",
+      "Name": "Yundt, Morar and O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 863
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 30,
-      "ContactName": "Lowe, McCullough and Collier",
-      "PersonId": 291,
-      "PersonName": "Wilkinson Group",
-      "AssociateId": 213,
-      "Address": "impedit",
-      "EmailId": 832,
+      "ContactId": 234,
+      "ContactName": "Walker LLC",
+      "PersonId": 640,
+      "PersonName": "Mraz-Gutkowski",
+      "AssociateId": 691,
+      "Address": "reprehenderit",
+      "EmailId": 748,
       "DuplicatePersonIds": [
-        175,
-        23
+        274,
+        702
       ],
-      "Name": "Farrell, Davis and Auer",
+      "Name": "Weber-Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 484
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 38,
-      "ContactName": "Lakin, Wiza and Heller",
-      "PersonId": 647,
-      "PersonName": "Hyatt-Considine",
-      "AssociateId": 280,
-      "Address": "sit",
-      "EmailId": 127,
+      "ContactId": 939,
+      "ContactName": "Mann Inc and Sons",
+      "PersonId": 75,
+      "PersonName": "Sawayn Inc and Sons",
+      "AssociateId": 259,
+      "Address": "nihil",
+      "EmailId": 144,
       "DuplicatePersonIds": [
-        61,
-        236
+        437,
+        720
       ],
-      "Name": "Leuschke Inc and Sons",
+      "Name": "D'Amore Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 149
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "vel",
+  "Subject": "accusantium",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2001-10-26T14:23:46.4230787+02:00",
-  "Size": 804,
+  "Sent": "2003-01-20T12:19:45.2266504+01:00",
+  "Size": 69,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "expedita",
-  "PlainBody": "est",
+  "MessageID": "et",
+  "PlainBody": "quos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 846,
+  "ServerId": 316,
   "Attachments": [
     {
-      "Description": "Business-focused foreground methodology",
-      "Filename": "omnis",
-      "Size": 953,
-      "Type": "sint",
-      "Encoding": "earum",
-      "Id": "sed",
-      "Disposition": "sunt",
+      "Description": "Cross-platform coherent time-frame",
+      "Filename": "cupiditate",
+      "Size": 587,
+      "Type": "est",
+      "Encoding": "aspernatur",
+      "Id": "ea",
+      "Disposition": "dolor",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 727
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Russel LLC",
+      "Name": "Schultz Inc and Sons",
       "Values": [
-        "nam",
-        "et"
+        "quidem",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldType": "System.Int32",
+          "FieldLength": 37
         }
       }
     },
     {
-      "Name": "Russel LLC",
+      "Name": "Schultz Inc and Sons",
       "Values": [
-        "nam",
-        "et"
+        "quidem",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldType": "System.Int32",
+          "FieldLength": 37
         }
       }
     }
   ],
-  "FolderName": "Thompson, Casper and Mueller",
-  "EmailItemId": 707,
-  "AccountId": 603,
-  "ReceivedAt": "2009-02-05T14:23:46.4230787+01:00",
+  "FolderName": "Hirthe LLC",
+  "EmailItemId": 253,
+  "AccountId": 1001,
+  "ReceivedAt": "2017-06-12T12:19:45.2266504+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-02T14:23:46.4230787+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-01-11T12:19:45.2266504+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   }
 }

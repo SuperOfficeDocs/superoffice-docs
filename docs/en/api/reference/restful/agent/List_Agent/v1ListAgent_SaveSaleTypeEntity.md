@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 819,
-  "Name": "Senger-Okuneva",
-  "Tooltip": "aut",
-  "Rank": 163,
+  "SaleTypeId": 438,
+  "Name": "Hansen LLC",
+  "Tooltip": "necessitatibus",
+  "Rank": 77,
   "DurationUnit": "Century",
-  "SaleDuration": 659,
-  "SaleTypeCatId": 941,
-  "Deleted": true,
+  "SaleDuration": 526,
+  "SaleTypeCatId": 981,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 719,
-  "QuoteLinesTemplate": 228,
-  "ConfirmationLinesTemplate": 351,
+  "DefaultQuoteValidity": 563,
+  "QuoteLinesTemplate": 16,
+  "ConfirmationLinesTemplate": 729,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 449,
-  "MinEarningPercent": 341,
-  "GroupQuoteLinesBy": 96,
-  "SortGroupLinesBy": 315,
+  "MaxDiscountPercent": 544,
+  "MinEarningPercent": 585,
+  "GroupQuoteLinesBy": 479,
+  "SortGroupLinesBy": 607,
   "Stages": [
     {
-      "Id": 876,
-      "Name": "Wunsch, Brakus and Lehner",
-      "ToolTip": "Vel ea eveniet commodi et et officiis.",
-      "Deleted": true,
-      "Rank": 225,
-      "Type": "odit",
-      "ColorBlock": 412,
-      "IconHint": "ea",
+      "Id": 497,
+      "Name": "Tillman-Hudson",
+      "ToolTip": "Odio sint omnis itaque ullam.",
+      "Deleted": false,
+      "Rank": 730,
+      "Type": "consequatur",
+      "ColorBlock": 307,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2013-09-26T14:23:46.8942625+02:00",
+      "LastChanged": "2020-08-08T12:19:45.5703411+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsum",
-      "StyleHint": "id",
-      "Hidden": true,
-      "FullName": "Dr. Ewell Keith Oberbrunner MD"
+      "ExtraInfo": "accusamus",
+      "StyleHint": "accusamus",
+      "Hidden": false,
+      "FullName": "Marisa Jacobi V"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 512,
-  "Name": "Kiehn Inc and Sons",
-  "Tooltip": "minima",
-  "Rank": 711,
+  "SaleTypeId": 795,
+  "Name": "Jacobson Group",
+  "Tooltip": "et",
+  "Rank": 846,
   "DurationUnit": "Century",
-  "SaleDuration": 716,
-  "SaleTypeCatId": 621,
+  "SaleDuration": 837,
+  "SaleTypeCatId": 829,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 594,
-  "QuoteLinesTemplate": 889,
-  "ConfirmationLinesTemplate": 810,
+  "DefaultQuoteValidity": 288,
+  "QuoteLinesTemplate": 700,
+  "ConfirmationLinesTemplate": 763,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 608,
-  "MinEarningPercent": 526,
-  "GroupQuoteLinesBy": 240,
-  "SortGroupLinesBy": 338,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 464,
+  "MinEarningPercent": 575,
+  "GroupQuoteLinesBy": 551,
+  "SortGroupLinesBy": 486,
   "Stages": [
     {
-      "Id": 830,
-      "Name": "Pfannerstill-Zboncak",
-      "ToolTip": "Voluptatum similique.",
-      "Deleted": true,
-      "Rank": 677,
-      "Type": "vel",
-      "ColorBlock": 523,
-      "IconHint": "blanditiis",
+      "Id": 860,
+      "Name": "Dibbert-Howe",
+      "ToolTip": "Ut illum voluptatem enim architecto consequatur.",
+      "Deleted": false,
+      "Rank": 621,
+      "Type": "id",
+      "ColorBlock": 410,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2022-08-19T14:23:46.8942625+02:00",
+      "LastChanged": "2015-09-23T12:19:45.5703411+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Ramon Douglas",
+      "ExtraInfo": "quis",
+      "StyleHint": "dolorem",
+      "Hidden": false,
+      "FullName": "Otto Glover",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 1001
     }
   }
 }

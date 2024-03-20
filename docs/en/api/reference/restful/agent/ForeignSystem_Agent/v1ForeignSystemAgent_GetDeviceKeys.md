@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "White, Luettgen and Hackett",
-  "DeviceName": "Russel-Skiles"
+  "ApplicationName": "Terry-Corkery",
+  "DeviceName": "Haley Inc and Sons"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "iure",
-    "Value": "non",
-    "RecordId": 608,
-    "CreatedDate": "1997-10-26T14:23:46.7681044+01:00",
-    "UpdatedDate": "1998-12-25T14:23:46.7681044+01:00",
-    "UpdatedBy": "sit",
-    "CreatedBy": "eligendi",
-    "TableName": "McGlynn, Gerlach and Funk",
+    "Key": "nam",
+    "Value": "eligendi",
+    "RecordId": 676,
+    "CreatedDate": "2004-01-22T12:19:45.4297292+01:00",
+    "UpdatedDate": "2021-04-16T12:19:45.4297292+02:00",
+    "UpdatedBy": "aut",
+    "CreatedBy": "quasi",
+    "TableName": "Botsford Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 883
       }
     }
   }

@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "ipsam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-08-07T14:23:47.3161332+02:00",
-  "Amount": 16343.81,
-  "SaleId": 632,
-  "Earning": 11031.68,
-  "EarningPercent": 22702.696,
-  "Heading": "ut",
-  "Number": "1373597",
-  "Probability": 669,
-  "CreatedDate": "2015-06-16T14:23:47.3161332+02:00",
-  "UpdatedDate": "2022-01-09T14:23:47.3161332+01:00",
+  "Saledate": "1997-10-29T12:19:46.1639363+01:00",
+  "Amount": 21204.644,
+  "SaleId": 464,
+  "Earning": 28265.546,
+  "EarningPercent": 11633.408,
+  "Heading": "sunt",
+  "Number": "1149667",
+  "Probability": 533,
+  "CreatedDate": "1997-09-26T12:19:46.1639363+02:00",
+  "UpdatedDate": "2018-02-17T12:19:46.1639363+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 582,
+  "ActiveLinks": 728,
   "Links": [
     {
-      "EntityName": "Parker LLC",
-      "Id": 770,
-      "Description": "Networked foreground extranet",
-      "ExtraInfo": "sunt",
-      "LinkId": 77
+      "EntityName": "Williamson-Erdman",
+      "Id": 866,
+      "Description": "Reduced object-oriented internet solution",
+      "ExtraInfo": "qui",
+      "LinkId": 803
     },
     {
-      "EntityName": "Parker LLC",
-      "Id": 770,
-      "Description": "Networked foreground extranet",
-      "ExtraInfo": "sunt",
-      "LinkId": 77
+      "EntityName": "Williamson-Erdman",
+      "Id": 866,
+      "Description": "Reduced object-oriented internet solution",
+      "ExtraInfo": "qui",
+      "LinkId": 803
     }
   ],
-  "NextDueDate": "2017-09-20T14:23:47.3161332+02:00",
-  "Postit": "architecto",
+  "NextDueDate": "2000-02-01T12:19:46.1639363+01:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-04-24T14:23:47.3161332+02:00",
+  "ReopenDate": "2013-05-30T12:19:46.1639363+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fay, Predovic and Ryan",
+      "StakeholderRoleName": "Senger LLC",
       "Comment": "qui",
-      "StakeholderRoleId": 20,
-      "CountryId": 680,
-      "PersonId": 889,
-      "EmailDescription": "adele@keeblernikolaus.ca",
-      "EmailId": 637,
-      "EmailAddress": "reyna.dietrich@koch.us",
-      "PhoneId": 334,
-      "ContactName": "Pfannerstill-Heaney",
-      "ContactId": 892,
-      "SaleId": 994,
-      "Mrmrs": "eaque",
-      "Firstname": "Elyse",
-      "MiddleName": "Terry-Lakin",
-      "Lastname": "Kozey",
-      "SaleStakeholderId": 342,
-      "Rank": 232,
-      "Phone": "024.878.4433"
+      "StakeholderRoleId": 966,
+      "CountryId": 671,
+      "PersonId": 643,
+      "EmailDescription": "cooper_wolf@kutch.com",
+      "EmailId": 147,
+      "EmailAddress": "kennith_adams@jakubowskikohler.ca",
+      "PhoneId": 428,
+      "ContactName": "Kemmer LLC",
+      "ContactId": 655,
+      "SaleId": 855,
+      "Mrmrs": "aut",
+      "Firstname": "Emerald",
+      "MiddleName": "Nikolaus-Schmitt",
+      "Lastname": "Dickens",
+      "SaleStakeholderId": 185,
+      "Rank": 91,
+      "Phone": "1-420-772-0279 x822"
     }
   ],
-  "ActiveErpLinks": 246,
+  "ActiveErpLinks": 29,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1406908001",
+    "SuperOffice:2": "Mr. Elenora Kiehn PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "nihil"
+    "CustomFields1": "odit",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2020-05-03T14:23:47.3161332+02:00",
-  "PublishTo": "2017-03-25T14:23:47.3161332+01:00",
-  "PublishFrom": "2000-08-16T14:23:47.3161332+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-02-09T12:19:46.1639363+01:00",
+  "PublishTo": "2008-11-30T12:19:46.1639363+01:00",
+  "PublishFrom": "2008-03-01T12:19:46.1639363+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 911,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "laborum"
     },
     {
-      "VisibleId": 911,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "laborum"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "inventore",
+  "SaleText": "nemo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-06-30T14:23:47.331759+02:00",
-  "Amount": 12166.188,
-  "SaleId": 380,
-  "Earning": 12764.782,
-  "EarningPercent": 25535.832,
-  "Heading": "vel",
-  "Number": "1422974",
-  "Probability": 891,
-  "CreatedDate": "2015-06-21T14:23:47.331759+02:00",
-  "UpdatedDate": "2014-11-09T14:23:47.331759+01:00",
+  "Saledate": "2015-10-15T12:19:46.1795562+02:00",
+  "Amount": 23379.64,
+  "SaleId": 748,
+  "Earning": 12448.248,
+  "EarningPercent": 16459.768,
+  "Heading": "non",
+  "Number": "1516692",
+  "Probability": 545,
+  "CreatedDate": "2010-09-15T12:19:46.1795562+02:00",
+  "UpdatedDate": "2010-08-02T12:19:46.1795562+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 229,
+  "ActiveLinks": 536,
   "Links": [
     {
-      "EntityName": "Maggio-McGlynn",
-      "Id": 193,
-      "Description": "Open-source content-based moratorium",
-      "ExtraInfo": "quia",
-      "LinkId": 978,
+      "EntityName": "Volkman-Daugherty",
+      "Id": 188,
+      "Description": "Optional holistic Graphical User Interface",
+      "ExtraInfo": "repudiandae",
+      "LinkId": 310,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 51
         }
       }
     }
   ],
-  "NextDueDate": "2020-04-15T14:23:47.331759+02:00",
-  "Postit": "quis",
+  "NextDueDate": "2014-11-12T12:19:46.1795562+01:00",
+  "Postit": "voluptatibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-05-22T14:23:47.331759+02:00",
+  "ReopenDate": "2006-12-12T12:19:46.1795562+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "D'Amore-Kunde",
-      "Comment": "vero",
-      "StakeholderRoleId": 87,
-      "CountryId": 946,
-      "PersonId": 681,
-      "EmailDescription": "maximus@satterfield.us",
-      "EmailId": 861,
-      "EmailAddress": "boris@legros.ca",
-      "PhoneId": 526,
-      "ContactName": "Rohan, Romaguera and Dooley",
-      "ContactId": 72,
-      "SaleId": 573,
-      "Mrmrs": "aut",
-      "Firstname": "Neil",
-      "MiddleName": "Mills Inc and Sons",
-      "Lastname": "Sauer",
-      "SaleStakeholderId": 83,
-      "Rank": 659,
-      "Phone": "980-887-0009 x33112",
+      "StakeholderRoleName": "O'Keefe, Friesen and Gleason",
+      "Comment": "est",
+      "StakeholderRoleId": 766,
+      "CountryId": 133,
+      "PersonId": 298,
+      "EmailDescription": "buford.shanahan@schultz.biz",
+      "EmailId": 577,
+      "EmailAddress": "cooper_conn@wuckertflatley.com",
+      "PhoneId": 198,
+      "ContactName": "Rau Inc and Sons",
+      "ContactId": 597,
+      "SaleId": 404,
+      "Mrmrs": "dolor",
+      "Firstname": "River",
+      "MiddleName": "Robel, Hodkiewicz and Abernathy",
+      "Lastname": "West",
+      "SaleStakeholderId": 334,
+      "Rank": 654,
+      "Phone": "1-198-309-6152 x1910",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
   ],
-  "ActiveErpLinks": 620,
+  "ActiveErpLinks": 871,
   "UserDefinedFields": {
-    "SuperOffice:1": "Nels Bernhard",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Delta Kemmer",
+    "SuperOffice:2": "1651873235"
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "minus"
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "est",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "1998-03-21T14:23:47.331759+01:00",
-  "PublishTo": "2009-07-29T14:23:47.331759+02:00",
-  "PublishFrom": "2006-06-06T14:23:47.331759+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-02-19T12:19:46.1795562+01:00",
+  "PublishTo": "2014-07-19T12:19:46.1795562+02:00",
+  "PublishFrom": "2021-09-20T12:19:46.1795562+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 192,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldLength": 930
         }
       }
     },
     {
-      "VisibleId": 192,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldLength": 930
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   }
 }

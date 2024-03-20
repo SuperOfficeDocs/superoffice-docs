@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 64,
-  "Select": "ea"
+  "SelectionId": 176,
+  "Select": "est"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hahn Group",
-    "PrimaryKey": 79,
+    "EntityName": "Brown, Lubowitz and Kihn",
+    "PrimaryKey": 217,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "reprehenderit",
-        "TooltipHint": "fugiat",
-        "LinkHint": "et"
+        "DisplayValue": "nulla",
+        "TooltipHint": "illum",
+        "LinkHint": "officiis"
       }
     },
-    "LinkHint": "non",
-    "StyleHint": "quia",
+    "LinkHint": "officiis",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 613
       }
     }
   }

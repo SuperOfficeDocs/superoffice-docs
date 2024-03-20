@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=sint
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=illum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Boehm-Kertzmann",
-    "ToolTip": "Unde reiciendis quidem exercitationem.",
-    "Deleted": false,
-    "Rank": 289,
-    "Type": "qui",
+    "Id": 340,
+    "Name": "Boyle-Walker",
+    "ToolTip": "Magnam debitis.",
+    "Deleted": true,
+    "Rank": 88,
+    "Type": "possimus",
     "ChildItems": [
       {
         "Id": 614,
-        "Name": "Douglas-Reichel",
-        "ToolTip": "Dolores autem voluptate delectus rerum dicta.",
-        "Deleted": true,
-        "Rank": 199,
-        "Type": "sit",
+        "Name": "Wolff, Hegmann and Stark",
+        "ToolTip": "Aperiam doloribus repudiandae et sunt vitae nulla.",
+        "Deleted": false,
+        "Rank": 622,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 664,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "eligendi",
-        "FullName": "Diana Walsh",
+        "IconHint": "corporis",
+        "ColorBlock": 665,
+        "ExtraInfo": "non",
+        "StyleHint": "amet",
+        "FullName": "Dahlia Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 293
+            "FieldLength": 153
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 178,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ullam",
-    "FullName": "Antonio Mosciski",
+    "IconHint": "velit",
+    "ColorBlock": 914,
+    "ExtraInfo": "qui",
+    "StyleHint": "enim",
+    "FullName": "Lea Cole DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 325
       }
     }
   }

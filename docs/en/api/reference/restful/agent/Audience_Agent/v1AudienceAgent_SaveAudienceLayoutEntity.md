@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 23,
-  "InstanceLayout": "natus",
-  "InstanceName": "Metz-Ziemann",
-  "CreatedDate": "2010-04-09T14:23:45.8605856+02:00",
-  "UpdatedDate": "2010-07-18T14:23:45.8605856+02:00",
+  "AudienceLayoutId": 306,
+  "InstanceLayout": "voluptas",
+  "InstanceName": "Littel-DuBuque",
+  "CreatedDate": "2012-04-18T12:19:44.492435+02:00",
+  "UpdatedDate": "2005-07-30T12:19:44.492435+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 590,
-  "InstanceLayout": "autem",
-  "InstanceName": "Koss Group",
-  "CreatedDate": "2015-01-01T14:23:45.8605856+01:00",
-  "UpdatedDate": "1997-11-22T14:23:45.8605856+01:00",
+  "AudienceLayoutId": 596,
+  "InstanceLayout": "ea",
+  "InstanceName": "Murray Group",
+  "CreatedDate": "2023-11-01T12:19:44.5080652+01:00",
+  "UpdatedDate": "2018-06-01T12:19:44.5080652+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

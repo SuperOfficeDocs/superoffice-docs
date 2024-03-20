@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "amet",
-  "NsPluginSender": "dignissimos",
+  "NetServerSmsProvider": "veritatis",
+  "NsPluginSender": "quod",
   "NsPluginConfig": {
-    "NsPluginConfig1": "qui",
-    "NsPluginConfig2": "quod"
+    "NsPluginConfig1": "aperiam",
+    "NsPluginConfig2": "labore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

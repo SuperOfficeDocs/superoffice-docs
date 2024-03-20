@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 951
+  "SatelliteId": 273
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmeler-Berge",
-    "Description": "Phased bi-directional Graphic Interface",
+    "Name": "Lowe-Champlin",
+    "Description": "Innovative well-modulated info-mediaries",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 32,
-        "Tooltip": "fugit",
+        "Unrestricted": true,
+        "Total": 116,
+        "Tooltip": "voluptates",
         "CanAssign": true,
-        "Free": 879,
-        "InUse": 795,
+        "Free": 894,
+        "InUse": 743,
         "IsHidden": true,
         "Assigned": false,
         "ModuleLicenseId": 793,
-        "Name": "Rohan, Trantow and Hirthe",
-        "Description": "Automated user-facing moratorium",
-        "PrerequisiteModuleName": "Kunze Inc and Sons",
-        "SortOrder": 480,
-        "ExtraFlags": 160,
+        "Name": "Stamm, Wiegand and Treutel",
+        "Description": "Re-engineered eco-centric array",
+        "PrerequisiteModuleName": "Murazik, Gerhold and King",
+        "SortOrder": 189,
+        "ExtraFlags": 882,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 655
+            "FieldLength": 647
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 820,
-        "Tooltip": "omnis",
-        "CanAssign": false,
-        "Free": 238,
-        "InUse": 76,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 640,
-        "Name": "Bogan-Hilpert",
-        "Description": "Front-line discrete parallelism",
-        "PrerequisiteModuleName": "Purdy Inc and Sons",
-        "SortOrder": 874,
-        "ExtraFlags": 493,
+        "Unrestricted": false,
+        "Total": 359,
+        "Tooltip": "libero",
+        "CanAssign": true,
+        "Free": 158,
+        "InUse": 406,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 662,
+        "Name": "Kshlerin LLC",
+        "Description": "Realigned heuristic paradigm",
+        "PrerequisiteModuleName": "Durgan, Beier and Gerlach",
+        "SortOrder": 820,
+        "ExtraFlags": 758,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 175
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   },
   {
-    "Name": "Schmeler-Berge",
-    "Description": "Phased bi-directional Graphic Interface",
+    "Name": "Lowe-Champlin",
+    "Description": "Innovative well-modulated info-mediaries",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 32,
-        "Tooltip": "fugit",
+        "Unrestricted": true,
+        "Total": 116,
+        "Tooltip": "voluptates",
         "CanAssign": true,
-        "Free": 879,
-        "InUse": 795,
+        "Free": 894,
+        "InUse": 743,
         "IsHidden": true,
         "Assigned": false,
         "ModuleLicenseId": 793,
-        "Name": "Rohan, Trantow and Hirthe",
-        "Description": "Automated user-facing moratorium",
-        "PrerequisiteModuleName": "Kunze Inc and Sons",
-        "SortOrder": 480,
-        "ExtraFlags": 160,
+        "Name": "Stamm, Wiegand and Treutel",
+        "Description": "Re-engineered eco-centric array",
+        "PrerequisiteModuleName": "Murazik, Gerhold and King",
+        "SortOrder": 189,
+        "ExtraFlags": 882,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 655
+            "FieldLength": 647
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 820,
-        "Tooltip": "omnis",
-        "CanAssign": false,
-        "Free": 238,
-        "InUse": 76,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 640,
-        "Name": "Bogan-Hilpert",
-        "Description": "Front-line discrete parallelism",
-        "PrerequisiteModuleName": "Purdy Inc and Sons",
-        "SortOrder": 874,
-        "ExtraFlags": 493,
+        "Unrestricted": false,
+        "Total": 359,
+        "Tooltip": "libero",
+        "CanAssign": true,
+        "Free": 158,
+        "InUse": 406,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 662,
+        "Name": "Kshlerin LLC",
+        "Description": "Realigned heuristic paradigm",
+        "PrerequisiteModuleName": "Durgan, Beier and Gerlach",
+        "SortOrder": 820,
+        "ExtraFlags": 758,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 175
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

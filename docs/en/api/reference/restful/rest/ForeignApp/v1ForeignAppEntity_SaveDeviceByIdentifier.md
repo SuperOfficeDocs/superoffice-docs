@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 985,
-  "Name": "Ondricka-Dietrich",
-  "CreatedDate": "2016-05-04T14:23:55.1802705+02:00",
-  "UpdatedDate": "2006-05-28T14:23:55.1802705+02:00",
-  "AssociateFullName": "Prof. Keegan Lamont Leuschke IV",
-  "CreatedBy": "fugiat",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "beatae",
-  "ForeignAppId": 282
+  "ForeignDeviceId": 645,
+  "Name": "Konopelski-Barton",
+  "CreatedDate": "2006-04-13T12:19:53.6023745+02:00",
+  "UpdatedDate": "2011-04-12T12:19:53.6023745+02:00",
+  "AssociateFullName": "Reta Marvin",
+  "CreatedBy": "asperiores",
+  "UpdatedBy": "porro",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 385
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 222,
-  "Name": "Walter Group",
-  "CreatedDate": "2005-12-30T14:23:55.1802705+01:00",
-  "UpdatedDate": "2023-07-09T14:23:55.1802705+02:00",
-  "AssociateFullName": "Mrs. Gust Kris",
-  "CreatedBy": "sed",
-  "UpdatedBy": "porro",
-  "DeviceIdentifier": "laudantium",
-  "ForeignAppId": 733,
+  "ForeignDeviceId": 744,
+  "Name": "Beier, Lebsack and Moen",
+  "CreatedDate": "2022-06-29T12:19:53.6023745+02:00",
+  "UpdatedDate": "2011-04-10T12:19:53.6023745+02:00",
+  "AssociateFullName": "Treva Bergnaum",
+  "CreatedBy": "et",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "deserunt",
+  "ForeignAppId": 883,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

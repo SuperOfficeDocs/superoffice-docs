@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Kautzer, Parker and Hilpert",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 884,
+  "Id": 874,
+  "Name": "Adams-Hettinger",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 357,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldType": "System.String",
+      "FieldLength": 593
     }
   },
   "_Links": {

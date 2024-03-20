@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Wyman-Wisozk",
-    "Tooltip": "maxime",
+    "HeadingId": 816,
+    "Name": "Nolan, Waelchi and Sauer",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 779,
-    "UdListDefinitionId": 300
+    "Rank": 551,
+    "UdListDefinitionId": 132
   },
   {
-    "HeadingId": 733,
-    "Name": "Wyman-Wisozk",
-    "Tooltip": "maxime",
+    "HeadingId": 816,
+    "Name": "Nolan, Waelchi and Sauer",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 779,
-    "UdListDefinitionId": 300
+    "Rank": 551,
+    "UdListDefinitionId": 132
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 754,
-    "Name": "Balistreri Inc and Sons",
-    "Tooltip": "doloribus",
+    "HeadingId": 303,
+    "Name": "Marquardt-Jacobi",
+    "Tooltip": "fugiat",
     "Deleted": true,
-    "Rank": 50,
-    "UdListDefinitionId": 347,
+    "Rank": 13,
+    "UdListDefinitionId": 850,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldLength": 520
       }
     }
   }

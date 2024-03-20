@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 647,
-  "QuoteAlternativeId": 197,
-  "QuoteAlternativeName": "Kovacek Group"
+  "QuoteVersionId": 9,
+  "QuoteAlternativeId": 680,
+  "QuoteAlternativeName": "Hamill LLC"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 425,
-  "ERPQuoteAlternativeKey": "eos",
-  "QuoteVersionId": 98,
-  "Name": "Bernhard-Auer",
-  "Description": "Customizable 4th generation workforce",
+  "QuoteAlternativeId": 691,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 494,
+  "Name": "Stamm Group",
+  "Description": "Sharable static circuit",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20812.894,
-  "ERPDiscountAmount": 26692.278,
-  "DiscountPercent": 21599.528,
-  "DiscountAmount": 22558.532,
+  "ERPDiscountPercent": 8659.242,
+  "ERPDiscountAmount": 24069.12,
+  "DiscountPercent": 6681.688,
+  "DiscountAmount": 1244.1979999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "in",
-  "VAT": 3663.6459999999997,
-  "EarningPercent": 16375.15,
-  "EarningAmount": 7258.344,
-  "SubTotal": 4889.04,
-  "TotalPrice": 17685.162,
-  "ExtraField1": "non",
-  "ExtraField2": "quo",
-  "ExtraField3": "inventore",
-  "ExtraField4": "doloremque",
-  "ExtraField5": "tenetur",
+  "VATInfo": "sit",
+  "VAT": 5152.296,
+  "EarningPercent": 12767.916,
+  "EarningAmount": 18521.94,
+  "SubTotal": 26711.082,
+  "TotalPrice": 11987.55,
+  "ExtraField1": "voluptas",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "dolore",
+  "ExtraField4": "aut",
+  "ExtraField5": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 410
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=51
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=500
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 860,
-  "CreatedAt": "2000-03-05T14:23:47.7692506+01:00",
+  "TicketMessageId": 956,
+  "CreatedAt": "2003-03-07T12:19:46.491985+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "et",
-  "PersonId": 668,
-  "PersonFullName": "Miss Mina Amaya Gorczany III",
-  "ContactId": 195,
-  "ContactName": "Schumm, Fritsch and Konopelski",
+  "Important": false,
+  "Author": "praesentium",
+  "PersonId": 64,
+  "PersonFullName": "Ansel Ullrich",
+  "ContactId": 212,
+  "ContactName": "Hayes Inc and Sons",
   "ContactDepartment": "",
-  "NumAttachments": 675,
-  "EmailHeader": "eino.rosenbaum@schamberger.biz",
+  "NumAttachments": 236,
+  "EmailHeader": "adolf@wisoky.ca",
   "MessageHeaders": [
     {
-      "Id": 728,
-      "Name": "Wolf Inc and Sons",
-      "Value": "architecto",
+      "Id": 567,
+      "Name": "Shields-Sauer",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 125
         }
       }
     }
   ],
-  "Language": "pariatur",
-  "Sentiment": 557,
-  "SentimentConfidence": 197,
-  "CreatedBy": 182,
-  "ChangedAt": "2007-03-25T14:23:47.7692506+02:00",
+  "Language": "qui",
+  "Sentiment": 985,
+  "SentimentConfidence": 261,
+  "CreatedBy": 568,
+  "ChangedAt": "2004-04-13T12:19:46.491985+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 363
     }
   }
 }

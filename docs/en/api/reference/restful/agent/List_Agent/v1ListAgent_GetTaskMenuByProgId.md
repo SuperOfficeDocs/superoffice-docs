@@ -90,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "harum"
+  "ProgId": "molestiae"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 229,
-  "Name": "Ziemann, Mohr and Trantow",
-  "Tooltip": "vel",
-  "TableName": "Walter-Berge",
-  "Area": "qui",
+  "TaskMenuId": 736,
+  "Name": "Jenkins, Leffler and O'Kon",
+  "Tooltip": "in",
+  "TableName": "Robel, Labadie and Wilkinson",
+  "Area": "velit",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 621,
+  "CrmScriptId": 289,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 649,
+  "Rank": 31,
   "Encoding": "ANSI",
-  "ProgId": "quas",
+  "ProgId": "vel",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 618
     }
   }
 }

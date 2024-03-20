@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 80,
-    "Name": "Kulas Inc and Sons",
-    "ConsentText": "necessitatibus",
-    "FormText": "magnam",
-    "Key": "officiis",
-    "Tooltip": "ut",
-    "Active": 174,
-    "UpdatedDate": "2017-02-14T14:23:46.8462293+01:00",
+    "ConsentPurposeId": 952,
+    "Name": "Stark LLC",
+    "ConsentText": "repellendus",
+    "FormText": "cupiditate",
+    "Key": "perferendis",
+    "Tooltip": "laboriosam",
+    "Active": 822,
+    "UpdatedDate": "2010-12-16T12:19:45.523458+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 830,
-    "PrivacyStatementDesc": "omnis",
+    "Rank": 987,
+    "PrivacyStatementDesc": "eligendi",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 777
       }
     }
   }

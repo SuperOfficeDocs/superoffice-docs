@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=dicta
-GET /api/v1/Pricelist?$top=681
-GET /api/v1/Pricelist?$skip=584
+GET /api/v1/Pricelist?$entities=dolores
+GET /api/v1/Pricelist?$top=28
+GET /api/v1/Pricelist?$skip=183
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=doloribus
+GET /api/v1/Pricelist?$context=nemo
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=True
+GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatum",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 9515,
+      "PrimaryKey": 5393,
       "EntityName": "sale",
-      "saleId": 9515,
-      "contactId": 883,
-      "name": "O'Hara, Cremin and Heaney"
+      "saleId": 5393,
+      "contactId": 6156,
+      "name": "Bernhard-Harvey"
     },
     {
-      "PrimaryKey": 3624,
+      "PrimaryKey": 6749,
       "EntityName": "sale",
-      "saleId": 3624,
-      "contactId": 437,
-      "name": "Sauer-Runte"
+      "saleId": 6749,
+      "contactId": 1462,
+      "name": "Connelly Inc and Sons"
     }
   ]
 }

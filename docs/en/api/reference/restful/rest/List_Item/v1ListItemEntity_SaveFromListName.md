@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Pfannerstill-Mayert",
-  "Tooltip": "nobis",
+  "Id": 723,
+  "Name": "D'Amore, Hagenes and Windler",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 616,
-  "Rank": 384
+  "UdListDefinitionId": 262,
+  "Rank": 718
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Quitzon Inc and Sons",
-  "Tooltip": "suscipit",
+  "Id": 882,
+  "Name": "Thiel LLC",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 107,
-  "Rank": 442,
+  "UdListDefinitionId": 981,
+  "Rank": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldLength": 672
     }
   }
 }

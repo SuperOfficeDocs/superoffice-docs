@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=earum
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=corporis
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Blanda, Jacobs and Medhurst",
-    "ToolTip": "Ipsam cum et.",
+    "Id": 505,
+    "Name": "Hettinger-Lehner",
+    "ToolTip": "Et iste.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "sed",
-    "ColorBlock": 726,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "2017-06-26T14:23:56.1189508+02:00",
+    "Rank": 552,
+    "Type": "ut",
+    "ColorBlock": 955,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "1997-10-20T12:19:54.6177594+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Sporer Group",
-        "ToolTip": "Soluta corrupti.",
-        "Deleted": true,
-        "Rank": 39,
-        "Type": "in",
-        "ColorBlock": 761,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2002-04-18T14:23:56.1189508+02:00",
+        "Id": 98,
+        "Name": "Feil Group",
+        "ToolTip": "Et quia repellat voluptas blanditiis quis sed rem.",
+        "Deleted": false,
+        "Rank": 984,
+        "Type": "nesciunt",
+        "ColorBlock": 786,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2004-04-11T12:19:54.6177594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Jayde Littel",
+        "ExtraInfo": "cumque",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Treva Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 460
+            "FieldLength": 846
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "tenetur",
-    "Hidden": false,
-    "FullName": "Miss Favian Wunsch",
+    "ExtraInfo": "ad",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Jedidiah Fleta Durgan MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 479
       }
     }
   }

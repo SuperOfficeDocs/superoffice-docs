@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wehner, Legros and Effertz",
-  "DeviceName": "Rempel LLC",
-  "DeviceIdentifier": "eum",
-  "KeyName": "Schroeder-Smitham",
-  "TableName": "Mosciski Group",
-  "RecordId": 579
+  "ApplicationName": "Bailey-Flatley",
+  "DeviceName": "Quitzon-Strosin",
+  "DeviceIdentifier": "sed",
+  "KeyName": "Christiansen-Parker",
+  "TableName": "Berge-Mills",
+  "RecordId": 387
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsum",
-  "Value": "ratione",
-  "RecordId": 844,
-  "CreatedDate": "2010-09-22T14:23:46.7524806+02:00",
-  "UpdatedDate": "1997-12-28T14:23:46.7524806+01:00",
-  "UpdatedBy": "dicta",
-  "CreatedBy": "veniam",
-  "TableName": "Welch-Christiansen",
+  "Key": "aliquam",
+  "Value": "totam",
+  "RecordId": 498,
+  "CreatedDate": "2004-11-09T12:19:45.4141069+01:00",
+  "UpdatedDate": "2014-03-26T12:19:45.4141069+01:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "architecto",
+  "TableName": "Goyette Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

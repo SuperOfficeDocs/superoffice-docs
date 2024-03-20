@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 891,
-  "Name": "McGlynn LLC",
-  "Tooltip": "omnis",
-  "VisibleColumns": 919,
-  "Rank": 595,
-  "AssocId": 548,
+  "DiaryViewId": 301,
+  "Name": "Pouros Group",
+  "Tooltip": "dolore",
+  "VisibleColumns": 191,
+  "Rank": 165,
+  "AssocId": 113,
   "AssociateList": [
     {
-      "Id": 283,
-      "Name": "Kovacek LLC",
-      "ToolTip": "Porro laboriosam velit.",
+      "Id": 927,
+      "Name": "Lubowitz Inc and Sons",
+      "ToolTip": "Nisi ab id velit.",
       "Deleted": false,
-      "Rank": 394,
-      "Type": "est",
-      "ColorBlock": 449,
-      "IconHint": "reiciendis",
-      "Selected": true,
-      "LastChanged": "2016-12-15T14:23:46.0480845+01:00",
+      "Rank": 553,
+      "Type": "consequatur",
+      "ColorBlock": 808,
+      "IconHint": "ut",
+      "Selected": false,
+      "LastChanged": "2005-11-09T12:19:44.8361197+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "architecto",
+      "ExtraInfo": "ea",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Dr. Oliver Pete Kiehn",
+      "FullName": "Fanny Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 478
         }
       }
     }
   ],
-  "TzLocationId": 533,
+  "TzLocationId": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 740
     }
   }
 }

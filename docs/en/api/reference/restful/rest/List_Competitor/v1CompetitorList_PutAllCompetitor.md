@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Lebsack Group",
-    "Tooltip": "fugiat",
+    "Id": 733,
+    "Name": "Wolf, Prohaska and Cole",
+    "Tooltip": "quo",
     "Deleted": true,
-    "UdListDefinitionId": 672,
-    "Rank": 549
+    "UdListDefinitionId": 649,
+    "Rank": 927
   },
   {
-    "Id": 344,
-    "Name": "Lebsack Group",
-    "Tooltip": "fugiat",
+    "Id": 733,
+    "Name": "Wolf, Prohaska and Cole",
+    "Tooltip": "quo",
     "Deleted": true,
-    "UdListDefinitionId": 672,
-    "Rank": 549
+    "UdListDefinitionId": 649,
+    "Rank": 927
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Goodwin, Zboncak and Blanda",
-    "Tooltip": "sint",
+    "Id": 922,
+    "Name": "Stehr-Farrell",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 494,
-    "Rank": 794,
+    "UdListDefinitionId": 306,
+    "Rank": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 350
       }
     }
   }

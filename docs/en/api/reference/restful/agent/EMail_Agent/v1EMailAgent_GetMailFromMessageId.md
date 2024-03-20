@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "magni"
+  "MessageId": "veniam"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 928,
-      "ContactName": "Stamm-Goyette",
-      "PersonId": 250,
-      "PersonName": "Raynor-Kozey",
-      "AssociateId": 616,
-      "Address": "consequatur",
-      "EmailId": 80,
+      "ContactId": 682,
+      "ContactName": "Aufderhar, Lesch and Dietrich",
+      "PersonId": 397,
+      "PersonName": "Grant Inc and Sons",
+      "AssociateId": 380,
+      "Address": "exercitationem",
+      "EmailId": 937,
       "DuplicatePersonIds": [
-        44,
-        902
+        787,
+        858
       ],
-      "Name": "Kuhlman-Ullrich",
+      "Name": "Lehner Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 844
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 584,
-      "ContactName": "Casper-Predovic",
-      "PersonId": 390,
-      "PersonName": "Bayer, Murazik and Konopelski",
-      "AssociateId": 844,
-      "Address": "doloribus",
-      "EmailId": 626,
+      "ContactId": 375,
+      "ContactName": "Koepp Group",
+      "PersonId": 796,
+      "PersonName": "Connelly-Gutkowski",
+      "AssociateId": 234,
+      "Address": "reprehenderit",
+      "EmailId": 939,
       "DuplicatePersonIds": [
-        278,
-        92
+        946,
+        658
       ],
-      "Name": "McGlynn-Kunze",
+      "Name": "Auer, Walker and Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldLength": 72
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 636,
-      "ContactName": "Metz, Jones and Quitzon",
-      "PersonId": 763,
-      "PersonName": "Armstrong-Mayert",
-      "AssociateId": 89,
-      "Address": "repellendus",
-      "EmailId": 133,
+      "ContactId": 584,
+      "ContactName": "Welch, Eichmann and Keeling",
+      "PersonId": 998,
+      "PersonName": "Collins LLC",
+      "AssociateId": 217,
+      "Address": "officia",
+      "EmailId": 943,
       "DuplicatePersonIds": [
-        116,
-        579
+        675,
+        354
       ],
-      "Name": "Dooley, Stehr and Pouros",
+      "Name": "West LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 267
         }
       }
     }
   ],
-  "Subject": "ex",
-  "HTMLBody": "velit",
+  "Subject": "consequatur",
+  "HTMLBody": "illo",
   "From": null,
-  "Sent": "2023-04-04T14:23:46.4387031+02:00",
-  "Size": 948,
+  "Sent": "1997-09-30T12:19:45.2422708+02:00",
+  "Size": 425,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "culpa",
-  "PlainBody": "repellendus",
+  "MessageID": "fugiat",
+  "PlainBody": "neque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 164,
+  "ServerId": 802,
   "Attachments": [
     {
-      "Description": "Streamlined multi-state product",
-      "Filename": "iusto",
-      "Size": 11,
-      "Type": "at",
-      "Encoding": "voluptatibus",
-      "Id": "voluptas",
-      "Disposition": "laborum",
+      "Description": "Operative empowering model",
+      "Filename": "deleniti",
+      "Size": 522,
+      "Type": "vitae",
+      "Encoding": "id",
+      "Id": "et",
+      "Disposition": "cupiditate",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 13
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Doyle-Harber",
+      "Name": "Howell-Gorczany",
       "Values": [
-        "totam",
-        "dolor"
+        "et",
+        "tempora"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     },
     {
-      "Name": "Doyle-Harber",
+      "Name": "Howell-Gorczany",
       "Values": [
-        "totam",
-        "dolor"
+        "et",
+        "tempora"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     }
   ],
-  "FolderName": "Bogisich, Spencer and Dibbert",
-  "EmailItemId": 671,
-  "AccountId": 396,
-  "ReceivedAt": "2006-05-04T14:23:46.4387031+02:00",
+  "FolderName": "Eichmann, Greenholt and Hagenes",
+  "EmailItemId": 54,
+  "AccountId": 981,
+  "ReceivedAt": "2014-12-27T12:19:45.2422708+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-04-12T14:23:46.4387031+02:00",
+  "RepliedAt": "1999-10-27T12:19:45.2422708+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/Project/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Crist-Effertz",
-    "SoPrimaryKey": 271,
-    "EntryName": "Walsh, Lakin and Keebler",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Schuster, Sawayn and Torp",
+    "RuleName": "Lehner, Tillman and Schuster",
+    "SoPrimaryKey": 105,
+    "EntryName": "Schaden LLC",
+    "EntryIdentifier": "numquam",
+    "RuleDisplayName": "Kub-Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 196
       }
     }
   }

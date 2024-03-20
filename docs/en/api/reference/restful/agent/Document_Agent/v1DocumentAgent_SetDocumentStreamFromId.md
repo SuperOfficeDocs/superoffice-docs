@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 645,
+  "DocumentId": 53,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 478,
+  "DocumentId": 364,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "a",
-  "Header": "sunt",
-  "Name": "Block-Harber",
-  "OurRef": "culpa",
-  "YourRef": "tempora",
-  "CreatedDate": "2016-03-16T14:23:46.4074533+01:00",
-  "UpdatedDate": "2006-05-15T14:23:46.4074533+02:00",
-  "Description": "Advanced value-added hub",
+  "Attention": "rem",
+  "Header": "sequi",
+  "Name": "Renner, Padberg and Crona",
+  "OurRef": "odit",
+  "YourRef": "ullam",
+  "CreatedDate": "2008-11-06T12:19:45.2110303+01:00",
+  "UpdatedDate": "2019-09-29T12:19:45.2110303+02:00",
+  "Description": "Monitored clear-thinking hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-05-23T14:23:46.4074533+02:00",
-  "ExternalRef": "qui",
+  "Date": "2003-05-05T12:19:45.2110303+02:00",
+  "ExternalRef": "error",
   "Completed": "Completed",
-  "ActiveLinks": 686,
+  "ActiveLinks": 516,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kerluke, Kihn and Willms",
-      "Id": 544,
-      "Description": "Reactive didactic encryption",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 874,
+      "EntityName": "Brekke LLC",
+      "Id": 737,
+      "Description": "Versatile well-modulated collaboration",
+      "ExtraInfo": "a",
+      "LinkId": 651,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 517
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 547,
-  "Snum": 931,
+  "SuggestedDocumentId": 59,
+  "Snum": 821,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rahsaan Price",
-    "SuperOffice:2": "Wava Prohaska"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Chadrick Quigley"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "est"
+    "CustomFields1": "aut",
+    "CustomFields2": "maiores"
   },
-  "PublishEventDate": "2004-12-24T14:23:46.4074533+01:00",
-  "PublishTo": "1999-07-22T14:23:46.4074533+02:00",
-  "PublishFrom": "2008-07-25T14:23:46.4074533+02:00",
+  "PublishEventDate": "2018-11-30T12:19:45.2110303+01:00",
+  "PublishTo": "2018-08-09T12:19:45.2110303+02:00",
+  "PublishFrom": "2005-11-17T12:19:45.2110303+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 607
     }
   }
 }

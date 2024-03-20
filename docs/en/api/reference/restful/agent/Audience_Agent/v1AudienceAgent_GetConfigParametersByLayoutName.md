@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hettinger LLC"
+  "LayoutName": "Kirlin Inc and Sons"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 137,
-    "Name": "Muller, Dickinson and Lynch",
-    "Value": "eveniet",
-    "CreatedDate": "2007-12-02T14:23:45.8762101+01:00",
-    "UpdatedDate": "2017-06-29T14:23:45.8762101+02:00",
-    "CreatedBy": "facere",
-    "UpdatedBy": "voluptas",
+    "AudienceLayoutId": 990,
+    "Name": "Kihn, Klein and Ortiz",
+    "Value": "quia",
+    "CreatedDate": "2017-05-17T12:19:44.5080652+02:00",
+    "UpdatedDate": "2008-12-03T12:19:44.5080652+01:00",
+    "CreatedBy": "velit",
+    "UpdatedBy": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

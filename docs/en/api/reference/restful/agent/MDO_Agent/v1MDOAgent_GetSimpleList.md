@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crooks Group"
+  "Name": "Cummings-Kohler"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Larson-Shanahan",
-    "ToolTip": "Et tenetur fuga.",
-    "Deleted": false,
-    "Rank": 556,
-    "Type": "dolore",
+    "Id": 40,
+    "Name": "Quitzon, Lemke and Bednar",
+    "ToolTip": "Eligendi ratione dolorem quo similique.",
+    "Deleted": true,
+    "Rank": 839,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Hane, Runolfsdottir and VonRueden",
-        "ToolTip": "Libero est harum dolores et dolore ut facilis.",
+        "Id": 864,
+        "Name": "Daugherty Group",
+        "ToolTip": "Nemo velit illo.",
         "Deleted": false,
-        "Rank": 882,
-        "Type": "dignissimos",
+        "Rank": 757,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 134,
-        "ExtraInfo": "earum",
-        "StyleHint": "voluptatem",
-        "FullName": "Candice Nikolaus II",
+        "IconHint": "qui",
+        "ColorBlock": 474,
+        "ExtraInfo": "magnam",
+        "StyleHint": "dolore",
+        "FullName": "Dock O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 186
+            "FieldType": "System.Int32",
+            "FieldLength": 701
           }
         }
       }
     ],
-    "IconHint": "occaecati",
-    "ColorBlock": 44,
-    "ExtraInfo": "dolor",
-    "StyleHint": "sed",
-    "FullName": "Dr. Willy Lourdes Ryan",
+    "IconHint": "quidem",
+    "ColorBlock": 164,
+    "ExtraInfo": "et",
+    "StyleHint": "magni",
+    "FullName": "Monique Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldLength": 28
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Little Inc and Sons",
-    "ToolTip": "Rem et iusto enim.",
+    "Id": 642,
+    "Name": "Lubowitz-Lesch",
+    "ToolTip": "Voluptatum est est magnam tempora ex.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "aut",
-    "ColorBlock": 222,
-    "IconHint": "consequatur",
+    "Rank": 932,
+    "Type": "laborum",
+    "ColorBlock": 104,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2016-05-07T14:23:56.1189508+02:00",
+    "LastChanged": "2010-07-18T12:19:54.602145+02:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Huel-Leffler",
-        "ToolTip": "Eligendi in.",
-        "Deleted": true,
-        "Rank": 160,
-        "Type": "velit",
-        "ColorBlock": 935,
-        "IconHint": "ipsum",
-        "Selected": true,
-        "LastChanged": "2015-10-20T14:23:56.1189508+02:00",
+        "Id": 280,
+        "Name": "Bosco Group",
+        "ToolTip": "Occaecati consequatur excepturi quis molestiae illo.",
+        "Deleted": false,
+        "Rank": 202,
+        "Type": "tempore",
+        "ColorBlock": 32,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "1998-07-03T12:19:54.602145+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Miss Giovanny Citlalli Wyman",
+        "ExtraInfo": "est",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Madeline DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 745
+            "FieldLength": 623
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Lucio Pouros",
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Alessandra Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldLength": 665
       }
     }
   }

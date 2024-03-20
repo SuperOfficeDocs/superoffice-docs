@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Wehner LLC",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 474,
-  "IsCustomList": true,
+  "Id": 491,
+  "Name": "Leuschke-Weimann",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 726,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 338
     }
   },
   "_Links": {

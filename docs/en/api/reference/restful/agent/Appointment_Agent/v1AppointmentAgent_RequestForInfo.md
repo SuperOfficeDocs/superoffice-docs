@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 329,
-  "Channel": "dignissimos",
-  "Regarding": "explicabo",
-  "ContactName": "Trantow, Gislason and Russel",
-  "PersonFirstname": "Leatha",
-  "PersonLastname": "Wehner",
-  "EmailAddress": "cassidy_cartwright@johnston.us",
-  "PhoneNumber": "910233"
+  "AssociateIdForNewContact": 300,
+  "Channel": "eum",
+  "Regarding": "ab",
+  "ContactName": "Haag LLC",
+  "PersonFirstname": "Rogers",
+  "PersonLastname": "Walter",
+  "EmailAddress": "heaven_bauch@lang.name",
+  "PhoneNumber": "1009314"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 484,
-      "Name": "Feest, Buckridge and O'Reilly",
-      "OrgNr": "1047212",
+      "ContactId": 842,
+      "Name": "Rogahn, Weber and Kovacek",
+      "OrgNr": "250863",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "rem",
-      "DirectPhone": "1-655-542-4350",
-      "AssociateId": 260,
-      "CountryId": 931,
-      "EmailAddress": "maci@robel.com",
-      "Kananame": "ad",
-      "EmailAddressName": "vicenta@kutch.uk",
+      "City": "sit",
+      "DirectPhone": "1-390-504-4051 x20605",
+      "AssociateId": 31,
+      "CountryId": 296,
+      "EmailAddress": "leslie_roob@glover.biz",
+      "Kananame": "non",
+      "EmailAddressName": "octavia.erdman@hills.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Alfreda Herman",
+      "AssociateFullName": "Gunner Myles DuBuque Sr.",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "quidem",
-      "FullName": "Mr. Sophie Jakubowski III",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 729,
-      "Number1": "1670071",
-      "Number2": "82796",
+      "FormattedAddress": "culpa",
+      "FullName": "Estefania Ziemann",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 95,
+      "Number1": "1026244",
+      "Number2": "960786",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 353
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 249
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=694
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=677
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 809,
-  "Name": "Monahan Group",
+  "ContactId": 424,
+  "Name": "Hauck-Reinger",
   "Department": "",
-  "OrgNr": "1076194",
-  "Number1": "840951",
-  "Number2": "832839",
-  "UpdatedDate": "2022-02-09T14:23:46.1105841+01:00",
-  "CreatedDate": "2020-11-22T14:23:46.1105841+01:00",
+  "OrgNr": "1193822",
+  "Number1": "65256",
+  "Number2": "964771",
+  "UpdatedDate": "2002-09-24T12:19:44.8985943+02:00",
+  "CreatedDate": "2016-11-15T12:19:44.8985943+01:00",
   "Emails": [
     {
-      "Value": "ea",
-      "StrippedValue": "qui",
-      "Description": "Enterprise-wide methodical workforce",
+      "Value": "qui",
+      "StrippedValue": "consequatur",
+      "Description": "Streamlined value-added data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 695
         }
       }
     },
     {
-      "Value": "ea",
-      "StrippedValue": "qui",
-      "Description": "Enterprise-wide methodical workforce",
+      "Value": "qui",
+      "StrippedValue": "consequatur",
+      "Description": "Streamlined value-added data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 695
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 242,
-      "Name": "Kozey, Bailey and Streich",
-      "ToolTip": "Velit sunt eum labore illum provident.",
-      "Deleted": false,
-      "Rank": 947,
-      "Type": "provident",
-      "ColorBlock": 554,
-      "IconHint": "in",
+      "Id": 690,
+      "Name": "Mills LLC",
+      "ToolTip": "Vel fugit ut repellat.",
+      "Deleted": true,
+      "Rank": 247,
+      "Type": "voluptatum",
+      "ColorBlock": 60,
+      "IconHint": "necessitatibus",
       "Selected": false,
-      "LastChanged": "2021-05-24T14:23:46.1105841+02:00",
+      "LastChanged": "2003-02-24T12:19:44.8985943+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "velit",
+      "ExtraInfo": "rerum",
+      "StyleHint": "maiores",
       "Hidden": false,
-      "FullName": "Ms. Eleanora Sigmund Daniel",
+      "FullName": "Aric Kris PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 511
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "odio",
-      "Description": "Team-oriented tangible firmware",
+      "Value": "amet",
+      "StrippedValue": "modi",
+      "Description": "Fully-configurable holistic framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldType": "System.String",
+          "FieldLength": 926
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "odio",
-      "Description": "Team-oriented tangible firmware",
+      "Value": "amet",
+      "StrippedValue": "modi",
+      "Description": "Fully-configurable holistic framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldType": "System.String",
+          "FieldLength": 926
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "veritatis",
-      "StrippedValue": "rerum",
-      "Description": "Profound impactful synergy",
+      "Value": "omnis",
+      "StrippedValue": "voluptatem",
+      "Description": "Persevering radical matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 222
         }
       }
     },
     {
-      "Value": "veritatis",
-      "StrippedValue": "rerum",
-      "Description": "Profound impactful synergy",
+      "Value": "omnis",
+      "StrippedValue": "voluptatem",
+      "Description": "Persevering radical matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 222
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "maxime",
-      "StrippedValue": "fugit",
-      "Description": "Triple-buffered content-based task-force",
+      "Value": "ut",
+      "StrippedValue": "officiis",
+      "Description": "Multi-tiered global array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 558
         }
       }
     },
     {
-      "Value": "maxime",
-      "StrippedValue": "fugit",
-      "Description": "Triple-buffered content-based task-force",
+      "Value": "ut",
+      "StrippedValue": "officiis",
+      "Description": "Multi-tiered global array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 558
         }
       }
     }
   ],
-  "Description": "Managed hybrid local area network",
+  "Description": "Diverse bottom-line website",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "eius",
-      "PersonId": 554,
-      "Mrmrs": "ab",
-      "Firstname": "Logan",
-      "Lastname": "Fisher",
-      "MiddleName": "Beatty-Reichel",
-      "Title": "quod",
-      "Description": "Synergistic national installation",
-      "Email": "hilario@mckenzie.com",
-      "FullName": "Alberta Torp",
-      "DirectPhone": "(491)440-2860",
-      "FormalName": "Altenwerth Inc and Sons",
-      "CountryId": 942,
-      "ContactId": 435,
-      "ContactName": "Schamberger LLC",
-      "Retired": 380,
-      "Rank": 863,
-      "ActiveInterests": 285,
+      "Position": "cumque",
+      "PersonId": 857,
+      "Mrmrs": "qui",
+      "Firstname": "Eduardo",
+      "Lastname": "Steuber",
+      "MiddleName": "Heaney-Heaney",
+      "Title": "inventore",
+      "Description": "Balanced mobile Graphic Interface",
+      "Email": "greyson@leuschke.uk",
+      "FullName": "Jerod Ortiz",
+      "DirectPhone": "093-646-9900 x6130",
+      "FormalName": "Nienow Inc and Sons",
+      "CountryId": 252,
+      "ContactId": 584,
+      "ContactName": "Fadel LLC",
+      "Retired": 238,
+      "Rank": 359,
+      "ActiveInterests": 566,
       "ContactDepartment": "",
-      "ContactCountryId": 930,
-      "ContactOrgNr": "925984",
-      "FaxPhone": "528.237.2370 x6598",
-      "MobilePhone": "723-296-3496 x08446",
-      "ContactPhone": "(021)516-0177 x65403",
-      "AssociateName": "Ebert, Mills and Pouros",
-      "AssociateId": 969,
+      "ContactCountryId": 909,
+      "ContactOrgNr": "1066247",
+      "FaxPhone": "448-418-0618",
+      "MobilePhone": "1-636-200-3972 x574",
+      "ContactPhone": "(857)962-4395",
+      "AssociateName": "Parker Group",
+      "AssociateId": 912,
       "UsePersonAddress": true,
-      "ContactFax": "eum",
-      "Kanafname": "a",
+      "ContactFax": "nihil",
+      "Kanafname": "quia",
       "Kanalname": "rerum",
-      "Post1": "quis",
-      "Post2": "et",
-      "Post3": "voluptates",
-      "EmailName": "zena_hackett@gulgowskibins.ca",
-      "ContactFullName": "Ewald Champlin",
-      "ActiveErpLinks": 311,
-      "TicketPriorityId": 256,
-      "SupportLanguageId": 106,
-      "SupportAssociateId": 502,
+      "Post1": "hic",
+      "Post2": "nihil",
+      "Post3": "distinctio",
+      "EmailName": "marquis@rogahnroberts.ca",
+      "ContactFullName": "Scot Waelchi",
+      "ActiveErpLinks": 736,
+      "TicketPriorityId": 436,
+      "SupportLanguageId": 918,
+      "SupportAssociateId": 821,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 27
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "nulla",
+  "Kananame": "cumque",
   "Xstop": true,
-  "ActiveInterests": 821,
-  "GroupId": 671,
-  "ActiveStatusMonitorId": 30,
+  "ActiveInterests": 226,
+  "GroupId": 840,
+  "ActiveStatusMonitorId": 17,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 847,
-  "DbiAgentId": 287,
-  "DbiLastSyncronized": "2008-05-01T14:23:46.1105841+02:00",
-  "DbiKey": "aut",
-  "DbiLastModified": "2006-01-07T14:23:46.1105841+01:00",
+  "Deleted": 217,
+  "DbiAgentId": 416,
+  "DbiLastSyncronized": "2008-11-26T12:19:44.8985943+01:00",
+  "DbiKey": "dolorem",
+  "DbiLastModified": "2013-07-23T12:19:44.8985943+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 854,
-  "ActiveErpLinks": 734,
+  "Source": 797,
+  "ActiveErpLinks": 248,
   "BounceEmails": [
-    "bill@murazik.us",
-    "kailyn.roberts@bartolettinienow.ca"
+    "lorena@lowe.name",
+    "khalid@streich.name"
   ],
   "Domains": [
-    "aperiam",
-    "esse"
+    "exercitationem",
+    "voluptatibus"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Matt Zulauf",
-    "SuperOffice:2": "Christa Bernhard"
+    "SuperOffice:1": "Prof. Aidan Justus Wintheiser",
+    "SuperOffice:2": "Milford Wiegand"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "expedita",
+    "CustomFields2": "a"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldLength": 68
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 567,
-  "Name": "Schiller, Murphy and Grant",
-  "Tooltip": "aut",
-  "Rank": 504,
-  "Rate": 5691.344,
-  "Units": 2071.574,
+  "CurrencyId": 759,
+  "Name": "Gleichner Group",
+  "Tooltip": "unde",
+  "Rank": 488,
+  "Rate": 8182.874,
+  "Units": 16406.489999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 857
     }
   }
 }

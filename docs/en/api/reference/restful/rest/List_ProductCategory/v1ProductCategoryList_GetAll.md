@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Jewess Inc and Sons",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "UdListDefinitionId": 266,
-    "Rank": 895,
+    "Id": 389,
+    "Name": "Yundt LLC",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 280,
+    "Rank": 276,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 367
       }
     }
   }

@@ -92,27 +92,27 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 397,
-  "Name": "Rice LLC",
-  "Rank": 33,
-  "Tooltip": "accusantium",
-  "Icon": "velit",
-  "DefaultTicketStatus": 707,
+  "TicketTypeId": 623,
+  "Name": "Mosciski Group",
+  "Rank": 969,
+  "Tooltip": "omnis",
+  "Icon": "ratione",
+  "DefaultTicketStatus": 510,
   "TicketStatuses": [
-    354,
-    923
+    689,
+    622
   ],
-  "DefaultTicketPriority": 67,
+  "DefaultTicketPriority": 358,
   "TicketPriorities": [
-    751,
-    153
+    236,
+    799
   ],
-  "ReplyTemplate": 839,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 670,
+  "IsExternalVisible": true,
   "IsDefault": true
 }
 ```
@@ -124,30 +124,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 357,
-  "Name": "Quitzon, Gislason and Rau",
-  "Rank": 826,
-  "Tooltip": "eaque",
-  "Icon": "in",
-  "DefaultTicketStatus": 314,
+  "TicketTypeId": 868,
+  "Name": "Torp LLC",
+  "Rank": 915,
+  "Tooltip": "et",
+  "Icon": "accusamus",
+  "DefaultTicketStatus": 863,
   "TicketStatuses": [
-    740,
-    970
+    530,
+    404
   ],
-  "DefaultTicketPriority": 370,
+  "DefaultTicketPriority": 208,
   "TicketPriorities": [
-    380,
-    279
+    292,
+    11
   ],
-  "ReplyTemplate": 143,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 253,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 873
     }
   }
 }

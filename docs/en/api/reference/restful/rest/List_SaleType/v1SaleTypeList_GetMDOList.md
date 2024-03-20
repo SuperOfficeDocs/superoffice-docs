@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=qui
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=voluptatum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Ratke-O'Kon",
-    "ToolTip": "Ad eligendi velit.",
-    "Deleted": false,
-    "Rank": 74,
-    "Type": "deserunt",
+    "Id": 312,
+    "Name": "Feest LLC",
+    "ToolTip": "Qui ducimus id rerum quidem ipsum quae.",
+    "Deleted": true,
+    "Rank": 538,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Kuvalis, Durgan and Becker",
-        "ToolTip": "Pariatur reiciendis est expedita minus iure illum.",
-        "Deleted": true,
-        "Rank": 732,
-        "Type": "accusantium",
+        "Id": 556,
+        "Name": "Nader Inc and Sons",
+        "ToolTip": "Illum nesciunt illum tempora quia.",
+        "Deleted": false,
+        "Rank": 739,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 397,
-        "ExtraInfo": "fuga",
-        "StyleHint": "ut",
-        "FullName": "Grayson Cummings",
+        "IconHint": "accusamus",
+        "ColorBlock": 327,
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "FullName": "Jude Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 78
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 194,
-    "ExtraInfo": "autem",
-    "StyleHint": "illo",
-    "FullName": "Ms. Katelin Waelchi",
+    "IconHint": "voluptate",
+    "ColorBlock": 617,
+    "ExtraInfo": "esse",
+    "StyleHint": "iusto",
+    "FullName": "Prof. Fabian Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

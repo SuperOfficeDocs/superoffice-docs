@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha-Barton",
-    "StepNumber": 784,
+    "Name": "Koelpin-Kohler",
+    "StepNumber": 401,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   },
   {
-    "Name": "Pacocha-Barton",
-    "StepNumber": 784,
+    "Name": "Koelpin-Kohler",
+    "StepNumber": 401,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

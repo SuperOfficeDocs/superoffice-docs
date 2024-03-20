@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 122,
-  "CustomerCustomerReplyTemplateId": 378,
-  "CustomerPasswordTemplateId": 983,
-  "CustomerConfirmEmailTemplateId": 53,
-  "CustomerChatLogTemplateId": 600,
-  "NewLinkTemplateId": 854,
-  "HotlistNewMessageTemplateId": 245,
-  "HotlistTicketActivatedTemplateId": 884,
-  "UserTicketAlarmTemplateId": 392,
-  "HotlistTicketTakenOverTemplateId": 64,
-  "UserActiveTicketsTemplateId": 177,
-  "UserNewMessageTemplateId": 610,
-  "UserTicketActivatedTemplateId": 828,
-  "UserNewTicketTemplateId": 793,
-  "PublishKbQuestionTemplateId": 446,
-  "PublishKbAnswerTemplateId": 728,
-  "UserTicketTakenOverTemplateId": 593,
-  "PrintTicketTemplateId": 412,
-  "WeekStatTemplateId": 820,
-  "TicketAlarmHotlistTemplateId": 994,
-  "EmailAddresses": "jacques@cartwright.biz",
+  "CustomerNewCustomerTemplateId": 489,
+  "CustomerCustomerReplyTemplateId": 281,
+  "CustomerPasswordTemplateId": 680,
+  "CustomerConfirmEmailTemplateId": 395,
+  "CustomerChatLogTemplateId": 765,
+  "NewLinkTemplateId": 460,
+  "HotlistNewMessageTemplateId": 853,
+  "HotlistTicketActivatedTemplateId": 432,
+  "UserTicketAlarmTemplateId": 444,
+  "HotlistTicketTakenOverTemplateId": 387,
+  "UserActiveTicketsTemplateId": 45,
+  "UserNewMessageTemplateId": 151,
+  "UserTicketActivatedTemplateId": 623,
+  "UserNewTicketTemplateId": 443,
+  "PublishKbQuestionTemplateId": 725,
+  "PublishKbAnswerTemplateId": 393,
+  "UserTicketTakenOverTemplateId": 1002,
+  "PrintTicketTemplateId": 265,
+  "WeekStatTemplateId": 555,
+  "TicketAlarmHotlistTemplateId": 488,
+  "EmailAddresses": "hank_kling@champlin.biz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

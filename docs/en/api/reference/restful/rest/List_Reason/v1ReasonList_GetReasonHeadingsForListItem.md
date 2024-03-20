@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Schaden-Luettgen",
-    "ToolTip": "Laboriosam non voluptatibus totam doloremque aut.",
+    "Id": 753,
+    "Name": "Kreiger LLC",
+    "ToolTip": "Perferendis iusto soluta qui ea non expedita.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "repellendus",
-    "ColorBlock": 139,
-    "IconHint": "qui",
+    "Rank": 336,
+    "Type": "molestiae",
+    "ColorBlock": 95,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2003-10-08T14:23:56.2908239+02:00",
+    "LastChanged": "2020-01-20T12:19:54.8052144+01:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Upton Inc and Sons",
-        "ToolTip": "Et labore et.",
-        "Deleted": true,
-        "Rank": 282,
-        "Type": "libero",
-        "ColorBlock": 901,
-        "IconHint": "laborum",
+        "Id": 397,
+        "Name": "Huel-Howell",
+        "ToolTip": "Voluptas et vero voluptas hic qui.",
+        "Deleted": false,
+        "Rank": 377,
+        "Type": "nihil",
+        "ColorBlock": 523,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2011-07-30T14:23:56.2908239+02:00",
+        "LastChanged": "1998-01-31T12:19:54.8052144+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "optio",
+        "ExtraInfo": "rem",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Casey Hyatt",
+        "FullName": "Mrs. Marta Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 399
+            "FieldType": "System.Int32",
+            "FieldLength": 913
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Madison Hank Von Jr.",
+    "ExtraInfo": "iusto",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Herman Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 873,
-      "ContactName": "Ziemann-Franecki",
-      "PersonId": 708,
-      "PersonName": "Howe-Block",
-      "AssociateId": 352,
-      "Address": "voluptas",
-      "EmailId": 241,
+      "ContactId": 34,
+      "ContactName": "Brakus, Runolfsson and Huels",
+      "PersonId": 496,
+      "PersonName": "Mann LLC",
+      "AssociateId": 557,
+      "Address": "incidunt",
+      "EmailId": 782,
       "DuplicatePersonIds": [
-        394,
-        590
+        16,
+        307
       ],
-      "Name": "Kub Inc and Sons",
+      "Name": "Nienow, Erdman and Ebert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldLength": 765
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 222,
-      "ContactName": "Jacobson-Grady",
-      "PersonId": 940,
-      "PersonName": "Barrows, Greenholt and Cole",
-      "AssociateId": 989,
-      "Address": "qui",
-      "EmailId": 782,
+      "ContactId": 806,
+      "ContactName": "Sauer LLC",
+      "PersonId": 946,
+      "PersonName": "Waters LLC",
+      "AssociateId": 395,
+      "Address": "consectetur",
+      "EmailId": 14,
       "DuplicatePersonIds": [
-        544,
-        638
+        64,
+        701
       ],
-      "Name": "Pagac-Marquardt",
+      "Name": "Mraz, Wyman and Walsh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 725,
-      "ContactName": "Smitham-Beahan",
-      "PersonId": 324,
-      "PersonName": "Schultz, Torp and Kub",
-      "AssociateId": 637,
-      "Address": "ipsum",
-      "EmailId": 842,
+      "ContactId": 399,
+      "ContactName": "Larson Inc and Sons",
+      "PersonId": 196,
+      "PersonName": "Gislason-Farrell",
+      "AssociateId": 993,
+      "Address": "praesentium",
+      "EmailId": 208,
       "DuplicatePersonIds": [
-        608,
-        411
+        418,
+        723
       ],
-      "Name": "Klein-Trantow",
+      "Name": "O'Conner-Macejkovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 671
         }
       }
     }
   ],
-  "Subject": "quod",
-  "HTMLBody": "necessitatibus",
+  "Subject": "ea",
+  "HTMLBody": "laudantium",
   "From": null,
-  "Sent": "1997-09-17T14:23:46.6418272+02:00",
-  "Size": 692,
+  "Sent": "1998-01-26T12:19:45.3047627+01:00",
+  "Size": 585,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "explicabo",
-  "PlainBody": "libero",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "unde",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 550,
+  "ServerId": 989,
   "Attachments": [
     {
-      "Description": "Polarised directional methodology",
-      "Filename": "accusantium",
-      "Size": 43,
-      "Type": "neque",
-      "Encoding": "qui",
-      "Id": "fugiat",
-      "Disposition": "sit",
+      "Description": "User-centric systematic strategy",
+      "Filename": "dignissimos",
+      "Size": 298,
+      "Type": "est",
+      "Encoding": "id",
+      "Id": "amet",
+      "Disposition": "ipsum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dietrich-Prosacco",
+      "Name": "Medhurst, Kub and Rogahn",
       "Values": [
-        "ratione",
-        "in"
+        "molestiae",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 219
         }
       }
     },
     {
-      "Name": "Dietrich-Prosacco",
+      "Name": "Medhurst, Kub and Rogahn",
       "Values": [
-        "ratione",
-        "in"
+        "molestiae",
+        "ipsam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 219
         }
       }
     }
   ],
-  "FolderName": "Sawayn Inc and Sons",
-  "EmailItemId": 486,
-  "AccountId": 865,
-  "ReceivedAt": "2012-10-17T14:23:46.6418272+02:00",
+  "FolderName": "Nitzsche-Goyette",
+  "EmailItemId": 7,
+  "AccountId": 197,
+  "ReceivedAt": "1998-12-12T12:19:45.3047627+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-05-03T14:23:46.6418272+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2010-12-24T12:19:45.3047627+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldLength": 368
     }
   }
 }

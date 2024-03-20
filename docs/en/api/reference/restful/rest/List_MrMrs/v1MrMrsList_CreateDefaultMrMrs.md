@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693,
-  "Name": "Connelly-Christiansen",
-  "Tooltip": "ad",
+  "Id": 278,
+  "Name": "Cruickshank, Lowe and Hermiston",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 39,
-  "Rank": 277,
+  "UdListDefinitionId": 237,
+  "Rank": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   }
 }

@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 50,
-    "FieldName": "Monahan Group",
-    "Label": "quis",
-    "Tooltip": "ex",
+    "QuoteLineConfigurationId": 678,
+    "FieldName": "Hermann-Ondricka",
+    "Label": "amet",
+    "Tooltip": "enim",
     "Editable": true,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 315,
+    "Rank": 644,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldType": "System.String",
+        "FieldLength": 170
       }
     }
   }

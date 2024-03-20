@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=debitis
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Huels, Becker and Armstrong",
-    "ToolTip": "Accusantium odio.",
-    "Deleted": false,
-    "Rank": 344,
-    "Type": "est",
+    "Id": 842,
+    "Name": "Ratke-Wolf",
+    "ToolTip": "Et quibusdam aut et non eos deleniti ad.",
+    "Deleted": true,
+    "Rank": 418,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Ledner-Johnson",
-        "ToolTip": "Qui molestiae minima.",
-        "Deleted": true,
-        "Rank": 820,
-        "Type": "quis",
+        "Id": 656,
+        "Name": "Hoppe, Gottlieb and Tremblay",
+        "ToolTip": "Voluptatibus doloribus exercitationem et cum omnis nobis nemo.",
+        "Deleted": false,
+        "Rank": 319,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 703,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "incidunt",
-        "FullName": "Wellington Jaskolski",
+        "IconHint": "est",
+        "ColorBlock": 261,
+        "ExtraInfo": "ullam",
+        "StyleHint": "consequatur",
+        "FullName": "Mrs. Herminia Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 462
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "exercitationem",
-    "ColorBlock": 695,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "eveniet",
-    "FullName": "Rossie Hoeger",
+    "IconHint": "quidem",
+    "ColorBlock": 817,
+    "ExtraInfo": "est",
+    "StyleHint": "sed",
+    "FullName": "Alisa Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 674
       }
     }
   }

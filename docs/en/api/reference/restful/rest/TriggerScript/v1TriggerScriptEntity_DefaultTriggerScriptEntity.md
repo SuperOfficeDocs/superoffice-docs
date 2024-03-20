@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 841,
-  "Name": "Heathcote, Ortiz and Schmeler",
+  "ScreenChooserId": 782,
+  "Name": "Hartmann, Feil and Streich",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "rerum",
-  "Registered": "2019-06-22T14:23:55.7595795+02:00",
-  "RegisteredAssociateId": 811,
-  "Updated": "2023-09-17T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 233,
+  "UniqueIdentifier": "esse",
+  "Source": "perspiciatis",
+  "Registered": "2018-11-25T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 315,
+  "Updated": "2017-06-29T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

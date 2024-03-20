@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heaney Inc and Sons",
-    "Operator": "reprehenderit",
+    "Name": "Schaden LLC",
+    "Operator": "voluptatem",
     "Values": [
-      "ullam",
-      "distinctio"
+      "natus",
+      "magni"
     ],
     "DisplayValues": [
-      "quaerat",
-      "totam"
+      "alias",
+      "impedit"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bradtke-Mraz",
-        "Operator": "voluptas",
+        "Name": "Blanda-Lowe",
+        "Operator": "voluptatem",
         "Values": [
-          "voluptatum",
-          "ut"
+          "maiores",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "accusantium",
-          "in"
+          "aspernatur",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 650,
+        "InterParenthesis": 104,
         "InterOperator": "And",
-        "UniqueHash": 837
+        "UniqueHash": 351
       }
     ],
-    "InterParenthesis": 764,
+    "InterParenthesis": 223,
     "InterOperator": "And",
-    "UniqueHash": 801
+    "UniqueHash": 931
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West, Fay and Kohler",
-    "Operator": "hic",
+    "Name": "Kris-Flatley",
+    "Operator": "tempora",
     "Values": [
-      "aut",
-      "distinctio"
+      "delectus",
+      "aut"
     ],
     "DisplayValues": [
-      "commodi",
-      "eum"
+      "et",
+      "et"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Gutmann Inc and Sons",
-        "Operator": "dolorem",
+        "Name": "Hauck LLC",
+        "Operator": "et",
         "Values": [
-          "quia",
-          "aliquam"
+          "at",
+          "cumque"
         ],
         "DisplayValues": [
-          "corrupti",
-          "praesentium"
+          "est",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 308,
+        "InterParenthesis": 999,
         "InterOperator": "And",
-        "UniqueHash": 713
+        "UniqueHash": 313
       }
     ],
-    "InterParenthesis": 6,
+    "InterParenthesis": 966,
     "InterOperator": "And",
-    "UniqueHash": 773
+    "UniqueHash": 888
   }
 ]
 ```

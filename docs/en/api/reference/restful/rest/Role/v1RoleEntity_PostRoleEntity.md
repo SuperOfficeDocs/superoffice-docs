@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 317,
-  "Name": "Bernhard LLC",
-  "Tooltip": "rerum",
+  "RoleId": 729,
+  "Name": "Kunde, Koepp and Blanda",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 723,
-  "Rank": 840,
-  "Created": "2022-04-05T14:23:55.384586+02:00",
-  "UseCategories": 558,
+  "Deleted": 283,
+  "Rank": 57,
+  "Created": "2018-09-29T12:19:53.7898269+02:00",
+  "UseCategories": 611,
   "CreatedBy": null,
-  "Updated": "1999-04-14T14:23:55.384586+02:00",
+  "Updated": "1999-03-31T12:19:53.7898269+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 774,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "voluptas",
+  "RoleId": 138,
+  "Name": "Brekke LLC",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 790,
-  "Rank": 571,
-  "Created": "2003-09-07T14:23:55.384586+02:00",
-  "UseCategories": 773,
+  "Deleted": 883,
+  "Rank": 886,
+  "Created": "2008-01-18T12:19:53.7898269+01:00",
+  "UseCategories": 214,
   "CreatedBy": null,
-  "Updated": "2005-12-07T14:23:55.384586+01:00",
+  "Updated": "2014-04-08T12:19:53.7898269+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

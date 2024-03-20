@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jakubowski, McClure and Brakus",
-  "ProviderName": "Dare-Wiegand",
-  "Context": "perspiciatis"
+  "GuiName": "Hoeger, Buckridge and Heidenreich",
+  "ProviderName": "O'Conner-Ritchie",
+  "Context": "minima"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Heathcote, Mante and Stracke",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "voluptas",
-      "CanOrderBy": true,
-      "Name": "Homenick-Bode",
+      "DisplayName": "Rosenbaum-Boyle",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "repellat",
+      "CanOrderBy": false,
+      "Name": "Schultz-Schaefer",
       "CanRestrictBy": true,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Beahan Group",
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Mertz, Pagac and Botsford",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "et",
-      "IconHint": "atque",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "rem",
+      "Width": "optio",
+      "IconHint": "non",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 968,
-      "Name": "Sanford LLC",
-      "ToolTip": "Sit excepturi consequatur voluptatem ea adipisci.",
-      "Deleted": false,
-      "Rank": 895,
-      "Type": "minus",
-      "ColorBlock": 173,
-      "IconHint": "dolor",
-      "Selected": false,
-      "LastChanged": "2011-10-24T14:23:45.8293368+02:00",
+      "Id": 343,
+      "Name": "Dickinson Group",
+      "ToolTip": "Eos quas voluptatem qui ducimus ut neque.",
+      "Deleted": true,
+      "Rank": 58,
+      "Type": "quo",
+      "ColorBlock": 883,
+      "IconHint": "sit",
+      "Selected": true,
+      "LastChanged": "1998-01-16T12:19:44.4768158+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "fuga",
-      "Hidden": true,
-      "FullName": "Mrs. Linnea Iva Towne",
+      "ExtraInfo": "qui",
+      "StyleHint": "dolor",
+      "Hidden": false,
+      "FullName": "Mr. Brenden Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 861
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Block-Fadel",
+      "Name": "Howe-Kertzmann",
       "Direction": "ASC"
     },
     {
-      "Name": "Block-Fadel",
+      "Name": "Howe-Kertzmann",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aperiam",
+  "OwnerKeys": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 626
     }
   }
 }

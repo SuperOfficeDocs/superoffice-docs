@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 242,
-  "Name": "Crooks, Schmeler and VonRueden",
-  "Tooltip": "ea",
-  "VisibleColumns": 440,
-  "Rank": 703,
-  "AssocId": 814,
+  "DiaryViewId": 534,
+  "Name": "McLaughlin Group",
+  "Tooltip": "quis",
+  "VisibleColumns": 723,
+  "Rank": 938,
+  "AssocId": 680,
   "AssociateList": [
     {
-      "Id": 409,
-      "Name": "Grimes-Nikolaus",
-      "ToolTip": "Labore aut natus laboriosam vel reprehenderit placeat assumenda.",
+      "Id": 954,
+      "Name": "Schumm, Kassulke and Frami",
+      "ToolTip": "Qui quod deleniti aliquam nesciunt tenetur.",
       "Deleted": false,
-      "Rank": 993,
-      "Type": "magnam",
-      "ColorBlock": 270,
-      "IconHint": "exercitationem",
+      "Rank": 341,
+      "Type": "nihil",
+      "ColorBlock": 954,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "1997-06-10T14:23:46.0480845+02:00",
+      "LastChanged": "2003-08-10T12:19:44.8361197+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "adipisci",
-      "StyleHint": "quaerat",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "expedita",
       "Hidden": false,
-      "FullName": "Ms. Trenton Jarrett Stracke"
+      "FullName": "Ferne Cartwright"
     }
   ],
-  "TzLocationId": 176
+  "TzLocationId": 235
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 853,
-  "Name": "Jerde-Beier",
-  "Tooltip": "labore",
-  "VisibleColumns": 448,
-  "Rank": 654,
-  "AssocId": 835,
+  "DiaryViewId": 72,
+  "Name": "Bednar-O'Connell",
+  "Tooltip": "minus",
+  "VisibleColumns": 277,
+  "Rank": 965,
+  "AssocId": 66,
   "AssociateList": [
     {
-      "Id": 959,
-      "Name": "Witting, Hirthe and Schuppe",
-      "ToolTip": "Ea dolor.",
+      "Id": 644,
+      "Name": "O'Hara Group",
+      "ToolTip": "Fuga officiis vel officiis reprehenderit ut.",
       "Deleted": false,
-      "Rank": 746,
-      "Type": "similique",
-      "ColorBlock": 522,
-      "IconHint": "unde",
+      "Rank": 155,
+      "Type": "ea",
+      "ColorBlock": 131,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2002-03-18T14:23:46.0480845+01:00",
+      "LastChanged": "1997-03-20T12:19:44.8361197+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "dolorem",
-      "Hidden": true,
-      "FullName": "Prof. Brent Jaskolski",
+      "ExtraInfo": "minus",
+      "StyleHint": "omnis",
+      "Hidden": false,
+      "FullName": "Dr. Alexzander Hilpert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 596
         }
       }
     }
   ],
-  "TzLocationId": 73,
+  "TzLocationId": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 876
     }
   }
 }

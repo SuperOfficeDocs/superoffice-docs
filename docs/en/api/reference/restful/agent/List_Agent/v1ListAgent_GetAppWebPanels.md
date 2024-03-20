@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 339,
-    "Name": "Will LLC",
-    "Tooltip": "distinctio",
+    "WebPanelId": 423,
+    "Name": "Prohaska, Veum and Funk",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 167,
+    "Rank": 341,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
-    "OnTravel": true,
+    "OnCentral": false,
+    "OnSatellite": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
     "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Gorczany-Torp",
+    "WindowName": "Legros, Kassulke and Larkin",
     "Url": "http://www.example.com/",
-    "ProgId": "sit",
-    "Icon": 186,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "quis",
+    "Icon": 68,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 76
       }
     }
   }

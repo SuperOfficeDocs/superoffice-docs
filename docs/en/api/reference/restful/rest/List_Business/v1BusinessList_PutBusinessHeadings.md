@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 350,
-    "Name": "Schiller, Mertz and Morissette",
-    "Tooltip": "molestias",
+    "HeadingId": 771,
+    "Name": "Pfannerstill, Rath and Renner",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 433,
-    "UdListDefinitionId": 68
+    "Rank": 359,
+    "UdListDefinitionId": 485
   },
   {
-    "HeadingId": 350,
-    "Name": "Schiller, Mertz and Morissette",
-    "Tooltip": "molestias",
+    "HeadingId": 771,
+    "Name": "Pfannerstill, Rath and Renner",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 433,
-    "UdListDefinitionId": 68
+    "Rank": 359,
+    "UdListDefinitionId": 485
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 399,
-    "Name": "Daniel, O'Kon and Green",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 441,
-    "UdListDefinitionId": 800,
+    "HeadingId": 611,
+    "Name": "McClure, Casper and Hills",
+    "Tooltip": "consectetur",
+    "Deleted": true,
+    "Rank": 184,
+    "UdListDefinitionId": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

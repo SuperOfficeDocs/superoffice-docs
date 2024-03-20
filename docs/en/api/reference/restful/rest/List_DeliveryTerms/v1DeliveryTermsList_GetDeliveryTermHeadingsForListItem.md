@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Hagenes-Feeney",
-    "ToolTip": "Laborum ullam sunt.",
+    "Id": 286,
+    "Name": "Bauch-Hagenes",
+    "ToolTip": "Aut facilis natus quod qui ullam cumque incidunt.",
     "Deleted": false,
-    "Rank": 578,
-    "Type": "autem",
-    "ColorBlock": 435,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2008-10-02T14:23:56.0720758+02:00",
+    "Rank": 45,
+    "Type": "numquam",
+    "ColorBlock": 354,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "1998-08-13T12:19:54.4146752+02:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Prosacco LLC",
-        "ToolTip": "Fuga culpa illo porro iste vitae.",
+        "Id": 737,
+        "Name": "Rath, Towne and Boyer",
+        "ToolTip": "Dolorem velit aut velit dignissimos sunt saepe.",
         "Deleted": false,
-        "Rank": 442,
-        "Type": "et",
-        "ColorBlock": 779,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2007-06-28T14:23:56.0720758+02:00",
+        "Rank": 775,
+        "Type": "illum",
+        "ColorBlock": 127,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2018-07-09T12:19:54.4146752+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Chaz Roob",
+        "ExtraInfo": "ut",
+        "StyleHint": "quaerat",
+        "Hidden": false,
+        "FullName": "Chris Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Shanna Collier",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Macie Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 256
       }
     }
   }

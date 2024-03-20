@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 329,
-  "UniqueIdentifier": "nemo",
-  "Name": "Ondricka Inc and Sons",
-  "Description": "Ameliorated radical installation",
-  "IncludeId": "et",
-  "HierarchyId": 822,
-  "Source": "odio",
-  "Registered": "2008-04-07T14:23:55.0552747+02:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2013-12-03T14:23:55.0552747+01:00",
-  "UpdatedAssociateId": 633
+  "EjscriptId": 730,
+  "UniqueIdentifier": "sint",
+  "Name": "Carroll LLC",
+  "Description": "Polarised 6th generation matrix",
+  "IncludeId": "delectus",
+  "HierarchyId": 20,
+  "Source": "dolor",
+  "Registered": "2002-04-18T12:19:53.3055654+02:00",
+  "RegisteredAssociateId": 235,
+  "Updated": "1997-04-17T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 342,
-  "UniqueIdentifier": "provident",
-  "Name": "Morissette, McGlynn and Ryan",
-  "Description": "Mandatory responsive customer loyalty",
-  "IncludeId": "sit",
-  "HierarchyId": 739,
-  "Source": "saepe",
-  "Registered": "1999-06-25T14:23:55.0552747+02:00",
-  "RegisteredAssociateId": 959,
-  "Updated": "2006-04-28T14:23:55.0552747+02:00",
-  "UpdatedAssociateId": 362,
+  "EjscriptId": 186,
+  "UniqueIdentifier": "iste",
+  "Name": "Welch-Johnson",
+  "Description": "Digitized multimedia functionalities",
+  "IncludeId": "et",
+  "HierarchyId": 685,
+  "Source": "qui",
+  "Registered": "2009-07-05T12:19:53.3055654+02:00",
+  "RegisteredAssociateId": 658,
+  "Updated": "2012-04-24T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 645
     }
   },
   "_Links": {

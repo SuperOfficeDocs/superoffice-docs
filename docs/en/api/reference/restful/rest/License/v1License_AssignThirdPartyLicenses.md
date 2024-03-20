@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 571,
-    "Tooltip": "iusto",
-    "CanAssign": true,
-    "Free": 300,
-    "InUse": 449,
+    "Unrestricted": false,
+    "Total": 942,
+    "Tooltip": "iure",
+    "CanAssign": false,
+    "Free": 38,
+    "InUse": 323,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 28,
-    "Name": "Heidenreich-Dickens",
-    "Description": "Down-sized methodical hub",
-    "PrerequisiteModuleName": "Schiller, Franecki and Nitzsche",
-    "SortOrder": 952,
-    "ExtraFlags": 50,
+    "Assigned": true,
+    "ModuleLicenseId": 559,
+    "Name": "Schamberger, Schiller and Morar",
+    "Description": "Team-oriented mobile concept",
+    "PrerequisiteModuleName": "Hahn LLC",
+    "SortOrder": 20,
+    "ExtraFlags": 500,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 202
       }
     }
   }

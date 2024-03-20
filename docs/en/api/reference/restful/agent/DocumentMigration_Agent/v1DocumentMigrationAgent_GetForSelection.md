@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 266,
-  "SelectionId": 41,
-  "IncludeEmails": true
+  "DocumentPluginId": 392,
+  "SelectionId": 577,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 402,
-  "NumDocumentsAlreadyMigrated": 715,
+  "NumDocumentsOmitted": 754,
+  "NumDocumentsAlreadyMigrated": 75,
   "Documents": [
     {
-      "DocumentId": 733,
-      "ContactId": 463,
-      "PersonId": 396,
-      "SaleId": 170,
-      "ProjectId": 63,
-      "DocTmplId": 510,
-      "AssociateId": 918,
-      "UserGroupId": 801,
-      "VisibleForId": 321
+      "DocumentId": 72,
+      "ContactId": 926,
+      "PersonId": 803,
+      "SaleId": 368,
+      "ProjectId": 405,
+      "DocTmplId": 844,
+      "AssociateId": 531,
+      "UserGroupId": 325,
+      "VisibleForId": 967
     }
   ],
   "Associates": [
     {
-      "AssociateId": 557,
-      "EmailAddress": "shaniya.waelchi@reilly.com"
+      "AssociateId": 922,
+      "EmailAddress": "robin_heidenreich@cummerata.us"
     },
     {
-      "AssociateId": 557,
-      "EmailAddress": "shaniya.waelchi@reilly.com"
+      "AssociateId": 922,
+      "EmailAddress": "robin_heidenreich@cummerata.us"
     }
   ]
 }

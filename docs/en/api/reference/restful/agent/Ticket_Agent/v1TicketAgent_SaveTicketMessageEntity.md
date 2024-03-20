@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 663,
+  "EjMessageId": 572,
   "Ticket": null,
-  "CreatedAt": "2009-03-19T14:23:47.5348781+01:00",
+  "CreatedAt": "2012-09-09T12:19:46.3826351+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatem",
-  "TimeSpent": 363,
-  "Body": "velit",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "breanna@baileyroob.name",
-  "DebugInfo": "et",
-  "MailSorter": "quo",
+  "MessageId": "assumenda",
+  "TimeSpent": 424,
+  "Body": "voluptatem",
+  "HtmlBody": "quis",
+  "EmailHeader": "tremaine.marquardt@runolfsdottir.us",
+  "DebugInfo": "vero",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "perferendis",
   "MessageHeaders": [
     {
-      "Id": 405,
-      "Name": "Graham-Pollich",
-      "Value": "qui",
+      "Id": 739,
+      "Name": "Kuhn, Lemke and Fritsch",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 405,
-      "Name": "Graham-Pollich",
-      "Value": "qui",
+      "Id": 739,
+      "Name": "Kuhn, Lemke and Fritsch",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "voluptatem",
-  "Sentiment": 957,
-  "SentimentConfidence": 988,
+  "Language": "cumque",
+  "Sentiment": 512,
+  "SentimentConfidence": 738,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 315,
-      "Name": "Homenick, Pacocha and Frami",
-      "ContentType": "consequatur",
-      "AttSize": 653,
+      "AttachmentId": 552,
+      "Name": "Schuppe, McCullough and Ernser",
+      "ContentType": "et",
+      "AttSize": 652,
       "InlineImage": false,
-      "ContentId": "assumenda",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": false
+      "ContentId": "qui",
+      "AuthKey": "eos",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "et"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "id"
+    "CustomFields1": "porro",
+    "CustomFields2": "accusantium"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 475,
+  "EjMessageId": 829,
   "Ticket": null,
-  "CreatedAt": "2006-05-18T14:23:47.5505044+02:00",
+  "CreatedAt": "1997-01-11T12:19:46.3826351+01:00",
   "CreatedBy": null,
-  "Author": "quibusdam",
+  "Author": "corporis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quas",
-  "TimeSpent": 889,
-  "Body": "aliquid",
-  "HtmlBody": "blanditiis",
-  "EmailHeader": "dominique@mcdermott.name",
-  "DebugInfo": "doloribus",
-  "MailSorter": "quia",
+  "MessageId": "reprehenderit",
+  "TimeSpent": 260,
+  "Body": "itaque",
+  "HtmlBody": "quidem",
+  "EmailHeader": "johathan.keeling@greenholtsimonis.info",
+  "DebugInfo": "est",
+  "MailSorter": "veniam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "blanditiis",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 809,
-      "Name": "Dicki-Williamson",
-      "Value": "non",
+      "Id": 981,
+      "Name": "Kautzer Inc and Sons",
+      "Value": "impedit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 311
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "rerum",
-  "Sentiment": 406,
-  "SentimentConfidence": 733,
+  "Important": true,
+  "Language": "a",
+  "Sentiment": 624,
+  "SentimentConfidence": 52,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 831,
-      "Name": "Trantow, Schimmel and Weimann",
-      "ContentType": "unde",
-      "AttSize": 112,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "beatae",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 154,
+      "Name": "Bernhard LLC",
+      "ContentType": "numquam",
+      "AttSize": 533,
+      "InlineImage": true,
+      "ContentId": "perspiciatis",
+      "AuthKey": "dolor",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 770
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "ea"
+    "CustomFields1": "et",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

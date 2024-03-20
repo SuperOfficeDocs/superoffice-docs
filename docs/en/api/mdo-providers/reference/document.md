@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|53|"Brev"BB||53|
 |19|"Brev"BB||19|
+|53|"Brev"BB||53|
 |20|?Brev?BB||20|
 |8|=Brev=AA||8|
 |21|0Notat0BB||21|
@@ -59,8 +59,8 @@ foreach (var item in listProvider.RootItems) {
 |12|BBrevBBB||12|
 |30|'Brev'DD||30|
 |23|CBrevCDD||23|
-|70|Document for Fish company||70|
 |69|Document for Fish company||69|
+|70|Document for Fish company||70|
 |13|GBrevGBB||13|
 |24|HBrevHDD||24|
 

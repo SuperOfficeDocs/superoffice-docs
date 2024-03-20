@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=157
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=385
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 949,
-  "Name": "Hudson LLC",
-  "Tooltip": "nostrum",
-  "Rank": 474,
+  "SaleTypeId": 677,
+  "Name": "Moen Group",
+  "Tooltip": "eius",
+  "Rank": 332,
   "DurationUnit": "Century",
-  "SaleDuration": 659,
-  "SaleTypeCatId": 123,
+  "SaleDuration": 184,
+  "SaleTypeCatId": 170,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 600,
-  "QuoteLinesTemplate": 149,
-  "ConfirmationLinesTemplate": 978,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 166,
+  "QuoteLinesTemplate": 225,
+  "ConfirmationLinesTemplate": 585,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 781,
-  "MinEarningPercent": 208,
-  "GroupQuoteLinesBy": 454,
-  "SortGroupLinesBy": 302,
+  "MaxDiscountPercent": 889,
+  "MinEarningPercent": 651,
+  "GroupQuoteLinesBy": 675,
+  "SortGroupLinesBy": 519,
   "Stages": [
     {
-      "Id": 906,
-      "Name": "Heller-Predovic",
-      "ToolTip": "Amet consequatur.",
+      "Id": 904,
+      "Name": "Schmeler-Abernathy",
+      "ToolTip": "Illo est accusantium eligendi esse.",
       "Deleted": false,
-      "Rank": 27,
-      "Type": "ipsum",
-      "ColorBlock": 416,
-      "IconHint": "nam",
+      "Rank": 734,
+      "Type": "autem",
+      "ColorBlock": 953,
+      "IconHint": "odit",
       "Selected": false,
-      "LastChanged": "2006-04-17T14:23:46.814978+02:00",
+      "LastChanged": "2009-07-24T12:19:45.4765914+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "optio",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "architecto",
       "Hidden": true,
-      "FullName": "Sandra Veum",
+      "FullName": "Judah Godfrey Schmitt III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   }
 }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Lemke, Abernathy and Moore",
-  "Tooltip": "id",
+  "Id": 110,
+  "Name": "Franecki Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 240,
-  "Rank": 33,
+  "UdListDefinitionId": 670,
+  "Rank": 923,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

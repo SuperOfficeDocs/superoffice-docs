@@ -542,6 +542,7 @@ Shadow contact provider for the dynamic Project provider.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|projectMember/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -640,11 +641,11 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/mainContact| *None* |Main contact: Main contact for this company| x |
 |projectMember/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
 |projectMember/contactEmail/emailProtocol|string|Company - Protocol: E-mail protocol, such as SMTP| x |
 |projectMember/contactEmail/emailAddress|string|Company - E-mail| x |
@@ -741,14 +742,15 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |projectMember/LastActivity|date|Date of last activity|  |
 |projectMember/LastCompletedActivity|date|Date of last completed activity|  |
 |projectMember/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -781,7 +783,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=getNoRows,text,appointment/associate/simultaneousEjUser,projectMember/personPager/description,projectMember/legalBaseEmarketing
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=projectPublish/publishedBy,sale/earning,sale/associate/personEmail,projectMember/contactInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "DuBuque, Balistreri and Walter",
-    "SaleDate": "2002-07-25T14:23:47.3473816+02:00",
-    "SaleId": 288,
-    "Probability": 595,
-    "Title": "non",
-    "Amount": 29494.074,
-    "Currency": "eaque",
-    "ProjectName": "Gislason Group",
-    "AssociateFullName": "Rickie Lakin",
-    "Description": "Team-oriented assymetric hardware",
+    "ContactName": "Bernier, Torp and Botsford",
+    "SaleDate": "2016-12-25T12:19:46.210807+01:00",
+    "SaleId": 93,
+    "Probability": 906,
+    "Title": "praesentium",
+    "Amount": 5196.172,
+    "Currency": "amet",
+    "ProjectName": "Weber, Denesik and Parker",
+    "AssociateFullName": "Prof. Ettie Cartwright III",
+    "Description": "Re-contextualized solution-oriented frame",
     "Status": "Lost",
-    "WeightedAmount": 22624.345999999998,
-    "ProjectId": 563,
-    "EarningPercent": 29575.557999999997,
-    "Earning": 29381.25,
-    "ContactId": 391,
-    "AssociateId": 634,
-    "PersonId": 49,
-    "SaleTypeId": 999,
-    "SaleTypeName": "Stark LLC",
-    "PersonFullName": "Deanna Bednar",
+    "WeightedAmount": 2438.252,
+    "ProjectId": 125,
+    "EarningPercent": 23523.804,
+    "Earning": 7643.826,
+    "ContactId": 300,
+    "AssociateId": 849,
+    "PersonId": 854,
+    "SaleTypeId": 89,
+    "SaleTypeName": "Ferry, Yost and Orn",
+    "PersonFullName": "Ms. Oren Natasha Prohaska V",
     "Completed": "Completed",
-    "ActiveErpLinks": 620,
-    "NextDueDate": "2023-04-14T14:23:47.3473816+02:00",
-    "Number": "388300",
+    "ActiveErpLinks": 253,
+    "NextDueDate": "2019-05-30T12:19:46.210807+02:00",
+    "Number": "1560745",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 790
       }
     }
   }

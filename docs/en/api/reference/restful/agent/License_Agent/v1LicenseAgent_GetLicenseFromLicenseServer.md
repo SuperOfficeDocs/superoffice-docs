@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Heathcote, Borer and Treutel"
+  "OwnerName": "Hackett, Flatley and Cartwright"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 736,
-      "NumberOfLicensesFree": 239,
-      "NumberOfLicensesAdded": 475,
-      "NumberOfLicensesNewTotal": 371,
-      "NumberOfLicensesNewFree": 131,
-      "NumberOfLicensesTotal": 952
+      "NumberOfLicensesInUse": 768,
+      "NumberOfLicensesFree": 153,
+      "NumberOfLicensesAdded": 547,
+      "NumberOfLicensesNewTotal": 666,
+      "NumberOfLicensesNewFree": 974,
+      "NumberOfLicensesTotal": 747
     }
   ],
-  "AccumulatedNextCheckDate": "2001-05-30T14:23:46.7681044+02:00"
+  "AccumulatedNextCheckDate": "1998-04-19T12:19:45.4297292+02:00"
 }
 ```

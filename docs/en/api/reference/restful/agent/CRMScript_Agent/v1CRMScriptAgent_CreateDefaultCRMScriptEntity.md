@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 35,
-  "UniqueIdentifier": "fugit",
-  "Name": "King Inc and Sons",
-  "Description": "Down-sized encompassing portal",
-  "IncludeId": "aut",
-  "HierarchyId": 268,
-  "Source": "voluptas",
-  "Registered": "2002-09-10T14:23:46.2043319+02:00",
-  "RegisteredAssociateId": 220,
-  "Updated": "2000-04-05T14:23:46.2043319+02:00",
-  "UpdatedAssociateId": 989,
+  "EjscriptId": 605,
+  "UniqueIdentifier": "nulla",
+  "Name": "Medhurst, Bahringer and Bechtelar",
+  "Description": "Universal stable methodology",
+  "IncludeId": "ut",
+  "HierarchyId": 130,
+  "Source": "omnis",
+  "Registered": "2003-07-20T12:19:44.9923255+02:00",
+  "RegisteredAssociateId": 607,
+  "Updated": "2001-08-12T12:19:44.9923255+02:00",
+  "UpdatedAssociateId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   }
 }

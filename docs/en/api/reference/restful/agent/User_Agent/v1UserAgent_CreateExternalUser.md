@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 170,
-  "UserName": "Anderson, Jaskolski and Bartell",
-  "Password": "quis",
-  "RoleId": 727,
+  "PersonId": 271,
+  "UserName": "Jenkins LLC",
+  "Password": "amet",
+  "RoleId": 781,
   "IsActive": false
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-535
+880
 ```

@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Rosenbaum-Boehm",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 135,
-    "Rank": 750,
+    "Id": 235,
+    "Name": "Beier Group",
+    "Tooltip": "pariatur",
+    "Deleted": false,
+    "UdListDefinitionId": 111,
+    "Rank": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 468
       }
     }
   }

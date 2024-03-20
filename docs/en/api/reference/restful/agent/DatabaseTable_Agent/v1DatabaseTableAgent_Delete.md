@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Larson Inc and Sons",
+  "TableName": "Ondricka, Willms and Rogahn",
   "IDs": [
-    762,
-    891
+    2,
+    162
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "distinctio",
-  "Inserts": 392,
-  "Updates": 790,
-  "Deletes": 495,
+  "Success": false,
+  "Message": "quidem",
+  "Inserts": 790,
+  "Updates": 604,
+  "Deletes": 323,
   "RowStatus": [
     {
-      "PrimaryKey": 422,
+      "PrimaryKey": 168,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "in",
-        "dolorem"
+        "nesciunt",
+        "architecto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 620
+          "FieldLength": 18
         }
       }
     },
     {
-      "PrimaryKey": 422,
+      "PrimaryKey": 168,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "in",
-        "dolorem"
+        "nesciunt",
+        "architecto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 620
+          "FieldLength": 18
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 412
     }
   }
 }

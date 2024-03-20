@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-210-497-4126 x6930",
-    "PersonCellPhone": "967.214.9479 x483",
-    "PersonPrivatePhone": "326.862.1432 x42223",
-    "PersonFaxNumber": "636478",
-    "PersonPagerNumber": "391039",
-    "PersonEmail": "lou_mayert@daugherty.uk",
-    "Id": 509,
-    "Name": "Krajcik Inc and Sons",
-    "Tooltip": "earum",
-    "UniqueId": "commodi",
+    "PersonDirectPhone": "278-924-7924 x24314",
+    "PersonCellPhone": "733.542.7494",
+    "PersonPrivatePhone": "1-612-559-0151",
+    "PersonFaxNumber": "1303713",
+    "PersonPagerNumber": "1488340",
+    "PersonEmail": "dessie@mcglynnhammes.name",
+    "Id": 147,
+    "Name": "Schmidt-Conroy",
+    "Tooltip": "aliquam",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldType": "System.Int32",
+        "FieldLength": 704
       }
     }
   }

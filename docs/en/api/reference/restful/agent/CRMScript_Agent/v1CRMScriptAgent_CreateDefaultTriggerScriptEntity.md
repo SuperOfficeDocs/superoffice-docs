@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 961,
-  "Name": "Howe Inc and Sons",
+  "ScreenChooserId": 853,
+  "Name": "Weissnat, Ryan and Jewess",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "neque",
-  "Source": "deleniti",
-  "Registered": "2018-09-10T14:23:46.2043319+02:00",
-  "RegisteredAssociateId": 386,
-  "Updated": "1998-09-07T14:23:46.2043319+02:00",
-  "UpdatedAssociateId": 27,
+  "UniqueIdentifier": "blanditiis",
+  "Source": "veniam",
+  "Registered": "2014-04-16T12:19:44.9923255+02:00",
+  "RegisteredAssociateId": 612,
+  "Updated": "2009-01-25T12:19:44.9923255+01:00",
+  "UpdatedAssociateId": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

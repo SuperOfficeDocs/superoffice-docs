@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Oberbrunner-Bernier",
-    "Tooltip": "laborum",
+    "Id": 314,
+    "Name": "Brekke Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 252,
-    "Rank": 381
+    "UdListDefinitionId": 919,
+    "Rank": 336
   },
   {
-    "Id": 586,
-    "Name": "Oberbrunner-Bernier",
-    "Tooltip": "laborum",
+    "Id": 314,
+    "Name": "Brekke Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 252,
-    "Rank": 381
+    "UdListDefinitionId": 919,
+    "Rank": 336
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Predovic, Cassin and Olson",
-    "Tooltip": "error",
+    "Id": 596,
+    "Name": "Haag Inc and Sons",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "UdListDefinitionId": 94,
-    "Rank": 535,
+    "UdListDefinitionId": 379,
+    "Rank": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 649
       }
     }
   }

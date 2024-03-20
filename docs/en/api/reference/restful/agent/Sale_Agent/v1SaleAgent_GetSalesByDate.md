@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2022-03-31T14:23:47.3630051+02:00",
-  "ToDate": "2016-02-09T14:23:47.3630051+01:00",
-  "AmountLimit": 142,
+  "FromDate": "2013-10-26T12:19:46.210807+02:00",
+  "ToDate": "1997-12-06T12:19:46.210807+01:00",
+  "AmountLimit": 147,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Auer Inc and Sons",
-    "SaleDate": "2014-03-08T14:23:47.3630051+01:00",
-    "SaleId": 639,
-    "Probability": 872,
+    "ContactName": "Simonis LLC",
+    "SaleDate": "2022-04-25T12:19:46.210807+02:00",
+    "SaleId": 357,
+    "Probability": 322,
     "Title": "aut",
-    "Amount": 11821.448,
-    "Currency": "eius",
-    "ProjectName": "Heathcote, Murray and Haag",
-    "AssociateFullName": "Bernie Breitenberg",
-    "Description": "Realigned client-driven definition",
+    "Amount": 17964.088,
+    "Currency": "non",
+    "ProjectName": "Reichel, Heathcote and Stehr",
+    "AssociateFullName": "Nash Candice Schmitt III",
+    "Description": "Upgradable real-time complexity",
     "Status": "Lost",
-    "WeightedAmount": 24241.489999999998,
-    "ProjectId": 564,
-    "EarningPercent": 10063.274,
-    "Earning": 19819.416,
-    "ContactId": 609,
-    "AssociateId": 403,
-    "PersonId": 502,
-    "SaleTypeId": 482,
-    "SaleTypeName": "Gislason Inc and Sons",
-    "PersonFullName": "Elisabeth Armstrong",
+    "WeightedAmount": 13375.912,
+    "ProjectId": 90,
+    "EarningPercent": 16860.92,
+    "Earning": 23320.094,
+    "ContactId": 998,
+    "AssociateId": 128,
+    "PersonId": 828,
+    "SaleTypeId": 757,
+    "SaleTypeName": "Graham Inc and Sons",
+    "PersonFullName": "Jadyn Harvey",
     "Completed": "Completed",
-    "ActiveErpLinks": 882,
-    "NextDueDate": "2005-05-07T14:23:47.3630051+02:00",
-    "Number": "951662",
+    "ActiveErpLinks": 758,
+    "NextDueDate": "2023-10-26T12:19:46.210807+02:00",
+    "Number": "1250838",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 902
+        "FieldType": "System.Int32",
+        "FieldLength": 61
       }
     }
   }

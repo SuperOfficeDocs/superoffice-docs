@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 251,
-  "EmailBodyTemplateId": 389,
+  "QuoteVersionId": 165,
+  "EmailBodyTemplateId": 73,
   "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 531,
+  "QuotedProductsTemplateId": 217,
   "IncludeAttachments": false,
-  "RawMailSubject": "dolores"
+  "RawMailSubject": "qui"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 142,
-  "QuotedProductsId": 513,
+  "QuoteDocumentId": 39,
+  "QuotedProductsId": 134,
   "QuoteAttachmentIds": [
-    311,
-    682
+    275,
+    881
   ],
-  "MailBody": "ab",
-  "MailSubject": "laudantium",
-  "ToEmail": "alexie@vonlittel.us",
-  "ToFullName": "Lilla Gerlach IV",
-  "ErrorMessage": "animi",
+  "MailBody": "quia",
+  "MailSubject": "accusantium",
+  "ToEmail": "domenick.schimmel@jewess.us",
+  "ToFullName": "Miss Gianni Hansen V",
+  "ErrorMessage": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

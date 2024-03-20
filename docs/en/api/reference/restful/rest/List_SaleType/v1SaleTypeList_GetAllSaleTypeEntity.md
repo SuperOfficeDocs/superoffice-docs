@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 582,
-    "Name": "Turner, Rau and Bergstrom",
-    "Tooltip": "iste",
-    "Rank": 528,
+    "SaleTypeId": 980,
+    "Name": "Schultz, Ebert and Green",
+    "Tooltip": "corporis",
+    "Rank": 395,
     "DurationUnit": "Century",
-    "SaleDuration": 819,
-    "SaleTypeCatId": 924,
-    "Deleted": true,
+    "SaleDuration": 755,
+    "SaleTypeCatId": 13,
+    "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 664,
-    "QuoteLinesTemplate": 891,
-    "ConfirmationLinesTemplate": 172,
-    "MaxDiscountPercentSet": false,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 932,
+    "QuoteLinesTemplate": 394,
+    "ConfirmationLinesTemplate": 259,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 340,
-    "MinEarningPercent": 579,
-    "GroupQuoteLinesBy": 212,
-    "SortGroupLinesBy": 455,
+    "MaxDiscountPercent": 642,
+    "MinEarningPercent": 417,
+    "GroupQuoteLinesBy": 270,
+    "SortGroupLinesBy": 850,
     "Stages": [
       {
-        "Id": 620,
-        "Name": "Gerhold LLC",
-        "ToolTip": "Quasi accusamus sed numquam.",
-        "Deleted": false,
-        "Rank": 410,
-        "Type": "id",
-        "ColorBlock": 973,
-        "IconHint": "harum",
+        "Id": 357,
+        "Name": "Grant, Romaguera and Homenick",
+        "ToolTip": "Et occaecati et illum nisi.",
+        "Deleted": true,
+        "Rank": 335,
+        "Type": "impedit",
+        "ColorBlock": 46,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2019-03-25T14:23:56.3376983+01:00",
+        "LastChanged": "2001-07-27T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Brody Kassulke",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Dr. Waldo Volkman MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldLength": 709
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldLength": 612
       }
     }
   }

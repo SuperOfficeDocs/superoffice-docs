@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 803,
-  "TableName": "Rowe-Schoen",
+  "RoleId": 65,
+  "TableName": "Dach LLC",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "amet"
+  "DataRightValue": "dicta"
 }
 ```
 

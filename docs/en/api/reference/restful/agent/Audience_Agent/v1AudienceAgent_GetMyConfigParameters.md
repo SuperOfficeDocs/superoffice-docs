@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 280,
-    "Name": "Altenwerth Group",
-    "Value": "numquam",
-    "CreatedDate": "1999-10-28T14:23:45.8762101+02:00",
-    "UpdatedDate": "2002-09-28T14:23:45.8762101+02:00",
-    "CreatedBy": "aut",
+    "AudienceLayoutId": 616,
+    "Name": "Kilback-Schiller",
+    "Value": "in",
+    "CreatedDate": "1998-12-19T12:19:44.5080652+01:00",
+    "UpdatedDate": "2001-03-29T12:19:44.5080652+02:00",
+    "CreatedBy": "quas",
     "UpdatedBy": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 490
       }
     }
   }

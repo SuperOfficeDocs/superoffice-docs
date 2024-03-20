@@ -25,7 +25,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "McDermott LLC",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "UdListDefinitionId": 714,
-    "Rank": 336,
+    "Id": 72,
+    "Name": "Lowe-Huels",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 655,
+    "Rank": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 279
       }
     }
   }

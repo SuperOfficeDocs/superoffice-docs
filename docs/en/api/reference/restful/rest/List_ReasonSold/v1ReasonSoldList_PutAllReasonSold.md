@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "O'Conner, Osinski and Kuphal",
-    "Tooltip": "odio",
+    "Id": 555,
+    "Name": "Skiles, Gutmann and Heller",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 660,
-    "Rank": 518
+    "UdListDefinitionId": 157,
+    "Rank": 992
   },
   {
-    "Id": 176,
-    "Name": "O'Conner, Osinski and Kuphal",
-    "Tooltip": "odio",
+    "Id": 555,
+    "Name": "Skiles, Gutmann and Heller",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 660,
-    "Rank": 518
+    "UdListDefinitionId": 157,
+    "Rank": 992
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Lubowitz-Crooks",
-    "Tooltip": "et",
+    "Id": 87,
+    "Name": "Armstrong LLC",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 420,
-    "Rank": 181,
+    "UdListDefinitionId": 1002,
+    "Rank": 21,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

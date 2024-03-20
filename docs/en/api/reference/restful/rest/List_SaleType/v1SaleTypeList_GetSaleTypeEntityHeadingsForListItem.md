@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Emard Group",
-    "ToolTip": "Consequuntur ratione.",
+    "Id": 297,
+    "Name": "Kassulke-Williamson",
+    "ToolTip": "Molestiae qui occaecati eum.",
     "Deleted": true,
-    "Rank": 483,
-    "Type": "et",
-    "ColorBlock": 11,
-    "IconHint": "exercitationem",
+    "Rank": 372,
+    "Type": "quae",
+    "ColorBlock": 199,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "1998-04-23T14:23:56.3376983+02:00",
+    "LastChanged": "2016-12-25T12:19:54.8364594+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Daniel-McClure",
-        "ToolTip": "Alias quo non ut eum doloribus aspernatur.",
-        "Deleted": false,
-        "Rank": 292,
-        "Type": "exercitationem",
-        "ColorBlock": 373,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "1997-09-05T14:23:56.3376983+02:00",
+        "Id": 706,
+        "Name": "Hickle Group",
+        "ToolTip": "Ea rerum.",
+        "Deleted": true,
+        "Rank": 397,
+        "Type": "iste",
+        "ColorBlock": 822,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2013-05-27T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "dolore",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Samson Fernando Cruickshank IV",
+        "FullName": "Erika Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldLength": 621
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "fuga",
-    "Hidden": false,
-    "FullName": "Brando Steuber",
+    "ExtraInfo": "totam",
+    "StyleHint": "ab",
+    "Hidden": true,
+    "FullName": "Yvette Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldLength": 857
       }
     }
   }

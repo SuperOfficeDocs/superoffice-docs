@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Willms-Langworth",
-    "ToolTip": "In atque.",
-    "Deleted": false,
-    "Rank": 341,
-    "Type": "iusto",
-    "ColorBlock": 328,
-    "IconHint": "quasi",
-    "Selected": true,
-    "LastChanged": "2020-08-27T14:23:56.1502016+02:00",
+    "Id": 834,
+    "Name": "Roberts-Prosacco",
+    "ToolTip": "Aspernatur ipsum corrupti pariatur nostrum unde.",
+    "Deleted": true,
+    "Rank": 553,
+    "Type": "minima",
+    "ColorBlock": 495,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2004-08-02T12:19:54.6334859+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Hermiston LLC",
-        "ToolTip": "Velit non maxime qui magni et animi quisquam.",
-        "Deleted": true,
-        "Rank": 84,
-        "Type": "ut",
-        "ColorBlock": 741,
-        "IconHint": "nesciunt",
+        "Id": 354,
+        "Name": "Mraz-Anderson",
+        "ToolTip": "Eius eius veritatis aliquid aliquam fuga ut dolorem.",
+        "Deleted": false,
+        "Rank": 318,
+        "Type": "deserunt",
+        "ColorBlock": 777,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2002-04-29T14:23:56.1502016+02:00",
+        "LastChanged": "2010-09-26T12:19:54.6334859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Athena Moen",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Camylle Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "alias",
+    "ExtraInfo": "vel",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Zora Feest",
+    "FullName": "Mr. Vincent Tara Hermann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 764
       }
     }
   }

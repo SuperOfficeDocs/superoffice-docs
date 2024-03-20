@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Tromp Inc and Sons",
+  "TableName": "Stehr-Beahan",
   "Columns": [
     "quasi",
-    "voluptatum"
+    "autem"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "et",
-  "Inserts": 234,
-  "Updates": 941,
-  "Deletes": 31,
+  "Success": true,
+  "Message": "consectetur",
+  "Inserts": 522,
+  "Updates": 189,
+  "Deletes": 196,
   "RowStatus": [
     {
-      "PrimaryKey": 460,
+      "PrimaryKey": 667,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eum",
-        "deserunt"
+        "veritatis",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     },
     {
-      "PrimaryKey": 460,
+      "PrimaryKey": 667,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eum",
-        "deserunt"
+        "veritatis",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 894
     }
   }
 }

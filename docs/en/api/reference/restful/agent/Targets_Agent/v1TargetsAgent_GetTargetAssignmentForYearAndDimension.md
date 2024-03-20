@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 157,
+  "TargetYear": 822,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 292,
-  "DimensionId": 657
+  "Id": 277,
+  "DimensionId": 263
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 701,
+  "TargetAssignmentInfoId": 11,
   "Values": [
-    660,
-    834
+    603,
+    964
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 132,
-  "DimensionListItemDisplayName": "O'Conner Inc and Sons",
+  "DimensionListItem": 99,
+  "DimensionListItemDisplayName": "Hyatt, Smith and Goodwin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

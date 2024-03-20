@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Schultz-Dach",
-    "ToolTip": "Error iure earum voluptatem.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "reprehenderit",
-    "ColorBlock": 340,
-    "IconHint": "non",
+    "Id": 731,
+    "Name": "Jewess, Tromp and Glover",
+    "ToolTip": "Est vitae.",
+    "Deleted": true,
+    "Rank": 35,
+    "Type": "illo",
+    "ColorBlock": 179,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2008-10-18T14:23:56.1502016+02:00",
+    "LastChanged": "2003-07-10T12:19:54.6490067+02:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Wiza-Kilback",
-        "ToolTip": "Minima voluptatem et eos non qui quia et.",
+        "Id": 65,
+        "Name": "Ortiz, Jacobs and Stark",
+        "ToolTip": "Omnis ea vitae.",
         "Deleted": true,
-        "Rank": 593,
-        "Type": "a",
-        "ColorBlock": 202,
-        "IconHint": "dolorem",
+        "Rank": 614,
+        "Type": "odit",
+        "ColorBlock": 879,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2013-05-13T14:23:56.1502016+02:00",
+        "LastChanged": "2021-02-26T12:19:54.6490067+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "error",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Hal Jewess"
+        "FullName": "Mercedes Barton"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "repellat",
+    "ExtraInfo": "alias",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Julio Larson"
+    "FullName": "Skye Smith"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Heidenreich Group",
-    "ToolTip": "Consequatur quia non doloribus placeat.",
+    "Id": 827,
+    "Name": "Daniel Group",
+    "ToolTip": "Iure placeat eveniet aut mollitia inventore.",
     "Deleted": true,
-    "Rank": 654,
-    "Type": "sed",
-    "ColorBlock": 835,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2021-10-14T14:23:56.1502016+02:00",
+    "Rank": 218,
+    "Type": "quod",
+    "ColorBlock": 145,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2005-06-13T12:19:54.6490067+02:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "VonRueden Inc and Sons",
-        "ToolTip": "Vitae voluptas eos voluptas illo rem.",
+        "Id": 125,
+        "Name": "Tillman-Hand",
+        "ToolTip": "Rerum expedita occaecati nam vel consequatur non.",
         "Deleted": false,
-        "Rank": 534,
-        "Type": "eaque",
-        "ColorBlock": 111,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2022-12-05T14:23:56.1502016+01:00",
+        "Rank": 653,
+        "Type": "voluptatem",
+        "ColorBlock": 220,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2003-03-26T12:19:54.6490067+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "molestias",
+        "ExtraInfo": "quidem",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Melba Koch Sr.",
+        "FullName": "Mrs. Lavern Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 678
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "nemo",
+    "ExtraInfo": "eum",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Dr. Maymie Walter Green",
+    "FullName": "Mr. Zola Quentin Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

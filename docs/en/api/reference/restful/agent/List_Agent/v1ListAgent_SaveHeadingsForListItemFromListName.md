@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rath, Yundt and Wolff",
-  "ListItemId": 933,
+  "UdListDefinitionName": "Mitchell Group",
+  "ListItemId": 819,
   "Headings": [
     {
-      "Id": 231,
-      "Name": "Hintz-Boyer",
-      "ToolTip": "Voluptatem exercitationem voluptatem nostrum ab.",
+      "Id": 230,
+      "Name": "Morar, Yundt and Shields",
+      "ToolTip": "Ratione qui est dolor cumque tempora magnam.",
       "Deleted": false,
-      "Rank": 153,
-      "Type": "sit",
-      "ColorBlock": 166,
-      "IconHint": "iste",
-      "Selected": true,
-      "LastChanged": "2012-07-25T14:23:46.8306046+02:00",
+      "Rank": 487,
+      "Type": "fugiat",
+      "ColorBlock": 132,
+      "IconHint": "voluptate",
+      "Selected": false,
+      "LastChanged": "2014-05-26T12:19:45.5078373+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "soluta",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "praesentium",
       "Hidden": false,
-      "FullName": "Prof. Matilda Effie Kozey Jr."
+      "FullName": "Miss Shad Mayert Jr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Haley-Yost",
-    "ToolTip": "Ut ut vel.",
+    "Id": 161,
+    "Name": "Cronin, Bins and Farrell",
+    "ToolTip": "Sed quasi a molestiae et voluptas sit corporis.",
     "Deleted": false,
-    "Rank": 788,
-    "Type": "illum",
-    "ColorBlock": 682,
-    "IconHint": "optio",
+    "Rank": 837,
+    "Type": "quis",
+    "ColorBlock": 587,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2004-05-28T14:23:46.8306046+02:00",
+    "LastChanged": "2003-12-02T12:19:45.5078373+01:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Lueilwitz, Corwin and Bernhard",
-        "ToolTip": "Aut et sapiente.",
-        "Deleted": false,
-        "Rank": 773,
-        "Type": "assumenda",
-        "ColorBlock": 121,
-        "IconHint": "iure",
+        "Id": 396,
+        "Name": "Runte LLC",
+        "ToolTip": "In incidunt sed et quod aperiam odit.",
+        "Deleted": true,
+        "Rank": 334,
+        "Type": "numquam",
+        "ColorBlock": 211,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2023-09-09T14:23:46.8306046+02:00",
+        "LastChanged": "2019-11-28T12:19:45.5078373+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "sint",
+        "ExtraInfo": "hic",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mrs. Freeman Osinski",
+        "FullName": "Green Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "sunt",
+    "ExtraInfo": "est",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Mr. Adella Gerlach",
+    "FullName": "Norma Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 259
       }
     }
   }

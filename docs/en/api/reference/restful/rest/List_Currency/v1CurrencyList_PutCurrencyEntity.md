@@ -86,13 +86,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 415,
-  "Name": "Halvorson, Von and Collier",
-  "Tooltip": "necessitatibus",
-  "Rank": 560,
-  "Rate": 7900.8139999999994,
-  "Units": 10458.158,
-  "Deleted": false
+  "CurrencyId": 913,
+  "Name": "Bailey Inc and Sons",
+  "Tooltip": "consequuntur",
+  "Rank": 873,
+  "Rate": 19368.12,
+  "Units": 2055.904,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 716,
-  "Name": "Pfannerstill-Gleichner",
-  "Tooltip": "minus",
-  "Rank": 852,
-  "Rate": 5663.138,
-  "Units": 7239.54,
+  "CurrencyId": 988,
+  "Name": "Gerhold Group",
+  "Tooltip": "nobis",
+  "Rank": 237,
+  "Rate": 11197.782,
+  "Units": 26770.628,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 230
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Waters, Robel and Schulist",
-  "Tooltip": "nulla",
+  "Id": 812,
+  "Name": "Nicolas LLC",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 308,
+  "Rank": 252,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Graham-Bergnaum",
-  "Tooltip": "vero",
+  "Id": 818,
+  "Name": "Gislason Inc and Sons",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 63,
+  "Rank": 32,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 132
     }
   }
 }

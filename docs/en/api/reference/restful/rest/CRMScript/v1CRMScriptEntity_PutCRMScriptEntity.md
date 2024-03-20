@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 306,
-  "UniqueIdentifier": "amet",
-  "Name": "Cassin LLC",
-  "Description": "Persistent systemic forecast",
-  "IncludeId": "et",
-  "HierarchyId": 413,
-  "Source": "rerum",
-  "Registered": "2001-01-08T14:23:55.0552747+01:00",
-  "RegisteredAssociateId": 409,
-  "Updated": "2010-04-11T14:23:55.0552747+02:00",
-  "UpdatedAssociateId": 237
+  "EjscriptId": 327,
+  "UniqueIdentifier": "tempore",
+  "Name": "Gulgowski-Nikolaus",
+  "Description": "Re-contextualized stable forecast",
+  "IncludeId": "qui",
+  "HierarchyId": 85,
+  "Source": "cumque",
+  "Registered": "1997-12-06T12:19:53.3055654+01:00",
+  "RegisteredAssociateId": 841,
+  "Updated": "2005-09-05T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 480
 }
 ```
 
@@ -126,28 +126,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 523,
-  "UniqueIdentifier": "nostrum",
-  "Name": "Ullrich Group",
-  "Description": "Pre-emptive 6th generation open system",
-  "IncludeId": "et",
-  "HierarchyId": 15,
-  "Source": "eum",
-  "Registered": "2003-06-27T14:23:55.0552747+02:00",
-  "RegisteredAssociateId": 258,
-  "Updated": "2017-03-06T14:23:55.0552747+01:00",
-  "UpdatedAssociateId": 1001,
+  "EjscriptId": 401,
+  "UniqueIdentifier": "ut",
+  "Name": "Ernser LLC",
+  "Description": "Total leading edge paradigm",
+  "IncludeId": "qui",
+  "HierarchyId": 449,
+  "Source": "fugiat",
+  "Registered": "1999-02-16T12:19:53.3055654+01:00",
+  "RegisteredAssociateId": 651,
+  "Updated": "2009-08-08T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 751,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldLength": 245
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

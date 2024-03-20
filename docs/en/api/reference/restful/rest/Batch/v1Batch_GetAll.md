@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=consequatur
-GET /api/v1/BatchTask?$top=379
-GET /api/v1/BatchTask?$skip=484
+GET /api/v1/BatchTask?$entities=qui
+GET /api/v1/BatchTask?$top=246
+GET /api/v1/BatchTask?$skip=500
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=veniam
+GET /api/v1/BatchTask?$context=autem
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "repellat",
   "value": [
     {
-      "PrimaryKey": 7524,
+      "PrimaryKey": 8861,
       "EntityName": "sale",
-      "saleId": 7524,
-      "contactId": 2711,
-      "name": "King, Mueller and Grant"
+      "saleId": 8861,
+      "contactId": 7962,
+      "name": "Dibbert Group"
     },
     {
-      "PrimaryKey": 4847,
+      "PrimaryKey": 8056,
       "EntityName": "sale",
-      "saleId": 4847,
-      "contactId": 1169,
-      "name": "O'Kon LLC"
+      "saleId": 8056,
+      "contactId": 5671,
+      "name": "Sporer, Jones and O'Keefe"
     }
   ]
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 407,
-  "Name": "Bechtelar-Hansen",
-  "Tooltip": "minima",
-  "Rank": 447,
-  "Key": "minus",
+  "LegalBaseId": 845,
+  "Name": "Prosacco, Kertzmann and Koch",
+  "Tooltip": "pariatur",
+  "Rank": 845,
+  "Key": "qui",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldLength": 73
     }
   }
 }

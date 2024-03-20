@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Ernser, Hirthe and Orn",
-    "Tooltip": "consequatur",
+    "Id": 361,
+    "Name": "Rempel, Schowalter and Turcotte",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 215,
-    "Rank": 47
+    "UdListDefinitionId": 836,
+    "Rank": 456
   },
   {
-    "Id": 142,
-    "Name": "Ernser, Hirthe and Orn",
-    "Tooltip": "consequatur",
+    "Id": 361,
+    "Name": "Rempel, Schowalter and Turcotte",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 215,
-    "Rank": 47
+    "UdListDefinitionId": 836,
+    "Rank": 456
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Cruickshank-Haley",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "UdListDefinitionId": 1001,
-    "Rank": 818,
+    "Id": 24,
+    "Name": "DuBuque LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 732,
+    "Rank": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

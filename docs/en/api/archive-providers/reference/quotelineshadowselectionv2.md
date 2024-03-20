@@ -314,6 +314,7 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|alternative/version/quote/sale/person/personExtra/y\_car/id|int|Sale - Car - id: Displays the row's primary key (y\_car)| x |
 |alternative/version/quote/sale/person/personAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/personAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
@@ -328,11 +329,11 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
 |alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
-|alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
 |alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
 |alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -432,11 +433,11 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
 |alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line3|string|Sale - Postal address - Address 3: Third line of the address| x |
@@ -535,12 +536,13 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
-|alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
-|alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
+|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
+|alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod|int|Sale - Number of non-completed activities in last 90 days|  |
 |alternative/version/quote/sale/contact/LastActivity|date|Sale - Date of last activity|  |
@@ -639,12 +641,12 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOff|bool|Sale - Project - Sign Off: Does this event have the Sign Off function enabled| x |
-|alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
-|alternative/version/quote/sale/project/projectUrl/URLDescription|string|Sale - Project - Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
+|alternative/version/quote/sale/project/projectUrl/URLDescription|string|Sale - Project - Description| x |
 |alternative/version/quote/sale/project/projectAssociate/firstName|string|Sale - Project - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/project/projectAssociate/lastName|string|Sale - Project - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/project/projectAssociate/middleName|string|Sale - Project - Middle Name: Displays the contact's middle name.| x |
@@ -745,7 +747,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=subscriptionQuantity,UnitListPriceSubscriptionQuantity,alternative/version/extraField2,alternative/version/quote/sale/person/personRegisteredDate,alternative/version/quote/sale/person/personUdef/SuperOffice:3
+GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=alternative/version/quote/sale/heading,alternative/version/quote/sale/person/hasInfoText,alternative/version/quote/sale/person/personAssociate/credentialType,alternative/version/quote/sale/project/projectAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

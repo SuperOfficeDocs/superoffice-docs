@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 762,
-  "Name": "Predovic, Moore and Morar",
-  "Tooltip": "est",
-  "SaveInDb": 963,
-  "Filename": "quod",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 500,
+  "Name": "Hintz Group",
+  "Tooltip": "illum",
+  "SaveInDb": 434,
+  "Filename": "debitis",
+  "DefaultOref": "deleniti",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 366,
-  "IntentId": 266,
-  "IsDefaultPublished": false,
-  "Rank": 2,
-  "LoadTemplateFromPlugin": 199,
-  "MimeType": "quia",
+  "AutoeventId": 501,
+  "IntentId": 178,
+  "IsDefaultPublished": true,
+  "Rank": 596,
+  "LoadTemplateFromPlugin": 94,
+  "MimeType": "doloremque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 945,
+  "DocumentTypeKey": 997,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kole_ondricka@vonrueden.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "darian@okunevastark.info",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "benjamin@padberg.name",
+  "SenderEmailAddress": "julius.harber@connellycassin.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

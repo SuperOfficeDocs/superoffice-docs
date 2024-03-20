@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Walker, Stroman and Bernhard",
-    "Tooltip": "voluptas",
+    "Id": 270,
+    "Name": "Bernhard, Gorczany and Schoen",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 607
+    "UdListDefinitionId": 823,
+    "Rank": 810
   },
   {
-    "Id": 662,
-    "Name": "Walker, Stroman and Bernhard",
-    "Tooltip": "voluptas",
+    "Id": 270,
+    "Name": "Bernhard, Gorczany and Schoen",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 607
+    "UdListDefinitionId": 823,
+    "Rank": 810
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Kuhlman, Davis and Larson",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "UdListDefinitionId": 69,
-    "Rank": 444,
+    "Id": 237,
+    "Name": "Gutmann Inc and Sons",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "UdListDefinitionId": 933,
+    "Rank": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 200
       }
     }
   }

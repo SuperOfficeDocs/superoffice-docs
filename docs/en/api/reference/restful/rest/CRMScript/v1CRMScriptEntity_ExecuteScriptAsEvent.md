@@ -102,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "nulla"
+    "InputValues1": "iusto",
+    "InputValues2": "laborum"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "et",
-  "ShowDialog": "quod",
+  "NavigateTo": "repellendus",
+  "Message": "blanditiis",
+  "ShowDialog": "vel",
   "OutputValues": {
-    "OutputValues1": "dignissimos",
-    "OutputValues2": "nemo"
+    "OutputValues1": "consectetur",
+    "OutputValues2": "enim"
   },
   "StateValues": {
-    "StateValues1": "qui",
-    "StateValues2": "quis"
+    "StateValues1": "et",
+    "StateValues2": "aut"
   },
-  "Exception": "quis",
+  "Exception": "voluptatibus",
   "ParserValues": {
-    "ParserValues1": "officia",
-    "ParserValues2": "magni"
+    "ParserValues1": "asperiores",
+    "ParserValues2": "quo"
   },
   "CgiVariables": {
-    "CgiVariables1": "eos",
-    "CgiVariables2": "quibusdam"
+    "CgiVariables1": "culpa",
+    "CgiVariables2": "harum"
   },
-  "CgiContent": "maiores",
+  "CgiContent": "ipsum",
   "Headers": {
-    "Headers1": "laudantium",
-    "Headers2": "ipsa"
+    "Headers1": "optio",
+    "Headers2": "enim"
   }
 }
 ```
@@ -143,41 +143,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dignissimos",
-    "InputValues2": "quia"
+    "InputValues1": "corrupti",
+    "InputValues2": "totam"
   },
   "BlockExecution": false,
-  "NavigateTo": "consequuntur",
-  "Message": "omnis",
-  "ShowDialog": "earum",
+  "NavigateTo": "error",
+  "Message": "doloribus",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "voluptatem",
-    "OutputValues2": "quia"
+    "OutputValues1": "ipsam",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "autem",
-    "StateValues2": "aperiam"
+    "StateValues1": "sequi",
+    "StateValues2": "ut"
   },
-  "Exception": "fuga",
+  "Exception": "qui",
   "ParserValues": {
-    "ParserValues1": "ratione",
-    "ParserValues2": "optio"
+    "ParserValues1": "similique",
+    "ParserValues2": "enim"
   },
   "CgiVariables": {
-    "CgiVariables1": "incidunt",
-    "CgiVariables2": "voluptas"
+    "CgiVariables1": "quis",
+    "CgiVariables2": "dolor"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "vero",
   "Headers": {
-    "Headers1": "sapiente",
-    "Headers2": "at"
+    "Headers1": "ut",
+    "Headers2": "ipsam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

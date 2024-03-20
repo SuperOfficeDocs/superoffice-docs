@@ -26,7 +26,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=63
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=694
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 299,
-  "Deleted": 657,
-  "DaysFuture": 296,
-  "Tooltip": "enim",
-  "Text": "voluptatem",
-  "TaskId": 196,
-  "SuggestedAppointmentId": 423,
-  "SaleTypeStageLinkId": 251,
-  "RegisteredAssociateId": 616,
-  "Rank": 655,
-  "ProjectTypeStatusLinkId": 137,
-  "Name": "Ziemann Inc and Sons",
-  "Duration": 813,
+  "AutoSuggest": 625,
+  "Deleted": 603,
+  "DaysFuture": 957,
+  "Tooltip": "dolorem",
+  "Text": "et",
+  "TaskId": 70,
+  "SuggestedAppointmentId": 159,
+  "SaleTypeStageLinkId": 266,
+  "RegisteredAssociateId": 990,
+  "Rank": 584,
+  "ProjectTypeStatusLinkId": 742,
+  "Name": "Anderson-Hudson",
+  "Duration": 767,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 561,
-  "Name": "Schaden-Champlin",
-  "Tooltip": "tempora",
+  "RoleId": 801,
+  "Name": "Hermiston, Beer and Langosh",
+  "Tooltip": "minima",
   "RoleType": "Anonymous",
-  "Deleted": 635,
-  "Rank": 865,
-  "Created": "2011-09-17T14:23:47.8317514+02:00",
-  "UseCategories": 100,
+  "Deleted": 152,
+  "Rank": 168,
+  "Created": "2007-04-12T12:19:46.5544699+02:00",
+  "UseCategories": 792,
   "CreatedBy": null,
-  "Updated": "1997-02-15T14:23:47.8317514+01:00",
+  "Updated": "2022-01-12T12:19:46.5544699+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 354,
-  "Name": "Wilkinson-Beatty",
-  "Tooltip": "sunt",
+  "RoleId": 643,
+  "Name": "Rippin-Gusikowski",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 811,
-  "Rank": 456,
-  "Created": "2008-10-21T14:23:47.8317514+02:00",
-  "UseCategories": 601,
+  "Deleted": 683,
+  "Rank": 581,
+  "Created": "2000-05-09T12:19:46.5544699+02:00",
+  "UseCategories": 744,
   "CreatedBy": null,
-  "Updated": "2000-09-26T14:23:47.8317514+02:00",
+  "Updated": "2015-02-08T12:19:46.5700918+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

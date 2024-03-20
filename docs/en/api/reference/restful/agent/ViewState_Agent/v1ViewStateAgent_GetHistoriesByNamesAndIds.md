@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Lehner Inc and Sons",
-      "EntityOrParentId": 89,
+      "EntityName": "Terry-Fritsch",
+      "EntityOrParentId": 265,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Lehner Inc and Sons",
-      "EntityOrParentId": 89,
+      "EntityName": "Terry-Fritsch",
+      "EntityOrParentId": 265,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 945,
-    "Id": 486,
-    "HistoryName": "DuBuque LLC",
-    "HistoryId": 5,
-    "AssociateId": 688,
-    "Name": "Skiles, Howell and Torphy",
-    "ItemInfo": "eaque",
+    "Rank": 201,
+    "Id": 4,
+    "HistoryName": "Padberg, Mills and Barrows",
+    "HistoryId": 986,
+    "AssociateId": 122,
+    "Name": "Spinka-Walsh",
+    "ItemInfo": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 680
       }
     }
   }

@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 208,
-      "ContactName": "Grimes LLC",
-      "PersonId": 274,
-      "PersonName": "Boehm, Barrows and Cummings",
-      "AssociateId": 950,
-      "Address": "voluptatem",
-      "EmailId": 803,
+      "ContactId": 4,
+      "ContactName": "Bayer-Kemmer",
+      "PersonId": 324,
+      "PersonName": "McDermott-Kuhlman",
+      "AssociateId": 511,
+      "Address": "suscipit",
+      "EmailId": 978,
       "DuplicatePersonIds": [
-        677,
-        677
+        639,
+        409
       ],
-      "Name": "Senger Inc and Sons",
+      "Name": "Franecki Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldType": "System.Int32",
+          "FieldLength": 839
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 940,
-      "ContactName": "Beer-Bartell",
-      "PersonId": 145,
-      "PersonName": "Grimes, O'Connell and Moen",
-      "AssociateId": 523,
-      "Address": "deserunt",
-      "EmailId": 469,
+      "ContactId": 619,
+      "ContactName": "Gaylord Inc and Sons",
+      "PersonId": 805,
+      "PersonName": "Hammes Inc and Sons",
+      "AssociateId": 253,
+      "Address": "quo",
+      "EmailId": 795,
       "DuplicatePersonIds": [
-        723,
-        722
+        587,
+        867
       ],
-      "Name": "Marquardt LLC",
+      "Name": "White-Zemlak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 172
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 788,
-      "ContactName": "Moore-Schumm",
-      "PersonId": 418,
-      "PersonName": "Schinner Inc and Sons",
-      "AssociateId": 591,
-      "Address": "eum",
-      "EmailId": 405,
+      "ContactId": 775,
+      "ContactName": "Cole-Reynolds",
+      "PersonId": 178,
+      "PersonName": "Jewess-Dare",
+      "AssociateId": 562,
+      "Address": "rem",
+      "EmailId": 625,
       "DuplicatePersonIds": [
-        753,
-        195
+        367,
+        848
       ],
-      "Name": "Thiel-Shanahan",
+      "Name": "Langworth, O'Keefe and Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 553
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "recusandae",
+  "Subject": "ullam",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2009-12-06T14:23:46.5637428+01:00",
-  "Size": 562,
+  "Sent": "1999-11-08T12:19:45.2735196+01:00",
+  "Size": 421,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatum",
-  "PlainBody": "enim",
-  "IsSent": false,
+  "MessageID": "rerum",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 228,
+  "ServerId": 256,
   "Attachments": [
     {
-      "Description": "Ameliorated multi-state concept",
-      "Filename": "quia",
-      "Size": 55,
-      "Type": "nihil",
-      "Encoding": "et",
-      "Id": "tempora",
-      "Disposition": "saepe",
+      "Description": "Multi-layered zero tolerance strategy",
+      "Filename": "consequuntur",
+      "Size": 830,
+      "Type": "aliquam",
+      "Encoding": "earum",
+      "Id": "sint",
+      "Disposition": "necessitatibus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wiza-Hilpert",
+      "Name": "Abshire-Yost",
       "Values": [
-        "et",
-        "nesciunt"
+        "sit",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     },
     {
-      "Name": "Wiza-Hilpert",
+      "Name": "Abshire-Yost",
       "Values": [
-        "et",
-        "nesciunt"
+        "sit",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "FolderName": "Hamill Group",
-  "EmailItemId": 381,
-  "AccountId": 642,
-  "ReceivedAt": "2010-06-17T14:23:46.5793695+02:00",
+  "FolderName": "Hudson-Willms",
+  "EmailItemId": 60,
+  "AccountId": 46,
+  "ReceivedAt": "2020-09-11T12:19:45.2735196+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-10-23T14:23:46.5793695+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-09-01T12:19:45.2735196+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldLength": 884
     }
   }
 }

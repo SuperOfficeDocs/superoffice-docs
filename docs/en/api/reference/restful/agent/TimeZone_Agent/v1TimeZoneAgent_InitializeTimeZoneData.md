@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 331,
-    "Name": "Dickinson, Greenholt and Legros",
-    "TZLocationCode": "tempore",
-    "TZLocationCities": "doloribus",
-    "IsoNumber": 357,
+    "TZLocationID": 80,
+    "Name": "Hand LLC",
+    "TZLocationCode": "consequatur",
+    "TZLocationCities": "in",
+    "IsoNumber": 59,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 432,
-        "StartMonth": 800,
-        "EndDay": 822,
-        "EndMonth": 938,
-        "TZOffset": 564,
-        "StartRulePattern": "est",
-        "EndRulePattern": "sunt"
+        "StartDay": 500,
+        "StartMonth": 103,
+        "EndDay": 946,
+        "EndMonth": 63,
+        "TZOffset": 909,
+        "StartRulePattern": "doloremque",
+        "EndRulePattern": "quia"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 439,
-        "StartMonth": 467,
-        "EndDay": 257,
-        "EndMonth": 85,
-        "TZOffset": 27,
-        "StartRulePattern": "labore",
-        "EndRulePattern": "accusantium"
+        "StartDay": 377,
+        "StartMonth": 315,
+        "EndDay": 259,
+        "EndMonth": 343,
+        "TZOffset": 95,
+        "StartRulePattern": "occaecati",
+        "EndRulePattern": "blanditiis"
       }
     }
   }

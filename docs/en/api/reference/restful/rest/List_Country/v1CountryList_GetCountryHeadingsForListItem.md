@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Pfannerstill-Orn",
-    "ToolTip": "Aut aut dolor quia.",
-    "Deleted": true,
-    "Rank": 927,
-    "Type": "nihil",
-    "ColorBlock": 329,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2016-03-12T14:23:56.0408276+01:00",
+    "Id": 444,
+    "Name": "Daugherty LLC",
+    "ToolTip": "Repellendus a libero sint.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "aspernatur",
+    "ColorBlock": 963,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2002-05-07T12:19:54.383431+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Connelly, Reilly and Block",
-        "ToolTip": "Iusto occaecati error error facere aspernatur.",
+        "Id": 413,
+        "Name": "Eichmann-Hudson",
+        "ToolTip": "Nihil ab consequatur qui ut quasi.",
         "Deleted": true,
-        "Rank": 138,
-        "Type": "repellat",
-        "ColorBlock": 515,
-        "IconHint": "ut",
+        "Rank": 710,
+        "Type": "magni",
+        "ColorBlock": 908,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "1997-07-20T14:23:56.0408276+02:00",
+        "LastChanged": "2012-01-21T12:19:54.383431+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Sherwood Hauck",
+        "ExtraInfo": "expedita",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Jannie Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldType": "System.String",
+            "FieldLength": 198
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Foster Skiles",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "officia",
+    "Hidden": false,
+    "FullName": "Emilio Delores Moen II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

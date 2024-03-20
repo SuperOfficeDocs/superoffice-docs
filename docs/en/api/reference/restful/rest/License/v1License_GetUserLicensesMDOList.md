@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Kulas Inc and Sons",
-    "ToolTip": "Expedita nam sed placeat nostrum dolor.",
+    "Id": 125,
+    "Name": "Schimmel-Padberg",
+    "ToolTip": "Neque in sequi.",
     "Deleted": false,
-    "Rank": 104,
-    "Type": "asperiores",
-    "ColorBlock": 894,
-    "IconHint": "qui",
+    "Rank": 132,
+    "Type": "sunt",
+    "ColorBlock": 429,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2006-02-02T14:23:55.7908303+01:00",
+    "LastChanged": "1999-03-19T12:19:54.117877+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Cruickshank, Stark and Armstrong",
-        "ToolTip": "Qui repellendus quidem.",
+        "Id": 919,
+        "Name": "Howe Inc and Sons",
+        "ToolTip": "Facere hic itaque quia nemo tempore modi consequatur.",
         "Deleted": false,
-        "Rank": 733,
-        "Type": "hic",
-        "ColorBlock": 599,
-        "IconHint": "expedita",
+        "Rank": 630,
+        "Type": "et",
+        "ColorBlock": 492,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2013-04-03T14:23:55.7908303+02:00",
+        "LastChanged": "1999-10-30T12:19:54.117877+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "ea",
+        "ExtraInfo": "ratione",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Simone Pagac",
+        "FullName": "Rogers Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 989
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "commodi",
-    "Hidden": false,
-    "FullName": "Lloyd Schmitt",
+    "ExtraInfo": "eum",
+    "StyleHint": "voluptatum",
+    "Hidden": true,
+    "FullName": "Keara Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldType": "System.String",
+        "FieldLength": 545
       }
     }
   }

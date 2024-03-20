@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sporer-Casper",
-  "DeviceName": "McGlynn LLC",
-  "KeyName": "Jacobs Group",
-  "KeyValue": "illum",
-  "TableName": "Kris Group"
+  "ApplicationName": "Terry, Hermann and Glover",
+  "DeviceName": "Harvey LLC",
+  "KeyName": "Lakin, Nicolas and Legros",
+  "KeyValue": "magnam",
+  "TableName": "Gerhold-Kuhn"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rem",
-  "Value": "est",
-  "RecordId": 852,
-  "CreatedDate": "2007-06-19T14:23:46.7524806+02:00",
-  "UpdatedDate": "1997-06-06T14:23:46.7524806+02:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "illum",
-  "TableName": "Sporer, Bode and Fadel",
+  "Key": "et",
+  "Value": "et",
+  "RecordId": 33,
+  "CreatedDate": "1998-09-24T12:19:45.4297292+02:00",
+  "UpdatedDate": "2018-12-16T12:19:45.4297292+01:00",
+  "UpdatedBy": "labore",
+  "CreatedBy": "neque",
+  "TableName": "McClure Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

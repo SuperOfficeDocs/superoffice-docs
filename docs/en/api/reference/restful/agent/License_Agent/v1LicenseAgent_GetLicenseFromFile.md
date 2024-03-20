@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ex"
+  "FileContent": "est"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 436,
-      "NumberOfLicensesFree": 753,
-      "NumberOfLicensesAdded": 604,
-      "NumberOfLicensesNewTotal": 917,
-      "NumberOfLicensesNewFree": 369,
-      "NumberOfLicensesTotal": 292
+      "NumberOfLicensesInUse": 958,
+      "NumberOfLicensesFree": 115,
+      "NumberOfLicensesAdded": 174,
+      "NumberOfLicensesNewTotal": 516,
+      "NumberOfLicensesNewFree": 424,
+      "NumberOfLicensesTotal": 434
     }
   ],
-  "AccumulatedNextCheckDate": "2012-03-07T14:23:46.7837295+01:00"
+  "AccumulatedNextCheckDate": "2017-11-11T12:19:45.4453495+01:00"
 }
 ```

@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 954,
-  "Name": "Brakus, Bergstrom and Balistreri",
-  "Description": "Down-sized hybrid encryption",
+  "ProjectId": 559,
+  "Name": "Gaylord, Funk and Paucek",
+  "Description": "Triple-buffered user-facing hierarchy",
   "URL": "http://www.example.com/",
-  "Type": "perspiciatis",
-  "AssociateId": 558,
-  "AssociateFullName": "Destini Schinner",
-  "TypeId": 652,
-  "Updated": "2002-01-03T14:23:55.3689602+01:00",
-  "StatusId": 233,
-  "Status": "autem",
-  "TextId": 967,
-  "PublishTo": "2007-03-05T14:23:55.3689602+01:00",
-  "PublishFrom": "2007-03-05T14:23:55.3689602+01:00",
+  "Type": "rem",
+  "AssociateId": 871,
+  "AssociateFullName": "Mr. Anthony Gulgowski Sr.",
+  "TypeId": 745,
+  "Updated": "2015-02-08T12:19:53.7742043+01:00",
+  "StatusId": 663,
+  "Status": "numquam",
+  "TextId": 859,
+  "PublishTo": "1997-08-20T12:19:53.7742043+02:00",
+  "PublishFrom": "2001-07-12T12:19:53.7742043+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1475771",
-  "ActiveErpLinks": 440,
+  "ProjectNumber": "934152",
+  "ActiveErpLinks": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 836
     }
   }
 }

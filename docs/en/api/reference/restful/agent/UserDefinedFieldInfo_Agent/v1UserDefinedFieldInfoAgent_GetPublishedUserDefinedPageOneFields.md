@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 584
+  "UserGroupId": 935
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 888,
-    "ColumnId": 699,
-    "FieldDefault": "officia",
-    "FieldHeight": 719,
-    "FieldLabel": "labore",
-    "FieldLeft": 101,
-    "FieldTop": 452,
+    "UDefFieldId": 586,
+    "ColumnId": 165,
+    "FieldDefault": "aut",
+    "FieldHeight": 804,
+    "FieldLabel": "sit",
+    "FieldLeft": 613,
+    "FieldTop": 331,
     "FieldType": "Checkbox",
-    "FieldWidth": 180,
-    "FormatMask": "nulla",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 18,
-    "LabelLeft": 234,
-    "LabelTop": 58,
-    "LabelWidth": 657,
-    "LastVersionId": 168,
-    "ListTableId": 923,
-    "IsMandatory": false,
+    "FieldWidth": 973,
+    "FormatMask": "voluptatem",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 440,
+    "LabelLeft": 621,
+    "LabelTop": 543,
+    "LabelWidth": 457,
+    "LastVersionId": 190,
+    "ListTableId": 952,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 372,
-    "ProgId": "dolor",
-    "IsReadOnly": false,
-    "ShortLabel": "culpa",
-    "TabOrder": 505,
-    "TextLength": 359,
-    "Tooltip": "aliquam",
-    "UdefIdentity": 989,
-    "UDListDefinitionId": 714,
+    "Page1LineNo": 137,
+    "ProgId": "sed",
+    "IsReadOnly": true,
+    "ShortLabel": "asperiores",
+    "TabOrder": 101,
+    "TextLength": 638,
+    "Tooltip": "ea",
+    "UdefIdentity": 716,
+    "UDListDefinitionId": 335,
     "Justification": "Center",
-    "Version": 893,
-    "TemplateVariableName": "Gulgowski-Wehner",
+    "Version": 44,
+    "TemplateVariableName": "Miller, Schiller and Eichmann",
     "HasBeenPublished": false,
-    "MdoListName": "Hirthe, Rempel and Rempel",
+    "MdoListName": "Hudson, Bins and Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

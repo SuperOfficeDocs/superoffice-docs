@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 958
+  "QuoteAlternativeId": 69
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 295,
-    "ERPQuoteLineKey": "quo",
-    "QuoteAlternativeId": 987,
-    "ERPProductKey": "nam",
+    "QuoteLineId": 434,
+    "ERPQuoteLineKey": "rerum",
+    "QuoteAlternativeId": 990,
+    "ERPProductKey": "fuga",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 2228.274,
-    "DeliveredQuantity": 10915.722,
-    "Rank": 247,
-    "Name": "Okuneva-Auer",
-    "Description": "Face to face coherent collaboration",
-    "Code": "molestias",
-    "QuantityUnit": "quas",
-    "PriceUnit": "odit",
-    "ItemNumber": "127429",
+    "Quantity": 1999.492,
+    "DeliveredQuantity": 12420.042,
+    "Rank": 813,
+    "Name": "Yost, Hammes and Gibson",
+    "Description": "Organic dedicated artificial intelligence",
+    "Code": "quia",
+    "QuantityUnit": "excepturi",
+    "PriceUnit": "totam",
+    "ItemNumber": "1805459",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "laudantium",
-    "ProductTypeKey": "repudiandae",
-    "Supplier": "sed",
-    "SupplierCode": "in",
-    "Thumbnail": "minima",
-    "VATInfo": "enim",
-    "VAT": 31227.176,
-    "UnitCost": 15604.186,
-    "UnitMinimumPrice": 22574.201999999997,
-    "UnitListPrice": 17691.43,
+    "ProductFamilyKey": "sit",
+    "ProductTypeKey": "eius",
+    "Supplier": "quia",
+    "SupplierCode": "atque",
+    "Thumbnail": "ipsam",
+    "VATInfo": "nihil",
+    "VAT": 30443.676,
+    "UnitCost": 28262.412,
+    "UnitMinimumPrice": 6681.688,
+    "UnitListPrice": 11561.326,
     "ExtraInfo": [
       {
-        "Name": "Kerluke, McLaughlin and Okuneva",
-        "Value": "et",
+        "Name": "Mante-Bashirian",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldLength": 708
           }
         }
       },
       {
-        "Name": "Kerluke, McLaughlin and Okuneva",
-        "Value": "et",
+        "Name": "Mante-Bashirian",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldLength": 708
           }
         }
       }
     ],
-    "RawExtraInfo": "sunt",
-    "IsSubscription": true,
-    "SubscriptionUnit": "reiciendis",
-    "SubscriptionQuantity": 20026.26,
-    "SubscriptionStart": "2023-06-03T14:23:47.2692571+02:00",
-    "ERPDiscountPercent": 9527.36,
-    "ERPDiscountAmount": 28531.935999999998,
-    "DiscountPercent": 14143.742,
-    "DiscountAmount": 20436.814,
+    "RawExtraInfo": "voluptatem",
+    "IsSubscription": false,
+    "SubscriptionUnit": "sunt",
+    "SubscriptionQuantity": 10975.268,
+    "SubscriptionStart": "2015-02-08T12:19:46.117062+01:00",
+    "ERPDiscountPercent": 5829.24,
+    "ERPDiscountAmount": 28300.02,
+    "DiscountPercent": 16676.014,
+    "DiscountAmount": 3315.772,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 20088.94,
-    "EarningAmount": 28390.906,
-    "SubTotal": 26190.838,
-    "TotalPrice": 3074.4539999999997,
-    "Rights": "aliquam",
-    "Rule": "et",
-    "ExtraField1": "ad",
-    "ExtraField2": "distinctio",
-    "ExtraField3": "dolore",
-    "ExtraField4": "eveniet",
-    "ExtraField5": "repellat",
+    "EarningPercent": 26573.185999999998,
+    "EarningAmount": 20248.773999999998,
+    "SubTotal": 1360.156,
+    "TotalPrice": 6268.0,
+    "Rights": "architecto",
+    "Rule": "provident",
+    "ExtraField1": "quaerat",
+    "ExtraField2": "sapiente",
+    "ExtraField3": "officiis",
+    "ExtraField4": "saepe",
+    "ExtraField5": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 90
       }
     }
   }

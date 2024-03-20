@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle Inc and Sons",
-    "DisplayName": "O'Hara LLC",
-    "DisplayTooltip": "eos",
+    "Name": "Becker, Heller and Smith",
+    "DisplayName": "Volkman Group",
+    "DisplayTooltip": "iure",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   },
   {
-    "Name": "Boyle Inc and Sons",
-    "DisplayName": "O'Hara LLC",
-    "DisplayTooltip": "eos",
+    "Name": "Becker, Heller and Smith",
+    "DisplayName": "Volkman Group",
+    "DisplayTooltip": "iure",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

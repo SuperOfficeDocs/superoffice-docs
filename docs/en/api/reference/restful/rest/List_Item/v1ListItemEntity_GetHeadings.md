@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Predovic Group",
-    "ToolTip": "Numquam quibusdam in vero est.",
+    "Id": 912,
+    "Name": "Lakin-Bruen",
+    "ToolTip": "Quae aliquid et alias autem minus eos.",
     "Deleted": false,
-    "Rank": 691,
-    "Type": "mollitia",
-    "ColorBlock": 293,
-    "IconHint": "at",
+    "Rank": 11,
+    "Type": "facilis",
+    "ColorBlock": 942,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1998-11-30T14:23:55.9470782+01:00",
+    "LastChanged": "2007-04-23T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Corkery-Mohr",
-        "ToolTip": "Et quam.",
-        "Deleted": false,
-        "Rank": 890,
-        "Type": "voluptas",
-        "ColorBlock": 648,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2006-05-07T14:23:55.9470782+02:00",
+        "Id": 55,
+        "Name": "Will Inc and Sons",
+        "ToolTip": "Dolore qui nisi omnis sequi aut similique.",
+        "Deleted": true,
+        "Rank": 142,
+        "Type": "illum",
+        "ColorBlock": 584,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2002-09-15T12:19:54.2740906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "nemo",
+        "ExtraInfo": "rerum",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Prof. Clemens Brekke",
+        "FullName": "Prof. Jazmyne Trever Mitchell MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Janae Schaden",
+    "ExtraInfo": "est",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Aiyana Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 75
       }
     }
   }

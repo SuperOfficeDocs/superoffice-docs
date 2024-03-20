@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 17
+  "TemplateHeadingId": 491
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 506,
-    "Attention": "delectus",
-    "Header": "cumque",
-    "Name": "Kirlin, Purdy and Pouros",
-    "OurRef": "quia",
-    "YourRef": "numquam",
-    "Description": "Exclusive web-enabled budgetary management",
-    "DocumentTemplate": "dolorum",
+    "DocumentId": 56,
+    "Attention": "vitae",
+    "Header": "esse",
+    "Name": "Dibbert LLC",
+    "OurRef": "amet",
+    "YourRef": "eligendi",
+    "Description": "Open-architected directional initiative",
+    "DocumentTemplate": "cum",
     "IsPublished": false,
-    "PersonId": 416,
-    "PersonFullName": "Mr. Quentin Maximilian Price",
-    "AssociateFullName": "Mr. Wilfred Enola Kovacek",
-    "ContactId": 872,
-    "ContactName": "Dibbert, Robel and Flatley",
-    "ProjectId": 948,
-    "ProjectName": "Schoen LLC",
-    "AssociateId": 275,
-    "Snum": 725,
-    "SaleId": 97,
-    "SaleName": "Bartoletti-Bradtke",
+    "PersonId": 829,
+    "PersonFullName": "Adolph Farrell",
+    "AssociateFullName": "Dr. Gardner Mills Sr.",
+    "ContactId": 666,
+    "ContactName": "Morissette Group",
+    "ProjectId": 297,
+    "ProjectName": "Gusikowski, Grady and Tillman",
+    "AssociateId": 984,
+    "Snum": 213,
+    "SaleId": 120,
+    "SaleName": "Tillman, Aufderhar and Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 533
       }
     }
   }

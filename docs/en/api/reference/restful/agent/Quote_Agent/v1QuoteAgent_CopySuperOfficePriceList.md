@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 816,
-  "NewName": "Grady-Lubowitz",
-  "ValidFrom": "1996-12-05T14:23:47.222383+01:00",
-  "ValidTo": "1998-01-07T14:23:47.222383+01:00",
-  "NewCurrencyId": 742,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 454,
+  "NewName": "Hoppe, Marvin and Weissnat",
+  "ValidFrom": "2008-10-08T12:19:46.0701997+02:00",
+  "ValidTo": "2005-04-14T12:19:46.0701997+02:00",
+  "NewCurrencyId": 727,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 940,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 890,
-  "Name": "Romaguera Group",
-  "Description": "Public-key cohesive instruction set",
-  "Currency": "doloribus",
-  "CurrencyName": "Wiza-Prosacco",
-  "ValidFrom": "1997-04-21T14:23:47.222383+02:00",
-  "ValidTo": "1999-10-23T14:23:47.222383+02:00",
+  "PriceListId": 43,
+  "ERPPriceListKey": "maxime",
+  "QuoteConnectionId": 198,
+  "Name": "Feeney, Goodwin and Towne",
+  "Description": "Multi-tiered actuating open architecture",
+  "Currency": "modi",
+  "CurrencyName": "Hyatt-Mitchell",
+  "ValidFrom": "2021-01-04T12:19:46.0701997+01:00",
+  "ValidTo": "2015-02-19T12:19:46.0701997+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 586
     }
   }
 }

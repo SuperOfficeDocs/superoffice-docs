@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 390,
-  "Type": 430
+  "GroupId": 174,
+  "Type": 51
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 774,
-    "Name": "Brekke-Yundt",
-    "PersonId": 627,
-    "Rank": 783,
-    "Tooltip": "corporis",
+    "AssociateId": 828,
+    "Name": "Durgan, Balistreri and Borer",
+    "PersonId": 357,
+    "Rank": 882,
+    "Tooltip": "dolor",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 398,
-    "FullName": "Prof. Webster Turner",
-    "FormalName": "Eichmann, Waelchi and Heathcote",
-    "Deleted": true,
-    "EjUserId": 600,
-    "UserName": "Lubowitz-Grimes",
+    "GroupIdx": 572,
+    "FullName": "Lavern Johnson",
+    "FormalName": "Koepp-Haag",
+    "Deleted": false,
+    "EjUserId": 238,
+    "UserName": "Dach Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 929
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=135
+POST /api/v1/Agents/Project/GetProject?projectId=355
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 572,
-  "Name": "Berge-Rice",
-  "Description": "Phased heuristic project",
+  "ProjectId": 700,
+  "Name": "Johns, Bashirian and Hirthe",
+  "Description": "Re-contextualized needs-based hierarchy",
   "URL": "http://www.example.com/",
-  "Type": "unde",
-  "AssociateId": 36,
-  "AssociateFullName": "Ryan Greenfelder",
-  "TypeId": 477,
-  "Updated": "1998-09-12T14:23:47.1598847+02:00",
-  "StatusId": 633,
-  "Status": "nemo",
-  "TextId": 900,
-  "PublishTo": "2016-03-04T14:23:47.1598847+01:00",
-  "PublishFrom": "2003-08-03T14:23:47.1598847+02:00",
+  "Type": "quo",
+  "AssociateId": 302,
+  "AssociateFullName": "Miss Norberto Cara Ferry",
+  "TypeId": 472,
+  "Updated": "2013-02-03T12:19:46.0077209+01:00",
+  "StatusId": 713,
+  "Status": "est",
+  "TextId": 153,
+  "PublishTo": "2000-02-28T12:19:46.0077209+01:00",
+  "PublishFrom": "2002-05-19T12:19:46.0077209+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "180161",
-  "ActiveErpLinks": 9,
+  "ProjectNumber": "1286803",
+  "ActiveErpLinks": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

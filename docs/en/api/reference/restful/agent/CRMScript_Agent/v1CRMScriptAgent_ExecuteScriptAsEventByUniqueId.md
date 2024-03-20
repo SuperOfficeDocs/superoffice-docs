@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "id",
+  "CRMScriptUniqueId": "quis",
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ut",
-    "InputValues2": "esse"
+    "InputValues1": "quisquam",
+    "InputValues2": "commodi"
   },
   "BlockExecution": false,
-  "NavigateTo": "sapiente",
-  "Message": "vero",
-  "ShowDialog": "animi",
+  "NavigateTo": "qui",
+  "Message": "possimus",
+  "ShowDialog": "quasi",
   "OutputValues": {
-    "OutputValues1": "eveniet",
-    "OutputValues2": "ut"
+    "OutputValues1": "dolorum",
+    "OutputValues2": "deleniti"
   },
   "StateValues": {
-    "StateValues1": "consequuntur",
-    "StateValues2": "saepe"
+    "StateValues1": "nulla",
+    "StateValues2": "rem"
   },
-  "Exception": "eius",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "perspiciatis",
-    "ParserValues2": "nihil"
+    "ParserValues1": "vero",
+    "ParserValues2": "nobis"
   },
   "CgiVariables": {
-    "CgiVariables1": "sed",
-    "CgiVariables2": "voluptatem"
+    "CgiVariables1": "iste",
+    "CgiVariables2": "vero"
   },
-  "CgiContent": "eos",
+  "CgiContent": "perferendis",
   "Headers": {
-    "Headers1": "minus",
-    "Headers2": "itaque"
+    "Headers1": "fugiat",
+    "Headers2": "illum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 813
     }
   }
 }

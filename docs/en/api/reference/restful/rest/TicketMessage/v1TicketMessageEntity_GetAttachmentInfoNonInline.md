@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 853,
-    "Name": "Quitzon, Windler and Boyle",
-    "ContentType": "nisi",
-    "AttSize": 691,
-    "InlineImage": true,
-    "ContentId": "blanditiis",
-    "AuthKey": "praesentium",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 5,
+    "Name": "Hackett Group",
+    "ContentType": "molestias",
+    "AttSize": 581,
+    "InlineImage": false,
+    "ContentId": "repellendus",
+    "AuthKey": "ut",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 251
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 176,
-  "Name": "Koch Group",
-  "Description": "Total didactic methodology",
-  "DefaultHeight": 489,
-  "DefaultWidth": 446,
+  "DashboardTileDefinitionId": 16,
+  "Name": "Halvorson, Moore and Kutch",
+  "Description": "Mandatory demand-driven initiative",
+  "DefaultHeight": 373,
+  "DefaultWidth": 562,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Cassin, Rempel and Legros",
-  "SelectionId": 105,
+  "EntityName": "Kshlerin LLC",
+  "SelectionId": 394,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quos",
+  "CurrencyCode": "sint",
   "Measure": "Average",
-  "MeasureField": "incidunt",
-  "SortBy": "nemo",
-  "LayoutConfig": "labore",
-  "SecondarySelectionId": 247,
-  "MeasureByField": "perspiciatis",
+  "MeasureField": "eum",
+  "SortBy": "est",
+  "LayoutConfig": "debitis",
+  "SecondarySelectionId": 953,
+  "MeasureByField": "quisquam",
   "Usage": "Dashboard",
-  "ProviderName": "Jakubowski-Thiel",
+  "ProviderName": "Murazik-Boyle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 920
     }
   }
 }

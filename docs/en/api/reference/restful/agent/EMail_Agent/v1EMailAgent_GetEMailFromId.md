@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 163,
-  "LookupAddresses": true,
+  "MessageServerId": 611,
+  "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 659,
-      "ContactName": "Wuckert, Runolfsdottir and Streich",
-      "PersonId": 37,
-      "PersonName": "Green, Green and Morissette",
-      "AssociateId": 935,
-      "Address": "illum",
-      "EmailId": 232,
+      "ContactId": 298,
+      "ContactName": "Gleason-Koelpin",
+      "PersonId": 227,
+      "PersonName": "Hauck LLC",
+      "AssociateId": 495,
+      "Address": "cumque",
+      "EmailId": 643,
       "DuplicatePersonIds": [
-        542,
-        770
+        665,
+        268
       ],
-      "Name": "Schmidt-Muller",
+      "Name": "Batz-Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 31
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 876,
-      "ContactName": "Smith-Schmeler",
-      "PersonId": 474,
-      "PersonName": "Murazik, Bailey and Ziemann",
-      "AssociateId": 683,
-      "Address": "ut",
-      "EmailId": 101,
+      "ContactId": 306,
+      "ContactName": "Emmerich-Dietrich",
+      "PersonId": 603,
+      "PersonName": "Vandervort Group",
+      "AssociateId": 100,
+      "Address": "est",
+      "EmailId": 962,
       "DuplicatePersonIds": [
-        153,
-        570
+        654,
+        572
       ],
-      "Name": "Hilpert-Schuster",
+      "Name": "Ruecker-Bashirian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 389
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 858,
-      "ContactName": "Hudson-McLaughlin",
-      "PersonId": 140,
-      "PersonName": "Quigley, Nienow and Borer",
-      "AssociateId": 533,
-      "Address": "quis",
-      "EmailId": 286,
+      "ContactId": 979,
+      "ContactName": "Johns-Purdy",
+      "PersonId": 903,
+      "PersonName": "Leuschke-Emard",
+      "AssociateId": 25,
+      "Address": "consequuntur",
+      "EmailId": 712,
       "DuplicatePersonIds": [
-        267,
-        478
+        40,
+        907
       ],
-      "Name": "Harvey LLC",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 747
-        }
-      }
-    }
-  ],
-  "Subject": "accusantium",
-  "HTMLBody": "maxime",
-  "From": null,
-  "Sent": "2012-02-16T14:23:46.6418272+01:00",
-  "Size": 452,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "esse",
-  "PlainBody": "sit",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 53,
-  "Attachments": [
-    {
-      "Description": "Automated zero defect secured line",
-      "Filename": "est",
-      "Size": 401,
-      "Type": "nihil",
-      "Encoding": "et",
-      "Id": "deleniti",
-      "Disposition": "quo",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Terry, Runte and Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 586
+        }
+      }
+    }
+  ],
+  "Subject": "quia",
+  "HTMLBody": "aut",
+  "From": null,
+  "Sent": "2019-11-09T12:19:45.3047627+01:00",
+  "Size": 682,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "repellat",
+  "PlainBody": "at",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 339,
+  "Attachments": [
+    {
+      "Description": "Optional tertiary moratorium",
+      "Filename": "quas",
+      "Size": 126,
+      "Type": "officia",
+      "Encoding": "laborum",
+      "Id": "dolorem",
+      "Disposition": "qui",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 982
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schamberger, Rutherford and McLaughlin",
+      "Name": "Langosh LLC",
       "Values": [
         "ad",
-        "asperiores"
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     },
     {
-      "Name": "Schamberger, Rutherford and McLaughlin",
+      "Name": "Langosh LLC",
       "Values": [
         "ad",
-        "asperiores"
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
   ],
-  "FolderName": "Schoen-Raynor",
-  "EmailItemId": 567,
-  "AccountId": 284,
-  "ReceivedAt": "2023-12-23T14:23:46.6418272+01:00",
+  "FolderName": "Koelpin, King and Wolff",
+  "EmailItemId": 337,
+  "AccountId": 193,
+  "ReceivedAt": "2022-05-27T12:19:45.3047627+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-11-18T14:23:46.6418272+01:00",
+  "RepliedAt": "2017-09-30T12:19:45.3047627+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

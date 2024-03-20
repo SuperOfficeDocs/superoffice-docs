@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Stehr, Kertzmann and Schowalter",
-    "ToolTip": "Explicabo est ex et vel.",
+    "Id": 642,
+    "Name": "Batz-Stracke",
+    "ToolTip": "Soluta magni magnam optio qui ad ab voluptatum.",
     "Deleted": false,
-    "Rank": 351,
-    "Type": "voluptates",
-    "ColorBlock": 300,
-    "IconHint": "corporis",
+    "Rank": 125,
+    "Type": "et",
+    "ColorBlock": 360,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2020-11-03T14:23:56.165827+01:00",
+    "LastChanged": "1999-04-06T12:19:54.6646278+02:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Wisoky Group",
-        "ToolTip": "Quo error aspernatur nulla eveniet.",
-        "Deleted": false,
-        "Rank": 108,
-        "Type": "suscipit",
-        "ColorBlock": 752,
-        "IconHint": "adipisci",
+        "Id": 200,
+        "Name": "Kuphal, Keeling and Brown",
+        "ToolTip": "Iste temporibus excepturi ipsam dolores dolor.",
+        "Deleted": true,
+        "Rank": 703,
+        "Type": "ut",
+        "ColorBlock": 696,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "1997-02-05T14:23:56.165827+01:00",
+        "LastChanged": "1997-03-23T12:19:54.6646278+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Ms. Chelsea Will",
+        "ExtraInfo": "provident",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Graciela Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldType": "System.Int32",
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "vel",
+    "ExtraInfo": "quasi",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Mrs. Cora Gregoria Fay I",
+    "FullName": "Lue Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 76
       }
     }
   }

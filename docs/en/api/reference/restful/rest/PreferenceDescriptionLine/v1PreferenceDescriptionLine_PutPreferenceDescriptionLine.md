@@ -93,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 636,
-  "PrefDescId": 711,
-  "PrefValue": "consequatur",
-  "PrefShowValue": "accusamus",
-  "Description": "Optimized mobile benchmark",
+  "PrefDescLineId": 577,
+  "PrefDescId": 260,
+  "PrefValue": "similique",
+  "PrefShowValue": "dolore",
+  "Description": "Open-source discrete structure",
   "IsBuiltin": true
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 900,
-  "PrefDescId": 994,
-  "PrefValue": "possimus",
-  "PrefShowValue": "ratione",
-  "Description": "Horizontal needs-based adapter",
+  "PrefDescLineId": 978,
+  "PrefDescId": 997,
+  "PrefValue": "qui",
+  "PrefShowValue": "aut",
+  "Description": "Profit-focused optimizing installation",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 238
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

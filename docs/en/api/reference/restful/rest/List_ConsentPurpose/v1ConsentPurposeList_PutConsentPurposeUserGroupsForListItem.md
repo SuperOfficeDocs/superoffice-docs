@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Huels-Armstrong",
-    "ToolTip": "Quia omnis necessitatibus.",
-    "Deleted": true,
-    "Rank": 716,
-    "Type": "dicta",
-    "ColorBlock": 241,
-    "IconHint": "consectetur",
+    "Id": 717,
+    "Name": "Ratke-Considine",
+    "ToolTip": "Iste harum saepe quasi et amet eveniet distinctio.",
+    "Deleted": false,
+    "Rank": 513,
+    "Type": "consequatur",
+    "ColorBlock": 439,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2007-11-10T14:23:56.009576+01:00",
+    "LastChanged": "2021-06-18T12:19:54.3522098+02:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Rohan-Fritsch",
-        "ToolTip": "A provident.",
+        "Id": 621,
+        "Name": "Frami Group",
+        "ToolTip": "Nemo nostrum doloribus est reprehenderit explicabo fuga doloribus.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "molestiae",
-        "ColorBlock": 366,
-        "IconHint": "impedit",
+        "Rank": 716,
+        "Type": "quidem",
+        "ColorBlock": 13,
+        "IconHint": "culpa",
         "Selected": true,
-        "LastChanged": "2002-01-23T14:23:56.009576+01:00",
+        "LastChanged": "1998-11-02T12:19:54.3522098+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Dr. Lane Champlin DDS"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Dr. Dimitri Sheridan Denesik"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Haven Torp"
+    "ExtraInfo": "hic",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Ms. Audrey Caleb Dibbert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Lynch, Quitzon and Johns",
-    "ToolTip": "Blanditiis sunt ullam alias enim.",
+    "Id": 476,
+    "Name": "Welch LLC",
+    "ToolTip": "Quae ea.",
     "Deleted": false,
-    "Rank": 757,
-    "Type": "aut",
-    "ColorBlock": 198,
-    "IconHint": "maxime",
-    "Selected": false,
-    "LastChanged": "2010-09-26T14:23:56.009576+02:00",
+    "Rank": 812,
+    "Type": "cupiditate",
+    "ColorBlock": 389,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2018-03-12T12:19:54.3522098+01:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Schmeler Inc and Sons",
-        "ToolTip": "Exercitationem dolor.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "reiciendis",
-        "ColorBlock": 858,
-        "IconHint": "delectus",
+        "Id": 921,
+        "Name": "Daugherty-Ward",
+        "ToolTip": "Quod et molestiae aut accusantium tempore.",
+        "Deleted": false,
+        "Rank": 244,
+        "Type": "odio",
+        "ColorBlock": 630,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2001-11-21T14:23:56.009576+01:00",
+        "LastChanged": "2016-09-15T12:19:54.3522098+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "laborum",
+        "ExtraInfo": "earum",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Barton Stoltenberg",
+        "FullName": "Ms. Nayeli Blake Kshlerin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1001
+            "FieldType": "System.Int32",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "fuga",
-    "Hidden": true,
-    "FullName": "Prof. Lisandro Adelia Hand",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Ethel Berta Morissette Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   }

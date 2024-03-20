@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 620,
-  "Section": "adipisci",
-  "Key": "sed",
-  "Name": "Collier-Daniel",
+  "PrefDescId": 199,
+  "Section": "dolorem",
+  "Key": "amet",
+  "Name": "Kutch Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive disintermediate benchmark",
+  "Description": "Programmable maximized hardware",
   "IsBuiltin": false,
-  "TableName": "Huels-Hagenes",
-  "UserDefinedListId": 674,
-  "Rank": 524,
-  "SubGroup": "dolor",
-  "MinLevel": 915,
-  "MaxValue": 482,
-  "MinValue": 111,
-  "RequiredLicense": "nesciunt",
+  "TableName": "Towne-Hudson",
+  "UserDefinedListId": 678,
+  "Rank": 264,
+  "SubGroup": "exercitationem",
+  "MinLevel": 52,
+  "MaxValue": 630,
+  "MinValue": 305,
+  "RequiredLicense": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

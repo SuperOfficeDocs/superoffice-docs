@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 850,
-  "GroupId": 440
+  "UdListDefinitionId": 37,
+  "GroupId": 347
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Jerde-Ledner",
-    "ToolTip": "Eos dolorum.",
+    "Id": 349,
+    "Name": "Lehner-Volkman",
+    "ToolTip": "Ducimus corrupti ut.",
     "Deleted": false,
-    "Rank": 786,
-    "Type": "nisi",
-    "ColorBlock": 448,
-    "IconHint": "explicabo",
+    "Rank": 69,
+    "Type": "dolores",
+    "ColorBlock": 639,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "1998-02-20T14:23:46.8306046+01:00",
+    "LastChanged": "2009-07-26T12:19:45.4922171+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "O'Kon LLC",
-        "ToolTip": "Saepe odio quo.",
-        "Deleted": false,
-        "Rank": 250,
-        "Type": "eos",
-        "ColorBlock": 636,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2010-11-27T14:23:46.8306046+01:00",
+        "Id": 166,
+        "Name": "Beer-Kautzer",
+        "ToolTip": "Molestiae consectetur.",
+        "Deleted": true,
+        "Rank": 195,
+        "Type": "ut",
+        "ColorBlock": 789,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2000-11-12T12:19:45.4922171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Jeromy Cremin Jr.",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Ms. Dolly Gleichner I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 736
+            "FieldType": "System.String",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "sequi",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Rick Lueilwitz",
+    "FullName": "Amira Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

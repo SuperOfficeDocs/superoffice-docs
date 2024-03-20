@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 659,
-  "Name": "Torp, Pagac and Lang",
-  "Description": "Inverse bi-directional framework",
-  "DeltaJson": "ut",
+  "ConfigurableScreenDeltaId": 420,
+  "Name": "Dickinson Group",
+  "Description": "Persevering content-based analyzer",
+  "DeltaJson": "corrupti",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "mollitia",
-  "UpdatedDate": "2013-03-29T14:23:46.0637094+01:00",
-  "CreatedDate": "2021-07-20T14:23:46.0637094+02:00",
+  "RecipeId": "laboriosam",
+  "UpdatedDate": "2008-10-16T12:19:44.8361197+02:00",
+  "CreatedDate": "2018-01-31T12:19:44.8361197+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    727,
-    570
+    708,
+    536
   ],
-  "AppliesToKey": "porro",
+  "AppliesToKey": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 852
     }
   }
 }

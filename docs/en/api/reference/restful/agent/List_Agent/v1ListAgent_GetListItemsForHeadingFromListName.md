@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pagac-Greenfelder",
-  "HeadingId": 846
+  "UdListDefinitionName": "Bernhard Inc and Sons",
+  "HeadingId": 361
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Glover LLC",
-    "ToolTip": "Aut dolor.",
+    "Id": 775,
+    "Name": "O'Connell-Flatley",
+    "ToolTip": "Aut veritatis dolor dignissimos praesentium.",
     "Deleted": false,
-    "Rank": 199,
-    "Type": "maxime",
-    "ColorBlock": 935,
-    "IconHint": "molestiae",
+    "Rank": 695,
+    "Type": "aut",
+    "ColorBlock": 807,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2012-12-25T14:23:46.8462293+01:00",
+    "LastChanged": "2005-07-03T12:19:45.5078373+02:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Tromp, Bayer and Nienow",
-        "ToolTip": "Quis adipisci commodi ut inventore.",
+        "Id": 681,
+        "Name": "Lakin, Little and Kemmer",
+        "ToolTip": "Unde et in voluptatem voluptatem dolorum odit.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "deleniti",
-        "ColorBlock": 266,
-        "IconHint": "consequuntur",
+        "Rank": 253,
+        "Type": "nesciunt",
+        "ColorBlock": 601,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2012-03-12T14:23:46.8462293+01:00",
+        "LastChanged": "1998-05-10T12:19:45.5078373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quos",
+        "ExtraInfo": "atque",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Carey Simonis",
+        "FullName": "Gianni Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Mr. Eloy Greenfelder",
+    "ExtraInfo": "aut",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Lance Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

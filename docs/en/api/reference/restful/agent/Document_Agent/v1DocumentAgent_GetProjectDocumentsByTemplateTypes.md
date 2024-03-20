@@ -102,13 +102,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 764,
-  "StartTime": "2014-09-06T14:23:46.2980824+02:00",
-  "EndTime": "2009-09-29T14:23:46.2980824+02:00",
-  "Count": 573,
+  "ProjectId": 6,
+  "StartTime": "2011-07-14T12:19:45.0860733+02:00",
+  "EndTime": "1999-05-17T12:19:45.0860733+02:00",
+  "Count": 118,
   "DocumentTemplateIds": [
-    360,
-    698
+    57,
+    699
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 288,
-    "Attention": "nesciunt",
-    "Header": "quis",
-    "Name": "Rempel-Gislason",
-    "OurRef": "doloremque",
-    "YourRef": "dolorem",
-    "Description": "User-centric high-level project",
-    "DocumentTemplate": "officiis",
-    "IsPublished": true,
-    "PersonId": 493,
-    "PersonFullName": "Denis Deckow",
-    "AssociateFullName": "Mr. Gay Bailey Jr.",
-    "ContactId": 801,
-    "ContactName": "Halvorson, Brown and Deckow",
-    "ProjectId": 87,
-    "ProjectName": "Murphy LLC",
-    "AssociateId": 267,
-    "Snum": 210,
-    "SaleId": 753,
-    "SaleName": "Franecki, Grant and Wisoky",
+    "DocumentId": 457,
+    "Attention": "quisquam",
+    "Header": "porro",
+    "Name": "Greenholt-Erdman",
+    "OurRef": "voluptatibus",
+    "YourRef": "dolore",
+    "Description": "Reduced dynamic open architecture",
+    "DocumentTemplate": "officia",
+    "IsPublished": false,
+    "PersonId": 335,
+    "PersonFullName": "Mr. Clement Delta Fay DVM",
+    "AssociateFullName": "Melany Ebert IV",
+    "ContactId": 127,
+    "ContactName": "Beer, Rice and Swaniawski",
+    "ProjectId": 519,
+    "ProjectName": "Steuber, Dare and O'Hara",
+    "AssociateId": 180,
+    "Snum": 43,
+    "SaleId": 79,
+    "SaleName": "Kshlerin-Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

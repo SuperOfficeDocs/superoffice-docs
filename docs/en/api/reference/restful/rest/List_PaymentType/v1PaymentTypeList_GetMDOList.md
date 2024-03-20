@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=voluptatum
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=laboriosam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Effertz, Steuber and Shanahan",
-    "ToolTip": "Omnis perferendis aut aut sed voluptate sunt.",
-    "Deleted": true,
-    "Rank": 621,
-    "Type": "quibusdam",
+    "Id": 520,
+    "Name": "Boehm, Ledner and Thiel",
+    "ToolTip": "Aut exercitationem.",
+    "Deleted": false,
+    "Rank": 300,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Walter-Brekke",
-        "ToolTip": "Aliquid itaque quis nihil rerum.",
-        "Deleted": false,
-        "Rank": 566,
-        "Type": "aliquid",
+        "Id": 262,
+        "Name": "Crooks LLC",
+        "ToolTip": "Error enim est molestias aperiam et.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 989,
+        "IconHint": "vel",
+        "ColorBlock": 363,
         "ExtraInfo": "deserunt",
-        "StyleHint": "aliquid",
-        "FullName": "Margie Smith",
+        "StyleHint": "voluptas",
+        "FullName": "Vanessa Leann Jones IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldType": "System.String",
+            "FieldLength": 573
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 7,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "placeat",
-    "FullName": "Reed Mann",
+    "IconHint": "debitis",
+    "ColorBlock": 756,
+    "ExtraInfo": "illum",
+    "StyleHint": "eius",
+    "FullName": "Augustine Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 510
       }
     }
   }

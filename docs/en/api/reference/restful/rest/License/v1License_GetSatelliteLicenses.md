@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morar Group",
-    "Description": "Fundamental even-keeled access",
+    "Name": "Cassin-Greenfelder",
+    "Description": "Persevering needs-based internet solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 867,
-        "Tooltip": "est",
+        "Unrestricted": false,
+        "Total": 408,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 963,
-        "InUse": 944,
+        "Free": 278,
+        "InUse": 997,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 17,
-        "Name": "Mitchell-Waters",
-        "Description": "User-friendly foreground hub",
-        "PrerequisiteModuleName": "Mitchell, Hessel and Dickens",
-        "SortOrder": 81,
-        "ExtraFlags": 321,
+        "Assigned": true,
+        "ModuleLicenseId": 372,
+        "Name": "Keeling, Stanton and Simonis",
+        "Description": "Multi-lateral non-volatile policy",
+        "PrerequisiteModuleName": "Effertz Inc and Sons",
+        "SortOrder": 730,
+        "ExtraFlags": 59,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 550
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 395,
-        "Tooltip": "quis",
+        "Total": 358,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 30,
-        "InUse": 97,
+        "Free": 807,
+        "InUse": 210,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 967,
-        "Name": "Larkin Inc and Sons",
-        "Description": "Open-architected intangible productivity",
-        "PrerequisiteModuleName": "Hayes, Marvin and Leuschke",
-        "SortOrder": 150,
-        "ExtraFlags": 219,
+        "Assigned": true,
+        "ModuleLicenseId": 150,
+        "Name": "Herman Inc and Sons",
+        "Description": "Visionary stable access",
+        "PrerequisiteModuleName": "Zemlak-Hettinger",
+        "SortOrder": 776,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldType": "System.String",
+            "FieldLength": 174
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 869
       }
     }
   },
   {
-    "Name": "Morar Group",
-    "Description": "Fundamental even-keeled access",
+    "Name": "Cassin-Greenfelder",
+    "Description": "Persevering needs-based internet solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 867,
-        "Tooltip": "est",
+        "Unrestricted": false,
+        "Total": 408,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 963,
-        "InUse": 944,
+        "Free": 278,
+        "InUse": 997,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 17,
-        "Name": "Mitchell-Waters",
-        "Description": "User-friendly foreground hub",
-        "PrerequisiteModuleName": "Mitchell, Hessel and Dickens",
-        "SortOrder": 81,
-        "ExtraFlags": 321,
+        "Assigned": true,
+        "ModuleLicenseId": 372,
+        "Name": "Keeling, Stanton and Simonis",
+        "Description": "Multi-lateral non-volatile policy",
+        "PrerequisiteModuleName": "Effertz Inc and Sons",
+        "SortOrder": 730,
+        "ExtraFlags": 59,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 550
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 395,
-        "Tooltip": "quis",
+        "Total": 358,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 30,
-        "InUse": 97,
+        "Free": 807,
+        "InUse": 210,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 967,
-        "Name": "Larkin Inc and Sons",
-        "Description": "Open-architected intangible productivity",
-        "PrerequisiteModuleName": "Hayes, Marvin and Leuschke",
-        "SortOrder": 150,
-        "ExtraFlags": 219,
+        "Assigned": true,
+        "ModuleLicenseId": 150,
+        "Name": "Herman Inc and Sons",
+        "Description": "Visionary stable access",
+        "PrerequisiteModuleName": "Zemlak-Hettinger",
+        "SortOrder": 776,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldType": "System.String",
+            "FieldLength": 174
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 869
       }
     }
   }

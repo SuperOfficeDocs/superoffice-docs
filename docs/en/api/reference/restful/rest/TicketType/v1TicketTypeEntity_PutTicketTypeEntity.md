@@ -105,24 +105,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 578,
-  "Name": "Lowe-Douglas",
-  "Rank": 956,
-  "Tooltip": "voluptatibus",
-  "Icon": "blanditiis",
-  "DefaultTicketStatus": 137,
+  "TicketTypeId": 440,
+  "Name": "Champlin-Champlin",
+  "Rank": 930,
+  "Tooltip": "ipsa",
+  "Icon": "quos",
+  "DefaultTicketStatus": 406,
   "TicketStatuses": [
-    656,
-    783
+    248,
+    480
   ],
-  "DefaultTicketPriority": 956,
+  "DefaultTicketPriority": 413,
   "TicketPriorities": [
-    805,
-    558
+    617,
+    600
   ],
-  "ReplyTemplate": 168,
-  "IsExternalVisible": false,
-  "IsDefault": true
+  "ReplyTemplate": 58,
+  "IsExternalVisible": true,
+  "IsDefault": false
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 717,
-  "Name": "Marvin-Balistreri",
-  "Rank": 707,
-  "Tooltip": "ullam",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 703,
+  "TicketTypeId": 156,
+  "Name": "Farrell Group",
+  "Rank": 48,
+  "Tooltip": "voluptatem",
+  "Icon": "ullam",
+  "DefaultTicketStatus": 373,
   "TicketStatuses": [
-    971,
-    673
+    670,
+    787
   ],
-  "DefaultTicketPriority": 582,
+  "DefaultTicketPriority": 627,
   "TicketPriorities": [
-    843,
-    378
+    621,
+    972
   ],
-  "ReplyTemplate": 75,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 433,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   },
   "_Links": {

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisoky, Johnson and Padberg",
-  "AdditionalInfo": "ut",
-  "SearchValue": "sed"
+  "Name": "Pouros-Quitzon",
+  "AdditionalInfo": "est",
+  "SearchValue": "itaque"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Gulgowski-Wyman",
-    "ToolTip": "Et dolore dolorem perferendis suscipit doloribus omnis.",
-    "Deleted": false,
-    "Rank": 638,
-    "Type": "praesentium",
-    "ColorBlock": 174,
-    "IconHint": "minima",
-    "Selected": true,
-    "LastChanged": "2017-04-07T14:23:46.9255115+02:00",
+    "Id": 414,
+    "Name": "Wuckert, Farrell and Koelpin",
+    "ToolTip": "Tenetur odio quas dolorum quisquam.",
+    "Deleted": true,
+    "Rank": 347,
+    "Type": "quaerat",
+    "ColorBlock": 703,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2008-06-19T12:19:45.6015646+02:00",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Hermann Group",
-        "ToolTip": "Nihil vel et est qui aliquid qui.",
+        "Id": 696,
+        "Name": "Heathcote LLC",
+        "ToolTip": "Dolorum modi totam fuga voluptatum.",
         "Deleted": false,
-        "Rank": 187,
-        "Type": "eius",
-        "ColorBlock": 806,
-        "IconHint": "est",
+        "Rank": 17,
+        "Type": "nisi",
+        "ColorBlock": 246,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-07-17T14:23:46.9255115+02:00",
+        "LastChanged": "2000-04-03T12:19:45.6015646+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Adella Nikolaus",
+        "FullName": "Prof. Floyd Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 367
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Evert Dicki",
+    "ExtraInfo": "a",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Magnus Nicolas DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

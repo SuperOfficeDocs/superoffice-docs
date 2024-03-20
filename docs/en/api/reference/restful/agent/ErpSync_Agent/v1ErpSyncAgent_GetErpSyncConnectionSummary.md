@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 392
+  "ErpSyncConnectionId": 208
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Orn LLC",
-  "DisplayDescription": "Customer-focused explicit Graphic Interface",
+  "DisplayName": "Murazik-McClure",
+  "DisplayDescription": "Triple-buffered intangible analyzer",
   "Active": false,
   "Deleted": true,
-  "LastSync": "1998-04-06T14:23:46.7056034+02:00",
+  "LastSync": "2009-10-18T12:19:45.3516107+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "voluptate",
-      "Mappings": "repellat",
+      "HasMappings": true,
+      "Defaults": "reiciendis",
+      "Mappings": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 84
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "voluptate",
-      "Mappings": "repellat",
+      "HasMappings": true,
+      "Defaults": "reiciendis",
+      "Mappings": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 84
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

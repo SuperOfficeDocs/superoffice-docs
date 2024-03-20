@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Value": "voluptates",
-    "Tooltip": "labore",
+    "Id": 498,
+    "Value": "vel",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   },
   {
-    "Id": 291,
-    "Value": "voluptates",
-    "Tooltip": "labore",
+    "Id": 498,
+    "Value": "vel",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

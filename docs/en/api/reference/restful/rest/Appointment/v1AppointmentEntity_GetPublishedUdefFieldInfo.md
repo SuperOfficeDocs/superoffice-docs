@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 212,
-  "ColumnId": 226,
-  "FieldDefault": "aut",
-  "FieldHeight": 63,
-  "FieldLabel": "et",
-  "FieldLeft": 322,
-  "FieldTop": 110,
+  "UDefFieldId": 644,
+  "ColumnId": 367,
+  "FieldDefault": "dolor",
+  "FieldHeight": 496,
+  "FieldLabel": "alias",
+  "FieldLeft": 662,
+  "FieldTop": 714,
   "FieldType": "Checkbox",
-  "FieldWidth": 745,
-  "FormatMask": "corporis",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 522,
-  "LabelLeft": 279,
-  "LabelTop": 45,
-  "LabelWidth": 3,
-  "LastVersionId": 994,
-  "ListTableId": 102,
-  "IsMandatory": true,
+  "FieldWidth": 793,
+  "FormatMask": "ipsa",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 914,
+  "LabelLeft": 566,
+  "LabelTop": 132,
+  "LabelWidth": 830,
+  "LastVersionId": 450,
+  "ListTableId": 752,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 156,
-  "ProgId": "error",
+  "Page1LineNo": 241,
+  "ProgId": "est",
   "IsReadOnly": true,
-  "ShortLabel": "laborum",
-  "TabOrder": 142,
-  "TextLength": 232,
-  "Tooltip": "ipsum",
-  "UdefIdentity": 309,
-  "UDListDefinitionId": 501,
+  "ShortLabel": "quasi",
+  "TabOrder": 658,
+  "TextLength": 214,
+  "Tooltip": "consequuntur",
+  "UdefIdentity": 480,
+  "UDListDefinitionId": 811,
   "Justification": "Center",
-  "Version": 636,
-  "TemplateVariableName": "Prosacco, Ortiz and Torphy",
+  "Version": 577,
+  "TemplateVariableName": "Nikolaus, Crist and Friesen",
   "HasBeenPublished": false,
-  "MdoListName": "Stark-Schinner",
+  "MdoListName": "O'Reilly, Adams and Harber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

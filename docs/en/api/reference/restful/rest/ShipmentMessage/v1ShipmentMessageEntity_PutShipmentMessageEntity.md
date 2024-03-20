@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 260,
-  "PlainMessage": "et",
-  "HtmlMessage": "facilis",
-  "SmsMessage": "sit",
-  "Description": "Multi-tiered user-facing circuit",
-  "Subject": "doloremque",
-  "FolderId": 866,
-  "HeaderField": "non",
-  "Design": "et",
+  "ShipmentMessageId": 534,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "ut",
+  "SmsMessage": "quidem",
+  "Description": "Expanded real-time budgetary management",
+  "Subject": "et",
+  "FolderId": 432,
+  "HeaderField": "fugit",
+  "Design": "quisquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Monitored scalable analyzer",
-  "AccessKey": "est",
-  "DocumentMessage": 392,
-  "Registered": "2002-12-12T14:23:55.5252104+01:00",
-  "RegisteredAssociateId": 424,
-  "Updated": "2000-05-07T14:23:55.5252104+02:00",
-  "UpdatedAssociateId": 805,
-  "UpdatedCount": 785
+  "InlineImages": true,
+  "LongDescription": "Versatile stable leverage",
+  "AccessKey": "hic",
+  "DocumentMessage": 950,
+  "Registered": "2012-06-28T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 930,
+  "Updated": "1998-09-21T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 270,
+  "UpdatedCount": 378
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 690,
-  "PlainMessage": "modi",
-  "HtmlMessage": "optio",
-  "SmsMessage": "eligendi",
-  "Description": "Distributed scalable customer loyalty",
-  "Subject": "fuga",
-  "FolderId": 718,
-  "HeaderField": "asperiores",
-  "Design": "ea",
+  "ShipmentMessageId": 280,
+  "PlainMessage": "sequi",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "quam",
+  "Description": "De-engineered static functionalities",
+  "Subject": "possimus",
+  "FolderId": 577,
+  "HeaderField": "corrupti",
+  "Design": "minus",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Triple-buffered hybrid throughput",
-  "AccessKey": "dolores",
-  "DocumentMessage": 719,
-  "Registered": "2009-04-16T14:23:55.5252104+02:00",
-  "RegisteredAssociateId": 338,
-  "Updated": "2008-03-29T14:23:55.5252104+01:00",
-  "UpdatedAssociateId": 724,
-  "UpdatedCount": 732,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Configurable clear-thinking infrastructure",
+  "AccessKey": "ut",
+  "DocumentMessage": 837,
+  "Registered": "2013-08-11T12:19:53.9460405+02:00",
+  "RegisteredAssociateId": 956,
+  "Updated": "2018-03-11T12:19:53.9460405+01:00",
+  "UpdatedAssociateId": 959,
+  "UpdatedCount": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 344
     }
   },
   "_Links": {

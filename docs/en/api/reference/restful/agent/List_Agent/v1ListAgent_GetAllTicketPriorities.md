@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 761,
-    "Name": "Sipes LLC",
+    "TicketPriorityId": 386,
+    "Name": "Goldner-Luettgen",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 38,
+    "SortOrder": 110,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 635,
-    "MonStart": "1998-12-15T14:23:46.7837295+01:00",
-    "MonStop": "2006-03-06T14:23:46.7837295+01:00",
-    "TueStart": "2019-04-20T14:23:46.7837295+02:00",
-    "TueStop": "2017-01-28T14:23:46.7837295+01:00",
-    "WedStart": "2021-10-19T14:23:46.7837295+02:00",
-    "WedStop": "2017-10-20T14:23:46.7837295+02:00",
-    "ThuStart": "1999-04-05T14:23:46.7837295+02:00",
-    "ThuStop": "2000-06-03T14:23:46.7837295+02:00",
-    "FriStart": "2017-09-17T14:23:46.7837295+02:00",
-    "FriStop": "2005-01-28T14:23:46.7837295+01:00",
-    "SatStart": "2009-09-16T14:23:46.7837295+02:00",
-    "SatStop": "2001-09-05T14:23:46.7837295+02:00",
-    "SunStart": "2010-01-01T14:23:46.7837295+01:00",
-    "SunStop": "2021-05-22T14:23:46.7837295+02:00",
+    "Deadline": 952,
+    "MonStart": "2023-04-06T12:19:45.4609724+02:00",
+    "MonStop": "2007-11-19T12:19:45.4609724+01:00",
+    "TueStart": "2007-01-16T12:19:45.4609724+01:00",
+    "TueStop": "2014-01-06T12:19:45.4609724+01:00",
+    "WedStart": "2017-12-19T12:19:45.4609724+01:00",
+    "WedStop": "2010-10-19T12:19:45.4609724+02:00",
+    "ThuStart": "2003-09-20T12:19:45.4609724+02:00",
+    "ThuStop": "1999-03-31T12:19:45.4609724+02:00",
+    "FriStart": "2017-02-27T12:19:45.4609724+01:00",
+    "FriStop": "2010-05-25T12:19:45.4609724+02:00",
+    "SatStart": "2005-08-09T12:19:45.4609724+02:00",
+    "SatStop": "2008-05-15T12:19:45.4609724+02:00",
+    "SunStart": "2018-03-06T12:19:45.4609724+01:00",
+    "SunStop": "2000-04-17T12:19:45.4609724+02:00",
     "NonDates": [
-      "omnis",
-      "voluptatem"
+      "ea",
+      "eos"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 786,
-        "AlertLevel": 411,
-        "AlertTimeout": 873,
-        "Action": 734,
-        "DelegateTo": 613,
-        "ScriptId": 641,
-        "EmailTo": "kylee@jacobson.us",
-        "SmsTo": "eum",
-        "ReplyTemplateIdCustomer": 228,
-        "ReplyTemplateIdUser": 590,
-        "ReplyTemplateIdCatmast": 93,
-        "ReplyTemplateIdEmail": 728,
-        "RtiCustomerSms": 123,
-        "ReplyTemplateIdUserSms": 688,
-        "ReplyTemplateIdCatmastSms": 438,
-        "ReplyTemplateIdSms": 766,
+        "TicketAlertId": 372,
+        "AlertLevel": 489,
+        "AlertTimeout": 845,
+        "Action": 783,
+        "DelegateTo": 694,
+        "ScriptId": 532,
+        "EmailTo": "electa@fritschhickle.ca",
+        "SmsTo": "accusantium",
+        "ReplyTemplateIdCustomer": 420,
+        "ReplyTemplateIdUser": 787,
+        "ReplyTemplateIdCatmast": 80,
+        "ReplyTemplateIdEmail": 684,
+        "RtiCustomerSms": 885,
+        "ReplyTemplateIdUserSms": 347,
+        "ReplyTemplateIdCatmastSms": 808,
+        "ReplyTemplateIdSms": 89,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 598
+            "FieldType": "System.Int32",
+            "FieldLength": 708
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 612
       }
     }
   }

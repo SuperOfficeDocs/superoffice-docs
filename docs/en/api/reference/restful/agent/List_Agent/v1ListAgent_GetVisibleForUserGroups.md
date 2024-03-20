@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 918,
-  "ListItemId": 282
+  "UdListDefinitionId": 162,
+  "ListItemId": 24
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "O'Kon, Yost and Cummerata",
-    "ToolTip": "Voluptate harum aut neque soluta doloribus quo.",
-    "Deleted": true,
-    "Rank": 102,
-    "Type": "quis",
-    "ColorBlock": 584,
-    "IconHint": "qui",
+    "Id": 709,
+    "Name": "Rau, Langworth and Ruecker",
+    "ToolTip": "Sint beatae est ad ut error.",
+    "Deleted": false,
+    "Rank": 76,
+    "Type": "eius",
+    "ColorBlock": 765,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "1998-01-06T14:23:46.8306046+01:00",
+    "LastChanged": "1997-03-10T12:19:45.4922171+01:00",
     "ChildItems": [
       {
-        "Id": 847,
-        "Name": "Stamm-Mayer",
-        "ToolTip": "Debitis quasi explicabo.",
-        "Deleted": false,
-        "Rank": 683,
-        "Type": "nulla",
-        "ColorBlock": 284,
-        "IconHint": "eius",
+        "Id": 572,
+        "Name": "Lueilwitz-Keebler",
+        "ToolTip": "Quia sit exercitationem tempore.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "alias",
+        "ColorBlock": 546,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2023-01-21T14:23:46.8306046+01:00",
+        "LastChanged": "2023-02-20T12:19:45.4922171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Timmothy Kassulke",
+        "ExtraInfo": "odio",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Lewis Schulist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 860
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
+    "ExtraInfo": "est",
     "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mr. Clay Schaden DDS",
+    "Hidden": false,
+    "FullName": "Dedrick Padberg PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldLength": 818
       }
     }
   }

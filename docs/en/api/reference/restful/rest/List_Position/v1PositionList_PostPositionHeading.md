@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 615,
-  "Name": "White, Marks and Stroman",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 451,
-  "UdListDefinitionId": 653
+  "HeadingId": 215,
+  "Name": "Brown, Heller and Walker",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "Rank": 560,
+  "UdListDefinitionId": 669
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 18,
-  "Name": "Graham LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 880,
+  "Name": "Bartoletti Group",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 513,
-  "UdListDefinitionId": 986,
+  "Rank": 310,
+  "UdListDefinitionId": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 681
     }
   }
 }

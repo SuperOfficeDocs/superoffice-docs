@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gutmann, Altenwerth and Swaniawski",
-    "DisplayName": "Nikolaus, Kassulke and McGlynn",
-    "Description": "Synchronised methodical analyzer",
-    "ShortLabel": "cupiditate",
+    "FieldName": "Mante LLC",
+    "DisplayName": "Ebert Inc and Sons",
+    "Description": "Grass-roots global project",
+    "ShortLabel": "consequatur",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 668,
-    "TemplateVariableName": "Cartwright, Bogan and Murazik"
+    "Rank": 211,
+    "TemplateVariableName": "Ortiz-Schultz"
   }
 ]
 ```

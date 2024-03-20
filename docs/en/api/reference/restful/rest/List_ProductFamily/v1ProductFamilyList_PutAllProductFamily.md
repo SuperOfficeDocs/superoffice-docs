@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Rowe, Cartwright and Heathcote",
-    "Tooltip": "et",
+    "Id": 204,
+    "Name": "Koepp, Connelly and Sawayn",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 552,
-    "Rank": 179
+    "UdListDefinitionId": 866,
+    "Rank": 339
   },
   {
-    "Id": 381,
-    "Name": "Rowe, Cartwright and Heathcote",
-    "Tooltip": "et",
+    "Id": 204,
+    "Name": "Koepp, Connelly and Sawayn",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 552,
-    "Rank": 179
+    "UdListDefinitionId": 866,
+    "Rank": 339
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Witting LLC",
-    "Tooltip": "dicta",
+    "Id": 460,
+    "Name": "Nikolaus, Stamm and Denesik",
+    "Tooltip": "quo",
     "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 985,
+    "UdListDefinitionId": 462,
+    "Rank": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 306
       }
     }
   }

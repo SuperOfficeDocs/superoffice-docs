@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Harber Inc and Sons"
+  "EntityName": "Beatty Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 130,
-  "Name": "Auer, Schmeler and Watsica",
-  "Description": "Function-based bifurcated parallelism",
-  "DefaultHeight": 680,
-  "DefaultWidth": 56,
+  "DashboardTileDefinitionId": 315,
+  "Name": "Walter, Goyette and Stamm",
+  "Description": "Cross-group mission-critical archive",
+  "DefaultHeight": 610,
+  "DefaultWidth": 459,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Hara, Donnelly and Windler",
-  "SelectionId": 33,
+  "EntityName": "Kutch Group",
+  "SelectionId": 576,
   "CurrencyMode": "Base",
-  "CurrencyCode": "asperiores",
+  "CurrencyCode": "sequi",
   "Measure": "Average",
-  "MeasureField": "excepturi",
-  "SortBy": "a",
-  "LayoutConfig": "unde",
-  "SecondarySelectionId": 954,
-  "MeasureByField": "excepturi",
+  "MeasureField": "consequatur",
+  "SortBy": "nobis",
+  "LayoutConfig": "nam",
+  "SecondarySelectionId": 556,
+  "MeasureByField": "repellendus",
   "Usage": "Dashboard",
-  "ProviderName": "Ondricka Inc and Sons",
+  "ProviderName": "DuBuque, Hills and Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 86
     }
   }
 }

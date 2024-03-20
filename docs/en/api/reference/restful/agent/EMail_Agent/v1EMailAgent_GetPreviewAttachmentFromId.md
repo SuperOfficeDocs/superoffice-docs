@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 801,
-  "AttachmentId": "illum",
-  "AttachmentType": "mollitia",
-  "AttachmentFilename": "ut"
+  "MailItemId": 804,
+  "AttachmentId": "architecto",
+  "AttachmentType": "dicta",
+  "AttachmentFilename": "autem"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable bottom-line benchmark",
-  "Filename": "ut",
-  "Size": 717,
-  "Type": "qui",
-  "Encoding": "voluptatem",
-  "Id": "magnam",
-  "Disposition": "rerum",
+  "Description": "Synergistic even-keeled model",
+  "Filename": "sed",
+  "Size": 801,
+  "Type": "beatae",
+  "Encoding": "nisi",
+  "Id": "omnis",
+  "Disposition": "delectus",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   }
 }

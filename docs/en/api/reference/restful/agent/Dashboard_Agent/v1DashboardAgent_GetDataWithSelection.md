@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 152,
-  "SelectionId": 537,
-  "Restrictions": "illo"
+  "DashboardTileId": 614,
+  "SelectionId": 237,
+  "Restrictions": "officia"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Franecki, Zulauf and Klocko",
-        "DisplayTooltip": "et",
-        "DisplayType": "quidem",
-        "CanOrderBy": false,
-        "Name": "Kassulke-Cartwright",
+        "DisplayName": "Goldner-Marquardt",
+        "DisplayTooltip": "ut",
+        "DisplayType": "excepturi",
+        "CanOrderBy": true,
+        "Name": "Koepp LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "dolores",
-        "RestrictionListName": "Murphy, Kuhlman and Abernathy",
-        "IsVisible": true,
-        "ExtraInfo": "itaque",
-        "Width": "vitae",
-        "IconHint": "fugiat",
-        "HeadingIconHint": "consequatur"
+        "RestrictionType": "porro",
+        "RestrictionListName": "Konopelski, Lemke and Hand",
+        "IsVisible": false,
+        "ExtraInfo": "magnam",
+        "Width": "esse",
+        "IconHint": "aut",
+        "HeadingIconHint": "sit"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Franecki, Zulauf and Klocko",
-        "DisplayTooltip": "et",
-        "DisplayType": "quidem",
-        "CanOrderBy": false,
-        "Name": "Kassulke-Cartwright",
+        "DisplayName": "Goldner-Marquardt",
+        "DisplayTooltip": "ut",
+        "DisplayType": "excepturi",
+        "CanOrderBy": true,
+        "Name": "Koepp LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "dolores",
-        "RestrictionListName": "Murphy, Kuhlman and Abernathy",
-        "IsVisible": true,
-        "ExtraInfo": "itaque",
-        "Width": "vitae",
-        "IconHint": "fugiat",
-        "HeadingIconHint": "consequatur"
+        "RestrictionType": "porro",
+        "RestrictionListName": "Konopelski, Lemke and Hand",
+        "IsVisible": false,
+        "ExtraInfo": "magnam",
+        "Width": "esse",
+        "IconHint": "aut",
+        "HeadingIconHint": "sit"
       }
     ],
     "Result": null

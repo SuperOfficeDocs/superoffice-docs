@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=251
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=340
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 997,
-  "ParentId": 406,
-  "Name": "Schiller, Morar and Hammes",
-  "Fullname": "sequi",
-  "CategoryMaster": 519,
+  "TicketCategoryId": 106,
+  "ParentId": 69,
+  "Name": "Muller Group",
+  "Fullname": "eum",
+  "CategoryMaster": 131,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kerluke-Carroll",
+  "ExternalName": "Hirthe LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 237,
-  "ReplyTemplate": 670,
-  "NotificationEmail": "hubert@corwin.info",
+  "AssignmentLag": 43,
+  "ReplyTemplate": 834,
+  "NotificationEmail": "irving.leuschke@streich.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 907,
+  "EffectiveReplyTemplateId": 708,
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "ut"
+    "CustomFields1": "culpa",
+    "CustomFields2": "sequi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 547
     }
   }
 }

@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 84,
-  "Name": "Fadel LLC",
-  "Tooltip": "autem",
-  "Rank": 134,
-  "Rate": 31067.342,
-  "Units": 19327.378,
-  "Deleted": true
+  "CurrencyId": 373,
+  "Name": "Wuckert, Anderson and Jacobi",
+  "Tooltip": "ut",
+  "Rank": 305,
+  "Rate": 21583.858,
+  "Units": 11182.112,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 786,
-  "Name": "Kovacek-Mohr",
-  "Tooltip": "unde",
-  "Rank": 216,
-  "Rate": 2739.116,
-  "Units": 25852.365999999998,
+  "CurrencyId": 55,
+  "Name": "Leannon Group",
+  "Tooltip": "omnis",
+  "Rank": 219,
+  "Rate": 23680.504,
+  "Units": 13996.444,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

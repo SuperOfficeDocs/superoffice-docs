@@ -98,18 +98,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 993,
-  "Name": "Goodwin, Witting and Larkin",
-  "ConsentText": "reiciendis",
-  "FormText": "odit",
-  "Key": "similique",
-  "Tooltip": "quae",
-  "Active": 369,
-  "UpdatedDate": "2002-09-25T14:23:55.9939519+02:00",
+  "ConsentPurposeId": 427,
+  "Name": "Eichmann, Streich and Durgan",
+  "ConsentText": "harum",
+  "FormText": "aperiam",
+  "Key": "quae",
+  "Tooltip": "qui",
+  "Active": 171,
+  "UpdatedDate": "1997-03-20T12:19:54.3365677+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 184,
-  "PrivacyStatementDesc": "illum",
+  "Rank": 340,
+  "PrivacyStatementDesc": "doloremque",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 314,
-  "Name": "Kemmer Group",
-  "ConsentText": "dolores",
-  "FormText": "ullam",
-  "Key": "modi",
-  "Tooltip": "earum",
-  "Active": 874,
-  "UpdatedDate": "2009-01-16T14:23:55.9939519+01:00",
+  "ConsentPurposeId": 330,
+  "Name": "Mante-Prohaska",
+  "ConsentText": "magnam",
+  "FormText": "recusandae",
+  "Key": "deserunt",
+  "Tooltip": "totam",
+  "Active": 39,
+  "UpdatedDate": "2011-11-28T12:19:54.3365677+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 67,
-  "PrivacyStatementDesc": "sit",
+  "Rank": 856,
+  "PrivacyStatementDesc": "explicabo",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 362
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 814,
-  "ERPProductKey": "similique",
-  "ERPPriceListKey": "beatae",
-  "Name": "Smith, Christiansen and Lowe",
-  "Description": "Total assymetric workforce",
-  "Code": "accusantium",
-  "PriceUnit": "voluptas",
-  "QuantityUnit": "molestiae",
+  "ProductId": 956,
+  "ERPProductKey": "nemo",
+  "ERPPriceListKey": "ipsam",
+  "Name": "Ratke, Ullrich and Lakin",
+  "Description": "Implemented neutral workforce",
+  "Code": "blanditiis",
+  "PriceUnit": "incidunt",
+  "QuantityUnit": "incidunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 21724.888,
-  "ItemNumber": "371239",
+  "SubscriptionUnit": "delectus",
+  "DefaultSubscriptionQuantity": 17556.667999999998,
+  "ItemNumber": "643113",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "non",
-  "ProductTypeKey": "et",
-  "VAT": 19292.904,
-  "VATInfo": "ex",
-  "UnitCost": 10633.662,
-  "UnitMinimumPrice": 20712.606,
-  "UnitListPrice": 30333.986,
+  "ProductTypeKey": "voluptatem",
+  "VAT": 3898.696,
+  "VATInfo": "quasi",
+  "UnitCost": 4879.638,
+  "UnitMinimumPrice": 21806.372,
+  "UnitListPrice": 15563.444,
   "InAssortment": false,
-  "Supplier": "iure",
-  "SupplierCode": "quis",
-  "Rights": "enim",
-  "Rule": "harum",
+  "Supplier": "enim",
+  "SupplierCode": "voluptate",
+  "Rights": "mollitia",
+  "Rule": "fugiat",
   "ExtraInfo": [
     {
-      "Name": "Labadie, Blanda and Kreiger",
-      "Value": "excepturi",
+      "Name": "Abbott-Hoppe",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     },
     {
-      "Name": "Labadie, Blanda and Kreiger",
-      "Value": "excepturi",
+      "Name": "Abbott-Hoppe",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "odio",
-  "ExtraField2": "odit",
-  "ExtraField3": "illo",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "voluptates",
-  "InStock": 7587.414,
+  "RawExtraInfo": "illum",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "et",
+  "ExtraField3": "voluptates",
+  "ExtraField4": "quas",
+  "ExtraField5": "consequatur",
+  "InStock": 29845.082,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 855
     }
   }
 }

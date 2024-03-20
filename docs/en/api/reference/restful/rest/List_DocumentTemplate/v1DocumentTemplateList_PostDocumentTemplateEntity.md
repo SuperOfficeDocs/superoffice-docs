@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 294,
-  "Name": "Aufderhar Group",
-  "Tooltip": "error",
-  "SaveInDb": 540,
-  "Filename": "unde",
-  "DefaultOref": "possimus",
+  "DocumentTemplateId": 870,
+  "Name": "Kiehn LLC",
+  "Tooltip": "doloremque",
+  "SaveInDb": 224,
+  "Filename": "cum",
+  "DefaultOref": "quaerat",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 609,
-  "IntentId": 787,
-  "IsDefaultPublished": false,
-  "Rank": 281,
-  "LoadTemplateFromPlugin": 462,
-  "MimeType": "vitae",
+  "AutoeventId": 827,
+  "IntentId": 404,
+  "IsDefaultPublished": true,
+  "Rank": 661,
+  "LoadTemplateFromPlugin": 683,
+  "MimeType": "accusantium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 60,
+  "DocumentTypeKey": 86,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jalen_murazik@wisozk.com",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "savanna@nikolaus.info",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rocky@gleichner.info",
+  "SenderEmailAddress": "jerad@nader.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 759,
-  "Name": "Bashirian-Terry",
-  "Tooltip": "debitis",
-  "SaveInDb": 892,
-  "Filename": "nesciunt",
-  "DefaultOref": "debitis",
+  "DocumentTemplateId": 958,
+  "Name": "Grant Inc and Sons",
+  "Tooltip": "quia",
+  "SaveInDb": 402,
+  "Filename": "dolorum",
+  "DefaultOref": "nostrum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 639,
-  "IntentId": 673,
-  "IsDefaultPublished": false,
-  "Rank": 67,
-  "LoadTemplateFromPlugin": 514,
-  "MimeType": "et",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 102,
+  "AutoeventId": 14,
+  "IntentId": 580,
+  "IsDefaultPublished": true,
+  "Rank": 758,
+  "LoadTemplateFromPlugin": 936,
+  "MimeType": "aliquam",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 688,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eliane@mclaughlin.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "victor_batz@fahey.biz",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "norene@schulist.us",
+  "SenderEmailAddress": "chet@krajcik.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 598
     }
   }
 }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Hirthe-Nicolas",
-    "ToolTip": "Natus officiis.",
+    "Id": 381,
+    "Name": "Anderson, Schuppe and Goldner",
+    "ToolTip": "Quis nulla illo voluptas.",
     "Deleted": false,
-    "Rank": 64,
-    "Type": "quas",
-    "ColorBlock": 469,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2023-07-10T14:23:47.8473753+02:00",
+    "Rank": 128,
+    "Type": "nemo",
+    "ColorBlock": 1002,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2018-04-20T12:19:46.5857106+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Hagenes Inc and Sons",
-        "ToolTip": "Cupiditate explicabo culpa quia.",
+        "Id": 319,
+        "Name": "Kozey, Goldner and McDermott",
+        "ToolTip": "Molestias et nihil non maxime eveniet.",
         "Deleted": true,
-        "Rank": 757,
-        "Type": "sequi",
-        "ColorBlock": 730,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2000-09-17T14:23:47.8473753+02:00",
+        "Rank": 945,
+        "Type": "est",
+        "ColorBlock": 753,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2003-03-22T12:19:46.5857106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Gwendolyn Vandervort",
+        "FullName": "Augusta Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldType": "System.String",
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "inventore",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Marlen Mayert",
+    "FullName": "Magali Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 784
       }
     }
   }

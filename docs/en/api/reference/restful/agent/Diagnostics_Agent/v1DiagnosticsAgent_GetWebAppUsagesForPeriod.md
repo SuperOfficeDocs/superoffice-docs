@@ -85,9 +85,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-11-14T14:23:46.2824577+01:00",
-  "ToDate": "2007-03-17T14:23:46.2824577+01:00",
-  "SearchTerm": "voluptatem"
+  "FromDate": "2005-06-15T12:19:45.0548163+02:00",
+  "ToDate": "1998-11-10T12:19:45.0548163+01:00",
+  "SearchTerm": "soluta"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 253,
-    "AssocId": 641,
-    "Timestamp": "2019-04-28T14:23:46.2824577+02:00",
-    "ViewState": "rerum",
-    "AggregateCount": 569,
-    "AggregateBin": 828,
-    "Version": 220,
+    "WebAppUsageId": 52,
+    "AssocId": 364,
+    "Timestamp": "2009-07-03T12:19:45.0548163+02:00",
+    "ViewState": "magni",
+    "AggregateCount": 390,
+    "AggregateBin": 501,
+    "Version": 895,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 191
       }
     }
   }

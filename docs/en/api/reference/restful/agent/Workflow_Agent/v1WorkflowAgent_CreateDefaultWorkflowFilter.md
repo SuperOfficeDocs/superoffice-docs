@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Mante, Armstrong and Gleichner",
-      "Description": "Optimized scalable framework",
-      "Rank": 888,
+      "Name": "Huel-Boyer",
+      "Description": "Upgradable contextually-based hierarchy",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mante, Armstrong and Gleichner",
-      "Description": "Optimized scalable framework",
-      "Rank": 888,
+      "Name": "Huel-Boyer",
+      "Description": "Upgradable contextually-based hierarchy",
+      "Rank": 171,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 6
     }
   }
 }

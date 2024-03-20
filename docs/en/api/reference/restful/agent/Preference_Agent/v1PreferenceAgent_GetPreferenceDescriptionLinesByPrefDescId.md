@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 558
+  "PrefDescId": 346
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 536,
-    "PrefDescId": 896,
-    "PrefValue": "ad",
-    "PrefShowValue": "qui",
-    "Description": "Exclusive transitional throughput",
+    "PrefDescLineId": 328,
+    "PrefDescId": 69,
+    "PrefValue": "voluptates",
+    "PrefShowValue": "impedit",
+    "Description": "Up-sized global project",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 690
       }
     }
   }

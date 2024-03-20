@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Monahan, Langworth and Fritsch",
-    "ToolTip": "Est cupiditate.",
-    "Deleted": true,
-    "Rank": 270,
-    "Type": "ut",
-    "ColorBlock": 742,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2024-01-08T14:23:56.009576+01:00",
+    "Id": 852,
+    "Name": "Beer Inc and Sons",
+    "ToolTip": "Eligendi at qui sit nobis sit.",
+    "Deleted": false,
+    "Rank": 414,
+    "Type": "reprehenderit",
+    "ColorBlock": 748,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2002-01-19T12:19:54.3522098+01:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Bahringer, Beier and Bergnaum",
-        "ToolTip": "Ipsa dolorum.",
+        "Id": 421,
+        "Name": "Wehner-Fay",
+        "ToolTip": "Consectetur consectetur esse et.",
         "Deleted": true,
-        "Rank": 436,
-        "Type": "quidem",
-        "ColorBlock": 676,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2013-02-23T14:23:56.009576+01:00",
+        "Rank": 401,
+        "Type": "quis",
+        "ColorBlock": 252,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1999-05-04T12:19:54.3522098+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "qui",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Claire Grady",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Prof. Estel Billy Goyette V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 637
+            "FieldLength": 399
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Lea Dietrich",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Brenda Block IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 365
       }
     }
   }

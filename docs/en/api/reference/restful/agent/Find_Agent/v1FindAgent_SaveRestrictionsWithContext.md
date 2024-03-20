@@ -72,33 +72,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "numquam",
-  "ProviderName": "Strosin, Nader and King",
-  "StorageKey": "voluptas",
+  "StorageType": "velit",
+  "ProviderName": "Wolff, Kertzmann and Schiller",
+  "StorageKey": "aut",
   "Restrictions": [
     {
-      "Name": "Strosin-Goyette",
-      "Operator": "sunt",
+      "Name": "Denesik LLC",
+      "Operator": "expedita",
       "Values": [
-        "qui",
-        "doloribus"
+        "eum",
+        "ratione"
       ],
       "DisplayValues": [
-        "in",
-        "rem"
+        "corporis",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 811,
+      "InterParenthesis": 942,
       "InterOperator": "And",
-      "UniqueHash": 139
+      "UniqueHash": 647
     }
   ],
-  "Context": "ea"
+  "Context": "minus"
 }
 ```
 

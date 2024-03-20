@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Morissette-Von",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 266,
-  "CountryId": 88,
-  "PersonId": 370,
-  "EmailDescription": "dewayne@zulaufreinger.com",
-  "EmailId": 698,
-  "EmailAddress": "leland@koeppbednar.name",
-  "PhoneId": 130,
-  "ContactName": "Murazik, Emard and Christiansen",
-  "ContactId": 368,
-  "SaleId": 757,
-  "Mrmrs": "labore",
-  "Firstname": "Benny",
-  "MiddleName": "Legros-Jakubowski",
-  "Lastname": "Mayer",
-  "SaleStakeholderId": 512,
-  "Rank": 24,
-  "Phone": "270-090-6720"
+  "StakeholderRoleName": "Krajcik-Thiel",
+  "Comment": "non",
+  "StakeholderRoleId": 719,
+  "CountryId": 901,
+  "PersonId": 26,
+  "EmailDescription": "cassandre.luettgen@vandervort.name",
+  "EmailId": 188,
+  "EmailAddress": "kristofer@zboncakjohnston.info",
+  "PhoneId": 673,
+  "ContactName": "Kerluke-Windler",
+  "ContactId": 996,
+  "SaleId": 536,
+  "Mrmrs": "velit",
+  "Firstname": "Kavon",
+  "MiddleName": "Schamberger Inc and Sons",
+  "Lastname": "Mayert",
+  "SaleStakeholderId": 231,
+  "Rank": 741,
+  "Phone": "(561)363-4475 x2697"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kunde-Smith",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 656,
-  "CountryId": 656,
-  "PersonId": 274,
-  "EmailDescription": "chandler@davisquigley.com",
-  "EmailId": 625,
-  "EmailAddress": "dina@terryschumm.co.uk",
-  "PhoneId": 763,
-  "ContactName": "Brekke-Kuhlman",
-  "ContactId": 685,
-  "SaleId": 138,
-  "Mrmrs": "eum",
-  "Firstname": "Enid",
-  "MiddleName": "Hane LLC",
-  "Lastname": "Hoppe",
-  "SaleStakeholderId": 953,
-  "Rank": 848,
-  "Phone": "878-130-7616 x77026",
+  "StakeholderRoleName": "Smitham LLC",
+  "Comment": "cumque",
+  "StakeholderRoleId": 854,
+  "CountryId": 484,
+  "PersonId": 531,
+  "EmailDescription": "tate@champlin.ca",
+  "EmailId": 974,
+  "EmailAddress": "shanie@bosco.ca",
+  "PhoneId": 741,
+  "ContactName": "Legros Inc and Sons",
+  "ContactId": 542,
+  "SaleId": 522,
+  "Mrmrs": "nostrum",
+  "Firstname": "Ernest",
+  "MiddleName": "Klocko-Turcotte",
+  "Lastname": "Lakin",
+  "SaleStakeholderId": 72,
+  "Rank": 582,
+  "Phone": "065-492-6917 x12017",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

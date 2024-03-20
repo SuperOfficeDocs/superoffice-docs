@@ -64,12 +64,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 228,
-    "ContactId": 743
+    "PersonId": 396,
+    "ContactId": 598
   },
   {
-    "PersonId": 228,
-    "ContactId": 743
+    "PersonId": 396,
+    "ContactId": 598
   }
 ]
 ```

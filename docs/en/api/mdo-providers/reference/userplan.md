@@ -51,10 +51,10 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |79|(No Selection)||superlicense-no-selection|
-|124|SalesPREM||ten-sales|
-|129|ServicePREM||ten-service|
-|131|Marketing||ten-marketing|
-|132|SalesPREM-ServicePREM-Marketing||ten-salesservicemarketing|
+|124|Sales Premium||ten-sales|
+|129|Service Premium||ten-service|
+|131|Marketing Premium||ten-marketing|
+|132|SalesPremiumServicePremiumMarketingPremium||ten-salesservicemarketing|
 
 
 ## Related MDO Lists

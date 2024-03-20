@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 185,
-  "Name": "Nolan, O'Hara and Parker",
+  "ScreenChooserId": 938,
+  "Name": "Howe-Ebert",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "perferendis",
-  "Source": "voluptatem",
-  "Registered": "2015-08-10T14:23:55.7595795+02:00",
-  "RegisteredAssociateId": 812,
-  "Updated": "2018-12-13T14:23:55.7595795+01:00",
-  "UpdatedAssociateId": 496,
+  "UniqueIdentifier": "esse",
+  "Source": "recusandae",
+  "Registered": "2011-01-06T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 911,
+  "Updated": "1998-11-09T12:19:54.0866374+01:00",
+  "UpdatedAssociateId": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldLength": 589
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

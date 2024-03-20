@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=345
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=237
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 16,
-  "Name": "Ward Group",
-  "Description": "Versatile value-added definition",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 78,
+  "Name": "Shanahan Inc and Sons",
+  "Description": "Robust asynchronous hub",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "1997-11-20T14:23:46.0168337+01:00",
-  "SecondsPrAccept": 366,
-  "AlertRecipient": "doloremque",
+  "LastAccept": "2024-01-15T12:19:44.804875+01:00",
+  "SecondsPrAccept": 562,
+  "AlertRecipient": "sunt",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "neque",
+  "BadgeHeader": "voluptatem",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "fugiat",
-  "WarnNewChatMinutes": 448,
-  "WarnManagerNewChatMinutes": 619,
-  "TicketEnabled": false,
+  "CustomQueueText": "dolore",
+  "WarnNewChatMinutes": 495,
+  "WarnManagerNewChatMinutes": 39,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 780,
-  "WarnManagerChatMessageMinutes": 31,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 627,
+  "WarnManagerChatMessageMinutes": 174,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 317,
-  "OfflineFormQueueLength": 532,
+  "OfflineFormTimeLimit": 671,
+  "OfflineFormQueueLength": 526,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "accusamus",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldLength": 671
     }
   }
 }

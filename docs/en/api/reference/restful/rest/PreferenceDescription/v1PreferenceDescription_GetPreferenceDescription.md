@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 932,
-  "Section": "ut",
-  "Key": "facilis",
-  "Name": "O'Keefe-Hackett",
+  "PrefDescId": 258,
+  "Section": "assumenda",
+  "Key": "fuga",
+  "Name": "McKenzie, O'Keefe and Schmitt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned contextually-based time-frame",
+  "Description": "Customizable fresh-thinking local area network",
   "IsBuiltin": false,
-  "TableName": "Waelchi Inc and Sons",
-  "UserDefinedListId": 80,
-  "Rank": 66,
-  "SubGroup": "voluptatem",
-  "MinLevel": 5,
-  "MaxValue": 11,
-  "MinValue": 957,
-  "RequiredLicense": "quia",
+  "TableName": "Kozey-Hane",
+  "UserDefinedListId": 324,
+  "Rank": 450,
+  "SubGroup": "inventore",
+  "MinLevel": 223,
+  "MaxValue": 129,
+  "MinValue": 463,
+  "RequiredLicense": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

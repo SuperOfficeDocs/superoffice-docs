@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 487
+  "ProductId": 670
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 202,
-  "ERPProductKey": "fuga",
-  "ERPPriceListKey": "ipsum",
-  "Name": "Mayert, Kihn and O'Connell",
-  "Description": "Sharable local throughput",
-  "Code": "maiores",
-  "PriceUnit": "qui",
-  "QuantityUnit": "saepe",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quod",
-  "DefaultSubscriptionQuantity": 23113.25,
-  "ItemNumber": "1122175",
+  "ProductId": 515,
+  "ERPProductKey": "blanditiis",
+  "ERPPriceListKey": "itaque",
+  "Name": "Zemlak-Kozey",
+  "Description": "Organic global utilisation",
+  "Code": "facere",
+  "PriceUnit": "mollitia",
+  "QuantityUnit": "quidem",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sequi",
+  "DefaultSubscriptionQuantity": 29725.989999999998,
+  "ItemNumber": "1654955",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nihil",
-  "ProductTypeKey": "tenetur",
-  "VAT": 20596.648,
-  "VATInfo": "sunt",
-  "UnitCost": 30145.946,
-  "UnitMinimumPrice": 16882.858,
-  "UnitListPrice": 9013.384,
+  "ProductFamilyKey": "modi",
+  "ProductTypeKey": "officiis",
+  "VAT": 4061.6639999999998,
+  "VATInfo": "ad",
+  "UnitCost": 25827.293999999998,
+  "UnitMinimumPrice": 24909.032,
+  "UnitListPrice": 27767.239999999998,
   "InAssortment": false,
-  "Supplier": "voluptas",
-  "SupplierCode": "fuga",
-  "Rights": "iusto",
-  "Rule": "et",
+  "Supplier": "rerum",
+  "SupplierCode": "non",
+  "Rights": "doloremque",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "Wiegand LLC",
-      "Value": "velit",
+      "Name": "Hagenes-Wiegand",
+      "Value": "hic",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 196
         }
       }
     },
     {
-      "Name": "Wiegand LLC",
-      "Value": "velit",
+      "Name": "Hagenes-Wiegand",
+      "Value": "hic",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 196
         }
       }
     }
   ],
-  "RawExtraInfo": "mollitia",
-  "ExtraField1": "unde",
-  "ExtraField2": "reiciendis",
-  "ExtraField3": "eveniet",
-  "ExtraField4": "nihil",
-  "ExtraField5": "ut",
-  "InStock": 10198.036,
+  "RawExtraInfo": "optio",
+  "ExtraField1": "est",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "omnis",
+  "ExtraField4": "exercitationem",
+  "ExtraField5": "esse",
+  "InStock": 7336.6939999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

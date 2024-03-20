@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Raynor LLC"
+  "LayoutName": "Schowalter-Emard"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 68,
-  "InstanceLayout": "rem",
-  "InstanceName": "Barton LLC",
-  "CreatedDate": "2014-11-16T14:23:45.8762101+01:00",
-  "UpdatedDate": "2011-07-13T14:23:45.8762101+02:00",
+  "AudienceLayoutId": 750,
+  "InstanceLayout": "maxime",
+  "InstanceName": "Bailey Inc and Sons",
+  "CreatedDate": "2000-01-13T12:19:44.5080652+01:00",
+  "UpdatedDate": "2004-10-26T12:19:44.5080652+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 862
     }
   }
 }

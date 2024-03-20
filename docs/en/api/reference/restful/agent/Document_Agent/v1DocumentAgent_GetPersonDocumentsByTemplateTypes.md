@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 479,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2001-04-01T14:23:46.2980824+02:00",
-  "EndTime": "2018-10-09T14:23:46.2980824+02:00",
-  "Count": 887,
+  "PersonId": 699,
+  "IncludeProjectDocuments": false,
+  "StartTime": "1999-09-24T12:19:45.0860733+02:00",
+  "EndTime": "2004-05-24T12:19:45.0860733+02:00",
+  "Count": 100,
   "DocumentTemplateIds": [
-    871,
-    310
+    561,
+    817
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 727,
-    "Attention": "quia",
-    "Header": "animi",
-    "Name": "Wisozk, Murphy and Dibbert",
-    "OurRef": "in",
-    "YourRef": "quam",
-    "Description": "Organic discrete customer loyalty",
-    "DocumentTemplate": "quas",
+    "DocumentId": 41,
+    "Attention": "aperiam",
+    "Header": "doloremque",
+    "Name": "Ledner LLC",
+    "OurRef": "nostrum",
+    "YourRef": "voluptate",
+    "Description": "Vision-oriented systematic product",
+    "DocumentTemplate": "eum",
     "IsPublished": false,
-    "PersonId": 368,
-    "PersonFullName": "Angelita Abernathy",
-    "AssociateFullName": "Antonietta Fritsch",
-    "ContactId": 964,
-    "ContactName": "Welch Inc and Sons",
-    "ProjectId": 104,
-    "ProjectName": "Prohaska-McKenzie",
-    "AssociateId": 609,
-    "Snum": 373,
-    "SaleId": 456,
-    "SaleName": "Larson, Schaefer and Altenwerth",
+    "PersonId": 667,
+    "PersonFullName": "Roy Emard",
+    "AssociateFullName": "Ms. Adolfo Lempi Pagac DVM",
+    "ContactId": 196,
+    "ContactName": "Mosciski-Bradtke",
+    "ProjectId": 828,
+    "ProjectName": "Volkman Inc and Sons",
+    "AssociateId": 79,
+    "Snum": 213,
+    "SaleId": 1002,
+    "SaleName": "Thiel-Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 25
       }
     }
   }

@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 935,
+  "TargetYear": 337,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 831
+  "Id": 382
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 860,
+  "TargetAssignmentInfoId": 240,
   "Values": [
-    781,
-    968
+    219,
+    651
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 237,
-  "DimensionListItemDisplayName": "Marquardt, Romaguera and Ledner",
+  "DimensionListItem": 30,
+  "DimensionListItemDisplayName": "Grady LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

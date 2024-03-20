@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "labore",
+  "TriggerScriptUniqueId": "eligendi",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 87,
-  "Name": "Feeney, Anderson and Hayes",
+  "ScreenChooserId": 253,
+  "Name": "Ernser LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "optio",
-  "Registered": "2008-11-10T14:23:46.219957+01:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "1997-09-29T14:23:46.219957+02:00",
-  "UpdatedAssociateId": 859,
+  "UniqueIdentifier": "laudantium",
+  "Source": "ipsa",
+  "Registered": "2009-03-16T12:19:45.0079506+01:00",
+  "RegisteredAssociateId": 471,
+  "Updated": "2017-07-15T12:19:45.0079506+02:00",
+  "UpdatedAssociateId": 352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 491
     }
   }
 }

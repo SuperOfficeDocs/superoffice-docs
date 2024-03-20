@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 20,
-  "Name": "Wunsch, O'Connell and Murray",
+  "ScreenChooserId": 274,
+  "Name": "Paucek, Lakin and Quitzon",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "consequatur",
-  "Source": "sit",
-  "Registered": "2022-08-17T14:23:55.7595795+02:00",
-  "RegisteredAssociateId": 179,
-  "Updated": "2019-02-09T14:23:55.7595795+01:00",
-  "UpdatedAssociateId": 753,
+  "UniqueIdentifier": "deserunt",
+  "Source": "aliquid",
+  "Registered": "2014-02-28T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 280,
+  "Updated": "2011-08-14T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 417
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

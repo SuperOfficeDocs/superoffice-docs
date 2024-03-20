@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fay LLC",
+  "Name": "Huel Inc and Sons",
   "Entities": [
     {
-      "HeadingId": 497,
-      "Name": "Mitchell-Fay",
-      "Tooltip": "architecto",
+      "HeadingId": 963,
+      "Name": "Bashirian, Kutch and Breitenberg",
+      "Tooltip": "ut",
       "Deleted": false,
-      "Rank": 842,
-      "UdListDefinitionId": 729
+      "Rank": 591,
+      "UdListDefinitionId": 225
     },
     {
-      "HeadingId": 497,
-      "Name": "Mitchell-Fay",
-      "Tooltip": "architecto",
+      "HeadingId": 963,
+      "Name": "Bashirian, Kutch and Breitenberg",
+      "Tooltip": "ut",
       "Deleted": false,
-      "Rank": 842,
-      "UdListDefinitionId": 729
+      "Rank": 591,
+      "UdListDefinitionId": 225
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 454,
-    "Name": "Gleason-DuBuque",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "Rank": 319,
-    "UdListDefinitionId": 812,
+    "HeadingId": 833,
+    "Name": "Lebsack, Murazik and Schamberger",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "Rank": 843,
+    "UdListDefinitionId": 497,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldType": "System.Int32",
+        "FieldLength": 289
       }
     }
   }

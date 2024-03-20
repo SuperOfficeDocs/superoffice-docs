@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 125,
-  "Type": "provident"
+  "AssociateId": 925,
+  "Type": "optio"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1998-09-08T14:23:47.8786246+02:00",
-    "ValidTo": "2011-01-12T14:23:47.8786246+01:00",
-    "Comment": "sunt",
-    "SecretValue": "nihil",
-    "PublicValue": "sit",
+    "ValidFrom": "2015-02-23T12:19:46.616955+01:00",
+    "ValidTo": "2020-12-24T12:19:46.616955+01:00",
+    "Comment": "dolor",
+    "SecretValue": "earum",
+    "PublicValue": "illo",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 153
       }
     }
   }

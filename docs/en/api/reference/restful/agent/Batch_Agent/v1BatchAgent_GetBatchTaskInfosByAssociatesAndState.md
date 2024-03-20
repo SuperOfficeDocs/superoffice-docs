@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    774,
-    515
+    515,
+    871
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Zieme-Hickle",
-    "AssociateId": 482,
-    "DetailsTable": 365,
-    "DetailsRecord": 663,
+    "Id": 631,
+    "Name": "Grimes Group",
+    "AssociateId": 235,
+    "DetailsTable": 801,
+    "DetailsRecord": 49,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "praesentium",
-      "ParameterObject2": "iure"
+      "ParameterObject1": "quibusdam",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2018-07-01T14:23:45.8762101+02:00",
-    "Created": "1997-05-16T14:23:45.8762101+02:00",
-    "StartCount": 675,
-    "DatabaseSerialNumber": "609858",
-    "Context": "consequatur",
-    "Result": "voluptas",
+    "LastStarted": "2021-06-18T12:19:44.5238763+02:00",
+    "Created": "2022-08-29T12:19:44.5238763+02:00",
+    "StartCount": 903,
+    "DatabaseSerialNumber": "1255060",
+    "Context": "laborum",
+    "Result": "inventore",
     "State": "All",
-    "Description": "Seamless didactic strategy",
-    "Response": "in",
-    "Request": "dolorem",
-    "ProgressDescription": "Programmable dynamic monitoring",
-    "ProgressPercent": 156,
-    "FileName": "Hermann, Stehr and Pouros",
+    "Description": "Optional object-oriented paradigm",
+    "Response": "optio",
+    "Request": "nihil",
+    "ProgressDescription": "Reactive didactic support",
+    "ProgressPercent": 920,
+    "FileName": "Homenick, Yost and Roberts",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 104
       }
     }
   }

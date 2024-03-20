@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 38,
-  "ContactId": 475,
-  "ProjectId": 578,
-  "ContactName": "Luettgen, Purdy and Herman",
+  "ProjectmemberId": 546,
+  "ContactId": 191,
+  "ProjectId": 8,
+  "ContactName": "Carter Group",
   "ContactDepartment": "",
-  "ProjectName": "McGlynn, Friesen and Koch",
-  "EmailId": 102,
-  "EmailAddress": "nicholas_emard@okeefe.biz",
-  "CountryId": 787,
-  "Firstname": "Everett",
-  "MiddleName": "Marks, Lindgren and Bernhard",
-  "Lastname": "Emard",
-  "PersonId": 253,
-  "Mrmrs": "quia",
-  "ProjectMemberTypeName": "Keebler, Ullrich and Zemlak",
-  "Phone": "815-250-0066 x853",
-  "PhoneId": 996,
-  "ProjectMemberTypeId": 326,
-  "EmailAddressName": "haskell_lind@bergehuel.us",
-  "Comment": "voluptatibus",
-  "FullName": "Prof. Adeline Mann",
+  "ProjectName": "Schultz, Lehner and Larson",
+  "EmailId": 865,
+  "EmailAddress": "dakota_jakubowski@ullrich.us",
+  "CountryId": 508,
+  "Firstname": "Laurel",
+  "MiddleName": "Terry-Fahey",
+  "Lastname": "DuBuque",
+  "PersonId": 882,
+  "Mrmrs": "officiis",
+  "ProjectMemberTypeName": "Prohaska-Simonis",
+  "Phone": "153-409-5698 x661",
+  "PhoneId": 338,
+  "ProjectMemberTypeId": 798,
+  "EmailAddressName": "erich.reynolds@oconnellnienow.info",
+  "Comment": "laboriosam",
+  "FullName": "Nicolette Balistreri",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 690
     }
   }
 }

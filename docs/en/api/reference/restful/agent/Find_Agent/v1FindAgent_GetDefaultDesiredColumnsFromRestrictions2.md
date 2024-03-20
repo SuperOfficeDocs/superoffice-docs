@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Parisian LLC",
-  "Restrictions": "dicta"
+  "ProviderName": "Bode Group",
+  "Restrictions": "quia"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McLaughlin Inc and Sons",
-    "DisplayTooltip": "et",
-    "DisplayType": "neque",
-    "CanOrderBy": false,
-    "Name": "Mohr-Kovacek",
+    "DisplayName": "Maggio LLC",
+    "DisplayTooltip": "eum",
+    "DisplayType": "vitae",
+    "CanOrderBy": true,
+    "Name": "Cronin Group",
     "CanRestrictBy": false,
-    "RestrictionType": "dolor",
-    "RestrictionListName": "Cassin, Dickinson and Rempel",
-    "IsVisible": false,
-    "ExtraInfo": "id",
-    "Width": "sit",
-    "IconHint": "dolor",
-    "HeadingIconHint": "est"
+    "RestrictionType": "voluptas",
+    "RestrictionListName": "Little LLC",
+    "IsVisible": true,
+    "ExtraInfo": "doloribus",
+    "Width": "velit",
+    "IconHint": "in",
+    "HeadingIconHint": "aspernatur"
   }
 ]
 ```

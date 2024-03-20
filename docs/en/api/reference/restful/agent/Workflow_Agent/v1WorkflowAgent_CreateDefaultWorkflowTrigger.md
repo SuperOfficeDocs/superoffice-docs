@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 115,
-  "WorkflowId": 268,
+  "WorkflowTriggerId": 947,
+  "WorkflowId": 932,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schaden Group",
-      "Description": "Operative directional knowledge base",
-      "Rank": 269,
+      "Name": "Gulgowski Group",
+      "Description": "Total analyzing alliance",
+      "Rank": 109,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden Group",
-      "Description": "Operative directional knowledge base",
-      "Rank": 269,
+      "Name": "Gulgowski Group",
+      "Description": "Total analyzing alliance",
+      "Rank": 109,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 269
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Eden Blick",
-    "Description": "Reverse-engineered impactful architecture",
-    "ProjectId": 69,
-    "EventName": "Trantow-Adams",
-    "AssociateId": 437,
+    "AssociateFullName": "Elmer Braun",
+    "Description": "Right-sized mission-critical flexibility",
+    "ProjectId": 237,
+    "EventName": "Schuster-Veum",
+    "AssociateId": 959,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "excepturi",
-    "SignOffText": "dolorum",
-    "SignOnConfirmationText": "vel",
-    "SignOnText": "excepturi",
-    "EventDate": "2023-10-16T14:23:47.1755092+02:00",
-    "Enabled": false,
-    "SignOff": true,
+    "SignOffConfirmationText": "sit",
+    "SignOffText": "odit",
+    "SignOnConfirmationText": "a",
+    "SignOnText": "accusamus",
+    "EventDate": "2022-08-24T12:19:46.0233436+02:00",
+    "Enabled": true,
+    "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 497,
-    "SignOnTaskId": 792,
+    "SignOffTaskId": 489,
+    "SignOnTaskId": 546,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 837,
-    "SignOffPersonId": 525,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 105,
+    "SignOffPersonId": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 279
       }
     }
   }

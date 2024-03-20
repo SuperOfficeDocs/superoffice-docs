@@ -70,18 +70,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Prosacco-DuBuque",
+  "ProviderName": "O'Reilly, Jewess and Terry",
   "Restrictions": [
     {
-      "Name": "McClure-Barrows",
-      "Operator": "earum",
+      "Name": "Lind, Boyle and Schuppe",
+      "Operator": "est",
       "Values": [
-        "aut",
-        "quasi"
+        "praesentium",
+        "veritatis"
       ],
       "DisplayValues": [
-        "vitae",
-        "ducimus"
+        "sed",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 91,
+      "InterParenthesis": 392,
       "InterOperator": "And",
-      "UniqueHash": 553
+      "UniqueHash": 596
     }
   ],
-  "AssociateId": 739
+  "AssociateId": 812
 }
 ```
 

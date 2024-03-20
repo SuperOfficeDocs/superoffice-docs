@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 298,
-  "Name": "DuBuque, Koss and Beahan",
-  "Tooltip": "dolor",
+  "RoleId": 146,
+  "Name": "Rogahn, Corwin and Boyle",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 147,
-  "Rank": 848,
-  "Created": "2019-02-26T14:23:47.8161253+01:00",
-  "UseCategories": 331,
+  "Deleted": 617,
+  "Rank": 538,
+  "Created": "2015-10-12T12:19:46.5544699+02:00",
+  "UseCategories": 84,
   "CreatedBy": null,
-  "Updated": "2013-07-17T14:23:47.8161253+02:00",
+  "Updated": "2023-04-29T12:19:46.5544699+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 891
     }
   }
 }

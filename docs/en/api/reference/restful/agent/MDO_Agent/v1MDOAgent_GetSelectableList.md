@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schulist-Ferry",
-  "ForceFlatList": false,
-  "AdditionalInfo": "eligendi",
+  "Name": "Rau, Ritchie and Hayes",
+  "ForceFlatList": true,
+  "AdditionalInfo": "sequi",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Denesik, Parker and Friesen",
-    "ToolTip": "Nam ipsam mollitia sint.",
+    "Id": 335,
+    "Name": "Jast, Lind and Schiller",
+    "ToolTip": "Possimus dolor ullam dicta velit dignissimos eaque.",
     "Deleted": true,
-    "Rank": 747,
-    "Type": "sint",
-    "ColorBlock": 441,
-    "IconHint": "nihil",
+    "Rank": 390,
+    "Type": "incidunt",
+    "ColorBlock": 344,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2007-03-23T14:23:46.9255115+01:00",
+    "LastChanged": "1997-01-16T12:19:45.6015646+01:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Ortiz-Moen",
-        "ToolTip": "Excepturi suscipit et necessitatibus placeat voluptatum laboriosam laudantium.",
-        "Deleted": true,
-        "Rank": 332,
-        "Type": "quaerat",
-        "ColorBlock": 747,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2010-08-05T14:23:46.9255115+02:00",
+        "Id": 347,
+        "Name": "Dach-Ortiz",
+        "ToolTip": "Iure aut.",
+        "Deleted": false,
+        "Rank": 306,
+        "Type": "nemo",
+        "ColorBlock": 463,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2003-10-18T12:19:45.6015646+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quia",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Nikolas Sporer",
+        "FullName": "Lonzo Enrico Kertzmann V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldType": "System.String",
+            "FieldLength": 181
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Raul Kovacek",
+    "ExtraInfo": "qui",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Horacio Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

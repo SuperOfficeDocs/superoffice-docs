@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 651,
-    "Name": "Trantow Group",
-    "Tooltip": "iusto",
-    "Rank": 754,
-    "Key": "occaecati",
+    "LegalBaseId": 822,
+    "Name": "Gerhold, Jones and Farrell",
+    "Tooltip": "veritatis",
+    "Rank": 837,
+    "Key": "rerum",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 630
       }
     }
   }

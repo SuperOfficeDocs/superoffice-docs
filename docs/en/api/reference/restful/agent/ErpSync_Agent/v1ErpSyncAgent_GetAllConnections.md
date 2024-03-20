@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 516,
-    "ErpConnectorId": 863,
-    "DisplayName": "Upton LLC",
-    "DisplayDescription": "Ergonomic impactful solution",
+    "ErpConnectionId": 370,
+    "ErpConnectorId": 484,
+    "DisplayName": "Ernser-Brakus",
+    "DisplayDescription": "Optional stable access",
     "Active": false,
-    "ConnectionId": "explicabo",
-    "MostRecentTimestamp": "vitae",
+    "ConnectionId": "voluptatem",
+    "MostRecentTimestamp": "odit",
     "ConfigFields": {
-      "ConfigFields1": "culpa",
-      "ConfigFields2": "magni"
+      "ConfigFields1": "et",
+      "ConfigFields2": "qui"
     },
-    "Deleted": false,
-    "AllAccess": true,
+    "Deleted": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      800,
-      325
+      808,
+      24
     ],
     "AssociateAccessIds": [
-      717,
-      703
+      811,
+      124
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 503
       }
     }
   }

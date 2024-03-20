@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 128,
-  "ColumnId": 745,
-  "FieldDefault": "modi",
-  "FieldHeight": 417,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 975,
-  "FieldTop": 299,
+  "UDefFieldId": 754,
+  "ColumnId": 254,
+  "FieldDefault": "qui",
+  "FieldHeight": 749,
+  "FieldLabel": "enim",
+  "FieldLeft": 915,
+  "FieldTop": 612,
   "FieldType": "Checkbox",
-  "FieldWidth": 818,
-  "FormatMask": "accusamus",
+  "FieldWidth": 445,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 134,
-  "LabelLeft": 558,
-  "LabelTop": 500,
-  "LabelWidth": 703,
-  "LastVersionId": 13,
-  "ListTableId": 389,
+  "IsIndexed": true,
+  "LabelHeight": 94,
+  "LabelLeft": 188,
+  "LabelTop": 673,
+  "LabelWidth": 42,
+  "LastVersionId": 721,
+  "ListTableId": 847,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 496,
-  "ProgId": "voluptatem",
-  "IsReadOnly": false,
-  "ShortLabel": "maiores",
-  "TabOrder": 889,
-  "TextLength": 240,
-  "Tooltip": "qui",
-  "UdefIdentity": 1002,
-  "UDListDefinitionId": 774,
+  "Page1LineNo": 469,
+  "ProgId": "incidunt",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 552,
+  "TextLength": 171,
+  "Tooltip": "repellat",
+  "UdefIdentity": 36,
+  "UDListDefinitionId": 812,
   "Justification": "Center",
-  "Version": 820,
-  "TemplateVariableName": "D'Amore-Lubowitz",
-  "HasBeenPublished": false,
-  "MdoListName": "Mitchell LLC",
+  "Version": 610,
+  "TemplateVariableName": "Kub-Haag",
+  "HasBeenPublished": true,
+  "MdoListName": "Lind, Harris and Harvey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   }
 }

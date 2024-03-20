@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Cole-Fay",
-  "Tooltip": "nisi",
+  "Id": 837,
+  "Name": "D'Amore-Friesen",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 661,
-  "IsCustomList": false,
+  "Rank": 771,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   },
   "_Links": {

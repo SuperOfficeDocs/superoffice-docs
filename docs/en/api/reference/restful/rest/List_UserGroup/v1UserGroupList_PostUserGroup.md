@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "quasi",
-  "Tooltip": "ex",
-  "Id": 871,
-  "Rank": 65,
+  "Value": "soluta",
+  "Tooltip": "velit",
+  "Id": 1001,
+  "Rank": 546,
   "Deleted": true
 }
 ```
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "blanditiis",
-  "Tooltip": "voluptatum",
-  "Id": 942,
-  "Rank": 377,
-  "Deleted": false,
+  "Value": "laboriosam",
+  "Tooltip": "rerum",
+  "Id": 649,
+  "Rank": 975,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 245
     }
   }
 }

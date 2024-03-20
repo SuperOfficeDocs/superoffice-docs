@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=375
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=796
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 253,
-  "Name": "Windler-Langworth",
-  "Description": "Persistent multi-tasking toolset",
-  "DeltaJson": "hic",
+  "ConfigurableScreenDeltaId": 30,
+  "Name": "Kohler LLC",
+  "Description": "Cloned background budgetary management",
+  "DeltaJson": "nobis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2000-09-23T14:23:46.0480845+02:00",
-  "CreatedDate": "2009-06-03T14:23:46.0480845+02:00",
+  "RecipeId": "repellat",
+  "UpdatedDate": "2016-07-22T12:19:44.8361197+02:00",
+  "CreatedDate": "2011-04-18T12:19:44.8361197+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    32,
-    736
+    436,
+    748
   ],
-  "AppliesToKey": "voluptas",
+  "AppliesToKey": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

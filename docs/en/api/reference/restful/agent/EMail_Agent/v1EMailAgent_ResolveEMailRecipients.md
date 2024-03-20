@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ariane_vandervort@ryan.ca"
+  "EmailAddress": "jarrell@goldner.name"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 136,
-    "ContactName": "Thiel LLC",
-    "PersonId": 256,
-    "PersonName": "Wilkinson-Kautzer",
-    "AssociateId": 950,
-    "Address": "at",
-    "EmailId": 261,
+    "ContactId": 432,
+    "ContactName": "McCullough-Thompson",
+    "PersonId": 441,
+    "PersonName": "Roob Group",
+    "AssociateId": 375,
+    "Address": "tenetur",
+    "EmailId": 738,
     "DuplicatePersonIds": [
-      447,
-      506
+      505,
+      599
     ],
-    "Name": "Wolf LLC",
+    "Name": "Reichel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Powlowski, Bradtke and Kozey",
-    "ToolTip": "Omnis et et odio ea necessitatibus voluptas nesciunt.",
+    "Id": 111,
+    "Name": "Homenick, Barton and Prohaska",
+    "ToolTip": "Voluptatem et voluptatem velit officia.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "eum",
-    "ColorBlock": 625,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2022-12-05T14:23:56.2751981+01:00",
+    "Rank": 237,
+    "Type": "praesentium",
+    "ColorBlock": 881,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2007-07-31T12:19:54.7739754+02:00",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Shields Group",
-        "ToolTip": "Vel temporibus veritatis maxime dolores incidunt odit.",
+        "Id": 928,
+        "Name": "Bogisich, Conn and McLaughlin",
+        "ToolTip": "Sint facilis quaerat consequatur natus exercitationem nihil.",
         "Deleted": false,
-        "Rank": 863,
-        "Type": "minus",
-        "ColorBlock": 70,
-        "IconHint": "ad",
-        "Selected": true,
-        "LastChanged": "2003-12-26T14:23:56.2751981+01:00",
+        "Rank": 736,
+        "Type": "voluptatibus",
+        "ColorBlock": 855,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2013-11-20T12:19:54.7739754+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Mrs. Sammy Bogan V",
+        "ExtraInfo": "fuga",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Lonzo Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "eos",
+    "ExtraInfo": "ab",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Cade Hand I",
+    "FullName": "Lilyan Kreiger DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 375
       }
     }
   }

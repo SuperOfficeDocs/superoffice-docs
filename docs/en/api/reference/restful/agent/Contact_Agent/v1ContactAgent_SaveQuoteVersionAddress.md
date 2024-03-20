@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 215,
+  "QuoteVersionId": 551,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 144
+  "CountryId": 104
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17067.764,
-  "Wgs84Longitude": 12178.724,
+  "Wgs84Latitude": 1319.414,
+  "Wgs84Longitude": 22314.079999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bechtelar LLC",
-        "Value": "quis",
-        "Tooltip": "animi",
-        "Label": "dicta",
-        "ValueLength": 66,
-        "AddressType": "inventore",
+        "Name": "Kuhic LLC",
+        "Value": "tempore",
+        "Tooltip": "non",
+        "Label": "et",
+        "ValueLength": 981,
+        "AddressType": "tempore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldLength": 330
           }
         }
       }
     ],
     [
       {
-        "Name": "Feil-Toy",
-        "Value": "nam",
-        "Tooltip": "in",
-        "Label": "sit",
-        "ValueLength": 720,
-        "AddressType": "delectus",
+        "Name": "Macejkovic-Wilderman",
+        "Value": "enim",
+        "Tooltip": "unde",
+        "Label": "non",
+        "ValueLength": 992,
+        "AddressType": "voluptatum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldLength": 741
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "nobis",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 311
     }
   }
 }

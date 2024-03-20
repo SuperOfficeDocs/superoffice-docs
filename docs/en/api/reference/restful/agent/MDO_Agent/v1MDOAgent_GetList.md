@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rolfson-Medhurst",
+  "Name": "Bernier Group",
   "ForceFlatList": true,
-  "AdditionalInfo": "modi",
+  "AdditionalInfo": "molestiae",
   "OnlyHistory": true
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "McDermott Inc and Sons",
-    "ToolTip": "Cupiditate natus.",
+    "Id": 759,
+    "Name": "Feil Inc and Sons",
+    "ToolTip": "Id corporis nihil deleniti ut ut explicabo consequatur.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "at",
+    "Rank": 870,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Grimes Group",
-        "ToolTip": "Ut aut dignissimos iste a placeat.",
+        "Id": 653,
+        "Name": "Farrell-Goodwin",
+        "ToolTip": "Sed quia quibusdam.",
         "Deleted": false,
-        "Rank": 108,
-        "Type": "hic",
+        "Rank": 911,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 51,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "recusandae",
-        "FullName": "Prof. Llewellyn Aufderhar",
+        "IconHint": "consequatur",
+        "ColorBlock": 587,
+        "ExtraInfo": "sequi",
+        "StyleHint": "numquam",
+        "FullName": "Ella Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 954
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 781,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "libero",
-    "FullName": "Rafael Moen",
+    "IconHint": "ut",
+    "ColorBlock": 884,
+    "ExtraInfo": "alias",
+    "StyleHint": "totam",
+    "FullName": "Ms. Henderson Lily O'Hara Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 898
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 93,
-  "UniqueId": "ut",
-  "Name": "Stanton, Schinner and Hagenes",
-  "Description": "Reverse-engineered user-facing structure",
-  "AssociateId": 910,
-  "Columns": 893,
+  "DashboardId": 779,
+  "UniqueId": "voluptas",
+  "Name": "Waelchi, Mueller and Auer",
+  "Description": "Streamlined regional ability",
+  "AssociateId": 471,
+  "Columns": 581,
   "Theme": null,
-  "VisibleForAll": 930,
+  "VisibleForAll": 864,
   "VisibleForAssociates": [
-    149,
-    73
+    338,
+    631
   ],
   "VisibleForGroups": [
-    666,
-    607
+    510,
+    871
   ],
-  "PinForAll": 784,
+  "PinForAll": 930,
   "PinForAssociates": [
-    978,
-    210
+    508,
+    450
   ],
   "PinForGroups": [
-    442,
-    182
+    973,
+    426
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 468
     }
   }
 }

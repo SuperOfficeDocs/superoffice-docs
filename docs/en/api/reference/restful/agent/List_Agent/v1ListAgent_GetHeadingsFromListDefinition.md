@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327
+  "Id": 738
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Dibbert Group",
-    "Tooltip": "quae",
+    "HeadingId": 84,
+    "Name": "O'Conner, Hessel and Moen",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 83,
-    "UdListDefinitionId": 499,
+    "Rank": 326,
+    "UdListDefinitionId": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

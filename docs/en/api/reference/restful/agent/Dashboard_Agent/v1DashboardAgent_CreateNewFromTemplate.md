@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 474,
-  "Caption": "temporibus",
-  "Description": "Grass-roots contextually-based website",
-  "SelectionId": 561,
+  "DashboardTileId": 458,
+  "Caption": "iure",
+  "Description": "Seamless uniform extranet",
+  "SelectionId": 921,
   "VisibleFor": [
     {
-      "VisibleId": 469,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "nostrum"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 469,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "nostrum"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 343,
-  "Caption": "aut",
-  "Description": "Ameliorated stable secured line",
-  "ChartName": "Vandervort-Christiansen",
-  "ChartId": "et",
-  "IsDefault": false,
-  "AssociateId": 714,
-  "GroupId": 71,
-  "SelectionId": 395,
-  "Config": "incidunt",
+  "DashboardTileId": 690,
+  "Caption": "enim",
+  "Description": "Open-architected executive middleware",
+  "ChartName": "Welch-Hilpert",
+  "ChartId": "eligendi",
+  "IsDefault": true,
+  "AssociateId": 545,
+  "GroupId": 402,
+  "SelectionId": 383,
+  "Config": "fugiat",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Brakus, Sporer and Mertz",
-      "Description": "Reduced 4th generation capability",
+      "Name": "O'Hara LLC",
+      "Description": "Exclusive mission-critical data-warehouse",
       "Type": "Boolean",
-      "ListName": "Schmeler Inc and Sons",
+      "ListName": "Schulist-Gibson",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolor",
-      "DefaultDataOption": false,
+      "Value": "ad",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 901,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 378
         }
       }
     },
     {
-      "VisibleId": 901,
+      "VisibleId": 150,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 378
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldType": "System.String",
+      "FieldLength": 399
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 528,
-  "Currency": "libero"
+  "QuoteConnectionId": 222,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 748,
-    "ERPPriceListKey": "quaerat",
-    "QuoteConnectionId": 920,
-    "Name": "Frami LLC",
-    "Description": "Sharable attitude-oriented circuit",
-    "Currency": "vel",
-    "CurrencyName": "Hamill-Swaniawski",
-    "ValidFrom": "2009-03-12T14:23:47.2380075+01:00",
-    "ValidTo": "2019-04-05T14:23:47.2380075+02:00",
+    "PriceListId": 104,
+    "ERPPriceListKey": "impedit",
+    "QuoteConnectionId": 995,
+    "Name": "Brekke, Gottlieb and Osinski",
+    "Description": "Compatible heuristic challenge",
+    "Currency": "doloremque",
+    "CurrencyName": "Hessel, Pollich and Kemmer",
+    "ValidFrom": "2016-07-27T12:19:46.1014395+02:00",
+    "ValidTo": "2009-08-18T12:19:46.1014395+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 235
       }
     }
   }

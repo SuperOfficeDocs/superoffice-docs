@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2020-10-26T14:23:45.8293368+01:00",
-  "ToDate": "2023-05-09T14:23:45.8293368+02:00",
+  "FromDate": "2004-10-25T12:19:44.4611915+02:00",
+  "ToDate": "2001-02-15T12:19:44.4611915+01:00",
   "AssociateList": [
     {
-      "Id": 530,
-      "Name": "Turcotte-Ledner",
-      "ToolTip": "Assumenda et fuga occaecati.",
-      "Deleted": false,
-      "Rank": 555,
-      "Type": "ut",
-      "ColorBlock": 609,
-      "IconHint": "explicabo",
-      "Selected": false,
-      "LastChanged": "2010-07-14T14:23:45.8293368+02:00",
+      "Id": 189,
+      "Name": "Hansen, Christiansen and Maggio",
+      "ToolTip": "Dolores rem eos architecto.",
+      "Deleted": true,
+      "Rank": 751,
+      "Type": "dolores",
+      "ColorBlock": 887,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "2000-04-20T12:19:44.4611915+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "porro",
-      "StyleHint": "corporis",
-      "Hidden": true,
-      "FullName": "Tina Weissnat",
+      "ExtraInfo": "similique",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Dennis Zieme",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 780,
-      "Name": "Heidenreich-Pfannerstill",
-      "ToolTip": "Odit deleniti rerum cum cumque.",
-      "Deleted": false,
-      "Rank": 987,
-      "Type": "odit",
-      "ColorBlock": 183,
-      "IconHint": "alias",
-      "Selected": true,
-      "LastChanged": "2021-10-25T14:23:45.8293368+02:00",
+      "Id": 522,
+      "Name": "Little-Howe",
+      "ToolTip": "Dolore rerum voluptatem qui velit et dignissimos pariatur.",
+      "Deleted": true,
+      "Rank": 562,
+      "Type": "ea",
+      "ColorBlock": 959,
+      "IconHint": "quam",
+      "Selected": false,
+      "LastChanged": "2022-02-02T12:19:44.4611915+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "et",
+      "ExtraInfo": "soluta",
+      "StyleHint": "omnis",
       "Hidden": true,
-      "FullName": "Rosario Willms",
+      "FullName": "Keenan Mraz IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 150
+          "FieldLength": 904
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 56,
-      "Name": "Beer-Parisian",
-      "ToolTip": "Suscipit modi in nesciunt molestiae.",
+      "Id": 738,
+      "Name": "Hammes LLC",
+      "ToolTip": "Autem qui aliquam reiciendis.",
       "Deleted": false,
-      "Rank": 619,
-      "Type": "delectus",
+      "Rank": 289,
+      "Type": "optio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 97,
-      "ExtraInfo": "omnis",
-      "StyleHint": "repellendus",
-      "FullName": "Miss Diego Chase Larkin",
+      "IconHint": "molestias",
+      "ColorBlock": 288,
+      "ExtraInfo": "expedita",
+      "StyleHint": "ratione",
+      "FullName": "Vena Runte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 704
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldLength": 61
     }
   }
 }

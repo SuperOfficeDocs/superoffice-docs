@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 509,
-    "Name": "Blanda, Kerluke and McCullough",
-    "HtmlBody": "et",
+    "QuickReplyId": 677,
+    "Name": "McLaughlin Inc and Sons",
+    "HtmlBody": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 227
       }
     }
   },
   {
-    "QuickReplyId": 509,
-    "Name": "Blanda, Kerluke and McCullough",
-    "HtmlBody": "et",
+    "QuickReplyId": 677,
+    "Name": "McLaughlin Inc and Sons",
+    "HtmlBody": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 227
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Kub-Parisian",
-    "ToolTip": "Sed quasi perspiciatis magni nihil.",
+    "Id": 268,
+    "Name": "Tillman-Feeney",
+    "ToolTip": "Molestiae voluptas.",
     "Deleted": false,
-    "Rank": 569,
-    "Type": "id",
-    "ColorBlock": 190,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2005-05-30T14:23:56.3376983+02:00",
+    "Rank": 310,
+    "Type": "et",
+    "ColorBlock": 246,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2005-12-12T12:19:54.8364594+01:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Pacocha-Brown",
-        "ToolTip": "Accusamus iusto quis possimus aut.",
-        "Deleted": false,
-        "Rank": 947,
-        "Type": "consequuntur",
-        "ColorBlock": 73,
-        "IconHint": "consequuntur",
+        "Id": 73,
+        "Name": "Hermiston Inc and Sons",
+        "ToolTip": "Similique veniam laborum.",
+        "Deleted": true,
+        "Rank": 394,
+        "Type": "et",
+        "ColorBlock": 589,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2018-04-12T14:23:56.3376983+02:00",
+        "LastChanged": "2022-07-06T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Rhiannon Boyle"
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Miss Adella Luz Deckow DVM"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "iusto",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Elwyn Lind"
+    "FullName": "Julian Legros"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Pacocha Inc and Sons",
-    "ToolTip": "Incidunt voluptatem et culpa est cumque repudiandae sit.",
+    "Id": 859,
+    "Name": "Purdy-Gusikowski",
+    "ToolTip": "Sunt incidunt quae.",
     "Deleted": false,
-    "Rank": 850,
-    "Type": "aspernatur",
-    "ColorBlock": 616,
-    "IconHint": "repudiandae",
+    "Rank": 763,
+    "Type": "architecto",
+    "ColorBlock": 961,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2019-03-10T14:23:56.3376983+01:00",
+    "LastChanged": "2005-08-27T12:19:54.8520816+02:00",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Dibbert, Nitzsche and Aufderhar",
-        "ToolTip": "Vitae commodi quibusdam est quisquam.",
+        "Id": 718,
+        "Name": "Kub-Parker",
+        "ToolTip": "Non consequatur perferendis veniam.",
         "Deleted": false,
-        "Rank": 424,
-        "Type": "optio",
-        "ColorBlock": 190,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2001-01-19T14:23:56.3376983+01:00",
+        "Rank": 810,
+        "Type": "est",
+        "ColorBlock": 460,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "1999-06-19T12:19:54.8520816+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "maiores",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Hilario Lilyan Lind Jr.",
+        "FullName": "Eleanora Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 215
+            "FieldType": "System.Int32",
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Kendall Champlin",
+    "ExtraInfo": "quis",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Dr. Ceasar Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 857
       }
     }
   }

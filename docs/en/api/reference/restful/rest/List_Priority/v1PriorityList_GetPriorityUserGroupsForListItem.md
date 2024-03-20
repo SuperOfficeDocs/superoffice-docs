@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Hintz Group",
-    "ToolTip": "Commodi aliquam.",
+    "Id": 323,
+    "Name": "Conn LLC",
+    "ToolTip": "Quos dolorem ut vel porro animi.",
     "Deleted": false,
-    "Rank": 465,
-    "Type": "et",
-    "ColorBlock": 476,
-    "IconHint": "inventore",
+    "Rank": 126,
+    "Type": "voluptatem",
+    "ColorBlock": 572,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2013-12-12T14:23:56.1814517+01:00",
+    "LastChanged": "2012-08-15T12:19:54.6802476+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Reinger-Schmeler",
-        "ToolTip": "Tempore quia aut.",
+        "Id": 201,
+        "Name": "Swift-Blick",
+        "ToolTip": "Corrupti unde fugit.",
         "Deleted": false,
-        "Rank": 183,
-        "Type": "rerum",
-        "ColorBlock": 895,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2016-11-28T14:23:56.1814517+01:00",
+        "Rank": 117,
+        "Type": "sint",
+        "ColorBlock": 807,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2003-06-04T12:19:54.6802476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "aut",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Gerry Roberts",
+        "FullName": "Tania Fadel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 417
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Ora Jenkins",
+    "ExtraInfo": "autem",
+    "StyleHint": "nobis",
+    "Hidden": true,
+    "FullName": "Jovanny Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 845
       }
     }
   }

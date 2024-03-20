@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 143,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "enim",
-  "Name": "Waters Group",
-  "Description": "Persevering tangible middleware",
-  "Code": "neque",
-  "PriceUnit": "quo",
-  "QuantityUnit": "tempore",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quos",
-  "DefaultSubscriptionQuantity": 10041.336,
-  "ItemNumber": "634869",
+  "ProductId": 257,
+  "ERPProductKey": "vero",
+  "ERPPriceListKey": "officiis",
+  "Name": "Welch, Kuhn and Romaguera",
+  "Description": "Switchable real-time function",
+  "Code": "sequi",
+  "PriceUnit": "numquam",
+  "QuantityUnit": "dolor",
+  "IsSubscription": false,
+  "SubscriptionUnit": "placeat",
+  "DefaultSubscriptionQuantity": 9342.454,
+  "ItemNumber": "285908",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "amet",
-  "VAT": 7809.928,
-  "VATInfo": "et",
-  "UnitCost": 21822.041999999998,
-  "UnitMinimumPrice": 21771.898,
-  "UnitListPrice": 1187.786,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "cumque",
-  "Rights": "praesentium",
-  "Rule": "minima",
+  "ProductFamilyKey": "suscipit",
+  "ProductTypeKey": "ut",
+  "VAT": 30359.057999999997,
+  "VATInfo": "voluptatum",
+  "UnitCost": 24482.808,
+  "UnitMinimumPrice": 16958.074,
+  "UnitListPrice": 26704.814,
+  "InAssortment": false,
+  "Supplier": "reprehenderit",
+  "SupplierCode": "qui",
+  "Rights": "voluptatibus",
+  "Rule": "accusantium",
   "ExtraInfo": [
     {
-      "Name": "Quitzon-Marquardt",
-      "Value": "iusto",
+      "Name": "Rath, Rippin and Schaden",
+      "Value": "rerum",
       "Type": "Image"
     },
     {
-      "Name": "Quitzon-Marquardt",
-      "Value": "iusto",
+      "Name": "Rath, Rippin and Schaden",
+      "Value": "rerum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "tempore",
-  "ExtraField3": "quia",
-  "ExtraField4": "ut",
-  "ExtraField5": "est",
-  "InStock": 27372.356
+  "RawExtraInfo": "possimus",
+  "ExtraField1": "sunt",
+  "ExtraField2": "accusantium",
+  "ExtraField3": "nostrum",
+  "ExtraField4": "rerum",
+  "ExtraField5": "sint",
+  "InStock": 1939.946
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 972,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "provident",
-  "Name": "Ortiz-Gaylord",
-  "Description": "Enhanced demand-driven array",
-  "Code": "nesciunt",
-  "PriceUnit": "quis",
-  "QuantityUnit": "reiciendis",
+  "ProductId": 107,
+  "ERPProductKey": "sed",
+  "ERPPriceListKey": "mollitia",
+  "Name": "Price, Hamill and McClure",
+  "Description": "De-engineered executive framework",
+  "Code": "numquam",
+  "PriceUnit": "aut",
+  "QuantityUnit": "autem",
   "IsSubscription": false,
   "SubscriptionUnit": "tempore",
-  "DefaultSubscriptionQuantity": 4265.374,
-  "ItemNumber": "969940",
+  "DefaultSubscriptionQuantity": 12018.89,
+  "ItemNumber": "759743",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "odit",
-  "ProductTypeKey": "ut",
-  "VAT": 13974.506,
-  "VATInfo": "nemo",
-  "UnitCost": 26921.059999999998,
-  "UnitMinimumPrice": 25899.376,
-  "UnitListPrice": 3362.7819999999997,
+  "ProductFamilyKey": "ratione",
+  "ProductTypeKey": "dignissimos",
+  "VAT": 2174.996,
+  "VATInfo": "cumque",
+  "UnitCost": 25955.788,
+  "UnitMinimumPrice": 11855.922,
+  "UnitListPrice": 29249.622,
   "InAssortment": false,
-  "Supplier": "ipsum",
-  "SupplierCode": "necessitatibus",
-  "Rights": "neque",
-  "Rule": "iure",
+  "Supplier": "quam",
+  "SupplierCode": "aut",
+  "Rights": "qui",
+  "Rule": "nostrum",
   "ExtraInfo": [
     {
-      "Name": "Weber, Kutch and Haag",
-      "Value": "voluptas",
+      "Name": "Boehm-White",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 232
         }
       }
     },
     {
-      "Name": "Weber, Kutch and Haag",
-      "Value": "voluptas",
+      "Name": "Boehm-White",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 232
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "sunt",
-  "ExtraField2": "non",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "quia",
-  "ExtraField5": "aperiam",
-  "InStock": 27334.748,
+  "RawExtraInfo": "repellendus",
+  "ExtraField1": "velit",
+  "ExtraField2": "fugiat",
+  "ExtraField3": "sed",
+  "ExtraField4": "vel",
+  "ExtraField5": "reprehenderit",
+  "InStock": 19534.221999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

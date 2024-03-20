@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 924,
-  "FormKey": "autem",
-  "Name": "Kirlin, Buckridge and Jewess",
-  "Description": "Operative systematic knowledge base",
-  "Config": "autem",
-  "FolderId": 172,
-  "ScriptId": 951,
-  "ResponseShipmentId": 186,
-  "Active": true,
-  "Expires": "2012-05-17T14:23:46.9098888+02:00",
-  "MaxSubmits": 258,
+  "FormId": 155,
+  "FormKey": "magnam",
+  "Name": "Mann-Steuber",
+  "Description": "User-friendly 6th generation matrices",
+  "Config": "molestiae",
+  "FolderId": 63,
+  "ScriptId": 71,
+  "ResponseShipmentId": 534,
+  "Active": false,
+  "Expires": "2008-10-04T12:19:45.585943+02:00",
+  "MaxSubmits": 514,
   "Type": "Normal",
-  "Recipe": "eligendi",
-  "GroupId": 743,
+  "Recipe": "iure",
+  "GroupId": 116,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-01-21T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 958,
-  "Updated": "2006-12-08T14:23:46.9098888+01:00",
-  "UpdatedAssociateId": 717,
-  "UpdatedCount": 889,
+  "Registered": "2015-04-17T12:19:45.585943+02:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "2014-07-20T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 798,
+  "UpdatedCount": 326,
   "EmailFlows": [
-    924,
-    768
+    7,
+    180
   ],
-  "FolderName": "Streich, Russel and Rosenbaum",
+  "FolderName": "Brown, Vandervort and Blanda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 819
     }
   }
 }

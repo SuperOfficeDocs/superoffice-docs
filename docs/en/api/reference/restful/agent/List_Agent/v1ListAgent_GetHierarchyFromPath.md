@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "voluptatibus",
-  "Children": true
+  "Path": "dolorem",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 410,
+  "HierarchyId": 940,
   "Domain": "Dashboards",
-  "Name": "Walker, Lind and Skiles",
-  "Fullname": "non",
-  "ParentId": 111,
+  "Name": "Funk-Skiles",
+  "Fullname": "ducimus",
+  "ParentId": 191,
   "Children": [
     {
-      "HierarchyId": 875,
+      "HierarchyId": 450,
       "Domain": "Dashboards",
-      "Name": "Legros Group",
-      "Fullname": "voluptatibus",
-      "ParentId": 939,
+      "Name": "Halvorson-Wilderman",
+      "Fullname": "occaecati",
+      "ParentId": 146,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-02-08T14:23:46.8786294+01:00",
-      "RegisteredAssociateId": 686,
-      "Updated": "2010-11-23T14:23:46.8786294+01:00",
-      "UpdatedAssociateId": 18,
+      "Registered": "2012-03-27T12:19:45.5390987+02:00",
+      "RegisteredAssociateId": 219,
+      "Updated": "2020-07-27T12:19:45.5390987+02:00",
+      "UpdatedAssociateId": 846,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 514
         }
       }
     }
   ],
-  "Registered": "2022-12-04T14:23:46.8786294+01:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2022-01-18T14:23:46.8786294+01:00",
-  "UpdatedAssociateId": 401,
+  "Registered": "2000-10-27T12:19:45.5390987+02:00",
+  "RegisteredAssociateId": 254,
+  "Updated": "2006-08-14T12:19:45.5390987+02:00",
+  "UpdatedAssociateId": 576,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 647
     }
   }
 }

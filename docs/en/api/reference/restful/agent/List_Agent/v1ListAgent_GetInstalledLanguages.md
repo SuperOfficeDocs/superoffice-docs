@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 199,
-    "LCID": 321,
-    "EnglishName": "Stroman, Hintz and Roberts",
-    "NativeName": "Corkery-Dickinson",
-    "ThreeLetterISOLanguageName": "Brakus, Keeling and Bruen",
-    "TwoLetterISOLanguageName": "Bogisich Group",
+    "LanguageInfoId": 953,
+    "LCID": 320,
+    "EnglishName": "Streich-Mohr",
+    "NativeName": "Satterfield-Mraz",
+    "ThreeLetterISOLanguageName": "Wilderman-Pfeffer",
+    "TwoLetterISOLanguageName": "Harvey LLC",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

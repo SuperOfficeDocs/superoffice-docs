@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 50,
-  "UniqueId": "dolor",
-  "Name": "Boyer Inc and Sons",
-  "Description": "Horizontal leading edge process improvement",
-  "AssociateId": 605,
-  "Columns": 808,
+  "DashboardId": 454,
+  "UniqueId": "et",
+  "Name": "Hessel-Abernathy",
+  "Description": "Phased demand-driven knowledge user",
+  "AssociateId": 11,
+  "Columns": 253,
   "Theme": null,
-  "VisibleForAll": 536,
+  "VisibleForAll": 121,
   "VisibleForAssociates": [
-    461,
-    814
+    973,
+    514
   ],
   "VisibleForGroups": [
-    345,
-    929
+    723,
+    587
   ],
-  "PinForAll": 983,
+  "PinForAll": 524,
   "PinForAssociates": [
-    293,
-    405
+    939,
+    734
   ],
   "PinForGroups": [
-    444,
-    342
+    747,
+    671
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 200,
-  "UniqueId": "animi",
-  "Name": "Wyman Inc and Sons",
-  "Description": "Phased attitude-oriented strategy",
-  "AssociateId": 833,
-  "Columns": 80,
+  "DashboardId": 841,
+  "UniqueId": "ullam",
+  "Name": "Lubowitz-Jewess",
+  "Description": "Cross-platform well-modulated firmware",
+  "AssociateId": 121,
+  "Columns": 873,
   "Theme": null,
-  "VisibleForAll": 469,
+  "VisibleForAll": 376,
   "VisibleForAssociates": [
-    549,
-    537
+    19,
+    842
   ],
   "VisibleForGroups": [
-    649,
-    193
+    834,
+    233
   ],
-  "PinForAll": 141,
+  "PinForAll": 127,
   "PinForAssociates": [
-    288,
-    146
+    979,
+    730
   ],
   "PinForGroups": [
-    938,
-    993
+    712,
+    640
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

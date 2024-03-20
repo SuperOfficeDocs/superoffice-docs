@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 626
+  "ChatSessionId": 480
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 573,
-  "TopicId": 794,
+  "ChatSessionId": 595,
+  "TopicId": 308,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rem",
-  "CustomerHost": "similique",
-  "CustomerName": "Powlowski, Effertz and Oberbrunner",
-  "CustomerEmail": "cesar@green.name",
-  "CustomerPhone": "1-531-209-0379 x5301",
+  "CustomerAlias": "eaque",
+  "CustomerHost": "adipisci",
+  "CustomerName": "Connelly-Kunde",
+  "CustomerEmail": "maximillia_labadie@wilkinsonbeatty.co.uk",
+  "CustomerPhone": "272.440.9903 x34011",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hoeger Inc and Sons",
+  "CustomerCompanyName": "Rice-Ortiz",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2000-05-21T14:23:45.9699598+02:00",
-  "WhenStarted": "1998-01-05T14:23:45.9699598+01:00",
-  "WhenEnded": "2012-12-30T14:23:45.9699598+01:00",
-  "WhenIdle": "2019-07-01T14:23:45.9699598+02:00",
-  "WhenFetched": "2023-09-20T14:23:45.9699598+02:00",
-  "SessionKey": "pariatur",
-  "InitialQueuePos": 904,
-  "AlertLevel": 210,
-  "Rank": 365,
+  "FirstMessage": "sed",
+  "LastMessage": "quo",
+  "WhenRequested": "2004-10-31T12:19:44.6174162+01:00",
+  "WhenStarted": "2008-01-28T12:19:44.6174162+01:00",
+  "WhenEnded": "1999-03-08T12:19:44.6174162+01:00",
+  "WhenIdle": "2003-01-22T12:19:44.6174162+01:00",
+  "WhenFetched": "2010-11-07T12:19:44.6174162+01:00",
+  "SessionKey": "velit",
+  "InitialQueuePos": 501,
+  "AlertLevel": 572,
+  "Rank": 426,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 66,
+  "Rating": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldLength": 214
     }
   }
 }

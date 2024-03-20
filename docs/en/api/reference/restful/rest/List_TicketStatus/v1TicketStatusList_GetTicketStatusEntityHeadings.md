@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 586,
-    "Name": "Gerhold-Haag",
-    "Tooltip": "ipsa",
+    "HeadingId": 146,
+    "Name": "Macejkovic, Weber and Block",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 819,
-    "UdListDefinitionId": 186,
+    "Rank": 187,
+    "UdListDefinitionId": 681,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   }

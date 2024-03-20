@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 322,
-    "Name": "Labadie-Blick",
-    "Tooltip": "recusandae",
+    "HeadingId": 841,
+    "Name": "Price, Boyle and Kling",
+    "Tooltip": "animi",
     "Deleted": true,
-    "Rank": 537,
-    "UdListDefinitionId": 36,
+    "Rank": 377,
+    "UdListDefinitionId": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

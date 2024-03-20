@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Davis LLC",
-  "DeviceName": "Zemlak Group",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Wuckert-Strosin",
+  "DeviceName": "West LLC",
+  "DeviceIdentifier": "aspernatur"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "doloremque",
-  "Value": "ea",
-  "RecordId": 129,
-  "CreatedDate": "1997-03-05T14:23:46.7524806+01:00",
-  "UpdatedDate": "2003-01-14T14:23:46.7524806+01:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "eum",
-  "TableName": "Gulgowski-Gorczany",
+  "Key": "velit",
+  "Value": "eius",
+  "RecordId": 156,
+  "CreatedDate": "1997-01-19T12:19:45.4297292+01:00",
+  "UpdatedDate": "2009-01-30T12:19:45.4297292+01:00",
+  "UpdatedBy": "asperiores",
+  "CreatedBy": "accusantium",
+  "TableName": "Zboncak, Durgan and Ratke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 264
     }
   }
 }

@@ -83,23 +83,23 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "harum",
-      "PersonId": 603,
-      "AssociateId": 601,
-      "ExtraId": 161,
-      "ExtraInfo": "enim",
-      "Height": 504,
-      "LeftX": 381,
+      "OwnerWindow": "placeat",
+      "PersonId": 96,
+      "AssociateId": 500,
+      "ExtraId": 814,
+      "ExtraInfo": "ea",
+      "Height": 728,
+      "LeftX": 824,
       "State": "Maximized",
-      "UpperY": 735,
-      "Width": 884,
-      "WindowPosSizeId": 920
+      "UpperY": 500,
+      "Width": 24,
+      "WindowPosSizeId": 169
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "omnis",
-    "PersonId": 925,
-    "AssociateId": 127,
-    "ExtraId": 877,
-    "ExtraInfo": "provident",
-    "Height": 191,
-    "LeftX": 802,
+    "OwnerWindow": "eveniet",
+    "PersonId": 969,
+    "AssociateId": 962,
+    "ExtraId": 805,
+    "ExtraInfo": "autem",
+    "Height": 732,
+    "LeftX": 590,
     "State": "Maximized",
-    "UpperY": 653,
-    "Width": 337,
-    "WindowPosSizeId": 820,
+    "UpperY": 630,
+    "Width": 771,
+    "WindowPosSizeId": 66,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldType": "System.String",
+        "FieldLength": 562
       }
     }
   }

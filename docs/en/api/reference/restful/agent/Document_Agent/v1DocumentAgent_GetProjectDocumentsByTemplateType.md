@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 231,
-  "StartTime": "2006-06-16T14:23:46.2980824+02:00",
-  "EndTime": "2018-06-26T14:23:46.2980824+02:00",
-  "Count": 926,
-  "DocumentTemplateId": 605
+  "ProjectId": 31,
+  "StartTime": "2019-08-01T12:19:45.0860733+02:00",
+  "EndTime": "2021-06-17T12:19:45.0860733+02:00",
+  "Count": 669,
+  "DocumentTemplateId": 140
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 394,
-    "Attention": "voluptatum",
-    "Header": "eos",
-    "Name": "Jakubowski-Bashirian",
-    "OurRef": "nesciunt",
-    "YourRef": "hic",
-    "Description": "Monitored assymetric software",
-    "DocumentTemplate": "illum",
+    "DocumentId": 372,
+    "Attention": "provident",
+    "Header": "et",
+    "Name": "Boyer-Cassin",
+    "OurRef": "sequi",
+    "YourRef": "aut",
+    "Description": "Fundamental multi-tasking firmware",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 929,
-    "PersonFullName": "Geovany Yost",
-    "AssociateFullName": "Annalise Wilkinson",
-    "ContactId": 201,
-    "ContactName": "Beatty Group",
-    "ProjectId": 367,
-    "ProjectName": "Tromp, Gerhold and Gottlieb",
-    "AssociateId": 882,
-    "Snum": 854,
-    "SaleId": 203,
-    "SaleName": "Hagenes LLC",
+    "PersonId": 268,
+    "PersonFullName": "Thea Sipes",
+    "AssociateFullName": "Aileen Schumm",
+    "ContactId": 497,
+    "ContactName": "Hegmann-Howe",
+    "ProjectId": 614,
+    "ProjectName": "Roberts Inc and Sons",
+    "AssociateId": 141,
+    "Snum": 133,
+    "SaleId": 44,
+    "SaleName": "Lebsack, Lakin and Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 300
+        "FieldType": "System.Int32",
+        "FieldLength": 448
       }
     }
   }

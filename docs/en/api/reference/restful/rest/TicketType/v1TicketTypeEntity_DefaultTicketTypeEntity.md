@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 690,
-  "Name": "Wyman, Beer and Altenwerth",
-  "Rank": 16,
-  "Tooltip": "dolores",
-  "Icon": "architecto",
-  "DefaultTicketStatus": 338,
+  "TicketTypeId": 519,
+  "Name": "Murray Inc and Sons",
+  "Rank": 878,
+  "Tooltip": "quia",
+  "Icon": "in",
+  "DefaultTicketStatus": 561,
   "TicketStatuses": [
-    245,
-    855
+    158,
+    39
   ],
-  "DefaultTicketPriority": 95,
+  "DefaultTicketPriority": 413,
   "TicketPriorities": [
-    789,
-    812
+    459,
+    18
   ],
-  "ReplyTemplate": 97,
+  "ReplyTemplate": 974,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 500
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Wisoky-Champlin",
-    "ToolTip": "Iste voluptatem qui dolorum.",
-    "Deleted": false,
-    "Rank": 698,
-    "Type": "quisquam",
-    "ColorBlock": 310,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2002-10-21T14:23:56.165827+02:00",
+    "Id": 999,
+    "Name": "Nicolas Inc and Sons",
+    "ToolTip": "Sit incidunt rerum voluptatibus sint esse omnis.",
+    "Deleted": true,
+    "Rank": 206,
+    "Type": "rerum",
+    "ColorBlock": 483,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2010-12-06T12:19:54.6490067+01:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Wehner Group",
-        "ToolTip": "Aspernatur expedita tenetur sed quas dolores.",
+        "Id": 490,
+        "Name": "Pollich-Marks",
+        "ToolTip": "Cupiditate dolore voluptates temporibus commodi.",
         "Deleted": false,
-        "Rank": 115,
-        "Type": "earum",
-        "ColorBlock": 347,
-        "IconHint": "distinctio",
+        "Rank": 874,
+        "Type": "non",
+        "ColorBlock": 831,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2003-12-07T14:23:56.165827+01:00",
+        "LastChanged": "2016-08-01T12:19:54.6490067+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "tempore",
+        "ExtraInfo": "alias",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Wallace Jacobi"
+        "FullName": "Laurel Stracke"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Prof. Toney Toby Rippin II"
+    "ExtraInfo": "dolores",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Miss Erica Cheyenne Prohaska"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Weber-Franecki",
-    "ToolTip": "Quo non cum.",
-    "Deleted": false,
-    "Rank": 104,
-    "Type": "magnam",
-    "ColorBlock": 342,
-    "IconHint": "accusamus",
+    "Id": 560,
+    "Name": "Quigley LLC",
+    "ToolTip": "Vel consequatur ut neque reprehenderit.",
+    "Deleted": true,
+    "Rank": 422,
+    "Type": "commodi",
+    "ColorBlock": 869,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2010-02-16T14:23:56.165827+01:00",
+    "LastChanged": "2009-08-22T12:19:54.6490067+02:00",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Dicki-Gislason",
-        "ToolTip": "Doloremque odit maiores nihil aperiam.",
-        "Deleted": true,
-        "Rank": 324,
-        "Type": "est",
-        "ColorBlock": 88,
-        "IconHint": "cupiditate",
+        "Id": 445,
+        "Name": "Steuber-Abbott",
+        "ToolTip": "Sit quos ea eum error nulla cumque.",
+        "Deleted": false,
+        "Rank": 461,
+        "Type": "debitis",
+        "ColorBlock": 601,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1998-07-05T14:23:56.165827+02:00",
+        "LastChanged": "2009-11-29T12:19:54.6490067+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "qui",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Prof. Alysson Cummings II",
+        "FullName": "Margarita Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldType": "System.Int32",
+            "FieldLength": 859
           }
         }
       }
     ],
     "ExtraInfo": "expedita",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Sheila Angela Thiel DDS",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Mrs. Dax Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

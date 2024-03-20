@@ -272,6 +272,7 @@ This is the archive Provider for the Selection ticket archive.
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -328,11 +329,11 @@ This is the archive Provider for the Selection ticket archive.
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/correspondingAssociate/userName|string|User name: User name| x |
@@ -432,11 +433,11 @@ This is the archive Provider for the Selection ticket archive.
 |contact/contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contact/contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contact/contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contact/contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contact/contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contact/contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |contact/contactAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -493,6 +494,7 @@ This is the archive Provider for the Selection ticket archive.
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -535,13 +537,14 @@ This is the archive Provider for the Selection ticket archive.
 |extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
-|extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
+|extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -638,13 +641,13 @@ This is the archive Provider for the Selection ticket archive.
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
-|project/name|stringorPK|Project name: Displays the Project's name| x |
-|project/number|string|Number: Displays the project's number| x |
-|project/type|listAny|Project type: Displays the project's type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/name|stringorPK|Project name: Displays the Project's name| x |
+|project/number|string|Number: Displays the project's number| x |
+|project/type|listAny|Project type: Displays the project's type| x |
 |project/status|listAny|Status: Displays the project's status| x |
 |project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
@@ -742,12 +745,16 @@ This is the archive Provider for the Selection ticket archive.
 |selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |targetTableNumber| *None* |TargetTableNumber: TargetTableNumber| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |targetRecordId| *None* |TargetRecordId: TargetRecordId| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=createdBy,person/useAsMailingAddress,person/personExtra/x_person_shorttext_list,person/personExtra/x_person_request_relation,person/personExtra/x_person_appointment_relation
+GET /api/v1/archive/TicketSelection?$select=title,createdBy/mrMrs,ownedBy/contactCategory,person/personDeletedDate,person/personInfo/infoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

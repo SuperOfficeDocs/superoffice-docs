@@ -216,6 +216,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |documentInstance/person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |documentInstance/person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|documentInstance/person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |documentInstance/person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |documentInstance/person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |documentInstance/person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -228,11 +229,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/person/personAssociate/role|listAny|Role : Role| x |
 |documentInstance/person/personAssociate/assocName|associate|User ID : User ID| x |
@@ -332,11 +333,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/email/emailId|int|ID| x |
 |documentInstance/contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |documentInstance/contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
-|documentInstance/contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |documentInstance/contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |documentInstance/contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |documentInstance/contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
@@ -436,11 +437,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
-|documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|documentInstance/contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |documentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |documentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |documentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -539,12 +541,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |documentInstance/project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |documentInstance/project/projectUdef/SuperOffice:4|date|projectdate| x |
-|documentInstance/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|documentInstance/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
+|documentInstance/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |documentInstance/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |documentInstance/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |documentInstance/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
@@ -643,12 +645,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |documentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
-|documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
+|documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
@@ -716,7 +718,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/title,documentInstance/person/birthDay,documentInstance/person/personActiveErpLinks,documentInstance/person/searchPhone/description,documentInstance/person/email/emailLastBounce
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/projectId,documentInstance/person/personPrivate/formattedNumber,documentInstance/person/personExtra/x_person_category_relation,documentInstance/project/projectAssociate/title,documentInstance/project/projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

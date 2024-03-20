@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 517,
-  "Name": "Jacobi LLC",
-  "CreatedDate": "2009-10-05T14:23:55.1802705+02:00",
-  "UpdatedDate": "2006-09-08T14:23:55.1802705+02:00",
+  "ForeignAppId": 468,
+  "Name": "Kassulke, Donnelly and Adams",
+  "CreatedDate": "2011-10-30T12:19:53.6023745+01:00",
+  "UpdatedDate": "2013-03-11T12:19:53.6023745+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 484,
-      "Name": "Schuster Inc and Sons",
-      "CreatedDate": "2012-05-11T14:23:55.1802705+02:00",
-      "UpdatedDate": "2013-10-26T14:23:55.1802705+02:00",
-      "AssociateFullName": "Mrs. Benedict Howe Sr.",
-      "CreatedBy": "illo",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 814,
+      "ForeignDeviceId": 742,
+      "Name": "Cummerata Inc and Sons",
+      "CreatedDate": "2013-05-04T12:19:53.6023745+02:00",
+      "UpdatedDate": "2000-09-20T12:19:53.6023745+02:00",
+      "AssociateFullName": "Oran Schaden",
+      "CreatedBy": "cumque",
+      "UpdatedBy": "aperiam",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 227,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 424
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

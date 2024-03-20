@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Streich Inc and Sons"
+  "Name": "McKenzie LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cronin, Langosh and Yundt",
-    "SoPrimaryKey": 923,
-    "EntryName": "VonRueden, Terry and Kuphal",
-    "EntryIdentifier": "architecto",
-    "RuleDisplayName": "Pagac, Cassin and Haley",
+    "RuleName": "Altenwerth, Boyer and Schuppe",
+    "SoPrimaryKey": 505,
+    "EntryName": "Wilkinson Inc and Sons",
+    "EntryIdentifier": "dolores",
+    "RuleDisplayName": "Lynch Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 830
       }
     }
   }

@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 417,
-  "ParentId": 628,
-  "Name": "Klein LLC",
-  "Fullname": "enim",
-  "CategoryMaster": 204,
+  "TicketCategoryId": 278,
+  "ParentId": 689,
+  "Name": "Dach, Fisher and Ratke",
+  "Fullname": "quia",
+  "CategoryMaster": 255,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuhic-Bernier",
+  "ExternalName": "Emmerich-O'Hara",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 611,
-  "ReplyTemplate": 466,
-  "NotificationEmail": "xander@heidenreichpaucek.name",
+  "AssignmentLag": 564,
+  "ReplyTemplate": 350,
+  "NotificationEmail": "rex_carroll@kautzergoldner.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 402,
+  "EffectiveReplyTemplateId": 976,
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "quidem"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "numquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 761
     }
   }
 }

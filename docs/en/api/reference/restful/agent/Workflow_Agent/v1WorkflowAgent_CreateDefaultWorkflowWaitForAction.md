@@ -49,7 +49,7 @@ OK
 |----------------|------|--------------|
 | WorkflowWaitForActionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
+| WorkflowId | int32 | Workflow id |
 | Rank | int32 | The rank of this action |
 | ActionType | string | The type of action |
 | RestrictionGroups | array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 994,
-  "WorkflowStepId": 169,
-  "WorkflowId": 935,
-  "Rank": 837,
+  "WorkflowWaitForActionId": 19,
+  "WorkflowStepId": 530,
+  "WorkflowId": 790,
+  "Rank": 679,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Berge LLC",
-      "Description": "Right-sized transitional ability",
-      "Rank": 976,
+      "Name": "Bogan-Wisozk",
+      "Description": "Robust executive implementation",
+      "Rank": 549,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Berge LLC",
-      "Description": "Right-sized transitional ability",
-      "Rank": 976,
+      "Name": "Bogan-Wisozk",
+      "Description": "Robust executive implementation",
+      "Rank": 549,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 425
     }
   }
 }

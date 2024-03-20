@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Dickens Inc and Sons",
-    "ToolTip": "Consequuntur sed non illo ut recusandae aut.",
-    "Deleted": false,
-    "Rank": 726,
-    "Type": "saepe",
-    "ColorBlock": 159,
-    "IconHint": "deserunt",
+    "Id": 233,
+    "Name": "Stoltenberg Inc and Sons",
+    "ToolTip": "Accusamus quis voluptas possimus modi dolorem.",
+    "Deleted": true,
+    "Rank": 218,
+    "Type": "et",
+    "ColorBlock": 166,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-12-12T14:23:56.009576+01:00",
+    "LastChanged": "1998-06-24T12:19:54.3522098+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Walter Group",
-        "ToolTip": "Itaque voluptates optio inventore praesentium doloribus et accusantium.",
+        "Id": 454,
+        "Name": "Dietrich Inc and Sons",
+        "ToolTip": "Eligendi voluptatem quibusdam.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "quos",
-        "ColorBlock": 805,
-        "IconHint": "ab",
+        "Rank": 185,
+        "Type": "itaque",
+        "ColorBlock": 819,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2000-11-25T14:23:56.009576+01:00",
+        "LastChanged": "2022-03-24T12:19:54.3522098+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
+        "ExtraInfo": "quae",
         "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Jazmyne Hackett",
+        "FullName": "Miss Mallory Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldType": "System.Int32",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "omnis",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Pinkie Rau",
+    "FullName": "Cassandra Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

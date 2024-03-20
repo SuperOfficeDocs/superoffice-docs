@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=500
+PUT /api/v1/Project/{id}/ImageInfo?projectId=610
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 934,
-  "BlobSize": 714,
-  "Description": "Compatible intermediate archive",
-  "ExtraInfo": "error",
-  "IsEncrypted": false,
+  "BlobId": 46,
+  "BlobSize": 620,
+  "Description": "Ameliorated background extranet",
+  "ExtraInfo": "dolorum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "modi",
-  "OriginalSize": 882,
-  "CreatedDate": "2013-01-21T14:23:55.3689602+01:00",
-  "UpdatedDate": "2004-07-09T14:23:55.3689602+02:00",
+  "MimeType": "natus",
+  "OriginalSize": 250,
+  "CreatedDate": "2007-01-15T12:19:53.7742043+01:00",
+  "UpdatedDate": "2003-05-29T12:19:53.7742043+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "quis"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 931,
-  "BlobSize": 379,
-  "Description": "Seamless bandwidth-monitored strategy",
-  "ExtraInfo": "quidem",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "fuga",
-  "OriginalSize": 224,
-  "CreatedDate": "2003-07-10T14:23:55.3689602+02:00",
-  "UpdatedDate": "2015-01-24T14:23:55.3689602+01:00",
+  "BlobId": 634,
+  "BlobSize": 653,
+  "Description": "Universal directional structure",
+  "ExtraInfo": "consequatur",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "nulla",
+  "OriginalSize": 926,
+  "CreatedDate": "2009-06-25T12:19:53.7742043+02:00",
+  "UpdatedDate": "2001-05-26T12:19:53.7742043+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odio",
+  "ConceptualType": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 812
     }
   }
 }

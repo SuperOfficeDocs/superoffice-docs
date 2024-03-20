@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 503
+  "QuoteId": 104
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 847,
-  "SaleId": 174,
-  "QuoteConnectionId": 950,
-  "ERPQuoteKey": "veniam",
-  "ERPOrderKey": "ipsam",
-  "ActiveQuoteVersionId": 203,
-  "AcceptedQuoteAlternativeId": 861,
-  "UseValuesFromQuote": 841,
-  "DocumentId": 235,
-  "PoNumber": "823523",
-  "OrderComment": "voluptatibus",
-  "PreferredEmailCulture": "gabriella.kshlerin@leuschke.name",
+  "QuoteId": 539,
+  "SaleId": 853,
+  "QuoteConnectionId": 34,
+  "ERPQuoteKey": "neque",
+  "ERPOrderKey": "ducimus",
+  "ActiveQuoteVersionId": 123,
+  "AcceptedQuoteAlternativeId": 802,
+  "UseValuesFromQuote": 942,
+  "DocumentId": 882,
+  "PoNumber": "847723",
+  "OrderComment": "quaerat",
+  "PreferredEmailCulture": "floy@hagenes.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

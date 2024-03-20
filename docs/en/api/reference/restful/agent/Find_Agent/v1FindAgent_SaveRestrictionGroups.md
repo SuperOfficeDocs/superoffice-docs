@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minus",
-  "ProviderName": "West-Wuckert",
-  "StorageKey": "ut",
+  "StorageType": "consequatur",
+  "ProviderName": "Bogan, Reynolds and Jerde",
+  "StorageKey": "velit",
   "RestrictionGroups": [
     {
-      "Name": "Rempel, Mann and Shanahan",
-      "Description": "Triple-buffered scalable emulation",
-      "Rank": 86,
+      "Name": "Haley LLC",
+      "Description": "Implemented intermediate protocol",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rempel, Mann and Shanahan",
-      "Description": "Triple-buffered scalable emulation",
-      "Rank": 86,
+      "Name": "Haley LLC",
+      "Description": "Implemented intermediate protocol",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "dolorem"
+  "Context": "doloribus"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rodriguez LLC",
-    "Description": "Reduced disintermediate Graphical User Interface",
-    "Rank": 622,
+    "Name": "Cruickshank, Littel and Hansen",
+    "Description": "Compatible non-volatile archive",
+    "Rank": 374,
     "Restrictions": [
       {
-        "Name": "Kutch Group",
-        "Operator": "assumenda",
+        "Name": "Dickens, Cummings and Maggio",
+        "Operator": "quos",
         "Values": [
-          "dolor",
-          "laborum"
+          "voluptatem",
+          "porro"
         ],
         "DisplayValues": [
-          "eligendi",
-          "ipsam"
+          "perferendis",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 407,
+        "InterParenthesis": 594,
         "InterOperator": "And",
-        "UniqueHash": 92
+        "UniqueHash": 978
       }
     ]
   },
   {
-    "Name": "Rodriguez LLC",
-    "Description": "Reduced disintermediate Graphical User Interface",
-    "Rank": 622,
+    "Name": "Cruickshank, Littel and Hansen",
+    "Description": "Compatible non-volatile archive",
+    "Rank": 374,
     "Restrictions": [
       {
-        "Name": "Kutch Group",
-        "Operator": "assumenda",
+        "Name": "Dickens, Cummings and Maggio",
+        "Operator": "quos",
         "Values": [
-          "dolor",
-          "laborum"
+          "voluptatem",
+          "porro"
         ],
         "DisplayValues": [
-          "eligendi",
-          "ipsam"
+          "perferendis",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 407,
+        "InterParenthesis": 594,
         "InterOperator": "And",
-        "UniqueHash": 92
+        "UniqueHash": 978
       }
     ]
   }

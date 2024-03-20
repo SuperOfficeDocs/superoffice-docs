@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Schulist, Dach and Johnson",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 4,
+  "Id": 292,
+  "Name": "Ryan, Muller and Thiel",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "Rank": 998,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Pagac LLC",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "Rank": 571,
+  "Id": 153,
+  "Name": "Pouros-Schaefer",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "Rank": 702,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 382
     }
   }
 }

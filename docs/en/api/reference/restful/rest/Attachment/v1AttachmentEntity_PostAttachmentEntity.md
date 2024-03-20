@@ -90,18 +90,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 855,
-  "Name": "Terry, Abbott and Adams",
-  "ContentType": "ea",
-  "AttSize": 1001,
+  "AttachmentId": 949,
+  "Name": "Johnston-Reinger",
+  "ContentType": "cupiditate",
+  "AttSize": 921,
   "InlineImage": false,
-  "ContentId": "cum",
-  "AuthKey": "dicta",
-  "IsSafeFileExtension": true
+  "ContentId": "aliquid",
+  "AuthKey": "quos",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 768,
-  "Name": "Bayer LLC",
-  "ContentType": "sint",
-  "AttSize": 124,
+  "AttachmentId": 278,
+  "Name": "Boehm, Smitham and Metz",
+  "ContentType": "sit",
+  "AttSize": 150,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "temporibus",
-  "IsSafeFileExtension": false,
+  "ContentId": "quis",
+  "AuthKey": "omnis",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   },
   "_Links": {

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 649,
-    "Name": "Stroman, D'Amore and Kunze",
-    "Tooltip": "aspernatur",
+    "HeadingId": 885,
+    "Name": "Spinka, Witting and Hahn",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 530,
-    "UdListDefinitionId": 267,
+    "Rank": 372,
+    "UdListDefinitionId": 6,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 554
       }
     }
   }

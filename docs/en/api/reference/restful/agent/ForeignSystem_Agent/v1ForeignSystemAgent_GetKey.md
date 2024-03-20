@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gusikowski, Hessel and Simonis",
-  "DeviceName": "Bartoletti, Weissnat and Schmitt",
-  "KeyName": "Torp-Dickens",
-  "TableName": "Rutherford Inc and Sons",
-  "RecordId": 406
+  "ApplicationName": "Ebert-Moen",
+  "DeviceName": "Yost Group",
+  "KeyName": "Feil, Raynor and Goldner",
+  "TableName": "Kohler, Tromp and Keeling",
+  "RecordId": 273
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "in",
-  "Value": "maiores",
-  "RecordId": 208,
-  "CreatedDate": "2015-03-07T14:23:46.7524806+01:00",
-  "UpdatedDate": "2012-03-21T14:23:46.7524806+01:00",
-  "UpdatedBy": "modi",
-  "CreatedBy": "provident",
-  "TableName": "Lueilwitz Group",
+  "Key": "dolore",
+  "Value": "modi",
+  "RecordId": 482,
+  "CreatedDate": "2009-04-29T12:19:45.4141069+02:00",
+  "UpdatedDate": "2002-04-16T12:19:45.4141069+02:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "mollitia",
+  "TableName": "Bechtelar, Fay and Feeney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldLength": 671
     }
   }
 }

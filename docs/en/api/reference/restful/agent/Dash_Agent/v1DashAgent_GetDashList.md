@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    437,
-    757
+    196,
+    562
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 698,
-    "UniqueId": "rerum",
-    "Name": "Hintz-Kunde",
-    "Description": "Optional fault-tolerant time-frame",
-    "AssociateId": 776,
-    "Columns": 795,
+    "DashboardId": 808,
+    "UniqueId": "aut",
+    "Name": "Wisoky, Anderson and Abbott",
+    "Description": "Business-focused national workforce",
+    "AssociateId": 644,
+    "Columns": 355,
     "Theme": null,
-    "VisibleForAll": 36,
+    "VisibleForAll": 140,
     "VisibleForAssociates": [
-      297,
-      468
+      797,
+      856
     ],
     "VisibleForGroups": [
-      497,
-      768
+      894,
+      565
     ],
-    "PinForAll": 259,
+    "PinForAll": 968,
     "PinForAssociates": [
-      745,
-      736
+      262,
+      45
     ],
     "PinForGroups": [
-      390,
-      875
+      207,
+      948
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

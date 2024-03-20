@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 574,
-    "Name": "Russel-Parisian",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 840
+    "HeadingId": 102,
+    "Name": "Schamberger Group",
+    "Tooltip": "ipsa",
+    "Deleted": true,
+    "Rank": 621,
+    "UdListDefinitionId": 159
   },
   {
-    "HeadingId": 574,
-    "Name": "Russel-Parisian",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 840
+    "HeadingId": 102,
+    "Name": "Schamberger Group",
+    "Tooltip": "ipsa",
+    "Deleted": true,
+    "Rank": 621,
+    "UdListDefinitionId": 159
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 251,
-    "Name": "Cassin-Brakus",
-    "Tooltip": "iste",
+    "HeadingId": 175,
+    "Name": "O'Hara Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 524,
-    "UdListDefinitionId": 853,
+    "Rank": 76,
+    "UdListDefinitionId": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 984
       }
     }
   }

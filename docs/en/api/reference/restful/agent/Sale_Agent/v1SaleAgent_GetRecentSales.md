@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 711,
-  "Count": 304
+  "AmountLimit": 331,
+  "Count": 442
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Block Group",
-    "SaleDate": "2022-01-09T14:23:47.3630051+01:00",
-    "SaleId": 972,
-    "Probability": 804,
-    "Title": "accusamus",
-    "Amount": 6872.862,
-    "Currency": "aut",
-    "ProjectName": "Kuhic-Grady",
-    "AssociateFullName": "Alaina Vandervort",
-    "Description": "Centralized solution-oriented process improvement",
+    "ContactName": "Roberts LLC",
+    "SaleDate": "2014-04-14T12:19:46.210807+02:00",
+    "SaleId": 288,
+    "Probability": 33,
+    "Title": "aut",
+    "Amount": 24774.27,
+    "Currency": "debitis",
+    "ProjectName": "Waelchi-Willms",
+    "AssociateFullName": "Clemens Rowe",
+    "Description": "Face to face executive database",
     "Status": "Lost",
-    "WeightedAmount": 19800.612,
-    "ProjectId": 762,
-    "EarningPercent": 6985.686,
-    "Earning": 19139.338,
-    "ContactId": 124,
-    "AssociateId": 75,
-    "PersonId": 247,
-    "SaleTypeId": 302,
-    "SaleTypeName": "Bergstrom-Hickle",
-    "PersonFullName": "Florida Rempel",
+    "WeightedAmount": 16773.167999999998,
+    "ProjectId": 468,
+    "EarningPercent": 10172.964,
+    "Earning": 13874.217999999999,
+    "ContactId": 133,
+    "AssociateId": 630,
+    "PersonId": 59,
+    "SaleTypeId": 645,
+    "SaleTypeName": "Keebler, Pacocha and Schaefer",
+    "PersonFullName": "Brooks Nolan",
     "Completed": "Completed",
-    "ActiveErpLinks": 154,
-    "NextDueDate": "2000-05-01T14:23:47.3630051+02:00",
-    "Number": "698241",
+    "ActiveErpLinks": 497,
+    "NextDueDate": "2018-09-27T12:19:46.210807+02:00",
+    "Number": "1585848",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 751
       }
     }
   }

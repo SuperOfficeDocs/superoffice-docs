@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Koepp-Ernser",
-    "ToolTip": "Quisquam quas.",
-    "Deleted": false,
-    "Rank": 306,
-    "Type": "in",
-    "ColorBlock": 981,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2020-11-24T14:23:56.0877037+01:00",
+    "Id": 411,
+    "Name": "Schmitt-Cole",
+    "ToolTip": "Expedita labore et voluptatem nihil id maiores.",
+    "Deleted": true,
+    "Rank": 19,
+    "Type": "ut",
+    "ColorBlock": 452,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2016-09-07T12:19:54.4302944+02:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Ratke-Bosco",
-        "ToolTip": "Rerum perferendis.",
+        "Id": 23,
+        "Name": "Little Group",
+        "ToolTip": "Illum aut.",
         "Deleted": true,
-        "Rank": 134,
-        "Type": "reiciendis",
-        "ColorBlock": 444,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "1999-11-18T14:23:56.0877037+01:00",
+        "Rank": 206,
+        "Type": "dolor",
+        "ColorBlock": 668,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2011-05-15T12:19:54.4302944+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "perspiciatis",
-        "Hidden": false,
-        "FullName": "Aimee Rath",
+        "ExtraInfo": "et",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Cristobal Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Mathias Nolan",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Robb Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldLength": 798
       }
     }
   }

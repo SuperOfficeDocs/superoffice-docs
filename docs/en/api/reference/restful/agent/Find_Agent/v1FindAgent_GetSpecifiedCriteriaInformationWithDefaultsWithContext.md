@@ -87,18 +87,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Rath-Kshlerin",
-  "StorageKey": "aliquid",
+  "StorageType": "ea",
+  "ProviderName": "Collier, Krajcik and Langosh",
+  "StorageKey": "dolorum",
   "DesiredColumnNames": [
-    "Weber-Ullrich",
-    "Nikolaus Inc and Sons"
+    "Fahey Inc and Sons",
+    "Botsford-Kshlerin"
   ],
   "StaticColumns": [
-    "cupiditate",
-    "non"
+    "ratione",
+    "accusamus"
   ],
-  "Context": "consequatur"
+  "Context": "quos"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lueilwitz-Marks",
-      "Operator": "laborum",
+      "Name": "Schowalter-Brown",
+      "Operator": "omnis",
       "Values": [
-        "et",
-        "et"
+        "aut",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "ea",
-        "quos"
+        "vitae",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 490,
+      "InterParenthesis": 878,
       "InterOperator": "And",
-      "UniqueHash": 700
+      "UniqueHash": 919
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Orn, Wiza and Feil",
-      "DisplayTooltip": "nostrum",
-      "DisplayType": "velit",
+      "DisplayName": "Keebler-Kutch",
+      "DisplayTooltip": "consectetur",
+      "DisplayType": "vitae",
       "CanOrderBy": false,
-      "Name": "Kihn-Schowalter",
+      "Name": "Romaguera Group",
       "CanRestrictBy": false,
-      "RestrictionType": "quis",
-      "RestrictionListName": "Bashirian, Murphy and Carroll",
-      "IsVisible": true,
-      "ExtraInfo": "quia",
-      "Width": "quis",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "ab"
+      "RestrictionType": "et",
+      "RestrictionListName": "O'Connell-Kertzmann",
+      "IsVisible": false,
+      "ExtraInfo": "nihil",
+      "Width": "animi",
+      "IconHint": "sit",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Marks LLC",
-      "PrimaryKey": 198,
+      "EntityName": "Fay Inc and Sons",
+      "PrimaryKey": 972,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odit",
-          "TooltipHint": "sapiente",
-          "LinkHint": "assumenda"
+          "DisplayValue": "veniam",
+          "TooltipHint": "est",
+          "LinkHint": "accusamus"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "consequuntur",
+      "LinkHint": "eaque",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 109
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wisozk-Becker",
-      "Description": "Persistent impactful capability",
-      "Rank": 225,
+      "Name": "Goldner-Price",
+      "Description": "Assimilated scalable task-force",
+      "Rank": 386,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisozk-Becker",
-      "Description": "Persistent impactful capability",
-      "Rank": 225,
+      "Name": "Goldner-Price",
+      "Description": "Assimilated scalable task-force",
+      "Rank": 386,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

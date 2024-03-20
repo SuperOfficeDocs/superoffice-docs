@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 106
+  "PersonId": 454
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 46,
-  "BlobSize": 63,
-  "Description": "Front-line motivating workforce",
-  "ExtraInfo": "saepe",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 152,
-  "CreatedDate": "2008-05-08T14:23:45.8918358+02:00",
-  "UpdatedDate": "2004-11-28T14:23:45.8918358+01:00",
+  "BlobId": 725,
+  "BlobSize": 695,
+  "Description": "Automated actuating ability",
+  "ExtraInfo": "debitis",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "magni",
+  "OriginalSize": 815,
+  "CreatedDate": "2007-07-26T12:19:44.539312+02:00",
+  "UpdatedDate": "2024-03-09T12:19:44.539312+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "amet",
+  "ConceptualType": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 4
     }
   }
 }

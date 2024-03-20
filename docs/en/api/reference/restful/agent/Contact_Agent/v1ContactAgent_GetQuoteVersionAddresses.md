@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 788
+  "QuoteVersionId": 744
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 16578.86,
-    "Wgs84Longitude": 16719.89,
+    "Wgs84Latitude": 14391.328,
+    "Wgs84Longitude": 22426.904,
     "LocalizedAddress": [
       [
         {
-          "Name": "Huels LLC",
-          "Value": "laudantium",
-          "Tooltip": "quae",
-          "Label": "magni",
-          "ValueLength": 685,
-          "AddressType": "asperiores",
+          "Name": "Gorczany LLC",
+          "Value": "qui",
+          "Tooltip": "voluptas",
+          "Label": "pariatur",
+          "ValueLength": 424,
+          "AddressType": "ut",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 675
+              "FieldType": "System.String",
+              "FieldLength": 888
             }
           }
         }
       ],
       [
         {
-          "Name": "Harris, Abbott and Beatty",
-          "Value": "tenetur",
-          "Tooltip": "doloremque",
-          "Label": "consequatur",
-          "ValueLength": 854,
-          "AddressType": "nobis",
+          "Name": "Russel-Rippin",
+          "Value": "assumenda",
+          "Tooltip": "omnis",
+          "Label": "beatae",
+          "ValueLength": 589,
+          "AddressType": "pariatur",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 129
+              "FieldType": "System.Int32",
+              "FieldLength": 866
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "voluptas",
+    "Formatted": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 994
       }
     }
   }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "vero",
-    "maiores"
+    "voluptate",
+    "aut"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 451,
-    "ResourceId": 963,
-    "Text": "sint",
+    "LanguageId": 217,
+    "ResourceId": 636,
+    "Text": "non",
     "Type": "Column",
-    "LocalizedTextId": 115,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 87,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 398
       }
     }
   }

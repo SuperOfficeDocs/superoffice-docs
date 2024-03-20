@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Walker, Dibbert and VonRueden",
-    "ToolTip": "Minima sit voluptas distinctio sunt.",
+    "Id": 867,
+    "Name": "Prosacco, Hirthe and Hickle",
+    "ToolTip": "Sint adipisci voluptatem sit recusandae explicabo architecto.",
     "Deleted": false,
-    "Rank": 417,
-    "Type": "odio",
-    "ColorBlock": 674,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2022-12-01T14:23:56.1502016+01:00",
+    "Rank": 106,
+    "Type": "occaecati",
+    "ColorBlock": 240,
+    "IconHint": "quibusdam",
+    "Selected": false,
+    "LastChanged": "2007-07-12T12:19:54.6334859+02:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Hane, Legros and Stamm",
-        "ToolTip": "Fugit consequatur.",
+        "Id": 857,
+        "Name": "Hilpert, Howe and Connelly",
+        "ToolTip": "Minima iste quidem fugit sint quam quia.",
         "Deleted": false,
-        "Rank": 488,
-        "Type": "voluptas",
-        "ColorBlock": 958,
-        "IconHint": "voluptatem",
+        "Rank": 440,
+        "Type": "et",
+        "ColorBlock": 680,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2009-04-27T14:23:56.1502016+02:00",
+        "LastChanged": "2005-02-28T12:19:54.6334859+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "neque",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Mrs. Chauncey Littel DDS"
+        "FullName": "Kallie Yundt"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "nemo",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Pietro Brett Lindgren IV"
+    "FullName": "Zachariah Adams"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Hackett, Rippin and Weissnat",
-    "ToolTip": "Nesciunt nihil aspernatur qui deserunt laudantium culpa.",
+    "Id": 246,
+    "Name": "Wolff Group",
+    "ToolTip": "Qui consequatur repellendus ex est ratione tenetur.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "quaerat",
-    "ColorBlock": 139,
-    "IconHint": "eos",
+    "Rank": 498,
+    "Type": "aliquam",
+    "ColorBlock": 215,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2003-04-08T14:23:56.1502016+02:00",
+    "LastChanged": "2023-11-21T12:19:54.6334859+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Cummerata-Wiza",
-        "ToolTip": "Atque placeat architecto porro.",
-        "Deleted": false,
-        "Rank": 297,
-        "Type": "voluptatum",
-        "ColorBlock": 669,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "1998-12-22T14:23:56.1502016+01:00",
+        "Id": 887,
+        "Name": "Welch, Crooks and Grady",
+        "ToolTip": "Sit sapiente ratione.",
+        "Deleted": true,
+        "Rank": 878,
+        "Type": "debitis",
+        "ColorBlock": 155,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2017-08-18T12:19:54.6334859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Candida Champlin",
+        "ExtraInfo": "porro",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Kelly Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 112
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Joe Koss",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Dr. Zander Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 883
       }
     }
   }

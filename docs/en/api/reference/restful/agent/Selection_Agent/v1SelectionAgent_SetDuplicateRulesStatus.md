@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Emard, Swaniawski and Marquardt",
-      "DisplayName": "Turner, Pagac and Brekke",
-      "DisplayTooltip": "nostrum",
-      "IsActive": true
+      "Name": "Emard LLC",
+      "DisplayName": "Brekke, Cormier and Hahn",
+      "DisplayTooltip": "recusandae",
+      "IsActive": false
     },
     {
-      "Name": "Emard, Swaniawski and Marquardt",
-      "DisplayName": "Turner, Pagac and Brekke",
-      "DisplayTooltip": "nostrum",
-      "IsActive": true
+      "Name": "Emard LLC",
+      "DisplayName": "Brekke, Cormier and Hahn",
+      "DisplayTooltip": "recusandae",
+      "IsActive": false
     }
   ]
 }

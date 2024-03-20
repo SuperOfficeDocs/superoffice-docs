@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 465,
-  "SourcePersonId": 746,
-  "DestinationContactId": 808,
-  "DestinationPersonId": 954,
-  "RelationId": 691,
-  "Comment": "exercitationem",
-  "RelationDefinitionId": 366,
-  "Reversed": 354,
-  "UpdatedDate": "2009-12-28T14:23:47.2692571+01:00",
-  "CreatedDate": "2020-06-06T14:23:47.2692571+02:00",
+  "SourceContactId": 273,
+  "SourcePersonId": 922,
+  "DestinationContactId": 660,
+  "DestinationPersonId": 809,
+  "RelationId": 506,
+  "Comment": "et",
+  "RelationDefinitionId": 118,
+  "Reversed": 222,
+  "UpdatedDate": "2009-12-24T12:19:46.117062+01:00",
+  "CreatedDate": "2021-06-14T12:19:46.117062+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Satterfield LLC",
-  "SourcePersonName": "Waelchi Group",
-  "DestinationContactName": "Reynolds-Kunze",
-  "DestinationPersonName": "Brakus-Russel",
-  "ActiveText": "quia",
-  "PassiveText": "nobis",
+  "SourceContactName": "Paucek, Hoeger and Wisozk",
+  "SourcePersonName": "Kris, Tillman and Wiza",
+  "DestinationContactName": "Torphy Inc and Sons",
+  "DestinationPersonName": "Gorczany-Champlin",
+  "ActiveText": "quos",
+  "PassiveText": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 707
     }
   }
 }

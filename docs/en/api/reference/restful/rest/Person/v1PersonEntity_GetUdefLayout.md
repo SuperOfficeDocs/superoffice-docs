@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 96,
-    "ColumnId": 618,
-    "FieldDefault": "provident",
-    "FieldHeight": 389,
-    "FieldLabel": "ea",
-    "FieldLeft": 883,
-    "FieldTop": 610,
+    "UDefFieldId": 196,
+    "ColumnId": 851,
+    "FieldDefault": "doloribus",
+    "FieldHeight": 110,
+    "FieldLabel": "velit",
+    "FieldLeft": 966,
+    "FieldTop": 734,
     "FieldType": "Checkbox",
-    "FieldWidth": 857,
-    "FormatMask": "ratione",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 922,
-    "LabelLeft": 931,
-    "LabelTop": 985,
-    "LabelWidth": 785,
-    "LastVersionId": 177,
-    "ListTableId": 310,
+    "FieldWidth": 872,
+    "FormatMask": "eius",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 13,
+    "LabelLeft": 848,
+    "LabelTop": 548,
+    "LabelWidth": 946,
+    "LastVersionId": 330,
+    "ListTableId": 141,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 486,
-    "ProgId": "dignissimos",
+    "Page1LineNo": 422,
+    "ProgId": "harum",
     "IsReadOnly": false,
-    "ShortLabel": "omnis",
-    "TabOrder": 569,
-    "TextLength": 853,
-    "Tooltip": "et",
-    "UdefIdentity": 36,
-    "UDListDefinitionId": 906,
+    "ShortLabel": "rerum",
+    "TabOrder": 299,
+    "TextLength": 737,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 935,
+    "UDListDefinitionId": 722,
     "Justification": "Center",
-    "Version": 538,
-    "TemplateVariableName": "Koch Inc and Sons",
+    "Version": 264,
+    "TemplateVariableName": "Kuhlman-Lubowitz",
     "HasBeenPublished": true,
-    "MdoListName": "Olson Group",
+    "MdoListName": "Dooley, Littel and Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldLength": 638
       }
     }
   }

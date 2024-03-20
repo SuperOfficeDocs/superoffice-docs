@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 836,
-    "Name": "Hagenes Group",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 693,
+    "WebPanelId": 703,
+    "Name": "Pollich, Bradtke and Senger",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "Rank": 543,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Kuvalis LLC",
+    "WindowName": "Gutmann-Douglas",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 875,
+    "ProgId": "nulla",
+    "Icon": 331,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldLength": 927
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rohan Group"
+  "TableName": "Eichmann, Pfeffer and Waters"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "deleniti",
-  "Inserts": 30,
-  "Updates": 570,
-  "Deletes": 170,
+  "Message": "esse",
+  "Inserts": 417,
+  "Updates": 319,
+  "Deletes": 885,
   "RowStatus": [
     {
-      "PrimaryKey": 984,
+      "PrimaryKey": 828,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "facilis",
-        "ex"
+        "ad",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldLength": 597
         }
       }
     },
     {
-      "PrimaryKey": 984,
+      "PrimaryKey": 828,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "facilis",
-        "ex"
+        "ad",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldLength": 597
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

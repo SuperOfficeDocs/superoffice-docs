@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 232,
-  "Name": "Swift-Smitham",
-  "Rank": 760,
-  "Tooltip": "et",
+  "AssociateId": 35,
+  "Name": "Doyle-Bailey",
+  "Rank": 886,
+  "Tooltip": "rerum",
   "LicenseOwners": [
     {
-      "Name": "Reilly, Ebert and Klein",
-      "Description": "Grass-roots explicit hardware",
+      "Name": "Little, Gleichner and O'Keefe",
+      "Description": "Enhanced encompassing hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 329
         }
       }
     },
     {
-      "Name": "Reilly, Ebert and Klein",
-      "Description": "Grass-roots explicit hardware",
+      "Name": "Little, Gleichner and O'Keefe",
+      "Description": "Enhanced encompassing hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 329
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "aut",
-      "Id": 93,
-      "Rank": 497,
+      "Value": "totam",
+      "Tooltip": "quia",
+      "Id": 547,
+      "Rank": 234,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 244
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "1997-04-12T14:23:47.8161253+02:00",
-  "Lastlogout": "2018-10-02T14:23:47.8161253+02:00",
-  "EjUserId": 622,
-  "RequestSignature": "quia",
+  "Lastlogin": "2013-02-01T12:19:46.5388507+01:00",
+  "Lastlogout": "2020-03-23T12:19:46.5388507+01:00",
+  "EjUserId": 472,
+  "RequestSignature": "illum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "culpa",
+      "Value": "inventore",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldLength": 733
         }
       }
     },
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "culpa",
+      "Value": "inventore",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldLength": 733
         }
       }
     }
   ],
-  "UserName": "Schowalter-Halvorson",
+  "UserName": "Zemlak-Hegmann",
   "TicketCategories": [
     {
-      "Id": 541,
-      "Name": "Johnston-McKenzie",
-      "ToolTip": "Dolor sunt voluptas blanditiis aut quam aut.",
+      "Id": 786,
+      "Name": "Kuhlman LLC",
+      "ToolTip": "Officia dolores cum quidem voluptatibus aut facilis.",
       "Deleted": false,
-      "Rank": 775,
-      "Type": "libero",
+      "Rank": 793,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "molestiae",
-      "ColorBlock": 749,
-      "ExtraInfo": "fugiat",
-      "StyleHint": "ut",
-      "FullName": "Mrs. Georgianna Alexandro Robel",
+      "IconHint": "similique",
+      "ColorBlock": 858,
+      "ExtraInfo": "nostrum",
+      "StyleHint": "fugit",
+      "FullName": "Melyna Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "NickName": "Hagenes-Waelchi",
+  "NickName": "Gislason, Boyle and Veum",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "necessitatibus",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "enim",
+    "CustomFields2": "nisi"
   },
   "PostSaveCommands": [
     {
-      "Name": "King, Farrell and Wyman",
-      "DisplayName": "Anderson-Johnston",
-      "Description": "Compatible motivating benchmark",
-      "ToolTip": "Sapiente suscipit magni.",
+      "Name": "Heidenreich-Monahan",
+      "DisplayName": "Mills, Jast and Yost",
+      "Description": "Integrated methodical encryption",
+      "ToolTip": "Et expedita.",
       "Actions": "Implicit",
-      "ActionData": "aliquid",
+      "ActionData": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 831
     }
   }
 }

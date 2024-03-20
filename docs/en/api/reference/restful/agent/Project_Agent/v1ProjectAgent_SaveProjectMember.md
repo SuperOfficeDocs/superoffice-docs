@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 560,
-  "ContactId": 87,
-  "ProjectId": 649,
-  "ContactName": "Mohr Inc and Sons",
+  "ProjectmemberId": 401,
+  "ContactId": 699,
+  "ProjectId": 496,
+  "ContactName": "Connelly-Flatley",
   "ContactDepartment": "",
-  "ProjectName": "Reichert, Cartwright and Bode",
-  "EmailId": 914,
-  "EmailAddress": "scarlett@maggio.biz",
-  "CountryId": 65,
-  "Firstname": "Anna",
-  "MiddleName": "Hane, Turcotte and Tillman",
-  "Lastname": "Pagac",
-  "PersonId": 544,
-  "Mrmrs": "exercitationem",
-  "ProjectMemberTypeName": "Gibson, Durgan and Kuhic",
-  "Phone": "1-832-682-1859",
-  "PhoneId": 124,
-  "ProjectMemberTypeId": 160,
-  "EmailAddressName": "alec_boehm@vandervorthayes.name",
-  "Comment": "illo",
-  "FullName": "Destany Chyna Bode V"
+  "ProjectName": "Schroeder Inc and Sons",
+  "EmailId": 363,
+  "EmailAddress": "delfina_moen@wintheisermaggio.name",
+  "CountryId": 126,
+  "Firstname": "Ruben",
+  "MiddleName": "Champlin, Rosenbaum and Mante",
+  "Lastname": "Huels",
+  "PersonId": 15,
+  "Mrmrs": "dolores",
+  "ProjectMemberTypeName": "Kris Group",
+  "Phone": "243-602-8874 x5358",
+  "PhoneId": 282,
+  "ProjectMemberTypeId": 478,
+  "EmailAddressName": "hunter_luettgen@jacobs.co.uk",
+  "Comment": "a",
+  "FullName": "Tommie Krajcik"
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 49,
-  "ContactId": 557,
-  "ProjectId": 115,
-  "ContactName": "Sauer Group",
+  "ProjectmemberId": 51,
+  "ContactId": 450,
+  "ProjectId": 885,
+  "ContactName": "Jacobson-Rodriguez",
   "ContactDepartment": "",
-  "ProjectName": "Haag, Halvorson and Kozey",
-  "EmailId": 937,
-  "EmailAddress": "estel@hudsonkling.com",
-  "CountryId": 869,
-  "Firstname": "Casandra",
-  "MiddleName": "Boyer Group",
-  "Lastname": "Turner",
-  "PersonId": 682,
-  "Mrmrs": "praesentium",
-  "ProjectMemberTypeName": "Lynch Inc and Sons",
-  "Phone": "141.911.2774",
-  "PhoneId": 734,
-  "ProjectMemberTypeId": 109,
-  "EmailAddressName": "justina@kessler.co.uk",
-  "Comment": "sapiente",
-  "FullName": "Rickie Susana Block Jr.",
+  "ProjectName": "Renner-Jerde",
+  "EmailId": 295,
+  "EmailAddress": "charity@erdman.com",
+  "CountryId": 123,
+  "Firstname": "Roscoe",
+  "MiddleName": "Feil, Brown and Padberg",
+  "Lastname": "Bahringer",
+  "PersonId": 535,
+  "Mrmrs": "dignissimos",
+  "ProjectMemberTypeName": "Kozey Group",
+  "Phone": "328.804.2214",
+  "PhoneId": 582,
+  "ProjectMemberTypeId": 922,
+  "EmailAddressName": "joesph_krajcik@monahan.ca",
+  "Comment": "eius",
+  "FullName": "Dane Sauer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

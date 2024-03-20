@@ -84,7 +84,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,35 +94,35 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 845,
-  "Name": "Lueilwitz, Pfeffer and Wintheiser",
-  "Rank": 355,
-  "Tooltip": "impedit",
-  "Icon": "et",
-  "DefaultTicketStatus": 894,
+  "TicketTypeId": 239,
+  "Name": "O'Connell, Hackett and Pacocha",
+  "Rank": 828,
+  "Tooltip": "sint",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 280,
   "TicketStatuses": [
-    702,
-    942
+    359,
+    276
   ],
-  "DefaultTicketPriority": 76,
+  "DefaultTicketPriority": 725,
   "TicketPriorities": [
-    379,
-    961
+    92,
+    204
   ],
-  "ReplyTemplate": 920,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 883,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 700
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

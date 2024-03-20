@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 655,
-    "Name": "Hills, Stokes and Kozey",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 102,
-    "UdListDefinitionId": 335
+    "HeadingId": 840,
+    "Name": "Sanford-Zemlak",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 76,
+    "UdListDefinitionId": 398
   },
   {
-    "HeadingId": 655,
-    "Name": "Hills, Stokes and Kozey",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 102,
-    "UdListDefinitionId": 335
+    "HeadingId": 840,
+    "Name": "Sanford-Zemlak",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 76,
+    "UdListDefinitionId": 398
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Stokes, Robel and Heller",
-    "Tooltip": "eligendi",
+    "HeadingId": 900,
+    "Name": "Murphy-Mitchell",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "Rank": 636,
-    "UdListDefinitionId": 832,
+    "Rank": 60,
+    "UdListDefinitionId": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldType": "System.String",
+        "FieldLength": 258
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Marquardt Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 368,
-    "Rank": 12,
+    "Id": 3,
+    "Name": "Willms, Conn and Ondricka",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "UdListDefinitionId": 725,
+    "Rank": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 389
       }
     }
   }

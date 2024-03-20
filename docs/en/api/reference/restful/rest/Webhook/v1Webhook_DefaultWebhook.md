@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 571,
-  "Name": "Volkman Inc and Sons",
+  "WebhookId": 259,
+  "Name": "Lind LLC",
   "Events": [
-    "autem",
-    "nostrum"
+    "impedit",
+    "veritatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "saepe",
   "State": "Active",
-  "Type": "accusantium",
+  "Type": "unde",
   "Headers": {
-    "Headers1": "fugit",
-    "Headers2": "et"
+    "Headers1": "rem",
+    "Headers2": "temporibus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-02-04T14:23:55.915829+01:00",
+  "Registered": "2013-04-18T12:19:54.2584759+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-12-14T14:23:55.915829+01:00",
+  "Updated": "2022-08-25T12:19:54.2584759+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "devonte.west@ziemann.co.uk"
+  "ErrorsEmail": "hillard.treutel@cruickshank.name"
 }
 ```

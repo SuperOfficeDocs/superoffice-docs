@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Klocko, Gleichner and Will",
-    "ToolTip": "Voluptas velit voluptates similique.",
-    "Deleted": true,
-    "Rank": 174,
-    "Type": "recusandae",
-    "ColorBlock": 524,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "1997-06-19T14:23:56.3376983+02:00",
+    "Id": 535,
+    "Name": "Krajcik Inc and Sons",
+    "ToolTip": "Aut qui et modi aliquam.",
+    "Deleted": false,
+    "Rank": 8,
+    "Type": "voluptas",
+    "ColorBlock": 534,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2003-03-01T12:19:54.8364594+01:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Monahan Inc and Sons",
-        "ToolTip": "Dolorum ut similique officiis itaque.",
-        "Deleted": true,
-        "Rank": 439,
-        "Type": "nostrum",
-        "ColorBlock": 784,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2004-01-27T14:23:56.3376983+01:00",
+        "Id": 483,
+        "Name": "Altenwerth-Barrows",
+        "ToolTip": "Magni rerum ut dolores nam et eos.",
+        "Deleted": false,
+        "Rank": 221,
+        "Type": "cumque",
+        "ColorBlock": 472,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2022-06-20T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Mrs. Keon Huels MD"
+        "ExtraInfo": "velit",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Miss Darrel Addie Ortiz"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "sequi",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mr. Joshuah Sanford DDS"
+    "FullName": "Leda Dickens I"
   }
 ]
 ```
@@ -151,55 +151,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 578,
-    "Name": "Orn-Witting",
-    "ToolTip": "Vel tenetur autem.",
+    "Name": "Williamson, Schinner and Hermann",
+    "ToolTip": "Est omnis consequatur.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "autem",
-    "ColorBlock": 708,
-    "IconHint": "porro",
+    "Rank": 37,
+    "Type": "quo",
+    "ColorBlock": 57,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2006-03-31T14:23:56.3376983+02:00",
+    "LastChanged": "2007-06-06T12:19:54.8364594+02:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Larkin, Stoltenberg and Ruecker",
-        "ToolTip": "Et cumque numquam ea.",
-        "Deleted": false,
-        "Rank": 940,
-        "Type": "voluptatum",
-        "ColorBlock": 708,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2010-02-17T14:23:56.3376983+01:00",
+        "Id": 749,
+        "Name": "Kris, Ryan and Ortiz",
+        "ToolTip": "Cupiditate illo perspiciatis nostrum velit aperiam nemo.",
+        "Deleted": true,
+        "Rank": 298,
+        "Type": "sed",
+        "ColorBlock": 572,
+        "IconHint": "ab",
+        "Selected": false,
+        "LastChanged": "2003-08-29T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Prof. Lane Simone Kertzmann",
+        "FullName": "Mrs. Norris Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 814
+            "FieldType": "System.Int32",
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "similique",
+    "ExtraInfo": "eaque",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Christ Turner",
+    "FullName": "Ralph Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 378
       }
     }
   }

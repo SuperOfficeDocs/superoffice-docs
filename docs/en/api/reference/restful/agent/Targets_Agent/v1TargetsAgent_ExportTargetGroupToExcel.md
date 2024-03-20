@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 51
+  "TargetGroupId": 1001
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 62,
-  "FileName": "Hoppe-Haley",
-  "Message": "ipsa",
+  "BatchTaskId": 598,
+  "FileName": "Rutherford LLC",
+  "Message": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

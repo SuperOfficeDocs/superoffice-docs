@@ -79,8 +79,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 267,
-  "TableName": "Kuhlman, Keebler and Schinner",
+  "RoleId": 510,
+  "TableName": "Schulist LLC",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"exercitationem"
 ```

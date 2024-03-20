@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Ziemann Group",
-  "Tooltip": "rerum",
+  "Id": 753,
+  "Name": "Reichert-Hahn",
+  "Tooltip": "tempora",
   "Deleted": true,
-  "Rank": 977,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 354,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": false
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Franecki-Keeling",
-  "Tooltip": "quos",
+  "Id": 717,
+  "Name": "Baumbach, Kautzer and Bailey",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 886,
-  "IsCustomList": true,
+  "Rank": 248,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 871
     }
   }
 }

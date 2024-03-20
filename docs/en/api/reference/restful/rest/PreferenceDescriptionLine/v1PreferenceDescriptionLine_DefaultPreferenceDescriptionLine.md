@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 76,
-  "PrefDescId": 477,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "non",
-  "Description": "Enterprise-wide user-facing utilisation",
-  "IsBuiltin": false,
+  "PrefDescLineId": 841,
+  "PrefDescId": 310,
+  "PrefValue": "vel",
+  "PrefShowValue": "atque",
+  "Description": "Operative local secured line",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

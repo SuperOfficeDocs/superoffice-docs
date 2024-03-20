@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 719,
-  "TopicId": 541,
+  "ChatSessionId": 371,
+  "TopicId": 546,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odit",
-  "CustomerHost": "minus",
-  "CustomerName": "Muller Inc and Sons",
-  "CustomerEmail": "janelle.goodwin@erdman.biz",
-  "CustomerPhone": "654-036-3476 x45184",
+  "CustomerAlias": "sed",
+  "CustomerHost": "quia",
+  "CustomerName": "Hand LLC",
+  "CustomerEmail": "letha@frami.us",
+  "CustomerPhone": "159.795.1257 x58847",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Trantow Group",
+  "CustomerCompanyName": "Lockman, Moore and Schinner",
   "Status": "Closed",
-  "FirstMessage": "corporis",
-  "LastMessage": "doloremque",
-  "WhenRequested": "2002-02-18T14:23:45.9230859+01:00",
-  "WhenStarted": "2005-02-19T14:23:45.9230859+01:00",
-  "WhenEnded": "2003-03-10T14:23:45.9230859+01:00",
-  "WhenIdle": "2008-07-29T14:23:45.9230859+02:00",
-  "WhenFetched": "1999-04-30T14:23:45.9230859+02:00",
-  "SessionKey": "illo",
-  "InitialQueuePos": 380,
-  "AlertLevel": 916,
-  "Rank": 18,
+  "FirstMessage": "qui",
+  "LastMessage": "ut",
+  "WhenRequested": "2001-01-11T12:19:44.5549332+01:00",
+  "WhenStarted": "2009-02-28T12:19:44.5549332+01:00",
+  "WhenEnded": "2008-02-15T12:19:44.5549332+01:00",
+  "WhenIdle": "2013-08-19T12:19:44.5549332+02:00",
+  "WhenFetched": "2000-07-17T12:19:44.5549332+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 695,
+  "AlertLevel": 966,
+  "Rank": 784,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 703
+  "Rating": 997
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 637,
-  "TopicId": 712,
+  "ChatSessionId": 258,
+  "TopicId": 940,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "vel",
-  "CustomerName": "McLaughlin, Grant and Cole",
-  "CustomerEmail": "angelita@kuhlmansmith.co.uk",
-  "CustomerPhone": "(948)542-2632 x017",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Bednar LLC",
+  "CustomerAlias": "ratione",
+  "CustomerHost": "assumenda",
+  "CustomerName": "Collier-Okuneva",
+  "CustomerEmail": "kaden.mcclure@trantow.info",
+  "CustomerPhone": "283-288-8031 x9488",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Connelly-Herman",
   "Status": "Closed",
-  "FirstMessage": "rem",
-  "LastMessage": "atque",
-  "WhenRequested": "1997-05-19T14:23:45.9230859+02:00",
-  "WhenStarted": "2013-04-26T14:23:45.9230859+02:00",
-  "WhenEnded": "2009-04-18T14:23:45.9230859+02:00",
-  "WhenIdle": "2009-08-03T14:23:45.9230859+02:00",
-  "WhenFetched": "2002-10-06T14:23:45.9230859+02:00",
-  "SessionKey": "illum",
-  "InitialQueuePos": 88,
-  "AlertLevel": 951,
-  "Rank": 144,
+  "FirstMessage": "eligendi",
+  "LastMessage": "ut",
+  "WhenRequested": "2023-08-13T12:19:44.5705529+02:00",
+  "WhenStarted": "2023-01-03T12:19:44.5705529+01:00",
+  "WhenEnded": "2004-06-09T12:19:44.5705529+02:00",
+  "WhenIdle": "2014-08-09T12:19:44.5705529+02:00",
+  "WhenFetched": "2008-03-28T12:19:44.5705529+01:00",
+  "SessionKey": "id",
+  "InitialQueuePos": 284,
+  "AlertLevel": 61,
+  "Rank": 724,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 537,
+  "ChatbotIsActive": true,
+  "Rating": 451,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 766
     }
   }
 }

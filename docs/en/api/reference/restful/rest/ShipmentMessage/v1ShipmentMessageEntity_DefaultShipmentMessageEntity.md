@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 265,
-  "PlainMessage": "ullam",
-  "HtmlMessage": "dolor",
-  "SmsMessage": "occaecati",
-  "Description": "Object-based well-modulated monitoring",
-  "Subject": "totam",
-  "FolderId": 45,
-  "HeaderField": "minima",
-  "Design": "consequatur",
+  "ShipmentMessageId": 949,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "eaque",
+  "SmsMessage": "dignissimos",
+  "Description": "Enhanced systemic encoding",
+  "Subject": "nisi",
+  "FolderId": 373,
+  "HeaderField": "eaque",
+  "Design": "sapiente",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Implemented upward-trending encryption",
-  "AccessKey": "commodi",
-  "DocumentMessage": 998,
-  "Registered": "2022-02-13T14:23:55.5252104+01:00",
-  "RegisteredAssociateId": 479,
-  "Updated": "2016-08-23T14:23:55.5252104+02:00",
-  "UpdatedAssociateId": 670,
-  "UpdatedCount": 879,
+  "LongDescription": "Assimilated composite methodology",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 988,
+  "Registered": "2002-08-31T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 821,
+  "Updated": "2005-07-06T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 960,
+  "UpdatedCount": 910,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 781
     }
   }
 }

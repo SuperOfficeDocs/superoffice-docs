@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Aufderhar-Wunsch",
-    "Tooltip": "sit",
+    "HeadingId": 377,
+    "Name": "Turner, Bins and Lind",
+    "Tooltip": "iste",
     "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 92
+    "Rank": 385,
+    "UdListDefinitionId": 750
   },
   {
-    "HeadingId": 609,
-    "Name": "Aufderhar-Wunsch",
-    "Tooltip": "sit",
+    "HeadingId": 377,
+    "Name": "Turner, Bins and Lind",
+    "Tooltip": "iste",
     "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 92
+    "Rank": 385,
+    "UdListDefinitionId": 750
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 793,
-    "Name": "Marks, Weimann and Bartell",
-    "Tooltip": "unde",
-    "Deleted": false,
-    "Rank": 777,
-    "UdListDefinitionId": 32,
+    "HeadingId": 168,
+    "Name": "Wilkinson-Hodkiewicz",
+    "Tooltip": "harum",
+    "Deleted": true,
+    "Rank": 225,
+    "UdListDefinitionId": 594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

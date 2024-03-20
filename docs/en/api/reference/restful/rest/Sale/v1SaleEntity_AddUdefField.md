@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 587,
-  "ColumnId": 745,
-  "FieldDefault": "ea",
-  "FieldHeight": 327,
-  "FieldLabel": "enim",
-  "FieldLeft": 545,
-  "FieldTop": 12,
+  "UDefFieldId": 610,
+  "ColumnId": 505,
+  "FieldDefault": "aut",
+  "FieldHeight": 949,
+  "FieldLabel": "maxime",
+  "FieldLeft": 67,
+  "FieldTop": 526,
   "FieldType": "Checkbox",
-  "FieldWidth": 514,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 451,
+  "FormatMask": "labore",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 119,
-  "LabelLeft": 237,
-  "LabelTop": 870,
-  "LabelWidth": 651,
-  "LastVersionId": 890,
-  "ListTableId": 535,
+  "LabelHeight": 316,
+  "LabelLeft": 394,
+  "LabelTop": 578,
+  "LabelWidth": 109,
+  "LastVersionId": 673,
+  "ListTableId": 909,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 22,
-  "ProgId": "qui",
+  "Page1LineNo": 430,
+  "ProgId": "tempore",
   "IsReadOnly": true,
-  "ShortLabel": "eum",
-  "TabOrder": 156,
-  "TextLength": 153,
-  "Tooltip": "aut",
-  "UdefIdentity": 838,
-  "UDListDefinitionId": 6,
+  "ShortLabel": "illo",
+  "TabOrder": 848,
+  "TextLength": 845,
+  "Tooltip": "ut",
+  "UdefIdentity": 816,
+  "UDListDefinitionId": 760,
   "Justification": "Center",
-  "Version": 884,
-  "TemplateVariableName": "Fritsch, Walter and Gibson",
-  "HasBeenPublished": true,
-  "MdoListName": "Keebler, Braun and Grady",
+  "Version": 460,
+  "TemplateVariableName": "Bernier, Tromp and Beahan",
+  "HasBeenPublished": false,
+  "MdoListName": "Erdman LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldType": "System.Int32",
+      "FieldLength": 127
     }
   }
 }

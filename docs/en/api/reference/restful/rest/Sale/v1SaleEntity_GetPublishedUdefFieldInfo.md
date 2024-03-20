@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 736,
-  "ColumnId": 86,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 754,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 754,
-  "FieldTop": 57,
+  "UDefFieldId": 356,
+  "ColumnId": 686,
+  "FieldDefault": "ex",
+  "FieldHeight": 619,
+  "FieldLabel": "dolore",
+  "FieldLeft": 177,
+  "FieldTop": 637,
   "FieldType": "Checkbox",
-  "FieldWidth": 497,
-  "FormatMask": "aspernatur",
+  "FieldWidth": 540,
+  "FormatMask": "dolor",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 163,
-  "LabelLeft": 173,
-  "LabelTop": 994,
-  "LabelWidth": 575,
-  "LastVersionId": 185,
-  "ListTableId": 824,
+  "IsIndexed": false,
+  "LabelHeight": 239,
+  "LabelLeft": 609,
+  "LabelTop": 395,
+  "LabelWidth": 680,
+  "LastVersionId": 167,
+  "ListTableId": 180,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 674,
-  "ProgId": "dolore",
+  "Page1LineNo": 10,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 522,
-  "TextLength": 620,
-  "Tooltip": "ut",
-  "UdefIdentity": 686,
-  "UDListDefinitionId": 378,
+  "ShortLabel": "facilis",
+  "TabOrder": 970,
+  "TextLength": 984,
+  "Tooltip": "rerum",
+  "UdefIdentity": 448,
+  "UDListDefinitionId": 1000,
   "Justification": "Center",
-  "Version": 673,
-  "TemplateVariableName": "Leffler LLC",
+  "Version": 122,
+  "TemplateVariableName": "Bins LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Lang, Ebert and Hane",
+  "MdoListName": "Dickens-Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 379
     }
   }
 }

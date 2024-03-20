@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quo",
+  "SaleText": "ipsa",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-06-03T14:23:55.4158327+02:00",
-  "Amount": 29760.464,
-  "SaleId": 698,
-  "Earning": 2005.76,
-  "EarningPercent": 23063.106,
-  "Heading": "tempore",
-  "Number": "1631383",
-  "Probability": 123,
-  "CreatedDate": "2018-08-09T14:23:55.4158327+02:00",
-  "UpdatedDate": "2005-02-12T14:23:55.4158327+01:00",
+  "Saledate": "2003-10-15T12:19:53.8366888+02:00",
+  "Amount": 14005.846,
+  "SaleId": 603,
+  "Earning": 19910.302,
+  "EarningPercent": 19308.574,
+  "Heading": "exercitationem",
+  "Number": "1486625",
+  "Probability": 70,
+  "CreatedDate": "2017-03-04T12:19:53.8366888+01:00",
+  "UpdatedDate": "2000-02-18T12:19:53.8366888+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 698,
+  "ActiveLinks": 580,
   "Links": [
     {
-      "EntityName": "Kovacek LLC",
-      "Id": 487,
-      "Description": "Customer-focused maximized encryption",
-      "ExtraInfo": "quidem",
-      "LinkId": 18
+      "EntityName": "Quitzon, Abbott and Jacobs",
+      "Id": 898,
+      "Description": "Re-contextualized zero tolerance flexibility",
+      "ExtraInfo": "quaerat",
+      "LinkId": 785
     },
     {
-      "EntityName": "Kovacek LLC",
-      "Id": 487,
-      "Description": "Customer-focused maximized encryption",
-      "ExtraInfo": "quidem",
-      "LinkId": 18
+      "EntityName": "Quitzon, Abbott and Jacobs",
+      "Id": 898,
+      "Description": "Re-contextualized zero tolerance flexibility",
+      "ExtraInfo": "quaerat",
+      "LinkId": 785
     }
   ],
-  "NextDueDate": "2002-03-20T14:23:55.4158327+01:00",
-  "Postit": "cumque",
+  "NextDueDate": "2020-02-08T12:19:53.8366888+01:00",
+  "Postit": "dolore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-11-26T14:23:55.4158327+01:00",
+  "ReopenDate": "2002-01-02T12:19:53.8366888+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kirlin-Beahan",
-      "Comment": "dolore",
-      "StakeholderRoleId": 871,
-      "CountryId": 653,
-      "PersonId": 706,
-      "EmailDescription": "bernardo@ondrickabeahan.co.uk",
-      "EmailId": 475,
-      "EmailAddress": "kara.aufderhar@mohrcorkery.biz",
-      "PhoneId": 679,
-      "ContactName": "Dickens, Koch and Koss",
-      "ContactId": 967,
-      "SaleId": 81,
-      "Mrmrs": "omnis",
-      "Firstname": "Pansy",
-      "MiddleName": "Turcotte-Blick",
-      "Lastname": "Krajcik",
-      "SaleStakeholderId": 589,
-      "Rank": 426,
-      "Phone": "1-490-477-5115"
+      "StakeholderRoleName": "Kuhlman-Breitenberg",
+      "Comment": "vel",
+      "StakeholderRoleId": 166,
+      "CountryId": 720,
+      "PersonId": 903,
+      "EmailDescription": "desmond@howe.uk",
+      "EmailId": 279,
+      "EmailAddress": "wilber.harris@gerlach.info",
+      "PhoneId": 218,
+      "ContactName": "Collins Inc and Sons",
+      "ContactId": 867,
+      "SaleId": 603,
+      "Mrmrs": "nostrum",
+      "Firstname": "Cecile",
+      "MiddleName": "Eichmann-Fisher",
+      "Lastname": "Stanton",
+      "SaleStakeholderId": 167,
+      "Rank": 187,
+      "Phone": "080-082-6226"
     }
   ],
-  "ActiveErpLinks": 183,
+  "ActiveErpLinks": 648,
   "UserDefinedFields": {
-    "SuperOffice:1": "Joey Genoveva Bernhard II",
+    "SuperOffice:1": "Thora Kirlin",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quia"
+    "CustomFields1": "id",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2003-09-16T14:23:55.4158327+02:00",
-  "PublishTo": "2014-03-27T14:23:55.4158327+01:00",
-  "PublishFrom": "2017-01-24T14:23:55.4158327+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-11-11T12:19:53.8366888+01:00",
+  "PublishTo": "2016-01-01T12:19:53.8366888+01:00",
+  "PublishFrom": "2019-11-11T12:19:53.8366888+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 771,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "repellat"
     },
     {
-      "VisibleId": 771,
+      "VisibleId": 646,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "repellat"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nesciunt",
+  "SaleText": "quidem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-12-22T14:23:55.4314594+01:00",
-  "Amount": 7838.134,
-  "SaleId": 247,
-  "Earning": 10514.57,
-  "EarningPercent": 18189.736,
-  "Heading": "velit",
-  "Number": "1244854",
-  "Probability": 396,
-  "CreatedDate": "2018-08-26T14:23:55.4314594+02:00",
-  "UpdatedDate": "2015-04-11T14:23:55.4314594+02:00",
+  "Saledate": "2003-08-01T12:19:53.8366888+02:00",
+  "Amount": 31280.453999999998,
+  "SaleId": 773,
+  "Earning": 28983.232,
+  "EarningPercent": 9345.588,
+  "Heading": "nisi",
+  "Number": "947566",
+  "Probability": 913,
+  "CreatedDate": "2020-05-24T12:19:53.8366888+02:00",
+  "UpdatedDate": "2021-03-10T12:19:53.8366888+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 267,
+  "ActiveLinks": 5,
   "Links": [
     {
-      "EntityName": "Heller LLC",
-      "Id": 854,
-      "Description": "Streamlined bottom-line portal",
-      "ExtraInfo": "dolorum",
-      "LinkId": 721,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 227
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2002-10-07T14:23:55.4314594+02:00",
-  "Postit": "odit",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-09-22T14:23:55.4314594+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Rempel-Veum",
-      "Comment": "provident",
-      "StakeholderRoleId": 927,
-      "CountryId": 856,
-      "PersonId": 201,
-      "EmailDescription": "niko.becker@ernser.name",
-      "EmailId": 881,
-      "EmailAddress": "berniece.heathcote@wolff.us",
-      "PhoneId": 183,
-      "ContactName": "Runte, Cruickshank and Grant",
-      "ContactId": 314,
-      "SaleId": 2,
-      "Mrmrs": "ut",
-      "Firstname": "Jadon",
-      "MiddleName": "Aufderhar LLC",
-      "Lastname": "Hermiston",
-      "SaleStakeholderId": 10,
-      "Rank": 219,
-      "Phone": "(157)990-6338",
+      "EntityName": "Douglas Group",
+      "Id": 468,
+      "Description": "Decentralized 24 hour complexity",
+      "ExtraInfo": "cupiditate",
+      "LinkId": 340,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldLength": 587
         }
       }
     }
   ],
-  "ActiveErpLinks": 192,
-  "UserDefinedFields": {
-    "SuperOffice:1": "395493027",
-    "SuperOffice:2": "Lucile Lang"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "laudantium"
-  },
-  "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "magnam"
-  },
-  "PublishEventDate": "2002-06-27T14:23:55.4314594+02:00",
-  "PublishTo": "2024-01-21T14:23:55.4314594+01:00",
-  "PublishFrom": "2012-01-25T14:23:55.4314594+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "1997-08-11T12:19:53.8366888+02:00",
+  "Postit": "magni",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "1998-04-02T12:19:53.8366888+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 255,
-      "Visibility": "All",
-      "DisplayValue": "sed",
+      "StakeholderRoleName": "Balistreri-Trantow",
+      "Comment": "consequatur",
+      "StakeholderRoleId": 557,
+      "CountryId": 670,
+      "PersonId": 695,
+      "EmailDescription": "marie_olson@gaylord.name",
+      "EmailId": 301,
+      "EmailAddress": "shany_walter@marvin.ca",
+      "PhoneId": 810,
+      "ContactName": "Braun Group",
+      "ContactId": 695,
+      "SaleId": 854,
+      "Mrmrs": "nemo",
+      "Firstname": "Carissa",
+      "MiddleName": "Muller LLC",
+      "Lastname": "Legros",
+      "SaleStakeholderId": 466,
+      "Rank": 12,
+      "Phone": "1-673-807-4368",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 1001
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 232,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Ms. Meghan Jett Cruickshank I",
+    "SuperOffice:2": "Prof. Francesco Gutkowski MD"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "distinctio"
+  },
+  "CustomFields": {
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "ratione"
+  },
+  "PublishEventDate": "2007-05-28T12:19:53.8366888+02:00",
+  "PublishTo": "2005-07-04T12:19:53.8366888+02:00",
+  "PublishFrom": "2004-03-26T12:19:53.8366888+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 56,
+      "Visibility": "All",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     },
     {
-      "VisibleId": 255,
+      "VisibleId": 56,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 580
     }
   },
   "_Links": {

@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 100,
-  "GroupType": 775,
-  "StartTime": "1999-05-30T14:23:45.4063334+02:00",
-  "EndTime": "2011-06-02T14:23:45.4063334+02:00",
-  "Count": 47
+  "GroupId": 665,
+  "GroupType": 55,
+  "StartTime": "2012-03-24T12:19:44.1800107+01:00",
+  "EndTime": "2000-01-18T12:19:44.1800107+01:00",
+  "Count": 369
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 275,
-    "StartDate": "2008-04-05T14:23:45.4063334+02:00",
-    "EndDate": "2018-03-12T14:23:45.4063334+01:00",
+    "AppointmentId": 229,
+    "StartDate": "2021-05-03T12:19:44.1800107+02:00",
+    "EndDate": "2018-10-11T12:19:44.1800107+02:00",
     "Type": "BookingForChecklist",
-    "Task": "adipisci",
-    "AssociateFullName": "Johan Bayer I",
-    "ContactName": "Schultz, Marks and Kemmer",
-    "Description": "Cloned tangible emulation",
-    "PersonFullName": "Laurence Gusikowski",
-    "PersonId": 784,
-    "ContactId": 570,
-    "ProjectId": 160,
-    "ProjectName": "Spencer LLC",
+    "Task": "placeat",
+    "AssociateFullName": "Ella Cassin",
+    "ContactName": "Bernier-Swaniawski",
+    "Description": "Robust maximized core",
+    "PersonFullName": "Maxwell Mueller",
+    "PersonId": 814,
+    "ContactId": 995,
+    "ProjectId": 506,
+    "ProjectName": "Hodkiewicz Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 247,
-    "ColorIndex": 427,
-    "IsFree": true,
+    "AssociateId": 357,
+    "ColorIndex": 376,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 106,
-    "PriorityName": "Graham, VonRueden and Metz",
+    "PriorityId": 597,
+    "PriorityName": "Adams-Runolfsson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-12-23T14:23:45.4063334+01:00",
+    "IsBooking": true,
+    "ActiveDate": "1999-04-22T12:19:44.1800107+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-03-24T14:23:45.4063334+01:00",
-    "RecurringEndDate": "2014-07-29T14:23:45.4063334+02:00",
-    "MotherId": 478,
-    "AssignedBy": 749,
-    "AssignedByFullName": "Henriette Justen Nader II",
-    "RejectReason": "",
-    "Location": "quas",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 357,
-    "SaleName": "Denesik-Wiza",
-    "AssociateName": "Wuckert-McDermott",
-    "CreatedDate": "2009-08-07T14:23:45.4063334+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Chauncey Zemlak",
-    "CreatedByAssociateId": 670,
+    "RecurringStartDate": "2014-04-05T12:19:44.1800107+02:00",
+    "RecurringEndDate": "2018-11-28T12:19:44.1800107+01:00",
+    "MotherId": 582,
+    "AssignedBy": 869,
+    "AssignedByFullName": "Ms. Beryl Sigurd Boehm",
+    "RejectReason": "architect rich ROI",
+    "Location": "est",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 725,
+    "SaleName": "Schiller, Toy and Smith",
+    "AssociateName": "Schroeder, Skiles and O'Hara",
+    "CreatedDate": "1999-07-31T12:19:44.1800107+02:00",
+    "CreatedBy": "quo",
+    "CreatedByFullName": "Mrs. Jamal Annamarie Parker",
+    "CreatedByAssociateId": 182,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 363,
-    "Title": "ut",
-    "Agenda": "dolores",
-    "InternalNotes": "similique",
+    "PreferredTZLocation": 862,
+    "Title": "qui",
+    "Agenda": "et",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 356
       }
     }
   }

@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hauck Group",
-    "Description": "Focused 3rd generation standardization",
-    "Rank": 911,
+    "Name": "Carter LLC",
+    "Description": "Inverse empowering time-frame",
+    "Rank": 312,
     "Restrictions": [
       {
-        "Name": "Larkin Group",
-        "Operator": "libero",
+        "Name": "Erdman, Wisoky and VonRueden",
+        "Operator": "omnis",
         "Values": [
-          "ullam",
-          "amet"
+          "molestiae",
+          "cum"
         ],
         "DisplayValues": [
-          "accusamus",
-          "eum"
+          "non",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 208,
+        "InterParenthesis": 920,
         "InterOperator": "And",
-        "UniqueHash": 199
+        "UniqueHash": 925
       }
     ]
   },
   {
-    "Name": "Hauck Group",
-    "Description": "Focused 3rd generation standardization",
-    "Rank": 911,
+    "Name": "Carter LLC",
+    "Description": "Inverse empowering time-frame",
+    "Rank": 312,
     "Restrictions": [
       {
-        "Name": "Larkin Group",
-        "Operator": "libero",
+        "Name": "Erdman, Wisoky and VonRueden",
+        "Operator": "omnis",
         "Values": [
-          "ullam",
-          "amet"
+          "molestiae",
+          "cum"
         ],
         "DisplayValues": [
-          "accusamus",
-          "eum"
+          "non",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 208,
+        "InterParenthesis": 920,
         "InterOperator": "And",
-        "UniqueHash": 199
+        "UniqueHash": 925
       }
     ]
   }

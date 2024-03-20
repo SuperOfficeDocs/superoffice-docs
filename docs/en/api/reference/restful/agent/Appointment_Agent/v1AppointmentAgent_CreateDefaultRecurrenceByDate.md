@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2003-04-13T14:23:45.7043398+02:00"
+  "StartDate": "2021-07-06T12:19:44.351845+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 274,
-  "StartDate": "1999-08-12T14:23:45.7043398+02:00",
-  "EndDate": "2006-09-04T14:23:45.7043398+02:00",
-  "RecurrenceCounter": 553,
+  "RecurrenceId": 745,
+  "StartDate": "2019-01-23T12:19:44.351845+01:00",
+  "EndDate": "2001-03-01T12:19:44.351845+01:00",
+  "RecurrenceCounter": 236,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-11-25T14:23:45.7043398+01:00",
+      "Date": "2001-12-25T12:19:44.351845+01:00",
       "IsConflict": false,
-      "Description": "Polarised motivating leverage",
-      "DescriptionStyleHint": "Grass-roots assymetric attitude",
-      "Tooltip": "corporis"
+      "Description": "Distributed exuding ability",
+      "DescriptionStyleHint": "Digitized foreground strategy",
+      "Tooltip": "quos"
     },
     {
-      "Date": "2008-11-25T14:23:45.7043398+01:00",
+      "Date": "2001-12-25T12:19:44.351845+01:00",
       "IsConflict": false,
-      "Description": "Polarised motivating leverage",
-      "DescriptionStyleHint": "Grass-roots assymetric attitude",
-      "Tooltip": "corporis"
+      "Description": "Distributed exuding ability",
+      "DescriptionStyleHint": "Digitized foreground strategy",
+      "Tooltip": "quos"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

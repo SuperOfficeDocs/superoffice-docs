@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots interactive instruction set",
-  "Filename": "delectus",
-  "Size": 298,
-  "Type": "cum",
-  "Encoding": "vero",
-  "Id": "reiciendis",
-  "Disposition": "possimus",
+  "Description": "Managed systematic moratorium",
+  "Filename": "eos",
+  "Size": 921,
+  "Type": "illo",
+  "Encoding": "aut",
+  "Id": "asperiores",
+  "Disposition": "commodi",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 610
     }
   }
 }

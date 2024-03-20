@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 23 Mar 2022 14:23:55 G3T
+Last-Modified: Wed, 26 Apr 2006 12:19:53 G4T
 
 {
-  "SourceContactId": 678,
-  "SourcePersonId": 708,
-  "DestinationContactId": 403,
-  "DestinationPersonId": 471,
-  "RelationId": 297,
-  "Comment": "ut",
-  "RelationDefinitionId": 57,
-  "Reversed": 681,
-  "UpdatedDate": "2022-03-23T14:23:55.0396483+01:00",
-  "CreatedDate": "2014-02-16T14:23:55.0396483+01:00",
+  "SourceContactId": 569,
+  "SourcePersonId": 287,
+  "DestinationContactId": 141,
+  "DestinationPersonId": 307,
+  "RelationId": 451,
+  "Comment": "quo",
+  "RelationDefinitionId": 872,
+  "Reversed": 676,
+  "UpdatedDate": "2006-04-26T12:19:53.2899404+02:00",
+  "CreatedDate": "2009-01-22T12:19:53.2899404+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jewess-Christiansen",
-  "SourcePersonName": "Nicolas-Morar",
-  "DestinationContactName": "Dibbert-Greenholt",
-  "DestinationPersonName": "Dickinson-Jacobson",
-  "ActiveText": "placeat",
-  "PassiveText": "maiores",
+  "SourceContactName": "Spinka-Sipes",
+  "SourcePersonName": "Wuckert, Abbott and Anderson",
+  "DestinationContactName": "Rippin, Daugherty and Kozey",
+  "DestinationPersonName": "Pfannerstill, Nikolaus and Lakin",
+  "ActiveText": "vitae",
+  "PassiveText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldLength": 335
     }
   }
 }

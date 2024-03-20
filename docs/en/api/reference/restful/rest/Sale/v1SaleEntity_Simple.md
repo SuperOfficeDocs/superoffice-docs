@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Jast, Kuhic and Kessler",
-  "SaleDate": "2006-06-27T14:23:55.4783333+02:00",
-  "SaleId": 186,
-  "Probability": 528,
-  "Title": "vel",
-  "Amount": 12614.35,
-  "Currency": "ipsam",
-  "ProjectName": "Ernser-Tremblay",
-  "AssociateFullName": "Jerald Rosenbaum",
-  "Description": "Seamless background strategy",
+  "ContactName": "Von-McGlynn",
+  "SaleDate": "2022-02-03T12:19:53.8991767+01:00",
+  "SaleId": 765,
+  "Probability": 977,
+  "Title": "ex",
+  "Amount": 17964.088,
+  "Currency": "est",
+  "ProjectName": "Grimes, Wiza and Kilback",
+  "AssociateFullName": "Mr. Thelma Ruthie Lakin MD",
+  "Description": "Fundamental fresh-thinking monitoring",
   "Status": "Lost",
-  "WeightedAmount": 17685.162,
-  "ProjectId": 660,
-  "EarningPercent": 14055.99,
-  "Earning": 20139.084,
-  "ContactId": 84,
-  "AssociateId": 55,
-  "PersonId": 96,
-  "SaleTypeId": 281,
-  "SaleTypeName": "Schinner-Huels",
-  "PersonFullName": "Trace Hoppe",
+  "WeightedAmount": 723.954,
+  "ProjectId": 294,
+  "EarningPercent": 28513.131999999998,
+  "Earning": 260.122,
+  "ContactId": 704,
+  "AssociateId": 570,
+  "PersonId": 450,
+  "SaleTypeId": 971,
+  "SaleTypeName": "Schroeder Group",
+  "PersonFullName": "Mr. Ozella Leuschke",
   "Completed": "Completed",
-  "ActiveErpLinks": 950,
-  "NextDueDate": "2020-11-23T14:23:55.4783333+01:00",
-  "Number": "938199",
+  "ActiveErpLinks": 16,
+  "NextDueDate": "2009-08-28T12:19:53.8991767+02:00",
+  "Number": "1194534",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

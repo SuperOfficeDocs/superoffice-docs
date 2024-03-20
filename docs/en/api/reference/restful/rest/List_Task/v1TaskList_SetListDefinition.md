@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Hettinger, Kling and Mohr",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 716,
-  "IsCustomList": true,
+  "Id": 415,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 910,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Wilkinson-Legros",
-  "Tooltip": "amet",
+  "Id": 602,
+  "Name": "O'Keefe-O'Connell",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 892,
+  "Rank": 171,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eaque",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 138
     }
   }
 }

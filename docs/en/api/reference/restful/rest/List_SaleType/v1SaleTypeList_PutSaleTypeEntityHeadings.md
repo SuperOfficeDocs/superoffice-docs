@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 514,
-    "Name": "Kozey LLC",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 250,
+    "Name": "Mante, Pagac and Harris",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 183,
-    "UdListDefinitionId": 677
+    "Rank": 252,
+    "UdListDefinitionId": 665
   },
   {
-    "HeadingId": 514,
-    "Name": "Kozey LLC",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 250,
+    "Name": "Mante, Pagac and Harris",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 183,
-    "UdListDefinitionId": 677
+    "Rank": 252,
+    "UdListDefinitionId": 665
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Bosco Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 846,
+    "Name": "Goyette Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 206,
-    "UdListDefinitionId": 286,
+    "Rank": 283,
+    "UdListDefinitionId": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 637
       }
     }
   }

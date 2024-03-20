@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 472,
-  "AssociateId": 461
+  "AppointmentId": 43,
+  "AssociateId": 888
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-09-23T14:23:45.5168816+02:00",
-  "AppointmentId": 562,
-  "Description": "Profound multi-tasking challenge",
-  "Title": "assumenda",
-  "Agenda": "qui",
-  "InternalNotes": "consequatur",
-  "StartDate": "2012-08-04T14:23:45.5168816+02:00",
-  "EndDate": "2020-06-08T14:23:45.5168816+02:00",
+  "CreatedDate": "2022-03-09T12:19:44.2893173+01:00",
+  "AppointmentId": 544,
+  "Description": "Right-sized high-level software",
+  "Title": "porro",
+  "Agenda": "dolores",
+  "InternalNotes": "nam",
+  "StartDate": "2014-05-06T12:19:44.2893173+02:00",
+  "EndDate": "2008-05-26T12:19:44.2893173+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 745,
+  "MotherId": 798,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-09-05T14:23:45.5168816+02:00",
+  "UpdatedDate": "2005-04-13T12:19:44.2893173+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 411,
+  "ActiveLinks": 908,
   "Links": [
     {
-      "EntityName": "Hegmann LLC",
-      "Id": 658,
-      "Description": "Fundamental 5th generation Graphic Interface",
-      "ExtraInfo": "perferendis",
-      "LinkId": 286,
+      "EntityName": "Baumbach-Runolfsdottir",
+      "Id": 129,
+      "Description": "Customer-focused zero administration structure",
+      "ExtraInfo": "consequatur",
+      "LinkId": 323,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 43
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
-  "HasAlarm": false,
-  "ColorIndex": 340,
+  "AlarmLeadTime": "similique",
+  "HasAlarm": true,
+  "ColorIndex": 506,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "quia",
-  "LeadTime": "dignissimos",
-  "Location": "vero",
-  "RejectCounter": 63,
+  "LagTime": "magnam",
+  "LeadTime": "tempore",
+  "Location": "suscipit",
+  "RejectCounter": 904,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 2,
-      "PersonId": 885,
-      "ContactId": 772,
-      "EmailId": 34,
-      "SendEmail": false,
+      "AssociateId": 765,
+      "PersonId": 742,
+      "ContactId": 378,
+      "EmailId": 997,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "olen_rau@framihudson.biz",
-      "Description": "Cross-group neutral structure"
+      "EmailAddress": "haven_hilll@torphy.us",
+      "Description": "Business-focused homogeneous throughput"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-01-15T14:23:45.5168816+01:00",
+  "ActiveDate": "2022-01-06T12:19:44.2893173+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 874,
+  "PreferredTZLocation": 834,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 771,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 28,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "qui",
+  "CentralserviceVideomeetId": "vitae",
   "UserDefinedFields": {
-    "SuperOffice:1": "Gussie Klocko",
-    "SuperOffice:2": "Randi Gulgowski I"
+    "SuperOffice:1": "Kevin Batz",
+    "SuperOffice:2": "Mr. Mia Gottlieb III"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "enim"
+    "CustomFields1": "sit",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "1999-04-10T14:23:45.5168816+02:00",
-  "PublishTo": "2021-06-10T14:23:45.5168816+02:00",
-  "PublishFrom": "2001-04-08T14:23:45.5168816+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-03-06T12:19:44.2893173+01:00",
+  "PublishTo": "1999-03-16T12:19:44.2893173+01:00",
+  "PublishFrom": "2015-07-04T12:19:44.2893173+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 646,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldLength": 263
         }
       }
     },
     {
-      "VisibleId": 646,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldLength": 263
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 300
     }
   }
 }

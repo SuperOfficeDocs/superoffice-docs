@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 665,
-    "Name": "Bauch LLC",
-    "ConsentText": "dolorem",
-    "FormText": "ut",
-    "Key": "saepe",
-    "Tooltip": "praesentium",
-    "Active": 189,
-    "UpdatedDate": "2024-02-12T14:23:46.8462293+01:00",
+    "ConsentPurposeId": 381,
+    "Name": "Kling, Tremblay and Abshire",
+    "ConsentText": "eligendi",
+    "FormText": "in",
+    "Key": "cum",
+    "Tooltip": "libero",
+    "Active": 673,
+    "UpdatedDate": "2006-05-25T12:19:45.523458+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 357,
-    "PrivacyStatementDesc": "quia",
+    "Rank": 723,
+    "PrivacyStatementDesc": "et",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 320
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 89
+  "ContactId": 38
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 1002,
-    "Name": "Hackett Group",
-    "Description": "Upgradable maximized infrastructure",
+    "ProjectId": 104,
+    "Name": "Reynolds-Rippin",
+    "Description": "Face to face executive product",
     "URL": "http://www.example.com/",
-    "Type": "pariatur",
-    "AssociateId": 439,
-    "AssociateFullName": "Antonia Wiegand MD",
-    "TypeId": 364,
-    "Updated": "2007-07-26T14:23:47.1755092+02:00",
-    "StatusId": 636,
-    "Status": "optio",
-    "TextId": 745,
-    "PublishTo": "2005-04-05T14:23:47.1755092+02:00",
-    "PublishFrom": "2001-09-30T14:23:47.1755092+02:00",
+    "Type": "atque",
+    "AssociateId": 285,
+    "AssociateFullName": "Leann Fatima Quitzon DDS",
+    "TypeId": 247,
+    "Updated": "2007-12-21T12:19:46.038959+01:00",
+    "StatusId": 510,
+    "Status": "et",
+    "TextId": 840,
+    "PublishTo": "2014-10-17T12:19:46.038959+02:00",
+    "PublishFrom": "2011-11-20T12:19:46.038959+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1332004",
-    "ActiveErpLinks": 801,
+    "ProjectNumber": "1051740",
+    "ActiveErpLinks": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 419
       }
     }
   }

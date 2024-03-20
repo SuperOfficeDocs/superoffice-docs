@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=voluptas
-GET /api/v1/MDOList/{listname}?query=sunt
+GET /api/v1/MDOList/{listname}?additional=reiciendis
+GET /api/v1/MDOList/{listname}?query=sapiente
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Jacobs-Rempel",
-    "ToolTip": "Ut voluptas velit harum fuga.",
-    "Deleted": true,
-    "Rank": 154,
-    "Type": "quod",
+    "Id": 368,
+    "Name": "Ferry Inc and Sons",
+    "ToolTip": "Ullam quaerat consequuntur qui.",
+    "Deleted": false,
+    "Rank": 418,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Waters, O'Connell and Pacocha",
-        "ToolTip": "Laboriosam nobis.",
-        "Deleted": false,
-        "Rank": 364,
-        "Type": "voluptatem",
+        "Id": 974,
+        "Name": "Spencer Inc and Sons",
+        "ToolTip": "Sit aliquam enim officia velit vitae.",
+        "Deleted": true,
+        "Rank": 418,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 497,
-        "ExtraInfo": "eius",
-        "StyleHint": "sint",
-        "FullName": "Taurean Reagan Yost PhD",
+        "IconHint": "beatae",
+        "ColorBlock": 331,
+        "ExtraInfo": "repellat",
+        "StyleHint": "nisi",
+        "FullName": "Madalyn Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 954
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 71,
-    "ExtraInfo": "qui",
-    "StyleHint": "expedita",
-    "FullName": "Uriah Huel",
+    "IconHint": "vel",
+    "ColorBlock": 78,
+    "ExtraInfo": "nam",
+    "StyleHint": "ut",
+    "FullName": "Mr. Lillian Cayla Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 832
       }
     }
   }

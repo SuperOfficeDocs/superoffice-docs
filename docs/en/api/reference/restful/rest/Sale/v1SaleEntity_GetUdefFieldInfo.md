@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 976,
-  "ColumnId": 221,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 990,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 57,
-  "FieldTop": 409,
+  "UDefFieldId": 735,
+  "ColumnId": 471,
+  "FieldDefault": "doloremque",
+  "FieldHeight": 766,
+  "FieldLabel": "unde",
+  "FieldLeft": 981,
+  "FieldTop": 583,
   "FieldType": "Checkbox",
-  "FieldWidth": 895,
-  "FormatMask": "culpa",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 279,
-  "LabelLeft": 684,
-  "LabelTop": 72,
-  "LabelWidth": 358,
-  "LastVersionId": 660,
-  "ListTableId": 477,
+  "FieldWidth": 448,
+  "FormatMask": "minus",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 368,
+  "LabelLeft": 619,
+  "LabelTop": 487,
+  "LabelWidth": 838,
+  "LastVersionId": 108,
+  "ListTableId": 203,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 80,
-  "ProgId": "maxime",
-  "IsReadOnly": false,
-  "ShortLabel": "vero",
-  "TabOrder": 519,
-  "TextLength": 51,
-  "Tooltip": "enim",
-  "UdefIdentity": 838,
-  "UDListDefinitionId": 533,
+  "Page1LineNo": 636,
+  "ProgId": "natus",
+  "IsReadOnly": true,
+  "ShortLabel": "dolore",
+  "TabOrder": 289,
+  "TextLength": 553,
+  "Tooltip": "sunt",
+  "UdefIdentity": 648,
+  "UDListDefinitionId": 604,
   "Justification": "Center",
-  "Version": 354,
-  "TemplateVariableName": "Marks-Schumm",
-  "HasBeenPublished": false,
-  "MdoListName": "O'Reilly-Connelly",
+  "Version": 414,
+  "TemplateVariableName": "Crooks, Raynor and Gottlieb",
+  "HasBeenPublished": true,
+  "MdoListName": "Farrell LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 58
     }
   }
 }

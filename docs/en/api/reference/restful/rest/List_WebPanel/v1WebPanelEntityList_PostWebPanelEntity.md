@@ -107,31 +107,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 543,
-  "Name": "Reilly, Abbott and Huel",
-  "Tooltip": "repellat",
+  "WebPanelId": 370,
+  "Name": "Hegmann Group",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 78,
+  "Rank": 634,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Senger, Ziemann and Reichert",
+  "WindowName": "Dibbert-Howe",
   "Url": "http://www.example.com/",
-  "ProgId": "dolores",
-  "Icon": 538,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "doloribus",
+  "Icon": 873,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
 ```
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 4,
-  "Name": "Murray-Schaefer",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 896,
+  "WebPanelId": 790,
+  "Name": "Muller-Farrell",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 622,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cole-Feeney",
+  "WindowName": "Christiansen Group",
   "Url": "http://www.example.com/",
-  "ProgId": "quasi",
-  "Icon": 661,
+  "ProgId": "aperiam",
+  "Icon": 889,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 1002
     }
   }
 }

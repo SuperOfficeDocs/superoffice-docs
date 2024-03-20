@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 671,
-      "ColumnId": 932,
-      "FieldDefault": "possimus",
-      "FieldHeight": 830,
-      "FieldLabel": "voluptas",
-      "FieldLeft": 889,
-      "FieldTop": 92,
+      "UDefFieldId": 80,
+      "ColumnId": 920,
+      "FieldDefault": "reprehenderit",
+      "FieldHeight": 857,
+      "FieldLabel": "nisi",
+      "FieldLeft": 500,
+      "FieldTop": 42,
       "FieldType": "Checkbox",
-      "FieldWidth": 131,
-      "FormatMask": "hic",
-      "HideLabel": false,
-      "IsIndexed": true,
-      "LabelHeight": 40,
-      "LabelLeft": 368,
-      "LabelTop": 886,
-      "LabelWidth": 25,
-      "LastVersionId": 672,
-      "ListTableId": 591,
-      "IsMandatory": true,
+      "FieldWidth": 755,
+      "FormatMask": "voluptatem",
+      "HideLabel": true,
+      "IsIndexed": false,
+      "LabelHeight": 937,
+      "LabelLeft": 53,
+      "LabelTop": 362,
+      "LabelWidth": 458,
+      "LastVersionId": 759,
+      "ListTableId": 430,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 94,
-      "ProgId": "voluptas",
+      "Page1LineNo": 762,
+      "ProgId": "nam",
       "IsReadOnly": false,
-      "ShortLabel": "pariatur",
-      "TabOrder": 624,
-      "TextLength": 489,
-      "Tooltip": "quos",
-      "UdefIdentity": 98,
-      "UDListDefinitionId": 840,
+      "ShortLabel": "esse",
+      "TabOrder": 20,
+      "TextLength": 228,
+      "Tooltip": "sunt",
+      "UdefIdentity": 793,
+      "UDListDefinitionId": 650,
       "Justification": "Center",
-      "Version": 685,
-      "TemplateVariableName": "Quigley, Ebert and Corwin",
-      "HasBeenPublished": true,
-      "MdoListName": "Williamson, Braun and Predovic"
+      "Version": 166,
+      "TemplateVariableName": "Mayer, Schmidt and Gutkowski",
+      "HasBeenPublished": false,
+      "MdoListName": "Bode Inc and Sons"
     }
   ]
 }

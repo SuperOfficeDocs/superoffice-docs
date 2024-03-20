@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heaney, Braun and Graham",
+  "ProviderName": "Hermiston-Ryan",
   "Columns": [
-    "nulla",
-    "quaerat"
+    "distinctio",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Green Group",
+      "Name": "Nicolas-Olson",
       "Direction": "ASC"
     },
     {
-      "Name": "Green Group",
+      "Name": "Nicolas-Olson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Yost, Hane and Carroll",
-      "Operator": "quibusdam",
+      "Name": "Rodriguez-Prosacco",
+      "Operator": "inventore",
       "Values": [
-        "earum",
-        "sapiente"
+        "enim",
+        "nihil"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "delectus"
+        "expedita",
+        "exercitationem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 919,
+      "InterParenthesis": 383,
       "InterOperator": "And",
-      "UniqueHash": 305
+      "UniqueHash": 904
     }
   ],
   "Entities": [
-    "esse",
-    "repudiandae"
+    "sed",
+    "et"
   ],
-  "Page": 192,
-  "PageSize": 530,
-  "Context": "nobis"
+  "Page": 869,
+  "PageSize": 745,
+  "Context": "earum"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Connell-Kautzer",
-    "PrimaryKey": 492,
+    "EntityName": "Smith, Kuvalis and Hackett",
+    "PrimaryKey": 45,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "unde",
-        "LinkHint": "ut"
+        "DisplayValue": "occaecati",
+        "TooltipHint": "impedit",
+        "LinkHint": "corporis"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "aut",
+    "LinkHint": "in",
+    "StyleHint": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

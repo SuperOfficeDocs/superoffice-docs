@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Labadie Inc and Sons",
-  "EventFilter": "eveniet",
+  "NameFilter": "Jacobs, Reinger and Bosco",
+  "EventFilter": "voluptatem",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 823,
-    "Name": "Kunze-Greenholt",
+    "WebhookId": 856,
+    "Name": "Senger-O'Reilly",
     "Events": [
-      "asperiores",
-      "consequuntur"
+      "officia",
+      "eveniet"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "tempora",
+    "Secret": "repellendus",
     "State": "Active",
-    "Type": "exercitationem",
+    "Type": "illum",
     "Headers": {
-      "Headers1": "quo",
-      "Headers2": "omnis"
+      "Headers1": "ipsam",
+      "Headers2": "voluptatum"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2007-03-26T14:23:47.9254988+02:00",
+    "Registered": "2018-04-10T12:19:46.6638166+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2008-10-02T14:23:47.9254988+02:00",
+    "Updated": "2010-09-23T12:19:46.6638166+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "fleta_toy@lemke.uk"
+    "ErrorsEmail": "mellie@fahey.co.uk"
   }
 ]
 ```

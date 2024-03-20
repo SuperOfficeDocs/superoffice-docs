@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 232,
-      "PrefDescId": 90,
-      "PrefValue": "autem",
-      "PrefShowValue": "sequi",
-      "Description": "Balanced real-time installation",
+      "PrefDescLineId": 423,
+      "PrefDescId": 182,
+      "PrefValue": "ad",
+      "PrefShowValue": "ducimus",
+      "Description": "Front-line methodical database",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 232,
-      "PrefDescId": 90,
-      "PrefValue": "autem",
-      "PrefShowValue": "sequi",
-      "Description": "Balanced real-time installation",
+      "PrefDescLineId": 423,
+      "PrefDescId": 182,
+      "PrefValue": "ad",
+      "PrefShowValue": "ducimus",
+      "Description": "Front-line methodical database",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 922,
-    "PrefDescId": 879,
-    "PrefValue": "eveniet",
-    "PrefShowValue": "culpa",
-    "Description": "Balanced bandwidth-monitored circuit",
+    "PrefDescLineId": 139,
+    "PrefDescId": 812,
+    "PrefValue": "voluptatem",
+    "PrefShowValue": "vero",
+    "Description": "Cross-group stable protocol",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "nemo",
-    "Tooltip": "quas",
-    "Id": 91,
-    "Rank": 803,
-    "Deleted": true,
+    "Value": "aspernatur",
+    "Tooltip": "similique",
+    "Id": 693,
+    "Rank": 404,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldLength": 956
       }
     }
   }

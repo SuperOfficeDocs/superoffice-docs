@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "West Inc and Sons",
-  "ListItemId": 358,
+  "UdListDefinitionName": "Bode Group",
+  "ListItemId": 36,
   "UserGroups": [
     {
-      "Id": 482,
-      "Name": "Zulauf, Hackett and Crona",
-      "ToolTip": "Excepturi eos magnam qui commodi provident.",
+      "Id": 930,
+      "Name": "Goyette-Schaden",
+      "ToolTip": "Dolores et harum autem.",
       "Deleted": true,
-      "Rank": 697,
-      "Type": "molestias",
-      "ColorBlock": 441,
-      "IconHint": "quisquam",
-      "Selected": true,
-      "LastChanged": "2001-09-23T14:23:46.8306046+02:00",
+      "Rank": 127,
+      "Type": "labore",
+      "ColorBlock": 244,
+      "IconHint": "quibusdam",
+      "Selected": false,
+      "LastChanged": "2012-10-16T12:19:45.4922171+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "maiores",
+      "ExtraInfo": "eos",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Orval Gerlach"
+      "FullName": "Addie Walker MD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Kutch LLC",
-    "ToolTip": "Eveniet repellat eligendi voluptatum quo.",
+    "Id": 38,
+    "Name": "Denesik-Hills",
+    "ToolTip": "Et et.",
     "Deleted": true,
-    "Rank": 247,
-    "Type": "quibusdam",
-    "ColorBlock": 596,
-    "IconHint": "et",
+    "Rank": 17,
+    "Type": "iure",
+    "ColorBlock": 59,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2020-08-13T14:23:46.8306046+02:00",
+    "LastChanged": "2014-02-10T12:19:45.4922171+01:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Collins, Ledner and Schumm",
-        "ToolTip": "Et in rerum maxime tenetur ab quis.",
-        "Deleted": true,
-        "Rank": 77,
-        "Type": "rem",
-        "ColorBlock": 459,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2019-02-28T14:23:46.8306046+01:00",
+        "Id": 686,
+        "Name": "Hilll-Kuhlman",
+        "ToolTip": "Occaecati recusandae explicabo et velit quo ad.",
+        "Deleted": false,
+        "Rank": 757,
+        "Type": "voluptas",
+        "ColorBlock": 841,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2005-05-09T12:19:45.4922171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Ms. Kelli Shayna Hilll",
+        "ExtraInfo": "quia",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Addison Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 203
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "exercitationem",
-    "Hidden": true,
-    "FullName": "Torey Rempel",
+    "ExtraInfo": "porro",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Mr. Rigoberto Titus Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

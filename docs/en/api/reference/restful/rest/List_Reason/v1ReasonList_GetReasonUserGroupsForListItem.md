@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Considine, D'Amore and McGlynn",
-    "ToolTip": "Officia illum rem recusandae doloribus iusto earum vero.",
-    "Deleted": false,
-    "Rank": 668,
-    "Type": "quos",
-    "ColorBlock": 574,
-    "IconHint": "sint",
+    "Id": 177,
+    "Name": "Muller-Schoen",
+    "ToolTip": "Eveniet possimus atque possimus.",
+    "Deleted": true,
+    "Rank": 597,
+    "Type": "harum",
+    "ColorBlock": 325,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2013-02-08T14:23:56.2908239+01:00",
+    "LastChanged": "2020-08-08T12:19:54.789597+02:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Schaden-Schmeler",
-        "ToolTip": "Est facilis ullam porro.",
-        "Deleted": false,
-        "Rank": 217,
-        "Type": "omnis",
-        "ColorBlock": 978,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2000-07-28T14:23:56.2908239+02:00",
+        "Id": 30,
+        "Name": "Aufderhar Inc and Sons",
+        "ToolTip": "Doloribus alias omnis.",
+        "Deleted": true,
+        "Rank": 91,
+        "Type": "nam",
+        "ColorBlock": 100,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "1998-05-06T12:19:54.789597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Ms. Pearline Schmitt",
+        "ExtraInfo": "quod",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Brennan Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 815
+            "FieldType": "System.String",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "natus",
+    "ExtraInfo": "neque",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Clarissa Thompson DDS",
+    "FullName": "Rachael Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 321
       }
     }
   }

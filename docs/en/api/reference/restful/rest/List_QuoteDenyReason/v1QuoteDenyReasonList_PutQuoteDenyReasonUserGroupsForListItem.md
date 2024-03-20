@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Bergstrom, Terry and Block",
-    "ToolTip": "Voluptatem dolore omnis dolorem.",
+    "Id": 980,
+    "Name": "Homenick, Langworth and Kunze",
+    "ToolTip": "Non asperiores qui.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "cupiditate",
-    "ColorBlock": 425,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2006-05-03T14:23:56.2751981+02:00",
+    "Rank": 185,
+    "Type": "atque",
+    "ColorBlock": 467,
+    "IconHint": "iure",
+    "Selected": true,
+    "LastChanged": "2017-04-10T12:19:54.7739754+02:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Ryan LLC",
-        "ToolTip": "Autem officia officiis veritatis eius.",
+        "Id": 596,
+        "Name": "Beer, Koelpin and Hintz",
+        "ToolTip": "Temporibus nemo reprehenderit aut odio.",
         "Deleted": true,
-        "Rank": 823,
-        "Type": "sequi",
-        "ColorBlock": 135,
-        "IconHint": "architecto",
-        "Selected": true,
-        "LastChanged": "2007-04-20T14:23:56.2751981+02:00",
+        "Rank": 385,
+        "Type": "suscipit",
+        "ColorBlock": 41,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2017-04-26T12:19:54.7739754+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "vel",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Prof. Idella Roberta Schultz"
+        "FullName": "Eva Dach"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
+    "ExtraInfo": "minus",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Hope Schroeder III"
+    "FullName": "Eriberto Gusikowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Labadie Group",
-    "ToolTip": "Quasi quam eligendi neque.",
-    "Deleted": false,
-    "Rank": 735,
-    "Type": "quidem",
-    "ColorBlock": 204,
-    "IconHint": "necessitatibus",
+    "Id": 626,
+    "Name": "Walsh-Rutherford",
+    "ToolTip": "Molestias ut esse fugiat repellat et perspiciatis.",
+    "Deleted": true,
+    "Rank": 420,
+    "Type": "qui",
+    "ColorBlock": 128,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2023-04-17T14:23:56.2751981+02:00",
+    "LastChanged": "2004-03-23T12:19:54.7739754+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Witting, Brekke and Senger",
-        "ToolTip": "Autem neque nihil quod ex voluptas incidunt.",
-        "Deleted": false,
-        "Rank": 155,
-        "Type": "laborum",
-        "ColorBlock": 781,
-        "IconHint": "architecto",
+        "Id": 468,
+        "Name": "Mills, Wilkinson and Vandervort",
+        "ToolTip": "Consequatur quis vitae maxime veritatis.",
+        "Deleted": true,
+        "Rank": 284,
+        "Type": "commodi",
+        "ColorBlock": 539,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2020-09-14T14:23:56.2751981+02:00",
+        "LastChanged": "2019-04-30T12:19:54.7739754+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mallory Connelly",
+        "ExtraInfo": "officiis",
+        "StyleHint": "unde",
+        "Hidden": true,
+        "FullName": "Liliane Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "eos",
+    "ExtraInfo": "molestias",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Remington Erdman",
+    "FullName": "Verlie Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

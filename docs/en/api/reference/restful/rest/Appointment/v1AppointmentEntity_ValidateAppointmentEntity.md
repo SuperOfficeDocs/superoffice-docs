@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-06-22T14:23:54.6158938+02:00",
-  "AppointmentId": 627,
-  "Description": "Progressive zero administration moratorium",
-  "Title": "blanditiis",
-  "Agenda": "eaque",
-  "InternalNotes": "eius",
-  "StartDate": "2019-08-30T14:23:54.6158938+02:00",
-  "EndDate": "2010-06-08T14:23:54.6158938+02:00",
+  "CreatedDate": "2008-03-22T12:19:53.0087458+01:00",
+  "AppointmentId": 501,
+  "Description": "Integrated zero tolerance core",
+  "Title": "ratione",
+  "Agenda": "illo",
+  "InternalNotes": "expedita",
+  "StartDate": "2009-05-01T12:19:53.0087458+02:00",
+  "EndDate": "2005-05-11T12:19:53.0087458+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 231,
+  "MotherId": 531,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-01-25T14:23:54.6158938+01:00",
+  "UpdatedDate": "1999-01-13T12:19:53.0087458+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 873,
+  "ActiveLinks": 922,
   "Links": [
     {
-      "EntityName": "Ortiz-Farrell",
-      "Id": 279,
-      "Description": "Mandatory national hierarchy",
-      "ExtraInfo": "vel",
-      "LinkId": 763
+      "EntityName": "Koss, Mueller and O'Connell",
+      "Id": 791,
+      "Description": "Balanced cohesive portal",
+      "ExtraInfo": "modi",
+      "LinkId": 526
     },
     {
-      "EntityName": "Ortiz-Farrell",
-      "Id": 279,
-      "Description": "Mandatory national hierarchy",
-      "ExtraInfo": "vel",
-      "LinkId": 763
+      "EntityName": "Koss, Mueller and O'Connell",
+      "Id": 791,
+      "Description": "Balanced cohesive portal",
+      "ExtraInfo": "modi",
+      "LinkId": 526
     }
   ],
-  "AlarmLeadTime": "atque",
+  "AlarmLeadTime": "omnis",
   "HasAlarm": true,
-  "ColorIndex": 523,
+  "ColorIndex": 967,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quasi",
-  "LeadTime": "nihil",
-  "Location": "illum",
-  "RejectCounter": 798,
+  "LagTime": "sequi",
+  "LeadTime": "consequuntur",
+  "Location": "voluptatem",
+  "RejectCounter": 384,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 236,
-      "PersonId": 789,
-      "ContactId": 646,
-      "EmailId": 294,
+      "AssociateId": 618,
+      "PersonId": 363,
+      "ContactId": 132,
+      "EmailId": 744,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "winona.collins@ortiz.ca",
-      "Description": "Multi-lateral non-volatile implementation"
+      "EmailAddress": "ramiro@turner.com",
+      "Description": "Persistent discrete projection"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-04-03T14:23:54.6158938+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-08-05T12:19:53.0087458+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 984,
+  "PreferredTZLocation": 917,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 570,
+  "SuggestedAppointmentId": 596,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "magnam",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "1384007807",
-    "SuperOffice:2": "Fiona Toy"
+    "SuperOffice:1": "536174717",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "hic"
+    "CustomFields1": "nobis",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2006-08-10T14:23:54.6158938+02:00",
-  "PublishTo": "2005-05-29T14:23:54.6158938+02:00",
-  "PublishFrom": "2012-09-23T14:23:54.6158938+02:00",
+  "PublishEventDate": "2020-03-27T12:19:53.0087458+01:00",
+  "PublishTo": "2000-07-29T12:19:53.0087458+02:00",
+  "PublishFrom": "2020-10-25T12:19:53.0087458+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 151,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "totam"
     },
     {
-      "VisibleId": 151,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "totam"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorem",
-  "2": "sequi"
+  "1": "repellat",
+  "2": "sint"
 }
 ```

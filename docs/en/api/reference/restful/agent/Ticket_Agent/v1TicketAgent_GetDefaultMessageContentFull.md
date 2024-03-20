@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 996,
+  "TicketId": 171,
   "MessageActionType": "Forward",
-  "TicketMessageId": 640,
-  "TicketTypeId": 161
+  "TicketMessageId": 393,
+  "TicketTypeId": 527
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "animi",
+  "Body": "quia",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 364,
-      "Name": "Funk, Wilderman and Murazik",
-      "ContentType": "itaque",
-      "AttSize": 34,
-      "InlineImage": false,
-      "ContentId": "repellendus",
-      "AuthKey": "sequi",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 33,
+      "Name": "Gottlieb-Dietrich",
+      "ContentType": "aliquid",
+      "AttSize": 203,
+      "InlineImage": true,
+      "ContentId": "vero",
+      "AuthKey": "est",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 391
         }
       }
     }

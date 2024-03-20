@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 59,
-    "Name": "Abbott, Feest and Rodriguez",
-    "Tooltip": "omnis",
+    "HeadingId": 579,
+    "Name": "Effertz, Jerde and Cole",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 485
+    "Rank": 900,
+    "UdListDefinitionId": 888
   },
   {
-    "HeadingId": 59,
-    "Name": "Abbott, Feest and Rodriguez",
-    "Tooltip": "omnis",
+    "HeadingId": 579,
+    "Name": "Effertz, Jerde and Cole",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 485
+    "Rank": 900,
+    "UdListDefinitionId": 888
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 911,
-    "Name": "Weimann, Casper and Pollich",
-    "Tooltip": "iure",
+    "HeadingId": 963,
+    "Name": "Connelly, Powlowski and Frami",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 500,
-    "UdListDefinitionId": 609,
+    "Rank": 523,
+    "UdListDefinitionId": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

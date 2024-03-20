@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 705
+  "PersonId": 789
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 505,
-  "Name": "Waelchi-Wiza",
-  "PersonId": 299,
-  "Rank": 814,
-  "Tooltip": "qui",
+  "AssociateId": 619,
+  "Name": "Oberbrunner Inc and Sons",
+  "PersonId": 711,
+  "Rank": 267,
+  "Tooltip": "ex",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 655,
-  "FullName": "Miss Lorenz Eduardo Pollich PhD",
-  "FormalName": "Bayer, O'Conner and Graham",
+  "GroupIdx": 522,
+  "FullName": "Dr. Eloise Lennie Wyman",
+  "FormalName": "Emard-Von",
   "Deleted": false,
-  "EjUserId": 900,
-  "UserName": "Corkery LLC",
+  "EjUserId": 133,
+  "UserName": "Schumm Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 82
     }
   }
 }

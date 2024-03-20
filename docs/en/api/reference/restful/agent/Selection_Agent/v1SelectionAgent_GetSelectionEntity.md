@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=750
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=314
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised fault-tolerant middleware",
-  "Postit": "eos",
+  "Description": "Universal high-level leverage",
+  "Postit": "dignissimos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 550,
-  "IncludePerson": 269,
-  "MemberCount": 995,
-  "Name": "Fritsch-Morar",
-  "PostitTextId": 30,
-  "CreatedDate": "2003-02-25T14:23:47.3942558+01:00",
-  "SelectionId": 888,
-  "SoundEx": "dolor",
-  "Source": 222,
-  "TextId": 469,
-  "UpdatedDate": "2003-10-17T14:23:47.3942558+02:00",
-  "UpdatedCount": 555,
-  "Visibility": 352,
+  "GroupIdx": 84,
+  "IncludePerson": 681,
+  "MemberCount": 922,
+  "Name": "Raynor Inc and Sons",
+  "PostitTextId": 549,
+  "CreatedDate": "2015-09-09T12:19:46.2420414+02:00",
+  "SelectionId": 826,
+  "SoundEx": "sunt",
+  "Source": 546,
+  "TextId": 349,
+  "UpdatedDate": "2014-03-28T12:19:46.2420414+01:00",
+  "UpdatedCount": 169,
+  "Visibility": 375,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 622,
-  "TargetTableName": "Ullrich Group",
-  "Completed": true,
-  "LeftSelectionId": 116,
-  "RightSelectionId": 15,
+  "CompanyUnique": true,
+  "TargetTableNumber": 899,
+  "TargetTableName": "Kshlerin LLC",
+  "Completed": false,
+  "LeftSelectionId": 801,
+  "RightSelectionId": 483,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Welch Inc and Sons",
-  "ShadowProviderName": "Klocko LLC",
-  "ChartKey": "rem",
-  "LastLoaded": "2012-01-10T14:23:47.3942558+01:00",
-  "LastLoadedBy": 454,
+  "MainProviderName": "Gutkowski, Lind and Hyatt",
+  "ShadowProviderName": "Mertz, Hoppe and Feest",
+  "ChartKey": "commodi",
+  "LastLoaded": "2013-05-13T12:19:46.2420414+02:00",
+  "LastLoadedBy": 94,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-09-05T14:23:47.3942558+02:00",
-  "LastMembershipChangeBy": 506,
+  "LastMembershipChange": "2003-02-24T12:19:46.2420414+01:00",
+  "LastMembershipChangeBy": 1001,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "modi",
-  "MemberTabHeading": "quos",
-  "MailingsProviderName": "Littel-Lang",
-  "DashboardTileDefinitionId": 141,
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Bogan, Gusikowski and Little",
+  "DashboardTileDefinitionId": 888,
   "VisibleFor": [
     {
-      "VisibleId": 192,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     },
     {
-      "VisibleId": 192,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 738
     }
   }
 }

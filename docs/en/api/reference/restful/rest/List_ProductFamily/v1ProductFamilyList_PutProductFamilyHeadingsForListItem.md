@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Walker Group",
-    "ToolTip": "Consequuntur ab et voluptas.",
-    "Deleted": false,
-    "Rank": 97,
-    "Type": "perspiciatis",
-    "ColorBlock": 87,
-    "IconHint": "minus",
+    "Id": 754,
+    "Name": "Tromp, Weissnat and Hickle",
+    "ToolTip": "Sint corporis modi consequatur est non qui.",
+    "Deleted": true,
+    "Rank": 637,
+    "Type": "sit",
+    "ColorBlock": 380,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2023-06-29T14:23:56.2126991+02:00",
+    "LastChanged": "2006-02-03T12:19:54.7114903+01:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Zboncak-Breitenberg",
-        "ToolTip": "Ea vero.",
-        "Deleted": false,
-        "Rank": 858,
-        "Type": "a",
-        "ColorBlock": 966,
-        "IconHint": "ducimus",
+        "Id": 789,
+        "Name": "Pagac-Keebler",
+        "ToolTip": "Est rerum ipsam est voluptas dolorem est provident.",
+        "Deleted": true,
+        "Rank": 36,
+        "Type": "aut",
+        "ColorBlock": 136,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-11-18T14:23:56.2126991+01:00",
+        "LastChanged": "2017-03-28T12:19:54.7114903+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "id",
+        "ExtraInfo": "vero",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Kamron Treutel"
+        "FullName": "Alejandrin Johns"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Darrick Rice"
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "nulla",
+    "Hidden": false,
+    "FullName": "Kenyatta Altenwerth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "VonRueden, Williamson and Walsh",
-    "ToolTip": "Quos hic cupiditate optio.",
-    "Deleted": true,
-    "Rank": 813,
-    "Type": "culpa",
-    "ColorBlock": 902,
-    "IconHint": "velit",
+    "Id": 285,
+    "Name": "Herman-Renner",
+    "ToolTip": "Enim ut ab nobis.",
+    "Deleted": false,
+    "Rank": 952,
+    "Type": "est",
+    "ColorBlock": 459,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2001-11-21T14:23:56.2126991+01:00",
+    "LastChanged": "2008-03-22T12:19:54.7114903+01:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Cronin Inc and Sons",
-        "ToolTip": "Sit et pariatur.",
-        "Deleted": false,
-        "Rank": 334,
-        "Type": "doloremque",
-        "ColorBlock": 975,
-        "IconHint": "a",
+        "Id": 283,
+        "Name": "Nolan Group",
+        "ToolTip": "Aliquid quod aut.",
+        "Deleted": true,
+        "Rank": 68,
+        "Type": "doloribus",
+        "ColorBlock": 66,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2013-04-07T14:23:56.2126991+02:00",
+        "LastChanged": "2021-11-24T12:19:54.7114903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "nulla",
-        "Hidden": true,
-        "FullName": "Trace Blanda",
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Miss Keanu Aron Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 754
+            "FieldLength": 223
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Jarod Oswaldo Sauer",
+    "ExtraInfo": "qui",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Dr. Dino Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 289
       }
     }
   }

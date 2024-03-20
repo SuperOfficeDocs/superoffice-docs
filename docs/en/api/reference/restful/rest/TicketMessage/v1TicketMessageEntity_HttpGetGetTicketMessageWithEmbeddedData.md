@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 307,
+  "EjMessageId": 150,
   "Ticket": null,
-  "CreatedAt": "2022-12-29T14:23:55.7283316+01:00",
+  "CreatedAt": "2022-04-24T12:19:54.0553956+02:00",
   "CreatedBy": null,
-  "Author": "animi",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 611,
-  "Body": "esse",
-  "HtmlBody": "est",
-  "EmailHeader": "mabel_bode@simonis.biz",
-  "DebugInfo": "eos",
-  "MailSorter": "nemo",
+  "MessageId": "sapiente",
+  "TimeSpent": 909,
+  "Body": "tempore",
+  "HtmlBody": "dolorum",
+  "EmailHeader": "rahul@kuhn.com",
+  "DebugInfo": "ut",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "saepe",
+  "SearchTitle": "nulla",
   "MessageHeaders": [
     {
-      "Id": 172,
-      "Name": "Hamill-Roberts",
-      "Value": "voluptatem",
+      "Id": 641,
+      "Name": "Kerluke-Gulgowski",
+      "Value": "repellendus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
   ],
   "Important": false,
-  "Language": "mollitia",
-  "Sentiment": 1000,
-  "SentimentConfidence": 954,
+  "Language": "unde",
+  "Sentiment": 889,
+  "SentimentConfidence": 392,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 501,
-      "Name": "Satterfield LLC",
-      "ContentType": "quia",
-      "AttSize": 841,
-      "InlineImage": true,
-      "ContentId": "distinctio",
-      "AuthKey": "explicabo",
+      "AttachmentId": 9,
+      "Name": "Littel-Kertzmann",
+      "ContentType": "et",
+      "AttSize": 467,
+      "InlineImage": false,
+      "ContentId": "omnis",
+      "AuthKey": "omnis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 833
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "a",
+    "CustomFields2": "impedit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   }
 }

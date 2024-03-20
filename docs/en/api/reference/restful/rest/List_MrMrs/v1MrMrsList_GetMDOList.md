@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=vel
+GET /api/v1/List/MrMrs/MDOItems?query=saepe
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Wiegand-Stoltenberg",
-    "ToolTip": "Mollitia id itaque.",
-    "Deleted": true,
-    "Rank": 378,
-    "Type": "neque",
+    "Id": 932,
+    "Name": "Bergnaum-Farrell",
+    "ToolTip": "Corrupti est alias perferendis sint a beatae.",
+    "Deleted": false,
+    "Rank": 570,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Dare-Gislason",
-        "ToolTip": "Minus illum eveniet.",
+        "Id": 715,
+        "Name": "Predovic-Lebsack",
+        "ToolTip": "Quia soluta ipsa deleniti animi sit laboriosam.",
         "Deleted": false,
-        "Rank": 191,
-        "Type": "distinctio",
+        "Rank": 69,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 171,
-        "ExtraInfo": "quos",
-        "StyleHint": "distinctio",
-        "FullName": "Emmalee Wyman",
+        "IconHint": "non",
+        "ColorBlock": 735,
+        "ExtraInfo": "odio",
+        "StyleHint": "quo",
+        "FullName": "Mr. Shaina Jacques Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 733
+            "FieldType": "System.Int32",
+            "FieldLength": 453
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 561,
-    "ExtraInfo": "beatae",
-    "StyleHint": "laborum",
-    "FullName": "Prof. Kristopher Senger II",
+    "IconHint": "est",
+    "ColorBlock": 319,
+    "ExtraInfo": "natus",
+    "StyleHint": "consequatur",
+    "FullName": "Marlen Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 959
       }
     }
   }

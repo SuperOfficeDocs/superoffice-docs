@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=ex
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=deserunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Glover-Schaefer",
-    "ToolTip": "Iusto commodi itaque et ut dolorum.",
-    "Deleted": true,
-    "Rank": 486,
-    "Type": "esse",
+    "Id": 507,
+    "Name": "Luettgen-O'Conner",
+    "ToolTip": "Nihil eos eveniet quibusdam quasi asperiores aut ut.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Kuphal, McDermott and Gerlach",
-        "ToolTip": "Exercitationem recusandae qui dolore nobis officia et.",
+        "Id": 903,
+        "Name": "Pfannerstill, Doyle and Mayert",
+        "ToolTip": "Deserunt voluptates laborum.",
         "Deleted": false,
-        "Rank": 763,
-        "Type": "porro",
+        "Rank": 966,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 964,
-        "ExtraInfo": "ut",
-        "StyleHint": "sunt",
-        "FullName": "Pietro Kutch",
+        "IconHint": "ut",
+        "ColorBlock": 556,
+        "ExtraInfo": "est",
+        "StyleHint": "amet",
+        "FullName": "Lyla Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldType": "System.String",
+            "FieldLength": 240
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 62,
-    "ExtraInfo": "omnis",
-    "StyleHint": "non",
-    "FullName": "Layla Derek Cummings Jr.",
+    "IconHint": "est",
+    "ColorBlock": 714,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "et",
+    "FullName": "Quinten McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 59
       }
     }
   }

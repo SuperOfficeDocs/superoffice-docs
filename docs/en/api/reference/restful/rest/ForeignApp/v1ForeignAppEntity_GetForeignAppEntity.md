@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 07 Nov 1996 14:23:55 G11T
+Last-Modified: Sun, 19 Mar 2006 12:19:53 G3T
 
 {
-  "ForeignAppId": 637,
-  "Name": "Runolfsson, Bartell and Orn",
-  "CreatedDate": "2019-12-03T14:23:55.1802705+01:00",
-  "UpdatedDate": "1996-11-07T14:23:55.1802705+01:00",
+  "ForeignAppId": 811,
+  "Name": "Harber, Kuvalis and Purdy",
+  "CreatedDate": "2001-05-19T12:19:53.5867469+02:00",
+  "UpdatedDate": "2006-03-19T12:19:53.5867469+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 484,
-      "Name": "Bayer-Kessler",
-      "CreatedDate": "1997-05-03T14:23:55.1802705+02:00",
-      "UpdatedDate": "2014-02-28T14:23:55.1802705+01:00",
-      "AssociateFullName": "Esperanza Ritchie",
-      "CreatedBy": "quas",
-      "UpdatedBy": "quisquam",
-      "DeviceIdentifier": "suscipit",
-      "ForeignAppId": 89,
+      "ForeignDeviceId": 590,
+      "Name": "Denesik-Paucek",
+      "CreatedDate": "2001-12-17T12:19:53.5867469+01:00",
+      "UpdatedDate": "2007-08-06T12:19:53.5867469+02:00",
+      "AssociateFullName": "Cali Spencer",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "atque",
+      "DeviceIdentifier": "magni",
+      "ForeignAppId": 813,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldLength": 330
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Thu, 07 Nov 1996 14:23:55 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 332
     }
   },
   "_Links": {

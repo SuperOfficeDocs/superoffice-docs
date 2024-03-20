@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 789,
-  "Name": "Weber-Robel"
+  "DashboardId": 576,
+  "Name": "Stehr, Ferry and Oberbrunner"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 645,
-  "UniqueId": "cumque",
-  "Name": "Gusikowski-Towne",
-  "Description": "Cross-group mission-critical Graphical User Interface",
-  "AssociateId": 469,
-  "Columns": 385,
+  "DashboardId": 434,
+  "UniqueId": "nihil",
+  "Name": "Heathcote, Moen and Rempel",
+  "Description": "Ameliorated bottom-line adapter",
+  "AssociateId": 838,
+  "Columns": 990,
   "Theme": null,
-  "VisibleForAll": 846,
+  "VisibleForAll": 256,
   "VisibleForAssociates": [
-    238,
-    43
+    239,
+    416
   ],
   "VisibleForGroups": [
-    722,
-    480
+    192,
+    58
   ],
-  "PinForAll": 725,
+  "PinForAll": 362,
   "PinForAssociates": [
-    638,
-    732
+    773,
+    951
   ],
   "PinForGroups": [
-    948,
-    751
+    749,
+    170
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

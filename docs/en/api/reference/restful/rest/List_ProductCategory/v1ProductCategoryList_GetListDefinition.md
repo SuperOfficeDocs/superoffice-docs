@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Gleason-Pollich",
-  "Tooltip": "fugit",
+  "Id": 411,
+  "Name": "Batz-Considine",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 594,
+  "Rank": 346,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 554
     }
   },
   "_Links": {

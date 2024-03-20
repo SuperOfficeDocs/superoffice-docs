@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 589,
+  "HierarchyId": 604,
   "Domain": "Dashboards",
-  "Name": "Rowe Group",
-  "Fullname": "rerum",
-  "ParentId": 137,
+  "Name": "Ziemann-Batz",
+  "Fullname": "ut",
+  "ParentId": 768,
   "Children": [
     {
-      "HierarchyId": 184,
+      "HierarchyId": 722,
       "Domain": "Dashboards",
-      "Name": "McClure, Nitzsche and Altenwerth",
-      "Fullname": "consectetur",
-      "ParentId": 269,
+      "Name": "Bruen Group",
+      "Fullname": "quia",
+      "ParentId": 646,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-09-01T14:23:55.195897+02:00",
-      "RegisteredAssociateId": 991,
-      "Updated": "1999-06-10T14:23:55.195897+02:00",
-      "UpdatedAssociateId": 907
+      "Registered": "2017-01-01T12:19:53.6023745+01:00",
+      "RegisteredAssociateId": 263,
+      "Updated": "2023-11-02T12:19:53.6023745+01:00",
+      "UpdatedAssociateId": 129
     }
   ],
-  "Registered": "2013-07-10T14:23:55.195897+02:00",
-  "RegisteredAssociateId": 538,
-  "Updated": "2008-05-23T14:23:55.195897+02:00",
-  "UpdatedAssociateId": 511
+  "Registered": "1997-09-03T12:19:53.6023745+02:00",
+  "RegisteredAssociateId": 649,
+  "Updated": "1998-09-21T12:19:53.6023745+02:00",
+  "UpdatedAssociateId": 678
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 226,
+  "HierarchyId": 737,
   "Domain": "Dashboards",
-  "Name": "Witting, Bailey and Nolan",
-  "Fullname": "ut",
-  "ParentId": 900,
+  "Name": "Denesik, Wisozk and Windler",
+  "Fullname": "quisquam",
+  "ParentId": 338,
   "Children": [
     {
-      "HierarchyId": 333,
+      "HierarchyId": 245,
       "Domain": "Dashboards",
-      "Name": "Price, Smitham and Rippin",
-      "Fullname": "ad",
-      "ParentId": 517,
+      "Name": "Kihn Inc and Sons",
+      "Fullname": "non",
+      "ParentId": 759,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-07-09T14:23:55.195897+02:00",
-      "RegisteredAssociateId": 994,
-      "Updated": "2017-04-20T14:23:55.195897+02:00",
-      "UpdatedAssociateId": 546,
+      "Registered": "2007-02-28T12:19:53.6023745+01:00",
+      "RegisteredAssociateId": 498,
+      "Updated": "1999-07-03T12:19:53.6023745+02:00",
+      "UpdatedAssociateId": 642,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldLength": 182
         }
       }
     }
   ],
-  "Registered": "2000-09-21T14:23:55.195897+02:00",
-  "RegisteredAssociateId": 404,
-  "Updated": "2000-02-15T14:23:55.195897+01:00",
-  "UpdatedAssociateId": 631,
+  "Registered": "2002-09-06T12:19:53.6023745+02:00",
+  "RegisteredAssociateId": 465,
+  "Updated": "2010-04-28T12:19:53.6023745+02:00",
+  "UpdatedAssociateId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   },
   "_Links": {

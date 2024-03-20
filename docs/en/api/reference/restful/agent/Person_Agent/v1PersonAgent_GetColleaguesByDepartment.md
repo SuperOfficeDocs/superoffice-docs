@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 970
+  "DepartmentId": 632
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eos",
-    "PersonId": 411,
-    "Mrmrs": "repellat",
-    "Firstname": "Rosetta",
-    "Lastname": "Leuschke",
-    "MiddleName": "Haley Group",
-    "Title": "aliquid",
-    "Description": "Re-contextualized dynamic service-desk",
-    "Email": "magali@mccullough.biz",
-    "FullName": "Oliver Bechtelar",
-    "DirectPhone": "324.721.6414 x28370",
-    "FormalName": "Huels, Hand and Wuckert",
-    "CountryId": 393,
-    "ContactId": 279,
-    "ContactName": "Thompson, Nienow and Ortiz",
-    "Retired": 507,
-    "Rank": 148,
-    "ActiveInterests": 465,
+    "Position": "sit",
+    "PersonId": 110,
+    "Mrmrs": "dolorem",
+    "Firstname": "Humberto",
+    "Lastname": "Tromp",
+    "MiddleName": "Hermann Inc and Sons",
+    "Title": "quia",
+    "Description": "Object-based bottom-line superstructure",
+    "Email": "hillard@reilly.co.uk",
+    "FullName": "Katelyn Beatty",
+    "DirectPhone": "1-251-244-7742",
+    "FormalName": "Bruen LLC",
+    "CountryId": 976,
+    "ContactId": 601,
+    "ContactName": "Christiansen-Zemlak",
+    "Retired": 4,
+    "Rank": 409,
+    "ActiveInterests": 18,
     "ContactDepartment": "",
-    "ContactCountryId": 932,
-    "ContactOrgNr": "313008",
-    "FaxPhone": "1-405-504-4507",
-    "MobilePhone": "1-951-350-7323 x0287",
-    "ContactPhone": "(863)077-7325 x8997",
-    "AssociateName": "Thiel Inc and Sons",
-    "AssociateId": 118,
-    "UsePersonAddress": false,
-    "ContactFax": "harum",
-    "Kanafname": "possimus",
-    "Kanalname": "illo",
-    "Post1": "veniam",
-    "Post2": "porro",
-    "Post3": "et",
-    "EmailName": "charlie.hegmann@moen.us",
-    "ContactFullName": "Jaunita Mckenna Jast II",
-    "ActiveErpLinks": 795,
-    "TicketPriorityId": 715,
-    "SupportLanguageId": 18,
-    "SupportAssociateId": 240,
+    "ContactCountryId": 161,
+    "ContactOrgNr": "918307",
+    "FaxPhone": "1-168-959-7529",
+    "MobilePhone": "(597)686-3009",
+    "ContactPhone": "1-968-554-8388",
+    "AssociateName": "Yost-Pfeffer",
+    "AssociateId": 904,
+    "UsePersonAddress": true,
+    "ContactFax": "tempora",
+    "Kanafname": "quos",
+    "Kanalname": "ipsam",
+    "Post1": "reiciendis",
+    "Post2": "ex",
+    "Post3": "iure",
+    "EmailName": "thad.becker@tromplittel.com",
+    "ContactFullName": "Ms. Alan Halle Vandervort I",
+    "ActiveErpLinks": 36,
+    "TicketPriorityId": 580,
+    "SupportLanguageId": 719,
+    "SupportAssociateId": 748,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 390
       }
     }
   }

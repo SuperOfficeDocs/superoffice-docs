@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 404,
-  "ColumnId": 89,
-  "FieldDefault": "hic",
-  "FieldHeight": 471,
+  "UDefFieldId": 354,
+  "ColumnId": 809,
+  "FieldDefault": "ut",
+  "FieldHeight": 952,
   "FieldLabel": "et",
-  "FieldLeft": 469,
-  "FieldTop": 766,
+  "FieldLeft": 436,
+  "FieldTop": 99,
   "FieldType": "Checkbox",
-  "FieldWidth": 389,
-  "FormatMask": "debitis",
+  "FieldWidth": 384,
+  "FormatMask": "eos",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 501,
-  "LabelLeft": 627,
-  "LabelTop": 742,
-  "LabelWidth": 97,
-  "LastVersionId": 430,
-  "ListTableId": 326,
+  "IsIndexed": false,
+  "LabelHeight": 128,
+  "LabelLeft": 259,
+  "LabelTop": 429,
+  "LabelWidth": 168,
+  "LastVersionId": 842,
+  "ListTableId": 387,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 616,
-  "ProgId": "cumque",
-  "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 26,
-  "TextLength": 754,
-  "Tooltip": "atque",
-  "UdefIdentity": 569,
-  "UDListDefinitionId": 619,
+  "Page1LineNo": 472,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "sit",
+  "TabOrder": 403,
+  "TextLength": 393,
+  "Tooltip": "sint",
+  "UdefIdentity": 854,
+  "UDListDefinitionId": 946,
   "Justification": "Center",
-  "Version": 89,
-  "TemplateVariableName": "Bogan Inc and Sons",
+  "Version": 591,
+  "TemplateVariableName": "Schultz-Romaguera",
   "HasBeenPublished": false,
-  "MdoListName": "Abshire LLC",
+  "MdoListName": "Fritsch LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 655
     }
   }
 }

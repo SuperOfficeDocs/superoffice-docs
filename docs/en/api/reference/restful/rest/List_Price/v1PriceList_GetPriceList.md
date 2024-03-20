@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 4,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 144,
-  "Name": "Reinger LLC",
-  "Description": "Implemented uniform paradigm",
-  "Currency": "recusandae",
-  "CurrencyName": "Cummings, Ward and Daugherty",
-  "ValidFrom": "2014-04-02T14:23:56.1814517+02:00",
-  "ValidTo": "2019-03-04T14:23:56.1814517+01:00",
-  "IsActive": true,
+  "PriceListId": 517,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 966,
+  "Name": "Rodriguez Group",
+  "Description": "Focused responsive moderator",
+  "Currency": "delectus",
+  "CurrencyName": "Bernhard LLC",
+  "ValidFrom": "2011-07-16T12:19:54.6646278+02:00",
+  "ValidTo": "2011-07-21T12:19:54.6646278+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   },
   "_Links": {

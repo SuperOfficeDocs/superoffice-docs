@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 334,
-  "Name": "Harvey Group",
-  "CreatedDate": "2018-04-01T14:23:46.7524806+02:00",
-  "UpdatedDate": "1997-04-24T14:23:46.7524806+02:00",
+  "ForeignAppId": 6,
+  "Name": "Kohler Group",
+  "CreatedDate": "1998-12-08T12:19:45.4141069+01:00",
+  "UpdatedDate": "2010-10-21T12:19:45.4141069+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 93,
-      "Name": "Runolfsson Group",
-      "CreatedDate": "2022-09-21T14:23:46.7524806+02:00",
-      "UpdatedDate": "1999-09-30T14:23:46.7524806+02:00",
-      "AssociateFullName": "Prof. Aylin Nicolas",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "ipsa",
-      "ForeignAppId": 408
+      "ForeignDeviceId": 1000,
+      "Name": "Homenick-Cremin",
+      "CreatedDate": "2017-11-11T12:19:45.4141069+01:00",
+      "UpdatedDate": "2018-05-26T12:19:45.4141069+02:00",
+      "AssociateFullName": "Prof. Elton Kuhic",
+      "CreatedBy": "excepturi",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 395
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 677,
-  "Name": "Turner-Nader",
-  "CreatedDate": "2021-04-04T14:23:46.7524806+02:00",
-  "UpdatedDate": "2019-05-26T14:23:46.7524806+02:00",
+  "ForeignAppId": 880,
+  "Name": "Konopelski, Kling and Medhurst",
+  "CreatedDate": "2005-03-22T12:19:45.4141069+01:00",
+  "UpdatedDate": "2012-06-01T12:19:45.4141069+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 701,
-      "Name": "Thompson Group",
-      "CreatedDate": "1999-10-05T14:23:46.7524806+02:00",
-      "UpdatedDate": "2002-04-26T14:23:46.7524806+02:00",
-      "AssociateFullName": "Kaylie Haley DDS",
-      "CreatedBy": "ut",
-      "UpdatedBy": "natus",
-      "DeviceIdentifier": "distinctio",
-      "ForeignAppId": 654,
+      "ForeignDeviceId": 463,
+      "Name": "Swift-Spencer",
+      "CreatedDate": "2006-08-18T12:19:45.4141069+02:00",
+      "UpdatedDate": "2021-12-13T12:19:45.4141069+01:00",
+      "AssociateFullName": "Mayra Bryana Hamill I",
+      "CreatedBy": "repudiandae",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 307,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "Name": "Cummerata, Tromp and Little",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 215,
+  "Id": 133,
+  "Name": "Renner, Balistreri and Corkery",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "Rank": 317,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Schulist-Bins",
-  "Tooltip": "error",
+  "Id": 525,
+  "Name": "Crooks, Cormier and Ferry",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 922,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 978,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eligendi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 350
     }
   }
 }

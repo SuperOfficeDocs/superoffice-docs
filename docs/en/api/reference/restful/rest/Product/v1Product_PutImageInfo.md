@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 654,
-  "BlobSize": 85,
-  "Description": "Persevering fault-tolerant architecture",
-  "ExtraInfo": "ut",
+  "BlobId": 57,
+  "BlobSize": 268,
+  "Description": "Programmable stable hierarchy",
+  "ExtraInfo": "reprehenderit",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "neque",
-  "OriginalSize": 317,
-  "CreatedDate": "1999-05-12T14:23:55.8220807+02:00",
-  "UpdatedDate": "2013-12-03T14:23:55.8220807+01:00",
+  "MimeType": "maxime",
+  "OriginalSize": 656,
+  "CreatedDate": "2007-05-29T12:19:54.149122+02:00",
+  "UpdatedDate": "2015-07-15T12:19:54.149122+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aperiam"
+  "ConceptualType": "dolor"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 373,
-  "BlobSize": 327,
-  "Description": "Synergistic discrete neural-net",
-  "ExtraInfo": "perferendis",
+  "BlobId": 218,
+  "BlobSize": 472,
+  "Description": "Ergonomic incremental encoding",
+  "ExtraInfo": "aut",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "officia",
-  "OriginalSize": 123,
-  "CreatedDate": "2023-02-15T14:23:55.8220807+01:00",
-  "UpdatedDate": "2006-11-29T14:23:55.8220807+01:00",
+  "IsZipped": false,
+  "MimeType": "consequatur",
+  "OriginalSize": 558,
+  "CreatedDate": "2018-10-26T12:19:54.149122+02:00",
+  "UpdatedDate": "2016-11-22T12:19:54.149122+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consectetur",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 133
     }
   }
 }

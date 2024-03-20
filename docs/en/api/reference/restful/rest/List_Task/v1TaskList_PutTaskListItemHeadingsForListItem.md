@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Langworth, Rogahn and Davis",
-    "ToolTip": "Id nesciunt.",
+    "Id": 838,
+    "Name": "Hessel, Kautzer and Gusikowski",
+    "ToolTip": "Quis vero culpa perferendis dolor odio non ex.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "voluptatem",
-    "ColorBlock": 720,
-    "IconHint": "eaque",
+    "Rank": 782,
+    "Type": "nam",
+    "ColorBlock": 20,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2021-11-18T14:23:56.3858254+01:00",
+    "LastChanged": "2016-06-13T12:19:54.8833241+02:00",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Howe-Barton",
-        "ToolTip": "Harum enim.",
+        "Id": 833,
+        "Name": "Boehm, Barrows and Wisoky",
+        "ToolTip": "Rem saepe.",
         "Deleted": false,
-        "Rank": 779,
-        "Type": "et",
-        "ColorBlock": 559,
-        "IconHint": "debitis",
+        "Rank": 300,
+        "Type": "minima",
+        "ColorBlock": 624,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2022-02-17T14:23:56.3858254+01:00",
+        "LastChanged": "2016-07-19T12:19:54.8833241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "officiis",
+        "ExtraInfo": "nisi",
+        "StyleHint": "quidem",
         "Hidden": true,
-        "FullName": "Natalie Gorczany"
+        "FullName": "Aurore Schowalter"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Timmothy Dach"
+    "ExtraInfo": "similique",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Mateo Huel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Feil LLC",
-    "ToolTip": "Natus tempora ut.",
-    "Deleted": false,
-    "Rank": 926,
-    "Type": "culpa",
-    "ColorBlock": 303,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "2010-04-26T14:23:56.4014502+02:00",
+    "Id": 968,
+    "Name": "Sanford Group",
+    "ToolTip": "Velit laboriosam est odio rerum qui.",
+    "Deleted": true,
+    "Rank": 348,
+    "Type": "magnam",
+    "ColorBlock": 139,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "1999-02-19T12:19:54.8833241+01:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Turner, Pfeffer and Nicolas",
-        "ToolTip": "Et voluptatem sunt veniam tempore velit voluptatem.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "enim",
-        "ColorBlock": 818,
-        "IconHint": "autem",
+        "Id": 346,
+        "Name": "Hermann-Kozey",
+        "ToolTip": "Laboriosam non quam occaecati voluptas.",
+        "Deleted": true,
+        "Rank": 646,
+        "Type": "nisi",
+        "ColorBlock": 706,
+        "IconHint": "pariatur",
         "Selected": true,
-        "LastChanged": "1997-04-24T14:23:56.4014502+02:00",
+        "LastChanged": "2003-01-17T12:19:54.8833241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "nisi",
+        "ExtraInfo": "quia",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Prof. Isaiah Mckenzie Zulauf IV",
+        "FullName": "Charity Lesch PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldType": "System.String",
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Vidal Quitzon",
+    "ExtraInfo": "aut",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Mr. Terrill Marie Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

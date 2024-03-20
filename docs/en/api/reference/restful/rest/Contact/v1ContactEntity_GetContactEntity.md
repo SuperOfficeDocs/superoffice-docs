@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=True
+GET /api/v1/Contact/{id}?fk=False
 ```
 
 
@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 02 May 2016 14:23:54 G5T
+Last-Modified: Wed, 28 Mar 2001 12:19:53 G3T
 
 {
-  "ContactId": 365,
-  "Name": "Kirlin LLC",
+  "ContactId": 565,
+  "Name": "Marks Group",
   "Department": "",
-  "OrgNr": "1100473",
-  "Number1": "922911",
-  "Number2": "956843",
-  "UpdatedDate": "2016-05-02T14:23:54.9602774+02:00",
-  "CreatedDate": "2020-07-31T14:23:54.9602774+02:00",
+  "OrgNr": "1467807",
+  "Number1": "1347469",
+  "Number2": "1372085",
+  "UpdatedDate": "2001-03-28T12:19:53.2274553+02:00",
+  "CreatedDate": "2005-04-23T12:19:53.2274553+02:00",
   "Emails": [
     {
-      "Value": "consequuntur",
-      "StrippedValue": "necessitatibus",
-      "Description": "Face to face demand-driven task-force",
+      "Value": "cum",
+      "StrippedValue": "est",
+      "Description": "Horizontal stable productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 18
         }
       }
     },
     {
-      "Value": "consequuntur",
-      "StrippedValue": "necessitatibus",
-      "Description": "Face to face demand-driven task-force",
+      "Value": "cum",
+      "StrippedValue": "est",
+      "Description": "Horizontal stable productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 18
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 347,
-      "Name": "Littel Inc and Sons",
-      "ToolTip": "Odit recusandae necessitatibus sit facere quae.",
-      "Deleted": true,
-      "Rank": 285,
-      "Type": "et",
-      "ColorBlock": 530,
-      "IconHint": "ipsa",
-      "Selected": true,
-      "LastChanged": "2021-09-22T14:23:54.9602774+02:00",
+      "Id": 61,
+      "Name": "Kling, Fay and Brown",
+      "ToolTip": "Cupiditate cumque possimus accusantium qui similique adipisci et.",
+      "Deleted": false,
+      "Rank": 167,
+      "Type": "sed",
+      "ColorBlock": 825,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2003-05-28T12:19:53.2274553+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "suscipit",
+      "ExtraInfo": "nam",
+      "StyleHint": "dignissimos",
       "Hidden": false,
-      "FullName": "Norberto Frami",
+      "FullName": "Lamont Will",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 732
+          "FieldType": "System.Int32",
+          "FieldLength": 143
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "velit",
-      "StrippedValue": "quia",
-      "Description": "Configurable reciprocal ability",
+      "Value": "consequatur",
+      "StrippedValue": "aut",
+      "Description": "Object-based national firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 511
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "quia",
-      "Description": "Configurable reciprocal ability",
+      "Value": "consequatur",
+      "StrippedValue": "aut",
+      "Description": "Object-based national firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 511
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "dolore",
-      "StrippedValue": "ipsa",
-      "Description": "Public-key empowering circuit",
+      "Value": "facilis",
+      "StrippedValue": "numquam",
+      "Description": "Mandatory even-keeled firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 651
         }
       }
     },
     {
-      "Value": "dolore",
-      "StrippedValue": "ipsa",
-      "Description": "Public-key empowering circuit",
+      "Value": "facilis",
+      "StrippedValue": "numquam",
+      "Description": "Mandatory even-keeled firmware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 651
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "nihil",
-      "StrippedValue": "facilis",
-      "Description": "Multi-channelled content-based protocol",
+      "Value": "eius",
+      "StrippedValue": "labore",
+      "Description": "Upgradable modular process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 935
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "facilis",
-      "Description": "Multi-channelled content-based protocol",
+      "Value": "eius",
+      "StrippedValue": "labore",
+      "Description": "Upgradable modular process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 935
         }
       }
     }
   ],
-  "Description": "Multi-lateral encompassing array",
+  "Description": "Adaptive zero administration application",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Last-Modified: Mon, 02 May 2016 14:23:54 G5T
   "Country": null,
   "Persons": [
     {
-      "Position": "maxime",
-      "PersonId": 571,
-      "Mrmrs": "qui",
-      "Firstname": "Rashad",
-      "Lastname": "Kovacek",
-      "MiddleName": "Walsh Inc and Sons",
-      "Title": "enim",
-      "Description": "Realigned solution-oriented internet solution",
-      "Email": "brennan.padberg@ryan.name",
-      "FullName": "Mr. Kiarra Tevin Kunde",
-      "DirectPhone": "016-677-1864",
-      "FormalName": "Bosco LLC",
-      "CountryId": 8,
-      "ContactId": 232,
-      "ContactName": "Herman, Bins and Bins",
-      "Retired": 440,
-      "Rank": 65,
-      "ActiveInterests": 572,
+      "Position": "ut",
+      "PersonId": 886,
+      "Mrmrs": "vero",
+      "Firstname": "Merl",
+      "Lastname": "VonRueden",
+      "MiddleName": "Ortiz LLC",
+      "Title": "consequatur",
+      "Description": "Automated full-range budgetary management",
+      "Email": "green@halvorson.ca",
+      "FullName": "Clark Ondricka",
+      "DirectPhone": "112.900.5046 x1075",
+      "FormalName": "Rice-Windler",
+      "CountryId": 565,
+      "ContactId": 587,
+      "ContactName": "Armstrong LLC",
+      "Retired": 797,
+      "Rank": 118,
+      "ActiveInterests": 158,
       "ContactDepartment": "",
-      "ContactCountryId": 931,
-      "ContactOrgNr": "608853",
-      "FaxPhone": "079-622-1389 x5154",
-      "MobilePhone": "576.250.0519 x518",
-      "ContactPhone": "412-098-2082",
-      "AssociateName": "Bashirian, Beier and Balistreri",
-      "AssociateId": 782,
-      "UsePersonAddress": false,
-      "ContactFax": "velit",
-      "Kanafname": "assumenda",
-      "Kanalname": "velit",
-      "Post1": "fugit",
-      "Post2": "totam",
-      "Post3": "et",
-      "EmailName": "riley_wolf@bosco.info",
-      "ContactFullName": "Shemar Spencer Hansen II",
-      "ActiveErpLinks": 222,
-      "TicketPriorityId": 32,
-      "SupportLanguageId": 536,
-      "SupportAssociateId": 19,
+      "ContactCountryId": 998,
+      "ContactOrgNr": "1118330",
+      "FaxPhone": "(096)283-3720",
+      "MobilePhone": "1-119-136-1727",
+      "ContactPhone": "(271)829-9664",
+      "AssociateName": "Oberbrunner Group",
+      "AssociateId": 283,
+      "UsePersonAddress": true,
+      "ContactFax": "consequatur",
+      "Kanafname": "suscipit",
+      "Kanalname": "qui",
+      "Post1": "aut",
+      "Post2": "voluptate",
+      "Post3": "quo",
+      "EmailName": "gonzalo@bauch.uk",
+      "ContactFullName": "Brenda Bechtelar",
+      "ActiveErpLinks": 532,
+      "TicketPriorityId": 404,
+      "SupportLanguageId": 141,
+      "SupportAssociateId": 223,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 976
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "nihil",
-  "Xstop": false,
-  "ActiveInterests": 440,
-  "GroupId": 346,
-  "ActiveStatusMonitorId": 973,
+  "NoMailing": true,
+  "Kananame": "dolor",
+  "Xstop": true,
+  "ActiveInterests": 103,
+  "GroupId": 307,
+  "ActiveStatusMonitorId": 306,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 605,
-  "DbiAgentId": 38,
-  "DbiLastSyncronized": "1999-01-11T14:23:54.9602774+01:00",
-  "DbiKey": "magnam",
-  "DbiLastModified": "2014-04-01T14:23:54.9602774+02:00",
+  "Deleted": 274,
+  "DbiAgentId": 593,
+  "DbiLastSyncronized": "2005-11-10T12:19:53.2274553+01:00",
+  "DbiKey": "voluptate",
+  "DbiLastModified": "2007-11-22T12:19:53.2274553+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 875,
-  "ActiveErpLinks": 186,
+  "Source": 825,
+  "ActiveErpLinks": 252,
   "BounceEmails": [
-    "coy@lynch.biz",
-    "berry@volkman.com"
+    "kennedy_hoppe@bogisich.biz",
+    "devan.runolfsdottir@rohanhills.biz"
   ],
   "Domains": [
-    "quod",
-    "quia"
+    "illum",
+    "aut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Davin Willms",
-    "SuperOffice:2": "Ms. Helmer Cierra Robel V"
+    "SuperOffice:1": "Dr. Conor Ruby Smith IV",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "est"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quas"
+    "CustomFields1": "eos",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   },
   "_Links": {

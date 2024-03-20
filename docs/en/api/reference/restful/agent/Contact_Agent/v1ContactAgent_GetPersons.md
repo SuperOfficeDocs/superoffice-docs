@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 380
+  "ContactId": 235
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "non",
-    "PersonId": 410,
-    "Mrmrs": "dolorem",
-    "Firstname": "Amelia",
-    "Lastname": "Osinski",
-    "MiddleName": "Nitzsche-Huel",
-    "Title": "dicta",
-    "Description": "Diverse scalable conglomeration",
-    "Email": "dwight_mayert@morissette.co.uk",
-    "FullName": "Miss Myrtis Leannon V",
-    "DirectPhone": "630-185-2119 x037",
-    "FormalName": "Kihn-Macejkovic",
-    "CountryId": 920,
-    "ContactId": 127,
-    "ContactName": "Johnson Inc and Sons",
-    "Retired": 496,
-    "Rank": 935,
-    "ActiveInterests": 719,
+    "Position": "veritatis",
+    "PersonId": 939,
+    "Mrmrs": "molestiae",
+    "Firstname": "Louie",
+    "Lastname": "Jones",
+    "MiddleName": "Hammes-Streich",
+    "Title": "adipisci",
+    "Description": "User-friendly 24/7 approach",
+    "Email": "meredith@witting.name",
+    "FullName": "Ms. Merle Rudolph Keeling",
+    "DirectPhone": "1-854-460-0791 x340",
+    "FormalName": "Runolfsson Group",
+    "CountryId": 588,
+    "ContactId": 768,
+    "ContactName": "Wyman, Homenick and Schroeder",
+    "Retired": 257,
+    "Rank": 116,
+    "ActiveInterests": 9,
     "ContactDepartment": "",
-    "ContactCountryId": 561,
-    "ContactOrgNr": "1144214",
-    "FaxPhone": "683-335-9692 x89599",
-    "MobilePhone": "546-549-8937",
-    "ContactPhone": "1-181-556-6925 x8803",
-    "AssociateName": "Rath LLC",
-    "AssociateId": 706,
+    "ContactCountryId": 142,
+    "ContactOrgNr": "840119",
+    "FaxPhone": "1-032-924-6604 x9329",
+    "MobilePhone": "1-285-010-1579 x787",
+    "ContactPhone": "1-590-546-5019 x72221",
+    "AssociateName": "Barton, Thiel and Gottlieb",
+    "AssociateId": 938,
     "UsePersonAddress": false,
-    "ContactFax": "consequatur",
-    "Kanafname": "corrupti",
-    "Kanalname": "dolore",
-    "Post1": "tempora",
-    "Post2": "et",
-    "Post3": "et",
-    "EmailName": "crawford.schamberger@tremblay.uk",
-    "ContactFullName": "Wilfred Kulas",
-    "ActiveErpLinks": 265,
-    "TicketPriorityId": 103,
-    "SupportLanguageId": 396,
-    "SupportAssociateId": 803,
+    "ContactFax": "nulla",
+    "Kanafname": "et",
+    "Kanalname": "minus",
+    "Post1": "quas",
+    "Post2": "ratione",
+    "Post3": "incidunt",
+    "EmailName": "bradly_oconner@hintzpacocha.info",
+    "ContactFullName": "Miss Terrance Murphy",
+    "ActiveErpLinks": 420,
+    "TicketPriorityId": 1000,
+    "SupportLanguageId": 462,
+    "SupportAssociateId": 961,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 287
       }
     }
   }

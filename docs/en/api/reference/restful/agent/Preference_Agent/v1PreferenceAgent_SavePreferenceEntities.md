@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "dolorem",
+      "RawValue": "rerum",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "iusto",
+      "DisplayValue": "optio",
+      "DisplayTooltip": "sed",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 416,
-      "PrefDescId": 748,
-      "TableName": "Frami, Schaefer and Kirlin",
-      "UserPreferenceId": 23
+      "TargetId": 803,
+      "PrefDescId": 891,
+      "TableName": "Rutherford-Jerde",
+      "UserPreferenceId": 117
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

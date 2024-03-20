@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 507,
-  "Name": "Hahn Group",
-  "Tooltip": "nisi",
+  "HeadingId": 619,
+  "Name": "Wisozk-McDermott",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 444,
-  "UdListDefinitionId": 273
+  "Rank": 878,
+  "UdListDefinitionId": 963
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Considine Inc and Sons",
-  "Tooltip": "numquam",
+  "HeadingId": 294,
+  "Name": "Blick-Reilly",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 779,
-  "UdListDefinitionId": 590,
+  "Rank": 879,
+  "UdListDefinitionId": 485,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

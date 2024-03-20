@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "ipsam"
+  "FromAddress": "rerum"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 565,
-  "EMailAddress": "molestiae",
-  "AssociateId": 567,
+  "EMailAccountId": 687,
+  "EMailAddress": "id",
+  "AssociateId": 1002,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 5,
-  "ErrorCount": 969,
+  "AccountStatus": 122,
+  "ErrorCount": 89,
   "ErrorReason": "",
-  "InboxFolder": "praesentium",
-  "SentFolder": "ea",
+  "InboxFolder": "sunt",
+  "SentFolder": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 491
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Hudson Group",
-    "ToolTip": "Ab ullam ad nihil doloribus qui.",
+    "Id": 211,
+    "Name": "Gleason-Lang",
+    "ToolTip": "Dolor quas.",
     "Deleted": false,
-    "Rank": 754,
-    "Type": "aut",
-    "ColorBlock": 282,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2003-12-08T14:23:56.228325+01:00",
+    "Rank": 983,
+    "Type": "ut",
+    "ColorBlock": 620,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2004-04-12T12:19:54.7427332+02:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Heidenreich-Willms",
-        "ToolTip": "Similique tempore eos eum.",
+        "Id": 789,
+        "Name": "Carter LLC",
+        "ToolTip": "Assumenda libero quia.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "dignissimos",
-        "ColorBlock": 792,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2005-06-22T14:23:56.2439493+02:00",
+        "Rank": 186,
+        "Type": "excepturi",
+        "ColorBlock": 711,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2008-11-08T12:19:54.7427332+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Garett Emard IV",
+        "FullName": "Rollin Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldType": "System.String",
+            "FieldLength": 198
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "illo",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Prof. Claud Makenzie Purdy",
+    "FullName": "Dr. Jamie Baumbach IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 283
+        "FieldLength": 703
       }
     }
   }

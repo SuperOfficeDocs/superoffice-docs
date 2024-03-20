@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 357,
-  "Name": "Walter-Gutkowski",
-  "CurrencyId": 826,
-  "EnglishName": "Nienow-Auer",
+  "CountryId": 78,
+  "Name": "Monahan-VonRueden",
+  "CurrencyId": 434,
+  "EnglishName": "Grimes LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Open-architected real-time time-frame",
-  "OrgNrText": "1376683",
-  "InterAreaPrefix": "quis",
-  "DialInPrefix": "exercitationem",
-  "ZipPrefix": "praesentium",
-  "DomainName": "Rolfson-Kilback",
-  "AddressLayoutId": 664,
-  "DomesticAddressLayoutId": 621,
-  "ForeignAddressLayoutId": 975,
-  "Rank": 358,
-  "Tooltip": "eaque",
-  "Deleted": true,
+  "ImageDescription": "Distributed client-server emulation",
+  "OrgNrText": "1419974",
+  "InterAreaPrefix": "minus",
+  "DialInPrefix": "ab",
+  "ZipPrefix": "quis",
+  "DomainName": "Tillman-Simonis",
+  "AddressLayoutId": 458,
+  "DomesticAddressLayoutId": 416,
+  "ForeignAddressLayoutId": 176,
+  "Rank": 439,
+  "Tooltip": "quasi",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 874
+      "FieldType": "System.Int32",
+      "FieldLength": 642
     }
   }
 }

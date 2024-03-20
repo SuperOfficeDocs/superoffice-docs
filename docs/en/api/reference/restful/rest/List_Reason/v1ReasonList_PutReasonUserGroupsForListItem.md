@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Medhurst Group",
-    "ToolTip": "Molestiae iste culpa qui quam veritatis enim possimus.",
+    "Id": 282,
+    "Name": "Kautzer-Luettgen",
+    "ToolTip": "Et enim distinctio.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "exercitationem",
-    "ColorBlock": 305,
-    "IconHint": "quia",
+    "Rank": 530,
+    "Type": "est",
+    "ColorBlock": 54,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2014-08-31T14:23:56.2908239+02:00",
+    "LastChanged": "2018-12-05T12:19:54.8052144+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Lockman-Shields",
-        "ToolTip": "Rem delectus sapiente distinctio itaque atque.",
+        "Id": 539,
+        "Name": "Lehner, Schamberger and Sporer",
+        "ToolTip": "Tempora molestiae aut inventore quia aliquam omnis et.",
         "Deleted": false,
-        "Rank": 532,
-        "Type": "et",
-        "ColorBlock": 179,
-        "IconHint": "aut",
+        "Rank": 449,
+        "Type": "saepe",
+        "ColorBlock": 842,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "1998-06-14T14:23:56.2908239+02:00",
+        "LastChanged": "2008-09-09T12:19:54.8052144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "harum",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Arvel Thompson IV"
+        "FullName": "Mr. Rylee Leland Pouros"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Keira Funk"
+    "ExtraInfo": "officia",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "America Reichel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Cormier-Murphy",
-    "ToolTip": "Eos eos autem eligendi dolorem facere est aliquam.",
+    "Id": 936,
+    "Name": "Schuppe, Satterfield and Wiza",
+    "ToolTip": "Quos eveniet.",
     "Deleted": false,
-    "Rank": 312,
-    "Type": "sint",
-    "ColorBlock": 486,
-    "IconHint": "dicta",
+    "Rank": 876,
+    "Type": "adipisci",
+    "ColorBlock": 924,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2021-07-23T14:23:56.2908239+02:00",
+    "LastChanged": "2001-10-05T12:19:54.8052144+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Praesentium delectus expedita nam.",
-        "Deleted": false,
-        "Rank": 902,
-        "Type": "error",
-        "ColorBlock": 870,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2013-07-24T14:23:56.2908239+02:00",
+        "Id": 176,
+        "Name": "Hermiston-Russel",
+        "ToolTip": "Nesciunt non sed eum accusantium vel earum exercitationem.",
+        "Deleted": true,
+        "Rank": 469,
+        "Type": "omnis",
+        "ColorBlock": 895,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2007-03-04T12:19:54.8052144+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Melyssa Beier",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Elliot Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldType": "System.String",
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "quas",
+    "ExtraInfo": "nulla",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Lonnie Volkman",
+    "FullName": "Miss Maiya Orlo Feil I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 95
       }
     }
   }

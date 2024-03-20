@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "accusamus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "accusamus",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 411,
-  "SourcePersonId": 762,
-  "DestinationContactId": 8,
-  "DestinationPersonId": 15,
-  "RelationId": 188,
-  "Comment": "voluptatem",
-  "RelationDefinitionId": 164,
-  "Reversed": 978,
-  "UpdatedDate": "2014-03-19T14:23:55.0552747+01:00",
-  "CreatedDate": "2009-04-01T14:23:55.0552747+02:00",
+  "SourceContactId": 8,
+  "SourcePersonId": 938,
+  "DestinationContactId": 463,
+  "DestinationPersonId": 42,
+  "RelationId": 592,
+  "Comment": "voluptatibus",
+  "RelationDefinitionId": 140,
+  "Reversed": 621,
+  "UpdatedDate": "2013-09-21T12:19:53.3055654+02:00",
+  "CreatedDate": "2012-06-16T12:19:53.3055654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Grant, Stracke and Greenfelder",
-  "SourcePersonName": "Kozey-Kertzmann",
-  "DestinationContactName": "Oberbrunner, Koepp and Bode",
-  "DestinationPersonName": "Wolff, Schuster and Berge",
-  "ActiveText": "recusandae",
-  "PassiveText": "soluta",
+  "SourceContactName": "West-Frami",
+  "SourcePersonName": "Roob LLC",
+  "DestinationContactName": "Raynor-Littel",
+  "DestinationPersonName": "Torp, Weissnat and Mayert",
+  "ActiveText": "dolore",
+  "PassiveText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 218
     }
   },
   "_Links": {

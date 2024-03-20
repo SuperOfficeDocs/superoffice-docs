@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Luettgen, Windler and Schuppe"
+  "OwnerName": "Okuneva-Jacobi"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "sunt",
+  "Message": "molestias",
   "Url": "http://www.example.com/"
 }
 ```

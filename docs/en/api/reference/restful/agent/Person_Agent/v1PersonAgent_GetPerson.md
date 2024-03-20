@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=18
+POST /api/v1/Agents/Person/GetPerson?personId=366
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "eum",
-  "PersonId": 867,
-  "Mrmrs": "eos",
-  "Firstname": "Enrique",
-  "Lastname": "Reilly",
-  "MiddleName": "Schuster, Klein and Tromp",
-  "Title": "commodi",
-  "Description": "Sharable motivating leverage",
-  "Email": "hailie@colebode.us",
-  "FullName": "Katlynn Bruen",
-  "DirectPhone": "1-465-190-2363",
-  "FormalName": "Stoltenberg-Blanda",
-  "CountryId": 782,
-  "ContactId": 284,
-  "ContactName": "Littel Inc and Sons",
-  "Retired": 184,
-  "Rank": 179,
-  "ActiveInterests": 821,
+  "Position": "repellat",
+  "PersonId": 374,
+  "Mrmrs": "sed",
+  "Firstname": "Roberto",
+  "Lastname": "Rodriguez",
+  "MiddleName": "Quigley-Farrell",
+  "Title": "aut",
+  "Description": "Assimilated global success",
+  "Email": "candice.thompson@faygerhold.name",
+  "FullName": "Jordon Gibson",
+  "DirectPhone": "498-246-1812 x56145",
+  "FormalName": "Breitenberg LLC",
+  "CountryId": 609,
+  "ContactId": 237,
+  "ContactName": "Stanton LLC",
+  "Retired": 611,
+  "Rank": 470,
+  "ActiveInterests": 396,
   "ContactDepartment": "",
-  "ContactCountryId": 697,
-  "ContactOrgNr": "291151",
-  "FaxPhone": "(664)485-9939 x7148",
-  "MobilePhone": "269-476-5622 x7237",
-  "ContactPhone": "065-486-2449",
-  "AssociateName": "Crist-Langosh",
-  "AssociateId": 59,
-  "UsePersonAddress": false,
-  "ContactFax": "veritatis",
-  "Kanafname": "dolorem",
-  "Kanalname": "excepturi",
-  "Post1": "dolorum",
-  "Post2": "optio",
-  "Post3": "rerum",
-  "EmailName": "ivah@goldnerschmeler.ca",
-  "ContactFullName": "Granville McCullough",
-  "ActiveErpLinks": 526,
-  "TicketPriorityId": 958,
-  "SupportLanguageId": 716,
-  "SupportAssociateId": 184,
+  "ContactCountryId": 983,
+  "ContactOrgNr": "1276595",
+  "FaxPhone": "745-950-9639 x1356",
+  "MobilePhone": "095.993.1761 x1104",
+  "ContactPhone": "1-388-799-4311",
+  "AssociateName": "Kulas-Raynor",
+  "AssociateId": 764,
+  "UsePersonAddress": true,
+  "ContactFax": "fuga",
+  "Kanafname": "debitis",
+  "Kanalname": "dolorum",
+  "Post1": "quidem",
+  "Post2": "maiores",
+  "Post3": "vel",
+  "EmailName": "dannie@dare.name",
+  "ContactFullName": "Greta Bednar",
+  "ActiveErpLinks": 501,
+  "TicketPriorityId": 675,
+  "SupportLanguageId": 213,
+  "SupportAssociateId": 651,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 921
     }
   }
 }

@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 470,
+  "SystemEventId": 350,
   "Scope": "Database",
-  "Eta": "2009-02-15T14:23:55.5252104+01:00",
-  "Eventkey": "laboriosam",
-  "Eventmess": "quo",
-  "ExtraInfo": 238,
-  "Owner": 424,
-  "UpdatedCount": 391,
-  "Registered": "2004-01-05T14:23:55.5252104+01:00",
+  "Eta": "2013-05-01T12:19:53.9460405+02:00",
+  "Eventkey": "esse",
+  "Eventmess": "voluptates",
+  "ExtraInfo": 215,
+  "Owner": 333,
+  "UpdatedCount": 77,
+  "Registered": "2014-02-17T12:19:53.9460405+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 281,
+  "SystemEventId": 248,
   "Scope": "Database",
-  "Eta": "2021-07-19T14:23:55.5252104+02:00",
-  "Eventkey": "aut",
-  "Eventmess": "quam",
-  "ExtraInfo": 548,
-  "Owner": 407,
-  "UpdatedCount": 103,
-  "Registered": "2018-01-18T14:23:55.5252104+01:00",
+  "Eta": "2001-04-28T12:19:53.9460405+02:00",
+  "Eventkey": "dignissimos",
+  "Eventmess": "voluptatum",
+  "ExtraInfo": 624,
+  "Owner": 208,
+  "UpdatedCount": 201,
+  "Registered": "2009-12-18T12:19:53.9460405+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldLength": 58
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

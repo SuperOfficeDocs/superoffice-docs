@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Gorczany-Mueller",
-    "ToolTip": "Aliquid illo mollitia nisi.",
+    "Id": 297,
+    "Name": "Luettgen Inc and Sons",
+    "ToolTip": "Magni id error tenetur dignissimos quod deserunt.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "dolore",
-    "ColorBlock": 754,
-    "IconHint": "sunt",
+    "Rank": 950,
+    "Type": "voluptates",
+    "ColorBlock": 870,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2019-09-21T14:23:56.2439493+02:00",
+    "LastChanged": "2015-12-09T12:19:54.7427332+01:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Aufderhar LLC",
-        "ToolTip": "Officiis in qui voluptatem.",
+        "Id": 603,
+        "Name": "Buckridge-Mitchell",
+        "ToolTip": "Quia similique vel odit.",
         "Deleted": true,
-        "Rank": 638,
-        "Type": "saepe",
-        "ColorBlock": 888,
-        "IconHint": "nam",
+        "Rank": 732,
+        "Type": "aut",
+        "ColorBlock": 481,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2020-08-21T14:23:56.2439493+02:00",
+        "LastChanged": "1998-08-19T12:19:54.7427332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Grayson Olson"
+        "ExtraInfo": "qui",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Mrs. Camden Abshire"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mr. Genoveva Brisa Fisher IV"
+    "FullName": "Prof. Ransom Judah Hirthe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Cummerata Inc and Sons",
-    "ToolTip": "Dolorem velit voluptas natus.",
+    "Id": 915,
+    "Name": "Lebsack, Wisozk and Koch",
+    "ToolTip": "Eaque iste reprehenderit debitis.",
     "Deleted": false,
-    "Rank": 132,
-    "Type": "totam",
-    "ColorBlock": 889,
-    "IconHint": "molestiae",
+    "Rank": 572,
+    "Type": "quaerat",
+    "ColorBlock": 105,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2021-11-12T14:23:56.2439493+01:00",
+    "LastChanged": "2019-07-30T12:19:54.7427332+02:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Kuhic-Mohr",
-        "ToolTip": "Eos tempore sint aut.",
+        "Id": 649,
+        "Name": "Wisoky Inc and Sons",
+        "ToolTip": "Voluptatem quidem est in dolor est.",
         "Deleted": true,
-        "Rank": 594,
-        "Type": "beatae",
-        "ColorBlock": 390,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2011-04-23T14:23:56.2439493+02:00",
+        "Rank": 476,
+        "Type": "ut",
+        "ColorBlock": 163,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2018-09-28T12:19:54.7427332+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Dolores Veum",
+        "ExtraInfo": "unde",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Judah Janie Hyatt V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 653
+            "FieldType": "System.Int32",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "at",
+    "ExtraInfo": "nam",
     "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Miss Maria Sanford",
+    "FullName": "Aaliyah Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Predovic, Schuppe and Bogan",
-    "Tooltip": "ut",
+    "Id": 162,
+    "Name": "Schmitt-Nienow",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 478,
-    "IsCustomList": true,
+    "Rank": 823,
+    "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "odio",
+    "UseGroupsAndHeadings": false,
+    "ListType": "sit",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 562
       }
     }
   }

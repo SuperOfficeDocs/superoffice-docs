@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 997,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "non",
-  "Name": "Metz, Champlin and Ebert",
-  "Description": "Public-key discrete standardization",
-  "Code": "sed",
-  "PriceUnit": "maxime",
-  "QuantityUnit": "aliquid",
+  "ProductId": 690,
+  "ERPProductKey": "quasi",
+  "ERPPriceListKey": "quia",
+  "Name": "Johnson-Spinka",
+  "Description": "Virtual global software",
+  "Code": "veniam",
+  "PriceUnit": "officia",
+  "QuantityUnit": "rerum",
   "IsSubscription": false,
-  "SubscriptionUnit": "velit",
-  "DefaultSubscriptionQuantity": 6079.96,
-  "ItemNumber": "1359318",
+  "SubscriptionUnit": "laudantium",
+  "DefaultSubscriptionQuantity": 18847.876,
+  "ItemNumber": "1885438",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "vel",
-  "VAT": 181.772,
-  "VATInfo": "quia",
-  "UnitCost": 4910.978,
-  "UnitMinimumPrice": 6126.9699999999993,
-  "UnitListPrice": 6832.12,
-  "InAssortment": false,
-  "Supplier": "eius",
-  "SupplierCode": "et",
-  "Rights": "numquam",
-  "Rule": "delectus",
+  "ProductFamilyKey": "harum",
+  "ProductTypeKey": "voluptas",
+  "VAT": 11755.634,
+  "VATInfo": "ut",
+  "UnitCost": 14256.565999999999,
+  "UnitMinimumPrice": 26143.827999999998,
+  "UnitListPrice": 22470.78,
+  "InAssortment": true,
+  "Supplier": "nisi",
+  "SupplierCode": "ut",
+  "Rights": "sunt",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Hettinger-Spinka",
-      "Value": "qui",
+      "Name": "Monahan, Runte and Dare",
+      "Value": "rerum",
       "Type": "Image"
     },
     {
-      "Name": "Hettinger-Spinka",
-      "Value": "qui",
+      "Name": "Monahan, Runte and Dare",
+      "Value": "rerum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sint",
-  "ExtraField1": "nam",
-  "ExtraField2": "quia",
-  "ExtraField3": "in",
-  "ExtraField4": "fuga",
-  "ExtraField5": "quibusdam",
-  "InStock": 25943.252
+  "RawExtraInfo": "mollitia",
+  "ExtraField1": "sed",
+  "ExtraField2": "sit",
+  "ExtraField3": "exercitationem",
+  "ExtraField4": "ea",
+  "ExtraField5": "adipisci",
+  "InStock": 20925.718
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 527,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "impedit",
-  "Name": "Rice LLC",
-  "Description": "Profit-focused optimal strategy",
-  "Code": "porro",
-  "PriceUnit": "cumque",
-  "QuantityUnit": "qui",
+  "ProductId": 692,
+  "ERPProductKey": "vel",
+  "ERPPriceListKey": "vel",
+  "Name": "Green LLC",
+  "Description": "Face to face interactive initiative",
+  "Code": "occaecati",
+  "PriceUnit": "itaque",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "minima",
-  "DefaultSubscriptionQuantity": 28340.762,
-  "ItemNumber": "1264061",
+  "SubscriptionUnit": "assumenda",
+  "DefaultSubscriptionQuantity": 22849.994,
+  "ItemNumber": "1589013",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reiciendis",
-  "ProductTypeKey": "placeat",
-  "VAT": 1842.792,
-  "VATInfo": "consequatur",
-  "UnitCost": 27065.224,
-  "UnitMinimumPrice": 1996.358,
-  "UnitListPrice": 5302.728,
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "eveniet",
+  "VAT": 25372.863999999998,
+  "VATInfo": "quaerat",
+  "UnitCost": 4359.394,
+  "UnitMinimumPrice": 7609.352,
+  "UnitListPrice": 1121.972,
   "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "nostrum",
-  "Rights": "quaerat",
-  "Rule": "nam",
+  "Supplier": "corporis",
+  "SupplierCode": "dolorem",
+  "Rights": "assumenda",
+  "Rule": "tempora",
   "ExtraInfo": [
     {
-      "Name": "Schmidt-Gerlach",
-      "Value": "iste",
+      "Name": "Johnson-Larson",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     },
     {
-      "Name": "Schmidt-Gerlach",
-      "Value": "iste",
+      "Name": "Johnson-Larson",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "ducimus",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "saepe",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "dolor",
-  "InStock": 12100.374,
+  "RawExtraInfo": "et",
+  "ExtraField1": "quis",
+  "ExtraField2": "tenetur",
+  "ExtraField3": "quisquam",
+  "ExtraField4": "eaque",
+  "ExtraField5": "suscipit",
+  "InStock": 18380.91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldLength": 246
     }
   }
 }

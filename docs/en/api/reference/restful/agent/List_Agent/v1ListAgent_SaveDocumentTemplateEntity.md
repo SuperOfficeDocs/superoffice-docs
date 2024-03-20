@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 284,
-  "Name": "Pollich-Haag",
-  "Tooltip": "dolores",
-  "SaveInDb": 673,
-  "Filename": "et",
-  "DefaultOref": "dolorem",
+  "DocumentTemplateId": 67,
+  "Name": "Roob, Bernier and Howe",
+  "Tooltip": "ducimus",
+  "SaveInDb": 48,
+  "Filename": "voluptatem",
+  "DefaultOref": "id",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 558,
-  "IntentId": 499,
-  "IsDefaultPublished": false,
-  "Rank": 778,
-  "LoadTemplateFromPlugin": 469,
-  "MimeType": "aut",
+  "AutoeventId": 950,
+  "IntentId": 89,
+  "IsDefaultPublished": true,
+  "Rank": 418,
+  "LoadTemplateFromPlugin": 66,
+  "MimeType": "recusandae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 226,
+  "DocumentTypeKey": 491,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kaylin@okeefelindgren.us",
+  "EmailSubject": "bradford@volkmanweimann.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hildegard_flatley@herzog.com",
+  "SenderEmailAddress": "amina@steuber.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 125,
-  "Name": "Smith Group",
-  "Tooltip": "dolore",
-  "SaveInDb": 544,
-  "Filename": "laborum",
-  "DefaultOref": "recusandae",
+  "DocumentTemplateId": 987,
+  "Name": "Bahringer-Feest",
+  "Tooltip": "id",
+  "SaveInDb": 542,
+  "Filename": "eveniet",
+  "DefaultOref": "facere",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 899,
-  "IntentId": 450,
+  "AutoeventId": 970,
+  "IntentId": 544,
   "IsDefaultPublished": false,
-  "Rank": 439,
-  "LoadTemplateFromPlugin": 801,
-  "MimeType": "accusamus",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 640,
+  "Rank": 313,
+  "LoadTemplateFromPlugin": 292,
+  "MimeType": "atque",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 144,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kellie@skiles.biz",
+  "EmailSubject": "magdalena_kohler@ritchierippin.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "margarita.rowe@christiansenjohnston.name",
+  "SenderEmailAddress": "garland_considine@wiegand.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

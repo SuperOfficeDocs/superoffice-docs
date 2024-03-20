@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=18
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=23
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 124,
-  "Name": "Kirlin Inc and Sons",
+  "ScreenChooserId": 197,
+  "Name": "Ebert-Cummerata",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ratione",
-  "Source": "fugiat",
-  "Registered": "2001-05-17T14:23:46.219957+02:00",
-  "RegisteredAssociateId": 83,
-  "Updated": "2022-08-31T14:23:46.219957+02:00",
-  "UpdatedAssociateId": 756,
+  "UniqueIdentifier": "delectus",
+  "Source": "modi",
+  "Registered": "2018-08-18T12:19:45.0079506+02:00",
+  "RegisteredAssociateId": 640,
+  "Updated": "1998-07-06T12:19:45.0079506+02:00",
+  "UpdatedAssociateId": 936,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

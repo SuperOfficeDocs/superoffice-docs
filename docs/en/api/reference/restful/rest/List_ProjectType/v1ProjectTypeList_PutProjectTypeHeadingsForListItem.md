@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Bechtelar Group",
-    "ToolTip": "Dolores cum voluptatibus eos quia et amet.",
+    "Id": 82,
+    "Name": "Raynor, Larkin and Goyette",
+    "ToolTip": "Qui iure ut voluptates consequatur voluptas.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "voluptate",
-    "ColorBlock": 311,
-    "IconHint": "nihil",
+    "Rank": 437,
+    "Type": "aut",
+    "ColorBlock": 886,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2002-09-09T14:23:56.2439493+02:00",
+    "LastChanged": "2021-09-28T12:19:54.7427332+02:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Botsford-Funk",
-        "ToolTip": "Ut sunt voluptas.",
-        "Deleted": true,
-        "Rank": 692,
-        "Type": "aut",
-        "ColorBlock": 165,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2014-02-25T14:23:56.2439493+01:00",
+        "Id": 77,
+        "Name": "Lesch, Hand and Lesch",
+        "ToolTip": "Et consequuntur.",
+        "Deleted": false,
+        "Rank": 643,
+        "Type": "id",
+        "ColorBlock": 518,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2018-01-02T12:19:54.7427332+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eos",
+        "ExtraInfo": "quos",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Erling Dare"
+        "FullName": "Elliott Bernice Lowe Sr."
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Merl Heathcote Jr."
+    "ExtraInfo": "aut",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Belle Hauck"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Wyman, Kuvalis and Quitzon",
-    "ToolTip": "Numquam aut quae necessitatibus enim.",
-    "Deleted": false,
-    "Rank": 723,
-    "Type": "est",
-    "ColorBlock": 150,
-    "IconHint": "laboriosam",
+    "Id": 30,
+    "Name": "Rowe, Yost and Schiller",
+    "ToolTip": "Ut vero.",
+    "Deleted": true,
+    "Rank": 49,
+    "Type": "voluptatum",
+    "ColorBlock": 587,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2009-07-19T14:23:56.2439493+02:00",
+    "LastChanged": "2001-05-10T12:19:54.7583539+02:00",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Ortiz, Yundt and Greenholt",
-        "ToolTip": "Voluptatem explicabo.",
+        "Id": 651,
+        "Name": "Kulas-Leuschke",
+        "ToolTip": "Et id eius inventore.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "est",
-        "ColorBlock": 20,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2011-10-11T14:23:56.2439493+02:00",
+        "Rank": 579,
+        "Type": "quia",
+        "ColorBlock": 30,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2019-09-23T12:19:54.7583539+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Damion Kristian Kertzmann Sr.",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Libby Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 508
+            "FieldType": "System.String",
+            "FieldLength": 433
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Marcellus Hyatt",
+    "ExtraInfo": "officiis",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Rachael Cassin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

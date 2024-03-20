@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 590,
-    "Name": "Jewess-Kulas",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 984,
-    "UdListDefinitionId": 38
+    "HeadingId": 830,
+    "Name": "Howell, Goldner and Toy",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "Rank": 710,
+    "UdListDefinitionId": 216
   },
   {
-    "HeadingId": 590,
-    "Name": "Jewess-Kulas",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 984,
-    "UdListDefinitionId": 38
+    "HeadingId": 830,
+    "Name": "Howell, Goldner and Toy",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "Rank": 710,
+    "UdListDefinitionId": 216
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 655,
-    "Name": "Kihn-Cronin",
-    "Tooltip": "voluptatem",
+    "HeadingId": 312,
+    "Name": "Kshlerin-Morar",
+    "Tooltip": "necessitatibus",
     "Deleted": true,
-    "Rank": 926,
-    "UdListDefinitionId": 724,
+    "Rank": 749,
+    "UdListDefinitionId": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 61
       }
     }
   }

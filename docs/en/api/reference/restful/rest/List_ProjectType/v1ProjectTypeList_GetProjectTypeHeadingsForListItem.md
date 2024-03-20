@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Vitae ut qui laudantium sint assumenda.",
+    "Id": 432,
+    "Name": "Moen Inc and Sons",
+    "ToolTip": "Eum laboriosam voluptas ipsam explicabo accusantium quam est.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "sint",
-    "ColorBlock": 835,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2002-10-11T14:23:56.2439493+02:00",
+    "Rank": 924,
+    "Type": "soluta",
+    "ColorBlock": 313,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2004-12-21T12:19:54.7427332+01:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Yundt, Ruecker and Hahn",
-        "ToolTip": "Facilis expedita.",
-        "Deleted": false,
-        "Rank": 45,
-        "Type": "quam",
-        "ColorBlock": 544,
-        "IconHint": "reprehenderit",
+        "Id": 101,
+        "Name": "Lueilwitz Inc and Sons",
+        "ToolTip": "Quia illum facere ipsa.",
+        "Deleted": true,
+        "Rank": 414,
+        "Type": "totam",
+        "ColorBlock": 366,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2003-08-07T14:23:56.2439493+02:00",
+        "LastChanged": "2002-12-27T12:19:54.7427332+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Ariel Koepp",
+        "FullName": "Wyman Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "natus",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Eldon Spencer",
+    "FullName": "Frances Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 534
       }
     }
   }

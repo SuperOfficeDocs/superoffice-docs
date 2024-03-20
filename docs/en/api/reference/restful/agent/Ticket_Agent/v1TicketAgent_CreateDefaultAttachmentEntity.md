@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 301,
-  "Name": "Boyer, Auer and Gerlach",
-  "ContentType": "et",
-  "AttSize": 360,
-  "InlineImage": true,
-  "ContentId": "blanditiis",
-  "AuthKey": "id",
+  "AttachmentId": 494,
+  "Name": "Williamson, Schinner and Conn",
+  "ContentType": "libero",
+  "AttSize": 1001,
+  "InlineImage": false,
+  "ContentId": "molestias",
+  "AuthKey": "magnam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 890
     }
   }
 }

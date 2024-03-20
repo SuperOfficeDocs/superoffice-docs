@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 657,
-    "Name": "Berge Inc and Sons",
-    "Tooltip": "qui",
+    "HeadingId": 451,
+    "Name": "Gerlach, Weissnat and Roberts",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 705,
-    "UdListDefinitionId": 629,
+    "Rank": 275,
+    "UdListDefinitionId": 153,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 275
       }
     }
   }

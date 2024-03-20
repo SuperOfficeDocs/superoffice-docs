@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Donnelly, Davis and Fritsch",
-    "ToolTip": "Iste molestiae.",
-    "Deleted": true,
-    "Rank": 401,
-    "Type": "a",
-    "ColorBlock": 803,
-    "IconHint": "maxime",
+    "Id": 620,
+    "Name": "Jerde-Fisher",
+    "ToolTip": "Ipsam esse voluptatem sunt sed sequi.",
+    "Deleted": false,
+    "Rank": 170,
+    "Type": "et",
+    "ColorBlock": 558,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2000-02-06T14:23:56.0720758+01:00",
+    "LastChanged": "2020-03-21T12:19:54.3990083+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Osinski-Wilkinson",
-        "ToolTip": "Voluptate hic sit esse accusantium dolores assumenda qui.",
-        "Deleted": true,
-        "Rank": 159,
-        "Type": "autem",
-        "ColorBlock": 268,
-        "IconHint": "eius",
+        "Id": 185,
+        "Name": "Hackett Inc and Sons",
+        "ToolTip": "Enim nulla blanditiis id quia suscipit et.",
+        "Deleted": false,
+        "Rank": 58,
+        "Type": "nihil",
+        "ColorBlock": 892,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2014-02-28T14:23:56.0720758+01:00",
+        "LastChanged": "2011-10-18T12:19:54.3990083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "et",
+        "ExtraInfo": "veniam",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Mr. Anna Weber"
+        "FullName": "Ms. Jaylan Arturo Dibbert"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "nihil",
+    "ExtraInfo": "ea",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Mrs. Bailee Marcos Wiegand IV"
+    "FullName": "Amy Rau"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Muller LLC",
-    "ToolTip": "Laudantium voluptatum labore mollitia.",
+    "Id": 155,
+    "Name": "Romaguera, Klein and Schoen",
+    "ToolTip": "Voluptatem natus consequatur voluptas qui tempora eius architecto.",
     "Deleted": false,
-    "Rank": 72,
-    "Type": "tempore",
-    "ColorBlock": 94,
-    "IconHint": "deleniti",
+    "Rank": 684,
+    "Type": "totam",
+    "ColorBlock": 527,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2023-09-23T14:23:56.0720758+02:00",
+    "LastChanged": "2021-08-12T12:19:54.3990083+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Koch-Bashirian",
-        "ToolTip": "Repudiandae eum expedita.",
-        "Deleted": false,
-        "Rank": 413,
-        "Type": "assumenda",
-        "ColorBlock": 361,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2018-05-16T14:23:56.0720758+02:00",
+        "Id": 43,
+        "Name": "Grimes, Ritchie and Adams",
+        "ToolTip": "Harum ratione sed suscipit dicta accusantium.",
+        "Deleted": true,
+        "Rank": 16,
+        "Type": "delectus",
+        "ColorBlock": 382,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2001-06-07T12:19:54.3990083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Amalia Klocko",
+        "ExtraInfo": "ut",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Mr. Marco Kunze MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 175
+            "FieldLength": 859
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ullam",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Luella Schoen",
+    "FullName": "Michale White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 2
       }
     }
   }

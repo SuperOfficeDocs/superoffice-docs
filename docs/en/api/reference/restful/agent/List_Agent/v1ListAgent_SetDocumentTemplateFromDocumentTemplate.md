@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 986,
+  "SourceDocumentTemplateId": 936,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 914,
-  "Name": "Schuppe Inc and Sons",
-  "Tooltip": "quia",
-  "SaveInDb": 262,
-  "Filename": "necessitatibus",
-  "DefaultOref": "eligendi",
+  "DocumentTemplateId": 438,
+  "Name": "Huels-Rau",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 403,
+  "Filename": "ipsa",
+  "DefaultOref": "architecto",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 619,
-  "IntentId": 699,
-  "IsDefaultPublished": true,
-  "Rank": 798,
-  "LoadTemplateFromPlugin": 602,
-  "MimeType": "minus",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 725,
+  "AutoeventId": 609,
+  "IntentId": 606,
+  "IsDefaultPublished": false,
+  "Rank": 932,
+  "LoadTemplateFromPlugin": 233,
+  "MimeType": "numquam",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 588,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "madyson@hansen.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "anabel_heidenreich@swaniawskibartoletti.co.uk",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ari_stoltenberg@stamm.info",
+  "SenderEmailAddress": "lillie@williamsonkihn.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 916
     }
   }
 }

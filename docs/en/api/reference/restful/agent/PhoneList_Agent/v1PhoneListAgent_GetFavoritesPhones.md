@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "849-091-6424 x93736",
-    "PersonCellPhone": "385-931-4892 x8898",
-    "PersonPrivatePhone": "1-400-887-7250 x3176",
-    "PersonFaxNumber": "1108548",
-    "PersonPagerNumber": "645041",
-    "PersonEmail": "cordia@powlowski.com",
-    "Id": 797,
-    "Name": "McLaughlin, Homenick and Torp",
-    "Tooltip": "est",
-    "UniqueId": "nemo",
+    "PersonDirectPhone": "380-007-6467 x4158",
+    "PersonCellPhone": "074-527-2905",
+    "PersonPrivatePhone": "224-272-6919",
+    "PersonFaxNumber": "997764",
+    "PersonPagerNumber": "1412616",
+    "PersonEmail": "therese.labadie@stroman.us",
+    "Id": 661,
+    "Name": "Hauck, Runolfsson and Gorczany",
+    "Tooltip": "et",
+    "UniqueId": "quasi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

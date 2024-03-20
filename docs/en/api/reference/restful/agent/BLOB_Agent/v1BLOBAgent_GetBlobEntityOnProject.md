@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 219
+  "ProjectId": 587
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 683,
-  "BlobSize": 750,
-  "Description": "Front-line coherent circuit",
-  "ExtraInfo": "perferendis",
+  "BlobId": 876,
+  "BlobSize": 149,
+  "Description": "Organic optimal policy",
+  "ExtraInfo": "facere",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nisi",
-  "OriginalSize": 786,
-  "CreatedDate": "2011-07-06T14:23:45.8918358+02:00",
-  "UpdatedDate": "2007-07-09T14:23:45.8918358+02:00",
+  "MimeType": "consectetur",
+  "OriginalSize": 103,
+  "CreatedDate": "2014-03-20T12:19:44.5238763+01:00",
+  "UpdatedDate": "2014-04-06T12:19:44.5238763+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 271
     }
   }
 }

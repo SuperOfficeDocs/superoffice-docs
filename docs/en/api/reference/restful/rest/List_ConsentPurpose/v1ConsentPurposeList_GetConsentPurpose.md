@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 580,
-  "Name": "Dickens, Veum and Torphy",
-  "ConsentText": "odit",
-  "FormText": "reiciendis",
-  "Key": "incidunt",
-  "Tooltip": "tempore",
-  "Active": 619,
-  "UpdatedDate": "2000-03-19T14:23:55.9939519+01:00",
+  "ConsentPurposeId": 595,
+  "Name": "Turcotte, Paucek and Schroeder",
+  "ConsentText": "ea",
+  "FormText": "aspernatur",
+  "Key": "assumenda",
+  "Tooltip": "autem",
+  "Active": 808,
+  "UpdatedDate": "2020-08-17T12:19:54.3365677+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 902,
-  "PrivacyStatementDesc": "est",
+  "Rank": 198,
+  "PrivacyStatementDesc": "distinctio",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 765
     }
   }
 }

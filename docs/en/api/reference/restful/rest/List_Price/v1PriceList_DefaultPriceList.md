@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 456,
-  "ERPPriceListKey": "autem",
-  "QuoteConnectionId": 786,
-  "Name": "Terry Group",
-  "Description": "Reverse-engineered analyzing service-desk",
-  "Currency": "sint",
-  "CurrencyName": "Schinner Inc and Sons",
-  "ValidFrom": "2006-02-01T14:23:56.1814517+01:00",
-  "ValidTo": "2012-11-09T14:23:56.1814517+01:00",
+  "PriceListId": 603,
+  "ERPPriceListKey": "maiores",
+  "QuoteConnectionId": 461,
+  "Name": "Stoltenberg Group",
+  "Description": "Realigned next generation moratorium",
+  "Currency": "placeat",
+  "CurrencyName": "Hoeger-Gottlieb",
+  "ValidFrom": "2003-10-26T12:19:54.6646278+01:00",
+  "ValidTo": "2008-06-25T12:19:54.6646278+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

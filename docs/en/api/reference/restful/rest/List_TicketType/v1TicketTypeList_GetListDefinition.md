@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Sipes-Schoen",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 807,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 481,
+  "Name": "Ryan, Steuber and Rau",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 767,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 315
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

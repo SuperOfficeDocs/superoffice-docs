@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "voluptatem",
   "Specification": null,
-  "DisplayValue": "temporibus",
-  "DisplayTooltip": "reprehenderit",
+  "DisplayValue": "corrupti",
+  "DisplayTooltip": "recusandae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 108,
-  "PrefDescId": 779,
-  "TableName": "Erdman Group",
-  "UserPreferenceId": 960,
+  "TargetId": 929,
+  "PrefDescId": 858,
+  "TableName": "Smitham-Ryan",
+  "UserPreferenceId": 184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 856
     }
   }
 }

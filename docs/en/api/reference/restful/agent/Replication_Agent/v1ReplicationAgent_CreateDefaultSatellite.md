@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 223,
-  "Created": "2003-03-24T14:23:47.2692571+01:00",
+  "SatelliteId": 209,
+  "Created": "2007-12-13T12:19:46.1326875+01:00",
   "CreatedBy": null,
-  "Updated": "2023-03-04T14:23:47.2692571+01:00",
+  "Updated": "2000-12-20T12:19:46.1326875+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Stanton, Bednar and Wilkinson",
-      "Description": "Pre-emptive holistic info-mediaries",
+      "Name": "Bayer, Leuschke and Baumbach",
+      "Description": "Reactive multi-tasking algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldType": "System.String",
+          "FieldLength": 616
         }
       }
     },
     {
-      "Name": "Stanton, Bednar and Wilkinson",
-      "Description": "Pre-emptive holistic info-mediaries",
+      "Name": "Bayer, Leuschke and Baumbach",
+      "Description": "Reactive multi-tasking algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldType": "System.String",
+          "FieldLength": 616
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

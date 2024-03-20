@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "iste",
+  "Provider": "voluptatum",
   "Restrictions": [
     {
-      "Name": "Morissette-Crooks",
-      "Operator": "eveniet",
+      "Name": "Kub-Zieme",
+      "Operator": "blanditiis",
       "Values": [
-        "quasi",
-        "quaerat"
+        "cupiditate",
+        "rerum"
       ],
       "DisplayValues": [
-        "aut",
-        "quia"
+        "et",
+        "provident"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 439,
+      "InterParenthesis": 104,
       "InterOperator": "And",
-      "UniqueHash": 552
+      "UniqueHash": 467
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  776,
-  545
+  442,
+  252
 ]
 ```

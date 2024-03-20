@@ -83,9 +83,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "quis",
-  "TechExplanation": "provident",
-  "ErrorCode": "atque",
+  "UserExplanation": "blanditiis",
+  "TechExplanation": "quo",
+  "ErrorCode": "omnis",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldLength": 440
     }
   }
 }

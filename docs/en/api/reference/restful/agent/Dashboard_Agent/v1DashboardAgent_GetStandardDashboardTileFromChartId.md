@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "odit"
+  "ChartId": "deleniti"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 874,
-  "Caption": "beatae",
-  "Description": "Open-architected hybrid algorithm",
-  "ChartName": "Lebsack-Jacobi",
-  "ChartId": "libero",
+  "DashboardTileId": 787,
+  "Caption": "hic",
+  "Description": "Total attitude-oriented capability",
+  "ChartName": "Kirlin, Connelly and Howell",
+  "ChartId": "distinctio",
   "IsDefault": false,
-  "AssociateId": 207,
-  "GroupId": 143,
-  "SelectionId": 807,
-  "Config": "corrupti",
+  "AssociateId": 242,
+  "GroupId": 917,
+  "SelectionId": 774,
+  "Config": "accusamus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Conn Inc and Sons",
-      "Description": "Exclusive user-facing capability",
+      "Name": "Feeney, Collier and Rowe",
+      "Description": "Fully-configurable tertiary solution",
       "Type": "Boolean",
-      "ListName": "Romaguera LLC",
+      "ListName": "Schumm-Wisozk",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vero",
+      "Value": "ratione",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 197
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 235,
+      "VisibleId": 487,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     },
     {
-      "VisibleId": 235,
+      "VisibleId": 487,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

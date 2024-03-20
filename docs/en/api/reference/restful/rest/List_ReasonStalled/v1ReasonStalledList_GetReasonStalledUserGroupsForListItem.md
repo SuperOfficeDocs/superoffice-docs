@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Strosin, Torp and Buckridge",
-    "ToolTip": "Quod esse.",
-    "Deleted": false,
-    "Rank": 213,
-    "Type": "nisi",
-    "ColorBlock": 778,
-    "IconHint": "perspiciatis",
+    "Id": 23,
+    "Name": "Green LLC",
+    "ToolTip": "Quo maiores quasi aliquam corporis delectus.",
+    "Deleted": true,
+    "Rank": 965,
+    "Type": "itaque",
+    "ColorBlock": 562,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2007-05-16T14:23:56.3220736+02:00",
+    "LastChanged": "2008-08-08T12:19:54.8208379+02:00",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Macejkovic Inc and Sons",
-        "ToolTip": "Quo dolorum.",
+        "Id": 630,
+        "Name": "Haley-Crist",
+        "ToolTip": "Harum fuga ea.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "quidem",
-        "ColorBlock": 690,
+        "Rank": 870,
+        "Type": "aut",
+        "ColorBlock": 719,
         "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2011-08-07T14:23:56.3220736+02:00",
+        "Selected": false,
+        "LastChanged": "2015-05-08T12:19:54.8208379+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Lillie Wyman",
+        "ExtraInfo": "ut",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Dr. Sandrine Agustina Gutmann MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 774
+            "FieldType": "System.Int32",
+            "FieldLength": 602
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "ut",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Miss Alfreda Thora Ernser PhD",
+    "FullName": "Theodora Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

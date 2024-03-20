@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Brown Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 188,
-  "Rank": 694
+  "Id": 223,
+  "Name": "Heller Inc and Sons",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "UdListDefinitionId": 290,
+  "Rank": 200
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 553,
-  "Name": "Kutch-Bergnaum",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "UdListDefinitionId": 107,
-  "Rank": 407,
+  "Id": 376,
+  "Name": "Dach Inc and Sons",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "UdListDefinitionId": 434,
+  "Rank": 926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 557
     }
   }
 }

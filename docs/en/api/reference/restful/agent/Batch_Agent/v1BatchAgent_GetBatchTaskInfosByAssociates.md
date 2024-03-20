@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    764,
-    518
+    510,
+    154
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "McGlynn, Hauck and Strosin",
-    "AssociateId": 799,
-    "DetailsTable": 318,
-    "DetailsRecord": 787,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 501,
+    "Name": "Kreiger Group",
+    "AssociateId": 97,
+    "DetailsTable": 732,
+    "DetailsRecord": 997,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "saepe",
-      "ParameterObject2": "repellat"
+      "ParameterObject1": "quos",
+      "ParameterObject2": "voluptatibus"
     },
-    "LastStarted": "2023-12-05T14:23:45.8762101+01:00",
-    "Created": "2008-06-28T14:23:45.8762101+02:00",
-    "StartCount": 967,
-    "DatabaseSerialNumber": "478835",
-    "Context": "occaecati",
-    "Result": "ea",
+    "LastStarted": "2004-07-01T12:19:44.5080652+02:00",
+    "Created": "2018-12-21T12:19:44.5080652+01:00",
+    "StartCount": 772,
+    "DatabaseSerialNumber": "1169374",
+    "Context": "maiores",
+    "Result": "et",
     "State": "All",
-    "Description": "Upgradable static internet solution",
-    "Response": "numquam",
-    "Request": "ut",
-    "ProgressDescription": "Object-based systemic ability",
-    "ProgressPercent": 705,
-    "FileName": "Senger, Bechtelar and Jerde",
+    "Description": "Organic systematic firmware",
+    "Response": "explicabo",
+    "Request": "provident",
+    "ProgressDescription": "Digitized reciprocal alliance",
+    "ProgressPercent": 204,
+    "FileName": "Mills-Herman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

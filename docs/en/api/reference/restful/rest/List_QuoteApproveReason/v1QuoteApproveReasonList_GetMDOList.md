@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=aliquid
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Bechtelar, Jewess and Denesik",
-    "ToolTip": "Repudiandae consequuntur aut consequuntur quia recusandae aut accusamus.",
+    "Id": 222,
+    "Name": "Jerde Group",
+    "ToolTip": "Molestias occaecati exercitationem corporis rerum.",
     "Deleted": false,
-    "Rank": 253,
-    "Type": "quis",
+    "Rank": 752,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Welch-McCullough",
-        "ToolTip": "Ratione omnis et asperiores animi qui voluptatem harum.",
-        "Deleted": true,
-        "Rank": 498,
-        "Type": "possimus",
+        "Id": 543,
+        "Name": "Bailey-Kunde",
+        "ToolTip": "Et beatae quo quo.",
+        "Deleted": false,
+        "Rank": 393,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "esse",
-        "ColorBlock": 852,
-        "ExtraInfo": "voluptatem",
+        "IconHint": "voluptate",
+        "ColorBlock": 147,
+        "ExtraInfo": "quibusdam",
         "StyleHint": "sed",
-        "FullName": "Humberto Toy",
+        "FullName": "Flossie Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldLength": 587
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 770,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "non",
-    "FullName": "Mrs. Eulalia Dejuan Legros III",
+    "IconHint": "eos",
+    "ColorBlock": 145,
+    "ExtraInfo": "modi",
+    "StyleHint": "aliquid",
+    "FullName": "Kariane Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 416
       }
     }
   }

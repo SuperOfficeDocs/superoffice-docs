@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bahringer, Kunde and Mayert",
-  "Context": "repellendus"
+  "TableName": "Pollich, Ratke and Bayer",
+  "Context": "a"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": true,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "aut",
-    "ValueType": "autem",
+    "IsActive": false,
+    "Key": "eaque",
+    "ValueType": "qui",
     "Mandatory": false,
-    "EncodedDisplayName": "Homenick Group",
-    "EncodedDisplayDescription": "Cross-platform zero defect functionalities",
-    "IconHint": "autem",
+    "EncodedDisplayName": "Hickle-Christiansen",
+    "EncodedDisplayDescription": "Devolved full-range productivity",
+    "IconHint": "quasi",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "architecto",
-        "Dimension": 164,
-        "ListProviderName": "Osinski, Schaden and Shanahan",
-        "ListProviderExtraInfo": "repellendus",
-        "ListProviderPrimaryKeyName": "Bergstrom-King",
-        "ListLeadText": "consequatur",
+        "Type": "quia",
+        "Label": "sint",
+        "Dimension": 717,
+        "ListProviderName": "Nicolas, Green and White",
+        "ListProviderExtraInfo": "dolorum",
+        "ListProviderPrimaryKeyName": "Cormier Inc and Sons",
+        "ListLeadText": "eos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldType": "System.Int32",
+            "FieldLength": 475
           }
         }
       }
     ],
-    "EncodedDataCaption": "eaque",
-    "EncodedDataCaptionDescription": "Multi-channelled reciprocal info-mediaries",
-    "CurrentOperationType": "neque",
+    "EncodedDataCaption": "molestiae",
+    "EncodedDataCaptionDescription": "Digitized client-driven installation",
+    "CurrentOperationType": "ratione",
     "Values": [
-      "quas",
-      "nam"
+      "sit",
+      "iste"
     ],
     "DisplayValues": [
-      "qui",
-      "minus"
+      "sed",
+      "vitae"
     ],
     "OperationInfos": [
       {
-        "Key": "alias",
-        "EncodedDisplayName": "Lang-Barton",
+        "Key": "labore",
+        "EncodedDisplayName": "Koss-Cole",
         "EncodedLeadTexts": [
-          "illum",
-          "recusandae"
+          "consequatur",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 352
+            "FieldLength": 918
           }
         }
       },
       {
-        "Key": "alias",
-        "EncodedDisplayName": "Lang-Barton",
+        "Key": "labore",
+        "EncodedDisplayName": "Koss-Cole",
         "EncodedLeadTexts": [
-          "illum",
-          "recusandae"
+          "consequatur",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 352
+            "FieldLength": 918
           }
         }
       }

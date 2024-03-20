@@ -78,10 +78,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 680,
-  "CrmRecordId": 275,
+  "ErpConnectionId": 630,
+  "CrmRecordId": 866,
   "CrmActorType": "Contact",
-  "ErpKey": "suscipit",
+  "ErpKey": "distinctio",
   "ErpActorType": "Customer"
 }
 ```

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 909,
-  "ListItemId": 559,
+  "UdListDefinitionId": 575,
+  "ListItemId": 554,
   "Headings": [
     {
-      "Id": 298,
-      "Name": "Schinner Group",
-      "ToolTip": "Dicta similique modi saepe et animi voluptatibus.",
-      "Deleted": false,
-      "Rank": 381,
-      "Type": "omnis",
-      "ColorBlock": 718,
+      "Id": 524,
+      "Name": "Sporer, Labadie and Lowe",
+      "ToolTip": "Veniam molestiae cumque quia.",
+      "Deleted": true,
+      "Rank": 756,
+      "Type": "minima",
+      "ColorBlock": 458,
       "IconHint": "qui",
-      "Selected": true,
-      "LastChanged": "2022-08-05T14:23:46.8306046+02:00",
+      "Selected": false,
+      "LastChanged": "1998-11-30T12:19:45.5078373+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "sed",
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "nulla",
       "Hidden": false,
-      "FullName": "Geraldine Glover"
+      "FullName": "Jayne Stroman"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Schulist, Schmitt and Morissette",
-    "ToolTip": "Itaque impedit alias quaerat provident neque ipsa.",
+    "Id": 762,
+    "Name": "Friesen Inc and Sons",
+    "ToolTip": "Et autem omnis accusantium quidem quia ullam.",
     "Deleted": false,
-    "Rank": 422,
-    "Type": "voluptate",
-    "ColorBlock": 706,
-    "IconHint": "libero",
+    "Rank": 195,
+    "Type": "voluptatem",
+    "ColorBlock": 161,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2005-11-26T14:23:46.8306046+01:00",
+    "LastChanged": "2001-12-07T12:19:45.5078373+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Ledner-Pouros",
-        "ToolTip": "Quidem esse cum beatae.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "quia",
-        "ColorBlock": 981,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2020-11-27T14:23:46.8306046+01:00",
+        "Id": 155,
+        "Name": "Herzog, Rempel and Boyle",
+        "ToolTip": "Voluptatibus esse voluptatem ullam culpa eum.",
+        "Deleted": false,
+        "Rank": 764,
+        "Type": "voluptatem",
+        "ColorBlock": 812,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2000-04-21T12:19:45.5078373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Ferne Rogahn V",
+        "FullName": "Bailey Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 678
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "et",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Mrs. Eulalia Kuhlman",
+    "FullName": "Dakota Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 323
       }
     }
   }

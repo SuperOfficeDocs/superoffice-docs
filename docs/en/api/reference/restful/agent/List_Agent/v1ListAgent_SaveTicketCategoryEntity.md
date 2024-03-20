@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 214,
-  "ParentId": 887,
-  "Name": "Murphy LLC",
-  "Fullname": "eaque",
-  "CategoryMaster": 513,
+  "TicketCategoryId": 936,
+  "ParentId": 180,
+  "Name": "Morissette, Ondricka and Jast",
+  "Fullname": "ut",
+  "CategoryMaster": 216,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Haley, Volkman and Tremblay",
+  "ExternalName": "Beatty-Howell",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 653,
-  "ReplyTemplate": 903,
-  "NotificationEmail": "lia@doyle.uk",
+  "AssignmentLag": 36,
+  "ReplyTemplate": 993,
+  "NotificationEmail": "candida_homenick@walker.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 202,
+  "EffectiveReplyTemplateId": 258,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "atque"
+    "CustomFields1": "maxime",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 879,
-  "ParentId": 803,
-  "Name": "Predovic-Quitzon",
-  "Fullname": "et",
-  "CategoryMaster": 501,
+  "TicketCategoryId": 357,
+  "ParentId": 629,
+  "Name": "Pfeffer Inc and Sons",
+  "Fullname": "necessitatibus",
+  "CategoryMaster": 421,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Swaniawski LLC",
+  "ExternalName": "Medhurst Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 815,
-  "ReplyTemplate": 893,
-  "NotificationEmail": "carissa@simonisschroeder.co.uk",
+  "AssignmentLag": 530,
+  "ReplyTemplate": 127,
+  "NotificationEmail": "jessyca@collierblanda.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 976,
+  "EffectiveReplyTemplateId": 457,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "magnam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Harber-Rippin",
-    "ToolTip": "Dolorum quae.",
+    "Id": 451,
+    "Name": "Langworth Group",
+    "ToolTip": "Dolores aut ut sed facilis quia.",
     "Deleted": false,
-    "Rank": 932,
-    "Type": "sit",
-    "ColorBlock": 765,
-    "IconHint": "aperiam",
+    "Rank": 108,
+    "Type": "nihil",
+    "ColorBlock": 7,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2022-09-30T14:23:56.1189508+02:00",
+    "LastChanged": "2005-09-13T12:19:54.602145+02:00",
     "ChildItems": [
       {
-        "Id": 719,
-        "Name": "Schneider-Roberts",
-        "ToolTip": "Est totam qui.",
+        "Id": 285,
+        "Name": "Fay, Bernhard and Schmeler",
+        "ToolTip": "Aspernatur pariatur rem sequi.",
         "Deleted": false,
-        "Rank": 433,
-        "Type": "nostrum",
-        "ColorBlock": 301,
-        "IconHint": "et",
+        "Rank": 757,
+        "Type": "molestiae",
+        "ColorBlock": 321,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2000-11-30T14:23:56.1189508+01:00",
+        "LastChanged": "2014-01-09T12:19:54.602145+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "quia",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Santiago Hand"
+        "FullName": "Larissa Mackenzie Feest III"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "reprehenderit",
-    "Hidden": true,
-    "FullName": "Demetris Welch"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Issac Hahn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Hirthe, Bartoletti and Kuhn",
-    "ToolTip": "Dolores dolores harum ea non.",
-    "Deleted": true,
-    "Rank": 296,
-    "Type": "et",
-    "ColorBlock": 65,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2009-01-10T14:23:56.1189508+01:00",
+    "Id": 830,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Quod consequatur et voluptas.",
+    "Deleted": false,
+    "Rank": 484,
+    "Type": "velit",
+    "ColorBlock": 956,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2002-01-07T12:19:54.602145+01:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Weber, D'Amore and Gerhold",
-        "ToolTip": "Porro at est sit consequuntur qui non.",
-        "Deleted": false,
-        "Rank": 308,
-        "Type": "nam",
-        "ColorBlock": 877,
-        "IconHint": "autem",
+        "Id": 556,
+        "Name": "Carroll-Metz",
+        "ToolTip": "Nemo ut dolorum modi ut.",
+        "Deleted": true,
+        "Rank": 288,
+        "Type": "nihil",
+        "ColorBlock": 965,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2010-10-13T14:23:56.1189508+02:00",
+        "LastChanged": "2010-07-15T12:19:54.602145+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "facilis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Demetris Cronin",
+        "FullName": "Mrs. Dameon Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 974
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "qui",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Waylon Bessie Jaskolski III",
+    "FullName": "Darlene Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 336
       }
     }
   }

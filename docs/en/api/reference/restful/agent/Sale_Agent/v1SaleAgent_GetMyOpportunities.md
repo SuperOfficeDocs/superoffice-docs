@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 814
+  "Count": 312
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Keebler, O'Reilly and Wyman",
-    "SaleDate": "2000-04-03T14:23:47.3630051+02:00",
-    "SaleId": 769,
-    "Probability": 339,
-    "Title": "id",
-    "Amount": 6935.5419999999995,
-    "Currency": "laboriosam",
-    "ProjectName": "O'Connell-Balistreri",
-    "AssociateFullName": "Rollin Raheem Prosacco Sr.",
-    "Description": "Sharable local capability",
+    "ContactName": "Hand-Grady",
+    "SaleDate": "2006-01-27T12:19:46.210807+01:00",
+    "SaleId": 292,
+    "Probability": 674,
+    "Title": "sed",
+    "Amount": 1673.556,
+    "Currency": "aut",
+    "ProjectName": "Adams LLC",
+    "AssociateFullName": "Yesenia Rippin",
+    "Description": "Compatible scalable analyzer",
     "Status": "Lost",
-    "WeightedAmount": 3713.79,
-    "ProjectId": 533,
-    "EarningPercent": 21367.612,
-    "Earning": 7164.324,
-    "ContactId": 31,
-    "AssociateId": 594,
-    "PersonId": 412,
-    "SaleTypeId": 660,
-    "SaleTypeName": "Hintz, Batz and Hand",
-    "PersonFullName": "Miss Jameson King",
+    "WeightedAmount": 30055.059999999998,
+    "ProjectId": 583,
+    "EarningPercent": 14055.99,
+    "Earning": 1908.606,
+    "ContactId": 781,
+    "AssociateId": 304,
+    "PersonId": 83,
+    "SaleTypeId": 523,
+    "SaleTypeName": "Jacobs-Dickinson",
+    "PersonFullName": "Mrs. Glenda Hettie Rice III",
     "Completed": "Completed",
-    "ActiveErpLinks": 948,
-    "NextDueDate": "2012-02-22T14:23:47.3630051+01:00",
-    "Number": "918925",
+    "ActiveErpLinks": 284,
+    "NextDueDate": "1999-09-28T12:19:46.210807+02:00",
+    "Number": "667340",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

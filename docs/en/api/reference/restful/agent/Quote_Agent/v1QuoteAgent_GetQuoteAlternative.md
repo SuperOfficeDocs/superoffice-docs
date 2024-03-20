@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=528
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=267
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 760,
-  "ERPQuoteAlternativeKey": "animi",
-  "QuoteVersionId": 926,
-  "Name": "Herzog-Runolfsdottir",
-  "Description": "Enterprise-wide optimal software",
+  "QuoteAlternativeId": 30,
+  "ERPQuoteAlternativeKey": "voluptatem",
+  "QuoteVersionId": 688,
+  "Name": "Nikolaus-Kreiger",
+  "Description": "Virtual optimal capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23141.456,
-  "ERPDiscountAmount": 23059.971999999998,
-  "DiscountPercent": 1993.224,
-  "DiscountAmount": 27623.075999999997,
+  "ERPDiscountPercent": 14895.902,
+  "ERPDiscountAmount": 22539.728,
+  "DiscountPercent": 2431.984,
+  "DiscountAmount": 22104.102,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "incidunt",
-  "VAT": 18634.764,
-  "EarningPercent": 18145.86,
-  "EarningAmount": 7399.374,
-  "SubTotal": 23119.518,
-  "TotalPrice": 12467.052,
-  "ExtraField1": "libero",
-  "ExtraField2": "inventore",
-  "ExtraField3": "provident",
-  "ExtraField4": "quia",
-  "ExtraField5": "cumque",
+  "VATInfo": "saepe",
+  "VAT": 20377.268,
+  "EarningPercent": 3065.0519999999997,
+  "EarningAmount": 19299.172,
+  "SubTotal": 6459.174,
+  "TotalPrice": 30603.51,
+  "ExtraField1": "quisquam",
+  "ExtraField2": "quae",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "et",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

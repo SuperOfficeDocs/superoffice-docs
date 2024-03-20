@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Aufderhar, Gislason and Schulist",
-    "ToolTip": "Numquam temporibus quae atque porro.",
-    "Deleted": true,
-    "Rank": 763,
-    "Type": "a",
-    "ColorBlock": 395,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2017-01-11T14:23:56.1033275+01:00",
+    "Id": 823,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Repellendus et corporis autem ab facere fuga.",
+    "Deleted": false,
+    "Rank": 539,
+    "Type": "laborum",
+    "ColorBlock": 897,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2000-12-23T12:19:54.4459158+01:00",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Connelly, Kohler and Swaniawski",
-        "ToolTip": "Impedit autem tempore.",
-        "Deleted": true,
-        "Rank": 966,
-        "Type": "ut",
-        "ColorBlock": 314,
-        "IconHint": "blanditiis",
-        "Selected": true,
-        "LastChanged": "2001-06-08T14:23:56.1033275+02:00",
+        "Id": 359,
+        "Name": "Stoltenberg LLC",
+        "ToolTip": "Et consectetur.",
+        "Deleted": false,
+        "Rank": 747,
+        "Type": "et",
+        "ColorBlock": 635,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2000-06-10T12:19:54.4459158+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Lila Durgan",
+        "FullName": "Marion Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldType": "System.String",
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Giovani Lang",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "corporis",
+    "Hidden": false,
+    "FullName": "Ellis Stokes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

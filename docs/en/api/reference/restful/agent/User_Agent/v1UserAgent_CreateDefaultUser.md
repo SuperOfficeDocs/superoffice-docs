@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 29,
-  "Name": "Schroeder Group",
-  "Rank": 944,
-  "Tooltip": "id",
+  "AssociateId": 751,
+  "Name": "Barton-Heidenreich",
+  "Rank": 581,
+  "Tooltip": "corporis",
   "LicenseOwners": [
     {
-      "Name": "Mueller, Kovacek and Dibbert",
-      "Description": "Re-contextualized even-keeled infrastructure",
+      "Name": "Thiel, Sawayn and Price",
+      "Description": "Public-key homogeneous policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 957
         }
       }
     },
     {
-      "Name": "Mueller, Kovacek and Dibbert",
-      "Description": "Re-contextualized even-keeled infrastructure",
+      "Name": "Thiel, Sawayn and Price",
+      "Description": "Public-key homogeneous policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 957
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "assumenda",
-      "Tooltip": "porro",
-      "Id": 309,
-      "Rank": 474,
-      "Deleted": false,
+      "Value": "sunt",
+      "Tooltip": "omnis",
+      "Id": 677,
+      "Rank": 481,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-05-21T14:23:47.8317514+02:00",
-  "Lastlogout": "2000-09-09T14:23:47.8317514+02:00",
-  "EjUserId": 346,
-  "RequestSignature": "impedit",
+  "Lastlogin": "2007-06-08T12:19:46.5700918+02:00",
+  "Lastlogout": "2011-11-16T12:19:46.5700918+01:00",
+  "EjUserId": 17,
+  "RequestSignature": "cupiditate",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "eos",
+      "Value": "aut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 486
         }
       }
     },
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "eos",
+      "Value": "aut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 486
         }
       }
     }
   ],
-  "UserName": "Collins, Keebler and Stanton",
+  "UserName": "Koelpin Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 918,
-      "Name": "Schinner-Brakus",
-      "ToolTip": "Nemo laborum rerum sed vel culpa doloribus qui.",
+      "Id": 234,
+      "Name": "Gottlieb-Adams",
+      "ToolTip": "Consequatur consequatur dolorem.",
       "Deleted": true,
-      "Rank": 576,
-      "Type": "minima",
+      "Rank": 882,
+      "Type": "occaecati",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ducimus",
-      "ColorBlock": 95,
-      "ExtraInfo": "doloremque",
-      "StyleHint": "aut",
-      "FullName": "Dana Hansen",
+      "IconHint": "pariatur",
+      "ColorBlock": 798,
+      "ExtraInfo": "quia",
+      "StyleHint": "odit",
+      "FullName": "Roslyn Weber",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 787
+        }
+      }
+    }
+  ],
+  "NickName": "Stiedemann-Schiller",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "vitae"
+  },
+  "CustomFields": {
+    "CustomFields1": "eius",
+    "CustomFields2": "commodi"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Franecki-Gulgowski",
+      "DisplayName": "Bernier-Hettinger",
+      "Description": "Function-based national function",
+      "ToolTip": "Ut modi dignissimos dolorem.",
+      "Actions": "Implicit",
+      "ActionData": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 44
-        }
-      }
-    }
-  ],
-  "NickName": "Kirlin-Graham",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "sed"
-  },
-  "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "ratione"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Buckridge, Blanda and Considine",
-      "DisplayName": "Murphy, Murazik and Ryan",
-      "Description": "Multi-tiered zero defect access",
-      "ToolTip": "Tenetur odit unde.",
-      "Actions": "Implicit",
-      "ActionData": "dolores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 758
+          "FieldLength": 652
         }
       }
     }
@@ -257,7 +257,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 108
     }
   }
 }

@@ -66,9 +66,9 @@ OK
 | OptionType | string | Type of option |
 | WorkflowStepOptionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
+| WorkflowId | int32 | Workflow id |
 | Name | string | The name of this option |
-| Rank | int32 | The rank of this option |
+| Rank | int32 | Step order |
 | Steps | array | The steps to execute if this option/path is selected |
 
 ## Sample request
@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 428
+  "WorkflowStepOptionId": 949
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 820,
-  "WorkflowStepId": 497,
-  "WorkflowId": 54,
-  "Name": "Ullrich Inc and Sons",
-  "Rank": 172,
+  "WorkflowStepOptionId": 113,
+  "WorkflowStepId": 183,
+  "WorkflowId": 51,
+  "Name": "Ankunding Group",
+  "Rank": 265,
   "Steps": [
     {
-      "WorkflowStepId": 81,
-      "WorkflowId": 196,
+      "WorkflowStepId": 168,
+      "WorkflowId": 617,
       "StepType": "AddToList",
-      "Rank": 580
+      "Rank": 397
     },
     {
-      "WorkflowStepId": 81,
-      "WorkflowId": 196,
+      "WorkflowStepId": 168,
+      "WorkflowId": 617,
       "StepType": "AddToList",
-      "Rank": 580
+      "Rank": 397
     }
   ]
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 709,
-    "Name": "Witting LLC",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 691,
-    "UdListDefinitionId": 686,
+    "HeadingId": 40,
+    "Name": "Abernathy Group",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "Rank": 48,
+    "UdListDefinitionId": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 540
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Will, Wunsch and Rau",
-  "ListItemId": 259
+  "UdListDefinitionName": "O'Connell-Blanda",
+  "ListItemId": 943
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Satterfield-Bruen",
-    "ToolTip": "Asperiores nulla quod labore.",
+    "Id": 697,
+    "Name": "Anderson-Schmidt",
+    "ToolTip": "Illum consequuntur molestias laboriosam magni debitis voluptatum cupiditate.",
     "Deleted": false,
-    "Rank": 929,
-    "Type": "dolore",
-    "ColorBlock": 916,
-    "IconHint": "rerum",
+    "Rank": 917,
+    "Type": "beatae",
+    "ColorBlock": 429,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2022-09-16T14:23:46.8306046+02:00",
+    "LastChanged": "2015-05-15T12:19:45.4922171+02:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Muller, Fay and Becker",
-        "ToolTip": "Voluptas et veritatis.",
+        "Id": 578,
+        "Name": "Howell Inc and Sons",
+        "ToolTip": "Totam enim.",
         "Deleted": true,
-        "Rank": 987,
-        "Type": "quibusdam",
-        "ColorBlock": 420,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2004-12-01T14:23:46.8306046+01:00",
+        "Rank": 135,
+        "Type": "voluptas",
+        "ColorBlock": 436,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2004-10-17T12:19:45.4922171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Darian Lockman",
+        "ExtraInfo": "velit",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Imelda Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "facere",
+    "ExtraInfo": "a",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Loraine Heidenreich",
+    "FullName": "Dr. Heath Dena Schmitt PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 633
       }
     }
   }

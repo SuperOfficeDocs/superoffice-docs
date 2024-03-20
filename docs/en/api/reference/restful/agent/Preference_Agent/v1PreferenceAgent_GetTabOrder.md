@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Schuppe Group"
+  "TabName": "Harris Inc and Sons"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 301,
-  "TabName": "Schulist Inc and Sons",
-  "Order": "quia",
-  "AssociateId": 99,
+  "TabOrderId": 775,
+  "TabName": "Kovacek, Thompson and Hamill",
+  "Order": "ipsa",
+  "AssociateId": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

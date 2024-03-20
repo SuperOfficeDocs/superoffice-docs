@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Davis-Wiza",
-    "ToolTip": "Ullam quia blanditiis.",
-    "Deleted": false,
-    "Rank": 455,
-    "Type": "mollitia",
-    "ColorBlock": 58,
-    "IconHint": "non",
+    "Id": 787,
+    "Name": "D'Amore-Kshlerin",
+    "ToolTip": "Et dolorem.",
+    "Deleted": true,
+    "Rank": 969,
+    "Type": "omnis",
+    "ColorBlock": 520,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2019-01-24T14:23:46.7837295+01:00",
+    "LastChanged": "2020-07-04T12:19:45.4453495+02:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Langosh Inc and Sons",
-        "ToolTip": "Harum natus voluptatem ut architecto.",
+        "Id": 883,
+        "Name": "Miller-Pfannerstill",
+        "ToolTip": "Corporis quae saepe dolore tempora.",
         "Deleted": true,
-        "Rank": 179,
-        "Type": "quia",
-        "ColorBlock": 140,
-        "IconHint": "dolore",
-        "Selected": true,
-        "LastChanged": "2000-10-17T14:23:46.7837295+02:00",
+        "Rank": 482,
+        "Type": "est",
+        "ColorBlock": 780,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2002-11-04T12:19:45.4453495+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Janet Wolff",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Abdullah Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 216
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "alias",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "numquam",
     "Hidden": true,
-    "FullName": "Ms. Mertie Penelope Hahn PhD",
+    "FullName": "Ashly Cole Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldLength": 215
       }
     }
   }

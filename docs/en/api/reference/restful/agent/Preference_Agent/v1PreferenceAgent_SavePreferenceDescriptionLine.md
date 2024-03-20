@@ -77,11 +77,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 180,
-  "PrefDescId": 461,
-  "PrefValue": "molestiae",
-  "PrefShowValue": "et",
-  "Description": "Realigned disintermediate frame",
+  "PrefDescLineId": 988,
+  "PrefDescId": 992,
+  "PrefValue": "delectus",
+  "PrefShowValue": "enim",
+  "Description": "Universal 3rd generation capability",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 992,
-  "PrefDescId": 926,
-  "PrefValue": "ipsa",
-  "PrefShowValue": "voluptas",
-  "Description": "Cross-group multi-tasking strategy",
-  "IsBuiltin": false,
+  "PrefDescLineId": 506,
+  "PrefDescId": 422,
+  "PrefValue": "qui",
+  "PrefShowValue": "esse",
+  "Description": "Re-engineered human-resource intranet",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 78
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 14 May 2020 14:23:54 G5T
+Last-Modified: Thu, 28 Jun 2018 12:19:53 G6T
 
 {
-  "BlobId": 586,
-  "BlobSize": 811,
-  "Description": "Implemented 3rd generation process improvement",
-  "ExtraInfo": "consequuntur",
+  "BlobId": 518,
+  "BlobSize": 891,
+  "Description": "Persevering transitional open system",
+  "ExtraInfo": "accusantium",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "praesentium",
-  "OriginalSize": 408,
-  "CreatedDate": "2000-08-19T14:23:54.9290273+02:00",
-  "UpdatedDate": "2020-05-14T14:23:54.9290273+02:00",
+  "MimeType": "inventore",
+  "OriginalSize": 654,
+  "CreatedDate": "2004-01-10T12:19:53.1805817+01:00",
+  "UpdatedDate": "2018-06-28T12:19:53.1805817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nobis",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 164
     }
   }
 }

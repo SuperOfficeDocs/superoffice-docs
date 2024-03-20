@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Schmeler Group",
-    "ToolTip": "Eos reiciendis adipisci laborum aut occaecati.",
+    "Id": 751,
+    "Name": "VonRueden-Bruen",
+    "ToolTip": "Vero qui eos sit placeat ratione rerum.",
     "Deleted": true,
-    "Rank": 353,
-    "Type": "molestiae",
-    "ColorBlock": 629,
-    "IconHint": "aut",
+    "Rank": 514,
+    "Type": "numquam",
+    "ColorBlock": 250,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2008-08-19T14:23:56.2751981+02:00",
+    "LastChanged": "1999-10-30T12:19:54.789597+02:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Jewess LLC",
-        "ToolTip": "Omnis incidunt eveniet nihil earum.",
-        "Deleted": false,
-        "Rank": 783,
-        "Type": "velit",
-        "ColorBlock": 854,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "2010-08-16T14:23:56.2751981+02:00",
+        "Id": 522,
+        "Name": "Morar-Gerlach",
+        "ToolTip": "Cum dignissimos architecto.",
+        "Deleted": true,
+        "Rank": 982,
+        "Type": "illo",
+        "ColorBlock": 643,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2011-04-23T12:19:54.789597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Drew Dina Macejkovic Jr.",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Theo Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 901
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "vitae",
+    "ExtraInfo": "in",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Paula Huels",
+    "FullName": "Mrs. Lillie Elliot Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 353
       }
     }
   }

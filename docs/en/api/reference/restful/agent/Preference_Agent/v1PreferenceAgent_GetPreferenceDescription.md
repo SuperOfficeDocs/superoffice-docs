@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=699
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=462
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 814,
-  "Section": "eum",
-  "Key": "exercitationem",
-  "Name": "Lynch Group",
+  "PrefDescId": 288,
+  "Section": "architecto",
+  "Key": "non",
+  "Name": "O'Hara-Boyer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented zero defect encryption",
+  "Description": "Decentralized reciprocal moderator",
   "IsBuiltin": true,
-  "TableName": "Gottlieb Inc and Sons",
-  "UserDefinedListId": 986,
-  "Rank": 545,
-  "SubGroup": "enim",
-  "MinLevel": 723,
-  "MaxValue": 851,
-  "MinValue": 333,
-  "RequiredLicense": "at",
+  "TableName": "O'Hara Inc and Sons",
+  "UserDefinedListId": 279,
+  "Rank": 593,
+  "SubGroup": "modi",
+  "MinLevel": 182,
+  "MaxValue": 82,
+  "MinValue": 483,
+  "RequiredLicense": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 465
     }
   }
 }

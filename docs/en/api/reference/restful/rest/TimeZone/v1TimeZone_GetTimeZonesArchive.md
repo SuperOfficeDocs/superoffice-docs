@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=eaque
-GET /api/v1/TimeZone?$top=170
-GET /api/v1/TimeZone?$skip=829
+GET /api/v1/TimeZone?$entities=soluta
+GET /api/v1/TimeZone?$top=720
+GET /api/v1/TimeZone?$skip=150
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=saepe
+GET /api/v1/TimeZone?$context=inventore
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vel",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 742,
+      "PrimaryKey": 5053,
       "EntityName": "sale",
-      "saleId": 742,
-      "contactId": 8838,
-      "name": "Stehr-Jacobi"
+      "saleId": 5053,
+      "contactId": 6634,
+      "name": "Kessler, Bruen and Braun"
     },
     {
-      "PrimaryKey": 6001,
+      "PrimaryKey": 2515,
       "EntityName": "sale",
-      "saleId": 6001,
-      "contactId": 5999,
-      "name": "Greenfelder Inc and Sons"
+      "saleId": 2515,
+      "contactId": 1038,
+      "name": "Ankunding LLC"
     }
   ]
 }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergized neutral flexibility",
-  "Postit": "dolores",
+  "Description": "Operative secondary matrix",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 730,
-  "IncludePerson": 395,
-  "MemberCount": 413,
-  "Name": "Senger-Rodriguez",
-  "PostitTextId": 210,
-  "CreatedDate": "2015-02-07T14:23:47.3786314+01:00",
-  "SelectionId": 666,
-  "SoundEx": "sunt",
-  "Source": 556,
-  "TextId": 2,
-  "UpdatedDate": "2014-02-03T14:23:47.3786314+01:00",
-  "UpdatedCount": 955,
-  "Visibility": 1001,
+  "GroupIdx": 662,
+  "IncludePerson": 257,
+  "MemberCount": 542,
+  "Name": "Dickinson-Waters",
+  "PostitTextId": 980,
+  "CreatedDate": "2016-09-23T12:19:46.2264184+02:00",
+  "SelectionId": 2,
+  "SoundEx": "aperiam",
+  "Source": 892,
+  "TextId": 264,
+  "UpdatedDate": "2008-08-01T12:19:46.2264184+02:00",
+  "UpdatedCount": 496,
+  "Visibility": 770,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 435,
-  "TargetTableName": "Haag LLC",
-  "Completed": false,
-  "LeftSelectionId": 30,
-  "RightSelectionId": 555,
+  "TargetTableNumber": 139,
+  "TargetTableName": "Stamm-Schumm",
+  "Completed": true,
+  "LeftSelectionId": 625,
+  "RightSelectionId": 513,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Langosh LLC",
-  "ShadowProviderName": "Schaden LLC",
-  "ChartKey": "sunt",
-  "LastLoaded": "2005-01-02T14:23:47.3786314+01:00",
-  "LastLoadedBy": 888,
+  "MainProviderName": "Larson-Schulist",
+  "ShadowProviderName": "Mills-Mann",
+  "ChartKey": "repellat",
+  "LastLoaded": "2016-01-24T12:19:46.2264184+01:00",
+  "LastLoadedBy": 125,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-03T14:23:47.3786314+02:00",
-  "LastMembershipChangeBy": 165,
+  "LastMembershipChange": "2013-04-12T12:19:46.2264184+02:00",
+  "LastMembershipChangeBy": 559,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Powlowski LLC",
-  "DashboardTileDefinitionId": 845,
+  "MainHeading": "voluptate",
+  "MemberTabHeading": "facilis",
+  "MailingsProviderName": "Klein-Gutmann",
+  "DashboardTileDefinitionId": 50,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 870,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 880
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 870,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 880
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

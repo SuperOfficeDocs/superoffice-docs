@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Keeling Group",
-    "ToolTip": "Ut quia qui modi.",
+    "Id": 20,
+    "Name": "Cronin-Swift",
+    "ToolTip": "Ratione qui eum dolorum eveniet maxime.",
     "Deleted": false,
-    "Rank": 508,
-    "Type": "ab",
-    "ColorBlock": 970,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "1999-08-01T14:23:56.3701861+02:00",
+    "Rank": 914,
+    "Type": "omnis",
+    "ColorBlock": 404,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "2010-01-16T12:19:54.8677016+01:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Bernhard Group",
-        "ToolTip": "Perferendis assumenda sit vel corrupti in.",
+        "Id": 102,
+        "Name": "Farrell, Smith and McCullough",
+        "ToolTip": "Eaque ad ipsam.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "et",
-        "ColorBlock": 247,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2016-02-14T14:23:56.3701861+01:00",
+        "Rank": 704,
+        "Type": "labore",
+        "ColorBlock": 597,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "1998-06-23T12:19:54.8677016+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "non",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Elvie Kulas"
+        "FullName": "Prof. Ayana Annette Harvey MD"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Maci Considine"
+    "ExtraInfo": "quia",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Mrs. Carrie Catharine Lang I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Lehner Inc and Sons",
-    "ToolTip": "Molestiae autem sunt.",
-    "Deleted": false,
-    "Rank": 429,
-    "Type": "corrupti",
-    "ColorBlock": 726,
-    "IconHint": "ea",
+    "Id": 616,
+    "Name": "Nicolas-Koepp",
+    "ToolTip": "Fuga illum animi non facilis exercitationem.",
+    "Deleted": true,
+    "Rank": 789,
+    "Type": "excepturi",
+    "ColorBlock": 256,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2009-10-25T14:23:56.3701861+01:00",
+    "LastChanged": "1999-07-27T12:19:54.8677016+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Hoeger Inc and Sons",
-        "ToolTip": "Ut nulla nesciunt.",
+        "Id": 771,
+        "Name": "Williamson, Torp and Crist",
+        "ToolTip": "In dolores consequatur voluptas ea temporibus nihil.",
         "Deleted": true,
-        "Rank": 911,
-        "Type": "optio",
-        "ColorBlock": 266,
-        "IconHint": "et",
+        "Rank": 769,
+        "Type": "maiores",
+        "ColorBlock": 795,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2008-01-01T14:23:56.3701861+01:00",
+        "LastChanged": "2002-03-01T12:19:54.8677016+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "est",
+        "ExtraInfo": "impedit",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Nelle Schmidt",
+        "FullName": "Etha Selmer Prosacco DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 116
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Simone Schoen",
+    "ExtraInfo": "sunt",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Roger Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Abernathy Inc and Sons",
-    "ToolTip": "Dolores dolorem assumenda molestiae vel voluptatem quas.",
+    "Id": 318,
+    "Name": "Dickinson Inc and Sons",
+    "ToolTip": "Ut sed et adipisci rerum laborum dolores officiis.",
     "Deleted": true,
-    "Rank": 547,
-    "Type": "dolorem",
-    "ColorBlock": 969,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2003-11-23T14:23:55.9627019+01:00",
+    "Rank": 72,
+    "Type": "accusantium",
+    "ColorBlock": 764,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "2019-10-03T12:19:54.3053212+02:00",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "Feil-Ernser",
-        "ToolTip": "Provident maiores totam eum in est.",
+        "Id": 23,
+        "Name": "Schultz LLC",
+        "ToolTip": "Odit explicabo.",
         "Deleted": true,
-        "Rank": 446,
-        "Type": "facilis",
-        "ColorBlock": 428,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2000-09-22T14:23:55.9627019+02:00",
+        "Rank": 345,
+        "Type": "magni",
+        "ColorBlock": 219,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2020-01-21T12:19:54.3053212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Mrs. Andy Stokes I",
+        "ExtraInfo": "aut",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Daphne Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Izabella Crist",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Tre Dooley Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 658
       }
     }
   }

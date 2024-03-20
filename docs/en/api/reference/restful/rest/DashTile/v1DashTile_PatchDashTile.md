@@ -113,18 +113,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "totam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "totam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 578,
-  "DashboardId": 320,
-  "Height": 231,
-  "Width": 477,
-  "Rank": 164,
+  "DashboardTileId": 847,
+  "DashboardId": 450,
+  "Height": 274,
+  "Width": 90,
+  "Rank": 417,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   },
   "_Links": {

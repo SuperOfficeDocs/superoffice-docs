@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Rowe, Zboncak and Schimmel",
-    "ToolTip": "Ducimus reprehenderit quia.",
+    "Id": 809,
+    "Name": "Fisher, Volkman and Kiehn",
+    "ToolTip": "Non iste exercitationem eligendi voluptas.",
     "Deleted": false,
-    "Rank": 381,
-    "Type": "eos",
-    "ColorBlock": 59,
-    "IconHint": "ducimus",
-    "Selected": false,
-    "LastChanged": "2004-05-13T14:23:56.0720758+02:00",
+    "Rank": 469,
+    "Type": "amet",
+    "ColorBlock": 385,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2021-08-03T12:19:54.3990083+02:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Monahan-Cummings",
-        "ToolTip": "Distinctio fugit consectetur.",
-        "Deleted": false,
-        "Rank": 620,
-        "Type": "at",
-        "ColorBlock": 226,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2013-12-05T14:23:56.0720758+01:00",
+        "Id": 462,
+        "Name": "Blanda-Blanda",
+        "ToolTip": "Et vero et eveniet dolores fugit qui.",
+        "Deleted": true,
+        "Rank": 961,
+        "Type": "rerum",
+        "ColorBlock": 346,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2023-04-15T12:19:54.3990083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "tempore",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Dr. Charles Pfannerstill V",
+        "FullName": "Reece Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Mitchel Jayde Baumbach DDS",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Woodrow Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 543
       }
     }
   }

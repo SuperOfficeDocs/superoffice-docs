@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 964,
+  "ErpConnectionId": 291,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quis",
-    "Rank": 988,
-    "DisplayName": "Hilpert-West",
-    "DisplayDescription": "Compatible context-sensitive implementation",
+    "FieldKey": "id",
+    "Rank": 364,
+    "DisplayName": "Treutel Group",
+    "DisplayDescription": "Synchronised zero administration archive",
     "FieldType": "Checkbox",
-    "ListName": "Lueilwitz, Hills and Price",
-    "DefaultValue": "vero",
-    "MaxLength": 343,
+    "ListName": "Schaefer LLC",
+    "DefaultValue": "enim",
+    "MaxLength": 853,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 823
       }
     }
   }

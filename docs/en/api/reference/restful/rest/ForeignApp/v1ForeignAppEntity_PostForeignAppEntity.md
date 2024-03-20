@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 9,
-  "Name": "Ryan Inc and Sons",
-  "CreatedDate": "2004-11-25T14:23:55.1802705+01:00",
-  "UpdatedDate": "1999-09-05T14:23:55.1802705+02:00",
+  "ForeignAppId": 798,
+  "Name": "Abernathy-Waelchi",
+  "CreatedDate": "2012-08-15T12:19:53.5867469+02:00",
+  "UpdatedDate": "2011-12-13T12:19:53.5867469+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 487,
-      "Name": "Zieme, Wehner and Metz",
-      "CreatedDate": "1997-04-05T14:23:55.1802705+02:00",
-      "UpdatedDate": "2015-01-08T14:23:55.1802705+01:00",
-      "AssociateFullName": "Tevin Wolf",
-      "CreatedBy": "ad",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "architecto",
-      "ForeignAppId": 505
+      "ForeignDeviceId": 969,
+      "Name": "Hane-Hermann",
+      "CreatedDate": "2008-05-16T12:19:53.5867469+02:00",
+      "UpdatedDate": "2004-09-04T12:19:53.5867469+02:00",
+      "AssociateFullName": "Sheila Schamberger",
+      "CreatedBy": "dignissimos",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 671
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 99,
-  "Name": "Block-Kozey",
-  "CreatedDate": "2003-08-29T14:23:55.1802705+02:00",
-  "UpdatedDate": "2021-10-01T14:23:55.1802705+02:00",
+  "ForeignAppId": 186,
+  "Name": "O'Keefe-Farrell",
+  "CreatedDate": "2013-02-12T12:19:53.5867469+01:00",
+  "UpdatedDate": "2016-08-20T12:19:53.5867469+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 676,
-      "Name": "Kuhn Inc and Sons",
-      "CreatedDate": "2020-09-20T14:23:55.1802705+02:00",
-      "UpdatedDate": "2020-08-17T14:23:55.1802705+02:00",
-      "AssociateFullName": "Jasmin Rowe",
-      "CreatedBy": "ipsum",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 903,
+      "ForeignDeviceId": 993,
+      "Name": "Kirlin, Powlowski and Bednar",
+      "CreatedDate": "2018-03-18T12:19:53.5867469+01:00",
+      "UpdatedDate": "2010-08-26T12:19:53.5867469+02:00",
+      "AssociateFullName": "Mr. Jaylin Steuber Sr.",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "libero",
+      "ForeignAppId": 294,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldLength": 149
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   },
   "_Links": {

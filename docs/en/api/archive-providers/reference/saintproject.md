@@ -541,6 +541,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -640,11 +641,11 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
 |projectMember/contactEmail/emailProtocol|string|Company - Protocol: E-mail protocol, such as SMTP| x |
 |projectMember/contactEmail/emailAddress|string|Company - E-mail| x |
 |projectMember/contactEmail/emailDescription|string|Company - Description| x |
@@ -740,15 +741,16 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|projectMember/LastActivity|date|Date of last activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+|projectMember/LastActivity|date|Date of last activity|  |
 |projectMember/LastCompletedActivity|date|Date of last completed activity|  |
 |projectMember/LastDoByActivity|date|Date of last non-completed activity|  |
 |projectMember/NumberOfSales|int|Number of sales|  |
@@ -780,7 +782,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=saintTicketStatus,appointment/associate/contactCategory,projectMember/personAssociate/role,projectMember/contactAssociate/mrMrs
+GET /api/v1/archive/SaintProject?$select=projectAssociate/personId,saintTicketCategory,sale/completed,appointment/appointment/titleHtml,document/documentPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

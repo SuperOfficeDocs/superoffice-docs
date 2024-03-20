@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Nov 2013 14:23:55 G11T
+Last-Modified: Thu, 12 Apr 2012 12:19:53 G4T
 
 {
-  "ForeignDeviceId": 550,
-  "Name": "Frami Inc and Sons",
-  "CreatedDate": "2019-03-07T14:23:55.1802705+01:00",
-  "UpdatedDate": "2013-11-05T14:23:55.1802705+01:00",
-  "AssociateFullName": "Zita Kreiger",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "id",
-  "ForeignAppId": 984,
+  "ForeignDeviceId": 73,
+  "Name": "Padberg-Klocko",
+  "CreatedDate": "2006-03-25T12:19:53.6023745+01:00",
+  "UpdatedDate": "2012-04-12T12:19:53.6023745+02:00",
+  "AssociateFullName": "Gerda Cassin",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "natus",
+  "DeviceIdentifier": "quaerat",
+  "ForeignAppId": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldLength": 179
     }
   }
 }

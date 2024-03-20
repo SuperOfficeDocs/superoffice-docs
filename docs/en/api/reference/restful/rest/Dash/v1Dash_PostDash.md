@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 614,
-  "UniqueId": "accusantium",
-  "Name": "Kreiger-Predovic",
-  "Description": "Distributed neutral structure",
-  "AssociateId": 684,
-  "Columns": 326,
+  "DashboardId": 426,
+  "UniqueId": "perferendis",
+  "Name": "Lindgren, Konopelski and Maggio",
+  "Description": "Cloned holistic customer loyalty",
+  "AssociateId": 276,
+  "Columns": 417,
   "Theme": null,
-  "VisibleForAll": 683,
+  "VisibleForAll": 840,
   "VisibleForAssociates": [
-    602,
-    117
+    109,
+    631
   ],
   "VisibleForGroups": [
-    924,
-    220
+    993,
+    93
   ],
-  "PinForAll": 318,
+  "PinForAll": 321,
   "PinForAssociates": [
-    411,
-    924
+    724,
+    648
   ],
   "PinForGroups": [
-    6,
-    388
+    317,
+    82
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 244,
-  "UniqueId": "qui",
-  "Name": "Runolfsdottir-Gulgowski",
-  "Description": "Team-oriented uniform solution",
-  "AssociateId": 497,
-  "Columns": 845,
+  "DashboardId": 225,
+  "UniqueId": "debitis",
+  "Name": "Windler-Hamill",
+  "Description": "Total non-volatile knowledge base",
+  "AssociateId": 637,
+  "Columns": 403,
   "Theme": null,
-  "VisibleForAll": 266,
+  "VisibleForAll": 359,
   "VisibleForAssociates": [
-    874,
-    34
+    911,
+    910
   ],
   "VisibleForGroups": [
-    431,
-    330
+    330,
+    72
   ],
-  "PinForAll": 976,
+  "PinForAll": 585,
   "PinForAssociates": [
-    204,
-    772
+    616,
+    112
   ],
   "PinForGroups": [
-    697,
-    74
+    755,
+    117
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 375
     }
   },
   "_Links": {

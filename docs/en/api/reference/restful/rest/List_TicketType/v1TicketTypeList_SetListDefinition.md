@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 194,
-  "Name": "Rutherford LLC",
-  "Tooltip": "repellendus",
+  "Id": 242,
+  "Name": "Price, Schroeder and McClure",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 157,
+  "Rank": 330,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 877,
-  "Name": "Lowe-Dooley",
-  "Tooltip": "aliquam",
+  "Id": 741,
+  "Name": "Thiel-Hegmann",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 902,
+  "Rank": 458,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officiis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "unde",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

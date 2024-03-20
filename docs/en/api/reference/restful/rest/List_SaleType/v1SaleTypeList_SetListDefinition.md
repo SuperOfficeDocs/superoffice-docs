@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Kris-Crooks",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 673,
+  "Id": 227,
+  "Name": "Miller LLC",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 1002,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "Pollich, Lowe and Ward",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "Rank": 450,
+  "Id": 199,
+  "Name": "Renner LLC",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 865,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
+  "ListType": "vero",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   }
 }

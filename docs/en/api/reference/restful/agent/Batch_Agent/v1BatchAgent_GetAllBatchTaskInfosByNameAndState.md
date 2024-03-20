@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kuvalis Inc and Sons",
+  "TaskName": "Tromp, Gottlieb and Abshire",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "D'Amore, Littel and Hessel",
-    "AssociateId": 515,
-    "DetailsTable": 623,
-    "DetailsRecord": 341,
+    "Id": 62,
+    "Name": "Rodriguez-Turcotte",
+    "AssociateId": 560,
+    "DetailsTable": 569,
+    "DetailsRecord": 180,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "tenetur",
-      "ParameterObject2": "et"
+      "ParameterObject1": "ea",
+      "ParameterObject2": "quos"
     },
-    "LastStarted": "2004-10-08T14:23:45.8762101+02:00",
-    "Created": "2000-08-11T14:23:45.8762101+02:00",
-    "StartCount": 407,
-    "DatabaseSerialNumber": "794756",
-    "Context": "ut",
-    "Result": "autem",
+    "LastStarted": "2021-08-25T12:19:44.5238763+02:00",
+    "Created": "2023-01-28T12:19:44.5238763+01:00",
+    "StartCount": 796,
+    "DatabaseSerialNumber": "305591",
+    "Context": "eum",
+    "Result": "voluptatem",
     "State": "All",
-    "Description": "Implemented asynchronous structure",
-    "Response": "tempora",
-    "Request": "cumque",
-    "ProgressDescription": "Intuitive background forecast",
-    "ProgressPercent": 612,
-    "FileName": "Jacobson-Barrows",
+    "Description": "Profound bottom-line neural-net",
+    "Response": "provident",
+    "Request": "libero",
+    "ProgressDescription": "Progressive transitional knowledge user",
+    "ProgressPercent": 291,
+    "FileName": "Botsford LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 35
       }
     }
   }

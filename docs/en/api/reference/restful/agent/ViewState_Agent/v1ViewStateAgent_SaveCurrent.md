@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 498,
-  "Id": 829,
-  "HistoryName": "Corkery Inc and Sons",
-  "HistoryId": 781,
-  "AssociateId": 686,
-  "Name": "Price, Goldner and Altenwerth",
-  "ItemInfo": "veritatis",
+  "Rank": 512,
+  "Id": 959,
+  "HistoryName": "Bednar Inc and Sons",
+  "HistoryId": 309,
+  "AssociateId": 121,
+  "Name": "Bauch-Kuphal",
+  "ItemInfo": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

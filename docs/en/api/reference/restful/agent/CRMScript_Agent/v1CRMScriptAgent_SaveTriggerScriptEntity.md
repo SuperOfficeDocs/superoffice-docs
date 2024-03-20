@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 215,
-  "Name": "McGlynn LLC",
+  "ScreenChooserId": 137,
+  "Name": "Sauer LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "architecto",
-  "Source": "nesciunt",
-  "Registered": "2024-02-27T14:23:46.2043319+01:00",
-  "RegisteredAssociateId": 441,
-  "Updated": "2005-06-16T14:23:46.2043319+02:00",
-  "UpdatedAssociateId": 673
+  "UniqueIdentifier": "rerum",
+  "Source": "ad",
+  "Registered": "2003-05-31T12:19:44.9923255+02:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2005-10-06T12:19:44.9923255+02:00",
+  "UpdatedAssociateId": 114
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 482,
-  "Name": "Kertzmann Inc and Sons",
+  "ScreenChooserId": 463,
+  "Name": "Hagenes LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "provident",
-  "Source": "et",
-  "Registered": "2011-06-21T14:23:46.2043319+02:00",
-  "RegisteredAssociateId": 253,
-  "Updated": "2015-01-16T14:23:46.2043319+01:00",
-  "UpdatedAssociateId": 611,
+  "Enabled": false,
+  "UniqueIdentifier": "vel",
+  "Source": "est",
+  "Registered": "2014-10-18T12:19:44.9923255+02:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "2006-10-20T12:19:44.9923255+02:00",
+  "UpdatedAssociateId": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 700
     }
   }
 }

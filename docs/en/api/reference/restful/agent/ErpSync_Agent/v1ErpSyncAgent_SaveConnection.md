@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 170,
-  "ErpConnectorId": 262,
-  "DisplayName": "Bartell-Raynor",
-  "DisplayDescription": "Multi-lateral background hub",
+  "ErpConnectionId": 962,
+  "ErpConnectorId": 763,
+  "DisplayName": "Daugherty-Lind",
+  "DisplayDescription": "Triple-buffered 5th generation hardware",
   "Active": false,
-  "ConnectionId": "ut",
-  "MostRecentTimestamp": "natus",
+  "ConnectionId": "repudiandae",
+  "MostRecentTimestamp": "numquam",
   "ConfigFields": {
-    "ConfigFields1": "aut",
-    "ConfigFields2": "illum"
+    "ConfigFields1": "quibusdam",
+    "ConfigFields2": "qui"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    377,
-    615
+    937,
+    481
   ],
   "AssociateAccessIds": [
-    99,
-    674
+    569,
+    185
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 229
     }
   }
 }

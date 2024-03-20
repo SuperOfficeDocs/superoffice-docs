@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 178,
-    "Name": "Block, Keeling and Ziemann",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 800,
-    "UdListDefinitionId": 950,
+    "HeadingId": 626,
+    "Name": "Hackett-Ryan",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "Rank": 234,
+    "UdListDefinitionId": 964,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

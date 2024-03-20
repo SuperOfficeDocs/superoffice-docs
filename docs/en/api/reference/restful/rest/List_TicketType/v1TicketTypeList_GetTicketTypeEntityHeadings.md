@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 506,
-    "Name": "Roob Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 251,
-    "UdListDefinitionId": 265,
+    "HeadingId": 263,
+    "Name": "Padberg, Hickle and Bruen",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 16,
+    "UdListDefinitionId": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldLength": 361
       }
     }
   }

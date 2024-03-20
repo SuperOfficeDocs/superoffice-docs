@@ -83,9 +83,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 989,
-  "MinDate": "2000-09-08T14:23:46.4230787+02:00",
-  "MaxDate": "2005-09-22T14:23:46.4230787+02:00",
+  "DocumentPluginId": 975,
+  "MinDate": "2002-02-22T12:19:45.2266504+01:00",
+  "MaxDate": "2018-08-09T12:19:45.2266504+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 13,
-  "NumDocumentsAlreadyMigrated": 299,
+  "NumDocumentsOmitted": 455,
+  "NumDocumentsAlreadyMigrated": 529,
   "Documents": [
     {
-      "DocumentId": 31,
-      "ContactId": 45,
-      "PersonId": 389,
-      "SaleId": 481,
-      "ProjectId": 686,
-      "DocTmplId": 362,
-      "AssociateId": 740,
-      "UserGroupId": 335,
-      "VisibleForId": 666
+      "DocumentId": 801,
+      "ContactId": 826,
+      "PersonId": 738,
+      "SaleId": 791,
+      "ProjectId": 583,
+      "DocTmplId": 198,
+      "AssociateId": 132,
+      "UserGroupId": 903,
+      "VisibleForId": 9
     }
   ],
   "Associates": [
     {
-      "AssociateId": 599,
-      "EmailAddress": "aliza_mills@schowalter.co.uk"
+      "AssociateId": 990,
+      "EmailAddress": "berry@conn.uk"
     },
     {
-      "AssociateId": 599,
-      "EmailAddress": "aliza_mills@schowalter.co.uk"
+      "AssociateId": 990,
+      "EmailAddress": "berry@conn.uk"
     }
   ]
 }

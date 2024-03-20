@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 239,
-    "Name": "Ritchie Inc and Sons",
+    "HeadingId": 469,
+    "Name": "Crooks-Lubowitz",
     "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 371,
-    "UdListDefinitionId": 397,
+    "Deleted": false,
+    "Rank": 782,
+    "UdListDefinitionId": 747,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldLength": 624
       }
     }
   }

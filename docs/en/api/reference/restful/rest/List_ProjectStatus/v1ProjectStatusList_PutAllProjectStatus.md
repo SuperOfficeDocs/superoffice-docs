@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Kuphal LLC",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 365,
-    "Rank": 610
+    "Id": 536,
+    "Name": "O'Reilly-Kessler",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 471,
+    "Rank": 301
   },
   {
-    "Id": 625,
-    "Name": "Kuphal LLC",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "UdListDefinitionId": 365,
-    "Rank": 610
+    "Id": 536,
+    "Name": "O'Reilly-Kessler",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 471,
+    "Rank": 301
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Jones Group",
-    "Tooltip": "et",
+    "Id": 702,
+    "Name": "Franecki-Gislason",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "UdListDefinitionId": 798,
-    "Rank": 766,
+    "UdListDefinitionId": 521,
+    "Rank": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "optio",
+  "SaleText": "natus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-05-22T14:23:55.447083+02:00",
-  "Amount": 30587.84,
-  "SaleId": 93,
-  "Earning": 9282.908,
-  "EarningPercent": 23667.968,
-  "Heading": "praesentium",
-  "Number": "1729304",
-  "Probability": 503,
-  "CreatedDate": "2024-02-29T14:23:55.447083+01:00",
-  "UpdatedDate": "2012-04-27T14:23:55.447083+02:00",
+  "Saledate": "2006-12-05T12:19:53.8679381+01:00",
+  "Amount": 14146.876,
+  "SaleId": 96,
+  "Earning": 7903.9479999999994,
+  "EarningPercent": 6769.44,
+  "Heading": "sunt",
+  "Number": "610498",
+  "Probability": 497,
+  "CreatedDate": "2017-08-13T12:19:53.8679381+02:00",
+  "UpdatedDate": "1997-08-07T12:19:53.8679381+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 995,
+  "ActiveLinks": 858,
   "Links": [
     {
-      "EntityName": "Graham-Lynch",
-      "Id": 127,
-      "Description": "Multi-tiered tertiary installation",
-      "ExtraInfo": "repellat",
-      "LinkId": 301
+      "EntityName": "Dickens Inc and Sons",
+      "Id": 542,
+      "Description": "Monitored neutral database",
+      "ExtraInfo": "quis",
+      "LinkId": 481
     },
     {
-      "EntityName": "Graham-Lynch",
-      "Id": 127,
-      "Description": "Multi-tiered tertiary installation",
-      "ExtraInfo": "repellat",
-      "LinkId": 301
+      "EntityName": "Dickens Inc and Sons",
+      "Id": 542,
+      "Description": "Monitored neutral database",
+      "ExtraInfo": "quis",
+      "LinkId": 481
     }
   ],
-  "NextDueDate": "2013-01-18T14:23:55.447083+01:00",
-  "Postit": "sed",
+  "NextDueDate": "2007-11-10T12:19:53.8679381+01:00",
+  "Postit": "est",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-01-05T14:23:55.447083+01:00",
+  "ReopenDate": "2004-10-18T12:19:53.8679381+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Green Inc and Sons",
-      "Comment": "possimus",
-      "StakeholderRoleId": 264,
-      "CountryId": 298,
-      "PersonId": 746,
-      "EmailDescription": "austen_russel@adams.co.uk",
-      "EmailId": 525,
-      "EmailAddress": "danny.volkman@stamm.com",
-      "PhoneId": 428,
-      "ContactName": "Bauch-Reinger",
-      "ContactId": 293,
-      "SaleId": 33,
-      "Mrmrs": "eos",
-      "Firstname": "Grant",
-      "MiddleName": "Johns-Daugherty",
-      "Lastname": "Hauck",
-      "SaleStakeholderId": 252,
-      "Rank": 163,
-      "Phone": "1-453-480-6438"
+      "StakeholderRoleName": "Lubowitz, Mills and Schimmel",
+      "Comment": "quia",
+      "StakeholderRoleId": 262,
+      "CountryId": 19,
+      "PersonId": 984,
+      "EmailDescription": "tanya_will@renner.biz",
+      "EmailId": 347,
+      "EmailAddress": "liliane_brekke@mohrmitchell.info",
+      "PhoneId": 706,
+      "ContactName": "Roberts-Cummings",
+      "ContactId": 767,
+      "SaleId": 692,
+      "Mrmrs": "voluptas",
+      "Firstname": "Marcel",
+      "MiddleName": "Ortiz Inc and Sons",
+      "Lastname": "Barton",
+      "SaleStakeholderId": 159,
+      "Rank": 825,
+      "Phone": "1-320-073-1359 x7445"
     }
   ],
-  "ActiveErpLinks": 725,
+  "ActiveErpLinks": 788,
   "UserDefinedFields": {
-    "SuperOffice:1": "1131928416",
-    "SuperOffice:2": "2147062826"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Ms. Elvis Jacobs I"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "atque",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2014-01-25T14:23:55.447083+01:00",
-  "PublishTo": "2000-06-06T14:23:55.447083+02:00",
-  "PublishFrom": "2020-07-16T14:23:55.447083+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-03-02T12:19:53.8679381+01:00",
+  "PublishTo": "2019-06-02T12:19:53.8679381+02:00",
+  "PublishFrom": "1997-04-14T12:19:53.8679381+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 507,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "consequuntur"
     },
     {
-      "VisibleId": 507,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "voluptas"
+      "DisplayValue": "consequuntur"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "molestiae",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-10-14T14:23:55.4627088+02:00",
-  "Amount": 6189.65,
-  "SaleId": 745,
-  "Earning": 27529.056,
-  "EarningPercent": 21430.291999999998,
-  "Heading": "temporibus",
-  "Number": "346324",
-  "Probability": 249,
-  "CreatedDate": "2018-07-25T14:23:55.4627088+02:00",
-  "UpdatedDate": "2021-01-24T14:23:55.4627088+01:00",
+  "Saledate": "2018-05-20T12:19:53.8679381+02:00",
+  "Amount": 14989.921999999999,
+  "SaleId": 520,
+  "Earning": 19477.809999999998,
+  "EarningPercent": 13269.356,
+  "Heading": "illum",
+  "Number": "416914",
+  "Probability": 62,
+  "CreatedDate": "2013-04-06T12:19:53.8679381+02:00",
+  "UpdatedDate": "2023-01-30T12:19:53.8679381+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 976,
+  "ActiveLinks": 84,
   "Links": [
     {
-      "EntityName": "McLaughlin Group",
-      "Id": 158,
-      "Description": "Cloned neutral analyzer",
-      "ExtraInfo": "eos",
-      "LinkId": 191,
+      "EntityName": "White-Reinger",
+      "Id": 755,
+      "Description": "Inverse didactic standardization",
+      "ExtraInfo": "quis",
+      "LinkId": 553,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 915
+          "FieldLength": 400
         }
       }
     }
   ],
-  "NextDueDate": "2021-06-16T14:23:55.4627088+02:00",
-  "Postit": "consequatur",
+  "NextDueDate": "2002-11-08T12:19:53.8679381+01:00",
+  "Postit": "magni",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-12-05T14:23:55.4627088+01:00",
+  "ReopenDate": "2000-12-28T12:19:53.8679381+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kemmer, Schuppe and Lockman",
-      "Comment": "quo",
-      "StakeholderRoleId": 760,
-      "CountryId": 10,
-      "PersonId": 404,
-      "EmailDescription": "colten_osinski@streichwolf.com",
-      "EmailId": 643,
-      "EmailAddress": "maya.reynolds@andersonmcglynn.com",
-      "PhoneId": 91,
-      "ContactName": "Considine, Gottlieb and Roberts",
-      "ContactId": 969,
-      "SaleId": 613,
-      "Mrmrs": "unde",
-      "Firstname": "Emmitt",
-      "MiddleName": "Haley LLC",
-      "Lastname": "Oberbrunner",
-      "SaleStakeholderId": 592,
-      "Rank": 65,
-      "Phone": "197-732-6784 x848",
+      "StakeholderRoleName": "Zulauf, Casper and Hoeger",
+      "Comment": "sed",
+      "StakeholderRoleId": 396,
+      "CountryId": 64,
+      "PersonId": 778,
+      "EmailDescription": "gordon_oberbrunner@swaniawski.uk",
+      "EmailId": 11,
+      "EmailAddress": "mack.schiller@wisozkstanton.name",
+      "PhoneId": 544,
+      "ContactName": "Zulauf, Nikolaus and Barton",
+      "ContactId": 328,
+      "SaleId": 210,
+      "Mrmrs": "accusamus",
+      "Firstname": "Ramiro",
+      "MiddleName": "Feil-Jones",
+      "Lastname": "Gleason",
+      "SaleStakeholderId": 581,
+      "Rank": 284,
+      "Phone": "(650)775-3633",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     }
   ],
-  "ActiveErpLinks": 239,
+  "ActiveErpLinks": 60,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bettye Ernser",
-    "SuperOffice:2": "Mr. Pinkie Roxane Waters Jr."
+    "SuperOffice:1": "645146199",
+    "SuperOffice:2": "192452815"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "porro"
+    "CustomFields1": "qui",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2007-01-13T14:23:55.4627088+01:00",
-  "PublishTo": "2013-06-19T14:23:55.4627088+02:00",
-  "PublishFrom": "2017-01-08T14:23:55.4627088+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-07-04T12:19:53.8679381+02:00",
+  "PublishTo": "2008-02-24T12:19:53.8679381+01:00",
+  "PublishFrom": "2016-01-29T12:19:53.8679381+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 50,
+      "VisibleId": 695,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 50,
+      "VisibleId": 695,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 989
         }
       }
     }
@@ -412,7 +412,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 968
     }
   },
   "_Links": {

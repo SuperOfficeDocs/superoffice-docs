@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 23,
+  "RowCount": 701,
   "Rows": [
     {
-      "EntityName": "McDermott, Osinski and Purdy",
-      "PrimaryKey": 36,
+      "EntityName": "Donnelly LLC",
+      "PrimaryKey": 810,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "debitis",
-          "LinkHint": "ut"
+          "DisplayValue": "recusandae",
+          "TooltipHint": "cum",
+          "LinkHint": "doloribus"
         }
       },
-      "LinkHint": "adipisci",
-      "StyleHint": "corporis",
+      "LinkHint": "ut",
+      "StyleHint": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldLength": 288
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

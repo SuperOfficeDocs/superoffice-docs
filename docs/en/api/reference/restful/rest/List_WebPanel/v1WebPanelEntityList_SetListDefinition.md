@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "Fadel LLC",
-  "Tooltip": "quae",
+  "Id": 118,
+  "Name": "Gleichner, Langosh and Bernhard",
+  "Tooltip": "repellendus",
   "Deleted": true,
-  "Rank": 671,
-  "IsCustomList": true,
+  "Rank": 686,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
+  "UseGroupsAndHeadings": false,
+  "ListType": "iste",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Reichert, Reichel and O'Kon",
-  "Tooltip": "vitae",
+  "Id": 751,
+  "Name": "Hickle-Jones",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 959,
-  "IsCustomList": true,
+  "Rank": 560,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "amet",
-  "InUseByUserDefinedFields": true,
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 959
     }
   }
 }

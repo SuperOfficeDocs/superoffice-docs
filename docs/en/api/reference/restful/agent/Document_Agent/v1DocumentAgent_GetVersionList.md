@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 677
+  "DocumentId": 680
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "voluptas",
-    "DocumentId": 254,
-    "VersionId": "tenetur",
-    "CheckedInDate": "2016-04-29T14:23:46.3918288+02:00",
-    "CheckedInByName": "Dickinson, Wolf and Kirlin",
-    "CheckedInByAssociateId": 105,
-    "Description": "Persistent hybrid leverage",
-    "DisplayText": "nihil",
+    "ExternalReference": "aspernatur",
+    "DocumentId": 298,
+    "VersionId": "optio",
+    "CheckedInDate": "2023-06-04T12:19:45.1954094+02:00",
+    "CheckedInByName": "Wolff LLC",
+    "CheckedInByAssociateId": 737,
+    "Description": "Upgradable assymetric concept",
+    "DisplayText": "asperiores",
     "ExtraFields": [
-      "fuga",
-      "omnis"
+      "iste",
+      "aut"
     ]
   }
 ]

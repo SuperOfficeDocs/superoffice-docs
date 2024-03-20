@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Value": "enim",
-    "Tooltip": "quam",
+    "Id": 776,
+    "Value": "dolores",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 178
       }
     }
   },
   {
-    "Id": 912,
-    "Value": "enim",
-    "Tooltip": "quam",
+    "Id": 776,
+    "Value": "dolores",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 178
       }
     }
   }

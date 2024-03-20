@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jones-Cole",
-  "ListItemId": 338,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Kiehn LLC",
+  "ListItemId": 221,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Rodriguez-Wisozk",
-    "ToolTip": "Quam voluptate.",
+    "Id": 155,
+    "Name": "Gutkowski, Bosco and Turner",
+    "ToolTip": "Magni aut officia perferendis nam et.",
     "Deleted": false,
-    "Rank": 591,
-    "Type": "fuga",
-    "ColorBlock": 126,
-    "IconHint": "non",
+    "Rank": 963,
+    "Type": "qui",
+    "ColorBlock": 215,
+    "IconHint": "facere",
     "Selected": true,
-    "LastChanged": "2005-05-30T14:23:46.8306046+02:00",
+    "LastChanged": "2014-08-26T12:19:45.5078373+02:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Grant, Cassin and Jerde",
-        "ToolTip": "Tempore temporibus dolores illo cumque eius quae porro.",
+        "Id": 624,
+        "Name": "Kozey Inc and Sons",
+        "ToolTip": "Commodi omnis qui necessitatibus officiis sed.",
         "Deleted": false,
-        "Rank": 437,
-        "Type": "eius",
-        "ColorBlock": 575,
-        "IconHint": "aperiam",
+        "Rank": 359,
+        "Type": "aut",
+        "ColorBlock": 747,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2019-08-21T14:23:46.8306046+02:00",
+        "LastChanged": "2003-08-14T12:19:45.5078373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Darren Henriette Funk II",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Muriel Josh Ferry I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 272
+            "FieldType": "System.Int32",
+            "FieldLength": 308
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mittie Luettgen",
+    "ExtraInfo": "tempora",
+    "StyleHint": "amet",
+    "Hidden": false,
+    "FullName": "Ozella Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 712
       }
     }
   }

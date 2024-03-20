@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 104,
-  "Name": "Sporer Group",
+  "ScreenChooserId": 702,
+  "Name": "Swaniawski, Nitzsche and Miller",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "et",
-  "Source": "impedit",
-  "Registered": "2013-02-23T14:23:55.7595795+01:00",
-  "RegisteredAssociateId": 469,
-  "Updated": "2012-10-02T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 66
+  "Enabled": false,
+  "UniqueIdentifier": "architecto",
+  "Source": "optio",
+  "Registered": "2006-08-22T12:19:54.0866374+02:00",
+  "RegisteredAssociateId": 426,
+  "Updated": "2013-04-25T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 9
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 431,
-  "Name": "Parker, Sauer and Ortiz",
+  "ScreenChooserId": 859,
+  "Name": "Feest, VonRueden and Nader",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "officia",
-  "Source": "quia",
-  "Registered": "2017-09-23T14:23:55.7595795+02:00",
-  "RegisteredAssociateId": 92,
-  "Updated": "2012-06-09T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 642,
+  "Enabled": true,
+  "UniqueIdentifier": "sapiente",
+  "Source": "ea",
+  "Registered": "1999-01-14T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2014-03-07T12:19:54.0866374+01:00",
+  "UpdatedAssociateId": 166,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 523
     }
   },
   "_Links": {

@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Homenick LLC",
-  "Language": "id"
+  "TemplateName": "Heller, Gutmann and Jacobs",
+  "Language": "est"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 505,
-      "ContactName": "Lynch-Konopelski",
-      "PersonId": 331,
-      "PersonName": "Blanda-Douglas",
-      "AssociateId": 369,
-      "Address": "vero",
-      "EmailId": 949,
+      "ContactId": 917,
+      "ContactName": "Goyette-Schowalter",
+      "PersonId": 806,
+      "PersonName": "Lind Inc and Sons",
+      "AssociateId": 936,
+      "Address": "sint",
+      "EmailId": 789,
       "DuplicatePersonIds": [
-        813,
-        579
+        270,
+        142
       ],
-      "Name": "Gleichner, Emmerich and Hintz",
+      "Name": "Howe Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 529
+          "FieldLength": 430
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 841,
-      "ContactName": "Grant-Kuvalis",
-      "PersonId": 78,
-      "PersonName": "Hamill Group",
-      "AssociateId": 176,
-      "Address": "soluta",
-      "EmailId": 862,
+      "ContactId": 724,
+      "ContactName": "Koss-Lang",
+      "PersonId": 945,
+      "PersonName": "Haley-Steuber",
+      "AssociateId": 520,
+      "Address": "magni",
+      "EmailId": 742,
       "DuplicatePersonIds": [
-        194,
-        456
+        114,
+        470
       ],
-      "Name": "Graham, Koss and Heller",
+      "Name": "Kuvalis-Gerlach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 523
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 559,
-      "ContactName": "Weissnat Group",
-      "PersonId": 309,
-      "PersonName": "Beer LLC",
-      "AssociateId": 523,
-      "Address": "ut",
-      "EmailId": 640,
+      "ContactId": 545,
+      "ContactName": "Weissnat Inc and Sons",
+      "PersonId": 904,
+      "PersonName": "Hintz, Zboncak and Hessel",
+      "AssociateId": 473,
+      "Address": "aut",
+      "EmailId": 90,
       "DuplicatePersonIds": [
-        192,
-        277
+        319,
+        325
       ],
-      "Name": "Schoen-Bahringer",
+      "Name": "Hilpert Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "aut",
+  "Subject": "dignissimos",
+  "HTMLBody": "unde",
   "From": null,
-  "Sent": "2014-08-02T14:23:45.8137128+02:00",
-  "Size": 585,
+  "Sent": "2021-11-22T12:19:44.4455716+01:00",
+  "Size": 871,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "delectus",
-  "IsSent": false,
+  "MessageID": "autem",
+  "PlainBody": "voluptatum",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 264,
+  "ServerId": 668,
   "Attachments": [
     {
-      "Description": "Right-sized global artificial intelligence",
-      "Filename": "qui",
-      "Size": 579,
-      "Type": "eius",
-      "Encoding": "ad",
-      "Id": "maiores",
-      "Disposition": "qui",
-      "IsSafeFileExtension": true,
+      "Description": "Sharable bandwidth-monitored encryption",
+      "Filename": "iusto",
+      "Size": 104,
+      "Type": "quibusdam",
+      "Encoding": "molestiae",
+      "Id": "dolor",
+      "Disposition": "saepe",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Carter Group",
+      "Name": "Macejkovic-Bartell",
       "Values": [
-        "dolore",
-        "non"
+        "ut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 262
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     },
     {
-      "Name": "Carter Group",
+      "Name": "Macejkovic-Bartell",
       "Values": [
-        "dolore",
-        "non"
+        "ut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 262
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
   ],
-  "FolderName": "Thompson-Altenwerth",
-  "EmailItemId": 79,
-  "AccountId": 493,
-  "ReceivedAt": "2009-03-09T14:23:45.8137128+01:00",
+  "FolderName": "Nicolas Group",
+  "EmailItemId": 948,
+  "AccountId": 160,
+  "ReceivedAt": "2014-08-12T12:19:44.4455716+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-07-03T14:23:45.8137128+02:00",
+  "RepliedAt": "2016-02-23T12:19:44.4455716+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 564
     }
   }
 }

@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schroeder, Murphy and Reichel",
+  "ProviderName": "Schiller Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Davis, Ernser and Monahan",
-      "Operator": "rerum",
+      "Name": "Deckow, Swift and Daugherty",
+      "Operator": "sit",
       "Values": [
-        "in",
-        "similique"
+        "fugiat",
+        "magni"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "soluta"
+        "voluptatum",
+        "neque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 70,
+      "InterParenthesis": 837,
       "InterOperator": "And",
-      "UniqueHash": 722
+      "UniqueHash": 393
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie-Kuhic",
-    "Operator": "perferendis",
+    "Name": "Glover Inc and Sons",
+    "Operator": "non",
     "Values": [
-      "laudantium",
-      "sed"
+      "aliquid",
+      "impedit"
     ],
     "DisplayValues": [
-      "magnam",
-      "dolores"
+      "quod",
+      "voluptates"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Mayer LLC",
-        "Operator": "voluptatem",
+        "Name": "Dietrich-Buckridge",
+        "Operator": "et",
         "Values": [
-          "magnam",
-          "totam"
+          "consectetur",
+          "molestiae"
         ],
         "DisplayValues": [
-          "sit",
-          "temporibus"
+          "ut",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 795,
+        "InterParenthesis": 888,
         "InterOperator": "And",
-        "UniqueHash": 306
+        "UniqueHash": 633
       }
     ],
-    "InterParenthesis": 254,
+    "InterParenthesis": 679,
     "InterOperator": "And",
-    "UniqueHash": 821
+    "UniqueHash": 35
   }
 ]
 ```

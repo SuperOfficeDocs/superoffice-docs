@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "enim",
-    "DocumentId": 354,
-    "VersionId": "at",
-    "CheckedInDate": "2004-07-20T14:23:55.1490211+02:00",
-    "CheckedInByName": "Parker LLC",
-    "CheckedInByAssociateId": 404,
-    "Description": "Centralized contextually-based methodology",
-    "DisplayText": "recusandae",
+    "ExternalReference": "omnis",
+    "DocumentId": 601,
+    "VersionId": "et",
+    "CheckedInDate": "2001-02-23T12:19:53.5711314+01:00",
+    "CheckedInByName": "Morissette-Collins",
+    "CheckedInByAssociateId": 76,
+    "Description": "Team-oriented actuating concept",
+    "DisplayText": "enim",
     "ExtraFields": [
-      "vel",
-      "aut"
+      "eum",
+      "voluptatem"
     ]
   }
 ]

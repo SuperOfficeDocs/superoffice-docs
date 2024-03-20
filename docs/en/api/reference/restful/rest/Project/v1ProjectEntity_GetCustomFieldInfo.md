@@ -71,7 +71,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Nitzsche-Braun",
-  "DisplayName": "Schinner, Rempel and Hettinger",
-  "Description": "Progressive content-based encoding",
-  "ShortLabel": "voluptates",
+  "FieldName": "Welch, Rodriguez and Turcotte",
+  "DisplayName": "White Inc and Sons",
+  "Description": "Inverse analyzing Graphic Interface",
+  "ShortLabel": "distinctio",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 504,
-  "TemplateVariableName": "VonRueden-Zulauf"
+  "IsMandatory": true,
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 350,
+  "TemplateVariableName": "Bashirian-Grant"
 }
 ```

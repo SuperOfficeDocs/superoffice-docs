@@ -77,12 +77,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Treutel LLC",
-  "Tooltip": "nostrum",
+  "Id": 95,
+  "Name": "Purdy-Schneider",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 30,
-  "Rank": 165
+  "UdListDefinitionId": 800,
+  "Rank": 154
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Hagenes-Bosco",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "UdListDefinitionId": 840,
-  "Rank": 38,
+  "Id": 244,
+  "Name": "Sauer-Erdman",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "UdListDefinitionId": 352,
+  "Rank": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

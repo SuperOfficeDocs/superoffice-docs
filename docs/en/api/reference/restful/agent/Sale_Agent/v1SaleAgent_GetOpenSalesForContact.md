@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 632
+  "ContactId": 849
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wunsch Group",
-    "SaleDate": "2018-01-07T14:23:47.3630051+01:00",
-    "SaleId": 237,
-    "Probability": 82,
-    "Title": "maxime",
-    "Amount": 31108.084,
-    "Currency": "et",
-    "ProjectName": "Simonis LLC",
-    "AssociateFullName": "Ms. Curt Kozey I",
-    "Description": "Re-contextualized dedicated protocol",
+    "ContactName": "West, Schaden and Pfeffer",
+    "SaleDate": "2018-07-17T12:19:46.210807+02:00",
+    "SaleId": 301,
+    "Probability": 584,
+    "Title": "nisi",
+    "Amount": 7703.3719999999994,
+    "Currency": "dolorem",
+    "ProjectName": "Rogahn-Reynolds",
+    "AssociateFullName": "Gia Rice Jr.",
+    "Description": "Managed needs-based encryption",
     "Status": "Lost",
-    "WeightedAmount": 20844.234,
-    "ProjectId": 104,
-    "EarningPercent": 5985.94,
-    "Earning": 2892.682,
-    "ContactId": 954,
-    "AssociateId": 305,
-    "PersonId": 399,
-    "SaleTypeId": 884,
-    "SaleTypeName": "Heller-Kutch",
-    "PersonFullName": "Miss Deborah Terence Lind V",
+    "WeightedAmount": 17365.494,
+    "ProjectId": 732,
+    "EarningPercent": 19383.79,
+    "Earning": 16550.654,
+    "ContactId": 771,
+    "AssociateId": 818,
+    "PersonId": 307,
+    "SaleTypeId": 752,
+    "SaleTypeName": "Nolan Inc and Sons",
+    "PersonFullName": "Justice Phyllis Harber I",
     "Completed": "Completed",
-    "ActiveErpLinks": 965,
-    "NextDueDate": "2017-07-15T14:23:47.3630051+02:00",
-    "Number": "1591952",
+    "ActiveErpLinks": 700,
+    "NextDueDate": "2013-03-19T12:19:46.210807+01:00",
+    "Number": "438357",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 505
       }
     }
   }

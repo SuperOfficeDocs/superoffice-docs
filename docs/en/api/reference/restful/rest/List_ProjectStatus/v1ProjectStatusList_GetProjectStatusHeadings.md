@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 775,
-    "Name": "Leuschke, Turcotte and Anderson",
-    "Tooltip": "enim",
+    "HeadingId": 918,
+    "Name": "Becker Inc and Sons",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 177,
-    "UdListDefinitionId": 9,
+    "Rank": 474,
+    "UdListDefinitionId": 602,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldLength": 635
       }
     }
   }

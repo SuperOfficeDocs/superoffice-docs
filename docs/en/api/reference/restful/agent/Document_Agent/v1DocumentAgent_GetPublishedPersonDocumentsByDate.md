@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 260,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2010-11-03T14:23:46.2824577+01:00",
-  "EndTime": "2002-09-13T14:23:46.2824577+02:00",
-  "Count": 951
+  "PersonId": 699,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2017-04-01T12:19:45.0704356+02:00",
+  "EndTime": "2013-08-21T12:19:45.0704356+02:00",
+  "Count": 287
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 285,
-    "Attention": "rerum",
-    "Header": "eum",
-    "Name": "Schamberger LLC",
-    "OurRef": "est",
-    "YourRef": "culpa",
-    "Description": "Enhanced background interface",
-    "DocumentTemplate": "magni",
+    "DocumentId": 650,
+    "Attention": "aut",
+    "Header": "adipisci",
+    "Name": "Thompson-Rath",
+    "OurRef": "molestiae",
+    "YourRef": "voluptatum",
+    "Description": "Function-based disintermediate neural-net",
+    "DocumentTemplate": "soluta",
     "IsPublished": false,
-    "PersonId": 169,
-    "PersonFullName": "Mrs. Jared Cali Nienow",
-    "AssociateFullName": "Norval Hauck I",
-    "ContactId": 135,
-    "ContactName": "Heller, Gulgowski and Abshire",
-    "ProjectId": 680,
-    "ProjectName": "Ziemann LLC",
-    "AssociateId": 804,
-    "Snum": 863,
-    "SaleId": 883,
-    "SaleName": "Boehm-Leffler",
+    "PersonId": 87,
+    "PersonFullName": "Dr. Sylvester Elenor Braun",
+    "AssociateFullName": "Domenick Treutel",
+    "ContactId": 618,
+    "ContactName": "Crona Group",
+    "ProjectId": 148,
+    "ProjectName": "Parisian, Champlin and Lind",
+    "AssociateId": 408,
+    "Snum": 905,
+    "SaleId": 635,
+    "SaleName": "Dare, Hamill and Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 783
       }
     }
   }

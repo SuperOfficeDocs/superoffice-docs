@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 70,
-      "Id": 633,
-      "HistoryName": "Barton Inc and Sons",
-      "HistoryId": 279,
-      "AssociateId": 28,
-      "Name": "Hagenes LLC",
-      "ItemInfo": "veniam"
+      "Rank": 518,
+      "Id": 891,
+      "HistoryName": "Price-D'Amore",
+      "HistoryId": 335,
+      "AssociateId": 914,
+      "Name": "Tromp Group",
+      "ItemInfo": "ut"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 320,
-    "Id": 276,
-    "HistoryName": "Schmitt Inc and Sons",
-    "HistoryId": 794,
-    "AssociateId": 422,
-    "Name": "Pollich, Hand and Parisian",
-    "ItemInfo": "porro",
+    "Rank": 673,
+    "Id": 487,
+    "HistoryName": "Schroeder Group",
+    "HistoryId": 708,
+    "AssociateId": 274,
+    "Name": "Koepp-Kozey",
+    "ItemInfo": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

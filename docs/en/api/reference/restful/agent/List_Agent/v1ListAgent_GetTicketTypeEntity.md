@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=408
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=516
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 745,
-  "Name": "Larkin-Bergstrom",
-  "Rank": 876,
-  "Tooltip": "qui",
-  "Icon": "qui",
-  "DefaultTicketStatus": 523,
+  "TicketTypeId": 79,
+  "Name": "Feeney, Daugherty and Ruecker",
+  "Rank": 216,
+  "Tooltip": "aperiam",
+  "Icon": "sit",
+  "DefaultTicketStatus": 633,
   "TicketStatuses": [
-    560,
-    341
+    908,
+    863
   ],
-  "DefaultTicketPriority": 482,
+  "DefaultTicketPriority": 736,
   "TicketPriorities": [
-    408,
-    149
+    658,
+    673
   ],
-  "ReplyTemplate": 579,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 633,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

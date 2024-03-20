@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 665,
-  "ERPProductKey": "aliquid"
+  "QuoteAlternativeId": 760,
+  "ERPProductKey": "sit"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 130,
-  "ERPQuoteLineKey": "sed",
-  "QuoteAlternativeId": 566,
-  "ERPProductKey": "mollitia",
+  "QuoteLineId": 95,
+  "ERPQuoteLineKey": "ex",
+  "QuoteAlternativeId": 285,
+  "ERPProductKey": "aperiam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 2773.5899999999997,
-  "DeliveredQuantity": 9878.368,
-  "Rank": 473,
-  "Name": "Smitham LLC",
-  "Description": "Extended modular initiative",
-  "Code": "sint",
-  "QuantityUnit": "voluptatibus",
-  "PriceUnit": "libero",
-  "ItemNumber": "1171554",
+  "Quantity": 28381.504,
+  "DeliveredQuantity": 23360.836,
+  "Rank": 221,
+  "Name": "Dibbert LLC",
+  "Description": "Profit-focused heuristic local area network",
+  "Code": "et",
+  "QuantityUnit": "et",
+  "PriceUnit": "voluptatum",
+  "ItemNumber": "1085753",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nam",
-  "ProductTypeKey": "voluptate",
-  "Supplier": "dolores",
-  "SupplierCode": "beatae",
-  "Thumbnail": "placeat",
-  "VATInfo": "rerum",
-  "VAT": 16447.232,
-  "UnitCost": 26009.066,
-  "UnitMinimumPrice": 27801.714,
-  "UnitListPrice": 20443.082,
+  "ProductFamilyKey": "dolore",
+  "ProductTypeKey": "aliquam",
+  "Supplier": "rerum",
+  "SupplierCode": "quasi",
+  "Thumbnail": "omnis",
+  "VATInfo": "impedit",
+  "VAT": 12896.41,
+  "UnitCost": 12028.292,
+  "UnitMinimumPrice": 30992.126,
+  "UnitListPrice": 10357.869999999999,
   "ExtraInfo": [
     {
-      "Name": "Bechtelar, Prohaska and Orn",
-      "Value": "fuga",
+      "Name": "Walter, Jacobson and Hills",
+      "Value": "voluptate",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     },
     {
-      "Name": "Bechtelar, Prohaska and Orn",
-      "Value": "fuga",
+      "Name": "Walter, Jacobson and Hills",
+      "Value": "voluptate",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
-  "RawExtraInfo": "odit",
+  "RawExtraInfo": "culpa",
   "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "SubscriptionQuantity": 21928.597999999998,
-  "SubscriptionStart": "2004-07-12T14:23:47.2536317+02:00",
-  "ERPDiscountPercent": 21113.757999999998,
-  "ERPDiscountAmount": 24072.254,
-  "DiscountPercent": 2231.408,
-  "DiscountAmount": 9107.404,
+  "SubscriptionUnit": "minima",
+  "SubscriptionQuantity": 15171.694,
+  "SubscriptionStart": "2004-12-29T12:19:46.1014395+01:00",
+  "ERPDiscountPercent": 24448.334,
+  "ERPDiscountAmount": 9079.198,
+  "DiscountPercent": 16284.264,
+  "DiscountAmount": 17591.142,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7082.84,
-  "EarningAmount": 30528.293999999998,
-  "SubTotal": 12379.3,
-  "TotalPrice": 8395.985999999999,
-  "Rights": "enim",
-  "Rule": "enim",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "est",
-  "ExtraField3": "officia",
-  "ExtraField4": "nesciunt",
-  "ExtraField5": "voluptates",
+  "EarningPercent": 5797.9,
+  "EarningAmount": 3998.984,
+  "SubTotal": 31280.453999999998,
+  "TotalPrice": 1291.2079999999999,
+  "Rights": "sed",
+  "Rule": "eos",
+  "ExtraField1": "enim",
+  "ExtraField2": "veniam",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 354
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ex"
+  "TriggerScriptUniqueId": "ullam"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 314,
-  "Name": "Effertz-Von",
+  "ScreenChooserId": 124,
+  "Name": "Ziemann Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "veritatis",
-  "Source": "dolores",
-  "Registered": "2003-09-03T14:23:46.219957+02:00",
-  "RegisteredAssociateId": 451,
-  "Updated": "2020-10-03T14:23:46.219957+02:00",
-  "UpdatedAssociateId": 413,
+  "Enabled": false,
+  "UniqueIdentifier": "possimus",
+  "Source": "nihil",
+  "Registered": "2000-10-07T12:19:45.0079506+02:00",
+  "RegisteredAssociateId": 991,
+  "Updated": "1997-07-30T12:19:45.0079506+02:00",
+  "UpdatedAssociateId": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

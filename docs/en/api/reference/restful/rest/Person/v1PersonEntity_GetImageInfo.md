@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 13 Sep 2013 14:23:55 G9T
+Last-Modified: Wed, 29 Mar 2017 12:19:53 G3T
 
 {
-  "BlobId": 47,
-  "BlobSize": 139,
-  "Description": "Profit-focused foreground utilisation",
-  "ExtraInfo": "sed",
+  "BlobId": 299,
+  "BlobSize": 415,
+  "Description": "Profound disintermediate local area network",
+  "ExtraInfo": "ullam",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 828,
-  "CreatedDate": "2009-06-21T14:23:55.3064621+02:00",
-  "UpdatedDate": "2013-09-13T14:23:55.3064621+02:00",
+  "MimeType": "eveniet",
+  "OriginalSize": 754,
+  "CreatedDate": "2015-10-27T12:19:53.7273414+01:00",
+  "UpdatedDate": "2017-03-29T12:19:53.7273414+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magnam",
+  "ConceptualType": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 108,
-  "UniqueId": "pariatur",
-  "Name": "Kuvalis, Boehm and Tromp",
-  "Description": "Triple-buffered incremental database",
-  "AssociateId": 630,
-  "Columns": 629,
+  "DashboardId": 534,
+  "UniqueId": "ullam",
+  "Name": "Stoltenberg Inc and Sons",
+  "Description": "Profound exuding Graphic Interface",
+  "AssociateId": 633,
+  "Columns": 107,
   "Theme": null,
-  "VisibleForAll": 667,
+  "VisibleForAll": 335,
   "VisibleForAssociates": [
-    336,
-    964
+    699,
+    906
   ],
   "VisibleForGroups": [
-    282,
-    550
+    651,
+    748
   ],
-  "PinForAll": 160,
+  "PinForAll": 340,
   "PinForAssociates": [
-    649,
-    232
+    100,
+    895
   ],
   "PinForGroups": [
-    341,
-    665
+    329,
+    825
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 604
     }
   }
 }

@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 890,
+  "SelectionId": 336,
   "Criteria": [
     {
-      "Name": "Ziemann, Veum and Altenwerth",
-      "Description": "Organic upward-trending benchmark",
-      "Rank": 907,
+      "Name": "Considine Group",
+      "Description": "Exclusive well-modulated flexibility",
+      "Rank": 45,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ziemann, Veum and Altenwerth",
-      "Description": "Organic upward-trending benchmark",
-      "Rank": 907,
+      "Name": "Considine Group",
+      "Description": "Exclusive well-modulated flexibility",
+      "Rank": 45,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenfelder-Heaney",
-    "Description": "Fundamental discrete attitude",
-    "Rank": 174,
+    "Name": "Hettinger, Rodriguez and Little",
+    "Description": "Fundamental disintermediate application",
+    "Rank": 923,
     "Restrictions": [
       {
-        "Name": "Larson-Schaden",
-        "Operator": "voluptatem",
+        "Name": "Schoen Group",
+        "Operator": "ut",
         "Values": [
-          "iste",
-          "maiores"
+          "odit",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "quia",
-          "debitis"
+          "quas",
+          "consequatur"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 283,
+        "InterParenthesis": 703,
         "InterOperator": "And",
-        "UniqueHash": 382
+        "UniqueHash": 542
       }
     ]
   },
   {
-    "Name": "Greenfelder-Heaney",
-    "Description": "Fundamental discrete attitude",
-    "Rank": 174,
+    "Name": "Hettinger, Rodriguez and Little",
+    "Description": "Fundamental disintermediate application",
+    "Rank": 923,
     "Restrictions": [
       {
-        "Name": "Larson-Schaden",
-        "Operator": "voluptatem",
+        "Name": "Schoen Group",
+        "Operator": "ut",
         "Values": [
-          "iste",
-          "maiores"
+          "odit",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "quia",
-          "debitis"
+          "quas",
+          "consequatur"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 283,
+        "InterParenthesis": 703,
         "InterOperator": "And",
-        "UniqueHash": 382
+        "UniqueHash": 542
       }
     ]
   }

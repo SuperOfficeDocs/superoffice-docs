@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Gleichner-Bailey",
-    "ToolTip": "Velit fuga quos praesentium.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "qui",
-    "ColorBlock": 284,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2022-10-03T14:23:56.2595732+02:00",
+    "Id": 302,
+    "Name": "Bergstrom-Bauch",
+    "ToolTip": "Quam dolor ut.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "fugit",
+    "ColorBlock": 438,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2013-11-24T12:19:54.7583539+01:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Ritchie-Steuber",
-        "ToolTip": "Non esse mollitia quos mollitia.",
-        "Deleted": false,
-        "Rank": 997,
-        "Type": "saepe",
-        "ColorBlock": 669,
-        "IconHint": "voluptatem",
+        "Id": 920,
+        "Name": "Grant Group",
+        "ToolTip": "Sunt voluptatem consequatur est.",
+        "Deleted": true,
+        "Rank": 522,
+        "Type": "ipsum",
+        "ColorBlock": 427,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2016-06-15T14:23:56.2595732+02:00",
+        "LastChanged": "2019-07-26T12:19:54.7583539+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "repellat",
+        "ExtraInfo": "dolore",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Ms. Amaya Bashirian",
+        "FullName": "Prof. Deja Lula Nitzsche",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 170
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "est",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Jules McLaughlin",
+    "FullName": "Mrs. Layne Klocko III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 349
       }
     }
   }

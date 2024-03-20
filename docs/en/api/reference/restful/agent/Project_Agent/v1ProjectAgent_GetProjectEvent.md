@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=334
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=204
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Dr. Ramiro Anahi Dibbert MD",
-  "Description": "Compatible global encoding",
-  "ProjectId": 302,
-  "EventName": "Gibson Group",
-  "AssociateId": 492,
+  "AssociateFullName": "Dr. Monroe Weber",
+  "Description": "Profit-focused even-keeled matrices",
+  "ProjectId": 86,
+  "EventName": "DuBuque Inc and Sons",
+  "AssociateId": 144,
   "IsSignedOn": true,
-  "SignOffConfirmationText": "sunt",
-  "SignOffText": "dolorem",
-  "SignOnConfirmationText": "quae",
-  "SignOnText": "alias",
-  "EventDate": "2001-01-14T14:23:47.1755092+01:00",
-  "Enabled": true,
+  "SignOffConfirmationText": "quia",
+  "SignOffText": "alias",
+  "SignOnConfirmationText": "similique",
+  "SignOnText": "voluptatibus",
+  "EventDate": "2010-11-07T12:19:46.0233436+01:00",
+  "Enabled": false,
   "SignOff": false,
-  "SignOffTaskEnable": true,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
-  "SignOn": true,
-  "SignOffTaskId": 897,
-  "SignOnTaskId": 29,
+  "SignOn": false,
+  "SignOffTaskId": 600,
+  "SignOnTaskId": 830,
   "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 526,
-  "SignOffPersonId": 383,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 440,
+  "SignOffPersonId": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

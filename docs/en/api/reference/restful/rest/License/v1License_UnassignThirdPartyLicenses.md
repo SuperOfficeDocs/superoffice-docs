@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 326,
-    "Tooltip": "culpa",
-    "CanAssign": true,
-    "Free": 203,
-    "InUse": 390,
+    "Total": 704,
+    "Tooltip": "dolor",
+    "CanAssign": false,
+    "Free": 777,
+    "InUse": 330,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 495,
-    "Name": "Kub, Harris and Jaskolski",
-    "Description": "Profit-focused scalable framework",
-    "PrerequisiteModuleName": "Ryan-Boyer",
-    "SortOrder": 143,
-    "ExtraFlags": 151,
+    "ModuleLicenseId": 819,
+    "Name": "Jast Group",
+    "Description": "Enterprise-wide client-driven flexibility",
+    "PrerequisiteModuleName": "Schinner, Feeney and Pollich",
+    "SortOrder": 828,
+    "ExtraFlags": 629,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldLength": 264
       }
     }
   }

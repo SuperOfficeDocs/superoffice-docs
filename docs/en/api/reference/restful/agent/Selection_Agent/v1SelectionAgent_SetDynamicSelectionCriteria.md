@@ -87,17 +87,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 983,
+  "SelectionId": 149,
   "Criteria": [
     {
-      "Name": "Wuckert Inc and Sons",
-      "Operator": "quas",
+      "Name": "Harvey-Hansen",
+      "Operator": "nobis",
       "Values": [
-        "odio",
-        "ullam"
+        "nihil",
+        "nostrum"
       ],
       "DisplayValues": [
-        "eos",
+        "ipsa",
         "itaque"
       ],
       "ColumnInfo": null,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 360,
+      "InterParenthesis": 529,
       "InterOperator": "And",
-      "UniqueHash": 242
+      "UniqueHash": 978
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills Inc and Sons",
-    "Operator": "iste",
+    "Name": "Glover-Emmerich",
+    "Operator": "eveniet",
     "Values": [
-      "qui",
-      "itaque"
+      "et",
+      "sequi"
     ],
     "DisplayValues": [
-      "impedit",
-      "eos"
+      "laborum",
+      "corrupti"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Bartell-Hoeger",
-        "Operator": "sunt",
+        "Name": "Kris Inc and Sons",
+        "Operator": "repellat",
         "Values": [
-          "est",
-          "doloremque"
+          "omnis",
+          "harum"
         ],
         "DisplayValues": [
-          "et",
-          "error"
+          "velit",
+          "consequatur"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 356,
+        "InterParenthesis": 473,
         "InterOperator": "And",
-        "UniqueHash": 602
+        "UniqueHash": 868
       }
     ],
-    "InterParenthesis": 297,
+    "InterParenthesis": 768,
     "InterOperator": "And",
-    "UniqueHash": 694
+    "UniqueHash": 55
   }
 ]
 ```

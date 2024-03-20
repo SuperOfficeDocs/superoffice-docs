@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=eveniet
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=perferendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Langworth Inc and Sons",
-    "ToolTip": "Et soluta facere aliquid.",
-    "Deleted": true,
-    "Rank": 821,
-    "Type": "non",
+    "Id": 722,
+    "Name": "Larson Group",
+    "ToolTip": "Voluptatem tempore delectus ab.",
+    "Deleted": false,
+    "Rank": 920,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Vandervort, Ferry and Mann",
-        "ToolTip": "Nisi delectus est placeat.",
+        "Id": 94,
+        "Name": "Kuphal LLC",
+        "ToolTip": "Mollitia et velit et recusandae vel similique quis.",
         "Deleted": true,
-        "Rank": 900,
-        "Type": "omnis",
+        "Rank": 539,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 820,
-        "ExtraInfo": "assumenda",
-        "StyleHint": "explicabo",
-        "FullName": "Petra Miller",
+        "IconHint": "temporibus",
+        "ColorBlock": 729,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "fugit",
+        "FullName": "Mrs. Keira Abagail Haley III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 119
+            "FieldType": "System.Int32",
+            "FieldLength": 617
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 364,
-    "ExtraInfo": "id",
-    "StyleHint": "qui",
-    "FullName": "Josiane Marquardt",
+    "IconHint": "eos",
+    "ColorBlock": 672,
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
+    "FullName": "Dereck Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 249
       }
     }
   }

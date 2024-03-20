@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Schuppe, Conn and Altenwerth",
-    "Tooltip": "rem",
-    "Deleted": false,
-    "UdListDefinitionId": 480,
-    "Rank": 181,
+    "Id": 620,
+    "Name": "Bayer Inc and Sons",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "UdListDefinitionId": 732,
+    "Rank": 486,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 626
       }
     }
   }

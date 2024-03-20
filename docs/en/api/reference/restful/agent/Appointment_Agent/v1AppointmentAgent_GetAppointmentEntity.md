@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=487
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=465
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-12-15T14:23:45.4856311+01:00",
-  "AppointmentId": 810,
-  "Description": "Progressive encompassing strategy",
-  "Title": "dolor",
-  "Agenda": "eveniet",
-  "InternalNotes": "repellat",
-  "StartDate": "2005-02-17T14:23:45.4856311+01:00",
-  "EndDate": "2018-02-27T14:23:45.4856311+01:00",
+  "CreatedDate": "2011-01-11T12:19:44.2581233+01:00",
+  "AppointmentId": 984,
+  "Description": "Integrated modular open system",
+  "Title": "asperiores",
+  "Agenda": "deserunt",
+  "InternalNotes": "numquam",
+  "StartDate": "2020-12-24T12:19:44.2581233+01:00",
+  "EndDate": "1997-05-05T12:19:44.2581233+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 447,
+  "MotherId": 580,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-03-27T14:23:45.4856311+01:00",
+  "UpdatedDate": "2007-07-11T12:19:44.2581233+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 801,
+  "ActiveLinks": 661,
   "Links": [
     {
-      "EntityName": "Daniel Group",
-      "Id": 415,
-      "Description": "Phased actuating knowledge user",
-      "ExtraInfo": "nam",
-      "LinkId": 485,
+      "EntityName": "Lesch, Reichel and Reinger",
+      "Id": 748,
+      "Description": "Advanced modular leverage",
+      "ExtraInfo": "molestias",
+      "LinkId": 435,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldLength": 330
         }
       }
     }
   ],
-  "AlarmLeadTime": "rerum",
-  "HasAlarm": false,
-  "ColorIndex": 557,
+  "AlarmLeadTime": "incidunt",
+  "HasAlarm": true,
+  "ColorIndex": 27,
   "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "modi",
-  "LeadTime": "laboriosam",
-  "Location": "eos",
-  "RejectCounter": 573,
+  "LagTime": "ut",
+  "LeadTime": "ut",
+  "Location": "et",
+  "RejectCounter": 635,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 928,
-      "PersonId": 887,
-      "ContactId": 958,
-      "EmailId": 813,
+      "AssociateId": 888,
+      "PersonId": 537,
+      "ContactId": 643,
+      "EmailId": 10,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jaleel_rowe@bechtelar.co.uk",
-      "Description": "Diverse systemic open system"
+      "EmailAddress": "dexter@rolfson.info",
+      "Description": "Ergonomic local model"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-01-18T14:23:45.4856311+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-08-21T12:19:44.2581233+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 45,
+  "PreferredTZLocation": 544,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 584,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 210,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quis",
+  "CentralserviceVideomeetId": "debitis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Pansy Stracke",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Brenden Lindgren"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quo"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2012-08-10T14:23:45.5012567+02:00",
-  "PublishTo": "2002-01-21T14:23:45.5012567+01:00",
-  "PublishFrom": "2010-02-09T14:23:45.5012567+01:00",
+  "PublishEventDate": "2004-05-29T12:19:44.2581233+02:00",
+  "PublishTo": "2014-04-29T12:19:44.2581233+02:00",
+  "PublishFrom": "2002-12-11T12:19:44.2581233+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 434,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldLength": 117
         }
       }
     },
     {
-      "VisibleId": 434,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldLength": 117
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 266
     }
   }
 }

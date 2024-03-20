@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 342,
+  "UdListDefinitionId": 437,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Kris-Rice",
-  "Tooltip": "vel",
+  "Id": 533,
+  "Name": "O'Hara-Marks",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 662,
-  "Rank": 86,
+  "UdListDefinitionId": 712,
+  "Rank": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 722
     }
   }
 }

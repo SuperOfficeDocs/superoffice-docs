@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Roob-Feeney",
-  "StorageKey": "tenetur",
+  "StorageType": "beatae",
+  "ProviderName": "Swaniawski LLC",
+  "StorageKey": "officiis",
   "Restrictions": [
     {
-      "Name": "Wintheiser LLC",
-      "Operator": "aliquam",
+      "Name": "Fisher-Kub",
+      "Operator": "nesciunt",
       "Values": [
-        "explicabo",
-        "velit"
+        "iusto",
+        "explicabo"
       ],
       "DisplayValues": [
-        "non",
-        "inventore"
+        "enim",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 4,
+      "InterParenthesis": 789,
       "InterOperator": "And",
-      "UniqueHash": 271
+      "UniqueHash": 377
     }
   ],
   "StaticColumns": [
-    "accusantium",
-    "nemo"
+    "necessitatibus",
+    "optio"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Adams LLC",
-      "Operator": "qui",
+      "Name": "Hagenes-McClure",
+      "Operator": "asperiores",
       "Values": [
-        "sed",
-        "quaerat"
+        "ipsa",
+        "hic"
       ],
       "DisplayValues": [
-        "dolores",
-        "atque"
+        "officiis",
+        "enim"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 391,
+      "InterParenthesis": 512,
       "InterOperator": "And",
-      "UniqueHash": 50
+      "UniqueHash": 910
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stiedemann, Lowe and Gusikowski",
-      "DisplayTooltip": "harum",
-      "DisplayType": "blanditiis",
-      "CanOrderBy": false,
-      "Name": "Strosin, Johnston and Crist",
-      "CanRestrictBy": true,
-      "RestrictionType": "quam",
-      "RestrictionListName": "Ruecker Inc and Sons",
+      "DisplayName": "Ziemann-Reinger",
+      "DisplayTooltip": "maxime",
+      "DisplayType": "saepe",
+      "CanOrderBy": true,
+      "Name": "Weissnat Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Huels-Steuber",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "fuga",
-      "IconHint": "itaque",
-      "HeadingIconHint": "at"
+      "ExtraInfo": "doloribus",
+      "Width": "natus",
+      "IconHint": "ipsum",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Parisian-Rutherford",
-      "PrimaryKey": 826,
+      "EntityName": "Gerlach-Sporer",
+      "PrimaryKey": 699,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maxime",
-          "TooltipHint": "quo",
-          "LinkHint": "molestiae"
+          "DisplayValue": "est",
+          "TooltipHint": "facere",
+          "LinkHint": "magnam"
         }
       },
-      "LinkHint": "velit",
-      "StyleHint": "qui",
+      "LinkHint": "porro",
+      "StyleHint": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 57
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Feeney Group",
-      "Description": "Virtual explicit flexibility",
-      "Rank": 634,
+      "Name": "Jacobs, Bogisich and Dach",
+      "Description": "Virtual secondary model",
+      "Rank": 5,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Feeney Group",
-      "Description": "Virtual explicit flexibility",
-      "Rank": 634,
+      "Name": "Jacobs, Bogisich and Dach",
+      "Description": "Virtual secondary model",
+      "Rank": 5,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 535
     }
   }
 }

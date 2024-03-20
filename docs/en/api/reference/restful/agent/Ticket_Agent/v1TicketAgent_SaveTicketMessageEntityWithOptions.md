@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    873,
-    468
+    275,
+    338
   ],
   "UpdateRepliedAt": false
 }
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 478,
+  "EjMessageId": 559,
   "Ticket": null,
-  "CreatedAt": "2007-03-22T14:23:47.7848748+01:00",
+  "CreatedAt": "2020-04-10T12:19:46.5232276+02:00",
   "CreatedBy": null,
-  "Author": "maxime",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 955,
-  "Body": "veniam",
-  "HtmlBody": "sed",
-  "EmailHeader": "savion@hansen.co.uk",
-  "DebugInfo": "perspiciatis",
-  "MailSorter": "qui",
+  "MessageId": "eaque",
+  "TimeSpent": 705,
+  "Body": "et",
+  "HtmlBody": "itaque",
+  "EmailHeader": "oliver.feest@schambergerullrich.us",
+  "DebugInfo": "quaerat",
+  "MailSorter": "fugiat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "harum",
+  "SearchTitle": "molestiae",
   "MessageHeaders": [
     {
-      "Id": 75,
-      "Name": "Hansen, Gerhold and Langosh",
-      "Value": "aliquid",
+      "Id": 924,
+      "Name": "Orn-Mayert",
+      "Value": "at",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sit",
-  "Sentiment": 698,
-  "SentimentConfidence": 383,
+  "Language": "amet",
+  "Sentiment": 728,
+  "SentimentConfidence": 490,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 292,
-      "Name": "Bayer-Gerhold",
-      "ContentType": "tempore",
-      "AttSize": 952,
+      "AttachmentId": 424,
+      "Name": "Connelly-Miller",
+      "ContentType": "placeat",
+      "AttSize": 163,
       "InlineImage": true,
-      "ContentId": "voluptates",
-      "AuthKey": "est",
-      "IsSafeFileExtension": false,
+      "ContentId": "eos",
+      "AuthKey": "quaerat",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 76
+          "FieldLength": 387
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "qui",
+    "CustomFields2": "minus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 736
     }
   }
 }

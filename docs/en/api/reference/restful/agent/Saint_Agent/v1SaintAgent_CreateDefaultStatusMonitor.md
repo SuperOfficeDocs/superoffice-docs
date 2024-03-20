@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 706,
-  "Rank": 292,
-  "DefaultTask": 332,
-  "DefaultTaskText": "eius",
-  "IsVisual": false,
-  "LastGenerated": "2008-06-06T14:23:47.2848818+02:00",
-  "Description": "Balanced fault-tolerant extranet",
-  "Name": "Wiegand Inc and Sons",
-  "StatusMonitorId": 246,
-  "PictureId": 714,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 759,
-  "NumNeedUpdate": 272,
-  "GenerationStart": "2009-08-28T14:23:47.2848818+02:00",
+  "OwnerTable": 857,
+  "Rank": 676,
+  "DefaultTask": 389,
+  "DefaultTaskText": "voluptates",
+  "IsVisual": true,
+  "LastGenerated": "2002-08-07T12:19:46.1483123+02:00",
+  "Description": "Up-sized reciprocal hierarchy",
+  "Name": "Huel, Reichert and Predovic",
+  "StatusMonitorId": 839,
+  "PictureId": 661,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 447,
+  "NumNeedUpdate": 524,
+  "GenerationStart": "2004-01-25T12:19:46.1483123+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldType": "System.String",
+      "FieldLength": 412
     }
   }
 }

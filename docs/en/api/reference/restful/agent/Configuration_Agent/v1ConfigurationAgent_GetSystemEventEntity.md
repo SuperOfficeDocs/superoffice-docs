@@ -26,7 +26,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=673
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=113
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 617,
+  "SystemEventId": 445,
   "Scope": "Database",
-  "Eta": "1997-06-05T14:23:46.0637094+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "laborum",
-  "ExtraInfo": 136,
-  "Owner": 72,
-  "UpdatedCount": 805,
-  "Registered": "2005-11-16T14:23:46.0637094+01:00",
+  "Eta": "2001-12-05T12:19:44.8517429+01:00",
+  "Eventkey": "inventore",
+  "Eventmess": "dignissimos",
+  "ExtraInfo": 455,
+  "Owner": 341,
+  "UpdatedCount": 39,
+  "Registered": "2013-01-17T12:19:44.8517429+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 973
     }
   }
 }

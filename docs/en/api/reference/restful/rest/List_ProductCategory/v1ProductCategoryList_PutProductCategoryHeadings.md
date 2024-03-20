@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 790,
-    "Name": "Rempel-Prosacco",
-    "Tooltip": "quod",
-    "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 713
+    "HeadingId": 430,
+    "Name": "Hilpert Group",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 599,
+    "UdListDefinitionId": 90
   },
   {
-    "HeadingId": 790,
-    "Name": "Rempel-Prosacco",
-    "Tooltip": "quod",
-    "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 713
+    "HeadingId": 430,
+    "Name": "Hilpert Group",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 599,
+    "UdListDefinitionId": 90
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 919,
-    "Name": "Yundt, Parisian and Hirthe",
+    "HeadingId": 954,
+    "Name": "Klein Group",
     "Tooltip": "quasi",
-    "Deleted": false,
-    "Rank": 654,
-    "UdListDefinitionId": 95,
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 407,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldLength": 937
       }
     }
   }

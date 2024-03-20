@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Jul 2018 14:23:55 G7T
+Last-Modified: Thu, 03 Feb 2011 12:19:54 G2T
 
 {
-  "BlobId": 677,
-  "BlobSize": 332,
-  "Description": "Sharable zero defect solution",
-  "ExtraInfo": "quae",
+  "BlobId": 864,
+  "BlobSize": 223,
+  "Description": "Open-architected 24 hour project",
+  "ExtraInfo": "earum",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 385,
-  "CreatedDate": "2019-10-15T14:23:55.8220807+02:00",
-  "UpdatedDate": "2018-07-14T14:23:55.8220807+02:00",
+  "IsZipped": true,
+  "MimeType": "minima",
+  "OriginalSize": 283,
+  "CreatedDate": "2005-05-31T12:19:54.149122+02:00",
+  "UpdatedDate": "2011-02-03T12:19:54.149122+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "maiores",
+  "ConceptualType": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 343
     }
   }
 }

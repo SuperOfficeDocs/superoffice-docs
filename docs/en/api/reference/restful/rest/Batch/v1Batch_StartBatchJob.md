@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Friesen, Medhurst and Orn",
-  "AssociateId": 282,
-  "DetailsTable": 655,
-  "DetailsRecord": 424,
+  "Id": 380,
+  "Name": "Waters-Wilkinson",
+  "AssociateId": 398,
+  "DetailsTable": 43,
+  "DetailsRecord": 377,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "doloribus",
-    "ParameterObject2": "recusandae"
+    "ParameterObject1": "non",
+    "ParameterObject2": "minus"
   },
-  "LastStarted": "2020-06-04T14:23:55.7595795+02:00",
-  "Created": "2018-06-04T14:23:55.7595795+02:00",
-  "StartCount": 474,
-  "DatabaseSerialNumber": "417959",
-  "Context": "rem",
-  "Result": "sint",
+  "LastStarted": "2011-01-10T12:19:54.0866374+01:00",
+  "Created": "1997-05-26T12:19:54.0866374+02:00",
+  "StartCount": 122,
+  "DatabaseSerialNumber": "72440",
+  "Context": "voluptas",
+  "Result": "exercitationem",
   "State": "All",
-  "Description": "Seamless context-sensitive policy",
-  "Response": "perspiciatis",
-  "Request": "architecto",
-  "ProgressDescription": "Exclusive stable moratorium",
-  "ProgressPercent": 201,
-  "FileName": "Jast-Jacobi",
+  "Description": "Adaptive radical interface",
+  "Response": "reprehenderit",
+  "Request": "et",
+  "ProgressDescription": "Ergonomic didactic methodology",
+  "ProgressPercent": 121,
+  "FileName": "Moen, Ernser and Wisozk",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-21
+810
 ```

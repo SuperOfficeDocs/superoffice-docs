@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 850,
-  "Name": "Mraz-Kerluke",
-  "Tooltip": "ea",
+  "HeadingId": 413,
+  "Name": "Glover LLC",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 391,
-  "UdListDefinitionId": 962
+  "Rank": 88,
+  "UdListDefinitionId": 397
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 78,
-  "Name": "Greenfelder LLC",
-  "Tooltip": "ex",
+  "HeadingId": 73,
+  "Name": "Hyatt, Wehner and Boehm",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 155,
-  "UdListDefinitionId": 858,
+  "Rank": 822,
+  "UdListDefinitionId": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldType": "System.String",
+      "FieldLength": 37
     }
   }
 }

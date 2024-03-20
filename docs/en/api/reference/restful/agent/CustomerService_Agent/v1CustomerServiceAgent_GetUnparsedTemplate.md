@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 573,
-  "LanguageId": 468
+  "ReplyTemplateId": 161,
+  "LanguageId": 419
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 618,
-  "PlainParsed": "quis",
-  "HtmlParsed": "sint",
+  "ReplyTemplateId": 180,
+  "PlainParsed": "occaecati",
+  "HtmlParsed": "temporibus",
   "Attachments": [
     {
-      "AttachmentId": 364,
-      "Name": "Konopelski Inc and Sons",
-      "ContentType": "reprehenderit",
-      "AttSize": 382,
+      "AttachmentId": 216,
+      "Name": "Lesch-Bernier",
+      "ContentType": "qui",
+      "AttSize": 392,
       "InlineImage": false,
-      "ContentId": "necessitatibus",
-      "AuthKey": "voluptatum",
-      "IsSafeFileExtension": false,
+      "ContentId": "ullam",
+      "AuthKey": "et",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldType": "System.Int32",
+          "FieldLength": 418
         }
       }
     }
   ],
-  "Subject": "expedita",
+  "Subject": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   }
 }

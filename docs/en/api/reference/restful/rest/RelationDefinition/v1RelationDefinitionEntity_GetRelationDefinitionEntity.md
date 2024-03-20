@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 172,
-  "Name": "Larson-Runolfsdottir",
-  "Tooltip": "debitis",
-  "PassiveText": "voluptas",
+  "ReldefId": 495,
+  "Name": "Kulas Group",
+  "Tooltip": "perspiciatis",
+  "PassiveText": "corporis",
   "Deleted": false,
-  "Rank": 207,
+  "Rank": 60,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 720
     }
   },
   "_Links": {

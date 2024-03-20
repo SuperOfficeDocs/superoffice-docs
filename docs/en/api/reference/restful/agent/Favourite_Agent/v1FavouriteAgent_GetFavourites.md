@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Connell LLC",
-  "AssociateId": 785
+  "TableName": "Schaefer Inc and Sons",
+  "AssociateId": 748
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Okuneva Inc and Sons",
-    "RecordId": 643,
-    "AssociateId": 376,
-    "ExtraInfo": "excepturi",
-    "Rank": 375,
+    "TableName": "Hettinger Group",
+    "RecordId": 156,
+    "AssociateId": 514,
+    "ExtraInfo": "necessitatibus",
+    "Rank": 911,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Conroy-Heathcote",
-    "ToolTip": "Ut fugiat repellat quos sint ut.",
+    "Id": 603,
+    "Name": "Erdman LLC",
+    "ToolTip": "Pariatur delectus architecto laborum quia consequatur.",
     "Deleted": true,
-    "Rank": 153,
-    "Type": "doloremque",
-    "ColorBlock": 908,
-    "IconHint": "possimus",
+    "Rank": 105,
+    "Type": "delectus",
+    "ColorBlock": 263,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "1997-10-17T14:23:56.228325+02:00",
+    "LastChanged": "2011-03-03T12:19:54.7271106+01:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Pollich-Stanton",
-        "ToolTip": "Officiis sit et nulla ipsa placeat et minus.",
-        "Deleted": true,
-        "Rank": 765,
-        "Type": "quibusdam",
-        "ColorBlock": 832,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2004-05-06T14:23:56.228325+02:00",
+        "Id": 983,
+        "Name": "Herzog Group",
+        "ToolTip": "Qui fugiat.",
+        "Deleted": false,
+        "Rank": 207,
+        "Type": "vel",
+        "ColorBlock": 781,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2001-01-15T12:19:54.7271106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ea",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Ms. Bridgette Ruthe Murazik MD",
+        "FullName": "Mrs. Maud Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldLength": 327
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Nicola Gorczany",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Mrs. Kennith Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

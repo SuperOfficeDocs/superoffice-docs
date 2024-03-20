@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Funk-Doyle",
-  "DeviceName": "Beier, Franecki and Jaskolski",
-  "DeviceIdentifier": "dolor"
+  "ApplicationName": "Halvorson-Crona",
+  "DeviceName": "Hayes, Bartoletti and Dibbert",
+  "DeviceIdentifier": "est"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "illum",
-  "RecordId": 324,
-  "CreatedDate": "2015-01-04T14:23:46.7524806+01:00",
-  "UpdatedDate": "2008-11-26T14:23:46.7524806+01:00",
-  "UpdatedBy": "numquam",
-  "CreatedBy": "ipsa",
-  "TableName": "Dicki-Leffler",
+  "Key": "et",
+  "Value": "deleniti",
+  "RecordId": 435,
+  "CreatedDate": "2004-02-29T12:19:45.4141069+01:00",
+  "UpdatedDate": "2017-05-08T12:19:45.4141069+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "a",
+  "TableName": "Quigley, Reilly and Abbott",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

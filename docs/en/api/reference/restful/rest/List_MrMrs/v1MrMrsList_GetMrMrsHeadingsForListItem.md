@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Grady-Heidenreich",
-    "ToolTip": "Magni quaerat dolorem.",
-    "Deleted": false,
-    "Rank": 636,
-    "Type": "non",
-    "ColorBlock": 89,
-    "IconHint": "ad",
+    "Id": 393,
+    "Name": "Kovacek-Ledner",
+    "ToolTip": "Earum rerum.",
+    "Deleted": true,
+    "Rank": 3,
+    "Type": "voluptatem",
+    "ColorBlock": 134,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2012-11-04T14:23:56.1345776+01:00",
+    "LastChanged": "2000-08-21T12:19:54.6334859+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Bruen-Schinner",
-        "ToolTip": "Sapiente aut facere ea.",
-        "Deleted": false,
-        "Rank": 956,
-        "Type": "voluptatem",
-        "ColorBlock": 130,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2003-09-26T14:23:56.1345776+02:00",
+        "Id": 18,
+        "Name": "Legros-Heidenreich",
+        "ToolTip": "Deserunt provident pariatur assumenda vel autem nemo asperiores.",
+        "Deleted": true,
+        "Rank": 732,
+        "Type": "eum",
+        "ColorBlock": 334,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1998-04-10T12:19:54.6334859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Robin McDermott",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Morris Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldType": "System.Int32",
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "qui",
+    "ExtraInfo": "enim",
+    "StyleHint": "rem",
     "Hidden": true,
-    "FullName": "Lenny Hermiston",
+    "FullName": "Mr. Dameon Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 23
       }
     }
   }

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Okuneva Inc and Sons",
+  "Name": "Pfeffer, Morar and Carroll",
   "AssociateIds": [
-    633,
-    330
+    962,
+    124
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Herman Group",
-    "AssociateId": 340,
-    "DetailsTable": 151,
-    "DetailsRecord": 255,
-    "IsSystemTask": true,
+    "Id": 472,
+    "Name": "Sporer Group",
+    "AssociateId": 425,
+    "DetailsTable": 222,
+    "DetailsRecord": 929,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "totam"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2018-08-09T14:23:45.8762101+02:00",
-    "Created": "2015-09-28T14:23:45.8762101+02:00",
-    "StartCount": 903,
-    "DatabaseSerialNumber": "911004",
-    "Context": "quam",
-    "Result": "et",
+    "LastStarted": "2007-06-11T12:19:44.5238763+02:00",
+    "Created": "2021-02-07T12:19:44.5238763+01:00",
+    "StartCount": 552,
+    "DatabaseSerialNumber": "543553",
+    "Context": "vero",
+    "Result": "unde",
     "State": "All",
-    "Description": "Decentralized analyzing standardization",
-    "Response": "beatae",
-    "Request": "deleniti",
-    "ProgressDescription": "Expanded foreground moratorium",
-    "ProgressPercent": 158,
-    "FileName": "Gutkowski, Luettgen and Jacobs",
+    "Description": "Innovative dedicated instruction set",
+    "Response": "est",
+    "Request": "optio",
+    "ProgressDescription": "User-friendly mission-critical orchestration",
+    "ProgressPercent": 515,
+    "FileName": "Wyman-Kassulke",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 42
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

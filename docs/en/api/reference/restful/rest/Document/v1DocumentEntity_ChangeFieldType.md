@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 5,
-  "ColumnId": 414,
-  "FieldDefault": "sint",
-  "FieldHeight": 387,
-  "FieldLabel": "aut",
-  "FieldLeft": 384,
-  "FieldTop": 751,
+  "UDefFieldId": 190,
+  "ColumnId": 242,
+  "FieldDefault": "neque",
+  "FieldHeight": 295,
+  "FieldLabel": "laborum",
+  "FieldLeft": 582,
+  "FieldTop": 262,
   "FieldType": "Checkbox",
-  "FieldWidth": 687,
-  "FormatMask": "quis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 836,
-  "LabelLeft": 204,
-  "LabelTop": 960,
-  "LabelWidth": 927,
-  "LastVersionId": 635,
-  "ListTableId": 80,
-  "IsMandatory": false,
+  "FieldWidth": 318,
+  "FormatMask": "molestiae",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 802,
+  "LabelLeft": 513,
+  "LabelTop": 611,
+  "LabelWidth": 117,
+  "LastVersionId": 333,
+  "ListTableId": 391,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 822,
-  "ProgId": "hic",
-  "IsReadOnly": false,
-  "ShortLabel": "fuga",
-  "TabOrder": 384,
-  "TextLength": 298,
-  "Tooltip": "numquam",
-  "UdefIdentity": 409,
-  "UDListDefinitionId": 742,
+  "Page1LineNo": 735,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 554,
+  "TextLength": 360,
+  "Tooltip": "autem",
+  "UdefIdentity": 232,
+  "UDListDefinitionId": 287,
   "Justification": "Center",
-  "Version": 13,
-  "TemplateVariableName": "Mosciski, Skiles and Kohler",
+  "Version": 896,
+  "TemplateVariableName": "Tremblay Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Corwin, Howe and Stamm",
+  "MdoListName": "Stiedemann-Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=929
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=391
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 931,
-  "ColumnId": 929,
-  "FieldDefault": "impedit",
-  "FieldHeight": 745,
-  "FieldLabel": "ab",
-  "FieldLeft": 89,
-  "FieldTop": 998,
+  "UDefFieldId": 163,
+  "ColumnId": 36,
+  "FieldDefault": "sequi",
+  "FieldHeight": 510,
+  "FieldLabel": "ratione",
+  "FieldLeft": 866,
+  "FieldTop": 937,
   "FieldType": "Checkbox",
-  "FieldWidth": 947,
-  "FormatMask": "rerum",
-  "HideLabel": true,
+  "FieldWidth": 679,
+  "FormatMask": "dolore",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 968,
-  "LabelLeft": 195,
-  "LabelTop": 989,
-  "LabelWidth": 648,
-  "LastVersionId": 271,
-  "ListTableId": 888,
+  "LabelHeight": 45,
+  "LabelLeft": 183,
+  "LabelTop": 361,
+  "LabelWidth": 227,
+  "LastVersionId": 431,
+  "ListTableId": 425,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 167,
-  "ProgId": "quidem",
+  "Page1LineNo": 728,
+  "ProgId": "ex",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 748,
-  "TextLength": 454,
-  "Tooltip": "sunt",
-  "UdefIdentity": 223,
-  "UDListDefinitionId": 508,
+  "ShortLabel": "laudantium",
+  "TabOrder": 183,
+  "TextLength": 247,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 345,
+  "UDListDefinitionId": 77,
   "Justification": "Center",
-  "Version": 84,
-  "TemplateVariableName": "Kohler LLC",
+  "Version": 683,
+  "TemplateVariableName": "Vandervort, Wiza and Reichel",
   "HasBeenPublished": false,
-  "MdoListName": "Swift Group",
+  "MdoListName": "Casper, Kemmer and Brakus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quia
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=harum
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Oct 2002 14:23:55 G10T
+Last-Modified: Sat, 10 Jun 2023 12:19:53 G6T
 
 {
-  "Key": "dolor",
-  "Value": "sunt",
-  "RecordId": 394,
-  "CreatedDate": "2014-11-27T14:23:55.195897+01:00",
-  "UpdatedDate": "2002-10-11T14:23:55.195897+02:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "vitae",
-  "TableName": "Torphy, Dickinson and Armstrong",
+  "Key": "nihil",
+  "Value": "adipisci",
+  "RecordId": 81,
+  "CreatedDate": "1999-12-15T12:19:53.6023745+01:00",
+  "UpdatedDate": "2023-06-10T12:19:53.6023745+02:00",
+  "UpdatedBy": "eaque",
+  "CreatedBy": "non",
+  "TableName": "Kunde Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 66
     }
   }
 }

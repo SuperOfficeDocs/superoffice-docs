@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 157
+  "ErpConnectionId": 515
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nobis",
-  "2": "unde"
+  "1": "atque",
+  "2": "aperiam"
 }
 ```

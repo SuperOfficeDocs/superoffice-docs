@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 728,
-  "WritableUrl": true,
-  "LanguageCode": "et"
+  "DocumentTemplateId": 686,
+  "WritableUrl": false,
+  "LanguageCode": "ut"
 }
 ```
 

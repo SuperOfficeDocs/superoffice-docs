@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Hintz Group",
-    "ToolTip": "Vel illo assumenda voluptates cumque nihil nihil.",
-    "Deleted": false,
-    "Rank": 482,
-    "Type": "sed",
-    "ColorBlock": 319,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2018-12-12T14:23:55.9314526+01:00",
+    "Id": 774,
+    "Name": "Kilback, Pollich and Stamm",
+    "ToolTip": "Quia omnis architecto similique iure repellendus.",
+    "Deleted": true,
+    "Rank": 42,
+    "Type": "impedit",
+    "ColorBlock": 406,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2004-06-12T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Wolff-Waelchi",
-        "ToolTip": "Cumque maiores suscipit expedita voluptas ea a provident.",
+        "Id": 537,
+        "Name": "Ebert, Kovacek and Price",
+        "ToolTip": "Earum sunt qui aut alias.",
         "Deleted": false,
-        "Rank": 759,
-        "Type": "quisquam",
-        "ColorBlock": 759,
-        "IconHint": "et",
+        "Rank": 897,
+        "Type": "quia",
+        "ColorBlock": 386,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2005-09-22T14:23:55.9314526+02:00",
+        "LastChanged": "2007-09-02T12:19:54.2740906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Petra Simonis",
+        "ExtraInfo": "quis",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Delphine Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "cum",
+    "ExtraInfo": "vel",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Hellen Koelpin",
+    "FullName": "Miss Torrance Jakubowski DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 32
       }
     }
   }

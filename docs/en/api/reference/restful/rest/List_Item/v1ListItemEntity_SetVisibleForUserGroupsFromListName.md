@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Schumm Inc and Sons",
-    "ToolTip": "Dolor fugiat et.",
+    "Id": 552,
+    "Name": "Medhurst-Strosin",
+    "ToolTip": "Nisi nisi labore qui.",
     "Deleted": false,
-    "Rank": 730,
-    "Type": "totam",
-    "ColorBlock": 400,
-    "IconHint": "iure",
+    "Rank": 502,
+    "Type": "iure",
+    "ColorBlock": 223,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2019-10-22T14:23:55.9314526+02:00",
+    "LastChanged": "2018-01-07T12:19:54.2740906+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Kohler, Mills and Jaskolski",
-        "ToolTip": "Occaecati sed.",
+        "Id": 198,
+        "Name": "O'Connell-Beatty",
+        "ToolTip": "Est qui odio nisi laborum quos odio ut.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "est",
-        "ColorBlock": 501,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2014-03-06T14:23:55.9314526+01:00",
+        "Rank": 111,
+        "Type": "non",
+        "ColorBlock": 383,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2006-06-03T12:19:54.2740906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Miss Ethel Deon Lockman III"
+        "ExtraInfo": "occaecati",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Jalyn Howe"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Amiya Bruen"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Rafaela Margaretta Stiedemann II"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Luettgen Group",
-    "ToolTip": "Corrupti est sit.",
+    "Id": 660,
+    "Name": "Yundt, Ortiz and Goodwin",
+    "ToolTip": "Laboriosam corrupti enim nemo eius voluptatem voluptatem minima.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "aperiam",
-    "ColorBlock": 548,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "2004-09-23T14:23:55.9470782+02:00",
+    "Rank": 275,
+    "Type": "iste",
+    "ColorBlock": 527,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2023-09-09T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Rutherford-Donnelly",
-        "ToolTip": "Nihil placeat quaerat labore repellat ratione nam.",
+        "Id": 474,
+        "Name": "Watsica-Larkin",
+        "ToolTip": "Fugit neque nobis nam fugiat saepe.",
         "Deleted": false,
-        "Rank": 331,
-        "Type": "impedit",
-        "ColorBlock": 850,
-        "IconHint": "animi",
+        "Rank": 675,
+        "Type": "non",
+        "ColorBlock": 938,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "1997-04-09T14:23:55.9470782+02:00",
+        "LastChanged": "1997-11-14T12:19:54.2740906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "et",
+        "ExtraInfo": "quis",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Ms. Elnora Walton Pacocha I",
+        "FullName": "Keagan Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "est",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Mr. Johathan Dee McLaughlin PhD",
+    "FullName": "Jaylin Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 485
       }
     }
   }

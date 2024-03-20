@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=voluptatum
+GET /api/v1/List/ProductCategory/MDOItems?query=doloribus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Schneider, McClure and Deckow",
-    "ToolTip": "Molestiae nostrum totam illo.",
+    "Id": 596,
+    "Name": "Graham, Kshlerin and Kessler",
+    "ToolTip": "Quaerat aut aliquam et doloribus quo distinctio dolores.",
     "Deleted": false,
-    "Rank": 568,
-    "Type": "et",
+    "Rank": 513,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Kuhn LLC",
-        "ToolTip": "Et cum.",
-        "Deleted": false,
-        "Rank": 767,
-        "Type": "provident",
+        "Id": 413,
+        "Name": "Hintz Group",
+        "ToolTip": "Nobis voluptatem illum quis asperiores qui cupiditate.",
+        "Deleted": true,
+        "Rank": 111,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 352,
-        "ExtraInfo": "ipsam",
-        "StyleHint": "est",
-        "FullName": "Phoebe Miller",
+        "IconHint": "qui",
+        "ColorBlock": 711,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "at",
+        "FullName": "Melisa Schumm I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 117,
-    "ExtraInfo": "odit",
-    "StyleHint": "qui",
-    "FullName": "Javier Hammes",
+    "IconHint": "quis",
+    "ColorBlock": 31,
+    "ExtraInfo": "atque",
+    "StyleHint": "quibusdam",
+    "FullName": "Prof. Lucienne Ewell Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 768
       }
     }
   }

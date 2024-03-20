@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 963,
-  "Name": "Graham-McCullough",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 292,
+  "WebPanelId": 885,
+  "Name": "Morar-Langosh",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 239,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Green-Halvorson",
+  "WindowName": "Cummerata, Greenholt and Schmitt",
   "Url": "http://www.example.com/",
-  "ProgId": "labore",
-  "Icon": 852,
+  "ProgId": "sit",
+  "Icon": 690,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 860,
-  "Name": "DuBuque Group",
-  "Tooltip": "laboriosam",
+  "WebPanelId": 638,
+  "Name": "Bruen-Bahringer",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 186,
+  "Rank": 33,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Cormier, DuBuque and Schiller",
+  "ShowInStatusBar": false,
+  "WindowName": "Cummings, Gorczany and Douglas",
   "Url": "http://www.example.com/",
-  "ProgId": "sint",
-  "Icon": 668,
+  "ProgId": "omnis",
+  "Icon": 715,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

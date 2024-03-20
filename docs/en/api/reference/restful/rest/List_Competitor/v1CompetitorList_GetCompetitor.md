@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Monahan, Von and Daugherty",
-  "Tooltip": "pariatur",
+  "Id": 729,
+  "Name": "Daniel, Kemmer and Johns",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 786,
-  "Rank": 145,
+  "UdListDefinitionId": 274,
+  "Rank": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 470
     }
   }
 }

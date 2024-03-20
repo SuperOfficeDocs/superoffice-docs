@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 257,
-  "CurrentAppointmentId": 910,
-  "SkipCompleteCheck": false
+  "SaleId": 765,
+  "CurrentAppointmentId": 476,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 941,
-  "Deleted": 852,
-  "DaysFuture": 329,
-  "Tooltip": "molestiae",
-  "Text": "et",
-  "TaskId": 317,
-  "SuggestedAppointmentId": 462,
-  "SaleTypeStageLinkId": 456,
-  "RegisteredAssociateId": 254,
-  "Rank": 253,
-  "ProjectTypeStatusLinkId": 51,
-  "Name": "Moen LLC",
-  "Duration": 748,
+  "AutoSuggest": 875,
+  "Deleted": 123,
+  "DaysFuture": 295,
+  "Tooltip": "et",
+  "Text": "dolorem",
+  "TaskId": 37,
+  "SuggestedAppointmentId": 566,
+  "SaleTypeStageLinkId": 327,
+  "RegisteredAssociateId": 937,
+  "Rank": 112,
+  "ProjectTypeStatusLinkId": 824,
+  "Name": "Koch Group",
+  "Duration": 452,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 200
     }
   }
 }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 591,
-  "ContactId": 672,
-  "ProjectId": 673,
-  "ContactName": "Ward LLC",
+  "ProjectmemberId": 964,
+  "ContactId": 419,
+  "ProjectId": 413,
+  "ContactName": "Marvin Group",
   "ContactDepartment": "",
-  "ProjectName": "Murphy-Baumbach",
-  "EmailId": 113,
-  "EmailAddress": "georgiana_beatty@steubergrimes.info",
-  "CountryId": 164,
-  "Firstname": "Dorothea",
-  "MiddleName": "Bergnaum-Ebert",
-  "Lastname": "Marks",
-  "PersonId": 359,
-  "Mrmrs": "vitae",
-  "ProjectMemberTypeName": "Bradtke, Jacobi and Rohan",
-  "Phone": "043-657-9577 x3322",
-  "PhoneId": 723,
-  "ProjectMemberTypeId": 528,
-  "EmailAddressName": "salvatore.pagac@rippinkuhlman.biz",
-  "Comment": "voluptatum",
-  "FullName": "Columbus Kutch",
+  "ProjectName": "Schmeler-Kautzer",
+  "EmailId": 89,
+  "EmailAddress": "mylene@simonis.ca",
+  "CountryId": 954,
+  "Firstname": "Hildegard",
+  "MiddleName": "Feest Inc and Sons",
+  "Lastname": "Swift",
+  "PersonId": 469,
+  "Mrmrs": "ex",
+  "ProjectMemberTypeName": "Renner, Paucek and Lesch",
+  "Phone": "(692)572-4835 x0449",
+  "PhoneId": 8,
+  "ProjectMemberTypeId": 567,
+  "EmailAddressName": "mike@mayer.ca",
+  "Comment": "aliquid",
+  "FullName": "Amy Eulah Armstrong MD",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 874
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   }
 }

@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996
+  "Id": 995
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 601,
-  "Rank": 308,
-  "DefaultTask": 121,
-  "DefaultTaskText": "quis",
-  "IsVisual": false,
-  "LastGenerated": "2022-11-07T14:23:47.3005077+01:00",
-  "Description": "Reduced next generation Graphic Interface",
-  "Name": "Heaney-Eichmann",
-  "StatusMonitorId": 727,
-  "PictureId": 123,
+  "OwnerTable": 651,
+  "Rank": 422,
+  "DefaultTask": 384,
+  "DefaultTaskText": "animi",
+  "IsVisual": true,
+  "LastGenerated": "2013-09-08T12:19:46.1483123+02:00",
+  "Description": "Customizable motivating software",
+  "Name": "Gaylord, Thompson and Marvin",
+  "StatusMonitorId": 993,
+  "PictureId": 738,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 817,
-  "NumNeedUpdate": 84,
-  "GenerationStart": "2000-07-11T14:23:47.3005077+02:00",
+  "NumMatches": 713,
+  "NumNeedUpdate": 239,
+  "GenerationStart": "2009-11-29T12:19:46.1483123+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 433,
-  "Year": 464,
-  "TargetDimensionId": 279
+  "UserGroupId": 107,
+  "Year": 86,
+  "TargetDimensionId": 28
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 127,
+    "TargetAssignmentInfoId": 848,
     "Values": [
-      705,
-      181
+      836,
+      676
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 445,
-    "DimensionListItemDisplayName": "Beahan LLC",
+    "DimensionListItem": 299,
+    "DimensionListItemDisplayName": "Macejkovic, Donnelly and Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 603
       }
     }
   }

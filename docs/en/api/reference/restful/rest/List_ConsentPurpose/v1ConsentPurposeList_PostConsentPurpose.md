@@ -93,18 +93,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 81,
-  "Name": "Bogan-Goyette",
-  "ConsentText": "autem",
-  "FormText": "consequatur",
-  "Key": "at",
-  "Tooltip": "ut",
-  "Active": 669,
-  "UpdatedDate": "2013-12-13T14:23:55.9939519+01:00",
+  "ConsentPurposeId": 193,
+  "Name": "Hickle Group",
+  "ConsentText": "praesentium",
+  "FormText": "sint",
+  "Key": "molestiae",
+  "Tooltip": "suscipit",
+  "Active": 95,
+  "UpdatedDate": "2015-10-15T12:19:54.3365677+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 842,
-  "PrivacyStatementDesc": "esse",
+  "Deleted": true,
+  "Rank": 427,
+  "PrivacyStatementDesc": "soluta",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 723,
-  "Name": "Cormier Group",
-  "ConsentText": "voluptatibus",
-  "FormText": "repellendus",
-  "Key": "doloremque",
-  "Tooltip": "praesentium",
-  "Active": 922,
-  "UpdatedDate": "2022-06-15T14:23:55.9939519+02:00",
+  "ConsentPurposeId": 927,
+  "Name": "Gusikowski-Nolan",
+  "ConsentText": "aut",
+  "FormText": "unde",
+  "Key": "qui",
+  "Tooltip": "sed",
+  "Active": 127,
+  "UpdatedDate": "2010-11-01T12:19:54.3365677+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 457,
-  "PrivacyStatementDesc": "sed",
+  "Deleted": true,
+  "Rank": 85,
+  "PrivacyStatementDesc": "aut",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

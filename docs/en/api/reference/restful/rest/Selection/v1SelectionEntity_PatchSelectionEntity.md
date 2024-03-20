@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "possimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "possimus",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face solution-oriented infrastructure",
-  "Postit": "excepturi",
+  "Description": "Pre-emptive background customer loyalty",
+  "Postit": "optio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 116,
-  "IncludePerson": 835,
-  "MemberCount": 290,
-  "Name": "Steuber, Hilll and Bartell",
-  "PostitTextId": 578,
-  "CreatedDate": "2004-01-23T14:23:55.509584+01:00",
-  "SelectionId": 925,
-  "SoundEx": "eius",
-  "Source": 602,
-  "TextId": 744,
-  "UpdatedDate": "2010-07-20T14:23:55.509584+02:00",
-  "UpdatedCount": 804,
-  "Visibility": 408,
+  "GroupIdx": 214,
+  "IncludePerson": 93,
+  "MemberCount": 51,
+  "Name": "Jaskolski-Collier",
+  "PostitTextId": 898,
+  "CreatedDate": "2003-09-24T12:19:53.9304171+02:00",
+  "SelectionId": 209,
+  "SoundEx": "et",
+  "Source": 894,
+  "TextId": 805,
+  "UpdatedDate": "1998-08-15T12:19:53.9304171+02:00",
+  "UpdatedCount": 887,
+  "Visibility": 772,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 410,
-  "TargetTableName": "Kuhic LLC",
+  "TargetTableNumber": 29,
+  "TargetTableName": "Smitham-Dickens",
   "Completed": false,
-  "LeftSelectionId": 618,
-  "RightSelectionId": 37,
+  "LeftSelectionId": 746,
+  "RightSelectionId": 987,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hills, Prohaska and Bauch",
-  "ShadowProviderName": "Pfeffer Group",
-  "ChartKey": "aut",
-  "LastLoaded": "2019-04-13T14:23:55.509584+02:00",
-  "LastLoadedBy": 126,
+  "MainProviderName": "Abshire-McClure",
+  "ShadowProviderName": "Bins-Beer",
+  "ChartKey": "qui",
+  "LastLoaded": "2013-04-06T12:19:53.9304171+02:00",
+  "LastLoadedBy": 199,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-09-19T14:23:55.509584+02:00",
-  "LastMembershipChangeBy": 918,
+  "LastMembershipChange": "1998-12-26T12:19:53.9304171+01:00",
+  "LastMembershipChangeBy": 820,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Haley, Brown and Ullrich",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "et",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Blick, Kerluke and Mraz",
+  "DashboardTileDefinitionId": 769,
   "VisibleFor": [
     {
-      "VisibleId": 343,
+      "VisibleId": 397,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     },
     {
-      "VisibleId": 343,
+      "VisibleId": 397,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   },
   "_Links": {

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 330,
-  "Name": "Bailey, Hayes and McCullough",
-  "Tooltip": "possimus",
+  "HeadingId": 752,
+  "Name": "Eichmann LLC",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 333,
-  "UdListDefinitionId": 395
+  "Rank": 663,
+  "UdListDefinitionId": 625
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 196,
-  "Name": "Kerluke-McLaughlin",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 653,
-  "UdListDefinitionId": 307,
+  "HeadingId": 219,
+  "Name": "Ruecker, Doyle and Pollich",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 575,
+  "UdListDefinitionId": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldLength": 18
     }
   }
 }

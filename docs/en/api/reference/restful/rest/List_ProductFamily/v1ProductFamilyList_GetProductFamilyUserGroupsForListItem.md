@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Wintheiser, Thiel and Bechtelar",
-    "ToolTip": "Ipsum ut vitae hic quasi dolorum.",
+    "Id": 914,
+    "Name": "Kris-Kling",
+    "ToolTip": "Ipsa aspernatur aut itaque explicabo commodi.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "nihil",
-    "ColorBlock": 976,
-    "IconHint": "at",
+    "Rank": 627,
+    "Type": "est",
+    "ColorBlock": 923,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2020-10-18T14:23:56.2126991+02:00",
+    "LastChanged": "2011-02-09T12:19:54.7114903+01:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Schumm-Veum",
-        "ToolTip": "Tempora deleniti illo doloremque.",
+        "Id": 475,
+        "Name": "Heathcote Inc and Sons",
+        "ToolTip": "Qui labore.",
         "Deleted": false,
-        "Rank": 187,
-        "Type": "soluta",
-        "ColorBlock": 952,
-        "IconHint": "et",
+        "Rank": 145,
+        "Type": "molestiae",
+        "ColorBlock": 464,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2005-06-27T14:23:56.2126991+02:00",
+        "LastChanged": "2023-03-28T12:19:54.7114903+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ea",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Helena Balistreri",
+        "FullName": "Norene Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "inventore",
+    "StyleHint": "incidunt",
     "Hidden": true,
-    "FullName": "Trevor O'Kon",
+    "FullName": "Bonita Tom Weber MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

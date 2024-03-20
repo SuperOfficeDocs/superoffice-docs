@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 959
+  "PersonId": 813
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 5,
-  "InstanceLayout": "id",
-  "InstanceName": "Bernhard, Kulas and Price",
-  "CreatedDate": "2008-11-30T14:23:45.8762101+01:00",
-  "UpdatedDate": "2002-06-20T14:23:45.8762101+02:00",
+  "AudienceLayoutId": 651,
+  "InstanceLayout": "exercitationem",
+  "InstanceName": "Simonis Group",
+  "CreatedDate": "1998-03-12T12:19:44.5080652+01:00",
+  "UpdatedDate": "2006-04-12T12:19:44.5080652+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 963
     }
   }
 }

@@ -91,24 +91,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 161,
-  "Name": "Casper, West and McGlynn",
-  "Rank": 668,
-  "Tooltip": "expedita",
-  "Icon": "quisquam",
-  "DefaultTicketStatus": 843,
+  "TicketTypeId": 730,
+  "Name": "Heaney-Mayer",
+  "Rank": 145,
+  "Tooltip": "numquam",
+  "Icon": "ullam",
+  "DefaultTicketStatus": 427,
   "TicketStatuses": [
-    96,
-    935
+    871,
+    33
   ],
-  "DefaultTicketPriority": 169,
+  "DefaultTicketPriority": 389,
   "TicketPriorities": [
-    792,
-    397
+    300,
+    370
   ],
-  "ReplyTemplate": 813,
-  "IsExternalVisible": true,
-  "IsDefault": true
+  "ReplyTemplate": 13,
+  "IsExternalVisible": false,
+  "IsDefault": false
 }
 ```
 
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 897,
-  "Name": "Morar-Mosciski",
-  "Rank": 345,
-  "Tooltip": "reprehenderit",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 366,
+  "TicketTypeId": 426,
+  "Name": "Hilpert Group",
+  "Rank": 763,
+  "Tooltip": "nihil",
+  "Icon": "repellendus",
+  "DefaultTicketStatus": 533,
   "TicketStatuses": [
-    13,
-    451
+    484,
+    940
   ],
-  "DefaultTicketPriority": 758,
+  "DefaultTicketPriority": 292,
   "TicketPriorities": [
-    38,
-    595
+    541,
+    618
   ],
-  "ReplyTemplate": 40,
+  "ReplyTemplate": 580,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   }
 }

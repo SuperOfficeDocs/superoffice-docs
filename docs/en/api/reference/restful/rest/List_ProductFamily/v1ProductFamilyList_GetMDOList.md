@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=deserunt
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Leffler-Rutherford",
-    "ToolTip": "Atque aut.",
-    "Deleted": false,
-    "Rank": 709,
-    "Type": "aperiam",
+    "Id": 462,
+    "Name": "Krajcik-Goyette",
+    "ToolTip": "Quod similique repellendus consequatur adipisci itaque eos.",
+    "Deleted": true,
+    "Rank": 76,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Harvey Group",
-        "ToolTip": "Quod natus tempore quibusdam perspiciatis.",
-        "Deleted": false,
-        "Rank": 522,
-        "Type": "quo",
+        "Id": 446,
+        "Name": "Leffler Group",
+        "ToolTip": "Nemo est assumenda est voluptatem laudantium quo.",
+        "Deleted": true,
+        "Rank": 436,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 205,
-        "ExtraInfo": "architecto",
-        "StyleHint": "veniam",
-        "FullName": "Dr. Arvilla Mozell Lemke V",
+        "IconHint": "quis",
+        "ColorBlock": 850,
+        "ExtraInfo": "qui",
+        "StyleHint": "soluta",
+        "FullName": "Jared Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 973
+            "FieldType": "System.Int32",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 477,
+    "IconHint": "consequatur",
+    "ColorBlock": 690,
     "ExtraInfo": "ipsa",
-    "StyleHint": "quos",
-    "FullName": "Eloisa Wolff",
+    "StyleHint": "iste",
+    "FullName": "Dandre Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 452
       }
     }
   }

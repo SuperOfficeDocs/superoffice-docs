@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 191,
-  "Name": "Schaden Group",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 810,
-  "UdListDefinitionId": 859
+  "HeadingId": 909,
+  "Name": "Macejkovic-Dibbert",
+  "Tooltip": "nesciunt",
+  "Deleted": false,
+  "Rank": 713,
+  "UdListDefinitionId": 71
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeadingId": 217,
-  "Name": "Emard Inc and Sons",
-  "Tooltip": "officiis",
+  "Name": "Runolfsdottir, Shanahan and Gaylord",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 155,
-  "UdListDefinitionId": 131,
+  "Rank": 30,
+  "UdListDefinitionId": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

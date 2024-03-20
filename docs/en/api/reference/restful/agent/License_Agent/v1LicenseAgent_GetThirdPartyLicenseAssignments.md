@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 469,
-  "ModuleOwner": "repellat"
+  "AssociateId": 541,
+  "ModuleOwner": "amet"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 190,
-    "Tooltip": "temporibus",
-    "CanAssign": true,
-    "Free": 305,
-    "InUse": 996,
-    "IsHidden": false,
+    "Total": 219,
+    "Tooltip": "rerum",
+    "CanAssign": false,
+    "Free": 150,
+    "InUse": 738,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 503,
-    "Name": "Denesik, Roberts and Pouros",
-    "Description": "Stand-alone static capacity",
-    "PrerequisiteModuleName": "Sanford-Steuber",
-    "SortOrder": 186,
-    "ExtraFlags": 187,
+    "ModuleLicenseId": 937,
+    "Name": "Homenick, Grimes and Haag",
+    "Description": "Profit-focused full-range core",
+    "PrerequisiteModuleName": "Cole, Greenfelder and Bode",
+    "SortOrder": 161,
+    "ExtraFlags": 144,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 54
       }
     }
   }

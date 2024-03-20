@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vitae",
-  "ProviderName": "Stehr LLC",
-  "StorageKey": "nobis",
+  "StorageType": "neque",
+  "ProviderName": "Bode, Strosin and Homenick",
+  "StorageKey": "officiis",
   "DesiredColumnNames": [
-    "Stokes, Schneider and Wolf",
-    "Kovacek-Parker"
+    "Wilkinson Inc and Sons",
+    "Olson LLC"
   ],
   "StaticColumns": [
-    "adipisci",
-    "voluptatem"
+    "sit",
+    "et"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kunze-Wilderman",
-      "Operator": "facilis",
+      "Name": "Reinger Group",
+      "Operator": "vel",
       "Values": [
-        "molestias",
-        "ut"
+        "laudantium",
+        "quam"
       ],
       "DisplayValues": [
-        "delectus",
-        "qui"
+        "iste",
+        "quasi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 470,
+      "InterParenthesis": 695,
       "InterOperator": "And",
-      "UniqueHash": 498
+      "UniqueHash": 962
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schumm Group",
-      "DisplayTooltip": "sit",
-      "DisplayType": "quia",
-      "CanOrderBy": false,
-      "Name": "Roob Inc and Sons",
-      "CanRestrictBy": true,
+      "DisplayName": "Christiansen-Kutch",
+      "DisplayTooltip": "fuga",
+      "DisplayType": "repudiandae",
+      "CanOrderBy": true,
+      "Name": "Boyle Group",
+      "CanRestrictBy": false,
       "RestrictionType": "ut",
-      "RestrictionListName": "Jaskolski, Kub and Hudson",
-      "IsVisible": true,
-      "ExtraInfo": "in",
-      "Width": "optio",
-      "IconHint": "expedita",
-      "HeadingIconHint": "aperiam"
+      "RestrictionListName": "Kuhn LLC",
+      "IsVisible": false,
+      "ExtraInfo": "sunt",
+      "Width": "magni",
+      "IconHint": "impedit",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pfeffer Inc and Sons",
-      "PrimaryKey": 517,
+      "EntityName": "Kautzer LLC",
+      "PrimaryKey": 228,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quis",
-          "TooltipHint": "libero",
-          "LinkHint": "non"
+          "DisplayValue": "tempora",
+          "TooltipHint": "laborum",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "dolorum",
+      "LinkHint": "unde",
+      "StyleHint": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mayert-Yost",
-      "Description": "Profit-focused mobile extranet",
-      "Rank": 919,
+      "Name": "Lockman Inc and Sons",
+      "Description": "Upgradable tertiary approach",
+      "Rank": 896,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mayert-Yost",
-      "Description": "Profit-focused mobile extranet",
-      "Rank": 919,
+      "Name": "Lockman Inc and Sons",
+      "Description": "Upgradable tertiary approach",
+      "Rank": 896,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 835
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Bogisich-Schinner",
-    "AssociateId": 335,
-    "DetailsTable": 20,
-    "DetailsRecord": 256,
+    "Id": 775,
+    "Name": "Will Inc and Sons",
+    "AssociateId": 944,
+    "DetailsTable": 649,
+    "DetailsRecord": 876,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "commodi",
-      "ParameterObject2": "pariatur"
+      "ParameterObject1": "quos",
+      "ParameterObject2": "dolor"
     },
-    "LastStarted": "1999-07-29T14:23:55.7595795+02:00",
-    "Created": "2000-11-08T14:23:55.7595795+01:00",
-    "StartCount": 316,
-    "DatabaseSerialNumber": "1313332",
-    "Context": "nesciunt",
-    "Result": "est",
+    "LastStarted": "2001-01-11T12:19:54.0866374+01:00",
+    "Created": "2010-03-07T12:19:54.0866374+01:00",
+    "StartCount": 649,
+    "DatabaseSerialNumber": "1138053",
+    "Context": "vero",
+    "Result": "quaerat",
     "State": "All",
-    "Description": "Vision-oriented dynamic neural-net",
-    "Response": "dolorem",
-    "Request": "perferendis",
-    "ProgressDescription": "Right-sized bandwidth-monitored adapter",
-    "ProgressPercent": 21,
-    "FileName": "Balistreri-Beer",
+    "Description": "Profit-focused 3rd generation definition",
+    "Response": "voluptate",
+    "Request": "corporis",
+    "ProgressDescription": "De-engineered local analyzer",
+    "ProgressPercent": 564,
+    "FileName": "Hintz Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldLength": 965
       }
     }
   }

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 198,
-  "ConnectorName": "Jewess-Jaskolski"
+  "ConnectionId": 260,
+  "ConnectorName": "Johnson Group"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "voluptas",
-    "Rank": 763,
-    "DisplayName": "Aufderhar Group",
-    "DisplayDescription": "Streamlined homogeneous attitude",
+    "FieldKey": "sequi",
+    "Rank": 470,
+    "DisplayName": "Huels-Lubowitz",
+    "DisplayDescription": "Visionary mobile parallelism",
     "FieldType": "Checkbox",
-    "ListName": "Pouros Group",
-    "DefaultValue": "fugiat",
-    "MaxLength": 766,
+    "ListName": "Keebler-Halvorson",
+    "DefaultValue": "rerum",
+    "MaxLength": 727,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldLength": 314
       }
     }
   }

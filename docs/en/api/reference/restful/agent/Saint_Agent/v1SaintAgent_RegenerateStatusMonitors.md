@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Schroeder, Daugherty and Sawayn",
-  "AssociateId": 596,
-  "DetailsTable": 840,
-  "DetailsRecord": 173,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 450,
+  "Name": "Hane, Dach and Schowalter",
+  "AssociateId": 334,
+  "DetailsTable": 191,
+  "DetailsRecord": 855,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ut",
-    "ParameterObject2": "omnis"
+    "ParameterObject1": "et",
+    "ParameterObject2": "harum"
   },
-  "LastStarted": "2004-11-04T14:23:47.3005077+01:00",
-  "Created": "2005-05-06T14:23:47.3005077+02:00",
-  "StartCount": 124,
-  "DatabaseSerialNumber": "551698",
-  "Context": "illum",
-  "Result": "non",
+  "LastStarted": "2022-03-04T12:19:46.1483123+01:00",
+  "Created": "2019-03-11T12:19:46.1483123+01:00",
+  "StartCount": 861,
+  "DatabaseSerialNumber": "411912",
+  "Context": "perspiciatis",
+  "Result": "accusamus",
   "State": "All",
-  "Description": "Compatible secondary database",
-  "Response": "quis",
-  "Request": "magni",
-  "ProgressDescription": "Integrated local task-force",
-  "ProgressPercent": 628,
-  "FileName": "Cronin, Krajcik and Gibson",
+  "Description": "Exclusive secondary superstructure",
+  "Response": "qui",
+  "Request": "dolor",
+  "ProgressDescription": "Organized background budgetary management",
+  "ProgressPercent": 56,
+  "FileName": "Doyle Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 217
     }
   }
 }

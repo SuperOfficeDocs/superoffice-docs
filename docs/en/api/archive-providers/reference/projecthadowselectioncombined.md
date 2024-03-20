@@ -536,11 +536,12 @@ Implementation of the provider for the combined selection
 |projectMember/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|projectMember/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |projectMember/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -640,11 +641,11 @@ Implementation of the provider for the combined selection
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
-|projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |projectMember/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |projectMember/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |projectMember/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
@@ -731,6 +732,7 @@ Implementation of the provider for the combined selection
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -743,12 +745,12 @@ Implementation of the provider for the combined selection
 |projectMember/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |projectMember/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |projectMember/LastSale|date|Date of last sale|  |
-|projectMember/LastCompletedSale|date|Date of last completed sale|  |
-|projectMember/LastDoBySale|date|Date of last non-completed sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/LastCompletedSale|date|Date of last completed sale|  |
+|projectMember/LastDoBySale|date|Date of last non-completed sale|  |
 |projectMember/NumberOfTickets|int|Number of requests|  |
 |projectMember/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |projectMember/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
@@ -778,7 +780,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectAssociate/simultaneousEjUser,sale/registeredDate,projectMember/streetAddress/wgs84longitude,projectMember/contactExtra/x_contact_shorttext
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectEvent/eventDate,saintAmountClass,projectMember/personExtra/x_person_integer,projectMember/correspondingAssociate/lastName,projectMember/contactPhone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Armstrong LLC",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "UdListDefinitionId": 21,
-  "Rank": 309,
+  "Id": 43,
+  "Name": "Hintz-Kirlin",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "UdListDefinitionId": 501,
+  "Rank": 884,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 482
     }
   }
 }

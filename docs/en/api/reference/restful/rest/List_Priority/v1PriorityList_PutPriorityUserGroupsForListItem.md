@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Willms-Lynch",
-    "ToolTip": "Aut incidunt.",
+    "Id": 421,
+    "Name": "Kessler Group",
+    "ToolTip": "Et et perferendis veniam.",
     "Deleted": true,
-    "Rank": 433,
-    "Type": "aliquid",
-    "ColorBlock": 47,
-    "IconHint": "qui",
+    "Rank": 151,
+    "Type": "non",
+    "ColorBlock": 932,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2014-10-29T14:23:56.1814517+01:00",
+    "LastChanged": "2014-08-22T12:19:54.6802476+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Leannon LLC",
-        "ToolTip": "Eligendi pariatur.",
+        "Id": 77,
+        "Name": "Goyette-Hoeger",
+        "ToolTip": "Recusandae maxime odit velit molestiae molestiae.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "iste",
-        "ColorBlock": 886,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2023-06-14T14:23:56.1814517+02:00",
+        "Rank": 30,
+        "Type": "praesentium",
+        "ColorBlock": 777,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2019-06-14T12:19:54.6802476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "ut",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Werner Herman"
+        "FullName": "Amos Murray I"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Elijah Okuneva"
+    "ExtraInfo": "ab",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Kirsten Dedric Gibson II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Kuhn LLC",
-    "ToolTip": "Quis qui minima nostrum accusantium ullam officiis aut.",
-    "Deleted": false,
-    "Rank": 255,
-    "Type": "adipisci",
-    "ColorBlock": 950,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2023-06-17T14:23:56.1814517+02:00",
+    "Id": 453,
+    "Name": "Davis, Ziemann and Senger",
+    "ToolTip": "Aliquam nesciunt mollitia laudantium.",
+    "Deleted": true,
+    "Rank": 285,
+    "Type": "a",
+    "ColorBlock": 423,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2019-02-13T12:19:54.6802476+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Torp Group",
-        "ToolTip": "Aliquid pariatur fugiat quas atque.",
-        "Deleted": true,
-        "Rank": 688,
-        "Type": "vel",
-        "ColorBlock": 713,
-        "IconHint": "voluptas",
+        "Id": 634,
+        "Name": "Osinski, Bode and Mayert",
+        "ToolTip": "Ut et ab ut dolore sunt tenetur dignissimos.",
+        "Deleted": false,
+        "Rank": 543,
+        "Type": "beatae",
+        "ColorBlock": 438,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2006-09-27T14:23:56.1814517+02:00",
+        "LastChanged": "2021-03-17T12:19:54.6802476+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "ad",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Ms. Cyrus Kiehn",
+        "FullName": "Eda Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 224
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Sedrick Daphnee Bayer Jr.",
+    "ExtraInfo": "ut",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Dawson Mafalda Kihn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 499
       }
     }
   }

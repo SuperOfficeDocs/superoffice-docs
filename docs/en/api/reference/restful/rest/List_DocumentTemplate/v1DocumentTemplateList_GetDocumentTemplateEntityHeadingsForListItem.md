@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Torphy Group",
-    "ToolTip": "Ea doloremque pariatur sit qui quis.",
-    "Deleted": false,
-    "Rank": 103,
-    "Type": "nam",
-    "ColorBlock": 433,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2002-06-13T14:23:56.1033275+02:00",
+    "Id": 997,
+    "Name": "Bogisich-Reilly",
+    "ToolTip": "Dolores voluptate eaque nemo.",
+    "Deleted": true,
+    "Rank": 12,
+    "Type": "inventore",
+    "ColorBlock": 141,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "1998-02-08T12:19:54.4459158+01:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Gusikowski, Kozey and Larson",
-        "ToolTip": "Ad qui ut aut nihil.",
+        "Id": 965,
+        "Name": "Senger-Runte",
+        "ToolTip": "Consequatur aut cum sunt.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "quia",
-        "ColorBlock": 386,
-        "IconHint": "eveniet",
+        "Rank": 149,
+        "Type": "qui",
+        "ColorBlock": 493,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2005-05-17T14:23:56.1033275+02:00",
+        "LastChanged": "2006-12-25T12:19:54.4459158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "est",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Stacy Lang",
+        "FullName": "Kylie Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldType": "System.String",
+            "FieldLength": 399
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "delectus",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Prof. Jamaal Sonia Boehm I",
+    "FullName": "Mrs. Mariana Sigrid Lueilwitz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldLength": 597
       }
     }
   }

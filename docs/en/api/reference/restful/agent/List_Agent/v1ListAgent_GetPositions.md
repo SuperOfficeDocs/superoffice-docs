@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Value": "aspernatur",
-    "Tooltip": "nisi",
+    "Id": 722,
+    "Value": "omnis",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 526
       }
     }
   },
   {
-    "Id": 474,
-    "Value": "aspernatur",
-    "Tooltip": "nisi",
+    "Id": 722,
+    "Value": "omnis",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 526
       }
     }
   }

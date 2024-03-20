@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 327,
-  "Name": "Gutkowski Group",
-  "ContentType": "dolorem",
-  "AttSize": 681,
+  "AttachmentId": 347,
+  "Name": "Hudson-McGlynn",
+  "ContentType": "voluptate",
+  "AttSize": 125,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "occaecati",
+  "ContentId": "blanditiis",
+  "AuthKey": "fugiat",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldLength": 969
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

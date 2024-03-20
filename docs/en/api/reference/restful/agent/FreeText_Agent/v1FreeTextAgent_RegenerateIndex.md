@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Heathcote-Schmitt",
-  "AssociateId": 510,
-  "DetailsTable": 13,
-  "DetailsRecord": 602,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 396,
+  "Name": "Stehr LLC",
+  "AssociateId": 760,
+  "DetailsTable": 691,
+  "DetailsRecord": 259,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "magnam",
-    "ParameterObject2": "at"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "ad"
   },
-  "LastStarted": "2009-08-06T14:23:46.7681044+02:00",
-  "Created": "2000-05-13T14:23:46.7681044+02:00",
-  "StartCount": 179,
-  "DatabaseSerialNumber": "796056",
-  "Context": "rerum",
-  "Result": "veritatis",
+  "LastStarted": "2002-04-12T12:19:45.4297292+02:00",
+  "Created": "2002-07-12T12:19:45.4297292+02:00",
+  "StartCount": 119,
+  "DatabaseSerialNumber": "498916",
+  "Context": "quos",
+  "Result": "et",
   "State": "All",
-  "Description": "Right-sized optimizing knowledge base",
-  "Response": "quae",
-  "Request": "architecto",
-  "ProgressDescription": "Cross-platform multimedia synergy",
-  "ProgressPercent": 459,
-  "FileName": "Beatty Group",
+  "Description": "Front-line web-enabled migration",
+  "Response": "dolores",
+  "Request": "nam",
+  "ProgressDescription": "Universal object-oriented website",
+  "ProgressPercent": 228,
+  "FileName": "Rolfson, Casper and Flatley",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 541
     }
   }
 }

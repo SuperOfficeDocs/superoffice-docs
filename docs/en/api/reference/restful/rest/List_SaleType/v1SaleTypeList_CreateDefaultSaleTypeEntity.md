@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 312,
-  "Name": "Donnelly-Gulgowski",
-  "Tooltip": "ipsam",
-  "Rank": 107,
+  "SaleTypeId": 254,
+  "Name": "Jones LLC",
+  "Tooltip": "debitis",
+  "Rank": 708,
   "DurationUnit": "Century",
-  "SaleDuration": 853,
-  "SaleTypeCatId": 89,
-  "Deleted": true,
+  "SaleDuration": 794,
+  "SaleTypeCatId": 657,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 75,
-  "QuoteLinesTemplate": 228,
-  "ConfirmationLinesTemplate": 357,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 408,
+  "QuoteLinesTemplate": 549,
+  "ConfirmationLinesTemplate": 262,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 116,
-  "MinEarningPercent": 829,
-  "GroupQuoteLinesBy": 612,
-  "SortGroupLinesBy": 715,
+  "MaxDiscountPercent": 826,
+  "MinEarningPercent": 128,
+  "GroupQuoteLinesBy": 834,
+  "SortGroupLinesBy": 95,
   "Stages": [
     {
-      "Id": 55,
-      "Name": "Trantow-Barrows",
-      "ToolTip": "Iste amet.",
+      "Id": 412,
+      "Name": "Hoppe Group",
+      "ToolTip": "Sunt ducimus amet quia.",
       "Deleted": false,
-      "Rank": 767,
-      "Type": "odit",
-      "ColorBlock": 588,
-      "IconHint": "consequatur",
+      "Rank": 6,
+      "Type": "necessitatibus",
+      "ColorBlock": 955,
+      "IconHint": "minima",
       "Selected": false,
-      "LastChanged": "1997-09-06T14:23:56.3376983+02:00",
+      "LastChanged": "2008-11-30T12:19:54.8364594+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "similique",
-      "StyleHint": "iure",
-      "Hidden": true,
-      "FullName": "Hilton Emmerich",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "velit",
+      "Hidden": false,
+      "FullName": "Ms. Garnet Grant Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 896
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 219
     }
   }
 }

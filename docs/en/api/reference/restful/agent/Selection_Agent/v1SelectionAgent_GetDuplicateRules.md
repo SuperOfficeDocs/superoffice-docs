@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Keefe-Glover",
-    "DisplayName": "Dooley-Crist",
-    "DisplayTooltip": "vitae",
-    "IsActive": false,
+    "Name": "Spinka, Rath and Gislason",
+    "DisplayName": "Towne-Goodwin",
+    "DisplayTooltip": "reprehenderit",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   },
   {
-    "Name": "O'Keefe-Glover",
-    "DisplayName": "Dooley-Crist",
-    "DisplayTooltip": "vitae",
-    "IsActive": false,
+    "Name": "Spinka, Rath and Gislason",
+    "DisplayName": "Towne-Goodwin",
+    "DisplayTooltip": "reprehenderit",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

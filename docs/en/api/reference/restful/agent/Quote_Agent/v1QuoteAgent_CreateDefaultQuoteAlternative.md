@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 676,
-  "ERPQuoteAlternativeKey": "exercitationem",
-  "QuoteVersionId": 557,
-  "Name": "Rice Group",
-  "Description": "Secured attitude-oriented ability",
+  "QuoteAlternativeId": 971,
+  "ERPQuoteAlternativeKey": "ea",
+  "QuoteVersionId": 169,
+  "Name": "Rosenbaum Inc and Sons",
+  "Description": "Focused motivating time-frame",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13303.83,
-  "ERPDiscountAmount": 29121.128,
-  "DiscountPercent": 12184.992,
-  "DiscountAmount": 3792.14,
+  "ERPDiscountPercent": 25764.613999999998,
+  "ERPDiscountAmount": 18054.974,
+  "DiscountPercent": 11307.472,
+  "DiscountAmount": 7223.87,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 22762.242,
-  "EarningPercent": 8433.594,
-  "EarningAmount": 23389.041999999998,
-  "SubTotal": 16143.234,
-  "TotalPrice": 17017.62,
-  "ExtraField1": "quaerat",
-  "ExtraField2": "itaque",
-  "ExtraField3": "sit",
-  "ExtraField4": "libero",
-  "ExtraField5": "sint",
+  "VATInfo": "rerum",
+  "VAT": 24025.244,
+  "EarningPercent": 15980.266,
+  "EarningAmount": 5384.2119999999995,
+  "SubTotal": 20559.04,
+  "TotalPrice": 14726.666,
+  "ExtraField1": "nobis",
+  "ExtraField2": "qui",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "similique",
+  "ExtraField5": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 883
     }
   }
 }

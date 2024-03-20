@@ -115,30 +115,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Marvin Group",
-  "AssociateId": 319,
-  "DetailsTable": 786,
-  "DetailsRecord": 680,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 93,
+  "Name": "O'Connell-Bernhard",
+  "AssociateId": 720,
+  "DetailsTable": 877,
+  "DetailsRecord": 692,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quia",
-    "ParameterObject2": "beatae"
+    "ParameterObject1": "iste",
+    "ParameterObject2": "sed"
   },
-  "LastStarted": "2004-10-06T14:23:55.7595795+02:00",
-  "Created": "2000-07-21T14:23:55.7595795+02:00",
-  "StartCount": 545,
-  "DatabaseSerialNumber": "1556755",
-  "Context": "alias",
-  "Result": "eos",
+  "LastStarted": "2013-09-30T12:19:54.0866374+02:00",
+  "Created": "2000-06-07T12:19:54.0866374+02:00",
+  "StartCount": 455,
+  "DatabaseSerialNumber": "496256",
+  "Context": "numquam",
+  "Result": "ullam",
   "State": "All",
-  "Description": "Future-proofed national firmware",
-  "Response": "totam",
-  "Request": "aut",
-  "ProgressDescription": "Monitored stable superstructure",
-  "ProgressPercent": 273,
-  "FileName": "Hane Group",
+  "Description": "Balanced real-time throughput",
+  "Response": "eum",
+  "Request": "dolorem",
+  "ProgressDescription": "Front-line leading edge product",
+  "ProgressPercent": 395,
+  "FileName": "Homenick LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Kutch LLC",
-  "AssociateId": 664,
-  "DetailsTable": 83,
-  "DetailsRecord": 853,
-  "IsSystemTask": false,
+  "Id": 968,
+  "Name": "Strosin, Romaguera and Fadel",
+  "AssociateId": 11,
+  "DetailsTable": 438,
+  "DetailsRecord": 60,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vitae",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "molestiae",
+    "ParameterObject2": "fuga"
   },
-  "LastStarted": "2015-07-22T14:23:55.7595795+02:00",
-  "Created": "2019-10-11T14:23:55.7595795+02:00",
-  "StartCount": 82,
-  "DatabaseSerialNumber": "1464451",
-  "Context": "eos",
-  "Result": "soluta",
+  "LastStarted": "2013-02-03T12:19:54.0866374+01:00",
+  "Created": "2007-11-08T12:19:54.0866374+01:00",
+  "StartCount": 38,
+  "DatabaseSerialNumber": "816657",
+  "Context": "quidem",
+  "Result": "non",
   "State": "All",
-  "Description": "Reduced secondary conglomeration",
-  "Response": "provident",
-  "Request": "dignissimos",
-  "ProgressDescription": "Team-oriented real-time groupware",
-  "ProgressPercent": 131,
-  "FileName": "Hilpert, Cormier and Kautzer",
+  "Description": "Multi-lateral contextually-based access",
+  "Response": "dolor",
+  "Request": "eveniet",
+  "ProgressDescription": "Grass-roots analyzing system engine",
+  "ProgressPercent": 698,
+  "FileName": "Legros-Glover",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   }
 }

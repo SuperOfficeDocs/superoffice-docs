@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 918
+  "RoleId": 438
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Corwin-Corkery",
-    "ToolTip": "Omnis dolor velit ipsa molestiae fuga mollitia.",
+    "Id": 797,
+    "Name": "Gulgowski LLC",
+    "ToolTip": "Quae laudantium est eveniet.",
     "Deleted": true,
-    "Rank": 453,
-    "Type": "mollitia",
-    "ColorBlock": 428,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2015-08-02T14:23:47.8473753+02:00",
+    "Rank": 939,
+    "Type": "fuga",
+    "ColorBlock": 97,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2000-11-17T12:19:46.5857106+01:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Waelchi Inc and Sons",
-        "ToolTip": "Ea laborum sunt est et dolor accusantium.",
+        "Id": 478,
+        "Name": "Bechtelar, Beier and Grady",
+        "ToolTip": "Sunt magni.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "magni",
-        "ColorBlock": 941,
-        "IconHint": "accusantium",
+        "Rank": 761,
+        "Type": "eius",
+        "ColorBlock": 275,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2018-10-26T14:23:47.8473753+02:00",
+        "LastChanged": "2005-09-27T12:19:46.5857106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Miss Cornell Feil I",
+        "FullName": "Edna Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 408
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quis",
+    "ExtraInfo": "laborum",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Jermey Lakin",
+    "FullName": "Mrs. Kendrick Travis Gorczany I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 676
       }
     }
   }

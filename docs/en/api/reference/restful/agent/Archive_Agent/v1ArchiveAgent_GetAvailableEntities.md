@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Luettgen LLC",
-  "Context": "alias"
+  "ProviderName": "Muller-Oberbrunner",
+  "Context": "et"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Gutmann, Tillman and Lang",
-    "ToolTip": "Quas ad quibusdam deserunt.",
+    "Id": 917,
+    "Name": "Ebert, Krajcik and Sipes",
+    "ToolTip": "Et ipsa.",
     "Deleted": false,
-    "Rank": 863,
-    "Type": "voluptas",
+    "Rank": 540,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Luettgen, Purdy and Gerhold",
-        "ToolTip": "Repellendus ut et ad ipsa eius consequatur.",
-        "Deleted": false,
-        "Rank": 793,
-        "Type": "facilis",
+        "Id": 652,
+        "Name": "Jenkins Inc and Sons",
+        "ToolTip": "Aut distinctio.",
+        "Deleted": true,
+        "Rank": 992,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 30,
-        "ExtraInfo": "minus",
-        "StyleHint": "repudiandae",
-        "FullName": "Griffin Shanna Pfeffer III",
+        "IconHint": "dolor",
+        "ColorBlock": 333,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "deserunt",
+        "FullName": "Miss Jean Tremblay I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldType": "System.String",
+            "FieldLength": 946
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 682,
-    "ExtraInfo": "facilis",
-    "StyleHint": "amet",
-    "FullName": "Dave Sanford",
+    "IconHint": "magni",
+    "ColorBlock": 400,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "sunt",
+    "FullName": "Miss Lee Ferry PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 902
       }
     }
   }

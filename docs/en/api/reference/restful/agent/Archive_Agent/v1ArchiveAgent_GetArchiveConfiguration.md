@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hoeger-Graham",
-  "ProviderName": "Gulgowski-Wilderman"
+  "GuiName": "Carter, Conroy and Dibbert",
+  "ProviderName": "Anderson Group"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Schamberger, Kihn and Nitzsche",
-      "DisplayTooltip": "est",
-      "DisplayType": "ut",
-      "CanOrderBy": false,
-      "Name": "Champlin, Miller and Reichert",
-      "CanRestrictBy": true,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Sauer, Langworth and Prohaska",
+      "DisplayName": "Schowalter LLC",
+      "DisplayTooltip": "optio",
+      "DisplayType": "labore",
+      "CanOrderBy": true,
+      "Name": "Nicolas-Mann",
+      "CanRestrictBy": false,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Macejkovic, Blanda and Mayer",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "eaque",
-      "IconHint": "eum",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "fugit",
+      "Width": "quos",
+      "IconHint": "expedita",
+      "HeadingIconHint": "non"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 807,
-      "Name": "Rempel-Rogahn",
-      "ToolTip": "Voluptas vero vel ab nulla odit vitae.",
+      "Id": 701,
+      "Name": "Vandervort-Hayes",
+      "ToolTip": "Occaecati dolores reprehenderit libero quam ratione a provident.",
       "Deleted": true,
-      "Rank": 306,
-      "Type": "cupiditate",
-      "ColorBlock": 735,
-      "IconHint": "eum",
+      "Rank": 485,
+      "Type": "et",
+      "ColorBlock": 362,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2016-07-18T14:23:45.8293368+02:00",
+      "LastChanged": "2016-07-16T12:19:44.4611915+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "numquam",
-      "StyleHint": "blanditiis",
+      "ExtraInfo": "consectetur",
+      "StyleHint": "enim",
       "Hidden": true,
-      "FullName": "Kadin Bogisich",
+      "FullName": "Samir Okey Barrows III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 626
+          "FieldLength": 153
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Senger-Weber",
+      "Name": "Collier Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Senger-Weber",
+      "Name": "Collier Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sed",
+  "OwnerKeys": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   }
 }

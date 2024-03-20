@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 669,
-  "ColumnId": 154,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 692,
-  "FieldLabel": "et",
-  "FieldLeft": 284,
-  "FieldTop": 794,
+  "UDefFieldId": 971,
+  "ColumnId": 1001,
+  "FieldDefault": "rerum",
+  "FieldHeight": 674,
+  "FieldLabel": "minima",
+  "FieldLeft": 254,
+  "FieldTop": 382,
   "FieldType": "Checkbox",
-  "FieldWidth": 846,
-  "FormatMask": "est",
+  "FieldWidth": 256,
+  "FormatMask": "aut",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 879,
-  "LabelLeft": 895,
-  "LabelTop": 216,
-  "LabelWidth": 24,
-  "LastVersionId": 5,
-  "ListTableId": 159,
-  "IsMandatory": false,
+  "LabelHeight": 521,
+  "LabelLeft": 501,
+  "LabelTop": 682,
+  "LabelWidth": 873,
+  "LastVersionId": 527,
+  "ListTableId": 637,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 462,
-  "ProgId": "aut",
+  "Page1LineNo": 131,
+  "ProgId": "id",
   "IsReadOnly": false,
-  "ShortLabel": "recusandae",
-  "TabOrder": 615,
-  "TextLength": 285,
-  "Tooltip": "rerum",
-  "UdefIdentity": 555,
-  "UDListDefinitionId": 567,
+  "ShortLabel": "vero",
+  "TabOrder": 455,
+  "TextLength": 687,
+  "Tooltip": "harum",
+  "UdefIdentity": 14,
+  "UDListDefinitionId": 976,
   "Justification": "Center",
-  "Version": 474,
-  "TemplateVariableName": "Prosacco, Cartwright and Gislason",
+  "Version": 432,
+  "TemplateVariableName": "Maggio Group",
   "HasBeenPublished": false,
-  "MdoListName": "Collier, Bogisich and Hodkiewicz",
+  "MdoListName": "Hansen Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 816
     }
   }
 }

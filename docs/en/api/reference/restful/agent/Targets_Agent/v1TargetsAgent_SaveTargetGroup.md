@@ -77,24 +77,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 169,
-  "Year": 198,
+  "TargetGroupId": 847,
+  "Year": 245,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 517,
+      "TargetAssignmentInfoId": 582,
       "Values": [
-        633,
-        419
+        873,
+        274
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 253,
-      "DimensionListItemDisplayName": "Auer Group"
+      "DimensionListItem": 721,
+      "DimensionListItemDisplayName": "Howe-Bosco"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 273,
-  "Year": 265,
+  "TargetGroupId": 35,
+  "Year": 102,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 543,
+      "TargetAssignmentInfoId": 156,
       "Values": [
-        876,
-        930
+        144,
+        124
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 661,
-      "DimensionListItemDisplayName": "Conroy Group",
+      "DimensionListItem": 409,
+      "DimensionListItemDisplayName": "Sawayn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 552
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 99
     }
   }
 }

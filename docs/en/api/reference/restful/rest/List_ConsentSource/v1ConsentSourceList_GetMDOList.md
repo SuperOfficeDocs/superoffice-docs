@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=eveniet
+GET /api/v1/List/ConsentSource/MDOItems?query=perspiciatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Welch-Weimann",
-    "ToolTip": "Perspiciatis maiores reiciendis quasi qui ea natus voluptas.",
-    "Deleted": false,
-    "Rank": 667,
-    "Type": "sit",
+    "Id": 661,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "Et ut tempore quia et.",
+    "Deleted": true,
+    "Rank": 798,
+    "Type": "sapiente",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Denesik, McDermott and Considine",
-        "ToolTip": "Rerum laboriosam voluptates eum consequatur vel odit.",
-        "Deleted": false,
-        "Rank": 567,
-        "Type": "blanditiis",
+        "Id": 538,
+        "Name": "Kemmer-Keeling",
+        "ToolTip": "Tempora facere et sequi.",
+        "Deleted": true,
+        "Rank": 123,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 2,
-        "ExtraInfo": "recusandae",
-        "StyleHint": "iusto",
-        "FullName": "Lavada Bogisich",
+        "IconHint": "consequatur",
+        "ColorBlock": 905,
+        "ExtraInfo": "magnam",
+        "StyleHint": "culpa",
+        "FullName": "Frederic Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 548
+            "FieldType": "System.String",
+            "FieldLength": 70
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 729,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "autem",
-    "FullName": "Javonte Harber",
+    "IconHint": "temporibus",
+    "ColorBlock": 679,
+    "ExtraInfo": "ratione",
+    "StyleHint": "beatae",
+    "FullName": "Marvin Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

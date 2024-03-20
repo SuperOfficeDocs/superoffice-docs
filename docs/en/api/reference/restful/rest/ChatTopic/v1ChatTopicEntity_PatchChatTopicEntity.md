@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "itaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "itaque",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 252,
-  "Name": "Ritchie, Reichert and Roberts",
-  "Description": "Balanced uniform moderator",
-  "WelcomeMessage": "magnam",
+  "ChatTopicId": 36,
+  "Name": "Langworth, Cormier and Smith",
+  "Description": "Intuitive tertiary secured line",
+  "WelcomeMessage": "cupiditate",
   "Language": null,
-  "LastAccept": "2006-01-30T14:23:54.8977701+01:00",
-  "SecondsPrAccept": 39,
-  "AlertRecipient": "velit",
+  "LastAccept": "2001-02-08T12:19:53.1649635+01:00",
+  "SecondsPrAccept": 991,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "earum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "natus",
-  "WarnNewChatMinutes": 143,
-  "WarnManagerNewChatMinutes": 995,
+  "BadgeHeader": "enim",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 738,
+  "WarnManagerNewChatMinutes": 937,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 797,
-  "WarnManagerChatMessageMinutes": 538,
+  "WarnChatMessageMinutes": 158,
+  "WarnManagerChatMessageMinutes": 128,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 847,
-  "OfflineFormQueueLength": 8,
+  "OfflineFormTimeLimit": 732,
+  "OfflineFormQueueLength": 396,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quo",
+  "WidgetRatingText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 92
     }
   },
   "_Links": {

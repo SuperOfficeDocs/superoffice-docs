@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 562
+  "ProductId": 873
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 762,
-  "BlobSize": 793,
-  "Description": "Object-based user-facing open system",
-  "ExtraInfo": "hic",
-  "IsEncrypted": true,
+  "BlobId": 108,
+  "BlobSize": 403,
+  "Description": "Ergonomic reciprocal groupware",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 712,
-  "CreatedDate": "2006-10-30T14:23:45.8918358+01:00",
-  "UpdatedDate": "2012-11-22T14:23:45.8918358+01:00",
+  "MimeType": "quibusdam",
+  "OriginalSize": 725,
+  "CreatedDate": "2015-04-15T12:19:44.539312+02:00",
+  "UpdatedDate": "2005-05-21T12:19:44.539312+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   }
 }

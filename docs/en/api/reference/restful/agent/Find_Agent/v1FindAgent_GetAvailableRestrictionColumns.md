@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Murphy, Deckow and Little"
+  "StorageType": "maiores",
+  "ProviderName": "Runolfsdottir, Swaniawski and Brakus"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolorem",
-  "quidem"
+  "nihil",
+  "laborum"
 ]
 ```

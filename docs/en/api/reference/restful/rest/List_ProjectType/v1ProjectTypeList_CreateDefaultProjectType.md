@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Ortiz-Ortiz",
-  "Tooltip": "voluptatum",
+  "Id": 688,
+  "Name": "Rolfson-Tromp",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 413,
-  "Rank": 828,
+  "UdListDefinitionId": 613,
+  "Rank": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

@@ -64,19 +64,19 @@ No Content
 POST /api/v1/Agents/Diagnostics/AddWebAppUsage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 55,
-      "AssocId": 648,
-      "Timestamp": "2011-10-14T14:23:46.2824577+02:00",
-      "ViewState": "voluptatem",
-      "AggregateCount": 248,
-      "AggregateBin": 73,
-      "Version": 354
+      "WebAppUsageId": 897,
+      "AssocId": 211,
+      "Timestamp": "2007-10-14T12:19:45.0548163+02:00",
+      "ViewState": "quo",
+      "AggregateCount": 33,
+      "AggregateBin": 980,
+      "Version": 680
     }
   ]
 }

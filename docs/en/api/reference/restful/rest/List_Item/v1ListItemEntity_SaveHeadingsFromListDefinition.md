@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 396,
-    "Name": "Baumbach Group",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 578
+    "HeadingId": 45,
+    "Name": "Kuhlman LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 578,
+    "UdListDefinitionId": 139
   },
   {
-    "HeadingId": 396,
-    "Name": "Baumbach Group",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 578
+    "HeadingId": 45,
+    "Name": "Kuhlman LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 578,
+    "UdListDefinitionId": 139
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Moore Inc and Sons",
-    "Tooltip": "molestiae",
+    "HeadingId": 543,
+    "Name": "Flatley-Gutmann",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 435,
-    "UdListDefinitionId": 687,
+    "Rank": 954,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 639
       }
     }
   }

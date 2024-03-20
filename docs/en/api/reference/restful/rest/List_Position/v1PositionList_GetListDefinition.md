@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Name": "Fahey Inc and Sons",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 403,
+  "Id": 825,
+  "Name": "Glover, Dare and Jewess",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 329,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 96
     }
   },
   "_Links": {

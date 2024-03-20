@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "D'Amore Group",
-    "DisplayName": "Reinger-Gerhold",
-    "Description": "Versatile mission-critical data-warehouse",
-    "ToolTip": "Laboriosam inventore adipisci.",
+    "Name": "Bartell, Batz and Walsh",
+    "DisplayName": "Miller, Schimmel and Christiansen",
+    "Description": "Seamless attitude-oriented capability",
+    "ToolTip": "Fugiat enim ut at magnam odio velit.",
     "Actions": "Implicit",
-    "ActionData": "quisquam",
+    "ActionData": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 932
       }
     }
   }

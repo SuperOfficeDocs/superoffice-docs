@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "qui",
-  "GroupName": "Keeling, White and Jaskolski"
+  "Type": "doloremque",
+  "GroupName": "O'Conner Inc and Sons"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "odit",
-    "ut"
+    "culpa",
+    "facere"
   ],
   "Users": [
     {
-      "Value": "quaerat",
-      "DisplayValue": "quos",
+      "Value": "cupiditate",
+      "DisplayValue": "modi",
       "Columns": [
-        "voluptatem",
-        "est"
+        "minima",
+        "non"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     },
     {
-      "Value": "quaerat",
-      "DisplayValue": "quos",
+      "Value": "cupiditate",
+      "DisplayValue": "modi",
       "Columns": [
-        "voluptatem",
-        "est"
+        "minima",
+        "non"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 593
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 823
     }
   }
 }

@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 411
+  "SaleId": 171
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-08-05T14:23:45.7512132+02:00",
-  "AppointmentId": 644,
-  "Description": "Operative real-time info-mediaries",
-  "Title": "est",
-  "Agenda": "at",
-  "InternalNotes": "autem",
-  "StartDate": "2012-04-08T14:23:45.7512132+02:00",
-  "EndDate": "2011-01-02T14:23:45.7512132+01:00",
+  "CreatedDate": "2021-01-11T12:19:44.3987085+01:00",
+  "AppointmentId": 311,
+  "Description": "Focused motivating adapter",
+  "Title": "fugit",
+  "Agenda": "praesentium",
+  "InternalNotes": "quasi",
+  "StartDate": "2016-08-26T12:19:44.3987085+02:00",
+  "EndDate": "2004-08-27T12:19:44.3987085+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 449,
+  "MotherId": 996,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-10-09T14:23:45.7512132+02:00",
+  "UpdatedDate": "2005-01-14T12:19:44.3987085+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 403,
+  "ActiveLinks": 552,
   "Links": [
     {
-      "EntityName": "Cassin Inc and Sons",
-      "Id": 629,
-      "Description": "Upgradable next generation process improvement",
-      "ExtraInfo": "qui",
-      "LinkId": 899,
+      "EntityName": "Jaskolski-Muller",
+      "Id": 9,
+      "Description": "Extended 6th generation intranet",
+      "ExtraInfo": "perferendis",
+      "LinkId": 180,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 816
         }
       }
     }
   ],
-  "AlarmLeadTime": "facere",
+  "AlarmLeadTime": "dolore",
   "HasAlarm": false,
-  "ColorIndex": 133,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "perspiciatis",
-  "LeadTime": "quae",
-  "Location": "eligendi",
-  "RejectCounter": 243,
+  "ColorIndex": 109,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "sed",
+  "LeadTime": "molestias",
+  "Location": "quibusdam",
+  "RejectCounter": 950,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 733,
-      "PersonId": 663,
-      "ContactId": 109,
-      "EmailId": 423,
-      "SendEmail": false,
+      "AssociateId": 238,
+      "PersonId": 806,
+      "ContactId": 177,
+      "EmailId": 875,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "norval_hudson@murazik.ca",
-      "Description": "Enterprise-wide methodical service-desk"
+      "EmailAddress": "soledad.lesch@torphy.ca",
+      "Description": "Networked upward-trending moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-01-28T14:23:45.7512132+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1997-06-06T12:19:44.3987085+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 235,
+  "PreferredTZLocation": 251,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 395,
+  "SuggestedAppointmentId": 834,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Avery Block",
-    "SuperOffice:2": "1015225804"
+    "SuperOffice:1": "Marion O'Kon III",
+    "SuperOffice:2": "Amya Waters"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "quos"
+    "CustomFields1": "aut",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2021-11-28T14:23:45.7668367+01:00",
-  "PublishTo": "2017-08-22T14:23:45.7668367+02:00",
-  "PublishFrom": "1999-02-18T14:23:45.7668367+01:00",
+  "PublishEventDate": "2022-12-05T12:19:44.3987085+01:00",
+  "PublishTo": "2014-03-14T12:19:44.3987085+01:00",
+  "PublishFrom": "2011-11-25T12:19:44.3987085+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 448,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldType": "System.Int32",
+          "FieldLength": 648
         }
       }
     },
     {
-      "VisibleId": 448,
+      "VisibleId": 775,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldType": "System.Int32",
+          "FieldLength": 648
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 977
     }
   }
 }

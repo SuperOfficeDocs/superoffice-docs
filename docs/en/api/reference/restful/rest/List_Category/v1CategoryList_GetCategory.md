@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 100,
-  "Rank": 232,
+  "Id": 394,
+  "Name": "Turcotte-Ullrich",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "UdListDefinitionId": 567,
+  "Rank": 666,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 393
     }
   }
 }

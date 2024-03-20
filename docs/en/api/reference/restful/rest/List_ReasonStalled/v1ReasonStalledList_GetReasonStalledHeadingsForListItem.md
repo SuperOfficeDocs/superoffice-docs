@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Effertz LLC",
-    "ToolTip": "Veniam qui.",
+    "Id": 255,
+    "Name": "Jewess Group",
+    "ToolTip": "Illum laborum.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "amet",
-    "ColorBlock": 226,
-    "IconHint": "totam",
+    "Rank": 210,
+    "Type": "non",
+    "ColorBlock": 532,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2006-07-23T14:23:56.3220736+02:00",
+    "LastChanged": "2006-11-12T12:19:54.8208379+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Wehner-Wilkinson",
-        "ToolTip": "Non et numquam hic sed molestiae.",
+        "Id": 132,
+        "Name": "Langworth-Wilderman",
+        "ToolTip": "Quibusdam asperiores sit quod necessitatibus recusandae rerum.",
         "Deleted": true,
-        "Rank": 594,
-        "Type": "reiciendis",
-        "ColorBlock": 669,
-        "IconHint": "ut",
+        "Rank": 202,
+        "Type": "hic",
+        "ColorBlock": 847,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-03-12T14:23:56.3220736+01:00",
+        "LastChanged": "1999-04-10T12:19:54.8208379+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "ut",
+        "ExtraInfo": "quia",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Mr. Green Osbaldo Gottlieb Jr.",
+        "FullName": "Ms. Marlon Braeden Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "maiores",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Mrs. Asa Rosenbaum",
+    "FullName": "Eldora Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 720
       }
     }
   }

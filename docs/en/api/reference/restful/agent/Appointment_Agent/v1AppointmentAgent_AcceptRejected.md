@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 169,
+  "AppointmentId": 171,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-12-23T14:23:45.7043398+01:00",
-  "AppointmentId": 120,
-  "Description": "User-friendly analyzing workforce",
-  "Title": "asperiores",
-  "Agenda": "quo",
-  "InternalNotes": "voluptas",
-  "StartDate": "2020-08-19T14:23:45.7043398+02:00",
-  "EndDate": "2003-05-01T14:23:45.7043398+02:00",
+  "CreatedDate": "1997-11-23T12:19:44.351845+01:00",
+  "AppointmentId": 121,
+  "Description": "Organic grid-enabled open system",
+  "Title": "rem",
+  "Agenda": "est",
+  "InternalNotes": "nobis",
+  "StartDate": "2016-03-20T12:19:44.351845+01:00",
+  "EndDate": "2009-01-16T12:19:44.351845+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 98,
+  "MotherId": 230,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-05-01T14:23:45.7043398+02:00",
+  "UpdatedDate": "2006-05-11T12:19:44.351845+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 20,
+  "ActiveLinks": 915,
   "Links": [
     {
-      "EntityName": "Kulas LLC",
-      "Id": 581,
-      "Description": "Ergonomic grid-enabled analyzer",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 123,
+      "EntityName": "Walsh-Harris",
+      "Id": 588,
+      "Description": "Persevering optimizing methodology",
+      "ExtraInfo": "et",
+      "LinkId": 584,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "AlarmLeadTime": "veniam",
-  "HasAlarm": false,
-  "ColorIndex": 613,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "sunt",
-  "LeadTime": "ea",
-  "Location": "dolores",
-  "RejectCounter": 114,
+  "AlarmLeadTime": "maxime",
+  "HasAlarm": true,
+  "ColorIndex": 651,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "facere",
+  "LeadTime": "id",
+  "Location": "commodi",
+  "RejectCounter": 766,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 422,
-      "PersonId": 772,
-      "ContactId": 522,
-      "EmailId": 661,
+      "AssociateId": 112,
+      "PersonId": 873,
+      "ContactId": 594,
+      "EmailId": 95,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "amber.koelpin@stanton.uk",
-      "Description": "Upgradable methodical workforce"
+      "EmailAddress": "christophe@nienowsmith.info",
+      "Description": "Cross-group next generation concept"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-07-18T14:23:45.7043398+02:00",
+  "ActiveDate": "2014-07-12T12:19:44.351845+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 186,
+  "PreferredTZLocation": 570,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 107,
+  "SuggestedAppointmentId": 635,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "accusamus",
+  "CentralserviceVideomeetId": "autem",
   "UserDefinedFields": {
-    "SuperOffice:1": "1280942400",
-    "SuperOffice:2": "Holly Darrion Pfeffer Jr."
+    "SuperOffice:1": "Dora Reynolds",
+    "SuperOffice:2": "Miss Erwin Jewess"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "minus"
+    "CustomFields1": "enim",
+    "CustomFields2": "aperiam"
   },
-  "PublishEventDate": "2010-11-23T14:23:45.7043398+01:00",
-  "PublishTo": "2018-09-28T14:23:45.7043398+02:00",
-  "PublishFrom": "2008-10-22T14:23:45.7043398+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-01-15T12:19:44.351845+01:00",
+  "PublishTo": "1998-06-25T12:19:44.351845+02:00",
+  "PublishFrom": "2011-05-04T12:19:44.351845+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 467,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 490
         }
       }
     },
     {
-      "VisibleId": 467,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 490
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 390
     }
   }
 }

@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 990,
-  "ParentId": 85,
-  "Name": "Braun-Kunde",
-  "Fullname": "voluptas",
-  "CategoryMaster": 374,
+  "TicketCategoryId": 996,
+  "ParentId": 720,
+  "Name": "Gulgowski-Purdy",
+  "Fullname": "eveniet",
+  "CategoryMaster": 96,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dach Inc and Sons",
+  "ExternalName": "Spencer-Huel",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 771,
-  "ReplyTemplate": 789,
-  "NotificationEmail": "anissa@tromp.name",
+  "AssignmentLag": 991,
+  "ReplyTemplate": 727,
+  "NotificationEmail": "riley@gerhold.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 865,
+  "EffectiveReplyTemplateId": 426,
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "quo"
+    "CustomFields1": "et",
+    "CustomFields2": "in"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 84,
-  "ParentId": 278,
-  "Name": "Kshlerin LLC",
-  "Fullname": "et",
-  "CategoryMaster": 3,
+  "TicketCategoryId": 656,
+  "ParentId": 799,
+  "Name": "Beatty Group",
+  "Fullname": "labore",
+  "CategoryMaster": 929,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Paucek Inc and Sons",
+  "ExternalName": "Hermann-Corkery",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 854,
-  "ReplyTemplate": 386,
-  "NotificationEmail": "malcolm.schaden@collins.biz",
+  "AssignmentLag": 840,
+  "ReplyTemplate": 140,
+  "NotificationEmail": "fernando@deckow.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 893,
+  "EffectiveReplyTemplateId": 334,
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "et"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "quos"
+    "CustomFields1": "rerum",
+    "CustomFields2": "provident"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   }
 }

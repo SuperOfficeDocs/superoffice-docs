@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 304,
-  "Name": "Balistreri Group",
-  "TZLocationCode": "aut",
-  "TZLocationCities": "deserunt",
-  "IsoNumber": 822,
+  "TZLocationID": 693,
+  "Name": "Brekke Group",
+  "TZLocationCode": "molestiae",
+  "TZLocationCities": "rerum",
+  "IsoNumber": 425,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 508,
-      "StartMonth": 830,
-      "EndDay": 47,
-      "EndMonth": 422,
-      "TZOffset": 824,
-      "StartRulePattern": "voluptates",
-      "EndRulePattern": "rerum"
+      "StartDay": 274,
+      "StartMonth": 121,
+      "EndDay": 972,
+      "EndMonth": 966,
+      "TZOffset": 95,
+      "StartRulePattern": "incidunt",
+      "EndRulePattern": "laudantium"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 419,
-      "StartMonth": 343,
-      "EndDay": 431,
-      "EndMonth": 157,
-      "TZOffset": 367,
-      "StartRulePattern": "repellat",
-      "EndRulePattern": "itaque"
+      "StartDay": 503,
+      "StartMonth": 501,
+      "EndDay": 986,
+      "EndMonth": 539,
+      "TZOffset": 718,
+      "StartRulePattern": "sapiente",
+      "EndRulePattern": "maxime"
     }
   }
 }

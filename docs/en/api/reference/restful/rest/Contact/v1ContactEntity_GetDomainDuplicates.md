@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Romaguera LLC",
-    "SoPrimaryKey": 717,
-    "EntryName": "O'Kon, Koepp and Balistreri",
-    "EntryIdentifier": "consequuntur",
-    "RuleDisplayName": "Mayert-Jakubowski",
+    "RuleName": "Jones, Brekke and Koepp",
+    "SoPrimaryKey": 201,
+    "EntryName": "Kris Group",
+    "EntryIdentifier": "quam",
+    "RuleDisplayName": "Nicolas Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

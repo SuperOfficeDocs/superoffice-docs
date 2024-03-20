@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 539,
+  "EjMessageId": 89,
   "Ticket": null,
-  "CreatedAt": "1998-02-25T14:23:47.7848748+01:00",
+  "CreatedAt": "2008-02-15T12:19:46.5076053+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "modi",
-  "TimeSpent": 778,
-  "Body": "autem",
-  "HtmlBody": "sit",
-  "EmailHeader": "courtney_farrell@pfannerstill.name",
-  "DebugInfo": "itaque",
-  "MailSorter": "voluptatum",
+  "MessageId": "molestiae",
+  "TimeSpent": 936,
+  "Body": "voluptatum",
+  "HtmlBody": "et",
+  "EmailHeader": "daphnee.feil@stokes.info",
+  "DebugInfo": "odit",
+  "MailSorter": "magni",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "asperiores",
+  "SearchTitle": "adipisci",
   "MessageHeaders": [
     {
-      "Id": 790,
-      "Name": "Gottlieb Group",
-      "Value": "est",
+      "Id": 744,
+      "Name": "Abbott-Klein",
+      "Value": "sunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 722
         }
       }
     }
   ],
   "Important": false,
-  "Language": "cumque",
-  "Sentiment": 761,
-  "SentimentConfidence": 554,
+  "Language": "vero",
+  "Sentiment": 739,
+  "SentimentConfidence": 573,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 521,
-      "Name": "Feeney, Feest and Quitzon",
-      "ContentType": "dicta",
-      "AttSize": 747,
+      "AttachmentId": 618,
+      "Name": "Steuber, Oberbrunner and McGlynn",
+      "ContentType": "labore",
+      "AttSize": 97,
       "InlineImage": false,
-      "ContentId": "dolor",
-      "AuthKey": "iure",
-      "IsSafeFileExtension": false,
+      "ContentId": "provident",
+      "AuthKey": "pariatur",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 363
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "ut"
+    "CustomFields1": "modi",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 603
     }
   }
 }

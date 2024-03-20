@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Doyle-Spencer",
-    "ToolTip": "Ut est consequuntur.",
-    "Deleted": true,
-    "Rank": 497,
-    "Type": "quis",
-    "ColorBlock": 483,
-    "IconHint": "aut",
+    "Id": 861,
+    "Name": "Gutmann LLC",
+    "ToolTip": "Voluptates enim ducimus id ad accusamus voluptate voluptatibus.",
+    "Deleted": false,
+    "Rank": 386,
+    "Type": "dolor",
+    "ColorBlock": 735,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2005-04-25T14:23:56.0564526+02:00",
+    "LastChanged": "1997-12-04T12:19:54.3990083+01:00",
     "ChildItems": [
       {
-        "Id": 824,
-        "Name": "Boyle-Johnson",
-        "ToolTip": "Vitae eveniet et voluptatem harum accusantium enim.",
-        "Deleted": true,
-        "Rank": 678,
-        "Type": "labore",
-        "ColorBlock": 928,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2010-08-27T14:23:56.0564526+02:00",
+        "Id": 238,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Neque non et et sunt illo maxime.",
+        "Deleted": false,
+        "Rank": 545,
+        "Type": "esse",
+        "ColorBlock": 600,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2013-01-23T12:19:54.3990083+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "officiis",
-        "Hidden": false,
-        "FullName": "Jewel Kuhlman"
+        "ExtraInfo": "modi",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Jalen Bernier"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Dr. Nickolas Maureen Frami II"
+    "ExtraInfo": "sint",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Gunner Mathias Rippin DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Romaguera-Marvin",
-    "ToolTip": "Ut quidem.",
+    "Id": 462,
+    "Name": "Dickinson LLC",
+    "ToolTip": "Omnis occaecati.",
     "Deleted": false,
-    "Rank": 434,
-    "Type": "eum",
-    "ColorBlock": 145,
-    "IconHint": "voluptatem",
+    "Rank": 748,
+    "Type": "velit",
+    "ColorBlock": 298,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2019-12-12T14:23:56.0564526+01:00",
+    "LastChanged": "2019-10-25T12:19:54.3990083+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Schneider LLC",
-        "ToolTip": "Necessitatibus quos reiciendis harum dolorum.",
-        "Deleted": true,
-        "Rank": 153,
-        "Type": "est",
-        "ColorBlock": 136,
-        "IconHint": "rerum",
+        "Id": 734,
+        "Name": "Rau, Leffler and Swift",
+        "ToolTip": "Quia iste sed.",
+        "Deleted": false,
+        "Rank": 580,
+        "Type": "voluptas",
+        "ColorBlock": 734,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2022-07-26T14:23:56.0564526+02:00",
+        "LastChanged": "2000-06-29T12:19:54.3990083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Luther Swift",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Mr. Dewayne Tiffany Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 495
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Mrs. Elenor Skiles DDS",
+    "ExtraInfo": "omnis",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Minerva Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

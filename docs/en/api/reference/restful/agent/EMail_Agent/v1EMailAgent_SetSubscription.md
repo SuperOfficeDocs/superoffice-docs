@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Stark Group",
-      "Delimiter": "voluptas",
-      "Flags": "minima",
-      "TotalItems": 804,
-      "UnreadItems": 710,
+      "Name": "Feest-Cronin",
+      "Delimiter": "alias",
+      "Flags": "deserunt",
+      "TotalItems": 529,
+      "UnreadItems": 273,
       "Subscribed": false,
-      "EmailFolderId": 952
+      "EmailFolderId": 419
     }
   ]
 }

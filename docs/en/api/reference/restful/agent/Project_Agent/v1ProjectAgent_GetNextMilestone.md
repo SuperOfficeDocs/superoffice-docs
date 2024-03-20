@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 455
+  "ProjectId": 335
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 596,
-  "StartDate": "2013-04-06T14:23:47.1755092+02:00",
-  "EndDate": "2000-08-04T14:23:47.1755092+02:00",
+  "AppointmentId": 437,
+  "StartDate": "2022-05-31T12:19:46.0077209+02:00",
+  "EndDate": "2012-12-31T12:19:46.0077209+01:00",
   "Type": "BookingForChecklist",
-  "Task": "ea",
-  "AssociateFullName": "Kaia Gorczany",
-  "ContactName": "Witting, Smith and Marquardt",
-  "Description": "Integrated user-facing matrices",
-  "PersonFullName": "Letitia Gaylord",
-  "PersonId": 681,
-  "ContactId": 191,
-  "ProjectId": 831,
-  "ProjectName": "Kilback, Brown and Lesch",
+  "Task": "qui",
+  "AssociateFullName": "Nicolas Beatty",
+  "ContactName": "Parisian, Hills and Tromp",
+  "Description": "Devolved homogeneous forecast",
+  "PersonFullName": "Josiah Herman",
+  "PersonId": 610,
+  "ContactId": 915,
+  "ProjectId": 238,
+  "ProjectName": "Kuhlman, Schroeder and Becker",
   "IsPublished": false,
   "AssociateId": 82,
-  "ColorIndex": 456,
+  "ColorIndex": 124,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 277,
-  "PriorityName": "Corwin, O'Keefe and Osinski",
+  "PriorityId": 960,
+  "PriorityName": "Ziemann, Bahringer and Wolf",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": true,
+  "IsBookingMain": false,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2013-07-23T14:23:47.1755092+02:00",
+  "ActiveDate": "2013-11-19T12:19:46.0077209+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-09-28T14:23:47.1755092+02:00",
-  "RecurringEndDate": "2016-02-24T14:23:47.1755092+01:00",
-  "MotherId": 199,
-  "AssignedBy": 998,
-  "AssignedByFullName": "Jane Lesch",
+  "RecurringStartDate": "2006-10-14T12:19:46.0077209+02:00",
+  "RecurringEndDate": "1998-07-15T12:19:46.0077209+02:00",
+  "MotherId": 940,
+  "AssignedBy": 467,
+  "AssignedByFullName": "Jarred Kuhn I",
   "RejectReason": "",
-  "Location": "possimus",
-  "AlarmLeadTime": "ad",
-  "SaleId": 188,
-  "SaleName": "Hilpert-Wehner",
-  "AssociateName": "Greenholt Inc and Sons",
-  "CreatedDate": "2010-06-18T14:23:47.1755092+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Mrs. Sam Newell Towne MD",
-  "CreatedByAssociateId": 830,
+  "Location": "nisi",
+  "AlarmLeadTime": "quaerat",
+  "SaleId": 722,
+  "SaleName": "Leannon LLC",
+  "AssociateName": "Douglas LLC",
+  "CreatedDate": "2017-10-22T12:19:46.0233436+02:00",
+  "CreatedBy": "cum",
+  "CreatedByFullName": "Petra Smitham",
+  "CreatedByAssociateId": 114,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 115,
-  "Title": "temporibus",
-  "Agenda": "laudantium",
-  "InternalNotes": "ut",
+  "PreferredTZLocation": 240,
+  "Title": "voluptatem",
+  "Agenda": "tempore",
+  "InternalNotes": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 591
     }
   }
 }

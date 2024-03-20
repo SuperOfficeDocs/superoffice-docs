@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 668
+  "QuoteLineId": 195
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 548,
-  "ERPQuoteLineKey": "tempore",
-  "QuoteAlternativeId": 871,
-  "ERPProductKey": "occaecati",
+  "QuoteLineId": 561,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 772,
+  "ERPProductKey": "quia",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17735.306,
-  "DeliveredQuantity": 29077.252,
-  "Rank": 556,
-  "Name": "Mann-Upton",
-  "Description": "Open-source object-oriented forecast",
-  "Code": "nam",
-  "QuantityUnit": "molestias",
-  "PriceUnit": "nostrum",
-  "ItemNumber": "339472",
+  "Quantity": 9988.0579999999991,
+  "DeliveredQuantity": 8699.984,
+  "Rank": 736,
+  "Name": "Gleichner, Kuhic and Satterfield",
+  "Description": "Profound explicit initiative",
+  "Code": "quam",
+  "QuantityUnit": "minus",
+  "PriceUnit": "repudiandae",
+  "ItemNumber": "1771209",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "sapiente",
-  "Supplier": "culpa",
-  "SupplierCode": "asperiores",
-  "Thumbnail": "soluta",
-  "VATInfo": "blanditiis",
-  "VAT": 332.204,
-  "UnitCost": 21370.746,
-  "UnitMinimumPrice": 13595.292,
-  "UnitListPrice": 22451.976,
+  "ProductFamilyKey": "tempora",
+  "ProductTypeKey": "libero",
+  "Supplier": "similique",
+  "SupplierCode": "iste",
+  "Thumbnail": "quo",
+  "VATInfo": "earum",
+  "VAT": 6781.976,
+  "UnitCost": 34.474,
+  "UnitMinimumPrice": 13952.568,
+  "UnitListPrice": 17039.558,
   "ExtraInfo": [
     {
-      "Name": "Macejkovic LLC",
-      "Value": "maiores",
+      "Name": "Luettgen, Welch and Nicolas",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldLength": 482
         }
       }
     },
     {
-      "Name": "Macejkovic LLC",
-      "Value": "maiores",
+      "Name": "Luettgen, Welch and Nicolas",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldLength": 482
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "IsSubscription": false,
-  "SubscriptionUnit": "deserunt",
-  "SubscriptionQuantity": 7919.6179999999995,
-  "SubscriptionStart": "2000-05-09T14:23:47.2692571+02:00",
-  "ERPDiscountPercent": 28434.782,
-  "ERPDiscountAmount": 14040.32,
-  "DiscountPercent": 5967.1359999999995,
-  "DiscountAmount": 564.12,
+  "RawExtraInfo": "assumenda",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatem",
+  "SubscriptionQuantity": 7737.846,
+  "SubscriptionStart": "1999-07-25T12:19:46.117062+02:00",
+  "ERPDiscountPercent": 7684.5679999999993,
+  "ERPDiscountAmount": 22975.354,
+  "DiscountPercent": 22245.131999999998,
+  "DiscountAmount": 24880.826,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23761.987999999998,
-  "EarningAmount": 11382.688,
-  "SubTotal": 17625.615999999998,
-  "TotalPrice": 26761.226,
-  "Rights": "mollitia",
-  "Rule": "facere",
-  "ExtraField1": "eum",
-  "ExtraField2": "laudantium",
-  "ExtraField3": "at",
-  "ExtraField4": "placeat",
-  "ExtraField5": "odio",
+  "EarningPercent": 23859.142,
+  "EarningAmount": 1943.08,
+  "SubTotal": 4130.612,
+  "TotalPrice": 9737.338,
+  "Rights": "tenetur",
+  "Rule": "quas",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "commodi",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "impedit",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 661
     }
   }
 }

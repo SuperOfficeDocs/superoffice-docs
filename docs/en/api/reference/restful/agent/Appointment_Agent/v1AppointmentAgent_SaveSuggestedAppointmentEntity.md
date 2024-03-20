@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 743,
-  "Name": "Mohr-Kshlerin",
-  "Tooltip": "a",
-  "Rank": 315,
+  "SuggestedAppointmentId": 229,
+  "Name": "Jast LLC",
+  "Tooltip": "ratione",
+  "Rank": 264,
   "Deleted": false,
-  "DaysFuture": 305,
-  "Duration": "quia",
+  "DaysFuture": 387,
+  "Duration": "voluptatum",
   "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "minima",
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "qui",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 149,
-  "Name": "Frami Group",
-  "Tooltip": "veniam",
-  "Rank": 753,
+  "SuggestedAppointmentId": 963,
+  "Name": "Stroman Inc and Sons",
+  "Tooltip": "sed",
+  "Rank": 511,
   "Deleted": false,
-  "DaysFuture": 262,
-  "Duration": "dicta",
+  "DaysFuture": 219,
+  "Duration": "modi",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "nulla",
+  "Text": "enim",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 456
     }
   }
 }

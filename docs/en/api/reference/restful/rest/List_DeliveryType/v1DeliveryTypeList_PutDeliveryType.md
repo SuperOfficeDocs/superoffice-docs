@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Name": "Yost Group",
-  "Tooltip": "a",
-  "Deleted": false,
-  "UdListDefinitionId": 794,
-  "Rank": 893
+  "Id": 652,
+  "Name": "Wolf-Monahan",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "UdListDefinitionId": 116,
+  "Rank": 715
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Wehner, Mosciski and Mitchell",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 455,
-  "Rank": 416,
+  "Id": 231,
+  "Name": "Moen-Reynolds",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "UdListDefinitionId": 116,
+  "Rank": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldLength": 785
     }
   }
 }

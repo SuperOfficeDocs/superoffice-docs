@@ -118,10 +118,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 801,
+  "SelectionId": 734,
   "SelectionMemberIds": [
-    150,
-    587
+    524,
+    156
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered human-resource product",
-  "Postit": "fugiat",
+  "Description": "Inverse assymetric local area network",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 613,
-  "IncludePerson": 106,
-  "MemberCount": 612,
-  "Name": "Emard Group",
-  "PostitTextId": 210,
-  "CreatedDate": "2005-06-16T14:23:47.4098822+02:00",
-  "SelectionId": 523,
-  "SoundEx": "laborum",
-  "Source": 613,
-  "TextId": 312,
-  "UpdatedDate": "2005-04-05T14:23:47.4098822+02:00",
-  "UpdatedCount": 451,
-  "Visibility": 994,
+  "GroupIdx": 578,
+  "IncludePerson": 506,
+  "MemberCount": 569,
+  "Name": "Mraz-Glover",
+  "PostitTextId": 394,
+  "CreatedDate": "2011-10-29T12:19:46.273282+02:00",
+  "SelectionId": 89,
+  "SoundEx": "officiis",
+  "Source": 324,
+  "TextId": 47,
+  "UpdatedDate": "2007-06-24T12:19:46.273282+02:00",
+  "UpdatedCount": 951,
+  "Visibility": 242,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 323,
-  "TargetTableName": "Schuster Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 708,
-  "RightSelectionId": 598,
+  "TargetTableNumber": 26,
+  "TargetTableName": "Ward-McLaughlin",
+  "Completed": false,
+  "LeftSelectionId": 57,
+  "RightSelectionId": 743,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kling-Jast",
-  "ShadowProviderName": "Olson, Roberts and Wisoky",
-  "ChartKey": "fugiat",
-  "LastLoaded": "2011-08-15T14:23:47.4098822+02:00",
-  "LastLoadedBy": 399,
+  "MainProviderName": "Mohr, Wiza and Carroll",
+  "ShadowProviderName": "Schaden-Cassin",
+  "ChartKey": "est",
+  "LastLoaded": "2010-11-05T12:19:46.273282+01:00",
+  "LastLoadedBy": 553,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-03-17T14:23:47.4255063+01:00",
-  "LastMembershipChangeBy": 453,
+  "LastMembershipChange": "2012-12-22T12:19:46.273282+01:00",
+  "LastMembershipChangeBy": 98,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "incidunt",
-  "MemberTabHeading": "ullam",
-  "MailingsProviderName": "Johnson-Metz",
-  "DashboardTileDefinitionId": 715,
+  "MainHeading": "nesciunt",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Thompson LLC",
+  "DashboardTileDefinitionId": 103,
   "VisibleFor": [
     {
-      "VisibleId": 930,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     },
     {
-      "VisibleId": 930,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   }
 }

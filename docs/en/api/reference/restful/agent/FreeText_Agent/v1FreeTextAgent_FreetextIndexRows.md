@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Williamson, Schamberger and Nikolaus",
+  "TableName": "Hegmann LLC",
   "IDs": [
-    738,
-    633
+    25,
+    687
   ]
 }
 ```

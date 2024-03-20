@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "natus",
-  "ProviderName": "Cole LLC",
-  "StorageKey": "qui",
+  "StorageType": "sapiente",
+  "ProviderName": "Ruecker, Schulist and Kovacek",
+  "StorageKey": "et",
   "StaticColumns": [
-    "commodi",
-    "labore"
+    "qui",
+    "sed"
   ],
-  "Context": "est"
+  "Context": "facilis"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Moen Group",
-      "Operator": "autem",
+      "Name": "Zulauf LLC",
+      "Operator": "temporibus",
       "Values": [
-        "totam",
-        "velit"
+        "placeat",
+        "dolorum"
       ],
       "DisplayValues": [
-        "et",
-        "sunt"
+        "culpa",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 386,
+      "InterParenthesis": 262,
       "InterOperator": "And",
-      "UniqueHash": 874
+      "UniqueHash": 763
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gottlieb, Denesik and Kulas",
-      "DisplayTooltip": "quod",
-      "DisplayType": "dolore",
+      "DisplayName": "Altenwerth-Moore",
+      "DisplayTooltip": "ipsam",
+      "DisplayType": "atque",
       "CanOrderBy": false,
-      "Name": "Padberg, Will and Huel",
-      "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Koepp Group",
+      "Name": "Ritchie-Howe",
+      "CanRestrictBy": false,
+      "RestrictionType": "vero",
+      "RestrictionListName": "Stehr, Zulauf and Deckow",
       "IsVisible": true,
-      "ExtraInfo": "sed",
-      "Width": "non",
-      "IconHint": "ut",
-      "HeadingIconHint": "molestias"
+      "ExtraInfo": "rerum",
+      "Width": "aspernatur",
+      "IconHint": "laudantium",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Buckridge-Tromp",
-      "PrimaryKey": 752,
+      "EntityName": "Haag, Jakubowski and Smith",
+      "PrimaryKey": 918,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "tempore",
+          "DisplayValue": "corporis",
+          "TooltipHint": "voluptatum",
           "LinkHint": "aut"
         }
       },
-      "LinkHint": "iusto",
-      "StyleHint": "consequatur",
+      "LinkHint": "possimus",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 856
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rice Inc and Sons",
-      "Description": "Secured background capability",
-      "Rank": 246,
+      "Name": "Will, Adams and Schaden",
+      "Description": "Realigned client-driven contingency",
+      "Rank": 311,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rice Inc and Sons",
-      "Description": "Secured background capability",
-      "Rank": 246,
+      "Name": "Will, Adams and Schaden",
+      "Description": "Realigned client-driven contingency",
+      "Rank": 311,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

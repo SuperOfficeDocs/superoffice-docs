@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 444
+  "PersonId": 985
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 834,
-  "PlainParsed": "quo",
-  "HtmlParsed": "consequatur",
+  "ReplyTemplateId": 224,
+  "PlainParsed": "et",
+  "HtmlParsed": "natus",
   "Attachments": [
     {
-      "AttachmentId": 715,
-      "Name": "Mills, Padberg and Little",
-      "ContentType": "voluptas",
-      "AttSize": 280,
+      "AttachmentId": 456,
+      "Name": "Walker-Lemke",
+      "ContentType": "incidunt",
+      "AttSize": 349,
       "InlineImage": false,
-      "ContentId": "placeat",
-      "AuthKey": "earum",
-      "IsSafeFileExtension": true,
+      "ContentId": "aut",
+      "AuthKey": "libero",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
   ],
-  "Subject": "sit",
+  "Subject": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   }
 }

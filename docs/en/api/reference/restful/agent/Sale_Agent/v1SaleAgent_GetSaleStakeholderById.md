@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    318,
-    454
+    221,
+    873
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Krajcik, Lockman and Gutmann",
-    "Comment": "rerum",
-    "StakeholderRoleId": 606,
-    "CountryId": 247,
-    "PersonId": 726,
-    "EmailDescription": "frank.kihn@turner.uk",
-    "EmailId": 191,
-    "EmailAddress": "danny@buckridge.co.uk",
-    "PhoneId": 213,
-    "ContactName": "Durgan Inc and Sons",
-    "ContactId": 305,
-    "SaleId": 85,
-    "Mrmrs": "et",
-    "Firstname": "Adam",
-    "MiddleName": "McLaughlin Inc and Sons",
-    "Lastname": "Feeney",
-    "SaleStakeholderId": 761,
-    "Rank": 729,
-    "Phone": "453-388-6307 x79690",
+    "StakeholderRoleName": "Waters-Schmeler",
+    "Comment": "omnis",
+    "StakeholderRoleId": 700,
+    "CountryId": 568,
+    "PersonId": 437,
+    "EmailDescription": "hadley_hills@wunsch.com",
+    "EmailId": 389,
+    "EmailAddress": "gayle@walkerschumm.co.uk",
+    "PhoneId": 327,
+    "ContactName": "Zulauf Group",
+    "ContactId": 727,
+    "SaleId": 921,
+    "Mrmrs": "porro",
+    "Firstname": "Darion",
+    "MiddleName": "Crona, Heidenreich and Weimann",
+    "Lastname": "Bailey",
+    "SaleStakeholderId": 193,
+    "Rank": 796,
+    "Phone": "582.644.9598 x6147",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldLength": 827
       }
     }
   }

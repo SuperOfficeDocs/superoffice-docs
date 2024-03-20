@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 970,
-      "AssociateName": "Ledner LLC",
-      "AssociateId": 190
+      "AccountId": 345,
+      "AssociateName": "Bauch, Ryan and Kuhlman",
+      "AssociateId": 597
     },
     {
-      "AccountId": 970,
-      "AssociateName": "Ledner LLC",
-      "AssociateId": 190
+      "AccountId": 345,
+      "AssociateName": "Bauch, Ryan and Kuhlman",
+      "AssociateId": 597
     }
   ]
 }

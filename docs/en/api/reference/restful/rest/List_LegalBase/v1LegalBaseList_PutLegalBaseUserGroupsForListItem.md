@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Schmidt LLC",
-    "ToolTip": "Nemo impedit repudiandae animi impedit adipisci maxime ipsum.",
+    "Id": 824,
+    "Name": "Rodriguez, Littel and Gerhold",
+    "ToolTip": "Ea et tempora omnis voluptatum aperiam quas distinctio.",
     "Deleted": false,
-    "Rank": 483,
-    "Type": "repudiandae",
-    "ColorBlock": 922,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2008-09-29T14:23:56.1189508+02:00",
+    "Rank": 327,
+    "Type": "necessitatibus",
+    "ColorBlock": 60,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "2011-11-29T12:19:54.5865219+01:00",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Gibson Group",
-        "ToolTip": "Expedita et consequatur.",
-        "Deleted": false,
-        "Rank": 561,
-        "Type": "dolorem",
-        "ColorBlock": 715,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2023-03-05T14:23:56.1189508+01:00",
+        "Id": 184,
+        "Name": "Cormier-Leuschke",
+        "ToolTip": "Velit vitae rerum vel.",
+        "Deleted": true,
+        "Rank": 523,
+        "Type": "totam",
+        "ColorBlock": 358,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2006-09-26T12:19:54.5865219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Jarrett O'Reilly"
+        "FullName": "Valentin Kovacek"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Mrs. Dortha Wiegand"
+    "ExtraInfo": "hic",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Helga Katelin Shields III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Hoppe-Schuppe",
-    "ToolTip": "Ipsum sunt et necessitatibus ullam.",
+    "Id": 507,
+    "Name": "Collins Inc and Sons",
+    "ToolTip": "Minus ipsa alias commodi.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "est",
-    "ColorBlock": 686,
-    "IconHint": "aut",
+    "Rank": 835,
+    "Type": "omnis",
+    "ColorBlock": 130,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2003-06-13T14:23:56.1189508+02:00",
+    "LastChanged": "2022-08-03T12:19:54.5865219+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Kozey-Legros",
-        "ToolTip": "Cum quas.",
+        "Id": 950,
+        "Name": "Wiegand, Robel and Smitham",
+        "ToolTip": "Rerum placeat consequatur nulla soluta veniam eaque.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "veritatis",
-        "ColorBlock": 814,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2007-09-19T14:23:56.1189508+02:00",
+        "Rank": 898,
+        "Type": "non",
+        "ColorBlock": 980,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2003-06-06T12:19:54.5865219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Maxime Braun",
+        "ExtraInfo": "est",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Savannah Steuber DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 84
+            "FieldType": "System.Int32",
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Orval Jacobson I",
+    "ExtraInfo": "aut",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Drake Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 119
       }
     }
   }

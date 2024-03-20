@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 461,
-  "AssociateId": 435,
-  "Caption": "et",
+  "DashboardId": 904,
+  "AssociateId": 129,
+  "Caption": "sapiente",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 69,
-      "Caption": "incidunt",
-      "Description": "Upgradable discrete solution",
-      "ChartName": "Anderson-Jakubowski",
-      "ChartId": "rerum",
+      "DashboardTileId": 358,
+      "Caption": "animi",
+      "Description": "Reactive composite open system",
+      "ChartName": "Hamill-Keeling",
+      "ChartId": "similique",
       "IsDefault": false,
-      "AssociateId": 708,
-      "GroupId": 936,
-      "SelectionId": 594,
-      "Config": "rerum",
+      "AssociateId": 406,
+      "GroupId": 441,
+      "SelectionId": 280,
+      "Config": "minima",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 104,
-  "AssociateId": 951,
-  "Caption": "voluptatum",
+  "DashboardId": 504,
+  "AssociateId": 881,
+  "Caption": "beatae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 118,
-      "Caption": "saepe",
-      "Description": "Enhanced 5th generation system engine",
-      "ChartName": "Hartmann-Barrows",
-      "ChartId": "explicabo",
-      "IsDefault": false,
-      "AssociateId": 840,
-      "GroupId": 796,
-      "SelectionId": 310,
-      "Config": "veniam",
+      "DashboardTileId": 886,
+      "Caption": "optio",
+      "Description": "Vision-oriented 6th generation application",
+      "ChartName": "Dare Inc and Sons",
+      "ChartId": "suscipit",
+      "IsDefault": true,
+      "AssociateId": 476,
+      "GroupId": 253,
+      "SelectionId": 227,
+      "Config": "corrupti",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 524
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

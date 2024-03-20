@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Ankunding-Klein",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "UdListDefinitionId": 882,
-  "Rank": 612
+  "Id": 533,
+  "Name": "Walsh Inc and Sons",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "UdListDefinitionId": 431,
+  "Rank": 203
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Roob-Baumbach",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 111,
-  "Rank": 699,
+  "Id": 394,
+  "Name": "Abshire Group",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 709,
+  "Rank": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

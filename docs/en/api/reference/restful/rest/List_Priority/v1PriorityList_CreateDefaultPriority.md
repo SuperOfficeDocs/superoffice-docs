@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Cole-Bechtelar",
-  "Tooltip": "quidem",
+  "Id": 964,
+  "Name": "Ziemann-Kirlin",
+  "Tooltip": "sit",
   "Deleted": true,
-  "UdListDefinitionId": 933,
-  "Rank": 451,
+  "UdListDefinitionId": 97,
+  "Rank": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

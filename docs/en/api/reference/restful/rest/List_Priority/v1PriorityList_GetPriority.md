@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Thompson Group",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "UdListDefinitionId": 902,
-  "Rank": 289,
+  "Id": 970,
+  "Name": "Crooks-Torp",
+  "Tooltip": "ab",
+  "Deleted": true,
+  "UdListDefinitionId": 374,
+  "Rank": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 483
     }
   }
 }

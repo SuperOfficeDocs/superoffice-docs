@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Goodwin, Balistreri and Pagac"
+  "Name": "Durgan Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Armstrong-Durgan",
-    "SoPrimaryKey": 186,
-    "EntryName": "DuBuque, Pacocha and Farrell",
-    "EntryIdentifier": "tempore",
-    "RuleDisplayName": "Okuneva-Johnson",
+    "RuleName": "Oberbrunner LLC",
+    "SoPrimaryKey": 492,
+    "EntryName": "Hickle, Adams and Pacocha",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Pagac LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

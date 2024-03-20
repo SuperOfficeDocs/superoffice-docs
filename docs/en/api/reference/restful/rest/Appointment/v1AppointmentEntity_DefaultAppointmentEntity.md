@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 11 Dec 1999 14:23:54 G12T
+Last-Modified: Fri, 18 Oct 2019 12:19:52 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-01-12T14:23:54.5221465+01:00",
-  "AppointmentId": 683,
-  "Description": "Advanced 4th generation internet solution",
-  "Title": "voluptas",
-  "Agenda": "ratione",
-  "InternalNotes": "et",
-  "StartDate": "2015-06-28T14:23:54.5221465+02:00",
-  "EndDate": "2024-01-24T14:23:54.5221465+01:00",
+  "CreatedDate": "2022-06-30T12:19:52.9150331+02:00",
+  "AppointmentId": 295,
+  "Description": "Compatible uniform intranet",
+  "Title": "eos",
+  "Agenda": "culpa",
+  "InternalNotes": "ratione",
+  "StartDate": "1998-10-21T12:19:52.9150331+02:00",
+  "EndDate": "2008-01-20T12:19:52.9150331+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 588,
+  "MotherId": 960,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-12-11T14:23:54.5377709+01:00",
+  "UpdatedDate": "2019-10-18T12:19:52.9150331+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 732,
+  "ActiveLinks": 777,
   "Links": [
     {
-      "EntityName": "Upton Group",
-      "Id": 517,
-      "Description": "Balanced composite concept",
-      "ExtraInfo": "atque",
-      "LinkId": 387,
+      "EntityName": "Rodriguez, Bode and Rogahn",
+      "Id": 755,
+      "Description": "Configurable executive analyzer",
+      "ExtraInfo": "tenetur",
+      "LinkId": 990,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 475
         }
       }
     }
   ],
-  "AlarmLeadTime": "velit",
-  "HasAlarm": false,
-  "ColorIndex": 299,
+  "AlarmLeadTime": "expedita",
+  "HasAlarm": true,
+  "ColorIndex": 181,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "sit",
-  "LeadTime": "quia",
-  "Location": "temporibus",
-  "RejectCounter": 64,
+  "LagTime": "in",
+  "LeadTime": "iure",
+  "Location": "qui",
+  "RejectCounter": 790,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 439,
-      "PersonId": 561,
-      "ContactId": 184,
-      "EmailId": 192,
+      "AssociateId": 265,
+      "PersonId": 500,
+      "ContactId": 6,
+      "EmailId": 594,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "evans_ortiz@okunevawhite.ca",
-      "Description": "Decentralized dedicated hardware"
+      "EmailAddress": "annamarie@okuneva.co.uk",
+      "Description": "Customizable user-facing focus group"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-03-03T14:23:54.5377709+01:00",
-  "HasConflict": true,
+  "ActiveDate": "1997-12-21T12:19:52.9150331+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 429,
+  "PreferredTZLocation": 410,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 892,
+  "SuggestedAppointmentId": 76,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsum",
+  "CentralserviceVideomeetId": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Sally Kuhic"
+    "SuperOffice:1": "Frederick Hilll MD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "in"
+    "ExtraFields1": "et",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "aut"
+    "CustomFields1": "quas",
+    "CustomFields2": "dicta"
   },
-  "PublishEventDate": "2016-05-14T14:23:54.5377709+02:00",
-  "PublishTo": "2002-04-28T14:23:54.5377709+02:00",
-  "PublishFrom": "2014-09-27T14:23:54.5377709+02:00",
+  "PublishEventDate": "2019-12-09T12:19:52.9150331+01:00",
+  "PublishTo": "2019-02-28T12:19:52.9150331+01:00",
+  "PublishFrom": "2021-05-06T12:19:52.9150331+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 128
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 128
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Sat, 11 Dec 1999 14:23:54 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

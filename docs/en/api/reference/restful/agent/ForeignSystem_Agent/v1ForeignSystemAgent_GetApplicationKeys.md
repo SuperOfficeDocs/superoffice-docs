@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller-Gutmann"
+  "ApplicationName": "Gibson Group"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "impedit",
-    "Value": "enim",
-    "RecordId": 191,
-    "CreatedDate": "1997-09-05T14:23:46.7681044+02:00",
-    "UpdatedDate": "2000-10-31T14:23:46.7681044+01:00",
-    "UpdatedBy": "quisquam",
-    "CreatedBy": "dolor",
-    "TableName": "Flatley Group",
+    "Key": "vel",
+    "Value": "exercitationem",
+    "RecordId": 6,
+    "CreatedDate": "2015-04-26T12:19:45.4297292+02:00",
+    "UpdatedDate": "2013-03-29T12:19:45.4297292+01:00",
+    "UpdatedBy": "vel",
+    "CreatedBy": "quas",
+    "TableName": "Luettgen, Schroeder and Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 621
       }
     }
   }

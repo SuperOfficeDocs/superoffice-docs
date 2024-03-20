@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 752,
-  "ERPProductKey": "aut"
+  "QuoteConnectionId": 417,
+  "ERPProductKey": "iusto"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 199,
-  "ERPProductKey": "enim",
-  "ERPPriceListKey": "repudiandae",
-  "Name": "Walter Inc and Sons",
-  "Description": "Centralized leading edge functionalities",
-  "Code": "et",
-  "PriceUnit": "et",
-  "QuantityUnit": "vel",
+  "ProductId": 839,
+  "ERPProductKey": "molestiae",
+  "ERPPriceListKey": "et",
+  "Name": "Huel, Frami and Wilderman",
+  "Description": "Secured discrete framework",
+  "Code": "est",
+  "PriceUnit": "distinctio",
+  "QuantityUnit": "quia",
   "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 29484.672,
-  "ItemNumber": "1225554",
+  "SubscriptionUnit": "distinctio",
+  "DefaultSubscriptionQuantity": 27312.809999999998,
+  "ItemNumber": "686589",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nam",
-  "ProductTypeKey": "hic",
-  "VAT": 14391.328,
-  "VATInfo": "velit",
-  "UnitCost": 18816.536,
-  "UnitMinimumPrice": 10364.137999999999,
-  "UnitListPrice": 11949.942,
+  "ProductFamilyKey": "accusamus",
+  "ProductTypeKey": "praesentium",
+  "VAT": 3760.7999999999997,
+  "VATInfo": "in",
+  "UnitCost": 5120.956,
+  "UnitMinimumPrice": 14422.668,
+  "UnitListPrice": 11636.542,
   "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "ducimus",
-  "Rights": "laboriosam",
-  "Rule": "dolores",
+  "Supplier": "dolores",
+  "SupplierCode": "aut",
+  "Rights": "minima",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Koss Group",
-      "Value": "similique",
+      "Name": "Altenwerth-Senger",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     },
     {
-      "Name": "Koss Group",
-      "Value": "similique",
+      "Name": "Altenwerth-Senger",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
-  "ExtraField1": "pariatur",
-  "ExtraField2": "sit",
-  "ExtraField3": "suscipit",
-  "ExtraField4": "facilis",
-  "ExtraField5": "sed",
-  "InStock": 10191.768,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "deleniti",
+  "ExtraField2": "et",
+  "ExtraField3": "inventore",
+  "ExtraField4": "ullam",
+  "ExtraField5": "et",
+  "InStock": 13930.63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

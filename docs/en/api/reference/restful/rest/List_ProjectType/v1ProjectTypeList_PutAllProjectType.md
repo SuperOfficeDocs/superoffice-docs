@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Deckow, Willms and Wisozk",
-    "Tooltip": "assumenda",
+    "Id": 446,
+    "Name": "Erdman Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 91,
-    "Rank": 32
+    "UdListDefinitionId": 386,
+    "Rank": 409
   },
   {
-    "Id": 255,
-    "Name": "Deckow, Willms and Wisozk",
-    "Tooltip": "assumenda",
+    "Id": 446,
+    "Name": "Erdman Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 91,
-    "Rank": 32
+    "UdListDefinitionId": 386,
+    "Rank": 409
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Heller-Reichel",
-    "Tooltip": "aut",
+    "Id": 178,
+    "Name": "Russel Group",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "UdListDefinitionId": 573,
-    "Rank": 11,
+    "UdListDefinitionId": 109,
+    "Rank": 162,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 975
       }
     }
   }

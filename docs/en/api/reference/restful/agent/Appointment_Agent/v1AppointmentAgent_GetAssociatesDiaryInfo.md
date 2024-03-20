@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    660,
-    603
+    233,
+    666
   ],
-  "StartTime": "1997-09-11T14:23:45.4063334+02:00",
-  "EndTime": "2006-11-26T14:23:45.4063334+01:00"
+  "StartTime": "2006-08-13T12:19:44.1800107+02:00",
+  "EndTime": "2007-06-04T12:19:44.1800107+02:00"
 }
 ```
 
@@ -107,24 +107,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 795,
+    "AppointmentId": 685,
     "AssociateId": 914,
-    "MotherId": 758,
-    "StartDate": "2006-12-13T14:23:45.4063334+01:00",
-    "EndDate": "2013-01-22T14:23:45.4063334+01:00",
+    "MotherId": 958,
+    "StartDate": "1998-05-07T12:19:44.1800107+02:00",
+    "EndDate": "1998-01-07T12:19:44.1800107+01:00",
     "ColorIndex": "BlueAlt1",
-    "Title": "aperiam",
-    "Agenda": "nihil",
-    "IsAllDay": false,
-    "IsBusy": true,
+    "Title": "eaque",
+    "Agenda": "sapiente",
+    "IsAllDay": true,
+    "IsBusy": false,
     "IsRecurring": false,
-    "IsVideoMeeting": false,
+    "IsVideoMeeting": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 121
       }
     }
   }

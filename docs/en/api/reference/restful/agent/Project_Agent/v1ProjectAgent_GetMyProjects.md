@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 235,
-    "Name": "Yost, Hammes and Schaden",
-    "Description": "Innovative incremental knowledge base",
+    "ProjectId": 841,
+    "Name": "Leuschke, Kemmer and Kling",
+    "Description": "Cloned bifurcated process improvement",
     "URL": "http://www.example.com/",
-    "Type": "officiis",
-    "AssociateId": 568,
-    "AssociateFullName": "Carmel Lynch",
-    "TypeId": 493,
-    "Updated": "2006-08-29T14:23:47.1755092+02:00",
-    "StatusId": 356,
-    "Status": "mollitia",
-    "TextId": 880,
-    "PublishTo": "2013-10-04T14:23:47.1755092+02:00",
-    "PublishFrom": "1998-10-30T14:23:47.1755092+01:00",
+    "Type": "cupiditate",
+    "AssociateId": 949,
+    "AssociateFullName": "Kareem Wolff",
+    "TypeId": 897,
+    "Updated": "2010-10-19T12:19:46.0233436+02:00",
+    "StatusId": 213,
+    "Status": "ex",
+    "TextId": 707,
+    "PublishTo": "2003-03-01T12:19:46.0233436+01:00",
+    "PublishFrom": "1997-08-27T12:19:46.0233436+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "361468",
-    "ActiveErpLinks": 699,
+    "ProjectNumber": "830641",
+    "ActiveErpLinks": 681,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 940
       }
     }
   }

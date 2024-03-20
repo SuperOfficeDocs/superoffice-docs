@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Little-West",
-  "Tooltip": "at",
+  "Id": 313,
+  "Name": "Kilback Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 146,
-  "Rank": 990
+  "UdListDefinitionId": 494,
+  "Rank": 821
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Blick Inc and Sons",
-  "Tooltip": "totam",
+  "Id": 365,
+  "Name": "Mante LLC",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 716,
-  "Rank": 881,
+  "UdListDefinitionId": 735,
+  "Rank": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

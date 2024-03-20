@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 999,
-  "TopicId": 138,
+  "ChatSessionId": 950,
+  "TopicId": 567,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "perspiciatis",
-  "CustomerName": "Hartmann-Gaylord",
-  "CustomerEmail": "casey@reichelfeeney.com",
-  "CustomerPhone": "882.398.6623",
+  "CustomerAlias": "ut",
+  "CustomerHost": "aliquam",
+  "CustomerName": "Effertz, Reichert and Davis",
+  "CustomerEmail": "crystel_kemmer@olsonrunte.biz",
+  "CustomerPhone": "115.644.4971 x091",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Stiedemann LLC",
+  "CustomerCompanyName": "Greenfelder, Douglas and Berge",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "maiores",
-  "WhenRequested": "2015-03-21T14:23:54.8658924+01:00",
-  "WhenStarted": "1999-05-20T14:23:54.8658924+02:00",
-  "WhenEnded": "2021-04-26T14:23:54.8658924+02:00",
-  "WhenIdle": "2009-03-25T14:23:54.8658924+01:00",
-  "WhenFetched": "2011-10-02T14:23:54.8658924+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 558,
-  "AlertLevel": 990,
-  "Rank": 965,
+  "FirstMessage": "dolore",
+  "LastMessage": "est",
+  "WhenRequested": "2008-09-16T12:19:53.1337165+02:00",
+  "WhenStarted": "2021-12-09T12:19:53.1337165+01:00",
+  "WhenEnded": "1997-05-03T12:19:53.1337165+02:00",
+  "WhenIdle": "1998-09-04T12:19:53.1337165+02:00",
+  "WhenFetched": "2016-12-09T12:19:53.1337165+01:00",
+  "SessionKey": "magni",
+  "InitialQueuePos": 407,
+  "AlertLevel": 742,
+  "Rank": 612,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 256,
+  "ChatbotIsActive": false,
+  "Rating": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

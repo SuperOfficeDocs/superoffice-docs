@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "error",
-  "Value": "dolorem",
-  "RecordId": 812,
-  "CreatedDate": "2023-07-18T14:23:55.195897+02:00",
-  "UpdatedDate": "2005-07-15T14:23:55.195897+02:00",
-  "UpdatedBy": "nemo",
-  "CreatedBy": "aut",
-  "TableName": "Weimann, McKenzie and Skiles"
+  "Key": "voluptatum",
+  "Value": "dolorum",
+  "RecordId": 795,
+  "CreatedDate": "2001-10-09T12:19:53.6023745+02:00",
+  "UpdatedDate": "2000-02-09T12:19:53.6023745+01:00",
+  "UpdatedBy": "expedita",
+  "CreatedBy": "sit",
+  "TableName": "Cronin Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "consequatur",
-  "RecordId": 539,
-  "CreatedDate": "2000-06-25T14:23:55.195897+02:00",
-  "UpdatedDate": "2017-07-09T14:23:55.195897+02:00",
-  "UpdatedBy": "atque",
-  "CreatedBy": "consequatur",
-  "TableName": "Feeney-Aufderhar",
+  "Key": "aspernatur",
+  "Value": "facilis",
+  "RecordId": 8,
+  "CreatedDate": "2023-05-08T12:19:53.6023745+02:00",
+  "UpdatedDate": "2011-06-05T12:19:53.6023745+02:00",
+  "UpdatedBy": "corrupti",
+  "CreatedBy": "sit",
+  "TableName": "Larkin, Marks and Wiza",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 526
     }
   }
 }

@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Gleason-Schmidt",
-    "Quitzon, Schmitt and Wolff"
+    "Satterfield Inc and Sons",
+    "Tromp-Lowe"
   ],
-  "Culture": "nihil"
+  "Culture": "non"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Waters Inc and Sons",
+    "ResourceName": "Stiedemann, Leuschke and Fritsch",
     "ResourceValue": "a",
-    "Culture": "repudiandae",
-    "IsActive": true,
+    "Culture": "est",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 721
       }
     }
   },
   {
-    "ResourceName": "Waters Inc and Sons",
+    "ResourceName": "Stiedemann, Leuschke and Fritsch",
     "ResourceValue": "a",
-    "Culture": "repudiandae",
-    "IsActive": true,
+    "Culture": "est",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 721
       }
     }
   }

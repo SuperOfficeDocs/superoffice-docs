@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 506,
-  "Name": "Ullrich, Wehner and Turner",
+  "TicketPriorityId": 427,
+  "Name": "Bergstrom, Zieme and Bogan",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 347,
+  "SortOrder": 866,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 322,
-  "MonStart": "2014-03-17T14:23:46.8942625+01:00",
-  "MonStop": "2003-07-30T14:23:46.8942625+02:00",
-  "TueStart": "1996-10-30T14:23:46.8942625+01:00",
-  "TueStop": "2023-02-07T14:23:46.8942625+01:00",
-  "WedStart": "2010-07-15T14:23:46.8942625+02:00",
-  "WedStop": "2006-08-16T14:23:46.8942625+02:00",
-  "ThuStart": "2020-07-04T14:23:46.8942625+02:00",
-  "ThuStop": "2021-03-04T14:23:46.8942625+01:00",
-  "FriStart": "2017-06-29T14:23:46.8942625+02:00",
-  "FriStop": "2016-02-24T14:23:46.8942625+01:00",
-  "SatStart": "2011-10-21T14:23:46.8942625+02:00",
-  "SatStop": "2021-02-25T14:23:46.8942625+01:00",
-  "SunStart": "2012-05-12T14:23:46.8942625+02:00",
-  "SunStop": "1999-12-05T14:23:46.8942625+01:00",
+  "Deadline": 445,
+  "MonStart": "2017-04-20T12:19:45.5703411+02:00",
+  "MonStop": "2017-08-11T12:19:45.5703411+02:00",
+  "TueStart": "1998-10-15T12:19:45.5703411+02:00",
+  "TueStop": "2018-01-25T12:19:45.5703411+01:00",
+  "WedStart": "2007-08-01T12:19:45.5703411+02:00",
+  "WedStop": "2000-05-03T12:19:45.5703411+02:00",
+  "ThuStart": "2017-04-16T12:19:45.5703411+02:00",
+  "ThuStop": "2000-12-19T12:19:45.5703411+01:00",
+  "FriStart": "2006-02-08T12:19:45.5703411+01:00",
+  "FriStop": "2008-01-11T12:19:45.5703411+01:00",
+  "SatStart": "2010-08-15T12:19:45.5703411+02:00",
+  "SatStop": "2001-01-23T12:19:45.5703411+01:00",
+  "SunStart": "2017-03-09T12:19:45.5703411+01:00",
+  "SunStop": "2002-04-16T12:19:45.5703411+02:00",
   "NonDates": [
-    "ad",
-    "corrupti"
+    "odit",
+    "fugiat"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 657,
-      "AlertLevel": 431,
-      "AlertTimeout": 990,
-      "Action": 407,
-      "DelegateTo": 952,
-      "ScriptId": 886,
-      "EmailTo": "esther.metz@mraz.info",
-      "SmsTo": "amet",
-      "ReplyTemplateIdCustomer": 435,
-      "ReplyTemplateIdUser": 985,
-      "ReplyTemplateIdCatmast": 421,
-      "ReplyTemplateIdEmail": 967,
-      "RtiCustomerSms": 915,
-      "ReplyTemplateIdUserSms": 291,
-      "ReplyTemplateIdCatmastSms": 888,
-      "ReplyTemplateIdSms": 478,
+      "TicketAlertId": 202,
+      "AlertLevel": 229,
+      "AlertTimeout": 895,
+      "Action": 182,
+      "DelegateTo": 572,
+      "ScriptId": 948,
+      "EmailTo": "henderson_koelpin@smitham.name",
+      "SmsTo": "esse",
+      "ReplyTemplateIdCustomer": 350,
+      "ReplyTemplateIdUser": 396,
+      "ReplyTemplateIdCatmast": 11,
+      "ReplyTemplateIdEmail": 665,
+      "RtiCustomerSms": 179,
+      "ReplyTemplateIdUserSms": 760,
+      "ReplyTemplateIdCatmastSms": 393,
+      "ReplyTemplateIdSms": 294,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

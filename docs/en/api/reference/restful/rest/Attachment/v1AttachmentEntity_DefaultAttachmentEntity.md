@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 88,
-  "Name": "Shields-Blanda",
-  "ContentType": "ut",
-  "AttSize": 994,
+  "AttachmentId": 863,
+  "Name": "Hyatt LLC",
+  "ContentType": "voluptatem",
+  "AttSize": 978,
   "InlineImage": false,
-  "ContentId": "quaerat",
-  "AuthKey": "alias",
-  "IsSafeFileExtension": false,
+  "ContentId": "dolorem",
+  "AuthKey": "quae",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 872
     }
   }
 }

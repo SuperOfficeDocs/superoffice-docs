@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "reiciendis"
+  "Context": "nihil"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "qui",
-    "ValueType": "quia",
-    "Mandatory": true,
-    "EncodedDisplayName": "Dickens, Cummings and Labadie",
-    "EncodedDisplayDescription": "Reactive needs-based parallelism",
-    "IconHint": "laborum",
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "facilis",
+    "ValueType": "temporibus",
+    "Mandatory": false,
+    "EncodedDisplayName": "Streich, Bergstrom and Swaniawski",
+    "EncodedDisplayDescription": "Diverse value-added product",
+    "IconHint": "sit",
     "ControlInfos": [
       {
-        "Type": "dolorum",
-        "Label": "voluptatem",
-        "Dimension": 188,
-        "ListProviderName": "Harris, Bauch and Mraz",
+        "Type": "ipsam",
+        "Label": "et",
+        "Dimension": 859,
+        "ListProviderName": "Windler Inc and Sons",
         "ListProviderExtraInfo": "non",
-        "ListProviderPrimaryKeyName": "West Inc and Sons",
-        "ListLeadText": "et",
+        "ListProviderPrimaryKeyName": "Casper-Morar",
+        "ListLeadText": "culpa",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 188
           }
         }
       }
     ],
-    "EncodedDataCaption": "molestiae",
-    "EncodedDataCaptionDescription": "Customizable solution-oriented open system",
-    "CurrentOperationType": "rerum",
+    "EncodedDataCaption": "voluptates",
+    "EncodedDataCaptionDescription": "Mandatory 24 hour monitoring",
+    "CurrentOperationType": "accusantium",
     "Values": [
-      "omnis",
-      "officia"
+      "quas",
+      "nulla"
     ],
     "DisplayValues": [
-      "nesciunt",
-      "reprehenderit"
+      "ducimus",
+      "consectetur"
     ],
     "OperationInfos": [
       {
-        "Key": "iusto",
-        "EncodedDisplayName": "Raynor Group",
+        "Key": "ut",
+        "EncodedDisplayName": "Zboncak LLC",
         "EncodedLeadTexts": [
-          "pariatur",
-          "facere"
+          "maiores",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 426
+            "FieldType": "System.Int32",
+            "FieldLength": 55
           }
         }
       },
       {
-        "Key": "iusto",
-        "EncodedDisplayName": "Raynor Group",
+        "Key": "ut",
+        "EncodedDisplayName": "Zboncak LLC",
         "EncodedLeadTexts": [
-          "pariatur",
-          "facere"
+          "maiores",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 426
+            "FieldType": "System.Int32",
+            "FieldLength": 55
           }
         }
       }

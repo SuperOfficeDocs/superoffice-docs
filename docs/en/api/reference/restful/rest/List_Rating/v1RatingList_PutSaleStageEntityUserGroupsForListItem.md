@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Dicki-Bednar",
-    "ToolTip": "Quis magnam possimus quo.",
-    "Deleted": true,
-    "Rank": 711,
-    "Type": "quod",
-    "ColorBlock": 740,
-    "IconHint": "exercitationem",
+    "Id": 823,
+    "Name": "Reichert-Mann",
+    "ToolTip": "Possimus natus.",
+    "Deleted": false,
+    "Rank": 708,
+    "Type": "occaecati",
+    "ColorBlock": 614,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "1997-02-25T14:23:56.2751981+01:00",
+    "LastChanged": "2007-03-04T12:19:54.789597+01:00",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Oberbrunner, Ritchie and Leffler",
-        "ToolTip": "Et et id omnis inventore soluta delectus.",
+        "Id": 581,
+        "Name": "Powlowski-Reichert",
+        "ToolTip": "Fugit occaecati.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "ratione",
-        "ColorBlock": 306,
-        "IconHint": "corporis",
+        "Rank": 987,
+        "Type": "sint",
+        "ColorBlock": 15,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2013-05-21T14:23:56.2751981+02:00",
+        "LastChanged": "2015-12-27T12:19:54.789597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Demario Botsford"
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mrs. Adolf Metz"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "aut",
+    "ExtraInfo": "nihil",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Miss Edison Jacinto Senger"
+    "FullName": "Prof. Brady Roob II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Collier LLC",
-    "ToolTip": "Ea pariatur rerum delectus praesentium.",
+    "Id": 606,
+    "Name": "Hamill Inc and Sons",
+    "ToolTip": "Quod labore nulla ipsam.",
     "Deleted": false,
-    "Rank": 890,
-    "Type": "ipsam",
-    "ColorBlock": 802,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2019-03-27T14:23:56.2908239+01:00",
+    "Rank": 290,
+    "Type": "aut",
+    "ColorBlock": 171,
+    "IconHint": "fuga",
+    "Selected": true,
+    "LastChanged": "2014-05-21T12:19:54.789597+02:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Steuber-Boyle",
-        "ToolTip": "Qui beatae ipsam dignissimos.",
+        "Id": 395,
+        "Name": "Bayer LLC",
+        "ToolTip": "Ipsam consectetur.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "harum",
-        "ColorBlock": 149,
-        "IconHint": "enim",
+        "Rank": 168,
+        "Type": "et",
+        "ColorBlock": 627,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2014-02-05T14:23:56.2908239+01:00",
+        "LastChanged": "2023-11-12T12:19:54.789597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Frederique Considine",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Mrs. Dawson Katrina Beer MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 123
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "nemo",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Keagan Schmeler II",
+    "FullName": "Ms. Darron Jaclyn Jast Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

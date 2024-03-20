@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Howell-Howell",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 666
+    "Id": 211,
+    "Name": "Waelchi Group",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "UdListDefinitionId": 635,
+    "Rank": 736
   },
   {
-    "Id": 877,
-    "Name": "Howell-Howell",
-    "Tooltip": "magnam",
-    "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 666
+    "Id": 211,
+    "Name": "Waelchi Group",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "UdListDefinitionId": 635,
+    "Rank": 736
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "perspiciatis",
-    "Deleted": false,
-    "UdListDefinitionId": 491,
-    "Rank": 631,
+    "Id": 981,
+    "Name": "Murray, Shields and Yost",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 840,
+    "Rank": 746,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

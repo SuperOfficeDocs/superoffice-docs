@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 473,
-    "Name": "Predovic-Koelpin",
+    "TicketPriorityId": 399,
+    "Name": "Durgan Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 600,
+    "SortOrder": 670,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 227,
-    "MonStart": "2014-10-12T14:23:56.417076+02:00",
-    "MonStop": "2010-12-04T14:23:56.417076+01:00",
-    "TueStart": "2019-12-28T14:23:56.417076+01:00",
-    "TueStop": "2024-01-31T14:23:56.417076+01:00",
-    "WedStart": "2012-02-21T14:23:56.417076+01:00",
-    "WedStop": "2006-11-05T14:23:56.417076+01:00",
-    "ThuStart": "2014-05-12T14:23:56.417076+02:00",
-    "ThuStop": "2006-05-21T14:23:56.417076+02:00",
-    "FriStart": "2000-12-09T14:23:56.417076+01:00",
-    "FriStop": "2008-06-04T14:23:56.417076+02:00",
-    "SatStart": "1997-12-13T14:23:56.417076+01:00",
-    "SatStop": "1999-04-26T14:23:56.417076+02:00",
-    "SunStart": "2021-09-05T14:23:56.417076+02:00",
-    "SunStop": "2005-07-21T14:23:56.417076+02:00",
+    "Deadline": 260,
+    "MonStart": "2008-05-09T12:19:54.898948+02:00",
+    "MonStop": "2001-05-24T12:19:54.898948+02:00",
+    "TueStart": "2019-03-21T12:19:54.898948+01:00",
+    "TueStop": "2018-06-26T12:19:54.898948+02:00",
+    "WedStart": "2003-11-24T12:19:54.898948+01:00",
+    "WedStop": "2010-05-19T12:19:54.898948+02:00",
+    "ThuStart": "1998-02-25T12:19:54.898948+01:00",
+    "ThuStop": "2000-02-29T12:19:54.898948+01:00",
+    "FriStart": "2021-04-14T12:19:54.898948+02:00",
+    "FriStop": "2011-07-01T12:19:54.898948+02:00",
+    "SatStart": "2008-03-29T12:19:54.898948+01:00",
+    "SatStop": "2001-03-09T12:19:54.898948+01:00",
+    "SunStart": "2021-11-18T12:19:54.898948+01:00",
+    "SunStop": "2011-12-24T12:19:54.898948+01:00",
     "NonDates": [
-      "cupiditate",
-      "eos"
+      "est",
+      "consectetur"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 266,
-        "AlertLevel": 640,
-        "AlertTimeout": 967,
-        "Action": 491,
-        "DelegateTo": 73,
-        "ScriptId": 732,
-        "EmailTo": "kasandra@ohara.name",
-        "SmsTo": "illo",
-        "ReplyTemplateIdCustomer": 560,
-        "ReplyTemplateIdUser": 50,
-        "ReplyTemplateIdCatmast": 21,
-        "ReplyTemplateIdEmail": 328,
-        "RtiCustomerSms": 261,
-        "ReplyTemplateIdUserSms": 498,
-        "ReplyTemplateIdCatmastSms": 830,
-        "ReplyTemplateIdSms": 881,
+        "TicketAlertId": 874,
+        "AlertLevel": 106,
+        "AlertTimeout": 487,
+        "Action": 900,
+        "DelegateTo": 871,
+        "ScriptId": 521,
+        "EmailTo": "brandon@leffler.uk",
+        "SmsTo": "commodi",
+        "ReplyTemplateIdCustomer": 378,
+        "ReplyTemplateIdUser": 314,
+        "ReplyTemplateIdCatmast": 488,
+        "ReplyTemplateIdEmail": 995,
+        "RtiCustomerSms": 272,
+        "ReplyTemplateIdUserSms": 259,
+        "ReplyTemplateIdCatmastSms": 259,
+        "ReplyTemplateIdSms": 281,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 991
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 734
       }
     }
   }

@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stanton Inc and Sons",
-  "ProviderName": "Skiles Group",
+  "GuiName": "Bartoletti-Johns",
+  "ProviderName": "Windler Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Ondricka-Quigley",
+      "Name": "Steuber, Effertz and Herzog",
       "Direction": "ASC"
     },
     {
-      "Name": "Ondricka-Quigley",
+      "Name": "Steuber, Effertz and Herzog",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ankunding, Hoeger and Steuber",
-      "Operator": "molestiae",
+      "Name": "Dicki Group",
+      "Operator": "velit",
       "Values": [
-        "sed",
-        "totam"
+        "voluptatum",
+        "temporibus"
       ],
       "DisplayValues": [
-        "dolor",
-        "et"
+        "maiores",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 994,
+      "InterParenthesis": 111,
       "InterOperator": "And",
-      "UniqueHash": 427
+      "UniqueHash": 255
     }
   ],
   "Entities": [
-    "minus",
-    "voluptatem"
+    "ratione",
+    "eum"
   ],
-  "Page": 520,
-  "PageSize": 374,
-  "Context": "molestiae"
+  "Page": 792,
+  "PageSize": 117,
+  "Context": "minima"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Predovic, Littel and Rippin",
-    "PrimaryKey": 159,
+    "EntityName": "Hahn Group",
+    "PrimaryKey": 895,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "eos",
-        "TooltipHint": "sed",
-        "LinkHint": "eum"
+        "DisplayValue": "maiores",
+        "TooltipHint": "fugiat",
+        "LinkHint": "in"
       }
     },
-    "LinkHint": "ipsa",
-    "StyleHint": "voluptas",
+    "LinkHint": "deserunt",
+    "StyleHint": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 129
       }
     }
   }

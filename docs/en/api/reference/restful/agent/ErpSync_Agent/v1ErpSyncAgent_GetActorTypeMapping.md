@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 765,
+  "ErpConnectionId": 941,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 846,
-  "IsActive": false,
+  "ErpConnectionId": 444,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 550,
-      "CrmFieldKey": "nemo",
-      "CrmDisplayName": "Murazik, Littel and Kessler",
-      "CrmDisplayTooltip": "voluptates",
-      "ErpFieldKey": "ipsum",
+      "ErpFieldId": 759,
+      "CrmFieldKey": "nihil",
+      "CrmDisplayName": "O'Connell LLC",
+      "CrmDisplayTooltip": "velit",
+      "ErpFieldKey": "distinctio",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Oberbrunner-Jacobs",
-      "ErpDisplayTooltip": "optio",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Johnston Group",
+      "ErpDisplayTooltip": "aut",
+      "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "consequuntur",
+      "ListReference": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 684
     }
   }
 }

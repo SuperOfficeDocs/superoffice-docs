@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "Wisoky, Yost and Cronin",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "UdListDefinitionId": 575,
-    "Rank": 955
+    "Id": 747,
+    "Name": "Dickinson-Heidenreich",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 473,
+    "Rank": 800
   },
   {
-    "Id": 640,
-    "Name": "Wisoky, Yost and Cronin",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "UdListDefinitionId": 575,
-    "Rank": 955
+    "Id": 747,
+    "Name": "Dickinson-Heidenreich",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "UdListDefinitionId": 473,
+    "Rank": 800
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Gislason-Brown",
-    "Tooltip": "fuga",
+    "Id": 978,
+    "Name": "Thiel-Wehner",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 454,
-    "Rank": 784,
+    "UdListDefinitionId": 476,
+    "Rank": 384,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 244
       }
     }
   }

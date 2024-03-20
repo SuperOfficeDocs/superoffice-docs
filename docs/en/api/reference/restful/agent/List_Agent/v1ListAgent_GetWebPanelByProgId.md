@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "doloremque"
+  "ProgId": "at"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 435,
-  "Name": "Jenkins, Homenick and Kuphal",
-  "Tooltip": "eius",
+  "WebPanelId": 878,
+  "Name": "Dooley-Kuhic",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 284,
+  "Rank": 940,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Hickle-Gerlach",
+  "ShowInStatusBar": true,
+  "WindowName": "Yundt-Toy",
   "Url": "http://www.example.com/",
-  "ProgId": "doloribus",
-  "Icon": 596,
+  "ProgId": "veritatis",
+  "Icon": 138,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldLength": 9
     }
   }
 }

@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    522,
-    13
+    338,
+    286
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 776,
-    "ColumnId": 609,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 981,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 648,
-    "FieldTop": 166,
+    "UDefFieldId": 74,
+    "ColumnId": 99,
+    "FieldDefault": "in",
+    "FieldHeight": 969,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 962,
+    "FieldTop": 430,
     "FieldType": "Checkbox",
-    "FieldWidth": 915,
-    "FormatMask": "occaecati",
+    "FieldWidth": 405,
+    "FormatMask": "voluptas",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 849,
-    "LabelLeft": 311,
-    "LabelTop": 367,
-    "LabelWidth": 636,
-    "LastVersionId": 151,
-    "ListTableId": 582,
-    "IsMandatory": true,
+    "LabelHeight": 910,
+    "LabelLeft": 124,
+    "LabelTop": 720,
+    "LabelWidth": 642,
+    "LastVersionId": 603,
+    "ListTableId": 365,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 482,
-    "ProgId": "aliquam",
-    "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 650,
-    "TextLength": 302,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 39,
-    "UDListDefinitionId": 746,
+    "Page1LineNo": 932,
+    "ProgId": "iusto",
+    "IsReadOnly": true,
+    "ShortLabel": "sequi",
+    "TabOrder": 162,
+    "TextLength": 540,
+    "Tooltip": "aspernatur",
+    "UdefIdentity": 315,
+    "UDListDefinitionId": 474,
     "Justification": "Center",
-    "Version": 214,
-    "TemplateVariableName": "Terry-Cassin",
-    "HasBeenPublished": false,
-    "MdoListName": "Bins Inc and Sons",
+    "Version": 928,
+    "TemplateVariableName": "Monahan-Corkery",
+    "HasBeenPublished": true,
+    "MdoListName": "Goyette, Mills and Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 526
       }
     }
   }

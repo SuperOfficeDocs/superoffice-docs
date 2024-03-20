@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wyman LLC",
-  "ProviderName": "Jakubowski LLC",
-  "SortOrder": "qui",
-  "Restriction": "labore",
-  "Entities": "aperiam",
-  "Page": 123,
-  "PageSize": 29
+  "GuiName": "Volkman Inc and Sons",
+  "ProviderName": "Dicki Group",
+  "SortOrder": "quas",
+  "Restriction": "mollitia",
+  "Entities": "nulla",
+  "Page": 521,
+  "PageSize": 764
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Altenwerth Inc and Sons",
-    "PrimaryKey": 751,
+    "EntityName": "Mayert, Watsica and Volkman",
+    "PrimaryKey": 730,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "nihil",
-        "LinkHint": "adipisci"
+        "DisplayValue": "sed",
+        "TooltipHint": "omnis",
+        "LinkHint": "omnis"
       }
     },
-    "LinkHint": "blanditiis",
-    "StyleHint": "natus",
+    "LinkHint": "doloremque",
+    "StyleHint": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bechtelar Group",
-  "Columns": "quasi",
-  "SortOrder": "est",
-  "Restriction": "praesentium",
-  "Entities": "est",
-  "Page": 470,
-  "PageSize": 361,
-  "Options": "error"
+  "ProviderName": "Kozey Inc and Sons",
+  "Columns": "molestiae",
+  "SortOrder": "corrupti",
+  "Restriction": "quia",
+  "Entities": "non",
+  "Page": 436,
+  "PageSize": 126,
+  "Options": "voluptatem"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 674,
+  "RowCount": 951,
   "Rows": [
     {
-      "EntityName": "Dooley, Ziemann and Konopelski",
-      "PrimaryKey": 954,
+      "EntityName": "Kuphal, Bahringer and Crona",
+      "PrimaryKey": 780,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "doloribus",
-          "LinkHint": "id"
+          "DisplayValue": "iure",
+          "TooltipHint": "optio",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "aperiam",
+      "LinkHint": "odio",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 887
+          "FieldType": "System.Int32",
+          "FieldLength": 367
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 368
     }
   }
 }

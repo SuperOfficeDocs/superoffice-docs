@@ -75,28 +75,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cassin Group",
+  "ProviderName": "Bernhard, Parker and Pagac",
   "Restrictions": [
     {
-      "Name": "Okuneva LLC",
-      "Operator": "omnis",
+      "Name": "Herman Group",
+      "Operator": "laborum",
       "Values": [
-        "est",
-        "placeat"
+        "nisi",
+        "et"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "architecto"
+        "ab",
+        "explicabo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 809,
+      "InterParenthesis": 543,
       "InterOperator": "And",
-      "UniqueHash": 765
+      "UniqueHash": 847
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  708,
-  61
+  379,
+  647
 ]
 ```

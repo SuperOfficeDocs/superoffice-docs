@@ -89,18 +89,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 330,
-  "Name": "Stark Group",
-  "Description": "Optional reciprocal service-desk",
+  "ReportLabelLayoutId": 104,
+  "Name": "Feest, Greenholt and Bergnaum",
+  "Description": "Mandatory eco-centric functionalities",
   "Orientation": "Landscape",
-  "PaperWidth": 972,
-  "PaperHeight": 989,
-  "LeftMargin": 251,
-  "RightMargin": 119,
-  "TopMargin": 171,
-  "BottomMargin": 803,
-  "CountColumns": 29,
-  "CountRows": 811
+  "PaperWidth": 582,
+  "PaperHeight": 55,
+  "LeftMargin": 527,
+  "RightMargin": 40,
+  "TopMargin": 585,
+  "BottomMargin": 385,
+  "CountColumns": 535,
+  "CountRows": 563
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 742,
-  "Name": "Kemmer, Parker and Rolfson",
-  "Description": "Horizontal human-resource task-force",
+  "ReportLabelLayoutId": 557,
+  "Name": "Harber Group",
+  "Description": "Multi-tiered full-range standardization",
   "Orientation": "Landscape",
-  "PaperWidth": 190,
-  "PaperHeight": 210,
-  "LeftMargin": 391,
-  "RightMargin": 142,
-  "TopMargin": 330,
-  "BottomMargin": 919,
-  "CountColumns": 211,
-  "CountRows": 582,
+  "PaperWidth": 371,
+  "PaperHeight": 364,
+  "LeftMargin": 841,
+  "RightMargin": 49,
+  "TopMargin": 40,
+  "BottomMargin": 193,
+  "CountColumns": 35,
+  "CountRows": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

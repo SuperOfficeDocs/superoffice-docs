@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 248,
-  "StartTime": "2021-07-22T14:23:46.2824577+02:00",
-  "EndTime": "2016-04-01T14:23:46.2824577+02:00",
-  "Count": 953,
-  "DocumentTemplateId": 394
+  "PersonId": 532,
+  "StartTime": "2005-04-24T12:19:45.0704356+02:00",
+  "EndTime": "2020-12-08T12:19:45.0704356+01:00",
+  "Count": 865,
+  "DocumentTemplateId": 864
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 734,
-    "Attention": "officiis",
-    "Header": "magni",
-    "Name": "Funk LLC",
-    "OurRef": "id",
-    "YourRef": "sit",
-    "Description": "Grass-roots even-keeled software",
-    "DocumentTemplate": "fugiat",
-    "IsPublished": true,
-    "PersonId": 753,
-    "PersonFullName": "Selmer Mayer",
-    "AssociateFullName": "Gust Mertz",
-    "ContactId": 792,
-    "ContactName": "Harber-Gaylord",
-    "ProjectId": 952,
-    "ProjectName": "Dickinson Inc and Sons",
-    "AssociateId": 641,
-    "Snum": 384,
-    "SaleId": 982,
-    "SaleName": "McGlynn-Rath",
+    "DocumentId": 671,
+    "Attention": "illo",
+    "Header": "recusandae",
+    "Name": "Bosco-Ankunding",
+    "OurRef": "nulla",
+    "YourRef": "non",
+    "Description": "Persistent homogeneous synergy",
+    "DocumentTemplate": "quia",
+    "IsPublished": false,
+    "PersonId": 774,
+    "PersonFullName": "Dulce Borer",
+    "AssociateFullName": "Dr. Cortney Padberg",
+    "ContactId": 107,
+    "ContactName": "Kuphal, Moen and Zulauf",
+    "ProjectId": 167,
+    "ProjectName": "Keeling-Rice",
+    "AssociateId": 129,
+    "Snum": 722,
+    "SaleId": 808,
+    "SaleName": "Gottlieb-Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 505
       }
     }
   }

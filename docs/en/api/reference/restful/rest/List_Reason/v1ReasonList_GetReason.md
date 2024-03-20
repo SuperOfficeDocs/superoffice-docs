@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Bailey-Abernathy",
-  "Tooltip": "illum",
+  "Id": 643,
+  "Name": "Russel, Nader and Howe",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 200,
-  "Rank": 337,
+  "UdListDefinitionId": 481,
+  "Rank": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

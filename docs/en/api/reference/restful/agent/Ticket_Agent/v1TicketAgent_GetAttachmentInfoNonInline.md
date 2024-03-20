@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 445
+  "TicketMessageEntityId": 255
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 297,
-    "Name": "Hills-Cronin",
-    "ContentType": "quo",
-    "AttSize": 536,
+    "AttachmentId": 849,
+    "Name": "Huel LLC",
+    "ContentType": "accusamus",
+    "AttSize": 198,
     "InlineImage": false,
-    "ContentId": "laborum",
-    "AuthKey": "occaecati",
-    "IsSafeFileExtension": false,
+    "ContentId": "delectus",
+    "AuthKey": "quia",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 272
       }
     }
   }

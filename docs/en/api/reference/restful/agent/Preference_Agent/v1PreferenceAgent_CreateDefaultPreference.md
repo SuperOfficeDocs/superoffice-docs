@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eius",
+  "RawValue": "ut",
   "Specification": null,
-  "DisplayValue": "voluptatem",
-  "DisplayTooltip": "repellendus",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 263,
-  "PrefDescId": 807,
-  "TableName": "Grimes Group",
-  "UserPreferenceId": 28,
+  "TargetId": 291,
+  "PrefDescId": 773,
+  "TableName": "Stroman, Wisozk and Douglas",
+  "UserPreferenceId": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   }
 }

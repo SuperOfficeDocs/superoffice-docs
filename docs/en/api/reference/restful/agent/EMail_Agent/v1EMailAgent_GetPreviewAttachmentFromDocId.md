@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 398,
-  "AttachmentId": "qui"
+  "DocId": 854,
+  "AttachmentId": "neque"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse disintermediate toolset",
-  "Filename": "quibusdam",
-  "Size": 120,
-  "Type": "necessitatibus",
-  "Encoding": "sed",
-  "Id": "sint",
-  "Disposition": "molestiae",
-  "IsSafeFileExtension": true,
+  "Description": "Persevering asynchronous monitoring",
+  "Filename": "non",
+  "Size": 671,
+  "Type": "explicabo",
+  "Encoding": "rerum",
+  "Id": "enim",
+  "Disposition": "dolore",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

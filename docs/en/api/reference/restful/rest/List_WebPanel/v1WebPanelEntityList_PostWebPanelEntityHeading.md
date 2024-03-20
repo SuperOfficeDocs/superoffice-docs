@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 624,
-  "Name": "Daugherty-O'Connell",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 482,
-  "UdListDefinitionId": 229
+  "HeadingId": 303,
+  "Name": "Lindgren LLC",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "Rank": 282,
+  "UdListDefinitionId": 107
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 320,
-  "Name": "Stracke-Lowe",
-  "Tooltip": "illo",
+  "HeadingId": 34,
+  "Name": "Marvin Inc and Sons",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 365,
-  "UdListDefinitionId": 915,
+  "Rank": 528,
+  "UdListDefinitionId": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 228
     }
   }
 }

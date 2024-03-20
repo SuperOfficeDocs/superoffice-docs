@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Hagenes, Hansen and Fisher",
-    "ToolTip": "Accusantium adipisci sed ut.",
-    "Deleted": false,
-    "Rank": 56,
-    "Type": "atque",
-    "ColorBlock": 26,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2017-02-12T14:23:56.1970747+01:00",
+    "Id": 589,
+    "Name": "Swift-Balistreri",
+    "ToolTip": "Facilis vel.",
+    "Deleted": true,
+    "Rank": 324,
+    "Type": "est",
+    "ColorBlock": 311,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2012-10-18T12:19:54.6958722+02:00",
     "ChildItems": [
       {
-        "Id": 366,
-        "Name": "VonRueden Group",
-        "ToolTip": "Doloremque iure.",
-        "Deleted": true,
-        "Rank": 304,
-        "Type": "mollitia",
-        "ColorBlock": 954,
-        "IconHint": "nobis",
+        "Id": 147,
+        "Name": "Prohaska-Yundt",
+        "ToolTip": "Illo ratione aut maiores quod autem eveniet.",
+        "Deleted": false,
+        "Rank": 437,
+        "Type": "facilis",
+        "ColorBlock": 45,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1998-11-20T14:23:56.1970747+01:00",
+        "LastChanged": "2003-06-08T12:19:54.6958722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "provident",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Fausto Franecki",
+        "FullName": "Micheal Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 784
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Darien Kamron Koss DDS",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Mr. Carlee Wuckert Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 874
+        "FieldLength": 185
       }
     }
   }

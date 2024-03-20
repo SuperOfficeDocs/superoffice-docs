@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "VonRueden-Strosin",
-    "ToolTip": "Voluptas itaque officiis.",
+    "Id": 764,
+    "Name": "Kessler-Hansen",
+    "ToolTip": "Id et.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "nisi",
-    "ColorBlock": 919,
-    "IconHint": "voluptates",
+    "Rank": 605,
+    "Type": "est",
+    "ColorBlock": 772,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2004-06-30T14:23:56.2595732+02:00",
+    "LastChanged": "2018-08-14T12:19:54.7583539+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Towne-Satterfield",
-        "ToolTip": "Amet iure.",
-        "Deleted": false,
-        "Rank": 678,
-        "Type": "iusto",
-        "ColorBlock": 104,
-        "IconHint": "est",
+        "Id": 525,
+        "Name": "Nikolaus, Bechtelar and Yundt",
+        "ToolTip": "Temporibus cupiditate molestias tempore aliquam.",
+        "Deleted": true,
+        "Rank": 604,
+        "Type": "et",
+        "ColorBlock": 301,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2002-10-27T14:23:56.2595732+01:00",
+        "LastChanged": "1997-03-06T12:19:54.7583539+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "rerum",
+        "ExtraInfo": "quasi",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Lucious Vickie Howe DVM"
+        "FullName": "Lenora Gutkowski"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "rerum",
+    "ExtraInfo": "hic",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Justus Mante"
+    "FullName": "Miss Morgan Gina Beer PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Lindgren, Braun and Schaden",
-    "ToolTip": "Eum sed.",
-    "Deleted": true,
-    "Rank": 619,
-    "Type": "aut",
-    "ColorBlock": 312,
-    "IconHint": "dolorem",
+    "Id": 762,
+    "Name": "Moen-Hagenes",
+    "ToolTip": "Velit est possimus consequatur quis deserunt consequuntur.",
+    "Deleted": false,
+    "Rank": 795,
+    "Type": "enim",
+    "ColorBlock": 32,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2010-09-21T14:23:56.2595732+02:00",
+    "LastChanged": "2018-10-08T12:19:54.7583539+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Powlowski, Mills and Hoeger",
-        "ToolTip": "Ea placeat omnis magnam consequatur.",
-        "Deleted": false,
-        "Rank": 450,
-        "Type": "assumenda",
-        "ColorBlock": 677,
-        "IconHint": "cumque",
+        "Id": 884,
+        "Name": "Mante, Bauch and Rosenbaum",
+        "ToolTip": "Ipsa in cum eaque.",
+        "Deleted": true,
+        "Rank": 207,
+        "Type": "doloremque",
+        "ColorBlock": 931,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2012-09-17T14:23:56.2595732+02:00",
+        "LastChanged": "2008-09-20T12:19:54.7739754+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Alec Nicolas Jr.",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Meda Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 862
+            "FieldType": "System.Int32",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "error",
+    "ExtraInfo": "quasi",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Cornelius McGlynn DDS",
+    "FullName": "Prof. Owen Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldLength": 717
       }
     }
   }

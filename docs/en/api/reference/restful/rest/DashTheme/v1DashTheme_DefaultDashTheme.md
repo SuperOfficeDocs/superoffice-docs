@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 199,
-  "Name": "Mayer, Smith and Kemmer",
-  "Config": "sequi",
-  "Rank": 213,
-  "Client": "maxime",
-  "Style": "nam",
+  "DashboardThemeId": 404,
+  "Name": "Berge-Bartoletti",
+  "Config": "minus",
+  "Rank": 653,
+  "Client": "exercitationem",
+  "Style": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

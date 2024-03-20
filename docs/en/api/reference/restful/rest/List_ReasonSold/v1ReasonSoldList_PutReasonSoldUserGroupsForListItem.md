@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Murphy LLC",
-    "ToolTip": "Non enim aut quis sint.",
-    "Deleted": true,
-    "Rank": 258,
-    "Type": "a",
-    "ColorBlock": 416,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2010-04-04T14:23:56.3064496+02:00",
+    "Id": 231,
+    "Name": "Weimann, Kessler and Schulist",
+    "ToolTip": "Voluptas totam.",
+    "Deleted": false,
+    "Rank": 590,
+    "Type": "rerum",
+    "ColorBlock": 656,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2004-09-19T12:19:54.8052144+02:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Blick Group",
-        "ToolTip": "Deserunt facere qui qui mollitia ut.",
-        "Deleted": false,
-        "Rank": 822,
-        "Type": "sapiente",
-        "ColorBlock": 378,
-        "IconHint": "non",
+        "Id": 696,
+        "Name": "O'Kon-Gibson",
+        "ToolTip": "Reprehenderit molestiae iure architecto.",
+        "Deleted": true,
+        "Rank": 452,
+        "Type": "libero",
+        "ColorBlock": 543,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2021-09-13T14:23:56.3064496+02:00",
+        "LastChanged": "1997-01-21T12:19:54.8052144+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Dr. Hayden Nolan Brown II"
+        "ExtraInfo": "fuga",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Miss Jacinto Kulas"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Reid Schaefer"
+    "ExtraInfo": "recusandae",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Ms. Jeramie Friedrich Reichel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Hand LLC",
-    "ToolTip": "Eum distinctio amet similique.",
-    "Deleted": false,
-    "Rank": 813,
-    "Type": "minima",
-    "ColorBlock": 441,
-    "IconHint": "ut",
+    "Id": 45,
+    "Name": "Koelpin Inc and Sons",
+    "ToolTip": "Beatae accusantium non ab fugiat.",
+    "Deleted": true,
+    "Rank": 142,
+    "Type": "ipsum",
+    "ColorBlock": 70,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2008-11-12T14:23:56.3064496+01:00",
+    "LastChanged": "2010-04-08T12:19:54.8052144+02:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Goyette-Mann",
-        "ToolTip": "Praesentium natus ut reiciendis.",
-        "Deleted": false,
-        "Rank": 716,
-        "Type": "nam",
-        "ColorBlock": 342,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2013-07-14T14:23:56.3064496+02:00",
+        "Id": 735,
+        "Name": "Howell Inc and Sons",
+        "ToolTip": "Fuga sit eveniet alias autem velit.",
+        "Deleted": true,
+        "Rank": 436,
+        "Type": "fuga",
+        "ColorBlock": 353,
+        "IconHint": "quidem",
+        "Selected": false,
+        "LastChanged": "2008-04-12T12:19:54.8052144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mr. Lexi Orville Gottlieb",
+        "ExtraInfo": "delectus",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Rafael Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 327
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "aut",
+    "StyleHint": "cupiditate",
     "Hidden": true,
-    "FullName": "Dejon Barrows",
+    "FullName": "Letha Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 494
       }
     }
   }

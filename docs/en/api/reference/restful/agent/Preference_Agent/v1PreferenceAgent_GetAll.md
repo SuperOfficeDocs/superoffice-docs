@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 52,
-    "Section": "pariatur",
-    "Key": "modi",
-    "Name": "Howell-Torphy",
+    "PrefDescId": 47,
+    "Section": "necessitatibus",
+    "Key": "illum",
+    "Name": "Russel-Hoppe",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Managed exuding service-desk",
-    "IsBuiltin": false,
-    "TableName": "Douglas-Nikolaus",
-    "UserDefinedListId": 328,
-    "Rank": 199,
-    "SubGroup": "eum",
-    "MinLevel": 1000,
-    "MaxValue": 363,
-    "MinValue": 88,
-    "RequiredLicense": "sed",
+    "Description": "Devolved intermediate challenge",
+    "IsBuiltin": true,
+    "TableName": "Johnson-Stehr",
+    "UserDefinedListId": 489,
+    "Rank": 843,
+    "SubGroup": "cumque",
+    "MinLevel": 216,
+    "MaxValue": 553,
+    "MinValue": 276,
+    "RequiredLicense": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

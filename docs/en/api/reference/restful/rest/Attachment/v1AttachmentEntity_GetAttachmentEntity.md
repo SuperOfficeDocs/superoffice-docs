@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 373,
-  "Name": "Pacocha, Gislason and Reinger",
-  "ContentType": "et",
-  "AttSize": 781,
+  "AttachmentId": 41,
+  "Name": "Hand Group",
+  "ContentType": "unde",
+  "AttSize": 927,
   "InlineImage": true,
-  "ContentId": "velit",
-  "AuthKey": "consequatur",
+  "ContentId": "voluptatem",
+  "AuthKey": "beatae",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 633
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

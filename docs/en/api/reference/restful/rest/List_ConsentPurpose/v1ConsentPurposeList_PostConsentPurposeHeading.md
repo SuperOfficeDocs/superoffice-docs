@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Erdman-Oberbrunner",
-  "Tooltip": "voluptas",
+  "HeadingId": 930,
+  "Name": "Wunsch, Wilkinson and Hamill",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 561,
-  "UdListDefinitionId": 105
+  "Rank": 292,
+  "UdListDefinitionId": 996
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 475,
-  "Name": "Cassin Group",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 13,
-  "UdListDefinitionId": 765,
+  "HeadingId": 746,
+  "Name": "Berge LLC",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 835,
+  "UdListDefinitionId": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "eos",
-      "Key": "possimus"
+      "Section": "et",
+      "Key": "dolorem"
     },
     {
-      "Section": "eos",
-      "Key": "possimus"
+      "Section": "et",
+      "Key": "dolorem"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "iusto",
+    "RawValue": "et",
     "Specification": null,
-    "DisplayValue": "velit",
-    "DisplayTooltip": "iure",
+    "DisplayValue": "veniam",
+    "DisplayTooltip": "molestiae",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 366,
-    "PrefDescId": 29,
-    "TableName": "Frami-Weimann",
-    "UserPreferenceId": 504,
+    "TargetId": 420,
+    "PrefDescId": 16,
+    "TableName": "Bogisich-O'Reilly",
+    "UserPreferenceId": 195,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldLength": 564
       }
     }
   }

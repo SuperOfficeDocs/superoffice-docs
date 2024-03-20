@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 816,
-  "SaleId": 534,
-  "QuoteConnectionId": 443,
+  "QuoteId": 377,
+  "SaleId": 983,
+  "QuoteConnectionId": 965,
   "ERPQuoteKey": "repellat",
-  "ERPOrderKey": "est",
-  "ActiveQuoteVersionId": 65,
-  "AcceptedQuoteAlternativeId": 925,
-  "UseValuesFromQuote": 235,
-  "DocumentId": 567,
-  "PoNumber": "816177",
-  "OrderComment": "modi",
-  "PreferredEmailCulture": "willy@waters.info",
+  "ERPOrderKey": "blanditiis",
+  "ActiveQuoteVersionId": 234,
+  "AcceptedQuoteAlternativeId": 75,
+  "UseValuesFromQuote": 519,
+  "DocumentId": 324,
+  "PoNumber": "1488918",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "kallie@kerlukeheathcote.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 467,
-      "ERPQuoteVersionKey": "est",
-      "QuoteId": 471,
-      "Description": "Optional hybrid customer loyalty",
-      "Number": "1035816",
+      "QuoteVersionId": 865,
+      "ERPQuoteVersionKey": "ducimus",
+      "QuoteId": 406,
+      "Description": "Diverse systemic ability",
+      "Number": "1802154",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 605,
-      "SentDate": "2013-01-20T14:23:47.2536317+01:00",
-      "FollowupId": 446,
-      "ExpirationDate": "2016-12-27T14:23:47.2536317+01:00",
-      "DeliveryCountryId": 628,
+      "LikelyQuoteAlternativeId": 927,
+      "SentDate": "2011-08-14T12:19:46.1014395+02:00",
+      "FollowupId": 598,
+      "ExpirationDate": "2008-05-02T12:19:46.1014395+02:00",
+      "DeliveryCountryId": 421,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 743,
+      "InvoiceCountryId": 179,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "sint",
-      "ERPPaymentTypeKey": "rem",
-      "ERPDeliveryTermsKey": "ut",
-      "ERPDeliveryTypeKey": "quam",
-      "Rank": 686,
-      "ApprovedBy": 939,
-      "ApprovedText": "nobis",
-      "ApprovedRegisteredBy": 393,
-      "ApprovedRegisteredDate": "1996-12-03T14:23:47.2536317+01:00",
-      "ExtraField1": "unde",
-      "ExtraField2": "maiores",
-      "ExtraField3": "rerum",
-      "ExtraField4": "ratione",
-      "ExtraField5": "quod",
-      "LastRecalculated": "2015-01-10T14:23:47.2536317+01:00",
-      "Updated": "2014-03-11T14:23:47.2536317+01:00",
-      "UpdatedAssociateId": 356,
-      "Registered": "2023-11-06T14:23:47.2536317+01:00",
-      "RegisteredAssociateId": 647,
-      "RequestAssociateId": 30,
-      "RequestComment": "voluptatibus",
+      "ERPPaymentTermsKey": "ratione",
+      "ERPPaymentTypeKey": "aliquid",
+      "ERPDeliveryTermsKey": "vel",
+      "ERPDeliveryTypeKey": "consectetur",
+      "Rank": 581,
+      "ApprovedBy": 207,
+      "ApprovedText": "est",
+      "ApprovedRegisteredBy": 878,
+      "ApprovedRegisteredDate": "2005-11-17T12:19:46.1014395+01:00",
+      "ExtraField1": "nisi",
+      "ExtraField2": "sed",
+      "ExtraField3": "accusamus",
+      "ExtraField4": "ducimus",
+      "ExtraField5": "quasi",
+      "LastRecalculated": "2009-09-23T12:19:46.1014395+02:00",
+      "Updated": "2017-01-28T12:19:46.1014395+01:00",
+      "UpdatedAssociateId": 862,
+      "Registered": "2017-04-27T12:19:46.1014395+02:00",
+      "RegisteredAssociateId": 756,
+      "RequestAssociateId": 678,
+      "RequestComment": "voluptas",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 136
     }
   }
 }

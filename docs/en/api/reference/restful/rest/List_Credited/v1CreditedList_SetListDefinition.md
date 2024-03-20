@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Boehm, Wolff and Dicki",
-  "Tooltip": "eos",
+  "Id": 752,
+  "Name": "Schaefer LLC",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 126,
+  "Rank": 452,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Greenfelder, Schoen and Nader",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 883,
+  "Id": 692,
+  "Name": "Bernier-Lakin",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 492,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 888
     }
   }
 }

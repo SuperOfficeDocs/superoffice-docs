@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 341
+  "SelectionId": 978
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cormier Inc and Sons",
-    "Description": "Expanded web-enabled orchestration",
-    "Rank": 518,
+    "Name": "Kilback LLC",
+    "Description": "Reverse-engineered interactive productivity",
+    "Rank": 892,
     "Restrictions": [
       {
-        "Name": "Paucek-Rosenbaum",
-        "Operator": "labore",
+        "Name": "McClure-Mante",
+        "Operator": "sed",
         "Values": [
-          "ullam",
-          "eligendi"
+          "tempora",
+          "et"
         ],
         "DisplayValues": [
-          "eius",
-          "perferendis"
+          "ullam",
+          "assumenda"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 259,
+        "InterParenthesis": 687,
         "InterOperator": "And",
-        "UniqueHash": 96
+        "UniqueHash": 980
       }
     ]
   },
   {
-    "Name": "Cormier Inc and Sons",
-    "Description": "Expanded web-enabled orchestration",
-    "Rank": 518,
+    "Name": "Kilback LLC",
+    "Description": "Reverse-engineered interactive productivity",
+    "Rank": 892,
     "Restrictions": [
       {
-        "Name": "Paucek-Rosenbaum",
-        "Operator": "labore",
+        "Name": "McClure-Mante",
+        "Operator": "sed",
         "Values": [
-          "ullam",
-          "eligendi"
+          "tempora",
+          "et"
         ],
         "DisplayValues": [
-          "eius",
-          "perferendis"
+          "ullam",
+          "assumenda"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 259,
+        "InterParenthesis": 687,
         "InterOperator": "And",
-        "UniqueHash": 96
+        "UniqueHash": 980
       }
     ]
   }

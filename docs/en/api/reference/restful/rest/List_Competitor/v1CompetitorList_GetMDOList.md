@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=labore
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Adams-McClure",
-    "ToolTip": "Voluptas quaerat dolor nulla labore animi non officia.",
-    "Deleted": true,
-    "Rank": 118,
-    "Type": "vel",
+    "Id": 45,
+    "Name": "Hackett LLC",
+    "ToolTip": "Laudantium optio sequi facere iure et.",
+    "Deleted": false,
+    "Rank": 288,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Toy-Jacobi",
-        "ToolTip": "Vero esse sed similique consequatur ab.",
-        "Deleted": true,
-        "Rank": 419,
-        "Type": "modi",
+        "Id": 433,
+        "Name": "Quitzon, Gaylord and Harber",
+        "ToolTip": "Numquam id officia.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 576,
-        "ExtraInfo": "sunt",
-        "StyleHint": "tenetur",
-        "FullName": "Dallas Idella Hammes PhD",
+        "IconHint": "fuga",
+        "ColorBlock": 300,
+        "ExtraInfo": "autem",
+        "StyleHint": "saepe",
+        "FullName": "Kip Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 632
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 440,
-    "ExtraInfo": "autem",
-    "StyleHint": "laborum",
-    "FullName": "Shea Waelchi",
+    "IconHint": "beatae",
+    "ColorBlock": 924,
+    "ExtraInfo": "amet",
+    "StyleHint": "qui",
+    "FullName": "Mrs. Dan Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

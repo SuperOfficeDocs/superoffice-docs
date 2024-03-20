@@ -42,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:AssociateIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Appointment:AssociateIds>
-    <Appointment:StartTime xsi:type="xsd:dateTime">2024-03-07T13:20:56Z</Appointment:StartTime>
-    <Appointment:EndTime xsi:type="xsd:dateTime">2024-03-07T13:20:56Z</Appointment:EndTime>
+    <Appointment:StartTime xsi:type="xsd:dateTime">2024-03-20T11:16:51Z</Appointment:StartTime>
+    <Appointment:EndTime xsi:type="xsd:dateTime">2024-03-20T11:16:51Z</Appointment:EndTime>
    </Appointment:GetAssociatesDiaryInfo>
 
  </SOAP-ENV:Body>
@@ -71,8 +71,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
      <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
      <Appointment:MotherId xsi:type="xsd:int">0</Appointment:MotherId>
-     <Appointment:StartDate xsi:type="xsd:dateTime">2024-03-07T13:20:56Z</Appointment:StartDate>
-     <Appointment:EndDate xsi:type="xsd:dateTime">2024-03-07T13:20:56Z</Appointment:EndDate>
+     <Appointment:StartDate xsi:type="xsd:dateTime">2024-03-20T11:16:51Z</Appointment:StartDate>
+     <Appointment:EndDate xsi:type="xsd:dateTime">2024-03-20T11:16:51Z</Appointment:EndDate>
      <Appointment:ColorIndex xsi:type="Appointment:ColorIndex">LightBlue</Appointment:ColorIndex>
      <Appointment:Title xsi:type="xsd:string"></Appointment:Title>
      <Appointment:Agenda xsi:type="xsd:string"></Appointment:Agenda>

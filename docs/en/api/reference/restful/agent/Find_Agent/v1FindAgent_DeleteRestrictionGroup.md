@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "incidunt",
-  "ProviderName": "Wilkinson-Hoppe",
-  "StorageKey": "consequatur",
-  "Rank": 93,
-  "Context": "nisi"
+  "StorageType": "ut",
+  "ProviderName": "O'Connell-Larkin",
+  "StorageKey": "autem",
+  "Rank": 450,
+  "Context": "dolores"
 }
 ```
 

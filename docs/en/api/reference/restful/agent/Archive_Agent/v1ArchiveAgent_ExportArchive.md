@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schumm, D'Amore and Schultz",
-  "Context": "est",
+  "ProviderName": "Nienow Group",
+  "Context": "quas",
   "DesiredEntities": [
-    "ducimus",
-    "quia"
+    "quis",
+    "odit"
   ],
   "Columns": [
-    "numquam",
-    "eum"
+    "ea",
+    "quod"
   ],
   "SortOrder": [
     {
-      "Name": "Simonis, Mayert and Auer",
+      "Name": "Schneider-O'Keefe",
       "Direction": "ASC"
     },
     {
-      "Name": "Simonis, Mayert and Auer",
+      "Name": "Schneider-O'Keefe",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Klocko-O'Reilly",
-      "Operator": "qui",
+      "Name": "Price, Mosciski and Tillman",
+      "Operator": "vitae",
       "Values": [
-        "quia",
-        "incidunt"
+        "dolores",
+        "enim"
       ],
       "DisplayValues": [
-        "earum",
-        "numquam"
+        "labore",
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 60,
+      "InterParenthesis": 243,
       "InterOperator": "And",
-      "UniqueHash": 76
+      "UniqueHash": 947
     }
   ],
-  "ExportType": "ipsa",
+  "ExportType": "laudantium",
   "SelectedRowIds": [
-    "error",
-    "dolorem"
+    "sint",
+    "est"
   ],
-  "EstimatedRowCount": 625
+  "EstimatedRowCount": 194
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 87,
-  "FileName": "Heidenreich-Hegmann",
-  "Message": "impedit",
+  "BatchTaskId": 964,
+  "FileName": "Gleichner-Lubowitz",
+  "Message": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 117
     }
   }
 }

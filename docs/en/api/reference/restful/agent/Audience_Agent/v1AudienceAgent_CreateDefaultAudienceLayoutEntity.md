@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 698,
-  "InstanceLayout": "suscipit",
-  "InstanceName": "Franecki-Kassulke",
-  "CreatedDate": "2013-07-30T14:23:45.8605856+02:00",
-  "UpdatedDate": "2010-02-05T14:23:45.8605856+01:00",
+  "AudienceLayoutId": 410,
+  "InstanceLayout": "libero",
+  "InstanceName": "Hoeger LLC",
+  "CreatedDate": "2000-04-03T12:19:44.492435+02:00",
+  "UpdatedDate": "2007-02-09T12:19:44.492435+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 251
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Robel-Lindgren",
-  "Tooltip": "rerum",
+  "Id": 63,
+  "Name": "Kessler-Windler",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 771,
+  "Rank": 952,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 203,
-  "Name": "Swift, Mosciski and Sauer",
-  "Tooltip": "magni",
+  "Id": 407,
+  "Name": "Walsh LLC",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 466,
-  "IsCustomList": true,
+  "Rank": 611,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldLength": 512
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 232,
-  "Name": "Olson, Emard and Hane",
+  "DocumentTemplateId": 395,
+  "Name": "O'Keefe LLC",
   "Tooltip": "eos",
-  "SaveInDb": 617,
-  "Filename": "consequatur",
-  "DefaultOref": "numquam",
+  "SaveInDb": 640,
+  "Filename": "modi",
+  "DefaultOref": "totam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 723,
-  "IntentId": 878,
-  "IsDefaultPublished": true,
-  "Rank": 487,
-  "LoadTemplateFromPlugin": 39,
-  "MimeType": "aut",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 547,
+  "AutoeventId": 573,
+  "IntentId": 224,
+  "IsDefaultPublished": false,
+  "Rank": 843,
+  "LoadTemplateFromPlugin": 139,
+  "MimeType": "rem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 321,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "nolan@nader.info",
+  "EmailSubject": "crawford@pagachuel.us",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kamille.kassulke@fritsch.co.uk",
+  "SenderEmailAddress": "hadley_batz@powlowski.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

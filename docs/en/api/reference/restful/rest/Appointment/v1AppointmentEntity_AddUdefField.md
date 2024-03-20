@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 333,
-  "ColumnId": 603,
-  "FieldDefault": "at",
-  "FieldHeight": 966,
-  "FieldLabel": "alias",
-  "FieldLeft": 625,
-  "FieldTop": 667,
+  "UDefFieldId": 594,
+  "ColumnId": 681,
+  "FieldDefault": "et",
+  "FieldHeight": 3,
+  "FieldLabel": "est",
+  "FieldLeft": 180,
+  "FieldTop": 324,
   "FieldType": "Checkbox",
-  "FieldWidth": 510,
-  "FormatMask": "consequuntur",
-  "HideLabel": false,
+  "FieldWidth": 815,
+  "FormatMask": "reiciendis",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 151,
-  "LabelLeft": 750,
-  "LabelTop": 37,
-  "LabelWidth": 346,
-  "LastVersionId": 588,
-  "ListTableId": 114,
-  "IsMandatory": false,
+  "LabelHeight": 368,
+  "LabelLeft": 810,
+  "LabelTop": 197,
+  "LabelWidth": 281,
+  "LastVersionId": 758,
+  "ListTableId": 208,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 242,
-  "ProgId": "porro",
+  "Page1LineNo": 271,
+  "ProgId": "explicabo",
   "IsReadOnly": false,
-  "ShortLabel": "dolor",
-  "TabOrder": 463,
-  "TextLength": 161,
-  "Tooltip": "quasi",
-  "UdefIdentity": 829,
-  "UDListDefinitionId": 93,
+  "ShortLabel": "ea",
+  "TabOrder": 493,
+  "TextLength": 467,
+  "Tooltip": "doloremque",
+  "UdefIdentity": 471,
+  "UDListDefinitionId": 584,
   "Justification": "Center",
-  "Version": 103,
-  "TemplateVariableName": "Wilderman-Dibbert",
-  "HasBeenPublished": true,
-  "MdoListName": "Padberg, Fritsch and Nader",
+  "Version": 537,
+  "TemplateVariableName": "Jast Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Lang, Cassin and Macejkovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 258
     }
   }
 }

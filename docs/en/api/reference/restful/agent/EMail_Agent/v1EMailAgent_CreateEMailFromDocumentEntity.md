@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 585,
-      "ContactName": "Zieme-Hettinger",
-      "PersonId": 410,
-      "PersonName": "Murphy LLC",
-      "AssociateId": 969,
-      "Address": "tenetur",
-      "EmailId": 271,
+      "ContactId": 127,
+      "ContactName": "Quigley, Stark and Renner",
+      "PersonId": 76,
+      "PersonName": "Fisher Group",
+      "AssociateId": 379,
+      "Address": "voluptate",
+      "EmailId": 983,
       "DuplicatePersonIds": [
-        544,
-        106
+        81,
+        841
       ],
-      "Name": "Bogisich, Nienow and Heidenreich",
+      "Name": "Mann, Herman and Kuhic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 52
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 164,
-      "ContactName": "Doyle Group",
-      "PersonId": 19,
-      "PersonName": "Hilpert-Goodwin",
-      "AssociateId": 860,
-      "Address": "tenetur",
-      "EmailId": 539,
+      "ContactId": 596,
+      "ContactName": "Wiza-Fisher",
+      "PersonId": 405,
+      "PersonName": "Grant-Brown",
+      "AssociateId": 614,
+      "Address": "quis",
+      "EmailId": 918,
       "DuplicatePersonIds": [
-        765,
-        813
+        49,
+        796
       ],
-      "Name": "Hessel, Mitchell and Wolf",
+      "Name": "Maggio Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldType": "System.Int32",
+          "FieldLength": 302
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 707,
-      "ContactName": "Gerhold-Kozey",
-      "PersonId": 175,
-      "PersonName": "Von-Yundt",
-      "AssociateId": 567,
-      "Address": "ullam",
-      "EmailId": 799,
+      "ContactId": 904,
+      "ContactName": "Rau Group",
+      "PersonId": 228,
+      "PersonName": "Tromp Group",
+      "AssociateId": 378,
+      "Address": "dolorem",
+      "EmailId": 324,
       "DuplicatePersonIds": [
-        177,
-        603
+        148,
+        153
       ],
-      "Name": "Kunde Group",
+      "Name": "Crona Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldLength": 710
         }
       }
     }
   ],
-  "Subject": "nihil",
-  "HTMLBody": "ex",
+  "Subject": "molestiae",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2012-04-25T14:23:46.6743451+02:00",
-  "Size": 732,
+  "Sent": "2018-08-31T12:19:45.3359926+02:00",
+  "Size": 891,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "reprehenderit",
-  "PlainBody": "voluptatem",
-  "IsSent": true,
+  "MessageID": "eaque",
+  "PlainBody": "non",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 83,
+  "ServerId": 252,
   "Attachments": [
     {
-      "Description": "Progressive hybrid open architecture",
-      "Filename": "sapiente",
-      "Size": 768,
-      "Type": "omnis",
-      "Encoding": "minus",
-      "Id": "sint",
-      "Disposition": "molestiae",
-      "IsSafeFileExtension": true,
+      "Description": "Synergistic national project",
+      "Filename": "est",
+      "Size": 855,
+      "Type": "dolore",
+      "Encoding": "reiciendis",
+      "Id": "doloremque",
+      "Disposition": "id",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldLength": 754
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rogahn LLC",
+      "Name": "Ebert-Zieme",
       "Values": [
-        "laudantium",
-        "ducimus"
+        "amet",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 664
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     },
     {
-      "Name": "Rogahn LLC",
+      "Name": "Ebert-Zieme",
       "Values": [
-        "laudantium",
-        "ducimus"
+        "amet",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 664
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     }
   ],
-  "FolderName": "McLaughlin-Cummerata",
-  "EmailItemId": 68,
-  "AccountId": 2,
-  "ReceivedAt": "2023-12-24T14:23:46.6743451+01:00",
+  "FolderName": "Parker Inc and Sons",
+  "EmailItemId": 180,
+  "AccountId": 236,
+  "ReceivedAt": "2021-06-17T12:19:45.3359926+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-07-31T14:23:46.6743451+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2009-11-01T12:19:45.3359926+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldLength": 172
     }
   }
 }

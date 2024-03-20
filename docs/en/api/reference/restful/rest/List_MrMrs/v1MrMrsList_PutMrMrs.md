@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Strosin, Cronin and Simonis",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "UdListDefinitionId": 90,
-  "Rank": 182
+  "Id": 764,
+  "Name": "Predovic-Bergstrom",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 738,
+  "Rank": 367
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Douglas, Stiedemann and Marquardt",
+  "Id": 693,
+  "Name": "Torp, Jakubowski and Hoppe",
   "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 338,
-  "Rank": 158,
+  "UdListDefinitionId": 473,
+  "Rank": 246,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 324
     }
   }
 }

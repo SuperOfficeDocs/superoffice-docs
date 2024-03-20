@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 234,
-    "Name": "Breitenberg, Kreiger and Kozey",
-    "Tooltip": "harum",
+    "HeadingId": 120,
+    "Name": "McDermott, Bartell and Wiegand",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 682,
+    "Rank": 862,
+    "UdListDefinitionId": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

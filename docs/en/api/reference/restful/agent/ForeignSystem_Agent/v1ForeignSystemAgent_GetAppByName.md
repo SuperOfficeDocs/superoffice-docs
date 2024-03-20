@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Doyle LLC"
+  "ApplicationName": "Parker-Christiansen"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 497,
-  "Name": "Hessel-Lynch",
-  "CreatedDate": "2003-05-29T14:23:46.7524806+02:00",
-  "UpdatedDate": "2007-03-08T14:23:46.7524806+01:00",
+  "ForeignAppId": 214,
+  "Name": "Murray, Dibbert and Gutmann",
+  "CreatedDate": "2018-04-07T12:19:45.4141069+02:00",
+  "UpdatedDate": "2018-10-13T12:19:45.4141069+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 733,
-      "Name": "Goldner, McKenzie and Rice",
-      "CreatedDate": "2022-05-04T14:23:46.7524806+02:00",
-      "UpdatedDate": "2019-09-22T14:23:46.7524806+02:00",
-      "AssociateFullName": "Mr. Arvel Kshlerin",
-      "CreatedBy": "sit",
-      "UpdatedBy": "magnam",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 903,
+      "ForeignDeviceId": 30,
+      "Name": "Hammes Inc and Sons",
+      "CreatedDate": "2000-09-02T12:19:45.4141069+02:00",
+      "UpdatedDate": "2019-11-03T12:19:45.4141069+01:00",
+      "AssociateFullName": "Evalyn Mayert",
+      "CreatedBy": "qui",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 496,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldType": "System.String",
+          "FieldLength": 326
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

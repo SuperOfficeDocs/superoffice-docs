@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=labore
-GET /api/v1/Archive/{archiveProviderName}?$top=520
-GET /api/v1/Archive/{archiveProviderName}?$skip=709
+GET /api/v1/Archive/{archiveProviderName}?$entities=eum
+GET /api/v1/Archive/{archiveProviderName}?$top=743
+GET /api/v1/Archive/{archiveProviderName}?$skip=525
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=maiores
+GET /api/v1/Archive/{archiveProviderName}?$context=sequi
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=voluptates
+GET /api/v1/Archive/{archiveProviderName}?$metadata=numquam
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -201,21 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fuga",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 9742,
+      "PrimaryKey": 5172,
       "EntityName": "sale",
-      "saleId": 9742,
-      "contactId": 9269,
-      "name": "Wiza, Reilly and Quigley"
+      "saleId": 5172,
+      "contactId": 8174,
+      "name": "Roberts LLC"
     },
     {
-      "PrimaryKey": 9821,
+      "PrimaryKey": 5572,
       "EntityName": "sale",
-      "saleId": 9821,
-      "contactId": 6,
-      "name": "Mohr, Rodriguez and Murazik"
+      "saleId": 5572,
+      "contactId": 9914,
+      "name": "Prosacco LLC"
     }
   ]
 }

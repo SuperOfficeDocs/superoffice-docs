@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 608,
-    "ParentId": 512,
-    "Name": "Harber-Donnelly",
+    "TicketCategoryId": 353,
+    "ParentId": 45,
+    "Name": "Abernathy-Lemke",
     "Fullname": "et",
-    "CategoryMaster": 677,
+    "CategoryMaster": 971,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kuhic Inc and Sons",
+    "ExternalName": "Wehner-Maggio",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 265,
-    "ReplyTemplate": 186,
-    "NotificationEmail": "raymond.rath@ondrickagraham.info",
+    "AssignmentLag": 987,
+    "ReplyTemplate": 358,
+    "NotificationEmail": "lula_haley@rutherford.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 882,
+    "EffectiveReplyTemplateId": 240,
     "ExtraFields": {
-      "ExtraFields1": "magnam",
+      "ExtraFields1": "modi",
       "ExtraFields2": "est"
     },
     "CustomFields": {
-      "CustomFields1": "ipsa",
-      "CustomFields2": "sequi"
+      "CustomFields1": "omnis",
+      "CustomFields2": "earum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldLength": 906
       }
     }
   }

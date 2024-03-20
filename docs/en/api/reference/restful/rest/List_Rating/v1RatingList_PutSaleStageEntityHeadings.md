@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 77,
-    "Name": "Glover, Raynor and O'Hara",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 635,
+    "Name": "Schmitt-Luettgen",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 116
+    "Rank": 872,
+    "UdListDefinitionId": 143
   },
   {
-    "HeadingId": 77,
-    "Name": "Glover, Raynor and O'Hara",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 635,
+    "Name": "Schmitt-Luettgen",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 116
+    "Rank": 872,
+    "UdListDefinitionId": 143
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 581,
-    "Name": "Heidenreich, Leuschke and Fritsch",
-    "Tooltip": "beatae",
+    "HeadingId": 488,
+    "Name": "Mayert LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 849,
-    "UdListDefinitionId": 337,
+    "Rank": 612,
+    "UdListDefinitionId": 575,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 268
+  "ContactId": 746
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "molestiae",
-    "PersonId": 71,
-    "Mrmrs": "tempore",
-    "Firstname": "Adonis",
-    "Lastname": "Schaefer",
-    "MiddleName": "Borer-Cormier",
-    "Title": "rem",
-    "Description": "Enhanced incremental core",
-    "Email": "cheyenne@haagabernathy.co.uk",
-    "FullName": "Rhea Grimes",
-    "DirectPhone": "1-737-076-3084 x2898",
-    "FormalName": "Becker-Flatley",
-    "CountryId": 911,
-    "ContactId": 105,
-    "ContactName": "Yundt Group",
-    "Retired": 483,
-    "Rank": 152,
-    "ActiveInterests": 139,
+    "Position": "voluptas",
+    "PersonId": 599,
+    "Mrmrs": "id",
+    "Firstname": "Elody",
+    "Lastname": "Willms",
+    "MiddleName": "Green, Heidenreich and Walker",
+    "Title": "id",
+    "Description": "Advanced bi-directional artificial intelligence",
+    "Email": "evalyn@jerdebartell.uk",
+    "FullName": "Mrs. Kenna Rippin Jr.",
+    "DirectPhone": "(061)030-8584 x0874",
+    "FormalName": "Ryan-Ferry",
+    "CountryId": 892,
+    "ContactId": 586,
+    "ContactName": "Rau Inc and Sons",
+    "Retired": 47,
+    "Rank": 877,
+    "ActiveInterests": 413,
     "ContactDepartment": "",
-    "ContactCountryId": 941,
-    "ContactOrgNr": "1318922",
-    "FaxPhone": "524.427.7581 x320",
-    "MobilePhone": "1-385-777-1717",
-    "ContactPhone": "1-582-615-9639 x0136",
-    "AssociateName": "Luettgen-Spinka",
-    "AssociateId": 420,
+    "ContactCountryId": 488,
+    "ContactOrgNr": "1502360",
+    "FaxPhone": "1-479-406-6854 x20980",
+    "MobilePhone": "1-583-832-6597",
+    "ContactPhone": "(035)017-0705 x92106",
+    "AssociateName": "Langworth-Sauer",
+    "AssociateId": 383,
     "UsePersonAddress": false,
-    "ContactFax": "sapiente",
-    "Kanafname": "iste",
-    "Kanalname": "non",
-    "Post1": "deserunt",
-    "Post2": "sapiente",
-    "Post3": "in",
-    "EmailName": "arne@bahringer.co.uk",
-    "ContactFullName": "Lura Kimberly Harber III",
-    "ActiveErpLinks": 448,
-    "TicketPriorityId": 960,
-    "SupportLanguageId": 54,
-    "SupportAssociateId": 177,
+    "ContactFax": "voluptas",
+    "Kanafname": "nihil",
+    "Kanalname": "voluptatem",
+    "Post1": "dolorum",
+    "Post2": "quo",
+    "Post3": "minus",
+    "EmailName": "vicenta_willms@nienow.co.uk",
+    "ContactFullName": "Alf Stroman I",
+    "ActiveErpLinks": 103,
+    "TicketPriorityId": 666,
+    "SupportLanguageId": 628,
+    "SupportAssociateId": 809,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 819
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

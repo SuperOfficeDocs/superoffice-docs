@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Stark-Weber",
-    "ToolTip": "Ut quidem iste aut qui.",
+    "Id": 386,
+    "Name": "Senger-Labadie",
+    "ToolTip": "Eaque et.",
     "Deleted": false,
-    "Rank": 716,
-    "Type": "iure",
-    "ColorBlock": 703,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2011-07-04T14:23:56.228325+02:00",
+    "Rank": 338,
+    "Type": "et",
+    "ColorBlock": 515,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2001-06-02T12:19:54.7271106+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Zulauf, Ledner and McDermott",
-        "ToolTip": "Est sequi quia.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "dolor",
-        "ColorBlock": 664,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "1999-02-16T14:23:56.228325+01:00",
+        "Id": 919,
+        "Name": "Nikolaus, Hintz and Johnson",
+        "ToolTip": "Voluptatem voluptatem fugit animi.",
+        "Deleted": false,
+        "Rank": 350,
+        "Type": "fugit",
+        "ColorBlock": 173,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2013-10-13T12:19:54.7271106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "autem",
+        "ExtraInfo": "optio",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Emerson Roob"
+        "FullName": "Dr. Adaline Beth Padberg IV"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "voluptatum",
     "Hidden": true,
-    "FullName": "Christy Macejkovic"
+    "FullName": "Mario Kemmer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Daugherty, Senger and Ziemann",
-    "ToolTip": "Quia ea quia voluptatem accusamus ipsa.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "voluptatem",
-    "ColorBlock": 149,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2016-09-04T14:23:56.228325+02:00",
+    "Id": 287,
+    "Name": "Renner, Vandervort and Fritsch",
+    "ToolTip": "Voluptatem dolorum officiis.",
+    "Deleted": false,
+    "Rank": 604,
+    "Type": "ullam",
+    "ColorBlock": 85,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2022-11-30T12:19:54.7271106+01:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Lakin Group",
-        "ToolTip": "Voluptatem sit optio quia rem tenetur labore eos.",
-        "Deleted": false,
-        "Rank": 769,
-        "Type": "provident",
-        "ColorBlock": 875,
-        "IconHint": "ut",
+        "Id": 921,
+        "Name": "Hagenes-Bechtelar",
+        "ToolTip": "Sunt sit aut rerum.",
+        "Deleted": true,
+        "Rank": 204,
+        "Type": "est",
+        "ColorBlock": 725,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2023-08-29T14:23:56.228325+02:00",
+        "LastChanged": "2003-05-30T12:19:54.7271106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Dr. Jayda Dudley Weber DDS",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Joaquin Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 593
+            "FieldType": "System.Int32",
+            "FieldLength": 256
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
+    "ExtraInfo": "facilis",
     "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Shayna Balistreri",
+    "FullName": "Kiara Grant Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 01 Jul 2007 14:23:55 G7T
+Last-Modified: Thu, 19 Jan 2006 12:19:53 G1T
 
 {
-  "Key": "velit",
-  "Value": "quo",
-  "RecordId": 236,
-  "CreatedDate": "2006-04-25T14:23:55.195897+02:00",
-  "UpdatedDate": "2007-07-01T14:23:55.195897+02:00",
-  "UpdatedBy": "dolorum",
-  "CreatedBy": "dignissimos",
-  "TableName": "Lemke-Maggio",
+  "Key": "nesciunt",
+  "Value": "ut",
+  "RecordId": 592,
+  "CreatedDate": "2018-05-20T12:19:53.6023745+02:00",
+  "UpdatedDate": "2006-01-19T12:19:53.6023745+01:00",
+  "UpdatedBy": "quaerat",
+  "CreatedBy": "amet",
+  "TableName": "Kozey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   }
 }

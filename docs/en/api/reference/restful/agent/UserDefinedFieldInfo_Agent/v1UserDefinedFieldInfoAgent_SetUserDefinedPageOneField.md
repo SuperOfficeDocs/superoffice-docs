@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UdefFieldId": 891,
-  "UserGroupId": 460,
-  "FieldLineNo": 652
+  "UdefFieldId": 875,
+  "UserGroupId": 204,
+  "FieldLineNo": 870
 }
 ```
 

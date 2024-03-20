@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 565,
-    "Name": "Halvorson, Bode and Oberbrunner",
-    "Tooltip": "amet",
-    "Deleted": true,
-    "Rank": 82,
-    "UdListDefinitionId": 720,
+    "HeadingId": 977,
+    "Name": "Daugherty Inc and Sons",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 576,
+    "UdListDefinitionId": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 135
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

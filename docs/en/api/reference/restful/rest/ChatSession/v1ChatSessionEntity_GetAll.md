@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=officiis
-GET /api/v1/ChatSession?$top=298
-GET /api/v1/ChatSession?$skip=791
+GET /api/v1/ChatSession?$entities=dolores
+GET /api/v1/ChatSession?$top=929
+GET /api/v1/ChatSession?$skip=887
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=quas
+GET /api/v1/ChatSession?$context=ad
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "ducimus",
   "value": [
     {
-      "PrimaryKey": 9640,
+      "PrimaryKey": 4997,
       "EntityName": "sale",
-      "saleId": 9640,
-      "contactId": 9463,
-      "name": "Schneider, Zulauf and Windler"
+      "saleId": 4997,
+      "contactId": 2530,
+      "name": "Trantow, Ebert and Nienow"
     },
     {
-      "PrimaryKey": 3311,
+      "PrimaryKey": 3651,
       "EntityName": "sale",
-      "saleId": 3311,
-      "contactId": 3035,
-      "name": "Barrows, Quigley and Stehr"
+      "saleId": 3651,
+      "contactId": 1600,
+      "name": "Sanford, Bechtelar and DuBuque"
     }
   ]
 }

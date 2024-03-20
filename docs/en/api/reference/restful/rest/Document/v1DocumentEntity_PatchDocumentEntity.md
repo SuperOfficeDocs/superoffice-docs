@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 414,
+  "DocumentId": 876,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "eum",
-  "Name": "Kemmer-Lehner",
-  "OurRef": "et",
-  "YourRef": "saepe",
-  "CreatedDate": "2006-09-13T14:23:55.1333981+02:00",
-  "UpdatedDate": "2017-08-13T14:23:55.1333981+02:00",
-  "Description": "Multi-lateral user-facing complexity",
+  "Attention": "molestiae",
+  "Header": "aut",
+  "Name": "Fay Inc and Sons",
+  "OurRef": "doloribus",
+  "YourRef": "facilis",
+  "CreatedDate": "1998-08-15T12:19:53.539885+02:00",
+  "UpdatedDate": "2012-09-23T12:19:53.539885+02:00",
+  "Description": "Team-oriented systematic structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-09-09T14:23:55.1333981+02:00",
-  "ExternalRef": "voluptatibus",
+  "Date": "2023-05-15T12:19:53.539885+02:00",
+  "ExternalRef": "unde",
   "Completed": "Completed",
-  "ActiveLinks": 399,
+  "ActiveLinks": 860,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schulist, Dare and Walter",
-      "Id": 858,
-      "Description": "Profit-focused 24/7 hardware",
-      "ExtraInfo": "magni",
-      "LinkId": 949,
+      "EntityName": "Ernser, Quitzon and Hoppe",
+      "Id": 37,
+      "Description": "Synchronised secondary core",
+      "ExtraInfo": "ipsum",
+      "LinkId": 810,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 818,
-  "Snum": 916,
+  "SuggestedDocumentId": 946,
+  "Snum": 437,
   "UserDefinedFields": {
-    "SuperOffice:1": "Albin Renner",
-    "SuperOffice:2": "862121657"
+    "SuperOffice:1": "Chelsea Bergstrom",
+    "SuperOffice:2": "191583169"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "sunt"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2013-04-08T14:23:55.1333981+02:00",
-  "PublishTo": "2015-03-05T14:23:55.1333981+01:00",
-  "PublishFrom": "2005-08-08T14:23:55.1333981+02:00",
+  "PublishEventDate": "2017-12-14T12:19:53.539885+01:00",
+  "PublishTo": "2001-04-22T12:19:53.539885+02:00",
+  "PublishFrom": "2001-08-03T12:19:53.539885+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 988,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 415
         }
       }
     },
     {
-      "VisibleId": 988,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 415
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   },
   "_Links": {

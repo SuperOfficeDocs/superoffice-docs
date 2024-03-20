@@ -1,14 +1,14 @@
 ---
-uid: database-whats-new-10.3.3.566
-title: What's new in version 10.3.3.566
-description: What's new in database version 10.3.3.566.
+uid: database-whats-new-10.3.3.610
+title: What's new in version 10.3.3.610
+description: What's new in database version 10.3.3.610.
 so.generated: true
 keywords: database
 so.topic: reference
 so.envir: onsite, online
 ---
 
-# Released database changes in version 10.3.3.566
+# Released database changes in version 10.3.3.610
 
 ## SuperOffice
 
@@ -2065,4 +2065,25 @@ Email flow content (more assets)
 
 * Modify table email\_flow\_content\_link
 s\_message\_id, email\_flow\_id, form\_id, s\_link\_id
+
+**Step 19**
+
+Workflow id elimination, simplification, optimization
+
+* Modify table email\_flow
+workflow\_id, main\_message\_id
+* Modify table workflow\_step\_option\_link
+Rank
+* Add table workflow\_root\_step\_link
+
+**Step 20**
+
+Workflow id elimination, and simplification
+
+* Modify table workflow\_step
+workflow\_id, rank
+* Modify table workflow\_wait\_for\_action
+workflow\_id
+* Modify table workflow\_step\_option
+workflow\_id
 

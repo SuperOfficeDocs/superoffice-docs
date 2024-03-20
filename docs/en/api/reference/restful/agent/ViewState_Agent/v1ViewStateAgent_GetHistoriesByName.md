@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Bins, Kihn and Fahey"
+  "HistoryName": "Green Group"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 756,
-    "Id": 971,
-    "HistoryName": "Bode-Stehr",
-    "HistoryId": 653,
-    "AssociateId": 736,
-    "Name": "Gaylord Group",
-    "ItemInfo": "consequuntur",
+    "Rank": 167,
+    "Id": 224,
+    "HistoryName": "Gorczany-Prosacco",
+    "HistoryId": 1001,
+    "AssociateId": 635,
+    "Name": "Batz LLC",
+    "ItemInfo": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

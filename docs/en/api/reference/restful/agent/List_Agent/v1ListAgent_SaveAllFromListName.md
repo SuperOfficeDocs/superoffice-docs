@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schumm Inc and Sons",
+  "UdListDefinitionName": "Denesik LLC",
   "Items": [
     {
-      "Id": 133,
-      "Name": "Mosciski, Christiansen and Ernser",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "UdListDefinitionId": 686,
-      "Rank": 257
+      "Id": 84,
+      "Name": "Boyle Group",
+      "Tooltip": "accusantium",
+      "Deleted": true,
+      "UdListDefinitionId": 750,
+      "Rank": 203
     },
     {
-      "Id": 133,
-      "Name": "Mosciski, Christiansen and Ernser",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "UdListDefinitionId": 686,
-      "Rank": 257
+      "Id": 84,
+      "Name": "Boyle Group",
+      "Tooltip": "accusantium",
+      "Deleted": true,
+      "UdListDefinitionId": 750,
+      "Rank": 203
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Nader-Trantow",
-    "Tooltip": "nulla",
-    "Deleted": true,
-    "UdListDefinitionId": 718,
-    "Rank": 829,
+    "Id": 260,
+    "Name": "Dibbert-Cartwright",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 871,
+    "Rank": 712,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 242
       }
     }
   }

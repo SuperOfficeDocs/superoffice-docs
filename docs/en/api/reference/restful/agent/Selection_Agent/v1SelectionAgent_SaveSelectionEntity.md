@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive real-time open system",
-  "Postit": "perferendis",
+  "Description": "Synergized dedicated flexibility",
+  "Postit": "ducimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 121,
-  "IncludePerson": 947,
-  "MemberCount": 523,
-  "Name": "Runolfsson-Becker",
-  "PostitTextId": 26,
-  "CreatedDate": "2008-08-30T14:23:47.3786314+02:00",
-  "SelectionId": 684,
-  "SoundEx": "odio",
-  "Source": 837,
-  "TextId": 285,
-  "UpdatedDate": "2012-02-02T14:23:47.3786314+01:00",
-  "UpdatedCount": 471,
-  "Visibility": 232,
+  "GroupIdx": 386,
+  "IncludePerson": 104,
+  "MemberCount": 868,
+  "Name": "Johns Inc and Sons",
+  "PostitTextId": 211,
+  "CreatedDate": "2019-02-05T12:19:46.2264184+01:00",
+  "SelectionId": 544,
+  "SoundEx": "libero",
+  "Source": 516,
+  "TextId": 466,
+  "UpdatedDate": "2019-11-07T12:19:46.2420414+01:00",
+  "UpdatedCount": 492,
+  "Visibility": 304,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 373,
-  "TargetTableName": "Dooley-Kub",
+  "TargetTableNumber": 457,
+  "TargetTableName": "Kihn Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 768,
-  "RightSelectionId": 320,
+  "LeftSelectionId": 218,
+  "RightSelectionId": 352,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bode-Stamm",
-  "ShadowProviderName": "Parisian LLC",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2007-02-06T14:23:47.3786314+01:00",
-  "LastLoadedBy": 133,
+  "MainProviderName": "Konopelski, Kuvalis and Windler",
+  "ShadowProviderName": "Cruickshank-Oberbrunner",
+  "ChartKey": "nam",
+  "LastLoaded": "2001-09-22T12:19:46.2420414+02:00",
+  "LastLoadedBy": 57,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-09-08T14:23:47.3786314+02:00",
-  "LastMembershipChangeBy": 282,
+  "LastMembershipChange": "2004-06-12T12:19:46.2420414+02:00",
+  "LastMembershipChangeBy": 68,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iure",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Dicki, Hahn and Ferry",
-  "DashboardTileDefinitionId": 533,
+  "MainHeading": "libero",
+  "MemberTabHeading": "sapiente",
+  "MailingsProviderName": "Mills-Padberg",
+  "DashboardTileDefinitionId": 44,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "nesciunt"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed national interface",
-  "Postit": "aspernatur",
+  "Description": "Digitized user-facing time-frame",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 630,
-  "IncludePerson": 249,
-  "MemberCount": 172,
-  "Name": "Gutmann Inc and Sons",
-  "PostitTextId": 94,
-  "CreatedDate": "2008-04-15T14:23:47.3942558+02:00",
-  "SelectionId": 154,
-  "SoundEx": "nostrum",
-  "Source": 215,
-  "TextId": 409,
-  "UpdatedDate": "2020-08-19T14:23:47.3942558+02:00",
-  "UpdatedCount": 612,
-  "Visibility": 254,
+  "GroupIdx": 58,
+  "IncludePerson": 552,
+  "MemberCount": 9,
+  "Name": "Kertzmann-Bruen",
+  "PostitTextId": 903,
+  "CreatedDate": "2003-03-08T12:19:46.2420414+01:00",
+  "SelectionId": 13,
+  "SoundEx": "rem",
+  "Source": 318,
+  "TextId": 692,
+  "UpdatedDate": "2015-11-06T12:19:46.2420414+01:00",
+  "UpdatedCount": 179,
+  "Visibility": 816,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 774,
-  "TargetTableName": "Rutherford, Turcotte and Stoltenberg",
+  "TargetTableNumber": 930,
+  "TargetTableName": "Homenick-Haag",
   "Completed": false,
-  "LeftSelectionId": 5,
-  "RightSelectionId": 50,
+  "LeftSelectionId": 694,
+  "RightSelectionId": 499,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ryan Inc and Sons",
-  "ShadowProviderName": "Stracke, Macejkovic and Trantow",
-  "ChartKey": "alias",
-  "LastLoaded": "2021-09-25T14:23:47.3942558+02:00",
-  "LastLoadedBy": 315,
+  "MainProviderName": "Hauck-Boyle",
+  "ShadowProviderName": "Crist, Hane and Pouros",
+  "ChartKey": "temporibus",
+  "LastLoaded": "2023-11-28T12:19:46.2420414+01:00",
+  "LastLoadedBy": 439,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-02-13T14:23:47.3942558+01:00",
-  "LastMembershipChangeBy": 654,
+  "LastMembershipChange": "2004-04-30T12:19:46.2420414+02:00",
+  "LastMembershipChangeBy": 512,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "doloremque",
-  "MemberTabHeading": "accusamus",
-  "MailingsProviderName": "Wiza Group",
-  "DashboardTileDefinitionId": 703,
+  "MainHeading": "qui",
+  "MemberTabHeading": "atque",
+  "MailingsProviderName": "Huel, Jenkins and Volkman",
+  "DashboardTileDefinitionId": 61,
   "VisibleFor": [
     {
-      "VisibleId": 992,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 992,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldLength": 191
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldLength": 390
     }
   }
 }

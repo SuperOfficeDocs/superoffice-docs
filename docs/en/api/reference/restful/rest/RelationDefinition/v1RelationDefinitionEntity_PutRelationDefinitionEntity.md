@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 456,
-  "Name": "Spinka, Swift and Blick",
-  "Tooltip": "explicabo",
-  "PassiveText": "soluta",
-  "Deleted": false,
-  "Rank": 724,
+  "ReldefId": 558,
+  "Name": "Osinski-Zulauf",
+  "Tooltip": "optio",
+  "PassiveText": "quae",
+  "Deleted": true,
+  "Rank": 830,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 595,
-  "Name": "Gleason Group",
-  "Tooltip": "sint",
-  "PassiveText": "blanditiis",
+  "ReldefId": 223,
+  "Name": "Corwin-Collier",
+  "Tooltip": "atque",
+  "PassiveText": "dolor",
   "Deleted": false,
-  "Rank": 888,
+  "Rank": 426,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 479
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

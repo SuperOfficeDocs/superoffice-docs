@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Yundt Inc and Sons",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "UdListDefinitionId": 932,
-    "Rank": 837,
+    "Id": 63,
+    "Name": "Bechtelar Group",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "UdListDefinitionId": 470,
+    "Rank": 208,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 965
       }
     }
   }

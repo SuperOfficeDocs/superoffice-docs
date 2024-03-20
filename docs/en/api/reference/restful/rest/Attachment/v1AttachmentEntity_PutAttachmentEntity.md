@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 776,
-  "Name": "Ferry-Block",
-  "ContentType": "qui",
-  "AttSize": 367,
+  "AttachmentId": 997,
+  "Name": "Gibson LLC",
+  "ContentType": "quasi",
+  "AttSize": 547,
   "InlineImage": false,
-  "ContentId": "perspiciatis",
-  "AuthKey": "officiis",
-  "IsSafeFileExtension": false
+  "ContentId": "ea",
+  "AuthKey": "nihil",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 281,
-  "Name": "Schroeder Group",
-  "ContentType": "voluptas",
-  "AttSize": 839,
+  "AttachmentId": 390,
+  "Name": "Kub Inc and Sons",
+  "ContentType": "aut",
+  "AttSize": 471,
   "InlineImage": false,
-  "ContentId": "fuga",
-  "AuthKey": "repellat",
+  "ContentId": "fugiat",
+  "AuthKey": "saepe",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 962
     }
   },
   "_Links": {

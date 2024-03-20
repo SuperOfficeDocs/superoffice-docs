@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -132,63 +132,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 417,
+  "EjMessageId": 374,
   "Ticket": null,
-  "CreatedAt": "2021-07-08T14:23:55.7283316+02:00",
+  "CreatedAt": "2004-07-06T12:19:54.0553956+02:00",
   "CreatedBy": null,
-  "Author": "quis",
+  "Author": "veritatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "itaque",
-  "TimeSpent": 930,
-  "Body": "enim",
-  "HtmlBody": "eos",
-  "EmailHeader": "jeromy@trantow.ca",
-  "DebugInfo": "ipsum",
-  "MailSorter": "cumque",
+  "MessageId": "suscipit",
+  "TimeSpent": 680,
+  "Body": "itaque",
+  "HtmlBody": "vero",
+  "EmailHeader": "sabryna_hoeger@sanford.biz",
+  "DebugInfo": "aut",
+  "MailSorter": "repellendus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dignissimos",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 852,
-      "Name": "Stiedemann Inc and Sons",
-      "Value": "voluptatem",
+      "Id": 640,
+      "Name": "Conn LLC",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 852,
-      "Name": "Stiedemann Inc and Sons",
-      "Value": "voluptatem",
+      "Id": 640,
+      "Name": "Conn LLC",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "et",
-  "Sentiment": 638,
-  "SentimentConfidence": 489,
+  "Important": false,
+  "Language": "repudiandae",
+  "Sentiment": 527,
+  "SentimentConfidence": 195,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 175,
-      "Name": "Wehner-Abernathy",
-      "ContentType": "velit",
-      "AttSize": 197,
+      "AttachmentId": 200,
+      "Name": "Kertzmann Group",
+      "ContentType": "perspiciatis",
+      "AttSize": 139,
       "InlineImage": true,
-      "ContentId": "velit",
-      "AuthKey": "voluptas",
-      "IsSafeFileExtension": true
+      "ContentId": "qui",
+      "AuthKey": "neque",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "id"
+    "CustomFields1": "placeat",
+    "CustomFields2": "magni"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 106,
+  "EjMessageId": 547,
   "Ticket": null,
-  "CreatedAt": "2009-05-01T14:23:55.743955+02:00",
+  "CreatedAt": "2004-12-21T12:19:54.0710197+01:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "enim",
-  "TimeSpent": 660,
-  "Body": "voluptatum",
-  "HtmlBody": "rerum",
-  "EmailHeader": "cierra@muller.uk",
-  "DebugInfo": "est",
-  "MailSorter": "illo",
+  "MessageId": "quo",
+  "TimeSpent": 283,
+  "Body": "ipsum",
+  "HtmlBody": "sit",
+  "EmailHeader": "amparo@heidenreich.co.uk",
+  "DebugInfo": "voluptas",
+  "MailSorter": "omnis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "porro",
+  "SearchTitle": "voluptatum",
   "MessageHeaders": [
     {
-      "Id": 644,
-      "Name": "Buckridge-Cartwright",
-      "Value": "earum",
+      "Id": 453,
+      "Name": "Heller Inc and Sons",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 454
         }
       }
     }
   ],
   "Important": true,
-  "Language": "itaque",
-  "Sentiment": 688,
-  "SentimentConfidence": 76,
+  "Language": "aliquam",
+  "Sentiment": 380,
+  "SentimentConfidence": 150,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 32,
-      "Name": "Konopelski-Watsica",
-      "ContentType": "consequatur",
-      "AttSize": 521,
+      "AttachmentId": 326,
+      "Name": "Cartwright Group",
+      "ContentType": "est",
+      "AttSize": 499,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "hic",
-      "IsSafeFileExtension": true,
+      "ContentId": "impedit",
+      "AuthKey": "incidunt",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 474
+          "FieldLength": 25
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "fugit"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

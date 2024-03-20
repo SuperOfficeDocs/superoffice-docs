@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 207
+  "UdListDefinitionId": 671
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 13,
-  "Name": "Schneider Group",
-  "Tooltip": "excepturi",
+  "HeadingId": 487,
+  "Name": "Torp-Schmidt",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 166,
-  "UdListDefinitionId": 667,
+  "Rank": 23,
+  "UdListDefinitionId": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

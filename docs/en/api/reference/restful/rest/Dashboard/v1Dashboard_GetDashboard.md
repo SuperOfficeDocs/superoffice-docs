@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 918,
-  "AssociateId": 365,
-  "Caption": "non",
+  "DashboardId": 246,
+  "AssociateId": 552,
+  "Caption": "quam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 663,
-      "Caption": "voluptate",
-      "Description": "User-friendly optimal budgetary management",
-      "ChartName": "Howell-Zemlak",
-      "ChartId": "in",
-      "IsDefault": false,
-      "AssociateId": 890,
-      "GroupId": 201,
-      "SelectionId": 305,
-      "Config": "veniam",
+      "DashboardTileId": 517,
+      "Caption": "accusamus",
+      "Description": "Robust discrete workforce",
+      "ChartName": "Ratke LLC",
+      "ChartId": "perspiciatis",
+      "IsDefault": true,
+      "AssociateId": 453,
+      "GroupId": 763,
+      "SelectionId": 304,
+      "Config": "soluta",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldType": "System.String",
+          "FieldLength": 978
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 693
     }
   },
   "_Links": {

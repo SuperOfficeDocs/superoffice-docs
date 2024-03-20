@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 115,
-  "ConnectionId": 587,
-  "FirstAlternativeName": "Oberbrunner Group"
+  "SaleId": 10,
+  "ConnectionId": 385,
+  "FirstAlternativeName": "Treutel, Schmidt and Tremblay"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 598,
-  "SaleId": 775,
-  "QuoteConnectionId": 101,
-  "ERPQuoteKey": "quaerat",
-  "ERPOrderKey": "dolore",
-  "ActiveQuoteVersionId": 23,
-  "AcceptedQuoteAlternativeId": 397,
-  "UseValuesFromQuote": 123,
-  "DocumentId": 506,
-  "PoNumber": "1154010",
-  "OrderComment": "inventore",
-  "PreferredEmailCulture": "kelvin@batzhirthe.ca",
+  "QuoteId": 161,
+  "SaleId": 891,
+  "QuoteConnectionId": 110,
+  "ERPQuoteKey": "asperiores",
+  "ERPOrderKey": "placeat",
+  "ActiveQuoteVersionId": 616,
+  "AcceptedQuoteAlternativeId": 754,
+  "UseValuesFromQuote": 866,
+  "DocumentId": 63,
+  "PoNumber": "1796839",
+  "OrderComment": "numquam",
+  "PreferredEmailCulture": "leon.pfeffer@medhurst.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 914,
-      "ERPQuoteVersionKey": "iusto",
-      "QuoteId": 127,
-      "Description": "Multi-channelled leading edge definition",
-      "Number": "1179628",
+      "QuoteVersionId": 407,
+      "ERPQuoteVersionKey": "est",
+      "QuoteId": 112,
+      "Description": "Seamless local local area network",
+      "Number": "706938",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 379,
-      "SentDate": "1996-11-29T14:23:47.2536317+01:00",
-      "FollowupId": 548,
-      "ExpirationDate": "2009-05-04T14:23:47.2536317+02:00",
-      "DeliveryCountryId": 915,
+      "LikelyQuoteAlternativeId": 427,
+      "SentDate": "2001-10-20T12:19:46.1014395+02:00",
+      "FollowupId": 101,
+      "ExpirationDate": "2023-02-17T12:19:46.1014395+01:00",
+      "DeliveryCountryId": 112,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 171,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "et",
-      "ERPPaymentTypeKey": "nostrum",
-      "ERPDeliveryTermsKey": "voluptatibus",
-      "ERPDeliveryTypeKey": "sed",
-      "Rank": 907,
-      "ApprovedBy": 960,
-      "ApprovedText": "quae",
-      "ApprovedRegisteredBy": 538,
-      "ApprovedRegisteredDate": "2011-04-08T14:23:47.2536317+02:00",
-      "ExtraField1": "qui",
-      "ExtraField2": "reiciendis",
-      "ExtraField3": "quae",
-      "ExtraField4": "dolores",
-      "ExtraField5": "amet",
-      "LastRecalculated": "1998-08-24T14:23:47.2536317+02:00",
-      "Updated": "2023-01-02T14:23:47.2536317+01:00",
-      "UpdatedAssociateId": 652,
-      "Registered": "2007-08-21T14:23:47.2536317+02:00",
-      "RegisteredAssociateId": 664,
-      "RequestAssociateId": 62,
-      "RequestComment": "laudantium",
+      "InvoiceCountryId": 269,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "eveniet",
+      "ERPPaymentTypeKey": "adipisci",
+      "ERPDeliveryTermsKey": "sed",
+      "ERPDeliveryTypeKey": "soluta",
+      "Rank": 635,
+      "ApprovedBy": 773,
+      "ApprovedText": "qui",
+      "ApprovedRegisteredBy": 750,
+      "ApprovedRegisteredDate": "1999-09-06T12:19:46.1014395+02:00",
+      "ExtraField1": "nihil",
+      "ExtraField2": "sed",
+      "ExtraField3": "dolorum",
+      "ExtraField4": "commodi",
+      "ExtraField5": "qui",
+      "LastRecalculated": "2022-02-19T12:19:46.1014395+01:00",
+      "Updated": "1999-12-18T12:19:46.1014395+01:00",
+      "UpdatedAssociateId": 529,
+      "Registered": "2020-06-11T12:19:46.1014395+02:00",
+      "RegisteredAssociateId": 957,
+      "RequestAssociateId": 510,
+      "RequestComment": "eaque",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 273
         }
       }
     }
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

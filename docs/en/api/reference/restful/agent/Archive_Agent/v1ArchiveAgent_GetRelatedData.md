@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "ullam",
-  "RecordId": 447,
+  "Table": "asperiores",
+  "RecordId": 946,
   "Fields": [
-    "non",
-    "provident"
+    "in",
+    "officia"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "praesentium",
+    "Field": "voluptatem",
     "FieldValue": null
   },
   {
-    "Field": "praesentium",
+    "Field": "voluptatem",
     "FieldValue": null
   }
 ]

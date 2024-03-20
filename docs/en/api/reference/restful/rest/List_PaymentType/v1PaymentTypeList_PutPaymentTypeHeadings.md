@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 896,
-    "Name": "Sauer-Tromp",
-    "Tooltip": "et",
+    "HeadingId": 168,
+    "Name": "Hilpert LLC",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 504,
-    "UdListDefinitionId": 768
+    "Rank": 700,
+    "UdListDefinitionId": 825
   },
   {
-    "HeadingId": 896,
-    "Name": "Sauer-Tromp",
-    "Tooltip": "et",
+    "HeadingId": 168,
+    "Name": "Hilpert LLC",
+    "Tooltip": "tenetur",
     "Deleted": true,
-    "Rank": 504,
-    "UdListDefinitionId": 768
+    "Rank": 700,
+    "UdListDefinitionId": 825
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 701,
-    "Name": "Blick-Goyette",
-    "Tooltip": "fuga",
-    "Deleted": true,
-    "Rank": 638,
-    "UdListDefinitionId": 756,
+    "HeadingId": 265,
+    "Name": "Purdy Inc and Sons",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 53,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldLength": 365
       }
     }
   }

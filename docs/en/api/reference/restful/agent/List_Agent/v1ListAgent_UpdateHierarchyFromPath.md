@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "id",
+  "Path": "sint",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 837,
+  "HierarchyId": 775,
   "Domain": "Dashboards",
-  "Name": "Torp Group",
-  "Fullname": "quaerat",
-  "ParentId": 362,
+  "Name": "Langworth-Lindgren",
+  "Fullname": "quo",
+  "ParentId": 277,
   "Children": [
     {
-      "HierarchyId": 198,
+      "HierarchyId": 467,
       "Domain": "Dashboards",
-      "Name": "Christiansen LLC",
-      "Fullname": "eligendi",
-      "ParentId": 501,
+      "Name": "Bruen, Keeling and Sawayn",
+      "Fullname": "et",
+      "ParentId": 382,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-03-04T14:23:46.8786294+01:00",
-      "RegisteredAssociateId": 55,
-      "Updated": "1997-02-20T14:23:46.8786294+01:00",
-      "UpdatedAssociateId": 45,
+      "Registered": "2004-06-18T12:19:45.5390987+02:00",
+      "RegisteredAssociateId": 452,
+      "Updated": "2004-01-17T12:19:45.5390987+01:00",
+      "UpdatedAssociateId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldLength": 549
         }
       }
     }
   ],
-  "Registered": "2001-12-01T14:23:46.8786294+01:00",
-  "RegisteredAssociateId": 533,
-  "Updated": "2016-04-20T14:23:46.8786294+02:00",
-  "UpdatedAssociateId": 453,
+  "Registered": "1997-08-06T12:19:45.5390987+02:00",
+  "RegisteredAssociateId": 322,
+  "Updated": "2000-03-04T12:19:45.5390987+01:00",
+  "UpdatedAssociateId": 778,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

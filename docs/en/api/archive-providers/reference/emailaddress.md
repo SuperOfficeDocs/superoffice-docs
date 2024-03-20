@@ -427,6 +427,7 @@ the email_id.
 |contactSupportPerson/personExtra/y\_rental/x\_amount| *None* |User support contact - Rental - Amount: Number to rent. Default = 1|  |
 |contactSupportPerson/personExtra/y\_rental/x\_contact| *None* |User support contact - Rental - Renter: Company that rents equipment|  |
 |contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name| *None* |User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+|contactSupportPerson/personExtra/y\_car/id| *None* |User support contact - Car - id: Displays the row's primary key (y\_car)|  |
 |contactSupportPerson/isMailingRecipient| *None* |User support contact - Is mailing recipient: isMailingRecipient|  |
 |contactSupportPerson/hasStoreConsent| *None* |User support contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/withdrawnStoreConsent| *None* |User support contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -442,11 +443,11 @@ the email_id.
 |contactUdef/SuperOffice:2| *None* |companylongtext: tooltiplongtext|  |
 |contactUdef/SuperOffice:3| *None* |companynumber|  |
 |contactUdef/SuperOffice:4| *None* |companydate|  |
-|contactUdef/SuperOffice:5| *None* |companyunlimiteddate: tooltipunlimiteddate|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactUdef/SuperOffice:5| *None* |companyunlimiteddate: tooltipunlimiteddate|  |
 |contactUdef/SuperOffice:6| *None* |companycheckbox|  |
 |contactUdef/SuperOffice:7| *None* |companydropdownlistbox|  |
 |contactUdef/SuperOffice:8| *None* |companydecimal|  |
@@ -471,6 +472,7 @@ the email_id.
 |contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
+|contactExtra/y\_organization/x\_name| *None* |Organization - Name|  |
 |NumberOfActivities| *None* |Number of activities|  |
 |NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -507,7 +509,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personContact/hasInfoText,streetAddress/wgs84latitude,contactSupportPerson/personNoMail,contactExtra/x_contact_contact
+GET /api/v1/archive/EmailAddress?$select=personContact/streetAddress/county,mainContact,contactSupportPerson/associateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

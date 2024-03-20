@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "dolore",
-  "LineNumber": 994,
+  "ErrorMessage": "non",
+  "LineNumber": 577,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldLength": 804
     }
   }
 }

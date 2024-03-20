@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dignissimos",
-  "ProviderName": "Hills Inc and Sons",
-  "StorageKey": "sapiente",
-  "Restrictions": "nesciunt"
+  "StorageType": "deserunt",
+  "ProviderName": "Dach-Smith",
+  "StorageKey": "optio",
+  "Restrictions": "repellat"
 }
 ```
 

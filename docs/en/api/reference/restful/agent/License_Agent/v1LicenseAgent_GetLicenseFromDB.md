@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schinner Inc and Sons"
+  "OwnerName": "Schmidt-Wiegand"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 751,
-      "NumberOfLicensesFree": 761,
-      "NumberOfLicensesAdded": 395,
-      "NumberOfLicensesNewTotal": 403,
-      "NumberOfLicensesNewFree": 383,
-      "NumberOfLicensesTotal": 669
+      "NumberOfLicensesInUse": 727,
+      "NumberOfLicensesFree": 520,
+      "NumberOfLicensesAdded": 377,
+      "NumberOfLicensesNewTotal": 167,
+      "NumberOfLicensesNewFree": 903,
+      "NumberOfLicensesTotal": 390
     }
   ],
-  "AccumulatedNextCheckDate": "2017-11-05T14:23:46.7681044+01:00"
+  "AccumulatedNextCheckDate": "2015-10-10T12:19:45.4297292+02:00"
 }
 ```

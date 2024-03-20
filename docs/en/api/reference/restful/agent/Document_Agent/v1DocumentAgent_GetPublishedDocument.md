@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 955
+  "DocumentId": 171
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 753,
-  "Attention": "fugiat",
-  "Header": "dolore",
-  "Name": "Rippin Group",
-  "OurRef": "aspernatur",
-  "YourRef": "ut",
-  "Description": "Secured heuristic methodology",
-  "DocumentTemplate": "reprehenderit",
-  "IsPublished": true,
-  "PersonId": 898,
-  "PersonFullName": "Lance Prosacco",
-  "AssociateFullName": "Wilson Corwin",
-  "ContactId": 38,
-  "ContactName": "Terry-Harvey",
-  "ProjectId": 477,
-  "ProjectName": "Gleason Group",
-  "AssociateId": 728,
-  "Snum": 462,
-  "SaleId": 912,
-  "SaleName": "Johnson, Wehner and Reynolds",
+  "DocumentId": 622,
+  "Attention": "voluptas",
+  "Header": "sunt",
+  "Name": "Beier-Vandervort",
+  "OurRef": "odit",
+  "YourRef": "in",
+  "Description": "Open-architected system-worthy challenge",
+  "DocumentTemplate": "autem",
+  "IsPublished": false,
+  "PersonId": 27,
+  "PersonFullName": "Miss Ila Gutkowski DVM",
+  "AssociateFullName": "Rene Cremin V",
+  "ContactId": 594,
+  "ContactName": "Kub Inc and Sons",
+  "ProjectId": 59,
+  "ProjectName": "Jones Group",
+  "AssociateId": 668,
+  "Snum": 261,
+  "SaleId": 913,
+  "SaleName": "Hartmann-Greenholt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

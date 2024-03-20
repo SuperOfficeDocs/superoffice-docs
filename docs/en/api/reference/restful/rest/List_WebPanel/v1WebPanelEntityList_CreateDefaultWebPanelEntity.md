@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 832,
-  "Name": "Lesch-Cruickshank",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 232,
+  "WebPanelId": 323,
+  "Name": "Cruickshank Group",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 948,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Hayes, Homenick and Schmitt",
+  "WindowName": "Harber Group",
   "Url": "http://www.example.com/",
-  "ProgId": "tenetur",
-  "Icon": 43,
+  "ProgId": "similique",
+  "Icon": 903,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   }
 }

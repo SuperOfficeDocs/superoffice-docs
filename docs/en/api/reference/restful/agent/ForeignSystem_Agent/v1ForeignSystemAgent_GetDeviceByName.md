@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blanda-Jakubowski",
-  "DeviceName": "Kunde LLC"
+  "ApplicationName": "Moen-Ebert",
+  "DeviceName": "Crist-Cormier"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 457,
-  "Name": "Crooks-Hartmann",
-  "CreatedDate": "2024-01-10T14:23:46.7524806+01:00",
-  "UpdatedDate": "2001-11-30T14:23:46.7524806+01:00",
-  "AssociateFullName": "Madison Sanford DDS",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "quidem",
-  "DeviceIdentifier": "libero",
-  "ForeignAppId": 488,
+  "ForeignDeviceId": 455,
+  "Name": "Sipes Group",
+  "CreatedDate": "2024-01-13T12:19:45.4141069+01:00",
+  "UpdatedDate": "2019-05-03T12:19:45.4141069+02:00",
+  "AssociateFullName": "Cyrus Schumm",
+  "CreatedBy": "ut",
+  "UpdatedBy": "ipsam",
+  "DeviceIdentifier": "nostrum",
+  "ForeignAppId": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

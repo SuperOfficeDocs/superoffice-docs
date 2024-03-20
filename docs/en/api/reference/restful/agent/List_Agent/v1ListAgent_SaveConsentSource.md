@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 676,
-  "Name": "Satterfield-Johns",
-  "Tooltip": "ut",
-  "Rank": 98,
-  "Key": "et",
-  "MailTemplateId": 851,
+  "ConsentSourceId": 982,
+  "Name": "Mosciski Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Rank": 638,
+  "Key": "enim",
+  "MailTemplateId": 479,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

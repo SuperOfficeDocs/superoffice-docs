@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 57,
-  "Field": "aspernatur",
-  "RecordId": 944,
+  "RefCountsId": 468,
+  "Field": "id",
+  "RecordId": 121,
   "SuggestedRecords": [
     {
-      "Id": 363,
-      "Name": "Lang-Brakus",
-      "ToolTip": "Repudiandae odit.",
+      "Id": 81,
+      "Name": "Huel, Barrows and Dare",
+      "ToolTip": "Magnam atque cupiditate.",
       "Deleted": false,
-      "Rank": 680,
-      "Type": "laboriosam",
+      "Rank": 763,
+      "Type": "in",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloremque",
-      "ColorBlock": 903,
-      "ExtraInfo": "vero",
-      "StyleHint": "odio",
-      "FullName": "Prof. Heidi Gracie Roob",
+      "IconHint": "nisi",
+      "ColorBlock": 965,
+      "ExtraInfo": "unde",
+      "StyleHint": "molestias",
+      "FullName": "Mrs. Sylvia Moses Schoen III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 197
         }
       }
     }
   ],
-  "CurrentValue": 270,
-  "TravelPrefix": 974,
-  "SatPrefix": 728,
+  "CurrentValue": 299,
+  "TravelPrefix": 160,
+  "SatPrefix": 743,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "Unique": false,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 686
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 978,
-  "Name": "Cole-Crona",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 633,
-  "UdListDefinitionId": 696
+  "HeadingId": 126,
+  "Name": "Schinner, Vandervort and Spinka",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 340,
+  "UdListDefinitionId": 864
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 287,
-  "Name": "Watsica, Crona and Labadie",
-  "Tooltip": "quisquam",
+  "HeadingId": 966,
+  "Name": "Zulauf Inc and Sons",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 721,
-  "UdListDefinitionId": 546,
+  "Rank": 677,
+  "UdListDefinitionId": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

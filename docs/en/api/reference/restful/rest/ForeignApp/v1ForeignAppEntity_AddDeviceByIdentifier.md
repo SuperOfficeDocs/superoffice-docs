@@ -69,7 +69,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 656,
-  "Name": "Breitenberg Group",
-  "CreatedDate": "2001-06-01T14:23:55.1802705+02:00",
-  "UpdatedDate": "2011-05-15T14:23:55.1802705+02:00",
-  "AssociateFullName": "Dr. Jerod Arno Lemke Jr.",
-  "CreatedBy": "sed",
-  "UpdatedBy": "veniam",
-  "DeviceIdentifier": "animi",
-  "ForeignAppId": 931,
+  "ForeignDeviceId": 853,
+  "Name": "Kerluke Inc and Sons",
+  "CreatedDate": "2023-08-11T12:19:53.6023745+02:00",
+  "UpdatedDate": "2006-08-09T12:19:53.6023745+02:00",
+  "AssociateFullName": "Kody Huels",
+  "CreatedBy": "sit",
+  "UpdatedBy": "unde",
+  "DeviceIdentifier": "aut",
+  "ForeignAppId": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 445
     }
   }
 }

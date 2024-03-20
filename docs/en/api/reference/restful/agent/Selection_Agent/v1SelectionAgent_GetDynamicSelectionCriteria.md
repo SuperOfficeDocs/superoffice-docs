@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 119
+  "SelectionId": 374
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Williamson, Brakus and Rempel",
-    "Operator": "aut",
+    "Name": "Jakubowski, Marvin and Wisozk",
+    "Operator": "et",
     "Values": [
-      "rerum",
-      "repellat"
+      "labore",
+      "est"
     ],
     "DisplayValues": [
-      "libero",
-      "molestiae"
+      "voluptatum",
+      "dolores"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rowe LLC",
-        "Operator": "qui",
+        "Name": "Hoeger Group",
+        "Operator": "voluptatem",
         "Values": [
-          "debitis",
-          "debitis"
+          "sed",
+          "et"
         ],
         "DisplayValues": [
-          "labore",
-          "at"
+          "doloremque",
+          "dolore"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 600,
+        "InterParenthesis": 74,
         "InterOperator": "And",
-        "UniqueHash": 527
+        "UniqueHash": 612
       }
     ],
-    "InterParenthesis": 556,
+    "InterParenthesis": 995,
     "InterOperator": "And",
-    "UniqueHash": 737
+    "UniqueHash": 644
   }
 ]
 ```

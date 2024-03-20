@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 67
+  "DocumentId": 167
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 940,
-  "Name": "Senger Inc and Sons",
-  "ContentType": "officia",
-  "AttSize": 130,
+  "AttachmentId": 99,
+  "Name": "Prosacco, Wolf and Schroeder",
+  "ContentType": "ullam",
+  "AttSize": 49,
   "InlineImage": false,
-  "ContentId": "expedita",
-  "AuthKey": "consequatur",
+  "ContentId": "reprehenderit",
+  "AuthKey": "perspiciatis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 67
+      "FieldLength": 126
     }
   }
 }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gerhold-Jerde",
-  "RecordId": 56,
-  "AssociateId": 644
+  "TableName": "Gulgowski-Daniel",
+  "RecordId": 735,
+  "AssociateId": 42
 }
 ```
 

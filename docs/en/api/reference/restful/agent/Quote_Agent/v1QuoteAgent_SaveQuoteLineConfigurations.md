@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 141,
-      "FieldName": "Kunze-Hammes",
-      "Label": "repellendus",
-      "Tooltip": "et",
+      "QuoteLineConfigurationId": 713,
+      "FieldName": "Wiegand Inc and Sons",
+      "Label": "ut",
+      "Tooltip": "aut",
       "Editable": false,
       "InUse": true,
       "Mandatory": false,
-      "Rank": 19,
+      "Rank": 57,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 412,
-    "FieldName": "Bruen Group",
-    "Label": "iure",
-    "Tooltip": "rerum",
+    "QuoteLineConfigurationId": 696,
+    "FieldName": "Schultz LLC",
+    "Label": "beatae",
+    "Tooltip": "sunt",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 747,
+    "Rank": 788,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

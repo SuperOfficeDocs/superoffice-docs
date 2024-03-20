@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 585,
-  "Name": "Hackett LLC",
+  "WebhookId": 386,
+  "Name": "Lindgren, Ullrich and Kunze",
   "Events": [
-    "ut",
-    "velit"
+    "quia",
+    "voluptates"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "atque",
+  "Secret": "quam",
   "State": "Active",
-  "Type": "excepturi",
+  "Type": "nemo",
   "Headers": {
-    "Headers1": "esse",
-    "Headers2": "eos"
+    "Headers1": "ex",
+    "Headers2": "doloremque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-02-09T14:23:55.9314526+01:00",
+  "Registered": "2007-12-14T12:19:54.2584759+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-02-05T14:23:55.9314526+01:00",
+  "Updated": "2011-10-07T12:19:54.2584759+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "ilene@braun.uk",
+  "ErrorsEmail": "sharon.rice@roberts.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

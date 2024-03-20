@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Mueller, Heaney and Lind",
-    "ToolTip": "Magni est dolor consequatur deserunt.",
+    "Id": 393,
+    "Name": "Keeling LLC",
+    "ToolTip": "Omnis magnam aut voluptatem.",
     "Deleted": false,
-    "Rank": 103,
-    "Type": "ipsa",
-    "ColorBlock": 808,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2010-12-26T14:23:56.1345776+01:00",
+    "Rank": 300,
+    "Type": "blanditiis",
+    "ColorBlock": 273,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "1999-09-11T12:19:54.6334859+02:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Durgan-Zulauf",
-        "ToolTip": "Occaecati aliquam dolores qui minus ducimus possimus.",
-        "Deleted": false,
-        "Rank": 823,
-        "Type": "eaque",
-        "ColorBlock": 2,
-        "IconHint": "nesciunt",
+        "Id": 625,
+        "Name": "Ondricka LLC",
+        "ToolTip": "Cum consectetur vel ut amet voluptas.",
+        "Deleted": true,
+        "Rank": 978,
+        "Type": "maxime",
+        "ColorBlock": 559,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2000-02-14T14:23:56.1502016+01:00",
+        "LastChanged": "2010-09-12T12:19:54.6334859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Alverta Glover DVM",
+        "ExtraInfo": "sint",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Prof. Jaylin Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "error",
+    "ExtraInfo": "sunt",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Corine Mohr",
+    "FullName": "Ashley Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

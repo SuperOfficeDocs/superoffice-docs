@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 99,
-  "TopicId": 273,
+  "ChatSessionId": 815,
+  "TopicId": 828,
   "User": null,
   "Person": null,
-  "CustomerAlias": "a",
-  "CustomerHost": "aperiam",
-  "CustomerName": "Murray Group",
-  "CustomerEmail": "eldred@miller.biz",
-  "CustomerPhone": "(033)589-4635 x46344",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "eum",
+  "CustomerName": "McKenzie, Corkery and Rath",
+  "CustomerEmail": "kian@considine.com",
+  "CustomerPhone": "418-943-7211",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Wehner, Haley and Schroeder",
+  "CustomerCompanyName": "Shanahan-McLaughlin",
   "Status": "Closed",
-  "FirstMessage": "facere",
-  "LastMessage": "dolor",
-  "WhenRequested": "1997-10-16T14:23:54.850267+02:00",
-  "WhenStarted": "1998-06-09T14:23:54.850267+02:00",
-  "WhenEnded": "2010-04-23T14:23:54.850267+02:00",
-  "WhenIdle": "2015-11-23T14:23:54.850267+01:00",
-  "WhenFetched": "2022-04-18T14:23:54.850267+02:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 935,
-  "AlertLevel": 144,
-  "Rank": 786,
+  "FirstMessage": "nihil",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2010-01-03T12:19:53.1180982+01:00",
+  "WhenStarted": "2017-11-04T12:19:53.1180982+01:00",
+  "WhenEnded": "2016-02-03T12:19:53.1180982+01:00",
+  "WhenIdle": "2019-11-01T12:19:53.1180982+01:00",
+  "WhenFetched": "2009-02-16T12:19:53.1180982+01:00",
+  "SessionKey": "quam",
+  "InitialQueuePos": 230,
+  "AlertLevel": 557,
+  "Rank": 300,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 117,
+  "Rating": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

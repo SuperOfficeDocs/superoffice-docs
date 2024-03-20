@@ -85,26 +85,26 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 198,
-  "Name": "Glover LLC",
-  "Rank": 393,
-  "Tooltip": "quibusdam",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 919,
+  "TicketTypeId": 483,
+  "Name": "Satterfield, Zieme and Schoen",
+  "Rank": 112,
+  "Tooltip": "vel",
+  "Icon": "non",
+  "DefaultTicketStatus": 19,
   "TicketStatuses": [
-    388,
-    858
+    111,
+    110
   ],
-  "DefaultTicketPriority": 662,
+  "DefaultTicketPriority": 562,
   "TicketPriorities": [
-    588,
-    743
+    785,
+    401
   ],
-  "ReplyTemplate": 648,
+  "ReplyTemplate": 379,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 960,
-  "Name": "Trantow Group",
-  "Rank": 886,
-  "Tooltip": "dolores",
-  "Icon": "debitis",
-  "DefaultTicketStatus": 997,
+  "TicketTypeId": 786,
+  "Name": "Turner Group",
+  "Rank": 481,
+  "Tooltip": "corrupti",
+  "Icon": "asperiores",
+  "DefaultTicketStatus": 480,
   "TicketStatuses": [
-    640,
-    344
+    434,
+    462
   ],
-  "DefaultTicketPriority": 186,
+  "DefaultTicketPriority": 912,
   "TicketPriorities": [
-    466,
-    541
+    793,
+    866
   ],
-  "ReplyTemplate": 561,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 303,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 70
     }
   }
 }

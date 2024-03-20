@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 27 Jan 2019 14:23:55 G1T
+Last-Modified: Sat, 11 Aug 2007 12:19:53 G8T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sun, 27 Jan 2019 14:23:55 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "sit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sun, 27 Jan 2019 14:23:55 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-08-26T14:23:55.4158327+02:00",
-  "Amount": 19148.739999999998,
-  "SaleId": 831,
-  "Earning": 24501.612,
-  "EarningPercent": 9618.246,
-  "Heading": "repellendus",
-  "Number": "722503",
-  "Probability": 851,
-  "CreatedDate": "2023-10-04T14:23:55.4158327+02:00",
-  "UpdatedDate": "2019-01-27T14:23:55.4158327+01:00",
+  "Saledate": "2015-10-25T12:19:53.8210702+01:00",
+  "Amount": 22198.122,
+  "SaleId": 250,
+  "Earning": 7574.878,
+  "EarningPercent": 18098.85,
+  "Heading": "rerum",
+  "Number": "1305153",
+  "Probability": 959,
+  "CreatedDate": "1996-11-05T12:19:53.8210702+01:00",
+  "UpdatedDate": "2007-08-11T12:19:53.8210702+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 912,
+  "ActiveLinks": 429,
   "Links": [
     {
-      "EntityName": "Hayes, Cruickshank and Wisozk",
-      "Id": 617,
-      "Description": "Phased modular conglomeration",
-      "ExtraInfo": "id",
-      "LinkId": 314,
+      "EntityName": "Rosenbaum-Sipes",
+      "Id": 667,
+      "Description": "Customizable client-server protocol",
+      "ExtraInfo": "excepturi",
+      "LinkId": 507,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 147
         }
       }
     }
   ],
-  "NextDueDate": "2015-02-13T14:23:55.4158327+01:00",
-  "Postit": "eius",
+  "NextDueDate": "2015-02-10T12:19:53.8210702+01:00",
+  "Postit": "facere",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-05-26T14:23:55.4158327+02:00",
+  "ReopenDate": "2023-10-15T12:19:53.8210702+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Berge-Bartoletti",
-      "Comment": "earum",
-      "StakeholderRoleId": 775,
-      "CountryId": 654,
-      "PersonId": 494,
-      "EmailDescription": "danyka@kuhlman.name",
-      "EmailId": 968,
-      "EmailAddress": "christian@parkerrowe.name",
-      "PhoneId": 243,
-      "ContactName": "Hagenes, Senger and Langosh",
-      "ContactId": 397,
-      "SaleId": 914,
-      "Mrmrs": "est",
-      "Firstname": "Terrill",
-      "MiddleName": "West Group",
-      "Lastname": "Haley",
-      "SaleStakeholderId": 191,
-      "Rank": 69,
-      "Phone": "634.592.7651",
+      "StakeholderRoleName": "Schinner Inc and Sons",
+      "Comment": "sed",
+      "StakeholderRoleId": 642,
+      "CountryId": 211,
+      "PersonId": 631,
+      "EmailDescription": "flo@moen.co.uk",
+      "EmailId": 330,
+      "EmailAddress": "carrie@haag.info",
+      "PhoneId": 781,
+      "ContactName": "Haley Inc and Sons",
+      "ContactId": 507,
+      "SaleId": 458,
+      "Mrmrs": "ducimus",
+      "Firstname": "Mandy",
+      "MiddleName": "Sanford Inc and Sons",
+      "Lastname": "Pfeffer",
+      "SaleStakeholderId": 234,
+      "Rank": 431,
+      "Phone": "966.762.9644",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 496
         }
       }
     }
   ],
-  "ActiveErpLinks": 782,
+  "ActiveErpLinks": 202,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Willy Kuhn",
-    "SuperOffice:2": "Alva Cristobal Klein Jr."
+    "SuperOffice:1": "Augustine Gleichner",
+    "SuperOffice:2": "Mr. Titus Roberts PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempora",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "alias"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2005-04-04T14:23:55.4158327+02:00",
-  "PublishTo": "2009-12-06T14:23:55.4158327+01:00",
-  "PublishFrom": "2023-12-20T14:23:55.4158327+01:00",
+  "PublishEventDate": "2010-08-06T12:19:53.8210702+02:00",
+  "PublishTo": "2001-03-14T12:19:53.8210702+01:00",
+  "PublishFrom": "2015-05-14T12:19:53.8210702+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 803,
+      "VisibleId": 80,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 356
         }
       }
     },
     {
-      "VisibleId": 803,
+      "VisibleId": 80,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 356
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Sun, 27 Jan 2019 14:23:55 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

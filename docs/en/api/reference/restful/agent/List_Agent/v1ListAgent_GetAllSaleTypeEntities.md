@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 462,
-    "Name": "Keebler, Olson and Sanford",
-    "Tooltip": "labore",
-    "Rank": 774,
+    "SaleTypeId": 265,
+    "Name": "Jerde Group",
+    "Tooltip": "laboriosam",
+    "Rank": 200,
     "DurationUnit": "Century",
-    "SaleDuration": 6,
-    "SaleTypeCatId": 581,
-    "Deleted": true,
-    "HasGuide": true,
+    "SaleDuration": 630,
+    "SaleTypeCatId": 768,
+    "Deleted": false,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 540,
-    "QuoteLinesTemplate": 38,
-    "ConfirmationLinesTemplate": 483,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 111,
+    "QuoteLinesTemplate": 721,
+    "ConfirmationLinesTemplate": 395,
     "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 238,
-    "MinEarningPercent": 285,
-    "GroupQuoteLinesBy": 782,
-    "SortGroupLinesBy": 120,
+    "MaxDiscountPercent": 253,
+    "MinEarningPercent": 618,
+    "GroupQuoteLinesBy": 229,
+    "SortGroupLinesBy": 803,
     "Stages": [
       {
-        "Id": 330,
-        "Name": "Hauck Group",
-        "ToolTip": "Nam provident cumque voluptas.",
+        "Id": 138,
+        "Name": "Lang, Ernser and Steuber",
+        "ToolTip": "Vitae harum aut eos.",
         "Deleted": false,
-        "Rank": 53,
-        "Type": "nam",
-        "ColorBlock": 760,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1997-08-03T14:23:46.814978+02:00",
+        "Rank": 720,
+        "Type": "harum",
+        "ColorBlock": 137,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2003-02-09T12:19:45.4765914+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Malcolm Roberts",
+        "ExtraInfo": "enim",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Ms. Justina Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 778
+            "FieldType": "System.Int32",
+            "FieldLength": 950
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 240
       }
     }
   }

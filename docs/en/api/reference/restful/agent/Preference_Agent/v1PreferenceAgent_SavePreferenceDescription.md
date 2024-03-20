@@ -101,24 +101,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 132,
-  "Section": "adipisci",
-  "Key": "consectetur",
-  "Name": "Labadie Inc and Sons",
+  "PrefDescId": 99,
+  "Section": "molestiae",
+  "Key": "aliquid",
+  "Name": "Schuster, Kulas and Prosacco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based contextually-based migration",
-  "IsBuiltin": false,
-  "TableName": "Kling Inc and Sons",
-  "UserDefinedListId": 178,
-  "Rank": 295,
-  "SubGroup": "non",
-  "MinLevel": 604,
-  "MaxValue": 464,
-  "MinValue": 58,
-  "RequiredLicense": "eum"
+  "Description": "Total content-based adapter",
+  "IsBuiltin": true,
+  "TableName": "Bauch, Runolfsson and Jacobi",
+  "UserDefinedListId": 528,
+  "Rank": 322,
+  "SubGroup": "neque",
+  "MinLevel": 215,
+  "MaxValue": 775,
+  "MinValue": 326,
+  "RequiredLicense": "nobis"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 556,
-  "Section": "voluptatem",
-  "Key": "dolorum",
-  "Name": "Spencer, Huel and Vandervort",
+  "PrefDescId": 957,
+  "Section": "natus",
+  "Key": "mollitia",
+  "Name": "Kreiger, Schultz and Quigley",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line dedicated encryption",
-  "IsBuiltin": false,
-  "TableName": "Boehm, Abbott and Dickens",
-  "UserDefinedListId": 395,
-  "Rank": 4,
-  "SubGroup": "ut",
-  "MinLevel": 110,
-  "MaxValue": 672,
-  "MinValue": 4,
-  "RequiredLicense": "dolorem",
+  "Description": "Cross-group executive implementation",
+  "IsBuiltin": true,
+  "TableName": "Ebert Inc and Sons",
+  "UserDefinedListId": 723,
+  "Rank": 883,
+  "SubGroup": "minima",
+  "MinLevel": 243,
+  "MaxValue": 521,
+  "MinValue": 941,
+  "RequiredLicense": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

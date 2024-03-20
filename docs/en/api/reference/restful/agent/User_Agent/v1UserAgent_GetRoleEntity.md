@@ -28,7 +28,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=774
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=313
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,24 +90,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 956,
-  "Name": "Schimmel LLC",
-  "Tooltip": "sit",
+  "RoleId": 290,
+  "Name": "Schuster LLC",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 822,
-  "Rank": 868,
-  "Created": "2001-06-17T14:23:47.8473753+02:00",
-  "UseCategories": 857,
+  "Deleted": 743,
+  "Rank": 51,
+  "Created": "2012-10-11T12:19:46.5857106+02:00",
+  "UseCategories": 296,
   "CreatedBy": null,
-  "Updated": "2019-12-27T14:23:47.8473753+01:00",
+  "Updated": "2017-02-26T12:19:46.5857106+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   }
 }

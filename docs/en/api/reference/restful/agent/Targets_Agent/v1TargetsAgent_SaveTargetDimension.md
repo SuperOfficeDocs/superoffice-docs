@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 978,
+  "TargetDimensionId": 528,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aliquid",
-  "DimensionListName": "Jenkins, Schimmel and Sauer",
-  "DimensionListId": 918,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "et",
+  "DimensionListName": "Parker, Baumbach and Lindgren",
+  "DimensionListId": 522,
+  "DimensionListLabel": "et",
   "SelectedDimensions": [
-    688,
-    133
+    429,
+    494
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 136,
+  "TargetDimensionId": 21,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
   "DimensionListField": "vel",
-  "DimensionListName": "Gorczany, Rau and Davis",
-  "DimensionListId": 941,
-  "DimensionListLabel": "in",
+  "DimensionListName": "Orn, Smitham and Robel",
+  "DimensionListId": 517,
+  "DimensionListLabel": "dolores",
   "SelectedDimensions": [
-    524,
-    407
+    294,
+    572
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 114,
-    "Name": "Satterfield Inc and Sons",
-    "ToolTip": "Cumque quia natus eius aut sapiente rem totam.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "magni",
-    "ColorBlock": 807,
-    "IconHint": "nostrum",
+    "Id": 840,
+    "Name": "Reichel-Medhurst",
+    "ToolTip": "Nobis numquam sit quos rem.",
+    "Deleted": false,
+    "Rank": 289,
+    "Type": "accusamus",
+    "ColorBlock": 548,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2007-05-24T14:23:56.2126991+02:00",
+    "LastChanged": "2017-07-15T12:19:54.7114903+02:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Jaskolski, Auer and Murray",
-        "ToolTip": "Nihil iusto et.",
+        "Id": 37,
+        "Name": "Von, Eichmann and Mann",
+        "ToolTip": "Ut et impedit rem dolor nihil voluptatem.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "consequatur",
-        "ColorBlock": 651,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "1998-04-29T14:23:56.2126991+02:00",
+        "Rank": 819,
+        "Type": "placeat",
+        "ColorBlock": 704,
+        "IconHint": "eveniet",
+        "Selected": true,
+        "LastChanged": "2009-11-06T12:19:54.7114903+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "odio",
+        "ExtraInfo": "rerum",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Prof. Emily Hudson IV",
+        "FullName": "Mae Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "cumque",
+    "ExtraInfo": "magni",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Prof. Kayli Bill Koss",
+    "FullName": "Emelia Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 501
       }
     }
   }

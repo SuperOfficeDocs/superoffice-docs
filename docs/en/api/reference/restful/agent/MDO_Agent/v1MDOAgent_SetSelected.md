@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hills-Konopelski",
-  "AdditionalInfo": "fugit",
+  "Name": "Ferry, Jast and Balistreri",
+  "AdditionalInfo": "nostrum",
   "SelectableMDOList": [
     {
-      "Id": 523,
-      "Name": "Kling Inc and Sons",
-      "ToolTip": "Iusto quo.",
-      "Deleted": false,
-      "Rank": 526,
-      "Type": "eveniet",
-      "ColorBlock": 986,
-      "IconHint": "excepturi",
+      "Id": 754,
+      "Name": "Haag LLC",
+      "ToolTip": "Explicabo consequuntur eligendi aliquid non.",
+      "Deleted": true,
+      "Rank": 969,
+      "Type": "quis",
+      "ColorBlock": 710,
+      "IconHint": "voluptatem",
       "Selected": true,
-      "LastChanged": "2022-01-24T14:23:46.9411374+01:00",
+      "LastChanged": "2019-12-31T12:19:45.6015646+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "officia",
-      "Hidden": false,
-      "FullName": "Regan Rowe"
+      "ExtraInfo": "dolorum",
+      "StyleHint": "placeat",
+      "Hidden": true,
+      "FullName": "Karen Ernser"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Bergnaum Inc and Sons",
-    "ToolTip": "Consequuntur et.",
+    "Id": 699,
+    "Name": "Erdman Group",
+    "ToolTip": "Laborum quasi voluptas vero laborum unde ut.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "explicabo",
-    "ColorBlock": 452,
-    "IconHint": "aut",
+    "Rank": 293,
+    "Type": "aut",
+    "ColorBlock": 116,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-11-20T14:23:46.9411374+01:00",
+    "LastChanged": "2018-08-20T12:19:45.6015646+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Pagac-Schoen",
-        "ToolTip": "Ipsa culpa ea nesciunt.",
-        "Deleted": false,
-        "Rank": 548,
-        "Type": "incidunt",
-        "ColorBlock": 323,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2017-05-04T14:23:46.9411374+02:00",
+        "Id": 514,
+        "Name": "Grimes-Ritchie",
+        "ToolTip": "Aut et quia expedita sed ut.",
+        "Deleted": true,
+        "Rank": 36,
+        "Type": "et",
+        "ColorBlock": 899,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2020-09-30T12:19:45.6015646+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Ariel Konopelski",
+        "ExtraInfo": "iure",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Prof. Nikita Wuckert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 995
+            "FieldType": "System.Int32",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nemo",
+    "ExtraInfo": "quidem",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Ms. Janis Saul Lubowitz",
+    "FullName": "Lesly Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 542
       }
     }
   }

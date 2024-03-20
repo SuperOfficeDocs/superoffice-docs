@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Mar 2001 14:23:55 G3T
+Last-Modified: Thu, 10 Apr 2014 12:19:53 G4T
 
 {
-  "SourceContactId": 656,
-  "SourcePersonId": 711,
-  "DestinationContactId": 947,
-  "DestinationPersonId": 961,
-  "RelationId": 753,
-  "Comment": "dicta",
-  "RelationDefinitionId": 882,
-  "Reversed": 493,
-  "UpdatedDate": "2001-03-26T14:23:55.0396483+02:00",
-  "CreatedDate": "1999-07-10T14:23:55.0396483+02:00",
+  "SourceContactId": 316,
+  "SourcePersonId": 857,
+  "DestinationContactId": 105,
+  "DestinationPersonId": 239,
+  "RelationId": 297,
+  "Comment": "velit",
+  "RelationDefinitionId": 814,
+  "Reversed": 259,
+  "UpdatedDate": "2014-04-10T12:19:53.3055654+02:00",
+  "CreatedDate": "2000-05-15T12:19:53.3055654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Runte LLC",
-  "SourcePersonName": "Spinka Group",
-  "DestinationContactName": "O'Keefe-Renner",
-  "DestinationPersonName": "Greenfelder-Brown",
-  "ActiveText": "asperiores",
-  "PassiveText": "totam",
+  "SourceContactName": "Gerhold-Stehr",
+  "SourcePersonName": "Adams, Block and Konopelski",
+  "DestinationContactName": "Morar, Bednar and Metz",
+  "DestinationPersonName": "Bauch Group",
+  "ActiveText": "alias",
+  "PassiveText": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   },
   "_Links": {

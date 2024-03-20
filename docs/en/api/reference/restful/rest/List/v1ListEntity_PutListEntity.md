@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Satterfield-Ryan",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 751,
+  "Id": 560,
+  "Name": "Dare-Crist",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 382,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 579,
-  "Name": "O'Kon Group",
-  "Tooltip": "qui",
+  "Id": 61,
+  "Name": "Kovacek-Kshlerin",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 920,
-  "IsCustomList": false,
+  "Rank": 525,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldLength": 521
     }
   },
   "_Links": {

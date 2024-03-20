@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "UdListDefinitionId": 803
+  "Id": 229,
+  "UdListDefinitionId": 538
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "occaecati",
+  "Id": 103,
+  "Name": "Windler, O'Reilly and Sporer",
+  "Tooltip": "rem",
   "Deleted": true,
-  "UdListDefinitionId": 95,
-  "Rank": 248,
+  "UdListDefinitionId": 69,
+  "Rank": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 197
     }
   }
 }

@@ -115,18 +115,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ex",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ex",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 779,
-  "AssociateId": 291,
+  "ShipmentMessageBlockId": 669,
+  "AssociateId": 395,
   "Block": "quia",
-  "Registered": "1998-11-13T14:23:55.509584+01:00",
-  "RegisteredAssociateId": 5,
-  "Updated": "2017-06-12T14:23:55.509584+02:00",
-  "UpdatedAssociateId": 426,
-  "UpdatedCount": 30,
+  "Registered": "2008-06-25T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 276,
+  "Updated": "2015-09-17T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 695,
+  "UpdatedCount": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

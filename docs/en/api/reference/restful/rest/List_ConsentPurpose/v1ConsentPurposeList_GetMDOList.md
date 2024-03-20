@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=necessitatibus
+GET /api/v1/List/ConsentPurpose/MDOItems?query=temporibus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Schaden-Bradtke",
-    "ToolTip": "Est impedit facere consequuntur blanditiis doloremque.",
-    "Deleted": false,
-    "Rank": 815,
-    "Type": "voluptatem",
+    "Id": 228,
+    "Name": "Heathcote, Krajcik and Stanton",
+    "ToolTip": "Molestias magni nobis voluptates possimus.",
+    "Deleted": true,
+    "Rank": 969,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Hermann Inc and Sons",
-        "ToolTip": "Praesentium qui autem doloremque non accusamus vero velit.",
+        "Id": 648,
+        "Name": "Wilkinson-Parisian",
+        "ToolTip": "Repellendus eveniet hic.",
         "Deleted": false,
-        "Rank": 356,
-        "Type": "quisquam",
+        "Rank": 152,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 613,
-        "ExtraInfo": "cumque",
-        "StyleHint": "dignissimos",
-        "FullName": "Dr. Nyah Emmanuelle Hermiston MD",
+        "IconHint": "aperiam",
+        "ColorBlock": 101,
+        "ExtraInfo": "enim",
+        "StyleHint": "ut",
+        "FullName": "Prof. Judson Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 957
           }
         }
       }
     ],
-    "IconHint": "exercitationem",
-    "ColorBlock": 10,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "in",
-    "FullName": "Eugenia O'Connell",
+    "IconHint": "molestias",
+    "ColorBlock": 686,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "animi",
+    "FullName": "Sofia Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 215
       }
     }
   }

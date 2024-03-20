@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Brown-Waelchi",
-  "Tooltip": "ullam",
+  "Id": 397,
+  "Name": "Welch-Sipes",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 661,
-  "Rank": 740,
+  "UdListDefinitionId": 952,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldLength": 240
     }
   }
 }

@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Klein, Feest and Rice",
-  "UsergroupId": 70,
+  "UdListDefinitionName": "Franecki-Prosacco",
+  "UsergroupId": 687,
   "ListItemsID": [
-    520,
-    834
+    24,
+    210
   ],
   "Enable": false
 }

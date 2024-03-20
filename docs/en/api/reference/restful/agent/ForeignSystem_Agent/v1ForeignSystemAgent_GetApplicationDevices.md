@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Parker Inc and Sons"
+  "ApplicationName": "Rempel, Green and Wehner"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 101,
-    "Name": "Ryan Inc and Sons",
-    "CreatedDate": "2021-11-04T14:23:46.7524806+01:00",
-    "UpdatedDate": "2003-10-03T14:23:46.7524806+02:00",
-    "AssociateFullName": "Joan Brown",
-    "CreatedBy": "consectetur",
-    "UpdatedBy": "rerum",
-    "DeviceIdentifier": "labore",
-    "ForeignAppId": 885,
+    "ForeignDeviceId": 640,
+    "Name": "Torphy-Nicolas",
+    "CreatedDate": "2015-08-28T12:19:45.4141069+02:00",
+    "UpdatedDate": "2003-09-20T12:19:45.4141069+02:00",
+    "AssociateFullName": "Cassidy Lehner",
+    "CreatedBy": "molestiae",
+    "UpdatedBy": "enim",
+    "DeviceIdentifier": "beatae",
+    "ForeignAppId": 2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

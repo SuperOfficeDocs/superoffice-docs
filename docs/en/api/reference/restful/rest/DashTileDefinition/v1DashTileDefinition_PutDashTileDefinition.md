@@ -115,29 +115,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 450,
-  "Name": "Bins-Rau",
-  "Description": "Mandatory client-driven circuit",
-  "DefaultHeight": 698,
-  "DefaultWidth": 362,
+  "DashboardTileDefinitionId": 487,
+  "Name": "Balistreri Group",
+  "Description": "Down-sized discrete system engine",
+  "DefaultHeight": 692,
+  "DefaultWidth": 262,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Pagac Group",
-  "SelectionId": 919,
+  "EntityName": "Beahan Group",
+  "SelectionId": 803,
   "CurrencyMode": "Base",
-  "CurrencyCode": "commodi",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "minus",
-  "LayoutConfig": "repellat",
-  "SecondarySelectionId": 859,
-  "MeasureByField": "qui",
+  "MeasureField": "maxime",
+  "SortBy": "iure",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 721,
+  "MeasureByField": "dolorem",
   "Usage": "Dashboard",
-  "ProviderName": "Towne, Steuber and O'Connell"
+  "ProviderName": "Kunde, Kessler and Pacocha"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 610,
-  "Name": "Kling, Anderson and Bechtelar",
-  "Description": "Exclusive cohesive ability",
-  "DefaultHeight": 389,
-  "DefaultWidth": 896,
+  "DashboardTileDefinitionId": 725,
+  "Name": "Corwin-Strosin",
+  "Description": "Streamlined hybrid strategy",
+  "DefaultHeight": 493,
+  "DefaultWidth": 535,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lang Group",
-  "SelectionId": 834,
+  "EntityName": "King, Shields and Fahey",
+  "SelectionId": 686,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "autem",
   "Measure": "Average",
-  "MeasureField": "ex",
-  "SortBy": "omnis",
-  "LayoutConfig": "alias",
-  "SecondarySelectionId": 242,
-  "MeasureByField": "sed",
+  "MeasureField": "sequi",
+  "SortBy": "quidem",
+  "LayoutConfig": "vitae",
+  "SecondarySelectionId": 879,
+  "MeasureByField": "doloribus",
   "Usage": "Dashboard",
-  "ProviderName": "West, Boyer and Schulist",
+  "ProviderName": "Kunde-Gutmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 210
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   },
   "_Links": {

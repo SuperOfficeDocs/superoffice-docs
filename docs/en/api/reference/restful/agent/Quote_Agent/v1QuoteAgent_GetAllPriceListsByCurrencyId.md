@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 88,
-  "CurrencyId": 849
+  "QuoteConnectionId": 664,
+  "CurrencyId": 305
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 316,
-    "ERPPriceListKey": "doloribus",
-    "QuoteConnectionId": 565,
-    "Name": "Doyle Inc and Sons",
-    "Description": "Organic solution-oriented collaboration",
-    "Currency": "nobis",
-    "CurrencyName": "Shields Inc and Sons",
-    "ValidFrom": "2022-05-12T14:23:47.2536317+02:00",
-    "ValidTo": "2020-06-08T14:23:47.2536317+02:00",
+    "PriceListId": 858,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 259,
+    "Name": "Corwin, Brekke and Morissette",
+    "Description": "Reverse-engineered actuating customer loyalty",
+    "Currency": "ut",
+    "CurrencyName": "Sauer-Powlowski",
+    "ValidFrom": "2007-02-17T12:19:46.1014395+01:00",
+    "ValidTo": "2008-12-18T12:19:46.1014395+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldType": "System.String",
+        "FieldLength": 315
       }
     }
   }

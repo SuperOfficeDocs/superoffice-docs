@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Dicki Group",
-    "ToolTip": "Deserunt sapiente in.",
+    "Id": 750,
+    "Name": "Sawayn-Bergnaum",
+    "ToolTip": "Id assumenda quia in vel.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "earum",
-    "ColorBlock": 381,
-    "IconHint": "tempora",
-    "Selected": false,
-    "LastChanged": "2006-06-26T14:23:56.228325+02:00",
+    "Rank": 357,
+    "Type": "quia",
+    "ColorBlock": 916,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2021-06-10T12:19:54.7271106+02:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Roob Inc and Sons",
-        "ToolTip": "Nisi aliquid ipsum aut facilis explicabo laudantium vel.",
+        "Id": 635,
+        "Name": "Crist, Reinger and DuBuque",
+        "ToolTip": "Dolorem provident.",
         "Deleted": true,
-        "Rank": 350,
-        "Type": "illo",
-        "ColorBlock": 637,
+        "Rank": 589,
+        "Type": "ut",
+        "ColorBlock": 600,
         "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2011-06-04T14:23:56.228325+02:00",
+        "Selected": false,
+        "LastChanged": "2014-10-04T12:19:54.7271106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "aut",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Ms. Davion Conn",
+        "FullName": "Prof. Carmella Cleve Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 842
+            "FieldType": "System.Int32",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "rerum",
+    "ExtraInfo": "delectus",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Daphne Breitenberg",
+    "FullName": "Kaela Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

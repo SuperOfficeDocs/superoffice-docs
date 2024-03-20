@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Labadie, Heathcote and Wisoky",
-  "ModuleName": "Kovacek, Huels and Medhurst",
-  "ModuleDescription": "Organic value-added frame",
-  "ModuleTooltip": "id",
-  "ModuleVersion": "eius",
+  "OwnerName": "Dickinson, Kuvalis and Brekke",
+  "ModuleName": "Wolf LLC",
+  "ModuleDescription": "Networked modular architecture",
+  "ModuleTooltip": "autem",
+  "ModuleVersion": "veniam",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 580,
-  "ExtraFlags": 615,
-  "ExtraInfo": "eaque",
-  "SortOrder": 204,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Ledner Group",
-  "Signature": "amet"
+  "NumberOfLicenses": 919,
+  "ExtraFlags": 741,
+  "ExtraInfo": "rerum",
+  "SortOrder": 724,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Dickinson-Runolfsson",
+  "Signature": "aut"
 }
 ```

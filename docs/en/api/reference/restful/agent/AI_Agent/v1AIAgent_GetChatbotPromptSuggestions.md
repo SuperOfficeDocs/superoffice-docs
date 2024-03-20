@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "officiis",
-  "SoProtocol": "similique",
-  "CurrentId": 805
+  "IsoLangCode": "impedit",
+  "SoProtocol": "non",
+  "CurrentId": 59
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1996-12-21T14:23:45.3125879+01:00",
-  "UserPrompt": "dolorem",
-  "UserDisplayText": "vel",
-  "BotResponse": "quaerat",
+  "Timestamp": "2004-07-14T12:19:44.1019032+02:00",
+  "UserPrompt": "aliquid",
+  "UserDisplayText": "sed",
+  "BotResponse": "delectus",
   "BotActions": {
-    "BotActions1": "inventore",
-    "BotActions2": "sunt"
+    "BotActions1": "explicabo",
+    "BotActions2": "quae"
   },
   "Attachments": [
-    "sint",
-    "accusantium"
+    "qui",
+    "sit"
   ]
 }
 ```

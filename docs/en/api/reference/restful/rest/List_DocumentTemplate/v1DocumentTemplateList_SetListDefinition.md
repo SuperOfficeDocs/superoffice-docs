@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Carter-Tromp",
-  "Tooltip": "molestias",
+  "Id": 353,
+  "Name": "Walker Group",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 218,
+  "Rank": 805,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "neque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Bode, Raynor and Mayer",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 597,
-  "IsCustomList": false,
+  "Id": 540,
+  "Name": "Buckridge-Gottlieb",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "Rank": 599,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ducimus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 718
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Braun-Jakubowski",
-    "ToolTip": "Qui voluptate vel at.",
+    "Id": 956,
+    "Name": "Hansen Inc and Sons",
+    "ToolTip": "Facere reprehenderit aut hic minus dolor saepe.",
     "Deleted": false,
-    "Rank": 109,
-    "Type": "sit",
-    "ColorBlock": 763,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2015-09-08T14:23:56.0252035+02:00",
+    "Rank": 845,
+    "Type": "ut",
+    "ColorBlock": 227,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "1998-06-16T12:19:54.367807+02:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Swift LLC",
-        "ToolTip": "Vel cum voluptas.",
+        "Id": 64,
+        "Name": "Ward-Yost",
+        "ToolTip": "Repellendus rerum.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "qui",
-        "ColorBlock": 379,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "1999-06-28T14:23:56.0252035+02:00",
+        "Rank": 767,
+        "Type": "dolorum",
+        "ColorBlock": 824,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "1999-05-20T12:19:54.367807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Prof. Jada Tod Schinner DVM",
+        "ExtraInfo": "minus",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Wallace Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldLength": 872
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ea",
+    "ExtraInfo": "enim",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mr. Mariela Gusikowski Sr.",
+    "FullName": "Jena Rickie Schuster I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

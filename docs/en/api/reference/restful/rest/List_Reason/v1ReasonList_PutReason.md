@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Name": "Jones Group",
-  "Tooltip": "iste",
+  "Id": 731,
+  "Name": "Daugherty Group",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 164,
-  "Rank": 833
+  "UdListDefinitionId": 392,
+  "Rank": 77
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Von, Cartwright and Ruecker",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "UdListDefinitionId": 887,
-  "Rank": 499,
+  "Id": 991,
+  "Name": "Nolan LLC",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "UdListDefinitionId": 890,
+  "Rank": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 479
     }
   }
 }

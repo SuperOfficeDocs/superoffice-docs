@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=expedita
+GET /api/v1/List/SelectionCategory/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Stanton-Lind",
-    "ToolTip": "Aut deserunt.",
+    "Id": 975,
+    "Name": "Lindgren, Larson and Sipes",
+    "ToolTip": "Voluptas ut magni libero eius officiis.",
     "Deleted": true,
-    "Rank": 566,
-    "Type": "debitis",
+    "Rank": 453,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Wyman LLC",
-        "ToolTip": "Repudiandae consequuntur nostrum et et dolor id.",
-        "Deleted": true,
-        "Rank": 865,
-        "Type": "soluta",
+        "Id": 846,
+        "Name": "Wiza LLC",
+        "ToolTip": "Est rerum voluptatem quo dolores aperiam sed.",
+        "Deleted": false,
+        "Rank": 500,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 518,
-        "ExtraInfo": "aut",
-        "StyleHint": "cupiditate",
-        "FullName": "Ms. Doug Ila Effertz",
+        "IconHint": "est",
+        "ColorBlock": 445,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "et",
+        "FullName": "Frederique Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 521
+            "FieldLength": 227
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 32,
-    "ExtraInfo": "omnis",
-    "StyleHint": "aliquam",
-    "FullName": "Miss Vernie Vesta Parisian MD",
+    "IconHint": "laboriosam",
+    "ColorBlock": 626,
+    "ExtraInfo": "aut",
+    "StyleHint": "aut",
+    "FullName": "Darrick Moriah Leannon DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

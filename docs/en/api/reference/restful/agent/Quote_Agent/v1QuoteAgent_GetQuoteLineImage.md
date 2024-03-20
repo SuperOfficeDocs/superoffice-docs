@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 434,
-  "Rank": 83
+  "QuoteLineId": 483,
+  "Rank": 87
 }
 ```
 

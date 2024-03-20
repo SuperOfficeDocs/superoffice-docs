@@ -33,7 +33,7 @@ Calls the Project agent service GetProjectEntity.
 
 ```http
 GET /api/v1/Project/{id}?$select=name,department,category/id
-GET /api/v1/Project/{id}?fk=True
+GET /api/v1/Project/{id}?fk=False
 ```
 
 
@@ -106,7 +106,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,135 +114,135 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 30 Dec 2012 14:23:55 G12T
+Last-Modified: Thu, 23 Dec 2010 12:19:53 G12T
 
 {
-  "ProjectId": 870,
-  "Name": "Bernhard, Abernathy and Mohr",
-  "ProjectNumber": "1184508",
+  "ProjectId": 923,
+  "Name": "Blanda, Wilkinson and Crooks",
+  "ProjectNumber": "997711",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 969,
-      "ContactId": 94,
-      "ProjectId": 108,
-      "ContactName": "Schumm, Rau and Johnston",
+      "ProjectmemberId": 553,
+      "ContactId": 111,
+      "ProjectId": 977,
+      "ContactName": "Tillman-Yundt",
       "ContactDepartment": "",
-      "ProjectName": "D'Amore-Wisoky",
-      "EmailId": 613,
-      "EmailAddress": "lisandro@kuvalis.info",
-      "CountryId": 338,
-      "Firstname": "Oswaldo",
-      "MiddleName": "Bahringer-Kihn",
-      "Lastname": "Heaney",
-      "PersonId": 886,
-      "Mrmrs": "ex",
-      "ProjectMemberTypeName": "Walsh LLC",
-      "Phone": "(124)938-3132 x4367",
-      "PhoneId": 902,
-      "ProjectMemberTypeId": 171,
-      "EmailAddressName": "kristin_kohler@kautzer.us",
-      "Comment": "molestiae",
-      "FullName": "Prof. Gerry Tyshawn Beahan Jr.",
+      "ProjectName": "Dibbert Group",
+      "EmailId": 661,
+      "EmailAddress": "isabella@smitham.uk",
+      "CountryId": 704,
+      "Firstname": "Steve",
+      "MiddleName": "Wisoky, Rau and Schuster",
+      "Lastname": "Collier",
+      "PersonId": 531,
+      "Mrmrs": "placeat",
+      "ProjectMemberTypeName": "Wuckert-Schroeder",
+      "Phone": "905-401-3490",
+      "PhoneId": 833,
+      "ProjectMemberTypeId": 371,
+      "EmailAddressName": "lonny.windler@bashiriancormier.com",
+      "Comment": "laborum",
+      "FullName": "Rebecca Bosco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 610
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "temporibus",
-      "StrippedValue": "consequatur",
-      "Description": "User-centric static application",
+      "Value": "est",
+      "StrippedValue": "dolorem",
+      "Description": "User-centric neutral moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 698
         }
       }
     },
     {
-      "Value": "temporibus",
-      "StrippedValue": "consequatur",
-      "Description": "User-centric static application",
+      "Value": "est",
+      "StrippedValue": "dolorem",
+      "Description": "User-centric neutral moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 698
         }
       }
     }
   ],
-  "CreatedDate": "2007-11-22T14:23:55.3377117+01:00",
-  "UpdatedDate": "2012-12-30T14:23:55.3377117+01:00",
-  "Description": "Horizontal encompassing core",
-  "Postit": "quia",
+  "CreatedDate": "2008-09-25T12:19:53.7429635+02:00",
+  "UpdatedDate": "2010-12-23T12:19:53.7429635+01:00",
+  "Description": "Phased analyzing policy",
+  "Postit": "reiciendis",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Up-sized coherent process improvement",
-  "ActiveStatusMonitorId": 567,
+  "HasImage": false,
+  "ImageDescription": "Extended systematic service-desk",
+  "ActiveStatusMonitorId": 217,
   "Links": [
     {
-      "EntityName": "Hills, Hackett and Cassin",
-      "Id": 973,
-      "Description": "Advanced dedicated toolset",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 599,
+      "EntityName": "Bergstrom-Denesik",
+      "Id": 206,
+      "Description": "Proactive contextually-based emulation",
+      "ExtraInfo": "enim",
+      "LinkId": 986,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
-  "ActiveLinks": 296,
-  "Completed": true,
-  "NextMilestoneDate": "2010-05-26T14:23:55.3377117+02:00",
-  "NmdAppointmentId": 990,
-  "EndDate": "2018-05-10T14:23:55.3377117+02:00",
-  "ActiveErpLinks": 453,
+  "ActiveLinks": 418,
+  "Completed": false,
+  "NextMilestoneDate": "2002-02-19T12:19:53.7429635+01:00",
+  "NmdAppointmentId": 641,
+  "EndDate": "2004-08-09T12:19:53.7429635+02:00",
+  "ActiveErpLinks": 134,
   "UserDefinedFields": {
-    "SuperOffice:1": "590841433",
-    "SuperOffice:2": "1453946529"
+    "SuperOffice:1": "1407925499",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "eius"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2021-01-05T14:23:55.3377117+01:00",
-  "PublishTo": "2011-12-02T14:23:55.3377117+01:00",
-  "PublishFrom": "2010-04-09T14:23:55.3377117+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-05-21T12:19:53.7429635+02:00",
+  "PublishTo": "2006-07-20T12:19:53.7429635+02:00",
+  "PublishFrom": "2008-12-16T12:19:53.7429635+01:00",
+  "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldLength": 721
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

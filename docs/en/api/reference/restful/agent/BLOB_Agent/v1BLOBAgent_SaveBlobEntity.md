@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 157,
-  "BlobSize": 498,
-  "Description": "Innovative bandwidth-monitored info-mediaries",
-  "ExtraInfo": "ut",
+  "BlobId": 365,
+  "BlobSize": 44,
+  "Description": "Cloned intangible analyzer",
+  "ExtraInfo": "sapiente",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "vel",
-  "OriginalSize": 16,
-  "CreatedDate": "1997-06-14T14:23:45.8918358+02:00",
-  "UpdatedDate": "2014-01-02T14:23:45.8918358+01:00",
+  "MimeType": "minus",
+  "OriginalSize": 246,
+  "CreatedDate": "2016-04-01T12:19:44.5238763+02:00",
+  "UpdatedDate": "2010-12-13T12:19:44.5238763+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "distinctio"
+  "ConceptualType": "ad"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 527,
-  "BlobSize": 767,
-  "Description": "Decentralized local extranet",
-  "ExtraInfo": "id",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "nihil",
-  "OriginalSize": 172,
-  "CreatedDate": "2001-06-15T14:23:45.8918358+02:00",
-  "UpdatedDate": "2016-08-31T14:23:45.8918358+02:00",
+  "BlobId": 437,
+  "BlobSize": 925,
+  "Description": "Mandatory regional protocol",
+  "ExtraInfo": "cum",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 600,
+  "CreatedDate": "2014-11-04T12:19:44.5238763+01:00",
+  "UpdatedDate": "2018-09-19T12:19:44.5238763+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

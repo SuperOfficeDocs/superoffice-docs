@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Schroeder-Kub",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 177,
-    "UdListDefinitionId": 584
+    "HeadingId": 92,
+    "Name": "Hodkiewicz LLC",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 547,
+    "UdListDefinitionId": 32
   },
   {
-    "HeadingId": 320,
-    "Name": "Schroeder-Kub",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 177,
-    "UdListDefinitionId": 584
+    "HeadingId": 92,
+    "Name": "Hodkiewicz LLC",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 547,
+    "UdListDefinitionId": 32
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 316,
-    "Name": "Franecki, Jacobs and Frami",
-    "Tooltip": "cupiditate",
+    "HeadingId": 94,
+    "Name": "Pollich Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 417,
-    "UdListDefinitionId": 384,
+    "Rank": 400,
+    "UdListDefinitionId": 894,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 921,
-  "CurrencyId": 805
+  "QuoteConnectionId": 311,
+  "CurrencyId": 162
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 718,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 143,
-    "Name": "Smitham-Bartell",
-    "Description": "Persevering hybrid definition",
-    "Currency": "quae",
-    "CurrencyName": "Treutel, Ritchie and Johnson",
-    "ValidFrom": "2006-03-04T14:23:47.2536317+01:00",
-    "ValidTo": "2007-05-24T14:23:47.2536317+02:00",
+    "PriceListId": 135,
+    "ERPPriceListKey": "quae",
+    "QuoteConnectionId": 342,
+    "Name": "Hills, Muller and Toy",
+    "Description": "Face to face global extranet",
+    "Currency": "magni",
+    "CurrencyName": "Johns, Erdman and Hauck",
+    "ValidFrom": "2018-03-08T12:19:46.1014395+01:00",
+    "ValidTo": "2014-02-06T12:19:46.1014395+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 885
+        "FieldLength": 570
       }
     }
   }

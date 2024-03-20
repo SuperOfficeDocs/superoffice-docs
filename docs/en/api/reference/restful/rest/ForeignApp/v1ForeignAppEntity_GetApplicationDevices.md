@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 19 Dec 2008 14:23:55 G12T
+Last-Modified: Sat, 24 Dec 2016 12:19:53 G12T
 
 [
   {
-    "ForeignDeviceId": 454,
-    "Name": "Homenick, Bins and Zboncak",
-    "CreatedDate": "2011-01-24T14:23:55.1802705+01:00",
-    "UpdatedDate": "2008-12-19T14:23:55.1802705+01:00",
-    "AssociateFullName": "Ms. Adele Torphy",
-    "CreatedBy": "accusantium",
-    "UpdatedBy": "ab",
-    "DeviceIdentifier": "quidem",
-    "ForeignAppId": 687,
+    "ForeignDeviceId": 464,
+    "Name": "Gulgowski-Ryan",
+    "CreatedDate": "2015-08-04T12:19:53.6023745+02:00",
+    "UpdatedDate": "2016-12-24T12:19:53.6023745+01:00",
+    "AssociateFullName": "Dr. Rex Ellsworth Sanford IV",
+    "CreatedBy": "aut",
+    "UpdatedBy": "ipsa",
+    "DeviceIdentifier": "dignissimos",
+    "ForeignAppId": 169,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

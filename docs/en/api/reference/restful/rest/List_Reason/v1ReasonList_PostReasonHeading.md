@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 950,
-  "Name": "Dooley Inc and Sons",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 445,
-  "UdListDefinitionId": 949
+  "HeadingId": 702,
+  "Name": "Kulas, Brakus and Kassulke",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 1000,
+  "UdListDefinitionId": 921
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 147,
-  "Name": "Rau Group",
-  "Tooltip": "voluptatem",
+  "HeadingId": 913,
+  "Name": "Okuneva-Walker",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 465,
-  "UdListDefinitionId": 324,
+  "Rank": 367,
+  "UdListDefinitionId": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 862
     }
   }
 }

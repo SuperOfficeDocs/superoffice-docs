@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schiller-Williamson",
-  "ParameterName": "Runte Group"
+  "LayoutName": "Abbott, Hoppe and Vandervort",
+  "ParameterName": "Emmerich-Parker"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 203,
-  "Name": "Pollich LLC",
-  "Value": "cum",
-  "CreatedDate": "2021-02-17T14:23:45.8605856+01:00",
-  "UpdatedDate": "2013-04-08T14:23:45.8605856+02:00",
-  "CreatedBy": "quia",
-  "UpdatedBy": "eos",
+  "AudienceLayoutId": 532,
+  "Name": "Schroeder Inc and Sons",
+  "Value": "aut",
+  "CreatedDate": "2008-06-11T12:19:44.5080652+02:00",
+  "UpdatedDate": "2021-04-26T12:19:44.5080652+02:00",
+  "CreatedBy": "tempora",
+  "UpdatedBy": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 397
     }
   }
 }

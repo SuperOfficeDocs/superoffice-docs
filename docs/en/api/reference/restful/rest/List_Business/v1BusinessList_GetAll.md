@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Skiles-Cummerata",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 62,
-    "Rank": 942,
+    "Id": 221,
+    "Name": "Walsh LLC",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 683,
+    "Rank": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldType": "System.String",
+        "FieldLength": 918
       }
     }
   }

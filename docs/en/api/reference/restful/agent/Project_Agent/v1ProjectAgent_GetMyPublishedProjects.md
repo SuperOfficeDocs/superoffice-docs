@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 405,
-    "Name": "Bechtelar Group",
-    "Description": "Assimilated human-resource local area network",
+    "ProjectId": 832,
+    "Name": "Maggio Group",
+    "Description": "Mandatory upward-trending time-frame",
     "URL": "http://www.example.com/",
-    "Type": "enim",
-    "AssociateId": 797,
-    "AssociateFullName": "Miss Chauncey Beth Gusikowski",
-    "TypeId": 632,
-    "Updated": "2004-05-10T14:23:47.1911342+02:00",
-    "StatusId": 470,
+    "Type": "cupiditate",
+    "AssociateId": 368,
+    "AssociateFullName": "Kasey Satterfield",
+    "TypeId": 184,
+    "Updated": "2013-06-20T12:19:46.038959+02:00",
+    "StatusId": 586,
     "Status": "est",
-    "TextId": 966,
-    "PublishTo": "2019-09-10T14:23:47.1911342+02:00",
-    "PublishFrom": "2014-07-19T14:23:47.1911342+02:00",
-    "IsPublished": true,
+    "TextId": 923,
+    "PublishTo": "2001-11-14T12:19:46.038959+01:00",
+    "PublishFrom": "2023-06-21T12:19:46.038959+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "984227",
-    "ActiveErpLinks": 668,
+    "ProjectNumber": "1293442",
+    "ActiveErpLinks": 124,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 129
       }
     }
   }

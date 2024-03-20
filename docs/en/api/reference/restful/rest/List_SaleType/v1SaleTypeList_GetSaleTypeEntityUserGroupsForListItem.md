@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Zemlak, Sawayn and McGlynn",
-    "ToolTip": "Sit assumenda qui quos quis quidem.",
+    "Id": 477,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Neque libero voluptas similique quas enim ea.",
     "Deleted": true,
-    "Rank": 851,
-    "Type": "et",
-    "ColorBlock": 108,
-    "IconHint": "vero",
+    "Rank": 481,
+    "Type": "voluptates",
+    "ColorBlock": 177,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2020-09-13T14:23:56.3376983+02:00",
+    "LastChanged": "2010-03-18T12:19:54.8364594+01:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Hegmann Inc and Sons",
-        "ToolTip": "Neque adipisci doloremque reiciendis voluptatem.",
+        "Id": 867,
+        "Name": "Turcotte, Armstrong and Durgan",
+        "ToolTip": "Alias qui veritatis.",
         "Deleted": true,
-        "Rank": 719,
-        "Type": "et",
-        "ColorBlock": 402,
-        "IconHint": "dolorem",
+        "Rank": 617,
+        "Type": "tenetur",
+        "ColorBlock": 469,
+        "IconHint": "tempora",
         "Selected": true,
-        "LastChanged": "2023-01-31T14:23:56.3376983+01:00",
+        "LastChanged": "2019-05-02T12:19:54.8364594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Miss Maida Conroy PhD",
+        "FullName": "Rhoda Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldType": "System.String",
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Sienna Gottlieb",
+    "ExtraInfo": "sint",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Mr. Gwen Klein Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

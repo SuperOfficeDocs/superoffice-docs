@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 988
+  "AssociateId": 47
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 434,
-    "AssociateId": 270,
-    "Caption": "optio",
+    "DashboardId": 296,
+    "AssociateId": 103,
+    "Caption": "amet",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 976,
-        "Caption": "reiciendis",
-        "Description": "Fundamental bifurcated knowledge base",
-        "ChartName": "Marvin, Franecki and Murray",
-        "ChartId": "et",
-        "IsDefault": true,
-        "AssociateId": 11,
-        "GroupId": 201,
-        "SelectionId": 846,
-        "Config": "impedit",
+        "DashboardTileId": 540,
+        "Caption": "magni",
+        "Description": "Focused static definition",
+        "ChartName": "Kreiger, Dickinson and Leffler",
+        "ChartId": "in",
+        "IsDefault": false,
+        "AssociateId": 359,
+        "GroupId": 723,
+        "SelectionId": 426,
+        "Config": "omnis",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 521
+            "FieldLength": 367
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 265
       }
     }
   }

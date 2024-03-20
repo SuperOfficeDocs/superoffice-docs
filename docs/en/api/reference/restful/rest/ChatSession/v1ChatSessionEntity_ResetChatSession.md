@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 566,
-  "TopicId": 580,
+  "ChatSessionId": 458,
+  "TopicId": 875,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vitae",
-  "CustomerHost": "quas",
-  "CustomerName": "Casper, Beatty and Jaskolski",
-  "CustomerEmail": "kameron.hilpert@strosin.info",
-  "CustomerPhone": "(532)120-4479 x97676",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Rice LLC",
+  "CustomerAlias": "deleniti",
+  "CustomerHost": "nulla",
+  "CustomerName": "Stehr-Becker",
+  "CustomerEmail": "chanel@hyattrowe.name",
+  "CustomerPhone": "1-029-200-6605 x08896",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Cummerata-Kirlin",
   "Status": "Closed",
-  "FirstMessage": "odio",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2017-06-22T14:23:54.8815159+02:00",
-  "WhenStarted": "2001-01-24T14:23:54.8815159+01:00",
-  "WhenEnded": "2007-10-22T14:23:54.8815159+02:00",
-  "WhenIdle": "2015-01-14T14:23:54.8815159+01:00",
-  "WhenFetched": "2004-10-10T14:23:54.8815159+02:00",
-  "SessionKey": "quaerat",
-  "InitialQueuePos": 774,
-  "AlertLevel": 688,
-  "Rank": 434,
+  "FirstMessage": "sapiente",
+  "LastMessage": "modi",
+  "WhenRequested": "2003-11-25T12:19:53.1493706+01:00",
+  "WhenStarted": "2002-12-15T12:19:53.1493706+01:00",
+  "WhenEnded": "2023-07-02T12:19:53.1493706+02:00",
+  "WhenIdle": "2018-06-26T12:19:53.1493706+02:00",
+  "WhenFetched": "2012-10-20T12:19:53.1493706+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 644,
+  "AlertLevel": 555,
+  "Rank": 14,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 15,
+  "ChatbotIsActive": true,
+  "Rating": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 452,
+  "EjMessageId": 426,
   "Ticket": null,
-  "CreatedAt": "2009-05-02T14:23:47.5348781+02:00",
+  "CreatedAt": "2012-10-26T12:19:46.3670151+02:00",
   "CreatedBy": null,
-  "Author": "quam",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 572,
-  "Body": "quod",
-  "HtmlBody": "autem",
-  "EmailHeader": "addison@braun.co.uk",
-  "DebugInfo": "pariatur",
-  "MailSorter": "et",
+  "MessageId": "qui",
+  "TimeSpent": 675,
+  "Body": "aspernatur",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "garfield@collins.biz",
+  "DebugInfo": "nulla",
+  "MailSorter": "quod",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "inventore",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 26,
-      "Name": "Crist Group",
-      "Value": "voluptas",
+      "Id": 642,
+      "Name": "Strosin LLC",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldLength": 899
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "quia",
-  "Sentiment": 349,
-  "SentimentConfidence": 618,
+  "Important": false,
+  "Language": "eius",
+  "Sentiment": 699,
+  "SentimentConfidence": 636,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 323,
-      "Name": "Farrell, Walker and Hodkiewicz",
-      "ContentType": "odio",
-      "AttSize": 857,
+      "AttachmentId": 719,
+      "Name": "Corwin, Reilly and Aufderhar",
+      "ContentType": "dolor",
+      "AttSize": 11,
       "InlineImage": false,
-      "ContentId": "facilis",
-      "AuthKey": "accusamus",
+      "ContentId": "rem",
+      "AuthKey": "nemo",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "aut"
+    "CustomFields1": "iste",
+    "CustomFields2": "repudiandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

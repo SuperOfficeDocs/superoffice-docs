@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 303,
-  "Name": "Bayer Group",
-  "OrgNr": "1132836",
+  "ContactId": 748,
+  "Name": "Bashirian-Rutherford",
+  "OrgNr": "976881",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "ipsum",
-  "DirectPhone": "(181)724-9041 x309",
-  "AssociateId": 753,
-  "CountryId": 880,
-  "EmailAddress": "elva@cummings.ca",
-  "Kananame": "eum",
-  "EmailAddressName": "hermann@littel.info",
+  "City": "accusantium",
+  "DirectPhone": "873-737-4601 x7218",
+  "AssociateId": 128,
+  "CountryId": 248,
+  "EmailAddress": "amie.halvorson@nolan.info",
+  "Kananame": "vero",
+  "EmailAddressName": "tyson.jones@deckowbrown.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Sheldon Pfannerstill",
+  "AssociateFullName": "Ms. Wallace Dee Senger PhD",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "corrupti",
-  "FullName": "Merlin Marcella Bailey V",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 746,
-  "Number1": "316810",
-  "Number2": "627358",
+  "FormattedAddress": "incidunt",
+  "FullName": "Malcolm Simonis",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 374,
+  "Number1": "1094366",
+  "Number2": "1244747",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 612
     }
   }
 }

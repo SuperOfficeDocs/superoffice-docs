@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "perferendis",
+  "RawValue": "numquam",
   "Specification": null,
-  "DisplayValue": "dolore",
-  "DisplayTooltip": "libero",
+  "DisplayValue": "cumque",
+  "DisplayTooltip": "mollitia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 654,
-  "PrefDescId": 116,
-  "TableName": "Luettgen, Zboncak and Toy",
-  "UserPreferenceId": 331
+  "TargetId": 937,
+  "PrefDescId": 435,
+  "TableName": "Price, Schmidt and Gleason",
+  "UserPreferenceId": 112
 }
 ```
 

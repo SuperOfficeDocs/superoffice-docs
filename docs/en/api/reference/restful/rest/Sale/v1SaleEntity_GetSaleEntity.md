@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 03 Apr 2020 14:23:55 G4T
+Last-Modified: Thu, 29 Apr 1999 12:19:53 G4T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 03 Apr 2020 14:23:55 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consequuntur",
+  "SaleText": "eum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 03 Apr 2020 14:23:55 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-04-09T14:23:55.447083+02:00",
-  "Amount": 1776.9779999999998,
-  "SaleId": 129,
-  "Earning": 6854.058,
-  "EarningPercent": 601.728,
-  "Heading": "praesentium",
-  "Number": "882801",
-  "Probability": 787,
-  "CreatedDate": "2020-12-21T14:23:55.447083+01:00",
-  "UpdatedDate": "2020-04-03T14:23:55.447083+02:00",
+  "Saledate": "1997-12-24T12:19:53.8523123+01:00",
+  "Amount": 5111.554,
+  "SaleId": 972,
+  "Earning": 15425.547999999999,
+  "EarningPercent": 20239.372,
+  "Heading": "voluptatem",
+  "Number": "1238271",
+  "Probability": 25,
+  "CreatedDate": "2019-03-10T12:19:53.8523123+01:00",
+  "UpdatedDate": "1999-04-29T12:19:53.8523123+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 983,
+  "ActiveLinks": 376,
   "Links": [
     {
-      "EntityName": "Howe, Hansen and Mueller",
-      "Id": 423,
-      "Description": "Devolved attitude-oriented middleware",
-      "ExtraInfo": "quibusdam",
-      "LinkId": 189,
+      "EntityName": "Maggio Inc and Sons",
+      "Id": 63,
+      "Description": "Reduced foreground hub",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 772,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldLength": 964
         }
       }
     }
   ],
-  "NextDueDate": "2015-04-18T14:23:55.447083+02:00",
-  "Postit": "suscipit",
+  "NextDueDate": "2023-05-23T12:19:53.8523123+02:00",
+  "Postit": "voluptatem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-01-26T14:23:55.447083+01:00",
+  "ReopenDate": "2007-08-15T12:19:53.8523123+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schinner Inc and Sons",
-      "Comment": "optio",
-      "StakeholderRoleId": 586,
-      "CountryId": 805,
-      "PersonId": 642,
-      "EmailDescription": "gregory.mueller@farrell.com",
-      "EmailId": 413,
-      "EmailAddress": "olin_graham@krajcik.ca",
-      "PhoneId": 298,
-      "ContactName": "Reinger-Moore",
-      "ContactId": 214,
-      "SaleId": 579,
-      "Mrmrs": "maxime",
-      "Firstname": "Kathleen",
-      "MiddleName": "Wehner Inc and Sons",
-      "Lastname": "Maggio",
-      "SaleStakeholderId": 786,
-      "Rank": 551,
-      "Phone": "513-614-4615",
+      "StakeholderRoleName": "Herman-Weissnat",
+      "Comment": "quam",
+      "StakeholderRoleId": 372,
+      "CountryId": 855,
+      "PersonId": 227,
+      "EmailDescription": "alford@oconnerrunolfsdottir.name",
+      "EmailId": 803,
+      "EmailAddress": "eino@kilback.com",
+      "PhoneId": 586,
+      "ContactName": "Heaney-Crona",
+      "ContactId": 750,
+      "SaleId": 551,
+      "Mrmrs": "quod",
+      "Firstname": "Jaleel",
+      "MiddleName": "Jacobs, Bartoletti and Jacobs",
+      "Lastname": "Ondricka",
+      "SaleStakeholderId": 126,
+      "Rank": 280,
+      "Phone": "(478)646-3081 x8093",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldLength": 36
         }
       }
     }
   ],
-  "ActiveErpLinks": 978,
+  "ActiveErpLinks": 215,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Prof. Zane Walter PhD",
+    "SuperOffice:2": "Jayson Littel PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2023-12-30T14:23:55.447083+01:00",
-  "PublishTo": "2015-04-16T14:23:55.447083+02:00",
-  "PublishFrom": "2005-04-01T14:23:55.447083+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-05-28T12:19:53.8523123+02:00",
+  "PublishTo": "2019-09-30T12:19:53.8523123+02:00",
+  "PublishFrom": "2001-02-16T12:19:53.8523123+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 526,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 43
         }
       }
     },
     {
-      "VisibleId": 526,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 43
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Fri, 03 Apr 2020 14:23:55 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 378
     }
   },
   "_Links": {

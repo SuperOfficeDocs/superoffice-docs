@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UniqueIdentifier": "aut",
-  "Name": "Bernhard-Yundt",
-  "Description": "Digitized content-based standardization",
-  "IncludeId": "nostrum",
-  "Source": "consequuntur",
-  "Registered": "2020-05-10T14:23:55.8533291+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2014-05-25T14:23:55.8533291+02:00",
-  "UpdatedBy": "temporibus",
-  "Path": "provident"
+  "Name": "Strosin Group",
+  "Description": "Down-sized national benchmark",
+  "IncludeId": "exercitationem",
+  "Source": "culpa",
+  "Registered": "2019-06-17T12:19:54.1803664+02:00",
+  "RegisteredBy": "aut",
+  "Updated": "2002-12-04T12:19:54.1803664+01:00",
+  "UpdatedBy": "quidem",
+  "Path": "dolores"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "magnam",
-  "Name": "Collins-Schmeler",
-  "Description": "Persevering systemic standardization",
-  "IncludeId": "facere",
-  "Source": "ea",
-  "Registered": "2016-06-13T14:23:55.8533291+02:00",
-  "RegisteredBy": "tenetur",
-  "Updated": "2004-01-02T14:23:55.8533291+01:00",
-  "UpdatedBy": "accusantium",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "et",
+  "Name": "Hamill, Hammes and Von",
+  "Description": "Future-proofed 3rd generation synergy",
+  "IncludeId": "cupiditate",
+  "Source": "tempora",
+  "Registered": "1997-08-10T12:19:54.1803664+02:00",
+  "RegisteredBy": "omnis",
+  "Updated": "2009-05-11T12:19:54.1803664+02:00",
+  "UpdatedBy": "excepturi",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 752
     }
   }
 }

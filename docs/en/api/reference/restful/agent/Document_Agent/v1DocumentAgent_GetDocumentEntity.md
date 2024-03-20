@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=540
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=213
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 899,
+  "DocumentId": 605,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "minima",
-  "Header": "odit",
-  "Name": "Rogahn Group",
-  "OurRef": "est",
-  "YourRef": "molestiae",
-  "CreatedDate": "2006-10-05T14:23:46.344954+02:00",
-  "UpdatedDate": "2008-05-19T14:23:46.344954+02:00",
-  "Description": "Cross-group 6th generation contingency",
+  "Attention": "architecto",
+  "Header": "error",
+  "Name": "Daniel, Steuber and Jerde",
+  "OurRef": "voluptates",
+  "YourRef": "dolor",
+  "CreatedDate": "2020-02-13T12:19:45.1329234+01:00",
+  "UpdatedDate": "2012-06-27T12:19:45.1329234+02:00",
+  "Description": "Up-sized grid-enabled project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-12-12T14:23:46.344954+01:00",
+  "Date": "2007-09-16T12:19:45.1329234+02:00",
   "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 286,
+  "ActiveLinks": 545,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Zemlak-Leuschke",
-      "Id": 471,
-      "Description": "Realigned human-resource infrastructure",
-      "ExtraInfo": "dicta",
-      "LinkId": 37,
+      "EntityName": "Ankunding-Daugherty",
+      "Id": 734,
+      "Description": "Multi-layered stable customer loyalty",
+      "ExtraInfo": "at",
+      "LinkId": 403,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldType": "System.String",
+          "FieldLength": 838
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 493,
-  "Snum": 515,
+  "SuggestedDocumentId": 663,
+  "Snum": 671,
   "UserDefinedFields": {
-    "SuperOffice:1": "1111875997",
-    "SuperOffice:2": "183354076"
+    "SuperOffice:1": "Ms. Kacie Wunsch",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "officia"
+    "CustomFields1": "maxime",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2002-09-25T14:23:46.344954+02:00",
-  "PublishTo": "2001-11-27T14:23:46.344954+01:00",
-  "PublishFrom": "2015-12-20T14:23:46.344954+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-05-30T12:19:45.1329234+02:00",
+  "PublishTo": "2007-12-03T12:19:45.1329234+01:00",
+  "PublishFrom": "2003-09-02T12:19:45.1329234+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 207,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 876
         }
       }
     },
     {
-      "VisibleId": 207,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 876
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 400
     }
   }
 }

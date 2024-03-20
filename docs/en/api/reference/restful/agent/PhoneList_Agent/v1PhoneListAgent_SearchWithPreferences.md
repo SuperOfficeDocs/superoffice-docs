@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "dolores",
+  "SearchString": "explicabo",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(888)686-6015",
-    "PersonCellPhone": "1-197-834-8467",
-    "PersonPrivatePhone": "425-696-7415",
-    "PersonFaxNumber": "1837586",
-    "PersonPagerNumber": "1057454",
-    "PersonEmail": "carlee@conroy.name",
-    "Id": 400,
-    "Name": "Goodwin, Feil and Zemlak",
-    "Tooltip": "fugiat",
-    "UniqueId": "quo",
+    "PersonDirectPhone": "(300)331-7728 x777",
+    "PersonCellPhone": "677.680.5315",
+    "PersonPrivatePhone": "572.462.5834",
+    "PersonFaxNumber": "1139550",
+    "PersonPagerNumber": "617010",
+    "PersonEmail": "lucy_hills@volkman.ca",
+    "Id": 233,
+    "Name": "Conroy, Goodwin and Bruen",
+    "Tooltip": "vel",
+    "UniqueId": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 503
       }
     }
   }

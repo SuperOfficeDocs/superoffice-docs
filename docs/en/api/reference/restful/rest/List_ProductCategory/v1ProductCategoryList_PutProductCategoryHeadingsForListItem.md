@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Harvey-Mann",
-    "ToolTip": "Nemo sint.",
+    "Id": 32,
+    "Name": "Lubowitz Group",
+    "ToolTip": "Dolorum ducimus soluta rerum nam facere.",
     "Deleted": false,
-    "Rank": 414,
-    "Type": "ullam",
-    "ColorBlock": 748,
-    "IconHint": "iste",
+    "Rank": 470,
+    "Type": "dolores",
+    "ColorBlock": 221,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2011-11-19T14:23:56.1970747+01:00",
+    "LastChanged": "2003-09-03T12:19:54.6958722+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Jakubowski Inc and Sons",
-        "ToolTip": "Odio sed fugit et cum dolor.",
-        "Deleted": true,
-        "Rank": 460,
-        "Type": "ea",
-        "ColorBlock": 751,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "2018-09-14T14:23:56.1970747+02:00",
+        "Id": 408,
+        "Name": "Pagac, Ziemann and Flatley",
+        "ToolTip": "Reiciendis repellendus soluta et nemo et pariatur quod.",
+        "Deleted": false,
+        "Rank": 563,
+        "Type": "corporis",
+        "ColorBlock": 394,
+        "IconHint": "unde",
+        "Selected": false,
+        "LastChanged": "2009-11-07T12:19:54.6958722+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Mrs. Marlene Laisha Walsh I"
+        "ExtraInfo": "incidunt",
+        "StyleHint": "possimus",
+        "Hidden": false,
+        "FullName": "Prof. Janick Hagenes II"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "deleniti",
-    "Hidden": true,
-    "FullName": "Aglae Leonel Pollich V"
+    "ExtraInfo": "repellat",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Bonnie Violette Will IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Cronin, Reynolds and Pfannerstill",
-    "ToolTip": "Similique qui omnis sunt quia.",
-    "Deleted": true,
-    "Rank": 994,
-    "Type": "vitae",
-    "ColorBlock": 336,
-    "IconHint": "et",
+    "Id": 268,
+    "Name": "Welch LLC",
+    "ToolTip": "Ut quis fuga id.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "dignissimos",
+    "ColorBlock": 699,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2010-10-16T14:23:56.1970747+02:00",
+    "LastChanged": "2005-06-18T12:19:54.6958722+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Blick, Littel and Hayes",
-        "ToolTip": "In qui totam eos non quia.",
+        "Id": 723,
+        "Name": "McCullough-O'Hara",
+        "ToolTip": "Unde aut molestiae ut dolorem eveniet sequi.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "omnis",
-        "ColorBlock": 355,
-        "IconHint": "consequatur",
+        "Rank": 873,
+        "Type": "minima",
+        "ColorBlock": 464,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2007-05-02T14:23:56.1970747+02:00",
+        "LastChanged": "2020-05-29T12:19:54.6958722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Horacio Johns",
+        "ExtraInfo": "neque",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Chelsie Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 367
+            "FieldType": "System.Int32",
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "molestias",
+    "StyleHint": "sequi",
     "Hidden": true,
-    "FullName": "Keeley Ernser",
+    "FullName": "Kevon Volkman III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

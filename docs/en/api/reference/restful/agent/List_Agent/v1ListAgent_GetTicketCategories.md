@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 621,
-    "ParentId": 815,
-    "Name": "Lakin LLC",
-    "Fullname": "ipsam",
-    "CategoryMaster": 76,
+    "TicketCategoryId": 45,
+    "ParentId": 939,
+    "Name": "Bode-Kirlin",
+    "Fullname": "est",
+    "CategoryMaster": 485,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bergstrom-Stracke",
+    "ExternalName": "Wolf-Altenwerth",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 282,
-    "ReplyTemplate": 862,
-    "NotificationEmail": "sydney@hayes.biz",
+    "AssignmentLag": 246,
+    "ReplyTemplate": 838,
+    "NotificationEmail": "camron@klocko.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 920,
+    "EffectiveReplyTemplateId": 317,
     "ExtraFields": {
-      "ExtraFields1": "aperiam",
-      "ExtraFields2": "nisi"
+      "ExtraFields1": "vitae",
+      "ExtraFields2": "labore"
     },
     "CustomFields": {
-      "CustomFields1": "nihil",
-      "CustomFields2": "praesentium"
+      "CustomFields1": "nesciunt",
+      "CustomFields2": "sed"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 784
       }
     }
   }

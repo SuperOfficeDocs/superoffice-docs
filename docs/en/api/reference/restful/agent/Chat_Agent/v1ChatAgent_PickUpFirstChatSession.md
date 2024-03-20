@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 930,
-  "TopicId": 497,
+  "ChatSessionId": 200,
+  "TopicId": 872,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "sint",
-  "CustomerName": "Bernier-Herzog",
-  "CustomerEmail": "omer_durgan@murphyconroy.ca",
-  "CustomerPhone": "202-026-4382 x112",
+  "CustomerAlias": "distinctio",
+  "CustomerHost": "ipsum",
+  "CustomerName": "Krajcik LLC",
+  "CustomerEmail": "oscar@towne.com",
+  "CustomerPhone": "042.945.7626",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Wolf, Abbott and Kunde",
+  "CustomerCompanyName": "Beatty LLC",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "aut",
-  "WhenRequested": "2021-07-11T14:23:46.0012103+02:00",
-  "WhenStarted": "2003-01-27T14:23:46.0012103+01:00",
-  "WhenEnded": "2002-04-08T14:23:46.0012103+02:00",
-  "WhenIdle": "2002-05-06T14:23:46.0012103+02:00",
-  "WhenFetched": "2012-04-29T14:23:46.0012103+02:00",
-  "SessionKey": "porro",
-  "InitialQueuePos": 288,
-  "AlertLevel": 115,
-  "Rank": 831,
+  "FirstMessage": "modi",
+  "LastMessage": "quidem",
+  "WhenRequested": "2005-10-06T12:19:44.7892546+02:00",
+  "WhenStarted": "2023-11-18T12:19:44.7892546+01:00",
+  "WhenEnded": "2005-06-17T12:19:44.7892546+02:00",
+  "WhenIdle": "2008-07-29T12:19:44.7892546+02:00",
+  "WhenFetched": "2019-03-09T12:19:44.7892546+01:00",
+  "SessionKey": "voluptatum",
+  "InitialQueuePos": 22,
+  "AlertLevel": 488,
+  "Rank": 578,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 220,
+  "ChatbotIsActive": false,
+  "Rating": 184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   }
 }

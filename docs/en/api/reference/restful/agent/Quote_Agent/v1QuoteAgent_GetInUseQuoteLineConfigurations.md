@@ -84,15 +84,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 121,
-    "FieldName": "Blanda, Zulauf and Gorczany",
-    "Label": "reiciendis",
-    "Tooltip": "nobis",
-    "Editable": false,
+    "QuoteLineConfigurationId": 897,
+    "FieldName": "Botsford Group",
+    "Label": "sit",
+    "Tooltip": "harum",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 128,
-    "RestrictEdit": false,
+    "Rank": 32,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

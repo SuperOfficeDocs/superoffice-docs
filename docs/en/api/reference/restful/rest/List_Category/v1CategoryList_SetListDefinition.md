@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Bahringer-Mueller",
-  "Tooltip": "unde",
+  "Id": 244,
+  "Name": "Toy-Lakin",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 765,
+  "Rank": 864,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ad",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "McDermott, Murazik and Stark",
-  "Tooltip": "eos",
+  "Id": 498,
+  "Name": "Moore, Runolfsdottir and Jerde",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 503,
+  "Rank": 239,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 125
     }
   }
 }

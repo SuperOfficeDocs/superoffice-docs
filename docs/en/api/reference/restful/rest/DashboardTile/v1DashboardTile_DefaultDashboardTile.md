@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 880,
+  "DashboardTileId": 882,
   "Caption": "nihil",
-  "Description": "Re-contextualized logistical flexibility",
-  "ChartName": "Keebler, Daniel and Cole",
-  "ChartId": "aliquid",
+  "Description": "Realigned responsive Graphic Interface",
+  "ChartName": "Schinner, Shields and Koelpin",
+  "ChartId": "consequuntur",
   "IsDefault": false,
-  "AssociateId": 408,
-  "GroupId": 776,
-  "SelectionId": 541,
-  "Config": "vel",
+  "AssociateId": 557,
+  "GroupId": 785,
+  "SelectionId": 841,
+  "Config": "accusantium",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Abernathy, Dare and Green",
-      "Description": "Phased methodical forecast",
+      "Name": "Blick-Kreiger",
+      "Description": "Enterprise-wide didactic utilisation",
       "Type": "Boolean",
-      "ListName": "Douglas-Hayes",
+      "ListName": "Wyman-Becker",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "fuga",
-      "DefaultDataOption": true,
+      "Value": "qui",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 723
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 217,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 773
         }
       }
     },
     {
-      "VisibleId": 217,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 773
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

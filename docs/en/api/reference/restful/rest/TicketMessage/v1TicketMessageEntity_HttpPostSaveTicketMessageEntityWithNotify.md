@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -127,63 +127,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 711,
+  "EjMessageId": 64,
   "Ticket": null,
-  "CreatedAt": "2015-09-13T14:23:55.7127052+02:00",
+  "CreatedAt": "2002-04-14T12:19:54.0397728+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "dolore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatem",
-  "TimeSpent": 172,
-  "Body": "nemo",
-  "HtmlBody": "odio",
-  "EmailHeader": "annabell@kuvaliswatsica.name",
-  "DebugInfo": "doloremque",
-  "MailSorter": "laudantium",
+  "MessageId": "et",
+  "TimeSpent": 987,
+  "Body": "fugiat",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "christiana@bailey.com",
+  "DebugInfo": "qui",
+  "MailSorter": "incidunt",
   "MessageCategory": "Bounce",
   "Person": null,
   "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 366,
-      "Name": "Bashirian LLC",
-      "Value": "recusandae",
+      "Id": 875,
+      "Name": "Bergstrom, Lakin and Keeling",
+      "Value": "ab",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 366,
-      "Name": "Bashirian LLC",
-      "Value": "recusandae",
+      "Id": 875,
+      "Name": "Bergstrom, Lakin and Keeling",
+      "Value": "ab",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "quia",
-  "Sentiment": 642,
-  "SentimentConfidence": 229,
+  "Important": true,
+  "Language": "ullam",
+  "Sentiment": 167,
+  "SentimentConfidence": 66,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 665,
-      "Name": "Heathcote, Streich and Wyman",
-      "ContentType": "voluptatem",
-      "AttSize": 213,
-      "InlineImage": true,
-      "ContentId": "facilis",
-      "AuthKey": "ut",
+      "AttachmentId": 568,
+      "Name": "Farrell Inc and Sons",
+      "ContentType": "occaecati",
+      "AttSize": 860,
+      "InlineImage": false,
+      "ContentId": "enim",
+      "AuthKey": "voluptas",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "atque",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 589,
+  "EjMessageId": 166,
   "Ticket": null,
-  "CreatedAt": "2022-09-04T14:23:55.7283316+02:00",
+  "CreatedAt": "1999-12-10T12:19:54.0553956+01:00",
   "CreatedBy": null,
-  "Author": "at",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 968,
-  "Body": "in",
-  "HtmlBody": "pariatur",
-  "EmailHeader": "mariam.kassulke@pagac.com",
-  "DebugInfo": "officiis",
-  "MailSorter": "ipsum",
+  "MessageId": "ut",
+  "TimeSpent": 384,
+  "Body": "sit",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "bobby@rempel.us",
+  "DebugInfo": "tenetur",
+  "MailSorter": "ea",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "praesentium",
+  "SearchTitle": "eveniet",
   "MessageHeaders": [
     {
-      "Id": 393,
-      "Name": "Stroman-Maggio",
-      "Value": "quasi",
+      "Id": 741,
+      "Name": "Wiza-Ryan",
+      "Value": "hic",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 783
         }
       }
     }
   ],
   "Important": false,
-  "Language": "laboriosam",
-  "Sentiment": 551,
-  "SentimentConfidence": 779,
+  "Language": "illo",
+  "Sentiment": 732,
+  "SentimentConfidence": 877,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 10,
-      "Name": "O'Kon, Jast and Strosin",
-      "ContentType": "minima",
-      "AttSize": 50,
+      "AttachmentId": 955,
+      "Name": "Barrows, Rowe and Denesik",
+      "ContentType": "laboriosam",
+      "AttSize": 739,
       "InlineImage": true,
-      "ContentId": "quia",
-      "AuthKey": "vitae",
-      "IsSafeFileExtension": true,
+      "ContentId": "sequi",
+      "AuthKey": "architecto",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 681
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "qui"
+    "CustomFields1": "et",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 709
     }
   }
 }

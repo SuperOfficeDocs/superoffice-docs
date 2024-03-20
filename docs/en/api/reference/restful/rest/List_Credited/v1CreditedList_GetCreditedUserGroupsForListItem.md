@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Konopelski, Feil and Huels",
-    "ToolTip": "Architecto earum impedit sit.",
+    "Id": 366,
+    "Name": "Mante-Goodwin",
+    "ToolTip": "Beatae eaque quaerat repellat voluptatem voluptas nihil quaerat.",
     "Deleted": false,
-    "Rank": 65,
-    "Type": "officia",
-    "ColorBlock": 446,
-    "IconHint": "quo",
+    "Rank": 181,
+    "Type": "natus",
+    "ColorBlock": 236,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2016-07-06T14:23:56.0408276+02:00",
+    "LastChanged": "2005-06-23T12:19:54.383431+02:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Yost-Dietrich",
-        "ToolTip": "Repudiandae quia.",
+        "Id": 869,
+        "Name": "Bosco, Parisian and Schowalter",
+        "ToolTip": "Quod quo est ex quae harum.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "officia",
-        "ColorBlock": 222,
-        "IconHint": "omnis",
+        "Rank": 116,
+        "Type": "architecto",
+        "ColorBlock": 814,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2009-06-14T14:23:56.0408276+02:00",
+        "LastChanged": "2001-06-02T12:19:54.383431+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Dr. Madeline Peyton Wisozk",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "ad",
+        "Hidden": true,
+        "FullName": "Prof. Tabitha Kunde III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 138
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "rem",
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Bennett Hodkiewicz Jr.",
+    "FullName": "Mrs. Rico Golden Hermiston II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 563
       }
     }
   }

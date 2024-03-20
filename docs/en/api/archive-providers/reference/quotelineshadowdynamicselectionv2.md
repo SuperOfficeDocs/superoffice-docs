@@ -309,6 +309,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|alternative/version/quote/sale/person/personExtra/y\_car/id|int|Sale - Car - id: Displays the row's primary key (y\_car)| x |
 |alternative/version/quote/sale/person/personAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/personAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
@@ -328,11 +329,11 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
-|alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
@@ -432,11 +433,11 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line3|string|Sale - Postal address - Address 3: Third line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/county|string|Sale - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|alternative/version/quote/sale/contact/postAddress/city|string|Sale - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/postAddress/city|string|Sale - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/zip|string|Sale - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/state|string|Sale - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |alternative/version/quote/sale/contact/postAddress/wgs84latitude|decimal|Sale - Postal address - Latitude: Latitude| x |
@@ -530,17 +531,18 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
+|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod|int|Sale - Number of non-completed activities in last 90 days|  |
 |alternative/version/quote/sale/contact/LastActivity|date|Sale - Date of last activity|  |
-|alternative/version/quote/sale/contact/LastCompletedActivity|date|Sale - Date of last completed activity|  |
-|alternative/version/quote/sale/contact/LastDoByActivity|date|Sale - Date of last non-completed activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/LastCompletedActivity|date|Sale - Date of last completed activity|  |
+|alternative/version/quote/sale/contact/LastDoByActivity|date|Sale - Date of last non-completed activity|  |
 |alternative/version/quote/sale/contact/NumberOfSales|int|Sale - Number of sales|  |
 |alternative/version/quote/sale/contact/NumberOfSalesInPeriod|int|Sale - Number of sales in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedSales|int|Sale - Number of non-completed sales|  |
@@ -639,12 +641,12 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/project/projectAssociate/firstName|string|Sale - Project - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/project/projectAssociate/lastName|string|Sale - Project - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/project/projectAssociate/middleName|string|Sale - Project - Middle Name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/project/projectAssociate/fullName|string|Sale - Project - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|alternative/version/quote/sale/project/projectAssociate/contactId|int|Sale - Project - Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/projectAssociate/fullName|string|Sale - Project - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|alternative/version/quote/sale/project/projectAssociate/contactId|int|Sale - Project - Company ID: Database ID of the company the user belongs to|  |
 |alternative/version/quote/sale/project/projectAssociate/personId|int|Sale - Project - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/project/projectAssociate/mrMrs|string|Sale - Project - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/project/projectAssociate/title|string|Sale - Project - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -740,7 +742,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/subTotal,alternative/version/extraField3,alternative/version/quote/sale/person/personAssociate/mrMrs,alternative/version/quote/sale/person/personAssociate/associateDbId,alternative/version/quote/sale/contact/restrictionAddress/county
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=name,registeredBy,alternative/version/description,alternative/version/quote/sale/hasQuote,alternative/version/quote/sale/contact/searchPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

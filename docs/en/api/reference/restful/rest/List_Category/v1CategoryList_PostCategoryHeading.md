@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 816,
-  "Name": "Braun-Stokes",
-  "Tooltip": "eligendi",
+  "HeadingId": 771,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 749,
-  "UdListDefinitionId": 752
+  "Rank": 834,
+  "UdListDefinitionId": 801
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 633,
-  "Name": "Schmeler-Miller",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 915,
-  "UdListDefinitionId": 761,
+  "HeadingId": 824,
+  "Name": "Stehr, Schuster and Thiel",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 564,
+  "UdListDefinitionId": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 649
     }
   }
 }

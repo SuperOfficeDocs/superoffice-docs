@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Kessler, Wyman and Friesen",
-    "ToolTip": "Ullam eaque sed enim expedita qui.",
-    "Deleted": true,
-    "Rank": 467,
-    "Type": "vitae",
-    "ColorBlock": 965,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2014-02-27T14:23:56.1189508+01:00",
+    "Id": 943,
+    "Name": "Ziemann-Kessler",
+    "ToolTip": "Nam ut in qui tenetur.",
+    "Deleted": false,
+    "Rank": 680,
+    "Type": "sunt",
+    "ColorBlock": 857,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2018-05-19T12:19:54.4615351+02:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Friesen, Beer and Quitzon",
-        "ToolTip": "Non non.",
+        "Id": 727,
+        "Name": "Blick Group",
+        "ToolTip": "Sed eaque non expedita.",
         "Deleted": false,
-        "Rank": 788,
-        "Type": "et",
-        "ColorBlock": 306,
-        "IconHint": "dolor",
+        "Rank": 209,
+        "Type": "aperiam",
+        "ColorBlock": 982,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2010-03-15T14:23:56.1189508+01:00",
+        "LastChanged": "2001-02-09T12:19:54.4615351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Tessie Greenholt",
+        "ExtraInfo": "nemo",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Jewell Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "qui",
+    "ExtraInfo": "qui",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Ryan Oberbrunner",
+    "FullName": "Miss Nona Delpha Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 1001
       }
     }
   }

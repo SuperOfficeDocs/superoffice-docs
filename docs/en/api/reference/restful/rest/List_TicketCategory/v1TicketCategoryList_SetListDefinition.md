@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Runolfsson, Christiansen and Williamson",
-  "Tooltip": "alias",
+  "Id": 612,
+  "Name": "Miller Inc and Sons",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 916,
-  "IsCustomList": false,
+  "Rank": 426,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
-  "InUseByUserDefinedFields": false
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Buckridge-Hegmann",
-  "Tooltip": "voluptas",
+  "Id": 451,
+  "Name": "Thompson-Reinger",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 498,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "Rank": 907,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 771
     }
   }
 }

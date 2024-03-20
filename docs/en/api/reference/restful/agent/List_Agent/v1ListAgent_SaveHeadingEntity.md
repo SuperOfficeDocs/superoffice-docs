@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 389,
-  "Name": "Hayes-Hodkiewicz",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 193,
-  "UdListDefinitionId": 734
+  "HeadingId": 310,
+  "Name": "Prohaska, Upton and Gleichner",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 633,
+  "UdListDefinitionId": 863
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 957,
-  "Name": "Lemke Group",
-  "Tooltip": "consequatur",
+  "HeadingId": 135,
+  "Name": "Oberbrunner Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 606,
-  "UdListDefinitionId": 417,
+  "Rank": 69,
+  "UdListDefinitionId": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

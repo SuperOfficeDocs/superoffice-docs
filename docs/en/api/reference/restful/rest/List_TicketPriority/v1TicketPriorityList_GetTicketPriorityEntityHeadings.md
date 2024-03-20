@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 824,
-    "Name": "Lueilwitz-Swaniawski",
-    "Tooltip": "perferendis",
+    "HeadingId": 559,
+    "Name": "Murphy Group",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 586,
-    "UdListDefinitionId": 368,
+    "Rank": 122,
+    "UdListDefinitionId": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 901
       }
     }
   }

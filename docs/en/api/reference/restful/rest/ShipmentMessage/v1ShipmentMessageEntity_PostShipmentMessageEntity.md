@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 445,
-  "PlainMessage": "qui",
-  "HtmlMessage": "laborum",
-  "SmsMessage": "suscipit",
-  "Description": "Re-contextualized uniform encryption",
-  "Subject": "vero",
-  "FolderId": 574,
-  "HeaderField": "quia",
-  "Design": "dolorum",
+  "ShipmentMessageId": 774,
+  "PlainMessage": "quod",
+  "HtmlMessage": "nam",
+  "SmsMessage": "est",
+  "Description": "Organized asynchronous infrastructure",
+  "Subject": "optio",
+  "FolderId": 944,
+  "HeaderField": "aspernatur",
+  "Design": "exercitationem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Fully-configurable contextually-based functionalities",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 859,
-  "Registered": "2019-04-13T14:23:55.5252104+02:00",
-  "RegisteredAssociateId": 944,
-  "Updated": "2016-03-22T14:23:55.5252104+01:00",
+  "LongDescription": "Monitored well-modulated artificial intelligence",
+  "AccessKey": "et",
+  "DocumentMessage": 675,
+  "Registered": "1999-09-28T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 47,
+  "Updated": "2022-04-19T12:19:53.9304171+02:00",
   "UpdatedAssociateId": 549,
-  "UpdatedCount": 251
+  "UpdatedCount": 398
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 669,
-  "PlainMessage": "officiis",
-  "HtmlMessage": "nihil",
-  "SmsMessage": "et",
-  "Description": "Business-focused coherent customer loyalty",
-  "Subject": "suscipit",
-  "FolderId": 659,
-  "HeaderField": "sapiente",
-  "Design": "quia",
+  "ShipmentMessageId": 495,
+  "PlainMessage": "quos",
+  "HtmlMessage": "ut",
+  "SmsMessage": "explicabo",
+  "Description": "Optimized radical orchestration",
+  "Subject": "autem",
+  "FolderId": 888,
+  "HeaderField": "aspernatur",
+  "Design": "molestias",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Stand-alone mobile task-force",
-  "AccessKey": "laudantium",
-  "DocumentMessage": 41,
-  "Registered": "1998-09-14T14:23:55.5252104+02:00",
-  "RegisteredAssociateId": 445,
-  "Updated": "2000-01-13T14:23:55.5252104+01:00",
-  "UpdatedAssociateId": 733,
-  "UpdatedCount": 323,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Pre-emptive bifurcated interface",
+  "AccessKey": "ex",
+  "DocumentMessage": 22,
+  "Registered": "2003-05-26T12:19:53.9304171+02:00",
+  "RegisteredAssociateId": 479,
+  "Updated": "2006-04-21T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 947,
+  "UpdatedCount": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 754
+      "FieldType": "System.Int32",
+      "FieldLength": 341
     }
   },
   "_Links": {

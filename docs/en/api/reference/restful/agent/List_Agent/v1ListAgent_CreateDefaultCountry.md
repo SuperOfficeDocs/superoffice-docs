@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 673,
-  "Name": "Reichert LLC",
-  "CurrencyId": 174,
-  "EnglishName": "Strosin, Pacocha and Smitham",
+  "CountryId": 825,
+  "Name": "Littel LLC",
+  "CurrencyId": 399,
+  "EnglishName": "Howe Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Managed value-added Graphical User Interface",
-  "OrgNrText": "356376",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "harum",
-  "ZipPrefix": "fugit",
-  "DomainName": "Ebert Group",
-  "AddressLayoutId": 415,
-  "DomesticAddressLayoutId": 421,
-  "ForeignAddressLayoutId": 823,
-  "Rank": 24,
-  "Tooltip": "cumque",
+  "ImageDescription": "Switchable foreground orchestration",
+  "OrgNrText": "873656",
+  "InterAreaPrefix": "nisi",
+  "DialInPrefix": "rerum",
+  "ZipPrefix": "explicabo",
+  "DomainName": "Kub LLC",
+  "AddressLayoutId": 446,
+  "DomesticAddressLayoutId": 484,
+  "ForeignAddressLayoutId": 83,
+  "Rank": 718,
+  "Tooltip": "cupiditate",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 398
     }
   }
 }

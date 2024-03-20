@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Goldner LLC",
-  "Tooltip": "possimus",
+  "Id": 83,
+  "Name": "Fadel, Purdy and Cartwright",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 912,
-  "Rank": 552,
+  "UdListDefinitionId": 831,
+  "Rank": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 206
     }
   }
 }

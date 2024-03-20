@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43,
-  "Name": "Carroll, Kuvalis and Batz",
-  "Tooltip": "voluptas",
+  "Id": 638,
+  "Name": "Ziemann Inc and Sons",
+  "Tooltip": "esse",
   "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 19,
+  "UdListDefinitionId": 789,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

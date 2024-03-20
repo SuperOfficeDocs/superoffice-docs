@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 774
+  "ErpConnectorId": 529
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "itaque",
-    "Rank": 719,
-    "DisplayName": "Harber LLC",
-    "DisplayDescription": "Front-line stable website",
+    "FieldKey": "incidunt",
+    "Rank": 610,
+    "DisplayName": "Herzog Inc and Sons",
+    "DisplayDescription": "Synergized fresh-thinking info-mediaries",
     "FieldType": "Checkbox",
-    "ListName": "Parker, Swaniawski and Pfeffer",
-    "DefaultValue": "aut",
-    "MaxLength": 720,
+    "ListName": "Jones-Sipes",
+    "DefaultValue": "quis",
+    "MaxLength": 379,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 258
       }
     }
   }

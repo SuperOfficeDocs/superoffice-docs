@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Hirthe-Koss",
-    "ToolTip": "Pariatur molestiae voluptatem aut et nemo fugit dolorem.",
-    "Deleted": false,
-    "Rank": 452,
-    "Type": "ut",
-    "ColorBlock": 885,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2010-05-09T14:23:56.2439493+02:00",
+    "Id": 863,
+    "Name": "Walter, Simonis and Zieme",
+    "ToolTip": "Labore magnam.",
+    "Deleted": true,
+    "Rank": 802,
+    "Type": "quidem",
+    "ColorBlock": 542,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2008-02-20T12:19:54.7427332+01:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Kuvalis LLC",
-        "ToolTip": "Illo maxime esse autem rerum placeat tempore accusantium.",
-        "Deleted": true,
-        "Rank": 670,
-        "Type": "id",
-        "ColorBlock": 299,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2005-10-02T14:23:56.2439493+02:00",
+        "Id": 436,
+        "Name": "Morar-Wisozk",
+        "ToolTip": "Placeat magnam sunt eos quo et assumenda voluptatibus.",
+        "Deleted": false,
+        "Rank": 131,
+        "Type": "debitis",
+        "ColorBlock": 68,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2001-02-07T12:19:54.7427332+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Bridie Bernier",
+        "ExtraInfo": "qui",
+        "StyleHint": "error",
+        "Hidden": false,
+        "FullName": "Theodore Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldType": "System.String",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "voluptatum",
-    "Hidden": true,
-    "FullName": "Zetta Grant",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Lilla Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 794
       }
     }
   }

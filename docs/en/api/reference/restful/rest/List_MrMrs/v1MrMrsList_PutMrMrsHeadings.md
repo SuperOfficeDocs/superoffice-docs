@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Rolfson, Buckridge and Shanahan",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 731,
-    "UdListDefinitionId": 239
+    "HeadingId": 958,
+    "Name": "Jacobson LLC",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 876,
+    "UdListDefinitionId": 968
   },
   {
-    "HeadingId": 451,
-    "Name": "Rolfson, Buckridge and Shanahan",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 731,
-    "UdListDefinitionId": 239
+    "HeadingId": 958,
+    "Name": "Jacobson LLC",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 876,
+    "UdListDefinitionId": 968
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "Von-Kutch",
-    "Tooltip": "magni",
+    "HeadingId": 935,
+    "Name": "Cremin Group",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 694,
-    "UdListDefinitionId": 864,
+    "Rank": 62,
+    "UdListDefinitionId": 547,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 357
       }
     }
   }

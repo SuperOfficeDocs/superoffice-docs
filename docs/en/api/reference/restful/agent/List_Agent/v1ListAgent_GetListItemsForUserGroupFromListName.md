@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Blick, Leannon and Kub",
-  "GroupId": 929
+  "UdListDefinitionName": "Denesik-McClure",
+  "GroupId": 460
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Sipes, Wilderman and Kessler",
-    "ToolTip": "Ullam quibusdam nostrum tempore numquam est necessitatibus eaque.",
+    "Id": 177,
+    "Name": "Blick, Streich and Haley",
+    "ToolTip": "Delectus reprehenderit.",
     "Deleted": true,
-    "Rank": 259,
-    "Type": "et",
-    "ColorBlock": 802,
-    "IconHint": "dolores",
+    "Rank": 573,
+    "Type": "culpa",
+    "ColorBlock": 517,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "1997-11-14T14:23:46.8306046+01:00",
+    "LastChanged": "2013-02-21T12:19:45.4922171+01:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Walsh-Schaden",
-        "ToolTip": "Quis cum aliquid expedita non quo earum.",
+        "Id": 228,
+        "Name": "Haley-Lindgren",
+        "ToolTip": "Qui minus repellendus voluptas sequi aut rerum expedita.",
         "Deleted": true,
-        "Rank": 773,
-        "Type": "voluptatem",
-        "ColorBlock": 198,
-        "IconHint": "maiores",
+        "Rank": 294,
+        "Type": "modi",
+        "ColorBlock": 208,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2002-04-29T14:23:46.8306046+02:00",
+        "LastChanged": "1999-09-01T12:19:45.4922171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
+        "ExtraInfo": "animi",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Kurt Rogahn",
+        "FullName": "Price O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Dessie Jakubowski",
+    "ExtraInfo": "quis",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Annie Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 160
       }
     }
   }

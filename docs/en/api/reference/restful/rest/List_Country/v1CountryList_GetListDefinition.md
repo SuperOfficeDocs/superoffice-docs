@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "O'Conner-Wunsch",
-  "Tooltip": "vitae",
+  "Id": 618,
+  "Name": "Kuphal, Lueilwitz and Gaylord",
+  "Tooltip": "explicabo",
   "Deleted": true,
-  "Rank": 238,
+  "Rank": 309,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 976
     }
   },
   "_Links": {

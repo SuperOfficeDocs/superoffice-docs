@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 664,
-  "PersonName": "Feest-Jacobi",
+  "ContactId": 949,
+  "PersonName": "Reilly, Corwin and O'Kon",
   "PhoneNumbers": [
-    "811591",
-    "1520455"
+    "1161402",
+    "1494434"
   ],
   "Emails": [
-    "marisol@collinscasper.us",
-    "madie@robel.com"
+    "arnaldo@darechamplin.info",
+    "oscar@ziemann.com"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 912
     }
   }
 }

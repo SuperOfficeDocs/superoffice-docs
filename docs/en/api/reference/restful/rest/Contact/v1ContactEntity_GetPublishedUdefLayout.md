@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 937,
-    "ColumnId": 45,
-    "FieldDefault": "consectetur",
-    "FieldHeight": 390,
-    "FieldLabel": "veniam",
-    "FieldLeft": 867,
-    "FieldTop": 795,
+    "UDefFieldId": 362,
+    "ColumnId": 816,
+    "FieldDefault": "nihil",
+    "FieldHeight": 430,
+    "FieldLabel": "et",
+    "FieldLeft": 782,
+    "FieldTop": 269,
     "FieldType": "Checkbox",
-    "FieldWidth": 257,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 900,
+    "FormatMask": "odit",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 119,
-    "LabelLeft": 803,
-    "LabelTop": 314,
-    "LabelWidth": 770,
-    "LastVersionId": 624,
-    "ListTableId": 86,
+    "LabelHeight": 63,
+    "LabelLeft": 237,
+    "LabelTop": 123,
+    "LabelWidth": 457,
+    "LastVersionId": 463,
+    "ListTableId": 864,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 348,
-    "ProgId": "laudantium",
-    "IsReadOnly": true,
-    "ShortLabel": "sit",
-    "TabOrder": 285,
-    "TextLength": 229,
-    "Tooltip": "quo",
-    "UdefIdentity": 837,
-    "UDListDefinitionId": 33,
+    "Page1LineNo": 934,
+    "ProgId": "nostrum",
+    "IsReadOnly": false,
+    "ShortLabel": "impedit",
+    "TabOrder": 124,
+    "TextLength": 909,
+    "Tooltip": "deserunt",
+    "UdefIdentity": 234,
+    "UDListDefinitionId": 267,
     "Justification": "Center",
-    "Version": 94,
-    "TemplateVariableName": "Schulist Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Klocko Inc and Sons",
+    "Version": 821,
+    "TemplateVariableName": "Cummings Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Kuphal, Carter and Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

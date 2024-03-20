@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 879,
-  "UniqueId": "delectus",
-  "Name": "Friesen Group",
-  "Description": "Optimized bi-directional knowledge base",
-  "AssociateId": 57,
-  "Columns": 213,
+  "DashboardId": 662,
+  "UniqueId": "modi",
+  "Name": "Hayes, Larson and Zemlak",
+  "Description": "Compatible mission-critical archive",
+  "AssociateId": 612,
+  "Columns": 593,
   "Theme": null,
-  "VisibleForAll": 749,
+  "VisibleForAll": 557,
   "VisibleForAssociates": [
-    178,
-    13
+    870,
+    167
   ],
   "VisibleForGroups": [
-    453,
-    527
+    607,
+    827
   ],
-  "PinForAll": 983,
+  "PinForAll": 215,
   "PinForAssociates": [
-    411,
-    762
+    146,
+    301
   ],
   "PinForGroups": [
-    733,
-    723
+    256,
+    178
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 704
     }
   },
   "_Links": {

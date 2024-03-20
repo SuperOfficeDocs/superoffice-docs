@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 649,
-  "Name": "Harvey, Thiel and McKenzie",
+  "TicketPriorityId": 678,
+  "Name": "Mohr-Hirthe",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 366,
+  "SortOrder": 626,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 196,
-  "MonStart": "2001-11-28T14:23:56.417076+01:00",
-  "MonStop": "2010-07-26T14:23:56.417076+02:00",
-  "TueStart": "2024-03-06T14:23:56.417076+01:00",
-  "TueStop": "2020-04-22T14:23:56.417076+02:00",
-  "WedStart": "2005-08-24T14:23:56.417076+02:00",
-  "WedStop": "2005-06-02T14:23:56.417076+02:00",
-  "ThuStart": "2000-06-15T14:23:56.417076+02:00",
-  "ThuStop": "2023-12-04T14:23:56.417076+01:00",
-  "FriStart": "2001-03-09T14:23:56.417076+01:00",
-  "FriStop": "2013-05-06T14:23:56.417076+02:00",
-  "SatStart": "1997-05-16T14:23:56.417076+02:00",
-  "SatStop": "2010-06-08T14:23:56.417076+02:00",
-  "SunStart": "2009-12-08T14:23:56.417076+01:00",
-  "SunStop": "1997-08-26T14:23:56.417076+02:00",
+  "Deadline": 263,
+  "MonStart": "2023-05-09T12:19:54.898948+02:00",
+  "MonStop": "2007-09-06T12:19:54.898948+02:00",
+  "TueStart": "2009-02-09T12:19:54.898948+01:00",
+  "TueStop": "2018-05-29T12:19:54.898948+02:00",
+  "WedStart": "2004-12-29T12:19:54.898948+01:00",
+  "WedStop": "2007-06-01T12:19:54.898948+02:00",
+  "ThuStart": "1999-12-20T12:19:54.898948+01:00",
+  "ThuStop": "2023-09-30T12:19:54.898948+02:00",
+  "FriStart": "2015-09-05T12:19:54.898948+02:00",
+  "FriStop": "2009-11-14T12:19:54.898948+01:00",
+  "SatStart": "2013-10-24T12:19:54.898948+02:00",
+  "SatStop": "2004-02-07T12:19:54.898948+01:00",
+  "SunStart": "2020-08-17T12:19:54.898948+02:00",
+  "SunStop": "2023-08-26T12:19:54.898948+02:00",
   "NonDates": [
-    "necessitatibus",
-    "ea"
+    "voluptatem",
+    "eveniet"
   ],
   "EscalationLevels": [
     {
       "TicketAlertId": 83,
-      "AlertLevel": 559,
-      "AlertTimeout": 618,
-      "Action": 501,
-      "DelegateTo": 231,
-      "ScriptId": 760,
-      "EmailTo": "fritz.rath@nitzsche.co.uk",
-      "SmsTo": "repudiandae",
-      "ReplyTemplateIdCustomer": 809,
-      "ReplyTemplateIdUser": 226,
-      "ReplyTemplateIdCatmast": 493,
-      "ReplyTemplateIdEmail": 741,
-      "RtiCustomerSms": 770,
-      "ReplyTemplateIdUserSms": 659,
-      "ReplyTemplateIdCatmastSms": 207,
-      "ReplyTemplateIdSms": 22,
+      "AlertLevel": 802,
+      "AlertTimeout": 723,
+      "Action": 89,
+      "DelegateTo": 433,
+      "ScriptId": 189,
+      "EmailTo": "verlie.kerluke@nikolaus.us",
+      "SmsTo": "sunt",
+      "ReplyTemplateIdCustomer": 570,
+      "ReplyTemplateIdUser": 119,
+      "ReplyTemplateIdCatmast": 594,
+      "ReplyTemplateIdEmail": 571,
+      "RtiCustomerSms": 220,
+      "ReplyTemplateIdUserSms": 283,
+      "ReplyTemplateIdCatmastSms": 754,
+      "ReplyTemplateIdSms": 401,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 317
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 554
     }
   }
 }

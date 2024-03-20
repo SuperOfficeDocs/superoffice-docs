@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 780,
-  "Currency": "autem"
+  "QuoteConnectionId": 489,
+  "Currency": "provident"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 79,
-    "ERPPriceListKey": "necessitatibus",
-    "QuoteConnectionId": 434,
-    "Name": "Shields Inc and Sons",
-    "Description": "Self-enabling high-level framework",
-    "Currency": "quia",
-    "CurrencyName": "Ruecker-Hackett",
-    "ValidFrom": "2018-05-20T14:23:47.2536317+02:00",
-    "ValidTo": "2015-10-17T14:23:47.2536317+02:00",
-    "IsActive": false,
+    "PriceListId": 95,
+    "ERPPriceListKey": "illum",
+    "QuoteConnectionId": 930,
+    "Name": "Kozey-Tremblay",
+    "Description": "Centralized responsive workforce",
+    "Currency": "rerum",
+    "CurrencyName": "Renner, Skiles and Pollich",
+    "ValidFrom": "2012-10-30T12:19:46.1014395+01:00",
+    "ValidTo": "2012-02-16T12:19:46.1014395+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

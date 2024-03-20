@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 802,
-  "StartTime": "2022-07-21T14:23:45.359461+02:00",
-  "EndTime": "1998-10-18T14:23:45.359461+02:00",
-  "Count": 771,
+  "ProjectId": 192,
+  "StartTime": "2003-10-24T12:19:44.1487684+02:00",
+  "EndTime": "1999-05-08T12:19:44.1487684+02:00",
+  "Count": 908,
   "TaskIds": [
-    489,
-    626
+    927,
+    761
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 379,
-    "StartDate": "2010-09-20T14:23:45.359461+02:00",
-    "EndDate": "2016-12-30T14:23:45.359461+01:00",
+    "AppointmentId": 812,
+    "StartDate": "2013-02-19T12:19:44.1487684+01:00",
+    "EndDate": "2011-12-30T12:19:44.1487684+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Cheyanne Schiller",
-    "ContactName": "Kutch Inc and Sons",
-    "Description": "Organic 6th generation orchestration",
-    "PersonFullName": "Anita Stracke DDS",
-    "PersonId": 492,
-    "ContactId": 570,
-    "ProjectId": 4,
-    "ProjectName": "Fay Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 697,
-    "ColorIndex": 295,
-    "IsFree": false,
+    "Task": "ea",
+    "AssociateFullName": "Marcella Wilkinson",
+    "ContactName": "Toy, Jewess and D'Amore",
+    "Description": "Automated 4th generation extranet",
+    "PersonFullName": "Mr. Herta Gorczany",
+    "PersonId": 307,
+    "ContactId": 94,
+    "ProjectId": 97,
+    "ProjectName": "Nolan, Moore and O'Conner",
+    "IsPublished": true,
+    "AssociateId": 412,
+    "ColorIndex": 149,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 569,
-    "PriorityName": "Lang LLC",
+    "PriorityId": 367,
+    "PriorityName": "Conroy Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-08-17T14:23:45.359461+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2010-01-03T12:19:44.1487684+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-05-24T14:23:45.359461+02:00",
-    "RecurringEndDate": "2011-10-04T14:23:45.359461+02:00",
-    "MotherId": 245,
-    "AssignedBy": 692,
-    "AssignedByFullName": "Mr. May Rowe",
+    "RecurringStartDate": "2001-05-17T12:19:44.1487684+02:00",
+    "RecurringEndDate": "2009-11-14T12:19:44.1487684+01:00",
+    "MotherId": 576,
+    "AssignedBy": 837,
+    "AssignedByFullName": "Waylon Sanford",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "ut",
-    "SaleId": 361,
-    "SaleName": "Schiller, Stark and Ledner",
-    "AssociateName": "McCullough, Doyle and Reilly",
-    "CreatedDate": "2017-12-01T14:23:45.359461+01:00",
-    "CreatedBy": "maxime",
-    "CreatedByFullName": "Jakob Herman MD",
-    "CreatedByAssociateId": 586,
+    "Location": "iusto",
+    "AlarmLeadTime": "provident",
+    "SaleId": 446,
+    "SaleName": "Lang LLC",
+    "AssociateName": "Gulgowski, Schiller and Sauer",
+    "CreatedDate": "2009-01-27T12:19:44.1487684+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Dr. Elinor Allen Dickens",
+    "CreatedByAssociateId": 69,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 457,
-    "Title": "sit",
-    "Agenda": "vitae",
-    "InternalNotes": "ex",
+    "PreferredTZLocation": 358,
+    "Title": "eum",
+    "Agenda": "maxime",
+    "InternalNotes": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 417
       }
     }
   }

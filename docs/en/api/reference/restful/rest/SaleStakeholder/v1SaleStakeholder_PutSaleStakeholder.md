@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Crist-Zemlak",
-  "Comment": "facilis",
-  "StakeholderRoleId": 617,
-  "CountryId": 165,
-  "PersonId": 48,
-  "EmailDescription": "jocelyn@connelly.biz",
-  "EmailId": 146,
-  "EmailAddress": "odie_bailey@kerlukegreenholt.biz",
-  "PhoneId": 323,
-  "ContactName": "Kunze, Ullrich and Cronin",
-  "ContactId": 758,
-  "SaleId": 250,
-  "Mrmrs": "distinctio",
-  "Firstname": "Braeden",
-  "MiddleName": "Ullrich, Murray and Glover",
-  "Lastname": "Jakubowski",
-  "SaleStakeholderId": 539,
-  "Rank": 244,
-  "Phone": "1-121-581-5806"
+  "StakeholderRoleName": "Runolfsdottir Inc and Sons",
+  "Comment": "ut",
+  "StakeholderRoleId": 425,
+  "CountryId": 736,
+  "PersonId": 515,
+  "EmailDescription": "georgianna@olson.us",
+  "EmailId": 734,
+  "EmailAddress": "madaline_anderson@gulgowski.us",
+  "PhoneId": 243,
+  "ContactName": "Champlin Group",
+  "ContactId": 365,
+  "SaleId": 852,
+  "Mrmrs": "doloribus",
+  "Firstname": "Meda",
+  "MiddleName": "Krajcik Group",
+  "Lastname": "Breitenberg",
+  "SaleStakeholderId": 887,
+  "Rank": 109,
+  "Phone": "328-209-6029"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harber Group",
-  "Comment": "culpa",
-  "StakeholderRoleId": 726,
-  "CountryId": 566,
-  "PersonId": 11,
-  "EmailDescription": "marta@price.ca",
-  "EmailId": 698,
-  "EmailAddress": "allison_hoppe@kerluke.info",
-  "PhoneId": 501,
-  "ContactName": "Prosacco Group",
-  "ContactId": 704,
-  "SaleId": 897,
-  "Mrmrs": "dolorem",
-  "Firstname": "Vernice",
-  "MiddleName": "Pacocha LLC",
-  "Lastname": "Wilkinson",
-  "SaleStakeholderId": 627,
-  "Rank": 13,
-  "Phone": "(368)124-7711",
+  "StakeholderRoleName": "Carroll Inc and Sons",
+  "Comment": "laudantium",
+  "StakeholderRoleId": 28,
+  "CountryId": 892,
+  "PersonId": 784,
+  "EmailDescription": "devyn@wiegand.uk",
+  "EmailId": 389,
+  "EmailAddress": "eulah@wyman.name",
+  "PhoneId": 997,
+  "ContactName": "Feeney-Ankunding",
+  "ContactId": 257,
+  "SaleId": 116,
+  "Mrmrs": "et",
+  "Firstname": "Garth",
+  "MiddleName": "Strosin-Gusikowski",
+  "Lastname": "Jerde",
+  "SaleStakeholderId": 629,
+  "Rank": 958,
+  "Phone": "1-891-141-9735 x243",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 954
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

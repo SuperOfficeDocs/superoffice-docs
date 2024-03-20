@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Ritchie-Sipes",
-  "Tooltip": "ut",
+  "Id": 908,
+  "Name": "Corkery Inc and Sons",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 495,
-  "Rank": 644,
+  "UdListDefinitionId": 289,
+  "Rank": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   }
 }

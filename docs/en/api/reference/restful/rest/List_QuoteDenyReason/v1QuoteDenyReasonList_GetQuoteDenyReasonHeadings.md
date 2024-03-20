@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 164,
-    "Name": "Hudson Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 816,
-    "UdListDefinitionId": 98,
+    "HeadingId": 822,
+    "Name": "Will Group",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 979,
+    "UdListDefinitionId": 875,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 997
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

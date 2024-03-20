@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Bruen LLC",
-    "ToolTip": "Quasi voluptatibus cupiditate.",
-    "Deleted": false,
-    "Rank": 929,
-    "Type": "deserunt",
-    "ColorBlock": 556,
-    "IconHint": "sequi",
+    "Id": 413,
+    "Name": "Hamill-McClure",
+    "ToolTip": "Voluptatum ipsa aliquam nihil tempora aut nesciunt.",
+    "Deleted": true,
+    "Rank": 295,
+    "Type": "aut",
+    "ColorBlock": 618,
+    "IconHint": "quasi",
     "Selected": true,
-    "LastChanged": "2020-08-26T14:23:56.1502016+02:00",
+    "LastChanged": "2021-05-29T12:19:54.6490067+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Considine-Mills",
-        "ToolTip": "Error nostrum at est quis aut suscipit.",
+        "Id": 534,
+        "Name": "Homenick-Stroman",
+        "ToolTip": "Vero et consequatur deleniti sit quis minima quia.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "consequuntur",
-        "ColorBlock": 100,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2020-05-11T14:23:56.1502016+02:00",
+        "Rank": 704,
+        "Type": "ratione",
+        "ColorBlock": 373,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2020-11-08T12:19:54.6490067+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Mr. Johathan Terrill McKenzie Jr.",
+        "ExtraInfo": "sit",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Enoch O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 702
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Myah Powlowski",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Miss Mireya Pierce Bednar II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 631
       }
     }
   }

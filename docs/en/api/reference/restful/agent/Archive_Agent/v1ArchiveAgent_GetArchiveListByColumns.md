@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cummerata Inc and Sons",
+  "ProviderName": "Kub LLC",
   "Columns": [
-    "nam",
-    "tempore"
+    "harum",
+    "neque"
   ],
   "SortOrder": [
     {
-      "Name": "Spencer, Grimes and Reichert",
+      "Name": "Bartoletti Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Spencer, Grimes and Reichert",
+      "Name": "Bartoletti Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Little-Kemmer",
-      "Operator": "et",
+      "Name": "Conn-Schaden",
+      "Operator": "quo",
       "Values": [
-        "inventore",
-        "ut"
+        "veritatis",
+        "sit"
       ],
       "DisplayValues": [
-        "praesentium",
-        "voluptas"
+        "modi",
+        "facere"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 403,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 496
+      "UniqueHash": 607
     }
   ],
   "Entities": [
-    "et",
-    "qui"
+    "iure",
+    "magni"
   ],
-  "Page": 259,
-  "PageSize": 203
+  "Page": 473,
+  "PageSize": 20
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gaylord LLC",
-    "PrimaryKey": 244,
+    "EntityName": "Rice Group",
+    "PrimaryKey": 871,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "mollitia",
-        "TooltipHint": "ea",
-        "LinkHint": "aut"
+        "DisplayValue": "maxime",
+        "TooltipHint": "libero",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "impedit",
-    "StyleHint": "mollitia",
+    "LinkHint": "quisquam",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 701
       }
     }
   }

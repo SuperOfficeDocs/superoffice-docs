@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 350,
-  "Name": "Nicolas-Larkin",
-  "ContentType": "incidunt",
-  "AttSize": 836,
+  "AttachmentId": 215,
+  "Name": "Larson-Kozey",
+  "ContentType": "ut",
+  "AttSize": 368,
   "InlineImage": false,
-  "ContentId": "autem",
-  "AuthKey": "et",
-  "IsSafeFileExtension": true
+  "ContentId": "hic",
+  "AuthKey": "est",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 480,
-  "Name": "Wuckert-Kuhn",
-  "ContentType": "qui",
-  "AttSize": 141,
-  "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "mollitia",
+  "AttachmentId": 329,
+  "Name": "Olson Inc and Sons",
+  "ContentType": "saepe",
+  "AttSize": 885,
+  "InlineImage": true,
+  "ContentId": "voluptatibus",
+  "AuthKey": "ullam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 621
     }
   }
 }

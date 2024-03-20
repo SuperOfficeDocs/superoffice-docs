@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 755,
-  "Name": "Boehm, Keeling and Hegmann",
+  "SelectionId": 342,
+  "Name": "Kuhn Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory even-keeled customer loyalty",
-  "Postit": "est",
+  "Description": "Implemented non-volatile emulation",
+  "Postit": "quisquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 81,
-  "IncludePerson": 802,
-  "MemberCount": 678,
-  "Name": "Stokes-Bernier",
-  "PostitTextId": 579,
-  "CreatedDate": "1997-06-08T14:23:47.3942558+02:00",
-  "SelectionId": 790,
-  "SoundEx": "iusto",
-  "Source": 274,
-  "TextId": 297,
-  "UpdatedDate": "1998-04-18T14:23:47.3942558+02:00",
-  "UpdatedCount": 865,
-  "Visibility": 94,
+  "GroupIdx": 975,
+  "IncludePerson": 162,
+  "MemberCount": 258,
+  "Name": "Orn, Hirthe and Parker",
+  "PostitTextId": 751,
+  "CreatedDate": "2019-11-09T12:19:46.2576612+01:00",
+  "SelectionId": 121,
+  "SoundEx": "quod",
+  "Source": 164,
+  "TextId": 664,
+  "UpdatedDate": "2010-12-15T12:19:46.2576612+01:00",
+  "UpdatedCount": 403,
+  "Visibility": 946,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 383,
-  "TargetTableName": "Sipes, Runte and Predovic",
-  "Completed": false,
-  "LeftSelectionId": 436,
-  "RightSelectionId": 142,
+  "TargetTableNumber": 177,
+  "TargetTableName": "Rice LLC",
+  "Completed": true,
+  "LeftSelectionId": 51,
+  "RightSelectionId": 434,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Runolfsdottir-Nikolaus",
-  "ShadowProviderName": "Hagenes-Sporer",
-  "ChartKey": "numquam",
-  "LastLoaded": "2021-03-24T14:23:47.3942558+01:00",
-  "LastLoadedBy": 197,
+  "MainProviderName": "Wolff, Abernathy and Carroll",
+  "ShadowProviderName": "Larson-Kuvalis",
+  "ChartKey": "molestiae",
+  "LastLoaded": "2019-07-26T12:19:46.2576612+02:00",
+  "LastLoadedBy": 261,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-02-11T14:23:47.3942558+01:00",
-  "LastMembershipChangeBy": 647,
+  "LastMembershipChange": "2007-05-04T12:19:46.2576612+02:00",
+  "LastMembershipChangeBy": 539,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "repellat",
-  "MemberTabHeading": "nam",
-  "MailingsProviderName": "Wisoky-Haag",
-  "DashboardTileDefinitionId": 589,
+  "MainHeading": "sit",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Green, Bartell and Bogisich",
+  "DashboardTileDefinitionId": 410,
   "VisibleFor": [
     {
-      "VisibleId": 470,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 693
         }
       }
     },
     {
-      "VisibleId": 470,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 693
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 224
     }
   }
 }

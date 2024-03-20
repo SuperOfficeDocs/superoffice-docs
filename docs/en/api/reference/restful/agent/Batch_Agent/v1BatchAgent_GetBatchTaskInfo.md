@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47
+  "Id": 961
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "Name": "Donnelly-Jakubowski",
-  "AssociateId": 432,
-  "DetailsTable": 519,
-  "DetailsRecord": 837,
+  "Id": 895,
+  "Name": "Ritchie-Beer",
+  "AssociateId": 586,
+  "DetailsTable": 395,
+  "DetailsRecord": 424,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "distinctio",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "velit",
+    "ParameterObject2": "quae"
   },
-  "LastStarted": "2011-07-24T14:23:45.8762101+02:00",
-  "Created": "2001-04-20T14:23:45.8762101+02:00",
-  "StartCount": 732,
-  "DatabaseSerialNumber": "1155299",
-  "Context": "in",
-  "Result": "unde",
+  "LastStarted": "2003-09-06T12:19:44.5080652+02:00",
+  "Created": "2004-12-14T12:19:44.5080652+01:00",
+  "StartCount": 546,
+  "DatabaseSerialNumber": "671024",
+  "Context": "nostrum",
+  "Result": "incidunt",
   "State": "All",
-  "Description": "Reactive user-facing time-frame",
-  "Response": "earum",
-  "Request": "ea",
-  "ProgressDescription": "User-friendly heuristic core",
-  "ProgressPercent": 9,
-  "FileName": "Schmitt, Shanahan and Ebert",
+  "Description": "Devolved mobile structure",
+  "Response": "facere",
+  "Request": "sint",
+  "ProgressDescription": "Seamless motivating conglomeration",
+  "ProgressPercent": 803,
+  "FileName": "Osinski-Sanford",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 445
     }
   }
 }

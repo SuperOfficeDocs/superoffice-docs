@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 544,
-  "PlainMessage": "vel",
-  "HtmlMessage": "enim",
-  "SmsMessage": "ut",
-  "Description": "Distributed asynchronous capability",
-  "Subject": "ut",
-  "FolderId": 320,
-  "HeaderField": "impedit",
-  "Design": "distinctio",
+  "ShipmentMessageId": 142,
+  "PlainMessage": "necessitatibus",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "doloremque",
+  "Description": "Customizable explicit definition",
+  "Subject": "pariatur",
+  "FolderId": 924,
+  "HeaderField": "aut",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "User-friendly contextually-based emulation",
-  "AccessKey": "saepe",
-  "DocumentMessage": 858,
-  "Registered": "2019-05-04T14:23:46.9098888+02:00",
-  "RegisteredAssociateId": 916,
-  "Updated": "2002-03-25T14:23:46.9098888+01:00",
-  "UpdatedAssociateId": 882,
-  "UpdatedCount": 207
+  "LongDescription": "Optional client-server pricing structure",
+  "AccessKey": "cumque",
+  "DocumentMessage": 706,
+  "Registered": "2023-01-31T12:19:45.585943+01:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "1998-06-13T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 906,
+  "UpdatedCount": 625
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 169,
-  "PlainMessage": "mollitia",
-  "HtmlMessage": "sit",
-  "SmsMessage": "suscipit",
-  "Description": "Exclusive responsive pricing structure",
-  "Subject": "molestiae",
-  "FolderId": 282,
-  "HeaderField": "perferendis",
-  "Design": "dolores",
+  "ShipmentMessageId": 989,
+  "PlainMessage": "aliquam",
+  "HtmlMessage": "soluta",
+  "SmsMessage": "et",
+  "Description": "Reduced value-added initiative",
+  "Subject": "qui",
+  "FolderId": 878,
+  "HeaderField": "odit",
+  "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Polarised modular infrastructure",
-  "AccessKey": "ut",
-  "DocumentMessage": 913,
-  "Registered": "2007-03-19T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 545,
-  "Updated": "2010-04-17T14:23:46.9098888+02:00",
-  "UpdatedAssociateId": 725,
-  "UpdatedCount": 989,
+  "LongDescription": "Reverse-engineered value-added solution",
+  "AccessKey": "quis",
+  "DocumentMessage": 124,
+  "Registered": "2018-11-06T12:19:45.585943+01:00",
+  "RegisteredAssociateId": 827,
+  "Updated": "2011-12-25T12:19:45.585943+01:00",
+  "UpdatedAssociateId": 844,
+  "UpdatedCount": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 685
     }
   }
 }

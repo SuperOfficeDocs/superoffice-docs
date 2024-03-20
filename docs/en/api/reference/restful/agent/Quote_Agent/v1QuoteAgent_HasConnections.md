@@ -80,18 +80,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "nulla",
-  "TechExplanation": "eos",
-  "ErrorCode": "vel",
+  "IsOk": false,
+  "UserExplanation": "officiis",
+  "TechExplanation": "reprehenderit",
+  "ErrorCode": "consequuntur",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

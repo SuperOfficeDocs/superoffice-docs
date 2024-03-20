@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Larkin, Wintheiser and Gulgowski",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "UdListDefinitionId": 572,
-  "Rank": 507,
+  "Id": 426,
+  "Name": "Turcotte Group",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "UdListDefinitionId": 679,
+  "Rank": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

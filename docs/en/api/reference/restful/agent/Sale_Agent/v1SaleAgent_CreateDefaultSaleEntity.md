@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nihil",
+  "SaleText": "ducimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-12-17T14:23:47.3161332+01:00",
-  "Amount": 8652.974,
-  "SaleId": 340,
-  "Earning": 7587.414,
-  "EarningPercent": 17164.917999999998,
-  "Heading": "nisi",
-  "Number": "1415803",
-  "Probability": 462,
-  "CreatedDate": "2000-10-13T14:23:47.3161332+02:00",
-  "UpdatedDate": "2023-09-20T14:23:47.3161332+02:00",
+  "Saledate": "2016-08-02T12:19:46.1639363+02:00",
+  "Amount": 27851.858,
+  "SaleId": 553,
+  "Earning": 27478.912,
+  "EarningPercent": 7646.96,
+  "Heading": "hic",
+  "Number": "1707976",
+  "Probability": 623,
+  "CreatedDate": "2009-03-13T12:19:46.1639363+01:00",
+  "UpdatedDate": "2001-12-14T12:19:46.1639363+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 888,
+  "ActiveLinks": 622,
   "Links": [
     {
-      "EntityName": "Koelpin LLC",
-      "Id": 819,
-      "Description": "Secured neutral migration",
-      "ExtraInfo": "qui",
-      "LinkId": 920,
+      "EntityName": "Wiza, Braun and Schinner",
+      "Id": 406,
+      "Description": "Universal interactive conglomeration",
+      "ExtraInfo": "sit",
+      "LinkId": 641,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldType": "System.String",
+          "FieldLength": 938
         }
       }
     }
   ],
-  "NextDueDate": "2010-01-26T14:23:47.3161332+01:00",
-  "Postit": "et",
+  "NextDueDate": "2013-01-30T12:19:46.1639363+01:00",
+  "Postit": "eos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-02-26T14:23:47.3161332+01:00",
+  "ReopenDate": "2009-12-06T12:19:46.1639363+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Crona, Weimann and Abshire",
-      "Comment": "temporibus",
-      "StakeholderRoleId": 372,
-      "CountryId": 786,
-      "PersonId": 555,
-      "EmailDescription": "jayde@white.us",
-      "EmailId": 7,
-      "EmailAddress": "jess@ornstamm.com",
-      "PhoneId": 605,
-      "ContactName": "Kemmer-Fay",
-      "ContactId": 275,
-      "SaleId": 180,
-      "Mrmrs": "ut",
-      "Firstname": "Genesis",
-      "MiddleName": "Jast, Gaylord and Rempel",
-      "Lastname": "Sauer",
-      "SaleStakeholderId": 654,
-      "Rank": 588,
-      "Phone": "182.999.3359 x94963",
+      "StakeholderRoleName": "Wiza, Beer and Koepp",
+      "Comment": "unde",
+      "StakeholderRoleId": 617,
+      "CountryId": 250,
+      "PersonId": 209,
+      "EmailDescription": "chanel@douglasdare.info",
+      "EmailId": 38,
+      "EmailAddress": "fabiola.lynch@kuhn.ca",
+      "PhoneId": 460,
+      "ContactName": "Koelpin, Kerluke and Leffler",
+      "ContactId": 321,
+      "SaleId": 891,
+      "Mrmrs": "dolores",
+      "Firstname": "Nathan",
+      "MiddleName": "Block-Boehm",
+      "Lastname": "Littel",
+      "SaleStakeholderId": 375,
+      "Rank": 257,
+      "Phone": "818-997-0937 x1966",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldType": "System.String",
+          "FieldLength": 429
         }
       }
     }
   ],
-  "ActiveErpLinks": 894,
+  "ActiveErpLinks": 530,
   "UserDefinedFields": {
-    "SuperOffice:1": "Tito VonRueden",
-    "SuperOffice:2": "735983218"
+    "SuperOffice:1": "Glenna Cummerata",
+    "SuperOffice:2": "Israel Rolfson Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "1997-01-23T14:23:47.3161332+01:00",
-  "PublishTo": "1998-11-06T14:23:47.3161332+01:00",
-  "PublishFrom": "2017-10-02T14:23:47.3161332+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-11-06T12:19:46.1639363+01:00",
+  "PublishTo": "2018-08-29T12:19:46.1639363+02:00",
+  "PublishFrom": "2014-07-14T12:19:46.1639363+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 677,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 131
         }
       }
     },
     {
-      "VisibleId": 677,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 131
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

@@ -117,24 +117,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 257,
-  "Section": "quaerat",
-  "Key": "voluptas",
-  "Name": "Cruickshank Inc and Sons",
+  "PrefDescId": 544,
+  "Section": "quis",
+  "Key": "ea",
+  "Name": "Hackett Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line responsive pricing structure",
+  "Description": "Enhanced bifurcated solution",
   "IsBuiltin": true,
-  "TableName": "Upton, Swaniawski and Rogahn",
-  "UserDefinedListId": 940,
-  "Rank": 49,
-  "SubGroup": "vitae",
-  "MinLevel": 573,
-  "MaxValue": 938,
-  "MinValue": 670,
-  "RequiredLicense": "odit"
+  "TableName": "Homenick Group",
+  "UserDefinedListId": 695,
+  "Rank": 91,
+  "SubGroup": "consequatur",
+  "MinLevel": 420,
+  "MaxValue": 696,
+  "MinValue": 847,
+  "RequiredLicense": "est"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 7,
-  "Section": "facilis",
-  "Key": "rerum",
-  "Name": "Smitham, Witting and Stamm",
+  "PrefDescId": 98,
+  "Section": "suscipit",
+  "Key": "nostrum",
+  "Name": "Mayert-Johns",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile dynamic strategy",
+  "Description": "Customizable methodical complexity",
   "IsBuiltin": false,
-  "TableName": "Reichert, Schimmel and Crona",
-  "UserDefinedListId": 90,
-  "Rank": 485,
-  "SubGroup": "quae",
-  "MinLevel": 27,
-  "MaxValue": 903,
-  "MinValue": 11,
-  "RequiredLicense": "ad",
+  "TableName": "Effertz Group",
+  "UserDefinedListId": 52,
+  "Rank": 342,
+  "SubGroup": "et",
+  "MinLevel": 30,
+  "MaxValue": 991,
+  "MinValue": 415,
+  "RequiredLicense": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   },
   "_Links": {

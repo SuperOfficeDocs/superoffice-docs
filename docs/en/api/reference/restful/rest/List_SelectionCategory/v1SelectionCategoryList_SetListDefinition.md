@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 606,
-  "Name": "Strosin LLC",
-  "Tooltip": "corporis",
+  "Id": 773,
+  "Name": "Bayer Group",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 705,
-  "IsCustomList": false,
+  "Rank": 302,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Kuphal, Borer and Grady",
-  "Tooltip": "magnam",
+  "Id": 803,
+  "Name": "Littel, Okuneva and Ratke",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 47,
+  "Rank": 526,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldLength": 45
     }
   }
 }

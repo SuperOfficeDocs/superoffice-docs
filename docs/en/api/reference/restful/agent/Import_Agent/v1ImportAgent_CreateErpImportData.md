@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Robel-Powlowski",
-      "Operator": "nam",
+      "Name": "Doyle Group",
+      "Operator": "hic",
       "Values": [
-        "sit",
-        "fuga"
+        "eum",
+        "dolores"
       ],
       "DisplayValues": [
-        "similique",
-        "in"
+        "consequatur",
+        "ratione"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 695,
+      "InterParenthesis": 676,
       "InterOperator": "And",
-      "UniqueHash": 532
+      "UniqueHash": 820
     }
   ],
   "Columns": [
-    "voluptatem",
-    "tempora"
+    "pariatur",
+    "ipsam"
   ],
-  "ConnectionId": 376,
+  "ConnectionId": 103,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "laudantium",
-        "est"
+        "ab",
+        "qui"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "omnis",
+      "ExternalKey": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldType": "System.Int32",
+          "FieldLength": 537
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Wehner-Runolfsson",
-      "DisplayName": "Skiles, Ondricka and Rempel",
+      "Name": "Nader-Adams",
+      "DisplayName": "Kunde Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     },
     {
-      "Name": "Wehner-Runolfsson",
-      "DisplayName": "Skiles, Ondricka and Rempel",
+      "Name": "Nader-Adams",
+      "DisplayName": "Kunde Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

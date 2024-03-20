@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 443,
+  "TargetDimensionId": 828,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "non",
-  "DimensionListName": "Senger-Jones",
-  "DimensionListId": 709,
-  "DimensionListLabel": "cumque",
+  "DimensionListField": "corporis",
+  "DimensionListName": "Feil Inc and Sons",
+  "DimensionListId": 825,
+  "DimensionListLabel": "deleniti",
   "SelectedDimensions": [
-    702,
-    645
+    109,
+    144
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 475
     }
   }
 }

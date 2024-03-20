@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 189,
-  "Name": "Greenfelder Inc and Sons",
-  "Tooltip": "soluta",
-  "Rank": 264,
-  "Rate": 24335.51,
-  "Units": 5700.746,
-  "Deleted": false,
+  "CurrencyId": 799,
+  "Name": "Hansen-Spencer",
+  "Tooltip": "voluptatum",
+  "Rank": 546,
+  "Rate": 21972.474,
+  "Units": 15453.753999999999,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 486
     }
   }
 }

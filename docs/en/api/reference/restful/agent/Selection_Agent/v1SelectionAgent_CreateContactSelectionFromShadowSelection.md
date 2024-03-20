@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 617,
-  "Name": "Sauer-Rice"
+  "SelectionId": 833,
+  "Name": "Satterfield-Kassulke"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated logistical challenge",
-  "Postit": "tempora",
+  "Description": "Programmable neutral analyzer",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 51,
-  "IncludePerson": 132,
-  "MemberCount": 394,
-  "Name": "Bartoletti, Anderson and Ledner",
-  "PostitTextId": 52,
-  "CreatedDate": "1997-03-17T14:23:47.4411323+01:00",
-  "SelectionId": 306,
-  "SoundEx": "a",
-  "Source": 98,
-  "TextId": 919,
-  "UpdatedDate": "2023-10-08T14:23:47.4411323+02:00",
-  "UpdatedCount": 41,
-  "Visibility": 640,
+  "GroupIdx": 457,
+  "IncludePerson": 355,
+  "MemberCount": 235,
+  "Name": "Hettinger LLC",
+  "PostitTextId": 835,
+  "CreatedDate": "2017-06-13T12:19:46.2889068+02:00",
+  "SelectionId": 35,
+  "SoundEx": "ut",
+  "Source": 592,
+  "TextId": 453,
+  "UpdatedDate": "2012-10-02T12:19:46.2889068+02:00",
+  "UpdatedCount": 460,
+  "Visibility": 413,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 360,
-  "TargetTableName": "Kirlin-Renner",
-  "Completed": true,
-  "LeftSelectionId": 645,
-  "RightSelectionId": 165,
+  "TargetTableNumber": 855,
+  "TargetTableName": "Herman-Feeney",
+  "Completed": false,
+  "LeftSelectionId": 860,
+  "RightSelectionId": 58,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Raynor LLC",
-  "ShadowProviderName": "Legros, Keebler and Brekke",
-  "ChartKey": "possimus",
-  "LastLoaded": "2022-06-22T14:23:47.4411323+02:00",
-  "LastLoadedBy": 961,
+  "MainProviderName": "Brekke, Denesik and Fay",
+  "ShadowProviderName": "Weber, Dickinson and Reichel",
+  "ChartKey": "id",
+  "LastLoaded": "2009-02-27T12:19:46.2889068+01:00",
+  "LastLoadedBy": 412,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-11-06T14:23:47.4411323+01:00",
-  "LastMembershipChangeBy": 927,
+  "LastMembershipChange": "2015-10-20T12:19:46.2889068+02:00",
+  "LastMembershipChangeBy": 50,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aperiam",
-  "MemberTabHeading": "laboriosam",
-  "MailingsProviderName": "Williamson, Altenwerth and Dickinson",
-  "DashboardTileDefinitionId": 217,
+  "MainHeading": "natus",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Runte, Boehm and Kautzer",
+  "DashboardTileDefinitionId": 869,
   "VisibleFor": [
     {
-      "VisibleId": 811,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     },
     {
-      "VisibleId": 811,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 734
     }
   }
 }

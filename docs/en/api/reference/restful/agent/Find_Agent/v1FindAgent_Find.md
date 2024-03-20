@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Marquardt-Cormier",
-  "StorageKey": "aut",
-  "PageSize": 954,
-  "PageNumber": 791
+  "StorageType": "sed",
+  "ProviderName": "Goyette, Mann and Cronin",
+  "StorageKey": "soluta",
+  "PageSize": 515,
+  "PageNumber": 487
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Feest, Robel and Rice",
-      "DisplayTooltip": "voluptatibus",
-      "DisplayType": "sunt",
+      "DisplayName": "Deckow Inc and Sons",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Hickle, Corkery and Kris",
+      "Name": "Little LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "natus",
-      "RestrictionListName": "Windler, Cartwright and D'Amore",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "impedit",
-      "IconHint": "nisi",
-      "HeadingIconHint": "blanditiis"
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Wolf Group",
+      "IsVisible": false,
+      "ExtraInfo": "magni",
+      "Width": "dolores",
+      "IconHint": "error",
+      "HeadingIconHint": "provident"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Romaguera-Brown",
-      "PrimaryKey": 851,
+      "EntityName": "Keeling Group",
+      "PrimaryKey": 380,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "earum",
-          "LinkHint": "vel"
+          "DisplayValue": "quia",
+          "TooltipHint": "esse",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "possimus",
+      "LinkHint": "at",
+      "StyleHint": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldType": "System.String",
+          "FieldLength": 708
         }
       }
     }
   ],
-  "RowCount": 801,
+  "RowCount": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 965
     }
   }
 }

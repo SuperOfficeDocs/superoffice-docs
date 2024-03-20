@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 662
+  "ProjectId": 447
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "voluptates",
-  "SignOffText": "cum",
-  "SignOnConfirmationText": "quidem",
-  "SignOnText": "dolorem",
-  "EventDate": "2007-08-05T14:23:47.1755092+02:00",
+  "SignOffConfirmationText": "ad",
+  "SignOffText": "quaerat",
+  "SignOnConfirmationText": "ea",
+  "SignOnText": "modi",
+  "EventDate": "2008-12-15T12:19:46.0233436+01:00",
   "Enabled": false,
-  "CreatedDate": "2019-03-31T14:23:47.1755092+02:00",
+  "CreatedDate": "2007-08-30T12:19:46.0233436+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 162,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 816,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 156,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 730,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-07-28T14:23:47.1755092+02:00",
+  "UpdatedDate": "2012-09-28T12:19:46.0233436+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 282,
-  "Id": 565,
-  "PublishFrom": "2020-04-27T14:23:47.1755092+02:00",
+  "ProjectId": 881,
+  "Id": 304,
+  "PublishFrom": "2007-10-07T12:19:46.0233436+02:00",
   "PublishType": "External",
-  "PublishTo": "2009-12-31T14:23:47.1755092+01:00",
+  "PublishTo": "2012-11-29T12:19:46.0233436+01:00",
   "VisibleForCategories": [
     {
-      "Id": 358,
-      "Name": "Boyle-Feil",
-      "ToolTip": "Eaque rem id dolore et fugiat.",
-      "Deleted": true,
-      "Rank": 707,
-      "Type": "enim",
+      "Id": 263,
+      "Name": "Kovacek Inc and Sons",
+      "ToolTip": "Molestiae eos vero.",
+      "Deleted": false,
+      "Rank": 325,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "et",
-      "ColorBlock": 914,
-      "ExtraInfo": "eaque",
-      "StyleHint": "consequuntur",
-      "FullName": "Kory Shanahan",
+      "ColorBlock": 848,
+      "ExtraInfo": "labore",
+      "StyleHint": "neque",
+      "FullName": "Jordy Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 642
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 622,
-      "Name": "Johns, Miller and Baumbach",
-      "ToolTip": "Officia saepe qui dignissimos.",
+      "Id": 470,
+      "Name": "Wyman Group",
+      "ToolTip": "Quam nihil.",
       "Deleted": true,
-      "Rank": 508,
-      "Type": "cum",
+      "Rank": 629,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 560,
-      "ExtraInfo": "voluptates",
-      "StyleHint": "beatae",
-      "FullName": "Johnathan Nienow",
+      "IconHint": "ipsam",
+      "ColorBlock": 678,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "est",
+      "FullName": "Christine Hamill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldType": "System.String",
+          "FieldLength": 1001
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 232,
+  "ProjectEventId": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   }
 }

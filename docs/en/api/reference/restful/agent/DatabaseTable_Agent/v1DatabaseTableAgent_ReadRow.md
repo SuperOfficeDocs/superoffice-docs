@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abernathy, Murray and Labadie",
-  "Id": 222
+  "TableName": "Haag Group",
+  "Id": 796
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "consequatur",
-    "Values2": "possimus"
+    "Values1": "dignissimos",
+    "Values2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 210
+      "FieldType": "System.Int32",
+      "FieldLength": 321
     }
   }
 }

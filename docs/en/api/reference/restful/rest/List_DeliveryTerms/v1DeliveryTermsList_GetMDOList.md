@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=expedita
+GET /api/v1/List/DeliveryTerm/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Schmidt, Leannon and Pollich",
-    "ToolTip": "Placeat quis.",
+    "Id": 622,
+    "Name": "Considine LLC",
+    "ToolTip": "Beatae odio.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "sit",
+    "Rank": 720,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Hamill LLC",
-        "ToolTip": "Aut voluptate consequuntur dolorem blanditiis praesentium expedita.",
+        "Id": 767,
+        "Name": "Lindgren, Heathcote and Moen",
+        "ToolTip": "Sed exercitationem.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "aut",
+        "Rank": 907,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 867,
-        "ExtraInfo": "aliquid",
-        "StyleHint": "nihil",
-        "FullName": "Mr. Margaret Alejandra Anderson",
+        "IconHint": "rerum",
+        "ColorBlock": 422,
+        "ExtraInfo": "aut",
+        "StyleHint": "id",
+        "FullName": "Oma Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 219,
-    "ExtraInfo": "quos",
-    "StyleHint": "impedit",
-    "FullName": "Brenden Murray",
+    "IconHint": "culpa",
+    "ColorBlock": 672,
+    "ExtraInfo": "facere",
+    "StyleHint": "culpa",
+    "FullName": "Ettie Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 868
       }
     }
   }

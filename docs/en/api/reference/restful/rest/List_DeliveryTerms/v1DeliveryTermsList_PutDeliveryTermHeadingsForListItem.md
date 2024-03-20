@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Frami LLC",
-    "ToolTip": "Molestiae provident nihil molestiae.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "ab",
-    "ColorBlock": 303,
-    "IconHint": "suscipit",
+    "Id": 166,
+    "Name": "Wintheiser-Mohr",
+    "ToolTip": "Beatae laboriosam est ut veritatis adipisci.",
+    "Deleted": true,
+    "Rank": 699,
+    "Type": "repellendus",
+    "ColorBlock": 845,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2023-04-19T14:23:56.0720758+02:00",
+    "LastChanged": "2011-11-04T12:19:54.4146752+01:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Breitenberg LLC",
-        "ToolTip": "Eos pariatur magni odio ipsam recusandae distinctio.",
-        "Deleted": true,
-        "Rank": 815,
-        "Type": "vitae",
-        "ColorBlock": 136,
-        "IconHint": "quis",
+        "Id": 349,
+        "Name": "Lowe Group",
+        "ToolTip": "Tempore vero voluptatem nemo voluptatem neque placeat quasi.",
+        "Deleted": false,
+        "Rank": 746,
+        "Type": "officiis",
+        "ColorBlock": 888,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-08-30T14:23:56.0720758+02:00",
+        "LastChanged": "2008-01-26T12:19:54.4146752+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Anna Brakus"
+        "ExtraInfo": "autem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Eldridge Torp"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Prof. Reed Sigurd Kub PhD"
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Kathleen Hans Paucek Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Beatty, Nicolas and Deckow",
-    "ToolTip": "Et illum.",
-    "Deleted": true,
-    "Rank": 178,
-    "Type": "exercitationem",
-    "ColorBlock": 857,
-    "IconHint": "dolorem",
+    "Id": 472,
+    "Name": "Thompson LLC",
+    "ToolTip": "Dolore sunt est expedita qui voluptatem ipsum illo.",
+    "Deleted": false,
+    "Rank": 821,
+    "Type": "repudiandae",
+    "ColorBlock": 594,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2012-04-12T14:23:56.0720758+02:00",
+    "LastChanged": "2021-05-23T12:19:54.4146752+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "O'Reilly, Nikolaus and Lakin",
-        "ToolTip": "Quis velit et iste delectus tenetur.",
+        "Id": 442,
+        "Name": "Hilll LLC",
+        "ToolTip": "Est corrupti aut qui.",
         "Deleted": false,
-        "Rank": 241,
-        "Type": "aspernatur",
-        "ColorBlock": 750,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2008-09-07T14:23:56.0720758+02:00",
+        "Rank": 873,
+        "Type": "maiores",
+        "ColorBlock": 544,
+        "IconHint": "saepe",
+        "Selected": false,
+        "LastChanged": "1999-08-11T12:19:54.4146752+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "possimus",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Miss Cleora Keeling",
+        "FullName": "Jacquelyn Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldType": "System.String",
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Garfield Spencer",
+    "ExtraInfo": "vel",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Glennie Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 818
+        "FieldLength": 547
       }
     }
   }

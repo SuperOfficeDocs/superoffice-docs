@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 912,
-  "EmailAddress": "lucas.cummings@schulist.us",
+  "PersonId": 170,
+  "EmailAddress": "rylan_kuhic@bartellconsidine.uk",
   "SetAsPrimaryEmail": false
 }
 ```

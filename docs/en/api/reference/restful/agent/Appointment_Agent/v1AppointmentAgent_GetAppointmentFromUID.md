@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "aut"
+  "UID": "itaque"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-03-27T14:23:45.7980867+01:00",
-  "AppointmentId": 59,
-  "Description": "De-engineered empowering open architecture",
-  "Title": "voluptas",
-  "Agenda": "minus",
-  "InternalNotes": "totam",
-  "StartDate": "2014-10-31T14:23:45.7980867+01:00",
-  "EndDate": "2004-02-08T14:23:45.7980867+01:00",
+  "CreatedDate": "2007-08-06T12:19:44.4299516+02:00",
+  "AppointmentId": 498,
+  "Description": "Fully-configurable coherent definition",
+  "Title": "explicabo",
+  "Agenda": "dolores",
+  "InternalNotes": "aut",
+  "StartDate": "1997-05-11T12:19:44.4299516+02:00",
+  "EndDate": "2000-12-08T12:19:44.4299516+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 591,
+  "MotherId": 65,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-01-17T14:23:45.7980867+01:00",
+  "UpdatedDate": "2017-12-04T12:19:44.4455716+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 766,
+  "ActiveLinks": 761,
   "Links": [
     {
-      "EntityName": "Barrows LLC",
-      "Id": 939,
-      "Description": "Reverse-engineered scalable benchmark",
-      "ExtraInfo": "fugiat",
-      "LinkId": 750,
+      "EntityName": "Haley, Ziemann and Bosco",
+      "Id": 482,
+      "Description": "Multi-tiered foreground support",
+      "ExtraInfo": "nemo",
+      "LinkId": 627,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 527
         }
       }
     }
   ],
-  "AlarmLeadTime": "fuga",
-  "HasAlarm": false,
-  "ColorIndex": 882,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "autem",
-  "LeadTime": "eos",
-  "Location": "cum",
-  "RejectCounter": 878,
+  "AlarmLeadTime": "odit",
+  "HasAlarm": true,
+  "ColorIndex": 171,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "occaecati",
+  "LeadTime": "ex",
+  "Location": "recusandae",
+  "RejectCounter": 569,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 593,
-      "PersonId": 713,
-      "ContactId": 493,
-      "EmailId": 163,
-      "SendEmail": false,
+      "AssociateId": 261,
+      "PersonId": 292,
+      "ContactId": 279,
+      "EmailId": 83,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lauryn@larson.co.uk",
-      "Description": "Reverse-engineered coherent matrix"
+      "EmailAddress": "richie@anderson.ca",
+      "Description": "Compatible stable adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-05-28T14:23:45.7980867+02:00",
+  "ActiveDate": "1997-03-01T12:19:44.4455716+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 503,
+  "PreferredTZLocation": 428,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 81,
+  "SuggestedAppointmentId": 18,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "impedit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ewald Rutherford",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Miss Nona Romaguera I",
+    "SuperOffice:2": "1549251625"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "error"
+    "CustomFields1": "laborum",
+    "CustomFields2": "voluptate"
   },
-  "PublishEventDate": "1998-01-09T14:23:45.7980867+01:00",
-  "PublishTo": "2001-01-21T14:23:45.7980867+01:00",
-  "PublishFrom": "2016-11-04T14:23:45.7980867+01:00",
+  "PublishEventDate": "2009-02-17T12:19:44.4455716+01:00",
+  "PublishTo": "2002-10-12T12:19:44.4455716+02:00",
+  "PublishFrom": "2011-12-09T12:19:44.4455716+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 259,
+      "VisibleId": 779,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 625
         }
       }
     },
     {
-      "VisibleId": 259,
+      "VisibleId": 779,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 625
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

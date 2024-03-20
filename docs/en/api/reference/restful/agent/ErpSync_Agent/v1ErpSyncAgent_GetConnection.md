@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 834
+  "ErpConnectionId": 342
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 555,
-  "ErpConnectorId": 510,
-  "DisplayName": "Considine, Kautzer and Gutkowski",
-  "DisplayDescription": "Function-based value-added process improvement",
+  "ErpConnectionId": 317,
+  "ErpConnectorId": 613,
+  "DisplayName": "Dare Inc and Sons",
+  "DisplayDescription": "Quality-focused didactic budgetary management",
   "Active": false,
-  "ConnectionId": "velit",
-  "MostRecentTimestamp": "laudantium",
+  "ConnectionId": "quo",
+  "MostRecentTimestamp": "cumque",
   "ConfigFields": {
-    "ConfigFields1": "eveniet",
-    "ConfigFields2": "libero"
+    "ConfigFields1": "est",
+    "ConfigFields2": "magnam"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    98,
-    753
+    71,
+    496
   ],
   "AssociateAccessIds": [
-    608,
-    947
+    410,
+    446
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 745
     }
   }
 }

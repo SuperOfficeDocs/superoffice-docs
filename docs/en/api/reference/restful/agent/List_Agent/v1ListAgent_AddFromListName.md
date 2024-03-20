@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Reynolds, Rau and Hilll",
+  "UdListDefinitionName": "Conn LLC",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Jerde, Cummings and Hoppe",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 190,
-  "Rank": 698,
+  "Id": 550,
+  "Name": "Schinner Inc and Sons",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 170,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

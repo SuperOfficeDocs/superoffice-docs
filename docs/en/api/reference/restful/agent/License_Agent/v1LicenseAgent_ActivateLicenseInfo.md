@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": true,
-  "Reason": "maximize granular web services",
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldLength": 20
     }
   }
 }

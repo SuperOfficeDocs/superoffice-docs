@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 742,
-      "ContactName": "McLaughlin-Mayer",
-      "PersonId": 350,
-      "PersonName": "Little LLC",
-      "AssociateId": 964,
-      "Address": "praesentium",
-      "EmailId": 786,
+      "ContactId": 648,
+      "ContactName": "Mohr, Lockman and Kilback",
+      "PersonId": 757,
+      "PersonName": "Franecki-O'Conner",
+      "AssociateId": 919,
+      "Address": "est",
+      "EmailId": 30,
       "DuplicatePersonIds": [
-        854,
-        141
+        390,
+        65
       ],
-      "Name": "O'Keefe Group",
+      "Name": "Christiansen-Terry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldLength": 391
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 99,
-      "ContactName": "Simonis, Effertz and Towne",
-      "PersonId": 64,
-      "PersonName": "Lindgren Group",
-      "AssociateId": 854,
-      "Address": "sed",
-      "EmailId": 85,
+      "ContactId": 477,
+      "ContactName": "Littel-Schultz",
+      "PersonId": 379,
+      "PersonName": "Cartwright LLC",
+      "AssociateId": 259,
+      "Address": "culpa",
+      "EmailId": 112,
       "DuplicatePersonIds": [
-        315,
-        696
+        857,
+        284
       ],
-      "Name": "Mitchell Inc and Sons",
+      "Name": "Rodriguez, Hackett and Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 578
+          "FieldLength": 516
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 727,
-      "ContactName": "Towne-Leuschke",
-      "PersonId": 585,
-      "PersonName": "Windler LLC",
-      "AssociateId": 718,
-      "Address": "molestiae",
-      "EmailId": 99,
+      "ContactId": 909,
+      "ContactName": "Jerde LLC",
+      "PersonId": 4,
+      "PersonName": "Carroll Group",
+      "AssociateId": 561,
+      "Address": "esse",
+      "EmailId": 754,
       "DuplicatePersonIds": [
-        569,
-        288
+        7,
+        316
       ],
-      "Name": "Spencer, Roob and Spencer",
+      "Name": "Herzog, Senger and Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
   ],
-  "Subject": "tempore",
-  "HTMLBody": "reiciendis",
+  "Subject": "eaque",
+  "HTMLBody": "voluptas",
   "From": null,
-  "Sent": "2023-08-14T14:23:46.4543289+02:00",
-  "Size": 578,
+  "Sent": "2020-02-20T12:19:45.2422708+01:00",
+  "Size": 351,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "magnam",
-  "PlainBody": "neque",
-  "IsSent": false,
+  "MessageID": "beatae",
+  "PlainBody": "minima",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 214,
+  "ServerId": 197,
   "Attachments": [
     {
-      "Description": "Phased empowering synergy",
-      "Filename": "voluptates",
-      "Size": 71,
-      "Type": "quasi",
-      "Encoding": "ab",
-      "Id": "labore",
-      "Disposition": "enim",
+      "Description": "Realigned clear-thinking structure",
+      "Filename": "ut",
+      "Size": 867,
+      "Type": "vitae",
+      "Encoding": "non",
+      "Id": "eligendi",
+      "Disposition": "molestiae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 958
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Brown, Wiegand and Harber",
+      "Name": "Schoen LLC",
       "Values": [
-        "non",
-        "tenetur"
+        "tenetur",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 383
         }
       }
     },
     {
-      "Name": "Brown, Wiegand and Harber",
+      "Name": "Schoen LLC",
       "Values": [
-        "non",
-        "tenetur"
+        "tenetur",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 383
         }
       }
     }
   ],
-  "FolderName": "Fay Inc and Sons",
-  "EmailItemId": 698,
-  "AccountId": 641,
-  "ReceivedAt": "2017-05-06T14:23:46.4543289+02:00",
+  "FolderName": "Dicki Inc and Sons",
+  "EmailItemId": 609,
+  "AccountId": 699,
+  "ReceivedAt": "2000-12-06T12:19:45.2422708+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-01-05T14:23:46.4543289+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-09-05T12:19:45.2422708+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 953
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 185,
-  "Section": "quo",
-  "Key": "in",
-  "Name": "Fay-Conn",
+  "PrefDescId": 810,
+  "Section": "quod",
+  "Key": "unde",
+  "Name": "Kshlerin Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded discrete success",
+  "Description": "Expanded cohesive workforce",
   "IsBuiltin": false,
-  "TableName": "Fisher-Kessler",
-  "UserDefinedListId": 241,
-  "Rank": 548,
-  "SubGroup": "blanditiis",
-  "MinLevel": 142,
-  "MaxValue": 566,
-  "MinValue": 671,
-  "RequiredLicense": "dolorum",
+  "TableName": "Lang Inc and Sons",
+  "UserDefinedListId": 278,
+  "Rank": 413,
+  "SubGroup": "ducimus",
+  "MinLevel": 924,
+  "MaxValue": 594,
+  "MinValue": 32,
+  "RequiredLicense": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 25
     }
   },
   "_Links": {

@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quod",
+    "path": "iste",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quod",
+    "path": "iste",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 524,
-  "ERPPriceListKey": "possimus",
-  "QuoteConnectionId": 411,
-  "Name": "Gleason, Murphy and Hoppe",
-  "Description": "Re-contextualized attitude-oriented circuit",
-  "Currency": "ex",
-  "CurrencyName": "Legros LLC",
-  "ValidFrom": "2016-04-24T14:23:56.1814517+02:00",
-  "ValidTo": "2021-09-23T14:23:56.1814517+02:00",
-  "IsActive": true,
+  "PriceListId": 527,
+  "ERPPriceListKey": "suscipit",
+  "QuoteConnectionId": 359,
+  "Name": "Hagenes-Kuvalis",
+  "Description": "Programmable coherent encoding",
+  "Currency": "quia",
+  "CurrencyName": "Anderson-Hodkiewicz",
+  "ValidFrom": "2002-11-04T12:19:54.6646278+01:00",
+  "ValidTo": "2011-08-28T12:19:54.6646278+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

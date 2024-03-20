@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 677,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 261,
-  "Rank": 989
+  "Id": 848,
+  "Name": "Medhurst Group",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "UdListDefinitionId": 129,
+  "Rank": 75
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Purdy, Glover and Yundt",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 376,
-  "Rank": 667,
+  "Id": 115,
+  "Name": "Russel Group",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "UdListDefinitionId": 489,
+  "Rank": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

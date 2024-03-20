@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Rodriguez, Veum and Waelchi",
-  "AssociateId": 478,
-  "DetailsTable": 319,
-  "DetailsRecord": 442,
+  "Id": 961,
+  "Name": "Auer Group",
+  "AssociateId": 771,
+  "DetailsTable": 140,
+  "DetailsRecord": 337,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vitae",
-    "ParameterObject2": "et"
+    "ParameterObject1": "iste",
+    "ParameterObject2": "vel"
   },
-  "LastStarted": "2003-12-28T14:23:47.3005077+01:00",
-  "Created": "2023-08-28T14:23:47.3005077+02:00",
-  "StartCount": 89,
-  "DatabaseSerialNumber": "788058",
-  "Context": "natus",
-  "Result": "quam",
+  "LastStarted": "2014-04-27T12:19:46.1483123+02:00",
+  "Created": "2007-12-01T12:19:46.1483123+01:00",
+  "StartCount": 721,
+  "DatabaseSerialNumber": "473610",
+  "Context": "commodi",
+  "Result": "sed",
   "State": "All",
-  "Description": "Synchronised cohesive workforce",
-  "Response": "suscipit",
-  "Request": "quod",
-  "ProgressDescription": "Reactive non-volatile knowledge base",
-  "ProgressPercent": 140,
-  "FileName": "Hilpert Inc and Sons",
+  "Description": "Organized user-facing array",
+  "Response": "voluptates",
+  "Request": "nisi",
+  "ProgressDescription": "Compatible 4th generation instruction set",
+  "ProgressPercent": 69,
+  "FileName": "Mueller-Cummings",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

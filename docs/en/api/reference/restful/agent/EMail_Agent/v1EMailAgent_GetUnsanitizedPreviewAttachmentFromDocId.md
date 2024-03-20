@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 860,
-  "AttachmentId": "nihil"
+  "DocId": 972,
+  "AttachmentId": "delectus"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected scalable info-mediaries",
-  "Filename": "ipsa",
-  "Size": 569,
-  "Type": "ab",
-  "Encoding": "in",
-  "Id": "est",
-  "Disposition": "qui",
-  "IsSafeFileExtension": false,
+  "Description": "Customer-focused intermediate strategy",
+  "Filename": "ea",
+  "Size": 911,
+  "Type": "doloribus",
+  "Encoding": "ab",
+  "Id": "ut",
+  "Disposition": "sed",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 84
     }
   }
 }

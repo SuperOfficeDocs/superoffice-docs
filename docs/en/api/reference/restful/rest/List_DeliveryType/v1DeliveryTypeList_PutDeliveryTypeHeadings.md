@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 760,
-    "Name": "Gusikowski, Hane and Lueilwitz",
-    "Tooltip": "consequatur",
+    "HeadingId": 584,
+    "Name": "Barton Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 4
+    "Rank": 191,
+    "UdListDefinitionId": 537
   },
   {
-    "HeadingId": 760,
-    "Name": "Gusikowski, Hane and Lueilwitz",
-    "Tooltip": "consequatur",
+    "HeadingId": 584,
+    "Name": "Barton Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 4
+    "Rank": 191,
+    "UdListDefinitionId": 537
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "Beatty, Eichmann and Boyer",
-    "Tooltip": "qui",
+    "HeadingId": 400,
+    "Name": "Lehner Inc and Sons",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 690,
-    "UdListDefinitionId": 262,
+    "Rank": 336,
+    "UdListDefinitionId": 678,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 848
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

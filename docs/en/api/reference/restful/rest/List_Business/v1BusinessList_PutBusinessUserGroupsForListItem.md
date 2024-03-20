@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Dooley, VonRueden and Mayer",
-    "ToolTip": "Et autem quia.",
+    "Id": 768,
+    "Name": "Kunze, Hane and Towne",
+    "ToolTip": "Aut velit quia aperiam.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "ratione",
-    "ColorBlock": 214,
-    "IconHint": "rerum",
+    "Rank": 530,
+    "Type": "error",
+    "ColorBlock": 252,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2002-02-08T14:23:55.9627019+01:00",
+    "LastChanged": "2023-01-13T12:19:54.3053212+01:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Stracke LLC",
-        "ToolTip": "Rerum et consequatur quo qui.",
+        "Id": 393,
+        "Name": "Rempel-Brekke",
+        "ToolTip": "Qui provident consequatur amet necessitatibus id et voluptatem.",
         "Deleted": false,
-        "Rank": 776,
-        "Type": "animi",
-        "ColorBlock": 678,
-        "IconHint": "totam",
+        "Rank": 744,
+        "Type": "est",
+        "ColorBlock": 61,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2003-04-06T14:23:55.9627019+02:00",
+        "LastChanged": "2004-03-04T12:19:54.3053212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Dr. Meda Fredrick Daniel DDS"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Marcelino Friesen"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
+    "ExtraInfo": "ex",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Miss Lauriane Aufderhar"
+    "FullName": "Jerel Becker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Herman-Barton",
-    "ToolTip": "Corporis et assumenda ut ab.",
-    "Deleted": true,
-    "Rank": 185,
-    "Type": "atque",
-    "ColorBlock": 622,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2000-10-11T14:23:55.9627019+02:00",
+    "Id": 137,
+    "Name": "Parker-Cassin",
+    "ToolTip": "Quo animi libero numquam culpa.",
+    "Deleted": false,
+    "Rank": 756,
+    "Type": "natus",
+    "ColorBlock": 993,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-06-09T12:19:54.3053212+02:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Ward Group",
-        "ToolTip": "Autem ipsa.",
+        "Id": 327,
+        "Name": "Prosacco, Bashirian and Muller",
+        "ToolTip": "Amet distinctio.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "nihil",
-        "ColorBlock": 237,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2023-11-26T14:23:55.9627019+01:00",
+        "Rank": 917,
+        "Type": "autem",
+        "ColorBlock": 778,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2003-04-21T12:19:54.3053212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "velit",
+        "ExtraInfo": "odio",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Dr. Ulises Schmidt",
+        "FullName": "Christa Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 462
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "maiores",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Kiara Lynch",
+    "FullName": "Miss Novella Vicenta Goodwin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 728
       }
     }
   }

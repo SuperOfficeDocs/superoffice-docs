@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Wisozk Group",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "UdListDefinitionId": 903,
-  "Rank": 677,
+  "Id": 905,
+  "Name": "Lockman, Herman and Langworth",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 365,
+  "Rank": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 715
     }
   }
 }

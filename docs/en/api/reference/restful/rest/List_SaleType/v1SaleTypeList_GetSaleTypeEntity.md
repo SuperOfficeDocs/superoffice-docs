@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 988,
-  "Name": "Wiza, Rippin and Wuckert",
-  "Tooltip": "repellendus",
-  "Rank": 297,
+  "SaleTypeId": 317,
+  "Name": "Effertz, Erdman and Purdy",
+  "Tooltip": "reiciendis",
+  "Rank": 815,
   "DurationUnit": "Century",
-  "SaleDuration": 565,
-  "SaleTypeCatId": 445,
+  "SaleDuration": 748,
+  "SaleTypeCatId": 77,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 46,
-  "QuoteLinesTemplate": 486,
-  "ConfirmationLinesTemplate": 815,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 472,
-  "MinEarningPercent": 220,
-  "GroupQuoteLinesBy": 795,
-  "SortGroupLinesBy": 621,
+  "DefaultQuoteValidity": 3,
+  "QuoteLinesTemplate": 343,
+  "ConfirmationLinesTemplate": 351,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 895,
+  "MinEarningPercent": 803,
+  "GroupQuoteLinesBy": 514,
+  "SortGroupLinesBy": 16,
   "Stages": [
     {
-      "Id": 22,
-      "Name": "Prosacco LLC",
-      "ToolTip": "Mollitia nemo porro.",
+      "Id": 163,
+      "Name": "Lubowitz, Wilderman and Kautzer",
+      "ToolTip": "Nesciunt quis eius.",
       "Deleted": false,
-      "Rank": 782,
-      "Type": "tempore",
-      "ColorBlock": 223,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2000-02-24T14:23:56.3376983+01:00",
+      "Rank": 462,
+      "Type": "quibusdam",
+      "ColorBlock": 799,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2007-11-27T12:19:54.8364594+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "nostrum",
+      "ExtraInfo": "magnam",
+      "StyleHint": "incidunt",
       "Hidden": false,
-      "FullName": "Mrs. Kory Schaefer Sr.",
+      "FullName": "Connor Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 572
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 707
     }
   }
 }

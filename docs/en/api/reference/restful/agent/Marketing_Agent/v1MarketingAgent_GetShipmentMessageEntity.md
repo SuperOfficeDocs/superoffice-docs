@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=15
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=511
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 992,
-  "PlainMessage": "quo",
-  "HtmlMessage": "sunt",
-  "SmsMessage": "iusto",
-  "Description": "Open-architected user-facing knowledge user",
-  "Subject": "vitae",
-  "FolderId": 384,
-  "HeaderField": "et",
-  "Design": "vel",
+  "ShipmentMessageId": 92,
+  "PlainMessage": "aliquid",
+  "HtmlMessage": "magnam",
+  "SmsMessage": "illo",
+  "Description": "Vision-oriented eco-centric leverage",
+  "Subject": "omnis",
+  "FolderId": 352,
+  "HeaderField": "quia",
+  "Design": "a",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Innovative zero tolerance database",
-  "AccessKey": "cumque",
-  "DocumentMessage": 901,
-  "Registered": "2018-08-13T14:23:46.9255115+02:00",
-  "RegisteredAssociateId": 597,
-  "Updated": "2013-03-01T14:23:46.9255115+01:00",
-  "UpdatedAssociateId": 50,
-  "UpdatedCount": 299,
+  "LongDescription": "Focused bi-directional productivity",
+  "AccessKey": "nobis",
+  "DocumentMessage": 474,
+  "Registered": "2002-06-30T12:19:45.585943+02:00",
+  "RegisteredAssociateId": 613,
+  "Updated": "2015-11-21T12:19:45.585943+01:00",
+  "UpdatedAssociateId": 406,
+  "UpdatedCount": 636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

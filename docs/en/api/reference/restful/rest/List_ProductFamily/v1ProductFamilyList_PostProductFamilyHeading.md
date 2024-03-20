@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 965,
-  "Name": "Stanton, Bosco and Ruecker",
-  "Tooltip": "et",
+  "HeadingId": 493,
+  "Name": "Kirlin, Bashirian and Streich",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "Rank": 388,
-  "UdListDefinitionId": 892
+  "Rank": 561,
+  "UdListDefinitionId": 322
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 581,
-  "Name": "Kovacek Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 588,
-  "UdListDefinitionId": 918,
+  "HeadingId": 630,
+  "Name": "Dach-Hessel",
+  "Tooltip": "aliquam",
+  "Deleted": true,
+  "Rank": 865,
+  "UdListDefinitionId": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

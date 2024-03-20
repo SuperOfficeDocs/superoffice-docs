@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 349,
-  "StartDate": "1998-01-25T14:23:45.548125+01:00",
-  "EndDate": "1997-07-25T14:23:45.548125+02:00",
-  "RecurrenceCounter": 750,
+  "RecurrenceId": 785,
+  "StartDate": "2012-11-15T12:19:44.3049893+01:00",
+  "EndDate": "2010-10-27T12:19:44.3049893+02:00",
+  "RecurrenceCounter": 711,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-09-04T14:23:45.548125+02:00",
+      "Date": "2014-11-08T12:19:44.3049893+01:00",
       "IsConflict": false,
-      "Description": "Optional multimedia projection",
-      "DescriptionStyleHint": "Re-engineered well-modulated methodology",
-      "Tooltip": "eius"
+      "Description": "Exclusive national implementation",
+      "DescriptionStyleHint": "Business-focused holistic matrices",
+      "Tooltip": "aliquam"
     },
     {
-      "Date": "2010-09-04T14:23:45.548125+02:00",
+      "Date": "2014-11-08T12:19:44.3049893+01:00",
       "IsConflict": false,
-      "Description": "Optional multimedia projection",
-      "DescriptionStyleHint": "Re-engineered well-modulated methodology",
-      "Tooltip": "eius"
+      "Description": "Exclusive national implementation",
+      "DescriptionStyleHint": "Business-focused holistic matrices",
+      "Tooltip": "aliquam"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/16/2022 14:23:58
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/27/2017 14:23:58
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=807
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/10/2003 12:19:56
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=09/17/1999 12:19:56
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=113
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 80,
-  "ERPPriceListKey": "fugit",
-  "QuoteConnectionId": 746,
-  "Name": "Williamson, Bauch and Casper",
-  "Description": "Integrated context-sensitive protocol",
-  "Currency": "commodi",
-  "CurrencyName": "Ledner-Morissette",
-  "ValidFrom": "2002-10-17T14:23:56.1814517+02:00",
-  "ValidTo": "2022-02-09T14:23:56.1814517+01:00",
+  "PriceListId": 854,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 340,
+  "Name": "Kassulke, Ondricka and Kling",
+  "Description": "Robust bifurcated concept",
+  "Currency": "est",
+  "CurrencyName": "Stoltenberg-Cremin",
+  "ValidFrom": "2019-12-12T12:19:54.6802476+01:00",
+  "ValidTo": "2015-04-01T12:19:54.6802476+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 767
     }
   }
 }

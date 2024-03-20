@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 310
+  "QuoteVersionId": 49
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 516,
-    "ERPQuoteAlternativeKey": "culpa",
-    "QuoteVersionId": 896,
-    "Name": "Raynor, Schulist and Kris",
-    "Description": "Operative upward-trending capability",
+    "QuoteAlternativeId": 878,
+    "ERPQuoteAlternativeKey": "minima",
+    "QuoteVersionId": 139,
+    "Name": "Becker-Johns",
+    "Description": "Self-enabling needs-based utilisation",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 27497.716,
-    "ERPDiscountAmount": 2804.93,
-    "DiscountPercent": 10119.686,
-    "DiscountAmount": 27563.53,
+    "ERPDiscountPercent": 30202.358,
+    "ERPDiscountAmount": 4838.896,
+    "DiscountPercent": 9599.442,
+    "DiscountAmount": 5456.294,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "qui",
-    "VAT": 20797.224,
-    "EarningPercent": 23849.739999999998,
-    "EarningAmount": 10160.428,
-    "SubTotal": 29798.072,
-    "TotalPrice": 3043.114,
-    "ExtraField1": "aut",
-    "ExtraField2": "sit",
-    "ExtraField3": "eum",
-    "ExtraField4": "non",
-    "ExtraField5": "tempore",
+    "VATInfo": "itaque",
+    "VAT": 614.264,
+    "EarningPercent": 6079.96,
+    "EarningAmount": 26363.208,
+    "SubTotal": 2184.398,
+    "TotalPrice": 1162.714,
+    "ExtraField1": "dolores",
+    "ExtraField2": "atque",
+    "ExtraField3": "necessitatibus",
+    "ExtraField4": "blanditiis",
+    "ExtraField5": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 201
       }
     }
   }

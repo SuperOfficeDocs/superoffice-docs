@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 29 Nov 2005 14:23:55 G11T
+Last-Modified: Fri, 23 May 1997 12:19:53 G5T
 
 {
-  "ForeignAppId": 167,
-  "Name": "Hackett, Goldner and Ondricka",
-  "CreatedDate": "2017-01-16T14:23:55.1646464+01:00",
-  "UpdatedDate": "2005-11-29T14:23:55.1646464+01:00",
+  "ForeignAppId": 906,
+  "Name": "Prohaska Inc and Sons",
+  "CreatedDate": "2011-08-18T12:19:53.5867469+02:00",
+  "UpdatedDate": "1997-05-23T12:19:53.5867469+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 644,
-      "Name": "Blick-Ritchie",
-      "CreatedDate": "2004-03-14T14:23:55.1802705+01:00",
-      "UpdatedDate": "2001-02-16T14:23:55.1802705+01:00",
-      "AssociateFullName": "Maximilian Nathen McClure II",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "nam",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 697,
+      "ForeignDeviceId": 859,
+      "Name": "Shanahan LLC",
+      "CreatedDate": "2003-07-14T12:19:53.5867469+02:00",
+      "UpdatedDate": "2021-11-17T12:19:53.5867469+01:00",
+      "AssociateFullName": "Miss Rebeka Padberg",
+      "CreatedBy": "perferendis",
+      "UpdatedBy": "velit",
+      "DeviceIdentifier": "molestias",
+      "ForeignAppId": 148,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 67
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 29 Nov 2005 14:23:55 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 54
     }
   }
 }

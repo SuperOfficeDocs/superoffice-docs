@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 547,
-  "Name": "Wisozk-Upton",
-  "Tooltip": "incidunt",
+  "RoleId": 355,
+  "Name": "Turcotte-Lockman",
+  "Tooltip": "ex",
   "RoleType": "Anonymous",
-  "Deleted": 249,
-  "Rank": 40,
-  "Created": "2015-04-01T14:23:55.384586+02:00",
-  "UseCategories": 30,
+  "Deleted": 210,
+  "Rank": 587,
+  "Created": "2019-03-13T12:19:53.7898269+01:00",
+  "UseCategories": 362,
   "CreatedBy": null,
-  "Updated": "2003-03-02T14:23:55.384586+01:00",
+  "Updated": "2010-11-17T12:19:53.7898269+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 628,
-  "Name": "Crooks LLC",
-  "Tooltip": "et",
+  "RoleId": 227,
+  "Name": "Armstrong, Hermiston and Waters",
+  "Tooltip": "nostrum",
   "RoleType": "Anonymous",
-  "Deleted": 107,
-  "Rank": 528,
-  "Created": "2018-09-04T14:23:55.384586+02:00",
-  "UseCategories": 433,
+  "Deleted": 472,
+  "Rank": 119,
+  "Created": "2004-05-21T12:19:53.7898269+02:00",
+  "UseCategories": 741,
   "CreatedBy": null,
-  "Updated": "1998-10-21T14:23:55.384586+02:00",
+  "Updated": "1997-04-27T12:19:53.7898269+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldLength": 252
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

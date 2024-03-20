@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "ipsam",
-  "OptionalSecretKey": "qui"
+  "Token": "autem",
+  "OptionalSecretKey": "et"
 }
 ```
 

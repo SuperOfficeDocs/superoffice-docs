@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=minus
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Block-Sipes",
-    "ToolTip": "Magni praesentium illo et odio suscipit consectetur.",
+    "Id": 972,
+    "Name": "Wehner Group",
+    "ToolTip": "Alias iure omnis.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "laborum",
+    "Rank": 795,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Fisher, Blanda and Fadel",
-        "ToolTip": "Modi ea eius.",
-        "Deleted": true,
-        "Rank": 422,
-        "Type": "aliquid",
+        "Id": 851,
+        "Name": "Halvorson-Pouros",
+        "ToolTip": "Saepe dolorum.",
+        "Deleted": false,
+        "Rank": 689,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 796,
-        "ExtraInfo": "hic",
-        "StyleHint": "cumque",
-        "FullName": "Rodolfo Russel",
+        "IconHint": "velit",
+        "ColorBlock": 325,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "fugit",
+        "FullName": "Ms. Sim Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 268,
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "aspernatur",
-    "FullName": "Oral Dewitt VonRueden V",
+    "IconHint": "quia",
+    "ColorBlock": 360,
+    "ExtraInfo": "fugit",
+    "StyleHint": "et",
+    "FullName": "Stephania Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 319
       }
     }
   }

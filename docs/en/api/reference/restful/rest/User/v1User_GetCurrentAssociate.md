@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 588,
-  "Name": "Erdman-Torp",
-  "PersonId": 947,
-  "Rank": 464,
-  "Tooltip": "sequi",
+  "AssociateId": 762,
+  "Name": "Grant-Mante",
+  "PersonId": 665,
+  "Rank": 589,
+  "Tooltip": "nisi",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 726,
-  "FullName": "Barry Kutch",
-  "FormalName": "Hand Group",
+  "GroupIdx": 673,
+  "FullName": "Shayna Mertz",
+  "FormalName": "Rice-Howe",
   "Deleted": false,
-  "EjUserId": 433,
-  "UserName": "Stark, Quitzon and Larson",
+  "EjUserId": 915,
+  "UserName": "Wuckert-Moen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 296
     }
   }
 }

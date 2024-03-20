@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 11
+  "QuoteConnectionId": 316
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 657,
-  "ERPName": "Ankunding Group",
-  "DisplayName": "Bartell, Robel and Medhurst",
-  "DisplayDescription": "Secured full-range hub",
-  "Rank": 115,
-  "ConnectorName": "Muller, Friesen and Casper",
-  "ErpConnectionId": 33,
-  "ExtraData": "aliquam",
+  "QuoteConnectionId": 190,
+  "ERPName": "Ritchie, Grady and Thiel",
+  "DisplayName": "Klein-Mills",
+  "DisplayDescription": "Mandatory holistic archive",
+  "Rank": 74,
+  "ConnectorName": "Watsica, Hahn and Crist",
+  "ErpConnectionId": 203,
+  "ExtraData": "aspernatur",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 222,
-      "ERPPriceListKey": "quia",
-      "QuoteConnectionId": 168,
-      "Name": "Huel Group",
-      "Description": "Digitized directional function",
-      "Currency": "et",
-      "CurrencyName": "O'Kon-Blanda",
-      "ValidFrom": "2021-03-07T14:23:47.2380075+01:00",
-      "ValidTo": "2006-04-03T14:23:47.2380075+02:00",
-      "IsActive": false,
+      "PriceListId": 478,
+      "ERPPriceListKey": "alias",
+      "QuoteConnectionId": 210,
+      "Name": "Champlin, Orn and Heaney",
+      "Description": "De-engineered 3rd generation ability",
+      "Currency": "necessitatibus",
+      "CurrencyName": "Hodkiewicz Group",
+      "ValidFrom": "2020-02-19T12:19:46.1014395+01:00",
+      "ValidTo": "2021-02-02T12:19:46.1014395+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    208,
-    898
+    746,
+    613
   ],
   "AssociateAccessIds": [
-    202,
-    160
+    914,
+    891
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldLength": 428
     }
   }
 }

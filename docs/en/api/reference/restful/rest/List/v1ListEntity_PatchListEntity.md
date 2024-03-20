@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "quidem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "quidem",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Spinka, Towne and Bruen",
-  "Tooltip": "eligendi",
+  "Id": 453,
+  "Name": "Spinka LLC",
+  "Tooltip": "facere",
   "Deleted": false,
-  "Rank": 319,
+  "Rank": 385,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 891
     }
   },
   "_Links": {

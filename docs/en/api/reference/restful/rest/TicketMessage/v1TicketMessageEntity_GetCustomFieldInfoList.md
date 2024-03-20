@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Stiedemann Group",
-    "DisplayName": "Schaden Group",
-    "Description": "Function-based eco-centric architecture",
-    "ShortLabel": "sed",
-    "HideLabel": false,
+    "FieldName": "Shanahan, Howell and McGlynn",
+    "DisplayName": "McLaughlin-Gibson",
+    "Description": "Automated incremental standardization",
+    "ShortLabel": "vero",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 679,
-    "TemplateVariableName": "Davis, Goodwin and Bernhard"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 407,
+    "TemplateVariableName": "Zemlak-Wolff"
   }
 ]
 ```

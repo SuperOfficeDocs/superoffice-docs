@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=quos
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "White LLC",
-    "ToolTip": "Velit rem commodi.",
+    "Id": 427,
+    "Name": "Stoltenberg, Stokes and Padberg",
+    "ToolTip": "Velit quo quisquam non.",
     "Deleted": false,
-    "Rank": 833,
-    "Type": "maxime",
+    "Rank": 491,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Schumm-Cormier",
-        "ToolTip": "Omnis nostrum esse.",
-        "Deleted": false,
-        "Rank": 895,
-        "Type": "maiores",
+        "Id": 38,
+        "Name": "O'Keefe LLC",
+        "ToolTip": "Commodi quam eos aut pariatur id rem aliquam.",
+        "Deleted": true,
+        "Rank": 2,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 508,
-        "ExtraInfo": "id",
-        "StyleHint": "eum",
-        "FullName": "Dulce Quigley",
+        "IconHint": "sit",
+        "ColorBlock": 471,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "et",
+        "FullName": "Carrie Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 366,
-    "ExtraInfo": "quo",
-    "StyleHint": "dolorem",
-    "FullName": "Wilfrid Maggio",
+    "IconHint": "et",
+    "ColorBlock": 193,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "aliquid",
+    "FullName": "Elody Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 636
       }
     }
   }

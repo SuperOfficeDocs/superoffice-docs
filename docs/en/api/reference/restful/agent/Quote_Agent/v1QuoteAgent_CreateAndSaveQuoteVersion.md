@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 847
+  "QuoteVersionId": 119
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 721,
-  "ERPQuoteVersionKey": "magnam",
-  "QuoteId": 298,
-  "Description": "Networked attitude-oriented superstructure",
-  "Number": "1275950",
+  "QuoteVersionId": 912,
+  "ERPQuoteVersionKey": "aut",
+  "QuoteId": 277,
+  "Description": "Innovative dedicated interface",
+  "Number": "209171",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "morph impactful supply-chains",
-  "LikelyQuoteAlternativeId": 360,
-  "SentDate": "2003-09-02T14:23:47.2067575+02:00",
-  "FollowupId": 904,
-  "ExpirationDate": "2000-05-06T14:23:47.2067575+02:00",
-  "DeliveryCountryId": 205,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 469,
+  "SentDate": "2006-11-17T12:19:46.054573+01:00",
+  "FollowupId": 267,
+  "ExpirationDate": "2006-09-10T12:19:46.054573+02:00",
+  "DeliveryCountryId": 944,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 908,
+  "InvoiceCountryId": 933,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "unde",
-  "ERPPaymentTypeKey": "hic",
-  "ERPDeliveryTermsKey": "ut",
-  "ERPDeliveryTypeKey": "dolorum",
-  "Rank": 361,
-  "ApprovedBy": 565,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 523,
-  "ApprovedRegisteredDate": "2016-10-08T14:23:47.2067575+02:00",
-  "ExtraField1": "quia",
-  "ExtraField2": "rem",
-  "ExtraField3": "ullam",
-  "ExtraField4": "facilis",
-  "ExtraField5": "aliquid",
-  "LastRecalculated": "2002-05-26T14:23:47.2067575+02:00",
-  "Updated": "2002-03-20T14:23:47.2067575+01:00",
-  "UpdatedAssociateId": 576,
-  "Registered": "2022-03-14T14:23:47.2067575+01:00",
-  "RegisteredAssociateId": 84,
-  "RequestAssociateId": 486,
-  "RequestComment": "cumque",
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "sed",
+  "ERPDeliveryTermsKey": "rerum",
+  "ERPDeliveryTypeKey": "reprehenderit",
+  "Rank": 348,
+  "ApprovedBy": 157,
+  "ApprovedText": "quidem",
+  "ApprovedRegisteredBy": 449,
+  "ApprovedRegisteredDate": "2013-10-02T12:19:46.054573+02:00",
+  "ExtraField1": "ea",
+  "ExtraField2": "architecto",
+  "ExtraField3": "enim",
+  "ExtraField4": "accusamus",
+  "ExtraField5": "in",
+  "LastRecalculated": "2003-04-07T12:19:46.054573+02:00",
+  "Updated": "2012-11-15T12:19:46.054573+01:00",
+  "UpdatedAssociateId": 569,
+  "Registered": "2003-02-10T12:19:46.054573+01:00",
+  "RegisteredAssociateId": 28,
+  "RequestAssociateId": 787,
+  "RequestComment": "laboriosam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 723,
-      "ERPQuoteAlternativeKey": "consectetur",
-      "QuoteVersionId": 270,
-      "Name": "Littel Inc and Sons",
-      "Description": "Future-proofed transitional array",
+      "QuoteAlternativeId": 401,
+      "ERPQuoteAlternativeKey": "quam",
+      "QuoteVersionId": 246,
+      "Name": "Gutmann-Hane",
+      "Description": "Self-enabling zero defect framework",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 21825.176,
-      "ERPDiscountAmount": 13842.877999999999,
-      "DiscountPercent": 1494.918,
-      "DiscountAmount": 20584.112,
+      "ERPDiscountPercent": 28068.104,
+      "ERPDiscountAmount": 16459.768,
+      "DiscountPercent": 7678.3,
+      "DiscountAmount": 21314.334,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nihil",
-      "VAT": 3883.026,
-      "EarningPercent": 13419.788,
-      "EarningAmount": 24915.3,
-      "SubTotal": 29769.865999999998,
-      "TotalPrice": 15438.083999999999,
-      "ExtraField1": "quos",
-      "ExtraField2": "debitis",
-      "ExtraField3": "hic",
-      "ExtraField4": "quo",
-      "ExtraField5": "quasi",
+      "VATInfo": "et",
+      "VAT": 19070.39,
+      "EarningPercent": 13172.202,
+      "EarningAmount": 25328.987999999998,
+      "SubTotal": 16713.622,
+      "TotalPrice": 1479.248,
+      "ExtraField1": "placeat",
+      "ExtraField2": "ullam",
+      "ExtraField3": "dolorem",
+      "ExtraField4": "et",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldLength": 337
     }
   }
 }

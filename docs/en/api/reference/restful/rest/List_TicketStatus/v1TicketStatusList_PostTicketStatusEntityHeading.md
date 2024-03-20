@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 394,
-  "Name": "Luettgen LLC",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 559,
-  "UdListDefinitionId": 442
+  "HeadingId": 376,
+  "Name": "Lesch-Hartmann",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 798,
+  "UdListDefinitionId": 495
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 241,
-  "Name": "Farrell Inc and Sons",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 461,
-  "UdListDefinitionId": 739,
+  "HeadingId": 975,
+  "Name": "Hegmann Inc and Sons",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 678,
+  "UdListDefinitionId": 308,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 934
     }
   }
 }

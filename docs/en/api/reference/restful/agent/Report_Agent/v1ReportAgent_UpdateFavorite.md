@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 852,
+  "ReportId": 580,
   "ReportCategory": "All",
-  "Description": "Total homogeneous extranet",
+  "Description": "Extended national flexibility",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bernier-Wiza",
-  "AssociateId": 251,
-  "TemplateId": 736,
+  "Name": "Windler, Pfannerstill and Koch",
+  "AssociateId": 17,
+  "TemplateId": 253,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   }
 }

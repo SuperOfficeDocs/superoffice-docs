@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fisher Inc and Sons",
+  "Name": "Torp LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "quas",
+  "AdditionalInfo": "libero",
   "HistoryItems": [
-    627,
-    83
+    683,
+    554
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Kautzer-Dickinson",
-    "ToolTip": "Est amet doloremque voluptas molestiae.",
+    "Id": 707,
+    "Name": "Rohan LLC",
+    "ToolTip": "Rerum sunt vel sint impedit illum reiciendis.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "consequuntur",
-    "ColorBlock": 903,
-    "IconHint": "sequi",
+    "Rank": 990,
+    "Type": "possimus",
+    "ColorBlock": 699,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "2006-01-10T14:23:46.9255115+01:00",
+    "LastChanged": "2014-05-07T12:19:45.6015646+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Cassin, Smitham and Gulgowski",
-        "ToolTip": "Harum hic.",
+        "Id": 624,
+        "Name": "Hermann-Williamson",
+        "ToolTip": "Perferendis veniam id provident omnis accusantium consectetur non.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "pariatur",
-        "ColorBlock": 541,
-        "IconHint": "molestiae",
+        "Rank": 230,
+        "Type": "ratione",
+        "ColorBlock": 800,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2008-02-18T14:23:46.9255115+01:00",
+        "LastChanged": "2016-09-27T12:19:45.6015646+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Prof. Velma Kristofer Barton DVM",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Jerad Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldType": "System.String",
+            "FieldLength": 214
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Mrs. Cordia Della Batz",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Irving Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 782,
-    "Name": "Veum Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 428,
-    "UdListDefinitionId": 1000
+    "HeadingId": 181,
+    "Name": "Corwin, Kertzmann and Sauer",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 123,
+    "UdListDefinitionId": 850
   },
   {
-    "HeadingId": 782,
-    "Name": "Veum Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 428,
-    "UdListDefinitionId": 1000
+    "HeadingId": 181,
+    "Name": "Corwin, Kertzmann and Sauer",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 123,
+    "UdListDefinitionId": 850
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 392,
-    "Name": "Bailey, Stroman and Ledner",
-    "Tooltip": "veniam",
+    "HeadingId": 156,
+    "Name": "Tremblay-Carter",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 986,
-    "UdListDefinitionId": 200,
+    "Rank": 834,
+    "UdListDefinitionId": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 516
       }
     }
   }

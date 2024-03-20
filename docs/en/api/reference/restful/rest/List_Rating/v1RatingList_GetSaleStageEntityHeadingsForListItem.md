@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Reinger-Cummerata",
-    "ToolTip": "Officiis ullam.",
+    "Id": 372,
+    "Name": "McDermott-Bartoletti",
+    "ToolTip": "Aut dolore.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "est",
-    "ColorBlock": 30,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2011-09-28T14:23:56.2908239+02:00",
+    "Rank": 839,
+    "Type": "omnis",
+    "ColorBlock": 469,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "2016-03-30T12:19:54.789597+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Effertz, Padberg and Durgan",
-        "ToolTip": "Nemo officia nisi numquam sint incidunt voluptates.",
-        "Deleted": false,
-        "Rank": 330,
-        "Type": "ut",
-        "ColorBlock": 577,
-        "IconHint": "dignissimos",
+        "Id": 892,
+        "Name": "Jaskolski Group",
+        "ToolTip": "Accusantium voluptatem et unde qui esse quas.",
+        "Deleted": true,
+        "Rank": 16,
+        "Type": "dolores",
+        "ColorBlock": 251,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2018-07-30T14:23:56.2908239+02:00",
+        "LastChanged": "2006-04-11T12:19:54.789597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "numquam",
+        "ExtraInfo": "dolores",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Annabel McKenzie",
+        "FullName": "Deshawn Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 684
+            "FieldLength": 292
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "debitis",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Quinn Steuber IV",
+    "FullName": "Samanta Idell Kutch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 189
       }
     }
   }

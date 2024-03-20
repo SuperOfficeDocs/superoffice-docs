@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnectors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,14 +81,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Bashirian Inc and Sons",
-    "ToolTip": "Doloremque et facere vitae aliquid vitae."
+    "Id": 223,
+    "Name": "Heidenreich, Kuphal and Kessler",
+    "ToolTip": "Qui in aut corrupti est."
   },
   {
-    "Id": 335,
-    "Name": "Bashirian Inc and Sons",
-    "ToolTip": "Doloremque et facere vitae aliquid vitae."
+    "Id": 223,
+    "Name": "Heidenreich, Kuphal and Kessler",
+    "ToolTip": "Qui in aut corrupti est."
   }
 ]
 ```

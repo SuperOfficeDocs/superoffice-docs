@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 159,
-  "SourcePersonId": 44,
-  "DestinationContactId": 693,
-  "DestinationPersonId": 116,
-  "RelationId": 30,
-  "Comment": "eum",
-  "RelationDefinitionId": 913,
-  "Reversed": 988,
-  "UpdatedDate": "2022-02-17T14:23:55.0396483+01:00",
-  "CreatedDate": "2008-06-23T14:23:55.0396483+02:00",
+  "SourceContactId": 389,
+  "SourcePersonId": 630,
+  "DestinationContactId": 787,
+  "DestinationPersonId": 525,
+  "RelationId": 170,
+  "Comment": "qui",
+  "RelationDefinitionId": 212,
+  "Reversed": 74,
+  "UpdatedDate": "2017-11-07T12:19:53.3055654+01:00",
+  "CreatedDate": "2003-09-30T12:19:53.3055654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Towne, Metz and Medhurst",
-  "SourcePersonName": "Haley Inc and Sons",
-  "DestinationContactName": "Carter Group",
-  "DestinationPersonName": "Larson-Kihn",
-  "ActiveText": "occaecati",
-  "PassiveText": "tempora"
+  "SourceContactName": "Stroman Group",
+  "SourcePersonName": "Kovacek Inc and Sons",
+  "DestinationContactName": "Willms, Pfeffer and Marquardt",
+  "DestinationPersonName": "Bartoletti-Mann",
+  "ActiveText": "debitis",
+  "PassiveText": "est"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 522,
-  "SourcePersonId": 293,
-  "DestinationContactId": 668,
-  "DestinationPersonId": 559,
-  "RelationId": 945,
-  "Comment": "et",
-  "RelationDefinitionId": 86,
-  "Reversed": 895,
-  "UpdatedDate": "2012-10-05T14:23:55.0396483+02:00",
-  "CreatedDate": "2000-04-15T14:23:55.0396483+02:00",
+  "SourceContactId": 670,
+  "SourcePersonId": 271,
+  "DestinationContactId": 338,
+  "DestinationPersonId": 608,
+  "RelationId": 100,
+  "Comment": "animi",
+  "RelationDefinitionId": 526,
+  "Reversed": 701,
+  "UpdatedDate": "2007-03-05T12:19:53.3055654+01:00",
+  "CreatedDate": "2005-09-26T12:19:53.3055654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kerluke, Cruickshank and O'Connell",
-  "SourcePersonName": "Rippin-Rempel",
-  "DestinationContactName": "Keebler Group",
-  "DestinationPersonName": "Kunde-D'Amore",
-  "ActiveText": "autem",
-  "PassiveText": "dolorem",
+  "SourceContactName": "Bauch, Cole and Brekke",
+  "SourcePersonName": "Heathcote-Bogisich",
+  "DestinationContactName": "Orn-Monahan",
+  "DestinationPersonName": "Cruickshank Inc and Sons",
+  "ActiveText": "eum",
+  "PassiveText": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   },
   "_Links": {

@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tenetur",
-  "ProviderName": "Gerhold-Hickle",
-  "StorageKey": "voluptatibus",
+  "StorageType": "eaque",
+  "ProviderName": "Vandervort, Schimmel and Bernhard",
+  "StorageKey": "eius",
   "ExtraRestrictions": [
     {
-      "Name": "Glover, Wunsch and Kuphal",
-      "Operator": "aut",
+      "Name": "Corwin, Shields and Keeling",
+      "Operator": "perferendis",
       "Values": [
-        "cum",
-        "repudiandae"
+        "iusto",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "excepturi",
-        "quasi"
+        "provident",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 556,
+      "InterParenthesis": 453,
       "InterOperator": "And",
-      "UniqueHash": 822
+      "UniqueHash": 72
     }
   ],
   "OrderBy": [
     {
-      "Name": "Carter Inc and Sons",
+      "Name": "Pagac Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Carter Inc and Sons",
+      "Name": "Pagac Group",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "voluptatem",
-    "sit"
+    "autem",
+    "et"
   ],
-  "PageSize": 596,
-  "PageNumber": 968
+  "PageSize": 916,
+  "PageNumber": 739
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Thompson Group",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "consectetur",
-      "CanOrderBy": false,
-      "Name": "Osinski-Tillman",
-      "CanRestrictBy": true,
-      "RestrictionType": "iste",
-      "RestrictionListName": "Lowe-Ankunding",
-      "IsVisible": false,
-      "ExtraInfo": "perferendis",
-      "Width": "sit",
-      "IconHint": "est",
-      "HeadingIconHint": "maxime"
+      "DisplayName": "Fadel LLC",
+      "DisplayTooltip": "harum",
+      "DisplayType": "doloremque",
+      "CanOrderBy": true,
+      "Name": "Gutmann-Bauch",
+      "CanRestrictBy": false,
+      "RestrictionType": "minus",
+      "RestrictionListName": "Frami-Botsford",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "eos",
+      "IconHint": "quod",
+      "HeadingIconHint": "reprehenderit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schroeder, Streich and Harber",
-      "PrimaryKey": 407,
+      "EntityName": "Jerde, Connelly and Medhurst",
+      "PrimaryKey": 287,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "necessitatibus",
-          "LinkHint": "aut"
+          "DisplayValue": "qui",
+          "TooltipHint": "occaecati",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "maiores",
+      "LinkHint": "nisi",
+      "StyleHint": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 817
+          "FieldType": "System.Int32",
+          "FieldLength": 25
         }
       }
     }
   ],
-  "RowCount": 442,
+  "RowCount": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 696
     }
   }
 }

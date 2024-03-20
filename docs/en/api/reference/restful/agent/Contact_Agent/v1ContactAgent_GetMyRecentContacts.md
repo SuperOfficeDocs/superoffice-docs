@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 873,
-    "Name": "O'Connell-Mitchell",
-    "OrgNr": "1363906",
+    "ContactId": 837,
+    "Name": "Koss-Huel",
+    "OrgNr": "1466191",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "sit",
-    "DirectPhone": "(066)080-2522 x414",
-    "AssociateId": 806,
-    "CountryId": 457,
-    "EmailAddress": "floy@kuhn.info",
-    "Kananame": "ut",
-    "EmailAddressName": "margarette_mohr@kuhic.name",
+    "City": "eveniet",
+    "DirectPhone": "158.166.3662",
+    "AssociateId": 109,
+    "CountryId": 324,
+    "EmailAddress": "joe@effertz.com",
+    "Kananame": "velit",
+    "EmailAddressName": "myrtle.jacobson@treutel.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Roscoe Stiedemann",
+    "AssociateFullName": "Hazel Reynolds III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quisquam",
-    "FullName": "Modesta Strosin",
+    "FormattedAddress": "est",
+    "FullName": "Bell Weissnat",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 104,
-    "Number1": "1356949",
-    "Number2": "1718648",
+    "ActiveErpLinks": 36,
+    "Number1": "1257060",
+    "Number2": "1161641",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 526
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Okuneva, Heathcote and Tremblay",
-    "ToolTip": "Quia dignissimos ipsam dolore aut culpa consequatur.",
-    "Deleted": true,
-    "Rank": 265,
-    "Type": "id",
-    "ColorBlock": 484,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2011-10-03T14:23:55.9939519+02:00",
+    "Id": 303,
+    "Name": "Miller-Mayer",
+    "ToolTip": "Aut corporis earum repudiandae odio quod.",
+    "Deleted": false,
+    "Rank": 311,
+    "Type": "aut",
+    "ColorBlock": 412,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2010-03-07T12:19:54.3209449+01:00",
     "ChildItems": [
       {
-        "Id": 30,
-        "Name": "Wolff-McClure",
-        "ToolTip": "Dicta assumenda ad quo alias ipsam.",
+        "Id": 190,
+        "Name": "Osinski Inc and Sons",
+        "ToolTip": "Consequatur doloremque autem.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "recusandae",
-        "ColorBlock": 291,
-        "IconHint": "molestiae",
+        "Rank": 264,
+        "Type": "et",
+        "ColorBlock": 131,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2002-09-29T14:23:55.9939519+02:00",
+        "LastChanged": "1997-10-21T12:19:54.3209449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "sint",
+        "ExtraInfo": "nisi",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Elissa Barrows",
+        "FullName": "Prof. Ethan Macy Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "nam",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Reba Ritchie",
+    "FullName": "Luella Bashirian II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 679
       }
     }
   }

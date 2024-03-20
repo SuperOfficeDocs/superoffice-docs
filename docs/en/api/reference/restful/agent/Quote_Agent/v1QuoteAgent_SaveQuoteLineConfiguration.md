@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 696,
-  "FieldName": "Turner-McKenzie",
-  "Label": "enim",
-  "Tooltip": "nam",
-  "Editable": false,
-  "InUse": false,
+  "QuoteLineConfigurationId": 599,
+  "FieldName": "Howe, Little and Pollich",
+  "Label": "maiores",
+  "Tooltip": "aliquam",
+  "Editable": true,
+  "InUse": true,
   "Mandatory": true,
-  "Rank": 292,
+  "Rank": 817,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

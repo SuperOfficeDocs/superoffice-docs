@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Swift-Harvey",
-    "ToolTip": "Quasi est.",
-    "Deleted": false,
-    "Rank": 65,
-    "Type": "ullam",
-    "ColorBlock": 507,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-04-24T14:23:56.1033275+02:00",
+    "Id": 198,
+    "Name": "D'Amore, Altenwerth and Renner",
+    "ToolTip": "Exercitationem nesciunt accusantium quisquam dolorem quasi.",
+    "Deleted": true,
+    "Rank": 221,
+    "Type": "et",
+    "ColorBlock": 357,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2005-06-28T12:19:54.4459158+02:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Jast, Marquardt and Durgan",
-        "ToolTip": "Sunt esse ipsam mollitia illum consequatur qui.",
+        "Id": 726,
+        "Name": "Boyle-Lehner",
+        "ToolTip": "Sit ducimus voluptates est saepe ut nemo.",
         "Deleted": true,
-        "Rank": 456,
-        "Type": "et",
-        "ColorBlock": 77,
-        "IconHint": "nostrum",
+        "Rank": 198,
+        "Type": "non",
+        "ColorBlock": 305,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2019-04-20T14:23:56.1033275+02:00",
+        "LastChanged": "2000-12-27T12:19:54.4459158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Winston Cartwright"
+        "ExtraInfo": "eligendi",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Trey Mills"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "eius",
-    "Hidden": false,
-    "FullName": "Mrs. Ed West"
+    "ExtraInfo": "provident",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mrs. Forrest Floy Gorczany"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Bechtelar Group",
-    "ToolTip": "Tempore explicabo architecto et sed quos.",
-    "Deleted": false,
-    "Rank": 91,
-    "Type": "quisquam",
-    "ColorBlock": 959,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2010-09-17T14:23:56.1033275+02:00",
+    "Id": 361,
+    "Name": "Parker-Leannon",
+    "ToolTip": "Laboriosam recusandae quia ex sed.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "autem",
+    "ColorBlock": 725,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2013-02-03T12:19:54.4459158+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Bogisich Group",
-        "ToolTip": "Expedita suscipit vero cum.",
-        "Deleted": true,
-        "Rank": 849,
-        "Type": "impedit",
-        "ColorBlock": 331,
-        "IconHint": "quis",
+        "Id": 674,
+        "Name": "Nader Inc and Sons",
+        "ToolTip": "Autem iure quaerat.",
+        "Deleted": false,
+        "Rank": 614,
+        "Type": "id",
+        "ColorBlock": 781,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2009-01-11T14:23:56.1033275+01:00",
+        "LastChanged": "2002-11-15T12:19:54.4459158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Carson Stanton",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Easter Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "maxime",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Rylee Raleigh Walsh MD",
+    "FullName": "Judd Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldLength": 842
       }
     }
   }

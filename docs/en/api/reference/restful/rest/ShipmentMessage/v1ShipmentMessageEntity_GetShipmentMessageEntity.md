@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 395,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "est",
-  "SmsMessage": "perferendis",
-  "Description": "Intuitive incremental installation",
-  "Subject": "sed",
-  "FolderId": 188,
-  "HeaderField": "eligendi",
-  "Design": "beatae",
+  "ShipmentMessageId": 988,
+  "PlainMessage": "occaecati",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "et",
+  "Description": "Reduced explicit policy",
+  "Subject": "architecto",
+  "FolderId": 790,
+  "HeaderField": "voluptatem",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Switchable leading edge interface",
-  "AccessKey": "ad",
-  "DocumentMessage": 124,
-  "Registered": "1999-05-11T14:23:55.5252104+02:00",
-  "RegisteredAssociateId": 485,
-  "Updated": "2002-01-04T14:23:55.5252104+01:00",
-  "UpdatedAssociateId": 620,
-  "UpdatedCount": 197,
+  "LongDescription": "User-centric explicit archive",
+  "AccessKey": "ea",
+  "DocumentMessage": 150,
+  "Registered": "2000-11-11T12:19:53.9304171+01:00",
+  "RegisteredAssociateId": 684,
+  "Updated": "2021-09-26T12:19:53.9304171+02:00",
+  "UpdatedAssociateId": 109,
+  "UpdatedCount": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

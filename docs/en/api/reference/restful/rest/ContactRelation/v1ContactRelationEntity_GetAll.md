@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=atque
-GET /api/v1/Relation?$top=79
-GET /api/v1/Relation?$skip=763
+GET /api/v1/Relation?$entities=ipsum
+GET /api/v1/Relation?$top=797
+GET /api/v1/Relation?$skip=747
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=est
+GET /api/v1/Relation?$context=reiciendis
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "earum",
+  "odata.nextLink": "eum",
   "value": [
     {
-      "PrimaryKey": 5467,
+      "PrimaryKey": 5888,
       "EntityName": "sale",
-      "saleId": 5467,
-      "contactId": 867,
-      "name": "Moen, Weber and Kautzer"
+      "saleId": 5888,
+      "contactId": 6770,
+      "name": "Pacocha Group"
     },
     {
-      "PrimaryKey": 885,
+      "PrimaryKey": 6062,
       "EntityName": "sale",
-      "saleId": 885,
-      "contactId": 7943,
-      "name": "Waters-Hand"
+      "saleId": 6062,
+      "contactId": 4483,
+      "name": "Kohler Inc and Sons"
     }
   ]
 }

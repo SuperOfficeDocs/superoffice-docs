@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 923,
-  "Name": "Tremblay-McDermott",
-  "Description": "Expanded zero defect protocol",
-  "DeltaJson": "autem",
+  "ConfigurableScreenDeltaId": 631,
+  "Name": "Barton Group",
+  "Description": "Versatile optimizing open architecture",
+  "DeltaJson": "quis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptatem",
-  "UpdatedDate": "2013-05-03T14:23:46.0480845+02:00",
-  "CreatedDate": "2009-04-26T14:23:46.0480845+02:00",
+  "RecipeId": "expedita",
+  "UpdatedDate": "2023-08-07T12:19:44.8204988+02:00",
+  "CreatedDate": "2018-10-14T12:19:44.8204988+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    776,
-    361
+    580,
+    603
   ],
-  "AppliesToKey": "dolorum"
+  "AppliesToKey": "eius"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 571,
-  "Name": "O'Connell LLC",
-  "Description": "Multi-lateral directional algorithm",
-  "DeltaJson": "similique",
+  "ConfigurableScreenDeltaId": 169,
+  "Name": "Raynor, Krajcik and Dooley",
+  "Description": "Distributed disintermediate algorithm",
+  "DeltaJson": "aut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "praesentium",
-  "UpdatedDate": "2011-12-11T14:23:46.0480845+01:00",
-  "CreatedDate": "2019-02-25T14:23:46.0480845+01:00",
+  "RecipeId": "beatae",
+  "UpdatedDate": "2021-01-15T12:19:44.8361197+01:00",
+  "CreatedDate": "2015-02-20T12:19:44.8361197+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    717,
-    419
+    983,
+    323
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 682
     }
   }
 }

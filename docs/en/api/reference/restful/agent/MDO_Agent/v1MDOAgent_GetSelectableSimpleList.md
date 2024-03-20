@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hegmann-Hyatt"
+  "Name": "Kemmer, Cruickshank and Larson"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Langosh, Ziemann and O'Conner",
-    "ToolTip": "Odio accusantium.",
-    "Deleted": false,
-    "Rank": 1002,
-    "Type": "ut",
-    "ColorBlock": 853,
-    "IconHint": "nisi",
+    "Id": 902,
+    "Name": "Kris-Collins",
+    "ToolTip": "Aspernatur ratione possimus eum.",
+    "Deleted": true,
+    "Rank": 846,
+    "Type": "est",
+    "ColorBlock": 869,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2022-01-11T14:23:46.9255115+01:00",
+    "LastChanged": "2012-09-21T12:19:45.6015646+02:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Leuschke, Willms and Hyatt",
-        "ToolTip": "Et quo.",
-        "Deleted": false,
-        "Rank": 464,
-        "Type": "ab",
-        "ColorBlock": 565,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2018-05-04T14:23:46.9255115+02:00",
+        "Id": 16,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Quam in sit inventore id.",
+        "Deleted": true,
+        "Rank": 713,
+        "Type": "iure",
+        "ColorBlock": 403,
+        "IconHint": "sapiente",
+        "Selected": false,
+        "LastChanged": "2012-07-23T12:19:45.6015646+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Murl Nikolaus",
+        "ExtraInfo": "sit",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Kyleigh Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldType": "System.String",
+            "FieldLength": 126
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Crawford Luettgen",
+    "ExtraInfo": "minus",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Shemar Lesch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 713
       }
     }
   }

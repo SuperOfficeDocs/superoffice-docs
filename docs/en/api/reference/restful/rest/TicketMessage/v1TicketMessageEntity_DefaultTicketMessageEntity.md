@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 447,
+  "EjMessageId": 688,
   "Ticket": null,
-  "CreatedAt": "2007-02-23T14:23:55.7127052+01:00",
+  "CreatedAt": "2005-11-06T12:19:54.0397728+01:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "tempora",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 881,
-  "Body": "voluptatem",
-  "HtmlBody": "rem",
-  "EmailHeader": "bessie@howe.com",
-  "DebugInfo": "quos",
-  "MailSorter": "labore",
+  "MessageId": "et",
+  "TimeSpent": 133,
+  "Body": "veniam",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "frederique.bergnaum@brekke.com",
+  "DebugInfo": "temporibus",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magni",
+  "SearchTitle": "accusamus",
   "MessageHeaders": [
     {
-      "Id": 982,
-      "Name": "Wuckert-Spencer",
-      "Value": "non",
+      "Id": 817,
+      "Name": "Gleichner LLC",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 690
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dicta",
-  "Sentiment": 417,
-  "SentimentConfidence": 95,
+  "Language": "eos",
+  "Sentiment": 294,
+  "SentimentConfidence": 648,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 320,
-      "Name": "Cronin Group",
-      "ContentType": "amet",
-      "AttSize": 555,
-      "InlineImage": true,
-      "ContentId": "vitae",
-      "AuthKey": "eum",
+      "AttachmentId": 70,
+      "Name": "Erdman, Conroy and Collins",
+      "ContentType": "quia",
+      "AttSize": 188,
+      "InlineImage": false,
+      "ContentId": "aspernatur",
+      "AuthKey": "quibusdam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 339
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "veritatis",
-    "CustomFields2": "ea"
+    "CustomFields1": "minima",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   }
 }

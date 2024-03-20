@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-12-12T14:23:45.4543322+01:00",
-  "AppointmentId": 397,
-  "Description": "Visionary methodical software",
+  "CreatedDate": "2009-07-27T12:19:44.2112518+02:00",
+  "AppointmentId": 341,
+  "Description": "Innovative zero tolerance data-warehouse",
   "Title": "qui",
-  "Agenda": "sit",
-  "InternalNotes": "quas",
-  "StartDate": "2010-03-04T14:23:45.4543322+01:00",
-  "EndDate": "2018-04-21T14:23:45.4543322+02:00",
+  "Agenda": "et",
+  "InternalNotes": "repudiandae",
+  "StartDate": "2019-03-05T12:19:44.2112518+01:00",
+  "EndDate": "2009-07-15T12:19:44.2112518+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 373,
+  "MotherId": 920,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-05-19T14:23:45.4543322+02:00",
+  "UpdatedDate": "1999-10-27T12:19:44.2268741+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 280,
+  "ActiveLinks": 669,
   "Links": [
     {
-      "EntityName": "Bergnaum-Koch",
-      "Id": 449,
-      "Description": "Extended system-worthy open architecture",
-      "ExtraInfo": "aut",
-      "LinkId": 569,
+      "EntityName": "Lueilwitz-Kuhn",
+      "Id": 22,
+      "Description": "Open-architected explicit extranet",
+      "ExtraInfo": "occaecati",
+      "LinkId": 313,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 320
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "quaerat",
   "HasAlarm": false,
-  "ColorIndex": 829,
-  "IsFree": false,
+  "ColorIndex": 824,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "consequuntur",
-  "LeadTime": "eos",
-  "Location": "sunt",
-  "RejectCounter": 15,
+  "LagTime": "est",
+  "LeadTime": "culpa",
+  "Location": "quia",
+  "RejectCounter": 512,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 143,
-      "PersonId": 230,
-      "ContactId": 882,
-      "EmailId": 726,
+      "AssociateId": 76,
+      "PersonId": 647,
+      "ContactId": 362,
+      "EmailId": 299,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "alba@medhurstmccullough.us",
-      "Description": "Centralized modular matrix"
+      "EmailAddress": "greta.sawayn@stromantorphy.uk",
+      "Description": "Enhanced regional moderator"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-11-04T14:23:45.4543322+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2019-05-10T12:19:44.2268741+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 908,
+  "PreferredTZLocation": 744,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 227,
+  "SuggestedAppointmentId": 917,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sint",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Zachary Kemmer"
+    "SuperOffice:1": "Mr. Eldridge Ibrahim Haag MD",
+    "SuperOffice:2": "Myrtle Ratke"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "quos"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2023-01-01T14:23:45.4543322+01:00",
-  "PublishTo": "2012-08-29T14:23:45.4543322+02:00",
-  "PublishFrom": "2012-05-23T14:23:45.4543322+02:00",
+  "PublishEventDate": "2000-04-24T12:19:44.2268741+02:00",
+  "PublishTo": "2020-10-20T12:19:44.2268741+02:00",
+  "PublishFrom": "2005-03-12T12:19:44.2268741+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 167,
+      "VisibleId": 551,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 167,
+      "VisibleId": 551,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 692
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 822
     }
   }
 }

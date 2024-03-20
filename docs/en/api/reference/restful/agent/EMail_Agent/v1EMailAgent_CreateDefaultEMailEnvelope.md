@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 417,
-  "MessageId": "quos",
-  "Subject": "deserunt",
+  "ServerId": 144,
+  "MessageId": "consequuntur",
+  "Subject": "esse",
   "From": null,
   "To": [
     {
-      "ContactId": 345,
-      "ContactName": "Pagac Inc and Sons",
-      "PersonId": 93,
-      "PersonName": "Bednar, Corwin and Batz",
-      "AssociateId": 861,
-      "Address": "non",
-      "EmailId": 682,
+      "ContactId": 537,
+      "ContactName": "Orn-Wehner",
+      "PersonId": 106,
+      "PersonName": "Pagac LLC",
+      "AssociateId": 848,
+      "Address": "dolores",
+      "EmailId": 699,
       "DuplicatePersonIds": [
-        291,
-        33
+        164,
+        327
       ],
-      "Name": "Rodriguez Inc and Sons",
+      "Name": "Wyman-Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -107,17 +107,17 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Sent": "2016-03-24T14:23:46.6106115+01:00",
+  "Sent": "2006-10-24T12:19:45.2735196+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 587,
+  "Size": 203,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

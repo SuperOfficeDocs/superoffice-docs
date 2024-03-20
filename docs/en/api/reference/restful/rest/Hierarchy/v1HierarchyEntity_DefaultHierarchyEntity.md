@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 684,
+  "HierarchyId": 769,
   "Domain": "Dashboards",
-  "Name": "Ullrich Group",
-  "Fullname": "magni",
-  "ParentId": 893,
+  "Name": "Gerhold, Ryan and Ortiz",
+  "Fullname": "dolores",
+  "ParentId": 628,
   "Children": [
     {
-      "HierarchyId": 552,
+      "HierarchyId": 842,
       "Domain": "Dashboards",
-      "Name": "Reynolds-Kihn",
-      "Fullname": "et",
-      "ParentId": 594,
+      "Name": "Bednar LLC",
+      "Fullname": "vel",
+      "ParentId": 274,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-10-25T14:23:55.195897+02:00",
-      "RegisteredAssociateId": 338,
-      "Updated": "2003-01-18T14:23:55.195897+01:00",
-      "UpdatedAssociateId": 808,
+      "Registered": "2021-06-13T12:19:53.6023745+02:00",
+      "RegisteredAssociateId": 983,
+      "Updated": "2006-01-09T12:19:53.6023745+01:00",
+      "UpdatedAssociateId": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 409
+          "FieldLength": 107
         }
       }
     }
   ],
-  "Registered": "2019-01-22T14:23:55.195897+01:00",
-  "RegisteredAssociateId": 143,
-  "Updated": "2009-01-28T14:23:55.195897+01:00",
-  "UpdatedAssociateId": 838,
+  "Registered": "2003-12-03T12:19:53.6023745+01:00",
+  "RegisteredAssociateId": 360,
+  "Updated": "2001-05-31T12:19:53.6023745+02:00",
+  "UpdatedAssociateId": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

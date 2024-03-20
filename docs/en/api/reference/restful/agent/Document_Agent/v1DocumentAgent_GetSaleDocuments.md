@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 705
+  "SaleId": 819
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 176,
-    "Attention": "iusto",
-    "Header": "fugit",
-    "Name": "Armstrong, Batz and Schroeder",
-    "OurRef": "sit",
-    "YourRef": "laboriosam",
-    "Description": "Secured executive migration",
-    "DocumentTemplate": "blanditiis",
-    "IsPublished": false,
-    "PersonId": 243,
-    "PersonFullName": "Astrid Halvorson",
-    "AssociateFullName": "Ms. Rickey Funk",
-    "ContactId": 665,
-    "ContactName": "Goyette, Johns and Tromp",
-    "ProjectId": 721,
-    "ProjectName": "Marvin, Hilpert and Lakin",
-    "AssociateId": 315,
-    "Snum": 660,
-    "SaleId": 606,
-    "SaleName": "Larson-Herzog",
+    "DocumentId": 974,
+    "Attention": "quasi",
+    "Header": "qui",
+    "Name": "Hettinger-Mante",
+    "OurRef": "aut",
+    "YourRef": "debitis",
+    "Description": "Customer-focused analyzing access",
+    "DocumentTemplate": "qui",
+    "IsPublished": true,
+    "PersonId": 213,
+    "PersonFullName": "Marcelo Green II",
+    "AssociateFullName": "Lilian Nader Sr.",
+    "ContactId": 828,
+    "ContactName": "Corwin-Luettgen",
+    "ProjectId": 370,
+    "ProjectName": "Dach, Muller and Stoltenberg",
+    "AssociateId": 287,
+    "Snum": 970,
+    "SaleId": 719,
+    "SaleName": "Ernser Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

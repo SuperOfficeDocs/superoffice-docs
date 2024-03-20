@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 565,
-  "ColumnId": 642,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 642,
-  "FieldLabel": "magni",
-  "FieldLeft": 186,
-  "FieldTop": 722,
+  "UDefFieldId": 207,
+  "ColumnId": 89,
+  "FieldDefault": "porro",
+  "FieldHeight": 798,
+  "FieldLabel": "molestias",
+  "FieldLeft": 776,
+  "FieldTop": 750,
   "FieldType": "Checkbox",
-  "FieldWidth": 252,
-  "FormatMask": "dolores",
+  "FieldWidth": 707,
+  "FormatMask": "eos",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 886,
-  "LabelLeft": 785,
-  "LabelTop": 365,
-  "LabelWidth": 688,
-  "LastVersionId": 457,
-  "ListTableId": 796,
+  "IsIndexed": true,
+  "LabelHeight": 542,
+  "LabelLeft": 210,
+  "LabelTop": 844,
+  "LabelWidth": 84,
+  "LastVersionId": 77,
+  "ListTableId": 910,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 267,
-  "ProgId": "veritatis",
+  "Page1LineNo": 912,
+  "ProgId": "sint",
   "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 341,
-  "TextLength": 682,
-  "Tooltip": "rem",
-  "UdefIdentity": 413,
-  "UDListDefinitionId": 762,
+  "ShortLabel": "facilis",
+  "TabOrder": 283,
+  "TextLength": 266,
+  "Tooltip": "adipisci",
+  "UdefIdentity": 675,
+  "UDListDefinitionId": 535,
   "Justification": "Center",
-  "Version": 416,
-  "TemplateVariableName": "Hackett-Lang",
+  "Version": 92,
+  "TemplateVariableName": "Goyette Group",
   "HasBeenPublished": true,
-  "MdoListName": "Greenfelder, Smitham and Bashirian",
+  "MdoListName": "Steuber Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 242
     }
   }
 }

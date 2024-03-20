@@ -165,6 +165,7 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |consentPerson/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |consentPerson/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|consentPerson/person/personExtra/y\_car/id|int|Contact - Car - id: Displays the row's primary key (y\_car)| x |
 |consentPerson/consentPurpose/consentPurposeId|int|Consent purpose - Consent purpose ID: Consent purpose ID| x |
 |consentPerson/consentPurpose/active|bool|Consent purpose - Active: | x |
 |consentPerson/consentPurpose/key|string|Consent purpose - Purpose ID: | x |
@@ -179,7 +180,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/mrMrs,consentPerson/person/email/emailDescription,consentPerson/person/personUrl/URLAddress,consentPerson/person/personExtra/x_person_float
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/hasCompany,consentPerson/person/personUpdatedByFullName,consentPerson/person/personPrivate/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hintz Inc and Sons",
-    "DisplayName": "Schmitt Inc and Sons",
-    "Description": "Decentralized reciprocal definition",
-    "ShortLabel": "ipsum",
-    "HideLabel": false,
+    "FieldName": "Ferry-Streich",
+    "DisplayName": "Pouros-Rau",
+    "Description": "Configurable coherent protocol",
+    "ShortLabel": "voluptatem",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 384,
-    "TemplateVariableName": "Hilpert, Kuvalis and Treutel"
+    "IsExternal": false,
+    "Rank": 277,
+    "TemplateVariableName": "Jacobi, Klocko and Ernser"
   }
 ]
 ```

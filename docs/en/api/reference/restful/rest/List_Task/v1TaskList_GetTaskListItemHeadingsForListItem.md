@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Lang-Feil",
-    "ToolTip": "Repellendus reprehenderit quae minus fuga.",
+    "Id": 223,
+    "Name": "Botsford, Reichert and Mayer",
+    "ToolTip": "Enim esse sed asperiores totam consequuntur sint.",
     "Deleted": false,
-    "Rank": 146,
+    "Rank": 460,
     "Type": "nisi",
-    "ColorBlock": 959,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2012-08-22T14:23:56.3858254+02:00",
+    "ColorBlock": 273,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2021-11-05T12:19:54.8833241+01:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Kiehn-Brakus",
-        "ToolTip": "Id tenetur.",
-        "Deleted": true,
-        "Rank": 202,
-        "Type": "et",
-        "ColorBlock": 491,
-        "IconHint": "aliquam",
+        "Id": 13,
+        "Name": "Beier, Renner and Erdman",
+        "ToolTip": "Quo magni officia.",
+        "Deleted": false,
+        "Rank": 83,
+        "Type": "perferendis",
+        "ColorBlock": 608,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2001-01-01T14:23:56.3858254+01:00",
+        "LastChanged": "2015-09-03T12:19:54.8833241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "illum",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Prof. Maude Marvin",
+        "FullName": "Ms. Tianna Marcus Kemmer MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "esse",
-    "Hidden": false,
-    "FullName": "Rylan Eichmann",
+    "ExtraInfo": "eos",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Precious Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldLength": 516
       }
     }
   }

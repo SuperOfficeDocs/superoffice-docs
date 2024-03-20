@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 530,
-  "Name": "Blanda Group",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 280,
-  "UdListDefinitionId": 696
+  "HeadingId": 598,
+  "Name": "Wintheiser LLC",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 496,
+  "UdListDefinitionId": 658
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 383,
-  "Name": "Deckow-Lang",
-  "Tooltip": "et",
+  "HeadingId": 926,
+  "Name": "Armstrong-Eichmann",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 88,
-  "UdListDefinitionId": 854,
+  "Rank": 347,
+  "UdListDefinitionId": 864,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

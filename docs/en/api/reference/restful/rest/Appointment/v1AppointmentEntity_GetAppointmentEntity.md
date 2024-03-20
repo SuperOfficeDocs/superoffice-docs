@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 15 Jan 2015 14:23:54 G1T
+Last-Modified: Mon, 04 Apr 2016 12:19:52 G4T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-11-07T14:23:54.5690204+01:00",
-  "AppointmentId": 570,
-  "Description": "Seamless attitude-oriented flexibility",
-  "Title": "voluptates",
-  "Agenda": "error",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2010-05-20T14:23:54.5690204+02:00",
-  "EndDate": "2000-01-20T14:23:54.5690204+01:00",
+  "CreatedDate": "2012-07-10T12:19:52.9618847+02:00",
+  "AppointmentId": 674,
+  "Description": "Ameliorated bifurcated interface",
+  "Title": "enim",
+  "Agenda": "optio",
+  "InternalNotes": "quidem",
+  "StartDate": "2002-05-24T12:19:52.9618847+02:00",
+  "EndDate": "2001-09-12T12:19:52.9618847+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 853,
+  "MotherId": 728,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-01-15T14:23:54.5690204+01:00",
+  "UpdatedDate": "2016-04-04T12:19:52.9618847+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 441,
+  "ActiveLinks": 513,
   "Links": [
     {
-      "EntityName": "Tromp LLC",
-      "Id": 302,
-      "Description": "Exclusive maximized knowledge base",
-      "ExtraInfo": "aliquid",
-      "LinkId": 994,
+      "EntityName": "Johnson, Lindgren and Cruickshank",
+      "Id": 255,
+      "Description": "Inverse systematic middleware",
+      "ExtraInfo": "soluta",
+      "LinkId": 878,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
   ],
-  "AlarmLeadTime": "soluta",
-  "HasAlarm": false,
-  "ColorIndex": 312,
-  "IsFree": false,
+  "AlarmLeadTime": "modi",
+  "HasAlarm": true,
+  "ColorIndex": 97,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "sequi",
-  "LeadTime": "tempora",
+  "LagTime": "impedit",
+  "LeadTime": "est",
   "Location": "qui",
-  "RejectCounter": 303,
+  "RejectCounter": 21,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 102,
-      "PersonId": 856,
-      "ContactId": 179,
-      "EmailId": 438,
-      "SendEmail": true,
+      "AssociateId": 851,
+      "PersonId": 964,
+      "ContactId": 490,
+      "EmailId": 600,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mariah@koelpin.name",
-      "Description": "Versatile scalable groupware"
+      "EmailAddress": "loy.cronin@olsonlarson.us",
+      "Description": "Centralized eco-centric internet solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-02-02T14:23:54.5690204+01:00",
+  "ActiveDate": "2020-03-12T12:19:52.9618847+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 424,
+  "PreferredTZLocation": 96,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 479,
+  "SuggestedAppointmentId": 100,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "reprehenderit",
+  "CentralserviceVideomeetId": "nesciunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nash Peggie Cruickshank III",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Dean Kemmer",
+    "SuperOffice:2": "Stanley Simonis"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
+    "CustomFields1": "tempora",
     "CustomFields2": "aut"
   },
-  "PublishEventDate": "2000-01-05T14:23:54.5846475+01:00",
-  "PublishTo": "2005-07-31T14:23:54.5846475+02:00",
-  "PublishFrom": "2019-12-09T14:23:54.5846475+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-07-23T12:19:52.9618847+02:00",
+  "PublishTo": "2004-03-20T12:19:52.9618847+01:00",
+  "PublishFrom": "2017-12-27T12:19:52.9618847+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 297,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 205
         }
       }
     },
     {
-      "VisibleId": 297,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 205
         }
       }
     }
@@ -272,7 +272,7 @@ Last-Modified: Thu, 15 Jan 2015 14:23:54 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 723
     }
   },
   "_Links": {

@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "fuga",
-    "PersonId": 616,
-    "Mrmrs": "ea",
-    "Firstname": "Jeffry",
-    "Lastname": "Schuster",
-    "MiddleName": "Stanton Inc and Sons",
-    "Title": "odit",
-    "Description": "Total eco-centric functionalities",
-    "Email": "buck.bogan@hayesauer.ca",
-    "FullName": "Esteban Russel",
-    "DirectPhone": "848-318-0249 x3488",
-    "FormalName": "Kuhic-Kozey",
-    "CountryId": 342,
-    "ContactId": 106,
-    "ContactName": "Casper, Heathcote and Herman",
-    "Retired": 731,
-    "Rank": 123,
-    "ActiveInterests": 740,
+    "Position": "reiciendis",
+    "PersonId": 272,
+    "Mrmrs": "dolorum",
+    "Firstname": "Irving",
+    "Lastname": "Berge",
+    "MiddleName": "Swift Inc and Sons",
+    "Title": "sed",
+    "Description": "Multi-layered systemic portal",
+    "Email": "constance@beierbins.info",
+    "FullName": "Boris Roberts",
+    "DirectPhone": "(387)837-5701 x590",
+    "FormalName": "Weimann, Price and Bode",
+    "CountryId": 43,
+    "ContactId": 56,
+    "ContactName": "Upton LLC",
+    "Retired": 7,
+    "Rank": 811,
+    "ActiveInterests": 498,
     "ContactDepartment": "",
-    "ContactCountryId": 719,
-    "ContactOrgNr": "1253469",
-    "FaxPhone": "1-107-399-5486",
-    "MobilePhone": "333-714-4602",
-    "ContactPhone": "606.269.0695 x23386",
-    "AssociateName": "O'Connell, Wehner and Ernser",
-    "AssociateId": 715,
-    "UsePersonAddress": false,
-    "ContactFax": "vitae",
-    "Kanafname": "nihil",
-    "Kanalname": "quidem",
-    "Post1": "quisquam",
-    "Post2": "suscipit",
-    "Post3": "est",
-    "EmailName": "constantin.kessler@gislasoncormier.us",
-    "ContactFullName": "Ericka Schowalter",
-    "ActiveErpLinks": 608,
-    "TicketPriorityId": 135,
-    "SupportLanguageId": 244,
-    "SupportAssociateId": 442,
+    "ContactCountryId": 956,
+    "ContactOrgNr": "1362785",
+    "FaxPhone": "525-061-0960 x893",
+    "MobilePhone": "115.579.8521",
+    "ContactPhone": "(216)783-5643 x12826",
+    "AssociateName": "Wisoky-Wilderman",
+    "AssociateId": 601,
+    "UsePersonAddress": true,
+    "ContactFax": "odio",
+    "Kanafname": "dolor",
+    "Kanalname": "doloremque",
+    "Post1": "qui",
+    "Post2": "quia",
+    "Post3": "deleniti",
+    "EmailName": "mariane_lang@langworth.us",
+    "ContactFullName": "Pattie Toy",
+    "ActiveErpLinks": 774,
+    "TicketPriorityId": 149,
+    "SupportLanguageId": 990,
+    "SupportAssociateId": 840,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 633
       }
     }
   }

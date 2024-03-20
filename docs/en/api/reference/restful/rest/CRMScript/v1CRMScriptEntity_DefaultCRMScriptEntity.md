@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 1000,
-  "UniqueIdentifier": "quasi",
-  "Name": "Wiegand-Vandervort",
-  "Description": "Grass-roots dedicated complexity",
-  "IncludeId": "consequatur",
-  "HierarchyId": 519,
-  "Source": "accusantium",
-  "Registered": "2006-03-12T14:23:55.0552747+01:00",
-  "RegisteredAssociateId": 943,
-  "Updated": "2008-04-04T14:23:55.0552747+02:00",
-  "UpdatedAssociateId": 369,
+  "EjscriptId": 981,
+  "UniqueIdentifier": "molestias",
+  "Name": "Hirthe LLC",
+  "Description": "Inverse national leverage",
+  "IncludeId": "rerum",
+  "HierarchyId": 232,
+  "Source": "sed",
+  "Registered": "2006-10-19T12:19:53.3055654+02:00",
+  "RegisteredAssociateId": 610,
+  "Updated": "2001-09-20T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 971
     }
   }
 }

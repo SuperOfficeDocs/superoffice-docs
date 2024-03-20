@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quae",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-10-20T14:23:55.4783333+02:00",
-  "Amount": 26563.784,
-  "SaleId": 634,
-  "Earning": 16030.41,
-  "EarningPercent": 28400.307999999997,
-  "Heading": "autem",
-  "Number": "1940762",
-  "Probability": 872,
-  "CreatedDate": "1999-04-05T14:23:55.4783333+02:00",
-  "UpdatedDate": "2004-02-23T14:23:55.4783333+01:00",
+  "Saledate": "1998-08-25T12:19:53.8991767+02:00",
+  "Amount": 4556.836,
+  "SaleId": 713,
+  "Earning": 19433.934,
+  "EarningPercent": 24611.302,
+  "Heading": "quas",
+  "Number": "1166467",
+  "Probability": 186,
+  "CreatedDate": "2014-02-19T12:19:53.8991767+01:00",
+  "UpdatedDate": "2016-09-16T12:19:53.8991767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 856,
+  "ActiveLinks": 98,
   "Links": [
     {
-      "EntityName": "Erdman Group",
-      "Id": 646,
-      "Description": "Profit-focused dynamic data-warehouse",
-      "ExtraInfo": "in",
-      "LinkId": 828
+      "EntityName": "Wolff LLC",
+      "Id": 900,
+      "Description": "Up-sized radical utilisation",
+      "ExtraInfo": "expedita",
+      "LinkId": 588
     },
     {
-      "EntityName": "Erdman Group",
-      "Id": 646,
-      "Description": "Profit-focused dynamic data-warehouse",
-      "ExtraInfo": "in",
-      "LinkId": 828
+      "EntityName": "Wolff LLC",
+      "Id": 900,
+      "Description": "Up-sized radical utilisation",
+      "ExtraInfo": "expedita",
+      "LinkId": 588
     }
   ],
-  "NextDueDate": "2017-11-08T14:23:55.4783333+01:00",
-  "Postit": "voluptate",
+  "NextDueDate": "2014-11-02T12:19:53.8991767+01:00",
+  "Postit": "optio",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-07-11T14:23:55.4783333+02:00",
+  "ReopenDate": "1996-12-17T12:19:53.8991767+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koch-Hackett",
-      "Comment": "quasi",
-      "StakeholderRoleId": 518,
-      "CountryId": 230,
-      "PersonId": 745,
-      "EmailDescription": "bessie@beahan.uk",
-      "EmailId": 53,
-      "EmailAddress": "maya_little@schuster.biz",
-      "PhoneId": 93,
-      "ContactName": "Williamson-Tillman",
-      "ContactId": 571,
-      "SaleId": 679,
-      "Mrmrs": "ut",
-      "Firstname": "Sim",
-      "MiddleName": "Legros-Cruickshank",
-      "Lastname": "Romaguera",
-      "SaleStakeholderId": 856,
-      "Rank": 720,
-      "Phone": "836-591-6920"
+      "StakeholderRoleName": "Koch Group",
+      "Comment": "et",
+      "StakeholderRoleId": 435,
+      "CountryId": 424,
+      "PersonId": 996,
+      "EmailDescription": "scotty@jerde.ca",
+      "EmailId": 109,
+      "EmailAddress": "reggie@leuschke.name",
+      "PhoneId": 91,
+      "ContactName": "Swift-Witting",
+      "ContactId": 934,
+      "SaleId": 625,
+      "Mrmrs": "fugiat",
+      "Firstname": "Aylin",
+      "MiddleName": "Paucek Inc and Sons",
+      "Lastname": "Anderson",
+      "SaleStakeholderId": 924,
+      "Rank": 229,
+      "Phone": "1-312-803-3485 x4192"
     }
   ],
-  "ActiveErpLinks": 381,
+  "ActiveErpLinks": 292,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1317154550",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "non"
+    "CustomFields1": "nam",
+    "CustomFields2": "porro"
   },
-  "PublishEventDate": "1999-04-16T14:23:55.4783333+02:00",
-  "PublishTo": "2021-04-14T14:23:55.4783333+02:00",
-  "PublishFrom": "2018-04-12T14:23:55.4783333+02:00",
+  "PublishEventDate": "2010-10-04T12:19:53.8991767+02:00",
+  "PublishTo": "2005-04-09T12:19:53.8991767+02:00",
+  "PublishFrom": "2020-02-03T12:19:53.8991767+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 275,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 275,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "repellendus"
+      "DisplayValue": "vel"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptas",
-  "2": "magnam"
+  "1": "autem",
+  "2": "id"
 }
 ```

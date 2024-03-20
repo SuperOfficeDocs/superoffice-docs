@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 915
+  "DashboardId": 357
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kshlerin-Stamm",
-  "Description": "Reduced explicit knowledge user",
-  "OwnedByFullName": "Ms. Mathias Kris",
-  "Registered": "2017-10-06T14:23:46.251207+02:00",
+  "Name": "Hoppe-Stiedemann",
+  "Description": "Horizontal real-time flexibility",
+  "OwnedByFullName": "Ms. Parker Samanta Flatley V",
+  "Registered": "2003-01-25T12:19:45.0391966+01:00",
   "Tiles": [
     {
-      "Name": "Balistreri-Predovic",
+      "Name": "Murazik LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 911
         }
       }
     },
     {
-      "Name": "Balistreri-Predovic",
+      "Name": "Murazik LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 911
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldLength": 943
     }
   }
 }

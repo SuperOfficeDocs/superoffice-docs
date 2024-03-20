@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 766,
-  "StartTime": "2010-10-02T14:23:45.3282173+02:00",
-  "EndTime": "1996-10-21T14:23:45.3282173+02:00",
-  "Count": 555
+  "ProjectId": 323,
+  "StartTime": "2017-01-15T12:19:44.1175294+01:00",
+  "EndTime": "2005-07-22T12:19:44.1175294+02:00",
+  "Count": 294
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 506,
-    "StartDate": "2022-12-12T14:23:45.3282173+01:00",
-    "EndDate": "2021-03-29T14:23:45.3282173+02:00",
+    "AppointmentId": 90,
+    "StartDate": "2011-02-27T12:19:44.1175294+01:00",
+    "EndDate": "2007-10-09T12:19:44.1175294+02:00",
     "Type": "BookingForChecklist",
-    "Task": "fuga",
-    "AssociateFullName": "Gordon Gusikowski",
-    "ContactName": "VonRueden, Casper and Wisozk",
-    "Description": "Cross-group dynamic circuit",
-    "PersonFullName": "Gisselle Wunsch",
-    "PersonId": 13,
-    "ContactId": 2,
-    "ProjectId": 333,
-    "ProjectName": "Schneider, Bergnaum and Aufderhar",
-    "IsPublished": true,
-    "AssociateId": 726,
-    "ColorIndex": 236,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "natus",
+    "AssociateFullName": "Jaron Dickinson",
+    "ContactName": "Streich-Luettgen",
+    "Description": "Decentralized motivating benchmark",
+    "PersonFullName": "Bernardo Zboncak",
+    "PersonId": 866,
+    "ContactId": 692,
+    "ProjectId": 336,
+    "ProjectName": "Crist Group",
+    "IsPublished": false,
+    "AssociateId": 96,
+    "ColorIndex": 871,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 140,
-    "PriorityName": "Daugherty-VonRueden",
+    "PriorityId": 364,
+    "PriorityName": "Kuvalis-Paucek",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-08-23T14:23:45.3282173+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1999-12-27T12:19:44.1175294+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-01-01T14:23:45.3282173+01:00",
-    "RecurringEndDate": "2003-11-17T14:23:45.3282173+01:00",
-    "MotherId": 213,
-    "AssignedBy": 128,
-    "AssignedByFullName": "Hailee Friesen",
+    "RecurringStartDate": "2007-03-02T12:19:44.1175294+01:00",
+    "RecurringEndDate": "2022-02-24T12:19:44.1175294+01:00",
+    "MotherId": 541,
+    "AssignedBy": 631,
+    "AssignedByFullName": "Arden Stark",
     "RejectReason": "",
-    "Location": "fugiat",
-    "AlarmLeadTime": "tempore",
-    "SaleId": 121,
-    "SaleName": "Braun Inc and Sons",
-    "AssociateName": "Nolan, Becker and Bode",
-    "CreatedDate": "2015-02-22T14:23:45.3438387+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Mr. Eileen Halvorson",
-    "CreatedByAssociateId": 498,
+    "Location": "accusantium",
+    "AlarmLeadTime": "odit",
+    "SaleId": 593,
+    "SaleName": "McClure, Becker and Tromp",
+    "AssociateName": "Stamm, Bernhard and Larson",
+    "CreatedDate": "2007-06-05T12:19:44.1175294+02:00",
+    "CreatedBy": "doloremque",
+    "CreatedByFullName": "Lina McGlynn",
+    "CreatedByAssociateId": 9,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 907,
-    "Title": "velit",
-    "Agenda": "sed",
-    "InternalNotes": "sed",
+    "PreferredTZLocation": 273,
+    "Title": "enim",
+    "Agenda": "quos",
+    "InternalNotes": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

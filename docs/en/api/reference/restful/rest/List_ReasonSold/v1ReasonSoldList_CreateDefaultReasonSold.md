@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "O'Kon, Schiller and Ledner",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 754,
+  "Id": 321,
+  "Name": "Stamm-Shields",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 906,
+  "Rank": 984,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldLength": 526
     }
   }
 }

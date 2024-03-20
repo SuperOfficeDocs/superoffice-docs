@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 20 Jul 1998 14:23:55 G7T
+Last-Modified: Wed, 07 Apr 2021 12:19:53 G4T
 
 {
-  "Description": "Decentralized executive moderator",
-  "Postit": "mollitia",
+  "Description": "Sharable intangible array",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 534,
-  "IncludePerson": 422,
-  "MemberCount": 734,
-  "Name": "Senger-Welch",
-  "PostitTextId": 84,
-  "CreatedDate": "2016-01-20T14:23:55.4939585+01:00",
-  "SelectionId": 658,
-  "SoundEx": "veniam",
-  "Source": 967,
-  "TextId": 183,
-  "UpdatedDate": "1998-07-20T14:23:55.4939585+02:00",
-  "UpdatedCount": 105,
-  "Visibility": 323,
+  "GroupIdx": 843,
+  "IncludePerson": 189,
+  "MemberCount": 52,
+  "Name": "Brown-Nicolas",
+  "PostitTextId": 442,
+  "CreatedDate": "2018-09-16T12:19:53.8991767+02:00",
+  "SelectionId": 925,
+  "SoundEx": "qui",
+  "Source": 431,
+  "TextId": 972,
+  "UpdatedDate": "2021-04-07T12:19:53.8991767+02:00",
+  "UpdatedCount": 524,
+  "Visibility": 801,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 787,
-  "TargetTableName": "Buckridge LLC",
+  "TargetTableNumber": 100,
+  "TargetTableName": "Runolfsdottir LLC",
   "Completed": true,
-  "LeftSelectionId": 615,
-  "RightSelectionId": 502,
+  "LeftSelectionId": 823,
+  "RightSelectionId": 261,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Boehm LLC",
-  "ShadowProviderName": "Auer Inc and Sons",
-  "ChartKey": "quos",
-  "LastLoaded": "2017-08-30T14:23:55.4939585+02:00",
-  "LastLoadedBy": 736,
+  "MainProviderName": "Deckow Group",
+  "ShadowProviderName": "Frami Inc and Sons",
+  "ChartKey": "ratione",
+  "LastLoaded": "2024-03-03T12:19:53.8991767+01:00",
+  "LastLoadedBy": 538,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-01-14T14:23:55.4939585+01:00",
-  "LastMembershipChangeBy": 675,
+  "LastMembershipChange": "2001-07-01T12:19:53.8991767+02:00",
+  "LastMembershipChangeBy": 163,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Ward, Paucek and Hartmann",
-  "DashboardTileDefinitionId": 72,
+  "MainHeading": "doloribus",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Stoltenberg-Hegmann",
+  "DashboardTileDefinitionId": 332,
   "VisibleFor": [
     {
-      "VisibleId": 984,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 939
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     },
     {
-      "VisibleId": 984,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 939
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Mon, 20 Jul 1998 14:23:55 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

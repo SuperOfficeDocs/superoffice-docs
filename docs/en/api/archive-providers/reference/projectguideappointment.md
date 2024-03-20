@@ -242,6 +242,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |appointmentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|appointmentInstance/contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |appointmentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |appointmentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |appointmentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -334,11 +335,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/searchPhone/description|string|Description: Phone number description| x |
 |appointmentInstance/person/personInfo/textId|int|Text ID| x |
 |appointmentInstance/person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|appointmentInstance/person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |appointmentInstance/person/email/emailAddress|string|E-mail| x |
 |appointmentInstance/person/email/emailDescription|string|Description| x |
 |appointmentInstance/person/email/emailId|int|ID| x |
@@ -407,6 +408,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |appointmentInstance/person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |appointmentInstance/person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|appointmentInstance/person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |appointmentInstance/person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -437,12 +439,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/person/personAssociate/userName|string|User name: User name| x |
 |appointmentInstance/person/personAssociate/personEmail|string|E-mail| x |
-|appointmentInstance/person/personAssociate/locationAddress|string|Location: Location| x |
-|appointmentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/person/personAssociate/locationAddress|string|Location: Location| x |
+|appointmentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -541,12 +543,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectAssociate/role|listAny|Role : Role| x |
 |appointmentInstance/project/projectAssociate/assocName|associate|User ID : User ID| x |
 |appointmentInstance/project/projectAssociate/assocTooltip|string|Description : Description|  |
-|appointmentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|appointmentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|appointmentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointmentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |appointmentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |appointmentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -645,12 +647,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
 |appointmentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointmentInstance/sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointmentInstance/sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointmentInstance/sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|appointmentInstance/sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointmentInstance/sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentInstance/sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
@@ -732,7 +734,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/saintDirection,appointmentInstance/person/restrictionAddress/addressId,appointmentInstance/person/correspondingAssociate/assocTooltip,appointmentInstance/person/correspondingAssociate/credentialDisplayValue,appointmentInstance/associate/associateDbId
+GET /api/v1/archive/ProjectGuideAppointment?$select=stageId,appointmentInstance/alarm,appointmentInstance/person/personMobilePhone/formattedNumber,appointmentInstance/person/personExtra/y_rental/x_amount,appointmentInstance/sale/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

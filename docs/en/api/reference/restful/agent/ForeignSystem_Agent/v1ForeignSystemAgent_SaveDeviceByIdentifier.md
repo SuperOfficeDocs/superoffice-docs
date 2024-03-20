@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Yundt, Gibson and Kuhn",
-  "DeviceName": "Moore, Thompson and Wolf",
-  "DeviceIdentifier": "sunt",
+  "ApplicationName": "Renner, Robel and Ebert",
+  "DeviceName": "Krajcik-Dare",
+  "DeviceIdentifier": "minima",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 567,
-  "Name": "Breitenberg, Kulas and Pollich",
-  "CreatedDate": "2007-12-11T14:23:46.7524806+01:00",
-  "UpdatedDate": "2001-08-02T14:23:46.7524806+02:00",
-  "AssociateFullName": "Gillian Dianna Jacobi MD",
-  "CreatedBy": "eos",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 25,
+  "ForeignDeviceId": 528,
+  "Name": "Upton, Wunsch and Breitenberg",
+  "CreatedDate": "2015-06-26T12:19:45.4141069+02:00",
+  "UpdatedDate": "2019-01-17T12:19:45.4141069+01:00",
+  "AssociateFullName": "Kaleigh Dickinson",
+  "CreatedBy": "ab",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "autem",
+  "ForeignAppId": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

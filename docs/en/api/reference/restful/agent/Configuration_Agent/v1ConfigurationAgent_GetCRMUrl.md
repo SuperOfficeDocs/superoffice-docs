@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "non",
-  "Currents": "autem",
-  "Frameless": false
+  "SoProtocol": "sed",
+  "Currents": "rem",
+  "Frameless": true
 }
 ```
 

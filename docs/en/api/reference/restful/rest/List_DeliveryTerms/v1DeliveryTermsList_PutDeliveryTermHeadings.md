@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 685,
-    "Name": "Feeney Group",
-    "Tooltip": "nobis",
+    "HeadingId": 824,
+    "Name": "Koepp, Cruickshank and Thompson",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 695
+    "Rank": 768,
+    "UdListDefinitionId": 510
   },
   {
-    "HeadingId": 685,
-    "Name": "Feeney Group",
-    "Tooltip": "nobis",
+    "HeadingId": 824,
+    "Name": "Koepp, Cruickshank and Thompson",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 695
+    "Rank": 768,
+    "UdListDefinitionId": 510
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 208,
-    "Name": "Farrell, Mante and Raynor",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "Rank": 435,
-    "UdListDefinitionId": 154,
+    "HeadingId": 994,
+    "Name": "Connelly, Nader and Beier",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "Rank": 350,
+    "UdListDefinitionId": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

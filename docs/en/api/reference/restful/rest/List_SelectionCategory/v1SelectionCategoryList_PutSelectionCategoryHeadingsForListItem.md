@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Heidenreich LLC",
-    "ToolTip": "Pariatur et eius eos vero.",
-    "Deleted": false,
-    "Rank": 534,
-    "Type": "quisquam",
-    "ColorBlock": 294,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2000-12-02T14:23:56.353323+01:00",
+    "Id": 765,
+    "Name": "Hessel, Luettgen and Douglas",
+    "ToolTip": "Et consequatur quam rem esse alias exercitationem.",
+    "Deleted": true,
+    "Rank": 381,
+    "Type": "possimus",
+    "ColorBlock": 116,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "1999-06-14T12:19:54.8520816+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Zieme, Wiza and Tremblay",
-        "ToolTip": "Sit molestiae.",
+        "Id": 690,
+        "Name": "Ward, Olson and Hayes",
+        "ToolTip": "Dolore omnis vitae nesciunt fugiat ut doloribus.",
         "Deleted": false,
-        "Rank": 147,
-        "Type": "eveniet",
-        "ColorBlock": 298,
-        "IconHint": "rem",
+        "Rank": 428,
+        "Type": "nihil",
+        "ColorBlock": 649,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2012-05-27T14:23:56.353323+02:00",
+        "LastChanged": "1999-11-25T12:19:54.8520816+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Joelle Thompson"
+        "ExtraInfo": "illo",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Angela Oberbrunner"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Emilie Lakin"
+    "FullName": "Moshe Mayer Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Bogan-Kris",
-    "ToolTip": "Soluta aut eum natus minima.",
+    "Id": 61,
+    "Name": "Toy-Herzog",
+    "ToolTip": "Quia reprehenderit et et iure.",
     "Deleted": false,
-    "Rank": 956,
-    "Type": "qui",
-    "ColorBlock": 774,
-    "IconHint": "atque",
+    "Rank": 685,
+    "Type": "doloribus",
+    "ColorBlock": 533,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "1999-12-18T14:23:56.353323+01:00",
+    "LastChanged": "2015-01-21T12:19:54.8520816+01:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Schaefer Group",
-        "ToolTip": "Sit quia rerum.",
+        "Id": 760,
+        "Name": "Heathcote, Schowalter and Raynor",
+        "ToolTip": "Eum dolorem.",
         "Deleted": false,
-        "Rank": 54,
-        "Type": "non",
-        "ColorBlock": 306,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "1997-06-04T14:23:56.353323+02:00",
+        "Rank": 665,
+        "Type": "dolores",
+        "ColorBlock": 475,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2022-04-04T12:19:54.8520816+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "dolor",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Drew Drew Adams II",
+        "FullName": "Ayden Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 993
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "eaque",
+    "ExtraInfo": "ut",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Sandra Moen",
+    "FullName": "Destiney Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldLength": 393
       }
     }
   }

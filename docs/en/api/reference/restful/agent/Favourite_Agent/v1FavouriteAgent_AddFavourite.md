@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Monahan Group",
-  "RecordId": 790,
-  "AssociateId": 599,
-  "ExtraInfo": "sit"
+  "TableName": "Kuvalis, Weber and Weber",
+  "RecordId": 940,
+  "AssociateId": 770,
+  "ExtraInfo": "dolorem"
 }
 ```
 

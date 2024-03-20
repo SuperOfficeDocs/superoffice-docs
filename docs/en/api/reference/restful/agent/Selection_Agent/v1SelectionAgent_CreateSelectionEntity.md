@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Heidenreich, Murray and Cormier"
+  "TargetTableName": "Boyle Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse 6th generation leverage",
-  "Postit": "numquam",
+  "Description": "Secured modular groupware",
+  "Postit": "minima",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 123,
-  "IncludePerson": 536,
-  "MemberCount": 716,
-  "Name": "Schuppe-Hahn",
-  "PostitTextId": 11,
-  "CreatedDate": "2005-12-12T14:23:47.3942558+01:00",
-  "SelectionId": 329,
-  "SoundEx": "deserunt",
-  "Source": 635,
-  "TextId": 796,
-  "UpdatedDate": "1997-11-07T14:23:47.3942558+01:00",
-  "UpdatedCount": 670,
-  "Visibility": 987,
+  "GroupIdx": 463,
+  "IncludePerson": 673,
+  "MemberCount": 363,
+  "Name": "Marquardt LLC",
+  "PostitTextId": 221,
+  "CreatedDate": "2009-10-22T12:19:46.2420414+02:00",
+  "SelectionId": 103,
+  "SoundEx": "non",
+  "Source": 856,
+  "TextId": 744,
+  "UpdatedDate": "2015-05-22T12:19:46.2420414+02:00",
+  "UpdatedCount": 397,
+  "Visibility": 436,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 51,
-  "TargetTableName": "Balistreri-Frami",
-  "Completed": true,
-  "LeftSelectionId": 730,
-  "RightSelectionId": 686,
+  "TargetTableNumber": 73,
+  "TargetTableName": "Miller-Cremin",
+  "Completed": false,
+  "LeftSelectionId": 351,
+  "RightSelectionId": 699,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Marquardt, McClure and Predovic",
-  "ShadowProviderName": "Hegmann LLC",
-  "ChartKey": "maiores",
-  "LastLoaded": "2004-03-21T14:23:47.3942558+01:00",
-  "LastLoadedBy": 192,
+  "MainProviderName": "Douglas Group",
+  "ShadowProviderName": "Langosh, Herzog and Hagenes",
+  "ChartKey": "eius",
+  "LastLoaded": "2017-03-05T12:19:46.2420414+01:00",
+  "LastLoadedBy": 868,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-06-09T14:23:47.3942558+02:00",
-  "LastMembershipChangeBy": 563,
+  "LastMembershipChange": "2016-04-14T12:19:46.2420414+02:00",
+  "LastMembershipChangeBy": 233,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laborum",
-  "MemberTabHeading": "nihil",
-  "MailingsProviderName": "Ortiz, VonRueden and Jaskolski",
-  "DashboardTileDefinitionId": 995,
+  "MainHeading": "quia",
+  "MemberTabHeading": "amet",
+  "MailingsProviderName": "Hayes, Kuhn and Feil",
+  "DashboardTileDefinitionId": 262,
   "VisibleFor": [
     {
-      "VisibleId": 380,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 196
         }
       }
     },
     {
-      "VisibleId": 380,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 196
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldLength": 430
     }
   }
 }

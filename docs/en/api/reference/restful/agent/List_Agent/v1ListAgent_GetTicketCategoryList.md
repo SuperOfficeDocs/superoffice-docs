@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 140,
-    "ParentId": 411,
-    "Name": "Gorczany Inc and Sons",
-    "Fullname": "molestias",
-    "CategoryMaster": 936,
+    "TicketCategoryId": 971,
+    "ParentId": 514,
+    "Name": "Okuneva Group",
+    "Fullname": "exercitationem",
+    "CategoryMaster": 13,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kozey-Donnelly",
+    "ExternalName": "Farrell Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 934,
-    "ReplyTemplate": 903,
-    "NotificationEmail": "hank_oconner@cummings.uk",
+    "AssignmentLag": 978,
+    "ReplyTemplate": 817,
+    "NotificationEmail": "quentin.boyle@bernier.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 993,
+    "EffectiveReplyTemplateId": 156,
     "ExtraFields": {
-      "ExtraFields1": "nihil",
-      "ExtraFields2": "et"
+      "ExtraFields1": "facere",
+      "ExtraFields2": "ab"
     },
     "CustomFields": {
-      "CustomFields1": "necessitatibus",
-      "CustomFields2": "ab"
+      "CustomFields1": "voluptas",
+      "CustomFields2": "delectus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 904
       }
     }
   }

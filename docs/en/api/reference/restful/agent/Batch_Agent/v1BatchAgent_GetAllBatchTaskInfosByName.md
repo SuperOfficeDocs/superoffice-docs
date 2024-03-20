@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hermann-Emard"
+  "TaskName": "Goldner Inc and Sons"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Ullrich, Bode and Swaniawski",
-    "AssociateId": 680,
-    "DetailsTable": 811,
-    "DetailsRecord": 30,
+    "Id": 726,
+    "Name": "Corwin, O'Keefe and Keebler",
+    "AssociateId": 936,
+    "DetailsTable": 333,
+    "DetailsRecord": 794,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "autem"
+      "ParameterObject1": "ad",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2009-08-14T14:23:45.8762101+02:00",
-    "Created": "2002-06-03T14:23:45.8762101+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "414776",
-    "Context": "quia",
-    "Result": "rerum",
+    "LastStarted": "2011-06-06T12:19:44.5238763+02:00",
+    "Created": "2009-05-07T12:19:44.5238763+02:00",
+    "StartCount": 215,
+    "DatabaseSerialNumber": "1392672",
+    "Context": "asperiores",
+    "Result": "voluptatem",
     "State": "All",
-    "Description": "Visionary even-keeled leverage",
-    "Response": "quisquam",
-    "Request": "voluptatum",
-    "ProgressDescription": "Persevering real-time throughput",
-    "ProgressPercent": 331,
-    "FileName": "Beatty-Reynolds",
+    "Description": "Synchronised encompassing Graphical User Interface",
+    "Response": "quos",
+    "Request": "neque",
+    "ProgressDescription": "Decentralized demand-driven service-desk",
+    "ProgressPercent": 42,
+    "FileName": "Herman Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldLength": 973
       }
     }
   }

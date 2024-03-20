@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 696,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "nemo",
+  "HeadingId": 799,
+  "Name": "Durgan LLC",
+  "Tooltip": "nam",
   "Deleted": false,
-  "Rank": 445,
-  "UdListDefinitionId": 826
+  "Rank": 55,
+  "UdListDefinitionId": 549
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 524,
-  "Name": "Herzog-Halvorson",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 914,
-  "UdListDefinitionId": 665,
+  "HeadingId": 377,
+  "Name": "O'Reilly-Gorczany",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "Rank": 811,
+  "UdListDefinitionId": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldLength": 774
     }
   }
 }

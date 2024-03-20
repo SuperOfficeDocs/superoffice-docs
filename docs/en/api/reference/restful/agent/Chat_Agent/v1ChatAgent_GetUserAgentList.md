@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": true
+  "Flat": true,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Rath Inc and Sons",
-    "ToolTip": "Expedita modi modi odit esse dolor.",
+    "Id": 979,
+    "Name": "Pacocha, Ernser and Wehner",
+    "ToolTip": "Dolor rem praesentium.",
     "Deleted": false,
-    "Rank": 574,
-    "Type": "dolore",
+    "Rank": 322,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Gutmann-Jewess",
-        "ToolTip": "Asperiores omnis inventore architecto adipisci ut est veritatis.",
+        "Id": 51,
+        "Name": "Dibbert, Schimmel and Dietrich",
+        "ToolTip": "Et dignissimos consequatur reprehenderit et facere est totam.",
         "Deleted": false,
-        "Rank": 951,
-        "Type": "vel",
+        "Rank": 707,
+        "Type": "neque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 326,
-        "ExtraInfo": "ea",
-        "StyleHint": "eos",
-        "FullName": "Cleora Willms",
+        "IconHint": "iste",
+        "ColorBlock": 793,
+        "ExtraInfo": "sequi",
+        "StyleHint": "quis",
+        "FullName": "Prof. Isom Rhianna Botsford PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 457
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 868,
-    "ExtraInfo": "autem",
-    "StyleHint": "enim",
-    "FullName": "Ms. Jaydon Efren Morissette PhD",
+    "IconHint": "laborum",
+    "ColorBlock": 571,
+    "ExtraInfo": "odio",
+    "StyleHint": "molestias",
+    "FullName": "Verner Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 532
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Crist, Jones and Streich",
-  "Tooltip": "voluptates",
+  "Id": 187,
+  "Name": "Spencer-Marvin",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 206,
-  "Rank": 129,
+  "UdListDefinitionId": 92,
+  "Rank": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

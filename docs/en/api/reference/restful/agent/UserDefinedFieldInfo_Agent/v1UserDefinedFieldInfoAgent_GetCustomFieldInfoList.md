@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rice, Fay and Jacobs",
-  "IncludeStandard": true
+  "TableName": "Bashirian, Halvorson and Bogan",
+  "IncludeStandard": false
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hyatt LLC",
-    "DisplayName": "Jerde-Kuhic",
-    "Description": "Multi-channelled encompassing algorithm",
-    "ShortLabel": "sed",
+    "FieldName": "Jacobi LLC",
+    "DisplayName": "Hickle, Hermiston and Brekke",
+    "Description": "Balanced exuding ability",
+    "ShortLabel": "libero",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 501,
-    "TemplateVariableName": "Reynolds, Yundt and Ebert"
+    "Rank": 154,
+    "TemplateVariableName": "Kilback-Yost"
   }
 ]
 ```

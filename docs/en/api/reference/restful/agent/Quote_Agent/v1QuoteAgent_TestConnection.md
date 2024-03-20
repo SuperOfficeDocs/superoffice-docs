@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Nikolaus, Schuppe and Morissette",
+  "ConnectorName": "Wunsch, McClure and Torphy",
   "ConnectionData": {
-    "ConnectionData1": "consequatur",
-    "ConnectionData2": "amet"
+    "ConnectionData1": "animi",
+    "ConnectionData2": "et"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "placeat",
-  "TechExplanation": "enim",
-  "ErrorCode": "maiores",
+  "UserExplanation": "molestiae",
+  "TechExplanation": "veritatis",
+  "ErrorCode": "est",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 840
     }
   }
 }

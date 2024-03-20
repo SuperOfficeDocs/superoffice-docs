@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "West, Lockman and Nienow",
-    "ToolTip": "Occaecati quasi necessitatibus praesentium maiores quis eligendi sunt.",
+    "Id": 387,
+    "Name": "Aufderhar Group",
+    "ToolTip": "Omnis consectetur dolore minima.",
     "Deleted": false,
-    "Rank": 26,
-    "Type": "eum",
-    "ColorBlock": 715,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2019-04-02T14:23:56.228325+02:00",
+    "Rank": 192,
+    "Type": "assumenda",
+    "ColorBlock": 785,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2012-03-01T12:19:54.7271106+01:00",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Dooley-Rath",
-        "ToolTip": "Velit ipsa.",
+        "Id": 699,
+        "Name": "Gottlieb, Swaniawski and Ritchie",
+        "ToolTip": "Et sit.",
         "Deleted": false,
-        "Rank": 945,
-        "Type": "voluptatibus",
-        "ColorBlock": 171,
-        "IconHint": "vel",
+        "Rank": 418,
+        "Type": "voluptates",
+        "ColorBlock": 463,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2005-11-07T14:23:56.228325+01:00",
+        "LastChanged": "1999-01-11T12:19:54.7271106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Layla Robel"
+        "FullName": "Emmanuelle Harvey"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Prof. Hosea Emmerich"
+    "ExtraInfo": "officia",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Rafael Schmidt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Walker-Rosenbaum",
-    "ToolTip": "Sapiente qui aut nihil.",
+    "Id": 404,
+    "Name": "Bradtke Group",
+    "ToolTip": "Expedita tempora.",
     "Deleted": false,
-    "Rank": 90,
-    "Type": "modi",
-    "ColorBlock": 615,
-    "IconHint": "pariatur",
+    "Rank": 281,
+    "Type": "labore",
+    "ColorBlock": 895,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2015-05-15T14:23:56.228325+02:00",
+    "LastChanged": "2009-02-19T12:19:54.7271106+01:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Gerlach-Greenholt",
-        "ToolTip": "Sed atque consequatur expedita vitae.",
-        "Deleted": false,
-        "Rank": 148,
-        "Type": "consequuntur",
-        "ColorBlock": 204,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2003-08-07T14:23:56.228325+02:00",
+        "Id": 482,
+        "Name": "Altenwerth, Shields and Kiehn",
+        "ToolTip": "Voluptatibus id adipisci voluptas iure aut nisi voluptatum.",
+        "Deleted": true,
+        "Rank": 457,
+        "Type": "debitis",
+        "ColorBlock": 429,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2000-12-25T12:19:54.7271106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "magni",
         "Hidden": true,
-        "FullName": "Harvey Quitzon PhD",
+        "FullName": "Liliane Ahmad Schmeler PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldType": "System.String",
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Dr. Emil Destini Torphy",
+    "ExtraInfo": "amet",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Zackery Alexie Ziemann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 416
       }
     }
   }

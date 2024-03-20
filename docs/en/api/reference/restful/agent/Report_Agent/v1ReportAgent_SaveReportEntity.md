@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 444,
+  "ReportId": 352,
   "ReportCategory": "All",
-  "Description": "Reverse-engineered client-server matrix",
+  "Description": "Quality-focused solution-oriented architecture",
   "ReportLayout": "CalendarMonth",
-  "Name": "Grant Inc and Sons",
-  "AssociateId": 719,
-  "TemplateId": 230,
+  "Name": "Cummings-Heller",
+  "AssociateId": 268,
+  "TemplateId": 610,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 862,
+  "ReportId": 998,
   "ReportCategory": "All",
-  "Description": "Reverse-engineered context-sensitive alliance",
+  "Description": "Organized motivating info-mediaries",
   "ReportLayout": "CalendarMonth",
-  "Name": "Nikolaus Inc and Sons",
-  "AssociateId": 471,
-  "TemplateId": 954,
+  "Name": "Vandervort, Fadel and Hauck",
+  "AssociateId": 319,
+  "TemplateId": 272,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldLength": 817
     }
   }
 }

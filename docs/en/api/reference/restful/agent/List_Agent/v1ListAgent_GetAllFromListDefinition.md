@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 858,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 883,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Green, Baumbach and Lubowitz",
-    "Tooltip": "sit",
+    "Id": 735,
+    "Name": "Kuhn, Rowe and Hermiston",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 594,
-    "Rank": 618,
+    "UdListDefinitionId": 202,
+    "Rank": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldLength": 573
       }
     }
   }

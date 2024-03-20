@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Kertzmann LLC",
-    "ToolTip": "Quibusdam quasi.",
+    "Id": 52,
+    "Name": "Reichel-Bogan",
+    "ToolTip": "Fuga officiis reprehenderit id est est consequatur.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "cum",
-    "ColorBlock": 283,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2018-08-13T14:23:56.1502016+02:00",
+    "Rank": 196,
+    "Type": "ratione",
+    "ColorBlock": 185,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2022-07-14T12:19:54.6334859+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "McGlynn, Smith and Cartwright",
-        "ToolTip": "Ut a occaecati.",
+        "Id": 849,
+        "Name": "Crist-Hamill",
+        "ToolTip": "Possimus exercitationem quod qui ut similique tempore.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "exercitationem",
-        "ColorBlock": 653,
-        "IconHint": "sint",
+        "Rank": 136,
+        "Type": "voluptatem",
+        "ColorBlock": 939,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2019-10-04T14:23:56.1502016+02:00",
+        "LastChanged": "2009-02-15T12:19:54.6334859+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "beatae",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Kristofer Homenick"
+        "FullName": "Michaela Kshlerin PhD"
       }
     ],
     "ExtraInfo": "accusamus",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Prof. Mckayla Leannon Sr."
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Dr. Elvie Stark"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Jacobi, Koss and Mann",
-    "ToolTip": "Eligendi quod quia cupiditate.",
+    "Id": 819,
+    "Name": "Berge Group",
+    "ToolTip": "Qui tempore sed magni minus velit.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "voluptatem",
-    "ColorBlock": 355,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2017-11-15T14:23:56.1502016+01:00",
+    "Rank": 235,
+    "Type": "assumenda",
+    "ColorBlock": 135,
+    "IconHint": "nisi",
+    "Selected": true,
+    "LastChanged": "2019-05-31T12:19:54.6490067+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Farrell-Schmidt",
-        "ToolTip": "Minus quae odit.",
+        "Id": 301,
+        "Name": "Stamm LLC",
+        "ToolTip": "Et enim quidem qui ab.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "mollitia",
-        "ColorBlock": 64,
-        "IconHint": "sint",
+        "Rank": 81,
+        "Type": "vel",
+        "ColorBlock": 61,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1998-03-12T14:23:56.1502016+01:00",
+        "LastChanged": "2019-02-02T12:19:54.6490067+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "magnam",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Kolby Pietro Parker Jr.",
+        "FullName": "Ms. Daniella Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 865
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Price Braun",
+    "FullName": "Zita Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

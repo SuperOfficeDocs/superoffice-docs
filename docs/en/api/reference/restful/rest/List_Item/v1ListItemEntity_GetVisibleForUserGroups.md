@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Keeling-Lowe",
-    "ToolTip": "Mollitia aliquid est tempora laboriosam ut consequatur.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "rerum",
-    "ColorBlock": 283,
-    "IconHint": "dolorem",
+    "Id": 598,
+    "Name": "Zboncak Group",
+    "ToolTip": "Voluptas nam iusto consequuntur illum.",
+    "Deleted": false,
+    "Rank": 650,
+    "Type": "sunt",
+    "ColorBlock": 252,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2019-02-24T14:23:55.9314526+01:00",
+    "LastChanged": "2009-07-03T12:19:54.2740906+02:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Shields LLC",
-        "ToolTip": "Delectus asperiores impedit.",
+        "Id": 855,
+        "Name": "Kuhic-Jacobs",
+        "ToolTip": "Nihil eum mollitia occaecati fuga eum quam est.",
         "Deleted": false,
-        "Rank": 656,
-        "Type": "ullam",
-        "ColorBlock": 657,
-        "IconHint": "officiis",
+        "Rank": 11,
+        "Type": "molestias",
+        "ColorBlock": 154,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2018-10-02T14:23:55.9314526+02:00",
+        "LastChanged": "2018-01-25T12:19:54.2740906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "in",
+        "ExtraInfo": "quos",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Mylene Thompson",
+        "FullName": "Branson Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Hillard Connie Langosh IV",
+    "ExtraInfo": "numquam",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Norwood Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

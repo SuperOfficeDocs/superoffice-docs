@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 896,
-    "ColumnId": 812,
-    "FieldDefault": "dicta",
-    "FieldHeight": 625,
-    "FieldLabel": "nobis",
-    "FieldLeft": 349,
-    "FieldTop": 973,
+    "UDefFieldId": 402,
+    "ColumnId": 575,
+    "FieldDefault": "neque",
+    "FieldHeight": 868,
+    "FieldLabel": "minima",
+    "FieldLeft": 613,
+    "FieldTop": 496,
     "FieldType": "Checkbox",
-    "FieldWidth": 549,
-    "FormatMask": "et",
-    "HideLabel": true,
+    "FieldWidth": 785,
+    "FormatMask": "labore",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 460,
-    "LabelLeft": 376,
-    "LabelTop": 792,
-    "LabelWidth": 279,
-    "LastVersionId": 724,
-    "ListTableId": 493,
-    "IsMandatory": true,
+    "LabelHeight": 674,
+    "LabelLeft": 187,
+    "LabelTop": 123,
+    "LabelWidth": 538,
+    "LastVersionId": 575,
+    "ListTableId": 761,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 717,
-    "ProgId": "culpa",
+    "Page1LineNo": 213,
+    "ProgId": "magni",
     "IsReadOnly": false,
-    "ShortLabel": "quibusdam",
-    "TabOrder": 928,
-    "TextLength": 277,
-    "Tooltip": "ut",
-    "UdefIdentity": 877,
-    "UDListDefinitionId": 843,
+    "ShortLabel": "sed",
+    "TabOrder": 343,
+    "TextLength": 679,
+    "Tooltip": "iure",
+    "UdefIdentity": 731,
+    "UDListDefinitionId": 622,
     "Justification": "Center",
-    "Version": 108,
-    "TemplateVariableName": "Veum, Quigley and Fisher",
-    "HasBeenPublished": true,
-    "MdoListName": "Brekke-Hagenes",
+    "Version": 435,
+    "TemplateVariableName": "Breitenberg LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Reichel, Hartmann and Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldLength": 557
       }
     }
   }

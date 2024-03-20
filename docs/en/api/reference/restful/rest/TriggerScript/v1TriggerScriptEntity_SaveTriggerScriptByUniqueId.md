@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 213,
-  "Name": "Toy LLC",
+  "ScreenChooserId": 500,
+  "Name": "Koepp, Boehm and Thompson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "qui",
-  "Source": "reiciendis",
-  "Registered": "2011-11-30T14:23:55.7595795+01:00",
-  "RegisteredAssociateId": 818,
-  "Updated": "2014-08-14T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 935
+  "UniqueIdentifier": "animi",
+  "Source": "beatae",
+  "Registered": "2008-09-06T12:19:54.0866374+02:00",
+  "RegisteredAssociateId": 319,
+  "Updated": "1998-05-21T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 938
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 696,
-  "Name": "Jenkins, Gerlach and Stroman",
+  "ScreenChooserId": 809,
+  "Name": "Heller Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nihil",
-  "Source": "atque",
-  "Registered": "2022-11-30T14:23:55.7595795+01:00",
-  "RegisteredAssociateId": 882,
-  "Updated": "2011-09-21T14:23:55.7595795+02:00",
-  "UpdatedAssociateId": 61,
+  "Enabled": true,
+  "UniqueIdentifier": "quam",
+  "Source": "minima",
+  "Registered": "2012-12-24T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 79,
+  "Updated": "2013-09-12T12:19:54.0866374+02:00",
+  "UpdatedAssociateId": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 747
     }
   }
 }

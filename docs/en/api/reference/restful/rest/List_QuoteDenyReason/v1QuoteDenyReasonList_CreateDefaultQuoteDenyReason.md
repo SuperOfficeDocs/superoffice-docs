@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,17 +71,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 377,
-  "Name": "Will, Carroll and Rolfson",
-  "Tooltip": "reprehenderit",
+  "Name": "Dickinson-Hyatt",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "UdListDefinitionId": 984,
-  "Rank": 969,
+  "UdListDefinitionId": 394,
+  "Rank": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   }
 }

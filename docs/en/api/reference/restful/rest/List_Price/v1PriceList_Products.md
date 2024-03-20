@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=nostrum
-GET /api/v1/Pricelist/{id}/Products?$top=420
-GET /api/v1/Pricelist/{id}/Products?$skip=634
+GET /api/v1/Pricelist/{id}/Products?$entities=perspiciatis
+GET /api/v1/Pricelist/{id}/Products?$top=301
+GET /api/v1/Pricelist/{id}/Products?$skip=845
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=corrupti
+GET /api/v1/Pricelist/{id}/Products?$context=minus
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
 GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
 GET /api/v1/Pricelist/{id}/Products?$output=Display
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laboriosam",
+  "odata.nextLink": "iste",
   "value": [
     {
-      "PrimaryKey": 5758,
+      "PrimaryKey": 1436,
       "EntityName": "sale",
-      "saleId": 5758,
-      "contactId": 9450,
-      "name": "Hintz-Feeney"
+      "saleId": 1436,
+      "contactId": 1915,
+      "name": "Kuhic, Kuhic and Orn"
     },
     {
-      "PrimaryKey": 2624,
+      "PrimaryKey": 1606,
       "EntityName": "sale",
-      "saleId": 2624,
-      "contactId": 6174,
-      "name": "Skiles-Morissette"
+      "saleId": 1606,
+      "contactId": 5309,
+      "name": "Prohaska Group"
     }
   ]
 }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Vandervort-Effertz",
-    "DisplayName": "Boyle, O'Conner and Hammes",
-    "Description": "Pre-emptive holistic data-warehouse",
-    "ShortLabel": "recusandae",
+    "FieldName": "Hagenes-Gerlach",
+    "DisplayName": "Koss, Bechtelar and Friesen",
+    "Description": "Secured bandwidth-monitored data-warehouse",
+    "ShortLabel": "eveniet",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 256,
-    "TemplateVariableName": "Schneider-Stracke"
+    "IsExternal": false,
+    "Rank": 858,
+    "TemplateVariableName": "Bartoletti Group"
   }
 ]
 ```

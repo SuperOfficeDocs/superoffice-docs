@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke-Schneider",
-  "ForceFlatList": true,
-  "AdditionalInfo": "recusandae",
+  "Name": "Blanda, Pollich and Nikolaus",
+  "ForceFlatList": false,
+  "AdditionalInfo": "praesentium",
   "HistoryItems": [
-    728,
-    114
+    550,
+    373
   ],
   "OnlyHistory": true
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Quigley, Greenholt and Koepp",
-    "ToolTip": "Sed quia nemo.",
-    "Deleted": true,
-    "Rank": 476,
-    "Type": "sit",
+    "Id": 539,
+    "Name": "Hirthe-Hodkiewicz",
+    "ToolTip": "Dignissimos aut voluptatem optio facilis id similique.",
+    "Deleted": false,
+    "Rank": 124,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Schumm LLC",
-        "ToolTip": "Sed dolores nostrum ratione deserunt id.",
-        "Deleted": true,
-        "Rank": 485,
-        "Type": "saepe",
+        "Id": 588,
+        "Name": "Konopelski, Jaskolski and Kuhic",
+        "ToolTip": "Quis facilis eligendi officia.",
+        "Deleted": false,
+        "Rank": 626,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 861,
+        "IconHint": "officiis",
+        "ColorBlock": 61,
         "ExtraInfo": "iusto",
-        "StyleHint": "minima",
-        "FullName": "Ms. Ethelyn Darrin McLaughlin",
+        "StyleHint": "dicta",
+        "FullName": "Kaden Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldLength": 613
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 520,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "reprehenderit",
-    "FullName": "Mrs. Lysanne Walsh IV",
+    "IconHint": "aut",
+    "ColorBlock": 941,
+    "ExtraInfo": "itaque",
+    "StyleHint": "minima",
+    "FullName": "Vilma Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 206
       }
     }
   }

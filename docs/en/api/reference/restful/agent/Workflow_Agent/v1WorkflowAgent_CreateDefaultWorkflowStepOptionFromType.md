@@ -66,9 +66,9 @@ OK
 | OptionType | string | Type of option |
 | WorkflowStepOptionId | int32 | Primary key |
 | WorkflowStepId | int32 | The workflow step this instance belongs to |
-| WorkflowId | int32 | The flow this instance belongs to |
+| WorkflowId | int32 | Workflow id |
 | Name | string | The name of this option |
-| Rank | int32 | The rank of this option |
+| Rank | int32 | Step order |
 | Steps | array | The steps to execute if this option/path is selected |
 
 ## Sample request
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 290,
-  "WorkflowStepId": 133,
-  "WorkflowId": 871,
-  "Name": "Spinka-Walker",
-  "Rank": 578,
+  "WorkflowStepOptionId": 786,
+  "WorkflowStepId": 773,
+  "WorkflowId": 518,
+  "Name": "Gerhold LLC",
+  "Rank": 765,
   "Steps": [
     {
-      "WorkflowStepId": 790,
-      "WorkflowId": 4,
+      "WorkflowStepId": 426,
+      "WorkflowId": 13,
       "StepType": "AddToList",
-      "Rank": 343
+      "Rank": 547
     },
     {
-      "WorkflowStepId": 790,
-      "WorkflowId": 4,
+      "WorkflowStepId": 426,
+      "WorkflowId": 13,
       "StepType": "AddToList",
-      "Rank": 343
+      "Rank": 547
     }
   ]
 }

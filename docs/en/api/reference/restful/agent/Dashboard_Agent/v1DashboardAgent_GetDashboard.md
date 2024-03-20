@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=125
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=170
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 840,
-  "AssociateId": 931,
-  "Caption": "sequi",
+  "DashboardId": 693,
+  "AssociateId": 38,
+  "Caption": "temporibus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 968,
-      "Caption": "non",
-      "Description": "Decentralized incremental software",
-      "ChartName": "O'Kon-Beatty",
-      "ChartId": "qui",
-      "IsDefault": false,
-      "AssociateId": 816,
-      "GroupId": 700,
-      "SelectionId": 81,
-      "Config": "quod",
+      "DashboardTileId": 821,
+      "Caption": "veritatis",
+      "Description": "Cross-group human-resource product",
+      "ChartName": "Thompson, Heaney and Schinner",
+      "ChartId": "sed",
+      "IsDefault": true,
+      "AssociateId": 822,
+      "GroupId": 209,
+      "SelectionId": 686,
+      "Config": "alias",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 226
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 667
     }
   }
 }

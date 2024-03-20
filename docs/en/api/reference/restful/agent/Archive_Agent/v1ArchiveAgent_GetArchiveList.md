@@ -108,29 +108,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Morar Group",
-  "ProviderName": "Sipes-Corkery",
+  "GuiName": "Kovacek-Lynch",
+  "ProviderName": "Kris-Padberg",
   "SortOrder": [
     {
-      "Name": "Lowe-Borer",
+      "Name": "Lueilwitz LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Lowe-Borer",
+      "Name": "Lueilwitz LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ziemann LLC",
-      "Operator": "illo",
+      "Name": "Considine, Herman and Christiansen",
+      "Operator": "accusamus",
       "Values": [
-        "quia",
-        "sed"
+        "dolorem",
+        "illo"
       ],
       "DisplayValues": [
-        "aut",
-        "facilis"
+        "qui",
+        "totam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 663,
+      "InterParenthesis": 801,
       "InterOperator": "And",
-      "UniqueHash": 9
+      "UniqueHash": 922
     }
   ],
   "Entities": [
-    "atque",
-    "facilis"
+    "optio",
+    "consequatur"
   ],
-  "Page": 437,
-  "PageSize": 190
+  "Page": 20,
+  "PageSize": 331
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dach Group",
-    "PrimaryKey": 56,
+    "EntityName": "Ondricka-Bednar",
+    "PrimaryKey": 872,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "itaque",
-        "TooltipHint": "libero",
-        "LinkHint": "enim"
+        "DisplayValue": "eos",
+        "TooltipHint": "quibusdam",
+        "LinkHint": "odio"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "voluptatem",
+    "LinkHint": "nulla",
+    "StyleHint": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 505
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "ipsam",
+  "Id": 977,
+  "Name": "Feil Inc and Sons",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 664,
-  "Rank": 36,
+  "UdListDefinitionId": 961,
+  "Rank": 806,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldLength": 382
     }
   }
 }

@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 653,
-  "ParentId": 502,
-  "Name": "Kshlerin, Bednar and Doyle",
-  "Fullname": "modi",
-  "CategoryMaster": 408,
+  "TicketCategoryId": 515,
+  "ParentId": 101,
+  "Name": "Powlowski-Ortiz",
+  "Fullname": "amet",
+  "CategoryMaster": 964,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Renner-Jast",
+  "ExternalName": "Veum-Dietrich",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 899,
-  "ReplyTemplate": 800,
-  "NotificationEmail": "glenna.walter@bogan.co.uk",
+  "AssignmentLag": 585,
+  "ReplyTemplate": 1001,
+  "NotificationEmail": "alexane@hanesenger.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 802,
+  "EffectiveReplyTemplateId": 602,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "illum"
+    "CustomFields1": "rem",
+    "CustomFields2": "quas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 979
     }
   }
 }

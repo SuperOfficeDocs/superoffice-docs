@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
+  "Id": 589,
   "Entities": [
     {
-      "HeadingId": 936,
-      "Name": "Howe, Pagac and Crona",
+      "HeadingId": 437,
+      "Name": "Rutherford, Rippin and White",
       "Tooltip": "et",
-      "Deleted": true,
-      "Rank": 443,
-      "UdListDefinitionId": 572
+      "Deleted": false,
+      "Rank": 240,
+      "UdListDefinitionId": 556
     },
     {
-      "HeadingId": 936,
-      "Name": "Howe, Pagac and Crona",
+      "HeadingId": 437,
+      "Name": "Rutherford, Rippin and White",
       "Tooltip": "et",
-      "Deleted": true,
-      "Rank": 443,
-      "UdListDefinitionId": 572
+      "Deleted": false,
+      "Rank": 240,
+      "UdListDefinitionId": 556
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 746,
-    "Name": "Farrell Group",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 292,
-    "UdListDefinitionId": 280,
+    "HeadingId": 132,
+    "Name": "Robel Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 95,
+    "UdListDefinitionId": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 289
       }
     }
   }

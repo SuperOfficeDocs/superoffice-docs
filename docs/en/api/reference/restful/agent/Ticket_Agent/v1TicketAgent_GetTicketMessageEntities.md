@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 316,
+  "TicketId": 599,
   "MessageIds": [
-    939,
-    131
+    846,
+    504
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 87,
+    "EjMessageId": 696,
     "Ticket": null,
-    "CreatedAt": "2018-03-28T14:23:47.7692506+02:00",
+    "CreatedAt": "2020-04-23T12:19:46.491985+02:00",
     "CreatedBy": null,
-    "Author": "pariatur",
+    "Author": "quisquam",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "voluptatem",
-    "TimeSpent": 653,
-    "Body": "quo",
-    "HtmlBody": "quia",
-    "EmailHeader": "colton_kuhn@nienow.co.uk",
-    "DebugInfo": "adipisci",
-    "MailSorter": "ullam",
+    "MessageId": "eveniet",
+    "TimeSpent": 201,
+    "Body": "nostrum",
+    "HtmlBody": "sapiente",
+    "EmailHeader": "eulah_veum@breitenberg.uk",
+    "DebugInfo": "consectetur",
+    "MailSorter": "asperiores",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "repellendus",
+    "SearchTitle": "et",
     "MessageHeaders": [
       {
-        "Id": 636,
-        "Name": "Dickinson-Larson",
-        "Value": "optio",
+        "Id": 353,
+        "Name": "Nikolaus-Ferry",
+        "Value": "consequatur",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldLength": 779
           }
         }
       }
     ],
     "Important": false,
-    "Language": "accusantium",
-    "Sentiment": 216,
-    "SentimentConfidence": 865,
+    "Language": "alias",
+    "Sentiment": 803,
+    "SentimentConfidence": 176,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 640,
-        "Name": "Quitzon-Orn",
-        "ContentType": "eaque",
-        "AttSize": 65,
-        "InlineImage": false,
-        "ContentId": "harum",
-        "AuthKey": "adipisci",
-        "IsSafeFileExtension": true,
+        "AttachmentId": 815,
+        "Name": "Von Inc and Sons",
+        "ContentType": "deserunt",
+        "AttSize": 39,
+        "InlineImage": true,
+        "ContentId": "magnam",
+        "AuthKey": "cumque",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldType": "System.String",
+            "FieldLength": 152
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "quaerat",
-      "ExtraFields2": "exercitationem"
+      "ExtraFields1": "cumque",
+      "ExtraFields2": "quod"
     },
     "CustomFields": {
-      "CustomFields1": "repellat",
-      "CustomFields2": "recusandae"
+      "CustomFields1": "est",
+      "CustomFields2": "ipsa"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 980
       }
     }
   }

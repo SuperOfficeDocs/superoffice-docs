@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 768,
-  "ERPPriceListKey": "facilis",
-  "QuoteConnectionId": 821,
-  "Name": "Armstrong, Shields and Quigley",
-  "Description": "Cloned assymetric groupware",
-  "Currency": "debitis",
-  "CurrencyName": "Hermann Inc and Sons",
-  "ValidFrom": "2020-11-16T14:23:47.222383+01:00",
-  "ValidTo": "2018-06-23T14:23:47.222383+02:00",
+  "PriceListId": 388,
+  "ERPPriceListKey": "dolorem",
+  "QuoteConnectionId": 810,
+  "Name": "Lockman, D'Amore and Schaden",
+  "Description": "Devolved homogeneous protocol",
+  "Currency": "ut",
+  "CurrencyName": "Hirthe, Carter and Bernhard",
+  "ValidFrom": "2000-04-21T12:19:46.0701997+02:00",
+  "ValidTo": "2009-08-07T12:19:46.0701997+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 854,
-  "ERPPriceListKey": "libero",
-  "QuoteConnectionId": 1002,
-  "Name": "Rolfson, Champlin and Gutkowski",
-  "Description": "Implemented grid-enabled synergy",
-  "Currency": "voluptas",
-  "CurrencyName": "Mueller, Pagac and Hills",
-  "ValidFrom": "2015-08-19T14:23:47.222383+02:00",
-  "ValidTo": "2010-03-07T14:23:47.222383+01:00",
+  "PriceListId": 741,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 919,
+  "Name": "Marvin-Schaden",
+  "Description": "Future-proofed human-resource concept",
+  "Currency": "voluptatum",
+  "CurrencyName": "Towne-Bergstrom",
+  "ValidFrom": "2021-08-03T12:19:46.0701997+02:00",
+  "ValidTo": "2016-10-10T12:19:46.0701997+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 581
     }
   }
 }

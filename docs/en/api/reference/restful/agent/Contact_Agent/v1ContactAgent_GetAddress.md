@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 651
+  "ContactId": 980
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 30659.922,
-  "Wgs84Longitude": 3033.712,
+  "Wgs84Latitude": 26165.766,
+  "Wgs84Longitude": 18857.278,
   "LocalizedAddress": [
     [
       {
-        "Name": "Johnson-Steuber",
-        "Value": "reiciendis",
-        "Tooltip": "aut",
-        "Label": "consequatur",
-        "ValueLength": 168,
-        "AddressType": "et",
+        "Name": "Effertz-Leffler",
+        "Value": "et",
+        "Tooltip": "molestiae",
+        "Label": "ea",
+        "ValueLength": 374,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 993
+            "FieldType": "System.String",
+            "FieldLength": 53
           }
         }
       }
     ],
     [
       {
-        "Name": "Schmeler Group",
-        "Value": "ipsum",
-        "Tooltip": "qui",
-        "Label": "nihil",
-        "ValueLength": 886,
-        "AddressType": "iste",
+        "Name": "McDermott, Kessler and Boehm",
+        "Value": "asperiores",
+        "Tooltip": "perspiciatis",
+        "Label": "qui",
+        "ValueLength": 77,
+        "AddressType": "provident",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 490
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ipsam",
+  "Formatted": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 437
     }
   }
 }

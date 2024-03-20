@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Treutel, Medhurst and Turcotte",
-  "Tooltip": "sunt",
+  "Id": 710,
+  "Name": "Lowe-Schimmel",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 155,
-  "IsCustomList": false,
+  "Rank": 733,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "iure",
+  "Id": 454,
+  "Name": "Denesik Group",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 411,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 453
     }
   }
 }

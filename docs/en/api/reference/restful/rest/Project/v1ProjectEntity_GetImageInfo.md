@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Sep 2006 14:23:55 G9T
+Last-Modified: Fri, 15 Apr 2005 12:19:53 G4T
 
 {
-  "BlobId": 866,
-  "BlobSize": 774,
-  "Description": "Reverse-engineered asynchronous website",
-  "ExtraInfo": "sunt",
+  "BlobId": 665,
+  "BlobSize": 123,
+  "Description": "Customizable executive contingency",
+  "ExtraInfo": "omnis",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "esse",
-  "OriginalSize": 686,
-  "CreatedDate": "2018-11-03T14:23:55.3689602+01:00",
-  "UpdatedDate": "2006-09-28T14:23:55.3689602+02:00",
+  "IsZipped": false,
+  "MimeType": "sint",
+  "OriginalSize": 389,
+  "CreatedDate": "2010-11-19T12:19:53.7742043+01:00",
+  "UpdatedDate": "2005-04-15T12:19:53.7742043+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repellat",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 992
     }
   }
 }

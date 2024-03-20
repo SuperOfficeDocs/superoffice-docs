@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Greenfelder LLC",
-  "Tooltip": "explicabo",
+  "Id": 732,
+  "Name": "Jenkins, Bradtke and Prohaska",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 803,
+  "Rank": 1002,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Bosco-Marks",
-  "Tooltip": "eveniet",
+  "Id": 119,
+  "Name": "Kirlin-Wisozk",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "Rank": 906,
-  "IsCustomList": false,
+  "Rank": 829,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

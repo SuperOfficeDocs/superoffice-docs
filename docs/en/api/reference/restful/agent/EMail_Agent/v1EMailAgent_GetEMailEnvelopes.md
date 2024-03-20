@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    259,
-    22
+    834,
+    159
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 738,
-    "MessageId": "aliquid",
-    "Subject": "rem",
+    "ServerId": 136,
+    "MessageId": "inventore",
+    "Subject": "animi",
     "From": null,
     "To": [
       {
-        "ContactId": 142,
-        "ContactName": "Lindgren-Lockman",
-        "PersonId": 514,
-        "PersonName": "Morar-Jacobi",
-        "AssociateId": 987,
-        "Address": "incidunt",
-        "EmailId": 646,
+        "ContactId": 289,
+        "ContactName": "Boyle LLC",
+        "PersonId": 199,
+        "PersonName": "Pollich-Quigley",
+        "AssociateId": 772,
+        "Address": "et",
+        "EmailId": 67,
         "DuplicatePersonIds": [
-          893,
-          262
+          105,
+          685
         ],
-        "Name": "Paucek, Frami and Dicki",
+        "Name": "Kris, Flatley and Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 556
           }
         }
       }
     ],
-    "Sent": "2022-07-02T14:23:46.6743451+02:00",
+    "Sent": "2021-04-09T12:19:45.320371+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 456,
+    "Size": 372,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 370
       }
     }
   }

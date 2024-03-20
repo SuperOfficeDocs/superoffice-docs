@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 470,
-    "Name": "Kutch, Farrell and Sawayn",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 876,
-    "UdListDefinitionId": 341
+    "HeadingId": 36,
+    "Name": "Jakubowski-Borer",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 380,
+    "UdListDefinitionId": 638
   },
   {
-    "HeadingId": 470,
-    "Name": "Kutch, Farrell and Sawayn",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 876,
-    "UdListDefinitionId": 341
+    "HeadingId": 36,
+    "Name": "Jakubowski-Borer",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 380,
+    "UdListDefinitionId": 638
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 928,
-    "Name": "Willms-Green",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 513,
-    "UdListDefinitionId": 623,
+    "HeadingId": 172,
+    "Name": "Hoeger Inc and Sons",
+    "Tooltip": "facilis",
+    "Deleted": false,
+    "Rank": 546,
+    "UdListDefinitionId": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   }

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schulist LLC",
-  "DeviceName": "Schamberger-Abbott",
-  "DeviceIdentifier": "non",
-  "TableName": "Collier LLC",
-  "RecordId": 610
+  "ApplicationName": "Ankunding-Raynor",
+  "DeviceName": "Thiel LLC",
+  "DeviceIdentifier": "nulla",
+  "TableName": "Dooley, Wehner and Bernier",
+  "RecordId": 353
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "cumque",
-    "Value": "doloribus",
-    "RecordId": 807,
-    "CreatedDate": "2012-02-07T14:23:46.7681044+01:00",
-    "UpdatedDate": "2023-10-12T14:23:46.7681044+02:00",
-    "UpdatedBy": "nostrum",
-    "CreatedBy": "architecto",
-    "TableName": "Rau Inc and Sons",
+    "Key": "omnis",
+    "Value": "voluptate",
+    "RecordId": 197,
+    "CreatedDate": "2001-05-13T12:19:45.4297292+02:00",
+    "UpdatedDate": "2004-08-28T12:19:45.4297292+02:00",
+    "UpdatedBy": "accusantium",
+    "CreatedBy": "iste",
+    "TableName": "Herzog, Pagac and Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 346
       }
     }
   }

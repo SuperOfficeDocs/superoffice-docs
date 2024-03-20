@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": false
+  "IsIndexed": true
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 341,
-  "ColumnId": 686,
-  "FieldDefault": "modi",
-  "FieldHeight": 439,
-  "FieldLabel": "natus",
-  "FieldLeft": 353,
-  "FieldTop": 595,
+  "UDefFieldId": 915,
+  "ColumnId": 839,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 665,
+  "FieldLabel": "et",
+  "FieldLeft": 535,
+  "FieldTop": 923,
   "FieldType": "Checkbox",
-  "FieldWidth": 727,
-  "FormatMask": "nobis",
+  "FieldWidth": 719,
+  "FormatMask": "at",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 937,
-  "LabelLeft": 178,
-  "LabelTop": 838,
-  "LabelWidth": 737,
-  "LastVersionId": 498,
-  "ListTableId": 248,
-  "IsMandatory": true,
+  "LabelHeight": 363,
+  "LabelLeft": 452,
+  "LabelTop": 358,
+  "LabelWidth": 760,
+  "LastVersionId": 416,
+  "ListTableId": 990,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 853,
-  "ProgId": "modi",
-  "IsReadOnly": false,
-  "ShortLabel": "delectus",
-  "TabOrder": 548,
-  "TextLength": 548,
-  "Tooltip": "consectetur",
-  "UdefIdentity": 750,
-  "UDListDefinitionId": 115,
+  "Page1LineNo": 934,
+  "ProgId": "neque",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 182,
+  "TextLength": 104,
+  "Tooltip": "et",
+  "UdefIdentity": 775,
+  "UDListDefinitionId": 813,
   "Justification": "Center",
-  "Version": 129,
-  "TemplateVariableName": "Rau LLC",
+  "Version": 330,
+  "TemplateVariableName": "Abbott, Marks and Gibson",
   "HasBeenPublished": false,
-  "MdoListName": "Wintheiser Inc and Sons",
+  "MdoListName": "Larson, Bogan and Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 990
     }
   }
 }

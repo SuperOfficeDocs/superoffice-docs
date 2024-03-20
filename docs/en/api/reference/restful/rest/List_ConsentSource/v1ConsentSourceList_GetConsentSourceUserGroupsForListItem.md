@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Bogan-Bayer",
-    "ToolTip": "Nisi adipisci est dolorem iure qui blanditiis.",
+    "Id": 688,
+    "Name": "Hammes-Torphy",
+    "ToolTip": "Nihil natus voluptates est consequatur enim officiis fugiat.",
     "Deleted": false,
-    "Rank": 380,
-    "Type": "autem",
-    "ColorBlock": 548,
-    "IconHint": "commodi",
+    "Rank": 204,
+    "Type": "commodi",
+    "ColorBlock": 812,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2015-12-11T14:23:56.0252035+01:00",
+    "LastChanged": "2014-07-04T12:19:54.3522098+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Stark-Hackett",
-        "ToolTip": "Et sunt in sit perferendis nemo.",
+        "Id": 117,
+        "Name": "Rogahn Inc and Sons",
+        "ToolTip": "Incidunt delectus voluptatibus ea et fugit.",
         "Deleted": false,
-        "Rank": 156,
-        "Type": "cupiditate",
-        "ColorBlock": 397,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2015-02-11T14:23:56.0252035+01:00",
+        "Rank": 344,
+        "Type": "laborum",
+        "ColorBlock": 743,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2005-06-23T12:19:54.3522098+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "aut",
+        "ExtraInfo": "eos",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Dr. Dahlia Marley Marvin Jr.",
+        "FullName": "Chaya Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "illo",
+    "ExtraInfo": "quo",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Aiyana Morissette",
+    "FullName": "Miss Gregg Bartell II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

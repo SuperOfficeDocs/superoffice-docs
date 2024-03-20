@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 620,
-    "Name": "Keeling, Lubowitz and Mosciski",
-    "Tooltip": "officia",
-    "SaveInDb": 757,
-    "Filename": "mollitia",
-    "DefaultOref": "consequatur",
+    "DocumentTemplateId": 711,
+    "Name": "Cole-Gaylord",
+    "Tooltip": "dolores",
+    "SaveInDb": 861,
+    "Filename": "occaecati",
+    "DefaultOref": "ut",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 960,
-    "IntentId": 259,
-    "IsDefaultPublished": true,
-    "Rank": 590,
-    "LoadTemplateFromPlugin": 838,
-    "MimeType": "dolorem",
+    "AutoeventId": 751,
+    "IntentId": 845,
+    "IsDefaultPublished": false,
+    "Rank": 9,
+    "LoadTemplateFromPlugin": 909,
+    "MimeType": "magnam",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 808,
+    "DocumentTypeKey": 502,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "mina_klein@hansenabshire.name",
+    "EmailSubject": "okey@ortiz.ca",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "ashlee@baumbach.com",
+    "SenderEmailAddress": "hulda@schuster.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 309
       }
     }
   }

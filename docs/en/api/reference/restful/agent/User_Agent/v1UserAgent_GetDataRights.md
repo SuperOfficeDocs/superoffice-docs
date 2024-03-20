@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 319,
-  "TableName": "Schinner Inc and Sons"
+  "RoleId": 2,
+  "TableName": "Kemmer Group"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quidem",
-  "2": "earum"
+  "1": "impedit",
+  "2": "est"
 }
 ```

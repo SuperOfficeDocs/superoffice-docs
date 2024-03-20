@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 98,
-  "UniqueIdentifier": "repellendus",
-  "Name": "Osinski Group",
-  "Description": "Switchable explicit middleware",
-  "IncludeId": "assumenda",
-  "HierarchyId": 292,
-  "Source": "qui",
-  "Registered": "2017-08-09T14:23:55.0552747+02:00",
-  "RegisteredAssociateId": 698,
-  "Updated": "2018-08-18T14:23:55.0552747+02:00",
-  "UpdatedAssociateId": 611,
+  "EjscriptId": 884,
+  "UniqueIdentifier": "aut",
+  "Name": "Mueller-Schiller",
+  "Description": "Synergistic responsive hierarchy",
+  "IncludeId": "totam",
+  "HierarchyId": 400,
+  "Source": "autem",
+  "Registered": "2019-09-09T12:19:53.3055654+02:00",
+  "RegisteredAssociateId": 770,
+  "Updated": "2003-05-16T12:19:53.3055654+02:00",
+  "UpdatedAssociateId": 202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

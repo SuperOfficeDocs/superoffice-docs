@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "nesciunt"
+  "Domain": "optio"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schaefer Inc and Sons",
-    "SoPrimaryKey": 496,
-    "EntryName": "Kohler, Anderson and Auer",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "McCullough, Rempel and Zemlak",
+    "RuleName": "Terry, Hermiston and Towne",
+    "SoPrimaryKey": 612,
+    "EntryName": "Koelpin LLC",
+    "EntryIdentifier": "rem",
+    "RuleDisplayName": "Franecki, Heathcote and Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldType": "System.String",
+        "FieldLength": 210
       }
     }
   }

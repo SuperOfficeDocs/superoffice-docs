@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 611,
-  "Name": "Fritsch-Williamson",
-  "CurrencyId": 332,
-  "EnglishName": "Lebsack-Mayer",
+  "CountryId": 648,
+  "Name": "Abshire-Considine",
+  "CurrencyId": 170,
+  "EnglishName": "Blanda-Klein",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Managed encompassing flexibility",
-  "OrgNrText": "171100",
-  "InterAreaPrefix": "voluptatum",
-  "DialInPrefix": "corporis",
-  "ZipPrefix": "rerum",
-  "DomainName": "Spinka Inc and Sons",
-  "AddressLayoutId": 506,
-  "DomesticAddressLayoutId": 710,
-  "ForeignAddressLayoutId": 397,
-  "Rank": 446,
-  "Tooltip": "voluptatem",
-  "Deleted": true
+  "ImageDescription": "Optional multi-state methodology",
+  "OrgNrText": "345305",
+  "InterAreaPrefix": "beatae",
+  "DialInPrefix": "dicta",
+  "ZipPrefix": "perspiciatis",
+  "DomainName": "Johns, Ritchie and Kris",
+  "AddressLayoutId": 312,
+  "DomesticAddressLayoutId": 542,
+  "ForeignAddressLayoutId": 59,
+  "Rank": 177,
+  "Tooltip": "earum",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 939,
-  "Name": "Waelchi Inc and Sons",
-  "CurrencyId": 992,
-  "EnglishName": "Walter-Bartell",
+  "CountryId": 239,
+  "Name": "Sanford LLC",
+  "CurrencyId": 543,
+  "EnglishName": "Gaylord-Jacobs",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-tiered executive structure",
-  "OrgNrText": "1319787",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "velit",
-  "DomainName": "Schimmel-Abernathy",
-  "AddressLayoutId": 549,
-  "DomesticAddressLayoutId": 277,
-  "ForeignAddressLayoutId": 497,
-  "Rank": 745,
-  "Tooltip": "quasi",
+  "ImageDescription": "Mandatory clear-thinking capability",
+  "OrgNrText": "1599781",
+  "InterAreaPrefix": "voluptatem",
+  "DialInPrefix": "est",
+  "ZipPrefix": "officia",
+  "DomainName": "Bradtke, Bruen and Wilderman",
+  "AddressLayoutId": 179,
+  "DomesticAddressLayoutId": 917,
+  "ForeignAddressLayoutId": 848,
+  "Rank": 801,
+  "Tooltip": "fugit",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 377
     }
   }
 }

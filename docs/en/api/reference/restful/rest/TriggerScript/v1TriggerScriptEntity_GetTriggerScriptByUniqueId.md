@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 461,
-  "Name": "Keebler-Carter",
+  "ScreenChooserId": 98,
+  "Name": "O'Keefe, Steuber and Beatty",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "est",
-  "Registered": "2009-01-08T14:23:55.7595795+01:00",
-  "RegisteredAssociateId": 300,
-  "Updated": "2000-01-07T14:23:55.7595795+01:00",
-  "UpdatedAssociateId": 776,
+  "UniqueIdentifier": "commodi",
+  "Source": "qui",
+  "Registered": "1998-11-13T12:19:54.0866374+01:00",
+  "RegisteredAssociateId": 856,
+  "Updated": "2018-12-15T12:19:54.0866374+01:00",
+  "UpdatedAssociateId": 549,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 994
     }
   }
 }

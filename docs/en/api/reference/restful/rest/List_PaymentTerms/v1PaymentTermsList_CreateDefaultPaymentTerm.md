@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Russel-Labadie",
-  "Tooltip": "eligendi",
+  "Id": 793,
+  "Name": "Fritsch-Schimmel",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "UdListDefinitionId": 374,
-  "Rank": 166,
+  "UdListDefinitionId": 562,
+  "Rank": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   }
 }

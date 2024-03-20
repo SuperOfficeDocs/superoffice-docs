@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 309
+  "EntityId": 797
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 167,
-    "ConnectionName": "Murazik, Kohler and Heathcote",
+    "ErpConnectionId": 992,
+    "ConnectionName": "Emard Inc and Sons",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "saepe",
-        "Rank": 768,
-        "DisplayName": "Cummings-Reinger",
-        "DisplayDescription": "Self-enabling context-sensitive knowledge base",
+        "FieldKey": "autem",
+        "Rank": 296,
+        "DisplayName": "Mohr Group",
+        "DisplayDescription": "Focused bandwidth-monitored local area network",
         "FieldType": "Checkbox",
-        "ListName": "Gibson Group",
-        "DefaultValue": "quod",
-        "MaxLength": 594,
+        "ListName": "Schimmel LLC",
+        "DefaultValue": "consequatur",
+        "MaxLength": 220,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldLength": 423
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "id",
-      "iste"
+      "molestiae",
+      "eaque"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldLength": 894
       }
     }
   }

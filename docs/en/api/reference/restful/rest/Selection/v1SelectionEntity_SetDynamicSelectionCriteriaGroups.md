@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thiel, Spinka and Prosacco",
-    "Description": "Cross-platform dedicated monitoring",
-    "Rank": 917,
+    "Name": "Osinski, Friesen and Turcotte",
+    "Description": "Devolved executive toolset",
+    "Rank": 660,
     "Restrictions": [
       {
-        "Name": "Nader LLC",
-        "Operator": "fuga",
+        "Name": "Kozey, Macejkovic and Graham",
+        "Operator": "eveniet",
         "Values": [
-          "quis",
+          "earum",
           "et"
         ],
         "DisplayValues": [
-          "provident",
-          "expedita"
+          "ipsam",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 970,
+        "InterParenthesis": 184,
         "InterOperator": "And",
-        "UniqueHash": 72
+        "UniqueHash": 30
       }
     ]
   },
   {
-    "Name": "Thiel, Spinka and Prosacco",
-    "Description": "Cross-platform dedicated monitoring",
-    "Rank": 917,
+    "Name": "Osinski, Friesen and Turcotte",
+    "Description": "Devolved executive toolset",
+    "Rank": 660,
     "Restrictions": [
       {
-        "Name": "Nader LLC",
-        "Operator": "fuga",
+        "Name": "Kozey, Macejkovic and Graham",
+        "Operator": "eveniet",
         "Values": [
-          "quis",
+          "earum",
           "et"
         ],
         "DisplayValues": [
-          "provident",
-          "expedita"
+          "ipsam",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 970,
+        "InterParenthesis": 184,
         "InterOperator": "And",
-        "UniqueHash": 72
+        "UniqueHash": 30
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heathcote, Herzog and Runte",
-    "Description": "Stand-alone optimizing info-mediaries",
-    "Rank": 306,
+    "Name": "Ruecker, Wunsch and Towne",
+    "Description": "Phased holistic access",
+    "Rank": 377,
     "Restrictions": [
       {
-        "Name": "Langworth, Kohler and Abshire",
-        "Operator": "sed",
+        "Name": "Kemmer, Christiansen and Torp",
+        "Operator": "rerum",
         "Values": [
-          "fugiat",
-          "voluptatem"
+          "quam",
+          "tenetur"
         ],
         "DisplayValues": [
-          "alias",
-          "modi"
+          "nam",
+          "harum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 644,
+        "InterParenthesis": 203,
         "InterOperator": "And",
-        "UniqueHash": 995
+        "UniqueHash": 396
       }
     ]
   },
   {
-    "Name": "Heathcote, Herzog and Runte",
-    "Description": "Stand-alone optimizing info-mediaries",
-    "Rank": 306,
+    "Name": "Ruecker, Wunsch and Towne",
+    "Description": "Phased holistic access",
+    "Rank": 377,
     "Restrictions": [
       {
-        "Name": "Langworth, Kohler and Abshire",
-        "Operator": "sed",
+        "Name": "Kemmer, Christiansen and Torp",
+        "Operator": "rerum",
         "Values": [
-          "fugiat",
-          "voluptatem"
+          "quam",
+          "tenetur"
         ],
         "DisplayValues": [
-          "alias",
-          "modi"
+          "nam",
+          "harum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 644,
+        "InterParenthesis": 203,
         "InterOperator": "And",
-        "UniqueHash": 995
+        "UniqueHash": 396
       }
     ]
   }

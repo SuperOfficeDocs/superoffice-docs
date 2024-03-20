@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "error",
+  "ProgId": "a",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 970,
-  "ColumnId": 392,
-  "FieldDefault": "velit",
-  "FieldHeight": 107,
-  "FieldLabel": "dolorem",
-  "FieldLeft": 90,
-  "FieldTop": 393,
+  "UDefFieldId": 555,
+  "ColumnId": 439,
+  "FieldDefault": "autem",
+  "FieldHeight": 947,
+  "FieldLabel": "temporibus",
+  "FieldLeft": 524,
+  "FieldTop": 951,
   "FieldType": "Checkbox",
-  "FieldWidth": 874,
-  "FormatMask": "non",
+  "FieldWidth": 437,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 368,
-  "LabelLeft": 840,
-  "LabelTop": 737,
-  "LabelWidth": 663,
-  "LastVersionId": 997,
-  "ListTableId": 39,
-  "IsMandatory": false,
+  "LabelHeight": 636,
+  "LabelLeft": 100,
+  "LabelTop": 190,
+  "LabelWidth": 831,
+  "LastVersionId": 555,
+  "ListTableId": 78,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 571,
-  "ProgId": "excepturi",
+  "Page1LineNo": 741,
+  "ProgId": "accusantium",
   "IsReadOnly": false,
-  "ShortLabel": "incidunt",
-  "TabOrder": 713,
-  "TextLength": 62,
-  "Tooltip": "sequi",
-  "UdefIdentity": 571,
-  "UDListDefinitionId": 776,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 583,
+  "TextLength": 323,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 40,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 776,
-  "TemplateVariableName": "Ruecker, Nitzsche and Powlowski",
+  "Version": 941,
+  "TemplateVariableName": "Barrows Group",
   "HasBeenPublished": false,
-  "MdoListName": "Kshlerin-Rohan",
+  "MdoListName": "Herzog, Keeling and Beahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 12
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 683,
-  "Name": "Schaefer LLC",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 669,
-  "UdListDefinitionId": 478
+  "HeadingId": 699,
+  "Name": "Shields, Kuhn and Hyatt",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 611,
+  "UdListDefinitionId": 646
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 792,
-  "Name": "Rosenbaum-Ledner",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "Rank": 496,
-  "UdListDefinitionId": 341,
+  "HeadingId": 25,
+  "Name": "Boehm-Greenholt",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 330,
+  "UdListDefinitionId": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

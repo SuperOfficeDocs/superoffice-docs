@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 26 Oct 2011 14:23:55 G10T
+Last-Modified: Wed, 07 Jun 2017 12:19:53 G6T
 
 {
-  "Description": "Enhanced systematic extranet",
-  "Postit": "non",
+  "Description": "Organic tangible strategy",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 352,
-  "IncludePerson": 527,
-  "MemberCount": 877,
-  "Name": "Muller-Jacobson",
-  "PostitTextId": 195,
-  "CreatedDate": "2022-05-13T14:23:55.4939585+02:00",
-  "SelectionId": 22,
-  "SoundEx": "amet",
-  "Source": 967,
-  "TextId": 50,
-  "UpdatedDate": "2011-10-26T14:23:55.4939585+02:00",
-  "UpdatedCount": 773,
-  "Visibility": 23,
+  "GroupIdx": 959,
+  "IncludePerson": 225,
+  "MemberCount": 377,
+  "Name": "Franecki Group",
+  "PostitTextId": 558,
+  "CreatedDate": "2023-10-28T12:19:53.9147965+02:00",
+  "SelectionId": 522,
+  "SoundEx": "ipsam",
+  "Source": 291,
+  "TextId": 755,
+  "UpdatedDate": "2017-06-07T12:19:53.9147965+02:00",
+  "UpdatedCount": 429,
+  "Visibility": 345,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 137,
-  "TargetTableName": "DuBuque, Wunsch and Jast",
+  "CompanyUnique": true,
+  "TargetTableNumber": 487,
+  "TargetTableName": "Bechtelar LLC",
   "Completed": false,
-  "LeftSelectionId": 403,
-  "RightSelectionId": 474,
+  "LeftSelectionId": 594,
+  "RightSelectionId": 720,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Spinka LLC",
-  "ShadowProviderName": "Strosin, Quigley and Emmerich",
-  "ChartKey": "tempora",
-  "LastLoaded": "1999-11-08T14:23:55.4939585+01:00",
-  "LastLoadedBy": 683,
+  "MainProviderName": "Hoeger LLC",
+  "ShadowProviderName": "Greenholt-Vandervort",
+  "ChartKey": "rerum",
+  "LastLoaded": "2000-02-12T12:19:53.9147965+01:00",
+  "LastLoadedBy": 540,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-09-30T14:23:55.4939585+02:00",
-  "LastMembershipChangeBy": 505,
+  "LastMembershipChange": "2018-11-09T12:19:53.9147965+01:00",
+  "LastMembershipChangeBy": 540,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Corkery, Deckow and Larson",
-  "DashboardTileDefinitionId": 715,
+  "MainHeading": "est",
+  "MemberTabHeading": "facere",
+  "MailingsProviderName": "Hoppe-Witting",
+  "DashboardTileDefinitionId": 900,
   "VisibleFor": [
     {
-      "VisibleId": 658,
+      "VisibleId": 523,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 387
         }
       }
     },
     {
-      "VisibleId": 658,
+      "VisibleId": 523,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 387
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Wed, 26 Oct 2011 14:23:55 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   },
   "_Links": {

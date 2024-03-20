@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quae",
-  "Key": "nihil"
+  "Section": "voluptatibus",
+  "Key": "et"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 749,
-  "Section": "quo",
-  "Key": "facere",
-  "Name": "Olson Inc and Sons",
+  "PrefDescId": 377,
+  "Section": "quia",
+  "Key": "voluptate",
+  "Name": "Ferry, Klocko and Sanford",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended foreground contingency",
-  "IsBuiltin": false,
-  "TableName": "Casper-Gleason",
-  "UserDefinedListId": 893,
-  "Rank": 24,
-  "SubGroup": "quae",
-  "MinLevel": 39,
-  "MaxValue": 397,
-  "MinValue": 338,
-  "RequiredLicense": "fugit",
+  "Description": "De-engineered uniform definition",
+  "IsBuiltin": true,
+  "TableName": "Brekke, Blanda and Waelchi",
+  "UserDefinedListId": 841,
+  "Rank": 280,
+  "SubGroup": "rerum",
+  "MinLevel": 112,
+  "MaxValue": 887,
+  "MinValue": 117,
+  "RequiredLicense": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   }
 }

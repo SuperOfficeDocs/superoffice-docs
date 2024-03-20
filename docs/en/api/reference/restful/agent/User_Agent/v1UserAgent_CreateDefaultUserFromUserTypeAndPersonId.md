@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 541
+  "PersonId": 274
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 969,
-  "Name": "Bayer Group",
-  "Rank": 966,
-  "Tooltip": "in",
+  "AssociateId": 688,
+  "Name": "Dach LLC",
+  "Rank": 839,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "VonRueden Group",
-      "Description": "Secured 3rd generation flexibility",
+      "Name": "Goodwin LLC",
+      "Description": "Reduced zero tolerance approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 487
         }
       }
     },
     {
-      "Name": "VonRueden Group",
-      "Description": "Secured 3rd generation flexibility",
+      "Name": "Goodwin LLC",
+      "Description": "Reduced zero tolerance approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 487
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quam",
-      "Tooltip": "in",
-      "Id": 427,
-      "Rank": 966,
-      "Deleted": false,
+      "Value": "asperiores",
+      "Tooltip": "magni",
+      "Id": 200,
+      "Rank": 973,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-03-15T14:23:47.8942487+01:00",
-  "Lastlogout": "2021-03-26T14:23:47.8942487+01:00",
-  "EjUserId": 948,
-  "RequestSignature": "nihil",
+  "Lastlogin": "2019-12-17T12:19:46.6325763+01:00",
+  "Lastlogout": "1998-03-15T12:19:46.6325763+01:00",
+  "EjUserId": 107,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sed",
-      "DisplayValue": "id",
+      "Value": "voluptas",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 534
         }
       }
     },
     {
       "Type": null,
-      "Value": "sed",
-      "DisplayValue": "id",
+      "Value": "voluptas",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 534
         }
       }
     }
   ],
-  "UserName": "Borer-Kautzer",
+  "UserName": "Larkin, Jacobs and Pfeffer",
   "TicketCategories": [
     {
-      "Id": 674,
-      "Name": "Crona, Shields and Leffler",
-      "ToolTip": "At quod maxime doloremque ad.",
+      "Id": 445,
+      "Name": "Hilll Group",
+      "ToolTip": "Ipsa eos quis dolore.",
       "Deleted": false,
-      "Rank": 127,
-      "Type": "aut",
+      "Rank": 363,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptate",
-      "ColorBlock": 758,
-      "ExtraInfo": "a",
-      "StyleHint": "consequatur",
-      "FullName": "Rodrigo Cole II",
+      "IconHint": "ut",
+      "ColorBlock": 117,
+      "ExtraInfo": "nobis",
+      "StyleHint": "quos",
+      "FullName": "Alexandria Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 789
         }
       }
     }
   ],
-  "NickName": "Streich-Batz",
-  "WaitingForApproval": false,
+  "NickName": "Cruickshank, McGlynn and Keebler",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "sunt"
+    "CustomFields1": "similique",
+    "CustomFields2": "debitis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Willms, Hammes and Leuschke",
-      "DisplayName": "Emmerich, O'Connell and Schuster",
-      "Description": "Organized analyzing middleware",
-      "ToolTip": "Autem dolore.",
+      "Name": "Padberg, Mueller and Mante",
+      "DisplayName": "Wiegand, Wunsch and Hyatt",
+      "Description": "Focused fault-tolerant policy",
+      "ToolTip": "Et dicta.",
       "Actions": "Implicit",
-      "ActionData": "perspiciatis",
+      "ActionData": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 828
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

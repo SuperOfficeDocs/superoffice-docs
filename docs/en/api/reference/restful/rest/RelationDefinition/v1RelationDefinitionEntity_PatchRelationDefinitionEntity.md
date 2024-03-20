@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 88,
-  "Name": "Bergstrom-Volkman",
-  "Tooltip": "facere",
-  "PassiveText": "quos",
+  "ReldefId": 767,
+  "Name": "Welch Inc and Sons",
+  "Tooltip": "minima",
+  "PassiveText": "perspiciatis",
   "Deleted": false,
-  "Rank": 6,
+  "Rank": 274,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldLength": 916
     }
   },
   "_Links": {

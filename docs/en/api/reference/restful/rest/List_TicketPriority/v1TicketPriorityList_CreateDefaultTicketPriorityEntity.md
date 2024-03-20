@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 126,
-  "Name": "Stamm-Weber",
+  "TicketPriorityId": 867,
+  "Name": "Rippin Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 734,
+  "SortOrder": 413,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 12,
-  "MonStart": "2016-07-22T14:23:56.417076+02:00",
-  "MonStop": "2015-12-22T14:23:56.417076+01:00",
-  "TueStart": "2022-04-08T14:23:56.417076+02:00",
-  "TueStop": "2008-02-14T14:23:56.417076+01:00",
-  "WedStart": "2006-08-04T14:23:56.417076+02:00",
-  "WedStop": "2005-07-10T14:23:56.417076+02:00",
-  "ThuStart": "2006-11-11T14:23:56.417076+01:00",
-  "ThuStop": "2007-07-16T14:23:56.417076+02:00",
-  "FriStart": "2016-06-04T14:23:56.417076+02:00",
-  "FriStop": "2007-07-22T14:23:56.417076+02:00",
-  "SatStart": "2007-05-16T14:23:56.417076+02:00",
-  "SatStop": "2012-08-15T14:23:56.417076+02:00",
-  "SunStart": "2008-09-24T14:23:56.417076+02:00",
-  "SunStop": "2014-09-02T14:23:56.417076+02:00",
+  "Deadline": 283,
+  "MonStart": "1997-03-31T12:19:54.898948+02:00",
+  "MonStop": "2021-12-24T12:19:54.898948+01:00",
+  "TueStart": "2020-12-22T12:19:54.898948+01:00",
+  "TueStop": "2011-10-17T12:19:54.898948+02:00",
+  "WedStart": "2014-02-16T12:19:54.898948+01:00",
+  "WedStop": "2006-01-27T12:19:54.898948+01:00",
+  "ThuStart": "2006-03-02T12:19:54.898948+01:00",
+  "ThuStop": "1999-09-20T12:19:54.898948+02:00",
+  "FriStart": "2017-10-17T12:19:54.898948+02:00",
+  "FriStop": "1997-05-12T12:19:54.898948+02:00",
+  "SatStart": "2000-07-03T12:19:54.898948+02:00",
+  "SatStop": "1997-02-09T12:19:54.898948+01:00",
+  "SunStart": "2005-07-11T12:19:54.898948+02:00",
+  "SunStop": "2018-12-11T12:19:54.898948+01:00",
   "NonDates": [
-    "earum",
-    "mollitia"
+    "hic",
+    "velit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 118,
-      "AlertLevel": 64,
-      "AlertTimeout": 151,
-      "Action": 689,
-      "DelegateTo": 915,
-      "ScriptId": 473,
-      "EmailTo": "paula.heaney@abbott.us",
-      "SmsTo": "dignissimos",
-      "ReplyTemplateIdCustomer": 267,
-      "ReplyTemplateIdUser": 990,
-      "ReplyTemplateIdCatmast": 974,
-      "ReplyTemplateIdEmail": 297,
-      "RtiCustomerSms": 322,
-      "ReplyTemplateIdUserSms": 649,
-      "ReplyTemplateIdCatmastSms": 329,
-      "ReplyTemplateIdSms": 163,
+      "TicketAlertId": 105,
+      "AlertLevel": 852,
+      "AlertTimeout": 204,
+      "Action": 611,
+      "DelegateTo": 84,
+      "ScriptId": 960,
+      "EmailTo": "elyssa@murazik.ca",
+      "SmsTo": "et",
+      "ReplyTemplateIdCustomer": 453,
+      "ReplyTemplateIdUser": 742,
+      "ReplyTemplateIdCatmast": 657,
+      "ReplyTemplateIdEmail": 340,
+      "RtiCustomerSms": 392,
+      "ReplyTemplateIdUserSms": 679,
+      "ReplyTemplateIdCatmastSms": 714,
+      "ReplyTemplateIdSms": 454,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 668
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

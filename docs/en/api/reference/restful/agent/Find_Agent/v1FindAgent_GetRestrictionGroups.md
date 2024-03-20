@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tenetur",
-  "ProviderName": "Mueller, Botsford and Schiller",
-  "StorageKey": "sapiente",
-  "Context": "aut"
+  "StorageType": "exercitationem",
+  "ProviderName": "Stracke-O'Reilly",
+  "StorageKey": "rerum",
+  "Context": "magnam"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Effertz, Rosenbaum and Kertzmann",
-    "Description": "Function-based foreground forecast",
-    "Rank": 929,
+    "Name": "Doyle Inc and Sons",
+    "Description": "Visionary secondary help-desk",
+    "Rank": 736,
     "Restrictions": [
       {
-        "Name": "Windler Inc and Sons",
-        "Operator": "aut",
+        "Name": "Rutherford, Zulauf and Wilkinson",
+        "Operator": "sunt",
         "Values": [
-          "quasi",
-          "voluptatem"
+          "molestiae",
+          "nostrum"
         ],
         "DisplayValues": [
-          "non",
-          "et"
+          "possimus",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 524,
+        "InterParenthesis": 274,
         "InterOperator": "And",
-        "UniqueHash": 934
+        "UniqueHash": 175
       }
     ]
   },
   {
-    "Name": "Effertz, Rosenbaum and Kertzmann",
-    "Description": "Function-based foreground forecast",
-    "Rank": 929,
+    "Name": "Doyle Inc and Sons",
+    "Description": "Visionary secondary help-desk",
+    "Rank": 736,
     "Restrictions": [
       {
-        "Name": "Windler Inc and Sons",
-        "Operator": "aut",
+        "Name": "Rutherford, Zulauf and Wilkinson",
+        "Operator": "sunt",
         "Values": [
-          "quasi",
-          "voluptatem"
+          "molestiae",
+          "nostrum"
         ],
         "DisplayValues": [
-          "non",
-          "et"
+          "possimus",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 524,
+        "InterParenthesis": 274,
         "InterOperator": "And",
-        "UniqueHash": 934
+        "UniqueHash": 175
       }
     ]
   }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 427,
-  "PlainMessage": "sed",
-  "HtmlMessage": "doloribus",
-  "SmsMessage": "praesentium",
-  "Description": "Implemented static matrices",
-  "Subject": "voluptate",
-  "FolderId": 921,
-  "HeaderField": "occaecati",
-  "Design": "deleniti",
+  "ShipmentMessageId": 293,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "aut",
+  "SmsMessage": "rem",
+  "Description": "Multi-channelled local projection",
+  "Subject": "quos",
+  "FolderId": 909,
+  "HeaderField": "sint",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Virtual cohesive hardware",
-  "AccessKey": "velit",
-  "DocumentMessage": 561,
-  "Registered": "2001-03-04T14:23:46.9098888+01:00",
-  "RegisteredAssociateId": 384,
-  "Updated": "2000-05-15T14:23:46.9098888+02:00",
-  "UpdatedAssociateId": 396,
-  "UpdatedCount": 326,
+  "LongDescription": "Inverse 3rd generation budgetary management",
+  "AccessKey": "voluptatibus",
+  "DocumentMessage": 28,
+  "Registered": "1997-11-12T12:19:45.585943+01:00",
+  "RegisteredAssociateId": 515,
+  "Updated": "2017-05-24T12:19:45.585943+02:00",
+  "UpdatedAssociateId": 796,
+  "UpdatedCount": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 700
     }
   }
 }

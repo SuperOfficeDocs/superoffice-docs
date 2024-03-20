@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888
+  "Id": 122
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sed",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "sapiente",
-  "DisplayTooltip": "inventore",
+  "DisplayValue": "explicabo",
+  "DisplayTooltip": "reprehenderit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 707,
-  "PrefDescId": 941,
-  "TableName": "Gislason-Lockman",
-  "UserPreferenceId": 180,
+  "TargetId": 238,
+  "PrefDescId": 563,
+  "TableName": "Barrows, Mertz and Jast",
+  "UserPreferenceId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   }
 }

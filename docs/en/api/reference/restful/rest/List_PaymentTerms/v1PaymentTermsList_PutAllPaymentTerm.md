@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Ryan, Jast and Lockman",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "UdListDefinitionId": 779,
-    "Rank": 402
+    "Id": 378,
+    "Name": "Luettgen-Prohaska",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 247,
+    "Rank": 509
   },
   {
-    "Id": 287,
-    "Name": "Ryan, Jast and Lockman",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "UdListDefinitionId": 779,
-    "Rank": 402
+    "Id": 378,
+    "Name": "Luettgen-Prohaska",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 247,
+    "Rank": 509
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Jerde, Mueller and Cronin",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 357,
-    "Rank": 250,
+    "Id": 352,
+    "Name": "Bednar Group",
+    "Tooltip": "commodi",
+    "Deleted": true,
+    "UdListDefinitionId": 803,
+    "Rank": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 583
       }
     }
   }

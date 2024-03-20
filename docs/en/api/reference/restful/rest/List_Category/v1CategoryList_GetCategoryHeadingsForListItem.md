@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Konopelski, Farrell and Cormier",
-    "ToolTip": "Accusamus ex voluptates.",
+    "Id": 876,
+    "Name": "Greenholt Group",
+    "ToolTip": "Voluptate quod aspernatur nam.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "omnis",
-    "ColorBlock": 292,
-    "IconHint": "omnis",
+    "Rank": 549,
+    "Type": "quia",
+    "ColorBlock": 975,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "1998-09-01T14:23:55.9783277+02:00",
+    "LastChanged": "2005-11-04T12:19:54.3209449+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Parker Group",
-        "ToolTip": "Est illo rerum sint cumque saepe quas.",
+        "Id": 19,
+        "Name": "Heaney, Torphy and Gusikowski",
+        "ToolTip": "Necessitatibus totam suscipit tenetur.",
         "Deleted": false,
-        "Rank": 398,
-        "Type": "eum",
-        "ColorBlock": 155,
-        "IconHint": "expedita",
+        "Rank": 219,
+        "Type": "quae",
+        "ColorBlock": 189,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2011-08-10T14:23:55.9783277+02:00",
+        "LastChanged": "2012-11-12T12:19:54.3209449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Trace Lang",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Abigayle Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 755
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Darian Renner",
+    "FullName": "Kelvin Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 898
       }
     }
   }

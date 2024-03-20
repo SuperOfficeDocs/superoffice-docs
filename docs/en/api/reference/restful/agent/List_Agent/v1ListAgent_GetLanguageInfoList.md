@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 471,
-    "LCID": 724,
-    "EnglishName": "Heidenreich-Adams",
-    "NativeName": "Bogisich-Kunze",
-    "ThreeLetterISOLanguageName": "Hoeger LLC",
-    "TwoLetterISOLanguageName": "Wisozk-Turcotte",
+    "LanguageInfoId": 22,
+    "LCID": 648,
+    "EnglishName": "Eichmann Group",
+    "NativeName": "Schmitt Inc and Sons",
+    "ThreeLetterISOLanguageName": "Turcotte, Effertz and Renner",
+    "TwoLetterISOLanguageName": "Watsica Inc and Sons",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 489
       }
     }
   }

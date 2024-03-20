@@ -98,16 +98,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 468,
-  "ERPPriceListKey": "nostrum",
-  "QuoteConnectionId": 61,
-  "Name": "Robel Group",
-  "Description": "Extended system-worthy matrix",
-  "Currency": "numquam",
-  "CurrencyName": "Graham Inc and Sons",
-  "ValidFrom": "2012-07-13T14:23:56.1814517+02:00",
-  "ValidTo": "1998-06-23T14:23:56.1814517+02:00",
-  "IsActive": false
+  "PriceListId": 489,
+  "ERPPriceListKey": "suscipit",
+  "QuoteConnectionId": 403,
+  "Name": "Kihn, Koch and Grimes",
+  "Description": "Self-enabling cohesive emulation",
+  "Currency": "dolorem",
+  "CurrencyName": "Heaney LLC",
+  "ValidFrom": "2014-05-28T12:19:54.6646278+02:00",
+  "ValidTo": "2003-04-11T12:19:54.6646278+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 534,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 458,
-  "Name": "Mayert-Maggio",
-  "Description": "Right-sized encompassing process improvement",
-  "Currency": "blanditiis",
-  "CurrencyName": "Trantow-Zieme",
-  "ValidFrom": "2003-12-19T14:23:56.1814517+01:00",
-  "ValidTo": "2004-12-06T14:23:56.1814517+01:00",
-  "IsActive": false,
+  "PriceListId": 100,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 307,
+  "Name": "Brekke, Willms and Grady",
+  "Description": "Sharable 5th generation focus group",
+  "Currency": "quaerat",
+  "CurrencyName": "Kihn-Ward",
+  "ValidFrom": "2010-07-03T12:19:54.6646278+02:00",
+  "ValidTo": "2004-03-15T12:19:54.6646278+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 582
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

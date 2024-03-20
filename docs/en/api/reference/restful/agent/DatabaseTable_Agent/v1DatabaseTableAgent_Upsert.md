@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Halvorson Inc and Sons",
+  "TableName": "Mosciski-Mante",
   "Columns": [
-    "facere",
-    "maxime"
+    "corporis",
+    "ut"
   ],
   "Keys": [
-    "enim",
-    "suscipit"
+    "quia",
+    "laudantium"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "tempore",
-  "Inserts": 130,
-  "Updates": 511,
-  "Deletes": 51,
+  "Message": "porro",
+  "Inserts": 596,
+  "Updates": 405,
+  "Deletes": 54,
   "RowStatus": [
     {
-      "PrimaryKey": 583,
+      "PrimaryKey": 446,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "adipisci",
-        "consequatur"
+        "sunt",
+        "possimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 483
         }
       }
     },
     {
-      "PrimaryKey": 583,
+      "PrimaryKey": 446,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "adipisci",
-        "consequatur"
+        "sunt",
+        "possimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 483
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 225
     }
   }
 }

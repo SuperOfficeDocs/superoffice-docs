@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 888,
-  "TargetDimensionId": 772
+  "Year": 533,
+  "TargetDimensionId": 921
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 108,
+    "TargetAssignmentInfoId": 23,
     "Values": [
-      549,
-      868
+      817,
+      739
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 578,
-    "DimensionListItemDisplayName": "Witting Group",
+    "DimensionListItem": 27,
+    "DimensionListItemDisplayName": "Waelchi LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 182
       }
     }
   }

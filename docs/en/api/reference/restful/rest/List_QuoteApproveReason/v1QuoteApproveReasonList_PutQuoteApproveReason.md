@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 995,
-  "Name": "Farrell, Gottlieb and Beahan",
-  "Tooltip": "aspernatur",
-  "Deleted": true,
-  "UdListDefinitionId": 992,
-  "Rank": 971
+  "Id": 72,
+  "Name": "Oberbrunner LLC",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 826,
+  "Rank": 717
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Bednar-Maggio",
-  "Tooltip": "debitis",
+  "Id": 10,
+  "Name": "Schmitt-Schneider",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 829,
-  "Rank": 526,
+  "UdListDefinitionId": 515,
+  "Rank": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 74
     }
   }
 }

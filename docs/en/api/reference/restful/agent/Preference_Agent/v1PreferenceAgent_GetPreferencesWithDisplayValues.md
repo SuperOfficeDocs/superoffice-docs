@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "nihil",
-      "Key": "natus"
+      "Section": "rerum",
+      "Key": "labore"
     },
     {
-      "Section": "nihil",
-      "Key": "natus"
+      "Section": "rerum",
+      "Key": "labore"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "aut",
+    "RawValue": "error",
     "Specification": null,
-    "DisplayValue": "omnis",
-    "DisplayTooltip": "officiis",
+    "DisplayValue": "repellendus",
+    "DisplayTooltip": "ipsa",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 942,
-    "PrefDescId": 362,
-    "TableName": "Barrows-Effertz",
-    "UserPreferenceId": 382,
+    "TargetId": 63,
+    "PrefDescId": 891,
+    "TableName": "Homenick, Labadie and Huel",
+    "UserPreferenceId": 715,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 75
       }
     }
   }

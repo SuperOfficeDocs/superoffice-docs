@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kassulke, Bartoletti and Maggio",
-    "Id": 912,
-    "Description": "Up-sized systemic utilisation",
-    "ExtraInfo": "occaecati",
-    "LinkId": 902,
+    "EntityName": "Ortiz-Schumm",
+    "Id": 747,
+    "Description": "Monitored dedicated time-frame",
+    "ExtraInfo": "ut",
+    "LinkId": 88,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 242
       }
     }
   }

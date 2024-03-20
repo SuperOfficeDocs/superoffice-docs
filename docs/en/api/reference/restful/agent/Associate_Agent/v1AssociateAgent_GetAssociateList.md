@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 230,
-    "Name": "Ullrich Group",
-    "PersonId": 730,
-    "Rank": 652,
-    "Tooltip": "qui",
+    "AssociateId": 521,
+    "Name": "Rohan, Borer and Bruen",
+    "PersonId": 969,
+    "Rank": 898,
+    "Tooltip": "aliquid",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 358,
-    "FullName": "Brett Altenwerth",
-    "FormalName": "Kling Inc and Sons",
+    "GroupIdx": 436,
+    "FullName": "Jasen Keeling",
+    "FormalName": "Bosco-Cassin",
     "Deleted": false,
-    "EjUserId": 863,
-    "UserName": "Luettgen, Wintheiser and Tromp",
+    "EjUserId": 481,
+    "UserName": "Rau, Altenwerth and Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

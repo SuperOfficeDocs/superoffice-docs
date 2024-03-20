@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Hackett, Kris and Thompson",
-  "Tooltip": "voluptatum",
+  "Id": 983,
+  "Name": "Welch, Quitzon and Upton",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "Rank": 995,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
-  "InUseByUserDefinedFields": false
+  "Rank": 232,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 742,
-  "Name": "Braun, Yundt and Reichert",
-  "Tooltip": "accusamus",
+  "Id": 678,
+  "Name": "Klocko LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 574,
+  "Rank": 23,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 467
     }
   }
 }
