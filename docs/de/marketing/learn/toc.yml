@@ -28,3 +28,7 @@ items:
 - name: Überwachten Links
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md
+
+- name: Formulare
+  href: ../forms/learn/toc.yml
+  topicHref: ../forms/learn/index.md
