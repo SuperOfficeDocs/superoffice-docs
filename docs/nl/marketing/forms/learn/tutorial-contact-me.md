@@ -86,16 +86,16 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 ## Acties
 
-1. Selecteer **Acties** uit het linkermenu om de acties instellen die moeten worden uitgevoerd wanneer het formulier wordt verwerkt:
+1. Selecteer **Acties** uit het linkermenu om de acties instellen die moeten worden uitgevoerd wanneer het formulier wordt verwerkt.
 
-    * Selecteer **Verzoek maken** en doe het volgende:
-        1. Voer een beschrijvende titel in voor de verzoeken die vanuit dit formulier worden gegenereerd.
-        2. Selecteer de relevante verzoekcategorie, bijvoorbeeld "Support" of een subcategorie genaamd "Formulierverzendingen".
-        3. Stel de verzoekprioriteit in op **Gemiddeld**.
+1. Selecteer **Verzoek maken** en doe het volgende:
+    1. Voer een beschrijvende titel in voor de verzoeken die vanuit dit formulier worden gegenereerd.
+    2. Selecteer de relevante verzoekcategorie, bijvoorbeeld "Support" of een subcategorie genaamd "Formulierverzendingen".
+    3. Stel de verzoekprioriteit in op **Gemiddeld**.
 
-    * Selecteer **Handmatig als indiener onbekend is. Automatisch als indiener bekend is**: Als het e-mailadres dat is verzonden in het formulier, overeenkomt met een e-mailadres in SuperOffice, wordt de formulierverzending automatisch verwerkt. Anders wordt deze handmatig verwerkt.
+1. Selecteer **Handmatig als indiener onbekend is. Automatisch als indiener bekend is**: Als het e-mailadres dat is verzonden in het formulier, overeenkomt met een e-mailadres in SuperOffice, wordt de formulierverzending automatisch verwerkt. Anders wordt deze handmatig verwerkt.
 
-    * **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
+1. **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
 
 ![Formulieracties definiëren -screenshot][img7]
 

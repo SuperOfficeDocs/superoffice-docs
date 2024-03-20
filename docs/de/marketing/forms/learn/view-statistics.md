@@ -28,11 +28,11 @@ Um sich Statistiken zum Formular anzeigen zu lassen, gehen Sie zur Registerkarte
   * **Ausfüllungsrate**: Status der übermittelten Formulare.
   * **Kampagne**: Dieses Feld ist sichtbar, wenn Sie **E-Mail-Antwort** für dieses Formular aktiviert haben. Dieser Link bietet Zugang zur [Formularantwort][2], die von diesem Formular verwendet wird. Klicken Sie auf den Link, um zusätzliche Statistiken anzuzeigen.
 
-  ![Zusammenfassung der Formularübermittlung -screenshot][img3]
+    ![Zusammenfassung der Formularübermittlung -screenshot][img3]
 
 * **Berichte:** Diese Diagramme zeigen Statistiken für das Formular (zur Anzeige der genauen Zahlen mit dem Mauszeiger über das Element fahren).
 
-  ![Berichte der Formularübermittlung -screenshot][img2]
+    ![Berichte der Formularübermittlung -screenshot][img2]
 
 * **Formularübermittlungen:** Hier können Sie alle [übermittelten Formulare anzeigen und verarbeiten][1]. Ein rotes Symbol auf der Registerkarte weist auf neu übermittelte Formulare hin.
 

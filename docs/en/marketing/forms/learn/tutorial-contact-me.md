@@ -86,16 +86,16 @@ The example does not cover every field and option, but you can find comprehensiv
 
 ## Form actions
 
-1. Select **Actions** from the left menu to choose what happens after submission:
+1. Select **Actions** from the left menu to choose what happens after submission.
 
-    * Select **Create request** and do the following:
-        1. Enter a descriptive title for the requests that will be generated from this form.
-        2. Select the relevant request category, for example "Support" or a sub-category called "Form submissions".
-        3. Set the request priority to **Medium**.
+1. Select **Create request** and do the following:
+    1. Enter a descriptive title for the requests that will be generated from this form.
+    2. Select the relevant request category, for example "Support" or a sub-category called "Form submissions".
+    3. Set the request priority to **Medium**.
 
-    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+1. Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-    * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
+1. **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
 ![Define your form actions -screenshot][img7]
 

@@ -129,17 +129,17 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 ## Skjemahandlinger
 
-1. Velg **Handlinger** fra venstremenyen for angi hvilke handlinger som skal utføres når skjemaet behandles:
+1. Velg **Handlinger** fra venstremenyen for angi hvilke handlinger som skal utføres når skjemaet behandles.
 
-    * Ikke velg **Opprett sak**. Abonnementene vil aktiveres automatisk, slik at ingen handling kreves av kundestøtteteamet.
+1. Ikke velg **Opprett sak**. Abonnementene vil aktiveres automatisk, slik at ingen handling kreves av kundestøtteteamet.
 
-    * Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.
+1. Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.
 
-    * **Legg til person i utvalg**: Velg det merkede området du opprettet i trinn 1. Bruk dette valget til å holde orden på kontakter som er lagt til via dette skjemaet.
+1. **Legg til person i utvalg**: Velg det merkede området du opprettet i trinn 1. Bruk dette valget til å holde orden på kontakter som er lagt til via dette skjemaet.
 
-    * **Legg til interesse for person**: Velg interessen som heter **Nyhetsbrev**. Denne interessen blir lagt til personer som sender dette skjemaet.
+1. **Legg til interesse for person**: Velg interessen som heter **Nyhetsbrev**. Denne interessen blir lagt til personer som sender dette skjemaet.
 
-    * **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
+1. **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
 
 ![Definer skjemahandlinger -screenshot][img6]
 

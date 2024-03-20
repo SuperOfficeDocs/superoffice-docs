@@ -28,11 +28,11 @@ Als u de statistieken over uw formulier wilt weergeven, gaat u naar het tabblad 
   * **Percentage ingevuld**: Status voor verzonden formulieren.
   * **Mailing**:  Deze link geeft toegang tot de [formulierantwoord-mailing][2] die door dit formulier wordt gebruikt. Klik op de link om aanvullende statistieken te bekijken. Dit veld is zichtbaar als u **E-mailantwoord** voor dit formulier hebt geactiveerd.
 
-  ![Formulierverzendingsstatistieken -screenshot][img3]
+    ![Formulierverzendingsstatistieken -screenshot][img3]
 
 * **Rapporten:** Grafieken geven de statistieken over het formulier weer (beweeg de muis erover om exacte aantallen weer te geven).
 
-  ![Formulierverzendingsrapporten -screenshot][img2]
+    ![Formulierverzendingsrapporten -screenshot][img2]
 
 * **Formulierverzendingen:** Hier kunt alle [verzonden formulieren weergeven en verwerken][1]. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan.
 

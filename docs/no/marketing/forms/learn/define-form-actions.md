@@ -28,7 +28,7 @@ Velg dette alternativet for å [opprette en sak][8] for hvert skjema som mottas.
 
 Innsendte skjemaer vil være tilgjengelige i skjermbildet **Saker** og i detaljkortet **Saker** i skjermbildene Firma og Person i SuperOffice CRM.
 
-## Hvordan skal en skjemainnsending behandles?
+### Hvordan skal en skjemainnsending behandles?
 
 Her kan du definere om de innsendte skjemaene skal behandles automatisk.
 
@@ -40,7 +40,7 @@ Her kan du definere om de innsendte skjemaene skal behandles automatisk.
 
 ![icon][img11] [Hvordan behandle skjemainnsendinger][6].
 
-## Hva skal skje når skjemaet behandles?
+### Hva skal skje når skjemaet behandles?
 
 Her kan du velge handlinger som skal utføres når et skjema behandles (automatisk eller manuelt):
 

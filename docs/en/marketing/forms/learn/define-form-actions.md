@@ -28,7 +28,7 @@ Select this option to [create a Service request][8] for every form that is submi
 
 Submitted forms will be available in the Requests screen and in the **Request** section tab on the Company and Contact screens.
 
-## How should a form submission be processed?
+### How should a form submission be processed?
 
 Here you can define whether the submitted forms should be processed automatically.
 
@@ -40,7 +40,7 @@ Here you can define whether the submitted forms should be processed automaticall
 
 ![icon][img11] [How to process form submissions manually][6].
 
-## What should happen when the form is processed?
+### What should happen when the form is processed?
 
 Here you can select actions to perform when a form is processed (automatically or manually):
 

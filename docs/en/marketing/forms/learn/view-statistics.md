@@ -28,7 +28,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
   * **Completion rate:** Status for submitted forms.
   * **Mailing:** This link provides access to the [form response mailing][2] used by this form. Click the link to view additional statistics.
 
-  ![Form submission summary -screenshot][img3]
+    ![Form submission summary -screenshot][img3]
 
 * **Reports:** Charts show statistics for the form (mouse-over to view exact numbers).
 

@@ -86,16 +86,16 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 ## Formularhandlinger
 
-1. Vælg **Handlinger** fra venstremenuen for at indstilles de handlinger, der skal udføres, når formularen behandles:
+1. Vælg **Handlinger** fra venstremenuen for at indstilles de handlinger, der skal udføres, når formularen behandles.
 
-    * Vælg **Opret sag**, og gør følgende:
-        1. Indtast en beskrivende titel på sagen, der skal genereres fra denne formular.
-        2. Vælg den relevante sagskategori, f.eks. "Support", eller en underkategori med navnet "Formularindsendelser".
-        3. Indstil sagsprioriteten til **Mellem**.
+1. Vælg **Opret sag**, og gør følgende:
+    1. Indtast en beskrivende titel på sagen, der skal genereres fra denne formular.
+    2. Vælg den relevante sagskategori, f.eks. "Support", eller en underkategori med navnet "Formularindsendelser".
+    3. Indstil sagsprioriteten til **Mellem**.
 
-    * Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.
+1. Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.
 
-    * **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
+1. **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
 
 ![Definer formularhandlinger -screenshot][img7]
 

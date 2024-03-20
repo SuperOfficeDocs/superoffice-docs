@@ -86,16 +86,16 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 ## Skjemahandlinger
 
-1. Velg **Handlinger** fra venstremenyen for angi hvilke handlinger som skal utføres når skjemaet behandles:
+1. Velg **Handlinger** fra venstremenyen for angi hvilke handlinger som skal utføres når skjemaet behandles.
 
-    * Velg **Opprett sak** og gjør følgende:
-        1. Angi en beskrivende tittel for sakene som skal opprettes fra dette skjemaet.
-        2. Velg relevant kategori for saken, som for eksempel "Kundestøtte" eller en underkategori kalt "Skjemainnsendinger".
-        3. Sett saksprioritet til **Middels**.
+1. Velg **Opprett sak** og gjør følgende:
+    1. Angi en beskrivende tittel for sakene som skal opprettes fra dette skjemaet.
+    2. Velg relevant kategori for saken, som for eksempel "Kundestøtte" eller en underkategori kalt "Skjemainnsendinger".
+    3. Sett saksprioritet til **Middels**.
 
-    * Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.
+1. Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.
 
-    * **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
+1. **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
 
 ![Definer skjemahandlinger -screenshot][img7]
 

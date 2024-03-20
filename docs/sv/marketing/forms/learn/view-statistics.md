@@ -28,7 +28,7 @@ Om du vill se statistik om ditt formulär kan du gå till fliken **Formulär** o
   * **Ifyllningsdatum**: Status för inlämnade formulär.
   * **Utskick**: Det här fältet visas om du har aktiverat **E-postsvar** för det här formuläret. Denna länk ger tillgång till [formulärsvarutskicket][2] som används av detta formulär. Klicka på länken för att se ytterligare statistik.
 
-  ![Sammanfattning av formulärstatistik -screenshot][img3]
+    ![Sammanfattning av formulärstatistik -screenshot][img3]
 
 * **Rapporter:** Dessa diagram visar statistik för formuläret. (Håll musen över om du vill se exakta siffror.)
 

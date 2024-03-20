@@ -86,16 +86,16 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 ## Aktionen
 
-1. Wählen Sie **Aktionen** im linken Menü um die Aktionen konfigurieren, die bei der Verarbeitung des Formulars ausgeführt werden sollen:
+1. Wählen Sie **Aktionen** im linken Menü um die Aktionen konfigurieren, die bei der Verarbeitung des Formulars ausgeführt werden sollen.
 
-    * Wählen Sie **Anfrage erstellen** und gehen Sie folgendermaßen vor:
-        1. Geben Sie einen aussagekräftigen Titel für die Anfragen ein, die mit diesem Formular erzeugt werden.
-        2. Wählen Sie die betreffende Anfragekategorie, beispielsweise "Support" oder eine Unterkategorie namens "Formularübermittlungen".
-        3. Setzen Sie die Anfragepriorität auf **Mittel**.
+1. Wählen Sie **Anfrage erstellen** und gehen Sie folgendermaßen vor:
+    1. Geben Sie einen aussagekräftigen Titel für die Anfragen ein, die mit diesem Formular erzeugt werden.
+    2. Wählen Sie die betreffende Anfragekategorie, beispielsweise "Support" oder eine Unterkategorie namens "Formularübermittlungen".
+    3. Setzen Sie die Anfragepriorität auf **Mittel**.
 
-    * Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.
+1. Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.
 
-    * **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
+1. **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
 
 ![Formularaktionen konfigurieren -screenshot][img7]
 

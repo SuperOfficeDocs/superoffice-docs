@@ -129,17 +129,17 @@ The example does not cover every field and option, but you can find comprehensiv
 
 ## Form actions
 
-1. Select **Actions** from the left menu to choose what happens after submission:
+1. Select **Actions** from the left menu to choose what happens after submission.
 
-    * Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
+1. Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
 
-    * Select **Manually if submitter is unknown. Automatically if submitter is known**. If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+1. Select **Manually if submitter is unknown. Automatically if submitter is known**. If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-    * **Add contact to selection**. Choose the selection you created in step 1. Use this selection to keep track of contacts added via this form.
+1. **Add contact to selection**. Choose the selection you created in step 1. Use this selection to keep track of contacts added via this form.
 
-    * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
+1. **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
 
-    * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
+1. **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
 ![Define your form actions -screenshot][img6]
 

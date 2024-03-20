@@ -129,17 +129,17 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 ## Formularhandlinger
 
-1. Vælg **Handlinger** fra venstremenuen for at indstilles de handlinger, der skal udføres, når formularen behandles:
+1. Vælg **Handlinger** fra venstremenuen for at indstilles de handlinger, der skal udføres, når formularen behandles.
 
-    * Vælg ikke **Opret sag**. Abonnementerne aktiveres automatisk, så supportteamet kræver ingen handling.
+1. Vælg ikke **Opret sag**. Abonnementerne aktiveres automatisk, så supportteamet kræver ingen handling.
 
-    * Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.
+1. Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.
 
-    * **Tilføj person til udvalg**: Vælg blandt de valg, du oprettede i trin 1. Brug dette valg til at holde styr på de personer, der er tilføjet via denne formular.
+1. **Tilføj person til udvalg**: Vælg blandt de valg, du oprettede i trin 1. Brug dette valg til at holde styr på de personer, der er tilføjet via denne formular.
 
-    * **Tilføj interesser til person**: Vælg interessen, **Nyhedsbrev**. Denne interesse vil blive føjet til personer, der indsender denne formular.
+1. **Tilføj interesser til person**: Vælg interessen, **Nyhedsbrev**. Denne interesse vil blive føjet til personer, der indsender denne formular.
 
-    * **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
+1. **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
 
 ![Definer formularhandlinger -screenshot][img6]
 

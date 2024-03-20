@@ -129,17 +129,17 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 ## Acties
 
-1. Selecteer **Acties** uit het linkermenu om de acties instellen die moeten worden uitgevoerd wanneer het formulier wordt verwerkt:
+1. Selecteer **Acties** uit het linkermenu om de acties instellen die moeten worden uitgevoerd wanneer het formulier wordt verwerkt.
 
-    * Selecteer **Verzoek maken** niet. De abonnementen worden automatisch geactiveerd, zodat het supportteam geen actie hoeft te ondernemen.
+1. Selecteer **Verzoek maken** niet. De abonnementen worden automatisch geactiveerd, zodat het supportteam geen actie hoeft te ondernemen.
 
-    * Selecteer **Handmatig als indiener onbekend is. Automatisch als indiener bekend is**: Als het e-mailadres dat is verzonden in het formulier, overeenkomt met een e-mailadres in SuperOffice, wordt de formulierverzending automatisch verwerkt. Anders wordt deze handmatig verwerkt.
+1. Selecteer **Handmatig als indiener onbekend is. Automatisch als indiener bekend is**: Als het e-mailadres dat is verzonden in het formulier, overeenkomt met een e-mailadres in SuperOffice, wordt de formulierverzending automatisch verwerkt. Anders wordt deze handmatig verwerkt.
 
-    * **Persoon toevoegen aan selectie**: Selecteer de selectie die u in stap 1 hebt gemaakt. Gebruik deze selectie om personen bij te houden die via dit formulier zijn toegevoegd.
+1. **Persoon toevoegen aan selectie**: Selecteer de selectie die u in stap 1 hebt gemaakt. Gebruik deze selectie om personen bij te houden die via dit formulier zijn toegevoegd.
 
-    * **Interesses toevoegen aan persoon**: Selecteer de interesse genaamd **Nieuwsbrief**. Deze interesse wordt toegevoegd aan personen die dit formulier verzenden.
+1. **Interesses toevoegen aan persoon**: Selecteer de interesse genaamd **Nieuwsbrief**. Deze interesse wordt toegevoegd aan personen die dit formulier verzenden.
 
-    * **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
+1. **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
 
 ![Formulieracties definiëren -screenshot][img6]
 

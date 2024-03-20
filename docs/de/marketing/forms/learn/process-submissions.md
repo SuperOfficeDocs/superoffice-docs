@@ -74,7 +74,7 @@ Im **Formularübermittlung**-Fenster:
 
 ![Formularübermittlungen, Daten aus Formular -screenshot][img1]
 
-## ## Zugehörige Inhalte
+## Zugehörige Inhalte
 
 * [Formularübermittlungen überwachen und Statistiken anzeigen][1]
 * [Kampagnenergebnisse analysieren][4]

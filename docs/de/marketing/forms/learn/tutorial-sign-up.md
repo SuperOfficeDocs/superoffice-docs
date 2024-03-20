@@ -129,17 +129,17 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 ## Aktionen
 
-1. Wählen Sie **Aktionen** im linken Menü um die Aktionen konfigurieren, die bei der Verarbeitung des Formulars ausgeführt werden sollen:
+1. Wählen Sie **Aktionen** im linken Menü um die Aktionen konfigurieren, die bei der Verarbeitung des Formulars ausgeführt werden sollen.
 
-    * Wählen Sie nicht **Anfrage erstellen**. Die Abonnements werden automatisch aktiviert, sodass keine Aktion vom Supportteam erforderlich ist.
+1. Wählen Sie nicht **Anfrage erstellen**. Die Abonnements werden automatisch aktiviert, sodass keine Aktion vom Supportteam erforderlich ist.
 
-    * Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.
+1. Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.
 
-    * **Person zu Selektion hinzufügen**: Wählen Sie die in Schritt 1 erstellte Selektion. Mit dieser Selektion können Sie die über dieses Formular hinzugefügten Personen nachverfolgen.
+1. **Person zu Selektion hinzufügen**: Wählen Sie die in Schritt 1 erstellte Selektion. Mit dieser Selektion können Sie die über dieses Formular hinzugefügten Personen nachverfolgen.
 
-    * **Interessen zu Person hinzufügen**: Wählen Sie das Interesse mit der Bezeichnung **Newsletter**. Dieses Interesse wird zu Personen hinzugefügt, die dieses Formular übermitteln.
+1. **Interessen zu Person hinzufügen**: Wählen Sie das Interesse mit der Bezeichnung **Newsletter**. Dieses Interesse wird zu Personen hinzugefügt, die dieses Formular übermitteln.
 
-    * **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
+1. **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
 
 ![Formularaktionen konfigurieren -screenshot][img6]
 

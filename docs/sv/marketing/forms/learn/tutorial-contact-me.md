@@ -86,16 +86,16 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 ## Åtgärder
 
-1. Välj **Åtgärder** från vänstermenyn för att ange vilka åtgärder som ska utföras när formuläret bearbetas:
+1. Välj **Åtgärder** från vänstermenyn för att ange vilka åtgärder som ska utföras när formuläret bearbetas.
 
-    * Välj **Skapa ärende** och gör följande:
-        1. Ange en beskrivande titel för de ärenden som ska genereras från det här formuläret.
-        2. Välj önskad kategori för ärendet, till exempel "Support" eller en underkategori som kallas "Formulärinlämningar".
-        3. Ange prioritet för begäran till **Medel**.
+1. Välj **Skapa ärende** och gör följande:
+    1. Ange en beskrivande titel för de ärenden som ska genereras från det här formuläret.
+    2. Välj önskad kategori för ärendet, till exempel "Support" eller en underkategori som kallas "Formulärinlämningar".
+    3. Ange prioritet för begäran till **Medel**.
 
-    * Välj **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt.
+1. Välj **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt.
 
-    * **E-postsvar**: Välj eller [skapa ett formulärsvar][2] som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att [hantera prenumerationer][6].
+1. **E-postsvar**: Välj eller [skapa ett formulärsvar][2] som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att [hantera prenumerationer][6].
 
 ![Definer formuläråtgärder -screenshot][img7]
 

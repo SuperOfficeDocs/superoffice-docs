@@ -117,7 +117,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 ## Landningssidor
 
-1. 1. Välj **Tacksida**.
+1. Välj **Tacksida**.
 
 1. Välj **Visa detta meddelande** och skriv  "Tack för att du prenumererar". Detta kommer att visas efter att kunden verifierat sin e-postadress.
 
@@ -129,17 +129,17 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 ## Åtgärder
 
-1. Välj **Åtgärder** från vänstermenyn för att ange vilka åtgärder som ska utföras när formuläret bearbetas:
+1. Välj **Åtgärder** från vänstermenyn för att ange vilka åtgärder som ska utföras när formuläret bearbetas.
 
-    * Välj inte **Skapa ärende**. Prenumerationerna aktiveras automatiskt så att ingen åtgärd krävs av supportteamet.
+1. Välj inte **Skapa ärende**. Prenumerationerna aktiveras automatiskt så att ingen åtgärd krävs av supportteamet.
 
-    * Välj **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt.
+1. Välj **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt.
 
-    * **Lägg till kontakt i urval**: Markera urvalet du skapade i steg 1. Använd detta för att hålla reda på kontakter som lagts till via det här formuläret.
+1. **Lägg till kontakt i urval**: Markera urvalet du skapade i steg 1. Använd detta för att hålla reda på kontakter som lagts till via det här formuläret.
 
-    * **Lägg till intressen för kontakt**: Välj intresset **Nyhetsbrev**. Intresset läggs till i kontakter som lämnar in det här formuläret.
+1. **Lägg till intressen för kontakt**: Välj intresset **Nyhetsbrev**. Intresset läggs till i kontakter som lämnar in det här formuläret.
 
-    * **E-postsvar**: Välj eller [skapa ett formulärsvar][2] som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att [hantera prenumerationer][6].
+1. **E-postsvar**: Välj eller [skapa ett formulärsvar][2] som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att [hantera prenumerationer][6].
 
 ![Definer formuläråtgärder -screenshot][img6]
 
