@@ -1,8 +1,9 @@
 ---
+uid: email-soinbox
 title: SuperOffice Inbox
 description: SuperOffice Inbox
 author: Bergfrid Dias
-so.date: 12.09.2021
+so.date: 03.21.2024
 keywords: email
 so.topic: concept
 # so.envir:
@@ -23,8 +24,6 @@ The main reason for using the MailKit library is a wider range of supported prot
 MailKit is used by SuperOffice NetServer, for example, Inbox in the Sales client.
 
 MailKit is enabled for CRM Online from version 8.0 (R23) and can be enabled manually on Onsite from version SuperOffice 8.0 SR3.
-
-The current version of MailKit is: 1.4.2.1
 
 ## How to enable MailKit
 
@@ -85,34 +84,30 @@ We made that feature General Available with SuperOffice 10.0.3.
 Enabled. Next time you log in to your Microsoft 365 (Microsoft® Exchange Online) email account in SuperOffice Inbox - you will be redirected to Microsoft for authentication.
 
 **Onsite:**
-For versions between G9 9.2 R10 and 10.0.3 you can add the feature via adding:
+For versions between G9 9.2 R10 and 10.0.3 you can add the feature by updating the *web.config* file (ask your technical installation partner for assistance if needed)
 
-* a) a new sectionGroup 'FeatureToggles' with state
-* b) a FeatureToggles section, with state and key="NewAuthentication"
-* in the web.config file (ask your technical installation partner for assistance if needed)
+1. Add a new **sectionGroup** called `FeatureToggles` with state:
 
-a)
+    ```xml
+    <configuration>
+    <configSections>
+    <sectionGroup name="SuperOffice">
+    <sectionGroup name="FeatureToggles">
+        <section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </sectionGroup>
+    <sectionGroup name="Security">
+    ...
+    ```
 
-```xml
-<configuration>
-<configSections>
-<sectionGroup name="SuperOffice">
-<sectionGroup name="FeatureToggles">
-<section name="State" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-</sectionGroup>
-<sectionGroup name="Security">
-...
-```
+1. Add a FeatureToggles **section**, with state and `key="NewAuthentication"`:
 
-b)
-
-```xml
-<FeatureToggles>
-  <State>
-    <add key="NewAuthentication" value="True" />
-  </State>
-</FeatureToggles>
-```
+    ```xml
+    <FeatureToggles>
+      <State>
+        <add key="NewAuthentication" value="True" />
+      </State>
+    </FeatureToggles>
+    ```
 
 **How to log in:**
 
@@ -125,7 +120,7 @@ b)
 
 ##### What is UPN (User Principal Name)?
 
-In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: john.doe@domain.com) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
+In Windows Active Directory, a User Principal Name (UPN) is the name of a system user in an email address format. A UPN (for example: `john.doe@domain.com`) consists of the user name (logon name), separator (the @ symbol), and domain name (UPN suffix).
 
 A UPN is not the same as an email address. Sometimes, a UPN can match a user's email address, but this is not a general rule.
 
