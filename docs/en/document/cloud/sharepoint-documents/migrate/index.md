@@ -1,10 +1,10 @@
 ---
-title: Migration guide
 uid: sharepoint-documents-migration
+title: Migration guide
 description: Introduction to SuperOffice SharePoint document migration.
-author: Frode Berntsen, Bergfrid Dias
-so.date: 01.15.2024
 keywords: SharePoint, document, Microsoft, Microsoft Entra, ME-ID, AAD
+author: Frode Berntsen, Bergfrid Dias, David H
+so.date: 03.21.2024
 so.topic: concept
 so.version:
 so.envir: cloud
@@ -66,6 +66,8 @@ The migration wizard has 3 steps. Each step must be completed (passed) before yo
 All SuperOffice users with a user plan must log in to CRM Online AFTER configuration and BEFORE migration. Otherwise, the migration-tool cannot create documents in SharePoint on behalf of the user.
 
 To move orphaned documents (those without a SharePoint owner), we need a **Global Administrator** to authorize the SuperOffice Documents library app. This app has already been approved if customers are using Visible for.​ To [add the SuperOffice Document Library app in SharePoint][8], a Global Administrator user must sign in once to give the app permission to access the selected site.
+
+Do NOT change the license (company name or serial number) during a SuperOffice SharePoint Document migration! This will stop any active migration job, and you will be [unable to resume migration][9]. It will also break the automated tests run in step 2 of the wizard.
 
 ## Limitations
 
@@ -147,6 +149,7 @@ If you have a third-party app that creates documents in SuperOffice, you need to
 [5]: best-practices.md
 [6]: steps.md
 [7]: troubleshooting.md#approve-app
+[9]: troubleshooting.md#license-changed
 [8]: ../configure-superoffice.md#step-4
 
 <!-- Referenced images -->
