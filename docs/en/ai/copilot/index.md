@@ -4,7 +4,7 @@ title: SuperOffice AI Services - Copilot
 description: SuperOffice AI Services - Copilot
 author: Bergfrid Dias, Filip Norman
 keywords: AI, ChatGPT, OpenAI, Bing, Copilot
-so.date: 02.16.2024
+so.date: 03.21.2024
 so.version: 10.3.2
 so.pilot: yes
 so.topic: concept
@@ -21,7 +21,7 @@ The SuperOffice Copilot smoothly integrates a ChatGPT-like user experience with 
 You can save time and get insights using the different ready-made questions (prompts) in the Company, Contact, Diary, Sale, Project, Request, and Selection screen.
 
 > [!NOTE]
-> This feature requires a separate licence for SuperOffice AI Platform and is available in pilot only, by invite. SuperOffice AI is cloud only.
+> This feature is available through our [AI lab program][2]. SuperOffice AI is cloud only.
 
 ## Privacy and GDPR
 
@@ -98,6 +98,7 @@ Prompts are subject to change without prior notice during the pilot!
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/side-panel.md
+[2]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/
 
 <!-- Referenced image -->
 [img1]: ../../../../common/icons/dropdown-icon.png
