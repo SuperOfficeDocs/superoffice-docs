@@ -37,7 +37,7 @@
 | bsda | The follow-up's start date, formatted as YYYYMMdd |
 | bsta | The follow-up's status (in English): "TENTATIVE", "CONFIRMED" or "CANCELLED" |
 | bsti | The follow-up's start time, formatted as HHmmss |
-| bsug | Suggested follow-up ID for the follow-up ("SuggestedFollow-up Id"). Set to 0 when the follow-up is not part of a sale/project guide |
+| bsug | The ID of the suggestion for the follow-up ("SuggestedAppointmentId"). Set to 0 when the follow-up is not part of a sale/project guide |
 | btim | The follow-up's date and time, for example 30.03.2005 (16:00)-(17:00) |
 | btod | Today's date in UTC, formatted as YYYYMMdd |
 | btot | Current time in UTC, formatted as HHmmss |
