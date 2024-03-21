@@ -72,7 +72,7 @@ items:
     - name: Variables
       topicHref: templates/variables/index.md
       items:
-      - name: For appointments
+      - name: For follow-ups
         href: templates/variables/for-appointments.md
       - name: For ical
         href: templates/variables/for-ical.md
