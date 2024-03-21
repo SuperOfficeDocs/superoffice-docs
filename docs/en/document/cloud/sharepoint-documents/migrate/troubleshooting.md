@@ -3,7 +3,7 @@ title: Troubleshooting
 uid: sharepoint-documents-migration-trouble
 description: Tips for troubleshooting a SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 03.21.2024
+so.date: 01.15.2024
 keywords: SharePoint, document, migrate, library, access, Microsoft Entra, ME-ID
 so.topic: howto
 so.version:
@@ -116,17 +116,6 @@ You must use **Edit Document** > **Open in Desktop App**.
 
 > [!NOTE]
 > Do NOT use **Edit and then convert**! This will create a copy of the document and next time you open it from SuperOffice the changes are gone. The same applies if you open a document from within SharePoint.
-
-<!-- markdownlint-disable-next-line MD013 -->
-## <a id="license-changed" />ApplicationException: Unable to resume migration session because company name or serialnumber has changed
-
-**Cause:**
-
-Most likely someone changed the name of your license after the migration tool was started / migration job scheduled.
-
-**Solution:**
-
-Start the wizard again (step 0) and schedule a new document migration.
 
 ## Related content
 
