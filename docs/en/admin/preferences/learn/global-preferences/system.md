@@ -2,13 +2,14 @@
 uid: help-en-admin-global-preferences
 title: Global preferences
 description: Global preferences
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: preferences, settings, global
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: en
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: en
 ---
 
 # Global preferences
@@ -27,7 +28,7 @@ Areas you can configure preferences for:
 * [SuperOffice Service system settings][1]
 * System
 * Targets
-* Data mirroring
+* [Data mirroring][5]
 * [SMS configuration][4]
 * [SMTP][2] (ONSITE only)
 * [Customer Centre password policy][3]
@@ -37,6 +38,7 @@ Areas you can configure preferences for:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

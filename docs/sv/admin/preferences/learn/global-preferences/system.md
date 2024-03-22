@@ -2,13 +2,14 @@
 uid: help-sv-admin-global-preferences
 title: Globala inställningar
 description: Globala inställningar
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: inställningar, inställningar, global
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: sv
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: sv
 ---
 
 # Globala inställningar
@@ -27,7 +28,7 @@ Områden som du kan konfigurera inställningar för:
 * [Systeminställningar för SuperOffice Service][1]
 * System
 * Mål
-* Dataspegling
+* [Dataspegling][5]
 * [SMS-konfiguration][4]
 * [SMTP][2] (endast LOKALT)
 * [Lösenordspolicy för Kundcenter][3]
@@ -37,6 +38,7 @@ Områden som du kan konfigurera inställningar för:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png
