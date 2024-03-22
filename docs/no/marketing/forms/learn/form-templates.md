@@ -2,11 +2,14 @@
 uid: help-no-form-templates
 title: Arbeide med skjemamaler
 description: Arbeide med skjemamaler
+keywords: skjema, mal, skjemamal
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Skjemaer
+so.date: 03.04.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med skjemamaler

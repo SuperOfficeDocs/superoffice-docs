@@ -1,29 +1,35 @@
 ---
 uid: help-en-form-publish
-title: Publish forms
-description: Publish forms
+title: Publish form
+description: Publish form
+keywords: form, publish form, active form, embed form, pre-filled field
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Forms
+so.date: 02.29.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Publish forms
 
 After creating a form and (if relevant) the form response, you can publish the form.
 
+## Steps
+
 1. Go to the **Forms** tab.
 
 2. Click the form to open it in view mode.
 
-3. Set the form to **Active** (![icon][img1]) in the header.
+3. Set the form to **Active** ![icon][img1] in the header.
 
 4. Go to the **Publish** tab.
 
-5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. Useful for [pre-filling fields in the forms][1] with existing customer data from SuperOffice.
+5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. Useful for [pre-filling form fields][1] with existing customer data from SuperOffice.
 
 6. On the left side of the screen, select a publishing option for the form:
+
     * **Direct link**: A direct link to the form.
     * **Embed inline**: A script tag used to add the form on a web page.
     * **Embed as popup**: A button to open the form in a pop-up window on the web page.
@@ -31,18 +37,19 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 7. Copy the links/tags into a newsletter, website or customer centre to publish it to your customers or prospects.
 
-A notification on the **Form submissions** tab (![icon][img2]) indicates that you have received form submissions.
+![Publish form, direct link -screenshot][img3]
 
-## What would you like to do now?
+## What happens now?
 
-* [Track form submissions and view statistics][2]
-* [Process form submissions][3]
+A notification on the **Form submissions** tab indicates that you have [received form submissions][2], which might need to be [processed manually][3].
+
+Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions are received.
 
 <!-- Referenced links -->
 [1]: form-prefilled.md
-[2]: submissions/track.md
-[3]: submissions/process.md
+[2]: view-statistics.md
+[3]: process-submissions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/form-active.png
-[img2]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img3]: ../../../../media/loc/en/marketing/form-publish.png

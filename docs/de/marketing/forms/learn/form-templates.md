@@ -2,11 +2,14 @@
 uid: help-de-form-templates
 title: Mit Formularvorlagen arbeiten
 description: Mit Formularvorlagen arbeiten
+keywords: Formular, Vorlage, Formularvorlage
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulare
+so.date: 03.13.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Mit Formularvorlagen arbeiten

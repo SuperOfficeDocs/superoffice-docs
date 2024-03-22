@@ -101,7 +101,7 @@ Variables available in the script include custId, linkId, shipmentId, linkUrl, l
 [How to create or edit a CRMScript][6]
 
 <!-- Referenced links -->
-[1]: ../../forms/learn/examples.md#newsletter-sign-up
+[1]: ../../forms/learn/tutorial-sign-up.md
 [3]: ../../../request/learn/howto/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md

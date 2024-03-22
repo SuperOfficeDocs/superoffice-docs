@@ -2,11 +2,14 @@
 uid: help-da-form-templates
 title: Arbejde med formularskabeloner
 description: Arbejde med formularskabeloner
+keywords: formular, skabelon, formularskabelon
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formularer
+so.date: 03.04.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbejde med formularskabeloner
@@ -20,7 +23,7 @@ language: da
 1. Vælg fanen **Formularskabeloner**.
 2. Klik på **Alle skabeloner**.
 3. Klik på ![ikon][img1] menuknappen ved siden af den skabelon, du vil bruge.
-4. Vælg **Kopier til ny formular**. Skabelonen åbnes i dialogboksen **Rediger formular** . Se [Opret en ny formular][1].
+4. Vælg **Kopier til ny formular**. Skabelonen åbnes i dialogboksen **Rediger formular**. Se [Opret en ny formular][1].
 
 ## Opret en ny formularskabelon fra bunden
 

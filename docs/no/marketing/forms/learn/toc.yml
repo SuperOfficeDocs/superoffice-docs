@@ -1,29 +1,23 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Vis skjemaer
-  href: view.md
-- name: Arbeide med skjemaer
-  topicHref: form-templates.md
-  items:
-  - name: Oversikt
-    href: form-templates.md
-  - name: Opprett nytt skjema
-    href: create.md
-  - name: Feltalternativer
-    href: field-options.md
-  - name: Publisere skjemaer
-    href: publish.md
-  - name: Bruke forhåndsutfylte felt
-    href: form-prefilled.md
-  - name: Eksempler
-    href: examples.md
-- name: Skjemainnsendinger
-  topicHref: submissions/index.md
-  items:
-  - name: Oversikt
-    href: submissions/index.md
-  - name: Spore skjemainnsendinger og vise statistikk
-    href: submissions/track.md
-  - name: Behandle skjemainnsendinger
-    href: submissions/process.md
+- name: Opprett nytt skjema
+  href: create.md
+- name: Feltalternativer
+  href: field-options.md
+- name: Definer skjemahandlinger
+  href: define-form-actions.md
+- name: Skjemamaler
+  href: form-templates.md
+- name: Publisere skjema
+  href: publish.md
+- name: Bruke forhåndsutfylte felt
+  href: form-prefilled.md
+- name: Vise statistikk
+  href: view-statistics.md
+- name: Behandle skjemainnsendinger
+  href: process-submissions.md
+- name: Veiledning - Kontakt meg
+  href: tutorial-contact-me.md
+- name: Veiledning - Påmelding til nyhetsbrev
+  href: tutorial-sign-up.md

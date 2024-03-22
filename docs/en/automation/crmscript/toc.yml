@@ -122,6 +122,7 @@ items:
     - name: Using the SearchEngine class (blog post)
       href: searchengine/using-the-searchengine-class-blog-post.md
   - name: Custom objects
+    topicHref: howto/custom-objects/udef.md
     items:
     - name: User-defined fields
       href: howto/custom-objects/udef.md
@@ -131,6 +132,11 @@ items:
       href: howto/custom-objects/sort-extra-field-values.md
     - name: Extra tables
       href: howto/custom-objects/extra-table.md
+  - name: Marketing
+    topicHref: howto/marketing/forms.md
+    items:
+    - name: Forms
+      href: howto/marketing/forms.md
 - name: Tutorials
   items:
   - name: Random requests

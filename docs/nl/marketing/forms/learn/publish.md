@@ -2,28 +2,34 @@
 uid: help-nl-form-publish
 title: Formulieren publiceren
 description: Formulieren publiceren
+keywords: formulier, publiceren, formulieren publiceren, vooraf ingevulde velden, formulier insluiten, scriptcode
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulieren
+so.date: 03.18.2024
+so.version: 10
 so.topic: howto
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Formulieren publiceren
 
 Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, kunt u het formulier publiceren.
 
+## Stappen
+
 1. Ga naar het tabblad **Formulieren**.
 
 2. Klik op het formulier om het te openen in voorbeeldweergave.
 
-3. Stel het formulier in als **Actief** (![pictogram][img1]) in de koptekst.
+3. Stel het formulier in als **Actief** ![pictogram][img1] in de koptekst.
 
 4. Ga naar het tabblad **Publiceren**.
 
-5. (optioneel) Selecteer **Weergeven met vooraf ingevulde velden** om veld-ID's toe te voegen aan de koppeling/JavaScript. Als er geen veld-ID's worden toegevoegd, hebt u deze ID's waarschijnlijk niet toegevoegd aan de velden in het formulier. Handig voor [het vooraf invullen van velden in de formulieren][1] met bestaande klantgegevens van SuperOffice.
+5. (optioneel) Selecteer **Weergeven met vooraf ingevulde velden** om veld-ID's toe te voegen aan de koppeling/JavaScript. Handig voor [het vooraf invullen van velden in de formulieren][1] met bestaande klantgegevens van SuperOffice.
 
 6. Selecteer aan de linkerkant van het scherm een publicatieoptie voor het formulier:
+
     * **Directe koppeling**: een directe koppeling naar het formulier.
     * **Inline insluiten**: een scriptcode die wordt gebruikt om het formulier op een webpagina toe te voegen.
     * **Als pop-up insluiten**: een knop om het formulier te openen in een pop-upvenster op de webpagina.
@@ -31,18 +37,19 @@ Nadat u een formulier en (indien relevant) de formulierantwoord hebt gemaakt, ku
 
 7. Kopieer de koppelingen/codes naar een nieuwsbrief, website of Customer Centre om deze te publiceren naar uw klanten of prospects.
 
-Een melding op het tabblad **Formulierverzendingen** (![pictogram][img2]) geeft aan dat u formulierverzendingen hebt ontvangen.
+![Formulier publiceren, directe koppeling -screenshot][img3]
 
-## Wat wilt u nu doen?
+## Wat gebeurt er nu?
 
-* [Formulierverzendingen traceren en statistieken weergeven][2]
-* [Formulierverzendingen verwerken][3]
+Een melding op het tabblad **Formulierverzendingen** geeft aan dat je [formulierverzendingen hebt ontvangen][2], die mogelijk [handmatig verwerkt moeten worden][3].
+
+Formulieren kunnen handmatig gedeactiveerd worden, of worden automatisch gedeactiveerd op een specifieke datum of wanneer een specifiek aantal verzendingen is ontvangen.
 
 <!-- Referenced links -->
 [1]: form-prefilled.md
-[2]: submissions/track.md
-[3]: submissions/process.md
+[2]: view-statistics.md
+[3]: process-submissions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/form-active.png
-[img2]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img3]: ../../../../media/loc/en/marketing/form-publish.png

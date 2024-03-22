@@ -2,25 +2,25 @@
 uid: help-de-forms
 title: Mit Formularen arbeiten
 description: "SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen."
-author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: Formulare
+keywords: Formular, Formularübermittlung, doppeltes Opt-in
+author: Bergfrid Dias
+so.date: 03.18.2024
+so.version: 10
 so.topic: concept
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Mit Formularen arbeiten
 
 Mit der leistungsstarken Funktion Formulare können Sie Daten aus einem Formular ohne viel Aufwand in SuperOffice einbinden. Formulare erleichtern die Interaktion mit Kunden und Interessenten über Ihre Website oder Ihr Kundenzentrum. Eine Vielzahl unterschiedlichster Daten können in ein Formular aufgenommen werden (einschließlich das Hochladen von Dateien). Zudem können Sie automatisierte Aktionen festlegen, die bei Übermittlung und Verarbeitung des Formulars ausgeführt werden sollen.
 
-Sie können problemlos ein Formular erstellen und auf jeder gewünschten Webseite posten (z. B. "Kontaktieren"-Formulare) und all die neuen Interessenten in SuperOffice zu Personen umwandeln.
+Sie können problemlos ein Formular erstellen und auf jeder gewünschten Webseite posten. Beispiele für Formulare: kostenlose Demo abrufen, [Kontaktieren][1], Datenaktualisierung, Einwilligungsverwaltung.
 
 ![Sie können ein Web-Formular verwenden, um Personen zu bitten, sich für Ihr nächstes Webinar oder Seminar anzumelden oder sich mit ihren Fragen an Ihre Firma zu wenden -screenshot][img1]
 
-Beispiele für Formulare: kostenlose Demo abrufen, Kontakt, Datenaktualisierung, Einwilligungsverwaltung.
-[Erstellen von Formularen (Beispiele)][1]
-
-## Wofür kann man Web-Formulare verwenden?
+## <a id="ex" />Wofür kann man Web-Formulare verwenden?
 
 Sie können Web-Formulare verwenden, um die Daten Ihrer Website-Besucher zu erfassen – ihren Namen, ihre E-Mail-Adresse, ihre Voreinstellungen, Kommentare und Rückmeldungen – und sie möglicherweise in Kunden umzuwandeln. Die Daten, die Sie über Web-Formulare erhalten, können automatisch in Ihre SuperOffice CRM-Datenbank importiert werden, wodurch Sie Zeit und Mühe sparen.
 
@@ -32,18 +32,6 @@ Sie können Web-Formulare verwenden, um die Daten Ihrer Website-Besucher zu erfa
 
 * **Folgeaufgaben automatisieren:** Formulare helfen Ihnen, Ihre Arbeit zu beschleunigen, indem Sie manuelle Aufgaben automatisieren, z. B. das Erstellen von Folgeaufgaben, das Senden von Kampagnen, das Aktualisieren der Interessen von Personen und das Hinzufügen von Personen zu einer Selektion oder einem Projekt.
 
-## Wo man Formulare findet?
-
-Formulare können auf verschiedene Weise gesucht werden. Gehen Sie zur Registerkarte Formulare, zu Formularvorlagen oder zur Registerkarte Formularübermittlungen.
-
-![Formulare können auf verschiedene Weise gesucht werden -screenshot][img2]
-
-* **Formulare:** Hier können Sie neue Formulare erstellen und alle zuvor erstellten Formulare anzeigen. Auf der Registerkarte Aktive Formulare wird angezeigt, welche Formulare derzeit verwendet werden. Die rote Blase in der oberen rechten Ecke eines Formulars zeigt Ihnen die Anzahl der Formularübermittlungen an, die noch nicht verarbeitet wurden.
-
-* **Formularvorlagen:** Hier finden Sie alle verfügbaren Formularvorlagen. Wenn Sie diesen Tab zum ersten Mal öffnen, finden Sie in der Online-Vorlagenbibliothek verschiedene Vorlagen. Sie können auch Vorlagen aus der Online-Vorlagenbibliothek importieren und verwenden oder als Inspiration bei der Erstellung Ihrer eigenen Vorlagen nutzen. Klicken Sie einfach auf die gewünschte Vorlage und auf Vorlage importieren, um sie herunterzuladen.
-
-* **Formularübermittlungen:** Zeigt alle Details der Personen an, die ein Formular übermittelt haben, und ihren aktuellen Formularstatus.
-
 ## Workflow
 
 Das Erstellen eines Formulars verläuft im Großen und Ganzen gemäß dem folgenden Workflow:
@@ -54,19 +42,80 @@ Das Erstellen eines Formulars verläuft im Großen und Ganzen gemäß dem folgen
 4. [Formularübermittlungen überwachen und Statistiken anzeigen][5] – Antwortraten können in Echtzeit angezeigt werden.
 5. [Formularübermittlungen verarbeiten][6] – Angaben in SuperOffice können anhand der übermittelten Daten manuell oder automatisch aktualisiert werden. SuperOffice kann vorhandene Personen anhand von E-Mail-Adressen erkennen oder neue Personen und Firmen erstellen.
 
-<!-- markdownlint-disable-next-line MD013 -->
-## Verwenden Sie Dashboards, um einen Überblick über die Formularübermittlung zu erhalten
+## Wo man Formulare findet?
 
-Mit einem Dashboard für die Formularübermittlung können Daten auf einfache Weise gemessen und visualisiert werden. Mit dem Dashboard können Sie Leistung, Trends und Produktivität im Auge zu behalten. Weitere Informationen über Dashboards für die Formularübermittlung.
+SuperOffice Marketing hat 3 Registerkarte, die sich auf Formulare beziehen.
+
+![Formulare können auf verschiedene Weise gesucht werden -screenshot][img2]
+
+* **Registerkarte Formulare:** ermöglicht es Ihnen, neue Formulare zu erstellen und zuvor erstellte anzuzeigen. Der Registerkarte **Aktive Formulare** zeigt aktuell verwendete Formulare an. Eine rote Blase auf einem Formular zeigt unbehandelte Übermittlung an.
+
+    Verwenden Sie die sekundäre Tab-Reihe (Kürzlich, Meine Formulare, Aktive Formulare, Alle Formulare) und das Suchfeld, um die verfügbaren Formulare zu erkunden.
+
+    Doppelklicken Sie auf ein Formular, um Details dazu anzuzeigen.
+
+* **Registerkarte Formularvorlagen:** enthält alle verfügbaren [Formularvorlagen][7]. Wenn Sie diesen Tab zum ersten Mal öffnen, sehen Sie Vorlagen aus der Online-Bibliothek. Sie können diese für die Verwendung oder als Inspiration importieren. Um eine Vorlage herunterzuladen, klicken Sie darauf und drücken Sie **Vorlage importieren**.
+
+* **Registerkarte Formularübermittlungen:** zeigt eine Liste der Personen, die ein Formular übermittelt haben, und den aktuellen [Status ihrer Übermittlung](#status).
+
+## <a id="view" />Die Ansicht Formular anzeigen
+
+![SuperOffice Marketing 'Formular anzeigen' -screenshot][img4]
+
+Oben haben Sie folgende Optionen:
+
+|Option | Beschreibung |
+|---|---|
+| Inaktiv/Aktiv | Schieben Sie diesen Schalter, um das Formular zu aktivieren bzw. zu deaktivieren. |
+| Aktualisieren | Aktualisiert die Ansicht. |
+| Bearbeiten | Öffnet das Formular im Bearbeitungsmodus. |
+| ![Symbol][img5] | Setzt das Formular als [Favorit][11]. |
+
+Der Bildschirm **Formular anzeigen** besteht aus den folgenden Registerkarten:
+
+* **Zusammenfassung:** zeigt grundlegende Informationen zum Formular, einschließlich einer Vorschau und verschiedener Übermittlungsstatistiken.
+* **Veröffentlichen:** zeigt den Link und das Skript für [die Veröffentlichung des Formulars][3] auf einer Webseite oder in einer Kampagne.
+* **Berichte:** zeigt Diagramme mit Statistiken für das Formular (Maus darüber halten, um genaue Zahlen anzuzeigen).
+* **Formularübermittlungen:** zeigt Übermittlungen für ein einzelnes Formular.
+* **Antwort-E-Mail:** zeigt eine Vorschau der Formularantwort (Kampagne), die mit diesem Formular verknüpft ist. Sichtbar nur, wenn die **E-Mail-Antwort** [Formularaktion][8] ausgewählt ist.
+
+## <a id="submissions" />Formularübermittlungen
+
+Wenn ein Formular von einem Kundenzentrum oder einer Website übermittelt wird, werden die Daten erfasst und auf der Registerkarte **Formularübermittlungen** angezeigt. Ein rotes Symbol auf der Registerkarte weist auf neu übermittelte Formulare hin ![Symbol][img3].
+
+Mit den Filteroptionen unten in der Liste können Sie gezielt übermittelte Formulare mit einem bestimmten Status anzeigen.
+
+> [!NOTE]
+> Sie können auch [Übermittlungen für einzelne Formulare anzeigen][5], indem Sie ein Formular auf der Registerkarte **Formulare** öffnen.
+
+### <a id="status" />Formularstatus
+
+* **Verarbeitet**: Das Formular wurde übermittelt und automatisch verarbeitet.
+* **Übermittelt**: Das Formular wurde übermittelt, aber noch nicht verarbeitet. [Wie man Formularübermittlungen verarbeitet][2]
+* **Bestätigung ausstehend**: Das Formular wurde übermittelt, aber der Absender muss seine E-Mail-Adresse noch bestätigen (doppeltes Opt-in).
+
+## <a id="opt-in" />Was bedeutet doppeltes Opt-in?
+
+Bei doppeltem Opt-in müssen die Kunden ihre E-Mail-Adresse verifizieren, indem sie zusätzlich zur Übermittlung des Formulars auf den Link in einer Bestätigungs-E-Mail klicken.
+
+Mit dieser Option statten Sie das Formular mit einem zusätzlichen Sicherheitsmerkmal aus. Wenn Sie diese Option aktivieren, muss die Person, die das Formular übermittelt, zusätzlich ihre E-Mail-Adresse bestätigen. Zu diesem Zweck erhält die betreffende Person eine E-Mail, sobald sie das Formular übermittelt. Die E-Mail enthält einen Link, auf den die betreffende Person klicken muss, um die Richtigkeit der E-Mail-Adresse zu bestätigen. Der Link ist standardmäßig 30 Minuten lang gültig.
+
+Durch die Double-Opt-In-Funktion wird sichergestellt, dass die richtige E-Mail-Adresse angegeben wird. Dies bedeutet, dass Ihre Kampagnenliste zuverlässiger wird, was dazu beiträgt, die Öffnungsraten Ihrer Kampagnen zu erhöhen. Als zusätzlichen Bonus müssen Sie keine Zeit damit verbringen, Rechtschreibfehler in E-Mail-Adressen zu korrigieren oder nicht existierende E-Mail-Adressen zu löschen. Dies hilft Ihnen auch bei Ihren Bemühungen, DSGVO-konform zu bleiben.
 
 <!-- Referenced links -->
-[1]: examples.md
+[1]: tutorial-sign-up.md
 [2]: create.md
+[8]: define-form-actions.md
 [3]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [4]: publish.md
-[5]: submissions/track.md
-[6]: submissions/process.md
+[5]: view-statistics.md
+[6]: process-submissions.md
+[7]: form-templates.md
+[11]: ../../learn/add-fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
+[img4]: ../../../../media/loc/en/marketing/view-form-screen.png
+[img3]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img5]: ../../../../../common/icons/favourite-no.png

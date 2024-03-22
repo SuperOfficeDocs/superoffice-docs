@@ -28,3 +28,7 @@ items:
 - name: Sporede links
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md
+
+- name: Formularer
+  href: ../forms/learn/toc.yml
+  topicHref: ../forms/learn/index.md

@@ -2,35 +2,37 @@
 uid: help-en-form-create
 title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
+keywords: form, form template, multi-page
 author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: form, opt-in
+so.date: 02.29.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Create a new form
 
-Web forms make it easier to interact with customers and prospects via your website or customer centre.
-
-You can either create your own form from scratch, use a template from the form templates or choose one from our Online template library.
+Web forms make it easier to interact with customers and prospects via your website or customer centre. You have three options: create a form from scratch, create and use a custom form template, or select a free template from the **Online Template Library** in SuperOffice Marketing.
 
 Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
-## Create new
+## Create new (from scratch)
 
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][8].
-3. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
-4. Enter a descriptive name for the template in the **Form name** field.
-5. Fill in the fields as described below.
-6. Remember to click **Apply now** regularly to save your work. The form will not be auto-saved.
-7. Click **Save** when you are done.
+3. Click the **Form** button below **Create new** on the right side of the screen.
+4. In the **Edit form** dialog, enter a descriptive **Form name**.
+5. [Fill in the fields](#fields) as described below. Remember to click **Apply now** regularly to save your work. The form will not be auto-saved.
+6. Click **Save** when you are done.
 
-## Do you want to create a new form based on a form template?
+![Set properties for new contact me form -screenshot][img15]
+
+## Create new based on form template
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
@@ -38,13 +40,13 @@ Watch this video to learn how you can create a web form (video length - 7:49) or
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 5. [Activate and publish the form][2].
 
-## <a id="multi-page" />Create multi-page forms
+## <a id="multi-page" />Create multi-page form
 
-If you are creating a form with many fields, it may be useful to split the form into multiple pages. This will make the form more user-friendly and easier to read. The user can navigate using **Next** and **Previous** buttons, and you can also add a progress bar to indicate how much is left to fill in.
+To enhance user-friendliness and facilitate readability, consider dividing a form with many fields into multiple pages. Users can navigate through the form using **Next** and **Previous** buttons, and a progress bar can be added to indicate the remaining fields.
 
 1. Create a form as described above.
-2. Go to the **Fields** category.
-3. Click the **Add** button (![icon][img2]).
+2. Select **Fields** from the left menu (in the dialog).
+3. Click the **Add** button ![icon][img2].
 4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
 6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
@@ -54,13 +56,11 @@ If you are creating a form with many fields, it may be useful to split the form 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Go to the **Style** category, click the check box next to **Progress bar color**, and select a color.
 
-## Filling in form fields
+## <a id="fields" />Filling in form fields
 
-Click the headings to learn how to fill in the fields in the various categories:
+[!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 ### Properties
-
-Fill in the following information in the **Properties** category:
 
 * **Folder**: Select where to place the form or [create a new folder][8].
 
@@ -81,13 +81,16 @@ Fill in the following information in the **Properties** category:
 
 In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview is automatically updated.
 
-1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button are added to the new form.
+1. Select **Fields** from the left menu. By default, the **Contact - name** field and **OK** button are added to the new form.
 
 2. Click the **Add** button ![icon][img2].
 
 3. In the **Add element** window, select one of the following field categories:
+
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
+
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 
 4. Select a field in the list.
@@ -101,8 +104,11 @@ In the **Fields** category you add the fields that should be included in the for
 8. You can also edit these settings (optional):
 
     * In the **Placeholder** field, enter a short hint on what to enter in the field.
+
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
+
     * Click **Advanced options** ![icon][img5] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
 
 9. Edit any other [options in the field][4] as relevant.
@@ -113,21 +119,16 @@ In the **Fields** category you add the fields that should be included in the for
 
 ### Style
 
-In the **Style** category you can define the look and feel of the form. You can among other things set the number of columns, placement of field names, borders, background, font color/size and form size.
+Select **Style** from the left menu to define the look and feel of the form. For example, set the number of columns, placement of field names, borders, background, font color/size, and form size.
 
-The preview on the right is updated automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
+The preview on the right updates automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar color**, and select a color. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](#multi-page).
 
-### Activate double opt-in
+### Activate double opt-in (optional)
 
-Double opt-in is an extra step in the form submission process, where a person has to confirm their email address to complete their form submission. They get an email with a link they must click to confirm that the email address is correct.
-
-> [!NOTE]
-> The link is valid for 30 minutes by default.
-
-Using the double opt-in feature will guarantee that people submit the right email address. This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won't have to spend time correcting spelling mistakes in email addresses or deleting email addresses that do not exist. And it also will help you in your effort to stay GDPR-compliant.
+Double opt-in is an extra step in the form submission process that will guarantee that people submit the correct email address.
 
 Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
 
@@ -137,15 +138,22 @@ Watch this video to learn how to use the double opt-in feature on your web form 
 **Steps:**
 
 1. Click **Enable double opt-in**.
-2. In the **Message** tab, enter the text to display after the form is submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
+
+2. In the **Message** tab, enter the text to display after the form is submitted.
+
 3. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
+
     1. **Subject**: Enter the subject of the confirmation email.
+
     2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
-    3. **Confirmation text**: Enter the body text of the email. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
-    4. Click **Show/hide toolbar** ![icon][img7] and then click **Insert confirm link** ![icon][img9]. The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img10].
+
+    3. **Confirmation text**: Enter the body text of the email.
+
+    4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img8].
+
 4. Click **Apply now** when you are done.
 
-If double opt-in is activated for a form, all [submissions for this form][5] have status **Awaiting confirmation** until the email address is confirmed.
+If double opt-in is activated for a form, all submissions for this form have status **Awaiting confirmation** until the email address is confirmed.
 
 > [!NOTE]
 > Remember to add the **Contact - email** field in the **Fields** category.
@@ -154,9 +162,7 @@ If double opt-in is activated for a form, all [submissions for this form][5] hav
 
 When a person completes and submits a form, you should thank them and let them know what will happen next. It is always nice to say thank you. People really appreciate it.
 
-Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they've submitted their details.
-
-The effect will be uplifting – a "Thank you" page will both elevate their customer experience and boost your customer loyalty.
+Use the "Thank You" page to promote other products or events, linking to relevant parts of your website. This enhances the user experience and fosters customer loyalty.
 
 Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
 
@@ -167,38 +173,21 @@ Choose one of the following options:
 
 * **Redirect to external website**: Enter the link to the web page with more information.
 * **Show this message**: Enter the text to display.
-  * Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
-  * Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
 
 ### Page for inactive form
 
 If a person opens a form that is inactive, you can either redirect them to another web page or display a message.
 
 * **Redirect to external website**: Enter the link to the web page.
-* **Show this message**: Enter the text to display. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
+* **Show this message**: Enter the text to display.
 
 ### Actions
 
-Here you can define how a submitted form should be processed. Fill in the following fields:
+Here you can [define what happens when someone submits a form response][3].
 
-**Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
-
-**How should a form submission be processed?** Here you can define whether the submitted forms should be processed automatically.
-
-* **Automatically process all submissions. Create new contact if no match found**: All form submissions are processed automatically. There will no notifications of submitted forms.
-* **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]). See [Process form submissions][6].
-* **Manually for all submissions**: You will receive a notification (![icon][img11]) for each submitted form. To process form submissions manually, see [Process form submissions][6].
-
-**What should happen when the form is processed?** Here you can select actions to perform when a form is processed (automatically or manually):
-
-* **Add contact to selection**: If you selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
-* **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
-* **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
-* **Email response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
-* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
-* **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][9].
-* **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/companies to one specific category and/or business.
-    For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.
+* Notify of submissions by creating requests
+* How should a form submission be processed?
+* What should happen when the form is processed?
 
 ## What would you like to do now?
 
@@ -207,21 +196,17 @@ Here you can define how a submitted form should be processed. Fill in the follow
 <!-- Referenced links -->
 [1]: ../../tracked-links/learn/ga-tutorial.md
 [2]: publish.md
+[3]: define-form-actions.md
 [4]: field-options.md
-[5]: submissions/index.md
-[6]: submissions/process.md
-[7]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [8]: ../../learn/create-folder.md
-[9]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
+[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img5]: ../../../../../common/icons/cog-wheel.png
 [img6]: ../../../../../common/icons/duplicate-icon.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../../../common/icons/pop-out-icon.png
 [img9]: ../../../../../common/icons/new-window-icon.png
-[img10]: ../../../../../common/icons/edit-black.png
-[img11]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img8]: ../../../../../common/icons/edit-black.png
+[img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

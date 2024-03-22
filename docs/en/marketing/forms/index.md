@@ -1,8 +1,6 @@
 ---
-title: Welcome to SuperOffice Docs
-description: Placeholder landing page
-so.date: 05.29.2021
+title: Forms landing page redirect
+author: Bergfrid Dias
+so.date: 03.05.2024
+redirect_url: https://docs.superoffice.com/en/marketing/forms/learn/index.html
 ---
-
-<!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../includes/default-index.md)]

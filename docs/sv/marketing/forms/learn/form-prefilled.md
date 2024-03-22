@@ -2,33 +2,42 @@
 uid: help-sv-form-prefilled
 title: Använda förifyllda fält i formulär
 description: Använda förifyllda fält i formulär
+keywords: formulär, fält, förifyllda fält, fältidentifierare
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulär
+so.date: 03.15.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Använda förifyllda fält i formulär
 
 För att bespara dina kunder tiden och besväret med att fylla i namn, e-postadress, telefonnummer och så vidare i formulär kan du lägga till fältidentifierare och mallvariabler i formulärlänkarna/URL:erna. När kunden öppnar ett formulär fylls befintliga kunddata i med SuperOffice-data.
 
+En fältidentifierare är en unik ID för ett specifikt fält. Den kommer inte att ändras även om fältets namn/etikett eller språket ändras. På detta sätt kan du säkerställa att länkar till detta fält inte blir brutna efter att formuläret har publicerats.
+
+## Steg
+
 1. [Skapa nytt formulär][1].
 
-2. För varje fält som du vill ska förifyllas: Klicka på **Avancerat** ![ikon][img1] om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet. Detta är ett unikt ID för fältet och ändras inte även om fältnamnet/etiketten eller språket ändras. På så sätt kan du vara säker på att länkar till fältet inte är brutna när formuläret har publicerats.
+2. För varje fält som du vill ska förifyllas: Klicka på **Avancerat** ![ikon][img1] om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet.
 
 3. [Publicera formulär][2].
 
-4. Välj **Visa med förifyllda fält** om du vill lägga till fältidentifierare i länken/JavaScript.
-    Det borde se ut ungefär så här:
+4. Välj **Visa med förifyllda fält** om du vill lägga till fältidentifierare i länken/JavaScript. Det borde se ut ungefär så här:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=
     ```
 
+    Om inga fältidentifierare läggs till har du förmodligen inte lagt till dessa ID:n till fälten i formuläret.
+
 5. Kopiera länken eller JavaScript till en textredigerare eller liknande.
 
 6. Ange relevanta [mallvariabler][3] mellan två hakparenteser EFTER likhetstecknet:
+
     ```text
     ...formId=F-FH2K4Vru&field-name-1=\[\[customer.name\]\]&field-mail=\[\[customer.email\]\]
     ```

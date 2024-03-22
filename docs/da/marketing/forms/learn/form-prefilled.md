@@ -2,33 +2,42 @@
 uid: help-da-form-prefilled
 title: Brug af forudfyldte felter i formularer
 description: Brug af forudfyldte felter i formularer
+keywords: formular, forudfyldt, forudfyldte felt, felt-id, feltidentifikator
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formularer
+so.date: 03.04.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Brug af forudfyldte felter i formularer
 
 For at spare dine kunder tid og besvær med at udfylde deres navn, e-mail-adresse, telefonnummer osv. I formularer kan du tilføje felt-id'er og skabelonvariabler til formularlinkene/URL'erne. Når kunden åbner en formular, udfyldes eksisterende kundedata ved hjælp af SuperOffice-data.
 
+En feltidentifikator er en unik ID for et specifikt felt. Den vil ikke ændre sig, selvom feltets navn/etiket eller sproget ændres. På denne måde kan du sikre, at links til dette felt ikke bliver brudt efter at formularen er blevet offentliggjort.
+
+## Trin
+
 1. [Opret en ny formular][1].
 
-2. For hvert felt, der skal udfyldes på forhånd: Klik på **Avancerede indstillinger** ![ikon][img1] for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet. Det bliver til et entydigt ID for dette felt og ændres ikke, feltnavnet/-etiketten eller sproget ændres. På den måde kan du sikre, at links til dette felt ikke brydes efter udgivelse af formularen.
+2. For hvert felt, der skal udfyldes på forhånd: Klik på **Avancerede indstillinger** ![ikon][img1] for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet.
 
 3. [Udgiv formularer][2].
 
-4. Vælg **Vis med forudfyldte felter** for at føje felt-ID'er til linket/JavaScript.
-    Det skal se nogenlunde ud som følger:
+4. Vælg **Vis med forudfyldte felter** for at føje felt-ID'er til linket/JavaScript. Det skal se nogenlunde ud som følger:
 
     ```text
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=
     ```
 
+    Hvis der ikke tilføjes felt-ID'er, har du sandsynligvis ikke føjet disse ID'er til felterne i formularen.
+
 5. Kopier linket eller JavaScript til et tekstredigeringsprogram eller lignende.
 
 6. Angiv de relevante [skabelonvariabler][3] mellem to kantede parenteser EFTER lighedstegnet:
+
     ```text
     ...formId=F-FH2K4Vru&field-name-1=\[\[customer.name\]\]&field-mail=\[\[customer.email\]\]
     ```
