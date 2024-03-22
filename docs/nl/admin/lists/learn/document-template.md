@@ -3,7 +3,7 @@ uid: help-nl-document-template
 title: Documentsjabloon
 description: Documentsjabloon
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Instellingen en onderhoud
 so.topic: help
 language: nl
@@ -30,6 +30,7 @@ U kunt ook uw eigen sjablonen maken in de toepassingen die u hebt gekozen om te 
 * [Een sjabloondocument maken][4]
 * [Een documentsjabloon toevoegen][6]
 * [Sjabloonvariabelen bekijken][1]
+* [Sjabloonvariabelen (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +39,6 @@ U kunt ook uw eigen sjablonen maken in de toepassingen die u hebt gekozen om te 
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
