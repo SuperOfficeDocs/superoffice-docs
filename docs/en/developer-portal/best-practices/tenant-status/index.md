@@ -2,9 +2,9 @@
 uid: tenant-status
 title: Tenant status
 description: "SuperOffice offers both a pull and a push approach to get tenant status."
-author: Bergfrid Dias
-so.date: 09.12.2023
 keywords: status, monitor, tenant, State Change URL, state API, availability
+author: Bergfrid Dias, Margrethe Romnes
+so.date: 03.22.2024
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -52,6 +52,9 @@ The root path of customer installation.
 This path **will change** routinely to balance the load. Changes may also occur under special circumstances such as incidents.
 
 For example, `https://``**sod2**``.superoffice.com:443/Cust00000` may shift to `https://``**sod3**``.superoffice.com:443/Cust00000`.
+
+> [!NOTE]
+> From November 17. 2023, calls to the wrong public endpoint return **HTTP status code 421 - Misdirected request** with an additional error description saying "Wrong subdomain used to access tenant". `sod.superoffice.com` and `online.superoffice.com` (without a number) are reserved for authentication. Use the tenant-specific endpoint (with a number) for API calls. For example, `sod2.superoffice.com` or `online3.superoffice.com`. Because the subdomain part of the endpoint changes, and the application should respond tho these changes, we recommend that you do not hardcode the path.
 
 ### State
 
