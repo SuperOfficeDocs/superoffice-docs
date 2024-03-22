@@ -1,9 +1,9 @@
 ---
 uid: help-en-request-create
-author: Hanne Gunnarsson
 title: Create a request
 description: Create a request
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: request, comment, reply
 so.topic: howto
@@ -125,6 +125,7 @@ The autosave feature is activated by default when you view and edit requests and
 * [Add reply templates to messages][2]
 * [Create reply template][9]
 * [Create new language version of reply template][7]
+* [Reply template variables][11]
 * [Extra tables and fields][6]
 * [Screen designer][10]
 
@@ -139,6 +140,7 @@ The autosave feature is activated by default when you view and edit requests and
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
 [10]: ../../../ui/screen-designer/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png

@@ -1,9 +1,10 @@
 ---
 uid: help-no-request-create
-author: Hanne Gunnarsson
 title: Opprette en sak
 description: Opprette en sak
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: sak
 so.topic: howto
@@ -126,6 +127,7 @@ Denne fanen inneholder eventuelle ekstrafelt som er definert for saker. Dette vi
 * [Eskaleringsnivå][3]
 * [Bruke emneknagger i saker][4]
 * [Legge til svarmaler i meldinger][2]
+* [Malvariabler][11]
 * [Opprette svarmal][9]
 * [Opprette ny språkversjon av svarmal][7]
 
@@ -138,6 +140,7 @@ Denne fanen inneholder eventuelle ekstrafelt som er definert for saker. Dette vi
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png

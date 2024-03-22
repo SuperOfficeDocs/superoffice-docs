@@ -1,9 +1,9 @@
 ---
 uid: help-nl-request-create
-author: Hanne Gunnarsson
 title: Een verzoek maken
 description: Een verzoek maken
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: verzoek
 so.topic: howto
@@ -126,6 +126,7 @@ Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. D
 * [Escalatieniveaus][3]
 * [Codes gebruiken in verzoeken][4]
 * [Antwoordsjablonen toevoegen aan berichten][2]
+* [Sjabloonvariabelen][11]
 * [Antwoordsjabloon maken][9]
 * [Antwoordsjabloon in een nieuwe taal maken][7]
 
@@ -138,6 +139,7 @@ Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. D
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png

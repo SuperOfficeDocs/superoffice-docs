@@ -1,9 +1,9 @@
 ---
 uid: help-sv-request-create
-author: Hanne Gunnarsson
 title: Skapa ett ärende
 description: Skapa ett ärende
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: ärende
 so.topic: howto
@@ -126,6 +126,7 @@ På denna flik finns alla extrafält för ärenden. Detta varierar mellan olika 
 * [Eskaleringsnivåer][3]
 * [Använda taggar i ärenden][4]
 * [Lägga till svarsmallar i meddelanden][2]
+* [Mallvariabler][11]
 * [Skapa svarsmall][9]
 * [Skapa ny språkversion av svarsmall][7]
 
@@ -138,6 +139,7 @@ På denna flik finns alla extrafält för ärenden. Detta varierar mellan olika 
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png

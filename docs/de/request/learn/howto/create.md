@@ -1,9 +1,9 @@
 ---
 uid: help-de-request-create
-author: Hanne Gunnarsson
 title: Anfrage erstellen
 description: Anfrage erstellen
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: Anfrage
 so.topic: howto
@@ -127,6 +127,7 @@ Diese Registerkarte enthält für alle Anfragen festgelegte Zusatzfelder. Diese 
 * [Eskalationsstufen][3]
 * [Verwenden von Tags in Anfragen][4]
 * [Antwortvorlagen zu Nachrichten hinzufügen][2]
+* [Vorlagenvariablen][11]
 * [Antwortvorlage erstellen][9]
 * [Neue Sprachversion der Antwortvorlage erstellen][7]
 
@@ -139,6 +140,7 @@ Diese Registerkarte enthält für alle Anfragen festgelegte Zusatzfelder. Diese 
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png
