@@ -1,9 +1,10 @@
 ---
+uid: omt-migration-guide
 title: Migration guide
-uid: migration_guide
 description: Migrate to SuperOffice CRM Online
-author: {github-id}
-keywords: migrate
+keywords: migrate, Online Migration Tool, OMT
+author: Frode, Bergfrid Dias, David H
+so.date: 03.21.2024
 so.topic: guide
 so.envir: onsite, online
 # so.client:
@@ -66,6 +67,8 @@ The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring 
 > [!CAUTION]
 >
 > When the upload/migration is started, users are prevented from logging into SuperOffice Service and SuperOffice Windows App. This behavior is the result of OMT adding "Frozen" to Service config file and setting "no-login" System Event for SuperOffice Windows. However, it does not affect SuperOffice Web users, they can still log in. They should not update any info until the process is complete.
+>
+> **Do NOT change the license** (company name or serial number) after starting OMT - either a test or in production. Changing the license before the production migration process is complete will stop OMT (even between runs!), and you will be **unable to resume migration**. If this happens, you will see this message: "ApplicationException: Unable to resume migration session because company name or serialnumber has changed".
 
 The OMT can be executed in one of 2 modes: Initial upload or Recovery mode. It will automatically determine the mode when it starts.
 
@@ -75,11 +78,11 @@ The OMT can be executed in one of 2 modes: Initial upload or Recovery mode. It
 
 The first step of the OMT is to log on to the local CRM Onsite database. The OMT will try to find a local SuperOffice Win installation. It will then use that configuration and prompt the user with a username and password. This must be the credentials of a local administrator (User or General Admin) in the CRM Database.
 
- ![2-login.png -screenshot][img7]
+![2-login.png -screenshot][img7]
 
 Contact details of the person performing the migration must be provided. These are the contact details used during the migration process.
 
- ![3-confirm.png -screenshot][img8]
+![3-confirm.png -screenshot][img8]
 
 All users that shall log in to the migrated customer tenant in SuperOffice CRM Online must have a valid user license. They must also have a valid email address for logging in. This email address must be unique. No other user can have the same email address as such conflict will prevent successful logins to the system.
 
@@ -101,13 +104,13 @@ Ticking the **Test Migration** checkbox will have the following consequences:
 >
 > After live migration where users have been allowed to log in and the migration is marked as complete, you **cannot** run the OMT again on this tenant.
 
- ![4-checklist-start.png -screenshot][img9]
+![4-checklist-start.png -screenshot][img9]
 
 A new window is shown when the migrator clicks **Check user plans**. The objective of this window is to ensure that all users that should have a valid user plan for log-in, have this.
 
 Each column represents a user plan. The first column represents no user plan and users in this column are not allowed to log in. At least one administrator must have a valid user plan. Administrators are tagged with a golden crown.
 
- ![5-user-plans.png -screenshot][img10]
+![5-user-plans.png -screenshot][img10]
 
 Drag the user to the correct column to choose a user plan. Write a filter-criteria to easier find a particular user or group of users. All fields shown on the card are used in the free-text filter. Filtering on the name of user-group or position can be an efficient way of working with many users.
 
@@ -115,11 +118,11 @@ Click OK when licenses are assigned. It is possible to come back to re-assign li
 
 A valid email address must be selected as a user name. All users must have a unique email address. Select one of the user's existing email addresses or write a new address as appropriate.
 
- ![6-usernames.png -screenshot][img11]
+![6-usernames.png -screenshot][img11]
 
 In case there are duplicated usernames, the duplications need to be resolved before you are allowed to continue.
 
- ![6a-usernames-duplication.png -screenshot][img12]
+![6a-usernames-duplication.png -screenshot][img12]
 
 Filtering works the same way as on the user plan assignment page.
 
