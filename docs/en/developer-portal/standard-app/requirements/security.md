@@ -1,9 +1,10 @@
 ---
-uid: security_requirements
+uid: security-requirements
 title: Security requirements
 description: Security requirements
-author: {github-id}
 keywords: certification
+author: Margrethe Romnes, Tony Yates
+so.date: 03.22.2024
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -47,10 +48,10 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 
 * You must specify a secure [redirect URL][11].
   * Run the redirect URL through Qualys SSL Labs, SSL Server tests, and aim for an A.
-  * You must support TLS 1.2.
+  * You must support TLS 1.2. You may support TLS 1.3.
   * We will not accept any sites where SSL 2.0 or 3.0 is supported.
 * Any code must run with SSL in your cloud.
-  * We will not host any partner application on `online.superoffice.com`
+  * We will not host any partner application on `online.superoffice.com`.
   * SuperOffice CRM Online requires that all applications support a secure SSL environment.
 * Maintain separate environments for production and non-production systems (development). Developers should not have unmonitored access to production environments.
 
