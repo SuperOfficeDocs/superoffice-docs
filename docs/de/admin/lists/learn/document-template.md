@@ -3,7 +3,7 @@ uid: help-de-document-template
 title: Dokumentvorlage
 description: Dokumentvorlage
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Einstellungen und Verwaltung
 so.topic: help
 language: de
@@ -30,6 +30,7 @@ Sie können in den Anwendungen, die Sie in Verbindung mit SuperOffice CRM verwen
 * [Vorlagendokument erstellen][4]
 * [Eine Dokumentvorlage hinzufügen][6]
 * [Vorlagenvariablen anzeigen][1]
+* [Vorlagenvariablen (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +39,6 @@ Sie können in den Anwendungen, die Sie in Verbindung mit SuperOffice CRM verwen
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->

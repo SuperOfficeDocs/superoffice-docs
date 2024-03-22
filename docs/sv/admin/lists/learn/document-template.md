@@ -3,7 +3,7 @@ uid: help-sv-document-template
 title: Dokumentmall
 description: Dokumentmall
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Inställningar och underhåll
 so.topic: help
 language: sv
@@ -30,6 +30,7 @@ Du kan även skapa egna mallar i de applikationer du har valt att använda tills
 * [Skapa ett malldokument][4]
 * [Lägga till en dokumentmall][6]
 * [Visa mallvariabler][1]
+* [Mallvariabler (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +39,6 @@ Du kan även skapa egna mallar i de applikationer du har valt att använda tills
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->

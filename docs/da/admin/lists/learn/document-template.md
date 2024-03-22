@@ -3,7 +3,7 @@ uid: help-da-document-template
 title: Dokumentskabelon
 description: Dokumentskabelon
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Indstillinger og vedligeholdelse
 so.topic: help
 language: da
@@ -30,6 +30,7 @@ Du kan også lave dine egne skabeloner i de programmer, du har valgt at bruge sa
 * [Oprettelse af et skabelondokument][4]
 * [Tilføjelse af dokumentskabelon][6]
 * [Visning af skabelonvariabler][1]
+* [Skabelonvariabler (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +39,6 @@ Du kan også lave dine egne skabeloner i de programmer, du har valgt at bruge sa
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->

@@ -3,7 +3,7 @@ uid: help-no-document-template
 title: Dokumentmal
 description: Dokumentmal
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Innstillinger og vedlikehold
 so.topic: help
 language: no
@@ -30,6 +30,7 @@ Du kan også lage egne maler i applikasjonene du har valgt å bruke sammen med S
 * [Opprette et maldokument][4]
 * [Legge til en dokumentmal][6]
 * [Se på malvariabler][1]
+* [Malvariabler (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -38,5 +39,6 @@ Du kan også lage egne maler i applikasjonene du har valgt å bruke sammen med S
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->

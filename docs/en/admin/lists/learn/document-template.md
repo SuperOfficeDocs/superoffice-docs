@@ -3,7 +3,7 @@ uid: help-en-document-template
 title: Document template
 description: Document template
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.22.2024
 keywords: Settings and maintenance
 so.topic: concept
 so.audience: settings
@@ -33,6 +33,7 @@ You can also create your own templates in the applications you have chosen to us
 * [Add a document template][6]
 * [Look at template variables][1]
 * [All template variables][7]
+* [Reply template variables (Service)][8]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
@@ -42,5 +43,6 @@ You can also create your own templates in the applications you have chosen to us
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
 [7]: ../../../../en/document/templates/variables/index.md
+[8]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
