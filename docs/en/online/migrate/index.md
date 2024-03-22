@@ -68,7 +68,7 @@ The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring 
 >
 > When the upload/migration is started, users are prevented from logging into SuperOffice Service and SuperOffice Windows App. This behavior is the result of OMT adding "Frozen" to Service config file and setting "no-login" System Event for SuperOffice Windows. However, it does not affect SuperOffice Web users, they can still log in. They should not update any info until the process is complete.
 >
-> **Do NOT change the license** (company name or serial number) while OMT is running - either a test or in production. Changing the license before the process is complete will stop the process, and you will be **unable to resume migration**. If this happens, you will see this message: "ApplicationException: Unable to resume migration session because company name or serialnumber has changed".
+> **Do NOT change the license** (company name or serial number) after starting OMT - either a test or in production. Changing the license before the production migration process is complete will stop OMT (even between runs!), and you will be **unable to resume migration**. If this happens, you will see this message: "ApplicationException: Unable to resume migration session because company name or serialnumber has changed".
 
 The OMT can be executed in one of 2 modes: Initial upload or Recovery mode. It will automatically determine the mode when it starts.
 
