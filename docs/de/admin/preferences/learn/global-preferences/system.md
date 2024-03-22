@@ -2,13 +2,14 @@
 uid: help-de-admin-global-preferences
 title: Globale Einstellungen
 description: Globale Einstellungen
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: Einstellungen, Einstellungen, Allgemein
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: de
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: de
 ---
 
 # Globale Einstellungen
@@ -27,7 +28,7 @@ Bereiche, für die Sie Einstellungen konfigurieren können:
 * [Benutzereinstellungen für SuperOffice Service][1]
 * System
 * Ziele
-* Datenspiegelung
+* [Datenspiegelung][5]
 * [SMS-Konfiguration][4]
 * [SMTP][2] (nur VOR ORT)
 * [Richtlinie für Customer Centre-Passwörter][3]
@@ -37,6 +38,7 @@ Bereiche, für die Sie Einstellungen konfigurieren können:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

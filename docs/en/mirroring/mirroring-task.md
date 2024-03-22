@@ -3,7 +3,7 @@ title: Mirroring Task
 uid: mirroring_task
 description: About the database Mirroring Task
 author: {github-id}
-keywords:
+keywords: Mirroring Task, mirror
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -56,7 +56,7 @@ Customers can add custom user preferences to control database mirroring behavior
 |BatchSize          | Used to control how many bytes to send per request.         | 1000000         |
 |SkipTable          | Comma separated list of tables that should not be mirrored. |                 |
 
-From version 10.1.8 these may be edited directly in Settings and maintenance.
+From version 10.1.8 these may be [edited directly in Settings and maintenance][5].
 
 ![Update mirroring preferences in SuperOffice Settings and maintenance -screenshot][img2]
 
@@ -77,6 +77,7 @@ Batches can in principle be processed in parallel, but doing so would probably s
 [2]: change-tracking.md
 [3]: getting-started/i-mirror-client-service.md
 [4]: skip-tables.md
+[5]: ../admin/preferences/learn//update-preferences.md#edit
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png

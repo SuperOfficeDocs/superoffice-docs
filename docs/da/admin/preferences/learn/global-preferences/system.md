@@ -2,13 +2,14 @@
 uid: help-da-admin-global-preferences
 title: Globale præferencer
 description: Globale præferencer
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: præferencer, indstillinger, generelle
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: da
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: da
 ---
 
 # Globale præferencer
@@ -27,7 +28,7 @@ Områder, du kan konfigurere præferencer for:
 * [SuperOffice Service-systemindstillinger][1]
 * System
 * Mål
-* Spejling af data
+* [Spejling af data][5]
 * [SMS-konfiguration][4]
 * [SMTP][2] (kun onsite)
 * [Adgangskodepolitik for Customer Centre][3]
@@ -37,6 +38,7 @@ Områder, du kan konfigurere præferencer for:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

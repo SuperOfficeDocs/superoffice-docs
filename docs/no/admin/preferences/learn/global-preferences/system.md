@@ -2,14 +2,14 @@
 uid: help-no-admin-global-preferences
 title: Globale preferanser
 description: Globale preferanser
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: preferanser, innstillinger, generelle
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: no
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-
-language: no
 ---
 
 # Globale preferanser
@@ -28,7 +28,7 @@ Områder du kan konfigurere preferanser for:
 * [Systeminnstillinger for SuperOffice Service][1]
 * System
 * Mål
-* Dataspeiling
+* [Dataspeiling][5]
 * [SMS-konfigurasjon][4]
 * [SMTP][2] (bare ONSITE)
 * [Passordregler for kundesenter][3]
@@ -38,6 +38,7 @@ Områder du kan konfigurere preferanser for:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

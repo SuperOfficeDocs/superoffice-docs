@@ -2,13 +2,14 @@
 uid: help-nl-admin-global-preferences
 title: Algemene voorkeuren
 description: Algemene voorkeuren
-author: SuperOffice RnD
-so.date: 03.27.2023
 keywords: voorkeuren, instellingen, algemeen
-so.topic: help
+author: SuperOffice RnD
+so.date: 03.22.2024
+so.version: 10
+so.topic: reference
+language: nl
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
-language: nl
 ---
 
 # Algemene voorkeuren
@@ -27,7 +28,7 @@ Gebieden waarvoor u voorkeuren kunt configureren:
 * [SuperOffice Service-systeeminstellingen][1]
 * Systeem
 * Targets
-* Gegevens spiegelen
+* [Gegevens spiegelen][5]
 * [SMS-configuratie][4]
 * [SMTP][2] (alleen LOKAAL)
 * [Wachtwoordbeleid Customer Centre][3]
@@ -37,6 +38,7 @@ Gebieden waarvoor u voorkeuren kunt configureren:
 [2]: smtp.md
 [3]: password.md
 [4]: sms.md
+[5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/nav-admin-preferences-active.png
