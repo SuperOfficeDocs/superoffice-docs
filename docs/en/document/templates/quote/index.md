@@ -1,11 +1,11 @@
 ---
-title: Quote templates and merge fields
 uid: quote_templates_intro
+title: Quote templates and merge fields
 description: Quote templates and merge fields
-author:
-keywords: quote
+keywords: quote, quote template, template, merge field
+author: Bergfrid Dias, samuelholmstroem
+so.date: 03.22.2024
 so.topic: concept
-so.date:
 ---
 
 # Quote templates and merge fields
@@ -68,6 +68,31 @@ We multiply the "Total price with alternative discount" with the VAT (-Percentag
 These values are summed up into the alternative's VATAmount field.
 
 Finally, the alternatives TotalPrice and the alternatives VATAmount are then added together into the field we call **TotalPriceIncVAT**.
+
+## Calculations
+
+You can perform calculations with the merge fields.
+
+### Net price per unit
+
+To show the price per unit after discounts, you can add a merge field like this:
+
+```text
+{= {MERGEFIELD line/totalPrice} / {MERGEFIELD line/quantity}}
+```
+
+**Steps:**
+
+1. Press Ctrl + F9 to add a new merge field. You will see two curly brackets { }.
+
+1. Inside the brackets:
+
+    1. Add "= " and press Ctrl + F9 again.
+    1. Add "MERGEFIELD line/totalPrice" in a new set of brackets.
+    1. Type "/" and then press Ctrl + F9.
+    1. Add "MERGEFIELD line/quantity" in the last set of brackets.
+
+1. Now you should have a field that looks like this: {= {MERGEFIELD line/totalPrice} / {MERGEFIELD line/quantity}}
 
 <!-- Referenced links -->
 [1]: mergefields.md
