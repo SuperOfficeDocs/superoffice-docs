@@ -1,9 +1,9 @@
 ---
 uid: help-da-request-create
-author: Hanne Gunnarsson
 title: Opret en sag
 description: Opret en sag
-so.date: 22.02.24
+author: Hanne Gunnarsson
+so.date: 03.22.24
 so.version: 10.3.2
 keywords: sag
 so.topic: howto
@@ -126,6 +126,7 @@ Denne fane indeholder eventuelle ekstrafelter, der er defineret for sager. Dette
 * [Eskaleringsniveauer][3]
 * [Brug af tags i sager][4]
 * [Tilføjelse af svarskabeloner i meddelelser][2]
+* [Skabelonvariabler][11]
 * [Opret svarskabelon][9]
 * [Oprettelse af ny sprogversion af svarskabelon][7]
 
@@ -138,6 +139,7 @@ Denne fane indeholder eventuelle ekstrafelter, der er defineret for sager. Dette
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/format-font.png
