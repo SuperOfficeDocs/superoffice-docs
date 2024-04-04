@@ -54,7 +54,7 @@ This path **will change** routinely to balance the load. Changes may also occur
 For example, `https://``**sod2**``.superoffice.com:443/Cust00000` may shift to `https://``**sod3**``.superoffice.com:443/Cust00000`.
 
 > [!NOTE]
-> From November 17. 2023, calls to the wrong public endpoint return **HTTP status code 421 - Misdirected request** with an additional error description saying "Wrong subdomain used to access tenant". `sod.superoffice.com` and `online.superoffice.com` (without a number) are reserved for authentication. Use the tenant-specific endpoint (with a number) for API calls. For example, `sod2.superoffice.com` or `online3.superoffice.com`. Because the subdomain part of the endpoint changes, and the application should respond tho these changes, we recommend that you do not hardcode the path.
+> From November 17. 2023, calls to the wrong public endpoint return **HTTP status code 421 - Misdirected request** with an additional error description saying "Wrong subdomain used to access tenant". Subdomains without a number identifier, such as `sod.superoffice.com` and `online.superoffice.com`, are reserved for authentication. Use the tenant-specific endpoint (with a number) for API calls. For example, `sod2.superoffice.com` or `online3.superoffice.com`. Because the subdomain part of the endpoint changes, and the application should respond to these changes, we recommend that you do not hardcode the path.
 
 ### State
 
