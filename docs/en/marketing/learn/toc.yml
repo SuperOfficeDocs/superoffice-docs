@@ -32,3 +32,7 @@ items:
 - name: Forms
   href: ../forms/learn/toc.yml
   topicHref: ../forms/learn/index.md
+
+- name: Flows
+  href: ../flows/learn/toc.yml
+  topicHref: ../flows/learn/index.md
