@@ -10,6 +10,7 @@ so.topic: howto
 language: en
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
+so.pilot: yes
 ---
 
 # Create a new flow
@@ -24,15 +25,20 @@ so.audience.tooltip: SuperOffice Marketing
 
 ### Success criteria
 
-### Actions
+## Add step
 
-Here you can [define what happens in a step][3].
+## Flow control
+
+* Wait time
+* Wait for action
+* [Split][1]
 
 ## What would you like to do now?
 
 * Watch a movie
 
 <!-- Referenced links -->
+[1]: split.md
 [3]: define-flow-actions.md
 [8]: ../../learn/create-folder.md
 

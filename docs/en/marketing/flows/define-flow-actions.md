@@ -10,11 +10,32 @@ so.topic: howto
 language: en
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
+so.pilot: yes
 ---
 
 # Define flow actions
 
 ## Available actions
+
+* Send message
+* Update participant
+* Create activity
+
+## Send message
+
+* Send email
+
+## Update participant
+
+* Update contact
+* Add to selection/project
+* Remove from selection/project
+
+## Create activity
+
+* Create request
+* Create follow-up
+* Create sale
 
 ## What would you like to do now?
 

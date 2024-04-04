@@ -10,6 +10,7 @@ so.topic: concept
 language: en
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
+so.pilot: yes
 ---
 
 # Marketing automation - flows
@@ -43,6 +44,8 @@ The **View flow** screen consists of the following tabs:
 
 * **Running:**
 * **Paused:**
+
+## <a id="req" />Requirements
 
 <!-- Referenced links -->
 [1]: create.md
