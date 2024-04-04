@@ -87,7 +87,7 @@ items:
     - name: Check application API performance
       href: analytics/metrics-performance.md
   - name: FAQ
-    href: faq/format-text.md
+    href: faq/index.md
     items:
     - name: Format text
       href: faq/format-text.md
