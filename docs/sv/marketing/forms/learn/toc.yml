@@ -1,30 +1,23 @@
 items:
 - name: Översikt
   href: index.md
-- name: Visa formulär
-  href: view.md
-- name: Arbeta med formulär
-  topicHref: form-templates.md
-  items:
-  - name: Översikt
-    href: form-templates.md
-  - name: Skapa nytt formulär
-    href: create.md
-  - name: Fältalternativ
-    href: field-options.md
-  - name: Publicera formulär
-    href: publish.md
-  - name: Använda förifyllda fält
-    href: form-prefilled.md
-  - name: Exempel
-    href: examples.md
-- name: Formulärinlämningar
-  topicHref: submissions/index.md
-  items:
-  - name: Översikt
-    href: submissions/index.md
-  - name: Spåra formulärinlämningar och visa statistik
-    href: submissions/track.md
-  - name: Behandla formulärinlämningar
-    href: submissions/process.md
-  
+- name: Skapa nytt formulär
+  href: create.md
+- name: Fältalternativ
+  href: field-options.md
+- name: Definera formuläråtgärder
+  href: define-form-actions.md
+- name: Form templates
+  href: form-templates.md
+- name: Publicera formulär
+  href: publish.md
+- name: Använda förifyllda fält
+  href: form-prefilled.md
+- name: Visa statistik
+  href: view-statistics.md
+- name: Behandla formulärinlämningar
+  href: process-submissions.md
+- name: Guide - Kontakta mig
+  href: tutorial-contact-me.md
+- name: Guide - Anmälning till nyhetsbrev
+  href: tutorial-sign-up.md

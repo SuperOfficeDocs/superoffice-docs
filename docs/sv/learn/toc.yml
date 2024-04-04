@@ -51,9 +51,6 @@ items:
   - name: Marknadsföring
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
-  - name: Formulär
-    href: ../marketing/forms/learn/toc.yml
-    topicHref: ../marketing/forms/learn/index.md
 
   - name: Kunskapsbas
     topicHref: ../request/learn/screen/knowledge-base.md

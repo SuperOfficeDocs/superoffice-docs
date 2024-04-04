@@ -1,30 +1,23 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Formulieren weergeven
-  href: view.md
-- name: Werken met formulieren
-  topicHref: form-templates.md
-  items:
-  - name: Overzicht
-    href: form-templates.md
-  - name: Nieuw formulier maken
-    href: create.md
-  - name: Veldopties
-    href: field-options.md
-  - name: Formulieren publiceren
-    href: publish.md
-  - name: Vooraf ingevulde velden gebruiken
-    href: form-prefilled.md
-  - name: Voorbeelden
-    href: examples.md
-- name: Formulierverzendingen
-  topicHref: submissions/index.md
-  items:
-  - name: Overzicht
-    href: submissions/index.md
-  - name: Formulierverzendingen traceren en statistieken weergeven
-    href: submissions/track.md
-  - name: Formulierverzendingen verwerken
-    href: submissions/process.md
-  
+- name: Nieuw formulier maken
+  href: create.md
+- name: Veldopties
+  href: field-options.md
+- name: Formulieracties definiëren
+  href: define-form-actions.md
+- name: Formuliersjablonen
+  href: form-templates.md
+- name: Formulieren publiceren
+  href: publish.md
+- name: Vooraf ingevulde velden gebruiken
+  href: form-prefilled.md
+- name: Formulierstatistieken weergeven
+  href: view-statistics.md
+- name: Formulierverzendingen verwerken
+  href: process-submissions.md
+- name: Handleiding - Neem contact met mij op
+  href: tutorial-contact-me.md
+- name: Handleiding - Aanmelden nieuwsbrief
+  href: tutorial-sign-up.md

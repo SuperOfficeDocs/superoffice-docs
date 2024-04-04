@@ -2,25 +2,25 @@
 uid: help-nl-forms
 title: Werken met formulieren
 description: SuperOffice-webformulieren zijn een geweldige manier om klantinformatie en feedback te verzamelen. Met webformulieren kunnen de mensen die uw website bezoeken contact met u opnemen en hun contactgegevens achterlaten.
-author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: Formulieren
+keywords: formulier, formulierverzending, dubbele opt-in
+author: Bergfrid Dias
+so.date: 03.18.2024
+so.version: 10
 so.topic: concept
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Werken met formulieren
 
 De formulierenfunctie is een krachtig middel om informatie van een formulier in SuperOffice te krijgen zonder al te veel integraties en gedoe. Formulieren vergemakkelijken de interactie met klanten en prospects via uw website of Customer Centre. In een formulier kunnen veel verschillende gegevens (inclusief het uploaden van bestanden) worden toegevoegd en u kunt geautomatiseerde acties toevoegen dat moet worden uitgevoerd wanneer het formulier wordt verzonden en verwerkt.
 
-Het is gemakkelijk om een formulier te maken en op elke webpagina te plaatsen waarop u het wilt laten zien, zoals "neem contact met mij op"-formulieren, en het is gemakkelijk om al deze potentiële klanten om te zetten in personen binnen SuperOffice.
+Het is gemakkelijk om een formulier te maken en op elke webpagina te plaatsen waarop u het wilt laten zien. Voorbeelden van formulieren: gratis proefversie starten, [contact met ons opnemen][1], gegevens bijwerken, toestemmingsbeheer.
 
 ![U kunt een webformulier gebruiken om mensen te vragen zich aan te melden voor uw volgende webinar of seminar, of om contact op te nemen met uw bedrijf met hun vragen -screenshot][img1]
 
-Voorbeelden van formulieren: gratis proefversie starten, contact met ons opnemen, gegevens bijwerken, toestemmingsbeheer.
-[Formulieren maken (voorbeelden)][1]
-
-## Waar kan ik webformulieren voor gebruiken
+## <a id="ex" />Use cases
 
 U kunt webformulieren gebruiken om de gegevens van uw websitebezoekers vast te leggen – hun naam, e-mailadres, voorkeuren, opmerkingen en feedback, en deze mogelijk om te zetten in klanten. De gegevens die u via webformulieren ontvangt, kunnen automatisch worden geïmporteerd in uw SuperOffice CRM-database, waardoor u tijd en moeite bespaart.
 
@@ -32,18 +32,6 @@ U kunt webformulieren gebruiken om de gegevens van uw websitebezoekers vast te l
 
 * **Vervolgactiviteiten automatiseren:** Formulieren helpen u uw werk te versnellen door handmatige taken te automatiseren, zoals het maken van vervolgactiviteiten, het verzenden van mailings, het bijwerken van de interesses van contactpersonen en het toevoegen van personen aan een selectie of een project.
 
-## Waar vindt u formulieren?
-
-Er zijn verschillende manieren om formulieren te vinden. Ga naar het tabblad Formulieren, formuliersjablonen of het tabblad Formulierverzendingen.
-
-![Er zijn verschillende manieren om formulieren te vinden -screenshot][img2]
-
-* **Formulieren:** is waar u nieuwe formulieren kunt maken en alle formulieren kunt zien die eerder zijn gemaakt. Op het tabblad Actieve formulieren ziet u welke formulieren momenteel worden gebruikt. De rode bubbel in de rechterbovenhoek van een formulier toont het aantal formulierverzendingen dat nog niet is verwerkt.
-
-* **Formuliersjablonen:** hier vindt u alle beschikbare formuliersjablonen. Wanneer u dit tabblad voor de eerste keer opent, vindt u verschillende sjablonen in de online sjabloonbibliotheek. U kunt ook sjablonen uit de online sjabloonbibliotheek importeren en gebruiken, of u kunt ze gebruiken als inspiratie voor het maken van uw eigen sjablonen. Klik gewoon op de sjabloon die u leuk vindt en druk op Sjabloon importeren om deze te downloaden.
-
-* **Formulierverzendingen:** toont alle details van de personen die een formulier hebben ingediend en wat hun huidige formulierstatus is.
-
 ## Workflow
 
 Als u een formulier wilt maken, volgt u deze workflow:
@@ -54,18 +42,80 @@ Als u een formulier wilt maken, volgt u deze workflow:
 4. [Formulierverzendingen traceren en statistieken weergeven][5] - geef de responsaantallen in real-time weer.
 5. [Formulierverzendingen verwerken][6] - werk SuperOffice bij met de verzonden gegevens; dit kan handmatig of automatisch. SuperOffice kan bestaande personen herkennen op basis van e-mailadressen of nieuwe personen en bedrijven maken.
 
-## Dashboards gebruiken om een overzicht te krijgen van formulierverzending
+## Waar vindt u formulieren?
 
-Met een dashboard voor formulierverzending is het eenvoudig om de bijbehorende gegevens te meten en te visualiseren. Met het dashboard kunt u prestaties, trends en productiviteit bijhouden. Meer informatie over dashboards voor formulierverzending.
+SuperOffice Marketing heeft 3 tabbladen met betrekking tot formulieren.
+
+![Er zijn verschillende manieren om formulieren te vinden -screenshot][img2]
+
+* **Tabblad Formulieren:** stelt u in staat nieuwe formulieren te maken en eerder gemaakte te bekijken. Het gedeelte **Actieve formulieren** toont momenteel gebruikte formulieren. Een rode bel op een formulier geeft onverwerkte inzendingen aan.
+
+    Gebruik de secundaire rij met tabbladen (Recent, Mijn formulieren, Actieve formulieren, Alle formulieren) en het zoekvak om de beschikbare formulieren te verkennen.
+
+    Dubbelklik op een formulier om details ervan te bekijken.
+
+* **Tabblad Formuliersjablonen:** bevat alle beschikbare [formuliersjablonen][7]. Wanneer u dit tabblad voor de eerste keer opent, ziet u sjablonen uit de Online Bibliotheek. U kunt deze importeren voor gebruik of inspiratie. Om een sjabloon te downloaden, klikt u erop en drukt u op **Sjabloon importeren**.
+
+* **Tabblad Formulierverzendingen:** toont een lijst van personen die een formulier hebben ingediend, en de huidige [status van hun inzending](#status).
+
+## <a id="view" />Het scherm Formulier weergeven
+
+![SuperOffice Marketing 'Formulier weergeven' -screenshot][img4]
+
+Bovenaan heb je de volgende opties:
+
+|Optie | Beschrijving |
+|---|---|
+| Inactief/Actief | Schakel deze schuifknop in om het formulier te activeren of deactiveren. |
+| Vernieuwen | Vernieuwt het scherm. |
+| Bewerken | Opent het formulier in de bewerkingsmodus. |
+| ![icoon][img5] | Stelt het formulier in als [favoriet][11]. |
+
+Het scherm **Formulier weergeven** bestaat uit de volgende tabbladen:
+
+* **Samenvatting:** toont basisinformatie over het formulier, inclusief een voorbeeld en verschillende verzendingsstatistieken.
+* **Publiceren:** toont de koppeling en het script voor [het publiceren van het formulier][3] op een webpagina of in een mailing.
+* **Rapporten:** toont grafieken met statistieken voor het formulier (muis over om exacte cijfers te bekijken).
+* **Formulierinzendingen:** toont verzendingen voor een individueel formulier.
+* **Antwoord-e-mail:** toont een voorbeeld van het formulierantwoord (mailing) dat bij dit formulier hoort. Alleen zichtbaar als de **E-mailantwoord** [formulieractie][8] is geselecteerd.
+
+## <a id="submissions" />Formulierverzendingen
+
+Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan ![pictogram][img3].
+
+Gebruik de filteropties onder aan de lijst om alleen verzendingen weer te geven met specifieke statuswaarden.
+
+> [!NOTE]
+> U kunt ook [verzendingen weergeven voor individuele formulieren][1] door een formulier te openen in het tabblad **Formulieren**.
+
+### <a id="status" />Formulierstatus
+
+* **Verwerkt**: Het formulier is verzonden en automatisch verwerkt.
+* **Ingediend**: Het formulier is verzonden, maar nog niet verwerkt. [Formulierverzendingen verwerken][2]
+* **Wachten op bevestiging**: Het formulier is verzonden, maar de afzender moet zijn e-mailadres bevestigen (dubbele opt-in).
+
+## <a id="opt-in" />Wat is dubbele opt-in?
+
+Met dubbele opt-in moeten de klanten hun e-mailadres verifiëren door op de link in een bevestigingsmail te klikken naast het indienen van het formulier.
+
+Deze optie voegt een extra beveiligingslaag toe aan het formulier. Als u deze optie activeert, moet de persoon die het formulier verzendt, ook zijn/haar e-mailadres bevestigen. Dit gebeurt door een e-mail te verzenden naar de persoon wanneer het formulier wordt verzonden. De e-mail bevat een koppeling waarop moet worden geklikt om te bevestigen dat het e-mailadres correct is. De koppeling is standaard 30 minuten geldig.
+
+Het gebruik van de dubbele opt-in-functie garandeert dat mensen het juiste e-mailadres opgeven. Dit betekent dat uw mailinglijst betrouwbaarder zal zijn, wat zal helpen de openingspercentages van uw mailings te verhogen. Als extra bonus hoeft u geen tijd te besteden aan het corrigeren van spelfouten in e-mailadressen of het verwijderen van e-mailadressen die niet bestaan. En het zal u ook helpen bij uw inspanningen om GDPR-conform te blijven.
 
 <!-- Referenced links -->
-[1]: examples.md
+[1]: tutorial-sign-up.md
 [2]: create.md
+[8]: define-form-actions.md
 [3]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [4]: publish.md
-[5]: submissions/track.md
-[6]: submissions/process.md
+[5]: view-statistics.md
+[6]: process-submissions.md
+[7]: form-templates.md
+[11]: ../../learn/add-fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
+[img4]: ../../../../media/loc/en/marketing/view-form-screen.png
+[img3]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img5]: ../../../../../common/icons/favourite-no.png

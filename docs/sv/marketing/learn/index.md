@@ -118,7 +118,7 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 [14]: ../tracked-links/learn/create-links.md
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
-[19]: ../forms/learn/submissions/index.md
+[19]: ../forms/learn/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

@@ -2,11 +2,14 @@
 uid: help-sv-form-templates
 title: Arbeta med formulärmallar
 description: Arbeta med formulärmallar
+keywords: formulär, mall, formulärmall
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Formulär
+so.date: 03.13.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbeta med formulärmallar

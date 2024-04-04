@@ -102,7 +102,7 @@ In dem Skript verfügbare Variablen sind custId, linkId, shipmentId, linkUrl, li
 [Wie man ein CRMSkript erstellt oder bearbeitet][6]
 
 <!-- Referenced links -->
-[1]: ../../forms/learn/examples.md#newsletter-sign-up
+[1]: ../../forms/learn/tutorial-sign-up.md
 [3]: ../../../request/learn/howto/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md

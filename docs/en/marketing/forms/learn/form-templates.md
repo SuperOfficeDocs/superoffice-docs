@@ -2,11 +2,14 @@
 uid: help-en-form-templates
 title: Work with form templates
 description: Work with form templates
+keywords: form, template, form template
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Forms
+so.date: 03.04.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Work with form templates
