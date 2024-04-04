@@ -16,9 +16,11 @@ so.topic: reference
 * [Version 10.3.1][1]
 * [Version 10.3.2][2]
 * [Version 10.3.3][3]
+* [Version 10.3.4][4]
 
 <!-- Referenced links-->
 
 [1]: 10.3.1-update.md
 [2]: 10.3.2-update.md
 [3]: 10.3.3-update.md
+[4]: 10.3.4-update.md
