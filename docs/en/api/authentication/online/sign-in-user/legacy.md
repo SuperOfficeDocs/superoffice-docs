@@ -1,9 +1,10 @@
 ---
+uid: auth-user-legacy
 title: How to authenticate an application - legacy
-uid: auth_user_legacy
 description: How to authenticate an application user with SuperOffice legacy federated authentication
-author: {github-id}
-keywords:
+keywords: authentication, authenticate app user, authentication token, SAML
+author: Tony Yates, Margrethe Romnes
+so.date: 03.22.2024
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -14,7 +15,7 @@ so.client: online
 Before introducing OAuth 2.0, our web services used SuperOffice legacy federated authentication. This is no longer the preferred method.
 
 > [!CAUTION]
-> This form of authentication is deprecated. You must use [standard OAuth 2.0 user authentication][1].
+> This form of authentication is deprecated. **SAML is legacy.** You must use [standard OAuth 2.0 user authentication][1].
 
 **Pre-requisites:**
 
@@ -22,6 +23,8 @@ Before introducing OAuth 2.0, our web services used SuperOffice legacy federated
 * You have whitelisted your [redirect URL][3] (GET or POST) with SuperOffice
 * You have set up a web page at your redirect URL
 * The application user has a valid username and password
+
+**Steps:**
 
 1. Forward users to the SuperOffice online **sign-in page** to authenticate.
 
