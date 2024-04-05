@@ -17,6 +17,9 @@ so.pilot: yes
 
 ## Steps
 
+> [!NOTE]
+> You cannot delete the "everyone else" branch
+
 ## What would you like to do now?
 
 * Analyze a movie

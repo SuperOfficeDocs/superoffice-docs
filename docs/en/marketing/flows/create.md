@@ -19,13 +19,27 @@ so.pilot: yes
 
 ## <a id="fields" />Filling in flow fields
 
-### Settings
+### Settings (for flow)
 
-### Email
+* Name
+* Description
+* Timezone
+* Owner
+* Visible for
+* Folder
+
+### Email (settings)
 
 ### Success criteria
 
 ## Add step
+
+### Step types
+
+* Send message
+* Flow control
+* Update participant
+* Create activity
 
 ## Flow control
 

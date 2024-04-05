@@ -27,7 +27,7 @@ so.pilot: yes
 
 ## Update participant
 
-* Update contact
+* Update contact - available actions depend on field
 * Add to selection/project
 * Remove from selection/project
 
@@ -36,6 +36,10 @@ so.pilot: yes
 * Create request
 * Create follow-up
 * Create sale
+
+## Flow action vs. form action
+
+## Flow action vs. link action
 
 ## What would you like to do now?
 
