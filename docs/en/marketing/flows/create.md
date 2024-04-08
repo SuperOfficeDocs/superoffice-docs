@@ -1,11 +1,11 @@
 ---
 uid: help-en-flow-create
 title: Create a new flow
-description: Create a new flow
-keywords: flow
-author: Bergfrid Dias
-so.date: 04.04.2024
-so.version: 10
+description: How to create new flow and define flow setting in SuperOffice Marketing
+keywords: flow, marketing automation
+author: Bergfrid Dias, Trude Lien Smedbråten
+so.date: 04.08.2024
+so.version: 10.3.5
 so.topic: howto
 language: en
 so.audience: person
@@ -17,22 +17,95 @@ so.pilot: yes
 
 ## Steps
 
+1. Select **Marketing** in the Navigator.
+1. Go to the **Flows** tab.
+1. If required, click **Add folder** to [create a folder for the flow][8].
+1. Click the **Flow** button below **Create new** on the right side of the screen.
+1. In the **Flow editor** dialog, enter a descriptive **Flow name**.
+1. [Fill in the fields](#fields) as described below. Remember to click **Save** regularly to save your work. The flow will not be auto-saved.
+1. Define flow start trigger and filter.
+1. Add steps.
+1. Specify what happens when the flow finishes.
+1. Click **Save** when you are done.
+
+![Set properties for new flow -screenshot][img1]
+
 ## <a id="fields" />Filling in flow fields
 
 ### Settings (for flow)
 
-* Name
-* Description
-* Timezone
-* Owner
-* Visible for
-* Folder
+| Setting | Description |
+|---|---|
+| Name | |
+| Description | |
+| Timezone | |
+| Owner | Associate creating the flow |
+| Visible for | Owner, owner's group, all |
+| Folder | |
 
 ### Email (settings)
 
-### Success criteria
+| Setting | Description |
+|---|---|
+| Subscription type | Set on flow level (instead of individually on each email step). Ensures all emails within a flow have the same subscription type. |
+| From, from name, from address | Same sender on all email steps within the flow. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available. If your admin has activated the [global email validation preference][12], select the domain you want to send from in the drop-down list. |
+| Reply to | The same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender. |
+| Only send emails and SMS within a specific timeframe | Select between Workday (Mon-Fri) and Weekday (Mon-Sun). Specify time. Requires that timezone is set.|
+| Use Google Analytics | Enables Google Analytics tracking for all emails in a flow. When checked, you can set source and campaign. |
 
-## Add step
+> [!TIP]
+> Timing affects email open rate and interaction. Use the **timeframe** setting to maximize reader interaction and to not disturb your subscribers during night-time.
+
+![Set common email settings for new flow -screenshot][img2]
+
+### Success criteria (optional)
+
+Success criteria define what success means for a flow. For example:
+
+* Contact updated
+* Sale created on contact or company
+* Follow-up created
+* Request created
+* Participant added to selection or project
+* Form submitted
+* Link clicked
+* Had chat
+
+**Steps:**
+
+1. Click **Add success criteria** and choose an option.
+1. Optionally select **Participant is moved directly to Finish step when the success criteria is met**.
+
+    * If checked: The participant's status changes to *Finished with success** and they exit from any other actions later in the flow.
+    * If not checked: The participant's status remains *Active* and they continue to follow the flow. When they reach the **Finish** step, their status changes to *Finished with success*. Use this option if success rate is used primarily for statistics, and you want the participant to complete all the steps even if success is reached.
+
+![Set success criteria for new flow -screenshot][img3]
+
+## <a id="trigger" />Define flow start trigger and filter
+
+The **Trigger** step is automatically added as the starting point for any flow.
+
+1. Click the **Trigger** step in the flowchart.
+1. In the trigger settings on the right side, click **Add trigger** and choose an option.
+1. Enter the required settings for the selected trigger.
+1. Optionally select **A contact person can only start this flow once**.
+    The Flow engine keeps track of all former participants. If a flow is triggered a second time on the same contact, this setting ensures the contact is not re-enrolled.
+
+![Add trigger for new flow -screenshot][img5]
+
+## <a id="add-step"/>Add step
+
+When you open the **Steps** tab for the first time, you will see something like this:
+
+![Flow steps -screenshot][img4]
+
+* A flowchart with a **Trigger**, a **placeholder** for adding a step, and a **Finish** step (in the center).
+* A list of available step types (to the right).
+
+1. Chose a step and drag it to where you wish to add it in the flowchart.
+1. The step menu changes to **step settings**. Available settings depend on the step's type.
+
+    Click the X in the step settings header to return to the step menu.
 
 ### Step types
 
@@ -49,11 +122,19 @@ so.pilot: yes
 
 ## What would you like to do now?
 
-* Watch a movie
+* [Move, duplicate, or remove step][2]
+* [Define flow actions][3]
 
 <!-- Referenced links -->
 [1]: split.md
+[2]: update.md
 [3]: define-flow-actions.md
 [8]: ../../learn/create-folder.md
+[12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/marketing/flow-settings.png
+[img2]: ../../../media/loc/en/marketing/flow-email-settings.png
+[img3]: ../../../media/loc/en/marketing/flow-success-form-submission.png
+[img4]: ../../../media/loc/en/marketing/flow-steps-initial.png
+[img5]: ../../../media/loc/en/marketing/trigger-form-submitted.png

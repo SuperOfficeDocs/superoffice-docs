@@ -46,6 +46,5 @@ so.pilot: yes
 * Watch another movie
 
 <!-- Referenced links -->
-[8]: ../../../request/learn/howto/create.md
 
 <!-- Referenced images -->
