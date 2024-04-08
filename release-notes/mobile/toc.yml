@@ -17,27 +17,30 @@ items:
   href: 10.2.7-update.md
 - name: 10.2.2
   href: 10.2.2-update.md
-- name: 10.1.9
-  href: 10.1.9-update.md
-- name: 10.1.8
-  href: 10.1.8-update.md
-- name: 10.1.7
-  href: 10.1.7-update.md
-- name: 10.1.5
-  href: 10.1.5-update.md
-- name: 10.1.4
-  href: 10.1.4-update.md
-- name: 10.0.9
-  href: 10.0.9-update.md
-- name: 10.0.7
-  href: 10.0.7-update.md
-- name: 10.0.6
-  href: 10.0.6-update.md
-- name: 10.0.4
-  href: 10.0.4-update.md
-- name: 10.0.3
-  href: 10.0.3-update.md
-- name: 10.0.2
-  href: 10.0.2-update.md
-- name: 10.0.1
-  href: 10.0.1-update.md
+- name: 10.0 - 10.1
+  topicHref: 10.1.9-update.md
+  items:
+  - name: 10.1.9
+    href: 10.1.9-update.md
+  - name: 10.1.8
+    href: 10.1.8-update.md
+  - name: 10.1.7
+    href: 10.1.7-update.md
+  - name: 10.1.5
+    href: 10.1.5-update.md
+  - name: 10.1.4
+    href: 10.1.4-update.md
+  - name: 10.0.9
+    href: 10.0.9-update.md
+  - name: 10.0.7
+    href: 10.0.7-update.md
+  - name: 10.0.6
+    href: 10.0.6-update.md
+  - name: 10.0.4
+    href: 10.0.4-update.md
+  - name: 10.0.3
+    href: 10.0.3-update.md
+  - name: 10.0.2
+    href: 10.0.2-update.md
+  - name: 10.0.1
+    href: 10.0.1-update.md

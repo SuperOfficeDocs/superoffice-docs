@@ -19,6 +19,8 @@ so.topic: reference
 
 ### SuperOffice CRM
 
+* 10.3.4 (09.04.2024): No new features or functions
+
 * 10.3.3 (12.03.2024):
   * [Request - simplify attachment handling (10.3.3)][18] in Service
 
@@ -49,12 +51,24 @@ Latest released versions:
 * SuperOffice for Outlook 4.1 (21.12.2023)
 * WebTools for Mac 12.0 (10.11.2022)
 * SharePoint Documents 3.2 (24.09.2023)
-* SuperOffice for Gmail 2.9 (24.09.2023)
+* SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.5 (18.09.2023)
+
+### Ongoing Pilot programs
+
+Our **Pilot programs** are used to gather feedback, identify potential issues, and assess how well the functionality and feature meets the **needs and expectations** of our users. The feedback collected during the pilot phase is valuable for refining the functionality and feature in SuperOffice and addressing any issues or concerns before it is released to all our users. See our overview of [Pilot programs][21].
+
+* [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
+* [SuperOffice CRM - New Follow-up][20] (available in 10.2.11 - 12.12.2023)
+* SuperOffice Service - Request types for New Service Requests (released in 10.3.2 - 20.02.2024)
+* SuperOffice CRM - New Notifications (released in 10.2.8 - 19.09.2023)
+* [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
 
 ### Other highlights
 
 * **SuperOffice App store** - [New or updated apps][5]
+  * [SnelStart for SuperOffice (02.04.2024)][22]
   * [Amesto PowerBI for SuperOffice (08.02.2024)][19]
   * [Exact for SuperOffice (02.02.2024)][16]
   * [Documendo Webforms (24.01.2024)][15]
@@ -85,5 +99,9 @@ Latest released versions:
 [17]: https://appstore.superoffice.com/itx-norge-as/itx-uc
 [18]: service/10.3.3-update.md
 [19]: https://appstore.superoffice.com/amesto-solutions-a-s/amesto-insight
+[20]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
+[21]: https://community.superoffice.com/en/product-releases/pilot-programs/
+[22]: https://appstore.superoffice.com/all-crm/snelstart-for-superoffice
+[23]: https://community.superoffice.com/en/product-releases/whats-new/product/the-new-superoffice-service/
 
 <!-- Referenced images -->
