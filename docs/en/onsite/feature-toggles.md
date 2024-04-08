@@ -70,6 +70,8 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
 | Feature                 | Toggle name |  Released in version | Available from version |
 |---|---|---|---|
+| New Follow-up            | NewFollowUpDialog              |  10.?.?  | 10.2.11 |
+| Request types (*3)       | NSTicketType                   |  10.3.2  | 10.2.10 |
 | New Service (*1)         | NewServiceRequest              |  10.2.5  | 10.2.1  |
 | New Notifications        | NewNotifications               |  10.2.5  | 10.2.5  |
 | New TimeZone             | NewTimezoneHandling            |  10.2.5  | 10.2.1  |
@@ -96,6 +98,8 @@ To enable toggled features - you need to add two sections manually in your NetSe
  *1 = The NewServiceRequest feature toggle is dependent on the NewTimezoneHandling feature toggle
 
  *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
+ 
+ *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requries Service Premium and Developer tools
 
 ## Look up enabled features
 
