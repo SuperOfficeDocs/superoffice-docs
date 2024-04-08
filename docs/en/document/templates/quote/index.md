@@ -94,6 +94,11 @@ To show the price per unit after discounts, you can add a merge field like this:
 
 1. Now you should have a field that looks like this: {= {MERGEFIELD line/totalPrice} / {MERGEFIELD line/quantity}}
 
+## Related content
+
+* [How to work with fields in Aspose Words][9]
+
 <!-- Referenced links -->
 [1]: mergefields.md
 [2]: lang-culture.md
+[9]: https://docs.aspose.com/words/net/fields-overview/
