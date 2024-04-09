@@ -146,7 +146,7 @@ When you open the **Steps** tab for the first time, you will see something like 
 
 ### Step types
 
-* Send message
+* [Send message][3]
 * Flow control
 * Update participant
 * Create activity
@@ -156,6 +156,35 @@ When you open the **Steps** tab for the first time, you will see something like 
 * Wait time
 * Wait for action
 * [Split][1]
+
+### Wait time
+
+Use a time-based waiting step to wait a specific amount of days before sending the next email/SMS, or to wait until a specific date for specific occasions or actions. For example, to send reminders 1 week, 1 day, and 1 hour before a webinar.
+
+1. Drag the **Send email** step box from the step menu and drop it into an available slot in the flowchart.
+1. Set the condition. Do one of the following:
+
+    * Select **Number of days/hours after previous step** and then select number and unit.
+    * Or, select **Until specific date/time** and then pick a date from the calendar.
+
+Active flow participants stay at this step before continuing to the next step according to defined rule.
+
+![Flow step wait time -screenshot][img7]
+
+## Wait for action
+
+Use an action-based waiting step to wait for the participant to do something (submit a form or click a link).
+
+1. Drag the **Send email** step box from the step menu and drop it into an available slot in the flowchart.
+1. Click **Add action** and select which action to wait for.
+1. From the list, select the name of the link or form to wait for.
+1. Specify how long you are willing to wait for any action (a timeout). The default maximum waiting time is 7 days. If you uncheck this setting, participants who do not respond will be stalled at this step forever.
+1. Optionally, select **Exit flow if no actions within max waiting time**. Participants who do not respond will leave the flow with status "drop out". You may choose to move them to another flow and/or add them to a static selection.
+
+![Flow step wait for action -screenshot][img8]
+
+> [!TIP]
+> You can wait for more than one action within a single step. The first-occurring action (form submission, link click, or timeout) moves the participant further down the flow. Simply repeat steps 2 and 3 above.
 
 ## What would you like to do now?
 
@@ -178,3 +207,5 @@ When you open the **Steps** tab for the first time, you will see something like 
 [img4]: ../../../../media/loc/en/marketing/flow-steps-initial.png
 [img5]: ../../../../media/loc/en/marketing/trigger-form-submitted.png
 [img6]: ../../../../media/loc/en/marketing/flow-trigger-filter-contact.png
+[img7]: ../../../../media/loc/en/marketing/flow-wait-time.png
+[img8]: ../../../../media/loc/en/marketing/flow-wait-action.png
