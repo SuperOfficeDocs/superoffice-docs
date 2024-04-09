@@ -88,10 +88,47 @@ The **Trigger** step is automatically added as the starting point for any flow.
 1. Click the **Trigger** step in the flowchart.
 1. In the trigger settings on the right side, click **Add trigger** and choose an option.
 1. Enter the required settings for the selected trigger.
+1. Optionally, specify additional qualification criteria.
 1. Optionally select **A contact person can only start this flow once**.
     The Flow engine keeps track of all former participants. If a flow is triggered a second time on the same contact, this setting ensures the contact is not re-enrolled.
 
 ![Add trigger for new flow -screenshot][img5]
+
+> [!NOTE]
+> It *is* possible to create a flow without any automated trigger. We will discuss this special case in another topic.
+
+| Trigger | Description |
+|---|---|
+| Contact created | When a new contact is registered, independent of source (except import). |
+| Contact update | When a contact is updated, independent of what is updated (except import and bulk update). |
+| Order placed | When an order is placed on an existing sale registered on the contact. |
+| Sale created | When a sale is registered on the contact. |
+| Sale sold | When a sale on the contact is set to sold. |
+| Sale lost | When a sale on the contact is set to lost. |
+| Added to project | When contact is added as project member. |
+| Request created | When a request is created on the contact (independent of source). |
+| Form submitted | When a form (submitted by a contact) is processed. |
+| Link clicked | When a contact clicks a tracked link. |
+| Chat ended | When a chat with the contact ends. |
+
+### Add contact filter (optional)
+
+Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to trigger a flow only for prospects, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
+
+> [!NOTE]
+> Filters apply only when **identifying flow participants**. In an ongoing flow, contacts may be removed if they fulfill the success criteria.
+
+1. Select the contact field you want to filter on.
+1. [Select values for the criterion][13] in the various fields on the line (similar to in the Find screen).
+1. Click **Add** to set additional criteria (adds a new line).
+
+![Add contact filter on trigger of new flow -screenshot][img6]
+
+### Exclusion list (optional)
+
+Use a [static selection][14] to handle exceptions. The exclusion list **prevents selected contacts from being added to the flow**.
+
+It supports scenarios such as sending reminders, excluding those already added, or preventing specific customers from receiving general mass emails.
 
 ## <a id="add-step"/>Add step
 
@@ -131,6 +168,8 @@ When you open the **Steps** tab for the first time, you will see something like 
 [3]: define-flow-actions.md
 [8]: ../../learn/create-folder.md
 [12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
+[13]: ../../../search-options/learn/search-criteria.md
+[14]: ../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/marketing/flow-settings.png
@@ -138,3 +177,4 @@ When you open the **Steps** tab for the first time, you will see something like 
 [img3]: ../../../media/loc/en/marketing/flow-success-form-submission.png
 [img4]: ../../../media/loc/en/marketing/flow-steps-initial.png
 [img5]: ../../../media/loc/en/marketing/trigger-form-submitted.png
+[img6]: ../../../media/loc/en/marketing/flow-trigger-filter-contact.png

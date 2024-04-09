@@ -34,6 +34,10 @@ With marketing automation, you can tailor emails to a specific set of customers,
 * Webinar reminder and follow-up
 * Cross sale (follow up after purchase)
 
+## Flow steps
+
+A flow may have multiple steps. Once a participant completes a step, they move to the next. Participant status is reassessed before any action in a step.
+
 ## Workflow
 
 Plan and create content before the flow is set up, then connect already prepared content to a specific flow.
