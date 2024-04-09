@@ -161,7 +161,7 @@ When you open the **Steps** tab for the first time, you will see something like 
 
 Use a time-based waiting step to wait a specific amount of days before sending the next email/SMS, or to wait until a specific date for specific occasions or actions. For example, to send reminders 1 week, 1 day, and 1 hour before a webinar.
 
-1. Drag the **Send email** step box from the step menu and drop it into an available slot in the flowchart.
+1. Drag the **Wait time** box from the step menu and drop it into an available slot in the flowchart.
 1. Set the condition. Do one of the following:
 
     * Select **Number of days/hours after previous step** and then select number and unit.
@@ -175,7 +175,7 @@ Active flow participants stay at this step before continuing to the next step ac
 
 Use an action-based waiting step to wait for the participant to do something (submit a form or click a link).
 
-1. Drag the **Send email** step box from the step menu and drop it into an available slot in the flowchart.
+1. Drag the **Wait for action** box from the step menu and drop it into an available slot in the flowchart.
 1. Click **Add action** and select which action to wait for.
 1. From the list, select the name of the link or form to wait for.
 1. Specify how long you are willing to wait for any action (a timeout). The default maximum waiting time is 7 days. If you uncheck this setting, participants who do not respond will be stalled at this step forever.
