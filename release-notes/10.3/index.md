@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 03.02.2024
+so.date: 04.09.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -19,7 +19,8 @@ so.topic: reference
 
 ### SuperOffice CRM
 
-* 10.3.4 (09.04.2024): No new features or functions
+* 10.3.4 (09.04.2024):
+  * No new features or functions
 
 * 10.3.3 (12.03.2024):
   * [Request - simplify attachment handling (10.3.3)][18] in Service
@@ -54,9 +55,9 @@ Latest released versions:
 * SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.5 (18.09.2023)
 
-### Ongoing Pilot programs
+### Ongoing pilot programs
 
-Our **Pilot programs** are used to gather feedback, identify potential issues, and assess how well the functionality and feature meets the **needs and expectations** of our users. The feedback collected during the pilot phase is valuable for refining the functionality and feature in SuperOffice and addressing any issues or concerns before it is released to all our users. See our overview of [Pilot programs][21].
+We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
