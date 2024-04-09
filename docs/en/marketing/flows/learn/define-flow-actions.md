@@ -81,4 +81,4 @@ Flow participants without a registered phone number can either skip the step (co
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/flow-send-email-new.png
+[img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png

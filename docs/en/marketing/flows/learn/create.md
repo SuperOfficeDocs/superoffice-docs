@@ -169,12 +169,12 @@ When you open the **Steps** tab for the first time, you will see something like 
 [8]: ../../learn/create-folder.md
 [12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
 [13]: ../../../search-options/learn/search-criteria.md
-[14]: ../../search-options/selection/learn/static-selections.md
+[14]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/flow-settings.png
-[img2]: ../../../media/loc/en/marketing/flow-email-settings.png
-[img3]: ../../../media/loc/en/marketing/flow-success-form-submission.png
-[img4]: ../../../media/loc/en/marketing/flow-steps-initial.png
-[img5]: ../../../media/loc/en/marketing/trigger-form-submitted.png
-[img6]: ../../../media/loc/en/marketing/flow-trigger-filter-contact.png
+[img1]: ../../../../media/loc/en/marketing/flow-settings.png
+[img2]: ../../../../media/loc/en/marketing/flow-email-settings.png
+[img3]: ../../../../media/loc/en/marketing/flow-success-form-submission.png
+[img4]: ../../../../media/loc/en/marketing/flow-steps-initial.png
+[img5]: ../../../../media/loc/en/marketing/trigger-form-submitted.png
+[img6]: ../../../../media/loc/en/marketing/flow-trigger-filter-contact.png

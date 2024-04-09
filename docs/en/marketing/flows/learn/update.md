@@ -35,4 +35,4 @@ so.pilot: yes
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img11]: ../../../../common/icons/duplicate-icon.png
+[img11]: ../../../../../common/icons/duplicate-icon.png

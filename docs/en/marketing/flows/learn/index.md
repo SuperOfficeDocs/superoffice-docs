@@ -114,4 +114,4 @@ How to control access to flows and flow content
 [3]: view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/flows-panel.png
+[img1]: ../../../../media/loc/en/marketing/flows-panel.png
