@@ -9,5 +9,7 @@ items:
   href: split.md
 - name: Define flow actions
   href: define-flow-actions.md
+- name: Step settings
+  href: step-settings.md
 - name: View statistics
   href: view-statistics.md

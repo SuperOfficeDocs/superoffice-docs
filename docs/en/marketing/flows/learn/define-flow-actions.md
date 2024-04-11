@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.09.2024
+so.date: 04.11.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -17,11 +17,11 @@ so.pilot: yes
 
 ## Available actions
 
-* Send message
-* Update participant
-* Create activity
+* [Send message](#send)
+* [Update participant](#update)
+* [Create activity](#create)
 
-## Send message
+## <a id="send" />Send message
 
 ### Send email
 
@@ -58,7 +58,7 @@ Flow participants without a registered phone number can either skip the step (co
 > [!TIP]
 > If you wish to send only one SMS, keep an eye on the counter in bottom-right corner. If the number of characters exceeds 160, the message is sent as multiple SMS segments and additional pricing may apply. We recommend to keep the message brief and informative.
 
-## Update participant
+## <a id="update" />Update participant
 
 * Update contact
 * Add to selection/project
@@ -96,22 +96,61 @@ Contact is removed as member from the specified selection and/or project.
 
 This step is similar to **Add to selection and/or project**.
 
-## Create activity
+## <a id="create" />Create activity
 
-* Create request
-* Create follow-up
-* Create sale
+The flow can automatically create a follow-up, request, and/or sale on the contact according to settings.
+
+### Create follow-up
+
+1. Drag the **Create follow-up** box from the step menu and drop it into an available slot in the flowchart.
+1. Enter a title.
+1. Select a follow-up type.
+1. Specify a due date for a to-do or reserve the first available time for a meeting.
+1. Assign to: choose who should follow up the participant: "our contact" or "our service contact", or a specific named associate.
+1. Optionally, enter other information. For details, see the [list of step settings][1] and [how to create a follow-up][12].
+
+## Create request
+
+1. Drag the **Create request** box from the step menu and drop it into an available slot in the flowchart.
+1. Enter a descriptive **title**.
+1. Select a [request type][14], which will affect default values and available statuses and priorities.
+1. Select [status][15], [category][16], and [priority][17].
+1. **Owner:**
+    * To assign the request to a specific person, select the name you require.
+    * **Automatically assigned**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+    * **Unassigned**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
+1. Enter the actual message you want to add to the request
+
+For details, see the [list of step settings][1] and [how to create a request][13].
+
+## Create sale
+
+1. Drag the **Create sale** box from the step menu and drop it into an available slot in the flowchart.
+1. Enter a descriptive **title**.
+1. Select a sale type, which will affect default values and available stages.
+1. Enter the required information in the other fields.
+1. Owner: Choose who should follow up this lead: "our contact" or "our service contact", or a specific named associate.
+
+For details, see the [list of step settings][1] and [how to create a sale][18].
 
 ## Flow action vs. form action
 
 ## Flow action vs. link action
 
-## What would you like to do now?
+## Related content
 
 * Watch another movie
 
 <!-- Referenced links -->
+[1]: step-settings.md
 [11]: ../../../learn/basics/bulk-update.md
+[12]: ../../../diary/learn/create-follow-up.md
+[13]: ../../../request/learn/howto/create.md
+[14]: ../../../request/learn/type/index.md
+[15]: ../../../request/learn/status/index.md
+[16]: ../../../request/learn/category/index.md
+[17]: ../../../request/learn/priority/index.md
+[18]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png
