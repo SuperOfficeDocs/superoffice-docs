@@ -171,6 +171,9 @@ Active flow participants stay at this step before continuing to the next step ac
 
 ![Flow step wait time -screenshot][img7]
 
+> [!NOTE]
+> If the next step is an email or SMS, and a limited time frame is defined in email settings, the total waiting time might be longer than what's set in the step.
+
 ## Wait for action
 
 Use an action-based waiting step to wait for the participant to do something (submit a form or click a link).

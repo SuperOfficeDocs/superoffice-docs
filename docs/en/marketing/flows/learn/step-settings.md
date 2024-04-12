@@ -4,7 +4,7 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.11.2024
+so.date: 04.12.2024
 so.version: 10.3.5
 so.topic: reference
 language: en
@@ -61,10 +61,23 @@ so.pilot: yes
 | Date | The estimated sale date. "Estimated by sale type" or "After X days/working days/weeks". |
 | Owner | The person responsible for the sale. The participant's "our contact" or "our service contact", or a specific named associate. |
 
-## Finish
+## Exit flow
+
+The flow-control steps **split** and **wait for action** (and also Send SMS) have an **Exit flow** option to pull participants who do not meet a condition out of the flow. If selected, the dropped-out contact can be moved to a different flow and/or added to a collection.
 
 | Setting | Description |
 |---|---|
+| Add participant to another flow after exit | The dropped-out contact is **suggested** as participant for the specified flow. Filters determine if they start that flow or not. |
+| Add participant to static selection after exit | The dropped-out contact becomes member of the specified selection. |
+
+## Finish
+
+Participants reaching the finish step has reached the end of the flow. Participant may have finished the flow with status = finished or finished with success. No more actions are happening to a participant in this flow when reaching the step.
+
+| Setting | Description |
+|---|---|
+| Add to another flow when a success criterion is met | Finished with success |
+| Add to another flow when no success criterion is met | Finished |
 
 ## Send email
 
@@ -78,20 +91,29 @@ so.pilot: yes
 
 | Setting | Description |
 |---|---|
-
-* **From:** Defaults to flow setting "SMS sender".
-* **Text:** Enter the SMS text. You can personalize the message with contact variables (same as merge tags within the mailing editor).
-* **Exit flow if no mobile phone is registered:** What should happen if the contact is unable to receive the SMS?
+| From | Defaults to flow setting "SMS sender". |
+| Text | Enter the SMS text. You can personalize the message with contact variables (same as merge tags within the mailing editor). |
+| Exit flow if no mobile phone is registered | What should happen if the contact is unable to receive the SMS? If true, you may add them to another flow or to a static selection after exit. |
 
 ## Split
 
 | Setting | Description |
 |---|---|
+| Title | A short descriptive label. |
+| Split based on | The data/behavior to differentiate on. |
+| Branch name | A descriptive name on the branch, indicating which participants are moving down which branch. |
+| Everyone else | Participants who match no criteria get status "drop out". |
+| Exit flow | Whether dropped-out participants should leave the flow. If true, you may add them to another flow or to a static selection after exit. If false, you can add more steps to this branch. |
+
+The remaining fields for specifying branch settings depend on what the split is based on.
 
 ## Trigger
 
 | Setting | Description |
 |---|---|
+| A person can only start this flow once | Whether the a contact can be re-enrolled in this flow. |
+| Filter | A set of criteria that must be met before a suggested contact starts a flow. |
+| Exclusion list | A static selection of persons that should not start the flow. |
 
 ## Update contact
 
@@ -101,16 +123,15 @@ This works similar to [bulk update][10].
 
 | Setting | Description |
 |---|---|
-
-* Number of days/hours after previous step
-* Until specific date/time
+| Number of days/hours after previous step | The **duration** of the pause. Wait a specific amount of time. |
+| Until specific date/time | The **end** of the pause. Wait until a specific date. |
 
 ## Wait for action
 
 | Setting | Description |
 |---|---|
-
-* Exit flow if no actions within max waiting time
+| Maximum waiting time | How long to wait for any action (a timeout). Default: 7 days. |
+| Exit flow if no actions within max waiting time | Participants who do not respond will leave the flow with status "drop out". If true, you may add them to another flow or to a static selection after exit. |
 
 ## Related content
 

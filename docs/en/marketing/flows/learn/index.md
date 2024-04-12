@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, success criteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.08.2024
+so.date: 04.11.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -99,10 +99,15 @@ Most automated flows should have a success criteria for enrolled participants, b
 
 ### Functional rights
 
-How to control access to flows and flow content
+Access to flows and flow content is controlled by a user's role and [functional rights][11].
 
-* Flow administrator
-* Can edit flow content
+| Action | Flow administrator | Can edit flow content |
+|---|:-:|:-:|
+| View flow | X | X |
+| Create/edit flow content | X | X |
+| Delete flow content | X | |
+| Create/edit flow (open flow editor, save) | x | |
+| Run/pause/end flow | X | |
 
 ## Related content
 
@@ -112,6 +117,7 @@ How to control access to flows and flow content
 <!-- Referenced links -->
 [1]: create.md
 [3]: view-statistics.md
+[11]: ../../../admin/user-management/learn/role/functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
