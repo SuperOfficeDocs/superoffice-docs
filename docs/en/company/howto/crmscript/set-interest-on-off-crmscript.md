@@ -93,8 +93,6 @@ Here, we get the child items for the item/heading and check each of the nested i
 > [!NOTE]
 > Notice that we also need to `SetChildItems` back into the `interestOrHeadings` array.
 
-## Reference
-
 <!-- Referenced links -->
 [1]: ../../interests.md
 

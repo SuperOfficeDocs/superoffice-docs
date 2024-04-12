@@ -23,7 +23,6 @@ The [ContInt][9] table is an **MDO table**, so interests can be grouped and orga
 > [!NOTE]
 > For headings to show, there must be a minimum number of interests defined in Settings and maintenance. To set or check this number, go to the [Preferences screen][12] > **Grouped lists** > **Company Interest**. If no value is specified for this setting, the system defaults to 7.
 
-
 ```SQL
 SELECT * FROM contint
 ```
