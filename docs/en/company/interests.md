@@ -21,7 +21,8 @@ The link table ([contactinterest][10]) allows a single contact to have zero or m
 The [ContInt][9] table is an **MDO table**, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
 
 > [!NOTE]
-> For headings to show you must have a certain minimum number of interests defined. This number is defined in the [Preferences screen][12] => Grouped lists => Company Interest.. If nothing is set then the system defaults to 7.
+> For headings to show, there must be a minimum number of interests defined in Settings and maintenance. To set or check this number, go to the [Preferences screen][12] > **Grouped lists** > **Company Interest**. If no value is specified for this setting, the system defaults to 7.
+
 
 ```SQL
 SELECT * FROM contint

@@ -52,10 +52,10 @@ contactEntity = contactAgent.SaveContactEntity(contactEntity);
 
 ## Walk-through
 
-In SuperOffice you can define an interest both with and without an heading (an interest can also exists under multiple headings).
-Each interest has its unique Id, which we in the example above use to set a specific interestId to true. This way it doesnt matter if you move an interest to a different heading, as the unique id stays consistent.
+In SuperOffice, you can define an interest both with and without a heading (an interest can also exist under multiple headings).
+Each interest has its unique ID, which we in the example above used to set a specific interestId to true. It doesn't matter if you move an interest to a different heading, as the unique ID stays consistent.
 
-First of all we need to loop the NSSelectableMDOListItem[] we get back from the GetInterests() method:
+First, we need to loop the `NSSelectableMDOListItem[]` we get back from the `GetInterests()` method:
 
 ```crmscript
 NSContactAgent contactAgent;
@@ -63,9 +63,9 @@ NSContactEntity contactEntity = contactAgent.GetContactEntity(contactId);
 NSSelectableMDOListItem[] contactInterests = contactEntity.GetInterests();
 ```
 
-In this array we can have interests/items put on the root, without an heading, or we can get an item for the heading which then contains childitems for the actuall interests (nested).
+In this array, we can put interests/items on the root, without a heading, or we can get an item for the heading, which then contains child items for the actual interests (nested).
 
-This codeblock is what checks the root:
+This code block checks the root:
 
 ```crmscript
 if (interestsOrHeadings.GetId() == interestToSelectId)
@@ -75,7 +75,7 @@ if (interestsOrHeadings.GetId() == interestToSelectId)
 }
 ```
 
-While this codeblock gets the childitems for the item/heading and checks each one of the nested items:
+Here, we get the child items for the item/heading and check each of the nested items:
 
 ```crmscript
  NSSelectableMDOListItem[] childItems = interestsOrHeadings.GetChildItems();
@@ -91,9 +91,10 @@ While this codeblock gets the childitems for the item/heading and checks each on
 ```
 
 > [!NOTE]
-> Notice that we also need to SetChildItems back into the interestOrHeadings array
+> Notice that we also need to `SetChildItems` back into the `interestOrHeadings` array.
 
 ## Reference
 
 <!-- Referenced links -->
 [1]: ../../interests.md
+
