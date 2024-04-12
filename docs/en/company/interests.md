@@ -20,6 +20,9 @@ The link table ([contactinterest][10]) allows a single contact to have zero or m
 
 The [ContInt][9] table is an **MDO table**, so interests can be grouped and organized under headings. The position under a heading does not matter to the linkage to a contact.
 
+> [!NOTE]
+> For headings to show you must have a certain minimum number of interests defined. This number is defined in the [Preferences screen][12] => Grouped lists => Company Interest.. If nothing is set then the system defaults to 7.
+
 ```SQL
 SELECT * FROM contint
 ```
@@ -57,6 +60,7 @@ The `contact` table has a counter field that stores the number of active interes
 * [List interests - services][6]
 * [Set interest on/off - services][7]
 * [ContInt MDO provider][8]
+* [Set interest on/off - CRMScript][11]
 
 <!-- Referenced links -->
 [1]: howto/sql/get-interests-sql.md
@@ -68,6 +72,8 @@ The `contact` table has a counter field that stores the number of active interes
 [8]: ../api/mdo-providers/reference/ContInt.md
 [9]: ../database/tables/contint.md
 [10]: ../database/tables/contactinterest.md
+[11]: howto/crmscript/set-interest-on-off-crmscript.md
+[12]: ../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
 [img1]: media/contact-interests.png
