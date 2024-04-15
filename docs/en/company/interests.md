@@ -10,9 +10,13 @@ so.topic: concept
 
 # Interests
 
-![Interest tab on Contact card -screenshot][img1]
+Company interests can be stored on the company card in SuperOffice
 
-Interests are stored on contacts and persons - there are two separate sets of interests and a separate set of link tables.
+![Interest tab on company card -screenshot][img1]
+
+These interest are stored in the following table:
+> [!NOTE]
+> Even though the entity is called Company in the SuperOffice UI the data is stored in the contact-tables in the database.
 
 ![InterestLinkTable diagram][img2]
 
@@ -76,5 +80,5 @@ The `contact` table has a counter field that stores the number of active interes
 [12]: ../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/contact-interests.png
+[img1]: media/company-interests.png
 [img2]: media/interestlink-table.png

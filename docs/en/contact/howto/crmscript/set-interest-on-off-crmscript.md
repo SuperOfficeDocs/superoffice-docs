@@ -3,12 +3,12 @@ uid: crmscript-set-interests-on-off
 title: Set interests
 description: How to update interests with CRMScript.
 author: Eivind Fasting
-so.date: 04.12.2024
-keywords: CRMScript, company, interests
+so.date: 04.15.2024
+keywords: CRMScript, contact, interests
 so.topic: howto
 ---
 
-# How to set an interest on or off for a company (CRMScript)
+# How to set an interest on or off for a contact (CRMScript)
 
 You can search for an [interest][1] and then set the interest to true or false. Here, we use a CRMScript.
 
@@ -17,16 +17,16 @@ You can search for an [interest][1] and then set the interest to true or false. 
 ```crmscript
 #setLanguageLevel 4;
 
-Integer contactId = 6;
+Integer personId = 13;
 Integer interestToSelectId = 5;
 
-NSContactAgent contactAgent;
-NSContactEntity contactEntity = contactAgent.GetContactEntity(contactId);
-NSSelectableMDOListItem[] contactInterests = contactEntity.GetInterests();
+NSPersonAgent agent;
+NSPersonEntity entity = agent.GetPersonEntity(personId);
+NSSelectableMDOListItem[] interests = entity.GetInterests();
 
-for (Integer i = 0; i < contactInterests.length(); i++)
+for (Integer i = 0; i < interests.length(); i++)
 {
-  NSSelectableMDOListItem interestsOrHeadings = contactInterests[i];
+  NSSelectableMDOListItem interestsOrHeadings = interests[i];
 
   if (interestsOrHeadings.GetId() == interestToSelectId)
   {
@@ -46,8 +46,8 @@ for (Integer i = 0; i < contactInterests.length(); i++)
   interestsOrHeadings.SetChildItems(childItems);
 }
 
-contactEntity.SetInterests(contactInterests);
-contactEntity = contactAgent.SaveContactEntity(contactEntity);
+entity.SetInterests(interests);
+entity = agent.SavePersonEntity(entity);
 ```
 
 ## Walk-through
@@ -58,9 +58,9 @@ Each interest has its unique ID, which we in the example above used to set a spe
 First, we need to loop the `NSSelectableMDOListItem[]` we get back from the `GetInterests()` method:
 
 ```crmscript
-NSContactAgent contactAgent;
-NSContactEntity contactEntity = contactAgent.GetContactEntity(contactId);
-NSSelectableMDOListItem[] contactInterests = contactEntity.GetInterests();
+NSPersonAgent agent;
+NSPersonEntity entity = agent.GetPersonEntity(personId);
+NSSelectableMDOListItem[] interests = entity.GetInterests();
 ```
 
 In this array, we can put interests/items on the root, without a heading, or we can get an item for the heading, which then contains child items for the actual interests (nested).

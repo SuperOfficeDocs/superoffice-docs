@@ -4,6 +4,8 @@ items:
   items:
   - name: Overview
     href: overview.md
+  - name: Interests
+    href: interests.md
   - name: Associates (employees)
     href: associate.md
   - name: Person picture and BLOBs
@@ -26,6 +28,8 @@ items:
         href: howto/crmscript/create-user.md
       - name: Get user
         href: howto/crmscript/get-user.md
+      - name: Set interest on/off
+        href: howto/crmscript/set-interest-on-off-crmscript.md 
     - name: Web services
       href: howto/services/index.md
       items:
