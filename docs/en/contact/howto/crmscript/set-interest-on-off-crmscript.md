@@ -4,7 +4,7 @@ title: Set interests
 description: How to update interests with CRMScript.
 author: Eivind Fasting
 so.date: 04.15.2024
-keywords: CRMScript, contact, interests
+keywords: CRMScript, contact, interest
 so.topic: howto
 ---
 
