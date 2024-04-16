@@ -53,7 +53,7 @@ You can extend the list of interests for a contact by creating and adding a new 
 
 ## Contact cached value
 
-The `person` table has a counter field that stores the number of active interests. This field is used to cache the count. It is updated whenever the user edits the contact. The field is used to quickly check whether the interests tab needs to indicate the presence of interests or not.
+The `person` table has a counter field that stores the number of active interests. This field is used to cache the count. It is updated whenever the user edits the contact. The field is used to quickly check whether the **Interests** tab needs to indicate the presence of interests or not.
 
 ## Howto
 
