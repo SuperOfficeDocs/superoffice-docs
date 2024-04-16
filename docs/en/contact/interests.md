@@ -15,6 +15,7 @@ Interests can be stored on the contact card
 ![Interest tab on contact card -screenshot][img1]
 
 These interest are stored in the following table:
+
 > [!NOTE]
 > Even though the entity is called Contact in the SuperOffice UI the data is stored in the tables related to person in the database.
 
