@@ -1,5 +1,7 @@
 items:
 - name: Introduction
+  topicHref: overview/index.md
+  expanded: true
   items:
   - name: What is CRMSCript?
     href: overview/index.md
@@ -10,7 +12,10 @@ items:
   - name: Getting started
     href: overview/getting-started.md
 - name: Fundamentals
+  topicHref: fundamentals/index.md
   items:
+  - name: Introduction
+    href: fundamentals/index.md
   - name: Code structure
     href: fundamentals/syntax.md
   - name: Reserved words
@@ -28,12 +33,14 @@ items:
   - name: Arrays
     href: fundamentals/arrays.md
   - name: Control
+    topicHref: fundamentals/conditions.md
     items:
     - name: Conditions
       href: fundamentals/conditions.md
     - name: Try catch
       href: fundamentals/try-catch.md
   - name: Loops
+    topicHref: fundamentals/for-loops.md
     items:
     - name: For loops
       href: fundamentals/for-loops.md
@@ -46,8 +53,10 @@ items:
   - name: Write output
     href: fundamentals/output.md
 - name: Code quality
-  href: code-quality/index.md
+  topicHref: code-quality/index.md
   items:
+  - name: Introduction
+    href: code-quality/index.md
   - name: Coding conventions
     href: code-quality/coding-conventions.md
   - name: Best practices
@@ -57,8 +66,10 @@ items:
 - name: Security
   href: security/index.md
 - name: Data types
-  href: datatypes/bool-type.md
+  topicHref: datatypes/index.md
   items:
+  - name: Introduction
+    href: datatypes/index.md
   - name: Bool type
     href: datatypes/bool-type.md
   - name: Integer type
@@ -80,6 +91,7 @@ items:
   - name: EventData type
     href: datatypes/eventdata-type.md
 - name: Debugging
+  href: debugging/index.md
   items:
   - name: Built in debugger
     href: debugging/built-in-debugger.md
@@ -98,15 +110,19 @@ items:
 - name: Working with ...
   items:
   - name: NetServer
-    href: netserver/ns-agents-and-carriers.md
+    topicHref: netserver/ns-agents-and-carriers.md
     items:
+    - name: NetServer agents and carriers
+      href: netserver/ns-agents-and-carriers.md
     - name: CRMScript ArchiveAgent
       href: netserver/crmscript-archiveagent.md
   - name: Parser
     href: parser.md
   - name: SearchEngine
-    href: searchengine/index.md
+    topicHref: searchengine/index.md
     items:
+    - name: Introduction
+      href: searchengine/index.md
     - name: Database basics
       href: searchengine/db-basics.md
     - name: Dot-syntax
@@ -138,6 +154,7 @@ items:
     - name: Forms
       href: howto/marketing/forms.md
 - name: Tutorials
+  href: tutorials/index.md
   items:
   - name: Random requests
     href: tutorials/creating-lots-of-random-requests.md

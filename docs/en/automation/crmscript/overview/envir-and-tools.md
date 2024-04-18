@@ -1,9 +1,10 @@
 ---
-uid: crmscript_howto
+uid: crmscript-envir-tools
 title: How do I create and run CRMScripts?
+description: An overview of the CRMScript environment and the tools you need to create and run scripts.
+keywords: CRMScript, interpreter, run script, execute script, CRMScript editor
 author: Bergfrid Dias
-so.date: 10.27.2021
-keywords:
+so.date: 04.15.2024
 so.topic: howto
 ---
 
@@ -60,7 +61,7 @@ For SuperOffice CRM Online, this is available in the Sales and Service admin cli
 
 ### How do I get a sandbox?
 
-You need to [!include[register as a developer](includes/link-register-dev.md)] as a developer to get access to our online development environment.
+You need to [register as a developer][2] to get access to our online development environment.
 
 This signs you up for a developer user account and creates a test tenant in the SuperOffice Online Development (SOD) environment.
 
@@ -74,3 +75,4 @@ Development Tools is a **subscription-based** license part of Expander Services 
 
 <!-- Referenced links -->
 [1]: ../../../admin/license/expander-services/tool-box.md
+[2]: ../../../developer-portal/getting-started/get-access-to-sod.md

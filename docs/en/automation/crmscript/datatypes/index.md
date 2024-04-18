@@ -1,10 +1,11 @@
 ---
-uid: crmscript_data_types
+uid: crmscript-data-types
 title: Data types
-author:
-so.date:
-keywords:
-so.topic:
+description: An in-depth guide to SuperOffice CRMScript data types.
+keywords: CRMScript, script, data type
+author: Bergfrid Dias
+so.date: 04.15.2024
+so.topic: concept
 ---
 
 # Data types

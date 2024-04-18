@@ -1,12 +1,22 @@
 ---
-uid: crmscript_code_quality
+uid: crmscript-code-quality
 title: Code quality
-author:
-so.date:
-keywords:
-so.topic:
+description: A guide to creating high-quality CRMScripts. Understanding coding conventions, intellisense, and best practices.
+keywords: CRMScript, script, convention, best practice, intellisense
+author: Bergfrid Dias
+so.date: 04.15.2024
+so.topic: concept
 ---
 
 # Code quality
 
 A guide to creating high-quality scripts.
+
+* [Coding conventions][1]
+* [Best practices][2]
+* [Intellisense][3]
+
+<!-- Referenced links -->
+[1]: coding-conventions.md
+[2]: best-practices.md
+[3]: intellisense.md
