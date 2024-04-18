@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.08.2024
+so.date: 04.16.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -27,6 +27,8 @@ so.pilot: yes
 1. Add steps.
 1. Specify what happens when the flow finishes.
 1. Click **Save** when you are done.
+
+After designing a flow and saving it, the **Flow editor** closes, and the flow chart is shown in the **View flow** screen. The new flow has status Not running until a flow administrator manually starts it by toggling Running = true.
 
 ![Set properties for new flow -screenshot][img1]
 

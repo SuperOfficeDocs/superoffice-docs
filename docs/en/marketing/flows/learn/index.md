@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, success criteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.11.2024
+so.date: 04.16.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -20,7 +20,7 @@ What if you could send the right email to the right recipients at the right time
 With marketing automation, you can tailor emails to a specific set of customers, where they are in their sales cycle, their level of engagement with specific products or services, their actions and so on.
 
 * Qualify more leads
-* Sae time on marketing tasks: "initiate and automate" > increased insight in marketing initiatives
+* See time on marketing tasks: "initiate and automate" > increased insight in marketing initiatives
 * Real-time segmentation
 * Scalable
 
@@ -53,7 +53,7 @@ View mode: archive (grid) or tiles
 
 ## <a id="view" />The View flow screen
 
-At the top, you have the following options:
+At the top, you can see the flow's name and its location within the folder structure. You have the following options:
 
 |Option | Description |
 |---|---|
@@ -68,10 +68,21 @@ The **View flow** screen consists of the following tabs:
 * **Participants:**
 * **Flow content:**
 
-## <a id="status" />Status
+## <a id="status" />Flow status
 
-* **Running:**
+* **Not running:** A new flow that has not been started (or an ended flow).
+* **Running:** No changes are allowed as long as the flow is running.
 * **Paused:**
+
+[How to run, pause, and end a flow][2]
+
+## Participant status
+
+* Active
+* Finished
+* Finished with success
+* Dropped out
+* Cancelled
 
 ## Enrollment (when and who)
 
@@ -116,6 +127,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 
 <!-- Referenced links -->
 [1]: create.md
+[2]: run-pause-end.md
 [3]: view-statistics.md
 [11]: ../../../admin/user-management/learn/role/functional-rights.md
 

@@ -3,9 +3,9 @@ uid: help-en-flow-view-statistics
 title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
-author: Bergfrid Dias
-so.date: 04.04.2024
-so.version: 10
+author: Bergfrid Dias, Trude Lien Smedbråten
+so.date: 04.18.2024
+so.version: 10.3.5
 so.topic: howto
 language: en
 so.audience: person
@@ -32,7 +32,7 @@ To view statistics about your mailing, go to the **Flows** tab and click the flo
 
 * **Summary**: Here you can find various statistics for the flow:
 
-* **Reports**:
+* **Reports**: Available settings depend on step type.
 
 * **Participants:**
 

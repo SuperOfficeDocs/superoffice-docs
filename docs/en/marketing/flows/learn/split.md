@@ -3,7 +3,7 @@ uid: help-en-flow-split
 title: Flow control - split
 description: Flow control - split
 keywords: flow, automation, branch
-author: Bergfrid Dias
+author: Bergfrid Dias, Trude Lien Smedbråten
 so.date: 04.12.2024
 so.version: 10.3.5
 so.topic: howto
