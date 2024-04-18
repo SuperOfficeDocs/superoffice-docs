@@ -4,8 +4,8 @@ title: Define automatic link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
 keywords: Marketing, mailing, link action, tracked link, call-to-action
 author: Bergfrid Dias
-so.date: 02.20.2024
-so.version: 10
+so.date: 04.18.2024
+so.version: 10.3.5
 so.topic: howto
 language: en
 so.audience: person
@@ -33,7 +33,7 @@ You can leverage the gathered information in several ways:
 
 ## Available actions
 
-Based on your mailing's goal and call-to-action, you can update your database. This information can improve segmentation or help follow up with interested individuals.
+Based on your mailing's goal and call-to-action, you can update your database. This information can improve segmentation or help follow up with interested individuals. You can select more than one action for a tracked link.
 
 | Tab | Action |
 |---|---|
@@ -45,8 +45,8 @@ Based on your mailing's goal and call-to-action, you can update your database. T
 | [Request](#request) | Create a new request. |
 | [Script](#script) | Execute a script. |
 
-> [!TIP]
-> You can select more than one action for a tracked link.
+> [!NOTE]
+> When updating a tracked link, keep in mind that it might be used by multiple mailings and/or automated flows (a pilot feature). You should make sure there are no duplicate or conflicting actions.
 
 ## <a id="response" />Response
 

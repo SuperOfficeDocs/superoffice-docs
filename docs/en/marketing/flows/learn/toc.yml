@@ -13,5 +13,7 @@ items:
   href: step-settings.md
 - name: Run, pause, and end flow
   href: run-pause-end.md
+- name: Participants
+  href: participants.md
 - name: View statistics
   href: view-statistics.md

@@ -3,9 +3,9 @@ uid: help-en-form-actions
 title: Define form actions
 description: Define form actions
 keywords: form, automation, form action, form submission
-author: SuperOffice RnD
-so.date: 02.29.2024
-so.version: 10
+author: Bergfrid Dias
+so.date: 04.18.2024
+so.version: 10.3.5
 so.topic: howto
 language: en
 so.audience: person
@@ -59,6 +59,9 @@ Here you can select actions to perform when a form is processed (automatically o
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/companies to one specific category and/or business.
 
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.
+
+> [!NOTE]
+> When updating a form, keep in mind that it might be used in multiple mailings and/or automated flows (a pilot feature). You should make sure there are no duplicate or conflicting actions.
 
 ## What would you like to do now?
 

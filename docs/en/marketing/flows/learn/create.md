@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.16.2024
+so.date: 04.18.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -112,6 +112,8 @@ The **Trigger** step is automatically added as the starting point for any flow.
 | Form submitted | When a form (submitted by a contact) is processed. |
 | Link clicked | When a contact clicks a tracked link. |
 | Chat ended | When a chat with the contact ends. |
+
+If you choose *form submitted* or *link clicked*, pay attention if you see a warning icon. Forms and tracked links might have actions too.
 
 ### Add contact filter (optional)
 

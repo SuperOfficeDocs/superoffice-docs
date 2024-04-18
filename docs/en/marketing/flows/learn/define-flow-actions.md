@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.11.2024
+so.date: 04.18.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -20,6 +20,9 @@ so.pilot: yes
 * [Send message](#send)
 * [Update participant](#update)
 * [Create activity](#create)
+
+> [!NOTE]
+> When adding or updating flow actions, keep in mind that forms and tracked links have actions too. You should make sure there are no duplicate or conflicting actions.
 
 ## <a id="send" />Send message
 
@@ -135,7 +138,23 @@ For details, see the [list of step settings][1] and [how to create a sale][18].
 
 ## Flow action vs. form action
 
+A [form action][6] might:
+
+* Add contact to selection and/or project
+* Add interest to contact
+* Set default category and business for new contacts and companies
+* Create a request
+* Send a form response mailing to contact
+
 ## Flow action vs. link action
+
+A [link action][7] might:
+
+* Add contact to selection and/or project
+* Update interests
+* Add a value to an [extrafield][19] on contact
+* Create a request
+* Create a follow-up
 
 ## Related content
 
@@ -143,6 +162,8 @@ For details, see the [list of step settings][1] and [how to create a sale][18].
 
 <!-- Referenced links -->
 [1]: step-settings.md
+[6]: ../../forms/learn/define-form-actions.md
+[7]: ../../tracked-links/learn/define-link-actions.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
 [13]: ../../../request/learn/howto/create.md
@@ -151,6 +172,7 @@ For details, see the [list of step settings][1] and [how to create a sale][18].
 [16]: ../../../request/learn/category/index.md
 [17]: ../../../request/learn/priority/index.md
 [18]: ../../../sale/learn/create.md
+[19]: ../../../custom-objects/learn/extra-field.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png

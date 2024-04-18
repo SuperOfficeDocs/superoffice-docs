@@ -63,7 +63,7 @@ At the top, you can see the flow's name and its location within the folder struc
 The **View flow** screen consists of the following tabs:
 
 * **Summary:** shows basic information about the flow and various statistics.
-* **Flow:**
+* **Flow:** shows a read-only view of the flow - to get an overview without pausing and editing the flow.
 * **Reports:** shows charts with statistics for the flow.
 * **Participants:**
 * **Flow content:**
@@ -75,14 +75,6 @@ The **View flow** screen consists of the following tabs:
 * **Paused:**
 
 [How to run, pause, and end a flow][2]
-
-## Participant status
-
-* Active
-* Finished
-* Finished with success
-* Dropped out
-* Cancelled
 
 ## Enrollment (when and who)
 
