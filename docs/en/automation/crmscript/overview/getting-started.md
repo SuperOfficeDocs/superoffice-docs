@@ -1,10 +1,10 @@
 ---
-uid: crmscript_start
+uid: crmscript-start
 title: Getting started with CRMScript
-description: "Advice for getting started with CRMScript."
-author: Bergfrid Dias
-so.date: 10.27.2021
+description: Advice for getting started with CRMScript.
 keywords: CRMScript
+author: Bergfrid Dias
+so.date: 04.15.2024
 so.topic: concept
 ---
 
@@ -22,7 +22,7 @@ When you are ready to start learning CRMScript:
 
 * Ask your questions in the [!include[forums](includes/link-forum-cs.md)].
 
-* [!include[register as a developer](includes/link-register-dev.md)] to get access to your own sandbox environment and start exploring interaction with SuperOffice.
+* [Register as a developer][8] to get access to your own sandbox environment and start exploring interaction with SuperOffice.
 
 To develop applications and scripts in our SOD environment is free. [Required licenses][7] apply only in production (live).
 
@@ -42,3 +42,4 @@ To develop applications and scripts in our SOD environment is free. [Required li
 [5]: ../debugging/index.md
 [6]: https://regex101.com/
 [7]: ../../../admin/license/index.md
+[8]: ../../../developer-portal/getting-started/get-access-to-sod.md
