@@ -148,6 +148,15 @@ items:
       href: howto/custom-objects/sort-extra-field-values.md
     - name: Extra tables
       href: howto/custom-objects/extra-table.md
+  - name: Interests
+    topicHref: howto/interests/index.md
+    items:
+    - name: Introduction
+      href: howto/interests/index.md
+    - name: Get or set company interests
+      href: howto/interests/company-interests.md
+    - name: Get or set contact fields
+      href: howto/interests/contact-interests.md
   - name: Marketing
     topicHref: howto/marketing/forms.md
     items:
