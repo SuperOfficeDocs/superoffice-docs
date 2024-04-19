@@ -2,8 +2,10 @@
 title: Requirements
 uid: online_system_requirements
 description: System requirements for SuperOffice CRM Online
-author: {github-id}
-keywords:
+keywords: requirement, browser, storage, operating system, Windows version, MacOS, attachment size
+author: RnD Services
+so.date: 04.19.2024
+so.version: 10
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -44,9 +46,9 @@ This means that you need about 2,5 - 3 Mbit/sec upload speed to be able to add/e
 
 ### Attachments in Mailings and Request
 
-* Max size per mailing or request: 25 MB
+* Max size per mailing or per message in request: 25 MB
 
-This is both incoming and outgoing. For example, one request (ticket) cannot have 3 attachments where each attachment is 10 MB.
+This is both incoming and outgoing. For example, one message in a request (ticket) cannot have 3 attachments where each attachment is 10 MB.
 
 ## SuperOffice MailLink (Intel-based Windows only)
 
