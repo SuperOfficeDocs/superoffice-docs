@@ -1,14 +1,15 @@
 ---
-uid: crmscript-interests-company
-title: Set interests
-description: How to update interests with CRMScript.
+uid: crmscript-interest-company
+title: Set/clear interest on company
+description: How to update interests for a company with SuperOffice CRMScript.
+keywords: CRMScript, company, interest, GetContactEntity, GetInterests, NSContactAgent, NSContactEntity, NSSelectableMDOListItem
 author: Eivind Fasting
 so.date: 04.12.2024
-keywords: CRMScript, company, interests
+so.version: 10
 so.topic: howto
 ---
 
-# How to set an interest on or off for a company (CRMScript)
+# Set/clear interest on company
 
 You can search for an [interest][1] and then set the interest to true or false. Here, we use a CRMScript.
 
@@ -35,7 +36,7 @@ for (Integer i = 0; i < contactInterests.length(); i++)
   }
 
   NSSelectableMDOListItem[] childItems = interestsOrHeadings.GetChildItems();
-  for (Integer y = 0; y < childItems.length(); y++) 
+  for (Integer y = 0; y < childItems.length(); y++)
   {
     if (childItems[y].GetId() == interestToSelectId)
     {
@@ -52,8 +53,7 @@ contactEntity = contactAgent.SaveContactEntity(contactEntity);
 
 ## Walk-through
 
-In SuperOffice, you can define an interest both with and without a heading (an interest can also exist under multiple headings).
-Each interest has its unique ID, which we in the example above used to set a specific interestId to true. It doesn't matter if you move an interest to a different heading, as the unique ID stays consistent.
+In SuperOffice, you can define an interest both with and without a heading (an interest can also exist under multiple headings). Each interest has its unique ID, which we in the example above used to set a specific interestId to true. It doesn't matter if you move an interest to a different heading, as the unique ID stays consistent.
 
 First, we need to loop the `NSSelectableMDOListItem[]` we get back from the `GetInterests()` method:
 
@@ -70,28 +70,28 @@ This code block checks the root:
 ```crmscript
 if (interestsOrHeadings.GetId() == interestToSelectId)
 {
-    interestsOrHeadings.SetSelected(true);
-    printLine("InterestId " + interestToSelectId.toString() + " with name: " + interestsOrHeadings.GetName() + " found on root level");
+  interestsOrHeadings.SetSelected(true);
+  printLine("InterestId " + interestToSelectId.toString() + " with name: " + interestsOrHeadings.GetName() + " found on root level");
 }
 ```
 
 Here, we get the child items for the item/heading and check each of the nested items:
 
 ```crmscript
- NSSelectableMDOListItem[] childItems = interestsOrHeadings.GetChildItems();
-  for (Integer y = 0; y < childItems.length(); y++) 
+NSSelectableMDOListItem[] childItems = interestsOrHeadings.GetChildItems();
+for (Integer y = 0; y < childItems.length(); y++) 
+{
+  if (childItems[y].GetId() == interestToSelectId)
   {
-    if (childItems[y].GetId() == interestToSelectId)
-    {
-      childItems[y].SetSelected(true);
-      printLine("InterestId " + interestToSelectId.toString() + " with name: " + childItems[y].GetName() + " found as a childInterest under heading: " + interestsOrHeadings.GetName());
-    }
+    childItems[y].SetSelected(true);
+    printLine("InterestId " + interestToSelectId.toString() + " with name: " + childItems[y].GetName() + " found as a childInterest under heading: " + interestsOrHeadings.GetName());
   }
-  interestsOrHeadings.SetChildItems(childItems);
+}
+interestsOrHeadings.SetChildItems(childItems);
 ```
 
 > [!NOTE]
-> Notice that we also need to `SetChildItems` back into the `interestOrHeadings` array.
+> We also need to `SetChildItems` back into the `interestOrHeadings` array.
 
 <!-- Referenced links -->
 [1]: index.md
