@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.18.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -42,17 +42,19 @@ After designing a flow and saving it, the **Flow editor** closes, and the flow c
 | Description | |
 | Timezone | |
 | Owner | Associate creating the flow |
-| Visible for | Owner, owner's group, all |
+| Visible for | Access to the flow (owner, owner's group, all). Level of access also controlled by functional rights​. |
 | Folder | |
 
 ### Email (settings)
+
+Common email settings for all the emails in the flow​.
 
 | Setting | Description |
 |---|---|
 | Subscription type | Set on flow level (instead of individually on each email step). Ensures all emails within a flow have the same subscription type. |
 | From, from name, from address | Same sender on all email steps within the flow. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available. If your admin has activated the [global email validation preference][12], select the domain you want to send from in the drop-down list. |
 | Reply to | The same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender. |
-| Only send emails and SMS within a specific timeframe | Select between Workday (Mon-Fri) and Weekday (Mon-Sun). Specify time. Requires that timezone is set.|
+| Only send emails and SMS within a specific timeframe | Limits the sending timeframe. Participants wait in this step until the allowed timeframe starts​. Select between Workday (Mon-Fri) and Weekday (Mon-Sun). Specify time. Requires that timezone is set. ​|
 | Use Google Analytics | Enables Google Analytics tracking for all emails in a flow. When checked, you can set source and campaign. |
 
 > [!TIP]
@@ -85,7 +87,7 @@ Success criteria define what success means for a flow. For example:
 
 ## <a id="trigger" />Define flow start trigger and filter
 
-The **Trigger** step is automatically added as the starting point for any flow.
+The **Trigger** step is automatically added as the starting point for any flow. It determines who the flow is relevant for. Triggers are only activated for running or paused flows
 
 1. Click the **Trigger** step in the flowchart.
 1. In the trigger settings on the right side, click **Add trigger** and choose an option.
@@ -97,7 +99,7 @@ The **Trigger** step is automatically added as the starting point for any flow.
 ![Add trigger for new flow -screenshot][img5]
 
 > [!NOTE]
-> It *is* possible to create a flow without any automated trigger. We will discuss this special case in another topic.
+> It *is* possible to create a flow without any automated trigger - by using contact task menu or selection task.​ We will discuss this special case in another topic.
 
 | Trigger | Description |
 |---|---|
@@ -109,15 +111,19 @@ The **Trigger** step is automatically added as the starting point for any flow.
 | Sale lost | When a sale on the contact is set to lost. |
 | Added to project | When contact is added as project member. |
 | Request created | When a request is created on the contact (independent of source). |
-| Form submitted | When a form (submitted by a contact) is processed. |
+| Form submitted | When a form (submitted by a contact) is **processed** (a manual step could be involved before the contact ends up in the flow​​). |
 | Link clicked | When a contact clicks a tracked link. |
 | Chat ended | When a chat with the contact ends. |
 
-If you choose *form submitted* or *link clicked*, pay attention if you see a warning icon. Forms and tracked links might have actions too.
+**Note:**
+
+* If you choose *form submitted* or *link clicked*, pay attention if you see a warning icon. Forms and tracked links might have actions too.
+* To add contacts created or updated by an import, a manual step adding imported contacts from selection to a flow is required.
+* When triggering on contact updated, we know the current value of the contact fields, we do not know which field was updated or what value a field had before the update.
 
 ### Add contact filter (optional)
 
-Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to trigger a flow only for prospects, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
+**Filters** are additional rules applied to all suggested participants (automatically and manually added).​ Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to trigger a flow only for prospects, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
 
 > [!NOTE]
 > Filters apply only when **identifying flow participants**. In an ongoing flow, contacts may be removed if they fulfill the success criteria.
@@ -135,6 +141,8 @@ Use a [static selection][14] to handle exceptions. The exclusion list **prevents
 It supports scenarios such as sending reminders, excluding those already added, or preventing specific customers from receiving general mass emails.
 
 ## <a id="add-step"/>Add step
+
+The drag-and-drop flow designer, where you build the flow.
 
 When you open the **Steps** tab for the first time, you will see something like this:
 
@@ -161,6 +169,9 @@ When you open the **Steps** tab for the first time, you will see something like 
 * Wait for action
 * [Split][1]
 
+> [!NOTE]
+> Participants are stamped with a **wait until** when they arrive a wait step​. If the next step is an email or SMS, and a limited time frame is defined in email settings, the total waiting time might be longer than what's set in the step.
+
 ### Wait time
 
 Use a time-based waiting step to wait a specific amount of days before sending the next email/SMS, or to wait until a specific date for specific occasions or actions. For example, to send reminders 1 week, 1 day, and 1 hour before a webinar.
@@ -174,9 +185,6 @@ Use a time-based waiting step to wait a specific amount of days before sending t
 Active flow participants stay at this step before continuing to the next step according to defined rule.
 
 ![Flow step wait time -screenshot][img7]
-
-> [!NOTE]
-> If the next step is an email or SMS, and a limited time frame is defined in email settings, the total waiting time might be longer than what's set in the step.
 
 ## Wait for action
 

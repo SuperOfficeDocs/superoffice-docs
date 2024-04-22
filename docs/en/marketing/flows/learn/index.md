@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, success criteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.16.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -15,12 +15,17 @@ so.pilot: yes
 
 # Marketing automation - flows
 
-What if you could send the right email to the right recipients at the right time? Relevant emails are more likely to be read by receivers, it affects if any CTAs are clicked or not, and can positively influence a customer relationship.
+What if you could send the right email to the right recipients at the right time? Relevant emails are more likely to be read by receivers, it affects if any call to action (CTA) links are clicked or not, and can positively influence a customer relationship. With marketing automation, you can tailor emails to a specific set of customers, where they are in their sales cycle, their level of engagement with specific products or services, their actions and so on.
 
-With marketing automation, you can tailor emails to a specific set of customers, where they are in their sales cycle, their level of engagement with specific products or services, their actions and so on.
+But that is not all. You can also address communication challenges in any part of your customer journey.
+
+* Automate different types of communication​
+* Use one tool for all communication
+* Align Marketing and Sales​
+* Be relevant with less manual effort​
 
 * Qualify more leads
-* See time on marketing tasks: "initiate and automate" > increased insight in marketing initiatives
+* Save time on marketing tasks: "initiate and automate" > increased insight in marketing initiatives
 * Real-time segmentation
 * Scalable
 
@@ -34,14 +39,30 @@ With marketing automation, you can tailor emails to a specific set of customers,
 * Webinar reminder and follow-up
 * Cross sale (follow up after purchase)
 
+* Lead capturing​
+* Lead nurturing campaigns​
+* Up/cross sell to existing customers​
+* Onboarding and adoption​
+* Event sign-up processes, incl reaching out via SMS​
+* Reminders​
+* Other customer journey related automation
+
 ## Flow steps
 
 A flow may have multiple steps. Once a participant completes a step, they move to the next. Participant status is reassessed before any action in a step.
 
 ## Workflow
 
-Plan and create content before the flow is set up, then connect already prepared content to a specific flow.
-Or, begin by setting up the flow, leave room for the 3 emails which will come from content writers later.
+Marketing automation follows roughly this workflow:
+
+1. Plan your communication​.
+1. Create the content​.
+1. Build the flow.
+1. Define steps and actions.
+1. Set goals and track success.
+1. Monitor and analyze​.
+
+However, flows support different ways of working​. Plan and create content before the flow is set up, then connect already prepared content to a specific flow. Or, begin by setting up the flow and leave room for the emails, which will come from content writers later.
 
 ## Where can you find flows?
 
@@ -70,15 +91,17 @@ The **View flow** screen consists of the following tabs:
 
 ## <a id="status" />Flow status
 
-* **Not running:** A new flow that has not been started (or an ended flow).
-* **Running:** No changes are allowed as long as the flow is running.
-* **Paused:**
+* **Not running:** A new flow that has not been started (or an ended flow). Triggers are not activated​.
+* **Running:** No changes are allowed as long as the flow is running. Automated triggers are activated, participants will be added to the flow​.
+* **Paused:** Triggers still activated, participants added to flow, but waiting to be moved to first step. Existing participants paused on the step where they are when paused.​ Used when changing or improving a flow.
 
 [How to run, pause, and end a flow][2]
 
 ## Enrollment (when and who)
 
-A **trigger** is the flow's starting point. It defined WHEN a contact is suggested as a participant to a flow. Additional **filters** are then applied to the suggested participants. Filters decide WHO are added as participants.
+Use triggers and filters to create segmented drip campaigns.​
+
+A **trigger** is the flow's starting point. It defined WHEN a contact is suggested as a participant to a flow. Additional **filters** are then applied to the suggested participants (automatically and manually added). Filters decide WHO are added as participants.
 
 ## <a id="success" >Success criteria
 
@@ -91,6 +114,13 @@ Any associate can fulfill success criteria by modifying data in the CRM database
 When a success criterion is met, the campaign may stop or continue for the participant. In both cases, the participant is considered a success. You can decide if these successful participants should move to a more relevant flow.
 
 Most automated flows should have a success criteria for enrolled participants, but defining a success criteria is not mandatory.
+
+By defining a success criterion, you can measure the flow's **success rate**: Do we achieve what we want during the period the contact is participating in the flow?​ Success rate is the percentage of enrolled participants in the flow who finish a flow with the success criterion met​.
+
+* Contacts already fulfilling the success criteria will still be added to the flow, and still counted as success. They may or may not go through the flow steps depending on configuration.​
+* Contacts fulfilling the success criteria after they have finished a flow will not be included in the flow success rate, as it did not happen while the contact was an active participant.
+
+Criteria also enable you to move a contact out of the current flow, or into more relevant communication tracks.​
 
 ## <a id="req" />Requirements
 

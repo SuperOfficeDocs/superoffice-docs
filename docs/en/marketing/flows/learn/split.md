@@ -2,9 +2,9 @@
 uid: help-en-flow-split
 title: Flow control - split
 description: Flow control - split
-keywords: flow, automation, branch
+keywords: flow, automation, branch, split
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.12.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -15,7 +15,7 @@ so.pilot: yes
 
 # Flow control - split
 
-A split step divides the flow's participants into 2 or more branches based on one or more conditions. This lets you use alternative paths, treating participants different based on contact data or former behavior by the participant.
+A split step divides the flow's participants into 2 or more branches based on one or more conditions. This lets you use alternative paths, treating participants different based on contact data or engagement.
 
 You can differentiate based on:
 
@@ -28,12 +28,16 @@ You can differentiate based on:
 
 ## How it works
 
-When the participant arrives at the split, the step criteria for the **left-most** branch is evaluated first. They can follow only one path. If there is a match, they move to the next step of that branch. Then the next branch condition is checked, and so on. All splits have a branch for everyone not meeting any of the conditions.
+When the participant arrives at the split, the step criteria for the **left-most** branch is evaluated first. They can follow only one path. If there is a match, they move to the next step of that branch. Then the next branch condition is checked, and so on. All splits have a branch for everyone not meeting any of the conditions.​
 
 ## Steps
 
 1. Drag the **Split** box from the step menu and drop it into an available slot in the flowchart.
 1. Enter a descriptive **title**.
+
+    > [!TIP]
+    > Descriptive title and branch names makes the flow easier to read​.
+
 1. Choose what to base the split on. Some options require you to provide additional details here.
 1. Name the new branch.
 1. Set branch-specific criteria. Options depend on what you based the split on.

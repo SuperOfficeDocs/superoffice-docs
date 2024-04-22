@@ -9,6 +9,8 @@ items:
   href: split.md
 - name: Define flow actions
   href: define-flow-actions.md
+- name: Add content
+  href: content.md
 - name: Step settings
   href: step-settings.md
 - name: Run, pause, and end flow

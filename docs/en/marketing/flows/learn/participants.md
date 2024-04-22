@@ -4,7 +4,7 @@ title: Flow participants
 description: Flow participants
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.18.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -36,10 +36,10 @@ Available info:
 
 ## Participant status
 
-* Active
-* Finished
-* Finished with success
-* Dropped out
+* Active: Participant is active in the flow​
+* Finished: Participant finished all steps in the flow​.
+* Finished with success: Participant finished the flow and fulfilled the success criterion. Included in the flows success rate​.
+* Dropped out: Participant dropped out, always with a specified drop-out reason.
 * Cancelled
 
 ## Tasks
@@ -47,6 +47,31 @@ Available info:
 * Add to selection
 * Add to flow: suggest that this contact is enrolled in another flow.
 * Remove from flow: Leaves no trace of the contact being registered as participant in the current flow.
+
+## Enrollment and progression through the flow
+
+In a split, contacts follow the first branch where they meet the specified conditions (the first branch from left).
+
+For all step types:​
+
+1. Is participant status Active?​
+1. Does participant meet the defined success criteria?​
+1. Is contact marked as former employee?​
+1. Is contact added to exclusion list?​
+
+​Additional for email step:​
+
+1. Is consent valid?​
+1. Does contact subscribe to flow subscription type?​
+1. Does contact have registered email address?​
+1. Is the email address already active within the flow?​
+1. Is the email address unblocked?​
+
+Additional for SMS step:​
+
+1. SMS step: Does contact have a registered mobile phone?​
+
+​
 
 <!-- Referenced links -->
 

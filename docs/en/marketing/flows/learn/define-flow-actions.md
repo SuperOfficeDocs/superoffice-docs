@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.18.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -22,9 +22,15 @@ so.pilot: yes
 * [Create activity](#create)
 
 > [!NOTE]
-> When adding or updating flow actions, keep in mind that forms and tracked links have actions too. You should make sure there are no duplicate or conflicting actions.
+> When adding or updating flow actions, keep in mind that forms and tracked links have actions too. You should make sure there are no duplicate or conflicting actions. We recommend that you include all actions one place, either in the form or in the flow.
 
 ## <a id="send" />Send message
+
+Things to consider:
+
+* How often should we send new information?​
+* Should the next email be based on contact engagement, when a contact is filling in a form or clicking a link?
+* Should all contacts get the same content?
 
 ### Send email
 
@@ -84,7 +90,7 @@ This works similar to [bulk update][11].
 
 ### Add to selection/project
 
-Contact is added as member to the specified selection and/or project.
+Keep an overview of those who signed up, or was engaged, or to keep track and follow-up on later​. The contact is added as member to the specified selection and/or project.
 
 1. Drag the **Add to selection and/or project** box from the step menu and drop it into an available slot in the flowchart.
 1. Add contact to static selection: choose a static contact selection from the list.
@@ -101,9 +107,11 @@ This step is similar to **Add to selection and/or project**.
 
 ## <a id="create" />Create activity
 
-The flow can automatically create a follow-up, request, and/or sale on the contact according to settings.
+The flow can automatically create a follow-up, request, and/or sale on the contact according to settings. By connecting CRM activities and notifications, your organization can bridge the gap between marketing and sales. Creating activities also lets you focus on contacts who are engaged and wants it​.
 
 ### Create follow-up
+
+Example: Set up a free consultation on the first available time in Our contact’s diary. They will be notified in the **Notifications** panel​.
 
 1. Drag the **Create follow-up** box from the step menu and drop it into an available slot in the flowchart.
 1. Enter a title.
@@ -128,15 +136,22 @@ For details, see the [list of step settings][1] and [how to create a request][13
 
 ## Create sale
 
+When contact arrives this step, the contact is mature, and has shown indications of being a sales opportunity.​
+
 1. Drag the **Create sale** box from the step menu and drop it into an available slot in the flowchart.
 1. Enter a descriptive **title**.
 1. Select a sale type, which will affect default values and available stages.
 1. Enter the required information in the other fields.
 1. Owner: Choose who should follow up this lead: "our contact" or "our service contact", or a specific named associate.
 
+    > [!NOTE]
+    > Add a follow-up too, to notify the sale's owner about this new opportunity​.
+
 For details, see the [list of step settings][1] and [how to create a sale][18].
 
 ## Flow action vs. form action
+
+Several action types are possible both as form action and as flow step​
 
 A [form action][6] might:
 
