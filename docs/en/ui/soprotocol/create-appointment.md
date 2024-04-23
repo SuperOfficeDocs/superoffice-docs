@@ -52,6 +52,7 @@ The following (non-current) parameters are supported:
 
 Special current parameters:
  * appointment_type - 5: todo, 6: phone, else meeting.
+ * appointmenttask_name=<ID of task type>
 
  Examples:
  
