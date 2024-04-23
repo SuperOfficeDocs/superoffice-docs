@@ -31,6 +31,38 @@ appointment[new=true]?appointment_id=0
 &enddate=2024.08.14&calendarassociate_id=5&contact_id=10&person_id=15&pids=5,10,15
 ```
 
+Open an appointment. The soprotocol should be on the format: appointment.main[new=true]?appointment_id=0&...other args...
+
+The following (non-current) parameters are supported:
+ * doby – Start date when creating new appointment. Format: YYYY.MM.DD HH:mm. Can be without time information.
+ * enddate - End date when creating new appointment. Format: YYYY.MM.DD HH:mm.
+ * length - Duration when creating new appointment – set instead of enddate. If both are set, length wins.
+ * usedefaulttime - This is used when creating a new appointment to indicate that the doby / enddate parameters above is missing the time component and the default time should be used.
+ * calendarassociate_id – This is the owner when creating new appointment.
+ * useprojectcurrent – If “true”, sets “current” project on the new appointment. For example, this is set when creating an appointment from the project activity archive.
+ * usesalecurrent – If “true”, sets “current” sale on the new appointment. For example, this is set when creating an appointment from the sale activity archive.
+ * reopen – If “true”, uses the current sale and CreateDefaultReopenAppointment() to create the new appointment. Set when stalling a sale. If set, we use the start and end date in the appointment returned by NetServer.
+ * groupview – If in the query (any text will do) the appointment is created from the group view (Diary -> View). Any text means that groupview=true, groupview=false or groupview=something are all considered present.
+ * addparticipants – If in the query (similar to groupview) and groupview is set, add participant from current group view automatically. If not set, check preference Functions -> ShowInviteDlgFromView if we should add anyway.
+ * basedon – Set to an appointment ID that will be used as base of the new appointment. Conflicts with “reopen”. If both are set, then reopen wins.
+ * suggestedappointment_id – Set to an appointment ID that will be used as base of the new appointment. Conflicts with similar parameters. The other parameters will win.
+ * entity - Set to the entity to use with suggestedappointment_id. "project" or "sale". If unset, but we have suggestedappointment_id, it defaults to "sale".
+ * assignto - If set to any string value, the appointment will be assigned to the requested owner.
+ * create - Parameter passed to CreateDefaultAppointmentEntityFromSaleSuggestion(). Should be "true" or "false".
+
+Special current parameters:
+ * appointment_type - 5: todo, 6: phone, else meeting.
+
+ Examples:
+ 
+ Create a new appointment based on another appointment:
+  `appointment.main[new=true]?appointment_id=0&basedon=1000`
+ 
+ Create a follow-up on 2020-12-15 using default time (next 15-minute slot):
+  `appointment.main[new=true]?appointment_id=0&doby=2020.12.15 10:30&usedefaulttime=true`
+  
+## Opening an appointment
+
 For opening an existing appointment, we don’t have to specify so much in the URL:
 
 ```html
