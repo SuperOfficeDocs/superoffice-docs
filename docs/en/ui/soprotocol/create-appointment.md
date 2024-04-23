@@ -17,7 +17,7 @@ To create a new appointment in SuperOffice the user may either click **File – 
 > [!NOTE]
 > `http://localhost/SuperOfficeWeb/` is just an example. Your local SuperOffice installation may be in a different location.
 
-`http://localhost/SuperOfficeWeb/default.aspx?appointment[mode=edit&new=true]?appointment_id=0`
+`http://localhost/SuperOfficeWeb/default.aspx?appointment[new=true]?appointment_id=0`
 
 ![11][img1]
 
@@ -26,7 +26,7 @@ We can select the start, end times, and the description regarding an appointment
 Here is a more complete SO Protocol string for creating an appointment with a start and end date, and a company (contact_id) with a contact (person_id), and attendees (pids):
 
 ```html
-appointment[mode=edit&new=true]?appointment_id=0 
+appointment[new=true]?appointment_id=0 
 &appointment_type=1&doby=2024.08.14
 &enddate=2024.08.14&calendarassociate_id=5&contact_id=10&person_id=15&pids=5,10,15
 ```
