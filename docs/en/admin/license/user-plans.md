@@ -1,10 +1,11 @@
 ---
+uid: user-plans
 title: User plans
-uid: user_plans
 description: SuperOffice user plans and subscriptions
-author: {github-id}
-so.date: 10.21.2021
-keywords: user plan, license
+keywords: user plan, license, essential, premium
+author: Christian Mogensen, Bergfrid Dias
+so.date: 04.23.2024
+so.version: 10.3.5
 so.topic: concept
 so.envir: cloud
 so.client: online
@@ -100,6 +101,8 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 
 [For the marketing professional][2]. Includes the common CRM feature set.
 
+**Essentials:**
+
 * Mailings (personalized mass email)
 * Mailing service included (MailGun)
 * Drag and drop email designer
@@ -122,6 +125,10 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 * Combined selections (Create/Edit)
 * Project management
 
+**Premium:**
+
+* Marketing automation (flows)
+
 ## Multi-plan users
 
 When the same person needs access to more than one plan, they become a multi-plan user (previously called a complete user).
@@ -132,24 +139,33 @@ We have the basic plans:
 * Sales-Premium
 * Service-Essentials
 * Service-Premium
-* Marketing
+* Marketing-Essentials
+* Marketing-Premium
 
 These can then be combined to produce:
 
 * Sales-Essentials + Service-Essentials
-* Sales-Essentials + Service-Essentials + Marketing
+* Sales-Essentials + Service-Essentials + Marketing-Essentials
+* Sales-Essentials + Service-Essentials + Marketing-Premium
 * Sales-Essentials + Service-Premium
-* Sales-Essentials + Service-Premium + Marketing
-* Sales-Essentials + Marketing
+* Sales-Essentials + Service-Premium + Marketing-Essentials
+* Sales-Essentials + Service-Premium + Marketing-Premium
+* Sales-Essentials + Marketing-Essentials
+* Sales-Essentials + Marketing-Premium
 
 * Sales-Premium + Service-Essentials
-* Sales-Premium + Service-Essentials + Marketing
+* Sales-Premium + Service-Essentials + Marketing-Essentials
+* Sales-Premium + Service-Essentials + Marketing-Premium
 * Sales-Premium + Service-Premium
-* Sales-Premium + Service-Premium + Marketing
-* Sales-Premium + Marketing
+* Sales-Premium + Service-Premium + Marketing-Essentials
+* Sales-Premium + Service-Premium + Marketing-Premium
+* Sales-Premium + Marketing-Essentials
+* Sales-Premium + Marketing-Premium
 
-* Service-Essentials + Marketing
-* Service-Premium + Marketing
+* Service-Essentials + Marketing-Essentials
+* Service-Essentials + Marketing-Premium
+* Service-Premium + Marketing-Essentials
+* Service-Premium + Marketing-Premium
 
 ## Available add-on subscriptions
 

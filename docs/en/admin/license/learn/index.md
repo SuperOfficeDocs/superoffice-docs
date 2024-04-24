@@ -3,8 +3,9 @@ uid: help-en-licenses
 title: CRM and licences
 description: CRM and licences
 author: SuperOffice RnD
-so.date: 07.05.2023
-keywords: license, licence, Windows
+so.date: 04.23.2024
+so.version: 10.3.5
+keywords: license, licence, user plan, Windows
 so.topic: concept
 language: en
 ---
@@ -29,7 +30,7 @@ To log in to SuperOffice CRM from a web client, you need login rights to SuperOf
 | SuperOffice Server | Required to use SuperOffice CRM. |
 | Online Web Services | Required to access SuperOffice CRM from a web client. |
 | Sales Intelligence | Allows [SAINT status monitors][2]. |
-| Exchange Synchronizer | Allows use of SuperOffice Synchronizer.
+| Exchange Synchronizer | Allows use of SuperOffice Synchronizer. |
 | SuperOffice Expander Services | Allows functionality for anonymous and external users via SuperOffice Audience or third-party applications, among other things. |
 | Customer Centre | Allows use of the Customer Centre. |
 | Sales Quote Management | Allows use of quotes. |
@@ -42,7 +43,8 @@ Finally, there are user licences for SuperOffice CRM, which are purchased for a 
 * Sales-Premium
 * Service-Essentials
 * Service-Premium
-* Marketing
+* Marketing-Essentials
+* Marketing-Premium
 
 Read more about [SuperOffice user plans and subscriptions][6].
 

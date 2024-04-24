@@ -66,7 +66,7 @@ Under **System notifications** you will find the following columns:
 | Message | Shows the description of the event. |
 | Activated | Shows when the event was initiated. |
 | Activated by | Shows who initiated the event (user ID and portrait). |
-| Finished | Shows when the event is expected to finish.
+| Finished | Shows when the event is expected to finish. |
 | Type | Shows if the event applies to the whole system. |
 
 ## Related topics
