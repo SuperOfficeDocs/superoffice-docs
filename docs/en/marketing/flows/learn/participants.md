@@ -48,7 +48,7 @@ Available info:
 * Add to flow: suggest that this contact is enrolled in another flow.
 * Remove from flow: Leaves no trace of the contact being registered as participant in the current flow.
 
-## Enrollment and progression through the flow
+## <a id="logic" />Enrollment and progression through the flow
 
 * Contacts already fulfilling the success criteria will still be added to the flow, and still counted as success. They may or may not go through the flow steps depending on configuration.​
 * Contacts fulfilling the success criteria after they have finished a flow will not be included in the flow success rate, as it did not happen while the contact was an active participant.
