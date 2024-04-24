@@ -339,7 +339,8 @@ items:
   nameWithType: String.equals(String)
   fullName: CRMScript.Global.String.equals(String)
   type: Method
-  summary: "\nCase sensitive comparison. Compare two string a returns true if they are equal.\n"
+  summary: "\nCompare two string a returns true if they are equal.\n"
+  remarks: "\nCase sensitive. To ignore case, use equalsIgnoreCase() instead.\n"
   example:
   - "\n<pre><code>String s1 = &quot;apple&quot;;\nString s2 = &quot;Apple&quot;;\nif (s1.equals(s2))\n\tprint(s1 + &quot; is identical to &quot; + s2);\nelse\n\tprint(s1 + &quot; differs from &quot; + s2);</code></pre>\n"
   syntax:
@@ -363,7 +364,8 @@ items:
   nameWithType: String.equalsIgnoreCase(String)
   fullName: CRMScript.Global.String.equalsIgnoreCase(String)
   type: Method
-  summary: "\nCase ignorant comparison. Same as using toLower() on both strings before calling equals().\n"
+  summary: "\nSame as using toLower() on both strings before calling equals().\n"
+  remarks: "\nCase insensitive.\n"
   example:
   - "\n<pre><code>String s1 = &quot;apple&quot;;\nString s2 = &quot;Apple&quot;;\nif (s1.equalsIgnoreCase(s2))\t\nprint(s1 + &quot; is identical to &quot; + s2);\nelse\t\nprint(s1 + &quot; differs from &quot; + s2);</code></pre>\n"
   syntax:
@@ -411,6 +413,7 @@ items:
   fullName: CRMScript.Global.String.caseBeginsWith(String)
   type: Method
   summary: "\nMatching start of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the beginning of your string matches the pattern, otherwise false.\n"
+  remarks: "\nCase insensitive.\n"
   syntax:
     content: Bool caseBeginsWith(String substring)
     parameters:
@@ -456,6 +459,7 @@ items:
   fullName: CRMScript.Global.String.caseEndsWith(String)
   type: Method
   summary: "\nMatching end of a string. The pattern you wish to match against must be given as an input parameter.<p></p>\nThe methods will return true if the end of your string matches the pattern, otherwise false.\n"
+  remarks: "\nCase insensitive.\n"
   syntax:
     content: Bool caseEndsWith(String substring)
     parameters:
@@ -477,7 +481,8 @@ items:
   nameWithType: String.compare(String)
   fullName: CRMScript.Global.String.compare(String)
   type: Method
-  summary: "\nCase sensitive comparison.<p></p>\nTwo strings are lexicographic identical if they are the same length and they also contain the same characters in the same position.\n"
+  summary: "\nTwo strings are lexicographic identical if they are the same length and they also contain the same characters in the same position.\n"
+  remarks: "\nCase sensitive. To ignore case, use caseCompare() instead.\n"
   example:
   - "\n<pre><code>String s1 = &quot;a&quot;;\nString s2 = &quot;B&quot;;\nif (s1.compare(s2) < 0)\n\tprint(s1 + &quot; comes before &quot; + s2);</code></pre>\n"
   syntax:
@@ -501,7 +506,8 @@ items:
   nameWithType: String.caseCompare(String)
   fullName: CRMScript.Global.String.caseCompare(String)
   type: Method
-  summary: "\nCase ignorant comparison. Same as applying the standard dictionary or alphabetic order.\n"
+  summary: "\nSame as applying the standard dictionary or alphabetic order.\n"
+  remarks: "\nCase insensitive.\n"
   example:
   - "\n<pre><code>String s1 = &quot;a&quot;;\nString s2 = &quot;B&quot;;\nInteger sortOrder = s1.caseCompare(s2);</code></pre>\n"
   syntax:
@@ -597,6 +603,7 @@ items:
   fullName: CRMScript.Global.String.find(String)
   type: Method
   summary: "\nFinds the 1st occurrence of the substring and returns the index it starts at.\n"
+  remarks: "\nCase sensitive, to ignore case use findCase() instead.\n"
   example:
   - "\n<pre><code>String s = &quot;SuperOffice&quot;;\nprintLine(s.find(&quot;O&quot;).toString());</code></pre>\n"
   syntax:
@@ -619,8 +626,8 @@ items:
   nameWithType: String.findCase(String)
   fullName: CRMScript.Global.String.findCase(String)
   type: Method
-  summary: "\nFinds the 1st occurrence of the substring and returns the index it starts at. Case insensitive\n"
-  remarks: "\nReturns -1 if not found.\n"
+  summary: "\nFinds the 1st occurrence of the substring and returns the index it starts at. Returns -1 if not found.\n"
+  remarks: "\nCase insensitive.\n"
   syntax:
     content: Integer findCase(String substring)
     parameters:
