@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
+so.date: 04.23.2024
+so.version: 10.3.5
 so.topic: concept
 language: en
 so.audience: person
@@ -22,6 +22,7 @@ Using SuperOffice Marketing you can create the following:
 
 * **Mailings** (emails, SMS, documents and form responses). [Get started with your first mailing][5].
 * **Forms**. [Get started on your first form][1].
+* **Flows** (pilot only)
 
 Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
 
@@ -76,6 +77,23 @@ There are three key areas in which the GDPR affects the work of marketeers:
 
 To benefit from SuperOffice marketing features, you need a basic understanding of how to register basic CRM data, such as categories on company and contacts, interests and subscription types on contacts (read more about GDPR and privacy), and how to use selections. These steps of registering data help you segment your customer base and create an effective target list. If you want to know how to configure marketing related functions, please see the section for Manage lists in Settings and maintenance.
 
+## Differences between Marketing Essentials and Marketing Premium
+
+* **Essentials:** The tools you need to better target and communicate to prospects and customers.
+
+* **Premium:** Unlocks the power of CRM data for ​personalized and automated customer journeys.​
+
+| Feature | Essentials | Premium |
+|---|:-:|:-:|
+| Lead capture​ | x | x |
+| Lead generation and lead nurturing ​ | | x|
+| Customer communications | x | x |
+| Segmented email campaigns | x | x |
+| Onboarding and adoption​ | | x |
+| Customer journey automation​ | | x |
+| Cross-sell and up-sell enablement​ | | x |
+| Marketing/sales alignment​ | x | x |
+
 ## Differences between onsite and online installations
 
 SuperOffice Marketing is offered as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
@@ -92,6 +110,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 | Forms | Contains all forms and create new ones. | [Create a new form][1] |
 | Form templates | Contains all form templates. | [Work with the form templates][18] |
 | Form submissions | Contains submitted forms. | [Track form submissions][19] |
+| Flows | Contains all flows and create new ones. | [Create a flow][20] |
 
 ## What would you like to do now?
 
@@ -117,6 +136,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

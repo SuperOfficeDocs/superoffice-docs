@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, success criteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.22.2024
+so.date: 04.23.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -19,35 +19,24 @@ What if you could send the right email to the right recipients at the right time
 
 But that is not all. You can also address communication challenges in any part of your customer journey.
 
-* Automate different types of communication​
-* Use one tool for all communication
-* Align Marketing and Sales​
-* Be relevant with less manual effort​
+* Impact the entire customer journey​: Lead capturing and lead nurturing campaigns;​ Up/cross sell to existing customers​; Onboarding and adoption​; Event sign-up processes​; Reminders​
 
-* Qualify more leads
-* Save time on marketing tasks: "initiate and automate" > increased insight in marketing initiatives
-* Real-time segmentation
-* Scalable
+* Be relevant with less manual effort​: Communicate both with prospects and existing customers from the same tool; Use triggers and filters to create segmented drip campaigns; Gain more insight in marketing activities​
+
+* Leverage CRM data for precise marketing efforts: Use CRM data to segment your audience and send the most relevant information; Understand customer needs and craft a journey personalized for them.​
+
+* Align marketing and sales​: Automate the handshake between marketing and sales by connecting CRM activities and notifications​; CRM activities can influence ongoing automation​; Ensure transparency between marketing, sales and service​.
+
+* Reporting from lead to revenue​: Prove the impact of marketing efforts by connecting marketing and sales reports.
 
 ## <a id="ex" />Use cases
 
-* Onboarding program
-* Event sign-up
-* Life cycle emails
-* Regular subscription programs
-* Welcome new subscribers
-* Webinar reminder and follow-up
-* Cross sale (follow up after purchase)
+* Welcome new customers: Send personalized emails, discounts, offer your brand story. Support onboarding of new products.
+* Engagement campaigns​: Keep active customers engaged and informed. Relevant content, product updates, exclusive offers and so on.
+* Up/cross sell campaigns​: Recommend related items based on purchase history or behaviors to drive revenues.​
+* Event sign-up processes, incl reaching out via SMS; Webinar reminder and follow-up.
 
-* Lead capturing​
-* Lead nurturing campaigns​
-* Up/cross sell to existing customers​
-* Onboarding and adoption​
-* Event sign-up processes, incl reaching out via SMS​
-* Reminders​
-* Other customer journey related automation
-
-## Flow steps
+## What is a flow
 
 A flow may have multiple steps. Once a participant completes a step, they move to the next. Participant status is reassessed before any action in a step.
 
@@ -89,14 +78,6 @@ The **View flow** screen consists of the following tabs:
 * **Participants:**
 * **Flow content:**
 
-## <a id="status" />Flow status
-
-* **Not running:** A new flow that has not been started (or an ended flow). Triggers are not activated​.
-* **Running:** No changes are allowed as long as the flow is running. Automated triggers are activated, participants will be added to the flow​.
-* **Paused:** Triggers still activated, participants added to flow, but waiting to be moved to first step. Existing participants paused on the step where they are when paused.​ Used when changing or improving a flow.
-
-[How to run, pause, and end a flow][2]
-
 ## Enrollment (when and who)
 
 Use triggers and filters to create segmented drip campaigns.​
@@ -105,22 +86,15 @@ A **trigger** is the flow's starting point. It defined WHEN a contact is suggest
 
 ## <a id="success" >Success criteria
 
-Success criteria define what success means for a flow. You can track the effectiveness of their automation by observing how many participants meet these criteria.
+Success criteria establish the parameters for determining the success of a flow. By defining success criteria, you can gauge the efficacy of the flow: Are we achieving our objectives while the contact remains engaged in the flow? The **success rate** represents the percentage of enrolled participants in the flow who complete it with the success criteria fulfilled.
 
-A success criterion could be a change in a contact's category (to for example, sales ready lead) while they are in the flow. All interactions with this contact contribute to this change.
+A success criterion may entail a change in a contact's category (such as transitioning to a sales-ready lead) while they are engaged in the flow. All interactions with the contact contribute to this change.
 
-Any associate can fulfill success criteria by modifying data in the CRM database. The flow automation will respond correctly, regardless of how the success criteria were achieved. It makes no difference whether data is automatically updated by the flow, or manually updated by a sales representative.
+Any associate can fulfill success criteria by modifying data in the CRM database. The flow automation will respond appropriately, regardless of how the success criteria were met. Whether data is updated automatically by the flow or manually by a sales representative, the system functions consistently.
 
-When a success criterion is met, the campaign may stop or continue for the participant. In both cases, the participant is considered a success. You can decide if these successful participants should move to a more relevant flow.
+Upon meeting a success criterion, the campaign may either stop or proceed for the participant. In both cases, the participant is considered successful. You can determine if these successful participants should transition to a more relevant flow.
 
-Most automated flows should have a success criteria for enrolled participants, but defining a success criteria is not mandatory.
-
-By defining a success criterion, you can measure the flow's **success rate**: Do we achieve what we want during the period the contact is participating in the flow?​ Success rate is the percentage of enrolled participants in the flow who finish a flow with the success criterion met​.
-
-* Contacts already fulfilling the success criteria will still be added to the flow, and still counted as success. They may or may not go through the flow steps depending on configuration.​
-* Contacts fulfilling the success criteria after they have finished a flow will not be included in the flow success rate, as it did not happen while the contact was an active participant.
-
-Criteria also enable you to move a contact out of the current flow, or into more relevant communication tracks.​
+It is advisable for most automated flows to set success criteria for enrolled participants. However, it is not mandatory to define such criteria.
 
 ## <a id="req" />Requirements
 
@@ -145,6 +119,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 ## Related content
 
 * [Create flow][1]
+* [How to run, pause, and end a flow][2]
 * [View statistics][3]
 
 <!-- Referenced links -->

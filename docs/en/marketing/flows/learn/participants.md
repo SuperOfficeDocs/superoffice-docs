@@ -50,6 +50,9 @@ Available info:
 
 ## Enrollment and progression through the flow
 
+* Contacts already fulfilling the success criteria will still be added to the flow, and still counted as success. They may or may not go through the flow steps depending on configuration.​
+* Contacts fulfilling the success criteria after they have finished a flow will not be included in the flow success rate, as it did not happen while the contact was an active participant.
+
 In a split, contacts follow the first branch where they meet the specified conditions (the first branch from left).
 
 For all step types:​

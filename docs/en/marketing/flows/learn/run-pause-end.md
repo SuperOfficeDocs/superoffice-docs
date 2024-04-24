@@ -4,7 +4,7 @@ title: Run, pause, and end flow
 description: How to run, pause, resume, end, and delete a SuperOffice Marketing automation flow.
 keywords: flow, automation, run flow, running, pause flow, resume flow, end flow, delete flow, flow status
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.16.2024
+so.date: 04.22.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -14,6 +14,12 @@ so.pilot: yes
 ---
 
 # Run, pause, and end flow
+
+## <a id="status" />Flow status
+
+* **Not running:** A new flow that has not been started (or an ended flow). Triggers are not activated​.
+* **Running:** No changes are allowed as long as the flow is running. Automated triggers are activated, participants will be added to the flow​.
+* **Paused:** Triggers still activated, participants added to flow, but waiting to be moved to first step. Existing participants paused on the step where they are when paused.​ Used when changing or improving a flow.
 
 ## Start flow for the 1st time
 
