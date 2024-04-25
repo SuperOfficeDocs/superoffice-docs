@@ -85,9 +85,9 @@ For example, to go to sale 42:
 
 `soprotocol:sale?sale_id=42`
 
-To go to a specific company card, set the active archive, and open an appointment:
+To go to a specific company card, set the active archive:
 
-`soprotocol:contact.main.activityarchive.appointment?contact_id=2&appointment_id=1`
+`soprotocol:contact.main.activityarchive?contact_id=2`
 
 ## SoProtocol and SuperState
 
