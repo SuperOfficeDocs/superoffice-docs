@@ -2,9 +2,9 @@
 uid: help-en-flow-create
 title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
-keywords: flow, marketing automation
+keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.22.2024
+so.date: 04.25.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -23,14 +23,14 @@ so.pilot: yes
 1. Click the **Flow** button below **Create new** on the right side of the screen.
 1. In the **Flow editor** dialog, enter a descriptive **Flow name**.
 1. [Fill in the fields](#fields) as described below. Remember to click **Save** regularly to save your work. The flow will not be auto-saved.
-1. Define flow start trigger and filter.
-1. Add steps.
+1. [Define flow start trigger and filter.](#trigger)
+1. [Add steps.](#add-step)
 1. Specify what happens when the flow finishes.
 1. Click **Save** when you are done.
 
-After designing a flow and saving it, the **Flow editor** closes, and the flow chart is shown in the **View flow** screen. The new flow has status Not running until a flow administrator manually starts it by toggling Running = true.
-
 ![Set properties for new flow -screenshot][img1]
+
+After designing a flow and saving it, the **Flow editor** closes, and the flow chart is shown in the **View flow** screen. The new flow has status **Not running** until a flow administrator manually starts it by toggling Running = true.
 
 ## <a id="fields" />Filling in flow fields
 
@@ -38,12 +38,12 @@ After designing a flow and saving it, the **Flow editor** closes, and the flow c
 
 | Setting | Description |
 |---|---|
-| Name | |
-| Description | |
-| Timezone | |
+| Name | A descriptive label. |
+| Description | Explain the purpose of the flow. This text is visible internally only.|
+| Timezone | Required to limit the sending timeframe. |
 | Owner | Associate creating the flow |
 | Visible for | Access to the flow (owner, owner's group, all). Level of access also controlled by functional rights​. |
-| Folder | |
+| Folder | The location of the flow. |
 
 ### Email (settings)
 
@@ -64,42 +64,33 @@ Common email settings for all the emails in the flow​.
 
 ### Success criteria (optional)
 
-Success criteria define what success means for a flow. For example:
+Success criteria define [what success means for a flow][7].
 
-* Contact updated
-* Sale created on contact or company
-* Follow-up created
-* Request created
-* Participant added to selection or project
-* Form submitted
-* Link clicked
-* Had chat
-
-**Steps:**
-
+1. Select **Success criteria** from the left menu.
 1. Click **Add success criteria** and choose an option.
 1. Optionally select **Participant is moved directly to Finish step when the success criteria is met**.
 
     * If checked: The participant's status changes to *Finished with success** and they exit from any other actions later in the flow.
+
     * If not checked: The participant's status remains *Active* and they continue to follow the flow. When they reach the **Finish** step, their status changes to *Finished with success*. Use this option if success rate is used primarily for statistics, and you want the participant to complete all the steps even if success is reached.
 
 ![Set success criteria for new flow -screenshot][img3]
 
-## <a id="trigger" />Define flow start trigger and filter
+## <a id="trigger" />Define flow start trigger and filters
 
-The **Trigger** step is automatically added as the starting point for any flow. It determines who the flow is relevant for. Triggers are only activated for running or paused flows
+The **Trigger** step is automatically added as the starting point for any flow. It determines who the flow is relevant for. Triggers are only activated for running or paused flows.
 
+> [!NOTE]
+> It *is* possible to create a flow without any automated trigger - by using the contact task menu or a selection task.​ We will discuss this special case in another topic.
+
+1. Select **Steps** from the left menu.
 1. Click the **Trigger** step in the flowchart.
 1. In the trigger settings on the right side, click **Add trigger** and choose an option.
 1. Enter the required settings for the selected trigger.
 1. Optionally, specify additional qualification criteria.
-1. Optionally select **A contact person can only start this flow once**.
-    The Flow engine keeps track of all former participants. If a flow is triggered a second time on the same contact, this setting ensures the contact is not re-enrolled.
+1. Optionally select **A contact person can only start this flow once**. If a flow is triggered a second time on the same contact, this setting ensures they do not re-enrolled.
 
 ![Add trigger for new flow -screenshot][img5]
-
-> [!NOTE]
-> It *is* possible to create a flow without any automated trigger - by using contact task menu or selection task.​ We will discuss this special case in another topic.
 
 | Trigger | Description |
 |---|---|
@@ -136,13 +127,25 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 
 ### Exclusion list (optional)
 
-Use a [static selection][14] to handle exceptions. The exclusion list **prevents selected contacts from being added to the flow**.
+The exclusion list **prevents selected contacts from being added to the flow**. Use a [static selection][14] to handle exceptions, such as:
 
-It supports scenarios such as sending reminders, excluding those already added, or preventing specific customers from receiving general mass emails.
+* Prevent specific customers from receiving general mass emails.
+* Send reminders, but not to those already signed up.
 
 ## <a id="add-step"/>Add step
 
-The drag-and-drop flow designer, where you build the flow.
+1. Select **Steps** from the left menu.
+1. Chose a step and drag it to where you wish to add it in the flowchart.
+1. The step menu changes to **step settings**. [Available settings][9] depend on the step's type.
+
+    * [Send message][3]
+    * Flow control
+    * [Update participant][4]
+    * [Create activity][5]
+
+Click the X in the step settings header to return to the step menu.
+
+### The first step
 
 When you open the **Steps** tab for the first time, you will see something like this:
 
@@ -151,19 +154,15 @@ When you open the **Steps** tab for the first time, you will see something like 
 * A flowchart with a **Trigger**, a **placeholder** for adding a step, and a **Finish** step (in the center).
 * A list of available step types (to the right).
 
-1. Chose a step and drag it to where you wish to add it in the flowchart.
-1. The step menu changes to **step settings**. Available settings depend on the step's type.
-
-    Click the X in the step settings header to return to the step menu.
-
-### Step types
-
-* [Send message][3]
-* Flow control
-* Update participant
-* Create activity
-
 ## Flow control
+
+Most steps represent an action pertaining to the participant. For example, update contact interest. Flow-control steps are different - they pertain to **timing** and **segmentation**.
+
+Without flow control, a person would move from action to action until they drop out or reach the end. For example, they would be flooded with the entire onboarding program in a single day. Or receive all newsletters at once.
+
+In addition, everyone enrolled would go through exactly the same steps. Which might be what you want in a simple flow. But by setting conditions to what happens next, you can for example send a newsletter in the contact's preferred language, or send a feedback survey only to those who attended the webinar.
+
+**Options:**
 
 * Wait time
 * Wait for action
@@ -191,9 +190,13 @@ Active flow participants stay at this step before continuing to the next step ac
 Use an action-based waiting step to wait for the participant to do something (submit a form or click a link).
 
 1. Drag the **Wait for action** box from the step menu and drop it into an available slot in the flowchart.
+
 1. Click **Add action** and select which action to wait for.
+
 1. From the list, select the name of the link or form to wait for.
+
 1. Specify how long you are willing to wait for any action (a timeout). The default maximum waiting time is 7 days. If you uncheck this setting, participants who do not respond will be stalled at this step forever.
+
 1. Optionally, select **Exit flow if no actions within max waiting time**. Participants who do not respond will leave the flow with status "drop out". You may choose to move them to another flow and/or add them to a static selection.
 
 ![Flow step wait for action -screenshot][img8]
@@ -205,11 +208,18 @@ Use an action-based waiting step to wait for the participant to do something (su
 
 * [Move, duplicate, or remove step][2]
 * [Define flow actions][3]
+* [Split flow][1]
+* [Start flow][6]
 
 <!-- Referenced links -->
 [1]: split.md
 [2]: update.md
 [3]: define-flow-actions.md
+[4]: define-flow-actions.md#update
+[5]: define-flow-actions.md#create
+[6]: run-pause-end.md
+[7]: index.md#success
+[9]: step-settings.md
 [8]: ../../learn/create-folder.md
 [12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
 [13]: ../../../search-options/learn/search-criteria.md

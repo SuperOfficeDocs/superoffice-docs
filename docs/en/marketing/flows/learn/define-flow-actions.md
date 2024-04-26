@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.22.2024
+so.date: 04.26.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -32,25 +32,25 @@ Things to consider:
 * Should the next email be based on contact engagement, when a contact is filling in a form or clicking a link?
 * Should all contacts get the same content?
 
-### Send email
+### Send email (mailing)
 
-An email step is used for sending an email to an active flow participant. You can select an already prepared email or adding a new one.
+An email step is used for sending an email to an active flow participant. You can select an already prepared email or add a new one.
 
 1. Drag the **Send email** box from the step menu and drop it into an available slot in the flowchart.
+
 1. Choose one of the options:
 
-    * Create new email for this step. Enter a name and click **Create**. This opens the Mailing wizard at the Template step.
+    * Create new email for this step. Enter a name and click **Create**. This opens the Mailing wizard at the **Template** step.
     * Select existing email for this step. Click to select flow content.
+
+1. Enter the **subject** of the email. Contact variables (merge tags) are available.
+
+1. Optionally, add one or more attachments (max 25MB total).
 
 ![Add email step to flow -screenshot][img1]
 
 > [!NOTE]
 > Creating a new email as flow content is only possible from within flow UI.
-
-**Step settings:**
-
-* **Subject:** You can personalize the subject with contact variables (same as merge tags within the mailing editor).
-* **Attachment:**
 
 ### Send SMS
 
@@ -58,11 +58,11 @@ An SMS step is used for sending an SMS to an active flow participant.
 
 Flow participants without a registered phone number can either skip the step (continue to next step), or exit the flow, depending on step settings
 
-**Step settings:**
+1. Drag the **Send SMS** box from the step menu and drop it into an available slot in the flowchart.
 
-* **From:** Defaults to flow setting "SMS sender".
-* **Text:** Enter the SMS text. You can personalize the message with contact variables (same as merge tags within the mailing editor).
-* **Exit flow if no mobile phone is registered:** What should happen if the contact is unable to receive the SMS?
+1. Enter the sender and the SMS text. Contact variables (merge tags) are available.
+
+1. Optionally, select **Exit flow if no mobile phone is registered** and choose how to handle contacts who are unable to receive the SMS.
 
 > [!TIP]
 > If you wish to send only one SMS, keep an eye on the counter in bottom-right corner. If the number of characters exceeds 160, the message is sent as multiple SMS segments and additional pricing may apply. We recommend to keep the message brief and informative.
@@ -170,10 +170,6 @@ A [link action][7] might:
 * Add a value to an [extrafield][19] on contact
 * Create a request
 * Create a follow-up
-
-## Related content
-
-* Watch another movie
 
 <!-- Referenced links -->
 [1]: step-settings.md

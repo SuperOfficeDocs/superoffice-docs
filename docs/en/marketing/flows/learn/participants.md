@@ -74,8 +74,6 @@ Additional for SMS step:​
 
 1. SMS step: Does contact have a registered mobile phone?​
 
-​
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->

@@ -4,7 +4,7 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.12.2024
+so.date: 04.26.2024
 so.version: 10.3.5
 so.topic: reference
 language: en
@@ -22,6 +22,8 @@ so.pilot: yes
 
 | Setting | Description |
 |---|---|
+| Add contact to static selection | The participant becomes member of the specified static selection. |
+| Add contact as project member | The participant becomes member of the specified project. |
 
 ## Create follow-up
 
@@ -63,7 +65,7 @@ so.pilot: yes
 
 ## Exit flow
 
-The flow-control steps **split** and **wait for action** (and also Send SMS) have an **Exit flow** option to pull participants who do not meet a condition out of the flow. If selected, the dropped-out contact can be moved to a different flow and/or added to a collection.
+The flow-control steps **split** and **wait for action** (and also Send SMS) have an **Exit flow** option to pull participants who do not meet a condition out of the flow. If selected, the dropped-out contact can be moved to a different flow and/or added to a selection.
 
 | Setting | Description |
 |---|---|
@@ -83,9 +85,10 @@ Participants reaching the finish step has reached the end of the flow. Participa
 
 | Setting | Description |
 |---|---|
-
-* **Subject:** You can personalize the subject with contact variables (same as merge tags within the mailing editor).
-* **Attachment:**
+| Create new email for this step | Opens the mailing wizard. |
+| Select existing email for this step | |
+| Subject | Text for the email's subject field. You can personalize the subject with contact variables (same as merge tags within the mailing editor). |
+| Attachment | Max 25MB total. |
 
 ## Send SMS
 

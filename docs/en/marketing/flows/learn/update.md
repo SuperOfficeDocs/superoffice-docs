@@ -69,10 +69,6 @@ There are a few limitation when you edit a flow after it has run to protect acti
 
 Once the flow is started, you can change the order of branches (except 'Everyone else'). However, because participants might be on that branch, you cannot delete the branch.
 
-## Related content
-
-* Complain about a movie
-
 <!-- Referenced links -->
 [1]: run-pause-end.md
 [2]: create.md

@@ -29,6 +29,10 @@ But that is not all. You can also address communication challenges in any part o
 
 * Reporting from lead to revenue​: Prove the impact of marketing efforts by connecting marketing and sales reports.
 
+The drag-and-drop flow designer is where you build the flow.
+
+![Drag-and-drop flow designer -screenshot][img2]
+
 ## <a id="ex" />Use cases
 
 * Welcome new customers: Send personalized emails, discounts, offer your brand story. Support onboarding of new products.
@@ -59,7 +63,7 @@ Marketing automation follows roughly this workflow:
 
 Flows support different ways of working​. Plan and create content before the flow is set up, then connect already prepared content to a specific flow. Or, begin by setting up the flow and leave room for the emails, which will come from content writers later.
 
-## Where can you find flows?
+## Where to find flows
 
 SuperOffice Marketing has 1 tab pertaining to flows.
 
@@ -71,8 +75,8 @@ Choose between list or tile **view mode** in the lower-right corner.
 
 | Icon | Mode | Description |
 |:-:|---|---|
-| [icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, or delete the flow. |
-| [icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click the hamburger menu to open, edit, or delete the flow. |
+| ![icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click the menu button ![icon][img3] to open, edit, or delete the flow. |
+| ![icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, or delete the flow. |
 
 ## <a id="view" />The View flow screen
 
@@ -85,15 +89,26 @@ At the top, you can see the flow's name and its location within the folder struc
 
 The **View flow** screen consists of the following tabs:
 
-* **Summary:** shows basic information about the flow and various statistics.
-* **Flow:** shows a read-only view of the flow - to get an overview without pausing and editing the flow.
-* **Reports:** shows charts with statistics for the flow. Used to monitor the flow's performance.
-* **Participants:** a complete view of all participants within the flow, their email address, what company they belong to, when they were added as participant, current status, current step, last sending they received, date for last sending, and the status on last sending.
-* **Flow content:** Flow mailings and link to forms used by the flow.
+* **Summary:** Basic information about the flow and various statistics.
+* **Flow:** A read-only view of the flow - to get an overview without pausing and editing the flow.
+* **Reports:** Charts with statistics for the flow. Used to monitor the flow's performance.
+* **Participants:** A list of all participants within the flow. Shows their email address, what company they belong to, when they enrolled, the current status, the current step, the last sending they received, the date for last sending, and the status on last sending.
+* **Flow content:** Flow mailings and forms used by the flow.
 
 ## <a id="success" >Success criteria
 
-Success criteria establish the parameters for determining the success of a flow. By defining success criteria, you can gauge the efficacy of the flow: Are we achieving our objectives while the contact remains engaged in the flow? The **success rate** represents the percentage of enrolled participants in the flow who complete it with the success criteria fulfilled.
+Success criteria establish the parameters for determining the success of a flow. For example:
+
+* Contact updated
+* Sale created on contact or company
+* Follow-up created
+* Request created
+* Participant added to selection or project
+* Form submitted
+* Link clicked
+* Had chat
+
+By defining success criteria, you can gauge the efficacy of the flow: Are we achieving our objectives while the contact remains engaged in the flow? The **success rate** represents the percentage of enrolled participants in the flow who complete it with the success criteria fulfilled.
 
 A success criterion may entail a change in a contact's category (such as transitioning to a sales-ready lead) while they are engaged in the flow. All interactions with the contact contribute to this change.
 
@@ -141,5 +156,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
+[img2]: ../../../../media/loc/en/marketing/flows-panel.png
+[img3]: ../../../../media/icons/btn-menu.png
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png
