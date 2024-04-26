@@ -19,8 +19,11 @@ so.topic: reference
 
 ### SuperOffice CRM
 
+* 10.3.5 (30.04.2024):
+  * [Request types - Fine tuning of requests for different types (10.3.5)][24]
+
 * 10.3.4 (09.04.2024):
-  * No new features or functions
+  * No new features or functions for general availability
 
 * 10.3.3 (12.03.2024):
   * [Request - simplify attachment handling (10.3.3)][18] in Service
@@ -35,7 +38,7 @@ so.topic: reference
 * 10.3.1 (02.02.2024):
   * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
   * [Lists - Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
-  * [System design - show extrafield in Request Properties sidebar (10.3.1)][1] in Settings and maintenance and Service
+  * [System design - show extra field in Request Properties sidebar (10.3.1)][1] in Settings and maintenance and Service
   * [Right-click to take ownership of requests (10.3.1)][3] in Service
   * [Show SAINT status monitor on Requests screen (10.3.1)][3] in Service
 
@@ -104,5 +107,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [21]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [22]: https://appstore.superoffice.com/all-crm/snelstart-for-superoffice
 [23]: https://community.superoffice.com/en/product-releases/whats-new/product/the-new-superoffice-service/
+[24]: service/10.3.5-update.md
 
 <!-- Referenced images -->
