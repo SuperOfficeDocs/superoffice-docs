@@ -20,7 +20,7 @@ so.topic: reference
 ### SuperOffice CRM
 
 * 10.3.5 (30.04.2024):
-  * [Request types - Fine tuning of requests for different types (10.3.5)][24]
+  * [Request types - Fine tuning of requests for different types (10.3.5)][24] in Service
 
 * 10.3.4 (09.04.2024):
   * No new features or functions for general availability
