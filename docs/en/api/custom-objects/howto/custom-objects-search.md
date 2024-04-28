@@ -17,7 +17,7 @@ Even though we use Companies as an example, the logic would be for the other def
 
 One of the first things we need to ask ourself is what relations do companies actually have inside our SuperOffice database. One way of doing this would be to use the GetAvailableColumns Archice to get all the fields that has a relation to the Contact.
 
-```http
+```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetAvailableColumns?$select=name HTTP/1.1
 Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
@@ -46,7 +46,7 @@ y_rentals is the link-table between the available items and the companies, and f
 I would like to find what items a spesific customerId has rented.
 The query would look something like this:
 
-```http
+```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns2
 Accept: application/json
 Content-Type: application/json
@@ -67,7 +67,6 @@ Authorization: Bearer {{token}}
 >Note
 >Take not of the Restictions-parameter here! With this you can also use the contactExtra-fields and search for customers that has rented a spesific item.
 >Make sure you adjust PageSize to be more suited for your usercase.
-
 
 <!-- Referenced links -->
 [1]: ./custom-objects-ReadRow.md
