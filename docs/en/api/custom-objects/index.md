@@ -29,4 +29,3 @@ This section will focus on the API-part of working with Custom Objects, and help
 [7]: ../../custom-objects/extra-field/index.md
 
 <!-- Referenced images -->
-[img1]: media/image021.jpg
