@@ -52,6 +52,9 @@ so.audience.tooltip: SuperOffice Mobile CRM
 * [Choose icons for Web.Admin for WebPanels (10.0.2)][2]
 * [SuperOffice has launched a new CRM app (10.0.1)][1]
 
+> [!TIP]
+> Check out our [documentation for SuperOffice Mobile CRM][50] to learn more about how to use our super application for mobiles.
+
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
@@ -73,3 +76,4 @@ so.audience.tooltip: SuperOffice Mobile CRM
 [32]: 10.2.12-update.md
 [33]: 10.2.16-update.md
 [34]: 10.2.18-update.md
+[50]: ../../docs/en/mobile/overview.md
