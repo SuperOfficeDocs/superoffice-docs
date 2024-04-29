@@ -19,6 +19,9 @@ It also contains information about the [Extra fields][7] themselves and how they
 
 This section will focus on the API-part of working with Custom Objects, and help understand how the underlying agents can be used to both [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] rows in an ExtraTable.
 
+>Note
+>Code-examples can also be found on [git][9]
+
 [Search][8] goes more in detail on how to find search for information based on these relations, and contains an example on how to do so.
 
 <!-- Referenced links -->
@@ -30,5 +33,6 @@ This section will focus on the API-part of working with Custom Objects, and help
 [6]: ../../custom-objects/learn/udef.md
 [7]: ../../custom-objects/extra-field/index.md
 [8]: ./howto/custom-objects-Search.md
+[9]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
 
 <!-- Referenced images -->
