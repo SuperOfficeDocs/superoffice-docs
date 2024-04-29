@@ -15,7 +15,8 @@ This will, for instance, make it possible to create selections/search against Ex
 If any visible Extra table contains field pointing to entity(Company, Contact, Sale, Project, Request, Activity) we include it as a “top” node to select from in selections.
 
 In the [learn][1] section you can learn more about what Custom Objects are, the concept behind it, and how you can work with Extra Tables and Extra Fields through the SuperOffice UI.
-It also contains information about the [Extra fields][7] themselves and how they are different from User [Defined fields][6], and should give you the basic building blocks for creating your own ExtraTable and ExtraFields.
+It also contains information about the [Extra fields][7] themselves and how they are different from [User Defined fields][6], and should give you the basic building blocks for creating your own ExtraTable and ExtraFields.
+We also have an own section on how to work with and search for data based on user defined fields through the webservices [here][10]
 
 This section will focus on the API-part of working with Custom Objects, and help understand how the underlying agents can be used to both [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] rows in an ExtraTable.
 
@@ -34,5 +35,6 @@ This section will focus on the API-part of working with Custom Objects, and help
 [7]: ../../custom-objects/extra-field/index.md
 [8]: ./howto/custom-objects-Search.md
 [9]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
+[10]: ../web-services/howto/custom-objects/index.md
 
 <!-- Referenced images -->
