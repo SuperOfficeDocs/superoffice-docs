@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.26.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -37,6 +37,9 @@ Things to consider:
 An email step is used for sending an email to an active flow participant. You can select an already prepared email or add a new one.
 
 1. Drag the **Send email** box from the step menu and drop it into an available slot in the flowchart.
+
+    > [!NOTE]
+    > When you add an email step, you need to provide email settings before starting the flow. You will see a warning icon (like in the screenshot below) if these settings are missing. You can still save the flow! Simply continue designing the flow and return to the email settings later.
 
 1. Choose one of the options:
 
@@ -91,6 +94,8 @@ This works similar to [bulk update][11].
 ### Add to selection/project
 
 Keep an overview of those who signed up, or was engaged, or to keep track and follow-up on later​. The contact is added as member to the specified selection and/or project.
+
+Before you begin, create a selection and/or project if necessary. Alternatively, update the step settings later.
 
 1. Drag the **Add to selection and/or project** box from the step menu and drop it into an available slot in the flowchart.
 1. Add contact to static selection: choose a static contact selection from the list.
@@ -151,7 +156,7 @@ For details, see the [list of step settings][1] and [how to create a sale][18].
 
 ## Flow action vs. form action
 
-Several action types are possible both as form action and as flow step​
+Several action types are possible both as form action and as flow step​.
 
 A [form action][6] might:
 

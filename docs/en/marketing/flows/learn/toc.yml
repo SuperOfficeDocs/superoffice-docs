@@ -4,7 +4,7 @@ items:
 - name: Create new flow
   href: create.md
 - name: Update flow
-  href: create.md
+  href: update.md
 - name: Split flow
   href: split.md
 - name: Define flow actions

@@ -4,7 +4,7 @@ title: Flow control - split
 description: Flow control - split
 keywords: flow, automation, branch, split
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.22.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: howto
 language: en

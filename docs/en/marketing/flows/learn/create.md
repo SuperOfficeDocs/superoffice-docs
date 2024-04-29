@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.25.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -21,7 +21,7 @@ so.pilot: yes
 1. Go to the **Flows** tab.
 1. If required, click **Add folder** to [create a folder for the flow][8].
 1. Click the **Flow** button below **Create new** on the right side of the screen.
-1. In the **Flow editor** dialog, enter a descriptive **Flow name**.
+1. In the **Flow editor** dialog, enter a short, descriptive **Name**.
 1. [Fill in the fields](#fields) as described below. Remember to click **Save** regularly to save your work. The flow will not be auto-saved.
 1. [Define flow start trigger and filter.](#trigger)
 1. [Add steps.](#add-step)
@@ -29,8 +29,6 @@ so.pilot: yes
 1. Click **Save** when you are done.
 
 ![Set properties for new flow -screenshot][img1]
-
-After designing a flow and saving it, the **Flow editor** closes, and the flow chart is shown in the **View flow** screen. The new flow has status **Not running** until a flow administrator manually starts it by toggling Running = true.
 
 ## <a id="fields" />Filling in flow fields
 
@@ -47,7 +45,7 @@ After designing a flow and saving it, the **Flow editor** closes, and the flow c
 
 ### Email (settings)
 
-Common email settings for all the emails in the flow​.
+Common email settings for all the emails in the flow​. If you do not plan to send emails from this flow, you can skip entering these settings.
 
 | Setting | Description |
 |---|---|
@@ -70,7 +68,7 @@ Success criteria define [what success means for a flow][7].
 1. Click **Add success criteria** and choose an option.
 1. Optionally select **Participant is moved directly to Finish step when the success criteria is met**.
 
-    * If checked: The participant's status changes to *Finished with success** and they exit from any other actions later in the flow.
+    * If checked: The participant's status changes to *Finished with success* and they exit from any other actions later in the flow.
 
     * If not checked: The participant's status remains *Active* and they continue to follow the flow. When they reach the **Finish** step, their status changes to *Finished with success*. Use this option if success rate is used primarily for statistics, and you want the participant to complete all the steps even if success is reached.
 
@@ -108,9 +106,9 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 
 **Note:**
 
-* If you choose *form submitted* or *link clicked*, pay attention if you see a warning icon. Forms and tracked links might have actions too.
-* To add contacts created or updated by an import, a manual step adding imported contacts from selection to a flow is required.
-* When triggering on contact updated, we know the current value of the contact fields, we do not know which field was updated or what value a field had before the update.
+* If you select *form submitted* or *link clicked*, be mindful of any warning icons. Forms and tracked links may also have associated actions.
+* To include contacts created or updated by an import, you need to manually add imported contacts from the selection to a flow.
+* When triggering on contact updated, we have access to the current values of contact fields. However, we do not have information about which field was updated or the previous value of a field before the update.
 
 ### Add contact filter (optional)
 
@@ -154,22 +152,22 @@ When you open the **Steps** tab for the first time, you will see something like 
 * A flowchart with a **Trigger**, a **placeholder** for adding a step, and a **Finish** step (in the center).
 * A list of available step types (to the right).
 
-## Flow control
+## <a id="wait" />Flow control
 
-Most steps represent an action pertaining to the participant. For example, update contact interest. Flow-control steps are different - they pertain to **timing** and **segmentation**.
+Most steps in a flow represent actions related to the participant, such as updating contact interests. However, flow-control steps are different; they involve **timing** and **segmentation**.
 
-Without flow control, a person would move from action to action until they drop out or reach the end. For example, they would be flooded with the entire onboarding program in a single day. Or receive all newsletters at once.
+Without flow control, individuals would progress from one action to another until they either drop out or reach the end of the flow. For example, they might receive the entire onboarding program in a single day or receive all newsletters simultaneously.
 
-In addition, everyone enrolled would go through exactly the same steps. Which might be what you want in a simple flow. But by setting conditions to what happens next, you can for example send a newsletter in the contact's preferred language, or send a feedback survey only to those who attended the webinar.
+Moreover, without flow control, everyone enrolled would follow the same sequence of steps. While this might be suitable for a simple flow, by setting conditions for subsequent actions, you can, for instance, send a newsletter in the contact's preferred language or send a feedback survey only to those who attended the webinar.
 
 **Options:**
 
-* Wait time
-* Wait for action
+* Wait Time
+* Wait for Action
 * [Split][1]
 
 > [!NOTE]
-> Participants are stamped with a **wait until** when they arrive a wait step​. If the next step is an email or SMS, and a limited time frame is defined in email settings, the total waiting time might be longer than what's set in the step.
+> Participants are marked with a **wait until** timestamp when they reach a wait step. If the next step is an email or SMS, and a limited timeframe is specified in the email settings, the total waiting time might exceed what is set in the step.
 
 ### Wait time
 
@@ -181,30 +179,34 @@ Use a time-based waiting step to wait a specific amount of days before sending t
     * Select **Number of days/hours after previous step** and then select number and unit.
     * Or, select **Until specific date/time** and then pick a date from the calendar.
 
-Active flow participants stay at this step before continuing to the next step according to defined rule.
+Active flow participants remain at this step before proceeding to the next step according to the defined rule.
 
 ![Flow step wait time -screenshot][img7]
 
-## Wait for action
+### Wait for action
 
 Use an action-based waiting step to wait for the participant to do something (submit a form or click a link).
 
 1. Drag the **Wait for action** box from the step menu and drop it into an available slot in the flowchart.
 
-1. Click **Add action** and select which action to wait for.
+2. Click **Add action** and select which action to wait for.
 
-1. From the list, select the name of the link or form to wait for.
+3. From the list, select the name of the link or form to wait for.
 
-1. Specify how long you are willing to wait for any action (a timeout). The default maximum waiting time is 7 days. If you uncheck this setting, participants who do not respond will be stalled at this step forever.
+4. Specify how long you are willing to wait for any action (a timeout). The default maximum waiting time is 7 days. If you uncheck this setting, participants who do not respond will be stalled at this step indefinitely.
 
-1. Optionally, select **Exit flow if no actions within max waiting time**. Participants who do not respond will leave the flow with status "drop out". You may choose to move them to another flow and/or add them to a static selection.
+5. Optionally, select **Exit flow if no actions within max waiting time**. Participants who do not respond will leave the flow with the status *Drop out*. You may choose to move them to another flow and/or add them to a static selection.
 
 ![Flow step wait for action -screenshot][img8]
 
 > [!TIP]
 > You can wait for more than one action within a single step. The first-occurring action (form submission, link click, or timeout) moves the participant further down the flow. Simply repeat steps 2 and 3 above.
 
-## What would you like to do now?
+## What happens now?
+
+After designing a flow and saving it, the **Flow editor** closes, and the flow chart is shown in the **View flow** screen. The new flow has status **Not running** until a flow administrator manually starts it by toggling Running = true.
+
+## Related content
 
 * [Move, duplicate, or remove step][2]
 * [Define flow actions][3]

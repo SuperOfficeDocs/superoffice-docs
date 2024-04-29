@@ -2,9 +2,9 @@
 uid: help-en-flow-content
 title: Flow content
 description: Flow content
-keywords: Marketing, flow
+keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.26.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -31,9 +31,7 @@ To view the prepared content for a specific flow:
 
 ## Create new content
 
-### Email
-
-**As a flow editor:**
+### Create email - as a flow editor
 
 1. On the **Flow contents** tab, in the lower-left corner, enter a name for the new email and click **Create**. This opens the Mailing wizard at the **Template** step.
 
@@ -55,7 +53,7 @@ To view the prepared content for a specific flow:
 
 1. Close the email step and click **Save**.
 
-**As a flow administrator:**
+### Create email - as a flow administrator
 
 1. Open the Flow editor and go to the email step.
 
@@ -66,7 +64,7 @@ To view the prepared content for a specific flow:
 > [!NOTE]
 > You cannot click **Edit** if the flow is running. If you do not wish to pause the flow to add more content, create the email from the **Flow contents** tab.
 
-### Form
+### Create form
 
 Go to **Marketing** > **Forms**. For details, see [Create form][1].
 

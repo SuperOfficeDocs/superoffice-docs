@@ -4,7 +4,7 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.26.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: reference
 language: en
@@ -32,9 +32,7 @@ so.pilot: yes
 | Title | A descriptive label. Additional details go in the agenda. |
 | Type | A pre-defined list of activities such as Meeting (external) and Phone-In. Available fields depend on the selected follow-up type. |
 | Project | A project linked to the follow-up. |
-| Date | When the follow-up starts or is due. |
-| Task date: This means a to-do in the user's checklist. | |
-| Meeting date: This means a follow-up in the diary. "First available" or "First available after x days/working days/weeks". | |
+| Date | When the follow-up starts or is due.<br />**Task date:** This means a to-do in the user's checklist<br />**Meeting date:** This means a follow-up in the diary. "First available" or "First available after x days/working days/weeks". |
 | Assign to | The owner of the follow-up. The participant's "our contact" or "our service contact", or a specific named associate. |
 | Agenda | Additional details about the follow-up, such as an agenda, a description, files, images, and links. Rich-text formatting options are available. |
 
@@ -77,7 +75,7 @@ The flow-control steps **split** and **wait for action** (and also Send SMS) hav
 Participants reaching the finish step has reached the end of the flow. Participant may have finished the flow with status = finished or finished with success. No more actions are happening to a participant in this flow when reaching the step.
 
 | Setting | Description |
-|---|---|
+|---|-|
 | Add to another flow when a success criterion is met | Finished with success |
 | Add to another flow when no success criterion is met | Finished |
 
@@ -86,7 +84,7 @@ Participants reaching the finish step has reached the end of the flow. Participa
 | Setting | Description |
 |---|---|
 | Create new email for this step | Opens the mailing wizard. |
-| Select existing email for this step | |
+| Select existing email for this step | See [Add content][1]. |
 | Subject | Text for the email's subject field. You can personalize the subject with contact variables (same as merge tags within the mailing editor). |
 | Attachment | Max 25MB total. |
 
@@ -141,6 +139,7 @@ This works similar to [bulk update][10].
 * [Learn about activities][11]
 
 <!-- Referenced links -->
+[1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
 [14]: ../../../sale/learn/sales-guide/index.md

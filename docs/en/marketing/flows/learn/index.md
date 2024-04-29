@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.24.2024
+so.date: 04.30.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -15,51 +15,51 @@ so.pilot: yes
 
 # Marketing automation - flows
 
-What if you could send the right email to the right recipients at the right time? Relevant emails are more likely to be read by receivers, it affects if any call to action (CTA) links are clicked or not, and can positively influence a customer relationship. With marketing automation, you can tailor emails to a specific set of customers, where they are in their sales cycle, their level of engagement with specific products or services, their actions and so on.
+Imagine effortlessly delivering the perfect email to your audience precisely when they need it. Relevant emails not only increase the chances of being read but also impact the engagement with your call-to-action (CTA) links and foster stronger customer relationships. With marketing automation, you can customize emails for specific customer segments based on their position in the sales cycle, product interests, engagement level, and more.
 
-But that is not all. You can also address communication challenges in any part of your customer journey.
+But it does not stop there. Address communication challenges across every stage of your customer journey.
 
-* Impact the entire customer journey​: Lead capturing and lead nurturing campaigns;​ Up/cross sell to existing customers​; Onboarding and adoption​; Event sign-up processes​; Reminders​.
+* Enhance the entire customer journey​: Capture and nurture leads; Upsell/cross-sell to existing customers; Facilitate onboarding and adoption; Streamline event sign-up processes; Send reminders.
 
-* Be relevant with less manual effort​: Communicate both with prospects and existing customers from the same tool; Use triggers and filters to create segmented drip campaigns; Gain more insight in marketing activities​.
+* Be relevant with less manual effort​: Reach out to both prospects and existing customers from the same tool; Use triggers and filters to create segmented drip campaigns; Gain deeper insight in marketing activities​.
 
-* Leverage CRM data for precise marketing efforts: Use CRM data to segment your audience and send the most relevant information; Understand customer needs and craft a journey personalized for them.​
+* Leverage CRM data for targeted marketing efforts: Segment your audience and deliver tailored information using CRM data; Understand customer needs and create personalized journeys.
 
-* Align marketing and sales​: Automate the handshake between marketing and sales by connecting CRM activities and notifications​; CRM activities can influence ongoing automation​; Ensure transparency between marketing, sales and service​.
+* Align marketing and sales​: Automate the handshake between marketing and sales teams by connecting CRM activities and notifications​; CRM activities can influence ongoing automation​; Ensure transparency between marketing, sales and service​.
 
 * Reporting from lead to revenue​: Prove the impact of marketing efforts by connecting marketing and sales reports.
 
-The drag-and-drop flow designer is where you build the flow.
+The drag-and-drop flow designer is your tool for building these dynamic flows.
 
 ![Drag-and-drop flow designer -screenshot][img2]
 
 ## <a id="ex" />Use cases
 
-* Welcome new customers: Send personalized emails, discounts, offer your brand story. Support onboarding of new products.
-* Engagement campaigns​: Keep active customers engaged and informed. Relevant content, product updates, exclusive offers and so on.
-* Up/cross sell campaigns​: Recommend related items based on purchase history or behaviors to drive revenues.​
-* Event sign-up processes, incl reaching out via SMS; Webinar reminder and follow-up.
+* **Welcome new customers**: Send personalized emails, discounts, and share your brand story. Support the onboarding of new products.
+* **Engagement campaigns**: Keep active customers engaged and informed with relevant content, product updates, and exclusive offers.
+* **Up/cross sell campaigns**: Recommend related items based on purchase history or behaviors to drive revenue.
+* **Event sign-up processes**: Including reaching out via SMS, webinar reminders, and follow-up.
 
 ## What is a flow
 
-A flow is an automated sequence of marketing-related steps such as send a message, update participant, or create an activity.
+A flow is an automated sequence of marketing-related steps, such as sending a message, updating participant information, or creating an activity.
 
-A **trigger** is the flow's starting point. It defines WHEN a person is suggested as a participant to a flow. For example, the person has submitted a [Contact me form][6]. You can also [enroll SuperOffice contacts manually][4].
+A **trigger** serves as the flow's starting point, defining WHEN a person is suggested as a participant in a flow. For example, when a person submits a [Contact Me form][9]. You can also [manually enroll SuperOffice contacts][4].
 
-Additional **filters** are then applied to determine if that person is part of the segment the flow pertains to. Filters decide WHO are added as participants. For example, a lead capturing flow that targets only prospects and not existing customers.
+Additional **filters** are then applied to determine if that person belongs to the segment the flow targets. Filters determine WHO is added as participants. For instance, a lead-capturing flow that targets only prospects and not existing customers.
 
-After enrolling, participants progress along the defined path. Once a person completes a step, they move to the next. Participant status is reassessed before any action in a step. Read more about [enrollment and flow logic][5].
+After enrollment, participants progress along the defined path. Upon completing a step, they move to the next. Participant status is reassessed before any action in a step. Learn more about [enrollment and flow logic][5].
 
 ## Workflow
 
 Marketing automation follows roughly this workflow:
 
 1. Plan your communication​.
-1. Create the content​.
-1. Build the flow.
-1. Define steps and actions.
+1. [Create the content​.][7]
+1. [Build the flow.][1]
+1. [Define steps and actions.][6]
 1. Set goals and track success.
-1. Monitor and analyze​.
+1. [Monitor and analyze​.][3]
 
 Flows support different ways of working​. Plan and create content before the flow is set up, then connect already prepared content to a specific flow. Or, begin by setting up the flow and leave room for the emails, which will come from content writers later.
 
@@ -89,11 +89,11 @@ At the top, you can see the flow's name and its location within the folder struc
 
 The **View flow** screen consists of the following tabs:
 
-* **Summary:** Basic information about the flow and various statistics.
-* **Flow:** A read-only view of the flow - to get an overview without pausing and editing the flow.
-* **Reports:** Charts with statistics for the flow. Used to monitor the flow's performance.
-* **Participants:** A list of all participants within the flow. Shows their email address, what company they belong to, when they enrolled, the current status, the current step, the last sending they received, the date for last sending, and the status on last sending.
-* **Flow content:** Flow mailings and forms used by the flow.
+* **Summary:** Provides basic information about the flow and various statistics.
+* **Flow:** Offers a read-only view of the flow, allowing users to get an overview without pausing and editing the flow.
+* **Reports:** Displays charts with statistics for the flow, used to monitor its performance.
+* **Participants:** Presents a list of all participants within the flow, showing their email address, company affiliation, enrollment date, current status, current step, last sending received, date of the last sending, and status of the last sending.
+* **Flow Content:** Includes flow mailings and forms used by the flow.
 
 ## <a id="success" >Success criteria
 
@@ -135,7 +135,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 | View flow | X | X |
 | Create/edit flow content | X | X |
 | Delete flow content | X | |
-| Create/edit flow (open flow editor, save) | x | |
+| Create/edit flow (open flow editor, save) | X | |
 | Run/pause/end flow | X | |
 
 ## Related content
@@ -150,13 +150,15 @@ Access to flows and flow content is controlled by a user's role and [functional 
 [3]: view-statistics.md
 [4]: participants.md
 [5]: participants.md#logic
-[6]: ../../forms/learn/tutorial-contact-me.md
+[6]: define-flow-actions.md
+[7]: content.md
+[9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/learn/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
-[img2]: ../../../../media/loc/en/marketing/flows-panel.png
+[img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
 [img3]: ../../../../media/icons/btn-menu.png
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png
