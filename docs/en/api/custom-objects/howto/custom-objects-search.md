@@ -68,7 +68,7 @@ Authorization: Bearer {{token}}
 > Make sure to adjust PageSize to be more suited for your use-case.
 
 <!-- Referenced links -->
-[1]: ./custom-objects-ReadRow.md
-[2]: ./custom-objects-InsertRow.md
-[3]: ./custom-objects-UpdateRow.md
-[4]: ./custom-objects-DeleteRow.md
+[1]: ./custom-objects-read-row.md
+[2]: ./custom-objects-insert-row.md
+[3]: ./custom-objects-update-row.md
+[4]: ./custom-objects-delete-row.md

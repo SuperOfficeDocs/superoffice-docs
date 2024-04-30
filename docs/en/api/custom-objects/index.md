@@ -30,7 +30,7 @@ The [Search][8] documentation contains more details about how to perform searche
 [4]: ./howto/custom-objects-update-row.md
 [5]: ./howto/custom-objects-delete-row.md
 [6]: ../../custom-objects/learn/udef.md
-[7]: ../../custom-objects/extra-field/index.md
+[7]: ../../custom-objects/learn/extra-field.md
 [8]: ./howto/custom-objects-search.md
 [9]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
 [10]: ../web-services/howto/custom-objects/index.md
