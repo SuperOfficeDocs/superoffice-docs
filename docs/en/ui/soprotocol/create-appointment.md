@@ -12,7 +12,7 @@ so.envir: onsite
 
 # How to create a new appointment with SoProtocol
 
-To create a new appointment in SuperOffice the user may either click**File – New - Appointment** or use the appointment button. The user can directly open it on the same browser by using the following SoProtocol.
+To create a new appointment in SuperOffice the user may either click **File – New - Appointment** or use the appointment button. The user can directly open it on the same browser by using the following SoProtocol.
 
 > [!NOTE]
 > `http://localhost/SuperOfficeWeb/` is just an example. Your local SuperOffice installation may be in a different location.
