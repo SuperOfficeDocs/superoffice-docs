@@ -4,7 +4,7 @@ title: New and improved mobile
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: mobile, CallerID, notification, request, ticket, quote, custom task, new button, SharePoint, filter, dashboard
 author: SuperOffice AS – Research and Development
-so.date: 02.21.2024
+so.date: 04.30.2024
 so.version.mobile: 10.2
 so.topic: reference
 so.client: mobile
@@ -52,6 +52,9 @@ so.audience.tooltip: SuperOffice Mobile CRM
 * [Choose icons for Web.Admin for WebPanels (10.0.2)][2]
 * [SuperOffice has launched a new CRM app (10.0.1)][1]
 
+> [!TIP]
+> Check out our [documentation for SuperOffice Mobile CRM][50] to learn more about how to use our super application for mobile devices.
+
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
@@ -73,3 +76,4 @@ so.audience.tooltip: SuperOffice Mobile CRM
 [32]: 10.2.12-update.md
 [33]: 10.2.16-update.md
 [34]: 10.2.18-update.md
+[50]: ../../docs/en/mobile/overview.md

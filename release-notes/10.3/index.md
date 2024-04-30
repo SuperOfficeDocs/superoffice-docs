@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 04.09.2024
+so.date: 04.30.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -19,8 +19,11 @@ so.topic: reference
 
 ### SuperOffice CRM
 
+* 10.3.5 (30.04.2024):
+  * [Request types - Fine tuning of requests for different types (10.3.5)][24] in Service
+
 * 10.3.4 (09.04.2024):
-  * No new features or functions
+  * No new features or functions for general availability
 
 * 10.3.3 (12.03.2024):
   * [Request - simplify attachment handling (10.3.3)][18] in Service
@@ -104,5 +107,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [21]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [22]: https://appstore.superoffice.com/all-crm/snelstart-for-superoffice
 [23]: https://community.superoffice.com/en/product-releases/whats-new/product/the-new-superoffice-service/
+[24]: service/10.3.5-update.md
 
 <!-- Referenced images -->
