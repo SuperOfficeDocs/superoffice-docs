@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 04.09.2024
+so.date: 04.30.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -38,7 +38,7 @@ so.topic: reference
 * 10.3.1 (02.02.2024):
   * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
   * [Lists - Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
-  * [System design - show extra field in Request Properties sidebar (10.3.1)][1] in Settings and maintenance and Service
+  * [System design - show extrafield in Request Properties sidebar (10.3.1)][1] in Settings and maintenance and Service
   * [Right-click to take ownership of requests (10.3.1)][3] in Service
   * [Show SAINT status monitor on Requests screen (10.3.1)][3] in Service
 
