@@ -2,9 +2,9 @@
 uid: help-en-marketing-create-folder
 title: How to create a folder in Marketing
 description: How to create a folder in Marketing
-author: SuperOffice RnD
-so.date: 09.07.2022
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 04.05.2024
 so.version: 10
 so.topic: howto
 language: en
@@ -14,21 +14,26 @@ so.audience.tooltip: SuperOffice Marketing
 
 # How to create a folder
 
-It is always a good idea to define a well-organized folder structure to get a better overview of your mailings, forms, templates, links and images in SuperOffice Marketing.
+It is always a good idea to define a well-organized folder structure to get a better overview of your mailings, forms, flows, templates, links and images in SuperOffice Marketing.
 
-You can create sub-folders in all folders, and you can place the appropriate mailings, forms, templates, links and images in each of these folders.
-
-**Steps:**
+## Steps
 
 1. Select one of the main tabs in SuperOffice Marketing.
 
-2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
+2. Click the **Add folder** button.
 
-3. Click the **Add folder** button ![icon][img1] . The **Folder properties** dialog appears.
+3. Enter a descriptive name for the folder in the **Name** field.
 
-4. Enter a descriptive name for the folder in the **Name** field.
+4. Click **OK**. If the new folder does not appear in the list, select the **My ...** or **All ...** tab.
 
-5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
+## Sub-folders
+
+You can create sub-folders in all folders, and you can place the appropriate marketing material in each of these folders.
+
+Do one of the following:
+
+* Open an existing folder before you click **Add folder**. You may have to select the **All ...** tab first.
+
+* First, click **Add folder** and then select a parent folder from the **Create as subfolder of** list.
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png

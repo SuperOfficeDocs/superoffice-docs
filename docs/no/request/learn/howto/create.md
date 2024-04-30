@@ -3,7 +3,6 @@ uid: help-no-request-create
 title: Opprette en sak
 description: Opprette en sak
 author: Hanne Gunnarsson
-so.date: 03.22.24author: Hanne Gunnarsson
 so.date: 03.22.24
 so.version: 10.3.2
 keywords: sak

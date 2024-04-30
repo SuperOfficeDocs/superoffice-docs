@@ -5,7 +5,7 @@ description: Best practices
 keywords: Marketing
 author: Bergfrid Dias, Jeanette Small Strøm
 so.date: 02.19.2024
-so.version: 10
+so.version: 10.3.5
 so.topic: howto
 language: en
 so.audience: person
@@ -76,6 +76,16 @@ But if you add an un-validated or misspelled email address, that might hurt your
 Administrators can [add validated domain][6] in Settings and maintenance to make sure users select the correct and authenticated domain
 
 Content authors will see a message if they are using an un-validated email address in the From field, as a reminder to use authenticated domains. This will also help avoiding spelling mistakes in the email sending domain
+
+## Automation (pilot only)
+
+* Specify a maximum waiting time to avoid participants remaining active in a flow forever.​
+
+* Update participants with new information during the flow​. For example, set a new interest or a new category as the contact is maturing; add and remove them from lists​.
+
+* To avoid duplicate or conflicting actions: Include all actions one place, either in the form or in the flow.
+
+* You can achieve the same experience by having a split in one flow or arrange the communication in two different flows.​ Whether to split or define several flows depends on the scenario, and what outcome you would like to track. ​The more two communication tracks have in common, the more effective it is for the user to arrange it within the same flow.​
 
 ## <a id="mobile"/>Customize the message for display on mobile devices
 

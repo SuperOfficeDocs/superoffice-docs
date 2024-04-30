@@ -4,7 +4,8 @@ title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
 author: Philip Yates, Bergfrid Dias
-so.date: 02.16.2024
+so.date: 04.11.2024
+so.version: 10.3.5
 so.topic: reference
 language: en
 so.audience: settings
@@ -25,7 +26,7 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | Can create and delete tables in the database | Grants access to the Dictionary SDK. The user may create and delete tables in the database. | The CREATE TABLE privilege in the database must be assigned to this user, or to a database user defined in the Replication screen. |
 | Can create tasks for a selection | The user may create new follow-ups for all members of a selection. | |
 | Can delete selection members | The user may delete the companies that are members of a selection. | All contacts belonging to each company will also be deleted. |
-| Can edit flow content | The user may view flows and open a flow to add/edit flow content emails.| |
+| Can edit flow content | The user may view flows and open a flow to add/edit flow content emails. | |
 | Can export data to file | The user may export company and contact information to a file. | |
 | Can lock and unlock targets | The user may lock and unlock sale targets. | |
 | Can manage (move and merge) entities | The user may move, merge, and copy contacts, companies, and so on. | |
@@ -57,7 +58,7 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | Hide Marketing screen | Do not display the Marketing button and screen. | |
 | Hide Project screen | Do not display the Project button and screen or project-related fields. | |
 | Hide Reports screen | Do not display the Reports button and screen. | (ONSITE ONLY) |
-| Hide Sale screen | Do not display the Sale button and screen. |
+| Hide Sale screen | Do not display the Sale button and screen. | |
 | Hide Selection screen | Do not display the Selection button and screen. | |
 | Hide Service screen | Do not display the Service button and screen. | |
 | Import Administrator | Grants limited access to Settings and maintenance. The user may load information from text files into the database. | |
