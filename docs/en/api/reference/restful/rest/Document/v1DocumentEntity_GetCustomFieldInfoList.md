@@ -58,6 +58,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -79,18 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Grant LLC",
-    "DisplayName": "Toy, Haley and Crona",
-    "Description": "Organized 24/7 solution",
-    "ShortLabel": "necessitatibus",
-    "HideLabel": false,
+    "FieldName": "Bahringer, Maggio and Hills",
+    "DisplayName": "Muller Inc and Sons",
+    "Description": "Switchable next generation artificial intelligence",
+    "ShortLabel": "est",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 240,
-    "TemplateVariableName": "Ratke Inc and Sons"
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 136,
+    "TemplateVariableName": "Moen, Lesch and Ratke"
   }
 ]
 ```

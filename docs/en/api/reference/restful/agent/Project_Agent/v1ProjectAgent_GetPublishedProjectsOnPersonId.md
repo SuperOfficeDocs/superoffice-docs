@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 328
+  "PersonId": 418
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 99,
-    "Name": "Lesch Inc and Sons",
-    "Description": "Networked client-server project",
+    "ProjectId": 987,
+    "Name": "Weissnat Group",
+    "Description": "Advanced secondary hub",
     "URL": "http://www.example.com/",
-    "Type": "aut",
-    "AssociateId": 910,
-    "AssociateFullName": "Dr. Cornelius Carmela Hoppe V",
-    "TypeId": 411,
-    "Updated": "2003-08-06T11:44:34.2126949+02:00",
-    "StatusId": 394,
-    "Status": "a",
-    "TextId": 880,
-    "PublishTo": "2016-12-01T11:44:34.2126949+01:00",
-    "PublishFrom": "2015-09-14T11:44:34.2126949+02:00",
+    "Type": "nihil",
+    "AssociateId": 865,
+    "AssociateFullName": "Marina Victoria Ferry DVM",
+    "TypeId": 732,
+    "Updated": "2016-06-10T11:16:09.569228+02:00",
+    "StatusId": 853,
+    "Status": "maiores",
+    "TextId": 894,
+    "PublishTo": "2014-12-23T11:16:09.569228+01:00",
+    "PublishFrom": "2005-01-17T11:16:09.569228+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "272419",
-    "ActiveErpLinks": 382,
+    "ProjectNumber": "1146392",
+    "ActiveErpLinks": 137,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldLength": 180
       }
     }
   }

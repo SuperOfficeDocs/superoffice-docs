@@ -91,7 +91,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
+  "Flat": false,
   "OnlyPresent": false
 }
 ```
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Mraz LLC",
-    "ToolTip": "Illo praesentium laboriosam dolore sint sed sapiente aut.",
+    "Id": 286,
+    "Name": "Hettinger Group",
+    "ToolTip": "Quas non voluptatem labore.",
     "Deleted": false,
-    "Rank": 719,
-    "Type": "corrupti",
+    "Rank": 468,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Hagenes Inc and Sons",
-        "ToolTip": "At excepturi quia qui amet.",
-        "Deleted": false,
-        "Rank": 801,
-        "Type": "eius",
+        "Id": 675,
+        "Name": "West LLC",
+        "ToolTip": "Qui hic.",
+        "Deleted": true,
+        "Rank": 150,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatibus",
-        "ColorBlock": 522,
-        "ExtraInfo": "hic",
-        "StyleHint": "ipsam",
-        "FullName": "Breanna Streich",
+        "IconHint": "quae",
+        "ColorBlock": 349,
+        "ExtraInfo": "nulla",
+        "StyleHint": "beatae",
+        "FullName": "Annie Willms Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 593
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 460,
-    "ExtraInfo": "quae",
-    "StyleHint": "et",
-    "FullName": "Kelsie Stiedemann",
+    "IconHint": "quos",
+    "ColorBlock": 554,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "numquam",
+    "FullName": "Mrs. Mathias Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Bartoletti, Schowalter and Rogahn",
-    "ToolTip": "Itaque laboriosam cupiditate nesciunt aut quidem quibusdam.",
-    "Deleted": false,
-    "Rank": 1001,
-    "Type": "praesentium",
-    "ColorBlock": 732,
-    "IconHint": "culpa",
+    "Id": 987,
+    "Name": "Kilback Group",
+    "ToolTip": "Libero nobis nobis.",
+    "Deleted": true,
+    "Rank": 481,
+    "Type": "ea",
+    "ColorBlock": 924,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2016-04-01T11:44:43.0231528+02:00",
+    "LastChanged": "1997-08-20T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Torp-Ferry",
-        "ToolTip": "Aliquam quis modi quis id nemo ut molestiae.",
+        "Id": 674,
+        "Name": "Jones Group",
+        "ToolTip": "Odio a sequi.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "quasi",
-        "ColorBlock": 58,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2010-04-29T11:44:43.0231528+02:00",
+        "Rank": 855,
+        "Type": "impedit",
+        "ColorBlock": 625,
+        "IconHint": "aliquid",
+        "Selected": true,
+        "LastChanged": "2022-02-16T11:16:14.5432954+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "dolore",
+        "ExtraInfo": "commodi",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Foster Nienow"
+        "FullName": "Prof. Valentine Gottlieb DVM"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Ms. Alan Stephany Rosenbaum V"
+    "ExtraInfo": "neque",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Greta Lilyan Boyle MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Bosco, Kihn and Littel",
-    "ToolTip": "Voluptas natus optio voluptas nesciunt.",
+    "Id": 233,
+    "Name": "Stroman Group",
+    "ToolTip": "Velit deleniti rem rem non et alias quas.",
     "Deleted": false,
-    "Rank": 309,
-    "Type": "explicabo",
-    "ColorBlock": 97,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2009-08-25T11:44:43.0231528+02:00",
+    "Rank": 881,
+    "Type": "maxime",
+    "ColorBlock": 44,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2012-08-12T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Crooks-Lebsack",
-        "ToolTip": "Ipsa ut sit iusto.",
-        "Deleted": false,
-        "Rank": 459,
-        "Type": "ex",
-        "ColorBlock": 147,
-        "IconHint": "eius",
+        "Id": 265,
+        "Name": "Jerde LLC",
+        "ToolTip": "Quaerat error et sapiente itaque.",
+        "Deleted": true,
+        "Rank": 517,
+        "Type": "ut",
+        "ColorBlock": 893,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2017-11-17T11:44:43.0231528+01:00",
+        "LastChanged": "1997-10-25T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Reyes Collier",
+        "ExtraInfo": "sed",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Susan Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 644
+            "FieldType": "System.Int32",
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Dr. Don Dana Sipes",
+    "ExtraInfo": "quod",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Robyn Alycia Medhurst V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 958
       }
     }
   }

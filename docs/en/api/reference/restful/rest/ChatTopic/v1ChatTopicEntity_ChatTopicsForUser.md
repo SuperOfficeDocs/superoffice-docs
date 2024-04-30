@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 508,
-    "Name": "Goodwin LLC",
-    "Description": "Customer-focused zero tolerance success",
-    "WelcomeMessage": "reiciendis",
+    "ChatTopicId": 940,
+    "Name": "Kautzer Group",
+    "Description": "Cloned user-facing superstructure",
+    "WelcomeMessage": "id",
     "Language": null,
-    "LastAccept": "2013-06-28T11:44:41.7109149+02:00",
-    "SecondsPrAccept": 221,
-    "AlertRecipient": "libero",
+    "LastAccept": "2001-09-18T11:16:13.7456138+02:00",
+    "SecondsPrAccept": 631,
+    "AlertRecipient": "voluptas",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "deserunt",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quo",
-    "WarnNewChatMinutes": 206,
-    "WarnManagerNewChatMinutes": 995,
+    "BadgeHeader": "iste",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "rerum",
+    "WarnNewChatMinutes": 796,
+    "WarnManagerNewChatMinutes": 699,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -121,20 +121,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 769,
-    "WarnManagerChatMessageMinutes": 338,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 884,
-    "OfflineFormQueueLength": 510,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 535,
+    "WarnManagerChatMessageMinutes": 232,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 409,
+    "OfflineFormQueueLength": 924,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "corrupti",
+    "WidgetRatingText": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldType": "System.Int32",
+        "FieldLength": 280
       }
     }
   }

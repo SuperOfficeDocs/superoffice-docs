@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Purdy, Luettgen and O'Hara",
-  "Tooltip": "error",
+  "Id": 845,
+  "Name": "Hoeger-Mitchell",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 657,
+  "Rank": 35,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   },
   "_Links": {

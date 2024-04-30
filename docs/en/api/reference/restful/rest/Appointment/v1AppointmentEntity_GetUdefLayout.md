@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 144,
-    "ColumnId": 338,
-    "FieldDefault": "ullam",
-    "FieldHeight": 358,
-    "FieldLabel": "est",
-    "FieldLeft": 820,
-    "FieldTop": 83,
+    "UDefFieldId": 644,
+    "ColumnId": 975,
+    "FieldDefault": "cumque",
+    "FieldHeight": 354,
+    "FieldLabel": "iste",
+    "FieldLeft": 369,
+    "FieldTop": 992,
     "FieldType": "Checkbox",
-    "FieldWidth": 974,
-    "FormatMask": "harum",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 355,
-    "LabelLeft": 784,
-    "LabelTop": 110,
-    "LabelWidth": 503,
-    "LastVersionId": 278,
-    "ListTableId": 713,
-    "IsMandatory": false,
+    "FieldWidth": 763,
+    "FormatMask": "fugiat",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 337,
+    "LabelLeft": 213,
+    "LabelTop": 674,
+    "LabelWidth": 636,
+    "LastVersionId": 962,
+    "ListTableId": 26,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 849,
-    "ProgId": "aliquid",
+    "Page1LineNo": 511,
+    "ProgId": "sed",
     "IsReadOnly": false,
-    "ShortLabel": "at",
-    "TabOrder": 946,
-    "TextLength": 153,
-    "Tooltip": "quia",
-    "UdefIdentity": 993,
-    "UDListDefinitionId": 59,
+    "ShortLabel": "possimus",
+    "TabOrder": 829,
+    "TextLength": 523,
+    "Tooltip": "sit",
+    "UdefIdentity": 182,
+    "UDListDefinitionId": 354,
     "Justification": "Center",
-    "Version": 637,
-    "TemplateVariableName": "Paucek, Kuhic and Donnelly",
+    "Version": 183,
+    "TemplateVariableName": "Greenfelder, Reynolds and Wisozk",
     "HasBeenPublished": false,
-    "MdoListName": "Kerluke, Green and Keeling",
+    "MdoListName": "Ruecker, Heaney and Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldLength": 432
       }
     }
   }

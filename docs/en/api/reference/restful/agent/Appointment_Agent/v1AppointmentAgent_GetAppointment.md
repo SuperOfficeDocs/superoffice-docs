@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=504
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=146
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 892,
-  "StartDate": "2004-04-01T11:44:32.5411694+02:00",
-  "EndDate": "2010-10-22T11:44:32.5411694+02:00",
+  "AppointmentId": 543,
+  "StartDate": "2006-02-07T11:16:08.5532593+01:00",
+  "EndDate": "2019-08-15T11:16:08.5532593+02:00",
   "Type": "BookingForChecklist",
-  "Task": "soluta",
-  "AssociateFullName": "Eleanora Denesik",
-  "ContactName": "Kerluke-Schoen",
-  "Description": "Visionary scalable hierarchy",
-  "PersonFullName": "Miss Antwan Alessandro Wehner",
-  "PersonId": 858,
-  "ContactId": 145,
-  "ProjectId": 593,
-  "ProjectName": "McDermott Group",
+  "Task": "repudiandae",
+  "AssociateFullName": "Efrain Sauer",
+  "ContactName": "Schiller Inc and Sons",
+  "Description": "Team-oriented logistical toolset",
+  "PersonFullName": "Monique Gottlieb",
+  "PersonId": 720,
+  "ContactId": 390,
+  "ProjectId": 128,
+  "ProjectName": "Torphy, Considine and Schulist",
   "IsPublished": false,
-  "AssociateId": 569,
-  "ColorIndex": 262,
-  "IsFree": false,
+  "AssociateId": 822,
+  "ColorIndex": 463,
+  "IsFree": true,
   "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 305,
-  "PriorityName": "Cole-Tromp",
+  "PriorityId": 812,
+  "PriorityName": "Bradtke LLC",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2018-07-21T11:44:32.5411694+02:00",
+  "ActiveDate": "2003-04-18T11:16:08.5532593+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2004-10-04T11:44:32.5411694+02:00",
-  "RecurringEndDate": "2007-03-26T11:44:32.5411694+02:00",
-  "MotherId": 578,
-  "AssignedBy": 157,
-  "AssignedByFullName": "Demetris Rosenbaum",
+  "RecurringStartDate": "2007-03-20T11:16:08.5532593+01:00",
+  "RecurringEndDate": "2003-03-23T11:16:08.5532593+01:00",
+  "MotherId": 781,
+  "AssignedBy": 257,
+  "AssignedByFullName": "Ernest Goodwin",
   "RejectReason": "",
-  "Location": "ab",
-  "AlarmLeadTime": "blanditiis",
-  "SaleId": 329,
-  "SaleName": "Carter-Moen",
-  "AssociateName": "Ondricka, Skiles and Balistreri",
-  "CreatedDate": "2004-07-14T11:44:32.5411694+02:00",
-  "CreatedBy": "velit",
-  "CreatedByFullName": "Dr. Janae Felton Skiles",
-  "CreatedByAssociateId": 528,
+  "Location": "amet",
+  "AlarmLeadTime": "inventore",
+  "SaleId": 291,
+  "SaleName": "Robel Group",
+  "AssociateName": "Beier-Hegmann",
+  "CreatedDate": "2015-06-17T11:16:08.5532593+02:00",
+  "CreatedBy": "ut",
+  "CreatedByFullName": "Mrs. Marion Thompson",
+  "CreatedByAssociateId": 603,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 739,
-  "Title": "a",
-  "Agenda": "harum",
-  "InternalNotes": "velit",
+  "PreferredTZLocation": 763,
+  "Title": "in",
+  "Agenda": "quibusdam",
+  "InternalNotes": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

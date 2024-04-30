@@ -3357,6 +3357,8 @@ items:
     href: ticketagent/copytotempfile.md
   - name: CreateDefaultAttachmentEntity
     href: ticketagent/createdefaultattachmententity.md
+  - name: CreateDefaultForTicketType
+    href: ticketagent/createdefaultfortickettype.md
   - name: CreateDefaultTicketEntity
     href: ticketagent/createdefaultticketentity.md
   - name: CreateDefaultTicketMessageEntity
@@ -3381,6 +3383,8 @@ items:
     href: ticketagent/getdefaultmessagecontent.md
   - name: GetDefaultMessageContentFull
     href: ticketagent/getdefaultmessagecontentfull.md
+  - name: GetDefaultMessageContentWithOptions
+    href: ticketagent/getdefaultmessagecontentwithoptions.md
   - name: GetForRmUi
     href: ticketagent/getforrmui.md
   - name: GetNextInQueue
@@ -3875,4 +3879,6 @@ items:
     href: workflowagent/sendevent.md
   - name: TryAddPersonsToEmailFlow
     href: workflowagent/tryaddpersonstoemailflow.md
+  - name: UpdateFormSubmissions
+    href: workflowagent/updateformsubmissions.md
 

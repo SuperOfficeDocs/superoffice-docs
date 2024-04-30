@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 301,
-  "UiCulture": "aut"
+  "TemplateId": 926,
+  "UiCulture": "adipisci"
 }
 ```
 

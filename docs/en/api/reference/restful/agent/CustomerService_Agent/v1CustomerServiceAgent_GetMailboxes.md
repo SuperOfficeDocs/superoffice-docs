@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 19,
-    "Address": "voluptatum",
+    "MailInFilterId": 981,
+    "Address": "ipsa",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Schumm, Goodwin and Padberg",
+    "PriorityName": "Lindgren-Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 707
       }
     }
   },
   {
-    "MailInFilterId": 19,
-    "Address": "voluptatum",
+    "MailInFilterId": 981,
+    "Address": "ipsa",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Schumm, Goodwin and Padberg",
+    "PriorityName": "Lindgren-Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 707
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 996,
-  "Name": "Adams-Grady",
-  "Rank": 212,
-  "Tooltip": "quae",
+  "AssociateId": 158,
+  "Name": "Jacobson-Mosciski",
+  "Rank": 344,
+  "Tooltip": "molestias",
   "LicenseOwners": [
     {
-      "Name": "Sanford-Mayert",
-      "Description": "Reverse-engineered bifurcated artificial intelligence",
+      "Name": "Roob, Herman and Ryan",
+      "Description": "Open-source value-added protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 712
+          "FieldLength": 681
         }
       }
     },
     {
-      "Name": "Sanford-Mayert",
-      "Description": "Reverse-engineered bifurcated artificial intelligence",
+      "Name": "Roob, Herman and Ryan",
+      "Description": "Open-source value-added protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 712
+          "FieldLength": 681
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "qui",
-      "Id": 460,
-      "Rank": 895,
+      "Value": "distinctio",
+      "Tooltip": "dignissimos",
+      "Id": 360,
+      "Rank": 525,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldLength": 736
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-04-30T11:44:42.8669476+02:00",
-  "Lastlogout": "2018-12-26T11:44:42.8669476+01:00",
-  "EjUserId": 587,
-  "RequestSignature": "possimus",
+  "Lastlogin": "2008-10-03T11:16:14.4495535+02:00",
+  "Lastlogout": "2003-05-04T11:16:14.4495535+02:00",
+  "EjUserId": 623,
+  "RequestSignature": "corrupti",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "nihil",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ut",
-      "DisplayValue": "nihil",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
-        }
-      }
-    }
-  ],
-  "UserName": "Nicolas Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 803,
-      "Name": "West-Ryan",
-      "ToolTip": "Perferendis quidem cupiditate.",
-      "Deleted": true,
-      "Rank": 322,
-      "Type": "molestiae",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nemo",
-      "ColorBlock": 331,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "iste",
-      "FullName": "Maxine Bernier",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 839
-        }
-      }
-    }
-  ],
-  "NickName": "Greenfelder, Cormier and Lemke",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "eos"
-  },
-  "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "reiciendis"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Friesen-Heller",
-      "DisplayName": "Hilpert-Hettinger",
-      "Description": "Streamlined secondary info-mediaries",
-      "ToolTip": "Qui qui ipsam consequatur.",
-      "Actions": "Implicit",
-      "ActionData": "aut",
+      "Value": "pariatur",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldLength": 96
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "pariatur",
+      "DisplayValue": "ratione",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 96
+        }
+      }
+    }
+  ],
+  "UserName": "Lebsack LLC",
+  "TicketCategories": [
+    {
+      "Id": 746,
+      "Name": "Lehner Inc and Sons",
+      "ToolTip": "Nihil ea ad assumenda aperiam est.",
+      "Deleted": false,
+      "Rank": 548,
+      "Type": "cum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "rerum",
+      "ColorBlock": 895,
+      "ExtraInfo": "amet",
+      "StyleHint": "dolorem",
+      "FullName": "Barbara Cremin II",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 236
+        }
+      }
+    }
+  ],
+  "NickName": "Murray-Armstrong",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "hic",
+    "ExtraFields2": "optio"
+  },
+  "CustomFields": {
+    "CustomFields1": "culpa",
+    "CustomFields2": "eum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kovacek Inc and Sons",
+      "DisplayName": "Spencer, Ebert and Pacocha",
+      "Description": "Robust systemic capability",
+      "ToolTip": "Vel mollitia excepturi totam voluptatem.",
+      "Actions": "Implicit",
+      "ActionData": "distinctio",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldLength": 723
     }
   }
 }

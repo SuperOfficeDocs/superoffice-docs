@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "King, Pfannerstill and Cassin",
-    "ToolTip": "Provident assumenda.",
-    "Deleted": true,
-    "Rank": 794,
-    "Type": "ex",
-    "ColorBlock": 937,
-    "IconHint": "inventore",
+    "Id": 288,
+    "Name": "Langworth-Roob",
+    "ToolTip": "Eos molestiae minus nisi.",
+    "Deleted": false,
+    "Rank": 898,
+    "Type": "exercitationem",
+    "ColorBlock": 447,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "1996-12-22T11:44:43.319985+01:00",
+    "LastChanged": "2018-06-18T11:16:14.7151586+02:00",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Runte-Torphy",
-        "ToolTip": "Illum ea dignissimos id fugiat necessitatibus est quasi.",
-        "Deleted": false,
-        "Rank": 960,
-        "Type": "aut",
-        "ColorBlock": 3,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2003-12-20T11:44:43.319985+01:00",
+        "Id": 407,
+        "Name": "Murray Group",
+        "ToolTip": "Incidunt eius illo laboriosam.",
+        "Deleted": true,
+        "Rank": 449,
+        "Type": "repudiandae",
+        "ColorBlock": 990,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2006-03-22T11:16:14.7151586+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "enim",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Burdette Berge"
+        "FullName": "Charlotte Wuckert"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "aut",
+    "ExtraInfo": "et",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Mrs. Cooper Ellen Hermann"
+    "FullName": "Mrs. Delpha Brandyn Keebler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Fadel-Wisoky",
-    "ToolTip": "Et ut.",
+    "Id": 267,
+    "Name": "Wolff, Block and Upton",
+    "ToolTip": "Soluta optio libero beatae quod explicabo soluta deleniti.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "quibusdam",
-    "ColorBlock": 944,
-    "IconHint": "sed",
+    "Rank": 265,
+    "Type": "numquam",
+    "ColorBlock": 656,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2013-11-07T11:44:43.319985+01:00",
+    "LastChanged": "2011-07-12T11:16:14.7151586+02:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Altenwerth-Eichmann",
-        "ToolTip": "Id eos.",
+        "Id": 694,
+        "Name": "Mertz-Lakin",
+        "ToolTip": "Itaque ut aliquam ratione qui quo nostrum.",
         "Deleted": false,
-        "Rank": 402,
-        "Type": "velit",
-        "ColorBlock": 236,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2023-01-13T11:44:43.319985+01:00",
+        "Rank": 267,
+        "Type": "facere",
+        "ColorBlock": 325,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2016-07-07T11:16:14.7151586+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
+        "ExtraInfo": "impedit",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Miss Lillian Braxton Mueller",
+        "Hidden": false,
+        "FullName": "Mr. Eli Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "illum",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Freddy Wellington Hagenes III",
+    "FullName": "Kiera Kessler MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

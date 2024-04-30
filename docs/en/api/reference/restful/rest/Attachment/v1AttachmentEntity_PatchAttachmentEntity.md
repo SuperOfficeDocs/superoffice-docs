@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "iusto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "iusto",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 189,
-  "Name": "Emard, Kshlerin and Runte",
-  "ContentType": "officiis",
-  "AttSize": 433,
+  "AttachmentId": 926,
+  "Name": "Denesik-Boyle",
+  "ContentType": "ducimus",
+  "AttSize": 945,
   "InlineImage": false,
-  "ContentId": "velit",
-  "AuthKey": "eos",
+  "ContentId": "molestias",
+  "AuthKey": "soluta",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

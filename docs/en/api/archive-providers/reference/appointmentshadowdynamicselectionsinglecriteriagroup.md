@@ -712,7 +712,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=completedDate,contact/number,contact/LastSale,person/personAddress/zip,person/personAssociate/ejStatus
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=suggestedAppointmentId,contact/updatedDate,contact/registeredByFullName,contact/SaintStatus2,person/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

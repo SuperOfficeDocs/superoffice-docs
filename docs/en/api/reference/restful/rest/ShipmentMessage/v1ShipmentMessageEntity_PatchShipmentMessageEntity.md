@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "eius",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "eius",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 37,
-  "PlainMessage": "et",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "sequi",
-  "Description": "Virtual attitude-oriented throughput",
-  "Subject": "et",
-  "FolderId": 831,
-  "HeaderField": "iusto",
-  "Design": "et",
+  "ShipmentMessageId": 957,
+  "PlainMessage": "vel",
+  "HtmlMessage": "earum",
+  "SmsMessage": "vitae",
+  "Description": "Polarised uniform task-force",
+  "Subject": "voluptatem",
+  "FolderId": 90,
+  "HeaderField": "ut",
+  "Design": "natus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Fundamental bottom-line neural-net",
-  "AccessKey": "rerum",
-  "DocumentMessage": 151,
-  "Registered": "2006-06-05T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 765,
-  "Updated": "2006-09-23T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 983,
-  "UpdatedCount": 648,
+  "LongDescription": "Versatile global flexibility",
+  "AccessKey": "voluptates",
+  "DocumentMessage": 327,
+  "Registered": "2010-12-21T11:16:14.2304645+01:00",
+  "RegisteredAssociateId": 355,
+  "Updated": "2015-09-19T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 946,
+  "UpdatedCount": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 270
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

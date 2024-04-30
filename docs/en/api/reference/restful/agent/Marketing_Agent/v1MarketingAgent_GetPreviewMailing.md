@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 530
+  "ShipmentAddrId": 156
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2016-09-27T11:44:33.9315193+02:00",
+  "SendingTime": "2002-09-25T11:16:09.3815779+02:00",
   "Status": "Blocked",
-  "ShipmentId": 628,
-  "ShipmentDescription": "Persevering foreground website",
-  "FromAddress": "necessitatibus",
-  "Configuration": 547,
-  "ContactId": 76,
-  "ContactName": "Gislason Inc and Sons",
-  "PersonId": 596,
-  "PersonFullName": "Coralie Rodriguez",
-  "ShipmentType": "magnam",
-  "MessageId": 696,
-  "MessageSubject": "esse",
-  "DocumentMessageId": 212,
-  "Opened": "2003-09-26T11:44:33.9315193+02:00",
-  "LinkClicks": 186,
+  "ShipmentId": 355,
+  "ShipmentDescription": "Decentralized needs-based access",
+  "FromAddress": "et",
+  "Configuration": 450,
+  "ContactId": 23,
+  "ContactName": "Dare-Vandervort",
+  "PersonId": 836,
+  "PersonFullName": "Ms. Brittany Maximillian Heaney Sr.",
+  "ShipmentType": "fugit",
+  "MessageId": 38,
+  "MessageSubject": "repellendus",
+  "DocumentMessageId": 840,
+  "Opened": "2022-06-25T11:16:09.3815779+02:00",
+  "LinkClicks": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 176,
-    "Name": "Langworth, Kling and Nicolas",
+    "TicketPriorityId": 272,
+    "Name": "Mante LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 414,
+    "SortOrder": 957,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 969,
-    "MonStart": "2010-03-01T11:44:43.398025+01:00",
-    "MonStop": "2000-03-18T11:44:43.398025+01:00",
-    "TueStart": "2001-01-10T11:44:43.398025+01:00",
-    "TueStop": "1999-02-05T11:44:43.398025+01:00",
-    "WedStart": "2000-12-20T11:44:43.398025+01:00",
-    "WedStop": "2020-07-17T11:44:43.398025+02:00",
-    "ThuStart": "2003-11-25T11:44:43.398025+01:00",
-    "ThuStop": "2005-08-27T11:44:43.398025+02:00",
-    "FriStart": "2009-11-01T11:44:43.398025+01:00",
-    "FriStop": "2017-07-15T11:44:43.398025+02:00",
-    "SatStart": "2005-05-28T11:44:43.398025+02:00",
-    "SatStop": "2005-01-28T11:44:43.398025+01:00",
-    "SunStart": "2020-07-16T11:44:43.398025+02:00",
-    "SunStop": "2004-12-01T11:44:43.398025+01:00",
+    "Deadline": 100,
+    "MonStart": "1999-01-31T11:16:14.8557576+01:00",
+    "MonStop": "2015-04-04T11:16:14.8557576+02:00",
+    "TueStart": "1997-04-26T11:16:14.8557576+02:00",
+    "TueStop": "2014-01-05T11:16:14.8557576+01:00",
+    "WedStart": "2022-08-17T11:16:14.8557576+02:00",
+    "WedStop": "1999-10-15T11:16:14.8557576+02:00",
+    "ThuStart": "2021-12-09T11:16:14.8557576+01:00",
+    "ThuStop": "2009-09-28T11:16:14.8557576+02:00",
+    "FriStart": "2002-12-09T11:16:14.8557576+01:00",
+    "FriStop": "2020-09-21T11:16:14.8557576+02:00",
+    "SatStart": "2009-12-19T11:16:14.8557576+01:00",
+    "SatStop": "1998-10-02T11:16:14.8557576+02:00",
+    "SunStart": "2010-03-25T11:16:14.8557576+01:00",
+    "SunStop": "2001-12-22T11:16:14.8557576+01:00",
     "NonDates": [
-      "molestiae",
-      "quos"
+      "reprehenderit",
+      "dignissimos"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 954,
-        "AlertLevel": 304,
-        "AlertTimeout": 298,
-        "Action": 383,
-        "DelegateTo": 148,
-        "ScriptId": 811,
-        "EmailTo": "russ.gerhold@greenzemlak.name",
-        "SmsTo": "eveniet",
-        "ReplyTemplateIdCustomer": 558,
-        "ReplyTemplateIdUser": 908,
-        "ReplyTemplateIdCatmast": 656,
-        "ReplyTemplateIdEmail": 303,
-        "RtiCustomerSms": 32,
-        "ReplyTemplateIdUserSms": 381,
-        "ReplyTemplateIdCatmastSms": 247,
-        "ReplyTemplateIdSms": 27,
+        "TicketAlertId": 538,
+        "AlertLevel": 937,
+        "AlertTimeout": 228,
+        "Action": 447,
+        "DelegateTo": 807,
+        "ScriptId": 859,
+        "EmailTo": "arden@stracke.name",
+        "SmsTo": "impedit",
+        "ReplyTemplateIdCustomer": 347,
+        "ReplyTemplateIdUser": 442,
+        "ReplyTemplateIdCatmast": 246,
+        "ReplyTemplateIdEmail": 218,
+        "RtiCustomerSms": 445,
+        "ReplyTemplateIdUserSms": 218,
+        "ReplyTemplateIdCatmastSms": 691,
+        "ReplyTemplateIdSms": 801,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 297
+            "FieldLength": 151
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 576
+        "FieldType": "System.Int32",
+        "FieldLength": 498
       }
     }
   }

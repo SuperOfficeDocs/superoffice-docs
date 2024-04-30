@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 24 Apr 2012 11:44:42 G4T
+Last-Modified: Mon, 08 Apr 2024 11:16:13 G4T
 
 {
-  "ForeignAppId": 701,
-  "Name": "Koch, Breitenberg and Feest",
-  "CreatedDate": "2011-08-13T11:44:42.0077636+02:00",
-  "UpdatedDate": "2012-04-24T11:44:42.0077636+02:00",
+  "ForeignAppId": 637,
+  "Name": "Kiehn, Walter and West",
+  "CreatedDate": "2015-02-11T11:16:13.93321+01:00",
+  "UpdatedDate": "2024-04-08T11:16:13.93321+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 879,
-      "Name": "Miller Inc and Sons",
-      "CreatedDate": "2002-06-24T11:44:42.0077636+02:00",
-      "UpdatedDate": "2009-01-22T11:44:42.0077636+01:00",
-      "AssociateFullName": "Antonio Toy",
-      "CreatedBy": "dolores",
-      "UpdatedBy": "corporis",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 13,
+      "ForeignDeviceId": 980,
+      "Name": "Frami-Grimes",
+      "CreatedDate": "1998-01-08T11:16:13.93321+01:00",
+      "UpdatedDate": "2019-05-27T11:16:13.93321+02:00",
+      "AssociateFullName": "Breanna Kuphal",
+      "CreatedBy": "excepturi",
+      "UpdatedBy": "quae",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 455,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldLength": 279
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Tue, 24 Apr 2012 11:44:42 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 13
     }
   }
 }

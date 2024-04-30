@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=voluptatem
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=ipsam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Dare-Zulauf",
-    "ToolTip": "Sint alias odit officiis ab quam.",
-    "Deleted": true,
-    "Rank": 867,
-    "Type": "minima",
+    "Id": 637,
+    "Name": "McCullough-Hilpert",
+    "ToolTip": "Rerum modi velit.",
+    "Deleted": false,
+    "Rank": 721,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Pfannerstill, Ullrich and Koss",
-        "ToolTip": "Quis et impedit.",
-        "Deleted": true,
-        "Rank": 447,
-        "Type": "fugiat",
+        "Id": 67,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Quibusdam assumenda soluta consequatur.",
+        "Deleted": false,
+        "Rank": 548,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 960,
-        "ExtraInfo": "qui",
-        "StyleHint": "porro",
-        "FullName": "Lee Hills",
+        "IconHint": "aut",
+        "ColorBlock": 677,
+        "ExtraInfo": "soluta",
+        "StyleHint": "amet",
+        "FullName": "Prof. Roxanne Junius Hackett I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 767
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 461,
-    "ExtraInfo": "eos",
-    "StyleHint": "possimus",
-    "FullName": "Arielle Eichmann",
+    "IconHint": "reiciendis",
+    "ColorBlock": 62,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "omnis",
+    "FullName": "Miss Eugenia Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 119
       }
     }
   }

@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 82,
+  "MessageServerId": 405,
   "LookupAddresses": true,
   "Flags": "Answered",
   "IncludeAttachments": false
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 350,
-      "ContactName": "DuBuque, Rau and West",
-      "PersonId": 252,
-      "PersonName": "Luettgen, Heidenreich and Spencer",
-      "AssociateId": 77,
-      "Address": "tempora",
-      "EmailId": 365,
+      "ContactId": 587,
+      "ContactName": "Wunsch, Schmeler and Altenwerth",
+      "PersonId": 20,
+      "PersonName": "Schinner, Ebert and Bernier",
+      "AssociateId": 487,
+      "Address": "doloribus",
+      "EmailId": 909,
       "DuplicatePersonIds": [
-        648,
-        54
+        632,
+        340
       ],
-      "Name": "Lakin-Kihn",
+      "Name": "Kris LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 36
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 738,
-      "ContactName": "Lebsack, Mann and Streich",
-      "PersonId": 860,
-      "PersonName": "Nitzsche LLC",
-      "AssociateId": 470,
-      "Address": "minus",
-      "EmailId": 466,
+      "ContactId": 158,
+      "ContactName": "Roberts LLC",
+      "PersonId": 324,
+      "PersonName": "Dicki Group",
+      "AssociateId": 512,
+      "Address": "quis",
+      "EmailId": 195,
       "DuplicatePersonIds": [
-        795,
-        452
+        611,
+        225
       ],
-      "Name": "Reichert-Wilderman",
+      "Name": "Fisher, Beer and Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 801
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 781,
-      "ContactName": "Cruickshank Inc and Sons",
-      "PersonId": 185,
-      "PersonName": "Rodriguez, Macejkovic and Blick",
-      "AssociateId": 877,
-      "Address": "quas",
-      "EmailId": 941,
+      "ContactId": 813,
+      "ContactName": "Bogisich-Hand",
+      "PersonId": 821,
+      "PersonName": "Kovacek-Oberbrunner",
+      "AssociateId": 12,
+      "Address": "aperiam",
+      "EmailId": 293,
       "DuplicatePersonIds": [
-        578,
-        208
+        905,
+        422
       ],
-      "Name": "Moen, Morar and Kertzmann",
+      "Name": "Emard, Armstrong and Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 382
         }
       }
     }
   ],
-  "Subject": "maiores",
-  "HTMLBody": "et",
+  "Subject": "necessitatibus",
+  "HTMLBody": "accusantium",
   "From": null,
-  "Sent": "2004-11-08T11:44:33.6503221+01:00",
-  "Size": 208,
+  "Sent": "2016-09-16T11:16:09.2097228+02:00",
+  "Size": 839,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "pariatur",
-  "PlainBody": "voluptas",
+  "MessageID": "tenetur",
+  "PlainBody": "quos",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 705,
+  "ServerId": 737,
   "Attachments": [
     {
-      "Description": "Multi-layered impactful paradigm",
-      "Filename": "possimus",
-      "Size": 363,
-      "Type": "deleniti",
-      "Encoding": "nam",
-      "Id": "in",
-      "Disposition": "labore",
+      "Description": "Phased explicit attitude",
+      "Filename": "ea",
+      "Size": 959,
+      "Type": "corporis",
+      "Encoding": "provident",
+      "Id": "quod",
+      "Disposition": "fugiat",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldLength": 590
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Beatty Inc and Sons",
+      "Name": "Hagenes LLC",
       "Values": [
-        "voluptatibus",
-        "debitis"
+        "aut",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 736
         }
       }
     },
     {
-      "Name": "Beatty Inc and Sons",
+      "Name": "Hagenes LLC",
       "Values": [
-        "voluptatibus",
-        "debitis"
+        "aut",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 638
+          "FieldType": "System.Int32",
+          "FieldLength": 736
         }
       }
     }
   ],
-  "FolderName": "Kilback Inc and Sons",
-  "EmailItemId": 340,
-  "AccountId": 709,
-  "ReceivedAt": "1997-08-27T11:44:33.6503221+02:00",
+  "FolderName": "Hettinger-Altenwerth",
+  "EmailItemId": 55,
+  "AccountId": 452,
+  "ReceivedAt": "2004-09-21T11:16:09.2097228+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-08-10T11:44:33.6503221+02:00",
+  "RepliedAt": "2010-12-07T11:16:09.2097228+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   }
 }

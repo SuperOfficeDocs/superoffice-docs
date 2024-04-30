@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 116,
-  "HeadingId": 260
+  "UdListDefinitionId": 989,
+  "HeadingId": 166
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Rodriguez, Langworth and Purdy",
-    "ToolTip": "Harum vel vitae facere.",
-    "Deleted": true,
-    "Rank": 951,
-    "Type": "delectus",
-    "ColorBlock": 877,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2009-06-26T11:44:33.8534097+02:00",
+    "Id": 653,
+    "Name": "White, Kuphal and Nicolas",
+    "ToolTip": "Quo dolores sed in rerum autem.",
+    "Deleted": false,
+    "Rank": 43,
+    "Type": "ea",
+    "ColorBlock": 42,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2011-12-10T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Watsica, Hintz and West",
-        "ToolTip": "Voluptas reprehenderit modi omnis rem.",
-        "Deleted": false,
-        "Rank": 987,
-        "Type": "voluptatem",
-        "ColorBlock": 292,
-        "IconHint": "vel",
+        "Id": 503,
+        "Name": "Fritsch, Corkery and Bins",
+        "ToolTip": "Dolorem cum ad qui.",
+        "Deleted": true,
+        "Rank": 265,
+        "Type": "qui",
+        "ColorBlock": 671,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2006-01-17T11:44:33.8534097+01:00",
+        "LastChanged": "2016-01-29T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "dolore",
+        "ExtraInfo": "sequi",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Dr. Jennifer Clementina Towne",
+        "FullName": "Miss Bridget Georgianna Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 573
+            "FieldType": "System.String",
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "eaque",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Dr. Noel Beatty III",
+    "FullName": "Beau Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 22
       }
     }
   }

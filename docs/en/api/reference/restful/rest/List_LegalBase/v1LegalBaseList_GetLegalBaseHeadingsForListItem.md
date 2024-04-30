@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Sporer Group",
-    "ToolTip": "Aliquid eveniet quae deserunt labore est.",
+    "Id": 869,
+    "Name": "Pfeffer-Champlin",
+    "ToolTip": "Eum quia voluptas ratione.",
     "Deleted": false,
-    "Rank": 590,
-    "Type": "et",
-    "ColorBlock": 495,
-    "IconHint": "et",
+    "Rank": 137,
+    "Type": "voluptates",
+    "ColorBlock": 931,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2006-04-08T11:44:43.1012637+02:00",
+    "LastChanged": "2015-08-24T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Doyle Inc and Sons",
-        "ToolTip": "Nisi consequatur.",
+        "Id": 406,
+        "Name": "Turner-Larson",
+        "ToolTip": "Perferendis impedit at ipsam.",
         "Deleted": false,
-        "Rank": 189,
-        "Type": "repellendus",
-        "ColorBlock": 871,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2003-08-26T11:44:43.1012637+02:00",
+        "Rank": 489,
+        "Type": "harum",
+        "ColorBlock": 933,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2021-02-01T11:16:14.5901626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "eaque",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Victor Breitenberg",
+        "FullName": "Trinity Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 160
+            "FieldLength": 905
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Pablo Gleason",
+    "ExtraInfo": "magni",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Letha Bernadine Hoppe II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldType": "System.String",
+        "FieldLength": 697
       }
     }
   }

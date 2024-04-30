@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ruecker, Wintheiser and Lemke",
-  "Restrictions": "veritatis"
+  "ProviderName": "Considine, Hartmann and Barton",
+  "Restrictions": "exercitationem"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kris LLC",
-    "DisplayTooltip": "similique",
-    "DisplayType": "tempora",
-    "CanOrderBy": true,
-    "Name": "Shanahan, Kuhic and Nolan",
-    "CanRestrictBy": false,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "Murray, Witting and Bartoletti",
+    "DisplayName": "Towne, VonRueden and Keebler",
+    "DisplayTooltip": "incidunt",
+    "DisplayType": "dolor",
+    "CanOrderBy": false,
+    "Name": "Barton, Bogan and Aufderhar",
+    "CanRestrictBy": true,
+    "RestrictionType": "est",
+    "RestrictionListName": "Skiles-Torp",
     "IsVisible": true,
-    "ExtraInfo": "explicabo",
-    "Width": "aut",
-    "IconHint": "corrupti",
-    "HeadingIconHint": "aut"
+    "ExtraInfo": "quaerat",
+    "Width": "fugiat",
+    "IconHint": "aperiam",
+    "HeadingIconHint": "animi"
   }
 ]
 ```

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Hilpert, Greenholt and Walker",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 312,
-  "Rank": 310,
+  "Id": 770,
+  "Name": "Barrows-Graham",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "UdListDefinitionId": 589,
+  "Rank": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 455
     }
   }
 }

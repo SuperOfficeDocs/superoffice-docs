@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 990,
-  "ParentId": 154,
-  "Name": "Crist LLC",
-  "Fullname": "dolorum",
-  "CategoryMaster": 123,
+  "TicketCategoryId": 827,
+  "ParentId": 425,
+  "Name": "Torp Group",
+  "Fullname": "et",
+  "CategoryMaster": 249,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schaden-Kovacek",
+  "ExternalName": "Leannon-Casper",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 223,
-  "ReplyTemplate": 568,
-  "NotificationEmail": "franco@schmelerthiel.biz",
+  "AssignmentLag": 793,
+  "ReplyTemplate": 510,
+  "NotificationEmail": "malcolm@becker.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 790,
+  "EffectiveReplyTemplateId": 616,
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "iusto"
+    "CustomFields1": "inventore",
+    "CustomFields2": "eum"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 980,
-  "ParentId": 139,
-  "Name": "Nicolas, Blick and Schinner",
-  "Fullname": "ut",
-  "CategoryMaster": 835,
+  "TicketCategoryId": 838,
+  "ParentId": 788,
+  "Name": "Klein, Gutkowski and Cole",
+  "Fullname": "ex",
+  "CategoryMaster": 467,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Koss Group",
+  "ExternalName": "Berge Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 114,
-  "ReplyTemplate": 57,
-  "NotificationEmail": "hester@collins.biz",
+  "AssignmentLag": 10,
+  "ReplyTemplate": 531,
+  "NotificationEmail": "myron@bruenmertz.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 414,
+  "EffectiveReplyTemplateId": 196,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "quis",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 299
     }
   }
 }

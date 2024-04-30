@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 80,
-      "UniqueId": "ad",
-      "Name": "Lang-Luettgen",
-      "Description": "Expanded explicit parallelism",
-      "AssociateId": 665,
-      "Columns": 661,
+      "DashboardId": 844,
+      "UniqueId": "incidunt",
+      "Name": "Walsh-Kerluke",
+      "Description": "Expanded stable product",
+      "AssociateId": 587,
+      "Columns": 655,
       "Theme": null,
       "VisibleForAll": 604,
       "VisibleForAssociates": [
-        689,
-        29
+        647,
+        482
       ],
       "VisibleForGroups": [
-        384,
-        736
+        587,
+        797
       ],
-      "PinForAll": 986,
+      "PinForAll": 424,
       "PinForAssociates": [
-        150,
-        271
+        764,
+        32
       ],
       "PinForGroups": [
-        525,
-        140
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 513,
-      "UniqueId": "commodi",
-      "Name": "Donnelly, Littel and Sanford",
-      "Description": "Phased logistical instruction set",
-      "AssociateId": 791,
-      "Columns": 341,
-      "Theme": null,
-      "VisibleForAll": 30,
-      "VisibleForAssociates": [
-        718,
-        383
-      ],
-      "VisibleForGroups": [
-        916,
-        172
-      ],
-      "PinForAll": 251,
-      "PinForAssociates": [
-        564,
-        177
-      ],
-      "PinForGroups": [
-        854,
-        7
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 291
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 171,
-      "UniqueId": "aut",
-      "Name": "Witting, Walter and Watsica",
-      "Description": "Diverse discrete task-force",
-      "AssociateId": 663,
-      "Columns": 167,
-      "Theme": null,
-      "VisibleForAll": 80,
-      "VisibleForAssociates": [
-        553,
-        810
-      ],
-      "VisibleForGroups": [
-        555,
-        795
-      ],
-      "PinForAll": 746,
-      "PinForAssociates": [
-        7,
-        962
-      ],
-      "PinForGroups": [
-        445,
-        562
+        323,
+        324
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 295
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 505,
+      "UniqueId": "tempore",
+      "Name": "Hartmann-Abernathy",
+      "Description": "Extended 24 hour customer loyalty",
+      "AssociateId": 617,
+      "Columns": 171,
+      "Theme": null,
+      "VisibleForAll": 786,
+      "VisibleForAssociates": [
+        445,
+        670
+      ],
+      "VisibleForGroups": [
+        81,
+        664
+      ],
+      "PinForAll": 637,
+      "PinForAssociates": [
+        45,
+        265
+      ],
+      "PinForGroups": [
+        597,
+        470
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 151
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 34,
+      "UniqueId": "veniam",
+      "Name": "McDermott-Wiza",
+      "Description": "Customizable executive open system",
+      "AssociateId": 851,
+      "Columns": 255,
+      "Theme": null,
+      "VisibleForAll": 446,
+      "VisibleForAssociates": [
+        560,
+        363
+      ],
+      "VisibleForGroups": [
+        340,
+        427
+      ],
+      "PinForAll": 872,
+      "PinForAssociates": [
+        272,
+        605
+      ],
+      "PinForGroups": [
+        273,
+        870
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 599
     }
   }
 }

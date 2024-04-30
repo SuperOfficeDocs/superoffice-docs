@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 785,
-  "Name": "Gutmann-Corkery",
-  "Tooltip": "distinctio",
+  "HeadingId": 221,
+  "Name": "O'Reilly-Jacobi",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 715,
-  "UdListDefinitionId": 112
+  "Rank": 583,
+  "UdListDefinitionId": 215
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 285,
-  "Name": "Torp LLC",
-  "Tooltip": "nihil",
+  "HeadingId": 783,
+  "Name": "Howe-Hartmann",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 305,
-  "UdListDefinitionId": 688,
+  "Rank": 51,
+  "UdListDefinitionId": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

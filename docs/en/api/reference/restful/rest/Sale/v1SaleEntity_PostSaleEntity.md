@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-03-01T11:44:42.2577229+01:00",
-  "Amount": 30431.14,
-  "SaleId": 726,
-  "Earning": 12771.05,
-  "EarningPercent": 31114.352,
-  "Heading": "maiores",
-  "Number": "1592569",
-  "Probability": 489,
-  "CreatedDate": "1998-12-07T11:44:42.2577229+01:00",
-  "UpdatedDate": "2023-03-21T11:44:42.2577229+01:00",
+  "Saledate": "2004-06-25T11:16:14.1519474+02:00",
+  "Amount": 6324.4119999999994,
+  "SaleId": 450,
+  "Earning": 21887.856,
+  "EarningPercent": 27936.476,
+  "Heading": "minus",
+  "Number": "170350",
+  "Probability": 667,
+  "CreatedDate": "2012-08-03T11:16:14.1519474+02:00",
+  "UpdatedDate": "2004-05-29T11:16:14.1519474+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 196,
+  "ActiveLinks": 972,
   "Links": [
     {
-      "EntityName": "Gusikowski, Kris and Satterfield",
-      "Id": 557,
-      "Description": "Devolved 4th generation structure",
-      "ExtraInfo": "magnam",
-      "LinkId": 235
+      "EntityName": "Aufderhar, Greenholt and Lebsack",
+      "Id": 727,
+      "Description": "Managed disintermediate budgetary management",
+      "ExtraInfo": "veniam",
+      "LinkId": 55
     },
     {
-      "EntityName": "Gusikowski, Kris and Satterfield",
-      "Id": 557,
-      "Description": "Devolved 4th generation structure",
-      "ExtraInfo": "magnam",
-      "LinkId": 235
+      "EntityName": "Aufderhar, Greenholt and Lebsack",
+      "Id": 727,
+      "Description": "Managed disintermediate budgetary management",
+      "ExtraInfo": "veniam",
+      "LinkId": 55
     }
   ],
-  "NextDueDate": "2022-09-22T11:44:42.2577229+02:00",
-  "Postit": "expedita",
+  "NextDueDate": "2019-12-21T11:16:14.1519474+01:00",
+  "Postit": "cum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-08-25T11:44:42.2577229+02:00",
+  "ReopenDate": "2018-02-06T11:16:14.1519474+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hessel LLC",
-      "Comment": "nihil",
-      "StakeholderRoleId": 780,
-      "CountryId": 50,
-      "PersonId": 13,
-      "EmailDescription": "florine.emmerich@kuhic.name",
-      "EmailId": 49,
-      "EmailAddress": "adeline@collins.com",
-      "PhoneId": 434,
-      "ContactName": "Erdman Inc and Sons",
-      "ContactId": 711,
-      "SaleId": 616,
-      "Mrmrs": "quia",
-      "Firstname": "Silas",
-      "MiddleName": "Cole, Emard and Windler",
-      "Lastname": "Adams",
-      "SaleStakeholderId": 904,
-      "Rank": 958,
-      "Phone": "473.890.4025 x4076"
+      "StakeholderRoleName": "Kuvalis Group",
+      "Comment": "excepturi",
+      "StakeholderRoleId": 21,
+      "CountryId": 180,
+      "PersonId": 891,
+      "EmailDescription": "helena@wehner.us",
+      "EmailId": 39,
+      "EmailAddress": "marcellus_gottlieb@schmelerlockman.info",
+      "PhoneId": 445,
+      "ContactName": "Wunsch, Strosin and Denesik",
+      "ContactId": 55,
+      "SaleId": 141,
+      "Mrmrs": "eaque",
+      "Firstname": "Emerson",
+      "MiddleName": "Ondricka Group",
+      "Lastname": "Harris",
+      "SaleStakeholderId": 505,
+      "Rank": 406,
+      "Phone": "1-142-606-6196 x28858"
     }
   ],
-  "ActiveErpLinks": 457,
+  "ActiveErpLinks": 463,
   "UserDefinedFields": {
-    "SuperOffice:1": "Audrey Carroll",
-    "SuperOffice:2": "Dr. Gretchen Angelita Jacobs V"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Myah Lehner"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "1998-06-24T11:44:42.2733363+02:00",
-  "PublishTo": "2002-05-21T11:44:42.2733363+02:00",
-  "PublishFrom": "2010-02-14T11:44:42.2733363+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-08-05T11:16:14.1519474+02:00",
+  "PublishTo": "2023-02-14T11:16:14.1519474+01:00",
+  "PublishFrom": "2022-08-18T11:16:14.1519474+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 852,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "labore"
     },
     {
-      "VisibleId": 852,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "expedita"
+      "DisplayValue": "labore"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "laudantium",
+  "SaleText": "unde",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-09-11T11:44:42.4295413+02:00",
-  "Amount": 3259.3599999999997,
-  "SaleId": 670,
-  "Earning": 19252.162,
-  "EarningPercent": 17509.658,
-  "Heading": "expedita",
-  "Number": "1624172",
-  "Probability": 386,
-  "CreatedDate": "2006-09-13T11:44:42.4295413+02:00",
-  "UpdatedDate": "2024-01-22T11:44:42.4295413+01:00",
+  "Saledate": "2007-07-15T11:16:14.1675606+02:00",
+  "Amount": 11639.676,
+  "SaleId": 28,
+  "Earning": 21530.579999999998,
+  "EarningPercent": 1037.354,
+  "Heading": "similique",
+  "Number": "725975",
+  "Probability": 560,
+  "CreatedDate": "2000-05-19T11:16:14.1675606+02:00",
+  "UpdatedDate": "2006-11-10T11:16:14.1675606+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 675,
+  "ActiveLinks": 334,
   "Links": [
     {
-      "EntityName": "Kemmer, Purdy and Windler",
-      "Id": 384,
-      "Description": "Robust maximized synergy",
-      "ExtraInfo": "quo",
-      "LinkId": 179,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 75
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2018-02-22T11:44:42.4295413+01:00",
-  "Postit": "id",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2012-10-06T11:44:42.4295413+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Franecki Inc and Sons",
-      "Comment": "nulla",
-      "StakeholderRoleId": 470,
-      "CountryId": 64,
-      "PersonId": 656,
-      "EmailDescription": "savanah@waters.ca",
-      "EmailId": 214,
-      "EmailAddress": "olen_weimann@blick.co.uk",
-      "PhoneId": 451,
-      "ContactName": "Langosh-Herzog",
-      "ContactId": 229,
-      "SaleId": 297,
-      "Mrmrs": "nihil",
-      "Firstname": "Niko",
-      "MiddleName": "Farrell, Feeney and Gottlieb",
-      "Lastname": "Rempel",
-      "SaleStakeholderId": 613,
-      "Rank": 504,
-      "Phone": "466-236-3361 x8843",
+      "EntityName": "Cartwright, Doyle and McGlynn",
+      "Id": 391,
+      "Description": "Self-enabling tangible frame",
+      "ExtraInfo": "consequatur",
+      "LinkId": 521,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldLength": 739
         }
       }
     }
   ],
-  "ActiveErpLinks": 691,
-  "UserDefinedFields": {
-    "SuperOffice:1": "106963592",
-    "SuperOffice:2": "2125403146"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "incidunt"
-  },
-  "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "eos"
-  },
-  "PublishEventDate": "1999-03-09T11:44:42.4295413+01:00",
-  "PublishTo": "2001-07-30T11:44:42.4295413+02:00",
-  "PublishFrom": "2010-12-26T11:44:42.4295413+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2011-03-09T11:16:14.1675606+01:00",
+  "Postit": "aut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2017-06-02T11:16:14.1675606+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 44,
-      "Visibility": "All",
-      "DisplayValue": "in",
+      "StakeholderRoleName": "Marvin-Harris",
+      "Comment": "optio",
+      "StakeholderRoleId": 168,
+      "CountryId": 120,
+      "PersonId": 345,
+      "EmailDescription": "vincenzo.rempel@langosh.uk",
+      "EmailId": 514,
+      "EmailAddress": "hilda@halvorsonemard.us",
+      "PhoneId": 280,
+      "ContactName": "Conn, Reilly and Schumm",
+      "ContactId": 130,
+      "SaleId": 766,
+      "Mrmrs": "et",
+      "Firstname": "Loren",
+      "MiddleName": "Mann, Kunze and Hahn",
+      "Lastname": "Corwin",
+      "SaleStakeholderId": 214,
+      "Rank": 661,
+      "Phone": "1-301-698-9819",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 592
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 410,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Adell Davis",
+    "SuperOffice:2": "Maeve Rogahn"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "sit",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "quae",
+    "CustomFields2": "ut"
+  },
+  "PublishEventDate": "2019-09-30T11:16:14.1675606+02:00",
+  "PublishTo": "2019-03-18T11:16:14.1675606+01:00",
+  "PublishFrom": "2004-07-30T11:16:14.1675606+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 498,
+      "Visibility": "All",
+      "DisplayValue": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 306
         }
       }
     },
     {
-      "VisibleId": 44,
+      "VisibleId": 498,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 306
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 755
     }
   },
   "_Links": {

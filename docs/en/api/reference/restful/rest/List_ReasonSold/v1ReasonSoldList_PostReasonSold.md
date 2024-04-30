@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Harber-Doyle",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 559,
-  "Rank": 412
+  "Id": 269,
+  "Name": "Gislason Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 376,
+  "Rank": 745
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Bins, Prosacco and Aufderhar",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "UdListDefinitionId": 785,
-  "Rank": 55,
+  "Id": 142,
+  "Name": "Shields-Walter",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "UdListDefinitionId": 514,
+  "Rank": 265,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 67
     }
   }
 }

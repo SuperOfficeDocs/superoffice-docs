@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Lesch Group",
-    "ToolTip": "Sit et quia ea non deserunt facere perferendis.",
+    "Id": 195,
+    "Name": "Jewess-Davis",
+    "ToolTip": "Reprehenderit deleniti sint rerum corporis.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "quo",
-    "ColorBlock": 156,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2020-06-26T11:44:43.085652+02:00",
+    "Rank": 463,
+    "Type": "tempore",
+    "ColorBlock": 459,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2001-08-17T11:16:14.5745384+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Purdy-Koss",
-        "ToolTip": "Nesciunt cumque ut omnis saepe.",
+        "Id": 371,
+        "Name": "Jast-Reynolds",
+        "ToolTip": "Qui perferendis.",
         "Deleted": false,
-        "Rank": 433,
-        "Type": "iusto",
-        "ColorBlock": 739,
-        "IconHint": "voluptate",
-        "Selected": true,
-        "LastChanged": "1999-10-09T11:44:43.085652+02:00",
+        "Rank": 247,
+        "Type": "voluptatem",
+        "ColorBlock": 50,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2010-03-09T11:16:14.5745384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Kattie Casper"
+        "ExtraInfo": "sint",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Abelardo Keeling Sr."
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Clinton Bergstrom"
+    "ExtraInfo": "vitae",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Edd Kiehn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Jakubowski, Crona and Reinger",
-    "ToolTip": "Est ab quae.",
+    "Id": 125,
+    "Name": "Sporer Inc and Sons",
+    "ToolTip": "Ut nostrum sit.",
     "Deleted": false,
-    "Rank": 600,
-    "Type": "placeat",
-    "ColorBlock": 434,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "1999-03-15T11:44:43.085652+01:00",
+    "Rank": 854,
+    "Type": "aperiam",
+    "ColorBlock": 132,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2008-05-15T11:16:14.5745384+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Murphy Group",
-        "ToolTip": "Aliquid rerum quibusdam repellendus eligendi.",
+        "Id": 963,
+        "Name": "Mante Group",
+        "ToolTip": "Molestiae rerum expedita.",
         "Deleted": false,
-        "Rank": 327,
-        "Type": "deleniti",
-        "ColorBlock": 333,
-        "IconHint": "molestias",
+        "Rank": 520,
+        "Type": "a",
+        "ColorBlock": 757,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2012-02-28T11:44:43.085652+01:00",
+        "LastChanged": "2006-10-11T11:16:14.5745384+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Margaretta Murray",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Luther West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "saepe",
+    "ExtraInfo": "laborum",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Kacey Bogan",
+    "FullName": "Millie Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 531
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 722,
-  "Name": "Ruecker Group",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 648,
-  "UdListDefinitionId": 202
+  "HeadingId": 733,
+  "Name": "Lang-Kiehn",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 581,
+  "UdListDefinitionId": 21
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 659,
-  "Name": "McGlynn-Oberbrunner",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 379,
-  "UdListDefinitionId": 699,
+  "HeadingId": 978,
+  "Name": "Christiansen, Kub and Pagac",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 400,
+  "UdListDefinitionId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

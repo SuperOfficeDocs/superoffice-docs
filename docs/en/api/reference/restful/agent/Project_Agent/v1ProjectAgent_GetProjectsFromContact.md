@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 850
+  "ContactId": 320
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 95,
-    "Name": "Prohaska, Parisian and Yost",
-    "Description": "Networked systematic strategy",
+    "ProjectId": 411,
+    "Name": "Balistreri LLC",
+    "Description": "Enterprise-wide disintermediate throughput",
     "URL": "http://www.example.com/",
-    "Type": "quasi",
-    "AssociateId": 526,
-    "AssociateFullName": "Dr. Darrin Magdalena Eichmann IV",
-    "TypeId": 595,
-    "Updated": "2016-10-10T11:44:34.2126949+02:00",
-    "StatusId": 959,
-    "Status": "sapiente",
-    "TextId": 411,
-    "PublishTo": "2010-05-08T11:44:34.2126949+02:00",
-    "PublishFrom": "1998-05-11T11:44:34.2126949+02:00",
-    "IsPublished": false,
+    "Type": "omnis",
+    "AssociateId": 88,
+    "AssociateFullName": "Mrs. Patience Lubowitz",
+    "TypeId": 551,
+    "Updated": "2001-03-16T11:16:09.569228+01:00",
+    "StatusId": 20,
+    "Status": "ea",
+    "TextId": 575,
+    "PublishTo": "2005-03-01T11:16:09.569228+01:00",
+    "PublishFrom": "2009-02-20T11:16:09.569228+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "939591",
-    "ActiveErpLinks": 90,
+    "ProjectNumber": "754076",
+    "ActiveErpLinks": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldLength": 710
       }
     }
   }

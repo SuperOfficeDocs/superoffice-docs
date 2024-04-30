@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stoltenberg, Becker and McGlynn",
-  "Comment": "aspernatur",
-  "StakeholderRoleId": 582,
-  "CountryId": 788,
-  "PersonId": 476,
-  "EmailDescription": "coleman@towne.info",
-  "EmailId": 46,
-  "EmailAddress": "tomasa@glover.name",
-  "PhoneId": 711,
-  "ContactName": "Harris-Daniel",
-  "ContactId": 259,
-  "SaleId": 697,
-  "Mrmrs": "fugit",
-  "Firstname": "Mellie",
-  "MiddleName": "Toy, Glover and Goyette",
-  "Lastname": "Waelchi",
-  "SaleStakeholderId": 581,
-  "Rank": 606,
-  "Phone": "1-838-498-4308 x566"
+  "StakeholderRoleName": "Kutch, Glover and Mante",
+  "Comment": "soluta",
+  "StakeholderRoleId": 149,
+  "CountryId": 974,
+  "PersonId": 437,
+  "EmailDescription": "gina_adams@kertzmann.us",
+  "EmailId": 823,
+  "EmailAddress": "megane@hermiston.com",
+  "PhoneId": 762,
+  "ContactName": "Bradtke LLC",
+  "ContactId": 374,
+  "SaleId": 249,
+  "Mrmrs": "deserunt",
+  "Firstname": "Alanna",
+  "MiddleName": "Orn, Ledner and Gleichner",
+  "Lastname": "Pfannerstill",
+  "SaleStakeholderId": 810,
+  "Rank": 555,
+  "Phone": "(317)435-8366 x450"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Okuneva-Mueller",
-  "Comment": "dolores",
-  "StakeholderRoleId": 118,
-  "CountryId": 315,
-  "PersonId": 274,
-  "EmailDescription": "clarabelle@rowe.uk",
-  "EmailId": 753,
-  "EmailAddress": "wallace_rempel@wyman.biz",
-  "PhoneId": 932,
-  "ContactName": "Johnston Inc and Sons",
-  "ContactId": 860,
-  "SaleId": 580,
-  "Mrmrs": "quam",
-  "Firstname": "Major",
-  "MiddleName": "Beatty, Windler and Johns",
-  "Lastname": "Grady",
-  "SaleStakeholderId": 843,
-  "Rank": 410,
-  "Phone": "(625)808-8228 x03701",
+  "StakeholderRoleName": "Dietrich Inc and Sons",
+  "Comment": "autem",
+  "StakeholderRoleId": 547,
+  "CountryId": 781,
+  "PersonId": 633,
+  "EmailDescription": "ebba.schaefer@moen.biz",
+  "EmailId": 390,
+  "EmailAddress": "keven@steuber.us",
+  "PhoneId": 503,
+  "ContactName": "Graham-Gutkowski",
+  "ContactId": 510,
+  "SaleId": 23,
+  "Mrmrs": "modi",
+  "Firstname": "Elaina",
+  "MiddleName": "Konopelski Inc and Sons",
+  "Lastname": "Gleichner",
+  "SaleStakeholderId": 774,
+  "Rank": 784,
+  "Phone": "(034)136-7917",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Mann, Murphy and Crona",
-    "Tooltip": "libero",
+    "Id": 690,
+    "Name": "Deckow, Jones and Gerlach",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 327,
-    "Rank": 911
+    "UdListDefinitionId": 614,
+    "Rank": 854
   },
   {
-    "Id": 842,
-    "Name": "Mann, Murphy and Crona",
-    "Tooltip": "libero",
+    "Id": 690,
+    "Name": "Deckow, Jones and Gerlach",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 327,
-    "Rank": 911
+    "UdListDefinitionId": 614,
+    "Rank": 854
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Von LLC",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "UdListDefinitionId": 609,
-    "Rank": 234,
+    "Id": 814,
+    "Name": "Hodkiewicz LLC",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "UdListDefinitionId": 958,
+    "Rank": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

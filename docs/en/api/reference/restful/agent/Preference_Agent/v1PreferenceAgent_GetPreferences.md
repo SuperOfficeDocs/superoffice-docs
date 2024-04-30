@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "repudiandae",
-      "Key": "facere"
+      "Section": "ea",
+      "Key": "iure"
     },
     {
-      "Section": "repudiandae",
-      "Key": "facere"
+      "Section": "ea",
+      "Key": "iure"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "sequi",
+    "RawValue": "nulla",
     "Specification": null,
-    "DisplayValue": "aut",
-    "DisplayTooltip": "repellat",
+    "DisplayValue": "atque",
+    "DisplayTooltip": "quasi",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 505,
-    "PrefDescId": 115,
-    "TableName": "Williamson-Haag",
-    "UserPreferenceId": 488,
+    "TargetId": 965,
+    "PrefDescId": 885,
+    "TableName": "Harris, Jast and Satterfield",
+    "UserPreferenceId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 693
       }
     }
   }

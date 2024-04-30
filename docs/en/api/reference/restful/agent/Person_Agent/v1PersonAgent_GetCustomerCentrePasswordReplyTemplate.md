@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 686
+  "PersonId": 474
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 140,
-  "PlainParsed": "et",
-  "HtmlParsed": "consequatur",
+  "ReplyTemplateId": 993,
+  "PlainParsed": "facere",
+  "HtmlParsed": "numquam",
   "Attachments": [
     {
-      "AttachmentId": 763,
-      "Name": "Littel LLC",
-      "ContentType": "non",
-      "AttSize": 837,
-      "InlineImage": true,
-      "ContentId": "veniam",
-      "AuthKey": "ea",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 5,
+      "Name": "Schamberger Inc and Sons",
+      "ContentType": "aut",
+      "AttSize": 678,
+      "InlineImage": false,
+      "ContentId": "laudantium",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 800
         }
       }
     }
   ],
-  "Subject": "a",
+  "Subject": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

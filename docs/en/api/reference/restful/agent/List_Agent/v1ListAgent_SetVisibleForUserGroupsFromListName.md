@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langworth Group",
-  "ListItemId": 915,
+  "UdListDefinitionName": "Lubowitz, Corkery and Farrell",
+  "ListItemId": 992,
   "UserGroups": [
     {
-      "Id": 24,
-      "Name": "Kunze, O'Keefe and O'Connell",
-      "ToolTip": "Et vel ea quia et magni.",
-      "Deleted": true,
-      "Rank": 422,
-      "Type": "qui",
-      "ColorBlock": 338,
-      "IconHint": "sint",
-      "Selected": false,
-      "LastChanged": "2005-11-07T11:44:33.8377919+01:00",
+      "Id": 258,
+      "Name": "Hane, Feeney and Emmerich",
+      "ToolTip": "Doloremque pariatur.",
+      "Deleted": false,
+      "Rank": 949,
+      "Type": "enim",
+      "ColorBlock": 690,
+      "IconHint": "tenetur",
+      "Selected": true,
+      "LastChanged": "2003-03-28T11:16:09.3347069+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "dicta",
-      "Hidden": true,
-      "FullName": "Natasha Pagac"
+      "ExtraInfo": "ut",
+      "StyleHint": "velit",
+      "Hidden": false,
+      "FullName": "Neoma Block"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Mertz-Rutherford",
-    "ToolTip": "Mollitia aut ad possimus ea perferendis magni omnis.",
-    "Deleted": true,
-    "Rank": 497,
-    "Type": "corporis",
-    "ColorBlock": 56,
-    "IconHint": "amet",
-    "Selected": false,
-    "LastChanged": "2006-12-05T11:44:33.8377919+01:00",
+    "Id": 926,
+    "Name": "Ferry, Kertzmann and McGlynn",
+    "ToolTip": "Fugit qui enim molestiae unde rerum.",
+    "Deleted": false,
+    "Rank": 287,
+    "Type": "nemo",
+    "ColorBlock": 9,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2019-06-29T11:16:09.3347069+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Stroman Group",
-        "ToolTip": "Exercitationem at quas aperiam.",
+        "Id": 381,
+        "Name": "Sanford Inc and Sons",
+        "ToolTip": "Ut similique consectetur quis deserunt similique.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "doloribus",
-        "ColorBlock": 685,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2009-10-08T11:44:33.8377919+02:00",
+        "Rank": 460,
+        "Type": "quia",
+        "ColorBlock": 504,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2022-03-30T11:16:09.3347069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "et",
+        "StyleHint": "cum",
         "Hidden": true,
-        "FullName": "Miss Demetrius Yolanda Walker I",
+        "FullName": "Carol Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 764
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Landen Robin Quitzon Jr.",
+    "ExtraInfo": "fugit",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Prof. Adela Dulce Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 309
       }
     }
   }

@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDocumentPluginId": 551,
+  "TargetDocumentPluginId": 108,
   "IncludeEmails": false
 }
 ```
@@ -92,11 +92,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 139,
-  "NumTemplatesAlreadyMigrated": 738,
+  "NumTemplatesOmitted": 758,
+  "NumTemplatesAlreadyMigrated": 595,
   "TemplateIds": [
-    690,
-    761
+    380,
+    968
   ]
 }
 ```

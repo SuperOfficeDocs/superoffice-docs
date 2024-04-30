@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "consequatur"
+  "MimeMessage": "eligendi"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 246,
-      "ContactName": "Stracke-Rutherford",
-      "PersonId": 844,
-      "PersonName": "Nicolas, O'Keefe and Kris",
-      "AssociateId": 903,
-      "Address": "consequuntur",
-      "EmailId": 807,
+      "ContactId": 903,
+      "ContactName": "Cruickshank Inc and Sons",
+      "PersonId": 860,
+      "PersonName": "Turner, Kuhn and Abbott",
+      "AssociateId": 692,
+      "Address": "aliquid",
+      "EmailId": 288,
       "DuplicatePersonIds": [
-        464,
-        32
+        656,
+        417
       ],
-      "Name": "Gibson, Roob and Trantow",
+      "Name": "Shanahan, Crist and Bauch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 896
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 758,
-      "ContactName": "Aufderhar-McDermott",
-      "PersonId": 441,
-      "PersonName": "Spinka LLC",
-      "AssociateId": 263,
-      "Address": "eius",
-      "EmailId": 580,
+      "ContactId": 66,
+      "ContactName": "Murray Group",
+      "PersonId": 195,
+      "PersonName": "Greenholt Inc and Sons",
+      "AssociateId": 326,
+      "Address": "laudantium",
+      "EmailId": 483,
       "DuplicatePersonIds": [
-        543,
-        347
+        434,
+        490
       ],
-      "Name": "Flatley LLC",
+      "Name": "Larson, Cremin and Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 299
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 163,
-      "ContactName": "Cronin-Moore",
-      "PersonId": 379,
-      "PersonName": "Koepp-Reilly",
-      "AssociateId": 760,
-      "Address": "est",
-      "EmailId": 728,
+      "ContactId": 717,
+      "ContactName": "Mertz-Mills",
+      "PersonId": 820,
+      "PersonName": "Cole, Jenkins and Schmitt",
+      "AssociateId": 546,
+      "Address": "error",
+      "EmailId": 840,
       "DuplicatePersonIds": [
-        713,
-        822
+        971,
+        105
       ],
-      "Name": "Gorczany-Grimes",
+      "Name": "Feil Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldType": "System.String",
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "esse",
+  "Subject": "saepe",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2013-06-06T11:44:33.6815702+02:00",
-  "Size": 567,
+  "Sent": "2016-10-01T11:16:09.2253497+02:00",
+  "Size": 654,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quasi",
-  "PlainBody": "voluptatem",
-  "IsSent": false,
+  "MessageID": "sit",
+  "PlainBody": "ab",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 900,
+  "ServerId": 553,
   "Attachments": [
     {
-      "Description": "Streamlined eco-centric architecture",
-      "Filename": "vero",
-      "Size": 182,
-      "Type": "nobis",
-      "Encoding": "rerum",
-      "Id": "laudantium",
-      "Disposition": "enim",
+      "Description": "Fundamental assymetric info-mediaries",
+      "Filename": "ullam",
+      "Size": 844,
+      "Type": "ullam",
+      "Encoding": "quod",
+      "Id": "vel",
+      "Disposition": "sed",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 455
+          "FieldType": "System.Int32",
+          "FieldLength": 54
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gaylord Inc and Sons",
+      "Name": "Walter, Simonis and Kunze",
       "Values": [
-        "doloribus",
-        "sequi"
+        "voluptatem",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 573
         }
       }
     },
     {
-      "Name": "Gaylord Inc and Sons",
+      "Name": "Walter, Simonis and Kunze",
       "Values": [
-        "doloribus",
-        "sequi"
+        "voluptatem",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 573
         }
       }
     }
   ],
-  "FolderName": "Grady, Hand and Funk",
-  "EmailItemId": 130,
-  "AccountId": 584,
-  "ReceivedAt": "2002-10-05T11:44:33.6815702+02:00",
+  "FolderName": "Keeling Inc and Sons",
+  "EmailItemId": 582,
+  "AccountId": 327,
+  "ReceivedAt": "2001-07-16T11:16:09.2253497+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-06-28T11:44:33.6815702+02:00",
+  "RepliedAt": "2012-07-09T11:16:09.2253497+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

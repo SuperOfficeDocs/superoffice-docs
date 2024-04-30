@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Name": "Senger LLC",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 364,
+  "Id": 432,
+  "Name": "Boehm, Miller and Hagenes",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 705,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "Bernier-Metz",
-  "Tooltip": "architecto",
+  "Id": 352,
+  "Name": "Mitchell-Bednar",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 684,
+  "Rank": 40,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "pariatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eveniet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

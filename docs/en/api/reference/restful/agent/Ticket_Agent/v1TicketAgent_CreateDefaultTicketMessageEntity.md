@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 109,
+  "EjMessageId": 568,
   "Ticket": null,
-  "CreatedAt": "2019-07-18T11:44:34.7438345+02:00",
+  "CreatedAt": "2010-03-22T11:16:09.8665963+01:00",
   "CreatedBy": null,
-  "Author": "maxime",
+  "Author": "consectetur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "repellendus",
-  "TimeSpent": 421,
-  "Body": "ut",
-  "HtmlBody": "reprehenderit",
-  "EmailHeader": "ellie@rutherfordlabadie.biz",
-  "DebugInfo": "quae",
-  "MailSorter": "quos",
+  "MessageId": "et",
+  "TimeSpent": 854,
+  "Body": "quo",
+  "HtmlBody": "distinctio",
+  "EmailHeader": "dawn@jewess.ca",
+  "DebugInfo": "pariatur",
+  "MailSorter": "dolorem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "officiis",
   "MessageHeaders": [
     {
-      "Id": 566,
-      "Name": "Breitenberg, Grimes and Hammes",
-      "Value": "incidunt",
+      "Id": 112,
+      "Name": "Huel, Mraz and Wiegand",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 558
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ducimus",
-  "Sentiment": 305,
-  "SentimentConfidence": 334,
+  "Language": "vel",
+  "Sentiment": 402,
+  "SentimentConfidence": 714,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 474,
-      "Name": "Reichert, Wyman and DuBuque",
-      "ContentType": "a",
-      "AttSize": 712,
+      "AttachmentId": 804,
+      "Name": "Johns-Schowalter",
+      "ContentType": "voluptas",
+      "AttSize": 494,
       "InlineImage": false,
-      "ContentId": "maiores",
-      "AuthKey": "ipsa",
+      "ContentId": "deleniti",
+      "AuthKey": "placeat",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 166
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "et"
+    "CustomFields1": "ut",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

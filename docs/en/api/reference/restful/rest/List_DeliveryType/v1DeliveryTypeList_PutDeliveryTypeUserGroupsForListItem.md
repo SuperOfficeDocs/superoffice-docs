@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Carter-Romaguera",
-    "ToolTip": "Velit veritatis id aspernatur labore asperiores.",
+    "Id": 902,
+    "Name": "Connelly-Lowe",
+    "ToolTip": "Accusamus mollitia atque vel ad voluptas.",
     "Deleted": true,
-    "Rank": 344,
-    "Type": "aperiam",
-    "ColorBlock": 659,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2007-03-26T11:44:43.054404+02:00",
+    "Rank": 782,
+    "Type": "consequatur",
+    "ColorBlock": 583,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-04-05T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Lind-Kuhn",
-        "ToolTip": "Similique ut natus molestiae mollitia aspernatur.",
-        "Deleted": true,
-        "Rank": 162,
-        "Type": "tempore",
-        "ColorBlock": 695,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2023-07-05T11:44:43.054404+02:00",
+        "Id": 970,
+        "Name": "Predovic-Rath",
+        "ToolTip": "Ut animi eveniet non magnam.",
+        "Deleted": false,
+        "Rank": 588,
+        "Type": "culpa",
+        "ColorBlock": 407,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2023-11-08T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "amet",
+        "ExtraInfo": "a",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Prof. Boris Wisozk IV"
+        "FullName": "Miss Annie Zechariah Dickinson"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mattie Welch"
+    "ExtraInfo": "porro",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Prof. Shaniya Ortiz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Jast, Welch and Dickinson",
-    "ToolTip": "Sunt vel.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "rerum",
-    "ColorBlock": 117,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2007-03-31T11:44:43.0700205+02:00",
+    "Id": 686,
+    "Name": "Cassin, Schmeler and Aufderhar",
+    "ToolTip": "Dignissimos id dolorem numquam sequi voluptatibus dolores.",
+    "Deleted": true,
+    "Rank": 7,
+    "Type": "voluptate",
+    "ColorBlock": 38,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2009-05-19T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "DuBuque-Ebert",
-        "ToolTip": "Laborum sint voluptatem laborum dolor delectus ab.",
+        "Id": 562,
+        "Name": "Rowe-Schmidt",
+        "ToolTip": "Voluptates voluptas quia aut.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "et",
-        "ColorBlock": 501,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2021-01-13T11:44:43.0700205+01:00",
+        "Rank": 385,
+        "Type": "quos",
+        "ColorBlock": 726,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2020-10-07T11:16:14.5589219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "nemo",
+        "ExtraInfo": "eum",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Ibrahim Veum",
+        "FullName": "Mr. Elfrieda Abernathy III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldType": "System.String",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "delectus",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Ms. Edyth Angelica Gutmann",
+    "FullName": "Allan Moen DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 400
       }
     }
   }

@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 955,
-  "IncludeEmails": false
+  "DocumentPluginId": 351,
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 821,
-  "NumDocumentsAlreadyMigrated": 337,
+  "NumDocumentsOmitted": 884,
+  "NumDocumentsAlreadyMigrated": 346,
   "Documents": [
     {
-      "DocumentId": 98,
-      "ContactId": 946,
-      "PersonId": 747,
-      "SaleId": 647,
-      "ProjectId": 383,
-      "DocTmplId": 664,
-      "AssociateId": 311,
-      "UserGroupId": 822,
-      "VisibleForId": 946
+      "DocumentId": 291,
+      "ContactId": 234,
+      "PersonId": 700,
+      "SaleId": 293,
+      "ProjectId": 264,
+      "DocTmplId": 374,
+      "AssociateId": 736,
+      "UserGroupId": 247,
+      "VisibleForId": 768
     }
   ],
   "Associates": [
     {
-      "AssociateId": 408,
-      "EmailAddress": "ike@willmsmurray.co.uk"
+      "AssociateId": 308,
+      "EmailAddress": "elsa_jenkins@schmelernikolaus.uk"
     },
     {
-      "AssociateId": 408,
-      "EmailAddress": "ike@willmsmurray.co.uk"
+      "AssociateId": 308,
+      "EmailAddress": "elsa_jenkins@schmelernikolaus.uk"
     }
   ]
 }

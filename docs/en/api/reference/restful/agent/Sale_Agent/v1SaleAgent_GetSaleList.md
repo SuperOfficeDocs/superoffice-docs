@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hahn-Schamberger",
-    "SaleDate": "2013-05-22T11:44:34.4001629+02:00",
-    "SaleId": 211,
-    "Probability": 3,
-    "Title": "possimus",
-    "Amount": 28162.124,
-    "Currency": "velit",
-    "ProjectName": "Zemlak LLC",
-    "AssociateFullName": "Joshuah Benny Gottlieb V",
-    "Description": "Customizable needs-based definition",
+    "ContactName": "Lakin, Maggio and Yundt",
+    "SaleDate": "2004-09-24T11:16:09.6846608+02:00",
+    "SaleId": 284,
+    "Probability": 346,
+    "Title": "voluptas",
+    "Amount": 3936.304,
+    "Currency": "minima",
+    "ProjectName": "Marvin, Bins and Leffler",
+    "AssociateFullName": "Brionna Gottlieb IV",
+    "Description": "Public-key methodical database",
     "Status": "Lost",
-    "WeightedAmount": 31308.66,
-    "ProjectId": 695,
-    "EarningPercent": 9702.864,
-    "Earning": 4898.442,
-    "ContactId": 359,
-    "AssociateId": 738,
-    "PersonId": 46,
-    "SaleTypeId": 157,
-    "SaleTypeName": "Daniel-Keeling",
-    "PersonFullName": "Blanca Hand",
+    "WeightedAmount": 20565.308,
+    "ProjectId": 459,
+    "EarningPercent": 16638.406,
+    "Earning": 12887.008,
+    "ContactId": 611,
+    "AssociateId": 473,
+    "PersonId": 896,
+    "SaleTypeId": 329,
+    "SaleTypeName": "Rath-Wilkinson",
+    "PersonFullName": "Dr. Arthur Schumm",
     "Completed": "Completed",
-    "ActiveErpLinks": 499,
-    "NextDueDate": "2001-03-16T11:44:34.4001629+01:00",
-    "Number": "1000470",
+    "ActiveErpLinks": 16,
+    "NextDueDate": "1997-09-30T11:16:09.6846608+02:00",
+    "Number": "1112626",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 331
       }
     }
   }

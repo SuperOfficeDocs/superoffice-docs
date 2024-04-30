@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "McCullough, Ebert and Jacobi",
-    "ToolTip": "Quos et ut est.",
-    "Deleted": false,
-    "Rank": 804,
-    "Type": "quae",
-    "ColorBlock": 355,
-    "IconHint": "qui",
+    "Id": 705,
+    "Name": "Little Inc and Sons",
+    "ToolTip": "Praesentium magnam qui quos sequi officia laborum.",
+    "Deleted": true,
+    "Rank": 865,
+    "Type": "natus",
+    "ColorBlock": 25,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2000-10-17T11:44:42.898184+02:00",
+    "LastChanged": "2002-02-22T11:16:14.465178+01:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Bashirian, Mayert and Rice",
-        "ToolTip": "Voluptas ea.",
-        "Deleted": true,
-        "Rank": 119,
-        "Type": "consectetur",
-        "ColorBlock": 183,
-        "IconHint": "fugiat",
-        "Selected": true,
-        "LastChanged": "2023-07-16T11:44:42.898184+02:00",
+        "Id": 507,
+        "Name": "Langosh-Hammes",
+        "ToolTip": "Recusandae eum harum libero ducimus reiciendis consequatur odit.",
+        "Deleted": false,
+        "Rank": 166,
+        "Type": "iure",
+        "ColorBlock": 576,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2018-04-22T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "illum",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Wava Bruen",
+        "FullName": "Ruby Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "illo",
+    "ExtraInfo": "quam",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Eric Roberts I",
+    "FullName": "Dr. Mandy Zieme DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

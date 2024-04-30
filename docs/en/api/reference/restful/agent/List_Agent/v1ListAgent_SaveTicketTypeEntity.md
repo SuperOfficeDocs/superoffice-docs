@@ -55,6 +55,7 @@ The TicketTypeEntity to be saved.
 | ExcludeSignature | Boolean | Do not insert user signature automatically |
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
+| VisibleForGroups | Array | Array of references to the visible for groups |
 
 ## Response:
 
@@ -84,6 +85,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -97,28 +99,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 46,
-  "Name": "Deckow-Okuneva",
-  "Rank": 975,
-  "Tooltip": "natus",
-  "Icon": "commodi",
-  "DefaultTicketStatus": 918,
+  "TicketTypeId": 316,
+  "Name": "Douglas, Okuneva and Jacobson",
+  "Rank": 549,
+  "Tooltip": "dolor",
+  "Icon": "incidunt",
+  "DefaultTicketStatus": 927,
   "TicketStatuses": [
-    626,
-    99
+    762,
+    710
   ],
-  "DefaultTicketPriority": 387,
+  "DefaultTicketPriority": 645,
   "TicketPriorities": [
-    137,
-    389
+    24,
+    239
   ],
-  "ReplyTemplate": 510,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 756,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true
+  "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    618,
+    199
+  ]
 }
 ```
 
@@ -129,34 +135,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 721,
-  "Name": "Fahey, Monahan and Dooley",
-  "Rank": 123,
-  "Tooltip": "et",
-  "Icon": "quod",
-  "DefaultTicketStatus": 683,
+  "TicketTypeId": 643,
+  "Name": "Friesen-Schamberger",
+  "Rank": 803,
+  "Tooltip": "aut",
+  "Icon": "optio",
+  "DefaultTicketStatus": 828,
   "TicketStatuses": [
-    900,
-    575
+    626,
+    767
   ],
-  "DefaultTicketPriority": 810,
+  "DefaultTicketPriority": 460,
   "TicketPriorities": [
-    651,
-    905
+    445,
+    248
   ],
-  "ReplyTemplate": 848,
+  "ReplyTemplate": 322,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    679,
+    939
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldLength": 800
     }
   }
 }

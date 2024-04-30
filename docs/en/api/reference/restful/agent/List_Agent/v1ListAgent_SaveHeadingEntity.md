@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 822,
-  "Name": "Trantow LLC",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 342,
-  "UdListDefinitionId": 936
+  "HeadingId": 208,
+  "Name": "Weimann LLC",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 895,
+  "UdListDefinitionId": 417
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 270,
-  "Name": "Rice LLC",
-  "Tooltip": "quisquam",
+  "HeadingId": 699,
+  "Name": "Hahn Inc and Sons",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 333,
-  "UdListDefinitionId": 374,
+  "Rank": 670,
+  "UdListDefinitionId": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

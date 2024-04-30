@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 601,
-  "PrefDescId": 681,
-  "PrefValue": "dolores",
-  "PrefShowValue": "occaecati",
-  "Description": "Persevering composite website",
-  "IsBuiltin": true
+  "PrefDescLineId": 229,
+  "PrefDescId": 596,
+  "PrefValue": "mollitia",
+  "PrefShowValue": "assumenda",
+  "Description": "User-friendly dynamic challenge",
+  "IsBuiltin": false
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 301,
-  "PrefDescId": 136,
-  "PrefValue": "inventore",
-  "PrefShowValue": "quis",
-  "Description": "Multi-lateral real-time implementation",
+  "PrefDescLineId": 959,
+  "PrefDescId": 385,
+  "PrefValue": "autem",
+  "PrefShowValue": "alias",
+  "Description": "Managed systematic encoding",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

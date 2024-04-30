@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "occaecati",
+  "RawValue": "dignissimos",
   "Specification": null,
-  "DisplayValue": "saepe",
-  "DisplayTooltip": "non",
+  "DisplayValue": "quae",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 381,
-  "PrefDescId": 904,
-  "TableName": "Bogisich-McLaughlin",
-  "UserPreferenceId": 704,
+  "TargetId": 620,
+  "PrefDescId": 377,
+  "TableName": "Mayer-Grant",
+  "UserPreferenceId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

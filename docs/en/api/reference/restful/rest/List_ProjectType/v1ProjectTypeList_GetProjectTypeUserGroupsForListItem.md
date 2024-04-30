@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Hackett, Kiehn and Hilpert",
-    "ToolTip": "Explicabo ea non distinctio velit dolorem sed.",
+    "Id": 683,
+    "Name": "Larson-Douglas",
+    "ToolTip": "Deleniti a minima sint eius.",
     "Deleted": false,
-    "Rank": 287,
-    "Type": "molestiae",
-    "ColorBlock": 340,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2012-04-19T11:44:43.2418644+02:00",
+    "Rank": 319,
+    "Type": "corporis",
+    "ColorBlock": 221,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-12-23T11:16:14.668281+01:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Keeling, Sanford and Dare",
-        "ToolTip": "Non doloremque porro aut quibusdam et.",
-        "Deleted": true,
-        "Rank": 316,
-        "Type": "doloremque",
-        "ColorBlock": 790,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2008-12-27T11:44:43.2418644+01:00",
+        "Id": 483,
+        "Name": "Stracke Inc and Sons",
+        "ToolTip": "Dolor et eaque.",
+        "Deleted": false,
+        "Rank": 16,
+        "Type": "praesentium",
+        "ColorBlock": 286,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2021-11-01T11:16:14.668281+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "ea",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Hildegard Christiansen",
+        "FullName": "Mohammed Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldType": "System.String",
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Pascale Cormier",
+    "ExtraInfo": "culpa",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Dr. Walker Berge I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 993
       }
     }
   }

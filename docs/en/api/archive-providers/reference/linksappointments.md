@@ -721,7 +721,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/contactId,contact/LastCompletedSale,person/personDirectPhone/formattedNumber,project/projectAssociate/userName,sale/associate/simultaneousEjUser
+GET /api/v1/archive/LinksAppointments?$select=endDate,recurrenceRuleId,endTime,invitedPersonId,contact/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

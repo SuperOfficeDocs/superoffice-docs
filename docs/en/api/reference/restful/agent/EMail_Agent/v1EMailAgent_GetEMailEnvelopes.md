@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    137,
-    326
+    716,
+    996
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 982,
-    "MessageId": "tempora",
-    "Subject": "est",
+    "ServerId": 978,
+    "MessageId": "et",
+    "Subject": "consequatur",
     "From": null,
     "To": [
       {
-        "ContactId": 475,
-        "ContactName": "McLaughlin-Kuhlman",
-        "PersonId": 993,
-        "PersonName": "Ankunding-Armstrong",
-        "AssociateId": 501,
-        "Address": "corrupti",
-        "EmailId": 479,
+        "ContactId": 59,
+        "ContactName": "Roob, Huels and Homenick",
+        "PersonId": 766,
+        "PersonName": "McDermott, Osinski and Cole",
+        "AssociateId": 147,
+        "Address": "iusto",
+        "EmailId": 948,
         "DuplicatePersonIds": [
-          932,
-          474
+          737,
+          350
         ],
-        "Name": "Wolf LLC",
+        "Name": "Rosenbaum, Ernser and Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 150
           }
         }
       }
     ],
-    "Sent": "2018-01-29T11:44:33.6659495+01:00",
+    "Sent": "2016-01-15T11:16:09.2253497+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 851,
+    "Size": 50,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 346
       }
     }
   }

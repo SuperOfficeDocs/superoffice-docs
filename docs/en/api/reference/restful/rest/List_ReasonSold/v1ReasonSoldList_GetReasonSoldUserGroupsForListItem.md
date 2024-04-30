@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Walsh-Turner",
-    "ToolTip": "Itaque id aut recusandae tempore praesentium voluptates ut.",
+    "Id": 352,
+    "Name": "Bailey Group",
+    "ToolTip": "Quia rem ut autem ut dolor possimus veritatis.",
     "Deleted": true,
-    "Rank": 635,
-    "Type": "provident",
-    "ColorBlock": 402,
-    "IconHint": "voluptatum",
+    "Rank": 578,
+    "Type": "ut",
+    "ColorBlock": 250,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2001-04-23T11:44:43.3043478+02:00",
+    "LastChanged": "2019-11-22T11:16:14.7151586+01:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Kirlin, Kemmer and Halvorson",
-        "ToolTip": "Adipisci odit earum ipsum et incidunt numquam.",
-        "Deleted": true,
-        "Rank": 643,
-        "Type": "commodi",
-        "ColorBlock": 580,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2011-10-21T11:44:43.3043478+02:00",
+        "Id": 310,
+        "Name": "Lemke LLC",
+        "ToolTip": "Ipsa veniam provident est quo dolorem numquam inventore.",
+        "Deleted": false,
+        "Rank": 140,
+        "Type": "et",
+        "ColorBlock": 994,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2020-05-08T11:16:14.7151586+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Rodolfo Waelchi",
+        "ExtraInfo": "iste",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Paige Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 209
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Mrs. Eloise Wilma Ritchie",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Miss Ambrose Adella Howell DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldLength": 866
       }
     }
   }

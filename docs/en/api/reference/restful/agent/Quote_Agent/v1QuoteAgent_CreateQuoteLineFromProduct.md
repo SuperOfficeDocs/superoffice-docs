@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 858,
+  "QuoteAlternativeId": 965,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 107,
-  "ERPQuoteLineKey": "quasi",
-  "QuoteAlternativeId": 285,
-  "ERPProductKey": "consequatur",
+  "QuoteLineId": 532,
+  "ERPQuoteLineKey": "quis",
+  "QuoteAlternativeId": 638,
+  "ERPProductKey": "explicabo",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 19186.347999999998,
-  "DeliveredQuantity": 24376.252,
-  "Rank": 86,
-  "Name": "Ratke Inc and Sons",
-  "Description": "Multi-channelled explicit customer loyalty",
-  "Code": "debitis",
-  "QuantityUnit": "aperiam",
-  "PriceUnit": "qui",
-  "ItemNumber": "916347",
+  "Quantity": 4848.298,
+  "DeliveredQuantity": 26573.185999999998,
+  "Rank": 378,
+  "Name": "Homenick LLC",
+  "Description": "Reverse-engineered fault-tolerant paradigm",
+  "Code": "aut",
+  "QuantityUnit": "a",
+  "PriceUnit": "dolore",
+  "ItemNumber": "1095365",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "eum",
-  "Supplier": "porro",
-  "SupplierCode": "sit",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "sit",
-  "VAT": 18167.798,
-  "UnitCost": 28726.244,
-  "UnitMinimumPrice": 10978.402,
-  "UnitListPrice": 12601.814,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "autem",
+  "Supplier": "cupiditate",
+  "SupplierCode": "harum",
+  "Thumbnail": "neque",
+  "VATInfo": "alias",
+  "VAT": 23295.022,
+  "UnitCost": 13808.404,
+  "UnitMinimumPrice": 16183.975999999999,
+  "UnitListPrice": 4158.818,
   "ExtraInfo": [
     {
-      "Name": "Shanahan, Kerluke and Rutherford",
-      "Value": "vel",
+      "Name": "Dickinson-Dooley",
+      "Value": "mollitia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 70
         }
       }
     },
     {
-      "Name": "Shanahan, Kerluke and Rutherford",
-      "Value": "vel",
+      "Name": "Dickinson-Dooley",
+      "Value": "mollitia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 70
         }
       }
     }
   ],
-  "RawExtraInfo": "omnis",
+  "RawExtraInfo": "quam",
   "IsSubscription": false,
-  "SubscriptionUnit": "nisi",
-  "SubscriptionQuantity": 26344.404,
-  "SubscriptionStart": "2015-07-12T11:44:34.3063794+02:00",
-  "ERPDiscountPercent": 25620.45,
-  "ERPDiscountAmount": 9671.524,
-  "DiscountPercent": 22668.221999999998,
-  "DiscountAmount": 21690.414,
+  "SubscriptionUnit": "inventore",
+  "SubscriptionQuantity": 30039.39,
+  "SubscriptionStart": "2000-11-11T11:16:09.6161411+01:00",
+  "ERPDiscountPercent": 7687.7019999999993,
+  "ERPDiscountAmount": 24536.086,
+  "DiscountPercent": 22752.84,
+  "DiscountAmount": 16183.975999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24971.712,
-  "EarningAmount": 30004.915999999997,
-  "SubTotal": 30506.356,
-  "TotalPrice": 29563.022,
-  "Rights": "in",
-  "Rule": "quibusdam",
-  "ExtraField1": "labore",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "rerum",
-  "ExtraField4": "inventore",
-  "ExtraField5": "eligendi",
+  "EarningPercent": 19916.57,
+  "EarningAmount": 8941.302,
+  "SubTotal": 7866.34,
+  "TotalPrice": 31111.218,
+  "Rights": "consequuntur",
+  "Rule": "occaecati",
+  "ExtraField1": "exercitationem",
+  "ExtraField2": "sit",
+  "ExtraField3": "nostrum",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 170
     }
   }
 }

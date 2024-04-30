@@ -709,7 +709,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=sourceSelectionRestrictionId,documentPublish/publishedTo,person/birthdate,person/personAssociate/contactDepartment,person/correspondingAssociate/contactCategory
+GET /api/v1/archive/LinksDocuments?$select=subject,person/personRegisteredByFullName,contact/orgnr,project/projectEvent/eventDate,sale/time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Predovic, Howe and Okuneva",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 275,
-  "Rank": 70
+  "Id": 652,
+  "Name": "O'Keefe Group",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 175,
+  "Rank": 180
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Gulgowski Group",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 208,
-  "Rank": 651,
+  "Id": 670,
+  "Name": "Heller Inc and Sons",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "UdListDefinitionId": 225,
+  "Rank": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 36
     }
   }
 }

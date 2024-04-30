@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 511,
-    "Name": "Murphy-Bode",
-    "Tooltip": "explicabo",
+    "HeadingId": 458,
+    "Name": "O'Connell LLC",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 15,
-    "UdListDefinitionId": 36,
+    "Rank": 556,
+    "UdListDefinitionId": 772,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 597
       }
     }
   }

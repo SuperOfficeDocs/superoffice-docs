@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 641,
-  "WorkflowId": 787,
+  "WorkflowTriggerId": 806,
+  "WorkflowId": 315,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Fay, VonRueden and Hegmann",
-      "Description": "Assimilated clear-thinking extranet",
-      "Rank": 850,
+      "Name": "D'Amore Inc and Sons",
+      "Description": "Balanced client-server customer loyalty",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Fay, VonRueden and Hegmann",
-      "Description": "Assimilated clear-thinking extranet",
-      "Rank": 850,
+      "Name": "D'Amore Inc and Sons",
+      "Description": "Balanced client-server customer loyalty",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldLength": 700
     }
   }
 }

@@ -87,28 +87,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jakubowski LLC",
+  "ProviderName": "Bosco-Ruecker",
   "Restrictions": [
     {
-      "Name": "Buckridge Inc and Sons",
-      "Operator": "quis",
+      "Name": "Steuber-Cartwright",
+      "Operator": "reprehenderit",
       "Values": [
-        "minus",
-        "sequi"
+        "iusto",
+        "porro"
       ],
       "DisplayValues": [
-        "voluptatum",
-        "perspiciatis"
+        "itaque",
+        "quae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 851,
+      "InterParenthesis": 863,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 366
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell, Kerluke and Halvorson",
-    "Operator": "architecto",
+    "Name": "Grimes Group",
+    "Operator": "sapiente",
     "Values": [
-      "rerum",
-      "architecto"
+      "quisquam",
+      "ea"
     ],
     "DisplayValues": [
-      "veniam",
-      "aut"
+      "culpa",
+      "at"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Daniel-D'Amore",
-        "Operator": "fuga",
+        "Name": "Reichert-Leannon",
+        "Operator": "est",
         "Values": [
-          "architecto",
-          "rerum"
+          "dolor",
+          "maxime"
         ],
         "DisplayValues": [
-          "ut",
-          "optio"
+          "voluptas",
+          "sunt"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 359,
+        "InterParenthesis": 10,
         "InterOperator": "And",
-        "UniqueHash": 508
+        "UniqueHash": 589
       }
     ],
-    "InterParenthesis": 365,
+    "InterParenthesis": 820,
     "InterOperator": "And",
-    "UniqueHash": 107
+    "UniqueHash": 170
   }
 ]
 ```

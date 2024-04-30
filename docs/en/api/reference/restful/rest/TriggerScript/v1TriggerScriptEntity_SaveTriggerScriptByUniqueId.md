@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 628,
-  "Name": "Beatty, Bailey and Macejkovic",
+  "ScreenChooserId": 28,
+  "Name": "Romaguera Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "doloribus",
-  "Source": "rem",
-  "Registered": "1999-05-12T11:44:42.6951171+02:00",
-  "RegisteredAssociateId": 815,
-  "Updated": "2012-11-30T11:44:42.6951171+01:00",
-  "UpdatedAssociateId": 169
+  "UniqueIdentifier": "reprehenderit",
+  "Source": "rerum",
+  "Registered": "2019-12-13T11:16:14.3398362+01:00",
+  "RegisteredAssociateId": 557,
+  "Updated": "1999-12-09T11:16:14.3398362+01:00",
+  "UpdatedAssociateId": 179
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 727,
-  "Name": "Fritsch Inc and Sons",
+  "ScreenChooserId": 58,
+  "Name": "Jast-Reynolds",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eius",
-  "Source": "nulla",
-  "Registered": "2007-12-24T11:44:42.6951171+01:00",
-  "RegisteredAssociateId": 238,
-  "Updated": "2020-06-20T11:44:42.6951171+02:00",
-  "UpdatedAssociateId": 898,
+  "UniqueIdentifier": "eligendi",
+  "Source": "enim",
+  "Registered": "2002-09-19T11:16:14.3398362+02:00",
+  "RegisteredAssociateId": 921,
+  "Updated": "2019-09-07T11:16:14.3398362+02:00",
+  "UpdatedAssociateId": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

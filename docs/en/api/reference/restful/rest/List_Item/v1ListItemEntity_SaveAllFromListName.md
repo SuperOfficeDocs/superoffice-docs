@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Gerlach Inc and Sons",
-    "Tooltip": "amet",
+    "Id": 18,
+    "Name": "Marquardt LLC",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 593,
-    "Rank": 893
+    "UdListDefinitionId": 344,
+    "Rank": 938
   },
   {
-    "Id": 981,
-    "Name": "Gerlach Inc and Sons",
-    "Tooltip": "amet",
+    "Id": 18,
+    "Name": "Marquardt LLC",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 593,
-    "Rank": 893
+    "UdListDefinitionId": 344,
+    "Rank": 938
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Krajcik Group",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "UdListDefinitionId": 795,
-    "Rank": 697,
+    "Id": 473,
+    "Name": "McClure Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 560,
+    "Rank": 416,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

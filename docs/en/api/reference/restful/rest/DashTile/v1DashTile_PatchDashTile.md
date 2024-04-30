@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 65,
-  "DashboardId": 627,
-  "Height": 471,
-  "Width": 875,
-  "Rank": 940,
+  "DashboardTileId": 903,
+  "DashboardId": 416,
+  "Height": 3,
+  "Width": 663,
+  "Rank": 499,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   },
   "_Links": {

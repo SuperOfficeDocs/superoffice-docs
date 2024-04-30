@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 26554.381999999998,
-  "FromCurrency": "praesentium",
-  "ToCurrency": "cum"
+  "Amount": 19562.428,
+  "FromCurrency": "odit",
+  "ToCurrency": "omnis"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-7167.458
+30600.376
 ```

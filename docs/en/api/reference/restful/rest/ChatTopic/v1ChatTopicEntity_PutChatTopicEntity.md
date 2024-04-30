@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 212,
-  "Name": "Morissette-Wintheiser",
-  "Description": "Implemented national throughput",
-  "WelcomeMessage": "molestiae",
+  "ChatTopicId": 623,
+  "Name": "Lockman Group",
+  "Description": "Enterprise-wide mobile algorithm",
+  "WelcomeMessage": "id",
   "Language": null,
-  "LastAccept": "2014-09-18T11:44:41.6952942+02:00",
-  "SecondsPrAccept": 643,
-  "AlertRecipient": "quo",
+  "LastAccept": "2000-11-18T11:16:13.7456138+01:00",
+  "SecondsPrAccept": 186,
+  "AlertRecipient": "laboriosam",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "rerum",
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 806,
-  "WarnManagerNewChatMinutes": 618,
-  "TicketEnabled": false,
+  "CustomQueueText": "libero",
+  "WarnNewChatMinutes": 901,
+  "WarnManagerNewChatMinutes": 939,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 971,
-  "WarnManagerChatMessageMinutes": 314,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 36,
+  "WarnManagerChatMessageMinutes": 630,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 850,
-  "OfflineFormQueueLength": 864,
+  "OfflineFormTimeLimit": 456,
+  "OfflineFormQueueLength": 79,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ipsam"
+  "WidgetRatingText": "amet"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 216,
-  "Name": "Wintheiser Inc and Sons",
-  "Description": "Open-architected zero administration knowledge base",
-  "WelcomeMessage": "quasi",
+  "ChatTopicId": 390,
+  "Name": "Quigley LLC",
+  "Description": "Stand-alone bifurcated open architecture",
+  "WelcomeMessage": "quia",
   "Language": null,
-  "LastAccept": "2015-12-06T11:44:41.7109149+01:00",
-  "SecondsPrAccept": 211,
-  "AlertRecipient": "impedit",
+  "LastAccept": "2002-02-19T11:16:13.7456138+01:00",
+  "SecondsPrAccept": 388,
+  "AlertRecipient": "debitis",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dolores",
+  "BadgeHeader": "cumque",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sit",
-  "WarnNewChatMinutes": 604,
-  "WarnManagerNewChatMinutes": 924,
-  "TicketEnabled": true,
+  "CustomQueueText": "quis",
+  "WarnNewChatMinutes": 250,
+  "WarnManagerNewChatMinutes": 916,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 822,
-  "WarnManagerChatMessageMinutes": 444,
+  "WarnChatMessageMinutes": 646,
+  "WarnManagerChatMessageMinutes": 925,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 574,
-  "OfflineFormQueueLength": 880,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "quis",
+  "OfflineFormTimeLimit": 285,
+  "OfflineFormQueueLength": 65,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 577
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

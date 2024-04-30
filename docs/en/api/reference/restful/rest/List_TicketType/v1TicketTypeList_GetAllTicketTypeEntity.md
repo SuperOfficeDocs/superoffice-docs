@@ -63,6 +63,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,34 +84,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 977,
-    "Name": "Predovic, O'Hara and Bernier",
-    "Rank": 30,
+    "TicketTypeId": 165,
+    "Name": "Hackett-Fadel",
+    "Rank": 791,
     "Tooltip": "dolorem",
-    "Icon": "similique",
-    "DefaultTicketStatus": 301,
+    "Icon": "voluptatem",
+    "DefaultTicketStatus": 908,
     "TicketStatuses": [
-      255,
-      910
+      620,
+      561
     ],
-    "DefaultTicketPriority": 722,
+    "DefaultTicketPriority": 1000,
     "TicketPriorities": [
-      669,
-      552
+      100,
+      663
     ],
-    "ReplyTemplate": 132,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 942,
+    "IsExternalVisible": true,
     "IsDefault": false,
-    "ShowInNew": false,
-    "ExcludeSignature": true,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
+    "VisibleForGroups": [
+      548,
+      706
+    ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldLength": 352
       }
     }
   }

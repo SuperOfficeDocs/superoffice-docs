@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Spinka, Bergnaum and Hudson",
-    "ToolTip": "Corrupti id nobis unde consequatur est.",
+    "Id": 992,
+    "Name": "Kirlin-White",
+    "ToolTip": "Nemo consequuntur beatae incidunt blanditiis explicabo enim.",
     "Deleted": false,
-    "Rank": 435,
-    "Type": "sunt",
-    "ColorBlock": 17,
-    "IconHint": "aperiam",
+    "Rank": 141,
+    "Type": "deserunt",
+    "ColorBlock": 753,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2018-02-20T11:44:43.1949983+01:00",
+    "LastChanged": "2004-09-21T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Hahn LLC",
-        "ToolTip": "Nemo voluptas.",
-        "Deleted": true,
-        "Rank": 230,
-        "Type": "quasi",
-        "ColorBlock": 427,
-        "IconHint": "ab",
+        "Id": 467,
+        "Name": "Mayert-Haag",
+        "ToolTip": "Odio est.",
+        "Deleted": false,
+        "Rank": 622,
+        "Type": "voluptatem",
+        "ColorBlock": 859,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2001-06-19T11:44:43.1949983+02:00",
+        "LastChanged": "2011-07-08T11:16:14.6370359+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "qui",
+        "ExtraInfo": "omnis",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Glenna Wyman"
+        "FullName": "Fanny Gleichner"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "nisi",
+    "ExtraInfo": "alias",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Hillary Gerlach"
+    "FullName": "Prof. Nicklaus Schoen Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Padberg Group",
-    "ToolTip": "Soluta quibusdam provident earum nihil.",
+    "Id": 928,
+    "Name": "Jerde, Schulist and Schaden",
+    "ToolTip": "Molestiae ullam officiis.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "quas",
-    "ColorBlock": 328,
-    "IconHint": "minima",
+    "Rank": 499,
+    "Type": "et",
+    "ColorBlock": 794,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2021-04-18T11:44:43.1949983+02:00",
+    "LastChanged": "2007-05-29T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Jacobs-Harris",
-        "ToolTip": "Consequatur delectus atque perspiciatis quia porro dicta debitis.",
+        "Id": 454,
+        "Name": "Hermann, Smith and Dickens",
+        "ToolTip": "Debitis facere.",
         "Deleted": false,
-        "Rank": 59,
-        "Type": "ut",
-        "ColorBlock": 735,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "2000-07-02T11:44:43.1949983+02:00",
+        "Rank": 443,
+        "Type": "eos",
+        "ColorBlock": 973,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2021-08-28T11:16:14.6370359+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Tristin Abernathy",
+        "ExtraInfo": "saepe",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Delilah Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Darrick Murazik",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Riley Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

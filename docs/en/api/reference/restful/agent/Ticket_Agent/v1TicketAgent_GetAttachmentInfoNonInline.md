@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 853
+  "TicketMessageEntityId": 843
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 465,
-    "Name": "Ankunding Inc and Sons",
-    "ContentType": "iste",
-    "AttSize": 801,
-    "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "deleniti",
+    "AttachmentId": 378,
+    "Name": "Osinski, Yundt and O'Conner",
+    "ContentType": "non",
+    "AttSize": 933,
+    "InlineImage": true,
+    "ContentId": "ea",
+    "AuthKey": "sed",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

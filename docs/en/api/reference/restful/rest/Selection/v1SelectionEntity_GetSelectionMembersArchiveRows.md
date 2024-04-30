@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nostrum",
+  "odata.nextLink": "sint",
   "value": [
     {
-      "PrimaryKey": 8556,
-      "EntityName": "sale",
-      "saleId": 8556,
-      "contactId": 9876,
-      "name": "Mante Inc and Sons"
+      "PrimaryKey": 6418,
+      "EntityName": "person",
+      "personId": 6418,
+      "fullName": "Joel Prosacco MD"
     },
     {
-      "PrimaryKey": 788,
-      "EntityName": "sale",
-      "saleId": 788,
-      "contactId": 4822,
-      "name": "Farrell-Beahan"
+      "PrimaryKey": 507,
+      "EntityName": "person",
+      "personId": 507,
+      "fullName": "Dr. Flo Kris V"
     }
   ]
 }

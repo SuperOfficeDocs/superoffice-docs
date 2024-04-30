@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wiza-Runolfsdottir",
-  "ListItemId": 322,
+  "UdListDefinitionName": "Morar-Friesen",
+  "ListItemId": 153,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Eichmann, Jast and Kertzmann",
-    "ToolTip": "Veniam rerum quasi laudantium quos fugiat necessitatibus aspernatur.",
+    "Id": 427,
+    "Name": "Smith-Pfeffer",
+    "ToolTip": "Iste pariatur temporibus voluptas officiis necessitatibus et.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "velit",
-    "ColorBlock": 551,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "1997-09-04T11:44:33.8534097+02:00",
+    "Rank": 964,
+    "Type": "sed",
+    "ColorBlock": 396,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2001-11-12T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Strosin-Medhurst",
-        "ToolTip": "Sit excepturi aut autem et nostrum.",
-        "Deleted": false,
-        "Rank": 122,
-        "Type": "atque",
-        "ColorBlock": 86,
-        "IconHint": "et",
+        "Id": 119,
+        "Name": "Leffler-Bashirian",
+        "ToolTip": "Corrupti vitae eaque.",
+        "Deleted": true,
+        "Rank": 81,
+        "Type": "modi",
+        "ColorBlock": 983,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2022-05-19T11:44:33.8534097+02:00",
+        "LastChanged": "2007-04-22T11:16:09.3347069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "quis",
+        "ExtraInfo": "atque",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Lavinia Parisian",
+        "FullName": "Roel Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 29
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "eveniet",
-    "Hidden": true,
-    "FullName": "Tad Balistreri",
+    "ExtraInfo": "sed",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Orval Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 272
       }
     }
   }

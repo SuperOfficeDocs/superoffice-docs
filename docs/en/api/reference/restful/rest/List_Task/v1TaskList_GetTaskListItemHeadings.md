@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 600,
-    "Name": "Weissnat Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 365,
-    "UdListDefinitionId": 102,
+    "HeadingId": 199,
+    "Name": "Labadie, Cassin and Orn",
+    "Tooltip": "odit",
+    "Deleted": false,
+    "Rank": 688,
+    "UdListDefinitionId": 247,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

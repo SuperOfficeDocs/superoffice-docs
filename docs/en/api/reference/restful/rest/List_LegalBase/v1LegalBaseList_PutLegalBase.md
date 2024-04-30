@@ -84,11 +84,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 319,
-  "Name": "Bartoletti, Parisian and Cassin",
-  "Tooltip": "sunt",
-  "Rank": 963,
-  "Key": "sint",
+  "LegalBaseId": 99,
+  "Name": "Raynor Inc and Sons",
+  "Tooltip": "doloremque",
+  "Rank": 966,
+  "Key": "ut",
   "Deleted": false
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 788,
-  "Name": "Rodriguez Inc and Sons",
-  "Tooltip": "sunt",
-  "Rank": 401,
-  "Key": "et",
-  "Deleted": false,
+  "LegalBaseId": 591,
+  "Name": "Gulgowski-Stokes",
+  "Tooltip": "enim",
+  "Rank": 310,
+  "Key": "aliquam",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

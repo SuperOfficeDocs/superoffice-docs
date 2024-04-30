@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive executive function",
-  "Postit": "autem",
+  "Description": "Compatible actuating archive",
+  "Postit": "magni",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 469,
-  "IncludePerson": 762,
-  "MemberCount": 558,
-  "Name": "Rempel-Cole",
-  "PostitTextId": 178,
-  "CreatedDate": "2015-02-22T11:44:34.4626459+01:00",
-  "SelectionId": 245,
-  "SoundEx": "facilis",
-  "Source": 482,
-  "TextId": 253,
-  "UpdatedDate": "2023-08-27T11:44:34.4626459+02:00",
-  "UpdatedCount": 890,
-  "Visibility": 951,
+  "GroupIdx": 701,
+  "IncludePerson": 376,
+  "MemberCount": 741,
+  "Name": "Auer Group",
+  "PostitTextId": 698,
+  "CreatedDate": "1998-02-20T11:16:09.7259925+01:00",
+  "SelectionId": 239,
+  "SoundEx": "voluptatem",
+  "Source": 5,
+  "TextId": 562,
+  "UpdatedDate": "2022-05-10T11:16:09.7259925+02:00",
+  "UpdatedCount": 786,
+  "Visibility": 602,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 242,
-  "TargetTableName": "Gulgowski-Steuber",
-  "Completed": true,
-  "LeftSelectionId": 396,
-  "RightSelectionId": 631,
+  "TargetTableNumber": 501,
+  "TargetTableName": "Heller, Reilly and Rogahn",
+  "Completed": false,
+  "LeftSelectionId": 335,
+  "RightSelectionId": 231,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rempel LLC",
-  "ShadowProviderName": "Nolan, Ondricka and Toy",
-  "ChartKey": "ea",
-  "LastLoaded": "1999-12-25T11:44:34.4626459+01:00",
-  "LastLoadedBy": 326,
+  "MainProviderName": "Roberts-Zboncak",
+  "ShadowProviderName": "Rolfson, Pacocha and Sawayn",
+  "ChartKey": "culpa",
+  "LastLoaded": "2018-04-09T11:16:09.7259925+02:00",
+  "LastLoadedBy": 214,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-05-16T11:44:34.4626459+02:00",
-  "LastMembershipChangeBy": 287,
+  "LastMembershipChange": "2003-12-06T11:16:09.7259925+01:00",
+  "LastMembershipChangeBy": 15,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "corrupti",
-  "MemberTabHeading": "possimus",
-  "MailingsProviderName": "Sawayn-Stiedemann",
-  "DashboardTileDefinitionId": 536,
+  "MainHeading": "pariatur",
+  "MemberTabHeading": "veritatis",
+  "MailingsProviderName": "Leuschke Group",
+  "DashboardTileDefinitionId": 395,
   "VisibleFor": [
     {
-      "VisibleId": 5,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 383
         }
       }
     },
     {
-      "VisibleId": 5,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 383
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   }
 }

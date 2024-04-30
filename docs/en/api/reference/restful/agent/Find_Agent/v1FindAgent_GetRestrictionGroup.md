@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Gutkowski-Crist",
-  "StorageKey": "sed",
-  "Rank": 88,
-  "Context": "odio"
+  "StorageType": "possimus",
+  "ProviderName": "Thiel-Gislason",
+  "StorageKey": "dolorum",
+  "Rank": 510,
+  "Context": "animi"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyle Inc and Sons",
-  "Description": "Diverse bi-directional groupware",
-  "Rank": 807,
+  "Name": "Koepp-Halvorson",
+  "Description": "Programmable encompassing moderator",
+  "Rank": 355,
   "Restrictions": [
     {
-      "Name": "Feil LLC",
-      "Operator": "maxime",
+      "Name": "Schuppe-Schaden",
+      "Operator": "a",
       "Values": [
-        "nihil",
-        "quia"
+        "natus",
+        "veniam"
       ],
       "DisplayValues": [
-        "nam",
-        "voluptas"
+        "asperiores",
+        "debitis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 113,
+      "InterParenthesis": 553,
       "InterOperator": "And",
-      "UniqueHash": 269
+      "UniqueHash": 890
     }
   ]
 }

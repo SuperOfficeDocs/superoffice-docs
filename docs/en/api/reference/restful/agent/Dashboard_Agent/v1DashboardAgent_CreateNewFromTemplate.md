@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 895,
-  "Caption": "minus",
-  "Description": "Realigned 4th generation contingency",
-  "SelectionId": 8,
+  "DashboardTileId": 120,
+  "Caption": "culpa",
+  "Description": "Exclusive needs-based conglomeration",
+  "SelectionId": 618,
   "VisibleFor": [
     {
-      "VisibleId": 256,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "fuga"
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "fuga"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 91,
-  "Caption": "doloribus",
-  "Description": "Synchronised discrete challenge",
-  "ChartName": "Toy-Medhurst",
-  "ChartId": "nihil",
-  "IsDefault": false,
-  "AssociateId": 90,
-  "GroupId": 232,
-  "SelectionId": 486,
-  "Config": "sed",
+  "DashboardTileId": 974,
+  "Caption": "soluta",
+  "Description": "Re-contextualized discrete complexity",
+  "ChartName": "Schultz LLC",
+  "ChartId": "vel",
+  "IsDefault": true,
+  "AssociateId": 212,
+  "GroupId": 15,
+  "SelectionId": 183,
+  "Config": "enim",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jakubowski Group",
-      "Description": "Implemented maximized forecast",
+      "Name": "Kuhlman, Volkman and Larson",
+      "Description": "Operative composite collaboration",
       "Type": "Boolean",
-      "ListName": "Spinka Inc and Sons",
+      "ListName": "Breitenberg, Ankunding and Aufderhar",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "doloremque",
-      "DefaultDataOption": true,
+      "Value": "nam",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 554
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 357,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 711
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 357,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 711
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 929
     }
   }
 }

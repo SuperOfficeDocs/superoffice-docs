@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 937,
-  "Name": "Swaniawski-Keebler",
-  "Tooltip": "ut",
-  "Rank": 62,
+  "ProjTypeId": 554,
+  "Name": "Schroeder, Oberbrunner and Marquardt",
+  "Tooltip": "debitis",
+  "Rank": 318,
   "DurationUnit": "Century",
-  "ProjectDuration": 128,
+  "ProjectDuration": 411,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 612,
-      "Name": "Little Inc and Sons",
-      "ToolTip": "Fugit eligendi.",
-      "Deleted": false,
-      "Rank": 612,
-      "Type": "corporis",
-      "ColorBlock": 737,
-      "IconHint": "aperiam",
-      "Selected": true,
-      "LastChanged": "2013-03-28T11:44:33.9002761+01:00",
+      "Id": 290,
+      "Name": "Hodkiewicz LLC",
+      "ToolTip": "Minima porro nemo omnis quos temporibus aut voluptas.",
+      "Deleted": true,
+      "Rank": 789,
+      "Type": "sed",
+      "ColorBlock": 1002,
+      "IconHint": "eius",
+      "Selected": false,
+      "LastChanged": "2018-09-30T11:16:09.3659552+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "sunt",
+      "ExtraInfo": "quia",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Ms. Dino Antonietta Hudson",
+      "FullName": "Ashton Schaefer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sequi",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "facilis",
-  "DisplayTooltip": "eaque",
+  "DisplayValue": "est",
+  "DisplayTooltip": "mollitia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 713,
-  "PrefDescId": 558,
-  "TableName": "Hintz-Brakus",
-  "UserPreferenceId": 646
+  "TargetId": 751,
+  "PrefDescId": 280,
+  "TableName": "Kemmer Inc and Sons",
+  "UserPreferenceId": 499
 }
 ```
 

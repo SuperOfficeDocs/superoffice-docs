@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Bogan-Legros",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 731,
+  "Id": 204,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "Rank": 410,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "neque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 864
     }
   }
 }

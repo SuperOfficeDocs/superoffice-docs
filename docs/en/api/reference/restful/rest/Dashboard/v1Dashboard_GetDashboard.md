@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 711,
-  "AssociateId": 837,
-  "Caption": "modi",
+  "DashboardId": 225,
+  "AssociateId": 304,
+  "Caption": "voluptatem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 592,
-      "Caption": "quos",
-      "Description": "Advanced empowering database",
-      "ChartName": "Effertz, Macejkovic and Casper",
-      "ChartId": "saepe",
-      "IsDefault": false,
-      "AssociateId": 287,
-      "GroupId": 458,
-      "SelectionId": 54,
-      "Config": "dolorem",
+      "DashboardTileId": 825,
+      "Caption": "tempore",
+      "Description": "Distributed well-modulated secured line",
+      "ChartName": "Crona, D'Amore and Vandervort",
+      "ChartId": "est",
+      "IsDefault": true,
+      "AssociateId": 174,
+      "GroupId": 117,
+      "SelectionId": 999,
+      "Config": "ut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldLength": 490
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 529
     }
   },
   "_Links": {

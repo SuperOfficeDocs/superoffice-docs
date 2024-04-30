@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 410,
-  "Username": "suscipit"
+  "ChatTopicId": 718,
+  "Username": "incidunt"
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 90,
+  "TopicId": 134,
   "User": null,
-  "CanListen": false,
-  "CanRespond": true,
-  "CanManage": true,
-  "CanNotify": false
+  "CanListen": true,
+  "CanRespond": false,
+  "CanManage": false,
+  "CanNotify": true
 }
 ```

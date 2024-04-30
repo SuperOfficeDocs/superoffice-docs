@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Conroy-Legros",
-    "ToolTip": "Qui labore molestias omnis labore.",
-    "Deleted": false,
-    "Rank": 832,
-    "Type": "ratione",
-    "ColorBlock": 465,
-    "IconHint": "sed",
+    "Id": 791,
+    "Name": "Rau Group",
+    "ToolTip": "Quis suscipit.",
+    "Deleted": true,
+    "Rank": 954,
+    "Type": "et",
+    "ColorBlock": 300,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2004-02-23T11:44:43.3355939+01:00",
+    "LastChanged": "2016-05-06T11:16:14.7307772+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "McClure-Hand",
-        "ToolTip": "Quidem officiis amet ad.",
-        "Deleted": true,
-        "Rank": 731,
-        "Type": "temporibus",
-        "ColorBlock": 725,
-        "IconHint": "facilis",
-        "Selected": false,
-        "LastChanged": "2002-11-29T11:44:43.3355939+01:00",
+        "Id": 795,
+        "Name": "Roob, Goodwin and Davis",
+        "ToolTip": "Consequatur dolore facilis cum sit.",
+        "Deleted": false,
+        "Rank": 86,
+        "Type": "harum",
+        "ColorBlock": 745,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2002-10-08T11:16:14.7307772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "quia",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Florine Tremblay"
+        "FullName": "Judah Lubowitz"
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Arlo Christiansen"
+    "ExtraInfo": "animi",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Lesley Prosacco"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Hilpert, Stanton and Schoen",
-    "ToolTip": "Fuga nobis dolorem quas eum aut qui eveniet.",
-    "Deleted": false,
-    "Rank": 971,
-    "Type": "assumenda",
-    "ColorBlock": 236,
-    "IconHint": "et",
+    "Id": 989,
+    "Name": "Collier, Nienow and Dooley",
+    "ToolTip": "Ab et et modi ut ducimus animi dolor.",
+    "Deleted": true,
+    "Rank": 865,
+    "Type": "eos",
+    "ColorBlock": 667,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2024-02-12T11:44:43.3355939+01:00",
+    "LastChanged": "2016-11-15T11:16:14.7307772+01:00",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Krajcik Inc and Sons",
-        "ToolTip": "Sunt aut perspiciatis voluptatem dolores ut et.",
-        "Deleted": false,
-        "Rank": 501,
-        "Type": "dolorem",
-        "ColorBlock": 205,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2019-11-22T11:44:43.3355939+01:00",
+        "Id": 49,
+        "Name": "Ankunding, Ledner and Baumbach",
+        "ToolTip": "Omnis quia tenetur accusamus nemo voluptatem blanditiis.",
+        "Deleted": true,
+        "Rank": 962,
+        "Type": "voluptatum",
+        "ColorBlock": 48,
+        "IconHint": "magni",
+        "Selected": false,
+        "LastChanged": "2008-11-01T11:16:14.7307772+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "qui",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Napoleon Abernathy DVM",
+        "FullName": "Hanna Will Hamill Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 904
+            "FieldType": "System.Int32",
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Miss Markus Aisha Eichmann Jr.",
+    "ExtraInfo": "debitis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Sibyl Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 474
       }
     }
   }

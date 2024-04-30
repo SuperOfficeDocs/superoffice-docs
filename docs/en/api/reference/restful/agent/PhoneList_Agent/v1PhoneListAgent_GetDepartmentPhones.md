@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 635
+  "DepartmentId": 359
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "471.164.5812 x251",
-    "PersonCellPhone": "956.793.2998 x338",
-    "PersonPrivatePhone": "412.701.2719",
-    "PersonFaxNumber": "1181474",
-    "PersonPagerNumber": "859400",
-    "PersonEmail": "elton@anderson.info",
-    "Id": 908,
-    "Name": "Padberg-Erdman",
-    "Tooltip": "et",
-    "UniqueId": "quae",
+    "PersonDirectPhone": "312-327-3973 x793",
+    "PersonCellPhone": "894.407.4571",
+    "PersonPrivatePhone": "201.431.5738",
+    "PersonFaxNumber": "1027913",
+    "PersonPagerNumber": "950441",
+    "PersonEmail": "giovanny@johnstonstroman.ca",
+    "Id": 313,
+    "Name": "O'Hara LLC",
+    "Tooltip": "qui",
+    "UniqueId": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

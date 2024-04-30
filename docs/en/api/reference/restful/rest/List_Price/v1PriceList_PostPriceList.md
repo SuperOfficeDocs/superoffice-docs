@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 269,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 809,
-  "Name": "Monahan-Kris",
-  "Description": "Persistent fault-tolerant task-force",
-  "Currency": "quo",
-  "CurrencyName": "Kling Inc and Sons",
-  "ValidFrom": "2018-01-11T11:44:43.1637513+01:00",
-  "ValidTo": "2021-07-20T11:44:43.1637513+02:00",
-  "IsActive": false
+  "PriceListId": 888,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 457,
+  "Name": "Bogisich Group",
+  "Description": "Team-oriented assymetric task-force",
+  "Currency": "nihil",
+  "CurrencyName": "Ullrich-O'Kon",
+  "ValidFrom": "2018-09-17T11:16:14.6214085+02:00",
+  "ValidTo": "2018-05-01T11:16:14.6214085+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 792,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 656,
-  "Name": "Borer-Conroy",
-  "Description": "Team-oriented motivating approach",
-  "Currency": "mollitia",
-  "CurrencyName": "Stanton-Lind",
-  "ValidFrom": "2001-05-30T11:44:43.1637513+02:00",
-  "ValidTo": "2014-06-14T11:44:43.1637513+02:00",
+  "PriceListId": 674,
+  "ERPPriceListKey": "velit",
+  "QuoteConnectionId": 939,
+  "Name": "Mosciski-Douglas",
+  "Description": "Seamless zero defect functionalities",
+  "Currency": "recusandae",
+  "CurrencyName": "Jones Group",
+  "ValidFrom": "1999-04-16T11:16:14.6214085+02:00",
+  "ValidTo": "2014-08-14T11:16:14.6214085+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 50
     }
   },
   "_Links": {

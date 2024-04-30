@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 975,
-  "ColumnId": 930,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 849,
-  "FieldLabel": "est",
-  "FieldLeft": 854,
-  "FieldTop": 8,
+  "UDefFieldId": 660,
+  "ColumnId": 556,
+  "FieldDefault": "eum",
+  "FieldHeight": 94,
+  "FieldLabel": "molestiae",
+  "FieldLeft": 475,
+  "FieldTop": 319,
   "FieldType": "Checkbox",
-  "FieldWidth": 620,
-  "FormatMask": "iure",
+  "FieldWidth": 467,
+  "FormatMask": "impedit",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 758,
-  "LabelLeft": 89,
-  "LabelTop": 997,
-  "LabelWidth": 789,
-  "LastVersionId": 632,
-  "ListTableId": 805,
+  "IsIndexed": true,
+  "LabelHeight": 33,
+  "LabelLeft": 213,
+  "LabelTop": 808,
+  "LabelWidth": 729,
+  "LastVersionId": 391,
+  "ListTableId": 847,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 610,
-  "ProgId": "sint",
+  "Page1LineNo": 230,
+  "ProgId": "nam",
   "IsReadOnly": true,
-  "ShortLabel": "non",
-  "TabOrder": 293,
-  "TextLength": 956,
-  "Tooltip": "sunt",
-  "UdefIdentity": 581,
-  "UDListDefinitionId": 417,
+  "ShortLabel": "qui",
+  "TabOrder": 686,
+  "TextLength": 991,
+  "Tooltip": "omnis",
+  "UdefIdentity": 89,
+  "UDListDefinitionId": 92,
   "Justification": "Center",
-  "Version": 330,
-  "TemplateVariableName": "Weber, Ebert and Bruen",
+  "Version": 435,
+  "TemplateVariableName": "Spinka, Huel and Kutch",
   "HasBeenPublished": false,
-  "MdoListName": "Buckridge-Grimes",
+  "MdoListName": "Kemmer-Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

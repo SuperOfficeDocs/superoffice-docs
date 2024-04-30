@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "itaque",
-  "ProviderName": "Littel, Howe and Jerde",
-  "StorageKey": "autem",
+  "StorageType": "laudantium",
+  "ProviderName": "Walker-Sporer",
+  "StorageKey": "rerum",
   "Restrictions": [
     {
-      "Name": "Harber, Abshire and Hudson",
-      "Operator": "maxime",
+      "Name": "Ratke-Upton",
+      "Operator": "repellat",
       "Values": [
-        "id",
-        "doloremque"
+        "cumque",
+        "itaque"
       ],
       "DisplayValues": [
-        "at",
-        "vel"
+        "maxime",
+        "iure"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 699,
+      "InterParenthesis": 682,
       "InterOperator": "And",
-      "UniqueHash": 494
+      "UniqueHash": 362
     }
   ]
 }

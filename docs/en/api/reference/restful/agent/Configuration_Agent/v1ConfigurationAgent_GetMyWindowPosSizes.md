@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "eius",
-    "PersonId": 543,
-    "AssociateId": 87,
-    "ExtraId": 848,
-    "ExtraInfo": "aut",
-    "Height": 829,
-    "LeftX": 37,
+    "OwnerWindow": "exercitationem",
+    "PersonId": 26,
+    "AssociateId": 964,
+    "ExtraId": 773,
+    "ExtraInfo": "fugiat",
+    "Height": 849,
+    "LeftX": 236,
     "State": "Maximized",
-    "UpperY": 978,
-    "Width": 886,
-    "WindowPosSizeId": 340,
+    "UpperY": 80,
+    "Width": 511,
+    "WindowPosSizeId": 619,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

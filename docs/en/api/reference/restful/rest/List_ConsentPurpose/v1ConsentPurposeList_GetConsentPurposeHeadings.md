@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 869,
-    "Name": "Rowe, Hessel and Cole",
-    "Tooltip": "accusamus",
+    "HeadingId": 260,
+    "Name": "Walsh, Maggio and Ritchie",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 215,
+    "Rank": 100,
+    "UdListDefinitionId": 230,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 315
       }
     }
   }

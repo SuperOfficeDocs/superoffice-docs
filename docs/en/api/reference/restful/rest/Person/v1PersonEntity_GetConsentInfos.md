@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 266,
-    "Comment": "nobis",
-    "Registered": "2009-10-01T11:44:42.101503+02:00",
-    "RegisteredAssociateId": 82,
-    "Updated": "2017-08-22T11:44:42.101503+02:00",
-    "UpdatedAssociateId": 592,
-    "LegalBaseId": 99,
-    "LegalBaseKey": "voluptatem",
-    "LegalBaseName": "Champlin-Emmerich",
-    "ConsentPurposeId": 552,
-    "ConsentPurposeKey": "eveniet",
-    "ConsentPurposeName": "VonRueden-Douglas",
-    "ConsentSourceId": 81,
-    "ConsentSourceKey": "nulla",
-    "ConsentSourceName": "Fahey LLC",
+    "ConsentPersonId": 912,
+    "Comment": "laudantium",
+    "Registered": "2006-03-17T11:16:13.9957039+01:00",
+    "RegisteredAssociateId": 574,
+    "Updated": "2015-09-13T11:16:13.9957039+02:00",
+    "UpdatedAssociateId": 350,
+    "LegalBaseId": 320,
+    "LegalBaseKey": "nihil",
+    "LegalBaseName": "O'Reilly, Von and Lemke",
+    "ConsentPurposeId": 683,
+    "ConsentPurposeKey": "quisquam",
+    "ConsentPurposeName": "Lubowitz-Hoppe",
+    "ConsentSourceId": 547,
+    "ConsentSourceKey": "consectetur",
+    "ConsentSourceName": "Kirlin-Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

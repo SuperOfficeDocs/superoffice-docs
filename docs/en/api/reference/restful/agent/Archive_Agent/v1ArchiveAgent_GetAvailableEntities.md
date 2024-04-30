@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Smith, Breitenberg and Hagenes",
-  "Context": "ullam"
+  "ProviderName": "Rutherford LLC",
+  "Context": "sunt"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Marvin LLC",
-    "ToolTip": "Corporis aut harum.",
+    "Id": 175,
+    "Name": "Welch-Herman",
+    "ToolTip": "Iusto et qui omnis quae quam.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "aut",
+    "Rank": 861,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Pagac, Will and Schmidt",
-        "ToolTip": "Quasi nemo suscipit rerum excepturi at doloribus.",
-        "Deleted": false,
-        "Rank": 87,
-        "Type": "facere",
+        "Id": 43,
+        "Name": "Pfeffer Group",
+        "ToolTip": "Ut consequatur sunt.",
+        "Deleted": true,
+        "Rank": 295,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 230,
-        "ExtraInfo": "quia",
-        "StyleHint": "velit",
-        "FullName": "Elena Simonis",
+        "IconHint": "minus",
+        "ColorBlock": 233,
+        "ExtraInfo": "ut",
+        "StyleHint": "maxime",
+        "FullName": "Gwendolyn Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 92
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 220,
-    "ExtraInfo": "quidem",
-    "StyleHint": "perferendis",
-    "FullName": "Fabian Raynor Sr.",
+    "IconHint": "et",
+    "ColorBlock": 313,
+    "ExtraInfo": "et",
+    "StyleHint": "doloribus",
+    "FullName": "Dakota Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 870
       }
     }
   }

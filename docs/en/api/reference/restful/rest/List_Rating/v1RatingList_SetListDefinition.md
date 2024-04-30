@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Sawayn, Strosin and Ortiz",
-  "Tooltip": "quia",
+  "Id": 385,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": true,
-  "Rank": 987,
-  "IsCustomList": true,
+  "Rank": 769,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Hagenes-Windler",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 494,
-  "IsCustomList": false,
+  "Id": 817,
+  "Name": "Luettgen, Osinski and Torphy",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 885,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 434
     }
   }
 }

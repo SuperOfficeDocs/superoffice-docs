@@ -70,12 +70,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hartmann, Fay and Abshire",
+  "TableName": "Pagac-Johns",
   "RecordIds": [
-    887,
-    796
+    413,
+    919
   ],
-  "AssociateId": 293
+  "AssociateId": 379
 }
 ```
 

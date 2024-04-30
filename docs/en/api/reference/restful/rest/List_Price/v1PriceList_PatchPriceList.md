@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 71,
-  "ERPPriceListKey": "laboriosam",
-  "QuoteConnectionId": 809,
-  "Name": "Bednar Group",
-  "Description": "Mandatory logistical application",
-  "Currency": "et",
-  "CurrencyName": "Zemlak Group",
-  "ValidFrom": "2003-09-08T11:44:43.1637513+02:00",
-  "ValidTo": "2018-10-02T11:44:43.1637513+02:00",
-  "IsActive": false,
+  "PriceListId": 807,
+  "ERPPriceListKey": "unde",
+  "QuoteConnectionId": 720,
+  "Name": "Greenholt-Leffler",
+  "Description": "Down-sized zero defect interface",
+  "Currency": "aut",
+  "CurrencyName": "McDermott-Wehner",
+  "ValidFrom": "1998-06-05T11:16:14.6214085+02:00",
+  "ValidTo": "1999-06-16T11:16:14.6214085+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 532
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

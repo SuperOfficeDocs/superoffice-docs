@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Reilly, Halvorson and Windler",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "Rank": 596,
-  "IsCustomList": true,
+  "Id": 382,
+  "Name": "Steuber Group",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "Rank": 403,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Dickens, Crooks and Zulauf",
-  "Tooltip": "itaque",
+  "Id": 479,
+  "Name": "Bechtelar-Bruen",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 855,
+  "Rank": 761,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 991
     }
   }
 }

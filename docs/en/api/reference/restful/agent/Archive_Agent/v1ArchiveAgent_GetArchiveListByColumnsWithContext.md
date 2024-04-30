@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Terry, Hermiston and Dare",
+  "ProviderName": "Kub Inc and Sons",
   "Columns": [
-    "voluptatibus",
-    "non"
+    "quis",
+    "soluta"
   ],
   "SortOrder": [
     {
-      "Name": "Gorczany-Schumm",
+      "Name": "McLaughlin, Bradtke and Douglas",
       "Direction": "ASC"
     },
     {
-      "Name": "Gorczany-Schumm",
+      "Name": "McLaughlin, Bradtke and Douglas",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Botsford-Haag",
-      "Operator": "accusantium",
+      "Name": "Nicolas, Rutherford and Thompson",
+      "Operator": "eum",
       "Values": [
-        "quia",
-        "tempore"
+        "voluptas",
+        "quaerat"
       ],
       "DisplayValues": [
-        "debitis",
-        "architecto"
+        "necessitatibus",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 197,
+      "InterParenthesis": 534,
       "InterOperator": "And",
-      "UniqueHash": 88
+      "UniqueHash": 71
     }
   ],
   "Entities": [
-    "ipsum",
-    "dicta"
+    "explicabo",
+    "ratione"
   ],
-  "Page": 203,
-  "PageSize": 96,
-  "Context": "voluptatum"
+  "Page": 846,
+  "PageSize": 624,
+  "Context": "ullam"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stark-Greenfelder",
-    "PrimaryKey": 632,
+    "EntityName": "Rohan-Crona",
+    "PrimaryKey": 344,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "officiis",
-        "TooltipHint": "veniam",
-        "LinkHint": "culpa"
+        "DisplayValue": "autem",
+        "TooltipHint": "nesciunt",
+        "LinkHint": "expedita"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "laboriosam",
+    "LinkHint": "ea",
+    "StyleHint": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 483
       }
     }
   }

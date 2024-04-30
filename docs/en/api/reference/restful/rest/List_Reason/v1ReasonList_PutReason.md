@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Dibbert Group",
-  "Tooltip": "sed",
+  "Id": 441,
+  "Name": "Willms-Koss",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 163,
-  "Rank": 39
+  "UdListDefinitionId": 129,
+  "Rank": 589
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Koss, Gleichner and Johnston",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 535,
-  "Rank": 168,
+  "Id": 242,
+  "Name": "McGlynn LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 763,
+  "Rank": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 54
     }
   }
 }

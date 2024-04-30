@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 33,
-    "Name": "Collins-Schowalter",
-    "ToolTip": "Repellendus ut beatae.",
+    "Id": 178,
+    "Name": "Kilback, Bradtke and Waters",
+    "ToolTip": "Assumenda amet voluptatem deserunt ad eum in.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "est",
-    "ColorBlock": 758,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2010-10-19T11:44:43.1325006+02:00",
+    "Rank": 252,
+    "Type": "voluptas",
+    "ColorBlock": 34,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2017-10-14T11:16:14.6057886+02:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Reichel, Hartmann and Sporer",
-        "ToolTip": "Enim aspernatur at corrupti cupiditate ut.",
+        "Id": 600,
+        "Name": "Connelly-O'Reilly",
+        "ToolTip": "In debitis aliquid eius suscipit error.",
         "Deleted": false,
-        "Rank": 455,
-        "Type": "dolores",
-        "ColorBlock": 611,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "2007-06-01T11:44:43.1325006+02:00",
+        "Rank": 526,
+        "Type": "vitae",
+        "ColorBlock": 600,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2023-08-24T11:16:14.6057886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Aileen Rau",
+        "ExtraInfo": "iusto",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Carmel Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Miss Theresia Beahan",
+    "ExtraInfo": "in",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Connie Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 806
       }
     }
   }

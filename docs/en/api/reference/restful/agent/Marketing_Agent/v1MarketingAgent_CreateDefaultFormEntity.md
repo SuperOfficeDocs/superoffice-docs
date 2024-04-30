@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 72,
-  "FormKey": "fugit",
-  "Name": "Goyette-Hane",
-  "Description": "Face to face background encryption",
-  "Config": "dolorem",
-  "FolderId": 164,
-  "ScriptId": 810,
-  "ResponseShipmentId": 3,
+  "FormId": 550,
+  "FormKey": "sint",
+  "Name": "Smitham-Zemlak",
+  "Description": "Open-architected 5th generation analyzer",
+  "Config": "accusantium",
+  "FolderId": 686,
+  "ScriptId": 102,
+  "ResponseShipmentId": 103,
   "Active": false,
-  "Expires": "2002-03-10T11:44:33.9315193+01:00",
-  "MaxSubmits": 601,
+  "Expires": "2005-09-03T11:16:09.3815779+02:00",
+  "MaxSubmits": 89,
   "Type": "Normal",
-  "Recipe": "assumenda",
-  "GroupId": 542,
+  "Recipe": "eaque",
+  "GroupId": 469,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2013-06-30T11:44:33.9315193+02:00",
-  "RegisteredAssociateId": 612,
-  "Updated": "2007-06-28T11:44:33.9315193+02:00",
-  "UpdatedAssociateId": 977,
-  "UpdatedCount": 546,
+  "Registered": "2006-04-22T11:16:09.3815779+02:00",
+  "RegisteredAssociateId": 755,
+  "Updated": "2004-06-22T11:16:09.3815779+02:00",
+  "UpdatedAssociateId": 22,
+  "UpdatedCount": 707,
   "EmailFlows": [
-    563,
-    924
+    387,
+    670
   ],
-  "FolderName": "Brown-Predovic",
+  "FolderName": "Schroeder, Grimes and Will",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 673
     }
   }
 }

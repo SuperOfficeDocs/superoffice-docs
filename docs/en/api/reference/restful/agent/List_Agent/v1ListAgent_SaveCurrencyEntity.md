@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 716,
-  "Name": "Romaguera, Nikolaus and Buckridge",
-  "Tooltip": "saepe",
-  "Rank": 384,
-  "Rate": 25545.234,
-  "Units": 12297.815999999999,
+  "CurrencyId": 683,
+  "Name": "Bogisich Group",
+  "Tooltip": "iusto",
+  "Rank": 4,
+  "Rate": 789.768,
+  "Units": 6007.878,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 352,
-  "Name": "Hagenes Group",
-  "Tooltip": "culpa",
-  "Rank": 623,
-  "Rate": 2181.264,
-  "Units": 12279.011999999999,
-  "Deleted": false,
+  "CurrencyId": 233,
+  "Name": "Bauch Inc and Sons",
+  "Tooltip": "mollitia",
+  "Rank": 792,
+  "Rate": 20941.388,
+  "Units": 21123.16,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 63
     }
   }
 }

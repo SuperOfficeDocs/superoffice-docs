@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 55,
-  "Name": "Mayert-Bailey",
-  "Description": "Down-sized stable Graphical User Interface",
-  "DeltaJson": "eius",
+  "ConfigurableScreenDeltaId": 268,
+  "Name": "Metz LLC",
+  "Description": "Multi-layered user-facing methodology",
+  "DeltaJson": "occaecati",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "magni",
-  "UpdatedDate": "2021-04-25T11:44:32.9942315+02:00",
-  "CreatedDate": "2019-02-02T11:44:32.9942315+01:00",
+  "RecipeId": "autem",
+  "UpdatedDate": "2012-04-09T11:16:08.8347248+02:00",
+  "CreatedDate": "2010-04-16T11:16:08.8347248+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    411,
-    79
+    318,
+    396
   ],
-  "AppliesToKey": "voluptatem"
+  "AppliesToKey": "veniam"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 486,
-  "Name": "Nienow, Smitham and Klocko",
-  "Description": "Optimized didactic leverage",
-  "DeltaJson": "id",
+  "ConfigurableScreenDeltaId": 308,
+  "Name": "Ullrich-Altenwerth",
+  "Description": "Total holistic infrastructure",
+  "DeltaJson": "quibusdam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptas",
-  "UpdatedDate": "2011-12-20T11:44:32.9942315+01:00",
-  "CreatedDate": "2018-02-12T11:44:32.9942315+01:00",
+  "RecipeId": "sint",
+  "UpdatedDate": "2023-05-04T11:16:08.8347248+02:00",
+  "CreatedDate": "2024-04-19T11:16:08.8347248+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    853,
-    365
+    510,
+    106
   ],
-  "AppliesToKey": "autem",
+  "AppliesToKey": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

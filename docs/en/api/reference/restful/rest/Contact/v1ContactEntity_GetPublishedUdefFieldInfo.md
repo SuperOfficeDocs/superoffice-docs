@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 526,
-  "ColumnId": 201,
-  "FieldDefault": "dolor",
-  "FieldHeight": 611,
-  "FieldLabel": "doloremque",
-  "FieldLeft": 638,
-  "FieldTop": 682,
+  "UDefFieldId": 858,
+  "ColumnId": 417,
+  "FieldDefault": "alias",
+  "FieldHeight": 36,
+  "FieldLabel": "ea",
+  "FieldLeft": 10,
+  "FieldTop": 864,
   "FieldType": "Checkbox",
-  "FieldWidth": 992,
-  "FormatMask": "et",
+  "FieldWidth": 332,
+  "FormatMask": "quis",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 192,
-  "LabelLeft": 879,
-  "LabelTop": 926,
-  "LabelWidth": 780,
-  "LastVersionId": 608,
-  "ListTableId": 279,
+  "LabelHeight": 871,
+  "LabelLeft": 33,
+  "LabelTop": 797,
+  "LabelWidth": 557,
+  "LastVersionId": 789,
+  "ListTableId": 492,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 122,
-  "ProgId": "tempore",
+  "Page1LineNo": 679,
+  "ProgId": "doloremque",
   "IsReadOnly": false,
-  "ShortLabel": "deleniti",
-  "TabOrder": 339,
-  "TextLength": 494,
-  "Tooltip": "non",
-  "UdefIdentity": 507,
-  "UDListDefinitionId": 797,
+  "ShortLabel": "ipsum",
+  "TabOrder": 21,
+  "TextLength": 630,
+  "Tooltip": "alias",
+  "UdefIdentity": 97,
+  "UDListDefinitionId": 63,
   "Justification": "Center",
-  "Version": 599,
-  "TemplateVariableName": "Jones-Waters",
+  "Version": 137,
+  "TemplateVariableName": "Langosh Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "McClure Group",
+  "MdoListName": "Gibson-Glover",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldLength": 23
     }
   }
 }

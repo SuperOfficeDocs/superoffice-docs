@@ -28,7 +28,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=43
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=51
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,24 +90,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 754,
-  "Name": "Murazik, Ward and Pouros",
-  "Tooltip": "eaque",
+  "RoleId": 426,
+  "Name": "Kuhic, Johnson and Hoeger",
+  "Tooltip": "sed",
   "RoleType": "Anonymous",
-  "Deleted": 506,
-  "Rank": 35,
-  "Created": "2007-08-28T11:44:34.9625302+02:00",
-  "UseCategories": 872,
+  "Deleted": 585,
+  "Rank": 606,
+  "Created": "2015-04-27T11:16:10.0275967+02:00",
+  "UseCategories": 382,
   "CreatedBy": null,
-  "Updated": "2018-10-20T11:44:34.9625302+02:00",
+  "Updated": "2022-06-03T11:16:10.0275967+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

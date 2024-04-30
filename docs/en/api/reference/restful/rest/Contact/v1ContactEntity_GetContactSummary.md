@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=657
+GET /api/v1/Contact/{contactId}/Summary?limit=655
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 539,
-      "TicketStatus": 285,
-      "Title": "repellendus",
-      "Registered": "2000-08-05T11:44:41.8359334+02:00",
-      "IconHint": "et"
+      "TicketId": 451,
+      "TicketStatus": 310,
+      "Title": "id",
+      "Registered": "2006-12-16T11:16:13.82385+01:00",
+      "IconHint": "ea"
     },
     {
-      "TicketId": 539,
-      "TicketStatus": 285,
-      "Title": "repellendus",
-      "Registered": "2000-08-05T11:44:41.8359334+02:00",
-      "IconHint": "et"
+      "TicketId": 451,
+      "TicketStatus": 310,
+      "Title": "id",
+      "Registered": "2006-12-16T11:16:13.82385+01:00",
+      "IconHint": "ea"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 557,
-      "DocumentId": 403,
-      "Date": "2014-09-13T11:44:41.8359334+02:00",
-      "Description": "Seamless exuding hardware",
+      "AppointmentId": 825,
+      "DocumentId": 92,
+      "Date": "2011-07-07T11:16:13.82385+02:00",
+      "Description": "Team-oriented empowering analyzer",
       "Completed": "Completed",
-      "Registered": "2005-06-24T11:44:41.8359334+02:00"
+      "Registered": "2013-05-16T11:16:13.82385+02:00"
     },
     {
-      "AppointmentId": 557,
-      "DocumentId": 403,
-      "Date": "2014-09-13T11:44:41.8359334+02:00",
-      "Description": "Seamless exuding hardware",
+      "AppointmentId": 825,
+      "DocumentId": 92,
+      "Date": "2011-07-07T11:16:13.82385+02:00",
+      "Description": "Team-oriented empowering analyzer",
       "Completed": "Completed",
-      "Registered": "2005-06-24T11:44:41.8359334+02:00"
+      "Registered": "2013-05-16T11:16:13.82385+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 663,
-      "DocumentId": 577,
-      "Date": "2018-01-26T11:44:41.8359334+01:00",
-      "Description": "Optimized grid-enabled artificial intelligence",
+      "AppointmentId": 922,
+      "DocumentId": 217,
+      "Date": "2003-12-04T11:16:13.82385+01:00",
+      "Description": "Ergonomic bi-directional forecast",
       "Completed": "Completed",
-      "Registered": "2007-06-15T11:44:41.8359334+02:00"
+      "Registered": "2021-07-28T11:16:13.82385+02:00"
     },
     {
-      "AppointmentId": 663,
-      "DocumentId": 577,
-      "Date": "2018-01-26T11:44:41.8359334+01:00",
-      "Description": "Optimized grid-enabled artificial intelligence",
+      "AppointmentId": 922,
+      "DocumentId": 217,
+      "Date": "2003-12-04T11:16:13.82385+01:00",
+      "Description": "Ergonomic bi-directional forecast",
       "Completed": "Completed",
-      "Registered": "2007-06-15T11:44:41.8359334+02:00"
+      "Registered": "2021-07-28T11:16:13.82385+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 917,
-      "SaleDate": "2015-06-01T11:44:41.8359334+02:00",
-      "Probability": 28,
-      "Heading": "beatae",
-      "Amount": 23602.154,
-      "Currency": "ad",
-      "AmountInBaseCurrency": 13711.25,
+      "SaleId": 910,
+      "SaleDate": "2003-12-17T11:16:13.82385+01:00",
+      "Probability": 812,
+      "Heading": "nisi",
+      "Amount": 6111.3,
+      "Currency": "dolorum",
+      "AmountInBaseCurrency": 4036.5919999999996,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2013-05-03T11:44:41.8359334+02:00"
+      "Registered": "2018-04-29T11:16:13.82385+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 891,
-      "Name": "Lehner Inc and Sons",
-      "CompanyName": "Hermann LLC",
-      "FirstMessage": "veritatis",
-      "LastMessage": "libero",
-      "WhenRequested": "2020-05-19T11:44:41.8359334+02:00",
-      "WhenEnded": "2008-09-01T11:44:41.8359334+02:00"
+      "ChatSessionId": 835,
+      "Name": "Kuvalis LLC",
+      "CompanyName": "Windler LLC",
+      "FirstMessage": "at",
+      "LastMessage": "ut",
+      "WhenRequested": "2010-05-09T11:16:13.82385+02:00",
+      "WhenEnded": "2017-10-24T11:16:13.82385+02:00"
     }
   ]
 }

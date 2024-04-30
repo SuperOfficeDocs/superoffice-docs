@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "alias",
-  "DisplayTooltip": "id",
+  "DisplayValue": "sit",
+  "DisplayTooltip": "reiciendis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 951,
-  "PrefDescId": 633,
-  "TableName": "Tillman-Barrows",
-  "UserPreferenceId": 657
+  "TargetId": 627,
+  "PrefDescId": 395,
+  "TableName": "Johnston-Kutch",
+  "UserPreferenceId": 68
 }
 ```
 

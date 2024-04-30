@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 81
+  "DocumentId": 10
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 371,
-  "Name": "Hickle, Cole and Torphy",
-  "ContentType": "reprehenderit",
-  "AttSize": 344,
-  "InlineImage": true,
-  "ContentId": "autem",
-  "AuthKey": "nam",
+  "AttachmentId": 406,
+  "Name": "Lowe, D'Amore and O'Keefe",
+  "ContentType": "beatae",
+  "AttSize": 822,
+  "InlineImage": false,
+  "ContentId": "itaque",
+  "AuthKey": "nesciunt",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

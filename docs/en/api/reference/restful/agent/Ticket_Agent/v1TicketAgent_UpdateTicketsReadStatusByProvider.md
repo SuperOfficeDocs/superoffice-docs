@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "veniam",
+  "Provider": "non",
   "Restrictions": [
     {
-      "Name": "Mueller-Wilkinson",
-      "Operator": "sed",
+      "Name": "Ortiz, Turcotte and Dach",
+      "Operator": "architecto",
       "Values": [
-        "eos",
-        "nesciunt"
+        "labore",
+        "molestias"
       ],
       "DisplayValues": [
-        "sed",
-        "quisquam"
+        "distinctio",
+        "in"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 6,
+      "InterParenthesis": 458,
       "InterOperator": "And",
-      "UniqueHash": 932
+      "UniqueHash": 573
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  461,
-  889
+  103,
+  250
 ]
 ```

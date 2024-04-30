@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 428,
-  "Section": "dolor",
-  "Key": "error",
-  "Name": "Friesen LLC",
+  "PrefDescId": 861,
+  "Section": "blanditiis",
+  "Key": "aut",
+  "Name": "Bailey, Trantow and Schowalter",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental optimal knowledge user",
-  "IsBuiltin": false,
-  "TableName": "Halvorson Inc and Sons",
-  "UserDefinedListId": 557,
-  "Rank": 341,
-  "SubGroup": "eos",
-  "MinLevel": 832,
-  "MaxValue": 830,
-  "MinValue": 41,
-  "RequiredLicense": "voluptas",
+  "Description": "Ameliorated 6th generation challenge",
+  "IsBuiltin": true,
+  "TableName": "Keeling Inc and Sons",
+  "UserDefinedListId": 624,
+  "Rank": 138,
+  "SubGroup": "possimus",
+  "MinLevel": 999,
+  "MaxValue": 852,
+  "MinValue": 899,
+  "RequiredLicense": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 156
     }
   },
   "_Links": {

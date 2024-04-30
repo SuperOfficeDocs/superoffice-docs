@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 341,
+  "LatestKnownEventId": 719,
   "PublishEvents": [
     {
-      "EventId": 60,
-      "EventName": "Bruen-Boehm",
-      "EntityType": "non",
-      "EntityKey": 538,
-      "AssociateId": 532,
-      "AssociateName": "Lesch Inc and Sons",
-      "EventDateTime": "2006-04-24T11:44:35.0406407+02:00"
+      "EventId": 693,
+      "EventName": "McDermott Group",
+      "EntityType": "adipisci",
+      "EntityKey": 109,
+      "AssociateId": 408,
+      "AssociateName": "Hyatt Inc and Sons",
+      "EventDateTime": "2013-07-08T11:16:10.0703909+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Halvorson-Altenwerth",
-      "Value": 740
+      "Name": "Cartwright Group",
+      "Value": 324
     },
     {
-      "Name": "Halvorson-Altenwerth",
-      "Value": 740
+      "Name": "Cartwright Group",
+      "Value": 324
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 41,
-    "EventName": "Carter LLC",
-    "EntityType": "dolores",
-    "EntityKey": 751,
-    "AssociateId": 123,
-    "AssociateName": "Leffler Group",
-    "EventDateTime": "2014-08-17T11:44:35.0406407+02:00",
+    "EventId": 670,
+    "EventName": "Zulauf, Crist and Bogisich",
+    "EntityType": "omnis",
+    "EntityKey": 592,
+    "AssociateId": 6,
+    "AssociateName": "Douglas Inc and Sons",
+    "EventDateTime": "2006-10-25T11:16:10.0703909+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 867
       }
     }
   }

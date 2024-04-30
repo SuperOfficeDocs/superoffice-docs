@@ -781,7 +781,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=sale/saleType,projectMember/hasEmarketingConsent,projectMember/department,projectMember/stop,projectMember/contactAssociate/assocTooltip
+GET /api/v1/archive/FindProject?$select=projectAssociate/contactCategory,sale/amount,sale/hasStakeholders,appointment/appointmentId,appointment/associate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

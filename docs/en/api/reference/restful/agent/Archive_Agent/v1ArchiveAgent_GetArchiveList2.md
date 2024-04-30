@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dibbert-Lang",
-  "ProviderName": "Anderson, Morar and Murray",
-  "SortOrder": "et",
-  "Restriction": "similique",
-  "Entities": "accusantium",
-  "Page": 962,
-  "PageSize": 792
+  "GuiName": "Corwin-Weber",
+  "ProviderName": "Wunsch, Hodkiewicz and Feest",
+  "SortOrder": "est",
+  "Restriction": "debitis",
+  "Entities": "error",
+  "Page": 237,
+  "PageSize": 986
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Tremblay Inc and Sons",
-    "PrimaryKey": 88,
+    "EntityName": "Walter-Crona",
+    "PrimaryKey": 361,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "deserunt",
-        "TooltipHint": "a",
-        "LinkHint": "itaque"
+        "DisplayValue": "hic",
+        "TooltipHint": "et",
+        "LinkHint": "alias"
       }
     },
-    "LinkHint": "quibusdam",
-    "StyleHint": "quibusdam",
+    "LinkHint": "sit",
+    "StyleHint": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 166
       }
     }
   }

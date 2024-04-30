@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Hegmann-Batz",
-    "ToolTip": "Illo porro.",
+    "Id": 811,
+    "Name": "Jerde, Welch and Jaskolski",
+    "ToolTip": "Nihil accusantium adipisci a.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "aut",
-    "ColorBlock": 332,
-    "IconHint": "iste",
+    "Rank": 992,
+    "Type": "vel",
+    "ColorBlock": 637,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2006-03-18T11:44:42.898184+01:00",
+    "LastChanged": "2016-02-15T11:16:14.465178+01:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Marks LLC",
-        "ToolTip": "Ad libero expedita.",
+        "Id": 987,
+        "Name": "Mayert-Schinner",
+        "ToolTip": "Voluptates fugiat beatae harum sit ea.",
         "Deleted": true,
-        "Rank": 551,
-        "Type": "facilis",
-        "ColorBlock": 245,
-        "IconHint": "itaque",
+        "Rank": 670,
+        "Type": "repellat",
+        "ColorBlock": 440,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "1998-02-04T11:44:42.898184+01:00",
+        "LastChanged": "2000-02-24T11:16:14.465178+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Tyra Stroman"
+        "ExtraInfo": "assumenda",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Caleb Crist"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "est",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Mr. Mohamed Kiarra Leuschke PhD"
+    "FullName": "Jany Shields"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "West Inc and Sons",
-    "ToolTip": "Qui ad nihil exercitationem.",
-    "Deleted": false,
-    "Rank": 713,
-    "Type": "deserunt",
-    "ColorBlock": 833,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2016-09-01T11:44:42.898184+02:00",
+    "Id": 244,
+    "Name": "Runolfsson-Moore",
+    "ToolTip": "Et aspernatur explicabo.",
+    "Deleted": true,
+    "Rank": 7,
+    "Type": "aut",
+    "ColorBlock": 794,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2004-04-05T11:16:14.465178+02:00",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Schneider, Sawayn and Grady",
-        "ToolTip": "Ut sunt quia id.",
+        "Id": 393,
+        "Name": "Jewess, Pfannerstill and Schmeler",
+        "ToolTip": "Et quia eos quisquam.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "ad",
-        "ColorBlock": 898,
-        "IconHint": "blanditiis",
-        "Selected": true,
-        "LastChanged": "2001-05-22T11:44:42.898184+02:00",
+        "Rank": 260,
+        "Type": "explicabo",
+        "ColorBlock": 48,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2014-08-27T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Deon Bode",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Karson Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 988
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "est",
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Lilla Nolan III",
+    "FullName": "Keara Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 922
       }
     }
   }

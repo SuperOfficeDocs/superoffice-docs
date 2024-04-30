@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "West, Herzog and Ortiz",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "UdListDefinitionId": 834,
-    "Rank": 144
+    "Id": 468,
+    "Name": "Watsica, Zulauf and Keebler",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 638,
+    "Rank": 897
   },
   {
-    "Id": 378,
-    "Name": "West, Herzog and Ortiz",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "UdListDefinitionId": 834,
-    "Rank": 144
+    "Id": 468,
+    "Name": "Watsica, Zulauf and Keebler",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 638,
+    "Rank": 897
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Streich, Weissnat and Ortiz",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 385,
-    "Rank": 107,
+    "Id": 636,
+    "Name": "Muller, Rohan and Quigley",
+    "Tooltip": "occaecati",
+    "Deleted": true,
+    "UdListDefinitionId": 223,
+    "Rank": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

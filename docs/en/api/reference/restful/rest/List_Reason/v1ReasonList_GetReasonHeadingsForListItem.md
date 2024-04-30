@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Green-Schumm",
-    "ToolTip": "Quia ut qui debitis sint maxime.",
+    "Id": 136,
+    "Name": "McClure, Casper and Murray",
+    "ToolTip": "Assumenda saepe qui commodi facere.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "cumque",
-    "ColorBlock": 355,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2009-07-04T11:44:43.2887254+02:00",
+    "Rank": 216,
+    "Type": "veniam",
+    "ColorBlock": 199,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2022-04-01T11:16:14.699531+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Berge LLC",
-        "ToolTip": "Id non fugit est iure.",
+        "Id": 182,
+        "Name": "Heller-Schuppe",
+        "ToolTip": "Ut illo nihil quis eligendi.",
         "Deleted": false,
-        "Rank": 419,
-        "Type": "aut",
-        "ColorBlock": 687,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2006-05-30T11:44:43.2887254+02:00",
+        "Rank": 915,
+        "Type": "sit",
+        "ColorBlock": 615,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2022-01-08T11:16:14.699531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Edwardo Murray",
+        "ExtraInfo": "sit",
+        "StyleHint": "vero",
+        "Hidden": true,
+        "FullName": "Carolyne Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "vero",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Jacklyn Prohaska PhD",
+    "FullName": "Jayden Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 13
       }
     }
   }

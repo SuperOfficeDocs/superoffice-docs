@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Parker, Gleichner and O'Hara",
-    "Tooltip": "dignissimos",
+    "HeadingId": 188,
+    "Name": "Ullrich Inc and Sons",
+    "Tooltip": "nobis",
     "Deleted": true,
-    "Rank": 127,
-    "UdListDefinitionId": 138
+    "Rank": 527,
+    "UdListDefinitionId": 782
   },
   {
-    "HeadingId": 151,
-    "Name": "Parker, Gleichner and O'Hara",
-    "Tooltip": "dignissimos",
+    "HeadingId": 188,
+    "Name": "Ullrich Inc and Sons",
+    "Tooltip": "nobis",
     "Deleted": true,
-    "Rank": 127,
-    "UdListDefinitionId": 138
+    "Rank": 527,
+    "UdListDefinitionId": 782
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 291,
-    "Name": "Brakus, Wisoky and Barton",
-    "Tooltip": "debitis",
+    "HeadingId": 209,
+    "Name": "Reichert Inc and Sons",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 923,
-    "UdListDefinitionId": 619,
+    "Rank": 549,
+    "UdListDefinitionId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 725
       }
     }
   }

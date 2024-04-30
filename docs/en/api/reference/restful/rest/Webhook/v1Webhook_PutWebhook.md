@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 87,
-  "Name": "Runolfsson, Wintheiser and Ruecker",
+  "WebhookId": 342,
+  "Name": "Larson Inc and Sons",
   "Events": [
-    "blanditiis",
-    "perspiciatis"
+    "voluptates",
+    "dolorem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "expedita",
+  "Secret": "dolor",
   "State": "Active",
-  "Type": "quia",
+  "Type": "quidem",
   "Headers": {
-    "Headers1": "omnis",
-    "Headers2": "reiciendis"
+    "Headers1": "est",
+    "Headers2": "magnam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-01-27T11:44:42.8825602+01:00",
+  "Registered": "2010-10-10T11:16:14.4495535+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-04-03T11:44:42.8825602+02:00",
+  "Updated": "2002-02-10T11:16:14.4495535+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "myrtice@morissettemoore.biz"
+  "ErrorsEmail": "orland@waters.info"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 237,
-  "Name": "Keeling-Tremblay",
+  "WebhookId": 473,
+  "Name": "Breitenberg Group",
   "Events": [
-    "dolor",
-    "expedita"
+    "totam",
+    "quo"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "possimus",
+  "Secret": "et",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "nemo",
   "Headers": {
-    "Headers1": "provident",
-    "Headers2": "et"
+    "Headers1": "quasi",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-04-14T11:44:42.8825602+02:00",
+  "Registered": "1997-03-09T11:16:14.465178+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-01-04T11:44:42.8825602+01:00",
+  "Updated": "2002-03-08T11:16:14.465178+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kaitlyn@corwin.name",
+  "ErrorsEmail": "brice_schulist@brownbechtelar.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

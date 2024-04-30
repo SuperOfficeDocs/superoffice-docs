@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 528,
-  "SourcePersonId": 618,
-  "DestinationContactId": 455,
-  "DestinationPersonId": 378,
-  "RelationId": 676,
-  "Comment": "est",
-  "RelationDefinitionId": 929,
-  "Reversed": 520,
-  "UpdatedDate": "1998-03-02T11:44:34.3063794+01:00",
-  "CreatedDate": "2011-09-26T11:44:34.3063794+02:00",
+  "SourceContactId": 590,
+  "SourcePersonId": 451,
+  "DestinationContactId": 161,
+  "DestinationPersonId": 57,
+  "RelationId": 695,
+  "Comment": "eos",
+  "RelationDefinitionId": 812,
+  "Reversed": 397,
+  "UpdatedDate": "2010-03-26T11:16:09.6317604+01:00",
+  "CreatedDate": "2018-12-24T11:16:09.6317604+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Moore LLC",
-  "SourcePersonName": "Reichert LLC",
-  "DestinationContactName": "Wisoky, Nolan and Hettinger",
-  "DestinationPersonName": "Gibson LLC",
-  "ActiveText": "maxime",
-  "PassiveText": "temporibus",
+  "SourceContactName": "Kub Inc and Sons",
+  "SourcePersonName": "Ratke, Hane and Gottlieb",
+  "DestinationContactName": "Mohr, Ryan and Lowe",
+  "DestinationPersonName": "Heller, Kub and Graham",
+  "ActiveText": "dolorem",
+  "PassiveText": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 933
     }
   }
 }

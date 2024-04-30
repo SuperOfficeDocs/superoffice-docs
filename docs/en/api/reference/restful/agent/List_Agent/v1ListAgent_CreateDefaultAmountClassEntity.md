@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 624,
-  "Name": "Ward-Williamson",
-  "Tooltip": "veritatis",
-  "Rank": 449,
-  "AmountFrom": 11570.728,
-  "AmountTo": 14949.18,
-  "Deleted": true,
-  "CurrencyId": 400,
+  "AmountClassId": 117,
+  "Name": "Aufderhar-Kovacek",
+  "Tooltip": "quisquam",
+  "Rank": 654,
+  "AmountFrom": 3519.482,
+  "AmountTo": 12420.042,
+  "Deleted": false,
+  "CurrencyId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Davis-Dickinson",
-    "ToolTip": "Nemo animi dolor corrupti perferendis.",
+    "Id": 752,
+    "Name": "Franecki Group",
+    "ToolTip": "Adipisci nihil quia rerum aut ullam tempora.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "mollitia",
-    "ColorBlock": 835,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2005-08-26T11:44:43.2574879+02:00",
+    "Rank": 843,
+    "Type": "dolores",
+    "ColorBlock": 372,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2012-10-18T11:16:14.6839019+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Hermiston Inc and Sons",
-        "ToolTip": "Qui quis itaque unde quam ut sapiente quae.",
-        "Deleted": false,
-        "Rank": 372,
-        "Type": "deserunt",
-        "ColorBlock": 689,
-        "IconHint": "amet",
+        "Id": 685,
+        "Name": "Macejkovic, Schumm and Borer",
+        "ToolTip": "At eum doloremque alias quaerat amet esse repellat.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "alias",
+        "ColorBlock": 692,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2021-12-15T11:44:43.2574879+01:00",
+        "LastChanged": "2009-03-21T11:16:14.6839019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "ab",
+        "ExtraInfo": "et",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Miss Roberto Terrill Donnelly",
+        "FullName": "Agustina Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 343
+            "FieldType": "System.Int32",
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "non",
+    "ExtraInfo": "esse",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Beatrice Runte",
+    "FullName": "Hugh Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 808
       }
     }
   }

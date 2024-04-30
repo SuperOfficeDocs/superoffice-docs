@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/User/DeleteUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupToDelete": 992,
-  "UserGroupToMoveTo": 680
+  "UserGroupToDelete": 637,
+  "UserGroupToMoveTo": 344
 }
 ```
 

@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 551,
-  "ColumnId": 504,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 482,
-  "FieldLabel": "fuga",
-  "FieldLeft": 201,
-  "FieldTop": 843,
+  "UDefFieldId": 574,
+  "ColumnId": 332,
+  "FieldDefault": "assumenda",
+  "FieldHeight": 471,
+  "FieldLabel": "enim",
+  "FieldLeft": 259,
+  "FieldTop": 747,
   "FieldType": "Checkbox",
-  "FieldWidth": 497,
-  "FormatMask": "qui",
+  "FieldWidth": 466,
+  "FormatMask": "dolorem",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 549,
-  "LabelLeft": 363,
-  "LabelTop": 993,
-  "LabelWidth": 413,
-  "LastVersionId": 489,
-  "ListTableId": 818,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 750,
+  "LabelLeft": 156,
+  "LabelTop": 117,
+  "LabelWidth": 571,
+  "LastVersionId": 367,
+  "ListTableId": 29,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 20,
-  "ProgId": "nihil",
-  "IsReadOnly": true,
-  "ShortLabel": "in",
-  "TabOrder": 91,
-  "TextLength": 57,
-  "Tooltip": "quia",
-  "UdefIdentity": 599,
-  "UDListDefinitionId": 517,
+  "Page1LineNo": 504,
+  "ProgId": "accusamus",
+  "IsReadOnly": false,
+  "ShortLabel": "ipsam",
+  "TabOrder": 808,
+  "TextLength": 144,
+  "Tooltip": "nihil",
+  "UdefIdentity": 471,
+  "UDListDefinitionId": 170,
   "Justification": "Center",
-  "Version": 280,
-  "TemplateVariableName": "Weimann, Fritsch and Hilll",
+  "Version": 459,
+  "TemplateVariableName": "Gleason-Mohr",
   "HasBeenPublished": false,
-  "MdoListName": "Kris Inc and Sons",
+  "MdoListName": "Mraz, Effertz and Gutmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

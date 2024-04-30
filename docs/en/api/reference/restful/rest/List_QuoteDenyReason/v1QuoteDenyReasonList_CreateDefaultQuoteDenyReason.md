@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Ernser, Davis and Lemke",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 942,
-  "Rank": 113,
+  "Id": 4,
+  "Name": "Heathcote Group",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "UdListDefinitionId": 308,
+  "Rank": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldLength": 973
     }
   }
 }

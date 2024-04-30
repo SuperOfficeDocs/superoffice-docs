@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harris-Pollich",
-    "DisplayName": "O'Keefe Inc and Sons",
-    "DisplayTooltip": "et",
+    "Name": "Hills-Bergstrom",
+    "DisplayName": "Weber-Jenkins",
+    "DisplayTooltip": "eveniet",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 86
       }
     }
   },
   {
-    "Name": "Harris-Pollich",
-    "DisplayName": "O'Keefe Inc and Sons",
-    "DisplayTooltip": "et",
+    "Name": "Hills-Bergstrom",
+    "DisplayName": "Weber-Jenkins",
+    "DisplayTooltip": "eveniet",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 86
       }
     }
   }

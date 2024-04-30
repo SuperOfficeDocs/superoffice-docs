@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Value": "sit",
-    "Tooltip": "dolorem",
+    "Id": 808,
+    "Value": "id",
+    "Tooltip": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   },
   {
-    "Id": 312,
-    "Value": "sit",
-    "Tooltip": "dolorem",
+    "Id": 808,
+    "Value": "id",
+    "Tooltip": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

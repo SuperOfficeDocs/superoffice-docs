@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 858,
-  "ColumnId": 164,
-  "FieldDefault": "iure",
-  "FieldHeight": 86,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 264,
-  "FieldTop": 856,
+  "UDefFieldId": 726,
+  "ColumnId": 677,
+  "FieldDefault": "sunt",
+  "FieldHeight": 34,
+  "FieldLabel": "ex",
+  "FieldLeft": 266,
+  "FieldTop": 513,
   "FieldType": "Checkbox",
-  "FieldWidth": 400,
-  "FormatMask": "quia",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 884,
-  "LabelLeft": 785,
-  "LabelTop": 226,
-  "LabelWidth": 344,
-  "LastVersionId": 172,
-  "ListTableId": 587,
-  "IsMandatory": false,
+  "FieldWidth": 899,
+  "FormatMask": "iusto",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 928,
+  "LabelLeft": 69,
+  "LabelTop": 191,
+  "LabelWidth": 357,
+  "LastVersionId": 986,
+  "ListTableId": 687,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 418,
-  "ProgId": "sit",
+  "Page1LineNo": 749,
+  "ProgId": "totam",
   "IsReadOnly": false,
   "ShortLabel": "vitae",
-  "TabOrder": 230,
-  "TextLength": 185,
-  "Tooltip": "eius",
-  "UdefIdentity": 588,
-  "UDListDefinitionId": 393,
+  "TabOrder": 947,
+  "TextLength": 813,
+  "Tooltip": "qui",
+  "UdefIdentity": 203,
+  "UDListDefinitionId": 680,
   "Justification": "Center",
-  "Version": 955,
-  "TemplateVariableName": "Macejkovic LLC",
+  "Version": 466,
+  "TemplateVariableName": "Stamm, Yost and Tillman",
   "HasBeenPublished": false,
-  "MdoListName": "Barrows-Parisian",
+  "MdoListName": "Howe-Schimmel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

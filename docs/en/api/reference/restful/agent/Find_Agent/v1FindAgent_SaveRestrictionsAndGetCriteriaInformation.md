@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maxime",
-  "ProviderName": "Mraz Inc and Sons",
-  "StorageKey": "itaque",
+  "StorageType": "voluptatem",
+  "ProviderName": "Beahan, Reilly and Cassin",
+  "StorageKey": "in",
   "Restrictions": [
     {
-      "Name": "Kirlin, White and Yundt",
-      "Operator": "explicabo",
+      "Name": "Streich-Kris",
+      "Operator": "quia",
       "Values": [
         "illo",
-        "sed"
+        "et"
       ],
       "DisplayValues": [
-        "placeat",
-        "minima"
+        "esse",
+        "maxime"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 962,
+      "InterParenthesis": 455,
       "InterOperator": "And",
-      "UniqueHash": 767
+      "UniqueHash": 866
     }
   ],
   "StaticColumns": [
-    "cum",
-    "maxime"
+    "ut",
+    "tempora"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Turcotte, Russel and Larkin",
-      "Operator": "ipsam",
+      "Name": "Anderson-Flatley",
+      "Operator": "et",
       "Values": [
-        "suscipit",
-        "a"
+        "et",
+        "qui"
       ],
       "DisplayValues": [
-        "rerum",
-        "nesciunt"
+        "saepe",
+        "dicta"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 908,
+      "InterParenthesis": 399,
       "InterOperator": "And",
-      "UniqueHash": 925
+      "UniqueHash": 728
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stark Inc and Sons",
-      "DisplayTooltip": "repudiandae",
-      "DisplayType": "esse",
-      "CanOrderBy": false,
-      "Name": "Okuneva-Bechtelar",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Wintheiser-Keeling",
+      "DisplayName": "Ebert-Reynolds",
+      "DisplayTooltip": "porro",
+      "DisplayType": "fuga",
+      "CanOrderBy": true,
+      "Name": "Goodwin, Lebsack and Little",
+      "CanRestrictBy": true,
+      "RestrictionType": "odit",
+      "RestrictionListName": "Ernser-Lakin",
       "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "aut",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "dolores"
+      "ExtraInfo": "non",
+      "Width": "beatae",
+      "IconHint": "dolorum",
+      "HeadingIconHint": "doloremque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hyatt Group",
-      "PrimaryKey": 423,
+      "EntityName": "Wolf, Murazik and Lowe",
+      "PrimaryKey": 807,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "magnam",
-          "LinkHint": "labore"
+          "DisplayValue": "atque",
+          "TooltipHint": "excepturi",
+          "LinkHint": "nam"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "eum",
+      "LinkHint": "aperiam",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 586
+          "FieldType": "System.Int32",
+          "FieldLength": 999
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Blanda, Smitham and Willms",
-      "Description": "Decentralized coherent implementation",
-      "Rank": 456,
+      "Name": "Swift, Ziemann and Johnston",
+      "Description": "Up-sized value-added local area network",
+      "Rank": 992,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda, Smitham and Willms",
-      "Description": "Decentralized coherent implementation",
-      "Rank": 456,
+      "Name": "Swift, Ziemann and Johnston",
+      "Description": "Up-sized value-added local area network",
+      "Rank": 992,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 395
     }
   }
 }

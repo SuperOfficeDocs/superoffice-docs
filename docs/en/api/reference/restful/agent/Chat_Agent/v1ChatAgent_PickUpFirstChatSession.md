@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 127,
-  "TopicId": 960,
+  "ChatSessionId": 409,
+  "TopicId": 913,
   "User": null,
   "Person": null,
-  "CustomerAlias": "beatae",
-  "CustomerHost": "nobis",
-  "CustomerName": "Rolfson-Lemke",
-  "CustomerEmail": "mervin@leannonbergstrom.info",
-  "CustomerPhone": "(701)043-6273",
+  "CustomerAlias": "qui",
+  "CustomerHost": "at",
+  "CustomerName": "Kassulke-Klein",
+  "CustomerEmail": "jasmin@kuvalis.co.uk",
+  "CustomerPhone": "345-765-1962 x9681",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Leffler-Green",
+  "CustomerCompanyName": "Stanton, Ondricka and Kemmer",
   "Status": "Closed",
-  "FirstMessage": "quis",
-  "LastMessage": "quaerat",
-  "WhenRequested": "2008-10-19T11:44:32.947363+02:00",
-  "WhenStarted": "2009-05-02T11:44:32.947363+02:00",
-  "WhenEnded": "2011-08-07T11:44:32.947363+02:00",
-  "WhenIdle": "2001-02-05T11:44:32.947363+01:00",
-  "WhenFetched": "2002-06-10T11:44:32.947363+02:00",
-  "SessionKey": "cum",
-  "InitialQueuePos": 527,
-  "AlertLevel": 950,
-  "Rank": 444,
+  "FirstMessage": "in",
+  "LastMessage": "unde",
+  "WhenRequested": "2007-04-05T11:16:08.8191018+02:00",
+  "WhenStarted": "2001-06-19T11:16:08.8191018+02:00",
+  "WhenEnded": "2004-08-16T11:16:08.8191018+02:00",
+  "WhenIdle": "2018-01-12T11:16:08.8191018+01:00",
+  "WhenFetched": "2017-09-22T11:16:08.8191018+02:00",
+  "SessionKey": "magnam",
+  "InitialQueuePos": 429,
+  "AlertLevel": 910,
+  "Rank": 212,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 596,
+  "ChatbotIsActive": true,
+  "Rating": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 357
     }
   }
 }

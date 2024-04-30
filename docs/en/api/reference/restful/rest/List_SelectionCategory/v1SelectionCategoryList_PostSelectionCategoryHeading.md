@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 234,
-  "Name": "Romaguera Inc and Sons",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 471,
-  "UdListDefinitionId": 818
+  "HeadingId": 579,
+  "Name": "Collier, O'Conner and Stehr",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 96,
+  "UdListDefinitionId": 642
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 910,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 211,
-  "UdListDefinitionId": 456,
+  "HeadingId": 432,
+  "Name": "Abernathy, Reynolds and Hermann",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 637,
+  "UdListDefinitionId": 862,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldLength": 119
     }
   }
 }

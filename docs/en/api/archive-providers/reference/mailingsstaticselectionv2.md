@@ -590,7 +590,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/contactAssociate/contactName,mailingAddr/person/personExtra/x_person_time,associate/contactCategory
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/person/personAssociateFullName,mailingAddr/person/personAssociate/assocTooltip,mailingAddr/person/personAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

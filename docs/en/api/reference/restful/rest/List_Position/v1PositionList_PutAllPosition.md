@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Kerluke-Koepp",
-    "Tooltip": "quaerat",
+    "Id": 948,
+    "Name": "Volkman LLC",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "UdListDefinitionId": 928,
-    "Rank": 720
+    "UdListDefinitionId": 851,
+    "Rank": 845
   },
   {
-    "Id": 279,
-    "Name": "Kerluke-Koepp",
-    "Tooltip": "quaerat",
+    "Id": 948,
+    "Name": "Volkman LLC",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "UdListDefinitionId": 928,
-    "Rank": 720
+    "UdListDefinitionId": 851,
+    "Rank": 845
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Luettgen Inc and Sons",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 982,
-    "Rank": 80,
+    "Id": 977,
+    "Name": "Von Group",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 251,
+    "Rank": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 333
       }
     }
   }

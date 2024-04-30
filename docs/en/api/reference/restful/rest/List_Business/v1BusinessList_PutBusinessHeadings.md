@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 28,
-    "Name": "Moen-Romaguera",
-    "Tooltip": "eos",
+    "HeadingId": 685,
+    "Name": "Strosin-Erdman",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 825,
-    "UdListDefinitionId": 730
+    "Rank": 237,
+    "UdListDefinitionId": 160
   },
   {
-    "HeadingId": 28,
-    "Name": "Moen-Romaguera",
-    "Tooltip": "eos",
+    "HeadingId": 685,
+    "Name": "Strosin-Erdman",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 825,
-    "UdListDefinitionId": 730
+    "Rank": 237,
+    "UdListDefinitionId": 160
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "Schuppe Inc and Sons",
-    "Tooltip": "exercitationem",
+    "HeadingId": 534,
+    "Name": "Stanton Group",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 287,
+    "Rank": 559,
+    "UdListDefinitionId": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 247
       }
     }
   }

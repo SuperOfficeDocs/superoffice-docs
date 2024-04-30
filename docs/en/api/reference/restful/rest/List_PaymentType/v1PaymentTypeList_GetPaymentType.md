@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Will, VonRueden and Howell",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 315,
-  "Rank": 807,
+  "Id": 805,
+  "Name": "Auer-Pfeffer",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 131,
+  "Rank": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

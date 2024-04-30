@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Hilpert, Harber and Nader",
-  "Tooltip": "ut",
+  "Id": 784,
+  "Name": "Kertzmann-Heidenreich",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 16,
-  "Rank": 671,
+  "UdListDefinitionId": 48,
+  "Rank": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   }
 }

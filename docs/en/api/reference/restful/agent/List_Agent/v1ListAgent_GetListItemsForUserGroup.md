@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 171,
-  "GroupId": 56
+  "UdListDefinitionId": 538,
+  "GroupId": 157
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Collier-Luettgen",
-    "ToolTip": "Eos et repellendus commodi qui ipsum voluptatum.",
+    "Id": 429,
+    "Name": "Fahey-Medhurst",
+    "ToolTip": "Repellat aliquam ut ea minus voluptas est.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "harum",
-    "ColorBlock": 115,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2016-02-28T11:44:33.8534097+01:00",
+    "Rank": 372,
+    "Type": "architecto",
+    "ColorBlock": 566,
+    "IconHint": "adipisci",
+    "Selected": false,
+    "LastChanged": "2008-12-28T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Greenholt LLC",
-        "ToolTip": "Saepe voluptatibus repellendus recusandae est nobis quibusdam aut.",
+        "Id": 80,
+        "Name": "Glover-Eichmann",
+        "ToolTip": "Est voluptatem dolores.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "consequatur",
-        "ColorBlock": 75,
-        "IconHint": "dignissimos",
+        "Rank": 827,
+        "Type": "harum",
+        "ColorBlock": 181,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2011-10-15T11:44:33.8534097+02:00",
+        "LastChanged": "2020-04-03T11:16:09.3347069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Llewellyn Marquardt",
+        "ExtraInfo": "repellat",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Ava Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Bryana Triston Anderson V",
+    "ExtraInfo": "vero",
+    "StyleHint": "rem",
+    "Hidden": false,
+    "FullName": "Donnie Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

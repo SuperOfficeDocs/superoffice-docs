@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 800,
-  "Name": "Beahan Inc and Sons",
-  "Tooltip": "atque",
-  "Rank": 290,
-  "Key": "dolor",
-  "MailTemplateId": 968,
+  "ConsentSourceId": 73,
+  "Name": "Blick-Eichmann",
+  "Tooltip": "expedita",
+  "Rank": 860,
+  "Key": "praesentium",
+  "MailTemplateId": 701,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 820
     }
   }
 }

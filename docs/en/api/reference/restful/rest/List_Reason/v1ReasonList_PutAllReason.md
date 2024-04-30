@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Watsica LLC",
-    "Tooltip": "blanditiis",
+    "Id": 85,
+    "Name": "Walker Inc and Sons",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 849
+    "UdListDefinitionId": 709,
+    "Rank": 236
   },
   {
-    "Id": 548,
-    "Name": "Watsica LLC",
-    "Tooltip": "blanditiis",
+    "Id": 85,
+    "Name": "Walker Inc and Sons",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 849
+    "UdListDefinitionId": 709,
+    "Rank": 236
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Bradtke LLC",
-    "Tooltip": "est",
+    "Id": 903,
+    "Name": "Hayes Group",
+    "Tooltip": "error",
     "Deleted": false,
-    "UdListDefinitionId": 434,
-    "Rank": 856,
+    "UdListDefinitionId": 92,
+    "Rank": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 149
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

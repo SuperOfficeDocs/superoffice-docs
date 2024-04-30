@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 418,
-    "Name": "Roob, Dooley and Hoppe",
-    "Tooltip": "error",
-    "Rank": 359,
+    "SaleTypeId": 938,
+    "Name": "Reynolds, Wuckert and Breitenberg",
+    "Tooltip": "in",
+    "Rank": 401,
     "DurationUnit": "Century",
-    "SaleDuration": 762,
-    "SaleTypeCatId": 768,
+    "SaleDuration": 208,
+    "SaleTypeCatId": 661,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 969,
-    "QuoteLinesTemplate": 965,
-    "ConfirmationLinesTemplate": 762,
+    "HasStakeholders": true,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 59,
+    "QuoteLinesTemplate": 571,
+    "ConfirmationLinesTemplate": 553,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 841,
-    "MinEarningPercent": 718,
-    "GroupQuoteLinesBy": 756,
-    "SortGroupLinesBy": 758,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 236,
+    "MinEarningPercent": 231,
+    "GroupQuoteLinesBy": 841,
+    "SortGroupLinesBy": 324,
     "Stages": [
       {
-        "Id": 919,
-        "Name": "Purdy, Mitchell and Johnson",
-        "ToolTip": "Rem sed esse accusamus quidem sit optio consequatur.",
+        "Id": 399,
+        "Name": "Schmitt-Toy",
+        "ToolTip": "Officia id ut ut quibusdam debitis.",
         "Deleted": false,
-        "Rank": 237,
-        "Type": "tenetur",
-        "ColorBlock": 837,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "2023-09-03T11:44:33.8221684+02:00",
+        "Rank": 710,
+        "Type": "omnis",
+        "ColorBlock": 950,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2000-09-20T11:16:09.3190898+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "repellat",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Hazel Erdman",
+        "FullName": "Aaron Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 181
+            "FieldLength": 85
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 616
       }
     }
   }

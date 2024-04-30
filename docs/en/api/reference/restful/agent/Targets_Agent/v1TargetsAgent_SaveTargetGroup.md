@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 808,
-  "Year": 897,
+  "TargetGroupId": 103,
+  "Year": 840,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 816,
+      "TargetAssignmentInfoId": 808,
       "Values": [
-        857,
-        186
+        753,
+        148
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 646,
-      "DimensionListItemDisplayName": "Kuhic, Greenfelder and Kohler"
+      "DimensionListItem": 911,
+      "DimensionListItemDisplayName": "Murray LLC"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 224,
-  "Year": 588,
+  "TargetGroupId": 18,
+  "Year": 603,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 145,
+      "TargetAssignmentInfoId": 105,
       "Values": [
-        921,
-        775
+        522,
+        83
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 315,
-      "DimensionListItemDisplayName": "Aufderhar, Beer and Quitzon",
+      "DimensionListItem": 745,
+      "DimensionListItemDisplayName": "Johns-Swift",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldType": "System.String",
+          "FieldLength": 940
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 134
     }
   }
 }

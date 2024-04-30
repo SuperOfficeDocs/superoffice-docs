@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 867,
-  "BlobSize": 66,
-  "Description": "Vision-oriented explicit matrix",
-  "ExtraInfo": "amet",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "aperiam",
-  "OriginalSize": 105,
-  "CreatedDate": "2012-02-19T11:44:42.7732231+01:00",
-  "UpdatedDate": "1999-02-27T11:44:42.7732231+01:00",
+  "BlobId": 26,
+  "BlobSize": 760,
+  "Description": "Future-proofed clear-thinking neural-net",
+  "ExtraInfo": "magnam",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "id",
+  "OriginalSize": 803,
+  "CreatedDate": "2019-11-28T11:16:14.3866967+01:00",
+  "UpdatedDate": "2008-10-16T11:16:14.3866967+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores"
+  "ConceptualType": "vel"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 22,
-  "BlobSize": 477,
-  "Description": "Integrated client-driven budgetary management",
-  "ExtraInfo": "magni",
+  "BlobId": 223,
+  "BlobSize": 800,
+  "Description": "Sharable web-enabled groupware",
+  "ExtraInfo": "officiis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "modi",
-  "OriginalSize": 333,
-  "CreatedDate": "2011-08-31T11:44:42.7732231+02:00",
-  "UpdatedDate": "2011-01-14T11:44:42.7732231+01:00",
+  "IsZipped": false,
+  "MimeType": "voluptas",
+  "OriginalSize": 38,
+  "CreatedDate": "2005-01-04T11:16:14.3866967+01:00",
+  "UpdatedDate": "2016-07-30T11:16:14.3866967+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

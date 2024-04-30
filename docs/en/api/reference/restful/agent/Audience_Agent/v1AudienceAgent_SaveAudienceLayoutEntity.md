@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 62,
-  "InstanceLayout": "qui",
-  "InstanceName": "Koelpin, Shanahan and Dach",
-  "CreatedDate": "1999-07-14T11:44:32.806727+02:00",
-  "UpdatedDate": "1999-01-11T11:44:32.806727+01:00",
+  "AudienceLayoutId": 214,
+  "InstanceLayout": "est",
+  "InstanceName": "Ratke Inc and Sons",
+  "CreatedDate": "2023-06-17T11:16:08.7253957+02:00",
+  "UpdatedDate": "2019-07-24T11:16:08.7253957+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 391,
-  "InstanceLayout": "explicabo",
-  "InstanceName": "Keebler LLC",
-  "CreatedDate": "2016-05-12T11:44:32.806727+02:00",
-  "UpdatedDate": "2012-10-18T11:44:32.806727+02:00",
+  "AudienceLayoutId": 228,
+  "InstanceLayout": "quae",
+  "InstanceName": "Ernser Group",
+  "CreatedDate": "2022-05-08T11:16:08.7253957+02:00",
+  "UpdatedDate": "1997-11-05T11:16:08.7253957+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 372
     }
   }
 }

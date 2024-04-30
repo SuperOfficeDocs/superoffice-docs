@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 342,
+  "SystemEventId": 7,
   "Scope": "Database",
-  "Eta": "2012-01-14T11:44:42.5545135+01:00",
-  "Eventkey": "vero",
-  "Eventmess": "rem",
-  "ExtraInfo": 1002,
-  "Owner": 430,
-  "UpdatedCount": 145,
-  "Registered": "2010-12-12T11:44:42.5545135+01:00",
+  "Eta": "1998-01-09T11:16:14.2304645+01:00",
+  "Eventkey": "reiciendis",
+  "Eventmess": "labore",
+  "ExtraInfo": 49,
+  "Owner": 748,
+  "UpdatedCount": 64,
+  "Registered": "2024-01-17T11:16:14.2304645+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   },
   "_Links": {

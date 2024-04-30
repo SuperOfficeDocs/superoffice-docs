@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 694,
-  "Name": "Ullrich-Gottlieb",
-  "Tooltip": "sunt",
-  "SaveInDb": 756,
-  "Filename": "cupiditate",
-  "DefaultOref": "in",
+  "DocumentTemplateId": 297,
+  "Name": "Abbott-Mayer",
+  "Tooltip": "dicta",
+  "SaveInDb": 171,
+  "Filename": "non",
+  "DefaultOref": "quisquam",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 244,
-  "IntentId": 267,
+  "AutoeventId": 700,
+  "IntentId": 820,
   "IsDefaultPublished": false,
-  "Rank": 710,
-  "LoadTemplateFromPlugin": 406,
-  "MimeType": "in",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 532,
+  "Rank": 299,
+  "LoadTemplateFromPlugin": 8,
+  "MimeType": "animi",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 704,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "carol@mcglynn.info",
-  "IncludeSignature": false,
+  "EmailSubject": "hailee.lebsack@schmidtrobel.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "domenica.jewess@hesselbernier.us",
+  "SenderEmailAddress": "ruby_bahringer@harris.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 226,
-  "Name": "Steuber, Boehm and Heaney",
-  "Tooltip": "eaque",
-  "SaveInDb": 755,
-  "Filename": "labore",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 179,
+  "Name": "Greenholt, Romaguera and Grant",
+  "Tooltip": "omnis",
+  "SaveInDb": 789,
+  "Filename": "ad",
+  "DefaultOref": "dolorem",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 355,
-  "IntentId": 494,
-  "IsDefaultPublished": false,
-  "Rank": 436,
-  "LoadTemplateFromPlugin": 997,
-  "MimeType": "aliquid",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 976,
+  "AutoeventId": 133,
+  "IntentId": 464,
+  "IsDefaultPublished": true,
+  "Rank": 875,
+  "LoadTemplateFromPlugin": 99,
+  "MimeType": "nihil",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 307,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "roscoe@legroskris.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "ambrose@goldnerdenesik.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "john@kunze.co.uk",
+  "SenderEmailAddress": "cornelius_romaguera@lindgrenharvey.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

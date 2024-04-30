@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 800,
-  "ToAssociate": "quos"
+  "ChatSessionId": 798,
+  "ToAssociate": "repudiandae"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 497,
-  "TopicId": 100,
+  "ChatSessionId": 592,
+  "TopicId": 922,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "et",
-  "CustomerName": "O'Hara Inc and Sons",
-  "CustomerEmail": "rigoberto@mooreswaniawski.name",
-  "CustomerPhone": "051.569.5590 x00294",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Howell Inc and Sons",
+  "CustomerAlias": "sapiente",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Wilderman Group",
+  "CustomerEmail": "nick@metzernser.uk",
+  "CustomerPhone": "(354)944-9059 x89712",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hintz LLC",
   "Status": "Closed",
-  "FirstMessage": "nesciunt",
-  "LastMessage": "quam",
-  "WhenRequested": "2002-08-06T11:44:32.9161253+02:00",
-  "WhenStarted": "2021-01-07T11:44:32.9161253+01:00",
-  "WhenEnded": "2020-10-01T11:44:32.9161253+02:00",
-  "WhenIdle": "2007-03-13T11:44:32.9161253+01:00",
-  "WhenFetched": "2017-03-19T11:44:32.9161253+01:00",
-  "SessionKey": "dolorem",
-  "InitialQueuePos": 768,
-  "AlertLevel": 170,
-  "Rank": 905,
+  "FirstMessage": "et",
+  "LastMessage": "rerum",
+  "WhenRequested": "2007-07-27T11:16:08.7878955+02:00",
+  "WhenStarted": "2007-09-24T11:16:08.7878955+02:00",
+  "WhenEnded": "2012-01-24T11:16:08.7878955+01:00",
+  "WhenIdle": "2017-07-08T11:16:08.7878955+02:00",
+  "WhenFetched": "2001-03-20T11:16:08.7878955+01:00",
+  "SessionKey": "nihil",
+  "InitialQueuePos": 921,
+  "AlertLevel": 215,
+  "Rank": 309,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 228,
+  "ChatbotIsActive": true,
+  "Rating": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 807
     }
   }
 }

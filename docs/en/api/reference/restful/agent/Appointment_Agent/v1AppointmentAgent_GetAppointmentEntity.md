@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=692
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=151
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-10-04T11:44:32.5568356+02:00",
-  "AppointmentId": 178,
-  "Description": "Business-focused optimizing archive",
-  "Title": "a",
-  "Agenda": "velit",
-  "InternalNotes": "porro",
-  "StartDate": "2002-02-13T11:44:32.5568356+01:00",
-  "EndDate": "2007-10-19T11:44:32.5568356+02:00",
+  "CreatedDate": "2005-04-05T11:16:08.5688472+02:00",
+  "AppointmentId": 69,
+  "Description": "Down-sized foreground focus group",
+  "Title": "at",
+  "Agenda": "quo",
+  "InternalNotes": "non",
+  "StartDate": "2014-06-29T11:16:08.5688472+02:00",
+  "EndDate": "2016-10-27T11:16:08.5688472+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 574,
+  "MotherId": 421,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-01-03T11:44:32.5568356+01:00",
+  "UpdatedDate": "2022-08-16T11:16:08.5688472+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 886,
+  "ActiveLinks": 57,
   "Links": [
     {
-      "EntityName": "Bailey Inc and Sons",
-      "Id": 741,
-      "Description": "Monitored analyzing budgetary management",
-      "ExtraInfo": "quam",
-      "LinkId": 34,
+      "EntityName": "Schamberger-Carroll",
+      "Id": 641,
+      "Description": "Switchable contextually-based approach",
+      "ExtraInfo": "voluptate",
+      "LinkId": 998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldLength": 477
         }
       }
     }
   ],
-  "AlarmLeadTime": "nostrum",
+  "AlarmLeadTime": "quod",
   "HasAlarm": false,
-  "ColorIndex": 90,
+  "ColorIndex": 685,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "hic",
-  "LeadTime": "omnis",
-  "Location": "quidem",
-  "RejectCounter": 945,
-  "RejectReason": "",
+  "IsAlldayEvent": false,
+  "LagTime": "qui",
+  "LeadTime": "rem",
+  "Location": "molestias",
+  "RejectCounter": 214,
+  "RejectReason": "incubate dynamic metrics",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 256,
-      "PersonId": 121,
-      "ContactId": 890,
-      "EmailId": 866,
+      "AssociateId": 156,
+      "PersonId": 554,
+      "ContactId": 675,
+      "EmailId": 486,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lonnie@beahan.info",
-      "Description": "Operative directional intranet"
+      "EmailAddress": "sedrick@deckowroberts.info",
+      "Description": "De-engineered fault-tolerant interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-08-23T11:44:32.5568356+02:00",
+  "ActiveDate": "1997-06-21T11:16:08.5688472+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 33,
+  "PreferredTZLocation": 930,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 883,
+  "SuggestedAppointmentId": 890,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "enim",
+  "CentralserviceVideomeetId": "dolor",
   "UserDefinedFields": {
-    "SuperOffice:1": "2074912995",
-    "SuperOffice:2": "Wallace Gutkowski"
+    "SuperOffice:1": "Eusebio Mayer",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "animi"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2018-04-10T11:44:32.5568356+02:00",
-  "PublishTo": "2017-08-05T11:44:32.5568356+02:00",
-  "PublishFrom": "2020-02-13T11:44:32.5568356+01:00",
+  "PublishEventDate": "2019-04-04T11:16:08.5688472+02:00",
+  "PublishTo": "2019-03-20T11:16:08.5688472+01:00",
+  "PublishFrom": "2007-02-20T11:16:08.5688472+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 208,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 720
         }
       }
     },
     {
-      "VisibleId": 208,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 720
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 324
     }
   }
 }

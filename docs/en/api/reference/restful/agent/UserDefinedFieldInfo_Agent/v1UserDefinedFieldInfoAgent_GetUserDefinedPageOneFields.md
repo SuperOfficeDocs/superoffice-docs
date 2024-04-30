@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 320
+  "UserGroupId": 357
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 869,
-    "ColumnId": 772,
-    "FieldDefault": "a",
-    "FieldHeight": 462,
-    "FieldLabel": "nobis",
-    "FieldLeft": 96,
-    "FieldTop": 765,
+    "UDefFieldId": 849,
+    "ColumnId": 184,
+    "FieldDefault": "optio",
+    "FieldHeight": 761,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 705,
+    "FieldTop": 218,
     "FieldType": "Checkbox",
-    "FieldWidth": 500,
-    "FormatMask": "impedit",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 854,
-    "LabelLeft": 840,
-    "LabelTop": 124,
-    "LabelWidth": 980,
-    "LastVersionId": 864,
-    "ListTableId": 259,
-    "IsMandatory": false,
+    "FieldWidth": 732,
+    "FormatMask": "esse",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 817,
+    "LabelLeft": 783,
+    "LabelTop": 585,
+    "LabelWidth": 46,
+    "LastVersionId": 41,
+    "ListTableId": 511,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 639,
-    "ProgId": "voluptatem",
+    "Page1LineNo": 60,
+    "ProgId": "eveniet",
     "IsReadOnly": false,
-    "ShortLabel": "non",
-    "TabOrder": 33,
-    "TextLength": 716,
-    "Tooltip": "dolores",
-    "UdefIdentity": 550,
-    "UDListDefinitionId": 124,
+    "ShortLabel": "atque",
+    "TabOrder": 463,
+    "TextLength": 970,
+    "Tooltip": "velit",
+    "UdefIdentity": 128,
+    "UDListDefinitionId": 464,
     "Justification": "Center",
-    "Version": 1001,
-    "TemplateVariableName": "Bergstrom, Kutch and Greenholt",
+    "Version": 570,
+    "TemplateVariableName": "Maggio-Trantow",
     "HasBeenPublished": false,
-    "MdoListName": "Mitchell, Carroll and D'Amore",
+    "MdoListName": "Bergstrom, Kautzer and Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 189,
-  "Name": "Williamson, Erdman and Mayert",
-  "Tooltip": "sed",
-  "Rank": 722,
+  "SaleTypeId": 431,
+  "Name": "Daugherty-Lindgren",
+  "Tooltip": "illo",
+  "Rank": 569,
   "DurationUnit": "Century",
-  "SaleDuration": 691,
-  "SaleTypeCatId": 405,
+  "SaleDuration": 894,
+  "SaleTypeCatId": 92,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 668,
-  "QuoteLinesTemplate": 72,
-  "ConfirmationLinesTemplate": 115,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 389,
+  "QuoteLinesTemplate": 263,
+  "ConfirmationLinesTemplate": 157,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 361,
-  "MinEarningPercent": 585,
-  "GroupQuoteLinesBy": 261,
-  "SortGroupLinesBy": 558,
+  "MaxDiscountPercent": 585,
+  "MinEarningPercent": 250,
+  "GroupQuoteLinesBy": 283,
+  "SortGroupLinesBy": 226,
   "Stages": [
     {
-      "Id": 252,
-      "Name": "Stanton, Bins and Hettinger",
-      "ToolTip": "Sit ad maiores.",
+      "Id": 183,
+      "Name": "Feest-Blanda",
+      "ToolTip": "Totam ut alias alias.",
       "Deleted": false,
-      "Rank": 953,
-      "Type": "beatae",
-      "ColorBlock": 385,
-      "IconHint": "ex",
-      "Selected": false,
-      "LastChanged": "2016-08-21T11:44:43.3355939+02:00",
+      "Rank": 767,
+      "Type": "perferendis",
+      "ColorBlock": 698,
+      "IconHint": "ut",
+      "Selected": true,
+      "LastChanged": "2001-07-06T11:16:14.7307772+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "nulla",
+      "ExtraInfo": "at",
+      "StyleHint": "maiores",
       "Hidden": false,
-      "FullName": "Alexandra Roberts"
+      "FullName": "Cristina Romaguera"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 359,
-  "Name": "Dibbert Group",
-  "Tooltip": "eos",
-  "Rank": 785,
+  "SaleTypeId": 420,
+  "Name": "Stokes Group",
+  "Tooltip": "consectetur",
+  "Rank": 809,
   "DurationUnit": "Century",
-  "SaleDuration": 154,
-  "SaleTypeCatId": 53,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 5,
+  "SaleTypeCatId": 384,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 583,
-  "QuoteLinesTemplate": 191,
-  "ConfirmationLinesTemplate": 467,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 893,
+  "QuoteLinesTemplate": 700,
+  "ConfirmationLinesTemplate": 283,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 560,
-  "MinEarningPercent": 122,
-  "GroupQuoteLinesBy": 866,
-  "SortGroupLinesBy": 292,
+  "MaxDiscountPercent": 255,
+  "MinEarningPercent": 224,
+  "GroupQuoteLinesBy": 171,
+  "SortGroupLinesBy": 581,
   "Stages": [
     {
-      "Id": 628,
-      "Name": "Weber, Goyette and Rath",
-      "ToolTip": "Molestias et qui est dicta recusandae.",
-      "Deleted": false,
-      "Rank": 344,
-      "Type": "quibusdam",
-      "ColorBlock": 710,
-      "IconHint": "repellendus",
+      "Id": 659,
+      "Name": "Fay-Erdman",
+      "ToolTip": "Quis veritatis.",
+      "Deleted": true,
+      "Rank": 123,
+      "Type": "et",
+      "ColorBlock": 173,
+      "IconHint": "quod",
       "Selected": false,
-      "LastChanged": "2018-12-03T11:44:43.3355939+01:00",
+      "LastChanged": "2005-03-15T11:16:14.7307772+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "est",
+      "ExtraInfo": "ad",
+      "StyleHint": "nostrum",
       "Hidden": true,
-      "FullName": "Mr. Lyla Christina Jacobson IV",
+      "FullName": "Kimberly Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldLength": 976
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

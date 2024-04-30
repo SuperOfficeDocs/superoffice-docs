@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jacobi-Breitenberg",
-  "RecordId": 729,
-  "AssociateId": 445
+  "TableName": "Tromp Group",
+  "RecordId": 889,
+  "AssociateId": 322
 }
 ```
 

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Kutch Group",
+  "UserName": "Huel, Metz and Schaden",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 63,
-  "Name": "Oberbrunner-Fahey",
-  "Rank": 289,
-  "Tooltip": "quo",
+  "AssociateId": 266,
+  "Name": "Crooks-Frami",
+  "Rank": 42,
+  "Tooltip": "nulla",
   "LicenseOwners": [
     {
-      "Name": "Adams-Ryan",
-      "Description": "De-engineered exuding superstructure",
+      "Name": "Rosenbaum, Denesik and Wilkinson",
+      "Description": "Multi-layered optimizing alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     },
     {
-      "Name": "Adams-Ryan",
-      "Description": "De-engineered exuding superstructure",
+      "Name": "Rosenbaum, Denesik and Wilkinson",
+      "Description": "Multi-layered optimizing alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eos",
-      "Tooltip": "id",
-      "Id": 659,
-      "Rank": 491,
+      "Value": "dolor",
+      "Tooltip": "ipsam",
+      "Id": 643,
+      "Rank": 994,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 978
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2022-01-04T11:44:34.9937757+01:00",
-  "Lastlogout": "2001-08-29T11:44:34.9937757+02:00",
-  "EjUserId": 528,
-  "RequestSignature": "tempore",
+  "Deleted": true,
+  "Lastlogin": "2005-09-28T11:16:10.0390983+02:00",
+  "Lastlogout": "2008-04-03T11:16:10.0390983+02:00",
+  "EjUserId": 975,
+  "RequestSignature": "error",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "quia",
+      "Value": "sequi",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     },
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "quia",
+      "Value": "sequi",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
   ],
-  "UserName": "Kassulke-Lehner",
+  "UserName": "Abernathy-Gerhold",
   "TicketCategories": [
     {
-      "Id": 602,
-      "Name": "Jaskolski LLC",
-      "ToolTip": "Iusto occaecati optio minima nemo mollitia et.",
+      "Id": 548,
+      "Name": "Metz Inc and Sons",
+      "ToolTip": "Reprehenderit ipsam nulla voluptate est aut minus ducimus.",
       "Deleted": false,
-      "Rank": 127,
-      "Type": "earum",
+      "Rank": 845,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatibus",
-      "ColorBlock": 664,
-      "ExtraInfo": "aliquid",
-      "StyleHint": "voluptas",
-      "FullName": "Dr. Camron Nathanial Hauck",
+      "IconHint": "amet",
+      "ColorBlock": 686,
+      "ExtraInfo": "esse",
+      "StyleHint": "impedit",
+      "FullName": "Priscilla Swaniawski I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldType": "System.String",
+          "FieldLength": 711
         }
       }
     }
   ],
-  "NickName": "Hegmann-Lehner",
-  "WaitingForApproval": false,
+  "NickName": "Beer, Bogan and Moore",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "a"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "est"
+    "CustomFields1": "tempore",
+    "CustomFields2": "omnis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lang Inc and Sons",
-      "DisplayName": "Hane LLC",
-      "Description": "Robust background monitoring",
-      "ToolTip": "Aliquid consectetur explicabo aliquam voluptatem et modi.",
+      "Name": "Swift-Stracke",
+      "DisplayName": "Kuhn Group",
+      "Description": "Multi-tiered incremental projection",
+      "ToolTip": "Ad debitis rerum sed eos.",
       "Actions": "Implicit",
-      "ActionData": "ex",
+      "ActionData": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 615
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

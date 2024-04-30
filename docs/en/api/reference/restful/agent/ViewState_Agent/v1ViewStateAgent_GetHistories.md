@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 62,
-    "Id": 869,
-    "HistoryName": "Gleason, Kirlin and Denesik",
-    "HistoryId": 818,
-    "AssociateId": 349,
-    "Name": "Blick-Zemlak",
-    "ItemInfo": "quam",
+    "Rank": 259,
+    "Id": 508,
+    "HistoryName": "Kautzer-Kemmer",
+    "HistoryId": 388,
+    "AssociateId": 629,
+    "Name": "Baumbach Group",
+    "ItemInfo": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

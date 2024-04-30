@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 802,
-  "Name": "Zemlak LLC",
-  "Description": "Profound well-modulated collaboration",
+  "ReportLabelLayoutId": 768,
+  "Name": "Terry, Ernser and Zemlak",
+  "Description": "Up-sized non-volatile internet solution",
   "Orientation": "Landscape",
-  "PaperWidth": 341,
-  "PaperHeight": 241,
-  "LeftMargin": 138,
-  "RightMargin": 938,
-  "TopMargin": 951,
-  "BottomMargin": 334,
-  "CountColumns": 352,
-  "CountRows": 367
+  "PaperWidth": 537,
+  "PaperHeight": 281,
+  "LeftMargin": 438,
+  "RightMargin": 153,
+  "TopMargin": 469,
+  "BottomMargin": 535,
+  "CountColumns": 830,
+  "CountRows": 617
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 940,
-  "Name": "Kunze, Flatley and Jaskolski",
-  "Description": "Self-enabling asynchronous leverage",
+  "ReportLabelLayoutId": 528,
+  "Name": "Wolff, Hammes and Kreiger",
+  "Description": "Profound solution-oriented project",
   "Orientation": "Landscape",
-  "PaperWidth": 211,
-  "PaperHeight": 561,
-  "LeftMargin": 181,
-  "RightMargin": 83,
-  "TopMargin": 300,
-  "BottomMargin": 87,
-  "CountColumns": 56,
-  "CountRows": 579,
+  "PaperWidth": 16,
+  "PaperHeight": 815,
+  "LeftMargin": 513,
+  "RightMargin": 835,
+  "TopMargin": 224,
+  "BottomMargin": 679,
+  "CountColumns": 730,
+  "CountRows": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 615
     }
   }
 }

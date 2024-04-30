@@ -104,8 +104,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 558,
-  "Count": 599
+  "AmountLimit": 654,
+  "Count": 118
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Streich-Kilback",
-    "SaleDate": "1997-11-16T11:44:34.4001629+01:00",
-    "SaleId": 618,
-    "Probability": 790,
-    "Title": "dolores",
-    "Amount": 18174.066,
-    "Currency": "sit",
-    "ProjectName": "Murray Group",
-    "AssociateFullName": "Loyal Brown",
-    "Description": "Self-enabling multimedia interface",
+    "ContactName": "Lakin-Auer",
+    "SaleDate": "2011-09-26T11:16:09.6846608+02:00",
+    "SaleId": 287,
+    "Probability": 468,
+    "Title": "suscipit",
+    "Amount": 6619.008,
+    "Currency": "id",
+    "ProjectName": "Bernhard-Bednar",
+    "AssociateFullName": "Kaitlyn Schamberger",
+    "Description": "Seamless multimedia frame",
     "Status": "Lost",
-    "WeightedAmount": 26776.896,
-    "ProjectId": 328,
-    "EarningPercent": 14184.484,
-    "Earning": 1892.936,
-    "ContactId": 786,
-    "AssociateId": 450,
-    "PersonId": 17,
-    "SaleTypeId": 591,
-    "SaleTypeName": "Mayer, Waters and Runolfsdottir",
-    "PersonFullName": "Else Oberbrunner",
+    "WeightedAmount": 5418.686,
+    "ProjectId": 848,
+    "EarningPercent": 7239.54,
+    "Earning": 21157.634,
+    "ContactId": 728,
+    "AssociateId": 195,
+    "PersonId": 384,
+    "SaleTypeId": 492,
+    "SaleTypeName": "Olson, Windler and Huel",
+    "PersonFullName": "Sid Tromp",
     "Completed": "Completed",
-    "ActiveErpLinks": 435,
-    "NextDueDate": "2009-02-17T11:44:34.4001629+01:00",
-    "Number": "1008187",
+    "ActiveErpLinks": 665,
+    "NextDueDate": "2001-01-30T11:16:09.6846608+01:00",
+    "Number": "760658",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldType": "System.String",
+        "FieldLength": 902
       }
     }
   }

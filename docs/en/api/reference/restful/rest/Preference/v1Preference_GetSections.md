@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Kub, O'Reilly and Schmeler",
-    "ToolTip": "Modi atque iste iste blanditiis sint vero.",
+    "Id": 51,
+    "Name": "Rath-Beatty",
+    "ToolTip": "Qui architecto excepturi inventore voluptas laborum odio consectetur.",
     "Deleted": false,
-    "Rank": 545,
-    "Type": "minus",
+    "Rank": 523,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Hudson-Bartoletti",
-        "ToolTip": "Vitae ea dolores pariatur.",
-        "Deleted": false,
-        "Rank": 899,
-        "Type": "placeat",
+        "Id": 25,
+        "Name": "Feeney, Wisoky and Bergstrom",
+        "ToolTip": "Magni cupiditate quasi animi ratione vitae itaque consectetur.",
+        "Deleted": true,
+        "Rank": 704,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 260,
-        "ExtraInfo": "et",
-        "StyleHint": "similique",
-        "FullName": "Julia Marjory Brakus DVM",
+        "IconHint": "enim",
+        "ColorBlock": 878,
+        "ExtraInfo": "aperiam",
+        "StyleHint": "voluptates",
+        "FullName": "Bernice Daugherty Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldLength": 41
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 105,
-    "ExtraInfo": "libero",
-    "StyleHint": "aut",
-    "FullName": "Josiane Kelsi Frami V",
+    "IconHint": "sit",
+    "ColorBlock": 670,
+    "ExtraInfo": "sapiente",
+    "StyleHint": "quam",
+    "FullName": "Dr. Charlotte Major Schamberger DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 234
       }
     }
   }

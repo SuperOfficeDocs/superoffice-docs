@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 804,
-  "BlobSize": 712,
-  "Description": "Re-engineered content-based array",
-  "ExtraInfo": "deserunt",
-  "IsEncrypted": false,
-  "IsZipped": false,
+  "BlobId": 847,
+  "BlobSize": 650,
+  "Description": "Exclusive multimedia internet solution",
+  "ExtraInfo": "est",
+  "IsEncrypted": true,
+  "IsZipped": true,
   "MimeType": "sed",
-  "OriginalSize": 22,
-  "CreatedDate": "2021-10-22T11:44:41.7265353+02:00",
-  "UpdatedDate": "2006-07-14T11:44:41.7265353+02:00",
+  "OriginalSize": 238,
+  "CreatedDate": "2014-03-02T11:16:13.7612392+01:00",
+  "UpdatedDate": "2020-11-17T11:16:13.7612392+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "distinctio"
+  "ConceptualType": "voluptas"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 662,
-  "BlobSize": 160,
-  "Description": "Focused zero administration monitoring",
-  "ExtraInfo": "qui",
+  "BlobId": 424,
+  "BlobSize": 325,
+  "Description": "Managed mobile superstructure",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 776,
-  "CreatedDate": "1998-01-27T11:44:41.7421561+01:00",
-  "UpdatedDate": "1996-12-24T11:44:41.7421561+01:00",
+  "MimeType": "amet",
+  "OriginalSize": 254,
+  "CreatedDate": "2003-05-29T11:16:13.7612392+02:00",
+  "UpdatedDate": "2002-08-08T11:16:13.7612392+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

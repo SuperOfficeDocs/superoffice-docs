@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 931,
+  "HierarchyId": 681,
   "Domain": "Dashboards",
-  "Name": "Mohr, Sauer and Beahan",
-  "Fullname": "sit",
-  "ParentId": 113,
+  "Name": "Pfeffer Inc and Sons",
+  "Fullname": "voluptatem",
+  "ParentId": 1000,
   "Children": [
     {
-      "HierarchyId": 280,
+      "HierarchyId": 675,
       "Domain": "Dashboards",
-      "Name": "Trantow, Mueller and Streich",
-      "Fullname": "accusamus",
-      "ParentId": 153,
+      "Name": "Schuster Inc and Sons",
+      "Fullname": "veniam",
+      "ParentId": 993,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-08-17T11:44:42.0233848+02:00",
-      "RegisteredAssociateId": 697,
-      "Updated": "2004-08-16T11:44:42.0233848+02:00",
-      "UpdatedAssociateId": 454,
+      "Registered": "2012-11-06T11:16:13.93321+01:00",
+      "RegisteredAssociateId": 912,
+      "Updated": "2002-10-19T11:16:13.93321+02:00",
+      "UpdatedAssociateId": 317,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 504
         }
       }
     }
   ],
-  "Registered": "2020-11-24T11:44:42.0233848+01:00",
-  "RegisteredAssociateId": 764,
-  "Updated": "2006-02-17T11:44:42.0233848+01:00",
-  "UpdatedAssociateId": 550,
+  "Registered": "2015-11-21T11:16:13.93321+01:00",
+  "RegisteredAssociateId": 820,
+  "Updated": "2011-07-21T11:16:13.93321+02:00",
+  "UpdatedAssociateId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 561
     }
   }
 }

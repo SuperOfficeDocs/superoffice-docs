@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Windler, Schiller and Durgan",
-    "Description": "Virtual value-added challenge",
+    "Name": "Aufderhar, Barton and Davis",
+    "Description": "Devolved object-oriented monitoring",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 595,
-        "Tooltip": "laudantium",
+        "Unrestricted": true,
+        "Total": 264,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 424,
-        "IsHidden": true,
+        "Free": 288,
+        "InUse": 950,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 746,
-        "Name": "Flatley, VonRueden and Sawayn",
-        "Description": "Synergized client-driven model",
-        "PrerequisiteModuleName": "Larson, Emard and Littel",
-        "SortOrder": 872,
-        "ExtraFlags": 968,
+        "ModuleLicenseId": 791,
+        "Name": "Shields-McDermott",
+        "Description": "Customizable 6th generation capability",
+        "PrerequisiteModuleName": "Runolfsdottir Inc and Sons",
+        "SortOrder": 978,
+        "ExtraFlags": 114,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 133
+            "FieldType": "System.String",
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 192,
-        "Tooltip": "in",
+        "Unrestricted": false,
+        "Total": 1002,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 752,
-        "InUse": 632,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 636,
-        "Name": "Fay Inc and Sons",
-        "Description": "Synergistic reciprocal circuit",
-        "PrerequisiteModuleName": "Torp LLC",
-        "SortOrder": 412,
-        "ExtraFlags": 683,
+        "Free": 400,
+        "InUse": 924,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 292,
+        "Name": "Schaefer Group",
+        "Description": "Organic secondary groupware",
+        "PrerequisiteModuleName": "Kerluke-Rosenbaum",
+        "SortOrder": 551,
+        "ExtraFlags": 619,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 156
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 895
       }
     }
   },
   {
-    "Name": "Windler, Schiller and Durgan",
-    "Description": "Virtual value-added challenge",
+    "Name": "Aufderhar, Barton and Davis",
+    "Description": "Devolved object-oriented monitoring",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 595,
-        "Tooltip": "laudantium",
+        "Unrestricted": true,
+        "Total": 264,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 424,
-        "IsHidden": true,
+        "Free": 288,
+        "InUse": 950,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 746,
-        "Name": "Flatley, VonRueden and Sawayn",
-        "Description": "Synergized client-driven model",
-        "PrerequisiteModuleName": "Larson, Emard and Littel",
-        "SortOrder": 872,
-        "ExtraFlags": 968,
+        "ModuleLicenseId": 791,
+        "Name": "Shields-McDermott",
+        "Description": "Customizable 6th generation capability",
+        "PrerequisiteModuleName": "Runolfsdottir Inc and Sons",
+        "SortOrder": 978,
+        "ExtraFlags": 114,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 133
+            "FieldType": "System.String",
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 192,
-        "Tooltip": "in",
+        "Unrestricted": false,
+        "Total": 1002,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 752,
-        "InUse": 632,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 636,
-        "Name": "Fay Inc and Sons",
-        "Description": "Synergistic reciprocal circuit",
-        "PrerequisiteModuleName": "Torp LLC",
-        "SortOrder": 412,
-        "ExtraFlags": 683,
+        "Free": 400,
+        "InUse": 924,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 292,
+        "Name": "Schaefer Group",
+        "Description": "Organic secondary groupware",
+        "PrerequisiteModuleName": "Kerluke-Rosenbaum",
+        "SortOrder": 551,
+        "ExtraFlags": 619,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 156
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 895
       }
     }
   }

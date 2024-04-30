@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 427,
-  "AttachmentId": "non"
+  "MailItemId": 531,
+  "AttachmentId": "repellendus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable web-enabled extranet",
-  "Filename": "incidunt",
-  "Size": 148,
-  "Type": "eum",
-  "Encoding": "porro",
-  "Id": "odio",
-  "Disposition": "dolor",
-  "IsSafeFileExtension": true,
+  "Description": "Synergized national product",
+  "Filename": "dicta",
+  "Size": 975,
+  "Type": "laborum",
+  "Encoding": "et",
+  "Id": "sed",
+  "Disposition": "reiciendis",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

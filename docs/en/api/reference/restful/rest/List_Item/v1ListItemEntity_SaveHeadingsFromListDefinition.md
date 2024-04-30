@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 783,
-    "Name": "Funk LLC",
-    "Tooltip": "perferendis",
+    "HeadingId": 386,
+    "Name": "Cartwright-McCullough",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 403
+    "Rank": 758,
+    "UdListDefinitionId": 342
   },
   {
-    "HeadingId": 783,
-    "Name": "Funk LLC",
-    "Tooltip": "perferendis",
+    "HeadingId": 386,
+    "Name": "Cartwright-McCullough",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 403
+    "Rank": 758,
+    "UdListDefinitionId": 342
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 287,
-    "Name": "Kreiger-Gorczany",
-    "Tooltip": "quam",
+    "HeadingId": 519,
+    "Name": "Toy LLC",
+    "Tooltip": "quas",
     "Deleted": false,
-    "Rank": 819,
-    "UdListDefinitionId": 232,
+    "Rank": 824,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 515
       }
     }
   }

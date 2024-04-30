@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins, Leffler and Mann"
+  "Name": "Mueller Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kris, Kemmer and Strosin",
-    "SoPrimaryKey": 806,
-    "EntryName": "O'Kon-Lesch",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Bednar, Legros and Walter",
+    "RuleName": "Moen Group",
+    "SoPrimaryKey": 161,
+    "EntryName": "Wunsch, Dietrich and Bogan",
+    "EntryIdentifier": "iste",
+    "RuleDisplayName": "Lueilwitz Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 887
       }
     }
   }

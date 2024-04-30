@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Tromp Inc and Sons",
-      "Operator": "dolores",
+      "Name": "Shanahan-Considine",
+      "Operator": "iste",
       "Values": [
-        "eligendi",
-        "molestias"
+        "maiores",
+        "magni"
       ],
       "DisplayValues": [
-        "ut",
-        "qui"
+        "doloribus",
+        "vero"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 771,
+      "InterParenthesis": 782,
       "InterOperator": "And",
-      "UniqueHash": 110
+      "UniqueHash": 960
     }
   ],
   "Columns": [
-    "nulla",
-    "ad"
+    "quia",
+    "voluptatibus"
   ],
-  "ConnectionId": 207,
+  "ConnectionId": 404,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "unde",
-        "exercitationem"
+        "quidem",
+        "quas"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "architecto",
+      "ExternalKey": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 497
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Heathcote, Botsford and Lemke",
-      "DisplayName": "Upton, Schowalter and Hilll",
+      "Name": "Schiller, Bosco and Strosin",
+      "DisplayName": "Turcotte LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 833
         }
       }
     },
     {
-      "Name": "Heathcote, Botsford and Lemke",
-      "DisplayName": "Upton, Schowalter and Hilll",
+      "Name": "Schiller, Bosco and Strosin",
+      "DisplayName": "Turcotte LLC",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 833
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

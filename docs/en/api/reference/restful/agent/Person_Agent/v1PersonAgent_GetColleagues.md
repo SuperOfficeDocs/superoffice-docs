@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "blanditiis",
-    "PersonId": 651,
-    "Mrmrs": "unde",
-    "Firstname": "Conor",
-    "Lastname": "O'Kon",
-    "MiddleName": "Hirthe, Mayert and Wiza",
-    "Title": "impedit",
-    "Description": "Networked cohesive open system",
-    "Email": "rupert.daugherty@rice.com",
-    "FullName": "Edmund Pfannerstill",
-    "DirectPhone": "1-202-540-3903 x0773",
-    "FormalName": "Morissette Inc and Sons",
-    "CountryId": 704,
-    "ContactId": 472,
-    "ContactName": "Harvey-Crooks",
-    "Retired": 386,
-    "Rank": 407,
-    "ActiveInterests": 856,
-    "ContactDepartment": "",
-    "ContactCountryId": 739,
-    "ContactOrgNr": "1255880",
-    "FaxPhone": "334-617-9051",
-    "MobilePhone": "1-798-212-4247 x185",
-    "ContactPhone": "(591)998-4532 x939",
-    "AssociateName": "Welch-Larkin",
-    "AssociateId": 588,
-    "UsePersonAddress": false,
-    "ContactFax": "commodi",
-    "Kanafname": "natus",
-    "Kanalname": "veritatis",
-    "Post1": "quia",
-    "Post2": "rerum",
-    "Post3": "explicabo",
-    "EmailName": "jailyn@hand.uk",
-    "ContactFullName": "Miss Johnnie Wintheiser III",
-    "ActiveErpLinks": 215,
-    "TicketPriorityId": 775,
-    "SupportLanguageId": 814,
-    "SupportAssociateId": 648,
+    "Position": "alias",
+    "PersonId": 778,
+    "Mrmrs": "fuga",
+    "Firstname": "Joel",
+    "Lastname": "Larson",
+    "MiddleName": "Wehner Group",
+    "Title": "hic",
+    "Description": "Seamless heuristic frame",
+    "Email": "keven@gradydickinson.co.uk",
+    "FullName": "Richmond Satterfield",
+    "DirectPhone": "1-211-662-0148 x9603",
+    "FormalName": "West LLC",
+    "CountryId": 554,
+    "ContactId": 329,
+    "ContactName": "Dibbert LLC",
+    "Retired": 351,
+    "Rank": 679,
+    "ActiveInterests": 676,
+    "ContactDepartment": "synergize intuitive applications",
+    "ContactCountryId": 334,
+    "ContactOrgNr": "456074",
+    "FaxPhone": "1-999-942-3931 x75318",
+    "MobilePhone": "131-643-2520 x02248",
+    "ContactPhone": "1-586-279-7968 x519",
+    "AssociateName": "Mayer Inc and Sons",
+    "AssociateId": 806,
+    "UsePersonAddress": true,
+    "ContactFax": "aut",
+    "Kanafname": "qui",
+    "Kanalname": "cupiditate",
+    "Post1": "velit",
+    "Post2": "amet",
+    "Post3": "velit",
+    "EmailName": "ashleigh.herman@larson.ca",
+    "ContactFullName": "Clementina Pfeffer",
+    "ActiveErpLinks": 854,
+    "TicketPriorityId": 575,
+    "SupportLanguageId": 139,
+    "SupportAssociateId": 186,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 287
       }
     }
   }

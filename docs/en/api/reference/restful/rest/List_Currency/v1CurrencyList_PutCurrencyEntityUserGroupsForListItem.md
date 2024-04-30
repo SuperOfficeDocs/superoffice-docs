@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Wolff-O'Conner",
-    "ToolTip": "Voluptates accusantium expedita optio dolor.",
-    "Deleted": false,
-    "Rank": 453,
-    "Type": "consequatur",
-    "ColorBlock": 560,
-    "IconHint": "aut",
+    "Id": 566,
+    "Name": "Bahringer-Cronin",
+    "ToolTip": "Dolorem distinctio.",
+    "Deleted": true,
+    "Rank": 910,
+    "Type": "omnis",
+    "ColorBlock": 936,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2023-01-20T11:44:43.0387817+01:00",
+    "LastChanged": "2011-08-27T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Schumm-Abbott",
-        "ToolTip": "Commodi rerum quo repellendus quo cum est consequatur.",
+        "Id": 800,
+        "Name": "Kulas-VonRueden",
+        "ToolTip": "Consequuntur debitis tempora eos possimus at sed.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "aut",
-        "ColorBlock": 933,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2018-07-26T11:44:43.0387817+02:00",
+        "Rank": 803,
+        "Type": "qui",
+        "ColorBlock": 640,
+        "IconHint": "placeat",
+        "Selected": false,
+        "LastChanged": "2005-12-22T11:16:14.5432954+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Stephan Jenkins"
+        "ExtraInfo": "repellat",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Denis Lind"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Karine Beatty"
+    "ExtraInfo": "fugit",
+    "StyleHint": "quibusdam",
+    "Hidden": false,
+    "FullName": "Mrs. Jaida Buckridge PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Shields-Fay",
-    "ToolTip": "Nemo ipsum sint enim quia quis voluptates.",
+    "Id": 492,
+    "Name": "Prosacco, McClure and Boyer",
+    "ToolTip": "Rerum dolorum quia exercitationem expedita.",
     "Deleted": false,
-    "Rank": 279,
-    "Type": "corporis",
-    "ColorBlock": 650,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2001-04-11T11:44:43.0387817+02:00",
+    "Rank": 711,
+    "Type": "quidem",
+    "ColorBlock": 334,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2008-02-15T11:16:14.5432954+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Weissnat-Wyman",
-        "ToolTip": "Deserunt ipsam esse quis.",
-        "Deleted": true,
-        "Rank": 477,
-        "Type": "modi",
-        "ColorBlock": 727,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2013-12-15T11:44:43.0387817+01:00",
+        "Id": 114,
+        "Name": "Torphy-Cummerata",
+        "ToolTip": "Maxime facere non minus iste sed.",
+        "Deleted": false,
+        "Rank": 423,
+        "Type": "illum",
+        "ColorBlock": 327,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "1998-10-21T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "qui",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Prof. Josianne Raynor",
+        "FullName": "Kaylah Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 780
+            "FieldType": "System.Int32",
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Jackson Brakus",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Mozell Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 537
       }
     }
   }

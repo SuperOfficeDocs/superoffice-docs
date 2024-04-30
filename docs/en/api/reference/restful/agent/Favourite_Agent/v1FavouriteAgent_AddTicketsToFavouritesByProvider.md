@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "VonRueden-Altenwerth",
+  "ProviderName": "Terry, Koss and Weber",
   "Restrictions": [
     {
-      "Name": "Bins-Harris",
-      "Operator": "velit",
+      "Name": "Armstrong Inc and Sons",
+      "Operator": "quia",
       "Values": [
-        "aut",
-        "quia"
+        "sed",
+        "modi"
       ],
       "DisplayValues": [
-        "ullam",
-        "sunt"
+        "unde",
+        "optio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 242,
+      "InterParenthesis": 181,
       "InterOperator": "And",
-      "UniqueHash": 681
+      "UniqueHash": 528
     }
   ],
-  "AssociateId": 350,
-  "ExtraInfo": "facilis"
+  "AssociateId": 154,
+  "ExtraInfo": "et"
 }
 ```
 

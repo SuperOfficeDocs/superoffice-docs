@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 375,
-  "Name": "Johns-Murazik",
-  "Rank": 832,
-  "Tooltip": "eos",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "odit"
+  "ResourceId": 367,
+  "Name": "O'Hara, Erdman and Kuhlman",
+  "Rank": 306,
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "aut"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 679,
-  "Name": "Larson LLC",
-  "Rank": 817,
-  "Tooltip": "qui",
+  "ResourceId": 994,
+  "Name": "Cronin Group",
+  "Rank": 766,
+  "Tooltip": "enim",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "ut",
+  "IsLocation": false,
+  "LocationAddress": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 546
     }
   }
 }

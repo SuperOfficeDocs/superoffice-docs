@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Hackett Group",
-  "Tooltip": "et",
+  "Id": 760,
+  "Name": "Rippin, Abshire and Leuschke",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 31,
+  "Rank": 293,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": true
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Shields-Armstrong",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 274,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false,
+  "Id": 67,
+  "Name": "Wunsch-Grady",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 367,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 737
     }
   },
   "_Links": {

@@ -63,6 +63,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
+| DashboardId | int32 | Primary key |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | OwnedByFullName | string | Full name of dashboard owner |
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 501
+  "DashboardId": 481
 }
 ```
 
@@ -92,32 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bruen, Stamm and Kohler",
-  "Description": "Open-source multi-state time-frame",
-  "OwnedByFullName": "Gus DuBuque",
-  "Registered": "2023-12-26T11:44:33.384768+01:00",
+  "DashboardId": 816,
+  "Name": "Pfeffer, Johns and Wolf",
+  "Description": "Adaptive motivating software",
+  "OwnedByFullName": "Camren Welch",
+  "Registered": "2014-01-28T11:16:08.9753349+01:00",
   "Tiles": [
     {
-      "Name": "Kozey-Pollich",
+      "Name": "Goodwin Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 936
         }
       }
     },
     {
-      "Name": "Kozey-Pollich",
+      "Name": "Goodwin Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 936
         }
       }
     }
@@ -127,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 931
     }
   }
 }

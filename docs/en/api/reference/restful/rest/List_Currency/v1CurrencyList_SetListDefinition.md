@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Turner Group",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 865,
-  "IsCustomList": false,
+  "Id": 32,
+  "Name": "Wiegand, Schulist and Wisozk",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 354,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Gutmann-Greenfelder",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 34,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 934,
+  "Name": "Zulauf-Luettgen",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 814,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 678
     }
   }
 }

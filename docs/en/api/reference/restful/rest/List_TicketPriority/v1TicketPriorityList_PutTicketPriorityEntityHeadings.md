@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "McGlynn LLC",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 134,
-    "UdListDefinitionId": 4
+    "HeadingId": 723,
+    "Name": "Dickinson, Braun and Littel",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 141,
+    "UdListDefinitionId": 730
   },
   {
-    "HeadingId": 502,
-    "Name": "McGlynn LLC",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 134,
-    "UdListDefinitionId": 4
+    "HeadingId": 723,
+    "Name": "Dickinson, Braun and Littel",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 141,
+    "UdListDefinitionId": 730
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Kshlerin, West and Nolan",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 147,
+    "HeadingId": 548,
+    "Name": "Watsica Group",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "Rank": 711,
+    "UdListDefinitionId": 632,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 278
       }
     }
   }

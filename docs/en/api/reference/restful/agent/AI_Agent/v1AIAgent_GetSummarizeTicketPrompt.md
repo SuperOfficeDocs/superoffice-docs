@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeTicketPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 94,
-  "NumSentences": 572,
-  "Summary": "dicta",
-  "IsoLangCode": "enim"
+  "TicketId": 527,
+  "NumSentences": 641,
+  "Summary": "consequatur",
+  "IsoLangCode": "laboriosam"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2007-02-08T11:44:32.2444085+01:00",
-  "UserPrompt": "magnam",
-  "UserDisplayText": "non",
-  "BotResponse": "exercitationem",
+  "Timestamp": "1997-08-04T11:16:08.3966087+02:00",
+  "UserPrompt": "vel",
+  "UserDisplayText": "fugit",
+  "BotResponse": "impedit",
   "BotActions": {
-    "BotActions1": "fuga",
-    "BotActions2": "omnis"
+    "BotActions1": "qui",
+    "BotActions2": "voluptatem"
   },
   "Attachments": [
-    "et",
-    "voluptates"
+    "vero",
+    "atque"
   ]
 }
 ```

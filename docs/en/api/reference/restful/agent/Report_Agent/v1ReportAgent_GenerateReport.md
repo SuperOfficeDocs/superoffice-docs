@@ -77,22 +77,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 418,
-  "LabelLayoutId": 337,
-  "Filename": "voluptas",
-  "Language": "earum",
-  "FileType": "rerum",
+  "ReportId": 962,
+  "LabelLayoutId": 889,
+  "Filename": "molestiae",
+  "Language": "soluta",
+  "FileType": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Bauch Inc and Sons",
-      "Operator": "tenetur",
+      "Name": "Lemke LLC",
+      "Operator": "aperiam",
       "Values": [
-        "optio",
-        "quis"
+        "corrupti",
+        "fuga"
       ],
       "DisplayValues": [
-        "excepturi",
-        "blanditiis"
+        "veniam",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 46,
+      "InterParenthesis": 213,
       "InterOperator": "And",
-      "UniqueHash": 774
+      "UniqueHash": 36
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"neque"
+"dicta"
 ```

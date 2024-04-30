@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 913,
-  "Name": "Morissette, Heathcote and Reynolds",
+  "ContactId": 100,
+  "Name": "Cummerata Inc and Sons",
   "Department": "",
-  "OrgNr": "1038699",
-  "Number1": "1942513",
-  "Number2": "1332363",
-  "UpdatedDate": "2018-05-01T11:44:33.0254682+02:00",
-  "CreatedDate": "1997-08-07T11:44:33.0254682+02:00",
+  "OrgNr": "667019",
+  "Number1": "950210",
+  "Number2": "1106691",
+  "UpdatedDate": "2015-06-30T11:16:08.8659714+02:00",
+  "CreatedDate": "2021-09-28T11:16:08.8659714+02:00",
   "Emails": [
     {
-      "Value": "similique",
-      "StrippedValue": "sequi",
-      "Description": "Inverse well-modulated hierarchy",
+      "Value": "hic",
+      "StrippedValue": "voluptatem",
+      "Description": "Enterprise-wide encompassing extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     },
     {
-      "Value": "similique",
-      "StrippedValue": "sequi",
-      "Description": "Inverse well-modulated hierarchy",
+      "Value": "hic",
+      "StrippedValue": "voluptatem",
+      "Description": "Enterprise-wide encompassing extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 846,
-      "Name": "Rowe-Spinka",
-      "ToolTip": "Dolores blanditiis vitae dolor possimus hic.",
+      "Id": 290,
+      "Name": "McGlynn, Greenfelder and Kovacek",
+      "ToolTip": "Et facilis necessitatibus corporis.",
       "Deleted": false,
-      "Rank": 850,
-      "Type": "nam",
-      "ColorBlock": 679,
-      "IconHint": "ducimus",
+      "Rank": 752,
+      "Type": "odio",
+      "ColorBlock": 430,
+      "IconHint": "ad",
       "Selected": false,
-      "LastChanged": "2002-06-13T11:44:33.0254682+02:00",
+      "LastChanged": "2023-10-10T11:16:08.8659714+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "recusandae",
-      "StyleHint": "blanditiis",
+      "ExtraInfo": "sed",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Prof. Santa Cummerata",
+      "FullName": "Hardy Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 312
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "dolor",
-      "StrippedValue": "soluta",
-      "Description": "Synchronised responsive methodology",
+      "Value": "placeat",
+      "StrippedValue": "odit",
+      "Description": "Persistent uniform neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     },
     {
-      "Value": "dolor",
-      "StrippedValue": "soluta",
-      "Description": "Synchronised responsive methodology",
+      "Value": "placeat",
+      "StrippedValue": "odit",
+      "Description": "Persistent uniform neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "eveniet",
-      "Description": "Cloned dynamic open architecture",
+      "Value": "excepturi",
+      "StrippedValue": "sit",
+      "Description": "Front-line regional core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 495
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "eveniet",
-      "Description": "Cloned dynamic open architecture",
+      "Value": "excepturi",
+      "StrippedValue": "sit",
+      "Description": "Front-line regional core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 495
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "odit",
-      "StrippedValue": "voluptas",
-      "Description": "Exclusive reciprocal projection",
+      "Value": "modi",
+      "StrippedValue": "saepe",
+      "Description": "Stand-alone modular standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     },
     {
-      "Value": "odit",
-      "StrippedValue": "voluptas",
-      "Description": "Exclusive reciprocal projection",
+      "Value": "modi",
+      "StrippedValue": "saepe",
+      "Description": "Stand-alone modular standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
   ],
-  "Description": "Fundamental impactful migration",
+  "Description": "Centralized upward-trending circuit",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "repellendus",
-      "PersonId": 922,
-      "Mrmrs": "laboriosam",
-      "Firstname": "Anya",
-      "Lastname": "Buckridge",
-      "MiddleName": "Rutherford, Harris and Labadie",
-      "Title": "est",
-      "Description": "Total reciprocal customer loyalty",
-      "Email": "violet@faymacejkovic.co.uk",
-      "FullName": "Jonathon Kemmer",
-      "DirectPhone": "230.880.8660 x80613",
-      "FormalName": "Heaney, Doyle and Feil",
-      "CountryId": 259,
-      "ContactId": 579,
-      "ContactName": "Sauer LLC",
-      "Retired": 513,
-      "Rank": 232,
-      "ActiveInterests": 670,
-      "ContactDepartment": "",
-      "ContactCountryId": 654,
-      "ContactOrgNr": "714060",
-      "FaxPhone": "(861)138-9045 x5973",
-      "MobilePhone": "1-743-748-5238 x4203",
-      "ContactPhone": "182.180.4991 x26001",
-      "AssociateName": "Von-Bednar",
-      "AssociateId": 215,
-      "UsePersonAddress": false,
-      "ContactFax": "dolor",
-      "Kanafname": "maxime",
-      "Kanalname": "ullam",
-      "Post1": "ut",
-      "Post2": "eaque",
-      "Post3": "consequuntur",
-      "EmailName": "benedict@aufderharwitting.uk",
-      "ContactFullName": "Mr. Rosella Collier I",
-      "ActiveErpLinks": 377,
-      "TicketPriorityId": 193,
-      "SupportLanguageId": 831,
-      "SupportAssociateId": 688,
+      "Position": "nihil",
+      "PersonId": 905,
+      "Mrmrs": "qui",
+      "Firstname": "Jacinto",
+      "Lastname": "Koss",
+      "MiddleName": "Kohler-Quigley",
+      "Title": "beatae",
+      "Description": "Reactive responsive analyzer",
+      "Email": "jerod.greenholt@dietrichbeatty.uk",
+      "FullName": "Kiara Hahn",
+      "DirectPhone": "1-079-260-6796 x1819",
+      "FormalName": "Aufderhar-McCullough",
+      "CountryId": 917,
+      "ContactId": 450,
+      "ContactName": "Feil, Dicki and Kerluke",
+      "Retired": 433,
+      "Rank": 601,
+      "ActiveInterests": 641,
+      "ContactDepartment": "architect turn-key paradigms",
+      "ContactCountryId": 476,
+      "ContactOrgNr": "795030",
+      "FaxPhone": "1-294-234-6304 x6923",
+      "MobilePhone": "074-323-6891 x6156",
+      "ContactPhone": "318.927.0750",
+      "AssociateName": "Emard-Kuphal",
+      "AssociateId": 389,
+      "UsePersonAddress": true,
+      "ContactFax": "dolorem",
+      "Kanafname": "voluptates",
+      "Kanalname": "autem",
+      "Post1": "aut",
+      "Post2": "rerum",
+      "Post3": "rerum",
+      "EmailName": "stephanie@durgan.us",
+      "ContactFullName": "Wilbert Thiel DDS",
+      "ActiveErpLinks": 668,
+      "TicketPriorityId": 985,
+      "SupportLanguageId": 602,
+      "SupportAssociateId": 463,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldType": "System.String",
+          "FieldLength": 280
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "dolor",
+  "Kananame": "labore",
   "Xstop": false,
-  "ActiveInterests": 528,
-  "GroupId": 792,
-  "ActiveStatusMonitorId": 797,
+  "ActiveInterests": 357,
+  "GroupId": 802,
+  "ActiveStatusMonitorId": 384,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 238,
-  "DbiAgentId": 267,
-  "DbiLastSyncronized": "2016-08-17T11:44:33.0254682+02:00",
-  "DbiKey": "saepe",
-  "DbiLastModified": "1997-04-02T11:44:33.0254682+02:00",
+  "Deleted": 851,
+  "DbiAgentId": 51,
+  "DbiLastSyncronized": "2001-02-15T11:16:08.8659714+01:00",
+  "DbiKey": "doloribus",
+  "DbiLastModified": "2020-05-25T11:16:08.8659714+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 282,
-  "ActiveErpLinks": 257,
+  "Source": 995,
+  "ActiveErpLinks": 691,
   "BounceEmails": [
-    "nya@fisher.name",
-    "gianni@manteharris.biz"
+    "stuart_ebert@oconnell.com",
+    "berta@kling.com"
   ],
   "Domains": [
-    "facilis",
-    "magnam"
+    "laudantium",
+    "blanditiis"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Herbert Bartoletti",
-    "SuperOffice:2": "Rosalia Williamson"
+    "SuperOffice:1": "Jonatan Waters",
+    "SuperOffice:2": "313266177"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 984
     }
   }
 }

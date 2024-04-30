@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 689,
-  "Section": "deleniti",
-  "Key": "amet",
-  "Name": "Tremblay, Terry and Jacobs",
+  "PrefDescId": 53,
+  "Section": "libero",
+  "Key": "quaerat",
+  "Name": "Dietrich-Cartwright",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered zero administration array",
+  "Description": "Networked discrete installation",
   "IsBuiltin": false,
-  "TableName": "Blanda-Deckow",
-  "UserDefinedListId": 963,
-  "Rank": 163,
-  "SubGroup": "qui",
-  "MinLevel": 166,
-  "MaxValue": 635,
-  "MinValue": 549,
-  "RequiredLicense": "qui",
+  "TableName": "Harvey LLC",
+  "UserDefinedListId": 104,
+  "Rank": 941,
+  "SubGroup": "ex",
+  "MinLevel": 19,
+  "MaxValue": 4,
+  "MinValue": 321,
+  "RequiredLicense": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldLength": 834
     }
   },
   "_Links": {

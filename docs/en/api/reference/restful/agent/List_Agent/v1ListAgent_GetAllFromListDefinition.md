@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 305,
+  "UdListDefinitionId": 819,
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Carter Group",
-    "Tooltip": "incidunt",
-    "Deleted": true,
-    "UdListDefinitionId": 705,
-    "Rank": 127,
+    "Id": 3,
+    "Name": "Weimann Inc and Sons",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "UdListDefinitionId": 913,
+    "Rank": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldLength": 57
       }
     }
   }

@@ -109,47 +109,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 491,
-  "Name": "Kohler-Douglas",
-  "Tooltip": "omnis",
-  "Rank": 995,
+  "SaleTypeId": 85,
+  "Name": "Mohr, Miller and O'Conner",
+  "Tooltip": "dolore",
+  "Rank": 846,
   "DurationUnit": "Century",
-  "SaleDuration": 26,
-  "SaleTypeCatId": 836,
+  "SaleDuration": 98,
+  "SaleTypeCatId": 389,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 708,
-  "QuoteLinesTemplate": 190,
-  "ConfirmationLinesTemplate": 886,
+  "DefaultQuoteValidity": 516,
+  "QuoteLinesTemplate": 228,
+  "ConfirmationLinesTemplate": 800,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 324,
-  "MinEarningPercent": 633,
-  "GroupQuoteLinesBy": 893,
-  "SortGroupLinesBy": 714,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 930,
+  "MinEarningPercent": 667,
+  "GroupQuoteLinesBy": 383,
+  "SortGroupLinesBy": 294,
   "Stages": [
     {
-      "Id": 159,
-      "Name": "O'Connell, Smith and Schinner",
-      "ToolTip": "Ea laboriosam.",
-      "Deleted": true,
-      "Rank": 894,
-      "Type": "quis",
-      "ColorBlock": 218,
-      "IconHint": "laborum",
+      "Id": 918,
+      "Name": "Lehner Group",
+      "ToolTip": "In harum ipsum ratione iusto.",
+      "Deleted": false,
+      "Rank": 565,
+      "Type": "consequatur",
+      "ColorBlock": 577,
+      "IconHint": "enim",
       "Selected": true,
-      "LastChanged": "2011-06-29T11:44:33.9158989+02:00",
+      "LastChanged": "2014-11-16T11:16:09.3815779+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "voluptatum",
+      "ExtraInfo": "ab",
+      "StyleHint": "exercitationem",
       "Hidden": false,
-      "FullName": "Gabrielle Ortiz"
+      "FullName": "Meaghan Boyle"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 715,
-  "Name": "Hoeger, Stroman and Tillman",
-  "Tooltip": "officia",
-  "Rank": 765,
+  "SaleTypeId": 964,
+  "Name": "Abshire LLC",
+  "Tooltip": "nostrum",
+  "Rank": 261,
   "DurationUnit": "Century",
-  "SaleDuration": 599,
-  "SaleTypeCatId": 820,
+  "SaleDuration": 769,
+  "SaleTypeCatId": 262,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 160,
-  "QuoteLinesTemplate": 804,
-  "ConfirmationLinesTemplate": 458,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 991,
+  "QuoteLinesTemplate": 982,
+  "ConfirmationLinesTemplate": 467,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 907,
-  "MinEarningPercent": 133,
-  "GroupQuoteLinesBy": 805,
-  "SortGroupLinesBy": 373,
+  "MaxDiscountPercent": 827,
+  "MinEarningPercent": 720,
+  "GroupQuoteLinesBy": 985,
+  "SortGroupLinesBy": 4,
   "Stages": [
     {
-      "Id": 492,
-      "Name": "Lemke-Nolan",
-      "ToolTip": "Voluptates at at aut repellat ut repellendus quaerat.",
+      "Id": 691,
+      "Name": "Parker Group",
+      "ToolTip": "Eveniet dolor voluptatem sunt qui in sed sed.",
       "Deleted": true,
-      "Rank": 275,
-      "Type": "vel",
-      "ColorBlock": 440,
-      "IconHint": "voluptatum",
-      "Selected": false,
-      "LastChanged": "2017-02-06T11:44:33.9158989+01:00",
+      "Rank": 341,
+      "Type": "aut",
+      "ColorBlock": 32,
+      "IconHint": "optio",
+      "Selected": true,
+      "LastChanged": "2020-06-20T11:16:09.3815779+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "quos",
+      "ExtraInfo": "quia",
+      "StyleHint": "debitis",
       "Hidden": false,
-      "FullName": "Evelyn Heidenreich",
+      "FullName": "Giuseppe Denesik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 151
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 330
     }
   }
 }

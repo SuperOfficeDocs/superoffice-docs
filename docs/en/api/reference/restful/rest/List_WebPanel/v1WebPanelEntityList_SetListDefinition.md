@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 894,
+  "Id": 588,
+  "Name": "Bernhard Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 470,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 779,
-  "Name": "Cruickshank, Hahn and Wehner",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 780,
+  "Id": 987,
+  "Name": "Harvey-Jewess",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 173,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldLength": 673
     }
   }
 }

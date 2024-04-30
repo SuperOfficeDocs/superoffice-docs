@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 452,
-    "Name": "Reynolds LLC",
-    "CurrencyId": 783,
-    "EnglishName": "Collins-Hills",
+    "CountryId": 964,
+    "Name": "Wunsch Group",
+    "CurrencyId": 26,
+    "EnglishName": "Pacocha, Kiehn and Effertz",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Triple-buffered radical protocol",
-    "OrgNrText": "1079446",
-    "InterAreaPrefix": "explicabo",
-    "DialInPrefix": "fugit",
-    "ZipPrefix": "placeat",
-    "DomainName": "Haley Inc and Sons",
-    "AddressLayoutId": 203,
-    "DomesticAddressLayoutId": 75,
-    "ForeignAddressLayoutId": 423,
-    "Rank": 339,
-    "Tooltip": "sit",
-    "Deleted": false,
+    "ImageDescription": "Virtual didactic parallelism",
+    "OrgNrText": "401150",
+    "InterAreaPrefix": "tenetur",
+    "DialInPrefix": "saepe",
+    "ZipPrefix": "accusantium",
+    "DomainName": "Fay Inc and Sons",
+    "AddressLayoutId": 13,
+    "DomesticAddressLayoutId": 236,
+    "ForeignAddressLayoutId": 378,
+    "Rank": 427,
+    "Tooltip": "eius",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 488
       }
     }
   }

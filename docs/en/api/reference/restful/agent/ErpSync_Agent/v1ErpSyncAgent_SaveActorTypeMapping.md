@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 257,
+  "ErpConnectionId": 76,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 905,
-      "CrmFieldKey": "commodi",
-      "CrmDisplayName": "Barton LLC",
-      "CrmDisplayTooltip": "reprehenderit",
-      "ErpFieldKey": "nobis",
+      "ErpFieldId": 784,
+      "CrmFieldKey": "quibusdam",
+      "CrmDisplayName": "Okuneva Inc and Sons",
+      "CrmDisplayTooltip": "explicabo",
+      "ErpFieldKey": "iusto",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Dibbert, Bode and Sawayn",
-      "ErpDisplayTooltip": "eligendi",
-      "SyncToCrm": false,
-      "SyncToErp": false,
+      "ErpDisplayName": "Hoeger-Lehner",
+      "ErpDisplayTooltip": "optio",
+      "SyncToCrm": true,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "aperiam",
+      "ListReference": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldType": "System.String",
+          "FieldLength": 118
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 393
     }
   }
 }

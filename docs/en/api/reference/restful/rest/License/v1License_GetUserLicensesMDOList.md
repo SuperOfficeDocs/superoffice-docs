@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Runte, Romaguera and Lesch",
-    "ToolTip": "Fugiat aut saepe.",
-    "Deleted": true,
-    "Rank": 554,
-    "Type": "natus",
-    "ColorBlock": 892,
-    "IconHint": "vel",
+    "Id": 681,
+    "Name": "Gleason LLC",
+    "ToolTip": "Quos eos molestias nam ea tempora dolor.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "culpa",
+    "ColorBlock": 911,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2001-10-29T11:44:42.7419819+01:00",
+    "LastChanged": "2008-07-20T11:16:14.3710713+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Hessel-Koss",
-        "ToolTip": "Iusto sed molestiae.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "et",
-        "ColorBlock": 805,
-        "IconHint": "molestias",
+        "Id": 826,
+        "Name": "Boyle, Stokes and Yundt",
+        "ToolTip": "Voluptatem aut nulla iste et consequatur blanditiis.",
+        "Deleted": false,
+        "Rank": 910,
+        "Type": "vel",
+        "ColorBlock": 471,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "1999-09-22T11:44:42.7419819+02:00",
+        "LastChanged": "2011-09-26T11:16:14.3710713+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "error",
+        "ExtraInfo": "at",
+        "StyleHint": "officiis",
         "Hidden": true,
-        "FullName": "Jennifer Kassulke",
+        "FullName": "Rae Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 324
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "dolor",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Prof. Kelley Kody Wintheiser V",
+    "FullName": "Tony Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 219
       }
     }
   }

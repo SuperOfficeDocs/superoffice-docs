@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Upton LLC",
-  "AdditionalInfo": "voluptatem",
-  "SearchValue": "et"
+  "Name": "Bins-Yost",
+  "AdditionalInfo": "reiciendis",
+  "SearchValue": "est"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 19,
-    "Name": "Grimes Inc and Sons",
-    "ToolTip": "Cum qui.",
+    "Id": 169,
+    "Name": "Pacocha, Ryan and Kulas",
+    "ToolTip": "Necessitatibus illum dolor.",
     "Deleted": true,
-    "Rank": 636,
-    "Type": "ab",
+    "Rank": 945,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Ondricka, Weber and Wintheiser",
-        "ToolTip": "Aperiam quis sequi quae est et.",
+        "Id": 414,
+        "Name": "Murphy, Corkery and Harvey",
+        "ToolTip": "Totam perferendis aut aut.",
         "Deleted": false,
-        "Rank": 261,
-        "Type": "libero",
+        "Rank": 621,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 791,
-        "ExtraInfo": "autem",
-        "StyleHint": "ipsa",
-        "FullName": "Vergie Reichel",
+        "IconHint": "laudantium",
+        "ColorBlock": 249,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "in",
+        "FullName": "Nichole Schiller II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 149
+            "FieldLength": 589
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 851,
-    "ExtraInfo": "velit",
-    "StyleHint": "ut",
-    "FullName": "Hazle Kuvalis",
+    "IconHint": "consectetur",
+    "ColorBlock": 812,
+    "ExtraInfo": "vel",
+    "StyleHint": "consectetur",
+    "FullName": "Emmie Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

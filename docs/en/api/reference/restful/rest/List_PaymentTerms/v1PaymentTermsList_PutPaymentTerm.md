@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Oberbrunner-Turner",
-  "Tooltip": "at",
-  "Deleted": false,
-  "UdListDefinitionId": 357,
-  "Rank": 724
+  "Id": 462,
+  "Name": "Herman, Heller and Mohr",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "UdListDefinitionId": 966,
+  "Rank": 221
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Hudson Group",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 938,
+  "Id": 271,
+  "Name": "Schmidt, Swaniawski and Yundt",
+  "Tooltip": "error",
+  "Deleted": true,
+  "UdListDefinitionId": 264,
+  "Rank": 460,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

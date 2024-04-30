@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Apr 2021 11:44:41 G4T
+Last-Modified: Mon, 06 Nov 2017 11:16:13 G11T
 
 {
-  "ForeignAppId": 56,
-  "Name": "Orn Inc and Sons",
-  "CreatedDate": "2011-01-12T11:44:41.9921474+01:00",
-  "UpdatedDate": "2021-04-27T11:44:41.9921474+02:00",
+  "ForeignAppId": 762,
+  "Name": "Reichert, Conn and Larkin",
+  "CreatedDate": "2020-05-29T11:16:13.9175899+02:00",
+  "UpdatedDate": "2017-11-06T11:16:13.9175899+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 532,
-      "Name": "Schowalter, Halvorson and King",
-      "CreatedDate": "2022-08-19T11:44:41.9921474+02:00",
-      "UpdatedDate": "2006-04-10T11:44:41.9921474+02:00",
-      "AssociateFullName": "Mr. Kip Bins",
-      "CreatedBy": "officiis",
-      "UpdatedBy": "quisquam",
-      "DeviceIdentifier": "soluta",
-      "ForeignAppId": 976,
+      "ForeignDeviceId": 209,
+      "Name": "Connelly, Watsica and Lehner",
+      "CreatedDate": "2016-12-13T11:16:13.9175899+01:00",
+      "UpdatedDate": "2002-03-15T11:16:13.9175899+01:00",
+      "AssociateFullName": "Lora Gottlieb",
+      "CreatedBy": "ut",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "libero",
+      "ForeignAppId": 897,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 612
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 27 Apr 2021 11:44:41 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 716
     }
   }
 }

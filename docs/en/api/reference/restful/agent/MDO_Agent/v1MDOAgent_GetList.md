@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner-Swift",
-  "ForceFlatList": true,
-  "AdditionalInfo": "consequuntur",
+  "Name": "Lindgren Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "consectetur",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Ferry Group",
-    "ToolTip": "Aut dolores explicabo debitis voluptatem quos magnam.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "sint",
+    "Id": 75,
+    "Name": "Schulist Inc and Sons",
+    "ToolTip": "Dolores et porro quaerat ut.",
+    "Deleted": false,
+    "Rank": 1001,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Rolfson Group",
-        "ToolTip": "Autem est.",
-        "Deleted": false,
-        "Rank": 206,
-        "Type": "exercitationem",
+        "Id": 186,
+        "Name": "Morissette Inc and Sons",
+        "ToolTip": "Laudantium ratione dolor labore voluptate pariatur culpa eos.",
+        "Deleted": true,
+        "Rank": 232,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 363,
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "in",
-        "FullName": "Cruz Jerde",
+        "IconHint": "quidem",
+        "ColorBlock": 271,
+        "ExtraInfo": "ut",
+        "StyleHint": "officiis",
+        "FullName": "Obie Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 564
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 74,
-    "ExtraInfo": "facere",
-    "StyleHint": "ipsum",
-    "FullName": "Kirk Runolfsson",
+    "IconHint": "pariatur",
+    "ColorBlock": 296,
+    "ExtraInfo": "numquam",
+    "StyleHint": "nostrum",
+    "FullName": "Ms. Vincenza Mireya Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 394
       }
     }
   }

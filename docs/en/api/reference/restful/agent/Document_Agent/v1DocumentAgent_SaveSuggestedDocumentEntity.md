@@ -83,17 +83,17 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 207,
-  "Name": "Borer-Williamson",
-  "Tooltip": "et",
-  "Rank": 646,
-  "DoctmplId": 703,
-  "Header": "facilis",
-  "OurRef": "consequatur",
+  "SuggestedDocumentId": 347,
+  "Name": "Bergstrom, Braun and Durgan",
+  "Tooltip": "dicta",
+  "Rank": 120,
+  "DoctmplId": 644,
+  "Header": "quia",
+  "OurRef": "corrupti",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 325,
-  "Name": "Rodriguez LLC",
-  "Tooltip": "quis",
-  "Rank": 773,
-  "DoctmplId": 37,
-  "Header": "minus",
-  "OurRef": "quos",
+  "SuggestedDocumentId": 333,
+  "Name": "Terry Inc and Sons",
+  "Tooltip": "quidem",
+  "Rank": 489,
+  "DoctmplId": 762,
+  "Header": "exercitationem",
+  "OurRef": "quis",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 788
     }
   }
 }

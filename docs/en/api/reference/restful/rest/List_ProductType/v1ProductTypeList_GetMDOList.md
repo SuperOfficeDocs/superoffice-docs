@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=libero
+GET /api/v1/List/ProductType/MDOItems?query=sapiente
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Sauer LLC",
-    "ToolTip": "Odio accusamus vel laborum ut.",
+    "Id": 586,
+    "Name": "Wintheiser Inc and Sons",
+    "ToolTip": "Sint est omnis repudiandae voluptatum ipsam consequatur.",
     "Deleted": true,
-    "Rank": 40,
-    "Type": "ut",
+    "Rank": 251,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 202,
-        "Name": "Kunze Group",
-        "ToolTip": "Dolorum aliquid aperiam est hic cumque.",
+        "Id": 503,
+        "Name": "Russel Group",
+        "ToolTip": "Voluptatibus porro quam.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "perspiciatis",
+        "Rank": 813,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 25,
-        "ExtraInfo": "nihil",
-        "StyleHint": "et",
-        "FullName": "Mrs. Duncan Rogahn",
+        "IconHint": "unde",
+        "ColorBlock": 804,
+        "ExtraInfo": "earum",
+        "StyleHint": "consequatur",
+        "FullName": "Manley Velva West MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 663,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "ut",
-    "FullName": "Jonathan Dickens Jr.",
+    "IconHint": "quos",
+    "ColorBlock": 114,
+    "ExtraInfo": "eius",
+    "StyleHint": "officiis",
+    "FullName": "Orval Josie O'Hara Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldType": "System.Int32",
+        "FieldLength": 676
       }
     }
   }

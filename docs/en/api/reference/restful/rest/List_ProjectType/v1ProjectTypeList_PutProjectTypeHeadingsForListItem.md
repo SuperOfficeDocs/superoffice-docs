@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Harvey-Feil",
-    "ToolTip": "Eos illum dicta velit magni.",
+    "Id": 616,
+    "Name": "Harvey, Schimmel and Bogisich",
+    "ToolTip": "Voluptates sit.",
     "Deleted": false,
-    "Rank": 706,
-    "Type": "est",
-    "ColorBlock": 319,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2016-03-19T11:44:43.2418644+01:00",
+    "Rank": 966,
+    "Type": "nostrum",
+    "ColorBlock": 921,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2015-08-03T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Flatley Inc and Sons",
-        "ToolTip": "Id quaerat asperiores est est quia doloribus.",
-        "Deleted": true,
-        "Rank": 975,
-        "Type": "ipsum",
-        "ColorBlock": 497,
-        "IconHint": "a",
+        "Id": 176,
+        "Name": "Batz Inc and Sons",
+        "ToolTip": "Consequatur provident enim sed praesentium.",
+        "Deleted": false,
+        "Rank": 310,
+        "Type": "perferendis",
+        "ColorBlock": 769,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2003-11-19T11:44:43.2418644+01:00",
+        "LastChanged": "2005-02-21T11:16:14.668281+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "atque",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Kaylee McKenzie"
+        "FullName": "Miss Estel Bosco"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "ab",
+    "ExtraInfo": "sed",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Marlon Mills"
+    "FullName": "Gaylord Beahan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Gulgowski-Labadie",
-    "ToolTip": "Sint cumque inventore.",
-    "Deleted": true,
-    "Rank": 935,
-    "Type": "facilis",
-    "ColorBlock": 341,
-    "IconHint": "inventore",
+    "Id": 973,
+    "Name": "Wiza, Gulgowski and Steuber",
+    "ToolTip": "Sed magni et explicabo quo voluptate error et.",
+    "Deleted": false,
+    "Rank": 527,
+    "Type": "laudantium",
+    "ColorBlock": 502,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2002-01-25T11:44:43.2418644+01:00",
+    "LastChanged": "2014-06-25T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Krajcik, Zulauf and Lockman",
-        "ToolTip": "Non ullam et.",
+        "Id": 193,
+        "Name": "O'Keefe, Crooks and Predovic",
+        "ToolTip": "Non recusandae temporibus animi repudiandae nihil.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "quod",
-        "ColorBlock": 496,
-        "IconHint": "consequuntur",
+        "Rank": 713,
+        "Type": "quibusdam",
+        "ColorBlock": 459,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "1999-02-23T11:44:43.2418644+01:00",
+        "LastChanged": "2015-08-18T11:16:14.668281+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "quo",
+        "ExtraInfo": "placeat",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Elmore Jacobs",
+        "FullName": "Brendan Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 996
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Prof. Arne Paris Haag",
+    "ExtraInfo": "officia",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Randy Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 595
       }
     }
   }

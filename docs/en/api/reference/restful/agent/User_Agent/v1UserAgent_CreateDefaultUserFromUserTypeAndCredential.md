@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 495,
-  "CredentialType": "sapiente",
-  "CredentialValue": "doloremque",
-  "CredentialDisplayValue": "amet"
+  "ContactId": 927,
+  "CredentialType": "et",
+  "CredentialValue": "omnis",
+  "CredentialDisplayValue": "labore"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 244,
-  "Name": "Cassin Inc and Sons",
-  "Rank": 357,
-  "Tooltip": "excepturi",
+  "AssociateId": 580,
+  "Name": "Cormier Inc and Sons",
+  "Rank": 152,
+  "Tooltip": "aliquid",
   "LicenseOwners": [
     {
-      "Name": "Koelpin-Graham",
-      "Description": "Devolved zero defect pricing structure",
+      "Name": "Gorczany Group",
+      "Description": "Programmable clear-thinking moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Koelpin-Graham",
-      "Description": "Devolved zero defect pricing structure",
+      "Name": "Gorczany Group",
+      "Description": "Programmable clear-thinking moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 539
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolorum",
-      "Tooltip": "voluptas",
-      "Id": 356,
-      "Rank": 127,
-      "Deleted": false,
+      "Value": "veritatis",
+      "Tooltip": "neque",
+      "Id": 146,
+      "Rank": 915,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-07-14T11:44:34.9312843+02:00",
-  "Lastlogout": "2017-12-04T11:44:34.9312843+01:00",
-  "EjUserId": 468,
-  "RequestSignature": "architecto",
+  "Lastlogin": "2005-10-06T11:16:10.0073992+02:00",
+  "Lastlogout": "2016-12-31T11:16:10.0073992+01:00",
+  "EjUserId": 785,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "veritatis",
+      "Value": "et",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 506
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "veritatis",
+      "Value": "et",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 506
         }
       }
     }
   ],
-  "UserName": "Wilkinson LLC",
+  "UserName": "Nicolas-Paucek",
   "TicketCategories": [
     {
-      "Id": 998,
-      "Name": "Schumm-Heaney",
-      "ToolTip": "Optio nesciunt laborum.",
+      "Id": 133,
+      "Name": "Kuhlman-Herzog",
+      "ToolTip": "Cupiditate qui.",
       "Deleted": false,
-      "Rank": 201,
-      "Type": "dignissimos",
+      "Rank": 76,
+      "Type": "harum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "praesentium",
-      "ColorBlock": 853,
-      "ExtraInfo": "et",
-      "StyleHint": "voluptas",
-      "FullName": "Ms. Alfonso Durgan IV",
+      "IconHint": "optio",
+      "ColorBlock": 172,
+      "ExtraInfo": "inventore",
+      "StyleHint": "aliquam",
+      "FullName": "Lydia Bechtelar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldLength": 362
         }
       }
     }
   ],
-  "NickName": "Wolf-Jakubowski",
+  "NickName": "Ebert-Thiel",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "commodi"
+    "CustomFields1": "quas",
+    "CustomFields2": "praesentium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goodwin, Schowalter and Johns",
-      "DisplayName": "Heidenreich-Waters",
-      "Description": "Proactive scalable installation",
-      "ToolTip": "Velit sunt mollitia omnis sed velit.",
+      "Name": "Kuvalis-Bins",
+      "DisplayName": "Kris-Cummings",
+      "Description": "Multi-tiered heuristic knowledge base",
+      "ToolTip": "Nobis iure magni.",
       "Actions": "Implicit",
-      "ActionData": "repellendus",
+      "ActionData": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 14
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

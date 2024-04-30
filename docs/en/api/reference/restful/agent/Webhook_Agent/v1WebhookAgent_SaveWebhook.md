@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 988,
-  "Name": "Crist LLC",
+  "WebhookId": 537,
+  "Name": "Vandervort-Quigley",
   "Events": [
-    "perferendis",
-    "sequi"
+    "voluptatem",
+    "facere"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "officia",
+  "Secret": "voluptatem",
   "State": "Active",
-  "Type": "eos",
+  "Type": "ipsa",
   "Headers": {
-    "Headers1": "labore",
-    "Headers2": "sequi"
+    "Headers1": "molestiae",
+    "Headers2": "saepe"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-11-27T11:44:35.0406407+01:00",
+  "Registered": "1997-07-11T11:16:10.0703909+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-03-02T11:44:35.0406407+01:00",
+  "Updated": "2006-03-17T11:16:10.0703909+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "armani@considinetillman.com"
+  "ErrorsEmail": "rhoda@harriscassin.us"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 79,
-  "Name": "Durgan Group",
+  "WebhookId": 593,
+  "Name": "Lesch-Bernhard",
   "Events": [
-    "quod",
-    "blanditiis"
+    "illo",
+    "non"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "id",
+  "Secret": "voluptatibus",
   "State": "Active",
-  "Type": "molestiae",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "porro",
-    "Headers2": "dolor"
+    "Headers1": "voluptates",
+    "Headers2": "aliquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-04-11T11:44:35.0562611+02:00",
+  "Registered": "2020-08-27T11:16:10.0703909+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-01-19T11:44:35.0562611+01:00",
+  "Updated": "2023-05-29T11:16:10.0703909+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "catharine@blockstehr.us"
+  "ErrorsEmail": "lue@gislasonohara.info"
 }
 ```

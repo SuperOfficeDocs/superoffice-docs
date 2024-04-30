@@ -88,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 404,
+  "TargetYear": 946,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 258
+  "Id": 311
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 997,
+  "TargetAssignmentInfoId": 132,
   "Values": [
-    662,
-    847
+    171,
+    574
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 8,
-  "DimensionListItemDisplayName": "Cole LLC",
+  "DimensionListItem": 356,
+  "DimensionListItemDisplayName": "Orn Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 477
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

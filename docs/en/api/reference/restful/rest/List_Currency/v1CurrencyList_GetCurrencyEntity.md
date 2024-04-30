@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 847,
-  "Name": "Satterfield Inc and Sons",
-  "Tooltip": "deserunt",
-  "Rank": 20,
-  "Rate": 11373.286,
-  "Units": 25460.615999999998,
+  "CurrencyId": 313,
+  "Name": "West, Gleason and Rodriguez",
+  "Tooltip": "fuga",
+  "Rank": 325,
+  "Rate": 231.916,
+  "Units": 3086.99,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 573
     }
   }
 }

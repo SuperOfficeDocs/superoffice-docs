@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 979,
-  "Name": "Sipes-Harber",
-  "CreatedDate": "1998-07-09T11:44:33.7596833+02:00",
-  "UpdatedDate": "2008-07-11T11:44:33.7596833+02:00",
+  "ForeignAppId": 737,
+  "Name": "Dooley-Legros",
+  "CreatedDate": "2021-07-29T11:16:09.2722138+02:00",
+  "UpdatedDate": "2007-08-21T11:16:09.2722138+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 757,
-      "Name": "Hane, Lakin and Gutkowski",
-      "CreatedDate": "2016-09-15T11:44:33.7596833+02:00",
-      "UpdatedDate": "2015-12-16T11:44:33.7596833+01:00",
-      "AssociateFullName": "Garret Rodriguez",
-      "CreatedBy": "officiis",
-      "UpdatedBy": "praesentium",
-      "DeviceIdentifier": "officia",
-      "ForeignAppId": 743
+      "ForeignDeviceId": 352,
+      "Name": "Armstrong LLC",
+      "CreatedDate": "2023-06-01T11:16:09.2722138+02:00",
+      "UpdatedDate": "2002-11-02T11:16:09.2722138+01:00",
+      "AssociateFullName": "Ms. Petra Cronin Jr.",
+      "CreatedBy": "nisi",
+      "UpdatedBy": "voluptatibus",
+      "DeviceIdentifier": "quibusdam",
+      "ForeignAppId": 611
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 331,
-  "Name": "Emard-Lakin",
-  "CreatedDate": "2017-06-10T11:44:33.7596833+02:00",
-  "UpdatedDate": "2009-11-16T11:44:33.7596833+01:00",
+  "ForeignAppId": 146,
+  "Name": "Schiller Group",
+  "CreatedDate": "2015-09-16T11:16:09.2722138+02:00",
+  "UpdatedDate": "2004-01-08T11:16:09.2722138+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 575,
-      "Name": "Nitzsche-West",
-      "CreatedDate": "2015-12-23T11:44:33.7596833+01:00",
-      "UpdatedDate": "2018-06-03T11:44:33.7596833+02:00",
-      "AssociateFullName": "Simeon Harry West I",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "quasi",
-      "ForeignAppId": 644,
+      "ForeignDeviceId": 323,
+      "Name": "Effertz-Gerhold",
+      "CreatedDate": "2000-03-14T11:16:09.2722138+01:00",
+      "UpdatedDate": "2011-02-25T11:16:09.2722138+01:00",
+      "AssociateFullName": "Elenora Bernhard",
+      "CreatedBy": "ut",
+      "UpdatedBy": "maiores",
+      "DeviceIdentifier": "dolorum",
+      "ForeignAppId": 68,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 96
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

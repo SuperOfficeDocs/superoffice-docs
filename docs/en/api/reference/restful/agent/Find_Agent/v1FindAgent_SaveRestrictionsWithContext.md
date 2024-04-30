@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "expedita",
-  "ProviderName": "Marquardt, Boyer and McKenzie",
-  "StorageKey": "provident",
+  "StorageType": "molestiae",
+  "ProviderName": "Beatty-Bayer",
+  "StorageKey": "in",
   "Restrictions": [
     {
-      "Name": "Bradtke LLC",
-      "Operator": "modi",
+      "Name": "Kshlerin-Denesik",
+      "Operator": "exercitationem",
       "Values": [
         "dolores",
-        "veniam"
+        "ducimus"
       ],
       "DisplayValues": [
-        "facilis",
-        "voluptatem"
+        "incidunt",
+        "minus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 348,
       "InterOperator": "And",
-      "UniqueHash": 130
+      "UniqueHash": 871
     }
   ],
-  "Context": "rerum"
+  "Context": "non"
 }
 ```
 

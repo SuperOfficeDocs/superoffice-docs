@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Luettgen-Kulas",
-    "ToolTip": "Cupiditate eligendi odit alias sit totam.",
+    "Id": 975,
+    "Name": "Labadie LLC",
+    "ToolTip": "Enim distinctio.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "quidem",
-    "ColorBlock": 8,
-    "IconHint": "labore",
+    "Rank": 361,
+    "Type": "nihil",
+    "ColorBlock": 408,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2000-02-09T11:44:42.9294253+01:00",
+    "LastChanged": "2006-04-13T11:16:14.4808001+02:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Nikolaus LLC",
-        "ToolTip": "Necessitatibus totam.",
+        "Id": 316,
+        "Name": "Robel-Corwin",
+        "ToolTip": "Similique accusantium et adipisci perspiciatis distinctio perferendis.",
         "Deleted": false,
-        "Rank": 403,
-        "Type": "voluptas",
-        "ColorBlock": 975,
-        "IconHint": "est",
+        "Rank": 753,
+        "Type": "iste",
+        "ColorBlock": 911,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2012-03-08T11:44:42.9294253+01:00",
+        "LastChanged": "2023-04-09T11:16:14.4808001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Lauriane Micaela Becker DDS"
+        "ExtraInfo": "ut",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "William Kling"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Marcelle Barrows"
+    "ExtraInfo": "sunt",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Ms. Alexie Juliet Crooks MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Name": "Feest, Leannon and Gaylord",
-    "ToolTip": "Voluptate iusto quidem officiis accusantium expedita enim.",
-    "Deleted": false,
-    "Rank": 152,
-    "Type": "omnis",
-    "ColorBlock": 387,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2021-10-03T11:44:42.9294253+02:00",
+    "Id": 318,
+    "Name": "Hintz-Reynolds",
+    "ToolTip": "Doloremque sed eligendi recusandae voluptatibus est nemo vel.",
+    "Deleted": true,
+    "Rank": 658,
+    "Type": "voluptatem",
+    "ColorBlock": 487,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2024-04-08T11:16:14.4808001+02:00",
     "ChildItems": [
       {
-        "Id": 797,
-        "Name": "Harber-Leuschke",
-        "ToolTip": "Quia quia sunt.",
-        "Deleted": true,
-        "Rank": 491,
-        "Type": "corporis",
-        "ColorBlock": 268,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2015-06-17T11:44:42.9294253+02:00",
+        "Id": 553,
+        "Name": "Jenkins LLC",
+        "ToolTip": "Dolores quo esse doloribus.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "rerum",
+        "ColorBlock": 78,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2008-09-13T11:16:14.4808001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Ardella Fay DDS",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "placeat",
+        "Hidden": false,
+        "FullName": "Priscilla VonRueden DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 143
+            "FieldType": "System.Int32",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "ut",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Ms. Krista Mariam Leffler",
+    "FullName": "Marianna Wiza Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 601
       }
     }
   }

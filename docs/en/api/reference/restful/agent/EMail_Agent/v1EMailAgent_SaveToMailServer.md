@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 454,
-      "ContactName": "Marks, Steuber and Koss",
-      "PersonId": 787,
-      "PersonName": "Rempel-Corkery",
-      "AssociateId": 138,
-      "Address": "velit",
-      "EmailId": 205,
+      "ContactId": 63,
+      "ContactName": "Stroman LLC",
+      "PersonId": 725,
+      "PersonName": "Pagac Group",
+      "AssociateId": 865,
+      "Address": "harum",
+      "EmailId": 465,
       "DuplicatePersonIds": [
-        52,
-        229
+        191,
+        615
       ],
-      "Name": "Feest-Hegmann",
+      "Name": "Ruecker-Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 67
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 852,
-      "ContactName": "Rempel Inc and Sons",
-      "PersonId": 936,
-      "PersonName": "Windler Inc and Sons",
-      "AssociateId": 669,
-      "Address": "voluptate",
-      "EmailId": 693,
+      "ContactId": 793,
+      "ContactName": "Hettinger-Stanton",
+      "PersonId": 878,
+      "PersonName": "Blick LLC",
+      "AssociateId": 583,
+      "Address": "aperiam",
+      "EmailId": 646,
       "DuplicatePersonIds": [
-        125,
-        666
+        14,
+        713
       ],
-      "Name": "Weimann-Streich",
+      "Name": "Halvorson, Wehner and Heaney",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 814
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 59,
-      "ContactName": "Gusikowski, Hoeger and Nitzsche",
-      "PersonId": 449,
-      "PersonName": "Barton, Berge and Johnston",
-      "AssociateId": 294,
-      "Address": "officia",
-      "EmailId": 64,
+      "ContactId": 192,
+      "ContactName": "Littel, Roberts and Mohr",
+      "PersonId": 433,
+      "PersonName": "Gleichner Inc and Sons",
+      "AssociateId": 137,
+      "Address": "sit",
+      "EmailId": 923,
       "DuplicatePersonIds": [
-        899,
-        478
+        179,
+        611
       ],
-      "Name": "Runolfsdottir LLC",
+      "Name": "Boyer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "Subject": "error",
-  "HTMLBody": "non",
+  "Subject": "eligendi",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2008-01-24T11:44:33.5722192+01:00",
-  "Size": 965,
+  "Sent": "2022-04-28T11:16:09.1628538+02:00",
+  "Size": 633,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "animi",
-  "PlainBody": "qui",
-  "IsSent": false,
+  "MessageID": "non",
+  "PlainBody": "eos",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 443,
+  "ServerId": 803,
   "Attachments": [
     {
-      "Description": "Intuitive stable application",
-      "Filename": "mollitia",
-      "Size": 826,
-      "Type": "alias",
-      "Encoding": "et",
-      "Id": "sed",
-      "Disposition": "illum",
-      "IsSafeFileExtension": true,
+      "Description": "Vision-oriented bandwidth-monitored focus group",
+      "Filename": "sit",
+      "Size": 976,
+      "Type": "illum",
+      "Encoding": "omnis",
+      "Id": "omnis",
+      "Disposition": "tenetur",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 495
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nitzsche, Rolfson and Goodwin",
+      "Name": "Feeney, Baumbach and Marvin",
       "Values": [
-        "doloremque",
-        "voluptatum"
+        "velit",
+        "aperiam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 520
         }
       }
     },
     {
-      "Name": "Nitzsche, Rolfson and Goodwin",
+      "Name": "Feeney, Baumbach and Marvin",
       "Values": [
-        "doloremque",
-        "voluptatum"
+        "velit",
+        "aperiam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 520
         }
       }
     }
   ],
-  "FolderName": "Ruecker Inc and Sons",
-  "EmailItemId": 62,
-  "AccountId": 621,
-  "ReceivedAt": "2019-07-02T11:44:33.5722192+02:00",
+  "FolderName": "Beer LLC",
+  "EmailItemId": 256,
+  "AccountId": 487,
+  "ReceivedAt": "2009-06-07T11:16:09.1628538+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-02-18T11:44:33.5722192+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-08-27T11:16:09.1628538+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 133
     }
   }
 }

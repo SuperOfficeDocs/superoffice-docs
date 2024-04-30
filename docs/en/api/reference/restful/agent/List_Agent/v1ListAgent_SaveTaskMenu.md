@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 278,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "consectetur",
-  "TableName": "Boyle, Bruen and Smitham",
-  "Area": "excepturi",
+  "TaskMenuId": 615,
+  "Name": "Hodkiewicz, Kerluke and Huels",
+  "Tooltip": "quo",
+  "TableName": "Harris, Dickens and Heaney",
+  "Area": "officia",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 298,
+  "CrmScriptId": 155,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 329,
+  "Rank": 564,
   "Encoding": "ANSI",
-  "ProgId": "et",
-  "Deleted": false
+  "ProgId": "molestias",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 742,
-  "Name": "Denesik Group",
-  "Tooltip": "ex",
-  "TableName": "Wiza Group",
-  "Area": "et",
+  "TaskMenuId": 493,
+  "Name": "Bergstrom, Stamm and Wiegand",
+  "Tooltip": "quod",
+  "TableName": "Schulist-Ondricka",
+  "Area": "magnam",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 512,
+  "CrmScriptId": 1002,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 607,
+  "Rank": 421,
   "Encoding": "ANSI",
-  "ProgId": "aperiam",
+  "ProgId": "architecto",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 648
     }
   }
 }

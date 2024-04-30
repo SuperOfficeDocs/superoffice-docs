@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 302,
-  "StartTime": "2010-04-06T11:44:33.431628+02:00",
-  "EndTime": "2014-07-17T11:44:33.431628+02:00",
-  "Count": 850,
-  "DocumentTemplateId": 991
+  "ProjectId": 335,
+  "StartTime": "2011-06-19T11:16:09.0691155+02:00",
+  "EndTime": "2003-07-07T11:16:09.0691155+02:00",
+  "Count": 637,
+  "DocumentTemplateId": 193
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 133,
-    "Attention": "rerum",
-    "Header": "incidunt",
-    "Name": "Kertzmann-Koelpin",
-    "OurRef": "inventore",
-    "YourRef": "veniam",
-    "Description": "Cross-group intermediate initiative",
-    "DocumentTemplate": "a",
-    "IsPublished": false,
-    "PersonId": 951,
-    "PersonFullName": "Mack Lang",
-    "AssociateFullName": "Sasha Kub",
-    "ContactId": 45,
-    "ContactName": "Schmeler Inc and Sons",
-    "ProjectId": 823,
-    "ProjectName": "Kub-Bins",
-    "AssociateId": 920,
-    "Snum": 137,
-    "SaleId": 200,
-    "SaleName": "Kub-Will",
+    "DocumentId": 686,
+    "Attention": "aut",
+    "Header": "omnis",
+    "Name": "Lebsack-Flatley",
+    "OurRef": "amet",
+    "YourRef": "facilis",
+    "Description": "Compatible discrete paradigm",
+    "DocumentTemplate": "voluptas",
+    "IsPublished": true,
+    "PersonId": 539,
+    "PersonFullName": "Enrique Gislason",
+    "AssociateFullName": "Manley Littel",
+    "ContactId": 108,
+    "ContactName": "Homenick LLC",
+    "ProjectId": 91,
+    "ProjectName": "Bernier-Dicki",
+    "AssociateId": 293,
+    "Snum": 48,
+    "SaleId": 689,
+    "SaleName": "Koch-Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 174
       }
     }
   }

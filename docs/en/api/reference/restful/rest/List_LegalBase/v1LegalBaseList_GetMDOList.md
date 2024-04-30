@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=natus
+GET /api/v1/List/LegalBase/MDOItems?query=eum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Miller LLC",
-    "ToolTip": "Qui iste perspiciatis debitis beatae.",
+    "Id": 66,
+    "Name": "Champlin-Wintheiser",
+    "ToolTip": "Possimus sed et reiciendis et atque nulla eos.",
     "Deleted": true,
-    "Rank": 205,
-    "Type": "omnis",
+    "Rank": 676,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Kihn Inc and Sons",
-        "ToolTip": "Harum in quos voluptas atque dolorem nobis est.",
+        "Id": 863,
+        "Name": "Marquardt, Wunsch and Murazik",
+        "ToolTip": "Ut occaecati id.",
         "Deleted": false,
-        "Rank": 483,
-        "Type": "dolore",
+        "Rank": 722,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 333,
-        "ExtraInfo": "optio",
-        "StyleHint": "necessitatibus",
-        "FullName": "Mina Sporer",
+        "IconHint": "qui",
+        "ColorBlock": 916,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "natus",
+        "FullName": "Kaelyn Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 763
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 513,
-    "ExtraInfo": "nulla",
-    "StyleHint": "vel",
-    "FullName": "Miss Davin Abshire",
+    "IconHint": "necessitatibus",
+    "ColorBlock": 139,
+    "ExtraInfo": "eos",
+    "StyleHint": "quos",
+    "FullName": "Itzel Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 622
       }
     }
   }

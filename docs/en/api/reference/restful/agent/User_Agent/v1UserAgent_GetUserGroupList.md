@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quisquam",
-    "Tooltip": "mollitia",
-    "Id": 543,
-    "Rank": 65,
+    "Value": "ut",
+    "Tooltip": "expedita",
+    "Id": 745,
+    "Rank": 712,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

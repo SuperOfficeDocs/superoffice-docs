@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Jenkins, Wiegand and Langworth",
-    "ToolTip": "Ut expedita ratione qui tempora sed quaerat nihil.",
-    "Deleted": true,
-    "Rank": 807,
-    "Type": "qui",
-    "ColorBlock": 864,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2010-06-16T11:44:42.2264732+02:00",
+    "Id": 516,
+    "Name": "Brekke-Wolff",
+    "ToolTip": "Sed et illo sint eum consequatur fuga.",
+    "Deleted": false,
+    "Rank": 709,
+    "Type": "voluptates",
+    "ColorBlock": 806,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2020-01-20T11:16:14.1363143+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Littel-Waelchi",
-        "ToolTip": "Tempore et voluptas et.",
+        "Id": 673,
+        "Name": "Douglas, Weber and Bernier",
+        "ToolTip": "Ut doloribus.",
         "Deleted": true,
-        "Rank": 388,
-        "Type": "aut",
-        "ColorBlock": 774,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2020-12-02T11:44:42.2264732+01:00",
+        "Rank": 94,
+        "Type": "dolorem",
+        "ColorBlock": 762,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2020-08-05T11:16:14.1363143+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Maverick Lehner",
+        "ExtraInfo": "enim",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Aiyana Heaney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 828
+            "FieldType": "System.Int32",
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Dr. Kaci Kailyn Schamberger",
+    "ExtraInfo": "molestias",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Dr. Christina Cleora Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 115
       }
     }
   }

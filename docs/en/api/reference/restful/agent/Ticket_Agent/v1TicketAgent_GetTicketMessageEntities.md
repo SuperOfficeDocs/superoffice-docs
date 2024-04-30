@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 846,
+  "TicketId": 627,
   "MessageIds": [
-    578,
-    520
+    305,
+    233
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 918,
+    "EjMessageId": 692,
     "Ticket": null,
-    "CreatedAt": "2005-12-04T11:44:34.8687993+01:00",
+    "CreatedAt": "2016-01-02T11:16:09.9605285+01:00",
     "CreatedBy": null,
-    "Author": "vitae",
+    "Author": "vel",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "perferendis",
-    "TimeSpent": 63,
-    "Body": "quidem",
-    "HtmlBody": "ducimus",
-    "EmailHeader": "bobby@windler.com",
-    "DebugInfo": "expedita",
-    "MailSorter": "assumenda",
+    "MessageId": "molestiae",
+    "TimeSpent": 177,
+    "Body": "esse",
+    "HtmlBody": "tempore",
+    "EmailHeader": "cecelia@wolf.info",
+    "DebugInfo": "id",
+    "MailSorter": "et",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "nihil",
+    "SearchTitle": "ducimus",
     "MessageHeaders": [
       {
-        "Id": 458,
-        "Name": "Harvey Inc and Sons",
-        "Value": "officia",
+        "Id": 162,
+        "Name": "Schinner Inc and Sons",
+        "Value": "ipsum",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 925
           }
         }
       }
     ],
     "Important": false,
-    "Language": "molestiae",
-    "Sentiment": 827,
-    "SentimentConfidence": 337,
+    "Language": "neque",
+    "Sentiment": 321,
+    "SentimentConfidence": 170,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 953,
-        "Name": "Murray Inc and Sons",
-        "ContentType": "rem",
-        "AttSize": 347,
+        "AttachmentId": 646,
+        "Name": "Schaden-Beer",
+        "ContentType": "iste",
+        "AttSize": 641,
         "InlineImage": true,
-        "ContentId": "voluptatibus",
-        "AuthKey": "est",
-        "IsSafeFileExtension": false,
+        "ContentId": "accusantium",
+        "AuthKey": "minima",
+        "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldType": "System.String",
+            "FieldLength": 251
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "similique",
-      "ExtraFields2": "expedita"
+      "ExtraFields1": "nobis",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "dolorum",
-      "CustomFields2": "consequatur"
+      "CustomFields1": "molestiae",
+      "CustomFields2": "eos"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldLength": 686
       }
     }
   }

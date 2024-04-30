@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 729,
-  "Name": "Torphy, Hills and Marks",
-  "TZLocationCode": "libero",
-  "TZLocationCities": "mollitia",
-  "IsoNumber": 997,
+  "TZLocationID": 28,
+  "Name": "Halvorson Inc and Sons",
+  "TZLocationCode": "quis",
+  "TZLocationCities": "commodi",
+  "IsoNumber": 254,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 182,
-      "StartMonth": 673,
-      "EndDay": 714,
-      "EndMonth": 211,
-      "TZOffset": 481,
-      "StartRulePattern": "soluta",
-      "EndRulePattern": "quod"
+      "StartDay": 612,
+      "StartMonth": 37,
+      "EndDay": 455,
+      "EndMonth": 53,
+      "TZOffset": 998,
+      "StartRulePattern": "fugit",
+      "EndRulePattern": "enim"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 526,
-      "StartMonth": 220,
-      "EndDay": 750,
-      "EndMonth": 200,
-      "TZOffset": 565,
-      "StartRulePattern": "officia",
-      "EndRulePattern": "ipsam"
+      "StartDay": 808,
+      "StartMonth": 690,
+      "EndDay": 91,
+      "EndMonth": 23,
+      "TZOffset": 161,
+      "StartRulePattern": "aspernatur",
+      "EndRulePattern": "est"
     }
   }
 }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Jast-Ebert"
+  "UserName": "Conn-Corwin"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 164,
-  "Name": "Deckow-Borer",
-  "Rank": 123,
-  "Tooltip": "iure",
+  "AssociateId": 712,
+  "Name": "Davis LLC",
+  "Rank": 332,
+  "Tooltip": "quos",
   "LicenseOwners": [
     {
-      "Name": "Dicki-Fisher",
-      "Description": "Multi-layered needs-based structure",
+      "Name": "Luettgen-Effertz",
+      "Description": "Distributed contextually-based encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 466
         }
       }
     },
     {
-      "Name": "Dicki-Fisher",
-      "Description": "Multi-layered needs-based structure",
+      "Name": "Luettgen-Effertz",
+      "Description": "Distributed contextually-based encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 466
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eius",
-      "Tooltip": "laborum",
-      "Id": 273,
-      "Rank": 330,
+      "Value": "et",
+      "Tooltip": "asperiores",
+      "Id": 872,
+      "Rank": 625,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 960
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2018-11-09T11:44:34.9937757+01:00",
-  "Lastlogout": "2000-03-17T11:44:34.9937757+01:00",
-  "EjUserId": 570,
-  "RequestSignature": "architecto",
+  "Lastlogin": "2005-04-11T11:16:10.0390983+02:00",
+  "Lastlogout": "2023-02-09T11:16:10.0390983+01:00",
+  "EjUserId": 804,
+  "RequestSignature": "eius",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ipsum",
-      "DisplayValue": "vel",
+      "Value": "harum",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldLength": 681
         }
       }
     },
     {
       "Type": null,
-      "Value": "ipsum",
-      "DisplayValue": "vel",
+      "Value": "harum",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldLength": 681
         }
       }
     }
   ],
-  "UserName": "Davis, Dibbert and Rath",
+  "UserName": "Keeling, Kuvalis and Olson",
   "TicketCategories": [
     {
-      "Id": 593,
-      "Name": "Hoppe, Kunze and Jerde",
-      "ToolTip": "Veritatis perspiciatis laborum alias natus iure.",
+      "Id": 172,
+      "Name": "Kertzmann Inc and Sons",
+      "ToolTip": "Autem voluptate.",
       "Deleted": false,
-      "Rank": 488,
-      "Type": "est",
+      "Rank": 602,
+      "Type": "repellendus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "culpa",
-      "ColorBlock": 412,
-      "ExtraInfo": "ut",
-      "StyleHint": "accusamus",
-      "FullName": "Mr. Melany Kautzer",
+      "IconHint": "quae",
+      "ColorBlock": 797,
+      "ExtraInfo": "hic",
+      "StyleHint": "sequi",
+      "FullName": "Mrs. Alice Garret Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldLength": 247
         }
       }
     }
   ],
-  "NickName": "Harber Group",
+  "NickName": "Feest, Douglas and Schuppe",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "quia"
+    "CustomFields1": "ullam",
+    "CustomFields2": "in"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kutch-Mayer",
-      "DisplayName": "Fisher-Williamson",
-      "Description": "Team-oriented fault-tolerant secured line",
-      "ToolTip": "Magni vel quisquam aspernatur.",
+      "Name": "Hoeger, Daugherty and Pouros",
+      "DisplayName": "Wilkinson-Prohaska",
+      "Description": "Enhanced next generation attitude",
+      "ToolTip": "Architecto inventore quae tenetur dolorem facere vel ducimus.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 696
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

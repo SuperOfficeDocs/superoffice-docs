@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 816,
-    "ERPName": "Tremblay, Pagac and Cartwright",
-    "DisplayName": "Gislason-Beier",
-    "DisplayDescription": "Compatible bottom-line capacity",
-    "Rank": 694,
-    "ConnectorName": "Zemlak, Wolff and Olson",
-    "ErpConnectionId": 787,
-    "ExtraData": "tempora",
+    "QuoteConnectionId": 851,
+    "ERPName": "Cremin Group",
+    "DisplayName": "O'Conner Inc and Sons",
+    "DisplayDescription": "Digitized object-oriented algorithm",
+    "Rank": 374,
+    "ConnectorName": "Stoltenberg, Bechtelar and Schulist",
+    "ErpConnectionId": 27,
+    "ExtraData": "vel",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 138,
-        "ERPPriceListKey": "deleniti",
-        "QuoteConnectionId": 572,
-        "Name": "Klocko, Gislason and Cassin",
-        "Description": "Innovative heuristic attitude",
-        "Currency": "aut",
-        "CurrencyName": "Howell-Turner",
-        "ValidFrom": "1997-07-10T11:44:34.2907996+02:00",
-        "ValidTo": "2002-09-02T11:44:34.2907996+02:00",
-        "IsActive": true,
+        "PriceListId": 393,
+        "ERPPriceListKey": "facilis",
+        "QuoteConnectionId": 760,
+        "Name": "Maggio, Herman and Dare",
+        "Description": "Future-proofed optimal matrix",
+        "Currency": "qui",
+        "CurrencyName": "Durgan Group",
+        "ValidFrom": "1999-02-05T11:16:09.6005114+01:00",
+        "ValidTo": "2016-09-14T11:16:09.6005114+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 894
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      564,
-      613
+      296,
+      291
     ],
     "AssociateAccessIds": [
-      387,
-      803
+      44,
+      842
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 981
       }
     }
   }

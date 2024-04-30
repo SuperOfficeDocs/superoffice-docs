@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Macejkovic-Wiza",
-  "DeviceName": "Kunde-Treutel",
-  "DeviceIdentifier": "nulla",
-  "TableName": "McCullough-Senger",
-  "RecordId": 866
+  "ApplicationName": "Satterfield, Greenfelder and Jones",
+  "DeviceName": "Baumbach-Jaskolski",
+  "DeviceIdentifier": "delectus",
+  "TableName": "Fadel Inc and Sons",
+  "RecordId": 275
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "est",
-    "RecordId": 537,
-    "CreatedDate": "2003-04-16T11:44:33.7753083+02:00",
-    "UpdatedDate": "2019-06-01T11:44:33.7753083+02:00",
-    "UpdatedBy": "ipsam",
-    "CreatedBy": "voluptatem",
-    "TableName": "Gaylord, Herzog and Rolfson",
+    "Key": "quo",
+    "Value": "reiciendis",
+    "RecordId": 762,
+    "CreatedDate": "2003-09-26T11:16:09.2878404+02:00",
+    "UpdatedDate": "2005-05-31T11:16:09.2878404+02:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "id",
+    "TableName": "Beahan, Russel and Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

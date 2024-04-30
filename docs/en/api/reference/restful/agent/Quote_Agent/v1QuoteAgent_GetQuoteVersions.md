@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 933
+  "QuoteId": 277
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 478,
-    "ERPQuoteVersionKey": "rerum",
-    "QuoteId": 250,
-    "Description": "Versatile methodical project",
-    "Number": "497439",
+    "QuoteVersionId": 747,
+    "ERPQuoteVersionKey": "vero",
+    "QuoteId": 630,
+    "Description": "Re-engineered optimal pricing structure",
+    "Number": "1326412",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 759,
-    "SentDate": "2006-03-04T11:44:34.2439386+01:00",
-    "FollowupId": 887,
-    "ExpirationDate": "2010-01-28T11:44:34.2439386+01:00",
-    "DeliveryCountryId": 430,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 479,
+    "LikelyQuoteAlternativeId": 746,
+    "SentDate": "2003-05-01T11:16:09.5848946+02:00",
+    "FollowupId": 676,
+    "ExpirationDate": "2009-05-25T11:16:09.5848946+02:00",
+    "DeliveryCountryId": 428,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 241,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "accusamus",
-    "ERPPaymentTypeKey": "est",
-    "ERPDeliveryTermsKey": "iure",
-    "ERPDeliveryTypeKey": "sequi",
-    "Rank": 568,
-    "ApprovedBy": 245,
-    "ApprovedText": "cumque",
-    "ApprovedRegisteredBy": 397,
-    "ApprovedRegisteredDate": "2018-02-22T11:44:34.2439386+01:00",
-    "ExtraField1": "omnis",
-    "ExtraField2": "eum",
-    "ExtraField3": "ut",
-    "ExtraField4": "rerum",
-    "ExtraField5": "qui",
-    "LastRecalculated": "2001-08-22T11:44:34.2439386+02:00",
-    "Updated": "2017-12-29T11:44:34.2439386+01:00",
-    "UpdatedAssociateId": 287,
-    "Registered": "2023-12-25T11:44:34.2439386+01:00",
-    "RegisteredAssociateId": 653,
-    "RequestAssociateId": 585,
-    "RequestComment": "illo",
+    "ERPPaymentTermsKey": "omnis",
+    "ERPPaymentTypeKey": "aut",
+    "ERPDeliveryTermsKey": "sit",
+    "ERPDeliveryTypeKey": "maiores",
+    "Rank": 489,
+    "ApprovedBy": 568,
+    "ApprovedText": "voluptate",
+    "ApprovedRegisteredBy": 46,
+    "ApprovedRegisteredDate": "2018-05-25T11:16:09.5848946+02:00",
+    "ExtraField1": "similique",
+    "ExtraField2": "ea",
+    "ExtraField3": "commodi",
+    "ExtraField4": "voluptates",
+    "ExtraField5": "rerum",
+    "LastRecalculated": "2006-09-12T11:16:09.5848946+02:00",
+    "Updated": "2007-04-18T11:16:09.5848946+02:00",
+    "UpdatedAssociateId": 906,
+    "Registered": "2004-04-24T11:16:09.5848946+02:00",
+    "RegisteredAssociateId": 874,
+    "RequestAssociateId": 610,
+    "RequestComment": "sit",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 425,
-        "ERPQuoteAlternativeKey": "porro",
-        "QuoteVersionId": 982,
-        "Name": "Keebler, Tremblay and Schuster",
-        "Description": "Visionary intangible access",
+        "QuoteAlternativeId": 888,
+        "ERPQuoteAlternativeKey": "eos",
+        "QuoteVersionId": 390,
+        "Name": "Gottlieb-Pfeffer",
+        "Description": "Automated bandwidth-monitored attitude",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 28199.732,
-        "ERPDiscountAmount": 23276.218,
-        "DiscountPercent": 17359.226,
-        "DiscountAmount": 23088.178,
+        "ERPDiscountPercent": 3864.2219999999998,
+        "ERPDiscountAmount": 9182.619999999999,
+        "DiscountPercent": 12297.815999999999,
+        "DiscountAmount": 5202.44,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "aut",
-        "VAT": 7568.61,
-        "EarningPercent": 21665.342,
-        "EarningAmount": 3049.382,
-        "SubTotal": 9311.114,
-        "TotalPrice": 6393.36,
-        "ExtraField1": "numquam",
-        "ExtraField2": "deleniti",
-        "ExtraField3": "quod",
-        "ExtraField4": "sit",
-        "ExtraField5": "facilis",
+        "VATInfo": "placeat",
+        "VAT": 4854.566,
+        "EarningPercent": 1203.456,
+        "EarningAmount": 14209.555999999999,
+        "SubTotal": 15456.887999999999,
+        "TotalPrice": 14278.503999999999,
+        "ExtraField1": "beatae",
+        "ExtraField2": "odit",
+        "ExtraField3": "non",
+        "ExtraField4": "officia",
+        "ExtraField5": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 866
+            "FieldLength": 220
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 652
       }
     }
   }

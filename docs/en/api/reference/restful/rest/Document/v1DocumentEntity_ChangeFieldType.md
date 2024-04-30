@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 199,
-  "ColumnId": 573,
-  "FieldDefault": "nulla",
-  "FieldHeight": 25,
-  "FieldLabel": "et",
-  "FieldLeft": 304,
-  "FieldTop": 984,
+  "UDefFieldId": 972,
+  "ColumnId": 974,
+  "FieldDefault": "omnis",
+  "FieldHeight": 807,
+  "FieldLabel": "eum",
+  "FieldLeft": 965,
+  "FieldTop": 906,
   "FieldType": "Checkbox",
-  "FieldWidth": 729,
-  "FormatMask": "vel",
-  "HideLabel": false,
+  "FieldWidth": 886,
+  "FormatMask": "laborum",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 100,
-  "LabelLeft": 306,
-  "LabelTop": 344,
-  "LabelWidth": 90,
-  "LastVersionId": 835,
-  "ListTableId": 268,
-  "IsMandatory": false,
+  "LabelHeight": 737,
+  "LabelLeft": 89,
+  "LabelTop": 894,
+  "LabelWidth": 976,
+  "LastVersionId": 107,
+  "ListTableId": 426,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 615,
-  "ProgId": "distinctio",
-  "IsReadOnly": true,
-  "ShortLabel": "exercitationem",
-  "TabOrder": 516,
-  "TextLength": 731,
-  "Tooltip": "quis",
-  "UdefIdentity": 494,
-  "UDListDefinitionId": 557,
+  "Page1LineNo": 247,
+  "ProgId": "vitae",
+  "IsReadOnly": false,
+  "ShortLabel": "dolorem",
+  "TabOrder": 719,
+  "TextLength": 630,
+  "Tooltip": "illum",
+  "UdefIdentity": 402,
+  "UDListDefinitionId": 96,
   "Justification": "Center",
-  "Version": 371,
-  "TemplateVariableName": "Daugherty, Wiza and Gottlieb",
-  "HasBeenPublished": false,
-  "MdoListName": "Kilback Group",
+  "Version": 356,
+  "TemplateVariableName": "Bartoletti Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Kling LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 664
     }
   }
 }

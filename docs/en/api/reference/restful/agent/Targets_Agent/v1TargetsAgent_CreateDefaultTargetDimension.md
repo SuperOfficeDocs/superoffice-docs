@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 859,
+  "TargetDimensionId": 643,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "tempore",
-  "DimensionListName": "Maggio-Bergstrom",
-  "DimensionListId": 703,
-  "DimensionListLabel": "reprehenderit",
+  "DimensionListField": "ea",
+  "DimensionListName": "Rogahn Inc and Sons",
+  "DimensionListId": 478,
+  "DimensionListLabel": "distinctio",
   "SelectedDimensions": [
-    312,
-    357
+    726,
+    538
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

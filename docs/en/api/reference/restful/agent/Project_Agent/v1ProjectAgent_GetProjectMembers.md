@@ -97,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 519
+  "ProjectId": 265
 }
 ```
 
@@ -109,33 +109,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 252,
-    "ContactId": 641,
-    "ProjectId": 358,
-    "ContactName": "Runolfsdottir Group",
+    "ProjectmemberId": 303,
+    "ContactId": 327,
+    "ProjectId": 479,
+    "ContactName": "Kuhlman-Lockman",
     "ContactDepartment": "",
-    "ProjectName": "Lemke, Klocko and Blanda",
-    "EmailId": 580,
-    "EmailAddress": "peggie.langosh@weber.com",
-    "CountryId": 569,
-    "Firstname": "Gust",
-    "MiddleName": "Mills, Hegmann and Morar",
-    "Lastname": "Padberg",
-    "PersonId": 994,
-    "Mrmrs": "et",
-    "ProjectMemberTypeName": "Roberts-Berge",
-    "Phone": "684.545.3324 x94014",
-    "PhoneId": 360,
-    "ProjectMemberTypeId": 721,
-    "EmailAddressName": "estel@johns.uk",
-    "Comment": "sit",
-    "FullName": "Ms. Godfrey Crona MD",
+    "ProjectName": "Miller LLC",
+    "EmailId": 779,
+    "EmailAddress": "felicia@andersonrobel.co.uk",
+    "CountryId": 234,
+    "Firstname": "Michael",
+    "MiddleName": "Wolff-Hodkiewicz",
+    "Lastname": "Corkery",
+    "PersonId": 730,
+    "Mrmrs": "voluptatem",
+    "ProjectMemberTypeName": "Crona Group",
+    "Phone": "657.638.2531 x1474",
+    "PhoneId": 119,
+    "ProjectMemberTypeId": 854,
+    "EmailAddressName": "rigoberto_stark@wuckert.name",
+    "Comment": "hic",
+    "FullName": "Israel Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

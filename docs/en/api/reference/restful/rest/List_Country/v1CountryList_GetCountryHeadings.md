@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 509,
-    "Name": "Stoltenberg-Wintheiser",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 963,
-    "UdListDefinitionId": 809,
+    "HeadingId": 939,
+    "Name": "McDermott Inc and Sons",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 886,
+    "UdListDefinitionId": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

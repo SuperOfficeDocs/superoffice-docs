@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 105
+  "UserGroupId": 392
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 618,
-    "ColumnId": 946,
-    "FieldDefault": "aut",
-    "FieldHeight": 458,
+    "UDefFieldId": 628,
+    "ColumnId": 987,
+    "FieldDefault": "architecto",
+    "FieldHeight": 476,
     "FieldLabel": "ut",
-    "FieldLeft": 999,
-    "FieldTop": 147,
+    "FieldLeft": 191,
+    "FieldTop": 27,
     "FieldType": "Checkbox",
-    "FieldWidth": 887,
-    "FormatMask": "rerum",
-    "HideLabel": true,
+    "FieldWidth": 463,
+    "FormatMask": "est",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 566,
-    "LabelLeft": 198,
-    "LabelTop": 156,
-    "LabelWidth": 857,
-    "LastVersionId": 51,
-    "ListTableId": 424,
+    "LabelHeight": 574,
+    "LabelLeft": 460,
+    "LabelTop": 142,
+    "LabelWidth": 780,
+    "LastVersionId": 205,
+    "ListTableId": 58,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 190,
-    "ProgId": "tempore",
-    "IsReadOnly": true,
-    "ShortLabel": "ut",
-    "TabOrder": 858,
-    "TextLength": 194,
-    "Tooltip": "autem",
-    "UdefIdentity": 861,
-    "UDListDefinitionId": 138,
+    "Page1LineNo": 87,
+    "ProgId": "ipsam",
+    "IsReadOnly": false,
+    "ShortLabel": "hic",
+    "TabOrder": 579,
+    "TextLength": 595,
+    "Tooltip": "voluptatum",
+    "UdefIdentity": 851,
+    "UDListDefinitionId": 90,
     "Justification": "Center",
-    "Version": 782,
-    "TemplateVariableName": "Hauck, Gleichner and Terry",
-    "HasBeenPublished": true,
-    "MdoListName": "Harris Group",
+    "Version": 850,
+    "TemplateVariableName": "Lynch Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Reilly-Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

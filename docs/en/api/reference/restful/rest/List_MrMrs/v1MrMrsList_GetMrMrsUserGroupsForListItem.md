@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "VonRueden, Rolfson and Schroeder",
-    "ToolTip": "Necessitatibus nihil unde rerum aliquid qui provident eveniet.",
-    "Deleted": false,
-    "Rank": 139,
-    "Type": "est",
-    "ColorBlock": 610,
-    "IconHint": "dolor",
+    "Id": 521,
+    "Name": "Deckow Group",
+    "ToolTip": "Ducimus nulla ut dicta molestiae animi et placeat.",
+    "Deleted": true,
+    "Rank": 542,
+    "Type": "sed",
+    "ColorBlock": 794,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2010-03-10T11:44:43.1168808+01:00",
+    "LastChanged": "1997-07-08T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Heaney-O'Kon",
-        "ToolTip": "Ut dolores adipisci fugit dignissimos.",
-        "Deleted": true,
-        "Rank": 430,
-        "Type": "dicta",
-        "ColorBlock": 764,
-        "IconHint": "quidem",
+        "Id": 475,
+        "Name": "Ebert Inc and Sons",
+        "ToolTip": "Ut aut fugit eveniet.",
+        "Deleted": false,
+        "Rank": 106,
+        "Type": "laudantium",
+        "ColorBlock": 529,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2002-12-19T11:44:43.1168808+01:00",
+        "LastChanged": "2020-05-26T11:16:14.5901626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "nihil",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Mr. Vada Mara Crona",
+        "FullName": "Rowland Winifred Trantow IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 985
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Gianni Alvah Schultz",
+    "FullName": "Mrs. Willy Kendra Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 783
       }
     }
   }

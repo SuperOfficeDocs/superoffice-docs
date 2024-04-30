@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 72,
-  "StartDate": "2012-09-02T11:44:32.6037053+02:00",
-  "EndDate": "1997-09-25T11:44:32.6037053+02:00",
-  "RecurrenceCounter": 905,
+  "RecurrenceId": 74,
+  "StartDate": "1997-04-30T11:16:08.6002301+02:00",
+  "EndDate": "2023-03-21T11:16:08.6002301+01:00",
+  "RecurrenceCounter": 869,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-10-22T11:44:32.6037053+02:00",
-      "IsConflict": false,
-      "Description": "Expanded solution-oriented capacity",
-      "DescriptionStyleHint": "Front-line 4th generation portal",
-      "Tooltip": "qui"
+      "Date": "2010-10-23T11:16:08.6002301+02:00",
+      "IsConflict": true,
+      "Description": "Inverse multi-tasking adapter",
+      "DescriptionStyleHint": "Profound next generation forecast",
+      "Tooltip": "vero"
     },
     {
-      "Date": "1999-10-22T11:44:32.6037053+02:00",
-      "IsConflict": false,
-      "Description": "Expanded solution-oriented capacity",
-      "DescriptionStyleHint": "Front-line 4th generation portal",
-      "Tooltip": "qui"
+      "Date": "2010-10-23T11:16:08.6002301+02:00",
+      "IsConflict": true,
+      "Description": "Inverse multi-tasking adapter",
+      "DescriptionStyleHint": "Profound next generation forecast",
+      "Tooltip": "vero"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

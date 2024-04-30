@@ -93,11 +93,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 563,
-  "DashboardId": 685,
-  "Height": 945,
-  "Width": 258,
-  "Rank": 304,
+  "DashboardTileId": 866,
+  "DashboardId": 648,
+  "Height": 32,
+  "Width": 246,
+  "Rank": 300,
   "DashTileDefinition": null
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 523,
-  "DashboardId": 17,
-  "Height": 493,
-  "Width": 172,
-  "Rank": 950,
+  "DashboardTileId": 526,
+  "DashboardId": 363,
+  "Height": 601,
+  "Width": 492,
+  "Rank": 756,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   },
   "_Links": {

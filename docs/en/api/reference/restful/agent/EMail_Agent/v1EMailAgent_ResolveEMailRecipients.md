@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "omari@ernserosinski.info"
+  "EmailAddress": "fermin@fahey.name"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 420,
-    "ContactName": "Kilback LLC",
-    "PersonId": 759,
-    "PersonName": "Koch-Bruen",
-    "AssociateId": 547,
-    "Address": "non",
-    "EmailId": 718,
+    "ContactId": 236,
+    "ContactName": "Boehm-Cummings",
+    "PersonId": 346,
+    "PersonName": "Carroll-West",
+    "AssociateId": 55,
+    "Address": "et",
+    "EmailId": 56,
     "DuplicatePersonIds": [
-      459,
-      956
+      121,
+      410
     ],
-    "Name": "Robel, Stracke and Powlowski",
+    "Name": "Zemlak Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 222
       }
     }
   }

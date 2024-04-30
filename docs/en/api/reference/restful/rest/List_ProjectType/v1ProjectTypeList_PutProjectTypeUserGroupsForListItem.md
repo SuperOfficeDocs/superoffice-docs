@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Morissette LLC",
-    "ToolTip": "Soluta sed nobis delectus dolor.",
+    "Id": 434,
+    "Name": "Corwin LLC",
+    "ToolTip": "Iste magni odit et eligendi dolor accusantium.",
     "Deleted": true,
-    "Rank": 649,
-    "Type": "eos",
-    "ColorBlock": 170,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2020-04-10T11:44:43.2418644+02:00",
+    "Rank": 519,
+    "Type": "natus",
+    "ColorBlock": 528,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2014-04-25T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Medhurst-Spencer",
-        "ToolTip": "Laboriosam aut voluptatem.",
-        "Deleted": false,
-        "Rank": 311,
-        "Type": "expedita",
-        "ColorBlock": 820,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2007-09-17T11:44:43.2418644+02:00",
+        "Id": 108,
+        "Name": "Satterfield LLC",
+        "ToolTip": "Ut tempora ut maxime quaerat impedit repudiandae suscipit.",
+        "Deleted": true,
+        "Rank": 811,
+        "Type": "dolores",
+        "ColorBlock": 458,
+        "IconHint": "cum",
+        "Selected": false,
+        "LastChanged": "2024-04-10T11:16:14.668281+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Prof. Burnice Okuneva II"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Coty Melvin Rogahn II"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "quia",
+    "ExtraInfo": "iusto",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Zoie Grant"
+    "FullName": "Darrion Koss DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Name": "Blick Group",
-    "ToolTip": "Neque minima doloremque.",
-    "Deleted": false,
-    "Rank": 761,
-    "Type": "ut",
-    "ColorBlock": 468,
-    "IconHint": "et",
+    "Id": 428,
+    "Name": "Mraz, Kshlerin and Stracke",
+    "ToolTip": "Dignissimos nam rerum repudiandae.",
+    "Deleted": true,
+    "Rank": 419,
+    "Type": "velit",
+    "ColorBlock": 312,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2019-09-05T11:44:43.2418644+02:00",
+    "LastChanged": "2010-07-25T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Feil Group",
-        "ToolTip": "Iusto qui.",
+        "Id": 6,
+        "Name": "Turcotte Group",
+        "ToolTip": "Est cum est nihil.",
         "Deleted": true,
-        "Rank": 691,
-        "Type": "vel",
-        "ColorBlock": 110,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2019-09-06T11:44:43.2418644+02:00",
+        "Rank": 645,
+        "Type": "officiis",
+        "ColorBlock": 45,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2015-04-21T11:16:14.668281+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Mrs. Dayne Emil Ritchie IV",
+        "ExtraInfo": "officia",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Mr. Antwan Hyman Kshlerin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 916
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Miss Monserrate Carmine Nicolas",
+    "ExtraInfo": "in",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Maggie Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

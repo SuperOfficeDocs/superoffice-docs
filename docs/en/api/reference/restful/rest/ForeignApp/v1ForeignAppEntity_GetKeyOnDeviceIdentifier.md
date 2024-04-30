@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 22 Jul 2011 11:44:42 G7T
+Last-Modified: Tue, 08 May 2001 11:16:13 G5T
 
 {
-  "Key": "assumenda",
-  "Value": "non",
-  "RecordId": 588,
-  "CreatedDate": "1999-08-15T11:44:42.0077636+02:00",
-  "UpdatedDate": "2011-07-22T11:44:42.0077636+02:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "aspernatur",
-  "TableName": "Jakubowski, Mosciski and Murazik",
+  "Key": "neque",
+  "Value": "enim",
+  "RecordId": 406,
+  "CreatedDate": "2018-08-04T11:16:13.93321+02:00",
+  "UpdatedDate": "2001-05-08T11:16:13.93321+02:00",
+  "UpdatedBy": "nostrum",
+  "CreatedBy": "tempora",
+  "TableName": "Hilpert LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 818
     }
   }
 }

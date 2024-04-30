@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=101
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=21
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -73,6 +73,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,34 +93,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 113,
-  "Name": "Ondricka-Crooks",
-  "Rank": 611,
-  "Tooltip": "nisi",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 215,
+  "TicketTypeId": 816,
+  "Name": "Bernhard-Bahringer",
+  "Rank": 529,
+  "Tooltip": "minima",
+  "Icon": "nesciunt",
+  "DefaultTicketStatus": 344,
   "TicketStatuses": [
-    188,
-    270
+    814,
+    538
   ],
-  "DefaultTicketPriority": 860,
+  "DefaultTicketPriority": 250,
   "TicketPriorities": [
-    583,
-    790
+    433,
+    756
   ],
-  "ReplyTemplate": 394,
+  "ReplyTemplate": 609,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    172,
+    343
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 332,
-  "Name": "Huel, Bashirian and Heller",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 536,
-  "UdListDefinitionId": 253
+  "HeadingId": 717,
+  "Name": "Satterfield Group",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 816,
+  "UdListDefinitionId": 559
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 596,
-  "Name": "Ortiz Inc and Sons",
-  "Tooltip": "quia",
+  "HeadingId": 516,
+  "Name": "Schuppe Group",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 130,
-  "UdListDefinitionId": 707,
+  "Rank": 651,
+  "UdListDefinitionId": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   }
 }

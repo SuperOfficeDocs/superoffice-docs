@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rice, Lubowitz and Wintheiser",
-  "ForceFlatList": true,
-  "AdditionalInfo": "omnis",
+  "Name": "Rosenbaum-Stark",
+  "ForceFlatList": false,
+  "AdditionalInfo": "sunt",
   "HistoryItems": [
-    599,
-    709
+    712,
+    259
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Sipes, Sipes and Kuhlman",
-    "ToolTip": "Eligendi et voluptatem facere voluptate voluptatem beatae consequatur.",
-    "Deleted": false,
-    "Rank": 362,
-    "Type": "consequuntur",
+    "Id": 457,
+    "Name": "Watsica LLC",
+    "ToolTip": "Voluptatem placeat.",
+    "Deleted": true,
+    "Rank": 457,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Kreiger, Braun and Altenwerth",
-        "ToolTip": "In inventore ratione et est dolor consequatur consequuntur.",
+        "Id": 146,
+        "Name": "Schumm LLC",
+        "ToolTip": "Voluptatibus ab et adipisci et voluptates.",
         "Deleted": false,
-        "Rank": 702,
-        "Type": "blanditiis",
+        "Rank": 427,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 747,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "nihil",
-        "FullName": "Blake Roberts",
+        "IconHint": "eum",
+        "ColorBlock": 231,
+        "ExtraInfo": "rerum",
+        "StyleHint": "atque",
+        "FullName": "Estevan O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 917
+            "FieldType": "System.Int32",
+            "FieldLength": 737
           }
         }
       }
     ],
-    "IconHint": "consectetur",
-    "ColorBlock": 829,
-    "ExtraInfo": "non",
-    "StyleHint": "ipsum",
-    "FullName": "Amelia Robel",
+    "IconHint": "quasi",
+    "ColorBlock": 82,
+    "ExtraInfo": "nihil",
+    "StyleHint": "voluptatem",
+    "FullName": "Mr. Norma Leffler II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 417
       }
     }
   }

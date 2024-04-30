@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Daugherty, Hodkiewicz and Legros",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "UdListDefinitionId": 618,
-  "Rank": 699
+  "Id": 82,
+  "Name": "Towne-Lebsack",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 757,
+  "Rank": 136
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 764,
-  "Name": "Langosh-Wiza",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "UdListDefinitionId": 412,
-  "Rank": 993,
+  "Id": 930,
+  "Name": "Klein, Ruecker and Huel",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "UdListDefinitionId": 39,
+  "Rank": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

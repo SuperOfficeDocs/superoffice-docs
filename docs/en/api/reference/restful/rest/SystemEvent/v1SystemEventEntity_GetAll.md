@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=harum
-GET /api/v1/SystemEvent?$top=328
-GET /api/v1/SystemEvent?$skip=261
+GET /api/v1/SystemEvent?$entities=voluptas
+GET /api/v1/SystemEvent?$top=530
+GET /api/v1/SystemEvent?$skip=181
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=qui
+GET /api/v1/SystemEvent?$context=temporibus
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 559,
-      "EntityName": "sale",
-      "saleId": 559,
-      "contactId": 2844,
-      "name": "Mills Group"
+      "PrimaryKey": 8336,
+      "EntityName": "person",
+      "personId": 8336,
+      "fullName": "Meaghan Ziemann"
     },
     {
-      "PrimaryKey": 137,
-      "EntityName": "sale",
-      "saleId": 137,
-      "contactId": 1081,
-      "name": "Simonis, Sporer and Torp"
+      "PrimaryKey": 5738,
+      "EntityName": "person",
+      "personId": 5738,
+      "fullName": "Gaetano Willms"
     }
   ]
 }

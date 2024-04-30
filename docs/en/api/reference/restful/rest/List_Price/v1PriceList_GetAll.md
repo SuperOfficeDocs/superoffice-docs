@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=corrupti
-GET /api/v1/Pricelist?$top=778
-GET /api/v1/Pricelist?$skip=772
+GET /api/v1/Pricelist?$entities=omnis
+GET /api/v1/Pricelist?$top=195
+GET /api/v1/Pricelist?$skip=815
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=id
+GET /api/v1/Pricelist?$context=rerum
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequatur",
+  "odata.nextLink": "veniam",
   "value": [
     {
-      "PrimaryKey": 2378,
-      "EntityName": "sale",
-      "saleId": 2378,
-      "contactId": 9051,
-      "name": "Ullrich-Mayert"
+      "PrimaryKey": 9619,
+      "EntityName": "person",
+      "personId": 9619,
+      "fullName": "Mrs. Gladys Tabitha Schmidt V"
     },
     {
-      "PrimaryKey": 1326,
-      "EntityName": "sale",
-      "saleId": 1326,
-      "contactId": 6939,
-      "name": "Hegmann, Turner and Kuphal"
+      "PrimaryKey": 3706,
+      "EntityName": "person",
+      "personId": 3706,
+      "fullName": "Mrs. Maximo Rowe"
     }
   ]
 }

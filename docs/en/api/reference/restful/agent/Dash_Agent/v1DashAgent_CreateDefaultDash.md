@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 985,
-  "UniqueId": "velit",
-  "Name": "Yost Inc and Sons",
-  "Description": "Cross-platform clear-thinking software",
-  "AssociateId": 361,
-  "Columns": 576,
+  "DashboardId": 597,
+  "UniqueId": "placeat",
+  "Name": "Lakin-Bayer",
+  "Description": "Grass-roots maximized standardization",
+  "AssociateId": 48,
+  "Columns": 269,
   "Theme": null,
-  "VisibleForAll": 88,
+  "VisibleForAll": 374,
   "VisibleForAssociates": [
-    585,
-    278
+    971,
+    786
   ],
   "VisibleForGroups": [
-    68,
-    915
+    266,
+    328
   ],
-  "PinForAll": 646,
+  "PinForAll": 886,
   "PinForAssociates": [
-    834,
-    69
+    106,
+    772
   ],
   "PinForGroups": [
-    444,
-    702
+    538,
+    842
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officiis",
-  "ProviderName": "Kuhic Inc and Sons",
-  "StorageKey": "corrupti",
+  "StorageType": "corrupti",
+  "ProviderName": "Lang Inc and Sons",
+  "StorageKey": "rem",
   "StaticColumns": [
-    "cumque",
-    "et"
+    "non",
+    "quasi"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Haley, Kris and Buckridge",
-      "Operator": "libero",
+      "Name": "Hartmann-Lindgren",
+      "Operator": "eaque",
       "Values": [
-        "ea",
-        "tempora"
+        "occaecati",
+        "pariatur"
       ],
       "DisplayValues": [
-        "consectetur",
-        "inventore"
+        "non",
+        "quo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 668,
+      "InterParenthesis": 121,
       "InterOperator": "And",
       "UniqueHash": 815
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Langosh Inc and Sons",
-      "DisplayTooltip": "est",
-      "DisplayType": "aliquam",
+      "DisplayName": "Tillman-Emmerich",
+      "DisplayTooltip": "nisi",
+      "DisplayType": "sint",
       "CanOrderBy": false,
-      "Name": "Thiel Group",
+      "Name": "McCullough-Bins",
       "CanRestrictBy": false,
-      "RestrictionType": "expedita",
-      "RestrictionListName": "Altenwerth Group",
-      "IsVisible": true,
-      "ExtraInfo": "quas",
-      "Width": "debitis",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "minus"
+      "RestrictionType": "in",
+      "RestrictionListName": "Hermiston Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "ea",
+      "Width": "nemo",
+      "IconHint": "non",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cormier, Schneider and Kiehn",
-      "PrimaryKey": 295,
+      "EntityName": "Gislason Group",
+      "PrimaryKey": 85,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quibusdam",
-          "TooltipHint": "ipsam",
-          "LinkHint": "dignissimos"
+          "DisplayValue": "ut",
+          "TooltipHint": "quo",
+          "LinkHint": "vitae"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "quas",
+      "LinkHint": "amet",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 800
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carroll-Schiller",
-      "Description": "Face to face mobile portal",
-      "Rank": 612,
+      "Name": "Rosenbaum LLC",
+      "Description": "User-friendly mobile framework",
+      "Rank": 974,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carroll-Schiller",
-      "Description": "Face to face mobile portal",
-      "Rank": 612,
+      "Name": "Rosenbaum LLC",
+      "Description": "User-friendly mobile framework",
+      "Rank": 974,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 18
     }
   }
 }

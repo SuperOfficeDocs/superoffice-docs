@@ -83,10 +83,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Macejkovic-Emmerich",
-    "Boyer Group"
+    "Yundt-Reichel",
+    "Swaniawski LLC"
   ],
-  "Culture": "quos",
+  "Culture": "ducimus",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "O'Reilly-Bruen",
-    "ResourceValue": "eos",
-    "Culture": "ex",
+    "ResourceName": "Sauer Inc and Sons",
+    "ResourceValue": "molestiae",
+    "Culture": "adipisci",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldType": "System.String",
+        "FieldLength": 364
       }
     }
   },
   {
-    "ResourceName": "O'Reilly-Bruen",
-    "ResourceValue": "eos",
-    "Culture": "ex",
+    "ResourceName": "Sauer Inc and Sons",
+    "ResourceValue": "molestiae",
+    "Culture": "adipisci",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldType": "System.String",
+        "FieldLength": 364
       }
     }
   }

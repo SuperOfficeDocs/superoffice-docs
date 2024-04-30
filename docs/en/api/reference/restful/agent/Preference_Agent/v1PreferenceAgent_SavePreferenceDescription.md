@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 762,
-  "Section": "eos",
-  "Key": "cum",
-  "Name": "Wehner Group",
+  "PrefDescId": 996,
+  "Section": "quam",
+  "Key": "magnam",
+  "Name": "Schultz, Schultz and Ernser",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned bifurcated encoding",
+  "Description": "De-engineered multi-state service-desk",
   "IsBuiltin": false,
-  "TableName": "Breitenberg Group",
-  "UserDefinedListId": 711,
-  "Rank": 774,
-  "SubGroup": "consequatur",
-  "MinLevel": 415,
-  "MaxValue": 837,
-  "MinValue": 336,
-  "RequiredLicense": "vero"
+  "TableName": "Abbott-Toy",
+  "UserDefinedListId": 135,
+  "Rank": 506,
+  "SubGroup": "facere",
+  "MinLevel": 435,
+  "MaxValue": 721,
+  "MinValue": 404,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 240,
-  "Section": "modi",
-  "Key": "non",
-  "Name": "Swaniawski-Gislason",
+  "PrefDescId": 766,
+  "Section": "voluptate",
+  "Key": "vel",
+  "Name": "Kulas LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned non-volatile leverage",
-  "IsBuiltin": true,
-  "TableName": "Schumm Group",
-  "UserDefinedListId": 784,
-  "Rank": 291,
-  "SubGroup": "accusamus",
-  "MinLevel": 285,
-  "MaxValue": 836,
-  "MinValue": 91,
-  "RequiredLicense": "temporibus",
+  "Description": "Balanced 6th generation process improvement",
+  "IsBuiltin": false,
+  "TableName": "Sanford-Gislason",
+  "UserDefinedListId": 295,
+  "Rank": 249,
+  "SubGroup": "facere",
+  "MinLevel": 861,
+  "MaxValue": 978,
+  "MinValue": 385,
+  "RequiredLicense": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

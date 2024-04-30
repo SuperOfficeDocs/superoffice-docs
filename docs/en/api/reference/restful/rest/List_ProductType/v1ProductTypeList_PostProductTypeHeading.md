@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 377,
-  "Name": "Gibson LLC",
-  "Tooltip": "eos",
+  "HeadingId": 707,
+  "Name": "Murazik-Rath",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 127,
-  "UdListDefinitionId": 142
+  "Rank": 682,
+  "UdListDefinitionId": 55
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 48,
-  "Name": "Sauer, Smitham and Kovacek",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 255,
-  "UdListDefinitionId": 794,
+  "HeadingId": 942,
+  "Name": "Kiehn, Ondricka and Kiehn",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "Rank": 433,
+  "UdListDefinitionId": 100,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 24
     }
   }
 }

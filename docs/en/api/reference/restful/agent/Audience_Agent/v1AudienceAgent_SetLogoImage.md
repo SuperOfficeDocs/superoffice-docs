@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Haag, Nikolaus and Grimes",
+  "LayoutName": "Langosh Inc and Sons",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

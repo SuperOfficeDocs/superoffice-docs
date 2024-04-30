@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Hoeger LLC",
-  "SaleDate": "2010-10-09T11:44:42.4920354+02:00",
-  "SaleId": 924,
-  "Probability": 299,
-  "Title": "temporibus",
-  "Amount": 2218.872,
-  "Currency": "quo",
-  "ProjectName": "Roberts LLC",
-  "AssociateFullName": "Karianne Mireille Hudson Jr.",
-  "Description": "Implemented mobile interface",
+  "ContactName": "Mosciski, Little and Marvin",
+  "SaleDate": "2006-05-20T11:16:14.2032988+02:00",
+  "SaleId": 89,
+  "Probability": 829,
+  "Title": "eaque",
+  "Amount": 21232.85,
+  "Currency": "doloribus",
+  "ProjectName": "Lynch, Lynch and Moore",
+  "AssociateFullName": "Susan Orn PhD",
+  "Description": "Phased attitude-oriented conglomeration",
   "Status": "Lost",
-  "WeightedAmount": 24545.487999999998,
-  "ProjectId": 822,
-  "EarningPercent": 19694.056,
-  "Earning": 3184.144,
-  "ContactId": 86,
-  "AssociateId": 897,
-  "PersonId": 740,
-  "SaleTypeId": 262,
-  "SaleTypeName": "Klein Inc and Sons",
-  "PersonFullName": "Nathaniel Jaylan Hackett Jr.",
+  "WeightedAmount": 6289.938,
+  "ProjectId": 709,
+  "EarningPercent": 15817.297999999999,
+  "Earning": 24874.558,
+  "ContactId": 552,
+  "AssociateId": 791,
+  "PersonId": 629,
+  "SaleTypeId": 168,
+  "SaleTypeName": "Sauer Group",
+  "PersonFullName": "Norbert Evelyn Rice IV",
   "Completed": "Completed",
-  "ActiveErpLinks": 186,
-  "NextDueDate": "1996-12-25T11:44:42.4920354+01:00",
-  "Number": "835330",
+  "ActiveErpLinks": 198,
+  "NextDueDate": "1997-05-31T11:16:14.2032988+02:00",
+  "Number": "1500435",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

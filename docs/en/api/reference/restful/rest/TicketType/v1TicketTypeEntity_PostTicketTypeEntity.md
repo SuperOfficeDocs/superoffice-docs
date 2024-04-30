@@ -67,6 +67,7 @@ The TicketTypeEntity to be saved.
 | ExcludeSignature | Boolean | Do not insert user signature automatically |
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
+| VisibleForGroups | Array | Array of references to the visible for groups |
 
 ## Response:
 
@@ -96,6 +97,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -106,32 +108,36 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 211,
-  "Name": "Hills LLC",
-  "Rank": 485,
-  "Tooltip": "id",
-  "Icon": "velit",
-  "DefaultTicketStatus": 234,
+  "TicketTypeId": 859,
+  "Name": "Abbott-Wolff",
+  "Rank": 68,
+  "Tooltip": "at",
+  "Icon": "harum",
+  "DefaultTicketStatus": 200,
   "TicketStatuses": [
-    767,
-    350
+    428,
+    698
   ],
-  "DefaultTicketPriority": 146,
+  "DefaultTicketPriority": 660,
   "TicketPriorities": [
-    394,
-    937
+    278,
+    646
   ],
-  "ReplyTemplate": 332,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 576,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    501,
+    646
+  ]
 }
 ```
 
@@ -142,39 +148,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 279,
-  "Name": "McDermott Inc and Sons",
-  "Rank": 199,
-  "Tooltip": "et",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 505,
+  "TicketTypeId": 979,
+  "Name": "Romaguera-Ebert",
+  "Rank": 580,
+  "Tooltip": "reprehenderit",
+  "Icon": "exercitationem",
+  "DefaultTicketStatus": 789,
   "TicketStatuses": [
-    898,
-    173
+    764,
+    464
   ],
-  "DefaultTicketPriority": 142,
+  "DefaultTicketPriority": 580,
   "TicketPriorities": [
-    911,
-    117
+    675,
+    736
   ],
-  "ReplyTemplate": 266,
+  "ReplyTemplate": 417,
   "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    456,
+    271
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

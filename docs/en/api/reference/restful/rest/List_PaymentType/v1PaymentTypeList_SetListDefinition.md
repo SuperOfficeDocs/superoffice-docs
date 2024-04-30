@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Cummings LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 284,
+  "Id": 911,
+  "Name": "Weimann Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 338,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "vero",
+  "Id": 1002,
+  "Name": "Hintz-Donnelly",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 370,
-  "IsCustomList": false,
+  "Rank": 122,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

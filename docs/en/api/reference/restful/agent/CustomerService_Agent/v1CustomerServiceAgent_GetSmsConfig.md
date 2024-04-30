@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "laborum",
-  "NsPluginSender": "qui",
+  "NetServerSmsProvider": "nihil",
+  "NsPluginSender": "inventore",
   "NsPluginConfig": {
-    "NsPluginConfig1": "recusandae",
-    "NsPluginConfig2": "ab"
+    "NsPluginConfig1": "saepe",
+    "NsPluginConfig2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 570
     }
   }
 }

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 107,
-  "ListItemId": 939,
+  "UdListDefinitionId": 272,
+  "ListItemId": 743,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Larkin, Ullrich and Cartwright",
-    "ToolTip": "Suscipit dicta dignissimos veniam.",
-    "Deleted": true,
-    "Rank": 135,
-    "Type": "veniam",
-    "ColorBlock": 168,
-    "IconHint": "vel",
+    "Id": 327,
+    "Name": "Gerhold, Fadel and Mayer",
+    "ToolTip": "Enim cupiditate.",
+    "Deleted": false,
+    "Rank": 679,
+    "Type": "vel",
+    "ColorBlock": 148,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2017-04-30T11:44:33.8534097+02:00",
+    "LastChanged": "2016-07-12T11:16:09.3347069+02:00",
     "ChildItems": [
       {
-        "Id": 121,
-        "Name": "Ward-Wisozk",
-        "ToolTip": "Sit nobis.",
-        "Deleted": true,
-        "Rank": 606,
-        "Type": "iusto",
-        "ColorBlock": 979,
-        "IconHint": "est",
+        "Id": 529,
+        "Name": "Kris-DuBuque",
+        "ToolTip": "Harum perferendis quisquam dolor quisquam quisquam esse maxime.",
+        "Deleted": false,
+        "Rank": 39,
+        "Type": "architecto",
+        "ColorBlock": 472,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2010-02-28T11:44:33.8534097+01:00",
+        "LastChanged": "2021-03-15T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Jaquan VonRueden",
+        "ExtraInfo": "et",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Ms. Brady Wiza Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldType": "System.String",
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Stephania Ledner",
+    "ExtraInfo": "quas",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Mrs. Nadia Doyle PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldType": "System.String",
+        "FieldLength": 526
       }
     }
   }

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ernser LLC",
+  "TableName": "Effertz LLC",
   "IDs": [
-    307,
-    705
+    897,
+    643
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "unde",
-  "Inserts": 829,
-  "Updates": 907,
-  "Deletes": 916,
+  "Success": true,
+  "Message": "fugit",
+  "Inserts": 500,
+  "Updates": 384,
+  "Deletes": 679,
   "RowStatus": [
     {
-      "PrimaryKey": 940,
+      "PrimaryKey": 572,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "delectus",
-        "enim"
+        "nihil",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     },
     {
-      "PrimaryKey": 940,
+      "PrimaryKey": 572,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "delectus",
-        "enim"
+        "nihil",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 675
     }
   }
 }

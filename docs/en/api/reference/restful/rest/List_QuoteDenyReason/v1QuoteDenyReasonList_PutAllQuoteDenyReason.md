@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "UdListDefinitionId": 586,
-    "Rank": 450
+    "Id": 589,
+    "Name": "Feeney-Quitzon",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 559,
+    "Rank": 981
   },
   {
-    "Id": 949,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "UdListDefinitionId": 586,
-    "Rank": 450
+    "Id": 589,
+    "Name": "Feeney-Quitzon",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 559,
+    "Rank": 981
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Bartell, Kohler and Gerlach",
-    "Tooltip": "quisquam",
+    "Id": 427,
+    "Name": "Thiel, Nolan and Cummerata",
+    "Tooltip": "similique",
     "Deleted": false,
-    "UdListDefinitionId": 925,
-    "Rank": 903,
+    "UdListDefinitionId": 759,
+    "Rank": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

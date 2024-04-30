@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 897,
-  "InstanceLayout": "cumque",
-  "InstanceName": "Abernathy LLC",
-  "CreatedDate": "2009-09-11T11:44:32.806727+02:00",
-  "UpdatedDate": "1999-09-18T11:44:32.806727+02:00",
+  "AudienceLayoutId": 467,
+  "InstanceLayout": "aut",
+  "InstanceName": "Schowalter, Kessler and Jones",
+  "CreatedDate": "1999-03-23T11:16:08.7410229+01:00",
+  "UpdatedDate": "1998-11-05T11:16:08.7410229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 19
     }
   }
 }

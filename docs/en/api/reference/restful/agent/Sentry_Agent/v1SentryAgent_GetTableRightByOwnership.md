@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mayert Inc and Sons",
-  "ContactGroupId": 912,
-  "ContactAssociateId": 1002
+  "TableName": "O'Connell, Haley and Crist",
+  "ContactGroupId": 880,
+  "ContactAssociateId": 617
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "synthesize B2B partnerships"
+  "Reason": ""
 }
 ```

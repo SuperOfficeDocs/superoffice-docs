@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 311,
-  "BlobSize": 599,
-  "Description": "Realigned logistical solution",
-  "ExtraInfo": "ex",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "dolore",
-  "OriginalSize": 560,
-  "CreatedDate": "2000-05-29T11:44:42.1326915+02:00",
-  "UpdatedDate": "2008-01-31T11:44:42.1326915+01:00",
+  "BlobId": 100,
+  "BlobSize": 624,
+  "Description": "Horizontal interactive installation",
+  "ExtraInfo": "vitae",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 698,
+  "CreatedDate": "2005-04-13T11:16:14.011336+02:00",
+  "UpdatedDate": "2012-05-17T11:16:14.011336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est"
+  "ConceptualType": "enim"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 173,
-  "BlobSize": 243,
-  "Description": "Right-sized 3rd generation groupware",
-  "ExtraInfo": "doloribus",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "vel",
-  "OriginalSize": 587,
-  "CreatedDate": "1998-01-13T11:44:42.1326915+01:00",
-  "UpdatedDate": "1997-05-21T11:44:42.1326915+02:00",
+  "BlobId": 801,
+  "BlobSize": 622,
+  "Description": "Reactive next generation conglomeration",
+  "ExtraInfo": "inventore",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "voluptatem",
+  "OriginalSize": 203,
+  "CreatedDate": "2008-07-30T11:16:14.011336+02:00",
+  "UpdatedDate": "2012-09-28T11:16:14.011336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ex",
+  "ConceptualType": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

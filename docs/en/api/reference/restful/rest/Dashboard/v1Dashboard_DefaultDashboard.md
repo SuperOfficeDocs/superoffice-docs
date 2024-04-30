@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 704,
-  "AssociateId": 791,
-  "Caption": "perferendis",
+  "DashboardId": 450,
+  "AssociateId": 21,
+  "Caption": "accusamus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 424,
-      "Caption": "error",
-      "Description": "Ameliorated modular application",
-      "ChartName": "Casper LLC",
-      "ChartId": "dolor",
-      "IsDefault": true,
-      "AssociateId": 954,
-      "GroupId": 789,
-      "SelectionId": 987,
-      "Config": "quis",
+      "DashboardTileId": 798,
+      "Caption": "laboriosam",
+      "Description": "Fully-configurable systematic collaboration",
+      "ChartName": "Marks-Kunde",
+      "ChartId": "nulla",
+      "IsDefault": false,
+      "AssociateId": 973,
+      "GroupId": 1002,
+      "SelectionId": 523,
+      "Config": "nihil",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldType": "System.String",
+          "FieldLength": 304
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldLength": 120
     }
   }
 }

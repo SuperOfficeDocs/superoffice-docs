@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Murray-Sipes",
-    "ToolTip": "Corporis saepe eaque deleniti nesciunt magnam rerum vitae.",
+    "Id": 822,
+    "Name": "Schroeder, Torphy and Mitchell",
+    "ToolTip": "Quisquam reiciendis itaque corporis maxime laborum.",
     "Deleted": true,
-    "Rank": 160,
-    "Type": "molestiae",
-    "ColorBlock": 606,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2019-12-02T11:44:42.9450455+01:00",
+    "Rank": 460,
+    "Type": "voluptates",
+    "ColorBlock": 976,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2001-08-29T11:16:14.4964233+02:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Commodi sed occaecati dignissimos aut nihil dolor.",
+        "Id": 856,
+        "Name": "Wehner-Tremblay",
+        "ToolTip": "Perspiciatis soluta qui ut.",
         "Deleted": false,
-        "Rank": 629,
-        "Type": "labore",
-        "ColorBlock": 483,
-        "IconHint": "facere",
+        "Rank": 709,
+        "Type": "quae",
+        "ColorBlock": 131,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2001-02-25T11:44:42.9450455+01:00",
+        "LastChanged": "2017-02-25T11:16:14.4964233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "amet",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Aleen Nicolas",
+        "FullName": "Andreanne Keagan Yost II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 192
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "et",
+    "ExtraInfo": "sequi",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Issac Leffler",
+    "FullName": "Alana Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldLength": 468
       }
     }
   }

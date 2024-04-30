@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsa",
-  "ProviderName": "Reynolds Inc and Sons",
-  "StorageKey": "a",
+  "StorageType": "et",
+  "ProviderName": "Maggio, Gibson and Bergnaum",
+  "StorageKey": "consequatur",
   "DesiredColumnNames": [
-    "Jast Inc and Sons",
-    "Bechtelar-Kautzer"
+    "Effertz-Casper",
+    "Reichel LLC"
   ],
   "StaticColumns": [
-    "sed",
-    "accusantium"
+    "natus",
+    "et"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Larson Group",
-      "Operator": "aut",
+      "Name": "Ward Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "in",
-        "reiciendis"
+        "omnis",
+        "aliquid"
       ],
       "DisplayValues": [
-        "ea",
-        "et"
+        "facilis",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 529,
+      "InterParenthesis": 25,
       "InterOperator": "And",
-      "UniqueHash": 807
+      "UniqueHash": 991
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Daniel-Boehm",
-      "DisplayTooltip": "vero",
-      "DisplayType": "omnis",
+      "DisplayName": "Hand Inc and Sons",
+      "DisplayTooltip": "distinctio",
+      "DisplayType": "libero",
       "CanOrderBy": false,
-      "Name": "Botsford LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "inventore",
-      "RestrictionListName": "Cormier-Ullrich",
+      "Name": "Davis Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "numquam",
+      "RestrictionListName": "Friesen-Greenholt",
       "IsVisible": false,
-      "ExtraInfo": "ullam",
-      "Width": "sint",
-      "IconHint": "totam",
-      "HeadingIconHint": "nam"
+      "ExtraInfo": "omnis",
+      "Width": "non",
+      "IconHint": "rerum",
+      "HeadingIconHint": "ea"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jenkins-West",
-      "PrimaryKey": 544,
+      "EntityName": "McDermott, Franecki and Collins",
+      "PrimaryKey": 529,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nam",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "eum"
+          "DisplayValue": "debitis",
+          "TooltipHint": "velit",
+          "LinkHint": "pariatur"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "dolor",
+      "LinkHint": "veritatis",
+      "StyleHint": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldType": "System.String",
+          "FieldLength": 738
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kessler-Simonis",
-      "Description": "Optimized fault-tolerant alliance",
-      "Rank": 19,
+      "Name": "Bauch-Anderson",
+      "Description": "Stand-alone logistical Graphical User Interface",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kessler-Simonis",
-      "Description": "Optimized fault-tolerant alliance",
-      "Rank": 19,
+      "Name": "Bauch-Anderson",
+      "Description": "Stand-alone logistical Graphical User Interface",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 406
     }
   }
 }

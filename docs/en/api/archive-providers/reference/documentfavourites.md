@@ -699,7 +699,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/documentfavourites?$select=person/supportAssociateFullName,person/consentSourceStore,contact/restrictionAddress/line2,contact/restrictionAddress/zip,sale/saleTypeCategory
+GET /api/v1/archive/documentfavourites?$select=contact/country,contact/contactAssociate/usergroup,contact/NumberOfNotCompletedActivities,contact/saintAmountClass,project/projectUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

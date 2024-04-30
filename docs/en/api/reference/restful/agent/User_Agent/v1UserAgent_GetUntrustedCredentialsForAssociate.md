@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 593,
-  "Type": "sint"
+  "AssociateId": 106,
+  "Type": "sequi"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2016-10-22T11:44:34.9937757+02:00",
-    "ValidTo": "2019-08-27T11:44:34.9937757+02:00",
-    "Comment": "illum",
-    "SecretValue": "autem",
-    "PublicValue": "id",
+    "ValidFrom": "1997-12-27T11:16:10.0390983+01:00",
+    "ValidTo": "1998-12-06T11:16:10.0390983+01:00",
+    "Comment": "deleniti",
+    "SecretValue": "debitis",
+    "PublicValue": "nulla",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 195
       }
     }
   }

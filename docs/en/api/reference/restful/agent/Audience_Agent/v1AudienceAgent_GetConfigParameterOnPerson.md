@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Bahringer LLC",
-  "PersonId": 463
+  "ParameterName": "Rice, Yundt and Denesik",
+  "PersonId": 196
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 165,
-  "Name": "Watsica LLC",
-  "Value": "iusto",
-  "CreatedDate": "2000-10-30T11:44:32.806727+01:00",
-  "UpdatedDate": "2009-10-29T11:44:32.806727+01:00",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "voluptas",
+  "AudienceLayoutId": 438,
+  "Name": "Doyle, Pagac and Bernier",
+  "Value": "officia",
+  "CreatedDate": "2013-07-27T11:16:08.7410229+02:00",
+  "UpdatedDate": "2004-12-15T11:16:08.7410229+01:00",
+  "CreatedBy": "nostrum",
+  "UpdatedBy": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 657
     }
   }
 }

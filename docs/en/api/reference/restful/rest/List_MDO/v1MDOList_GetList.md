@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=nemo
-GET /api/v1/MDOList/{listname}?query=harum
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=molestias
+GET /api/v1/MDOList/{listname}?query=sit
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Spinka, Lueilwitz and Cronin",
-    "ToolTip": "Qui ipsum necessitatibus tempore quaerat.",
-    "Deleted": true,
-    "Rank": 698,
-    "Type": "laudantium",
+    "Id": 294,
+    "Name": "Graham, Goodwin and O'Connell",
+    "ToolTip": "Voluptatibus laudantium.",
+    "Deleted": false,
+    "Rank": 142,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Moore, McGlynn and Will",
-        "ToolTip": "Et minima vel.",
+        "Id": 335,
+        "Name": "Runolfsdottir-Shanahan",
+        "ToolTip": "Adipisci sed molestiae.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "sunt",
+        "Rank": 869,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 709,
-        "ExtraInfo": "aut",
-        "StyleHint": "eum",
-        "FullName": "Emelia Hand",
+        "IconHint": "sequi",
+        "ColorBlock": 691,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "sunt",
+        "FullName": "Sibyl Kutch PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 142
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 917,
-    "ExtraInfo": "doloribus",
-    "StyleHint": "quo",
-    "FullName": "Susana Rath IV",
+    "IconHint": "consequatur",
+    "ColorBlock": 849,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "velit",
+    "FullName": "Serena Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 330
       }
     }
   }

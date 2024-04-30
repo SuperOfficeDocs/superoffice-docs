@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 52,
-  "Name": "Raynor Group",
-  "CreatedDate": "2017-02-06T11:44:41.9765217+01:00",
-  "UpdatedDate": "2019-01-24T11:44:41.9765217+01:00",
+  "ForeignAppId": 358,
+  "Name": "Boehm Group",
+  "CreatedDate": "2024-01-19T11:16:13.9175899+01:00",
+  "UpdatedDate": "2006-06-11T11:16:13.9175899+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 906,
-      "Name": "Haag, Schroeder and Powlowski",
-      "CreatedDate": "2003-03-15T11:44:41.9765217+01:00",
-      "UpdatedDate": "2020-08-01T11:44:41.9765217+02:00",
-      "AssociateFullName": "Naomi Anna Emard I",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "quia",
+      "ForeignDeviceId": 365,
+      "Name": "Stehr-Becker",
+      "CreatedDate": "2020-06-17T11:16:13.9175899+02:00",
+      "UpdatedDate": "2000-08-10T11:16:13.9175899+02:00",
+      "AssociateFullName": "Larissa DuBuque",
+      "CreatedBy": "delectus",
+      "UpdatedBy": "nihil",
       "DeviceIdentifier": "aut",
-      "ForeignAppId": 517,
+      "ForeignAppId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 946
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

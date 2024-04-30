@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=maiores
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=molestias
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Konopelski-Abshire",
-    "ToolTip": "Iure perspiciatis illo non.",
+    "Id": 408,
+    "Name": "Kulas, Runolfsdottir and Ward",
+    "ToolTip": "Id rerum rerum non.",
     "Deleted": true,
-    "Rank": 561,
-    "Type": "explicabo",
+    "Rank": 754,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Boyle Inc and Sons",
-        "ToolTip": "Qui culpa.",
+        "Id": 904,
+        "Name": "Turner, Dietrich and Schroeder",
+        "ToolTip": "Perferendis soluta omnis unde dolor reiciendis illum molestiae.",
         "Deleted": false,
-        "Rank": 853,
-        "Type": "quam",
+        "Rank": 14,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 504,
-        "ExtraInfo": "distinctio",
-        "StyleHint": "expedita",
-        "FullName": "Letitia Okuneva",
+        "IconHint": "libero",
+        "ColorBlock": 17,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "ducimus",
+        "FullName": "Jennyfer Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 485
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 824,
-    "ExtraInfo": "ut",
-    "StyleHint": "officia",
-    "FullName": "Miss Ashton Ariel Hahn",
+    "IconHint": "ut",
+    "ColorBlock": 337,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "accusamus",
+    "FullName": "Asa Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 398
       }
     }
   }

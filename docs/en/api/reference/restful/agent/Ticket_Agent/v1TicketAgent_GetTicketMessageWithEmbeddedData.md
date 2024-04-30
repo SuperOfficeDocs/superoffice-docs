@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
+  "Id": 23,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 864,
+  "EjMessageId": 275,
   "Ticket": null,
-  "CreatedAt": "2023-04-25T11:44:34.9000492+02:00",
+  "CreatedAt": "2011-07-20T11:16:09.9917738+02:00",
   "CreatedBy": null,
-  "Author": "tenetur",
+  "Author": "perspiciatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 682,
-  "Body": "quia",
-  "HtmlBody": "totam",
-  "EmailHeader": "pete@kub.co.uk",
-  "DebugInfo": "eius",
-  "MailSorter": "qui",
+  "MessageId": "nihil",
+  "TimeSpent": 912,
+  "Body": "eum",
+  "HtmlBody": "cum",
+  "EmailHeader": "yasmin_beier@shieldswillms.info",
+  "DebugInfo": "fugiat",
+  "MailSorter": "veritatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "explicabo",
+  "SearchTitle": "possimus",
   "MessageHeaders": [
     {
-      "Id": 818,
-      "Name": "Cruickshank, Schroeder and Heller",
-      "Value": "excepturi",
+      "Id": 930,
+      "Name": "Runolfsson LLC",
+      "Value": "cum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -146,50 +146,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 734
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "similique",
-  "Sentiment": 763,
-  "SentimentConfidence": 45,
+  "Important": true,
+  "Language": "impedit",
+  "Sentiment": 772,
+  "SentimentConfidence": 543,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 582,
-      "Name": "Towne-Kshlerin",
-      "ContentType": "molestiae",
-      "AttSize": 230,
+      "AttachmentId": 239,
+      "Name": "Huel Inc and Sons",
+      "ContentType": "dolorum",
+      "AttSize": 570,
       "InlineImage": false,
-      "ContentId": "veritatis",
-      "AuthKey": "asperiores",
-      "IsSafeFileExtension": true,
+      "ContentId": "voluptatem",
+      "AuthKey": "nihil",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 953
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Moen LLC",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 24,
+    "HeadingId": 876,
+    "Name": "Funk-Douglas",
+    "Tooltip": "nobis",
+    "Deleted": false,
+    "Rank": 397,
+    "UdListDefinitionId": 182,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 108
+        "FieldType": "System.Int32",
+        "FieldLength": 305
       }
     }
   }

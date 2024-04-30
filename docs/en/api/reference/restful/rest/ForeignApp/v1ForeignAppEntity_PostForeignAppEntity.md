@@ -92,23 +92,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 893,
-  "Name": "Gulgowski-Durgan",
-  "CreatedDate": "2003-08-05T11:44:41.9921474+02:00",
-  "UpdatedDate": "2005-10-07T11:44:41.9921474+02:00",
+  "ForeignAppId": 890,
+  "Name": "Glover, Marquardt and Schamberger",
+  "CreatedDate": "2017-09-09T11:16:13.9175899+02:00",
+  "UpdatedDate": "2012-12-21T11:16:13.9175899+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 972,
-      "Name": "Murphy Inc and Sons",
-      "CreatedDate": "2003-08-23T11:44:41.9921474+02:00",
-      "UpdatedDate": "2007-12-18T11:44:41.9921474+01:00",
-      "AssociateFullName": "Kristian Jacobson",
-      "CreatedBy": "deleniti",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 470
+      "ForeignDeviceId": 157,
+      "Name": "Nitzsche LLC",
+      "CreatedDate": "1999-07-09T11:16:13.9175899+02:00",
+      "UpdatedDate": "2004-10-27T11:16:13.9175899+02:00",
+      "AssociateFullName": "Rex Hahn",
+      "CreatedBy": "nemo",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "illum",
+      "ForeignAppId": 429
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 660,
-  "Name": "O'Hara, Weissnat and Leannon",
-  "CreatedDate": "2014-04-12T11:44:41.9921474+02:00",
-  "UpdatedDate": "2001-12-26T11:44:41.9921474+01:00",
+  "ForeignAppId": 14,
+  "Name": "Kihn LLC",
+  "CreatedDate": "2015-07-26T11:16:13.9175899+02:00",
+  "UpdatedDate": "2014-07-08T11:16:13.9175899+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 52,
-      "Name": "Little Group",
-      "CreatedDate": "2006-03-28T11:44:41.9921474+02:00",
-      "UpdatedDate": "1998-06-07T11:44:41.9921474+02:00",
-      "AssociateFullName": "Miss Sarai Kihn",
-      "CreatedBy": "ut",
-      "UpdatedBy": "repellendus",
-      "DeviceIdentifier": "vero",
-      "ForeignAppId": 941,
+      "ForeignDeviceId": 925,
+      "Name": "Howe, Sauer and Swift",
+      "CreatedDate": "2016-10-12T11:16:13.9175899+02:00",
+      "UpdatedDate": "2019-07-15T11:16:13.9175899+02:00",
+      "AssociateFullName": "Kaleb Hand",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "debitis",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 934,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 301
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 519
     }
   },
   "_Links": {

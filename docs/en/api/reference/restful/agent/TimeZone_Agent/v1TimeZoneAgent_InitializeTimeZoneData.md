@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 76,
-    "Name": "Leannon-Miller",
-    "TZLocationCode": "et",
-    "TZLocationCities": "quia",
-    "IsoNumber": 314,
+    "TZLocationID": 761,
+    "Name": "Corkery, Bogan and Gutmann",
+    "TZLocationCode": "impedit",
+    "TZLocationCities": "beatae",
+    "IsoNumber": 14,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 461,
-        "StartMonth": 517,
-        "EndDay": 266,
-        "EndMonth": 229,
-        "TZOffset": 664,
-        "StartRulePattern": "et",
-        "EndRulePattern": "velit"
+        "StartDay": 979,
+        "StartMonth": 636,
+        "EndDay": 407,
+        "EndMonth": 207,
+        "TZOffset": 570,
+        "StartRulePattern": "ab",
+        "EndRulePattern": "soluta"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 634,
-        "StartMonth": 23,
-        "EndDay": 216,
-        "EndMonth": 674,
-        "TZOffset": 743,
-        "StartRulePattern": "nam",
-        "EndRulePattern": "et"
+        "StartDay": 561,
+        "StartMonth": 619,
+        "EndDay": 21,
+        "EndMonth": 53,
+        "TZOffset": 513,
+        "StartRulePattern": "ex",
+        "EndRulePattern": "voluptatem"
       }
     }
   }

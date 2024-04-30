@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 545,
-  "AttachmentId": "voluptas"
+  "DocId": 466,
+  "AttachmentId": "quis"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots background help-desk",
-  "Filename": "dolor",
-  "Size": 249,
-  "Type": "voluptatem",
-  "Encoding": "aspernatur",
-  "Id": "odio",
-  "Disposition": "unde",
-  "IsSafeFileExtension": true,
+  "Description": "Configurable web-enabled firmware",
+  "Filename": "dolorem",
+  "Size": 924,
+  "Type": "et",
+  "Encoding": "eaque",
+  "Id": "dolorem",
+  "Disposition": "porro",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

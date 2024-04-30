@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 753,
-    "Name": "Haag Group",
-    "Tooltip": "officiis",
+    "HeadingId": 889,
+    "Name": "Windler, Schoen and Bogisich",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 942,
-    "UdListDefinitionId": 387,
+    "Rank": 188,
+    "UdListDefinitionId": 550,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 946
       }
     }
   }

@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 951,
-  "ERPProductKey": "illo",
-  "ERPPriceListKey": "sint",
-  "Name": "Corkery-Lemke",
-  "Description": "Triple-buffered dedicated framework",
-  "Code": "unde",
-  "PriceUnit": "est",
-  "QuantityUnit": "molestias",
+  "ProductId": 462,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "quod",
+  "Name": "Schaden LLC",
+  "Description": "Advanced high-level standardization",
+  "Code": "id",
+  "PriceUnit": "consequatur",
+  "QuantityUnit": "laborum",
   "IsSubscription": false,
-  "SubscriptionUnit": "hic",
-  "DefaultSubscriptionQuantity": 11473.574,
-  "ItemNumber": "1178588",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 17390.566,
+  "ItemNumber": "804350",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "explicabo",
-  "ProductTypeKey": "quia",
-  "VAT": 11219.72,
-  "VATInfo": "rerum",
-  "UnitCost": 12733.442,
-  "UnitMinimumPrice": 26165.766,
-  "UnitListPrice": 24836.95,
-  "InAssortment": true,
-  "Supplier": "fuga",
-  "SupplierCode": "laboriosam",
-  "Rights": "et",
-  "Rule": "non",
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 12482.722,
+  "VATInfo": "provident",
+  "UnitCost": 12137.982,
+  "UnitMinimumPrice": 8781.4679999999989,
+  "UnitListPrice": 23103.847999999998,
+  "InAssortment": false,
+  "Supplier": "inventore",
+  "SupplierCode": "reiciendis",
+  "Rights": "repellendus",
+  "Rule": "nisi",
   "ExtraInfo": [
     {
-      "Name": "Brown-Roberts",
-      "Value": "doloribus",
+      "Name": "Stamm-Boyer",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 974
         }
       }
     },
     {
-      "Name": "Brown-Roberts",
-      "Value": "doloribus",
+      "Name": "Stamm-Boyer",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 974
         }
       }
     }
   ],
-  "RawExtraInfo": "reprehenderit",
-  "ExtraField1": "quas",
-  "ExtraField2": "culpa",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "quia",
-  "ExtraField5": "nam",
-  "InStock": 3995.85,
+  "RawExtraInfo": "tempore",
+  "ExtraField1": "minus",
+  "ExtraField2": "nam",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "et",
+  "ExtraField5": "cumque",
+  "InStock": 7863.206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 723
     }
   }
 }

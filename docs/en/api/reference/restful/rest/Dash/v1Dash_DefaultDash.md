@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 553,
-  "UniqueId": "sed",
-  "Name": "White-Stamm",
-  "Description": "Compatible analyzing internet solution",
-  "AssociateId": 81,
-  "Columns": 11,
+  "DashboardId": 522,
+  "UniqueId": "est",
+  "Name": "Reynolds Group",
+  "Description": "Robust human-resource extranet",
+  "AssociateId": 950,
+  "Columns": 46,
   "Theme": null,
-  "VisibleForAll": 905,
+  "VisibleForAll": 734,
   "VisibleForAssociates": [
-    347,
-    483
+    670,
+    749
   ],
   "VisibleForGroups": [
-    508,
-    899
+    629,
+    184
   ],
-  "PinForAll": 238,
+  "PinForAll": 98,
   "PinForAssociates": [
-    275,
-    359
+    903,
+    575
   ],
   "PinForGroups": [
-    128,
-    895
+    505,
+    363
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   }
 }

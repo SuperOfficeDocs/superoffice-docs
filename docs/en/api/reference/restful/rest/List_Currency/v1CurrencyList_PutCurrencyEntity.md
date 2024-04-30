@@ -86,13 +86,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 499,
-  "Name": "Jakubowski, Altenwerth and Feest",
-  "Tooltip": "aut",
-  "Rank": 814,
-  "Rate": 18067.51,
-  "Units": 13353.974,
-  "Deleted": true
+  "CurrencyId": 563,
+  "Name": "Larkin LLC",
+  "Tooltip": "qui",
+  "Rank": 798,
+  "Rate": 15811.029999999999,
+  "Units": 9828.224,
+  "Deleted": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 608,
-  "Name": "Roberts Inc and Sons",
-  "Tooltip": "odio",
-  "Rank": 777,
-  "Rate": 294.596,
-  "Units": 21709.218,
+  "CurrencyId": 956,
+  "Name": "Mertz-Greenholt",
+  "Tooltip": "incidunt",
+  "Rank": 415,
+  "Rate": 19017.112,
+  "Units": 12943.42,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 409
     }
   }
 }

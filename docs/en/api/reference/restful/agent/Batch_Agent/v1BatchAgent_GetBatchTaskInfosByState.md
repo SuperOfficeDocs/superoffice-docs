@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Strosin Inc and Sons",
-    "AssociateId": 842,
-    "DetailsTable": 750,
-    "DetailsRecord": 627,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 478,
+    "Name": "Koch, Cummerata and Bednar",
+    "AssociateId": 168,
+    "DetailsTable": 795,
+    "DetailsRecord": 248,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "saepe",
-      "ParameterObject2": "doloribus"
+      "ParameterObject1": "quaerat",
+      "ParameterObject2": "sed"
     },
-    "LastStarted": "2008-06-11T11:44:32.822391+02:00",
-    "Created": "2005-07-07T11:44:32.822391+02:00",
-    "StartCount": 473,
-    "DatabaseSerialNumber": "778476",
-    "Context": "delectus",
-    "Result": "quidem",
+    "LastStarted": "2007-01-13T11:16:08.7410229+01:00",
+    "Created": "2003-01-29T11:16:08.7410229+01:00",
+    "StartCount": 843,
+    "DatabaseSerialNumber": "1383774",
+    "Context": "nam",
+    "Result": "est",
     "State": "All",
-    "Description": "Multi-tiered even-keeled approach",
-    "Response": "voluptatem",
-    "Request": "doloribus",
-    "ProgressDescription": "Synchronised systematic encryption",
-    "ProgressPercent": 507,
-    "FileName": "Sporer-Murphy",
+    "Description": "Robust multi-tasking infrastructure",
+    "Response": "nihil",
+    "Request": "accusantium",
+    "ProgressDescription": "Integrated hybrid approach",
+    "ProgressPercent": 835,
+    "FileName": "Skiles-Gutkowski",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldLength": 259
       }
     }
   }

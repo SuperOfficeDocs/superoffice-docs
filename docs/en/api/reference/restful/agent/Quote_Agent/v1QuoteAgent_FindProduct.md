@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 503,
-  "UserInput": "enim",
-  "PriceListKey": "doloremque"
+  "QuoteAlternativeId": 971,
+  "UserInput": "provident",
+  "PriceListKey": "quo"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 386,
-    "ERPProductKey": "aut",
-    "ERPPriceListKey": "atque",
-    "Name": "Schaden-Stroman",
-    "Description": "Sharable methodical challenge",
-    "Code": "sit",
-    "PriceUnit": "natus",
-    "QuantityUnit": "vel",
-    "IsSubscription": true,
-    "SubscriptionUnit": "ea",
-    "DefaultSubscriptionQuantity": 8618.5,
-    "ItemNumber": "271427",
+    "ProductId": 538,
+    "ERPProductKey": "ut",
+    "ERPPriceListKey": "enim",
+    "Name": "Runolfsson Inc and Sons",
+    "Description": "User-centric needs-based strategy",
+    "Code": "cum",
+    "PriceUnit": "porro",
+    "QuantityUnit": "neque",
+    "IsSubscription": false,
+    "SubscriptionUnit": "eveniet",
+    "DefaultSubscriptionQuantity": 28566.41,
+    "ItemNumber": "1065941",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "soluta",
-    "ProductTypeKey": "animi",
-    "VAT": 12934.018,
-    "VATInfo": "deleniti",
-    "UnitCost": 18753.856,
-    "UnitMinimumPrice": 13325.768,
-    "UnitListPrice": 10455.024,
+    "ProductFamilyKey": "ratione",
+    "ProductTypeKey": "odit",
+    "VAT": 9141.8779999999988,
+    "VATInfo": "exercitationem",
+    "UnitCost": 20696.935999999998,
+    "UnitMinimumPrice": 1081.23,
+    "UnitListPrice": 6126.9699999999993,
     "InAssortment": false,
-    "Supplier": "odio",
-    "SupplierCode": "aliquam",
-    "Rights": "aut",
-    "Rule": "voluptatem",
+    "Supplier": "debitis",
+    "SupplierCode": "error",
+    "Rights": "quae",
+    "Rule": "nesciunt",
     "ExtraInfo": [
       {
-        "Name": "Feil, Gaylord and Dickens",
-        "Value": "consequatur",
+        "Name": "Stokes-Rolfson",
+        "Value": "dolor",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldType": "System.String",
+            "FieldLength": 679
           }
         }
       },
       {
-        "Name": "Feil, Gaylord and Dickens",
-        "Value": "consequatur",
+        "Name": "Stokes-Rolfson",
+        "Value": "dolor",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldType": "System.String",
+            "FieldLength": 679
           }
         }
       }
     ],
-    "RawExtraInfo": "id",
-    "ExtraField1": "enim",
-    "ExtraField2": "itaque",
-    "ExtraField3": "consectetur",
-    "ExtraField4": "architecto",
-    "ExtraField5": "ex",
-    "InStock": 29177.539999999997,
+    "RawExtraInfo": "delectus",
+    "ExtraField1": "et",
+    "ExtraField2": "suscipit",
+    "ExtraField3": "veritatis",
+    "ExtraField4": "ad",
+    "ExtraField5": "dolorem",
+    "InStock": 2482.1279999999997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldLength": 856
       }
     }
   }

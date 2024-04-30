@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blanda, Wiegand and Dickinson"
+  "ApplicationName": "Hoppe LLC"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "odit",
-    "Value": "nemo",
-    "RecordId": 612,
-    "CreatedDate": "2022-04-13T11:44:33.7753083+02:00",
-    "UpdatedDate": "2019-11-29T11:44:33.7753083+01:00",
-    "UpdatedBy": "ipsum",
-    "CreatedBy": "quas",
-    "TableName": "Wilderman-Cruickshank",
+    "Key": "provident",
+    "Value": "quia",
+    "RecordId": 873,
+    "CreatedDate": "2000-01-06T11:16:09.2878404+01:00",
+    "UpdatedDate": "2017-11-22T11:16:09.2878404+01:00",
+    "UpdatedBy": "quas",
+    "CreatedBy": "qui",
+    "TableName": "O'Hara-Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 316
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

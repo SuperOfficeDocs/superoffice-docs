@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    12,
-    97
+    843,
+    276
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 832,
+  "EjMessageId": 743,
   "Ticket": null,
-  "CreatedAt": "2007-05-14T11:44:34.9000492+02:00",
+  "CreatedAt": "2008-07-14T11:16:09.9917738+02:00",
   "CreatedBy": null,
-  "Author": "repellendus",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "accusantium",
-  "TimeSpent": 890,
-  "Body": "sint",
-  "HtmlBody": "beatae",
-  "EmailHeader": "lizzie.greenfelder@gerhold.us",
-  "DebugInfo": "ut",
-  "MailSorter": "animi",
+  "MessageId": "est",
+  "TimeSpent": 905,
+  "Body": "ipsum",
+  "HtmlBody": "doloribus",
+  "EmailHeader": "davon@durgan.info",
+  "DebugInfo": "dolores",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "cupiditate",
+  "SearchTitle": "repellendus",
   "MessageHeaders": [
     {
-      "Id": 779,
-      "Name": "Schinner, Haag and Toy",
-      "Value": "magni",
+      "Id": 704,
+      "Name": "Kunze-Kassulke",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 132
         }
       }
     }
   ],
   "Important": true,
-  "Language": "magni",
-  "Sentiment": 219,
-  "SentimentConfidence": 754,
+  "Language": "incidunt",
+  "Sentiment": 281,
+  "SentimentConfidence": 926,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 209,
-      "Name": "Jacobi, Rowe and Cartwright",
-      "ContentType": "omnis",
-      "AttSize": 788,
-      "InlineImage": false,
-      "ContentId": "harum",
-      "AuthKey": "consequatur",
+      "AttachmentId": 479,
+      "Name": "Grimes LLC",
+      "ContentType": "placeat",
+      "AttSize": 752,
+      "InlineImage": true,
+      "ContentId": "magnam",
+      "AuthKey": "eaque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldType": "System.String",
+          "FieldLength": 908
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "id",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   }
 }

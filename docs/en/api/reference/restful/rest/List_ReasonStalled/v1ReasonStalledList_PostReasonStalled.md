@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Jaskolski Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 302,
+  "Name": "Ondricka Group",
+  "Tooltip": "laborum",
   "Deleted": true,
-  "UdListDefinitionId": 345,
-  "Rank": 250
+  "UdListDefinitionId": 665,
+  "Rank": 163
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 768,
-  "Name": "Russel-Legros",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "UdListDefinitionId": 892,
-  "Rank": 174,
+  "Id": 280,
+  "Name": "Parker, Rempel and Kutch",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 492,
+  "Rank": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   }
 }

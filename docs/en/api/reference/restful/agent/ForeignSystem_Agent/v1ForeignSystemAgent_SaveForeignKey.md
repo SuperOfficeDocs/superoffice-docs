@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Moore, Bartoletti and Stiedemann",
-  "DeviceName": "Ratke, Spencer and Greenholt",
-  "DeviceIdentifier": "aut"
+  "ApplicationName": "Lockman Group",
+  "DeviceName": "Pfannerstill-Reilly",
+  "DeviceIdentifier": "quo"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatum",
-  "Value": "necessitatibus",
-  "RecordId": 704,
-  "CreatedDate": "2009-05-16T11:44:33.7753083+02:00",
-  "UpdatedDate": "2012-10-20T11:44:33.7753083+02:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "officiis",
-  "TableName": "Mann-Bernier",
+  "Key": "et",
+  "Value": "architecto",
+  "RecordId": 299,
+  "CreatedDate": "2014-08-15T11:16:09.2878404+02:00",
+  "UpdatedDate": "2012-01-10T11:16:09.2878404+01:00",
+  "UpdatedBy": "delectus",
+  "CreatedBy": "corporis",
+  "TableName": "Keeling-Prohaska",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 614
     }
   }
 }

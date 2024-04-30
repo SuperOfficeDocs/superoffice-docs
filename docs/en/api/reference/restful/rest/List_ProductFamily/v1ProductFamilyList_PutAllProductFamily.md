@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Wilkinson Group",
-    "Tooltip": "non",
+    "Id": 726,
+    "Name": "Volkman-Huels",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 428
+    "UdListDefinitionId": 409,
+    "Rank": 750
   },
   {
-    "Id": 208,
-    "Name": "Wilkinson Group",
-    "Tooltip": "non",
+    "Id": 726,
+    "Name": "Volkman-Huels",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 428
+    "UdListDefinitionId": 409,
+    "Rank": 750
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Daugherty-Hagenes",
-    "Tooltip": "veritatis",
+    "Id": 993,
+    "Name": "Balistreri-Leuschke",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 400,
-    "Rank": 464,
+    "UdListDefinitionId": 24,
+    "Rank": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldType": "System.String",
+        "FieldLength": 579
       }
     }
   }

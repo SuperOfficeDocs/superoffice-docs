@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 684,
-  "SelectionId": 431,
-  "Restrictions": "quia"
+  "DashboardTileId": 485,
+  "SelectionId": 563,
+  "Restrictions": "et"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kihn-Morissette",
-        "DisplayTooltip": "et",
-        "DisplayType": "esse",
+        "DisplayName": "Kuphal Inc and Sons",
+        "DisplayTooltip": "facere",
+        "DisplayType": "consequatur",
         "CanOrderBy": false,
-        "Name": "Hickle LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "iure",
-        "RestrictionListName": "Graham Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "minima",
-        "Width": "maiores",
-        "IconHint": "pariatur",
-        "HeadingIconHint": "consequuntur"
+        "Name": "Jakubowski-Terry",
+        "CanRestrictBy": false,
+        "RestrictionType": "possimus",
+        "RestrictionListName": "Marquardt Group",
+        "IsVisible": false,
+        "ExtraInfo": "ut",
+        "Width": "quos",
+        "IconHint": "dicta",
+        "HeadingIconHint": "ducimus"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kihn-Morissette",
-        "DisplayTooltip": "et",
-        "DisplayType": "esse",
+        "DisplayName": "Kuphal Inc and Sons",
+        "DisplayTooltip": "facere",
+        "DisplayType": "consequatur",
         "CanOrderBy": false,
-        "Name": "Hickle LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "iure",
-        "RestrictionListName": "Graham Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "minima",
-        "Width": "maiores",
-        "IconHint": "pariatur",
-        "HeadingIconHint": "consequuntur"
+        "Name": "Jakubowski-Terry",
+        "CanRestrictBy": false,
+        "RestrictionType": "possimus",
+        "RestrictionListName": "Marquardt Group",
+        "IsVisible": false,
+        "ExtraInfo": "ut",
+        "Width": "quos",
+        "IconHint": "dicta",
+        "HeadingIconHint": "ducimus"
       }
     ],
     "Result": null

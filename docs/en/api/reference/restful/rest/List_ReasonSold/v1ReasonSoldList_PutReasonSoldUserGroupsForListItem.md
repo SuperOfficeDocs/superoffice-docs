@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Hilpert, Stark and Hettinger",
-    "ToolTip": "Harum et molestiae.",
+    "Id": 123,
+    "Name": "Leuschke Inc and Sons",
+    "ToolTip": "Sint rerum eaque et.",
     "Deleted": false,
-    "Rank": 213,
-    "Type": "fuga",
-    "ColorBlock": 25,
-    "IconHint": "voluptatum",
+    "Rank": 604,
+    "Type": "non",
+    "ColorBlock": 283,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2015-01-07T11:44:43.3043478+01:00",
+    "LastChanged": "2001-08-27T11:16:14.7151586+02:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Muller Inc and Sons",
-        "ToolTip": "Vel unde sint similique aliquam similique perspiciatis nesciunt.",
+        "Id": 813,
+        "Name": "Conroy, Kris and Flatley",
+        "ToolTip": "Sed optio qui eum nemo.",
         "Deleted": false,
-        "Rank": 657,
-        "Type": "debitis",
-        "ColorBlock": 971,
-        "IconHint": "quo",
+        "Rank": 422,
+        "Type": "odio",
+        "ColorBlock": 1000,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1997-04-02T11:44:43.3043478+02:00",
+        "LastChanged": "1997-12-04T11:16:14.7151586+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "vel",
+        "ExtraInfo": "molestias",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Miss Ayana Jasen Purdy II"
+        "FullName": "Judson Kuvalis MD"
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "porro",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Ressie Bauch"
+    "FullName": "Athena Kilback"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Hackett, Greenholt and Wisoky",
-    "ToolTip": "Inventore nobis et suscipit est quia id voluptatum.",
-    "Deleted": true,
-    "Rank": 614,
-    "Type": "numquam",
-    "ColorBlock": 517,
-    "IconHint": "et",
+    "Id": 905,
+    "Name": "Grady Inc and Sons",
+    "ToolTip": "Consectetur tempora esse voluptates blanditiis maiores minima.",
+    "Deleted": false,
+    "Rank": 67,
+    "Type": "praesentium",
+    "ColorBlock": 235,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2019-05-01T11:44:43.3043478+02:00",
+    "LastChanged": "2005-02-08T11:16:14.7151586+01:00",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Bartoletti, Larson and Torphy",
-        "ToolTip": "Autem quis doloremque praesentium.",
+        "Id": 261,
+        "Name": "Collier-Kilback",
+        "ToolTip": "Illo harum repudiandae et doloremque sint vel ad.",
         "Deleted": false,
-        "Rank": 36,
+        "Rank": 182,
         "Type": "voluptas",
-        "ColorBlock": 550,
-        "IconHint": "reiciendis",
+        "ColorBlock": 617,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2015-11-04T11:44:43.3043478+01:00",
+        "LastChanged": "2018-06-17T11:16:14.7151586+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "et",
+        "ExtraInfo": "esse",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Josie Kub",
+        "FullName": "Makenna Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quia",
+    "ExtraInfo": "eos",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Lilyan Thompson",
+    "FullName": "Dr. Luz Herzog V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 6
       }
     }
   }

@@ -1111,7 +1111,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=originalStage,person/personBusiness,person/personDirectPhone/description,person/personExtra/y_rental/y_equipment/x_name,contact/contactFax/description
+GET /api/v1/archive/Sale?$select=person/personAddress/state,person/restrictionAddress/formattedMultiLineAddress,person/correspondingAssociate/ejDisplayName,person/correspondingAssociate/credentialDisplayValue,contact/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

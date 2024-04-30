@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 975,
-  "Currency": "est"
+  "QuoteConnectionId": 604,
+  "Currency": "ad"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 282,
-    "ERPPriceListKey": "reprehenderit",
-    "QuoteConnectionId": 345,
-    "Name": "Parker Group",
-    "Description": "Focused regional info-mediaries",
-    "Currency": "sed",
-    "CurrencyName": "Weissnat, Lueilwitz and Howell",
-    "ValidFrom": "2010-09-04T11:44:34.2907996+02:00",
-    "ValidTo": "2016-06-25T11:44:34.2907996+02:00",
+    "PriceListId": 167,
+    "ERPPriceListKey": "accusamus",
+    "QuoteConnectionId": 264,
+    "Name": "Vandervort-Kovacek",
+    "Description": "Multi-tiered disintermediate artificial intelligence",
+    "Currency": "saepe",
+    "CurrencyName": "Parker-Hirthe",
+    "ValidFrom": "2021-05-10T11:16:09.6161411+02:00",
+    "ValidTo": "2001-07-30T11:16:09.6161411+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldLength": 451
       }
     }
   }

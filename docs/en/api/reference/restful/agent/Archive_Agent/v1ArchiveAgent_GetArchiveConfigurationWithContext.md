@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sawayn-Anderson",
-  "ProviderName": "Kuhn-Baumbach",
-  "Context": "commodi"
+  "GuiName": "Kemmer Inc and Sons",
+  "ProviderName": "Koepp LLC",
+  "Context": "architecto"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gleason, Corkery and Wilkinson",
+      "DisplayName": "McCullough-Ryan",
       "DisplayTooltip": "qui",
-      "DisplayType": "ducimus",
-      "CanOrderBy": true,
-      "Name": "Kuvalis-Fay",
-      "CanRestrictBy": false,
-      "RestrictionType": "sed",
-      "RestrictionListName": "Hagenes Group",
+      "DisplayType": "soluta",
+      "CanOrderBy": false,
+      "Name": "Hartmann Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "optio",
+      "RestrictionListName": "Beer, Hintz and Gutmann",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "necessitatibus",
-      "IconHint": "cumque",
-      "HeadingIconHint": "officia"
+      "ExtraInfo": "quia",
+      "Width": "labore",
+      "IconHint": "quasi",
+      "HeadingIconHint": "quam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 863,
-      "Name": "Lesch Group",
-      "ToolTip": "Eum quos architecto fuga hic.",
-      "Deleted": false,
-      "Rank": 432,
-      "Type": "iste",
-      "ColorBlock": 991,
-      "IconHint": "provident",
-      "Selected": true,
-      "LastChanged": "2014-07-08T11:44:32.7755279+02:00",
+      "Id": 377,
+      "Name": "Rogahn, Ruecker and Brekke",
+      "ToolTip": "Repellendus aut eum sunt quis.",
+      "Deleted": true,
+      "Rank": 777,
+      "Type": "dicta",
+      "ColorBlock": 34,
+      "IconHint": "perspiciatis",
+      "Selected": false,
+      "LastChanged": "1997-09-01T11:16:08.7097813+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "deleniti",
-      "Hidden": false,
-      "FullName": "Alessandra Jast",
+      "ExtraInfo": "dolores",
+      "StyleHint": "accusantium",
+      "Hidden": true,
+      "FullName": "Dr. Linwood Stiedemann PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 271
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hermiston-Gaylord",
+      "Name": "Skiles, Wuckert and Torp",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermiston-Gaylord",
+      "Name": "Skiles, Wuckert and Torp",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ullam",
+  "OwnerKeys": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

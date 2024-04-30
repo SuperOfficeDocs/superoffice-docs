@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 137,
-  "NumDocumentsAlreadyMigrated": 321,
+  "NumDocumentsOmitted": 309,
+  "NumDocumentsAlreadyMigrated": 950,
   "Documents": [
     {
-      "DocumentId": 755,
-      "ContactId": 741,
-      "PersonId": 292,
-      "SaleId": 792,
-      "ProjectId": 989,
-      "DocTmplId": 785,
-      "AssociateId": 101,
-      "UserGroupId": 831,
-      "VisibleForId": 825
+      "DocumentId": 29,
+      "ContactId": 899,
+      "PersonId": 987,
+      "SaleId": 958,
+      "ProjectId": 581,
+      "DocTmplId": 376,
+      "AssociateId": 505,
+      "UserGroupId": 457,
+      "VisibleForId": 101
     }
   ],
   "Associates": [
     {
-      "AssociateId": 883,
-      "EmailAddress": "candelario.hahn@hermanntrantow.info"
+      "AssociateId": 574,
+      "EmailAddress": "clovis@hauckweber.uk"
     },
     {
-      "AssociateId": 883,
-      "EmailAddress": "candelario.hahn@hermanntrantow.info"
+      "AssociateId": 574,
+      "EmailAddress": "clovis@hauckweber.uk"
     }
   ]
 }

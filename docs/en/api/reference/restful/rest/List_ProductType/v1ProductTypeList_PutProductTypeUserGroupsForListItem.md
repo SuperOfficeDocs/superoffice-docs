@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Romaguera LLC",
-    "ToolTip": "Qui voluptatem dignissimos magnam quos dolorem.",
-    "Deleted": true,
-    "Rank": 831,
-    "Type": "quisquam",
-    "ColorBlock": 395,
-    "IconHint": "a",
+    "Id": 631,
+    "Name": "Bechtelar Inc and Sons",
+    "ToolTip": "Ut architecto eveniet.",
+    "Deleted": false,
+    "Rank": 37,
+    "Type": "ex",
+    "ColorBlock": 609,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2020-12-30T11:44:43.2106158+01:00",
+    "LastChanged": "2008-08-04T11:16:14.6526601+02:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Feil, Beatty and Padberg",
-        "ToolTip": "Illum accusamus sit non repellendus.",
-        "Deleted": true,
-        "Rank": 616,
-        "Type": "modi",
-        "ColorBlock": 586,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2022-01-27T11:44:43.2106158+01:00",
+        "Id": 353,
+        "Name": "Mayer, Sporer and Weimann",
+        "ToolTip": "Aut velit eum eius quas repellat incidunt sunt.",
+        "Deleted": false,
+        "Rank": 968,
+        "Type": "tenetur",
+        "ColorBlock": 153,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2020-11-17T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "aut",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Charlie Fadel"
+        "FullName": "Abagail Keebler"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Savanna Hickle"
+    "FullName": "Floyd Daugherty"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Torp-Ruecker",
-    "ToolTip": "Vel ut tempore eaque officiis et vel sequi.",
+    "Id": 353,
+    "Name": "Stiedemann LLC",
+    "ToolTip": "Pariatur sed illum unde ratione ullam ut.",
     "Deleted": true,
-    "Rank": 503,
-    "Type": "rem",
-    "ColorBlock": 603,
-    "IconHint": "aut",
+    "Rank": 642,
+    "Type": "porro",
+    "ColorBlock": 36,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2021-09-04T11:44:43.2106158+02:00",
+    "LastChanged": "1999-06-24T11:16:14.6526601+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Kub LLC",
-        "ToolTip": "Maiores eius libero quod.",
+        "Id": 738,
+        "Name": "Schumm-Schuster",
+        "ToolTip": "Quaerat debitis et quaerat labore rerum eos.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "reprehenderit",
-        "ColorBlock": 274,
-        "IconHint": "error",
+        "Rank": 941,
+        "Type": "omnis",
+        "ColorBlock": 932,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2021-01-31T11:44:43.2106158+01:00",
+        "LastChanged": "2001-06-04T11:16:14.6526601+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Hanna Kuvalis",
+        "ExtraInfo": "quis",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Lorenzo Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldType": "System.String",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Blanche Ledner",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Miss D'angelo Sheridan Franecki II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

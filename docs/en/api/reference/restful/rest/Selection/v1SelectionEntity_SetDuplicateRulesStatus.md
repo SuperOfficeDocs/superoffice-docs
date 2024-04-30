@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell, Strosin and Mills",
-    "DisplayName": "Conroy, Stracke and Upton",
-    "DisplayTooltip": "enim",
+    "Name": "Koepp, Wisozk and Bartoletti",
+    "DisplayName": "Harber Inc and Sons",
+    "DisplayTooltip": "ab",
     "IsActive": false
   },
   {
-    "Name": "Mitchell, Strosin and Mills",
-    "DisplayName": "Conroy, Stracke and Upton",
-    "DisplayTooltip": "enim",
+    "Name": "Koepp, Wisozk and Bartoletti",
+    "DisplayName": "Harber Inc and Sons",
+    "DisplayTooltip": "ab",
     "IsActive": false
   }
 ]

@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Greenholt-Walsh",
-    "Trantow-Padberg"
+    "Flatley LLC",
+    "Dibbert, Yost and Heaney"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nihil"
+"asperiores"
 ```

@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 968,
-  "UniqueId": "ipsum",
-  "Name": "Aufderhar, Herman and Rice",
-  "Description": "Sharable motivating matrices",
-  "AssociateId": 702,
-  "Columns": 190,
+  "DashboardId": 884,
+  "UniqueId": "perspiciatis",
+  "Name": "Casper-Gleichner",
+  "Description": "User-friendly 6th generation neural-net",
+  "AssociateId": 241,
+  "Columns": 459,
   "Theme": null,
-  "VisibleForAll": 69,
+  "VisibleForAll": 574,
   "VisibleForAssociates": [
-    624,
-    408
+    581,
+    207
   ],
   "VisibleForGroups": [
-    225,
-    50
+    867,
+    30
   ],
-  "PinForAll": 480,
+  "PinForAll": 130,
   "PinForAssociates": [
-    696,
-    765
+    61,
+    476
   ],
   "PinForGroups": [
-    215,
-    568
+    170,
+    811
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 803,
-  "UniqueId": "et",
-  "Name": "Wilkinson-Schiller",
-  "Description": "Intuitive coherent paradigm",
-  "AssociateId": 56,
-  "Columns": 582,
+  "DashboardId": 383,
+  "UniqueId": "harum",
+  "Name": "Abbott Group",
+  "Description": "Open-source intermediate approach",
+  "AssociateId": 182,
+  "Columns": 530,
   "Theme": null,
-  "VisibleForAll": 413,
+  "VisibleForAll": 269,
   "VisibleForAssociates": [
-    837,
-    478
+    542,
+    86
   ],
   "VisibleForGroups": [
-    179,
-    963
+    854,
+    627
   ],
-  "PinForAll": 97,
+  "PinForAll": 279,
   "PinForAssociates": [
-    269,
-    370
+    566,
+    270
   ],
   "PinForGroups": [
-    805,
-    533
+    51,
+    104
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

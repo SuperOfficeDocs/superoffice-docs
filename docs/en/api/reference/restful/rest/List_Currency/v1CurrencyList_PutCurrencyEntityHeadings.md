@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 961,
-    "Name": "Kirlin-Breitenberg",
-    "Tooltip": "cum",
+    "HeadingId": 762,
+    "Name": "Torp, Halvorson and Schowalter",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 369,
-    "UdListDefinitionId": 258
+    "Rank": 719,
+    "UdListDefinitionId": 527
   },
   {
-    "HeadingId": 961,
-    "Name": "Kirlin-Breitenberg",
-    "Tooltip": "cum",
+    "HeadingId": 762,
+    "Name": "Torp, Halvorson and Schowalter",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 369,
-    "UdListDefinitionId": 258
+    "Rank": 719,
+    "UdListDefinitionId": 527
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 408,
-    "Name": "O'Hara Group",
-    "Tooltip": "quo",
+    "HeadingId": 853,
+    "Name": "Sipes, Labadie and Satterfield",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 725,
-    "UdListDefinitionId": 888,
+    "Rank": 256,
+    "UdListDefinitionId": 92,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 425
       }
     }
   }

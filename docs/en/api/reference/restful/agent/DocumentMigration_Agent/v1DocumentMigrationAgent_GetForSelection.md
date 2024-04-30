@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 489,
-  "SelectionId": 130,
+  "DocumentPluginId": 805,
+  "SelectionId": 873,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 904,
-  "NumDocumentsAlreadyMigrated": 431,
+  "NumDocumentsOmitted": 448,
+  "NumDocumentsAlreadyMigrated": 848,
   "Documents": [
     {
-      "DocumentId": 415,
-      "ContactId": 509,
-      "PersonId": 646,
-      "SaleId": 370,
-      "ProjectId": 127,
-      "DocTmplId": 466,
-      "AssociateId": 525,
-      "UserGroupId": 361,
-      "VisibleForId": 660
+      "DocumentId": 802,
+      "ContactId": 85,
+      "PersonId": 420,
+      "SaleId": 682,
+      "ProjectId": 301,
+      "DocTmplId": 837,
+      "AssociateId": 556,
+      "UserGroupId": 625,
+      "VisibleForId": 760
     }
   ],
   "Associates": [
     {
-      "AssociateId": 694,
-      "EmailAddress": "belle@kihn.uk"
+      "AssociateId": 371,
+      "EmailAddress": "laisha_daugherty@windlerhuels.info"
     },
     {
-      "AssociateId": 694,
-      "EmailAddress": "belle@kihn.uk"
+      "AssociateId": 371,
+      "EmailAddress": "laisha_daugherty@windlerhuels.info"
     }
   ]
 }

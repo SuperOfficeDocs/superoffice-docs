@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "et",
-      "ValueType": "blanditiis",
+      "DefaultShowInSelector": false,
+      "IsActive": true,
+      "Key": "aut",
+      "ValueType": "dolore",
       "Mandatory": false,
-      "EncodedDisplayName": "Padberg-Kohler",
-      "EncodedDisplayDescription": "Compatible modular challenge",
-      "IconHint": "vel",
+      "EncodedDisplayName": "Smith, Halvorson and Fritsch",
+      "EncodedDisplayDescription": "Compatible systemic functionalities",
+      "IconHint": "quaerat",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "quis",
-      "EncodedDataCaptionDescription": "Horizontal radical hub",
-      "CurrentOperationType": "officia",
+      "EncodedDataCaption": "sunt",
+      "EncodedDataCaptionDescription": "Triple-buffered interactive access",
+      "CurrentOperationType": "nam",
       "Values": [
-        "blanditiis",
-        "eum"
+        "odit",
+        "molestias"
       ],
       "DisplayValues": [
-        "quia",
-        "eos"
+        "alias",
+        "suscipit"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Lebsack-Hintz",
-  "Context": "alias",
-  "Ids": "et"
+  "TableName": "Leuschke Group",
+  "Context": "enim",
+  "Ids": "dolores"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-663
+756
 ```

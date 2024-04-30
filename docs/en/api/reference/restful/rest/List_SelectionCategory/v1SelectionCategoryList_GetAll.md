@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Luettgen-Barton",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "UdListDefinitionId": 288,
-    "Rank": 249,
+    "Id": 953,
+    "Name": "Strosin Group",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "UdListDefinitionId": 318,
+    "Rank": 307,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 281
       }
     }
   }

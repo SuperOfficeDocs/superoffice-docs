@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Kuhic LLC",
-    "Tooltip": "et",
+    "Id": 994,
+    "Name": "Koelpin-Murray",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 559,
-    "Rank": 1002,
+    "UdListDefinitionId": 962,
+    "Rank": 974,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Value": "dolorum",
-    "Tooltip": "adipisci",
+    "Id": 680,
+    "Value": "autem",
+    "Tooltip": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   },
   {
-    "Id": 494,
-    "Value": "dolorum",
-    "Tooltip": "adipisci",
+    "Id": 680,
+    "Value": "autem",
+    "Tooltip": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   }

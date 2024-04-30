@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 761,
-  "Name": "Lang-Gulgowski",
-  "Tooltip": "soluta",
+  "HeadingId": 757,
+  "Name": "Langosh Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 776
+  "Rank": 130,
+  "UdListDefinitionId": 68
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 926,
-  "Name": "Welch, Kutch and Welch",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 110,
-  "UdListDefinitionId": 185,
+  "HeadingId": 513,
+  "Name": "Wolff-Heaney",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 613,
+  "UdListDefinitionId": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

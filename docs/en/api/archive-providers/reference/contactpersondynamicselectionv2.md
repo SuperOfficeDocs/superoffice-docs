@@ -1182,7 +1182,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=restrictionAddress/line2,sale/amountWeighted,sale/associate/personId,document/updatedDate,personTargetRelation/fullName
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=restrictionAddress/city,document/associate/ejUserId,document/associate/userName,personExtra/x_person_date,personSourceRelation/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

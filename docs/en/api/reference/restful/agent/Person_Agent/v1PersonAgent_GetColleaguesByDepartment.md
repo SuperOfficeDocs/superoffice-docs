@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 586
+  "DepartmentId": 831
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "atque",
-    "PersonId": 507,
-    "Mrmrs": "delectus",
-    "Firstname": "Henderson",
-    "Lastname": "Morar",
-    "MiddleName": "Mayer, Okuneva and Bins",
-    "Title": "totam",
-    "Description": "Horizontal tertiary installation",
-    "Email": "miller@flatley.us",
-    "FullName": "Eleazar Dickinson",
-    "DirectPhone": "(582)650-3940",
-    "FormalName": "Witting, Auer and Bins",
-    "CountryId": 592,
-    "ContactId": 456,
-    "ContactName": "Gleason-Hermiston",
-    "Retired": 690,
-    "Rank": 607,
-    "ActiveInterests": 50,
+    "Position": "odit",
+    "PersonId": 309,
+    "Mrmrs": "fugit",
+    "Firstname": "Okey",
+    "Lastname": "McGlynn",
+    "MiddleName": "Torp, Senger and Von",
+    "Title": "aut",
+    "Description": "Ergonomic radical neural-net",
+    "Email": "jerad_thiel@dickinson.us",
+    "FullName": "Tyrique Shields",
+    "DirectPhone": "1-563-199-2714",
+    "FormalName": "Kshlerin LLC",
+    "CountryId": 195,
+    "ContactId": 705,
+    "ContactName": "Kulas-Anderson",
+    "Retired": 257,
+    "Rank": 105,
+    "ActiveInterests": 829,
     "ContactDepartment": "",
-    "ContactCountryId": 642,
-    "ContactOrgNr": "982971",
-    "FaxPhone": "1-471-567-6495",
-    "MobilePhone": "648.126.3647",
-    "ContactPhone": "(429)517-4671 x0052",
-    "AssociateName": "Quigley, Baumbach and Cummerata",
-    "AssociateId": 24,
+    "ContactCountryId": 485,
+    "ContactOrgNr": "1308330",
+    "FaxPhone": "(593)192-3121 x4059",
+    "MobilePhone": "413-770-5106",
+    "ContactPhone": "828-744-9392 x349",
+    "AssociateName": "Lebsack Group",
+    "AssociateId": 210,
     "UsePersonAddress": false,
-    "ContactFax": "culpa",
-    "Kanafname": "pariatur",
-    "Kanalname": "quisquam",
-    "Post1": "sapiente",
-    "Post2": "dolores",
-    "Post3": "ab",
-    "EmailName": "tom@lockman.info",
-    "ContactFullName": "Grace Anderson",
-    "ActiveErpLinks": 382,
-    "TicketPriorityId": 838,
-    "SupportLanguageId": 600,
-    "SupportAssociateId": 152,
+    "ContactFax": "odio",
+    "Kanafname": "iusto",
+    "Kanalname": "repellat",
+    "Post1": "omnis",
+    "Post2": "porro",
+    "Post3": "incidunt",
+    "EmailName": "willie@orn.biz",
+    "ContactFullName": "Miss Keeley Kaylee Jacobs MD",
+    "ActiveErpLinks": 733,
+    "TicketPriorityId": 483,
+    "SupportLanguageId": 664,
+    "SupportAssociateId": 229,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 568
       }
     }
   }

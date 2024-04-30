@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 802
+  "ReplyTemplateId": 1000
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marquardt-Feeney",
-  "Description": "Versatile interactive monitoring",
-  "OwnedByFullName": "Anastasia Emard",
-  "Updated": "2009-09-05T11:44:33.3535225+02:00",
-  "Body": "quaerat",
+  "Name": "Jacobi, Stoltenberg and Jenkins",
+  "Description": "Virtual eco-centric capability",
+  "OwnedByFullName": "Angela Schoen",
+  "Updated": "1999-05-19T11:16:08.9597121+02:00",
+  "Body": "veritatis",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 17
     }
   }
 }

@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 160,
-  "Count": 877
+  "WeightedAmountLimit": 586,
+  "Count": 721
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schmitt, Roberts and Welch",
-    "SaleDate": "1996-11-18T11:44:34.4001629+01:00",
-    "SaleId": 196,
-    "Probability": 570,
-    "Title": "ut",
-    "Amount": 24927.836,
-    "Currency": "culpa",
-    "ProjectName": "Pfeffer Inc and Sons",
-    "AssociateFullName": "Precious Crist",
-    "Description": "Programmable high-level adapter",
+    "ContactName": "Wyman, Russel and Gutmann",
+    "SaleDate": "2011-03-24T11:16:09.6846608+01:00",
+    "SaleId": 198,
+    "Probability": 457,
+    "Title": "doloribus",
+    "Amount": 20530.834,
+    "Currency": "rem",
+    "ProjectName": "O'Reilly-Okuneva",
+    "AssociateFullName": "Estella Klocko",
+    "Description": "Universal homogeneous knowledge base",
     "Status": "Lost",
-    "WeightedAmount": 767.82999999999993,
-    "ProjectId": 256,
-    "EarningPercent": 10655.6,
-    "Earning": 18841.608,
-    "ContactId": 275,
-    "AssociateId": 258,
-    "PersonId": 931,
-    "SaleTypeId": 633,
-    "SaleTypeName": "Harvey Group",
-    "PersonFullName": "Skylar Olson",
+    "WeightedAmount": 4773.0819999999994,
+    "ProjectId": 52,
+    "EarningPercent": 921.396,
+    "Earning": 19791.21,
+    "ContactId": 605,
+    "AssociateId": 646,
+    "PersonId": 973,
+    "SaleTypeId": 662,
+    "SaleTypeName": "Luettgen-Reinger",
+    "PersonFullName": "Dr. Leora Kaley Gleason II",
     "Completed": "Completed",
-    "ActiveErpLinks": 187,
-    "NextDueDate": "2000-09-03T11:44:34.4001629+02:00",
-    "Number": "483223",
+    "ActiveErpLinks": 986,
+    "NextDueDate": "1997-07-08T11:16:09.6846608+02:00",
+    "Number": "511229",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 98
       }
     }
   }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 733
+  "ContactId": 690
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Von-Wiegand",
-    "SaleDate": "2018-06-06T11:44:34.4001629+02:00",
-    "SaleId": 401,
-    "Probability": 315,
-    "Title": "ut",
-    "Amount": 25109.608,
-    "Currency": "molestiae",
-    "ProjectName": "Raynor, Wuckert and Heidenreich",
-    "AssociateFullName": "Shaylee Langworth",
-    "Description": "Implemented exuding data-warehouse",
+    "ContactName": "Kessler, Yost and Kreiger",
+    "SaleDate": "2002-05-01T11:16:09.6846608+02:00",
+    "SaleId": 469,
+    "Probability": 486,
+    "Title": "nesciunt",
+    "Amount": 30641.118,
+    "Currency": "est",
+    "ProjectName": "Davis-Altenwerth",
+    "AssociateFullName": "Marley Harris",
+    "Description": "Centralized zero defect access",
     "Status": "Lost",
-    "WeightedAmount": 8590.294,
-    "ProjectId": 913,
-    "EarningPercent": 9696.596,
-    "Earning": 19051.586,
-    "ContactId": 157,
-    "AssociateId": 225,
-    "PersonId": 187,
-    "SaleTypeId": 987,
-    "SaleTypeName": "Roob-Schamberger",
-    "PersonFullName": "Haylie Frami",
+    "WeightedAmount": 21436.559999999998,
+    "ProjectId": 960,
+    "EarningPercent": 30766.478,
+    "Earning": 26529.309999999998,
+    "ContactId": 421,
+    "AssociateId": 182,
+    "PersonId": 754,
+    "SaleTypeId": 916,
+    "SaleTypeName": "Hartmann, Koss and O'Kon",
+    "PersonFullName": "Brayan Borer",
     "Completed": "Completed",
-    "ActiveErpLinks": 714,
-    "NextDueDate": "2023-04-20T11:44:34.4001629+02:00",
-    "Number": "1411866",
+    "ActiveErpLinks": 732,
+    "NextDueDate": "2018-12-24T11:16:09.6846608+01:00",
+    "Number": "1366325",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 330
       }
     }
   }

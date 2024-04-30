@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    597,
-    519
+    213,
+    948
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Gulgowski-Schumm",
-    "AssociateId": 985,
-    "DetailsTable": 906,
-    "DetailsRecord": 211,
-    "IsSystemTask": false,
+    "Id": 9,
+    "Name": "Mueller Inc and Sons",
+    "AssociateId": 171,
+    "DetailsTable": 361,
+    "DetailsRecord": 162,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "labore",
-      "ParameterObject2": "ducimus"
+      "ParameterObject1": "quo",
+      "ParameterObject2": "aperiam"
     },
-    "LastStarted": "2006-06-01T11:44:32.822391+02:00",
-    "Created": "2001-06-28T11:44:32.822391+02:00",
-    "StartCount": 258,
-    "DatabaseSerialNumber": "1345601",
-    "Context": "rerum",
-    "Result": "est",
+    "LastStarted": "2013-01-22T11:16:08.7410229+01:00",
+    "Created": "2000-05-19T11:16:08.7410229+02:00",
+    "StartCount": 441,
+    "DatabaseSerialNumber": "1072915",
+    "Context": "dolore",
+    "Result": "illo",
     "State": "All",
-    "Description": "Managed grid-enabled function",
-    "Response": "et",
-    "Request": "aut",
-    "ProgressDescription": "Quality-focused system-worthy neural-net",
-    "ProgressPercent": 699,
-    "FileName": "Cassin-Shanahan",
+    "Description": "Enterprise-wide dedicated attitude",
+    "Response": "ut",
+    "Request": "dolores",
+    "ProgressDescription": "Face to face real-time moratorium",
+    "ProgressPercent": 624,
+    "FileName": "Wintheiser, Upton and Parisian",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 588
       }
     }
   }

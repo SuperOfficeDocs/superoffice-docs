@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 389,
-  "Name": "Daugherty, Champlin and Toy",
-  "Tooltip": "reiciendis",
+  "Id": 583,
+  "Name": "Glover Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 765,
+  "Rank": 355,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "ListType": "in",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 605,
-  "Name": "Hauck Group",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 210,
+  "Id": 629,
+  "Name": "Rutherford-D'Amore",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 925,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ratione",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

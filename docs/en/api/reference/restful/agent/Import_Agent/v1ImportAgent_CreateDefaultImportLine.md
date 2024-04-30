@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 40
+  "CountColumns": 200
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "neque",
-    "earum"
+    "est",
+    "ipsa"
   ],
-  "Selected": false,
+  "Selected": true,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "placeat",
+  "ExternalKey": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

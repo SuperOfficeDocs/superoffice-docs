@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 647,
-  "Name": "Gerlach, Von and Murphy",
-  "Tooltip": "qui",
-  "Rank": 777,
+  "SaleTypeId": 635,
+  "Name": "Considine-Waelchi",
+  "Tooltip": "hic",
+  "Rank": 83,
   "DurationUnit": "Century",
-  "SaleDuration": 655,
-  "SaleTypeCatId": 899,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 539,
-  "QuoteLinesTemplate": 917,
-  "ConfirmationLinesTemplate": 414,
+  "SaleDuration": 469,
+  "SaleTypeCatId": 199,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 726,
+  "QuoteLinesTemplate": 644,
+  "ConfirmationLinesTemplate": 622,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 835,
-  "MinEarningPercent": 60,
-  "GroupQuoteLinesBy": 306,
-  "SortGroupLinesBy": 772,
+  "MaxDiscountPercent": 120,
+  "MinEarningPercent": 857,
+  "GroupQuoteLinesBy": 963,
+  "SortGroupLinesBy": 454,
   "Stages": [
     {
-      "Id": 583,
-      "Name": "Bernhard Group",
-      "ToolTip": "Animi eius.",
+      "Id": 628,
+      "Name": "Wunsch, Connelly and Cartwright",
+      "ToolTip": "Voluptatum vero velit ut recusandae molestiae.",
       "Deleted": false,
-      "Rank": 28,
-      "Type": "cum",
-      "ColorBlock": 71,
-      "IconHint": "expedita",
-      "Selected": false,
-      "LastChanged": "2023-01-20T11:44:33.9158989+01:00",
+      "Rank": 406,
+      "Type": "mollitia",
+      "ColorBlock": 170,
+      "IconHint": "laboriosam",
+      "Selected": true,
+      "LastChanged": "2005-10-26T11:16:09.3815779+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "id",
-      "Hidden": false,
-      "FullName": "Ceasar Gottlieb",
+      "ExtraInfo": "et",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Landen Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 599
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldLength": 120
     }
   }
 }

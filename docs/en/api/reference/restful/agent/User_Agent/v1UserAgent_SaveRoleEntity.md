@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 660,
-  "Name": "Emmerich-Carter",
-  "Tooltip": "quo",
+  "RoleId": 393,
+  "Name": "Terry LLC",
+  "Tooltip": "accusamus",
   "RoleType": "Anonymous",
-  "Deleted": 188,
-  "Rank": 564,
-  "Created": "2014-04-23T11:44:34.9469084+02:00",
-  "UseCategories": 173,
+  "Deleted": 248,
+  "Rank": 971,
+  "Created": "1997-07-26T11:16:10.0073992+02:00",
+  "UseCategories": 450,
   "CreatedBy": null,
-  "Updated": "2013-05-19T11:44:34.9469084+02:00",
+  "Updated": "2010-04-16T11:16:10.0073992+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 656,
-  "Name": "Prosacco LLC",
-  "Tooltip": "et",
+  "RoleId": 900,
+  "Name": "Legros Group",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 47,
-  "Rank": 184,
-  "Created": "2017-07-08T11:44:34.9469084+02:00",
-  "UseCategories": 492,
+  "Deleted": 560,
+  "Rank": 932,
+  "Created": "2014-01-06T11:16:10.0073992+01:00",
+  "UseCategories": 17,
   "CreatedBy": null,
-  "Updated": "2010-07-06T11:44:34.9469084+02:00",
+  "Updated": "2015-08-27T11:16:10.0073992+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 878
     }
   }
 }

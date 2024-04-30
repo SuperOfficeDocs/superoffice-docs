@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Welch, Pfeffer and O'Keefe"
+  "TargetTableName": "Keeling, Reichert and Leannon"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line regional encryption",
-  "Postit": "quo",
+  "Description": "Mandatory tertiary benchmark",
+  "Postit": "aliquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 655,
-  "IncludePerson": 143,
-  "MemberCount": 970,
-  "Name": "Corkery-Wisoky",
-  "PostitTextId": 434,
-  "CreatedDate": "2022-04-30T11:44:34.4470256+02:00",
-  "SelectionId": 569,
-  "SoundEx": "iste",
-  "Source": 840,
-  "TextId": 279,
-  "UpdatedDate": "2011-08-12T11:44:34.4470256+02:00",
-  "UpdatedCount": 285,
-  "Visibility": 668,
+  "GroupIdx": 988,
+  "IncludePerson": 190,
+  "MemberCount": 864,
+  "Name": "Lehner Group",
+  "PostitTextId": 88,
+  "CreatedDate": "2004-07-17T11:16:09.7103639+02:00",
+  "SelectionId": 675,
+  "SoundEx": "autem",
+  "Source": 383,
+  "TextId": 533,
+  "UpdatedDate": "2023-11-17T11:16:09.7103639+01:00",
+  "UpdatedCount": 689,
+  "Visibility": 895,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 626,
-  "TargetTableName": "Hoppe LLC",
-  "Completed": false,
-  "LeftSelectionId": 380,
-  "RightSelectionId": 554,
+  "TargetTableNumber": 258,
+  "TargetTableName": "Schowalter Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 887,
+  "RightSelectionId": 123,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gottlieb LLC",
-  "ShadowProviderName": "Bradtke, Kautzer and Pollich",
-  "ChartKey": "ullam",
-  "LastLoaded": "2007-04-11T11:44:34.4470256+02:00",
-  "LastLoadedBy": 328,
+  "MainProviderName": "Ward LLC",
+  "ShadowProviderName": "Veum, Bernhard and Herzog",
+  "ChartKey": "enim",
+  "LastLoaded": "2005-10-21T11:16:09.7103639+02:00",
+  "LastLoadedBy": 606,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-09-04T11:44:34.4470256+02:00",
-  "LastMembershipChangeBy": 94,
+  "LastMembershipChange": "2015-03-29T11:16:09.7103639+02:00",
+  "LastMembershipChangeBy": 286,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "possimus",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Stracke, Hartmann and O'Hara",
-  "DashboardTileDefinitionId": 795,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Kris-Renner",
+  "DashboardTileDefinitionId": 461,
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 152
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 467,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 152
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 812
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Erdman-Heidenreich",
-  "DeviceName": "Waelchi-Doyle",
-  "DeviceIdentifier": "reprehenderit",
-  "TableName": "Botsford, Spinka and Runolfsdottir"
+  "ApplicationName": "Hansen, Koelpin and Sauer",
+  "DeviceName": "Armstrong Group",
+  "DeviceIdentifier": "sed",
+  "TableName": "Cormier, Brekke and Lind"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "voluptas",
-    "Value": "laborum",
-    "RecordId": 853,
-    "CreatedDate": "1997-10-26T11:44:33.7753083+01:00",
-    "UpdatedDate": "2023-10-23T11:44:33.7753083+02:00",
-    "UpdatedBy": "facere",
-    "CreatedBy": "tempore",
-    "TableName": "Muller, Pfeffer and Williamson",
+    "Key": "magnam",
+    "Value": "quia",
+    "RecordId": 328,
+    "CreatedDate": "2013-09-15T11:16:09.2878404+02:00",
+    "UpdatedDate": "2005-12-29T11:16:09.2878404+01:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "alias",
+    "TableName": "Terry, Barrows and Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 411
       }
     }
   }

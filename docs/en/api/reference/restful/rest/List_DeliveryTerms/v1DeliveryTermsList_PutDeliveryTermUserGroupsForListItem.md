@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Powlowski-Daugherty",
-    "ToolTip": "Recusandae officiis praesentium et omnis nesciunt delectus asperiores.",
+    "Id": 787,
+    "Name": "Hammes Inc and Sons",
+    "ToolTip": "Non in fugit ullam rerum sunt.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "nesciunt",
-    "ColorBlock": 256,
-    "IconHint": "numquam",
+    "Rank": 204,
+    "Type": "id",
+    "ColorBlock": 733,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2009-05-23T11:44:43.0387817+02:00",
+    "LastChanged": "2012-07-09T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Jewess-Wyman",
-        "ToolTip": "Molestiae id eaque neque repellat et quam.",
+        "Id": 881,
+        "Name": "Pouros Inc and Sons",
+        "ToolTip": "Corrupti voluptatem aut sed impedit aut officia voluptatem.",
         "Deleted": true,
-        "Rank": 106,
-        "Type": "odit",
-        "ColorBlock": 228,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2011-01-11T11:44:43.054404+01:00",
+        "Rank": 465,
+        "Type": "facere",
+        "ColorBlock": 374,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2016-11-28T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Forest Reynolds V"
+        "ExtraInfo": "et",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Jaquan Reilly"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Tyrique Funk"
+    "FullName": "Jimmie Donnelly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Adams Group",
-    "ToolTip": "At facere nam id ea iusto.",
+    "Id": 403,
+    "Name": "Jewess-Strosin",
+    "ToolTip": "Repudiandae ipsum quia repudiandae voluptatem.",
     "Deleted": false,
-    "Rank": 852,
-    "Type": "eveniet",
-    "ColorBlock": 70,
-    "IconHint": "et",
+    "Rank": 660,
+    "Type": "est",
+    "ColorBlock": 134,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2023-09-16T11:44:43.054404+02:00",
+    "LastChanged": "2006-11-08T11:16:14.5589219+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Dickens, Spinka and Frami",
-        "ToolTip": "Nisi dolore voluptatum ut.",
-        "Deleted": true,
-        "Rank": 855,
-        "Type": "saepe",
-        "ColorBlock": 850,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2008-01-03T11:44:43.054404+01:00",
+        "Id": 827,
+        "Name": "Bernier-Conn",
+        "ToolTip": "Odit nihil dolor.",
+        "Deleted": false,
+        "Rank": 393,
+        "Type": "distinctio",
+        "ColorBlock": 398,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2019-10-15T11:16:14.5589219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "est",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Kirsten Leffler",
+        "FullName": "Lula Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldType": "System.Int32",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "et",
+    "ExtraInfo": "nisi",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Mr. Josiane Connor Anderson V",
+    "FullName": "Emerald Jewess DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 506
       }
     }
   }

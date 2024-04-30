@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 900,
-  "Name": "Gorczany, Jacobi and Kuphal",
-  "Config": "dolorem",
-  "Rank": 545,
-  "Client": "consequatur",
-  "Style": "minima",
+  "DashboardThemeId": 504,
+  "Name": "Becker-Cole",
+  "Config": "facere",
+  "Rank": 674,
+  "Client": "aut",
+  "Style": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 443
     }
   }
 }

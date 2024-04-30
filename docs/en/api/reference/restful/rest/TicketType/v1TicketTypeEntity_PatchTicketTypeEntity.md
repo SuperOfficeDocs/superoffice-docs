@@ -113,6 +113,7 @@ TicketTypeEntity  updated.
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -129,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "voluptatum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "voluptatum",
     "value": {}
   }
 ]
@@ -147,39 +148,43 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 903,
-  "Name": "Cronin-Waters",
-  "Rank": 310,
-  "Tooltip": "qui",
-  "Icon": "in",
-  "DefaultTicketStatus": 638,
+  "TicketTypeId": 738,
+  "Name": "Lockman, Greenfelder and O'Keefe",
+  "Rank": 725,
+  "Tooltip": "dolorum",
+  "Icon": "ratione",
+  "DefaultTicketStatus": 565,
   "TicketStatuses": [
-    676,
-    983
+    232,
+    833
   ],
-  "DefaultTicketPriority": 107,
+  "DefaultTicketPriority": 816,
   "TicketPriorities": [
-    99,
-    118
+    507,
+    135
   ],
-  "ReplyTemplate": 415,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 597,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    110,
+    548
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 48
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

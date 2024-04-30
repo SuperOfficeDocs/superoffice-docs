@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 335,
-  "TopicId": 77,
+  "ChatSessionId": 975,
+  "TopicId": 244,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eaque",
-  "CustomerHost": "libero",
-  "CustomerName": "Renner-Brakus",
-  "CustomerEmail": "minerva.emmerich@white.name",
-  "CustomerPhone": "(548)411-8498",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "fuga",
+  "CustomerName": "Murazik Group",
+  "CustomerEmail": "brad@schamberger.name",
+  "CustomerPhone": "(287)650-4118",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Homenick, Kuphal and Frami",
+  "CustomerCompanyName": "Torp LLC",
   "Status": "Closed",
-  "FirstMessage": "tenetur",
-  "LastMessage": "sunt",
-  "WhenRequested": "2003-10-19T11:44:41.7265353+02:00",
-  "WhenStarted": "2000-07-04T11:44:41.7265353+02:00",
-  "WhenEnded": "2004-09-29T11:44:41.7265353+02:00",
-  "WhenIdle": "2013-08-21T11:44:41.7265353+02:00",
-  "WhenFetched": "2015-08-30T11:44:41.7265353+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 528,
-  "AlertLevel": 698,
-  "Rank": 156,
+  "FirstMessage": "laborum",
+  "LastMessage": "vero",
+  "WhenRequested": "2002-04-22T11:16:13.7612392+02:00",
+  "WhenStarted": "2007-07-14T11:16:13.7612392+02:00",
+  "WhenEnded": "2004-08-16T11:16:13.7612392+02:00",
+  "WhenIdle": "2002-03-04T11:16:13.7612392+01:00",
+  "WhenFetched": "2000-09-30T11:16:13.7612392+02:00",
+  "SessionKey": "perferendis",
+  "InitialQueuePos": 85,
+  "AlertLevel": 545,
+  "Rank": 885,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 924,
+  "ChatbotIsActive": false,
+  "Rating": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 109
     }
   }
 }

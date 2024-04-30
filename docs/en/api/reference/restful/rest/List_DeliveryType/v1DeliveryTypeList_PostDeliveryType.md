@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Spinka Group",
-  "Tooltip": "excepturi",
+  "Id": 143,
+  "Name": "Veum LLC",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 745,
-  "Rank": 111
+  "UdListDefinitionId": 247,
+  "Rank": 942
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Leannon LLC",
-  "Tooltip": "quis",
+  "Id": 188,
+  "Name": "Torphy-Wilkinson",
+  "Tooltip": "eum",
   "Deleted": true,
-  "UdListDefinitionId": 517,
-  "Rank": 921,
+  "UdListDefinitionId": 450,
+  "Rank": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

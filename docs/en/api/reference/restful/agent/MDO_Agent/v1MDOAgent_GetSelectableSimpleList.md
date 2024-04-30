@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mann, Cummings and Koelpin"
+  "Name": "Wisozk, Ryan and Effertz"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Harris, Koelpin and Sawayn",
-    "ToolTip": "Nihil reiciendis.",
-    "Deleted": true,
-    "Rank": 80,
-    "Type": "dolores",
-    "ColorBlock": 622,
-    "IconHint": "earum",
+    "Id": 139,
+    "Name": "O'Reilly-Jones",
+    "ToolTip": "Doloribus qui culpa sunt aspernatur amet distinctio quis.",
+    "Deleted": false,
+    "Rank": 391,
+    "Type": "molestias",
+    "ColorBlock": 918,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2017-07-12T11:44:33.9471419+02:00",
+    "LastChanged": "2004-06-02T11:16:09.3972026+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Padberg LLC",
-        "ToolTip": "Nulla libero voluptatem ipsam.",
-        "Deleted": true,
-        "Rank": 808,
-        "Type": "libero",
-        "ColorBlock": 444,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2023-07-25T11:44:33.9471419+02:00",
+        "Id": 455,
+        "Name": "Wisozk, Carroll and Hermiston",
+        "ToolTip": "Reprehenderit reprehenderit ratione itaque enim.",
+        "Deleted": false,
+        "Rank": 846,
+        "Type": "perspiciatis",
+        "ColorBlock": 618,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2003-10-04T11:16:09.3972026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Susie Jerde",
+        "ExtraInfo": "soluta",
+        "StyleHint": "aliquam",
+        "Hidden": false,
+        "FullName": "Claudie Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Jimmy Jaskolski",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "voluptatum",
+    "Hidden": true,
+    "FullName": "Imelda Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 864
       }
     }
   }

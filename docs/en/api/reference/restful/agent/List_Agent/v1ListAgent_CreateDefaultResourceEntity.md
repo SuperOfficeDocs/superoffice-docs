@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 413,
-  "Name": "Simonis, Lind and Maggio",
-  "Rank": 436,
-  "Tooltip": "quam",
+  "ResourceId": 925,
+  "Name": "Raynor Inc and Sons",
+  "Rank": 844,
+  "Tooltip": "amet",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "dolor",
+  "IsLocation": false,
+  "LocationAddress": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   }
 }

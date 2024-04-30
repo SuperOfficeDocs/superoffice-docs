@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "UdListDefinitionName": "Gusikowski, Parisian and Hand",
+  "Id": 400,
+  "UdListDefinitionName": "Klocko-Kovacek",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Thiel Inc and Sons",
-  "Tooltip": "voluptatem",
+  "Id": 17,
+  "Name": "Purdy Group",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 303,
-  "Rank": 407,
+  "UdListDefinitionId": 352,
+  "Rank": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 671
     }
   }
 }

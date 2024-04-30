@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 114,
-    "Name": "Wehner, Reynolds and Kub",
-    "ToolTip": "Laudantium consequuntur sit ut autem.",
-    "Deleted": false,
-    "Rank": 868,
-    "Type": "nihil",
-    "ColorBlock": 615,
-    "IconHint": "dolorem",
+    "Id": 137,
+    "Name": "Dooley, Jaskolski and Nolan",
+    "ToolTip": "Mollitia ut numquam.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "voluptates",
+    "ColorBlock": 783,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2022-04-21T11:44:43.0231528+02:00",
+    "LastChanged": "2009-07-20T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Larson-Lockman",
-        "ToolTip": "Porro reprehenderit.",
-        "Deleted": false,
-        "Rank": 751,
+        "Id": 709,
+        "Name": "Jast, Bauch and Smith",
+        "ToolTip": "Earum aliquid voluptatem laborum ut.",
+        "Deleted": true,
+        "Rank": 911,
         "Type": "culpa",
-        "ColorBlock": 800,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2021-07-03T11:44:43.0231528+02:00",
+        "ColorBlock": 154,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "1999-07-11T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Miss Weston Franecki II"
+        "ExtraInfo": "ut",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Prof. Marianne Craig Robel"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Miss Bernardo Treutel"
+    "ExtraInfo": "beatae",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Dr. Noah Hermann III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Bahringer-Lang",
-    "ToolTip": "Dignissimos ipsam illo est harum ut incidunt iste.",
-    "Deleted": false,
-    "Rank": 999,
-    "Type": "repudiandae",
-    "ColorBlock": 761,
-    "IconHint": "deleniti",
+    "Id": 993,
+    "Name": "Steuber, Bergnaum and Kilback",
+    "ToolTip": "Qui similique quasi molestiae.",
+    "Deleted": true,
+    "Rank": 731,
+    "Type": "modi",
+    "ColorBlock": 248,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2022-04-21T11:44:43.0231528+02:00",
+    "LastChanged": "2015-12-29T11:16:14.5432954+01:00",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Smitham, Sanford and Morissette",
-        "ToolTip": "Voluptatem eveniet rerum labore.",
+        "Id": 919,
+        "Name": "Wisozk LLC",
+        "ToolTip": "Non eveniet perferendis.",
         "Deleted": false,
-        "Rank": 352,
-        "Type": "necessitatibus",
-        "ColorBlock": 683,
-        "IconHint": "sit",
+        "Rank": 103,
+        "Type": "consectetur",
+        "ColorBlock": 682,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2010-10-27T11:44:43.0231528+02:00",
+        "LastChanged": "2003-02-08T11:16:14.5432954+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Sim Durgan",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Elva Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ut",
+    "ExtraInfo": "quis",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Dixie Johnston",
+    "FullName": "Miss Cristopher Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

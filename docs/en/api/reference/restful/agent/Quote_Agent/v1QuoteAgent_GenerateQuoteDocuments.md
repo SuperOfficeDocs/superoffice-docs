@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 221,
-  "EmailBodyTemplateId": 244,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 909,
-  "IncludeAttachments": false,
-  "RawMailSubject": "magni"
+  "QuoteVersionId": 495,
+  "EmailBodyTemplateId": 157,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 445,
+  "IncludeAttachments": true,
+  "RawMailSubject": "ut"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 9,
-  "QuotedProductsId": 533,
+  "QuoteDocumentId": 472,
+  "QuotedProductsId": 10,
   "QuoteAttachmentIds": [
-    364,
-    338
+    225,
+    879
   ],
-  "MailBody": "aliquam",
-  "MailSubject": "nostrum",
-  "ToEmail": "emmy@veum.com",
-  "ToFullName": "Maria O'Hara",
-  "ErrorMessage": "nam",
+  "MailBody": "placeat",
+  "MailSubject": "temporibus",
+  "ToEmail": "lucile@bednar.ca",
+  "ToFullName": "Clair Dach",
+  "ErrorMessage": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldLength": 616
     }
   }
 }

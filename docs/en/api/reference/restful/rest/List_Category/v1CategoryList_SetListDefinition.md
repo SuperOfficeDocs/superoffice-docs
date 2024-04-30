@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Koelpin, Altenwerth and Murazik",
-  "Tooltip": "at",
+  "Id": 118,
+  "Name": "Wiza, Keeling and Mills",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 176,
+  "Rank": 254,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "neque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Farrell, O'Connell and Gibson",
-  "Tooltip": "nam",
+  "Id": 352,
+  "Name": "Marks Inc and Sons",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 919,
+  "Rank": 986,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ad",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldLength": 881
     }
   }
 }

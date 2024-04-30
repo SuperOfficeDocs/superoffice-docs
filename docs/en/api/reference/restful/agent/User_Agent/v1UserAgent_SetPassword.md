@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 252,
-  "Password": "cumque"
+  "AssociateId": 454,
+  "Password": "autem"
 }
 ```
 

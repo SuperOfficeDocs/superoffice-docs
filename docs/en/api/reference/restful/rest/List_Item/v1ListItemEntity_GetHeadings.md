@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Rogahn-McGlynn",
-    "ToolTip": "Asperiores nemo dolorem deleniti omnis non.",
+    "Id": 65,
+    "Name": "Hamill LLC",
+    "ToolTip": "Ipsum exercitationem animi nemo dolorum dolor.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "at",
-    "ColorBlock": 502,
-    "IconHint": "aut",
+    "Rank": 43,
+    "Type": "magni",
+    "ColorBlock": 662,
+    "IconHint": "animi",
     "Selected": true,
-    "LastChanged": "2017-12-16T11:44:42.898184+01:00",
+    "LastChanged": "2004-09-28T11:16:14.465178+02:00",
     "ChildItems": [
       {
-        "Id": 77,
-        "Name": "Cremin Inc and Sons",
-        "ToolTip": "Et distinctio corporis qui dicta.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "facilis",
-        "ColorBlock": 150,
-        "IconHint": "sint",
+        "Id": 154,
+        "Name": "Schuppe-Wuckert",
+        "ToolTip": "Voluptatem qui adipisci accusamus aut assumenda.",
+        "Deleted": true,
+        "Rank": 834,
+        "Type": "iusto",
+        "ColorBlock": 459,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2017-01-27T11:44:42.898184+01:00",
+        "LastChanged": "2004-09-24T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Dr. Ariel Amelie Schuppe",
+        "ExtraInfo": "quam",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Lesley Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 428
+            "FieldType": "System.String",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "vel",
+    "ExtraInfo": "non",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Dariana Rempel",
+    "FullName": "Mrs. Delfina Brown White IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

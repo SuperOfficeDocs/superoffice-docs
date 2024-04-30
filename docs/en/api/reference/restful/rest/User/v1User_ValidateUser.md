@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 603,
-  "Name": "Stanton-Huel",
-  "Rank": 892,
-  "Tooltip": "voluptatum",
+  "AssociateId": 504,
+  "Name": "Kessler LLC",
+  "Rank": 689,
+  "Tooltip": "nostrum",
   "LicenseOwners": [
     {
-      "Name": "Brakus, Sporer and Towne",
-      "Description": "Progressive content-based forecast",
+      "Name": "Feeney-Johnson",
+      "Description": "Multi-layered encompassing capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Brakus, Sporer and Towne",
-      "Description": "Progressive content-based forecast",
+      "Name": "Feeney-Johnson",
+      "Description": "Multi-layered encompassing capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ullam",
-      "Tooltip": "aut",
-      "Id": 828,
-      "Rank": 16,
-      "Deleted": false
+      "Value": "aliquid",
+      "Tooltip": "tempora",
+      "Id": 119,
+      "Rank": 415,
+      "Deleted": true
     },
     {
-      "Value": "ullam",
-      "Tooltip": "aut",
-      "Id": 828,
-      "Rank": 16,
-      "Deleted": false
+      "Value": "aliquid",
+      "Tooltip": "tempora",
+      "Id": 119,
+      "Rank": 415,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1999-02-09T11:44:42.8513292+01:00",
-  "Lastlogout": "2013-08-05T11:44:42.8513292+02:00",
-  "EjUserId": 845,
-  "RequestSignature": "cupiditate",
+  "Lastlogin": "2019-06-07T11:16:14.4495535+02:00",
+  "Lastlogout": "2021-08-31T11:16:14.4495535+02:00",
+  "EjUserId": 667,
+  "RequestSignature": "dicta",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "et"
+      "Value": "qui",
+      "DisplayValue": "voluptatem"
     },
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "et"
+      "Value": "qui",
+      "DisplayValue": "voluptatem"
     }
   ],
-  "UserName": "Lueilwitz, Sanford and Abernathy",
+  "UserName": "Ziemann LLC",
   "TicketCategories": [
     {
-      "Id": 289,
-      "Name": "Walker Group",
-      "ToolTip": "Est inventore.",
-      "Deleted": false,
-      "Rank": 233,
-      "Type": "voluptatem",
+      "Id": 194,
+      "Name": "Anderson-Rosenbaum",
+      "ToolTip": "Rem quisquam enim in pariatur tenetur.",
+      "Deleted": true,
+      "Rank": 171,
+      "Type": "libero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 28,
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "odio",
-      "FullName": "Miss Charity Marlen Halvorson"
+      "IconHint": "animi",
+      "ColorBlock": 660,
+      "ExtraInfo": "omnis",
+      "StyleHint": "eius",
+      "FullName": "Justus Bernier"
     }
   ],
-  "NickName": "Abernathy Group",
+  "NickName": "Kuvalis, Moen and Mohr",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "est",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "iste",
+    "CustomFields2": "ut"
   },
   "PostSaveCommands": [
     {
-      "Name": "Greenfelder Group",
-      "DisplayName": "Kerluke, Bednar and Tremblay",
-      "Description": "User-centric exuding knowledge base",
-      "ToolTip": "Repellendus quidem quo quas commodi.",
+      "Name": "Crist, Williamson and Kihn",
+      "DisplayName": "Tromp Inc and Sons",
+      "Description": "Innovative systematic knowledge user",
+      "ToolTip": "Fugit aut delectus illum in ad sit consequatur.",
       "Actions": "Implicit",
-      "ActionData": "aut"
+      "ActionData": "eaque"
     },
     {
-      "Name": "Greenfelder Group",
-      "DisplayName": "Kerluke, Bednar and Tremblay",
-      "Description": "User-centric exuding knowledge base",
-      "ToolTip": "Repellendus quidem quo quas commodi.",
+      "Name": "Crist, Williamson and Kihn",
+      "DisplayName": "Tromp Inc and Sons",
+      "Description": "Innovative systematic knowledge user",
+      "ToolTip": "Fugit aut delectus illum in ad sit consequatur.",
       "Actions": "Implicit",
-      "ActionData": "aut"
+      "ActionData": "eaque"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "illum",
-  "2": "qui"
+  "1": "reprehenderit",
+  "2": "deserunt"
 }
 ```

@@ -122,6 +122,7 @@ so.envir: onsite, online
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
 | [currentudeffields](currentudeffields.md) |Get a list of udef fields for a given type. Pass the type as AdditionalInfo|
 | [customerlanguage](customerlanguage.md) |Customer Languages list. From the CustLang table.|
+| [customobjectrelation](customobjectrelation.md) ||
 | [dashboard](dashboard.md) |MDO list provider for Dashboard, can be used by Navigator.|
 | [dashboardcurrency](dashboardcurrency.md) ||
 | [dashboardentity](dashboardentity.md) ||
@@ -182,7 +183,7 @@ so.envir: onsite, online
 | [findproduct](findproduct.md) |QuickSearch for the Add Quote Line dialog, where a single-line user input is passed to th|
 | [fontsize](fontsize.md) |List of font types|
 | [fonttype](fonttype.md) |List of font types|
-| [form](form.md) |Get all forms with folder hierarchy. Set ExtraInfo to "onlyActive" if you only want to get active forms|
+| [form](form.md) |Get all forms with folder hierarchy|
 | [formfolder](formfolder.md) |FormFolderProvider creates a flat or tree list based on the table: s_picture_folder|
 | [formmailings](formmailings.md) ||
 | [formsubmissionstatusprovider](formsubmissionstatusprovider.md) ||

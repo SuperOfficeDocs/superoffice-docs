@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "architecto"
+  "QuoteLineExtraData": "voluptatem"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McClure LLC",
-    "Value": "dolorum",
+    "Name": "Bogan, Hilpert and Ferry",
+    "Value": "voluptatem",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   },
   {
-    "Name": "McClure LLC",
-    "Value": "dolorum",
+    "Name": "Bogan, Hilpert and Ferry",
+    "Value": "voluptatem",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   }

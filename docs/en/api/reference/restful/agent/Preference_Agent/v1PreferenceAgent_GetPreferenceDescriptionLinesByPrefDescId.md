@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 128
+  "PrefDescId": 649
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 413,
-    "PrefDescId": 530,
-    "PrefValue": "rerum",
-    "PrefShowValue": "ducimus",
-    "Description": "Upgradable actuating extranet",
+    "PrefDescLineId": 243,
+    "PrefDescId": 505,
+    "PrefValue": "at",
+    "PrefShowValue": "amet",
+    "Description": "Cross-group dedicated success",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

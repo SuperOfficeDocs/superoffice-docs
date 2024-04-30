@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 4,
-  "Name": "Brekke-Stiedemann",
-  "CreatedDate": "2011-02-15T11:44:42.0077636+01:00",
-  "UpdatedDate": "2000-11-17T11:44:42.0077636+01:00",
-  "AssociateFullName": "Abdul Davis",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "officia",
-  "DeviceIdentifier": "necessitatibus",
-  "ForeignAppId": 236
+  "ForeignDeviceId": 238,
+  "Name": "Trantow-Hilll",
+  "CreatedDate": "2012-06-18T11:16:13.93321+02:00",
+  "UpdatedDate": "2023-09-22T11:16:13.93321+02:00",
+  "AssociateFullName": "Marjolaine Kilback",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "blanditiis",
+  "DeviceIdentifier": "maiores",
+  "ForeignAppId": 250
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 764,
-  "Name": "Champlin Group",
-  "CreatedDate": "2014-02-25T11:44:42.0077636+01:00",
-  "UpdatedDate": "2020-04-05T11:44:42.0077636+02:00",
-  "AssociateFullName": "Murray Bashirian",
-  "CreatedBy": "itaque",
-  "UpdatedBy": "praesentium",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 793,
+  "ForeignDeviceId": 798,
+  "Name": "Stark LLC",
+  "CreatedDate": "2005-09-23T11:16:13.93321+02:00",
+  "UpdatedDate": "2016-08-03T11:16:13.93321+02:00",
+  "AssociateFullName": "Mr. Gerard Rice",
+  "CreatedBy": "eius",
+  "UpdatedBy": "nemo",
+  "DeviceIdentifier": "totam",
+  "ForeignAppId": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldLength": 4
     }
   }
 }

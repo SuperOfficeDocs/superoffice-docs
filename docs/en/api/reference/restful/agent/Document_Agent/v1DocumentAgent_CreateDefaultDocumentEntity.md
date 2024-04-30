@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 97,
+  "DocumentId": 862,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dicta",
-  "Header": "et",
-  "Name": "Murphy LLC",
-  "OurRef": "id",
-  "YourRef": "nihil",
-  "CreatedDate": "2011-12-02T11:44:33.4472505+01:00",
-  "UpdatedDate": "2023-01-19T11:44:33.4472505+01:00",
-  "Description": "Secured stable time-frame",
+  "Attention": "repellendus",
+  "Header": "blanditiis",
+  "Name": "Reynolds Inc and Sons",
+  "OurRef": "neque",
+  "YourRef": "consequatur",
+  "CreatedDate": "2007-01-04T11:16:09.0847342+01:00",
+  "UpdatedDate": "2007-01-24T11:16:09.0847342+01:00",
+  "Description": "Diverse encompassing database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-02-02T11:44:33.4472505+01:00",
-  "ExternalRef": "quasi",
+  "Date": "2023-05-09T11:16:09.0847342+02:00",
+  "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 275,
+  "ActiveLinks": 325,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kiehn-Ward",
-      "Id": 580,
-      "Description": "Balanced bi-directional functionalities",
-      "ExtraInfo": "vel",
-      "LinkId": 723,
+      "EntityName": "Rice Group",
+      "Id": 12,
+      "Description": "Horizontal optimizing conglomeration",
+      "ExtraInfo": "dolor",
+      "LinkId": 292,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 159
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 841,
-  "Snum": 828,
+  "SuggestedDocumentId": 264,
+  "Snum": 481,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Lucas Jayme Deckow Sr.",
-    "SuperOffice:2": "422028418"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mr. Idella Lind"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "ea"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "quae"
   },
-  "PublishEventDate": "2019-04-03T11:44:33.4472505+02:00",
-  "PublishTo": "2003-08-10T11:44:33.4472505+02:00",
-  "PublishFrom": "2004-03-20T11:44:33.4472505+01:00",
+  "PublishEventDate": "2009-07-13T11:16:09.0847342+02:00",
+  "PublishTo": "2016-03-13T11:16:09.0847342+01:00",
+  "PublishFrom": "2020-01-23T11:16:09.0847342+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 426,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 921
         }
       }
     },
     {
-      "VisibleId": 426,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 921
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 524
     }
   }
 }

@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keeling-Luettgen",
+  "TableName": "Feil, Ernser and Mohr",
   "Values": {
-    "Values1": "rerum",
-    "Values2": "quia"
+    "Values1": "voluptas",
+    "Values2": "eaque"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-306
+340
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Sawayn, Senger and Littel",
-    "ToolTip": "Quis nobis sit sint odio.",
-    "Deleted": false,
-    "Rank": 648,
-    "Type": "quae",
-    "ColorBlock": 583,
-    "IconHint": "eos",
+    "Id": 929,
+    "Name": "Kling Inc and Sons",
+    "ToolTip": "Consequatur accusamus veritatis aut cum quidem quidem molestiae.",
+    "Deleted": true,
+    "Rank": 975,
+    "Type": "rerum",
+    "ColorBlock": 955,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2016-10-09T11:44:42.9450455+02:00",
+    "LastChanged": "2015-01-02T11:16:14.4964233+01:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Lindgren LLC",
-        "ToolTip": "Porro nobis sunt.",
-        "Deleted": false,
-        "Rank": 548,
-        "Type": "exercitationem",
-        "ColorBlock": 93,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1997-07-02T11:44:42.9450455+02:00",
+        "Id": 298,
+        "Name": "Reichert-Fay",
+        "ToolTip": "Placeat id omnis non reprehenderit.",
+        "Deleted": true,
+        "Rank": 61,
+        "Type": "fuga",
+        "ColorBlock": 847,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2000-10-07T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Michael VonRueden"
+        "ExtraInfo": "quod",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Renee Arianna Schmidt Sr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quos",
+    "ExtraInfo": "sequi",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Prof. Bret Crooks I"
+    "FullName": "Tamia Cole"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Bartoletti-Legros",
-    "ToolTip": "Quia fuga corporis.",
+    "Id": 62,
+    "Name": "Lakin Group",
+    "ToolTip": "Eaque similique ut.",
     "Deleted": false,
-    "Rank": 590,
-    "Type": "aut",
-    "ColorBlock": 549,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2023-11-29T11:44:42.9450455+01:00",
+    "Rank": 473,
+    "Type": "quam",
+    "ColorBlock": 632,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2023-03-08T11:16:14.4964233+01:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Walter Inc and Sons",
-        "ToolTip": "Culpa asperiores expedita quaerat ut et est fugit.",
-        "Deleted": false,
-        "Rank": 276,
-        "Type": "quia",
-        "ColorBlock": 698,
-        "IconHint": "est",
+        "Id": 577,
+        "Name": "Glover, Douglas and Barrows",
+        "ToolTip": "Laboriosam soluta.",
+        "Deleted": true,
+        "Rank": 284,
+        "Type": "dolor",
+        "ColorBlock": 293,
+        "IconHint": "facere",
         "Selected": true,
-        "LastChanged": "2001-11-30T11:44:42.9450455+01:00",
+        "LastChanged": "2006-07-08T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eos",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ms. Andreane Paris Schowalter",
+        "FullName": "Robbie Spencer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ab",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Christiana Schoen PhD",
+    "FullName": "Bryana Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Wyman-Gutmann",
-    "ToolTip": "Dolor voluptates aut et nihil vel.",
+    "Id": 970,
+    "Name": "Kunze Inc and Sons",
+    "ToolTip": "Quis autem officiis.",
     "Deleted": false,
-    "Rank": 122,
-    "Type": "et",
-    "ColorBlock": 393,
-    "IconHint": "itaque",
+    "Rank": 851,
+    "Type": "architecto",
+    "ColorBlock": 239,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-07-04T11:44:43.3824544+02:00",
+    "LastChanged": "2021-09-10T11:16:14.8401403+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Bartell, Langosh and Murphy",
-        "ToolTip": "Nostrum culpa dicta ab sunt officiis sint facilis.",
-        "Deleted": true,
-        "Rank": 718,
-        "Type": "laborum",
-        "ColorBlock": 989,
-        "IconHint": "quod",
-        "Selected": false,
-        "LastChanged": "2005-08-30T11:44:43.3824544+02:00",
+        "Id": 317,
+        "Name": "Daniel-Murazik",
+        "ToolTip": "Quisquam et libero et.",
+        "Deleted": false,
+        "Rank": 218,
+        "Type": "iste",
+        "ColorBlock": 874,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2014-07-20T11:16:14.8401403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "laborum",
+        "ExtraInfo": "vero",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mr. Alena Predovic",
+        "FullName": "Mariano Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 46
+            "FieldLength": 437
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Emmett Upton III",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Gennaro Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 332
       }
     }
   }

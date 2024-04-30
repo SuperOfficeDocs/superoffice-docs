@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 522,
-  "Name": "Cronin-Collins",
+  "TicketPriorityId": 152,
+  "Name": "Carter, Wiegand and Crona",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 280,
+  "SortOrder": 202,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 646,
-  "MonStart": "2006-10-08T11:44:43.398025+02:00",
-  "MonStop": "2006-08-03T11:44:43.398025+02:00",
-  "TueStart": "1998-04-23T11:44:43.398025+02:00",
-  "TueStop": "2001-07-21T11:44:43.398025+02:00",
-  "WedStart": "1999-06-10T11:44:43.398025+02:00",
-  "WedStop": "2008-12-22T11:44:43.398025+01:00",
-  "ThuStart": "2006-10-04T11:44:43.398025+02:00",
-  "ThuStop": "2016-12-22T11:44:43.398025+01:00",
-  "FriStart": "2018-08-06T11:44:43.398025+02:00",
-  "FriStop": "2022-04-15T11:44:43.398025+02:00",
-  "SatStart": "1997-07-16T11:44:43.398025+02:00",
-  "SatStop": "2015-09-26T11:44:43.398025+02:00",
-  "SunStart": "2003-11-01T11:44:43.398025+01:00",
-  "SunStop": "2006-12-14T11:44:43.398025+01:00",
+  "Deadline": 422,
+  "MonStart": "2023-01-03T11:16:14.8557576+01:00",
+  "MonStop": "2022-04-27T11:16:14.8557576+02:00",
+  "TueStart": "2016-04-02T11:16:14.8557576+02:00",
+  "TueStop": "2016-05-08T11:16:14.8557576+02:00",
+  "WedStart": "2010-03-29T11:16:14.8557576+02:00",
+  "WedStop": "2003-06-26T11:16:14.8557576+02:00",
+  "ThuStart": "2009-07-28T11:16:14.8557576+02:00",
+  "ThuStop": "2005-10-29T11:16:14.8557576+02:00",
+  "FriStart": "2012-12-09T11:16:14.8557576+01:00",
+  "FriStop": "2010-11-02T11:16:14.8557576+01:00",
+  "SatStart": "2015-03-24T11:16:14.8557576+01:00",
+  "SatStop": "2007-10-22T11:16:14.8557576+02:00",
+  "SunStart": "2018-01-17T11:16:14.8557576+01:00",
+  "SunStop": "2011-10-03T11:16:14.8557576+02:00",
   "NonDates": [
-    "ut",
-    "aperiam"
+    "non",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 989,
-      "AlertLevel": 791,
-      "AlertTimeout": 648,
-      "Action": 155,
-      "DelegateTo": 640,
-      "ScriptId": 620,
-      "EmailTo": "jimmie@torphyohara.biz",
-      "SmsTo": "commodi",
-      "ReplyTemplateIdCustomer": 134,
-      "ReplyTemplateIdUser": 214,
-      "ReplyTemplateIdCatmast": 515,
-      "ReplyTemplateIdEmail": 308,
-      "RtiCustomerSms": 480,
-      "ReplyTemplateIdUserSms": 435,
-      "ReplyTemplateIdCatmastSms": 886,
-      "ReplyTemplateIdSms": 582,
+      "TicketAlertId": 566,
+      "AlertLevel": 900,
+      "AlertTimeout": 837,
+      "Action": 905,
+      "DelegateTo": 332,
+      "ScriptId": 654,
+      "EmailTo": "oran@jaskolski.com",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 55,
+      "ReplyTemplateIdUser": 672,
+      "ReplyTemplateIdCatmast": 289,
+      "ReplyTemplateIdEmail": 43,
+      "RtiCustomerSms": 779,
+      "ReplyTemplateIdUserSms": 845,
+      "ReplyTemplateIdCatmastSms": 462,
+      "ReplyTemplateIdSms": 50,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 333
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   }
 }

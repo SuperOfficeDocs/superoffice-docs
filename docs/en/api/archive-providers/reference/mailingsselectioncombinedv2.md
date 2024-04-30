@@ -590,7 +590,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingOpenRate,mailingAddr/person/searchPhone/formattedNumber,mailingAddr/person/hasStoreConsent,project/LastActivity,project/saintAmountClass
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/contact/streetAddress/state,associate/simultaneousEjUser,mailingAddr/contact/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

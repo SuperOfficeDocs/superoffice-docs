@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 322
+  "AssociateId": 662
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rath Inc and Sons",
-    "Description": "Cloned executive extranet",
+    "Name": "Luettgen-Pagac",
+    "Description": "Customizable human-resource installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 363,
-        "Tooltip": "qui",
+        "Total": 895,
+        "Tooltip": "perspiciatis",
         "CanAssign": false,
-        "Free": 824,
-        "InUse": 430,
-        "IsHidden": true,
+        "Free": 292,
+        "InUse": 386,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 980,
-        "Name": "Shanahan Group",
-        "Description": "Optional leading edge adapter",
-        "PrerequisiteModuleName": "Swaniawski-Leannon",
-        "SortOrder": 796,
-        "ExtraFlags": 867,
+        "ModuleLicenseId": 721,
+        "Name": "Rutherford LLC",
+        "Description": "Multi-tiered attitude-oriented challenge",
+        "PrerequisiteModuleName": "Price, Schneider and Koelpin",
+        "SortOrder": 960,
+        "ExtraFlags": 457,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 421
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 913,
-        "Tooltip": "ipsam",
+        "Total": 223,
+        "Tooltip": "nam",
         "CanAssign": false,
-        "Free": 377,
-        "InUse": 912,
+        "Free": 860,
+        "InUse": 134,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 136,
-        "Name": "Pacocha LLC",
-        "Description": "Profound bi-directional circuit",
-        "PrerequisiteModuleName": "Rosenbaum Group",
-        "SortOrder": 895,
-        "ExtraFlags": 185,
+        "ModuleLicenseId": 782,
+        "Name": "Stamm LLC",
+        "Description": "Diverse client-server budgetary management",
+        "PrerequisiteModuleName": "Friesen LLC",
+        "SortOrder": 233,
+        "ExtraFlags": 147,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 559
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   },
   {
-    "Name": "Rath Inc and Sons",
-    "Description": "Cloned executive extranet",
+    "Name": "Luettgen-Pagac",
+    "Description": "Customizable human-resource installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 363,
-        "Tooltip": "qui",
+        "Total": 895,
+        "Tooltip": "perspiciatis",
         "CanAssign": false,
-        "Free": 824,
-        "InUse": 430,
-        "IsHidden": true,
+        "Free": 292,
+        "InUse": 386,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 980,
-        "Name": "Shanahan Group",
-        "Description": "Optional leading edge adapter",
-        "PrerequisiteModuleName": "Swaniawski-Leannon",
-        "SortOrder": 796,
-        "ExtraFlags": 867,
+        "ModuleLicenseId": 721,
+        "Name": "Rutherford LLC",
+        "Description": "Multi-tiered attitude-oriented challenge",
+        "PrerequisiteModuleName": "Price, Schneider and Koelpin",
+        "SortOrder": 960,
+        "ExtraFlags": 457,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 421
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 913,
-        "Tooltip": "ipsam",
+        "Total": 223,
+        "Tooltip": "nam",
         "CanAssign": false,
-        "Free": 377,
-        "InUse": 912,
+        "Free": 860,
+        "InUse": 134,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 136,
-        "Name": "Pacocha LLC",
-        "Description": "Profound bi-directional circuit",
-        "PrerequisiteModuleName": "Rosenbaum Group",
-        "SortOrder": 895,
-        "ExtraFlags": 185,
+        "ModuleLicenseId": 782,
+        "Name": "Stamm LLC",
+        "Description": "Diverse client-server budgetary management",
+        "PrerequisiteModuleName": "Friesen LLC",
+        "SortOrder": 233,
+        "ExtraFlags": 147,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 559
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

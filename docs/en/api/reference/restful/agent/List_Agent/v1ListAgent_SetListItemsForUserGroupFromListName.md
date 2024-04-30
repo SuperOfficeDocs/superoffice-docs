@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kerluke, Rolfson and Dooley",
-  "UsergroupId": 599,
+  "UdListDefinitionName": "Schmitt LLC",
+  "UsergroupId": 270,
   "ListItemsID": [
-    561,
-    483
+    968,
+    615
   ],
   "Enable": false
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 487,
-  "Section": "vel",
-  "Key": "quis",
-  "Name": "Heller LLC",
+  "PrefDescId": 786,
+  "Section": "dolorum",
+  "Key": "id",
+  "Name": "Kutch-Weissnat",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-engineered 3rd generation projection",
-  "IsBuiltin": true,
-  "TableName": "Terry-Hackett",
-  "UserDefinedListId": 309,
-  "Rank": 205,
-  "SubGroup": "omnis",
-  "MinLevel": 202,
-  "MaxValue": 317,
-  "MinValue": 354,
-  "RequiredLicense": "aliquid",
+  "Description": "Robust reciprocal Graphic Interface",
+  "IsBuiltin": false,
+  "TableName": "Thiel-Brown",
+  "UserDefinedListId": 952,
+  "Rank": 291,
+  "SubGroup": "corporis",
+  "MinLevel": 828,
+  "MaxValue": 827,
+  "MinValue": 763,
+  "RequiredLicense": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

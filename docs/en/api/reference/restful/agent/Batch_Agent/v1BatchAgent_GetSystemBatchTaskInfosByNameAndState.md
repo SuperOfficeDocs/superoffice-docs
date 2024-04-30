@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Gislason, Gaylord and Little",
+  "TaskName": "Lynch Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Quigley-Kiehn",
-    "AssociateId": 467,
-    "DetailsTable": 159,
-    "DetailsRecord": 700,
+    "Id": 66,
+    "Name": "Blanda LLC",
+    "AssociateId": 704,
+    "DetailsTable": 785,
+    "DetailsRecord": 236,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sapiente",
-      "ParameterObject2": "et"
+      "ParameterObject1": "placeat",
+      "ParameterObject2": "porro"
     },
-    "LastStarted": "2019-04-30T11:44:32.822391+02:00",
-    "Created": "2015-04-23T11:44:32.822391+02:00",
-    "StartCount": 304,
-    "DatabaseSerialNumber": "837981",
-    "Context": "nihil",
-    "Result": "voluptatem",
+    "LastStarted": "2016-01-24T11:16:08.7410229+01:00",
+    "Created": "2015-12-28T11:16:08.7410229+01:00",
+    "StartCount": 857,
+    "DatabaseSerialNumber": "1416072",
+    "Context": "et",
+    "Result": "distinctio",
     "State": "All",
-    "Description": "Organized bandwidth-monitored process improvement",
-    "Response": "ipsa",
-    "Request": "culpa",
-    "ProgressDescription": "Mandatory actuating algorithm",
-    "ProgressPercent": 156,
-    "FileName": "Kassulke, Mosciski and Baumbach",
+    "Description": "Operative scalable service-desk",
+    "Response": "qui",
+    "Request": "vel",
+    "ProgressDescription": "Upgradable static throughput",
+    "ProgressPercent": 470,
+    "FileName": "Cummings Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 742
       }
     }
   }

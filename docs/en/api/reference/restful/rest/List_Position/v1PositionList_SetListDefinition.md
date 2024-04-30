@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Considine-Crooks",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 63,
+  "Id": 860,
+  "Name": "Casper-Cronin",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 204,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
-  "Name": "Graham Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 198,
+  "Id": 882,
+  "Name": "Olson Group",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 365,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "adipisci",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 955
     }
   }
 }

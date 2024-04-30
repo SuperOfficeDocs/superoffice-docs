@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 949,
-  "QuoteAlternativeId": 901
+  "QuoteVersionId": 237,
+  "QuoteAlternativeId": 3
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "voluptate",
-      "DisplayText": "vel",
-      "TooltipText": "quis",
+      "ImageHint": "impedit",
+      "DisplayText": "et",
+      "TooltipText": "perferendis",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 231
         }
       }
     }
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 840
     }
   }
 }

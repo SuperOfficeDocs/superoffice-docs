@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "voluptatum"
+  "ChatId": "quo"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2014-04-17T11:44:32.228788+02:00",
-    "UserPrompt": "facilis",
-    "UserDisplayText": "libero",
-    "BotResponse": "asperiores",
+    "Timestamp": "2022-03-27T11:16:08.3966087+02:00",
+    "UserPrompt": "reiciendis",
+    "UserDisplayText": "culpa",
+    "BotResponse": "est",
     "BotActions": {
-      "BotActions1": "sint",
-      "BotActions2": "necessitatibus"
+      "BotActions1": "quae",
+      "BotActions2": "adipisci"
     },
     "Attachments": [
-      "nisi",
-      "voluptatem"
+      "aut",
+      "asperiores"
     ]
   },
   {
-    "Timestamp": "2014-04-17T11:44:32.228788+02:00",
-    "UserPrompt": "facilis",
-    "UserDisplayText": "libero",
-    "BotResponse": "asperiores",
+    "Timestamp": "2022-03-27T11:16:08.3966087+02:00",
+    "UserPrompt": "reiciendis",
+    "UserDisplayText": "culpa",
+    "BotResponse": "est",
     "BotActions": {
-      "BotActions1": "sint",
-      "BotActions2": "necessitatibus"
+      "BotActions1": "quae",
+      "BotActions2": "adipisci"
     },
     "Attachments": [
-      "nisi",
-      "voluptatem"
+      "aut",
+      "asperiores"
     ]
   }
 ]

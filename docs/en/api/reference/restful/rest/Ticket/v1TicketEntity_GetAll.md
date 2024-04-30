@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=exercitationem
-GET /api/v1/Ticket?$top=420
-GET /api/v1/Ticket?$skip=722
+GET /api/v1/Ticket?$entities=sit
+GET /api/v1/Ticket?$top=150
+GET /api/v1/Ticket?$skip=952
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=quasi
+GET /api/v1/Ticket?$context=porro
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "velit",
+  "odata.nextLink": "sequi",
   "value": [
     {
-      "PrimaryKey": 8073,
-      "EntityName": "sale",
-      "saleId": 8073,
-      "contactId": 1640,
-      "name": "Kessler Inc and Sons"
+      "PrimaryKey": 5152,
+      "EntityName": "person",
+      "personId": 5152,
+      "fullName": "Ryann Steuber I"
     },
     {
-      "PrimaryKey": 1477,
-      "EntityName": "sale",
-      "saleId": 1477,
-      "contactId": 8978,
-      "name": "Upton, Bins and Breitenberg"
+      "PrimaryKey": 5795,
+      "EntityName": "person",
+      "personId": 5795,
+      "fullName": "Myron Kshlerin III"
     }
   ]
 }

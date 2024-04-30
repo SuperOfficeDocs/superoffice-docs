@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=culpa
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Conn-Greenholt",
-    "ToolTip": "Expedita facere voluptatem quis beatae.",
+    "Id": 651,
+    "Name": "Bins-Swift",
+    "ToolTip": "Fugiat quos quia mollitia et quo odit.",
     "Deleted": true,
-    "Rank": 616,
-    "Type": "beatae",
+    "Rank": 446,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Marquardt Inc and Sons",
-        "ToolTip": "Modi ex blanditiis et exercitationem.",
+        "Id": 834,
+        "Name": "O'Conner-Collier",
+        "ToolTip": "Excepturi dolor quis eos autem assumenda dolore.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "quod",
+        "Rank": 713,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 84,
-        "ExtraInfo": "atque",
-        "StyleHint": "sit",
-        "FullName": "Chelsey Morissette",
+        "IconHint": "et",
+        "ColorBlock": 343,
+        "ExtraInfo": "sed",
+        "StyleHint": "natus",
+        "FullName": "Orrin Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 30
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 456,
-    "ExtraInfo": "eum",
-    "StyleHint": "enim",
-    "FullName": "Prof. Kiana Fritsch",
+    "IconHint": "laboriosam",
+    "ColorBlock": 785,
+    "ExtraInfo": "nulla",
+    "StyleHint": "sunt",
+    "FullName": "Arden Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldLength": 139
       }
     }
   }

@@ -3197,7 +3197,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=stage,person/kanaFirstName,person/personDirectPhone/description,person/correspondingAssociate/ejStatus,contact/restrictionAddress/line3
+GET /api/v1/archive/Favourites?$select=registeredByFullName,currency,person/birthDay,person/restrictionAddress/wgs84longitude,person/personInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

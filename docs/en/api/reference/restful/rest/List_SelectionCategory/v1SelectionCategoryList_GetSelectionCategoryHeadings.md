@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 490,
-    "Name": "Pfeffer Inc and Sons",
-    "Tooltip": "quam",
+    "HeadingId": 466,
+    "Name": "Kohler-Brown",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 453,
-    "UdListDefinitionId": 951,
+    "Rank": 961,
+    "UdListDefinitionId": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldLength": 610
       }
     }
   }

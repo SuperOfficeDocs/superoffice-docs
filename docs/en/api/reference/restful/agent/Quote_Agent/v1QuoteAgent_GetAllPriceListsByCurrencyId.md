@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 685,
-  "CurrencyId": 86
+  "QuoteConnectionId": 235,
+  "CurrencyId": 12
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 826,
-    "ERPPriceListKey": "debitis",
-    "QuoteConnectionId": 849,
-    "Name": "Robel-Mills",
-    "Description": "Organic user-facing matrix",
-    "Currency": "accusamus",
-    "CurrencyName": "Hudson-Pouros",
-    "ValidFrom": "2021-05-06T11:44:34.2907996+02:00",
-    "ValidTo": "2006-04-02T11:44:34.2907996+02:00",
-    "IsActive": true,
+    "PriceListId": 108,
+    "ERPPriceListKey": "velit",
+    "QuoteConnectionId": 581,
+    "Name": "Kemmer, Toy and Medhurst",
+    "Description": "Phased reciprocal focus group",
+    "Currency": "quos",
+    "CurrencyName": "Green-Swift",
+    "ValidFrom": "2016-07-29T11:16:09.6161411+02:00",
+    "ValidTo": "2007-07-24T11:16:09.6161411+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 898
       }
     }
   }

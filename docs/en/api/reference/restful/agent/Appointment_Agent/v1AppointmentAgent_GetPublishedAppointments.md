@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    714,
-    76
+    94,
+    456
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 949,
-    "StartDate": "2003-08-03T11:44:32.4474887+02:00",
-    "EndDate": "2007-06-23T11:44:32.4474887+02:00",
+    "AppointmentId": 74,
+    "StartDate": "2008-01-15T11:16:08.4278552+01:00",
+    "EndDate": "2012-06-19T11:16:08.4278552+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Pierre Farrell",
-    "ContactName": "Schumm LLC",
-    "Description": "Digitized incremental task-force",
-    "PersonFullName": "Gerald Maggio",
-    "PersonId": 163,
-    "ContactId": 750,
-    "ProjectId": 344,
-    "ProjectName": "Schroeder Inc and Sons",
+    "Task": "explicabo",
+    "AssociateFullName": "Ford McDermott",
+    "ContactName": "Willms Inc and Sons",
+    "Description": "Virtual high-level concept",
+    "PersonFullName": "Eudora Kertzmann",
+    "PersonId": 268,
+    "ContactId": 30,
+    "ProjectId": 654,
+    "ProjectName": "Price Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 913,
-    "ColorIndex": 953,
-    "IsFree": false,
+    "AssociateId": 547,
+    "ColorIndex": 122,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 888,
-    "PriorityName": "Lockman Group",
+    "PriorityId": 546,
+    "PriorityName": "Mante Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2022-12-23T11:44:32.4474887+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2020-06-08T11:16:08.4278552+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-01-18T11:44:32.4474887+01:00",
-    "RecurringEndDate": "2023-04-09T11:44:32.4474887+02:00",
-    "MotherId": 129,
-    "AssignedBy": 971,
-    "AssignedByFullName": "Dr. Mitchell Schiller V",
+    "RecurringStartDate": "2002-08-03T11:16:08.4278552+02:00",
+    "RecurringEndDate": "2019-04-05T11:16:08.4278552+02:00",
+    "MotherId": 198,
+    "AssignedBy": 392,
+    "AssignedByFullName": "Izaiah Pagac",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "enim",
-    "SaleId": 280,
-    "SaleName": "Heathcote LLC",
-    "AssociateName": "Koelpin, Mitchell and Heaney",
-    "CreatedDate": "1998-12-17T11:44:32.4474887+01:00",
-    "CreatedBy": "aspernatur",
-    "CreatedByFullName": "Beverly Kuphal",
-    "CreatedByAssociateId": 839,
+    "Location": "et",
+    "AlarmLeadTime": "est",
+    "SaleId": 925,
+    "SaleName": "Halvorson-Roob",
+    "AssociateName": "Ernser Inc and Sons",
+    "CreatedDate": "1999-01-17T11:16:08.4278552+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Ms. Bud Lueilwitz",
+    "CreatedByAssociateId": 773,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 218,
-    "Title": "sequi",
-    "Agenda": "tempore",
-    "InternalNotes": "illum",
+    "PreferredTZLocation": 148,
+    "Title": "omnis",
+    "Agenda": "repellendus",
+    "InternalNotes": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

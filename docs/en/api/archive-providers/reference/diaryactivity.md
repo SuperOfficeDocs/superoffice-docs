@@ -740,7 +740,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=contact/mainContact,contact/contactExtra/x_contact_contact_relation,project/LastDoBySale,sale/time,sale/associate/contactDepartment
+GET /api/v1/archive/DiaryActivity?$select=type,person/personSource,person/personInfo/textId,person/consentSourceStore,contact/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

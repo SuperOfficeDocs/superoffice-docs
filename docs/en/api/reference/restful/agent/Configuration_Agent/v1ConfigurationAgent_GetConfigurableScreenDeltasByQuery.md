@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 877,
-    "Name": "Kub, Heathcote and Pfannerstill",
-    "Description": "Business-focused interactive artificial intelligence",
-    "DeltaJson": "qui",
+    "ConfigurableScreenDeltaId": 742,
+    "Name": "Mayer Inc and Sons",
+    "Description": "Digitized intermediate groupware",
+    "DeltaJson": "eaque",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "aut",
-    "UpdatedDate": "2005-10-19T11:44:32.9942315+02:00",
-    "CreatedDate": "2015-08-04T11:44:32.9942315+02:00",
+    "RecipeId": "atque",
+    "UpdatedDate": "2014-04-02T11:16:08.8503482+02:00",
+    "CreatedDate": "1998-04-07T11:16:08.8503482+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      582,
-      266
+      310,
+      540
     ],
-    "AppliesToKey": "vitae",
+    "AppliesToKey": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldLength": 166
       }
     }
   }

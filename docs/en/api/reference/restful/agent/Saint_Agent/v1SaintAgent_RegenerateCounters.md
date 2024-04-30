@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Wyman-Ebert",
-  "AssociateId": 442,
-  "DetailsTable": 241,
-  "DetailsRecord": 403,
+  "Id": 944,
+  "Name": "Stracke, Gusikowski and Paucek",
+  "AssociateId": 172,
+  "DetailsTable": 963,
+  "DetailsRecord": 146,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ratione",
-    "ParameterObject2": "enim"
+    "ParameterObject1": "sed",
+    "ParameterObject2": "quae"
   },
-  "LastStarted": "2002-06-04T11:44:34.3376813+02:00",
-  "Created": "2023-01-16T11:44:34.3376813+01:00",
-  "StartCount": 593,
-  "DatabaseSerialNumber": "1867656",
-  "Context": "nam",
-  "Result": "non",
+  "LastStarted": "2017-12-04T11:16:09.6473837+01:00",
+  "Created": "2013-08-02T11:16:09.6473837+02:00",
+  "StartCount": 270,
+  "DatabaseSerialNumber": "1506262",
+  "Context": "ea",
+  "Result": "quia",
   "State": "All",
-  "Description": "Persevering stable monitoring",
-  "Response": "adipisci",
-  "Request": "impedit",
-  "ProgressDescription": "Decentralized secondary challenge",
-  "ProgressPercent": 269,
-  "FileName": "Satterfield-Daniel",
+  "Description": "Expanded analyzing conglomeration",
+  "Response": "aut",
+  "Request": "reprehenderit",
+  "ProgressDescription": "Compatible uniform software",
+  "ProgressPercent": 860,
+  "FileName": "Runolfsson-Kirlin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

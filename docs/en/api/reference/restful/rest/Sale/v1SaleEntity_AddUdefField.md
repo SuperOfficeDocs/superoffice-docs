@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 235,
-  "ColumnId": 896,
-  "FieldDefault": "omnis",
-  "FieldHeight": 541,
-  "FieldLabel": "vitae",
-  "FieldLeft": 340,
-  "FieldTop": 473,
+  "UDefFieldId": 878,
+  "ColumnId": 164,
+  "FieldDefault": "possimus",
+  "FieldHeight": 29,
+  "FieldLabel": "voluptatum",
+  "FieldLeft": 513,
+  "FieldTop": 753,
   "FieldType": "Checkbox",
-  "FieldWidth": 192,
-  "FormatMask": "delectus",
-  "HideLabel": false,
+  "FieldWidth": 319,
+  "FormatMask": "corporis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 756,
-  "LabelLeft": 423,
-  "LabelTop": 111,
-  "LabelWidth": 802,
-  "LastVersionId": 791,
-  "ListTableId": 479,
+  "LabelHeight": 890,
+  "LabelLeft": 53,
+  "LabelTop": 602,
+  "LabelWidth": 889,
+  "LastVersionId": 25,
+  "ListTableId": 757,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 533,
-  "ProgId": "molestiae",
-  "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 3,
-  "TextLength": 84,
-  "Tooltip": "explicabo",
-  "UdefIdentity": 291,
-  "UDListDefinitionId": 510,
+  "Page1LineNo": 649,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "molestiae",
+  "TabOrder": 832,
+  "TextLength": 379,
+  "Tooltip": "suscipit",
+  "UdefIdentity": 160,
+  "UDListDefinitionId": 763,
   "Justification": "Center",
-  "Version": 814,
-  "TemplateVariableName": "Pollich-Nienow",
-  "HasBeenPublished": false,
-  "MdoListName": "Luettgen LLC",
+  "Version": 372,
+  "TemplateVariableName": "Hills-Kohler",
+  "HasBeenPublished": true,
+  "MdoListName": "Kessler-Goyette",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

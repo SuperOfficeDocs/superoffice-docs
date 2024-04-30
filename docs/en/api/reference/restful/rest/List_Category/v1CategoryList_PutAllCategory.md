@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Littel-Hermann",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 967
+    "Id": 62,
+    "Name": "Hansen Group",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 182,
+    "Rank": 6
   },
   {
-    "Id": 294,
-    "Name": "Littel-Hermann",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 967
+    "Id": 62,
+    "Name": "Hansen Group",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 182,
+    "Rank": 6
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Luettgen Group",
-    "Tooltip": "aliquam",
+    "Id": 168,
+    "Name": "Bosco, Larkin and Watsica",
+    "Tooltip": "nulla",
     "Deleted": true,
-    "UdListDefinitionId": 410,
-    "Rank": 37,
+    "UdListDefinitionId": 519,
+    "Rank": 513,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 461
       }
     }
   }

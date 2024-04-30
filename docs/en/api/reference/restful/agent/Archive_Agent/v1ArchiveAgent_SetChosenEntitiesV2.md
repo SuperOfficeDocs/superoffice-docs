@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rosenbaum, McClure and Willms",
-  "ProviderName": "Lemke, Weber and Mann",
-  "Context": "assumenda",
-  "OwnerKeys": "fugit",
+  "GuiName": "Nader Inc and Sons",
+  "ProviderName": "Nienow-Schamberger",
+  "Context": "architecto",
+  "OwnerKeys": "veritatis",
   "Entities": [
-    "ut",
-    "consequatur"
+    "quia",
+    "dolores"
   ]
 }
 ```

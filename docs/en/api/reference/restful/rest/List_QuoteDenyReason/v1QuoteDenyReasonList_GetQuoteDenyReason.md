@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Streich-Lowe",
-  "Tooltip": "at",
+  "Id": 587,
+  "Name": "Schmidt LLC",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 671,
-  "Rank": 150,
+  "UdListDefinitionId": 459,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

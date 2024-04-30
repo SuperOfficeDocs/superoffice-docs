@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Von, Gerhold and Langosh",
-  "Tooltip": "ut",
+  "Id": 936,
+  "Name": "Marvin Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "UdListDefinitionId": 506,
-  "Rank": 124,
+  "UdListDefinitionId": 691,
+  "Rank": 316,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

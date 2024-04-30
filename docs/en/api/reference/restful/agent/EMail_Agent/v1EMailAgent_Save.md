@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 376,
-      "ContactName": "Considine, Gleichner and Wintheiser",
-      "PersonId": 698,
-      "PersonName": "Turcotte Group",
-      "AssociateId": 489,
-      "Address": "nemo",
-      "EmailId": 273,
+      "ContactId": 432,
+      "ContactName": "Price LLC",
+      "PersonId": 637,
+      "PersonName": "Schuppe-Bashirian",
+      "AssociateId": 225,
+      "Address": "odit",
+      "EmailId": 554,
       "DuplicatePersonIds": [
-        745,
-        227
+        136,
+        175
       ],
-      "Name": "Friesen Group",
+      "Name": "Fisher-Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 229
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 107,
-      "ContactName": "Gutmann-Kunze",
-      "PersonId": 436,
-      "PersonName": "Schmeler Group",
-      "AssociateId": 834,
-      "Address": "perspiciatis",
-      "EmailId": 178,
+      "ContactId": 86,
+      "ContactName": "Schuster, Ebert and Douglas",
+      "PersonId": 694,
+      "PersonName": "Conroy, Funk and Boyer",
+      "AssociateId": 119,
+      "Address": "neque",
+      "EmailId": 155,
       "DuplicatePersonIds": [
-        421,
-        258
+        605,
+        437
       ],
-      "Name": "Bogisich, Rippin and Torphy",
+      "Name": "Jaskolski-Bayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 88
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 177,
-      "ContactName": "Goyette, Carroll and Olson",
-      "PersonId": 571,
-      "PersonName": "Heidenreich Inc and Sons",
-      "AssociateId": 283,
-      "Address": "et",
-      "EmailId": 921,
+      "ContactId": 943,
+      "ContactName": "Prohaska-Sanford",
+      "PersonId": 830,
+      "PersonName": "Schuppe Inc and Sons",
+      "AssociateId": 351,
+      "Address": "atque",
+      "EmailId": 945,
       "DuplicatePersonIds": [
-        739,
-        150
+        870,
+        582
       ],
-      "Name": "Maggio-Anderson",
+      "Name": "Shanahan LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 472
         }
       }
     }
   ],
-  "Subject": "corrupti",
-  "HTMLBody": "nihil",
+  "Subject": "sequi",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2004-03-27T11:44:33.5722192+01:00",
-  "Size": 789,
+  "Sent": "2017-03-07T11:16:09.1628538+01:00",
+  "Size": 582,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "consequatur",
-  "IsSent": false,
+  "MessageID": "aliquid",
+  "PlainBody": "quod",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 491,
+  "ServerId": 47,
   "Attachments": [
     {
-      "Description": "Implemented leading edge framework",
-      "Filename": "iste",
-      "Size": 408,
-      "Type": "reiciendis",
-      "Encoding": "sunt",
-      "Id": "omnis",
-      "Disposition": "expedita",
+      "Description": "Expanded cohesive adapter",
+      "Filename": "ut",
+      "Size": 473,
+      "Type": "omnis",
+      "Encoding": "iusto",
+      "Id": "fuga",
+      "Disposition": "voluptate",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldType": "System.Int32",
+          "FieldLength": 907
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuhlman Group",
+      "Name": "Marvin, Hoppe and Thiel",
       "Values": [
-        "impedit",
-        "aut"
+        "non",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldLength": 975
         }
       }
     },
     {
-      "Name": "Kuhlman Group",
+      "Name": "Marvin, Hoppe and Thiel",
       "Values": [
-        "impedit",
-        "aut"
+        "non",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldLength": 975
         }
       }
     }
   ],
-  "FolderName": "Bahringer-Kuvalis",
-  "EmailItemId": 388,
-  "AccountId": 247,
-  "ReceivedAt": "2000-12-19T11:44:33.5722192+01:00",
+  "FolderName": "Kilback-Hauck",
+  "EmailItemId": 690,
+  "AccountId": 902,
+  "ReceivedAt": "2015-06-23T11:16:09.1628538+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-09-28T11:44:33.5722192+02:00",
+  "RepliedAt": "2018-09-05T11:16:09.1628538+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 338
     }
   }
 }

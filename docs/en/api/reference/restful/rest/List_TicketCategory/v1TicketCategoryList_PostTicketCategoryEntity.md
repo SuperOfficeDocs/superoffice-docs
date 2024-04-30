@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 938,
-  "ParentId": 979,
-  "Name": "Quitzon Group",
-  "Fullname": "error",
-  "CategoryMaster": 248,
+  "TicketCategoryId": 1001,
+  "ParentId": 30,
+  "Name": "Kiehn LLC",
+  "Fullname": "consequatur",
+  "CategoryMaster": 104,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Marvin Group",
+  "ExternalName": "Shields Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 747,
-  "ReplyTemplate": 151,
-  "NotificationEmail": "quincy.bosco@turnerbotsford.co.uk",
+  "AssignmentLag": 774,
+  "ReplyTemplate": 63,
+  "NotificationEmail": "eldora_ohara@oreillyfeeney.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 847,
+  "EffectiveReplyTemplateId": 782,
   "ExtraFields": {
-    "ExtraFields1": "eum",
+    "ExtraFields1": "eligendi",
     "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "amet"
+    "CustomFields1": "ut",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 257,
-  "ParentId": 205,
-  "Name": "Bayer-Kohler",
-  "Fullname": "a",
-  "CategoryMaster": 631,
+  "TicketCategoryId": 869,
+  "ParentId": 930,
+  "Name": "Frami, Berge and Sawayn",
+  "Fullname": "nobis",
+  "CategoryMaster": 664,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Runolfsson, Sanford and Stoltenberg",
+  "ExternalName": "Hand Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 313,
-  "ReplyTemplate": 841,
-  "NotificationEmail": "marlin_nitzsche@friesencronin.name",
+  "AssignmentLag": 305,
+  "ReplyTemplate": 103,
+  "NotificationEmail": "chase.kuhlman@murazikfranecki.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 898,
+  "EffectiveReplyTemplateId": 665,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "odio"
+    "ExtraFields1": "et",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "esse"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 129
     }
   }
 }

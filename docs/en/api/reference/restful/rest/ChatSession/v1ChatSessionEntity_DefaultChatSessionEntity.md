@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 482,
-  "TopicId": 571,
+  "ChatSessionId": 71,
+  "TopicId": 3,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "architecto",
-  "CustomerName": "Nolan-Harris",
-  "CustomerEmail": "imelda@shields.ca",
-  "CustomerPhone": "380-551-9845",
+  "CustomerAlias": "doloribus",
+  "CustomerHost": "blanditiis",
+  "CustomerName": "Harvey, Mertz and Bayer",
+  "CustomerEmail": "helen.heathcote@steuber.ca",
+  "CustomerPhone": "1-016-173-1543 x338",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bradtke-Wuckert",
+  "CustomerCompanyName": "Greenholt, Marks and Harber",
   "Status": "Closed",
-  "FirstMessage": "aperiam",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2019-02-24T11:44:41.5391337+01:00",
-  "WhenStarted": "2019-03-01T11:44:41.5391337+01:00",
-  "WhenEnded": "2000-02-29T11:44:41.5391337+01:00",
-  "WhenIdle": "2015-06-09T11:44:41.5391337+02:00",
-  "WhenFetched": "2014-11-26T11:44:41.5391337+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 547,
-  "AlertLevel": 958,
-  "Rank": 114,
+  "FirstMessage": "et",
+  "LastMessage": "voluptate",
+  "WhenRequested": "2013-07-11T11:16:13.6518794+02:00",
+  "WhenStarted": "2024-01-29T11:16:13.6518794+01:00",
+  "WhenEnded": "2020-01-24T11:16:13.6518794+01:00",
+  "WhenIdle": "2021-09-26T11:16:13.6518794+02:00",
+  "WhenFetched": "2019-10-05T11:16:13.6518794+02:00",
+  "SessionKey": "fuga",
+  "InitialQueuePos": 30,
+  "AlertLevel": 633,
+  "Rank": 708,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 656,
+  "ChatbotIsActive": false,
+  "Rating": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 154
     }
   }
 }

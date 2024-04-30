@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 952,
-    "Name": "Mohr, Welch and Schmeler",
-    "Tooltip": "similique",
-    "Rank": 621,
-    "Rate": 29349.91,
-    "Units": 5935.7959999999994,
+    "CurrencyId": 782,
+    "Name": "Botsford, Fay and Beier",
+    "Tooltip": "aut",
+    "Rank": 857,
+    "Rate": 13068.779999999999,
+    "Units": 4045.9939999999997,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

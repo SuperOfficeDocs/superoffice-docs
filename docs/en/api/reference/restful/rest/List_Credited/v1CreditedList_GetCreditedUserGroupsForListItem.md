@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Altenwerth-DuBuque",
-    "ToolTip": "Consequatur et facere.",
-    "Deleted": true,
-    "Rank": 834,
-    "Type": "vero",
-    "ColorBlock": 361,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2020-10-30T11:44:43.0231528+01:00",
+    "Id": 605,
+    "Name": "Keebler, Rempel and Lueilwitz",
+    "ToolTip": "Repellat dolores quo est illum commodi eligendi.",
+    "Deleted": false,
+    "Rank": 19,
+    "Type": "placeat",
+    "ColorBlock": 438,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-07-03T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Considine, Gutmann and Kirlin",
-        "ToolTip": "Sit est vitae mollitia qui.",
+        "Id": 260,
+        "Name": "O'Conner-Pouros",
+        "ToolTip": "Beatae aspernatur molestias a enim fugit cum molestiae.",
         "Deleted": true,
-        "Rank": 679,
-        "Type": "eum",
-        "ColorBlock": 490,
-        "IconHint": "dignissimos",
+        "Rank": 428,
+        "Type": "et",
+        "ColorBlock": 628,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "2014-10-18T11:44:43.0231528+02:00",
+        "LastChanged": "2013-09-21T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "quas",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Kody Fadel",
+        "FullName": "Ms. Rhea Odessa Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldLength": 212
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "omnis",
+    "ExtraInfo": "sequi",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Dr. Fredrick Gaylord",
+    "FullName": "Dr. Izaiah Columbus Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldType": "System.Int32",
+        "FieldLength": 311
       }
     }
   }

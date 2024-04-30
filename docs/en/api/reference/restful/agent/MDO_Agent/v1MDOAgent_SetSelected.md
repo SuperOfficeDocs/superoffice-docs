@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Treutel, Price and Ferry",
-  "AdditionalInfo": "et",
+  "Name": "Schultz-Beatty",
+  "AdditionalInfo": "temporibus",
   "SelectableMDOList": [
     {
-      "Id": 554,
-      "Name": "Hagenes Inc and Sons",
-      "ToolTip": "Delectus maiores vero et.",
+      "Id": 385,
+      "Name": "Trantow LLC",
+      "ToolTip": "Enim maiores.",
       "Deleted": false,
-      "Rank": 363,
-      "Type": "sit",
-      "ColorBlock": 599,
-      "IconHint": "tempora",
+      "Rank": 983,
+      "Type": "molestiae",
+      "ColorBlock": 796,
+      "IconHint": "quis",
       "Selected": false,
-      "LastChanged": "2011-07-03T11:44:33.9471419+02:00",
+      "LastChanged": "2014-07-23T11:16:09.3972026+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "necessitatibus",
+      "ExtraInfo": "ut",
+      "StyleHint": "omnis",
       "Hidden": true,
-      "FullName": "Lilyan Keebler"
+      "FullName": "Helmer Gusikowski"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Schulist, Cruickshank and Reinger",
-    "ToolTip": "Iste qui totam cupiditate.",
+    "Id": 838,
+    "Name": "Anderson-Smith",
+    "ToolTip": "Quasi animi iste sed est id corrupti.",
     "Deleted": false,
-    "Rank": 366,
-    "Type": "pariatur",
-    "ColorBlock": 624,
-    "IconHint": "expedita",
+    "Rank": 253,
+    "Type": "rerum",
+    "ColorBlock": 930,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2008-04-03T11:44:33.9471419+02:00",
+    "LastChanged": "2001-02-20T11:16:09.3972026+01:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "Schneider-Jakubowski",
-        "ToolTip": "Odio autem nisi praesentium et voluptatem.",
-        "Deleted": false,
-        "Rank": 339,
-        "Type": "assumenda",
-        "ColorBlock": 296,
-        "IconHint": "commodi",
+        "Id": 612,
+        "Name": "Bode-Schneider",
+        "ToolTip": "Suscipit nisi aspernatur non et cumque.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "neque",
+        "ColorBlock": 98,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2012-06-02T11:44:33.9471419+02:00",
+        "LastChanged": "2013-04-08T11:16:09.3972026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Wilton Renner Sr.",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Tristian Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 175
+            "FieldType": "System.String",
+            "FieldLength": 503
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "laborum",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Kylee Okuneva",
+    "FullName": "Michele Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldLength": 100
       }
     }
   }

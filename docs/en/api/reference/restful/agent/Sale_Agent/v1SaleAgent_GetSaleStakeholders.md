@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 666
+  "SaleId": 564
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kulas-Skiles",
-    "Comment": "ab",
-    "StakeholderRoleId": 336,
-    "CountryId": 934,
-    "PersonId": 349,
-    "EmailDescription": "paul.hartmann@ortizweissnat.co.uk",
-    "EmailId": 278,
-    "EmailAddress": "freeda_lindgren@mueller.biz",
-    "PhoneId": 586,
-    "ContactName": "Kozey Group",
-    "ContactId": 672,
-    "SaleId": 491,
-    "Mrmrs": "dolores",
-    "Firstname": "Justus",
-    "MiddleName": "Dickinson, Batz and Wunsch",
-    "Lastname": "Wilderman",
-    "SaleStakeholderId": 518,
-    "Rank": 241,
-    "Phone": "229.784.7895",
+    "StakeholderRoleName": "Blanda, Treutel and Robel",
+    "Comment": "modi",
+    "StakeholderRoleId": 310,
+    "CountryId": 808,
+    "PersonId": 972,
+    "EmailDescription": "darby@batz.info",
+    "EmailId": 793,
+    "EmailAddress": "dominic@maggio.com",
+    "PhoneId": 300,
+    "ContactName": "Stracke Group",
+    "ContactId": 168,
+    "SaleId": 860,
+    "Mrmrs": "architecto",
+    "Firstname": "Kaylin",
+    "MiddleName": "Stracke-Doyle",
+    "Lastname": "Bradtke",
+    "SaleStakeholderId": 125,
+    "Rank": 255,
+    "Phone": "(354)109-1390 x7942",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldLength": 139
       }
     }
   }

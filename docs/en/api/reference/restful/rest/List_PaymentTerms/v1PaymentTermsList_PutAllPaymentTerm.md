@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Hermiston-Halvorson",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 734,
-    "Rank": 537
+    "Id": 574,
+    "Name": "Schamberger-Homenick",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "UdListDefinitionId": 742,
+    "Rank": 525
   },
   {
-    "Id": 916,
-    "Name": "Hermiston-Halvorson",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 734,
-    "Rank": 537
+    "Id": 574,
+    "Name": "Schamberger-Homenick",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "UdListDefinitionId": 742,
+    "Rank": 525
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Glover-Hirthe",
-    "Tooltip": "officia",
-    "Deleted": true,
-    "UdListDefinitionId": 298,
-    "Rank": 544,
+    "Id": 925,
+    "Name": "Rempel Group",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "UdListDefinitionId": 121,
+    "Rank": 550,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldType": "System.Int32",
+        "FieldLength": 713
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 965
+  "UdListDefinitionId": 548
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 340,
-  "Name": "Nader Group",
-  "Tooltip": "in",
+  "HeadingId": 612,
+  "Name": "Dickens-Morar",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 88,
-  "UdListDefinitionId": 528,
+  "Rank": 900,
+  "UdListDefinitionId": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

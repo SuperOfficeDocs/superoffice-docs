@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 683,
-  "ModuleOwner": "occaecati"
+  "AssociateId": 815,
+  "ModuleOwner": "reprehenderit"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 711,
-    "Tooltip": "quia",
-    "CanAssign": true,
-    "Free": 220,
-    "InUse": 320,
-    "IsHidden": true,
+    "Total": 173,
+    "Tooltip": "ea",
+    "CanAssign": false,
+    "Free": 750,
+    "InUse": 716,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 470,
-    "Name": "Collins, Upton and Wiegand",
-    "Description": "Exclusive didactic neural-net",
-    "PrerequisiteModuleName": "Doyle Group",
-    "SortOrder": 91,
-    "ExtraFlags": 795,
+    "ModuleLicenseId": 46,
+    "Name": "Schneider Inc and Sons",
+    "Description": "Open-architected exuding application",
+    "PrerequisiteModuleName": "Buckridge LLC",
+    "SortOrder": 125,
+    "ExtraFlags": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

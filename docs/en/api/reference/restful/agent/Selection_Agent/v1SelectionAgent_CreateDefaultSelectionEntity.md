@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative discrete local area network",
-  "Postit": "ut",
+  "Description": "Face to face motivating pricing structure",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 184,
-  "IncludePerson": 396,
-  "MemberCount": 399,
-  "Name": "Greenfelder-Sporer",
-  "PostitTextId": 606,
-  "CreatedDate": "2017-01-06T11:44:34.4313975+01:00",
-  "SelectionId": 978,
-  "SoundEx": "veniam",
-  "Source": 973,
-  "TextId": 851,
-  "UpdatedDate": "2017-06-13T11:44:34.4313975+02:00",
-  "UpdatedCount": 993,
-  "Visibility": 282,
+  "GroupIdx": 364,
+  "IncludePerson": 692,
+  "MemberCount": 340,
+  "Name": "Gaylord-Corwin",
+  "PostitTextId": 187,
+  "CreatedDate": "2002-08-14T11:16:09.6947013+02:00",
+  "SelectionId": 556,
+  "SoundEx": "aut",
+  "Source": 11,
+  "TextId": 943,
+  "UpdatedDate": "2009-02-25T11:16:09.6947013+01:00",
+  "UpdatedCount": 607,
+  "Visibility": 33,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 474,
-  "TargetTableName": "Nienow, Boehm and Jacobi",
+  "TargetTableNumber": 215,
+  "TargetTableName": "Schaefer Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 722,
+  "LeftSelectionId": 946,
+  "RightSelectionId": 353,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rowe LLC",
-  "ShadowProviderName": "Leuschke, Luettgen and Larkin",
-  "ChartKey": "numquam",
-  "LastLoaded": "1999-09-09T11:44:34.4313975+02:00",
-  "LastLoadedBy": 120,
+  "MainProviderName": "Considine, Douglas and Anderson",
+  "ShadowProviderName": "Kozey, Mraz and Zemlak",
+  "ChartKey": "laborum",
+  "LastLoaded": "2002-11-25T11:16:09.6947013+01:00",
+  "LastLoadedBy": 425,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-08-24T11:44:34.4313975+02:00",
-  "LastMembershipChangeBy": 432,
+  "LastMembershipChange": "2001-07-07T11:16:09.6947013+02:00",
+  "LastMembershipChangeBy": 366,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "nisi",
-  "MailingsProviderName": "Reinger LLC",
-  "DashboardTileDefinitionId": 159,
+  "MainHeading": "quis",
+  "MemberTabHeading": "laborum",
+  "MailingsProviderName": "Jones, Herzog and Lynch",
+  "DashboardTileDefinitionId": 887,
   "VisibleFor": [
     {
-      "VisibleId": 446,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 878
+          "FieldType": "System.Int32",
+          "FieldLength": 584
         }
       }
     },
     {
-      "VisibleId": 446,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 878
+          "FieldType": "System.Int32",
+          "FieldLength": 584
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 528,
-  "Name": "Murazik, Keeling and Koelpin",
-  "Rank": 585,
-  "Tooltip": "et",
+  "AssociateId": 344,
+  "Name": "Tremblay Inc and Sons",
+  "Rank": 50,
+  "Tooltip": "distinctio",
   "LicenseOwners": [
     {
-      "Name": "Batz Group",
-      "Description": "Triple-buffered assymetric groupware",
+      "Name": "Carroll Inc and Sons",
+      "Description": "Configurable modular concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     },
     {
-      "Name": "Batz Group",
-      "Description": "Triple-buffered assymetric groupware",
+      "Name": "Carroll Inc and Sons",
+      "Description": "Configurable modular concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "debitis",
-      "Tooltip": "iste",
-      "Id": 55,
-      "Rank": 861,
+      "Value": "id",
+      "Tooltip": "natus",
+      "Id": 634,
+      "Rank": 840,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 661
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-12-14T11:44:34.9469084+01:00",
-  "Lastlogout": "2001-01-18T11:44:34.9469084+01:00",
-  "EjUserId": 563,
-  "RequestSignature": "reprehenderit",
+  "Lastlogin": "1997-11-10T11:16:10.0073992+01:00",
+  "Lastlogout": "2005-05-21T11:16:10.0073992+02:00",
+  "EjUserId": 708,
+  "RequestSignature": "autem",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "pariatur",
-      "DisplayValue": "debitis",
+      "Value": "ipsam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 150
         }
       }
     },
     {
       "Type": null,
-      "Value": "pariatur",
-      "DisplayValue": "debitis",
+      "Value": "ipsam",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 150
         }
       }
     }
   ],
-  "UserName": "Auer, Hermiston and Kunde",
+  "UserName": "O'Keefe-Reilly",
   "TicketCategories": [
     {
-      "Id": 11,
-      "Name": "Reinger-Hintz",
-      "ToolTip": "Inventore doloremque.",
-      "Deleted": true,
-      "Rank": 658,
-      "Type": "eum",
+      "Id": 869,
+      "Name": "Doyle-Considine",
+      "ToolTip": "Cupiditate laborum.",
+      "Deleted": false,
+      "Rank": 682,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nulla",
-      "ColorBlock": 253,
-      "ExtraInfo": "suscipit",
-      "StyleHint": "et",
-      "FullName": "Miss Hollie Timothy Walker",
+      "IconHint": "id",
+      "ColorBlock": 49,
+      "ExtraInfo": "cum",
+      "StyleHint": "molestiae",
+      "FullName": "Phyllis McDermott",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 284
+        }
+      }
+    }
+  ],
+  "NickName": "Huels, Kutch and Zemlak",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "vero"
+  },
+  "CustomFields": {
+    "CustomFields1": "ratione",
+    "CustomFields2": "qui"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Klocko Group",
+      "DisplayName": "Langosh Inc and Sons",
+      "Description": "Stand-alone intermediate frame",
+      "ToolTip": "Nobis natus unde eum explicabo voluptatem voluptatem voluptas.",
+      "Actions": "Implicit",
+      "ActionData": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 99
-        }
-      }
-    }
-  ],
-  "NickName": "Lubowitz-Buckridge",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "maxime"
-  },
-  "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "aut"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Bode-Mraz",
-      "DisplayName": "Spinka, Ruecker and Kihn",
-      "Description": "Grass-roots 4th generation projection",
-      "ToolTip": "Illum ducimus nihil sed dignissimos.",
-      "Actions": "Implicit",
-      "ActionData": "blanditiis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldLength": 546
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

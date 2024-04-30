@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Feil Group",
-    "ToolTip": "Minima sapiente consectetur veniam.",
+    "Id": 745,
+    "Name": "Green-Dickinson",
+    "ToolTip": "Vel ea.",
     "Deleted": true,
-    "Rank": 348,
-    "Type": "consectetur",
-    "ColorBlock": 754,
-    "IconHint": "ullam",
+    "Rank": 818,
+    "Type": "laboriosam",
+    "ColorBlock": 178,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2002-10-11T11:44:43.1793782+02:00",
+    "LastChanged": "2005-12-04T11:16:14.6370359+01:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Durgan Inc and Sons",
-        "ToolTip": "Qui vel facilis aut consequatur sed.",
-        "Deleted": false,
-        "Rank": 100,
-        "Type": "optio",
-        "ColorBlock": 191,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "2002-03-04T11:44:43.1793782+01:00",
+        "Id": 404,
+        "Name": "Greenholt, Braun and Dickens",
+        "ToolTip": "Perferendis quaerat mollitia voluptas.",
+        "Deleted": true,
+        "Rank": 874,
+        "Type": "sit",
+        "ColorBlock": 942,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2005-12-30T11:16:14.6370359+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Freddy Sipes PhD",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Prof. Andre Everardo Kessler V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Davonte Farrell",
+    "ExtraInfo": "illo",
+    "StyleHint": "laudantium",
+    "Hidden": true,
+    "FullName": "Madelyn Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 610
       }
     }
   }

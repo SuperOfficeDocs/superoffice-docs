@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "dolores",
-  "Instance": "voluptas",
-  "Page": "fugiat"
+  "Application": "sint",
+  "Instance": "perferendis",
+  "Page": "doloremque"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"facere"
 ```

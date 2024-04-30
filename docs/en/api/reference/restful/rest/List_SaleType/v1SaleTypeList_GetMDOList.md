@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=corporis
+GET /api/v1/List/SaleType/MDOItems?query=similique
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Johns, Feil and Roberts",
-    "ToolTip": "Id rem molestiae excepturi provident neque qui ut.",
-    "Deleted": false,
-    "Rank": 355,
-    "Type": "suscipit",
+    "Id": 908,
+    "Name": "Gleason, Schimmel and Feil",
+    "ToolTip": "Consequatur minus excepturi veniam molestias facere pariatur occaecati.",
+    "Deleted": true,
+    "Rank": 377,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 811,
-        "Name": "Smitham LLC",
-        "ToolTip": "Dolorem sed impedit aut consequatur fuga.",
+        "Id": 582,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Occaecati ducimus possimus ea dolorum dignissimos saepe.",
         "Deleted": true,
-        "Rank": 723,
-        "Type": "eveniet",
+        "Rank": 660,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 205,
-        "ExtraInfo": "aliquid",
-        "StyleHint": "est",
-        "FullName": "Salvador Heathcote",
+        "IconHint": "rem",
+        "ColorBlock": 175,
+        "ExtraInfo": "eligendi",
+        "StyleHint": "sit",
+        "FullName": "Mr. Catalina Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 165
+            "FieldType": "System.Int32",
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 785,
-    "ExtraInfo": "rem",
-    "StyleHint": "voluptatum",
-    "FullName": "Veda Erich Stiedemann II",
+    "IconHint": "accusamus",
+    "ColorBlock": 401,
+    "ExtraInfo": "saepe",
+    "StyleHint": "exercitationem",
+    "FullName": "Gust McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 403
       }
     }
   }

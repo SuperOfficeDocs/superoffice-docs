@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 974,
-    "Name": "Hane-Jast",
-    "ConsentText": "modi",
-    "FormText": "quis",
-    "Key": "voluptatibus",
-    "Tooltip": "dolore",
-    "Active": 287,
-    "UpdatedDate": "2006-05-21T11:44:33.8690333+02:00",
+    "ConsentPurposeId": 15,
+    "Name": "Boyer LLC",
+    "ConsentText": "expedita",
+    "FormText": "ea",
+    "Key": "rerum",
+    "Tooltip": "libero",
+    "Active": 939,
+    "UpdatedDate": "2016-01-04T11:16:09.3503293+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 492,
-    "PrivacyStatementDesc": "blanditiis",
+    "Rank": 497,
+    "PrivacyStatementDesc": "voluptatem",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldLength": 489
       }
     }
   }

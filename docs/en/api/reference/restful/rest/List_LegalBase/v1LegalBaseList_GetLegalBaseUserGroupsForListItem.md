@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 387,
-    "Name": "Blanda-Schiller",
-    "ToolTip": "Aliquid omnis.",
-    "Deleted": false,
-    "Rank": 603,
-    "Type": "minima",
-    "ColorBlock": 181,
-    "IconHint": "et",
+    "Id": 171,
+    "Name": "Rippin Inc and Sons",
+    "ToolTip": "Omnis explicabo sed.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "quis",
+    "ColorBlock": 391,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2010-12-25T11:44:43.1012637+01:00",
+    "LastChanged": "2011-09-02T11:16:14.5745384+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Lang Group",
-        "ToolTip": "Omnis omnis rem sint distinctio quasi beatae aut.",
+        "Id": 614,
+        "Name": "Greenfelder-Huel",
+        "ToolTip": "Est quia et id eum.",
         "Deleted": false,
-        "Rank": 333,
-        "Type": "nisi",
-        "ColorBlock": 320,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2024-03-02T11:44:43.1012637+01:00",
+        "Rank": 96,
+        "Type": "similique",
+        "ColorBlock": 422,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2010-02-26T11:16:14.5745384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Fausto Hansen",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Mr. Angelica Myrtle Hills MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "soluta",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Claudia Murazik",
+    "FullName": "Tanner Lizzie Windler Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 284
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 128,
-  "ERPQuoteAlternativeKey": "vitae",
-  "QuoteVersionId": 152,
-  "Name": "Weber-Green",
-  "Description": "Expanded content-based middleware",
+  "QuoteAlternativeId": 211,
+  "ERPQuoteAlternativeKey": "unde",
+  "QuoteVersionId": 740,
+  "Name": "Hegmann, Nolan and Lubowitz",
+  "Description": "User-friendly needs-based strategy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 5227.512,
-  "ERPDiscountAmount": 11128.833999999999,
-  "DiscountPercent": 28735.646,
-  "DiscountAmount": 12698.967999999999,
+  "ERPDiscountPercent": 10085.212,
+  "ERPDiscountAmount": 25137.814,
+  "DiscountPercent": 2106.048,
+  "DiscountAmount": 25664.326,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "neque",
-  "VAT": 1755.04,
-  "EarningPercent": 13269.356,
-  "EarningAmount": 805.438,
-  "SubTotal": 30725.736,
-  "TotalPrice": 26805.102,
-  "ExtraField1": "quis",
-  "ExtraField2": "quis",
-  "ExtraField3": "tempora",
-  "ExtraField4": "qui",
-  "ExtraField5": "omnis",
+  "VATInfo": "et",
+  "VAT": 18180.334,
+  "EarningPercent": 29976.71,
+  "EarningAmount": 27996.022,
+  "SubTotal": 18584.62,
+  "TotalPrice": 23702.442,
+  "ExtraField1": "in",
+  "ExtraField2": "quo",
+  "ExtraField3": "nostrum",
+  "ExtraField4": "et",
+  "ExtraField5": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 341
     }
   }
 }

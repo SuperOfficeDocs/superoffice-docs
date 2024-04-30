@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 661,
-  "Name": "Parisian, Price and Wilderman",
-  "Tooltip": "sunt",
+  "WebPanelId": 486,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 217,
+  "Rank": 758,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Wolf-Hintz",
+  "ShowInStatusBar": false,
+  "WindowName": "Cruickshank-Kemmer",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 644,
+  "ProgId": "hic",
+  "Icon": 973,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 36
     }
   }
 }

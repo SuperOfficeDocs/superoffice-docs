@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Donnelly, Oberbrunner and Sauer",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 523,
-  "Rank": 985,
+  "Id": 404,
+  "Name": "Klocko-Stracke",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 620,
+  "Rank": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

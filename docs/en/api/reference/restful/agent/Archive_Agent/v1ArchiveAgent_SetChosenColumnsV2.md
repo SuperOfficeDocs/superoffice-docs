@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Heller Inc and Sons",
-  "ProviderName": "Labadie-Littel",
-  "Context": "quae",
-  "OwnerKeys": "sapiente",
+  "GuiName": "Jaskolski-Hoppe",
+  "ProviderName": "Corwin Inc and Sons",
+  "Context": "pariatur",
+  "OwnerKeys": "non",
   "ChosenColumns": [
-    "aut",
-    "temporibus"
+    "autem",
+    "dolor"
   ]
 }
 ```

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Langosh-Bartell",
-  "Comment": "maiores",
-  "StakeholderRoleId": 729,
-  "CountryId": 973,
-  "PersonId": 534,
-  "EmailDescription": "marshall@ruecker.co.uk",
-  "EmailId": 421,
-  "EmailAddress": "lawrence@shields.com",
-  "PhoneId": 837,
-  "ContactName": "Haley, Bartell and Mertz",
-  "ContactId": 870,
-  "SaleId": 754,
-  "Mrmrs": "quae",
-  "Firstname": "Amalia",
-  "MiddleName": "Doyle-Boyer",
-  "Lastname": "Kautzer",
-  "SaleStakeholderId": 918,
-  "Rank": 533,
-  "Phone": "(335)813-0412 x42486",
+  "StakeholderRoleName": "Mayer Inc and Sons",
+  "Comment": "amet",
+  "StakeholderRoleId": 486,
+  "CountryId": 674,
+  "PersonId": 704,
+  "EmailDescription": "aniyah.west@wintheiser.info",
+  "EmailId": 857,
+  "EmailAddress": "addie.brakus@rolfson.biz",
+  "PhoneId": 847,
+  "ContactName": "Leannon, Towne and Gibson",
+  "ContactId": 133,
+  "SaleId": 238,
+  "Mrmrs": "nulla",
+  "Firstname": "Tavares",
+  "MiddleName": "Willms LLC",
+  "Lastname": "Tillman",
+  "SaleStakeholderId": 128,
+  "Rank": 162,
+  "Phone": "(796)385-9961",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   },
   "_Links": {

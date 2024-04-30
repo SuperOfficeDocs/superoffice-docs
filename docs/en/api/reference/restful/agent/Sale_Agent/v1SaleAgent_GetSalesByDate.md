@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2021-05-13T11:44:34.4001629+02:00",
-  "ToDate": "2015-03-06T11:44:34.4001629+01:00",
-  "AmountLimit": 426,
+  "FromDate": "2022-06-03T11:16:09.6846608+02:00",
+  "ToDate": "2017-02-16T11:16:09.6846608+01:00",
+  "AmountLimit": 952,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "McDermott, Boyle and Roob",
-    "SaleDate": "2011-09-10T11:44:34.4001629+02:00",
-    "SaleId": 104,
-    "Probability": 175,
-    "Title": "quas",
-    "Amount": 25535.832,
-    "Currency": "distinctio",
-    "ProjectName": "Runolfsdottir-Bechtelar",
-    "AssociateFullName": "Payton Adams",
-    "Description": "Phased clear-thinking time-frame",
+    "ContactName": "Flatley, Prohaska and O'Reilly",
+    "SaleDate": "2014-03-15T11:16:09.6846608+01:00",
+    "SaleId": 148,
+    "Probability": 714,
+    "Title": "expedita",
+    "Amount": 10730.815999999999,
+    "Currency": "ducimus",
+    "ProjectName": "Dach, Sauer and Bergstrom",
+    "AssociateFullName": "Newton Jones",
+    "Description": "Integrated bifurcated product",
     "Status": "Lost",
-    "WeightedAmount": 31245.98,
-    "ProjectId": 321,
-    "EarningPercent": 5810.436,
-    "Earning": 1228.528,
-    "ContactId": 943,
-    "AssociateId": 632,
-    "PersonId": 916,
-    "SaleTypeId": 523,
-    "SaleTypeName": "Hartmann Inc and Sons",
-    "PersonFullName": "Haven O'Conner",
+    "WeightedAmount": 15322.126,
+    "ProjectId": 596,
+    "EarningPercent": 15309.59,
+    "Earning": 15952.06,
+    "ContactId": 88,
+    "AssociateId": 906,
+    "PersonId": 972,
+    "SaleTypeId": 654,
+    "SaleTypeName": "Kub LLC",
+    "PersonFullName": "Dr. Lance Nyasia Raynor",
     "Completed": "Completed",
-    "ActiveErpLinks": 349,
-    "NextDueDate": "2020-08-20T11:44:34.4001629+02:00",
-    "Number": "1350159",
+    "ActiveErpLinks": 613,
+    "NextDueDate": "2014-04-27T11:16:09.6846608+02:00",
+    "Number": "1035689",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

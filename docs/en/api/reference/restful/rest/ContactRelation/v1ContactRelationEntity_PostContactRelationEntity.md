@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 58,
-  "SourcePersonId": 102,
-  "DestinationContactId": 502,
-  "DestinationPersonId": 553,
-  "RelationId": 39,
-  "Comment": "earum",
-  "RelationDefinitionId": 960,
-  "Reversed": 548,
-  "UpdatedDate": "2015-03-13T11:44:41.8515534+01:00",
-  "CreatedDate": "2005-07-31T11:44:41.8515534+02:00",
+  "SourceContactId": 172,
+  "SourcePersonId": 652,
+  "DestinationContactId": 804,
+  "DestinationPersonId": 4,
+  "RelationId": 347,
+  "Comment": "qui",
+  "RelationDefinitionId": 5,
+  "Reversed": 615,
+  "UpdatedDate": "2011-09-05T11:16:13.83947+02:00",
+  "CreatedDate": "2016-05-01T11:16:13.83947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schaden, Veum and Gerhold",
-  "SourcePersonName": "Fahey, Haag and Waters",
-  "DestinationContactName": "Schumm, Lockman and O'Hara",
-  "DestinationPersonName": "Lubowitz-Dare",
-  "ActiveText": "harum",
-  "PassiveText": "nobis"
+  "SourceContactName": "Quigley, Kirlin and Raynor",
+  "SourcePersonName": "Mosciski-Lynch",
+  "DestinationContactName": "Beier Inc and Sons",
+  "DestinationPersonName": "Weber-Mayer",
+  "ActiveText": "fugiat",
+  "PassiveText": "magnam"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 495,
-  "SourcePersonId": 514,
-  "DestinationContactId": 783,
-  "DestinationPersonId": 58,
-  "RelationId": 31,
-  "Comment": "possimus",
-  "RelationDefinitionId": 160,
-  "Reversed": 361,
-  "UpdatedDate": "2005-07-23T11:44:41.8515534+02:00",
-  "CreatedDate": "2008-11-02T11:44:41.8515534+01:00",
+  "SourceContactId": 754,
+  "SourcePersonId": 246,
+  "DestinationContactId": 676,
+  "DestinationPersonId": 774,
+  "RelationId": 809,
+  "Comment": "in",
+  "RelationDefinitionId": 263,
+  "Reversed": 667,
+  "UpdatedDate": "2004-05-11T11:16:13.83947+02:00",
+  "CreatedDate": "2017-06-18T11:16:13.83947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rohan Group",
-  "SourcePersonName": "Gorczany Group",
-  "DestinationContactName": "Becker-Reinger",
-  "DestinationPersonName": "Tremblay Group",
-  "ActiveText": "voluptatum",
-  "PassiveText": "ea",
+  "SourceContactName": "Quitzon-Nicolas",
+  "SourcePersonName": "Cremin LLC",
+  "DestinationContactName": "Schultz Inc and Sons",
+  "DestinationPersonName": "Emard-Harris",
+  "ActiveText": "rerum",
+  "PassiveText": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 867
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

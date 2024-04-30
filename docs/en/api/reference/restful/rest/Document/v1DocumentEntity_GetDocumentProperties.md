@@ -66,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,7 +76,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "amet",
-  "2": "aliquid"
+  "1": "laboriosam",
+  "2": "ipsum"
 }
 ```

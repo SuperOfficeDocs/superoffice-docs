@@ -102,11 +102,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 326,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2019-08-03T11:44:33.4160074+02:00",
-  "EndTime": "2010-12-20T11:44:33.4160074+01:00",
-  "Count": 911
+  "PersonId": 615,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-11-14T11:16:09.0691155+01:00",
+  "EndTime": "2002-01-19T11:16:09.0691155+01:00",
+  "Count": 766
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 918,
-    "Attention": "error",
-    "Header": "non",
-    "Name": "Donnelly-Ryan",
-    "OurRef": "debitis",
-    "YourRef": "eaque",
-    "Description": "Reduced national Graphic Interface",
-    "DocumentTemplate": "exercitationem",
-    "IsPublished": true,
-    "PersonId": 637,
-    "PersonFullName": "Teagan Keebler",
-    "AssociateFullName": "Darlene Witting",
-    "ContactId": 105,
-    "ContactName": "Quitzon Inc and Sons",
-    "ProjectId": 506,
-    "ProjectName": "Bergnaum LLC",
-    "AssociateId": 762,
-    "Snum": 119,
-    "SaleId": 588,
-    "SaleName": "Rice-Beatty",
+    "DocumentId": 772,
+    "Attention": "nostrum",
+    "Header": "recusandae",
+    "Name": "Renner-Breitenberg",
+    "OurRef": "nihil",
+    "YourRef": "autem",
+    "Description": "Operative demand-driven infrastructure",
+    "DocumentTemplate": "voluptatibus",
+    "IsPublished": false,
+    "PersonId": 847,
+    "PersonFullName": "Merritt Harris",
+    "AssociateFullName": "Gennaro Murray",
+    "ContactId": 606,
+    "ContactName": "Robel-Frami",
+    "ProjectId": 504,
+    "ProjectName": "Ernser-O'Kon",
+    "AssociateId": 643,
+    "Snum": 465,
+    "SaleId": 876,
+    "SaleName": "Witting-Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

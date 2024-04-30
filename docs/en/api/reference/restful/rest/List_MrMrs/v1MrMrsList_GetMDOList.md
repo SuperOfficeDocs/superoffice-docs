@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=voluptatem
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Mertz-Carroll",
-    "ToolTip": "Et nemo natus animi quo saepe dignissimos placeat.",
+    "Id": 139,
+    "Name": "Bins-Buckridge",
+    "ToolTip": "Culpa voluptas.",
     "Deleted": false,
-    "Rank": 301,
-    "Type": "iste",
+    "Rank": 181,
+    "Type": "vitae",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Hilpert Group",
-        "ToolTip": "Nulla repellat debitis vel.",
+        "Id": 435,
+        "Name": "Schulist, Hessel and Koepp",
+        "ToolTip": "Non inventore sit omnis nihil rerum et.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "perspiciatis",
+        "Rank": 321,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 973,
-        "ExtraInfo": "enim",
-        "StyleHint": "doloribus",
-        "FullName": "Franz Lubowitz",
+        "IconHint": "sunt",
+        "ColorBlock": 878,
+        "ExtraInfo": "quam",
+        "StyleHint": "aperiam",
+        "FullName": "Remington Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 718
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 442,
-    "ExtraInfo": "error",
-    "StyleHint": "dicta",
-    "FullName": "Ilene Murazik",
+    "IconHint": "maxime",
+    "ColorBlock": 900,
+    "ExtraInfo": "omnis",
+    "StyleHint": "ut",
+    "FullName": "Mrs. Sandra Reyna Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 613
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Brown-Rolfson",
-  "Tooltip": "illum",
+  "Id": 226,
+  "Name": "Rogahn Group",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 626,
+  "Rank": 525,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 296,
-  "Name": "Swift Inc and Sons",
-  "Tooltip": "fugit",
+  "Id": 155,
+  "Name": "Berge-Welch",
+  "Tooltip": "unde",
   "Deleted": true,
-  "Rank": 645,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "Rank": 721,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 200
     }
   }
 }

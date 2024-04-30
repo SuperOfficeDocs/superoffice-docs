@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 502,
-  "Name": "Rodriguez-Jewess",
-  "CreatedDate": "2015-03-09T11:44:41.9921474+01:00",
-  "UpdatedDate": "2002-11-18T11:44:41.9921474+01:00",
+  "ForeignAppId": 422,
+  "Name": "Osinski Inc and Sons",
+  "CreatedDate": "2007-06-04T11:16:13.9175899+02:00",
+  "UpdatedDate": "2020-04-06T11:16:13.9175899+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 387,
-      "Name": "Muller, Pagac and Roob",
-      "CreatedDate": "2006-12-28T11:44:41.9921474+01:00",
-      "UpdatedDate": "2022-10-03T11:44:41.9921474+02:00",
-      "AssociateFullName": "Mr. Seth Vanessa Cronin",
-      "CreatedBy": "fugit",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 633
+      "ForeignDeviceId": 582,
+      "Name": "Dooley Group",
+      "CreatedDate": "2014-04-27T11:16:13.9175899+02:00",
+      "UpdatedDate": "2021-04-05T11:16:13.9175899+02:00",
+      "AssociateFullName": "Cecile Wiegand",
+      "CreatedBy": "eligendi",
+      "UpdatedBy": "libero",
+      "DeviceIdentifier": "corporis",
+      "ForeignAppId": 166
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 653,
-  "Name": "Cartwright-Boyle",
-  "CreatedDate": "2004-09-21T11:44:41.9921474+02:00",
-  "UpdatedDate": "2007-11-17T11:44:41.9921474+01:00",
+  "ForeignAppId": 419,
+  "Name": "Walker LLC",
+  "CreatedDate": "2005-03-29T11:16:13.9175899+02:00",
+  "UpdatedDate": "2015-08-11T11:16:13.9175899+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 972,
-      "Name": "Stoltenberg LLC",
-      "CreatedDate": "2016-02-28T11:44:41.9921474+01:00",
-      "UpdatedDate": "2004-03-05T11:44:41.9921474+01:00",
-      "AssociateFullName": "Dr. Serenity Padberg DVM",
-      "CreatedBy": "ut",
-      "UpdatedBy": "excepturi",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 729,
+      "ForeignDeviceId": 818,
+      "Name": "Stracke-Bernhard",
+      "CreatedDate": "1996-12-18T11:16:13.93321+01:00",
+      "UpdatedDate": "1998-04-23T11:16:13.93321+02:00",
+      "AssociateFullName": "Jeffrey Flatley",
+      "CreatedBy": "laboriosam",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "harum",
+      "ForeignAppId": 719,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 547
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
@@ -156,13 +156,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

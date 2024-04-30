@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bailey, Wolf and Senger",
-  "DeviceName": "Halvorson, Hane and Stroman"
+  "ApplicationName": "Armstrong Inc and Sons",
+  "DeviceName": "Ortiz, Heathcote and Brekke"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "id",
-    "Value": "labore",
-    "RecordId": 958,
-    "CreatedDate": "2001-07-15T11:44:33.7753083+02:00",
-    "UpdatedDate": "2020-08-22T11:44:33.7753083+02:00",
-    "UpdatedBy": "molestiae",
-    "CreatedBy": "iste",
-    "TableName": "Lehner LLC",
+    "Key": "enim",
+    "Value": "eum",
+    "RecordId": 579,
+    "CreatedDate": "2012-04-25T11:16:09.2878404+02:00",
+    "UpdatedDate": "2011-10-18T11:16:09.2878404+02:00",
+    "UpdatedBy": "autem",
+    "CreatedBy": "voluptates",
+    "TableName": "Padberg-Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Miller, O'Hara and Jacobi",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "UdListDefinitionId": 339,
-  "Rank": 366,
+  "Id": 955,
+  "Name": "Kovacek, Hintz and Rice",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 163,
+  "Rank": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 868
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Kuvalis LLC",
-    "ToolTip": "Et totam aliquid quas.",
+    "Id": 135,
+    "Name": "Haley-Bayer",
+    "ToolTip": "Cumque et.",
     "Deleted": false,
-    "Rank": 297,
-    "Type": "voluptas",
-    "ColorBlock": 37,
-    "IconHint": "dolore",
-    "Selected": true,
-    "LastChanged": "2022-12-26T11:44:43.1168808+01:00",
+    "Rank": 984,
+    "Type": "suscipit",
+    "ColorBlock": 675,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2011-10-28T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Waters Group",
-        "ToolTip": "Ipsa repellat soluta laboriosam non doloribus.",
+        "Id": 407,
+        "Name": "Schmitt-Parker",
+        "ToolTip": "Aut corrupti provident hic vitae porro.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "aliquid",
-        "ColorBlock": 70,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2007-07-26T11:44:43.1168808+02:00",
+        "Rank": 335,
+        "Type": "nisi",
+        "ColorBlock": 611,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2007-08-23T11:16:14.5901626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "et",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Nicola Little IV",
+        "FullName": "Minerva Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "beatae",
-    "Hidden": true,
-    "FullName": "Mireille Senger II",
+    "ExtraInfo": "unde",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Jayne Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

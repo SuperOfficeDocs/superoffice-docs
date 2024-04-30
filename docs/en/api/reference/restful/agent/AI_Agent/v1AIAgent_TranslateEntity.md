@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wiza, Funk and Hansen",
-  "EntityId": 642,
-  "TargetLanguage": "voluptas"
+  "EntityName": "Cummerata LLC",
+  "EntityId": 88,
+  "TargetLanguage": "placeat"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iusto"
+"facere"
 ```

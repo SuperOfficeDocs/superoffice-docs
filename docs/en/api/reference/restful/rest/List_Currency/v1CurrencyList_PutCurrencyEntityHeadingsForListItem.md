@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Hoeger-Reynolds",
-    "ToolTip": "Autem soluta porro fuga.",
-    "Deleted": false,
-    "Rank": 878,
-    "Type": "reprehenderit",
-    "ColorBlock": 318,
-    "IconHint": "repudiandae",
+    "Id": 308,
+    "Name": "VonRueden-Weber",
+    "ToolTip": "Qui et qui.",
+    "Deleted": true,
+    "Rank": 582,
+    "Type": "nostrum",
+    "ColorBlock": 44,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2005-01-30T11:44:43.0387817+01:00",
+    "LastChanged": "2010-07-17T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Bogan-Quitzon",
-        "ToolTip": "Inventore explicabo vel debitis voluptates voluptate pariatur.",
+        "Id": 882,
+        "Name": "Bednar, Leffler and Bergnaum",
+        "ToolTip": "Rem ut fugiat eos qui.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "sit",
-        "ColorBlock": 90,
-        "IconHint": "modi",
+        "Rank": 118,
+        "Type": "autem",
+        "ColorBlock": 508,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2019-03-08T11:44:43.0387817+01:00",
+        "LastChanged": "1999-03-30T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Vaughn Quigley"
+        "ExtraInfo": "enim",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Dr. Kaylin Heidenreich"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Americo Bednar"
+    "ExtraInfo": "suscipit",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Alanna Lubowitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Jacobson-Ryan",
-    "ToolTip": "Excepturi dolorem quia commodi sint mollitia eum.",
+    "Id": 383,
+    "Name": "Smith-Schoen",
+    "ToolTip": "Eos et quae beatae excepturi.",
     "Deleted": true,
-    "Rank": 967,
-    "Type": "maxime",
-    "ColorBlock": 369,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2004-05-21T11:44:43.0387817+02:00",
+    "Rank": 303,
+    "Type": "at",
+    "ColorBlock": 903,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2017-05-24T11:16:14.5432954+02:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Donnelly LLC",
-        "ToolTip": "Temporibus soluta porro sit officia.",
+        "Id": 370,
+        "Name": "Hodkiewicz, Weissnat and Rau",
+        "ToolTip": "Aut et qui.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "tempora",
-        "ColorBlock": 556,
-        "IconHint": "veniam",
+        "Rank": 805,
+        "Type": "voluptate",
+        "ColorBlock": 419,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2022-08-11T11:44:43.0387817+02:00",
+        "LastChanged": "2016-11-11T11:16:14.5432954+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sunt",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Camden Dickinson",
+        "FullName": "Noemie Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 128
+            "FieldLength": 506
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "non",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Ronny Hyatt",
+    "FullName": "Filiberto Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

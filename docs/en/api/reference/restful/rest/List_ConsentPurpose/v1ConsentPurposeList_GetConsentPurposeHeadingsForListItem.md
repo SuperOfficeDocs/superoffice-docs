@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Corwin Inc and Sons",
-    "ToolTip": "Sed molestiae velit voluptatem dolorum.",
+    "Id": 556,
+    "Name": "Haag-Terry",
+    "ToolTip": "Possimus dolores et sed nihil.",
     "Deleted": false,
-    "Rank": 892,
-    "Type": "rerum",
-    "ColorBlock": 685,
-    "IconHint": "molestiae",
+    "Rank": 779,
+    "Type": "ea",
+    "ColorBlock": 675,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-06-26T11:44:42.9762901+02:00",
+    "LastChanged": "2017-06-25T11:16:14.512052+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Murazik Group",
-        "ToolTip": "Nam ex aut non ad culpa.",
+        "Id": 169,
+        "Name": "Gulgowski LLC",
+        "ToolTip": "Vel voluptatibus rerum ratione dolor architecto eos dignissimos.",
         "Deleted": false,
-        "Rank": 992,
-        "Type": "nemo",
-        "ColorBlock": 403,
-        "IconHint": "in",
+        "Rank": 845,
+        "Type": "voluptatem",
+        "ColorBlock": 398,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2008-11-24T11:44:42.9762901+01:00",
+        "LastChanged": "1997-10-08T11:16:14.512052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Shirley Heller DDS",
+        "ExtraInfo": "iste",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Mr. Brandon Quitzon Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 783
+            "FieldType": "System.Int32",
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Claude Simonis",
+    "ExtraInfo": "possimus",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Camilla Adaline Treutel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldType": "System.Int32",
+        "FieldLength": 111
       }
     }
   }

@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Herzog Group",
-  "StorageKey": "a",
-  "Restrictions": "repudiandae",
-  "StaticColumns": "dolores"
+  "StorageType": "laudantium",
+  "ProviderName": "Haag Inc and Sons",
+  "StorageKey": "facere",
+  "Restrictions": "voluptatem",
+  "StaticColumns": "necessitatibus"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McDermott, Reinger and Hamill",
-      "Operator": "iusto",
+      "Name": "Mueller Group",
+      "Operator": "deserunt",
       "Values": [
-        "ut",
-        "suscipit"
+        "quisquam",
+        "laboriosam"
       ],
       "DisplayValues": [
-        "ducimus",
-        "eveniet"
+        "itaque",
+        "corrupti"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 996,
+      "InterParenthesis": 372,
       "InterOperator": "And",
-      "UniqueHash": 397
+      "UniqueHash": 709
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Denesik, Rau and Schmeler",
-      "DisplayTooltip": "officia",
-      "DisplayType": "aut",
-      "CanOrderBy": true,
-      "Name": "Kunze, Borer and Cronin",
+      "DisplayName": "Cummerata-Wiegand",
+      "DisplayTooltip": "fugit",
+      "DisplayType": "libero",
+      "CanOrderBy": false,
+      "Name": "Crooks, Goyette and Corkery",
       "CanRestrictBy": false,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Bogisich Group",
-      "IsVisible": true,
-      "ExtraInfo": "quas",
-      "Width": "eligendi",
-      "IconHint": "suscipit",
-      "HeadingIconHint": "ipsum"
+      "RestrictionType": "sapiente",
+      "RestrictionListName": "Emard, Prohaska and Heathcote",
+      "IsVisible": false,
+      "ExtraInfo": "quasi",
+      "Width": "corporis",
+      "IconHint": "beatae",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Fadel-Yost",
-      "PrimaryKey": 522,
+      "EntityName": "Maggio-Labadie",
+      "PrimaryKey": 151,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "inventore",
-          "LinkHint": "expedita"
+          "DisplayValue": "non",
+          "TooltipHint": "ipsum",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "quaerat",
-      "StyleHint": "autem",
+      "LinkHint": "occaecati",
+      "StyleHint": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Nicolas, Rath and Cormier",
-      "Description": "Innovative demand-driven support",
-      "Rank": 931,
+      "Name": "Yost, Berge and Cremin",
+      "Description": "Reactive client-driven circuit",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nicolas, Rath and Cormier",
-      "Description": "Innovative demand-driven support",
-      "Rank": 931,
+      "Name": "Yost, Berge and Cremin",
+      "Description": "Reactive client-driven circuit",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 756
     }
   }
 }

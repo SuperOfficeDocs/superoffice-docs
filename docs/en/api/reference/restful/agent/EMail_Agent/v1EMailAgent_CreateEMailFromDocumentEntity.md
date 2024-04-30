@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 87,
-      "ContactName": "Rice, Schaden and Bechtelar",
-      "PersonId": 452,
-      "PersonName": "O'Kon, Dickinson and Luettgen",
-      "AssociateId": 124,
-      "Address": "impedit",
-      "EmailId": 678,
+      "ContactId": 442,
+      "ContactName": "Grimes LLC",
+      "PersonId": 887,
+      "PersonName": "Conroy-Romaguera",
+      "AssociateId": 226,
+      "Address": "ipsa",
+      "EmailId": 728,
       "DuplicatePersonIds": [
-        58,
-        328
+        476,
+        694
       ],
-      "Name": "Harvey-Johnston",
+      "Name": "Durgan, Weimann and Treutel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 654,
-      "ContactName": "Gerhold, Herman and Rutherford",
-      "PersonId": 109,
-      "PersonName": "Grimes-Wilkinson",
-      "AssociateId": 318,
-      "Address": "voluptatem",
-      "EmailId": 624,
+      "ContactId": 525,
+      "ContactName": "Schoen, Mraz and Rippin",
+      "PersonId": 142,
+      "PersonName": "Turcotte Group",
+      "AssociateId": 834,
+      "Address": "et",
+      "EmailId": 432,
       "DuplicatePersonIds": [
-        993,
-        290
+        126,
+        215
       ],
-      "Name": "Nader-Gibson",
+      "Name": "Hayes, Carroll and Kulas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 487
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 895,
-      "ContactName": "Kihn-Johnson",
-      "PersonId": 960,
-      "PersonName": "Armstrong Group",
-      "AssociateId": 259,
-      "Address": "iste",
-      "EmailId": 214,
+      "ContactId": 825,
+      "ContactName": "Rippin-Lowe",
+      "PersonId": 377,
+      "PersonName": "Rippin, Marvin and Ratke",
+      "AssociateId": 386,
+      "Address": "nihil",
+      "EmailId": 210,
       "DuplicatePersonIds": [
-        821,
-        922
+        407,
+        971
       ],
-      "Name": "Lynch Inc and Sons",
+      "Name": "Stiedemann-Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
-  "Subject": "voluptas",
-  "HTMLBody": "tenetur",
+  "Subject": "tenetur",
+  "HTMLBody": "eaque",
   "From": null,
-  "Sent": "2003-10-11T11:44:33.6815702+02:00",
-  "Size": 53,
+  "Sent": "2013-07-08T11:16:09.2253497+02:00",
+  "Size": 798,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "facere",
-  "IsSent": false,
+  "MessageID": "provident",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 492,
+  "ServerId": 337,
   "Attachments": [
     {
-      "Description": "Devolved optimizing software",
-      "Filename": "dolore",
-      "Size": 109,
-      "Type": "deleniti",
-      "Encoding": "qui",
-      "Id": "quo",
-      "Disposition": "odit",
-      "IsSafeFileExtension": true,
+      "Description": "Future-proofed content-based local area network",
+      "Filename": "enim",
+      "Size": 777,
+      "Type": "ullam",
+      "Encoding": "dolores",
+      "Id": "sed",
+      "Disposition": "nulla",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 583
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cummings-Senger",
+      "Name": "Beier LLC",
       "Values": [
-        "molestiae",
-        "maxime"
+        "cupiditate",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 801
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     },
     {
-      "Name": "Cummings-Senger",
+      "Name": "Beier LLC",
       "Values": [
-        "molestiae",
-        "maxime"
+        "cupiditate",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 801
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
-  "FolderName": "Wisozk Inc and Sons",
-  "EmailItemId": 41,
-  "AccountId": 331,
-  "ReceivedAt": "2018-08-31T11:44:33.6815702+02:00",
+  "FolderName": "Hyatt-Von",
+  "EmailItemId": 97,
+  "AccountId": 221,
+  "ReceivedAt": "2008-09-08T11:16:09.2253497+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-09T11:44:33.6815702+02:00",
+  "RepliedAt": "2001-12-20T11:16:09.2253497+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 439
     }
   }
 }

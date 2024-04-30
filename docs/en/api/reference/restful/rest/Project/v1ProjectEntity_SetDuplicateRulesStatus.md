@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Daniel LLC",
-    "DisplayName": "Pfeffer-Farrell",
-    "DisplayTooltip": "consectetur",
+    "Name": "Gorczany-White",
+    "DisplayName": "Ferry, Champlin and Swift",
+    "DisplayTooltip": "cum",
     "IsActive": false
   },
   {
-    "Name": "Daniel LLC",
-    "DisplayName": "Pfeffer-Farrell",
-    "DisplayTooltip": "consectetur",
+    "Name": "Gorczany-White",
+    "DisplayName": "Ferry, Champlin and Swift",
+    "DisplayTooltip": "cum",
     "IsActive": false
   }
 ]

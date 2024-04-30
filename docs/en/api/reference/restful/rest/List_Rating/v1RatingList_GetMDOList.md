@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=sed
+GET /api/v1/List/Rating/MDOItems?query=quam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Predovic LLC",
-    "ToolTip": "Illo molestiae sit.",
+    "Id": 140,
+    "Name": "Lakin-Windler",
+    "ToolTip": "Et ea deleniti ut fugiat accusamus.",
     "Deleted": false,
-    "Rank": 67,
-    "Type": "iusto",
+    "Rank": 843,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Nolan-Hauck",
-        "ToolTip": "Eligendi temporibus possimus.",
+        "Id": 8,
+        "Name": "Goldner LLC",
+        "ToolTip": "Tempore sint aliquam autem minus repellendus dolores.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "nesciunt",
+        "Rank": 543,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 374,
-        "ExtraInfo": "magni",
-        "StyleHint": "autem",
-        "FullName": "Dr. Payton Deonte Huel I",
+        "IconHint": "corporis",
+        "ColorBlock": 164,
+        "ExtraInfo": "tempora",
+        "StyleHint": "earum",
+        "FullName": "Carroll Daren Wyman DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 534
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 688,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "cumque",
-    "FullName": "Heaven Romaguera",
+    "IconHint": "eveniet",
+    "ColorBlock": 209,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "FullName": "Emmie Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldLength": 899
       }
     }
   }

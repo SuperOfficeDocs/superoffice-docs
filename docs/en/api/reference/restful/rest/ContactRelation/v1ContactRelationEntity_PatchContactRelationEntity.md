@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "tempora",
+    "path": "adipisci",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempora",
+    "path": "adipisci",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 929,
-  "SourcePersonId": 86,
-  "DestinationContactId": 118,
-  "DestinationPersonId": 161,
-  "RelationId": 916,
-  "Comment": "inventore",
-  "RelationDefinitionId": 226,
-  "Reversed": 745,
-  "UpdatedDate": "2014-10-21T11:44:41.8671838+02:00",
-  "CreatedDate": "2009-07-05T11:44:41.8671838+02:00",
+  "SourceContactId": 81,
+  "SourcePersonId": 910,
+  "DestinationContactId": 407,
+  "DestinationPersonId": 304,
+  "RelationId": 812,
+  "Comment": "reiciendis",
+  "RelationDefinitionId": 576,
+  "Reversed": 879,
+  "UpdatedDate": "2005-10-20T11:16:13.83947+02:00",
+  "CreatedDate": "2016-04-16T11:16:13.83947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mayert LLC",
-  "SourcePersonName": "Gulgowski, Schinner and Leffler",
-  "DestinationContactName": "Erdman-Reinger",
-  "DestinationPersonName": "Stoltenberg Group",
-  "ActiveText": "quas",
-  "PassiveText": "sed",
+  "SourceContactName": "Vandervort-Rippin",
+  "SourcePersonName": "Skiles-Toy",
+  "DestinationContactName": "Hammes, Keebler and Little",
+  "DestinationPersonName": "Reichert Group",
+  "ActiveText": "est",
+  "PassiveText": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 77
     }
   },
   "_Links": {

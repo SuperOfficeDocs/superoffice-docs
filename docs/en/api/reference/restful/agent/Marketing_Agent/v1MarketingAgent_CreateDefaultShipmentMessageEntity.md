@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 443,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "vitae",
-  "SmsMessage": "ex",
-  "Description": "De-engineered secondary implementation",
-  "Subject": "labore",
-  "FolderId": 502,
-  "HeaderField": "error",
-  "Design": "cumque",
+  "ShipmentMessageId": 528,
+  "PlainMessage": "amet",
+  "HtmlMessage": "ea",
+  "SmsMessage": "eius",
+  "Description": "Profound secondary paradigm",
+  "Subject": "deleniti",
+  "FolderId": 386,
+  "HeaderField": "perspiciatis",
+  "Design": "fugit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Team-oriented didactic ability",
-  "AccessKey": "atque",
-  "DocumentMessage": 114,
-  "Registered": "2002-09-19T11:44:33.9315193+02:00",
-  "RegisteredAssociateId": 416,
-  "Updated": "2021-03-06T11:44:33.9315193+01:00",
-  "UpdatedAssociateId": 582,
-  "UpdatedCount": 201,
+  "LongDescription": "Decentralized coherent Graphic Interface",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 773,
+  "Registered": "2018-10-25T11:16:09.3815779+02:00",
+  "RegisteredAssociateId": 226,
+  "Updated": "2016-01-24T11:16:09.3815779+01:00",
+  "UpdatedAssociateId": 659,
+  "UpdatedCount": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

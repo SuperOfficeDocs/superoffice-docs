@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "eum",
-    "repellat"
+    "deserunt",
+    "debitis"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 261,
-    "ResourceId": 695,
-    "Text": "labore",
+    "LanguageId": 206,
+    "ResourceId": 587,
+    "Text": "omnis",
     "Type": "Column",
-    "LocalizedTextId": 875,
+    "LocalizedTextId": 673,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

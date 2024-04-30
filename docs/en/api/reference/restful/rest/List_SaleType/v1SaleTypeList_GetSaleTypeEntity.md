@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 694,
-  "Name": "Gottlieb Inc and Sons",
-  "Tooltip": "nihil",
-  "Rank": 371,
+  "SaleTypeId": 112,
+  "Name": "Kilback Group",
+  "Tooltip": "aperiam",
+  "Rank": 927,
   "DurationUnit": "Century",
-  "SaleDuration": 826,
-  "SaleTypeCatId": 533,
-  "Deleted": false,
+  "SaleDuration": 468,
+  "SaleTypeCatId": 951,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 473,
-  "QuoteLinesTemplate": 100,
-  "ConfirmationLinesTemplate": 678,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 343,
-  "MinEarningPercent": 556,
-  "GroupQuoteLinesBy": 467,
-  "SortGroupLinesBy": 466,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 976,
+  "QuoteLinesTemplate": 483,
+  "ConfirmationLinesTemplate": 636,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 17,
+  "MinEarningPercent": 368,
+  "GroupQuoteLinesBy": 338,
+  "SortGroupLinesBy": 452,
   "Stages": [
     {
-      "Id": 329,
-      "Name": "Prohaska LLC",
-      "ToolTip": "Officia minima aut molestiae quod.",
+      "Id": 384,
+      "Name": "Leuschke-Champlin",
+      "ToolTip": "Et omnis aperiam recusandae perspiciatis nesciunt quas non.",
       "Deleted": false,
-      "Rank": 922,
-      "Type": "sint",
-      "ColorBlock": 497,
-      "IconHint": "omnis",
-      "Selected": false,
-      "LastChanged": "2016-10-28T11:44:43.3355939+02:00",
+      "Rank": 330,
+      "Type": "aut",
+      "ColorBlock": 826,
+      "IconHint": "excepturi",
+      "Selected": true,
+      "LastChanged": "2008-03-25T11:16:14.7307772+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "dignissimos",
+      "ExtraInfo": "ut",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Miss Carmelo Terry",
+      "FullName": "Jedidiah Christiansen DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 361
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

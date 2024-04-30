@@ -747,7 +747,7 @@ Shadow contact provider for the static quoteline prov ider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=contactId,alternative/version/quote/sale/person/supportAssociateFullName,alternative/version/quote/sale/person/personExtra/x_person_appointment_relation,alternative/version/quote/sale/person/personAssociate/contactId,alternative/version/quote/sale/person/correspondingAssociate/contactFullName
+GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/quote/sale/person/personAssociate/ejDisplayName,alternative/version/quote/sale/person/correspondingAssociate/contactName,alternative/version/quote/sale/person/correspondingAssociate/personEmail,alternative/version/quote/sale/contact/restrictionAddress/formattedAddress,alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

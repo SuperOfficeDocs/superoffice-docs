@@ -80,11 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "sequi",
-  "RecordId": 80,
+  "Table": "officiis",
+  "RecordId": 640,
   "Fields": [
-    "illo",
-    "voluptate"
+    "deleniti",
+    "voluptas"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "sed",
+    "Field": "aut",
     "FieldValue": null
   },
   {
-    "Field": "sed",
+    "Field": "aut",
     "FieldValue": null
   }
 ]

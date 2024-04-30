@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 576,
-  "LanguageId": 615
+  "ReplyTemplateId": 121,
+  "LanguageId": 836
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 879,
-  "PlainParsed": "deleniti",
-  "HtmlParsed": "ea",
+  "ReplyTemplateId": 258,
+  "PlainParsed": "aspernatur",
+  "HtmlParsed": "mollitia",
   "Attachments": [
     {
-      "AttachmentId": 649,
-      "Name": "Kessler LLC",
-      "ContentType": "atque",
-      "AttSize": 537,
-      "InlineImage": false,
-      "ContentId": "aliquam",
-      "AuthKey": "rem",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 945,
+      "Name": "Collins-Roberts",
+      "ContentType": "deserunt",
+      "AttSize": 280,
+      "InlineImage": true,
+      "ContentId": "accusamus",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Subject": "numquam",
+  "Subject": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldLength": 95
     }
   }
 }

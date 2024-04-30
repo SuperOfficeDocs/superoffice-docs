@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 900,
-  "Filter": "aut"
+  "SelectionId": 179,
+  "Filter": "quo"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Terry LLC",
-    "Operator": "nihil",
+    "Name": "Ernser Group",
+    "Operator": "sit",
     "Values": [
-      "id",
-      "tempora"
+      "dolores",
+      "minus"
     ],
     "DisplayValues": [
-      "dolor",
-      "dolore"
+      "nemo",
+      "optio"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kerluke, Kiehn and McKenzie",
-        "Operator": "vel",
+        "Name": "Sanford-Kemmer",
+        "Operator": "commodi",
         "Values": [
-          "iusto",
-          "magnam"
+          "suscipit",
+          "et"
         ],
         "DisplayValues": [
-          "consequatur",
-          "pariatur"
+          "amet",
+          "amet"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 466,
+        "InterParenthesis": 856,
         "InterOperator": "And",
-        "UniqueHash": 666
+        "UniqueHash": 255
       }
     ],
-    "InterParenthesis": 918,
+    "InterParenthesis": 507,
     "InterOperator": "And",
-    "UniqueHash": 31
+    "UniqueHash": 85
   }
 ]
 ```

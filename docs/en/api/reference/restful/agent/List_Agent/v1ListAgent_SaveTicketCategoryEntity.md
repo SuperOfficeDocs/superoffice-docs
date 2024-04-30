@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 983,
-  "ParentId": 786,
-  "Name": "Schowalter, O'Conner and Keebler",
-  "Fullname": "placeat",
-  "CategoryMaster": 309,
+  "TicketCategoryId": 154,
+  "ParentId": 234,
+  "Name": "Kulas, Kiehn and Farrell",
+  "Fullname": "aut",
+  "CategoryMaster": 346,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Douglas-Breitenberg",
+  "ExternalName": "Sporer Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 261,
-  "ReplyTemplate": 144,
-  "NotificationEmail": "matilde@gulgowski.com",
+  "AssignmentLag": 207,
+  "ReplyTemplate": 501,
+  "NotificationEmail": "stone@baileyoberbrunner.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 178,
+  "EffectiveReplyTemplateId": 803,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "error",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "qui",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 498,
-  "ParentId": 667,
-  "Name": "Klocko, Lowe and Will",
-  "Fullname": "at",
-  "CategoryMaster": 157,
+  "TicketCategoryId": 557,
+  "ParentId": 672,
+  "Name": "O'Conner-Jaskolski",
+  "Fullname": "porro",
+  "CategoryMaster": 599,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heathcote Inc and Sons",
+  "ExternalName": "Fisher-Jacobs",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 974,
-  "ReplyTemplate": 200,
-  "NotificationEmail": "murphy@pacocha.us",
+  "AssignmentLag": 959,
+  "ReplyTemplate": 686,
+  "NotificationEmail": "charlene.skiles@lednerhaag.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 296,
+  "EffectiveReplyTemplateId": 99,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "non",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 496
     }
   }
 }

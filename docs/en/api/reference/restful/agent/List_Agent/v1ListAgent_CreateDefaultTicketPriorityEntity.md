@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 208,
-  "Name": "Lang, Bradtke and Schimmel",
+  "TicketPriorityId": 87,
+  "Name": "Block-Schmeler",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 706,
+  "SortOrder": 136,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 980,
-  "MonStart": "2022-11-08T11:44:33.9158989+01:00",
-  "MonStop": "2004-02-05T11:44:33.9158989+01:00",
-  "TueStart": "1998-10-10T11:44:33.9158989+02:00",
-  "TueStop": "2022-08-24T11:44:33.9158989+02:00",
-  "WedStart": "2006-07-01T11:44:33.9158989+02:00",
-  "WedStop": "2011-09-20T11:44:33.9158989+02:00",
-  "ThuStart": "2010-04-10T11:44:33.9158989+02:00",
-  "ThuStop": "2013-01-02T11:44:33.9158989+01:00",
-  "FriStart": "2001-10-18T11:44:33.9158989+02:00",
-  "FriStop": "2013-07-24T11:44:33.9158989+02:00",
-  "SatStart": "2016-01-18T11:44:33.9158989+01:00",
-  "SatStop": "2021-01-02T11:44:33.9158989+01:00",
-  "SunStart": "2018-06-02T11:44:33.9158989+02:00",
-  "SunStop": "2012-10-29T11:44:33.9158989+01:00",
+  "Deadline": 306,
+  "MonStart": "2021-01-30T11:16:09.3815779+01:00",
+  "MonStop": "2006-09-20T11:16:09.3815779+02:00",
+  "TueStart": "2014-11-11T11:16:09.3815779+01:00",
+  "TueStop": "2014-11-27T11:16:09.3815779+01:00",
+  "WedStart": "2004-05-05T11:16:09.3815779+02:00",
+  "WedStop": "2018-03-29T11:16:09.3815779+02:00",
+  "ThuStart": "2020-12-08T11:16:09.3815779+01:00",
+  "ThuStop": "2019-08-30T11:16:09.3815779+02:00",
+  "FriStart": "2011-12-11T11:16:09.3815779+01:00",
+  "FriStop": "2019-02-09T11:16:09.3815779+01:00",
+  "SatStart": "1996-12-27T11:16:09.3815779+01:00",
+  "SatStop": "1998-02-03T11:16:09.3815779+01:00",
+  "SunStart": "2002-10-28T11:16:09.3815779+01:00",
+  "SunStop": "2016-10-27T11:16:09.3815779+02:00",
   "NonDates": [
-    "similique",
-    "dignissimos"
+    "ratione",
+    "modi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 220,
-      "AlertLevel": 909,
-      "AlertTimeout": 468,
-      "Action": 674,
-      "DelegateTo": 63,
-      "ScriptId": 503,
-      "EmailTo": "samara@huel.info",
-      "SmsTo": "porro",
-      "ReplyTemplateIdCustomer": 684,
-      "ReplyTemplateIdUser": 473,
-      "ReplyTemplateIdCatmast": 590,
-      "ReplyTemplateIdEmail": 615,
-      "RtiCustomerSms": 294,
-      "ReplyTemplateIdUserSms": 538,
-      "ReplyTemplateIdCatmastSms": 269,
-      "ReplyTemplateIdSms": 225,
+      "TicketAlertId": 1000,
+      "AlertLevel": 696,
+      "AlertTimeout": 317,
+      "Action": 598,
+      "DelegateTo": 961,
+      "ScriptId": 323,
+      "EmailTo": "chesley_rogahn@jacobs.info",
+      "SmsTo": "culpa",
+      "ReplyTemplateIdCustomer": 828,
+      "ReplyTemplateIdUser": 635,
+      "ReplyTemplateIdCatmast": 651,
+      "ReplyTemplateIdEmail": 800,
+      "RtiCustomerSms": 318,
+      "ReplyTemplateIdUserSms": 905,
+      "ReplyTemplateIdCatmastSms": 382,
+      "ReplyTemplateIdSms": 959,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 310,
-  "UniqueIdentifier": "corrupti",
-  "Name": "Kuphal-Feil",
-  "Description": "Digitized non-volatile algorithm",
-  "IncludeId": "rem",
-  "HierarchyId": 356,
-  "Source": "vitae",
-  "Registered": "2004-03-02T11:44:33.3223014+01:00",
-  "RegisteredAssociateId": 789,
-  "Updated": "2006-03-26T11:44:33.3223014+02:00",
-  "UpdatedAssociateId": 1002,
+  "EjscriptId": 56,
+  "UniqueIdentifier": "eum",
+  "Name": "Senger, Graham and Becker",
+  "Description": "Object-based stable database",
+  "IncludeId": "quod",
+  "HierarchyId": 901,
+  "Source": "eum",
+  "Registered": "2016-02-22T11:16:08.9440885+01:00",
+  "RegisteredAssociateId": 781,
+  "Updated": "2014-11-04T11:16:08.9440885+01:00",
+  "UpdatedAssociateId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

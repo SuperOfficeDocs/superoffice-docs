@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 345,
-    "ColumnId": 823,
-    "FieldDefault": "deserunt",
-    "FieldHeight": 385,
-    "FieldLabel": "ab",
-    "FieldLeft": 960,
-    "FieldTop": 113,
+    "UDefFieldId": 638,
+    "ColumnId": 528,
+    "FieldDefault": "amet",
+    "FieldHeight": 5,
+    "FieldLabel": "iste",
+    "FieldLeft": 772,
+    "FieldTop": 449,
     "FieldType": "Checkbox",
-    "FieldWidth": 595,
-    "FormatMask": "fuga",
-    "HideLabel": true,
+    "FieldWidth": 965,
+    "FormatMask": "voluptatem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 83,
-    "LabelLeft": 842,
-    "LabelTop": 679,
-    "LabelWidth": 902,
-    "LastVersionId": 420,
-    "ListTableId": 561,
-    "IsMandatory": false,
+    "LabelHeight": 719,
+    "LabelLeft": 81,
+    "LabelTop": 703,
+    "LabelWidth": 331,
+    "LastVersionId": 368,
+    "ListTableId": 563,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 406,
-    "ProgId": "explicabo",
-    "IsReadOnly": false,
-    "ShortLabel": "sint",
-    "TabOrder": 542,
-    "TextLength": 961,
-    "Tooltip": "id",
-    "UdefIdentity": 124,
-    "UDListDefinitionId": 760,
+    "Page1LineNo": 453,
+    "ProgId": "temporibus",
+    "IsReadOnly": true,
+    "ShortLabel": "provident",
+    "TabOrder": 381,
+    "TextLength": 738,
+    "Tooltip": "ut",
+    "UdefIdentity": 714,
+    "UDListDefinitionId": 607,
     "Justification": "Center",
-    "Version": 28,
-    "TemplateVariableName": "Douglas, Erdman and Green",
+    "Version": 778,
+    "TemplateVariableName": "Schaden Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Beatty-Marquardt",
+    "MdoListName": "Altenwerth Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 608
       }
     }
   }

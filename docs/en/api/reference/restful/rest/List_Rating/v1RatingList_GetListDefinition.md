@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Hilpert-Tremblay",
-  "Tooltip": "voluptatem",
+  "Id": 145,
+  "Name": "Schaden Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 650,
+  "Rank": 957,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "pariatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   },
   "_Links": {

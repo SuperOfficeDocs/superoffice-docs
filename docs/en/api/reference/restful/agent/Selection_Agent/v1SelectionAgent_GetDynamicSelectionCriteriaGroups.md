@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 655
+  "SelectionId": 193
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carter-Koepp",
-    "Description": "Robust coherent groupware",
-    "Rank": 586,
+    "Name": "Fadel-Altenwerth",
+    "Description": "Integrated national benchmark",
+    "Rank": 708,
     "Restrictions": [
       {
-        "Name": "Powlowski-Bradtke",
-        "Operator": "distinctio",
+        "Name": "Breitenberg Group",
+        "Operator": "vel",
         "Values": [
-          "id",
-          "ut"
+          "quis",
+          "aut"
         ],
         "DisplayValues": [
-          "impedit",
-          "at"
+          "id",
+          "veritatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 409,
+        "InterParenthesis": 365,
         "InterOperator": "And",
-        "UniqueHash": 446
+        "UniqueHash": 286
       }
     ]
   },
   {
-    "Name": "Carter-Koepp",
-    "Description": "Robust coherent groupware",
-    "Rank": 586,
+    "Name": "Fadel-Altenwerth",
+    "Description": "Integrated national benchmark",
+    "Rank": 708,
     "Restrictions": [
       {
-        "Name": "Powlowski-Bradtke",
-        "Operator": "distinctio",
+        "Name": "Breitenberg Group",
+        "Operator": "vel",
         "Values": [
-          "id",
-          "ut"
+          "quis",
+          "aut"
         ],
         "DisplayValues": [
-          "impedit",
-          "at"
+          "id",
+          "veritatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 409,
+        "InterParenthesis": 365,
         "InterOperator": "And",
-        "UniqueHash": 446
+        "UniqueHash": 286
       }
     ]
   }

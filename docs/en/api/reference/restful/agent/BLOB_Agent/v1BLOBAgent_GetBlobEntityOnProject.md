@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 597
+  "ProjectId": 462
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 645,
-  "BlobSize": 381,
-  "Description": "Pre-emptive client-server open architecture",
-  "ExtraInfo": "est",
+  "BlobId": 55,
+  "BlobSize": 1001,
+  "Description": "Synergized next generation pricing structure",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 366,
-  "CreatedDate": "2021-03-15T11:44:32.8380188+01:00",
-  "UpdatedDate": "2013-10-18T11:44:32.8380188+02:00",
+  "IsZipped": false,
+  "MimeType": "architecto",
+  "OriginalSize": 362,
+  "CreatedDate": "2015-03-01T11:16:08.7410229+01:00",
+  "UpdatedDate": "2009-09-25T11:16:08.7410229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 495
     }
   }
 }

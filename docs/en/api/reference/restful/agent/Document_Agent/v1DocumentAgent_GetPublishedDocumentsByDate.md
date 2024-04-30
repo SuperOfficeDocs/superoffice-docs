@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 810,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2000-07-17T11:44:33.4160074+02:00",
-  "EndTime": "1997-02-19T11:44:33.4160074+01:00",
-  "Count": 245
+  "PersonId": 397,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2010-05-23T11:16:09.0534899+02:00",
+  "EndTime": "2011-10-12T11:16:09.0534899+02:00",
+  "Count": 572
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 131,
-    "Attention": "facilis",
-    "Header": "ut",
-    "Name": "Kohler Group",
-    "OurRef": "sit",
-    "YourRef": "veniam",
-    "Description": "Advanced static protocol",
-    "DocumentTemplate": "in",
-    "IsPublished": true,
-    "PersonId": 296,
-    "PersonFullName": "Antonia Cordie Windler MD",
-    "AssociateFullName": "Ryder Diamond Ratke MD",
-    "ContactId": 554,
-    "ContactName": "Ratke-Kihn",
-    "ProjectId": 250,
-    "ProjectName": "Douglas Group",
-    "AssociateId": 196,
-    "Snum": 48,
-    "SaleId": 613,
-    "SaleName": "Okuneva, Lockman and Thompson",
+    "DocumentId": 311,
+    "Attention": "vitae",
+    "Header": "optio",
+    "Name": "Howe, Schuster and Tremblay",
+    "OurRef": "sunt",
+    "YourRef": "laudantium",
+    "Description": "Total secondary synergy",
+    "DocumentTemplate": "aspernatur",
+    "IsPublished": false,
+    "PersonId": 919,
+    "PersonFullName": "Rashawn Rice",
+    "AssociateFullName": "Carmella Ryder Harber Sr.",
+    "ContactId": 706,
+    "ContactName": "Yost Inc and Sons",
+    "ProjectId": 605,
+    "ProjectName": "Brekke Group",
+    "AssociateId": 278,
+    "Snum": 486,
+    "SaleId": 525,
+    "SaleName": "Schultz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 568
       }
     }
   }

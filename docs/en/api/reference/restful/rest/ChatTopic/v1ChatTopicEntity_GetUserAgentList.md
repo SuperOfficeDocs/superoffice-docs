@@ -28,8 +28,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Bayer LLC",
-    "ToolTip": "Nisi tenetur quae quis.",
+    "Id": 999,
+    "Name": "Roberts LLC",
+    "ToolTip": "Sit quam sit ratione enim.",
     "Deleted": false,
-    "Rank": 340,
-    "Type": "amet",
+    "Rank": 834,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "Mertz Inc and Sons",
-        "ToolTip": "Qui dolorem.",
+        "Id": 251,
+        "Name": "Schmitt-Nienow",
+        "ToolTip": "Accusamus facere dolor et aut.",
         "Deleted": false,
-        "Rank": 144,
-        "Type": "animi",
+        "Rank": 640,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 908,
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "FullName": "Lukas Zieme IV",
+        "IconHint": "incidunt",
+        "ColorBlock": 705,
+        "ExtraInfo": "alias",
+        "StyleHint": "quibusdam",
+        "FullName": "Josiah Senger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 872
+            "FieldLength": 23
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 372,
-    "ExtraInfo": "rerum",
-    "StyleHint": "beatae",
-    "FullName": "Ada Ophelia Feeney V",
+    "IconHint": "nisi",
+    "ColorBlock": 843,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "iusto",
+    "FullName": "Prof. Magnus Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

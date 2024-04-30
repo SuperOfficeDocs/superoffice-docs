@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "modi",
+  "TriggerScriptUniqueId": "doloremque",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 202,
-  "Name": "Smith-Lindgren",
+  "ScreenChooserId": 474,
+  "Name": "Kessler, Hegmann and Fahey",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ratione",
-  "Source": "quam",
-  "Registered": "2022-10-03T11:44:33.3379103+02:00",
-  "RegisteredAssociateId": 393,
-  "Updated": "2017-12-16T11:44:33.3379103+01:00",
-  "UpdatedAssociateId": 779,
+  "Enabled": false,
+  "UniqueIdentifier": "sequi",
+  "Source": "nobis",
+  "Registered": "2016-03-18T11:16:08.9597121+01:00",
+  "RegisteredAssociateId": 521,
+  "Updated": "1997-11-19T11:16:08.9597121+01:00",
+  "UpdatedAssociateId": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   }
 }

@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "aut",
-  "SoProtocol": "veritatis",
-  "CurrentId": 58
+  "IsoLangCode": "at",
+  "SoProtocol": "voluptas",
+  "CurrentId": 132
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2023-08-16T11:44:32.228788+02:00",
-  "UserPrompt": "est",
-  "UserDisplayText": "nihil",
-  "BotResponse": "animi",
+  "Timestamp": "2006-07-05T11:16:08.3966087+02:00",
+  "UserPrompt": "voluptatum",
+  "UserDisplayText": "porro",
+  "BotResponse": "velit",
   "BotActions": {
-    "BotActions1": "quaerat",
-    "BotActions2": "asperiores"
+    "BotActions1": "eos",
+    "BotActions2": "nam"
   },
   "Attachments": [
-    "ex",
-    "impedit"
+    "ut",
+    "voluptatem"
   ]
 }
 ```

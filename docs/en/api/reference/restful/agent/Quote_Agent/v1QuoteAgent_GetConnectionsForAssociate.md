@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 35
+  "AssociateId": 286
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 104,
-    "ERPName": "Lang LLC",
-    "DisplayName": "Stracke-Berge",
-    "DisplayDescription": "Centralized systemic system engine",
-    "Rank": 424,
-    "ConnectorName": "Dare, Leuschke and Legros",
-    "ErpConnectionId": 661,
-    "ExtraData": "molestiae",
+    "QuoteConnectionId": 878,
+    "ERPName": "Barrows, Jenkins and Brakus",
+    "DisplayName": "Bahringer-Reilly",
+    "DisplayDescription": "Automated real-time neural-net",
+    "Rank": 203,
+    "ConnectorName": "Ratke, Little and Terry",
+    "ErpConnectionId": 349,
+    "ExtraData": "quibusdam",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 409,
-        "ERPPriceListKey": "architecto",
-        "QuoteConnectionId": 718,
-        "Name": "DuBuque, Bauch and Kessler",
-        "Description": "Mandatory foreground system engine",
-        "Currency": "voluptatem",
-        "CurrencyName": "Roob Group",
-        "ValidFrom": "2018-07-14T11:44:34.2907996+02:00",
-        "ValidTo": "2003-03-19T11:44:34.2907996+01:00",
+        "PriceListId": 306,
+        "ERPPriceListKey": "animi",
+        "QuoteConnectionId": 276,
+        "Name": "Pouros, Lind and Larson",
+        "Description": "Persistent optimal productivity",
+        "Currency": "magnam",
+        "CurrencyName": "Wisozk, Feeney and Weissnat",
+        "ValidFrom": "2008-05-19T11:16:09.6161411+02:00",
+        "ValidTo": "2010-05-30T11:16:09.6161411+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 488
+            "FieldLength": 402
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      105,
-      368
+      639,
+      674
     ],
     "AssociateAccessIds": [
-      630,
-      885
+      714,
+      290
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldLength": 850
       }
     }
   }

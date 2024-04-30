@@ -101,7 +101,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 523
+  "Count": 407
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stracke Inc and Sons",
-    "SaleDate": "2011-09-17T11:44:34.4001629+02:00",
-    "SaleId": 284,
-    "Probability": 30,
-    "Title": "deserunt",
-    "Amount": 6888.532,
-    "Currency": "reprehenderit",
-    "ProjectName": "O'Conner, O'Keefe and Brakus",
-    "AssociateFullName": "Abraham Lakin",
-    "Description": "Sharable didactic database",
+    "ContactName": "Hyatt-Treutel",
+    "SaleDate": "2021-07-08T11:16:09.6846608+02:00",
+    "SaleId": 875,
+    "Probability": 497,
+    "Title": "animi",
+    "Amount": 18183.468,
+    "Currency": "aut",
+    "ProjectName": "Towne Inc and Sons",
+    "AssociateFullName": "Fern Nitzsche",
+    "Description": "Progressive content-based solution",
     "Status": "Lost",
-    "WeightedAmount": 27939.61,
-    "ProjectId": 838,
-    "EarningPercent": 15789.091999999999,
-    "Earning": 7449.518,
-    "ContactId": 670,
-    "AssociateId": 641,
-    "PersonId": 790,
-    "SaleTypeId": 58,
-    "SaleTypeName": "Kling Inc and Sons",
-    "PersonFullName": "Tressa McCullough",
+    "WeightedAmount": 24288.5,
+    "ProjectId": 562,
+    "EarningPercent": 13059.377999999999,
+    "Earning": 24150.604,
+    "ContactId": 884,
+    "AssociateId": 358,
+    "PersonId": 233,
+    "SaleTypeId": 856,
+    "SaleTypeName": "Leffler, Hoeger and Runolfsson",
+    "PersonFullName": "Guy Kessler I",
     "Completed": "Completed",
-    "ActiveErpLinks": 844,
-    "NextDueDate": "2020-03-09T11:44:34.4001629+01:00",
-    "Number": "773239",
+    "ActiveErpLinks": 958,
+    "NextDueDate": "2022-07-31T11:16:09.6846608+02:00",
+    "Number": "1073516",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldType": "System.String",
+        "FieldLength": 969
       }
     }
   }

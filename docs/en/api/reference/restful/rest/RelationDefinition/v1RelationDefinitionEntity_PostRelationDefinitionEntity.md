@@ -94,12 +94,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 742,
-  "Name": "Renner-Reinger",
-  "Tooltip": "at",
-  "PassiveText": "nam",
+  "ReldefId": 392,
+  "Name": "Roob, Gorczany and Muller",
+  "Tooltip": "voluptas",
+  "PassiveText": "natus",
   "Deleted": true,
-  "Rank": 449,
+  "Rank": 385,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 116,
-  "Name": "Schneider-Feeney",
-  "Tooltip": "alias",
-  "PassiveText": "fuga",
-  "Deleted": false,
-  "Rank": 824,
+  "ReldefId": 905,
+  "Name": "Metz-Towne",
+  "Tooltip": "dolores",
+  "PassiveText": "quaerat",
+  "Deleted": true,
+  "Rank": 583,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 170
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

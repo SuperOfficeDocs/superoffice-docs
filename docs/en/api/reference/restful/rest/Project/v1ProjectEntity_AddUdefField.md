@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 291,
-  "ColumnId": 334,
-  "FieldDefault": "neque",
-  "FieldHeight": 321,
-  "FieldLabel": "fuga",
-  "FieldLeft": 491,
-  "FieldTop": 428,
+  "UDefFieldId": 94,
+  "ColumnId": 117,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 619,
+  "FieldLabel": "enim",
+  "FieldLeft": 940,
+  "FieldTop": 830,
   "FieldType": "Checkbox",
-  "FieldWidth": 996,
-  "FormatMask": "dolor",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 725,
-  "LabelLeft": 461,
-  "LabelTop": 1001,
-  "LabelWidth": 329,
-  "LastVersionId": 904,
-  "ListTableId": 752,
-  "IsMandatory": false,
+  "FieldWidth": 770,
+  "FormatMask": "inventore",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 20,
+  "LabelLeft": 790,
+  "LabelTop": 797,
+  "LabelWidth": 455,
+  "LastVersionId": 325,
+  "ListTableId": 726,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 823,
-  "ProgId": "quis",
+  "Page1LineNo": 795,
+  "ProgId": "tempora",
   "IsReadOnly": true,
-  "ShortLabel": "sint",
-  "TabOrder": 34,
-  "TextLength": 388,
-  "Tooltip": "optio",
-  "UdefIdentity": 326,
-  "UDListDefinitionId": 704,
+  "ShortLabel": "veniam",
+  "TabOrder": 986,
+  "TextLength": 744,
+  "Tooltip": "numquam",
+  "UdefIdentity": 145,
+  "UDListDefinitionId": 850,
   "Justification": "Center",
-  "Version": 998,
-  "TemplateVariableName": "Cole, Konopelski and McClure",
+  "Version": 925,
+  "TemplateVariableName": "Sawayn Group",
   "HasBeenPublished": false,
-  "MdoListName": "O'Reilly, Raynor and Prosacco",
+  "MdoListName": "Shields-Bayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

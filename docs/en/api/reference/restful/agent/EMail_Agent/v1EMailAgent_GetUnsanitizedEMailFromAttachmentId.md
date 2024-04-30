@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 593,
+  "EmailId": 707,
   "AttachmentIds": [
-    "quasi",
-    "aut"
+    "animi",
+    "delectus"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,156 +127,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 645,
-      "ContactName": "Crona-Durgan",
-      "PersonId": 62,
-      "PersonName": "Muller-Quigley",
-      "AssociateId": 41,
-      "Address": "dicta",
-      "EmailId": 983,
+      "ContactId": 907,
+      "ContactName": "Grant, Adams and Legros",
+      "PersonId": 834,
+      "PersonName": "Tremblay Inc and Sons",
+      "AssociateId": 896,
+      "Address": "eius",
+      "EmailId": 861,
       "DuplicatePersonIds": [
-        686,
-        221
+        972,
+        966
       ],
-      "Name": "Schaden-O'Keefe",
+      "Name": "Ruecker, Marks and Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 906,
-      "ContactName": "Wisoky, Ward and Prohaska",
-      "PersonId": 397,
-      "PersonName": "Keebler, Ritchie and Streich",
-      "AssociateId": 95,
-      "Address": "itaque",
-      "EmailId": 116,
+      "ContactId": 842,
+      "ContactName": "Crooks, Reichert and Green",
+      "PersonId": 718,
+      "PersonName": "Larkin-Johnston",
+      "AssociateId": 522,
+      "Address": "quasi",
+      "EmailId": 31,
       "DuplicatePersonIds": [
-        991,
-        172
+        118,
+        241
       ],
-      "Name": "Smith-Kunde",
+      "Name": "Conn, Fahey and Walter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldType": "System.Int32",
+          "FieldLength": 102
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 568,
-      "ContactName": "Runolfsdottir-Prohaska",
-      "PersonId": 213,
-      "PersonName": "Hettinger Inc and Sons",
-      "AssociateId": 672,
-      "Address": "velit",
-      "EmailId": 322,
+      "ContactId": 563,
+      "ContactName": "Hansen-Gutkowski",
+      "PersonId": 879,
+      "PersonName": "Mueller, Miller and Howell",
+      "AssociateId": 308,
+      "Address": "vero",
+      "EmailId": 385,
       "DuplicatePersonIds": [
-        704,
-        615
+        53,
+        631
       ],
-      "Name": "Tromp, Feil and Ward",
+      "Name": "Grimes-Hills",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldLength": 360
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "commodi",
+  "Subject": "qui",
+  "HTMLBody": "fugiat",
   "From": null,
-  "Sent": "1998-11-13T11:44:33.6659495+01:00",
-  "Size": 299,
+  "Sent": "2006-07-13T11:16:09.2253497+02:00",
+  "Size": 464,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quos",
-  "PlainBody": "expedita",
+  "MessageID": "atque",
+  "PlainBody": "autem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 365,
+  "ServerId": 724,
   "Attachments": [
     {
-      "Description": "Enhanced stable website",
-      "Filename": "itaque",
-      "Size": 78,
-      "Type": "enim",
-      "Encoding": "in",
-      "Id": "magnam",
-      "Disposition": "rem",
-      "IsSafeFileExtension": false,
+      "Description": "Focused grid-enabled intranet",
+      "Filename": "fuga",
+      "Size": 186,
+      "Type": "autem",
+      "Encoding": "quas",
+      "Id": "quod",
+      "Disposition": "sint",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 262
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jakubowski, Schmeler and Rutherford",
+      "Name": "Harvey-Bashirian",
       "Values": [
-        "sit",
-        "et"
+        "et",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Jakubowski, Schmeler and Rutherford",
+      "Name": "Harvey-Bashirian",
       "Values": [
-        "sit",
-        "et"
+        "et",
+        "natus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "FolderName": "Monahan-Waters",
-  "EmailItemId": 780,
-  "AccountId": 770,
-  "ReceivedAt": "2004-05-21T11:44:33.6659495+02:00",
+  "FolderName": "Brakus, Bruen and Hahn",
+  "EmailItemId": 750,
+  "AccountId": 498,
+  "ReceivedAt": "2015-03-12T11:16:09.2253497+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-06-18T11:44:33.6659495+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-03-05T11:16:09.2253497+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

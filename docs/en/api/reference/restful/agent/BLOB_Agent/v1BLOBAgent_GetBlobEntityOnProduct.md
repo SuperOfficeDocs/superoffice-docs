@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 940
+  "ProductId": 717
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 699,
-  "BlobSize": 548,
-  "Description": "Proactive value-added portal",
-  "ExtraInfo": "non",
-  "IsEncrypted": true,
+  "BlobId": 971,
+  "BlobSize": 39,
+  "Description": "Universal 3rd generation product",
+  "ExtraInfo": "expedita",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "recusandae",
-  "OriginalSize": 203,
-  "CreatedDate": "1999-07-17T11:44:32.8380188+02:00",
-  "UpdatedDate": "2017-02-19T11:44:32.8380188+01:00",
+  "MimeType": "nulla",
+  "OriginalSize": 787,
+  "CreatedDate": "2016-07-09T11:16:08.7566429+02:00",
+  "UpdatedDate": "2004-07-13T11:16:08.7566429+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fuga",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 17
     }
   }
 }

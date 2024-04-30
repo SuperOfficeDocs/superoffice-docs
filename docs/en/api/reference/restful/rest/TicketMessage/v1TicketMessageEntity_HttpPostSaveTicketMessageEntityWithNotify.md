@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 374,
+  "EjMessageId": 350,
   "Ticket": null,
-  "CreatedAt": "2004-04-26T11:44:42.6638733+02:00",
+  "CreatedAt": "2008-06-05T11:16:14.3085768+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "maiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aliquid",
-  "TimeSpent": 437,
-  "Body": "consequuntur",
-  "HtmlBody": "unde",
-  "EmailHeader": "amira_russel@framidietrich.us",
-  "DebugInfo": "id",
-  "MailSorter": "architecto",
+  "MessageId": "ut",
+  "TimeSpent": 739,
+  "Body": "iste",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "aric.jaskolski@kuhn.name",
+  "DebugInfo": "odio",
+  "MailSorter": "voluptate",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "labore",
   "MessageHeaders": [
     {
-      "Id": 54,
-      "Name": "Emmerich, Fritsch and Upton",
-      "Value": "in",
+      "Id": 647,
+      "Name": "DuBuque, Davis and Schamberger",
+      "Value": "id",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 54,
-      "Name": "Emmerich, Fritsch and Upton",
-      "Value": "in",
+      "Id": 647,
+      "Name": "DuBuque, Davis and Schamberger",
+      "Value": "id",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "repudiandae",
-  "Sentiment": 614,
-  "SentimentConfidence": 48,
+  "Language": "dolorum",
+  "Sentiment": 322,
+  "SentimentConfidence": 444,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Bechtelar, Barrows and Jones",
-      "ContentType": "dolor",
-      "AttSize": 241,
+      "AttachmentId": 265,
+      "Name": "Farrell, Schoen and Fisher",
+      "ContentType": "odit",
+      "AttSize": 521,
       "InlineImage": false,
-      "ContentId": "iusto",
-      "AuthKey": "eaque",
+      "ContentId": "necessitatibus",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "vero"
+    "CustomFields1": "dolores",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 752,
+  "EjMessageId": 965,
   "Ticket": null,
-  "CreatedAt": "2015-08-28T11:44:42.6638733+02:00",
+  "CreatedAt": "2009-09-17T11:16:14.3085768+02:00",
   "CreatedBy": null,
-  "Author": "excepturi",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 342,
-  "Body": "enim",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "fletcher@wisozk.ca",
-  "DebugInfo": "aliquid",
-  "MailSorter": "autem",
+  "MessageId": "ut",
+  "TimeSpent": 431,
+  "Body": "voluptas",
+  "HtmlBody": "recusandae",
+  "EmailHeader": "jana.witting@dickinson.ca",
+  "DebugInfo": "perferendis",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ea",
+  "SearchTitle": "quaerat",
   "MessageHeaders": [
     {
-      "Id": 816,
-      "Name": "Konopelski Inc and Sons",
-      "Value": "ea",
+      "Id": 139,
+      "Name": "Turcotte, Parker and Turner",
+      "Value": "quidem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldLength": 891
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptates",
-  "Sentiment": 124,
-  "SentimentConfidence": 251,
+  "Language": "provident",
+  "Sentiment": 259,
+  "SentimentConfidence": 768,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 69,
-      "Name": "Connelly-Grady",
-      "ContentType": "reiciendis",
-      "AttSize": 127,
+      "AttachmentId": 690,
+      "Name": "Ondricka LLC",
+      "ContentType": "nisi",
+      "AttSize": 52,
       "InlineImage": true,
-      "ContentId": "fugit",
-      "AuthKey": "consequatur",
-      "IsSafeFileExtension": true,
+      "ContentId": "et",
+      "AuthKey": "aperiam",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 553
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "quidem"
+    "CustomFields1": "veniam",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

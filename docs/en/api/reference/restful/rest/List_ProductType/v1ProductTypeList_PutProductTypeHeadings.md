@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 871,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "at",
+    "HeadingId": 975,
+    "Name": "Hegmann-Hintz",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 291,
-    "UdListDefinitionId": 435
+    "Rank": 476,
+    "UdListDefinitionId": 611
   },
   {
-    "HeadingId": 871,
-    "Name": "Raynor Inc and Sons",
-    "Tooltip": "at",
+    "HeadingId": 975,
+    "Name": "Hegmann-Hintz",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 291,
-    "UdListDefinitionId": 435
+    "Rank": 476,
+    "UdListDefinitionId": 611
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 711,
-    "Name": "Heathcote, Bayer and Stehr",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 962,
-    "UdListDefinitionId": 834,
+    "HeadingId": 328,
+    "Name": "Smith, Marquardt and Botsford",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "Rank": 904,
+    "UdListDefinitionId": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 687
       }
     }
   }

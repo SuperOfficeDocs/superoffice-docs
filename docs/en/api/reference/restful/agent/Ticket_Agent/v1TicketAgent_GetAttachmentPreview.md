@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 58
+  "AttachmentId": 913
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blanda, Reilly and Hyatt",
-  "MimeType": "quos",
-  "Size": 685,
+  "Name": "Moen LLC",
+  "MimeType": "eos",
+  "Size": 341,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "jason.ruecker@hackettschoen.name",
-  "EmailFrom": "barry@daniel.us",
-  "EmailTo": "cleta@sipesbogan.biz",
-  "EmailCc": "summer.gusikowski@lebsack.info",
-  "EmailDate": "2007-06-02T11:44:34.8844266+02:00",
+  "EmailSubject": "kyra_reichert@macejkovic.name",
+  "EmailFrom": "brock_steuber@hessel.name",
+  "EmailTo": "malvina@koelpin.com",
+  "EmailCc": "stefanie.huels@bergnaumhuels.com",
+  "EmailDate": "2018-03-04T11:16:09.9761636+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 423,
-      "Name": "Jenkins-Cruickshank",
-      "ContentType": "est",
-      "AttSize": 99,
+      "AttachmentId": 508,
+      "Name": "O'Conner-Monahan",
+      "ContentType": "non",
+      "AttSize": 562,
       "InlineImage": false,
-      "ContentId": "delectus",
-      "AuthKey": "sequi",
-      "IsSafeFileExtension": true,
+      "ContentId": "maxime",
+      "AuthKey": "quod",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 151
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 176
     }
   }
 }

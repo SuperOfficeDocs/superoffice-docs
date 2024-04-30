@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "molestiae"
+  "TriggerScriptUniqueId": "quia"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 739,
-  "Name": "Howell-Gusikowski",
+  "ScreenChooserId": 344,
+  "Name": "Okuneva, Schulist and Parisian",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "esse",
-  "Source": "architecto",
-  "Registered": "2007-05-31T11:44:33.3379103+02:00",
-  "RegisteredAssociateId": 666,
-  "Updated": "2017-05-11T11:44:33.3379103+02:00",
-  "UpdatedAssociateId": 311,
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "ipsum",
+  "Registered": "2021-11-17T11:16:08.9597121+01:00",
+  "RegisteredAssociateId": 937,
+  "Updated": "2012-12-03T11:16:08.9597121+01:00",
+  "UpdatedAssociateId": 802,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 863,
-  "Name": "Bayer, Marquardt and Grady",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "Rank": 364,
-  "UdListDefinitionId": 500
+  "HeadingId": 21,
+  "Name": "Balistreri Group",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 741,
+  "UdListDefinitionId": 70
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 115,
-  "Name": "Mayert Inc and Sons",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 42,
-  "UdListDefinitionId": 857,
+  "HeadingId": 569,
+  "Name": "Nienow, Gleichner and Raynor",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 949,
+  "UdListDefinitionId": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   }
 }

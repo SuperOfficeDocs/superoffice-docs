@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 212,
-    "ParentId": 167,
-    "Name": "Dare-Roob",
-    "Fullname": "sit",
-    "CategoryMaster": 733,
+    "TicketCategoryId": 584,
+    "ParentId": 451,
+    "Name": "Kozey-Rolfson",
+    "Fullname": "ullam",
+    "CategoryMaster": 573,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Reichert, Bergnaum and Schinner",
+    "ExternalName": "Bailey, Bergnaum and Effertz",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 936,
-    "ReplyTemplate": 799,
-    "NotificationEmail": "alexandra.kilback@kulas.info",
+    "AssignmentLag": 391,
+    "ReplyTemplate": 540,
+    "NotificationEmail": "markus.lueilwitz@hermiston.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 460,
+    "EffectiveReplyTemplateId": 445,
     "ExtraFields": {
-      "ExtraFields1": "molestias",
-      "ExtraFields2": "soluta"
+      "ExtraFields1": "est",
+      "ExtraFields2": "occaecati"
     },
     "CustomFields": {
-      "CustomFields1": "facilis",
-      "CustomFields2": "velit"
+      "CustomFields1": "molestiae",
+      "CustomFields2": "iusto"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 787
       }
     }
   }

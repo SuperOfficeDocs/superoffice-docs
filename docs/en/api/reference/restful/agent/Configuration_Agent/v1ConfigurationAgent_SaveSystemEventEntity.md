@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 534,
+  "SystemEventId": 334,
   "Scope": "Database",
-  "Eta": "2009-03-01T11:44:32.9942315+01:00",
-  "Eventkey": "ut",
-  "Eventmess": "eos",
-  "ExtraInfo": 376,
-  "Owner": 773,
-  "UpdatedCount": 379,
-  "Registered": "2016-03-19T11:44:32.9942315+01:00",
+  "Eta": "2013-10-29T11:16:08.8503482+01:00",
+  "Eventkey": "quia",
+  "Eventmess": "culpa",
+  "ExtraInfo": 61,
+  "Owner": 194,
+  "UpdatedCount": 806,
+  "Registered": "2003-04-08T11:16:08.8503482+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 902,
+  "SystemEventId": 251,
   "Scope": "Database",
-  "Eta": "2002-08-13T11:44:32.9942315+02:00",
-  "Eventkey": "a",
-  "Eventmess": "enim",
-  "ExtraInfo": 902,
-  "Owner": 630,
-  "UpdatedCount": 997,
-  "Registered": "2003-02-25T11:44:32.9942315+01:00",
+  "Eta": "2008-07-12T11:16:08.8503482+02:00",
+  "Eventkey": "accusamus",
+  "Eventmess": "vitae",
+  "ExtraInfo": 861,
+  "Owner": 688,
+  "UpdatedCount": 58,
+  "Registered": "2006-09-07T11:16:08.8503482+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 775
     }
   }
 }

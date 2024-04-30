@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 699,
-  "Name": "Okuneva LLC",
-  "Tooltip": "quia",
+  "RoleId": 95,
+  "Name": "Kessler-Toy",
+  "Tooltip": "perferendis",
   "RoleType": "Anonymous",
-  "Deleted": 522,
-  "Rank": 923,
-  "Created": "2001-09-19T11:44:42.2107985+02:00",
-  "UseCategories": 55,
+  "Deleted": 479,
+  "Rank": 127,
+  "Created": "1999-06-22T11:16:14.1363143+02:00",
+  "UseCategories": 454,
   "CreatedBy": null,
-  "Updated": "2002-01-14T11:44:42.2107985+01:00",
+  "Updated": "1997-09-05T11:16:14.1363143+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 682
     }
   }
 }

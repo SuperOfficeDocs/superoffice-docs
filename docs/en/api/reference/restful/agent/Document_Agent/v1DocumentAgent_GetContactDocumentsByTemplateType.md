@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 614,
-  "StartTime": "2000-11-08T11:44:33.4160074+01:00",
-  "EndTime": "2001-09-12T11:44:33.4160074+02:00",
-  "Count": 198,
-  "DocumentTemplateId": 887
+  "ContactId": 818,
+  "StartTime": "2020-12-06T11:16:09.0691155+01:00",
+  "EndTime": "2002-12-19T11:16:09.0691155+01:00",
+  "Count": 740,
+  "DocumentTemplateId": 529
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 863,
-    "Attention": "voluptatem",
-    "Header": "eius",
-    "Name": "Roob-Littel",
-    "OurRef": "qui",
-    "YourRef": "quaerat",
-    "Description": "Persistent optimizing pricing structure",
-    "DocumentTemplate": "corrupti",
-    "IsPublished": true,
-    "PersonId": 210,
-    "PersonFullName": "Mabelle Hirthe",
-    "AssociateFullName": "Bella Hermann III",
-    "ContactId": 742,
-    "ContactName": "Gorczany Group",
-    "ProjectId": 456,
-    "ProjectName": "Ferry, Kutch and Yundt",
-    "AssociateId": 772,
-    "Snum": 924,
-    "SaleId": 808,
-    "SaleName": "Zemlak Group",
+    "DocumentId": 952,
+    "Attention": "eum",
+    "Header": "et",
+    "Name": "Runolfsson-Runte",
+    "OurRef": "id",
+    "YourRef": "in",
+    "Description": "Programmable zero administration standardization",
+    "DocumentTemplate": "voluptas",
+    "IsPublished": false,
+    "PersonId": 765,
+    "PersonFullName": "Shyann Beer",
+    "AssociateFullName": "Tiara Collier",
+    "ContactId": 950,
+    "ContactName": "Hackett LLC",
+    "ProjectId": 721,
+    "ProjectName": "Franecki-Kshlerin",
+    "AssociateId": 850,
+    "Snum": 563,
+    "SaleId": 493,
+    "SaleName": "Runolfsdottir LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 136
       }
     }
   }

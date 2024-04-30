@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 660,
+  "SystemEventId": 656,
   "Scope": "Database",
-  "Eta": "2016-09-18T11:44:42.5545135+02:00",
-  "Eventkey": "est",
-  "Eventmess": "commodi",
-  "ExtraInfo": 724,
-  "Owner": 280,
-  "UpdatedCount": 884,
-  "Registered": "2022-09-29T11:44:42.5545135+02:00",
+  "Eta": "2019-04-24T11:16:14.2304645+02:00",
+  "Eventkey": "eius",
+  "Eventmess": "tenetur",
+  "ExtraInfo": 877,
+  "Owner": 63,
+  "UpdatedCount": 35,
+  "Registered": "2001-01-13T11:16:14.2304645+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 551,
+  "SystemEventId": 100,
   "Scope": "Database",
-  "Eta": "2002-07-23T11:44:42.5545135+02:00",
-  "Eventkey": "asperiores",
-  "Eventmess": "asperiores",
-  "ExtraInfo": 428,
-  "Owner": 591,
-  "UpdatedCount": 384,
-  "Registered": "2019-07-16T11:44:42.5545135+02:00",
+  "Eta": "2021-09-24T11:16:14.2304645+02:00",
+  "Eventkey": "vel",
+  "Eventmess": "consequuntur",
+  "ExtraInfo": 965,
+  "Owner": 673,
+  "UpdatedCount": 643,
+  "Registered": "2001-01-15T11:16:14.2304645+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   },
   "_Links": {

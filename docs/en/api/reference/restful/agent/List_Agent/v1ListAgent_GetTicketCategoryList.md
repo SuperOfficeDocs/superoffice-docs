@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 319,
-    "ParentId": 646,
-    "Name": "Sipes, Zulauf and Windler",
-    "Fullname": "et",
-    "CategoryMaster": 756,
+    "TicketCategoryId": 110,
+    "ParentId": 34,
+    "Name": "Schmidt, Schamberger and Witting",
+    "Fullname": "dolores",
+    "CategoryMaster": 416,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Nader LLC",
+    "ExternalName": "Schoen, Pacocha and McCullough",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 99,
-    "ReplyTemplate": 122,
-    "NotificationEmail": "dereck_kutch@grant.co.uk",
+    "AssignmentLag": 328,
+    "ReplyTemplate": 565,
+    "NotificationEmail": "deion_vonrueden@lubowitz.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 642,
+    "EffectiveReplyTemplateId": 818,
     "ExtraFields": {
-      "ExtraFields1": "veniam",
-      "ExtraFields2": "perferendis"
+      "ExtraFields1": "at",
+      "ExtraFields2": "cum"
     },
     "CustomFields": {
-      "CustomFields1": "hic",
-      "CustomFields2": "porro"
+      "CustomFields1": "mollitia",
+      "CustomFields2": "eveniet"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 23
       }
     }
   }

@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 397,
-  "PrefDescId": 218,
-  "PrefValue": "nobis",
-  "PrefShowValue": "sunt",
-  "Description": "Profit-focused upward-trending conglomeration",
+  "PrefDescLineId": 727,
+  "PrefDescId": 884,
+  "PrefValue": "asperiores",
+  "PrefShowValue": "quas",
+  "Description": "Cross-platform leading edge matrix",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 981,
-  "PrefDescId": 810,
-  "PrefValue": "qui",
-  "PrefShowValue": "eaque",
-  "Description": "Persistent client-server policy",
+  "PrefDescLineId": 440,
+  "PrefDescId": 725,
+  "PrefValue": "quo",
+  "PrefShowValue": "ut",
+  "Description": "Re-contextualized encompassing ability",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   },
   "_Links": {

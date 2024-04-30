@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 208,
+  "HierarchyId": 743,
   "Domain": "Dashboards",
-  "Name": "Keeling, Keeling and Rodriguez",
-  "Fullname": "cumque",
-  "ParentId": 235,
+  "Name": "Baumbach, Bergnaum and Legros",
+  "Fullname": "hic",
+  "ParentId": 937,
   "Children": [
     {
-      "HierarchyId": 17,
+      "HierarchyId": 650,
       "Domain": "Dashboards",
-      "Name": "Wolf-Towne",
-      "Fullname": "voluptatem",
-      "ParentId": 983,
+      "Name": "Howe Inc and Sons",
+      "Fullname": "similique",
+      "ParentId": 854,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-10-18T11:44:42.0077636+02:00",
-      "RegisteredAssociateId": 868,
-      "Updated": "1999-12-31T11:44:42.0077636+01:00",
-      "UpdatedAssociateId": 950,
+      "Registered": "2012-10-04T11:16:13.93321+02:00",
+      "RegisteredAssociateId": 709,
+      "Updated": "1997-07-09T11:16:13.93321+02:00",
+      "UpdatedAssociateId": 601,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 185
         }
       }
     }
   ],
-  "Registered": "2009-04-15T11:44:42.0077636+02:00",
-  "RegisteredAssociateId": 754,
-  "Updated": "2017-06-20T11:44:42.0077636+02:00",
-  "UpdatedAssociateId": 687,
+  "Registered": "2002-01-14T11:16:13.93321+01:00",
+  "RegisteredAssociateId": 339,
+  "Updated": "2015-11-12T11:16:13.93321+01:00",
+  "UpdatedAssociateId": 137,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 65
     }
   }
 }

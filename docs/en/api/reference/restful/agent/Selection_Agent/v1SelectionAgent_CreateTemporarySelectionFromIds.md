@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    730,
-    413
+    811,
+    573
   ],
-  "TargetTableNumber": 281
+  "TargetTableNumber": 640
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral national benchmark",
-  "Postit": "iure",
+  "Description": "Cross-group leading edge standardization",
+  "Postit": "consequatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 605,
-  "IncludePerson": 856,
-  "MemberCount": 558,
-  "Name": "Shields-Ankunding",
-  "PostitTextId": 565,
-  "CreatedDate": "2013-08-15T11:44:34.4782654+02:00",
-  "SelectionId": 542,
-  "SoundEx": "qui",
-  "Source": 327,
-  "TextId": 160,
-  "UpdatedDate": "2002-06-14T11:44:34.4782654+02:00",
-  "UpdatedCount": 434,
-  "Visibility": 420,
+  "GroupIdx": 640,
+  "IncludePerson": 407,
+  "MemberCount": 87,
+  "Name": "Cummerata, Wiza and Kuphal",
+  "PostitTextId": 33,
+  "CreatedDate": "2004-01-19T11:16:09.7259925+01:00",
+  "SelectionId": 949,
+  "SoundEx": "est",
+  "Source": 44,
+  "TextId": 396,
+  "UpdatedDate": "2008-07-20T11:16:09.7259925+02:00",
+  "UpdatedCount": 816,
+  "Visibility": 217,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 167,
-  "TargetTableName": "Klocko, Pouros and Witting",
-  "Completed": false,
-  "LeftSelectionId": 624,
-  "RightSelectionId": 663,
+  "TargetTableNumber": 329,
+  "TargetTableName": "Little-Zulauf",
+  "Completed": true,
+  "LeftSelectionId": 686,
+  "RightSelectionId": 529,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel LLC",
-  "ShadowProviderName": "Hand, Kozey and Gaylord",
-  "ChartKey": "aspernatur",
-  "LastLoaded": "2021-07-04T11:44:34.4782654+02:00",
-  "LastLoadedBy": 255,
+  "MainProviderName": "Ritchie LLC",
+  "ShadowProviderName": "Stoltenberg, Mitchell and Weimann",
+  "ChartKey": "quia",
+  "LastLoaded": "2020-05-04T11:16:09.7259925+02:00",
+  "LastLoadedBy": 218,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-27T11:44:34.4782654+01:00",
-  "LastMembershipChangeBy": 76,
+  "LastMembershipChange": "2020-08-02T11:16:09.7259925+02:00",
+  "LastMembershipChangeBy": 868,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "placeat",
-  "MailingsProviderName": "Kozey, Runolfsdottir and Deckow",
-  "DashboardTileDefinitionId": 896,
+  "MainHeading": "eligendi",
+  "MemberTabHeading": "ipsum",
+  "MailingsProviderName": "Koch Inc and Sons",
+  "DashboardTileDefinitionId": 353,
   "VisibleFor": [
     {
-      "VisibleId": 622,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 575
         }
       }
     },
     {
-      "VisibleId": 622,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 575
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 659
     }
   }
 }

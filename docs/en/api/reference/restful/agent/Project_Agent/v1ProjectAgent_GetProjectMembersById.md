@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    284,
-    559
+    661,
+    453
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 311,
-    "ContactId": 92,
-    "ProjectId": 909,
-    "ContactName": "Armstrong, Bergnaum and Reynolds",
+    "ProjectmemberId": 136,
+    "ContactId": 324,
+    "ProjectId": 11,
+    "ContactName": "Huels-Marquardt",
     "ContactDepartment": "",
-    "ProjectName": "Spencer, O'Conner and Schaefer",
-    "EmailId": 48,
-    "EmailAddress": "ervin.quitzon@powlowskimclaughlin.ca",
-    "CountryId": 56,
-    "Firstname": "Aaron",
-    "MiddleName": "Dach Group",
-    "Lastname": "Torp",
-    "PersonId": 822,
-    "Mrmrs": "laudantium",
-    "ProjectMemberTypeName": "Ward Inc and Sons",
-    "Phone": "(143)215-4553",
-    "PhoneId": 44,
-    "ProjectMemberTypeId": 736,
-    "EmailAddressName": "davin.brakus@jacobigorczany.co.uk",
-    "Comment": "qui",
-    "FullName": "Laverna Altenwerth",
+    "ProjectName": "Miller Group",
+    "EmailId": 281,
+    "EmailAddress": "keshawn_grimes@millswest.com",
+    "CountryId": 53,
+    "Firstname": "Allan",
+    "MiddleName": "Kutch, Bashirian and Smith",
+    "Lastname": "Robel",
+    "PersonId": 71,
+    "Mrmrs": "consequuntur",
+    "ProjectMemberTypeName": "Barton-Ritchie",
+    "Phone": "1-264-263-0183 x3032",
+    "PhoneId": 538,
+    "ProjectMemberTypeId": 749,
+    "EmailAddressName": "fiona@walker.info",
+    "Comment": "est",
+    "FullName": "Ms. Tyrese Collier Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldType": "System.Int32",
+        "FieldLength": 578
       }
     }
   }

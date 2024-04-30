@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 514,
-  "ERPQuoteLineKey": "velit",
-  "QuoteAlternativeId": 74,
-  "ERPProductKey": "et",
+  "QuoteLineId": 131,
+  "ERPQuoteLineKey": "omnis",
+  "QuoteAlternativeId": 928,
+  "ERPProductKey": "non",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20092.074,
-  "DeliveredQuantity": 17951.552,
-  "Rank": 959,
-  "Name": "Gulgowski Inc and Sons",
-  "Description": "De-engineered mission-critical hierarchy",
-  "Code": "laboriosam",
-  "QuantityUnit": "est",
-  "PriceUnit": "est",
-  "ItemNumber": "864936",
+  "Quantity": 2425.716,
+  "DeliveredQuantity": 1996.358,
+  "Rank": 472,
+  "Name": "Altenwerth Group",
+  "Description": "Universal bifurcated neural-net",
+  "Code": "facilis",
+  "QuantityUnit": "consectetur",
+  "PriceUnit": "dolor",
+  "ItemNumber": "1239695",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illum",
-  "ProductTypeKey": "modi",
-  "Supplier": "excepturi",
-  "SupplierCode": "perferendis",
-  "Thumbnail": "est",
-  "VATInfo": "animi",
-  "VAT": 6822.718,
-  "UnitCost": 25413.606,
-  "UnitMinimumPrice": 849.314,
-  "UnitListPrice": 1918.008,
+  "ProductFamilyKey": "nisi",
+  "ProductTypeKey": "aut",
+  "Supplier": "id",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "alias",
+  "VATInfo": "ut",
+  "VAT": 29177.539999999997,
+  "UnitCost": 11084.958,
+  "UnitMinimumPrice": 23627.226,
+  "UnitListPrice": 5876.25,
   "ExtraInfo": [
     {
-      "Name": "Hansen-Mills",
-      "Value": "nobis",
+      "Name": "Osinski-Pfeffer",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     },
     {
-      "Name": "Hansen-Mills",
-      "Value": "nobis",
+      "Name": "Osinski-Pfeffer",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
+  "RawExtraInfo": "voluptatem",
   "IsSubscription": true,
-  "SubscriptionUnit": "officia",
-  "SubscriptionQuantity": 31126.888,
-  "SubscriptionStart": "2007-11-26T11:44:34.3063794+01:00",
-  "ERPDiscountPercent": 20869.306,
-  "ERPDiscountAmount": 808.572,
-  "DiscountPercent": 5616.128,
-  "DiscountAmount": 4754.278,
+  "SubscriptionUnit": "molestiae",
+  "SubscriptionQuantity": 15434.949999999999,
+  "SubscriptionStart": "2005-03-11T11:16:09.6161411+01:00",
+  "ERPDiscountPercent": 17948.417999999998,
+  "ERPDiscountAmount": 22383.028,
+  "DiscountPercent": 10245.046,
+  "DiscountAmount": 2688.9719999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23523.804,
-  "EarningAmount": 22307.811999999998,
-  "SubTotal": 10357.869999999999,
-  "TotalPrice": 22699.561999999998,
-  "Rights": "eum",
-  "Rule": "qui",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "magni",
-  "ExtraField3": "atque",
-  "ExtraField4": "pariatur",
-  "ExtraField5": "quos",
+  "EarningPercent": 24376.252,
+  "EarningAmount": 27381.757999999998,
+  "SubTotal": 14908.438,
+  "TotalPrice": 15171.694,
+  "Rights": "eveniet",
+  "Rule": "corrupti",
+  "ExtraField1": "cum",
+  "ExtraField2": "nesciunt",
+  "ExtraField3": "culpa",
+  "ExtraField4": "aut",
+  "ExtraField5": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Koch Inc and Sons"
+  "OwnerName": "Reinger, Feil and Kiehn"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 453,
-      "NumberOfLicensesFree": 886,
-      "NumberOfLicensesAdded": 167,
-      "NumberOfLicensesNewTotal": 53,
-      "NumberOfLicensesNewFree": 639,
-      "NumberOfLicensesTotal": 260
+      "NumberOfLicensesInUse": 186,
+      "NumberOfLicensesFree": 405,
+      "NumberOfLicensesAdded": 959,
+      "NumberOfLicensesNewTotal": 882,
+      "NumberOfLicensesNewFree": 467,
+      "NumberOfLicensesTotal": 795
     }
   ],
-  "AccumulatedNextCheckDate": "2020-05-06T11:44:33.7753083+02:00"
+  "AccumulatedNextCheckDate": "2005-08-17T11:16:09.3034579+02:00"
 }
 ```

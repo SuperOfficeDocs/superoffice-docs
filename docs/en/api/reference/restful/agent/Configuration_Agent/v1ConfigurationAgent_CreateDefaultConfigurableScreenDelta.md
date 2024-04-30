@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 821,
-  "Name": "DuBuque LLC",
-  "Description": "Robust upward-trending functionalities",
-  "DeltaJson": "aut",
+  "ConfigurableScreenDeltaId": 717,
+  "Name": "Simonis-Toy",
+  "Description": "Face to face didactic capacity",
+  "DeltaJson": "itaque",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sint",
-  "UpdatedDate": "2012-12-28T11:44:32.9942315+01:00",
-  "CreatedDate": "2016-01-18T11:44:32.9942315+01:00",
+  "RecipeId": "excepturi",
+  "UpdatedDate": "2020-04-17T11:16:08.8347248+02:00",
+  "CreatedDate": "2023-07-29T11:16:08.8347248+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    614,
-    699
+    147,
+    471
   ],
-  "AppliesToKey": "quis",
+  "AppliesToKey": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 379
     }
   }
 }

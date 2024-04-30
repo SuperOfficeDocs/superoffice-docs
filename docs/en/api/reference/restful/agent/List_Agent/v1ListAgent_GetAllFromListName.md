@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "McDermott-Schneider",
+  "UdListDefinitionName": "Kulas, Kuhic and Hickle",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Mayer-Eichmann",
-    "Tooltip": "aspernatur",
+    "Id": 984,
+    "Name": "Dietrich Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "UdListDefinitionId": 650,
-    "Rank": 858,
+    "UdListDefinitionId": 543,
+    "Rank": 768,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 135
       }
     }
   }

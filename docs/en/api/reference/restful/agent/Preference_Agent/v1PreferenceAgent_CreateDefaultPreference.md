@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptas",
+  "RawValue": "quaerat",
   "Specification": null,
-  "DisplayValue": "impedit",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "molestias",
+  "DisplayTooltip": "eos",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 724,
-  "PrefDescId": 976,
-  "TableName": "Watsica Inc and Sons",
-  "UserPreferenceId": 366,
+  "TargetId": 304,
+  "PrefDescId": 192,
+  "TableName": "Wintheiser LLC",
+  "UserPreferenceId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 489
     }
   }
 }

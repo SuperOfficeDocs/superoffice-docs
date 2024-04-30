@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 109,
-      "ContactName": "Ankunding, Von and Paucek",
-      "PersonId": 296,
-      "PersonName": "Toy LLC",
-      "AssociateId": 229,
-      "Address": "veritatis",
-      "EmailId": 767,
+      "ContactId": 949,
+      "ContactName": "Nader Inc and Sons",
+      "PersonId": 454,
+      "PersonName": "DuBuque-Lubowitz",
+      "AssociateId": 728,
+      "Address": "reiciendis",
+      "EmailId": 980,
       "DuplicatePersonIds": [
-        408,
-        541
+        787,
+        539
       ],
-      "Name": "Runte, Larson and Reilly",
+      "Name": "Rippin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldLength": 561
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 543,
-      "ContactName": "Conroy Inc and Sons",
-      "PersonId": 900,
-      "PersonName": "Cassin Inc and Sons",
-      "AssociateId": 103,
-      "Address": "ipsum",
-      "EmailId": 248,
+      "ContactId": 105,
+      "ContactName": "Hermiston-Smith",
+      "PersonId": 911,
+      "PersonName": "Hermann Group",
+      "AssociateId": 11,
+      "Address": "et",
+      "EmailId": 918,
       "DuplicatePersonIds": [
-        447,
-        141
+        807,
+        827
       ],
-      "Name": "Boyle Group",
+      "Name": "Hahn-Smitham",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 468,
-      "ContactName": "Walker, Boyle and Mohr",
-      "PersonId": 105,
-      "PersonName": "Schuppe, Gottlieb and Wilkinson",
-      "AssociateId": 413,
-      "Address": "autem",
-      "EmailId": 94,
+      "ContactId": 952,
+      "ContactName": "Gulgowski-Ryan",
+      "PersonId": 160,
+      "PersonName": "Murphy-Sawayn",
+      "AssociateId": 442,
+      "Address": "rem",
+      "EmailId": 741,
       "DuplicatePersonIds": [
-        790,
-        200
+        87,
+        191
       ],
-      "Name": "Hahn, Watsica and Homenick",
+      "Name": "Lueilwitz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 919
         }
       }
     }
   ],
-  "Subject": "illo",
-  "HTMLBody": "quaerat",
+  "Subject": "nobis",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "2016-05-17T11:44:33.5878385+02:00",
-  "Size": 881,
+  "Sent": "1999-08-08T11:16:09.1784746+02:00",
+  "Size": 336,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloribus",
-  "PlainBody": "neque",
+  "MessageID": "aut",
+  "PlainBody": "exercitationem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 525,
+  "ServerId": 101,
   "Attachments": [
     {
-      "Description": "Innovative client-server focus group",
-      "Filename": "cupiditate",
-      "Size": 730,
-      "Type": "voluptates",
-      "Encoding": "deleniti",
-      "Id": "architecto",
-      "Disposition": "aliquam",
-      "IsSafeFileExtension": true,
+      "Description": "Implemented 4th generation matrices",
+      "Filename": "nihil",
+      "Size": 608,
+      "Type": "sit",
+      "Encoding": "recusandae",
+      "Id": "illo",
+      "Disposition": "non",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 321
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Herman-Jacobson",
+      "Name": "Steuber-Dach",
       "Values": [
-        "praesentium",
-        "consequuntur"
+        "voluptates",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldType": "System.Int32",
+          "FieldLength": 555
         }
       }
     },
     {
-      "Name": "Herman-Jacobson",
+      "Name": "Steuber-Dach",
       "Values": [
-        "praesentium",
-        "consequuntur"
+        "voluptates",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldType": "System.Int32",
+          "FieldLength": 555
         }
       }
     }
   ],
-  "FolderName": "Daniel LLC",
-  "EmailItemId": 888,
-  "AccountId": 663,
-  "ReceivedAt": "2011-05-21T11:44:33.5878385+02:00",
+  "FolderName": "Jones Group",
+  "EmailItemId": 56,
+  "AccountId": 911,
+  "ReceivedAt": "2000-05-31T11:16:09.1784746+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-04-19T11:44:33.5878385+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1997-04-12T11:16:09.1784746+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldLength": 509
     }
   }
 }

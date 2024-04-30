@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=246
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=221
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 645,
+  "DocumentId": 126,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "recusandae",
-  "Header": "aliquid",
-  "Name": "Konopelski, Nienow and Stanton",
-  "OurRef": "quia",
-  "YourRef": "deleniti",
-  "CreatedDate": "2005-07-09T11:44:33.4785117+02:00",
-  "UpdatedDate": "2010-09-25T11:44:33.4785117+02:00",
-  "Description": "Fundamental eco-centric hierarchy",
+  "Attention": "accusantium",
+  "Header": "voluptates",
+  "Name": "Kreiger, Fahey and Schumm",
+  "OurRef": "expedita",
+  "YourRef": "rerum",
+  "CreatedDate": "2018-10-10T11:16:09.1003594+02:00",
+  "UpdatedDate": "2012-11-11T11:16:09.1003594+01:00",
+  "Description": "Synchronised interactive extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-11-26T11:44:33.4785117+01:00",
-  "ExternalRef": "sapiente",
+  "Date": "2015-04-05T11:16:09.1003594+02:00",
+  "ExternalRef": "vel",
   "Completed": "Completed",
-  "ActiveLinks": 617,
+  "ActiveLinks": 774,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Champlin Group",
-      "Id": 771,
-      "Description": "Synergized 5th generation support",
-      "ExtraInfo": "expedita",
-      "LinkId": 609,
+      "EntityName": "Cummerata LLC",
+      "Id": 995,
+      "Description": "Operative next generation interface",
+      "ExtraInfo": "quam",
+      "LinkId": 557,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 665
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 582,
-  "Snum": 928,
+  "SuggestedDocumentId": 129,
+  "Snum": 419,
   "UserDefinedFields": {
     "SuperOffice:1": "True",
-    "SuperOffice:2": "Reilly Gleichner"
+    "SuperOffice:2": "Sheila Santos Cummings III"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "et"
+    "CustomFields1": "nemo",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "1998-01-01T11:44:33.4785117+01:00",
-  "PublishTo": "2020-10-14T11:44:33.4785117+02:00",
-  "PublishFrom": "2000-04-22T11:44:33.4785117+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-03-13T11:16:09.1003594+01:00",
+  "PublishTo": "2012-07-21T11:16:09.1003594+02:00",
+  "PublishFrom": "1997-11-13T11:16:09.1003594+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 74,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 987
         }
       }
     },
     {
-      "VisibleId": 74,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldLength": 987
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

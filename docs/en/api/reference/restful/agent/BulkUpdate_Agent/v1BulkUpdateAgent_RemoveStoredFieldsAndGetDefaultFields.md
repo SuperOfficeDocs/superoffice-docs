@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schowalter, Gutkowski and Buckridge",
-  "Context": "molestiae"
+  "TableName": "Conn, Homenick and Kuphal",
+  "Context": "sapiente"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "quo",
-    "ValueType": "suscipit",
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "aliquid",
+    "ValueType": "facilis",
     "Mandatory": false,
-    "EncodedDisplayName": "Gerhold-Upton",
-    "EncodedDisplayDescription": "Sharable heuristic approach",
-    "IconHint": "rerum",
+    "EncodedDisplayName": "Lehner, Halvorson and Blick",
+    "EncodedDisplayDescription": "Inverse coherent array",
+    "IconHint": "inventore",
     "ControlInfos": [
       {
-        "Type": "laudantium",
-        "Label": "molestiae",
-        "Dimension": 761,
-        "ListProviderName": "Bailey Group",
-        "ListProviderExtraInfo": "impedit",
-        "ListProviderPrimaryKeyName": "Ebert, Lakin and Howe",
-        "ListLeadText": "nemo",
+        "Type": "excepturi",
+        "Label": "vitae",
+        "Dimension": 719,
+        "ListProviderName": "Schmidt LLC",
+        "ListProviderExtraInfo": "quis",
+        "ListProviderPrimaryKeyName": "Kirlin-Breitenberg",
+        "ListLeadText": "autem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 905
+            "FieldLength": 708
           }
         }
       }
     ],
-    "EncodedDataCaption": "id",
-    "EncodedDataCaptionDescription": "Fundamental human-resource contingency",
-    "CurrentOperationType": "non",
+    "EncodedDataCaption": "expedita",
+    "EncodedDataCaptionDescription": "Proactive impactful website",
+    "CurrentOperationType": "reprehenderit",
     "Values": [
-      "enim",
-      "odio"
+      "sunt",
+      "voluptates"
     ],
     "DisplayValues": [
-      "laboriosam",
-      "fugiat"
+      "qui",
+      "quae"
     ],
     "OperationInfos": [
       {
-        "Key": "iusto",
-        "EncodedDisplayName": "Reilly-Bauch",
+        "Key": "fugit",
+        "EncodedDisplayName": "Stracke Group",
         "EncodedLeadTexts": [
-          "aspernatur",
-          "dolores"
+          "similique",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldLength": 983
           }
         }
       },
       {
-        "Key": "iusto",
-        "EncodedDisplayName": "Reilly-Bauch",
+        "Key": "fugit",
+        "EncodedDisplayName": "Stracke Group",
         "EncodedLeadTexts": [
-          "aspernatur",
-          "dolores"
+          "similique",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldLength": 983
           }
         }
       }

@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=aut
+GET /api/v1/List/Category/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Connelly-Kovacek",
-    "ToolTip": "Fugit vel et temporibus tempora.",
+    "Id": 764,
+    "Name": "Olson Group",
+    "ToolTip": "Eum ea ratione est.",
     "Deleted": true,
-    "Rank": 992,
-    "Type": "maxime",
+    "Rank": 697,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Smith, Romaguera and Heller",
-        "ToolTip": "Ab et culpa assumenda rerum.",
-        "Deleted": false,
-        "Rank": 271,
-        "Type": "dicta",
+        "Id": 173,
+        "Name": "Satterfield-Botsford",
+        "ToolTip": "Dolorem aut.",
+        "Deleted": true,
+        "Rank": 993,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 960,
-        "ExtraInfo": "qui",
-        "StyleHint": "dolorum",
-        "FullName": "Fletcher Alessandro Bins Sr.",
+        "IconHint": "sit",
+        "ColorBlock": 630,
+        "ExtraInfo": "iusto",
+        "StyleHint": "ut",
+        "FullName": "Jonas Altenwerth DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldType": "System.String",
+            "FieldLength": 324
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 452,
-    "ExtraInfo": "corporis",
-    "StyleHint": "nihil",
-    "FullName": "Freeman Bernhard",
+    "IconHint": "magnam",
+    "ColorBlock": 92,
+    "ExtraInfo": "quia",
+    "StyleHint": "ducimus",
+    "FullName": "Claud Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 853
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

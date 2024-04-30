@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 994
+  "PersonId": 43
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 987.20999999999992,
-  "Wgs84Longitude": 22339.152,
+  "Wgs84Latitude": 24470.272,
+  "Wgs84Longitude": 30941.982,
   "LocalizedAddress": [
     [
       {
-        "Name": "Dach-Dietrich",
-        "Value": "ratione",
-        "Tooltip": "in",
-        "Label": "quas",
-        "ValueLength": 529,
-        "AddressType": "inventore",
+        "Name": "Bahringer Group",
+        "Value": "odit",
+        "Tooltip": "quia",
+        "Label": "sit",
+        "ValueLength": 352,
+        "AddressType": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 410
+            "FieldType": "System.Int32",
+            "FieldLength": 220
           }
         }
       }
     ],
     [
       {
-        "Name": "Johnson, Ziemann and Boyle",
-        "Value": "laborum",
-        "Tooltip": "quis",
-        "Label": "consectetur",
-        "ValueLength": 883,
-        "AddressType": "error",
+        "Name": "Lueilwitz Inc and Sons",
+        "Value": "ut",
+        "Tooltip": "cupiditate",
+        "Label": "eum",
+        "ValueLength": 489,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 797
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "commodi",
+  "Formatted": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 723
     }
   }
 }

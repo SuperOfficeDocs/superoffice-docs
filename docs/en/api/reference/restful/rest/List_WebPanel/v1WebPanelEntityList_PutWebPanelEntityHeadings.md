@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 754,
-    "Name": "Koepp, Rice and Macejkovic",
-    "Tooltip": "magni",
+    "HeadingId": 260,
+    "Name": "Nikolaus Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 221,
-    "UdListDefinitionId": 334
+    "Rank": 482,
+    "UdListDefinitionId": 846
   },
   {
-    "HeadingId": 754,
-    "Name": "Koepp, Rice and Macejkovic",
-    "Tooltip": "magni",
+    "HeadingId": 260,
+    "Name": "Nikolaus Group",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 221,
-    "UdListDefinitionId": 334
+    "Rank": 482,
+    "UdListDefinitionId": 846
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 332,
-    "Name": "O'Keefe-Walsh",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 200,
-    "UdListDefinitionId": 4,
+    "HeadingId": 682,
+    "Name": "Kessler Inc and Sons",
+    "Tooltip": "iusto",
+    "Deleted": false,
+    "Rank": 766,
+    "UdListDefinitionId": 370,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 765
       }
     }
   }

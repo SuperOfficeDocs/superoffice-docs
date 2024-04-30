@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Franecki, Armstrong and Crona",
-  "StorageKey": "eius",
-  "ExtraRestrictions": "necessitatibus",
-  "OrderBy": "adipisci",
-  "DesiredColumns": "quos",
-  "PageSize": 426,
-  "PageNumber": 168
+  "StorageType": "asperiores",
+  "ProviderName": "Terry-Kessler",
+  "StorageKey": "porro",
+  "ExtraRestrictions": "adipisci",
+  "OrderBy": "et",
+  "DesiredColumns": "nemo",
+  "PageSize": 268,
+  "PageNumber": 257
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bogisich, Murazik and Rath",
-      "DisplayTooltip": "sint",
-      "DisplayType": "minus",
-      "CanOrderBy": true,
-      "Name": "Jewess LLC",
+      "DisplayName": "Lang-Stark",
+      "DisplayTooltip": "molestias",
+      "DisplayType": "ab",
+      "CanOrderBy": false,
+      "Name": "Murphy, Wolf and Hills",
       "CanRestrictBy": false,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Lesch-Welch",
+      "RestrictionType": "explicabo",
+      "RestrictionListName": "Gleichner-Crooks",
       "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "quo",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "distinctio"
+      "ExtraInfo": "fugit",
+      "Width": "reprehenderit",
+      "IconHint": "et",
+      "HeadingIconHint": "optio"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bosco, Haley and Yost",
-      "PrimaryKey": 610,
+      "EntityName": "Beer, Fritsch and Stark",
+      "PrimaryKey": 186,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perspiciatis",
-          "TooltipHint": "nihil",
-          "LinkHint": "pariatur"
+          "DisplayValue": "reprehenderit",
+          "TooltipHint": "culpa",
+          "LinkHint": "blanditiis"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "sit",
+      "LinkHint": "recusandae",
+      "StyleHint": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 226
         }
       }
     }
   ],
-  "RowCount": 141,
+  "RowCount": 980,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

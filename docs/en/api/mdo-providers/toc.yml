@@ -119,6 +119,8 @@ items:
   href: reference/currentudeffields.md
 - name: Customerlanguage
   href: reference/customerlanguage.md
+- name: Customobjectrelation
+  href: reference/customobjectrelation.md
 - name: Dashboard
   href: reference/dashboard.md
 - name: Dashboardcurrency

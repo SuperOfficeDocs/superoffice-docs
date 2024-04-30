@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=965
+POST /api/v1/Agents/Document/GetDocument?documentId=74
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 657,
-  "Attention": "eum",
-  "Header": "et",
-  "Name": "Breitenberg-Krajcik",
-  "OurRef": "eius",
-  "YourRef": "eum",
-  "Description": "Multi-layered fresh-thinking array",
-  "DocumentTemplate": "rerum",
-  "IsPublished": true,
-  "PersonId": 822,
-  "PersonFullName": "Dr. Daisy Kirlin",
-  "AssociateFullName": "Prof. Lillie Jake Upton",
-  "ContactId": 396,
-  "ContactName": "Fay-Wehner",
-  "ProjectId": 746,
-  "ProjectName": "Homenick, Bednar and Larkin",
-  "AssociateId": 721,
-  "Snum": 665,
-  "SaleId": 674,
-  "SaleName": "Oberbrunner Group",
+  "DocumentId": 152,
+  "Attention": "accusantium",
+  "Header": "nesciunt",
+  "Name": "Kautzer LLC",
+  "OurRef": "distinctio",
+  "YourRef": "facere",
+  "Description": "Universal 6th generation installation",
+  "DocumentTemplate": "accusantium",
+  "IsPublished": false,
+  "PersonId": 956,
+  "PersonFullName": "Prof. Forest Jerald Adams I",
+  "AssociateFullName": "Etha Stanton",
+  "ContactId": 897,
+  "ContactName": "D'Amore, Kulas and Stroman",
+  "ProjectId": 137,
+  "ProjectName": "Lynch-Grady",
+  "AssociateId": 421,
+  "Snum": 113,
+  "SaleId": 143,
+  "SaleName": "Runolfsson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 303
     }
   }
 }

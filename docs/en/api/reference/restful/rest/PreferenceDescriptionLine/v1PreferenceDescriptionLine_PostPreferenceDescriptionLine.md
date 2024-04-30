@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 562,
-  "PrefDescId": 817,
-  "PrefValue": "quos",
-  "PrefShowValue": "odit",
-  "Description": "Mandatory context-sensitive knowledge user",
+  "PrefDescLineId": 6,
+  "PrefDescId": 397,
+  "PrefValue": "consequuntur",
+  "PrefShowValue": "voluptas",
+  "Description": "Networked mission-critical info-mediaries",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 557,
-  "PrefDescId": 623,
-  "PrefValue": "mollitia",
-  "PrefShowValue": "error",
-  "Description": "Profit-focused foreground open system",
+  "PrefDescLineId": 380,
+  "PrefDescId": 366,
+  "PrefValue": "aut",
+  "PrefShowValue": "exercitationem",
+  "Description": "Function-based analyzing protocol",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

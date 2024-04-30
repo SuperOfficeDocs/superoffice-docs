@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Dach, Mueller and Berge",
-    "Tooltip": "impedit",
+    "HeadingId": 123,
+    "Name": "Bode, Prohaska and Schuster",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 8,
-    "UdListDefinitionId": 154,
+    "Rank": 605,
+    "UdListDefinitionId": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 919,
+  "DocumentId": 851,
   "AllowedReturnTypes": [
-    "odio",
-    "ab"
+    "id",
+    "id"
   ],
-  "VersionDescription": "Stand-alone system-worthy archive",
+  "VersionDescription": "User-centric zero tolerance capacity",
   "VersionExtraFields": [
-    "doloremque",
-    "doloremque"
+    "consequatur",
+    "necessitatibus"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ut",
-  "VersionId": "architecto",
+  "ExternalReference": "molestiae",
+  "VersionId": "provident",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "sunt",
-  "AdditionalInfo": "facere"
+  "Value": "id",
+  "AdditionalInfo": "autem"
 }
 ```

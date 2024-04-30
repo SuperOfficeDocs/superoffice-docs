@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Bayer, Gottlieb and Schmitt",
-      "Delimiter": "libero",
-      "Flags": "cum",
-      "TotalItems": 466,
-      "UnreadItems": 169,
-      "Subscribed": true,
-      "EmailFolderId": 527
+      "Name": "Grady, Harris and Baumbach",
+      "Delimiter": "similique",
+      "Flags": "iusto",
+      "TotalItems": 105,
+      "UnreadItems": 113,
+      "Subscribed": false,
+      "EmailFolderId": 818
     }
   ]
 }

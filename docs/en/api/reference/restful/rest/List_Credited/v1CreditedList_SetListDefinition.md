@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Abshire, Howell and Prohaska",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 371,
+  "Id": 992,
+  "Name": "Stiedemann-Braun",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 825,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true
+  "ListType": "ab",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "et",
+  "Id": 275,
+  "Name": "Schiller Group",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 447,
+  "Rank": 272,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 610
     }
   }
 }

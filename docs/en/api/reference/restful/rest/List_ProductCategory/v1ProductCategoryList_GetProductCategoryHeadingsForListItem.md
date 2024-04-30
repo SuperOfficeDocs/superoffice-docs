@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Mraz Inc and Sons",
-    "ToolTip": "Aspernatur sed ut distinctio natus provident est exercitationem.",
+    "Id": 398,
+    "Name": "Upton, Kuphal and Wiza",
+    "ToolTip": "Cupiditate optio tenetur ullam et ipsum velit delectus.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "minus",
-    "ColorBlock": 961,
-    "IconHint": "assumenda",
+    "Rank": 557,
+    "Type": "rem",
+    "ColorBlock": 989,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2013-08-15T11:44:43.1949983+02:00",
+    "LastChanged": "2002-07-10T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Kassulke-Zieme",
-        "ToolTip": "Deserunt rem molestiae.",
-        "Deleted": true,
-        "Rank": 44,
-        "Type": "molestias",
-        "ColorBlock": 916,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2006-06-15T11:44:43.1949983+02:00",
+        "Id": 206,
+        "Name": "Christiansen-Kling",
+        "ToolTip": "Corporis ut cum repellat facilis quibusdam quasi velit.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "sed",
+        "ColorBlock": 124,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2012-12-13T11:16:14.6370359+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Coleman Hoeger",
+        "FullName": "Mrs. Juliana Jordi Sipes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldType": "System.String",
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "tenetur",
-    "Hidden": true,
-    "FullName": "Rodrigo Hartmann",
+    "ExtraInfo": "quia",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Ms. Kaden Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 637
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 438,
+  "TargetAssignmentInfoId": 816,
   "Values": [
-    787,
-    817
+    502,
+    318
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 717,
-  "DimensionListItemDisplayName": "Will, Swaniawski and Howe",
+  "DimensionListItem": 74,
+  "DimensionListItemDisplayName": "Prosacco-Pagac",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 203
     }
   }
 }

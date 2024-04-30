@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 479
+  "ChatSessionId": 205
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 763,
-  "TopicId": 160,
+  "ChatSessionId": 883,
+  "TopicId": 92,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quis",
-  "CustomerHost": "et",
-  "CustomerName": "Haley, Kerluke and Zemlak",
-  "CustomerEmail": "dimitri@orn.info",
-  "CustomerPhone": "331-079-5276",
+  "CustomerAlias": "eum",
+  "CustomerHost": "sit",
+  "CustomerName": "Quitzon, Ortiz and Stamm",
+  "CustomerEmail": "alejandra.pollich@mclaughlinleffler.biz",
+  "CustomerPhone": "(684)865-4607 x6185",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Yundt LLC",
+  "CustomerCompanyName": "Hodkiewicz LLC",
   "Status": "Closed",
-  "FirstMessage": "odio",
-  "LastMessage": "ducimus",
-  "WhenRequested": "2005-01-31T11:44:32.947363+01:00",
-  "WhenStarted": "2004-03-21T11:44:32.947363+01:00",
-  "WhenEnded": "2023-01-11T11:44:32.947363+01:00",
-  "WhenIdle": "1998-09-20T11:44:32.947363+02:00",
-  "WhenFetched": "2013-02-28T11:44:32.947363+01:00",
-  "SessionKey": "quo",
-  "InitialQueuePos": 10,
-  "AlertLevel": 686,
-  "Rank": 485,
+  "FirstMessage": "delectus",
+  "LastMessage": "minus",
+  "WhenRequested": "2023-09-10T11:16:08.8191018+02:00",
+  "WhenStarted": "2018-06-14T11:16:08.8191018+02:00",
+  "WhenEnded": "2004-08-15T11:16:08.8191018+02:00",
+  "WhenIdle": "1998-09-18T11:16:08.8191018+02:00",
+  "WhenFetched": "2000-10-20T11:16:08.8191018+02:00",
+  "SessionKey": "unde",
+  "InitialQueuePos": 861,
+  "AlertLevel": 6,
+  "Rank": 734,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 35,
+  "ChatbotIsActive": true,
+  "Rating": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

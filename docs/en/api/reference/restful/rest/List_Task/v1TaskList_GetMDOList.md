@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=ipsum
+GET /api/v1/List/Task/MDOItems?query=perspiciatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Schultz-Wyman",
-    "ToolTip": "Omnis accusamus praesentium quibusdam rerum alias.",
+    "Id": 411,
+    "Name": "Strosin-Bruen",
+    "ToolTip": "Deleniti asperiores nihil magni omnis necessitatibus est omnis.",
     "Deleted": true,
-    "Rank": 763,
-    "Type": "quo",
+    "Rank": 343,
+    "Type": "a",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Thiel LLC",
-        "ToolTip": "Minus harum voluptas et consequuntur aperiam.",
-        "Deleted": true,
-        "Rank": 839,
-        "Type": "odio",
+        "Id": 612,
+        "Name": "Kuhic Inc and Sons",
+        "ToolTip": "Aut rerum est ea assumenda.",
+        "Deleted": false,
+        "Rank": 978,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 189,
-        "ExtraInfo": "dolor",
-        "StyleHint": "debitis",
-        "FullName": "Miss Kendra Bechtelar",
+        "IconHint": "inventore",
+        "ColorBlock": 99,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "optio",
+        "FullName": "Dr. Trystan Berta O'Connell MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 279
+            "FieldType": "System.Int32",
+            "FieldLength": 964
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 820,
-    "ExtraInfo": "sunt",
-    "StyleHint": "cum",
-    "FullName": "Corene Haley",
+    "IconHint": "tempora",
+    "ColorBlock": 129,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "voluptate",
+    "FullName": "Mrs. Cristina Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

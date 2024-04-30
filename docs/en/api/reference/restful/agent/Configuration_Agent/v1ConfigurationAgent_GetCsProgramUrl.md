@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "et",
-  "ProgramName": "Cremin LLC",
-  "Action": "in",
-  "ExtraParameters": "veritatis"
+  "Language": "quam",
+  "ProgramName": "Doyle, Lind and Schmeler",
+  "Action": "fuga",
+  "ExtraParameters": "nostrum"
 }
 ```
 

@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum, Lemke and Hilpert",
-    "Delimiter": "et",
-    "Flags": "a",
-    "TotalItems": 41,
-    "UnreadItems": 883,
-    "Subscribed": false,
-    "EmailFolderId": 450,
+    "Name": "Brakus-Harvey",
+    "Delimiter": "est",
+    "Flags": "soluta",
+    "TotalItems": 18,
+    "UnreadItems": 263,
+    "Subscribed": true,
+    "EmailFolderId": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

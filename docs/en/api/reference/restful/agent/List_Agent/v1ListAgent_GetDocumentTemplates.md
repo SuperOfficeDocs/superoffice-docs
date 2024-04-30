@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 948,
-    "Name": "Abshire, Reilly and Boehm",
-    "Tooltip": "expedita",
-    "SaveInDb": 218,
-    "Filename": "aperiam",
-    "DefaultOref": "accusamus",
+    "DocumentTemplateId": 371,
+    "Name": "Hettinger Inc and Sons",
+    "Tooltip": "rerum",
+    "SaveInDb": 157,
+    "Filename": "necessitatibus",
+    "DefaultOref": "quisquam",
     "RecordType": "Appointment",
-    "Deleted": 595,
+    "Deleted": 542,
     "Direction": "Incoming",
-    "AutoeventId": 457,
+    "AutoeventId": 396,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 663
       }
     }
   }

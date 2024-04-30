@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 319,
-  "ColumnId": 60,
-  "FieldDefault": "dolore",
-  "FieldHeight": 38,
-  "FieldLabel": "est",
-  "FieldLeft": 62,
-  "FieldTop": 805,
+  "UDefFieldId": 567,
+  "ColumnId": 961,
+  "FieldDefault": "nihil",
+  "FieldHeight": 939,
+  "FieldLabel": "maxime",
+  "FieldLeft": 813,
+  "FieldTop": 267,
   "FieldType": "Checkbox",
-  "FieldWidth": 340,
-  "FormatMask": "nostrum",
-  "HideLabel": false,
+  "FieldWidth": 454,
+  "FormatMask": "et",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 394,
-  "LabelLeft": 424,
-  "LabelTop": 3,
-  "LabelWidth": 130,
-  "LastVersionId": 68,
-  "ListTableId": 709,
+  "LabelHeight": 950,
+  "LabelLeft": 189,
+  "LabelTop": 837,
+  "LabelWidth": 637,
+  "LastVersionId": 625,
+  "ListTableId": 683,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 801,
-  "ProgId": "sapiente",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 758,
-  "TextLength": 103,
-  "Tooltip": "unde",
-  "UdefIdentity": 335,
-  "UDListDefinitionId": 120,
+  "Page1LineNo": 255,
+  "ProgId": "optio",
+  "IsReadOnly": false,
+  "ShortLabel": "est",
+  "TabOrder": 965,
+  "TextLength": 658,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 93,
+  "UDListDefinitionId": 419,
   "Justification": "Center",
-  "Version": 392,
-  "TemplateVariableName": "Schuppe, Schimmel and Schmitt",
-  "HasBeenPublished": false,
-  "MdoListName": "Schiller Group",
+  "Version": 22,
+  "TemplateVariableName": "Effertz-Erdman",
+  "HasBeenPublished": true,
+  "MdoListName": "Mitchell, Hickle and Treutel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 302,
-  "AppointmentId": 872,
-  "ProjectId": 691,
-  "SaleId": 298,
-  "Archived": false,
-  "ArchivedAt": "2000-10-01T11:44:33.6190814+02:00",
-  "ArchivedBy": 692,
-  "ArchivedDisplayName": "Luettgen, Kovacek and Considine",
+  "DocumentId": 732,
+  "AppointmentId": 587,
+  "ProjectId": 744,
+  "SaleId": 49,
+  "Archived": true,
+  "ArchivedAt": "2017-12-27T11:16:09.1941046+01:00",
+  "ArchivedBy": 320,
+  "ArchivedDisplayName": "Marvin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

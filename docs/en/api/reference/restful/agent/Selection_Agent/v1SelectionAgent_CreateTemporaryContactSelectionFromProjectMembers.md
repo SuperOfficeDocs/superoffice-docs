@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 326
+  "ProjectId": 730
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed discrete leverage",
-  "Postit": "nihil",
+  "Description": "Devolved discrete matrix",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 50,
-  "IncludePerson": 870,
-  "MemberCount": 147,
-  "Name": "Paucek Group",
-  "PostitTextId": 313,
-  "CreatedDate": "1998-01-11T11:44:34.4470256+01:00",
-  "SelectionId": 454,
-  "SoundEx": "perferendis",
-  "Source": 810,
-  "TextId": 503,
-  "UpdatedDate": "2017-04-17T11:44:34.4470256+02:00",
-  "UpdatedCount": 937,
-  "Visibility": 669,
+  "GroupIdx": 529,
+  "IncludePerson": 139,
+  "MemberCount": 315,
+  "Name": "Connelly Inc and Sons",
+  "PostitTextId": 434,
+  "CreatedDate": "2014-08-25T11:16:09.7103639+02:00",
+  "SelectionId": 672,
+  "SoundEx": "deserunt",
+  "Source": 550,
+  "TextId": 67,
+  "UpdatedDate": "2022-03-23T11:16:09.7103639+01:00",
+  "UpdatedCount": 943,
+  "Visibility": 961,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 592,
-  "TargetTableName": "Wolff-Jacobi",
-  "Completed": false,
-  "LeftSelectionId": 308,
-  "RightSelectionId": 735,
+  "TargetTableNumber": 632,
+  "TargetTableName": "Klocko LLC",
+  "Completed": true,
+  "LeftSelectionId": 510,
+  "RightSelectionId": 678,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leannon-Casper",
-  "ShadowProviderName": "Nicolas, Baumbach and Schulist",
-  "ChartKey": "rerum",
-  "LastLoaded": "1997-07-31T11:44:34.4470256+02:00",
-  "LastLoadedBy": 835,
+  "MainProviderName": "Johnson LLC",
+  "ShadowProviderName": "Mosciski, Okuneva and Rippin",
+  "ChartKey": "corporis",
+  "LastLoaded": "2021-06-18T11:16:09.7103639+02:00",
+  "LastLoadedBy": 52,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-11-11T11:44:34.4470256+01:00",
-  "LastMembershipChangeBy": 784,
+  "LastMembershipChange": "1997-06-15T11:16:09.7103639+02:00",
+  "LastMembershipChangeBy": 821,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quaerat",
-  "MemberTabHeading": "ad",
-  "MailingsProviderName": "Douglas, Kertzmann and McCullough",
-  "DashboardTileDefinitionId": 34,
+  "MainHeading": "et",
+  "MemberTabHeading": "repudiandae",
+  "MailingsProviderName": "Satterfield-Lang",
+  "DashboardTileDefinitionId": 138,
   "VisibleFor": [
     {
-      "VisibleId": 480,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldLength": 428
         }
       }
     },
     {
-      "VisibleId": 480,
+      "VisibleId": 215,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldLength": 428
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

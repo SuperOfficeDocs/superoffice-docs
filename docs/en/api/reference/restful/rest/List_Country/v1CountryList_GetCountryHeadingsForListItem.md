@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Johns, Watsica and Schneider",
-    "ToolTip": "Similique reiciendis.",
+    "Id": 69,
+    "Name": "Anderson-Beier",
+    "ToolTip": "Alias illo.",
     "Deleted": true,
-    "Rank": 912,
-    "Type": "sed",
-    "ColorBlock": 192,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2013-10-12T11:44:43.0075335+02:00",
+    "Rank": 864,
+    "Type": "alias",
+    "ColorBlock": 522,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2006-08-07T11:16:14.5276742+02:00",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Sporer Group",
-        "ToolTip": "Fuga et voluptates aliquid aut.",
+        "Id": 436,
+        "Name": "Schiller-Batz",
+        "ToolTip": "Quia aperiam debitis est perferendis.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "ipsa",
-        "ColorBlock": 525,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2017-12-10T11:44:43.0075335+01:00",
+        "Rank": 758,
+        "Type": "laborum",
+        "ColorBlock": 679,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2003-04-02T11:16:14.5276742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "earum",
-        "Hidden": false,
-        "FullName": "Miss D'angelo Destany Roberts",
+        "ExtraInfo": "veniam",
+        "StyleHint": "impedit",
+        "Hidden": true,
+        "FullName": "Ms. Cheyenne Weissnat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldType": "System.Int32",
+            "FieldLength": 117
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Dariana Homenick",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Ayla Bria Bode PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 457
+        "FieldLength": 640
       }
     }
   }

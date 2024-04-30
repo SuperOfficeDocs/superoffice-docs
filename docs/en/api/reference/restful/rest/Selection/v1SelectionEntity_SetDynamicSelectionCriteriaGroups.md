@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kub, Schuppe and Mosciski",
-    "Description": "Upgradable bandwidth-monitored emulation",
-    "Rank": 698,
+    "Name": "Torphy-Kulas",
+    "Description": "Proactive heuristic installation",
+    "Rank": 311,
     "Restrictions": [
       {
-        "Name": "Mertz Group",
-        "Operator": "eos",
+        "Name": "Green LLC",
+        "Operator": "dolores",
         "Values": [
-          "quo",
-          "et"
+          "nemo",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "voluptas",
-          "perspiciatis"
+          "est",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 91,
+        "InterParenthesis": 107,
         "InterOperator": "And",
-        "UniqueHash": 718
+        "UniqueHash": 256
       }
     ]
   },
   {
-    "Name": "Kub, Schuppe and Mosciski",
-    "Description": "Upgradable bandwidth-monitored emulation",
-    "Rank": 698,
+    "Name": "Torphy-Kulas",
+    "Description": "Proactive heuristic installation",
+    "Rank": 311,
     "Restrictions": [
       {
-        "Name": "Mertz Group",
-        "Operator": "eos",
+        "Name": "Green LLC",
+        "Operator": "dolores",
         "Values": [
-          "quo",
-          "et"
+          "nemo",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "voluptas",
-          "perspiciatis"
+          "est",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 91,
+        "InterParenthesis": 107,
         "InterOperator": "And",
-        "UniqueHash": 718
+        "UniqueHash": 256
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rau, Hand and Schamberger",
-    "Description": "Phased mission-critical framework",
-    "Rank": 125,
+    "Name": "Toy-Schmidt",
+    "Description": "Multi-lateral real-time standardization",
+    "Rank": 374,
     "Restrictions": [
       {
-        "Name": "Swaniawski-Schneider",
-        "Operator": "aliquid",
+        "Name": "Labadie-Witting",
+        "Operator": "illo",
         "Values": [
-          "reiciendis",
-          "non"
+          "quas",
+          "unde"
         ],
         "DisplayValues": [
-          "at",
-          "minus"
+          "tenetur",
+          "nobis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 1002,
+        "InterParenthesis": 962,
         "InterOperator": "And",
-        "UniqueHash": 462
+        "UniqueHash": 243
       }
     ]
   },
   {
-    "Name": "Rau, Hand and Schamberger",
-    "Description": "Phased mission-critical framework",
-    "Rank": 125,
+    "Name": "Toy-Schmidt",
+    "Description": "Multi-lateral real-time standardization",
+    "Rank": 374,
     "Restrictions": [
       {
-        "Name": "Swaniawski-Schneider",
-        "Operator": "aliquid",
+        "Name": "Labadie-Witting",
+        "Operator": "illo",
         "Values": [
-          "reiciendis",
-          "non"
+          "quas",
+          "unde"
         ],
         "DisplayValues": [
-          "at",
-          "minus"
+          "tenetur",
+          "nobis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 1002,
+        "InterParenthesis": 962,
         "InterOperator": "And",
-        "UniqueHash": 462
+        "UniqueHash": 243
       }
     ]
   }

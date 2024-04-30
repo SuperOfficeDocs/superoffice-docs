@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 802,
+  "EjMessageId": 76,
   "Ticket": null,
-  "CreatedAt": "2018-09-30T11:44:42.6638733+02:00",
+  "CreatedAt": "2006-12-28T11:16:14.3085768+01:00",
   "CreatedBy": null,
-  "Author": "fugit",
+  "Author": "animi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "assumenda",
-  "TimeSpent": 445,
-  "Body": "accusamus",
-  "HtmlBody": "adipisci",
-  "EmailHeader": "oral.eichmann@okeefe.ca",
-  "DebugInfo": "animi",
-  "MailSorter": "sed",
+  "MessageId": "quod",
+  "TimeSpent": 828,
+  "Body": "reiciendis",
+  "HtmlBody": "sed",
+  "EmailHeader": "rhiannon.mitchell@dickinson.co.uk",
+  "DebugInfo": "ut",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "in",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 801,
-      "Name": "Schmidt, Cassin and Reichert",
-      "Value": "molestiae",
+      "Id": 295,
+      "Name": "Hamill Inc and Sons",
+      "Value": "cupiditate",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 546
         }
       }
     }
   ],
   "Important": false,
-  "Language": "corrupti",
-  "Sentiment": 942,
-  "SentimentConfidence": 456,
+  "Language": "optio",
+  "Sentiment": 663,
+  "SentimentConfidence": 707,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 405,
-      "Name": "Graham LLC",
-      "ContentType": "commodi",
-      "AttSize": 684,
-      "InlineImage": true,
-      "ContentId": "molestiae",
-      "AuthKey": "perferendis",
+      "AttachmentId": 907,
+      "Name": "Braun LLC",
+      "ContentType": "sunt",
+      "AttSize": 387,
+      "InlineImage": false,
+      "ContentId": "et",
+      "AuthKey": "dolore",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 17
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ea",
+    "ExtraFields1": "non",
     "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "nisi",
+    "CustomFields2": "eaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 62
     }
   }
 }

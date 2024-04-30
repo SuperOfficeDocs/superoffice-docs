@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "dolorum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "dolorum",
     "value": {}
   }
 ]
@@ -146,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 187,
-  "Name": "Farrell Group",
-  "Tooltip": "quas",
+  "RoleId": 704,
+  "Name": "Daniel-Mills",
+  "Tooltip": "officia",
   "RoleType": "Anonymous",
-  "Deleted": 827,
-  "Rank": 320,
-  "Created": "1997-12-21T11:44:42.2264732+01:00",
-  "UseCategories": 701,
+  "Deleted": 870,
+  "Rank": 773,
+  "Created": "2000-08-08T11:16:14.1363143+02:00",
+  "UseCategories": 663,
   "CreatedBy": null,
-  "Updated": "1999-09-29T11:44:42.2264732+02:00",
+  "Updated": "1997-01-03T11:16:14.1363143+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

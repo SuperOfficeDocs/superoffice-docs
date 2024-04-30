@@ -71,6 +71,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,34 +92,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 406,
-    "Name": "Ondricka-Bartell",
-    "Rank": 452,
-    "Tooltip": "accusamus",
-    "Icon": "rerum",
-    "DefaultTicketStatus": 177,
+    "TicketTypeId": 387,
+    "Name": "Stamm-Koelpin",
+    "Rank": 129,
+    "Tooltip": "reiciendis",
+    "Icon": "quas",
+    "DefaultTicketStatus": 467,
     "TicketStatuses": [
-      527,
-      812
+      418,
+      844
     ],
-    "DefaultTicketPriority": 134,
+    "DefaultTicketPriority": 784,
     "TicketPriorities": [
-      108,
-      511
+      693,
+      509
     ],
-    "ReplyTemplate": 671,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 291,
+    "IsExternalVisible": true,
     "IsDefault": true,
     "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
+    "VisibleForGroups": [
+      146,
+      775
+    ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 227
       }
     }
   }

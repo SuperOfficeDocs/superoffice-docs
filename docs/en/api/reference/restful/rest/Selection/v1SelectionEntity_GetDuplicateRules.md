@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gerhold-Johnston",
-    "DisplayName": "Zieme Group",
-    "DisplayTooltip": "rerum",
+    "Name": "Orn-Cruickshank",
+    "DisplayName": "Dooley-Price",
+    "DisplayTooltip": "iure",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   },
   {
-    "Name": "Gerhold-Johnston",
-    "DisplayName": "Zieme Group",
-    "DisplayTooltip": "rerum",
+    "Name": "Orn-Cruickshank",
+    "DisplayName": "Dooley-Price",
+    "DisplayTooltip": "iure",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   }

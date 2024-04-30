@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bechtelar Inc and Sons"
+  "EntityName": "Simonis-Langosh"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 92,
-  "Name": "Goodwin-Okuneva",
-  "Description": "Devolved systematic benchmark",
-  "DefaultHeight": 983,
-  "DefaultWidth": 106,
+  "DashboardTileDefinitionId": 959,
+  "Name": "Brown Group",
+  "Description": "Synchronised tangible project",
+  "DefaultHeight": 551,
+  "DefaultWidth": 9,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Romaguera Inc and Sons",
-  "SelectionId": 490,
+  "EntityName": "Walker, Senger and Rolfson",
+  "SelectionId": 884,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eum",
+  "CurrencyCode": "hic",
   "Measure": "Average",
-  "MeasureField": "illo",
-  "SortBy": "delectus",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 999,
-  "MeasureByField": "quia",
+  "MeasureField": "est",
+  "SortBy": "temporibus",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 412,
+  "MeasureByField": "odit",
   "Usage": "Dashboard",
-  "ProviderName": "Shanahan-Sporer",
+  "ProviderName": "Herzog, Hahn and Haag",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 17
     }
   }
 }

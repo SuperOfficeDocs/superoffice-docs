@@ -91,19 +91,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 270,
-  "BlobSize": 265,
-  "Description": "Future-proofed 5th generation architecture",
-  "ExtraInfo": "facilis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 37,
-  "CreatedDate": "1997-07-09T11:44:32.822391+02:00",
-  "UpdatedDate": "2017-01-27T11:44:32.822391+01:00",
+  "BlobId": 713,
+  "BlobSize": 512,
+  "Description": "Multi-tiered bandwidth-monitored instruction set",
+  "ExtraInfo": "adipisci",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "voluptatum",
+  "OriginalSize": 952,
+  "CreatedDate": "2007-01-16T11:16:08.7410229+01:00",
+  "UpdatedDate": "2006-12-04T11:16:08.7410229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita"
+  "ConceptualType": "est"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 323,
-  "BlobSize": 199,
-  "Description": "Extended radical middleware",
-  "ExtraInfo": "quia",
+  "BlobId": 148,
+  "BlobSize": 790,
+  "Description": "Future-proofed multi-state forecast",
+  "ExtraInfo": "eaque",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "labore",
-  "OriginalSize": 336,
-  "CreatedDate": "1997-01-01T11:44:32.822391+01:00",
-  "UpdatedDate": "2016-09-02T11:44:32.822391+02:00",
+  "MimeType": "cum",
+  "OriginalSize": 541,
+  "CreatedDate": "2018-10-25T11:16:08.7410229+02:00",
+  "UpdatedDate": "2022-07-11T11:16:08.7410229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Schinner LLC",
-    "Tooltip": "sequi",
+    "Id": 77,
+    "Name": "Jakubowski, Littel and Fritsch",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 60,
-    "Rank": 823,
+    "UdListDefinitionId": 238,
+    "Rank": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

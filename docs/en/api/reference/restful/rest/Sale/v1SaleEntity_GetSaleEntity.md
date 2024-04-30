@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Jan 2015 11:44:42 G1T
+Last-Modified: Sun, 07 May 2000 11:16:14 G5T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sun, 11 Jan 2015 11:44:42 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sit",
+  "SaleText": "optio",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sun, 11 Jan 2015 11:44:42 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-04-04T11:44:42.4451194+02:00",
-  "Amount": 22467.646,
-  "SaleId": 232,
-  "Earning": 14707.862,
-  "EarningPercent": 15143.488,
-  "Heading": "corporis",
-  "Number": "828617",
-  "Probability": 397,
-  "CreatedDate": "2023-04-28T11:44:42.4451194+02:00",
-  "UpdatedDate": "2015-01-11T11:44:42.4451194+01:00",
+  "Saledate": "2015-07-17T11:16:14.1675606+02:00",
+  "Amount": 8750.128,
+  "SaleId": 761,
+  "Earning": 22922.076,
+  "EarningPercent": 12379.3,
+  "Heading": "molestiae",
+  "Number": "1639742",
+  "Probability": 530,
+  "CreatedDate": "2015-02-07T11:16:14.1675606+01:00",
+  "UpdatedDate": "2000-05-07T11:16:14.1675606+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 232,
+  "ActiveLinks": 917,
   "Links": [
     {
-      "EntityName": "Brekke-Willms",
-      "Id": 659,
-      "Description": "Implemented stable success",
-      "ExtraInfo": "ut",
-      "LinkId": 661,
+      "EntityName": "Lind Group",
+      "Id": 923,
+      "Description": "Multi-layered hybrid process improvement",
+      "ExtraInfo": "aliquam",
+      "LinkId": 655,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 644
         }
       }
     }
   ],
-  "NextDueDate": "2002-08-13T11:44:42.4451194+02:00",
-  "Postit": "tempore",
+  "NextDueDate": "2013-10-03T11:16:14.1675606+02:00",
+  "Postit": "placeat",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-06-20T11:44:42.4451194+02:00",
+  "ReopenDate": "2014-02-07T11:16:14.1675606+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bartoletti, Jaskolski and Rodriguez",
-      "Comment": "ab",
-      "StakeholderRoleId": 204,
-      "CountryId": 762,
-      "PersonId": 83,
-      "EmailDescription": "pablo_wisoky@boehm.info",
-      "EmailId": 430,
-      "EmailAddress": "ettie_baumbach@jacobs.biz",
-      "PhoneId": 433,
-      "ContactName": "Goodwin-Purdy",
-      "ContactId": 921,
-      "SaleId": 578,
-      "Mrmrs": "excepturi",
-      "Firstname": "Sabina",
-      "MiddleName": "Gaylord Inc and Sons",
-      "Lastname": "Ebert",
-      "SaleStakeholderId": 346,
-      "Rank": 669,
-      "Phone": "814.829.4834",
+      "StakeholderRoleName": "Barrows-Trantow",
+      "Comment": "magni",
+      "StakeholderRoleId": 129,
+      "CountryId": 926,
+      "PersonId": 53,
+      "EmailDescription": "cynthia@morissette.info",
+      "EmailId": 422,
+      "EmailAddress": "seamus.graham@bednardamore.us",
+      "PhoneId": 737,
+      "ContactName": "Hackett Group",
+      "ContactId": 559,
+      "SaleId": 800,
+      "Mrmrs": "repudiandae",
+      "Firstname": "Armani",
+      "MiddleName": "Collier LLC",
+      "Lastname": "Murphy",
+      "SaleStakeholderId": 759,
+      "Rank": 211,
+      "Phone": "1-180-911-8654 x09676",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "ActiveErpLinks": 640,
+  "ActiveErpLinks": 703,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "189455029"
+    "SuperOffice:1": "1147475157",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "cum"
+    "CustomFields1": "magnam",
+    "CustomFields2": "accusantium"
   },
-  "PublishEventDate": "2003-10-25T11:44:42.4451194+02:00",
-  "PublishTo": "2020-07-10T11:44:42.4451194+02:00",
-  "PublishFrom": "2000-05-12T11:44:42.4451194+02:00",
+  "PublishEventDate": "2006-12-09T11:16:14.1675606+01:00",
+  "PublishTo": "2006-02-28T11:16:14.1675606+01:00",
+  "PublishFrom": "2011-06-18T11:16:14.1675606+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 782,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 649
         }
       }
     },
     {
-      "VisibleId": 782,
+      "VisibleId": 941,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 649
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Sun, 11 Jan 2015 11:44:42 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 9
     }
   },
   "_Links": {

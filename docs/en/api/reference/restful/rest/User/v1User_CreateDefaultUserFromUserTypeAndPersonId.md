@@ -32,7 +32,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=372
+GET /api/v1/User/Default?personId=760
 ```
 
 
@@ -96,7 +96,7 @@ OK
 GET /api/v1/User/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,14 +106,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 578,
-  "Name": "Luettgen-Zboncak",
-  "Rank": 708,
-  "Tooltip": "eos",
+  "AssociateId": 152,
+  "Name": "Medhurst, Murphy and Harris",
+  "Rank": 349,
+  "Tooltip": "voluptatibus",
   "LicenseOwners": [
     {
-      "Name": "Yundt LLC",
-      "Description": "Visionary national service-desk",
+      "Name": "Maggio Group",
+      "Description": "User-centric real-time hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Yundt LLC",
-      "Description": "Visionary national service-desk",
+      "Name": "Maggio Group",
+      "Description": "User-centric real-time hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 476
         }
       }
     }
@@ -156,110 +156,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "tenetur",
-      "Tooltip": "et",
-      "Id": 40,
-      "Rank": 753,
-      "Deleted": true,
+      "Value": "explicabo",
+      "Tooltip": "id",
+      "Id": 620,
+      "Rank": 749,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 6
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2000-05-29T11:44:42.8513292+02:00",
-  "Lastlogout": "2001-01-17T11:44:42.8513292+01:00",
-  "EjUserId": 774,
-  "RequestSignature": "consequatur",
+  "Deleted": true,
+  "Lastlogin": "2017-07-13T11:16:14.4338903+02:00",
+  "Lastlogout": "2003-12-24T11:16:14.4338903+01:00",
+  "EjUserId": 510,
+  "RequestSignature": "doloremque",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sequi",
-      "DisplayValue": "ullam",
+      "Value": "debitis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 124
         }
       }
     },
     {
       "Type": null,
-      "Value": "sequi",
-      "DisplayValue": "ullam",
+      "Value": "debitis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 124
         }
       }
     }
   ],
-  "UserName": "Jaskolski-Roberts",
+  "UserName": "Collier Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 308,
-      "Name": "Flatley-Labadie",
-      "ToolTip": "Sed modi ratione sint ab deleniti porro eius.",
-      "Deleted": true,
-      "Rank": 111,
-      "Type": "ducimus",
+      "Id": 804,
+      "Name": "Zieme, McClure and Streich",
+      "ToolTip": "Fugit dolores.",
+      "Deleted": false,
+      "Rank": 691,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 906,
-      "ExtraInfo": "rerum",
-      "StyleHint": "magnam",
-      "FullName": "Mr. Genesis Zieme MD",
+      "IconHint": "ipsa",
+      "ColorBlock": 490,
+      "ExtraInfo": "et",
+      "StyleHint": "nostrum",
+      "FullName": "Cristal Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 705
         }
       }
     }
   ],
-  "NickName": "Bergstrom, Wiegand and Hintz",
-  "WaitingForApproval": true,
+  "NickName": "Reichert-Oberbrunner",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "in"
   },
   "PostSaveCommands": [
     {
-      "Name": "Senger, Gerhold and Halvorson",
-      "DisplayName": "Little LLC",
-      "Description": "Integrated multi-tasking concept",
-      "ToolTip": "Unde dolor.",
+      "Name": "Von-Nicolas",
+      "DisplayName": "Bogan-Davis",
+      "Description": "Persistent solution-oriented capability",
+      "ToolTip": "Atque quo libero dolorum dolorem magni id quidem.",
       "Actions": "Implicit",
-      "ActionData": "iusto",
+      "ActionData": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 329
+          "FieldLength": 753
         }
       }
     }
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

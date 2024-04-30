@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Yost, Lowe and Deckow",
-    "ToolTip": "Ex sunt quam id.",
-    "Deleted": true,
-    "Rank": 719,
-    "Type": "asperiores",
-    "ColorBlock": 437,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "1999-04-29T11:44:43.0387817+02:00",
+    "Id": 436,
+    "Name": "Heaney LLC",
+    "ToolTip": "Animi reprehenderit necessitatibus sed provident beatae dolores.",
+    "Deleted": false,
+    "Rank": 916,
+    "Type": "quae",
+    "ColorBlock": 29,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2012-01-17T11:16:14.5432954+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Schaden LLC",
-        "ToolTip": "Dolorem fuga explicabo tempore.",
-        "Deleted": false,
-        "Rank": 944,
-        "Type": "repellendus",
-        "ColorBlock": 261,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2016-06-23T11:44:43.0387817+02:00",
+        "Id": 214,
+        "Name": "Deckow, Block and Wyman",
+        "ToolTip": "Placeat eveniet aut.",
+        "Deleted": true,
+        "Rank": 822,
+        "Type": "nihil",
+        "ColorBlock": 259,
+        "IconHint": "architecto",
+        "Selected": true,
+        "LastChanged": "2001-08-15T11:16:14.5432954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Jaden Corkery",
+        "ExtraInfo": "aut",
+        "StyleHint": "unde",
+        "Hidden": true,
+        "FullName": "Delilah Ally Marks MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 707
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "et",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Ms. Rachelle Rolfson DVM",
+    "FullName": "Nedra Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldType": "System.Int32",
+        "FieldLength": 256
       }
     }
   }

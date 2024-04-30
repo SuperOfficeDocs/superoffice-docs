@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 232,
-    "Name": "Gottlieb-Cremin",
-    "Tooltip": "nemo",
+    "HeadingId": 453,
+    "Name": "Goldner, Jast and Wisozk",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 309,
-    "UdListDefinitionId": 539,
+    "Rank": 286,
+    "UdListDefinitionId": 904,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 106
       }
     }
   }

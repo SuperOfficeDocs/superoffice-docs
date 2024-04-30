@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots reciprocal orchestration",
+  "Description": "Realigned intangible frame",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

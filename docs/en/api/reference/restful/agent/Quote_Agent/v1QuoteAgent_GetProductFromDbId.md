@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 809
+  "ProductId": 373
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 355,
-  "ERPProductKey": "consectetur",
-  "ERPPriceListKey": "incidunt",
-  "Name": "Kub-Murphy",
-  "Description": "Organic object-oriented support",
-  "Code": "et",
-  "PriceUnit": "asperiores",
-  "QuantityUnit": "occaecati",
+  "ProductId": 304,
+  "ERPProductKey": "velit",
+  "ERPPriceListKey": "alias",
+  "Name": "Lehner-Williamson",
+  "Description": "Implemented demand-driven extranet",
+  "Code": "eos",
+  "PriceUnit": "reprehenderit",
+  "QuantityUnit": "cupiditate",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 24363.716,
-  "ItemNumber": "876548",
+  "SubscriptionUnit": "a",
+  "DefaultSubscriptionQuantity": 13444.859999999999,
+  "ItemNumber": "1318911",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sapiente",
-  "ProductTypeKey": "expedita",
-  "VAT": 13538.88,
-  "VATInfo": "in",
-  "UnitCost": 27253.264,
-  "UnitMinimumPrice": 28748.182,
-  "UnitListPrice": 31277.32,
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "possimus",
+  "VAT": 20314.588,
+  "VATInfo": "enim",
+  "UnitCost": 18951.298,
+  "UnitMinimumPrice": 11736.83,
+  "UnitListPrice": 18396.579999999998,
   "InAssortment": false,
-  "Supplier": "ex",
-  "SupplierCode": "delectus",
-  "Rights": "rem",
-  "Rule": "libero",
+  "Supplier": "nam",
+  "SupplierCode": "nemo",
+  "Rights": "non",
+  "Rule": "dolor",
   "ExtraInfo": [
     {
-      "Name": "O'Keefe, King and Watsica",
-      "Value": "sunt",
+      "Name": "Berge-Turner",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 487
+          "FieldType": "System.Int32",
+          "FieldLength": 690
         }
       }
     },
     {
-      "Name": "O'Keefe, King and Watsica",
-      "Value": "sunt",
+      "Name": "Berge-Turner",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 487
+          "FieldType": "System.Int32",
+          "FieldLength": 690
         }
       }
     }
   ],
-  "RawExtraInfo": "libero",
-  "ExtraField1": "fugit",
-  "ExtraField2": "et",
-  "ExtraField3": "dolorem",
-  "ExtraField4": "quod",
-  "ExtraField5": "ea",
-  "InStock": 10050.738,
+  "RawExtraInfo": "in",
+  "ExtraField1": "nulla",
+  "ExtraField2": "qui",
+  "ExtraField3": "omnis",
+  "ExtraField4": "incidunt",
+  "ExtraField5": "non",
+  "InStock": 3704.388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

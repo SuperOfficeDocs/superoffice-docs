@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Hand, Bahringer and Larkin",
-    "ToolTip": "Ea enim quo fugit tenetur ipsa enim.",
-    "Deleted": true,
-    "Rank": 405,
-    "Type": "delectus",
-    "ColorBlock": 415,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "2023-01-20T11:44:43.226243+01:00",
+    "Id": 651,
+    "Name": "VonRueden Inc and Sons",
+    "ToolTip": "Est voluptas laudantium.",
+    "Deleted": false,
+    "Rank": 891,
+    "Type": "libero",
+    "ColorBlock": 275,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2012-10-04T11:16:14.6526601+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Harber, Wuckert and Fisher",
-        "ToolTip": "Voluptate et ipsum sed perferendis quae et voluptas.",
-        "Deleted": false,
-        "Rank": 868,
-        "Type": "aut",
-        "ColorBlock": 452,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2017-08-30T11:44:43.226243+02:00",
+        "Id": 441,
+        "Name": "Jaskolski-Rippin",
+        "ToolTip": "Porro ut provident excepturi odio ipsa illum.",
+        "Deleted": true,
+        "Rank": 875,
+        "Type": "et",
+        "ColorBlock": 779,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2012-05-29T11:16:14.6526601+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "est",
+        "ExtraInfo": "vel",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Mr. Paul Odie Koch",
+        "FullName": "Mable Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "impedit",
-    "Hidden": false,
-    "FullName": "Jocelyn Cormier",
+    "ExtraInfo": "sit",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Maryjane Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 450
       }
     }
   }

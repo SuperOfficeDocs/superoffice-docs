@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 334
+  "ChatSessionId": 714
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 637,
-  "TopicId": 889,
+  "ChatSessionId": 707,
+  "TopicId": 665,
   "User": null,
   "Person": null,
-  "CustomerAlias": "officiis",
-  "CustomerHost": "cum",
-  "CustomerName": "VonRueden Group",
-  "CustomerEmail": "delphine_macejkovic@schusterdaniel.biz",
-  "CustomerPhone": "(005)696-6514 x528",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hackett, Hayes and Kunde",
+  "CustomerAlias": "nobis",
+  "CustomerHost": "minima",
+  "CustomerName": "Lesch-Lynch",
+  "CustomerEmail": "mozelle@oberbrunner.com",
+  "CustomerPhone": "491-021-8736 x48955",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Wunsch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "eaque",
-  "WhenRequested": "2003-10-17T11:44:32.9317425+02:00",
-  "WhenStarted": "2020-11-15T11:44:32.9317425+01:00",
-  "WhenEnded": "2003-06-19T11:44:32.9317425+02:00",
-  "WhenIdle": "2000-08-21T11:44:32.9317425+02:00",
-  "WhenFetched": "2016-01-05T11:44:32.9317425+01:00",
-  "SessionKey": "nisi",
-  "InitialQueuePos": 800,
-  "AlertLevel": 589,
-  "Rank": 163,
+  "FirstMessage": "in",
+  "LastMessage": "aperiam",
+  "WhenRequested": "2011-08-15T11:16:08.8035112+02:00",
+  "WhenStarted": "2012-11-24T11:16:08.8035112+01:00",
+  "WhenEnded": "2017-10-08T11:16:08.8035112+02:00",
+  "WhenIdle": "2002-07-03T11:16:08.8035112+02:00",
+  "WhenFetched": "2019-02-19T11:16:08.8035112+01:00",
+  "SessionKey": "dolores",
+  "InitialQueuePos": 625,
+  "AlertLevel": 898,
+  "Rank": 915,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 515,
+  "Rating": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

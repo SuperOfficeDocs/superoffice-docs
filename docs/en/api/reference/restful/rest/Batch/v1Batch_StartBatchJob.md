@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Skiles, Kerluke and Gottlieb",
-  "AssociateId": 104,
-  "DetailsTable": 597,
-  "DetailsRecord": 740,
+  "Id": 635,
+  "Name": "Huel Inc and Sons",
+  "AssociateId": 81,
+  "DetailsTable": 360,
+  "DetailsRecord": 155,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "impedit",
-    "ParameterObject2": "molestiae"
+    "ParameterObject1": "numquam",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2022-09-25T11:44:42.6951171+02:00",
-  "Created": "1997-09-29T11:44:42.6951171+02:00",
-  "StartCount": 470,
-  "DatabaseSerialNumber": "253373",
-  "Context": "nostrum",
-  "Result": "ut",
+  "LastStarted": "2022-06-23T11:16:14.3398362+02:00",
+  "Created": "2020-06-28T11:16:14.3398362+02:00",
+  "StartCount": 866,
+  "DatabaseSerialNumber": "731741",
+  "Context": "ea",
+  "Result": "quo",
   "State": "All",
-  "Description": "Virtual mobile policy",
-  "Response": "dolores",
-  "Request": "porro",
-  "ProgressDescription": "Cross-group client-driven approach",
-  "ProgressPercent": 564,
-  "FileName": "Greenholt-Walsh",
+  "Description": "Balanced reciprocal info-mediaries",
+  "Response": "sed",
+  "Request": "et",
+  "ProgressDescription": "Phased cohesive instruction set",
+  "ProgressPercent": 949,
+  "FileName": "Yundt Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-432
+510
 ```

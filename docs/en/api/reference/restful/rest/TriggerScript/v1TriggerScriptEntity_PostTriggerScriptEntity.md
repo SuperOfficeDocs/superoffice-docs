@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 753,
-  "Name": "Grant, Jacobs and Shields",
+  "ScreenChooserId": 986,
+  "Name": "Runolfsson Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "asperiores",
-  "Source": "voluptatem",
-  "Registered": "2019-06-05T11:44:42.6951171+02:00",
-  "RegisteredAssociateId": 168,
-  "Updated": "2008-01-29T11:44:42.6951171+01:00",
-  "UpdatedAssociateId": 846
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "molestiae",
+  "Registered": "1998-10-22T11:16:14.3242001+02:00",
+  "RegisteredAssociateId": 706,
+  "Updated": "2020-08-30T11:16:14.3242001+02:00",
+  "UpdatedAssociateId": 495
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 345,
-  "Name": "Predovic Inc and Sons",
+  "ScreenChooserId": 99,
+  "Name": "McLaughlin-Kautzer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nam",
-  "Source": "dolore",
-  "Registered": "2002-01-29T11:44:42.6951171+01:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2017-03-13T11:44:42.6951171+01:00",
-  "UpdatedAssociateId": 159,
+  "Enabled": true,
+  "UniqueIdentifier": "quo",
+  "Source": "molestiae",
+  "Registered": "2011-03-31T11:16:14.3242001+02:00",
+  "RegisteredAssociateId": 993,
+  "Updated": "2012-08-08T11:16:14.3242001+02:00",
+  "UpdatedAssociateId": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   },
   "_Links": {

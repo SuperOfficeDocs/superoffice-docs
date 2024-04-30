@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 291,
-  "Name": "Mohr-Schowalter",
-  "Tooltip": "dolore",
-  "Rank": 802,
-  "AmountFrom": 5797.9,
-  "AmountTo": 26313.064,
+  "AmountClassId": 986,
+  "Name": "Predovic Group",
+  "Tooltip": "veritatis",
+  "Rank": 74,
+  "AmountFrom": 24974.845999999998,
+  "AmountTo": 30158.482,
   "Deleted": false,
-  "CurrencyId": 394
+  "CurrencyId": 295
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 417,
-  "Name": "Smith, Little and Hoppe",
-  "Tooltip": "omnis",
-  "Rank": 28,
-  "AmountFrom": 6687.956,
-  "AmountTo": 22596.14,
+  "AmountClassId": 211,
+  "Name": "Donnelly Group",
+  "Tooltip": "aliquid",
+  "Rank": 754,
+  "AmountFrom": 4384.4659999999994,
+  "AmountTo": 11291.802,
   "Deleted": true,
-  "CurrencyId": 939,
+  "CurrencyId": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   }
 }

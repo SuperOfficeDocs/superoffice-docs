@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=dolor
+GET /api/v1/List/PaymentTerm/MDOItems?query=occaecati
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Toy, Rath and Schamberger",
-    "ToolTip": "Repellat aut maxime iusto architecto ut nobis sed.",
+    "Id": 809,
+    "Name": "Jacobson Group",
+    "ToolTip": "Error fugiat quasi ducimus quibusdam aut.",
     "Deleted": false,
-    "Rank": 674,
-    "Type": "ut",
+    "Rank": 257,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Kunde-Nolan",
-        "ToolTip": "Vel labore sit.",
+        "Id": 613,
+        "Name": "Beier LLC",
+        "ToolTip": "Et quam tempora nemo inventore molestiae.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "ex",
+        "Rank": 41,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 810,
-        "ExtraInfo": "est",
-        "StyleHint": "nam",
-        "FullName": "Magali Hoeger",
+        "IconHint": "nostrum",
+        "ColorBlock": 847,
+        "ExtraInfo": "vel",
+        "StyleHint": "repudiandae",
+        "FullName": "Ms. Bettye Harvey Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 752
+            "FieldLength": 312
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 967,
-    "ExtraInfo": "esse",
-    "StyleHint": "et",
-    "FullName": "Mrs. Herman Cruickshank",
+    "IconHint": "eaque",
+    "ColorBlock": 614,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "vel",
+    "FullName": "Carissa Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 853
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "possimus",
+  "odata.nextLink": "amet",
   "value": [
     {
-      "PrimaryKey": 4320,
-      "EntityName": "sale",
-      "saleId": 4320,
-      "contactId": 5522,
-      "name": "Hilll-Gibson"
+      "PrimaryKey": 9219,
+      "EntityName": "person",
+      "personId": 9219,
+      "fullName": "Andres Rippin"
     },
     {
-      "PrimaryKey": 7051,
-      "EntityName": "sale",
-      "saleId": 7051,
-      "contactId": 2900,
-      "name": "Skiles Group"
+      "PrimaryKey": 28,
+      "EntityName": "person",
+      "personId": 28,
+      "fullName": "Jaqueline Fadel"
     }
   ]
 }

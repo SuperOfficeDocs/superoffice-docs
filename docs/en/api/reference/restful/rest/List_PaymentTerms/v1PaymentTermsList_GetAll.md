@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Mills, Collier and Bogisich",
-    "Tooltip": "et",
+    "Id": 918,
+    "Name": "Eichmann LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 219,
-    "Rank": 372,
+    "UdListDefinitionId": 375,
+    "Rank": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 684
       }
     }
   }

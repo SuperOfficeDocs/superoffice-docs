@@ -111,8 +111,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 789,
-  "ERPProductKey": "consequatur"
+  "QuoteConnectionId": 506,
+  "ERPProductKey": "dicta"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 890,
-  "ERPProductKey": "facilis",
-  "ERPPriceListKey": "est",
-  "Name": "Crooks, Schultz and Abernathy",
-  "Description": "Future-proofed dedicated implementation",
-  "Code": "vel",
-  "PriceUnit": "autem",
-  "QuantityUnit": "odit",
-  "IsSubscription": false,
-  "SubscriptionUnit": "saepe",
-  "DefaultSubscriptionQuantity": 21627.734,
-  "ItemNumber": "1102268",
+  "ProductId": 776,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "reiciendis",
+  "Name": "Gerhold Inc and Sons",
+  "Description": "Quality-focused bifurcated synergy",
+  "Code": "adipisci",
+  "PriceUnit": "explicabo",
+  "QuantityUnit": "nostrum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 24003.306,
+  "ItemNumber": "716473",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellat",
-  "ProductTypeKey": "omnis",
-  "VAT": 27225.058,
-  "VATInfo": "itaque",
-  "UnitCost": 17262.072,
-  "UnitMinimumPrice": 24304.17,
-  "UnitListPrice": 29669.577999999998,
+  "ProductFamilyKey": "vitae",
+  "ProductTypeKey": "quos",
+  "VAT": 15394.207999999999,
+  "VATInfo": "blanditiis",
+  "UnitCost": 29174.406,
+  "UnitMinimumPrice": 27413.097999999998,
+  "UnitListPrice": 7910.2159999999994,
   "InAssortment": false,
-  "Supplier": "repellat",
-  "SupplierCode": "dolorem",
-  "Rights": "distinctio",
-  "Rule": "veritatis",
+  "Supplier": "dolorem",
+  "SupplierCode": "rerum",
+  "Rights": "qui",
+  "Rule": "unde",
   "ExtraInfo": [
     {
-      "Name": "Toy, McDermott and Rutherford",
-      "Value": "ut",
+      "Name": "Swift, Gislason and Flatley",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldType": "System.Int32",
+          "FieldLength": 52
         }
       }
     },
     {
-      "Name": "Toy, McDermott and Rutherford",
-      "Value": "ut",
+      "Name": "Swift, Gislason and Flatley",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldType": "System.Int32",
+          "FieldLength": 52
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "ExtraField1": "ea",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "impedit",
-  "ExtraField4": "laborum",
-  "ExtraField5": "non",
-  "InStock": 19390.058,
+  "RawExtraInfo": "itaque",
+  "ExtraField1": "aut",
+  "ExtraField2": "possimus",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "aut",
+  "ExtraField5": "ea",
+  "InStock": 24642.642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 316
     }
   }
 }

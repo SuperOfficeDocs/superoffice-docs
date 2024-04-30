@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 837,
-  "Name": "Stracke-Dietrich",
-  "Tooltip": "mollitia",
-  "Rank": 640,
-  "Key": "vel",
-  "Deleted": true
+  "LegalBaseId": 423,
+  "Name": "Hauck, Kessler and Stamm",
+  "Tooltip": "quia",
+  "Rank": 206,
+  "Key": "illo",
+  "Deleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 216,
-  "Name": "Welch-Gleason",
-  "Tooltip": "quae",
-  "Rank": 335,
-  "Key": "ut",
-  "Deleted": false,
+  "LegalBaseId": 512,
+  "Name": "Daugherty LLC",
+  "Tooltip": "ratione",
+  "Rank": 481,
+  "Key": "porro",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 404
     }
   }
 }

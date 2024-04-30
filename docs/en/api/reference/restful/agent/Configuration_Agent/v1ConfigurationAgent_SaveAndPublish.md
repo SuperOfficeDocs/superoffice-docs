@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 968,
-  "Name": "Koelpin Inc and Sons",
-  "Description": "Synchronised solution-oriented core",
-  "DeltaJson": "id",
+  "ConfigurableScreenDeltaId": 755,
+  "Name": "Conn Inc and Sons",
+  "Description": "Automated cohesive time-frame",
+  "DeltaJson": "dolorum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quia",
-  "UpdatedDate": "2017-05-24T11:44:33.0098502+02:00",
-  "CreatedDate": "2017-07-15T11:44:33.0098502+02:00",
+  "RecipeId": "excepturi",
+  "UpdatedDate": "2000-08-18T11:16:08.8503482+02:00",
+  "CreatedDate": "2019-12-21T11:16:08.8503482+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    799,
-    409
+    283,
+    380
   ],
-  "AppliesToKey": "similique",
+  "AppliesToKey": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 670
     }
   }
 }

@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Dec 2001 11:44:41 G12T
+Last-Modified: Thu, 03 Jun 2010 11:16:13 G6T
 
 {
-  "SourceContactId": 147,
-  "SourcePersonId": 420,
-  "DestinationContactId": 185,
-  "DestinationPersonId": 105,
-  "RelationId": 965,
-  "Comment": "rerum",
-  "RelationDefinitionId": 692,
-  "Reversed": 979,
-  "UpdatedDate": "2001-12-19T11:44:41.8515534+01:00",
-  "CreatedDate": "2010-03-13T11:44:41.8515534+01:00",
+  "SourceContactId": 854,
+  "SourcePersonId": 980,
+  "DestinationContactId": 36,
+  "DestinationPersonId": 419,
+  "RelationId": 96,
+  "Comment": "dolores",
+  "RelationDefinitionId": 897,
+  "Reversed": 883,
+  "UpdatedDate": "2010-06-03T11:16:13.83947+02:00",
+  "CreatedDate": "2010-01-01T11:16:13.83947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Upton LLC",
-  "SourcePersonName": "Stiedemann Group",
-  "DestinationContactName": "Rippin-Kassulke",
-  "DestinationPersonName": "West, Zulauf and Johns",
-  "ActiveText": "et",
+  "SourceContactName": "Gutmann-Durgan",
+  "SourcePersonName": "Heathcote LLC",
+  "DestinationContactName": "Beer, Altenwerth and Bailey",
+  "DestinationPersonName": "Weissnat Inc and Sons",
+  "ActiveText": "sint",
   "PassiveText": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

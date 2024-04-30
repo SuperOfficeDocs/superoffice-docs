@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 283,
+  "ContactId": 621,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bashirian LLC",
-    "SaleDate": "2013-12-09T11:44:34.4001629+01:00",
-    "SaleId": 589,
-    "Probability": 762,
-    "Title": "officiis",
-    "Amount": 22147.978,
-    "Currency": "pariatur",
-    "ProjectName": "Schmitt LLC",
-    "AssociateFullName": "Mr. Wayne Dannie Ruecker",
-    "Description": "Synergized responsive local area network",
+    "ContactName": "Zboncak, Fahey and Schaden",
+    "SaleDate": "2017-06-20T11:16:09.6846608+02:00",
+    "SaleId": 871,
+    "Probability": 750,
+    "Title": "et",
+    "Amount": 15187.364,
+    "Currency": "rerum",
+    "ProjectName": "Okuneva Group",
+    "AssociateFullName": "Clementina Parisian",
+    "Description": "Operative bottom-line website",
     "Status": "Lost",
-    "WeightedAmount": 25272.576,
-    "ProjectId": 823,
-    "EarningPercent": 12134.848,
-    "Earning": 27510.252,
-    "ContactId": 621,
-    "AssociateId": 664,
-    "PersonId": 683,
-    "SaleTypeId": 90,
-    "SaleTypeName": "Romaguera-Franecki",
-    "PersonFullName": "Stanford Schaefer",
+    "WeightedAmount": 24865.156,
+    "ProjectId": 112,
+    "EarningPercent": 27607.406,
+    "Earning": 354.142,
+    "ContactId": 372,
+    "AssociateId": 452,
+    "PersonId": 520,
+    "SaleTypeId": 476,
+    "SaleTypeName": "Murray, Ortiz and Mayer",
+    "PersonFullName": "Miss Jewell Orn MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 498,
-    "NextDueDate": "2010-03-06T11:44:34.4001629+01:00",
-    "Number": "153055",
+    "ActiveErpLinks": 684,
+    "NextDueDate": "2023-04-08T11:16:09.6846608+02:00",
+    "Number": "1332262",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

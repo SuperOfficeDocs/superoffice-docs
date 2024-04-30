@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=660
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=966
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 836,
-  "Name": "Herzog-Kertzmann",
-  "Tooltip": "omnis",
-  "Rank": 333,
+  "ProjTypeId": 210,
+  "Name": "Jewess Inc and Sons",
+  "Tooltip": "nostrum",
+  "Rank": 978,
   "DurationUnit": "Century",
-  "ProjectDuration": 798,
+  "ProjectDuration": 530,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 913,
-      "Name": "Kassulke Group",
-      "ToolTip": "Autem est adipisci est aliquam.",
-      "Deleted": false,
-      "Rank": 109,
-      "Type": "error",
-      "ColorBlock": 166,
-      "IconHint": "est",
+      "Id": 282,
+      "Name": "Weissnat, Tromp and Johnston",
+      "ToolTip": "Ratione ipsum voluptate illo accusamus ea illum.",
+      "Deleted": true,
+      "Rank": 937,
+      "Type": "quaerat",
+      "ColorBlock": 92,
+      "IconHint": "ea",
       "Selected": false,
-      "LastChanged": "2005-06-22T11:44:33.8221684+02:00",
+      "LastChanged": "2024-02-09T11:16:09.3190898+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "fuga",
+      "ExtraInfo": "sunt",
+      "StyleHint": "mollitia",
       "Hidden": false,
-      "FullName": "Miss Zena Grady",
+      "FullName": "Hillary Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 932
+          "FieldType": "System.Int32",
+          "FieldLength": 403
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldLength": 222
     }
   }
 }

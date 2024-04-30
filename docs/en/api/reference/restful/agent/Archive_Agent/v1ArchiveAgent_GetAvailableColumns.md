@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Johnston-Kunze",
-  "Context": "voluptatibus"
+  "ProviderName": "Mitchell LLC",
+  "Context": "nam"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schuppe-Cartwright",
-    "DisplayTooltip": "quidem",
-    "DisplayType": "aspernatur",
-    "CanOrderBy": true,
-    "Name": "Kiehn, Hessel and White",
-    "CanRestrictBy": true,
-    "RestrictionType": "recusandae",
-    "RestrictionListName": "Kovacek, Lesch and Olson",
+    "DisplayName": "Spinka Group",
+    "DisplayTooltip": "perspiciatis",
+    "DisplayType": "voluptas",
+    "CanOrderBy": false,
+    "Name": "Prohaska, Konopelski and Cassin",
+    "CanRestrictBy": false,
+    "RestrictionType": "sapiente",
+    "RestrictionListName": "Bahringer-Schuster",
     "IsVisible": false,
-    "ExtraInfo": "deserunt",
-    "Width": "accusamus",
-    "IconHint": "odit",
-    "HeadingIconHint": "blanditiis"
+    "ExtraInfo": "ut",
+    "Width": "repellat",
+    "IconHint": "voluptatem",
+    "HeadingIconHint": "ut"
   }
 ]
 ```

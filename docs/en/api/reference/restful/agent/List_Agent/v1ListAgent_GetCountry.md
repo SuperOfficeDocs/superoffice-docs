@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=590
+POST /api/v1/Agents/List/GetCountry?countryId=174
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 793,
-  "Name": "Lueilwitz Inc and Sons",
-  "CurrencyId": 833,
-  "EnglishName": "Heidenreich Inc and Sons",
+  "CountryId": 181,
+  "Name": "Kuphal Inc and Sons",
+  "CurrencyId": 943,
+  "EnglishName": "Keebler-Cummerata",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Horizontal dynamic capability",
-  "OrgNrText": "718692",
-  "InterAreaPrefix": "necessitatibus",
-  "DialInPrefix": "explicabo",
-  "ZipPrefix": "rerum",
-  "DomainName": "Hermiston, Terry and Herzog",
-  "AddressLayoutId": 570,
-  "DomesticAddressLayoutId": 982,
-  "ForeignAddressLayoutId": 352,
-  "Rank": 61,
-  "Tooltip": "omnis",
-  "Deleted": true,
+  "ImageDescription": "Extended real-time definition",
+  "OrgNrText": "724379",
+  "InterAreaPrefix": "eum",
+  "DialInPrefix": "sed",
+  "ZipPrefix": "assumenda",
+  "DomainName": "Wilderman, Kirlin and Kuphal",
+  "AddressLayoutId": 231,
+  "DomesticAddressLayoutId": 644,
+  "ForeignAddressLayoutId": 787,
+  "Rank": 953,
+  "Tooltip": "est",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 967
     }
   }
 }

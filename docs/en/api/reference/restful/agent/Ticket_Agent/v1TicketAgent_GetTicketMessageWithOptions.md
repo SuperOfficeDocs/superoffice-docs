@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 976,
+  "TicketMessageEntityId": 147,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 686,
+  "EjMessageId": 94,
   "Ticket": null,
-  "CreatedAt": "2017-10-25T11:44:34.9156654+02:00",
+  "CreatedAt": "2015-09-30T11:16:09.8509763+02:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "facere",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 666,
-  "Body": "facilis",
-  "HtmlBody": "rerum",
-  "EmailHeader": "kadin@kirlin.ca",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "autem",
+  "MessageId": "qui",
+  "TimeSpent": 198,
+  "Body": "ab",
+  "HtmlBody": "aliquid",
+  "EmailHeader": "ivory_barton@abbottgibson.uk",
+  "DebugInfo": "dolorum",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusamus",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 173,
-      "Name": "Torphy, Quigley and Turcotte",
-      "Value": "deleniti",
+      "Id": 479,
+      "Name": "Hudson Group",
+      "Value": "error",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 501
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "excepturi",
-  "Sentiment": 846,
-  "SentimentConfidence": 86,
+  "Important": true,
+  "Language": "maiores",
+  "Sentiment": 463,
+  "SentimentConfidence": 674,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 388,
-      "Name": "Lind-Harvey",
-      "ContentType": "esse",
-      "AttSize": 918,
-      "InlineImage": false,
-      "ContentId": "in",
-      "AuthKey": "sit",
+      "AttachmentId": 532,
+      "Name": "Hansen, Lynch and D'Amore",
+      "ContentType": "ut",
+      "AttSize": 422,
+      "InlineImage": true,
+      "ContentId": "unde",
+      "AuthKey": "facere",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 276
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quasi"
+    "CustomFields1": "est",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 965
     }
   }
 }

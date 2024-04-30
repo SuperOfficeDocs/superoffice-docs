@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kiehn Inc and Sons",
+  "TableName": "Bergstrom-Dooley",
   "Columns": [
-    "facere",
-    "in"
+    "harum",
+    "qui"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "nam",
-  "Inserts": 14,
-  "Updates": 530,
-  "Deletes": 280,
+  "Message": "et",
+  "Inserts": 975,
+  "Updates": 238,
+  "Deletes": 153,
   "RowStatus": [
     {
-      "PrimaryKey": 207,
+      "PrimaryKey": 785,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "repudiandae",
-        "rerum"
+        "laudantium",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 595
         }
       }
     },
     {
-      "PrimaryKey": 207,
+      "PrimaryKey": 785,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "repudiandae",
-        "rerum"
+        "laudantium",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 595
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 597
     }
   }
 }

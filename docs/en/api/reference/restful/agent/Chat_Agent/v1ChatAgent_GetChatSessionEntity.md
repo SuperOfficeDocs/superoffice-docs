@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=853
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=616
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 950,
-  "TopicId": 290,
+  "ChatSessionId": 802,
+  "TopicId": 14,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "voluptatibus",
-  "CustomerName": "Kuhlman-Cummings",
-  "CustomerEmail": "eliezer@klein.name",
-  "CustomerPhone": "330-772-6344 x3135",
+  "CustomerAlias": "praesentium",
+  "CustomerHost": "nulla",
+  "CustomerName": "Stoltenberg, Kilback and Abshire",
+  "CustomerEmail": "cody@schulist.ca",
+  "CustomerPhone": "(540)115-5604 x959",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kshlerin Inc and Sons",
+  "CustomerCompanyName": "Emmerich-Lowe",
   "Status": "Closed",
-  "FirstMessage": "nisi",
-  "LastMessage": "qui",
-  "WhenRequested": "2008-03-14T11:44:32.8848816+01:00",
-  "WhenStarted": "2010-03-17T11:44:32.8848816+01:00",
-  "WhenEnded": "2014-08-03T11:44:32.8848816+02:00",
-  "WhenIdle": "2021-10-07T11:44:32.8848816+02:00",
-  "WhenFetched": "2001-03-25T11:44:32.8848816+02:00",
-  "SessionKey": "quam",
-  "InitialQueuePos": 300,
-  "AlertLevel": 458,
-  "Rank": 703,
+  "FirstMessage": "earum",
+  "LastMessage": "eligendi",
+  "WhenRequested": "1998-09-24T11:16:08.7878955+02:00",
+  "WhenStarted": "2014-11-01T11:16:08.7878955+01:00",
+  "WhenEnded": "2012-01-20T11:16:08.7878955+01:00",
+  "WhenIdle": "2001-07-28T11:16:08.7878955+02:00",
+  "WhenFetched": "2020-03-06T11:16:08.7878955+01:00",
+  "SessionKey": "expedita",
+  "InitialQueuePos": 900,
+  "AlertLevel": 967,
+  "Rank": 609,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 838,
+  "ChatbotIsActive": false,
+  "Rating": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 848
     }
   }
 }

@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    59,
-    10
+    474,
+    801
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Deckow Group",
-    "Comment": "sed",
-    "StakeholderRoleId": 85,
-    "CountryId": 4,
-    "PersonId": 389,
-    "EmailDescription": "king_wunsch@ornschulist.ca",
-    "EmailId": 704,
-    "EmailAddress": "jennifer_hickle@hane.info",
-    "PhoneId": 121,
-    "ContactName": "Dare LLC",
-    "ContactId": 880,
-    "SaleId": 710,
-    "Mrmrs": "id",
-    "Firstname": "Antonetta",
-    "MiddleName": "Homenick-Beahan",
-    "Lastname": "Predovic",
-    "SaleStakeholderId": 226,
-    "Rank": 301,
-    "Phone": "(584)652-3073",
+    "StakeholderRoleName": "Hodkiewicz LLC",
+    "Comment": "est",
+    "StakeholderRoleId": 544,
+    "CountryId": 617,
+    "PersonId": 654,
+    "EmailDescription": "reggie_bernhard@jewess.uk",
+    "EmailId": 182,
+    "EmailAddress": "oscar_nicolas@kuhnhintz.name",
+    "PhoneId": 796,
+    "ContactName": "Hilpert Group",
+    "ContactId": 588,
+    "SaleId": 621,
+    "Mrmrs": "et",
+    "Firstname": "Juliana",
+    "MiddleName": "Heidenreich Inc and Sons",
+    "Lastname": "Ritchie",
+    "SaleStakeholderId": 856,
+    "Rank": 468,
+    "Phone": "(776)671-9336",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 875
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 874
+  "WorkflowStepOptionId": 128
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 752,
-  "WorkflowStepId": 136,
-  "WorkflowId": 840,
-  "Name": "Haag, Boyer and Johnson",
-  "Rank": 82,
+  "WorkflowStepOptionId": 995,
+  "WorkflowStepId": 735,
+  "WorkflowId": 632,
+  "Name": "Davis Inc and Sons",
+  "Rank": 760,
   "Steps": [
     {
-      "WorkflowStepId": 642,
-      "WorkflowId": 880,
+      "WorkflowStepId": 408,
+      "WorkflowId": 923,
       "StepType": "AddToList",
-      "Rank": 905
+      "Rank": 760
     },
     {
-      "WorkflowStepId": 642,
-      "WorkflowId": 880,
+      "WorkflowStepId": 408,
+      "WorkflowId": 923,
       "StepType": "AddToList",
-      "Rank": 905
+      "Rank": 760
     }
   ]
 }

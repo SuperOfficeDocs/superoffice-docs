@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Deckow-Ankunding",
-    "ToolTip": "Voluptatem in aut rerum adipisci.",
+    "Id": 776,
+    "Name": "Ondricka-Hickle",
+    "ToolTip": "Minus reprehenderit eos laudantium.",
     "Deleted": false,
-    "Rank": 586,
-    "Type": "quis",
-    "ColorBlock": 176,
-    "IconHint": "aspernatur",
+    "Rank": 741,
+    "Type": "nisi",
+    "ColorBlock": 443,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2017-07-29T11:44:43.3668335+02:00",
+    "LastChanged": "1998-08-28T11:16:14.8246461+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Turcotte LLC",
-        "ToolTip": "Ipsa recusandae modi eveniet rerum autem.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "ut",
-        "ColorBlock": 342,
-        "IconHint": "libero",
+        "Id": 182,
+        "Name": "Hudson, Haag and Veum",
+        "ToolTip": "Minima nemo minima eum ab sit optio minus.",
+        "Deleted": true,
+        "Rank": 83,
+        "Type": "aut",
+        "ColorBlock": 193,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2015-01-10T11:44:43.3668335+01:00",
+        "LastChanged": "2023-06-09T11:16:14.8246461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Adriel Wisoky",
+        "ExtraInfo": "nihil",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Emmie Dameon Leffler Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 953
+            "FieldLength": 127
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "maiores",
+    "ExtraInfo": "unde",
+    "StyleHint": "itaque",
     "Hidden": true,
-    "FullName": "Hattie Volkman",
+    "FullName": "Amalia Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 679
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 252,
-  "Name": "Parisian-Welch",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 997,
+  "Name": "Parisian-Corkery",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 532,
-  "UdListDefinitionId": 949
+  "Rank": 198,
+  "UdListDefinitionId": 229
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 771,
-  "Name": "Conroy, Keeling and Glover",
-  "Tooltip": "provident",
+  "HeadingId": 787,
+  "Name": "Kunde Group",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 722,
-  "UdListDefinitionId": 414,
+  "Rank": 94,
+  "UdListDefinitionId": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

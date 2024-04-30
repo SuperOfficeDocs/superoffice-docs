@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 243,
-    "ColumnId": 488,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 115,
-    "FieldLabel": "non",
-    "FieldLeft": 483,
-    "FieldTop": 731,
+    "UDefFieldId": 62,
+    "ColumnId": 647,
+    "FieldDefault": "quia",
+    "FieldHeight": 251,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 859,
+    "FieldTop": 135,
     "FieldType": "Checkbox",
-    "FieldWidth": 413,
-    "FormatMask": "animi",
+    "FieldWidth": 522,
+    "FormatMask": "tempora",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 441,
-    "LabelLeft": 871,
-    "LabelTop": 278,
-    "LabelWidth": 60,
-    "LastVersionId": 679,
-    "ListTableId": 755,
-    "IsMandatory": false,
+    "LabelHeight": 794,
+    "LabelLeft": 419,
+    "LabelTop": 718,
+    "LabelWidth": 278,
+    "LastVersionId": 419,
+    "ListTableId": 564,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 584,
-    "ProgId": "ullam",
-    "IsReadOnly": true,
-    "ShortLabel": "fuga",
-    "TabOrder": 532,
-    "TextLength": 221,
-    "Tooltip": "ut",
-    "UdefIdentity": 320,
-    "UDListDefinitionId": 962,
+    "Page1LineNo": 708,
+    "ProgId": "ipsam",
+    "IsReadOnly": false,
+    "ShortLabel": "et",
+    "TabOrder": 65,
+    "TextLength": 547,
+    "Tooltip": "numquam",
+    "UdefIdentity": 122,
+    "UDListDefinitionId": 5,
     "Justification": "Center",
-    "Version": 144,
-    "TemplateVariableName": "Rodriguez LLC",
+    "Version": 431,
+    "TemplateVariableName": "Emard, Reynolds and Stracke",
     "HasBeenPublished": false,
-    "MdoListName": "Kassulke-Walter",
+    "MdoListName": "Turcotte Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 241
       }
     }
   }

@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 739,
-  "Name": "Quigley Inc and Sons",
+  "SelectionId": 613,
+  "Name": "Cremin Inc and Sons",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended global orchestration",
-  "Postit": "dignissimos",
+  "Description": "Open-architected non-volatile success",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 500,
-  "IncludePerson": 910,
-  "MemberCount": 449,
-  "Name": "Veum-Gottlieb",
-  "PostitTextId": 935,
-  "CreatedDate": "2002-11-12T11:44:34.4470256+01:00",
-  "SelectionId": 821,
-  "SoundEx": "sint",
-  "Source": 27,
-  "TextId": 142,
-  "UpdatedDate": "2003-01-01T11:44:34.4470256+01:00",
-  "UpdatedCount": 969,
-  "Visibility": 313,
+  "GroupIdx": 756,
+  "IncludePerson": 61,
+  "MemberCount": 129,
+  "Name": "Jewess, Buckridge and Murphy",
+  "PostitTextId": 314,
+  "CreatedDate": "2013-03-21T11:16:09.7103639+01:00",
+  "SelectionId": 567,
+  "SoundEx": "assumenda",
+  "Source": 728,
+  "TextId": 614,
+  "UpdatedDate": "2003-05-23T11:16:09.7103639+02:00",
+  "UpdatedCount": 176,
+  "Visibility": 290,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 799,
-  "TargetTableName": "Cartwright Group",
-  "Completed": true,
-  "LeftSelectionId": 507,
-  "RightSelectionId": 848,
+  "TargetTableNumber": 767,
+  "TargetTableName": "Jewess-Boyer",
+  "Completed": false,
+  "LeftSelectionId": 417,
+  "RightSelectionId": 71,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Vandervort-Parisian",
-  "ShadowProviderName": "Leannon-Wiegand",
-  "ChartKey": "laborum",
-  "LastLoaded": "2006-07-08T11:44:34.4470256+02:00",
-  "LastLoadedBy": 793,
+  "MainProviderName": "Tromp Group",
+  "ShadowProviderName": "Wilderman-Wisozk",
+  "ChartKey": "autem",
+  "LastLoaded": "2006-12-30T11:16:09.7103639+01:00",
+  "LastLoadedBy": 174,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-01-07T11:44:34.4470256+01:00",
-  "LastMembershipChangeBy": 739,
+  "LastMembershipChange": "2023-04-05T11:16:09.7103639+02:00",
+  "LastMembershipChangeBy": 779,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laboriosam",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Bartoletti LLC",
-  "DashboardTileDefinitionId": 568,
+  "MainHeading": "dolorem",
+  "MemberTabHeading": "quasi",
+  "MailingsProviderName": "Gutkowski, Torphy and Aufderhar",
+  "DashboardTileDefinitionId": 86,
   "VisibleFor": [
     {
-      "VisibleId": 519,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     },
     {
-      "VisibleId": 519,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 56
     }
   }
 }

@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kiehn-Murazik",
-      "DisplayName": "Larkin, Upton and Altenwerth",
-      "DisplayTooltip": "ex",
+      "Name": "Lowe Inc and Sons",
+      "DisplayName": "Harvey LLC",
+      "DisplayTooltip": "eos",
       "IsActive": false
     },
     {
-      "Name": "Kiehn-Murazik",
-      "DisplayName": "Larkin, Upton and Altenwerth",
-      "DisplayTooltip": "ex",
+      "Name": "Lowe Inc and Sons",
+      "DisplayName": "Harvey LLC",
+      "DisplayTooltip": "eos",
       "IsActive": false
     }
   ]

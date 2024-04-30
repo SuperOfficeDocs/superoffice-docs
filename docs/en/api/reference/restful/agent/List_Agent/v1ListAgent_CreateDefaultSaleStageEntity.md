@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 651,
-  "Value": "nam",
-  "Tooltip": "vero",
-  "Probability": 892,
-  "Deleted": false,
-  "Rank": 653,
+  "SaleStageId": 799,
+  "Value": "inventore",
+  "Tooltip": "labore",
+  "Probability": 146,
+  "Deleted": true,
+  "Rank": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   }
 }

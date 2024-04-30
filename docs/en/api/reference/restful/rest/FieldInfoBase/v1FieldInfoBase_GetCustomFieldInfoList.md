@@ -70,6 +70,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,18 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Buckridge Group",
-    "DisplayName": "Bosco-Lowe",
-    "Description": "Diverse object-oriented capability",
-    "ShortLabel": "quia",
+    "FieldName": "Marks Inc and Sons",
+    "DisplayName": "Kuhlman-Schuster",
+    "Description": "Re-contextualized composite focus group",
+    "ShortLabel": "sit",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 36,
-    "TemplateVariableName": "Block LLC"
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "IsDisplayField": true,
+    "Rank": 600,
+    "TemplateVariableName": "Langworth, Herman and Pouros"
   }
 ]
 ```

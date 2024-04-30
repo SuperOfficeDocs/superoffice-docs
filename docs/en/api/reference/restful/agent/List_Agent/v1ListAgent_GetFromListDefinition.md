@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 433,
-  "UdListDefinitionId": 810
+  "Id": 889,
+  "UdListDefinitionId": 681
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Robel-Rogahn",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 960,
-  "Rank": 296,
+  "Id": 569,
+  "Name": "Stracke-Eichmann",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 123,
+  "Rank": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

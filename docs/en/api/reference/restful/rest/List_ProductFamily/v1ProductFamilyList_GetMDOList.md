@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=nisi
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=tempore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Ondricka, Schmitt and Osinski",
-    "ToolTip": "Quis incidunt est tempore exercitationem velit.",
-    "Deleted": false,
-    "Rank": 857,
-    "Type": "maxime",
+    "Id": 541,
+    "Name": "Lehner LLC",
+    "ToolTip": "Et adipisci doloremque consequatur.",
+    "Deleted": true,
+    "Rank": 342,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Hermiston-Erdman",
-        "ToolTip": "Rem laboriosam animi sit illum ea.",
+        "Id": 448,
+        "Name": "Gerhold Group",
+        "ToolTip": "Sint alias sed alias nisi.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "iure",
+        "Rank": 269,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "asperiores",
-        "ColorBlock": 742,
-        "ExtraInfo": "minima",
-        "StyleHint": "quod",
-        "FullName": "Miss Martine Grace Runolfsson PhD",
+        "IconHint": "dolores",
+        "ColorBlock": 18,
+        "ExtraInfo": "qui",
+        "StyleHint": "omnis",
+        "FullName": "Bud Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldType": "System.String",
+            "FieldLength": 592
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 83,
-    "ExtraInfo": "commodi",
-    "StyleHint": "et",
-    "FullName": "Skyla Daugherty",
+    "IconHint": "maiores",
+    "ColorBlock": 920,
+    "ExtraInfo": "eum",
+    "StyleHint": "nam",
+    "FullName": "Lilly Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

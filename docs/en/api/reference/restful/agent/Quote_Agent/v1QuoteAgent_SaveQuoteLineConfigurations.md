@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 610,
-      "FieldName": "Auer Group",
-      "Label": "dolorum",
-      "Tooltip": "omnis",
+      "QuoteLineConfigurationId": 940,
+      "FieldName": "Corwin Group",
+      "Label": "sint",
+      "Tooltip": "dolor",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 53,
+      "Rank": 727,
       "RestrictEdit": true
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 304,
-    "FieldName": "Bogan, Cummerata and Koss",
-    "Label": "ea",
-    "Tooltip": "illum",
+    "QuoteLineConfigurationId": 490,
+    "FieldName": "DuBuque, Hintz and Deckow",
+    "Label": "est",
+    "Tooltip": "et",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": true,
-    "Rank": 757,
-    "RestrictEdit": false,
+    "Rank": 946,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldLength": 228
       }
     }
   }

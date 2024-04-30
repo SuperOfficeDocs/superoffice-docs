@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=707
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=42
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 735,
-  "CreatedAt": "2014-12-21T11:44:34.8687993+01:00",
+  "TicketMessageId": 719,
+  "CreatedAt": "2002-07-07T11:16:09.9761636+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "amet",
-  "PersonId": 914,
-  "PersonFullName": "Alfredo Champlin",
-  "ContactId": 712,
-  "ContactName": "Kilback, Bernier and Heller",
+  "Author": "non",
+  "PersonId": 391,
+  "PersonFullName": "Yvette Hackett",
+  "ContactId": 534,
+  "ContactName": "Wilkinson-Heathcote",
   "ContactDepartment": "",
-  "NumAttachments": 487,
-  "EmailHeader": "freida.hilpert@turcotte.us",
+  "NumAttachments": 875,
+  "EmailHeader": "brennan@tillman.us",
   "MessageHeaders": [
     {
-      "Id": 489,
-      "Name": "Rutherford-Schultz",
-      "Value": "molestias",
+      "Id": 496,
+      "Name": "Hodkiewicz LLC",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
   ],
-  "Language": "repellendus",
-  "Sentiment": 7,
-  "SentimentConfidence": 977,
-  "CreatedBy": 867,
-  "ChangedAt": "2001-10-09T11:44:34.8687993+02:00",
+  "Language": "eos",
+  "Sentiment": 136,
+  "SentimentConfidence": 221,
+  "CreatedBy": 879,
+  "ChangedAt": "2003-09-09T11:16:09.9761636+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 499
     }
   }
 }

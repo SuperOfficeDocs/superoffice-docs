@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "non"
+  "UniqueIdentifier": "deserunt"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "animi",
-  "Name": "Gottlieb, Stroman and Koch",
-  "Description": "Vision-oriented dedicated flexibility",
-  "IncludeId": "nesciunt",
-  "Source": "consequatur",
-  "Registered": "2006-03-08T11:44:33.3223014+01:00",
-  "RegisteredBy": "rerum",
-  "Updated": "2017-05-23T11:44:33.3223014+02:00",
-  "UpdatedBy": "odio",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "repudiandae",
+  "Name": "Zulauf LLC",
+  "Description": "Cross-group high-level extranet",
+  "IncludeId": "omnis",
+  "Source": "quis",
+  "Registered": "2003-10-01T11:16:08.9440885+02:00",
+  "RegisteredBy": "vel",
+  "Updated": "2007-06-29T11:16:08.9440885+02:00",
+  "UpdatedBy": "inventore",
+  "Path": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 697
     }
   }
 }

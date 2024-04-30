@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 740,
-  "DimensionId": 621
+  "TargetYear": 943,
+  "DimensionId": 834
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 338,
-  "Year": 370,
+  "TargetGroupId": 23,
+  "Year": 746,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 389,
+      "TargetAssignmentInfoId": 542,
       "Values": [
-        206,
-        297
+        705,
+        769
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 687,
-      "DimensionListItemDisplayName": "Borer-Jacobs",
+      "DimensionListItem": 984,
+      "DimensionListItemDisplayName": "Daugherty, Terry and Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldType": "System.String",
+          "FieldLength": 307
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 914
     }
   }
 }

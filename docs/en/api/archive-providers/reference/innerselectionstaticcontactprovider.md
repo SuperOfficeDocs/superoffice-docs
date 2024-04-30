@@ -638,7 +638,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=NumberOfNotCompletedSalesInPeriod,appointment/associate/title,appointment/appointment/agendaHtml,document/saleId,document/registeredBy
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=sourceRelation/registeredBy,sale/stage,appointment/appointmentUdef/SuperOffice:5,appointment/associate/ejStatus,document/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

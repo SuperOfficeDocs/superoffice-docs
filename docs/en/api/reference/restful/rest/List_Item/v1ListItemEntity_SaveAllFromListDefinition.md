@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Green-Johns",
-    "Tooltip": "quisquam",
+    "Id": 949,
+    "Name": "Bashirian LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 682,
-    "Rank": 697
+    "UdListDefinitionId": 129,
+    "Rank": 949
   },
   {
-    "Id": 222,
-    "Name": "Green-Johns",
-    "Tooltip": "quisquam",
+    "Id": 949,
+    "Name": "Bashirian LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 682,
-    "Rank": 697
+    "UdListDefinitionId": 129,
+    "Rank": 949
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Predovic Group",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 83,
-    "Rank": 192,
+    "Id": 963,
+    "Name": "Lindgren, Hudson and Buckridge",
+    "Tooltip": "perferendis",
+    "Deleted": true,
+    "UdListDefinitionId": 670,
+    "Rank": 976,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 205
       }
     }
   }

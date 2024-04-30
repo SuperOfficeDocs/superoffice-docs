@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 704,
-  "Name": "Bogan Group",
-  "Tooltip": "facilis",
-  "SaveInDb": 950,
-  "Filename": "architecto",
-  "DefaultOref": "ducimus",
+  "DocumentTemplateId": 984,
+  "Name": "Morissette-Crooks",
+  "Tooltip": "cum",
+  "SaveInDb": 815,
+  "Filename": "voluptas",
+  "DefaultOref": "quisquam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 676,
-  "IntentId": 47,
+  "AutoeventId": 139,
+  "IntentId": 214,
   "IsDefaultPublished": false,
-  "Rank": 39,
-  "LoadTemplateFromPlugin": 978,
-  "MimeType": "et",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 929,
+  "Rank": 547,
+  "LoadTemplateFromPlugin": 335,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 991,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "arnaldo_bergstrom@borer.name",
+  "EmailSubject": "zachariah@littel.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "amara@mitchellwalsh.co.uk",
+  "SenderEmailAddress": "connor@wiegand.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 856
     }
   }
 }

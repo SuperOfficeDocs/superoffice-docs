@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quaerat"
+  "Section": "autem"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 381,
-    "Section": "et",
-    "Key": "reiciendis",
-    "Name": "Fisher, Yundt and Hoeger",
+    "PrefDescId": 28,
+    "Section": "dolor",
+    "Key": "dolore",
+    "Name": "Legros Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optimized exuding throughput",
+    "Description": "Proactive user-facing firmware",
     "IsBuiltin": false,
-    "TableName": "Kulas LLC",
-    "UserDefinedListId": 79,
-    "Rank": 858,
-    "SubGroup": "est",
-    "MinLevel": 31,
-    "MaxValue": 77,
-    "MinValue": 522,
-    "RequiredLicense": "optio",
+    "TableName": "Blick, Weissnat and Hodkiewicz",
+    "UserDefinedListId": 786,
+    "Rank": 350,
+    "SubGroup": "blanditiis",
+    "MinLevel": 439,
+    "MaxValue": 90,
+    "MinValue": 192,
+    "RequiredLicense": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 455
       }
     }
   }

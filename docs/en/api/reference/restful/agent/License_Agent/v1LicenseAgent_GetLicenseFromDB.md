@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bins Group"
+  "OwnerName": "Heidenreich, O'Connell and Bergnaum"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 255,
-      "NumberOfLicensesFree": 872,
-      "NumberOfLicensesAdded": 791,
-      "NumberOfLicensesNewTotal": 721,
-      "NumberOfLicensesNewFree": 933,
-      "NumberOfLicensesTotal": 43
+      "NumberOfLicensesInUse": 535,
+      "NumberOfLicensesFree": 306,
+      "NumberOfLicensesAdded": 363,
+      "NumberOfLicensesNewTotal": 176,
+      "NumberOfLicensesNewFree": 835,
+      "NumberOfLicensesTotal": 350
     }
   ],
-  "AccumulatedNextCheckDate": "2017-07-29T11:44:33.7909305+02:00"
+  "AccumulatedNextCheckDate": "2005-09-06T11:16:09.3034579+02:00"
 }
 ```

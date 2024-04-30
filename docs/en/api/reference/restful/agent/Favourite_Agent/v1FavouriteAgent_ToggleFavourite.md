@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keebler-Jacobson",
-  "RecordId": 424,
-  "AssociateId": 53,
-  "ExtraInfo": "delectus"
+  "TableName": "Langosh, Mills and Price",
+  "RecordId": 388,
+  "AssociateId": 363,
+  "ExtraInfo": "corrupti"
 }
 ```
 

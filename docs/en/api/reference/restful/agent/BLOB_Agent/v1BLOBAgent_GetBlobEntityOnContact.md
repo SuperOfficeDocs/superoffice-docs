@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 738
+  "ContactId": 623
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 817,
-  "BlobSize": 277,
-  "Description": "Fully-configurable analyzing parallelism",
-  "ExtraInfo": "quo",
-  "IsEncrypted": true,
+  "BlobId": 52,
+  "BlobSize": 145,
+  "Description": "Innovative composite infrastructure",
+  "ExtraInfo": "dolores",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 615,
-  "CreatedDate": "2014-10-05T11:44:32.8380188+02:00",
-  "UpdatedDate": "2001-08-28T11:44:32.8380188+02:00",
+  "MimeType": "alias",
+  "OriginalSize": 491,
+  "CreatedDate": "2015-04-07T11:16:08.7566429+02:00",
+  "UpdatedDate": "2000-04-02T11:16:08.7566429+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 795
     }
   }
 }

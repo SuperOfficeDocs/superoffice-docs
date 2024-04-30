@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 457,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "earum",
-  "Name": "Mohr LLC",
-  "Description": "Polarised eco-centric artificial intelligence",
-  "Code": "ipsam",
-  "PriceUnit": "vel",
-  "QuantityUnit": "ducimus",
+  "ProductId": 549,
+  "ERPProductKey": "ullam",
+  "ERPPriceListKey": "et",
+  "Name": "Pollich Inc and Sons",
+  "Description": "Right-sized mobile internet solution",
+  "Code": "accusantium",
+  "PriceUnit": "vero",
+  "QuantityUnit": "deserunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "saepe",
-  "DefaultSubscriptionQuantity": 11558.192,
-  "ItemNumber": "1202267",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 3315.772,
+  "ItemNumber": "1069017",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "animi",
-  "ProductTypeKey": "ut",
-  "VAT": 8148.4,
-  "VATInfo": "et",
-  "UnitCost": 13538.88,
-  "UnitMinimumPrice": 21267.324,
-  "UnitListPrice": 1419.702,
-  "InAssortment": false,
-  "Supplier": "cum",
-  "SupplierCode": "deleniti",
-  "Rights": "autem",
-  "Rule": "aut",
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "ex",
+  "VAT": 22019.484,
+  "VATInfo": "asperiores",
+  "UnitCost": 17001.95,
+  "UnitMinimumPrice": 6471.71,
+  "UnitListPrice": 20170.424,
+  "InAssortment": true,
+  "Supplier": "quasi",
+  "SupplierCode": "incidunt",
+  "Rights": "tenetur",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Schmeler-Morissette",
-      "Value": "soluta",
+      "Name": "Ortiz, Baumbach and Greenholt",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     },
     {
-      "Name": "Schmeler-Morissette",
-      "Value": "soluta",
+      "Name": "Ortiz, Baumbach and Greenholt",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     }
   ],
-  "RawExtraInfo": "dignissimos",
-  "ExtraField1": "sit",
-  "ExtraField2": "temporibus",
-  "ExtraField3": "iusto",
-  "ExtraField4": "dicta",
-  "ExtraField5": "maxime",
-  "InStock": 4748.01,
+  "RawExtraInfo": "nesciunt",
+  "ExtraField1": "quia",
+  "ExtraField2": "ullam",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "sequi",
+  "ExtraField5": "quis",
+  "InStock": 24905.897999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 944
     }
   }
 }

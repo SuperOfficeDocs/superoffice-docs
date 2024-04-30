@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Hartmann, Pollich and Kassulke",
-  "Tooltip": "et",
+  "Id": 7,
+  "Name": "Ziemann-Heller",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "UdListDefinitionId": 526,
-  "Rank": 126,
+  "UdListDefinitionId": 38,
+  "Rank": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 258
     }
   }
 }

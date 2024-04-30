@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 830,
-  "Name": "Conn-VonRueden",
+  "ScreenChooserId": 132,
+  "Name": "Cartwright-Padberg",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "cum",
-  "Registered": "2005-03-20T11:44:33.3223014+01:00",
-  "RegisteredAssociateId": 160,
-  "Updated": "2017-09-25T11:44:33.3223014+02:00",
-  "UpdatedAssociateId": 539,
+  "Enabled": true,
+  "UniqueIdentifier": "qui",
+  "Source": "adipisci",
+  "Registered": "2000-09-26T11:16:08.9440885+02:00",
+  "RegisteredAssociateId": 59,
+  "Updated": "2000-01-18T11:16:08.9440885+01:00",
+  "UpdatedAssociateId": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

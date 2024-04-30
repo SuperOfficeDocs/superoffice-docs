@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    688,
-    601
+    523,
+    580
   ],
-  "TargetFolder": "eveniet"
+  "TargetFolder": "accusantium"
 }
 ```
 

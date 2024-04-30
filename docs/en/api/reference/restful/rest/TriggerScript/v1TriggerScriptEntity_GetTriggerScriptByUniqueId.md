@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 136,
-  "Name": "Kessler-Gibson",
+  "ScreenChooserId": 327,
+  "Name": "Thiel Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aperiam",
-  "Source": "velit",
-  "Registered": "2023-02-28T11:44:42.6951171+01:00",
-  "RegisteredAssociateId": 572,
-  "Updated": "1998-03-20T11:44:42.6951171+01:00",
-  "UpdatedAssociateId": 168,
+  "UniqueIdentifier": "nemo",
+  "Source": "ipsa",
+  "Registered": "2003-09-25T11:16:14.3398362+02:00",
+  "RegisteredAssociateId": 760,
+  "Updated": "2015-10-10T11:16:14.3398362+02:00",
+  "UpdatedAssociateId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 384
     }
   }
 }

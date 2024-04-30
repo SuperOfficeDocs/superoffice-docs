@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Bartell LLC",
-    "ToolTip": "Ipsa rerum atque ut aut.",
+    "Id": 900,
+    "Name": "Johnston-Mosciski",
+    "ToolTip": "Aut quia perferendis voluptatum tempore aut natus aut.",
     "Deleted": false,
-    "Rank": 842,
-    "Type": "occaecati",
-    "ColorBlock": 138,
-    "IconHint": "omnis",
+    "Rank": 14,
+    "Type": "perferendis",
+    "ColorBlock": 70,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2017-04-29T11:44:43.3824544+02:00",
+    "LastChanged": "2009-04-03T11:16:14.8401403+02:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Rau-Konopelski",
-        "ToolTip": "Perferendis aperiam.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "nihil",
-        "ColorBlock": 585,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "1998-05-16T11:44:43.3824544+02:00",
+        "Id": 442,
+        "Name": "Dicki Inc and Sons",
+        "ToolTip": "Consequatur nesciunt.",
+        "Deleted": false,
+        "Rank": 804,
+        "Type": "numquam",
+        "ColorBlock": 731,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2021-08-15T11:16:14.8401403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Jordi Lakin"
+        "ExtraInfo": "molestias",
+        "StyleHint": "voluptate",
+        "Hidden": false,
+        "FullName": "Prof. Cleta Miller DVM"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quae",
+    "ExtraInfo": "cum",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Amie Daniel"
+    "FullName": "Zita Fae Adams IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Stark-Deckow",
-    "ToolTip": "Sed et quia.",
+    "Id": 317,
+    "Name": "Kemmer, Bauch and Mraz",
+    "ToolTip": "Voluptates dolor est iste omnis sit ipsa.",
     "Deleted": false,
-    "Rank": 429,
-    "Type": "nihil",
-    "ColorBlock": 720,
-    "IconHint": "qui",
+    "Rank": 352,
+    "Type": "eum",
+    "ColorBlock": 356,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2017-03-30T11:44:43.3824544+02:00",
+    "LastChanged": "1997-07-15T11:16:14.8401403+02:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Kautzer-Mitchell",
-        "ToolTip": "Aliquam veniam ut sequi at asperiores cupiditate quia.",
-        "Deleted": false,
-        "Rank": 477,
-        "Type": "rerum",
-        "ColorBlock": 835,
-        "IconHint": "maxime",
+        "Id": 453,
+        "Name": "Leffler LLC",
+        "ToolTip": "Sapiente non blanditiis sequi officia.",
+        "Deleted": true,
+        "Rank": 641,
+        "Type": "voluptatibus",
+        "ColorBlock": 511,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2004-04-04T11:44:43.3824544+02:00",
+        "LastChanged": "2011-02-02T11:16:14.8401403+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "et",
+        "ExtraInfo": "ratione",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Mr. Deontae Leonel O'Hara PhD",
+        "FullName": "Dr. Austen Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 951
+            "FieldType": "System.Int32",
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "minus",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Lola Schneider",
+    "FullName": "Nichole Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 136
       }
     }
   }

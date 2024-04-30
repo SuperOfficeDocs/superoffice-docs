@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 202
+  "ContactId": 66
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 25861.768,
-  "Wgs84Longitude": 20674.998,
+  "Wgs84Latitude": 26156.363999999998,
+  "Wgs84Longitude": 29584.96,
   "LocalizedAddress": [
     [
       {
-        "Name": "Predovic Inc and Sons",
-        "Value": "vel",
-        "Tooltip": "voluptates",
-        "Label": "possimus",
-        "ValueLength": 356,
-        "AddressType": "assumenda",
+        "Name": "Bode Inc and Sons",
+        "Value": "ratione",
+        "Tooltip": "et",
+        "Label": "ad",
+        "ValueLength": 983,
+        "AddressType": "quam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 650
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
     [
       {
-        "Name": "Schulist-Daugherty",
-        "Value": "quidem",
-        "Tooltip": "fugiat",
-        "Label": "dolore",
-        "ValueLength": 872,
-        "AddressType": "similique",
+        "Name": "Heaney LLC",
+        "Value": "magnam",
+        "Tooltip": "ab",
+        "Label": "qui",
+        "ValueLength": 527,
+        "AddressType": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 514
+            "FieldLength": 280
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "sit",
+  "Formatted": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 369
     }
   }
 }

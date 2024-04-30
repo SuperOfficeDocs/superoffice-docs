@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=668
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=591
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 764,
-  "ColumnId": 4,
-  "FieldDefault": "suscipit",
-  "FieldHeight": 632,
-  "FieldLabel": "sit",
-  "FieldLeft": 829,
-  "FieldTop": 21,
+  "UDefFieldId": 9,
+  "ColumnId": 114,
+  "FieldDefault": "debitis",
+  "FieldHeight": 156,
+  "FieldLabel": "harum",
+  "FieldLeft": 662,
+  "FieldTop": 638,
   "FieldType": "Checkbox",
-  "FieldWidth": 317,
-  "FormatMask": "in",
+  "FieldWidth": 150,
+  "FormatMask": "ut",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 115,
-  "LabelLeft": 643,
-  "LabelTop": 5,
-  "LabelWidth": 662,
-  "LastVersionId": 466,
-  "ListTableId": 297,
+  "IsIndexed": false,
+  "LabelHeight": 39,
+  "LabelLeft": 380,
+  "LabelTop": 907,
+  "LabelWidth": 153,
+  "LastVersionId": 50,
+  "ListTableId": 216,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 682,
-  "ProgId": "labore",
+  "Page1LineNo": 4,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 601,
-  "TextLength": 926,
-  "Tooltip": "facilis",
-  "UdefIdentity": 686,
-  "UDListDefinitionId": 419,
+  "ShortLabel": "tempora",
+  "TabOrder": 182,
+  "TextLength": 734,
+  "Tooltip": "omnis",
+  "UdefIdentity": 736,
+  "UDListDefinitionId": 8,
   "Justification": "Center",
-  "Version": 339,
-  "TemplateVariableName": "Bernier-Witting",
+  "Version": 435,
+  "TemplateVariableName": "Cummings, Crooks and Jacobson",
   "HasBeenPublished": false,
-  "MdoListName": "Goyette-Tromp",
+  "MdoListName": "Fritsch, Turner and Anderson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 707
     }
   }
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Steuber-Breitenberg",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 543,
-    "UdListDefinitionId": 75,
+    "HeadingId": 311,
+    "Name": "Beatty, Okuneva and Dicki",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 437,
+    "UdListDefinitionId": 180,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldType": "System.Int32",
+        "FieldLength": 632
       }
     }
   }

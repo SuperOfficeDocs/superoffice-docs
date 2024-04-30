@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 620,
-    "Name": "Howe, Hamill and Cummings",
-    "Description": "Distributed homogeneous open architecture",
+    "ProjectId": 158,
+    "Name": "Bayer, Ferry and Adams",
+    "Description": "Cross-platform zero defect functionalities",
     "URL": "http://www.example.com/",
-    "Type": "ab",
-    "AssociateId": 578,
-    "AssociateFullName": "Orlo Charley Beier DVM",
-    "TypeId": 697,
-    "Updated": "2021-02-13T11:44:34.2126949+01:00",
-    "StatusId": 407,
-    "Status": "a",
-    "TextId": 257,
-    "PublishTo": "2020-06-05T11:44:34.2126949+02:00",
-    "PublishFrom": "2003-06-25T11:44:34.2126949+02:00",
-    "IsPublished": true,
+    "Type": "unde",
+    "AssociateId": 846,
+    "AssociateFullName": "Zakary Klocko",
+    "TypeId": 65,
+    "Updated": "2020-11-16T11:16:09.569228+01:00",
+    "StatusId": 645,
+    "Status": "minus",
+    "TextId": 20,
+    "PublishTo": "2021-08-10T11:16:09.569228+02:00",
+    "PublishFrom": "2006-11-25T11:16:09.569228+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "588302",
-    "ActiveErpLinks": 533,
+    "ProjectNumber": "638504",
+    "ActiveErpLinks": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

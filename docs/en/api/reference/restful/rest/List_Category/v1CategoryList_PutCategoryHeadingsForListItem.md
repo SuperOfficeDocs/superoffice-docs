@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Terry Group",
-    "ToolTip": "Reprehenderit cupiditate quod sapiente molestiae est.",
+    "Id": 112,
+    "Name": "Waters Group",
+    "ToolTip": "Dolorum dolorum magnam quia architecto.",
     "Deleted": true,
-    "Rank": 301,
-    "Type": "rem",
-    "ColorBlock": 860,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2012-10-28T11:44:42.9450455+01:00",
+    "Rank": 415,
+    "Type": "sunt",
+    "ColorBlock": 444,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2017-12-24T11:16:14.4964233+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Reilly-Okuneva",
-        "ToolTip": "Dicta delectus ut non provident cupiditate corrupti.",
+        "Id": 251,
+        "Name": "Marvin, Johns and Simonis",
+        "ToolTip": "Recusandae eos voluptatem.",
         "Deleted": false,
-        "Rank": 655,
-        "Type": "et",
-        "ColorBlock": 85,
-        "IconHint": "sit",
+        "Rank": 166,
+        "Type": "quae",
+        "ColorBlock": 20,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-05-24T11:44:42.9450455+02:00",
+        "LastChanged": "1999-06-12T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "veniam",
+        "ExtraInfo": "architecto",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Camilla Lockman"
+        "FullName": "Shea Botsford"
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Tatyana Durgan"
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Abraham Block"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Gutkowski Group",
-    "ToolTip": "Reiciendis eum sed aut voluptatem similique.",
+    "Id": 274,
+    "Name": "Ebert Group",
+    "ToolTip": "Eum velit consequatur repellat et unde incidunt sed.",
     "Deleted": false,
-    "Rank": 211,
-    "Type": "tempore",
-    "ColorBlock": 57,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2018-03-06T11:44:42.9450455+01:00",
+    "Rank": 139,
+    "Type": "ab",
+    "ColorBlock": 663,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2008-02-26T11:16:14.4964233+01:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Kertzmann Group",
-        "ToolTip": "Deleniti rerum nihil tenetur.",
+        "Id": 837,
+        "Name": "McGlynn Inc and Sons",
+        "ToolTip": "Id quis ratione ut odio odio sapiente.",
         "Deleted": true,
-        "Rank": 712,
-        "Type": "ut",
-        "ColorBlock": 333,
-        "IconHint": "deleniti",
+        "Rank": 787,
+        "Type": "aut",
+        "ColorBlock": 354,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2002-02-02T11:44:42.9450455+01:00",
+        "LastChanged": "2020-06-10T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "atque",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Gail Jacobs",
+        "FullName": "Ilene West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Muhammad Abernathy",
+    "ExtraInfo": "quae",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Grant Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 347
       }
     }
   }

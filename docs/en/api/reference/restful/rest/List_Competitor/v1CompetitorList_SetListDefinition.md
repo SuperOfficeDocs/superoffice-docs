@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Ryan-Bins",
-  "Tooltip": "officia",
+  "Id": 660,
+  "Name": "Hahn Group",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 499,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": true
+  "Rank": 288,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "Name": "Streich, Rath and Nicolas",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 29,
+  "Id": 778,
+  "Name": "Ondricka Group",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 66,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldLength": 732
     }
   }
 }

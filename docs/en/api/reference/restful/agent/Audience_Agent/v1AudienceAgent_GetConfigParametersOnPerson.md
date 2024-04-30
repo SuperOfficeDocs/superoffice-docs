@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 532
+  "PersonId": 928
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 462,
-    "Name": "Keebler-Goodwin",
-    "Value": "et",
-    "CreatedDate": "2018-09-08T11:44:32.806727+02:00",
-    "UpdatedDate": "1997-10-23T11:44:32.806727+02:00",
-    "CreatedBy": "laboriosam",
-    "UpdatedBy": "accusantium",
+    "AudienceLayoutId": 167,
+    "Name": "Bahringer LLC",
+    "Value": "tenetur",
+    "CreatedDate": "2017-02-14T11:16:08.7410229+01:00",
+    "UpdatedDate": "2017-03-23T11:16:08.7410229+01:00",
+    "CreatedBy": "porro",
+    "UpdatedBy": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

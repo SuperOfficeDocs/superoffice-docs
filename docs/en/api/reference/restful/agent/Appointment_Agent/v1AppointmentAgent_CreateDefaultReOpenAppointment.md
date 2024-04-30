@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 236
+  "SaleId": 952
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-09-04T11:44:32.6818015+02:00",
-  "AppointmentId": 574,
-  "Description": "Public-key zero administration secured line",
-  "Title": "sapiente",
-  "Agenda": "doloribus",
-  "InternalNotes": "aut",
-  "StartDate": "2015-10-11T11:44:32.6818015+02:00",
-  "EndDate": "2000-03-10T11:44:32.6818015+01:00",
+  "CreatedDate": "2008-09-26T11:16:08.6627639+02:00",
+  "AppointmentId": 598,
+  "Description": "Function-based needs-based toolset",
+  "Title": "quia",
+  "Agenda": "repellendus",
+  "InternalNotes": "aliquid",
+  "StartDate": "2017-06-18T11:16:08.6627639+02:00",
+  "EndDate": "1999-02-23T11:16:08.6627639+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 4,
+  "MotherId": 748,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-08-11T11:44:32.6974238+02:00",
+  "UpdatedDate": "1997-10-09T11:16:08.6627639+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 246,
+  "ActiveLinks": 576,
   "Links": [
     {
-      "EntityName": "Walker-Fahey",
-      "Id": 552,
-      "Description": "Future-proofed dedicated process improvement",
-      "ExtraInfo": "et",
-      "LinkId": 692,
+      "EntityName": "Thiel Inc and Sons",
+      "Id": 148,
+      "Description": "Multi-tiered systematic internet solution",
+      "ExtraInfo": "ipsum",
+      "LinkId": 56,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldType": "System.String",
+          "FieldLength": 562
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
-  "HasAlarm": false,
-  "ColorIndex": 576,
+  "AlarmLeadTime": "qui",
+  "HasAlarm": true,
+  "ColorIndex": 352,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "perferendis",
-  "LeadTime": "et",
-  "Location": "et",
-  "RejectCounter": 358,
+  "LagTime": "unde",
+  "LeadTime": "dolores",
+  "Location": "aut",
+  "RejectCounter": 111,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 743,
-      "PersonId": 920,
-      "ContactId": 546,
-      "EmailId": 240,
+      "AssociateId": 388,
+      "PersonId": 373,
+      "ContactId": 57,
+      "EmailId": 746,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "loraine_kunze@lakin.us",
-      "Description": "Fundamental multimedia interface"
+      "EmailAddress": "micaela@nicolas.uk",
+      "Description": "Progressive directional migration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-09-24T11:44:32.6974238+02:00",
+  "ActiveDate": "2011-01-15T11:16:08.6627639+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 398,
+  "PreferredTZLocation": 705,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 90,
+  "SuggestedAppointmentId": 446,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "CentralserviceVideomeetId": "maiores",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Jaydon Blanche Wiegand",
-    "SuperOffice:2": "Hassan Beahan"
+    "SuperOffice:1": "32139870",
+    "SuperOffice:2": "2038435953"
   },
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "non"
+    "CustomFields1": "quia",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2004-08-03T11:44:32.6974238+02:00",
-  "PublishTo": "2003-04-19T11:44:32.6974238+02:00",
-  "PublishFrom": "2021-10-13T11:44:32.6974238+02:00",
+  "PublishEventDate": "2007-07-26T11:16:08.6627639+02:00",
+  "PublishTo": "2000-01-27T11:16:08.6627639+01:00",
+  "PublishFrom": "2007-06-13T11:16:08.6627639+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 175,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 175,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 561,
-  "ColumnId": 555,
-  "FieldDefault": "quia",
-  "FieldHeight": 5,
-  "FieldLabel": "neque",
-  "FieldLeft": 353,
-  "FieldTop": 643,
+  "UDefFieldId": 261,
+  "ColumnId": 581,
+  "FieldDefault": "labore",
+  "FieldHeight": 700,
+  "FieldLabel": "maxime",
+  "FieldLeft": 991,
+  "FieldTop": 91,
   "FieldType": "Checkbox",
-  "FieldWidth": 551,
-  "FormatMask": "placeat",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 590,
-  "LabelLeft": 544,
-  "LabelTop": 434,
-  "LabelWidth": 975,
-  "LastVersionId": 661,
-  "ListTableId": 964,
-  "IsMandatory": true,
+  "FieldWidth": 384,
+  "FormatMask": "et",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 386,
+  "LabelLeft": 480,
+  "LabelTop": 756,
+  "LabelWidth": 174,
+  "LastVersionId": 402,
+  "ListTableId": 126,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 655,
-  "ProgId": "nihil",
-  "IsReadOnly": true,
-  "ShortLabel": "magnam",
-  "TabOrder": 840,
-  "TextLength": 54,
-  "Tooltip": "quaerat",
-  "UdefIdentity": 241,
-  "UDListDefinitionId": 139,
+  "Page1LineNo": 288,
+  "ProgId": "non",
+  "IsReadOnly": false,
+  "ShortLabel": "inventore",
+  "TabOrder": 346,
+  "TextLength": 288,
+  "Tooltip": "ut",
+  "UdefIdentity": 116,
+  "UDListDefinitionId": 449,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Johnson LLC",
+  "Version": 222,
+  "TemplateVariableName": "Bahringer-Cummings",
   "HasBeenPublished": true,
-  "MdoListName": "Dickens, Rowe and Franecki",
+  "MdoListName": "Barton-VonRueden",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 239
     }
   }
 }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 761,
-  "TargetDimensionId": 682
+  "Year": 998,
+  "TargetDimensionId": 628
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 195,
+    "TargetAssignmentInfoId": 805,
     "Values": [
-      183,
-      981
+      36,
+      674
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 517,
-    "DimensionListItemDisplayName": "Weissnat-Steuber",
+    "DimensionListItem": 559,
+    "DimensionListItemDisplayName": "Schoen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 206
       }
     }
   }

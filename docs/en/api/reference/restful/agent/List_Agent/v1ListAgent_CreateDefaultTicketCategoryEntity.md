@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 394,
-  "ParentId": 710,
-  "Name": "Leffler LLC",
-  "Fullname": "est",
-  "CategoryMaster": 810,
+  "TicketCategoryId": 452,
+  "ParentId": 552,
+  "Name": "Williamson-Lowe",
+  "Fullname": "velit",
+  "CategoryMaster": 737,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Goodwin, Kling and Crooks",
+  "ExternalName": "Herman Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 492,
-  "ReplyTemplate": 230,
-  "NotificationEmail": "marielle.osinski@gleichner.uk",
+  "AssignmentLag": 640,
+  "ReplyTemplate": 293,
+  "NotificationEmail": "deven@ward.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 166,
+  "EffectiveReplyTemplateId": 892,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "sit"
+    "CustomFields1": "iste",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 38
     }
   }
 }

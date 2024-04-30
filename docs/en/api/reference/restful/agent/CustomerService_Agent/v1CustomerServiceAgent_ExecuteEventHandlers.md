@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "nisi",
-    "InputValues2": "dolores"
+    "InputValues1": "nihil",
+    "InputValues2": "corrupti"
   },
-  "BlockExecution": true,
-  "NavigateTo": "architecto",
-  "Message": "quis",
-  "ShowDialog": "doloribus",
+  "BlockExecution": false,
+  "NavigateTo": "ratione",
+  "Message": "dolore",
+  "ShowDialog": "odio",
   "OutputValues": {
-    "OutputValues1": "magnam",
-    "OutputValues2": "vitae"
+    "OutputValues1": "architecto",
+    "OutputValues2": "non"
   },
   "StateValues": {
-    "StateValues1": "sequi",
-    "StateValues2": "aut"
+    "StateValues1": "omnis",
+    "StateValues2": "ducimus"
   },
-  "Exception": "incidunt",
+  "Exception": "sed",
   "ParserValues": {
-    "ParserValues1": "error",
-    "ParserValues2": "est"
+    "ParserValues1": "sapiente",
+    "ParserValues2": "excepturi"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
+    "CgiVariables1": "eos",
     "CgiVariables2": "et"
   },
-  "CgiContent": "libero",
+  "CgiContent": "officia",
   "Headers": {
-    "Headers1": "totam",
-    "Headers2": "provident"
+    "Headers1": "et",
+    "Headers2": "ipsam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldLength": 653
     }
   }
 }

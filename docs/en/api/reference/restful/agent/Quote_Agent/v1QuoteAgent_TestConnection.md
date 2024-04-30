@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Pfeffer, Dooley and Bergnaum",
+  "ConnectorName": "Baumbach, Glover and Kihn",
   "ConnectionData": {
-    "ConnectionData1": "impedit",
-    "ConnectionData2": "commodi"
+    "ConnectionData1": "voluptatem",
+    "ConnectionData2": "autem"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "molestias",
-  "TechExplanation": "non",
-  "ErrorCode": "maxime",
+  "IsOk": true,
+  "UserExplanation": "voluptas",
+  "TechExplanation": "dolor",
+  "ErrorCode": "molestiae",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

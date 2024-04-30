@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Veum LLC",
-      "DisplayName": "Bins LLC",
-      "DisplayTooltip": "placeat",
-      "IsActive": false
+      "Name": "Cole LLC",
+      "DisplayName": "Legros LLC",
+      "DisplayTooltip": "ad",
+      "IsActive": true
     },
     {
-      "Name": "Veum LLC",
-      "DisplayName": "Bins LLC",
-      "DisplayTooltip": "placeat",
-      "IsActive": false
+      "Name": "Cole LLC",
+      "DisplayName": "Legros LLC",
+      "DisplayTooltip": "ad",
+      "IsActive": true
     }
   ]
 }

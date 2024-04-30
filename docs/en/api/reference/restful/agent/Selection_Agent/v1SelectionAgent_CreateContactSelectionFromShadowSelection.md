@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 581,
-  "Name": "Bogisich-White"
+  "SelectionId": 533,
+  "Name": "Olson, Runte and Beer"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line bandwidth-monitored moratorium",
-  "Postit": "reprehenderit",
+  "Description": "De-engineered next generation core",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 622,
-  "IncludePerson": 676,
-  "MemberCount": 77,
-  "Name": "Pfannerstill-Bahringer",
-  "PostitTextId": 582,
-  "CreatedDate": "2017-08-11T11:44:34.4782654+02:00",
-  "SelectionId": 710,
-  "SoundEx": "molestias",
-  "Source": 254,
-  "TextId": 270,
-  "UpdatedDate": "2020-09-26T11:44:34.4782654+02:00",
-  "UpdatedCount": 386,
-  "Visibility": 807,
+  "GroupIdx": 943,
+  "IncludePerson": 79,
+  "MemberCount": 278,
+  "Name": "Macejkovic, Strosin and Terry",
+  "PostitTextId": 782,
+  "CreatedDate": "2019-08-03T11:16:09.7259925+02:00",
+  "SelectionId": 423,
+  "SoundEx": "consectetur",
+  "Source": 946,
+  "TextId": 153,
+  "UpdatedDate": "2010-03-08T11:16:09.7259925+01:00",
+  "UpdatedCount": 668,
+  "Visibility": 288,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 315,
-  "TargetTableName": "Wunsch, McDermott and Walter",
-  "Completed": false,
-  "LeftSelectionId": 964,
-  "RightSelectionId": 612,
+  "CompanyUnique": false,
+  "TargetTableNumber": 449,
+  "TargetTableName": "Durgan Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 371,
+  "RightSelectionId": 68,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ritchie-Johnston",
-  "ShadowProviderName": "Bode, Cremin and Hudson",
-  "ChartKey": "rerum",
-  "LastLoaded": "1999-07-22T11:44:34.4782654+02:00",
-  "LastLoadedBy": 727,
+  "MainProviderName": "Kirlin Group",
+  "ShadowProviderName": "Beatty-Auer",
+  "ChartKey": "maiores",
+  "LastLoaded": "2022-03-01T11:16:09.7259925+01:00",
+  "LastLoadedBy": 982,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-13T11:44:34.4782654+01:00",
-  "LastMembershipChangeBy": 520,
+  "LastMembershipChange": "2023-02-15T11:16:09.7259925+01:00",
+  "LastMembershipChangeBy": 172,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aperiam",
-  "MemberTabHeading": "dignissimos",
-  "MailingsProviderName": "Lynch, Moore and Weber",
-  "DashboardTileDefinitionId": 303,
+  "MainHeading": "tempora",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Runolfsson Inc and Sons",
+  "DashboardTileDefinitionId": 423,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 184,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 184,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Shields Inc and Sons",
-      "Description": "Multi-lateral dynamic product",
-      "Rank": 90,
+      "Name": "Zieme, Rogahn and Heller",
+      "Description": "Distributed heuristic emulation",
+      "Rank": 954,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Shields Inc and Sons",
-      "Description": "Multi-lateral dynamic product",
-      "Rank": 90,
+      "Name": "Zieme, Rogahn and Heller",
+      "Description": "Distributed heuristic emulation",
+      "Rank": 954,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 419
     }
   }
 }

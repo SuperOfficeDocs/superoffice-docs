@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "McCullough-Walter",
-    "Tooltip": "in",
+    "Id": 983,
+    "Name": "Luettgen-Wolff",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 857,
-    "Rank": 74,
+    "UdListDefinitionId": 310,
+    "Rank": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

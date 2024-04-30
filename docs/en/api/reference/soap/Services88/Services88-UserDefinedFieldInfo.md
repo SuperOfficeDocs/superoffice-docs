@@ -435,6 +435,7 @@ title: Services88.UserDefinedFieldInfoAgent WSDL
           <xs:element minOccurs="0" name="IsMandatory" type="xs:boolean" />
           <xs:element minOccurs="0" name="IsReadOnly" type="xs:boolean" />
           <xs:element minOccurs="0" name="IsExternal" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDisplayField" type="xs:boolean" />
           <xs:element minOccurs="0" name="Rank" type="xs:int" />
           <xs:element minOccurs="0" name="TemplateVariableName" nillable="true" type="xs:string" />
         </xs:sequence>

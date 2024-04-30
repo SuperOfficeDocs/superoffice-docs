@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 311,
-      "ContactName": "Green-Bednar",
-      "PersonId": 719,
-      "PersonName": "Fahey-O'Kon",
-      "AssociateId": 579,
-      "Address": "qui",
-      "EmailId": 103,
+      "ContactId": 358,
+      "ContactName": "Schiller, Lockman and Lynch",
+      "PersonId": 986,
+      "PersonName": "Erdman, Kiehn and Heidenreich",
+      "AssociateId": 489,
+      "Address": "maxime",
+      "EmailId": 161,
       "DuplicatePersonIds": [
-        873,
-        889
+        244,
+        824
       ],
-      "Name": "Weissnat LLC",
+      "Name": "Cassin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 886
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 291,
-      "ContactName": "Kunde Inc and Sons",
-      "PersonId": 689,
-      "PersonName": "Collier Inc and Sons",
-      "AssociateId": 871,
-      "Address": "sunt",
-      "EmailId": 81,
+      "ContactId": 636,
+      "ContactName": "Stokes-Boyle",
+      "PersonId": 665,
+      "PersonName": "Franecki LLC",
+      "AssociateId": 593,
+      "Address": "est",
+      "EmailId": 187,
       "DuplicatePersonIds": [
-        353,
-        760
+        684,
+        935
       ],
-      "Name": "Hayes LLC",
+      "Name": "Littel, Fritsch and Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldLength": 58
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 278,
-      "ContactName": "Mosciski Inc and Sons",
-      "PersonId": 543,
-      "PersonName": "Nicolas LLC",
-      "AssociateId": 338,
-      "Address": "facere",
-      "EmailId": 125,
+      "ContactId": 981,
+      "ContactName": "Dooley, McCullough and Ruecker",
+      "PersonId": 81,
+      "PersonName": "Aufderhar, Schiller and Wunsch",
+      "AssociateId": 618,
+      "Address": "voluptatem",
+      "EmailId": 559,
       "DuplicatePersonIds": [
-        250,
-        284
+        556,
+        291
       ],
-      "Name": "Yost, Herzog and Little",
+      "Name": "Schoen LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldType": "System.String",
+          "FieldLength": 802
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "ipsa",
+  "Subject": "consequatur",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2022-03-07T11:44:33.5722192+01:00",
-  "Size": 706,
+  "Sent": "2007-01-27T11:16:09.1628538+01:00",
+  "Size": 777,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "consequatur",
+  "MessageID": "voluptatem",
+  "PlainBody": "facere",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 475,
+  "ServerId": 349,
   "Attachments": [
     {
-      "Description": "Down-sized encompassing productivity",
-      "Filename": "id",
-      "Size": 228,
-      "Type": "eligendi",
-      "Encoding": "ut",
-      "Id": "voluptatum",
-      "Disposition": "quisquam",
+      "Description": "Profound regional portal",
+      "Filename": "praesentium",
+      "Size": 226,
+      "Type": "vel",
+      "Encoding": "rerum",
+      "Id": "impedit",
+      "Disposition": "voluptate",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldLength": 709
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Muller-Botsford",
+      "Name": "Wisoky Inc and Sons",
       "Values": [
-        "temporibus",
-        "aut"
+        "sint",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Muller-Botsford",
+      "Name": "Wisoky Inc and Sons",
       "Values": [
-        "temporibus",
-        "aut"
+        "sint",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     }
   ],
-  "FolderName": "Goodwin, Breitenberg and Hintz",
-  "EmailItemId": 486,
-  "AccountId": 206,
-  "ReceivedAt": "2007-01-26T11:44:33.5722192+01:00",
+  "FolderName": "Braun, Erdman and Lemke",
+  "EmailItemId": 926,
+  "AccountId": 132,
+  "ReceivedAt": "1997-11-10T11:16:09.1628538+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-07-08T11:44:33.5722192+02:00",
+  "RepliedAt": "2019-03-18T11:16:09.1628538+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 715
     }
   }
 }

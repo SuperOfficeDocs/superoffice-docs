@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 354,
+  "AssociateId": 365,
   "Type": "AnonymousAssociate",
-  "PersonId": 947,
-  "UserName": "Rosenbaum Group"
+  "PersonId": 454,
+  "UserName": "Cartwright, Walker and Anderson"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

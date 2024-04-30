@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=minus
-GET /api/v1/TimeZone?$top=701
-GET /api/v1/TimeZone?$skip=501
+GET /api/v1/TimeZone?$entities=voluptatem
+GET /api/v1/TimeZone?$top=88
+GET /api/v1/TimeZone?$skip=638
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=est
+GET /api/v1/TimeZone?$context=a
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -96,21 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "iste",
   "value": [
     {
-      "PrimaryKey": 9338,
-      "EntityName": "sale",
-      "saleId": 9338,
-      "contactId": 2311,
-      "name": "Ortiz LLC"
+      "PrimaryKey": 2547,
+      "EntityName": "person",
+      "personId": 2547,
+      "fullName": "Ms. Osborne Leffler V"
     },
     {
-      "PrimaryKey": 3042,
-      "EntityName": "sale",
-      "saleId": 3042,
-      "contactId": 4565,
-      "name": "Gislason-Cormier"
+      "PrimaryKey": 8031,
+      "EntityName": "person",
+      "personId": 8031,
+      "fullName": "Mr. Madisyn Carissa Mills I"
     }
   ]
 }

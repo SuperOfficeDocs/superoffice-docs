@@ -699,7 +699,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=sale/saleId,sale/salePublish/isPublished,person/correspondingAssociate/contactCategory
+GET /api/v1/archive/FindDocument?$select=contact/streetAddress/addressId,contact/contactUdef/SuperOffice:7,project/projectAssociate/contactDepartment,sale/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

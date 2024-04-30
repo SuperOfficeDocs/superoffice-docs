@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 789,
-  "AssociateId": 719,
-  "Caption": "magnam",
+  "DashboardId": 961,
+  "AssociateId": 642,
+  "Caption": "atque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 420,
-      "Caption": "illum",
-      "Description": "Fundamental dedicated portal",
-      "ChartName": "Hagenes, Stamm and Rohan",
-      "ChartId": "laudantium",
+      "DashboardTileId": 713,
+      "Caption": "cum",
+      "Description": "Enterprise-wide content-based internet solution",
+      "ChartName": "Marquardt LLC",
+      "ChartId": "quaerat",
       "IsDefault": false,
-      "AssociateId": 27,
-      "GroupId": 425,
-      "SelectionId": 420,
-      "Config": "voluptatem",
+      "AssociateId": 458,
+      "GroupId": 768,
+      "SelectionId": 26,
+      "Config": "praesentium",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 35,
-  "AssociateId": 765,
-  "Caption": "itaque",
+  "DashboardId": 571,
+  "AssociateId": 789,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 48,
-      "Caption": "non",
-      "Description": "Extended dynamic emulation",
-      "ChartName": "Ledner, Nikolaus and Rempel",
-      "ChartId": "nesciunt",
-      "IsDefault": false,
-      "AssociateId": 234,
-      "GroupId": 483,
-      "SelectionId": 171,
-      "Config": "numquam",
+      "DashboardTileId": 271,
+      "Caption": "similique",
+      "Description": "Devolved content-based collaboration",
+      "ChartName": "Ernser Inc and Sons",
+      "ChartId": "vel",
+      "IsDefault": true,
+      "AssociateId": 129,
+      "GroupId": 80,
+      "SelectionId": 904,
+      "Config": "nam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldType": "System.Int32",
+          "FieldLength": 442
         }
       }
     }
@@ -167,12 +167,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 67
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

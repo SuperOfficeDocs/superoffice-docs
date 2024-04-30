@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 356,
-  "Name": "Abbott Group",
-  "Tooltip": "qui",
-  "Rank": 578,
+  "ProjTypeId": 526,
+  "Name": "Quitzon, McCullough and Kuhn",
+  "Tooltip": "dolorem",
+  "Rank": 987,
   "DurationUnit": "Century",
-  "ProjectDuration": 368,
-  "Deleted": true,
+  "ProjectDuration": 74,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 132,
-      "Name": "Kling Inc and Sons",
-      "ToolTip": "Adipisci officia eius tempora.",
+      "Id": 293,
+      "Name": "Ernser, Marquardt and Miller",
+      "ToolTip": "Molestiae dolor eaque magnam.",
       "Deleted": false,
-      "Rank": 563,
-      "Type": "quia",
-      "ColorBlock": 175,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2002-08-06T11:44:33.9002761+02:00",
+      "Rank": 788,
+      "Type": "sed",
+      "ColorBlock": 152,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "2012-04-08T11:16:09.3659552+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "maiores",
-      "Hidden": false,
-      "FullName": "Floy Dare II"
+      "ExtraInfo": "enim",
+      "StyleHint": "numquam",
+      "Hidden": true,
+      "FullName": "Yasmine Goyette"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 977,
-  "Name": "Koelpin-Kunze",
-  "Tooltip": "sit",
-  "Rank": 626,
+  "ProjTypeId": 480,
+  "Name": "Lueilwitz, Gleason and Ebert",
+  "Tooltip": "eligendi",
+  "Rank": 281,
   "DurationUnit": "Century",
-  "ProjectDuration": 519,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 674,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 40,
-      "Name": "Oberbrunner, Greenholt and Klein",
-      "ToolTip": "Suscipit assumenda et consequuntur tenetur.",
+      "Id": 26,
+      "Name": "Dibbert LLC",
+      "ToolTip": "Voluptatum eveniet sapiente voluptas eligendi est voluptatibus molestiae.",
       "Deleted": false,
-      "Rank": 333,
-      "Type": "qui",
-      "ColorBlock": 836,
-      "IconHint": "facilis",
+      "Rank": 705,
+      "Type": "aperiam",
+      "ColorBlock": 407,
+      "IconHint": "soluta",
       "Selected": true,
-      "LastChanged": "2021-04-04T11:44:33.9002761+02:00",
+      "LastChanged": "2019-05-23T11:16:09.3659552+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Otha Smitham",
+      "ExtraInfo": "quis",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Yessenia Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 347
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   }
 }

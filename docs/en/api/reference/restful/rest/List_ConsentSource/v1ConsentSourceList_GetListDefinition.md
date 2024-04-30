@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "Name": "Kozey, Franecki and Ryan",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 38,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 744,
+  "Name": "Walter Inc and Sons",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 141,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   },
   "_Links": {

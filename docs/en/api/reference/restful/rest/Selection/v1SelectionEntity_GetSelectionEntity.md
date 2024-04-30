@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 28 Nov 2003 11:44:42 G11T
+Last-Modified: Sat, 12 Jun 2021 11:16:14 G6T
 
 {
-  "Description": "Advanced reciprocal paradigm",
-  "Postit": "eos",
+  "Description": "Cross-platform executive approach",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 217,
-  "IncludePerson": 762,
-  "MemberCount": 281,
-  "Name": "Runolfsdottir, O'Connell and Fritsch",
-  "PostitTextId": 372,
-  "CreatedDate": "2020-04-20T11:44:42.5232729+02:00",
-  "SelectionId": 600,
-  "SoundEx": "voluptatem",
-  "Source": 569,
-  "TextId": 798,
-  "UpdatedDate": "2003-11-28T11:44:42.5232729+01:00",
-  "UpdatedCount": 829,
-  "Visibility": 651,
+  "GroupIdx": 705,
+  "IncludePerson": 688,
+  "MemberCount": 681,
+  "Name": "Gleichner LLC",
+  "PostitTextId": 123,
+  "CreatedDate": "2013-09-02T11:16:14.2148007+02:00",
+  "SelectionId": 196,
+  "SoundEx": "excepturi",
+  "Source": 941,
+  "TextId": 549,
+  "UpdatedDate": "2021-06-12T11:16:14.2148007+02:00",
+  "UpdatedCount": 816,
+  "Visibility": 577,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 165,
-  "TargetTableName": "Cronin, Jacobi and Mills",
+  "CompanyUnique": true,
+  "TargetTableNumber": 687,
+  "TargetTableName": "Schoen Group",
   "Completed": false,
-  "LeftSelectionId": 346,
-  "RightSelectionId": 319,
+  "LeftSelectionId": 790,
+  "RightSelectionId": 362,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bechtelar Inc and Sons",
-  "ShadowProviderName": "Mante-Dach",
-  "ChartKey": "sed",
-  "LastLoaded": "2023-08-15T11:44:42.5232729+02:00",
-  "LastLoadedBy": 90,
+  "MainProviderName": "Kemmer Group",
+  "ShadowProviderName": "Wiza-Grady",
+  "ChartKey": "ex",
+  "LastLoaded": "2003-09-08T11:16:14.2148007+02:00",
+  "LastLoadedBy": 626,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-04-06T11:44:42.5232729+02:00",
-  "LastMembershipChangeBy": 614,
+  "LastMembershipChange": "2008-11-05T11:16:14.2148007+01:00",
+  "LastMembershipChangeBy": 340,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sint",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Littel Group",
-  "DashboardTileDefinitionId": 57,
+  "MainHeading": "corrupti",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Terry Inc and Sons",
+  "DashboardTileDefinitionId": 260,
   "VisibleFor": [
     {
-      "VisibleId": 503,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 255
         }
       }
     },
     {
-      "VisibleId": 503,
+      "VisibleId": 309,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 255
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Fri, 28 Nov 2003 11:44:42 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 132
     }
   },
   "_Links": {

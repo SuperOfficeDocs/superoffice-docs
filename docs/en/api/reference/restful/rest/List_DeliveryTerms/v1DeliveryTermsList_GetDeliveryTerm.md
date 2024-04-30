@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Hodkiewicz Group",
-  "Tooltip": "sed",
+  "Id": 336,
+  "Name": "Weissnat, Wolff and Yundt",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 904,
-  "Rank": 513,
+  "UdListDefinitionId": 573,
+  "Rank": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

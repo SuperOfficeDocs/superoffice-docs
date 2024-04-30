@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 818,
+  "TargetDimensionId": 791,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "consequatur",
-  "DimensionListName": "Bartoletti-Donnelly",
-  "DimensionListId": 160,
-  "DimensionListLabel": "labore",
+  "DimensionListField": "in",
+  "DimensionListName": "Hayes Inc and Sons",
+  "DimensionListId": 235,
+  "DimensionListLabel": "dolores",
   "SelectedDimensions": [
-    811,
-    506
+    372,
+    240
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 626,
+  "TargetDimensionId": 633,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "excepturi",
-  "DimensionListName": "Williamson, Rippin and Cremin",
-  "DimensionListId": 413,
-  "DimensionListLabel": "ipsa",
+  "DimensionListField": "quibusdam",
+  "DimensionListName": "Fadel Group",
+  "DimensionListId": 817,
+  "DimensionListLabel": "odio",
   "SelectedDimensions": [
-    724,
-    338
+    518,
+    206
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldLength": 350
     }
   }
 }

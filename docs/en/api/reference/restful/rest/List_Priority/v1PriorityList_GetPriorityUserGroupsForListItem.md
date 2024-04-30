@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Prosacco Inc and Sons",
-    "ToolTip": "Voluptate nam corporis eos aut itaque.",
+    "Id": 94,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Ratione vel molestias beatae distinctio hic inventore.",
     "Deleted": false,
-    "Rank": 597,
-    "Type": "ipsam",
-    "ColorBlock": 310,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2019-10-14T11:44:43.1637513+02:00",
+    "Rank": 218,
+    "Type": "rerum",
+    "ColorBlock": 415,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2004-05-27T11:16:14.6214085+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Lindgren, Abshire and Haley",
-        "ToolTip": "Omnis corporis qui vel aut ut ea.",
-        "Deleted": true,
-        "Rank": 361,
-        "Type": "delectus",
-        "ColorBlock": 846,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "2009-09-27T11:44:43.1637513+02:00",
+        "Id": 983,
+        "Name": "Osinski Inc and Sons",
+        "ToolTip": "Facilis facere blanditiis.",
+        "Deleted": false,
+        "Rank": 737,
+        "Type": "officia",
+        "ColorBlock": 232,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2024-02-03T11:16:14.6214085+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "et",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Bud Maggio",
+        "FullName": "Jillian Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "et",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Ms. Marietta Rutherford",
+    "FullName": "Heather Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 473
       }
     }
   }

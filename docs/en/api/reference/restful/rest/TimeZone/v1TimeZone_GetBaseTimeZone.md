@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 820,
-  "Name": "Hyatt LLC",
-  "TZLocationCode": "perspiciatis",
-  "TZLocationCities": "provident",
-  "IsoNumber": 510,
+  "TZLocationID": 146,
+  "Name": "Macejkovic, Ruecker and Greenfelder",
+  "TZLocationCode": "consequatur",
+  "TZLocationCities": "quam",
+  "IsoNumber": 517,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 917,
-      "StartMonth": 409,
-      "EndDay": 37,
-      "EndMonth": 157,
-      "TZOffset": 811,
-      "StartRulePattern": "dolor",
-      "EndRulePattern": "commodi"
+      "StartDay": 398,
+      "StartMonth": 886,
+      "EndDay": 258,
+      "EndMonth": 126,
+      "TZOffset": 769,
+      "StartRulePattern": "minima",
+      "EndRulePattern": "accusantium"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 568,
-      "StartMonth": 671,
-      "EndDay": 750,
-      "EndMonth": 38,
-      "TZOffset": 975,
-      "StartRulePattern": "fugiat",
-      "EndRulePattern": "velit"
+      "StartDay": 414,
+      "StartMonth": 251,
+      "EndDay": 703,
+      "EndMonth": 420,
+      "TZOffset": 768,
+      "StartRulePattern": "laboriosam",
+      "EndRulePattern": "rerum"
     }
   }
 }

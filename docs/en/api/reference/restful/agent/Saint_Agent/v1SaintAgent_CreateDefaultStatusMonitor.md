@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 627,
-  "Rank": 738,
-  "DefaultTask": 398,
-  "DefaultTaskText": "est",
+  "OwnerTable": 591,
+  "Rank": 48,
+  "DefaultTask": 101,
+  "DefaultTaskText": "et",
   "IsVisual": false,
-  "LastGenerated": "2001-08-26T11:44:34.3376813+02:00",
-  "Description": "Managed demand-driven functionalities",
-  "Name": "Romaguera, Cassin and Beier",
-  "StatusMonitorId": 852,
-  "PictureId": 914,
+  "LastGenerated": "2011-03-27T11:16:09.6473837+02:00",
+  "Description": "Innovative 24/7 contingency",
+  "Name": "Welch Group",
+  "StatusMonitorId": 176,
+  "PictureId": 172,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 112,
-  "NumNeedUpdate": 408,
-  "GenerationStart": "2011-03-24T11:44:34.3376813+01:00",
+  "NumMatches": 195,
+  "NumNeedUpdate": 407,
+  "GenerationStart": "1999-10-22T11:16:09.6473837+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 513
     }
   }
 }

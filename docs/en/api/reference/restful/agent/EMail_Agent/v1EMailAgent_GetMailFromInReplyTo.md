@@ -104,7 +104,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "molestiae"
+  "MessageId": "et"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 132,
-      "ContactName": "Veum LLC",
-      "PersonId": 1001,
-      "PersonName": "Berge Inc and Sons",
-      "AssociateId": 755,
-      "Address": "vel",
-      "EmailId": 986,
+      "ContactId": 511,
+      "ContactName": "Huels, Hackett and Larson",
+      "PersonId": 948,
+      "PersonName": "Swaniawski Group",
+      "AssociateId": 17,
+      "Address": "ut",
+      "EmailId": 973,
       "DuplicatePersonIds": [
-        701,
-        549
+        21,
+        716
       ],
-      "Name": "Williamson Group",
+      "Name": "Davis Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 752
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 872,
-      "ContactName": "Tremblay-Zulauf",
-      "PersonId": 507,
-      "PersonName": "Stehr-Howe",
-      "AssociateId": 391,
-      "Address": "dolorem",
-      "EmailId": 476,
+      "ContactId": 714,
+      "ContactName": "Kuhlman, Robel and Larkin",
+      "PersonId": 11,
+      "PersonName": "Corkery-Batz",
+      "AssociateId": 91,
+      "Address": "aliquam",
+      "EmailId": 305,
       "DuplicatePersonIds": [
-        522,
-        189
+        277,
+        618
       ],
-      "Name": "Bailey LLC",
+      "Name": "Becker-Runolfsson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 91
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 507,
-      "ContactName": "Oberbrunner-Yost",
-      "PersonId": 419,
-      "PersonName": "Olson Inc and Sons",
-      "AssociateId": 418,
-      "Address": "eos",
-      "EmailId": 838,
+      "ContactId": 350,
+      "ContactName": "Kub, Barrows and Wiza",
+      "PersonId": 207,
+      "PersonName": "Jerde, Torphy and Kautzer",
+      "AssociateId": 97,
+      "Address": "nam",
+      "EmailId": 555,
       "DuplicatePersonIds": [
-        930,
-        924
+        889,
+        494
       ],
-      "Name": "Morissette-Lesch",
+      "Name": "Bins-Buckridge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 472
         }
       }
     }
   ],
-  "Subject": "esse",
-  "HTMLBody": "id",
+  "Subject": "eos",
+  "HTMLBody": "asperiores",
   "From": null,
-  "Sent": "2003-08-28T11:44:33.5878385+02:00",
-  "Size": 92,
+  "Sent": "2018-01-03T11:16:09.1784746+01:00",
+  "Size": 94,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ex",
-  "PlainBody": "quae",
-  "IsSent": false,
+  "MessageID": "deleniti",
+  "PlainBody": "corrupti",
+  "IsSent": true,
   "EMailSOInfo": null,
   "ServerId": 798,
   "Attachments": [
     {
-      "Description": "Multi-lateral empowering open architecture",
-      "Filename": "recusandae",
-      "Size": 290,
-      "Type": "reprehenderit",
-      "Encoding": "dolor",
-      "Id": "quibusdam",
-      "Disposition": "et",
-      "IsSafeFileExtension": false,
+      "Description": "Networked optimal concept",
+      "Filename": "quasi",
+      "Size": 428,
+      "Type": "qui",
+      "Encoding": "consequatur",
+      "Id": "nesciunt",
+      "Disposition": "corporis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 215
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Hara, Keeling and Koss",
+      "Name": "Lind, Cormier and Hamill",
       "Values": [
-        "praesentium",
-        "ullam"
+        "et",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     {
-      "Name": "O'Hara, Keeling and Koss",
+      "Name": "Lind, Cormier and Hamill",
       "Values": [
-        "praesentium",
-        "ullam"
+        "et",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
   ],
-  "FolderName": "Jacobson Inc and Sons",
-  "EmailItemId": 614,
-  "AccountId": 609,
-  "ReceivedAt": "2001-02-19T11:44:33.5878385+01:00",
+  "FolderName": "Reynolds, Bruen and Orn",
+  "EmailItemId": 555,
+  "AccountId": 334,
+  "ReceivedAt": "2019-11-28T11:16:09.1784746+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-12-31T11:44:33.5878385+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-02-14T11:16:09.1784746+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   }
 }

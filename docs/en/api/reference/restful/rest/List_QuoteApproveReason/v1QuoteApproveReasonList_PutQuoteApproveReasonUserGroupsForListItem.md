@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Hagenes, Langworth and O'Conner",
-    "ToolTip": "Et voluptatem sit.",
+    "Id": 565,
+    "Name": "Harber, Runte and Rodriguez",
+    "ToolTip": "Omnis rem distinctio.",
     "Deleted": true,
-    "Rank": 634,
-    "Type": "a",
-    "ColorBlock": 346,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2011-08-28T11:44:43.2574879+02:00",
+    "Rank": 680,
+    "Type": "enim",
+    "ColorBlock": 280,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2006-02-22T11:16:14.6839019+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Wilderman-McKenzie",
-        "ToolTip": "Suscipit sint voluptatem aspernatur eaque tempora nisi sint.",
+        "Id": 811,
+        "Name": "Lesch Group",
+        "ToolTip": "Veritatis in.",
         "Deleted": false,
-        "Rank": 285,
-        "Type": "aut",
-        "ColorBlock": 50,
-        "IconHint": "adipisci",
+        "Rank": 737,
+        "Type": "enim",
+        "ColorBlock": 690,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2014-01-05T11:44:43.2574879+01:00",
+        "LastChanged": "2022-06-08T11:16:14.6839019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "vero",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "culpa",
         "Hidden": true,
-        "FullName": "Mr. Nathanial Justine Wiegand"
+        "FullName": "Miss Kim Heller"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Cole O'Kon"
+    "ExtraInfo": "provident",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Elmer Maggio"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Hudson, Weissnat and Okuneva",
-    "ToolTip": "Voluptate reprehenderit optio magnam.",
-    "Deleted": true,
-    "Rank": 169,
-    "Type": "amet",
-    "ColorBlock": 144,
-    "IconHint": "ut",
+    "Id": 784,
+    "Name": "Strosin Group",
+    "ToolTip": "Est dolor.",
+    "Deleted": false,
+    "Rank": 202,
+    "Type": "deleniti",
+    "ColorBlock": 942,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-11-05T11:44:43.2574879+01:00",
+    "LastChanged": "2017-05-18T11:16:14.6839019+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Kunde-Buckridge",
-        "ToolTip": "Et ut voluptatem iste occaecati.",
+        "Id": 603,
+        "Name": "Corkery-Krajcik",
+        "ToolTip": "Et rem officia adipisci error eligendi in tenetur.",
         "Deleted": false,
-        "Rank": 764,
-        "Type": "neque",
-        "ColorBlock": 85,
-        "IconHint": "dolore",
+        "Rank": 747,
+        "Type": "magni",
+        "ColorBlock": 934,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "1998-01-09T11:44:43.2574879+01:00",
+        "LastChanged": "2012-09-14T11:16:14.6839019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Dr. Celestine Olson I",
+        "ExtraInfo": "atque",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Aliza Krajcik II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 31
+            "FieldType": "System.Int32",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "magni",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Prof. Verlie Domenica Hayes",
+    "FullName": "Nelson Margaretta Volkman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldType": "System.Int32",
+        "FieldLength": 305
       }
     }
   }

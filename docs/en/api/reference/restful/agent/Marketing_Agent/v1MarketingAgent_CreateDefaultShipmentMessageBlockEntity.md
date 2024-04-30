@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 104,
-  "AssociateId": 624,
-  "Block": "accusantium",
-  "Registered": "2004-10-25T11:44:33.9315193+02:00",
-  "RegisteredAssociateId": 53,
-  "Updated": "2005-01-29T11:44:33.9315193+01:00",
-  "UpdatedAssociateId": 991,
-  "UpdatedCount": 238,
+  "ShipmentMessageBlockId": 208,
+  "AssociateId": 736,
+  "Block": "temporibus",
+  "Registered": "2024-04-15T11:16:09.3815779+02:00",
+  "RegisteredAssociateId": 480,
+  "Updated": "2015-07-30T11:16:09.3815779+02:00",
+  "UpdatedAssociateId": 702,
+  "UpdatedCount": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldLength": 327
     }
   }
 }

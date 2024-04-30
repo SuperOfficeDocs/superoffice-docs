@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 750,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "et",
+  "Id": 825,
+  "Name": "Upton, Block and Murazik",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "UdListDefinitionId": 83,
-  "Rank": 512
+  "UdListDefinitionId": 955,
+  "Rank": 410
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Kemmer LLC",
-  "Tooltip": "impedit",
+  "Id": 701,
+  "Name": "Paucek-Lueilwitz",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "UdListDefinitionId": 36,
-  "Rank": 244,
+  "UdListDefinitionId": 753,
+  "Rank": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 350
     }
   }
 }

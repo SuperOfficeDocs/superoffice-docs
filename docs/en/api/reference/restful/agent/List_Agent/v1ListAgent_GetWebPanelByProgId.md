@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "molestias"
+  "ProgId": "quisquam"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 683,
-  "Name": "Hoeger Group",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 772,
+  "WebPanelId": 294,
+  "Name": "Wunsch, Harber and Senger",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 653,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Gislason LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Padberg-Leannon",
   "Url": "http://www.example.com/",
-  "ProgId": "quod",
-  "Icon": 635,
+  "ProgId": "cum",
+  "Icon": 429,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

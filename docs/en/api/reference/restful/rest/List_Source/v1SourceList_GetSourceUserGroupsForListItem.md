@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Adams LLC",
-    "ToolTip": "Rerum ea officia in exercitationem odio labore.",
-    "Deleted": true,
-    "Rank": 266,
-    "Type": "possimus",
-    "ColorBlock": 117,
-    "IconHint": "similique",
+    "Id": 747,
+    "Name": "Miller-Effertz",
+    "ToolTip": "Aut quod.",
+    "Deleted": false,
+    "Rank": 273,
+    "Type": "praesentium",
+    "ColorBlock": 544,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2013-07-25T11:44:43.3668335+02:00",
+    "LastChanged": "2023-12-28T11:16:14.8246461+01:00",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Russel Inc and Sons",
-        "ToolTip": "Et minus cum eveniet perspiciatis iure corporis.",
-        "Deleted": false,
-        "Rank": 685,
-        "Type": "voluptas",
-        "ColorBlock": 330,
-        "IconHint": "quae",
+        "Id": 218,
+        "Name": "Mertz-Bogisich",
+        "ToolTip": "Labore pariatur velit dolorem non possimus beatae.",
+        "Deleted": true,
+        "Rank": 118,
+        "Type": "fugiat",
+        "ColorBlock": 614,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "1998-02-13T11:44:43.3668335+01:00",
+        "LastChanged": "1998-02-11T11:16:14.8246461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quia",
+        "ExtraInfo": "itaque",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Daphnee Herminio Buckridge DVM",
+        "FullName": "Markus Doyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Prof. Zoe Murphy",
+    "FullName": "Caden Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldLength": 419
       }
     }
   }

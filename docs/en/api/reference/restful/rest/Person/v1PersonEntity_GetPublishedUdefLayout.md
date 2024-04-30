@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 274,
-    "ColumnId": 688,
-    "FieldDefault": "repellendus",
-    "FieldHeight": 447,
-    "FieldLabel": "aut",
-    "FieldLeft": 134,
-    "FieldTop": 462,
+    "UDefFieldId": 925,
+    "ColumnId": 250,
+    "FieldDefault": "reprehenderit",
+    "FieldHeight": 543,
+    "FieldLabel": "reprehenderit",
+    "FieldLeft": 500,
+    "FieldTop": 75,
     "FieldType": "Checkbox",
-    "FieldWidth": 150,
-    "FormatMask": "sed",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 324,
-    "LabelLeft": 517,
-    "LabelTop": 634,
-    "LabelWidth": 59,
-    "LastVersionId": 96,
-    "ListTableId": 147,
-    "IsMandatory": false,
+    "FieldWidth": 486,
+    "FormatMask": "quisquam",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 506,
+    "LabelLeft": 189,
+    "LabelTop": 511,
+    "LabelWidth": 80,
+    "LastVersionId": 179,
+    "ListTableId": 416,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 868,
-    "ProgId": "iusto",
-    "IsReadOnly": false,
-    "ShortLabel": "tenetur",
-    "TabOrder": 466,
-    "TextLength": 763,
-    "Tooltip": "tempora",
-    "UdefIdentity": 646,
-    "UDListDefinitionId": 296,
+    "Page1LineNo": 60,
+    "ProgId": "perferendis",
+    "IsReadOnly": true,
+    "ShortLabel": "ut",
+    "TabOrder": 194,
+    "TextLength": 25,
+    "Tooltip": "laboriosam",
+    "UdefIdentity": 923,
+    "UDListDefinitionId": 970,
     "Justification": "Center",
-    "Version": 237,
-    "TemplateVariableName": "Deckow, Blanda and Davis",
+    "Version": 624,
+    "TemplateVariableName": "Kohler, Corwin and Pollich",
     "HasBeenPublished": false,
-    "MdoListName": "Thiel, Emard and Schamberger",
+    "MdoListName": "Oberbrunner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 435
       }
     }
   }

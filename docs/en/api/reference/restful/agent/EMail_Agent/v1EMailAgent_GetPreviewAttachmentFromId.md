@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 754,
-  "AttachmentId": "est",
-  "AttachmentType": "nobis",
-  "AttachmentFilename": "sint"
+  "MailItemId": 431,
+  "AttachmentId": "odio",
+  "AttachmentType": "quia",
+  "AttachmentFilename": "non"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive clear-thinking instruction set",
-  "Filename": "possimus",
-  "Size": 998,
-  "Type": "rerum",
-  "Encoding": "eos",
-  "Id": "provident",
-  "Disposition": "pariatur",
+  "Description": "Triple-buffered logistical support",
+  "Filename": "assumenda",
+  "Size": 419,
+  "Type": "a",
+  "Encoding": "minus",
+  "Id": "repudiandae",
+  "Disposition": "maiores",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 260
     }
   }
 }

@@ -105,16 +105,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 112,
-  "Name": "Macejkovic Group",
-  "Tooltip": "dolore",
+  "RoleId": 558,
+  "Name": "Herman-Batz",
+  "Tooltip": "aspernatur",
   "RoleType": "Anonymous",
-  "Deleted": 213,
-  "Rank": 79,
-  "Created": "2003-12-18T11:44:42.2107985+01:00",
-  "UseCategories": 332,
+  "Deleted": 796,
+  "Rank": 674,
+  "Created": "2010-09-20T11:16:14.1363143+02:00",
+  "UseCategories": 314,
   "CreatedBy": null,
-  "Updated": "2002-04-07T11:44:42.2107985+02:00",
+  "Updated": "2021-08-31T11:16:14.1363143+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 527,
-  "Name": "Ondricka Group",
-  "Tooltip": "odio",
+  "RoleId": 371,
+  "Name": "Stroman LLC",
+  "Tooltip": "accusantium",
   "RoleType": "Anonymous",
-  "Deleted": 624,
-  "Rank": 206,
-  "Created": "1997-07-24T11:44:42.2107985+02:00",
-  "UseCategories": 612,
+  "Deleted": 534,
+  "Rank": 881,
+  "Created": "2022-02-14T11:16:14.1363143+01:00",
+  "UseCategories": 340,
   "CreatedBy": null,
-  "Updated": "2012-08-09T11:44:42.2107985+02:00",
+  "Updated": "2018-12-14T11:16:14.1363143+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 962
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

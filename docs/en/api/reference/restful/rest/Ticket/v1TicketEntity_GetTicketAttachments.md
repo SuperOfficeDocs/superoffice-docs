@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 338,
-    "Name": "Rath-Pagac",
-    "ContentType": "in",
-    "AttSize": 82,
-    "InlineImage": true,
-    "ContentId": "eos",
-    "AuthKey": "est",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 109,
+    "Name": "Turner-Treutel",
+    "ContentType": "aspernatur",
+    "AttSize": 8,
+    "InlineImage": false,
+    "ContentId": "nisi",
+    "AuthKey": "quasi",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

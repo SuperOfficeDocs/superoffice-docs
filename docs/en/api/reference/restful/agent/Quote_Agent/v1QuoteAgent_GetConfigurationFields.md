@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 572,
-  "ConnectorName": "Corwin, Strosin and Nitzsche"
+  "ConnectionId": 971,
+  "ConnectorName": "Kassulke Group"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "cum",
-    "Rank": 856,
-    "DisplayName": "Daniel, Walker and Ullrich",
-    "DisplayDescription": "Ergonomic national system engine",
+    "FieldKey": "illo",
+    "Rank": 178,
+    "DisplayName": "Dibbert, Muller and Mills",
+    "DisplayDescription": "Robust secondary parallelism",
     "FieldType": "Checkbox",
-    "ListName": "O'Kon-Schneider",
-    "DefaultValue": "facere",
-    "MaxLength": 383,
+    "ListName": "Kohler, Thiel and Braun",
+    "DefaultValue": "quo",
+    "MaxLength": 355,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

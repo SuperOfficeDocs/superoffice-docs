@@ -781,7 +781,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectMember/personExtra/x_person_appointment_relation,projectMember/contactFax/description,projectMember/contactAssociate/fullName,projectMember/contactAssociate/ejDisplayName,projectMember/contactExtra/x_contact_default_integer
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectMember/birthMonth,projectMember/supportLanguage,projectMember/personUdef/SuperOffice:3,projectMember/personExtra/y_rental/x_end,projectMember/personAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

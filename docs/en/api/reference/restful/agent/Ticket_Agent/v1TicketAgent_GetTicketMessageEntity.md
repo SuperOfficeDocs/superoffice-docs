@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=236
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=447
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 235,
+  "EjMessageId": 830,
   "Ticket": null,
-  "CreatedAt": "2013-03-26T11:44:34.8844266+01:00",
+  "CreatedAt": "2005-08-14T11:16:09.9761636+02:00",
   "CreatedBy": null,
-  "Author": "praesentium",
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ab",
-  "TimeSpent": 740,
-  "Body": "omnis",
-  "HtmlBody": "est",
-  "EmailHeader": "cordie_collier@streich.us",
-  "DebugInfo": "qui",
-  "MailSorter": "officiis",
+  "MessageId": "tenetur",
+  "TimeSpent": 576,
+  "Body": "commodi",
+  "HtmlBody": "dicta",
+  "EmailHeader": "morgan@casper.info",
+  "DebugInfo": "ullam",
+  "MailSorter": "libero",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "similique",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 412,
-      "Name": "Braun, Boyer and Ondricka",
-      "Value": "sequi",
+      "Id": 208,
+      "Name": "Konopelski-Heaney",
+      "Value": "quidem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 919
+          "FieldType": "System.Int32",
+          "FieldLength": 430
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 475,
-  "SentimentConfidence": 719,
+  "Language": "debitis",
+  "Sentiment": 884,
+  "SentimentConfidence": 36,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 84,
-      "Name": "Herman, Batz and Schinner",
-      "ContentType": "et",
-      "AttSize": 579,
+      "AttachmentId": 475,
+      "Name": "Leannon-Thiel",
+      "ContentType": "tempora",
+      "AttSize": 430,
       "InlineImage": false,
-      "ContentId": "odit",
-      "AuthKey": "magni",
-      "IsSafeFileExtension": true,
+      "ContentId": "nesciunt",
+      "AuthKey": "cum",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 821
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "placeat"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 783
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Crona, Veum and Wehner",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 206,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 513,
+  "Name": "Mills, Denesik and Stehr",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 380,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 698
     }
   },
   "_Links": {

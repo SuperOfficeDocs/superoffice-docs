@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 974,
+  "ErpConnectionId": 332,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "modi",
-    "Rank": 922,
-    "DisplayName": "Steuber-Heidenreich",
-    "DisplayDescription": "Triple-buffered mission-critical initiative",
+    "FieldKey": "voluptas",
+    "Rank": 629,
+    "DisplayName": "Kozey-Schuppe",
+    "DisplayDescription": "Synergized next generation parallelism",
     "FieldType": "Checkbox",
-    "ListName": "Kutch LLC",
-    "DefaultValue": "optio",
-    "MaxLength": 520,
+    "ListName": "Hills-Eichmann",
+    "DefaultValue": "ea",
+    "MaxLength": 163,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 649
       }
     }
   }

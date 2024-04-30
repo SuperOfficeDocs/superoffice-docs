@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 28 Sep 2009 11:44:41 G9T
+Last-Modified: Sat, 07 Sep 2019 11:16:13 G9T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-12-29T11:44:41.4610245+01:00",
-  "AppointmentId": 199,
-  "Description": "Reduced discrete toolset",
-  "Title": "molestiae",
-  "Agenda": "repellendus",
-  "InternalNotes": "fugiat",
-  "StartDate": "2011-03-09T11:44:41.4610245+01:00",
-  "EndDate": "1998-09-17T11:44:41.4610245+02:00",
+  "CreatedDate": "2022-05-01T11:16:13.6050062+02:00",
+  "AppointmentId": 135,
+  "Description": "Total exuding instruction set",
+  "Title": "error",
+  "Agenda": "non",
+  "InternalNotes": "aliquid",
+  "StartDate": "2007-04-14T11:16:13.6050062+02:00",
+  "EndDate": "2017-05-29T11:16:13.6050062+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 355,
+  "MotherId": 752,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-09-28T11:44:41.4610245+02:00",
+  "UpdatedDate": "2019-09-07T11:16:13.6050062+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 267,
+  "ActiveLinks": 690,
   "Links": [
     {
-      "EntityName": "Dicki, Koch and Adams",
-      "Id": 324,
-      "Description": "Adaptive bottom-line internet solution",
-      "ExtraInfo": "et",
-      "LinkId": 985,
+      "EntityName": "Huel-Nader",
+      "Id": 774,
+      "Description": "Reduced 6th generation initiative",
+      "ExtraInfo": "quia",
+      "LinkId": 253,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 478
         }
       }
     }
   ],
-  "AlarmLeadTime": "magnam",
+  "AlarmLeadTime": "minima",
   "HasAlarm": false,
-  "ColorIndex": 922,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "odit",
-  "Location": "eaque",
-  "RejectCounter": 225,
-  "RejectReason": "",
+  "ColorIndex": 377,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "cupiditate",
+  "LeadTime": "et",
+  "Location": "perferendis",
+  "RejectCounter": 907,
+  "RejectReason": "innovate end-to-end deliverables",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 238,
-      "PersonId": 666,
-      "ContactId": 156,
-      "EmailId": 562,
-      "SendEmail": true,
+      "AssociateId": 678,
+      "PersonId": 330,
+      "ContactId": 506,
+      "EmailId": 488,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "elfrieda@lakin.us",
-      "Description": "Inverse scalable parallelism"
+      "EmailAddress": "camilla.murray@mueller.us",
+      "Description": "Persistent discrete conglomeration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-10-27T11:44:41.4610245+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2018-12-24T11:16:13.6050062+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 721,
+  "PreferredTZLocation": 845,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 425,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 15,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "cum",
   "UserDefinedFields": {
-    "SuperOffice:1": "1494891191",
-    "SuperOffice:2": "Rico Dayna Murray DDS"
+    "SuperOffice:1": "1742108415",
+    "SuperOffice:2": "Jovanny Brett Rau IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "ea"
+    "CustomFields1": "et",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2006-04-27T11:44:41.4610245+02:00",
-  "PublishTo": "2008-02-25T11:44:41.4610245+01:00",
-  "PublishFrom": "2016-09-14T11:44:41.4610245+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-01-24T11:16:13.6050062+01:00",
+  "PublishTo": "2003-10-08T11:16:13.6050062+02:00",
+  "PublishFrom": "2006-03-08T11:16:13.6050062+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 253,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 451
         }
       }
     },
     {
-      "VisibleId": 253,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 451
         }
       }
     }
@@ -272,7 +272,7 @@ Last-Modified: Mon, 28 Sep 2009 11:44:41 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 11
     }
   },
   "_Links": {

@@ -75,11 +75,11 @@ GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
 GET /api/v1/Sale/{id}/Guide?$entities=maxime
-GET /api/v1/Sale/{id}/Guide?$top=289
-GET /api/v1/Sale/{id}/Guide?$skip=885
+GET /api/v1/Sale/{id}/Guide?$top=483
+GET /api/v1/Sale/{id}/Guide?$skip=583
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=nemo
+GET /api/v1/Sale/{id}/Guide?$context=modi
 GET /api/v1/Sale/{id}/Guide?$format=JSON
 GET /api/v1/Sale/{id}/Guide?$jsonSafe=False
 GET /api/v1/Sale/{id}/Guide?$output=Display
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Guide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "alias",
+  "odata.nextLink": "ex",
   "value": [
     {
-      "PrimaryKey": 3295,
-      "EntityName": "sale",
-      "saleId": 3295,
-      "contactId": 8019,
-      "name": "Witting, Ondricka and Emard"
+      "PrimaryKey": 6826,
+      "EntityName": "person",
+      "personId": 6826,
+      "fullName": "Mrs. Madeline Doyle"
     },
     {
-      "PrimaryKey": 4360,
-      "EntityName": "sale",
-      "saleId": 4360,
-      "contactId": 3121,
-      "name": "Von Inc and Sons"
+      "PrimaryKey": 6308,
+      "EntityName": "person",
+      "personId": 6308,
+      "fullName": "Jarret Schmeler"
     }
   ]
 }

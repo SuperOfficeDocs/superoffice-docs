@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 404,
-  "Name": "Marquardt, Weissnat and Christiansen",
-  "Tooltip": "et",
-  "PassiveText": "quae",
+  "ReldefId": 505,
+  "Name": "Hintz, Will and Schaden",
+  "Tooltip": "omnis",
+  "PassiveText": "quasi",
   "Deleted": false,
-  "Rank": 357,
+  "Rank": 394,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=297
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=155
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 994,
-  "Name": "Schuster Group",
-  "Tooltip": "quidem",
+  "ExtAppId": 480,
+  "Name": "Schimmel, Cummerata and Ankunding",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 719,
-  "Filename": "praesentium",
-  "Parameters": "asperiores",
-  "Workdir": "aliquam",
+  "Rank": 502,
+  "Filename": "id",
+  "Parameters": "quo",
+  "Workdir": "totam",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 217,
-  "WaitToFinish": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 154,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptatibus",
+  "Path": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 855
     }
   }
 }

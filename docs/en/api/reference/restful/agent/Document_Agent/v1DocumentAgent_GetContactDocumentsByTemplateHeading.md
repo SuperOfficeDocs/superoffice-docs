@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 798,
-  "StartTime": "2005-10-13T11:44:33.4160074+02:00",
-  "EndTime": "2022-10-08T11:44:33.4160074+02:00",
-  "Count": 108,
-  "TemplateHeadingId": 635
+  "ContactId": 933,
+  "StartTime": "2005-07-28T11:16:09.0691155+02:00",
+  "EndTime": "2024-02-23T11:16:09.0691155+01:00",
+  "Count": 841,
+  "TemplateHeadingId": 168
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 76,
-    "Attention": "velit",
-    "Header": "quasi",
-    "Name": "DuBuque-Runte",
-    "OurRef": "qui",
-    "YourRef": "voluptatem",
-    "Description": "Profound leading edge open system",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": false,
-    "PersonId": 869,
-    "PersonFullName": "Frank Esteban Schiller I",
-    "AssociateFullName": "Mateo Moen V",
-    "ContactId": 33,
-    "ContactName": "Reinger-Mills",
-    "ProjectId": 975,
-    "ProjectName": "Kulas-Robel",
-    "AssociateId": 464,
-    "Snum": 491,
-    "SaleId": 918,
-    "SaleName": "Lemke-Swaniawski",
+    "DocumentId": 414,
+    "Attention": "sequi",
+    "Header": "vitae",
+    "Name": "Stracke LLC",
+    "OurRef": "sit",
+    "YourRef": "fugiat",
+    "Description": "Stand-alone well-modulated hardware",
+    "DocumentTemplate": "aut",
+    "IsPublished": true,
+    "PersonId": 905,
+    "PersonFullName": "Miss Lydia Lindgren",
+    "AssociateFullName": "Mr. Luna Chandler Cassin PhD",
+    "ContactId": 457,
+    "ContactName": "Gislason, Kub and Schinner",
+    "ProjectId": 113,
+    "ProjectName": "Runte, Herzog and Bayer",
+    "AssociateId": 548,
+    "Snum": 426,
+    "SaleId": 304,
+    "SaleName": "Satterfield Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 63
+        "FieldLength": 566
       }
     }
   }

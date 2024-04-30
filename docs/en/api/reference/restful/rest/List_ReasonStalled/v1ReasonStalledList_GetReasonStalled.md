@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 617,
-  "Name": "Kuhn, Keeling and Jakubowski",
-  "Tooltip": "eaque",
+  "Id": 302,
+  "Name": "Huel Group",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "UdListDefinitionId": 142,
-  "Rank": 686,
+  "UdListDefinitionId": 734,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

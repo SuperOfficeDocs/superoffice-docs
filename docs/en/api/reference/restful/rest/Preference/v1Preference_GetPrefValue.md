@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "dolor",
   "Specification": null,
-  "DisplayValue": "sit",
-  "DisplayTooltip": "a",
+  "DisplayValue": "voluptatem",
+  "DisplayTooltip": "pariatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 432,
-  "PrefDescId": 949,
-  "TableName": "Hegmann-Williamson",
-  "UserPreferenceId": 399,
+  "TargetId": 129,
+  "PrefDescId": 829,
+  "TableName": "Block Group",
+  "UserPreferenceId": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

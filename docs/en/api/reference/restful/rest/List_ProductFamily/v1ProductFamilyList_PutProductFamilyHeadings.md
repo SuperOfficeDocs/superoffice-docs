@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 546,
-    "Name": "Nader Group",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "Rank": 13,
-    "UdListDefinitionId": 110
+    "HeadingId": 17,
+    "Name": "Gislason LLC",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 768,
+    "UdListDefinitionId": 218
   },
   {
-    "HeadingId": 546,
-    "Name": "Nader Group",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "Rank": 13,
-    "UdListDefinitionId": 110
+    "HeadingId": 17,
+    "Name": "Gislason LLC",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 768,
+    "UdListDefinitionId": 218
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 177,
-    "Name": "Stehr-Welch",
-    "Tooltip": "quis",
+    "HeadingId": 852,
+    "Name": "Reinger Group",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 520,
-    "UdListDefinitionId": 212,
+    "Rank": 869,
+    "UdListDefinitionId": 21,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

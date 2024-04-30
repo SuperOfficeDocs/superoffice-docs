@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 616
+  "AssociateId": 712
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Sipes-Schowalter",
-    "DeviceIdentifier": "culpa",
-    "PocketVersion": "minus",
-    "Language": "quis",
-    "PNSHandle": "et",
+    "DeviceName": "Blanda, Bartell and Abbott",
+    "DeviceIdentifier": "fugiat",
+    "PocketVersion": "ipsa",
+    "Language": "aliquid",
+    "PNSHandle": "dolor",
     "Platform": "Apple",
-    "OSVersion": "corrupti",
-    "TimeZoneId": 262
+    "OSVersion": "libero",
+    "TimeZoneId": 558
   }
 ]
 ```

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    361,
-    939
+    626,
+    816
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Feeney, Dooley and Legros",
-    "ToolTip": "Nobis facilis velit optio ad nesciunt porro reprehenderit.",
+    "Id": 516,
+    "Name": "Lemke-Strosin",
+    "ToolTip": "Fugit sint libero voluptas autem cupiditate fugit rerum.",
     "Deleted": true,
-    "Rank": 504,
-    "Type": "dicta",
+    "Rank": 731,
+    "Type": "placeat",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Bosco-Greenholt",
-        "ToolTip": "Aliquam sit est vero.",
+        "Id": 830,
+        "Name": "Langworth, Ward and Purdy",
+        "ToolTip": "Qui officiis aut.",
         "Deleted": false,
-        "Rank": 593,
-        "Type": "et",
+        "Rank": 947,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 523,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "odio",
-        "FullName": "Nyah Bechtelar",
+        "IconHint": "doloribus",
+        "ColorBlock": 431,
+        "ExtraInfo": "quis",
+        "StyleHint": "quia",
+        "FullName": "Miss Nia Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 383
+            "FieldLength": 702
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 403,
-    "ExtraInfo": "quo",
-    "StyleHint": "aut",
-    "FullName": "Markus Renee Fadel DVM",
+    "IconHint": "delectus",
+    "ColorBlock": 476,
+    "ExtraInfo": "aut",
+    "StyleHint": "aspernatur",
+    "FullName": "Sonny Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 965
       }
     }
   }

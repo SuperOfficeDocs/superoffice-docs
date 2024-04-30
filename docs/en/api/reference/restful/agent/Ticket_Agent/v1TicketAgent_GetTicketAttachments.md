@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 522
+  "TicketEntityId": 328
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 623,
-    "Name": "Wilkinson LLC",
-    "ContentType": "delectus",
-    "AttSize": 506,
-    "InlineImage": false,
-    "ContentId": "commodi",
-    "AuthKey": "quis",
+    "AttachmentId": 191,
+    "Name": "Friesen, Lakin and Boehm",
+    "ContentType": "esse",
+    "AttSize": 29,
+    "InlineImage": true,
+    "ContentId": "dolor",
+    "AuthKey": "sint",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldLength": 949
       }
     }
   }

@@ -109,28 +109,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 430,
-  "Name": "Weber LLC",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 143,
+  "WebPanelId": 646,
+  "Name": "Mills, Bechtelar and Hermiston",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 470,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Anderson, Reichel and Tillman",
+  "WindowName": "Durgan LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatum",
-  "Icon": 500,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "omnis",
+  "Icon": 579,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 557,
-  "Name": "Rath-Gleichner",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 227,
+  "WebPanelId": 619,
+  "Name": "Kautzer LLC",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 586,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Kuphal Group",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Wolff LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "at",
-  "Icon": 228,
+  "ProgId": "voluptatem",
+  "Icon": 514,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

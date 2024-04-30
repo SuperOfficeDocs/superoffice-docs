@@ -91,11 +91,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    889,
-    153
+    733,
+    481
   ],
-  "StartTime": "2020-09-07T11:44:32.4631128+02:00",
-  "EndTime": "2017-11-24T11:44:32.4631128+01:00"
+  "StartTime": "2023-11-25T11:16:08.5063888+01:00",
+  "EndTime": "2011-12-04T11:16:08.5063888+01:00"
 }
 ```
 
@@ -107,15 +107,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 407,
-    "AssociateId": 800,
-    "MotherId": 717,
-    "StartDate": "2022-05-10T11:44:32.4631128+02:00",
-    "EndDate": "2010-05-28T11:44:32.4631128+02:00",
+    "AppointmentId": 801,
+    "AssociateId": 342,
+    "MotherId": 899,
+    "StartDate": "2022-05-23T11:16:08.5063888+02:00",
+    "EndDate": "2017-04-09T11:16:08.5063888+02:00",
     "ColorIndex": "BlueAlt1",
-    "Title": "architecto",
-    "Agenda": "et",
-    "IsAllDay": true,
+    "Title": "voluptatem",
+    "Agenda": "nemo",
+    "IsAllDay": false,
     "IsBusy": false,
     "IsRecurring": false,
     "IsVideoMeeting": true,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 282
       }
     }
   }

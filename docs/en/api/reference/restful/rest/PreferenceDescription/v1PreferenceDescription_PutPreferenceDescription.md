@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 2,
-  "Section": "provident",
-  "Key": "assumenda",
-  "Name": "Reinger Inc and Sons",
+  "PrefDescId": 539,
+  "Section": "culpa",
+  "Key": "aspernatur",
+  "Name": "Leannon-Gerhold",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse cohesive application",
-  "IsBuiltin": true,
-  "TableName": "Dicki-Konopelski",
-  "UserDefinedListId": 32,
-  "Rank": 628,
-  "SubGroup": "eum",
-  "MinLevel": 54,
-  "MaxValue": 815,
-  "MinValue": 206,
-  "RequiredLicense": "cum"
+  "Description": "Open-architected demand-driven pricing structure",
+  "IsBuiltin": false,
+  "TableName": "Volkman, Johnston and Harber",
+  "UserDefinedListId": 995,
+  "Rank": 883,
+  "SubGroup": "nihil",
+  "MinLevel": 833,
+  "MaxValue": 807,
+  "MinValue": 671,
+  "RequiredLicense": "maxime"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 76,
-  "Section": "aperiam",
-  "Key": "consequatur",
-  "Name": "Kerluke LLC",
+  "PrefDescId": 48,
+  "Section": "hic",
+  "Key": "harum",
+  "Name": "Ankunding, Marvin and Little",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal explicit hub",
-  "IsBuiltin": false,
-  "TableName": "Conroy Inc and Sons",
-  "UserDefinedListId": 78,
-  "Rank": 818,
-  "SubGroup": "dicta",
-  "MinLevel": 869,
-  "MaxValue": 837,
-  "MinValue": 253,
+  "Description": "Ameliorated 24 hour benchmark",
+  "IsBuiltin": true,
+  "TableName": "Bayer, Hilpert and Metz",
+  "UserDefinedListId": 38,
+  "Rank": 917,
+  "SubGroup": "inventore",
+  "MinLevel": 636,
+  "MaxValue": 399,
+  "MinValue": 924,
   "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 16
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

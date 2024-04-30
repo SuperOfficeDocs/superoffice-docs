@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 667
+  "ErpConnectorId": 838
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quia",
-    "Rank": 128,
-    "DisplayName": "Predovic Group",
-    "DisplayDescription": "Universal value-added architecture",
+    "FieldKey": "et",
+    "Rank": 831,
+    "DisplayName": "Bashirian Inc and Sons",
+    "DisplayDescription": "Streamlined didactic moderator",
     "FieldType": "Checkbox",
-    "ListName": "Vandervort, Bauch and O'Conner",
-    "DefaultValue": "aut",
-    "MaxLength": 2,
+    "ListName": "Fritsch, Wisozk and Berge",
+    "DefaultValue": "quasi",
+    "MaxLength": 776,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 111
       }
     }
   }

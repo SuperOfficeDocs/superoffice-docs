@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Name": "Shields LLC",
-    "ToolTip": "Officia consequatur.",
+    "Id": 316,
+    "Name": "Rempel LLC",
+    "ToolTip": "Sit non ut sit harum repellat repudiandae.",
     "Deleted": false,
-    "Rank": 734,
-    "Type": "ex",
-    "ColorBlock": 765,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2023-03-22T11:44:43.3043478+01:00",
+    "Rank": 623,
+    "Type": "dolorem",
+    "ColorBlock": 991,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2020-08-03T11:16:14.7151586+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Smitham-Beier",
-        "ToolTip": "Mollitia ex.",
+        "Id": 957,
+        "Name": "Bernhard LLC",
+        "ToolTip": "Voluptatem molestiae atque est.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "quo",
-        "ColorBlock": 332,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2017-03-12T11:44:43.3043478+01:00",
+        "Rank": 706,
+        "Type": "doloremque",
+        "ColorBlock": 682,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2015-06-17T11:16:14.7151586+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ipsa",
-        "Hidden": false,
-        "FullName": "Ms. Madonna Leannon",
+        "ExtraInfo": "ut",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Miss Linwood Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 677
+            "FieldLength": 136
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "et",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Rosina Torp II",
+    "FullName": "Kane Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldLength": 456
       }
     }
   }

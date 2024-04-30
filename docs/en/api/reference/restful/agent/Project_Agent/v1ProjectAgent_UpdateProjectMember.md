@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 413,
-  "ContactId": 916,
-  "ProjectId": 69,
-  "ContactName": "Daugherty, Metz and Trantow",
+  "ProjectmemberId": 293,
+  "ContactId": 16,
+  "ProjectId": 532,
+  "ContactName": "Oberbrunner Group",
   "ContactDepartment": "",
-  "ProjectName": "Sipes Inc and Sons",
-  "EmailId": 588,
-  "EmailAddress": "giovani@moore.name",
-  "CountryId": 869,
-  "Firstname": "Orville",
-  "MiddleName": "Schmidt-Kuvalis",
-  "Lastname": "Blanda",
-  "PersonId": 737,
+  "ProjectName": "Maggio-Carroll",
+  "EmailId": 730,
+  "EmailAddress": "camylle@lubowitz.co.uk",
+  "CountryId": 87,
+  "Firstname": "Luis",
+  "MiddleName": "Macejkovic-Ruecker",
+  "Lastname": "Rice",
+  "PersonId": 536,
   "Mrmrs": "aut",
-  "ProjectMemberTypeName": "Champlin-Hirthe",
-  "Phone": "1-318-782-1314 x257",
-  "PhoneId": 702,
-  "ProjectMemberTypeId": 830,
-  "EmailAddressName": "leonel_weimann@medhurst.name",
-  "Comment": "in",
-  "FullName": "Domenic Pfeffer",
+  "ProjectMemberTypeName": "Kreiger, Lakin and Maggio",
+  "Phone": "1-019-240-6311",
+  "PhoneId": 68,
+  "ProjectMemberTypeId": 561,
+  "EmailAddressName": "lyda.schimmel@hudson.us",
+  "Comment": "deleniti",
+  "FullName": "Mrs. Abbey Lyda Stehr",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

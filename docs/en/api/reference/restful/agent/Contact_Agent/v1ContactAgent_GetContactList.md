@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 191,
-    "Name": "Nader, Lesch and Wilkinson",
-    "OrgNr": "545868",
+    "ContactId": 48,
+    "Name": "Dietrich Group",
+    "OrgNr": "919621",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-780-400-0367 x3466",
-    "AssociateId": 451,
-    "CountryId": 648,
-    "EmailAddress": "maryjane@green.biz",
-    "Kananame": "omnis",
-    "EmailAddressName": "tyree@prosaccorice.us",
+    "City": "aut",
+    "DirectPhone": "342-070-0122",
+    "AssociateId": 560,
+    "CountryId": 968,
+    "EmailAddress": "hildegard.reichel@hauckorn.com",
+    "Kananame": "sit",
+    "EmailAddressName": "raul@doylebeer.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Duane Taylor Schuppe",
+    "AssociateFullName": "Layne Hoppe",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "occaecati",
-    "FullName": "Prof. Orpha Irwin Waelchi PhD",
+    "FormattedAddress": "soluta",
+    "FullName": "Cristian Prohaska",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 234,
-    "Number1": "211306",
-    "Number2": "219121",
+    "ActiveErpLinks": 180,
+    "Number1": "1204849",
+    "Number2": "633546",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 790
       }
     }
   }

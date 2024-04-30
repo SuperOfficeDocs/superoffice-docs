@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Schimmel LLC",
-    "ToolTip": "Illo ut tempore.",
+    "Id": 235,
+    "Name": "Bergnaum, Dare and Powlowski",
+    "ToolTip": "Odio facere voluptate.",
     "Deleted": false,
-    "Rank": 284,
-    "Type": "dolor",
-    "ColorBlock": 745,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2003-09-02T11:44:43.0075335+02:00",
+    "Rank": 143,
+    "Type": "voluptatem",
+    "ColorBlock": 555,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2023-03-13T11:16:14.5276742+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Gleichner, Ritchie and Baumbach",
-        "ToolTip": "Saepe nostrum quos quos dolor.",
-        "Deleted": true,
-        "Rank": 214,
-        "Type": "natus",
-        "ColorBlock": 894,
-        "IconHint": "incidunt",
+        "Id": 842,
+        "Name": "Gleichner Inc and Sons",
+        "ToolTip": "Aut id qui.",
+        "Deleted": false,
+        "Rank": 44,
+        "Type": "non",
+        "ColorBlock": 303,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2014-03-02T11:44:43.0075335+01:00",
+        "LastChanged": "2002-08-15T11:16:14.5276742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Mariela Schuppe"
+        "ExtraInfo": "aut",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Prof. Quentin Garnet Nikolaus MD"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "illum",
+    "ExtraInfo": "et",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Ila Watsica"
+    "FullName": "Marcella Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Kshlerin-Hauck",
-    "ToolTip": "Repellat nesciunt ipsa.",
+    "Id": 386,
+    "Name": "Towne, Durgan and Zulauf",
+    "ToolTip": "Sed eius doloremque atque.",
     "Deleted": false,
-    "Rank": 954,
-    "Type": "accusantium",
-    "ColorBlock": 873,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "1998-06-01T11:44:43.0075335+02:00",
+    "Rank": 482,
+    "Type": "eum",
+    "ColorBlock": 176,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2016-04-02T11:16:14.5276742+02:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Medhurst Group",
-        "ToolTip": "Autem quia quas possimus occaecati sequi cupiditate dolor.",
+        "Id": 909,
+        "Name": "Cummerata-Kris",
+        "ToolTip": "Dignissimos recusandae eos perferendis ducimus nesciunt numquam.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "exercitationem",
-        "ColorBlock": 915,
-        "IconHint": "culpa",
+        "Rank": 751,
+        "Type": "in",
+        "ColorBlock": 409,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2016-02-04T11:44:43.0075335+01:00",
+        "LastChanged": "2007-08-14T11:16:14.5276742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Silas Kohler",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Kamryn Brown Homenick III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 171
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Euna Turcotte IV",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Favian Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldLength": 859
       }
     }
   }

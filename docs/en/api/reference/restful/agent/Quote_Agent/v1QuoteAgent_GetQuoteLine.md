@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 587
+  "QuoteLineId": 548
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 220,
-  "ERPQuoteLineKey": "voluptates",
-  "QuoteAlternativeId": 451,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 723,
+  "ERPQuoteLineKey": "sit",
+  "QuoteAlternativeId": 219,
+  "ERPProductKey": "qui",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 14394.462,
-  "DeliveredQuantity": 25908.778,
-  "Rank": 525,
-  "Name": "Miller-Russel",
-  "Description": "Profound 24 hour Graphic Interface",
-  "Code": "in",
+  "Quantity": 14817.552,
+  "DeliveredQuantity": 2102.9139999999998,
+  "Rank": 590,
+  "Name": "Cronin, Spencer and Leannon",
+  "Description": "Self-enabling solution-oriented orchestration",
+  "Code": "excepturi",
   "QuantityUnit": "est",
-  "PriceUnit": "alias",
-  "ItemNumber": "1183896",
+  "PriceUnit": "quia",
+  "ItemNumber": "346597",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quod",
-  "ProductTypeKey": "perferendis",
-  "Supplier": "corrupti",
-  "SupplierCode": "doloribus",
-  "Thumbnail": "corporis",
-  "VATInfo": "ut",
-  "VAT": 1852.194,
-  "UnitCost": 11827.716,
-  "UnitMinimumPrice": 12761.648,
-  "UnitListPrice": 13551.416,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "quia",
+  "Supplier": "qui",
+  "SupplierCode": "adipisci",
+  "Thumbnail": "maxime",
+  "VATInfo": "inventore",
+  "VAT": 16419.025999999998,
+  "UnitCost": 59.546,
+  "UnitMinimumPrice": 12999.832,
+  "UnitListPrice": 3535.152,
   "ExtraInfo": [
     {
-      "Name": "Rippin Inc and Sons",
-      "Value": "excepturi",
+      "Name": "Kulas-Roob",
+      "Value": "dicta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     },
     {
-      "Name": "Rippin Inc and Sons",
-      "Value": "excepturi",
+      "Name": "Kulas-Roob",
+      "Value": "dicta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldType": "System.Int32",
+          "FieldLength": 965
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "IsSubscription": false,
-  "SubscriptionUnit": "hic",
-  "SubscriptionQuantity": 19001.442,
-  "SubscriptionStart": "2013-01-02T11:44:34.3063794+01:00",
-  "ERPDiscountPercent": 28914.284,
-  "ERPDiscountAmount": 8800.271999999999,
-  "DiscountPercent": 16252.923999999999,
-  "DiscountAmount": 11197.782,
+  "RawExtraInfo": "officiis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "reiciendis",
+  "SubscriptionQuantity": 21402.086,
+  "SubscriptionStart": "2011-01-26T11:16:09.6161411+01:00",
+  "ERPDiscountPercent": 19647.046,
+  "ERPDiscountAmount": 31167.629999999997,
+  "DiscountPercent": 14855.16,
+  "DiscountAmount": 2115.45,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24708.456,
-  "EarningAmount": 23495.597999999998,
-  "SubTotal": 26353.806,
-  "TotalPrice": 27544.726,
-  "Rights": "ea",
-  "Rule": "blanditiis",
-  "ExtraField1": "in",
-  "ExtraField2": "et",
-  "ExtraField3": "cumque",
-  "ExtraField4": "totam",
-  "ExtraField5": "hic",
+  "EarningPercent": 10138.49,
+  "EarningAmount": 11200.916,
+  "SubTotal": 22420.636,
+  "TotalPrice": 8446.13,
+  "Rights": "aut",
+  "Rule": "quia",
+  "ExtraField1": "magni",
+  "ExtraField2": "repellendus",
+  "ExtraField3": "cum",
+  "ExtraField4": "sequi",
+  "ExtraField5": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Heidenreich-Denesik",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 314
+    "Id": 551,
+    "Name": "O'Hara Group",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "UdListDefinitionId": 570,
+    "Rank": 971
   },
   {
-    "Id": 8,
-    "Name": "Heidenreich-Denesik",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 314
+    "Id": 551,
+    "Name": "O'Hara Group",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "UdListDefinitionId": 570,
+    "Rank": 971
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Harris, Swaniawski and VonRueden",
-    "Tooltip": "laboriosam",
+    "Id": 580,
+    "Name": "Harber-Stoltenberg",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "UdListDefinitionId": 264,
-    "Rank": 335,
+    "UdListDefinitionId": 584,
+    "Rank": 112,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 506
       }
     }
   }

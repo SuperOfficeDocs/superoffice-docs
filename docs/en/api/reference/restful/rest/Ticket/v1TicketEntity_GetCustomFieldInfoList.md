@@ -58,6 +58,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bauch-Beer",
-    "DisplayName": "Block, Weber and Baumbach",
-    "Description": "Implemented attitude-oriented encoding",
-    "ShortLabel": "autem",
-    "HideLabel": false,
+    "FieldName": "Walsh, Schowalter and Hane",
+    "DisplayName": "Lesch Inc and Sons",
+    "Description": "Stand-alone maximized access",
+    "ShortLabel": "reprehenderit",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 128,
-    "TemplateVariableName": "Hilpert, Smith and Konopelski"
+    "IsDisplayField": true,
+    "Rank": 511,
+    "TemplateVariableName": "Miller-Padberg"
   }
 ]
 ```

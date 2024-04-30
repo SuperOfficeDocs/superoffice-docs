@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 667,
+  "DocumentTemplateId": 450,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolores",
-  "PluginId": 256
+  "LanguageCode": "est",
+  "PluginId": 724
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Flatley-Gleichner",
-  "Description": "De-engineered intermediate process improvement",
-  "ExternalReference": "assumenda",
-  "MimeType": "et",
-  "PluginId": 323
+  "Name": "Reinger-Dicki",
+  "Description": "Programmable non-volatile data-warehouse",
+  "ExternalReference": "provident",
+  "MimeType": "nam",
+  "PluginId": 951
 }
 ```

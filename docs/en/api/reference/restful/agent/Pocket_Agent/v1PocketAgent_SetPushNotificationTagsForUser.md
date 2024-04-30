@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 446,
-  "Tags": "eum"
+  "AssociateId": 851,
+  "Tags": "est"
 }
 ```
 

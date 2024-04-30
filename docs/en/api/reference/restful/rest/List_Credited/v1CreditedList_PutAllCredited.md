@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Pfannerstill-Schowalter",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "UdListDefinitionId": 822,
-    "Rank": 697
+    "Id": 503,
+    "Name": "Lubowitz Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 159,
+    "Rank": 629
   },
   {
-    "Id": 393,
-    "Name": "Pfannerstill-Schowalter",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "UdListDefinitionId": 822,
-    "Rank": 697
+    "Id": 503,
+    "Name": "Lubowitz Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 159,
+    "Rank": 629
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Hartmann Inc and Sons",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 189,
-    "Rank": 103,
+    "Id": 865,
+    "Name": "Hintz, Schamberger and Ullrich",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "UdListDefinitionId": 959,
+    "Rank": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldType": "System.String",
+        "FieldLength": 915
       }
     }
   }

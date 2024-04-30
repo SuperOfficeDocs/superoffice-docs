@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 199,
-  "ERPPriceListKey": "recusandae",
-  "QuoteConnectionId": 997,
-  "Name": "Wisoky-Shields",
-  "Description": "Realigned executive approach",
-  "Currency": "dicta",
-  "CurrencyName": "Dietrich, Herzog and Jast",
-  "ValidFrom": "2001-04-20T11:44:34.2595569+02:00",
-  "ValidTo": "2016-06-16T11:44:34.2595569+02:00",
-  "IsActive": true
+  "PriceListId": 622,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 388,
+  "Name": "Schiller, Aufderhar and Smitham",
+  "Description": "Open-architected static hierarchy",
+  "Currency": "sint",
+  "CurrencyName": "Keebler-Funk",
+  "ValidFrom": "1998-03-19T11:16:09.5848946+01:00",
+  "ValidTo": "2020-02-10T11:16:09.5848946+01:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 582,
-  "ERPPriceListKey": "facere",
-  "QuoteConnectionId": 6,
-  "Name": "O'Hara LLC",
-  "Description": "Intuitive global moderator",
-  "Currency": "quia",
-  "CurrencyName": "Bashirian LLC",
-  "ValidFrom": "2006-07-26T11:44:34.2595569+02:00",
-  "ValidTo": "2005-03-27T11:44:34.2595569+02:00",
-  "IsActive": true,
+  "PriceListId": 698,
+  "ERPPriceListKey": "asperiores",
+  "QuoteConnectionId": 250,
+  "Name": "Brown-McCullough",
+  "Description": "Profound fresh-thinking process improvement",
+  "Currency": "optio",
+  "CurrencyName": "Rolfson-Sipes",
+  "ValidFrom": "1997-12-12T11:16:09.5848946+01:00",
+  "ValidTo": "2022-03-13T11:16:09.5848946+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 915
     }
   }
 }

@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=deleniti
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=assumenda
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Nov 2008 11:44:42 G11T
+Last-Modified: Sun, 16 Mar 2008 11:16:13 G3T
 
 {
-  "Key": "quaerat",
-  "Value": "sit",
-  "RecordId": 127,
-  "CreatedDate": "2006-02-25T11:44:42.0077636+01:00",
-  "UpdatedDate": "2008-11-21T11:44:42.0077636+01:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "recusandae",
-  "TableName": "Reichert-Wolff",
+  "Key": "enim",
+  "Value": "delectus",
+  "RecordId": 328,
+  "CreatedDate": "1999-04-02T11:16:13.93321+02:00",
+  "UpdatedDate": "2008-03-16T11:16:13.93321+01:00",
+  "UpdatedBy": "commodi",
+  "CreatedBy": "earum",
+  "TableName": "Robel LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   }
 }

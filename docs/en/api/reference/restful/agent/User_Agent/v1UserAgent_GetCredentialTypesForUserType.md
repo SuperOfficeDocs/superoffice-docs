@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "aut",
-    "Type": "sapiente",
-    "Description": "Decentralized local model",
+    "DisplayType": "debitis",
+    "Type": "illo",
+    "Description": "Re-engineered bifurcated moratorium",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

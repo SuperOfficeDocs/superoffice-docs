@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 600,
-  "PlainMessage": "distinctio",
-  "HtmlMessage": "modi",
-  "SmsMessage": "quidem",
-  "Description": "Cross-group actuating challenge",
-  "Subject": "in",
-  "FolderId": 254,
-  "HeaderField": "qui",
-  "Design": "repudiandae",
+  "ShipmentMessageId": 416,
+  "PlainMessage": "voluptas",
+  "HtmlMessage": "aut",
+  "SmsMessage": "aut",
+  "Description": "Ergonomic impactful infrastructure",
+  "Subject": "et",
+  "FolderId": 29,
+  "HeaderField": "iste",
+  "Design": "beatae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Persistent neutral product",
-  "AccessKey": "quaerat",
-  "DocumentMessage": 530,
-  "Registered": "2017-12-01T11:44:33.9315193+01:00",
-  "RegisteredAssociateId": 773,
-  "Updated": "2009-09-16T11:44:33.9315193+02:00",
-  "UpdatedAssociateId": 804,
-  "UpdatedCount": 428
+  "LongDescription": "Synchronised 3rd generation task-force",
+  "AccessKey": "omnis",
+  "DocumentMessage": 6,
+  "Registered": "2005-01-17T11:16:09.3815779+01:00",
+  "RegisteredAssociateId": 905,
+  "Updated": "1999-09-21T11:16:09.3815779+02:00",
+  "UpdatedAssociateId": 158,
+  "UpdatedCount": 894
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 604,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "ut",
-  "SmsMessage": "veritatis",
-  "Description": "Public-key actuating installation",
-  "Subject": "error",
-  "FolderId": 230,
-  "HeaderField": "dicta",
-  "Design": "rerum",
+  "ShipmentMessageId": 335,
+  "PlainMessage": "voluptatum",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "perspiciatis",
+  "Description": "Profound secondary encoding",
+  "Subject": "hic",
+  "FolderId": 367,
+  "HeaderField": "aperiam",
+  "Design": "consectetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Sharable value-added groupware",
-  "AccessKey": "corporis",
-  "DocumentMessage": 89,
-  "Registered": "2011-03-22T11:44:33.9315193+01:00",
-  "RegisteredAssociateId": 249,
-  "Updated": "2004-11-23T11:44:33.9315193+01:00",
-  "UpdatedAssociateId": 825,
-  "UpdatedCount": 73,
+  "LongDescription": "User-centric composite function",
+  "AccessKey": "non",
+  "DocumentMessage": 943,
+  "Registered": "2022-04-30T11:16:09.3815779+02:00",
+  "RegisteredAssociateId": 675,
+  "Updated": "2002-01-24T11:16:09.3815779+01:00",
+  "UpdatedAssociateId": 80,
+  "UpdatedCount": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 114
     }
   }
 }

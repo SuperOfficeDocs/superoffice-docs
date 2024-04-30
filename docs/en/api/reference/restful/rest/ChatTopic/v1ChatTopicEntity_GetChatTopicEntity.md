@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 242,
-  "Name": "Bogan, Renner and McDermott",
-  "Description": "Switchable assymetric implementation",
-  "WelcomeMessage": "repudiandae",
+  "ChatTopicId": 182,
+  "Name": "Bergnaum Group",
+  "Description": "Business-focused 4th generation complexity",
+  "WelcomeMessage": "nam",
   "Language": null,
-  "LastAccept": "2004-04-23T11:44:41.6952942+02:00",
-  "SecondsPrAccept": 933,
-  "AlertRecipient": "cumque",
+  "LastAccept": "2018-12-12T11:16:13.7456138+01:00",
+  "SecondsPrAccept": 57,
+  "AlertRecipient": "inventore",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptatem",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "iste",
-  "WarnNewChatMinutes": 614,
-  "WarnManagerNewChatMinutes": 945,
-  "TicketEnabled": false,
+  "BadgeHeader": "commodi",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "quia",
+  "WarnNewChatMinutes": 422,
+  "WarnManagerNewChatMinutes": 491,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 758,
-  "WarnManagerChatMessageMinutes": 659,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 672,
-  "OfflineFormQueueLength": 248,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "odio",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 755,
+  "WarnManagerChatMessageMinutes": 684,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 988,
+  "OfflineFormQueueLength": 775,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   },
   "_Links": {

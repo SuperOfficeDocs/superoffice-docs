@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 21,
-  "ColumnId": 927,
-  "FieldDefault": "autem",
-  "FieldHeight": 507,
-  "FieldLabel": "ab",
-  "FieldLeft": 534,
-  "FieldTop": 923,
+  "UDefFieldId": 952,
+  "ColumnId": 957,
+  "FieldDefault": "velit",
+  "FieldHeight": 153,
+  "FieldLabel": "asperiores",
+  "FieldLeft": 250,
+  "FieldTop": 172,
   "FieldType": "Checkbox",
-  "FieldWidth": 908,
-  "FormatMask": "non",
+  "FieldWidth": 780,
+  "FormatMask": "consequatur",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 920,
-  "LabelLeft": 460,
-  "LabelTop": 693,
-  "LabelWidth": 963,
-  "LastVersionId": 206,
-  "ListTableId": 282,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 935,
+  "LabelLeft": 495,
+  "LabelTop": 277,
+  "LabelWidth": 676,
+  "LastVersionId": 835,
+  "ListTableId": 765,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 813,
-  "ProgId": "sint",
-  "IsReadOnly": true,
-  "ShortLabel": "nobis",
-  "TabOrder": 806,
-  "TextLength": 137,
-  "Tooltip": "animi",
-  "UdefIdentity": 288,
-  "UDListDefinitionId": 75,
+  "Page1LineNo": 448,
+  "ProgId": "fugiat",
+  "IsReadOnly": false,
+  "ShortLabel": "eligendi",
+  "TabOrder": 277,
+  "TextLength": 492,
+  "Tooltip": "et",
+  "UdefIdentity": 611,
+  "UDListDefinitionId": 702,
   "Justification": "Center",
-  "Version": 755,
-  "TemplateVariableName": "Schulist-Shanahan",
+  "Version": 582,
+  "TemplateVariableName": "Kreiger-Hayes",
   "HasBeenPublished": false,
-  "MdoListName": "Barton, Pacocha and Predovic",
+  "MdoListName": "Herman, Auer and Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 591
     }
   }
 }

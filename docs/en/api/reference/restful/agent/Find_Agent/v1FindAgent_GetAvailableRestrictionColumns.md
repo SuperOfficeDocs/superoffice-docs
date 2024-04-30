@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Kassulke, Roberts and Brekke"
+  "StorageType": "est",
+  "ProviderName": "Bashirian Inc and Sons"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "incidunt",
-  "dolorum"
+  "dicta",
+  "id"
 ]
 ```

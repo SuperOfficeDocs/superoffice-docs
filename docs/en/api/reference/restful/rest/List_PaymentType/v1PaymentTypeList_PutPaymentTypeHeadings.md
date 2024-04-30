@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 421,
-    "Name": "Beahan, White and Cartwright",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 93,
-    "UdListDefinitionId": 709
+    "HeadingId": 458,
+    "Name": "Doyle, Armstrong and Senger",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 428,
+    "UdListDefinitionId": 898
   },
   {
-    "HeadingId": 421,
-    "Name": "Beahan, White and Cartwright",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 93,
-    "UdListDefinitionId": 709
+    "HeadingId": 458,
+    "Name": "Doyle, Armstrong and Senger",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 428,
+    "UdListDefinitionId": 898
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Rowe, Green and Carroll",
-    "Tooltip": "repellendus",
+    "HeadingId": 962,
+    "Name": "Morissette, Wunsch and Parker",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 948,
-    "UdListDefinitionId": 302,
+    "Rank": 872,
+    "UdListDefinitionId": 403,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 956
       }
     }
   }

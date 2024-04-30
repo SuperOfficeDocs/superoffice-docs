@@ -83,6 +83,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ExcludeSignature xsi:type="xsd:boolean">false</List:ExcludeSignature>
      <List:ExcludeEmailRecipients xsi:type="xsd:boolean">false</List:ExcludeEmailRecipients>
      <List:ExternalAsDefault xsi:type="xsd:boolean">false</List:ExternalAsDefault>
+     <List:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
+      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+     </List:VisibleForGroups>
     </List:TicketTypeEntity>
    </List:Response>
   </List:GetTicketTypesResponse>

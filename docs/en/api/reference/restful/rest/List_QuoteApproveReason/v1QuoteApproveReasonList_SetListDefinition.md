@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 775,
-  "Name": "Schneider, Dooley and Kassulke",
-  "Tooltip": "tempora",
+  "Id": 543,
+  "Name": "Olson-Jerde",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 799,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 29,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 416,
-  "Name": "Konopelski-Rohan",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 545,
+  "Id": 346,
+  "Name": "Glover Inc and Sons",
+  "Tooltip": "sapiente",
+  "Deleted": true,
+  "Rank": 37,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   }
 }

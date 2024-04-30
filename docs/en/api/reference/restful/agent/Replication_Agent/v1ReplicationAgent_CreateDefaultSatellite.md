@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 101,
-  "Created": "2004-02-22T11:44:34.3220571+01:00",
+  "SatelliteId": 280,
+  "Created": "2020-03-22T11:16:09.6317604+01:00",
   "CreatedBy": null,
-  "Updated": "2014-03-07T11:44:34.3220571+01:00",
+  "Updated": "2006-06-22T11:16:09.6317604+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Marks-Baumbach",
-      "Description": "Function-based systematic middleware",
+      "Name": "Thiel Inc and Sons",
+      "Description": "Cross-platform 4th generation methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 764
         }
       }
     },
     {
-      "Name": "Marks-Baumbach",
-      "Description": "Function-based systematic middleware",
+      "Name": "Thiel Inc and Sons",
+      "Description": "Cross-platform 4th generation methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 764
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 453
     }
   }
 }

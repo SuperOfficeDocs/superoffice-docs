@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Bechtelar, Parisian and Bashirian",
-    "ToolTip": "Qui qui nihil itaque aliquam ut.",
-    "Deleted": false,
-    "Rank": 789,
-    "Type": "placeat",
-    "ColorBlock": 610,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "1999-03-04T11:44:43.2887254+01:00",
+    "Id": 861,
+    "Name": "Spinka, Prosacco and Hahn",
+    "ToolTip": "Assumenda voluptas nostrum aliquid voluptas eveniet eos soluta.",
+    "Deleted": true,
+    "Rank": 593,
+    "Type": "est",
+    "ColorBlock": 923,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2013-02-05T11:16:14.699531+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Zboncak, Moen and Sipes",
-        "ToolTip": "Suscipit quisquam dolore quia et et voluptates.",
+        "Id": 634,
+        "Name": "Bergnaum Group",
+        "ToolTip": "Cum ad vero deleniti incidunt officia et.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "nam",
-        "ColorBlock": 283,
-        "IconHint": "porro",
+        "Rank": 156,
+        "Type": "dignissimos",
+        "ColorBlock": 272,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2018-07-25T11:44:43.2887254+02:00",
+        "LastChanged": "2023-01-06T11:16:14.699531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "itaque",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Noe Turcotte I",
+        "FullName": "Micah Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "sequi",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Darryl Koss",
+    "FullName": "Forest Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 632
       }
     }
   }

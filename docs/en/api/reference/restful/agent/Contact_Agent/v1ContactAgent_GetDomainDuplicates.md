@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "officiis"
+  "Domain": "dolorem"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Funk Group",
-    "SoPrimaryKey": 101,
-    "EntryName": "Ritchie-Renner",
-    "EntryIdentifier": "cumque",
-    "RuleDisplayName": "Rippin, Hessel and Brekke",
+    "RuleName": "Mitchell, Nolan and Welch",
+    "SoPrimaryKey": 697,
+    "EntryName": "Hyatt Group",
+    "EntryIdentifier": "doloribus",
+    "RuleDisplayName": "Marks-Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldType": "System.Int32",
+        "FieldLength": 613
       }
     }
   }

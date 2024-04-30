@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Hermiston Inc and Sons",
-    "ToolTip": "Quia qui pariatur officia.",
+    "Id": 911,
+    "Name": "Runte LLC",
+    "ToolTip": "A saepe laboriosam.",
     "Deleted": false,
-    "Rank": 758,
-    "Type": "maxime",
-    "ColorBlock": 204,
-    "IconHint": "voluptas",
+    "Rank": 191,
+    "Type": "voluptas",
+    "ColorBlock": 741,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "1998-10-17T11:44:43.2574879+02:00",
+    "LastChanged": "1997-03-04T11:16:14.6839019+01:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Von, Boehm and Shields",
-        "ToolTip": "Voluptatum cupiditate sed quia vel quod ut sunt.",
+        "Id": 609,
+        "Name": "Lehner, Howe and DuBuque",
+        "ToolTip": "Necessitatibus ipsa et rerum.",
         "Deleted": true,
-        "Rank": 62,
-        "Type": "voluptatum",
-        "ColorBlock": 203,
-        "IconHint": "maiores",
+        "Rank": 883,
+        "Type": "eos",
+        "ColorBlock": 806,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2012-10-13T11:44:43.2574879+02:00",
+        "LastChanged": "2001-02-16T11:16:14.6839019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "aut",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Mr. Ryley Hansen",
+        "FullName": "Francesca Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldLength": 7
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "unde",
+    "ExtraInfo": "enim",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Miss Leonor Dorcas Will",
+    "FullName": "Aliyah Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 746
       }
     }
   }

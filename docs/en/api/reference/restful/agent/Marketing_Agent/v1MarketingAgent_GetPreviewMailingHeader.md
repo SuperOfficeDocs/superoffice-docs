@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 691
+  "ShipmentId": 33
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2009-12-16T11:44:33.9315193+01:00",
+  "StartDate": "2017-10-02T11:16:09.3815779+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 596,
-  "ShipmentDescription": "Open-architected reciprocal project",
-  "FromAddress": "ducimus",
-  "Configuration": 248,
-  "PersonId": 380,
-  "PersonFullName": "Henderson Mosciski",
-  "ShipmentType": "deleniti",
-  "MessageId": 770,
-  "MessageSubject": "consectetur",
-  "DocumentMessageId": 451,
-  "NumSent": 477,
-  "NumOpened": 78,
-  "NumBounced": 618,
-  "NumClicks": 181,
+  "ShipmentId": 572,
+  "ShipmentDescription": "Grass-roots global data-warehouse",
+  "FromAddress": "occaecati",
+  "Configuration": 265,
+  "PersonId": 661,
+  "PersonFullName": "Miss Jany Brakus V",
+  "ShipmentType": "omnis",
+  "MessageId": 44,
+  "MessageSubject": "ipsam",
+  "DocumentMessageId": 653,
+  "NumSent": 420,
+  "NumOpened": 877,
+  "NumBounced": 691,
+  "NumClicks": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldLength": 743
     }
   }
 }

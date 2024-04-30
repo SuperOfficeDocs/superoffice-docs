@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/BLOB/GetContactImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 661,
-  "Width": 547,
-  "Height": 9
+  "ContactId": 26,
+  "Width": 262,
+  "Height": 438
 }
 ```
 

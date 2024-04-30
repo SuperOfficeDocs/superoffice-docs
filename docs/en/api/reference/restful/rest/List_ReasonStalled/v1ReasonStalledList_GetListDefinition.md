@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Schaefer, Ryan and Tremblay",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 583,
-  "IsCustomList": false,
+  "Id": 143,
+  "Name": "Smith, Renner and Johnson",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 523,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldLength": 754
     }
   },
   "_Links": {

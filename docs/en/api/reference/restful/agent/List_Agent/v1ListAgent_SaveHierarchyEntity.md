@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 603,
+  "HierarchyId": 119,
   "Domain": "Dashboards",
-  "Name": "Schmidt, Leuschke and Wuckert",
-  "Fullname": "voluptas",
-  "ParentId": 503,
+  "Name": "Herzog LLC",
+  "Fullname": "amet",
+  "ParentId": 401,
   "Children": [
     {
-      "HierarchyId": 38,
+      "HierarchyId": 336,
       "Domain": "Dashboards",
-      "Name": "Stamm Group",
-      "Fullname": "nobis",
-      "ParentId": 84,
+      "Name": "Heathcote LLC",
+      "Fullname": "dolorum",
+      "ParentId": 985,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-10-01T11:44:33.9002761+02:00",
-      "RegisteredAssociateId": 402,
-      "Updated": "2022-03-16T11:44:33.9002761+01:00",
-      "UpdatedAssociateId": 348
+      "Registered": "2020-07-29T11:16:09.3659552+02:00",
+      "RegisteredAssociateId": 481,
+      "Updated": "2000-02-12T11:16:09.3659552+01:00",
+      "UpdatedAssociateId": 466
     }
   ],
-  "Registered": "2006-10-31T11:44:33.9002761+01:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2016-11-10T11:44:33.9002761+01:00",
-  "UpdatedAssociateId": 22
+  "Registered": "2010-11-22T11:16:09.3659552+01:00",
+  "RegisteredAssociateId": 784,
+  "Updated": "2000-02-06T11:16:09.3659552+01:00",
+  "UpdatedAssociateId": 551
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 191,
+  "HierarchyId": 84,
   "Domain": "Dashboards",
-  "Name": "Brown, Tillman and Bahringer",
-  "Fullname": "in",
-  "ParentId": 793,
+  "Name": "Grady-Stehr",
+  "Fullname": "ipsum",
+  "ParentId": 759,
   "Children": [
     {
-      "HierarchyId": 39,
+      "HierarchyId": 20,
       "Domain": "Dashboards",
-      "Name": "Jewess, Fisher and Conn",
-      "Fullname": "sed",
-      "ParentId": 782,
+      "Name": "Muller, Bogan and Volkman",
+      "Fullname": "nemo",
+      "ParentId": 411,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-10-07T11:44:33.9002761+02:00",
-      "RegisteredAssociateId": 156,
-      "Updated": "2017-11-15T11:44:33.9002761+01:00",
-      "UpdatedAssociateId": 651,
+      "Registered": "2024-04-16T11:16:09.3659552+02:00",
+      "RegisteredAssociateId": 944,
+      "Updated": "2004-01-14T11:16:09.3659552+01:00",
+      "UpdatedAssociateId": 990,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     }
   ],
-  "Registered": "2002-05-21T11:44:33.9002761+02:00",
-  "RegisteredAssociateId": 890,
-  "Updated": "2019-01-09T11:44:33.9002761+01:00",
-  "UpdatedAssociateId": 906,
+  "Registered": "2008-03-22T11:16:09.3659552+01:00",
+  "RegisteredAssociateId": 902,
+  "Updated": "2014-06-17T11:16:09.3659552+02:00",
+  "UpdatedAssociateId": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

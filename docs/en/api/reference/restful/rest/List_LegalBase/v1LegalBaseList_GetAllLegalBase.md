@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 727,
-    "Name": "Pacocha-Zulauf",
-    "Tooltip": "molestias",
-    "Rank": 398,
-    "Key": "ab",
-    "Deleted": true,
+    "LegalBaseId": 621,
+    "Name": "Boyer, Walker and Walsh",
+    "Tooltip": "blanditiis",
+    "Rank": 187,
+    "Key": "quo",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

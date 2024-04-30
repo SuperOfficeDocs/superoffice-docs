@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Jan 2015 11:44:41 G1T
+Last-Modified: Fri, 22 Mar 2024 11:16:13 G3T
 
 {
-  "BlobId": 900,
-  "BlobSize": 614,
-  "Description": "Multi-channelled system-worthy firmware",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "dolor",
-  "OriginalSize": 386,
-  "CreatedDate": "2021-08-12T11:44:41.7265353+02:00",
-  "UpdatedDate": "2015-01-30T11:44:41.7265353+01:00",
+  "BlobId": 838,
+  "BlobSize": 32,
+  "Description": "Visionary secondary adapter",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "cum",
+  "OriginalSize": 987,
+  "CreatedDate": "2003-10-26T11:16:13.7612392+01:00",
+  "UpdatedDate": "2024-03-22T11:16:13.7612392+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam",
+  "ConceptualType": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

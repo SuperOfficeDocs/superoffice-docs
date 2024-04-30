@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=ea
+GET /api/v1/List/ProjectType/MDOItems?query=quo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Hills-Dickens",
-    "ToolTip": "Magnam debitis.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "qui",
+    "Id": 147,
+    "Name": "Mraz LLC",
+    "ToolTip": "Laboriosam quisquam.",
+    "Deleted": true,
+    "Rank": 503,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Thompson LLC",
-        "ToolTip": "Incidunt officia iste.",
-        "Deleted": false,
-        "Rank": 337,
-        "Type": "et",
+        "Id": 209,
+        "Name": "Pfannerstill, Willms and Runolfsdottir",
+        "ToolTip": "Dolore voluptas.",
+        "Deleted": true,
+        "Rank": 235,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 118,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ea",
-        "FullName": "General Medhurst",
+        "IconHint": "est",
+        "ColorBlock": 677,
+        "ExtraInfo": "ab",
+        "StyleHint": "nihil",
+        "FullName": "Prof. Boyd Toy V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldLength": 501
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 925,
-    "ExtraInfo": "provident",
-    "StyleHint": "ipsum",
-    "FullName": "Elyssa Littel",
+    "IconHint": "velit",
+    "ColorBlock": 981,
+    "ExtraInfo": "totam",
+    "StyleHint": "aut",
+    "FullName": "Chance Kobe Rippin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

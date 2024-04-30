@@ -106,24 +106,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 430,
-  "Section": "aspernatur",
-  "Key": "aliquam",
-  "Name": "Boehm-Heller",
+  "PrefDescId": 762,
+  "Section": "quo",
+  "Key": "rem",
+  "Name": "Thiel-Koch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized dedicated emulation",
+  "Description": "Operative scalable pricing structure",
   "IsBuiltin": true,
-  "TableName": "Gutkowski Inc and Sons",
-  "UserDefinedListId": 79,
-  "Rank": 328,
-  "SubGroup": "sunt",
-  "MinLevel": 923,
-  "MaxValue": 664,
-  "MinValue": 261,
-  "RequiredLicense": "commodi"
+  "TableName": "Heller Group",
+  "UserDefinedListId": 487,
+  "Rank": 4,
+  "SubGroup": "rerum",
+  "MinLevel": 378,
+  "MaxValue": 344,
+  "MinValue": 1000,
+  "RequiredLicense": "cupiditate"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 86,
-  "Section": "id",
-  "Key": "esse",
-  "Name": "Metz-Carter",
+  "PrefDescId": 533,
+  "Section": "sed",
+  "Key": "qui",
+  "Name": "Jenkins Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-centric attitude-oriented ability",
-  "IsBuiltin": false,
-  "TableName": "Schmeler Group",
-  "UserDefinedListId": 789,
-  "Rank": 724,
-  "SubGroup": "non",
-  "MinLevel": 768,
-  "MaxValue": 265,
-  "MinValue": 637,
-  "RequiredLicense": "autem",
+  "Description": "Ameliorated human-resource infrastructure",
+  "IsBuiltin": true,
+  "TableName": "Cremin-Ernser",
+  "UserDefinedListId": 632,
+  "Rank": 913,
+  "SubGroup": "aut",
+  "MinLevel": 749,
+  "MaxValue": 434,
+  "MinValue": 661,
+  "RequiredLicense": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

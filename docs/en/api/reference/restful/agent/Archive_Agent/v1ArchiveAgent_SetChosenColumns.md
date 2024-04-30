@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Feeney-Kovacek",
-  "ProviderName": "Kub Group",
+  "GuiName": "Schuster, Graham and Jones",
+  "ProviderName": "Wintheiser, O'Kon and Morar",
   "ChosenColumns": [
-    "rerum",
-    "voluptatum"
+    "fugiat",
+    "aut"
   ]
 }
 ```

@@ -1293,7 +1293,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/personUdef/SuperOffice:6,person/correspondingAssociate/otherGroups,contact/stop,contact/email/emailId,contact/contactAssociate/firstName
+GET /api/v1/archive/SaleStaticSelection?$select=person/rank,person/personUpdatedBy,contact/hasInfoText,associate/contactId,associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

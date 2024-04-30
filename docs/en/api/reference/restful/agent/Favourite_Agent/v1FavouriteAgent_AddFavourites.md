@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schulist LLC",
+  "TableName": "Kerluke-Gislason",
   "RecordIds": [
-    151,
-    382
+    81,
+    799
   ],
-  "AssociateId": 689,
-  "ExtraInfo": "reiciendis"
+  "AssociateId": 597,
+  "ExtraInfo": "a"
 }
 ```
 

@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Flatley, Bechtelar and Lindgren",
-  "Columns": "quasi",
-  "SortOrder": "debitis",
-  "Restrictions": "corrupti",
-  "Entities": "aut",
-  "Page": 444,
-  "PageSize": 724
+  "ProviderName": "O'Conner, Tillman and Kulas",
+  "Columns": "quis",
+  "SortOrder": "explicabo",
+  "Restrictions": "sed",
+  "Entities": "minima",
+  "Page": 270,
+  "PageSize": 5
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Wisoky Group",
-    "PrimaryKey": 230,
+    "EntityName": "Murray Group",
+    "PrimaryKey": 927,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quam",
-        "TooltipHint": "dolores",
-        "LinkHint": "dolorum"
+        "DisplayValue": "beatae",
+        "TooltipHint": "non",
+        "LinkHint": "numquam"
       }
     },
-    "LinkHint": "consequuntur",
-    "StyleHint": "voluptas",
+    "LinkHint": "error",
+    "StyleHint": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldLength": 197
       }
     }
   }

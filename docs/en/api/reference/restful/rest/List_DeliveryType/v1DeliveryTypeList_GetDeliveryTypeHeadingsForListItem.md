@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Lesch Inc and Sons",
-    "ToolTip": "Nam quas.",
+    "Id": 781,
+    "Name": "Crooks-Pacocha",
+    "ToolTip": "Dicta iure et ut esse.",
     "Deleted": false,
-    "Rank": 865,
-    "Type": "nulla",
-    "ColorBlock": 919,
-    "IconHint": "enim",
+    "Rank": 500,
+    "Type": "eos",
+    "ColorBlock": 737,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2000-03-06T11:44:43.0700205+01:00",
+    "LastChanged": "2012-04-09T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Quos quae vitae eius nemo.",
-        "Deleted": false,
-        "Rank": 969,
-        "Type": "adipisci",
-        "ColorBlock": 34,
-        "IconHint": "qui",
+        "Id": 517,
+        "Name": "Jacobson LLC",
+        "ToolTip": "Et id unde facere id error sapiente voluptas.",
+        "Deleted": true,
+        "Rank": 976,
+        "Type": "voluptates",
+        "ColorBlock": 988,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2013-01-22T11:44:43.0700205+01:00",
+        "LastChanged": "2011-07-07T11:16:14.5589219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Nash Feeney",
+        "ExtraInfo": "alias",
+        "StyleHint": "atque",
+        "Hidden": false,
+        "FullName": "Prof. Frankie Cullen Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldType": "System.String",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "vel",
+    "ExtraInfo": "nisi",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Ludwig Lang",
+    "FullName": "Erling Lynch Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

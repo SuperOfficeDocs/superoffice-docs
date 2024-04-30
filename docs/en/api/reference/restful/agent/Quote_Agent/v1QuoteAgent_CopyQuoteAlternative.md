@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 884,
-  "QuoteAlternativeId": 466,
-  "QuoteAlternativeName": "Fritsch-Mitchell"
+  "QuoteVersionId": 68,
+  "QuoteAlternativeId": 896,
+  "QuoteAlternativeName": "Hand Inc and Sons"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 45,
-  "ERPQuoteAlternativeKey": "magni",
-  "QuoteVersionId": 138,
-  "Name": "Lehner-Hintz",
-  "Description": "Triple-buffered clear-thinking open system",
+  "QuoteAlternativeId": 178,
+  "ERPQuoteAlternativeKey": "id",
+  "QuoteVersionId": 416,
+  "Name": "Walker-Hartmann",
+  "Description": "Quality-focused motivating throughput",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 26852.111999999997,
-  "ERPDiscountAmount": 25335.255999999998,
-  "DiscountPercent": 26438.424,
-  "DiscountAmount": 6938.6759999999995,
+  "ERPDiscountPercent": 20624.854,
+  "ERPDiscountAmount": 4199.5599999999995,
+  "DiscountPercent": 9831.358,
+  "DiscountAmount": 14663.985999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "qui",
-  "VAT": 25520.162,
-  "EarningPercent": 25999.664,
-  "EarningAmount": 25739.541999999998,
-  "SubTotal": 4230.9,
-  "TotalPrice": 9286.042,
-  "ExtraField1": "vel",
-  "ExtraField2": "autem",
-  "ExtraField3": "aut",
-  "ExtraField4": "officiis",
-  "ExtraField5": "autem",
+  "VATInfo": "ducimus",
+  "VAT": 26024.736,
+  "EarningPercent": 23260.548,
+  "EarningAmount": 28776.388,
+  "SubTotal": 9583.771999999999,
+  "TotalPrice": 22589.872,
+  "ExtraField1": "excepturi",
+  "ExtraField2": "repudiandae",
+  "ExtraField3": "enim",
+  "ExtraField4": "et",
+  "ExtraField5": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 805
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 08 Aug 2012 11:44:42 G8T
+Last-Modified: Mon, 15 Mar 2004 11:16:13 G3T
 
 {
-  "ForeignDeviceId": 27,
-  "Name": "Schoen-Oberbrunner",
-  "CreatedDate": "2014-01-31T11:44:42.0077636+01:00",
-  "UpdatedDate": "2012-08-08T11:44:42.0077636+02:00",
-  "AssociateFullName": "Jett Hahn",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "in",
-  "DeviceIdentifier": "voluptatum",
-  "ForeignAppId": 160,
+  "ForeignDeviceId": 55,
+  "Name": "McDermott, Schroeder and Fahey",
+  "CreatedDate": "2018-02-17T11:16:13.93321+01:00",
+  "UpdatedDate": "2004-03-15T11:16:13.93321+01:00",
+  "AssociateFullName": "Miss Freida Nolan IV",
+  "CreatedBy": "id",
+  "UpdatedBy": "officia",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 142
     }
   }
 }

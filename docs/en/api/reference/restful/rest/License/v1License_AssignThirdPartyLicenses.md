@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 523,
-    "Tooltip": "voluptas",
-    "CanAssign": false,
-    "Free": 965,
-    "InUse": 693,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 391,
-    "Name": "Kunde-Kuhlman",
-    "Description": "Extended secondary utilisation",
-    "PrerequisiteModuleName": "Champlin-Nader",
-    "SortOrder": 910,
-    "ExtraFlags": 135,
+    "Unrestricted": false,
+    "Total": 580,
+    "Tooltip": "at",
+    "CanAssign": true,
+    "Free": 348,
+    "InUse": 363,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 87,
+    "Name": "Kassulke LLC",
+    "Description": "Front-line bi-directional software",
+    "PrerequisiteModuleName": "Padberg, Stokes and Prosacco",
+    "SortOrder": 370,
+    "ExtraFlags": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 683
       }
     }
   }

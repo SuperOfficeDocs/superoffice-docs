@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Bosco LLC",
-  "Tooltip": "quaerat",
+  "Id": 713,
+  "Name": "Hane Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 594
+  "UdListDefinitionId": 647,
+  "Rank": 696
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Lang LLC",
-  "Tooltip": "ullam",
+  "Id": 628,
+  "Name": "Prosacco-Kiehn",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 484,
-  "Rank": 89,
+  "UdListDefinitionId": 583,
+  "Rank": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 141
     }
   }
 }

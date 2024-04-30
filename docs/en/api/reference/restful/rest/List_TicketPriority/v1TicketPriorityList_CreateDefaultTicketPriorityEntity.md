@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 609,
-  "Name": "Mueller, Daniel and Rodriguez",
+  "TicketPriorityId": 581,
+  "Name": "Barton Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 760,
+  "SortOrder": 254,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 428,
-  "MonStart": "1999-11-03T11:44:43.398025+01:00",
-  "MonStop": "2008-01-05T11:44:43.398025+01:00",
-  "TueStart": "2008-07-10T11:44:43.398025+02:00",
-  "TueStop": "2006-01-31T11:44:43.398025+01:00",
-  "WedStart": "2005-05-23T11:44:43.398025+02:00",
-  "WedStop": "2009-01-06T11:44:43.398025+01:00",
-  "ThuStart": "2009-09-26T11:44:43.398025+02:00",
-  "ThuStop": "2004-07-14T11:44:43.398025+02:00",
-  "FriStart": "2022-05-17T11:44:43.398025+02:00",
-  "FriStop": "2015-01-15T11:44:43.398025+01:00",
-  "SatStart": "2019-01-19T11:44:43.398025+01:00",
-  "SatStop": "2002-02-02T11:44:43.398025+01:00",
-  "SunStart": "2013-08-15T11:44:43.398025+02:00",
-  "SunStop": "2011-08-15T11:44:43.398025+02:00",
+  "Deadline": 49,
+  "MonStart": "2019-10-03T11:16:14.8557576+02:00",
+  "MonStop": "2020-12-14T11:16:14.8557576+01:00",
+  "TueStart": "1998-11-06T11:16:14.8557576+01:00",
+  "TueStop": "2012-08-26T11:16:14.8557576+02:00",
+  "WedStart": "1997-05-24T11:16:14.8557576+02:00",
+  "WedStop": "2001-03-26T11:16:14.8557576+02:00",
+  "ThuStart": "2011-10-08T11:16:14.8557576+02:00",
+  "ThuStop": "1997-12-06T11:16:14.8557576+01:00",
+  "FriStart": "2012-09-18T11:16:14.8557576+02:00",
+  "FriStop": "2015-03-18T11:16:14.8557576+01:00",
+  "SatStart": "2005-02-15T11:16:14.8557576+01:00",
+  "SatStop": "2005-01-21T11:16:14.8557576+01:00",
+  "SunStart": "2009-04-06T11:16:14.8557576+02:00",
+  "SunStop": "2019-09-03T11:16:14.8557576+02:00",
   "NonDates": [
-    "beatae",
-    "est"
+    "repudiandae",
+    "quos"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 429,
-      "AlertLevel": 926,
-      "AlertTimeout": 357,
-      "Action": 389,
-      "DelegateTo": 762,
-      "ScriptId": 711,
-      "EmailTo": "valentin_herman@kuhicratke.name",
-      "SmsTo": "dignissimos",
-      "ReplyTemplateIdCustomer": 790,
-      "ReplyTemplateIdUser": 664,
-      "ReplyTemplateIdCatmast": 499,
-      "ReplyTemplateIdEmail": 173,
-      "RtiCustomerSms": 98,
-      "ReplyTemplateIdUserSms": 343,
-      "ReplyTemplateIdCatmastSms": 509,
-      "ReplyTemplateIdSms": 505,
+      "TicketAlertId": 572,
+      "AlertLevel": 743,
+      "AlertTimeout": 847,
+      "Action": 675,
+      "DelegateTo": 472,
+      "ScriptId": 896,
+      "EmailTo": "harry.collins@lowe.name",
+      "SmsTo": "minima",
+      "ReplyTemplateIdCustomer": 933,
+      "ReplyTemplateIdUser": 884,
+      "ReplyTemplateIdCatmast": 597,
+      "ReplyTemplateIdEmail": 2,
+      "RtiCustomerSms": 673,
+      "ReplyTemplateIdUserSms": 239,
+      "ReplyTemplateIdCatmastSms": 657,
+      "ReplyTemplateIdSms": 197,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 341
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 660,
-    "Name": "Kerluke Group",
-    "Description": "Reactive bifurcated encryption",
+    "ProjectId": 126,
+    "Name": "Bergstrom LLC",
+    "Description": "Enhanced contextually-based hardware",
     "URL": "http://www.example.com/",
-    "Type": "quisquam",
-    "AssociateId": 196,
-    "AssociateFullName": "Rosamond Heidenreich",
-    "TypeId": 378,
-    "Updated": "2003-03-30T11:44:34.2126949+02:00",
-    "StatusId": 358,
-    "Status": "mollitia",
-    "TextId": 732,
-    "PublishTo": "2005-09-18T11:44:34.2126949+02:00",
-    "PublishFrom": "2021-04-15T11:44:34.2126949+02:00",
-    "IsPublished": false,
+    "Type": "odio",
+    "AssociateId": 77,
+    "AssociateFullName": "Ms. Brando Mike Abbott Jr.",
+    "TypeId": 233,
+    "Updated": "2022-02-24T11:16:09.569228+01:00",
+    "StatusId": 915,
+    "Status": "saepe",
+    "TextId": 960,
+    "PublishTo": "2024-02-17T11:16:09.569228+01:00",
+    "PublishFrom": "2018-05-09T11:16:09.569228+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "384110",
-    "ActiveErpLinks": 117,
+    "ProjectNumber": "662218",
+    "ActiveErpLinks": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 245
       }
     }
   }

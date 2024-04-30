@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptatem",
+  "SaleText": "exercitationem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-10-16T11:44:34.3532949+02:00",
-  "Amount": 22226.327999999998,
-  "SaleId": 723,
-  "Earning": 27895.734,
-  "EarningPercent": 13852.279999999999,
-  "Heading": "nam",
-  "Number": "1308903",
-  "Probability": 463,
-  "CreatedDate": "2022-04-18T11:44:34.3532949+02:00",
-  "UpdatedDate": "2007-08-29T11:44:34.3532949+02:00",
+  "Saledate": "2021-01-28T11:16:09.6473837+01:00",
+  "Amount": 19390.058,
+  "SaleId": 279,
+  "Earning": 24570.559999999998,
+  "EarningPercent": 18509.404,
+  "Heading": "quaerat",
+  "Number": "1163189",
+  "Probability": 476,
+  "CreatedDate": "2014-08-06T11:16:09.6473837+02:00",
+  "UpdatedDate": "2005-03-05T11:16:09.6473837+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 989,
+  "ActiveLinks": 647,
   "Links": [
     {
-      "EntityName": "Lehner LLC",
-      "Id": 708,
-      "Description": "Profound attitude-oriented data-warehouse",
-      "ExtraInfo": "ea",
-      "LinkId": 691,
+      "EntityName": "Schimmel LLC",
+      "Id": 721,
+      "Description": "Monitored zero tolerance forecast",
+      "ExtraInfo": "totam",
+      "LinkId": 952,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 159
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2003-02-19T11:16:09.6473837+01:00",
+  "Postit": "sint",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2012-02-24T11:16:09.6473837+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Murazik, Ankunding and Strosin",
+      "Comment": "facere",
+      "StakeholderRoleId": 410,
+      "CountryId": 786,
+      "PersonId": 973,
+      "EmailDescription": "felipa_schultz@larkincruickshank.com",
+      "EmailId": 435,
+      "EmailAddress": "eusebio_parisian@parker.biz",
+      "PhoneId": 50,
+      "ContactName": "Stracke, Kling and Konopelski",
+      "ContactId": 180,
+      "SaleId": 560,
+      "Mrmrs": "beatae",
+      "Firstname": "Vidal",
+      "MiddleName": "Casper, Feil and Robel",
+      "Lastname": "McDermott",
+      "SaleStakeholderId": 965,
+      "Rank": 628,
+      "Phone": "897-210-1711 x9070",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 298
+          "FieldLength": 56
         }
       }
     }
   ],
-  "NextDueDate": "2014-11-17T11:44:34.3532949+01:00",
-  "Postit": "eaque",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2013-05-02T11:44:34.3532949+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Hermann LLC",
-      "Comment": "non",
-      "StakeholderRoleId": 13,
-      "CountryId": 483,
-      "PersonId": 578,
-      "EmailDescription": "giles.dicki@lehner.uk",
-      "EmailId": 421,
-      "EmailAddress": "queen.schaefer@jenkinsblock.ca",
-      "PhoneId": 598,
-      "ContactName": "McGlynn, Lebsack and Kozey",
-      "ContactId": 596,
-      "SaleId": 77,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Vivienne",
-      "MiddleName": "Yundt Inc and Sons",
-      "Lastname": "Dooley",
-      "SaleStakeholderId": 370,
-      "Rank": 582,
-      "Phone": "587.544.5238",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 358
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 132,
+  "ActiveErpLinks": 691,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vincent Doug Bartell DDS",
-    "SuperOffice:2": "Merle Amiya Shields DDS"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "150720673"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2008-06-18T11:44:34.3532949+02:00",
-  "PublishTo": "2021-07-09T11:44:34.3532949+02:00",
-  "PublishFrom": "2012-10-09T11:44:34.3532949+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-06-17T11:16:09.6473837+02:00",
+  "PublishTo": "2010-06-22T11:16:09.6473837+02:00",
+  "PublishFrom": "2007-08-19T11:16:09.6473837+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 726,
+      "VisibleId": 84,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 94
         }
       }
     },
     {
-      "VisibleId": 726,
+      "VisibleId": 84,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 94
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

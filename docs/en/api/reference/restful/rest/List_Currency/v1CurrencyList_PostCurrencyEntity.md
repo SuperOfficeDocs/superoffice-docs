@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 821,
-  "Name": "Eichmann, Kihn and Schowalter",
-  "Tooltip": "necessitatibus",
-  "Rank": 622,
-  "Rate": 13632.9,
-  "Units": 6293.072,
+  "CurrencyId": 887,
+  "Name": "Goodwin-D'Amore",
+  "Tooltip": "est",
+  "Rank": 667,
+  "Rate": 19227.09,
+  "Units": 10990.938,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 270,
-  "Name": "Thompson-D'Amore",
-  "Tooltip": "ab",
-  "Rank": 926,
-  "Rate": 14231.493999999999,
-  "Units": 21828.309999999998,
+  "CurrencyId": 940,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "incidunt",
+  "Rank": 673,
+  "Rate": 24445.2,
+  "Units": 2322.294,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 473
     }
   }
 }

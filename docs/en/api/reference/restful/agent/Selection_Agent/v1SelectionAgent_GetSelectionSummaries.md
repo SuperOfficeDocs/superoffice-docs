@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    345,
-    35
+    409,
+    408
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 795,
-    "Name": "Weissnat LLC",
-    "TargetTable": "vel",
-    "Registered": "2009-04-20T11:44:34.4938878+02:00",
-    "ProviderName": "Grimes-Huel"
+    "SelectionId": 215,
+    "Name": "Wilkinson-Kassulke",
+    "TargetTable": "fugiat",
+    "Registered": "2001-05-31T11:16:09.7416149+02:00",
+    "ProviderName": "Schuster-Gutkowski"
   },
   {
-    "SelectionId": 795,
-    "Name": "Weissnat LLC",
-    "TargetTable": "vel",
-    "Registered": "2009-04-20T11:44:34.4938878+02:00",
-    "ProviderName": "Grimes-Huel"
+    "SelectionId": 215,
+    "Name": "Wilkinson-Kassulke",
+    "TargetTable": "fugiat",
+    "Registered": "2001-05-31T11:16:09.7416149+02:00",
+    "ProviderName": "Schuster-Gutkowski"
   }
 ]
 ```

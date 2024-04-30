@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=culpa
-GET /api/v1/ForeignApp?$top=429
-GET /api/v1/ForeignApp?$skip=472
+GET /api/v1/ForeignApp?$entities=voluptatum
+GET /api/v1/ForeignApp?$top=540
+GET /api/v1/ForeignApp?$skip=70
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=repellat
+GET /api/v1/ForeignApp?$context=eligendi
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=True
+GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quis",
+  "odata.nextLink": "ea",
   "value": [
     {
-      "PrimaryKey": 7626,
-      "EntityName": "sale",
-      "saleId": 7626,
-      "contactId": 4953,
-      "name": "Grady, Connelly and Bergstrom"
+      "PrimaryKey": 8197,
+      "EntityName": "person",
+      "personId": 8197,
+      "fullName": "Hassan Kessler"
     },
     {
-      "PrimaryKey": 5173,
-      "EntityName": "sale",
-      "saleId": 5173,
-      "contactId": 2881,
-      "name": "Schiller-Bogan"
+      "PrimaryKey": 6467,
+      "EntityName": "person",
+      "personId": 6467,
+      "fullName": "Richmond Kilback I"
     }
   ]
 }

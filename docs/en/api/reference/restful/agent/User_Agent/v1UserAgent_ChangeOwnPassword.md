@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "quo",
-  "NewPassword": "modi"
+  "OldPassword": "sed",
+  "NewPassword": "consequuntur"
 }
 ```
 

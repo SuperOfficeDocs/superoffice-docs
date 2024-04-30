@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Lynch LLC",
-    "ToolTip": "Et velit quia modi dolor recusandae.",
+    "Id": 884,
+    "Name": "Moore-Hettinger",
+    "ToolTip": "Omnis qui.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "quos",
-    "ColorBlock": 28,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2001-02-02T11:44:42.9607018+01:00",
+    "Rank": 795,
+    "Type": "sequi",
+    "ColorBlock": 703,
+    "IconHint": "fugit",
+    "Selected": false,
+    "LastChanged": "2012-01-28T11:16:14.512052+01:00",
     "ChildItems": [
       {
-        "Id": 745,
-        "Name": "Jewess-Friesen",
-        "ToolTip": "Nihil porro et veritatis dolorem fuga.",
-        "Deleted": false,
-        "Rank": 461,
-        "Type": "et",
-        "ColorBlock": 376,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "1998-03-26T11:44:42.9607018+01:00",
+        "Id": 481,
+        "Name": "Renner LLC",
+        "ToolTip": "Voluptatem quia vel veritatis magnam molestiae ducimus.",
+        "Deleted": true,
+        "Rank": 712,
+        "Type": "voluptas",
+        "ColorBlock": 142,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2019-08-30T11:16:14.512052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Meta Gibson",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Mauricio Sam Fadel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 408
+            "FieldType": "System.Int32",
+            "FieldLength": 853
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ut",
+    "ExtraInfo": "magnam",
+    "StyleHint": "error",
     "Hidden": true,
-    "FullName": "Jailyn Torp III",
+    "FullName": "Thea Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldLength": 543
       }
     }
   }

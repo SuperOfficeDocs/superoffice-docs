@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Glover, Treutel and Yundt",
-  "Tooltip": "nihil",
+  "Id": 713,
+  "Name": "Shanahan LLC",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 51,
+  "Rank": 570,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Sauer LLC",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 161,
+  "Id": 963,
+  "Name": "Kerluke Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 287,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106
+  "Id": 270
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Hills-Deckow",
-  "AssociateId": 166,
-  "DetailsTable": 350,
-  "DetailsRecord": 620,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 473,
+  "Name": "Marvin-Tremblay",
+  "AssociateId": 278,
+  "DetailsTable": 299,
+  "DetailsRecord": 909,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "cupiditate",
-    "ParameterObject2": "est"
+    "ParameterObject1": "odit",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2001-05-26T11:44:32.822391+02:00",
-  "Created": "1999-01-19T11:44:32.822391+01:00",
-  "StartCount": 588,
-  "DatabaseSerialNumber": "989583",
-  "Context": "sapiente",
-  "Result": "ducimus",
+  "LastStarted": "2018-03-20T11:16:08.7410229+01:00",
+  "Created": "2022-01-24T11:16:08.7410229+01:00",
+  "StartCount": 680,
+  "DatabaseSerialNumber": "612100",
+  "Context": "rerum",
+  "Result": "debitis",
   "State": "All",
-  "Description": "Monitored radical productivity",
-  "Response": "aut",
-  "Request": "placeat",
-  "ProgressDescription": "Stand-alone client-server time-frame",
-  "ProgressPercent": 973,
-  "FileName": "Rodriguez, Schinner and Muller",
+  "Description": "Persistent intermediate groupware",
+  "Response": "ad",
+  "Request": "nesciunt",
+  "ProgressDescription": "Fully-configurable maximized workforce",
+  "ProgressPercent": 926,
+  "FileName": "Stroman, Renner and Fahey",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 108
     }
   }
 }

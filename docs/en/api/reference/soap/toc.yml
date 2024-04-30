@@ -15612,6 +15612,8 @@
       href: Services88/Ticket/CopyToTempFile.md
     - name: CreateDefaultAttachmentEntity
       href: Services88/Ticket/CreateDefaultAttachmentEntity.md
+    - name: CreateDefaultForTicketType
+      href: Services88/Ticket/CreateDefaultForTicketType.md
     - name: CreateDefaultTicketEntity
       href: Services88/Ticket/CreateDefaultTicketEntity.md
     - name: CreateDefaultTicketMessageEntity
@@ -15636,6 +15638,8 @@
       href: Services88/Ticket/GetDefaultMessageContent.md
     - name: GetDefaultMessageContentFull
       href: Services88/Ticket/GetDefaultMessageContentFull.md
+    - name: GetDefaultMessageContentWithOptions
+      href: Services88/Ticket/GetDefaultMessageContentWithOptions.md
     - name: GetForRmUi
       href: Services88/Ticket/GetForRmUi.md
     - name: GetNextInQueue
@@ -16135,3 +16139,5 @@
       href: Services88/Workflow/SendEvent.md
     - name: TryAddPersonsToEmailFlow
       href: Services88/Workflow/TryAddPersonsToEmailFlow.md
+    - name: UpdateFormSubmissions
+      href: Services88/Workflow/UpdateFormSubmissions.md

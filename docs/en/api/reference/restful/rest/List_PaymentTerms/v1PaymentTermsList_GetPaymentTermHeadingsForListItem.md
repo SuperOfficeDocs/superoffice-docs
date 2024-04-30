@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Raynor, Hettinger and Frami",
-    "ToolTip": "Aut placeat ducimus perferendis ipsum quos assumenda minus.",
-    "Deleted": false,
-    "Rank": 184,
-    "Type": "commodi",
-    "ColorBlock": 435,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2022-05-16T11:44:43.1325006+02:00",
+    "Id": 135,
+    "Name": "Klocko-Zieme",
+    "ToolTip": "Et fuga numquam iure.",
+    "Deleted": true,
+    "Rank": 723,
+    "Type": "quia",
+    "ColorBlock": 835,
+    "IconHint": "nam",
+    "Selected": false,
+    "LastChanged": "2012-03-11T11:16:14.6057886+01:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Champlin, Marks and Hudson",
-        "ToolTip": "Sunt maxime et hic.",
+        "Id": 326,
+        "Name": "McCullough, Donnelly and Hodkiewicz",
+        "ToolTip": "Doloribus est sunt.",
         "Deleted": false,
-        "Rank": 4,
-        "Type": "exercitationem",
-        "ColorBlock": 884,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2013-06-18T11:44:43.1325006+02:00",
+        "Rank": 768,
+        "Type": "ex",
+        "ColorBlock": 375,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2004-11-07T11:16:14.6057886+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Matteo Gibson",
+        "FullName": "Dr. Josiah Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 447
+            "FieldType": "System.Int32",
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Annabell Marks",
+    "FullName": "Mya McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 466
       }
     }
   }

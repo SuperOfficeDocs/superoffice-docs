@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Halvorson LLC",
-    "Tooltip": "qui",
+    "Id": 401,
+    "Name": "Schulist Inc and Sons",
+    "Tooltip": "quod",
     "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 154
+    "UdListDefinitionId": 539,
+    "Rank": 751
   },
   {
-    "Id": 300,
-    "Name": "Halvorson LLC",
-    "Tooltip": "qui",
+    "Id": 401,
+    "Name": "Schulist Inc and Sons",
+    "Tooltip": "quod",
     "Deleted": false,
-    "UdListDefinitionId": 617,
-    "Rank": 154
+    "UdListDefinitionId": 539,
+    "Rank": 751
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Simonis-Zboncak",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "UdListDefinitionId": 64,
-    "Rank": 863,
+    "Id": 645,
+    "Name": "Renner-Yost",
+    "Tooltip": "ipsa",
+    "Deleted": true,
+    "UdListDefinitionId": 199,
+    "Rank": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

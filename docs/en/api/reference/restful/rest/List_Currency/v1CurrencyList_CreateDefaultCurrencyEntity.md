@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 338,
-  "Name": "Ryan-D'Amore",
-  "Tooltip": "aliquid",
-  "Rank": 44,
-  "Rate": 1319.414,
-  "Units": 1319.414,
+  "CurrencyId": 889,
+  "Name": "Tremblay LLC",
+  "Tooltip": "dignissimos",
+  "Rank": 576,
+  "Rate": 30481.284,
+  "Units": 7258.344,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

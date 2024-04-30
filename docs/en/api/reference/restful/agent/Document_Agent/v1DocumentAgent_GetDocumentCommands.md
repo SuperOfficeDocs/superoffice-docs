@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 758,
+  "DocumentId": 142,
   "AllowedReturnTypes": [
-    "voluptatem",
-    "ut"
+    "accusantium",
+    "et"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Howell-Cole",
-    "DisplayName": "Keebler-Davis",
-    "DisplayTooltip": "ipsum",
-    "IconHint": "voluptates",
+    "Name": "Kling, Hamill and Thiel",
+    "DisplayName": "Terry LLC",
+    "DisplayTooltip": "iusto",
+    "IconHint": "eos",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Howell-Cole",
-    "DisplayName": "Keebler-Davis",
-    "DisplayTooltip": "ipsum",
-    "IconHint": "voluptates",
+    "Name": "Kling, Hamill and Thiel",
+    "DisplayName": "Terry LLC",
+    "DisplayTooltip": "iusto",
+    "IconHint": "eos",
     "ReturnType": "CustomGui"
   }
 ]

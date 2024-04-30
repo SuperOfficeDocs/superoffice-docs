@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 787,
+    "HierarchyId": 37,
     "Domain": "Dashboards",
-    "Name": "Spinka Group",
-    "Fullname": "voluptatem",
-    "ParentId": 227,
+    "Name": "Hilll, Cassin and Friesen",
+    "Fullname": "fugit",
+    "ParentId": 727,
     "Children": [
       {
-        "HierarchyId": 415,
+        "HierarchyId": 708,
         "Domain": "Dashboards",
-        "Name": "Medhurst Inc and Sons",
-        "Fullname": "velit",
-        "ParentId": 67,
+        "Name": "Konopelski, Gorczany and Schoen",
+        "Fullname": "et",
+        "ParentId": 465,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2004-03-03T11:44:33.8846551+01:00",
-        "RegisteredAssociateId": 63,
-        "Updated": "2001-05-12T11:44:33.8846551+02:00",
-        "UpdatedAssociateId": 419,
+        "Registered": "2018-10-14T11:16:09.3659552+02:00",
+        "RegisteredAssociateId": 799,
+        "Updated": "2006-12-29T11:16:09.3659552+01:00",
+        "UpdatedAssociateId": 324,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 410
           }
         }
       }
     ],
-    "Registered": "2023-08-06T11:44:33.8846551+02:00",
-    "RegisteredAssociateId": 319,
-    "Updated": "1999-04-08T11:44:33.8846551+02:00",
-    "UpdatedAssociateId": 147,
+    "Registered": "2022-12-12T11:16:09.3659552+01:00",
+    "RegisteredAssociateId": 229,
+    "Updated": "2016-06-03T11:16:09.3659552+02:00",
+    "UpdatedAssociateId": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 578
       }
     }
   }

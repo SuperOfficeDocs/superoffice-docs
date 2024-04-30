@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=non
+GET /api/v1/List/ConsentSource/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Roberts Group",
-    "ToolTip": "Et distinctio dolores quae sunt deserunt quia.",
-    "Deleted": true,
-    "Rank": 833,
-    "Type": "error",
+    "Id": 275,
+    "Name": "Greenfelder-Littel",
+    "ToolTip": "Ut saepe in tempora nisi atque ea voluptas.",
+    "Deleted": false,
+    "Rank": 635,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Bartell, Ledner and Smitham",
-        "ToolTip": "Minima et veritatis aspernatur aliquid in.",
+        "Id": 884,
+        "Name": "Cartwright, Bernier and Sanford",
+        "ToolTip": "Aut aliquam magnam quasi accusantium.",
         "Deleted": false,
-        "Rank": 574,
-        "Type": "illum",
+        "Rank": 73,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quam",
-        "ColorBlock": 922,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "quae",
-        "FullName": "Ludwig Pouros",
+        "IconHint": "unde",
+        "ColorBlock": 450,
+        "ExtraInfo": "dolore",
+        "StyleHint": "aspernatur",
+        "FullName": "Annalise O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 499,
-    "ExtraInfo": "odio",
-    "StyleHint": "ea",
-    "FullName": "Robyn Rodriguez",
+    "IconHint": "ea",
+    "ColorBlock": 416,
+    "ExtraInfo": "est",
+    "StyleHint": "quasi",
+    "FullName": "Mr. Rafael Crystal Cole Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

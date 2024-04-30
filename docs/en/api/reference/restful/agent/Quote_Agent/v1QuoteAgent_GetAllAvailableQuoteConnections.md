@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 755,
-    "ERPName": "Sanford, Schimmel and Heller",
-    "DisplayName": "Robel, Lowe and Gulgowski",
-    "DisplayDescription": "Fundamental value-added ability",
-    "Rank": 521,
-    "ConnectorName": "Huel Group",
-    "ErpConnectionId": 202,
-    "ExtraData": "ut",
-    "IsAvailable": false,
+    "QuoteConnectionId": 507,
+    "ERPName": "Corwin, Hegmann and Leannon",
+    "DisplayName": "Fritsch Inc and Sons",
+    "DisplayDescription": "Secured reciprocal firmware",
+    "Rank": 483,
+    "ConnectorName": "Windler Group",
+    "ErpConnectionId": 141,
+    "ExtraData": "aut",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 404,
-        "ERPPriceListKey": "aut",
-        "QuoteConnectionId": 244,
-        "Name": "Wilderman, Crooks and Marvin",
-        "Description": "Robust secondary focus group",
-        "Currency": "inventore",
-        "CurrencyName": "Greenholt, Feest and Wyman",
-        "ValidFrom": "2015-05-05T11:44:34.2907996+02:00",
-        "ValidTo": "2003-04-04T11:44:34.2907996+02:00",
-        "IsActive": true,
+        "PriceListId": 806,
+        "ERPPriceListKey": "dolores",
+        "QuoteConnectionId": 814,
+        "Name": "Hane, Walsh and Turner",
+        "Description": "Seamless executive function",
+        "Currency": "omnis",
+        "CurrencyName": "Hintz LLC",
+        "ValidFrom": "2020-02-05T11:16:09.6005114+01:00",
+        "ValidTo": "2012-08-19T11:16:09.6005114+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 186
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      762,
-      54
+      365,
+      502
     ],
     "AssociateAccessIds": [
-      271,
-      24
+      385,
+      65
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 615
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "rerum",
+  "Id": 609,
+  "Name": "Fadel-Lind",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 223,
-  "Rank": 716
+  "UdListDefinitionId": 882,
+  "Rank": 360
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 45,
-  "Name": "Hoeger-Kuhn",
-  "Tooltip": "enim",
+  "Id": 3,
+  "Name": "Hodkiewicz Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 473,
-  "Rank": 765,
+  "UdListDefinitionId": 631,
+  "Rank": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

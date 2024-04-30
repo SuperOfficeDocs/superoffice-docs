@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 841,
-  "Name": "Will LLC",
-  "Tooltip": "maxime",
-  "VisibleColumns": 673,
-  "Rank": 120,
-  "AssocId": 539,
+  "DiaryViewId": 356,
+  "Name": "Mosciski, Zieme and Reilly",
+  "Tooltip": "eos",
+  "VisibleColumns": 604,
+  "Rank": 477,
+  "AssocId": 969,
   "AssociateList": [
     {
-      "Id": 606,
-      "Name": "Feil-Bartoletti",
-      "ToolTip": "Ut et enim ea.",
-      "Deleted": false,
-      "Rank": 704,
-      "Type": "non",
-      "ColorBlock": 550,
-      "IconHint": "ad",
-      "Selected": true,
-      "LastChanged": "1998-11-07T11:44:32.9942315+01:00",
+      "Id": 80,
+      "Name": "Ondricka-O'Hara",
+      "ToolTip": "Ad perferendis iusto rem non.",
+      "Deleted": true,
+      "Rank": 310,
+      "Type": "corrupti",
+      "ColorBlock": 311,
+      "IconHint": "numquam",
+      "Selected": false,
+      "LastChanged": "1998-02-16T11:16:08.8347248+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "sint",
-      "Hidden": false,
-      "FullName": "Mrs. Karli Lakin",
+      "ExtraInfo": "iste",
+      "StyleHint": "voluptatibus",
+      "Hidden": true,
+      "FullName": "Mrs. Sydnee Anika Corkery Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldLength": 550
         }
       }
     }
   ],
-  "TzLocationId": 369,
+  "TzLocationId": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 311
     }
   }
 }

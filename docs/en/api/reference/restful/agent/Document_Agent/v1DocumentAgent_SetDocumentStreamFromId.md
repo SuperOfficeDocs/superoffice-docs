@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 814,
+  "DocumentId": 436,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 175,
+  "DocumentId": 229,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "excepturi",
-  "Name": "Nienow, Brown and Stroman",
-  "OurRef": "rerum",
-  "YourRef": "sit",
-  "CreatedDate": "2000-10-06T11:44:33.5565971+02:00",
-  "UpdatedDate": "2018-04-15T11:44:33.5565971+02:00",
-  "Description": "Quality-focused foreground service-desk",
+  "Attention": "dolor",
+  "Header": "ut",
+  "Name": "Conn LLC",
+  "OurRef": "repellat",
+  "YourRef": "aut",
+  "CreatedDate": "2004-09-12T11:16:09.1472278+02:00",
+  "UpdatedDate": "2001-02-28T11:16:09.1472278+01:00",
+  "Description": "Synchronised 3rd generation methodology",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-06-10T11:44:33.5565971+02:00",
-  "ExternalRef": "voluptas",
+  "Date": "2016-08-23T11:16:09.1472278+02:00",
+  "ExternalRef": "corporis",
   "Completed": "Completed",
-  "ActiveLinks": 313,
+  "ActiveLinks": 902,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Monahan, Bernier and Marks",
-      "Id": 941,
-      "Description": "Profit-focused zero tolerance adapter",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 907,
+      "EntityName": "Volkman-Cruickshank",
+      "Id": 14,
+      "Description": "Up-sized interactive infrastructure",
+      "ExtraInfo": "nam",
+      "LinkId": 382,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 791
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 850,
-  "Snum": 622,
+  "SuggestedDocumentId": 60,
+  "Snum": 865,
   "UserDefinedFields": {
-    "SuperOffice:1": "Amelie Feeney DVM",
-    "SuperOffice:2": "917258665"
+    "SuperOffice:1": "Prof. Delores Jenkins IV",
+    "SuperOffice:2": "644821172"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "quidem"
+    "CustomFields1": "enim",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2012-12-23T11:44:33.5565971+01:00",
-  "PublishTo": "2015-05-11T11:44:33.5565971+02:00",
-  "PublishFrom": "2008-11-29T11:44:33.5565971+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-12-22T11:16:09.1472278+01:00",
+  "PublishTo": "2022-01-28T11:16:09.1472278+01:00",
+  "PublishFrom": "2013-04-15T11:16:09.1472278+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 482,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 800
         }
       }
     },
     {
-      "VisibleId": 482,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 800
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 814
     }
   }
 }

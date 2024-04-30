@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 860,
-  "CrmRecordId": 927,
+  "ErpConnectionId": 824,
+  "CrmRecordId": 530,
   "CrmActorType": "Contact",
-  "ErpKey": "consequatur",
+  "ErpKey": "a",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Zulauf-Rice",
-      "CrmFieldKey": "voluptas",
-      "Value": "harum",
-      "DisplayValue": "enim",
+      "DisplayName": "Roberts, Boehm and Lindgren",
+      "CrmFieldKey": "ipsum",
+      "Value": "consequatur",
+      "DisplayValue": "voluptas",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Zulauf-Rice",
-      "CrmFieldKey": "voluptas",
-      "Value": "harum",
-      "DisplayValue": "enim",
+      "DisplayName": "Roberts, Boehm and Lindgren",
+      "CrmFieldKey": "ipsum",
+      "Value": "consequatur",
+      "DisplayValue": "voluptas",
       "SyncToCrm": true,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

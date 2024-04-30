@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Kihn, Haley and Hegmann",
-  "Tooltip": "expedita",
+  "Id": 921,
+  "Name": "Schroeder Group",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 162,
-  "Rank": 982,
+  "UdListDefinitionId": 756,
+  "Rank": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 538
     }
   }
 }

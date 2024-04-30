@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 789,
-  "StartTime": "1999-06-22T11:44:33.4160074+02:00",
-  "EndTime": "1997-09-22T11:44:33.4160074+02:00",
-  "Count": 375,
-  "DocumentTemplateId": 880
+  "PersonId": 706,
+  "StartTime": "2010-09-27T11:16:09.0691155+02:00",
+  "EndTime": "1998-05-05T11:16:09.0691155+02:00",
+  "Count": 333,
+  "DocumentTemplateId": 243
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 797,
-    "Attention": "deserunt",
-    "Header": "quibusdam",
-    "Name": "Kirlin-Hodkiewicz",
-    "OurRef": "neque",
-    "YourRef": "non",
-    "Description": "Upgradable coherent artificial intelligence",
-    "DocumentTemplate": "tempora",
-    "IsPublished": true,
-    "PersonId": 888,
-    "PersonFullName": "Mr. Casper Gerlach",
-    "AssociateFullName": "Devante Spinka",
-    "ContactId": 778,
-    "ContactName": "Bradtke Inc and Sons",
-    "ProjectId": 561,
-    "ProjectName": "Wolf, Mitchell and Kerluke",
-    "AssociateId": 100,
-    "Snum": 557,
-    "SaleId": 522,
-    "SaleName": "Haley Inc and Sons",
+    "DocumentId": 251,
+    "Attention": "sed",
+    "Header": "facilis",
+    "Name": "Breitenberg-Dooley",
+    "OurRef": "et",
+    "YourRef": "quidem",
+    "Description": "Optimized 6th generation software",
+    "DocumentTemplate": "assumenda",
+    "IsPublished": false,
+    "PersonId": 944,
+    "PersonFullName": "Prof. Gordon Ramona Koepp V",
+    "AssociateFullName": "Oscar Kihn",
+    "ContactId": 116,
+    "ContactName": "Langosh-Witting",
+    "ProjectId": 439,
+    "ProjectName": "Purdy-Ortiz",
+    "AssociateId": 546,
+    "Snum": 1001,
+    "SaleId": 751,
+    "SaleName": "Heidenreich, Schmitt and Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 44
       }
     }
   }

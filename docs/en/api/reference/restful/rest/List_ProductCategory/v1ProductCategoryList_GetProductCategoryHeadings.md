@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 864,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "quidem",
+    "HeadingId": 369,
+    "Name": "Jacobson Inc and Sons",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 91,
+    "Rank": 847,
+    "UdListDefinitionId": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 798
       }
     }
   }

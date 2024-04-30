@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 753,
-  "PlainMessage": "dolore",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "ipsa",
-  "Description": "Advanced zero defect internet solution",
-  "Subject": "beatae",
-  "FolderId": 947,
-  "HeaderField": "ut",
-  "Design": "architecto",
+  "ShipmentMessageId": 441,
+  "PlainMessage": "aliquam",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "delectus",
+  "Description": "Universal bi-directional capacity",
+  "Subject": "porro",
+  "FolderId": 369,
+  "HeaderField": "magnam",
+  "Design": "fuga",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "De-engineered attitude-oriented support",
-  "AccessKey": "et",
-  "DocumentMessage": 497,
-  "Registered": "2018-02-23T11:44:42.5545135+01:00",
-  "RegisteredAssociateId": 311,
-  "Updated": "2006-08-17T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 482,
-  "UpdatedCount": 328,
+  "LongDescription": "User-centric global algorithm",
+  "AccessKey": "nihil",
+  "DocumentMessage": 645,
+  "Registered": "2004-05-29T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 908,
+  "Updated": "2007-07-28T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 98,
+  "UpdatedCount": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

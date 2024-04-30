@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Corkery, Wisoky and Goodwin",
-    "Kub Group"
+    "Keebler-Spencer",
+    "Hills, Baumbach and Hodkiewicz"
   ]
 }
 ```

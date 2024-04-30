@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "adipisci",
-  "2": "inventore"
+  "1": "voluptatum",
+  "2": "suscipit"
 }
 ```

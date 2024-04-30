@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-07-10T11:44:32.5099761+02:00",
-  "AppointmentId": 635,
-  "Description": "Down-sized dedicated open architecture",
-  "Title": "non",
-  "Agenda": "est",
-  "InternalNotes": "adipisci",
-  "StartDate": "2005-11-22T11:44:32.5099761+01:00",
-  "EndDate": "2020-01-16T11:44:32.5099761+01:00",
+  "CreatedDate": "2023-01-19T11:16:08.5376409+01:00",
+  "AppointmentId": 212,
+  "Description": "Multi-tiered impactful knowledge user",
+  "Title": "aliquid",
+  "Agenda": "consequatur",
+  "InternalNotes": "atque",
+  "StartDate": "1999-04-26T11:16:08.5376409+02:00",
+  "EndDate": "2002-01-30T11:16:08.5376409+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 830,
+  "MotherId": 520,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-03-06T11:44:32.5099761+01:00",
+  "UpdatedDate": "1997-06-22T11:16:08.5376409+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 930,
+  "ActiveLinks": 832,
   "Links": [
     {
-      "EntityName": "Hartmann-Greenholt",
-      "Id": 275,
-      "Description": "Phased well-modulated contingency",
-      "ExtraInfo": "cumque",
-      "LinkId": 941,
+      "EntityName": "Lesch LLC",
+      "Id": 703,
+      "Description": "Diverse content-based open architecture",
+      "ExtraInfo": "eum",
+      "LinkId": 303,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 306
         }
       }
     }
   ],
-  "AlarmLeadTime": "tenetur",
+  "AlarmLeadTime": "consectetur",
   "HasAlarm": false,
-  "ColorIndex": 500,
+  "ColorIndex": 252,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "iure",
-  "LeadTime": "tempora",
-  "Location": "non",
-  "RejectCounter": 56,
+  "IsAlldayEvent": false,
+  "LagTime": "vitae",
+  "LeadTime": "officiis",
+  "Location": "adipisci",
+  "RejectCounter": 870,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 421,
-      "PersonId": 642,
-      "ContactId": 175,
-      "EmailId": 513,
-      "SendEmail": true,
+      "AssociateId": 161,
+      "PersonId": 452,
+      "ContactId": 344,
+      "EmailId": 480,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clementine.stamm@marquardtsmith.uk",
-      "Description": "Robust clear-thinking success"
+      "EmailAddress": "deondre_deckow@ohara.name",
+      "Description": "Grass-roots responsive methodology"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-08-30T11:44:32.5099761+02:00",
+  "ActiveDate": "2002-07-26T11:16:08.5376409+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 834,
+  "PreferredTZLocation": 11,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 787,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 257,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nam",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "1952323682",
-    "SuperOffice:2": "Anderson Ernser"
+    "SuperOffice:1": "Dorothea McLaughlin",
+    "SuperOffice:2": "387924133"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "qui"
+    "CustomFields1": "labore",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2005-03-28T11:44:32.5099761+02:00",
-  "PublishTo": "1999-06-20T11:44:32.5099761+02:00",
-  "PublishFrom": "2019-04-16T11:44:32.5099761+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-10-05T11:16:08.5376409+02:00",
+  "PublishTo": "2013-10-11T11:16:08.5376409+02:00",
+  "PublishFrom": "2014-07-15T11:16:08.5376409+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 389,
+      "VisibleId": 139,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 49
         }
       }
     },
     {
-      "VisibleId": 389,
+      "VisibleId": 139,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 49
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 62
     }
   }
 }

@@ -712,7 +712,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=appointmentPublish/publishedFrom,contact/contactAssociate/mrMrs,person/personUdef/SuperOffice:3,person/personExtra/x_person_shorttext,associate/simultaneousEjUser
+GET /api/v1/archive/FindAppointment?$select=icon,contact/contactExtra/x_contact_short_dropdown,person/personId,person/associateType,person/personCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

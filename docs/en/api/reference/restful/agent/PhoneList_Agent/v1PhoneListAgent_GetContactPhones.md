@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 569
+  "ContactId": 402
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "398.930.9459",
-    "PersonCellPhone": "1-153-645-0960 x2369",
-    "PersonPrivatePhone": "911.562.7566 x386",
-    "PersonFaxNumber": "1549669",
-    "PersonPagerNumber": "747772",
-    "PersonEmail": "angelo.pagac@kautzereichmann.ca",
-    "Id": 520,
-    "Name": "Mills-Walker",
-    "Tooltip": "molestiae",
-    "UniqueId": "nobis",
+    "PersonDirectPhone": "(934)695-7827 x729",
+    "PersonCellPhone": "578.331.4336 x78964",
+    "PersonPrivatePhone": "044-616-4901 x738",
+    "PersonFaxNumber": "219906",
+    "PersonPagerNumber": "663359",
+    "PersonEmail": "holly@kunde.info",
+    "Id": 107,
+    "Name": "Ryan-Mueller",
+    "Tooltip": "culpa",
+    "UniqueId": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

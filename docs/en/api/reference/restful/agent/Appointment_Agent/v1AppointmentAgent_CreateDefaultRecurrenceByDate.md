@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2013-09-09T11:44:32.6505612+02:00"
+  "StartDate": "2021-06-17T11:16:08.631516+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 640,
-  "StartDate": "2008-03-08T11:44:32.6505612+01:00",
-  "EndDate": "2010-04-29T11:44:32.6505612+02:00",
-  "RecurrenceCounter": 833,
+  "RecurrenceId": 585,
+  "StartDate": "2003-02-12T11:16:08.631516+01:00",
+  "EndDate": "2020-06-04T11:16:08.631516+02:00",
+  "RecurrenceCounter": 220,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-07-10T11:44:32.6505612+02:00",
+      "Date": "2020-12-30T11:16:08.631516+01:00",
       "IsConflict": false,
-      "Description": "Persistent neutral monitoring",
-      "DescriptionStyleHint": "Networked background info-mediaries",
-      "Tooltip": "animi"
+      "Description": "Phased optimizing project",
+      "DescriptionStyleHint": "Organized assymetric middleware",
+      "Tooltip": "dolores"
     },
     {
-      "Date": "2002-07-10T11:44:32.6505612+02:00",
+      "Date": "2020-12-30T11:16:08.631516+01:00",
       "IsConflict": false,
-      "Description": "Persistent neutral monitoring",
-      "DescriptionStyleHint": "Networked background info-mediaries",
-      "Tooltip": "animi"
+      "Description": "Phased optimizing project",
+      "DescriptionStyleHint": "Organized assymetric middleware",
+      "Tooltip": "dolores"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

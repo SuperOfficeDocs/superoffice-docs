@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "maxime",
-    "omnis"
+    "autem",
+    "repudiandae"
   ],
-  "CurrentClientTime": "1997-07-03T11:44:34.1345952+02:00"
+  "CurrentClientTime": "2009-11-09T11:16:09.5221998+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "aliquam",
-    "doloribus"
+    "tempore",
+    "molestias"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 155,
-  "NotificationsCount": 892,
+  "OverdueSalesCount": 809,
+  "NotificationsCount": 449,
   "SystemWebPanels": [
     {
-      "WebPanelId": 961,
-      "Name": "Gleichner, Hammes and Morissette",
-      "Tooltip": "vitae",
+      "WebPanelId": 687,
+      "Name": "Hegmann, Romaguera and Ankunding",
+      "Tooltip": "omnis",
       "Deleted": true,
-      "Rank": 998,
+      "Rank": 807,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
-      "OnSatellite": false,
+      "OnCentral": true,
+      "OnSatellite": true,
       "OnTravel": true,
-      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": true,
-      "ShowInStatusBar": false,
-      "WindowName": "Ratke, Kunze and Lakin",
+      "ShowInAddressBar": false,
+      "ShowInStatusBar": true,
+      "WindowName": "Moore-Carter",
       "Url": "http://www.example.com/",
-      "ProgId": "aut",
-      "Icon": 308,
+      "ProgId": "et",
+      "Icon": 287,
       "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 924
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "rerum",
+      "RawValue": "ducimus",
       "Specification": null,
-      "DisplayValue": "quibusdam",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "et",
+      "DisplayTooltip": "provident",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 634,
-      "PrefDescId": 718,
-      "TableName": "Carroll-Friesen",
-      "UserPreferenceId": 243,
+      "TargetId": 692,
+      "PrefDescId": 610,
+      "TableName": "Greenholt Inc and Sons",
+      "UserPreferenceId": 871,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 894
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "porro",
+  "CustomData": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 67
     }
   }
 }

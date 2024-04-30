@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "UdListDefinitionName": "Pouros Inc and Sons"
+  "Id": 387,
+  "UdListDefinitionName": "Frami Inc and Sons"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Bailey LLC",
-  "Tooltip": "ab",
+  "Id": 610,
+  "Name": "D'Amore-Mitchell",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 977,
-  "Rank": 653,
+  "UdListDefinitionId": 14,
+  "Rank": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

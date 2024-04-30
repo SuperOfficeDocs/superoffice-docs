@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "odio"
+  "SearchString": "aliquam"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(159)513-6800 x6323",
-    "PersonCellPhone": "(068)389-3091 x3834",
-    "PersonPrivatePhone": "178-260-3773 x2629",
-    "PersonFaxNumber": "900641",
-    "PersonPagerNumber": "724934",
-    "PersonEmail": "haylie_harris@damore.com",
-    "Id": 341,
-    "Name": "Larson, Lakin and Quigley",
-    "Tooltip": "cum",
-    "UniqueId": "quidem",
+    "PersonDirectPhone": "604-202-0730 x341",
+    "PersonCellPhone": "344-345-3437 x817",
+    "PersonPrivatePhone": "(306)718-6394 x285",
+    "PersonFaxNumber": "1594891",
+    "PersonPagerNumber": "447441",
+    "PersonEmail": "malcolm.upton@romagueragleason.biz",
+    "Id": 606,
+    "Name": "Thiel, Kihn and Kuhic",
+    "Tooltip": "cumque",
+    "UniqueId": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 284
       }
     }
   }

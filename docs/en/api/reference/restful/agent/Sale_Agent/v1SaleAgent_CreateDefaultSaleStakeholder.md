@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Waelchi, Kilback and Wisoky",
-  "Comment": "corrupti",
-  "StakeholderRoleId": 684,
-  "CountryId": 813,
-  "PersonId": 848,
-  "EmailDescription": "heidi_mante@gerlach.us",
-  "EmailId": 202,
-  "EmailAddress": "ike@bayerhilll.biz",
-  "PhoneId": 395,
-  "ContactName": "Upton Inc and Sons",
-  "ContactId": 263,
-  "SaleId": 193,
-  "Mrmrs": "aliquam",
-  "Firstname": "Keara",
-  "MiddleName": "Howell-Stoltenberg",
-  "Lastname": "Stehr",
-  "SaleStakeholderId": 360,
-  "Rank": 47,
-  "Phone": "(197)126-9971 x73987",
+  "StakeholderRoleName": "Pacocha LLC",
+  "Comment": "expedita",
+  "StakeholderRoleId": 370,
+  "CountryId": 855,
+  "PersonId": 47,
+  "EmailDescription": "jacky@braunkutch.com",
+  "EmailId": 147,
+  "EmailAddress": "gerda.mcdermott@christiansenshields.info",
+  "PhoneId": 977,
+  "ContactName": "Leffler Group",
+  "ContactId": 267,
+  "SaleId": 504,
+  "Mrmrs": "et",
+  "Firstname": "Joel",
+  "MiddleName": "Kerluke, Kozey and Grady",
+  "Lastname": "Zulauf",
+  "SaleStakeholderId": 725,
+  "Rank": 145,
+  "Phone": "(606)275-4236 x747",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 516
     }
   }
 }

@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 481,
-  "Name": "Nicolas, Mertz and Donnelly",
-  "Tooltip": "nihil",
+  "Name": "Blanda LLC",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 706,
+  "Rank": 730,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Haley-Hodkiewicz",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 732,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "Id": 387,
+  "Name": "O'Keefe Inc and Sons",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 878,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 458
     }
   }
 }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 508,
-  "Name": "Olson, Treutel and Marks"
+  "DashboardId": 448,
+  "Name": "Mills-Auer"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 163,
-  "UniqueId": "totam",
-  "Name": "Gislason LLC",
-  "Description": "Re-engineered maximized focus group",
-  "AssociateId": 246,
-  "Columns": 273,
+  "DashboardId": 519,
+  "UniqueId": "quasi",
+  "Name": "McKenzie, Jacobs and Muller",
+  "Description": "Automated zero administration synergy",
+  "AssociateId": 333,
+  "Columns": 453,
   "Theme": null,
-  "VisibleForAll": 640,
+  "VisibleForAll": 558,
   "VisibleForAssociates": [
-    586,
-    836
+    905,
+    699
   ],
   "VisibleForGroups": [
-    74,
-    764
+    193,
+    669
   ],
-  "PinForAll": 500,
+  "PinForAll": 56,
   "PinForAssociates": [
-    821,
-    930
+    353,
+    726
   ],
   "PinForGroups": [
-    273,
-    487
+    712,
+    384
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   }
 }

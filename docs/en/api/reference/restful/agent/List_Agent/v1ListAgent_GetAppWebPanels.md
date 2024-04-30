@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 179,
-    "Name": "Metz-Stokes",
-    "Tooltip": "eum",
+    "WebPanelId": 784,
+    "Name": "Hackett-O'Reilly",
+    "Tooltip": "distinctio",
     "Deleted": true,
-    "Rank": 136,
+    "Rank": 94,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Schmitt, Schultz and Rogahn",
+    "ShowInStatusBar": false,
+    "WindowName": "Braun, Ullrich and Labadie",
     "Url": "http://www.example.com/",
-    "ProgId": "facere",
-    "Icon": 892,
+    "ProgId": "voluptatum",
+    "Icon": 266,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 281
       }
     }
   }

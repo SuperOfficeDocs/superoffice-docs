@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Hodkiewicz, Herman and Lebsack",
-  "Tooltip": "et",
+  "Id": 32,
+  "Name": "Dare Group",
+  "Tooltip": "quas",
   "Deleted": false,
-  "UdListDefinitionId": 356,
-  "Rank": 575,
+  "UdListDefinitionId": 707,
+  "Rank": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldLength": 207
     }
   }
 }

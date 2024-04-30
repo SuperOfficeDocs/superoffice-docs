@@ -800,7 +800,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personSourceRelation/birthMonth,personSourceRelation/supportLanguage,contactUdef/SuperOffice:8,contactExtra/x_contact_integer,contactExtra/x_contact_timespan
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personUpdatedBy,department,personTargetRelation/personBusiness,personTargetRelation/personDeletedDate,contactAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

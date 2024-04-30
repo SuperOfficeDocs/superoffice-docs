@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 361,
+  "SelectionId": 608,
   "SelectionMemberIds": [
-    955,
-    393
+    653,
+    703
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Business-focused local website",
-  "Postit": "qui",
+  "Description": "Face to face encompassing hub",
+  "Postit": "cumque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 180,
-  "IncludePerson": 995,
-  "MemberCount": 813,
-  "Name": "Denesik-Witting",
-  "PostitTextId": 420,
-  "CreatedDate": "2020-05-18T11:44:34.4626459+02:00",
-  "SelectionId": 987,
-  "SoundEx": "et",
-  "Source": 425,
-  "TextId": 487,
-  "UpdatedDate": "2020-09-29T11:44:34.4626459+02:00",
-  "UpdatedCount": 89,
-  "Visibility": 90,
+  "GroupIdx": 876,
+  "IncludePerson": 912,
+  "MemberCount": 349,
+  "Name": "Marks Inc and Sons",
+  "PostitTextId": 496,
+  "CreatedDate": "1999-09-16T11:16:09.7259925+02:00",
+  "SelectionId": 99,
+  "SoundEx": "dolorem",
+  "Source": 148,
+  "TextId": 704,
+  "UpdatedDate": "2017-06-16T11:16:09.7259925+02:00",
+  "UpdatedCount": 394,
+  "Visibility": 423,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 53,
-  "TargetTableName": "Greenfelder-O'Keefe",
-  "Completed": false,
-  "LeftSelectionId": 839,
-  "RightSelectionId": 616,
+  "CompanyUnique": true,
+  "TargetTableNumber": 250,
+  "TargetTableName": "Mraz LLC",
+  "Completed": true,
+  "LeftSelectionId": 53,
+  "RightSelectionId": 372,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Murazik LLC",
-  "ShadowProviderName": "Kutch, Sporer and Nikolaus",
-  "ChartKey": "et",
-  "LastLoaded": "2004-07-11T11:44:34.4626459+02:00",
-  "LastLoadedBy": 782,
+  "MainProviderName": "Abbott Inc and Sons",
+  "ShadowProviderName": "Nikolaus, Bruen and Morissette",
+  "ChartKey": "natus",
+  "LastLoaded": "2001-07-27T11:16:09.7259925+02:00",
+  "LastLoadedBy": 798,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-04-09T11:44:34.4626459+02:00",
-  "LastMembershipChangeBy": 255,
+  "LastMembershipChange": "2004-04-03T11:16:09.7259925+02:00",
+  "LastMembershipChangeBy": 536,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Dickens-Huel",
-  "DashboardTileDefinitionId": 691,
+  "MainHeading": "et",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Wisoky, Lockman and Tremblay",
+  "DashboardTileDefinitionId": 368,
   "VisibleFor": [
     {
-      "VisibleId": 327,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldLength": 934
         }
       }
     },
     {
-      "VisibleId": 327,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldLength": 934
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 108
     }
   }
 }

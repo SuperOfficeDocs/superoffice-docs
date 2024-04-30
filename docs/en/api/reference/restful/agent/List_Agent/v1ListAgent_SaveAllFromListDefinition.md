@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 280,
+  "UdListDefinitionId": 215,
   "Items": [
     {
-      "Id": 899,
-      "Name": "Johnson, Reichel and Heaney",
-      "Tooltip": "qui",
+      "Id": 738,
+      "Name": "Wisozk LLC",
+      "Tooltip": "sint",
       "Deleted": false,
-      "UdListDefinitionId": 134,
-      "Rank": 461
+      "UdListDefinitionId": 643,
+      "Rank": 967
     },
     {
-      "Id": 899,
-      "Name": "Johnson, Reichel and Heaney",
-      "Tooltip": "qui",
+      "Id": 738,
+      "Name": "Wisozk LLC",
+      "Tooltip": "sint",
       "Deleted": false,
-      "UdListDefinitionId": 134,
-      "Rank": 461
+      "UdListDefinitionId": 643,
+      "Rank": 967
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Hirthe-Strosin",
-    "Tooltip": "unde",
-    "Deleted": false,
-    "UdListDefinitionId": 395,
-    "Rank": 246,
+    "Id": 655,
+    "Name": "Volkman LLC",
+    "Tooltip": "quidem",
+    "Deleted": true,
+    "UdListDefinitionId": 336,
+    "Rank": 856,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 445
       }
     }
   }

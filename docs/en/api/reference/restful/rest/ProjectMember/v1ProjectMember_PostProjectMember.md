@@ -116,31 +116,31 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 792,
-  "ContactId": 378,
-  "ProjectId": 593,
-  "ContactName": "Ritchie, Koelpin and Bartoletti",
+  "ProjectmemberId": 334,
+  "ContactId": 396,
+  "ProjectId": 817,
+  "ContactName": "Connelly, Wisoky and Walsh",
   "ContactDepartment": "",
-  "ProjectName": "Bauch, Stamm and Wilderman",
-  "EmailId": 990,
-  "EmailAddress": "americo.gerhold@pollich.name",
-  "CountryId": 526,
-  "Firstname": "Kiel",
-  "MiddleName": "Batz-Franecki",
-  "Lastname": "Wehner",
-  "PersonId": 409,
+  "ProjectName": "Leuschke, Erdman and Shanahan",
+  "EmailId": 181,
+  "EmailAddress": "rickie@greenholtfadel.biz",
+  "CountryId": 949,
+  "Firstname": "Dudley",
+  "MiddleName": "Mertz, O'Reilly and Lind",
+  "Lastname": "Doyle",
+  "PersonId": 551,
   "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Champlin, Schmidt and Heathcote",
-  "Phone": "250.944.3776 x294",
-  "PhoneId": 585,
-  "ProjectMemberTypeId": 457,
-  "EmailAddressName": "raegan_jacobs@jacobson.com",
-  "Comment": "molestiae",
-  "FullName": "Prof. Linda Ben Davis"
+  "ProjectMemberTypeName": "Mills Inc and Sons",
+  "Phone": "368.098.9555 x3683",
+  "PhoneId": 808,
+  "ProjectMemberTypeId": 137,
+  "EmailAddressName": "anita_stracke@predovic.co.uk",
+  "Comment": "totam",
+  "FullName": "Jaida Klein"
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 305,
-  "ContactId": 427,
-  "ProjectId": 797,
-  "ContactName": "Hermiston, Heaney and Heller",
+  "ProjectmemberId": 101,
+  "ContactId": 242,
+  "ProjectId": 211,
+  "ContactName": "Stanton-Hintz",
   "ContactDepartment": "",
-  "ProjectName": "Wyman, Boehm and Glover",
-  "EmailId": 988,
-  "EmailAddress": "madisen.beatty@wisozk.co.uk",
-  "CountryId": 375,
-  "Firstname": "Elinor",
-  "MiddleName": "Fay, Simonis and Bins",
-  "Lastname": "Orn",
-  "PersonId": 128,
-  "Mrmrs": "placeat",
-  "ProjectMemberTypeName": "D'Amore, Christiansen and Abbott",
-  "Phone": "036-402-0989",
-  "PhoneId": 187,
-  "ProjectMemberTypeId": 764,
-  "EmailAddressName": "guiseppe@runte.us",
-  "Comment": "voluptas",
-  "FullName": "Maurice Kunze III",
+  "ProjectName": "Emard, Wuckert and Heller",
+  "EmailId": 422,
+  "EmailAddress": "florencio_jenkins@cartwrighthuels.us",
+  "CountryId": 501,
+  "Firstname": "Breanna",
+  "MiddleName": "Hoppe, Kemmer and Crona",
+  "Lastname": "Robel",
+  "PersonId": 312,
+  "Mrmrs": "voluptatum",
+  "ProjectMemberTypeName": "Mann Group",
+  "Phone": "365-034-1376 x336",
+  "PhoneId": 743,
+  "ProjectMemberTypeId": 384,
+  "EmailAddressName": "liana@lindgrensauer.com",
+  "Comment": "delectus",
+  "FullName": "Miss Caitlyn Betty Langworth III",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   },
   "_Links": {

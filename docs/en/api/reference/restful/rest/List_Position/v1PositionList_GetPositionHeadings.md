@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 336,
-    "Name": "Ullrich-Berge",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "Rank": 715,
-    "UdListDefinitionId": 895,
+    "HeadingId": 756,
+    "Name": "Dooley Inc and Sons",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 901,
+    "UdListDefinitionId": 378,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 686
       }
     }
   }

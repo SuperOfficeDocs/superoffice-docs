@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Olson Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 916,
-    "Rank": 133
+    "Id": 457,
+    "Name": "Rolfson-Bradtke",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "UdListDefinitionId": 453,
+    "Rank": 533
   },
   {
-    "Id": 411,
-    "Name": "Olson Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 916,
-    "Rank": 133
+    "Id": 457,
+    "Name": "Rolfson-Bradtke",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "UdListDefinitionId": 453,
+    "Rank": 533
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Kessler, Kohler and Sipes",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "UdListDefinitionId": 331,
-    "Rank": 322,
+    "Id": 456,
+    "Name": "Waelchi Inc and Sons",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "UdListDefinitionId": 915,
+    "Rank": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

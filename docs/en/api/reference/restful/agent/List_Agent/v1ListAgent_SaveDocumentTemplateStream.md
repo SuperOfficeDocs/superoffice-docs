@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 629,
+  "DocumentTemplateId": 624,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ducimus",
-  "PluginId": 977
+  "LanguageCode": "adipisci",
+  "PluginId": 304
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reynolds, Bode and Welch",
-  "Description": "Profound radical concept",
-  "ExternalReference": "velit",
-  "MimeType": "officia",
-  "PluginId": 34
+  "Name": "D'Amore, Mills and Block",
+  "Description": "Programmable 24/7 local area network",
+  "ExternalReference": "nihil",
+  "MimeType": "nesciunt",
+  "PluginId": 669
 }
 ```

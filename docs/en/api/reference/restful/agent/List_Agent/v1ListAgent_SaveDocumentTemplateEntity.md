@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 327,
-  "Name": "Marks Inc and Sons",
-  "Tooltip": "fugit",
-  "SaveInDb": 832,
-  "Filename": "est",
-  "DefaultOref": "sapiente",
+  "DocumentTemplateId": 697,
+  "Name": "Von-McGlynn",
+  "Tooltip": "ratione",
+  "SaveInDb": 71,
+  "Filename": "at",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 561,
-  "IntentId": 776,
+  "AutoeventId": 661,
+  "IntentId": 678,
   "IsDefaultPublished": true,
-  "Rank": 274,
-  "LoadTemplateFromPlugin": 720,
-  "MimeType": "repudiandae",
+  "Rank": 401,
+  "LoadTemplateFromPlugin": 280,
+  "MimeType": "animi",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 855,
+  "DocumentTypeKey": 329,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "haylie.adams@yost.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "alice_frami@zieme.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kelvin@tromp.com",
+  "SenderEmailAddress": "harmony@hoeger.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,36 +151,36 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateId": 183,
-  "Name": "Witting LLC",
-  "Tooltip": "incidunt",
-  "SaveInDb": 708,
-  "Filename": "voluptas",
-  "DefaultOref": "iusto",
+  "Name": "Bayer, Reynolds and Schiller",
+  "Tooltip": "rerum",
+  "SaveInDb": 642,
+  "Filename": "sit",
+  "DefaultOref": "earum",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 757,
-  "IntentId": 721,
+  "AutoeventId": 522,
+  "IntentId": 396,
   "IsDefaultPublished": false,
-  "Rank": 292,
-  "LoadTemplateFromPlugin": 884,
-  "MimeType": "et",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 37,
+  "Rank": 315,
+  "LoadTemplateFromPlugin": 406,
+  "MimeType": "ut",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 671,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "brice.roob@altenwerth.name",
-  "IncludeSignature": false,
+  "EmailSubject": "oren@christiansencrona.biz",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "manuel.beahan@sanford.name",
+  "SenderEmailAddress": "colten@dubuquekemmer.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 886
     }
   }
 }

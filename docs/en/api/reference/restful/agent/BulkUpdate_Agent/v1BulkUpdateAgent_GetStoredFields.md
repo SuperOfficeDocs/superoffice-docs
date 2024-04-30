@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "sunt"
+  "Tablename": "contact",
+  "Context": "eos"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "placeat",
-    "ValueType": "recusandae",
-    "Mandatory": true,
-    "EncodedDisplayName": "Hauck-Bednar",
-    "EncodedDisplayDescription": "Front-line 3rd generation migration",
-    "IconHint": "sed",
+    "Key": "deserunt",
+    "ValueType": "in",
+    "Mandatory": false,
+    "EncodedDisplayName": "Ebert-Gleason",
+    "EncodedDisplayDescription": "Focused stable leverage",
+    "IconHint": "iste",
     "ControlInfos": [
       {
-        "Type": "fugit",
-        "Label": "et",
-        "Dimension": 278,
-        "ListProviderName": "Wehner-Windler",
-        "ListProviderExtraInfo": "voluptate",
-        "ListProviderPrimaryKeyName": "Dibbert-Hickle",
-        "ListLeadText": "reiciendis",
+        "Type": "non",
+        "Label": "delectus",
+        "Dimension": 773,
+        "ListProviderName": "White Group",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Gaylord-Wintheiser",
+        "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 899
           }
         }
       }
     ],
-    "EncodedDataCaption": "nam",
-    "EncodedDataCaptionDescription": "Future-proofed 4th generation hardware",
-    "CurrentOperationType": "deserunt",
+    "EncodedDataCaption": "nostrum",
+    "EncodedDataCaptionDescription": "Managed asynchronous access",
+    "CurrentOperationType": "fugit",
     "Values": [
-      "ipsum",
-      "ut"
+      "maiores",
+      "quibusdam"
     ],
     "DisplayValues": [
-      "cupiditate",
-      "consequatur"
+      "quam",
+      "reprehenderit"
     ],
     "OperationInfos": [
       {
-        "Key": "id",
-        "EncodedDisplayName": "Purdy, Hermiston and Champlin",
+        "Key": "ullam",
+        "EncodedDisplayName": "Ernser Group",
         "EncodedLeadTexts": [
-          "consequatur",
-          "amet"
+          "modi",
+          "voluptatum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 969
+            "FieldType": "System.Int32",
+            "FieldLength": 556
           }
         }
       },
       {
-        "Key": "id",
-        "EncodedDisplayName": "Purdy, Hermiston and Champlin",
+        "Key": "ullam",
+        "EncodedDisplayName": "Ernser Group",
         "EncodedLeadTexts": [
-          "consequatur",
-          "amet"
+          "modi",
+          "voluptatum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 969
+            "FieldType": "System.Int32",
+            "FieldLength": 556
           }
         }
       }

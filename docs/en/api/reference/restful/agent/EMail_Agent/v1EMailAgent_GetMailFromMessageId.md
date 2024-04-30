@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "vitae"
+  "MessageId": "doloremque"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 23,
-      "ContactName": "Thiel, Vandervort and Johnston",
-      "PersonId": 520,
-      "PersonName": "Windler Inc and Sons",
-      "AssociateId": 232,
-      "Address": "placeat",
-      "EmailId": 857,
+      "ContactId": 105,
+      "ContactName": "Grant Inc and Sons",
+      "PersonId": 353,
+      "PersonName": "Nienow, Strosin and Mills",
+      "AssociateId": 544,
+      "Address": "et",
+      "EmailId": 607,
       "DuplicatePersonIds": [
-        709,
-        622
+        745,
+        796
       ],
-      "Name": "McClure Group",
+      "Name": "Stokes, Jacobs and Altenwerth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 873
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 844,
-      "ContactName": "Brekke-Schamberger",
-      "PersonId": 781,
-      "PersonName": "Grant-Watsica",
-      "AssociateId": 377,
-      "Address": "ad",
-      "EmailId": 214,
+      "ContactId": 429,
+      "ContactName": "McGlynn Inc and Sons",
+      "PersonId": 975,
+      "PersonName": "Marvin-Jakubowski",
+      "AssociateId": 113,
+      "Address": "sint",
+      "EmailId": 701,
       "DuplicatePersonIds": [
-        860,
-        353
+        980,
+        223
       ],
-      "Name": "Jerde LLC",
+      "Name": "Mueller-Denesik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 425
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 650,
-      "ContactName": "Balistreri LLC",
-      "PersonId": 72,
-      "PersonName": "Marvin-Kassulke",
-      "AssociateId": 440,
-      "Address": "et",
-      "EmailId": 144,
+      "ContactId": 848,
+      "ContactName": "Douglas, McKenzie and Botsford",
+      "PersonId": 148,
+      "PersonName": "Leannon, Zemlak and Beier",
+      "AssociateId": 640,
+      "Address": "eum",
+      "EmailId": 348,
       "DuplicatePersonIds": [
-        987,
-        44
+        397,
+        581
       ],
-      "Name": "Hudson-Wiegand",
+      "Name": "Herzog-Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Subject": "rem",
-  "HTMLBody": "blanditiis",
+  "Subject": "ut",
+  "HTMLBody": "occaecati",
   "From": null,
-  "Sent": "2013-03-04T11:44:33.5878385+01:00",
-  "Size": 634,
+  "Sent": "2018-11-03T11:16:09.1784746+01:00",
+  "Size": 691,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quibusdam",
-  "PlainBody": "soluta",
-  "IsSent": false,
+  "MessageID": "ut",
+  "PlainBody": "omnis",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 746,
+  "ServerId": 575,
   "Attachments": [
     {
-      "Description": "Synergistic grid-enabled architecture",
-      "Filename": "hic",
-      "Size": 979,
-      "Type": "dolores",
-      "Encoding": "iure",
-      "Id": "incidunt",
-      "Disposition": "debitis",
+      "Description": "User-friendly bi-directional monitoring",
+      "Filename": "natus",
+      "Size": 583,
+      "Type": "facere",
+      "Encoding": "corrupti",
+      "Id": "qui",
+      "Disposition": "ducimus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldType": "System.String",
+          "FieldLength": 497
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kozey, Mertz and Rath",
+      "Name": "Jacobson, Quigley and Veum",
       "Values": [
-        "expedita",
-        "rerum"
+        "aut",
+        "laudantium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldLength": 386
         }
       }
     },
     {
-      "Name": "Kozey, Mertz and Rath",
+      "Name": "Jacobson, Quigley and Veum",
       "Values": [
-        "expedita",
-        "rerum"
+        "aut",
+        "laudantium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldLength": 386
         }
       }
     }
   ],
-  "FolderName": "Macejkovic-Schinner",
-  "EmailItemId": 225,
-  "AccountId": 194,
-  "ReceivedAt": "2016-12-05T11:44:33.5878385+01:00",
+  "FolderName": "McKenzie Inc and Sons",
+  "EmailItemId": 56,
+  "AccountId": 341,
+  "ReceivedAt": "2009-01-27T11:16:09.1784746+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-09-16T11:44:33.5878385+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-04-01T11:16:09.1784746+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 723
     }
   }
 }

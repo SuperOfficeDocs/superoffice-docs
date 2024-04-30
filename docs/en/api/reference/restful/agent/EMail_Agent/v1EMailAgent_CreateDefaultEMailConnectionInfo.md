@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Kuhlman LLC",
-  "UserName": "Bogisich, Hessel and Abshire",
-  "Password": "voluptatem",
-  "Folder": "aliquid",
+  "ServerName": "Crona Inc and Sons",
+  "UserName": "Barton-Legros",
+  "Password": "temporibus",
+  "Folder": "eius",
   "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 147
     }
   }
 }

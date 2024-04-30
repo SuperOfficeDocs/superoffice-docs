@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Orn, Hegmann and Auer",
-  "Id": 118
+  "TableName": "Lockman, Trantow and Rau",
+  "Id": 827
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "dolor",
-    "Values2": "atque"
+    "Values1": "earum",
+    "Values2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 841
     }
   }
 }

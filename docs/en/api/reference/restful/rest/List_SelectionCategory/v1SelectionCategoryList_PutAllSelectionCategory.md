@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Kuhn Inc and Sons",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "UdListDefinitionId": 2,
-    "Rank": 672
+    "Id": 952,
+    "Name": "Cruickshank Group",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 604,
+    "Rank": 541
   },
   {
-    "Id": 589,
-    "Name": "Kuhn Inc and Sons",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "UdListDefinitionId": 2,
-    "Rank": 672
+    "Id": 952,
+    "Name": "Cruickshank Group",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 604,
+    "Rank": 541
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Morissette-Simonis",
-    "Tooltip": "et",
+    "Id": 268,
+    "Name": "Schumm-Huels",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 67,
-    "Rank": 948,
+    "UdListDefinitionId": 753,
+    "Rank": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 690
       }
     }
   }

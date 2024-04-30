@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=780
-POST /api/v1/Document/{documentId}/Content?personId=503
-POST /api/v1/Document/{documentId}/Content?appointmentId=176
-POST /api/v1/Document/{documentId}/Content?saleId=522
-POST /api/v1/Document/{documentId}/Content?selectionId=896
-POST /api/v1/Document/{documentId}/Content?projectId=682
-POST /api/v1/Document/{documentId}/Content?uiCulture=qui
+POST /api/v1/Document/{documentId}/Content?contactId=110
+POST /api/v1/Document/{documentId}/Content?personId=498
+POST /api/v1/Document/{documentId}/Content?appointmentId=51
+POST /api/v1/Document/{documentId}/Content?saleId=240
+POST /api/v1/Document/{documentId}/Content?selectionId=226
+POST /api/v1/Document/{documentId}/Content?projectId=883
+POST /api/v1/Document/{documentId}/Content?uiCulture=eius
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 225,
+  "DocumentId": 530,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eaque",
-  "Header": "dolore",
-  "Name": "Wilkinson-Schuppe",
-  "OurRef": "ut",
-  "YourRef": "omnis",
-  "CreatedDate": "2012-05-08T11:44:41.9609028+02:00",
-  "UpdatedDate": "2002-07-13T11:44:41.9609028+02:00",
-  "Description": "Integrated bottom-line data-warehouse",
+  "Attention": "exercitationem",
+  "Header": "vero",
+  "Name": "Streich Group",
+  "OurRef": "laborum",
+  "YourRef": "quos",
+  "CreatedDate": "2022-01-03T11:16:13.901969+01:00",
+  "UpdatedDate": "2000-04-07T11:16:13.901969+02:00",
+  "Description": "Switchable even-keeled access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-05-19T11:44:41.9609028+02:00",
-  "ExternalRef": "voluptatum",
+  "Date": "2001-12-24T11:16:13.901969+01:00",
+  "ExternalRef": "architecto",
   "Completed": "Completed",
-  "ActiveLinks": 213,
+  "ActiveLinks": 724,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Boyle-Lesch",
-      "Id": 498,
-      "Description": "Synchronised bandwidth-monitored customer loyalty",
-      "ExtraInfo": "maxime",
-      "LinkId": 335,
+      "EntityName": "Armstrong-Bode",
+      "Id": 927,
+      "Description": "Vision-oriented web-enabled alliance",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 334
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 959,
-  "Snum": 585,
+  "SuggestedDocumentId": 883,
+  "Snum": 640,
   "UserDefinedFields": {
-    "SuperOffice:1": "Tabitha Oberbrunner",
-    "SuperOffice:2": "1959939087"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "cumque"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2021-11-02T11:44:41.9609028+01:00",
-  "PublishTo": "2006-02-05T11:44:41.9609028+01:00",
-  "PublishFrom": "2018-08-04T11:44:41.9609028+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-10-07T11:16:13.901969+02:00",
+  "PublishTo": "2019-12-15T11:16:13.901969+01:00",
+  "PublishFrom": "2023-12-23T11:16:13.901969+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 187,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 575
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 187,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 575
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

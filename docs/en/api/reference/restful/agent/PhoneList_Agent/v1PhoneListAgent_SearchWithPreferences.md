@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "nihil",
+  "SearchString": "veritatis",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-057-463-0599",
-    "PersonCellPhone": "1-624-852-0102 x08422",
-    "PersonPrivatePhone": "(927)983-4421",
-    "PersonFaxNumber": "1012036",
-    "PersonPagerNumber": "664319",
-    "PersonEmail": "cathrine@kilback.name",
-    "Id": 928,
-    "Name": "Balistreri, McKenzie and Hauck",
-    "Tooltip": "maxime",
-    "UniqueId": "amet",
+    "PersonDirectPhone": "534-485-8910 x897",
+    "PersonCellPhone": "1-451-187-2696",
+    "PersonPrivatePhone": "1-075-172-3080 x5783",
+    "PersonFaxNumber": "1920134",
+    "PersonPagerNumber": "833640",
+    "PersonEmail": "eleanora_reinger@donnellyhaag.name",
+    "Id": 925,
+    "Name": "Crona Group",
+    "Tooltip": "qui",
+    "UniqueId": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 588
       }
     }
   }

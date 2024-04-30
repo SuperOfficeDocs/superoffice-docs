@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Halvorson Inc and Sons",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 361,
+  "Id": 824,
+  "Name": "Kihn Inc and Sons",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 127,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Dare LLC",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 585,
-  "IsCustomList": false,
+  "Id": 687,
+  "Name": "Marquardt Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 982,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 109
     }
   }
 }

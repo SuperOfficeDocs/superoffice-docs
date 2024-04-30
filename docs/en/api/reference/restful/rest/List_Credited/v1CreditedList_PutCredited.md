@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Schimmel, Krajcik and Adams",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "UdListDefinitionId": 396,
-  "Rank": 515
+  "Id": 217,
+  "Name": "Denesik-Durgan",
+  "Tooltip": "impedit",
+  "Deleted": true,
+  "UdListDefinitionId": 311,
+  "Rank": 95
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Hegmann Group",
-  "Tooltip": "voluptatum",
+  "Id": 858,
+  "Name": "Glover LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 488,
-  "Rank": 899,
+  "UdListDefinitionId": 569,
+  "Rank": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 238
     }
   }
 }

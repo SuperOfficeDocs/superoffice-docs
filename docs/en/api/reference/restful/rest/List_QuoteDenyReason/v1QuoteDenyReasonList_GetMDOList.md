@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=dolorum
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=odio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Wisozk Group",
-    "ToolTip": "Ad ab.",
+    "Id": 10,
+    "Name": "Hermiston-Hyatt",
+    "ToolTip": "Molestiae commodi tempora mollitia repudiandae impedit ut.",
     "Deleted": false,
-    "Rank": 306,
-    "Type": "magni",
+    "Rank": 348,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 615,
-        "Name": "Dickinson Inc and Sons",
-        "ToolTip": "Libero eos quas quibusdam voluptas.",
-        "Deleted": true,
-        "Rank": 943,
-        "Type": "nemo",
+        "Id": 611,
+        "Name": "Durgan, Steuber and Tromp",
+        "ToolTip": "Doloribus ut minus officia nulla.",
+        "Deleted": false,
+        "Rank": 742,
+        "Type": "rem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 11,
-        "ExtraInfo": "tempore",
-        "StyleHint": "omnis",
-        "FullName": "Alayna Citlalli Dach PhD",
+        "IconHint": "occaecati",
+        "ColorBlock": 146,
+        "ExtraInfo": "amet",
+        "StyleHint": "dolores",
+        "FullName": "Adrian Prosacco PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 181
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 27,
-    "ExtraInfo": "dolores",
-    "StyleHint": "atque",
-    "FullName": "Fatima Garth Murazik PhD",
+    "IconHint": "veniam",
+    "ColorBlock": 563,
+    "ExtraInfo": "sit",
+    "StyleHint": "asperiores",
+    "FullName": "Keon Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 111
       }
     }
   }

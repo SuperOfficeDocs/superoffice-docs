@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 217,
-  "ContactName": "Walter, Stanton and Bernier",
-  "PersonId": 246,
-  "PersonName": "Stehr-Witting",
-  "AssociateId": 67,
-  "Address": "vitae",
-  "EmailId": 571,
+  "ContactId": 478,
+  "ContactName": "Bednar Inc and Sons",
+  "PersonId": 477,
+  "PersonName": "Leuschke Group",
+  "AssociateId": 906,
+  "Address": "et",
+  "EmailId": 293,
   "DuplicatePersonIds": [
-    526,
-    153
+    185,
+    606
   ],
-  "Name": "Hansen-Doyle",
+  "Name": "Nolan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 313
     }
   }
 }

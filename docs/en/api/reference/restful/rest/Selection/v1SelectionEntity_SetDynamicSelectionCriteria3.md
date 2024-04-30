@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon LLC",
-    "Operator": "id",
+    "Name": "Armstrong-Bernhard",
+    "Operator": "quia",
     "Values": [
-      "quis",
-      "minus"
+      "laudantium",
+      "doloremque"
     ],
     "DisplayValues": [
-      "beatae",
-      "consequatur"
+      "ut",
+      "laborum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Bode Inc and Sons",
-        "Operator": "rerum",
+        "Name": "Pollich, McCullough and Howe",
+        "Operator": "officia",
         "Values": [
-          "ut",
-          "cupiditate"
+          "maiores",
+          "maiores"
         ],
         "DisplayValues": [
-          "accusantium",
-          "quis"
+          "fugiat",
+          "autem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 223,
+        "InterParenthesis": 757,
         "InterOperator": "And",
-        "UniqueHash": 785
+        "UniqueHash": 909
       }
     ],
-    "InterParenthesis": 814,
+    "InterParenthesis": 724,
     "InterOperator": "And",
-    "UniqueHash": 644
+    "UniqueHash": 580
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Roob-Ebert",
-    "Operator": "aut",
+    "Name": "Terry-Franecki",
+    "Operator": "possimus",
     "Values": [
-      "voluptate",
-      "voluptatem"
+      "pariatur",
+      "et"
     ],
     "DisplayValues": [
-      "doloribus",
-      "maiores"
+      "voluptas",
+      "consequuntur"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Corkery-Simonis",
-        "Operator": "placeat",
+        "Name": "Mayer, Pouros and Herman",
+        "Operator": "atque",
         "Values": [
-          "animi",
-          "dignissimos"
+          "fugiat",
+          "natus"
         ],
         "DisplayValues": [
-          "sit",
-          "eligendi"
+          "repudiandae",
+          "vero"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 621,
+        "InterParenthesis": 729,
         "InterOperator": "And",
-        "UniqueHash": 166
+        "UniqueHash": 452
       }
     ],
-    "InterParenthesis": 201,
+    "InterParenthesis": 383,
     "InterOperator": "And",
-    "UniqueHash": 363
+    "UniqueHash": 891
   }
 ]
 ```

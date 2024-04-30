@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bradtke-Welch",
+  "Name": "Rosenbaum-Schoen",
   "ForceFlatList": false,
-  "AdditionalInfo": "eum",
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    596,
-    5
+    71,
+    813
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Funk Group",
-    "ToolTip": "Et dolorum deserunt quam dicta ad debitis.",
-    "Deleted": true,
-    "Rank": 56,
-    "Type": "iusto",
-    "ColorBlock": 351,
-    "IconHint": "nesciunt",
+    "Id": 636,
+    "Name": "Keeling, Fay and Pagac",
+    "ToolTip": "Perspiciatis reiciendis et nulla rerum nemo aut.",
+    "Deleted": false,
+    "Rank": 397,
+    "Type": "aliquam",
+    "ColorBlock": 219,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2022-08-30T11:44:33.9471419+02:00",
+    "LastChanged": "2008-05-02T11:16:09.3972026+02:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Green Group",
-        "ToolTip": "Quisquam exercitationem.",
+        "Id": 984,
+        "Name": "Dicki LLC",
+        "ToolTip": "Ea dolorem qui quisquam et commodi repellendus.",
         "Deleted": true,
-        "Rank": 156,
-        "Type": "dolore",
-        "ColorBlock": 751,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2016-01-03T11:44:33.9471419+01:00",
+        "Rank": 496,
+        "Type": "deleniti",
+        "ColorBlock": 396,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2019-08-28T11:16:09.3972026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "quia",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Evangeline Leffler",
+        "FullName": "Justice Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 11
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "quia",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Lela Wuckert DVM",
+    "FullName": "Prof. Eunice Mabel Willms MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldType": "System.String",
+        "FieldLength": 561
       }
     }
   }

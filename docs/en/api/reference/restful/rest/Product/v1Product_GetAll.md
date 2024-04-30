@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=voluptatem
-GET /api/v1/Product?$top=613
-GET /api/v1/Product?$skip=945
+GET /api/v1/Product?$entities=a
+GET /api/v1/Product?$top=228
+GET /api/v1/Product?$skip=199
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=quo
+GET /api/v1/Product?$context=id
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -132,18 +132,16 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "accusamus",
   "value": [
     {
-      "PrimaryKey": 1726,
-      "EntityName": "sale",
-      "saleId": 1726,
-      "contactId": 3061,
-      "name": "Sipes, Donnelly and Reichert"
+      "PrimaryKey": 9941,
+      "EntityName": "person",
+      "personId": 9941,
+      "fullName": "Zion Nitzsche DDS"
     },
     {
-      "PrimaryKey": 502,
-      "EntityName": "sale",
-      "saleId": 502,
-      "contactId": 4621,
-      "name": "Gutkowski-Shanahan"
+      "PrimaryKey": 4814,
+      "EntityName": "person",
+      "personId": 4814,
+      "fullName": "Hoyt Pacocha Sr."
     }
   ]
 }

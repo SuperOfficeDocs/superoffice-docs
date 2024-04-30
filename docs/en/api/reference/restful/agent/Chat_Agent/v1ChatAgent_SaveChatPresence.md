@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 922,
-      "DisplayName": "Stracke, Fadel and Russel",
-      "OngoingChats": 254,
-      "Present": true,
+      "UserId": 261,
+      "DisplayName": "Schmitt, Jewess and Jacobi",
+      "OngoingChats": 54,
+      "Present": false,
       "ChatTopics": [
-        800,
-        25
+        960,
+        876
       ]
     },
     {
-      "UserId": 922,
-      "DisplayName": "Stracke, Fadel and Russel",
-      "OngoingChats": 254,
-      "Present": true,
+      "UserId": 261,
+      "DisplayName": "Schmitt, Jewess and Jacobi",
+      "OngoingChats": 54,
+      "Present": false,
       "ChatTopics": [
-        800,
-        25
+        960,
+        876
       ]
     }
   ]

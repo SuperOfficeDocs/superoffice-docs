@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 893,
-  "UniqueId": "quidem",
-  "Name": "Heller LLC",
-  "Description": "Progressive cohesive functionalities",
-  "AssociateId": 599,
-  "Columns": 519,
+  "DashboardId": 616,
+  "UniqueId": "doloremque",
+  "Name": "Christiansen, Orn and Ritchie",
+  "Description": "Proactive assymetric complexity",
+  "AssociateId": 251,
+  "Columns": 873,
   "Theme": null,
-  "VisibleForAll": 164,
+  "VisibleForAll": 871,
   "VisibleForAssociates": [
-    843,
-    359
+    739,
+    525
   ],
   "VisibleForGroups": [
-    761,
-    634
+    957,
+    663
   ],
-  "PinForAll": 700,
+  "PinForAll": 184,
   "PinForAssociates": [
-    163,
-    258
+    952,
+    772
   ],
   "PinForGroups": [
-    93,
-    915
+    164,
+    148
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 745,
-  "UniqueId": "delectus",
-  "Name": "Kiehn Inc and Sons",
-  "Description": "Up-sized stable product",
-  "AssociateId": 418,
-  "Columns": 22,
+  "DashboardId": 145,
+  "UniqueId": "necessitatibus",
+  "Name": "Mitchell, Ortiz and Hayes",
+  "Description": "Diverse even-keeled utilisation",
+  "AssociateId": 30,
+  "Columns": 987,
   "Theme": null,
-  "VisibleForAll": 571,
+  "VisibleForAll": 206,
   "VisibleForAssociates": [
-    684,
-    435
+    545,
+    165
   ],
   "VisibleForGroups": [
-    652,
-    612
+    813,
+    785
   ],
-  "PinForAll": 727,
+  "PinForAll": 728,
   "PinForAssociates": [
-    841,
-    341
+    535,
+    229
   ],
   "PinForGroups": [
-    604,
-    613
+    765,
+    971
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

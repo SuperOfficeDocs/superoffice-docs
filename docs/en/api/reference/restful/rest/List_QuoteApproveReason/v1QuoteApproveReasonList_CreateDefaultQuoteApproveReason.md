@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Flatley, McDermott and Cassin",
-  "Tooltip": "voluptatem",
+  "Id": 394,
+  "Name": "Lesch Inc and Sons",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 83,
-  "Rank": 263,
+  "UdListDefinitionId": 84,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 156
     }
   }
 }

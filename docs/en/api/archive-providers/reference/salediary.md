@@ -1110,7 +1110,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/hasInterests,person/email/emailLastBounce,person/personAddress/city,person/personAddress/zip,person/personUdef/SuperOffice:8
+GET /api/v1/archive/SaleDiary?$select=person/associateType,person/personAssociate/contactId,contact/stop,contact/email/emailHasBounced,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

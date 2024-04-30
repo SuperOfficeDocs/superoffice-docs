@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 830,
-    "Name": "Rippin Group",
-    "Tooltip": "sint",
+    "HeadingId": 697,
+    "Name": "Kihn-Schaefer",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 881,
-    "UdListDefinitionId": 486
+    "Rank": 508,
+    "UdListDefinitionId": 435
   },
   {
-    "HeadingId": 830,
-    "Name": "Rippin Group",
-    "Tooltip": "sint",
+    "HeadingId": 697,
+    "Name": "Kihn-Schaefer",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 881,
-    "UdListDefinitionId": 486
+    "Rank": 508,
+    "UdListDefinitionId": 435
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Jenkins, Wiegand and Ziemann",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "Rank": 944,
-    "UdListDefinitionId": 832,
+    "HeadingId": 473,
+    "Name": "Yost Group",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 544,
+    "UdListDefinitionId": 450,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 16
       }
     }
   }

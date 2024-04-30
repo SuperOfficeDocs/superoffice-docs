@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Ondricka-VonRueden",
-    "ToolTip": "Suscipit nulla.",
-    "Deleted": true,
-    "Rank": 43,
-    "Type": "harum",
-    "ColorBlock": 479,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2009-01-19T11:44:42.898184+01:00",
+    "Id": 253,
+    "Name": "Kuvalis, Nicolas and Larkin",
+    "ToolTip": "Ut ipsum eligendi voluptas nulla consectetur.",
+    "Deleted": false,
+    "Rank": 956,
+    "Type": "est",
+    "ColorBlock": 919,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2004-03-24T11:16:14.465178+01:00",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Rolfson LLC",
-        "ToolTip": "Enim fugiat eligendi.",
+        "Id": 600,
+        "Name": "Kautzer-Block",
+        "ToolTip": "Sapiente aperiam iure.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "ad",
-        "ColorBlock": 238,
-        "IconHint": "suscipit",
+        "Rank": 956,
+        "Type": "eos",
+        "ColorBlock": 874,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "1998-06-20T11:44:42.898184+02:00",
+        "LastChanged": "2012-11-21T11:16:14.465178+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "dolores",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Prof. Pascale Swaniawski DDS",
+        "FullName": "Edwardo Roberts MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "quia",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Keara Gerlach",
+    "FullName": "Miss Caesar Dessie Welch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 326
       }
     }
   }

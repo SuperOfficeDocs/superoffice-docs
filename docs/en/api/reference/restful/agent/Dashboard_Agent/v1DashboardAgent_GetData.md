@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 199,
-  "Restrictions": "est"
+  "DashboardTileId": 637,
+  "Restrictions": "molestiae"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Stokes Inc and Sons",
-        "DisplayTooltip": "quia",
-        "DisplayType": "quia",
+        "DisplayName": "Yost-Wilderman",
+        "DisplayTooltip": "enim",
+        "DisplayType": "ut",
         "CanOrderBy": false,
-        "Name": "Conroy, Pfannerstill and Greenholt",
+        "Name": "Waelchi, Barton and Bartell",
         "CanRestrictBy": false,
-        "RestrictionType": "unde",
-        "RestrictionListName": "Goldner, Kunze and Simonis",
-        "IsVisible": false,
-        "ExtraInfo": "repudiandae",
-        "Width": "sed",
-        "IconHint": "repudiandae",
-        "HeadingIconHint": "facere"
+        "RestrictionType": "voluptates",
+        "RestrictionListName": "Lemke-Russel",
+        "IsVisible": true,
+        "ExtraInfo": "provident",
+        "Width": "exercitationem",
+        "IconHint": "error",
+        "HeadingIconHint": "animi"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Stokes Inc and Sons",
-        "DisplayTooltip": "quia",
-        "DisplayType": "quia",
+        "DisplayName": "Yost-Wilderman",
+        "DisplayTooltip": "enim",
+        "DisplayType": "ut",
         "CanOrderBy": false,
-        "Name": "Conroy, Pfannerstill and Greenholt",
+        "Name": "Waelchi, Barton and Bartell",
         "CanRestrictBy": false,
-        "RestrictionType": "unde",
-        "RestrictionListName": "Goldner, Kunze and Simonis",
-        "IsVisible": false,
-        "ExtraInfo": "repudiandae",
-        "Width": "sed",
-        "IconHint": "repudiandae",
-        "HeadingIconHint": "facere"
+        "RestrictionType": "voluptates",
+        "RestrictionListName": "Lemke-Russel",
+        "IsVisible": true,
+        "ExtraInfo": "provident",
+        "Width": "exercitationem",
+        "IconHint": "error",
+        "HeadingIconHint": "animi"
       }
     ],
     "Result": null

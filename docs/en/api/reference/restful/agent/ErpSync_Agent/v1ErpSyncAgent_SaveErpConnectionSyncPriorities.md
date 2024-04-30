@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectionIds": [
-    266,
-    153
+    794,
+    237
   ]
 }
 ```

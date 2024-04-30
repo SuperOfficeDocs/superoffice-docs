@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Thiel-Becker",
-  "Columns": "eos",
-  "SortOrder": "dolorem",
-  "Restriction": "et",
-  "Entities": "debitis",
-  "Page": 501,
-  "PageSize": 224,
-  "Options": "deleniti"
+  "ProviderName": "Hessel, Halvorson and Quitzon",
+  "Columns": "reiciendis",
+  "SortOrder": "enim",
+  "Restriction": "tenetur",
+  "Entities": "iure",
+  "Page": 762,
+  "PageSize": 934,
+  "Options": "sint"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 742,
+  "RowCount": 238,
   "Rows": [
     {
-      "EntityName": "Kerluke-Littel",
-      "PrimaryKey": 51,
+      "EntityName": "Heller-Conn",
+      "PrimaryKey": 88,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cum",
-          "TooltipHint": "et",
-          "LinkHint": "assumenda"
+          "DisplayValue": "laudantium",
+          "TooltipHint": "laboriosam",
+          "LinkHint": "molestias"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "aliquam",
+      "LinkHint": "est",
+      "StyleHint": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 98
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

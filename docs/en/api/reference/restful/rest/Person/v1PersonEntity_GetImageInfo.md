@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 08 Apr 2020 11:44:42 G4T
+Last-Modified: Fri, 11 Feb 2022 11:16:14 G2T
 
 {
-  "BlobId": 159,
-  "BlobSize": 167,
-  "Description": "Adaptive high-level data-warehouse",
-  "ExtraInfo": "tempora",
+  "BlobId": 25,
+  "BlobSize": 501,
+  "Description": "Pre-emptive coherent throughput",
+  "ExtraInfo": "iure",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "porro",
-  "OriginalSize": 61,
-  "CreatedDate": "2015-02-26T11:44:42.1326915+01:00",
-  "UpdatedDate": "2020-04-08T11:44:42.1326915+02:00",
+  "MimeType": "dolores",
+  "OriginalSize": 142,
+  "CreatedDate": "2016-11-28T11:16:14.011336+01:00",
+  "UpdatedDate": "2022-02-11T11:16:14.011336+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nisi",
+  "ConceptualType": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 470
     }
   }
 }

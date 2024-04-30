@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 521,
-  "Name": "Cartwright Group",
-  "Tooltip": "sit",
+  "ExtAppId": 352,
+  "Name": "Bergnaum, Pacocha and Walker",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 271,
-  "Filename": "quia",
-  "Parameters": "sit",
-  "Workdir": "iure",
+  "Rank": 6,
+  "Filename": "et",
+  "Parameters": "aut",
+  "Workdir": "illum",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 491,
+  "ShowInStatusBar": false,
+  "Icon": 697,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "eum",
+  "Path": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

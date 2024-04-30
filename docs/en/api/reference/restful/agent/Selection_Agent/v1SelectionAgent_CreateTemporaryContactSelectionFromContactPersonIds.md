@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 827,
-      "ContactId": 464
+      "PersonId": 507,
+      "ContactId": 262
     },
     {
-      "PersonId": 827,
-      "ContactId": 464
+      "PersonId": 507,
+      "ContactId": 262
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused discrete initiative",
-  "Postit": "quos",
+  "Description": "De-engineered methodical product",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 332,
-  "IncludePerson": 459,
-  "MemberCount": 246,
-  "Name": "Kub-Adams",
-  "PostitTextId": 717,
-  "CreatedDate": "1999-01-15T11:44:34.4470256+01:00",
-  "SelectionId": 175,
-  "SoundEx": "maxime",
-  "Source": 166,
-  "TextId": 288,
-  "UpdatedDate": "2001-05-09T11:44:34.4470256+02:00",
-  "UpdatedCount": 609,
-  "Visibility": 490,
+  "GroupIdx": 511,
+  "IncludePerson": 161,
+  "MemberCount": 906,
+  "Name": "Monahan, Beahan and Brekke",
+  "PostitTextId": 341,
+  "CreatedDate": "2017-02-28T11:16:09.7103639+01:00",
+  "SelectionId": 1002,
+  "SoundEx": "tenetur",
+  "Source": 266,
+  "TextId": 526,
+  "UpdatedDate": "2012-09-06T11:16:09.7103639+02:00",
+  "UpdatedCount": 402,
+  "Visibility": 867,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 262,
-  "TargetTableName": "Farrell-Smitham",
-  "Completed": false,
-  "LeftSelectionId": 905,
-  "RightSelectionId": 74,
+  "TargetTableNumber": 540,
+  "TargetTableName": "Wuckert, Brown and Abshire",
+  "Completed": true,
+  "LeftSelectionId": 409,
+  "RightSelectionId": 85,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Reilly-Kling",
-  "ShadowProviderName": "Terry-O'Connell",
-  "ChartKey": "dolore",
-  "LastLoaded": "2022-05-28T11:44:34.4470256+02:00",
-  "LastLoadedBy": 963,
+  "MainProviderName": "Ratke-Koepp",
+  "ShadowProviderName": "Bogan, McLaughlin and Jerde",
+  "ChartKey": "cum",
+  "LastLoaded": "2005-11-01T11:16:09.7103639+01:00",
+  "LastLoadedBy": 442,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-12-25T11:44:34.4470256+01:00",
-  "LastMembershipChangeBy": 943,
+  "LastMembershipChange": "2011-04-27T11:16:09.7103639+02:00",
+  "LastMembershipChangeBy": 187,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Denesik-Kassulke",
-  "DashboardTileDefinitionId": 817,
+  "MainHeading": "error",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Ryan, Aufderhar and Schultz",
+  "DashboardTileDefinitionId": 959,
   "VisibleFor": [
     {
-      "VisibleId": 330,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 535
         }
       }
     },
     {
-      "VisibleId": 330,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldType": "System.String",
+          "FieldLength": 535
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 989
     }
   }
 }

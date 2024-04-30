@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 874
+  "SelectionId": 85
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Maggio, Hessel and Koepp",
-    "Operator": "rerum",
+    "Name": "Hills Group",
+    "Operator": "incidunt",
     "Values": [
-      "reprehenderit",
-      "vel"
+      "nesciunt",
+      "consequuntur"
     ],
     "DisplayValues": [
-      "fugiat",
-      "voluptatem"
+      "tenetur",
+      "rerum"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Nitzsche-Christiansen",
-        "Operator": "recusandae",
+        "Name": "Hane, Graham and Reichel",
+        "Operator": "explicabo",
         "Values": [
-          "minima",
-          "aut"
+          "et",
+          "occaecati"
         ],
         "DisplayValues": [
-          "repudiandae",
-          "est"
+          "velit",
+          "quo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 546,
+        "InterParenthesis": 934,
         "InterOperator": "And",
-        "UniqueHash": 470
+        "UniqueHash": 102
       }
     ],
-    "InterParenthesis": 432,
+    "InterParenthesis": 414,
     "InterOperator": "And",
-    "UniqueHash": 609
+    "UniqueHash": 84
   }
 ]
 ```

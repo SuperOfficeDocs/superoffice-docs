@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 481,
-    "Name": "Casper, Littel and Witting",
-    "Tooltip": "ut",
+    "WebPanelId": 851,
+    "Name": "Torphy, Stiedemann and Kassulke",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 33,
+    "Rank": 156,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Lehner-Champlin",
+    "ShowInStatusBar": false,
+    "WindowName": "Wyman, Kunze and Thiel",
     "Url": "http://www.example.com/",
-    "ProgId": "hic",
-    "Icon": 579,
+    "ProgId": "quisquam",
+    "Icon": 254,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

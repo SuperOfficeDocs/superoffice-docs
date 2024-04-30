@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 636,
-    "Name": "Beahan, Little and Mertz",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 743,
-    "UdListDefinitionId": 549
+    "HeadingId": 179,
+    "Name": "Reilly Inc and Sons",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 49,
+    "UdListDefinitionId": 526
   },
   {
-    "HeadingId": 636,
-    "Name": "Beahan, Little and Mertz",
-    "Tooltip": "eius",
-    "Deleted": false,
-    "Rank": 743,
-    "UdListDefinitionId": 549
+    "HeadingId": 179,
+    "Name": "Reilly Inc and Sons",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 49,
+    "UdListDefinitionId": 526
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Heaney-Skiles",
-    "Tooltip": "dolorem",
+    "HeadingId": 17,
+    "Name": "Nitzsche-Dibbert",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 883,
-    "UdListDefinitionId": 718,
+    "Rank": 375,
+    "UdListDefinitionId": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 916
       }
     }
   }

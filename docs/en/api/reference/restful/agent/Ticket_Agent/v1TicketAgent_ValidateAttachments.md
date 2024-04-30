@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    570,
-    1001
+    392,
+    224
   ]
 }
 ```
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 999,
+    "AttachmentId": 449,
     "IsValid": false,
-    "ErrorMessage": "autem"
+    "ErrorMessage": "dicta"
   },
   {
-    "AttachmentId": 999,
+    "AttachmentId": 449,
     "IsValid": false,
-    "ErrorMessage": "autem"
+    "ErrorMessage": "dicta"
   }
 ]
 ```

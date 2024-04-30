@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Cronin LLC",
-    "ToolTip": "Perspiciatis ratione.",
+    "Id": 515,
+    "Name": "Beahan LLC",
+    "ToolTip": "Laudantium hic inventore est et consequuntur nemo accusantium.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "recusandae",
-    "ColorBlock": 504,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "1999-06-30T11:44:43.085652+02:00",
+    "Rank": 105,
+    "Type": "odio",
+    "ColorBlock": 372,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2002-04-24T11:16:14.5745384+02:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Bergstrom, Yundt and Russel",
-        "ToolTip": "Aliquid minus dicta.",
+        "Id": 435,
+        "Name": "Schinner-Funk",
+        "ToolTip": "Et fugit blanditiis inventore rerum nisi cum.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "itaque",
-        "ColorBlock": 557,
-        "IconHint": "culpa",
+        "Rank": 665,
+        "Type": "incidunt",
+        "ColorBlock": 527,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2009-12-02T11:44:43.085652+01:00",
+        "LastChanged": "2012-02-06T11:16:14.5745384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Lilly Kessler",
+        "ExtraInfo": "sit",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Ariane Mabelle Schaden I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "cum",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ms. Cedrick Gutkowski DVM",
+    "FullName": "Russell Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

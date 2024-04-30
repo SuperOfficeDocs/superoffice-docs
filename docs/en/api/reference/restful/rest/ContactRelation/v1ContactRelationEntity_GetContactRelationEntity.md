@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Feb 2015 11:44:41 G2T
+Last-Modified: Thu, 10 Apr 2014 11:16:13 G4T
 
 {
-  "SourceContactId": 124,
-  "SourcePersonId": 660,
-  "DestinationContactId": 831,
-  "DestinationPersonId": 467,
-  "RelationId": 889,
-  "Comment": "quo",
-  "RelationDefinitionId": 984,
-  "Reversed": 75,
-  "UpdatedDate": "2015-02-05T11:44:41.8515534+01:00",
-  "CreatedDate": "2009-02-20T11:44:41.8515534+01:00",
+  "SourceContactId": 689,
+  "SourcePersonId": 622,
+  "DestinationContactId": 825,
+  "DestinationPersonId": 402,
+  "RelationId": 434,
+  "Comment": "molestias",
+  "RelationDefinitionId": 203,
+  "Reversed": 634,
+  "UpdatedDate": "2014-04-10T11:16:13.83947+02:00",
+  "CreatedDate": "2002-10-06T11:16:13.83947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Crona, Hand and Towne",
-  "SourcePersonName": "Balistreri-Kuhn",
-  "DestinationContactName": "Gislason Inc and Sons",
-  "DestinationPersonName": "Witting-Wilkinson",
-  "ActiveText": "ut",
-  "PassiveText": "ipsum",
+  "SourceContactName": "Kunde, Watsica and Wolf",
+  "SourcePersonName": "Friesen, Oberbrunner and Ebert",
+  "DestinationContactName": "Ortiz-Connelly",
+  "DestinationPersonName": "Baumbach Inc and Sons",
+  "ActiveText": "sint",
+  "PassiveText": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 702
     }
   },
   "_Links": {

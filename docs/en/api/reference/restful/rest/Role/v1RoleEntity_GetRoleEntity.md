@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 449,
-  "Name": "Balistreri LLC",
-  "Tooltip": "vitae",
+  "RoleId": 195,
+  "Name": "Spencer, Jakubowski and Murray",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 242,
-  "Rank": 660,
-  "Created": "1999-09-03T11:44:42.2107985+02:00",
-  "UseCategories": 735,
+  "Deleted": 494,
+  "Rank": 379,
+  "Created": "2017-04-26T11:16:14.1363143+02:00",
+  "UseCategories": 127,
   "CreatedBy": null,
-  "Updated": "1999-01-18T11:44:42.2107985+01:00",
+  "Updated": "2004-11-09T11:16:14.1363143+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 957
     }
   },
   "_Links": {

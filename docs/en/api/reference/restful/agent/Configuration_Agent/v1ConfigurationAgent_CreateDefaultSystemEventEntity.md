@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 778,
+  "SystemEventId": 84,
   "Scope": "Database",
-  "Eta": "2023-05-22T11:44:32.9942315+02:00",
-  "Eventkey": "quo",
-  "Eventmess": "maxime",
-  "ExtraInfo": 519,
-  "Owner": 338,
-  "UpdatedCount": 389,
-  "Registered": "2016-12-26T11:44:32.9942315+01:00",
+  "Eta": "1998-02-25T11:16:08.8503482+01:00",
+  "Eventkey": "atque",
+  "Eventmess": "corrupti",
+  "ExtraInfo": 242,
+  "Owner": 996,
+  "UpdatedCount": 23,
+  "Registered": "2017-03-18T11:16:08.8503482+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

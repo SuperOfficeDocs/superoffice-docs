@@ -28,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=972
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=27
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 577,
-  "EMailAddress": "similique",
-  "AssociateId": 811,
+  "EMailAccountId": 882,
+  "EMailAddress": "est",
+  "AssociateId": 583,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 832,
-  "ErrorCount": 518,
-  "ErrorReason": "visualize bleeding-edge web services",
-  "InboxFolder": "eveniet",
-  "SentFolder": "nobis",
+  "AccountStatus": 904,
+  "ErrorCount": 592,
+  "ErrorReason": "",
+  "InboxFolder": "ut",
+  "SentFolder": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 18
     }
   }
 }

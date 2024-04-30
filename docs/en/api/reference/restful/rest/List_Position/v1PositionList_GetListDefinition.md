@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Kessler, Maggio and Jerde",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 831,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "Id": 206,
+  "Name": "Rohan-Brown",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 307,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldLength": 967
     }
   },
   "_Links": {

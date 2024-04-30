@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 130
+  "QuoteVersionId": 478
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 472,
-    "ERPQuoteAlternativeKey": "corporis",
-    "QuoteVersionId": 240,
-    "Name": "Adams-Ernser",
-    "Description": "Streamlined coherent throughput",
+    "QuoteAlternativeId": 486,
+    "ERPQuoteAlternativeKey": "sed",
+    "QuoteVersionId": 692,
+    "Name": "Keeling Inc and Sons",
+    "Description": "Inverse well-modulated product",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 31205.237999999998,
-    "ERPDiscountAmount": 6493.648,
-    "DiscountPercent": 9116.806,
-    "DiscountAmount": 24673.982,
+    "ERPDiscountPercent": 17233.865999999998,
+    "ERPDiscountAmount": 6885.398,
+    "DiscountPercent": 22430.038,
+    "DiscountAmount": 26889.719999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "temporibus",
-    "VAT": 13999.578,
-    "EarningPercent": 21699.816,
-    "EarningAmount": 4870.236,
-    "SubTotal": 10953.33,
-    "TotalPrice": 17378.03,
-    "ExtraField1": "a",
-    "ExtraField2": "et",
-    "ExtraField3": "ipsum",
-    "ExtraField4": "quasi",
-    "ExtraField5": "omnis",
+    "VATInfo": "voluptatem",
+    "VAT": 4801.288,
+    "EarningPercent": 27278.336,
+    "EarningAmount": 12119.178,
+    "SubTotal": 16907.93,
+    "TotalPrice": 7064.036,
+    "ExtraField1": "dolor",
+    "ExtraField2": "dolor",
+    "ExtraField3": "fugit",
+    "ExtraField4": "ut",
+    "ExtraField5": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

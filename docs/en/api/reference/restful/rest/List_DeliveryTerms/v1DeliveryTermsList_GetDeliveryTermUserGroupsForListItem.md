@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Hand-Koss",
-    "ToolTip": "Perspiciatis deleniti itaque quisquam maiores.",
+    "Id": 219,
+    "Name": "Strosin LLC",
+    "ToolTip": "Temporibus culpa delectus.",
     "Deleted": false,
-    "Rank": 930,
-    "Type": "error",
-    "ColorBlock": 425,
-    "IconHint": "quia",
+    "Rank": 243,
+    "Type": "eius",
+    "ColorBlock": 161,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2005-12-08T11:44:43.0387817+01:00",
+    "LastChanged": "2001-08-30T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Buckridge Inc and Sons",
-        "ToolTip": "Sequi similique minima impedit ad.",
+        "Id": 676,
+        "Name": "Braun-Bartell",
+        "ToolTip": "Quas enim quo et aut architecto cumque.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "omnis",
-        "ColorBlock": 420,
-        "IconHint": "id",
+        "Rank": 598,
+        "Type": "excepturi",
+        "ColorBlock": 570,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2019-06-28T11:44:43.0387817+02:00",
+        "LastChanged": "2001-01-02T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "ut",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Miss Clifton Vada Rolfson",
+        "FullName": "Haylie Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldType": "System.String",
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "qui",
+    "ExtraInfo": "cumque",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Ms. Jacinto Stan Huel",
+    "FullName": "Avery Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 97
       }
     }
   }

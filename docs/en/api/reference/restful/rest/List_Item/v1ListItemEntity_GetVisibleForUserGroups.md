@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Green LLC",
-    "ToolTip": "Praesentium vel.",
+    "Id": 714,
+    "Name": "Luettgen LLC",
+    "ToolTip": "Expedita necessitatibus quia laudantium molestiae delectus.",
     "Deleted": true,
-    "Rank": 960,
-    "Type": "quod",
-    "ColorBlock": 452,
-    "IconHint": "dolor",
+    "Rank": 449,
+    "Type": "dolor",
+    "ColorBlock": 60,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2020-10-16T11:44:42.8825602+02:00",
+    "LastChanged": "2002-07-27T11:16:14.465178+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Morissette Group",
-        "ToolTip": "Perferendis quas officiis.",
-        "Deleted": false,
-        "Rank": 612,
+        "Id": 989,
+        "Name": "Tremblay, Zulauf and McLaughlin",
+        "ToolTip": "Repellat excepturi numquam facilis.",
+        "Deleted": true,
+        "Rank": 158,
         "Type": "qui",
-        "ColorBlock": 266,
-        "IconHint": "voluptatem",
+        "ColorBlock": 931,
+        "IconHint": "dolorum",
         "Selected": true,
-        "LastChanged": "2017-12-20T11:44:42.8825602+01:00",
+        "LastChanged": "2010-04-07T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "corporis",
         "Hidden": true,
-        "FullName": "Shane Frami",
+        "FullName": "Joaquin Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 9
+            "FieldLength": 698
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "provident",
-    "Hidden": false,
-    "FullName": "Adalberto Mills",
+    "ExtraInfo": "tempora",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Glennie Clotilde Hagenes II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldLength": 184
       }
     }
   }

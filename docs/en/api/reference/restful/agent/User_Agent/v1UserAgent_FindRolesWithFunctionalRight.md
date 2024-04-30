@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Murray-Pfannerstill"
+  "FunctionalRightName": "Mitchell-Dietrich"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Champlin, Pfannerstill and Wisozk",
-    "ToolTip": "Provident itaque ex dolor aliquid enim dignissimos.",
+    "Id": 331,
+    "Name": "Keebler Group",
+    "ToolTip": "Illo dicta ea.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "eum",
+    "Rank": 649,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Adams-West",
-        "ToolTip": "Placeat tempore voluptatum ipsam ut dolorem ex aut.",
-        "Deleted": true,
-        "Rank": 740,
-        "Type": "est",
+        "Id": 9,
+        "Name": "Emmerich, Schoen and Olson",
+        "ToolTip": "Inventore dolor id veniam cumque.",
+        "Deleted": false,
+        "Rank": 875,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 365,
-        "ExtraInfo": "saepe",
-        "StyleHint": "et",
-        "FullName": "Darian Wilkinson",
+        "IconHint": "illum",
+        "ColorBlock": 467,
+        "ExtraInfo": "similique",
+        "StyleHint": "modi",
+        "FullName": "Prof. Constantin Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldType": "System.String",
+            "FieldLength": 356
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 63,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "quis",
-    "FullName": "Roosevelt Veum IV",
+    "IconHint": "earum",
+    "ColorBlock": 563,
+    "ExtraInfo": "quod",
+    "StyleHint": "hic",
+    "FullName": "Leon Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 10
       }
     }
   }

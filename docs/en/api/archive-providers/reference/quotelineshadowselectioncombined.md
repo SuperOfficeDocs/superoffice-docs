@@ -747,7 +747,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=earningAmount,alternative/version/quote/sale/updatedDate,alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/person/personPrivate/formattedNumber,alternative/version/quote/sale/contact/contactUdef/SuperOffice:9
+GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=vatAmount,alternative/version/quote/sale/person/personExtra/x_person_contact_relation,alternative/version/quote/sale/person/correspondingAssociate/userName,alternative/version/quote/sale/contact/orgnr
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

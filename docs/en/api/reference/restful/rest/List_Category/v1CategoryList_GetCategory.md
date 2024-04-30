@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Name": "Gutmann Inc and Sons",
-  "Tooltip": "laborum",
+  "Id": 92,
+  "Name": "Grady-Legros",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 709,
-  "Rank": 218,
+  "UdListDefinitionId": 89,
+  "Rank": 977,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 315
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abbott Group",
+  "Name": "Krajcik-Stoltenberg",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bayer-Waelchi",
-    "SoPrimaryKey": 639,
-    "EntryName": "Beatty Group",
-    "EntryIdentifier": "nobis",
-    "RuleDisplayName": "Tillman-Blanda",
+    "RuleName": "Kerluke Inc and Sons",
+    "SoPrimaryKey": 26,
+    "EntryName": "Wintheiser-Deckow",
+    "EntryIdentifier": "error",
+    "RuleDisplayName": "Greenholt Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 147
       }
     }
   }

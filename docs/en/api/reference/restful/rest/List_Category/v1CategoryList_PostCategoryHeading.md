@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 387,
-  "Name": "Johnston Inc and Sons",
-  "Tooltip": "sit",
+  "HeadingId": 820,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 461,
-  "UdListDefinitionId": 572
+  "Rank": 540,
+  "UdListDefinitionId": 650
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 389,
-  "Name": "Beahan-Prosacco",
-  "Tooltip": "omnis",
+  "HeadingId": 232,
+  "Name": "Nienow-Ritchie",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 791,
-  "UdListDefinitionId": 712,
+  "Rank": 574,
+  "UdListDefinitionId": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   }
 }

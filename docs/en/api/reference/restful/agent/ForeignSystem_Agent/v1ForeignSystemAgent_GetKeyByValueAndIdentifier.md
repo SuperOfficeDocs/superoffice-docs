@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weissnat-Marquardt",
-  "DeviceName": "Koelpin-Effertz",
-  "DeviceIdentifier": "esse",
-  "KeyName": "Herman Group",
-  "KeyValue": "qui",
-  "TableName": "Boyle-Bednar"
+  "ApplicationName": "Gutmann LLC",
+  "DeviceName": "Marks, Muller and Reynolds",
+  "DeviceIdentifier": "qui",
+  "KeyName": "Barton, Huel and White",
+  "KeyValue": "amet",
+  "TableName": "Emmerich LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "minima",
-  "RecordId": 282,
-  "CreatedDate": "2007-09-29T11:44:33.7753083+02:00",
-  "UpdatedDate": "2005-09-17T11:44:33.7753083+02:00",
-  "UpdatedBy": "minima",
-  "CreatedBy": "laboriosam",
-  "TableName": "Harber LLC",
+  "Key": "labore",
+  "Value": "aut",
+  "RecordId": 249,
+  "CreatedDate": "2016-02-03T11:16:09.2878404+01:00",
+  "UpdatedDate": "2019-12-31T11:16:09.2878404+01:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "in",
+  "TableName": "Moore, Hoppe and Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 153
     }
   }
 }

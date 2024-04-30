@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 789,
-    "Name": "Kuhic-Green",
-    "Tooltip": "qui",
+    "HeadingId": 234,
+    "Name": "Marquardt, Murazik and Schaefer",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 71,
-    "UdListDefinitionId": 188,
+    "Rank": 663,
+    "UdListDefinitionId": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

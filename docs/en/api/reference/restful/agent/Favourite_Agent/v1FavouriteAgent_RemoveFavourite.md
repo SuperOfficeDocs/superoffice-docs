@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ankunding-Halvorson",
-  "RecordId": 654,
-  "AssociateId": 784
+  "TableName": "Marvin, Mraz and Heathcote",
+  "RecordId": 697,
+  "AssociateId": 155
 }
 ```
 

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Sawayn, Ryan and Batz",
-    "ToolTip": "Ea qui eos enim id minima voluptatem.",
-    "Deleted": false,
-    "Rank": 509,
-    "Type": "et",
-    "ColorBlock": 9,
-    "IconHint": "pariatur",
+    "Id": 849,
+    "Name": "Orn, Corkery and D'Amore",
+    "ToolTip": "Quia fugiat dolor officiis.",
+    "Deleted": true,
+    "Rank": 710,
+    "Type": "ratione",
+    "ColorBlock": 158,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2017-01-06T11:44:43.1481263+01:00",
+    "LastChanged": "2015-05-05T11:16:14.6057886+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Ziemann, Franecki and Jacobson",
-        "ToolTip": "Sequi cumque ducimus fugiat explicabo alias.",
+        "Id": 915,
+        "Name": "Russel, Zemlak and Littel",
+        "ToolTip": "Facilis provident rerum saepe et voluptas.",
         "Deleted": false,
-        "Rank": 939,
-        "Type": "itaque",
-        "ColorBlock": 742,
-        "IconHint": "doloremque",
+        "Rank": 260,
+        "Type": "qui",
+        "ColorBlock": 738,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2021-12-05T11:44:43.1481263+01:00",
+        "LastChanged": "2000-08-30T11:16:14.6057886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Alex Rutherford III",
+        "ExtraInfo": "vel",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Ethelyn Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Dr. Stan Hirthe Sr.",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Jeanie Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 27
       }
     }
   }

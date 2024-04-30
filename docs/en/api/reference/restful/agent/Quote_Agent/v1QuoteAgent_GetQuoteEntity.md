@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 125
+  "QuoteId": 500
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 86,
-  "SaleId": 170,
-  "QuoteConnectionId": 576,
-  "ERPQuoteKey": "quas",
-  "ERPOrderKey": "consequuntur",
-  "ActiveQuoteVersionId": 251,
-  "AcceptedQuoteAlternativeId": 832,
-  "UseValuesFromQuote": 173,
-  "DocumentId": 760,
-  "PoNumber": "374338",
-  "OrderComment": "alias",
-  "PreferredEmailCulture": "danny.johns@rowehodkiewicz.info",
+  "QuoteId": 35,
+  "SaleId": 772,
+  "QuoteConnectionId": 607,
+  "ERPQuoteKey": "natus",
+  "ERPOrderKey": "aspernatur",
+  "ActiveQuoteVersionId": 490,
+  "AcceptedQuoteAlternativeId": 535,
+  "UseValuesFromQuote": 410,
+  "DocumentId": 221,
+  "PoNumber": "1333707",
+  "OrderComment": "laborum",
+  "PreferredEmailCulture": "ramon@lockman.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 674,
-      "ERPQuoteVersionKey": "et",
-      "QuoteId": 971,
-      "Description": "Assimilated scalable challenge",
-      "Number": "582983",
+      "QuoteVersionId": 814,
+      "ERPQuoteVersionKey": "tempora",
+      "QuoteId": 695,
+      "Description": "Organic web-enabled productivity",
+      "Number": "1417735",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 681,
-      "SentDate": "2024-01-18T11:44:34.2907996+01:00",
-      "FollowupId": 5,
-      "ExpirationDate": "2023-10-10T11:44:34.2907996+02:00",
-      "DeliveryCountryId": 100,
+      "LikelyQuoteAlternativeId": 155,
+      "SentDate": "2001-07-31T11:16:09.6161411+02:00",
+      "FollowupId": 501,
+      "ExpirationDate": "2015-09-23T11:16:09.6161411+02:00",
+      "DeliveryCountryId": 274,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 500,
+      "InvoiceCountryId": 276,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "sequi",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "eos",
-      "ERPDeliveryTypeKey": "dicta",
-      "Rank": 585,
-      "ApprovedBy": 888,
-      "ApprovedText": "sunt",
-      "ApprovedRegisteredBy": 454,
-      "ApprovedRegisteredDate": "2006-02-23T11:44:34.2907996+01:00",
-      "ExtraField1": "sequi",
-      "ExtraField2": "dolore",
-      "ExtraField3": "quidem",
-      "ExtraField4": "incidunt",
-      "ExtraField5": "est",
-      "LastRecalculated": "2013-12-28T11:44:34.2907996+01:00",
-      "Updated": "1997-01-10T11:44:34.2907996+01:00",
-      "UpdatedAssociateId": 739,
-      "Registered": "2012-08-26T11:44:34.2907996+02:00",
-      "RegisteredAssociateId": 493,
-      "RequestAssociateId": 348,
-      "RequestComment": "amet",
+      "ERPPaymentTermsKey": "voluptas",
+      "ERPPaymentTypeKey": "veritatis",
+      "ERPDeliveryTermsKey": "in",
+      "ERPDeliveryTypeKey": "voluptas",
+      "Rank": 10,
+      "ApprovedBy": 779,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 48,
+      "ApprovedRegisteredDate": "1999-06-20T11:16:09.6161411+02:00",
+      "ExtraField1": "expedita",
+      "ExtraField2": "deserunt",
+      "ExtraField3": "rerum",
+      "ExtraField4": "iste",
+      "ExtraField5": "quas",
+      "LastRecalculated": "2019-10-04T11:16:09.6161411+02:00",
+      "Updated": "1997-03-08T11:16:09.6161411+01:00",
+      "UpdatedAssociateId": 225,
+      "Registered": "1999-02-26T11:16:09.6161411+01:00",
+      "RegisteredAssociateId": 618,
+      "RequestAssociateId": 835,
+      "RequestComment": "eligendi",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldLength": 957
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

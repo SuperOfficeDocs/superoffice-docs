@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Welch Group",
-  "DeviceName": "Schmeler-Schuster",
-  "DeviceIdentifier": "eum"
+  "ApplicationName": "O'Kon-Bartoletti",
+  "DeviceName": "McLaughlin Group",
+  "DeviceIdentifier": "suscipit"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "culpa",
-  "Value": "modi",
-  "RecordId": 850,
-  "CreatedDate": "1997-12-07T11:44:33.7753083+01:00",
-  "UpdatedDate": "2009-11-14T11:44:33.7753083+01:00",
-  "UpdatedBy": "officia",
-  "CreatedBy": "corporis",
-  "TableName": "Prosacco-D'Amore",
+  "Key": "eum",
+  "Value": "dicta",
+  "RecordId": 870,
+  "CreatedDate": "2001-06-30T11:16:09.2878404+02:00",
+  "UpdatedDate": "1997-06-12T11:16:09.2878404+02:00",
+  "UpdatedBy": "iusto",
+  "CreatedBy": "eum",
+  "TableName": "Little-Haag",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

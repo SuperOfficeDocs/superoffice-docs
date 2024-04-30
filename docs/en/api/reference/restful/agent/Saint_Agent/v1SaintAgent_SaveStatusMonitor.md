@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 113,
-  "Rank": 610,
-  "DefaultTask": 876,
-  "DefaultTaskText": "ullam",
-  "IsVisual": false,
-  "LastGenerated": "2007-06-04T11:44:34.3376813+02:00",
-  "Description": "Centralized multi-state open system",
-  "Name": "Jenkins, Flatley and Weimann",
-  "StatusMonitorId": 771,
-  "PictureId": 515,
-  "NeedsUpdate": false,
+  "OwnerTable": 61,
+  "Rank": 66,
+  "DefaultTask": 683,
+  "DefaultTaskText": "quia",
+  "IsVisual": true,
+  "LastGenerated": "2006-02-05T11:16:09.6473837+01:00",
+  "Description": "Diverse multimedia support",
+  "Name": "Jacobs, Howell and Larkin",
+  "StatusMonitorId": 448,
+  "PictureId": 550,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 626,
-  "NumNeedUpdate": 981,
-  "GenerationStart": "1997-08-19T11:44:34.3376813+02:00"
+  "NumMatches": 992,
+  "NumNeedUpdate": 661,
+  "GenerationStart": "2016-07-06T11:16:09.6473837+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 652,
-  "Rank": 518,
-  "DefaultTask": 993,
-  "DefaultTaskText": "quia",
+  "OwnerTable": 209,
+  "Rank": 778,
+  "DefaultTask": 923,
+  "DefaultTaskText": "odit",
   "IsVisual": true,
-  "LastGenerated": "2005-11-24T11:44:34.3376813+01:00",
-  "Description": "Customizable content-based definition",
-  "Name": "Funk-Streich",
-  "StatusMonitorId": 71,
-  "PictureId": 711,
+  "LastGenerated": "2003-02-03T11:16:09.6473837+01:00",
+  "Description": "Front-line optimal extranet",
+  "Name": "Daniel Group",
+  "StatusMonitorId": 454,
+  "PictureId": 637,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 825,
-  "NumNeedUpdate": 956,
-  "GenerationStart": "2020-07-31T11:44:34.3376813+02:00",
+  "Deleted": false,
+  "NumMatches": 294,
+  "NumNeedUpdate": 645,
+  "GenerationStart": "2005-01-21T11:16:09.6473837+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

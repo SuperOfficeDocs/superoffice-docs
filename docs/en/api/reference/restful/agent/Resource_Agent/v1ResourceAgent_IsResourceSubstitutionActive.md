@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Wilderman, Adams and Effertz",
-    "Hettinger LLC"
+    "Cassin-Fisher",
+    "Stoltenberg LLC"
   ],
-  "Culture": "animi"
+  "Culture": "voluptas"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Dietrich, Murray and Bradtke",
-    "ResourceValue": "est",
-    "Culture": "aperiam",
+    "ResourceName": "Reinger, Beahan and Stracke",
+    "ResourceValue": "praesentium",
+    "Culture": "a",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 554
       }
     }
   },
   {
-    "ResourceName": "Dietrich, Murray and Bradtke",
-    "ResourceValue": "est",
-    "Culture": "aperiam",
+    "ResourceName": "Reinger, Beahan and Stracke",
+    "ResourceValue": "praesentium",
+    "Culture": "a",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 554
       }
     }
   }

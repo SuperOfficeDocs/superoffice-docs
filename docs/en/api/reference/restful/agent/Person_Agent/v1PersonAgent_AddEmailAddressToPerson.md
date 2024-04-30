@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 632,
-  "EmailAddress": "raymond.cremin@koch.ca",
-  "SetAsPrimaryEmail": false
+  "PersonId": 492,
+  "EmailAddress": "adriel.funk@deckow.us",
+  "SetAsPrimaryEmail": true
 }
 ```
 

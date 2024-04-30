@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Hessel-Champlin",
-    "ToolTip": "Nostrum ut nihil neque impedit nemo.",
-    "Deleted": true,
-    "Rank": 300,
-    "Type": "aut",
-    "ColorBlock": 565,
-    "IconHint": "voluptatum",
+    "Id": 773,
+    "Name": "Kessler Group",
+    "ToolTip": "Sunt rerum natus est qui.",
+    "Deleted": false,
+    "Rank": 470,
+    "Type": "et",
+    "ColorBlock": 555,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2014-11-16T11:44:43.2731075+01:00",
+    "LastChanged": "2005-08-11T11:16:14.6839019+02:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Larson-Howe",
-        "ToolTip": "Est consequatur adipisci aliquid dolorum sit repellat.",
+        "Id": 640,
+        "Name": "Wisoky Group",
+        "ToolTip": "Asperiores dolorem animi ipsam aut deleniti mollitia perferendis.",
         "Deleted": false,
-        "Rank": 9,
-        "Type": "ipsa",
-        "ColorBlock": 874,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2022-09-16T11:44:43.2731075+02:00",
+        "Rank": 460,
+        "Type": "nostrum",
+        "ColorBlock": 349,
+        "IconHint": "amet",
+        "Selected": true,
+        "LastChanged": "2024-04-15T11:16:14.6839019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Dr. Edyth Estevan Dickens"
+        "ExtraInfo": "sit",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Julius Goldner"
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "quod",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Reynold Hagenes"
+    "FullName": "Skye Okuneva"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Pollich-Schultz",
-    "ToolTip": "Voluptatem qui.",
+    "Id": 131,
+    "Name": "Bogisich, Roob and Marquardt",
+    "ToolTip": "Quia molestias voluptatem error ea.",
     "Deleted": false,
-    "Rank": 623,
-    "Type": "quis",
-    "ColorBlock": 608,
-    "IconHint": "hic",
+    "Rank": 320,
+    "Type": "assumenda",
+    "ColorBlock": 223,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "1999-03-01T11:44:43.2731075+01:00",
+    "LastChanged": "2000-10-30T11:16:14.6839019+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Frami-Ebert",
-        "ToolTip": "Doloribus esse modi numquam sed est.",
+        "Id": 665,
+        "Name": "Wehner Group",
+        "ToolTip": "Vitae atque adipisci praesentium.",
         "Deleted": false,
-        "Rank": 425,
-        "Type": "architecto",
-        "ColorBlock": 125,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1998-10-19T11:44:43.2731075+02:00",
+        "Rank": 265,
+        "Type": "vitae",
+        "ColorBlock": 457,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2024-01-20T11:16:14.6839019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Cara Burdette Baumbach PhD",
+        "ExtraInfo": "non",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Ms. Baby Christiansen Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 96
+            "FieldLength": 199
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Stephanie Prosacco",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Sydnie Jailyn Wiza Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

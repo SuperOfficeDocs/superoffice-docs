@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=285
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=85
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 715,
-  "UniqueIdentifier": "adipisci",
-  "Name": "Lockman-Kutch",
-  "Description": "Implemented transitional website",
-  "IncludeId": "unde",
-  "HierarchyId": 150,
-  "Source": "odio",
-  "Registered": "2002-07-31T11:44:33.3379103+02:00",
-  "RegisteredAssociateId": 934,
-  "Updated": "2015-08-05T11:44:33.3379103+02:00",
-  "UpdatedAssociateId": 475,
+  "EjscriptId": 737,
+  "UniqueIdentifier": "est",
+  "Name": "Ankunding-Price",
+  "Description": "Customer-focused clear-thinking concept",
+  "IncludeId": "quia",
+  "HierarchyId": 668,
+  "Source": "dicta",
+  "Registered": "2010-05-25T11:16:08.9597121+02:00",
+  "RegisteredAssociateId": 513,
+  "Updated": "1999-11-14T11:16:08.9597121+01:00",
+  "UpdatedAssociateId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

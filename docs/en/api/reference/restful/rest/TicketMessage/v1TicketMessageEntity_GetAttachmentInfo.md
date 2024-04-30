@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 621,
-    "Name": "Runte Group",
-    "ContentType": "aspernatur",
-    "AttSize": 254,
+    "AttachmentId": 667,
+    "Name": "Robel LLC",
+    "ContentType": "qui",
+    "AttSize": 430,
     "InlineImage": false,
-    "ContentId": "aut",
-    "AuthKey": "enim",
+    "ContentId": "vero",
+    "AuthKey": "ut",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldType": "System.String",
+        "FieldLength": 148
       }
     }
   }

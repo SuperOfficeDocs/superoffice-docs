@@ -58,6 +58,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nikolaus, Paucek and Gerlach",
-    "DisplayName": "Shanahan Inc and Sons",
-    "Description": "Intuitive foreground conglomeration",
-    "ShortLabel": "et",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Sipes-Bernhard",
+    "DisplayName": "Pouros, Willms and Kunze",
+    "Description": "Automated homogeneous matrix",
+    "ShortLabel": "distinctio",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": true,
-    "Rank": 912,
-    "TemplateVariableName": "Cummerata-Bechtelar"
+    "IsDisplayField": true,
+    "Rank": 925,
+    "TemplateVariableName": "Beer, Reinger and Towne"
   }
 ]
 ```

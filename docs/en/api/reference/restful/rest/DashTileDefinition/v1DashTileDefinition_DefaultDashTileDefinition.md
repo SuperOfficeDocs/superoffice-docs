@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 743,
-  "Name": "Abbott, Zemlak and Bednar",
-  "Description": "User-centric bifurcated paradigm",
-  "DefaultHeight": 742,
-  "DefaultWidth": 983,
+  "DashboardTileDefinitionId": 444,
+  "Name": "Williamson, Boyer and Kulas",
+  "Description": "Devolved foreground time-frame",
+  "DefaultHeight": 210,
+  "DefaultWidth": 688,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "West, Gulgowski and Weber",
-  "SelectionId": 967,
+  "EntityName": "Stoltenberg Inc and Sons",
+  "SelectionId": 576,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolor",
+  "CurrencyCode": "quia",
   "Measure": "Average",
-  "MeasureField": "fugiat",
-  "SortBy": "et",
-  "LayoutConfig": "in",
-  "SecondarySelectionId": 265,
-  "MeasureByField": "aut",
+  "MeasureField": "praesentium",
+  "SortBy": "tempore",
+  "LayoutConfig": "similique",
+  "SecondarySelectionId": 801,
+  "MeasureByField": "excepturi",
   "Usage": "Dashboard",
-  "ProviderName": "Kihn LLC",
+  "ProviderName": "Moen-Kirlin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Ward LLC",
-      "EntityOrParentId": 726,
+      "EntityName": "Runolfsdottir LLC",
+      "EntityOrParentId": 673,
       "RequestForNewRecord": true
     },
     {
-      "EntityName": "Ward LLC",
-      "EntityOrParentId": 726,
+      "EntityName": "Runolfsdottir LLC",
+      "EntityOrParentId": 673,
       "RequestForNewRecord": true
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 823,
-    "Id": 311,
-    "HistoryName": "Koch Inc and Sons",
-    "HistoryId": 845,
-    "AssociateId": 691,
-    "Name": "Wintheiser-Price",
-    "ItemInfo": "repudiandae",
+    "Rank": 454,
+    "Id": 509,
+    "HistoryName": "Little Inc and Sons",
+    "HistoryId": 53,
+    "AssociateId": 172,
+    "Name": "Gutmann Inc and Sons",
+    "ItemInfo": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

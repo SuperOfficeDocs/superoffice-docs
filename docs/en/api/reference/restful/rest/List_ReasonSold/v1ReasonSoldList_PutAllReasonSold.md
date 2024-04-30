@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Ortiz-Kirlin",
-    "Tooltip": "sapiente",
+    "Id": 790,
+    "Name": "Considine, Volkman and Lind",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "UdListDefinitionId": 943,
-    "Rank": 639
+    "UdListDefinitionId": 165,
+    "Rank": 125
   },
   {
-    "Id": 265,
-    "Name": "Ortiz-Kirlin",
-    "Tooltip": "sapiente",
+    "Id": 790,
+    "Name": "Considine, Volkman and Lind",
+    "Tooltip": "cupiditate",
     "Deleted": true,
-    "UdListDefinitionId": 943,
-    "Rank": 639
+    "UdListDefinitionId": 165,
+    "Rank": 125
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "O'Conner Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 944,
+    "Id": 958,
+    "Name": "Denesik, Wunsch and Braun",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 218,
+    "Rank": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

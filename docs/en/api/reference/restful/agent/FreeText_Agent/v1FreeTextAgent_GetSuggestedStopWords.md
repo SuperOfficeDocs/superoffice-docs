@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 595
+  "CountWords": 921
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Heaney-Pollich",
-    "ToolTip": "Libero temporibus illo iusto minus sequi consectetur similique.",
+    "Id": 935,
+    "Name": "Trantow-Purdy",
+    "ToolTip": "Illum est fugiat eaque explicabo voluptatem magni ducimus.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "rem",
+    "Rank": 28,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Bergnaum, Rogahn and Hintz",
-        "ToolTip": "Delectus laudantium sapiente laborum ipsum quaerat.",
+        "Id": 73,
+        "Name": "Keeling, Heidenreich and Kuvalis",
+        "ToolTip": "Id suscipit iusto qui in qui.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "quo",
+        "Rank": 325,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 985,
-        "ExtraInfo": "et",
-        "StyleHint": "facilis",
-        "FullName": "Daryl Herman",
+        "IconHint": "sed",
+        "ColorBlock": 63,
+        "ExtraInfo": "fugit",
+        "StyleHint": "voluptatem",
+        "FullName": "Gonzalo Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 240
+            "FieldType": "System.String",
+            "FieldLength": 820
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 33,
-    "ExtraInfo": "facilis",
-    "StyleHint": "esse",
-    "FullName": "Rachelle Gottlieb",
+    "IconHint": "natus",
+    "ColorBlock": 384,
+    "ExtraInfo": "dolor",
+    "StyleHint": "soluta",
+    "FullName": "Merl Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 960
       }
     }
   }

@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    641,
-    265
+    79,
+    440
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Medhurst, Anderson and Stehr",
-    "AssociateId": 366,
-    "DetailsTable": 840,
-    "DetailsRecord": 912,
+    "Id": 741,
+    "Name": "Trantow-Kulas",
+    "AssociateId": 708,
+    "DetailsTable": 388,
+    "DetailsRecord": 526,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nemo",
-      "ParameterObject2": "sed"
+      "ParameterObject1": "doloribus",
+      "ParameterObject2": "esse"
     },
-    "LastStarted": "2017-10-09T11:44:32.822391+02:00",
-    "Created": "2001-06-22T11:44:32.822391+02:00",
-    "StartCount": 122,
-    "DatabaseSerialNumber": "1466652",
-    "Context": "consequatur",
-    "Result": "dolores",
+    "LastStarted": "2010-07-20T11:16:08.7410229+02:00",
+    "Created": "2014-08-12T11:16:08.7410229+02:00",
+    "StartCount": 68,
+    "DatabaseSerialNumber": "1177902",
+    "Context": "in",
+    "Result": "laboriosam",
     "State": "All",
-    "Description": "Progressive exuding adapter",
-    "Response": "cupiditate",
-    "Request": "laudantium",
-    "ProgressDescription": "Organized value-added utilisation",
-    "ProgressPercent": 533,
-    "FileName": "Feil Group",
+    "Description": "Programmable zero defect adapter",
+    "Response": "ducimus",
+    "Request": "ipsam",
+    "ProgressDescription": "Operative dedicated analyzer",
+    "ProgressPercent": 694,
+    "FileName": "Bailey, Trantow and Heller",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 888
       }
     }
   }

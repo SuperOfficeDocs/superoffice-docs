@@ -64,17 +64,17 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Pacocha-Rodriguez",
+      "Name": "Collins, Erdman and Wiza",
       "State": false
     },
     {
-      "Name": "Pacocha-Rodriguez",
+      "Name": "Collins, Erdman and Wiza",
       "State": false
     }
   ]

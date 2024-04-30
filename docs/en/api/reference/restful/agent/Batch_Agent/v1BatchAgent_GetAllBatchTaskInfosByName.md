@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Smitham, Larkin and Spencer"
+  "TaskName": "Grant-Dickinson"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Schultz Group",
-    "AssociateId": 706,
-    "DetailsTable": 317,
-    "DetailsRecord": 271,
+    "Id": 44,
+    "Name": "Eichmann, Bechtelar and Bernier",
+    "AssociateId": 845,
+    "DetailsTable": 991,
+    "DetailsRecord": 163,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "alias",
-      "ParameterObject2": "libero"
+      "ParameterObject1": "nobis",
+      "ParameterObject2": "id"
     },
-    "LastStarted": "2000-12-27T11:44:32.822391+01:00",
-    "Created": "2013-01-29T11:44:32.822391+01:00",
-    "StartCount": 240,
-    "DatabaseSerialNumber": "823923",
-    "Context": "quibusdam",
-    "Result": "itaque",
+    "LastStarted": "2015-12-05T11:16:08.7410229+01:00",
+    "Created": "2000-05-10T11:16:08.7410229+02:00",
+    "StartCount": 946,
+    "DatabaseSerialNumber": "753266",
+    "Context": "sed",
+    "Result": "adipisci",
     "State": "All",
-    "Description": "Fully-configurable 3rd generation adapter",
-    "Response": "similique",
-    "Request": "officia",
-    "ProgressDescription": "Cloned well-modulated open architecture",
-    "ProgressPercent": 566,
-    "FileName": "Roberts, Sauer and Runolfsson",
+    "Description": "Automated background protocol",
+    "Response": "sapiente",
+    "Request": "debitis",
+    "ProgressDescription": "Progressive human-resource support",
+    "ProgressPercent": 522,
+    "FileName": "Pfannerstill Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 7
       }
     }
   }

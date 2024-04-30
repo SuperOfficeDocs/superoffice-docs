@@ -57,6 +57,7 @@ The TicketTypeEntity to be created.
 | ExcludeSignature | Boolean | Do not insert user signature automatically |
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
+| VisibleForGroups | Array | Array of references to the visible for groups |
 
 ## Response:
 
@@ -86,6 +87,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -99,28 +101,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 216,
-  "Name": "Halvorson LLC",
-  "Rank": 454,
-  "Tooltip": "nisi",
-  "Icon": "non",
-  "DefaultTicketStatus": 473,
+  "TicketTypeId": 514,
+  "Name": "Turcotte, Orn and Weber",
+  "Rank": 431,
+  "Tooltip": "minus",
+  "Icon": "quia",
+  "DefaultTicketStatus": 865,
   "TicketStatuses": [
-    154,
-    848
+    252,
+    572
   ],
-  "DefaultTicketPriority": 711,
+  "DefaultTicketPriority": 390,
   "TicketPriorities": [
-    4,
-    917
+    391,
+    274
   ],
-  "ReplyTemplate": 857,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 354,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true
+  "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    212,
+    508
+  ]
 }
 ```
 
@@ -131,34 +137,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 785,
-  "Name": "Adams, Price and Hessel",
-  "Rank": 413,
-  "Tooltip": "hic",
-  "Icon": "eos",
-  "DefaultTicketStatus": 641,
+  "TicketTypeId": 428,
+  "Name": "Lueilwitz-Deckow",
+  "Rank": 217,
+  "Tooltip": "error",
+  "Icon": "assumenda",
+  "DefaultTicketStatus": 562,
   "TicketStatuses": [
-    983,
-    37
+    251,
+    346
   ],
-  "DefaultTicketPriority": 274,
+  "DefaultTicketPriority": 346,
   "TicketPriorities": [
-    95,
-    831
+    902,
+    429
   ],
-  "ReplyTemplate": 752,
+  "ReplyTemplate": 558,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    771,
+    6
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 933
     }
   }
 }

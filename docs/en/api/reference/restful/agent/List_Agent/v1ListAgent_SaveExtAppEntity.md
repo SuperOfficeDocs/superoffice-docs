@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 386,
-  "Name": "Kuvalis, Jones and Pollich",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 786,
-  "Filename": "quia",
-  "Parameters": "esse",
-  "Workdir": "dolor",
+  "ExtAppId": 708,
+  "Name": "Wilderman Group",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 46,
+  "Filename": "placeat",
+  "Parameters": "modi",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 72,
+  "ShowInStatusBar": false,
+  "Icon": 5,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "officiis"
+  "Path": "culpa"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 633,
-  "Name": "Bartoletti Group",
-  "Tooltip": "provident",
+  "ExtAppId": 662,
+  "Name": "Koss-Runolfsdottir",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 555,
-  "Filename": "suscipit",
-  "Parameters": "pariatur",
-  "Workdir": "dignissimos",
+  "Rank": 103,
+  "Filename": "aut",
+  "Parameters": "dolores",
+  "Workdir": "quis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 120,
-  "WaitToFinish": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 313,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptatum",
+  "Path": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   }
 }

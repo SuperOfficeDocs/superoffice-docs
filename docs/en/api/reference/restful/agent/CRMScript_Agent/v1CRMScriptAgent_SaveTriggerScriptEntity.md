@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 94,
-  "Name": "Maggio LLC",
+  "ScreenChooserId": 783,
+  "Name": "Johns, Carter and Veum",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "facilis",
-  "Source": "vel",
-  "Registered": "2001-07-08T11:44:33.3223014+02:00",
-  "RegisteredAssociateId": 136,
-  "Updated": "1997-05-12T11:44:33.3223014+02:00",
-  "UpdatedAssociateId": 805
+  "Enabled": false,
+  "UniqueIdentifier": "eum",
+  "Source": "nihil",
+  "Registered": "2017-10-24T11:16:08.9440885+02:00",
+  "RegisteredAssociateId": 414,
+  "Updated": "2018-05-29T11:16:08.9440885+02:00",
+  "UpdatedAssociateId": 144
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 291,
-  "Name": "Barrows-Effertz",
+  "ScreenChooserId": 644,
+  "Name": "Schultz, Green and Stracke",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "eum",
-  "Source": "voluptate",
-  "Registered": "2010-05-17T11:44:33.3223014+02:00",
-  "RegisteredAssociateId": 246,
-  "Updated": "2016-02-02T11:44:33.3223014+01:00",
-  "UpdatedAssociateId": 692,
+  "Enabled": false,
+  "UniqueIdentifier": "dolore",
+  "Source": "ut",
+  "Registered": "2019-06-19T11:16:08.9440885+02:00",
+  "RegisteredAssociateId": 927,
+  "Updated": "2020-05-23T11:16:08.9440885+02:00",
+  "UpdatedAssociateId": 986,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 847
     }
   }
 }

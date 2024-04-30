@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=848
+PUT /api/v1/Project/{id}/ImageInfo?projectId=766
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 224,
-  "BlobSize": 227,
-  "Description": "Secured grid-enabled time-frame",
-  "ExtraInfo": "exercitationem",
+  "BlobId": 901,
+  "BlobSize": 601,
+  "Description": "Open-architected zero defect utilisation",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "temporibus",
-  "OriginalSize": 817,
-  "CreatedDate": "2006-03-02T11:44:42.2107985+01:00",
-  "UpdatedDate": "2008-08-28T11:44:42.2107985+02:00",
+  "MimeType": "nesciunt",
+  "OriginalSize": 363,
+  "CreatedDate": "2003-04-24T11:16:14.1206908+02:00",
+  "UpdatedDate": "1997-03-02T11:16:14.1206908+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deserunt"
+  "ConceptualType": "nisi"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 239,
-  "BlobSize": 730,
-  "Description": "Organic background hierarchy",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 525,
+  "BlobSize": 617,
+  "Description": "Customer-focused intermediate policy",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "iusto",
-  "OriginalSize": 532,
-  "CreatedDate": "2001-03-25T11:44:42.2107985+02:00",
-  "UpdatedDate": "2017-11-11T11:44:42.2107985+01:00",
+  "IsZipped": false,
+  "MimeType": "autem",
+  "OriginalSize": 651,
+  "CreatedDate": "2001-07-05T11:16:14.1206908+02:00",
+  "UpdatedDate": "2000-02-09T11:16:14.1206908+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "suscipit",
+  "ConceptualType": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 725
     }
   }
 }

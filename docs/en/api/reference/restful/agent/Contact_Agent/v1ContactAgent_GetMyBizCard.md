@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 994,
-  "Name": "Ward-Schamberger",
+  "ContactId": 848,
+  "Name": "Huel, Abernathy and Sauer",
   "Department": "",
-  "OrgNr": "1111959",
-  "Number1": "1174175",
-  "Number2": "1272161",
-  "UpdatedDate": "2007-11-02T11:44:33.1035873+01:00",
-  "CreatedDate": "2012-10-06T11:44:33.1035873+02:00",
+  "OrgNr": "1021688",
+  "Number1": "197823",
+  "Number2": "640652",
+  "UpdatedDate": "2014-09-15T11:16:08.9128415+02:00",
+  "CreatedDate": "2012-01-21T11:16:08.9128415+01:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "aut",
-      "Description": "Innovative zero administration installation",
+      "Value": "et",
+      "StrippedValue": "laborum",
+      "Description": "Progressive logistical knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 660
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "aut",
-      "Description": "Innovative zero administration installation",
+      "Value": "et",
+      "StrippedValue": "laborum",
+      "Description": "Progressive logistical knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 660
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 413,
-      "Name": "Barrows-Cremin",
-      "ToolTip": "Rem aut minus.",
+      "Id": 339,
+      "Name": "Langosh, Morissette and Koss",
+      "ToolTip": "Quis voluptatem vel quos omnis.",
       "Deleted": false,
-      "Rank": 582,
-      "Type": "sed",
-      "ColorBlock": 470,
-      "IconHint": "repudiandae",
-      "Selected": true,
-      "LastChanged": "2007-06-24T11:44:33.1035873+02:00",
+      "Rank": 341,
+      "Type": "exercitationem",
+      "ColorBlock": 461,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2003-09-24T11:16:08.9128415+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "rerum",
+      "ExtraInfo": "dicta",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Ashlynn Bailey",
+      "FullName": "Dr. Arnulfo Rigoberto Kunze MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldType": "System.String",
+          "FieldLength": 163
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "accusamus",
-      "StrippedValue": "debitis",
-      "Description": "Public-key dedicated utilisation",
+      "Value": "ut",
+      "StrippedValue": "quo",
+      "Description": "Optional bi-directional forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldLength": 821
         }
       }
     },
     {
-      "Value": "accusamus",
-      "StrippedValue": "debitis",
-      "Description": "Public-key dedicated utilisation",
+      "Value": "ut",
+      "StrippedValue": "quo",
+      "Description": "Optional bi-directional forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldLength": 821
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Versatile methodical migration",
+      "Value": "incidunt",
+      "StrippedValue": "veritatis",
+      "Description": "Multi-channelled local model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldLength": 223
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Versatile methodical migration",
+      "Value": "incidunt",
+      "StrippedValue": "veritatis",
+      "Description": "Multi-channelled local model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldLength": 223
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "dignissimos",
-      "StrippedValue": "ipsa",
-      "Description": "Profound dedicated software",
+      "Value": "reprehenderit",
+      "StrippedValue": "omnis",
+      "Description": "Streamlined needs-based system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 104
         }
       }
     },
     {
-      "Value": "dignissimos",
-      "StrippedValue": "ipsa",
-      "Description": "Profound dedicated software",
+      "Value": "reprehenderit",
+      "StrippedValue": "omnis",
+      "Description": "Streamlined needs-based system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 104
         }
       }
     }
   ],
-  "Description": "Triple-buffered neutral matrix",
+  "Description": "Virtual executive superstructure",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "provident",
-      "PersonId": 679,
-      "Mrmrs": "placeat",
-      "Firstname": "Oscar",
-      "Lastname": "Koch",
-      "MiddleName": "Kessler LLC",
-      "Title": "dolor",
-      "Description": "Horizontal grid-enabled ability",
-      "Email": "khalid@lang.com",
-      "FullName": "Minnie Cronin",
-      "DirectPhone": "149-752-1745 x190",
-      "FormalName": "Beatty-Krajcik",
-      "CountryId": 27,
-      "ContactId": 614,
-      "ContactName": "Parker, Carter and Ondricka",
-      "Retired": 272,
-      "Rank": 46,
-      "ActiveInterests": 464,
+      "Position": "praesentium",
+      "PersonId": 953,
+      "Mrmrs": "quis",
+      "Firstname": "Javon",
+      "Lastname": "Schaden",
+      "MiddleName": "Abshire Inc and Sons",
+      "Title": "porro",
+      "Description": "Operative impactful collaboration",
+      "Email": "cara@hamill.ca",
+      "FullName": "Mr. Ronaldo Smith",
+      "DirectPhone": "604.435.8265 x9168",
+      "FormalName": "Grady Group",
+      "CountryId": 111,
+      "ContactId": 360,
+      "ContactName": "Zulauf, Hahn and Armstrong",
+      "Retired": 858,
+      "Rank": 35,
+      "ActiveInterests": 80,
       "ContactDepartment": "",
-      "ContactCountryId": 720,
-      "ContactOrgNr": "978644",
-      "FaxPhone": "1-056-168-8816 x431",
-      "MobilePhone": "(923)351-2951",
-      "ContactPhone": "1-944-620-7523",
-      "AssociateName": "Jones-Ryan",
-      "AssociateId": 193,
+      "ContactCountryId": 313,
+      "ContactOrgNr": "1137336",
+      "FaxPhone": "(526)802-6451",
+      "MobilePhone": "779.871.4451",
+      "ContactPhone": "1-358-689-9295 x0708",
+      "AssociateName": "Jewess-Walsh",
+      "AssociateId": 18,
       "UsePersonAddress": false,
-      "ContactFax": "quae",
-      "Kanafname": "sit",
-      "Kanalname": "est",
-      "Post1": "explicabo",
-      "Post2": "doloribus",
-      "Post3": "est",
-      "EmailName": "trudie@hilpert.ca",
-      "ContactFullName": "Mr. Gerhard Boyle",
-      "ActiveErpLinks": 416,
-      "TicketPriorityId": 21,
-      "SupportLanguageId": 64,
-      "SupportAssociateId": 316,
+      "ContactFax": "commodi",
+      "Kanafname": "natus",
+      "Kanalname": "hic",
+      "Post1": "voluptas",
+      "Post2": "et",
+      "Post3": "hic",
+      "EmailName": "lacey_volkman@wunschkuhic.name",
+      "ContactFullName": "Ms. Toy Jerde",
+      "ActiveErpLinks": 121,
+      "TicketPriorityId": 999,
+      "SupportLanguageId": 899,
+      "SupportAssociateId": 601,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 275
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "assumenda",
-  "Xstop": false,
-  "ActiveInterests": 975,
-  "GroupId": 822,
-  "ActiveStatusMonitorId": 586,
+  "Kananame": "ipsa",
+  "Xstop": true,
+  "ActiveInterests": 19,
+  "GroupId": 541,
+  "ActiveStatusMonitorId": 336,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 869,
-  "DbiAgentId": 979,
-  "DbiLastSyncronized": "2006-10-06T11:44:33.1035873+02:00",
-  "DbiKey": "occaecati",
-  "DbiLastModified": "2002-10-20T11:44:33.1035873+02:00",
+  "Deleted": 875,
+  "DbiAgentId": 120,
+  "DbiLastSyncronized": "2011-12-22T11:16:08.9128415+01:00",
+  "DbiKey": "provident",
+  "DbiLastModified": "2011-12-15T11:16:08.9128415+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 205,
-  "ActiveErpLinks": 523,
+  "Source": 26,
+  "ActiveErpLinks": 996,
   "BounceEmails": [
-    "mina@swift.biz",
-    "alverta@rogahn.name"
+    "anna_gerlach@roberts.uk",
+    "charlie@dickileannon.ca"
   ],
   "Domains": [
-    "voluptatem",
-    "quidem"
+    "omnis",
+    "molestias"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Olin Stracke",
-    "SuperOffice:2": "880050375"
+    "SuperOffice:1": "Ms. Keon King Dickens III",
+    "SuperOffice:2": "Mr. Ena Mayer"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "iusto",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 812
     }
   }
 }

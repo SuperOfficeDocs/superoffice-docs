@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Bailey, Schneider and Spinka",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 57,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 565,
+  "Name": "Kuphal, Schaden and Raynor",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 99,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 682
     }
   }
 }

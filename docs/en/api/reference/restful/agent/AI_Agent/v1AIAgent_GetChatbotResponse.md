@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "ut",
-  "IsoLangCode": "officia",
-  "UserPrompt": "odio",
-  "DisplayValue": "ut",
+  "ChatId": "voluptatem",
+  "IsoLangCode": "consequatur",
+  "UserPrompt": "non",
+  "DisplayValue": "maxime",
   "PreviousTurns": [
     {
-      "Timestamp": "2009-10-06T11:44:32.228788+02:00",
-      "UserPrompt": "corrupti",
-      "UserDisplayText": "minima",
+      "Timestamp": "2020-01-16T11:16:08.3809879+01:00",
+      "UserPrompt": "sed",
+      "UserDisplayText": "fugit",
       "BotResponse": "est",
       "BotActions": {
-        "BotActions1": "enim",
-        "BotActions2": "vero"
+        "BotActions1": "labore",
+        "BotActions2": "quae"
       },
       "Attachments": [
-        "dolore",
-        "id"
+        "tempore",
+        "ipsam"
       ]
     },
     {
-      "Timestamp": "2009-10-06T11:44:32.228788+02:00",
-      "UserPrompt": "corrupti",
-      "UserDisplayText": "minima",
+      "Timestamp": "2020-01-16T11:16:08.3809879+01:00",
+      "UserPrompt": "sed",
+      "UserDisplayText": "fugit",
       "BotResponse": "est",
       "BotActions": {
-        "BotActions1": "enim",
-        "BotActions2": "vero"
+        "BotActions1": "labore",
+        "BotActions2": "quae"
       },
       "Attachments": [
-        "dolore",
-        "id"
+        "tempore",
+        "ipsam"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2004-03-28T11:44:32.228788+02:00",
-  "UserPrompt": "non",
-  "UserDisplayText": "quasi",
-  "BotResponse": "labore",
+  "Timestamp": "1999-03-11T11:16:08.3966087+01:00",
+  "UserPrompt": "unde",
+  "UserDisplayText": "minima",
+  "BotResponse": "fuga",
   "BotActions": {
-    "BotActions1": "mollitia",
-    "BotActions2": "optio"
+    "BotActions1": "corporis",
+    "BotActions2": "dolorum"
   },
   "Attachments": [
-    "voluptate",
-    "provident"
+    "eos",
+    "quo"
   ]
 }
 ```

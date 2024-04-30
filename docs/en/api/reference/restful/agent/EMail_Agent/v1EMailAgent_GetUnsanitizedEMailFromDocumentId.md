@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 716
+  "DocumentId": 916
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 63,
-      "ContactName": "Glover LLC",
-      "PersonId": 476,
-      "PersonName": "Heidenreich Inc and Sons",
-      "AssociateId": 710,
-      "Address": "architecto",
-      "EmailId": 729,
+      "ContactId": 541,
+      "ContactName": "Purdy LLC",
+      "PersonId": 904,
+      "PersonName": "Ratke LLC",
+      "AssociateId": 691,
+      "Address": "sapiente",
+      "EmailId": 784,
       "DuplicatePersonIds": [
-        694,
-        605
+        975,
+        215
       ],
-      "Name": "Rempel, Zboncak and Dicki",
+      "Name": "Rippin, Schultz and Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldLength": 284
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 695,
-      "ContactName": "McDermott-Bartoletti",
-      "PersonId": 104,
-      "PersonName": "Lubowitz-Metz",
-      "AssociateId": 889,
-      "Address": "non",
-      "EmailId": 195,
+      "ContactId": 113,
+      "ContactName": "Carroll-Stark",
+      "PersonId": 670,
+      "PersonName": "Tromp-Mitchell",
+      "AssociateId": 110,
+      "Address": "similique",
+      "EmailId": 36,
       "DuplicatePersonIds": [
-        26,
-        751
+        363,
+        81
       ],
-      "Name": "Rice LLC",
+      "Name": "O'Conner LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 575
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 378,
-      "ContactName": "Kovacek, Schowalter and Stokes",
-      "PersonId": 740,
-      "PersonName": "Predovic, Halvorson and Yost",
-      "AssociateId": 389,
-      "Address": "aut",
-      "EmailId": 419,
+      "ContactId": 233,
+      "ContactName": "Mayer-Schmidt",
+      "PersonId": 802,
+      "PersonName": "Stark Inc and Sons",
+      "AssociateId": 54,
+      "Address": "sunt",
+      "EmailId": 25,
       "DuplicatePersonIds": [
-        759,
-        731
+        195,
+        683
       ],
-      "Name": "Morissette LLC",
+      "Name": "McKenzie LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 260
+          "FieldLength": 437
         }
       }
     }
   ],
-  "Subject": "explicabo",
-  "HTMLBody": "maiores",
+  "Subject": "laborum",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "2010-08-26T11:44:33.6659495+02:00",
-  "Size": 260,
+  "Sent": "2015-10-09T11:16:09.2253497+02:00",
+  "Size": 859,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsam",
-  "PlainBody": "ratione",
+  "MessageID": "corrupti",
+  "PlainBody": "ea",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 323,
+  "ServerId": 47,
   "Attachments": [
     {
-      "Description": "Function-based fault-tolerant software",
-      "Filename": "consequatur",
-      "Size": 605,
-      "Type": "id",
-      "Encoding": "ab",
-      "Id": "ea",
-      "Disposition": "asperiores",
-      "IsSafeFileExtension": true,
+      "Description": "Cross-group radical structure",
+      "Filename": "ad",
+      "Size": 846,
+      "Type": "neque",
+      "Encoding": "distinctio",
+      "Id": "minima",
+      "Disposition": "dolorem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 499
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rodriguez, Senger and Jacobson",
+      "Name": "Rath, O'Conner and Erdman",
       "Values": [
-        "porro",
-        "nisi"
+        "voluptas",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 202
         }
       }
     },
     {
-      "Name": "Rodriguez, Senger and Jacobson",
+      "Name": "Rath, O'Conner and Erdman",
       "Values": [
-        "porro",
-        "nisi"
+        "voluptas",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 202
         }
       }
     }
   ],
-  "FolderName": "Schimmel, Bernhard and Rath",
-  "EmailItemId": 76,
-  "AccountId": 198,
-  "ReceivedAt": "2015-06-12T11:44:33.6659495+02:00",
+  "FolderName": "Borer LLC",
+  "EmailItemId": 202,
+  "AccountId": 174,
+  "ReceivedAt": "2009-09-06T11:16:09.2253497+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-22T11:44:33.6659495+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1997-04-21T11:16:09.2253497+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

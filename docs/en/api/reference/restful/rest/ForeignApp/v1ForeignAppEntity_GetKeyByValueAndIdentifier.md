@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ad
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=facere
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 17 Aug 2012 11:44:42 G8T
+Last-Modified: Sun, 06 May 2001 11:16:13 G5T
 
 {
-  "Key": "repellat",
-  "Value": "dolor",
-  "RecordId": 97,
-  "CreatedDate": "2009-06-10T11:44:42.0077636+02:00",
-  "UpdatedDate": "2012-08-17T11:44:42.0077636+02:00",
-  "UpdatedBy": "in",
-  "CreatedBy": "qui",
-  "TableName": "Larson LLC",
+  "Key": "voluptas",
+  "Value": "qui",
+  "RecordId": 333,
+  "CreatedDate": "2017-12-09T11:16:13.93321+01:00",
+  "UpdatedDate": "2001-05-06T11:16:13.93321+02:00",
+  "UpdatedBy": "molestias",
+  "CreatedBy": "voluptas",
+  "TableName": "Aufderhar LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 766
     }
   }
 }

@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 865,
-  "Name": "Jones-Heller",
-  "Tooltip": "aut",
+  "RoleId": 292,
+  "Name": "Stark-Senger",
+  "Tooltip": "ipsam",
   "RoleType": "Anonymous",
-  "Deleted": 99,
-  "Rank": 427,
-  "Created": "2009-07-23T11:44:34.9781542+02:00",
-  "UseCategories": 987,
+  "Deleted": 629,
+  "Rank": 987,
+  "Created": "2005-03-24T11:16:10.0275967+01:00",
+  "UseCategories": 354,
   "CreatedBy": null,
-  "Updated": "1999-11-11T11:44:34.9781542+01:00",
+  "Updated": "2020-03-17T11:16:10.0275967+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 952
     }
   }
 }

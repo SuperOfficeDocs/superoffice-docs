@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 727,
-  "ERPPriceListKey": "a",
-  "QuoteConnectionId": 579,
-  "Name": "Corkery, Kling and Parisian",
-  "Description": "Ameliorated context-sensitive collaboration",
-  "Currency": "pariatur",
-  "CurrencyName": "Maggio, Rolfson and Mertz",
-  "ValidFrom": "2001-01-25T11:44:43.1637513+01:00",
-  "ValidTo": "2017-10-30T11:44:43.1637513+01:00",
-  "IsActive": true
+  "PriceListId": 30,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 349,
+  "Name": "Donnelly, Dooley and Lehner",
+  "Description": "Intuitive national service-desk",
+  "Currency": "tempora",
+  "CurrencyName": "Cummings Group",
+  "ValidFrom": "2024-03-07T11:16:14.6214085+01:00",
+  "ValidTo": "2005-09-19T11:16:14.6214085+02:00",
+  "IsActive": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 856,
-  "ERPPriceListKey": "sunt",
-  "QuoteConnectionId": 255,
-  "Name": "Wilderman-Reichel",
-  "Description": "Realigned actuating firmware",
-  "Currency": "officia",
-  "CurrencyName": "Oberbrunner-Gorczany",
-  "ValidFrom": "2020-01-08T11:44:43.1637513+01:00",
-  "ValidTo": "2014-12-27T11:44:43.1637513+01:00",
-  "IsActive": false,
+  "PriceListId": 692,
+  "ERPPriceListKey": "ab",
+  "QuoteConnectionId": 294,
+  "Name": "Kris Group",
+  "Description": "Cross-group dedicated toolset",
+  "Currency": "in",
+  "CurrencyName": "Crist-Thiel",
+  "ValidFrom": "2005-09-15T11:16:14.6214085+02:00",
+  "ValidTo": "2017-04-06T11:16:14.6214085+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 417
     }
   },
   "_Links": {

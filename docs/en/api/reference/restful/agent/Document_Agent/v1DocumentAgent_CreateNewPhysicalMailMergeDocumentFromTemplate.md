@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 268,
-  "UiCulture": "facilis"
+  "DocumentId": 504,
+  "UiCulture": "architecto"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 256,
+  "DocumentId": 679,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsum",
-  "Header": "illo",
-  "Name": "Haag, Cronin and Pacocha",
-  "OurRef": "repellendus",
-  "YourRef": "nihil",
-  "CreatedDate": "2003-07-05T11:44:33.4940679+02:00",
-  "UpdatedDate": "2018-06-21T11:44:33.4940679+02:00",
-  "Description": "Monitored reciprocal intranet",
+  "Attention": "repellendus",
+  "Header": "est",
+  "Name": "O'Kon-Weimann",
+  "OurRef": "odit",
+  "YourRef": "eum",
+  "CreatedDate": "2013-09-19T11:16:09.1159862+02:00",
+  "UpdatedDate": "2003-08-19T11:16:09.1159862+02:00",
+  "Description": "Profit-focused discrete superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-07-20T11:44:33.4940679+02:00",
-  "ExternalRef": "qui",
+  "Date": "2023-10-19T11:16:09.1159862+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 53,
+  "ActiveLinks": 359,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Feest, Skiles and Daniel",
-      "Id": 703,
-      "Description": "Centralized real-time matrix",
-      "ExtraInfo": "illo",
-      "LinkId": 308,
+      "EntityName": "Volkman Inc and Sons",
+      "Id": 450,
+      "Description": "Secured local alliance",
+      "ExtraInfo": "iste",
+      "LinkId": 972,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 393
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 557,
-  "Snum": 242,
+  "SuggestedDocumentId": 70,
+  "Snum": 954,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jasen Hamill",
-    "SuperOffice:2": "1342313264"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Donny Schuster"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "magnam",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2022-12-26T11:44:33.4940679+01:00",
-  "PublishTo": "1996-11-26T11:44:33.4940679+01:00",
-  "PublishFrom": "2016-10-30T11:44:33.4940679+01:00",
+  "PublishEventDate": "2006-08-21T11:16:09.1159862+02:00",
+  "PublishTo": "2011-02-21T11:16:09.1159862+01:00",
+  "PublishFrom": "2016-05-17T11:16:09.1159862+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 959,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldType": "System.String",
+          "FieldLength": 609
         }
       }
     },
     {
-      "VisibleId": 959,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldType": "System.String",
+          "FieldLength": 609
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

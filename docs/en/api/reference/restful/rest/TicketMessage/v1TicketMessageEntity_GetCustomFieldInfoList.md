@@ -58,6 +58,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -79,18 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rosenbaum, Hudson and Wyman",
-    "DisplayName": "Stracke-Dickens",
-    "Description": "Stand-alone client-driven infrastructure",
-    "ShortLabel": "voluptatem",
+    "FieldName": "Strosin, Reilly and Schmitt",
+    "DisplayName": "Kuhic-Sauer",
+    "Description": "Digitized interactive firmware",
+    "ShortLabel": "laudantium",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 985,
-    "TemplateVariableName": "Doyle-Boyer"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 921,
+    "TemplateVariableName": "Zboncak, Feil and Hauck"
   }
 ]
 ```

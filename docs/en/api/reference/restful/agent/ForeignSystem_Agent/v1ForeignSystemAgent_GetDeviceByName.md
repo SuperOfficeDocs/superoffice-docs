@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Langosh Inc and Sons",
-  "DeviceName": "Sipes LLC"
+  "ApplicationName": "Sipes, Hilll and Wilkinson",
+  "DeviceName": "Bednar, Nader and Kuhic"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 995,
-  "Name": "Macejkovic Group",
-  "CreatedDate": "2001-12-14T11:44:33.7596833+01:00",
-  "UpdatedDate": "2023-07-08T11:44:33.7596833+02:00",
-  "AssociateFullName": "Prof. Ibrahim Jerald McCullough",
-  "CreatedBy": "aliquam",
-  "UpdatedBy": "suscipit",
-  "DeviceIdentifier": "voluptates",
-  "ForeignAppId": 606,
+  "ForeignDeviceId": 591,
+  "Name": "Gottlieb-D'Amore",
+  "CreatedDate": "2003-12-11T11:16:09.2878404+01:00",
+  "UpdatedDate": "2003-09-04T11:16:09.2878404+02:00",
+  "AssociateFullName": "Prof. Dameon Marques Bailey",
+  "CreatedBy": "vitae",
+  "UpdatedBy": "modi",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 979
     }
   }
 }

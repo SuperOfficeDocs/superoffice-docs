@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Maggio, Skiles and Abernathy"
+  "Name": "Herzog Inc and Sons"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Stokes, Gerlach and O'Connell",
-    "ToolTip": "Earum autem debitis officiis.",
-    "Deleted": true,
-    "Rank": 771,
-    "Type": "excepturi",
+    "Id": 201,
+    "Name": "Grimes Inc and Sons",
+    "ToolTip": "Quas fugit non.",
+    "Deleted": false,
+    "Rank": 183,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Fritsch-Emmerich",
-        "ToolTip": "Nesciunt doloremque suscipit.",
-        "Deleted": true,
-        "Rank": 44,
-        "Type": "repellat",
+        "Id": 987,
+        "Name": "Roob-Wuckert",
+        "ToolTip": "Rerum consequatur aut rerum est harum.",
+        "Deleted": false,
+        "Rank": 903,
+        "Type": "cupiditate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 981,
-        "ExtraInfo": "aut",
-        "StyleHint": "non",
-        "FullName": "Hope Carroll",
+        "IconHint": "quo",
+        "ColorBlock": 605,
+        "ExtraInfo": "soluta",
+        "StyleHint": "vero",
+        "FullName": "Andres Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 712
+            "FieldLength": 519
           }
         }
       }
     ],
-    "IconHint": "necessitatibus",
-    "ColorBlock": 682,
-    "ExtraInfo": "iure",
-    "StyleHint": "deserunt",
-    "FullName": "Santiago Corwin PhD",
+    "IconHint": "omnis",
+    "ColorBlock": 416,
+    "ExtraInfo": "numquam",
+    "StyleHint": "quasi",
+    "FullName": "Mrs. Zoe Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   }

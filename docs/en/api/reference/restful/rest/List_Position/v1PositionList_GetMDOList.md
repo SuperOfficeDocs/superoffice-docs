@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=sunt
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=quo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "King LLC",
-    "ToolTip": "Molestiae blanditiis rerum magni dolor ut qui nostrum.",
-    "Deleted": true,
-    "Rank": 558,
-    "Type": "quis",
+    "Id": 655,
+    "Name": "Lind, Baumbach and Schmidt",
+    "ToolTip": "Occaecati ea consectetur et atque.",
+    "Deleted": false,
+    "Rank": 183,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Hansen-Hoppe",
-        "ToolTip": "Aut eaque.",
+        "Id": 238,
+        "Name": "Watsica, Cronin and Gleichner",
+        "ToolTip": "Sit rerum id cumque eveniet.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "qui",
+        "Rank": 901,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 233,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "natus",
-        "FullName": "Elise Hickle",
+        "IconHint": "error",
+        "ColorBlock": 444,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "optio",
+        "FullName": "Mrs. Stephon Misty Douglas DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 352
+            "FieldType": "System.Int32",
+            "FieldLength": 165
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 337,
-    "ExtraInfo": "ab",
-    "StyleHint": "eos",
-    "FullName": "Prof. Chadrick Kassulke DVM",
+    "IconHint": "tenetur",
+    "ColorBlock": 159,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "repudiandae",
+    "FullName": "Miss Kenyon Jayden Hackett DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 133
       }
     }
   }

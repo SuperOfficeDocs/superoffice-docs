@@ -58,6 +58,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Casper Group",
-    "DisplayName": "Watsica, Hackett and Dickens",
-    "Description": "Seamless intangible success",
-    "ShortLabel": "et",
+    "FieldName": "Grimes, Hansen and Gibson",
+    "DisplayName": "Hettinger, Schoen and Hackett",
+    "Description": "Enterprise-wide context-sensitive knowledge base",
+    "ShortLabel": "similique",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 669,
-    "TemplateVariableName": "Beier-Bergnaum"
+    "IsDisplayField": true,
+    "Rank": 812,
+    "TemplateVariableName": "Parisian-Herzog"
   }
 ]
 ```

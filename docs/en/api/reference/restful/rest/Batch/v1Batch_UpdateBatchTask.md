@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Tremblay, O'Hara and Botsford",
-  "AssociateId": 595,
-  "DetailsTable": 488,
-  "DetailsRecord": 450,
+  "Id": 466,
+  "Name": "Lehner Group",
+  "AssociateId": 773,
+  "DetailsTable": 678,
+  "DetailsRecord": 703,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "maxime",
-    "ParameterObject2": "sint"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "nulla"
   },
-  "LastStarted": "1997-11-20T11:44:42.7107372+01:00",
-  "Created": "2002-01-08T11:44:42.7107372+01:00",
-  "StartCount": 289,
-  "DatabaseSerialNumber": "1335052",
-  "Context": "eum",
-  "Result": "impedit",
+  "LastStarted": "2012-10-19T11:16:14.3398362+02:00",
+  "Created": "2019-02-03T11:16:14.3398362+01:00",
+  "StartCount": 787,
+  "DatabaseSerialNumber": "1503339",
+  "Context": "provident",
+  "Result": "ipsum",
   "State": "All",
-  "Description": "Cross-platform exuding analyzer",
-  "Response": "quam",
-  "Request": "libero",
-  "ProgressDescription": "Advanced analyzing structure",
-  "ProgressPercent": 198,
-  "FileName": "Tillman-Donnelly",
+  "Description": "Team-oriented demand-driven moderator",
+  "Response": "facilis",
+  "Request": "vel",
+  "ProgressDescription": "Inverse directional analyzer",
+  "ProgressPercent": 531,
+  "FileName": "Feil-Deckow",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Name": "Sanford, Ledner and Conn",
-  "AssociateId": 425,
-  "DetailsTable": 273,
-  "DetailsRecord": 246,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 334,
+  "Name": "Bernier, Brekke and Botsford",
+  "AssociateId": 44,
+  "DetailsTable": 88,
+  "DetailsRecord": 915,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "voluptatem"
+    "ParameterObject1": "ipsam",
+    "ParameterObject2": "maxime"
   },
-  "LastStarted": "1997-08-25T11:44:42.7107372+02:00",
-  "Created": "2012-09-30T11:44:42.7107372+02:00",
-  "StartCount": 420,
-  "DatabaseSerialNumber": "1511968",
-  "Context": "non",
-  "Result": "odit",
+  "LastStarted": "1999-10-02T11:16:14.3398362+02:00",
+  "Created": "2014-03-02T11:16:14.3398362+01:00",
+  "StartCount": 578,
+  "DatabaseSerialNumber": "822983",
+  "Context": "ut",
+  "Result": "consequatur",
   "State": "All",
-  "Description": "Grass-roots tangible moratorium",
-  "Response": "dicta",
-  "Request": "id",
-  "ProgressDescription": "Centralized multimedia Graphic Interface",
-  "ProgressPercent": 710,
-  "FileName": "Lang-Cassin",
+  "Description": "Enterprise-wide contextually-based framework",
+  "Response": "iste",
+  "Request": "culpa",
+  "ProgressDescription": "Open-source user-facing utilisation",
+  "ProgressPercent": 310,
+  "FileName": "Quitzon Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 625
     }
   }
 }

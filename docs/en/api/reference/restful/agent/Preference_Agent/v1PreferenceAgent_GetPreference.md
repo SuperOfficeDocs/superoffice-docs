@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25
+  "Id": 992
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "enim",
+  "RawValue": "quibusdam",
   "Specification": null,
-  "DisplayValue": "aperiam",
-  "DisplayTooltip": "in",
+  "DisplayValue": "sequi",
+  "DisplayTooltip": "facilis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 622,
-  "PrefDescId": 947,
-  "TableName": "O'Conner, Schimmel and Hand",
-  "UserPreferenceId": 945,
+  "TargetId": 946,
+  "PrefDescId": 371,
+  "TableName": "Fadel LLC",
+  "UserPreferenceId": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldType": "System.String",
+      "FieldLength": 315
     }
   }
 }

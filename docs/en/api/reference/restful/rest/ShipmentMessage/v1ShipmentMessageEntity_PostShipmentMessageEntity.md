@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 994,
-  "PlainMessage": "qui",
-  "HtmlMessage": "distinctio",
-  "SmsMessage": "ut",
-  "Description": "Distributed value-added installation",
-  "Subject": "at",
-  "FolderId": 909,
-  "HeaderField": "aut",
-  "Design": "maxime",
+  "ShipmentMessageId": 554,
+  "PlainMessage": "veniam",
+  "HtmlMessage": "illo",
+  "SmsMessage": "tempore",
+  "Description": "Front-line motivating artificial intelligence",
+  "Subject": "quaerat",
+  "FolderId": 985,
+  "HeaderField": "quo",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Down-sized empowering standardization",
-  "AccessKey": "qui",
-  "DocumentMessage": 849,
-  "Registered": "2018-09-19T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 16,
-  "Updated": "2013-05-29T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 346,
-  "UpdatedCount": 562
+  "InlineImages": false,
+  "LongDescription": "Persevering assymetric conglomeration",
+  "AccessKey": "non",
+  "DocumentMessage": 801,
+  "Registered": "2013-04-02T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2021-07-19T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 911,
+  "UpdatedCount": 206
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 813,
-  "PlainMessage": "est",
-  "HtmlMessage": "adipisci",
-  "SmsMessage": "quia",
-  "Description": "Up-sized empowering access",
-  "Subject": "consectetur",
-  "FolderId": 323,
-  "HeaderField": "unde",
-  "Design": "sit",
+  "ShipmentMessageId": 584,
+  "PlainMessage": "fuga",
+  "HtmlMessage": "qui",
+  "SmsMessage": "unde",
+  "Description": "User-centric intangible workforce",
+  "Subject": "dolor",
+  "FolderId": 126,
+  "HeaderField": "cum",
+  "Design": "architecto",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "De-engineered executive middleware",
-  "AccessKey": "error",
-  "DocumentMessage": 472,
-  "Registered": "2015-02-14T11:44:42.5545135+01:00",
-  "RegisteredAssociateId": 848,
-  "Updated": "2006-10-28T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 925,
-  "UpdatedCount": 709,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Progressive composite approach",
+  "AccessKey": "quo",
+  "DocumentMessage": 193,
+  "Registered": "2009-06-24T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 620,
+  "Updated": "2000-08-26T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 948,
+  "UpdatedCount": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 615
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

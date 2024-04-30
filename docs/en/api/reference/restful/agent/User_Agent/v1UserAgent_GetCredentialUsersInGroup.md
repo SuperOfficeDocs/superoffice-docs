@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "autem",
-  "GroupName": "Wiegand, Hand and Ledner"
+  "Type": "voluptates",
+  "GroupName": "Bradtke Group"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "debitis",
-    "explicabo"
+    "dolorem",
+    "quis"
   ],
   "Users": [
     {
-      "Value": "dolor",
-      "DisplayValue": "consectetur",
+      "Value": "suscipit",
+      "DisplayValue": "hic",
       "Columns": [
-        "fugiat",
-        "odit"
+        "nihil",
+        "ut"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     },
     {
-      "Value": "dolor",
-      "DisplayValue": "consectetur",
+      "Value": "suscipit",
+      "DisplayValue": "hic",
       "Columns": [
-        "fugiat",
-        "odit"
+        "nihil",
+        "ut"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 718
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 253
     }
   }
 }

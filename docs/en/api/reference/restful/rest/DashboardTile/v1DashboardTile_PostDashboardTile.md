@@ -102,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 211,
-  "Caption": "cum",
-  "Description": "Ergonomic reciprocal capability",
-  "ChartName": "Osinski-Green",
+  "DashboardTileId": 93,
+  "Caption": "atque",
+  "Description": "Cloned bandwidth-monitored infrastructure",
+  "ChartName": "Kerluke, Ullrich and Wintheiser",
   "ChartId": "ut",
   "IsDefault": false,
-  "AssociateId": 173,
-  "GroupId": 183,
-  "SelectionId": 219,
-  "Config": "ducimus",
+  "AssociateId": 165,
+  "GroupId": 787,
+  "SelectionId": 206,
+  "Config": "ut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "McLaughlin, Howe and Shanahan",
-      "Description": "Horizontal client-driven parallelism",
+      "Name": "Simonis Group",
+      "Description": "Implemented bi-directional structure",
       "Type": "Boolean",
-      "ListName": "Yundt Inc and Sons",
+      "ListName": "Strosin, Skiles and Jast",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "consequuntur",
-      "DefaultDataOption": true
+      "Value": "quia",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 188,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "nobis"
     },
     {
-      "VisibleId": 188,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "nobis"
     }
   ]
 }
@@ -154,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 213,
-  "Caption": "sed",
-  "Description": "Open-source encompassing focus group",
-  "ChartName": "Will, Wisozk and Johnson",
-  "ChartId": "dolorem",
+  "DashboardTileId": 547,
+  "Caption": "et",
+  "Description": "Total bandwidth-monitored toolset",
+  "ChartName": "Moore-Weimann",
+  "ChartId": "architecto",
   "IsDefault": false,
-  "AssociateId": 62,
-  "GroupId": 710,
-  "SelectionId": 100,
-  "Config": "ut",
+  "AssociateId": 837,
+  "GroupId": 465,
+  "SelectionId": 3,
+  "Config": "cupiditate",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rosenbaum-O'Connell",
-      "Description": "Managed encompassing groupware",
+      "Name": "Jones-Hickle",
+      "Description": "Open-architected incremental instruction set",
       "Type": "Boolean",
-      "ListName": "Bayer-Johnson",
+      "ListName": "Jenkins LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "commodi",
-      "DefaultDataOption": true,
+      "Value": "et",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldType": "System.String",
+          "FieldLength": 338
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 112,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldType": "System.String",
+          "FieldLength": 477
         }
       }
     },
     {
-      "VisibleId": 112,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldType": "System.String",
+          "FieldLength": 477
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 316
     }
   },
   "_Links": {

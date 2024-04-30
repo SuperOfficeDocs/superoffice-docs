@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Jaskolski-Cronin",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 688,
+    "Id": 683,
+    "Name": "Harvey LLC",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 892,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "ad",
-    "InUseByUserDefinedFields": true,
+    "ListType": "ipsam",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldType": "System.Int32",
+        "FieldLength": 229
       }
     }
   }

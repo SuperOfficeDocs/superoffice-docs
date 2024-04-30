@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 74,
-  "StartTime": "2017-03-08T11:44:32.2912723+01:00",
-  "EndTime": "2015-10-26T11:44:32.2912723+01:00",
-  "Count": 872,
+  "ContactId": 726,
+  "StartTime": "2013-09-19T11:16:08.4278552+02:00",
+  "EndTime": "2001-06-02T11:16:08.4278552+02:00",
+  "Count": 912,
   "TaskIds": [
-    198,
-    150
+    222,
+    627
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 700,
-    "StartDate": "2020-11-20T11:44:32.431865+01:00",
-    "EndDate": "2022-07-23T11:44:32.431865+02:00",
+    "AppointmentId": 614,
+    "StartDate": "2002-05-20T11:16:08.4278552+02:00",
+    "EndDate": "2020-12-16T11:16:08.4278552+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Jadyn Jerde",
-    "ContactName": "Prosacco LLC",
-    "Description": "Multi-tiered context-sensitive support",
-    "PersonFullName": "Ms. Travon Patience Breitenberg DDS",
-    "PersonId": 562,
-    "ContactId": 202,
-    "ProjectId": 990,
-    "ProjectName": "Stehr Inc and Sons",
+    "Task": "quasi",
+    "AssociateFullName": "Jordon Stokes",
+    "ContactName": "Reilly, Champlin and Willms",
+    "Description": "Diverse attitude-oriented access",
+    "PersonFullName": "Dr. Hudson Collier PhD",
+    "PersonId": 633,
+    "ContactId": 491,
+    "ProjectId": 671,
+    "ProjectName": "Smith, Corwin and Kuhn",
     "IsPublished": true,
-    "AssociateId": 611,
-    "ColorIndex": 7,
+    "AssociateId": 664,
+    "ColorIndex": 262,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 886,
-    "PriorityName": "McLaughlin-Krajcik",
+    "PriorityId": 70,
+    "PriorityName": "Rippin, Bauch and Greenholt",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2020-09-18T11:44:32.431865+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2008-06-22T11:16:08.4278552+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-02-27T11:44:32.431865+01:00",
-    "RecurringEndDate": "2021-02-16T11:44:32.431865+01:00",
-    "MotherId": 167,
-    "AssignedBy": 321,
-    "AssignedByFullName": "Alexandrea Waelchi",
+    "RecurringStartDate": "2000-02-23T11:16:08.4278552+01:00",
+    "RecurringEndDate": "2017-09-06T11:16:08.4278552+02:00",
+    "MotherId": 975,
+    "AssignedBy": 426,
+    "AssignedByFullName": "Verona Bartoletti II",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "in",
-    "SaleId": 888,
-    "SaleName": "Schamberger Inc and Sons",
-    "AssociateName": "Blick, Trantow and Mayer",
-    "CreatedDate": "1997-09-21T11:44:32.431865+02:00",
-    "CreatedBy": "doloremque",
-    "CreatedByFullName": "Ms. Angelica Hane",
-    "CreatedByAssociateId": 117,
+    "Location": "dolorum",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 598,
+    "SaleName": "Rau-Grimes",
+    "AssociateName": "Waters, Cassin and Blick",
+    "CreatedDate": "2009-03-04T11:16:08.4278552+01:00",
+    "CreatedBy": "possimus",
+    "CreatedByFullName": "Dominic Goyette",
+    "CreatedByAssociateId": 364,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 86,
-    "Title": "vero",
-    "Agenda": "et",
-    "InternalNotes": "sed",
+    "PreferredTZLocation": 541,
+    "Title": "iure",
+    "Agenda": "odio",
+    "InternalNotes": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

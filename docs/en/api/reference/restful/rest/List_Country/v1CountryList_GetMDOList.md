@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=ut
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=esse
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Kirlin Group",
-    "ToolTip": "Officia consequatur.",
-    "Deleted": false,
-    "Rank": 584,
-    "Type": "cupiditate",
+    "Id": 657,
+    "Name": "Kessler, Moore and Pfeffer",
+    "ToolTip": "Eum cum similique ab quasi vel blanditiis voluptatem.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Volkman Group",
-        "ToolTip": "Dolores alias aut perferendis aliquid veniam unde.",
+        "Id": 447,
+        "Name": "Fritsch, Crooks and Hammes",
+        "ToolTip": "Praesentium voluptas.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "numquam",
+        "Rank": 982,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 216,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "totam",
-        "FullName": "Clarissa Kris",
+        "IconHint": "tempora",
+        "ColorBlock": 92,
+        "ExtraInfo": "vero",
+        "StyleHint": "qui",
+        "FullName": "Ms. Ethel Douglas III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 612
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 211,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "sit",
-    "FullName": "Derrick Hegmann",
+    "IconHint": "iure",
+    "ColorBlock": 726,
+    "ExtraInfo": "corporis",
+    "StyleHint": "porro",
+    "FullName": "Asia Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   }

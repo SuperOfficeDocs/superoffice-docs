@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Pfannerstill, Deckow and Cronin",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 356
+  "Id": 4,
+  "Name": "Kihn-Kautzer",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "UdListDefinitionId": 140,
+  "Rank": 369
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Wintheiser, Goodwin and Howe",
-  "Tooltip": "dolorum",
+  "Id": 997,
+  "Name": "Weber Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 767,
-  "Rank": 685,
+  "UdListDefinitionId": 509,
+  "Rank": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

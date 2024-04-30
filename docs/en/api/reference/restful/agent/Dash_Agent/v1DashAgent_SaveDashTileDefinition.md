@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 21,
-  "Name": "Lesch, Lowe and Ratke",
-  "Description": "Cross-platform didactic functionalities",
-  "DefaultHeight": 150,
-  "DefaultWidth": 214,
+  "DashboardTileDefinitionId": 56,
+  "Name": "Schmidt, Schowalter and Cruickshank",
+  "Description": "Fully-configurable dynamic middleware",
+  "DefaultHeight": 859,
+  "DefaultWidth": 174,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wiegand, Gleichner and Schroeder",
-  "SelectionId": 579,
+  "EntityName": "Wolf-Yost",
+  "SelectionId": 823,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "dolores",
   "Measure": "Average",
-  "MeasureField": "eos",
-  "SortBy": "soluta",
-  "LayoutConfig": "sapiente",
-  "SecondarySelectionId": 724,
-  "MeasureByField": "rerum",
+  "MeasureField": "ut",
+  "SortBy": "nam",
+  "LayoutConfig": "omnis",
+  "SecondarySelectionId": 518,
+  "MeasureByField": "saepe",
   "Usage": "Dashboard",
-  "ProviderName": "Glover-Lebsack"
+  "ProviderName": "Lueilwitz, Herman and Pfannerstill"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 572,
-  "Name": "Hahn Inc and Sons",
-  "Description": "Exclusive context-sensitive collaboration",
-  "DefaultHeight": 693,
-  "DefaultWidth": 121,
+  "DashboardTileDefinitionId": 713,
+  "Name": "Tremblay Group",
+  "Description": "Multi-layered zero defect firmware",
+  "DefaultHeight": 105,
+  "DefaultWidth": 859,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mueller Inc and Sons",
-  "SelectionId": 415,
+  "EntityName": "Dare, Gerhold and Toy",
+  "SelectionId": 318,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "sapiente",
   "Measure": "Average",
-  "MeasureField": "voluptatibus",
-  "SortBy": "dicta",
-  "LayoutConfig": "enim",
-  "SecondarySelectionId": 315,
-  "MeasureByField": "dolore",
+  "MeasureField": "enim",
+  "SortBy": "molestiae",
+  "LayoutConfig": "quia",
+  "SecondarySelectionId": 825,
+  "MeasureByField": "quo",
   "Usage": "Dashboard",
-  "ProviderName": "Tromp Inc and Sons",
+  "ProviderName": "Anderson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldLength": 880
     }
   }
 }

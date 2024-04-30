@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 304,
-  "ColumnId": 7,
-  "FieldDefault": "vel",
-  "FieldHeight": 223,
-  "FieldLabel": "quaerat",
-  "FieldLeft": 351,
-  "FieldTop": 678,
+  "UDefFieldId": 858,
+  "ColumnId": 547,
+  "FieldDefault": "amet",
+  "FieldHeight": 159,
+  "FieldLabel": "et",
+  "FieldLeft": 202,
+  "FieldTop": 2,
   "FieldType": "Checkbox",
-  "FieldWidth": 978,
-  "FormatMask": "cumque",
+  "FieldWidth": 496,
+  "FormatMask": "maiores",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 529,
-  "LabelLeft": 770,
-  "LabelTop": 431,
-  "LabelWidth": 659,
-  "LastVersionId": 221,
-  "ListTableId": 222,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 944,
+  "LabelLeft": 882,
+  "LabelTop": 730,
+  "LabelWidth": 974,
+  "LastVersionId": 591,
+  "ListTableId": 650,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 719,
-  "ProgId": "voluptatibus",
+  "Page1LineNo": 298,
+  "ProgId": "deserunt",
   "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 430,
-  "TextLength": 29,
-  "Tooltip": "non",
-  "UdefIdentity": 628,
-  "UDListDefinitionId": 458,
+  "ShortLabel": "expedita",
+  "TabOrder": 729,
+  "TextLength": 419,
+  "Tooltip": "dicta",
+  "UdefIdentity": 750,
+  "UDListDefinitionId": 292,
   "Justification": "Center",
-  "Version": 910,
-  "TemplateVariableName": "Senger-Purdy",
+  "Version": 170,
+  "TemplateVariableName": "Huels Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Kshlerin-Schmitt",
+  "MdoListName": "Kessler, Quitzon and Bergstrom",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 562
     }
   }
 }

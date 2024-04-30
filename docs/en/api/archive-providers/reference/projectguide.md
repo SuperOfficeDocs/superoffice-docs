@@ -1410,7 +1410,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/contactExtra/x_contact_longtext,appointmentInstance/person/personAssociate/credentialDisplayValue,appointmentInstance/project/updatedByFullName,appointmentInstance/project/projectAssociate/otherGroups,appointmentInstance/sale/heading
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/recordType,appointmentInstance/contact/LastCompletedSale,appointmentInstance/person/personBusiness,appointmentInstance/person/restrictionAddress/addressId,appointmentInstance/person/personUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

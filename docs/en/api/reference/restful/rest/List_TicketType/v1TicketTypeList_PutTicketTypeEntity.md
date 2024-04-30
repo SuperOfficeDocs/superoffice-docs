@@ -61,6 +61,7 @@ The details of TicketTypeEntity to be saved.
 | ExcludeSignature | Boolean | Do not insert user signature automatically |
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
+| VisibleForGroups | Array | Array of references to the visible for groups |
 
 ## Response:
 
@@ -91,6 +92,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -100,32 +102,36 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 720,
-  "Name": "Bradtke LLC",
-  "Rank": 164,
-  "Tooltip": "delectus",
-  "Icon": "iure",
-  "DefaultTicketStatus": 224,
+  "TicketTypeId": 219,
+  "Name": "Hamill-Abbott",
+  "Rank": 899,
+  "Tooltip": "ea",
+  "Icon": "vero",
+  "DefaultTicketStatus": 730,
   "TicketStatuses": [
-    792,
-    788
+    420,
+    735
   ],
-  "DefaultTicketPriority": 551,
+  "DefaultTicketPriority": 653,
   "TicketPriorities": [
-    408,
-    582
+    728,
+    223
   ],
-  "ReplyTemplate": 236,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 232,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    137,
+    408
+  ]
 }
 ```
 
@@ -136,34 +142,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 799,
-  "Name": "Jacobson LLC",
-  "Rank": 73,
-  "Tooltip": "aliquid",
-  "Icon": "eveniet",
-  "DefaultTicketStatus": 273,
+  "TicketTypeId": 940,
+  "Name": "Hills Group",
+  "Rank": 128,
+  "Tooltip": "odit",
+  "Icon": "enim",
+  "DefaultTicketStatus": 131,
   "TicketStatuses": [
-    663,
-    805
+    661,
+    117
   ],
-  "DefaultTicketPriority": 255,
+  "DefaultTicketPriority": 791,
   "TicketPriorities": [
-    608,
-    294
+    970,
+    700
   ],
-  "ReplyTemplate": 141,
+  "ReplyTemplate": 478,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
+  "VisibleForGroups": [
+    488,
+    763
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 58
     }
   }
 }

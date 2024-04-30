@@ -747,7 +747,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/person/useAsMailingAddress,alternative/version/quote/sale/person/personInfo/infoText,alternative/version/quote/sale/person/personUdef/SuperOffice:7,alternative/version/quote/sale/person/hasStoreConsent,alternative/version/quote/sale/contact/restrictionAddress/wgs84latitude
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/paymentType,alternative/version/quote/sale/text,alternative/version/quote/sale/person/isStakeholder,alternative/version/quote/sale/person/personExtra/x_person_user_relation,alternative/version/quote/sale/person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

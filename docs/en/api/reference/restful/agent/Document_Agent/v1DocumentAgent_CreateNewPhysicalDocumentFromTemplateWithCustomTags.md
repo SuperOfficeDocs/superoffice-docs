@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 471,
-  "PersonId": 132,
-  "AppointmentId": 478,
-  "DocumentId": 915,
-  "SaleId": 904,
-  "SelectionId": 632,
-  "ProjectId": 507,
+  "ContactId": 260,
+  "PersonId": 498,
+  "AppointmentId": 479,
+  "DocumentId": 824,
+  "SaleId": 200,
+  "SelectionId": 406,
+  "ProjectId": 952,
   "CustomTags": [
-    "consectetur",
-    "voluptatem"
+    "mollitia",
+    "quo"
   ],
   "CustomValues": [
-    "magnam",
-    "rem"
+    "quis",
+    "ex"
   ],
-  "UiCulture": "laboriosam"
+  "UiCulture": "cupiditate"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 58,
+  "DocumentId": 210,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nisi",
-  "Header": "deserunt",
-  "Name": "Jakubowski-Turcotte",
-  "OurRef": "in",
-  "YourRef": "voluptate",
-  "CreatedDate": "2003-02-14T11:44:33.5097371+01:00",
-  "UpdatedDate": "2021-01-08T11:44:33.5097371+01:00",
-  "Description": "Cloned contextually-based archive",
+  "Attention": "quam",
+  "Header": "natus",
+  "Name": "Mraz, Renner and Denesik",
+  "OurRef": "quia",
+  "YourRef": "nesciunt",
+  "CreatedDate": "2008-04-03T11:16:09.1159862+02:00",
+  "UpdatedDate": "2005-06-27T11:16:09.1159862+02:00",
+  "Description": "Persevering coherent success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-09-30T11:44:33.5097371+02:00",
-  "ExternalRef": "dolores",
+  "Date": "2019-08-14T11:16:09.1159862+02:00",
+  "ExternalRef": "quaerat",
   "Completed": "Completed",
-  "ActiveLinks": 616,
+  "ActiveLinks": 730,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Prosacco, Hilpert and Rosenbaum",
-      "Id": 661,
-      "Description": "Optimized cohesive core",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 359,
+      "EntityName": "Lemke, Larkin and Anderson",
+      "Id": 749,
+      "Description": "Team-oriented bifurcated attitude",
+      "ExtraInfo": "ipsa",
+      "LinkId": 853,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 519
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 639,
-  "Snum": 695,
+  "SuggestedDocumentId": 30,
+  "Snum": 203,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1074133875"
+    "SuperOffice:1": "Mr. Javonte Simonis",
+    "SuperOffice:2": "Milan Konopelski DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "repellat"
   },
-  "PublishEventDate": "1999-01-23T11:44:33.5097371+01:00",
-  "PublishTo": "2005-01-17T11:44:33.5097371+01:00",
-  "PublishFrom": "1997-08-29T11:44:33.5097371+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-10-14T11:16:09.1316065+02:00",
+  "PublishTo": "2018-11-27T11:16:09.1316065+01:00",
+  "PublishFrom": "2013-03-10T11:16:09.1316065+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 546,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 696
         }
       }
     },
     {
-      "VisibleId": 546,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 696
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 577
     }
   }
 }

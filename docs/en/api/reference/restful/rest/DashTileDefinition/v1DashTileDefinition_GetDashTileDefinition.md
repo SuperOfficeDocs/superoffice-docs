@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 277,
-  "Name": "Gusikowski, Rogahn and Lynch",
-  "Description": "Face to face systemic groupware",
-  "DefaultHeight": 410,
-  "DefaultWidth": 909,
+  "DashboardTileDefinitionId": 193,
+  "Name": "Stanton Group",
+  "Description": "Intuitive regional Graphic Interface",
+  "DefaultHeight": 499,
+  "DefaultWidth": 943,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bosco LLC",
-  "SelectionId": 837,
+  "EntityName": "Douglas-Lakin",
+  "SelectionId": 708,
   "CurrencyMode": "Base",
-  "CurrencyCode": "praesentium",
+  "CurrencyCode": "alias",
   "Measure": "Average",
-  "MeasureField": "reiciendis",
-  "SortBy": "non",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 347,
-  "MeasureByField": "maiores",
+  "MeasureField": "quam",
+  "SortBy": "eveniet",
+  "LayoutConfig": "deleniti",
+  "SecondarySelectionId": 204,
+  "MeasureByField": "laudantium",
   "Usage": "Dashboard",
-  "ProviderName": "Tremblay-Ziemann",
+  "ProviderName": "Heidenreich-Purdy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 990
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

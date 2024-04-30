@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ward Inc and Sons",
-  "ProviderName": "Howell LLC",
+  "GuiName": "Ortiz Group",
+  "ProviderName": "Hane, Zieme and Stroman",
   "SortOrder": [
     {
-      "Name": "Grady, Wintheiser and Rosenbaum",
+      "Name": "Yost LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Grady, Wintheiser and Rosenbaum",
+      "Name": "Yost LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Pacocha, Hegmann and Kilback",
-      "Operator": "aut",
+      "Name": "Runte Group",
+      "Operator": "optio",
       "Values": [
-        "optio",
-        "accusamus"
+        "esse",
+        "ipsam"
       ],
       "DisplayValues": [
-        "eligendi",
-        "nobis"
+        "ullam",
+        "explicabo"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 794,
+      "InterParenthesis": 44,
       "InterOperator": "And",
-      "UniqueHash": 387
+      "UniqueHash": 178
     }
   ],
   "Entities": [
-    "exercitationem",
-    "eum"
+    "excepturi",
+    "illo"
   ],
-  "Page": 205,
-  "PageSize": 216
+  "Page": 647,
+  "PageSize": 388
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Borer-Schaefer",
-    "PrimaryKey": 568,
+    "EntityName": "Ratke-Heller",
+    "PrimaryKey": 489,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quidem",
-        "TooltipHint": "ea",
-        "LinkHint": "illo"
+        "DisplayValue": "ea",
+        "TooltipHint": "nobis",
+        "LinkHint": "voluptatum"
       }
     },
-    "LinkHint": "suscipit",
-    "StyleHint": "sit",
+    "LinkHint": "eaque",
+    "StyleHint": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 296
       }
     }
   }

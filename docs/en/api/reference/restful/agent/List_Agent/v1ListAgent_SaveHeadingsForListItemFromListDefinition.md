@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 20,
-  "ListItemId": 845,
+  "UdListDefinitionId": 369,
+  "ListItemId": 458,
   "Headings": [
     {
-      "Id": 974,
-      "Name": "Krajcik, Turcotte and Reynolds",
-      "ToolTip": "Tenetur consequatur ad.",
-      "Deleted": false,
-      "Rank": 450,
-      "Type": "qui",
-      "ColorBlock": 531,
-      "IconHint": "mollitia",
-      "Selected": false,
-      "LastChanged": "2010-12-31T11:44:33.8534097+01:00",
+      "Id": 972,
+      "Name": "Nikolaus-Cartwright",
+      "ToolTip": "Ab ab repudiandae nulla sed quis non quis.",
+      "Deleted": true,
+      "Rank": 828,
+      "Type": "dolores",
+      "ColorBlock": 953,
+      "IconHint": "delectus",
+      "Selected": true,
+      "LastChanged": "2023-10-12T11:16:09.3347069+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Ms. Karolann Shany Ernser MD"
+      "ExtraInfo": "quidem",
+      "StyleHint": "quibusdam",
+      "Hidden": true,
+      "FullName": "Ellie Bogan"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Hane Group",
-    "ToolTip": "Voluptatum laboriosam ullam qui eos.",
-    "Deleted": true,
-    "Rank": 360,
-    "Type": "ut",
-    "ColorBlock": 5,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2018-11-26T11:44:33.8534097+01:00",
+    "Id": 500,
+    "Name": "Russel, Schulist and Vandervort",
+    "ToolTip": "Corrupti sapiente incidunt.",
+    "Deleted": false,
+    "Rank": 573,
+    "Type": "nisi",
+    "ColorBlock": 951,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2016-03-24T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Robel-Bartoletti",
-        "ToolTip": "Quia nemo modi.",
+        "Id": 26,
+        "Name": "VonRueden-Olson",
+        "ToolTip": "Sunt iusto.",
         "Deleted": false,
-        "Rank": 5,
-        "Type": "nulla",
-        "ColorBlock": 396,
-        "IconHint": "consequatur",
+        "Rank": 942,
+        "Type": "deserunt",
+        "ColorBlock": 81,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2024-03-16T11:44:33.8534097+01:00",
+        "LastChanged": "2002-01-28T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "in",
+        "ExtraInfo": "omnis",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Bobby Hermiston",
+        "FullName": "Karli Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 27
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Maud Stroman",
+    "ExtraInfo": "libero",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Rylan Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

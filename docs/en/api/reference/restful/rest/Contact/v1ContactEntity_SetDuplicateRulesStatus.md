@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski, Kling and Streich",
-    "DisplayName": "Zulauf LLC",
-    "DisplayTooltip": "ex",
-    "IsActive": true
+    "Name": "Stokes LLC",
+    "DisplayName": "Schimmel Inc and Sons",
+    "DisplayTooltip": "molestias",
+    "IsActive": false
   },
   {
-    "Name": "Osinski, Kling and Streich",
-    "DisplayName": "Zulauf LLC",
-    "DisplayTooltip": "ex",
-    "IsActive": true
+    "Name": "Stokes LLC",
+    "DisplayName": "Schimmel Inc and Sons",
+    "DisplayTooltip": "molestias",
+    "IsActive": false
   }
 ]
 ```

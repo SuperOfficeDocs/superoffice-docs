@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Lowe Inc and Sons",
-    "ToolTip": "Aperiam velit doloribus eum sapiente ea.",
-    "Deleted": false,
-    "Rank": 645,
-    "Type": "ut",
-    "ColorBlock": 671,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "2020-12-24T11:44:43.054404+01:00",
+    "Id": 359,
+    "Name": "Jones, Quigley and Kerluke",
+    "ToolTip": "Et aliquam.",
+    "Deleted": true,
+    "Rank": 30,
+    "Type": "eos",
+    "ColorBlock": 649,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1998-02-16T11:16:14.5589219+01:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Koss LLC",
-        "ToolTip": "Hic praesentium et ipsam velit asperiores qui officia.",
+        "Id": 121,
+        "Name": "Blanda Inc and Sons",
+        "ToolTip": "Illum quae velit quis et ratione.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "harum",
-        "ColorBlock": 124,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "1998-12-02T11:44:43.054404+01:00",
+        "Rank": 391,
+        "Type": "molestiae",
+        "ColorBlock": 32,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2023-05-10T11:16:14.5589219+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolor",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Dudley Bernier",
+        "FullName": "Jovany Hansen IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldType": "System.Int32",
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Destany Collins",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Riley Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

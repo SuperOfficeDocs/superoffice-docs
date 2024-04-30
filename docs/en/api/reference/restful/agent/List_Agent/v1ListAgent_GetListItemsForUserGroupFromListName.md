@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kulas-Wehner",
-  "GroupId": 311
+  "UdListDefinitionName": "Fay-Raynor",
+  "GroupId": 440
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Carter LLC",
-    "ToolTip": "Nobis sed dolores est quas id unde qui.",
-    "Deleted": false,
-    "Rank": 717,
-    "Type": "ut",
-    "ColorBlock": 592,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2015-07-12T11:44:33.8534097+02:00",
+    "Id": 970,
+    "Name": "Nienow Inc and Sons",
+    "ToolTip": "In nobis.",
+    "Deleted": true,
+    "Rank": 843,
+    "Type": "ad",
+    "ColorBlock": 83,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2009-11-30T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Schaefer, Gibson and Beier",
-        "ToolTip": "Reprehenderit exercitationem dolorum odit sunt consectetur.",
+        "Id": 267,
+        "Name": "Boehm LLC",
+        "ToolTip": "Officia et.",
         "Deleted": false,
-        "Rank": 138,
-        "Type": "architecto",
-        "ColorBlock": 563,
-        "IconHint": "unde",
+        "Rank": 612,
+        "Type": "exercitationem",
+        "ColorBlock": 742,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2004-02-06T11:44:33.8534097+01:00",
+        "LastChanged": "2017-03-23T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "placeat",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Dusty Mann",
+        "FullName": "Hilda Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldType": "System.String",
+            "FieldLength": 123
           }
         }
       }
     ],
     "ExtraInfo": "labore",
-    "StyleHint": "numquam",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Mrs. Albertha Gloria Kiehn",
+    "FullName": "Mrs. Rhoda Roberto Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 312
       }
     }
   }

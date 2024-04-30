@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "architecto",
-  "ProviderName": "Kuhn, Wunsch and Purdy",
-  "StorageKey": "ea",
+  "StorageType": "qui",
+  "ProviderName": "Torphy Inc and Sons",
+  "StorageKey": "rerum",
   "StaticColumns": [
-    "nam",
-    "quasi"
+    "totam",
+    "facilis"
   ],
-  "Context": "voluptatem"
+  "Context": "at"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Blick, Cummerata and Mraz",
-      "Operator": "recusandae",
+      "Name": "Dietrich LLC",
+      "Operator": "veniam",
       "Values": [
-        "a",
-        "sit"
+        "dicta",
+        "vitae"
       ],
       "DisplayValues": [
-        "error",
-        "nobis"
+        "doloribus",
+        "deleniti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 551,
+      "InterParenthesis": 388,
       "InterOperator": "And",
-      "UniqueHash": 43
+      "UniqueHash": 176
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Weber-Kuhic",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "reprehenderit",
+      "DisplayName": "Marquardt, VonRueden and Gaylord",
+      "DisplayTooltip": "earum",
+      "DisplayType": "autem",
       "CanOrderBy": true,
-      "Name": "Stokes Inc and Sons",
+      "Name": "Lockman LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "sed",
-      "RestrictionListName": "Wiegand-Hirthe",
+      "RestrictionType": "et",
+      "RestrictionListName": "Wisoky, Sporer and Dare",
       "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "sunt",
-      "IconHint": "sint",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "nemo",
+      "Width": "et",
+      "IconHint": "nobis",
+      "HeadingIconHint": "sit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Johns, Kozey and Jenkins",
-      "PrimaryKey": 668,
+      "EntityName": "Senger-Bechtelar",
+      "PrimaryKey": 648,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "aut",
-          "LinkHint": "at"
+          "DisplayValue": "hic",
+          "TooltipHint": "in",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "omnis",
+      "LinkHint": "nihil",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 138
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bayer LLC",
-      "Description": "Virtual secondary forecast",
-      "Rank": 683,
+      "Name": "Schmitt Group",
+      "Description": "Inverse leading edge matrices",
+      "Rank": 973,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bayer LLC",
-      "Description": "Virtual secondary forecast",
-      "Rank": 683,
+      "Name": "Schmitt Group",
+      "Description": "Inverse leading edge matrices",
+      "Rank": 973,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

@@ -45,7 +45,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |rejectReason| *None* |!!rejectReason| x |
 |isAssignment| *None* |!!isAssignment|  |
 |isFree| *None* |!!isFree: bool| x |
-|isSystemUser| *None* |!!isSystemUser: bool| x |
+|isSystemUserAssignment| *None* |!!isSystemUserAssignment: bool| x |
 
 ## Sample
 

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 770
+  "ContactId": 778
 }
 ```
 
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 745,
-  "Name": "Bashirian-Hamill",
+  "ContactId": 710,
+  "Name": "Altenwerth, Champlin and Moen",
   "Department": "",
-  "CountryId": 21,
-  "Number2": "887060",
-  "DirectPhone": "618.890.9092 x59373",
+  "CountryId": 41,
+  "Number2": "578018",
+  "DirectPhone": "1-703-381-9659 x0669",
   "URL": "http://www.example.com/",
-  "EmailAddress": "liza_mante@reilly.com",
+  "EmailAddress": "michael@grantnienow.info",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Zane Kuhn",
+  "AssociateFullName": "Prof. Aisha Jennings Mills",
   "Address": null
 }
 ```

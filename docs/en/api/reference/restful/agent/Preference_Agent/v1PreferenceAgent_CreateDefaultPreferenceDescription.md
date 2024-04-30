@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 636,
-  "Section": "adipisci",
-  "Key": "repellat",
-  "Name": "Hamill LLC",
+  "PrefDescId": 1001,
+  "Section": "quaerat",
+  "Key": "tempora",
+  "Name": "Lockman Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized regional service-desk",
-  "IsBuiltin": false,
-  "TableName": "Kreiger, Kub and Stamm",
-  "UserDefinedListId": 379,
-  "Rank": 60,
+  "Description": "Customizable even-keeled complexity",
+  "IsBuiltin": true,
+  "TableName": "Mills, Prohaska and Rodriguez",
+  "UserDefinedListId": 329,
+  "Rank": 372,
   "SubGroup": "et",
-  "MinLevel": 533,
-  "MaxValue": 980,
-  "MinValue": 85,
-  "RequiredLicense": "autem",
+  "MinLevel": 516,
+  "MaxValue": 142,
+  "MinValue": 371,
+  "RequiredLicense": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 517
     }
   }
 }

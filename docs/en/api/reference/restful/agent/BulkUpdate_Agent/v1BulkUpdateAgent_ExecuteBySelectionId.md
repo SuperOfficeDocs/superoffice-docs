@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "sequi",
-      "ValueType": "voluptatum",
-      "Mandatory": false,
-      "EncodedDisplayName": "Bashirian-Hamill",
-      "EncodedDisplayDescription": "Business-focused mission-critical paradigm",
-      "IconHint": "repudiandae",
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": false,
+      "IsActive": true,
+      "Key": "tenetur",
+      "ValueType": "eum",
+      "Mandatory": true,
+      "EncodedDisplayName": "Abshire, Halvorson and Thiel",
+      "EncodedDisplayDescription": "Diverse composite moderator",
+      "IconHint": "earum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "est",
-      "EncodedDataCaptionDescription": "Managed non-volatile initiative",
-      "CurrentOperationType": "occaecati",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "User-centric radical project",
+      "CurrentOperationType": "consectetur",
       "Values": [
-        "fugit",
-        "quisquam"
+        "sequi",
+        "vitae"
       ],
       "DisplayValues": [
-        "repellendus",
-        "ducimus"
+        "inventore",
+        "iste"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Raynor-Bayer",
-  "Context": "quia",
-  "SelectionId": 723,
+  "TableName": "West, Sauer and Fadel",
+  "Context": "maiores",
+  "SelectionId": 389,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-403
+475
 ```

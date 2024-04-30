@@ -547,6 +547,7 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="ActionTimeUnit" type="tns:WorkflowTimeWaitIntervalType" />
               <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Owner" type="xs:int" />
+              <xs:element minOccurs="0" name="Source" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -555,11 +556,24 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepNotifyByEmail">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="To" type="tns:WorkflowNotifyEmailType" />
+              <xs:element minOccurs="0" name="SpecificEmailAddresses" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepNotifyByEmail" nillable="true" type="tns:WorkflowStepNotifyByEmail" />
+      <xs:simpleType name="WorkflowNotifyEmailType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="OurContact" />
+          <xs:enumeration value="OurServiceContact" />
+          <xs:enumeration value="SpecificEmailAddress" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowNotifyEmailType" nillable="true" type="tns:WorkflowNotifyEmailType" />
       <xs:complexType name="WorkflowStepNotifyBySMS">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -592,7 +606,7 @@ title: Services88.WorkflowAgent WSDL
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
@@ -693,8 +707,8 @@ title: Services88.WorkflowAgent WSDL
         <xs:sequence>
           <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
           <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
           <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
@@ -814,8 +828,8 @@ title: Services88.WorkflowAgent WSDL
           <xs:element minOccurs="0" name="EncodedDataCaption" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="EncodedDataCaptionDescription" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="CurrentOperationType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           <xs:element minOccurs="0" name="OperationInfos" nillable="true" type="tns:ArrayOfOperationInfo" />
         </xs:sequence>
       </xs:complexType>
@@ -854,7 +868,7 @@ title: Services88.WorkflowAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="EncodedDisplayName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="EncodedLeadTexts" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="EncodedLeadTexts" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1443,14 +1457,14 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="TryAddPersonsToEmailFlowResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q10:ArrayOfboolean" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q11:ArrayOfboolean" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1458,7 +1472,7 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1504,6 +1518,20 @@ title: Services88.WorkflowAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="CopyEmailFlowContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateFormSubmissions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MaxCount" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateFormSubmissionsResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" type="xs:int" />
@@ -2069,6 +2097,23 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="UpdateFormSubmissionsRequest">
+    <wsdl:part name="parameters" element="tns:UpdateFormSubmissions" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFormSubmissionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFormSubmissionsResponse">
+    <wsdl:part name="parameters" element="tns:UpdateFormSubmissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFormSubmissionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="RunRequest">
     <wsdl:part name="parameters" element="tns:Run" />
   </wsdl:message>
@@ -2323,6 +2368,10 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="CopyEmailFlowContent">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlowContent" name="CopyEmailFlowContentRequest" message="tns:CopyEmailFlowContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlowContentResponse" name="CopyEmailFlowContentResponse" message="tns:CopyEmailFlowContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFormSubmissions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/UpdateFormSubmissions" name="UpdateFormSubmissionsRequest" message="tns:UpdateFormSubmissionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/UpdateFormSubmissionsResponse" name="UpdateFormSubmissionsResponse" message="tns:UpdateFormSubmissionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="Run">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/Run" name="RunRequest" message="tns:RunRequest" />
@@ -2700,6 +2749,22 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:CopyEmailFlowContentResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CopyEmailFlowContentResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CopyEmailFlowContentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFormSubmissions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/UpdateFormSubmissions" style="document" />
+      <wsdl:input name="UpdateFormSubmissionsRequest">
+        <soap:header message="tns:UpdateFormSubmissionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateFormSubmissionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateFormSubmissionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateFormSubmissionsResponse">
+        <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

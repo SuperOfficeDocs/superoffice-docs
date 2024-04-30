@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hoeger Group",
-  "ProviderName": "Bode-Runte",
+  "GuiName": "Jacobi-Mitchell",
+  "ProviderName": "Hahn-Howe",
   "Entities": [
-    "sapiente",
-    "molestias"
+    "laudantium",
+    "quibusdam"
   ]
 }
 ```

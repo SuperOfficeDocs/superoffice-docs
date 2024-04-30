@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Harris-Zulauf",
-    "ToolTip": "Sunt non.",
+    "Id": 440,
+    "Name": "Sauer, Schulist and Hermann",
+    "ToolTip": "Iure nulla maiores.",
     "Deleted": false,
-    "Rank": 496,
-    "Type": "quisquam",
-    "ColorBlock": 929,
-    "IconHint": "perferendis",
+    "Rank": 774,
+    "Type": "voluptas",
+    "ColorBlock": 862,
+    "IconHint": "sint",
     "Selected": true,
-    "LastChanged": "1997-12-23T11:44:43.054404+01:00",
+    "LastChanged": "2009-11-16T11:16:14.5589219+01:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Schaden Group",
-        "ToolTip": "Est repellendus quia excepturi maiores.",
+        "Id": 349,
+        "Name": "Fay Group",
+        "ToolTip": "Repudiandae aliquid.",
         "Deleted": false,
-        "Rank": 422,
-        "Type": "quisquam",
-        "ColorBlock": 122,
-        "IconHint": "repellendus",
+        "Rank": 978,
+        "Type": "et",
+        "ColorBlock": 352,
+        "IconHint": "iusto",
         "Selected": true,
-        "LastChanged": "1998-03-02T11:44:43.054404+01:00",
+        "LastChanged": "2013-02-23T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Dr. Kane Schimmel PhD",
+        "ExtraInfo": "laborum",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Breanne Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldType": "System.String",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
+    "ExtraInfo": "sit",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Ellis Nader",
+    "FullName": "Rosendo Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   }

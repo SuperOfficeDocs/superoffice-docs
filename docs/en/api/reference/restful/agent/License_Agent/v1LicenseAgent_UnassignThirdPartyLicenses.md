@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 518,
-  "ModuleOwner": "quaerat",
+  "AssociateId": 240,
+  "ModuleOwner": "quod",
   "ModuleLicenseNames": [
-    "Thiel Group",
-    "Hilll LLC"
+    "Wuckert, Larkin and Howell",
+    "Hane, Witting and Dicki"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 295,
-    "Tooltip": "quia",
+    "Unrestricted": true,
+    "Total": 860,
+    "Tooltip": "vel",
     "CanAssign": false,
-    "Free": 959,
-    "InUse": 797,
+    "Free": 427,
+    "InUse": 406,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 368,
-    "Name": "Orn-Predovic",
-    "Description": "Phased local algorithm",
-    "PrerequisiteModuleName": "Barton, Kuvalis and Lebsack",
-    "SortOrder": 774,
-    "ExtraFlags": 521,
+    "Assigned": false,
+    "ModuleLicenseId": 249,
+    "Name": "Morissette, Wolf and Adams",
+    "Description": "Multi-layered reciprocal frame",
+    "PrerequisiteModuleName": "Romaguera-Bechtelar",
+    "SortOrder": 724,
+    "ExtraFlags": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 104
       }
     }
   }

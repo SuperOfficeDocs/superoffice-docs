@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 651
+  "DocumentId": 966
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 404,
-  "Attention": "labore",
-  "Header": "hic",
-  "Name": "Blick Inc and Sons",
-  "OurRef": "eos",
-  "YourRef": "velit",
-  "Description": "Optional needs-based matrix",
-  "DocumentTemplate": "cum",
-  "IsPublished": false,
-  "PersonId": 716,
-  "PersonFullName": "Mr. Francisco Alyson Padberg I",
-  "AssociateFullName": "Wilfredo Emmerich",
-  "ContactId": 186,
-  "ContactName": "Schamberger-Nolan",
-  "ProjectId": 315,
-  "ProjectName": "Goldner-Trantow",
-  "AssociateId": 928,
-  "Snum": 322,
-  "SaleId": 304,
-  "SaleName": "Quigley, Sipes and Nicolas",
+  "DocumentId": 8,
+  "Attention": "neque",
+  "Header": "tempore",
+  "Name": "Feeney, Nolan and Ankunding",
+  "OurRef": "sunt",
+  "YourRef": "corporis",
+  "Description": "Ameliorated global website",
+  "DocumentTemplate": "veniam",
+  "IsPublished": true,
+  "PersonId": 883,
+  "PersonFullName": "Vada Strosin",
+  "AssociateFullName": "Carole Bradtke",
+  "ContactId": 348,
+  "ContactName": "Haag Inc and Sons",
+  "ProjectId": 717,
+  "ProjectName": "Pagac-Kiehn",
+  "AssociateId": 186,
+  "Snum": 673,
+  "SaleId": 215,
+  "SaleName": "Schamberger-Schultz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 122
     }
   }
 }

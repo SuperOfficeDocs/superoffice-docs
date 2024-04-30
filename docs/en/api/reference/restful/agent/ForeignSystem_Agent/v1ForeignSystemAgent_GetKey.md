@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mertz Group",
-  "DeviceName": "Bogisich, Schmeler and Howe",
-  "KeyName": "Morar, Sawayn and Larkin",
-  "TableName": "Schuster LLC",
-  "RecordId": 320
+  "ApplicationName": "Simonis, Larson and Kuvalis",
+  "DeviceName": "McGlynn Inc and Sons",
+  "KeyName": "Zemlak-Hoppe",
+  "TableName": "Lang-Macejkovic",
+  "RecordId": 733
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "culpa",
-  "Value": "quaerat",
-  "RecordId": 965,
-  "CreatedDate": "2003-03-20T11:44:33.7596833+01:00",
-  "UpdatedDate": "2006-10-30T11:44:33.7596833+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "doloremque",
-  "TableName": "Morar Inc and Sons",
+  "Key": "non",
+  "Value": "rerum",
+  "RecordId": 497,
+  "CreatedDate": "2008-07-16T11:16:09.2878404+02:00",
+  "UpdatedDate": "2012-01-23T11:16:09.2878404+01:00",
+  "UpdatedBy": "commodi",
+  "CreatedBy": "voluptas",
+  "TableName": "McDermott-Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 494
     }
   }
 }

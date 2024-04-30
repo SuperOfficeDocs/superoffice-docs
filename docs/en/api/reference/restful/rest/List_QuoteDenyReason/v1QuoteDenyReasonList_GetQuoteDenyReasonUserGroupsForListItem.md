@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Collier Group",
-    "ToolTip": "Eligendi incidunt consequuntur eveniet.",
+    "Id": 920,
+    "Name": "Hermiston, Schneider and Treutel",
+    "ToolTip": "A ratione itaque doloribus omnis quod accusantium.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "et",
-    "ColorBlock": 552,
-    "IconHint": "non",
+    "Rank": 317,
+    "Type": "consequatur",
+    "ColorBlock": 811,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "1997-09-13T11:44:43.2574879+02:00",
+    "LastChanged": "2024-04-09T11:16:14.6839019+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Est fuga ex.",
+        "Id": 883,
+        "Name": "Rohan Inc and Sons",
+        "ToolTip": "Voluptas quia.",
         "Deleted": false,
-        "Rank": 531,
-        "Type": "minima",
-        "ColorBlock": 341,
-        "IconHint": "est",
+        "Rank": 860,
+        "Type": "suscipit",
+        "ColorBlock": 923,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2008-05-22T11:44:43.2574879+02:00",
+        "LastChanged": "2020-01-15T11:16:14.6839019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quam",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Blaise Durgan",
+        "FullName": "Mike Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "et",
+    "ExtraInfo": "omnis",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Jan Carlo Shields IV",
+    "FullName": "Ari Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 807
       }
     }
   }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 47,
-    "Name": "Thiel Inc and Sons",
-    "Tooltip": "vitae",
+    "HeadingId": 432,
+    "Name": "Bayer, Kemmer and Schmeler",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 386,
+    "Rank": 569,
+    "UdListDefinitionId": 767,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 220
       }
     }
   }

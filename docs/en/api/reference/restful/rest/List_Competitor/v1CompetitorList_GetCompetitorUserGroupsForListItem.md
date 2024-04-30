@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Dibbert Group",
-    "ToolTip": "Eos et cum magni non hic.",
-    "Deleted": true,
-    "Rank": 708,
-    "Type": "recusandae",
-    "ColorBlock": 314,
-    "IconHint": "quia",
+    "Id": 496,
+    "Name": "Smitham LLC",
+    "ToolTip": "Illum sed rem qui provident sit eum.",
+    "Deleted": false,
+    "Rank": 372,
+    "Type": "sit",
+    "ColorBlock": 396,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2010-09-16T11:44:42.9607018+02:00",
+    "LastChanged": "2001-05-07T11:16:14.4964233+02:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Buckridge-Breitenberg",
-        "ToolTip": "Autem impedit quo provident fuga ullam.",
-        "Deleted": false,
-        "Rank": 786,
-        "Type": "maiores",
-        "ColorBlock": 227,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2018-11-08T11:44:42.9607018+01:00",
+        "Id": 241,
+        "Name": "Breitenberg-Jacobi",
+        "ToolTip": "Non possimus voluptas consequatur.",
+        "Deleted": true,
+        "Rank": 479,
+        "Type": "possimus",
+        "ColorBlock": 541,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2012-01-14T11:16:14.4964233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "harum",
+        "ExtraInfo": "modi",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Ms. Kelvin Willow Goldner",
+        "FullName": "Tavares Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldType": "System.String",
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Markus Quincy Bergstrom MD",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Ms. Clotilde Shane Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

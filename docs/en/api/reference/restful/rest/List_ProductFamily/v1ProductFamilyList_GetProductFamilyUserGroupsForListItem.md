@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Wehner-Gulgowski",
-    "ToolTip": "Ut voluptatem.",
+    "Id": 684,
+    "Name": "Kovacek LLC",
+    "ToolTip": "Fuga velit iusto ratione eligendi consequatur.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "eum",
-    "ColorBlock": 132,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2013-12-05T11:44:43.1949983+01:00",
+    "Rank": 614,
+    "Type": "dignissimos",
+    "ColorBlock": 531,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2004-03-30T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Weber LLC",
-        "ToolTip": "Sit voluptatibus veritatis aut architecto aut odio quia.",
+        "Id": 982,
+        "Name": "Wolf, Hammes and Boyer",
+        "ToolTip": "Unde exercitationem voluptatem vel temporibus sed in excepturi.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "quae",
-        "ColorBlock": 354,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2007-06-23T11:44:43.1949983+02:00",
+        "Rank": 415,
+        "Type": "exercitationem",
+        "ColorBlock": 225,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2016-03-20T11:16:14.6370359+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Teagan Schiller",
+        "ExtraInfo": "minus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Miss Diamond Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 100
+            "FieldType": "System.Int32",
+            "FieldLength": 399
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "officiis",
-    "Hidden": true,
-    "FullName": "Mr. Markus Nathanial Hickle V",
+    "ExtraInfo": "earum",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Prof. Dora Johnathon Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldLength": 282
       }
     }
   }

@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 208,
-  "UniqueIdentifier": "officiis",
-  "Name": "Jacobson LLC",
-  "Description": "Automated regional orchestration",
-  "IncludeId": "veniam",
-  "HierarchyId": 683,
-  "Source": "et",
-  "Registered": "2017-07-13T11:44:41.8671838+02:00",
-  "RegisteredAssociateId": 979,
-  "Updated": "1997-11-27T11:44:41.8671838+01:00",
-  "UpdatedAssociateId": 411
+  "EjscriptId": 452,
+  "UniqueIdentifier": "aut",
+  "Name": "Macejkovic Inc and Sons",
+  "Description": "Reverse-engineered attitude-oriented analyzer",
+  "IncludeId": "enim",
+  "HierarchyId": 714,
+  "Source": "consequatur",
+  "Registered": "2012-10-24T11:16:13.8550957+02:00",
+  "RegisteredAssociateId": 837,
+  "Updated": "2016-04-11T11:16:13.8550957+02:00",
+  "UpdatedAssociateId": 469
 }
 ```
 
@@ -126,28 +126,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 213,
-  "UniqueIdentifier": "omnis",
-  "Name": "Price-Grady",
-  "Description": "Cross-platform hybrid moratorium",
-  "IncludeId": "voluptatem",
-  "HierarchyId": 554,
-  "Source": "quia",
-  "Registered": "2006-06-20T11:44:41.8671838+02:00",
-  "RegisteredAssociateId": 421,
-  "Updated": "2014-09-01T11:44:41.8671838+02:00",
-  "UpdatedAssociateId": 414,
+  "EjscriptId": 128,
+  "UniqueIdentifier": "eius",
+  "Name": "Harris, Lemke and Rolfson",
+  "Description": "Assimilated eco-centric project",
+  "IncludeId": "sed",
+  "HierarchyId": 383,
+  "Source": "placeat",
+  "Registered": "2012-11-27T11:16:13.8550957+01:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "1999-01-24T11:16:13.8550957+01:00",
+  "UpdatedAssociateId": 136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 167
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

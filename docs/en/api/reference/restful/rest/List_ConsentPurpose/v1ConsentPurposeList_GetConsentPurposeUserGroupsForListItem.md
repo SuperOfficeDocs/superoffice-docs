@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Anderson-Reynolds",
-    "ToolTip": "Consectetur architecto iste adipisci.",
+    "Id": 185,
+    "Name": "Runte Group",
+    "ToolTip": "Consequatur nisi alias inventore aut quia quod.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "eos",
-    "ColorBlock": 455,
-    "IconHint": "enim",
+    "Rank": 450,
+    "Type": "rem",
+    "ColorBlock": 271,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2018-08-10T11:44:42.9762901+02:00",
+    "LastChanged": "2000-09-30T11:16:14.512052+02:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Krajcik Inc and Sons",
-        "ToolTip": "Ad earum molestiae deleniti ipsa.",
-        "Deleted": false,
-        "Rank": 468,
-        "Type": "adipisci",
-        "ColorBlock": 421,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "1999-05-08T11:44:42.9762901+02:00",
+        "Id": 128,
+        "Name": "Stroman-Torphy",
+        "ToolTip": "Vel molestiae velit.",
+        "Deleted": true,
+        "Rank": 778,
+        "Type": "et",
+        "ColorBlock": 745,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2009-12-13T11:16:14.512052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "commodi",
+        "ExtraInfo": "atque",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Xzavier Hettinger",
+        "FullName": "Ms. Vincenza Johnston DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Dr. Marvin Okuneva I",
+    "ExtraInfo": "impedit",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Kacie Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 977
       }
     }
   }

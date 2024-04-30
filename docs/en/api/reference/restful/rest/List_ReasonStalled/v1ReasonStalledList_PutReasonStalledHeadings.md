@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "Daniel Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 947,
+    "Name": "Kohler, Rosenbaum and Koss",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 301,
-    "UdListDefinitionId": 837
+    "Rank": 12,
+    "UdListDefinitionId": 500
   },
   {
-    "HeadingId": 357,
-    "Name": "Daniel Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 947,
+    "Name": "Kohler, Rosenbaum and Koss",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 301,
-    "UdListDefinitionId": 837
+    "Rank": 12,
+    "UdListDefinitionId": 500
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 972,
-    "Name": "Tremblay Inc and Sons",
-    "Tooltip": "nihil",
+    "HeadingId": 720,
+    "Name": "Balistreri-Gusikowski",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 909,
-    "UdListDefinitionId": 114,
+    "Rank": 802,
+    "UdListDefinitionId": 344,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 463
       }
     }
   }

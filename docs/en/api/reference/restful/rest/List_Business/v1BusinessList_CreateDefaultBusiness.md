@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Jaskolski-Cummings",
-  "Tooltip": "ipsa",
+  "Id": 418,
+  "Name": "Ryan Inc and Sons",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 490,
-  "Rank": 523,
+  "UdListDefinitionId": 413,
+  "Rank": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldLength": 651
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Durgan, Marks and Beier",
-    "ToolTip": "Ut ex.",
-    "Deleted": false,
-    "Rank": 183,
-    "Type": "debitis",
-    "ColorBlock": 746,
-    "IconHint": "rerum",
+    "Id": 592,
+    "Name": "Gulgowski-Hirthe",
+    "ToolTip": "Enim officiis.",
+    "Deleted": true,
+    "Rank": 165,
+    "Type": "rerum",
+    "ColorBlock": 400,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2021-11-22T11:44:43.3355939+01:00",
+    "LastChanged": "2015-05-14T11:16:14.7307772+02:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Schmeler, Lakin and Cronin",
-        "ToolTip": "Rem dolorem rerum voluptas ducimus ducimus ad.",
+        "Id": 313,
+        "Name": "Larson, Hyatt and Metz",
+        "ToolTip": "Voluptas vero quasi et hic.",
         "Deleted": false,
-        "Rank": 704,
-        "Type": "autem",
-        "ColorBlock": 846,
-        "IconHint": "consequuntur",
+        "Rank": 71,
+        "Type": "laboriosam",
+        "ColorBlock": 857,
+        "IconHint": "delectus",
         "Selected": true,
-        "LastChanged": "1997-06-05T11:44:43.3355939+02:00",
+        "LastChanged": "2021-12-19T11:16:14.7307772+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "id",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mrs. Blake Keebler DVM"
+        "FullName": "Hester Douglas"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Maymie Considine"
+    "ExtraInfo": "aliquam",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Leanna Robel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Wiza-Bernier",
-    "ToolTip": "Qui excepturi accusamus et beatae.",
+    "Id": 502,
+    "Name": "Schimmel, Raynor and Pfeffer",
+    "ToolTip": "Non corporis qui odio sint.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "cupiditate",
-    "ColorBlock": 73,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2020-11-12T11:44:43.3512152+01:00",
+    "Rank": 819,
+    "Type": "autem",
+    "ColorBlock": 95,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2013-01-12T11:16:14.7620242+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Oberbrunner-Botsford",
-        "ToolTip": "Fuga rerum rerum est nostrum.",
+        "Id": 875,
+        "Name": "Klocko-Lind",
+        "ToolTip": "Rerum aut atque.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "nemo",
-        "ColorBlock": 138,
-        "IconHint": "quas",
+        "Rank": 678,
+        "Type": "aut",
+        "ColorBlock": 124,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "1997-04-03T11:44:43.3512152+02:00",
+        "LastChanged": "2017-05-15T11:16:14.7620242+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "sed",
+        "ExtraInfo": "quidem",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Mariah Gottlieb",
+        "FullName": "Emerald Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 353
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "dolores",
+    "ExtraInfo": "et",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Baylee Kertzmann",
+    "FullName": "Mozelle Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   }

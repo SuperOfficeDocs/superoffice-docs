@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "est",
+  "FieldLabel": "nostrum",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 280,
-  "ColumnId": 767,
-  "FieldDefault": "iusto",
-  "FieldHeight": 189,
-  "FieldLabel": "deserunt",
-  "FieldLeft": 778,
-  "FieldTop": 556,
+  "UDefFieldId": 703,
+  "ColumnId": 237,
+  "FieldDefault": "sint",
+  "FieldHeight": 135,
+  "FieldLabel": "perferendis",
+  "FieldLeft": 182,
+  "FieldTop": 356,
   "FieldType": "Checkbox",
-  "FieldWidth": 169,
-  "FormatMask": "deleniti",
-  "HideLabel": true,
+  "FieldWidth": 172,
+  "FormatMask": "aut",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 836,
-  "LabelLeft": 878,
-  "LabelTop": 494,
-  "LabelWidth": 334,
-  "LastVersionId": 695,
-  "ListTableId": 593,
+  "LabelHeight": 819,
+  "LabelLeft": 341,
+  "LabelTop": 68,
+  "LabelWidth": 681,
+  "LastVersionId": 678,
+  "ListTableId": 826,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 378,
-  "ProgId": "temporibus",
-  "IsReadOnly": false,
-  "ShortLabel": "harum",
-  "TabOrder": 480,
-  "TextLength": 522,
-  "Tooltip": "qui",
-  "UdefIdentity": 49,
-  "UDListDefinitionId": 55,
+  "Page1LineNo": 135,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "eius",
+  "TabOrder": 941,
+  "TextLength": 302,
+  "Tooltip": "ullam",
+  "UdefIdentity": 616,
+  "UDListDefinitionId": 350,
   "Justification": "Center",
-  "Version": 430,
-  "TemplateVariableName": "Cummings, Hickle and Welch",
+  "Version": 705,
+  "TemplateVariableName": "Mante, Bayer and Howell",
   "HasBeenPublished": false,
-  "MdoListName": "Waters Group",
+  "MdoListName": "Roob-Beahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldLength": 728
     }
   }
 }

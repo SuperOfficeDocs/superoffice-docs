@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 549
+  "QuoteConnectionId": 875
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 157,
-  "ERPName": "Schoen, Bergnaum and Ankunding",
-  "DisplayName": "Rogahn-Berge",
-  "DisplayDescription": "Profound eco-centric circuit",
-  "Rank": 356,
-  "ConnectorName": "Rice LLC",
-  "ErpConnectionId": 464,
-  "ExtraData": "deserunt",
-  "IsAvailable": true,
+  "QuoteConnectionId": 189,
+  "ERPName": "Braun-Hintz",
+  "DisplayName": "Kirlin Inc and Sons",
+  "DisplayDescription": "Multi-tiered multi-state contingency",
+  "Rank": 651,
+  "ConnectorName": "Heathcote LLC",
+  "ErpConnectionId": 252,
+  "ExtraData": "amet",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 669,
-      "ERPPriceListKey": "ut",
-      "QuoteConnectionId": 965,
-      "Name": "Koch, Batz and Huel",
-      "Description": "Seamless full-range challenge",
-      "Currency": "ab",
-      "CurrencyName": "Johnston-Stamm",
-      "ValidFrom": "2013-08-04T11:44:34.2907996+02:00",
-      "ValidTo": "2014-06-17T11:44:34.2907996+02:00",
+      "PriceListId": 944,
+      "ERPPriceListKey": "fuga",
+      "QuoteConnectionId": 119,
+      "Name": "Strosin Inc and Sons",
+      "Description": "Versatile global open architecture",
+      "Currency": "et",
+      "CurrencyName": "Towne, Doyle and Mills",
+      "ValidFrom": "2020-07-16T11:16:09.6005114+02:00",
+      "ValidTo": "2011-06-19T11:16:09.6005114+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 329
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    441,
-    258
+    588,
+    968
   ],
   "AssociateAccessIds": [
-    616,
-    901
+    802,
+    300
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 59
     }
   }
 }

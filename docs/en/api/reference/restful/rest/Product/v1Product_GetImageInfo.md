@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Oct 2000 11:44:42 G10T
+Last-Modified: Thu, 28 Mar 2024 11:16:14 G3T
 
 {
-  "BlobId": 906,
-  "BlobSize": 422,
-  "Description": "Organic local leverage",
-  "ExtraInfo": "ipsum",
+  "BlobId": 945,
+  "BlobSize": 780,
+  "Description": "Cloned impactful functionalities",
+  "ExtraInfo": "sequi",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 17,
-  "CreatedDate": "2019-04-10T11:44:42.7575951+02:00",
-  "UpdatedDate": "2000-10-09T11:44:42.7575951+02:00",
+  "MimeType": "culpa",
+  "OriginalSize": 605,
+  "CreatedDate": "2023-12-11T11:16:14.3710713+01:00",
+  "UpdatedDate": "2024-03-28T11:16:14.3710713+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptate",
+  "ConceptualType": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

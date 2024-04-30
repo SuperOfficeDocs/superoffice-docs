@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Crooks Inc and Sons",
-  "EventFilter": "ipsum",
+  "NameFilter": "Schulist-Johnston",
+  "EventFilter": "iusto",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 704,
-    "Name": "Orn-Connelly",
+    "WebhookId": 248,
+    "Name": "Bashirian, Mertz and Windler",
     "Events": [
-      "numquam",
-      "occaecati"
+      "eaque",
+      "voluptas"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "vel",
+    "Secret": "impedit",
     "State": "Active",
-    "Type": "ut",
+    "Type": "et",
     "Headers": {
-      "Headers1": "tenetur",
-      "Headers2": "impedit"
+      "Headers1": "et",
+      "Headers2": "porro"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2003-11-25T11:44:35.0562611+01:00",
+    "Registered": "2002-05-25T11:16:10.0860038+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2004-06-06T11:44:35.0562611+02:00",
+    "Updated": "2017-08-28T11:16:10.0860038+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "gideon_jewess@weissnat.uk"
+    "ErrorsEmail": "edgardo.goldner@rath.com"
   }
 ]
 ```

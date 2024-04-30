@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "molestias",
+  "ProgId": "soluta",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 573,
-  "ColumnId": 775,
-  "FieldDefault": "est",
-  "FieldHeight": 249,
-  "FieldLabel": "quis",
-  "FieldLeft": 360,
-  "FieldTop": 254,
+  "UDefFieldId": 510,
+  "ColumnId": 142,
+  "FieldDefault": "sint",
+  "FieldHeight": 454,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 11,
+  "FieldTop": 646,
   "FieldType": "Checkbox",
-  "FieldWidth": 309,
-  "FormatMask": "magnam",
-  "HideLabel": true,
+  "FieldWidth": 704,
+  "FormatMask": "aut",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 701,
-  "LabelLeft": 991,
-  "LabelTop": 827,
-  "LabelWidth": 16,
-  "LastVersionId": 473,
-  "ListTableId": 741,
-  "IsMandatory": true,
+  "LabelHeight": 184,
+  "LabelLeft": 471,
+  "LabelTop": 828,
+  "LabelWidth": 907,
+  "LastVersionId": 568,
+  "ListTableId": 337,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 708,
-  "ProgId": "dolor",
-  "IsReadOnly": false,
-  "ShortLabel": "perferendis",
-  "TabOrder": 215,
-  "TextLength": 384,
-  "Tooltip": "quo",
-  "UdefIdentity": 406,
-  "UDListDefinitionId": 470,
+  "Page1LineNo": 605,
+  "ProgId": "maiores",
+  "IsReadOnly": true,
+  "ShortLabel": "dolore",
+  "TabOrder": 126,
+  "TextLength": 376,
+  "Tooltip": "esse",
+  "UdefIdentity": 169,
+  "UDListDefinitionId": 434,
   "Justification": "Center",
-  "Version": 706,
-  "TemplateVariableName": "Purdy, Satterfield and Schaden",
+  "Version": 337,
+  "TemplateVariableName": "Barrows LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Prosacco, Walker and Morissette",
+  "MdoListName": "Nader Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

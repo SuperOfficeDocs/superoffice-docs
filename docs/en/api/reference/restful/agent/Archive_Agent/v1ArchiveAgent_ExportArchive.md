@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wisoky LLC",
-  "Context": "voluptates",
+  "ProviderName": "Moen LLC",
+  "Context": "repudiandae",
   "DesiredEntities": [
-    "et",
+    "rerum",
     "et"
   ],
   "Columns": [
-    "autem",
-    "aut"
+    "fugit",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Monahan, Tillman and Daniel",
+      "Name": "Vandervort LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Monahan, Tillman and Daniel",
+      "Name": "Vandervort LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Gulgowski, Bartell and Schumm",
-      "Operator": "maiores",
+      "Name": "Braun, O'Conner and Mills",
+      "Operator": "quibusdam",
       "Values": [
-        "voluptatem",
-        "corporis"
+        "quia",
+        "nam"
       ],
       "DisplayValues": [
-        "aut",
-        "quis"
+        "voluptates",
+        "eveniet"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 107,
+      "InterParenthesis": 640,
       "InterOperator": "And",
-      "UniqueHash": 812
+      "UniqueHash": 287
     }
   ],
-  "ExportType": "tempore",
+  "ExportType": "alias",
   "SelectedRowIds": [
-    "sequi",
-    "qui"
+    "id",
+    "cum"
   ],
-  "EstimatedRowCount": 782
+  "EstimatedRowCount": 649
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 962,
-  "FileName": "Kling-Williamson",
-  "Message": "molestiae",
+  "BatchTaskId": 893,
+  "FileName": "Yundt-Blick",
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Jewess, Doyle and Wyman",
-  "StorageKey": "animi",
-  "Context": "occaecati"
+  "StorageType": "minus",
+  "ProviderName": "Emard-Nicolas",
+  "StorageKey": "eum",
+  "Context": "fugit"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert Inc and Sons",
-    "Description": "Down-sized maximized internet solution",
-    "Rank": 102,
+    "Name": "Kuhic Group",
+    "Description": "Adaptive intermediate support",
+    "Rank": 166,
     "Restrictions": [
       {
-        "Name": "Feil-Pacocha",
-        "Operator": "consequatur",
+        "Name": "Leuschke, Nader and McCullough",
+        "Operator": "quasi",
         "Values": [
-          "temporibus",
-          "id"
+          "asperiores",
+          "ut"
         ],
         "DisplayValues": [
-          "dolores",
-          "quibusdam"
+          "suscipit",
+          "debitis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 967,
+        "InterParenthesis": 33,
         "InterOperator": "And",
-        "UniqueHash": 620
+        "UniqueHash": 541
       }
     ]
   },
   {
-    "Name": "Wuckert Inc and Sons",
-    "Description": "Down-sized maximized internet solution",
-    "Rank": 102,
+    "Name": "Kuhic Group",
+    "Description": "Adaptive intermediate support",
+    "Rank": 166,
     "Restrictions": [
       {
-        "Name": "Feil-Pacocha",
-        "Operator": "consequatur",
+        "Name": "Leuschke, Nader and McCullough",
+        "Operator": "quasi",
         "Values": [
-          "temporibus",
-          "id"
+          "asperiores",
+          "ut"
         ],
         "DisplayValues": [
-          "dolores",
-          "quibusdam"
+          "suscipit",
+          "debitis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 967,
+        "InterParenthesis": 33,
         "InterOperator": "And",
-        "UniqueHash": 620
+        "UniqueHash": 541
       }
     ]
   }

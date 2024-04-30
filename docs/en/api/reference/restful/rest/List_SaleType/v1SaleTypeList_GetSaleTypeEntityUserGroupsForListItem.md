@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Kerluke-Emard",
-    "ToolTip": "Provident omnis molestias.",
+    "Id": 393,
+    "Name": "Moen-Fisher",
+    "ToolTip": "Error corrupti porro et et vel placeat velit.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "voluptate",
-    "ColorBlock": 738,
-    "IconHint": "ut",
+    "Rank": 466,
+    "Type": "aliquam",
+    "ColorBlock": 183,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2011-06-11T11:44:43.3355939+02:00",
+    "LastChanged": "2009-06-16T11:16:14.7307772+02:00",
     "ChildItems": [
       {
-        "Id": 899,
-        "Name": "Connelly Inc and Sons",
-        "ToolTip": "In voluptatum.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "velit",
-        "ColorBlock": 252,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2018-09-17T11:44:43.3355939+02:00",
+        "Id": 425,
+        "Name": "Lynch-Volkman",
+        "ToolTip": "Et rerum et.",
+        "Deleted": true,
+        "Rank": 558,
+        "Type": "voluptates",
+        "ColorBlock": 972,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2017-02-26T11:16:14.7307772+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "vel",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Felton Beth Bogan DDS",
+        "FullName": "Cristian Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Ms. Major Angelo Effertz V",
+    "ExtraInfo": "beatae",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Dr. Breana Theo Altenwerth PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

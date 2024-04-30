@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=149
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=64
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 85,
-  "Name": "Von-Bashirian",
-  "Tooltip": "non",
-  "Rank": 241,
+  "SaleTypeId": 573,
+  "Name": "Effertz Group",
+  "Tooltip": "provident",
+  "Rank": 428,
   "DurationUnit": "Century",
-  "SaleDuration": 443,
-  "SaleTypeCatId": 978,
+  "SaleDuration": 812,
+  "SaleTypeCatId": 947,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 469,
-  "QuoteLinesTemplate": 333,
-  "ConfirmationLinesTemplate": 850,
+  "DefaultQuoteValidity": 422,
+  "QuoteLinesTemplate": 54,
+  "ConfirmationLinesTemplate": 843,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 414,
-  "MinEarningPercent": 58,
-  "GroupQuoteLinesBy": 13,
-  "SortGroupLinesBy": 57,
+  "MaxDiscountPercent": 847,
+  "MinEarningPercent": 944,
+  "GroupQuoteLinesBy": 728,
+  "SortGroupLinesBy": 840,
   "Stages": [
     {
-      "Id": 22,
-      "Name": "Goldner-Beer",
-      "ToolTip": "Rerum impedit eligendi sunt nihil.",
-      "Deleted": false,
-      "Rank": 851,
-      "Type": "sed",
-      "ColorBlock": 171,
-      "IconHint": "temporibus",
+      "Id": 211,
+      "Name": "Emmerich-Schneider",
+      "ToolTip": "Doloribus perspiciatis ratione.",
+      "Deleted": true,
+      "Rank": 692,
+      "Type": "rerum",
+      "ColorBlock": 140,
+      "IconHint": "ipsam",
       "Selected": false,
-      "LastChanged": "2000-06-04T11:44:33.8221684+02:00",
+      "LastChanged": "2023-03-26T11:16:09.3190898+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsam",
-      "StyleHint": "eum",
+      "ExtraInfo": "sed",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Sandra Monahan",
+      "FullName": "Jeramy Williamson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 184
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

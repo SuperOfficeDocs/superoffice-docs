@@ -76,11 +76,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Jast-Leffler",
-  "DeviceName": "Turner, Gleichner and Bode",
-  "DeviceIdentifier": "qui",
-  "TableName": "Maggio, Reinger and Glover",
-  "RecordId": 951
+  "ApplicationName": "Kautzer, Wunsch and Collier",
+  "DeviceName": "Schowalter-Stehr",
+  "DeviceIdentifier": "optio",
+  "TableName": "Parisian-Wintheiser",
+  "RecordId": 27
 }
 ```
 

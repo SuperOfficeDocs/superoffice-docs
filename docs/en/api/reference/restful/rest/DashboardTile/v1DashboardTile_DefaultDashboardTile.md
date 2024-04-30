@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 245,
-  "Caption": "nihil",
-  "Description": "Profit-focused impactful knowledge base",
-  "ChartName": "Rosenbaum-Robel",
-  "ChartId": "voluptatem",
-  "IsDefault": true,
-  "AssociateId": 845,
-  "GroupId": 232,
-  "SelectionId": 117,
-  "Config": "et",
+  "DashboardTileId": 366,
+  "Caption": "maiores",
+  "Description": "Grass-roots bifurcated architecture",
+  "ChartName": "Gutmann LLC",
+  "ChartId": "est",
+  "IsDefault": false,
+  "AssociateId": 539,
+  "GroupId": 48,
+  "SelectionId": 94,
+  "Config": "molestias",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jenkins-Howe",
-      "Description": "Team-oriented 5th generation focus group",
+      "Name": "Ratke, Spencer and Armstrong",
+      "Description": "Stand-alone homogeneous architecture",
       "Type": "Boolean",
-      "ListName": "Hirthe, Schaefer and Gutmann",
+      "ListName": "Reichert-Sawayn",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nesciunt",
+      "Value": "sed",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldLength": 132
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 745,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "porro",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldLength": 565
         }
       }
     },
     {
-      "VisibleId": 745,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "porro",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldLength": 565
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

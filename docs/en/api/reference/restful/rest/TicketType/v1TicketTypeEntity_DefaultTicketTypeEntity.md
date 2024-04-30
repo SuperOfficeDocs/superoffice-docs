@@ -63,6 +63,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -72,7 +73,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,34 +83,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 141,
-  "Name": "Legros-Rutherford",
-  "Rank": 416,
-  "Tooltip": "doloremque",
-  "Icon": "molestiae",
-  "DefaultTicketStatus": 984,
+  "TicketTypeId": 289,
+  "Name": "Greenholt, Heaney and Collins",
+  "Rank": 804,
+  "Tooltip": "eveniet",
+  "Icon": "ut",
+  "DefaultTicketStatus": 140,
   "TicketStatuses": [
-    45,
-    384
+    91,
+    148
   ],
-  "DefaultTicketPriority": 326,
+  "DefaultTicketPriority": 794,
   "TicketPriorities": [
-    117,
-    803
+    366,
+    388
   ],
-  "ReplyTemplate": 297,
+  "ReplyTemplate": 941,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    183,
+    682
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

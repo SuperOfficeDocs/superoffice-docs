@@ -107,16 +107,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 461,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "atque",
+  "RoleId": 421,
+  "Name": "Adams, Gusikowski and Lakin",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 136,
-  "Rank": 445,
-  "Created": "2005-12-20T11:44:42.2107985+01:00",
-  "UseCategories": 746,
+  "Deleted": 296,
+  "Rank": 267,
+  "Created": "2011-08-20T11:16:14.1363143+02:00",
+  "UseCategories": 325,
   "CreatedBy": null,
-  "Updated": "2022-04-14T11:44:42.2107985+02:00",
+  "Updated": "2015-10-06T11:16:14.1363143+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 749,
-  "Name": "Pacocha Group",
-  "Tooltip": "omnis",
+  "RoleId": 659,
+  "Name": "Bernhard-Collier",
+  "Tooltip": "quod",
   "RoleType": "Anonymous",
-  "Deleted": 933,
-  "Rank": 694,
-  "Created": "2009-02-11T11:44:42.2264732+01:00",
-  "UseCategories": 621,
+  "Deleted": 92,
+  "Rank": 622,
+  "Created": "2000-09-09T11:16:14.1363143+02:00",
+  "UseCategories": 103,
   "CreatedBy": null,
-  "Updated": "2008-06-10T11:44:42.2264732+02:00",
+  "Updated": "1998-04-20T11:16:14.1363143+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   },
   "_Links": {

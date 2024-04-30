@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2019-07-23T11:44:32.7599049+02:00",
-  "ToDate": "2001-06-16T11:44:32.7599049+02:00",
+  "FromDate": "1999-11-13T11:16:08.7097813+01:00",
+  "ToDate": "2000-10-11T11:16:08.7097813+02:00",
   "AssociateList": [
     {
-      "Id": 528,
-      "Name": "Medhurst-Medhurst",
-      "ToolTip": "Error perspiciatis quasi et cupiditate.",
-      "Deleted": false,
-      "Rank": 85,
-      "Type": "quam",
-      "ColorBlock": 773,
-      "IconHint": "quis",
+      "Id": 796,
+      "Name": "Heller-Kub",
+      "ToolTip": "Ex voluptates aut quas velit amet cupiditate rerum.",
+      "Deleted": true,
+      "Rank": 355,
+      "Type": "est",
+      "ColorBlock": 696,
+      "IconHint": "occaecati",
       "Selected": true,
-      "LastChanged": "2011-12-09T11:44:32.7599049+01:00",
+      "LastChanged": "2015-03-03T11:16:08.7097813+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "officia",
+      "ExtraInfo": "ipsum",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Ayden Conn Sr.",
+      "FullName": "Mary Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 786
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 190,
-      "Name": "Beahan Group",
-      "ToolTip": "Unde incidunt atque sit cupiditate.",
+      "Id": 256,
+      "Name": "Ledner-Williamson",
+      "ToolTip": "Quam quia quia in.",
       "Deleted": false,
-      "Rank": 685,
-      "Type": "impedit",
-      "ColorBlock": 871,
-      "IconHint": "eaque",
+      "Rank": 615,
+      "Type": "ea",
+      "ColorBlock": 870,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2019-10-23T11:44:32.7599049+02:00",
+      "LastChanged": "2013-03-24T11:16:08.7097813+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "iusto",
-      "Hidden": true,
-      "FullName": "Eliane Rutherford",
+      "ExtraInfo": "provident",
+      "StyleHint": "sit",
+      "Hidden": false,
+      "FullName": "Ms. Vincenzo Ewald Stamm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 333,
-      "Name": "Mayert LLC",
-      "ToolTip": "Vero dolor enim non sequi magni.",
-      "Deleted": false,
-      "Rank": 133,
-      "Type": "ab",
+      "Id": 171,
+      "Name": "Krajcik Group",
+      "ToolTip": "Et at numquam mollitia ea rerum dolore magnam.",
+      "Deleted": true,
+      "Rank": 93,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iste",
-      "ColorBlock": 459,
-      "ExtraInfo": "quasi",
-      "StyleHint": "distinctio",
-      "FullName": "Ms. Izaiah Veda Ritchie III",
+      "IconHint": "adipisci",
+      "ColorBlock": 768,
+      "ExtraInfo": "quia",
+      "StyleHint": "perspiciatis",
+      "FullName": "Abel D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 500
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 882
     }
   }
 }

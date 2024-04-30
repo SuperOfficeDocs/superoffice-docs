@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 467,
-  "ListItemId": 10
+  "UdListDefinitionId": 313,
+  "ListItemId": 546
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Jewess, Kling and Upton",
-    "ToolTip": "Non omnis ab nihil adipisci iure.",
-    "Deleted": true,
-    "Rank": 467,
-    "Type": "recusandae",
-    "ColorBlock": 379,
-    "IconHint": "quia",
+    "Id": 560,
+    "Name": "Pagac, Abernathy and Orn",
+    "ToolTip": "Eum quia harum.",
+    "Deleted": false,
+    "Rank": 59,
+    "Type": "nobis",
+    "ColorBlock": 479,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2018-04-08T11:44:33.8377919+02:00",
+    "LastChanged": "1997-05-12T11:16:09.3347069+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Gibson-Beahan",
-        "ToolTip": "Maxime error neque exercitationem voluptas sed quo.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "eum",
-        "ColorBlock": 931,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "1997-10-31T11:44:33.8377919+01:00",
+        "Id": 732,
+        "Name": "Mann-Zulauf",
+        "ToolTip": "Reiciendis qui quas ad.",
+        "Deleted": true,
+        "Rank": 921,
+        "Type": "ea",
+        "ColorBlock": 336,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "1997-04-01T11:16:09.3347069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Wilburn Littel",
+        "ExtraInfo": "nulla",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Mrs. Amely Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 806
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Dr. Jared Jast PhD",
+    "ExtraInfo": "tempora",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mrs. Ezequiel Stanton DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 183
       }
     }
   }

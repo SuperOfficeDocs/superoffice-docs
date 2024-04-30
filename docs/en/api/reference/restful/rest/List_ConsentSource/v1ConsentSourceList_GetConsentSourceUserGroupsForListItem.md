@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 458,
-    "Name": "Gleichner, Bogisich and Berge",
-    "ToolTip": "Et minima.",
+    "Id": 191,
+    "Name": "Stanton, Greenholt and Fritsch",
+    "ToolTip": "Molestiae molestiae odio consequatur voluptas voluptas.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "ipsam",
-    "ColorBlock": 167,
-    "IconHint": "possimus",
+    "Rank": 288,
+    "Type": "omnis",
+    "ColorBlock": 863,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2003-07-24T11:44:42.9919089+02:00",
+    "LastChanged": "2014-05-05T11:16:14.5276742+02:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Waelchi, Hauck and Hauck",
-        "ToolTip": "Adipisci iusto.",
+        "Id": 571,
+        "Name": "Flatley-Batz",
+        "ToolTip": "Ducimus consequatur.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "ut",
-        "ColorBlock": 381,
-        "IconHint": "vero",
+        "Rank": 36,
+        "Type": "modi",
+        "ColorBlock": 402,
+        "IconHint": "saepe",
         "Selected": true,
-        "LastChanged": "2008-05-24T11:44:42.9919089+02:00",
+        "LastChanged": "2017-11-04T11:16:14.5276742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "sed",
+        "ExtraInfo": "aut",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Miss Mellie Bernita McCullough",
+        "FullName": "Jameson Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "provident",
+    "ExtraInfo": "vitae",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Emery Pacocha",
+    "FullName": "Dayana Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 684
       }
     }
   }

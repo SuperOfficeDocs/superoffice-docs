@@ -47,6 +47,7 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
+| DashboardId | int32 | Primary key |
 | Name | string | The name of this dashboard |
 | Description | string | Detailed description |
 | OwnedByFullName | string | Full name of dashboard owner |
@@ -71,32 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bashirian Inc and Sons",
-  "Description": "Compatible bandwidth-monitored project",
-  "OwnedByFullName": "Joan Vena Skiles I",
-  "Registered": "2011-07-21T11:44:33.3691511+02:00",
+  "DashboardId": 623,
+  "Name": "Beatty, Marquardt and Breitenberg",
+  "Description": "Customizable intangible middleware",
+  "OwnedByFullName": "Muriel Cassin",
+  "Registered": "2008-04-16T11:16:08.9753349+02:00",
   "Tiles": [
     {
-      "Name": "Walsh LLC",
+      "Name": "Funk, Kulas and Schneider",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 301
         }
       }
     },
     {
-      "Name": "Walsh LLC",
+      "Name": "Funk, Kulas and Schneider",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 301
         }
       }
     }
@@ -105,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 684
     }
   }
 }

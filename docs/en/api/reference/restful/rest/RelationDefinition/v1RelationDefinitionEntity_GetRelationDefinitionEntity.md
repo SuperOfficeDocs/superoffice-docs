@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 372,
-  "Name": "Farrell-Fadel",
+  "ReldefId": 543,
+  "Name": "Satterfield, Nicolas and Wintheiser",
   "Tooltip": "ut",
-  "PassiveText": "sunt",
-  "Deleted": false,
-  "Rank": 60,
+  "PassiveText": "magnam",
+  "Deleted": true,
+  "Rank": 108,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 947
     }
   },
   "_Links": {

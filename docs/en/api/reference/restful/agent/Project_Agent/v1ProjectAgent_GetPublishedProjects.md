@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    437,
-    203
+    247,
+    17
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 937,
-    "Name": "Cruickshank, Gorczany and Rosenbaum",
-    "Description": "Ameliorated attitude-oriented approach",
+    "ProjectId": 173,
+    "Name": "Dickens-Lebsack",
+    "Description": "Grass-roots even-keeled application",
     "URL": "http://www.example.com/",
-    "Type": "amet",
-    "AssociateId": 43,
-    "AssociateFullName": "Douglas Kuhic II",
-    "TypeId": 540,
-    "Updated": "2021-07-09T11:44:34.2126949+02:00",
-    "StatusId": 658,
-    "Status": "labore",
-    "TextId": 60,
-    "PublishTo": "2004-12-24T11:44:34.2126949+01:00",
-    "PublishFrom": "2012-04-29T11:44:34.2126949+02:00",
+    "Type": "culpa",
+    "AssociateId": 481,
+    "AssociateFullName": "Karolann Herta Medhurst Sr.",
+    "TypeId": 858,
+    "Updated": "2000-10-30T11:16:09.569228+01:00",
+    "StatusId": 112,
+    "Status": "impedit",
+    "TextId": 170,
+    "PublishTo": "2020-10-28T11:16:09.569228+01:00",
+    "PublishFrom": "1998-12-05T11:16:09.569228+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "752110",
-    "ActiveErpLinks": 709,
+    "ProjectNumber": "875841",
+    "ActiveErpLinks": 43,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 885
+        "FieldLength": 184
       }
     }
   }

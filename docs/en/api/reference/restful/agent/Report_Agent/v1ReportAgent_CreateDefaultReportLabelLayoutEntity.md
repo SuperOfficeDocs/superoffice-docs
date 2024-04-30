@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 257,
-  "Name": "Stracke, Ruecker and Emmerich",
-  "Description": "Optional incremental architecture",
+  "ReportLabelLayoutId": 496,
+  "Name": "Littel, Cruickshank and Hettinger",
+  "Description": "De-engineered assymetric benchmark",
   "Orientation": "Landscape",
-  "PaperWidth": 76,
-  "PaperHeight": 63,
-  "LeftMargin": 234,
-  "RightMargin": 876,
-  "TopMargin": 573,
-  "BottomMargin": 367,
-  "CountColumns": 498,
-  "CountRows": 84,
+  "PaperWidth": 325,
+  "PaperHeight": 116,
+  "LeftMargin": 478,
+  "RightMargin": 211,
+  "TopMargin": 18,
+  "BottomMargin": 287,
+  "CountColumns": 651,
+  "CountRows": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   }
 }

@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 285,
-  "ModuleOwner": "eaque",
+  "AssociateId": 216,
+  "ModuleOwner": "distinctio",
   "ModuleLicenseNames": [
-    "Vandervort, Torp and Kertzmann",
-    "White-Cormier"
+    "Simonis Group",
+    "West, Herzog and Gleason"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 439,
-    "Tooltip": "sunt",
-    "CanAssign": false,
-    "Free": 257,
-    "InUse": 451,
+    "Total": 633,
+    "Tooltip": "placeat",
+    "CanAssign": true,
+    "Free": 784,
+    "InUse": 391,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 758,
-    "Name": "Abernathy Group",
-    "Description": "Enterprise-wide mobile algorithm",
-    "PrerequisiteModuleName": "Bechtelar Inc and Sons",
-    "SortOrder": 3,
-    "ExtraFlags": 393,
+    "ModuleLicenseId": 953,
+    "Name": "Reilly-Schuster",
+    "Description": "Compatible scalable matrices",
+    "PrerequisiteModuleName": "Klocko, Brekke and Daniel",
+    "SortOrder": 953,
+    "ExtraFlags": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 891
       }
     }
   }

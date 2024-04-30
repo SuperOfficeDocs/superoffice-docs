@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 489,
-  "ERPPriceListKey": "ad",
-  "QuoteConnectionId": 273,
-  "Name": "Lebsack, Runolfsdottir and Schowalter",
-  "Description": "Vision-oriented multi-tasking complexity",
-  "Currency": "consequatur",
-  "CurrencyName": "Pagac-Douglas",
-  "ValidFrom": "2013-07-19T11:44:34.2595569+02:00",
-  "ValidTo": "1997-07-04T11:44:34.2595569+02:00",
-  "IsActive": true,
+  "PriceListId": 358,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 164,
+  "Name": "Bednar Group",
+  "Description": "Fully-configurable system-worthy matrices",
+  "Currency": "quibusdam",
+  "CurrencyName": "Murphy Inc and Sons",
+  "ValidFrom": "1999-12-28T11:16:09.5848946+01:00",
+  "ValidTo": "2005-11-07T11:16:09.5848946+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 539
     }
   }
 }

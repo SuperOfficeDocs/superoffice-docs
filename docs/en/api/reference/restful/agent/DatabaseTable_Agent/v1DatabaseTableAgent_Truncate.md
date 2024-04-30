@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schuppe-Beatty"
+  "TableName": "Wolf Inc and Sons"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ea",
-  "Inserts": 739,
-  "Updates": 159,
-  "Deletes": 420,
+  "Message": "aliquam",
+  "Inserts": 286,
+  "Updates": 762,
+  "Deletes": 204,
   "RowStatus": [
     {
-      "PrimaryKey": 856,
+      "PrimaryKey": 728,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "reiciendis"
+        "deleniti",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 996
         }
       }
     },
     {
-      "PrimaryKey": 856,
+      "PrimaryKey": 728,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "reiciendis"
+        "deleniti",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 996
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 972
     }
   }
 }

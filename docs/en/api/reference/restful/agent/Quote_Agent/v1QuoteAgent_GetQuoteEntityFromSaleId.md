@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 614
+  "SaleId": 507
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 367,
-  "SaleId": 239,
-  "QuoteConnectionId": 351,
-  "ERPQuoteKey": "rerum",
-  "ERPOrderKey": "fugiat",
-  "ActiveQuoteVersionId": 723,
-  "AcceptedQuoteAlternativeId": 533,
-  "UseValuesFromQuote": 40,
-  "DocumentId": 550,
-  "PoNumber": "141579",
-  "OrderComment": "molestiae",
-  "PreferredEmailCulture": "itzel@jones.uk",
+  "QuoteId": 603,
+  "SaleId": 252,
+  "QuoteConnectionId": 518,
+  "ERPQuoteKey": "magni",
+  "ERPOrderKey": "placeat",
+  "ActiveQuoteVersionId": 371,
+  "AcceptedQuoteAlternativeId": 786,
+  "UseValuesFromQuote": 438,
+  "DocumentId": 160,
+  "PoNumber": "840564",
+  "OrderComment": "repellat",
+  "PreferredEmailCulture": "rogers_mitchell@treutelnolan.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 489,
-      "ERPQuoteVersionKey": "odio",
-      "QuoteId": 996,
-      "Description": "User-friendly modular toolset",
-      "Number": "682625",
+      "QuoteVersionId": 309,
+      "ERPQuoteVersionKey": "enim",
+      "QuoteId": 977,
+      "Description": "Expanded incremental neural-net",
+      "Number": "1393483",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 623,
-      "SentDate": "2023-11-13T11:44:34.2907996+01:00",
-      "FollowupId": 428,
-      "ExpirationDate": "2001-08-26T11:44:34.2907996+02:00",
-      "DeliveryCountryId": 388,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 695,
+      "LikelyQuoteAlternativeId": 388,
+      "SentDate": "2000-02-27T11:16:09.6161411+01:00",
+      "FollowupId": 956,
+      "ExpirationDate": "2001-11-27T11:16:09.6161411+01:00",
+      "DeliveryCountryId": 121,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 327,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "minima",
-      "ERPPaymentTypeKey": "vel",
-      "ERPDeliveryTermsKey": "nemo",
-      "ERPDeliveryTypeKey": "porro",
-      "Rank": 522,
-      "ApprovedBy": 430,
-      "ApprovedText": "dolor",
-      "ApprovedRegisteredBy": 806,
-      "ApprovedRegisteredDate": "2014-12-23T11:44:34.2907996+01:00",
-      "ExtraField1": "occaecati",
-      "ExtraField2": "officia",
-      "ExtraField3": "cupiditate",
-      "ExtraField4": "error",
-      "ExtraField5": "quam",
-      "LastRecalculated": "2015-12-21T11:44:34.2907996+01:00",
-      "Updated": "2009-12-21T11:44:34.2907996+01:00",
-      "UpdatedAssociateId": 192,
-      "Registered": "2005-01-22T11:44:34.2907996+01:00",
-      "RegisteredAssociateId": 66,
-      "RequestAssociateId": 303,
-      "RequestComment": "eligendi",
+      "ERPPaymentTermsKey": "molestiae",
+      "ERPPaymentTypeKey": "fugiat",
+      "ERPDeliveryTermsKey": "quas",
+      "ERPDeliveryTypeKey": "consequatur",
+      "Rank": 78,
+      "ApprovedBy": 511,
+      "ApprovedText": "officia",
+      "ApprovedRegisteredBy": 393,
+      "ApprovedRegisteredDate": "2014-09-21T11:16:09.6161411+02:00",
+      "ExtraField1": "eius",
+      "ExtraField2": "maxime",
+      "ExtraField3": "porro",
+      "ExtraField4": "et",
+      "ExtraField5": "voluptatem",
+      "LastRecalculated": "2014-09-23T11:16:09.6161411+02:00",
+      "Updated": "1998-01-14T11:16:09.6161411+01:00",
+      "UpdatedAssociateId": 972,
+      "Registered": "2012-08-13T11:16:09.6161411+02:00",
+      "RegisteredAssociateId": 433,
+      "RequestAssociateId": 747,
+      "RequestComment": "sunt",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 579
+          "FieldLength": 772
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 452
     }
   }
 }

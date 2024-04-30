@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 579,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 465,
-  "Name": "Lowe, Wuckert and Padberg",
-  "Description": "Customizable fault-tolerant matrices",
-  "Currency": "quod",
-  "CurrencyName": "Grady-Lueilwitz",
-  "ValidFrom": "2006-03-08T11:44:43.1637513+01:00",
-  "ValidTo": "2002-12-13T11:44:43.1637513+01:00",
+  "PriceListId": 168,
+  "ERPPriceListKey": "quis",
+  "QuoteConnectionId": 520,
+  "Name": "Schroeder Group",
+  "Description": "Pre-emptive 5th generation Graphic Interface",
+  "Currency": "totam",
+  "CurrencyName": "Gottlieb LLC",
+  "ValidFrom": "2023-01-10T11:16:14.6214085+01:00",
+  "ValidTo": "2003-02-17T11:16:14.6214085+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 243
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

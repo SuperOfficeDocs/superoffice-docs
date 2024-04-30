@@ -83,9 +83,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 883,
-  "MinDate": "2023-01-10T11:44:33.5722192+01:00",
-  "MaxDate": "2002-09-21T11:44:33.5722192+02:00",
+  "DocumentPluginId": 604,
+  "MinDate": "1997-10-05T11:16:09.1628538+02:00",
+  "MaxDate": "2019-07-16T11:16:09.1628538+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 438,
-  "NumDocumentsAlreadyMigrated": 503,
+  "NumDocumentsOmitted": 574,
+  "NumDocumentsAlreadyMigrated": 284,
   "Documents": [
     {
-      "DocumentId": 260,
-      "ContactId": 889,
-      "PersonId": 233,
-      "SaleId": 683,
-      "ProjectId": 309,
-      "DocTmplId": 25,
-      "AssociateId": 786,
-      "UserGroupId": 702,
-      "VisibleForId": 830
+      "DocumentId": 880,
+      "ContactId": 978,
+      "PersonId": 540,
+      "SaleId": 887,
+      "ProjectId": 73,
+      "DocTmplId": 778,
+      "AssociateId": 572,
+      "UserGroupId": 435,
+      "VisibleForId": 12
     }
   ],
   "Associates": [
     {
-      "AssociateId": 654,
-      "EmailAddress": "nola.bruen@morissette.biz"
+      "AssociateId": 942,
+      "EmailAddress": "jaylan@mcdermott.us"
     },
     {
-      "AssociateId": 654,
-      "EmailAddress": "nola.bruen@morissette.biz"
+      "AssociateId": 942,
+      "EmailAddress": "jaylan@mcdermott.us"
     }
   ]
 }

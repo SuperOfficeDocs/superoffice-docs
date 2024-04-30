@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Muller-Nader",
-    "DisplayName": "Watsica, Murray and Bahringer",
-    "DisplayTooltip": "quo",
+    "Name": "Cole Group",
+    "DisplayName": "Klocko LLC",
+    "DisplayTooltip": "quasi",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 513
       }
     }
   },
   {
-    "Name": "Muller-Nader",
-    "DisplayName": "Watsica, Murray and Bahringer",
-    "DisplayTooltip": "quo",
+    "Name": "Cole Group",
+    "DisplayName": "Klocko LLC",
+    "DisplayTooltip": "quasi",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 513
       }
     }
   }

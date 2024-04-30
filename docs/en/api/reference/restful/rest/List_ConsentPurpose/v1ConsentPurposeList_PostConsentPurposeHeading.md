@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 854,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "qui",
+  "HeadingId": 393,
+  "Name": "Schaefer, Christiansen and Mosciski",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 471,
-  "UdListDefinitionId": 219
+  "Rank": 831,
+  "UdListDefinitionId": 194
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Kris LLC",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 70,
-  "UdListDefinitionId": 63,
+  "HeadingId": 368,
+  "Name": "Strosin LLC",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 822,
+  "UdListDefinitionId": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

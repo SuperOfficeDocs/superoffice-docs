@@ -72,9 +72,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "laboriosam",
-  "Instance": "aliquam",
-  "ForAllAssociates": false
+  "Application": "dolores",
+  "Instance": "laborum",
+  "ForAllAssociates": true
 }
 ```
 

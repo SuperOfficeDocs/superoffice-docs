@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Fisher-Zemlak",
-    "ToolTip": "Consequatur corporis occaecati et qui excepturi totam facere.",
-    "Deleted": false,
-    "Rank": 777,
-    "Type": "maxime",
-    "ColorBlock": 691,
-    "IconHint": "modi",
+    "Id": 974,
+    "Name": "Harvey Inc and Sons",
+    "ToolTip": "Numquam minima eos.",
+    "Deleted": true,
+    "Rank": 946,
+    "Type": "est",
+    "ColorBlock": 554,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2004-03-23T11:44:34.9625302+01:00",
+    "LastChanged": "2023-12-03T11:16:10.0275967+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Bednar-Wiegand",
-        "ToolTip": "Eius iure veritatis quis nemo est sed.",
-        "Deleted": true,
-        "Rank": 130,
-        "Type": "saepe",
-        "ColorBlock": 426,
-        "IconHint": "eos",
+        "Id": 501,
+        "Name": "Feil-DuBuque",
+        "ToolTip": "Et aperiam nihil qui voluptas tenetur est.",
+        "Deleted": false,
+        "Rank": 218,
+        "Type": "maxime",
+        "ColorBlock": 391,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2004-07-06T11:44:34.9625302+02:00",
+        "LastChanged": "2011-03-12T11:16:10.0275967+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Sherwood Fay",
+        "ExtraInfo": "dolor",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Ewald Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 610
+            "FieldType": "System.Int32",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Issac Beahan",
+    "ExtraInfo": "qui",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mr. Aisha Patrick Ullrich IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

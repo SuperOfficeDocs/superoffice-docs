@@ -69,6 +69,7 @@ The TicketTypeEntity to be saved.
 | ExcludeSignature | Boolean | Do not insert user signature automatically |
 | ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | Boolean | Ability to set external access level for this request type |
+| VisibleForGroups | Array | Array of references to the visible for groups |
 
 ## Response:
 
@@ -99,6 +100,7 @@ TicketTypeEntity updated.
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -113,28 +115,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 925,
-  "Name": "Ernser LLC",
-  "Rank": 876,
-  "Tooltip": "cupiditate",
-  "Icon": "dolores",
-  "DefaultTicketStatus": 471,
+  "TicketTypeId": 183,
+  "Name": "Koepp Inc and Sons",
+  "Rank": 934,
+  "Tooltip": "quia",
+  "Icon": "esse",
+  "DefaultTicketStatus": 920,
   "TicketStatuses": [
-    794,
-    440
+    504,
+    327
   ],
-  "DefaultTicketPriority": 765,
+  "DefaultTicketPriority": 473,
   "TicketPriorities": [
-    648,
-    632
+    449,
+    918
   ],
-  "ReplyTemplate": 536,
+  "ReplyTemplate": 334,
   "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    657,
+    733
+  ]
 }
 ```
 
@@ -145,34 +151,38 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 131,
-  "Name": "Stiedemann, Block and Sporer",
-  "Rank": 138,
-  "Tooltip": "aut",
-  "Icon": "in",
-  "DefaultTicketStatus": 364,
+  "TicketTypeId": 288,
+  "Name": "Kohler LLC",
+  "Rank": 858,
+  "Tooltip": "id",
+  "Icon": "odit",
+  "DefaultTicketStatus": 317,
   "TicketStatuses": [
-    346,
-    754
+    612,
+    365
   ],
-  "DefaultTicketPriority": 563,
+  "DefaultTicketPriority": 137,
   "TicketPriorities": [
-    563,
-    350
+    654,
+    692
   ],
-  "ReplyTemplate": 531,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 443,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    656,
+    180
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   },
   "_Links": {

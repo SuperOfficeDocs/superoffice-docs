@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=neque
+GET /api/v1/List/Priority/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Wintheiser-Botsford",
-    "ToolTip": "Minus deserunt quos rerum.",
+    "Id": 204,
+    "Name": "Ebert, Marks and Boyle",
+    "ToolTip": "Omnis possimus atque.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "illum",
+    "Rank": 995,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Nienow Group",
-        "ToolTip": "Qui ut.",
-        "Deleted": false,
-        "Rank": 463,
-        "Type": "natus",
+        "Id": 488,
+        "Name": "Beatty Group",
+        "ToolTip": "Odit et ea aperiam.",
+        "Deleted": true,
+        "Rank": 607,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 774,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "recusandae",
-        "FullName": "Mrs. Birdie Smith",
+        "IconHint": "corrupti",
+        "ColorBlock": 202,
+        "ExtraInfo": "officiis",
+        "StyleHint": "consectetur",
+        "FullName": "Mona Will V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldLength": 913
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 951,
-    "ExtraInfo": "id",
-    "StyleHint": "et",
-    "FullName": "Callie Lemke",
+    "IconHint": "nemo",
+    "ColorBlock": 858,
+    "ExtraInfo": "vitae",
+    "StyleHint": "aut",
+    "FullName": "Nona Mayert III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldLength": 486
       }
     }
   }

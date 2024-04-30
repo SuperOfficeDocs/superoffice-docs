@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 578,
-    "Name": "Kris, Huel and Senger",
-    "PersonId": 5,
-    "Rank": 389,
-    "Tooltip": "officia",
+    "AssociateId": 546,
+    "Name": "Schuppe-Turcotte",
+    "PersonId": 328,
+    "Rank": 86,
+    "Tooltip": "nisi",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 586,
-    "FullName": "Damon Robel",
-    "FormalName": "Abernathy-Kreiger",
+    "GroupIdx": 728,
+    "FullName": "Rodger Nolan",
+    "FormalName": "Gaylord, Marks and Willms",
     "Deleted": false,
-    "EjUserId": 692,
-    "UserName": "Stracke Group",
+    "EjUserId": 495,
+    "UserName": "Donnelly, Roberts and Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

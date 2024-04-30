@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 832,
-  "Name": "Stamm-Lang",
+  "ScreenChooserId": 327,
+  "Name": "Mann-Pfeffer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "necessitatibus",
-  "Source": "maxime",
-  "Registered": "2016-07-17T11:44:42.6951171+02:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "2006-08-30T11:44:42.6951171+02:00",
-  "UpdatedAssociateId": 711,
+  "Enabled": false,
+  "UniqueIdentifier": "sunt",
+  "Source": "ut",
+  "Registered": "1998-10-27T11:16:14.3242001+01:00",
+  "RegisteredAssociateId": 661,
+  "Updated": "2016-09-23T11:16:14.3242001+02:00",
+  "UpdatedAssociateId": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   },
   "_Links": {

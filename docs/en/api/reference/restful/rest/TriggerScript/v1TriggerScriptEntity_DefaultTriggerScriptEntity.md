@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 455,
-  "Name": "Boehm-Legros",
+  "ScreenChooserId": 585,
+  "Name": "Walsh, Hilll and Halvorson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "reprehenderit",
-  "Source": "et",
-  "Registered": "2023-04-20T11:44:42.6951171+02:00",
-  "RegisteredAssociateId": 695,
-  "Updated": "2006-04-03T11:44:42.6951171+02:00",
-  "UpdatedAssociateId": 824,
+  "Enabled": true,
+  "UniqueIdentifier": "est",
+  "Source": "nulla",
+  "Registered": "2006-08-28T11:16:14.3242001+02:00",
+  "RegisteredAssociateId": 364,
+  "Updated": "2021-05-05T11:16:14.3242001+02:00",
+  "UpdatedAssociateId": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

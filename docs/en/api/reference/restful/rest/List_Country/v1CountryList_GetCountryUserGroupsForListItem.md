@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Walker-Kassulke",
-    "ToolTip": "Debitis vero nobis voluptatem amet.",
-    "Deleted": true,
-    "Rank": 45,
-    "Type": "placeat",
-    "ColorBlock": 453,
-    "IconHint": "perferendis",
+    "Id": 713,
+    "Name": "Towne Group",
+    "ToolTip": "Pariatur ut nam modi sit laudantium ut necessitatibus.",
+    "Deleted": false,
+    "Rank": 283,
+    "Type": "omnis",
+    "ColorBlock": 562,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2003-11-30T11:44:43.0075335+01:00",
+    "LastChanged": "2008-01-13T11:16:14.5276742+01:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Mohr-Frami",
-        "ToolTip": "Omnis inventore veritatis aliquam nesciunt voluptas consequatur.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "illo",
-        "ColorBlock": 988,
-        "IconHint": "et",
+        "Id": 632,
+        "Name": "Zemlak-Kemmer",
+        "ToolTip": "Ratione ipsum eos necessitatibus perferendis numquam et beatae.",
+        "Deleted": true,
+        "Rank": 50,
+        "Type": "sit",
+        "ColorBlock": 270,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2024-02-10T11:44:43.0075335+01:00",
+        "LastChanged": "2020-05-12T11:16:14.5276742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "nisi",
+        "ExtraInfo": "qui",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Georgiana Jacobson",
+        "FullName": "Mrs. Gillian Hamill IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldType": "System.String",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "dolor",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Mr. Aracely Darlene Auer",
+    "FullName": "Robyn Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 853
       }
     }
   }

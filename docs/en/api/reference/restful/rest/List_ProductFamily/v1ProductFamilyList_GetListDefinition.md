@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Daugherty-Adams",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 152,
+  "Id": 10,
+  "Name": "Hessel LLC",
+  "Tooltip": "suscipit",
+  "Deleted": false,
+  "Rank": 540,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "animi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 259
     }
   },
   "_Links": {

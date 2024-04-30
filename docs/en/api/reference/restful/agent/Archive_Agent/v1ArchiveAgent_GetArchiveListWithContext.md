@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schuppe-Dach",
-  "ProviderName": "Bosco-Dach",
+  "GuiName": "Christiansen-Roberts",
+  "ProviderName": "Sanford-Heller",
   "SortOrder": [
     {
-      "Name": "Ferry-Kerluke",
+      "Name": "Bechtelar, Heidenreich and Hauck",
       "Direction": "ASC"
     },
     {
-      "Name": "Ferry-Kerluke",
+      "Name": "Bechtelar, Heidenreich and Hauck",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ferry, Ondricka and Ullrich",
-      "Operator": "expedita",
+      "Name": "Jones, Klein and Kling",
+      "Operator": "possimus",
       "Values": [
-        "ducimus",
-        "totam"
+        "nihil",
+        "explicabo"
       ],
       "DisplayValues": [
-        "expedita",
-        "quam"
+        "facilis",
+        "dolores"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 190,
+      "InterParenthesis": 526,
       "InterOperator": "And",
-      "UniqueHash": 780
+      "UniqueHash": 698
     }
   ],
   "Entities": [
-    "ad",
-    "fugiat"
+    "maxime",
+    "praesentium"
   ],
-  "Page": 860,
-  "PageSize": 605,
-  "Context": "nesciunt"
+  "Page": 866,
+  "PageSize": 998,
+  "Context": "maxime"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stiedemann-Kautzer",
-    "PrimaryKey": 613,
+    "EntityName": "Raynor, Rau and Koelpin",
+    "PrimaryKey": 603,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ipsa",
-        "TooltipHint": "est",
-        "LinkHint": "at"
+        "DisplayValue": "aliquam",
+        "TooltipHint": "quisquam",
+        "LinkHint": "eveniet"
       }
     },
-    "LinkHint": "illum",
-    "StyleHint": "et",
+    "LinkHint": "officia",
+    "StyleHint": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 759
       }
     }
   }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Schmeler Group",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 48,
-  "Rank": 765,
+  "Id": 190,
+  "Name": "West Group",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 569,
+  "Rank": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

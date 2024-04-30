@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Emard, Jacobi and Runolfsdottir",
-    "ToolTip": "Voluptatem est libero.",
-    "Deleted": true,
-    "Rank": 648,
-    "Type": "fugit",
-    "ColorBlock": 643,
-    "IconHint": "similique",
+    "Id": 733,
+    "Name": "Lebsack LLC",
+    "ToolTip": "Ea et repudiandae commodi voluptatem accusantium.",
+    "Deleted": false,
+    "Rank": 570,
+    "Type": "assumenda",
+    "ColorBlock": 834,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2007-06-01T11:44:43.1325006+02:00",
+    "LastChanged": "2000-11-22T11:16:14.6057886+01:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Anderson, Jewess and Runolfsdottir",
-        "ToolTip": "Voluptatem aut sapiente omnis nam voluptatem aut quasi.",
-        "Deleted": false,
-        "Rank": 796,
+        "Id": 635,
+        "Name": "Effertz-Lockman",
+        "ToolTip": "Illum quos nihil quisquam ut.",
+        "Deleted": true,
+        "Rank": 732,
         "Type": "minus",
-        "ColorBlock": 658,
-        "IconHint": "quis",
+        "ColorBlock": 391,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2017-01-07T11:44:43.1325006+01:00",
+        "LastChanged": "2000-11-13T11:16:14.6057886+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Ms. Lilliana Hyatt",
+        "ExtraInfo": "rerum",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Dr. Edmund Alysa Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 333
+            "FieldType": "System.Int32",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "laudantium",
-    "Hidden": true,
-    "FullName": "Misael Keeling",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Maeve Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 424
       }
     }
   }

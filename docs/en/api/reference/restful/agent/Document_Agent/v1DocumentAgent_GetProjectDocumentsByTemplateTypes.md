@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 882,
-  "StartTime": "2022-05-15T11:44:33.431628+02:00",
-  "EndTime": "1997-09-12T11:44:33.431628+02:00",
-  "Count": 259,
+  "ProjectId": 325,
+  "StartTime": "2014-08-27T11:16:09.0691155+02:00",
+  "EndTime": "2011-03-23T11:16:09.0691155+01:00",
+  "Count": 647,
   "DocumentTemplateIds": [
-    274,
-    878
+    888,
+    768
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 298,
-    "Attention": "laborum",
-    "Header": "beatae",
-    "Name": "Hermiston Inc and Sons",
-    "OurRef": "asperiores",
-    "YourRef": "ut",
-    "Description": "Synchronised encompassing Graphical User Interface",
-    "DocumentTemplate": "officiis",
-    "IsPublished": true,
-    "PersonId": 846,
-    "PersonFullName": "Prof. Jalen Sanford Wisoky",
-    "AssociateFullName": "Beryl Schuppe PhD",
-    "ContactId": 26,
-    "ContactName": "Leuschke-Rice",
-    "ProjectId": 948,
-    "ProjectName": "Jacobson Group",
-    "AssociateId": 668,
-    "Snum": 832,
-    "SaleId": 699,
-    "SaleName": "Parisian, Rutherford and Huel",
+    "DocumentId": 24,
+    "Attention": "facere",
+    "Header": "sapiente",
+    "Name": "Orn Group",
+    "OurRef": "adipisci",
+    "YourRef": "ea",
+    "Description": "Customizable dedicated leverage",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 280,
+    "PersonFullName": "Prof. Sienna Major Pollich",
+    "AssociateFullName": "Carolanne Schiller",
+    "ContactId": 431,
+    "ContactName": "Gottlieb, O'Hara and Okuneva",
+    "ProjectId": 683,
+    "ProjectName": "Collier-Turner",
+    "AssociateId": 605,
+    "Snum": 175,
+    "SaleId": 696,
+    "SaleName": "Konopelski-Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 344
       }
     }
   }

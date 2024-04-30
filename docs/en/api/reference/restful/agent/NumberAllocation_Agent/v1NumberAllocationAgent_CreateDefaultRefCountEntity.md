@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 726,
-  "Field": "quidem",
-  "RecordId": 655,
+  "RefCountsId": 3,
+  "Field": "tempora",
+  "RecordId": 683,
   "SuggestedRecords": [
     {
-      "Id": 328,
-      "Name": "Donnelly-Windler",
-      "ToolTip": "Eaque doloremque sapiente nemo omnis sed cupiditate.",
+      "Id": 85,
+      "Name": "Hayes, Hessel and West",
+      "ToolTip": "Veritatis dolor atque minus.",
       "Deleted": false,
-      "Rank": 424,
-      "Type": "reprehenderit",
+      "Rank": 715,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sint",
-      "ColorBlock": 399,
-      "ExtraInfo": "alias",
-      "StyleHint": "suscipit",
-      "FullName": "Prof. Alivia Justen Zboncak DDS",
+      "IconHint": "sed",
+      "ColorBlock": 356,
+      "ExtraInfo": "iure",
+      "StyleHint": "perferendis",
+      "FullName": "Tatyana Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "CurrentValue": 364,
-  "TravelPrefix": 788,
-  "SatPrefix": 542,
+  "CurrentValue": 111,
+  "TravelPrefix": 77,
+  "SatPrefix": 469,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": true,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Hegmann Group",
-    "Tooltip": "dolorum",
-    "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 730,
+    "HeadingId": 609,
+    "Name": "Rosenbaum, Dicki and Stamm",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "Rank": 227,
+    "UdListDefinitionId": 274,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   }

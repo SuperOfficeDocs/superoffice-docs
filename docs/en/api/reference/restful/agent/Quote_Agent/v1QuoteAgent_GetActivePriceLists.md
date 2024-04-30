@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 680,
-  "Currency": "id"
+  "QuoteConnectionId": 88,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 782,
-    "ERPPriceListKey": "sed",
-    "QuoteConnectionId": 836,
-    "Name": "Davis, Robel and Torphy",
-    "Description": "Right-sized neutral implementation",
-    "Currency": "amet",
-    "CurrencyName": "Dibbert-Volkman",
-    "ValidFrom": "2022-10-21T11:44:34.2907996+02:00",
-    "ValidTo": "2008-11-27T11:44:34.2907996+01:00",
-    "IsActive": true,
+    "PriceListId": 765,
+    "ERPPriceListKey": "dolores",
+    "QuoteConnectionId": 491,
+    "Name": "Schuppe-Beier",
+    "Description": "Realigned demand-driven approach",
+    "Currency": "ea",
+    "CurrencyName": "Gorczany Group",
+    "ValidFrom": "2000-04-13T11:16:09.6161411+02:00",
+    "ValidTo": "2013-12-06T11:16:09.6161411+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 808
       }
     }
   }

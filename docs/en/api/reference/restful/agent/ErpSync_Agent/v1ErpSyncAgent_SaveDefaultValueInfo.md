@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 417,
-  "DefaultValue": "consequatur",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "est",
+  "ErpFieldId": 429,
+  "DefaultValue": "omnis",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "corporis",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "et",
+  "Mandatory": true,
+  "ErpFieldKey": "in",
   "FieldType": "Checkbox",
-  "ListName": "Russel, Lesch and Roberts",
+  "ListName": "Hoeger-McDermott",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 492
     }
   }
 }

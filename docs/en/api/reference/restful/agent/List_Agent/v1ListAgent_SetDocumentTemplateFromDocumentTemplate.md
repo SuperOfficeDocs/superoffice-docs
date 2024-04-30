@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 352,
+  "SourceDocumentTemplateId": 219,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 300,
-  "Name": "Hintz-Larkin",
-  "Tooltip": "nesciunt",
-  "SaveInDb": 228,
-  "Filename": "reiciendis",
-  "DefaultOref": "quibusdam",
+  "DocumentTemplateId": 91,
+  "Name": "Schowalter Inc and Sons",
+  "Tooltip": "et",
+  "SaveInDb": 456,
+  "Filename": "hic",
+  "DefaultOref": "occaecati",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 136,
-  "IntentId": 211,
-  "IsDefaultPublished": false,
-  "Rank": 109,
-  "LoadTemplateFromPlugin": 904,
-  "MimeType": "itaque",
+  "AutoeventId": 953,
+  "IntentId": 944,
+  "IsDefaultPublished": true,
+  "Rank": 337,
+  "LoadTemplateFromPlugin": 209,
+  "MimeType": "deleniti",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 226,
+  "DocumentTypeKey": 741,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "daryl_mcdermott@mohr.uk",
+  "EmailSubject": "brent@gutmann.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "teresa_beier@koelpin.us",
+  "SenderEmailAddress": "katelynn@turcotte.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 719
     }
   }
 }

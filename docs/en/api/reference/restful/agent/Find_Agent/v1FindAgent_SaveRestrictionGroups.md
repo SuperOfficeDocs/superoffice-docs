@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugit",
-  "ProviderName": "Lynch, Spencer and Kerluke",
-  "StorageKey": "dolore",
+  "StorageType": "ea",
+  "ProviderName": "Wyman-Mosciski",
+  "StorageKey": "molestiae",
   "RestrictionGroups": [
     {
-      "Name": "Ondricka-Stanton",
-      "Description": "Expanded heuristic knowledge base",
-      "Rank": 432,
+      "Name": "Orn, Jacobson and Weber",
+      "Description": "Automated tertiary policy",
+      "Rank": 551,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ondricka-Stanton",
-      "Description": "Expanded heuristic knowledge base",
-      "Rank": 432,
+      "Name": "Orn, Jacobson and Weber",
+      "Description": "Automated tertiary policy",
+      "Rank": 551,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "corporis"
+  "Context": "vero"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tromp-Mitchell",
-    "Description": "Total incremental throughput",
-    "Rank": 46,
+    "Name": "Stark Group",
+    "Description": "Organized systemic moderator",
+    "Rank": 523,
     "Restrictions": [
       {
-        "Name": "Hackett-Auer",
-        "Operator": "culpa",
+        "Name": "Rolfson-Rice",
+        "Operator": "quod",
         "Values": [
-          "placeat",
-          "perspiciatis"
+          "consequatur",
+          "et"
         ],
         "DisplayValues": [
-          "provident",
-          "autem"
+          "numquam",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 364,
+        "InterParenthesis": 231,
         "InterOperator": "And",
-        "UniqueHash": 624
+        "UniqueHash": 482
       }
     ]
   },
   {
-    "Name": "Tromp-Mitchell",
-    "Description": "Total incremental throughput",
-    "Rank": 46,
+    "Name": "Stark Group",
+    "Description": "Organized systemic moderator",
+    "Rank": 523,
     "Restrictions": [
       {
-        "Name": "Hackett-Auer",
-        "Operator": "culpa",
+        "Name": "Rolfson-Rice",
+        "Operator": "quod",
         "Values": [
-          "placeat",
-          "perspiciatis"
+          "consequatur",
+          "et"
         ],
         "DisplayValues": [
-          "provident",
-          "autem"
+          "numquam",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 364,
+        "InterParenthesis": 231,
         "InterOperator": "And",
-        "UniqueHash": 624
+        "UniqueHash": 482
       }
     ]
   }

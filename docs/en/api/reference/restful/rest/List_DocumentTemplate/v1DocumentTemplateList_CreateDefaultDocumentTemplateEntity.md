@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 673,
-  "Name": "Pollich, Jakubowski and Buckridge",
-  "Tooltip": "placeat",
-  "SaveInDb": 287,
-  "Filename": "consectetur",
-  "DefaultOref": "provident",
+  "DocumentTemplateId": 477,
+  "Name": "Swaniawski-Littel",
+  "Tooltip": "blanditiis",
+  "SaveInDb": 945,
+  "Filename": "consequatur",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 820,
-  "IntentId": 530,
-  "IsDefaultPublished": true,
-  "Rank": 696,
-  "LoadTemplateFromPlugin": 389,
-  "MimeType": "ipsa",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 333,
+  "AutoeventId": 610,
+  "IntentId": 623,
+  "IsDefaultPublished": false,
+  "Rank": 984,
+  "LoadTemplateFromPlugin": 881,
+  "MimeType": "exercitationem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 860,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vidal@okuneva.biz",
+  "EmailSubject": "michelle.funk@predovic.ca",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hershel@adams.info",
+  "SenderEmailAddress": "juliana.dicki@schamberger.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 621
     }
   }
 }

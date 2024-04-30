@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cassin, Sipes and Trantow",
-  "DeviceName": "Davis LLC",
-  "DeviceIdentifier": "corrupti"
+  "ApplicationName": "Koss, Hickle and Howe",
+  "DeviceName": "Smitham-Wehner",
+  "DeviceIdentifier": "delectus"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sint",
-    "Value": "repudiandae",
-    "RecordId": 43,
-    "CreatedDate": "2013-02-09T11:44:33.7753083+01:00",
-    "UpdatedDate": "2006-07-28T11:44:33.7753083+02:00",
-    "UpdatedBy": "error",
-    "CreatedBy": "dolores",
-    "TableName": "Simonis, Bode and Durgan",
+    "Key": "occaecati",
+    "Value": "vitae",
+    "RecordId": 790,
+    "CreatedDate": "2016-12-28T11:16:09.2878404+01:00",
+    "UpdatedDate": "1999-09-13T11:16:09.2878404+02:00",
+    "UpdatedBy": "voluptatem",
+    "CreatedBy": "quos",
+    "TableName": "Wisoky, Williamson and Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 176
       }
     }
   }

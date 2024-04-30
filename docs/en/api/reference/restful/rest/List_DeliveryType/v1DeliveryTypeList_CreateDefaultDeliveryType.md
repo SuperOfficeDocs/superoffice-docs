@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 888,
-  "Name": "Conn-Kuphal",
-  "Tooltip": "placeat",
+  "Id": 174,
+  "Name": "Tremblay, Jast and Mann",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 659,
-  "Rank": 388,
+  "UdListDefinitionId": 624,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

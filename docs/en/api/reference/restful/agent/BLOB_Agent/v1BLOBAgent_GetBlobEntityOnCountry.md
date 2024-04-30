@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 410
+  "CountryId": 781
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 746,
-  "BlobSize": 221,
-  "Description": "Proactive bandwidth-monitored application",
-  "ExtraInfo": "expedita",
-  "IsEncrypted": true,
+  "BlobId": 777,
+  "BlobSize": 710,
+  "Description": "Persistent holistic benchmark",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nisi",
-  "OriginalSize": 558,
-  "CreatedDate": "2014-12-30T11:44:32.8380188+01:00",
-  "UpdatedDate": "1999-02-28T11:44:32.8380188+01:00",
+  "MimeType": "expedita",
+  "OriginalSize": 713,
+  "CreatedDate": "2002-08-18T11:16:08.7566429+02:00",
+  "UpdatedDate": "2017-11-21T11:16:08.7566429+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita",
+  "ConceptualType": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

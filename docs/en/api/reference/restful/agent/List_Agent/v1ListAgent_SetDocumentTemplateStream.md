@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "pariatur",
-  "PluginId": 203
+  "LanguageCode": "quis",
+  "PluginId": 376
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 463,
-  "Name": "Farrell, Rowe and Bauch",
-  "Tooltip": "molestiae",
-  "SaveInDb": 129,
-  "Filename": "quis",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 110,
+  "Name": "Halvorson, Beier and O'Keefe",
+  "Tooltip": "architecto",
+  "SaveInDb": 614,
+  "Filename": "nisi",
+  "DefaultOref": "rerum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 731,
-  "IntentId": 135,
-  "IsDefaultPublished": true,
-  "Rank": 447,
-  "LoadTemplateFromPlugin": 238,
-  "MimeType": "et",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 552,
+  "AutoeventId": 848,
+  "IntentId": 399,
+  "IsDefaultPublished": false,
+  "Rank": 8,
+  "LoadTemplateFromPlugin": 786,
+  "MimeType": "doloribus",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 857,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "corbin@heathcote.uk",
+  "EmailSubject": "emmitt_raynor@ziemann.name",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "robert@baumbach.com",
+  "SenderEmailAddress": "hollie_rath@johnsonhowell.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 64
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Fisher LLC",
-  "Tooltip": "similique",
+  "Id": 607,
+  "Name": "Baumbach, Heidenreich and Padberg",
+  "Tooltip": "alias",
   "Deleted": true,
-  "UdListDefinitionId": 262,
-  "Rank": 661,
+  "UdListDefinitionId": 960,
+  "Rank": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 891
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Greenholt-Kemmer",
-  "Tooltip": "enim",
+  "Id": 580,
+  "Name": "Weissnat LLC",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 641,
-  "Rank": 210,
+  "UdListDefinitionId": 248,
+  "Rank": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

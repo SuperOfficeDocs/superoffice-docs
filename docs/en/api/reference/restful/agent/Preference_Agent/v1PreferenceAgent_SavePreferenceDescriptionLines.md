@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 850,
-      "PrefDescId": 205,
-      "PrefValue": "asperiores",
-      "PrefShowValue": "tempore",
-      "Description": "Programmable empowering array",
+      "PrefDescLineId": 172,
+      "PrefDescId": 244,
+      "PrefValue": "inventore",
+      "PrefShowValue": "distinctio",
+      "Description": "Inverse well-modulated migration",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 850,
-      "PrefDescId": 205,
-      "PrefValue": "asperiores",
-      "PrefShowValue": "tempore",
-      "Description": "Programmable empowering array",
+      "PrefDescLineId": 172,
+      "PrefDescId": 244,
+      "PrefValue": "inventore",
+      "PrefShowValue": "distinctio",
+      "Description": "Inverse well-modulated migration",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 864,
-    "PrefDescId": 132,
-    "PrefValue": "asperiores",
-    "PrefShowValue": "nostrum",
-    "Description": "Open-source tangible capability",
-    "IsBuiltin": false,
+    "PrefDescLineId": 478,
+    "PrefDescId": 124,
+    "PrefValue": "molestiae",
+    "PrefShowValue": "possimus",
+    "Description": "Secured needs-based product",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

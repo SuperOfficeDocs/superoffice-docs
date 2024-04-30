@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -107,72 +107,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "ea",
-    "ValueType": "asperiores",
+    "Key": "enim",
+    "ValueType": "maiores",
     "Mandatory": false,
-    "EncodedDisplayName": "DuBuque, Daugherty and Effertz",
-    "EncodedDisplayDescription": "Networked multi-state secured line",
-    "IconHint": "est",
+    "EncodedDisplayName": "Keeling, O'Reilly and Ryan",
+    "EncodedDisplayDescription": "Front-line intangible success",
+    "IconHint": "labore",
     "ControlInfos": [
       {
-        "Type": "dicta",
-        "Label": "consequatur",
-        "Dimension": 724,
-        "ListProviderName": "Mann Inc and Sons",
-        "ListProviderExtraInfo": "impedit",
-        "ListProviderPrimaryKeyName": "Collins-Howell",
-        "ListLeadText": "ducimus",
+        "Type": "qui",
+        "Label": "repellendus",
+        "Dimension": 754,
+        "ListProviderName": "Murray-Walsh",
+        "ListProviderExtraInfo": "culpa",
+        "ListProviderPrimaryKeyName": "Prosacco-Hickle",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 168
+            "FieldLength": 140
           }
         }
       }
     ],
-    "EncodedDataCaption": "modi",
-    "EncodedDataCaptionDescription": "Optimized didactic monitoring",
-    "CurrentOperationType": "sed",
+    "EncodedDataCaption": "ex",
+    "EncodedDataCaptionDescription": "Re-engineered intermediate approach",
+    "CurrentOperationType": "officiis",
     "Values": [
-      "explicabo",
-      "cumque"
+      "deleniti",
+      "earum"
     ],
     "DisplayValues": [
-      "ad",
-      "in"
+      "et",
+      "eius"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Rippin, Carroll and Wisoky",
+        "Key": "ratione",
+        "EncodedDisplayName": "Walter-Swift",
         "EncodedLeadTexts": [
-          "earum",
-          "ullam"
+          "porro",
+          "iure"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldType": "System.String",
+            "FieldLength": 184
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Rippin, Carroll and Wisoky",
+        "Key": "ratione",
+        "EncodedDisplayName": "Walter-Swift",
         "EncodedLeadTexts": [
-          "earum",
-          "ullam"
+          "porro",
+          "iure"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldType": "System.String",
+            "FieldLength": 184
           }
         }
       }

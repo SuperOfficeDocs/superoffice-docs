@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-07-08T11:44:33.0410903+02:00",
+  "ActivityStartTime": "1998-11-14T11:16:08.8815948+01:00",
   "ContactCategories": [
-    828,
-    939
+    801,
+    342
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 848,
+    "ContactId": 11,
     "Department": "",
-    "OrgNr": "972961",
-    "Name": "Legros Inc and Sons",
+    "OrgNr": "902012",
+    "Name": "Crona, Kuhn and Gusikowski",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Prof. Eryn Keebler",
+    "AssociateFullName": "Caleb Nigel Kuvalis MD",
     "Action": "ActivityCompleted",
-    "ActionTime": "2000-09-29T11:44:33.0567111+02:00",
+    "ActionTime": "2004-08-30T11:16:08.8815948+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Lang Group",
-    "ActionId": 246,
-    "PersonId": 997,
-    "ActivityPersonId": 554,
-    "AssociateId": 199,
+    "ActivityPersonName": "Beahan, Hammes and Heathcote",
+    "ActionId": 116,
+    "PersonId": 279,
+    "ActivityPersonId": 525,
+    "AssociateId": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   }

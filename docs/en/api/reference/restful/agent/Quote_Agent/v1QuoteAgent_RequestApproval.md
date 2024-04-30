@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 430,
-  "AssociateId": 422,
-  "Comment": "qui"
+  "QuoteVersionId": 35,
+  "AssociateId": 589,
+  "Comment": "quia"
 }
 ```
 
@@ -98,9 +98,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "ut",
-  "TechExplanation": "quia",
-  "ErrorCode": "aliquid",
+  "UserExplanation": "nesciunt",
+  "TechExplanation": "et",
+  "ErrorCode": "id",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 315
     }
   }
 }

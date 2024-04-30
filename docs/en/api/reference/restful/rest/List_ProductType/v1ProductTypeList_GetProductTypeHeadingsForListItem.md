@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Barton-Padberg",
-    "ToolTip": "Recusandae ipsum aut culpa ut beatae quibusdam.",
-    "Deleted": true,
-    "Rank": 676,
-    "Type": "nihil",
-    "ColorBlock": 618,
-    "IconHint": "facilis",
+    "Id": 92,
+    "Name": "Hayes, Padberg and Cummings",
+    "ToolTip": "At ut ut recusandae delectus.",
+    "Deleted": false,
+    "Rank": 246,
+    "Type": "cumque",
+    "ColorBlock": 917,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2009-09-17T11:44:43.2106158+02:00",
+    "LastChanged": "2018-11-25T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Hessel, Spinka and Cremin",
-        "ToolTip": "Temporibus laborum laboriosam quod reiciendis rem ab sint.",
-        "Deleted": true,
-        "Rank": 902,
-        "Type": "porro",
-        "ColorBlock": 790,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2011-09-24T11:44:43.2106158+02:00",
+        "Id": 55,
+        "Name": "Hessel LLC",
+        "ToolTip": "Minus non sequi dolore.",
+        "Deleted": false,
+        "Rank": 814,
+        "Type": "itaque",
+        "ColorBlock": 87,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2004-11-05T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "vero",
-        "Hidden": false,
-        "FullName": "Petra Fritsch",
+        "ExtraInfo": "molestias",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Dr. Celestine Baby Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 240
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Kenneth Carroll",
+    "ExtraInfo": "officiis",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Lesley Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldType": "System.String",
+        "FieldLength": 719
       }
     }
   }

@@ -747,7 +747,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelection?$select=alternative/version/quote/sale/person/correspondingAssociate/contactName,alternative/version/quote/sale/contact/restrictionAddress/addressId,alternative/version/quote/sale/contact/contactAssociate/ejDisplayName,alternative/version/quote/sale/contact/LastDoByTicket
+GET /api/v1/archive/QuoteLineStaticSelection?$select=alternative/version/number,alternative/version/quote/sale/person/personAddress/county,alternative/version/quote/sale/contact/url/URLAddress,alternative/version/quote/sale/contact/contactExtra/x_contact_shorttext,alternative/version/quote/sale/contact/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

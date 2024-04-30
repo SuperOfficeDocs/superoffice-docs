@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "ut"
+  "QuoteListType": "qui"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "laboriosam",
-    "DisplayValue": "doloremque",
-    "DisplayDescription": "Fully-configurable object-oriented conglomeration",
+    "ERPQuoteListItemKey": "deserunt",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Advanced holistic attitude",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "laboriosam",
-    "DisplayValue": "doloremque",
-    "DisplayDescription": "Fully-configurable object-oriented conglomeration",
+    "ERPQuoteListItemKey": "deserunt",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Advanced holistic attitude",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

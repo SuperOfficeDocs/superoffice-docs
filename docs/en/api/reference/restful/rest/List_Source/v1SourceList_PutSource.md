@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Rau Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 996,
+  "Name": "Homenick Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 381,
-  "Rank": 801
+  "UdListDefinitionId": 1002,
+  "Rank": 706
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Schuppe Group",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "UdListDefinitionId": 230,
-  "Rank": 953,
+  "Id": 618,
+  "Name": "Walter, Ankunding and Ortiz",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "UdListDefinitionId": 50,
+  "Rank": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

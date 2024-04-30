@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 756,
-  "EMailAddress": "placeat",
-  "AssociateId": 759,
+  "EMailAccountId": 785,
+  "EMailAddress": "eligendi",
+  "AssociateId": 96,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 670,
-  "ErrorCount": 753,
-  "ErrorReason": "",
-  "InboxFolder": "nobis",
-  "SentFolder": "sed",
+  "AccountStatus": 777,
+  "ErrorCount": 651,
+  "ErrorReason": "integrate extensible functionalities",
+  "InboxFolder": "et",
+  "SentFolder": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

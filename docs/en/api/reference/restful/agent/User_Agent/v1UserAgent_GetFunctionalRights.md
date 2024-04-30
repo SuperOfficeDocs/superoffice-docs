@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 592
+  "RoleId": 647
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Lind-Hansen",
-    "ToolTip": "Impedit dolores praesentium ut voluptatem occaecati amet dolorum.",
+    "Id": 82,
+    "Name": "Dietrich, Mills and Kreiger",
+    "ToolTip": "Inventore repellat dignissimos est totam.",
     "Deleted": true,
-    "Rank": 406,
-    "Type": "omnis",
-    "ColorBlock": 59,
-    "IconHint": "voluptas",
+    "Rank": 192,
+    "Type": "consectetur",
+    "ColorBlock": 218,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2019-12-31T11:44:34.9781542+01:00",
+    "LastChanged": "2011-08-19T11:16:10.0275967+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Steuber-Smitham",
-        "ToolTip": "Rerum est.",
-        "Deleted": false,
-        "Rank": 219,
-        "Type": "dolorem",
-        "ColorBlock": 617,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2020-10-12T11:44:34.9781542+02:00",
+        "Id": 974,
+        "Name": "Mohr, Hauck and Bartell",
+        "ToolTip": "Hic deleniti tempora.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "aut",
+        "ColorBlock": 642,
+        "IconHint": "similique",
+        "Selected": true,
+        "LastChanged": "2012-11-12T11:16:10.0275967+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Miss Gladyce Dedrick Dare II",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Roel Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "fugit",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "beatae",
     "Hidden": true,
-    "FullName": "Laurence Tracy Goldner I",
+    "FullName": "Bert Flatley DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

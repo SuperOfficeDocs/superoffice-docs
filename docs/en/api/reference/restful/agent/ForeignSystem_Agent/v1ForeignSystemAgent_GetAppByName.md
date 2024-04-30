@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Howell LLC"
+  "ApplicationName": "Wiza Inc and Sons"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 987,
-  "Name": "Morissette, Corwin and Heaney",
-  "CreatedDate": "1997-06-07T11:44:33.7596833+02:00",
-  "UpdatedDate": "2019-03-16T11:44:33.7596833+01:00",
+  "ForeignAppId": 408,
+  "Name": "Kuvalis Group",
+  "CreatedDate": "2003-01-16T11:16:09.2878404+01:00",
+  "UpdatedDate": "2019-06-29T11:16:09.2878404+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 550,
-      "Name": "Gislason LLC",
-      "CreatedDate": "2010-04-14T11:44:33.7596833+02:00",
-      "UpdatedDate": "2012-09-06T11:44:33.7596833+02:00",
-      "AssociateFullName": "Domenica Olson",
-      "CreatedBy": "quo",
-      "UpdatedBy": "fugiat",
-      "DeviceIdentifier": "excepturi",
-      "ForeignAppId": 524,
+      "ForeignDeviceId": 191,
+      "Name": "Jacobs-Rice",
+      "CreatedDate": "2007-12-06T11:16:09.2878404+01:00",
+      "UpdatedDate": "1998-11-26T11:16:09.2878404+01:00",
+      "AssociateFullName": "Dr. Kristin Bashirian V",
+      "CreatedBy": "ut",
+      "UpdatedBy": "magnam",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 133,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 75
+          "FieldType": "System.Int32",
+          "FieldLength": 527
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

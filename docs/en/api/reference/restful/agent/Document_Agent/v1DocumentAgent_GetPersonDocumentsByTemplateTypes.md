@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 488,
+  "PersonId": 472,
   "IncludeProjectDocuments": false,
-  "StartTime": "2023-04-07T11:44:33.431628+02:00",
-  "EndTime": "2015-10-31T11:44:33.431628+01:00",
-  "Count": 37,
+  "StartTime": "2000-02-07T11:16:09.0691155+01:00",
+  "EndTime": "2017-01-12T11:16:09.0691155+01:00",
+  "Count": 238,
   "DocumentTemplateIds": [
-    569,
-    674
+    492,
+    891
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 702,
-    "Attention": "omnis",
-    "Header": "tempore",
-    "Name": "Crona-Gislason",
-    "OurRef": "id",
-    "YourRef": "quia",
-    "Description": "Vision-oriented dedicated monitoring",
-    "DocumentTemplate": "repellat",
-    "IsPublished": true,
-    "PersonId": 33,
-    "PersonFullName": "Miss Delores Greg Gibson Sr.",
-    "AssociateFullName": "Dr. Talia Hand",
-    "ContactId": 380,
-    "ContactName": "McLaughlin, Parisian and Kautzer",
-    "ProjectId": 296,
-    "ProjectName": "Gottlieb-Sporer",
-    "AssociateId": 918,
-    "Snum": 360,
-    "SaleId": 784,
-    "SaleName": "Jones Inc and Sons",
+    "DocumentId": 941,
+    "Attention": "officiis",
+    "Header": "sit",
+    "Name": "Krajcik LLC",
+    "OurRef": "dolorum",
+    "YourRef": "vel",
+    "Description": "Self-enabling grid-enabled hub",
+    "DocumentTemplate": "nesciunt",
+    "IsPublished": false,
+    "PersonId": 611,
+    "PersonFullName": "Sanford Christiansen",
+    "AssociateFullName": "Demario Emmerich",
+    "ContactId": 290,
+    "ContactName": "Goyette-Lindgren",
+    "ProjectId": 923,
+    "ProjectName": "Hegmann Group",
+    "AssociateId": 394,
+    "Snum": 362,
+    "SaleId": 678,
+    "SaleName": "Gerlach, Altenwerth and Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 584
       }
     }
   }

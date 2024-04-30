@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "voluptatum",
-    "amet"
+    "rerum",
+    "magnam"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 206,
-    "ColumnId": 273,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 810,
-    "FieldLabel": "qui",
-    "FieldLeft": 207,
-    "FieldTop": 810,
+    "UDefFieldId": 456,
+    "ColumnId": 67,
+    "FieldDefault": "a",
+    "FieldHeight": 768,
+    "FieldLabel": "ea",
+    "FieldLeft": 158,
+    "FieldTop": 775,
     "FieldType": "Checkbox",
-    "FieldWidth": 511,
-    "FormatMask": "eius",
-    "HideLabel": false,
+    "FieldWidth": 12,
+    "FormatMask": "veniam",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 309,
-    "LabelLeft": 188,
-    "LabelTop": 241,
-    "LabelWidth": 723,
-    "LastVersionId": 631,
-    "ListTableId": 248,
+    "LabelHeight": 606,
+    "LabelLeft": 279,
+    "LabelTop": 626,
+    "LabelWidth": 169,
+    "LastVersionId": 881,
+    "ListTableId": 477,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 787,
-    "ProgId": "sint",
+    "Page1LineNo": 186,
+    "ProgId": "dicta",
     "IsReadOnly": false,
-    "ShortLabel": "odit",
-    "TabOrder": 781,
-    "TextLength": 719,
-    "Tooltip": "qui",
-    "UdefIdentity": 935,
-    "UDListDefinitionId": 181,
+    "ShortLabel": "consectetur",
+    "TabOrder": 42,
+    "TextLength": 893,
+    "Tooltip": "quas",
+    "UdefIdentity": 364,
+    "UDListDefinitionId": 315,
     "Justification": "Center",
-    "Version": 542,
-    "TemplateVariableName": "Stark, Lehner and Koepp",
+    "Version": 628,
+    "TemplateVariableName": "Kilback, Kessler and Nader",
     "HasBeenPublished": true,
-    "MdoListName": "Prohaska, Pouros and Dibbert",
+    "MdoListName": "Upton-Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 331
       }
     }
   }

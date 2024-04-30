@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 504,
-  "CurrencyId": 795
+  "QuoteConnectionId": 83,
+  "CurrencyId": 952
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 181,
-    "ERPPriceListKey": "quibusdam",
-    "QuoteConnectionId": 610,
-    "Name": "Lehner-Breitenberg",
-    "Description": "Horizontal human-resource function",
-    "Currency": "dolorem",
-    "CurrencyName": "Murray-Marks",
-    "ValidFrom": "2007-05-29T11:44:34.2907996+02:00",
-    "ValidTo": "2019-10-11T11:44:34.2907996+02:00",
-    "IsActive": false,
+    "PriceListId": 429,
+    "ERPPriceListKey": "officia",
+    "QuoteConnectionId": 94,
+    "Name": "Schimmel LLC",
+    "Description": "Seamless transitional protocol",
+    "Currency": "animi",
+    "CurrencyName": "Buckridge, Abbott and Gottlieb",
+    "ValidFrom": "2009-12-29T11:16:09.6161411+01:00",
+    "ValidTo": "2013-07-18T11:16:09.6161411+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 297
       }
     }
   }

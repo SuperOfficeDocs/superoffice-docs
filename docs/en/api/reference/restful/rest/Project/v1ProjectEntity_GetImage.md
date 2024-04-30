@@ -35,9 +35,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Project/{projectId}/Image?w=485
-GET /api/v1/Project/{projectId}/Image?h=885
-GET /api/v1/Project/{projectId}/Image?type=hic
+GET /api/v1/Project/{projectId}/Image?w=161
+GET /api/v1/Project/{projectId}/Image?h=768
+GET /api/v1/Project/{projectId}/Image?type=tenetur
 GET /api/v1/Project/{projectId}/Image?ifBlank=ClearPixel
 ```
 

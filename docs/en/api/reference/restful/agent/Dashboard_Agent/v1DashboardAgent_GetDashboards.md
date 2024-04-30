@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 67
+  "AssociateId": 120
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 686,
-    "AssociateId": 985,
-    "Caption": "repellat",
+    "DashboardId": 924,
+    "AssociateId": 39,
+    "Caption": "aut",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 84,
+        "DashboardTileId": 491,
         "Caption": "aut",
-        "Description": "Function-based actuating matrices",
-        "ChartName": "Kassulke-Kreiger",
-        "ChartId": "delectus",
-        "IsDefault": true,
-        "AssociateId": 66,
-        "GroupId": 257,
-        "SelectionId": 628,
-        "Config": "dolorem",
+        "Description": "Face to face real-time support",
+        "ChartName": "Abshire Group",
+        "ChartId": "minima",
+        "IsDefault": false,
+        "AssociateId": 273,
+        "GroupId": 11,
+        "SelectionId": 777,
+        "Config": "temporibus",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 671
+            "FieldType": "System.String",
+            "FieldLength": 511
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

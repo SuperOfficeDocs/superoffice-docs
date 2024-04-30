@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 202,
-  "WorkflowStepId": 588,
-  "WorkflowId": 613,
-  "Rank": 36,
+  "WorkflowWaitForActionId": 351,
+  "WorkflowStepId": 57,
+  "WorkflowId": 897,
+  "Rank": 295,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Gutmann Inc and Sons",
-      "Description": "Business-focused bifurcated hub",
-      "Rank": 564,
+      "Name": "Paucek-McKenzie",
+      "Description": "Integrated coherent definition",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann Inc and Sons",
-      "Description": "Business-focused bifurcated hub",
-      "Rank": 564,
+      "Name": "Paucek-McKenzie",
+      "Description": "Integrated coherent definition",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

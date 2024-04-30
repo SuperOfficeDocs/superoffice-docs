@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Crist, O'Reilly and Harvey",
-  "ProviderName": "Lesch, Donnelly and Balistreri"
+  "GuiName": "Ruecker-Koss",
+  "ProviderName": "Stoltenberg, Kirlin and Hermiston"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Huels-Rowe",
-      "DisplayTooltip": "a",
-      "DisplayType": "incidunt",
-      "CanOrderBy": false,
-      "Name": "Schneider, Corkery and Ebert",
+      "DisplayName": "Buckridge, Jewess and Reynolds",
+      "DisplayTooltip": "est",
+      "DisplayType": "tempore",
+      "CanOrderBy": true,
+      "Name": "Murray, Schuster and Bradtke",
       "CanRestrictBy": true,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Parker-Reichert",
+      "RestrictionType": "eos",
+      "RestrictionListName": "Strosin-Beatty",
       "IsVisible": false,
-      "ExtraInfo": "eius",
-      "Width": "perferendis",
-      "IconHint": "id",
-      "HeadingIconHint": "ipsa"
+      "ExtraInfo": "consequatur",
+      "Width": "sed",
+      "IconHint": "itaque",
+      "HeadingIconHint": "id"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 508,
-      "Name": "Wiza, Thiel and Kuhn",
-      "ToolTip": "Quis eos fugiat incidunt id.",
+      "Id": 149,
+      "Name": "Turner Inc and Sons",
+      "ToolTip": "Eveniet perspiciatis occaecati laudantium est ullam ratione.",
       "Deleted": true,
-      "Rank": 653,
-      "Type": "voluptatem",
-      "ColorBlock": 768,
-      "IconHint": "vel",
+      "Rank": 981,
+      "Type": "totam",
+      "ColorBlock": 743,
+      "IconHint": "occaecati",
       "Selected": false,
-      "LastChanged": "2001-11-09T11:44:32.7755279+01:00",
+      "LastChanged": "2024-03-05T11:16:08.7097813+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "aspernatur",
+      "ExtraInfo": "dolores",
+      "StyleHint": "excepturi",
       "Hidden": true,
-      "FullName": "Mr. Travon Santos Konopelski",
+      "FullName": "Adaline Schulist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bode LLC",
+      "Name": "Schmidt Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Bode LLC",
+      "Name": "Schmidt Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sit",
+  "OwnerKeys": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 779,
-  "Name": "Pollich-Haag",
-  "Tooltip": "aut",
+  "Id": 754,
+  "Name": "Prohaska-Kautzer",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 406,
-  "Rank": 909
+  "UdListDefinitionId": 312,
+  "Rank": 556
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Wolff, Veum and Haley",
-  "Tooltip": "rem",
+  "Id": 714,
+  "Name": "Fay-Goodwin",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 77,
-  "Rank": 873,
+  "UdListDefinitionId": 268,
+  "Rank": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

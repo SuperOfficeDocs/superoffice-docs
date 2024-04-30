@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 155
+  "MailItemId": 870
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 934,
-  "StartDate": "2020-06-20T11:44:33.6034713+02:00",
-  "EndDate": "2016-08-22T11:44:33.6034713+02:00",
-  "RecurrenceCounter": 808,
+  "RecurrenceId": 117,
+  "StartDate": "1997-06-06T11:16:09.1784746+02:00",
+  "EndDate": "1997-05-10T11:16:09.1784746+02:00",
+  "RecurrenceCounter": 763,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2012-03-30T11:44:33.6034713+02:00",
-      "IsConflict": false,
-      "Description": "Compatible fault-tolerant forecast",
-      "DescriptionStyleHint": "De-engineered even-keeled encryption",
-      "Tooltip": "vel"
+      "Date": "2009-08-04T11:16:09.1784746+02:00",
+      "IsConflict": true,
+      "Description": "Customer-focused bandwidth-monitored hub",
+      "DescriptionStyleHint": "Sharable asynchronous challenge",
+      "Tooltip": "harum"
     },
     {
-      "Date": "2012-03-30T11:44:33.6034713+02:00",
-      "IsConflict": false,
-      "Description": "Compatible fault-tolerant forecast",
-      "DescriptionStyleHint": "De-engineered even-keeled encryption",
-      "Tooltip": "vel"
+      "Date": "2009-08-04T11:16:09.1784746+02:00",
+      "IsConflict": true,
+      "Description": "Customer-focused bandwidth-monitored hub",
+      "DescriptionStyleHint": "Sharable asynchronous challenge",
+      "Tooltip": "harum"
     }
   ],
   "IsRecurrence": false

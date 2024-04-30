@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "soluta",
+      "RawValue": "eius",
       "Specification": null,
-      "DisplayValue": "velit",
-      "DisplayTooltip": "minima",
+      "DisplayValue": "eos",
+      "DisplayTooltip": "suscipit",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 560,
-      "PrefDescId": 263,
-      "TableName": "Mueller, Sporer and Ondricka",
-      "UserPreferenceId": 905
+      "TargetId": 216,
+      "PrefDescId": 262,
+      "TableName": "Zboncak, Jacobson and Jenkins",
+      "UserPreferenceId": 798
     }
   ],
   "RemoveLowerLevels": false

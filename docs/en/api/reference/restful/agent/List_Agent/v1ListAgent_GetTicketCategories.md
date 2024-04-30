@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 662,
-    "ParentId": 814,
-    "Name": "Leffler Inc and Sons",
-    "Fullname": "ratione",
-    "CategoryMaster": 778,
+    "TicketCategoryId": 325,
+    "ParentId": 609,
+    "Name": "Romaguera-Botsford",
+    "Fullname": "commodi",
+    "CategoryMaster": 890,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kiehn-Auer",
+    "ExternalName": "Ward LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 186,
-    "ReplyTemplate": 724,
-    "NotificationEmail": "reagan_wisozk@lebsackhauck.info",
+    "AssignmentLag": 924,
+    "ReplyTemplate": 401,
+    "NotificationEmail": "wiley.beier@johns.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 60,
+    "EffectiveReplyTemplateId": 975,
     "ExtraFields": {
-      "ExtraFields1": "at",
-      "ExtraFields2": "veritatis"
+      "ExtraFields1": "mollitia",
+      "ExtraFields2": "eum"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "ullam"
+      "CustomFields1": "sed",
+      "CustomFields2": "earum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 782
       }
     }
   }

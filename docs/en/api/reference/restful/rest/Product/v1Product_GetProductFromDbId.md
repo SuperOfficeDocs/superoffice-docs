@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 622,
-  "ERPProductKey": "quae",
-  "ERPPriceListKey": "nobis",
-  "Name": "Graham-Ernser",
-  "Description": "Function-based real-time portal",
-  "Code": "eos",
-  "PriceUnit": "accusantium",
-  "QuantityUnit": "aut",
-  "IsSubscription": true,
+  "ProductId": 533,
+  "ERPProductKey": "inventore",
+  "ERPPriceListKey": "iure",
+  "Name": "Block-Blanda",
+  "Description": "Right-sized demand-driven structure",
+  "Code": "voluptatem",
+  "PriceUnit": "debitis",
+  "QuantityUnit": "sequi",
+  "IsSubscription": false,
   "SubscriptionUnit": "laboriosam",
-  "DefaultSubscriptionQuantity": 16039.812,
-  "ItemNumber": "1093457",
+  "DefaultSubscriptionQuantity": 21561.92,
+  "ItemNumber": "750701",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nobis",
-  "ProductTypeKey": "qui",
-  "VAT": 28271.814,
-  "VATInfo": "quae",
-  "UnitCost": 1375.826,
-  "UnitMinimumPrice": 3375.3179999999998,
-  "UnitListPrice": 28437.915999999997,
-  "InAssortment": false,
-  "Supplier": "consequuntur",
-  "SupplierCode": "similique",
-  "Rights": "aut",
-  "Rule": "ducimus",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "praesentium",
+  "VAT": 19180.079999999998,
+  "VATInfo": "blanditiis",
+  "UnitCost": 1466.712,
+  "UnitMinimumPrice": 22527.192,
+  "UnitListPrice": 16218.449999999999,
+  "InAssortment": true,
+  "Supplier": "praesentium",
+  "SupplierCode": "asperiores",
+  "Rights": "enim",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Labadie, DuBuque and Jacobs",
-      "Value": "et",
+      "Name": "Rowe Group",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 305
         }
       }
     },
     {
-      "Name": "Labadie, DuBuque and Jacobs",
-      "Value": "et",
+      "Name": "Rowe Group",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 305
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "aut",
-  "ExtraField2": "dolores",
-  "ExtraField3": "non",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "modi",
-  "InStock": 13291.294,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "nam",
+  "ExtraField2": "eaque",
+  "ExtraField3": "quia",
+  "ExtraField4": "id",
+  "ExtraField5": "praesentium",
+  "InStock": 6286.804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 30
     }
   }
 }

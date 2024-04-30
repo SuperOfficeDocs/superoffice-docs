@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 535,
-  "DestinationContactName": "Batz-Predovic",
+  "SourceContactId": 211,
+  "DestinationContactName": "Gutmann Group",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-243
+785
 ```

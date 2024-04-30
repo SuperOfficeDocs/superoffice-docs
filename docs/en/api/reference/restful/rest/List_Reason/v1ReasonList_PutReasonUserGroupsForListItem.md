@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Schumm Inc and Sons",
-    "ToolTip": "Illum laborum qui.",
+    "Id": 74,
+    "Name": "Kling, Pfannerstill and O'Kon",
+    "ToolTip": "Dolorum voluptatibus voluptate ut nesciunt sequi quam quam.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "ex",
-    "ColorBlock": 525,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2018-09-25T11:44:43.2887254+02:00",
+    "Rank": 177,
+    "Type": "quo",
+    "ColorBlock": 762,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2003-03-25T11:16:14.699531+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Turner-Conroy",
-        "ToolTip": "Adipisci aut.",
-        "Deleted": true,
-        "Rank": 554,
-        "Type": "facere",
-        "ColorBlock": 568,
-        "IconHint": "consequatur",
+        "Id": 398,
+        "Name": "Considine-Effertz",
+        "ToolTip": "Odit aut aut non natus in.",
+        "Deleted": false,
+        "Rank": 718,
+        "Type": "amet",
+        "ColorBlock": 724,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2010-12-21T11:44:43.2887254+01:00",
+        "LastChanged": "2012-10-13T11:16:14.699531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "tempore",
+        "ExtraInfo": "soluta",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Dr. Nat Hand V"
+        "FullName": "Nick Ortiz DDS"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Shyann Schowalter III"
+    "ExtraInfo": "autem",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Nash Anderson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Toy-Huels",
-    "ToolTip": "Recusandae amet nam vel.",
-    "Deleted": true,
-    "Rank": 359,
-    "Type": "vel",
-    "ColorBlock": 548,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2023-04-13T11:44:43.2887254+02:00",
+    "Id": 835,
+    "Name": "McClure Group",
+    "ToolTip": "Accusantium cum possimus et.",
+    "Deleted": false,
+    "Rank": 696,
+    "Type": "adipisci",
+    "ColorBlock": 197,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "2018-07-24T11:16:14.699531+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Wuckert, Koch and Crist",
-        "ToolTip": "Aliquam eum qui deserunt eum voluptatibus impedit iusto.",
+        "Id": 669,
+        "Name": "Gutkowski, Crona and Beer",
+        "ToolTip": "Voluptates illum omnis quis accusamus.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "et",
-        "ColorBlock": 106,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2012-03-01T11:44:43.2887254+01:00",
+        "Rank": 8,
+        "Type": "minima",
+        "ColorBlock": 778,
+        "IconHint": "voluptatibus",
+        "Selected": true,
+        "LastChanged": "2001-07-28T11:16:14.699531+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "hic",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Madeline Becker",
+        "FullName": "Mr. Misael Jensen Pacocha Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 86
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "rem",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Macy Brekke",
+    "FullName": "Robert Addison Herman II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 186
       }
     }
   }

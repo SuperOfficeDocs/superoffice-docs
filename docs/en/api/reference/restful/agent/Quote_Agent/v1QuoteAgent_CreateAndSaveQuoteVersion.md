@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 703
+  "QuoteVersionId": 422
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 398,
-  "ERPQuoteVersionKey": "quia",
-  "QuoteId": 497,
-  "Description": "Front-line content-based intranet",
-  "Number": "1561833",
+  "QuoteVersionId": 578,
+  "ERPQuoteVersionKey": "enim",
+  "QuoteId": 714,
+  "Description": "Integrated multi-state attitude",
+  "Number": "381895",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 222,
-  "SentDate": "2010-03-09T11:44:34.2439386+01:00",
-  "FollowupId": 542,
-  "ExpirationDate": "1998-05-11T11:44:34.2439386+02:00",
-  "DeliveryCountryId": 787,
+  "LikelyQuoteAlternativeId": 187,
+  "SentDate": "2002-08-19T11:16:09.5848946+02:00",
+  "FollowupId": 812,
+  "ExpirationDate": "2016-09-01T11:16:09.5848946+02:00",
+  "DeliveryCountryId": 371,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 412,
+  "InvoiceCountryId": 359,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "sit",
-  "ERPPaymentTypeKey": "ea",
-  "ERPDeliveryTermsKey": "dolorum",
-  "ERPDeliveryTypeKey": "sed",
-  "Rank": 43,
-  "ApprovedBy": 420,
-  "ApprovedText": "laudantium",
-  "ApprovedRegisteredBy": 45,
-  "ApprovedRegisteredDate": "2015-06-28T11:44:34.2439386+02:00",
-  "ExtraField1": "esse",
-  "ExtraField2": "impedit",
-  "ExtraField3": "quae",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "quo",
-  "LastRecalculated": "1998-11-12T11:44:34.2439386+01:00",
-  "Updated": "2021-01-28T11:44:34.2439386+01:00",
-  "UpdatedAssociateId": 760,
-  "Registered": "2002-06-22T11:44:34.2439386+02:00",
-  "RegisteredAssociateId": 405,
-  "RequestAssociateId": 551,
-  "RequestComment": "delectus",
+  "ERPPaymentTermsKey": "veritatis",
+  "ERPPaymentTypeKey": "quod",
+  "ERPDeliveryTermsKey": "deserunt",
+  "ERPDeliveryTypeKey": "distinctio",
+  "Rank": 986,
+  "ApprovedBy": 139,
+  "ApprovedText": "est",
+  "ApprovedRegisteredBy": 650,
+  "ApprovedRegisteredDate": "2008-10-10T11:16:09.5848946+02:00",
+  "ExtraField1": "veniam",
+  "ExtraField2": "earum",
+  "ExtraField3": "quia",
+  "ExtraField4": "quas",
+  "ExtraField5": "corrupti",
+  "LastRecalculated": "2005-10-23T11:16:09.5848946+02:00",
+  "Updated": "2007-03-28T11:16:09.5848946+02:00",
+  "UpdatedAssociateId": 620,
+  "Registered": "2005-02-21T11:16:09.5848946+01:00",
+  "RegisteredAssociateId": 466,
+  "RequestAssociateId": 801,
+  "RequestComment": "ut",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 534,
-      "ERPQuoteAlternativeKey": "odio",
-      "QuoteVersionId": 857,
-      "Name": "Harris Inc and Sons",
-      "Description": "Cross-platform methodical complexity",
+      "QuoteAlternativeId": 256,
+      "ERPQuoteAlternativeKey": "voluptatem",
+      "QuoteVersionId": 855,
+      "Name": "Koss, Corwin and Jenkins",
+      "Description": "Optimized analyzing application",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 29725.989999999998,
-      "ERPDiscountAmount": 4816.958,
-      "DiscountPercent": 17177.453999999998,
-      "DiscountAmount": 22533.46,
+      "ERPDiscountPercent": 20615.452,
+      "ERPDiscountAmount": 7377.436,
+      "DiscountPercent": 11529.985999999999,
+      "DiscountAmount": 2284.686,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ullam",
-      "VAT": 14961.716,
-      "EarningPercent": 12354.228,
-      "EarningAmount": 28826.532,
-      "SubTotal": 24717.858,
-      "TotalPrice": 29823.144,
-      "ExtraField1": "animi",
-      "ExtraField2": "ipsam",
-      "ExtraField3": "animi",
-      "ExtraField4": "quisquam",
-      "ExtraField5": "laudantium",
+      "VATInfo": "quos",
+      "VAT": 23733.782,
+      "EarningPercent": 4713.536,
+      "EarningAmount": 15199.9,
+      "SubTotal": 21367.612,
+      "TotalPrice": 4581.9079999999994,
+      "ExtraField1": "aut",
+      "ExtraField2": "ea",
+      "ExtraField3": "sit",
+      "ExtraField4": "enim",
+      "ExtraField5": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldType": "System.Int32",
+          "FieldLength": 764
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

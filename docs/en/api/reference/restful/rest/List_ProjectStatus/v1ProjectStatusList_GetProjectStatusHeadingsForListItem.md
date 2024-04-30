@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Muller LLC",
-    "ToolTip": "Eius beatae eligendi.",
-    "Deleted": false,
-    "Rank": 369,
-    "Type": "dolores",
-    "ColorBlock": 201,
-    "IconHint": "illo",
-    "Selected": true,
-    "LastChanged": "2020-08-19T11:44:43.226243+02:00",
+    "Id": 384,
+    "Name": "Russel-Powlowski",
+    "ToolTip": "Veniam quidem ad aut dignissimos in enim.",
+    "Deleted": true,
+    "Rank": 229,
+    "Type": "laboriosam",
+    "ColorBlock": 288,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2023-07-29T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Runolfsdottir Group",
-        "ToolTip": "Natus assumenda ut ipsa.",
+        "Id": 219,
+        "Name": "Schinner, Witting and Wintheiser",
+        "ToolTip": "Recusandae officiis necessitatibus.",
         "Deleted": false,
-        "Rank": 97,
-        "Type": "voluptate",
-        "ColorBlock": 77,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2001-05-20T11:44:43.226243+02:00",
+        "Rank": 463,
+        "Type": "quia",
+        "ColorBlock": 41,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "1998-07-12T11:16:14.668281+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Wilford Anastacio Nolan III",
+        "ExtraInfo": "qui",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Dalton Miguel Bailey IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
+    "ExtraInfo": "reiciendis",
     "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Wayne Keira Rosenbaum DDS",
+    "FullName": "Emanuel Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 388
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

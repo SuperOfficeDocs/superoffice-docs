@@ -27,7 +27,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=sapiente
+GET /api/v1/List/ReasonSold/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Rippin, Armstrong and Rath",
-    "ToolTip": "Placeat pariatur esse porro.",
-    "Deleted": true,
-    "Rank": 121,
-    "Type": "odit",
+    "Id": 197,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Animi architecto quasi ut.",
+    "Deleted": false,
+    "Rank": 99,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Goyette, Hessel and Cole",
-        "ToolTip": "Voluptas nostrum cumque eius.",
+        "Id": 921,
+        "Name": "Feil Inc and Sons",
+        "ToolTip": "Exercitationem illum autem debitis.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "ipsam",
+        "Rank": 144,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 130,
-        "ExtraInfo": "maiores",
-        "StyleHint": "neque",
-        "FullName": "Miss Durward Blanda Jr.",
+        "IconHint": "est",
+        "ColorBlock": 830,
+        "ExtraInfo": "in",
+        "StyleHint": "et",
+        "FullName": "Nicholaus Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 317
           }
         }
       }
     ],
-    "IconHint": "nesciunt",
-    "ColorBlock": 600,
-    "ExtraInfo": "possimus",
-    "StyleHint": "iste",
-    "FullName": "Clyde Kling",
+    "IconHint": "eum",
+    "ColorBlock": 988,
+    "ExtraInfo": "sint",
+    "StyleHint": "aliquam",
+    "FullName": "Vern Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 97
       }
     }
   }

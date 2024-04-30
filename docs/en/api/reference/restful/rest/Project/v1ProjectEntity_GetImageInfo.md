@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 27 Mar 2017 11:44:42 G3T
+Last-Modified: Sun, 19 Jul 2020 11:16:14 G7T
 
 {
-  "BlobId": 491,
-  "BlobSize": 100,
-  "Description": "Profound motivating interface",
-  "ExtraInfo": "sint",
+  "BlobId": 629,
+  "BlobSize": 978,
+  "Description": "Vision-oriented encompassing functionalities",
+  "ExtraInfo": "incidunt",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 299,
-  "CreatedDate": "2019-11-25T11:44:42.1951793+01:00",
-  "UpdatedDate": "2017-03-27T11:44:42.1951793+02:00",
+  "MimeType": "voluptatem",
+  "OriginalSize": 130,
+  "CreatedDate": "2017-12-06T11:16:14.1206908+01:00",
+  "UpdatedDate": "2020-07-19T11:16:14.1206908+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "amet",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

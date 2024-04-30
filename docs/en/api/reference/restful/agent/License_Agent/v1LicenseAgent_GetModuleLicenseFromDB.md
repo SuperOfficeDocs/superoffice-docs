@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Sipes, Cormier and Turner",
-  "ModuleName": "Medhurst-Hammes"
+  "OwnerName": "Olson-Weissnat",
+  "ModuleName": "Breitenberg, Hyatt and Gerlach"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Stiedemann Inc and Sons",
-  "ModuleName": "Streich, Veum and Bergnaum",
-  "ModuleDescription": "Organized holistic access",
-  "ModuleTooltip": "aut",
-  "ModuleVersion": "voluptatem",
+  "OwnerName": "Ortiz, Cronin and Treutel",
+  "ModuleName": "Cartwright, Erdman and Marquardt",
+  "ModuleDescription": "Cross-platform 4th generation challenge",
+  "ModuleTooltip": "ut",
+  "ModuleVersion": "inventore",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 662,
-  "ExtraFlags": 333,
-  "ExtraInfo": "sed",
-  "SortOrder": 90,
+  "NumberOfLicenses": 776,
+  "ExtraFlags": 318,
+  "ExtraInfo": "quam",
+  "SortOrder": 169,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Gleason-Herzog",
-  "Signature": "laborum"
+  "PrerequisiteModuleName": "Schuster-Gutmann",
+  "Signature": "asperiores"
 }
 ```

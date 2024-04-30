@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 175,
-  "AssociateId": 281,
-  "Caption": "ab",
+  "DashboardId": 890,
+  "AssociateId": 186,
+  "Caption": "molestiae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 425,
-      "Caption": "qui",
-      "Description": "Integrated mobile info-mediaries",
-      "ChartName": "Streich Inc and Sons",
-      "ChartId": "non",
+      "DashboardTileId": 482,
+      "Caption": "quam",
+      "Description": "Vision-oriented zero administration ability",
+      "ChartName": "Boehm-Daugherty",
+      "ChartId": "saepe",
       "IsDefault": false,
-      "AssociateId": 89,
-      "GroupId": 91,
-      "SelectionId": 415,
-      "Config": "id",
+      "AssociateId": 435,
+      "GroupId": 129,
+      "SelectionId": 585,
+      "Config": "sed",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 243,
-  "AssociateId": 142,
-  "Caption": "vel",
+  "DashboardId": 606,
+  "AssociateId": 515,
+  "Caption": "nam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 556,
-      "Caption": "consequatur",
-      "Description": "Front-line demand-driven collaboration",
-      "ChartName": "Leuschke, Gislason and Wehner",
-      "ChartId": "aut",
-      "IsDefault": true,
-      "AssociateId": 848,
-      "GroupId": 40,
-      "SelectionId": 582,
-      "Config": "magnam",
+      "DashboardTileId": 973,
+      "Caption": "cumque",
+      "Description": "Adaptive scalable firmware",
+      "ChartName": "Weissnat Group",
+      "ChartId": "laudantium",
+      "IsDefault": false,
+      "AssociateId": 54,
+      "GroupId": 801,
+      "SelectionId": 366,
+      "Config": "quis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldType": "System.String",
+          "FieldLength": 517
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 453
     }
   }
 }

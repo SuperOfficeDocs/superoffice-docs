@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 683,
-    "Name": "Bednar, Ferry and Mueller",
-    "Tooltip": "odio",
-    "Rank": 386,
-    "Key": "quibusdam",
-    "Deleted": false,
+    "LegalBaseId": 975,
+    "Name": "Jacobson Group",
+    "Tooltip": "vero",
+    "Rank": 40,
+    "Key": "labore",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

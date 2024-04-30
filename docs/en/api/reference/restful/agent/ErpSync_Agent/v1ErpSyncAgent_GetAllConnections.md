@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 765,
-    "ErpConnectorId": 742,
-    "DisplayName": "Kutch Group",
-    "DisplayDescription": "Public-key incremental emulation",
-    "Active": true,
-    "ConnectionId": "suscipit",
-    "MostRecentTimestamp": "soluta",
+    "ErpConnectionId": 404,
+    "ErpConnectorId": 205,
+    "DisplayName": "Bergstrom Group",
+    "DisplayDescription": "Quality-focused client-driven monitoring",
+    "Active": false,
+    "ConnectionId": "eum",
+    "MostRecentTimestamp": "optio",
     "ConfigFields": {
-      "ConfigFields1": "molestiae",
-      "ConfigFields2": "animi"
+      "ConfigFields1": "ipsam",
+      "ConfigFields2": "neque"
     },
-    "Deleted": false,
+    "Deleted": true,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      862,
-      180
+      876,
+      658
     ],
     "AssociateAccessIds": [
-      973,
-      767
+      857,
+      973
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 75
       }
     }
   }

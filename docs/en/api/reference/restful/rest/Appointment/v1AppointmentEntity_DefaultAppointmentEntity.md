@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 Feb 2019 11:44:41 G2T
+Last-Modified: Sat, 16 Nov 2002 11:16:13 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-05-17T11:44:41.4141593+02:00",
-  "AppointmentId": 734,
-  "Description": "Operative composite groupware",
-  "Title": "id",
-  "Agenda": "iste",
+  "CreatedDate": "1997-02-17T11:16:13.5737173+01:00",
+  "AppointmentId": 572,
+  "Description": "Phased multi-tasking collaboration",
+  "Title": "quia",
+  "Agenda": "ex",
   "InternalNotes": "et",
-  "StartDate": "2008-04-08T11:44:41.4141593+02:00",
-  "EndDate": "1997-09-09T11:44:41.4141593+02:00",
+  "StartDate": "2012-11-15T11:16:13.5737173+01:00",
+  "EndDate": "2002-05-08T11:16:13.5737173+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 937,
+  "MotherId": 384,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-02-08T11:44:41.4141593+01:00",
+  "UpdatedDate": "2002-11-16T11:16:13.5737173+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 55,
+  "ActiveLinks": 884,
   "Links": [
     {
-      "EntityName": "Kuhn, O'Hara and Jacobson",
-      "Id": 808,
-      "Description": "User-friendly high-level success",
-      "ExtraInfo": "vel",
-      "LinkId": 112,
+      "EntityName": "Wyman Group",
+      "Id": 513,
+      "Description": "Extended executive software",
+      "ExtraInfo": "quia",
+      "LinkId": 430,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 435
         }
       }
     }
   ],
-  "AlarmLeadTime": "assumenda",
+  "AlarmLeadTime": "facilis",
   "HasAlarm": false,
-  "ColorIndex": 565,
-  "IsFree": false,
+  "ColorIndex": 721,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "neque",
-  "LeadTime": "eaque",
-  "Location": "commodi",
-  "RejectCounter": 235,
+  "LagTime": "quos",
+  "LeadTime": "qui",
+  "Location": "est",
+  "RejectCounter": 413,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 336,
-      "PersonId": 394,
-      "ContactId": 696,
-      "EmailId": 957,
+      "AssociateId": 383,
+      "PersonId": 799,
+      "ContactId": 887,
+      "EmailId": 728,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "arthur_harvey@sanford.uk",
-      "Description": "Face to face background open system"
+      "EmailAddress": "montana_crist@runolfssonharber.info",
+      "Description": "Compatible optimizing encryption"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-12-22T11:44:41.4141593+01:00",
+  "ActiveDate": "1997-01-21T11:16:13.5737173+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 981,
+  "PreferredTZLocation": 245,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 97,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 479,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "soluta",
+  "CentralserviceVideomeetId": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1656280876",
-    "SuperOffice:2": "Madaline Doyle"
+    "SuperOffice:1": "100979428",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "aut",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2003-02-19T11:44:41.4141593+01:00",
-  "PublishTo": "2002-01-02T11:44:41.4141593+01:00",
-  "PublishFrom": "2024-01-26T11:44:41.4141593+01:00",
+  "PublishEventDate": "2007-07-07T11:16:13.5737173+02:00",
+  "PublishTo": "2006-05-07T11:16:13.5737173+02:00",
+  "PublishFrom": "2000-08-07T11:16:13.5737173+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 677,
+      "VisibleId": 601,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldType": "System.Int32",
+          "FieldLength": 949
         }
       }
     },
     {
-      "VisibleId": 677,
+      "VisibleId": 601,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldType": "System.Int32",
+          "FieldLength": 949
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Fri, 08 Feb 2019 11:44:41 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

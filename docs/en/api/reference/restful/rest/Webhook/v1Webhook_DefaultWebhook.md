@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 101,
-  "Name": "Ritchie, Borer and Pfannerstill",
+  "WebhookId": 682,
+  "Name": "Connelly-Kutch",
   "Events": [
-    "ab",
-    "ut"
+    "repellat",
+    "sit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "id",
   "State": "Active",
   "Type": "et",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "occaecati"
+    "Headers1": "laborum",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-05-15T11:44:42.8669476+02:00",
+  "Registered": "2022-10-21T11:16:14.4495535+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-09T11:44:42.8669476+02:00",
+  "Updated": "2014-01-09T11:16:14.4495535+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "ashlynn@kulas.info"
+  "ErrorsEmail": "abbie.jacobson@oharabins.info"
 }
 ```

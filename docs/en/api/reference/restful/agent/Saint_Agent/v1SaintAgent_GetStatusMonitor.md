@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672
+  "Id": 12
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 488,
-  "Rank": 826,
-  "DefaultTask": 641,
-  "DefaultTaskText": "veritatis",
-  "IsVisual": true,
-  "LastGenerated": "2017-04-11T11:44:34.3376813+02:00",
-  "Description": "De-engineered human-resource architecture",
-  "Name": "Corkery, Raynor and O'Kon",
-  "StatusMonitorId": 626,
-  "PictureId": 883,
-  "NeedsUpdate": true,
+  "OwnerTable": 632,
+  "Rank": 408,
+  "DefaultTask": 205,
+  "DefaultTaskText": "est",
+  "IsVisual": false,
+  "LastGenerated": "1998-11-14T11:16:09.6473837+01:00",
+  "Description": "Function-based bi-directional budgetary management",
+  "Name": "Kris-Larson",
+  "StatusMonitorId": 761,
+  "PictureId": 417,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 929,
-  "NumNeedUpdate": 902,
-  "GenerationStart": "2007-02-03T11:44:34.3376813+01:00",
+  "NumMatches": 271,
+  "NumNeedUpdate": 466,
+  "GenerationStart": "1999-10-13T11:16:09.6473837+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 185
     }
   }
 }

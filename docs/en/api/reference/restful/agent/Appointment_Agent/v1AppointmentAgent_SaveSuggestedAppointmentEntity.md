@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 956,
-  "Name": "Pagac, DuBuque and Wilderman",
-  "Tooltip": "eos",
-  "Rank": 533,
+  "SuggestedAppointmentId": 103,
+  "Name": "Prosacco, Baumbach and Zboncak",
+  "Tooltip": "omnis",
+  "Rank": 931,
   "Deleted": false,
-  "DaysFuture": 126,
-  "Duration": "cum",
+  "DaysFuture": 725,
+  "Duration": "ullam",
   "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "aut",
+  "AssignToMember": false,
+  "Text": "expedita",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 24,
-  "Name": "Kshlerin-Brown",
-  "Tooltip": "non",
-  "Rank": 16,
+  "SuggestedAppointmentId": 249,
+  "Name": "Mitchell-Haag",
+  "Tooltip": "enim",
+  "Rank": 978,
   "Deleted": false,
-  "DaysFuture": 209,
-  "Duration": "exercitationem",
+  "DaysFuture": 691,
+  "Duration": "accusamus",
   "AutoSuggest": true,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "non",
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "nemo",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

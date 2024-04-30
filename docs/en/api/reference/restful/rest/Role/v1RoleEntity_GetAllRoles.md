@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Shields Group",
-    "ToolTip": "Et voluptate quia ea repudiandae.",
+    "Id": 494,
+    "Name": "Douglas, Mante and Johnson",
+    "ToolTip": "Quia ratione.",
     "Deleted": false,
-    "Rank": 613,
-    "Type": "quo",
-    "ColorBlock": 123,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2009-06-11T11:44:42.2264732+02:00",
+    "Rank": 811,
+    "Type": "eius",
+    "ColorBlock": 942,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2001-01-16T11:16:14.1363143+01:00",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Huel, Zboncak and Klein",
-        "ToolTip": "Repellendus est molestiae est mollitia dolores.",
-        "Deleted": true,
-        "Rank": 404,
-        "Type": "tempore",
-        "ColorBlock": 155,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2011-07-21T11:44:42.2264732+02:00",
+        "Id": 91,
+        "Name": "McDermott, Lindgren and Block",
+        "ToolTip": "Fuga iste odit debitis quae harum ipsam ex.",
+        "Deleted": false,
+        "Rank": 379,
+        "Type": "et",
+        "ColorBlock": 595,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2001-05-22T11:16:14.1363143+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "saepe",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "King Treutel",
+        "FullName": "Carlotta Elinore Effertz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "sint",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "reiciendis",
     "Hidden": true,
-    "FullName": "Mason Savannah Reinger II",
+    "FullName": "Johnathon Laverne Davis IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldType": "System.Int32",
+        "FieldLength": 829
       }
     }
   }

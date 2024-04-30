@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 461,
-  "QuoteAlternativeName": "Jacobson-Kiehn",
-  "QuoteAlternativeDescription": "Integrated content-based extranet"
+  "QuoteVersionId": 764,
+  "QuoteAlternativeName": "Blanda Inc and Sons",
+  "QuoteAlternativeDescription": "Seamless web-enabled analyzer"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 278,
-  "ERPQuoteAlternativeKey": "illum",
-  "QuoteVersionId": 800,
-  "Name": "Bruen, Wilderman and Willms",
-  "Description": "Grass-roots regional matrix",
+  "QuoteAlternativeId": 969,
+  "ERPQuoteAlternativeKey": "tenetur",
+  "QuoteVersionId": 429,
+  "Name": "Stehr-Dickinson",
+  "Description": "Integrated executive capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 16299.934,
-  "ERPDiscountAmount": 26964.935999999998,
-  "DiscountPercent": 9843.894,
-  "DiscountAmount": 14385.06,
+  "ERPDiscountPercent": 1429.104,
+  "ERPDiscountAmount": 30236.832,
+  "DiscountPercent": 21054.212,
+  "DiscountAmount": 29215.147999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "qui",
-  "VAT": 24272.829999999998,
-  "EarningPercent": 14447.74,
-  "EarningAmount": 27156.11,
-  "SubTotal": 25046.928,
-  "TotalPrice": 2836.27,
-  "ExtraField1": "nihil",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "aut",
-  "ExtraField4": "dolores",
-  "ExtraField5": "temporibus",
+  "VATInfo": "quas",
+  "VAT": 25877.438,
+  "EarningPercent": 12968.492,
+  "EarningAmount": 1927.4099999999999,
+  "SubTotal": 15460.021999999999,
+  "TotalPrice": 9727.936,
+  "ExtraField1": "repellendus",
+  "ExtraField2": "perspiciatis",
+  "ExtraField3": "sapiente",
+  "ExtraField4": "non",
+  "ExtraField5": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

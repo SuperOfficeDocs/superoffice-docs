@@ -68,7 +68,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "maxime",
-  "VersionId": "ducimus",
-  "Success": true,
+  "ExternalReference": "ipsa",
+  "VersionId": "rerum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "eum",
-  "AdditionalInfo": "unde"
+  "Value": "autem",
+  "AdditionalInfo": "repellendus"
 }
 ```

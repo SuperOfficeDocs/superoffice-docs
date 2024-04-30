@@ -61,6 +61,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -80,34 +81,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 78,
-  "Name": "Yost, Bergnaum and Crist",
-  "Rank": 496,
+  "TicketTypeId": 426,
+  "Name": "Kerluke LLC",
+  "Rank": 148,
   "Tooltip": "ut",
-  "Icon": "ut",
-  "DefaultTicketStatus": 491,
+  "Icon": "voluptas",
+  "DefaultTicketStatus": 845,
   "TicketStatuses": [
-    892,
-    42
+    65,
+    739
   ],
-  "DefaultTicketPriority": 970,
+  "DefaultTicketPriority": 511,
   "TicketPriorities": [
-    574,
-    337
+    417,
+    318
   ],
-  "ReplyTemplate": 212,
+  "ReplyTemplate": 862,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    624,
+    383
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 212
     }
   }
 }

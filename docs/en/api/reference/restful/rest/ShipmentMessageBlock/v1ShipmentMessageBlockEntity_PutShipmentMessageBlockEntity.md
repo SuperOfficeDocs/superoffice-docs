@@ -97,14 +97,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 640,
-  "AssociateId": 128,
-  "Block": "nesciunt",
-  "Registered": "1998-07-17T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 251,
-  "Updated": "2021-08-31T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 552,
-  "UpdatedCount": 747
+  "ShipmentMessageBlockId": 126,
+  "AssociateId": 23,
+  "Block": "iusto",
+  "Registered": "1998-02-24T11:16:14.2304645+01:00",
+  "RegisteredAssociateId": 519,
+  "Updated": "2014-07-27T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 814,
+  "UpdatedCount": 812
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 227,
-  "AssociateId": 518,
-  "Block": "eos",
-  "Registered": "2010-10-19T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 813,
-  "Updated": "2014-03-26T11:44:42.5545135+01:00",
-  "UpdatedAssociateId": 534,
-  "UpdatedCount": 407,
+  "ShipmentMessageBlockId": 469,
+  "AssociateId": 145,
+  "Block": "laboriosam",
+  "Registered": "2002-08-11T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 979,
+  "Updated": "1999-10-05T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 396,
+  "UpdatedCount": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

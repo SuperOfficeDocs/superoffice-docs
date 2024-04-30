@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "non",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "consequuntur",
-      "DisplayTooltip": "accusantium",
+      "DisplayValue": "ipsam",
+      "DisplayTooltip": "voluptatibus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 609,
-      "PrefDescId": 567,
-      "TableName": "Bradtke Inc and Sons",
-      "UserPreferenceId": 409
+      "TargetId": 707,
+      "PrefDescId": 582,
+      "TableName": "Langworth-Krajcik",
+      "UserPreferenceId": 916
     }
   ]
 }

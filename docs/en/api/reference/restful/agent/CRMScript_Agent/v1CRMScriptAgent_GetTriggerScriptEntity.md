@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=7
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=124
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 587,
-  "Name": "Torphy-Lakin",
+  "ScreenChooserId": 308,
+  "Name": "Bernier Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "sapiente",
-  "Source": "quos",
-  "Registered": "2017-04-14T11:44:33.3379103+02:00",
-  "RegisteredAssociateId": 647,
-  "Updated": "2003-05-16T11:44:33.3379103+02:00",
-  "UpdatedAssociateId": 748,
+  "UniqueIdentifier": "qui",
+  "Source": "numquam",
+  "Registered": "2020-02-07T11:16:08.9597121+01:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2017-10-24T11:16:08.9597121+02:00",
+  "UpdatedAssociateId": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   }
 }

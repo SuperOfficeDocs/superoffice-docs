@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Borer LLC",
-    "ToolTip": "Distinctio asperiores.",
-    "Deleted": true,
-    "Rank": 802,
-    "Type": "in",
-    "ColorBlock": 219,
-    "IconHint": "ut",
+    "Id": 200,
+    "Name": "Stroman, McCullough and DuBuque",
+    "ToolTip": "Dolorem accusantium.",
+    "Deleted": false,
+    "Rank": 306,
+    "Type": "dolorum",
+    "ColorBlock": 831,
+    "IconHint": "soluta",
     "Selected": true,
-    "LastChanged": "2012-11-24T11:44:43.1949983+01:00",
+    "LastChanged": "2000-02-10T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Nikolaus Group",
-        "ToolTip": "Cum repellendus ipsam eum id odio rerum eum.",
+        "Id": 260,
+        "Name": "Durgan LLC",
+        "ToolTip": "Eaque sequi expedita esse earum molestiae porro.",
         "Deleted": false,
-        "Rank": 841,
-        "Type": "accusamus",
-        "ColorBlock": 460,
-        "IconHint": "eum",
+        "Rank": 376,
+        "Type": "modi",
+        "ColorBlock": 543,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2019-06-16T11:44:43.1949983+02:00",
+        "LastChanged": "2008-01-09T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Leola Larkin",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Mrs. Assunta Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 664
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Mozelle Fanny Stroman V",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Cameron Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 364
       }
     }
   }

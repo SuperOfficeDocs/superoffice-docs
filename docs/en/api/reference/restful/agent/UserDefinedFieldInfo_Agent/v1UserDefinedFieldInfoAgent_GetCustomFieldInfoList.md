@@ -75,6 +75,7 @@ OK
 | IsMandatory | bool | 0 = no, 1 = yes (field must be filled out) |
 | IsReadOnly | bool | 0 = read/write, 1 = readonly (don't combine with mandatory  8-) ) |
 | IsExternal | bool | Should this field be shown to external users via customer center? |
+| IsDisplayField | bool | Flag indicating that this field is chosen as DisplayField for a table it belongs |
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Conn LLC",
+  "TableName": "Jast-Trantow",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Reilly Inc and Sons",
-    "DisplayName": "Mante-Nikolaus",
-    "Description": "Enhanced multimedia service-desk",
-    "ShortLabel": "dolor",
+    "FieldName": "Jacobs Inc and Sons",
+    "DisplayName": "Stehr LLC",
+    "Description": "Expanded 4th generation framework",
+    "ShortLabel": "voluptatem",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 393,
-    "TemplateVariableName": "Sporer-Mueller"
+    "IsDisplayField": true,
+    "Rank": 955,
+    "TemplateVariableName": "Erdman, Stokes and Bashirian"
   }
 ]
 ```

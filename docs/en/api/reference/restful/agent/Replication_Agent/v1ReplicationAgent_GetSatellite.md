@@ -28,7 +28,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=517
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=835
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -86,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 547,
-  "Created": "2015-11-27T11:44:34.3220571+01:00",
+  "SatelliteId": 686,
+  "Created": "2020-04-16T11:16:09.6317604+02:00",
   "CreatedBy": null,
-  "Updated": "2005-01-29T11:44:34.3220571+01:00",
+  "Updated": "2006-02-22T11:16:09.6317604+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Bashirian Group",
-      "Description": "Balanced national website",
+      "Name": "Mosciski Group",
+      "Description": "Down-sized directional circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,13 +110,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 923
         }
       }
     },
     {
-      "Name": "Bashirian Group",
-      "Description": "Balanced national website",
+      "Name": "Mosciski Group",
+      "Description": "Down-sized directional circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 923
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 784
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 360,
-  "Name": "Powlowski-Hegmann",
-  "Tooltip": "exercitationem",
+  "HeadingId": 212,
+  "Name": "Gaylord, Bechtelar and Ritchie",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "Rank": 959,
-  "UdListDefinitionId": 376
+  "Rank": 858,
+  "UdListDefinitionId": 972
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 307,
-  "Name": "Ondricka, Gutkowski and Denesik",
-  "Tooltip": "est",
+  "HeadingId": 315,
+  "Name": "Luettgen Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 20,
-  "UdListDefinitionId": 934,
+  "Rank": 416,
+  "UdListDefinitionId": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 696
     }
   }
 }

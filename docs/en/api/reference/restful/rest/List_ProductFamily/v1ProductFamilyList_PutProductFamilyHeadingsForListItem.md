@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Willms Inc and Sons",
-    "ToolTip": "Minima sed accusantium aut magni perferendis culpa.",
-    "Deleted": true,
-    "Rank": 333,
-    "Type": "reiciendis",
-    "ColorBlock": 485,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2016-08-05T11:44:43.1949983+02:00",
+    "Id": 162,
+    "Name": "Corkery, McGlynn and Wisozk",
+    "ToolTip": "Eaque perferendis modi ea quos.",
+    "Deleted": false,
+    "Rank": 498,
+    "Type": "delectus",
+    "ColorBlock": 919,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "2007-07-26T11:16:14.6526601+02:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Oberbrunner, Nitzsche and Hartmann",
-        "ToolTip": "Et recusandae repellendus corrupti omnis eius non.",
+        "Id": 12,
+        "Name": "Graham-Predovic",
+        "ToolTip": "Exercitationem maiores et eaque repellat quos aliquam asperiores.",
         "Deleted": false,
-        "Rank": 424,
-        "Type": "sapiente",
-        "ColorBlock": 615,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2009-02-05T11:44:43.1949983+01:00",
+        "Rank": 670,
+        "Type": "est",
+        "ColorBlock": 391,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2015-04-19T11:16:14.6526601+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Brendan Lowe"
+        "ExtraInfo": "asperiores",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Geraldine Rowe"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "natus",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Felicity Dietrich"
+    "FullName": "Keegan Nikolaus"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Connelly-Quitzon",
-    "ToolTip": "Pariatur a repellat fugit eos.",
-    "Deleted": false,
-    "Rank": 677,
-    "Type": "doloribus",
-    "ColorBlock": 287,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "2019-05-14T11:44:43.2106158+02:00",
+    "Id": 417,
+    "Name": "Prohaska, Streich and Kertzmann",
+    "ToolTip": "Sequi magnam enim quaerat.",
+    "Deleted": true,
+    "Rank": 696,
+    "Type": "consequatur",
+    "ColorBlock": 655,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2022-11-13T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Lynch, Murphy and Dare",
-        "ToolTip": "Quidem et dolorem consequatur qui perspiciatis in.",
+        "Id": 804,
+        "Name": "McGlynn, Zulauf and Daugherty",
+        "ToolTip": "Quis corporis perferendis.",
         "Deleted": false,
-        "Rank": 256,
-        "Type": "ut",
-        "ColorBlock": 828,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2012-03-14T11:44:43.2106158+01:00",
+        "Rank": 119,
+        "Type": "dolores",
+        "ColorBlock": 205,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2021-08-23T11:16:14.6526601+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Bernadine Cremin Sr.",
+        "ExtraInfo": "veniam",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Brenden Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "ea",
+    "ExtraInfo": "corporis",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Cordelia Hammes",
+    "FullName": "Dorcas Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 716
       }
     }
   }

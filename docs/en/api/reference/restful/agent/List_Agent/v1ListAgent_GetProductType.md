@@ -26,7 +26,7 @@ Gets a ProductType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductType?productTypeId=612
+POST /api/v1/Agents/List/GetProductType?productTypeId=988
 POST /api/v1/Agents/List/GetProductType?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Value": "sit",
-  "Tooltip": "numquam",
+  "Id": 291,
+  "Value": "similique",
+  "Tooltip": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Miller LLC",
-    "Tooltip": "eius",
+    "Id": 707,
+    "Name": "Abbott, Sauer and West",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 321,
-    "Rank": 371
+    "UdListDefinitionId": 65,
+    "Rank": 24
   },
   {
-    "Id": 51,
-    "Name": "Miller LLC",
-    "Tooltip": "eius",
+    "Id": 707,
+    "Name": "Abbott, Sauer and West",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 321,
-    "Rank": 371
+    "UdListDefinitionId": 65,
+    "Rank": 24
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Frami, Hansen and Hettinger",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 355,
-    "Rank": 393,
+    "Id": 239,
+    "Name": "Cartwright-Welch",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 984,
+    "Rank": 73,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 675
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hansen Inc and Sons",
+  "LayoutName": "Hills Group",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 551,
-  "Name": "Collins-Harber",
-  "Value": "amet",
-  "CreatedDate": "2019-04-09T11:44:32.806727+02:00",
-  "UpdatedDate": "2004-04-17T11:44:32.806727+02:00",
-  "CreatedBy": "quidem",
-  "UpdatedBy": "aut",
+  "AudienceLayoutId": 816,
+  "Name": "Volkman, Wisoky and Schaefer",
+  "Value": "omnis",
+  "CreatedDate": "2007-02-06T11:16:08.7253957+01:00",
+  "UpdatedDate": "2021-04-21T11:16:08.7253957+02:00",
+  "CreatedBy": "eum",
+  "UpdatedBy": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

@@ -138,7 +138,7 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 32,
-  "TopicId": 68,
+  "ChatSessionId": 168,
+  "TopicId": 890,
   "User": null,
   "Person": null,
-  "CustomerAlias": "libero",
-  "CustomerHost": "rerum",
-  "CustomerName": "Lueilwitz-Monahan",
-  "CustomerEmail": "johnathon_larson@kreiger.ca",
-  "CustomerPhone": "1-280-084-6911",
+  "CustomerAlias": "pariatur",
+  "CustomerHost": "eum",
+  "CustomerName": "Wilderman, Hilll and Gerlach",
+  "CustomerEmail": "marta.dicki@gislason.co.uk",
+  "CustomerPhone": "1-364-338-9833",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Barrows, Koepp and Halvorson",
+  "CustomerCompanyName": "Lynch LLC",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "saepe",
-  "WhenRequested": "2005-07-17T11:44:41.5859953+02:00",
-  "WhenStarted": "2013-05-29T11:44:41.5859953+02:00",
-  "WhenEnded": "2023-08-07T11:44:41.5859953+02:00",
-  "WhenIdle": "2010-09-19T11:44:41.5859953+02:00",
-  "WhenFetched": "1997-12-15T11:44:41.5859953+01:00",
-  "SessionKey": "labore",
-  "InitialQueuePos": 585,
-  "AlertLevel": 787,
-  "Rank": 861,
+  "FirstMessage": "et",
+  "LastMessage": "debitis",
+  "WhenRequested": "2004-03-24T11:16:13.6987434+01:00",
+  "WhenStarted": "2007-03-08T11:16:13.6987434+01:00",
+  "WhenEnded": "2022-07-08T11:16:13.6987434+02:00",
+  "WhenIdle": "2015-12-17T11:16:13.6987434+01:00",
+  "WhenFetched": "2000-08-25T11:16:13.6987434+02:00",
+  "SessionKey": "culpa",
+  "InitialQueuePos": 413,
+  "AlertLevel": 114,
+  "Rank": 5,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 779,
+  "ChatbotIsActive": false,
+  "Rating": 364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 216
     }
   },
   "_Links": {

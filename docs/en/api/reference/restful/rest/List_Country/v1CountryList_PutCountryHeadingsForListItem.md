@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Collins, Schroeder and Mills",
-    "ToolTip": "Consequatur et reprehenderit.",
+    "Id": 251,
+    "Name": "Wyman Group",
+    "ToolTip": "Vero ut aut voluptatem quidem doloribus ea autem.",
     "Deleted": false,
-    "Rank": 59,
-    "Type": "quos",
-    "ColorBlock": 460,
-    "IconHint": "ut",
+    "Rank": 405,
+    "Type": "molestiae",
+    "ColorBlock": 555,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2000-10-22T11:44:43.0075335+02:00",
+    "LastChanged": "2014-10-28T11:16:14.5276742+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Wiegand-O'Keefe",
-        "ToolTip": "Magnam aspernatur dignissimos qui enim eum.",
-        "Deleted": false,
-        "Rank": 311,
-        "Type": "ipsam",
-        "ColorBlock": 120,
-        "IconHint": "sed",
+        "Id": 853,
+        "Name": "Blanda, Windler and Hodkiewicz",
+        "ToolTip": "Voluptas blanditiis consequatur dolorem itaque sed.",
+        "Deleted": true,
+        "Rank": 140,
+        "Type": "id",
+        "ColorBlock": 344,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2016-09-18T11:44:43.0075335+02:00",
+        "LastChanged": "2009-09-16T11:16:14.5276742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Maddison Hahn"
+        "ExtraInfo": "atque",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Avery Bergstrom"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Emile Prosacco"
+    "ExtraInfo": "fugit",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Casandra Rogahn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Becker, Hermann and Wuckert",
-    "ToolTip": "Totam quisquam asperiores velit vel quia nobis aut.",
-    "Deleted": true,
-    "Rank": 244,
-    "Type": "ipsum",
-    "ColorBlock": 40,
-    "IconHint": "ipsum",
+    "Id": 788,
+    "Name": "Quitzon-Bode",
+    "ToolTip": "Repudiandae natus nesciunt dolore rerum.",
+    "Deleted": false,
+    "Rank": 96,
+    "Type": "repellendus",
+    "ColorBlock": 591,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2011-11-16T11:44:43.0075335+01:00",
+    "LastChanged": "2011-11-15T11:16:14.5276742+01:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Williamson Group",
-        "ToolTip": "Ipsam pariatur autem modi dignissimos omnis eos.",
-        "Deleted": true,
-        "Rank": 641,
-        "Type": "hic",
-        "ColorBlock": 589,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "1996-12-04T11:44:43.0075335+01:00",
+        "Id": 866,
+        "Name": "Reinger-Becker",
+        "ToolTip": "Numquam atque saepe.",
+        "Deleted": false,
+        "Rank": 790,
+        "Type": "quia",
+        "ColorBlock": 444,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2015-10-26T11:16:14.5276742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
+        "ExtraInfo": "recusandae",
         "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Ollie Stamm IV",
+        "FullName": "Prof. Jody West II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 831
+            "FieldType": "System.Int32",
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "et",
+    "ExtraInfo": "ea",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mrs. Kurtis Darrick Lubowitz",
+    "FullName": "Alysa Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 728
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Hoeger, Mante and Gottlieb",
-    "ToolTip": "Corrupti fuga pariatur assumenda necessitatibus laudantium aut assumenda.",
-    "Deleted": false,
-    "Rank": 861,
-    "Type": "laudantium",
-    "ColorBlock": 982,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2021-10-03T11:44:43.3668335+02:00",
+    "Id": 678,
+    "Name": "Kshlerin, Waters and Quigley",
+    "ToolTip": "Harum id officiis voluptates doloremque.",
+    "Deleted": true,
+    "Rank": 296,
+    "Type": "sit",
+    "ColorBlock": 318,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2005-04-19T11:16:14.8401403+02:00",
     "ChildItems": [
       {
-        "Id": 681,
-        "Name": "Barrows, Nitzsche and Weber",
-        "ToolTip": "Eligendi quo.",
-        "Deleted": false,
-        "Rank": 670,
-        "Type": "labore",
-        "ColorBlock": 632,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2020-11-23T11:44:43.3668335+01:00",
+        "Id": 993,
+        "Name": "Waters Group",
+        "ToolTip": "Eligendi doloremque.",
+        "Deleted": true,
+        "Rank": 103,
+        "Type": "magni",
+        "ColorBlock": 597,
+        "IconHint": "explicabo",
+        "Selected": false,
+        "LastChanged": "2000-04-13T11:16:14.8401403+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Mr. Deonte Jackie Klein",
+        "ExtraInfo": "non",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Cedrick Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 997
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "sit",
+    "ExtraInfo": "similique",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Prof. Millie Adams I",
+    "FullName": "Alta Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 463
       }
     }
   }

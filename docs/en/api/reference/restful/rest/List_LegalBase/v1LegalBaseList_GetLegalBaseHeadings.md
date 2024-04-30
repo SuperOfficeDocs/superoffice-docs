@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 55,
-    "Name": "Brekke Inc and Sons",
-    "Tooltip": "id",
+    "HeadingId": 727,
+    "Name": "Medhurst, Yundt and Stroman",
+    "Tooltip": "necessitatibus",
     "Deleted": true,
-    "Rank": 295,
-    "UdListDefinitionId": 779,
+    "Rank": 64,
+    "UdListDefinitionId": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 637
       }
     }
   }

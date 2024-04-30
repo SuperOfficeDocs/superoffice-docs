@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Fritsch Inc and Sons",
-  "Tooltip": "earum",
+  "Id": 594,
+  "Name": "Keeling, Roberts and Altenwerth",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 867,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perferendis",
+  "Rank": 952,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   },
   "_Links": {

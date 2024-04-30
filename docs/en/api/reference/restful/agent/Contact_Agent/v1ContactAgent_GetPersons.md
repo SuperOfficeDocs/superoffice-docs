@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 903
+  "ContactId": 77
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "officiis",
-    "PersonId": 656,
-    "Mrmrs": "assumenda",
-    "Firstname": "Rene",
-    "Lastname": "Littel",
-    "MiddleName": "Senger, Ratke and Hintz",
-    "Title": "dolores",
-    "Description": "Pre-emptive dynamic moratorium",
-    "Email": "mafalda@schillernienow.name",
-    "FullName": "Assunta Schuppe",
-    "DirectPhone": "(232)451-6916 x0706",
-    "FormalName": "Hudson Inc and Sons",
-    "CountryId": 277,
-    "ContactId": 850,
-    "ContactName": "Shanahan-Koelpin",
-    "Retired": 697,
-    "Rank": 186,
-    "ActiveInterests": 276,
+    "Position": "ut",
+    "PersonId": 724,
+    "Mrmrs": "autem",
+    "Firstname": "Nils",
+    "Lastname": "Shields",
+    "MiddleName": "Yost, Roberts and Smitham",
+    "Title": "et",
+    "Description": "Versatile executive concept",
+    "Email": "kathlyn_stehr@friesen.com",
+    "FullName": "Diego Ruecker",
+    "DirectPhone": "872-648-9313 x552",
+    "FormalName": "Weber, Greenholt and Cassin",
+    "CountryId": 477,
+    "ContactId": 70,
+    "ContactName": "Rau, Brekke and Schuppe",
+    "Retired": 769,
+    "Rank": 723,
+    "ActiveInterests": 534,
     "ContactDepartment": "",
-    "ContactCountryId": 818,
-    "ContactOrgNr": "820249",
-    "FaxPhone": "1-314-745-5370 x23813",
-    "MobilePhone": "148-479-3449",
-    "ContactPhone": "799-396-1713",
-    "AssociateName": "Hilpert, Skiles and Denesik",
-    "AssociateId": 233,
-    "UsePersonAddress": false,
-    "ContactFax": "reiciendis",
-    "Kanafname": "enim",
-    "Kanalname": "inventore",
-    "Post1": "eius",
-    "Post2": "nam",
-    "Post3": "soluta",
-    "EmailName": "leon.gusikowski@strosin.ca",
-    "ContactFullName": "Grant Herman",
-    "ActiveErpLinks": 668,
-    "TicketPriorityId": 72,
-    "SupportLanguageId": 128,
-    "SupportAssociateId": 391,
+    "ContactCountryId": 413,
+    "ContactOrgNr": "884792",
+    "FaxPhone": "(410)252-8766 x001",
+    "MobilePhone": "1-257-658-3777",
+    "ContactPhone": "1-401-875-4162 x43294",
+    "AssociateName": "Hansen, Shields and Spinka",
+    "AssociateId": 925,
+    "UsePersonAddress": true,
+    "ContactFax": "voluptatum",
+    "Kanafname": "ut",
+    "Kanalname": "vero",
+    "Post1": "cum",
+    "Post2": "est",
+    "Post3": "dolorem",
+    "EmailName": "alana.steuber@ledner.uk",
+    "ContactFullName": "Prof. Declan Littel Sr.",
+    "ActiveErpLinks": 453,
+    "TicketPriorityId": 149,
+    "SupportLanguageId": 342,
+    "SupportAssociateId": 628,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

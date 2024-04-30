@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolorem",
+  "SaleText": "totam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-11-12T11:44:42.4607825+01:00",
-  "Amount": 6089.362,
-  "SaleId": 428,
-  "Earning": 5164.8319999999994,
-  "EarningPercent": 463.832,
-  "Heading": "quidem",
-  "Number": "1586646",
-  "Probability": 888,
-  "CreatedDate": "2009-03-14T11:44:42.4607825+01:00",
-  "UpdatedDate": "2001-04-22T11:44:42.4607825+02:00",
+  "Saledate": "2000-07-26T11:16:14.1847014+02:00",
+  "Amount": 30578.438,
+  "SaleId": 775,
+  "Earning": 332.204,
+  "EarningPercent": 17230.732,
+  "Heading": "veniam",
+  "Number": "1598118",
+  "Probability": 816,
+  "CreatedDate": "2022-10-04T11:16:14.1847014+02:00",
+  "UpdatedDate": "2010-03-12T11:16:14.1847014+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 702,
+  "ActiveLinks": 698,
   "Links": [
     {
-      "EntityName": "Ebert Inc and Sons",
-      "Id": 484,
-      "Description": "Triple-buffered uniform challenge",
-      "ExtraInfo": "dolor",
-      "LinkId": 658
+      "EntityName": "Dooley LLC",
+      "Id": 767,
+      "Description": "Customer-focused zero defect workforce",
+      "ExtraInfo": "distinctio",
+      "LinkId": 493
     },
     {
-      "EntityName": "Ebert Inc and Sons",
-      "Id": 484,
-      "Description": "Triple-buffered uniform challenge",
-      "ExtraInfo": "dolor",
-      "LinkId": 658
+      "EntityName": "Dooley LLC",
+      "Id": 767,
+      "Description": "Customer-focused zero defect workforce",
+      "ExtraInfo": "distinctio",
+      "LinkId": 493
     }
   ],
-  "NextDueDate": "2013-01-21T11:44:42.4607825+01:00",
-  "Postit": "provident",
+  "NextDueDate": "2010-12-29T11:16:14.1847014+01:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-09-21T11:44:42.4607825+02:00",
+  "ReopenDate": "2004-05-06T11:16:14.1847014+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Orn-O'Reilly",
-      "Comment": "nemo",
-      "StakeholderRoleId": 237,
-      "CountryId": 222,
-      "PersonId": 610,
-      "EmailDescription": "gerardo_cronin@jones.name",
-      "EmailId": 928,
-      "EmailAddress": "kaitlyn.roob@willms.com",
-      "PhoneId": 924,
-      "ContactName": "Walsh-Breitenberg",
-      "ContactId": 940,
-      "SaleId": 789,
-      "Mrmrs": "voluptatibus",
-      "Firstname": "Cade",
-      "MiddleName": "Fay-Zemlak",
-      "Lastname": "Fadel",
-      "SaleStakeholderId": 688,
-      "Rank": 501,
-      "Phone": "380.727.3219"
+      "StakeholderRoleName": "Buckridge, Schinner and O'Connell",
+      "Comment": "dicta",
+      "StakeholderRoleId": 907,
+      "CountryId": 591,
+      "PersonId": 764,
+      "EmailDescription": "jose@bayernienow.biz",
+      "EmailId": 259,
+      "EmailAddress": "johnathan.stracke@dicki.co.uk",
+      "PhoneId": 569,
+      "ContactName": "Hagenes Inc and Sons",
+      "ContactId": 697,
+      "SaleId": 867,
+      "Mrmrs": "non",
+      "Firstname": "Reyes",
+      "MiddleName": "Roberts Inc and Sons",
+      "Lastname": "Marks",
+      "SaleStakeholderId": 536,
+      "Rank": 869,
+      "Phone": "699.544.1227 x5274"
     }
   ],
-  "ActiveErpLinks": 475,
+  "ActiveErpLinks": 635,
   "UserDefinedFields": {
-    "SuperOffice:1": "Valentin Champlin",
-    "SuperOffice:2": "Americo Nicolas"
+    "SuperOffice:1": "Ms. Gideon Wiegand III",
+    "SuperOffice:2": "Mrs. Golda Cummerata"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "enim"
+    "CustomFields1": "eum",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2005-05-14T11:44:42.4607825+02:00",
-  "PublishTo": "2020-05-28T11:44:42.4607825+02:00",
-  "PublishFrom": "2004-07-31T11:44:42.4607825+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-11-13T11:16:14.1853181+01:00",
+  "PublishTo": "2002-08-30T11:16:14.1853181+02:00",
+  "PublishFrom": "2007-07-15T11:16:14.1853181+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 378,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "enim"
     },
     {
-      "VisibleId": 378,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "enim"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-06-30T11:44:42.476412+02:00",
-  "Amount": 29945.37,
-  "SaleId": 483,
-  "Earning": 1902.338,
-  "EarningPercent": 15350.332,
-  "Heading": "repellendus",
-  "Number": "855032",
-  "Probability": 919,
-  "CreatedDate": "2019-11-02T11:44:42.476412+01:00",
-  "UpdatedDate": "2014-04-05T11:44:42.476412+02:00",
+  "Saledate": "2013-07-16T11:16:14.1879507+02:00",
+  "Amount": 27450.706,
+  "SaleId": 227,
+  "Earning": 26454.093999999997,
+  "EarningPercent": 4914.112,
+  "Heading": "et",
+  "Number": "1611912",
+  "Probability": 377,
+  "CreatedDate": "1997-02-06T11:16:14.1879507+01:00",
+  "UpdatedDate": "2018-12-13T11:16:14.1879507+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 787,
+  "ActiveLinks": 819,
   "Links": [
     {
-      "EntityName": "Kiehn Inc and Sons",
-      "Id": 426,
-      "Description": "Synergized upward-trending project",
-      "ExtraInfo": "non",
-      "LinkId": 959,
+      "EntityName": "Corkery-Roob",
+      "Id": 396,
+      "Description": "Expanded heuristic productivity",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 858,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 59
         }
       }
     }
   ],
-  "NextDueDate": "2005-04-09T11:44:42.476412+02:00",
-  "Postit": "mollitia",
+  "NextDueDate": "2007-02-16T11:16:14.1879507+01:00",
+  "Postit": "facilis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-08-08T11:44:42.476412+02:00",
+  "ReopenDate": "2005-11-14T11:16:14.1879507+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lehner-Howell",
-      "Comment": "architecto",
-      "StakeholderRoleId": 399,
-      "CountryId": 818,
-      "PersonId": 247,
-      "EmailDescription": "tom@quitzonrenner.uk",
-      "EmailId": 400,
-      "EmailAddress": "billie.thompson@hauck.biz",
-      "PhoneId": 635,
-      "ContactName": "O'Keefe, Stanton and Blanda",
-      "ContactId": 979,
-      "SaleId": 536,
-      "Mrmrs": "ut",
-      "Firstname": "Oral",
-      "MiddleName": "Pollich, Armstrong and Thompson",
-      "Lastname": "Wunsch",
-      "SaleStakeholderId": 522,
-      "Rank": 160,
-      "Phone": "1-310-854-5650 x7542",
+      "StakeholderRoleName": "Kautzer Group",
+      "Comment": "voluptates",
+      "StakeholderRoleId": 328,
+      "CountryId": 988,
+      "PersonId": 655,
+      "EmailDescription": "nola@weimannrowe.us",
+      "EmailId": 89,
+      "EmailAddress": "cynthia@murazik.co.uk",
+      "PhoneId": 280,
+      "ContactName": "Hessel, Krajcik and Block",
+      "ContactId": 152,
+      "SaleId": 867,
+      "Mrmrs": "quo",
+      "Firstname": "Raleigh",
+      "MiddleName": "Beahan, Ward and Ebert",
+      "Lastname": "Jacobs",
+      "SaleStakeholderId": 987,
+      "Rank": 679,
+      "Phone": "1-850-486-9728",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 234
         }
       }
     }
   ],
-  "ActiveErpLinks": 429,
+  "ActiveErpLinks": 984,
   "UserDefinedFields": {
-    "SuperOffice:1": "Gabe Davis II",
-    "SuperOffice:2": "Mr. Keara Noelia Smitham MD"
+    "SuperOffice:1": "524979371",
+    "SuperOffice:2": "Danny Kaela Runolfsson DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "totam",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2004-11-15T11:44:42.476412+01:00",
-  "PublishTo": "2015-04-19T11:44:42.476412+02:00",
-  "PublishFrom": "2010-03-16T11:44:42.476412+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-10-06T11:16:14.1879507+02:00",
+  "PublishTo": "2002-08-14T11:16:14.1879507+02:00",
+  "PublishFrom": "2011-11-05T11:16:14.1879507+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 766,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 136
         }
       }
     },
     {
-      "VisibleId": 766,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 136
         }
       }
     }
@@ -411,8 +411,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   },
   "_Links": {

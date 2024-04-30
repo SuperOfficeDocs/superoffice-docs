@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Kulas Group",
-  "Tooltip": "delectus",
-  "Deleted": false,
-  "UdListDefinitionId": 150,
-  "Rank": 295
+  "Id": 516,
+  "Name": "Feil-Reichert",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 923,
+  "Rank": 202
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Stark-Zulauf",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 731,
-  "Rank": 599,
+  "Id": 607,
+  "Name": "Carter, Gulgowski and Nolan",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 356,
+  "Rank": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 131
     }
   }
 }

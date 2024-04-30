@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "O'Reilly, Medhurst and Bartoletti",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 3,
-    "UdListDefinitionId": 214,
+    "HeadingId": 699,
+    "Name": "Murphy-Morar",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 966,
+    "UdListDefinitionId": 862,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 403
       }
     }
   }

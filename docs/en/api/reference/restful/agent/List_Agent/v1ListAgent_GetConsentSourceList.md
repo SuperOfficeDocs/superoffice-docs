@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 506,
-    "Name": "Turcotte-Boyer",
-    "Tooltip": "corrupti",
-    "Rank": 317,
-    "Key": "doloribus",
-    "MailTemplateId": 303,
-    "Deleted": false,
+    "ConsentSourceId": 38,
+    "Name": "Marvin, Monahan and Bayer",
+    "Tooltip": "facilis",
+    "Rank": 834,
+    "Key": "quo",
+    "MailTemplateId": 362,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 36
       }
     }
   }

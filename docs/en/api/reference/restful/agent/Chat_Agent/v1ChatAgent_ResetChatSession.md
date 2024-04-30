@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 92
+  "ChatSessionId": 774
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 468,
-  "TopicId": 549,
+  "ChatSessionId": 229,
+  "TopicId": 842,
   "User": null,
   "Person": null,
-  "CustomerAlias": "architecto",
-  "CustomerHost": "nam",
-  "CustomerName": "Kerluke Inc and Sons",
-  "CustomerEmail": "haleigh.bahringer@nitzschehand.ca",
-  "CustomerPhone": "181-056-6317 x3448",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "magnam",
+  "CustomerName": "Huel-Carroll",
+  "CustomerEmail": "rhea_lang@corwinprohaska.biz",
+  "CustomerPhone": "1-333-744-0972 x451",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bradtke Group",
+  "CustomerCompanyName": "Senger-Kessler",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "eum",
-  "WhenRequested": "2014-02-24T11:44:32.9629886+01:00",
-  "WhenStarted": "1998-07-05T11:44:32.9629886+02:00",
-  "WhenEnded": "2009-06-20T11:44:32.9629886+02:00",
-  "WhenIdle": "2010-11-11T11:44:32.9629886+01:00",
-  "WhenFetched": "1997-12-18T11:44:32.9629886+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 22,
-  "AlertLevel": 725,
-  "Rank": 115,
+  "FirstMessage": "blanditiis",
+  "LastMessage": "officiis",
+  "WhenRequested": "2013-08-01T11:16:08.8191018+02:00",
+  "WhenStarted": "2000-12-21T11:16:08.8191018+01:00",
+  "WhenEnded": "2015-04-22T11:16:08.8191018+02:00",
+  "WhenIdle": "2008-06-18T11:16:08.8191018+02:00",
+  "WhenFetched": "2010-02-11T11:16:08.8191018+01:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 121,
+  "AlertLevel": 189,
+  "Rank": 546,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 271,
+  "Rating": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

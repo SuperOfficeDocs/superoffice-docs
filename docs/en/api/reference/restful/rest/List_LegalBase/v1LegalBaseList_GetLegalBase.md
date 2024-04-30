@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 507,
-  "Name": "Gutmann LLC",
-  "Tooltip": "ullam",
-  "Rank": 563,
-  "Key": "dolorem",
-  "Deleted": true,
+  "LegalBaseId": 419,
+  "Name": "Monahan Inc and Sons",
+  "Tooltip": "omnis",
+  "Rank": 680,
+  "Key": "quo",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

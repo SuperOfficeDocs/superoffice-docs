@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Volkman-Rosenbaum",
-    "ToolTip": "Delectus quasi eveniet perferendis hic sint molestiae et.",
+    "Id": 369,
+    "Name": "Schroeder-Hayes",
+    "ToolTip": "Fuga laboriosam dolor dolor eius rerum.",
     "Deleted": true,
-    "Rank": 584,
-    "Type": "magnam",
-    "ColorBlock": 894,
-    "IconHint": "et",
+    "Rank": 503,
+    "Type": "possimus",
+    "ColorBlock": 360,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2020-04-17T11:44:43.2731075+02:00",
+    "LastChanged": "2007-05-01T11:16:14.6839019+02:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Block Group",
-        "ToolTip": "Minus quod consequatur architecto eaque modi.",
-        "Deleted": true,
-        "Rank": 3,
-        "Type": "deserunt",
-        "ColorBlock": 542,
-        "IconHint": "voluptate",
+        "Id": 328,
+        "Name": "Lubowitz-Howe",
+        "ToolTip": "Ea qui est illum illum.",
+        "Deleted": false,
+        "Rank": 613,
+        "Type": "quo",
+        "ColorBlock": 172,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-01-30T11:44:43.2731075+01:00",
+        "LastChanged": "2017-11-07T11:16:14.6839019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Else Aaron Hackett V",
+        "ExtraInfo": "neque",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Hayden Aurelia Leannon Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "vero",
+    "ExtraInfo": "officiis",
+    "StyleHint": "porro",
     "Hidden": false,
-    "FullName": "Alvah Flatley",
+    "FullName": "Prof. Athena Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 248
       }
     }
   }

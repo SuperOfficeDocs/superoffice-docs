@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hartmann-Hammes",
-  "DeviceName": "Fisher Inc and Sons",
-  "DeviceIdentifier": "omnis",
+  "ApplicationName": "Jast Inc and Sons",
+  "DeviceName": "Ward-Lemke",
+  "DeviceIdentifier": "consectetur",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 822,
-  "Name": "Balistreri-Stokes",
-  "CreatedDate": "1997-10-21T11:44:33.7596833+02:00",
-  "UpdatedDate": "2004-07-06T11:44:33.7596833+02:00",
-  "AssociateFullName": "Rosella Mayert",
-  "CreatedBy": "quod",
-  "UpdatedBy": "aliquam",
-  "DeviceIdentifier": "mollitia",
-  "ForeignAppId": 100,
+  "ForeignDeviceId": 926,
+  "Name": "Flatley, Kozey and Dooley",
+  "CreatedDate": "2011-05-18T11:16:09.2878404+02:00",
+  "UpdatedDate": "2016-12-14T11:16:09.2878404+01:00",
+  "AssociateFullName": "Carolina Towne",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "aspernatur",
+  "DeviceIdentifier": "aperiam",
+  "ForeignAppId": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 937
     }
   }
 }

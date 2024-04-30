@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Parisian, Gulgowski and Zboncak",
-    "ToolTip": "Neque ipsum.",
-    "Deleted": false,
-    "Rank": 352,
-    "Type": "fuga",
-    "ColorBlock": 671,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2019-12-21T11:44:42.9607018+01:00",
+    "Id": 113,
+    "Name": "Bashirian, Mertz and Schiller",
+    "ToolTip": "Voluptatem commodi quam.",
+    "Deleted": true,
+    "Rank": 888,
+    "Type": "ducimus",
+    "ColorBlock": 424,
+    "IconHint": "error",
+    "Selected": false,
+    "LastChanged": "2008-10-27T11:16:14.4964233+01:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Kunde Group",
-        "ToolTip": "Tempora doloribus at hic ipsam consectetur et.",
+        "Id": 923,
+        "Name": "Klocko-Pouros",
+        "ToolTip": "Et odio tempora vitae illum atque quas.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "saepe",
-        "ColorBlock": 573,
-        "IconHint": "ullam",
+        "Rank": 829,
+        "Type": "praesentium",
+        "ColorBlock": 11,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "1997-01-26T11:44:42.9607018+01:00",
+        "LastChanged": "2001-02-09T11:16:14.4964233+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Neha Trantow"
+        "ExtraInfo": "porro",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Derek Kling"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "vel",
+    "ExtraInfo": "totam",
+    "StyleHint": "inventore",
     "Hidden": true,
-    "FullName": "Chaim Anderson"
+    "FullName": "Lindsay Rollin Cronin DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Torphy-Corkery",
-    "ToolTip": "Debitis pariatur ullam cum minus expedita.",
-    "Deleted": true,
-    "Rank": 273,
-    "Type": "illum",
-    "ColorBlock": 681,
-    "IconHint": "quia",
+    "Id": 553,
+    "Name": "Borer-Howell",
+    "ToolTip": "Quo quia.",
+    "Deleted": false,
+    "Rank": 541,
+    "Type": "suscipit",
+    "ColorBlock": 784,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2006-08-03T11:44:42.9607018+02:00",
+    "LastChanged": "2019-05-16T11:16:14.4964233+02:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Kub, Lynch and Dach",
-        "ToolTip": "Nihil quos id voluptatem.",
-        "Deleted": false,
-        "Rank": 598,
-        "Type": "perspiciatis",
-        "ColorBlock": 91,
-        "IconHint": "labore",
+        "Id": 520,
+        "Name": "Prohaska-Lemke",
+        "ToolTip": "Ipsa accusamus veritatis dolorem quis.",
+        "Deleted": true,
+        "Rank": 798,
+        "Type": "occaecati",
+        "ColorBlock": 864,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2011-09-15T11:44:42.9607018+02:00",
+        "LastChanged": "2013-07-10T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ut",
+        "ExtraInfo": "omnis",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Prof. Haven Rolando Schultz Sr.",
+        "FullName": "Chance Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldType": "System.String",
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "sit",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Favian McDermott Sr.",
+    "FullName": "Kirstin Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldLength": 204
       }
     }
   }

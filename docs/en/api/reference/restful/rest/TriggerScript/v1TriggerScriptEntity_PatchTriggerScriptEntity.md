@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "laboriosam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "laboriosam",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 219,
-  "Name": "Shields Group",
+  "ScreenChooserId": 72,
+  "Name": "Gerhold, Kassulke and Hackett",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "provident",
-  "Registered": "2022-06-14T11:44:42.6951171+02:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2003-09-13T11:44:42.6951171+02:00",
-  "UpdatedAssociateId": 730,
+  "Enabled": true,
+  "UniqueIdentifier": "ut",
+  "Source": "saepe",
+  "Registered": "2019-10-07T11:16:14.3398362+02:00",
+  "RegisteredAssociateId": 222,
+  "Updated": "1997-07-17T11:16:14.3398362+02:00",
+  "UpdatedAssociateId": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   },
   "_Links": {

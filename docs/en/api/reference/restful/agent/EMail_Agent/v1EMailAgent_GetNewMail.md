@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    339,
-    169
+    406,
+    424
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 280,
-    "MessageId": "sit",
-    "Subject": "molestiae",
+    "ServerId": 155,
+    "MessageId": "nisi",
+    "Subject": "vitae",
     "From": null,
     "To": [
       {
-        "ContactId": 411,
-        "ContactName": "Rolfson Group",
-        "PersonId": 340,
-        "PersonName": "Shields-Friesen",
-        "AssociateId": 391,
-        "Address": "officia",
-        "EmailId": 301,
+        "ContactId": 633,
+        "ContactName": "Sawayn-Torphy",
+        "PersonId": 328,
+        "PersonName": "Schmidt Group",
+        "AssociateId": 405,
+        "Address": "aliquam",
+        "EmailId": 838,
         "DuplicatePersonIds": [
-          940,
-          657
+          378,
+          769
         ],
-        "Name": "Berge Group",
+        "Name": "Greenholt Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 778
           }
         }
       }
     ],
-    "Sent": "2002-10-26T11:44:33.5878385+02:00",
+    "Sent": "2018-12-21T11:16:09.1784746+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 229,
+    "Size": 241,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

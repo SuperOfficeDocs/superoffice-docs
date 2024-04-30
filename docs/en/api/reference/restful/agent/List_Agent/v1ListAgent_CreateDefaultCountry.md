@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 133,
-  "Name": "Yundt Group",
-  "CurrencyId": 139,
-  "EnglishName": "Aufderhar, Moore and Gerhold",
+  "CountryId": 985,
+  "Name": "Lueilwitz, Gulgowski and Wyman",
+  "CurrencyId": 75,
+  "EnglishName": "Grady, Stoltenberg and Bednar",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Phased regional artificial intelligence",
-  "OrgNrText": "1502090",
-  "InterAreaPrefix": "amet",
-  "DialInPrefix": "delectus",
-  "ZipPrefix": "explicabo",
-  "DomainName": "Lowe-Schmidt",
-  "AddressLayoutId": 882,
-  "DomesticAddressLayoutId": 999,
-  "ForeignAddressLayoutId": 799,
-  "Rank": 937,
-  "Tooltip": "aliquid",
-  "Deleted": true,
+  "ImageDescription": "Multi-tiered maximized system engine",
+  "OrgNrText": "404345",
+  "InterAreaPrefix": "consectetur",
+  "DialInPrefix": "officia",
+  "ZipPrefix": "et",
+  "DomainName": "Mayer Group",
+  "AddressLayoutId": 342,
+  "DomesticAddressLayoutId": 868,
+  "ForeignAddressLayoutId": 163,
+  "Rank": 203,
+  "Tooltip": "dolorem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Casper Group",
-  "DeviceName": "Balistreri-Kiehn",
-  "DeviceIdentifier": "alias",
-  "KeyName": "Nicolas-Mayer",
-  "TableName": "Farrell, Bernhard and Bogan",
-  "RecordId": 719
+  "ApplicationName": "Gaylord Group",
+  "DeviceName": "Berge-Roob",
+  "DeviceIdentifier": "perferendis",
+  "KeyName": "Grady-Gleichner",
+  "TableName": "Schmeler-McGlynn",
+  "RecordId": 12
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "hic",
-  "Value": "blanditiis",
-  "RecordId": 6,
-  "CreatedDate": "2011-02-08T11:44:33.7596833+01:00",
-  "UpdatedDate": "2010-02-17T11:44:33.7596833+01:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "aperiam",
-  "TableName": "Hilll LLC",
+  "Key": "repellat",
+  "Value": "ducimus",
+  "RecordId": 43,
+  "CreatedDate": "2000-07-27T11:16:09.2878404+02:00",
+  "UpdatedDate": "2013-01-24T11:16:09.2878404+01:00",
+  "UpdatedBy": "cupiditate",
+  "CreatedBy": "quisquam",
+  "TableName": "Beahan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 838
     }
   }
 }

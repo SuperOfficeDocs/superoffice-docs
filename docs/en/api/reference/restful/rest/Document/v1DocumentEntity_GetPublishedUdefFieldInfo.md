@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 236,
-  "ColumnId": 567,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 674,
-  "FieldLabel": "nemo",
-  "FieldLeft": 140,
-  "FieldTop": 759,
+  "UDefFieldId": 674,
+  "ColumnId": 82,
+  "FieldDefault": "at",
+  "FieldHeight": 552,
+  "FieldLabel": "ut",
+  "FieldLeft": 762,
+  "FieldTop": 864,
   "FieldType": "Checkbox",
-  "FieldWidth": 510,
-  "FormatMask": "distinctio",
+  "FieldWidth": 142,
+  "FormatMask": "quia",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 413,
-  "LabelLeft": 607,
-  "LabelTop": 346,
-  "LabelWidth": 629,
-  "LastVersionId": 164,
-  "ListTableId": 55,
+  "LabelHeight": 889,
+  "LabelLeft": 347,
+  "LabelTop": 16,
+  "LabelWidth": 747,
+  "LastVersionId": 675,
+  "ListTableId": 446,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 27,
-  "ProgId": "autem",
+  "Page1LineNo": 503,
+  "ProgId": "illum",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 621,
-  "TextLength": 651,
-  "Tooltip": "at",
-  "UdefIdentity": 589,
-  "UDListDefinitionId": 327,
+  "ShortLabel": "maiores",
+  "TabOrder": 196,
+  "TextLength": 662,
+  "Tooltip": "incidunt",
+  "UdefIdentity": 915,
+  "UDListDefinitionId": 188,
   "Justification": "Center",
-  "Version": 100,
-  "TemplateVariableName": "Cruickshank, Becker and Frami",
-  "HasBeenPublished": true,
-  "MdoListName": "Breitenberg Inc and Sons",
+  "Version": 293,
+  "TemplateVariableName": "Crist, Walsh and Collins",
+  "HasBeenPublished": false,
+  "MdoListName": "Smitham, Stroman and Beatty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 322
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=et
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Bashirian-Hickle",
-    "ToolTip": "Modi minima consequatur.",
-    "Deleted": false,
-    "Rank": 417,
-    "Type": "distinctio",
+    "Id": 73,
+    "Name": "Reinger Inc and Sons",
+    "ToolTip": "Officia molestiae porro cumque omnis magnam facilis.",
+    "Deleted": true,
+    "Rank": 687,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Ankunding-Bogisich",
-        "ToolTip": "Temporibus possimus.",
+        "Id": 629,
+        "Name": "Kerluke-Becker",
+        "ToolTip": "Soluta molestiae dolorem nihil ut tempora fugit.",
         "Deleted": false,
-        "Rank": 921,
-        "Type": "sed",
+        "Rank": 274,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 833,
-        "ExtraInfo": "vero",
-        "StyleHint": "quod",
-        "FullName": "Raymond Pollich",
+        "IconHint": "amet",
+        "ColorBlock": 761,
+        "ExtraInfo": "vel",
+        "StyleHint": "pariatur",
+        "FullName": "Ms. Heidi Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldType": "System.String",
+            "FieldLength": 883
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 751,
-    "ExtraInfo": "earum",
-    "StyleHint": "nihil",
-    "FullName": "Allan Grady DVM",
+    "IconHint": "modi",
+    "ColorBlock": 958,
+    "ExtraInfo": "et",
+    "StyleHint": "nemo",
+    "FullName": "Ricardo Wehner Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldType": "System.Int32",
+        "FieldLength": 915
       }
     }
   }

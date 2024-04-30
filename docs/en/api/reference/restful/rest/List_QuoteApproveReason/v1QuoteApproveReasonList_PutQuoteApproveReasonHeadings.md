@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 652,
-    "Name": "Collins, Auer and Koss",
-    "Tooltip": "dolorum",
+    "HeadingId": 631,
+    "Name": "Deckow LLC",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 692,
-    "UdListDefinitionId": 839
+    "Rank": 70,
+    "UdListDefinitionId": 656
   },
   {
-    "HeadingId": 652,
-    "Name": "Collins, Auer and Koss",
-    "Tooltip": "dolorum",
+    "HeadingId": 631,
+    "Name": "Deckow LLC",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 692,
-    "UdListDefinitionId": 839
+    "Rank": 70,
+    "UdListDefinitionId": 656
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "O'Connell Inc and Sons",
-    "Tooltip": "laborum",
+    "HeadingId": 389,
+    "Name": "Kuphal, Collins and Kunde",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 398,
-    "UdListDefinitionId": 750,
+    "Rank": 996,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 968
       }
     }
   }

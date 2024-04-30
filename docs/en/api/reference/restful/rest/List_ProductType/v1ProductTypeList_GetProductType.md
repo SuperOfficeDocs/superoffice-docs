@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Name": "Schulist-Watsica",
-  "Tooltip": "consectetur",
-  "Deleted": true,
-  "UdListDefinitionId": 116,
-  "Rank": 31,
+  "Id": 808,
+  "Name": "Pfannerstill-Friesen",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "UdListDefinitionId": 87,
+  "Rank": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   }
 }

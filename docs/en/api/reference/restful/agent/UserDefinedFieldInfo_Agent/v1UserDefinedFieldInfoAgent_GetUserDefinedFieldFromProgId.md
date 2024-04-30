@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolore",
+  "ProgId": "in",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 546,
-  "ColumnId": 564,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 179,
-  "FieldLabel": "qui",
-  "FieldLeft": 648,
-  "FieldTop": 942,
+  "UDefFieldId": 723,
+  "ColumnId": 255,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 467,
+  "FieldLabel": "provident",
+  "FieldLeft": 574,
+  "FieldTop": 280,
   "FieldType": "Checkbox",
-  "FieldWidth": 617,
-  "FormatMask": "doloribus",
+  "FieldWidth": 173,
+  "FormatMask": "sapiente",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 224,
-  "LabelLeft": 108,
-  "LabelTop": 80,
-  "LabelWidth": 951,
-  "LastVersionId": 672,
-  "ListTableId": 814,
+  "IsIndexed": false,
+  "LabelHeight": 654,
+  "LabelLeft": 389,
+  "LabelTop": 16,
+  "LabelWidth": 768,
+  "LastVersionId": 405,
+  "ListTableId": 645,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 666,
-  "ProgId": "quia",
+  "Page1LineNo": 339,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "dolor",
-  "TabOrder": 256,
-  "TextLength": 487,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 754,
-  "UDListDefinitionId": 470,
+  "ShortLabel": "quia",
+  "TabOrder": 225,
+  "TextLength": 465,
+  "Tooltip": "sed",
+  "UdefIdentity": 397,
+  "UDListDefinitionId": 782,
   "Justification": "Center",
-  "Version": 744,
-  "TemplateVariableName": "Krajcik Inc and Sons",
+  "Version": 750,
+  "TemplateVariableName": "Kerluke LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Bernhard-Herman",
+  "MdoListName": "Von, Bednar and Padberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 9
     }
   }
 }

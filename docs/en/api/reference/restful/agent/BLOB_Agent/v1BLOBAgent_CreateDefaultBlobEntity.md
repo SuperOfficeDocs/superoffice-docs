@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 46,
-  "BlobSize": 546,
-  "Description": "Versatile system-worthy focus group",
-  "ExtraInfo": "optio",
+  "BlobId": 906,
+  "BlobSize": 416,
+  "Description": "Future-proofed bottom-line model",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 410,
-  "CreatedDate": "2021-08-19T11:44:32.822391+02:00",
-  "UpdatedDate": "2012-08-28T11:44:32.822391+02:00",
+  "MimeType": "deserunt",
+  "OriginalSize": 994,
+  "CreatedDate": "2024-03-26T11:16:08.7410229+01:00",
+  "UpdatedDate": "2012-05-13T11:16:08.7410229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsa",
+  "ConceptualType": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

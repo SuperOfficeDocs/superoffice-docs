@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Howell Group",
-  "Id": 492
+  "ListName": "Ankunding-Hessel",
+  "Id": 738
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Ernser, Schiller and Hermann",
-  "ToolTip": "Repellendus pariatur in dolores repellendus.",
+  "Id": 272,
+  "Name": "Wyman, Gulgowski and Hyatt",
+  "ToolTip": "Et voluptatem perferendis expedita ex autem dolorem.",
   "Deleted": false,
-  "Rank": 928,
-  "Type": "est",
+  "Rank": 255,
+  "Type": "illum",
   "ChildItems": [
     {
-      "Id": 417,
-      "Name": "Auer-McClure",
-      "ToolTip": "Incidunt ipsa vel non voluptatem.",
+      "Id": 174,
+      "Name": "Batz LLC",
+      "ToolTip": "Occaecati beatae qui.",
       "Deleted": false,
-      "Rank": 215,
-      "Type": "ratione",
+      "Rank": 732,
+      "Type": "assumenda",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusamus",
-      "ColorBlock": 9,
-      "ExtraInfo": "occaecati",
-      "StyleHint": "error",
-      "FullName": "Bonnie Fadel",
+      "IconHint": "necessitatibus",
+      "ColorBlock": 634,
+      "ExtraInfo": "et",
+      "StyleHint": "quae",
+      "FullName": "Tom Ruecker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 549
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
   ],
-  "IconHint": "quibusdam",
-  "ColorBlock": 915,
-  "ExtraInfo": "sed",
-  "StyleHint": "nemo",
-  "FullName": "Mckenna Rogahn",
+  "IconHint": "harum",
+  "ColorBlock": 683,
+  "ExtraInfo": "sint",
+  "StyleHint": "est",
+  "FullName": "Eva Dicki I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   }
 }

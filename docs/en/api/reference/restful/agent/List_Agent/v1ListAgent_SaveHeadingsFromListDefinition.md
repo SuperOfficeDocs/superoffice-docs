@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 461,
+  "Id": 987,
   "Entities": [
     {
-      "HeadingId": 958,
-      "Name": "Sawayn Group",
-      "Tooltip": "eos",
-      "Deleted": false,
-      "Rank": 46,
-      "UdListDefinitionId": 774
+      "HeadingId": 913,
+      "Name": "Ortiz, Bartoletti and Ernser",
+      "Tooltip": "culpa",
+      "Deleted": true,
+      "Rank": 744,
+      "UdListDefinitionId": 349
     },
     {
-      "HeadingId": 958,
-      "Name": "Sawayn Group",
-      "Tooltip": "eos",
-      "Deleted": false,
-      "Rank": 46,
-      "UdListDefinitionId": 774
+      "HeadingId": 913,
+      "Name": "Ortiz, Bartoletti and Ernser",
+      "Tooltip": "culpa",
+      "Deleted": true,
+      "Rank": 744,
+      "UdListDefinitionId": 349
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 966,
-    "Name": "Keebler-Zemlak",
-    "Tooltip": "molestiae",
+    "HeadingId": 939,
+    "Name": "Kuvalis Inc and Sons",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 376,
-    "UdListDefinitionId": 575,
+    "Rank": 113,
+    "UdListDefinitionId": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 517
       }
     }
   }

@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 227,
+  "EjMessageId": 110,
   "Ticket": null,
-  "CreatedAt": "1999-10-18T11:44:42.6482467+02:00",
+  "CreatedAt": "2001-08-07T11:16:14.3085768+02:00",
   "CreatedBy": null,
-  "Author": "vitae",
+  "Author": "laboriosam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "distinctio",
-  "TimeSpent": 899,
-  "Body": "est",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "theresa_lubowitz@kohler.com",
-  "DebugInfo": "magni",
-  "MailSorter": "necessitatibus",
+  "MessageId": "incidunt",
+  "TimeSpent": 82,
+  "Body": "sed",
+  "HtmlBody": "fugiat",
+  "EmailHeader": "deanna@barrows.us",
+  "DebugInfo": "minus",
+  "MailSorter": "laboriosam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tenetur",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 345,
-      "Name": "Grady, Batz and Halvorson",
-      "Value": "tenetur",
+      "Id": 658,
+      "Name": "Paucek LLC",
+      "Value": "modi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 230
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "nisi",
-  "Sentiment": 496,
-  "SentimentConfidence": 489,
+  "Important": true,
+  "Language": "rem",
+  "Sentiment": 923,
+  "SentimentConfidence": 771,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 778,
-      "Name": "Durgan Inc and Sons",
-      "ContentType": "corrupti",
-      "AttSize": 392,
+      "AttachmentId": 491,
+      "Name": "Fahey, Muller and Waelchi",
+      "ContentType": "et",
+      "AttSize": 562,
       "InlineImage": false,
-      "ContentId": "nemo",
-      "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "ContentId": "at",
+      "AuthKey": "nisi",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 611
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Bradtke-Heathcote",
-    "ToolTip": "Necessitatibus ut eos deleniti itaque distinctio quo rerum.",
-    "Deleted": true,
-    "Rank": 671,
-    "Type": "eligendi",
-    "ColorBlock": 496,
-    "IconHint": "dignissimos",
-    "Selected": false,
-    "LastChanged": "2016-02-03T11:44:42.898184+01:00",
+    "Id": 417,
+    "Name": "Bernhard-Lehner",
+    "ToolTip": "Ut commodi consequatur aperiam aperiam reiciendis ut.",
+    "Deleted": false,
+    "Rank": 188,
+    "Type": "consequatur",
+    "ColorBlock": 263,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "1999-03-23T11:16:14.465178+01:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Stanton LLC",
-        "ToolTip": "Aut deserunt sit eveniet blanditiis ipsam magnam veritatis.",
-        "Deleted": false,
-        "Rank": 324,
-        "Type": "commodi",
-        "ColorBlock": 209,
-        "IconHint": "minus",
+        "Id": 128,
+        "Name": "Robel, Bode and Reichel",
+        "ToolTip": "Sunt quam.",
+        "Deleted": true,
+        "Rank": 197,
+        "Type": "dolores",
+        "ColorBlock": 600,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2002-11-20T11:44:42.898184+01:00",
+        "LastChanged": "2022-05-30T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Orie Lind"
+        "ExtraInfo": "et",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Porter Zboncak"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "et",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Amaya Camden Kozey IV"
+    "FullName": "Osborne Streich"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Von, Dooley and Von",
-    "ToolTip": "Sit vitae temporibus beatae est tenetur.",
-    "Deleted": true,
-    "Rank": 372,
-    "Type": "velit",
-    "ColorBlock": 397,
-    "IconHint": "impedit",
+    "Id": 628,
+    "Name": "Gleichner-Rutherford",
+    "ToolTip": "Voluptatem cumque.",
+    "Deleted": false,
+    "Rank": 334,
+    "Type": "ut",
+    "ColorBlock": 555,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2007-06-25T11:44:42.898184+02:00",
+    "LastChanged": "1998-10-27T11:16:14.465178+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Macejkovic-Runolfsson",
-        "ToolTip": "Totam at nostrum animi veritatis consectetur perspiciatis.",
+        "Id": 822,
+        "Name": "Blick-Rutherford",
+        "ToolTip": "Ratione omnis delectus sint et.",
         "Deleted": false,
-        "Rank": 497,
-        "Type": "quam",
-        "ColorBlock": 898,
-        "IconHint": "saepe",
+        "Rank": 143,
+        "Type": "deserunt",
+        "ColorBlock": 878,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2002-12-16T11:44:42.898184+01:00",
+        "LastChanged": "2005-07-31T11:16:14.465178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "dolor",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Susanna Koelpin",
+        "FullName": "Dr. Izaiah Demond Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 169
+            "FieldType": "System.Int32",
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Ms. Owen Carroll",
+    "ExtraInfo": "tempora",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Adriana Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldLength": 730
       }
     }
   }

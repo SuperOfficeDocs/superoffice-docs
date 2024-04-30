@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 879
+  "QuoteAlternativeId": 565
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 358,
-    "ERPQuoteLineKey": "sed",
-    "QuoteAlternativeId": 632,
-    "ERPProductKey": "nihil",
+    "QuoteLineId": 281,
+    "ERPQuoteLineKey": "cupiditate",
+    "QuoteAlternativeId": 878,
+    "ERPProductKey": "dolorem",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 28400.307999999997,
-    "DeliveredQuantity": 5312.13,
-    "Rank": 1001,
-    "Name": "Bartell, Schimmel and Mayer",
-    "Description": "Exclusive explicit forecast",
-    "Code": "alias",
-    "QuantityUnit": "nobis",
-    "PriceUnit": "eos",
-    "ItemNumber": "1399056",
+    "Quantity": 29657.041999999998,
+    "DeliveredQuantity": 7462.054,
+    "Rank": 290,
+    "Name": "Bergstrom, Towne and Rippin",
+    "Description": "Mandatory non-volatile circuit",
+    "Code": "ducimus",
+    "QuantityUnit": "aut",
+    "PriceUnit": "blanditiis",
+    "ItemNumber": "553972",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eaque",
-    "ProductTypeKey": "est",
-    "Supplier": "omnis",
-    "SupplierCode": "aut",
-    "Thumbnail": "illum",
-    "VATInfo": "aspernatur",
-    "VAT": 29653.908,
-    "UnitCost": 22555.398,
-    "UnitMinimumPrice": 9370.66,
-    "UnitListPrice": 16625.87,
+    "ProductFamilyKey": "provident",
+    "ProductTypeKey": "eum",
+    "Supplier": "consequatur",
+    "SupplierCode": "quasi",
+    "Thumbnail": "nulla",
+    "VATInfo": "qui",
+    "VAT": 13567.086,
+    "UnitCost": 28597.75,
+    "UnitMinimumPrice": 27491.448,
+    "UnitListPrice": 6236.66,
     "ExtraInfo": [
       {
-        "Name": "Bernhard-Hirthe",
-        "Value": "rem",
+        "Name": "Lockman-Jenkins",
+        "Value": "vel",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 65
           }
         }
       },
       {
-        "Name": "Bernhard-Hirthe",
-        "Value": "rem",
+        "Name": "Lockman-Jenkins",
+        "Value": "vel",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 65
           }
         }
       }
     ],
-    "RawExtraInfo": "consequatur",
+    "RawExtraInfo": "iusto",
     "IsSubscription": false,
-    "SubscriptionUnit": "qui",
-    "SubscriptionQuantity": 12783.586,
-    "SubscriptionStart": "1997-07-22T11:44:34.3063794+02:00",
-    "ERPDiscountPercent": 30788.415999999997,
-    "ERPDiscountAmount": 21167.036,
-    "DiscountPercent": 2290.9539999999997,
-    "DiscountAmount": 12626.886,
+    "SubscriptionUnit": "ea",
+    "SubscriptionQuantity": 1523.124,
+    "SubscriptionStart": "2011-06-08T11:16:09.6161411+02:00",
+    "ERPDiscountPercent": 22448.842,
+    "ERPDiscountAmount": 7756.65,
+    "DiscountPercent": 18478.064,
+    "DiscountAmount": 30456.212,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17951.552,
-    "EarningAmount": 15234.374,
-    "SubTotal": 24677.115999999998,
-    "TotalPrice": 16920.466,
-    "Rights": "laudantium",
-    "Rule": "animi",
-    "ExtraField1": "eligendi",
-    "ExtraField2": "eveniet",
-    "ExtraField3": "eveniet",
-    "ExtraField4": "et",
-    "ExtraField5": "minus",
+    "EarningPercent": 25645.522,
+    "EarningAmount": 14454.008,
+    "SubTotal": 7267.746,
+    "TotalPrice": 28177.793999999998,
+    "Rights": "laborum",
+    "Rule": "ipsum",
+    "ExtraField1": "sed",
+    "ExtraField2": "animi",
+    "ExtraField3": "unde",
+    "ExtraField4": "vel",
+    "ExtraField5": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 563
       }
     }
   }

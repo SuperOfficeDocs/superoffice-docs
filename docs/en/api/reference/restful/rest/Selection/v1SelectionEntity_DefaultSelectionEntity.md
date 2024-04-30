@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Jun 2012 11:44:42 G6T
+Last-Modified: Sat, 13 Jul 2002 11:16:14 G7T
 
 {
-  "Description": "Proactive optimal open system",
-  "Postit": "sequi",
+  "Description": "Re-contextualized transitional conglomeration",
+  "Postit": "dolor",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 97,
-  "IncludePerson": 107,
-  "MemberCount": 502,
-  "Name": "Larson LLC",
-  "PostitTextId": 661,
-  "CreatedDate": "2023-02-12T11:44:42.5076534+01:00",
-  "SelectionId": 599,
-  "SoundEx": "praesentium",
-  "Source": 512,
-  "TextId": 624,
-  "UpdatedDate": "2012-06-21T11:44:42.5076534+02:00",
-  "UpdatedCount": 625,
-  "Visibility": 819,
+  "GroupIdx": 726,
+  "IncludePerson": 425,
+  "MemberCount": 233,
+  "Name": "Becker-Abernathy",
+  "PostitTextId": 313,
+  "CreatedDate": "2009-12-09T11:16:14.2148007+01:00",
+  "SelectionId": 226,
+  "SoundEx": "ipsum",
+  "Source": 164,
+  "TextId": 365,
+  "UpdatedDate": "2002-07-13T11:16:14.2148007+02:00",
+  "UpdatedCount": 205,
+  "Visibility": 379,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 272,
-  "TargetTableName": "Fritsch-Satterfield",
-  "Completed": true,
-  "LeftSelectionId": 490,
-  "RightSelectionId": 900,
+  "TargetTableNumber": 460,
+  "TargetTableName": "Volkman Group",
+  "Completed": false,
+  "LeftSelectionId": 816,
+  "RightSelectionId": 974,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ernser-O'Hara",
-  "ShadowProviderName": "Lowe, Dickinson and Herman",
-  "ChartKey": "architecto",
-  "LastLoaded": "2022-09-18T11:44:42.5076534+02:00",
-  "LastLoadedBy": 402,
+  "MainProviderName": "Hane Inc and Sons",
+  "ShadowProviderName": "Mitchell Group",
+  "ChartKey": "tempore",
+  "LastLoaded": "2012-01-16T11:16:14.2148007+01:00",
+  "LastLoadedBy": 326,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-12-01T11:44:42.5076534+01:00",
-  "LastMembershipChangeBy": 711,
+  "LastMembershipChange": "2010-09-30T11:16:14.2148007+02:00",
+  "LastMembershipChangeBy": 946,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Ryan Inc and Sons",
-  "DashboardTileDefinitionId": 220,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Kilback, Gottlieb and Ward",
+  "DashboardTileDefinitionId": 61,
   "VisibleFor": [
     {
-      "VisibleId": 804,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldType": "System.Int32",
+          "FieldLength": 810
         }
       }
     },
     {
-      "VisibleId": 804,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldType": "System.Int32",
+          "FieldLength": 810
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Thu, 21 Jun 2012 11:44:42 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

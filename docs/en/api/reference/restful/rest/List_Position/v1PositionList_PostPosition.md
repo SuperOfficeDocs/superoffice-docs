@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "O'Reilly Group",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "UdListDefinitionId": 571,
-  "Rank": 116
+  "Id": 565,
+  "Name": "Nicolas, Turcotte and Ratke",
+  "Tooltip": "blanditiis",
+  "Deleted": true,
+  "UdListDefinitionId": 554,
+  "Rank": 767
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Ledner, Powlowski and Batz",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "UdListDefinitionId": 850,
-  "Rank": 186,
+  "Id": 530,
+  "Name": "Funk-Hyatt",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "UdListDefinitionId": 704,
+  "Rank": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

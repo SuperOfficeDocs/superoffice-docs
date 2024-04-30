@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 710,
-  "Name": "Johns-Kerluke",
-  "Tooltip": "deserunt",
+  "HeadingId": 768,
+  "Name": "Stoltenberg, Dach and Ziemann",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 631,
-  "UdListDefinitionId": 349
+  "Rank": 484,
+  "UdListDefinitionId": 197
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 850,
-  "Name": "Kihn-Roberts",
-  "Tooltip": "ipsam",
+  "HeadingId": 70,
+  "Name": "Fritsch Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 846,
-  "UdListDefinitionId": 875,
+  "Rank": 561,
+  "UdListDefinitionId": 485,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   }
 }

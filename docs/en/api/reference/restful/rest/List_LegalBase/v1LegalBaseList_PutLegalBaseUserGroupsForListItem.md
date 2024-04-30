@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Kirlin, Kuhlman and Von",
-    "ToolTip": "Sit facilis quas.",
+    "Id": 731,
+    "Name": "White-Glover",
+    "ToolTip": "Nobis incidunt qui adipisci iure corrupti id.",
     "Deleted": false,
-    "Rank": 739,
-    "Type": "sit",
-    "ColorBlock": 19,
-    "IconHint": "amet",
+    "Rank": 254,
+    "Type": "magni",
+    "ColorBlock": 814,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2012-01-13T11:44:43.1012637+01:00",
+    "LastChanged": "2012-04-17T11:16:14.5745384+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Tillman Inc and Sons",
-        "ToolTip": "Et omnis ut sed ut perspiciatis.",
+        "Id": 249,
+        "Name": "Boyle Inc and Sons",
+        "ToolTip": "Veritatis possimus quos molestiae.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "accusamus",
-        "ColorBlock": 355,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2019-06-01T11:44:43.1012637+02:00",
+        "Rank": 116,
+        "Type": "minus",
+        "ColorBlock": 798,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2024-01-25T11:16:14.5745384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "a",
+        "ExtraInfo": "vel",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Scarlett Schmitt DVM"
+        "FullName": "Prof. Carlie Toy"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "magni",
+    "ExtraInfo": "et",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Zena Feil"
+    "FullName": "Irma Altenwerth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Jewess, Kris and Turner",
-    "ToolTip": "Voluptatum sit dolores mollitia dolores consequuntur aut iste.",
-    "Deleted": true,
-    "Rank": 383,
-    "Type": "quam",
-    "ColorBlock": 461,
-    "IconHint": "qui",
+    "Id": 700,
+    "Name": "Towne, Ebert and McDermott",
+    "ToolTip": "Perspiciatis repudiandae.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "nulla",
+    "ColorBlock": 151,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2006-03-10T11:44:43.1012637+01:00",
+    "LastChanged": "2005-05-19T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Bauch LLC",
-        "ToolTip": "Dolores consequatur nobis.",
+        "Id": 412,
+        "Name": "Schamberger Inc and Sons",
+        "ToolTip": "Temporibus deserunt nam.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "laudantium",
-        "ColorBlock": 898,
-        "IconHint": "vel",
+        "Rank": 38,
+        "Type": "sapiente",
+        "ColorBlock": 17,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2005-11-05T11:44:43.1012637+01:00",
+        "LastChanged": "2002-10-17T11:16:14.5901626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
+        "ExtraInfo": "eveniet",
         "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Chet Hahn",
+        "Hidden": false,
+        "FullName": "Mr. Brionna Claude Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 972
           }
         }
       }
     ],
     "ExtraInfo": "quo",
-    "StyleHint": "debitis",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Prof. Sonya Ruecker V",
+    "FullName": "Neal Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 112
       }
     }
   }

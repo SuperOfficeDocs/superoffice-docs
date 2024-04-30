@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 502,
+  "ReportId": 537,
   "ReportCategory": "All",
-  "Description": "Programmable real-time application",
+  "Description": "Customizable non-volatile encryption",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schuster, Pollich and Mills",
-  "AssociateId": 362,
-  "TemplateId": 125,
+  "Name": "Rosenbaum-Dibbert",
+  "AssociateId": 948,
+  "TemplateId": 330,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 679,
+  "ReportId": 360,
   "ReportCategory": "All",
-  "Description": "Up-sized multi-tasking structure",
+  "Description": "Cross-platform optimizing knowledge base",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stoltenberg Inc and Sons",
-  "AssociateId": 896,
-  "TemplateId": 549,
+  "Name": "Cremin, Runolfsson and Feeney",
+  "AssociateId": 469,
+  "TemplateId": 904,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

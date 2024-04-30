@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 250,
-  "DocumentId": 165,
+  "SelectionId": 120,
+  "DocumentId": 51,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "nihil",
+  "CustomAttention": "quia",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "atque",
+  "CustomMailBody": "ea",
   "TaskEntity": null,
-  "AddCompanyInterest": 636,
-  "AddPersonInterest": 688,
-  "RemoveCompanyInterest": 682,
-  "RemovePersonInterest": 457,
-  "IncludeNoMailingsRecipient": false,
+  "AddCompanyInterest": 951,
+  "AddPersonInterest": 275,
+  "RemoveCompanyInterest": 695,
+  "RemovePersonInterest": 107,
+  "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 375,
-  "IncludeRetiredRecipients": true,
+  "ProjectId": 937,
+  "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "molestiae",
-  "ExtraInfo": "atque",
+  "CustomMailSubject": "nemo",
+  "ExtraInfo": "est",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 279
     }
   }
 }

@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 567,
+  "TicketId": 446,
   "MessageActionType": "Forward",
-  "TicketMessageId": 626,
-  "TicketTypeId": 875
+  "TicketMessageId": 523,
+  "TicketTypeId": 451
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "ut",
+  "Body": "nobis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 901,
-      "Name": "Shanahan-Reichert",
-      "ContentType": "sit",
-      "AttSize": 564,
+      "AttachmentId": 885,
+      "Name": "Barton-Hayes",
+      "ContentType": "deserunt",
+      "AttSize": 137,
       "InlineImage": false,
-      "ContentId": "possimus",
-      "AuthKey": "provident",
+      "ContentId": "et",
+      "AuthKey": "odio",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 562
         }
       }
     }

@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "sunt",
-  "EntityId": 627
+  "EntityType": "facilis",
+  "EntityId": 892
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repellendus",
-  "2": "incidunt"
+  "1": "tempora",
+  "2": "quaerat"
 }
 ```

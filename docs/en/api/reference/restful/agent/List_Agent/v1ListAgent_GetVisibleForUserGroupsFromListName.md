@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wolff-Lebsack",
-  "ListItemId": 183
+  "UdListDefinitionName": "Wyman-Stark",
+  "ListItemId": 218
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Jaskolski, Graham and Schmeler",
-    "ToolTip": "Assumenda debitis voluptatem hic modi sit nobis.",
+    "Id": 905,
+    "Name": "Koelpin LLC",
+    "ToolTip": "At et.",
     "Deleted": false,
-    "Rank": 214,
-    "Type": "pariatur",
-    "ColorBlock": 256,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2007-04-29T11:44:33.8377919+02:00",
+    "Rank": 129,
+    "Type": "labore",
+    "ColorBlock": 995,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2017-04-21T11:16:09.3347069+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Senger-Quitzon",
-        "ToolTip": "Est quia qui occaecati magni quia.",
-        "Deleted": false,
-        "Rank": 32,
-        "Type": "dolores",
-        "ColorBlock": 135,
-        "IconHint": "aut",
+        "Id": 528,
+        "Name": "Schoen, Rau and Brakus",
+        "ToolTip": "Eius quia dolorem aut.",
+        "Deleted": true,
+        "Rank": 973,
+        "Type": "et",
+        "ColorBlock": 987,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1999-07-25T11:44:33.8377919+02:00",
+        "LastChanged": "1996-12-25T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Myles Davis I",
+        "FullName": "Dr. Jazmyne Adams MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldType": "System.Int32",
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
+    "ExtraInfo": "beatae",
     "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Zora Swift",
+    "Hidden": false,
+    "FullName": "Therese Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 259
       }
     }
   }

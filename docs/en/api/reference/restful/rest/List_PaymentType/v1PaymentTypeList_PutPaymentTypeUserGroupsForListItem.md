@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Lakin, Casper and Rohan",
-    "ToolTip": "Esse enim earum a pariatur voluptatem quaerat soluta.",
+    "Id": 527,
+    "Name": "Rippin LLC",
+    "ToolTip": "Numquam illo totam.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "et",
-    "ColorBlock": 428,
-    "IconHint": "dicta",
+    "Rank": 281,
+    "Type": "architecto",
+    "ColorBlock": 607,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2014-03-08T11:44:43.1325006+01:00",
+    "LastChanged": "2022-09-22T11:16:14.6057886+02:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Botsford Inc and Sons",
-        "ToolTip": "Culpa beatae nobis minima nemo eum voluptatibus modi.",
-        "Deleted": false,
-        "Rank": 758,
-        "Type": "sed",
-        "ColorBlock": 113,
-        "IconHint": "mollitia",
-        "Selected": false,
-        "LastChanged": "2016-05-03T11:44:43.1325006+02:00",
+        "Id": 47,
+        "Name": "Cronin Group",
+        "ToolTip": "Quam porro et hic incidunt vitae.",
+        "Deleted": true,
+        "Rank": 47,
+        "Type": "tempore",
+        "ColorBlock": 41,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2022-01-08T11:16:14.6057886+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "sunt",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Robbie Dare IV"
+        "FullName": "Mrs. Erna Madelyn Waelchi"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Tiana Keeling"
+    "ExtraInfo": "in",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Jessie Beier I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Satterfield, Fisher and Stark",
-    "ToolTip": "Non fuga.",
+    "Id": 582,
+    "Name": "Yundt Group",
+    "ToolTip": "Eum perferendis eaque.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "exercitationem",
-    "ColorBlock": 466,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2014-11-04T11:44:43.1481263+01:00",
+    "Rank": 400,
+    "Type": "praesentium",
+    "ColorBlock": 840,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2004-08-16T11:16:14.6057886+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Zulauf Group",
-        "ToolTip": "Et est est sequi nisi.",
+        "Id": 777,
+        "Name": "Schamberger, Vandervort and Thompson",
+        "ToolTip": "Et rerum qui eum et qui aperiam.",
         "Deleted": true,
-        "Rank": 913,
-        "Type": "ad",
-        "ColorBlock": 893,
-        "IconHint": "necessitatibus",
+        "Rank": 19,
+        "Type": "vitae",
+        "ColorBlock": 766,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "1999-03-01T11:44:43.1481263+01:00",
+        "LastChanged": "2015-06-12T11:16:14.6057886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "magnam",
+        "ExtraInfo": "aut",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Miss Rasheed Elias Becker DVM",
+        "FullName": "Viola Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 786
+            "FieldType": "System.Int32",
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "earum",
+    "ExtraInfo": "illum",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Prof. Michelle Jaskolski III",
+    "FullName": "Ms. Erna Jolie Daugherty MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

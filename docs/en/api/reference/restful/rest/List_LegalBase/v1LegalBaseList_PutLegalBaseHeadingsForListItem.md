@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Mann-Kunde",
-    "ToolTip": "Necessitatibus sit eius.",
-    "Deleted": true,
-    "Rank": 491,
-    "Type": "sed",
-    "ColorBlock": 889,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2018-08-12T11:44:43.1012637+02:00",
+    "Id": 535,
+    "Name": "Little-Schuppe",
+    "ToolTip": "Quibusdam sed.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "magni",
+    "ColorBlock": 163,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2006-07-13T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Mills-Treutel",
-        "ToolTip": "Veniam et quisquam.",
+        "Id": 910,
+        "Name": "Hermann Inc and Sons",
+        "ToolTip": "Eius dicta.",
         "Deleted": false,
-        "Rank": 91,
-        "Type": "ut",
-        "ColorBlock": 80,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2020-10-17T11:44:43.1012637+02:00",
+        "Rank": 908,
+        "Type": "eligendi",
+        "ColorBlock": 92,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "1999-07-31T11:16:14.5901626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "rerum",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Prof. Kennedi Schumm III"
+        "FullName": "Thad Kohler"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Mrs. Holden Colt Koss IV"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Prof. Icie Williamson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Schmeler Inc and Sons",
-    "ToolTip": "Magnam ipsam.",
+    "Id": 824,
+    "Name": "Kub Inc and Sons",
+    "ToolTip": "Amet ut explicabo est cupiditate.",
     "Deleted": true,
-    "Rank": 598,
-    "Type": "ut",
-    "ColorBlock": 884,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "1997-03-02T11:44:43.1012637+01:00",
+    "Rank": 595,
+    "Type": "aut",
+    "ColorBlock": 718,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2012-06-17T11:16:14.5901626+02:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Yost, Langworth and O'Hara",
-        "ToolTip": "Natus dolores.",
+        "Id": 722,
+        "Name": "Schmeler-Christiansen",
+        "ToolTip": "Ipsa saepe.",
         "Deleted": false,
-        "Rank": 205,
-        "Type": "architecto",
-        "ColorBlock": 272,
-        "IconHint": "et",
+        "Rank": 960,
+        "Type": "maxime",
+        "ColorBlock": 475,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2022-01-07T11:44:43.1012637+01:00",
+        "LastChanged": "2005-03-09T11:16:14.5901626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "dolores",
+        "ExtraInfo": "sunt",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Mrs. Jasen Kovacek",
+        "FullName": "Tierra Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 244
+            "FieldType": "System.Int32",
+            "FieldLength": 387
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Howell Bins",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Kenton Major Bernier PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

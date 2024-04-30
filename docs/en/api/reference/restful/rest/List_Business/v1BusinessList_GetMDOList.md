@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=nostrum
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=corporis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Terry-Legros",
-    "ToolTip": "Atque mollitia dicta veniam.",
+    "Id": 413,
+    "Name": "Christiansen-Turner",
+    "ToolTip": "Quasi doloribus quaerat laboriosam eius.",
     "Deleted": true,
-    "Rank": 552,
-    "Type": "vitae",
+    "Rank": 185,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Bayer-Osinski",
-        "ToolTip": "Possimus enim non omnis.",
-        "Deleted": false,
-        "Rank": 709,
-        "Type": "dicta",
+        "Id": 846,
+        "Name": "Smith-Langworth",
+        "ToolTip": "Facilis placeat velit numquam et.",
+        "Deleted": true,
+        "Rank": 591,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 496,
-        "ExtraInfo": "impedit",
-        "StyleHint": "cum",
-        "FullName": "Tyshawn Gleichner",
+        "IconHint": "maxime",
+        "ColorBlock": 908,
+        "ExtraInfo": "iste",
+        "StyleHint": "alias",
+        "FullName": "Marquis Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldLength": 520
           }
         }
       }
     ],
-    "IconHint": "minus",
-    "ColorBlock": 978,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "quos",
-    "FullName": "Mrs. Miles Francesco Koelpin V",
+    "IconHint": "voluptas",
+    "ColorBlock": 951,
+    "ExtraInfo": "modi",
+    "StyleHint": "tenetur",
+    "FullName": "Lazaro Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 786
       }
     }
   }

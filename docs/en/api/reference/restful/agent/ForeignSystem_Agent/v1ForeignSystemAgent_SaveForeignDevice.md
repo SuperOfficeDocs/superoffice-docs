@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Langosh Inc and Sons"
+  "ApplicationName": "Beier LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 321,
-  "Name": "Dickinson-Fadel",
-  "CreatedDate": "2022-09-24T11:44:33.7753083+02:00",
-  "UpdatedDate": "2019-07-21T11:44:33.7753083+02:00",
-  "AssociateFullName": "Charley Greenholt",
-  "CreatedBy": "temporibus",
-  "UpdatedBy": "aliquid",
-  "DeviceIdentifier": "quo",
-  "ForeignAppId": 925,
+  "ForeignDeviceId": 105,
+  "Name": "Haley LLC",
+  "CreatedDate": "2022-02-27T11:16:09.2878404+01:00",
+  "UpdatedDate": "1997-06-06T11:16:09.2878404+02:00",
+  "AssociateFullName": "Harley Wilderman",
+  "CreatedBy": "et",
+  "UpdatedBy": "fuga",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 143
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Kihn-Weissnat",
-  "Tooltip": "atque",
+  "Id": 335,
+  "Name": "Hirthe, Jerde and Bailey",
+  "Tooltip": "iste",
   "Deleted": false,
-  "UdListDefinitionId": 167,
-  "Rank": 744
+  "UdListDefinitionId": 766,
+  "Rank": 235
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Greenfelder Group",
+  "Id": 507,
+  "Name": "Walker LLC",
   "Tooltip": "repellat",
-  "Deleted": false,
-  "UdListDefinitionId": 9,
-  "Rank": 583,
+  "Deleted": true,
+  "UdListDefinitionId": 119,
+  "Rank": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

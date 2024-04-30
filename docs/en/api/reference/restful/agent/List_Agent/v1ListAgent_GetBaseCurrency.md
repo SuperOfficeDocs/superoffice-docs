@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 692,
-  "Name": "Cummings Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 658,
-  "Rate": 5099.018,
-  "Units": 16199.645999999999,
+  "CurrencyId": 854,
+  "Name": "Altenwerth, Waters and Reilly",
+  "Tooltip": "alias",
+  "Rank": 944,
+  "Rate": 23357.701999999997,
+  "Units": 8665.51,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 803
     }
   }
 }

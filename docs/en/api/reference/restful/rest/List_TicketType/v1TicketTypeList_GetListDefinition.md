@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Runolfsson, Toy and Wisoky",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 211,
-  "IsCustomList": true,
+  "Id": 217,
+  "Name": "Adams, Predovic and Hodkiewicz",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 129,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 522
     }
   },
   "_Links": {

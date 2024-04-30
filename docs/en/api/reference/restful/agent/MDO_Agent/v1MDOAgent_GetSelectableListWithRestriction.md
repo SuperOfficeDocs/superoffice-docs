@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turner-Ankunding",
-  "AdditionalInfo": "voluptatibus",
-  "SearchValue": "dolores"
+  "Name": "Tillman, McGlynn and Marquardt",
+  "AdditionalInfo": "voluptas",
+  "SearchValue": "dolor"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Eum rerum ea consequuntur veritatis blanditiis.",
+    "Id": 789,
+    "Name": "Hammes, Marquardt and Bauch",
+    "ToolTip": "Qui voluptate et vel aut quaerat quis.",
     "Deleted": false,
-    "Rank": 746,
-    "Type": "iste",
-    "ColorBlock": 222,
-    "IconHint": "est",
+    "Rank": 465,
+    "Type": "velit",
+    "ColorBlock": 521,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2008-11-15T11:44:33.9471419+01:00",
+    "LastChanged": "1998-04-04T11:16:09.3972026+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Parker, O'Hara and Leannon",
-        "ToolTip": "Hic quas et culpa cum perferendis.",
+        "Id": 967,
+        "Name": "Jaskolski, Bruen and Kub",
+        "ToolTip": "Dolorum rem laborum est error quas.",
         "Deleted": false,
-        "Rank": 63,
-        "Type": "minus",
-        "ColorBlock": 419,
-        "IconHint": "cumque",
+        "Rank": 467,
+        "Type": "exercitationem",
+        "ColorBlock": 739,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2012-01-17T11:44:33.9471419+01:00",
+        "LastChanged": "1999-12-14T11:16:09.3972026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Everette Keebler",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "suscipit",
+        "Hidden": true,
+        "FullName": "Erica Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "totam",
+    "ExtraInfo": "totam",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Carlotta Heidenreich",
+    "FullName": "Mohamed Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldLength": 211
       }
     }
   }

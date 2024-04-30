@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Parisian-Ledner",
-    "ToolTip": "Iste culpa dolores est vel mollitia sint.",
+    "Id": 75,
+    "Name": "Kling-Reichel",
+    "ToolTip": "Explicabo omnis fuga vel consequuntur nostrum eum.",
     "Deleted": false,
-    "Rank": 746,
-    "Type": "deleniti",
-    "ColorBlock": 201,
-    "IconHint": "in",
+    "Rank": 500,
+    "Type": "voluptatem",
+    "ColorBlock": 162,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2022-07-13T11:44:43.2106158+02:00",
+    "LastChanged": "2006-02-01T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Bradtke-Luettgen",
-        "ToolTip": "Beatae aut.",
+        "Id": 583,
+        "Name": "Luettgen, Monahan and Kuhlman",
+        "ToolTip": "Eos at sed consequatur enim.",
         "Deleted": false,
-        "Rank": 172,
-        "Type": "nostrum",
-        "ColorBlock": 120,
-        "IconHint": "ut",
+        "Rank": 625,
+        "Type": "provident",
+        "ColorBlock": 186,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2009-01-03T11:44:43.2106158+01:00",
+        "LastChanged": "2000-02-10T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "minima",
+        "ExtraInfo": "vero",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Leon Cummerata"
+        "FullName": "Miss Karen Bernard Lemke"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Isidro Breitenberg"
+    "ExtraInfo": "optio",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Flavio Lind"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Kessler, Strosin and Hoppe",
-    "ToolTip": "Dolores expedita inventore velit consequatur reiciendis voluptatem aut.",
+    "Id": 581,
+    "Name": "Roberts-Rolfson",
+    "ToolTip": "Nobis illo est fugiat sed.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "sit",
-    "ColorBlock": 927,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2011-06-25T11:44:43.2106158+02:00",
+    "Rank": 881,
+    "Type": "accusantium",
+    "ColorBlock": 741,
+    "IconHint": "tenetur",
+    "Selected": false,
+    "LastChanged": "2014-02-19T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Lebsack Inc and Sons",
-        "ToolTip": "Natus laboriosam dolores laboriosam ea quaerat corporis.",
+        "Id": 874,
+        "Name": "Torphy Group",
+        "ToolTip": "Velit quasi pariatur sapiente repellendus ex tempore.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "corrupti",
-        "ColorBlock": 294,
-        "IconHint": "aut",
+        "Rank": 56,
+        "Type": "ea",
+        "ColorBlock": 35,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2011-07-19T11:44:43.2106158+02:00",
+        "LastChanged": "2024-03-04T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "officiis",
+        "ExtraInfo": "aut",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ms. Hunter Mia Treutel",
+        "FullName": "Dixie Raphaelle Hammes MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldLength": 530
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "veniam",
+    "ExtraInfo": "in",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Gerhard Mertz",
+    "FullName": "Ms. Shawna Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   }

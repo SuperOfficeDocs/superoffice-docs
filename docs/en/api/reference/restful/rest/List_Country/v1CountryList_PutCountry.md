@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 813,
-  "Name": "Brekke, Ankunding and Kunze",
-  "CurrencyId": 638,
-  "EnglishName": "Reichel-Jast",
+  "CountryId": 263,
+  "Name": "Bernier, Legros and Shields",
+  "CurrencyId": 540,
+  "EnglishName": "Kiehn-Bailey",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Realigned national help-desk",
-  "OrgNrText": "1209314",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "exercitationem",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Lynch, Ziemann and Satterfield",
-  "AddressLayoutId": 633,
-  "DomesticAddressLayoutId": 338,
-  "ForeignAddressLayoutId": 744,
-  "Rank": 196,
-  "Tooltip": "consequatur",
-  "Deleted": true
+  "ImageDescription": "Seamless intermediate emulation",
+  "OrgNrText": "760633",
+  "InterAreaPrefix": "deserunt",
+  "DialInPrefix": "facere",
+  "ZipPrefix": "sequi",
+  "DomainName": "Heller LLC",
+  "AddressLayoutId": 225,
+  "DomesticAddressLayoutId": 129,
+  "ForeignAddressLayoutId": 525,
+  "Rank": 732,
+  "Tooltip": "vel",
+  "Deleted": false
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 950,
-  "Name": "Dooley, Ziemann and Treutel",
-  "CurrencyId": 182,
-  "EnglishName": "Schuster, Kuvalis and Bahringer",
+  "CountryId": 794,
+  "Name": "Bode LLC",
+  "CurrencyId": 108,
+  "EnglishName": "Senger Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Polarised background knowledge base",
-  "OrgNrText": "1431082",
-  "InterAreaPrefix": "molestias",
-  "DialInPrefix": "quaerat",
-  "ZipPrefix": "pariatur",
-  "DomainName": "Waelchi, Glover and Christiansen",
-  "AddressLayoutId": 63,
-  "DomesticAddressLayoutId": 360,
-  "ForeignAddressLayoutId": 233,
-  "Rank": 674,
-  "Tooltip": "sed",
+  "ImageDescription": "Pre-emptive user-facing neural-net",
+  "OrgNrText": "165366",
+  "InterAreaPrefix": "amet",
+  "DialInPrefix": "quo",
+  "ZipPrefix": "quia",
+  "DomainName": "Becker-Ritchie",
+  "AddressLayoutId": 85,
+  "DomesticAddressLayoutId": 193,
+  "ForeignAddressLayoutId": 489,
+  "Rank": 472,
+  "Tooltip": "accusantium",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

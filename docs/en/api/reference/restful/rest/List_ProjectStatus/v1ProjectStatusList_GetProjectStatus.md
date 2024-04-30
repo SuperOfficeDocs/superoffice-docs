@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Daugherty, Gutkowski and Luettgen",
-  "Tooltip": "tempore",
+  "Id": 743,
+  "Name": "Kemmer Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 924,
-  "Rank": 160,
+  "UdListDefinitionId": 257,
+  "Rank": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldLength": 890
     }
   }
 }

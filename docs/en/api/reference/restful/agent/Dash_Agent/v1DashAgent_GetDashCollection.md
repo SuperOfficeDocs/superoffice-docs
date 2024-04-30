@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 784,
-      "UniqueId": "ullam",
-      "Name": "Strosin-Bauch",
-      "Description": "Enterprise-wide regional capacity",
-      "AssociateId": 755,
-      "Columns": 776,
+      "DashboardId": 160,
+      "UniqueId": "non",
+      "Name": "Ondricka, Stanton and Swaniawski",
+      "Description": "Streamlined intermediate installation",
+      "AssociateId": 442,
+      "Columns": 537,
       "Theme": null,
-      "VisibleForAll": 214,
+      "VisibleForAll": 794,
       "VisibleForAssociates": [
-        495,
-        146
+        967,
+        276
       ],
       "VisibleForGroups": [
-        139,
-        884
+        373,
+        228
       ],
-      "PinForAll": 754,
+      "PinForAll": 498,
       "PinForAssociates": [
-        739,
-        280
+        532,
+        525
       ],
       "PinForGroups": [
-        305,
-        798
+        806,
+        568
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldLength": 602
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 235,
-      "UniqueId": "dolores",
-      "Name": "Huels LLC",
-      "Description": "Extended grid-enabled benchmark",
-      "AssociateId": 796,
-      "Columns": 478,
+      "DashboardId": 926,
+      "UniqueId": "consequatur",
+      "Name": "Morissette, Bauch and Davis",
+      "Description": "Cross-group contextually-based parallelism",
+      "AssociateId": 437,
+      "Columns": 853,
       "Theme": null,
-      "VisibleForAll": 855,
+      "VisibleForAll": 257,
       "VisibleForAssociates": [
-        399,
-        163
+        871,
+        862
       ],
       "VisibleForGroups": [
-        624,
-        547
+        35,
+        626
       ],
-      "PinForAll": 504,
+      "PinForAll": 181,
       "PinForAssociates": [
-        561,
-        257
+        640,
+        778
       ],
       "PinForGroups": [
-        23,
-        246
+        627,
+        409
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldLength": 525
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 26,
-      "UniqueId": "nihil",
-      "Name": "Wyman-Farrell",
-      "Description": "Self-enabling background open architecture",
-      "AssociateId": 243,
-      "Columns": 632,
+      "DashboardId": 203,
+      "UniqueId": "et",
+      "Name": "Schuster-Russel",
+      "Description": "Self-enabling radical architecture",
+      "AssociateId": 951,
+      "Columns": 623,
       "Theme": null,
-      "VisibleForAll": 976,
+      "VisibleForAll": 748,
       "VisibleForAssociates": [
-        409,
-        873
+        105,
+        967
       ],
       "VisibleForGroups": [
-        339,
-        366
+        891,
+        980
       ],
-      "PinForAll": 450,
+      "PinForAll": 105,
       "PinForAssociates": [
-        552,
-        5
+        181,
+        727
       ],
       "PinForGroups": [
-        273,
-        177
+        635,
+        265
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 402
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 822
     }
   }
 }

@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "manuel_hermann@mills.info",
-  "Counts": 374,
-  "Code": 588,
-  "Reason": "grow intuitive models"
+  "EmailAddress": "gretchen@morarwyman.com",
+  "Counts": 668,
+  "Code": 430,
+  "Reason": ""
 }
 ```
 

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 836,
-  "Name": "Rosenbaum Group"
+  "MessageId": 446,
+  "Name": "Zulauf-Greenholt"
 }
 ```
 

@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 391,
-  "GroupType": 490,
-  "StartTime": "2014-02-21T11:44:32.4631128+01:00",
-  "EndTime": "2006-10-24T11:44:32.4631128+02:00",
-  "Count": 470
+  "GroupId": 746,
+  "GroupType": 540,
+  "StartTime": "2016-03-09T11:16:08.5063888+01:00",
+  "EndTime": "2013-09-25T11:16:08.5063888+02:00",
+  "Count": 782
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 176,
-    "StartDate": "2005-09-07T11:44:32.4631128+02:00",
-    "EndDate": "2023-01-17T11:44:32.4631128+01:00",
+    "AppointmentId": 102,
+    "StartDate": "2020-06-06T11:16:08.5063888+02:00",
+    "EndDate": "2001-01-24T11:16:08.5063888+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Johathan Howe",
-    "ContactName": "Labadie Inc and Sons",
-    "Description": "Grass-roots bandwidth-monitored paradigm",
-    "PersonFullName": "Ms. Ruthie Ollie Hoppe",
-    "PersonId": 280,
-    "ContactId": 683,
-    "ProjectId": 118,
-    "ProjectName": "Ferry Inc and Sons",
+    "Task": "dolores",
+    "AssociateFullName": "Mitchel Dion Hickle Sr.",
+    "ContactName": "Tremblay LLC",
+    "Description": "Distributed web-enabled installation",
+    "PersonFullName": "Bennie Neal Stehr I",
+    "PersonId": 965,
+    "ContactId": 731,
+    "ProjectId": 341,
+    "ProjectName": "Block, Dietrich and Lubowitz",
     "IsPublished": true,
-    "AssociateId": 378,
-    "ColorIndex": 401,
+    "AssociateId": 730,
+    "ColorIndex": 217,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 520,
-    "PriorityName": "Schumm, Pouros and Johnson",
+    "PriorityId": 914,
+    "PriorityName": "Spinka-Greenfelder",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2017-06-08T11:44:32.4631128+02:00",
+    "ActiveDate": "2021-02-28T11:16:08.5063888+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-10-09T11:44:32.4631128+02:00",
-    "RecurringEndDate": "2023-07-06T11:44:32.4631128+02:00",
-    "MotherId": 839,
-    "AssignedBy": 152,
-    "AssignedByFullName": "Ernestina Marcelle Terry III",
+    "RecurringStartDate": "2012-06-13T11:16:08.5063888+02:00",
+    "RecurringEndDate": "2024-01-24T11:16:08.5063888+01:00",
+    "MotherId": 772,
+    "AssignedBy": 591,
+    "AssignedByFullName": "Prof. Ellen Swift IV",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "quisquam",
-    "SaleId": 703,
-    "SaleName": "Brakus-Larkin",
-    "AssociateName": "Rippin, Weber and Reinger",
-    "CreatedDate": "2023-10-05T11:44:32.4631128+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Natasha Ruecker",
-    "CreatedByAssociateId": 296,
+    "Location": "ab",
+    "AlarmLeadTime": "minus",
+    "SaleId": 896,
+    "SaleName": "Stokes-Treutel",
+    "AssociateName": "Kuphal LLC",
+    "CreatedDate": "2010-07-26T11:16:08.5063888+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Mr. Alvena O'Kon",
+    "CreatedByAssociateId": 748,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 472,
-    "Title": "architecto",
-    "Agenda": "necessitatibus",
-    "InternalNotes": "a",
+    "PreferredTZLocation": 572,
+    "Title": "delectus",
+    "Agenda": "odit",
+    "InternalNotes": "quisquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 55
       }
     }
   }

@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 688,
-  "Name": "Feest-Hayes",
+  "ScreenChooserId": 883,
+  "Name": "Collins, Lindgren and Ernser",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "enim",
-  "Source": "deserunt",
-  "Registered": "2022-12-02T11:44:42.6951171+01:00",
-  "RegisteredAssociateId": 109,
-  "Updated": "2015-05-26T11:44:42.6951171+02:00",
-  "UpdatedAssociateId": 596
+  "UniqueIdentifier": "qui",
+  "Source": "qui",
+  "Registered": "2019-12-03T11:16:14.3242001+01:00",
+  "RegisteredAssociateId": 406,
+  "Updated": "2012-11-11T11:16:14.3242001+01:00",
+  "UpdatedAssociateId": 293
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 360,
-  "Name": "Zulauf, Hammes and Volkman",
+  "ScreenChooserId": 548,
+  "Name": "Spinka-Zemlak",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "facilis",
-  "Source": "omnis",
-  "Registered": "1999-12-29T11:44:42.6951171+01:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "2020-01-14T11:44:42.6951171+01:00",
-  "UpdatedAssociateId": 945,
+  "UniqueIdentifier": "quia",
+  "Source": "deserunt",
+  "Registered": "2004-07-29T11:16:14.3242001+02:00",
+  "RegisteredAssociateId": 920,
+  "Updated": "2015-02-12T11:16:14.3242001+01:00",
+  "UpdatedAssociateId": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 236
     }
   },
   "_Links": {

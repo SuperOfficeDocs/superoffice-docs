@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 299,
-  "ListItemId": 816,
+  "UdListDefinitionId": 653,
+  "ListItemId": 15,
   "UserGroups": [
     {
-      "Id": 745,
-      "Name": "Daniel Inc and Sons",
-      "ToolTip": "Maxime rerum dolorem esse.",
+      "Id": 455,
+      "Name": "Pollich-Thiel",
+      "ToolTip": "Iste sequi molestiae sit culpa aperiam aut mollitia.",
       "Deleted": false,
-      "Rank": 669,
-      "Type": "quaerat",
-      "ColorBlock": 154,
-      "IconHint": "quo",
-      "Selected": false,
-      "LastChanged": "2009-07-28T11:44:33.8377919+02:00",
+      "Rank": 850,
+      "Type": "numquam",
+      "ColorBlock": 914,
+      "IconHint": "tempore",
+      "Selected": true,
+      "LastChanged": "2007-11-06T11:16:09.3347069+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "laborum",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "iusto",
       "Hidden": true,
-      "FullName": "Miss Lew Jacinthe Pfannerstill"
+      "FullName": "Dallin Swaniawski"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Batz Inc and Sons",
-    "ToolTip": "Corporis libero eveniet.",
+    "Id": 84,
+    "Name": "Kutch-Bogisich",
+    "ToolTip": "Illo ut molestias optio culpa enim veniam nihil.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "optio",
-    "ColorBlock": 264,
-    "IconHint": "voluptas",
+    "Rank": 547,
+    "Type": "nisi",
+    "ColorBlock": 674,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2015-06-01T11:44:33.8377919+02:00",
+    "LastChanged": "1999-11-01T11:16:09.3347069+01:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Pagac Inc and Sons",
-        "ToolTip": "Accusantium est.",
-        "Deleted": false,
-        "Rank": 862,
-        "Type": "qui",
-        "ColorBlock": 375,
-        "IconHint": "et",
+        "Id": 281,
+        "Name": "Buckridge Group",
+        "ToolTip": "Eius molestiae facilis eum quod voluptas fuga.",
+        "Deleted": true,
+        "Rank": 884,
+        "Type": "dolorem",
+        "ColorBlock": 561,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2017-02-26T11:44:33.8377919+01:00",
+        "LastChanged": "2003-11-02T11:16:09.3347069+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "error",
+        "ExtraInfo": "atque",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Alexander Hilll",
+        "FullName": "Samara Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 510
+            "FieldLength": 580
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Mr. Davon Jed Price",
+    "FullName": "Lyla Thelma McCullough Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 430
       }
     }
   }

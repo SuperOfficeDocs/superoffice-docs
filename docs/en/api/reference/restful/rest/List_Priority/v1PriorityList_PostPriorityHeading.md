@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 974,
-  "Name": "Watsica, Ondricka and Grimes",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 121,
-  "UdListDefinitionId": 885
+  "HeadingId": 882,
+  "Name": "Schuster-Rutherford",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 987,
+  "UdListDefinitionId": 338
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 294,
-  "Name": "Muller Group",
-  "Tooltip": "eos",
+  "HeadingId": 499,
+  "Name": "Muller-Reilly",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 991,
-  "UdListDefinitionId": 908,
+  "Rank": 88,
+  "UdListDefinitionId": 44,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

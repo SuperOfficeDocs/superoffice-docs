@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 940,
-  "ContactId": 887,
-  "ProjectId": 230,
-  "ContactName": "Luettgen, Denesik and Abernathy",
+  "ProjectmemberId": 671,
+  "ContactId": 716,
+  "ProjectId": 351,
+  "ContactName": "Bergnaum-Reynolds",
   "ContactDepartment": "",
-  "ProjectName": "Bosco-Gutkowski",
-  "EmailId": 356,
-  "EmailAddress": "quentin_purdy@senger.co.uk",
-  "CountryId": 464,
-  "Firstname": "Cedrick",
-  "MiddleName": "Ondricka-Sanford",
-  "Lastname": "Murazik",
-  "PersonId": 201,
-  "Mrmrs": "reiciendis",
-  "ProjectMemberTypeName": "McLaughlin, Prosacco and Stoltenberg",
-  "Phone": "1-579-735-1118 x457",
-  "PhoneId": 987,
-  "ProjectMemberTypeId": 321,
-  "EmailAddressName": "ryann@herzog.co.uk",
+  "ProjectName": "Mosciski-Schulist",
+  "EmailId": 456,
+  "EmailAddress": "roma@dibbert.us",
+  "CountryId": 194,
+  "Firstname": "Keaton",
+  "MiddleName": "Towne Group",
+  "Lastname": "Towne",
+  "PersonId": 604,
+  "Mrmrs": "fuga",
+  "ProjectMemberTypeName": "Wuckert-Powlowski",
+  "Phone": "(933)158-7414 x3257",
+  "PhoneId": 241,
+  "ProjectMemberTypeId": 566,
+  "EmailAddressName": "mariah@fahey.co.uk",
   "Comment": "enim",
-  "FullName": "Lukas Flatley PhD",
+  "FullName": "Delmer Louisa Hane Jr.",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 271
     }
   },
   "_Links": {

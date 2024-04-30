@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 19,
-  "SourcePersonId": 521,
-  "DestinationContactId": 338,
-  "DestinationPersonId": 866,
-  "RelationId": 121,
-  "Comment": "eveniet",
-  "RelationDefinitionId": 536,
-  "Reversed": 459,
-  "UpdatedDate": "2002-07-30T11:44:34.3063794+02:00",
-  "CreatedDate": "1998-04-11T11:44:34.3063794+02:00",
+  "SourceContactId": 435,
+  "SourcePersonId": 257,
+  "DestinationContactId": 586,
+  "DestinationPersonId": 205,
+  "RelationId": 279,
+  "Comment": "dolorem",
+  "RelationDefinitionId": 69,
+  "Reversed": 221,
+  "UpdatedDate": "2018-01-13T11:16:09.6161411+01:00",
+  "CreatedDate": "2001-03-28T11:16:09.6161411+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rippin-Zboncak",
-  "SourcePersonName": "Koch-Willms",
-  "DestinationContactName": "Rutherford, Marks and Hahn",
-  "DestinationPersonName": "Ortiz Group",
-  "ActiveText": "repellendus",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Schowalter Inc and Sons",
+  "SourcePersonName": "Herman LLC",
+  "DestinationContactName": "Hammes-Cronin",
+  "DestinationPersonName": "Kihn-Hoeger",
+  "ActiveText": "voluptate",
+  "PassiveText": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 441
     }
   }
 }

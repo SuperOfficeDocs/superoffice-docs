@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Nolan, Pouros and Senger",
-  "AssociateId": 748,
-  "DetailsTable": 772,
-  "DetailsRecord": 142,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 989,
+  "Name": "Braun Inc and Sons",
+  "AssociateId": 677,
+  "DetailsTable": 989,
+  "DetailsRecord": 624,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ut",
-    "ParameterObject2": "facilis"
+    "ParameterObject1": "eveniet",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2008-03-07T11:44:33.7753083+01:00",
-  "Created": "2023-05-07T11:44:33.7753083+02:00",
-  "StartCount": 185,
-  "DatabaseSerialNumber": "1572098",
-  "Context": "dolores",
-  "Result": "magnam",
+  "LastStarted": "2019-08-03T11:16:09.2878404+02:00",
+  "Created": "2024-04-17T11:16:09.2878404+02:00",
+  "StartCount": 735,
+  "DatabaseSerialNumber": "165974",
+  "Context": "architecto",
+  "Result": "vel",
   "State": "All",
-  "Description": "Face to face didactic throughput",
-  "Response": "tempore",
-  "Request": "quia",
-  "ProgressDescription": "Synchronised optimizing approach",
-  "ProgressPercent": 430,
-  "FileName": "O'Conner-Bernier",
+  "Description": "Optional exuding approach",
+  "Response": "ut",
+  "Request": "delectus",
+  "ProgressDescription": "Stand-alone client-driven solution",
+  "ProgressPercent": 222,
+  "FileName": "Block-Williamson",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

@@ -91,9 +91,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 226,
-  "ConnectionId": 564,
-  "FirstAlternativeName": "Buckridge Group"
+  "SaleId": 575,
+  "ConnectionId": 662,
+  "FirstAlternativeName": "Tremblay-Wolf"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 669,
-  "SaleId": 335,
-  "QuoteConnectionId": 986,
-  "ERPQuoteKey": "earum",
-  "ERPOrderKey": "sint",
-  "ActiveQuoteVersionId": 702,
-  "AcceptedQuoteAlternativeId": 729,
-  "UseValuesFromQuote": 326,
-  "DocumentId": 132,
-  "PoNumber": "1155189",
-  "OrderComment": "est",
-  "PreferredEmailCulture": "kale.ortiz@armstrong.com",
+  "QuoteId": 356,
+  "SaleId": 309,
+  "QuoteConnectionId": 970,
+  "ERPQuoteKey": "ut",
+  "ERPOrderKey": "quisquam",
+  "ActiveQuoteVersionId": 77,
+  "AcceptedQuoteAlternativeId": 930,
+  "UseValuesFromQuote": 274,
+  "DocumentId": 400,
+  "PoNumber": "513653",
+  "OrderComment": "voluptatem",
+  "PreferredEmailCulture": "adolfo@gaylord.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 371,
-      "ERPQuoteVersionKey": "ducimus",
-      "QuoteId": 972,
-      "Description": "Robust explicit pricing structure",
-      "Number": "1292719",
+      "QuoteVersionId": 27,
+      "ERPQuoteVersionKey": "molestiae",
+      "QuoteId": 941,
+      "Description": "Ameliorated optimal initiative",
+      "Number": "1409902",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 743,
-      "SentDate": "2010-04-11T11:44:34.2907996+02:00",
-      "FollowupId": 760,
-      "ExpirationDate": "2006-07-20T11:44:34.2907996+02:00",
-      "DeliveryCountryId": 942,
+      "LikelyQuoteAlternativeId": 606,
+      "SentDate": "2013-04-16T11:16:09.6161411+02:00",
+      "FollowupId": 187,
+      "ExpirationDate": "2008-07-19T11:16:09.6161411+02:00",
+      "DeliveryCountryId": 21,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 7,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "esse",
-      "ERPPaymentTypeKey": "placeat",
-      "ERPDeliveryTermsKey": "dolores",
-      "ERPDeliveryTypeKey": "sed",
-      "Rank": 273,
-      "ApprovedBy": 990,
-      "ApprovedText": "sapiente",
-      "ApprovedRegisteredBy": 927,
-      "ApprovedRegisteredDate": "2000-10-15T11:44:34.2907996+02:00",
-      "ExtraField1": "beatae",
-      "ExtraField2": "libero",
-      "ExtraField3": "consequatur",
-      "ExtraField4": "consequatur",
-      "ExtraField5": "dolor",
-      "LastRecalculated": "2001-08-07T11:44:34.2907996+02:00",
-      "Updated": "2020-12-18T11:44:34.2907996+01:00",
-      "UpdatedAssociateId": 253,
-      "Registered": "1998-05-19T11:44:34.2907996+02:00",
-      "RegisteredAssociateId": 126,
-      "RequestAssociateId": 292,
-      "RequestComment": "sint",
+      "InvoiceCountryId": 181,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "impedit",
+      "ERPPaymentTypeKey": "voluptas",
+      "ERPDeliveryTermsKey": "ipsa",
+      "ERPDeliveryTypeKey": "vitae",
+      "Rank": 597,
+      "ApprovedBy": 163,
+      "ApprovedText": "accusamus",
+      "ApprovedRegisteredBy": 230,
+      "ApprovedRegisteredDate": "2007-10-18T11:16:09.6161411+02:00",
+      "ExtraField1": "in",
+      "ExtraField2": "soluta",
+      "ExtraField3": "laudantium",
+      "ExtraField4": "distinctio",
+      "ExtraField5": "occaecati",
+      "LastRecalculated": "2010-12-02T11:16:09.6161411+01:00",
+      "Updated": "2012-01-14T11:16:09.6161411+01:00",
+      "UpdatedAssociateId": 286,
+      "Registered": "2001-10-20T11:16:09.6161411+02:00",
+      "RegisteredAssociateId": 350,
+      "RequestAssociateId": 852,
+      "RequestComment": "eos",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldLength": 396
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 371
     }
   }
 }

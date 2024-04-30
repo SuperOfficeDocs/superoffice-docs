@@ -34,8 +34,8 @@ Lists all email flow content
 |nameOrDescription| *None* |Description : Description|  |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|registeredBy| *None* |Registered by: The user who registered the data|  |
+|registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
@@ -84,8 +84,6 @@ Lists all email flow content
 |shipment/projectId| *None* |Project ID: Database ID of project record|  |
 |shipment/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |shipment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|shipment/registeredBy| *None* |Registered by: The user who registered the data|  |
-|shipment/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |shipment/project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
 |shipment/project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
@@ -123,12 +121,12 @@ Lists all email flow content
 |shipment/project/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
 |shipment/project/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |shipment/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |shipment/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |shipment/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |shipment/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -191,11 +189,12 @@ Lists all email flow content
 |shipment/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |contentDescription| *None* |Description: Form description|  |
 |contentIcon| *None* |Icon: Icon| x |
+|contentType| *None* |Type : Type| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/associateId,shipment/project/hasGuide
+GET /api/v1/archive/EmailFlowContent?$select=shipment/project/nextMilestone,shipment/associateId,shipment/project/endDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

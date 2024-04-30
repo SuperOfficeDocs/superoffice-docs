@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 89,
-  "Name": "Wisozk, Abbott and Padberg",
-  "Tooltip": "sit",
+  "Id": 48,
+  "Name": "O'Reilly LLC",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "UdListDefinitionId": 833,
-  "Rank": 551,
+  "UdListDefinitionId": 981,
+  "Rank": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

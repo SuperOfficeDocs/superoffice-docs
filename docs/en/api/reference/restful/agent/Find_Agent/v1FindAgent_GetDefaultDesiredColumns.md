@@ -91,9 +91,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Moore-Quitzon",
-  "StorageKey": "magnam"
+  "StorageType": "aperiam",
+  "ProviderName": "Corwin, Price and Braun",
+  "StorageKey": "id"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gerhold, Ritchie and Block",
-    "DisplayTooltip": "vel",
-    "DisplayType": "voluptas",
-    "CanOrderBy": true,
-    "Name": "O'Hara Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "laudantium",
-    "RestrictionListName": "Gorczany-Miller",
+    "DisplayName": "Jast, Zulauf and Halvorson",
+    "DisplayTooltip": "est",
+    "DisplayType": "ab",
+    "CanOrderBy": false,
+    "Name": "Donnelly Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "beatae",
+    "RestrictionListName": "Streich, Stehr and Halvorson",
     "IsVisible": false,
-    "ExtraInfo": "voluptate",
-    "Width": "quod",
-    "IconHint": "qui",
-    "HeadingIconHint": "similique"
+    "ExtraInfo": "consequatur",
+    "Width": "repudiandae",
+    "IconHint": "iste",
+    "HeadingIconHint": "non"
   }
 ]
 ```

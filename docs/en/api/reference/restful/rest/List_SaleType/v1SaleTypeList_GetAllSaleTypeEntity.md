@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 311,
-    "Name": "Howell, Brown and Johns",
-    "Tooltip": "quibusdam",
-    "Rank": 216,
+    "SaleTypeId": 872,
+    "Name": "Berge Group",
+    "Tooltip": "corporis",
+    "Rank": 365,
     "DurationUnit": "Century",
-    "SaleDuration": 926,
-    "SaleTypeCatId": 438,
-    "Deleted": true,
-    "HasGuide": true,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "SaleDuration": 729,
+    "SaleTypeCatId": 710,
+    "Deleted": false,
+    "HasGuide": false,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 840,
-    "QuoteLinesTemplate": 23,
-    "ConfirmationLinesTemplate": 673,
+    "DefaultQuoteValidity": 182,
+    "QuoteLinesTemplate": 926,
+    "ConfirmationLinesTemplate": 34,
     "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 522,
-    "MinEarningPercent": 584,
-    "GroupQuoteLinesBy": 985,
-    "SortGroupLinesBy": 885,
+    "MaxDiscountPercent": 604,
+    "MinEarningPercent": 54,
+    "GroupQuoteLinesBy": 988,
+    "SortGroupLinesBy": 303,
     "Stages": [
       {
-        "Id": 564,
-        "Name": "Stoltenberg LLC",
-        "ToolTip": "Itaque sed doloremque provident.",
-        "Deleted": false,
-        "Rank": 103,
-        "Type": "sit",
-        "ColorBlock": 942,
-        "IconHint": "labore",
+        "Id": 551,
+        "Name": "Kutch Inc and Sons",
+        "ToolTip": "Dolore est voluptas officiis molestiae molestias.",
+        "Deleted": true,
+        "Rank": 448,
+        "Type": "odio",
+        "ColorBlock": 911,
+        "IconHint": "placeat",
         "Selected": true,
-        "LastChanged": "2020-04-21T11:44:43.3355939+02:00",
+        "LastChanged": "2023-05-26T11:16:14.7307772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "debitis",
+        "ExtraInfo": "rerum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Dr. Adolphus Hermann",
+        "FullName": "Mr. Dina Crooks V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 984
+            "FieldLength": 51
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 356
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "porro",
-  "SearchString": "quas"
+  "Type": "quos",
+  "SearchString": "adipisci"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Eichmann Inc and Sons",
-    "DisplayName": "Flatley Group",
+    "Name": "Jacobson, Collier and Cummerata",
+    "DisplayName": "Keebler, Hudson and Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 205
       }
     }
   },
   {
-    "Name": "Eichmann Inc and Sons",
-    "DisplayName": "Flatley Group",
+    "Name": "Jacobson, Collier and Cummerata",
+    "DisplayName": "Keebler, Hudson and Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 205
       }
     }
   }

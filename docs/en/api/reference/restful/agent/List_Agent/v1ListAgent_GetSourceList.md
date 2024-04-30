@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Value": "voluptatem",
-    "Tooltip": "eveniet",
+    "Id": 420,
+    "Value": "harum",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 416
       }
     }
   },
   {
-    "Id": 135,
-    "Value": "voluptatem",
-    "Tooltip": "eveniet",
+    "Id": 420,
+    "Value": "harum",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 416
       }
     }
   }

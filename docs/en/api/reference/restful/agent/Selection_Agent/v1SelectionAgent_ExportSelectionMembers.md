@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 1002,
-  "TemplateName": "Parker-Klocko",
-  "UseContacts": true
+  "SelectionId": 846,
+  "TemplateName": "Schmitt Inc and Sons",
+  "UseContacts": false
 }
 ```
 

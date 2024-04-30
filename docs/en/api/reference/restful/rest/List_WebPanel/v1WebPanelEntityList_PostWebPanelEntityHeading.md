@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 100,
-  "Name": "Jacobson LLC",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "Rank": 845,
-  "UdListDefinitionId": 874
+  "HeadingId": 224,
+  "Name": "Abshire Group",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "Rank": 866,
+  "UdListDefinitionId": 696
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 741,
-  "Name": "Padberg, Hodkiewicz and Predovic",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 621,
-  "UdListDefinitionId": 581,
+  "HeadingId": 98,
+  "Name": "Renner-Miller",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 81,
+  "UdListDefinitionId": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 830
     }
   }
 }

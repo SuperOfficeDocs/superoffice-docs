@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 377,
-    "DisplayName": "Gottlieb-Gerhold",
-    "OngoingChats": 94,
+    "UserId": 609,
+    "DisplayName": "Rempel Group",
+    "OngoingChats": 994,
     "Present": false,
     "ChatTopics": [
-      430,
-      477
+      148,
+      36
     ]
   },
   {
-    "UserId": 377,
-    "DisplayName": "Gottlieb-Gerhold",
-    "OngoingChats": 94,
+    "UserId": 609,
+    "DisplayName": "Rempel Group",
+    "OngoingChats": 994,
     "Present": false,
     "ChatTopics": [
-      430,
-      477
+      148,
+      36
     ]
   }
 ]

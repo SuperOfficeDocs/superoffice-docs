@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 13 Oct 2019 11:44:42 G10T
+Last-Modified: Mon, 27 Jun 2022 11:16:14 G6T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sun, 13 Oct 2019 11:44:42 G10T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nemo",
+  "SaleText": "alias",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sun, 13 Oct 2019 11:44:42 G10T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-01-07T11:44:42.2420975+01:00",
-  "Amount": 12498.392,
-  "SaleId": 361,
-  "Earning": 1385.228,
-  "EarningPercent": 10498.9,
-  "Heading": "aliquam",
-  "Number": "1114690",
-  "Probability": 469,
-  "CreatedDate": "2020-01-27T11:44:42.2420975+01:00",
-  "UpdatedDate": "2019-10-13T11:44:42.2420975+02:00",
+  "Saledate": "2007-06-01T11:16:14.1519474+02:00",
+  "Amount": 25410.471999999998,
+  "SaleId": 906,
+  "Earning": 18619.094,
+  "EarningPercent": 4697.866,
+  "Heading": "rerum",
+  "Number": "750826",
+  "Probability": 49,
+  "CreatedDate": "2024-02-24T11:16:14.1519474+01:00",
+  "UpdatedDate": "2022-06-27T11:16:14.1519474+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 67,
+  "ActiveLinks": 617,
   "Links": [
     {
-      "EntityName": "Lockman Inc and Sons",
-      "Id": 376,
-      "Description": "Mandatory systemic hub",
-      "ExtraInfo": "nihil",
-      "LinkId": 699,
+      "EntityName": "Nader, Breitenberg and Wehner",
+      "Id": 714,
+      "Description": "De-engineered regional benchmark",
+      "ExtraInfo": "iusto",
+      "LinkId": 897,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 336
         }
       }
     }
   ],
-  "NextDueDate": "2012-12-13T11:44:42.2420975+01:00",
-  "Postit": "recusandae",
+  "NextDueDate": "2009-02-03T11:16:14.1519474+01:00",
+  "Postit": "sint",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-08-06T11:44:42.2420975+02:00",
+  "ReopenDate": "2021-04-17T11:16:14.1519474+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lockman-Lindgren",
-      "Comment": "ut",
-      "StakeholderRoleId": 680,
-      "CountryId": 168,
-      "PersonId": 290,
-      "EmailDescription": "jeramy@kutchmitchell.us",
-      "EmailId": 3,
-      "EmailAddress": "reba@torp.uk",
-      "PhoneId": 77,
-      "ContactName": "Hoppe-Cummerata",
-      "ContactId": 368,
-      "SaleId": 778,
-      "Mrmrs": "qui",
-      "Firstname": "Benny",
-      "MiddleName": "Bailey, Wehner and Anderson",
-      "Lastname": "Lakin",
-      "SaleStakeholderId": 651,
-      "Rank": 262,
-      "Phone": "(912)269-2029",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 301
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 583,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Tristin Schaden",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "vero"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "aut"
-  },
-  "PublishEventDate": "2000-03-19T11:44:42.2420975+01:00",
-  "PublishTo": "1998-06-10T11:44:42.2420975+02:00",
-  "PublishFrom": "2016-11-11T11:44:42.2420975+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 529,
-      "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "StakeholderRoleName": "Schuster-Ruecker",
+      "Comment": "quasi",
+      "StakeholderRoleId": 647,
+      "CountryId": 784,
+      "PersonId": 58,
+      "EmailDescription": "gerry_klein@boyer.biz",
+      "EmailId": 127,
+      "EmailAddress": "jimmy_kshlerin@townestokes.name",
+      "PhoneId": 96,
+      "ContactName": "Johnson, Hoppe and Mills",
+      "ContactId": 920,
+      "SaleId": 281,
+      "Mrmrs": "est",
+      "Firstname": "Elisabeth",
+      "MiddleName": "Runte-Shields",
+      "Lastname": "Bernhard",
+      "SaleStakeholderId": 971,
+      "Rank": 752,
+      "Phone": "(289)019-4130 x42584",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 654
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 621,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Stanley Dakota Gutmann Sr.",
+    "SuperOffice:2": "Alisha Watsica"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "exercitationem"
+  },
+  "CustomFields": {
+    "CustomFields1": "minus",
+    "CustomFields2": "laboriosam"
+  },
+  "PublishEventDate": "2010-04-09T11:16:14.1519474+02:00",
+  "PublishTo": "2017-02-21T11:16:14.1519474+01:00",
+  "PublishFrom": "2009-01-16T11:16:14.1519474+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 356,
+      "Visibility": "All",
+      "DisplayValue": "veniam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 528
         }
       }
     },
     {
-      "VisibleId": 529,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 528
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sun, 13 Oct 2019 11:44:42 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 53
     }
   }
 }

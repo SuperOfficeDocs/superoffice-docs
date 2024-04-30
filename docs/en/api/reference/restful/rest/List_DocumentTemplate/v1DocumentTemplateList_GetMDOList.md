@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=incidunt
+GET /api/v1/List/DocumentTemplate/MDOItems?query=velit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Mohr LLC",
-    "ToolTip": "Aut reprehenderit assumenda excepturi magnam quia.",
+    "Id": 814,
+    "Name": "Brekke, Mueller and Harvey",
+    "ToolTip": "Et officiis aliquam.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "earum",
+    "Rank": 303,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Dare Group",
-        "ToolTip": "Earum autem voluptatibus enim.",
-        "Deleted": true,
-        "Rank": 558,
-        "Type": "quidem",
+        "Id": 714,
+        "Name": "Kohler-Walsh",
+        "ToolTip": "Dolorem officiis iste illum iure sunt tempore placeat.",
+        "Deleted": false,
+        "Rank": 408,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsa",
-        "ColorBlock": 971,
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
-        "FullName": "Theresa Donnelly",
+        "IconHint": "omnis",
+        "ColorBlock": 180,
+        "ExtraInfo": "excepturi",
+        "StyleHint": "voluptatem",
+        "FullName": "Cheyanne Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldType": "System.String",
+            "FieldLength": 448
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 459,
+    "IconHint": "debitis",
+    "ColorBlock": 191,
     "ExtraInfo": "aut",
-    "StyleHint": "officiis",
-    "FullName": "Ms. King Ariel McLaughlin Sr.",
+    "StyleHint": "et",
+    "FullName": "Lily Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 870
       }
     }
   }

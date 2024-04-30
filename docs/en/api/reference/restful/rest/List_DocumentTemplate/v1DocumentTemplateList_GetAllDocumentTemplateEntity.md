@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 706,
-    "Name": "Koepp-Hoeger",
-    "Tooltip": "ipsum",
-    "SaveInDb": 91,
-    "Filename": "optio",
-    "DefaultOref": "fugit",
+    "DocumentTemplateId": 538,
+    "Name": "Yundt Inc and Sons",
+    "Tooltip": "dignissimos",
+    "SaveInDb": 481,
+    "Filename": "et",
+    "DefaultOref": "voluptatem",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 178,
-    "IntentId": 729,
-    "IsDefaultPublished": true,
-    "Rank": 157,
-    "LoadTemplateFromPlugin": 957,
-    "MimeType": "est",
+    "AutoeventId": 344,
+    "IntentId": 383,
+    "IsDefaultPublished": false,
+    "Rank": 217,
+    "LoadTemplateFromPlugin": 725,
+    "MimeType": "quo",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 762,
+    "DocumentTypeKey": 716,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "kamren.kirlin@hessel.biz",
-    "IncludeSignature": false,
+    "EmailSubject": "marquis@johnston.us",
+    "IncludeSignature": true,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "tamara_moore@macejkovic.info",
+    "SenderEmailAddress": "jerry@yundt.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 420
       }
     }
   }

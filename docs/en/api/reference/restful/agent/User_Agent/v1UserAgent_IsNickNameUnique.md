@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 167,
-  "NickName": "Mann Group"
+  "AssociateId": 574,
+  "NickName": "Muller Inc and Sons"
 }
 ```
 

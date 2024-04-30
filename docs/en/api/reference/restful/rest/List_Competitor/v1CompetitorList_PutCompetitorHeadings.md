@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 236,
-    "Name": "Cronin-Tremblay",
-    "Tooltip": "vero",
+    "HeadingId": 648,
+    "Name": "O'Hara Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 1002,
-    "UdListDefinitionId": 164
+    "Rank": 878,
+    "UdListDefinitionId": 988
   },
   {
-    "HeadingId": 236,
-    "Name": "Cronin-Tremblay",
-    "Tooltip": "vero",
+    "HeadingId": 648,
+    "Name": "O'Hara Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 1002,
-    "UdListDefinitionId": 164
+    "Rank": 878,
+    "UdListDefinitionId": 988
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Kunze Group",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 491,
+    "HeadingId": 887,
+    "Name": "Beahan Group",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 947,
+    "UdListDefinitionId": 504,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 574
       }
     }
   }

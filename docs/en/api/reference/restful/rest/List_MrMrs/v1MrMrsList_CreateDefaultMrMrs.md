@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 428,
-  "Name": "Tillman-Beier",
-  "Tooltip": "impedit",
+  "Id": 264,
+  "Name": "Kling-Yundt",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 978,
-  "Rank": 125,
+  "UdListDefinitionId": 493,
+  "Rank": 209,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 646
     }
   }
 }

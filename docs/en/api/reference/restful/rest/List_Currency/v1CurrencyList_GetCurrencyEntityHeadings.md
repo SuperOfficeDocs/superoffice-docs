@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 594,
-    "Name": "Orn-Kuphal",
-    "Tooltip": "vitae",
+    "HeadingId": 175,
+    "Name": "Legros, Turner and Windler",
+    "Tooltip": "maxime",
     "Deleted": false,
-    "Rank": 427,
-    "UdListDefinitionId": 451,
+    "Rank": 46,
+    "UdListDefinitionId": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

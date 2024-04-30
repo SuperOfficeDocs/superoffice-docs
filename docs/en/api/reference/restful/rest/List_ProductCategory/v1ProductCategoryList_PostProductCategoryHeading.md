@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 444,
-  "Name": "Prohaska Group",
-  "Tooltip": "recusandae",
+  "HeadingId": 94,
+  "Name": "Marks, Schinner and Huels",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 281,
-  "UdListDefinitionId": 145
+  "Rank": 928,
+  "UdListDefinitionId": 550
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "Brown Inc and Sons",
-  "Tooltip": "dolore",
+  "HeadingId": 19,
+  "Name": "Cole-Bernier",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 103,
-  "UdListDefinitionId": 350,
+  "Rank": 236,
+  "UdListDefinitionId": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

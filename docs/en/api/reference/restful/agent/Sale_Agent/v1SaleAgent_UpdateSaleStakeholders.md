@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Spinka-Hudson",
-      "Comment": "dolor",
-      "StakeholderRoleId": 193,
-      "CountryId": 705,
-      "PersonId": 417,
-      "EmailDescription": "geovanni.hills@wisozk.info",
-      "EmailId": 741,
-      "EmailAddress": "lavern@gradylang.biz",
-      "PhoneId": 117,
-      "ContactName": "Rowe, Reichert and Jacobson",
-      "ContactId": 347,
-      "SaleId": 3,
-      "Mrmrs": "doloribus",
-      "Firstname": "Natasha",
-      "MiddleName": "Vandervort-Mohr",
-      "Lastname": "Labadie",
-      "SaleStakeholderId": 876,
-      "Rank": 98,
-      "Phone": "(137)822-6690 x21979"
+      "StakeholderRoleName": "Gorczany Inc and Sons",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 305,
+      "CountryId": 100,
+      "PersonId": 922,
+      "EmailDescription": "elva@kuhickunze.co.uk",
+      "EmailId": 33,
+      "EmailAddress": "dusty_wunsch@padberghudson.us",
+      "PhoneId": 962,
+      "ContactName": "Hagenes-Ward",
+      "ContactId": 952,
+      "SaleId": 441,
+      "Mrmrs": "et",
+      "Firstname": "Preston",
+      "MiddleName": "Kertzmann-Kunze",
+      "Lastname": "Hessel",
+      "SaleStakeholderId": 836,
+      "Rank": 990,
+      "Phone": "(637)578-8046"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Grimes, Blanda and Hyatt",
-    "Comment": "ex",
-    "StakeholderRoleId": 510,
-    "CountryId": 71,
-    "PersonId": 621,
-    "EmailDescription": "christ_schaden@white.com",
-    "EmailId": 636,
-    "EmailAddress": "maritza_schowalter@kunze.info",
-    "PhoneId": 298,
-    "ContactName": "Gottlieb-Champlin",
-    "ContactId": 937,
-    "SaleId": 531,
-    "Mrmrs": "quae",
-    "Firstname": "Cicero",
-    "MiddleName": "Parisian, Rosenbaum and Lubowitz",
-    "Lastname": "Schaden",
-    "SaleStakeholderId": 949,
-    "Rank": 138,
-    "Phone": "180.873.6290 x168",
+    "StakeholderRoleName": "Adams LLC",
+    "Comment": "est",
+    "StakeholderRoleId": 934,
+    "CountryId": 352,
+    "PersonId": 410,
+    "EmailDescription": "willie@abbott.uk",
+    "EmailId": 237,
+    "EmailAddress": "kenyon@bailey.uk",
+    "PhoneId": 309,
+    "ContactName": "Will, Fahey and Hyatt",
+    "ContactId": 245,
+    "SaleId": 538,
+    "Mrmrs": "perferendis",
+    "Firstname": "Burley",
+    "MiddleName": "Cormier, Hoeger and Ernser",
+    "Lastname": "McGlynn",
+    "SaleStakeholderId": 502,
+    "Rank": 687,
+    "Phone": "(172)567-0712 x0345",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 971
       }
     }
   }

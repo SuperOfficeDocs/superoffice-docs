@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Smitham, Breitenberg and Bashirian",
-  "Tooltip": "vel",
+  "Id": 168,
+  "Name": "Parker LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 422,
-  "Rank": 19
+  "UdListDefinitionId": 635,
+  "Rank": 956
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "Beatty Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 354,
-  "Rank": 955,
+  "Id": 187,
+  "Name": "Heaney, Bradtke and Lowe",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 19,
+  "Rank": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

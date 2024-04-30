@@ -76,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <UserDefinedFieldInfo:IsMandatory xsi:type="xsd:boolean">false</UserDefinedFieldInfo:IsMandatory>
      <UserDefinedFieldInfo:IsReadOnly xsi:type="xsd:boolean">false</UserDefinedFieldInfo:IsReadOnly>
      <UserDefinedFieldInfo:IsExternal xsi:type="xsd:boolean">false</UserDefinedFieldInfo:IsExternal>
+     <UserDefinedFieldInfo:IsDisplayField xsi:type="xsd:boolean">false</UserDefinedFieldInfo:IsDisplayField>
      <UserDefinedFieldInfo:Rank xsi:type="xsd:int">0</UserDefinedFieldInfo:Rank>
      <UserDefinedFieldInfo:TemplateVariableName xsi:type="xsd:string"></UserDefinedFieldInfo:TemplateVariableName>
     </UserDefinedFieldInfo:FieldInfoBase>

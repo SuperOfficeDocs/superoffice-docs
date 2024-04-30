@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 534,
-  "Name": "Macejkovic, Gerhold and Strosin",
-  "CurrencyId": 506,
-  "EnglishName": "Jerde, Metz and Howe",
+  "CountryId": 577,
+  "Name": "Kreiger, Schimmel and Daniel",
+  "CurrencyId": 633,
+  "EnglishName": "Koelpin, Funk and Abshire",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Optional incremental intranet",
-  "OrgNrText": "515134",
-  "InterAreaPrefix": "qui",
-  "DialInPrefix": "id",
-  "ZipPrefix": "dolore",
-  "DomainName": "Balistreri Group",
-  "AddressLayoutId": 114,
-  "DomesticAddressLayoutId": 771,
-  "ForeignAddressLayoutId": 3,
-  "Rank": 312,
-  "Tooltip": "et",
+  "ImageDescription": "Fully-configurable radical benchmark",
+  "OrgNrText": "1070744",
+  "InterAreaPrefix": "dolores",
+  "DialInPrefix": "repellendus",
+  "ZipPrefix": "dolores",
+  "DomainName": "Lesch, Purdy and Kris",
+  "AddressLayoutId": 1002,
+  "DomesticAddressLayoutId": 105,
+  "ForeignAddressLayoutId": 884,
+  "Rank": 279,
+  "Tooltip": "in",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 706
     }
   }
 }

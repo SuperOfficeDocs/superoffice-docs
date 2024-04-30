@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 567
+  "ChatTopicId": 821
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 881,
-  "TopicId": 773,
+  "ChatSessionId": 680,
+  "TopicId": 744,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quo",
-  "CustomerHost": "dolorum",
-  "CustomerName": "Morar, Reichel and Hirthe",
-  "CustomerEmail": "mac@heller.name",
-  "CustomerPhone": "727-300-8951 x1272",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Raynor, Conn and Gerhold",
+  "CustomerAlias": "veritatis",
+  "CustomerHost": "ut",
+  "CustomerName": "Harvey-Langworth",
+  "CustomerEmail": "alberta.bosco@bosco.us",
+  "CustomerPhone": "883-112-0717 x347",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Anderson-Harvey",
   "Status": "Closed",
-  "FirstMessage": "tempore",
-  "LastMessage": "pariatur",
-  "WhenRequested": "2006-09-25T11:44:32.9786073+02:00",
-  "WhenStarted": "2022-08-31T11:44:32.9786073+02:00",
-  "WhenEnded": "2009-08-12T11:44:32.9786073+02:00",
-  "WhenIdle": "2019-06-14T11:44:32.9786073+02:00",
-  "WhenFetched": "2004-09-26T11:44:32.9786073+02:00",
-  "SessionKey": "autem",
-  "InitialQueuePos": 667,
-  "AlertLevel": 320,
-  "Rank": 952,
+  "FirstMessage": "odio",
+  "LastMessage": "eos",
+  "WhenRequested": "2009-11-29T11:16:08.8347248+01:00",
+  "WhenStarted": "2012-05-30T11:16:08.8347248+02:00",
+  "WhenEnded": "2010-06-06T11:16:08.8347248+02:00",
+  "WhenIdle": "2005-01-18T11:16:08.8347248+01:00",
+  "WhenFetched": "2003-06-20T11:16:08.8347248+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 394,
+  "AlertLevel": 625,
+  "Rank": 1001,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 842,
+  "ChatbotIsActive": false,
+  "Rating": 297,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 44
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 944,
+  "ReportId": 417,
   "ReportCategory": "All",
-  "Description": "Reverse-engineered system-worthy leverage",
+  "Description": "Distributed attitude-oriented moratorium",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kohler, Schneider and Treutel",
-  "AssociateId": 482,
-  "TemplateId": 23,
-  "Published": false,
+  "Name": "Wyman-Douglas",
+  "AssociateId": 509,
+  "TemplateId": 492,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 411
     }
   }
 }

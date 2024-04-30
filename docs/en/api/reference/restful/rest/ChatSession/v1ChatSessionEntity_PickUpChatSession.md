@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 428,
-  "TopicId": 833,
+  "ChatSessionId": 280,
+  "TopicId": 342,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptates",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Kemmer Group",
-  "CustomerEmail": "justen.willms@nicolas.name",
-  "CustomerPhone": "901-907-6574 x80492",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schaefer Group",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "similique",
+  "CustomerName": "Quigley-Medhurst",
+  "CustomerEmail": "elmer.roob@purdyconsidine.info",
+  "CustomerPhone": "(371)542-9062",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Lubowitz Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "doloribus",
-  "LastMessage": "voluptates",
-  "WhenRequested": "2002-12-19T11:44:41.6484298+01:00",
-  "WhenStarted": "2005-10-19T11:44:41.6484298+02:00",
-  "WhenEnded": "2023-12-12T11:44:41.6484298+01:00",
-  "WhenIdle": "2022-07-24T11:44:41.6484298+02:00",
-  "WhenFetched": "2008-02-16T11:44:41.6484298+01:00",
-  "SessionKey": "quidem",
-  "InitialQueuePos": 643,
-  "AlertLevel": 300,
-  "Rank": 124,
+  "FirstMessage": "et",
+  "LastMessage": "fugit",
+  "WhenRequested": "2007-05-23T11:16:13.7299968+02:00",
+  "WhenStarted": "2023-02-04T11:16:13.7299968+01:00",
+  "WhenEnded": "2005-08-22T11:16:13.7299968+02:00",
+  "WhenIdle": "2018-06-04T11:16:13.7299968+02:00",
+  "WhenFetched": "2015-01-29T11:16:13.7299968+01:00",
+  "SessionKey": "deserunt",
+  "InitialQueuePos": 263,
+  "AlertLevel": 912,
+  "Rank": 188,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 81,
+  "ChatbotIsActive": true,
+  "Rating": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 272
     }
   }
 }

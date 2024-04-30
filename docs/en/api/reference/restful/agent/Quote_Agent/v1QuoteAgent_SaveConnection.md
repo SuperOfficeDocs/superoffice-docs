@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 964,
-  "ERPName": "Padberg-Collins",
-  "DisplayName": "Hahn, Pfannerstill and Denesik",
-  "DisplayDescription": "Automated local application",
-  "Rank": 440,
-  "ConnectorName": "Legros-Johns",
-  "ErpConnectionId": 302,
-  "ExtraData": "quae",
+  "QuoteConnectionId": 950,
+  "ERPName": "Bashirian-Kilback",
+  "DisplayName": "Adams, Goyette and Cormier",
+  "DisplayDescription": "Fundamental coherent flexibility",
+  "Rank": 842,
+  "ConnectorName": "Haley, Connelly and Brekke",
+  "ErpConnectionId": 419,
+  "ExtraData": "culpa",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 345,
-      "ERPPriceListKey": "soluta",
-      "QuoteConnectionId": 66,
-      "Name": "Stiedemann LLC",
-      "Description": "Cross-group 24/7 productivity",
-      "Currency": "nesciunt",
-      "CurrencyName": "Okuneva-Lehner",
-      "ValidFrom": "2002-03-23T11:44:34.2907996+01:00",
-      "ValidTo": "2021-06-28T11:44:34.2907996+02:00",
+      "PriceListId": 600,
+      "ERPPriceListKey": "ut",
+      "QuoteConnectionId": 648,
+      "Name": "Waters LLC",
+      "Description": "Visionary local open system",
+      "Currency": "in",
+      "CurrencyName": "Hamill Group",
+      "ValidFrom": "2005-02-25T11:16:09.6005114+01:00",
+      "ValidTo": "2018-06-16T11:16:09.6005114+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 18
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    384,
-    753
+    177,
+    188
   ],
   "AssociateAccessIds": [
-    152,
-    620
+    118,
+    539
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldLength": 586
     }
   }
 }

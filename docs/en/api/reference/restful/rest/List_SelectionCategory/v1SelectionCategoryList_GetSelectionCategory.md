@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "O'Hara, Ward and Stroman",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 775,
+  "Id": 125,
+  "Name": "Mitchell LLC",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 73,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 661
     }
   }
 }

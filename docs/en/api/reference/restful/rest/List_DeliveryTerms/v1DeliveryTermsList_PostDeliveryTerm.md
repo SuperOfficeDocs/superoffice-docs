@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Flatley LLC",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 925,
-  "Rank": 779
+  "Id": 575,
+  "Name": "Swaniawski-Wilkinson",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 816,
+  "Rank": 905
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Prohaska LLC",
-  "Tooltip": "necessitatibus",
+  "Id": 227,
+  "Name": "Bernier Group",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 377,
-  "Rank": 476,
+  "UdListDefinitionId": 349,
+  "Rank": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

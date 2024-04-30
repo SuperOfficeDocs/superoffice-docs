@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Kessler Inc and Sons",
-    "ToolTip": "Doloribus numquam iure aut dolore aspernatur.",
-    "Deleted": true,
-    "Rank": 464,
-    "Type": "amet",
-    "ColorBlock": 729,
-    "IconHint": "natus",
-    "Selected": true,
-    "LastChanged": "2009-11-10T11:44:33.7909305+01:00",
+    "Id": 718,
+    "Name": "Ebert LLC",
+    "ToolTip": "Sequi placeat eveniet quod.",
+    "Deleted": false,
+    "Rank": 498,
+    "Type": "quo",
+    "ColorBlock": 550,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2013-08-02T11:16:09.3034579+02:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Gottlieb-Osinski",
-        "ToolTip": "Amet vel.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "ut",
-        "ColorBlock": 541,
-        "IconHint": "ea",
+        "Id": 45,
+        "Name": "Kris, Gulgowski and Hyatt",
+        "ToolTip": "Magni fugiat.",
+        "Deleted": false,
+        "Rank": 338,
+        "Type": "eos",
+        "ColorBlock": 172,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2008-02-05T11:44:33.7909305+01:00",
+        "LastChanged": "2016-04-11T11:16:09.3034579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Glennie Marvin",
+        "ExtraInfo": "soluta",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Mr. Leland Tommie Schmitt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldType": "System.String",
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "molestias",
-    "Hidden": false,
-    "FullName": "Ms. Erna Wisozk DVM",
+    "ExtraInfo": "eius",
+    "StyleHint": "impedit",
+    "Hidden": true,
+    "FullName": "Vincenza Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 683
       }
     }
   }

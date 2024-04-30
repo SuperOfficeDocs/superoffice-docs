@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=186
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=264
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lakin Inc and Sons",
-  "Comment": "est",
-  "StakeholderRoleId": 793,
-  "CountryId": 41,
-  "PersonId": 466,
-  "EmailDescription": "reece_huel@waelchi.com",
-  "EmailId": 583,
-  "EmailAddress": "kaia.halvorson@ferry.co.uk",
-  "PhoneId": 110,
-  "ContactName": "Kirlin Group",
-  "ContactId": 573,
-  "SaleId": 393,
-  "Mrmrs": "ex",
-  "Firstname": "Mavis",
-  "MiddleName": "Doyle, Hand and Wehner",
-  "Lastname": "Corkery",
-  "SaleStakeholderId": 764,
-  "Rank": 143,
-  "Phone": "(888)471-3182 x72296",
+  "StakeholderRoleName": "Brown, Fay and Kreiger",
+  "Comment": "maiores",
+  "StakeholderRoleId": 683,
+  "CountryId": 18,
+  "PersonId": 785,
+  "EmailDescription": "pascale.kohler@krajcikkrajcik.us",
+  "EmailId": 847,
+  "EmailAddress": "francesco@grimes.ca",
+  "PhoneId": 105,
+  "ContactName": "Schinner-Boehm",
+  "ContactId": 226,
+  "SaleId": 513,
+  "Mrmrs": "voluptate",
+  "Firstname": "Rodrick",
+  "MiddleName": "Thiel, Frami and Wintheiser",
+  "Lastname": "Wunsch",
+  "SaleStakeholderId": 545,
+  "Rank": 382,
+  "Phone": "571-516-7715 x72796",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

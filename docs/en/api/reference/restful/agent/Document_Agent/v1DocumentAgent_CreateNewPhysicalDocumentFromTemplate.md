@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 829,
-  "PersonId": 784,
-  "AppointmentId": 20,
-  "DocumentId": 148,
-  "SaleId": 19,
-  "SelectionId": 5,
-  "ProjectId": 773,
-  "UiCulture": "in"
+  "ContactId": 358,
+  "PersonId": 472,
+  "AppointmentId": 557,
+  "DocumentId": 100,
+  "SaleId": 104,
+  "SelectionId": 421,
+  "ProjectId": 494,
+  "UiCulture": "corporis"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 396,
+  "DocumentId": 926,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "illo",
-  "Header": "consequuntur",
-  "Name": "Price, Rutherford and Wilkinson",
-  "OurRef": "deleniti",
-  "YourRef": "nobis",
-  "CreatedDate": "2019-11-26T11:44:33.5253557+01:00",
-  "UpdatedDate": "2017-12-04T11:44:33.5253557+01:00",
-  "Description": "Self-enabling even-keeled productivity",
+  "Attention": "unde",
+  "Header": "accusamus",
+  "Name": "Fadel-Rippin",
+  "OurRef": "dolorum",
+  "YourRef": "fugiat",
+  "CreatedDate": "2001-02-27T11:16:09.1316065+01:00",
+  "UpdatedDate": "2022-04-08T11:16:09.1316065+02:00",
+  "Description": "Self-enabling clear-thinking hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-11-11T11:44:33.5253557+01:00",
-  "ExternalRef": "impedit",
+  "Date": "2023-05-23T11:16:09.1316065+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 787,
+  "ActiveLinks": 630,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Oberbrunner-Cassin",
-      "Id": 233,
-      "Description": "Face to face incremental challenge",
-      "ExtraInfo": "soluta",
-      "LinkId": 302,
+      "EntityName": "Heidenreich-Bayer",
+      "Id": 352,
+      "Description": "Cross-group web-enabled encoding",
+      "ExtraInfo": "consectetur",
+      "LinkId": 572,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldType": "System.Int32",
+          "FieldLength": 721
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 245,
-  "Snum": 705,
+  "SuggestedDocumentId": 438,
+  "Snum": 36,
   "UserDefinedFields": {
-    "SuperOffice:1": "444824531",
-    "SuperOffice:2": "1226605308"
+    "SuperOffice:1": "Caitlyn Wiegand PhD",
+    "SuperOffice:2": "Karen Gusikowski"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "et"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "est"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2010-07-02T11:44:33.5253557+02:00",
-  "PublishTo": "2022-08-06T11:44:33.5253557+02:00",
-  "PublishFrom": "2004-03-02T11:44:33.5253557+01:00",
+  "PublishEventDate": "1998-07-30T11:16:09.1316065+02:00",
+  "PublishTo": "2016-11-07T11:16:09.1316065+01:00",
+  "PublishFrom": "2003-09-30T11:16:09.1316065+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 253,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     },
     {
-      "VisibleId": 253,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 218
     }
   }
 }

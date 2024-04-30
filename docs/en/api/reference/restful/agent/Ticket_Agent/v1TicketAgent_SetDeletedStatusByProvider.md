@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger, Little and Will",
+  "ProviderName": "Von Group",
   "Restrictions": [
     {
-      "Name": "Predovic-Hagenes",
-      "Operator": "repellat",
+      "Name": "Hermann-Schamberger",
+      "Operator": "et",
       "Values": [
-        "accusamus",
-        "sunt"
+        "commodi",
+        "fugit"
       ],
       "DisplayValues": [
-        "rerum",
-        "nemo"
+        "voluptatem",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 852,
+      "InterParenthesis": 935,
       "InterOperator": "And",
-      "UniqueHash": 518
+      "UniqueHash": 155
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  148,
-  309
+  843,
+  634
 ]
 ```

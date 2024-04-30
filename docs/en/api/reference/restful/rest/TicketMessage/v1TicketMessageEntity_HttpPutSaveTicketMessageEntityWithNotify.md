@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 458,
+  "EjMessageId": 158,
   "Ticket": null,
-  "CreatedAt": "1999-01-13T11:44:42.679493+01:00",
+  "CreatedAt": "1997-09-23T11:16:14.3085768+02:00",
   "CreatedBy": null,
-  "Author": "quis",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "suscipit",
-  "TimeSpent": 177,
-  "Body": "qui",
-  "HtmlBody": "provident",
-  "EmailHeader": "chaya.swaniawski@klein.name",
-  "DebugInfo": "et",
-  "MailSorter": "est",
+  "MessageId": "enim",
+  "TimeSpent": 590,
+  "Body": "eius",
+  "HtmlBody": "id",
+  "EmailHeader": "elwyn@marks.uk",
+  "DebugInfo": "quia",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "asperiores",
+  "SearchTitle": "minima",
   "MessageHeaders": [
     {
-      "Id": 748,
-      "Name": "Morissette, Stehr and Reichert",
-      "Value": "animi",
+      "Id": 346,
+      "Name": "Zulauf, Steuber and Fadel",
+      "Value": "quibusdam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 748,
-      "Name": "Morissette, Stehr and Reichert",
-      "Value": "animi",
+      "Id": 346,
+      "Name": "Zulauf, Steuber and Fadel",
+      "Value": "quibusdam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "qui",
-  "Sentiment": 132,
-  "SentimentConfidence": 340,
+  "Important": true,
+  "Language": "sit",
+  "Sentiment": 714,
+  "SentimentConfidence": 330,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 87,
-      "Name": "Bode-Willms",
-      "ContentType": "dicta",
-      "AttSize": 815,
-      "InlineImage": false,
-      "ContentId": "quisquam",
-      "AuthKey": "pariatur",
-      "IsSafeFileExtension": true
+      "AttachmentId": 361,
+      "Name": "Wilkinson Group",
+      "ContentType": "et",
+      "AttSize": 34,
+      "InlineImage": true,
+      "ContentId": "culpa",
+      "AuthKey": "quisquam",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "et",
+    "CustomFields2": "quam"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 565,
+  "EjMessageId": 513,
   "Ticket": null,
-  "CreatedAt": "2009-04-01T11:44:42.679493+02:00",
+  "CreatedAt": "2011-06-14T11:16:14.3242001+02:00",
   "CreatedBy": null,
-  "Author": "unde",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tenetur",
-  "TimeSpent": 256,
-  "Body": "quas",
-  "HtmlBody": "praesentium",
-  "EmailHeader": "janelle@gerholdvandervort.biz",
-  "DebugInfo": "rerum",
-  "MailSorter": "molestias",
+  "MessageId": "architecto",
+  "TimeSpent": 83,
+  "Body": "qui",
+  "HtmlBody": "accusamus",
+  "EmailHeader": "dion_green@predovicflatley.us",
+  "DebugInfo": "debitis",
+  "MailSorter": "corporis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "id",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 491,
-      "Name": "McGlynn-Effertz",
-      "Value": "accusantium",
+      "Id": 300,
+      "Name": "Luettgen, Moore and Davis",
+      "Value": "perferendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldLength": 477
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "porro",
-  "Sentiment": 566,
-  "SentimentConfidence": 71,
+  "Important": true,
+  "Language": "explicabo",
+  "Sentiment": 843,
+  "SentimentConfidence": 817,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 227,
-      "Name": "Bergstrom LLC",
-      "ContentType": "et",
-      "AttSize": 888,
-      "InlineImage": true,
-      "ContentId": "adipisci",
-      "AuthKey": "dolores",
+      "AttachmentId": 490,
+      "Name": "Pagac, Little and Wisozk",
+      "ContentType": "maiores",
+      "AttSize": 784,
+      "InlineImage": false,
+      "ContentId": "fuga",
+      "AuthKey": "dolorem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldType": "System.String",
+          "FieldLength": 829
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "qui",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 572
     }
   }
 }

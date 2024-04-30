@@ -90,18 +90,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 478,
-  "Name": "Rowe-Crooks",
-  "ContentType": "voluptas",
-  "AttSize": 479,
-  "InlineImage": true,
-  "ContentId": "molestiae",
-  "AuthKey": "officiis",
-  "IsSafeFileExtension": true
+  "AttachmentId": 884,
+  "Name": "Kemmer, Schowalter and Sporer",
+  "ContentType": "velit",
+  "AttSize": 322,
+  "InlineImage": false,
+  "ContentId": "voluptatibus",
+  "AuthKey": "animi",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 671,
-  "Name": "Davis, Luettgen and Sawayn",
-  "ContentType": "nihil",
-  "AttSize": 248,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "fugit",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 226,
+  "Name": "Harber, Kassulke and Davis",
+  "ContentType": "reprehenderit",
+  "AttSize": 328,
+  "InlineImage": false,
+  "ContentId": "voluptates",
+  "AuthKey": "et",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 717
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

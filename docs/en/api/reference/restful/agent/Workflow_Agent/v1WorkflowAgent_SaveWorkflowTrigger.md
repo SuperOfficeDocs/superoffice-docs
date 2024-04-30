@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 121,
-  "WorkflowId": 479,
+  "WorkflowTriggerId": 891,
+  "WorkflowId": 577,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schultz LLC",
-      "Description": "Compatible transitional knowledge user",
-      "Rank": 480,
+      "Name": "Mayert-Prohaska",
+      "Description": "Pre-emptive tangible approach",
+      "Rank": 515,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schultz LLC",
-      "Description": "Compatible transitional knowledge user",
-      "Rank": 480,
+      "Name": "Mayert-Prohaska",
+      "Description": "Pre-emptive tangible approach",
+      "Rank": 515,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 650,
-  "WorkflowId": 474,
+  "WorkflowTriggerId": 1002,
+  "WorkflowId": 446,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Beahan Inc and Sons",
-      "Description": "Assimilated non-volatile capacity",
-      "Rank": 865,
+      "Name": "Hoeger, Wisoky and Kulas",
+      "Description": "Multi-layered dedicated internet solution",
+      "Rank": 364,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Beahan Inc and Sons",
-      "Description": "Assimilated non-volatile capacity",
-      "Rank": 865,
+      "Name": "Hoeger, Wisoky and Kulas",
+      "Description": "Multi-layered dedicated internet solution",
+      "Rank": 364,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldLength": 66
     }
   }
 }

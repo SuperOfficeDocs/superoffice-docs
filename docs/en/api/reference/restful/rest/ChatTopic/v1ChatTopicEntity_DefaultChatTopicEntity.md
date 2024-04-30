@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 498,
-  "Name": "Boyer, Herzog and Russel",
-  "Description": "Compatible client-server secured line",
-  "WelcomeMessage": "dicta",
+  "ChatTopicId": 798,
+  "Name": "Jacobi-Yost",
+  "Description": "Expanded local utilisation",
+  "WelcomeMessage": "quas",
   "Language": null,
-  "LastAccept": "2019-08-18T11:44:41.6952942+02:00",
-  "SecondsPrAccept": 329,
-  "AlertRecipient": "esse",
+  "LastAccept": "2022-07-03T11:16:13.7456138+02:00",
+  "SecondsPrAccept": 379,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "sed",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "maiores",
-  "WarnNewChatMinutes": 233,
-  "WarnManagerNewChatMinutes": 426,
-  "TicketEnabled": true,
+  "BadgeHeader": "eveniet",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "suscipit",
+  "WarnNewChatMinutes": 999,
+  "WarnManagerNewChatMinutes": 541,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 956,
-  "WarnManagerChatMessageMinutes": 708,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 113,
-  "OfflineFormQueueLength": 863,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 413,
+  "WarnManagerChatMessageMinutes": 32,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 635,
+  "OfflineFormQueueLength": 330,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 251
     }
   }
 }

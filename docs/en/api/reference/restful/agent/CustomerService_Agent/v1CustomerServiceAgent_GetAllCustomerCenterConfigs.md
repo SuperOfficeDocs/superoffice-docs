@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 308,
+    "CustConfigId": 314,
     "Type": "Options",
-    "Config": "quis",
-    "CustLangId": 641,
-    "Registered": "2023-02-21T11:44:33.3535225+01:00",
-    "RegisteredAssociateId": 725,
-    "Updated": "2000-01-11T11:44:33.3535225+01:00",
-    "UpdatedAssociateId": 351,
+    "Config": "explicabo",
+    "CustLangId": 615,
+    "Registered": "2018-03-12T11:16:08.9597121+01:00",
+    "RegisteredAssociateId": 147,
+    "Updated": "2012-10-26T11:16:08.9597121+02:00",
+    "UpdatedAssociateId": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

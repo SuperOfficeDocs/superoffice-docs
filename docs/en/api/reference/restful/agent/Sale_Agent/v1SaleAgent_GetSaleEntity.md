@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=176
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=676
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quam",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-12-23T11:44:34.3845408+01:00",
-  "Amount": 16434.696,
-  "SaleId": 566,
-  "Earning": 7330.4259999999995,
-  "EarningPercent": 1842.792,
-  "Heading": "aut",
-  "Number": "755999",
-  "Probability": 777,
-  "CreatedDate": "2008-05-02T11:44:34.3845408+02:00",
-  "UpdatedDate": "2009-08-17T11:44:34.3845408+02:00",
+  "Saledate": "2013-10-12T11:16:09.678746+02:00",
+  "Amount": 3626.038,
+  "SaleId": 217,
+  "Earning": 27018.214,
+  "EarningPercent": 27654.415999999997,
+  "Heading": "eius",
+  "Number": "1466319",
+  "Probability": 823,
+  "CreatedDate": "2017-07-28T11:16:09.678746+02:00",
+  "UpdatedDate": "2001-09-26T11:16:09.678746+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 497,
+  "ActiveLinks": 586,
   "Links": [
     {
-      "EntityName": "Cremin Group",
-      "Id": 502,
-      "Description": "Universal tangible circuit",
-      "ExtraInfo": "non",
-      "LinkId": 606,
+      "EntityName": "Osinski Group",
+      "Id": 601,
+      "Description": "Multi-tiered web-enabled data-warehouse",
+      "ExtraInfo": "ipsam",
+      "LinkId": 398,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldLength": 267
         }
       }
     }
   ],
-  "NextDueDate": "1997-11-19T11:44:34.3845408+01:00",
-  "Postit": "voluptatibus",
+  "NextDueDate": "1997-11-28T11:16:09.678746+01:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-02-21T11:44:34.3845408+01:00",
+  "ReopenDate": "2021-09-15T11:16:09.678746+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fahey-O'Conner",
-      "Comment": "est",
-      "StakeholderRoleId": 17,
-      "CountryId": 738,
-      "PersonId": 163,
-      "EmailDescription": "ada@denesik.uk",
-      "EmailId": 314,
-      "EmailAddress": "yvette.schmidt@bauch.biz",
-      "PhoneId": 458,
-      "ContactName": "Ortiz Group",
-      "ContactId": 291,
-      "SaleId": 796,
-      "Mrmrs": "aut",
-      "Firstname": "Helena",
-      "MiddleName": "Boehm Inc and Sons",
-      "Lastname": "Mann",
-      "SaleStakeholderId": 193,
-      "Rank": 364,
-      "Phone": "532.594.3301 x6059",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 530,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "ex"
-  },
-  "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "voluptates"
-  },
-  "PublishEventDate": "2001-08-29T11:44:34.3845408+02:00",
-  "PublishTo": "2021-02-17T11:44:34.3845408+01:00",
-  "PublishFrom": "2017-05-20T11:44:34.3845408+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 657,
-      "Visibility": "All",
-      "DisplayValue": "culpa",
+      "StakeholderRoleName": "Olson, Hilll and Cummerata",
+      "Comment": "commodi",
+      "StakeholderRoleId": 270,
+      "CountryId": 193,
+      "PersonId": 103,
+      "EmailDescription": "sammy@gerhold.ca",
+      "EmailId": 378,
+      "EmailAddress": "jason_roberts@keebler.co.uk",
+      "PhoneId": 410,
+      "ContactName": "Kessler-Doyle",
+      "ContactId": 592,
+      "SaleId": 748,
+      "Mrmrs": "nam",
+      "Firstname": "Murphy",
+      "MiddleName": "McLaughlin, Anderson and Kozey",
+      "Lastname": "Russel",
+      "SaleStakeholderId": 471,
+      "Rank": 972,
+      "Phone": "1-812-654-8235 x7879",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 301
+          "FieldLength": 456
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 287,
+  "UserDefinedFields": {
+    "SuperOffice:1": "2026687647",
+    "SuperOffice:2": "187425985"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ad",
+    "ExtraFields2": "aperiam"
+  },
+  "CustomFields": {
+    "CustomFields1": "maxime",
+    "CustomFields2": "et"
+  },
+  "PublishEventDate": "2010-05-02T11:16:09.678746+02:00",
+  "PublishTo": "2014-01-22T11:16:09.678746+01:00",
+  "PublishFrom": "2022-01-21T11:16:09.678746+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 857,
+      "Visibility": "All",
+      "DisplayValue": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 848
         }
       }
     },
     {
-      "VisibleId": 657,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 301
+          "FieldType": "System.Int32",
+          "FieldLength": 848
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 813
     }
   }
 }

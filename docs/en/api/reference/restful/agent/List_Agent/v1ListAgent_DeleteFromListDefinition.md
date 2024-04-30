@@ -69,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "UdListDefinitionId": 128
+  "Id": 202,
+  "UdListDefinitionId": 545
 }
 ```
 

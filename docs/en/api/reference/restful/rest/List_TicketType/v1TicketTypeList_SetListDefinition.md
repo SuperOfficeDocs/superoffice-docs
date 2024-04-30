@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Hegmann, Lehner and Kihn",
-  "Tooltip": "sed",
+  "Id": 776,
+  "Name": "Kulas LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 898,
-  "IsCustomList": true,
+  "Rank": 492,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aperiam",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 112,
-  "Name": "Pagac-Jaskolski",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "Rank": 339,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 18,
+  "Name": "Willms LLC",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 569,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 65
     }
   }
 }

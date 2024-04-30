@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 382
+  "Count": 238
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 959,
-    "StartDate": "2023-10-22T11:44:32.7599049+02:00",
-    "EndDate": "2023-06-28T11:44:32.7599049+02:00",
+    "AppointmentId": 296,
+    "StartDate": "2020-07-09T11:16:08.6941113+02:00",
+    "EndDate": "1997-03-22T11:16:08.6941113+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Kathlyn Ankunding",
-    "ContactName": "Deckow-Marquardt",
-    "Description": "Polarised client-driven Graphic Interface",
-    "PersonFullName": "Charles Berge",
-    "PersonId": 457,
-    "ContactId": 757,
-    "ProjectId": 621,
-    "ProjectName": "Hayes Inc and Sons",
+    "Task": "dolores",
+    "AssociateFullName": "Isabella Price II",
+    "ContactName": "Stiedemann, Zboncak and Konopelski",
+    "Description": "Ameliorated methodical approach",
+    "PersonFullName": "Prof. Frederic Rath DVM",
+    "PersonId": 525,
+    "ContactId": 359,
+    "ProjectId": 757,
+    "ProjectName": "Krajcik Group",
     "IsPublished": true,
-    "AssociateId": 917,
-    "ColorIndex": 32,
+    "AssociateId": 689,
+    "ColorIndex": 933,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 73,
-    "PriorityName": "Ullrich LLC",
+    "PriorityId": 710,
+    "PriorityName": "Green-Greenholt",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2004-05-09T11:44:32.7599049+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2001-10-06T11:16:08.6941113+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-02-14T11:44:32.7599049+01:00",
-    "RecurringEndDate": "2014-09-09T11:44:32.7599049+02:00",
-    "MotherId": 157,
-    "AssignedBy": 361,
-    "AssignedByFullName": "Dr. Aiden Donnelly",
+    "RecurringStartDate": "2017-10-02T11:16:08.6941113+02:00",
+    "RecurringEndDate": "2007-06-18T11:16:08.6941113+02:00",
+    "MotherId": 567,
+    "AssignedBy": 749,
+    "AssignedByFullName": "Earl Collier",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "aut",
-    "SaleId": 149,
-    "SaleName": "Dach-Powlowski",
-    "AssociateName": "Bartell-Price",
-    "CreatedDate": "1997-08-25T11:44:32.7599049+02:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Evans Herman",
-    "CreatedByAssociateId": 780,
+    "Location": "rerum",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 690,
+    "SaleName": "Okuneva-Kunde",
+    "AssociateName": "Graham-Gerhold",
+    "CreatedDate": "1997-12-30T11:16:08.6941113+01:00",
+    "CreatedBy": "ullam",
+    "CreatedByFullName": "Ms. Lolita Jones",
+    "CreatedByAssociateId": 406,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 400,
-    "Title": "vel",
-    "Agenda": "tenetur",
-    "InternalNotes": "dolorum",
+    "PreferredTZLocation": 329,
+    "Title": "est",
+    "Agenda": "eum",
+    "InternalNotes": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldLength": 423
       }
     }
   }

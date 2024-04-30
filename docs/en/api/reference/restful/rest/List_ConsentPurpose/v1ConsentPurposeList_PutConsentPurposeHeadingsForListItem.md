@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Robel, Frami and Sawayn",
-    "ToolTip": "Natus beatae suscipit id.",
+    "Id": 415,
+    "Name": "Volkman Group",
+    "ToolTip": "Et suscipit nulla ut vitae quia sit ut.",
     "Deleted": false,
-    "Rank": 421,
-    "Type": "et",
-    "ColorBlock": 241,
-    "IconHint": "repudiandae",
+    "Rank": 835,
+    "Type": "adipisci",
+    "ColorBlock": 881,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2009-01-02T11:44:42.9762901+01:00",
+    "LastChanged": "2015-03-16T11:16:14.512052+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Dare, Muller and Schumm",
-        "ToolTip": "Nihil quam.",
-        "Deleted": false,
-        "Rank": 947,
-        "Type": "voluptatem",
-        "ColorBlock": 74,
-        "IconHint": "veritatis",
+        "Id": 406,
+        "Name": "Boyle-Fadel",
+        "ToolTip": "Quo tenetur ut et odit.",
+        "Deleted": true,
+        "Rank": 130,
+        "Type": "ut",
+        "ColorBlock": 809,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2014-01-25T11:44:42.9762901+01:00",
+        "LastChanged": "2019-11-23T11:16:14.512052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "aut",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Ms. Jaylon Heller DDS"
+        "FullName": "Brendon Braun"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "provident",
+    "ExtraInfo": "ut",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Miss Zechariah Bertram Johns DDS"
+    "FullName": "Alaina Kirlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Wolff, Ebert and Parker",
-    "ToolTip": "Quod distinctio laudantium.",
+    "Id": 472,
+    "Name": "Kutch, Willms and Grady",
+    "ToolTip": "Qui laboriosam temporibus quae dolores adipisci.",
     "Deleted": true,
-    "Rank": 906,
-    "Type": "et",
-    "ColorBlock": 538,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "1999-05-09T11:44:42.9762901+02:00",
+    "Rank": 159,
+    "Type": "dolores",
+    "ColorBlock": 203,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2020-01-01T11:16:14.512052+01:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "O'Connell-Wilderman",
-        "ToolTip": "Culpa temporibus dolores qui unde ut neque.",
+        "Id": 651,
+        "Name": "Mayert Group",
+        "ToolTip": "A qui et et rerum placeat.",
         "Deleted": true,
-        "Rank": 336,
-        "Type": "velit",
-        "ColorBlock": 864,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2019-09-24T11:44:42.9762901+02:00",
+        "Rank": 614,
+        "Type": "ab",
+        "ColorBlock": 1000,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2022-12-25T11:16:14.512052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Minnie Weimann",
+        "ExtraInfo": "ut",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Mr. Otto Grant II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Maxine Gibson",
+    "FullName": "Mr. Carmine Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

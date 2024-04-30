@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 40,
-  "UniqueIdentifier": "quam",
-  "Name": "Mann-Kling",
-  "Description": "Horizontal exuding array",
-  "IncludeId": "aut",
-  "HierarchyId": 395,
-  "Source": "aut",
-  "Registered": "2006-02-07T11:44:41.8671838+01:00",
-  "RegisteredAssociateId": 332,
-  "Updated": "2011-11-08T11:44:41.8671838+01:00",
-  "UpdatedAssociateId": 619
+  "EjscriptId": 32,
+  "UniqueIdentifier": "vero",
+  "Name": "Zulauf, Gaylord and Towne",
+  "Description": "Phased regional conglomeration",
+  "IncludeId": "quis",
+  "HierarchyId": 730,
+  "Source": "dolor",
+  "Registered": "2005-10-02T11:16:13.8550957+02:00",
+  "RegisteredAssociateId": 89,
+  "Updated": "1997-12-28T11:16:13.8550957+01:00",
+  "UpdatedAssociateId": 798
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 602,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Greenfelder, Goyette and Conn",
-  "Description": "Visionary upward-trending capacity",
-  "IncludeId": "illo",
-  "HierarchyId": 973,
-  "Source": "ipsa",
-  "Registered": "2001-10-18T11:44:41.8671838+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2010-03-28T11:44:41.8671838+02:00",
-  "UpdatedAssociateId": 925,
+  "EjscriptId": 341,
+  "UniqueIdentifier": "eligendi",
+  "Name": "Von, Ritchie and Miller",
+  "Description": "Balanced local synergy",
+  "IncludeId": "et",
+  "HierarchyId": 489,
+  "Source": "amet",
+  "Registered": "1999-03-23T11:16:13.8550957+01:00",
+  "RegisteredAssociateId": 609,
+  "Updated": "2001-07-19T11:16:13.8550957+02:00",
+  "UpdatedAssociateId": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 915
     }
   },
   "_Links": {

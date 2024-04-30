@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Luettgen Inc and Sons",
-  "Id": 164
+  "HistoryName": "Hane Group",
+  "Id": 467
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 680,
-  "Id": 921,
-  "HistoryName": "Koepp Inc and Sons",
-  "HistoryId": 871,
-  "AssociateId": 839,
-  "Name": "Gerlach-Nicolas",
-  "ItemInfo": "aut",
+  "Rank": 176,
+  "Id": 253,
+  "HistoryName": "Stroman-Borer",
+  "HistoryId": 952,
+  "AssociateId": 859,
+  "Name": "Miller-Balistreri",
+  "ItemInfo": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 69
     }
   }
 }

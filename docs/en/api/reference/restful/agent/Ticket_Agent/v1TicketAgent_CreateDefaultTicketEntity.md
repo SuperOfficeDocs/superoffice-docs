@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 235,
-  "Title": "aut",
-  "CreatedAt": "2005-11-26T11:44:34.7125866+01:00",
-  "LastChanged": "2002-08-02T11:44:34.7125866+02:00",
-  "ReadByOwner": "2006-05-18T11:44:34.7125866+02:00",
-  "ReadByCustomer": "2004-12-11T11:44:34.7125866+01:00",
-  "FirstReadByOwner": "2001-12-24T11:44:34.7125866+01:00",
-  "FirstReadByUser": "2001-05-08T11:44:34.7125866+02:00",
-  "Activate": "2021-10-10T11:44:34.7125866+02:00",
-  "ClosedAt": "2005-11-20T11:44:34.7125866+01:00",
-  "RepliedAt": "1998-09-22T11:44:34.7125866+02:00",
-  "AlertTimeout": "1997-07-08T11:44:34.7125866+02:00",
-  "Deadline": "2000-08-18T11:44:34.7125866+02:00",
+  "TicketId": 965,
+  "Title": "perferendis",
+  "CreatedAt": "2017-06-08T11:16:09.8509763+02:00",
+  "LastChanged": "2023-04-30T11:16:09.8509763+02:00",
+  "ReadByOwner": "2023-07-24T11:16:09.8509763+02:00",
+  "ReadByCustomer": "1997-09-27T11:16:09.8509763+02:00",
+  "FirstReadByOwner": "2022-02-07T11:16:09.8509763+01:00",
+  "FirstReadByUser": "2013-12-05T11:16:09.8509763+01:00",
+  "Activate": "2016-06-20T11:16:09.8509763+02:00",
+  "ClosedAt": "2005-06-17T11:16:09.8509763+02:00",
+  "RepliedAt": "2010-11-05T11:16:09.8509763+01:00",
+  "AlertTimeout": "2010-06-30T11:16:09.8509763+02:00",
+  "Deadline": "2007-07-24T11:16:09.8509763+02:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "tenetur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ullam",
-      "PersonId": 153,
-      "Mrmrs": "totam",
-      "Firstname": "Joana",
-      "Lastname": "Ernser",
-      "MiddleName": "O'Keefe LLC",
-      "Title": "et",
-      "Description": "Cloned interactive application",
-      "Email": "lucy_buckridge@oberbrunner.name",
-      "FullName": "Bria Bode",
-      "DirectPhone": "1-902-025-1715 x37252",
-      "FormalName": "McLaughlin, Stracke and Schinner",
-      "CountryId": 680,
-      "ContactId": 212,
-      "ContactName": "Mitchell LLC",
-      "Retired": 100,
-      "Rank": 705,
-      "ActiveInterests": 380,
+      "Position": "debitis",
+      "PersonId": 434,
+      "Mrmrs": "consequatur",
+      "Firstname": "Darrion",
+      "Lastname": "Ryan",
+      "MiddleName": "Auer, Vandervort and Bernier",
+      "Title": "aut",
+      "Description": "De-engineered high-level leverage",
+      "Email": "abigayle@lindkris.biz",
+      "FullName": "Mr. Howard Kovacek",
+      "DirectPhone": "674.215.7112",
+      "FormalName": "Wilkinson LLC",
+      "CountryId": 411,
+      "ContactId": 210,
+      "ContactName": "Ullrich Inc and Sons",
+      "Retired": 873,
+      "Rank": 592,
+      "ActiveInterests": 185,
       "ContactDepartment": "",
-      "ContactCountryId": 77,
-      "ContactOrgNr": "834433",
-      "FaxPhone": "(571)462-5190",
-      "MobilePhone": "1-670-046-1875",
-      "ContactPhone": "021.854.4676",
-      "AssociateName": "Schamberger LLC",
-      "AssociateId": 879,
+      "ContactCountryId": 325,
+      "ContactOrgNr": "819320",
+      "FaxPhone": "779.823.8790 x5528",
+      "MobilePhone": "951.307.1138 x7940",
+      "ContactPhone": "479.680.3792",
+      "AssociateName": "Hessel-Kunze",
+      "AssociateId": 400,
       "UsePersonAddress": false,
-      "ContactFax": "nobis",
-      "Kanafname": "voluptate",
-      "Kanalname": "ea",
-      "Post1": "aperiam",
-      "Post2": "voluptatem",
-      "Post3": "asperiores",
-      "EmailName": "crystel.kuvalis@creminvolkman.ca",
-      "ContactFullName": "Kiara Hane",
-      "ActiveErpLinks": 286,
-      "TicketPriorityId": 279,
-      "SupportLanguageId": 655,
-      "SupportAssociateId": 825,
+      "ContactFax": "est",
+      "Kanafname": "ratione",
+      "Kanalname": "quia",
+      "Post1": "quos",
+      "Post2": "at",
+      "Post3": "corrupti",
+      "EmailName": "timmothy_fritsch@lakin.com",
+      "ContactFullName": "Rachelle Weimann",
+      "ActiveErpLinks": 653,
+      "TicketPriorityId": 574,
+      "SupportLanguageId": 52,
+      "SupportAssociateId": 417,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 693
+          "FieldLength": 300
         }
       }
     }
   ],
-  "AlertLevel": 658,
-  "ConnectId": 636,
+  "AlertLevel": 238,
+  "ConnectId": 986,
   "ReadStatus": "Green",
-  "TimeToReply": 793,
-  "RealTimeToReply": 953,
-  "TimeToClose": 641,
-  "RealTimeToClose": 804,
-  "TimeSpentInternally": 583,
-  "TimeSpentExternally": 854,
-  "TimeSpentQueue": 425,
-  "RealTimeSpentInternally": 536,
-  "RealTimeSpentExternally": 93,
-  "RealTimeSpentQueue": 12,
-  "TimeSpent": 500,
-  "HasAttachment": false,
-  "NumReplies": 708,
-  "NumMessages": 726,
-  "FromAddress": "ut",
+  "TimeToReply": 606,
+  "RealTimeToReply": 462,
+  "TimeToClose": 396,
+  "RealTimeToClose": 364,
+  "TimeSpentInternally": 362,
+  "TimeSpentExternally": 866,
+  "TimeSpentQueue": 599,
+  "RealTimeSpentInternally": 593,
+  "RealTimeSpentExternally": 368,
+  "RealTimeSpentQueue": 653,
+  "TimeSpent": 907,
+  "HasAttachment": true,
+  "NumReplies": 603,
+  "NumMessages": 852,
+  "FromAddress": "eveniet",
   "Messages": [
     {
-      "TicketMessageId": 548,
-      "CreatedAt": "2007-02-04T11:44:34.7125866+01:00",
+      "TicketMessageId": 269,
+      "CreatedAt": "1998-11-03T11:16:09.8665963+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "rerum",
-      "PersonId": 764,
-      "PersonFullName": "Krista Regan Christiansen MD",
-      "ContactId": 133,
-      "ContactName": "Schmeler-Paucek",
+      "Important": false,
+      "Author": "eligendi",
+      "PersonId": 157,
+      "PersonFullName": "Stan Botsford",
+      "ContactId": 345,
+      "ContactName": "Spencer-Spinka",
       "ContactDepartment": "",
-      "NumAttachments": 198,
-      "EmailHeader": "dayana@lemkehintz.us",
+      "NumAttachments": 627,
+      "EmailHeader": "gretchen_koch@paucek.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "qui",
-      "Sentiment": 530,
-      "SentimentConfidence": 621,
-      "CreatedBy": 488,
-      "ChangedAt": "2007-09-09T11:44:34.7125866+02:00",
+      "Language": "commodi",
+      "Sentiment": 919,
+      "SentimentConfidence": 77,
+      "CreatedBy": 78,
+      "ChangedAt": "2008-01-16T11:16:09.8665963+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 591
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 142,
-      "Name": "Schmitt, Lowe and Kling",
-      "ToolTip": "Omnis praesentium accusantium sed.",
+      "Id": 29,
+      "Name": "Hills Inc and Sons",
+      "ToolTip": "Rerum tempore eum autem iure reiciendis fuga.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 287
         }
       }
     },
     {
-      "Id": 142,
-      "Name": "Schmitt, Lowe and Kling",
-      "ToolTip": "Omnis praesentium accusantium sed.",
+      "Id": 29,
+      "Name": "Hills Inc and Sons",
+      "ToolTip": "Rerum tempore eum autem iure reiciendis fuga.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 287
         }
       }
     }
   ],
-  "Language": "aut",
-  "Sentiment": 681,
-  "SentimentConfidence": 801,
-  "SuggestedCategoryId": 568,
+  "Language": "quae",
+  "Sentiment": 586,
+  "SentimentConfidence": 670,
+  "SuggestedCategoryId": 960,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 828,
-  "IconHint": "dolorem",
+  "OrigHumanCategoryId": 689,
+  "IconHint": "aut",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 152,
+  "ActiveStatusMonitorId": 548,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "alias"
+    "CustomFields1": "id",
+    "CustomFields2": "magnam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldLength": 202
     }
   }
 }

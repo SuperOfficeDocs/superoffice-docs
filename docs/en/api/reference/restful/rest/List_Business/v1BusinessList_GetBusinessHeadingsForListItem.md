@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Ward-Larkin",
-    "ToolTip": "Quis quisquam ad sed.",
-    "Deleted": true,
-    "Rank": 127,
-    "Type": "et",
-    "ColorBlock": 770,
-    "IconHint": "qui",
+    "Id": 631,
+    "Name": "Feil LLC",
+    "ToolTip": "Inventore et.",
+    "Deleted": false,
+    "Rank": 938,
+    "Type": "sint",
+    "ColorBlock": 454,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-04-20T11:44:42.9294253+02:00",
+    "LastChanged": "2018-09-06T11:16:14.4808001+02:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Bernier LLC",
-        "ToolTip": "Quidem eveniet nesciunt.",
-        "Deleted": false,
-        "Rank": 828,
-        "Type": "dolorum",
-        "ColorBlock": 240,
-        "IconHint": "atque",
+        "Id": 554,
+        "Name": "Sawayn-Jones",
+        "ToolTip": "Delectus pariatur et.",
+        "Deleted": true,
+        "Rank": 149,
+        "Type": "nesciunt",
+        "ColorBlock": 795,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2015-04-13T11:44:42.9294253+02:00",
+        "LastChanged": "2003-02-03T11:16:14.4808001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "omnis",
+        "ExtraInfo": "eius",
+        "StyleHint": "rem",
         "Hidden": true,
-        "FullName": "Dr. Harold Buford Bernhard",
+        "FullName": "Ms. Elva Turner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 187
+            "FieldType": "System.String",
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "eos",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Libby Elmore Hermann IV",
+    "FullName": "Dr. Luella Art Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Nader, Schaefer and Jacobs",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "UdListDefinitionId": 214,
-  "Rank": 873,
+  "Id": 613,
+  "Name": "Mayert Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "UdListDefinitionId": 681,
+  "Rank": 420,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

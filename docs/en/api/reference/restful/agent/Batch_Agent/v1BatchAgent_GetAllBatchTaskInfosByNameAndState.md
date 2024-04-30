@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Waters Inc and Sons",
+  "TaskName": "Wuckert, Mueller and DuBuque",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Abernathy-Waelchi",
-    "AssociateId": 375,
-    "DetailsTable": 408,
-    "DetailsRecord": 459,
-    "IsSystemTask": true,
+    "Id": 316,
+    "Name": "Wiegand LLC",
+    "AssociateId": 236,
+    "DetailsTable": 798,
+    "DetailsRecord": 950,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quo",
-      "ParameterObject2": "et"
+      "ParameterObject1": "ipsum",
+      "ParameterObject2": "ex"
     },
-    "LastStarted": "2016-02-20T11:44:32.822391+01:00",
-    "Created": "2004-08-06T11:44:32.822391+02:00",
-    "StartCount": 493,
-    "DatabaseSerialNumber": "1606297",
-    "Context": "esse",
-    "Result": "repellendus",
+    "LastStarted": "2008-11-25T11:16:08.7410229+01:00",
+    "Created": "2022-02-08T11:16:08.7410229+01:00",
+    "StartCount": 683,
+    "DatabaseSerialNumber": "1324858",
+    "Context": "molestias",
+    "Result": "dolores",
     "State": "All",
-    "Description": "Networked dedicated flexibility",
-    "Response": "suscipit",
-    "Request": "voluptas",
-    "ProgressDescription": "Networked context-sensitive frame",
-    "ProgressPercent": 873,
-    "FileName": "Pouros, Senger and Spencer",
+    "Description": "Implemented holistic access",
+    "Response": "voluptatem",
+    "Request": "et",
+    "ProgressDescription": "Profit-focused explicit leverage",
+    "ProgressPercent": 505,
+    "FileName": "Greenholt-Runolfsson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 219
       }
     }
   }

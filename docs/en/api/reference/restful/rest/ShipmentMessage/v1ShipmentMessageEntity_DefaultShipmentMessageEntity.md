@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 17,
-  "PlainMessage": "deserunt",
-  "HtmlMessage": "iste",
-  "SmsMessage": "voluptates",
-  "Description": "Virtual actuating website",
-  "Subject": "dolorem",
-  "FolderId": 761,
-  "HeaderField": "aliquam",
-  "Design": "distinctio",
+  "ShipmentMessageId": 385,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "voluptates",
+  "SmsMessage": "et",
+  "Description": "Switchable background leverage",
+  "Subject": "nemo",
+  "FolderId": 72,
+  "HeaderField": "optio",
+  "Design": "at",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Advanced local help-desk",
-  "AccessKey": "amet",
-  "DocumentMessage": 542,
-  "Registered": "2006-03-09T11:44:42.5545135+01:00",
-  "RegisteredAssociateId": 313,
-  "Updated": "2002-01-30T11:44:42.5545135+01:00",
-  "UpdatedAssociateId": 745,
-  "UpdatedCount": 707,
+  "InlineImages": false,
+  "LongDescription": "Operative bottom-line instruction set",
+  "AccessKey": "officia",
+  "DocumentMessage": 205,
+  "Registered": "2000-10-22T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 425,
+  "Updated": "2009-11-10T11:16:14.2304645+01:00",
+  "UpdatedAssociateId": 526,
+  "UpdatedCount": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

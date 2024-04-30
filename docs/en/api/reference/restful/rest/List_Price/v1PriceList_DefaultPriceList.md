@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 734,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 842,
-  "Name": "Turner Group",
-  "Description": "Implemented needs-based utilisation",
-  "Currency": "accusamus",
-  "CurrencyName": "Abbott LLC",
-  "ValidFrom": "2012-03-07T11:44:43.1637513+01:00",
-  "ValidTo": "2017-06-17T11:44:43.1637513+02:00",
-  "IsActive": false,
+  "PriceListId": 110,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 471,
+  "Name": "McLaughlin Group",
+  "Description": "Exclusive didactic toolset",
+  "Currency": "a",
+  "CurrencyName": "Fritsch, Johns and Wyman",
+  "ValidFrom": "2007-11-03T11:16:14.6214085+01:00",
+  "ValidTo": "1998-01-11T11:16:14.6214085+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldLength": 422
     }
   }
 }

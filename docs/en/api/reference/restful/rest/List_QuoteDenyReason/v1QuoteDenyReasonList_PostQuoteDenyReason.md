@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Boyle Inc and Sons",
-  "Tooltip": "ipsa",
+  "Id": 744,
+  "Name": "Pfannerstill Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 617,
-  "Rank": 599
+  "UdListDefinitionId": 137,
+  "Rank": 508
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 416,
-  "Name": "Hartmann Group",
-  "Tooltip": "officiis",
+  "Id": 62,
+  "Name": "Conroy-Johnston",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "UdListDefinitionId": 831,
-  "Rank": 228,
+  "UdListDefinitionId": 978,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 313
     }
   }
 }

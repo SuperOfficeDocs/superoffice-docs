@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 369,
-  "CustomerCustomerReplyTemplateId": 682,
-  "CustomerPasswordTemplateId": 886,
-  "CustomerConfirmEmailTemplateId": 749,
-  "CustomerChatLogTemplateId": 899,
-  "NewLinkTemplateId": 861,
-  "HotlistNewMessageTemplateId": 105,
-  "HotlistTicketActivatedTemplateId": 514,
-  "UserTicketAlarmTemplateId": 828,
-  "HotlistTicketTakenOverTemplateId": 956,
-  "UserActiveTicketsTemplateId": 754,
-  "UserNewMessageTemplateId": 610,
-  "UserTicketActivatedTemplateId": 717,
-  "UserNewTicketTemplateId": 497,
-  "PublishKbQuestionTemplateId": 870,
-  "PublishKbAnswerTemplateId": 746,
-  "UserTicketTakenOverTemplateId": 819,
-  "PrintTicketTemplateId": 431,
-  "WeekStatTemplateId": 836,
-  "TicketAlarmHotlistTemplateId": 244,
-  "EmailAddresses": "emmett_hermiston@corkery.ca",
+  "CustomerNewCustomerTemplateId": 552,
+  "CustomerCustomerReplyTemplateId": 169,
+  "CustomerPasswordTemplateId": 934,
+  "CustomerConfirmEmailTemplateId": 621,
+  "CustomerChatLogTemplateId": 300,
+  "NewLinkTemplateId": 568,
+  "HotlistNewMessageTemplateId": 298,
+  "HotlistTicketActivatedTemplateId": 999,
+  "UserTicketAlarmTemplateId": 718,
+  "HotlistTicketTakenOverTemplateId": 913,
+  "UserActiveTicketsTemplateId": 936,
+  "UserNewMessageTemplateId": 115,
+  "UserTicketActivatedTemplateId": 513,
+  "UserNewTicketTemplateId": 39,
+  "PublishKbQuestionTemplateId": 171,
+  "PublishKbAnswerTemplateId": 295,
+  "UserTicketTakenOverTemplateId": 419,
+  "PrintTicketTemplateId": 451,
+  "WeekStatTemplateId": 738,
+  "TicketAlarmHotlistTemplateId": 139,
+  "EmailAddresses": "kamille@krajcik.info",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 445
     }
   }
 }

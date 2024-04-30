@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 103,
-    "Name": "Altenwerth Inc and Sons",
-    "Tooltip": "hic",
+    "WebPanelId": 198,
+    "Name": "Gottlieb-Konopelski",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 397,
+    "Rank": 519,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Terry Inc and Sons",
+    "ShowInStatusBar": false,
+    "WindowName": "Mohr-Balistreri",
     "Url": "http://www.example.com/",
-    "ProgId": "beatae",
-    "Icon": 294,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "quis",
+    "Icon": 423,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldLength": 154
       }
     }
   }

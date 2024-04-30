@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    836,
-    610
+    333,
+    302
   ]
 }
 ```

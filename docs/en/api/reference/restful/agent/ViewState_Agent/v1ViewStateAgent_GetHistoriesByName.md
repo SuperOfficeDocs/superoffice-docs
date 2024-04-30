@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Legros Inc and Sons"
+  "HistoryName": "Considine-Padberg"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 111,
-    "Id": 281,
-    "HistoryName": "Hand Group",
-    "HistoryId": 538,
-    "AssociateId": 14,
-    "Name": "Ebert Inc and Sons",
-    "ItemInfo": "ad",
+    "Rank": 892,
+    "Id": 76,
+    "HistoryName": "Bayer, Welch and Grant",
+    "HistoryId": 23,
+    "AssociateId": 353,
+    "Name": "Mueller-Pfeffer",
+    "ItemInfo": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 455
       }
     }
   }

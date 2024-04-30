@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 937,
-  "WorkflowId": 592,
+  "WorkflowGoalId": 747,
+  "WorkflowId": 721,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "DuBuque, Leffler and Kuvalis",
-      "Description": "Face to face human-resource approach",
-      "Rank": 33,
+      "Name": "Stroman-Mante",
+      "Description": "Multi-channelled hybrid instruction set",
+      "Rank": 980,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "DuBuque, Leffler and Kuvalis",
-      "Description": "Face to face human-resource approach",
-      "Rank": 33,
+      "Name": "Stroman-Mante",
+      "Description": "Multi-channelled hybrid instruction set",
+      "Rank": 980,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 7
     }
   }
 }

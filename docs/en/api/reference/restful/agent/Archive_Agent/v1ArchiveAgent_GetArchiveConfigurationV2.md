@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gleason, McClure and Corkery",
-  "ProviderName": "Koss LLC",
-  "Context": "voluptate",
-  "OwnerKeys": "vel"
+  "GuiName": "Monahan, Feeney and Grady",
+  "ProviderName": "Blanda, Gleason and Mitchell",
+  "Context": "aliquid",
+  "OwnerKeys": "dignissimos"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Mitchell Inc and Sons",
-      "DisplayTooltip": "corporis",
-      "DisplayType": "nam",
+      "DisplayName": "Hane-Daugherty",
+      "DisplayTooltip": "sint",
+      "DisplayType": "voluptatum",
       "CanOrderBy": false,
-      "Name": "Hirthe, Tromp and Koepp",
+      "Name": "Shields-Smith",
       "CanRestrictBy": true,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Abernathy, Wintheiser and Gutkowski",
+      "RestrictionType": "id",
+      "RestrictionListName": "Harber, Hermiston and Ondricka",
       "IsVisible": false,
-      "ExtraInfo": "corrupti",
-      "Width": "debitis",
-      "IconHint": "dolorum",
-      "HeadingIconHint": "dolore"
+      "ExtraInfo": "eius",
+      "Width": "praesentium",
+      "IconHint": "illo",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 614,
-      "Name": "Glover Group",
-      "ToolTip": "Veritatis quo.",
+      "Id": 683,
+      "Name": "Lakin-Lehner",
+      "ToolTip": "Quo mollitia sunt.",
       "Deleted": false,
-      "Rank": 795,
-      "Type": "voluptatum",
-      "ColorBlock": 380,
-      "IconHint": "iste",
+      "Rank": 62,
+      "Type": "sapiente",
+      "ColorBlock": 848,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2009-07-03T11:44:32.7755279+02:00",
+      "LastChanged": "2020-06-06T11:16:08.7097813+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sapiente",
-      "StyleHint": "nesciunt",
-      "Hidden": true,
-      "FullName": "Mathias McKenzie",
+      "ExtraInfo": "maxime",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Ms. Billie Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldType": "System.String",
+          "FieldLength": 826
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ryan Group",
+      "Name": "Daniel Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Ryan Group",
+      "Name": "Daniel Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "iure",
+  "OwnerKeys": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

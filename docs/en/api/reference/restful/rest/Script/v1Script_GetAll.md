@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=ut
-GET /api/v1/Script?$top=197
-GET /api/v1/Script?$skip=503
+GET /api/v1/Script?$entities=illum
+GET /api/v1/Script?$top=27
+GET /api/v1/Script?$skip=201
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=unde
+GET /api/v1/Script?$context=iste
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=False
+GET /api/v1/Script?$jsonSafe=True
 GET /api/v1/Script?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "adipisci",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 7913,
-      "EntityName": "sale",
-      "saleId": 7913,
-      "contactId": 5115,
-      "name": "Torp, Hahn and Stark"
+      "PrimaryKey": 2596,
+      "EntityName": "person",
+      "personId": 2596,
+      "fullName": "Wilfrid Cruickshank"
     },
     {
-      "PrimaryKey": 1873,
-      "EntityName": "sale",
-      "saleId": 1873,
-      "contactId": 672,
-      "name": "Bins-Klocko"
+      "PrimaryKey": 1542,
+      "EntityName": "person",
+      "personId": 1542,
+      "fullName": "Jordane Gutkowski"
     }
   ]
 }

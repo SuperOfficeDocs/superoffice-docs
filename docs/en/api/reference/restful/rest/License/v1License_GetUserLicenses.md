@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marquardt-Kertzmann",
-    "Description": "De-engineered responsive customer loyalty",
+    "Name": "West-Bergstrom",
+    "Description": "Profound methodical project",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 385,
-        "Tooltip": "numquam",
+        "Total": 750,
+        "Tooltip": "maiores",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 560,
+        "Free": 457,
+        "InUse": 97,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 32,
-        "Name": "D'Amore, Goyette and Grimes",
-        "Description": "Adaptive user-facing projection",
-        "PrerequisiteModuleName": "Weimann Group",
-        "SortOrder": 261,
-        "ExtraFlags": 928,
+        "Assigned": true,
+        "ModuleLicenseId": 703,
+        "Name": "Reichert-Mills",
+        "Description": "Multi-tiered multi-tasking protocol",
+        "PrerequisiteModuleName": "Eichmann LLC",
+        "SortOrder": 650,
+        "ExtraFlags": 402,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 110
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "deleniti",
+        "Total": 844,
+        "Tooltip": "laudantium",
         "CanAssign": false,
-        "Free": 925,
-        "InUse": 571,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 498,
-        "Name": "Kohler Group",
-        "Description": "Fully-configurable next generation algorithm",
-        "PrerequisiteModuleName": "Lindgren-Russel",
-        "SortOrder": 956,
-        "ExtraFlags": 835,
+        "Free": 737,
+        "InUse": 695,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 183,
+        "Name": "McCullough, Waelchi and Jacobson",
+        "Description": "Realigned zero defect conglomeration",
+        "PrerequisiteModuleName": "Bosco Group",
+        "SortOrder": 302,
+        "ExtraFlags": 120,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 203
+            "FieldLength": 442
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldType": "System.String",
+        "FieldLength": 944
       }
     }
   },
   {
-    "Name": "Marquardt-Kertzmann",
-    "Description": "De-engineered responsive customer loyalty",
+    "Name": "West-Bergstrom",
+    "Description": "Profound methodical project",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 385,
-        "Tooltip": "numquam",
+        "Total": 750,
+        "Tooltip": "maiores",
         "CanAssign": false,
-        "Free": 190,
-        "InUse": 560,
+        "Free": 457,
+        "InUse": 97,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 32,
-        "Name": "D'Amore, Goyette and Grimes",
-        "Description": "Adaptive user-facing projection",
-        "PrerequisiteModuleName": "Weimann Group",
-        "SortOrder": 261,
-        "ExtraFlags": 928,
+        "Assigned": true,
+        "ModuleLicenseId": 703,
+        "Name": "Reichert-Mills",
+        "Description": "Multi-tiered multi-tasking protocol",
+        "PrerequisiteModuleName": "Eichmann LLC",
+        "SortOrder": 650,
+        "ExtraFlags": 402,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 110
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "deleniti",
+        "Total": 844,
+        "Tooltip": "laudantium",
         "CanAssign": false,
-        "Free": 925,
-        "InUse": 571,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 498,
-        "Name": "Kohler Group",
-        "Description": "Fully-configurable next generation algorithm",
-        "PrerequisiteModuleName": "Lindgren-Russel",
-        "SortOrder": 956,
-        "ExtraFlags": 835,
+        "Free": 737,
+        "InUse": 695,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 183,
+        "Name": "McCullough, Waelchi and Jacobson",
+        "Description": "Realigned zero defect conglomeration",
+        "PrerequisiteModuleName": "Bosco Group",
+        "SortOrder": 302,
+        "ExtraFlags": 120,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 203
+            "FieldLength": 442
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldType": "System.String",
+        "FieldLength": 944
       }
     }
   }

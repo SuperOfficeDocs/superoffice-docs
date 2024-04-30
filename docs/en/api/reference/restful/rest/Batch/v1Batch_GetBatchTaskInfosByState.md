@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Carter-Runolfsdottir",
-    "AssociateId": 365,
-    "DetailsTable": 943,
-    "DetailsRecord": 557,
-    "IsSystemTask": true,
+    "Id": 102,
+    "Name": "Gutmann-Brown",
+    "AssociateId": 171,
+    "DetailsTable": 22,
+    "DetailsRecord": 626,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "dolorem",
+      "ParameterObject2": "sit"
     },
-    "LastStarted": "2019-04-15T11:44:42.7107372+02:00",
-    "Created": "2001-04-24T11:44:42.7107372+02:00",
-    "StartCount": 545,
-    "DatabaseSerialNumber": "451072",
-    "Context": "magni",
-    "Result": "omnis",
+    "LastStarted": "2004-10-10T11:16:14.3398362+02:00",
+    "Created": "2004-12-31T11:16:14.3398362+01:00",
+    "StartCount": 130,
+    "DatabaseSerialNumber": "1060639",
+    "Context": "et",
+    "Result": "sit",
     "State": "All",
-    "Description": "Mandatory incremental extranet",
-    "Response": "deserunt",
-    "Request": "dolor",
-    "ProgressDescription": "Team-oriented transitional circuit",
-    "ProgressPercent": 207,
-    "FileName": "Lind-Kassulke",
+    "Description": "Cross-group responsive extranet",
+    "Response": "ut",
+    "Request": "rerum",
+    "ProgressDescription": "Visionary multi-state pricing structure",
+    "ProgressPercent": 413,
+    "FileName": "Johnson-Walsh",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldLength": 45
       }
     }
   }

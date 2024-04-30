@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "ullam",
-      "Key": "unde"
+      "Section": "sit",
+      "Key": "voluptate"
     },
     {
-      "Section": "ullam",
-      "Key": "unde"
+      "Section": "sit",
+      "Key": "voluptate"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "molestias",
+    "RawValue": "id",
     "Specification": null,
-    "DisplayValue": "aperiam",
-    "DisplayTooltip": "facere",
+    "DisplayValue": "vitae",
+    "DisplayTooltip": "voluptatem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 662,
-    "PrefDescId": 758,
-    "TableName": "Nader Group",
-    "UserPreferenceId": 796,
+    "TargetId": 279,
+    "PrefDescId": 772,
+    "TableName": "Gottlieb Inc and Sons",
+    "UserPreferenceId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 912
       }
     }
   }

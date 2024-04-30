@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Torphy Inc and Sons"
+  "ConnectorName": "Barton, Pollich and Lueilwitz"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 365,
-  "ERPName": "Breitenberg Inc and Sons",
-  "DisplayName": "Erdman LLC",
-  "DisplayDescription": "Progressive content-based project",
-  "Rank": 599,
-  "ConnectorName": "Oberbrunner, Cartwright and Batz",
-  "ErpConnectionId": 112,
-  "ExtraData": "autem",
+  "QuoteConnectionId": 808,
+  "ERPName": "Price, Morar and Kshlerin",
+  "DisplayName": "Swaniawski Inc and Sons",
+  "DisplayDescription": "Vision-oriented impactful orchestration",
+  "Rank": 233,
+  "ConnectorName": "Heidenreich, Waelchi and Upton",
+  "ErpConnectionId": 586,
+  "ExtraData": "temporibus",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 824,
-      "ERPPriceListKey": "nihil",
-      "QuoteConnectionId": 270,
-      "Name": "Boyle LLC",
-      "Description": "Advanced methodical system engine",
-      "Currency": "placeat",
-      "CurrencyName": "Nolan-Cremin",
-      "ValidFrom": "2014-05-07T11:44:34.2907996+02:00",
-      "ValidTo": "2002-11-16T11:44:34.2907996+01:00",
+      "PriceListId": 965,
+      "ERPPriceListKey": "a",
+      "QuoteConnectionId": 185,
+      "Name": "Heidenreich, Davis and Johnson",
+      "Description": "Sharable assymetric service-desk",
+      "Currency": "magnam",
+      "CurrencyName": "Bogisich Inc and Sons",
+      "ValidFrom": "2020-06-15T11:16:09.6005114+02:00",
+      "ValidTo": "2013-01-11T11:16:09.6005114+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 732
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    181,
-    305
+    286,
+    481
   ],
   "AssociateAccessIds": [
-    75,
-    245
+    313,
+    748
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 600
     }
   }
 }

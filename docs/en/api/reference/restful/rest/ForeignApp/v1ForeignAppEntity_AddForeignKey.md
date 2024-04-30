@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fugit",
-  "Value": "quia",
-  "RecordId": 284,
-  "CreatedDate": "1998-04-08T11:44:42.0077636+02:00",
-  "UpdatedDate": "2006-07-29T11:44:42.0077636+02:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "deserunt",
-  "TableName": "Haag, Ryan and White"
+  "Key": "voluptates",
+  "Value": "reiciendis",
+  "RecordId": 760,
+  "CreatedDate": "2016-07-25T11:16:13.93321+02:00",
+  "UpdatedDate": "2012-08-03T11:16:13.93321+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "nobis",
+  "TableName": "Langworth, Wisoky and Bashirian"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fugit",
-  "Value": "et",
-  "RecordId": 696,
-  "CreatedDate": "2023-10-15T11:44:42.0077636+02:00",
-  "UpdatedDate": "2012-11-15T11:44:42.0077636+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "ut",
-  "TableName": "Stokes Group",
+  "Key": "omnis",
+  "Value": "aperiam",
+  "RecordId": 936,
+  "CreatedDate": "2000-08-02T11:16:13.93321+02:00",
+  "UpdatedDate": "1997-12-04T11:16:13.93321+01:00",
+  "UpdatedBy": "incidunt",
+  "CreatedBy": "et",
+  "TableName": "Lehner-O'Conner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 343
     }
   }
 }

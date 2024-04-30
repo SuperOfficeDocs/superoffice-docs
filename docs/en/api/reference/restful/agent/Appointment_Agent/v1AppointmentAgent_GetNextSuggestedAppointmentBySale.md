@@ -92,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 294,
-  "CurrentAppointmentId": 253,
-  "SkipCompleteCheck": false
+  "SaleId": 220,
+  "CurrentAppointmentId": 48,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 184,
-  "Deleted": 510,
-  "DaysFuture": 776,
-  "Tooltip": "ullam",
-  "Text": "magni",
-  "TaskId": 904,
-  "SuggestedAppointmentId": 63,
-  "SaleTypeStageLinkId": 106,
-  "RegisteredAssociateId": 977,
-  "Rank": 475,
-  "ProjectTypeStatusLinkId": 245,
-  "Name": "Heaney, Lockman and Gleichner",
-  "Duration": 375,
+  "AutoSuggest": 932,
+  "Deleted": 354,
+  "DaysFuture": 27,
+  "Tooltip": "quam",
+  "Text": "modi",
+  "TaskId": 17,
+  "SuggestedAppointmentId": 907,
+  "SaleTypeStageLinkId": 825,
+  "RegisteredAssociateId": 148,
+  "Rank": 161,
+  "ProjectTypeStatusLinkId": 967,
+  "Name": "Kunde-Bradtke",
+  "Duration": 953,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 236
+      "FieldType": "System.Int32",
+      "FieldLength": 158
     }
   }
 }

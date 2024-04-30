@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 878,
-    "Name": "Von Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 647,
+    "Name": "Beahan Inc and Sons",
+    "Tooltip": "tempore",
     "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 38,
+    "Rank": 312,
+    "UdListDefinitionId": 771,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

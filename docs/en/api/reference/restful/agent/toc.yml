@@ -3447,6 +3447,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_CopyToTempFile.md
   - name: CreateDefaultAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultAttachmentEntity.md
+  - name: CreateDefaultForTicketType
+    href: Ticket_Agent/v1TicketAgent_CreateDefaultForTicketType.md
   - name: CreateDefaultTicketEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketEntity.md
   - name: CreateDefaultTicketMessageEntity
@@ -3471,6 +3473,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContent.md
   - name: GetDefaultMessageContentFull
     href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContentFull.md
+  - name: GetDefaultMessageContentWithOptions
+    href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContentWithOptions.md
   - name: GetForRmUi
     href: Ticket_Agent/v1TicketAgent_GetForRmUi.md
   - name: GetNextInQueue
@@ -3970,3 +3974,5 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_SendEvent.md
   - name: TryAddPersonsToEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_TryAddPersonsToEmailFlow.md
+  - name: UpdateFormSubmissions
+    href: Workflow_Agent/v1WorkflowAgent_UpdateFormSubmissions.md

@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 620,
-  "Name": "Marquardt-Haag",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 470,
-  "UdListDefinitionId": 74
+  "HeadingId": 919,
+  "Name": "Gerlach Inc and Sons",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "Rank": 371,
+  "UdListDefinitionId": 692
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 519,
-  "Name": "Lakin-Daugherty",
-  "Tooltip": "quos",
+  "HeadingId": 20,
+  "Name": "Klein, Funk and Denesik",
+  "Tooltip": "sapiente",
   "Deleted": true,
-  "Rank": 812,
-  "UdListDefinitionId": 419,
+  "Rank": 49,
+  "UdListDefinitionId": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

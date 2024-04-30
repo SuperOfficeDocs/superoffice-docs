@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 232,
-    "Tooltip": "earum",
-    "CanAssign": false,
-    "Free": 685,
-    "InUse": 458,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 435,
-    "Name": "VonRueden, Bogisich and Kshlerin",
-    "Description": "Reverse-engineered actuating parallelism",
-    "PrerequisiteModuleName": "Rempel-Torphy",
-    "SortOrder": 988,
-    "ExtraFlags": 888,
+    "Total": 983,
+    "Tooltip": "reprehenderit",
+    "CanAssign": true,
+    "Free": 441,
+    "InUse": 394,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 37,
+    "Name": "Walter-Cole",
+    "Description": "Compatible heuristic architecture",
+    "PrerequisiteModuleName": "Barrows-Lindgren",
+    "SortOrder": 375,
+    "ExtraFlags": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 666,
-  "Name": "Lynch-Wilkinson",
-  "Tooltip": "dolorum",
-  "Rank": 874,
-  "Key": "adipisci",
-  "MailTemplateId": 119,
-  "Deleted": true,
+  "ConsentSourceId": 580,
+  "Name": "Sipes Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 254,
+  "Key": "natus",
+  "MailTemplateId": 894,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 578
     }
   }
 }

@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 415,
-      "ColumnId": 499,
-      "FieldDefault": "aliquid",
-      "FieldHeight": 364,
-      "FieldLabel": "fugiat",
-      "FieldLeft": 508,
-      "FieldTop": 660,
+      "UDefFieldId": 301,
+      "ColumnId": 692,
+      "FieldDefault": "ea",
+      "FieldHeight": 325,
+      "FieldLabel": "facilis",
+      "FieldLeft": 390,
+      "FieldTop": 492,
       "FieldType": "Checkbox",
-      "FieldWidth": 72,
-      "FormatMask": "est",
-      "HideLabel": false,
+      "FieldWidth": 619,
+      "FormatMask": "voluptatibus",
+      "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 753,
-      "LabelLeft": 954,
-      "LabelTop": 952,
-      "LabelWidth": 119,
-      "LastVersionId": 483,
-      "ListTableId": 708,
-      "IsMandatory": false,
+      "LabelHeight": 871,
+      "LabelLeft": 263,
+      "LabelTop": 769,
+      "LabelWidth": 565,
+      "LastVersionId": 187,
+      "ListTableId": 883,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 510,
-      "ProgId": "fuga",
-      "IsReadOnly": true,
-      "ShortLabel": "repellat",
-      "TabOrder": 970,
-      "TextLength": 62,
-      "Tooltip": "dolores",
-      "UdefIdentity": 594,
-      "UDListDefinitionId": 532,
+      "Page1LineNo": 756,
+      "ProgId": "voluptatem",
+      "IsReadOnly": false,
+      "ShortLabel": "qui",
+      "TabOrder": 386,
+      "TextLength": 297,
+      "Tooltip": "ut",
+      "UdefIdentity": 325,
+      "UDListDefinitionId": 995,
       "Justification": "Center",
-      "Version": 65,
-      "TemplateVariableName": "Bechtelar Group",
-      "HasBeenPublished": true,
-      "MdoListName": "Wiza, Osinski and Ritchie"
+      "Version": 918,
+      "TemplateVariableName": "Upton LLC",
+      "HasBeenPublished": false,
+      "MdoListName": "Crooks, Wolf and Kris"
     }
   ]
 }

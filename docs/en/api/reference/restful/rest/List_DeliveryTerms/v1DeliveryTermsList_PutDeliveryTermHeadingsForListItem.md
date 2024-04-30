@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 341,
-    "Name": "Schumm LLC",
-    "ToolTip": "Voluptatibus amet quasi dolor magnam et ut.",
-    "Deleted": false,
-    "Rank": 697,
-    "Type": "temporibus",
-    "ColorBlock": 960,
-    "IconHint": "maxime",
+    "Id": 729,
+    "Name": "Von-Beatty",
+    "ToolTip": "Quasi ut blanditiis porro ut ipsa sed est.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "qui",
+    "ColorBlock": 525,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "1997-05-13T11:44:43.054404+02:00",
+    "LastChanged": "2017-09-15T11:16:14.5589219+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Armstrong LLC",
-        "ToolTip": "Omnis quia necessitatibus harum quia id sed velit.",
+        "Id": 788,
+        "Name": "Miller Inc and Sons",
+        "ToolTip": "Cumque quibusdam consectetur distinctio esse.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "natus",
-        "ColorBlock": 393,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2019-05-16T11:44:43.054404+02:00",
+        "Rank": 692,
+        "Type": "magni",
+        "ColorBlock": 554,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2017-11-02T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "iusto",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Virginie Pollich"
+        "FullName": "Kylee Beahan III"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Mr. Kennedi Spencer Sporer Jr."
+    "ExtraInfo": "sit",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Florida Cremin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Zboncak, Raynor and Hintz",
-    "ToolTip": "Quisquam vitae eligendi dolor deserunt.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "repudiandae",
-    "ColorBlock": 926,
-    "IconHint": "nisi",
+    "Id": 619,
+    "Name": "Boyle LLC",
+    "ToolTip": "Ea facilis enim accusamus aliquid accusamus error vitae.",
+    "Deleted": false,
+    "Rank": 152,
+    "Type": "laboriosam",
+    "ColorBlock": 142,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2012-12-01T11:44:43.054404+01:00",
+    "LastChanged": "2024-02-20T11:16:14.5589219+01:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Strosin Group",
-        "ToolTip": "Placeat accusamus error quo placeat odio porro dolores.",
+        "Id": 144,
+        "Name": "Jast Inc and Sons",
+        "ToolTip": "Quis soluta dolorum.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "et",
-        "ColorBlock": 447,
-        "IconHint": "ut",
+        "Rank": 286,
+        "Type": "nulla",
+        "ColorBlock": 618,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2000-05-12T11:44:43.054404+02:00",
+        "LastChanged": "2013-02-26T11:16:14.5589219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "cumque",
+        "ExtraInfo": "sit",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Kellie McClure",
+        "FullName": "Samson Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 199
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Judge Jewess III",
+    "ExtraInfo": "impedit",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Raleigh Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 217
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 477,
-  "UniqueIdentifier": "expedita",
-  "Name": "Howell Group",
-  "Description": "Multi-layered bifurcated attitude",
+  "EjscriptId": 331,
+  "UniqueIdentifier": "commodi",
+  "Name": "Williamson Group",
+  "Description": "Customizable client-server help-desk",
   "IncludeId": "est",
-  "HierarchyId": 599,
-  "Source": "nesciunt",
-  "Registered": "2020-05-09T11:44:41.8671838+02:00",
-  "RegisteredAssociateId": 877,
-  "Updated": "2010-08-30T11:44:41.8671838+02:00",
-  "UpdatedAssociateId": 643,
+  "HierarchyId": 852,
+  "Source": "ab",
+  "Registered": "2006-12-16T11:16:13.83947+01:00",
+  "RegisteredAssociateId": 224,
+  "Updated": "2007-04-23T11:16:13.83947+02:00",
+  "UpdatedAssociateId": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   }
 }

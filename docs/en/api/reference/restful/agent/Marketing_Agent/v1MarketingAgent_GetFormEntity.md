@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=874
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=14
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 531,
-  "FormKey": "molestias",
-  "Name": "O'Conner-Kuhic",
-  "Description": "Managed value-added installation",
-  "Config": "et",
-  "FolderId": 339,
-  "ScriptId": 988,
-  "ResponseShipmentId": 904,
+  "FormId": 848,
+  "FormKey": "recusandae",
+  "Name": "Bogisich-Okuneva",
+  "Description": "Exclusive dynamic monitoring",
+  "Config": "voluptatem",
+  "FolderId": 281,
+  "ScriptId": 566,
+  "ResponseShipmentId": 612,
   "Active": false,
-  "Expires": "2006-03-13T11:44:33.9315193+01:00",
-  "MaxSubmits": 839,
+  "Expires": "2016-06-30T11:16:09.3815779+02:00",
+  "MaxSubmits": 673,
   "Type": "Normal",
-  "Recipe": "tempore",
-  "GroupId": 389,
+  "Recipe": "repellendus",
+  "GroupId": 534,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-02-01T11:44:33.9315193+01:00",
-  "RegisteredAssociateId": 378,
-  "Updated": "1997-05-20T11:44:33.9315193+02:00",
-  "UpdatedAssociateId": 253,
-  "UpdatedCount": 870,
+  "Registered": "2023-03-23T11:16:09.3815779+01:00",
+  "RegisteredAssociateId": 44,
+  "Updated": "2010-08-15T11:16:09.3815779+02:00",
+  "UpdatedAssociateId": 761,
+  "UpdatedCount": 630,
   "EmailFlows": [
-    613,
-    265
+    879,
+    880
   ],
-  "FolderName": "Shanahan, Hermiston and Weimann",
+  "FolderName": "Lubowitz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 649
     }
   }
 }

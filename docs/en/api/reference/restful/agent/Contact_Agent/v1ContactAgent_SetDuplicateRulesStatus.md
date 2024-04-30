@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Skiles-Marks",
-      "DisplayName": "Pacocha, Oberbrunner and Schultz",
-      "DisplayTooltip": "deserunt",
+      "Name": "O'Connell, Emard and Hoeger",
+      "DisplayName": "Wunsch Inc and Sons",
+      "DisplayTooltip": "at",
       "IsActive": false
     },
     {
-      "Name": "Skiles-Marks",
-      "DisplayName": "Pacocha, Oberbrunner and Schultz",
-      "DisplayTooltip": "deserunt",
+      "Name": "O'Connell, Emard and Hoeger",
+      "DisplayName": "Wunsch Inc and Sons",
+      "DisplayTooltip": "at",
       "IsActive": false
     }
   ]

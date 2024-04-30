@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=quisquam
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Lemke, Cummings and Rau",
-    "ToolTip": "Repellendus cum ut adipisci voluptas rerum aut.",
+    "Id": 781,
+    "Name": "Reinger, Russel and Leuschke",
+    "ToolTip": "Rerum deserunt vitae cupiditate aliquam.",
     "Deleted": false,
-    "Rank": 443,
-    "Type": "earum",
+    "Rank": 652,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Macejkovic-Lockman",
-        "ToolTip": "Non sit.",
-        "Deleted": false,
-        "Rank": 326,
-        "Type": "labore",
+        "Id": 647,
+        "Name": "Schultz, Kris and Reichert",
+        "ToolTip": "Voluptatem quod.",
+        "Deleted": true,
+        "Rank": 425,
+        "Type": "vero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 927,
-        "ExtraInfo": "vero",
-        "StyleHint": "architecto",
-        "FullName": "Lilian Heathcote",
+        "IconHint": "eius",
+        "ColorBlock": 134,
+        "ExtraInfo": "ut",
+        "StyleHint": "non",
+        "FullName": "Adrianna Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 342
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 559,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "porro",
-    "FullName": "Estell Windler DDS",
+    "IconHint": "est",
+    "ColorBlock": 638,
+    "ExtraInfo": "vel",
+    "StyleHint": "neque",
+    "FullName": "Maida Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 869
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    820,
-    915
+    564,
+    630
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 214,
-    "Caption": "fugit",
-    "Description": "Phased global knowledge base",
-    "ChartName": "Kuhn, Kunze and Schamberger",
-    "ChartId": "velit",
+    "DashboardTileId": 612,
+    "Caption": "nisi",
+    "Description": "Focused 4th generation hierarchy",
+    "ChartName": "Ledner, Botsford and Cormier",
+    "ChartId": "maiores",
     "IsDefault": false,
-    "AssociateId": 21,
-    "GroupId": 95,
-    "SelectionId": 749,
-    "Config": "molestiae",
+    "AssociateId": 84,
+    "GroupId": 318,
+    "SelectionId": 145,
+    "Config": "quia",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Kris-Beahan",
-        "Description": "Sharable intermediate implementation",
+        "Name": "Walker Inc and Sons",
+        "Description": "Total solution-oriented contingency",
         "Type": "Boolean",
-        "ListName": "Connelly Group",
+        "ListName": "Murazik, Leffler and Stoltenberg",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "tempore",
-        "DefaultDataOption": true,
+        "Value": "libero",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 747
+            "FieldType": "System.Int32",
+            "FieldLength": 973
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 53,
+        "VisibleId": 201,
         "Visibility": "All",
-        "DisplayValue": "pariatur",
+        "DisplayValue": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 631
+            "FieldLength": 751
           }
         }
       },
       {
-        "VisibleId": 53,
+        "VisibleId": 201,
         "Visibility": "All",
-        "DisplayValue": "pariatur",
+        "DisplayValue": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 631
+            "FieldLength": 751
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 449
       }
     }
   }

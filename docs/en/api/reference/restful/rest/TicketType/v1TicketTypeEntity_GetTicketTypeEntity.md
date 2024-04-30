@@ -78,6 +78,7 @@ TicketTypeEntity found.
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -98,39 +99,43 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 1000,
-  "Name": "Kub, Ryan and Jast",
-  "Rank": 633,
-  "Tooltip": "deserunt",
-  "Icon": "expedita",
-  "DefaultTicketStatus": 939,
+  "TicketTypeId": 143,
+  "Name": "Carter, Bergnaum and Hirthe",
+  "Rank": 218,
+  "Tooltip": "unde",
+  "Icon": "cum",
+  "DefaultTicketStatus": 661,
   "TicketStatuses": [
-    562,
-    76
+    670,
+    518
   ],
-  "DefaultTicketPriority": 130,
+  "DefaultTicketPriority": 720,
   "TicketPriorities": [
-    464,
-    788
+    862,
+    367
   ],
-  "ReplyTemplate": 903,
+  "ReplyTemplate": 732,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    33,
+    378
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 277
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

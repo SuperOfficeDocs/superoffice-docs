@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 173,
-    "Name": "Kuhn-Bradtke",
-    "Tooltip": "maiores",
+    "HeadingId": 410,
+    "Name": "Dicki, Robel and Hoppe",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 818,
-    "UdListDefinitionId": 621
+    "Rank": 896,
+    "UdListDefinitionId": 156
   },
   {
-    "HeadingId": 173,
-    "Name": "Kuhn-Bradtke",
-    "Tooltip": "maiores",
+    "HeadingId": 410,
+    "Name": "Dicki, Robel and Hoppe",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 818,
-    "UdListDefinitionId": 621
+    "Rank": 896,
+    "UdListDefinitionId": 156
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 125,
-    "Name": "Gaylord LLC",
-    "Tooltip": "dicta",
+    "HeadingId": 466,
+    "Name": "Bahringer Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 311,
-    "UdListDefinitionId": 53,
+    "Rank": 678,
+    "UdListDefinitionId": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldLength": 990
       }
     }
   }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Flatley Inc and Sons",
-  "DeviceName": "Bartell LLC",
-  "DeviceIdentifier": "veniam"
+  "ApplicationName": "Schmeler, Luettgen and Kautzer",
+  "DeviceName": "Weissnat-Rau",
+  "DeviceIdentifier": "odit"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 943,
-  "Name": "Hoppe-Okuneva",
-  "CreatedDate": "2010-12-15T11:44:33.7596833+01:00",
-  "UpdatedDate": "2008-01-06T11:44:33.7596833+01:00",
-  "AssociateFullName": "Melyssa Botsford",
-  "CreatedBy": "harum",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "eligendi",
-  "ForeignAppId": 809,
+  "ForeignDeviceId": 399,
+  "Name": "Stehr-Schumm",
+  "CreatedDate": "2017-04-27T11:16:09.2878404+02:00",
+  "UpdatedDate": "2005-06-29T11:16:09.2878404+02:00",
+  "AssociateFullName": "Thomas O'Hara",
+  "CreatedBy": "quo",
+  "UpdatedBy": "enim",
+  "DeviceIdentifier": "laudantium",
+  "ForeignAppId": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

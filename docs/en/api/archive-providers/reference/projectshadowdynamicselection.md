@@ -783,7 +783,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=hasGuide,appointment/registeredByFullName,appointment/recordTypeText,appointment/associate/contactFullName,projectMember/personAddress/state
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=description,appointment/appointmentUdef/SuperOffice:5,appointment/appointment/description,document/associate/credentialType,projectMember/contactExtra/x_contact_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

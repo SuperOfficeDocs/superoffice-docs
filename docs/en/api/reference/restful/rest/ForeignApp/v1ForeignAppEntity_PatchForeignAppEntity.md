@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 177,
-  "Name": "Welch-Mertz",
-  "CreatedDate": "2023-12-09T11:44:41.9921474+01:00",
-  "UpdatedDate": "2021-02-13T11:44:41.9921474+01:00",
+  "ForeignAppId": 719,
+  "Name": "Howe LLC",
+  "CreatedDate": "2010-11-03T11:16:13.93321+01:00",
+  "UpdatedDate": "2017-01-22T11:16:13.93321+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 264,
-      "Name": "Kessler Inc and Sons",
-      "CreatedDate": "2007-12-15T11:44:41.9921474+01:00",
-      "UpdatedDate": "2012-09-07T11:44:41.9921474+02:00",
-      "AssociateFullName": "Sigurd Smitham",
-      "CreatedBy": "itaque",
-      "UpdatedBy": "excepturi",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 482,
+      "ForeignDeviceId": 125,
+      "Name": "Abbott-Zemlak",
+      "CreatedDate": "2005-09-03T11:16:13.93321+02:00",
+      "UpdatedDate": "2019-01-16T11:16:13.93321+01:00",
+      "AssociateFullName": "Sebastian Ernser",
+      "CreatedBy": "quia",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "doloremque",
+      "ForeignAppId": 681,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 421
     }
   },
   "_Links": {

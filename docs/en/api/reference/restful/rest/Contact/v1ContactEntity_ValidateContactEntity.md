@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 933,
-  "Name": "Wehner Inc and Sons",
+  "ContactId": 195,
+  "Name": "Deckow, Schmeler and Kulas",
   "Department": "",
-  "OrgNr": "1285740",
-  "Number1": "1822034",
-  "Number2": "726243",
-  "UpdatedDate": "2011-06-19T11:44:41.8359334+02:00",
-  "CreatedDate": "2011-01-11T11:44:41.8359334+01:00",
+  "OrgNr": "1384247",
+  "Number1": "920333",
+  "Number2": "1499323",
+  "UpdatedDate": "2005-12-13T11:16:13.82385+01:00",
+  "CreatedDate": "2010-02-15T11:16:13.82385+01:00",
   "Emails": [
     {
-      "Value": "modi",
-      "StrippedValue": "iste",
-      "Description": "Switchable scalable concept"
+      "Value": "corrupti",
+      "StrippedValue": "aut",
+      "Description": "Open-architected upward-trending complexity"
     },
     {
-      "Value": "modi",
-      "StrippedValue": "iste",
-      "Description": "Switchable scalable concept"
+      "Value": "corrupti",
+      "StrippedValue": "aut",
+      "Description": "Open-architected upward-trending complexity"
     }
   ],
   "Interests": [
     {
-      "Id": 112,
-      "Name": "Stiedemann, Hermann and Mueller",
-      "ToolTip": "Ut amet.",
-      "Deleted": false,
-      "Rank": 594,
-      "Type": "consequatur",
-      "ColorBlock": 415,
-      "IconHint": "rerum",
-      "Selected": true,
-      "LastChanged": "2022-01-15T11:44:41.8359334+01:00",
+      "Id": 909,
+      "Name": "Kirlin Inc and Sons",
+      "ToolTip": "Sed ut dolores eaque maiores atque aut.",
+      "Deleted": true,
+      "Rank": 825,
+      "Type": "accusantium",
+      "ColorBlock": 589,
+      "IconHint": "deleniti",
+      "Selected": false,
+      "LastChanged": "2004-07-28T11:16:13.82385+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nobis",
-      "StyleHint": "fugit",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "enim",
       "Hidden": false,
-      "FullName": "Mellie O'Connell"
+      "FullName": "Miss Forrest Estel Runolfsson"
     }
   ],
   "Urls": [
     {
-      "Value": "iste",
-      "StrippedValue": "doloremque",
-      "Description": "Front-line global architecture"
+      "Value": "explicabo",
+      "StrippedValue": "quia",
+      "Description": "De-engineered eco-centric software"
     },
     {
-      "Value": "iste",
-      "StrippedValue": "doloremque",
-      "Description": "Front-line global architecture"
+      "Value": "explicabo",
+      "StrippedValue": "quia",
+      "Description": "De-engineered eco-centric software"
     }
   ],
   "Phones": [
     {
-      "Value": "sed",
-      "StrippedValue": "provident",
-      "Description": "Organized directional groupware"
+      "Value": "quos",
+      "StrippedValue": "natus",
+      "Description": "Enterprise-wide coherent productivity"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "provident",
-      "Description": "Organized directional groupware"
+      "Value": "quos",
+      "StrippedValue": "natus",
+      "Description": "Enterprise-wide coherent productivity"
     }
   ],
   "Faxes": [
     {
-      "Value": "asperiores",
-      "StrippedValue": "molestias",
-      "Description": "Programmable hybrid matrices"
+      "Value": "voluptatum",
+      "StrippedValue": "similique",
+      "Description": "Grass-roots zero administration protocol"
     },
     {
-      "Value": "asperiores",
-      "StrippedValue": "molestias",
-      "Description": "Programmable hybrid matrices"
+      "Value": "voluptatum",
+      "StrippedValue": "similique",
+      "Description": "Grass-roots zero administration protocol"
     }
   ],
-  "Description": "Stand-alone analyzing functionalities",
+  "Description": "Networked methodical knowledge user",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "debitis",
-      "PersonId": 92,
-      "Mrmrs": "ipsum",
-      "Firstname": "Diego",
-      "Lastname": "Robel",
-      "MiddleName": "Erdman, Kshlerin and Mayert",
-      "Title": "eum",
-      "Description": "Synchronised modular archive",
-      "Email": "aurelie@donnelly.us",
-      "FullName": "Mrs. Billy Bashirian",
-      "DirectPhone": "1-690-477-6481",
-      "FormalName": "Bauch, Kertzmann and Walter",
-      "CountryId": 925,
-      "ContactId": 245,
-      "ContactName": "Mertz, Greenholt and Harris",
-      "Retired": 435,
-      "Rank": 868,
-      "ActiveInterests": 502,
+      "Position": "aut",
+      "PersonId": 28,
+      "Mrmrs": "nisi",
+      "Firstname": "Nola",
+      "Lastname": "Herman",
+      "MiddleName": "Grimes, Grant and Ziemann",
+      "Title": "voluptatem",
+      "Description": "Stand-alone needs-based structure",
+      "Email": "santino@baumbachstanton.uk",
+      "FullName": "Brycen Walter",
+      "DirectPhone": "1-445-048-5009 x3744",
+      "FormalName": "Reichert, Bailey and Beer",
+      "CountryId": 298,
+      "ContactId": 518,
+      "ContactName": "Bradtke, Corwin and Beahan",
+      "Retired": 993,
+      "Rank": 891,
+      "ActiveInterests": 812,
       "ContactDepartment": "",
-      "ContactCountryId": 190,
-      "ContactOrgNr": "1773966",
-      "FaxPhone": "1-096-086-8615 x609",
-      "MobilePhone": "(696)895-9611 x1657",
-      "ContactPhone": "1-511-925-0753",
-      "AssociateName": "Rutherford-Goodwin",
-      "AssociateId": 662,
-      "UsePersonAddress": true,
-      "ContactFax": "quis",
-      "Kanafname": "aut",
-      "Kanalname": "rerum",
-      "Post1": "voluptas",
-      "Post2": "aut",
-      "Post3": "voluptates",
-      "EmailName": "margaretta_kulas@smithsmith.info",
-      "ContactFullName": "Ada Huels",
-      "ActiveErpLinks": 858,
-      "TicketPriorityId": 670,
-      "SupportLanguageId": 660,
-      "SupportAssociateId": 584,
+      "ContactCountryId": 375,
+      "ContactOrgNr": "1233093",
+      "FaxPhone": "869.901.3214 x88963",
+      "MobilePhone": "1-640-065-6959 x71277",
+      "ContactPhone": "599-354-7692",
+      "AssociateName": "Reilly Inc and Sons",
+      "AssociateId": 590,
+      "UsePersonAddress": false,
+      "ContactFax": "modi",
+      "Kanafname": "eveniet",
+      "Kanalname": "unde",
+      "Post1": "necessitatibus",
+      "Post2": "reiciendis",
+      "Post3": "quis",
+      "EmailName": "joseph_simonis@beiergreenfelder.info",
+      "ContactFullName": "Benton Jacobi",
+      "ActiveErpLinks": 644,
+      "TicketPriorityId": 632,
+      "SupportLanguageId": 915,
+      "SupportAssociateId": 856,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": true,
-  "Kananame": "quisquam",
-  "Xstop": false,
-  "ActiveInterests": 323,
-  "GroupId": 145,
-  "ActiveStatusMonitorId": 501,
+  "NoMailing": false,
+  "Kananame": "ducimus",
+  "Xstop": true,
+  "ActiveInterests": 342,
+  "GroupId": 495,
+  "ActiveStatusMonitorId": 967,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 475,
-  "DbiAgentId": 486,
-  "DbiLastSyncronized": "2007-04-16T11:44:41.8359334+02:00",
-  "DbiKey": "enim",
-  "DbiLastModified": "2017-09-04T11:44:41.8359334+02:00",
+  "Deleted": 69,
+  "DbiAgentId": 613,
+  "DbiLastSyncronized": "2014-12-17T11:16:13.82385+01:00",
+  "DbiKey": "libero",
+  "DbiLastModified": "2023-08-01T11:16:13.82385+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 905,
-  "ActiveErpLinks": 933,
+  "Source": 715,
+  "ActiveErpLinks": 735,
   "BounceEmails": [
-    "lorenzo_mertz@hodkiewicz.ca",
-    "reed@huels.biz"
+    "elenora_huel@wehner.name",
+    "retta@gorczanyjohnson.info"
   ],
   "Domains": [
-    "soluta",
-    "voluptates"
+    "voluptatem",
+    "atque"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1132412647",
-    "SuperOffice:2": "143828681"
+    "SuperOffice:1": "Oma Lind",
+    "SuperOffice:2": "Meagan Huels"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "eos"
+    "CustomFields1": "dolores",
+    "CustomFields2": "sunt"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "natus",
-  "2": "et"
+  "1": "maxime",
+  "2": "corporis"
 }
 ```

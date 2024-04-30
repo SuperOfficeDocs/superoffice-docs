@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Doyle-Hyatt"
+  "LayoutName": "Nolan Group"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 490,
-  "InstanceLayout": "iusto",
-  "InstanceName": "Rau-O'Keefe",
-  "CreatedDate": "2007-01-07T11:44:32.806727+01:00",
-  "UpdatedDate": "2001-07-23T11:44:32.806727+02:00",
+  "AudienceLayoutId": 124,
+  "InstanceLayout": "nisi",
+  "InstanceName": "Ferry-Frami",
+  "CreatedDate": "2019-01-01T11:16:08.7410229+01:00",
+  "UpdatedDate": "2002-12-29T11:16:08.7410229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vero",
-  "ProviderName": "Predovic Inc and Sons",
-  "StorageKey": "tempore",
+  "StorageType": "officiis",
+  "ProviderName": "Beatty-Runolfsdottir",
+  "StorageKey": "nobis",
   "RestrictionGroup": null,
-  "Context": "consequuntur"
+  "Context": "sint"
 }
 ```
 

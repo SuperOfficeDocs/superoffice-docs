@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 654,
-    "Section": "nemo",
-    "Key": "natus",
-    "Name": "Bayer, Crooks and Mitchell",
+    "PrefDescId": 52,
+    "Section": "ad",
+    "Key": "aliquid",
+    "Name": "Parisian Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Adaptive empowering collaboration",
+    "Description": "Optional user-facing alliance",
     "IsBuiltin": true,
-    "TableName": "Greenholt-Goldner",
-    "UserDefinedListId": 523,
-    "Rank": 932,
-    "SubGroup": "voluptatem",
-    "MinLevel": 842,
-    "MaxValue": 118,
-    "MinValue": 278,
-    "RequiredLicense": "molestias",
+    "TableName": "Gutmann-Larkin",
+    "UserDefinedListId": 374,
+    "Rank": 153,
+    "SubGroup": "voluptate",
+    "MinLevel": 251,
+    "MaxValue": 240,
+    "MinValue": 864,
+    "RequiredLicense": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 938
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

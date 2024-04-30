@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Pollich Group",
-  "Comment": "itaque",
-  "StakeholderRoleId": 292,
-  "CountryId": 755,
-  "PersonId": 940,
-  "EmailDescription": "kaela@considineharvey.name",
-  "EmailId": 663,
-  "EmailAddress": "stewart@schmittbuckridge.info",
-  "PhoneId": 87,
-  "ContactName": "Torphy-Ortiz",
-  "ContactId": 54,
-  "SaleId": 396,
-  "Mrmrs": "vel",
-  "Firstname": "Eleonore",
-  "MiddleName": "Batz Inc and Sons",
-  "Lastname": "Bernhard",
-  "SaleStakeholderId": 399,
-  "Rank": 877,
-  "Phone": "(809)691-0674"
+  "StakeholderRoleName": "Harber-Harber",
+  "Comment": "sed",
+  "StakeholderRoleId": 412,
+  "CountryId": 404,
+  "PersonId": 613,
+  "EmailDescription": "deanna@mcclurerempel.ca",
+  "EmailId": 763,
+  "EmailAddress": "antwon@feeneyberge.info",
+  "PhoneId": 424,
+  "ContactName": "Lindgren, Bogan and Nitzsche",
+  "ContactId": 302,
+  "SaleId": 374,
+  "Mrmrs": "exercitationem",
+  "Firstname": "Piper",
+  "MiddleName": "Williamson, Stanton and Lakin",
+  "Lastname": "Kshlerin",
+  "SaleStakeholderId": 666,
+  "Rank": 433,
+  "Phone": "916-453-0227 x020"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dietrich, Paucek and Kuhic",
-  "Comment": "qui",
-  "StakeholderRoleId": 106,
-  "CountryId": 21,
-  "PersonId": 456,
-  "EmailDescription": "tierra.maggio@bode.name",
-  "EmailId": 747,
-  "EmailAddress": "newton@kutch.biz",
-  "PhoneId": 883,
-  "ContactName": "Ernser Inc and Sons",
-  "ContactId": 180,
-  "SaleId": 275,
-  "Mrmrs": "minima",
-  "Firstname": "Gretchen",
-  "MiddleName": "Grady-Flatley",
-  "Lastname": "Pfannerstill",
-  "SaleStakeholderId": 300,
-  "Rank": 136,
-  "Phone": "162.574.0618",
+  "StakeholderRoleName": "Grimes-Hettinger",
+  "Comment": "deleniti",
+  "StakeholderRoleId": 145,
+  "CountryId": 443,
+  "PersonId": 349,
+  "EmailDescription": "dulce@dibbertmcdermott.biz",
+  "EmailId": 131,
+  "EmailAddress": "dariana@mckenzie.ca",
+  "PhoneId": 944,
+  "ContactName": "Schuster, Rogahn and Bradtke",
+  "ContactId": 948,
+  "SaleId": 413,
+  "Mrmrs": "voluptate",
+  "Firstname": "Polly",
+  "MiddleName": "Farrell, Hyatt and Conn",
+  "Lastname": "Littel",
+  "SaleStakeholderId": 560,
+  "Rank": 844,
+  "Phone": "691-203-5967 x63565",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 752
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

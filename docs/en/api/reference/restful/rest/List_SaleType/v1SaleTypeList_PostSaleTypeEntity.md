@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 450,
-  "Name": "Purdy-Reilly",
-  "Tooltip": "impedit",
-  "Rank": 415,
+  "SaleTypeId": 272,
+  "Name": "Douglas Group",
+  "Tooltip": "eaque",
+  "Rank": 390,
   "DurationUnit": "Century",
-  "SaleDuration": 639,
-  "SaleTypeCatId": 263,
+  "SaleDuration": 993,
+  "SaleTypeCatId": 291,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 830,
-  "QuoteLinesTemplate": 279,
-  "ConfirmationLinesTemplate": 783,
-  "MaxDiscountPercentSet": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 650,
+  "QuoteLinesTemplate": 299,
+  "ConfirmationLinesTemplate": 262,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 362,
-  "MinEarningPercent": 694,
-  "GroupQuoteLinesBy": 518,
-  "SortGroupLinesBy": 644,
+  "MaxDiscountPercent": 512,
+  "MinEarningPercent": 710,
+  "GroupQuoteLinesBy": 884,
+  "SortGroupLinesBy": 834,
   "Stages": [
     {
-      "Id": 885,
-      "Name": "Hills Inc and Sons",
-      "ToolTip": "Aut facilis eaque.",
-      "Deleted": false,
-      "Rank": 104,
-      "Type": "itaque",
-      "ColorBlock": 919,
-      "IconHint": "dicta",
+      "Id": 940,
+      "Name": "Ward-Kihn",
+      "ToolTip": "Quia officiis perspiciatis reprehenderit.",
+      "Deleted": true,
+      "Rank": 70,
+      "Type": "iusto",
+      "ColorBlock": 957,
+      "IconHint": "voluptatibus",
       "Selected": true,
-      "LastChanged": "2022-09-29T11:44:43.3355939+02:00",
+      "LastChanged": "2010-01-02T11:16:14.7307772+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Miss Shannon Conroy"
+      "FullName": "Prof. Ed Simonis IV"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 543,
-  "Name": "Stoltenberg Group",
-  "Tooltip": "eum",
-  "Rank": 742,
+  "SaleTypeId": 36,
+  "Name": "Predovic, Fadel and Bosco",
+  "Tooltip": "voluptas",
+  "Rank": 77,
   "DurationUnit": "Century",
-  "SaleDuration": 346,
-  "SaleTypeCatId": 711,
-  "Deleted": false,
+  "SaleDuration": 368,
+  "SaleTypeCatId": 536,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 726,
-  "QuoteLinesTemplate": 292,
-  "ConfirmationLinesTemplate": 627,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 503,
+  "QuoteLinesTemplate": 927,
+  "ConfirmationLinesTemplate": 933,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 85,
-  "MinEarningPercent": 911,
-  "GroupQuoteLinesBy": 251,
-  "SortGroupLinesBy": 809,
+  "MaxDiscountPercent": 900,
+  "MinEarningPercent": 49,
+  "GroupQuoteLinesBy": 63,
+  "SortGroupLinesBy": 514,
   "Stages": [
     {
-      "Id": 688,
-      "Name": "Little LLC",
-      "ToolTip": "Nihil perferendis.",
+      "Id": 2,
+      "Name": "Shanahan-Cruickshank",
+      "ToolTip": "Voluptatum quas.",
       "Deleted": false,
-      "Rank": 82,
-      "Type": "repellendus",
-      "ColorBlock": 290,
-      "IconHint": "ab",
-      "Selected": true,
-      "LastChanged": "2017-07-10T11:44:43.3355939+02:00",
+      "Rank": 675,
+      "Type": "quidem",
+      "ColorBlock": 744,
+      "IconHint": "ut",
+      "Selected": false,
+      "LastChanged": "2001-03-12T11:16:14.7307772+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "facere",
-      "Hidden": true,
-      "FullName": "Tyree Wilderman",
+      "ExtraInfo": "eius",
+      "StyleHint": "cumque",
+      "Hidden": false,
+      "FullName": "Donato Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 399
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 413
     }
   }
 }

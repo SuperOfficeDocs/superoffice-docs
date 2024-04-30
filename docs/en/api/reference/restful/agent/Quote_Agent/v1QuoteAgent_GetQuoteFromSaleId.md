@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 732
+  "SaleId": 605
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 297,
-  "SaleId": 302,
-  "QuoteConnectionId": 354,
-  "ERPQuoteKey": "tempore",
-  "ERPOrderKey": "velit",
-  "ActiveQuoteVersionId": 406,
-  "AcceptedQuoteAlternativeId": 269,
-  "UseValuesFromQuote": 22,
-  "DocumentId": 444,
-  "PoNumber": "1070896",
-  "OrderComment": "pariatur",
-  "PreferredEmailCulture": "david@borer.us",
+  "QuoteId": 570,
+  "SaleId": 824,
+  "QuoteConnectionId": 903,
+  "ERPQuoteKey": "suscipit",
+  "ERPOrderKey": "aliquid",
+  "ActiveQuoteVersionId": 185,
+  "AcceptedQuoteAlternativeId": 384,
+  "UseValuesFromQuote": 239,
+  "DocumentId": 370,
+  "PoNumber": "1610775",
+  "OrderComment": "eius",
+  "PreferredEmailCulture": "paolo.moore@terry.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 371
     }
   }
 }

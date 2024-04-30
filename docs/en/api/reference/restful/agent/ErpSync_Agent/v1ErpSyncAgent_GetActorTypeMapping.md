@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 913,
+  "ErpConnectionId": 83,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 393,
-  "IsActive": false,
+  "ErpConnectionId": 249,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 785,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Flatley, Hagenes and Schroeder",
-      "CrmDisplayTooltip": "optio",
-      "ErpFieldKey": "id",
+      "ErpFieldId": 545,
+      "CrmFieldKey": "amet",
+      "CrmDisplayName": "Terry Inc and Sons",
+      "CrmDisplayTooltip": "est",
+      "ErpFieldKey": "nisi",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Turcotte-Homenick",
-      "ErpDisplayTooltip": "praesentium",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Mills-Grimes",
+      "ErpDisplayTooltip": "ut",
+      "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "voluptas",
+      "ListReference": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 625
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 943
     }
   }
 }

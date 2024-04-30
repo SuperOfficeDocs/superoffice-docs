@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Kuhic LLC",
-    "ToolTip": "Reiciendis quasi omnis quia sit aliquid facere.",
-    "Deleted": true,
-    "Rank": 937,
-    "Type": "expedita",
-    "ColorBlock": 432,
-    "IconHint": "ea",
+    "Id": 199,
+    "Name": "McKenzie Group",
+    "ToolTip": "Perspiciatis amet dolorem vel voluptatem nisi.",
+    "Deleted": false,
+    "Rank": 79,
+    "Type": "ex",
+    "ColorBlock": 786,
+    "IconHint": "cumque",
     "Selected": false,
-    "LastChanged": "2023-07-30T11:44:43.2887254+02:00",
+    "LastChanged": "2007-10-26T11:16:14.699531+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Morissette, Haley and Waelchi",
-        "ToolTip": "Quasi eum dolorem ex ab asperiores doloribus minus.",
-        "Deleted": true,
-        "Rank": 618,
-        "Type": "numquam",
-        "ColorBlock": 336,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2012-09-21T11:44:43.2887254+02:00",
+        "Id": 221,
+        "Name": "Jakubowski LLC",
+        "ToolTip": "Suscipit asperiores odit.",
+        "Deleted": false,
+        "Rank": 42,
+        "Type": "enim",
+        "ColorBlock": 744,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2009-10-28T11:16:14.699531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "autem",
+        "ExtraInfo": "delectus",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Prof. Stuart Carlie Boyer Jr.",
+        "FullName": "Murl Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sequi",
+    "ExtraInfo": "quo",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Roxane Wilkinson",
+    "FullName": "Edmond Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 605
       }
     }
   }

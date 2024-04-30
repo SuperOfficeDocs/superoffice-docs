@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 888
+  "ErpConnectionId": 396
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "McDermott Inc and Sons",
+      "ErpListName": "Vandervort, O'Hara and Legros",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Hirthe, Kozey and Brakus",
-      "ErpFieldId": 885,
+      "ErpActorTypeName": "Kshlerin-VonRueden",
+      "ErpFieldId": 888,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     }
   ],
-  "ErpConnectionId": 68,
-  "ErpConnectionName": "Schaefer, Donnelly and Quigley",
+  "ErpConnectionId": 960,
+  "ErpConnectionName": "Torp-Gerlach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 469
     }
   }
 }

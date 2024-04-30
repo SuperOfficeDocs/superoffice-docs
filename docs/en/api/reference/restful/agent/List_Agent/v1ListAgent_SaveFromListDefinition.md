@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "UdListDefinitionId": 357,
+  "Id": 547,
+  "UdListDefinitionId": 833,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Lowe Inc and Sons",
-  "Tooltip": "et",
+  "Id": 36,
+  "Name": "Kuvalis, Howell and Dare",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 959,
-  "Rank": 1001,
+  "UdListDefinitionId": 130,
+  "Rank": 622,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 960
     }
   }
 }

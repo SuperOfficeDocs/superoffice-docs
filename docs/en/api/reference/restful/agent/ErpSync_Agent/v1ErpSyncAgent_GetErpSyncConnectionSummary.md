@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 920
+  "ErpSyncConnectionId": 781
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Eichmann-Cronin",
-  "DisplayDescription": "De-engineered user-facing instruction set",
+  "DisplayName": "Macejkovic Inc and Sons",
+  "DisplayDescription": "Robust next generation migration",
   "Active": false,
-  "Deleted": true,
-  "LastSync": "2011-05-29T11:44:33.6971931+02:00",
+  "Deleted": false,
+  "LastSync": "2011-08-16T11:16:09.2409738+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "aliquam",
-      "Mappings": "sint",
+      "HasMappings": false,
+      "Defaults": "sed",
+      "Mappings": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 754
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "aliquam",
-      "Mappings": "sint",
+      "HasMappings": false,
+      "Defaults": "sed",
+      "Mappings": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 754
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 616
     }
   }
 }

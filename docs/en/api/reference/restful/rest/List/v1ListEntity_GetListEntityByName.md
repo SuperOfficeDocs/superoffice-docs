@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Ratke, Schumm and Kuphal",
-  "Tooltip": "nihil",
+  "Id": 960,
+  "Name": "Fahey Inc and Sons",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "Rank": 115,
+  "Rank": 728,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

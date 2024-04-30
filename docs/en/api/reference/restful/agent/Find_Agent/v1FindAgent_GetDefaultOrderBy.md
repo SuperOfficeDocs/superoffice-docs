@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolore",
-  "ProviderName": "Ondricka, Hirthe and Brakus",
-  "StorageKey": "nisi"
+  "StorageType": "sunt",
+  "ProviderName": "Jacobson, Kerluke and Gislason",
+  "StorageKey": "id"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spinka-Shields",
+    "Name": "Christiansen LLC",
     "Direction": "ASC"
   },
   {
-    "Name": "Spinka-Shields",
+    "Name": "Christiansen LLC",
     "Direction": "ASC"
   }
 ]

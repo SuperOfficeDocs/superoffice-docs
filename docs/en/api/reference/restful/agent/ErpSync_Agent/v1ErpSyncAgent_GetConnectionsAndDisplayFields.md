@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 176
+  "EntityId": 38
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 534,
-    "ConnectionName": "Shanahan LLC",
+    "ErpConnectionId": 10,
+    "ConnectionName": "Cassin, Pfannerstill and Labadie",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "illum",
-        "Rank": 806,
-        "DisplayName": "Bednar-Blick",
-        "DisplayDescription": "Automated motivating ability",
+        "FieldKey": "quaerat",
+        "Rank": 72,
+        "DisplayName": "Bergstrom-Flatley",
+        "DisplayDescription": "Fully-configurable uniform process improvement",
         "FieldType": "Checkbox",
-        "ListName": "Zieme Group",
-        "DefaultValue": "animi",
-        "MaxLength": 443,
+        "ListName": "Gerlach LLC",
+        "DefaultValue": "occaecati",
+        "MaxLength": 635,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "veniam",
-      "nulla"
+      "ea",
+      "facilis"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 462
       }
     }
   }

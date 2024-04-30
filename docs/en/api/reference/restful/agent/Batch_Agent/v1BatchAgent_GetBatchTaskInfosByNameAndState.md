@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ruecker, Spinka and Harris",
+  "Name": "Herzog, Lehner and Swaniawski",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Wuckert, Schamberger and Pagac",
-    "AssociateId": 430,
-    "DetailsTable": 139,
-    "DetailsRecord": 574,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 443,
+    "Name": "Blanda, Pagac and Beatty",
+    "AssociateId": 134,
+    "DetailsTable": 857,
+    "DetailsRecord": 774,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "itaque",
-      "ParameterObject2": "animi"
+      "ParameterObject1": "excepturi",
+      "ParameterObject2": "expedita"
     },
-    "LastStarted": "2005-01-17T11:44:32.822391+01:00",
-    "Created": "2001-07-30T11:44:32.822391+02:00",
-    "StartCount": 551,
-    "DatabaseSerialNumber": "950120",
-    "Context": "voluptatem",
-    "Result": "ut",
+    "LastStarted": "2014-08-05T11:16:08.7410229+02:00",
+    "Created": "2006-11-05T11:16:08.7410229+01:00",
+    "StartCount": 474,
+    "DatabaseSerialNumber": "1070182",
+    "Context": "voluptates",
+    "Result": "et",
     "State": "All",
-    "Description": "Monitored disintermediate pricing structure",
-    "Response": "similique",
-    "Request": "aperiam",
-    "ProgressDescription": "Organized holistic structure",
-    "ProgressPercent": 951,
-    "FileName": "Hyatt, O'Kon and Hintz",
+    "Description": "Polarised tangible policy",
+    "Response": "perspiciatis",
+    "Request": "autem",
+    "ProgressDescription": "Optimized motivating synergy",
+    "ProgressPercent": 703,
+    "FileName": "Littel-Zemlak",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 254
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 610,
-    "ColumnId": 860,
-    "FieldDefault": "nisi",
-    "FieldHeight": 179,
-    "FieldLabel": "repellat",
-    "FieldLeft": 288,
-    "FieldTop": 851,
+    "UDefFieldId": 743,
+    "ColumnId": 233,
+    "FieldDefault": "natus",
+    "FieldHeight": 1002,
+    "FieldLabel": "sed",
+    "FieldLeft": 646,
+    "FieldTop": 74,
     "FieldType": "Checkbox",
-    "FieldWidth": 625,
-    "FormatMask": "quas",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 744,
-    "LabelLeft": 847,
-    "LabelTop": 361,
-    "LabelWidth": 883,
-    "LastVersionId": 718,
-    "ListTableId": 743,
+    "FieldWidth": 622,
+    "FormatMask": "hic",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 259,
+    "LabelLeft": 823,
+    "LabelTop": 304,
+    "LabelWidth": 292,
+    "LastVersionId": 80,
+    "ListTableId": 464,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 831,
-    "ProgId": "nihil",
-    "IsReadOnly": false,
-    "ShortLabel": "sed",
-    "TabOrder": 730,
-    "TextLength": 775,
-    "Tooltip": "alias",
-    "UdefIdentity": 446,
-    "UDListDefinitionId": 585,
+    "Page1LineNo": 100,
+    "ProgId": "voluptatem",
+    "IsReadOnly": true,
+    "ShortLabel": "modi",
+    "TabOrder": 635,
+    "TextLength": 681,
+    "Tooltip": "omnis",
+    "UdefIdentity": 517,
+    "UDListDefinitionId": 382,
     "Justification": "Center",
-    "Version": 364,
-    "TemplateVariableName": "Wunsch, Lehner and Trantow",
-    "HasBeenPublished": false,
-    "MdoListName": "Nolan Group",
+    "Version": 205,
+    "TemplateVariableName": "Wintheiser, Murray and Marquardt",
+    "HasBeenPublished": true,
+    "MdoListName": "Hahn Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldLength": 477
       }
     }
   }

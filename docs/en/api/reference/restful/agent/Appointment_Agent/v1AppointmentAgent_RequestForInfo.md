@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 359,
-  "Channel": "ullam",
-  "Regarding": "dolorum",
-  "ContactName": "Corkery-Gutkowski",
-  "PersonFirstname": "Kianna",
-  "PersonLastname": "Schultz",
-  "EmailAddress": "petra@gleason.co.uk",
-  "PhoneNumber": "1349611"
+  "AssociateIdForNewContact": 386,
+  "Channel": "autem",
+  "Regarding": "itaque",
+  "ContactName": "Price Inc and Sons",
+  "PersonFirstname": "Shanna",
+  "PersonLastname": "Walker",
+  "EmailAddress": "jonas.schuster@kutch.uk",
+  "PhoneNumber": "1142274"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 536,
-      "Name": "Jerde, Stamm and Moen",
-      "OrgNr": "522272",
-      "Department": "",
+      "ContactId": 270,
+      "Name": "Berge, Bosco and Reichel",
+      "OrgNr": "483356",
+      "Department": "utilize world-class e-business",
       "URL": "http://www.example.com/",
-      "City": "et",
-      "DirectPhone": "579.861.6114",
-      "AssociateId": 205,
-      "CountryId": 962,
-      "EmailAddress": "piper_pollich@hickle.com",
-      "Kananame": "error",
-      "EmailAddressName": "adah@weimannvolkman.com",
+      "City": "aut",
+      "DirectPhone": "895.496.0340 x517",
+      "AssociateId": 782,
+      "CountryId": 633,
+      "EmailAddress": "marisol@lubowitzprice.biz",
+      "Kananame": "dolorem",
+      "EmailAddressName": "myron@funk.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Junior Beier V",
+      "AssociateFullName": "May Breitenberg",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "et",
-      "FullName": "Twila Dickinson",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 691,
-      "Number1": "1589649",
-      "Number2": "1116650",
+      "FormattedAddress": "vero",
+      "FullName": "Willy Kris",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 754,
+      "Number1": "991855",
+      "Number2": "1326173",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 180
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 569
     }
   }
 }

@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 245,
+  "TargetYear": 799,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 697,
-  "DimensionId": 921
+  "Id": 100,
+  "DimensionId": 977
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 779,
+  "TargetAssignmentInfoId": 567,
   "Values": [
-    675,
-    390
+    902,
+    901
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 922,
-  "DimensionListItemDisplayName": "Waelchi LLC",
+  "DimensionListItem": 3,
+  "DimensionListItemDisplayName": "Spencer-Bode",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 135
     }
   }
 }

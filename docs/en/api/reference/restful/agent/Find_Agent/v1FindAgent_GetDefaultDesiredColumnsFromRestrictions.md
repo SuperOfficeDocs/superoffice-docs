@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bogisich LLC",
+  "ProviderName": "Wunsch, Hintz and Donnelly",
   "Restrictions": [
     {
-      "Name": "Abernathy-Pollich",
-      "Operator": "voluptas",
+      "Name": "Pouros, Jewess and Hintz",
+      "Operator": "maxime",
       "Values": [
-        "aliquid",
-        "tempora"
+        "quia",
+        "omnis"
       ],
       "DisplayValues": [
-        "in",
-        "quis"
+        "ut",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 769,
+      "InterParenthesis": 488,
       "InterOperator": "And",
-      "UniqueHash": 581
+      "UniqueHash": 384
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Quitzon-Will",
-    "DisplayTooltip": "est",
-    "DisplayType": "fugiat",
+    "DisplayName": "Gleason, Mosciski and Blick",
+    "DisplayTooltip": "et",
+    "DisplayType": "culpa",
     "CanOrderBy": false,
-    "Name": "Marvin Inc and Sons",
+    "Name": "Hackett Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "iure",
-    "RestrictionListName": "Rippin, Bergnaum and Murphy",
+    "RestrictionType": "in",
+    "RestrictionListName": "McClure Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "ea",
-    "Width": "illo",
-    "IconHint": "sed",
-    "HeadingIconHint": "nostrum"
+    "ExtraInfo": "est",
+    "Width": "dolore",
+    "IconHint": "cupiditate",
+    "HeadingIconHint": "facere"
   }
 ]
 ```

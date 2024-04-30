@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Collier-Bins",
-  "RecordId": 703,
-  "AssociateId": 575,
-  "ExtraInfo": "labore"
+  "TableName": "Kuhlman, Schamberger and Pfeffer",
+  "RecordId": 567,
+  "AssociateId": 424,
+  "ExtraInfo": "minima"
 }
 ```
 

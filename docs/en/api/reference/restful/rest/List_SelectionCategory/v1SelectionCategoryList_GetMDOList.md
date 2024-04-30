@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=quae
+GET /api/v1/List/SelectionCategory/MDOItems?query=harum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Brakus LLC",
-    "ToolTip": "Nobis totam qui.",
+    "Id": 502,
+    "Name": "Hettinger, Schneider and Reinger",
+    "ToolTip": "Nemo vero.",
     "Deleted": false,
-    "Rank": 102,
-    "Type": "totam",
+    "Rank": 709,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Skiles Inc and Sons",
-        "ToolTip": "Cumque recusandae ducimus enim quis.",
-        "Deleted": false,
-        "Rank": 13,
-        "Type": "ex",
+        "Id": 342,
+        "Name": "Hickle, Okuneva and Robel",
+        "ToolTip": "Quos quis officia assumenda qui.",
+        "Deleted": true,
+        "Rank": 661,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 591,
-        "ExtraInfo": "et",
-        "StyleHint": "at",
-        "FullName": "Miss Earline Elena Huels IV",
+        "IconHint": "molestiae",
+        "ColorBlock": 745,
+        "ExtraInfo": "enim",
+        "StyleHint": "ratione",
+        "FullName": "Janessa Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 401
+            "FieldLength": 591
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 606,
-    "ExtraInfo": "nobis",
-    "StyleHint": "officiis",
-    "FullName": "Vaughn Rowe",
+    "IconHint": "magni",
+    "ColorBlock": 101,
+    "ExtraInfo": "illum",
+    "StyleHint": "illum",
+    "FullName": "Donato Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldType": "System.String",
+        "FieldLength": 55
       }
     }
   }

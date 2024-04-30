@@ -547,6 +547,7 @@ title: Services88.DashAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
+              <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="OwnedByFullName" nillable="true" type="xs:string" />

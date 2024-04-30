@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rogahn Group",
-    "DisplayName": "D'Amore LLC",
-    "DisplayTooltip": "natus",
-    "IsActive": true,
+    "Name": "Casper-Littel",
+    "DisplayName": "Rau-Gleichner",
+    "DisplayTooltip": "corporis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   },
   {
-    "Name": "Rogahn Group",
-    "DisplayName": "D'Amore LLC",
-    "DisplayTooltip": "natus",
-    "IsActive": true,
+    "Name": "Casper-Littel",
+    "DisplayName": "Rau-Gleichner",
+    "DisplayTooltip": "corporis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolores",
-  "Name": "Willms Group",
-  "Description": "Diverse interactive groupware",
-  "IncludeId": "asperiores",
-  "Source": "laborum",
-  "Registered": "2022-03-30T11:44:42.8044603+02:00",
-  "RegisteredBy": "alias",
-  "Updated": "2010-04-06T11:44:42.8044603+02:00",
-  "UpdatedBy": "dolor",
-  "Path": "occaecati",
+  "UniqueIdentifier": "eum",
+  "Name": "Wisozk Group",
+  "Description": "Total maximized knowledge base",
+  "IncludeId": "fugit",
+  "Source": "enim",
+  "Registered": "2009-04-25T11:16:14.4030702+02:00",
+  "RegisteredBy": "laudantium",
+  "Updated": "2017-11-27T11:16:14.4030702+01:00",
+  "UpdatedBy": "officia",
+  "Path": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 675
     }
   }
 }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 728,
-  "Select": "architecto"
+  "SelectionId": 423,
+  "Select": "dolores"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Heidenreich-Hauck",
-    "PrimaryKey": 869,
+    "EntityName": "Cummerata Inc and Sons",
+    "PrimaryKey": 418,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "illo",
-        "TooltipHint": "soluta",
-        "LinkHint": "expedita"
+        "DisplayValue": "minima",
+        "TooltipHint": "a",
+        "LinkHint": "exercitationem"
       }
     },
-    "LinkHint": "dolorem",
-    "StyleHint": "quas",
+    "LinkHint": "sequi",
+    "StyleHint": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldType": "System.Int32",
+        "FieldLength": 771
       }
     }
   }

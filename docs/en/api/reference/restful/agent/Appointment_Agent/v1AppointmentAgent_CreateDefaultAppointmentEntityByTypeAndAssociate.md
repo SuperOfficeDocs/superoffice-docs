@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 775
+  "AssociateId": 281
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-01-07T11:44:32.6505612+01:00",
-  "AppointmentId": 82,
-  "Description": "Profit-focused bi-directional implementation",
-  "Title": "rerum",
-  "Agenda": "pariatur",
-  "InternalNotes": "omnis",
-  "StartDate": "2011-03-17T11:44:32.6505612+01:00",
-  "EndDate": "2011-06-11T11:44:32.6505612+02:00",
+  "CreatedDate": "2024-01-22T11:16:08.631516+01:00",
+  "AppointmentId": 452,
+  "Description": "Devolved local structure",
+  "Title": "eum",
+  "Agenda": "earum",
+  "InternalNotes": "labore",
+  "StartDate": "2022-05-03T11:16:08.631516+02:00",
+  "EndDate": "2018-08-14T11:16:08.631516+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 123,
+  "MotherId": 250,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-03-04T11:44:32.666179+01:00",
+  "UpdatedDate": "2015-07-22T11:16:08.631516+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 28,
+  "ActiveLinks": 669,
   "Links": [
     {
-      "EntityName": "Marvin-Lueilwitz",
-      "Id": 654,
-      "Description": "Balanced zero tolerance functionalities",
-      "ExtraInfo": "qui",
-      "LinkId": 545,
+      "EntityName": "Ankunding-Bergstrom",
+      "Id": 187,
+      "Description": "Polarised dynamic architecture",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
-  "AlarmLeadTime": "enim",
+  "AlarmLeadTime": "sed",
   "HasAlarm": false,
-  "ColorIndex": 792,
-  "IsFree": false,
+  "ColorIndex": 877,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "enim",
-  "Location": "quis",
-  "RejectCounter": 91,
+  "LagTime": "eum",
+  "LeadTime": "vero",
+  "Location": "sed",
+  "RejectCounter": 774,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 954,
-      "PersonId": 937,
-      "ContactId": 35,
-      "EmailId": 748,
-      "SendEmail": false,
+      "AssociateId": 975,
+      "PersonId": 706,
+      "ContactId": 891,
+      "EmailId": 457,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "milton@senger.info",
-      "Description": "Stand-alone optimizing migration"
+      "EmailAddress": "lisette@kreigerdaniel.ca",
+      "Description": "Universal systemic time-frame"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-05-19T11:44:32.666179+02:00",
+  "ActiveDate": "2016-10-07T11:16:08.631516+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 651,
+  "PreferredTZLocation": 24,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 552,
+  "SuggestedAppointmentId": 631,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Mr. Bill Spencer DVM"
+    "SuperOffice:1": "Torrey Blanche Shanahan Sr.",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "iste"
+    "CustomFields1": "non",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2000-02-13T11:44:32.666179+01:00",
-  "PublishTo": "2017-09-06T11:44:32.666179+02:00",
-  "PublishFrom": "2023-03-15T11:44:32.666179+01:00",
+  "PublishEventDate": "2017-09-16T11:16:08.6471415+02:00",
+  "PublishTo": "2004-09-21T11:16:08.6471415+02:00",
+  "PublishFrom": "1997-04-24T11:16:08.6471415+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 565,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     },
     {
-      "VisibleId": 565,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 219
     }
   }
 }

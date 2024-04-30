@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 55,
-    "Name": "Jacobi-Leffler",
-    "Tooltip": "ipsa",
+    "HeadingId": 800,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "totam",
     "Deleted": true,
-    "Rank": 928,
-    "UdListDefinitionId": 585
+    "Rank": 843,
+    "UdListDefinitionId": 765
   },
   {
-    "HeadingId": 55,
-    "Name": "Jacobi-Leffler",
-    "Tooltip": "ipsa",
+    "HeadingId": 800,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "totam",
     "Deleted": true,
-    "Rank": 928,
-    "UdListDefinitionId": 585
+    "Rank": 843,
+    "UdListDefinitionId": 765
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 818,
-    "Name": "McCullough LLC",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "Rank": 622,
-    "UdListDefinitionId": 291,
+    "HeadingId": 920,
+    "Name": "Mayert Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 734,
+    "UdListDefinitionId": 260,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldLength": 545
       }
     }
   }

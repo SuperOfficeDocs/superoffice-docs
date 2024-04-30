@@ -132,16 +132,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 643,
+  "PersonId": 546,
   "IncludeProjectAppointments": false,
-  "StartTime": "2022-03-05T11:44:32.2756519+01:00",
-  "EndTime": "1997-12-01T11:44:32.2756519+01:00",
-  "Count": 122,
-  "TaskId": 690
+  "StartTime": "2008-01-17T11:16:08.4122315+01:00",
+  "EndTime": "2011-11-13T11:16:08.4122315+01:00",
+  "Count": 532,
+  "TaskId": 739
 }
 ```
 
@@ -153,65 +153,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 927,
-    "StartDate": "2003-12-09T11:44:32.2756519+01:00",
-    "EndDate": "2005-02-18T11:44:32.2756519+01:00",
+    "AppointmentId": 123,
+    "StartDate": "2022-12-01T11:16:08.4122315+01:00",
+    "EndDate": "2019-09-18T11:16:08.4122315+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Dr. Maureen Rippin PhD",
-    "ContactName": "Russel-Koch",
-    "Description": "De-engineered mobile info-mediaries",
-    "PersonFullName": "Hattie Prohaska",
-    "PersonId": 436,
-    "ContactId": 310,
-    "ProjectId": 904,
-    "ProjectName": "Lang, Rowe and Langworth",
+    "Task": "id",
+    "AssociateFullName": "Nova Gerhold",
+    "ContactName": "Welch-Flatley",
+    "Description": "Expanded bifurcated focus group",
+    "PersonFullName": "Mr. Andre Juliana Langosh MD",
+    "PersonId": 882,
+    "ContactId": 211,
+    "ProjectId": 193,
+    "ProjectName": "Herzog, Luettgen and Schmeler",
     "IsPublished": false,
-    "AssociateId": 935,
-    "ColorIndex": 215,
-    "IsFree": false,
+    "AssociateId": 898,
+    "ColorIndex": 723,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 985,
-    "PriorityName": "Paucek Group",
+    "PriorityId": 583,
+    "PriorityName": "Dicki Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2023-04-20T11:44:32.2756519+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-09-01T11:16:08.4122315+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-12-20T11:44:32.2756519+01:00",
-    "RecurringEndDate": "2023-11-08T11:44:32.2756519+01:00",
-    "MotherId": 331,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Oswald Kutch",
+    "RecurringStartDate": "2015-01-25T11:16:08.4122315+01:00",
+    "RecurringEndDate": "2013-01-01T11:16:08.4122315+01:00",
+    "MotherId": 24,
+    "AssignedBy": 662,
+    "AssignedByFullName": "Mr. Catharine Bosco",
     "RejectReason": "",
-    "Location": "ea",
-    "AlarmLeadTime": "dolor",
-    "SaleId": 711,
-    "SaleName": "Bailey Inc and Sons",
-    "AssociateName": "Bailey Group",
-    "CreatedDate": "2015-06-05T11:44:32.2756519+02:00",
-    "CreatedBy": "maxime",
-    "CreatedByFullName": "Miss Lenny Abshire Jr.",
-    "CreatedByAssociateId": 891,
+    "Location": "ex",
+    "AlarmLeadTime": "ad",
+    "SaleId": 244,
+    "SaleName": "Nikolaus LLC",
+    "AssociateName": "Schmitt-Lynch",
+    "CreatedDate": "2002-09-02T11:16:08.4122315+02:00",
+    "CreatedBy": "quas",
+    "CreatedByFullName": "Verda Flatley PhD",
+    "CreatedByAssociateId": 498,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 714,
-    "Title": "doloribus",
-    "Agenda": "perspiciatis",
+    "PreferredTZLocation": 670,
+    "Title": "et",
+    "Agenda": "sint",
     "InternalNotes": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

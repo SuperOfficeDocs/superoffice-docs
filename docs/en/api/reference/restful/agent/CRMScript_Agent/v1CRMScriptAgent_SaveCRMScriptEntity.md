@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 760,
-  "UniqueIdentifier": "asperiores",
-  "Name": "Barton, Schiller and Nader",
-  "Description": "Compatible multimedia forecast",
-  "IncludeId": "est",
-  "HierarchyId": 609,
-  "Source": "est",
-  "Registered": "2013-01-09T11:44:33.3223014+01:00",
-  "RegisteredAssociateId": 766,
-  "Updated": "2009-02-13T11:44:33.3223014+01:00",
-  "UpdatedAssociateId": 491
+  "EjscriptId": 908,
+  "UniqueIdentifier": "ea",
+  "Name": "Feest Inc and Sons",
+  "Description": "User-friendly multimedia utilisation",
+  "IncludeId": "nostrum",
+  "HierarchyId": 16,
+  "Source": "voluptatem",
+  "Registered": "2001-09-24T11:16:08.9440885+02:00",
+  "RegisteredAssociateId": 924,
+  "Updated": "1998-02-23T11:16:08.9440885+01:00",
+  "UpdatedAssociateId": 837
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 816,
-  "UniqueIdentifier": "omnis",
-  "Name": "Osinski, Stanton and Moore",
-  "Description": "Business-focused systematic help-desk",
-  "IncludeId": "quibusdam",
-  "HierarchyId": 382,
-  "Source": "enim",
-  "Registered": "2013-08-09T11:44:33.3223014+02:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2016-06-26T11:44:33.3223014+02:00",
-  "UpdatedAssociateId": 596,
+  "EjscriptId": 856,
+  "UniqueIdentifier": "provident",
+  "Name": "Block-Brown",
+  "Description": "Profound static focus group",
+  "IncludeId": "possimus",
+  "HierarchyId": 124,
+  "Source": "est",
+  "Registered": "2016-06-27T11:16:08.9440885+02:00",
+  "RegisteredAssociateId": 19,
+  "Updated": "1999-09-05T11:16:08.9440885+02:00",
+  "UpdatedAssociateId": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

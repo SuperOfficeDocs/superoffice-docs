@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 663,
-  "Name": "Beatty-Wolff"
+  "DashTileId": 209,
+  "Name": "Schinner Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 883,
-  "DashboardId": 849,
-  "Height": 723,
-  "Width": 330,
-  "Rank": 198,
+  "DashboardTileId": 439,
+  "DashboardId": 104,
+  "Height": 976,
+  "Width": 793,
+  "Rank": 880,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 27
     }
   }
 }

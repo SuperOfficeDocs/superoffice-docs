@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 687
+  "ChatSessionId": 311
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 21,
-  "TopicId": 797,
+  "ChatSessionId": 293,
+  "TopicId": 784,
   "User": null,
   "Person": null,
-  "CustomerAlias": "minus",
-  "CustomerHost": "ratione",
-  "CustomerName": "Reynolds-Greenholt",
-  "CustomerEmail": "amelia@dare.com",
-  "CustomerPhone": "284.417.0372 x8010",
+  "CustomerAlias": "eos",
+  "CustomerHost": "eum",
+  "CustomerName": "Mante-Carter",
+  "CustomerEmail": "beatrice@ritchiedaniel.uk",
+  "CustomerPhone": "376.834.0067 x23514",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Grant, Purdy and Anderson",
+  "CustomerCompanyName": "Erdman Group",
   "Status": "Closed",
-  "FirstMessage": "libero",
-  "LastMessage": "illo",
-  "WhenRequested": "1998-02-23T11:44:32.9317425+01:00",
-  "WhenStarted": "2006-07-16T11:44:32.9317425+02:00",
-  "WhenEnded": "2020-11-01T11:44:32.9317425+01:00",
-  "WhenIdle": "2014-05-28T11:44:32.9317425+02:00",
-  "WhenFetched": "2000-08-26T11:44:32.9317425+02:00",
-  "SessionKey": "eum",
-  "InitialQueuePos": 584,
-  "AlertLevel": 890,
-  "Rank": 146,
+  "FirstMessage": "fugit",
+  "LastMessage": "aliquid",
+  "WhenRequested": "2012-08-10T11:16:08.8035112+02:00",
+  "WhenStarted": "1998-01-03T11:16:08.8035112+01:00",
+  "WhenEnded": "2021-02-21T11:16:08.8035112+01:00",
+  "WhenIdle": "2016-02-22T11:16:08.8035112+01:00",
+  "WhenFetched": "1997-07-10T11:16:08.8035112+02:00",
+  "SessionKey": "libero",
+  "InitialQueuePos": 804,
+  "AlertLevel": 229,
+  "Rank": 574,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 350,
+  "Rating": 795,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   }
 }

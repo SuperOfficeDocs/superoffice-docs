@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 208,
-    "Name": "Kutch LLC",
+    "TicketPriorityId": 293,
+    "Name": "Schoen-Jacobi",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 253,
+    "SortOrder": 707,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 559,
-    "MonStart": "2022-05-28T11:44:33.8065528+02:00",
-    "MonStop": "2001-04-19T11:44:33.8065528+02:00",
-    "TueStart": "2018-09-01T11:44:33.8065528+02:00",
-    "TueStop": "2006-04-13T11:44:33.8065528+02:00",
-    "WedStart": "2009-12-12T11:44:33.8065528+01:00",
-    "WedStop": "2013-05-10T11:44:33.8065528+02:00",
-    "ThuStart": "2007-04-21T11:44:33.8065528+02:00",
-    "ThuStop": "2010-06-16T11:44:33.8065528+02:00",
-    "FriStart": "1999-08-31T11:44:33.8065528+02:00",
-    "FriStop": "1999-10-19T11:44:33.8065528+02:00",
-    "SatStart": "2011-05-21T11:44:33.8065528+02:00",
-    "SatStop": "2004-12-19T11:44:33.8065528+01:00",
-    "SunStart": "2007-07-25T11:44:33.8065528+02:00",
-    "SunStop": "2006-09-22T11:44:33.8065528+02:00",
+    "Deadline": 937,
+    "MonStart": "2002-10-22T11:16:09.3034579+02:00",
+    "MonStop": "2001-12-10T11:16:09.3034579+01:00",
+    "TueStart": "2012-11-03T11:16:09.3034579+01:00",
+    "TueStop": "2002-11-24T11:16:09.3034579+01:00",
+    "WedStart": "2002-05-27T11:16:09.3034579+02:00",
+    "WedStop": "2005-03-27T11:16:09.3034579+02:00",
+    "ThuStart": "2000-01-05T11:16:09.3034579+01:00",
+    "ThuStop": "2007-06-29T11:16:09.3034579+02:00",
+    "FriStart": "2012-10-22T11:16:09.3034579+02:00",
+    "FriStop": "2017-01-07T11:16:09.3034579+01:00",
+    "SatStart": "2022-01-19T11:16:09.3034579+01:00",
+    "SatStop": "2022-10-21T11:16:09.3034579+02:00",
+    "SunStart": "2007-10-15T11:16:09.3034579+02:00",
+    "SunStop": "2016-02-15T11:16:09.3034579+01:00",
     "NonDates": [
-      "nulla",
-      "qui"
+      "corporis",
+      "consequuntur"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 108,
-        "AlertLevel": 248,
-        "AlertTimeout": 89,
-        "Action": 211,
-        "DelegateTo": 576,
-        "ScriptId": 526,
-        "EmailTo": "jennings@kozey.name",
-        "SmsTo": "nulla",
-        "ReplyTemplateIdCustomer": 401,
-        "ReplyTemplateIdUser": 626,
-        "ReplyTemplateIdCatmast": 983,
-        "ReplyTemplateIdEmail": 915,
-        "RtiCustomerSms": 793,
-        "ReplyTemplateIdUserSms": 875,
-        "ReplyTemplateIdCatmastSms": 703,
-        "ReplyTemplateIdSms": 46,
+        "TicketAlertId": 773,
+        "AlertLevel": 494,
+        "AlertTimeout": 157,
+        "Action": 434,
+        "DelegateTo": 794,
+        "ScriptId": 112,
+        "EmailTo": "andy_mraz@koelpin.us",
+        "SmsTo": "doloribus",
+        "ReplyTemplateIdCustomer": 859,
+        "ReplyTemplateIdUser": 212,
+        "ReplyTemplateIdCatmast": 740,
+        "ReplyTemplateIdEmail": 765,
+        "RtiCustomerSms": 355,
+        "ReplyTemplateIdUserSms": 591,
+        "ReplyTemplateIdCatmastSms": 981,
+        "ReplyTemplateIdSms": 197,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 722
+            "FieldType": "System.String",
+            "FieldLength": 514
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldType": "System.Int32",
+        "FieldLength": 642
       }
     }
   }

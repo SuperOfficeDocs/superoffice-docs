@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "voluptatem",
+  "Text": "temporibus",
   "Style": "Casual",
-  "IsoLangCode": "non"
+  "IsoLangCode": "dignissimos"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"temporibus"
+"in"
 ```

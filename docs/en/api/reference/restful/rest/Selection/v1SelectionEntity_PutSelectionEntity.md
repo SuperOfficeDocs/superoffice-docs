@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable mission-critical core",
-  "Postit": "adipisci",
+  "Description": "Total methodical solution",
+  "Postit": "aliquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 548,
-  "IncludePerson": 731,
-  "MemberCount": 47,
-  "Name": "Mayer Inc and Sons",
-  "PostitTextId": 846,
-  "CreatedDate": "2006-10-11T11:44:42.5232729+02:00",
-  "SelectionId": 382,
-  "SoundEx": "nemo",
-  "Source": 901,
-  "TextId": 966,
-  "UpdatedDate": "2022-01-06T11:44:42.5232729+01:00",
-  "UpdatedCount": 740,
-  "Visibility": 3,
+  "GroupIdx": 197,
+  "IncludePerson": 904,
+  "MemberCount": 185,
+  "Name": "Windler Group",
+  "PostitTextId": 246,
+  "CreatedDate": "2017-01-01T11:16:14.2148007+01:00",
+  "SelectionId": 602,
+  "SoundEx": "saepe",
+  "Source": 524,
+  "TextId": 618,
+  "UpdatedDate": "2006-07-09T11:16:14.2148007+02:00",
+  "UpdatedCount": 286,
+  "Visibility": 625,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 54,
-  "TargetTableName": "Blick, Trantow and Lowe",
+  "CompanyUnique": true,
+  "TargetTableNumber": 47,
+  "TargetTableName": "Bergnaum-Blick",
   "Completed": false,
-  "LeftSelectionId": 578,
-  "RightSelectionId": 961,
+  "LeftSelectionId": 38,
+  "RightSelectionId": 900,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jaskolski-Barton",
-  "ShadowProviderName": "Upton, Lowe and Langworth",
-  "ChartKey": "iure",
-  "LastLoaded": "2004-09-13T11:44:42.5232729+02:00",
-  "LastLoadedBy": 781,
+  "MainProviderName": "Russel-Heller",
+  "ShadowProviderName": "Rau, Ratke and Corwin",
+  "ChartKey": "dignissimos",
+  "LastLoaded": "2003-01-30T11:16:14.2148007+01:00",
+  "LastLoadedBy": 427,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-18T11:44:42.5232729+02:00",
-  "LastMembershipChangeBy": 262,
+  "LastMembershipChange": "2003-09-19T11:16:14.2148007+02:00",
+  "LastMembershipChangeBy": 697,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "hic",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Sanford Group",
-  "DashboardTileDefinitionId": 317,
+  "MainHeading": "nemo",
+  "MemberTabHeading": "dolorum",
+  "MailingsProviderName": "Cruickshank-Hintz",
+  "DashboardTileDefinitionId": 255,
   "VisibleFor": [
     {
-      "VisibleId": 963,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 963,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized tertiary moratorium",
-  "Postit": "ut",
+  "Description": "Intuitive multi-tasking intranet",
+  "Postit": "a",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 917,
-  "IncludePerson": 569,
-  "MemberCount": 936,
-  "Name": "Kertzmann, Thiel and Runolfsdottir",
-  "PostitTextId": 315,
-  "CreatedDate": "2021-08-28T11:44:42.5232729+02:00",
-  "SelectionId": 692,
-  "SoundEx": "saepe",
-  "Source": 748,
-  "TextId": 191,
-  "UpdatedDate": "1999-10-04T11:44:42.5232729+02:00",
-  "UpdatedCount": 503,
-  "Visibility": 372,
+  "GroupIdx": 872,
+  "IncludePerson": 367,
+  "MemberCount": 976,
+  "Name": "Stracke-Zboncak",
+  "PostitTextId": 121,
+  "CreatedDate": "2017-06-26T11:16:14.2148007+02:00",
+  "SelectionId": 572,
+  "SoundEx": "eum",
+  "Source": 20,
+  "TextId": 538,
+  "UpdatedDate": "2011-12-28T11:16:14.2148007+01:00",
+  "UpdatedCount": 153,
+  "Visibility": 964,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 512,
-  "TargetTableName": "Padberg, Reichert and Blanda",
+  "TargetTableNumber": 449,
+  "TargetTableName": "Hand-Pfeffer",
   "Completed": false,
-  "LeftSelectionId": 114,
-  "RightSelectionId": 429,
+  "LeftSelectionId": 48,
+  "RightSelectionId": 228,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hane, Auer and Nicolas",
-  "ShadowProviderName": "Ferry-Keeling",
-  "ChartKey": "repellat",
-  "LastLoaded": "2021-09-03T11:44:42.5232729+02:00",
-  "LastLoadedBy": 660,
+  "MainProviderName": "Morissette-O'Hara",
+  "ShadowProviderName": "Wintheiser, O'Keefe and Renner",
+  "ChartKey": "rerum",
+  "LastLoaded": "2000-03-09T11:16:14.2148007+01:00",
+  "LastLoadedBy": 609,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-11-05T11:44:42.5232729+01:00",
-  "LastMembershipChangeBy": 551,
+  "LastMembershipChange": "2011-08-22T11:16:14.2148007+02:00",
+  "LastMembershipChangeBy": 28,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempora",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Bosco Group",
-  "DashboardTileDefinitionId": 45,
+  "MainHeading": "reiciendis",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Rice LLC",
+  "DashboardTileDefinitionId": 545,
   "VisibleFor": [
     {
-      "VisibleId": 513,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     },
     {
-      "VisibleId": 513,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   },
   "_Links": {

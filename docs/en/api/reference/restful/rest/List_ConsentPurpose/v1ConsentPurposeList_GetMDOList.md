@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=eos
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=natus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Dickinson-Weber",
-    "ToolTip": "Ducimus et vel molestiae.",
-    "Deleted": false,
-    "Rank": 45,
-    "Type": "ex",
+    "Id": 890,
+    "Name": "Conn-Bailey",
+    "ToolTip": "Amet at fugiat sapiente quidem.",
+    "Deleted": true,
+    "Rank": 708,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Harvey-Davis",
-        "ToolTip": "Ratione fuga similique sit.",
-        "Deleted": true,
-        "Rank": 465,
-        "Type": "ratione",
+        "Id": 191,
+        "Name": "Bernhard-Stanton",
+        "ToolTip": "Et nostrum ut ea repellat repellendus iure.",
+        "Deleted": false,
+        "Rank": 892,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 393,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "expedita",
-        "FullName": "Billie Zboncak",
+        "IconHint": "voluptatum",
+        "ColorBlock": 112,
+        "ExtraInfo": "ut",
+        "StyleHint": "ullam",
+        "FullName": "Arvel Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldType": "System.Int32",
+            "FieldLength": 192
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 145,
-    "ExtraInfo": "aut",
-    "StyleHint": "debitis",
-    "FullName": "Dr. Victoria Daren Wunsch",
+    "IconHint": "non",
+    "ColorBlock": 341,
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "iure",
+    "FullName": "Eugene Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 708
       }
     }
   }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 105,
-  "StartTime": "1999-10-04T11:44:33.4160074+02:00",
-  "EndTime": "2000-05-30T11:44:33.4160074+02:00",
-  "Count": 7,
+  "PersonId": 879,
+  "StartTime": "2007-09-24T11:16:09.0691155+02:00",
+  "EndTime": "2007-07-05T11:16:09.0691155+02:00",
+  "Count": 263,
   "DocumentTemplateIds": [
-    28,
-    645
+    76,
+    905
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 236,
-    "Attention": "eum",
-    "Header": "at",
-    "Name": "Lakin-Olson",
-    "OurRef": "voluptate",
-    "YourRef": "omnis",
-    "Description": "Decentralized upward-trending extranet",
-    "DocumentTemplate": "et",
+    "DocumentId": 312,
+    "Attention": "non",
+    "Header": "culpa",
+    "Name": "Oberbrunner Inc and Sons",
+    "OurRef": "aut",
+    "YourRef": "ab",
+    "Description": "Grass-roots heuristic challenge",
+    "DocumentTemplate": "quis",
     "IsPublished": true,
-    "PersonId": 382,
-    "PersonFullName": "Dr. Amparo Blanda Sr.",
-    "AssociateFullName": "Wilfrid Duncan Macejkovic I",
-    "ContactId": 762,
-    "ContactName": "Hamill-Schmidt",
-    "ProjectId": 626,
-    "ProjectName": "Kris Group",
-    "AssociateId": 101,
-    "Snum": 317,
-    "SaleId": 539,
-    "SaleName": "Runolfsdottir, Bartoletti and Schowalter",
+    "PersonId": 933,
+    "PersonFullName": "Dalton Kunze",
+    "AssociateFullName": "Gerry O'Connell",
+    "ContactId": 928,
+    "ContactName": "Ullrich, Carter and Schumm",
+    "ProjectId": 815,
+    "ProjectName": "Cummerata Group",
+    "AssociateId": 503,
+    "Snum": 320,
+    "SaleId": 519,
+    "SaleName": "Donnelly Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 183
       }
     }
   }

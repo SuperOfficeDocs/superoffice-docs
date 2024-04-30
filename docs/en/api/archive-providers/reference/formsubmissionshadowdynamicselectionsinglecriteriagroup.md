@@ -469,7 +469,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/personExtra/x_person_integer,person/personAssociate/associateDbId,contact/restrictionAddress/city,contact/saintDirection
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=registeredDate,person/restrictionAddress/state,contact/phone/formattedNumber,contact/contactExtra/x_contact_contact_relation,contact/NumberOfNotCompletedActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

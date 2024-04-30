@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Wiegand Group",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "UdListDefinitionId": 743,
-  "Rank": 541,
+  "Id": 933,
+  "Name": "Feil Group",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 722,
+  "Rank": 283,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldLength": 839
     }
   }
 }

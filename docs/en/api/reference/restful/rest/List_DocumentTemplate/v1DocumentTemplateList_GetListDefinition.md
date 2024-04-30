@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Goyette Inc and Sons",
-  "Tooltip": "ratione",
+  "Id": 249,
+  "Name": "Gutkowski LLC",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 844,
-  "IsCustomList": true,
+  "Rank": 394,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 794
     }
   },
   "_Links": {

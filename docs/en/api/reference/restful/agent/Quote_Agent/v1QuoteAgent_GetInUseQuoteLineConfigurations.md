@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 162,
-    "FieldName": "Tremblay, Metz and Kshlerin",
-    "Label": "fuga",
-    "Tooltip": "quas",
-    "Editable": true,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 134,
-    "RestrictEdit": false,
+    "QuoteLineConfigurationId": 166,
+    "FieldName": "Huel Inc and Sons",
+    "Label": "sit",
+    "Tooltip": "inventore",
+    "Editable": false,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 294,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

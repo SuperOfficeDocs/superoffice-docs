@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 763
+  "ErpConnectionId": 479
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 223,
-  "ErpConnectorId": 170,
-  "DisplayName": "Weissnat-Zulauf",
-  "DisplayDescription": "Reverse-engineered neutral info-mediaries",
+  "ErpConnectionId": 266,
+  "ErpConnectorId": 976,
+  "DisplayName": "Kirlin Inc and Sons",
+  "DisplayDescription": "Cross-platform zero defect database",
   "Active": false,
-  "ConnectionId": "quod",
-  "MostRecentTimestamp": "ut",
+  "ConnectionId": "enim",
+  "MostRecentTimestamp": "architecto",
   "ConfigFields": {
-    "ConfigFields1": "harum",
-    "ConfigFields2": "ut"
+    "ConfigFields1": "magnam",
+    "ConfigFields2": "commodi"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    616,
-    570
+    263,
+    545
   ],
   "AssociateAccessIds": [
-    918,
-    450
+    17,
+    973
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

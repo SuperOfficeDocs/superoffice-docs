@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 683,
+  "DocumentId": 310,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "reprehenderit",
-  "Name": "Haag-Rau",
-  "OurRef": "amet",
-  "YourRef": "dolorum",
-  "CreatedDate": "2018-08-06T11:44:41.9296629+02:00",
-  "UpdatedDate": "2014-11-08T11:44:41.9296629+01:00",
-  "Description": "Versatile executive leverage",
+  "Attention": "est",
+  "Header": "qui",
+  "Name": "Stracke-Schaden",
+  "OurRef": "et",
+  "YourRef": "vitae",
+  "CreatedDate": "2012-08-03T11:16:13.8863407+02:00",
+  "UpdatedDate": "2012-09-02T11:16:13.8863407+02:00",
+  "Description": "Optimized optimal archive",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-05-30T11:44:41.9296629+02:00",
-  "ExternalRef": "autem",
+  "Date": "2010-10-25T11:16:13.8863407+02:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 357,
+  "ActiveLinks": 897,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz LLC",
-      "Id": 518,
-      "Description": "Front-line user-facing frame",
-      "ExtraInfo": "quae",
-      "LinkId": 973,
+      "EntityName": "Murphy LLC",
+      "Id": 135,
+      "Description": "Reactive multi-tasking adapter",
+      "ExtraInfo": "quia",
+      "LinkId": 272,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldLength": 937
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 714,
-  "Snum": 150,
+  "SuggestedDocumentId": 260,
+  "Snum": 618,
   "UserDefinedFields": {
-    "SuperOffice:1": "1031032690",
-    "SuperOffice:2": "Miss Elyssa Kaylin McDermott Jr."
+    "SuperOffice:1": "Johanna Bradley Yundt II",
+    "SuperOffice:2": "Reid Schamberger"
   },
   "ExtraFields": {
     "ExtraFields1": "voluptatem",
-    "ExtraFields2": "voluptas"
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "tempore",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "1997-10-13T11:44:41.9296629+02:00",
-  "PublishTo": "2018-09-28T11:44:41.9296629+02:00",
-  "PublishFrom": "2005-07-31T11:44:41.9296629+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-07-22T11:16:13.8863407+02:00",
+  "PublishTo": "2011-05-22T11:16:13.8863407+02:00",
+  "PublishFrom": "2023-11-15T11:16:13.8863407+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 200,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldType": "System.String",
+          "FieldLength": 760
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 200,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldType": "System.String",
+          "FieldLength": 760
         }
       }
     }
@@ -255,13 +255,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 524
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

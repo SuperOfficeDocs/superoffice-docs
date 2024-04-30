@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 381,
-  "ErpConnectorId": 51,
-  "DisplayName": "Kshlerin, Douglas and Gutmann",
-  "DisplayDescription": "Switchable tangible algorithm",
+  "ErpConnectionId": 191,
+  "ErpConnectorId": 440,
+  "DisplayName": "Homenick Inc and Sons",
+  "DisplayDescription": "Organized exuding open architecture",
   "Active": false,
-  "ConnectionId": "aut",
-  "MostRecentTimestamp": "voluptas",
+  "ConnectionId": "atque",
+  "MostRecentTimestamp": "fuga",
   "ConfigFields": {
-    "ConfigFields1": "sed",
-    "ConfigFields2": "sint"
+    "ConfigFields1": "mollitia",
+    "ConfigFields2": "sunt"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    156,
-    960
+    177,
+    220
   ],
   "AssociateAccessIds": [
-    244,
-    503
+    88,
+    383
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 686
     }
   }
 }

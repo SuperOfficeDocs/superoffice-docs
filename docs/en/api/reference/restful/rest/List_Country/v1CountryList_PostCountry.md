@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 576,
-  "Name": "Dooley-Schmitt",
-  "CurrencyId": 279,
-  "EnglishName": "Yundt LLC",
+  "CountryId": 574,
+  "Name": "Bruen LLC",
+  "CurrencyId": 334,
+  "EnglishName": "Gibson Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Team-oriented logistical approach",
-  "OrgNrText": "1306849",
-  "InterAreaPrefix": "blanditiis",
-  "DialInPrefix": "reiciendis",
-  "ZipPrefix": "id",
-  "DomainName": "Steuber-Bahringer",
-  "AddressLayoutId": 346,
-  "DomesticAddressLayoutId": 27,
-  "ForeignAddressLayoutId": 147,
-  "Rank": 121,
-  "Tooltip": "quod",
+  "ImageDescription": "Proactive contextually-based archive",
+  "OrgNrText": "1140549",
+  "InterAreaPrefix": "error",
+  "DialInPrefix": "quod",
+  "ZipPrefix": "accusamus",
+  "DomainName": "Braun-Cummings",
+  "AddressLayoutId": 114,
+  "DomesticAddressLayoutId": 1000,
+  "ForeignAddressLayoutId": 77,
+  "Rank": 775,
+  "Tooltip": "eum",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 361,
-  "Name": "Beier-Emard",
-  "CurrencyId": 506,
-  "EnglishName": "Bogan-Hegmann",
+  "CountryId": 264,
+  "Name": "Wintheiser-Mante",
+  "CurrencyId": 847,
+  "EnglishName": "Auer-Harber",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Managed high-level hierarchy",
-  "OrgNrText": "1080860",
-  "InterAreaPrefix": "eaque",
-  "DialInPrefix": "est",
-  "ZipPrefix": "quibusdam",
-  "DomainName": "Schaden, Hand and Konopelski",
-  "AddressLayoutId": 32,
-  "DomesticAddressLayoutId": 337,
-  "ForeignAddressLayoutId": 549,
-  "Rank": 75,
-  "Tooltip": "sed",
+  "ImageDescription": "Business-focused attitude-oriented throughput",
+  "OrgNrText": "1590799",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "ullam",
+  "ZipPrefix": "deleniti",
+  "DomainName": "McClure Inc and Sons",
+  "AddressLayoutId": 299,
+  "DomesticAddressLayoutId": 583,
+  "ForeignAddressLayoutId": 116,
+  "Rank": 776,
+  "Tooltip": "ut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 789
     }
   }
 }

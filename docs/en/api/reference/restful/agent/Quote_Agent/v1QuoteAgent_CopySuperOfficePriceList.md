@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 852,
-  "NewName": "Schroeder, Satterfield and Marquardt",
-  "ValidFrom": "1998-02-02T11:44:34.2595569+01:00",
-  "ValidTo": "2016-01-04T11:44:34.2595569+01:00",
-  "NewCurrencyId": 252,
+  "OriginalPriceListId": 77,
+  "NewName": "Deckow LLC",
+  "ValidFrom": "2022-05-31T11:16:09.6005114+02:00",
+  "ValidTo": "2004-06-19T11:16:09.6005114+02:00",
+  "NewCurrencyId": 294,
   "ConvertCurrency": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 56,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 604,
-  "Name": "Feil, Zieme and Hansen",
-  "Description": "User-centric web-enabled knowledge base",
-  "Currency": "voluptatem",
-  "CurrencyName": "Von LLC",
-  "ValidFrom": "2003-03-16T11:44:34.2595569+01:00",
-  "ValidTo": "2006-10-14T11:44:34.2595569+02:00",
+  "PriceListId": 590,
+  "ERPPriceListKey": "aperiam",
+  "QuoteConnectionId": 890,
+  "Name": "Altenwerth-Lind",
+  "Description": "Fundamental transitional frame",
+  "Currency": "soluta",
+  "CurrencyName": "Littel-Mertz",
+  "ValidFrom": "2006-12-27T11:16:09.6005114+01:00",
+  "ValidTo": "2019-02-11T11:16:09.6005114+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 781
     }
   }
 }

@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 683,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "neque",
-  "Name": "Dietrich-Glover",
-  "Description": "Streamlined next generation internet solution",
-  "Code": "sapiente",
-  "PriceUnit": "officia",
-  "QuantityUnit": "velit",
+  "ProductId": 963,
+  "ERPProductKey": "ipsum",
+  "ERPPriceListKey": "est",
+  "Name": "Heller-Hahn",
+  "Description": "Synergistic intangible pricing structure",
+  "Code": "quibusdam",
+  "PriceUnit": "illum",
+  "QuantityUnit": "ad",
   "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 15112.148,
-  "ItemNumber": "860375",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 14670.253999999999,
+  "ItemNumber": "274485",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "consequuntur",
-  "VAT": 24044.048,
-  "VATInfo": "facere",
-  "UnitCost": 17277.742,
-  "UnitMinimumPrice": 30337.12,
-  "UnitListPrice": 28080.64,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "neque",
+  "VAT": 19343.048,
+  "VATInfo": "in",
+  "UnitCost": 539.048,
+  "UnitMinimumPrice": 1720.566,
+  "UnitListPrice": 21543.115999999998,
   "InAssortment": false,
-  "Supplier": "eaque",
-  "SupplierCode": "qui",
-  "Rights": "distinctio",
-  "Rule": "dolorem",
+  "Supplier": "quia",
+  "SupplierCode": "hic",
+  "Rights": "sed",
+  "Rule": "debitis",
   "ExtraInfo": [
     {
-      "Name": "Murray LLC",
-      "Value": "dolores",
+      "Name": "Hermiston, Barrows and Quitzon",
+      "Value": "quaerat",
       "Type": "Image"
     },
     {
-      "Name": "Murray LLC",
-      "Value": "dolores",
+      "Name": "Hermiston, Barrows and Quitzon",
+      "Value": "quaerat",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "modi",
-  "ExtraField2": "ipsum",
-  "ExtraField3": "laudantium",
-  "ExtraField4": "itaque",
-  "ExtraField5": "et",
-  "InStock": 13096.985999999999
+  "RawExtraInfo": "excepturi",
+  "ExtraField1": "esse",
+  "ExtraField2": "accusantium",
+  "ExtraField3": "illum",
+  "ExtraField4": "dolores",
+  "ExtraField5": "modi",
+  "InStock": 19741.066
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 572,
-  "ERPProductKey": "perspiciatis",
-  "ERPPriceListKey": "quis",
-  "Name": "Marks LLC",
-  "Description": "Advanced holistic benchmark",
-  "Code": "molestiae",
-  "PriceUnit": "praesentium",
-  "QuantityUnit": "quo",
+  "ProductId": 658,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "deserunt",
+  "Name": "Klocko, Hansen and Torp",
+  "Description": "Extended explicit product",
+  "Code": "pariatur",
+  "PriceUnit": "autem",
+  "QuantityUnit": "tempora",
   "IsSubscription": true,
-  "SubscriptionUnit": "consequuntur",
-  "DefaultSubscriptionQuantity": 1134.508,
-  "ItemNumber": "1696167",
+  "SubscriptionUnit": "vel",
+  "DefaultSubscriptionQuantity": 8383.4499999999989,
+  "ItemNumber": "1169024",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "omnis",
-  "VAT": 30960.786,
-  "VATInfo": "omnis",
-  "UnitCost": 19963.579999999998,
-  "UnitMinimumPrice": 10404.88,
-  "UnitListPrice": 21182.706,
+  "ProductFamilyKey": "reprehenderit",
+  "ProductTypeKey": "perferendis",
+  "VAT": 28632.224,
+  "VATInfo": "beatae",
+  "UnitCost": 8276.894,
+  "UnitMinimumPrice": 10320.261999999999,
+  "UnitListPrice": 2500.932,
   "InAssortment": false,
-  "Supplier": "est",
-  "SupplierCode": "rem",
-  "Rights": "nihil",
-  "Rule": "est",
+  "Supplier": "sint",
+  "SupplierCode": "harum",
+  "Rights": "qui",
+  "Rule": "nihil",
   "ExtraInfo": [
     {
-      "Name": "Howe LLC",
-      "Value": "dolorem",
+      "Name": "Berge Inc and Sons",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 509
         }
       }
     },
     {
-      "Name": "Howe LLC",
-      "Value": "dolorem",
+      "Name": "Berge Inc and Sons",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 509
         }
       }
     }
   ],
-  "RawExtraInfo": "officia",
-  "ExtraField1": "beatae",
-  "ExtraField2": "voluptatum",
-  "ExtraField3": "nisi",
-  "ExtraField4": "inventore",
-  "ExtraField5": "sit",
-  "InStock": 11019.144,
+  "RawExtraInfo": "quod",
+  "ExtraField1": "enim",
+  "ExtraField2": "dolores",
+  "ExtraField3": "magni",
+  "ExtraField4": "aspernatur",
+  "ExtraField5": "quae",
+  "InStock": 9398.866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Schultz, O'Kon and Halvorson",
-    "ToolTip": "Quam qui.",
+    "Id": 834,
+    "Name": "Schultz Group",
+    "ToolTip": "Facilis porro cum culpa inventore.",
     "Deleted": false,
-    "Rank": 871,
-    "Type": "suscipit",
-    "ColorBlock": 34,
-    "IconHint": "iure",
+    "Rank": 853,
+    "Type": "ducimus",
+    "ColorBlock": 130,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2017-12-05T11:44:43.0231528+01:00",
+    "LastChanged": "2016-12-19T11:16:14.5432954+01:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Heaney Inc and Sons",
-        "ToolTip": "Inventore debitis.",
+        "Id": 294,
+        "Name": "Conn, Hartmann and Haag",
+        "ToolTip": "Mollitia cumque vel ea eos itaque.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "est",
-        "ColorBlock": 852,
-        "IconHint": "laborum",
+        "Rank": 283,
+        "Type": "temporibus",
+        "ColorBlock": 159,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2023-09-13T11:44:43.0231528+02:00",
+        "LastChanged": "2000-11-13T11:16:14.5432954+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "culpa",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Mr. Velva Walter",
+        "FullName": "Quinton Domenic Dicki V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldType": "System.String",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mrs. Lazaro Selena Gusikowski",
+    "ExtraInfo": "neque",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Benny Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldLength": 990
       }
     }
   }

@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 150,
-    "Value": "blanditiis",
+    "TaskListItemId": 98,
+    "Value": "eligendi",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "vitae",
+    "Tooltip": "aut",
     "Deleted": false,
-    "IntentId": 288,
-    "Rank": 767,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IntentId": 148,
+    "Rank": 640,
+    "IsDefaultAlldayEvent": true,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 25
       }
     }
   }

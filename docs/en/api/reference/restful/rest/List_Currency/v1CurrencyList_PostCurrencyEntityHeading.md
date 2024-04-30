@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 267,
-  "Name": "Mueller-O'Kon",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 451,
-  "UdListDefinitionId": 311
+  "HeadingId": 546,
+  "Name": "Miller-Dare",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 47,
+  "UdListDefinitionId": 868
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 622,
-  "Name": "Barton-Gerhold",
-  "Tooltip": "fugiat",
+  "HeadingId": 888,
+  "Name": "Greenfelder, Kunde and Gutkowski",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 148,
-  "UdListDefinitionId": 977,
+  "Rank": 643,
+  "UdListDefinitionId": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

@@ -84,35 +84,35 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 663,
+  "SelectionId": 345,
   "Criteria": [
     {
-      "Name": "Grimes LLC",
-      "Operator": "debitis",
+      "Name": "Purdy-Greenfelder",
+      "Operator": "dolore",
       "Values": [
-        "voluptatum",
-        "et"
+        "ut",
+        "porro"
       ],
       "DisplayValues": [
-        "temporibus",
-        "consequatur"
+        "quibusdam",
+        "quisquam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 577,
+      "InterParenthesis": 132,
       "InterOperator": "And",
-      "UniqueHash": 597
+      "UniqueHash": 503
     }
   ],
-  "Filter": "cupiditate"
+  "Filter": "distinctio"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McCullough Inc and Sons",
-    "Operator": "hic",
+    "Name": "Feeney-Koepp",
+    "Operator": "quaerat",
     "Values": [
-      "temporibus",
-      "eveniet"
+      "hic",
+      "tenetur"
     ],
     "DisplayValues": [
-      "hic",
-      "optio"
+      "quibusdam",
+      "nisi"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ankunding-O'Reilly",
-        "Operator": "nulla",
+        "Name": "Breitenberg-Tillman",
+        "Operator": "eos",
         "Values": [
-          "mollitia",
-          "sunt"
+          "et",
+          "neque"
         ],
         "DisplayValues": [
-          "provident",
-          "explicabo"
+          "voluptate",
+          "repellendus"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 424,
+        "InterParenthesis": 346,
         "InterOperator": "And",
-        "UniqueHash": 929
+        "UniqueHash": 238
       }
     ],
-    "InterParenthesis": 342,
+    "InterParenthesis": 334,
     "InterOperator": "And",
-    "UniqueHash": 240
+    "UniqueHash": 661
   }
 ]
 ```

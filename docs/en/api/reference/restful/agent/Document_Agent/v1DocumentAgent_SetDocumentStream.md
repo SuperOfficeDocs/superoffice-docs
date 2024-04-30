@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 148,
+  "DocumentId": 944,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "praesentium",
-  "Header": "repellendus",
-  "Name": "Swaniawski-Ferry",
-  "OurRef": "cum",
-  "YourRef": "perferendis",
-  "CreatedDate": "2008-01-10T11:44:33.4785117+01:00",
-  "UpdatedDate": "1997-04-18T11:44:33.4785117+02:00",
-  "Description": "Robust client-server policy",
+  "Attention": "sit",
+  "Header": "eveniet",
+  "Name": "Veum, Hegmann and Smitham",
+  "OurRef": "ut",
+  "YourRef": "sit",
+  "CreatedDate": "2001-03-06T11:16:09.1159862+01:00",
+  "UpdatedDate": "2016-06-09T11:16:09.1159862+02:00",
+  "Description": "Ergonomic secondary groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-08-24T11:44:33.4940679+02:00",
-  "ExternalRef": "omnis",
+  "Date": "2004-09-02T11:16:09.1159862+02:00",
+  "ExternalRef": "ratione",
   "Completed": "Completed",
-  "ActiveLinks": 311,
+  "ActiveLinks": 826,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hyatt-Hettinger",
-      "Id": 955,
-      "Description": "Digitized stable hardware",
-      "ExtraInfo": "vel",
-      "LinkId": 242,
+      "EntityName": "Jaskolski, Daniel and Abshire",
+      "Id": 673,
+      "Description": "Future-proofed clear-thinking Graphical User Interface",
+      "ExtraInfo": "rem",
+      "LinkId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldType": "System.String",
+          "FieldLength": 585
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 269,
-  "Snum": 685,
+  "SuggestedDocumentId": 702,
+  "Snum": 988,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Anne Wehner",
-    "SuperOffice:2": "1323048666"
+    "SuperOffice:1": "Emmitt Adams",
+    "SuperOffice:2": "Rahsaan Goodwin"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "a",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "quod",
-    "CustomFields2": "culpa"
+    "CustomFields1": "cum",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2002-01-12T11:44:33.4940679+01:00",
-  "PublishTo": "2021-05-02T11:44:33.4940679+02:00",
-  "PublishFrom": "2003-07-30T11:44:33.4940679+02:00",
+  "PublishEventDate": "2019-12-21T11:16:09.1159862+01:00",
+  "PublishTo": "2016-06-23T11:16:09.1159862+02:00",
+  "PublishFrom": "2007-09-20T11:16:09.1159862+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 766,
+      "VisibleId": 204,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldType": "System.String",
+          "FieldLength": 707
         }
       }
     },
     {
-      "VisibleId": 766,
+      "VisibleId": 204,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldType": "System.String",
+          "FieldLength": 707
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Value": "sequi",
-    "Tooltip": "dicta",
+    "Id": 508,
+    "Value": "voluptate",
+    "Tooltip": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 432
       }
     }
   },
   {
-    "Id": 739,
-    "Value": "sequi",
-    "Tooltip": "dicta",
+    "Id": 508,
+    "Value": "voluptate",
+    "Tooltip": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 432
       }
     }
   }

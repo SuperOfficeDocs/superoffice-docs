@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 889
+  "SatelliteId": 996
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weber Inc and Sons",
-    "Description": "Optimized system-worthy framework",
+    "Name": "Turcotte Group",
+    "Description": "Intuitive systematic approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 237,
-        "Tooltip": "similique",
+        "Unrestricted": false,
+        "Total": 605,
+        "Tooltip": "sit",
         "CanAssign": true,
-        "Free": 495,
-        "InUse": 473,
-        "IsHidden": true,
+        "Free": 95,
+        "InUse": 197,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 908,
-        "Name": "Hills-Ledner",
-        "Description": "Synergistic local process improvement",
-        "PrerequisiteModuleName": "Schoen-Rolfson",
-        "SortOrder": 683,
-        "ExtraFlags": 815,
+        "ModuleLicenseId": 577,
+        "Name": "Littel-Ullrich",
+        "Description": "Ameliorated user-facing ability",
+        "PrerequisiteModuleName": "Jacobs-Kunze",
+        "SortOrder": 862,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 5
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 241,
-        "Tooltip": "in",
-        "CanAssign": false,
-        "Free": 549,
-        "InUse": 346,
+        "Total": 202,
+        "Tooltip": "eos",
+        "CanAssign": true,
+        "Free": 646,
+        "InUse": 250,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 833,
-        "Name": "McCullough-Simonis",
-        "Description": "Distributed systematic utilisation",
-        "PrerequisiteModuleName": "Sipes, Runolfsson and Gerhold",
-        "SortOrder": 957,
-        "ExtraFlags": 589,
+        "Assigned": false,
+        "ModuleLicenseId": 186,
+        "Name": "McLaughlin, Collins and Keeling",
+        "Description": "Persevering value-added instruction set",
+        "PrerequisiteModuleName": "Kuhn-Eichmann",
+        "SortOrder": 683,
+        "ExtraFlags": 819,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 236
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 533
       }
     }
   },
   {
-    "Name": "Weber Inc and Sons",
-    "Description": "Optimized system-worthy framework",
+    "Name": "Turcotte Group",
+    "Description": "Intuitive systematic approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 237,
-        "Tooltip": "similique",
+        "Unrestricted": false,
+        "Total": 605,
+        "Tooltip": "sit",
         "CanAssign": true,
-        "Free": 495,
-        "InUse": 473,
-        "IsHidden": true,
+        "Free": 95,
+        "InUse": 197,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 908,
-        "Name": "Hills-Ledner",
-        "Description": "Synergistic local process improvement",
-        "PrerequisiteModuleName": "Schoen-Rolfson",
-        "SortOrder": 683,
-        "ExtraFlags": 815,
+        "ModuleLicenseId": 577,
+        "Name": "Littel-Ullrich",
+        "Description": "Ameliorated user-facing ability",
+        "PrerequisiteModuleName": "Jacobs-Kunze",
+        "SortOrder": 862,
+        "ExtraFlags": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 5
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 241,
-        "Tooltip": "in",
-        "CanAssign": false,
-        "Free": 549,
-        "InUse": 346,
+        "Total": 202,
+        "Tooltip": "eos",
+        "CanAssign": true,
+        "Free": 646,
+        "InUse": 250,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 833,
-        "Name": "McCullough-Simonis",
-        "Description": "Distributed systematic utilisation",
-        "PrerequisiteModuleName": "Sipes, Runolfsson and Gerhold",
-        "SortOrder": 957,
-        "ExtraFlags": 589,
+        "Assigned": false,
+        "ModuleLicenseId": 186,
+        "Name": "McLaughlin, Collins and Keeling",
+        "Description": "Persevering value-added instruction set",
+        "PrerequisiteModuleName": "Kuhn-Eichmann",
+        "SortOrder": 683,
+        "ExtraFlags": 819,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 236
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 533
       }
     }
   }

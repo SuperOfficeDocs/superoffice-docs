@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 818,
-  "NumSentences": 15,
-  "Summary": "tenetur",
-  "IsoLangCode": "debitis"
+  "ContactId": 814,
+  "NumSentences": 425,
+  "Summary": "harum",
+  "IsoLangCode": "ut"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2002-11-07T11:44:32.2444085+01:00",
-  "UserPrompt": "delectus",
-  "UserDisplayText": "excepturi",
-  "BotResponse": "ut",
+  "Timestamp": "2001-05-03T11:16:08.3966087+02:00",
+  "UserPrompt": "adipisci",
+  "UserDisplayText": "exercitationem",
+  "BotResponse": "aut",
   "BotActions": {
-    "BotActions1": "voluptates",
-    "BotActions2": "praesentium"
+    "BotActions1": "occaecati",
+    "BotActions2": "nihil"
   },
   "Attachments": [
-    "voluptatem",
-    "quasi"
+    "iste",
+    "sunt"
   ]
 }
 ```

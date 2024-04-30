@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Thiel LLC",
-    "ToolTip": "Minima eum eligendi.",
+    "Id": 97,
+    "Name": "Dicki Inc and Sons",
+    "ToolTip": "Corporis suscipit eligendi at ratione accusamus tempora.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "possimus",
-    "ColorBlock": 634,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2013-06-23T11:44:43.2731075+02:00",
+    "Rank": 127,
+    "Type": "ratione",
+    "ColorBlock": 750,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "2014-05-14T11:16:14.699531+02:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "Quitzon, Bogan and Mann",
-        "ToolTip": "Ut odio nam modi quia possimus asperiores voluptatem.",
-        "Deleted": false,
-        "Rank": 225,
-        "Type": "quo",
-        "ColorBlock": 176,
-        "IconHint": "illo",
-        "Selected": true,
-        "LastChanged": "2009-01-09T11:44:43.2731075+01:00",
+        "Id": 227,
+        "Name": "Walter, VonRueden and Hamill",
+        "ToolTip": "Maiores dolorem et.",
+        "Deleted": true,
+        "Rank": 363,
+        "Type": "nobis",
+        "ColorBlock": 748,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2021-11-11T11:16:14.699531+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "facilis",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "voluptates",
         "Hidden": true,
-        "FullName": "Vernice Dietrich",
+        "FullName": "Uriel Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 761
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Prof. Neoma Noah Wolf V",
+    "ExtraInfo": "dicta",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Miss Maximillian Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 620
       }
     }
   }

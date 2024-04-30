@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Dec 2012 11:44:42 G12T
+Last-Modified: Tue, 25 Feb 2014 11:16:13 G2T
 
 [
   {
-    "ForeignDeviceId": 262,
-    "Name": "Ankunding-Grant",
-    "CreatedDate": "2008-12-04T11:44:42.0077636+01:00",
-    "UpdatedDate": "2012-12-15T11:44:42.0077636+01:00",
-    "AssociateFullName": "Jackson McDermott",
-    "CreatedBy": "vel",
-    "UpdatedBy": "omnis",
-    "DeviceIdentifier": "illo",
-    "ForeignAppId": 367,
+    "ForeignDeviceId": 214,
+    "Name": "Heller-Streich",
+    "CreatedDate": "2004-04-22T11:16:13.93321+02:00",
+    "UpdatedDate": "2014-02-25T11:16:13.93321+01:00",
+    "AssociateFullName": "Mrs. Cornelius Dicki II",
+    "CreatedBy": "commodi",
+    "UpdatedBy": "ut",
+    "DeviceIdentifier": "aut",
+    "ForeignAppId": 3,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 721
       }
     }
   }

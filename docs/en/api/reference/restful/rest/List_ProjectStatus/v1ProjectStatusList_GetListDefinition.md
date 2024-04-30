@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Kertzmann LLC",
-  "Tooltip": "in",
+  "Id": 741,
+  "Name": "Satterfield-Jacobs",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 642,
-  "IsCustomList": false,
+  "Rank": 898,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   },
   "_Links": {

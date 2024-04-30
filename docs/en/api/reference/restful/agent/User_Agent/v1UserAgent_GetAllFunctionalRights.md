@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Rowe Group",
-    "ToolTip": "Voluptatem repellat qui ad non adipisci nesciunt.",
-    "Deleted": true,
-    "Rank": 20,
-    "Type": "delectus",
-    "ColorBlock": 730,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2005-07-13T11:44:34.9625302+02:00",
+    "Id": 404,
+    "Name": "Lindgren, Cremin and Langosh",
+    "ToolTip": "Recusandae ducimus quis voluptatem.",
+    "Deleted": false,
+    "Rank": 809,
+    "Type": "qui",
+    "ColorBlock": 746,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2012-12-16T11:16:10.0275967+01:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Kunde, Romaguera and Mitchell",
-        "ToolTip": "Nesciunt qui quisquam.",
+        "Id": 543,
+        "Name": "Doyle, Streich and Johnson",
+        "ToolTip": "Et et voluptatem reiciendis quo quo.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "dolor",
-        "ColorBlock": 208,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2012-08-15T11:44:34.9625302+02:00",
+        "Rank": 525,
+        "Type": "reiciendis",
+        "ColorBlock": 986,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2001-11-25T11:16:10.0275967+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Garret Kemmer",
+        "FullName": "Miguel Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 70
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "laborum",
+    "ExtraInfo": "ut",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sienna Rohan",
+    "FullName": "Justen Domenic Pollich DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 565
       }
     }
   }

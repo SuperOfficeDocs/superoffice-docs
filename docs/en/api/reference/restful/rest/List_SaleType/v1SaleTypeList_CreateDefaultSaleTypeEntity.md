@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleTypeId": 777,
-  "Name": "Botsford-Kassulke",
-  "Tooltip": "est",
-  "Rank": 810,
+  "Name": "Mante Group",
+  "Tooltip": "magni",
+  "Rank": 971,
   "DurationUnit": "Century",
-  "SaleDuration": 648,
-  "SaleTypeCatId": 431,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "SaleDuration": 871,
+  "SaleTypeCatId": 493,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 62,
-  "QuoteLinesTemplate": 840,
-  "ConfirmationLinesTemplate": 875,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 77,
+  "QuoteLinesTemplate": 968,
+  "ConfirmationLinesTemplate": 42,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 323,
-  "MinEarningPercent": 211,
-  "GroupQuoteLinesBy": 372,
-  "SortGroupLinesBy": 828,
+  "MaxDiscountPercent": 341,
+  "MinEarningPercent": 903,
+  "GroupQuoteLinesBy": 588,
+  "SortGroupLinesBy": 461,
   "Stages": [
     {
-      "Id": 543,
-      "Name": "Gutmann-Marquardt",
-      "ToolTip": "Reprehenderit eum iste autem placeat ab libero.",
+      "Id": 372,
+      "Name": "Cremin-Renner",
+      "ToolTip": "Quis sint rerum modi molestiae velit exercitationem.",
       "Deleted": false,
-      "Rank": 114,
-      "Type": "numquam",
-      "ColorBlock": 611,
-      "IconHint": "ipsam",
+      "Rank": 795,
+      "Type": "rerum",
+      "ColorBlock": 22,
+      "IconHint": "modi",
       "Selected": false,
-      "LastChanged": "2006-04-26T11:44:43.3355939+02:00",
+      "LastChanged": "1997-09-21T11:16:14.7307772+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "placeat",
-      "Hidden": false,
-      "FullName": "Roderick Corkery",
+      "ExtraInfo": "quae",
+      "StyleHint": "ea",
+      "Hidden": true,
+      "FullName": "Aliya Hickle Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 314
+          "FieldLength": 274
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 350
     }
   }
 }

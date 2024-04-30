@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 679,
+  "HierarchyId": 820,
   "Domain": "Dashboards",
-  "Name": "Douglas-Fay",
-  "Fullname": "eveniet",
-  "ParentId": 649,
+  "Name": "Dickens-Spinka",
+  "Fullname": "facere",
+  "ParentId": 611,
   "Children": [
     {
-      "HierarchyId": 533,
+      "HierarchyId": 546,
       "Domain": "Dashboards",
-      "Name": "Franecki-Wolff",
-      "Fullname": "sunt",
-      "ParentId": 312,
+      "Name": "Kuhlman-Purdy",
+      "Fullname": "qui",
+      "ParentId": 584,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-06-19T11:44:42.0077636+02:00",
-      "RegisteredAssociateId": 738,
-      "Updated": "2013-12-16T11:44:42.0077636+01:00",
-      "UpdatedAssociateId": 313,
+      "Registered": "2009-05-08T11:16:13.93321+02:00",
+      "RegisteredAssociateId": 972,
+      "Updated": "2012-03-22T11:16:13.93321+01:00",
+      "UpdatedAssociateId": 349,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     }
   ],
-  "Registered": "2023-07-05T11:44:42.0077636+02:00",
-  "RegisteredAssociateId": 16,
-  "Updated": "2006-11-13T11:44:42.0077636+01:00",
-  "UpdatedAssociateId": 519,
+  "Registered": "2002-09-11T11:16:13.93321+02:00",
+  "RegisteredAssociateId": 758,
+  "Updated": "2006-07-20T11:16:13.93321+02:00",
+  "UpdatedAssociateId": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 15
     }
   },
   "_Links": {

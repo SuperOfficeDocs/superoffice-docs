@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 597,
-  "Name": "Schuppe-Schowalter",
+  "ReldefId": 640,
+  "Name": "Stokes, Beier and Hammes",
   "Tooltip": "eum",
-  "PassiveText": "aperiam",
-  "Deleted": true,
-  "Rank": 879,
+  "PassiveText": "aut",
+  "Deleted": false,
+  "Rank": 900,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 387,
-  "Name": "Miller, Greenholt and Daugherty",
-  "Tooltip": "sint",
-  "PassiveText": "atque",
+  "ReldefId": 70,
+  "Name": "Marquardt-D'Amore",
+  "Tooltip": "animi",
+  "PassiveText": "culpa",
   "Deleted": false,
-  "Rank": 490,
+  "Rank": 340,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cummerata, Kling and Haley",
-  "TypicalSearchId": 705
+  "EntityName": "Hermann LLC",
+  "TypicalSearchId": 888
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Luettgen LLC",
-  "SelectionId": 944,
+  "ProviderName": "Windler-Okuneva",
+  "SelectionId": 956,
   "CanSaveAsSelection": true,
-  "MainHeading": "maiores",
-  "FilterScreenHeading": "sit",
-  "SelectionEntityHeading": "non",
+  "MainHeading": "dolores",
+  "FilterScreenHeading": "voluptate",
+  "SelectionEntityHeading": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 707
     }
   }
 }

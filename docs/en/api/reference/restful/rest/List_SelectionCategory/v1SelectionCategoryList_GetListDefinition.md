@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "VonRueden, Walsh and Crist",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 958,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 864,
+  "Name": "Mayert Inc and Sons",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "Rank": 477,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 1000
     }
   },
   "_Links": {

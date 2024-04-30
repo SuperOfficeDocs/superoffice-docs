@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 387,
-    "Name": "Nikolaus Group",
-    "ToolTip": "Consectetur qui deserunt facilis velit ducimus.",
-    "Deleted": false,
-    "Rank": 886,
-    "Type": "sed",
-    "ColorBlock": 923,
-    "IconHint": "vel",
+    "Id": 418,
+    "Name": "Breitenberg, West and Ryan",
+    "ToolTip": "Velit adipisci rerum ullam.",
+    "Deleted": true,
+    "Rank": 504,
+    "Type": "ea",
+    "ColorBlock": 649,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2009-06-02T11:44:42.9450455+02:00",
+    "LastChanged": "2007-10-10T11:16:14.4964233+02:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Mueller Inc and Sons",
-        "ToolTip": "Ullam consectetur voluptas facilis fugiat rerum et necessitatibus.",
+        "Id": 787,
+        "Name": "Wilderman, Mayer and Krajcik",
+        "ToolTip": "Sit fugit ea sed quasi fugit quidem.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 846,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2001-02-02T11:44:42.9450455+01:00",
+        "Rank": 150,
+        "Type": "in",
+        "ColorBlock": 477,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "1999-04-11T11:16:14.4964233+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "velit",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Casandra McCullough DVM",
+        "FullName": "Ms. Maureen Lisa King Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quia",
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Shanna VonRueden",
+    "FullName": "Walker Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 674
       }
     }
   }

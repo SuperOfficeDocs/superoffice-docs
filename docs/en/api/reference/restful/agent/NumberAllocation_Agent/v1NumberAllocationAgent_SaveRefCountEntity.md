@@ -83,36 +83,36 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 11,
-  "Field": "ducimus",
-  "RecordId": 476,
+  "RefCountsId": 446,
+  "Field": "aliquam",
+  "RecordId": 567,
   "SuggestedRecords": [
     {
-      "Id": 671,
-      "Name": "Shields, Feest and Langosh",
-      "ToolTip": "Necessitatibus commodi quos.",
-      "Deleted": false,
-      "Rank": 27,
-      "Type": "non",
+      "Id": 7,
+      "Name": "Hudson, Hilll and Hackett",
+      "ToolTip": "Blanditiis voluptates nobis omnis et.",
+      "Deleted": true,
+      "Rank": 982,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "debitis",
-      "ColorBlock": 139,
-      "ExtraInfo": "non",
-      "StyleHint": "odit",
-      "FullName": "Casper Crona"
+      "IconHint": "iusto",
+      "ColorBlock": 44,
+      "ExtraInfo": "omnis",
+      "StyleHint": "nihil",
+      "FullName": "Ms. Loren Barrows"
     }
   ],
-  "CurrentValue": 267,
-  "TravelPrefix": 283,
-  "SatPrefix": 224,
-  "Allocate": false,
+  "CurrentValue": 149,
+  "TravelPrefix": 493,
+  "SatPrefix": 919,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": true,
   "AllowBlank": true
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 699,
-  "Field": "distinctio",
-  "RecordId": 940,
+  "RefCountsId": 275,
+  "Field": "qui",
+  "RecordId": 860,
   "SuggestedRecords": [
     {
-      "Id": 800,
-      "Name": "Smith, Pacocha and Stracke",
-      "ToolTip": "Sunt quisquam autem dignissimos.",
+      "Id": 810,
+      "Name": "Ortiz-Wisozk",
+      "ToolTip": "Velit illum delectus deserunt tenetur.",
       "Deleted": false,
-      "Rank": 854,
-      "Type": "ducimus",
+      "Rank": 934,
+      "Type": "molestias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magnam",
-      "ColorBlock": 125,
-      "ExtraInfo": "at",
-      "StyleHint": "qui",
-      "FullName": "Mr. Frida Finn Buckridge DVM",
+      "IconHint": "neque",
+      "ColorBlock": 107,
+      "ExtraInfo": "et",
+      "StyleHint": "tempora",
+      "FullName": "Dashawn Jaskolski I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldLength": 10
         }
       }
     }
   ],
-  "CurrentValue": 192,
-  "TravelPrefix": 325,
-  "SatPrefix": 701,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 295,
+  "TravelPrefix": 143,
+  "SatPrefix": 813,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 868
     }
   }
 }

@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 257,
-  "ERPProductKey": "molestias"
+  "QuoteAlternativeId": 487,
+  "ERPProductKey": "quam"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 578,
-  "ERPQuoteLineKey": "deserunt",
-  "QuoteAlternativeId": 744,
-  "ERPProductKey": "cumque",
+  "QuoteLineId": 552,
+  "ERPQuoteLineKey": "ea",
+  "QuoteAlternativeId": 151,
+  "ERPProductKey": "possimus",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 266.39,
-  "DeliveredQuantity": 3626.038,
-  "Rank": 245,
-  "Name": "Christiansen-Jerde",
-  "Description": "Grass-roots grid-enabled paradigm",
-  "Code": "quis",
-  "QuantityUnit": "ut",
-  "PriceUnit": "vel",
-  "ItemNumber": "1103546",
+  "Reason": "implement interactive markets",
+  "Quantity": 20678.131999999998,
+  "DeliveredQuantity": 4140.014,
+  "Rank": 579,
+  "Name": "West, Lang and Berge",
+  "Description": "Streamlined heuristic open system",
+  "Code": "necessitatibus",
+  "QuantityUnit": "doloribus",
+  "PriceUnit": "sed",
+  "ItemNumber": "401196",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "aperiam",
-  "Supplier": "asperiores",
-  "SupplierCode": "quod",
-  "Thumbnail": "quia",
-  "VATInfo": "illo",
-  "VAT": 28845.336,
-  "UnitCost": 22433.172,
-  "UnitMinimumPrice": 3579.028,
-  "UnitListPrice": 21502.374,
+  "ProductFamilyKey": "at",
+  "ProductTypeKey": "tenetur",
+  "Supplier": "praesentium",
+  "SupplierCode": "qui",
+  "Thumbnail": "debitis",
+  "VATInfo": "accusantium",
+  "VAT": 8919.364,
+  "UnitCost": 9044.724,
+  "UnitMinimumPrice": 28832.8,
+  "UnitListPrice": 1682.9579999999999,
   "ExtraInfo": [
     {
-      "Name": "Swaniawski Inc and Sons",
-      "Value": "ullam",
+      "Name": "Williamson Group",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 647
         }
       }
     },
     {
-      "Name": "Swaniawski Inc and Sons",
-      "Value": "ullam",
+      "Name": "Williamson Group",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 647
         }
       }
     }
   ],
-  "RawExtraInfo": "ullam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "error",
-  "SubscriptionQuantity": 12667.627999999999,
-  "SubscriptionStart": "2023-06-22T11:44:34.3063794+02:00",
-  "ERPDiscountPercent": 12708.369999999999,
-  "ERPDiscountAmount": 7988.566,
-  "DiscountPercent": 13112.655999999999,
-  "DiscountAmount": 23599.02,
+  "RawExtraInfo": "eos",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quidem",
+  "SubscriptionQuantity": 31299.257999999998,
+  "SubscriptionStart": "1997-03-22T11:16:09.6161411+01:00",
+  "ERPDiscountPercent": 30280.708,
+  "ERPDiscountAmount": 18230.478,
+  "DiscountPercent": 10473.828,
+  "DiscountAmount": 24044.048,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27168.646,
-  "EarningAmount": 16089.956,
-  "SubTotal": 18525.074,
-  "TotalPrice": 14510.42,
-  "Rights": "explicabo",
-  "Rule": "atque",
-  "ExtraField1": "sapiente",
-  "ExtraField2": "officia",
-  "ExtraField3": "minima",
-  "ExtraField4": "non",
-  "ExtraField5": "tenetur",
+  "EarningPercent": 29581.825999999997,
+  "EarningAmount": 13175.336,
+  "SubTotal": 25335.255999999998,
+  "TotalPrice": 3848.5519999999997,
+  "Rights": "ea",
+  "Rule": "vel",
+  "ExtraField1": "pariatur",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "non",
+  "ExtraField4": "qui",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 838
     }
   }
 }

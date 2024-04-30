@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 987
+  "QuoteId": 984
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 981,
-  "SaleId": 987,
-  "QuoteConnectionId": 757,
-  "ERPQuoteKey": "nulla",
-  "ERPOrderKey": "odit",
-  "ActiveQuoteVersionId": 74,
-  "AcceptedQuoteAlternativeId": 173,
-  "UseValuesFromQuote": 486,
-  "DocumentId": 317,
-  "PoNumber": "387058",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "michael_sporer@schaefer.us",
+  "QuoteId": 750,
+  "SaleId": 911,
+  "QuoteConnectionId": 13,
+  "ERPQuoteKey": "molestias",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 554,
+  "AcceptedQuoteAlternativeId": 733,
+  "UseValuesFromQuote": 187,
+  "DocumentId": 329,
+  "PoNumber": "813014",
+  "OrderComment": "enim",
+  "PreferredEmailCulture": "jackie@dietrich.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 142
     }
   }
 }

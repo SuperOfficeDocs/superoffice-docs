@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 296,
-  "Name": "Wuckert, Swift and Welch",
-  "Description": "Down-sized scalable approach",
-  "DefaultHeight": 221,
-  "DefaultWidth": 575,
+  "DashboardTileDefinitionId": 1001,
+  "Name": "Schaden, Hane and Walsh",
+  "Description": "Switchable bandwidth-monitored core",
+  "DefaultHeight": 393,
+  "DefaultWidth": 607,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Stiedemann-Stiedemann",
-  "SelectionId": 900,
+  "EntityName": "Mraz, Haag and Greenfelder",
+  "SelectionId": 263,
   "CurrencyMode": "Base",
-  "CurrencyCode": "perspiciatis",
+  "CurrencyCode": "dolorum",
   "Measure": "Average",
-  "MeasureField": "nesciunt",
-  "SortBy": "autem",
-  "LayoutConfig": "suscipit",
-  "SecondarySelectionId": 35,
-  "MeasureByField": "ea",
+  "MeasureField": "consequatur",
+  "SortBy": "facilis",
+  "LayoutConfig": "quia",
+  "SecondarySelectionId": 369,
+  "MeasureByField": "voluptatibus",
   "Usage": "Dashboard",
-  "ProviderName": "Hintz-Rodriguez",
+  "ProviderName": "Towne-Kozey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

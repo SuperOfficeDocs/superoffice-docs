@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "recusandae",
-  "PrefKey": "ea",
+  "PrefSection": "culpa",
+  "PrefKey": "quo",
   "PrefLevel": "Database",
-  "OwnerId": 918
+  "OwnerId": 712
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "placeat",
+  "RawValue": "nostrum",
   "Specification": null,
-  "DisplayValue": "eligendi",
-  "DisplayTooltip": "tempora",
+  "DisplayValue": "voluptates",
+  "DisplayTooltip": "eligendi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 133,
-  "PrefDescId": 12,
-  "TableName": "Littel Inc and Sons",
-  "UserPreferenceId": 614,
+  "TargetId": 180,
+  "PrefDescId": 863,
+  "TableName": "Schoen, Konopelski and Dicki",
+  "UserPreferenceId": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

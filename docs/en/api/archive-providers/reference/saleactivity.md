@@ -739,7 +739,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personExtra/y_rental/y_equipment/x_name,person/personAssociate/ejUserId,contact/nameDepartment,appointmentPublish/publishedTo
+GET /api/v1/archive/SaleActivity?$select=person/rank,person/personActiveErpLinks,person/personExtra/y_rental/x_end,person/personAssociate/contactName,contact/postAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

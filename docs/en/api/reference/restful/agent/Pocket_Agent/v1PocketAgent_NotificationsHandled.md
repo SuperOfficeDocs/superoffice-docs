@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/Pocket/NotificationsHandled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEvents": [
     {
       "Type": "AppointmentCancelled",
-      "Id": 154
+      "Id": 261
     },
     {
       "Type": "AppointmentCancelled",
-      "Id": 154
+      "Id": 261
     }
   ]
 }

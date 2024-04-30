@@ -52,6 +52,8 @@ generated: true
 
 * [POST Agents/Workflow/CopyEmailFlowContent](v1WorkflowAgent_CopyEmailFlowContent.md)
 
+* [POST Agents/Workflow/UpdateFormSubmissions](v1WorkflowAgent_UpdateFormSubmissions.md)
+
 * [POST Agents/Workflow/Run](v1WorkflowAgent_Run.md)
 
 * [POST Agents/Workflow/SendEvent](v1WorkflowAgent_SendEvent.md)

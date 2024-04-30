@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 247,
-    "Tooltip": "numquam",
-    "CanAssign": false,
-    "Free": 443,
-    "InUse": 93,
+    "Unrestricted": false,
+    "Total": 180,
+    "Tooltip": "quia",
+    "CanAssign": true,
+    "Free": 784,
+    "InUse": 138,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 717,
-    "Name": "Streich LLC",
-    "Description": "User-friendly zero administration system engine",
-    "PrerequisiteModuleName": "Kozey-Schuster",
-    "SortOrder": 378,
-    "ExtraFlags": 441,
+    "Assigned": true,
+    "ModuleLicenseId": 260,
+    "Name": "Corwin, Halvorson and Corwin",
+    "Description": "Versatile intangible array",
+    "PrerequisiteModuleName": "Oberbrunner, Effertz and Beier",
+    "SortOrder": 897,
+    "ExtraFlags": 807,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 554
       }
     }
   }

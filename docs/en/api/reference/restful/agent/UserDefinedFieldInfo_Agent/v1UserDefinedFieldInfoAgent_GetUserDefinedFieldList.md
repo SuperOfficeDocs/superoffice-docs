@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 475,
-    "ColumnId": 12,
-    "FieldDefault": "et",
-    "FieldHeight": 744,
-    "FieldLabel": "qui",
-    "FieldLeft": 233,
-    "FieldTop": 715,
+    "UDefFieldId": 496,
+    "ColumnId": 416,
+    "FieldDefault": "nihil",
+    "FieldHeight": 152,
+    "FieldLabel": "minima",
+    "FieldLeft": 713,
+    "FieldTop": 230,
     "FieldType": "Checkbox",
-    "FieldWidth": 349,
-    "FormatMask": "aut",
-    "HideLabel": true,
+    "FieldWidth": 856,
+    "FormatMask": "voluptates",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 561,
-    "LabelLeft": 580,
-    "LabelTop": 83,
-    "LabelWidth": 643,
-    "LastVersionId": 559,
-    "ListTableId": 404,
-    "IsMandatory": true,
+    "LabelHeight": 769,
+    "LabelLeft": 469,
+    "LabelTop": 373,
+    "LabelWidth": 1002,
+    "LastVersionId": 33,
+    "ListTableId": 105,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 312,
-    "ProgId": "nesciunt",
+    "Page1LineNo": 532,
+    "ProgId": "aut",
     "IsReadOnly": false,
-    "ShortLabel": "ducimus",
-    "TabOrder": 834,
-    "TextLength": 563,
-    "Tooltip": "nostrum",
-    "UdefIdentity": 498,
-    "UDListDefinitionId": 706,
+    "ShortLabel": "esse",
+    "TabOrder": 263,
+    "TextLength": 985,
+    "Tooltip": "facere",
+    "UdefIdentity": 557,
+    "UDListDefinitionId": 128,
     "Justification": "Center",
-    "Version": 314,
-    "TemplateVariableName": "Koepp-Wilderman",
+    "Version": 127,
+    "TemplateVariableName": "Rippin-Dickens",
     "HasBeenPublished": false,
-    "MdoListName": "Rodriguez-Hauck",
+    "MdoListName": "Farrell, Altenwerth and Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldLength": 125
       }
     }
   }

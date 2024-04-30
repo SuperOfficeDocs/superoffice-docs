@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 259
+  "Count": 513
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "libero",
-    "PersonId": 753,
-    "Mrmrs": "rerum",
-    "Firstname": "Domenick",
-    "Lastname": "Runte",
-    "MiddleName": "Dickinson, Bosco and Hilpert",
-    "Title": "dolor",
-    "Description": "Fundamental neutral strategy",
-    "Email": "ciara@feestokon.co.uk",
-    "FullName": "Prof. Haven Constantin Luettgen II",
-    "DirectPhone": "1-938-071-1581",
-    "FormalName": "Green-Braun",
-    "CountryId": 538,
-    "ContactId": 140,
-    "ContactName": "Cremin, Jacobi and Pollich",
-    "Retired": 654,
-    "Rank": 425,
-    "ActiveInterests": 501,
+    "Position": "sint",
+    "PersonId": 74,
+    "Mrmrs": "numquam",
+    "Firstname": "Kaia",
+    "Lastname": "Dach",
+    "MiddleName": "Ruecker-Ledner",
+    "Title": "esse",
+    "Description": "Assimilated secondary artificial intelligence",
+    "Email": "henri.borer@donnelly.biz",
+    "FullName": "Elijah Mraz III",
+    "DirectPhone": "1-871-833-7320",
+    "FormalName": "Nitzsche, Casper and Towne",
+    "CountryId": 562,
+    "ContactId": 479,
+    "ContactName": "Kris-Krajcik",
+    "Retired": 606,
+    "Rank": 531,
+    "ActiveInterests": 16,
     "ContactDepartment": "",
-    "ContactCountryId": 620,
-    "ContactOrgNr": "1258344",
-    "FaxPhone": "816-865-1712 x6050",
-    "MobilePhone": "1-379-453-3052 x63837",
-    "ContactPhone": "130.630.4100",
-    "AssociateName": "Raynor Inc and Sons",
-    "AssociateId": 722,
+    "ContactCountryId": 285,
+    "ContactOrgNr": "1449122",
+    "FaxPhone": "638-299-0702 x774",
+    "MobilePhone": "710.006.2391",
+    "ContactPhone": "675.509.1351 x1716",
+    "AssociateName": "Kuhic-Simonis",
+    "AssociateId": 274,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "nesciunt",
-    "Kanalname": "omnis",
-    "Post1": "et",
-    "Post2": "minus",
-    "Post3": "pariatur",
-    "EmailName": "sanford_beatty@feest.biz",
-    "ContactFullName": "Letitia DuBuque",
-    "ActiveErpLinks": 685,
-    "TicketPriorityId": 431,
-    "SupportLanguageId": 138,
-    "SupportAssociateId": 580,
+    "ContactFax": "at",
+    "Kanafname": "nobis",
+    "Kanalname": "et",
+    "Post1": "porro",
+    "Post2": "autem",
+    "Post3": "aut",
+    "EmailName": "amari_osinski@schroederokuneva.co.uk",
+    "ContactFullName": "Francis Hand",
+    "ActiveErpLinks": 408,
+    "TicketPriorityId": 218,
+    "SupportLanguageId": 892,
+    "SupportAssociateId": 628,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 499
       }
     }
   }

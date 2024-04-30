@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=976
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=723
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 916,
-  "ERPQuoteAlternativeKey": "id",
-  "QuoteVersionId": 89,
-  "Name": "Legros, Mann and Rath",
-  "Description": "Visionary analyzing concept",
+  "QuoteAlternativeId": 88,
+  "ERPQuoteAlternativeKey": "dolor",
+  "QuoteVersionId": 62,
+  "Name": "Thompson Group",
+  "Description": "Ameliorated solution-oriented synergy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8424.192,
-  "ERPDiscountAmount": 1510.588,
-  "DiscountPercent": 13269.356,
-  "DiscountAmount": 9123.074,
+  "ERPDiscountPercent": 29362.446,
+  "ERPDiscountAmount": 24301.036,
+  "DiscountPercent": 14873.964,
+  "DiscountAmount": 28478.658,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nemo",
-  "VAT": 17381.164,
-  "EarningPercent": 11160.173999999999,
-  "EarningAmount": 25109.608,
-  "SubTotal": 1695.494,
-  "TotalPrice": 16450.365999999998,
-  "ExtraField1": "sit",
-  "ExtraField2": "magnam",
+  "VATInfo": "vitae",
+  "VAT": 9705.998,
+  "EarningPercent": 12727.173999999999,
+  "EarningAmount": 29168.138,
+  "SubTotal": 20107.744,
+  "TotalPrice": 5183.6359999999995,
+  "ExtraField1": "deleniti",
+  "ExtraField2": "atque",
   "ExtraField3": "dolores",
-  "ExtraField4": "error",
-  "ExtraField5": "laboriosam",
+  "ExtraField4": "eos",
+  "ExtraField5": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 281
     }
   }
 }

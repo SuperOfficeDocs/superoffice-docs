@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Huel Inc and Sons",
-    "ToolTip": "Sint ab.",
-    "Deleted": true,
-    "Rank": 953,
-    "Type": "voluptate",
-    "ColorBlock": 400,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2002-05-24T11:44:43.1481263+02:00",
+    "Id": 153,
+    "Name": "Hermiston, Quitzon and Simonis",
+    "ToolTip": "Non exercitationem animi dolorem eos id dolor.",
+    "Deleted": false,
+    "Rank": 893,
+    "Type": "cum",
+    "ColorBlock": 538,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2007-02-22T11:16:14.6214085+01:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Dibbert-Morissette",
-        "ToolTip": "Molestiae ea esse quia alias porro voluptas nulla.",
+        "Id": 234,
+        "Name": "White, Crona and Kerluke",
+        "ToolTip": "Magnam autem molestiae enim qui aliquid.",
         "Deleted": true,
-        "Rank": 574,
-        "Type": "delectus",
-        "ColorBlock": 589,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2021-04-10T11:44:43.1481263+02:00",
+        "Rank": 639,
+        "Type": "ipsa",
+        "ColorBlock": 265,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "1999-05-21T11:16:14.6214085+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Mr. Brooklyn Tristian Beer",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Prof. Brandy Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Reginald Kuhlman",
+    "ExtraInfo": "quos",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Alexandrea Windler Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 196
       }
     }
   }

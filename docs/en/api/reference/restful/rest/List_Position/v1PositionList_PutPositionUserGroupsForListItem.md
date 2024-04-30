@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Renner-Okuneva",
-    "ToolTip": "Omnis distinctio autem qui porro veniam.",
+    "Id": 619,
+    "Name": "Stark-Homenick",
+    "ToolTip": "Id corporis repellendus fuga accusantium dignissimos.",
     "Deleted": true,
-    "Rank": 135,
-    "Type": "cumque",
-    "ColorBlock": 46,
+    "Rank": 289,
+    "Type": "distinctio",
+    "ColorBlock": 255,
     "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2004-06-30T11:44:43.1481263+02:00",
+    "LastChanged": "2023-10-05T11:16:14.6214085+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Price Group",
-        "ToolTip": "Unde velit sint numquam.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "aut",
-        "ColorBlock": 766,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "2006-09-04T11:44:43.1481263+02:00",
+        "Id": 403,
+        "Name": "Cruickshank, McLaughlin and Lowe",
+        "ToolTip": "Doloremque voluptas officiis veritatis rem.",
+        "Deleted": true,
+        "Rank": 326,
+        "Type": "ullam",
+        "ColorBlock": 491,
+        "IconHint": "debitis",
+        "Selected": false,
+        "LastChanged": "2019-03-08T11:16:14.6214085+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Kendrick Toy"
+        "FullName": "Alfreda Altenwerth"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Prof. Eve Freda Hilll"
+    "ExtraInfo": "quidem",
+    "StyleHint": "voluptatibus",
+    "Hidden": true,
+    "FullName": "Nasir Maggio"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Schumm, Hand and Erdman",
-    "ToolTip": "Eius animi accusamus et et est provident.",
+    "Id": 157,
+    "Name": "Labadie-Kerluke",
+    "ToolTip": "Velit dicta sit nemo.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "nihil",
-    "ColorBlock": 64,
-    "IconHint": "voluptate",
+    "Rank": 39,
+    "Type": "quo",
+    "ColorBlock": 531,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2014-06-09T11:44:43.1481263+02:00",
+    "LastChanged": "1998-06-04T11:16:14.6214085+02:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Beatty, Dietrich and Jerde",
-        "ToolTip": "Dolorem veniam.",
-        "Deleted": true,
-        "Rank": 503,
-        "Type": "officiis",
-        "ColorBlock": 778,
-        "IconHint": "error",
+        "Id": 835,
+        "Name": "Satterfield-Kiehn",
+        "ToolTip": "Rerum maxime doloribus et eaque et quis.",
+        "Deleted": false,
+        "Rank": 154,
+        "Type": "esse",
+        "ColorBlock": 901,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2015-09-10T11:44:43.1481263+02:00",
+        "LastChanged": "2014-11-01T11:16:14.6214085+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Ms. Enos Quinn Russel",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Mariana Kaitlyn Sauer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Prof. Emelie Roberts",
+    "ExtraInfo": "autem",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Madelynn Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldLength": 571
       }
     }
   }

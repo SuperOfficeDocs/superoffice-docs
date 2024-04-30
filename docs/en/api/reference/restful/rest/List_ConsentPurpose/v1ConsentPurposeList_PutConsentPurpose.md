@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 826,
-  "Name": "Jast Inc and Sons",
-  "ConsentText": "rerum",
-  "FormText": "illum",
-  "Key": "est",
-  "Tooltip": "necessitatibus",
-  "Active": 649,
-  "UpdatedDate": "1998-11-29T11:44:42.9762901+01:00",
+  "ConsentPurposeId": 576,
+  "Name": "Block-Luettgen",
+  "ConsentText": "explicabo",
+  "FormText": "deserunt",
+  "Key": "laboriosam",
+  "Tooltip": "ut",
+  "Active": 879,
+  "UpdatedDate": "2002-02-10T11:16:14.512052+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 481,
-  "PrivacyStatementDesc": "voluptas",
+  "Rank": 726,
+  "PrivacyStatementDesc": "veritatis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 235,
-  "Name": "Nitzsche Inc and Sons",
-  "ConsentText": "veritatis",
-  "FormText": "dicta",
-  "Key": "dicta",
-  "Tooltip": "et",
-  "Active": 455,
-  "UpdatedDate": "2018-12-08T11:44:42.9762901+01:00",
+  "ConsentPurposeId": 750,
+  "Name": "Hirthe LLC",
+  "ConsentText": "sed",
+  "FormText": "culpa",
+  "Key": "repudiandae",
+  "Tooltip": "qui",
+  "Active": 80,
+  "UpdatedDate": "2016-03-21T11:16:14.512052+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 666,
-  "PrivacyStatementDesc": "corrupti",
+  "Rank": 384,
+  "PrivacyStatementDesc": "ratione",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   }
 }

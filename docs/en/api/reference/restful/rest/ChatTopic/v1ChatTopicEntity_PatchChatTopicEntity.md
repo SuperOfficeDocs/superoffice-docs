@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "culpa",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "culpa",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 669,
-  "Name": "Olson LLC",
-  "Description": "Sharable background policy",
-  "WelcomeMessage": "nesciunt",
+  "ChatTopicId": 698,
+  "Name": "Wehner, Rempel and Lowe",
+  "Description": "Balanced responsive frame",
+  "WelcomeMessage": "odio",
   "Language": null,
-  "LastAccept": "2016-07-13T11:44:41.7109149+02:00",
-  "SecondsPrAccept": 308,
-  "AlertRecipient": "qui",
+  "LastAccept": "2015-06-28T11:16:13.7456138+02:00",
+  "SecondsPrAccept": 202,
+  "AlertRecipient": "nesciunt",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "modi",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sapiente",
-  "WarnNewChatMinutes": 862,
-  "WarnManagerNewChatMinutes": 396,
+  "CollectConsent": true,
+  "BadgeHeader": "vitae",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "ratione",
+  "WarnNewChatMinutes": 631,
+  "WarnManagerNewChatMinutes": 8,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -186,24 +186,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 381,
-  "WarnManagerChatMessageMinutes": 160,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 385,
-  "OfflineFormQueueLength": 612,
+  "WarnChatMessageMinutes": 727,
+  "WarnManagerChatMessageMinutes": 426,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 26,
+  "OfflineFormQueueLength": 46,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dolorem",
+  "WidgetRatingText": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

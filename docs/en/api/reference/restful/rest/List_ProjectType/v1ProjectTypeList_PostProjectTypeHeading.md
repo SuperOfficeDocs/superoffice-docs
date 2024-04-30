@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 765,
-  "Name": "Bradtke, Lang and Strosin",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 956,
-  "UdListDefinitionId": 317
+  "HeadingId": 441,
+  "Name": "Kihn Group",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 949,
+  "UdListDefinitionId": 792
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 191,
-  "Name": "Lemke, Koelpin and Murazik",
-  "Tooltip": "est",
+  "HeadingId": 826,
+  "Name": "Renner-Powlowski",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 664,
-  "UdListDefinitionId": 553,
+  "Rank": 823,
+  "UdListDefinitionId": 9,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

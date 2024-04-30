@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 878,
-  "NumSentences": 750,
-  "IsoLangCode": "voluptatem"
+  "SaleId": 545,
+  "NumSentences": 151,
+  "IsoLangCode": "deleniti"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nulla"
+"ea"
 ```

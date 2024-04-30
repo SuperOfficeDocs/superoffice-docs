@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=a
-GET /api/v1/Sale/{id}/Stakeholders?$top=588
-GET /api/v1/Sale/{id}/Stakeholders?$skip=650
+GET /api/v1/Sale/{id}/Stakeholders?$entities=eius
+GET /api/v1/Sale/{id}/Stakeholders?$top=28
+GET /api/v1/Sale/{id}/Stakeholders?$skip=474
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=quia
+GET /api/v1/Sale/{id}/Stakeholders?$context=et
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
-GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=True
+GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=False
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 ```
 
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "velit",
+  "odata.nextLink": "corrupti",
   "value": [
     {
-      "PrimaryKey": 3706,
-      "EntityName": "sale",
-      "saleId": 3706,
-      "contactId": 3864,
-      "name": "Trantow, Emard and Kohler"
+      "PrimaryKey": 4214,
+      "EntityName": "person",
+      "personId": 4214,
+      "fullName": "Alvena Nya Mills III"
     },
     {
-      "PrimaryKey": 6988,
-      "EntityName": "sale",
-      "saleId": 6988,
-      "contactId": 6293,
-      "name": "Wiza, Konopelski and Upton"
+      "PrimaryKey": 3837,
+      "EntityName": "person",
+      "personId": 3837,
+      "fullName": "Katherine Omari Murazik Sr."
     }
   ]
 }

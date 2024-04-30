@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller-Rippin",
-    "Description": "Customizable methodical approach",
+    "Name": "Ratke-Spencer",
+    "Description": "Focused optimizing customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 13,
-        "Tooltip": "deserunt",
+        "Total": 423,
+        "Tooltip": "doloribus",
         "CanAssign": true,
-        "Free": 750,
-        "InUse": 626,
-        "IsHidden": false,
+        "Free": 414,
+        "InUse": 969,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 769,
-        "Name": "Smitham Inc and Sons",
-        "Description": "Devolved scalable frame",
-        "PrerequisiteModuleName": "Corwin, Herzog and Kassulke",
-        "SortOrder": 211,
-        "ExtraFlags": 652,
+        "ModuleLicenseId": 11,
+        "Name": "Ziemann, Bashirian and Hoeger",
+        "Description": "Decentralized secondary concept",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 245,
+        "ExtraFlags": 688,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 407
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 496,
-        "Tooltip": "eveniet",
-        "CanAssign": false,
-        "Free": 329,
-        "InUse": 911,
+        "Total": 294,
+        "Tooltip": "dignissimos",
+        "CanAssign": true,
+        "Free": 215,
+        "InUse": 277,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 956,
-        "Name": "Langworth, Haag and Nicolas",
-        "Description": "Implemented web-enabled groupware",
-        "PrerequisiteModuleName": "Jacobs, Runolfsdottir and Schowalter",
-        "SortOrder": 476,
-        "ExtraFlags": 20,
+        "Assigned": false,
+        "ModuleLicenseId": 900,
+        "Name": "Sanford, Bartoletti and Pfeffer",
+        "Description": "User-friendly demand-driven project",
+        "PrerequisiteModuleName": "Yost, Gutmann and Hills",
+        "SortOrder": 774,
+        "ExtraFlags": 187,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 999
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldType": "System.Int32",
+        "FieldLength": 572
       }
     }
   },
   {
-    "Name": "Heller-Rippin",
-    "Description": "Customizable methodical approach",
+    "Name": "Ratke-Spencer",
+    "Description": "Focused optimizing customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 13,
-        "Tooltip": "deserunt",
+        "Total": 423,
+        "Tooltip": "doloribus",
         "CanAssign": true,
-        "Free": 750,
-        "InUse": 626,
-        "IsHidden": false,
+        "Free": 414,
+        "InUse": 969,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 769,
-        "Name": "Smitham Inc and Sons",
-        "Description": "Devolved scalable frame",
-        "PrerequisiteModuleName": "Corwin, Herzog and Kassulke",
-        "SortOrder": 211,
-        "ExtraFlags": 652,
+        "ModuleLicenseId": 11,
+        "Name": "Ziemann, Bashirian and Hoeger",
+        "Description": "Decentralized secondary concept",
+        "PrerequisiteModuleName": "Cormier Inc and Sons",
+        "SortOrder": 245,
+        "ExtraFlags": 688,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 407
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 496,
-        "Tooltip": "eveniet",
-        "CanAssign": false,
-        "Free": 329,
-        "InUse": 911,
+        "Total": 294,
+        "Tooltip": "dignissimos",
+        "CanAssign": true,
+        "Free": 215,
+        "InUse": 277,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 956,
-        "Name": "Langworth, Haag and Nicolas",
-        "Description": "Implemented web-enabled groupware",
-        "PrerequisiteModuleName": "Jacobs, Runolfsdottir and Schowalter",
-        "SortOrder": 476,
-        "ExtraFlags": 20,
+        "Assigned": false,
+        "ModuleLicenseId": 900,
+        "Name": "Sanford, Bartoletti and Pfeffer",
+        "Description": "User-friendly demand-driven project",
+        "PrerequisiteModuleName": "Yost, Gutmann and Hills",
+        "SortOrder": 774,
+        "ExtraFlags": 187,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 999
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldType": "System.Int32",
+        "FieldLength": 572
       }
     }
   }

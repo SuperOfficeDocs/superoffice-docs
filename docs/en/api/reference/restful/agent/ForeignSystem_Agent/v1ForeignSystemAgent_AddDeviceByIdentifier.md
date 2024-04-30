@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wintheiser-Reynolds",
-  "DeviceName": "Lueilwitz Inc and Sons",
-  "DeviceIdentifier": "officia"
+  "ApplicationName": "Koelpin-Leannon",
+  "DeviceName": "Lindgren Inc and Sons",
+  "DeviceIdentifier": "qui"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 784,
-  "Name": "Hoeger Inc and Sons",
-  "CreatedDate": "2011-10-03T11:44:33.7596833+02:00",
-  "UpdatedDate": "2018-10-09T11:44:33.7596833+02:00",
-  "AssociateFullName": "Mr. Marion Murray DVM",
-  "CreatedBy": "et",
-  "UpdatedBy": "iure",
-  "DeviceIdentifier": "illo",
-  "ForeignAppId": 372,
+  "ForeignDeviceId": 28,
+  "Name": "Labadie Group",
+  "CreatedDate": "2000-06-04T11:16:09.2878404+02:00",
+  "UpdatedDate": "2020-01-02T11:16:09.2878404+01:00",
+  "AssociateFullName": "Alexa Cummerata",
+  "CreatedBy": "fugit",
+  "UpdatedBy": "similique",
+  "DeviceIdentifier": "cupiditate",
+  "ForeignAppId": 848,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldLength": 68
     }
   }
 }

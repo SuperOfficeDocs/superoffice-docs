@@ -117,63 +117,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 616,
+  "EjMessageId": 188,
   "Ticket": null,
-  "CreatedAt": "2016-06-23T11:44:34.7438345+02:00",
+  "CreatedAt": "1998-10-14T11:16:09.8822214+02:00",
   "CreatedBy": null,
-  "Author": "doloribus",
+  "Author": "tempora",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sint",
-  "TimeSpent": 350,
-  "Body": "autem",
-  "HtmlBody": "iure",
-  "EmailHeader": "rachel.kihn@lemkelemke.co.uk",
-  "DebugInfo": "dolore",
-  "MailSorter": "esse",
+  "MessageId": "eum",
+  "TimeSpent": 657,
+  "Body": "dicta",
+  "HtmlBody": "hic",
+  "EmailHeader": "dennis.blanda@keeblerbernier.name",
+  "DebugInfo": "dolorem",
+  "MailSorter": "unde",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "delectus",
+  "SearchTitle": "odit",
   "MessageHeaders": [
     {
-      "Id": 807,
-      "Name": "Hegmann, Stroman and Boyer",
-      "Value": "consequatur",
+      "Id": 285,
+      "Name": "Gutmann-Boyer",
+      "Value": "totam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 807,
-      "Name": "Hegmann, Stroman and Boyer",
-      "Value": "consequatur",
+      "Id": 285,
+      "Name": "Gutmann-Boyer",
+      "Value": "totam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "quod",
-  "Sentiment": 232,
-  "SentimentConfidence": 759,
+  "Language": "deserunt",
+  "Sentiment": 412,
+  "SentimentConfidence": 137,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 649,
-      "Name": "Hermiston, West and Lind",
-      "ContentType": "id",
-      "AttSize": 936,
+      "AttachmentId": 660,
+      "Name": "Donnelly LLC",
+      "ContentType": "quae",
+      "AttSize": 257,
       "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "porro",
-      "IsSafeFileExtension": false
+      "ContentId": "perspiciatis",
+      "AuthKey": "iure",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "et"
+    "CustomFields1": "ab",
+    "CustomFields2": "fugit"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 895,
+  "EjMessageId": 850,
   "Ticket": null,
-  "CreatedAt": "2021-06-01T11:44:34.7438345+02:00",
+  "CreatedAt": "2013-05-27T11:16:09.8822214+02:00",
   "CreatedBy": null,
-  "Author": "perspiciatis",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 354,
-  "Body": "aut",
-  "HtmlBody": "qui",
-  "EmailHeader": "reanna_balistreri@grant.us",
-  "DebugInfo": "rerum",
-  "MailSorter": "expedita",
+  "MessageId": "itaque",
+  "TimeSpent": 845,
+  "Body": "nulla",
+  "HtmlBody": "pariatur",
+  "EmailHeader": "nicklaus@greenfelder.com",
+  "DebugInfo": "atque",
+  "MailSorter": "maiores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatum",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 346,
-      "Name": "Reinger, Legros and Herman",
-      "Value": "fuga",
+      "Id": 878,
+      "Name": "Gerlach, Kassulke and Koch",
+      "Value": "pariatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
   "Important": true,
-  "Language": "reprehenderit",
-  "Sentiment": 632,
-  "SentimentConfidence": 926,
+  "Language": "ut",
+  "Sentiment": 635,
+  "SentimentConfidence": 894,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 778,
-      "Name": "Christiansen Inc and Sons",
-      "ContentType": "cumque",
-      "AttSize": 557,
+      "AttachmentId": 741,
+      "Name": "Ritchie, Shanahan and Bailey",
+      "ContentType": "nam",
+      "AttSize": 791,
       "InlineImage": false,
-      "ContentId": "autem",
-      "AuthKey": "omnis",
+      "ContentId": "quaerat",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 875
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "eius"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 821
     }
   }
 }

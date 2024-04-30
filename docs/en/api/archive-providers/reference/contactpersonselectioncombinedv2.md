@@ -1181,7 +1181,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=streetAddress/formattedMultiLineAddress,contactUdef/SuperOffice:5,LastCompletedTicket,document/associate/lastName,personDirectPhone/formattedNumber
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=sale/saleUdef/SuperOffice:8,appointment/associate/usergroup,appointment/appointment/title,personSourceRelation/personRegisteredDate,request/extra/x_ticket_timestamp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

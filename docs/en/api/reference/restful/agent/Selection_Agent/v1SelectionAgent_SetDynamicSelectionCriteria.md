@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 952,
+  "SelectionId": 157,
   "Criteria": [
     {
-      "Name": "Senger-Murphy",
-      "Operator": "aliquid",
+      "Name": "Schmidt LLC",
+      "Operator": "unde",
       "Values": [
-        "impedit",
-        "aut"
+        "sunt",
+        "repellat"
       ],
       "DisplayValues": [
-        "voluptas",
-        "eius"
+        "ut",
+        "atque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 312,
+      "InterParenthesis": 506,
       "InterOperator": "And",
-      "UniqueHash": 499
+      "UniqueHash": 641
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros, Stark and Aufderhar",
-    "Operator": "sint",
+    "Name": "Kris-Moore",
+    "Operator": "ut",
     "Values": [
-      "similique",
-      "et"
+      "nihil",
+      "eveniet"
     ],
     "DisplayValues": [
-      "quia",
-      "cupiditate"
+      "ex",
+      "vel"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kuhlman, Hilll and Ryan",
-        "Operator": "officia",
+        "Name": "Mosciski-Hermann",
+        "Operator": "tenetur",
         "Values": [
-          "non",
-          "voluptas"
+          "qui",
+          "et"
         ],
         "DisplayValues": [
-          "dolorum",
-          "maiores"
+          "quia",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 588,
+        "InterParenthesis": 813,
         "InterOperator": "And",
-        "UniqueHash": 646
+        "UniqueHash": 22
       }
     ],
-    "InterParenthesis": 869,
+    "InterParenthesis": 98,
     "InterOperator": "And",
-    "UniqueHash": 501
+    "UniqueHash": 465
   }
 ]
 ```

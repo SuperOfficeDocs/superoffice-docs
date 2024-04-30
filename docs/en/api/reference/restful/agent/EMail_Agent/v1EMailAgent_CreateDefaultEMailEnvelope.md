@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 343,
-  "MessageId": "illo",
-  "Subject": "odio",
+  "ServerId": 690,
+  "MessageId": "ut",
+  "Subject": "quidem",
   "From": null,
   "To": [
     {
-      "ContactId": 891,
-      "ContactName": "Roob-West",
-      "PersonId": 717,
-      "PersonName": "Hodkiewicz Inc and Sons",
-      "AssociateId": 984,
-      "Address": "minima",
-      "EmailId": 774,
+      "ContactId": 720,
+      "ContactName": "Rogahn, Mayert and Stracke",
+      "PersonId": 34,
+      "PersonName": "O'Hara-Kuvalis",
+      "AssociateId": 94,
+      "Address": "explicabo",
+      "EmailId": 745,
       "DuplicatePersonIds": [
-        963,
-        907
+        832,
+        511
       ],
-      "Name": "Friesen, Cummings and Kertzmann",
+      "Name": "Cummings, Ullrich and Glover",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "Sent": "2006-08-05T11:44:33.6190814+02:00",
+  "Sent": "2015-07-11T11:16:09.1941046+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 248,
+  "Size": 721,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 965
     }
   }
 }

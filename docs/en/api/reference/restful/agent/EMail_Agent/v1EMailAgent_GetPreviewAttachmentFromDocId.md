@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 586,
-  "AttachmentId": "perspiciatis"
+  "DocId": 295,
+  "AttachmentId": "quisquam"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable optimizing instruction set",
-  "Filename": "molestias",
-  "Size": 383,
-  "Type": "sint",
-  "Encoding": "id",
-  "Id": "veritatis",
-  "Disposition": "sit",
+  "Description": "Switchable disintermediate matrices",
+  "Filename": "et",
+  "Size": 353,
+  "Type": "praesentium",
+  "Encoding": "amet",
+  "Id": "et",
+  "Disposition": "itaque",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 327
     }
   }
 }

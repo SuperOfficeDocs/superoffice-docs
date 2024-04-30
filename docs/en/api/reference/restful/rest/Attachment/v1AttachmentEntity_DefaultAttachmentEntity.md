@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 460,
-  "Name": "Waters-Koelpin",
-  "ContentType": "reprehenderit",
-  "AttSize": 568,
+  "AttachmentId": 417,
+  "Name": "McClure-Wunsch",
+  "ContentType": "mollitia",
+  "AttSize": 516,
   "InlineImage": false,
-  "ContentId": "eum",
-  "AuthKey": "quos",
+  "ContentId": "voluptas",
+  "AuthKey": "ut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 926
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 418,
-  "Name": "Kerluke-Anderson",
-  "CreatedDate": "2013-04-12T11:44:33.7596833+02:00",
-  "UpdatedDate": "2022-06-14T11:44:33.7596833+02:00",
+  "ForeignAppId": 130,
+  "Name": "Will, Reinger and Halvorson",
+  "CreatedDate": "2018-07-15T11:16:09.2722138+02:00",
+  "UpdatedDate": "2006-01-21T11:16:09.2722138+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 412,
-      "Name": "Walker Group",
-      "CreatedDate": "2023-08-31T11:44:33.7596833+02:00",
-      "UpdatedDate": "2016-11-13T11:44:33.7596833+01:00",
-      "AssociateFullName": "Dr. Keanu Nellie Quigley",
-      "CreatedBy": "aut",
-      "UpdatedBy": "doloremque",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 534,
+      "ForeignDeviceId": 33,
+      "Name": "Romaguera-Moen",
+      "CreatedDate": "2023-10-15T11:16:09.2722138+02:00",
+      "UpdatedDate": "1998-10-05T11:16:09.2722138+02:00",
+      "AssociateFullName": "Rosendo Gutkowski PhD",
+      "CreatedBy": "sequi",
+      "UpdatedBy": "iure",
+      "DeviceIdentifier": "aperiam",
+      "ForeignAppId": 115,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 420
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 330
     }
   }
 }

@@ -78,9 +78,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 306,
-  "PersonId": 571,
-  "Expires": "2017-07-05T11:44:34.0877329+02:00"
+  "TargetId": 617,
+  "PersonId": 407,
+  "Expires": "2014-06-05T11:16:09.4909486+02:00"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"molestiae"
 ```

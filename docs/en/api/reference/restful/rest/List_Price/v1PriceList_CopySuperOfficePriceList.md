@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=04/22/1998 11:44:45
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/21/1998 11:44:45
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=448
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/02/2023 11:16:15
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/04/2023 11:16:15
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=322
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 454,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 40,
-  "Name": "Okuneva-Toy",
-  "Description": "Up-sized object-oriented help-desk",
-  "Currency": "commodi",
-  "CurrencyName": "Schultz, Schuster and Hane",
-  "ValidFrom": "2022-04-10T11:44:43.1637513+02:00",
-  "ValidTo": "2014-07-26T11:44:43.1637513+02:00",
-  "IsActive": false,
+  "PriceListId": 457,
+  "ERPPriceListKey": "deserunt",
+  "QuoteConnectionId": 263,
+  "Name": "Gislason-Carroll",
+  "Description": "Object-based fresh-thinking utilisation",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Koelpin-Waters",
+  "ValidFrom": "2002-05-29T11:16:14.6214085+02:00",
+  "ValidTo": "2014-01-01T11:16:14.6214085+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   }
 }

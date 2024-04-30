@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "consequatur",
-  "PrefKey": "quis",
+  "PrefSection": "dolorem",
+  "PrefKey": "saepe",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nam",
+  "RawValue": "a",
   "Specification": null,
-  "DisplayValue": "molestiae",
-  "DisplayTooltip": "expedita",
+  "DisplayValue": "impedit",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 210,
-  "PrefDescId": 161,
-  "TableName": "Ryan Inc and Sons",
-  "UserPreferenceId": 185,
+  "TargetId": 487,
+  "PrefDescId": 840,
+  "TableName": "Lynch, Grant and Kessler",
+  "UserPreferenceId": 41,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

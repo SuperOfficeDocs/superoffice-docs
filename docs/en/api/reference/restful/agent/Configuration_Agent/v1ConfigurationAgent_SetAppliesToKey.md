@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "qui",
-  "AppliesToKey": "vel"
+  "RecipeId": "ipsa",
+  "AppliesToKey": "vitae"
 }
 ```
 

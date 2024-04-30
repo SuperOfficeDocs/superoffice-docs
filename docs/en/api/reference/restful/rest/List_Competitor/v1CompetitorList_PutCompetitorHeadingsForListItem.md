@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Dare LLC",
-    "ToolTip": "Rerum molestias delectus et incidunt omnis et.",
+    "Id": 621,
+    "Name": "Blick, Stark and Prohaska",
+    "ToolTip": "Aliquid unde cumque aut saepe.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "ea",
-    "ColorBlock": 469,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1997-06-19T11:44:42.9607018+02:00",
+    "Rank": 944,
+    "Type": "dolorem",
+    "ColorBlock": 271,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "2015-08-12T11:16:14.512052+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Kunde LLC",
-        "ToolTip": "Asperiores id.",
+        "Id": 271,
+        "Name": "Ortiz LLC",
+        "ToolTip": "Corporis debitis iste at quaerat esse officiis.",
         "Deleted": true,
-        "Rank": 244,
-        "Type": "distinctio",
-        "ColorBlock": 67,
-        "IconHint": "esse",
+        "Rank": 359,
+        "Type": "quibusdam",
+        "ColorBlock": 540,
+        "IconHint": "fugit",
         "Selected": true,
-        "LastChanged": "2015-06-17T11:44:42.9607018+02:00",
+        "LastChanged": "2021-02-21T11:16:14.512052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolores",
+        "ExtraInfo": "ut",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Prof. Vernie Felipa Murray V"
+        "FullName": "Gordon Champlin"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "ut",
+    "StyleHint": "corporis",
     "Hidden": true,
-    "FullName": "Sonny Satterfield DVM"
+    "FullName": "Elmore Davis PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Zulauf LLC",
-    "ToolTip": "Natus excepturi sunt quia eaque.",
-    "Deleted": false,
-    "Rank": 246,
-    "Type": "illum",
-    "ColorBlock": 162,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2003-02-20T11:44:42.9607018+01:00",
+    "Id": 768,
+    "Name": "Bruen, Schneider and Gusikowski",
+    "ToolTip": "Temporibus saepe et exercitationem.",
+    "Deleted": true,
+    "Rank": 710,
+    "Type": "asperiores",
+    "ColorBlock": 529,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2007-12-24T11:16:14.512052+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Paucek-Collier",
-        "ToolTip": "Voluptatem quod est perferendis alias eum.",
+        "Id": 769,
+        "Name": "Marquardt Inc and Sons",
+        "ToolTip": "Ut est temporibus.",
         "Deleted": true,
-        "Rank": 529,
-        "Type": "totam",
-        "ColorBlock": 324,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2023-11-09T11:44:42.9607018+01:00",
+        "Rank": 548,
+        "Type": "eum",
+        "ColorBlock": 352,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2012-03-01T11:16:14.512052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Jack Stokes",
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Anya Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldType": "System.String",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "velit",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Mr. Sheridan Guillermo Wisozk",
+    "FullName": "Bud Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 304
       }
     }
   }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Braun, King and Yundt",
-  "ModuleName": "Nienow-Goyette",
-  "ModuleDescription": "Function-based system-worthy methodology",
-  "ModuleTooltip": "quae",
-  "ModuleVersion": "voluptates",
+  "OwnerName": "Jakubowski, Bins and Feil",
+  "ModuleName": "Fisher Group",
+  "ModuleDescription": "Diverse needs-based utilisation",
+  "ModuleTooltip": "fuga",
+  "ModuleVersion": "unde",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 800,
-  "ExtraFlags": 54,
-  "ExtraInfo": "a",
-  "SortOrder": 907,
+  "NumberOfLicenses": 327,
+  "ExtraFlags": 670,
+  "ExtraInfo": "dolores",
+  "SortOrder": 421,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Schamberger-Kreiger",
-  "Signature": "dolor"
+  "PrerequisiteModuleName": "Treutel Group",
+  "Signature": "cumque"
 }
 ```

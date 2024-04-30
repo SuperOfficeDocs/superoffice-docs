@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Little-Bergstrom",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 467,
+    "Id": 716,
+    "Name": "Lynch, D'Amore and Cremin",
+    "Tooltip": "atque",
+    "Deleted": false,
+    "Rank": 882,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "culpa",
-    "InUseByUserDefinedFields": false,
+    "ListType": "voluptatibus",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   }

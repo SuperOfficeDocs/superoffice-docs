@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 951
+  "ProjectId": 941
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 180,
-  "Name": "Kassulke Inc and Sons",
-  "Description": "Multi-lateral grid-enabled solution",
+  "ProjectId": 255,
+  "Name": "Gleichner, Douglas and Schuster",
+  "Description": "Persistent asynchronous secured line",
   "URL": "http://www.example.com/",
-  "Type": "praesentium",
-  "AssociateId": 179,
-  "AssociateFullName": "Amelia Efrain Raynor DDS",
-  "TypeId": 215,
-  "Updated": "2009-12-09T11:44:34.2126949+01:00",
-  "StatusId": 572,
-  "Status": "totam",
-  "TextId": 208,
-  "PublishTo": "2022-08-15T11:44:34.2126949+02:00",
-  "PublishFrom": "2010-06-18T11:44:34.2126949+02:00",
+  "Type": "est",
+  "AssociateId": 709,
+  "AssociateFullName": "Mr. Deja Jacobson MD",
+  "TypeId": 948,
+  "Updated": "2021-10-05T11:16:09.569228+02:00",
+  "StatusId": 316,
+  "Status": "nihil",
+  "TextId": 261,
+  "PublishTo": "1998-09-09T11:16:09.569228+02:00",
+  "PublishFrom": "2008-10-27T11:16:09.569228+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "886819",
-  "ActiveErpLinks": 96,
+  "ProjectNumber": "708658",
+  "ActiveErpLinks": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 567
     }
   }
 }

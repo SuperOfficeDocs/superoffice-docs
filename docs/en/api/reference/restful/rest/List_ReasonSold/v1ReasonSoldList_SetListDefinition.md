@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 168,
-  "Name": "Collins LLC",
-  "Tooltip": "enim",
+  "Id": 78,
+  "Name": "Abbott-Koch",
+  "Tooltip": "molestias",
   "Deleted": true,
-  "Rank": 2,
-  "IsCustomList": true,
+  "Rank": 582,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Barton, Parisian and Quitzon",
-  "Tooltip": "esse",
+  "Id": 914,
+  "Name": "Gulgowski Group",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 157,
-  "IsCustomList": false,
+  "Rank": 756,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 10
     }
   }
 }

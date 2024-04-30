@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "reiciendis",
-  "VersionId": "impedit",
+  "ExternalReference": "debitis",
+  "VersionId": "aut",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ad",
-  "AdditionalInfo": "in"
+  "Value": "et",
+  "AdditionalInfo": "qui"
 }
 ```

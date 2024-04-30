@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 243,
+  "SelectionId": 527,
   "Criteria": [
     {
-      "Name": "Kulas, Ondricka and Stroman",
-      "Description": "Secured client-driven forecast",
-      "Rank": 753,
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Integrated context-sensitive neural-net",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kulas, Ondricka and Stroman",
-      "Description": "Secured client-driven forecast",
-      "Rank": 753,
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Integrated context-sensitive neural-net",
+      "Rank": 909,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torphy-Emmerich",
-    "Description": "Synergized static capacity",
-    "Rank": 633,
+    "Name": "Hoeger, Boehm and Jacobi",
+    "Description": "Re-contextualized national framework",
+    "Rank": 230,
     "Restrictions": [
       {
-        "Name": "Rowe LLC",
-        "Operator": "et",
+        "Name": "Beahan-Hessel",
+        "Operator": "blanditiis",
         "Values": [
-          "esse",
-          "sint"
+          "iusto",
+          "sapiente"
         ],
         "DisplayValues": [
-          "minima",
-          "maiores"
+          "incidunt",
+          "nihil"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 631,
         "InterOperator": "And",
-        "UniqueHash": 713
+        "UniqueHash": 724
       }
     ]
   },
   {
-    "Name": "Torphy-Emmerich",
-    "Description": "Synergized static capacity",
-    "Rank": 633,
+    "Name": "Hoeger, Boehm and Jacobi",
+    "Description": "Re-contextualized national framework",
+    "Rank": 230,
     "Restrictions": [
       {
-        "Name": "Rowe LLC",
-        "Operator": "et",
+        "Name": "Beahan-Hessel",
+        "Operator": "blanditiis",
         "Values": [
-          "esse",
-          "sint"
+          "iusto",
+          "sapiente"
         ],
         "DisplayValues": [
-          "minima",
-          "maiores"
+          "incidunt",
+          "nihil"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 631,
         "InterOperator": "And",
-        "UniqueHash": 713
+        "UniqueHash": 724
       }
     ]
   }

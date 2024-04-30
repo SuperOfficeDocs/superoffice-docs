@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2000-11-24T11:44:32.4631128+01:00",
-  "EndTime": "2010-11-06T11:44:32.4631128+01:00"
+  "StartTime": "2010-09-18T11:16:08.5220136+02:00",
+  "EndTime": "2007-11-27T11:16:08.5220136+01:00"
 }
 ```
 
@@ -118,72 +118,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2000-05-02T11:44:32.4787305+02:00",
-    "AppointmentId": 27,
-    "AppointmentText": "sed",
-    "ContactDepartment": "exploit interactive portals",
-    "ContactFullName": "Ms. Scarlett Koepp",
-    "ContactName": "Gusikowski-Reichert",
-    "ContactId": 93,
-    "EndDate": "2016-07-25T11:44:32.4787305+02:00",
-    "HasAlarm": true,
-    "IsAllDay": false,
-    "IsAssignment": false,
+    "AlarmTime": "2006-07-19T11:16:08.5220136+02:00",
+    "AppointmentId": 99,
+    "AppointmentText": "dolor",
+    "ContactDepartment": "",
+    "ContactFullName": "Zora Klein",
+    "ContactName": "Maggio, Herzog and Reilly",
+    "ContactId": 53,
+    "EndDate": "2012-05-02T11:16:08.5220136+02:00",
+    "HasAlarm": false,
+    "IsAllDay": true,
+    "IsAssignment": true,
     "IsBusy": true,
     "IsCompleted": false,
     "IsInvitation": true,
     "IsTentative": true,
-    "Location": "eum",
+    "Location": "consequatur",
     "Participants": [
       {
-        "PersonId": 443,
-        "PersonFirstName": "D'Amore, Crooks and Stracke",
-        "PersonMiddleName": "Spinka, Mohr and Mosciski",
-        "PersonLastname": "Cummings",
-        "PersonMrmrs": "accusamus",
-        "PersonTitle": "reprehenderit",
-        "PersonPosition": "officia",
-        "PersonAcademicTitle": "aliquam",
-        "PersonFormalName": "King Group",
-        "PersonFullName": "Elsa Bartell",
-        "ContactId": 797,
-        "ContactName": "Tillman, Barrows and Schmeler",
+        "PersonId": 462,
+        "PersonFirstName": "McKenzie LLC",
+        "PersonMiddleName": "McGlynn, Brakus and Bernier",
+        "PersonLastname": "Rippin",
+        "PersonMrmrs": "ut",
+        "PersonTitle": "consectetur",
+        "PersonPosition": "quas",
+        "PersonAcademicTitle": "voluptas",
+        "PersonFormalName": "DuBuque Inc and Sons",
+        "PersonFullName": "Earlene Kuvalis",
+        "ContactId": 663,
+        "ContactName": "Heaney, Marks and Ondricka",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Ms. Emory Reagan Christiansen I",
+        "ContactFullName": "Elmo Gerlach",
         "EMail": [
-          "mollitia",
-          "omnis"
+          "vel",
+          "sed"
         ],
         "PhonePrivate": [
-          "(215)560-8438 x85469",
-          "(745)805-6180 x375"
+          "1-983-738-3827 x476",
+          "(619)713-7327 x38840"
         ],
         "PhoneFax": [
-          "1-770-963-6366 x77766",
-          "013-122-9062 x476"
+          "457-928-6194 x48366",
+          "026-512-3210 x98440"
         ],
         "PhoneMobile": [
-          "(061)150-2677",
-          "655-226-4479 x347"
+          "(628)498-9400 x041",
+          "223-869-7464 x21886"
         ],
         "PhoneDirect": [
-          "1-570-016-9964",
-          "168-768-9383"
+          "(963)425-0760 x1470",
+          "327-130-3037"
         ],
         "PhoneContact": [
-          "528.194.3476",
-          "570-490-5232 x7155"
+          "562.265.3512",
+          "(649)789-5878 x557"
         ],
         "Messenger": [
-          "temporibus",
-          "quia"
+          "hic",
+          "inventore"
         ],
         "Voip": [
-          "vel",
-          "modi"
+          "dolorem",
+          "sed"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -204,26 +204,26 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 469
           }
         }
       }
     ],
-    "PersonFormalName": "Weissnat, Feest and Abbott",
-    "PersonFullName": "Helmer Christiansen II",
-    "PersonId": 917,
-    "ProjectId": 869,
-    "ProjectName": "Adams-Stracke",
-    "SaleId": 295,
-    "SaleName": "Schumm, Mueller and Nienow",
-    "StartDate": "1996-12-28T11:44:32.4787305+01:00",
-    "TaskName": "Harris Inc and Sons",
+    "PersonFormalName": "Renner, Kohler and Hand",
+    "PersonFullName": "Dane Runolfsdottir",
+    "PersonId": 736,
+    "ProjectId": 414,
+    "ProjectName": "Adams, Hills and Douglas",
+    "SaleId": 45,
+    "SaleName": "Robel, Rogahn and Runolfsson",
+    "StartDate": "2015-12-14T11:16:08.5220136+01:00",
+    "TaskName": "Daugherty-Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 724
       }
     }
   }

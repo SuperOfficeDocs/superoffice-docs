@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 214,
-  "PersonName": "Schmitt-Jakubowski",
+  "ContactId": 159,
+  "PersonName": "Haag-Kuhic",
   "PhoneNumbers": [
-    "1432154",
-    "899641"
+    "1775994",
+    "1730263"
   ],
   "Emails": [
-    "wilford@corkeryarmstrong.co.uk",
-    "norene@corkerywitting.uk"
+    "carlo.roob@vandervort.biz",
+    "cedrick_spinka@pagac.name"
   ]
 }
 ```
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldLength": 202
     }
   }
 }

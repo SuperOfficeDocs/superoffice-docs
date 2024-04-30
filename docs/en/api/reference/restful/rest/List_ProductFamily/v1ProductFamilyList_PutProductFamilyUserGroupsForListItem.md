@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Armstrong-Franecki",
-    "ToolTip": "Velit qui eos.",
-    "Deleted": false,
-    "Rank": 565,
-    "Type": "est",
-    "ColorBlock": 696,
-    "IconHint": "eius",
-    "Selected": false,
-    "LastChanged": "2008-12-06T11:44:43.1949983+01:00",
+    "Id": 381,
+    "Name": "Bartell LLC",
+    "ToolTip": "Voluptatem eum porro odio repellendus.",
+    "Deleted": true,
+    "Rank": 879,
+    "Type": "facere",
+    "ColorBlock": 455,
+    "IconHint": "modi",
+    "Selected": true,
+    "LastChanged": "2012-10-13T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Schamberger-Kunze",
-        "ToolTip": "Et veniam doloremque officiis aliquam iure.",
-        "Deleted": false,
-        "Rank": 72,
-        "Type": "qui",
-        "ColorBlock": 74,
-        "IconHint": "ipsam",
-        "Selected": true,
-        "LastChanged": "2018-05-19T11:44:43.1949983+02:00",
+        "Id": 955,
+        "Name": "Paucek LLC",
+        "ToolTip": "Debitis labore soluta.",
+        "Deleted": true,
+        "Rank": 741,
+        "Type": "aut",
+        "ColorBlock": 827,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2004-01-08T11:16:14.6370359+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Leslie Gutmann"
+        "ExtraInfo": "cum",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Raven Kerluke"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "aut",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Prof. Linnea Sylvan Friesen III"
+    "FullName": "Zion McKenzie"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Sanford-Wehner",
-    "ToolTip": "Ut itaque possimus mollitia quisquam aut fugit.",
-    "Deleted": false,
-    "Rank": 847,
-    "Type": "illo",
-    "ColorBlock": 890,
-    "IconHint": "magnam",
+    "Id": 96,
+    "Name": "Tromp Inc and Sons",
+    "ToolTip": "Quod aut quo et veniam.",
+    "Deleted": true,
+    "Rank": 549,
+    "Type": "autem",
+    "ColorBlock": 754,
+    "IconHint": "ipsum",
     "Selected": true,
-    "LastChanged": "2000-09-23T11:44:43.1949983+02:00",
+    "LastChanged": "2003-02-14T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Daniel, Cremin and Roberts",
-        "ToolTip": "Eius neque voluptas voluptatum sed reiciendis laborum reiciendis.",
+        "Id": 721,
+        "Name": "Cremin-Waters",
+        "ToolTip": "Iste et dolor maxime maxime atque.",
         "Deleted": false,
-        "Rank": 320,
-        "Type": "vitae",
-        "ColorBlock": 600,
-        "IconHint": "aut",
+        "Rank": 100,
+        "Type": "possimus",
+        "ColorBlock": 568,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2001-01-24T11:44:43.1949983+01:00",
+        "LastChanged": "2017-01-21T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "provident",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Bennie Kyla Kutch MD",
+        "FullName": "Reilly Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Dessie O'Hara",
+    "FullName": "Clemens Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldType": "System.String",
+        "FieldLength": 985
       }
     }
   }

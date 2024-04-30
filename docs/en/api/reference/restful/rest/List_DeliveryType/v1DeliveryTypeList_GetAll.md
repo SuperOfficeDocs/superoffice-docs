@@ -25,7 +25,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=True
+GET /api/v1/List/DeliveryType/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Walker Inc and Sons",
-    "Tooltip": "sunt",
+    "Id": 87,
+    "Name": "Kreiger, Smitham and Hansen",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 755,
-    "Rank": 723,
+    "UdListDefinitionId": 275,
+    "Rank": 348,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

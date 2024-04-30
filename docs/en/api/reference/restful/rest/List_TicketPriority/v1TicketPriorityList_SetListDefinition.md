@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Littel LLC",
-  "Tooltip": "dolorum",
+  "Id": 589,
+  "Name": "Stracke-Eichmann",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 443,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 860,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true
+  "ListType": "esse",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 704,
-  "Name": "Block-Crooks",
-  "Tooltip": "illum",
+  "Id": 739,
+  "Name": "Tremblay, Dach and Quigley",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 158,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 731,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 495
     }
   }
 }

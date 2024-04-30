@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 547,
-  "Name": "Grant Inc and Sons",
+  "TicketStatusId": 938,
+  "Name": "Baumbach, Abernathy and Veum",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": true,
-  "UsedInQueue": false
+  "UsedInQueue": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 362,
-  "Name": "Pfeffer LLC",
+  "TicketStatusId": 867,
+  "Name": "Vandervort-Runte",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   }
 }

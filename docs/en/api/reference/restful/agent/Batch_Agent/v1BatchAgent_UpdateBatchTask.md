@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Blanda, Crooks and Walsh",
-  "AssociateId": 810,
-  "DetailsTable": 315,
-  "DetailsRecord": 416,
+  "Id": 611,
+  "Name": "Romaguera, Effertz and Heathcote",
+  "AssociateId": 695,
+  "DetailsTable": 165,
+  "DetailsRecord": 387,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
     "ParameterObject1": "ut",
-    "ParameterObject2": "at"
+    "ParameterObject2": "nihil"
   },
-  "LastStarted": "2022-05-03T11:44:32.822391+02:00",
-  "Created": "2006-06-22T11:44:32.822391+02:00",
-  "StartCount": 33,
-  "DatabaseSerialNumber": "883259",
+  "LastStarted": "2011-11-25T11:16:08.7410229+01:00",
+  "Created": "2022-05-30T11:16:08.7410229+02:00",
+  "StartCount": 751,
+  "DatabaseSerialNumber": "723351",
   "Context": "et",
-  "Result": "quia",
+  "Result": "impedit",
   "State": "All",
-  "Description": "Intuitive bi-directional monitoring",
-  "Response": "laborum",
-  "Request": "non",
-  "ProgressDescription": "Integrated client-server forecast",
-  "ProgressPercent": 255,
-  "FileName": "Flatley, Smitham and West",
+  "Description": "Reduced even-keeled info-mediaries",
+  "Response": "qui",
+  "Request": "aut",
+  "ProgressDescription": "Grass-roots uniform monitoring",
+  "ProgressPercent": 957,
+  "FileName": "Bauch, Marquardt and Greenholt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   }
 }

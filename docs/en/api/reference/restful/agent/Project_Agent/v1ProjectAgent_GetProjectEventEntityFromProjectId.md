@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 124
+  "ProjectId": 873
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "unde",
-  "SignOffText": "rerum",
-  "SignOnConfirmationText": "ipsum",
-  "SignOnText": "consectetur",
-  "EventDate": "2003-03-16T11:44:34.2126949+01:00",
-  "Enabled": false,
-  "CreatedDate": "2014-01-26T11:44:34.2126949+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 568,
+  "SignOffConfirmationText": "pariatur",
+  "SignOffText": "porro",
+  "SignOnConfirmationText": "magnam",
+  "SignOnText": "modi",
+  "EventDate": "1998-04-16T11:16:09.5536909+02:00",
+  "Enabled": true,
+  "CreatedDate": "2001-01-27T11:16:09.5536909+01:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 983,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 15,
+  "SignOn": true,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 73,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2007-08-16T11:44:34.2126949+02:00",
+  "UpdatedDate": "2005-02-13T11:16:09.5536909+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 278,
-  "Id": 581,
-  "PublishFrom": "2010-03-02T11:44:34.2126949+01:00",
+  "ProjectId": 985,
+  "Id": 440,
+  "PublishFrom": "2020-12-29T11:16:09.5536909+01:00",
   "PublishType": "External",
-  "PublishTo": "2001-03-16T11:44:34.2126949+01:00",
+  "PublishTo": "2001-08-30T11:16:09.5536909+02:00",
   "VisibleForCategories": [
     {
-      "Id": 31,
-      "Name": "Kulas, Graham and Lynch",
-      "ToolTip": "Quasi qui sunt voluptatem qui ullam eos.",
-      "Deleted": false,
-      "Rank": 56,
-      "Type": "ut",
+      "Id": 44,
+      "Name": "Senger Group",
+      "ToolTip": "Mollitia blanditiis.",
+      "Deleted": true,
+      "Rank": 270,
+      "Type": "ad",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugit",
-      "ColorBlock": 666,
-      "ExtraInfo": "sunt",
-      "StyleHint": "consectetur",
-      "FullName": "Lon Purdy",
+      "IconHint": "officiis",
+      "ColorBlock": 988,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "quod",
+      "FullName": "Friedrich Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 23
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 867,
-      "Name": "Bogisich Inc and Sons",
-      "ToolTip": "Nemo sunt facilis veniam repudiandae aut amet.",
+      "Id": 266,
+      "Name": "Thiel Inc and Sons",
+      "ToolTip": "Quasi dolor eos vero velit corporis.",
       "Deleted": false,
-      "Rank": 405,
-      "Type": "delectus",
+      "Rank": 262,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quae",
-      "ColorBlock": 111,
-      "ExtraInfo": "debitis",
-      "StyleHint": "quod",
-      "FullName": "Phoebe O'Kon Jr.",
+      "IconHint": "omnis",
+      "ColorBlock": 268,
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "facere",
+      "FullName": "Prof. Madisyn Witting",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
   "IsPublished": true,
-  "IsVisibleForMembers": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 125,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 56,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 804
     }
   }
 }

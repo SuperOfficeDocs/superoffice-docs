@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 616
+  "PersonId": 845
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 334,
-  "Name": "Zieme-Cremin",
-  "PersonId": 593,
-  "Rank": 664,
-  "Tooltip": "occaecati",
+  "AssociateId": 698,
+  "Name": "Wilkinson Inc and Sons",
+  "PersonId": 236,
+  "Rank": 67,
+  "Tooltip": "officia",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 586,
-  "FullName": "Eddie O'Hara",
-  "FormalName": "Beatty, Hahn and Kovacek",
-  "Deleted": false,
-  "EjUserId": 39,
-  "UserName": "Vandervort Inc and Sons",
+  "GroupIdx": 858,
+  "FullName": "Miss August Nakia Russel",
+  "FormalName": "Schiller Group",
+  "Deleted": true,
+  "EjUserId": 531,
+  "UserName": "Gusikowski, Anderson and Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 576
     }
   }
 }

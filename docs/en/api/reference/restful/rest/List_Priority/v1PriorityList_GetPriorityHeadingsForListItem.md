@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Braun LLC",
-    "ToolTip": "Libero aut voluptatem sunt.",
+    "Id": 113,
+    "Name": "Bahringer, Schulist and Heller",
+    "ToolTip": "Dolore voluptates.",
     "Deleted": true,
-    "Rank": 220,
-    "Type": "nostrum",
-    "ColorBlock": 492,
-    "IconHint": "aspernatur",
+    "Rank": 276,
+    "Type": "officiis",
+    "ColorBlock": 157,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2001-05-10T11:44:43.1793782+02:00",
+    "LastChanged": "2017-04-22T11:16:14.6370359+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Wisozk, Sauer and Nienow",
-        "ToolTip": "Veniam quis et.",
-        "Deleted": false,
-        "Rank": 549,
-        "Type": "iste",
-        "ColorBlock": 391,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2005-06-27T11:44:43.1793782+02:00",
+        "Id": 682,
+        "Name": "Kub-Boyer",
+        "ToolTip": "Nesciunt adipisci et cupiditate mollitia.",
+        "Deleted": true,
+        "Rank": 33,
+        "Type": "laudantium",
+        "ColorBlock": 65,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2009-11-08T11:16:14.6370359+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "labore",
+        "ExtraInfo": "sequi",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Gretchen Cleta Swaniawski MD",
+        "FullName": "Miss Pearl Alivia Oberbrunner PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 198
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Prof. Deven Oberbrunner",
+    "ExtraInfo": "nemo",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Mr. Mortimer Mohamed Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

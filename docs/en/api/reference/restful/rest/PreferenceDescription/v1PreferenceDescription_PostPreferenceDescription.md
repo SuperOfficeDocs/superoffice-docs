@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 440,
-  "Section": "quam",
-  "Key": "nihil",
-  "Name": "Senger Group",
+  "PrefDescId": 891,
+  "Section": "voluptatem",
+  "Key": "hic",
+  "Name": "Mann-Walker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive mobile info-mediaries",
-  "IsBuiltin": true,
-  "TableName": "Maggio Group",
-  "UserDefinedListId": 312,
-  "Rank": 587,
-  "SubGroup": "reprehenderit",
-  "MinLevel": 721,
-  "MaxValue": 500,
-  "MinValue": 575,
-  "RequiredLicense": "asperiores"
+  "Description": "Optimized human-resource attitude",
+  "IsBuiltin": false,
+  "TableName": "Sanford-Zemlak",
+  "UserDefinedListId": 626,
+  "Rank": 893,
+  "SubGroup": "qui",
+  "MinLevel": 553,
+  "MaxValue": 521,
+  "MinValue": 563,
+  "RequiredLicense": "expedita"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 929,
-  "Section": "ea",
-  "Key": "qui",
-  "Name": "Kassulke-Dare",
+  "PrefDescId": 114,
+  "Section": "blanditiis",
+  "Key": "autem",
+  "Name": "Watsica, Pacocha and Huels",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented homogeneous budgetary management",
+  "Description": "Assimilated executive process improvement",
   "IsBuiltin": true,
-  "TableName": "Muller-Armstrong",
-  "UserDefinedListId": 576,
-  "Rank": 858,
-  "SubGroup": "cumque",
-  "MinLevel": 5,
-  "MaxValue": 432,
-  "MinValue": 138,
-  "RequiredLicense": "autem",
+  "TableName": "Schuppe, Price and Littel",
+  "UserDefinedListId": 113,
+  "Rank": 251,
+  "SubGroup": "sed",
+  "MinLevel": 728,
+  "MaxValue": 686,
+  "MinValue": 774,
+  "RequiredLicense": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   },
   "_Links": {

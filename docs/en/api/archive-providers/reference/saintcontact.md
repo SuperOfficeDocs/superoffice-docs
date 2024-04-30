@@ -738,7 +738,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=contactAssociate/ejDisplayName,contactAssociate/portraitThumbnail,NumberOfActivities,sale/associate/contactFullName,appointment/updatedBy
+GET /api/v1/archive/SaintContact?$select=contactAssociate/ejUserId,LastTicket,saintSaleStatus,sourceRelation/name,sourceRelation/countryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

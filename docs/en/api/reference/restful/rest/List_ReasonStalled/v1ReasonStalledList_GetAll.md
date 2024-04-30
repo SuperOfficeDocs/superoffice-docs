@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Mertz-Rice",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 275,
-    "Rank": 768,
+    "Id": 844,
+    "Name": "Cassin Inc and Sons",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "UdListDefinitionId": 674,
+    "Rank": 212,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 929
       }
     }
   }

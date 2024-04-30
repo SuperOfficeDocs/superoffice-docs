@@ -45,4 +45,5 @@ Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you n
 * [SaveWorkflowWaitForAction](SaveWorkflowWaitForAction.md)
 * [SendEvent](SendEvent.md)
 * [TryAddPersonsToEmailFlow](TryAddPersonsToEmailFlow.md)
+* [UpdateFormSubmissions](UpdateFormSubmissions.md)
 

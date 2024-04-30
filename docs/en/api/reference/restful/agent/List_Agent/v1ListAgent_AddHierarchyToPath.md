@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quos",
-  "Name": "Jenkins-Schuster"
+  "Path": "minima",
+  "Name": "Lebsack, Waters and Emmerich"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 617,
+  "HierarchyId": 698,
   "Domain": "Dashboards",
-  "Name": "Emard, Christiansen and Jewess",
-  "Fullname": "iste",
-  "ParentId": 290,
+  "Name": "Schimmel LLC",
+  "Fullname": "omnis",
+  "ParentId": 155,
   "Children": [
     {
-      "HierarchyId": 702,
+      "HierarchyId": 334,
       "Domain": "Dashboards",
-      "Name": "Mann-Donnelly",
-      "Fullname": "possimus",
-      "ParentId": 261,
+      "Name": "Schimmel-Welch",
+      "Fullname": "voluptatem",
+      "ParentId": 496,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-11-22T11:44:33.9002761+01:00",
-      "RegisteredAssociateId": 814,
-      "Updated": "2015-04-20T11:44:33.9002761+02:00",
-      "UpdatedAssociateId": 78,
+      "Registered": "2022-10-08T11:16:09.3659552+02:00",
+      "RegisteredAssociateId": 372,
+      "Updated": "2022-01-16T11:16:09.3659552+01:00",
+      "UpdatedAssociateId": 800,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
-  "Registered": "2019-07-05T11:44:33.9002761+02:00",
-  "RegisteredAssociateId": 503,
-  "Updated": "2023-03-18T11:44:33.9002761+01:00",
-  "UpdatedAssociateId": 140,
+  "Registered": "2005-08-05T11:16:09.3659552+02:00",
+  "RegisteredAssociateId": 251,
+  "Updated": "2003-02-10T11:16:09.3659552+01:00",
+  "UpdatedAssociateId": 269,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldLength": 636
     }
   }
 }

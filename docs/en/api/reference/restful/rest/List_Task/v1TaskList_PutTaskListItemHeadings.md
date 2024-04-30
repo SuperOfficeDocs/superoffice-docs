@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 918,
-    "Name": "Stanton Group",
-    "Tooltip": "repellat",
+    "HeadingId": 359,
+    "Name": "Ward, Considine and Abshire",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 806,
-    "UdListDefinitionId": 338
+    "Rank": 752,
+    "UdListDefinitionId": 812
   },
   {
-    "HeadingId": 918,
-    "Name": "Stanton Group",
-    "Tooltip": "repellat",
+    "HeadingId": 359,
+    "Name": "Ward, Considine and Abshire",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 806,
-    "UdListDefinitionId": 338
+    "Rank": 752,
+    "UdListDefinitionId": 812
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 344,
-    "Name": "Pollich, Pacocha and Prohaska",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 602,
-    "UdListDefinitionId": 270,
+    "HeadingId": 505,
+    "Name": "Kiehn, Bruen and Smith",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 657,
+    "UdListDefinitionId": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 489
       }
     }
   }

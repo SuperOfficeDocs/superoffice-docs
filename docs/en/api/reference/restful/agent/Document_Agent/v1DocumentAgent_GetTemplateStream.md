@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Hoppe-Mills",
+  "TemplateName": "Kassulke Inc and Sons",
   "AllowPersonal": false,
-  "UiCulture": "est"
+  "UiCulture": "explicabo"
 }
 ```
 

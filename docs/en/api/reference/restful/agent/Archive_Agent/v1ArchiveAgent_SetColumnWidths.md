@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mitchell, Batz and Jones",
+  "GuiName": "Zieme-Wyman",
   "ColumnWidths": [
-    "vel",
-    "debitis"
+    "facilis",
+    "expedita"
   ]
 }
 ```

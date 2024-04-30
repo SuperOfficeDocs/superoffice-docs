@@ -94,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schulist, Hilll and Johnson",
+  "Name": "Purdy-Cassin",
   "ForceFlatList": false,
-  "AdditionalInfo": "consequuntur",
+  "AdditionalInfo": "totam",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Schaden-Klein",
-    "ToolTip": "Quia debitis.",
+    "Id": 81,
+    "Name": "Quigley Inc and Sons",
+    "ToolTip": "Ut non consequuntur soluta.",
     "Deleted": false,
-    "Rank": 512,
-    "Type": "deleniti",
-    "ColorBlock": 376,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2003-01-26T11:44:33.9471419+01:00",
+    "Rank": 585,
+    "Type": "est",
+    "ColorBlock": 374,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "2000-03-19T11:16:09.3972026+01:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Koelpin, Feest and Blanda",
-        "ToolTip": "Necessitatibus laboriosam nam omnis esse eum sint fuga.",
+        "Id": 906,
+        "Name": "Schiller-Walter",
+        "ToolTip": "Officiis ipsa error occaecati.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "neque",
-        "ColorBlock": 428,
-        "IconHint": "asperiores",
-        "Selected": false,
-        "LastChanged": "2014-02-03T11:44:33.9471419+01:00",
+        "Rank": 796,
+        "Type": "saepe",
+        "ColorBlock": 573,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2022-06-07T11:16:09.3972026+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Lucie Prohaska",
+        "FullName": "Mrs. Ike Dolores Haley IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "sunt",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Kaleb Deckow",
+    "FullName": "Elmer Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 562
       }
     }
   }

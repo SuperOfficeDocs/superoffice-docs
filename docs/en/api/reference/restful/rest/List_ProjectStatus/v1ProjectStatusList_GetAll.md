@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Dicki LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 463,
-    "Rank": 118,
+    "Id": 395,
+    "Name": "Kihn, Schuster and Haley",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 746,
+    "Rank": 815,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 925
       }
     }
   }

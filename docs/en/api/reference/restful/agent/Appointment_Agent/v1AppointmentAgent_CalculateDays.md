@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 531,
-  "StartDate": "2009-05-02T11:44:32.6037053+02:00",
-  "EndDate": "2021-02-06T11:44:32.6037053+01:00",
-  "RecurrenceCounter": 530,
+  "RecurrenceId": 305,
+  "StartDate": "2004-07-16T11:16:08.6002301+02:00",
+  "EndDate": "2017-03-09T11:16:08.6002301+01:00",
+  "RecurrenceCounter": 482,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-02-29T11:44:32.6037053+01:00",
+      "Date": "2000-12-31T11:16:08.6002301+01:00",
       "IsConflict": true,
-      "Description": "Optimized 24 hour budgetary management",
-      "DescriptionStyleHint": "Devolved methodical database",
-      "Tooltip": "et"
+      "Description": "Exclusive zero tolerance ability",
+      "DescriptionStyleHint": "Configurable composite encryption",
+      "Tooltip": "voluptatem"
     },
     {
-      "Date": "2016-02-29T11:44:32.6037053+01:00",
+      "Date": "2000-12-31T11:16:08.6002301+01:00",
       "IsConflict": true,
-      "Description": "Optimized 24 hour budgetary management",
-      "DescriptionStyleHint": "Devolved methodical database",
-      "Tooltip": "et"
+      "Description": "Exclusive zero tolerance ability",
+      "DescriptionStyleHint": "Configurable composite encryption",
+      "Tooltip": "voluptatem"
     }
   ],
   "IsRecurrence": true

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Bailey, Kiehn and Zboncak",
-    "ToolTip": "Nihil esse aut nihil.",
+    "Id": 627,
+    "Name": "Flatley Group",
+    "ToolTip": "Vero placeat debitis consectetur.",
     "Deleted": false,
-    "Rank": 688,
-    "Type": "aut",
-    "ColorBlock": 126,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2005-06-28T11:44:42.9919089+02:00",
+    "Rank": 546,
+    "Type": "incidunt",
+    "ColorBlock": 571,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2022-05-07T11:16:14.5276742+02:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Muller, Romaguera and Crona",
-        "ToolTip": "Non molestias aut commodi cupiditate saepe quia vel.",
-        "Deleted": true,
-        "Rank": 673,
-        "Type": "maxime",
-        "ColorBlock": 542,
-        "IconHint": "voluptatem",
+        "Id": 418,
+        "Name": "Kunze, Hessel and Sanford",
+        "ToolTip": "Provident saepe dolores amet ex itaque est.",
+        "Deleted": false,
+        "Rank": 655,
+        "Type": "inventore",
+        "ColorBlock": 419,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2001-07-15T11:44:42.9919089+02:00",
+        "LastChanged": "2019-01-29T11:16:14.5276742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quo",
+        "ExtraInfo": "sint",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Rhiannon Kris",
+        "FullName": "Nathanial Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Mr. Blanca Alba Powlowski I",
+    "ExtraInfo": "alias",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Marcelino Cleora Yundt Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 468
+        "FieldType": "System.Int32",
+        "FieldLength": 955
       }
     }
   }

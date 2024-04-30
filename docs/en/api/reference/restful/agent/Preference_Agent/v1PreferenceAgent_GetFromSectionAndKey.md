@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "minima"
+  "Section": "quos",
+  "Key": "velit"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 75,
-  "Section": "non",
-  "Key": "aut",
-  "Name": "Rodriguez, Sporer and Nienow",
+  "PrefDescId": 929,
+  "Section": "voluptate",
+  "Key": "omnis",
+  "Name": "Purdy-Purdy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reduced tertiary budgetary management",
-  "IsBuiltin": false,
-  "TableName": "Von-Abbott",
-  "UserDefinedListId": 474,
-  "Rank": 748,
-  "SubGroup": "blanditiis",
-  "MinLevel": 494,
-  "MaxValue": 880,
-  "MinValue": 917,
-  "RequiredLicense": "quis",
+  "Description": "Persistent actuating array",
+  "IsBuiltin": true,
+  "TableName": "Kreiger LLC",
+  "UserDefinedListId": 99,
+  "Rank": 342,
+  "SubGroup": "excepturi",
+  "MinLevel": 561,
+  "MaxValue": 69,
+  "MinValue": 332,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 552
     }
   }
 }

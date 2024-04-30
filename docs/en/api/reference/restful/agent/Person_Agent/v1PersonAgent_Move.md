@@ -72,9 +72,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 413,
-  "DestinationContactId": 603,
-  "MoveAfterDate": "2017-10-01T11:44:34.0721318+02:00"
+  "PersonId": 705,
+  "DestinationContactId": 567,
+  "MoveAfterDate": "2012-10-17T11:16:09.4753184+02:00"
 }
 ```
 

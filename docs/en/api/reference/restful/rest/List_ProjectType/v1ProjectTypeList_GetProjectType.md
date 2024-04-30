@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "Name": "Hammes-Lehner",
-  "Tooltip": "assumenda",
+  "Id": 169,
+  "Name": "Hammes, Stamm and Jones",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 865,
+  "UdListDefinitionId": 120,
+  "Rank": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

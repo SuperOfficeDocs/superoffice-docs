@@ -81,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 469,
+  "CustConfigId": 83,
   "Type": "Options",
-  "Config": "ducimus",
-  "CustLangId": 800,
-  "Registered": "2019-01-16T11:44:33.3379103+01:00",
-  "RegisteredAssociateId": 393,
-  "Updated": "2020-03-20T11:44:33.3379103+01:00",
-  "UpdatedAssociateId": 268
+  "Config": "nulla",
+  "CustLangId": 844,
+  "Registered": "2014-10-02T11:16:08.9597121+02:00",
+  "RegisteredAssociateId": 964,
+  "Updated": "2004-07-28T11:16:08.9597121+02:00",
+  "UpdatedAssociateId": 621
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 802,
+  "CustConfigId": 341,
   "Type": "Options",
-  "Config": "omnis",
-  "CustLangId": 667,
-  "Registered": "2006-02-25T11:44:33.3379103+01:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "2004-06-03T11:44:33.3379103+02:00",
-  "UpdatedAssociateId": 109,
+  "Config": "dolorum",
+  "CustLangId": 533,
+  "Registered": "1998-01-16T11:16:08.9597121+01:00",
+  "RegisteredAssociateId": 198,
+  "Updated": "2012-12-09T11:16:08.9597121+01:00",
+  "UpdatedAssociateId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 758
     }
   }
 }

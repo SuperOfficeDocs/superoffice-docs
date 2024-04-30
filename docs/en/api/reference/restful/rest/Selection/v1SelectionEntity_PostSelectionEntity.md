@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling intangible support",
-  "Postit": "modi",
+  "Description": "Multi-tiered optimizing core",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 836,
-  "IncludePerson": 503,
-  "MemberCount": 836,
-  "Name": "Klocko, Williamson and DuBuque",
-  "PostitTextId": 828,
-  "CreatedDate": "2022-06-20T11:44:42.5076534+02:00",
-  "SelectionId": 594,
-  "SoundEx": "ut",
-  "Source": 131,
-  "TextId": 333,
-  "UpdatedDate": "2018-01-10T11:44:42.5076534+01:00",
-  "UpdatedCount": 705,
-  "Visibility": 317,
+  "GroupIdx": 219,
+  "IncludePerson": 618,
+  "MemberCount": 764,
+  "Name": "Weber-Willms",
+  "PostitTextId": 269,
+  "CreatedDate": "2014-09-20T11:16:14.2148007+02:00",
+  "SelectionId": 289,
+  "SoundEx": "sed",
+  "Source": 289,
+  "TextId": 770,
+  "UpdatedDate": "2017-02-05T11:16:14.2148007+01:00",
+  "UpdatedCount": 867,
+  "Visibility": 740,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Rohan-West",
-  "Completed": false,
-  "LeftSelectionId": 984,
-  "RightSelectionId": 597,
+  "CompanyUnique": false,
+  "TargetTableNumber": 170,
+  "TargetTableName": "Little Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 708,
+  "RightSelectionId": 884,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Welch Inc and Sons",
-  "ShadowProviderName": "Rosenbaum-Greenfelder",
-  "ChartKey": "natus",
-  "LastLoaded": "2012-02-10T11:44:42.5076534+01:00",
-  "LastLoadedBy": 508,
+  "MainProviderName": "Zulauf-Gaylord",
+  "ShadowProviderName": "Turner-Kerluke",
+  "ChartKey": "recusandae",
+  "LastLoaded": "2011-01-07T11:16:14.2148007+01:00",
+  "LastLoadedBy": 101,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-06-14T11:44:42.5076534+02:00",
-  "LastMembershipChangeBy": 910,
+  "LastMembershipChange": "2009-05-14T11:16:14.2148007+02:00",
+  "LastMembershipChangeBy": 780,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Boyle, Langworth and Weber",
-  "DashboardTileDefinitionId": 84,
+  "MainHeading": "sit",
+  "MemberTabHeading": "ipsum",
+  "MailingsProviderName": "Gislason, Batz and Wuckert",
+  "DashboardTileDefinitionId": 450,
   "VisibleFor": [
     {
-      "VisibleId": 396,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "quas"
     },
     {
-      "VisibleId": 396,
+      "VisibleId": 39,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "quas"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised cohesive budgetary management",
-  "Postit": "provident",
+  "Description": "Innovative static superstructure",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 938,
-  "IncludePerson": 498,
-  "MemberCount": 77,
-  "Name": "Jacobson, Cartwright and Fay",
-  "PostitTextId": 712,
-  "CreatedDate": "2014-02-01T11:44:42.5232729+01:00",
-  "SelectionId": 233,
-  "SoundEx": "error",
-  "Source": 21,
-  "TextId": 83,
-  "UpdatedDate": "2005-03-11T11:44:42.5232729+01:00",
-  "UpdatedCount": 741,
-  "Visibility": 545,
+  "GroupIdx": 572,
+  "IncludePerson": 800,
+  "MemberCount": 271,
+  "Name": "Greenfelder LLC",
+  "PostitTextId": 501,
+  "CreatedDate": "2022-09-21T11:16:14.2148007+02:00",
+  "SelectionId": 639,
+  "SoundEx": "est",
+  "Source": 962,
+  "TextId": 337,
+  "UpdatedDate": "2012-01-19T11:16:14.2148007+01:00",
+  "UpdatedCount": 522,
+  "Visibility": 759,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 714,
-  "TargetTableName": "Pagac Group",
-  "Completed": true,
-  "LeftSelectionId": 268,
-  "RightSelectionId": 920,
+  "TargetTableNumber": 524,
+  "TargetTableName": "Feil-Blick",
+  "Completed": false,
+  "LeftSelectionId": 707,
+  "RightSelectionId": 224,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beier LLC",
-  "ShadowProviderName": "Bednar LLC",
-  "ChartKey": "rerum",
-  "LastLoaded": "1999-05-11T11:44:42.5232729+02:00",
-  "LastLoadedBy": 202,
+  "MainProviderName": "Donnelly, Ratke and Metz",
+  "ShadowProviderName": "Stanton-Walsh",
+  "ChartKey": "eos",
+  "LastLoaded": "2002-10-31T11:16:14.2148007+01:00",
+  "LastLoadedBy": 533,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-18T11:44:42.5232729+02:00",
-  "LastMembershipChangeBy": 789,
+  "LastMembershipChange": "2008-07-13T11:16:14.2148007+02:00",
+  "LastMembershipChangeBy": 155,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "officia",
-  "MemberTabHeading": "ipsa",
-  "MailingsProviderName": "Jakubowski-Braun",
-  "DashboardTileDefinitionId": 974,
+  "MainHeading": "eius",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Bartell-Smith",
+  "DashboardTileDefinitionId": 34,
   "VisibleFor": [
     {
-      "VisibleId": 477,
+      "VisibleId": 21,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 696
         }
       }
     },
     {
-      "VisibleId": 477,
+      "VisibleId": 21,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 696
         }
       }
     }
@@ -294,13 +294,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

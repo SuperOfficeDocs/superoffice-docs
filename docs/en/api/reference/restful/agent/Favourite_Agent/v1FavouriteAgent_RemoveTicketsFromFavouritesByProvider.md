@@ -70,31 +70,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torphy-Harber",
+  "ProviderName": "Runolfsson LLC",
   "Restrictions": [
     {
-      "Name": "Moen LLC",
-      "Operator": "maiores",
+      "Name": "Bradtke, Hagenes and Ruecker",
+      "Operator": "ut",
       "Values": [
-        "unde",
-        "ipsa"
+        "est",
+        "molestiae"
       ],
       "DisplayValues": [
-        "minima",
-        "eum"
+        "nam",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 332,
+      "InterParenthesis": 698,
       "InterOperator": "And",
-      "UniqueHash": 236
+      "UniqueHash": 863
     }
   ],
-  "AssociateId": 878
+  "AssociateId": 995
 }
 ```
 

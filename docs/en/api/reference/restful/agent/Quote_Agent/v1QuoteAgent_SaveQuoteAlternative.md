@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 867,
-  "ERPQuoteAlternativeKey": "omnis",
-  "QuoteVersionId": 168,
-  "Name": "Moen-Paucek",
-  "Description": "Multi-lateral tangible frame",
+  "QuoteAlternativeId": 294,
+  "ERPQuoteAlternativeKey": "eum",
+  "QuoteVersionId": 660,
+  "Name": "VonRueden Inc and Sons",
+  "Description": "Cross-group tertiary utilisation",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 9348.722,
-  "ERPDiscountAmount": 1237.93,
-  "DiscountPercent": 6481.112,
-  "DiscountAmount": 648.73799999999994,
+  "ERPDiscountPercent": 12946.554,
+  "ERPDiscountAmount": 6164.5779999999995,
+  "DiscountPercent": 25300.782,
+  "DiscountAmount": 4365.662,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quaerat",
-  "VAT": 28071.237999999998,
-  "EarningPercent": 13244.284,
-  "EarningAmount": 7988.566,
-  "SubTotal": 22267.07,
-  "TotalPrice": 11830.85,
-  "ExtraField1": "tempora",
-  "ExtraField2": "in",
-  "ExtraField3": "dolores",
-  "ExtraField4": "ea",
-  "ExtraField5": "perspiciatis"
+  "VATInfo": "optio",
+  "VAT": 14673.387999999999,
+  "EarningPercent": 13943.166,
+  "EarningAmount": 8345.842,
+  "SubTotal": 28682.368,
+  "TotalPrice": 11301.204,
+  "ExtraField1": "nihil",
+  "ExtraField2": "similique",
+  "ExtraField3": "sit",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "facilis"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 682,
-  "ERPQuoteAlternativeKey": "aspernatur",
-  "QuoteVersionId": 86,
-  "Name": "Corkery, Breitenberg and Stark",
-  "Description": "Reactive bi-directional implementation",
+  "QuoteAlternativeId": 648,
+  "ERPQuoteAlternativeKey": "perferendis",
+  "QuoteVersionId": 751,
+  "Name": "Blick Inc and Sons",
+  "Description": "Seamless homogeneous capability",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22041.422,
-  "ERPDiscountAmount": 24883.96,
-  "DiscountPercent": 30960.786,
-  "DiscountAmount": 14848.892,
+  "ERPDiscountPercent": 15961.462,
+  "ERPDiscountAmount": 25582.842,
+  "DiscountPercent": 3936.304,
+  "DiscountAmount": 1469.846,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sunt",
-  "VAT": 23752.586,
-  "EarningPercent": 16218.449999999999,
-  "EarningAmount": 31230.309999999998,
-  "SubTotal": 6305.608,
-  "TotalPrice": 25708.201999999997,
-  "ExtraField1": "ipsam",
-  "ExtraField2": "nulla",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "fugiat",
+  "VATInfo": "eaque",
+  "VAT": 14877.098,
+  "EarningPercent": 19057.854,
+  "EarningAmount": 10633.662,
+  "SubTotal": 29421.992,
+  "TotalPrice": 23326.362,
+  "ExtraField1": "in",
+  "ExtraField2": "vero",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "temporibus",
+  "ExtraField5": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

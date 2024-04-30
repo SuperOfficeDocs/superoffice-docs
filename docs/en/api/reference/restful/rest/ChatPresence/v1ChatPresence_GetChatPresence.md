@@ -59,7 +59,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 192,
-    "DisplayName": "Shanahan Group",
-    "OngoingChats": 219,
+    "UserId": 459,
+    "DisplayName": "Schuster, Howell and Waters",
+    "OngoingChats": 34,
     "Present": false,
     "ChatTopics": [
-      983,
-      201
+      871,
+      755
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 937,
-  "SaleId": 740,
-  "QuoteConnectionId": 988,
-  "ERPQuoteKey": "culpa",
-  "ERPOrderKey": "magnam",
-  "ActiveQuoteVersionId": 328,
-  "AcceptedQuoteAlternativeId": 488,
-  "UseValuesFromQuote": 319,
-  "DocumentId": 907,
-  "PoNumber": "1663354",
-  "OrderComment": "amet",
-  "PreferredEmailCulture": "clarabelle_mraz@kreiger.com",
+  "QuoteId": 148,
+  "SaleId": 650,
+  "QuoteConnectionId": 17,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "veritatis",
+  "ActiveQuoteVersionId": 853,
+  "AcceptedQuoteAlternativeId": 485,
+  "UseValuesFromQuote": 545,
+  "DocumentId": 97,
+  "PoNumber": "1021033",
+  "OrderComment": "minus",
+  "PreferredEmailCulture": "adriel@baumbach.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

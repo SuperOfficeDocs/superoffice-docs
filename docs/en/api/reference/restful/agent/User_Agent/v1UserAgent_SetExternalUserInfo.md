@@ -78,11 +78,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 656,
-  "UserName": "Tromp Group",
-  "Password": "aut",
+  "AssociateId": 392,
+  "UserName": "Witting-Satterfield",
+  "Password": "est",
   "IsActive": false,
-  "RoleId": 914,
+  "RoleId": 624,
   "ExternalUserInfoModification": "Active"
 }
 ```

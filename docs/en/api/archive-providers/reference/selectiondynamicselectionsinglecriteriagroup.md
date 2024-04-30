@@ -81,7 +81,7 @@ Selection selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=updatedByFullName,selectionAssociate/usergroup,lastLoadedByFullName
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=getNoRows,lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

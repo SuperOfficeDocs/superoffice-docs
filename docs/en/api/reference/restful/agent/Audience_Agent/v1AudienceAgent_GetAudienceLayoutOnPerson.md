@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 711
+  "PersonId": 268
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 919,
-  "InstanceLayout": "praesentium",
-  "InstanceName": "Quigley, Wilkinson and Koelpin",
-  "CreatedDate": "2010-11-19T11:44:32.822391+01:00",
-  "UpdatedDate": "2013-12-13T11:44:32.822391+01:00",
+  "AudienceLayoutId": 513,
+  "InstanceLayout": "est",
+  "InstanceName": "Bahringer-Langworth",
+  "CreatedDate": "2004-06-22T11:16:08.7410229+02:00",
+  "UpdatedDate": "2020-10-23T11:16:08.7410229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 717
     }
   }
 }

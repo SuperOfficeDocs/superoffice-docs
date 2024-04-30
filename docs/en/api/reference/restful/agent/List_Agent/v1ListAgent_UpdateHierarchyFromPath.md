@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "iure",
+  "Path": "sed",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 205,
+  "HierarchyId": 587,
   "Domain": "Dashboards",
-  "Name": "Bauch Group",
-  "Fullname": "provident",
-  "ParentId": 15,
+  "Name": "Trantow Inc and Sons",
+  "Fullname": "recusandae",
+  "ParentId": 363,
   "Children": [
     {
-      "HierarchyId": 169,
+      "HierarchyId": 934,
       "Domain": "Dashboards",
-      "Name": "Williamson Group",
-      "Fullname": "cupiditate",
-      "ParentId": 242,
+      "Name": "Jacobi-Klein",
+      "Fullname": "tenetur",
+      "ParentId": 804,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-07-16T11:44:33.9002761+02:00",
-      "RegisteredAssociateId": 746,
-      "Updated": "1998-06-01T11:44:33.9002761+02:00",
-      "UpdatedAssociateId": 390,
+      "Registered": "1996-12-14T11:16:09.3659552+01:00",
+      "RegisteredAssociateId": 754,
+      "Updated": "2000-10-27T11:16:09.3659552+02:00",
+      "UpdatedAssociateId": 661,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 535
         }
       }
     }
   ],
-  "Registered": "2003-06-12T11:44:33.9002761+02:00",
-  "RegisteredAssociateId": 346,
-  "Updated": "1999-09-08T11:44:33.9002761+02:00",
-  "UpdatedAssociateId": 385,
+  "Registered": "2012-09-24T11:16:09.3659552+02:00",
+  "RegisteredAssociateId": 843,
+  "Updated": "2017-10-27T11:16:09.3659552+02:00",
+  "UpdatedAssociateId": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 598
     }
   }
 }

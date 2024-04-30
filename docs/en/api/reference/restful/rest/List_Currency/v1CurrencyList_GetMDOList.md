@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=totam
+GET /api/v1/List/Currency/MDOItems?query=corrupti
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Armstrong Group",
-    "ToolTip": "Voluptatem et nam et eos hic id.",
-    "Deleted": true,
-    "Rank": 61,
-    "Type": "perspiciatis",
+    "Id": 992,
+    "Name": "Quitzon, Olson and Durgan",
+    "ToolTip": "Qui quas quo.",
+    "Deleted": false,
+    "Rank": 677,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Maggio Inc and Sons",
-        "ToolTip": "Temporibus facere voluptatem iure.",
-        "Deleted": true,
-        "Rank": 218,
-        "Type": "nihil",
+        "Id": 293,
+        "Name": "Rosenbaum-Schulist",
+        "ToolTip": "Consequuntur quia quae recusandae aut quisquam.",
+        "Deleted": false,
+        "Rank": 498,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 146,
-        "ExtraInfo": "hic",
-        "StyleHint": "aliquid",
-        "FullName": "Jose Rolfson DVM",
+        "IconHint": "dolores",
+        "ColorBlock": 862,
+        "ExtraInfo": "iusto",
+        "StyleHint": "ut",
+        "FullName": "Melody Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldLength": 501
           }
         }
       }
     ],
-    "IconHint": "doloremque",
-    "ColorBlock": 363,
-    "ExtraInfo": "fuga",
-    "StyleHint": "architecto",
-    "FullName": "Jessie Hirthe PhD",
+    "IconHint": "dolorum",
+    "ColorBlock": 739,
+    "ExtraInfo": "optio",
+    "StyleHint": "voluptate",
+    "FullName": "Torey Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 747
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

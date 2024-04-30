@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quam",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quam",
+    "path": "est",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 185,
-  "AssociateId": 804,
-  "Block": "nihil",
-  "Registered": "1997-05-08T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 85,
-  "Updated": "1997-12-12T11:44:42.5545135+01:00",
-  "UpdatedAssociateId": 975,
-  "UpdatedCount": 931,
+  "ShipmentMessageBlockId": 598,
+  "AssociateId": 760,
+  "Block": "odit",
+  "Registered": "2011-05-12T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 292,
+  "Updated": "2007-05-27T11:16:14.2304645+02:00",
+  "UpdatedAssociateId": 403,
+  "UpdatedCount": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

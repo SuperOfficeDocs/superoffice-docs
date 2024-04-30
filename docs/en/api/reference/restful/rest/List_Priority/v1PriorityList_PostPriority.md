@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Witting Group",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 688,
-  "Rank": 615
+  "Id": 266,
+  "Name": "Williamson Group",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "UdListDefinitionId": 817,
+  "Rank": 189
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Miller-Gutkowski",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 984,
-  "Rank": 54,
+  "Id": 144,
+  "Name": "Brown, Hoppe and Swift",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "UdListDefinitionId": 494,
+  "Rank": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldLength": 114
     }
   }
 }

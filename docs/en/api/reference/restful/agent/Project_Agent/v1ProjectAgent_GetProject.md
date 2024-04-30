@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=242
+POST /api/v1/Agents/Project/GetProject?projectId=737
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 692,
-  "Name": "Hickle, Schmidt and Bartoletti",
-  "Description": "Re-engineered next generation model",
+  "ProjectId": 412,
+  "Name": "Crooks-Corkery",
+  "Description": "Reduced mission-critical throughput",
   "URL": "http://www.example.com/",
-  "Type": "autem",
-  "AssociateId": 162,
-  "AssociateFullName": "Lucienne Mann",
-  "TypeId": 330,
-  "Updated": "2016-01-10T11:44:34.181461+01:00",
-  "StatusId": 540,
-  "Status": "consequatur",
-  "TextId": 43,
-  "PublishTo": "2006-01-26T11:44:34.181461+01:00",
-  "PublishFrom": "2000-05-22T11:44:34.181461+02:00",
-  "IsPublished": false,
+  "Type": "voluptates",
+  "AssociateId": 334,
+  "AssociateFullName": "Ricky Sporer",
+  "TypeId": 364,
+  "Updated": "2016-10-23T11:16:09.5536909+02:00",
+  "StatusId": 899,
+  "Status": "tempore",
+  "TextId": 594,
+  "PublishTo": "2015-02-24T11:16:09.5536909+01:00",
+  "PublishFrom": "2020-11-18T11:16:09.5536909+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1187262",
-  "ActiveErpLinks": 767,
+  "ProjectNumber": "408500",
+  "ActiveErpLinks": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 473
+      "FieldLength": 31
     }
   }
 }

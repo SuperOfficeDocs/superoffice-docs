@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "numquam",
-      "HTMLBody": "non",
+      "Subject": "non",
+      "HTMLBody": "aliquid",
       "From": null,
-      "Sent": "2013-06-25T11:44:33.6503221+02:00",
-      "Size": 166,
+      "Sent": "2013-09-05T11:16:09.2097228+02:00",
+      "Size": 543,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "ab",
-      "PlainBody": "perspiciatis",
-      "IsSent": true,
+      "MessageID": "molestias",
+      "PlainBody": "ea",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 15,
+      "ServerId": 595,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Bergstrom-Kuhn",
-      "EmailItemId": 742,
-      "AccountId": 211,
-      "ReceivedAt": "1999-04-14T11:44:33.6503221+02:00",
+      "FolderName": "Ortiz, Grant and Stokes",
+      "EmailItemId": 900,
+      "AccountId": 833,
+      "ReceivedAt": "2020-04-06T11:16:09.2097228+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-07-01T11:44:33.6503221+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2009-12-19T11:16:09.2097228+01:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 687,
-        "ContactName": "Casper-Paucek",
-        "PersonId": 429,
-        "PersonName": "Gaylord-Orn",
-        "AssociateId": 404,
-        "Address": "aut",
-        "EmailId": 921,
+        "ContactId": 280,
+        "ContactName": "Boyle Group",
+        "PersonId": 689,
+        "PersonName": "Gottlieb-Goodwin",
+        "AssociateId": 310,
+        "Address": "officia",
+        "EmailId": 331,
         "DuplicatePersonIds": [
-          562,
-          757
+          994,
+          132
         ],
-        "Name": "Gislason-Ebert",
+        "Name": "Marks-Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 409
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 577,
-        "ContactName": "Luettgen LLC",
-        "PersonId": 882,
-        "PersonName": "Kautzer-Larson",
-        "AssociateId": 650,
-        "Address": "ut",
-        "EmailId": 247,
+        "ContactId": 634,
+        "ContactName": "Larson, Vandervort and Wolf",
+        "PersonId": 856,
+        "PersonName": "Gulgowski-Breitenberg",
+        "AssociateId": 937,
+        "Address": "sunt",
+        "EmailId": 999,
         "DuplicatePersonIds": [
-          644,
-          77
+          346,
+          128
         ],
-        "Name": "Koch Group",
+        "Name": "Borer-Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldType": "System.String",
+            "FieldLength": 161
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 384,
-        "ContactName": "Johns-Leuschke",
-        "PersonId": 398,
-        "PersonName": "Kuhic-Jacobs",
-        "AssociateId": 774,
-        "Address": "ipsum",
-        "EmailId": 33,
+        "ContactId": 618,
+        "ContactName": "McLaughlin, White and Swaniawski",
+        "PersonId": 370,
+        "PersonName": "Hamill Group",
+        "AssociateId": 92,
+        "Address": "quas",
+        "EmailId": 572,
         "DuplicatePersonIds": [
-          247,
-          595
+          599,
+          876
         ],
-        "Name": "Mann-Koepp",
+        "Name": "Will LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 857
+            "FieldType": "System.Int32",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "Subject": "enim",
-    "HTMLBody": "dolor",
+    "Subject": "est",
+    "HTMLBody": "delectus",
     "From": null,
-    "Sent": "2003-11-08T11:44:33.6503221+01:00",
-    "Size": 774,
+    "Sent": "2024-03-26T11:16:09.2097228+01:00",
+    "Size": 199,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "dolor",
-    "PlainBody": "est",
+    "MessageID": "repellat",
+    "PlainBody": "ex",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 309,
+    "ServerId": 405,
     "Attachments": [
       {
-        "Description": "Right-sized next generation system engine",
-        "Filename": "tempora",
-        "Size": 660,
-        "Type": "officia",
-        "Encoding": "sint",
-        "Id": "perferendis",
-        "Disposition": "et",
+        "Description": "Sharable system-worthy frame",
+        "Filename": "aspernatur",
+        "Size": 966,
+        "Type": "non",
+        "Encoding": "dolor",
+        "Id": "sed",
+        "Disposition": "blanditiis",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 524
+            "FieldType": "System.Int32",
+            "FieldLength": 674
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Bednar LLC",
+        "Name": "Paucek Group",
         "Values": [
-          "possimus",
-          "optio"
+          "libero",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldType": "System.String",
+            "FieldLength": 171
           }
         }
       },
       {
-        "Name": "Bednar LLC",
+        "Name": "Paucek Group",
         "Values": [
-          "possimus",
-          "optio"
+          "libero",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldType": "System.String",
+            "FieldLength": 171
           }
         }
       }
     ],
-    "FolderName": "Schaden-Beahan",
-    "EmailItemId": 785,
-    "AccountId": 535,
-    "ReceivedAt": "2010-02-18T11:44:33.6503221+01:00",
+    "FolderName": "Jacobi Group",
+    "EmailItemId": 141,
+    "AccountId": 93,
+    "ReceivedAt": "2022-10-06T11:16:09.2097228+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2003-10-02T11:44:33.6503221+02:00",
+    "RepliedAt": "2006-01-06T11:16:09.2097228+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 257
       }
     }
   }

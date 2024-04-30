@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schuster-Kassulke",
-      "Operator": "odio",
+      "Name": "Goldner-Dooley",
+      "Operator": "ut",
       "Values": [
-        "incidunt",
-        "consequatur"
+        "optio",
+        "quo"
       ],
       "DisplayValues": [
-        "dolorem",
-        "dignissimos"
+        "temporibus",
+        "quam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 702,
       "InterOperator": "And",
-      "UniqueHash": 796
+      "UniqueHash": 650
     }
   ],
-  "ProviderName": "Rempel-Strosin",
-  "PageSize": 738,
-  "PageNumber": 766
+  "ProviderName": "Labadie Group",
+  "PageSize": 365,
+  "PageNumber": 756
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Haag Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "deleniti",
-      "CanOrderBy": true,
-      "Name": "Breitenberg-Gerlach",
+      "DisplayName": "Thiel, Stracke and Schaden",
+      "DisplayTooltip": "quod",
+      "DisplayType": "eum",
+      "CanOrderBy": false,
+      "Name": "Cremin Group",
       "CanRestrictBy": true,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Kuphal-Tillman",
-      "IsVisible": true,
-      "ExtraInfo": "adipisci",
-      "Width": "ut",
-      "IconHint": "aliquam",
-      "HeadingIconHint": "accusantium"
+      "RestrictionType": "aperiam",
+      "RestrictionListName": "Kohler, Turcotte and Zieme",
+      "IsVisible": false,
+      "ExtraInfo": "mollitia",
+      "Width": "nobis",
+      "IconHint": "praesentium",
+      "HeadingIconHint": "magnam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bergnaum-Mayer",
-      "PrimaryKey": 953,
+      "EntityName": "Hagenes, Carroll and Waters",
+      "PrimaryKey": 799,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "ut",
-          "LinkHint": "fuga"
+          "DisplayValue": "officia",
+          "TooltipHint": "reprehenderit",
+          "LinkHint": "ab"
         }
       },
-      "LinkHint": "aliquid",
-      "StyleHint": "magnam",
+      "LinkHint": "in",
+      "StyleHint": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
   ],
-  "RowCount": 913,
+  "RowCount": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 513
     }
   }
 }

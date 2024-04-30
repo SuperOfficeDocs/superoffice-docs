@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Gulgowski, Durgan and O'Keefe",
-  "Tooltip": "in",
+  "Id": 383,
+  "Name": "Reichert-Stamm",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 273,
-  "Rank": 525
+  "UdListDefinitionId": 733,
+  "Rank": 5
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Tromp Group",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "UdListDefinitionId": 941,
-  "Rank": 31,
+  "Id": 594,
+  "Name": "Dicki Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "UdListDefinitionId": 502,
+  "Rank": 514,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 695,
-    "ColumnId": 602,
-    "FieldDefault": "non",
-    "FieldHeight": 357,
-    "FieldLabel": "repellendus",
-    "FieldLeft": 603,
-    "FieldTop": 978,
+    "UDefFieldId": 306,
+    "ColumnId": 290,
+    "FieldDefault": "incidunt",
+    "FieldHeight": 832,
+    "FieldLabel": "nihil",
+    "FieldLeft": 343,
+    "FieldTop": 944,
     "FieldType": "Checkbox",
-    "FieldWidth": 793,
-    "FormatMask": "perspiciatis",
-    "HideLabel": true,
+    "FieldWidth": 41,
+    "FormatMask": "rerum",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 866,
-    "LabelLeft": 415,
-    "LabelTop": 866,
-    "LabelWidth": 983,
-    "LastVersionId": 186,
-    "ListTableId": 203,
-    "IsMandatory": true,
+    "LabelHeight": 192,
+    "LabelLeft": 939,
+    "LabelTop": 818,
+    "LabelWidth": 716,
+    "LastVersionId": 169,
+    "ListTableId": 46,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 857,
-    "ProgId": "qui",
+    "Page1LineNo": 790,
+    "ProgId": "explicabo",
     "IsReadOnly": false,
-    "ShortLabel": "expedita",
-    "TabOrder": 84,
-    "TextLength": 15,
-    "Tooltip": "mollitia",
-    "UdefIdentity": 742,
-    "UDListDefinitionId": 613,
+    "ShortLabel": "ipsam",
+    "TabOrder": 340,
+    "TextLength": 215,
+    "Tooltip": "sed",
+    "UdefIdentity": 435,
+    "UDListDefinitionId": 489,
     "Justification": "Center",
-    "Version": 988,
-    "TemplateVariableName": "Bosco-O'Conner",
-    "HasBeenPublished": false,
-    "MdoListName": "Hermiston, Hodkiewicz and Cormier",
+    "Version": 801,
+    "TemplateVariableName": "Gusikowski LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Schaefer-McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

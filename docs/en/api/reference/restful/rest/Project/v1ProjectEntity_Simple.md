@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 298,
-  "Name": "Leffler-Herman",
-  "Description": "Ameliorated hybrid strategy",
+  "ProjectId": 77,
+  "Name": "Stamm, Franecki and Heidenreich",
+  "Description": "Reverse-engineered grid-enabled matrix",
   "URL": "http://www.example.com/",
-  "Type": "magni",
-  "AssociateId": 750,
-  "AssociateFullName": "Price Daugherty DDS",
-  "TypeId": 285,
-  "Updated": "2012-11-20T11:44:42.1951793+01:00",
-  "StatusId": 585,
-  "Status": "nihil",
-  "TextId": 237,
-  "PublishTo": "2013-03-28T11:44:42.1951793+01:00",
-  "PublishFrom": "2002-06-17T11:44:42.1951793+02:00",
-  "IsPublished": false,
+  "Type": "omnis",
+  "AssociateId": 163,
+  "AssociateFullName": "Lottie Johnson",
+  "TypeId": 264,
+  "Updated": "2020-03-29T11:16:14.1206908+02:00",
+  "StatusId": 864,
+  "Status": "deserunt",
+  "TextId": 731,
+  "PublishTo": "2018-10-04T11:16:14.1206908+02:00",
+  "PublishFrom": "2015-11-07T11:16:14.1206908+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1014736",
-  "ActiveErpLinks": 903,
+  "ProjectNumber": "1944109",
+  "ActiveErpLinks": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 367
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 413,
+    "TargetDimensionId": 867,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "corrupti",
-    "DimensionListName": "Wilderman-Fritsch",
-    "DimensionListId": 261,
-    "DimensionListLabel": "saepe",
+    "DimensionListField": "debitis",
+    "DimensionListName": "Jacobi-Zieme",
+    "DimensionListId": 739,
+    "DimensionListLabel": "id",
     "SelectedDimensions": [
       127,
-      655
+      28
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 762
       }
     }
   }

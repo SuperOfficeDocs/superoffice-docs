@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Goldner-Schneider",
-  "ProviderName": "Kreiger Group",
-  "Context": "eius",
-  "OwnerKeys": "laborum",
+  "GuiName": "Okuneva Group",
+  "ProviderName": "Donnelly Inc and Sons",
+  "Context": "expedita",
+  "OwnerKeys": "est",
   "ColumnWidths": [
-    "sit",
-    "accusantium"
+    "temporibus",
+    "rem"
   ]
 }
 ```

@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Becker-Shanahan",
-  "Culture": "dolores",
+  "ResourceName": "Hand, Shanahan and Brekke",
+  "Culture": "facere",
   "IsActive": true
 }
 ```

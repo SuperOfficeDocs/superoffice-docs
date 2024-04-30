@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolor",
-  "Value": "ea",
-  "RecordId": 884,
-  "CreatedDate": "2014-04-29T11:44:42.0077636+02:00",
-  "UpdatedDate": "2020-11-15T11:44:42.0077636+01:00",
-  "UpdatedBy": "doloremque",
-  "CreatedBy": "odio",
-  "TableName": "Lang, McClure and Leuschke"
+  "Key": "laborum",
+  "Value": "rerum",
+  "RecordId": 404,
+  "CreatedDate": "2005-04-12T11:16:13.93321+02:00",
+  "UpdatedDate": "2000-09-28T11:16:13.93321+02:00",
+  "UpdatedBy": "sapiente",
+  "CreatedBy": "quisquam",
+  "TableName": "Boehm, Hermiston and Reinger"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsa",
-  "Value": "et",
-  "RecordId": 575,
-  "CreatedDate": "2018-05-19T11:44:42.0077636+02:00",
-  "UpdatedDate": "2012-08-13T11:44:42.0077636+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "in",
-  "TableName": "Howe LLC",
+  "Key": "ipsam",
+  "Value": "aperiam",
+  "RecordId": 918,
+  "CreatedDate": "2007-09-02T11:16:13.93321+02:00",
+  "UpdatedDate": "2021-06-02T11:16:13.93321+02:00",
+  "UpdatedBy": "excepturi",
+  "CreatedBy": "ipsum",
+  "TableName": "Kassulke-Schamberger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 573
     }
   }
 }

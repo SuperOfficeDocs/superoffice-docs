@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persevering clear-thinking productivity",
-  "Postit": "molestiae",
+  "Description": "Diverse value-added productivity",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 893,
-  "IncludePerson": 431,
-  "MemberCount": 126,
-  "Name": "Will, Braun and Kohler",
-  "PostitTextId": 347,
-  "CreatedDate": "1999-12-21T11:44:34.4313975+01:00",
-  "SelectionId": 210,
-  "SoundEx": "id",
-  "Source": 732,
-  "TextId": 849,
-  "UpdatedDate": "2022-06-19T11:44:34.4313975+02:00",
-  "UpdatedCount": 963,
-  "Visibility": 662,
+  "GroupIdx": 955,
+  "IncludePerson": 154,
+  "MemberCount": 489,
+  "Name": "Stokes Inc and Sons",
+  "PostitTextId": 707,
+  "CreatedDate": "2008-02-23T11:16:09.6947013+01:00",
+  "SelectionId": 972,
+  "SoundEx": "ut",
+  "Source": 534,
+  "TextId": 252,
+  "UpdatedDate": "2021-01-18T11:16:09.6947013+01:00",
+  "UpdatedCount": 401,
+  "Visibility": 497,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 874,
-  "TargetTableName": "Ratke, Dach and Legros",
-  "Completed": false,
-  "LeftSelectionId": 307,
-  "RightSelectionId": 408,
+  "CompanyUnique": true,
+  "TargetTableNumber": 233,
+  "TargetTableName": "Goyette, Padberg and Schaden",
+  "Completed": true,
+  "LeftSelectionId": 410,
+  "RightSelectionId": 926,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McCullough LLC",
-  "ShadowProviderName": "Williamson, Sanford and Stanton",
-  "ChartKey": "amet",
-  "LastLoaded": "2022-12-26T11:44:34.4313975+01:00",
-  "LastLoadedBy": 370,
+  "MainProviderName": "Satterfield LLC",
+  "ShadowProviderName": "Kuhn Group",
+  "ChartKey": "quo",
+  "LastLoaded": "2011-07-13T11:16:09.6947013+02:00",
+  "LastLoadedBy": 849,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-05-24T11:44:34.4313975+02:00",
-  "LastMembershipChangeBy": 464,
+  "LastMembershipChange": "2017-01-31T11:16:09.6947013+01:00",
+  "LastMembershipChangeBy": 856,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "veniam",
-  "MailingsProviderName": "Willms LLC",
-  "DashboardTileDefinitionId": 235,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "in",
+  "MailingsProviderName": "Greenfelder, Watsica and Ritchie",
+  "DashboardTileDefinitionId": 889,
   "VisibleFor": [
     {
-      "VisibleId": 193,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "nam"
+      "DisplayValue": "dolor"
     },
     {
-      "VisibleId": 193,
+      "VisibleId": 68,
       "Visibility": "All",
-      "DisplayValue": "nam"
+      "DisplayValue": "dolor"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused full-range customer loyalty",
-  "Postit": "omnis",
+  "Description": "Organized non-volatile methodology",
+  "Postit": "alias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 987,
-  "IncludePerson": 89,
-  "MemberCount": 633,
-  "Name": "Price-Adams",
-  "PostitTextId": 958,
-  "CreatedDate": "2023-12-18T11:44:34.4313975+01:00",
-  "SelectionId": 921,
-  "SoundEx": "voluptas",
-  "Source": 412,
-  "TextId": 487,
-  "UpdatedDate": "1998-08-26T11:44:34.4313975+02:00",
-  "UpdatedCount": 178,
-  "Visibility": 77,
+  "GroupIdx": 550,
+  "IncludePerson": 709,
+  "MemberCount": 735,
+  "Name": "Wilderman LLC",
+  "PostitTextId": 945,
+  "CreatedDate": "2012-12-03T11:16:09.7103639+01:00",
+  "SelectionId": 693,
+  "SoundEx": "quis",
+  "Source": 59,
+  "TextId": 153,
+  "UpdatedDate": "2017-01-16T11:16:09.7103639+01:00",
+  "UpdatedCount": 403,
+  "Visibility": 893,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 829,
-  "TargetTableName": "Johnston-O'Hara",
+  "CompanyUnique": true,
+  "TargetTableNumber": 63,
+  "TargetTableName": "Dickens-Luettgen",
   "Completed": false,
-  "LeftSelectionId": 297,
-  "RightSelectionId": 161,
+  "LeftSelectionId": 502,
+  "RightSelectionId": 281,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lemke Group",
-  "ShadowProviderName": "Jerde LLC",
-  "ChartKey": "quia",
-  "LastLoaded": "2023-07-10T11:44:34.4313975+02:00",
-  "LastLoadedBy": 220,
+  "MainProviderName": "Nader-Runolfsdottir",
+  "ShadowProviderName": "Hegmann, Beahan and Morissette",
+  "ChartKey": "autem",
+  "LastLoaded": "2024-04-18T11:16:09.7103639+02:00",
+  "LastLoadedBy": 358,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-10-20T11:44:34.4313975+02:00",
-  "LastMembershipChangeBy": 301,
+  "LastMembershipChange": "2001-03-04T11:16:09.7103639+01:00",
+  "LastMembershipChangeBy": 138,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deleniti",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Daugherty Inc and Sons",
-  "DashboardTileDefinitionId": 683,
+  "MainHeading": "aut",
+  "MemberTabHeading": "quidem",
+  "MailingsProviderName": "Turner, Hirthe and Beahan",
+  "DashboardTileDefinitionId": 34,
   "VisibleFor": [
     {
-      "VisibleId": 685,
+      "VisibleId": 722,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 560
         }
       }
     },
     {
-      "VisibleId": 685,
+      "VisibleId": 722,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 560
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 169
     }
   }
 }

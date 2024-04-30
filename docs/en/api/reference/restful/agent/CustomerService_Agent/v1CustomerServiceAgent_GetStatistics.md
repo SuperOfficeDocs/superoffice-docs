@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "rerum",
-    "laboriosam"
+    "harum",
+    "reiciendis"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "ad",
+    "Label": "modi",
     "Values": [
       {
-        "Label": "laboriosam",
-        "Value": 12504.66,
-        "Description": "Phased national infrastructure",
+        "Label": "dignissimos",
+        "Value": 14961.716,
+        "Description": "Profit-focused user-facing pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 795
           }
         }
       },
       {
-        "Label": "laboriosam",
-        "Value": 12504.66,
-        "Description": "Phased national infrastructure",
+        "Label": "dignissimos",
+        "Value": 14961.716,
+        "Description": "Profit-focused user-facing pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 795
           }
         }
       }
     ],
-    "Description": "Reactive stable firmware",
+    "Description": "Customer-focused 5th generation policy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 979
       }
     }
   },
   {
-    "Label": "ad",
+    "Label": "modi",
     "Values": [
       {
-        "Label": "laboriosam",
-        "Value": 12504.66,
-        "Description": "Phased national infrastructure",
+        "Label": "dignissimos",
+        "Value": 14961.716,
+        "Description": "Profit-focused user-facing pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 795
           }
         }
       },
       {
-        "Label": "laboriosam",
-        "Value": 12504.66,
-        "Description": "Phased national infrastructure",
+        "Label": "dignissimos",
+        "Value": 14961.716,
+        "Description": "Profit-focused user-facing pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 795
           }
         }
       }
     ],
-    "Description": "Reactive stable firmware",
+    "Description": "Customer-focused 5th generation policy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 979
       }
     }
   }

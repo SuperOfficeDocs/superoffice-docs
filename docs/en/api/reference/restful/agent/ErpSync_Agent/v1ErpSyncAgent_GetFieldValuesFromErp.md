@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 232,
+  "ErpConnectionId": 506,
   "ActorTypeErp": "Customer",
-  "ErpKey": "iste"
+  "ErpKey": "sunt"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Witting-Jast",
-    "CrmFieldKey": "voluptates",
-    "Value": "et",
-    "DisplayValue": "sed",
+    "DisplayName": "Bechtelar-Turner",
+    "CrmFieldKey": "laborum",
+    "Value": "sit",
+    "DisplayValue": "aut",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 821
       }
     }
   }

@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "libero",
+    "path": "ad",
     "value": {}
   },
   {
     "op": "add",
-    "path": "libero",
+    "path": "ad",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 59,
-  "Name": "Franecki-Beer",
+  "WebhookId": 681,
+  "Name": "Howe, Barton and Connelly",
   "Events": [
-    "quos",
-    "accusamus"
+    "nisi",
+    "autem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "asperiores",
+  "Secret": "qui",
   "State": "Active",
-  "Type": "soluta",
+  "Type": "delectus",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "illum"
+    "Headers1": "numquam",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-05-09T11:44:42.8825602+02:00",
+  "Registered": "2020-09-07T11:16:14.465178+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-03-05T11:44:42.8825602+01:00",
+  "Updated": "2017-08-13T11:16:14.465178+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "claire@gleichner.biz",
+  "ErrorsEmail": "camden.swaniawski@gutmanngutkowski.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

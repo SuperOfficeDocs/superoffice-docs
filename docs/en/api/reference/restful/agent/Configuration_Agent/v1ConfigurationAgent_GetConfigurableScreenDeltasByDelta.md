@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 135,
-    "Name": "Murazik LLC",
-    "Description": "Synchronised client-driven process improvement",
-    "DeltaJson": "aut",
+    "ConfigurableScreenDeltaId": 772,
+    "Name": "McClure, Kohler and Kessler",
+    "Description": "Right-sized asynchronous Graphical User Interface",
+    "DeltaJson": "fugit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "et",
-    "UpdatedDate": "2011-09-16T11:44:32.9942315+02:00",
-    "CreatedDate": "1998-01-29T11:44:32.9942315+01:00",
+    "RecipeId": "est",
+    "UpdatedDate": "2017-12-22T11:16:08.8503482+01:00",
+    "CreatedDate": "2022-12-20T11:16:08.8503482+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      115,
-      401
+      644,
+      389
     ],
-    "AppliesToKey": "tenetur",
+    "AppliesToKey": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldType": "System.Int32",
+        "FieldLength": 641
       }
     }
   }

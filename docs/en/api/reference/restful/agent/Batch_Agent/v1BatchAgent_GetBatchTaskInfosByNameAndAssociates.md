@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schulist, Hane and Kuhn",
+  "Name": "Schulist Group",
   "AssociateIds": [
-    212,
-    967
+    836,
+    284
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Rodriguez-Weber",
-    "AssociateId": 176,
-    "DetailsTable": 546,
-    "DetailsRecord": 291,
+    "Id": 790,
+    "Name": "Kutch-Turner",
+    "AssociateId": 158,
+    "DetailsTable": 150,
+    "DetailsRecord": 809,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "sit",
-      "ParameterObject2": "deleniti"
+      "ParameterObject1": "vero",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2013-06-14T11:44:32.822391+02:00",
-    "Created": "2022-12-10T11:44:32.822391+01:00",
-    "StartCount": 436,
-    "DatabaseSerialNumber": "539773",
-    "Context": "velit",
-    "Result": "saepe",
+    "LastStarted": "1997-09-25T11:16:08.7410229+02:00",
+    "Created": "2022-08-22T11:16:08.7410229+02:00",
+    "StartCount": 272,
+    "DatabaseSerialNumber": "226325",
+    "Context": "aut",
+    "Result": "magnam",
     "State": "All",
-    "Description": "Centralized multimedia solution",
-    "Response": "voluptatem",
-    "Request": "sint",
-    "ProgressDescription": "Mandatory heuristic help-desk",
-    "ProgressPercent": 988,
-    "FileName": "Block, Lebsack and Harvey",
+    "Description": "Ergonomic fresh-thinking info-mediaries",
+    "Response": "vitae",
+    "Request": "iste",
+    "ProgressDescription": "Monitored multi-tasking workforce",
+    "ProgressPercent": 896,
+    "FileName": "Stehr LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

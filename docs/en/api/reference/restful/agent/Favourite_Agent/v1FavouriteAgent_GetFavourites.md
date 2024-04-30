@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schneider LLC",
-  "AssociateId": 516
+  "TableName": "Nicolas LLC",
+  "AssociateId": 463
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Schroeder LLC",
-    "RecordId": 167,
-    "AssociateId": 395,
-    "ExtraInfo": "laborum",
-    "Rank": 84,
+    "TableName": "Larkin, Kunde and Kilback",
+    "RecordId": 527,
+    "AssociateId": 1001,
+    "ExtraInfo": "qui",
+    "Rank": 352,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 916
       }
     }
   }

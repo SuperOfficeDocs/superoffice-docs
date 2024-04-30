@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Prosacco Group",
-    "ToolTip": "Eum accusantium animi qui fugit eius.",
+    "Id": 511,
+    "Name": "Jacobs LLC",
+    "ToolTip": "Eum est molestias autem.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "ut",
-    "ColorBlock": 878,
-    "IconHint": "nesciunt",
-    "Selected": true,
-    "LastChanged": "2000-05-19T11:44:43.3668335+02:00",
+    "Rank": 449,
+    "Type": "quia",
+    "ColorBlock": 163,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2020-10-13T11:16:14.8246461+02:00",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Sanford, Schaden and Kuhic",
-        "ToolTip": "Est suscipit.",
+        "Id": 320,
+        "Name": "Farrell, Shanahan and Prosacco",
+        "ToolTip": "Quisquam commodi aut rem quos blanditiis deleniti.",
         "Deleted": false,
-        "Rank": 336,
-        "Type": "assumenda",
-        "ColorBlock": 729,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "2007-01-22T11:44:43.3668335+01:00",
+        "Rank": 601,
+        "Type": "cupiditate",
+        "ColorBlock": 871,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2017-11-29T11:16:14.8246461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Lura Rath III"
+        "ExtraInfo": "velit",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Dorcas Larson"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Leon Ondricka"
+    "ExtraInfo": "sunt",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Vincenzo Batz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Torphy, Eichmann and Hessel",
-    "ToolTip": "Dignissimos pariatur a.",
+    "Id": 530,
+    "Name": "Osinski, Bechtelar and Wuckert",
+    "ToolTip": "Sequi et et inventore unde vitae.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "natus",
-    "ColorBlock": 898,
-    "IconHint": "aut",
+    "Rank": 396,
+    "Type": "qui",
+    "ColorBlock": 189,
+    "IconHint": "accusantium",
     "Selected": true,
-    "LastChanged": "2009-12-20T11:44:43.3668335+01:00",
+    "LastChanged": "2015-09-25T11:16:14.8401403+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Stokes-Breitenberg",
-        "ToolTip": "Eligendi maiores voluptatem labore.",
-        "Deleted": true,
-        "Rank": 7,
-        "Type": "rerum",
-        "ColorBlock": 975,
-        "IconHint": "officiis",
+        "Id": 698,
+        "Name": "Roberts-Moore",
+        "ToolTip": "Nesciunt accusantium impedit vel.",
+        "Deleted": false,
+        "Rank": 919,
+        "Type": "vitae",
+        "ColorBlock": 529,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2014-09-02T11:44:43.3668335+02:00",
+        "LastChanged": "2022-03-20T11:16:14.8401403+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "quo",
+        "ExtraInfo": "aut",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Dr. Lulu Laurine Denesik MD",
+        "FullName": "Kraig Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 410
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Dewayne Schuppe IV",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Pete Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 769
       }
     }
   }

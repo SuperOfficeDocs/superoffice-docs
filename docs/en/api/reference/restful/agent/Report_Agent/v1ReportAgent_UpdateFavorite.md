@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 352,
+  "ReportId": 406,
   "ReportCategory": "All",
-  "Description": "Face to face radical emulation",
+  "Description": "Cloned scalable model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Nitzsche Group",
-  "AssociateId": 691,
-  "TemplateId": 732,
+  "Name": "Stroman LLC",
+  "AssociateId": 829,
+  "TemplateId": 269,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 231
     }
   }
 }

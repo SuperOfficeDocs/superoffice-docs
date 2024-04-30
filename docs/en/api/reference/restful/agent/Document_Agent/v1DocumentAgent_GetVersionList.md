@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 768
+  "DocumentId": 150
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "dolor",
-    "DocumentId": 407,
-    "VersionId": "nostrum",
-    "CheckedInDate": "2008-11-25T11:44:33.5253557+01:00",
-    "CheckedInByName": "Brekke-Williamson",
-    "CheckedInByAssociateId": 777,
-    "Description": "Cloned systemic moratorium",
-    "DisplayText": "reiciendis",
+    "ExternalReference": "fugiat",
+    "DocumentId": 746,
+    "VersionId": "officiis",
+    "CheckedInDate": "2017-10-28T11:16:09.1472278+02:00",
+    "CheckedInByName": "Hamill, Medhurst and Veum",
+    "CheckedInByAssociateId": 572,
+    "Description": "Compatible eco-centric system engine",
+    "DisplayText": "ratione",
     "ExtraFields": [
-      "voluptatem",
-      "est"
+      "aut",
+      "enim"
     ]
   }
 ]

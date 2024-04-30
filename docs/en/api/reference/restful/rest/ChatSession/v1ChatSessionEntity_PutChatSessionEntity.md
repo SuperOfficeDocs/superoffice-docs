@@ -139,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 532,
-  "TopicId": 570,
+  "ChatSessionId": 768,
+  "TopicId": 480,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sit",
-  "CustomerHost": "corrupti",
-  "CustomerName": "Toy LLC",
-  "CustomerEmail": "nickolas.kautzer@naderbrown.name",
-  "CustomerPhone": "1-504-594-4578",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "doloribus",
+  "CustomerName": "Hermiston-Zboncak",
+  "CustomerEmail": "mia.kautzer@dietrich.biz",
+  "CustomerPhone": "406.944.2592",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hartmann-Kutch",
+  "CustomerCompanyName": "Abbott-Kub",
   "Status": "Closed",
-  "FirstMessage": "necessitatibus",
-  "LastMessage": "dolores",
-  "WhenRequested": "1996-12-20T11:44:41.570376+01:00",
-  "WhenStarted": "2010-05-11T11:44:41.570376+02:00",
-  "WhenEnded": "2023-05-13T11:44:41.570376+02:00",
-  "WhenIdle": "2020-11-03T11:44:41.570376+01:00",
-  "WhenFetched": "2019-03-17T11:44:41.570376+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 12,
-  "AlertLevel": 291,
-  "Rank": 193,
+  "FirstMessage": "similique",
+  "LastMessage": "ipsum",
+  "WhenRequested": "2017-09-18T11:16:13.6831253+02:00",
+  "WhenStarted": "2017-03-15T11:16:13.6831253+01:00",
+  "WhenEnded": "2017-06-20T11:16:13.6831253+02:00",
+  "WhenIdle": "2020-05-28T11:16:13.6831253+02:00",
+  "WhenFetched": "1998-03-21T11:16:13.6831253+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 213,
+  "AlertLevel": 497,
+  "Rank": 28,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 999
+  "Rating": 640
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 824,
-  "TopicId": 412,
+  "ChatSessionId": 502,
+  "TopicId": 242,
   "User": null,
   "Person": null,
-  "CustomerAlias": "alias",
-  "CustomerHost": "similique",
-  "CustomerName": "Kuhlman, Russel and Trantow",
-  "CustomerEmail": "devon.rutherford@schamberger.uk",
-  "CustomerPhone": "1-711-926-5774 x665",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Ankunding-Will",
+  "CustomerAlias": "quasi",
+  "CustomerHost": "corporis",
+  "CustomerName": "Sporer LLC",
+  "CustomerEmail": "jerome@schneider.name",
+  "CustomerPhone": "1-427-868-5676",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Wilkinson-Hamill",
   "Status": "Closed",
-  "FirstMessage": "necessitatibus",
-  "LastMessage": "ipsam",
-  "WhenRequested": "1998-07-02T11:44:41.570376+02:00",
-  "WhenStarted": "2017-03-29T11:44:41.570376+02:00",
-  "WhenEnded": "2007-01-26T11:44:41.570376+01:00",
-  "WhenIdle": "2010-11-28T11:44:41.570376+01:00",
-  "WhenFetched": "2004-05-01T11:44:41.570376+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 735,
-  "AlertLevel": 332,
-  "Rank": 106,
+  "FirstMessage": "consequatur",
+  "LastMessage": "vel",
+  "WhenRequested": "2016-10-02T11:16:13.6831253+02:00",
+  "WhenStarted": "2021-08-30T11:16:13.6831253+02:00",
+  "WhenEnded": "2005-06-20T11:16:13.6831253+02:00",
+  "WhenIdle": "2019-12-01T11:16:13.6831253+01:00",
+  "WhenFetched": "2011-11-28T11:16:13.6831253+01:00",
+  "SessionKey": "velit",
+  "InitialQueuePos": 990,
+  "AlertLevel": 494,
+  "Rank": 762,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,18 +214,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 92,
+  "Rating": 659,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

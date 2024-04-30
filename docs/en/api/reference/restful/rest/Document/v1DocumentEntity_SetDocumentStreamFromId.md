@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 382,
+  "DocumentId": 604,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ab",
-  "Header": "sit",
-  "Name": "Raynor, Halvorson and Kemmer",
-  "OurRef": "id",
-  "YourRef": "neque",
-  "CreatedDate": "2015-11-19T11:44:41.9452909+01:00",
-  "UpdatedDate": "2017-02-04T11:44:41.9452909+01:00",
-  "Description": "Profit-focused didactic capability",
+  "Attention": "quidem",
+  "Header": "vel",
+  "Name": "Reynolds, Thiel and Beahan",
+  "OurRef": "soluta",
+  "YourRef": "dicta",
+  "CreatedDate": "2013-11-24T11:16:13.901969+01:00",
+  "UpdatedDate": "2003-03-28T11:16:13.901969+01:00",
+  "Description": "Monitored global benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-12-04T11:44:41.9452909+01:00",
-  "ExternalRef": "aut",
+  "Date": "1997-08-05T11:16:13.901969+02:00",
+  "ExternalRef": "perspiciatis",
   "Completed": "Completed",
-  "ActiveLinks": 151,
+  "ActiveLinks": 500,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Collins-Orn",
-      "Id": 338,
-      "Description": "Balanced bifurcated intranet",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 995,
+      "EntityName": "Haley, Toy and Turcotte",
+      "Id": 903,
+      "Description": "Pre-emptive assymetric system engine",
+      "ExtraInfo": "facilis",
+      "LinkId": 857,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 317
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 838,
-  "Snum": 758,
+  "SuggestedDocumentId": 37,
+  "Snum": 457,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Mr. Roxane Charley Prosacco"
+    "SuperOffice:1": "Jayda Reinger",
+    "SuperOffice:2": "2127999907"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "ratione"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "1997-02-04T11:44:41.9452909+01:00",
-  "PublishTo": "2019-07-02T11:44:41.9452909+02:00",
-  "PublishFrom": "2020-12-28T11:44:41.9452909+01:00",
+  "PublishEventDate": "2020-07-24T11:16:13.901969+02:00",
+  "PublishTo": "2018-12-30T11:16:13.901969+01:00",
+  "PublishFrom": "2011-06-25T11:16:13.901969+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 395,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 972
         }
       }
     },
     {
-      "VisibleId": 395,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 972
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

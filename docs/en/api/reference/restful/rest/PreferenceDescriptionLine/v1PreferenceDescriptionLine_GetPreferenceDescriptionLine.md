@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 237,
-  "PrefDescId": 122,
-  "PrefValue": "tempore",
-  "PrefShowValue": "odit",
-  "Description": "Customer-focused dynamic policy",
+  "PrefDescLineId": 430,
+  "PrefDescId": 880,
+  "PrefValue": "mollitia",
+  "PrefShowValue": "recusandae",
+  "Description": "Enhanced national info-mediaries",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldType": "System.Int32",
+      "FieldLength": 261
     }
   },
   "_Links": {

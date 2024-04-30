@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Bauch-Keeling",
-  "CreatedDate": "2003-11-18T11:44:41.9921474+01:00",
-  "UpdatedDate": "2016-04-19T11:44:41.9921474+02:00",
+  "ForeignAppId": 973,
+  "Name": "Hagenes LLC",
+  "CreatedDate": "2018-04-16T11:16:13.9175899+02:00",
+  "UpdatedDate": "2004-12-08T11:16:13.9175899+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 864,
-      "Name": "O'Hara, Hartmann and Hamill",
-      "CreatedDate": "1998-10-23T11:44:41.9921474+02:00",
-      "UpdatedDate": "2018-12-26T11:44:41.9921474+01:00",
-      "AssociateFullName": "Dr. Nikko Mertz Jr.",
-      "CreatedBy": "qui",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "iusto",
-      "ForeignAppId": 796,
+      "ForeignDeviceId": 803,
+      "Name": "Dare-Kohler",
+      "CreatedDate": "2015-09-19T11:16:13.9175899+02:00",
+      "UpdatedDate": "2014-12-28T11:16:13.9175899+01:00",
+      "AssociateFullName": "Mrs. Mark Williamson Sr.",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "optio",
+      "DeviceIdentifier": "at",
+      "ForeignAppId": 106,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldLength": 666
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 303
     }
   }
 }

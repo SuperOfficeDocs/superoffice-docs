@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 42,
-    "Name": "Pfeffer-Brekke",
-    "Tooltip": "sapiente",
+    "HeadingId": 217,
+    "Name": "Streich-Gorczany",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 721,
-    "UdListDefinitionId": 577
+    "Rank": 4,
+    "UdListDefinitionId": 212
   },
   {
-    "HeadingId": 42,
-    "Name": "Pfeffer-Brekke",
-    "Tooltip": "sapiente",
+    "HeadingId": 217,
+    "Name": "Streich-Gorczany",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 721,
-    "UdListDefinitionId": 577
+    "Rank": 4,
+    "UdListDefinitionId": 212
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 912,
-    "Name": "Witting-Hansen",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 184,
-    "UdListDefinitionId": 144,
+    "HeadingId": 616,
+    "Name": "Bahringer, Cronin and Spinka",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "Rank": 454,
+    "UdListDefinitionId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 460
       }
     }
   }

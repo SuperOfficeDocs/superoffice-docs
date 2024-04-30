@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 586,
-  "Name": "Rippin LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 164,
-  "UdListDefinitionId": 713
+  "HeadingId": 883,
+  "Name": "Kihn, Runte and Hamill",
+  "Tooltip": "alias",
+  "Deleted": false,
+  "Rank": 408,
+  "UdListDefinitionId": 441
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 212,
-  "Name": "Wintheiser-Stanton",
-  "Tooltip": "totam",
+  "HeadingId": 937,
+  "Name": "Huels-Jewess",
+  "Tooltip": "minima",
   "Deleted": true,
-  "Rank": 20,
-  "UdListDefinitionId": 35,
+  "Rank": 369,
+  "UdListDefinitionId": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 426
     }
   }
 }

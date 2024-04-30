@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 724
+  "ErpFieldId": 418
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 910,
-  "DefaultValue": "voluptatem",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quia",
+  "ErpFieldId": 518,
+  "DefaultValue": "qui",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "repudiandae",
   "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "eos",
+  "ErpFieldKey": "nobis",
   "FieldType": "Checkbox",
-  "ListName": "Weber LLC",
+  "ListName": "Larkin-Roob",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 973
     }
   }
 }

@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 576,
+    "HierarchyId": 865,
     "Domain": "Dashboards",
-    "Name": "Gusikowski Group",
-    "Fullname": "non",
-    "ParentId": 712,
+    "Name": "Kessler-Gleason",
+    "Fullname": "beatae",
+    "ParentId": 811,
     "Children": [
       {
-        "HierarchyId": 961,
+        "HierarchyId": 54,
         "Domain": "Dashboards",
-        "Name": "Brown Group",
-        "Fullname": "autem",
-        "ParentId": 21,
+        "Name": "Konopelski, Feeney and Upton",
+        "Fullname": "quo",
+        "ParentId": 494,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-01-07T11:44:42.0077636+01:00",
-        "RegisteredAssociateId": 97,
-        "Updated": "2009-04-22T11:44:42.0077636+02:00",
-        "UpdatedAssociateId": 237,
+        "Registered": "2004-04-09T11:16:13.93321+02:00",
+        "RegisteredAssociateId": 175,
+        "Updated": "1997-04-16T11:16:13.93321+02:00",
+        "UpdatedAssociateId": 814,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldType": "System.String",
+            "FieldLength": 379
           }
         }
       }
     ],
-    "Registered": "1998-11-12T11:44:42.0077636+01:00",
-    "RegisteredAssociateId": 266,
-    "Updated": "2023-06-26T11:44:42.0077636+02:00",
-    "UpdatedAssociateId": 361,
+    "Registered": "2000-12-05T11:16:13.93321+01:00",
+    "RegisteredAssociateId": 602,
+    "Updated": "2002-08-16T11:16:13.93321+02:00",
+    "UpdatedAssociateId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldLength": 62
       }
     }
   }

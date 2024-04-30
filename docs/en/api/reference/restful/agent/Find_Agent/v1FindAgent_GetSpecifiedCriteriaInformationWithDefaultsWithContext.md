@@ -87,18 +87,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Pacocha, Rowe and Reinger",
-  "StorageKey": "ut",
+  "StorageType": "rerum",
+  "ProviderName": "Gerlach Group",
+  "StorageKey": "cumque",
   "DesiredColumnNames": [
-    "Koss, Johnston and Homenick",
-    "Rolfson-Davis"
+    "Morar, Funk and Bartell",
+    "Nicolas, White and Oberbrunner"
   ],
   "StaticColumns": [
-    "et",
-    "provident"
+    "nobis",
+    "ab"
   ],
-  "Context": "ipsam"
+  "Context": "libero"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gerlach Inc and Sons",
-      "Operator": "quia",
+      "Name": "Dicki-Raynor",
+      "Operator": "perferendis",
       "Values": [
-        "et",
-        "consequatur"
+        "consequuntur",
+        "sit"
       ],
       "DisplayValues": [
-        "aut",
-        "nobis"
+        "nam",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 837,
+      "InterParenthesis": 566,
       "InterOperator": "And",
-      "UniqueHash": 951
+      "UniqueHash": 52
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schimmel-D'Amore",
-      "DisplayTooltip": "veniam",
-      "DisplayType": "esse",
+      "DisplayName": "Stamm LLC",
+      "DisplayTooltip": "non",
+      "DisplayType": "neque",
       "CanOrderBy": false,
-      "Name": "Gusikowski Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Mosciski-Greenfelder",
-      "IsVisible": true,
-      "ExtraInfo": "non",
-      "Width": "et",
-      "IconHint": "eaque",
-      "HeadingIconHint": "nemo"
+      "Name": "Stoltenberg, Hahn and Mohr",
+      "CanRestrictBy": false,
+      "RestrictionType": "architecto",
+      "RestrictionListName": "Pfeffer, Gibson and Kuhic",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "quibusdam",
+      "IconHint": "sequi",
+      "HeadingIconHint": "inventore"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pfeffer, Schiller and Douglas",
-      "PrimaryKey": 428,
+      "EntityName": "Schneider-Kilback",
+      "PrimaryKey": 153,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "quisquam",
-          "LinkHint": "impedit"
+          "DisplayValue": "optio",
+          "TooltipHint": "iste",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "molestias",
+      "LinkHint": "omnis",
+      "StyleHint": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldType": "System.Int32",
+          "FieldLength": 219
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gaylord LLC",
-      "Description": "Up-sized upward-trending toolset",
-      "Rank": 194,
+      "Name": "Walter, Smith and Wolf",
+      "Description": "Realigned even-keeled attitude",
+      "Rank": 635,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gaylord LLC",
-      "Description": "Up-sized upward-trending toolset",
-      "Rank": 194,
+      "Name": "Walter, Smith and Wolf",
+      "Description": "Realigned even-keeled attitude",
+      "Rank": 635,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 194,
-  "CountryId": 177
+  "PersonId": 743,
+  "CountryId": 295
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 9740.472,
-  "Wgs84Longitude": 20790.956,
+  "Wgs84Latitude": 24843.218,
+  "Wgs84Longitude": 4403.2699999999995,
   "LocalizedAddress": [
     [
       {
-        "Name": "Turcotte, McCullough and Beer",
-        "Value": "veritatis",
-        "Tooltip": "aut",
-        "Label": "enim",
-        "ValueLength": 55,
-        "AddressType": "laudantium",
+        "Name": "Gerlach-Skiles",
+        "Value": "qui",
+        "Tooltip": "nobis",
+        "Label": "quam",
+        "ValueLength": 503,
+        "AddressType": "quis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 596
+            "FieldType": "System.Int32",
+            "FieldLength": 998
           }
         }
       }
     ],
     [
       {
-        "Name": "Kris, Langworth and Abshire",
-        "Value": "sit",
-        "Tooltip": "eveniet",
-        "Label": "dolor",
-        "ValueLength": 530,
-        "AddressType": "reprehenderit",
+        "Name": "Kub LLC",
+        "Value": "esse",
+        "Tooltip": "perspiciatis",
+        "Label": "consequatur",
+        "ValueLength": 125,
+        "AddressType": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldType": "System.String",
+            "FieldLength": 594
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dignissimos",
+  "Formatted": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 978
+      "FieldLength": 161
     }
   }
 }

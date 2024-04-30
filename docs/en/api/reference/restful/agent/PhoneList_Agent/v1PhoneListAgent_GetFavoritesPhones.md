@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-491-825-9655",
-    "PersonCellPhone": "941-000-5283",
-    "PersonPrivatePhone": "027.479.5421",
-    "PersonFaxNumber": "384256",
-    "PersonPagerNumber": "1445234",
-    "PersonEmail": "sibyl@nitzsche.us",
-    "Id": 877,
-    "Name": "Feil Group",
-    "Tooltip": "recusandae",
-    "UniqueId": "reiciendis",
+    "PersonDirectPhone": "(375)653-3522",
+    "PersonCellPhone": "374.535.3507 x6392",
+    "PersonPrivatePhone": "777.101.4392 x875",
+    "PersonFaxNumber": "1142947",
+    "PersonPagerNumber": "1215414",
+    "PersonEmail": "domenick_stanton@westpollich.uk",
+    "Id": 965,
+    "Name": "Hoeger-Rutherford",
+    "Tooltip": "laborum",
+    "UniqueId": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 928
       }
     }
   }

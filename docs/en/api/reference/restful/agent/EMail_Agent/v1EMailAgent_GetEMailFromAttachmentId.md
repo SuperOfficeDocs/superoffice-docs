@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 276,
+  "EmailId": 784,
   "AttachmentIds": [
-    "dicta",
-    "voluptatum"
+    "autem",
+    "culpa"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 240,
-      "ContactName": "Emmerich, Walsh and Johns",
-      "PersonId": 236,
-      "PersonName": "Hand, Tremblay and Hermiston",
-      "AssociateId": 133,
-      "Address": "praesentium",
-      "EmailId": 138,
+      "ContactId": 578,
+      "ContactName": "Corkery-Rutherford",
+      "PersonId": 857,
+      "PersonName": "Frami Group",
+      "AssociateId": 41,
+      "Address": "nesciunt",
+      "EmailId": 262,
       "DuplicatePersonIds": [
-        105,
-        78
+        588,
+        907
       ],
-      "Name": "Rath-Bahringer",
+      "Name": "Ruecker LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 161
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 905,
-      "ContactName": "Beahan, Padberg and Lebsack",
-      "PersonId": 144,
-      "PersonName": "Connelly LLC",
-      "AssociateId": 625,
-      "Address": "impedit",
-      "EmailId": 547,
+      "ContactId": 368,
+      "ContactName": "Terry-Beer",
+      "PersonId": 404,
+      "PersonName": "McKenzie-Kassulke",
+      "AssociateId": 68,
+      "Address": "ipsa",
+      "EmailId": 679,
       "DuplicatePersonIds": [
-        846,
-        708
+        247,
+        1002
       ],
-      "Name": "Cassin-Robel",
+      "Name": "Labadie Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 662
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 128,
-      "ContactName": "Dickens LLC",
-      "PersonId": 187,
-      "PersonName": "Grant-Trantow",
-      "AssociateId": 422,
-      "Address": "illum",
-      "EmailId": 527,
+      "ContactId": 155,
+      "ContactName": "Tromp-Runolfsdottir",
+      "PersonId": 324,
+      "PersonName": "Nitzsche Inc and Sons",
+      "AssociateId": 474,
+      "Address": "asperiores",
+      "EmailId": 662,
       "DuplicatePersonIds": [
-        841,
-        165
+        567,
+        606
       ],
-      "Name": "Bailey LLC",
+      "Name": "VonRueden, Satterfield and VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldType": "System.String",
+          "FieldLength": 250
         }
       }
     }
   ],
-  "Subject": "dolores",
-  "HTMLBody": "quibusdam",
+  "Subject": "aspernatur",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2016-09-09T11:44:33.6659495+02:00",
-  "Size": 215,
+  "Sent": "2012-01-23T11:16:09.2253497+01:00",
+  "Size": 644,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eius",
-  "PlainBody": "incidunt",
+  "MessageID": "est",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 138,
+  "ServerId": 988,
   "Attachments": [
     {
-      "Description": "Expanded transitional strategy",
-      "Filename": "consequatur",
-      "Size": 326,
-      "Type": "aliquid",
-      "Encoding": "ipsam",
-      "Id": "similique",
-      "Disposition": "asperiores",
+      "Description": "Right-sized assymetric collaboration",
+      "Filename": "quis",
+      "Size": 98,
+      "Type": "est",
+      "Encoding": "at",
+      "Id": "placeat",
+      "Disposition": "praesentium",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 532
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jerde Group",
+      "Name": "Dibbert-Muller",
       "Values": [
-        "qui",
-        "qui"
+        "velit",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 109
         }
       }
     },
     {
-      "Name": "Jerde Group",
+      "Name": "Dibbert-Muller",
       "Values": [
-        "qui",
-        "qui"
+        "velit",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 109
         }
       }
     }
   ],
-  "FolderName": "Hand, Dare and White",
-  "EmailItemId": 615,
-  "AccountId": 453,
-  "ReceivedAt": "1998-04-04T11:44:33.6659495+02:00",
+  "FolderName": "Fay Inc and Sons",
+  "EmailItemId": 688,
+  "AccountId": 438,
+  "ReceivedAt": "2016-04-19T11:16:09.2253497+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-01-17T11:44:33.6659495+01:00",
+  "RepliedAt": "2015-06-14T11:16:09.2253497+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 109
     }
   }
 }

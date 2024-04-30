@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 696,
-  "Name": "Deckow LLC",
-  "Tooltip": "consequuntur",
-  "PassiveText": "omnis",
-  "Deleted": false,
-  "Rank": 942,
+  "ReldefId": 820,
+  "Name": "Batz Group",
+  "Tooltip": "praesentium",
+  "PassiveText": "eum",
+  "Deleted": true,
+  "Rank": 877,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 600
     }
   }
 }

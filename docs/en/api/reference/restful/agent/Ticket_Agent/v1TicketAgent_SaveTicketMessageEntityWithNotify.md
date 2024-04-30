@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 104,
+  "EjMessageId": 797,
   "Ticket": null,
-  "CreatedAt": "2008-04-23T11:44:34.8844266+02:00",
+  "CreatedAt": "2022-03-31T11:16:09.9761636+02:00",
   "CreatedBy": null,
-  "Author": "repellendus",
+  "Author": "iusto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "minus",
-  "TimeSpent": 806,
-  "Body": "voluptatem",
-  "HtmlBody": "itaque",
-  "EmailHeader": "jace@wehner.biz",
-  "DebugInfo": "qui",
-  "MailSorter": "consequatur",
+  "MessageId": "quasi",
+  "TimeSpent": 264,
+  "Body": "accusantium",
+  "HtmlBody": "voluptate",
+  "EmailHeader": "tony_schumm@erdman.info",
+  "DebugInfo": "ipsa",
+  "MailSorter": "dolores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempora",
+  "SearchTitle": "libero",
   "MessageHeaders": [
     {
-      "Id": 447,
-      "Name": "Senger LLC",
-      "Value": "labore",
+      "Id": 631,
+      "Name": "Miller LLC",
+      "Value": "vitae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "maiores",
-  "Sentiment": 437,
-  "SentimentConfidence": 901,
+  "Important": false,
+  "Language": "quos",
+  "Sentiment": 181,
+  "SentimentConfidence": 288,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 566,
-      "Name": "Weissnat, Torphy and Johnston",
-      "ContentType": "non",
-      "AttSize": 80,
+      "AttachmentId": 998,
+      "Name": "Rutherford-Yost",
+      "ContentType": "quo",
+      "AttSize": 699,
       "InlineImage": false,
-      "ContentId": "inventore",
-      "AuthKey": "beatae",
-      "IsSafeFileExtension": true,
+      "ContentId": "molestiae",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "cumque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 270
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Crist LLC",
-    "ToolTip": "Animi est ut excepturi eos laboriosam minus.",
-    "Deleted": false,
-    "Rank": 67,
-    "Type": "consectetur",
-    "ColorBlock": 473,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "2000-10-17T11:44:43.3355939+02:00",
+    "Id": 976,
+    "Name": "Homenick, Nikolaus and Thiel",
+    "ToolTip": "Aut dolorum.",
+    "Deleted": true,
+    "Rank": 55,
+    "Type": "aspernatur",
+    "ColorBlock": 95,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2004-08-14T11:16:14.7307772+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Ullrich LLC",
-        "ToolTip": "Quia enim et debitis.",
+        "Id": 34,
+        "Name": "Dare-Gerlach",
+        "ToolTip": "Et repellat sed dolores ut.",
         "Deleted": false,
-        "Rank": 169,
-        "Type": "facilis",
-        "ColorBlock": 195,
-        "IconHint": "eum",
+        "Rank": 642,
+        "Type": "ullam",
+        "ColorBlock": 103,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2011-10-11T11:44:43.3355939+02:00",
+        "LastChanged": "1997-06-22T11:16:14.7307772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Ms. Laron Lockman",
+        "ExtraInfo": "nemo",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Mr. Nina Aubrey Rau MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 528
+            "FieldType": "System.Int32",
+            "FieldLength": 950
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Prof. Florian Kiana Beer DDS",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Travon Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

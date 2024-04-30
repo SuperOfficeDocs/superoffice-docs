@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Bahringer, Hansen and Lesch",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 927,
-  "Rank": 766
+  "Id": 720,
+  "Name": "Schulist-Swift",
+  "Tooltip": "id",
+  "Deleted": false,
+  "UdListDefinitionId": 25,
+  "Rank": 491
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "Thompson Group",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 585,
-  "Rank": 63,
+  "Id": 49,
+  "Name": "Reinger-McDermott",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "UdListDefinitionId": 83,
+  "Rank": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 629
     }
   }
 }

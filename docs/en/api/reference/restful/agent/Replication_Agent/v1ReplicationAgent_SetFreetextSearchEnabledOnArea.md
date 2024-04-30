@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/Replication/SetFreetextSearchEnabledOnArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 294,
-  "FreetextEnabled": true
+  "AreaId": 292,
+  "FreetextEnabled": false
 }
 ```
 

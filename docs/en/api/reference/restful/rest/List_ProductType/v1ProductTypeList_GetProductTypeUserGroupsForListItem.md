@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Bartoletti, Koch and Stokes",
-    "ToolTip": "Sit ipsa magnam ipsa dolore esse.",
-    "Deleted": true,
-    "Rank": 713,
-    "Type": "ut",
-    "ColorBlock": 916,
-    "IconHint": "maxime",
+    "Id": 317,
+    "Name": "Cole LLC",
+    "ToolTip": "Veritatis optio quia aut.",
+    "Deleted": false,
+    "Rank": 558,
+    "Type": "nemo",
+    "ColorBlock": 818,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2006-04-12T11:44:43.2106158+02:00",
+    "LastChanged": "2014-02-27T11:16:14.6526601+01:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Weber-Mohr",
-        "ToolTip": "Quis asperiores repellendus.",
+        "Id": 384,
+        "Name": "Muller, Klocko and Kutch",
+        "ToolTip": "Minima laudantium nulla.",
         "Deleted": false,
-        "Rank": 41,
-        "Type": "illo",
-        "ColorBlock": 5,
-        "IconHint": "voluptas",
+        "Rank": 284,
+        "Type": "soluta",
+        "ColorBlock": 255,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-03-21T11:44:43.2106158+01:00",
+        "LastChanged": "2002-11-24T11:16:14.6526601+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "facere",
+        "ExtraInfo": "non",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Manley Kuvalis",
+        "FullName": "Nina Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 193
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "dolores",
+    "ExtraInfo": "possimus",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Granville Williamson",
+    "FullName": "Lambert Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

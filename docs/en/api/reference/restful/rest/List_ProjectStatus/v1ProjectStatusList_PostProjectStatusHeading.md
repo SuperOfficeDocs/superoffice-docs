@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 328,
-  "Name": "Wiegand-Leuschke",
-  "Tooltip": "aut",
+  "HeadingId": 711,
+  "Name": "Wunsch-Gorczany",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 928,
-  "UdListDefinitionId": 708
+  "Rank": 437,
+  "UdListDefinitionId": 583
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 653,
-  "Name": "Kuvalis-Zulauf",
-  "Tooltip": "quia",
+  "HeadingId": 541,
+  "Name": "Towne, Daugherty and Pagac",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 786,
+  "Rank": 763,
+  "UdListDefinitionId": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

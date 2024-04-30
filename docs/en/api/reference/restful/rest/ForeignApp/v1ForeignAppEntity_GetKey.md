@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Mar 2005 11:44:42 G3T
+Last-Modified: Wed, 23 Nov 2005 11:16:13 G11T
 
 {
-  "Key": "ullam",
-  "Value": "esse",
-  "RecordId": 793,
-  "CreatedDate": "2012-11-30T11:44:42.0077636+01:00",
-  "UpdatedDate": "2005-03-15T11:44:42.0077636+01:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "commodi",
-  "TableName": "Brown LLC",
+  "Key": "sequi",
+  "Value": "ex",
+  "RecordId": 378,
+  "CreatedDate": "1998-03-21T11:16:13.93321+01:00",
+  "UpdatedDate": "2005-11-23T11:16:13.93321+01:00",
+  "UpdatedBy": "placeat",
+  "CreatedBy": "officia",
+  "TableName": "Ledner LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 660
     }
   }
 }

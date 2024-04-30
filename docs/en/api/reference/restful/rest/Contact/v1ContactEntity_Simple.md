@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 433,
-  "Name": "Weber-Becker",
-  "OrgNr": "799390",
+  "ContactId": 254,
+  "Name": "Schoen, Kilback and Kihn",
+  "OrgNr": "1426216",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "dicta",
-  "DirectPhone": "656-764-2970 x627",
-  "AssociateId": 368,
-  "CountryId": 733,
-  "EmailAddress": "gillian@ankundingherzog.ca",
-  "Kananame": "vero",
-  "EmailAddressName": "andrew.legros@graham.biz",
+  "City": "voluptatum",
+  "DirectPhone": "1-762-132-2643 x6521",
+  "AssociateId": 342,
+  "CountryId": 159,
+  "EmailAddress": "andrew@cartwright.info",
+  "Kananame": "fugit",
+  "EmailAddressName": "elizabeth@brown.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Betsy Ratke",
+  "AssociateFullName": "Mrs. Triston Makenzie DuBuque",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "molestias",
-  "FullName": "Orlando Williamson",
+  "FormattedAddress": "perferendis",
+  "FullName": "Mr. Octavia Lexie Emard",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 820,
-  "Number1": "171512",
-  "Number2": "670167",
+  "ActiveErpLinks": 733,
+  "Number1": "396891",
+  "Number2": "1121316",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

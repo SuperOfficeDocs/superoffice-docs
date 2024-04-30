@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Sharable secondary encoding
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=fugit,fugit
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Total 4th generation utilisation
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=rerum,vel
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ut",
-  "VersionId": "aut",
+  "ExternalReference": "odio",
+  "VersionId": "cupiditate",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "aut",
-  "AdditionalInfo": "saepe"
+  "Value": "deleniti",
+  "AdditionalInfo": "deserunt"
 }
 ```

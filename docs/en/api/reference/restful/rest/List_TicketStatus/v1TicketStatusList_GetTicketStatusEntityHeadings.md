@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 258,
-    "Name": "Bauch-O'Connell",
-    "Tooltip": "vero",
+    "HeadingId": 478,
+    "Name": "Kuhn LLC",
+    "Tooltip": "praesentium",
     "Deleted": true,
-    "Rank": 460,
-    "UdListDefinitionId": 947,
+    "Rank": 128,
+    "UdListDefinitionId": 678,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 110
       }
     }
   }

@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=False
+GET /api/v1/List/Credited/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Howe Group",
-    "Tooltip": "placeat",
+    "Id": 454,
+    "Name": "Watsica, Nienow and Beatty",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 910,
+    "UdListDefinitionId": 916,
+    "Rank": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 313
       }
     }
   }

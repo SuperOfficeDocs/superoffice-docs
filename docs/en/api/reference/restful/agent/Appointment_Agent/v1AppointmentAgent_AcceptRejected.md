@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 685,
+  "AppointmentId": 874,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-01-11T11:44:32.6350243+01:00",
-  "AppointmentId": 534,
-  "Description": "Open-architected hybrid synergy",
-  "Title": "fugiat",
-  "Agenda": "delectus",
-  "InternalNotes": "quia",
-  "StartDate": "2023-01-11T11:44:32.6350243+01:00",
-  "EndDate": "2015-01-15T11:44:32.6350243+01:00",
+  "CreatedDate": "2015-11-19T11:16:08.631516+01:00",
+  "AppointmentId": 525,
+  "Description": "Triple-buffered explicit model",
+  "Title": "repellat",
+  "Agenda": "recusandae",
+  "InternalNotes": "soluta",
+  "StartDate": "2024-03-25T11:16:08.631516+01:00",
+  "EndDate": "2013-09-06T11:16:08.631516+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 85,
+  "MotherId": 173,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-04-10T11:44:32.6505612+02:00",
+  "UpdatedDate": "2008-04-20T11:16:08.631516+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 287,
+  "ActiveLinks": 467,
   "Links": [
     {
-      "EntityName": "Greenholt-Mayert",
-      "Id": 305,
-      "Description": "Assimilated solution-oriented task-force",
-      "ExtraInfo": "sint",
-      "LinkId": 500,
+      "EntityName": "Padberg-Konopelski",
+      "Id": 1000,
+      "Description": "Advanced discrete protocol",
+      "ExtraInfo": "fugit",
+      "LinkId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldType": "System.String",
+          "FieldLength": 77
         }
       }
     }
   ],
-  "AlarmLeadTime": "adipisci",
-  "HasAlarm": true,
-  "ColorIndex": 389,
-  "IsFree": true,
+  "AlarmLeadTime": "sit",
+  "HasAlarm": false,
+  "ColorIndex": 468,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "sint",
-  "LeadTime": "officia",
-  "Location": "itaque",
-  "RejectCounter": 479,
+  "LagTime": "soluta",
+  "LeadTime": "eum",
+  "Location": "praesentium",
+  "RejectCounter": 827,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 677,
-      "PersonId": 170,
-      "ContactId": 991,
-      "EmailId": 239,
-      "SendEmail": false,
+      "AssociateId": 972,
+      "PersonId": 79,
+      "ContactId": 574,
+      "EmailId": 837,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "camila@bernhard.biz",
-      "Description": "Switchable responsive strategy"
+      "EmailAddress": "eloy@schmelerkoch.name",
+      "Description": "Open-architected methodical extranet"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-11-20T11:44:32.6505612+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-03-15T11:16:08.631516+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 897,
+  "PreferredTZLocation": 793,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 514,
+  "SuggestedAppointmentId": 520,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consectetur",
+  "CentralserviceVideomeetId": "dolores",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Bryon Shanie Hills"
+    "SuperOffice:1": "414441435",
+    "SuperOffice:2": "Nicklaus Macejkovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "vero"
+    "CustomFields1": "quo",
+    "CustomFields2": "facilis"
   },
-  "PublishEventDate": "2010-03-15T11:44:32.6505612+01:00",
-  "PublishTo": "2015-04-30T11:44:32.6505612+02:00",
-  "PublishFrom": "2023-02-11T11:44:32.6505612+01:00",
+  "PublishEventDate": "2023-10-27T11:16:08.631516+02:00",
+  "PublishTo": "2017-12-17T11:16:08.631516+01:00",
+  "PublishFrom": "2020-10-17T11:16:08.631516+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 914,
+      "VisibleId": 531,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     },
     {
-      "VisibleId": 914,
+      "VisibleId": 531,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   }
 }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 478,
-      "ContactName": "Schowalter Inc and Sons",
-      "PersonId": 493,
-      "PersonName": "Hagenes-Price",
-      "AssociateId": 584,
-      "Address": "facilis",
-      "EmailId": 564,
+      "ContactId": 516,
+      "ContactName": "Grimes-Wehner",
+      "PersonId": 70,
+      "PersonName": "Robel Inc and Sons",
+      "AssociateId": 553,
+      "Address": "omnis",
+      "EmailId": 344,
       "DuplicatePersonIds": [
-        207,
-        295
+        817,
+        850
       ],
-      "Name": "Kreiger-Heaney",
+      "Name": "Larkin, Heidenreich and Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 164
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 314,
-      "ContactName": "McCullough, Welch and Beahan",
-      "PersonId": 262,
-      "PersonName": "Hand, Heidenreich and Leuschke",
-      "AssociateId": 595,
-      "Address": "tempora",
-      "EmailId": 842,
+      "ContactId": 706,
+      "ContactName": "Terry-Will",
+      "PersonId": 129,
+      "PersonName": "Fadel-McLaughlin",
+      "AssociateId": 913,
+      "Address": "vel",
+      "EmailId": 671,
       "DuplicatePersonIds": [
-        256,
-        147
+        245,
+        948
       ],
-      "Name": "Kuvalis Group",
+      "Name": "Lynch, Fadel and O'Conner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldLength": 243
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 27,
-      "ContactName": "Lubowitz-Miller",
-      "PersonId": 62,
-      "PersonName": "Kris-Stroman",
-      "AssociateId": 621,
-      "Address": "voluptate",
-      "EmailId": 689,
+      "ContactId": 337,
+      "ContactName": "Harber Group",
+      "PersonId": 727,
+      "PersonName": "Harris-Mann",
+      "AssociateId": 269,
+      "Address": "quia",
+      "EmailId": 940,
       "DuplicatePersonIds": [
-        940,
-        273
+        908,
+        581
       ],
-      "Name": "Kassulke-Nienow",
+      "Name": "Bruen-Sanford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 766
         }
       }
     }
   ],
-  "Subject": "voluptatibus",
-  "HTMLBody": "dolore",
+  "Subject": "architecto",
+  "HTMLBody": "fuga",
   "From": null,
-  "Sent": "2021-11-17T11:44:33.6503221+01:00",
-  "Size": 142,
+  "Sent": "2011-05-30T11:16:09.2097228+02:00",
+  "Size": 927,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "autem",
-  "PlainBody": "ad",
+  "MessageID": "ullam",
+  "PlainBody": "possimus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 173,
+  "ServerId": 768,
   "Attachments": [
     {
-      "Description": "Extended homogeneous support",
-      "Filename": "molestiae",
-      "Size": 408,
-      "Type": "veritatis",
-      "Encoding": "sed",
-      "Id": "rerum",
-      "Disposition": "et",
+      "Description": "Progressive didactic algorithm",
+      "Filename": "eligendi",
+      "Size": 89,
+      "Type": "reprehenderit",
+      "Encoding": "dolorem",
+      "Id": "amet",
+      "Disposition": "provident",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldType": "System.String",
+          "FieldLength": 372
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Little, Weissnat and Hansen",
+      "Name": "Robel-Ferry",
       "Values": [
-        "et",
-        "earum"
+        "expedita",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 335
         }
       }
     },
     {
-      "Name": "Little, Weissnat and Hansen",
+      "Name": "Robel-Ferry",
       "Values": [
-        "et",
-        "earum"
+        "expedita",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 335
         }
       }
     }
   ],
-  "FolderName": "Gislason-Lockman",
-  "EmailItemId": 226,
-  "AccountId": 124,
-  "ReceivedAt": "2019-10-16T11:44:33.6503221+02:00",
+  "FolderName": "Schaden, Murphy and Stroman",
+  "EmailItemId": 372,
+  "AccountId": 239,
+  "ReceivedAt": "2008-01-13T11:16:09.2097228+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-09-27T11:44:33.6503221+02:00",
+  "RepliedAt": "2009-09-19T11:16:09.2097228+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 983
     }
   }
 }

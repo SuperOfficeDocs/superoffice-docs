@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 102,
-    "Section": "nam",
-    "Key": "iste",
-    "Name": "Kerluke, Gorczany and Spinka",
+    "PrefDescId": 769,
+    "Section": "odit",
+    "Key": "ea",
+    "Name": "Bashirian-Murazik",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Stand-alone hybrid local area network",
+    "Description": "Universal needs-based knowledge user",
     "IsBuiltin": false,
-    "TableName": "Bartoletti, Will and Blanda",
-    "UserDefinedListId": 925,
-    "Rank": 867,
-    "SubGroup": "amet",
-    "MinLevel": 566,
-    "MaxValue": 368,
-    "MinValue": 880,
-    "RequiredLicense": "neque",
+    "TableName": "Parker LLC",
+    "UserDefinedListId": 202,
+    "Rank": 406,
+    "SubGroup": "et",
+    "MinLevel": 870,
+    "MaxValue": 498,
+    "MinValue": 327,
+    "RequiredLicense": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 761
       }
     }
   }

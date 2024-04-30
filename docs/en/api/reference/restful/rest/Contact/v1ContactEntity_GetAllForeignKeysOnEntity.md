@@ -55,7 +55,7 @@ OK
 GET /api/v1/Contact/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -66,6 +66,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "et",
-  "2": "odio"
+  "2": "quia"
 }
 ```

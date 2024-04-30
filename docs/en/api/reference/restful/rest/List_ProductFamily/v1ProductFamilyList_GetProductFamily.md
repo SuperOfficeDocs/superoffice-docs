@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Ryan-Barton",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 654,
-  "Rank": 525,
+  "Id": 936,
+  "Name": "Wiza, Maggio and Huels",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 876,
+  "Rank": 306,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 479
     }
   }
 }

@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Appointments?$select=name,department,category/id
 GET /api/v1/Person/{id}/Appointments?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Appointments?$orderBy=name asc
-GET /api/v1/Person/{id}/Appointments?$entities=distinctio
-GET /api/v1/Person/{id}/Appointments?$top=714
-GET /api/v1/Person/{id}/Appointments?$skip=942
+GET /api/v1/Person/{id}/Appointments?$entities=et
+GET /api/v1/Person/{id}/Appointments?$top=321
+GET /api/v1/Person/{id}/Appointments?$skip=594
 GET /api/v1/Person/{id}/Appointments?$mode=Full
 GET /api/v1/Person/{id}/Appointments?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Appointments?$context=repellat
+GET /api/v1/Person/{id}/Appointments?$context=officia
 GET /api/v1/Person/{id}/Appointments?$format=JSON
 GET /api/v1/Person/{id}/Appointments?$jsonSafe=False
 GET /api/v1/Person/{id}/Appointments?$output=Display
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Person/{id}/Appointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "aliquam",
   "value": [
     {
-      "PrimaryKey": 3021,
-      "EntityName": "sale",
-      "saleId": 3021,
-      "contactId": 3831,
-      "name": "Schinner-Krajcik"
+      "PrimaryKey": 7576,
+      "EntityName": "person",
+      "personId": 7576,
+      "fullName": "Ms. Sonia Veum MD"
     },
     {
-      "PrimaryKey": 1181,
-      "EntityName": "sale",
-      "saleId": 1181,
-      "contactId": 8907,
-      "name": "Wisoky-Yundt"
+      "PrimaryKey": 721,
+      "EntityName": "person",
+      "personId": 721,
+      "fullName": "Zachariah Florida Krajcik I"
     }
   ]
 }

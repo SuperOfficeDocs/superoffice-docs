@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=749
+POST /api/v1/Agents/Person/GetPerson?personId=186
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "exercitationem",
-  "PersonId": 78,
-  "Mrmrs": "est",
-  "Firstname": "Ryder",
-  "Lastname": "Turner",
-  "MiddleName": "Bayer-Wilkinson",
-  "Title": "ea",
-  "Description": "Customer-focused 24/7 Graphic Interface",
-  "Email": "candida.barton@blanda.uk",
-  "FullName": "Prof. Tad Runolfsdottir IV",
-  "DirectPhone": "(320)369-7045 x145",
-  "FormalName": "Koepp-Cartwright",
-  "CountryId": 169,
-  "ContactId": 594,
-  "ContactName": "Aufderhar Group",
-  "Retired": 123,
-  "Rank": 129,
-  "ActiveInterests": 915,
-  "ContactDepartment": "",
-  "ContactCountryId": 227,
-  "ContactOrgNr": "904303",
-  "FaxPhone": "111-765-4403 x01011",
-  "MobilePhone": "1-377-576-3446 x02328",
-  "ContactPhone": "241-533-4724 x16682",
-  "AssociateName": "Wuckert LLC",
-  "AssociateId": 219,
-  "UsePersonAddress": true,
-  "ContactFax": "omnis",
-  "Kanafname": "exercitationem",
-  "Kanalname": "nostrum",
-  "Post1": "illo",
-  "Post2": "quo",
-  "Post3": "sed",
-  "EmailName": "kirk_brekke@sipesauer.info",
-  "ContactFullName": "Jocelyn Lowe",
-  "ActiveErpLinks": 563,
-  "TicketPriorityId": 840,
-  "SupportLanguageId": 823,
-  "SupportAssociateId": 505,
+  "Position": "consectetur",
+  "PersonId": 849,
+  "Mrmrs": "fugiat",
+  "Firstname": "Abbigail",
+  "Lastname": "Durgan",
+  "MiddleName": "Littel Inc and Sons",
+  "Title": "officiis",
+  "Description": "Business-focused assymetric collaboration",
+  "Email": "samara.olson@russel.com",
+  "FullName": "Arturo Christiansen",
+  "DirectPhone": "(036)710-2314 x72108",
+  "FormalName": "Renner Inc and Sons",
+  "CountryId": 266,
+  "ContactId": 303,
+  "ContactName": "Buckridge Inc and Sons",
+  "Retired": 607,
+  "Rank": 224,
+  "ActiveInterests": 360,
+  "ContactDepartment": "optimize B2B web-readiness",
+  "ContactCountryId": 967,
+  "ContactOrgNr": "1352571",
+  "FaxPhone": "(751)677-6754 x1579",
+  "MobilePhone": "(476)436-4044 x6412",
+  "ContactPhone": "536.020.0875 x04772",
+  "AssociateName": "Medhurst-Dooley",
+  "AssociateId": 973,
+  "UsePersonAddress": false,
+  "ContactFax": "et",
+  "Kanafname": "voluptas",
+  "Kanalname": "officiis",
+  "Post1": "quibusdam",
+  "Post2": "omnis",
+  "Post3": "veritatis",
+  "EmailName": "ted@stokes.us",
+  "ContactFullName": "Tristian Larkin",
+  "ActiveErpLinks": 491,
+  "TicketPriorityId": 888,
+  "SupportLanguageId": 859,
+  "SupportAssociateId": 420,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 630
     }
   }
 }

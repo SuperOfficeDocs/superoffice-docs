@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved non-volatile time-frame",
-  "Postit": "et",
+  "Description": "Ameliorated composite superstructure",
+  "Postit": "cupiditate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 86,
-  "IncludePerson": 514,
-  "MemberCount": 527,
-  "Name": "Kling, Nikolaus and Gusikowski",
-  "PostitTextId": 328,
-  "CreatedDate": "2013-09-02T11:44:42.5388946+02:00",
-  "SelectionId": 811,
-  "SoundEx": "deleniti",
-  "Source": 729,
-  "TextId": 325,
-  "UpdatedDate": "2001-06-27T11:44:42.5388946+02:00",
-  "UpdatedCount": 897,
-  "Visibility": 960,
+  "GroupIdx": 1000,
+  "IncludePerson": 116,
+  "MemberCount": 133,
+  "Name": "DuBuque LLC",
+  "PostitTextId": 708,
+  "CreatedDate": "1997-10-14T11:16:14.2304645+02:00",
+  "SelectionId": 159,
+  "SoundEx": "et",
+  "Source": 191,
+  "TextId": 512,
+  "UpdatedDate": "2011-06-21T11:16:14.2304645+02:00",
+  "UpdatedCount": 759,
+  "Visibility": 590,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 707,
-  "TargetTableName": "Gusikowski, Metz and Glover",
+  "TargetTableNumber": 103,
+  "TargetTableName": "Ruecker-Feeney",
   "Completed": false,
-  "LeftSelectionId": 43,
-  "RightSelectionId": 74,
+  "LeftSelectionId": 483,
+  "RightSelectionId": 232,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pagac-Rogahn",
-  "ShadowProviderName": "Zemlak, Willms and Schowalter",
-  "ChartKey": "et",
-  "LastLoaded": "2006-03-04T11:44:42.5388946+01:00",
-  "LastLoadedBy": 172,
+  "MainProviderName": "Abshire LLC",
+  "ShadowProviderName": "Rippin Inc and Sons",
+  "ChartKey": "aliquid",
+  "LastLoaded": "2010-02-03T11:16:14.2304645+01:00",
+  "LastLoadedBy": 378,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-04-25T11:44:42.5388946+02:00",
-  "LastMembershipChangeBy": 71,
+  "LastMembershipChange": "2013-08-15T11:16:14.2304645+02:00",
+  "LastMembershipChangeBy": 954,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dignissimos",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Maggio Inc and Sons",
-  "DashboardTileDefinitionId": 37,
+  "MainHeading": "quis",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Runolfsson-Paucek",
+  "DashboardTileDefinitionId": 675,
   "VisibleFor": [
     {
-      "VisibleId": 707,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 239
         }
       }
     },
     {
-      "VisibleId": 707,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 239
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   },
   "_Links": {

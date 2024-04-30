@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 611
+  "QuoteVersionId": 728
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 22900.138,
-    "Wgs84Longitude": 18565.816,
+    "Wgs84Latitude": 23332.63,
+    "Wgs84Longitude": 19133.07,
     "LocalizedAddress": [
       [
         {
-          "Name": "Schneider Group",
-          "Value": "odit",
-          "Tooltip": "commodi",
-          "Label": "perspiciatis",
-          "ValueLength": 256,
-          "AddressType": "sit",
+          "Name": "McGlynn-Lueilwitz",
+          "Value": "cupiditate",
+          "Tooltip": "necessitatibus",
+          "Label": "accusamus",
+          "ValueLength": 580,
+          "AddressType": "in",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 463
+              "FieldLength": 747
             }
           }
         }
       ],
       [
         {
-          "Name": "Haag LLC",
-          "Value": "maiores",
-          "Tooltip": "vitae",
-          "Label": "quaerat",
-          "ValueLength": 830,
-          "AddressType": "ratione",
+          "Name": "Greenholt Inc and Sons",
+          "Value": "placeat",
+          "Tooltip": "expedita",
+          "Label": "dolor",
+          "ValueLength": 877,
+          "AddressType": "vel",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 948
+              "FieldLength": 663
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "illo",
+    "Formatted": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 74
       }
     }
   }

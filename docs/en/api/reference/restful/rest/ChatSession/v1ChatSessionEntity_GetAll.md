@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=nulla
-GET /api/v1/ChatSession?$top=493
-GET /api/v1/ChatSession?$skip=945
+GET /api/v1/ChatSession?$entities=aut
+GET /api/v1/ChatSession?$top=676
+GET /api/v1/ChatSession?$skip=737
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=sunt
+GET /api/v1/ChatSession?$context=ea
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 792,
-      "EntityName": "sale",
-      "saleId": 792,
-      "contactId": 6946,
-      "name": "Lesch Inc and Sons"
+      "PrimaryKey": 8891,
+      "EntityName": "person",
+      "personId": 8891,
+      "fullName": "Ottilie Wyman"
     },
     {
-      "PrimaryKey": 823,
-      "EntityName": "sale",
-      "saleId": 823,
-      "contactId": 8829,
-      "name": "Rolfson, Streich and Collier"
+      "PrimaryKey": 4173,
+      "EntityName": "person",
+      "personId": 4173,
+      "fullName": "Prof. Marvin Schmitt"
     }
   ]
 }

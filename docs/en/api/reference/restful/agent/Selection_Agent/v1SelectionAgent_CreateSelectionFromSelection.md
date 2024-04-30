@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 714,
-  "Name": "Huel, Jast and Macejkovic",
+  "SelectionId": 494,
+  "Name": "Legros-Weissnat",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total user-facing initiative",
-  "Postit": "saepe",
+  "Description": "Grass-roots discrete firmware",
+  "Postit": "pariatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 637,
-  "IncludePerson": 598,
-  "MemberCount": 515,
-  "Name": "Greenfelder Inc and Sons",
-  "PostitTextId": 947,
-  "CreatedDate": "2006-02-26T11:44:34.4782654+01:00",
-  "SelectionId": 409,
-  "SoundEx": "architecto",
-  "Source": 266,
-  "TextId": 581,
-  "UpdatedDate": "2007-10-11T11:44:34.4782654+02:00",
-  "UpdatedCount": 991,
-  "Visibility": 887,
+  "GroupIdx": 430,
+  "IncludePerson": 509,
+  "MemberCount": 310,
+  "Name": "Balistreri, Gutkowski and Walker",
+  "PostitTextId": 468,
+  "CreatedDate": "2000-06-19T11:16:09.7259925+02:00",
+  "SelectionId": 447,
+  "SoundEx": "similique",
+  "Source": 579,
+  "TextId": 722,
+  "UpdatedDate": "2022-01-18T11:16:09.7259925+01:00",
+  "UpdatedCount": 189,
+  "Visibility": 588,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 487,
-  "TargetTableName": "Simonis, Conroy and Murray",
+  "TargetTableNumber": 198,
+  "TargetTableName": "Blanda Group",
   "Completed": true,
-  "LeftSelectionId": 843,
-  "RightSelectionId": 11,
+  "LeftSelectionId": 223,
+  "RightSelectionId": 304,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Glover, Wintheiser and Cummings",
-  "ShadowProviderName": "Ferry, Cremin and Bruen",
-  "ChartKey": "dolore",
-  "LastLoaded": "2004-07-11T11:44:34.4782654+02:00",
-  "LastLoadedBy": 774,
+  "MainProviderName": "Legros Inc and Sons",
+  "ShadowProviderName": "Sawayn-Bosco",
+  "ChartKey": "nam",
+  "LastLoaded": "2021-08-14T11:16:09.7259925+02:00",
+  "LastLoadedBy": 621,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-05-18T11:44:34.4782654+02:00",
-  "LastMembershipChangeBy": 662,
+  "LastMembershipChange": "2000-01-11T11:16:09.7259925+01:00",
+  "LastMembershipChangeBy": 575,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "recusandae",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Lind-Gulgowski",
-  "DashboardTileDefinitionId": 503,
+  "MainHeading": "nostrum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Hoppe-Gottlieb",
+  "DashboardTileDefinitionId": 46,
   "VisibleFor": [
     {
-      "VisibleId": 857,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 657
         }
       }
     },
     {
-      "VisibleId": 857,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 657
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 810
     }
   }
 }

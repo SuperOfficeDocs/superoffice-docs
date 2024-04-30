@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Apr 2021 11:44:41 G4T
+Last-Modified: Fri, 11 Nov 2005 11:16:13 G11T
 
 {
-  "DocumentId": 383,
+  "DocumentId": 126,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "assumenda",
-  "Header": "impedit",
-  "Name": "Batz, Veum and Rath",
-  "OurRef": "voluptatem",
-  "YourRef": "cupiditate",
-  "CreatedDate": "2014-06-25T11:44:41.882801+02:00",
-  "UpdatedDate": "2021-04-05T11:44:41.882801+02:00",
-  "Description": "Multi-lateral next generation productivity",
+  "Attention": "ut",
+  "Header": "ullam",
+  "Name": "Reilly-Farrell",
+  "OurRef": "amet",
+  "YourRef": "accusamus",
+  "CreatedDate": "2016-01-23T11:16:13.8550957+01:00",
+  "UpdatedDate": "2005-11-11T11:16:13.8550957+01:00",
+  "Description": "Automated leading edge success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-06-08T11:44:41.882801+02:00",
-  "ExternalRef": "libero",
+  "Date": "2019-02-24T11:16:13.8550957+01:00",
+  "ExternalRef": "commodi",
   "Completed": "Completed",
-  "ActiveLinks": 361,
+  "ActiveLinks": 595,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McCullough, Huels and Rice",
-      "Id": 475,
-      "Description": "Polarised holistic parallelism",
-      "ExtraInfo": "recusandae",
-      "LinkId": 730,
+      "EntityName": "Schroeder-Stehr",
+      "Id": 634,
+      "Description": "Programmable optimal monitoring",
+      "ExtraInfo": "optio",
+      "LinkId": 484,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 433
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 150,
-  "Snum": 970,
+  "SuggestedDocumentId": 12,
+  "Snum": 448,
   "UserDefinedFields": {
-    "SuperOffice:1": "Maritza Dennis Kovacek II",
-    "SuperOffice:2": "Garnett Boyle"
+    "SuperOffice:1": "Kaylie Nikko Beatty I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "aut"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "dolorum"
   },
-  "PublishEventDate": "1997-12-04T11:44:41.882801+01:00",
-  "PublishTo": "2012-04-30T11:44:41.882801+02:00",
-  "PublishFrom": "2019-08-27T11:44:41.882801+02:00",
+  "PublishEventDate": "2011-05-21T11:16:13.8550957+02:00",
+  "PublishTo": "1998-10-01T11:16:13.8550957+02:00",
+  "PublishFrom": "2006-12-13T11:16:13.8550957+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 155,
+      "VisibleId": 410,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     },
     {
-      "VisibleId": 155,
+      "VisibleId": 410,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Mon, 05 Apr 2021 11:44:41 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldLength": 134
     }
   }
 }

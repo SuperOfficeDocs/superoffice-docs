@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 137,
-  "TemplateName": "Schmidt Inc and Sons",
+  "SelectionId": 375,
+  "TemplateName": "Trantow, Abbott and Toy",
   "UseContacts": true,
-  "OrderBy": "praesentium"
+  "OrderBy": "consequatur"
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Konopelski, Hansen and Kautzer",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 873,
+    "HeadingId": 420,
+    "Name": "Mitchell, Berge and Beatty",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 40,
+    "UdListDefinitionId": 185,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 18
       }
     }
   }

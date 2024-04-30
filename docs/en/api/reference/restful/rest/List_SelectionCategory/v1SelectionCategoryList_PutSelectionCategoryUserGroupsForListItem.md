@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Gutmann Group",
-    "ToolTip": "Excepturi est id sit.",
+    "Id": 370,
+    "Name": "Schamberger Group",
+    "ToolTip": "Ut similique.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "et",
-    "ColorBlock": 453,
-    "IconHint": "nostrum",
+    "Rank": 427,
+    "Type": "aperiam",
+    "ColorBlock": 827,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2011-09-15T11:44:43.3512152+02:00",
+    "LastChanged": "2014-05-22T11:16:14.8246461+02:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Brown, Rowe and Schroeder",
-        "ToolTip": "Aut ex rem atque assumenda.",
+        "Id": 89,
+        "Name": "Predovic LLC",
+        "ToolTip": "Modi dolorem reprehenderit aliquid optio.",
         "Deleted": false,
-        "Rank": 173,
-        "Type": "numquam",
-        "ColorBlock": 445,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2022-11-19T11:44:43.3512152+01:00",
+        "Rank": 684,
+        "Type": "aut",
+        "ColorBlock": 816,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2004-04-22T11:16:14.8246461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Colton Oma Hettinger PhD"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Alexandria Dibbert PhD"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "corporis",
+    "ExtraInfo": "dolore",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Hildegard Izabella Ernser II"
+    "FullName": "Betty Schroeder"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Dibbert-Dach",
-    "ToolTip": "Molestias natus similique aut ducimus impedit consequatur doloribus.",
-    "Deleted": false,
-    "Rank": 493,
-    "Type": "nostrum",
-    "ColorBlock": 605,
-    "IconHint": "quod",
+    "Id": 528,
+    "Name": "Konopelski-Blanda",
+    "ToolTip": "Itaque qui.",
+    "Deleted": true,
+    "Rank": 194,
+    "Type": "officia",
+    "ColorBlock": 911,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2012-02-01T11:44:43.3668335+01:00",
+    "LastChanged": "2024-02-22T11:16:14.8246461+01:00",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Emmerich, Bechtelar and Padberg",
-        "ToolTip": "Corporis repudiandae.",
-        "Deleted": true,
-        "Rank": 572,
-        "Type": "id",
-        "ColorBlock": 65,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "2011-04-12T11:44:43.3668335+02:00",
+        "Id": 154,
+        "Name": "Russel-Wiegand",
+        "ToolTip": "Ipsam nobis repellat amet exercitationem sed nobis.",
+        "Deleted": false,
+        "Rank": 220,
+        "Type": "minus",
+        "ColorBlock": 325,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "1999-04-11T11:16:14.8246461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "earum",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Prof. Lula Kirlin",
+        "FullName": "Wiley Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 650
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "id",
+    "ExtraInfo": "quae",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Jerome Little PhD",
+    "FullName": "Ms. Guy Robel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 555
       }
     }
   }

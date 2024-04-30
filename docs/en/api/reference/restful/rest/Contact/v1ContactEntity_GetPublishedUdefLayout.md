@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 722,
-    "ColumnId": 835,
-    "FieldDefault": "repudiandae",
-    "FieldHeight": 234,
-    "FieldLabel": "ea",
-    "FieldLeft": 733,
-    "FieldTop": 474,
+    "UDefFieldId": 737,
+    "ColumnId": 64,
+    "FieldDefault": "sunt",
+    "FieldHeight": 862,
+    "FieldLabel": "impedit",
+    "FieldLeft": 336,
+    "FieldTop": 88,
     "FieldType": "Checkbox",
-    "FieldWidth": 650,
-    "FormatMask": "ex",
-    "HideLabel": true,
+    "FieldWidth": 828,
+    "FormatMask": "quia",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 126,
-    "LabelLeft": 226,
-    "LabelTop": 681,
-    "LabelWidth": 631,
-    "LastVersionId": 154,
-    "ListTableId": 530,
+    "LabelHeight": 375,
+    "LabelLeft": 247,
+    "LabelTop": 708,
+    "LabelWidth": 368,
+    "LastVersionId": 587,
+    "ListTableId": 128,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 159,
-    "ProgId": "quae",
+    "Page1LineNo": 733,
+    "ProgId": "voluptas",
     "IsReadOnly": false,
-    "ShortLabel": "fuga",
-    "TabOrder": 949,
-    "TextLength": 35,
-    "Tooltip": "aut",
-    "UdefIdentity": 912,
-    "UDListDefinitionId": 241,
+    "ShortLabel": "est",
+    "TabOrder": 487,
+    "TextLength": 27,
+    "Tooltip": "aliquid",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 78,
     "Justification": "Center",
-    "Version": 671,
-    "TemplateVariableName": "Pollich-Welch",
-    "HasBeenPublished": false,
-    "MdoListName": "Marvin, Becker and Mosciski",
+    "Version": 183,
+    "TemplateVariableName": "McClure Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Dietrich-Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 997
       }
     }
   }

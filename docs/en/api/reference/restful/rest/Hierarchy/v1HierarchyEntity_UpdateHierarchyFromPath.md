@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 392,
+  "HierarchyId": 976,
   "Domain": "Dashboards",
-  "Name": "Koss Group",
-  "Fullname": "nihil",
-  "ParentId": 115,
+  "Name": "Eichmann, Blanda and Runte",
+  "Fullname": "vel",
+  "ParentId": 882,
   "Children": [
     {
-      "HierarchyId": 480,
+      "HierarchyId": 999,
       "Domain": "Dashboards",
-      "Name": "Kertzmann-Nikolaus",
-      "Fullname": "rerum",
-      "ParentId": 620,
+      "Name": "Berge Inc and Sons",
+      "Fullname": "nobis",
+      "ParentId": 752,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-04-24T11:44:42.0077636+02:00",
-      "RegisteredAssociateId": 268,
-      "Updated": "1999-10-06T11:44:42.0077636+02:00",
-      "UpdatedAssociateId": 875
+      "Registered": "2014-10-03T11:16:13.93321+02:00",
+      "RegisteredAssociateId": 231,
+      "Updated": "2010-08-08T11:16:13.93321+02:00",
+      "UpdatedAssociateId": 732
     }
   ],
-  "Registered": "2016-02-26T11:44:42.0077636+01:00",
-  "RegisteredAssociateId": 259,
-  "Updated": "2001-07-05T11:44:42.0077636+02:00",
-  "UpdatedAssociateId": 418
+  "Registered": "2021-06-15T11:16:13.93321+02:00",
+  "RegisteredAssociateId": 859,
+  "Updated": "2012-05-30T11:16:13.93321+02:00",
+  "UpdatedAssociateId": 421
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 562,
+  "HierarchyId": 372,
   "Domain": "Dashboards",
-  "Name": "Schaden Group",
-  "Fullname": "sint",
-  "ParentId": 513,
+  "Name": "Metz, Lockman and Ortiz",
+  "Fullname": "a",
+  "ParentId": 416,
   "Children": [
     {
-      "HierarchyId": 415,
+      "HierarchyId": 951,
       "Domain": "Dashboards",
-      "Name": "Stracke Group",
-      "Fullname": "et",
-      "ParentId": 970,
+      "Name": "Langosh Group",
+      "Fullname": "illum",
+      "ParentId": 431,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-12-24T11:44:42.0077636+01:00",
-      "RegisteredAssociateId": 654,
-      "Updated": "2020-02-03T11:44:42.0077636+01:00",
-      "UpdatedAssociateId": 916,
+      "Registered": "2016-03-22T11:16:13.93321+01:00",
+      "RegisteredAssociateId": 322,
+      "Updated": "2007-07-05T11:16:13.93321+02:00",
+      "UpdatedAssociateId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldType": "System.Int32",
+          "FieldLength": 774
         }
       }
     }
   ],
-  "Registered": "2023-12-09T11:44:42.0077636+01:00",
-  "RegisteredAssociateId": 276,
-  "Updated": "2003-01-03T11:44:42.0077636+01:00",
-  "UpdatedAssociateId": 33,
+  "Registered": "2019-12-04T11:16:13.93321+01:00",
+  "RegisteredAssociateId": 22,
+  "Updated": "2011-05-15T11:16:13.93321+02:00",
+  "UpdatedAssociateId": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 304
     }
   }
 }

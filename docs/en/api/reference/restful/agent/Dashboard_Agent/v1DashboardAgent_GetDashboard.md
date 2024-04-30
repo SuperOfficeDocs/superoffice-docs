@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=818
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=197
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 760,
-  "AssociateId": 561,
-  "Caption": "et",
+  "DashboardId": 943,
+  "AssociateId": 977,
+  "Caption": "vel",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 119,
-      "Caption": "totam",
-      "Description": "Switchable background website",
-      "ChartName": "McLaughlin Group",
-      "ChartId": "id",
+      "DashboardTileId": 66,
+      "Caption": "expedita",
+      "Description": "Organic zero tolerance instruction set",
+      "ChartName": "Kutch-Dickinson",
+      "ChartId": "eius",
       "IsDefault": false,
-      "AssociateId": 311,
-      "GroupId": 309,
-      "SelectionId": 371,
-      "Config": "enim",
+      "AssociateId": 925,
+      "GroupId": 41,
+      "SelectionId": 904,
+      "Config": "aliquid",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldLength": 643
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldLength": 669
     }
   }
 }

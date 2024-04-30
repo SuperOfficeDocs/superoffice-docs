@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 930,
-  "LanguageCode": "officia"
+  "DocumentTemplateId": 101,
+  "LanguageCode": "sed"
 }
 ```
 

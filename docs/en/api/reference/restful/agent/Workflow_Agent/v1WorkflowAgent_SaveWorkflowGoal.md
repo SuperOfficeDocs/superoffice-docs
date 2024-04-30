@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 925,
-  "WorkflowId": 789,
+  "WorkflowGoalId": 239,
+  "WorkflowId": 405,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Daugherty Group",
-      "Description": "Total solution-oriented archive",
-      "Rank": 127,
+      "Name": "Emmerich-Quitzon",
+      "Description": "Inverse heuristic knowledge base",
+      "Rank": 894,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Daugherty Group",
-      "Description": "Total solution-oriented archive",
-      "Rank": 127,
+      "Name": "Emmerich-Quitzon",
+      "Description": "Inverse heuristic knowledge base",
+      "Rank": 894,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 970,
-  "WorkflowId": 788,
+  "WorkflowGoalId": 872,
+  "WorkflowId": 185,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Block-Konopelski",
-      "Description": "Compatible explicit Graphical User Interface",
-      "Rank": 820,
+      "Name": "McGlynn-DuBuque",
+      "Description": "Visionary homogeneous project",
+      "Rank": 466,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Block-Konopelski",
-      "Description": "Compatible explicit Graphical User Interface",
-      "Rank": 820,
+      "Name": "McGlynn-DuBuque",
+      "Description": "Visionary homogeneous project",
+      "Rank": 466,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 505
     }
   }
 }

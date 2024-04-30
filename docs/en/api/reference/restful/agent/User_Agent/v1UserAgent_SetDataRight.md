@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 383,
-  "TableName": "Windler, Kunze and Schultz",
+  "RoleId": 242,
+  "TableName": "Connelly-Emard",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "sed"
+  "DataRightValue": "unde"
 }
 ```
 

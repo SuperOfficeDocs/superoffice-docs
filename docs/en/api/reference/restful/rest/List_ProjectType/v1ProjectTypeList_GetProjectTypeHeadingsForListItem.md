@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Doloremque et.",
+    "Id": 56,
+    "Name": "Lind-Kunze",
+    "ToolTip": "Ut voluptatem distinctio ex aut blanditiis non qui.",
     "Deleted": false,
-    "Rank": 344,
-    "Type": "soluta",
-    "ColorBlock": 666,
-    "IconHint": "ratione",
+    "Rank": 897,
+    "Type": "quia",
+    "ColorBlock": 571,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2003-12-13T11:44:43.2418644+01:00",
+    "LastChanged": "2000-10-02T11:16:14.668281+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Waelchi LLC",
-        "ToolTip": "Quae vero.",
-        "Deleted": false,
-        "Rank": 577,
-        "Type": "rerum",
-        "ColorBlock": 785,
-        "IconHint": "quas",
+        "Id": 758,
+        "Name": "Walsh, Friesen and Nolan",
+        "ToolTip": "Repudiandae natus quasi ipsum reprehenderit maxime commodi autem.",
+        "Deleted": true,
+        "Rank": 18,
+        "Type": "tempora",
+        "ColorBlock": 406,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2002-04-07T11:44:43.2418644+02:00",
+        "LastChanged": "2023-02-02T11:16:14.668281+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "possimus",
-        "Hidden": true,
-        "FullName": "Jaquelin Herman",
+        "ExtraInfo": "architecto",
+        "StyleHint": "accusantium",
+        "Hidden": false,
+        "FullName": "Wellington Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 451
+            "FieldType": "System.Int32",
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ipsa",
     "Hidden": true,
-    "FullName": "Erick Halvorson",
+    "FullName": "Darwin Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 162
       }
     }
   }

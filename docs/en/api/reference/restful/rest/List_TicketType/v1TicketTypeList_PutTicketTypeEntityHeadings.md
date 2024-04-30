@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Dicki, Rath and Shanahan",
-    "Tooltip": "laudantium",
+    "HeadingId": 363,
+    "Name": "Breitenberg-Haag",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 377
+    "Rank": 361,
+    "UdListDefinitionId": 316
   },
   {
-    "HeadingId": 415,
-    "Name": "Dicki, Rath and Shanahan",
-    "Tooltip": "laudantium",
+    "HeadingId": 363,
+    "Name": "Breitenberg-Haag",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 587,
-    "UdListDefinitionId": 377
+    "Rank": 361,
+    "UdListDefinitionId": 316
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 294,
-    "Name": "Hessel Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 862,
+    "Name": "Heller Group",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 321,
+    "Rank": 662,
+    "UdListDefinitionId": 161,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 447,
-    "Name": "Green LLC",
-    "OrgNr": "159659",
+    "ContactId": 255,
+    "Name": "Bode, Collier and Breitenberg",
+    "OrgNr": "1562297",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ea",
-    "DirectPhone": "899.057.4811 x390",
-    "AssociateId": 549,
-    "CountryId": 761,
-    "EmailAddress": "alexandra@marks.us",
-    "Kananame": "vero",
-    "EmailAddressName": "elbert@reilly.uk",
+    "City": "aperiam",
+    "DirectPhone": "1-524-652-1818 x373",
+    "AssociateId": 54,
+    "CountryId": 695,
+    "EmailAddress": "theodore_willms@cummerata.co.uk",
+    "Kananame": "in",
+    "EmailAddressName": "keegan_wehner@hayes.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Alba Schuster",
+    "AssociateFullName": "Lyric Kiehn",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "nihil",
-    "FullName": "Rick Millie Kreiger Sr.",
+    "FormattedAddress": "libero",
+    "FullName": "Ms. Elbert Reynold Doyle V",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 268,
-    "Number1": "1064800",
-    "Number2": "1491053",
+    "ActiveErpLinks": 730,
+    "Number1": "460145",
+    "Number2": "1115255",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 231,
-    "Name": "Hagenes-Vandervort",
-    "MaxDataAge": 941,
-    "NumberOfUsers": 885,
-    "NumberOfLogins": 100,
+    "AreaId": 72,
+    "Name": "Wisozk-Crooks",
+    "MaxDataAge": 604,
+    "NumberOfUsers": 876,
+    "NumberOfLogins": 784,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldLength": 199
       }
     }
   }

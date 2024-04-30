@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 781,
-  "PlainMessage": "sit",
-  "HtmlMessage": "inventore",
-  "SmsMessage": "et",
-  "Description": "Decentralized solution-oriented workforce",
-  "Subject": "in",
-  "FolderId": 574,
-  "HeaderField": "accusamus",
-  "Design": "et",
+  "ShipmentMessageId": 755,
+  "PlainMessage": "architecto",
+  "HtmlMessage": "quia",
+  "SmsMessage": "nemo",
+  "Description": "Operative eco-centric moratorium",
+  "Subject": "nisi",
+  "FolderId": 319,
+  "HeaderField": "error",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Enhanced zero defect matrices",
-  "AccessKey": "illum",
-  "DocumentMessage": 186,
-  "Registered": "2011-10-02T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 840,
-  "Updated": "2008-04-09T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 563,
-  "UpdatedCount": 31
+  "InlineImages": false,
+  "LongDescription": "Automated context-sensitive middleware",
+  "AccessKey": "ex",
+  "DocumentMessage": 274,
+  "Registered": "1998-02-17T11:16:14.2304645+01:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2023-01-05T11:16:14.2304645+01:00",
+  "UpdatedAssociateId": 41,
+  "UpdatedCount": 513
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 886,
-  "PlainMessage": "sed",
-  "HtmlMessage": "tenetur",
-  "SmsMessage": "libero",
-  "Description": "Up-sized mobile firmware",
-  "Subject": "minus",
-  "FolderId": 496,
-  "HeaderField": "laboriosam",
-  "Design": "quia",
+  "ShipmentMessageId": 713,
+  "PlainMessage": "deserunt",
+  "HtmlMessage": "autem",
+  "SmsMessage": "eum",
+  "Description": "Grass-roots 5th generation definition",
+  "Subject": "libero",
+  "FolderId": 724,
+  "HeaderField": "ut",
+  "Design": "voluptatibus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Balanced high-level focus group",
-  "AccessKey": "explicabo",
-  "DocumentMessage": 75,
-  "Registered": "2016-05-12T11:44:42.5545135+02:00",
-  "RegisteredAssociateId": 291,
-  "Updated": "2004-03-31T11:44:42.5545135+02:00",
-  "UpdatedAssociateId": 557,
-  "UpdatedCount": 541,
+  "LongDescription": "Multi-tiered solution-oriented conglomeration",
+  "AccessKey": "quia",
+  "DocumentMessage": 552,
+  "Registered": "2008-09-10T11:16:14.2304645+02:00",
+  "RegisteredAssociateId": 113,
+  "Updated": "2003-03-04T11:16:14.2304645+01:00",
+  "UpdatedAssociateId": 530,
+  "UpdatedCount": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 724
     }
   },
   "_Links": {

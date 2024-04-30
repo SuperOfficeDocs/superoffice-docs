@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 608,
+  "PersonId": 172,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zieme, Farrell and Effertz",
-    "SaleDate": "2006-09-24T11:44:34.4001629+02:00",
-    "SaleId": 281,
-    "Probability": 635,
-    "Title": "ea",
-    "Amount": 2334.83,
-    "Currency": "doloremque",
-    "ProjectName": "Champlin, Stokes and Deckow",
-    "AssociateFullName": "Gilbert Gerardo Stark DDS",
-    "Description": "Mandatory dynamic knowledge user",
+    "ContactName": "Grimes-Cormier",
+    "SaleDate": "1997-07-04T11:16:09.6846608+02:00",
+    "SaleId": 392,
+    "Probability": 526,
+    "Title": "et",
+    "Amount": 10122.82,
+    "Currency": "sed",
+    "ProjectName": "Mueller, Cormier and Marks",
+    "AssociateFullName": "Prof. Lulu Grady Haag",
+    "Description": "Organic multimedia knowledge base",
     "Status": "Lost",
-    "WeightedAmount": 10592.92,
-    "ProjectId": 405,
-    "EarningPercent": 12517.196,
-    "Earning": 4791.8859999999995,
-    "ContactId": 108,
-    "AssociateId": 972,
-    "PersonId": 308,
-    "SaleTypeId": 184,
-    "SaleTypeName": "Abshire-Kihn",
-    "PersonFullName": "Yazmin Kuhlman III",
+    "WeightedAmount": 11652.212,
+    "ProjectId": 33,
+    "EarningPercent": 19339.914,
+    "Earning": 17008.218,
+    "ContactId": 659,
+    "AssociateId": 179,
+    "PersonId": 170,
+    "SaleTypeId": 589,
+    "SaleTypeName": "Spinka-Blick",
+    "PersonFullName": "Aaron Strosin",
     "Completed": "Completed",
-    "ActiveErpLinks": 454,
-    "NextDueDate": "2001-08-23T11:44:34.4001629+02:00",
-    "Number": "274353",
+    "ActiveErpLinks": 461,
+    "NextDueDate": "2009-07-11T11:16:09.6846608+02:00",
+    "Number": "692788",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 40
       }
     }
   }

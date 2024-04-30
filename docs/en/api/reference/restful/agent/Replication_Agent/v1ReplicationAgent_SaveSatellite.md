@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 705,
-  "Created": "2013-01-20T11:44:34.3220571+01:00",
+  "SatelliteId": 374,
+  "Created": "2021-08-04T11:16:09.6317604+02:00",
   "CreatedBy": null,
-  "Updated": "2004-04-06T11:44:34.3220571+02:00",
+  "Updated": "2011-10-12T11:16:09.6317604+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "McGlynn-Rolfson",
-      "Description": "Ergonomic hybrid conglomeration",
+      "Name": "Stokes-Quitzon",
+      "Description": "Programmable next generation framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McGlynn-Rolfson",
-      "Description": "Ergonomic hybrid conglomeration",
+      "Name": "Stokes-Quitzon",
+      "Description": "Programmable next generation framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 730,
-  "Created": "2017-02-25T11:44:34.3220571+01:00",
+  "SatelliteId": 782,
+  "Created": "1999-02-12T11:16:09.6317604+01:00",
   "CreatedBy": null,
-  "Updated": "2005-02-18T11:44:34.3220571+01:00",
+  "Updated": "2009-09-16T11:16:09.6317604+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Senger, DuBuque and Hand",
-      "Description": "Extended background utilisation",
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Self-enabling bottom-line analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     },
     {
-      "Name": "Senger, DuBuque and Hand",
-      "Description": "Extended background utilisation",
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Self-enabling bottom-line analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldType": "System.Int32",
+          "FieldLength": 498
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 726
     }
   }
 }

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 677,
-  "LanguageCode": "rerum"
+  "DocumentTemplateId": 202,
+  "LanguageCode": "inventore"
 }
 ```
 

@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Daugherty Group",
-      "Operator": "tempora",
+      "Name": "Jones, Hayes and Batz",
+      "Operator": "id",
       "Values": [
-        "laboriosam",
-        "enim"
+        "inventore",
+        "expedita"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "velit"
+        "porro",
+        "voluptates"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 885,
+      "InterParenthesis": 634,
       "InterOperator": "And",
-      "UniqueHash": 658
+      "UniqueHash": 953
     }
   ],
-  "ProviderName": "Jacobs, Block and Mante",
+  "ProviderName": "Wintheiser LLC",
   "DesiredColumns": [
-    "numquam",
-    "et"
+    "temporibus",
+    "neque"
   ],
-  "PageSize": 947,
-  "PageNumber": 41
+  "PageSize": 634,
+  "PageNumber": 393
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Effertz LLC",
-      "DisplayTooltip": "error",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Larson Inc and Sons",
+      "DisplayName": "Huel, Zemlak and Reilly",
+      "DisplayTooltip": "velit",
+      "DisplayType": "quis",
+      "CanOrderBy": false,
+      "Name": "Hyatt-McGlynn",
       "CanRestrictBy": true,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Hermiston, Graham and Thiel",
-      "IsVisible": true,
-      "ExtraInfo": "reprehenderit",
-      "Width": "ad",
-      "IconHint": "et",
-      "HeadingIconHint": "ut"
+      "RestrictionType": "aut",
+      "RestrictionListName": "Brown, Donnelly and Hammes",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "at",
+      "IconHint": "nisi",
+      "HeadingIconHint": "ipsum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Greenholt, Cartwright and Weimann",
-      "PrimaryKey": 657,
+      "EntityName": "Boyer LLC",
+      "PrimaryKey": 678,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "maiores",
-          "LinkHint": "animi"
+          "DisplayValue": "commodi",
+          "TooltipHint": "fuga",
+          "LinkHint": "quisquam"
         }
       },
-      "LinkHint": "id",
-      "StyleHint": "quaerat",
+      "LinkHint": "molestiae",
+      "StyleHint": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 432
         }
       }
     }
   ],
-  "RowCount": 280,
+  "RowCount": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 77
     }
   }
 }

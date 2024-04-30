@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Mann, Nienow and Prosacco",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "UdListDefinitionId": 857,
-  "Rank": 894
+  "Id": 747,
+  "Name": "Lebsack Inc and Sons",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 377,
+  "Rank": 755
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Robel-Kirlin",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 475,
-  "Rank": 220,
+  "Id": 11,
+  "Name": "Dickinson Group",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "UdListDefinitionId": 225,
+  "Rank": 860,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

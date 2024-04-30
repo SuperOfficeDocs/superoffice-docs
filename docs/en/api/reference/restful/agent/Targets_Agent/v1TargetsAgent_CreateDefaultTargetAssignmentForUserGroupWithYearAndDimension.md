@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 353,
-  "Year": 782,
-  "TargetDimensionId": 191
+  "UserGroupId": 672,
+  "Year": 2,
+  "TargetDimensionId": 642
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 229,
+    "TargetAssignmentInfoId": 478,
     "Values": [
-      687,
-      561
+      498,
+      677
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 226,
-    "DimensionListItemDisplayName": "Trantow-Sawayn",
+    "DimensionListItem": 277,
+    "DimensionListItemDisplayName": "Beatty-Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldLength": 779
       }
     }
   }

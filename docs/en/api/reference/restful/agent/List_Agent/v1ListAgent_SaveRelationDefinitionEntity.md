@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 308,
-  "Name": "Franecki LLC",
-  "Tooltip": "praesentium",
-  "PassiveText": "excepturi",
-  "Deleted": true,
-  "Rank": 933,
+  "ReldefId": 712,
+  "Name": "Bogan-Langosh",
+  "Tooltip": "omnis",
+  "PassiveText": "ut",
+  "Deleted": false,
+  "Rank": 26,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 386,
-  "Name": "Runolfsdottir-Parisian",
-  "Tooltip": "ratione",
-  "PassiveText": "id",
+  "ReldefId": 820,
+  "Name": "Tromp-Glover",
+  "Tooltip": "odio",
+  "PassiveText": "labore",
   "Deleted": false,
-  "Rank": 893,
+  "Rank": 687,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Bahringer-Feil",
-  "AssociateId": 340,
-  "DetailsTable": 141,
-  "DetailsRecord": 172,
+  "Id": 744,
+  "Name": "Cummings Inc and Sons",
+  "AssociateId": 489,
+  "DetailsTable": 808,
+  "DetailsRecord": 283,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "numquam",
-    "ParameterObject2": "pariatur"
+    "ParameterObject1": "magnam",
+    "ParameterObject2": "quasi"
   },
-  "LastStarted": "2002-09-18T11:44:42.7107372+02:00",
-  "Created": "2002-03-31T11:44:42.7107372+02:00",
-  "StartCount": 33,
-  "DatabaseSerialNumber": "259802",
-  "Context": "ea",
-  "Result": "dignissimos",
+  "LastStarted": "2022-05-09T11:16:14.3398362+02:00",
+  "Created": "2006-08-11T11:16:14.3398362+02:00",
+  "StartCount": 3,
+  "DatabaseSerialNumber": "1853617",
+  "Context": "consectetur",
+  "Result": "esse",
   "State": "All",
-  "Description": "Mandatory exuding application",
-  "Response": "nihil",
-  "Request": "eveniet",
-  "ProgressDescription": "Persistent explicit forecast",
-  "ProgressPercent": 340,
-  "FileName": "Haley, Schneider and Mitchell",
+  "Description": "Synergized user-facing software",
+  "Response": "officiis",
+  "Request": "temporibus",
+  "ProgressDescription": "Seamless optimal software",
+  "ProgressPercent": 868,
+  "FileName": "Willms-Hackett",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 616
     }
   }
 }

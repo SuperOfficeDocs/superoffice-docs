@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 102,
-  "Id": 630,
-  "HistoryName": "Gutmann, Quitzon and Gleason",
-  "HistoryId": 421,
-  "AssociateId": 88,
-  "Name": "Denesik-Denesik",
-  "ItemInfo": "est",
+  "Rank": 507,
+  "Id": 544,
+  "HistoryName": "Deckow Group",
+  "HistoryId": 4,
+  "AssociateId": 80,
+  "Name": "Bode Group",
+  "ItemInfo": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

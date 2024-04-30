@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 288,
-  "SourcePersonId": 687,
+  "SourceContactId": 873,
+  "SourcePersonId": 649,
   "DestinationContactId": 579,
-  "DestinationPersonId": 709,
-  "RelationId": 351,
-  "Comment": "voluptas",
-  "RelationDefinitionId": 879,
-  "Reversed": 706,
-  "UpdatedDate": "2022-11-20T11:44:41.8671838+01:00",
-  "CreatedDate": "2005-04-11T11:44:41.8671838+02:00",
+  "DestinationPersonId": 394,
+  "RelationId": 84,
+  "Comment": "sequi",
+  "RelationDefinitionId": 882,
+  "Reversed": 791,
+  "UpdatedDate": "2022-04-14T11:16:13.83947+02:00",
+  "CreatedDate": "2016-05-30T11:16:13.83947+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Dickinson, Schaden and Hammes",
-  "SourcePersonName": "Buckridge LLC",
-  "DestinationContactName": "Moore-Ritchie",
-  "DestinationPersonName": "Gutmann LLC",
-  "ActiveText": "exercitationem",
-  "PassiveText": "voluptates"
+  "SourceContactName": "Robel, Christiansen and Gutkowski",
+  "SourcePersonName": "Ziemann LLC",
+  "DestinationContactName": "Fisher Group",
+  "DestinationPersonName": "Ward Inc and Sons",
+  "ActiveText": "ab",
+  "PassiveText": "dolor"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 23,
-  "SourcePersonId": 215,
-  "DestinationContactId": 427,
-  "DestinationPersonId": 517,
-  "RelationId": 936,
-  "Comment": "doloribus",
-  "RelationDefinitionId": 821,
-  "Reversed": 609,
-  "UpdatedDate": "2006-10-29T11:44:41.8671838+01:00",
-  "CreatedDate": "2013-04-12T11:44:41.8671838+02:00",
+  "SourceContactId": 213,
+  "SourcePersonId": 54,
+  "DestinationContactId": 255,
+  "DestinationPersonId": 861,
+  "RelationId": 776,
+  "Comment": "voluptatibus",
+  "RelationDefinitionId": 255,
+  "Reversed": 337,
+  "UpdatedDate": "2015-07-01T11:16:13.83947+02:00",
+  "CreatedDate": "2011-02-06T11:16:13.83947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mohr-Dare",
-  "SourcePersonName": "Hilll, Kiehn and Lubowitz",
-  "DestinationContactName": "Shields, Graham and Dickinson",
-  "DestinationPersonName": "Hoppe LLC",
-  "ActiveText": "at",
-  "PassiveText": "enim",
+  "SourceContactName": "Stanton-Ebert",
+  "SourcePersonName": "Bartoletti, Champlin and Miller",
+  "DestinationContactName": "Leffler, Jakubowski and Davis",
+  "DestinationPersonName": "Bode LLC",
+  "ActiveText": "est",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   },
   "_Links": {

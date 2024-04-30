@@ -773,7 +773,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=text,NumberOfNotCompletedActivities,appointment/completed,appointment/intention,projectMember/title
+GET /api/v1/archive/ConfigurableArchiveProject?$select=projectAssociate/isActive,sale/hasGuide,appointment/alarm,appointment/appointmentUdef/SuperOffice:7,document/attention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

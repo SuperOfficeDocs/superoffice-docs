@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 987
+  "QuoteVersionId": 41
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 13,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 813,
-  "Description": "Enterprise-wide mobile middleware",
-  "Number": "280675",
+  "QuoteVersionId": 918,
+  "ERPQuoteVersionKey": "voluptatem",
+  "QuoteId": 99,
+  "Description": "Public-key zero administration Graphic Interface",
+  "Number": "1107403",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 985,
-  "SentDate": "2005-11-06T11:44:34.2439386+01:00",
-  "FollowupId": 674,
-  "ExpirationDate": "2008-07-01T11:44:34.2439386+02:00",
-  "DeliveryCountryId": 652,
+  "LikelyQuoteAlternativeId": 380,
+  "SentDate": "2003-07-30T11:16:09.5848946+02:00",
+  "FollowupId": 938,
+  "ExpirationDate": "2021-04-27T11:16:09.5848946+02:00",
+  "DeliveryCountryId": 78,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 974,
+  "InvoiceCountryId": 503,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "dolore",
-  "ERPPaymentTypeKey": "debitis",
-  "ERPDeliveryTermsKey": "neque",
-  "ERPDeliveryTypeKey": "blanditiis",
-  "Rank": 623,
-  "ApprovedBy": 58,
-  "ApprovedText": "in",
-  "ApprovedRegisteredBy": 711,
-  "ApprovedRegisteredDate": "2010-08-02T11:44:34.2439386+02:00",
-  "ExtraField1": "est",
+  "ERPPaymentTermsKey": "sint",
+  "ERPPaymentTypeKey": "eligendi",
+  "ERPDeliveryTermsKey": "tempore",
+  "ERPDeliveryTypeKey": "neque",
+  "Rank": 97,
+  "ApprovedBy": 785,
+  "ApprovedText": "placeat",
+  "ApprovedRegisteredBy": 790,
+  "ApprovedRegisteredDate": "1999-04-16T11:16:09.5848946+02:00",
+  "ExtraField1": "quisquam",
   "ExtraField2": "ut",
-  "ExtraField3": "excepturi",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "ipsam",
-  "LastRecalculated": "2019-02-15T11:44:34.2439386+01:00",
-  "Updated": "2007-11-19T11:44:34.2439386+01:00",
-  "UpdatedAssociateId": 421,
-  "Registered": "2021-10-20T11:44:34.2439386+02:00",
-  "RegisteredAssociateId": 532,
-  "RequestAssociateId": 107,
-  "RequestComment": "accusantium",
+  "ExtraField3": "aut",
+  "ExtraField4": "aut",
+  "ExtraField5": "amet",
+  "LastRecalculated": "1998-03-17T11:16:09.5848946+01:00",
+  "Updated": "2004-08-10T11:16:09.5848946+02:00",
+  "UpdatedAssociateId": 454,
+  "Registered": "2017-03-21T11:16:09.5848946+01:00",
+  "RegisteredAssociateId": 945,
+  "RequestAssociateId": 652,
+  "RequestComment": "neque",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 233,
-      "ERPQuoteAlternativeKey": "eos",
-      "QuoteVersionId": 237,
-      "Name": "Hegmann-Marquardt",
-      "Description": "Profound neutral neural-net",
+      "QuoteAlternativeId": 61,
+      "ERPQuoteAlternativeKey": "autem",
+      "QuoteVersionId": 463,
+      "Name": "Anderson LLC",
+      "Description": "Decentralized tangible data-warehouse",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30609.778,
-      "ERPDiscountAmount": 29371.847999999998,
-      "DiscountPercent": 14657.717999999999,
-      "DiscountAmount": 9981.7899999999991,
+      "ERPDiscountPercent": 16055.482,
+      "ERPDiscountAmount": 21580.724,
+      "DiscountPercent": 25093.938,
+      "DiscountAmount": 26347.538,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aut",
-      "VAT": 6760.038,
-      "EarningPercent": 2265.882,
-      "EarningAmount": 5826.106,
-      "SubTotal": 15525.836,
-      "TotalPrice": 24272.829999999998,
-      "ExtraField1": "rerum",
-      "ExtraField2": "hic",
-      "ExtraField3": "necessitatibus",
-      "ExtraField4": "ea",
-      "ExtraField5": "qui",
+      "VATInfo": "deserunt",
+      "VAT": 15181.096,
+      "EarningPercent": 23965.698,
+      "EarningAmount": 6465.442,
+      "SubTotal": 28152.721999999998,
+      "TotalPrice": 5822.972,
+      "ExtraField1": "id",
+      "ExtraField2": "veniam",
+      "ExtraField3": "debitis",
+      "ExtraField4": "molestias",
+      "ExtraField5": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 915
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 668
     }
   }
 }

@@ -16,6 +16,14 @@ TicketTypeProvider creates a flat list based on the table: TICKET_TYPE
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketTypeProvider">TicketTypeProvider</see> class.
 The name of the MDO list is 'tickettype'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|onlyForMenu| |false|
+|Describes if call is coming from admin system| admin|false|
+
+
 
 
 
@@ -42,7 +50,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Request||isDefault=1&description=&defaultStatus=0&defaultPriority=0|
+|1|Request||isDefault=1&description=&defaultStatus=0&defaultPriority=0&showInNew=0&excludeSignature=0&excludeEmailRecipients=0&externalAsDefault=0|
 
 
 ## Related MDO Lists

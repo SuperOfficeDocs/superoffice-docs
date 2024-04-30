@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 443,
-    "Name": "Macejkovic, Hickle and Kiehn",
-    "ConsentText": "dolor",
-    "FormText": "eos",
-    "Key": "rerum",
-    "Tooltip": "est",
-    "Active": 480,
-    "UpdatedDate": "1997-05-04T11:44:33.8690333+02:00",
+    "ConsentPurposeId": 628,
+    "Name": "Connelly-Wiegand",
+    "ConsentText": "delectus",
+    "FormText": "voluptates",
+    "Key": "est",
+    "Tooltip": "eos",
+    "Active": 852,
+    "UpdatedDate": "2018-10-19T11:16:09.3503293+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 861,
-    "PrivacyStatementDesc": "libero",
+    "Rank": 942,
+    "PrivacyStatementDesc": "laudantium",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 182
       }
     }
   }

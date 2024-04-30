@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quia",
-  "Key": "qui",
+  "Section": "distinctio",
+  "Key": "iusto",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 352,
-  "Section": "quisquam",
-  "Key": "et",
-  "Name": "Satterfield Inc and Sons",
+  "PrefDescId": 151,
+  "Section": "quas",
+  "Key": "sed",
+  "Name": "Hodkiewicz LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed 24 hour portal",
+  "Description": "Synergized local leverage",
   "IsBuiltin": false,
-  "TableName": "Koelpin Group",
-  "UserDefinedListId": 272,
-  "Rank": 730,
-  "SubGroup": "voluptates",
-  "MinLevel": 13,
-  "MaxValue": 219,
-  "MinValue": 243,
-  "RequiredLicense": "odit",
+  "TableName": "Ebert-Murray",
+  "UserDefinedListId": 634,
+  "Rank": 424,
+  "SubGroup": "rerum",
+  "MinLevel": 155,
+  "MaxValue": 465,
+  "MinValue": 235,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldType": "System.String",
+      "FieldLength": 981
     }
   }
 }

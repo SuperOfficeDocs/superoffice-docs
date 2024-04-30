@@ -68,6 +68,7 @@ OK
 | ExcludeSignature | bool | Do not insert user signature automatically |
 | ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
 | ExternalAsDefault | bool | Ability to set external access level for this request type |
+| VisibleForGroups | array | Array of references to the visible for groups |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -77,7 +78,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,34 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 653,
-  "Name": "Emmerich, Wiegand and Fahey",
-  "Rank": 887,
-  "Tooltip": "sit",
-  "Icon": "id",
-  "DefaultTicketStatus": 583,
+  "TicketTypeId": 489,
+  "Name": "Barrows LLC",
+  "Rank": 848,
+  "Tooltip": "nemo",
+  "Icon": "aut",
+  "DefaultTicketStatus": 231,
   "TicketStatuses": [
-    482,
-    550
+    340,
+    661
   ],
-  "DefaultTicketPriority": 862,
+  "DefaultTicketPriority": 913,
   "TicketPriorities": [
-    980,
-    25
+    957,
+    440
   ],
-  "ReplyTemplate": 112,
+  "ReplyTemplate": 824,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
+  "VisibleForGroups": [
+    772,
+    491
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

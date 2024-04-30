@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=quia
+GET /api/v1/List/Competitor/MDOItems?query=maxime
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Corkery, Kovacek and Christiansen",
-    "ToolTip": "Molestiae magni quia occaecati facilis.",
+    "Id": 382,
+    "Name": "Kuvalis, Gleason and Larson",
+    "ToolTip": "Quis iure facere numquam.",
     "Deleted": false,
-    "Rank": 108,
-    "Type": "temporibus",
+    "Rank": 756,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Marks-Eichmann",
-        "ToolTip": "Tenetur cupiditate.",
-        "Deleted": true,
-        "Rank": 855,
-        "Type": "quia",
+        "Id": 501,
+        "Name": "Goldner Group",
+        "ToolTip": "Voluptatem corrupti qui velit repellat rerum laudantium.",
+        "Deleted": false,
+        "Rank": 316,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 953,
-        "ExtraInfo": "sed",
-        "StyleHint": "in",
-        "FullName": "Eugene Schneider",
+        "IconHint": "et",
+        "ColorBlock": 505,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "cum",
+        "FullName": "Kiara Crist Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 551
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 8,
-    "ExtraInfo": "repellat",
-    "StyleHint": "mollitia",
-    "FullName": "Alfonso Flatley",
+    "IconHint": "ullam",
+    "ColorBlock": 64,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "harum",
+    "FullName": "Joy Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 918
       }
     }
   }

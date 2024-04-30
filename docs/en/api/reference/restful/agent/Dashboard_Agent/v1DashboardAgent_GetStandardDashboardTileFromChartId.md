@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "non"
+  "ChartId": "ut"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 542,
-  "Caption": "natus",
-  "Description": "Distributed demand-driven service-desk",
-  "ChartName": "Ziemann-Leannon",
-  "ChartId": "ab",
+  "DashboardTileId": 264,
+  "Caption": "nesciunt",
+  "Description": "Monitored foreground approach",
+  "ChartName": "Daniel-Zulauf",
+  "ChartId": "consequatur",
   "IsDefault": true,
-  "AssociateId": 981,
-  "GroupId": 89,
-  "SelectionId": 576,
-  "Config": "non",
+  "AssociateId": 281,
+  "GroupId": 438,
+  "SelectionId": 185,
+  "Config": "rerum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Okuneva, Kris and Bayer",
-      "Description": "Object-based logistical focus group",
+      "Name": "Crooks, Crooks and Mills",
+      "Description": "De-engineered local interface",
       "Type": "Boolean",
-      "ListName": "VonRueden-Fay",
+      "ListName": "Koch-McDermott",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "magnam",
+      "Value": "aliquid",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldType": "System.String",
+          "FieldLength": 825
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 490,
+      "VisibleId": 793,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 944
         }
       }
     },
     {
-      "VisibleId": 490,
+      "VisibleId": 793,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 944
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   }
 }

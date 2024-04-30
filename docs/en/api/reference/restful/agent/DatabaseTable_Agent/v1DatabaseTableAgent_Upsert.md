@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morissette, Daniel and Lubowitz",
+  "TableName": "Rosenbaum-Carroll",
   "Columns": [
-    "rerum",
-    "illo"
+    "repellat",
+    "et"
   ],
   "Keys": [
-    "vel",
-    "voluptas"
+    "reiciendis",
+    "laboriosam"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "quas",
-  "Inserts": 321,
-  "Updates": 829,
-  "Deletes": 132,
+  "Success": false,
+  "Message": "eaque",
+  "Inserts": 432,
+  "Updates": 818,
+  "Deletes": 881,
   "RowStatus": [
     {
-      "PrimaryKey": 541,
+      "PrimaryKey": 380,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "veritatis",
-        "eos"
+        "itaque",
+        "vero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     },
     {
-      "PrimaryKey": 541,
+      "PrimaryKey": 380,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "veritatis",
-        "eos"
+        "itaque",
+        "vero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

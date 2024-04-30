@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=quam
-GET /api/v1/Sale/{id}/Links?$top=420
-GET /api/v1/Sale/{id}/Links?$skip=588
+GET /api/v1/Sale/{id}/Links?$entities=et
+GET /api/v1/Sale/{id}/Links?$top=591
+GET /api/v1/Sale/{id}/Links?$skip=3
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Links?$context=cum
+GET /api/v1/Sale/{id}/Links?$context=delectus
 GET /api/v1/Sale/{id}/Links?$format=JSON
-GET /api/v1/Sale/{id}/Links?$jsonSafe=True
+GET /api/v1/Sale/{id}/Links?$jsonSafe=False
 GET /api/v1/Sale/{id}/Links?$output=Display
 ```
 
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "similique",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 9410,
-      "EntityName": "sale",
-      "saleId": 9410,
-      "contactId": 9236,
-      "name": "Heller LLC"
+      "PrimaryKey": 4481,
+      "EntityName": "person",
+      "personId": 4481,
+      "fullName": "Prof. Weldon Kertzmann"
     },
     {
-      "PrimaryKey": 6324,
-      "EntityName": "sale",
-      "saleId": 6324,
-      "contactId": 8672,
-      "name": "Schiller Group"
+      "PrimaryKey": 4147,
+      "EntityName": "person",
+      "personId": 4147,
+      "fullName": "Jana Hansen"
     }
   ]
 }

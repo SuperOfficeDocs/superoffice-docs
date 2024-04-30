@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 227,
-  "StartTime": "2022-04-12T11:44:33.4160074+02:00",
-  "EndTime": "2013-09-02T11:44:33.4160074+02:00",
-  "Count": 278
+  "ContactId": 105,
+  "StartTime": "2013-03-23T11:16:09.0691155+01:00",
+  "EndTime": "2015-07-08T11:16:09.0691155+02:00",
+  "Count": 584
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 886,
-    "Attention": "culpa",
-    "Header": "impedit",
-    "Name": "Renner, Lowe and Stokes",
-    "OurRef": "debitis",
-    "YourRef": "odio",
-    "Description": "Cloned radical knowledge user",
-    "DocumentTemplate": "ea",
+    "DocumentId": 761,
+    "Attention": "consequatur",
+    "Header": "quisquam",
+    "Name": "Cole-Greenholt",
+    "OurRef": "itaque",
+    "YourRef": "et",
+    "Description": "Secured modular methodology",
+    "DocumentTemplate": "odio",
     "IsPublished": false,
-    "PersonId": 723,
-    "PersonFullName": "Casey Fadel",
-    "AssociateFullName": "Dr. Twila River Cartwright III",
-    "ContactId": 727,
-    "ContactName": "Hermiston-Klocko",
-    "ProjectId": 400,
-    "ProjectName": "Blick Inc and Sons",
-    "AssociateId": 676,
-    "Snum": 508,
-    "SaleId": 631,
-    "SaleName": "Pfannerstill Group",
+    "PersonId": 281,
+    "PersonFullName": "Sienna Marvin",
+    "AssociateFullName": "Gwendolyn Wilkinson",
+    "ContactId": 963,
+    "ContactName": "Leannon, Walker and Hayes",
+    "ProjectId": 964,
+    "ProjectName": "Blanda-Schinner",
+    "AssociateId": 90,
+    "Snum": 493,
+    "SaleId": 501,
+    "SaleName": "Herzog Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 930
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Prohaska Group",
-    "ToolTip": "Eum facilis voluptas reiciendis sit.",
-    "Deleted": true,
-    "Rank": 125,
-    "Type": "quia",
-    "ColorBlock": 105,
-    "IconHint": "nisi",
+    "Id": 178,
+    "Name": "Pollich Group",
+    "ToolTip": "Sapiente sed pariatur incidunt tempora sed.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "dolores",
+    "ColorBlock": 673,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2005-04-22T11:44:42.9294253+02:00",
+    "LastChanged": "2001-07-02T11:16:14.4808001+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Collins Inc and Sons",
-        "ToolTip": "Blanditiis et fuga.",
-        "Deleted": false,
-        "Rank": 943,
-        "Type": "labore",
+        "Id": 955,
+        "Name": "Pagac, Balistreri and Von",
+        "ToolTip": "Nemo ipsa dolor asperiores doloremque.",
+        "Deleted": true,
+        "Rank": 63,
+        "Type": "amet",
         "ColorBlock": 556,
-        "IconHint": "sint",
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2021-02-14T11:44:42.9294253+01:00",
+        "LastChanged": "2001-02-21T11:16:14.4808001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Peter Pfannerstill",
+        "ExtraInfo": "veniam",
+        "StyleHint": "numquam",
+        "Hidden": true,
+        "FullName": "Prof. Eloise Ryder Klocko IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "sed",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Kayleigh Raynor",
+    "FullName": "Jannie Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldType": "System.String",
+        "FieldLength": 783
       }
     }
   }
